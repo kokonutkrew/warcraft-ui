@@ -1,0 +1,6 @@
+# Ignore all except for everything under the Interface and WTF directories
+*
+!*/
+!Interface/**
+!WTF/**
+!.gitignore

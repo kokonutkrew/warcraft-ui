@@ -1,0 +1,16 @@
+lightweight tag 3e09aaccea45c01775ab84e5ab482e123d9d1ebe 2.4.02
+Author:	Timothy Minahan <timothy@minahan.net>
+Date:	Thu Oct 11 08:35:57 2018 +1030
+
+commit 3e09aaccea45c01775ab84e5ab482e123d9d1ebe
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Thu Oct 11 08:35:57 2018 +1030
+
+    more for #478
+
+commit 7499bb6506d9f27b9847ddba49280786b0710e16
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Thu Oct 11 08:32:59 2018 +1030
+
+    #478 Fix viewer when deleting or creating an icon.
+

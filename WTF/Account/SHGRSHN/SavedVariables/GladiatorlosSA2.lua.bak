@@ -1,0 +1,15 @@
+
+GladiatorlosSADB = {
+	["profileKeys"] = {
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["KokonutKrew"] = {
+		},
+	},
+}

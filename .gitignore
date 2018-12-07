@@ -1,6 +1,29 @@
-# Ignore all except for everything under the Interface and WTF directories
+# Ignore all
 *
+
+# Except for advanced tracking rules
 !*/
-!Interface/**
-!WTF/**
+
+# Track specific files
 !.gitignore
+
+# Recursively track the interface directory
+!Interface/**
+
+# Track Config files
+!WTF/*.wtf
+
+# Track addon data
+!WTF/Account/**/SavedVariables/**
+!WTF/Account/**/**/**/SavedVariables/**
+
+# Track settings that require an upload to Blizzard servers
+!WTF/Account/*/*.txt
+!WTF/Account/*/*.wtf
+!WTF/Account/*/*/*/*.txt
+!WTF/Account/*/*/*/bindings-cache.wtf
+
+# Whenever settings are downloaded from the server,
+# the old settings are saved in <file>.old. Log out, 
+# move them back into place and they'll be uploaded to
+# Blizzard servers.

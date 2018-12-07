@@ -1,0 +1,117 @@
+
+WoWProCharDB = {
+	["GuideStack"] = {
+		"Blanc_Suramar", -- [1]
+	},
+	["Taxi"] = {
+		["Shrine of the Storm"] = true,
+		["Bridgeport"] = true,
+		["Deadwood Cove"] = true,
+		["Shatterstone Harbor"] = true,
+		["Whitegrove Chapel"] = true,
+		["Arom's Stand"] = true,
+		["Mistvine Ledge"] = true,
+		["Anyport"] = true,
+		["Mariner's Row"] = true,
+		["Tortaka Refuge"] = true,
+		["Grimwatt's Crash"] = true,
+		["Vigil Hill"] = true,
+		["Hatherford"] = true,
+		["Brennadam"] = true,
+		["Barbthorn Ridge"] = true,
+		["Seeker's Outpost"] = true,
+		["Freehold"] = true,
+		["Outrigger Post"] = true,
+		["Hangman's Point"] = true,
+		["Xibala"] = true,
+		["Roughneck Camp"] = true,
+		["Atal'Gral"] = true,
+		["Veiled Grotto"] = true,
+		["Seekers Vista"] = true,
+		["Falconhurst"] = true,
+		["Norwington Estate"] = true,
+		["Fort Daelin"] = true,
+		["Millstone Hamlet"] = true,
+		["Deadwash"] = true,
+		["Sanctuary of the Devoted"] = true,
+		["Tol Dagor"] = true,
+		["Castaway Point"] = true,
+		["Mildenhall Meadery"] = true,
+		["Vulture's Nest"] = true,
+		["Nesingwary's Gameland"] = true,
+		["Scaletrader Post"] = true,
+		["The Amber Waves"] = true,
+		["Tidecross"] = true,
+		["Kennings Lodge"] = true,
+		["Fort Victory"] = true,
+		["Watchman's Rise"] = true,
+		["Proudmoore Keep"] = true,
+		["Castaway Encampment"] = true,
+		["Mugamba Overlook"] = true,
+		["Verdant Hollow"] = true,
+		["Redfield's Watch"] = true,
+	},
+	["Guide"] = {
+		["EmmLegionPaladin"] = {
+			["skipped"] = {
+			},
+			["completion"] = {
+			},
+			["Version"] = "8.0.1U",
+			["done"] = false,
+		},
+		["Blanc_Suramar"] = {
+			["total"] = 4,
+			["Version"] = "8.0.1U",
+			["skipped"] = {
+			},
+			["done"] = false,
+			["progress"] = 2,
+			["completion"] = {
+				"; step completed by WoWPro.SetupGuideReal() as processed already.", -- [1]
+				[3] = "; step completed by WoWPro.SetupGuideReal() as processed already.",
+			},
+		},
+		["EmmAWarCampaign"] = {
+			["skipped"] = {
+			},
+			["completion"] = {
+			},
+			["Version"] = "8.0.1U",
+			["done"] = false,
+		},
+	},
+	["AutoHideInsideInstances"] = true,
+	["EnableGrail"] = true,
+	["completedQIDs"] = {
+		[52964] = false,
+		[52837] = true,
+		[50604] = true,
+		[52840] = true,
+		[51633] = true,
+		[999999] = false,
+		[51627] = true,
+		[51642] = true,
+		[51022] = false,
+	},
+	["DebugLevel"] = 0,
+	["Enabled"] = false,
+	["BuildingLocations"] = {
+	},
+	["Trades"] = {
+	},
+	["QID2Guide"] = {
+		[52058] = "BurnTedrazilSTrek",
+		[28708] = "JamHel6062",
+		[10119] = "JamHel6062",
+		[53370] = "EmmAWarCampaign",
+		[51795] = "EmmAWarCampaign",
+	},
+	["skippedQIDs"] = {
+	},
+	["GuideVersion"] = {
+		["EmmLegionPaladin"] = "8.0.1U",
+		["Blanc_Suramar"] = "8.0.1U",
+		["EmmAWarCampaign"] = "8.0.1U",
+	},
+}

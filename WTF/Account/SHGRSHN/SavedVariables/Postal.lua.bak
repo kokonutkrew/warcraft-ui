@@ -1,0 +1,29 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Samoansavage|Stormrage|Alliance|115|DRUID", -- [1]
+				"Samoanslayer|Emerald Dream|Alliance|28|ROGUE", -- [2]
+				"Samoanstrap|Tichondrius|Horde|110|HUNTER", -- [3]
+				"Samoantitan|Stormrage|Alliance|120|PALADIN", -- [4]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoansavage - Stormrage"] = {
+		},
+		["Samoanstrap - Tichondrius"] = {
+		},
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+	},
+}

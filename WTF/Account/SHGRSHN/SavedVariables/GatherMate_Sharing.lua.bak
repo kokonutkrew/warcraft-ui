@@ -1,0 +1,20 @@
+
+GatherMate_SharingDB = {
+	["profileKeys"] = {
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoansavage - Stormrage"] = {
+		},
+		["Samoanstrap - Tichondrius"] = {
+		},
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["syncDeletes"] = true,
+		},
+	},
+}

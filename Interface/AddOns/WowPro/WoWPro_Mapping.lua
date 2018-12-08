@@ -517,8 +517,10 @@ function WoWPro:MapPoint(row)
 				local options = {
 				    title = title,
 				    callbacks = WoWProMapping_callbacks_tomtom,
-				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
-				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\GoldRing",
+				    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+				    minimap_icon_size = 20,
+				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+				    worldmap_icon_size = 16,
 				    persistent=false
 				}
 
@@ -627,9 +629,9 @@ function WoWPro:LogLocation()
     local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player [?,?@%d/%d] '%s' aka '%s'", mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
+        WoWPro:print("Player [?,?@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     else
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] '%s' aka '%s'", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     end
 end
 

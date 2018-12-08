@@ -39,8 +39,13 @@ end
 function WoWPro:ValidZone(zone)
 	if zone then
 	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-            return tostring(zone), tonumber(zone)
+            -- Using a numeric zone ID
+            if WoWPro.MapInfo[tonumber(zone)] then
+                return tostring(zone), tonumber(zone)
+            else
+                WoWPro:Error("ValidZone: Numeric Zone [%s] is unknown.", zone)
+                return nil
+            end
 	    elseif WoWPro.Zone2MapID[zone] then
 	        -- Zone found in DB
 	        return zone, WoWPro.Zone2MapID[zone]
@@ -119,6 +124,10 @@ local function ptable_inner(item)
         table.insert(ptable_buf, tostring(item))
         return
     end
+    if item_type == "boolean" then
+        table.insert(ptable_buf, tostring(item))
+        return
+    end
     if item == nil then
         table.insert(ptable_buf, "nil")
         return
@@ -174,6 +183,10 @@ end
 local wip_map_info = {}
 local wip_group_info = {}
 local wip_name_info = {}
+
+function WoWPro.DebugZones()
+  return {wip_map_info, wip_group_info, wip_name_info}
+end
 
 function WoWPro.EmitZones()
     local result = ""
@@ -271,10 +284,166 @@ function WoWPro.NameZones()
     return dirty
 end
 
+local function register_name(name, mapID)
+    if wip_name_info[name] then
+        if type(wip_name_info[name]) == "table" then
+            wip_name_info[name][mapID] = true
+        else
+            local new_table = {[mapID] = true, [wip_name_info[name]] = true}
+            wip_name_info[name] = new_table
+        end
+    else
+        wip_name_info[name] = mapID
+    end
+end
+
+local function unregister_name(name, mapID)
+    if wip_name_info[name] then
+        if type(wip_name_info[name]) == "table" then
+            wip_name_info[name][mapID] = nil
+        else
+			if wip_name_info[name] == mapID then
+                wip_name_info[name] = nil
+            end
+        end
+    end
+end
+
+function WoWPro.ProcessMapAndKids(id)
+    if wip_map_info[id] then
+        WoWPro:Warning("ProcessMapAndKids(%d): map already processed.",id)
+        return
+    end
+    local map_info = C_Map.GetMapInfo(id)
+    if not map_info then
+        WoWPro:Warning("ProcessMapAndKids(%d): no map for you!", id)
+        return
+    end
+    map_info.GroupID = C_Map.GetMapGroupID(id)
+    local nomen = map_info.name
+    WoWPro:dbp("ProcessMapAndKids(%d): %s",id, nomen)
+
+    -- If we are in a group, first set the name according to the group rules.
+    if map_info.GroupID then
+        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or C_Map.GetMapGroupMembersInfo(map_info.GroupID)
+        -- If all the group members have the name name, use the height as a suffix
+        local clones = nil
+        for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+            if clones == nil then
+                -- Save the first name
+                clones = mapGroupMemberInfo.name
+            else
+                if clones ~= mapGroupMemberInfo.name then
+                    clones = false
+                end
+            end
+        end
+        if clones then
+            WoWPro:dbp("ProcessMapAndKids(%d): group %d are clones",id, map_info.GroupID)
+            for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+                if id == mapGroupMemberInfo.mapID then
+                    nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
+                    WoWPro:dbp("ProcessMapAndKids(%d): clone group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, nomen)
+                    map_info.nick = nomen
+                    unregister_name(map_info.name, id)
+                end
+            end
+        else
+            -- Find the matching entry for us in the group member table
+            for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+                if id == mapGroupMemberInfo.mapID then
+                    if mapGroupMemberInfo.name ~= map_info.name then
+                         nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
+                         WoWPro:dbp("ProcessMapAndKids(%d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
+                         map_info.nick = nomen
+                         unregister_name(map_info.name, id)
+                    end
+                end
+            end
+        end
+    end
+
+    -- If we have a collision, then try to apply some heuristics.
+    if wip_name_info[nomen] and (wip_name_info[nomen] ~= id) then
+        if map_info.parentMapID > 0 and wip_map_info[wip_name_info[nomen]] and (map_info.parentMapID ~= wip_map_info[wip_name_info[nomen]].parentMapID) then
+            -- If we get here, we must have different parents: i.e. Shadowmoon.
+            local daddy = wip_map_info[map_info.parentMapID]
+            nomen = nomen .. "!" .. daddy.name
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %s => %s",id, map_info.name, nomen)
+                map_info.nick = nomen
+                unregister_name(map_info.name, id)
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): Unwanted step child %s collided with %d.", id, nomen, wip_name_info[nomen])
+                return
+            end
+        elseif map_info.mapType == 4 then
+            -- If we collide here, maybe we can get away with a !Dungeon suffix
+            nomen = map_info.name .. "!Dungeon"
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
+                map_info.nick = nomen
+                unregister_name(map_info.name, id)
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): Dungeon %q collided with %d.", id, nomen, wip_name_info[nomen])
+                return
+            end
+        elseif map_info.mapType == 6 then
+            -- If we collide here, we have the same parent, but not the same map id. Use the map id.
+            nomen = map_info.name .. "!" .. tostring(id)
+            if not wip_name_info[nomen] then
+                WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
+                map_info.nick = nomen
+                unregister_name(map_info.name, id)
+            else
+                WoWPro:Error("ProcessMapAndKids(%d): Instance %q collided with %d.", id, nomen, wip_name_info[nomen])
+                return
+            end
+        else
+            -- Whine!
+            WoWPro:Error("ProcessMapAndKids(%d): Unable to name %q. %s", id, nomen, ptable(wip_name_info[nomen]))
+            return
+        end
+    end
+    -- Now we have a unique name, lets map the kids
+    wip_name_info[nomen] = id
+    wip_map_info[id] = map_info
+    local children = C_Map.GetMapChildrenInfo(id)
+    map_info.children = {}
+    if children and #children > 0 then
+        for i = 1, #children do
+            map_info.children[i] = children[i].mapID
+            register_name(children[i].name, children[i].mapID)
+        end
+    end
+    table.sort(map_info.children)
+
+    for i = 1, #(map_info.children) do
+        WoWPro.ProcessMapAndKids(map_info.children[i])
+    end
+end
+
+function WoWPro.NewGenerateMapCache()
+    wip_map_info = {}
+    wip_group_info = {}
+    wip_name_info = {}
+
+    WoWPro:print("Starting recursive mapping.")
+    WoWPro.ProcessMapAndKids(946)
+    -- Try to discover disconnected maps
+    WoWPro:print("Starting iterative mapping.")
+    for i = 0, 2000 do
+        if not wip_map_info[i] then
+            WoWPro.ProcessMapAndKids(i)
+        end
+    end
+end
+
+
 function WoWPro.GenerateMapCache()
     wip_map_info = {}
     wip_group_info = {}
-   
+
     for i = 0, 2000 do
         WoWPro.CollectMap(i)
     end
@@ -282,7 +451,7 @@ function WoWPro.GenerateMapCache()
     wip_map_info[0] = {}
     wip_map_info[0].parentMapID = 0
     wip_map_info[0].name = "Cosmic"
-    
+
     local dirty
     for i = 1, 3 do
         dirty = WoWPro.NameZones()
@@ -293,7 +462,7 @@ end
 
 function WoWPro.Functionalize()
     WoWPro:Print("WoWPro:Functionalize(): 0")
-    WoWPro.GenerateMapCache()
+    WoWPro.NewGenerateMapCache()
     WoWPro:Print("WoWPro:Functionalize(): 1")
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox

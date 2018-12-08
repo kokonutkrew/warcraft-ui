@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3248/revisions/29584/view
+-- Date: 2018-08-23 19:04
+-- Who: Emmaleah
+-- Log: update old style QO. change some N steps to C (and add NC) so they will autocomplete
+
+-- URL: http://wow-pro.com/node/3248/revisions/29096/view
 -- Date: 2018-02-20 21:47
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -115,7 +125,7 @@ C Second Sample: Whelps|QID|27766|US|M|66.55,51.98|N|Finish getting any corpses 
 
 T First Sample: Wild Eggs|QID|27765|M|66.39,55.29|N|To Rhea.|
 T Second Sample: Whelps|QID|27766|M|66.39,55.29|N|To Rhea.|
-A Lifting the Veil|QID|27770|PRE|27765;27766|M|66.39,55.29|N|From Rhea.|
+A Lifting the Veil|QID|27770|PRE|27765&27766|M|66.39,55.29|N|From Rhea.|
 C Lifting the Veil|QID|27770|M|66.45,55.04|N|Witness the final piece of Rhea's studies. Basically waiting untill Nyxondra appears.|
 T Lifting the Veil|QID|27770|M|66.43,55.33|N|To Rhea.|
 A Third Sample: Implanted Eggs|QID|27771|PRE|27770|M|66.43,55.33|N|From Rhea.|
@@ -161,7 +171,7 @@ N 5th Statue|QID|27886|M|48.77,52.82|N|Turn statue twice. Close this step when d
 C The Sentinel's Game|QID|27886|M|48.04,53.1|N|6th statue: Turn statue twice.|
 
 T The Sentinel's Game|QID|27886|M|48.64,51.55|N|(UI Alert)|
-A Ancient Protectors|QID|27887|PRE|27885;27886|M|48.64,51.55|N|(UI Alert)|
+A Ancient Protectors|QID|27887|PRE|27885&27886|M|48.64,51.55|N|(UI Alert)|
 C Ancient Protectors|QID|27887|M|50.18,51.69|N|In the center room talk to and defeat both large statues.|
 T Ancient Protectors|QID|27887|M|50.18,51.69|N|(UI Alert)|
 A The Titans' Trove|QID|27913|PRE|27887|M|50.18,51.69|N|(UI Alert)|
@@ -174,13 +184,13 @@ A The Day that Deathwing Came|QID|27713|M|26.43,62.19|N|From Theldurin the Lost.
 C The Day that Deathwing Came|QID|27713|M|41.97,43.60|N|Run through the scar, punch the mobs needed, and the barriers to go through them. Enjoy punching Deathwing in the face.|
 T The Day that Deathwing Came|QID|27713|M|26.33,62.25|N|To Theldurin the Lost.|
 A The Day that Deathwing Came: The Real Story|QID|27714|PRE|27713|M|26.38,62.55|N|From Lucien Tosselwrench.|
-N Shrink the World|QID|27714|QO|1|N|Use Ability #1, until you get large enough.|; Grow large enough to reach the clouds: 1/1
-N The Day that Deathwing Came: The Real Story|QID|27714|QO|Clouds searched: 5/5|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|CN|N|Hunt for clouds, then use ability #2. The waypoints are a few of the spots where a cloud could be.|
-C The Day that Deathwing Came: The Real Story|QID|27714|M|18.7,64.4|N|Look up for the "Sun" in the sky, huge orange-ish ball, click on it.|
+C Shrink the World|QID|27714|QO|1|NC|N|Use Ability #1, until you get large enough.|
+C The Day that Deathwing Came: The Real Story|QID|27714|QO|2|NC|M|35.3,50.7;39.6,59.8;49.2,57.4;33.8,37.4;17.1,65.5;14.3,53.4|CN|N|Hunt for clouds, then use ability #2. The waypoints are a few of the spots where a cloud could be.|
+C The Day that Deathwing Came: The Real Story|QID|27714|QO|3|NC|M|18.7,64.4|N|Look up for the "Sun" in the sky, huge orange-ish ball, click on it.|
 T The Day that Deathwing Came: The Real Story|QID|27714|M|26.26,62.35|N|To Lucien Tosselwrench.|
 A The Day that Deathwing Came: What Really Happened|QID|27715|PRE|27714|M|26.24,62.38|N|From Martek the Exiled.|
-N Choose an admirer to save|QID|27715|M|26.33,62.38|QO|1|N|Choose your type. One for every taste.|; Choose an admirer to save: 1/1
-N Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|2|N|Run to the waypoint.|; Ride to the end of the canyon: 1/1
+C Choose an admirer to save|QID|27715|M|26.33,62.38|QO|1|NC|N|Choose your type. One for every taste.|; Choose an admirer to save: 1/1
+C Ride to the end of the canyon|QID|27715|M|43.38,41.13|QO|2|NC|N|Run to the waypoint.|; Ride to the end of the canyon: 1/1
 C The Day that Deathwing Came: What Really Happened|QID|27715|M|39.37,38.51|N|Fly up to Deathwing.|
 T The Day that Deathwing Came: What Really Happened|QID|27715|M|26.29,62.29|N|To Martek the Exiled.|
 
@@ -197,7 +207,7 @@ C Gargal, the Behemoth|QID|27893|M|20.94,42.89|N|Test out both abilities on any 
 T Jurrix the Striker|QID|27892|M|20.94,42.89|N|To Jurrix Whitemane.|
 T Amakkar, Jack of All Trades|QID|27891|M|20.94,42.89|N|To Amakkar.|
 T Gargal, the Behemoth|QID|27893|M|20.94,42.89|N|To Gargal.|
-A The Wrath of a Dragonflight|QID|27894|PRE|27891;27892;27893|M|20.94,42.89|N|From Amakkar.|
+A The Wrath of a Dragonflight|QID|27894|PRE|27891&27892&27893|M|20.94,42.89|N|From Amakkar.|
 A Survival of the Fattest|QID|27879|M|18.43,41.55|N|From Aidan Summerwind.|RANK|3|
 
 f New Kargath|QID|27892|M|17.19,40.05|N|From Gorrik.|
@@ -216,7 +226,7 @@ A Rheastrasza's Gift|QID|27898|PRE|27897|M|16.10,33.20|N|From Rhea.|
 C Rheastrasza's Gift|QID|27898|M|15.88,32.97|N|Cutscene.|
 T Rheastrasza's Gift|QID|27898|M|15.84,33.24|N|(UI Alert)|
 
-A Devastation|QID|27930|PRE|27858+27898|M|15.84,33.24|N|(UI Alert)|
+A Devastation|QID|27930|PRE|27858^27898|M|15.84,33.24|N|(UI Alert)|
 T Devastation|QID|27930|M|18.89,30.18|N|Inside the cave at Rhea's Final Note.|
 A The Egg Lives On|QID|27859|PRE|27930|M|18.03,30.5|N|This does not auto-complete as it is a complete only quest. So close this step when done.|
 
@@ -231,3 +241,5 @@ A To the Aid of the Thorium Brotherhood|QID|28512|LEAD|27963|M|18.43,41.55|N|Fro
 ]]
 
 end)
+
+

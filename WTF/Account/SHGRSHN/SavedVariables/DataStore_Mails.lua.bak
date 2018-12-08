@@ -10,9 +10,9 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Tichondrius.Samoanstrap"] = {
-				["lastUpdate"] = 1544167701,
-				["lastVisitDate"] = "2018/12/07 00:28",
+			["Default.Stormrage.Samoantitan"] = {
+				["lastUpdate"] = 1542331215,
+				["lastVisitDate"] = "2018/11/15 18:20",
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1543280770,
@@ -34,9 +34,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1540622665,
 				["lastVisitDate"] = "2018/10/27 00:44",
 			},
-			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1542331215,
-				["lastVisitDate"] = "2018/11/15 18:20",
+			["Default.Tichondrius.Samoanstrap"] = {
+				["lastUpdate"] = 1544167701,
+				["lastVisitDate"] = "2018/12/07 00:28",
 			},
 		},
 	},

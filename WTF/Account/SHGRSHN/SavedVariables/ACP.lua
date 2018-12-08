@@ -5,7 +5,13 @@ ACP_Data = {
 	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
-			["name"] = "Gather",
+			"WoWPro", -- [1]
+			"WoWPro_Achievements", -- [2]
+			"WoWPro_Dailies", -- [3]
+			"WoWPro_Leveling", -- [4]
+			"WowPro_Profession", -- [5]
+			"WoWPro_WorldEvents", -- [6]
+			["name"] = "Leveling",
 		}, -- [1]
 		{
 			"CaerdonWardrobe", -- [1]
@@ -15,8 +21,45 @@ ACP_Data = {
 			["name"] = "Auction",
 		}, -- [2]
 		{
+			"BattleGroundEnemies", -- [1]
+			"GladiatorlosSA2", -- [2]
+			"Ace3", -- [3]
+			"PVPSound", -- [4]
 			["name"] = "PVP",
 		}, -- [3]
+		{
+			"DBM-GUI", -- [1]
+			"DBM-ZuldazarRaid", -- [2]
+			"DBM-Brawlers", -- [3]
+			"DBM-DMF", -- [4]
+			"DBM-Interrupts", -- [5]
+			"DBM-CrucibleofStorms", -- [6]
+			"DBM-WorldEvents", -- [7]
+			["name"] = "Raid",
+		}, -- [4]
+		{
+			"FarmHud", -- [1]
+			"FishingBuddy", -- [2]
+			"GatherMate2", -- [3]
+			"GatherMate2_Data", -- [4]
+			"GatherMate_Sharing", -- [5]
+			"Ace3", -- [6]
+			"PetJournalEnhanced", -- [7]
+			"Routes", -- [8]
+			["name"] = "Gather",
+		}, -- [5]
+		{
+			"AddonUsage", -- [1]
+			["name"] = "Debug",
+		}, -- [6]
+		[24] = {
+			"Storyline", -- [1]
+			["name"] = "Storyline",
+		},
+		[25] = {
+			"Immersion", -- [1]
+			["name"] = "Immersion",
+		},
 	},
 	["collapsed"] = {
 	},
@@ -29,6 +72,7 @@ ACP_Data = {
 		["DataStore_Mails"] = true,
 		["MaxDps_Rogue"] = true,
 		["GSE_LDB"] = true,
+		["Prat-3.0_Libraries"] = true,
 		["Altoholic_Summary"] = true,
 		["MogIt"] = true,
 		["ACP"] = true,
@@ -46,7 +90,6 @@ ACP_Data = {
 		["TomTom"] = true,
 		["Auctionator"] = true,
 		["MaxDps_Monk"] = true,
-		["DBM-WorldEvents"] = true,
 		["DBM-StatusBarTimers"] = true,
 		["MaxDps_Paladin"] = true,
 		["WeakAurasOptions"] = true,
@@ -64,38 +107,41 @@ ACP_Data = {
 		["DBM-DefaultSkin"] = true,
 		["HandyNotes_BattleForAzerothTreasures"] = true,
 		["MaxDps_Mage"] = true,
+		["DataStore_Spells"] = true,
 		["MaxDps"] = true,
+		["DataStore_Achievements"] = true,
 		["PersonalLootHelper"] = true,
 		["DataStore_Agenda"] = true,
 		["sArena"] = true,
+		["!BugGrabber"] = true,
 		["BugSack"] = true,
 		["Altoholic_Guild"] = true,
 		["Skada"] = true,
-		["Altoholic_Search"] = true,
+		["Prat-3.0"] = true,
 		["ExRT"] = true,
-		["DBM-Core"] = true,
-		["DataStore_Achievements"] = true,
+		["Altoholic_Search"] = true,
+		["DataStore_Quests"] = true,
 		["DataStore_Crafts"] = true,
 		["DataStore_Auctions"] = true,
-		["MaxDps_Hunter"] = true,
 		["Altoholic_Characters"] = true,
+		["MaxDps_Hunter"] = true,
 		["Altoholic_Agenda"] = true,
 		["Altoholic"] = true,
-		["DataStore_Spells"] = true,
+		["Bartender4"] = true,
 		["DBM-Uldir"] = true,
-		["AutoFlood"] = true,
 		["MaxDps_Warlock"] = true,
 		["OrderHallCommander"] = true,
+		["AutoFlood"] = true,
 		["DataStore_Reputations"] = true,
 		["DBM-Azeroth-BfA"] = true,
 		["GSE"] = true,
 		["DataStore_Stats"] = true,
 		["MaxDps_Warrior"] = true,
 		["Immersion"] = true,
-		["DataStore_Talents"] = true,
+		["DBM-Core"] = true,
 		["Pawn"] = true,
 		["Altoholic_Grids"] = true,
-		["DataStore_Quests"] = true,
-		["!BugGrabber"] = true,
+		["MBB"] = true,
+		["DataStore_Talents"] = true,
 	},
 }

@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_wetlands
+-- Date: 2018-10-23 22:24
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3224/revisions/29578/view
+-- Date: 2018-08-23 01:49
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3224/revisions/29229/view
 -- Date: 2018-03-12 19:55
 -- Who: Emmaleah
 -- Log: edit K Gobbler so it will auto complete
@@ -186,7 +196,7 @@ A Incendicite Ore|QID|25735|M|57.82,71.61|N|From Dunlor Marblebeard.|PRE|25725|
 T Drungeld Glowerglare|QID|25727|M|57.57,71.80|N|To Forba Slabchisel.|
 A Get Out Of Here, Stalkers|QID|25733|M|57.55,71.79|N|From Forba Slabchisel.|PRE|25727|
 
-C Get Out Of Here, Stalkers|QID|25733|QO|Leech Stalker slain: 7/7|M|54.10,63.39|N|Kill spiders by the cave until you have killed 7 Leech Stalkers.|
+C Get Out Of Here, Stalkers|QID|25733|QO|1|M|54.10,63.39|N|Kill spiders by the cave until you have killed 7 Leech Stalkers.|
 R Thelgen Rock Cave|QID|25733|CC|M|52.05,62.73|N|Run into this cave.|
 C Get Out Of Here, Stalkers|QID|25733|S|M|53.99,66.00|N|Kill Cave Stalkers.|
 C Incendicite Ore|QID|25735|S|U|55240|M|47.82,65.97|N|Gather Incedicite Ore.|NC|
@@ -195,13 +205,13 @@ C Down In Thelgen Rock|QID|25734|NC|M|47.78,65.99|N|Keep to the left as you go t
 K Torrention|QID|25736|M|47.8,65.4|L|55243|N|Kill and loot Torrention, who appears behind you.|ACTIVE|25734|
 A The Floodsurge Core|QID|25736|M|47.8,65.4|U|55243|N|From the Floodsurge Core, looted from Torrention.|ACTIVE|25734|
 C Incendicite Ore|QID|25735|US|U|55240|M|47.82,65.97|N|Finish gathering the Incedicite Ore.|NC|
-C Get Out Of Here, Stalkers|QID|25733|US|M|48.54,60.83|N|Finish killing the CaveStalkers as you leave the cave.|
+C Get Out Of Here, Stalkers|QID|25733|US|M|48.54,60.83|N|Finish killing the Cave Stalkers as you leave the cave.|
 T Down In Thelgen Rock|QID|25734|M|57.50,71.49|N|To Surveyor Thurdan.|
 T Incendicite Ore|QID|25735|M|57.83,71.63|N|To Dunlor Marblebeard.|
 T Get Out Of Here, Stalkers|QID|25733|M|57.46,71.81|N|To Forba Slabchisel.|
 T The Floodsurge Core|QID|25736|M|57.46,71.81|N|To Forba Slabchisel.|
 
-A Onwards to Menethil|QID|25777|LEAD|25780|M|57.47,71.79|N|From Forba Slabchisel.|PRE|25733;25734;25735;25736|
+A Onwards to Menethil|QID|25777|LEAD|25780|M|57.47,71.79|N|From Forba Slabchisel.|PRE|25733&25734&25735&25736|
 r Repair/Restock|QID|25777|M|57.69,71.35|N|At Darvish Quickhammer.|
 R Menethil Harbor|QID|25777|M|57.07,71.67;10.53,55.66|CC|N|Click on Brisket, Slabchisel's Ram, to get a free ride to Menethil Harbor.|ACTIVE|25777|
 T Onwards to Menethil|QID|25777|M|10.53,55.66|N|To Captain Stoutfist.|
@@ -252,7 +262,7 @@ T The Eye of Paleth|QID|25819|M|10.61,60.56|N|To Glorin Steelbrow.|
 T Claws from the Deep|QID|25801|M|11.14,57.76|N|To Karl Boran.|
 T Return the Statuette|QID|25805|M|11.14,57.76|N|To Karl Boran.|
 
-A Swiftgear Station|QID|26980|M|10.47,55.70|N|From Captain Stoutfist.|PRE|25801;25819|LEAD|25864|
+A Swiftgear Station|QID|26980|M|10.47,55.70|N|From Captain Stoutfist.|PRE|25801&25819|LEAD|25864|
 T Swiftgear Station|QID|26980|M|26.83,26.14|N|To Shilah Slabchisel.|
 
 A Dinosaur Crisis|QID|25864|M|26.83,26.14|N|From Shilah Slabchisel.|
@@ -287,7 +297,7 @@ C Dark Iron Trappers|QID|25866|M|43.62,34.27|N|Kill Dark Iron Trappers and loot 
 C Gnoll Escape|QID|25867|M|45.38,34.90|US|N|Free Gnolls from the Gnoll Cages when you get keys from Dark Iron Trappers.|
 T Dark Iron Trappers|QID|25866|M|26.91,26.18|N|To Shilah Slabchisel.|
 T Gnoll Escape|QID|25867|M|26.91,26.18|N|To Shilah Slabchisel.|
-A Yorla Darksnare|QID|25868|M|26.91,26.18|N|From Shilah Slabchisel.|PRE|25866;25867|
+A Yorla Darksnare|QID|25868|M|26.91,26.18|N|From Shilah Slabchisel.|PRE|25866&25867|
 C Yorla Darksnare|QID|25868|M|41.25,22.00|N|Kill Yorla Darksnare.|
 T Yorla Darksnare|QID|25868|M|27.00,26.03|N|To Shilah Slabchisel.|
 A Whelgar's Retreat|QID|26981|LEAD|25849|M|27.00,26.03|N|From Shilah Slabchisel.|PRE|25868|
@@ -312,7 +322,7 @@ K Gorfax Angerfang|QID|26189|M|53.33,54.44|QO|1|N|Kill Gorfax Angerfang.|ACTIVE|
 C The Angerfang Menace|QID|26189|QO|2|M|53.33,54.44|N|Kill Angerfang Dragonmaw Orcs.|US|; Angerfang Dragonmaw slain: 16/16
 T The Angerfang Menace|QID|26189|M|38.94,39.46|N|To Prospector Whelgar.|
 
-A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|25850;25853;26189|
+A Who Wards The Greenwarden|QID|26195|M|38.94,39.46|N|From Prospector Whelgar.|PRE|25850&25853&26189|
 f Greenwarden's Grove|QID|26195|M|56.32,41.85|N|At Halana.|
 T Who Wards The Greenwarden|QID|26195|M|56.48,39.93|N|To Ferilon Leafborn.|
 
@@ -348,3 +358,5 @@ A Into Arathi|QID|26139|M|49.53,17.25|N|(UI Alert) Or you can get this quest fro
 ]]
 
 end)
+
+

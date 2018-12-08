@@ -26,9 +26,9 @@ WQTrackerDB = {
 				},
 				["Player-60-0A6E12EE"] = {
 				},
-				["Player-60-0A6DF395"] = {
-				},
 				["Player-11-09AF1B98"] = {
+				},
+				["Player-60-0A6DF395"] = {
 				},
 			},
 			["quests_all_characters"] = {
@@ -51,22 +51,22 @@ WQTrackerDB = {
 					["name"] = "Samoansavage",
 					["realm"] = "Stormrage",
 				},
-				["Player-60-0A6DF395"] = {
-					["class"] = "PALADIN",
-					["name"] = "Samoantitan",
-					["realm"] = "Stormrage",
-				},
 				["Player-11-09AF1B98"] = {
 					["class"] = "HUNTER",
 					["name"] = "Samoanstrap",
 					["realm"] = "Tichondrius",
 				},
+				["Player-60-0A6DF395"] = {
+					["class"] = "PALADIN",
+					["name"] = "Samoantitan",
+					["realm"] = "Stormrage",
+				},
 			},
 			["rarescan"] = {
 				["recently_killed"] = {
-					["Player-60-0A6E12EE"] = {
-					},
 					["Player-60-0A6DF395"] = {
+					},
+					["Player-60-0A6E12EE"] = {
 					},
 				},
 				["name_cache"] = {
@@ -77,34 +77,12 @@ WQTrackerDB = {
 			["TutorialToggleButton"] = 2,
 			["TutorialTaxyMap"] = true,
 			["history"] = {
-				["quest"] = {
-					["global"] = {
-						["total"] = 6,
-						[51635] = 1,
-						[52869] = 1,
-						[51639] = 1,
-						[52196] = 1,
-						[52847] = 1,
-						[51640] = 1,
-					},
-					["character"] = {
-						["Player-60-0A6DF395"] = {
-							["total"] = 6,
-							[51635] = 1,
-							[52869] = 1,
-							[51639] = 1,
-							[52196] = 1,
-							[52847] = 1,
-							[51640] = 1,
-						},
-					},
-				},
 				["period"] = {
 					["global"] = {
 						["181023"] = {
 							["artifact"] = 270,
-							["quest"] = 6,
 							["resource"] = 764,
+							["quest"] = 6,
 							["gold"] = 2787800,
 						},
 					},
@@ -112,10 +90,32 @@ WQTrackerDB = {
 						["Player-60-0A6DF395"] = {
 							["181023"] = {
 								["artifact"] = 270,
-								["quest"] = 6,
 								["resource"] = 764,
+								["quest"] = 6,
 								["gold"] = 2787800,
 							},
+						},
+					},
+				},
+				["quest"] = {
+					["global"] = {
+						["total"] = 6,
+						[51635] = 1,
+						[52869] = 1,
+						[51639] = 1,
+						[51640] = 1,
+						[52196] = 1,
+						[52847] = 1,
+					},
+					["character"] = {
+						["Player-60-0A6DF395"] = {
+							["total"] = 6,
+							[51635] = 1,
+							[52869] = 1,
+							[51639] = 1,
+							[51640] = 1,
+							[52196] = 1,
+							[52847] = 1,
 						},
 					},
 				},

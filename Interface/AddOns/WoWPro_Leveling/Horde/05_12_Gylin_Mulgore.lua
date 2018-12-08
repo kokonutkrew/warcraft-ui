@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-10-17 22:53
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3203/revisions/29719/view
+-- Date: 2018-09-10 21:58
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3203/revisions/29491/view
+-- Date: 2018-08-09 23:07
+-- Who: Ludovicus_Maior
+-- Log: Added [Ghost Howl] warning.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29451/view
 -- Date: 2018-07-29 06:16
 -- Who: Emmaleah
 -- Log: Removed Deprecated Quest "The Hunter's Way".
@@ -198,8 +213,8 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylMul0512', "Leveling", 'Mulgore', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,4,9,4.84868 )
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:GuideLevels(guide,5,9,4.84868 )
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, 'BitNor1220')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -281,7 +296,7 @@ A Wildmane Totem|QID|24523|PRE|20441|M|49.37,17.49|R|Tauren|N|From Una Wildmane.
 A Rite of Wisdom|QID|773|PRE|20441|M|49.48,17.21|R|Tauren|N|From Lorekeeper Raintotem.|
 
 A A Sacred Burial|QID|833|M|49.48,17.21|N|From Lorekeeper Raintotem.|
-K Ghost Howl|AVAILABLE|770|M|44.05,16.62|T|Ghost Howl|N|Go find Ghost Howl parolling around the well and whack him for the quest.|
+K Ghost Howl|AVAILABLE|770|M|43.13,16.01|T|Ghost Howl|N|Go find Ghost Howl parolling around the well and whack him for the quest. He is on a long spawn timer, so skip this if you like.|
 U Demon Scarred Cloak|AVAILABLE|770|U|4854|N|Click to get the quest.|
 
 T The Demon Scarred Cloak|QID|770|M|49.63,17.22|N|To Skorn Whitecloud.|
@@ -343,8 +358,10 @@ A Walk With The Earth Mother|QID|26397|PRE|24540|M|59.88,51.62|Z|Thunder Bluff|R
 F Orgrimmar|ACTIVE|26397|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
 
 R Valley of Strength|ACTIVE|26397|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
-T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.
+T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.|
 
 ]]
 
 end)
+
+

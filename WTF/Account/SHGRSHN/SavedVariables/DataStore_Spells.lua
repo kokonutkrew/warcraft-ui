@@ -11,7 +11,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544171660,
+				["lastUpdate"] = 1544242920,
 				["Spells"] = {
 					["Protection"] = {
 						8153600, -- [1]

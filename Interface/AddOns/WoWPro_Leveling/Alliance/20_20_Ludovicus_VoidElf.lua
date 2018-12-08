@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/legion_allied_races_guides
+-- Date: 2018-10-23 21:54
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3778/revisions/29464/view
+-- Date: 2018-08-01 19:22
+-- Who: Ludovicus_Maior
+-- Log: Legion Allied Races Guides
+
 local guide = WoWPro:RegisterGuide("LudoTelogrus", "Leveling", "Telogrus", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide,20,20)
 WoWPro:GuideRaceSpecific(guide,"VoidElf")
@@ -31,3 +41,5 @@ D Next Steps|N|Check off this step and the Stonetalon guide will load.|
 
 ]]
 end)
+
+

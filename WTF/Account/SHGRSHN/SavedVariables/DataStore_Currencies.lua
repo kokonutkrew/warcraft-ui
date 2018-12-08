@@ -57,11 +57,11 @@ DataStore_CurrenciesDB = {
 				["Curious Coin"] = 15,
 				["Order Resources"] = 7,
 				["Legion"] = 5,
-				["Wakening Essence"] = 10,
+				["Warlords of Draenor"] = 20,
 				["Timeworn Artifact"] = 9,
 				["Sightless Eye"] = 18,
+				["Wakening Essence"] = 10,
 				["Miscellaneous"] = 13,
-				["Warlords of Draenor"] = 20,
 				["Apexis Crystal"] = 21,
 				["Darkmoon Prize Ticket"] = 14,
 				["Oil"] = 23,
@@ -107,7 +107,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1544171658,
+				["lastUpdate"] = 1544241365,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "676-0-0-0",

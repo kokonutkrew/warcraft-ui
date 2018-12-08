@@ -788,12 +788,22 @@ function WoWPro.ResetCurrentGuide()
     if not WoWProDB.char.currentguide then return end
     local GID = WoWProDB.char.currentguide
     WoWProCharDB.Guide[GID] = nil
-    for j = 1,WoWPro.stepcount do
+    if WoWPro.stepcount then
+        for j = 1,WoWPro.stepcount do
             if WoWPro.QID[j] then
                  WoWPro:WipeQIDsInTable(WoWPro.QID[j],WoWProCharDB.skippedQIDs)
             end
+        end
     end
+    WoWPro.ClearNpcFauxQuests(GID)
+    WoWPro.ClearQID2Guide(GID)
     WoWPro:LoadGuide()
+end
+
+function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
+    -- Hack!
+    InterfaceOptionsFrame_OpenToCategory(menu)
+    InterfaceOptionsFrame_OpenToCategory(menu)
 end
 
 -- Dropdown Menu --
@@ -801,16 +811,16 @@ function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
 		{text = "About", func = function()
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 		end},
 		{text = "Display Settings", func = function()
-			InterfaceOptionsFrame_OpenToCategory("Guide Display")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
 		end},
 		{text = L["Guide List"], func = function()
-			InterfaceOptionsFrame_OpenToCategory("Guide List")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
 		end},
 		{text = L["Current Guide"], func = function()
-			InterfaceOptionsFrame_OpenToCategory("Current Guide")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
 		end},
 		{text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
 		{text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }

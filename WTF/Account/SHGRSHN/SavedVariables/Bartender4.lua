@@ -358,26 +358,6 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["KokonutKrew"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 132.073837280273,
-						["x"] = -310.677581787109,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
 		["StanceBar"] = {
 			["profiles"] = {
 				["KokonutKrew"] = {
@@ -396,6 +376,26 @@ Bartender4DB = {
 						["x"] = -460,
 						["point"] = "BOTTOM",
 						["y"] = 127,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 132.073837280273,
+						["x"] = -310.677581787109,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
 					},
 				},
 			},

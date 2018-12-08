@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3267/revisions/29570/view
+-- Date: 2018-08-22 22:58
+-- Who: jovieve
+-- Log: Removed old style QO tag.
+
+-- URL: http://wow-pro.com/node/3267/revisions/29174/view
 -- Date: 2018-02-26 21:41
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL strip
@@ -171,14 +181,14 @@ C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Finish killing the Okril'lon
 T Remove Their Arms|QID|25713|M|60.37,13.79|N|To Buttonwillow McKittrick.|
 T Nethergarde Reigns|QID|25712|M|60.17,13.56|N|To Leyan Steelson.|
 T Eliminate the Okril'lon|QID|25711|M|60.17,13.56|N|To Quartermaster Lungertz.|
-A Watcher Mahar Ba|QID|25714|PRE|25708;25709;25711|M|60.17,13.56|N|From Quartermaster Lungertz.|
+A Watcher Mahar Ba|QID|25714|PRE|25708&25709&25711|M|60.17,13.56|N|From Quartermaster Lungertz.|
 T Watcher Mahar Ba|QID|25714|M|63.11,16.77|N|Head all the way up to the top of the Mage Tower to Watcher Mahar Ba.|
 A Cultists at our Doorstep|QID|25716|PRE|25714|M|63.11,16.77|N|From Watcher Mahar Ba.|
 C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|CN|
 T Cultists at our Doorstep|QID|25716|M|63.09,16.77|N|To Watcher Mahar Ba.|
 
 A Kasim Sharim|QID|26157|PRE|25716|M|63.09,16.77|N|From Watcher Mahar Ba.|
-R Serpent's Coil|QID|26157|QO|Report to Kasim Sharim in the back of the Serpent's Coil in the Blasted Lands.|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
+R Serpent's Coil|QID|26157|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
 T Kasim Sharim|QID|26157|M|62.58,26.37|N|To Kasim Sharim.|
 A Attune the Bloodstone|QID|26158|PRE|26157|M|62.58,26.37|N|From Kasim Sharim.|
 C Attune the Bloodstone|QID|26158|NC|QO|1|M|63.19,25.96|N|Click on the Bloodstone.|
@@ -229,7 +239,7 @@ T The Amulet of Allistarj|QID|26167|M|61.37,29.93|N|Click on the Bloodstone Tele
 T The Amulet of Sevine|QID|26168|M|62.39,26.22|N|To Kasim Sharim.|
 T The Amulet of Grol|QID|26169|M|62.39,26.22|N|To Kasim Sharim.|
 
-A Time is Short|QID|26163|PRE|26167;26168;26169|M|62.39,26.22|N|From Kasim Sharim. You can also throw away the Broken Amulet that is in your inventory.|
+A Time is Short|QID|26163|PRE|26167&26168&26169|M|62.39,26.22|N|From Kasim Sharim. You can also throw away the Broken Amulet that is in your inventory.|
 T Time is Short|QID|26163|M|54.98,49.62|N|To Watcher Grimeo.|
 A The Charred Granite of the Dark Portal|QID|26164|PRE|26163|M|54.98,49.62|N|From Watcher Grimeo.|
 A The Vile Blood of Demons|QID|26165|PRE|26163|M|54.98,49.62|N|From Watcher Grimeo.|
@@ -243,7 +253,7 @@ C The Vile Blood of Demons|QID|26165|N|Kill any and all demons for their blood.|
 C The Charred Granite of the Dark Portal|QID|26164|US|U|56024|N|Look for the sparkling stones as you go.|
 T The Charred Granite of the Dark Portal|QID|26164|M|55.00,49.57|N|To Watcher Grimeo.|
 T The Vile Blood of Demons|QID|26165|M|55.00,49.57|N|To Watcher Grimeo.|
-A Enhancing the Stone|QID|26166|PRE|26164;26165|M|54.99,49.57|N|From Watcher Grimeo.|
+A Enhancing the Stone|QID|26166|PRE|26164&26165|M|54.99,49.57|N|From Watcher Grimeo.|
 T Protecting Our Rear|QID|26173|M|54.68,50.29|N|To Watch Commander Relthorn Netherwane.|
 A Watching Our Back|QID|26174|PRE|26173|M|54.68,50.29|N|From Watch Commander Relthorn Netherwane.|
 C Watching Our Back|QID|26174|M|53.96,49.93|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|
@@ -299,3 +309,5 @@ T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|N|To Mayor Charlton Con
 ]]
 
 end)
+
+

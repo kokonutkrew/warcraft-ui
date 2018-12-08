@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2018-09-10 22:13
+-- Who: Ludovicus_Maior
+-- Log: Level tweaks and new Eversong guide.
+
+-- URL: http://wow-pro.com/node/3207/revisions/29490/view
+-- Date: 2018-08-09 23:05
+-- Who: Ludovicus_Maior
+-- Log: Correct caps on [WANTED: Thaelis the Hungerer]
+
+-- URL: http://wow-pro.com/node/3207/revisions/29196/view
 -- Date: 2018-02-27 17:39
 -- Who: Ludovicus_EditBot
 -- Log: Level Strip
@@ -250,19 +260,9 @@
 --	
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
--- URL: http://wow-pro.com/node/3207/revisions/24069/view
--- Date: 2011-01-29 17:08
--- Who: Ludovicus_Maior
--- Log: Added missing QIDs to L steps.
-
--- URL: http://wow-pro.com/node/3207/revisions/23614/view
--- Date: 2010-12-05 21:08
--- Who: Crackerhead22
--- Log: Added missing steps/quests.
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)
-WoWPro:NewGuideLevels(guide,1,20)
+WoWPro:NewGuideLevels(guide,5,20)
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -283,17 +283,17 @@ T Completing the Delivery |QID|8350|N|To Innkeeper Delaniel.|M|48.1,47.7|
 h Falconwing Inn |QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|M|48.1,47.7|
 N Professions |QID|8472|N|If you plan on learning any professions, now's the time to learn it. Saren will teach all Primary and Secondary professions, he can be found on the first floor. You can also learn Cooking and First Aid on the first floor too.  \n\nClick this step to continue.|M|48.93,46.86|
 A Unstable Mana Crystals |QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|M|48.2,46.0|
-A Wanted: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|M|48.2,46.3|
+A WANTED: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|M|48.2,46.3|
 A Major Malfunction |QID|8472|N|From Magister Jaronis.|M|47.3,46.3|
 C Major Malfunction |QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|M|45,40.5|S|
 C Unstable Mana Crystals |QID|8463|S|N|Look for light beams that come out of the boxes.|M|46,42|NC|
-C Wanted: Thaelis the Hungerer |QID|8468|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
+C WANTED: Thaelis the Hungerer |QID|8468|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
 C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|M|45,40.5|US|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
 
 A Delivery to the North Sanctum |QID|8895|PRE|8472|N|From Magister Jaronis.|M|47.3,46.3|
-T Wanted: Thaelis the Hungerer |QID|8468|N|To Sergeant Kan'ren.|M|47.8,46.6|
+T WANTED: Thaelis the Hungerer |QID|8468|N|To Sergeant Kan'ren.|M|47.8,46.6|
 T Unstable Mana Crystals |QID|8463|N|To Aeldon Sunbrand.|M|48.2,46.0|
 A Darnassian Intrusions |QID|9352|PRE|8463|N|From Aeldon Sunbrand.|M|48.2,46.0|
 T Delivery to the North Sanctum |QID|8895|N|To Ley-Keeper Caidanis.|M|44.6,53.1|
@@ -464,3 +464,5 @@ N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't w
 
 ]]
 end)
+
+

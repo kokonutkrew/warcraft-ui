@@ -55,23 +55,23 @@ FarmHudDB = {
 		["radius"] = 80,
 		["hide"] = false,
 	},
-	["player_dot"] = "blizz",
+	["SuperTrackedQuest"] = true,
 	["showDummyBg"] = true,
 	["time_show"] = true,
 	["text_scale"] = 1.4,
-	["background_alpha"] = 0.8,
+	["buttons_radius"] = 0.56,
 	["coords_bottom"] = false,
-	["areaborder_tasks_show"] = "blizz",
-	["time_radius"] = 0.48,
-	["areaborder_quest_show"] = "blizz",
-	["areaborder_arch_show"] = "blizz",
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["buttons_radius"] = 0.56,
+	["time_radius"] = 0.48,
+	["areaborder_quest_show"] = "blizz",
+	["areaborder_arch_show"] = "blizz",
+	["areaborder_tasks_show"] = "blizz",
+	["background_alpha"] = 0.8,
 	["areaborder_task_texture"] = false,
-	["SuperTrackedQuest"] = true,
+	["player_dot"] = "blizz",
 }

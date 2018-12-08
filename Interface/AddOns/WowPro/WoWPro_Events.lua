@@ -5,15 +5,17 @@
 local L = WoWPro_Locale
 
 -- Are we ready to roll?
-function WoWPro.Ready()
+function WoWPro.Ready(who)
 	if not WoWProDB.char.currentguide then
+	    WoWPro:dbp("%s not Ready. No current guide!",(who or "Someone"))
 	    return false
 	end
 	if not WoWPro.Guides[WoWProDB.char.currentguide] then
+	    WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
 	    return false
 	end
 	if not WoWPro.GuideLoaded then
-	    WoWPro:dbp("Not Ready. Guide %s is not loaded yet!",tostring(WoWProDB.char.currentguide))
+	    WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
         return false
 	end
 	return true
@@ -21,6 +23,8 @@ end
 
 -- Remeber Taxi Locations
 function WoWPro:RecordTaxiLocations(...)
+    local _event = ...
+    local index = WoWPro.rows[1].index
     for i = 1, NumTaxiNodes() do
         local nomen = TaxiNodeName(i)
         local typo = TaxiNodeGetType(i)
@@ -29,11 +33,15 @@ function WoWPro:RecordTaxiLocations(...)
             WoWProCharDB.Taxi[location] = true
             WoWPro:Print("Discovered Flight Point: [%s]",location )
         end
-        if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
-            WoWProCharDB.Taxi[location] = nil
-            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
-        end
+---        if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
+---            WoWProCharDB.Taxi[location] = nil
+---            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
+---        end
     end
+	WoWPro:dbp("RecordTaxiLocations(%s): Step %s/%d [%s]?", tostring(_event), tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+	if (WoWPro.action[index] == 'f') and WoWProCharDB.Taxi[WoWPro.step[index]] then
+		WoWPro.CompleteStep(index, "RecordTaxiLocations")
+	end
 end
 
 -- Auto-Complete: Use flight point --
@@ -74,15 +82,15 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         buffies[buffIdx] = tonumber(buff)
     end
     local BuffIndex = 1
-    local BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
-    while BuffName and not skip do
+    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    while BuffName do
         for buffIdx = 1, #buffies do
             if BuffSpellId == buffies[buffIdx] then
                 return BuffSpellId
             end
         end
         BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
     end
     return nil
 end
@@ -142,7 +150,6 @@ function WoWPro.AutoCompleteLoot()
     		end
     	end
 	end
-	-- Used to catch ACH updates.
 	WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
@@ -226,19 +233,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 			        for l=1,numquesttext do
 				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
 				        local lcomplete = false
-				        if tonumber(lquesttext) then
-				            lcomplete = WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)]
-				        else
-    				        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-    					        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-    						        lcomplete = true
-    					        end
-    				        end
+				        if WoWPro.ValidObjective(lquesttext) then
+				            lcomplete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
     				    end
 				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 			        end
 			        if complete then
-			            --if the step has not been found to be incomplete, run the completion function
+			            --if the step has been found to be complete, run the completion function
 			            WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete")
 			        end 
 		        end
@@ -277,24 +278,27 @@ function WoWPro.AutoCompleteZone()
 	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
 	local action = WoWPro.action[currentindex] or "?"
 	local step = WoWPro.step[currentindex] or "?"
+	local targetzone = WoWPro.targetzone[currentindex] or "!"
 	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
 	WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]", zonetext, subzonetext, action, step)
 	if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
-		if (step == zonetext or step == subzonetext)
+		if ((step == zonetext) or (step == subzonetext) or (targetzone == zonetext) or (targetzone == subzonetext))
 		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 			WoWPro.CompleteStep(currentindex,"AutoCompleteZone")
 		end
 	end
 end
 
--- Auto-Complete: Criteria Change
+-- Auto-Complete: Criteria Change from RegisterBucketEvent(CRITERIA_UPDATE)
 function WoWPro.AutoCompleteCriteria()
     if not WoWProDB.char.currentguide then return end
 
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-	        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria")
+	    WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
+	else
+	    WoWPro:UpdateGuide("WoWPro.AutoCompleteCriteria?")
 	end
 end
 
@@ -351,7 +355,11 @@ WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function (event,...)
     return
     end)
 WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
-
+WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function (event) return; end)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function (event) return; end)
+WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event) return; end)
+WoWPro.RegisterEventHandler("PLAYER_LOGIN", function (event) return; end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function (event) return; end)
 
 -- Unlocking event processing after things get settled --
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
@@ -359,7 +367,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
     WoWPro.InitLockdown = true
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro.LockdownTimer = 1.5
-    WoWPro.ZONE_CHANGED(event,...)
+    -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
     if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
         WoWPro:Print("|cff33ff33Battleground Exit Auto Show|r: %s Module", guidetype)
 		WoWPro.MainFrame:Show()
@@ -403,7 +411,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function (event,...)
 			WoWPro.Hidden = nil
 		end
 	end
-	if WoWPro.Ready() then
+	if WoWPro.Ready(event) then
         WoWPro.AutoCompleteZone(...)
     end
     end)
@@ -508,10 +516,14 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
-    WoWPro.QuestDialogActive = event
-    WoWPro.RegisterAllEvents()
-    WoWPro.QuestCount = 0
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    if not WoWPro.QuestDialogActive then
+        WoWPro.RegisterAllEvents()
+        WoWPro.QuestCount = 0
+        WoWPro.QuestDialogActive = event
+        C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    else
+        WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
+    end
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
@@ -681,7 +693,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
         end
     end
 
-	if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
+	if (WoWPro.action[qidx] == "A") and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
 	    WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	    if  WoWPro.QID[qidx] == "*" then
 	        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
@@ -700,6 +712,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 	    end
 	    WoWPro.QuestStep = nil
 	else
+	    DeclineQuest()
 	    WoWPro:dbp("Rejected %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	end
 end
@@ -771,7 +784,7 @@ WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function (event,...)
 WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
 	WoWPro:RecordTaxiLocations(...)
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
+	if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") and WoWProCharDB.AutoSelect == true then
         WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
 	end
     end)
@@ -786,7 +799,7 @@ WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function (event,...)
 	if delta == 0 then
 	    return
 	end
-	if WoWPro.Ready() then
+	if WoWPro.Ready(event) then
         WoWPro:AutoCompleteQuestUpdate(nil)
         WoWPro:UpdateGuide(event)
         if WoWProCharDB.AutoSelect and delta == 1 then
@@ -857,7 +870,7 @@ function WoWPro.EventHandler(frame, event, ...)
 	end
 
 	-- Stop processing if no guide is active or something is odd!
-    if not WoWPro.Ready() then
+    if not WoWPro.Ready("EventHandler:"..event) then
         return
     end
 

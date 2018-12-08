@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3279/revisions/29579/view
+-- Date: 2018-08-23 01:59
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3279/revisions/29178/view
 -- Date: 2018-02-26 21:43
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -289,7 +299,7 @@ C Stopping the Spread |N|Use the torch on the rest of the corpses for this quest
 N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for the quest "Vision of the Dead" |
 K Bach'lor|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|L|24523|S|
 T He Called Himself Altruis...|QID|9982|M|27.29,43.1|N|To Altruis the Sufferer.|
-A Survey the Land |QID|9991|PRE|9982+9983|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Survey the Land |QID|9991|PRE|9982^9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or abandon it and re-accept it).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Buying Time|QID|9999|PRE|9991|M|27.35,43.06|N|From Altruis the Sufferer.|
@@ -339,8 +349,8 @@ C Ruthless Cunning |N|Plant the rest of the banners on the mob corpses for this 
 C Armaments for Deception |N|Loot the rest of the boxes for this quest.|QID|9928|M|71.4,79.4|US|
 T Armaments for Deception |QID|9928|M|73.8,62.6|N|To Lantressor of the Blade.|
 T Ruthless Cunning |QID|9927|M|73.8,62.6|N|To Lantressor of the Blade.|
-A Body of Evidence |QID|9932|PRE|9928;9927|M|73.8,62.6|N|From Lantressor of the Blade.|
-A Returning the Favor |QID|9931|PRE|9928;9927|M|73.8,62.6|N|From Lantressor of the Blade.|
+A Body of Evidence |QID|9932|PRE|9928&9927|M|73.8,62.6|N|From Lantressor of the Blade.|
+A Returning the Favor |QID|9931|PRE|9928&9927|M|73.8,62.6|N|From Lantressor of the Blade.|
 T Shattering the Veil |QID|9849|M|61.8,24.4|N|To Gordawg.|
 A Gurok the Usurper |QID|9853|PRE|9849|N|From Gordawg.|M|61.8,24.4|
 T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|
@@ -380,18 +390,18 @@ A Levixus the Soul Caller |QID|10253|PRE|10252|M|51.74,56.9|N|From Nitrin the Le
 T The Ravaged Caravan |QID|9956|M|54.2,70.0|N|To Huntress Kima, find her wandering around Telaar.|
 T Wanted: Giselda the Crone |QID|9936|M|54.8,71.0|N|To Waden Moi'bff Jill.|
 T Wanted: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|
-A Wanted: Durn the Hungerer |QID|9938|PRE|9936;9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
+A Wanted: Durn the Hungerer |QID|9938|PRE|9936&9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
 T Cho'war the Pillager |QID|9955|N|To Arechron.|M|55.44,68.78|
 T Ortor My Old Friend... |QID|9873|N|To Arechron.|M|55.44,68.78|
 A Visions of Destruction|QID|11044|M|55.36,68.74|N|From Seer Jovar. This quest takes you into Shadowmoon Valley if you wish to do that zone.|
 
 T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
-A Message to Telaar |QID|9933|PRE|9932;9931|M|73.8,62.6|N|From Lantresor of the Blade.|
+A Message to Telaar |QID|9933|PRE|9932&9931|M|73.8,62.6|N|From Lantresor of the Blade.|
 T Windroc Mastery |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
 T Clefthoof Mastery |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
 T Talbuk Mastery |QID|9859|N|To Harold Lane.|M|71.4,40.63|
-A The Ultimate Bloodsport |QID|9852|PRE|9856;9859;9851|N|From Hemet Nesingwary.|M|71.52,40.79|
+A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 
 C The Ultimate Bloodsport |N|Kill and loot Tusker.|QID|9852|M|44.28,65.6|
@@ -413,15 +423,15 @@ A It's Just That Easy?|QID|10010|PRE|10009|M|77.23,34.70|Z|Shattrath City|N|From
 T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|
 A Forge Camp: Annihilated|QID|10011|PRE|10010|M|27.34,43.06|N|From Altruis the Sufferer.|
 l Fel Cannon Activator|QID|10011|M|24.94,36.19|N|Kill, then loot Demos, Overseer of Hate to get the Fel Cannon Activator.|L|25770|
-C Forge Camp: Hate Destroyed|QID|10011|QO|Forge Camp: Hate Destroyed 1/1|U|25770|N|Use the Fel Cannon Activator next to the Fel Cannon: Hate.|
+C Forge Camp: Hate Destroyed|QID|10011|QO|1|U|25770|N|Use the Fel Cannon Activator next to the Fel Cannon: Hate.|
 l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, Overseer of Fear to get the Fel Cannon Activator.|
-C Forge Camp: Annihilated|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
+C Forge Camp: Fear Destroyed|QID|10011|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
 N The rest...|N|The following quests Altruis gives (after this note), have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
-A Against the Legion|QID|10641|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against the Illidari|QID|10668|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against All Odds|QID|10669|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Illidari|QID|10668|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against All Odds|QID|10669|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
@@ -430,7 +440,7 @@ T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
 
-A Illidan's Pupil|QID|10646|PRE|10641;10668;10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Illidan's Pupil|QID|10646|PRE|10641&10668&10669|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
 T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Sufferer.|
@@ -439,3 +449,5 @@ T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
 N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.|
 ]]
 end)
+
+

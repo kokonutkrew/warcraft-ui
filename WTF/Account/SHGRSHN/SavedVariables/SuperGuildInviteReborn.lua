@@ -10,13 +10,17 @@ SGI_DATA = {
 			["checkBox"] = {
 				["CHECKBOX_BACKGROUND_MODE"] = true,
 				["CHECKBOX_ADV_SCAN"] = false,
-				["CHECKBOX_HIDE_WHISPER"] = false,
 				["CHECKBOX_ENABLE_FILTERS"] = false,
+				["CHECKBOX_HIDE_WHISPER"] = false,
 			},
-			["classStart"] = 120,
 			["lowLimit"] = 100,
+			["classStart"] = 120,
 			["raceStart"] = 120,
 			["interval"] = 5,
+			["dropDown"] = {
+				["DROPDOWN_INVITE_MODE"] = 2,
+				["SGI_WHISPER_DROP"] = 1,
+			},
 			["frames"] = {
 				["SGI_Whisper"] = {
 					["yOfs"] = 45.511100769043,
@@ -48,10 +52,6 @@ SGI_DATA = {
 					["point"] = "TOPRIGHT",
 					["relativePoint"] = "TOPRIGHT",
 				},
-			},
-			["dropDown"] = {
-				["DROPDOWN_INVITE_MODE"] = 2,
-				["SGI_WHISPER_DROP"] = 1,
 			},
 			["filters"] = {
 			},
@@ -696,40 +696,40 @@ SGI_DATA = {
 		["Dannird"] = 10,
 		["Bignutty"] = 10,
 		["Cerida"] = 10,
-		["Ninagoatbrev"] = 10,
+		["Macrophilia"] = 11,
 		["Danduned"] = 10,
-		["Stimpag"] = 10,
+		["Korvessa"] = 11,
 		["Zarelissa"] = 11,
 		["Merseana"] = 10,
 		["Jayneyh"] = 10,
-		["Flustercluck"] = 10,
+		["Parati"] = 11,
 		["Cennaire"] = 10,
-		["Yoraa"] = 10,
+		["Erilynn"] = 11,
 		["Bruceomordha"] = 10,
-		["Rheven"] = 10,
+		["Jazmyra"] = 10,
 		["Eôl"] = 10,
-		["Dragorm"] = 10,
-		["Taruqia"] = 10,
+		["Hoodwinkin"] = 11,
+		["Arimidex"] = 11,
 		["Howards"] = 10,
 		["Corpsestomp"] = 10,
 		["Tramah"] = 10,
-		["Samoanslayer"] = 10,
+		["Aradein"] = 11,
 		["Trueclaw"] = 10,
 		["Triztaess"] = 10,
 		["Aramar"] = 10,
 		["Derzis"] = 10,
-		["Laneh"] = 10,
-		["Drellian"] = 10,
+		["Urnadeth"] = 11,
+		["Harrington"] = 10,
 		["Ragglucky"] = 10,
 		["Suhros"] = 10,
 		["Budley"] = 10,
 		["Reshrup"] = 10,
-		["Leceli"] = 11,
-		["Kayless"] = 10,
+		["Tabrís"] = 10,
+		["Infector"] = 10,
 		["Bigfatdoinks"] = 10,
-		["Selric"] = 11,
+		["Trangoull"] = 11,
 		["Weldric"] = 10,
-		["Adinn"] = 10,
+		["Upliftspice"] = 10,
 		["Airwen"] = 10,
 		["Lemianis"] = 10,
 		["Tenellon"] = 10,
@@ -739,69 +739,69 @@ SGI_DATA = {
 		["Zykii"] = 11,
 		["Unircorn"] = 10,
 		["Landah"] = 11,
-		["Emaze"] = 11,
-		["Derodian"] = 10,
+		["Margela"] = 10,
+		["Californium"] = 11,
 		["Procatpetter"] = 10,
 		["Drvida"] = 10,
 		["Nitfury"] = 11,
-		["Wàtchful"] = 10,
+		["Spineshanx"] = 10,
 		["Dablin"] = 10,
-		["Moreeste"] = 10,
+		["Prachi"] = 11,
 		["Teeds"] = 10,
 		["Kiñgyip"] = 10,
-		["Threewheat"] = 10,
-		["Kláus"] = 11,
+		["Azean"] = 11,
+		["Vládimir"] = 10,
 		["Arremen"] = 11,
-		["Flowrider"] = 10,
+		["Thelmadis"] = 11,
 		["Arthington"] = 10,
 		["Dürbin"] = 10,
 		["Krampüs"] = 10,
 		["Heathet"] = 10,
 		["Nedda"] = 10,
 		["Javontekd"] = 11,
-		["Lùnå"] = 11,
-		["Willco"] = 10,
+		["Ural"] = 11,
+		["Menderal"] = 10,
 		["Chandrianne"] = 10,
 		["Injros"] = 10,
 		["Catany"] = 10,
 		["Yveroelgann"] = 10,
-		["Killgarrah"] = 10,
+		["Dverg"] = 11,
 		["Yurrak"] = 10,
 		["Syleynrienn"] = 10,
 		["Kiarase"] = 11,
 		["Menzy"] = 10,
 		["Maxm"] = 10,
 		["Playlist"] = 10,
-		["Saltyboom"] = 10,
-		["Thundrim"] = 11,
+		["Catsgomew"] = 10,
+		["Telvesh"] = 10,
 		["Cathorek"] = 10,
 		["Gogandântess"] = 11,
 		["Majiman"] = 11,
 		["Skillbee"] = 10,
 		["Bolderkawaii"] = 11,
 		["Satriel"] = 10,
-		["Theodun"] = 10,
+		["Corisca"] = 11,
 		["Néftalyn"] = 11,
 		["Delzeril"] = 10,
 		["Prestissimo"] = 10,
-		["Halteclere"] = 11,
+		["Alêxsander"] = 10,
 		["Drahggo"] = 10,
 		["Pryzee"] = 10,
 		["Nron"] = 10,
 		["Morbale"] = 10,
 		["Xhim"] = 11,
-		["Kwentiin"] = 10,
+		["Lethhunt"] = 11,
 		["Infectiions"] = 10,
 		["Philipon"] = 10,
 		["Dabolynn"] = 10,
 		["Maldibon"] = 10,
 		["Ariiralaa"] = 10,
-		["Ejo"] = 11,
-		["Youma"] = 11,
+		["Fearforfree"] = 10,
+		["Sayio"] = 11,
 		["Cellardoor"] = 10,
-		["Kirstiah"] = 10,
+		["Zillchrin"] = 10,
 		["Kalgín"] = 10,
-		["Shacklebolt"] = 10,
+		["Burnedbeard"] = 10,
 		["Ilyarya"] = 10,
 		["Hulkvulgan"] = 11,
 		["Bedri"] = 10,
@@ -812,77 +812,77 @@ SGI_DATA = {
 		["Molerat"] = 10,
 		["Cuckleburger"] = 10,
 		["Boostedmonk"] = 11,
-		["Rosaeleta"] = 10,
+		["Zakerian"] = 10,
 		["Buddabuddy"] = 10,
 		["Sylpharion"] = 10,
 		["Frostriker"] = 11,
 		["Sarada"] = 10,
 		["Perilus"] = 11,
-		["Airupthere"] = 10,
+		["Tiggobittíes"] = 11,
 		["Dyana"] = 10,
 		["Garnold"] = 10,
-		["Bluntswørth"] = 10,
+		["Blinkerboy"] = 10,
 		["Lindoth"] = 10,
 		["Hrustikrus"] = 10,
 		["Hunttard"] = 10,
 		["Vendillan"] = 11,
-		["Mancurves"] = 10,
+		["Jâggis"] = 11,
 		["Fizzywigg"] = 10,
 		["Laschiel"] = 10,
 		["Shindly"] = 10,
-		["Presswhatkey"] = 10,
-		["Bòdyguard"] = 11,
+		["Lagûna"] = 10,
+		["Spalak"] = 11,
 		["Whatisatank"] = 10,
 		["Dencair"] = 10,
 		["Líntlícker"] = 10,
 		["Notjackie"] = 10,
-		["Demmalva"] = 10,
+		["Hybridheals"] = 10,
 		["Datto"] = 10,
 		["Poátsu"] = 10,
-		["Kastee"] = 10,
+		["Cromala"] = 11,
 		["Yisha"] = 10,
 		["Baphette"] = 10,
 		["Alorden"] = 10,
 		["Smoldrin"] = 10,
-		["Skyol"] = 11,
+		["Singleton"] = 10,
 		["Badidea"] = 10,
-		["Mardiir"] = 11,
+		["Rhevenant"] = 11,
 		["Choppable"] = 10,
 		["Doeltengaz"] = 10,
 		["Lawlessness"] = 10,
+		["Anaelia"] = 11,
 		["Nonameguy"] = 10,
-		["Migalken"] = 10,
+		["Milahn"] = 10,
 		["Direghøst"] = 10,
-		["Draconicwolf"] = 11,
-		["Ivlia"] = 10,
+		["Ferjaira"] = 11,
 		["Makanai"] = 10,
-		["Aisrii"] = 11,
-		["Erdrìck"] = 10,
-		["Morbidmender"] = 10,
+		["Nyka"] = 11,
+		["Zombalite"] = 11,
+		["Anandu"] = 11,
 		["Weibad"] = 10,
-		["Sÿññ"] = 10,
-		["Zayon"] = 10,
+		["Evenelas"] = 11,
+		["Terorizer"] = 10,
 		["Wikkid"] = 10,
-		["Acyxo"] = 11,
-		["Eredarexarch"] = 11,
-		["Logger"] = 10,
-		["Shaloradon"] = 10,
+		["Lostmyphone"] = 10,
+		["Duskhammer"] = 10,
+		["Xyleone"] = 11,
+		["Hustlér"] = 10,
 		["Esravir"] = 10,
-		["Flipjack"] = 10,
+		["Ohhreally"] = 10,
 		["Mavang"] = 11,
-		["Cholulor"] = 10,
+		["Kolben"] = 10,
 		["Ineverwinwhy"] = 10,
 		["Lithathia"] = 10,
 		["Ryougi"] = 11,
 		["Cryptkeepr"] = 10,
 		["Ithzar"] = 10,
-		["Ròmulus"] = 11,
 		["Nôbody"] = 10,
+		["Ròmulus"] = 11,
 		["Thouxan"] = 10,
-		["Hellsknight"] = 10,
+		["Usos"] = 10,
 		["Ramavtar"] = 10,
-		["Djpaul"] = 10,
-		["Havingfun"] = 10,
+		["Freddie"] = 10,
+		["Seslun"] = 10,
 		["Nokeý"] = 10,
 		["Imjellyßro"] = 10,
 		["Lünes"] = 10,
@@ -892,27 +892,27 @@ SGI_DATA = {
 		["Sadur"] = 11,
 		["Darkess"] = 10,
 		["Nemophilia"] = 10,
-		["Estivant"] = 10,
+		["Krispey"] = 10,
 		["Renelle"] = 10,
 		["Goldmawf"] = 10,
 		["Fulloffear"] = 10,
 		["Nastia"] = 10,
-		["Vilhelm"] = 10,
+		["Kharek"] = 10,
 		["Batslash"] = 11,
 		["Volcanobeard"] = 10,
 		["Umah"] = 11,
-		["Thornz"] = 11,
+		["Vilhelm"] = 10,
 		["Sargataras"] = 11,
 		["Snakeplank"] = 11,
-		["Vegás"] = 10,
+		["Mändïngö"] = 10,
 		["Keran"] = 10,
-		["Dinkiepinkie"] = 10,
-		["Selaku"] = 10,
-		["Fistermiyagi"] = 10,
+		["Staticaster"] = 10,
+		["Keladiin"] = 10,
+		["Pascival"] = 10,
 		["Gandenar"] = 10,
-		["Ranardor"] = 10,
+		["Pingodric"] = 11,
+		["Zavanias"] = 11,
 		["Zeradith"] = 11,
-		["Koldiac"] = 10,
 		["Ohsht"] = 10,
 		["Liceliak"] = 10,
 		["Siktor"] = 10,
@@ -922,35 +922,35 @@ SGI_DATA = {
 		["Themortition"] = 10,
 		["Shofet"] = 10,
 		["Ajantiis"] = 11,
-		["Vithiril"] = 10,
-		["Reyneah"] = 10,
+		["Kevinstock"] = 10,
+		["Hallaus"] = 10,
 		["Mageissalina"] = 10,
 		["Asovereign"] = 10,
 		["Shrooney"] = 10,
-		["Broswyn"] = 10,
+		["Oakshen"] = 11,
 		["Markpelamner"] = 10,
 		["Scersi"] = 10,
-		["Sklinch"] = 10,
+		["Etchaconxx"] = 10,
 		["Greedydwarf"] = 10,
 		["Solamoro"] = 10,
 		["Rênd"] = 10,
+		["Aeralii"] = 10,
+		["Conjuros"] = 10,
 		["Paingoro"] = 11,
 		["Remmús"] = 10,
-		["Sludgelord"] = 10,
-		["Conjuros"] = 10,
 		["Chickènwings"] = 10,
 		["Clorentine"] = 10,
 		["Antimørph"] = 10,
 		["Õh"] = 10,
-		["Walmârt"] = 11,
+		["Moonstrous"] = 10,
 		["Drennis"] = 10,
 		["Salsaboi"] = 10,
-		["Rourk"] = 10,
+		["Blanti"] = 11,
 		["Kheyghani"] = 10,
 		["Zoawi"] = 10,
-		["Moshia"] = 10,
-		["Arkinda"] = 10,
-		["Allyss"] = 10,
+		["Cynnora"] = 10,
+		["Bréntburns"] = 10,
+		["Nuadarson"] = 10,
 		["Infinidari"] = 10,
 		["Mollywopp"] = 10,
 		["Bishops"] = 10,
@@ -958,483 +958,483 @@ SGI_DATA = {
 		["Kurøyuri"] = 10,
 		["Silvabeerd"] = 10,
 		["Pepefrog"] = 10,
-		["Yosimmitty"] = 10,
-		["Räphael"] = 10,
-		["Intimidator"] = 10,
+		["Dunmir"] = 10,
+		["Saleene"] = 10,
+		["Mãl"] = 10,
 		["Prysylalalaa"] = 10,
 		["Turi"] = 10,
-		["Mãl"] = 10,
+		["Intimidator"] = 10,
 		["Owmahback"] = 10,
 		["Urfect"] = 10,
 		["Vallre"] = 10,
-		["Cainglia"] = 10,
+		["Tomfollary"] = 10,
 		["Poonbeam"] = 10,
 		["Meethooks"] = 10,
 		["Holiff"] = 10,
-		["Deathlybanan"] = 10,
+		["Swiftthorn"] = 10,
 		["Valyvicia"] = 11,
-		["Sarsam"] = 10,
+		["Falissa"] = 10,
+		["Errod"] = 10,
 		["Swagster"] = 11,
-		["Faelondrix"] = 10,
 		["Vaelex"] = 10,
-		["Kharra"] = 10,
-		["Religulous"] = 10,
-		["Soulshiftr"] = 10,
-		["Balestor"] = 10,
+		["Vaerahark"] = 10,
 		["Onmet"] = 10,
-		["Pettersson"] = 10,
-		["Sapsalot"] = 11,
-		["Jolîe"] = 10,
+		["Soulshiftr"] = 10,
+		["Religulous"] = 10,
+		["Balestor"] = 10,
+		["Kodrin"] = 10,
+		["Kumazi"] = 11,
+		["Hitmän"] = 10,
 		["Myrtos"] = 10,
 		["Talthanalas"] = 10,
 		["Keronous"] = 10,
 		["Ðamôn"] = 10,
-		["Gospadin"] = 10,
-		["Aleríana"] = 10,
+		["Nondrius"] = 10,
+		["Reîn"] = 10,
 		["Urujak"] = 11,
-		["Tikkole"] = 10,
+		["Razkit"] = 10,
 		["Lazerdagger"] = 10,
 		["Horavtivs"] = 10,
-		["Dawnstår"] = 10,
+		["Domcorleone"] = 10,
 		["Tehcdngoose"] = 10,
 		["Ebbs"] = 10,
 		["Koalaityheal"] = 10,
-		["Baba"] = 10,
+		["Thamron"] = 10,
 		["Osostea"] = 11,
 		["Jaylac"] = 10,
-		["Velest"] = 10,
+		["Talaith"] = 10,
 		["Revandin"] = 11,
 		["Ashirr"] = 11,
 		["Tomthumb"] = 10,
-		["Baiano"] = 10,
+		["Barc"] = 10,
 		["Gothealth"] = 10,
 		["Ritley"] = 10,
 		["Hirengrad"] = 10,
-		["Aelarian"] = 10,
-		["Phockme"] = 10,
-		["Barc"] = 10,
 		["Uirole"] = 11,
+		["Phockme"] = 10,
+		["Alamarik"] = 10,
+		["Vartharoel"] = 11,
 		["Däksha"] = 11,
-		["Loofin"] = 10,
-		["Blaul"] = 10,
+		["Pridefull"] = 10,
 		["Glenux"] = 11,
+		["Iceslanger"] = 10,
 		["Dreadsouls"] = 10,
+		["Poønxo"] = 10,
 		["Rás"] = 10,
-		["Throlley"] = 11,
-		["Treowyn"] = 10,
+		["Tyrzion"] = 10,
 		["Elderfire"] = 10,
-		["Blinkndrink"] = 10,
+		["Hogsofwar"] = 10,
 		["Kwaza"] = 10,
 		["Weebknight"] = 10,
-		["Hogsofwar"] = 10,
+		["Treowyn"] = 10,
 		["Blkgststts"] = 10,
 		["Gadyen"] = 10,
-		["Ellestare"] = 10,
+		["Dalnadris"] = 10,
 		["Pylot"] = 10,
+		["Synnerz"] = 10,
 		["Kradè"] = 10,
-		["Lyanya"] = 10,
 		["Eniara"] = 10,
 		["Brondonrilac"] = 10,
 		["Miserycordia"] = 10,
-		["Disma"] = 10,
-		["Roberanos"] = 10,
-		["Alphariousxx"] = 10,
-		["Zzozze"] = 10,
+		["Abastus"] = 10,
+		["Legénd"] = 10,
+		["Kelprii"] = 10,
+		["Aykilaal"] = 11,
 		["Kune"] = 10,
 		["Kalgín-EmeraldDream"] = 10,
 		["Rãkdos"] = 11,
 		["Sakagé"] = 10,
 		["Zadoc"] = 10,
-		["Rëpulse"] = 10,
+		["Vitrol"] = 10,
 		["Rancorr"] = 10,
-		["Dedarris"] = 10,
+		["Nestus"] = 10,
 		["Jujubeans"] = 10,
 		["Sugmabubbles"] = 10,
 		["Thícc"] = 10,
-		["Edrelafnth"] = 11,
+		["Vugara"] = 10,
 		["Samesarianis"] = 10,
 		["Stormcrowx"] = 10,
-		["Boldbeard"] = 10,
-		["Etorias"] = 10,
+		["Tunnelvision"] = 10,
+		["Edrelafnth"] = 11,
 		["Iruce"] = 10,
 		["Kïyara"] = 10,
-		["Tunnelvision"] = 10,
+		["Rëpulse"] = 10,
 		["Deshandor"] = 10,
 		["Pakunoda"] = 10,
 		["Vetreyu"] = 10,
 		["Jòhntrabolta"] = 10,
-		["Prytos"] = 10,
-		["Tupenyuprite"] = 10,
+		["Shammei"] = 10,
+		["Levince"] = 11,
 		["Moraene"] = 10,
-		["Jaybeezee"] = 10,
+		["Tepoztecatl"] = 10,
 		["Shâddeaux"] = 10,
 		["Theldoran"] = 10,
 		["Hydroxygen"] = 10,
-		["Vaerana"] = 10,
-		["Castulo"] = 10,
+		["Alainda"] = 10,
+		["Galgadott"] = 11,
 		["Bullun"] = 11,
-		["Akayzombie"] = 10,
-		["Gearfreed"] = 10,
+		["Castulo"] = 10,
+		["Vesuviuss"] = 10,
 		["Mystel"] = 10,
-		["Geoferry"] = 10,
+		["Shondrella"] = 10,
 		["Loviticus"] = 10,
-		["Gabryannah"] = 10,
+		["Alloradannon"] = 10,
 		["Samurâi"] = 11,
-		["Torgnýr"] = 10,
+		["Namirgerard"] = 10,
 		["Snuggin"] = 10,
 		["Creolejo"] = 10,
-		["Toxicavenger"] = 10,
+		["Arphius"] = 11,
 		["Nurgled"] = 11,
 		["Wïlton"] = 10,
-		["Truthforged"] = 10,
+		["Rswanson"] = 10,
 		["Stormwake"] = 10,
-		["Fueled"] = 11,
-		["Rukain"] = 10,
 		["Myulbrynner"] = 10,
-		["Elrebel"] = 10,
+		["Toxicavenger"] = 10,
+		["Fueled"] = 11,
+		["Kaskagni"] = 10,
 		["Halcion"] = 10,
-		["Llýr"] = 10,
+		["Cowøqpsèp"] = 10,
 		["Naadmae"] = 10,
-		["Garnaver"] = 10,
-		["Minder"] = 10,
+		["Kazzaam"] = 10,
+		["Sasoka"] = 10,
 		["Gåbryele"] = 11,
 		["Kaylleigh"] = 10,
 		["Edínah"] = 10,
-		["Davegrimfall"] = 10,
 		["Bakronus"] = 10,
+		["Davegrimfall"] = 10,
 		["Sootpaw"] = 10,
 		["Buterscotch"] = 10,
-		["Slizzard"] = 10,
-		["Ssnowflake"] = 11,
 		["Troublea"] = 11,
-		["Padrien"] = 10,
+		["Ssnowflake"] = 11,
+		["Slizzard"] = 10,
+		["Lorblarn"] = 10,
 		["Alexsrosu"] = 10,
-		["Eseanne"] = 10,
+		["Orbusus"] = 10,
+		["Vezen"] = 10,
+		["Seawolf"] = 10,
+		["Peeme"] = 10,
 		["Artena"] = 10,
-		["Killress"] = 10,
-		["Sëntrÿ"] = 10,
-		["Fatherchulo"] = 10,
 		["Óz"] = 10,
 		["Drchapo"] = 10,
 		["Emalora"] = 10,
-		["Lüxy"] = 10,
-		["Ossa"] = 10,
+		["Essanah"] = 10,
+		["Platonite"] = 10,
 		["Kavikwulf"] = 10,
-		["Bhalron"] = 10,
-		["Gwennefer"] = 10,
-		["Hèllhammer"] = 10,
+		["Adobe"] = 10,
+		["Jacknorth"] = 10,
+		["Briwartio"] = 10,
 		["Dpspersecond"] = 11,
-		["Guimauve"] = 10,
 		["Shandris"] = 10,
-		["Jonnyhotdog"] = 10,
+		["Guimauve"] = 10,
+		["Punkybrews"] = 10,
 		["Joyx"] = 10,
-		["Vochaal"] = 10,
+		["Xyder"] = 10,
 		["Vahstin"] = 11,
 		["Greenfielld"] = 10,
-		["Kairaya"] = 10,
+		["Xeravi"] = 10,
 		["Ithilath"] = 10,
-		["Moongale"] = 10,
+		["Jerseyjohn"] = 10,
 		["Msanxd"] = 10,
-		["Râìth"] = 10,
-		["Kraap"] = 10,
+		["Tepec"] = 10,
+		["Battylhammer"] = 10,
 		["Dorrom"] = 10,
-		["Rýe"] = 10,
+		["Kraap"] = 10,
 		["Manthestan"] = 10,
-		["Stoicheion"] = 10,
+		["Halcyric"] = 10,
 		["Rthaddeus"] = 10,
 		["Hairballs"] = 10,
-		["Rainspire"] = 10,
-		["Fafngr"] = 11,
+		["Dudeist"] = 10,
+		["Yeshu"] = 11,
 		["Wudulfr"] = 10,
 		["Thelrodal"] = 11,
-		["Amaryllia"] = 10,
 		["Ralethil"] = 10,
+		["Amaryllia"] = 10,
 		["Peck"] = 10,
 		["Elledria"] = 10,
-		["Rosefioleana"] = 10,
+		["Bläke"] = 10,
 		["Kainathos"] = 10,
+		["Clerric"] = 10,
 		["Mjrpàÿne"] = 10,
-		["Daysinn"] = 10,
 		["Thezan"] = 10,
 		["Scrourgelore"] = 10,
-		["Mintandberry"] = 10,
-		["Alphagodx"] = 10,
-		["Clerric"] = 10,
+		["Littyasf"] = 10,
+		["Phynks"] = 10,
+		["Narussian"] = 10,
 		["Dekkah"] = 10,
 		["Fangerous"] = 10,
-		["Dortal"] = 10,
-		["Phynks"] = 10,
-		["Zangwu"] = 10,
+		["Razorbloom"] = 10,
+		["Alphagodx"] = 10,
+		["Klaid"] = 10,
 		["Shirn"] = 10,
 		["Ladalair"] = 10,
 		["Sylleda"] = 10,
-		["Spiraldowner"] = 10,
-		["Delthia"] = 10,
+		["Peper"] = 10,
+		["Malkieer"] = 10,
 		["Dracovious"] = 10,
-		["Acronoh"] = 10,
-		["Vaelwyn"] = 10,
-		["Âdralyon"] = 11,
-		["Floradu"] = 11,
-		["Dimmagolus"] = 10,
-		["Saelata"] = 10,
 		["Lunafel"] = 11,
-		["Byrnell"] = 10,
+		["Vaelwyn"] = 10,
+		["Aevyndal"] = 10,
+		["Floradu"] = 11,
+		["Ancrez"] = 10,
+		["Sixgodtko"] = 11,
+		["Acronoh"] = 10,
+		["Âdralyon"] = 11,
 		["Hawklyte"] = 10,
-		["Bassik"] = 10,
+		["Ervane"] = 11,
 		["Mojito"] = 10,
-		["Doomdëmon"] = 10,
+		["Classicx"] = 10,
 		["Ssvveenn"] = 10,
 		["Gladofwár"] = 11,
-		["Ricenoodlez"] = 10,
-		["Chipncheese"] = 10,
+		["Koiro"] = 10,
+		["Develshammy"] = 10,
 		["Lílíana"] = 10,
-		["Moonci"] = 10,
 		["Slayerofnone"] = 10,
+		["Chipncheese"] = 10,
 		["Sporebert"] = 10,
 		["Dezò"] = 10,
 		["Frillona"] = 11,
-		["Reyjok"] = 10,
-		["Dormie"] = 10,
-		["Enzadenino"] = 10,
 		["Romerham"] = 10,
+		["Reyjok"] = 10,
+		["Enzadenino"] = 10,
+		["Dormie"] = 10,
 		["Magnomius"] = 10,
 		["Anwen"] = 11,
-		["Develshammy"] = 10,
-		["Koiro"] = 10,
-		["Classicx"] = 10,
-		["Ervane"] = 11,
-		["Sixgodtko"] = 11,
-		["Ancrez"] = 10,
-		["Aevyndal"] = 10,
+		["Moonci"] = 10,
+		["Ricenoodlez"] = 10,
+		["Doomdëmon"] = 10,
+		["Bassik"] = 10,
+		["Saelata"] = 10,
+		["Dimmagolus"] = 10,
+		["Byrnell"] = 10,
 		["Kìlloran"] = 10,
 		["Docblind"] = 10,
-		["Malkieer"] = 10,
-		["Peper"] = 10,
-		["Klaid"] = 10,
-		["Razorbloom"] = 10,
+		["Zangwu"] = 10,
+		["Dortal"] = 10,
+		["Delthia"] = 10,
+		["Spiraldowner"] = 10,
 		["Tazinko"] = 10,
-		["Narussian"] = 10,
-		["Littyasf"] = 10,
-		["Bläke"] = 10,
+		["Mintandberry"] = 10,
+		["Daysinn"] = 10,
+		["Rosefioleana"] = 10,
 		["Luljk"] = 10,
-		["Yeshu"] = 11,
-		["Dudeist"] = 10,
+		["Fafngr"] = 11,
+		["Rainspire"] = 10,
 		["Ruddolph"] = 10,
-		["Halcyric"] = 10,
-		["Battylhammer"] = 10,
+		["Stoicheion"] = 10,
+		["Rýe"] = 10,
 		["Jeeze"] = 10,
-		["Tepec"] = 10,
-		["Jerseyjohn"] = 10,
-		["Xeravi"] = 10,
+		["Râìth"] = 10,
+		["Moongale"] = 10,
+		["Kairaya"] = 10,
 		["Bygs"] = 10,
-		["Xyder"] = 10,
-		["Punkybrews"] = 10,
+		["Vochaal"] = 10,
+		["Jonnyhotdog"] = 10,
 		["Mischera"] = 10,
-		["Briwartio"] = 10,
-		["Jacknorth"] = 10,
-		["Adobe"] = 10,
-		["Platonite"] = 10,
-		["Essanah"] = 10,
+		["Hèllhammer"] = 10,
+		["Gwennefer"] = 10,
+		["Bhalron"] = 10,
+		["Ossa"] = 10,
+		["Lüxy"] = 10,
 		["Gixon"] = 10,
 		["Seranara"] = 10,
-		["Peeme"] = 10,
-		["Seawolf"] = 10,
-		["Vezen"] = 10,
-		["Orbusus"] = 10,
-		["Lorblarn"] = 10,
+		["Sëntrÿ"] = 10,
+		["Killress"] = 10,
+		["Fatherchulo"] = 10,
+		["Eseanne"] = 10,
+		["Padrien"] = 10,
 		["Boneheadecus"] = 10,
 		["Encephalus"] = 10,
 		["Kynarie"] = 10,
-		["Sasoka"] = 10,
-		["Kazzaam"] = 10,
-		["Cowøqpsèp"] = 10,
-		["Kaskagni"] = 10,
+		["Minder"] = 10,
+		["Garnaver"] = 10,
+		["Llýr"] = 10,
+		["Elrebel"] = 10,
 		["Sebarsh"] = 11,
-		["Rswanson"] = 10,
-		["Arphius"] = 11,
+		["Truthforged"] = 10,
+		["Rukain"] = 10,
 		["Dinglebear"] = 10,
-		["Namirgerard"] = 10,
-		["Alloradannon"] = 10,
+		["Torgnýr"] = 10,
+		["Gabryannah"] = 10,
 		["Tetsudo"] = 10,
-		["Shondrella"] = 10,
-		["Vesuviuss"] = 10,
-		["Galgadott"] = 11,
+		["Geoferry"] = 10,
+		["Gearfreed"] = 10,
+		["Akayzombie"] = 10,
 		["Enboo"] = 10,
-		["Alainda"] = 10,
+		["Vaerana"] = 10,
 		["Xerxarr"] = 10,
-		["Tepoztecatl"] = 10,
-		["Levince"] = 11,
-		["Shammei"] = 10,
+		["Jaybeezee"] = 10,
+		["Tupenyuprite"] = 10,
+		["Prytos"] = 10,
 		["Arksen"] = 11,
 		["Purgina"] = 10,
-		["Vugara"] = 10,
-		["Nestus"] = 10,
-		["Vitrol"] = 10,
+		["Etorias"] = 10,
+		["Dedarris"] = 10,
+		["Boldbeard"] = 10,
 		["Waifor"] = 10,
-		["Aykilaal"] = 11,
-		["Kelprii"] = 10,
-		["Legénd"] = 10,
-		["Abastus"] = 10,
-		["Synnerz"] = 10,
-		["Dalnadris"] = 10,
+		["Zzozze"] = 10,
+		["Alphariousxx"] = 10,
+		["Roberanos"] = 10,
+		["Disma"] = 10,
+		["Lyanya"] = 10,
+		["Ellestare"] = 10,
 		["Hoobitybloo"] = 11,
-		["Tyrzion"] = 10,
-		["Poønxo"] = 10,
+		["Blinkndrink"] = 10,
+		["Throlley"] = 11,
 		["Ulraviolet"] = 10,
-		["Iceslanger"] = 10,
-		["Pridefull"] = 10,
+		["Blaul"] = 10,
+		["Loofin"] = 10,
 		["Alviae"] = 11,
-		["Vartharoel"] = 11,
-		["Alamarik"] = 10,
-		["Talaith"] = 10,
-		["Thamron"] = 10,
+		["Aelarian"] = 10,
+		["Baiano"] = 10,
+		["Velest"] = 10,
+		["Baba"] = 10,
 		["Ferza"] = 11,
-		["Domcorleone"] = 10,
-		["Razkit"] = 10,
-		["Reîn"] = 10,
-		["Nondrius"] = 10,
+		["Dawnstår"] = 10,
+		["Tikkole"] = 10,
+		["Aleríana"] = 10,
+		["Gospadin"] = 10,
 		["Frieren"] = 10,
 		["Consentisbad"] = 10,
 		["Cerereiandan"] = 10,
-		["Hitmän"] = 10,
-		["Kumazi"] = 11,
-		["Kodrin"] = 10,
+		["Jolîe"] = 10,
+		["Sapsalot"] = 11,
+		["Pettersson"] = 10,
 		["Farekalolzz"] = 10,
 		["Shaos"] = 10,
-		["Vaerahark"] = 10,
-		["Errod"] = 10,
-		["Falissa"] = 10,
-		["Swiftthorn"] = 10,
+		["Kharra"] = 10,
+		["Faelondrix"] = 10,
+		["Sarsam"] = 10,
+		["Deathlybanan"] = 10,
 		["Bohannon"] = 10,
-		["Tomfollary"] = 10,
+		["Cainglia"] = 10,
 		["Galinowenn"] = 10,
-		["Saleene"] = 10,
-		["Dunmir"] = 10,
+		["Räphael"] = 10,
+		["Yosimmitty"] = 10,
 		["Bìtch"] = 10,
-		["Nuadarson"] = 10,
-		["Bréntburns"] = 10,
-		["Cynnora"] = 10,
-		["Blanti"] = 11,
-		["Moonstrous"] = 10,
+		["Arkinda"] = 10,
+		["Allyss"] = 10,
+		["Moshia"] = 10,
+		["Rourk"] = 10,
+		["Walmârt"] = 11,
 		["Jaros"] = 10,
 		["Weebwar"] = 10,
 		["Berserkinn"] = 10,
-		["Aeralii"] = 10,
+		["Sludgelord"] = 10,
 		["Zambya"] = 10,
-		["Etchaconxx"] = 10,
+		["Sklinch"] = 10,
 		["Pckethealz"] = 10,
-		["Oakshen"] = 11,
+		["Broswyn"] = 10,
 		["Thdalaran"] = 11,
-		["Hallaus"] = 10,
-		["Kevinstock"] = 10,
+		["Reyneah"] = 10,
+		["Vithiril"] = 10,
 		["Onceamunth"] = 10,
 		["Nefarus"] = 10,
-		["Zavanias"] = 11,
-		["Pingodric"] = 11,
-		["Pascival"] = 10,
-		["Keladiin"] = 10,
-		["Staticaster"] = 10,
-		["Mändïngö"] = 10,
-		["Kharek"] = 10,
+		["Koldiac"] = 10,
+		["Ranardor"] = 10,
+		["Fistermiyagi"] = 10,
+		["Selaku"] = 10,
+		["Dinkiepinkie"] = 10,
+		["Vegás"] = 10,
+		["Thornz"] = 11,
 		["Guccillama"] = 10,
 		["Ellarr"] = 11,
-		["Krispey"] = 10,
+		["Estivant"] = 10,
 		["Portman"] = 10,
 		["Xandroz"] = 10,
-		["Seslun"] = 10,
-		["Freddie"] = 10,
-		["Usos"] = 10,
+		["Havingfun"] = 10,
+		["Djpaul"] = 10,
+		["Hellsknight"] = 10,
 		["Sendarin"] = 10,
 		["Dèxö"] = 10,
 		["Nhyx"] = 10,
-		["Kolben"] = 10,
+		["Cholulor"] = 10,
 		["Lightingbõlt"] = 10,
-		["Ohhreally"] = 10,
-		["Hustlér"] = 10,
-		["Xyleone"] = 11,
-		["Duskhammer"] = 10,
-		["Lostmyphone"] = 10,
-		["Terorizer"] = 10,
-		["Evenelas"] = 11,
-		["Anandu"] = 11,
-		["Zombalite"] = 11,
-		["Nyka"] = 11,
-		["Ferjaira"] = 11,
-		["Milahn"] = 10,
-		["Anaelia"] = 11,
-		["Rhevenant"] = 11,
+		["Flipjack"] = 10,
+		["Shaloradon"] = 10,
+		["Logger"] = 10,
+		["Eredarexarch"] = 11,
+		["Acyxo"] = 11,
+		["Zayon"] = 10,
+		["Sÿññ"] = 10,
+		["Morbidmender"] = 10,
+		["Erdrìck"] = 10,
+		["Aisrii"] = 11,
+		["Ivlia"] = 10,
+		["Draconicwolf"] = 11,
+		["Migalken"] = 10,
+		["Mardiir"] = 11,
 		["Furbulous"] = 10,
-		["Singleton"] = 10,
-		["Cromala"] = 11,
-		["Hybridheals"] = 10,
+		["Skyol"] = 11,
+		["Kastee"] = 10,
+		["Demmalva"] = 10,
 		["Allaster"] = 10,
-		["Spalak"] = 11,
-		["Lagûna"] = 10,
+		["Bòdyguard"] = 11,
+		["Presswhatkey"] = 10,
 		["Edron"] = 10,
-		["Jâggis"] = 11,
-		["Blinkerboy"] = 10,
-		["Tiggobittíes"] = 11,
+		["Mancurves"] = 10,
+		["Bluntswørth"] = 10,
+		["Airupthere"] = 10,
 		["Flawlessbulv"] = 10,
 		["Saphage"] = 11,
-		["Zakerian"] = 10,
+		["Rosaeleta"] = 10,
 		["Shampaïn"] = 10,
 		["Evirene"] = 10,
 		["Alorius"] = 10,
 		["Luupine"] = 11,
-		["Burnedbeard"] = 10,
-		["Zillchrin"] = 10,
-		["Sayio"] = 11,
-		["Fearforfree"] = 10,
-		["Lethhunt"] = 11,
+		["Shacklebolt"] = 10,
+		["Kirstiah"] = 10,
+		["Youma"] = 11,
+		["Ejo"] = 11,
+		["Kwentiin"] = 10,
 		["Cerolian"] = 11,
-		["Alêxsander"] = 10,
+		["Halteclere"] = 11,
 		["Falasuntzu"] = 10,
 		["Spaenkie"] = 10,
 		["Artemils"] = 10,
-		["Corisca"] = 11,
+		["Theodun"] = 10,
 		["Dervinshad"] = 10,
 		["Manex"] = 10,
 		["Ardelys"] = 10,
 		["Sagewares"] = 10,
-		["Telvesh"] = 10,
-		["Catsgomew"] = 10,
+		["Thundrim"] = 11,
+		["Saltyboom"] = 10,
 		["Deathknightt"] = 10,
 		["Norelantha"] = 10,
 		["Squantchen"] = 10,
 		["Jht"] = 10,
-		["Dverg"] = 11,
-		["Menderal"] = 10,
-		["Ural"] = 11,
+		["Killgarrah"] = 10,
+		["Willco"] = 10,
+		["Lùnå"] = 11,
 		["Braxston"] = 11,
 		["Azhayla"] = 10,
-		["Thelmadis"] = 11,
+		["Flowrider"] = 10,
 		["Ocella"] = 10,
-		["Vládimir"] = 10,
-		["Azean"] = 11,
-		["Prachi"] = 11,
-		["Spineshanx"] = 10,
+		["Kláus"] = 11,
+		["Threewheat"] = 10,
+		["Moreeste"] = 10,
+		["Wàtchful"] = 10,
 		["Turbalina"] = 10,
 		["Hottieirl"] = 10,
-		["Californium"] = 11,
-		["Margela"] = 10,
+		["Derodian"] = 10,
+		["Emaze"] = 11,
 		["Pyrielthorn"] = 10,
-		["Upliftspice"] = 10,
-		["Trangoull"] = 11,
+		["Adinn"] = 10,
+		["Selric"] = 11,
 		["Ohhyikes"] = 10,
-		["Infector"] = 10,
-		["Tabrís"] = 10,
-		["Harrington"] = 10,
-		["Urnadeth"] = 11,
+		["Kayless"] = 10,
+		["Leceli"] = 11,
+		["Drellian"] = 10,
+		["Laneh"] = 10,
 		["Junelle"] = 11,
-		["Aradein"] = 11,
-		["Arimidex"] = 11,
-		["Hoodwinkin"] = 11,
-		["Jazmyra"] = 10,
-		["Erilynn"] = 11,
-		["Parati"] = 11,
+		["Samoanslayer"] = 10,
+		["Taruqia"] = 10,
+		["Dragorm"] = 10,
+		["Rheven"] = 10,
+		["Yoraa"] = 10,
+		["Flustercluck"] = 10,
 		["Rolwarrior"] = 10,
-		["Korvessa"] = 11,
-		["Macrophilia"] = 11,
+		["Stimpag"] = 10,
+		["Ninagoatbrev"] = 10,
 	},
 	["guildList"] = {
 		["Emerald Dream"] = {
@@ -1581,8 +1581,8 @@ SGI_DATA = {
 			["SEINFELD"] = {
 				"Snowpop", -- [1]
 			},
-			["Strange"] = {
-				"Milagra", -- [1]
+			["Cold Steel"] = {
+				"Benernick", -- [1]
 			},
 			["Warsong Cartel"] = {
 				"Candell", -- [1]
@@ -1597,11 +1597,11 @@ SGI_DATA = {
 			["The Booze Cruise"] = {
 				"Samoanslayer", -- [1]
 			},
-			["ALL ABOARD"] = {
-				"Skryonetta", -- [1]
+			["MUSE"] = {
+				"Maevee", -- [1]
 			},
-			["Dazed and Confused"] = {
-				"Cosmicforge", -- [1]
+			["fist fights"] = {
+				"Mindmasterxd", -- [1]
 			},
 			["The Society"] = {
 				"Dedorf", -- [1]
@@ -1621,36 +1621,36 @@ SGI_DATA = {
 			["Cuddle with a Struggle"] = {
 				"Koanna", -- [1]
 			},
+			["Silly Boys IRL"] = {
+				"Roshhashanah", -- [1]
+			},
+			["Shadow Knights"] = {
+				"Stahell", -- [1]
+				"Gaxxvinteum", -- [2]
+			},
 			["Bellatorum Unita"] = {
 				"Prîncesspwn", -- [1]
 				"Qurio", -- [2]
 				"Razía", -- [3]
 				"Nithilius", -- [4]
 			},
-			["Shadow Knights"] = {
-				"Stahell", -- [1]
-				"Gaxxvinteum", -- [2]
-			},
-			["Silly Boys IRL"] = {
-				"Roshhashanah", -- [1]
-			},
 			["Second Chance"] = {
 				"Assange", -- [1]
 			},
-			["shots"] = {
-				"Downupdown", -- [1]
-			},
-			["SCUM GANG"] = {
-				"Walling", -- [1]
+			["Los Hermanos de Sangre"] = {
+				"Ippó", -- [1]
 			},
 			["Creed"] = {
 				"Unoriginal", -- [1]
 			},
-			["Despair"] = {
-				"Doomrend", -- [1]
+			["SCUM GANG"] = {
+				"Walling", -- [1]
 			},
-			["Kitty Roca"] = {
-				"Ardee", -- [1]
+			["Andrómeda"] = {
+				"Ethopia", -- [1]
+			},
+			["BGATFBC"] = {
+				"Cptbeefchief", -- [1]
 			},
 			["Elwynn Guard"] = {
 				"Darmythius", -- [1]
@@ -1667,20 +1667,22 @@ SGI_DATA = {
 			["ScoobySnacks"] = {
 				"Vyna", -- [1]
 			},
-			["Brimstone Cabal"] = {
-				"Cladait", -- [1]
+			["Defiled Insanity"] = {
+				"Domik", -- [1]
 			},
 			["Something Witty Is Taken"] = {
 				"Armon", -- [1]
 			},
-			["JustUsLeague"] = {
-				"Bearrista", -- [1]
+			["Emerald Paradise"] = {
+				"Muffin", -- [1]
+				"Luniz", -- [2]
+				"Lerias", -- [3]
 			},
-			["Trashwipers"] = {
-				"Hefestïon", -- [1]
+			["Netherspace Sanitarium"] = {
+				"Scorber", -- [1]
 			},
-			["Legión del Inframundo"] = {
-				"Ayakakaragi", -- [1]
+			["Bloody Champions"] = {
+				"Laehen", -- [1]
 			},
 			["Casual Excellence"] = {
 				"Dévî", -- [1]
@@ -1691,23 +1693,24 @@ SGI_DATA = {
 			["Helpless"] = {
 				"Alexjoners", -- [1]
 			},
-			["High and Mighty"] = {
-				"Misteak", -- [1]
+			["Infinite Paradox"] = {
+				"Einstien", -- [1]
 			},
-			["zezo"] = {
-				"Aukappa", -- [1]
+			["Heaven One"] = {
+				"Lionsclaw", -- [1]
+				"Dragöntis", -- [2]
 			},
 			["TheDirtyHorde"] = {
 				"Getpwnd", -- [1]
 			},
-			["X Laws"] = {
-				"Natüria", -- [1]
+			["Pecan Sandies"] = {
+				"Rhictur", -- [1]
 			},
 			["Save the World"] = {
 				"Tenaciousn", -- [1]
 			},
-			["InvalidTarget"] = {
-				"Cayleey", -- [1]
+			["OutBreak Company"] = {
+				"Darkvíper", -- [1]
 			},
 			["Emergence"] = {
 				"Carameldropz", -- [1]
@@ -1717,9 +1720,8 @@ SGI_DATA = {
 				"Jondor", -- [1]
 				"Thäil", -- [2]
 			},
-			["Back to Mounts"] = {
-				"Infernux", -- [1]
-				"Leonera", -- [2]
+			["In The Groove"] = {
+				"Hanovorik", -- [1]
 			},
 			["War Drum"] = {
 				"Kaiokan", -- [1]
@@ -1737,21 +1739,22 @@ SGI_DATA = {
 			["THE PUNISHERS"] = {
 				"Annastasia", -- [1]
 			},
-			["Children of the moon"] = {
-				"Avhatar", -- [1]
+			["Fargate Command"] = {
+				"Isaebail", -- [1]
 			},
 			["Konoha"] = {
 				"Chuunin", -- [1]
 			},
-			["Sugar Cookie"] = {
-				"Darkdelusion", -- [1]
-				"Loridiel", -- [2]
+			["Goldshire Heroes"] = {
+				"Ichorian", -- [1]
+				"Rnjeezus", -- [2]
+				"Grimdelve", -- [3]
 			},
-			["MakeAWish"] = {
-				"Koiwai", -- [1]
+			["X Laws"] = {
+				"Natüria", -- [1]
 			},
-			["Devotion"] = {
-				"Sworda", -- [1]
+			["Currently AFK"] = {
+				"Torchbeard", -- [1]
 			},
 			["Nek Minnitt"] = {
 				"Natè", -- [1]
@@ -1768,26 +1771,28 @@ SGI_DATA = {
 			["New Guild"] = {
 				"Macleod", -- [1]
 			},
-			["OutBreak Company"] = {
-				"Darkvíper", -- [1]
+			["Team Friend"] = {
+				"Seongmina", -- [1]
 			},
 			["Liar Liar Pants On Fire"] = {
 				"Accrual", -- [1]
 			},
-			["G of A"] = {
-				"Chaoticmonk", -- [1]
+			["Back to Mounts"] = {
+				"Infernux", -- [1]
+				"Leonera", -- [2]
 			},
 			["Ample Destruction"] = {
 				"Elokkan", -- [1]
 			},
-			["Malicious Misfits"] = {
-				"Bleububbles", -- [1]
+			["The Force"] = {
+				"Etherêal", -- [1]
+				"Kacö", -- [2]
 			},
 			["Space Cadets"] = {
 				"Yowl", -- [1]
 			},
-			["Fargate Command"] = {
-				"Isaebail", -- [1]
+			["Lord of Honors"] = {
+				"Olehunter", -- [1]
 			},
 			["Im a Pirate"] = {
 				"Sénsual", -- [1]
@@ -1806,17 +1811,18 @@ SGI_DATA = {
 				"Selbye", -- [1]
 				"Darrxness", -- [2]
 			},
-			["El Oso y la Doncella"] = {
-				"Valdrieth", -- [1]
+			["Accidental Heroism"] = {
+				"Ayicuma", -- [1]
 			},
 			["Raising the Horde"] = {
 				"Piercehisjaw", -- [1]
 			},
-			["Maximum"] = {
-				"Lak", -- [1]
+			["Ínfinity"] = {
+				"Graydok", -- [1]
+				"Maniloa", -- [2]
 			},
-			["Big Baller Brand"] = {
-				"Coebee", -- [1]
+			["El Oso y la Doncella"] = {
+				"Valdrieth", -- [1]
 			},
 			["Mythically Mediocre"] = {
 				"Nobueno", -- [1]
@@ -1826,29 +1832,29 @@ SGI_DATA = {
 			["Sanguine Morte"] = {
 				"Mìserÿ", -- [1]
 			},
+			["Endless Trails"] = {
+				"Maginova", -- [1]
+			},
+			["Maximum"] = {
+				"Lak", -- [1]
+			},
 			["Caribbean"] = {
 				"Ðelilah", -- [1]
-			},
-			["Ínfinity"] = {
-				"Graydok", -- [1]
-				"Maniloa", -- [2]
-			},
-			["The Crimson Nightmare"] = {
-				"Galandriss", -- [1]
-			},
-			["Deadly Militia"] = {
-				"Twinkiez", -- [1]
 			},
 			["Currently Lagging"] = {
 				"Treemeow", -- [1]
 				"Beaastmode", -- [2]
 				"Araw", -- [3]
 			},
-			["Vanquishment"] = {
-				"Sorcelitty", -- [1]
+			["Deadly Militia"] = {
+				"Twinkiez", -- [1]
 			},
-			["Murphys Law"] = {
-				"Ninjahugs", -- [1]
+			["Blackout"] = {
+				"Coteva", -- [1]
+			},
+			["Pride of The Alliance"] = {
+				"Swiftshotsz", -- [1]
+				"Chathon", -- [2]
 			},
 			["Darkfall"] = {
 				"Borkenhammer", -- [1]
@@ -1856,8 +1862,8 @@ SGI_DATA = {
 				"Hulkz", -- [3]
 				"Aldthan", -- [4]
 			},
-			["Bloody Arms"] = {
-				"Showcitoar", -- [1]
+			["Vanquishment"] = {
+				"Sorcelitty", -- [1]
 			},
 			["Dirty Bass Heads"] = {
 				"Merllen", -- [1]
@@ -1879,14 +1885,14 @@ SGI_DATA = {
 				"Xvirtue", -- [1]
 				"Manareshi", -- [2]
 			},
-			["FilthyCasuals"] = {
-				"Iplql", -- [1]
+			["Red Devil"] = {
+				"Pleyall", -- [1]
 			},
 			["Bankz"] = {
 				"Dedugent", -- [1]
 			},
-			["Mature Contënt"] = {
-				"Kaedalina", -- [1]
+			["Curmudgeonry"] = {
+				"Jahmmon", -- [1]
 			},
 			["Nah"] = {
 				"Roschinar", -- [1]
@@ -1903,8 +1909,10 @@ SGI_DATA = {
 				"Nezshara", -- [9]
 				"Alma", -- [10]
 			},
-			["Bunch of Bull"] = {
-				"Flashies", -- [1]
+			["Drunken Fisherman"] = {
+				"Xinithe", -- [1]
+				"Rysu", -- [2]
+				"Saeyon", -- [3]
 			},
 			["The Watchmen"] = {
 				"Camperbôb", -- [1]
@@ -1918,29 +1926,31 @@ SGI_DATA = {
 			["Snack Size"] = {
 				"Konqerror", -- [1]
 			},
-			["The Sylvanas Loyalists"] = {
-				"Shïnï", -- [1]
+			["No Refunds"] = {
+				"Selbina", -- [1]
 			},
-			["Milkstache"] = {
-				"Milkstache", -- [1]
+			["No Vacancy"] = {
+				"Crimzim", -- [1]
 			},
-			["Asgard Warriors"] = {
-				"Elchoco", -- [1]
-			},
-			["Floppy Disks"] = {
-				"Abraxasdr", -- [1]
-			},
-			["Raiding is for Rtards"] = {
-				"Zippii", -- [1]
+			["Coalition Of Azeroth"] = {
+				"Cruxshadows", -- [1]
+				"Nymae", -- [2]
 			},
 			["Portal Gamepad"] = {
 				"Robertasso", -- [1]
 			},
+			["Pegasus"] = {
+				"Arkfang", -- [1]
+			},
+			["Milkstache"] = {
+				"Milkstache", -- [1]
+			},
 			["Dark Divine"] = {
 				"Lucroarna", -- [1]
 			},
-			["Midnight Syndicate"] = {
-				"Amitabah", -- [1]
+			["The Visigothic Kingdom"] = {
+				"Ankhan", -- [1]
+				"Erlareith", -- [2]
 			},
 			["Zebranomicon"] = {
 				"Humanity", -- [1]
@@ -1948,26 +1958,25 @@ SGI_DATA = {
 			["Baked Basement"] = {
 				"Warrknight", -- [1]
 			},
-			["Freaks on a Leash"] = {
-				"Khalandin", -- [1]
-				"Einha", -- [2]
-			},
-			["Girls In The Key"] = {
-				"Bargorr", -- [1]
-			},
-			["Phoenix Battalion"] = {
-				"Traelarah", -- [1]
-				"Malethrian", -- [2]
+			["Clan of Militia"] = {
+				"Grimmwolf", -- [1]
 			},
 			["teamtesla"] = {
 				"Snowflury", -- [1]
+			},
+			["Mortality"] = {
+				"Isabelial", -- [1]
+			},
+			["Freaks on a Leash"] = {
+				"Khalandin", -- [1]
+				"Einha", -- [2]
 			},
 			["The Bear Den"] = {
 				"Taeaoria", -- [1]
 				"Tamora", -- [2]
 			},
-			["Ultimate End"] = {
-				"Satîva", -- [1]
+			["Sigil"] = {
+				"Kokô", -- [1]
 			},
 			["The Little Rascals"] = {
 				"Shurturp", -- [1]
@@ -1979,18 +1988,19 @@ SGI_DATA = {
 			["FANTASY"] = {
 				"Haethlin", -- [1]
 			},
-			["Guíld"] = {
-				"Yfnmira", -- [1]
+			["Redirect"] = {
+				"Bellariane", -- [1]
+				"Gameplayx", -- [2]
 			},
-			["Spartans"] = {
-				"Kiwislash", -- [1]
+			["Girls In The Key"] = {
+				"Bargorr", -- [1]
 			},
-			["PvPee on you"] = {
-				"Dondinero", -- [1]
-				"Writtenblood", -- [2]
+			["Phoenix Battalion"] = {
+				"Traelarah", -- [1]
+				"Malethrian", -- [2]
 			},
-			["Trump Bank"] = {
-				"Guad", -- [1]
+			["TempleOS"] = {
+				"Scootsteiner", -- [1]
 			},
 			["Low Expectations"] = {
 				"Betterparent", -- [1]
@@ -1998,11 +2008,12 @@ SGI_DATA = {
 			["Esquadrão Classe S"] = {
 				"Guimaraes", -- [1]
 			},
-			["LGBT Gamers"] = {
-				"Kamintou", -- [1]
+			["The Poros"] = {
+				"Ripdeath", -- [1]
+				"Zerila", -- [2]
 			},
-			["DisciplesOfDoom"] = {
-				"Nagos", -- [1]
+			["Insurrection"] = {
+				"Deedrah", -- [1]
 			},
 			["Grandmaster Gods"] = {
 				"Herpderpadin", -- [1]
@@ -2010,12 +2021,11 @@ SGI_DATA = {
 			["Disturbia Too"] = {
 				"Taraan", -- [1]
 			},
-			["TempleOS"] = {
-				"Scootsteiner", -- [1]
+			["Guíld"] = {
+				"Yfnmira", -- [1]
 			},
-			["The Poros"] = {
-				"Ripdeath", -- [1]
-				"Zerila", -- [2]
+			["LGBT Gamers"] = {
+				"Kamintou", -- [1]
 			},
 			["Divinity"] = {
 				"Gospri", -- [1]
@@ -2029,8 +2039,8 @@ SGI_DATA = {
 			["Conception"] = {
 				"Guffaw", -- [1]
 			},
-			["Special Agent"] = {
-				"Dragic", -- [1]
+			["Sunwell Day Spa"] = {
+				"Nikô", -- [1]
 			},
 			["Cow"] = {
 				"Ludearn", -- [1]
@@ -2048,12 +2058,14 @@ SGI_DATA = {
 			["Locusts"] = {
 				"Cadaver", -- [1]
 			},
-			["Noob Nation"] = {
-				"Luxray", -- [1]
+			["Not Safe for Work"] = {
+				"Babydòll", -- [1]
 			},
-			["Future"] = {
-				"Arondesam", -- [1]
-				"Humor", -- [2]
+			["The Depraved"] = {
+				"Voxpopuli", -- [1]
+				"Spkilla", -- [2]
+				"Cakelady", -- [3]
+				"Meanii", -- [4]
 			},
 			["Ianomâmi"] = {
 				"Ragnarus", -- [1]
@@ -2064,41 +2076,36 @@ SGI_DATA = {
 			["Uh Hello"] = {
 				"Minimagus", -- [1]
 			},
-			["The Depraved"] = {
-				"Voxpopuli", -- [1]
-				"Spkilla", -- [2]
-				"Cakelady", -- [3]
-				"Meanii", -- [4]
+			["Vis Animus"] = {
+				"Ganzinam", -- [1]
 			},
 			["Naturally Critical"] = {
 				"Avithao", -- [1]
 			},
-			["PARLEY"] = {
-				"Luciæn", -- [1]
+			["Blood Omen"] = {
+				"Ætherstorm", -- [1]
 			},
-			["Dont At Me"] = {
-				"Kafyka", -- [1]
+			["The Dark Coven"] = {
+				"Beloraf", -- [1]
 			},
-			["Thunderforged"] = {
-				"Plattdaddy", -- [1]
-				"Classless", -- [2]
-				"Ironnick", -- [3]
+			["Future"] = {
+				"Arondesam", -- [1]
+				"Humor", -- [2]
 			},
 			["World PvP is Back"] = {
 				"Weedeveryday", -- [1]
 			},
-			["Horde Special Force"] = {
-				"Brãnquelah", -- [1]
+			["The Stormcrows"] = {
+				"Brewtheret", -- [1]
 			},
-			["Âlpha"] = {
-				"Hollyn", -- [1]
-				"Altaelaanuaa", -- [2]
+			["Brotherhood of the Horse"] = {
+				"Velidreyn", -- [1]
 			},
 			["Leader of the Packs"] = {
 				"Rèmixj", -- [1]
 			},
-			["Warcraft Masters"] = {
-				"Linanfreya", -- [1]
+			["I IIl IIl VII"] = {
+				"Alterdevil", -- [1]
 			},
 			["The Nine Nine"] = {
 				"Cheddär", -- [1]
@@ -2109,11 +2116,11 @@ SGI_DATA = {
 			["Revolt"] = {
 				"Quitwhining", -- [1]
 			},
-			["Baldurs Gate"] = {
-				"Indahra", -- [1]
+			["Written ìn Blood"] = {
+				"Caliya", -- [1]
 			},
-			["Vis Animus"] = {
-				"Ganzinam", -- [1]
+			["Raiders of the Fridge"] = {
+				"Lobotomized", -- [1]
 			},
 			["God Mode"] = {
 				"Forbez", -- [1]
@@ -2121,29 +2128,28 @@ SGI_DATA = {
 			["Magically Malicious"] = {
 				"Naadona", -- [1]
 			},
-			["Happy Lil Accidents"] = {
-				"Bruisedkítty", -- [1]
+			["PARLEY"] = {
+				"Luciæn", -- [1]
 			},
-			["The Greek Legion"] = {
-				"Eclipseburn", -- [1]
-				"Serenity", -- [2]
+			["Horde Mafia"] = {
+				"Zwøllë", -- [1]
 			},
-			["Numbers Dont Count"] = {
-				"Tella", -- [1]
+			["Dont At Me"] = {
+				"Kafyka", -- [1]
 			},
 			["Doushbade"] = {
 				"Dundonarni", -- [1]
 			},
-			["The Senate"] = {
-				"Ghostnappa", -- [1]
-				"Døsvidaniya", -- [2]
-				"Curvyboi", -- [3]
+			["Aløne"] = {
+				"Mushinronsha", -- [1]
+				"Valchip", -- [2]
 			},
-			["Brotherhood of the Horse"] = {
-				"Velidreyn", -- [1]
+			["Âlpha"] = {
+				"Hollyn", -- [1]
+				"Altaelaanuaa", -- [2]
 			},
-			["Bláçk Kníght Söçìéty"] = {
-				"Henrywallace", -- [1]
+			["Warcraft Masters"] = {
+				"Linanfreya", -- [1]
 			},
 			["Herd of Nerds"] = {
 				"Dorisa", -- [1]
@@ -2154,24 +2160,25 @@ SGI_DATA = {
 			["kind of a big deal"] = {
 				"Rraven", -- [1]
 			},
-			["Written ìn Blood"] = {
-				"Caliya", -- [1]
+			["Baldurs Gate"] = {
+				"Indahra", -- [1]
 			},
-			["Blood Omen"] = {
-				"Ætherstorm", -- [1]
+			["Happy Lil Accidents"] = {
+				"Bruisedkítty", -- [1]
 			},
 			["The Last Legion"] = {
 				"Aaegont", -- [1]
 			},
-			["Relentless"] = {
-				"Aquanima", -- [1]
+			["The Spanish Inquisition"] = {
+				"Ozziruk", -- [1]
 			},
-			["Aløne"] = {
-				"Mushinronsha", -- [1]
-				"Valchip", -- [2]
+			["The Senate"] = {
+				"Ghostnappa", -- [1]
+				"Døsvidaniya", -- [2]
+				"Curvyboi", -- [3]
 			},
-			["B E E S W O R L D"] = {
-				"Gentlehat", -- [1]
+			["MentalWard"] = {
+				"Cascat", -- [1]
 			},
 			["Pigeon"] = {
 				"Shadowqte", -- [1]
@@ -2179,11 +2186,14 @@ SGI_DATA = {
 			["Righteous Groove"] = {
 				"Xaidinsama", -- [1]
 			},
+			["Exusia"] = {
+				"Icedkolds", -- [1]
+				"Gêlbïn", -- [2]
+				"Niptwister", -- [3]
+				"Draíodoir", -- [4]
+			},
 			["MH Purgatory"] = {
 				"Demonpride", -- [1]
-			},
-			["Caguamas Ninjas"] = {
-				"Hargark", -- [1]
 			},
 			["flowerpower"] = {
 				"Paralock", -- [1]
@@ -2191,25 +2201,23 @@ SGI_DATA = {
 			["Emerald Nightmare Order"] = {
 				"Zevarus", -- [1]
 			},
-			["Transdimensional"] = {
-				"Zeroi", -- [1]
-				"Blinkybinky", -- [2]
-				"Gamorian", -- [3]
+			["Goonies Never Say Die"] = {
+				"Totemrecal", -- [1]
 			},
 			["Veterans of the Horde"] = {
 				"Nekthar", -- [1]
 				"Jaqèn", -- [2]
 				"Sonofjudas", -- [3]
 			},
-			["Baroque Works"] = {
-				"Belwaz", -- [1]
+			["Minfrin"] = {
+				"Minfrin", -- [1]
 			},
-			["Cariocas da Luta"] = {
-				"Profilepvp", -- [1]
+			["Unbound Misfits"] = {
+				"Aspën", -- [1]
 			},
-			["Phoeníx Down"] = {
-				"Gostx", -- [1]
-				"Pookah", -- [2]
+			["The Violet Crusaders"] = {
+				"Frozenbutt", -- [1]
+				"Toneren", -- [2]
 			},
 			["Friends With Benefits"] = {
 				"Olenokgrey", -- [1]
@@ -2221,16 +2229,16 @@ SGI_DATA = {
 				"Hylian", -- [1]
 				"Zerto", -- [2]
 			},
-			["Moonrise"] = {
-				"Callandra", -- [1]
+			["The Kings Hand"] = {
+				"Shreds", -- [1]
+				"Benjamon", -- [2]
 			},
 			["Chelas Tranqui"] = {
 				"Kemalgilmaz", -- [1]
 				"Mhamônrha", -- [2]
 			},
-			["The Kings Hand"] = {
-				"Shreds", -- [1]
-				"Benjamon", -- [2]
+			["Moonrise"] = {
+				"Callandra", -- [1]
 			},
 			["Go Team"] = {
 				"Cephryx", -- [1]
@@ -2243,18 +2251,17 @@ SGI_DATA = {
 				"Unknown", -- [1]
 				"Wobbletotems", -- [2]
 			},
-			["The Good ol Boys"] = {
-				"Jazzybaby", -- [1]
+			["Pwnd"] = {
+				"Yolobinch", -- [1]
 			},
-			["Exalted With Your Mama"] = {
-				"Eljuan", -- [1]
-				"Darew", -- [2]
+			["Clan Battlehammer"] = {
+				"Argwin", -- [1]
 			},
 			["Treasure Cove"] = {
 				"Pesche", -- [1]
 			},
-			["Souls of Darkness"] = {
-				"Saopriest", -- [1]
+			["Heroism for Harambe"] = {
+				"Dinotown", -- [1]
 			},
 			["Pleasant Ridge Raiders"] = {
 				"Skizzabutt", -- [1]
@@ -2262,20 +2269,20 @@ SGI_DATA = {
 			["THROW YOUR BODIES AT IT"] = {
 				"Dotdoc", -- [1]
 			},
-			["Ohana"] = {
-				"Ceryth", -- [1]
+			["Legalize Monkeys"] = {
+				"Naztgul", -- [1]
 			},
-			["ADKGamers"] = {
-				"Moosewoodsen", -- [1]
+			["Taverna Velho Dragão"] = {
+				"Huntermast", -- [1]
 			},
 			["Cruel Hand"] = {
 				"Koyzumi", -- [1]
 			},
-			["Currently Waiting"] = {
-				"Taneste", -- [1]
+			["ADKGamers"] = {
+				"Moosewoodsen", -- [1]
 			},
-			["Mystic Dragon"] = {
-				"Lamuu", -- [1]
+			["Wipe Out"] = {
+				"Çruella", -- [1]
 			},
 			["jk im jackie chan"] = {
 				"Vaindra", -- [1]
@@ -2284,8 +2291,8 @@ SGI_DATA = {
 				"Narcissila", -- [1]
 				"Wolffnore", -- [2]
 			},
-			["Taverna Velho Dragão"] = {
-				"Huntermast", -- [1]
+			["The Watchers Council"] = {
+				"Xaldine", -- [1]
 			},
 			["Twilight Vanquishers"] = {
 				"Rabenvogel", -- [1]
@@ -2294,11 +2301,12 @@ SGI_DATA = {
 				"Sconpally", -- [1]
 				"Chelynna", -- [2]
 			},
-			["The Watchers Council"] = {
-				"Xaldine", -- [1]
+			["Alva"] = {
+				"Kazadorra", -- [1]
+				"Kagladiosa", -- [2]
 			},
-			["IronMoon"] = {
-				"Feylaris", -- [1]
+			["I Like Dogs"] = {
+				"Yurock", -- [1]
 			},
 			["Once upon a time"] = {
 				"Zhengh", -- [1]
@@ -2309,14 +2317,16 @@ SGI_DATA = {
 			["sangdelahorde"] = {
 				"Redvador", -- [1]
 			},
-			["DuskTillDawn"] = {
-				"Verlordqt", -- [1]
+			["Defiant Ones"] = {
+				"Araisong", -- [1]
+				"Dacodexthree", -- [2]
 			},
-			["Dream Stream Team"] = {
-				"Boxermotor", -- [1]
+			["KNIGHTS OF LADY SYLVANAS"] = {
+				"Sthemil", -- [1]
 			},
-			["I Like Dogs"] = {
-				"Yurock", -- [1]
+			["Monocled Ruffians"] = {
+				"Gzonemecha", -- [1]
+				"Pyretho", -- [2]
 			},
 			["PRIMAL FEAR"] = {
 				"Repenta", -- [1]
@@ -2336,21 +2346,20 @@ SGI_DATA = {
 			["Eldunari"] = {
 				"Lunaesa", -- [1]
 			},
-			["MISSION OF MERCY"] = {
-				"Anthuk", -- [1]
+			["Twisted Abyss"] = {
+				"Chinesespy", -- [1]
 			},
 			["Horda Legacy"] = {
 				"Diaablo", -- [1]
 			},
-			["Monocled Ruffians"] = {
-				"Gzonemecha", -- [1]
-				"Pyretho", -- [2]
-			},
 			["Sadistically Silenced"] = {
 				"Drleafbender", -- [1]
 			},
-			["Kingdom of LGBT"] = {
-				"Itteirja", -- [1]
+			["IronMoon"] = {
+				"Feylaris", -- [1]
+			},
+			["Goon Squad"] = {
+				"Ministryowl", -- [1]
 			},
 			["Broken Promise"] = {
 				"Alairia", -- [1]
@@ -2362,14 +2371,16 @@ SGI_DATA = {
 				"Kurthios", -- [1]
 				"Diwnl", -- [2]
 			},
-			["Grudgebearers"] = {
-				"Frostyfoot", -- [1]
+			["The Alliance Empire II"] = {
+				"Houñd", -- [1]
+				"Rehkz", -- [2]
+				"Bulrog", -- [3]
 			},
 			["Fight Your Mates Dad"] = {
 				"Kazashka", -- [1]
 			},
-			["dogmen"] = {
-				"Dialia", -- [1]
+			["OFFICIAL"] = {
+				"Tabbiella", -- [1]
 			},
 			["Invernalia"] = {
 				"Deadgiver", -- [1]
@@ -2391,9 +2402,8 @@ SGI_DATA = {
 			["Compulsion"] = {
 				"Quanji", -- [1]
 			},
-			["Frozentoad Brigade"] = {
-				"Hotporridge", -- [1]
-				"Dwarfilox", -- [2]
+			["Forcium Knights"] = {
+				"Seaforce", -- [1]
 			},
 			["Hanzo crew"] = {
 				"Gloomhavens", -- [1]
@@ -2423,23 +2433,23 @@ SGI_DATA = {
 			["Smile"] = {
 				"Catcat", -- [1]
 			},
-			["WolfsDen"] = {
-				"Raydenz", -- [1]
+			["Stormriders"] = {
+				"Holyshort", -- [1]
 			},
-			["The Fox Republic"] = {
-				"Astaryn", -- [1]
-			},
-			["Behind The Curve"] = {
-				"Iggyazaléa", -- [1]
-			},
-			["Sic Parvis Magna"] = {
-				"Sehlin", -- [1]
+			["Myth"] = {
+				"Targaryen", -- [1]
 			},
 			["The Wolven Storm"] = {
 				"Nedgy", -- [1]
 			},
-			["Violet Sea Consortium"] = {
-				"Smashbrocham", -- [1]
+			["NickerRich"] = {
+				"Vìas", -- [1]
+			},
+			["Behind The Curve"] = {
+				"Iggyazaléa", -- [1]
+			},
+			["Obscurum"] = {
+				"Srtadelícia", -- [1]
 			},
 			["Dont Release"] = {
 				"Phillycheese", -- [1]
@@ -2447,29 +2457,31 @@ SGI_DATA = {
 			["The Art of HUE"] = {
 				"Toymaster", -- [1]
 			},
+			["Rich Bankers Association"] = {
+				"Aasales", -- [1]
+			},
 			["AFK Mom Aggro"] = {
 				"Chainmaille", -- [1]
 			},
-			["la rebeleon"] = {
-				"Calamardude", -- [1]
-			},
-			["Vipers"] = {
-				"Divinehalwa", -- [1]
+			["Rags to Revered"] = {
+				"Mazula", -- [1]
 			},
 			["Animosity"] = {
 				"Neytin", -- [1]
 			},
-			["Demonic Embracers"] = {
-				"Pvppriest", -- [1]
+			["Iron Legacy"] = {
+				"Kuramo", -- [1]
+				"Asiimov", -- [2]
+				"Shizunö", -- [3]
 			},
 			["The Amberpine Overwatch"] = {
 				"Margoshort", -- [1]
 			},
-			["The Emerald Dreamers"] = {
-				"Tshuggah", -- [1]
+			["The Happily Insane"] = {
+				"Wombat", -- [1]
 			},
-			["Interzone"] = {
-				"Ínk", -- [1]
+			["Interstellar Overdrive"] = {
+				"Ventia", -- [1]
 			},
 			["Crusaders of the Dawn"] = {
 				"Destina", -- [1]
@@ -2483,26 +2495,27 @@ SGI_DATA = {
 			["NightWatch"] = {
 				"Squishÿ", -- [1]
 			},
-			["Interstellar Overdrive"] = {
-				"Ventia", -- [1]
-			},
-			["Go Horde or go home"] = {
-				"Goldenfang", -- [1]
-			},
-			["NI"] = {
-				"Comptroller", -- [1]
+			["Interzone"] = {
+				"Ínk", -- [1]
 			},
 			["Steel"] = {
 				"Baesic", -- [1]
 			},
-			["IlIIlIlIIlI"] = {
-				"Erodouche", -- [1]
+			["NI"] = {
+				"Comptroller", -- [1]
+			},
+			["MASS AUTHORITY"] = {
+				"Tüla", -- [1]
+			},
+			["The Fallen Angelss"] = {
+				"Unknown", -- [1]
+				"Munax", -- [2]
+			},
+			["losing as rogue mage"] = {
+				"Syanaz", -- [1]
 			},
 			["Last Full Measure"] = {
 				"Zandalar", -- [1]
-			},
-			["CandyRapper"] = {
-				"Tyleah", -- [1]
 			},
 			["Legends Of Boralus"] = {
 				"Buzzard", -- [1]
@@ -2544,44 +2557,43 @@ SGI_DATA = {
 			["Margaritaville"] = {
 				"Greyclaw", -- [1]
 			},
+			["Forgotten Souls"] = {
+				"Huntu", -- [1]
+			},
+			["Naughty Knights"] = {
+				"Garroshes", -- [1]
+			},
+			["Kings Honor Friend"] = {
+				"Heritagelul", -- [1]
+			},
 			["Dropped Stitches"] = {
 				"Phlidais", -- [1]
 			},
+			["Fallen Angels"] = {
+				"Silverbelle", -- [1]
+			},
+			["Hung Twinks"] = {
+				"Girlirlhehe", -- [1]
+			},
+			["Horde Rock Café"] = {
+				"Marluz", -- [1]
+			},
 			["Prototype"] = {
 				"Banned", -- [1]
+			},
+			["Shadows of Light"] = {
+				"Whiskeyoak", -- [1]
+			},
+			["DarkSiders"] = {
+				"Pinchedin", -- [1]
 			},
 			["The Lions Bulwark"] = {
 				"Procless", -- [1]
 				"Elegos", -- [2]
 				"Broloswaggns", -- [3]
 			},
-			["Forgotten Souls"] = {
-				"Huntu", -- [1]
-			},
-			["Fallen Angels"] = {
-				"Silverbelle", -- [1]
-			},
-			["Cobra Chickens"] = {
-				"Razghar", -- [1]
-			},
-			["Horde Rock Café"] = {
-				"Marluz", -- [1]
-			},
-			["Echoes of Death"] = {
-				"Citronnette", -- [1]
-				"Marchombre", -- [2]
-			},
-			["HitchHikers Guide"] = {
-				"Arq", -- [1]
-			},
-			["DarkSiders"] = {
-				"Pinchedin", -- [1]
-			},
-			["Maestros Pasteleros"] = {
-				"Veyitoblue", -- [1]
-			},
-			["Unrivaled"] = {
-				"Taó", -- [1]
+			["Crimson Mist"] = {
+				"Dôôgiehowser", -- [1]
 			},
 			["Hunting Hour"] = {
 				"Slammybammy", -- [1]
@@ -2589,12 +2601,11 @@ SGI_DATA = {
 			["Traders Guild"] = {
 				"Hemphrey", -- [1]
 			},
-			["Naughty Knights"] = {
-				"Garroshes", -- [1]
+			["Inquisitiøn"] = {
+				"Brìgid", -- [1]
 			},
-			["Force of Will"] = {
-				"Hãtred", -- [1]
-				"Evermourne", -- [2]
+			["HitchHikers Guide"] = {
+				"Arq", -- [1]
 			},
 			["Valiant Justice"] = {
 				"Deathensues", -- [1]
@@ -2602,48 +2613,50 @@ SGI_DATA = {
 			["Perdition"] = {
 				"Doctour", -- [1]
 			},
-			["Azeroth Social Club"] = {
-				"Sløwhand", -- [1]
+			["HODL"] = {
+				"Snowbora", -- [1]
 			},
-			["Crimson Mist"] = {
-				"Dôôgiehowser", -- [1]
+			["Cobra Chickens"] = {
+				"Razghar", -- [1]
 			},
-			["WEAPON"] = {
-				"Zneerg", -- [1]
+			["Team Banzai"] = {
+				"Pëng", -- [1]
+			},
+			["Undaunted"] = {
+				"Serainia", -- [1]
 			},
 			["KokonutKrew"] = {
 				"Samoanslayer", -- [1]
 				"Duir", -- [2]
 			},
-			["Whispers Of Old Gods"] = {
-				"Fizxi", -- [1]
-			},
 			["Ashes of Haha"] = {
 				"Bankaaii", -- [1]
 			},
-			["Undaunted"] = {
-				"Serainia", -- [1]
+			["Whispers Of Old Gods"] = {
+				"Fizxi", -- [1]
 			},
-			["Team Banzai"] = {
-				"Pëng", -- [1]
+			["WEAPON"] = {
+				"Zneerg", -- [1]
 			},
-			["HODL"] = {
-				"Snowbora", -- [1]
+			["Azeroth Social Club"] = {
+				"Sløwhand", -- [1]
 			},
 			["Merciless Lethality"] = {
 				"Prezy", -- [1]
 			},
-			["Inquisitiøn"] = {
-				"Brìgid", -- [1]
+			["Force of Will"] = {
+				"Hãtred", -- [1]
+				"Evermourne", -- [2]
 			},
-			["Hung Twinks"] = {
-				"Girlirlhehe", -- [1]
+			["Unrivaled"] = {
+				"Taó", -- [1]
 			},
-			["Kings Honor Friend"] = {
-				"Heritagelul", -- [1]
+			["Maestros Pasteleros"] = {
+				"Veyitoblue", -- [1]
 			},
-			["Shadows of Light"] = {
-				"Whiskeyoak", -- [1]
+			["Echoes of Death"] = {
+				"Citronnette", -- [1]
+				"Marchombre", -- [2]
 			},
 			["mediocre"] = {
 				"Tañling", -- [1]
@@ -2657,86 +2670,81 @@ SGI_DATA = {
 			["Ravens Of The Apocolypse"] = {
 				"Trezzi", -- [1]
 			},
-			["losing as rogue mage"] = {
-				"Syanaz", -- [1]
+			["CandyRapper"] = {
+				"Tyleah", -- [1]
 			},
 			["Tortuga"] = {
 				"Poptartsxo", -- [1]
 			},
-			["The Fallen Angelss"] = {
-				"Unknown", -- [1]
-				"Munax", -- [2]
+			["IlIIlIlIIlI"] = {
+				"Erodouche", -- [1]
 			},
-			["MASS AUTHORITY"] = {
-				"Tüla", -- [1]
+			["Go Horde or go home"] = {
+				"Goldenfang", -- [1]
 			},
 			["Warsong Mafia"] = {
 				"Soldili", -- [1]
 			},
-			["The Happily Insane"] = {
-				"Wombat", -- [1]
+			["The Emerald Dreamers"] = {
+				"Tshuggah", -- [1]
 			},
 			["Lëgacy"] = {
 				"Whisperia", -- [1]
 			},
-			["Iron Legacy"] = {
-				"Kuramo", -- [1]
-				"Asiimov", -- [2]
-				"Shizunö", -- [3]
+			["Demonic Embracers"] = {
+				"Pvppriest", -- [1]
 			},
-			["Rags to Revered"] = {
-				"Mazula", -- [1]
+			["Vipers"] = {
+				"Divinehalwa", -- [1]
 			},
-			["Rich Bankers Association"] = {
-				"Aasales", -- [1]
+			["la rebeleon"] = {
+				"Calamardude", -- [1]
 			},
-			["Obscurum"] = {
-				"Srtadelícia", -- [1]
+			["Violet Sea Consortium"] = {
+				"Smashbrocham", -- [1]
 			},
-			["NickerRich"] = {
-				"Vìas", -- [1]
+			["Sic Parvis Magna"] = {
+				"Sehlin", -- [1]
 			},
 			["Unicorns and Rainbows"] = {
 				"Domainadmin", -- [1]
 			},
-			["Myth"] = {
-				"Targaryen", -- [1]
+			["The Fox Republic"] = {
+				"Astaryn", -- [1]
 			},
-			["Stormriders"] = {
-				"Holyshort", -- [1]
+			["Frozentoad Brigade"] = {
+				"Hotporridge", -- [1]
+				"Dwarfilox", -- [2]
 			},
-			["Forcium Knights"] = {
-				"Seaforce", -- [1]
+			["WolfsDen"] = {
+				"Raydenz", -- [1]
 			},
-			["OFFICIAL"] = {
-				"Tabbiella", -- [1]
+			["dogmen"] = {
+				"Dialia", -- [1]
 			},
 			["Laissez Faire"] = {
 				"Jette", -- [1]
 			},
-			["The Alliance Empire II"] = {
-				"Houñd", -- [1]
-				"Rehkz", -- [2]
-				"Bulrog", -- [3]
+			["Grudgebearers"] = {
+				"Frostyfoot", -- [1]
 			},
-			["Goon Squad"] = {
-				"Ministryowl", -- [1]
+			["Kingdom of LGBT"] = {
+				"Itteirja", -- [1]
 			},
 			["Early Birthday"] = {
 				"Priesay", -- [1]
 			},
-			["Twisted Abyss"] = {
-				"Chinesespy", -- [1]
+			["MISSION OF MERCY"] = {
+				"Anthuk", -- [1]
 			},
 			["FINGERLINGZ"] = {
 				"Flushee", -- [1]
 			},
-			["KNIGHTS OF LADY SYLVANAS"] = {
-				"Sthemil", -- [1]
+			["Dream Stream Team"] = {
+				"Boxermotor", -- [1]
 			},
-			["Defiant Ones"] = {
-				"Araisong", -- [1]
-				"Dacodexthree", -- [2]
+			["DuskTillDawn"] = {
+				"Verlordqt", -- [1]
 			},
 			["Raging Murlocs"] = {
 				"Valkyriez", -- [1]
@@ -2744,27 +2752,27 @@ SGI_DATA = {
 			["Controlled Kaos"] = {
 				"Awrii", -- [1]
 			},
-			["Wipe Out"] = {
-				"Çruella", -- [1]
+			["Mystic Dragon"] = {
+				"Lamuu", -- [1]
 			},
-			["Alva"] = {
-				"Kazadorra", -- [1]
-				"Kagladiosa", -- [2]
+			["Currently Waiting"] = {
+				"Taneste", -- [1]
 			},
-			["Legalize Monkeys"] = {
-				"Naztgul", -- [1]
+			["Ohana"] = {
+				"Ceryth", -- [1]
 			},
-			["Heroism for Harambe"] = {
-				"Dinotown", -- [1]
+			["Souls of Darkness"] = {
+				"Saopriest", -- [1]
 			},
 			["Fabled Heroes"] = {
 				"Gilong", -- [1]
 			},
-			["Clan Battlehammer"] = {
-				"Argwin", -- [1]
+			["Exalted With Your Mama"] = {
+				"Eljuan", -- [1]
+				"Darew", -- [2]
 			},
-			["Pwnd"] = {
-				"Yolobinch", -- [1]
+			["The Good ol Boys"] = {
+				"Jazzybaby", -- [1]
 			},
 			["Moonglow Bootleggers"] = {
 				"Tangaloa", -- [1]
@@ -2772,40 +2780,40 @@ SGI_DATA = {
 			["Brotherhood of Wolves"] = {
 				"Chelle", -- [1]
 			},
-			["The Violet Crusaders"] = {
-				"Frozenbutt", -- [1]
-				"Toneren", -- [2]
+			["Phoeníx Down"] = {
+				"Gostx", -- [1]
+				"Pookah", -- [2]
 			},
-			["Unbound Misfits"] = {
-				"Aspën", -- [1]
+			["Cariocas da Luta"] = {
+				"Profilepvp", -- [1]
 			},
-			["Minfrin"] = {
-				"Minfrin", -- [1]
+			["Baroque Works"] = {
+				"Belwaz", -- [1]
 			},
-			["Goonies Never Say Die"] = {
-				"Totemrecal", -- [1]
+			["Transdimensional"] = {
+				"Zeroi", -- [1]
+				"Blinkybinky", -- [2]
+				"Gamorian", -- [3]
 			},
-			["Exusia"] = {
-				"Icedkolds", -- [1]
-				"Gêlbïn", -- [2]
-				"Niptwister", -- [3]
-				"Draíodoir", -- [4]
+			["Caguamas Ninjas"] = {
+				"Hargark", -- [1]
 			},
 			["Gurubashi Goons"] = {
 				"Tyrzelle", -- [1]
 			},
-			["MentalWard"] = {
-				"Cascat", -- [1]
+			["B E E S W O R L D"] = {
+				"Gentlehat", -- [1]
 			},
-			["The Spanish Inquisition"] = {
-				"Ozziruk", -- [1]
+			["Relentless"] = {
+				"Aquanima", -- [1]
 			},
 			["Shallator of Elune"] = {
 				"Astradomina", -- [1]
 				"Krienna", -- [2]
 			},
-			["Horde Mafia"] = {
-				"Zwøllë", -- [1]
+			["The Greek Legion"] = {
+				"Eclipseburn", -- [1]
+				"Serenity", -- [2]
 			},
 			["The Stronghold"] = {
 				"Nous", -- [1]
@@ -2813,17 +2821,17 @@ SGI_DATA = {
 			["Le Do Thoil"] = {
 				"Cagryn", -- [1]
 			},
-			["I IIl IIl VII"] = {
-				"Alterdevil", -- [1]
+			["Bláçk Kníght Söçìéty"] = {
+				"Henrywallace", -- [1]
 			},
 			["GnoMercy"] = {
 				"Floofy", -- [1]
 			},
-			["The Stormcrows"] = {
-				"Brewtheret", -- [1]
+			["Horde Special Force"] = {
+				"Brãnquelah", -- [1]
 			},
-			["The Dark Coven"] = {
-				"Beloraf", -- [1]
+			["Numbers Dont Count"] = {
+				"Tella", -- [1]
 			},
 			["Eternal Reverence"] = {
 				"Vampirá", -- [1]
@@ -2831,23 +2839,25 @@ SGI_DATA = {
 			["Souls Of Azeroth"] = {
 				"Backstabbëth", -- [1]
 			},
-			["Sunwell Day Spa"] = {
-				"Nikô", -- [1]
+			["Thunderforged"] = {
+				"Plattdaddy", -- [1]
+				"Classless", -- [2]
+				"Ironnick", -- [3]
 			},
-			["Not Safe for Work"] = {
-				"Babydòll", -- [1]
+			["Noob Nation"] = {
+				"Luxray", -- [1]
 			},
-			["Raiders of the Fridge"] = {
-				"Lobotomized", -- [1]
+			["Special Agent"] = {
+				"Dragic", -- [1]
 			},
 			["Salt and Burn"] = {
 				"Vaust", -- [1]
 			},
-			["Insurrection"] = {
-				"Deedrah", -- [1]
+			["DisciplesOfDoom"] = {
+				"Nagos", -- [1]
 			},
-			["Clan of Militia"] = {
-				"Grimmwolf", -- [1]
+			["Trump Bank"] = {
+				"Guad", -- [1]
 			},
 			["CangaceiroS"] = {
 				"Nunoghod", -- [1]
@@ -2856,71 +2866,66 @@ SGI_DATA = {
 			["Absolute"] = {
 				"Kydari", -- [1]
 			},
-			["Sigil"] = {
-				"Kokô", -- [1]
+			["Ultimate End"] = {
+				"Satîva", -- [1]
 			},
 			["The Evernight Blades"] = {
 				"Gwaegon", -- [1]
 			},
-			["Redirect"] = {
-				"Bellariane", -- [1]
-				"Gameplayx", -- [2]
+			["PvPee on you"] = {
+				"Dondinero", -- [1]
+				"Writtenblood", -- [2]
 			},
-			["Mortality"] = {
-				"Isabelial", -- [1]
+			["Spartans"] = {
+				"Kiwislash", -- [1]
 			},
 			["Sixty Minutes"] = {
 				"Rzip", -- [1]
 			},
-			["The Visigothic Kingdom"] = {
-				"Ankhan", -- [1]
-				"Erlareith", -- [2]
+			["Midnight Syndicate"] = {
+				"Amitabah", -- [1]
 			},
-			["Pegasus"] = {
-				"Arkfang", -- [1]
+			["Raiding is for Rtards"] = {
+				"Zippii", -- [1]
 			},
 			["Silver Sabers"] = {
 				"Fuziwuzhe", -- [1]
 			},
-			["Coalition Of Azeroth"] = {
-				"Cruxshadows", -- [1]
-				"Nymae", -- [2]
+			["Floppy Disks"] = {
+				"Abraxasdr", -- [1]
 			},
-			["No Vacancy"] = {
-				"Crimzim", -- [1]
+			["Asgard Warriors"] = {
+				"Elchoco", -- [1]
 			},
-			["No Refunds"] = {
-				"Selbina", -- [1]
+			["The Sylvanas Loyalists"] = {
+				"Shïnï", -- [1]
 			},
 			["The Päck"] = {
 				"Gerhman", -- [1]
 			},
-			["Drunken Fisherman"] = {
-				"Xinithe", -- [1]
-				"Rysu", -- [2]
-				"Saeyon", -- [3]
+			["Bunch of Bull"] = {
+				"Flashies", -- [1]
 			},
-			["Curmudgeonry"] = {
-				"Jahmmon", -- [1]
+			["Mature Contënt"] = {
+				"Kaedalina", -- [1]
 			},
-			["Red Devil"] = {
-				"Pleyall", -- [1]
+			["FilthyCasuals"] = {
+				"Iplql", -- [1]
 			},
-			["Pride of The Alliance"] = {
-				"Swiftshotsz", -- [1]
-				"Chathon", -- [2]
+			["Murphys Law"] = {
+				"Ninjahugs", -- [1]
 			},
-			["Blackout"] = {
-				"Coteva", -- [1]
+			["Bloody Arms"] = {
+				"Showcitoar", -- [1]
 			},
 			["Ultimate Danger"] = {
 				"Tinkerdink", -- [1]
 			},
-			["Endless Trails"] = {
-				"Maginova", -- [1]
+			["The Crimson Nightmare"] = {
+				"Galandriss", -- [1]
 			},
-			["Accidental Heroism"] = {
-				"Ayicuma", -- [1]
+			["Big Baller Brand"] = {
+				"Coebee", -- [1]
 			},
 			["Draconic Redemption"] = {
 				"Thûrin", -- [1]
@@ -2931,53 +2936,48 @@ SGI_DATA = {
 			["Could Be Better"] = {
 				"Duelx", -- [1]
 			},
-			["The Force"] = {
-				"Etherêal", -- [1]
-				"Kacö", -- [2]
+			["Malicious Misfits"] = {
+				"Bleububbles", -- [1]
 			},
-			["Currently AFK"] = {
-				"Torchbeard", -- [1]
+			["Devotion"] = {
+				"Sworda", -- [1]
 			},
-			["Goldshire Heroes"] = {
-				"Ichorian", -- [1]
-				"Rnjeezus", -- [2]
-				"Grimdelve", -- [3]
+			["Sugar Cookie"] = {
+				"Darkdelusion", -- [1]
+				"Loridiel", -- [2]
 			},
-			["Lord of Honors"] = {
-				"Olehunter", -- [1]
+			["Children of the moon"] = {
+				"Avhatar", -- [1]
 			},
-			["In The Groove"] = {
-				"Hanovorik", -- [1]
+			["G of A"] = {
+				"Chaoticmonk", -- [1]
 			},
-			["Team Friend"] = {
-				"Seongmina", -- [1]
+			["InvalidTarget"] = {
+				"Cayleey", -- [1]
 			},
-			["Pecan Sandies"] = {
-				"Rhictur", -- [1]
+			["MakeAWish"] = {
+				"Koiwai", -- [1]
 			},
-			["Heaven One"] = {
-				"Lionsclaw", -- [1]
-				"Dragöntis", -- [2]
+			["zezo"] = {
+				"Aukappa", -- [1]
 			},
-			["Infinite Paradox"] = {
-				"Einstien", -- [1]
+			["High and Mighty"] = {
+				"Misteak", -- [1]
 			},
 			["The Ashen Vale"] = {
 				"Cristi", -- [1]
 			},
-			["Bloody Champions"] = {
-				"Laehen", -- [1]
+			["Legión del Inframundo"] = {
+				"Ayakakaragi", -- [1]
 			},
-			["Netherspace Sanitarium"] = {
-				"Scorber", -- [1]
+			["Trashwipers"] = {
+				"Hefestïon", -- [1]
 			},
-			["Emerald Paradise"] = {
-				"Muffin", -- [1]
-				"Luniz", -- [2]
-				"Lerias", -- [3]
+			["JustUsLeague"] = {
+				"Bearrista", -- [1]
 			},
-			["Defiled Insanity"] = {
-				"Domik", -- [1]
+			["Brimstone Cabal"] = {
+				"Cladait", -- [1]
 			},
 			["Turbo Cyborg Ninjas"] = {
 				"Exclusiv", -- [1]
@@ -2985,17 +2985,17 @@ SGI_DATA = {
 			["United Valor"] = {
 				"Nahlorea", -- [1]
 			},
-			["BGATFBC"] = {
-				"Cptbeefchief", -- [1]
+			["Kitty Roca"] = {
+				"Ardee", -- [1]
 			},
-			["Andrómeda"] = {
-				"Ethopia", -- [1]
+			["Despair"] = {
+				"Doomrend", -- [1]
 			},
 			["Aspects"] = {
 				"Báshybáshy", -- [1]
 			},
-			["Los Hermanos de Sangre"] = {
-				"Ippó", -- [1]
+			["shots"] = {
+				"Downupdown", -- [1]
 			},
 			["Seventh Heaven"] = {
 				"Katajena", -- [1]
@@ -3003,28 +3003,28 @@ SGI_DATA = {
 			["Saviours of Azeroth"] = {
 				"Arbrox", -- [1]
 			},
-			["fist fights"] = {
-				"Mindmasterxd", -- [1]
+			["Dazed and Confused"] = {
+				"Cosmicforge", -- [1]
 			},
-			["MUSE"] = {
-				"Maevee", -- [1]
+			["ALL ABOARD"] = {
+				"Skryonetta", -- [1]
 			},
 			["Wraith"] = {
 				"Shabinass", -- [1]
 			},
-			["Cold Steel"] = {
-				"Benernick", -- [1]
+			["Strange"] = {
+				"Milagra", -- [1]
 			},
 		},
 		["Stormrage"] = {
-			["Moonglow"] = {
-				"Zatair", -- [1]
+			["Tyrannical"] = {
+				"Cptklimax", -- [1]
 			},
-			["Recycled Twinks"] = {
-				"Longestdawng", -- [1]
+			["No Dice"] = {
+				"Luckyes", -- [1]
 			},
-			["Solar Eclipse"] = {
-				"Highlylethal", -- [1]
+			["Aspire"] = {
+				"Mìstee", -- [1]
 			},
 			["Unbroken Alliance"] = {
 				"Ironnoddle", -- [1]
@@ -3032,23 +3032,223 @@ SGI_DATA = {
 			["Fight"] = {
 				"Junshi", -- [1]
 			},
-			["Seven Deadly Sins"] = {
-				"Xop", -- [1]
+			["CRIPPLING DEPRESSION"] = {
+				"Bootyguru", -- [1]
 			},
-			["Clever Meme Reference"] = {
-				"Tomie", -- [1]
+			["reminisce"] = {
+				"Yoube", -- [1]
+				"Spench", -- [2]
 			},
-			["Âlpha"] = {
-				"Bäbylegs", -- [1]
+			["AFGM"] = {
+				"Khorium", -- [1]
 			},
-			["Zeal"] = {
-				"Qelgan", -- [1]
+			["Thicc Thotties"] = {
+				"Lemmefreakrn", -- [1]
+				"Åsscheeks", -- [2]
 			},
 			["Resurgence"] = {
 				"Aeman", -- [1]
 			},
+			["DEATH RIDERS"] = {
+				"Ulavian", -- [1]
+			},
+			["ADD PVE"] = {
+				"Steamroller", -- [1]
+			},
+			["The Old Gods"] = {
+				"Rherox", -- [1]
+			},
+			["Driven"] = {
+				"Samoantitan", -- [1]
+			},
+			["Angel"] = {
+				"Frâulein", -- [1]
+				"Brixtin", -- [2]
+			},
+			["D Boys"] = {
+				"Tranqilo", -- [1]
+			},
+			["Addicted"] = {
+				"Tlahuicole", -- [1]
+			},
+			["Recycled Twinks"] = {
+				"Longestdawng", -- [1]
+				"Delpaci", -- [2]
+			},
+			["Solar Eclipse"] = {
+				"Highlylethal", -- [1]
+				"Groovè", -- [2]
+			},
+			["Ridiculous"] = {
+				"Lantez", -- [1]
+			},
+			["Avatar Stormrage"] = {
+				"Starvenger", -- [1]
+			},
+			["Nocturnal Serenity"] = {
+				"Koryx", -- [1]
+			},
+			["Reckless Legacy"] = {
+				"Mithcell", -- [1]
+			},
+			["Clever Meme Reference"] = {
+				"Tomie", -- [1]
+			},
+			["Deadside"] = {
+				"Model", -- [1]
+			},
+			["RUINOUS"] = {
+				"Tÿrö", -- [1]
+			},
+			["PVP Mindset"] = {
+				"Juicy", -- [1]
+			},
 			["Because Science"] = {
 				"Dabula", -- [1]
+			},
+			["Alliance Revolution"] = {
+				"Flavaflayme", -- [1]
+			},
+			["Keepers of the Alliance"] = {
+				"Orbaifare", -- [1]
+				"Darkdinoli", -- [2]
+			},
+			["Not Today ISIS"] = {
+				"Kasvotväxt", -- [1]
+			},
+			["Zeroes to Heroes"] = {
+				"Bekticles", -- [1]
+			},
+			["Together We Are Terrific"] = {
+				"Ulmerg", -- [1]
+			},
+			["OLD FARTS CLUB"] = {
+				"Wherru", -- [1]
+			},
+			["Spite"] = {
+				"Salzman", -- [1]
+			},
+			["aggressive hangover"] = {
+				"Esilmere", -- [1]
+			},
+			["Moonglow"] = {
+				"Zatair", -- [1]
+			},
+			["Head Nagas In Charge"] = {
+				"Krayzie", -- [1]
+			},
+			["War Den"] = {
+				"Swagidañ", -- [1]
+			},
+			["Zeal"] = {
+				"Qelgan", -- [1]
+			},
+			["Real League Fighters"] = {
+				"Peachwrap", -- [1]
+			},
+			["Observe"] = {
+				"Winterer", -- [1]
+			},
+			["Operation Jank Storm"] = {
+				"Nuoni", -- [1]
+			},
+			["Temper"] = {
+				"Newdul", -- [1]
+			},
+			["WIPED"] = {
+				"Toxicshocker", -- [1]
+			},
+			["return"] = {
+				"Ravanor", -- [1]
+			},
+			["Muffin Pirates"] = {
+				"Threyos", -- [1]
+				"Legionarius", -- [2]
+			},
+			["TrÿForce"] = {
+				"Aevenne", -- [1]
+			},
+			["Anarchy Reborn"] = {
+				"Grotron", -- [1]
+			},
+			["Azeroth Trading Company"] = {
+				"Beamz", -- [1]
+			},
+			["True Tenacity"] = {
+				"Brokanrubbr", -- [1]
+			},
+			["DCP"] = {
+				"Lâzy", -- [1]
+			},
+			["Birbs twink house"] = {
+				"Polybirb", -- [1]
+			},
+			["Rusty Wicked"] = {
+				"Fishloaf", -- [1]
+			},
+			["Order of The Blinkdragon"] = {
+				"Hjora", -- [1]
+			},
+			["Night Owl"] = {
+				"Groverr", -- [1]
+			},
+			["Please Be Patient"] = {
+				"Scythlex", -- [1]
+			},
+			["Splintered Souls"] = {
+				"Grimgornn", -- [1]
+			},
+			["Murloc Noodle Soup"] = {
+				"Pippirii", -- [1]
+				"Retss", -- [2]
+			},
+			["The Force"] = {
+				"Lavamonk", -- [1]
+				"Donrone", -- [2]
+				"Cardwell", -- [3]
+			},
+			["Death Jesters"] = {
+				"Megwynne", -- [1]
+			},
+			["Teehee"] = {
+				"Gèngar", -- [1]
+			},
+			["Envy of Eden"] = {
+				"Spartbfistn", -- [1]
+			},
+			["Efficient"] = {
+				"Pearagon", -- [1]
+			},
+			["Reconstructed"] = {
+				"Memuus", -- [1]
+				"Darkhartrage", -- [2]
+			},
+			["Damage Networks"] = {
+				"Riddeck", -- [1]
+			},
+			["Generic Anime Name"] = {
+				"Keybah", -- [1]
+			},
+			["Âlpha"] = {
+				"Bäbylegs", -- [1]
+				"Hollyn", -- [2]
+			},
+			["Seven Deadly Sins"] = {
+				"Xop", -- [1]
+			},
+			["Bless The Fall"] = {
+				"Baumkralle", -- [1]
+			},
+			["ACORNS"] = {
+				"Yorrogue", -- [1]
+			},
+			["Group Effort"] = {
+				"Dandie", -- [1]
+				"Crotchloc", -- [2]
+				"Metaproc", -- [3]
+			},
+			["House of Zagales"] = {
+				"Cüpid", -- [1]
 			},
 			["Blood Omen"] = {
 				"Bobbarian", -- [1]
@@ -3056,30 +3256,37 @@ SGI_DATA = {
 			["Thanos Did Nothing Wrong"] = {
 				"Samueljakson", -- [1]
 			},
-			["Murloc Noodle Soup"] = {
-				"Pippirii", -- [1]
+			["Angels from Above"] = {
+				"Klìnda", -- [1]
 			},
-			["Angel"] = {
-				"Frâulein", -- [1]
-				"Brixtin", -- [2]
+			["BankBank"] = {
+				"Islandsales", -- [1]
 			},
-			["Generic Anime Name"] = {
-				"Keybah", -- [1]
+			["Arctic Legion"] = {
+				"Brightyear", -- [1]
+				"Ciaoamici", -- [2]
 			},
-			["Death Jesters"] = {
-				"Megwynne", -- [1]
+			["The Space Jam"] = {
+				"Turdyturd", -- [1]
 			},
-			["The Force"] = {
-				"Lavamonk", -- [1]
+			["Virtues"] = {
+				"Talatubbie", -- [1]
 			},
-			["Teehee"] = {
-				"Gèngar", -- [1]
+			["Lessons In Brutality"] = {
+				"Mardristra", -- [1]
 			},
-			["D Boys"] = {
-				"Tranqilo", -- [1]
+			["Ex Inferno"] = {
+				"Rocknblock", -- [1]
 			},
-			["Envy of Eden"] = {
-				"Spartbfistn", -- [1]
+			["Brotherhood of Champions"] = {
+				"Bayneslayer", -- [1]
+			},
+			["Shields Up"] = {
+				"Stormword", -- [1]
+			},
+			["Mature Content"] = {
+				"Talmaco", -- [1]
+				"Fromcanada", -- [2]
 			},
 		},
 		["Tichondrius"] = {
@@ -3104,8 +3311,8 @@ SGI_DATA = {
 			["Flirting with Disaster"] = {
 				"Ohknowudidnt", -- [1]
 			},
-			["Embers"] = {
-				"Kazetingo", -- [1]
+			["Amazing Grace"] = {
+				"Darkavatar", -- [1]
 			},
 			["Modest"] = {
 				"Dàru", -- [1]
@@ -3113,8 +3320,8 @@ SGI_DATA = {
 			["Digital Geek Society"] = {
 				"Egreenjäger", -- [1]
 			},
-			["Disturbed"] = {
-				"Morningside", -- [1]
+			["Companions of Old"] = {
+				"Tubular", -- [1]
 			},
 			["Harleys Hoggs"] = {
 				"Harleyhog", -- [1]
@@ -3122,11 +3329,11 @@ SGI_DATA = {
 			["Angel Of Helwinds Asylum"] = {
 				"Dænérys", -- [1]
 			},
-			["Koopa Troopa"] = {
-				"Khalitzburg", -- [1]
-			},
 			["Avada Kedavra"] = {
 				"Duchëss", -- [1]
+			},
+			["AltÕholics"] = {
+				"Burningbear", -- [1]
 			},
 			["Catharsis"] = {
 				"Selaa", -- [1]
@@ -3134,29 +3341,29 @@ SGI_DATA = {
 			["Munchma Quchi"] = {
 				"Hellgrim", -- [1]
 			},
-			["Torrent"] = {
-				"Thespian", -- [1]
-			},
-			["LoneWolf Chiefs"] = {
-				"Indiansean", -- [1]
-			},
-			["Hot Aussie Blokes"] = {
-				"Bobowonderkn", -- [1]
+			["Disturbed"] = {
+				"Morningside", -- [1]
 			},
 			["one lesson per day"] = {
 				"Jdrs", -- [1]
 			},
-			["AltÕholics"] = {
-				"Burningbear", -- [1]
+			["Hot Aussie Blokes"] = {
+				"Bobowonderkn", -- [1]
+			},
+			["LoneWolf Chiefs"] = {
+				"Indiansean", -- [1]
+			},
+			["Torrent"] = {
+				"Thespian", -- [1]
 			},
 			["Society of Benevolence"] = {
 				"Starbreaker", -- [1]
 			},
-			["Companions of Old"] = {
-				"Tubular", -- [1]
+			["Koopa Troopa"] = {
+				"Khalitzburg", -- [1]
 			},
-			["Amazing Grace"] = {
-				"Darkavatar", -- [1]
+			["Embers"] = {
+				"Kazetingo", -- [1]
 			},
 		},
 	},
@@ -3168,12 +3375,10 @@ SGI_DATA = {
 			["highLimit"] = 120,
 			["checkBox"] = {
 			},
-			["lowLimit"] = 1,
 			["classStart"] = 120,
+			["lowLimit"] = 1,
 			["raceStart"] = 120,
 			["interval"] = 5,
-			["dropDown"] = {
-			},
 			["frames"] = {
 				["SGI_MiniMapButton"] = {
 					["yOfs"] = -43.7321434020996,
@@ -3188,6 +3393,8 @@ SGI_DATA = {
 					["relativePoint"] = "CENTER",
 				},
 			},
+			["dropDown"] = {
+			},
 			["filters"] = {
 			},
 		},
@@ -3200,12 +3407,10 @@ SGI_DATA = {
 			["highLimit"] = 120,
 			["checkBox"] = {
 			},
-			["lowLimit"] = 1,
 			["classStart"] = 120,
+			["lowLimit"] = 1,
 			["raceStart"] = 120,
 			["interval"] = 5,
-			["dropDown"] = {
-			},
 			["frames"] = {
 				["SGI_MiniMapButton"] = {
 					["yOfs"] = 33.9252166748047,
@@ -3219,6 +3424,8 @@ SGI_DATA = {
 					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
+			},
+			["dropDown"] = {
 			},
 			["filters"] = {
 			},

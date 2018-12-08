@@ -549,8 +549,8 @@ VExRT = {
 			["Reeps-Kil'jaeden"] = 254,
 			["Superlust"] = 64,
 			["Illidanvc-Quel'Thalas"] = 577,
+			["Cocoba-Frostmourne"] = 256,
 			["Jette-Bloodscalp"] = 266,
-			["Springsong-Maelstrom"] = 102,
 			["Alaylaa-Proudmoore"] = 70,
 			["Kñighterrant-Khadgar"] = 72,
 			["Bonza"] = 105,
@@ -580,7 +580,7 @@ VExRT = {
 			["Raesug"] = 577,
 			["Nates-Balnazzar"] = 259,
 			["Galandriss-Area52"] = 102,
-			["Cocoba-Frostmourne"] = 256,
+			["Springsong-Maelstrom"] = 102,
 			["Dæpadærpadps-Quel'dorei"] = 260,
 			["Juggalopain-Cairne"] = 70,
 			["Klima-Dawnbringer"] = 268,
@@ -996,14 +996,14 @@ VExRT = {
 				"BColossian", -- [16]
 				"JAejis", -- [17]
 				"APikapewtie", -- [18]
-				["c"] = "Samoantitan-Stormrage",
+				[21] = "EHalfpype",
 				["eI"] = 2135,
-				["k"] = true,
+				["c"] = "Samoantitan-Stormrage",
 				["d"] = 15,
 				["eN"] = "Mythrax",
 				["t"] = 1539838634,
 				["g"] = 16,
-				[21] = "EHalfpype",
+				["k"] = true,
 			}, -- [3]
 			{
 				"BColossian", -- [1]
@@ -1123,11 +1123,11 @@ VExRT = {
 	},
 	["Addon"] = {
 		["Version"] = 3990,
+		["IconMiniMapLeft"] = 33.9313624899283,
 		["Scale"] = 0.98,
-		["PreVersion"] = 3990,
 		["IconMiniMapTop"] = -72.4476544794729,
 		["Timer"] = 0.1,
-		["IconMiniMapLeft"] = 33.9313624899283,
+		["PreVersion"] = 3990,
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
@@ -1144,9 +1144,17 @@ VExRT = {
 	},
 	["Profiles"] = {
 		["default"] = {
-			["Coins"] = {
-				["list"] = {
-				},
+			["InviteTool"] = {
+				["Words"] = "инв inv byd штм 123",
+				["InvByChat"] = true,
+				["RaidDiff"] = 16,
+				["PromoteRank"] = 3,
+				["LootThreshold"] = 2,
+				["MasterLooters"] = "",
+				["LootMethod"] = "group",
+				["PromoteNames"] = "",
+				["OnlyGuild"] = true,
+				["Rank"] = 1,
 			},
 			["Note"] = {
 				["BlackNames"] = {
@@ -1178,17 +1186,9 @@ VExRT = {
 				["sync_data"] = {
 				},
 			},
-			["InviteTool"] = {
-				["Words"] = "инв inv byd штм 123",
-				["InvByChat"] = true,
-				["RaidDiff"] = 16,
-				["PromoteRank"] = 3,
-				["LootThreshold"] = 2,
-				["MasterLooters"] = "",
-				["LootMethod"] = "group",
-				["PromoteNames"] = "",
-				["OnlyGuild"] = true,
-				["Rank"] = 1,
+			["Coins"] = {
+				["list"] = {
+				},
 			},
 			["Encounter"] = {
 				["list"] = {
@@ -1283,9 +1283,9 @@ VExRT = {
 					["Lionofjudah-Alexstrasza"] = 66,
 					["Druidics-Anvilmar"] = 102,
 					["Släsh-Thunderhorn"] = 73,
-					["Dinotown-Sargeras"] = 264,
 					["Samoansage"] = 102,
 					["Demononeshot-Bloodhoof"] = 72,
+					["Dinotown-Sargeras"] = 264,
 					["Tyrànnus"] = 71,
 					["Samoanstrap"] = 253,
 				},

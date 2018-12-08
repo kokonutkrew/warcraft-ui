@@ -76,10 +76,10 @@ GSEOptions = {
 		["MiddleButton"] = false,
 	},
 	["filterList"] = {
-		["All"] = false,
-		["Spec"] = true,
-		["Global"] = true,
 		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["UseVerboseExportFormat"] = false,
@@ -112,6 +112,7 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["SpecID"] = 70,
 			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
@@ -122,26 +123,25 @@ GSELibrary = {
 					"/use Judgement", -- [5]
 					"/use Templar's Verdict", -- [6]
 					"/use Crusader Strike", -- [7]
-					["Trinket1"] = true,
+					["PostMacro"] = {
+					},
 					["Head"] = true,
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["PostMacro"] = {
-					},
-					["Trinket2"] = true,
-					["KeyRelease"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["Ring2"] = true,
-					["Combat"] = true,
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
+					["Trinket2"] = true,
+					["Combat"] = true,
+					["Ring2"] = true,
+					["PreMacro"] = {
+					},
+					["Trinket1"] = true,
 				}, -- [1]
 			},
-			["SpecID"] = 70,
 			["ManualIntervention"] = true,
 		},
 		["BFA_RET_AOE"] = {
@@ -149,8 +149,6 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -162,25 +160,27 @@ GSELibrary = {
 					"/use Judgement", -- [7]
 					"/use Divine Storm", -- [8]
 					"/use Crusader Strike", -- [9]
-					["PostMacro"] = {
-					},
+					["Trinket1"] = true,
 					["Head"] = true,
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["Trinket1"] = true,
-					["Trinket2"] = true,
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["Ring2"] = true,
+					["KeyRelease"] = {
+					},
+					["Trinket2"] = true,
 					["Combat"] = true,
+					["Ring2"] = true,
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
+					["PostMacro"] = {
 					},
 				}, -- [1]
 			},
+			["SpecID"] = 70,
+			["Author"] = "Samoantitan@Stormrage",
 			["ManualIntervention"] = true,
 		},
 	}, -- [2]
@@ -190,7 +190,6 @@ GSELibrary = {
 		["SAM_OUTLAW"] = {
 			["Talents"] = "2222231",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
 			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
@@ -220,6 +219,7 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -227,7 +227,6 @@ GSELibrary = {
 			["Help"] = "Sample Assination Macro",
 			["Talents"] = "2222212",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
 			["SpecID"] = 259,
 			["MacroVersions"] = {
 				{
@@ -251,13 +250,13 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
 			["Icon"] = "Ability_Rogue_DeadlyBrew",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SUB"] = {
 			["Talents"] = "3113213",
 			["Default"] = 1,
-			["Author"] = "Cymiryc",
 			["SpecID"] = 261,
 			["MacroVersions"] = {
 				{
@@ -282,6 +281,7 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Cymiryc",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -290,7 +290,6 @@ GSELibrary = {
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -341,6 +340,7 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "Ed",
+			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -348,7 +348,6 @@ GSELibrary = {
 			["Default"] = 1,
 			["Talents"] = "2332213",
 			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
-			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -377,6 +376,7 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
+			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},

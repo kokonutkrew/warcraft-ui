@@ -60,7 +60,7 @@ DataStore_PetsDB = {
 		},
 		["Characters"] = {
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544171661,
+				["lastUpdate"] = 1544244983,
 				["CRITTER"] = {
 					36031, -- [1]
 					230443, -- [2]

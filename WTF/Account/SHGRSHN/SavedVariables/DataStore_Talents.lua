@@ -42,7 +42,7 @@ DataStore_TalentsDB = {
 				["Class"] = "DRUID",
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544171658,
+				["lastUpdate"] = 1544241365,
 				["Specializations"] = {
 					[3] = 5882,
 					[2] = 6553,

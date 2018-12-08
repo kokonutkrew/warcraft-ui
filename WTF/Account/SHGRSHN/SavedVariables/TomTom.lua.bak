@@ -13,7 +13,7 @@ TomTomDB = {
 		},
 		["KokonutKrew"] = {
 			["poi"] = {
-				["setClosest"] = true,
+				["enable"] = false,
 			},
 			["general"] = {
 				["confirmremoveall"] = false,

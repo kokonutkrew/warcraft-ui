@@ -31,21 +31,22 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 WoWPro.Serial = 99999
 -- Add message to internal debug log
 function WoWPro:Add2Log(level,msg)
+    msg = date("%H%M%S ") .. msg
     if WoWPro.DebugLevel >= level then
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
 	if WoWPro.Serial > 9999 then
-	    WoWPro.Serial = 0
+	    WoWPro.Serial = 1
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
 	    if WoWPro.Log then
 	        WoWProDB.global.Log = WoWPro.Log
 	        WoWPro.Log = nil
 	    end
-	    WoWProDB.global.Log[date("%H%M%S.")..string.format("%04d",WoWPro.Serial)] = msg
+	    WoWProDB.global.Log[WoWPro.Serial] = msg
 	else
-	    WoWPro.Log[date("%H%M.")..string.format("%04d",WoWPro.Serial)] = msg
+	    WoWPro.Log[WoWPro.Serial] = msg
 	end
 end
 -- Debug print function. log, never console --
@@ -216,8 +217,8 @@ local function LogGrow(frame, elapsed)
         Log = ""
         LogCo = coroutine.create(function ()
                                         local loops = 25
-                                        for key, val in orderedPairs(WoWProDB.global.Log) do
-                                            Log = Log .. string.format("%s ~ %s\n",key,val)
+                                        for key, val in ipairs(WoWProDB.global.Log) do
+                                            Log = Log .. string.format("%05d ~ %s\n",key,val)
                                             loops = loops - 1
                                             if loops < 0 then
                                                 coroutine.yield(true)
@@ -250,14 +251,22 @@ function WoWPro:LogDump(callback)
 end
 
 function WoWPro:LogClear(where)
-    WoWProDB.global.Log = {}
+    if WoWProDB and WoWProDB.global then
+        WoWProDB.global.Log = {}
+    end
     WoWPro.Serial = 999999999
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
+    WoWPro:print("Unit: %s, Realm: %s, Class: %s, Race: %s, Faction: %s", UnitName("player"), GetRealmName(), UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"))
 end
+
+WoWPro:LogClear("Addon Load")
+
 
 function WoWPro:LogShow()
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
+    LogBox:Hide()
+    LogBox.Box:SetText("")
     WoWPro:LogDump( function(text)
                         LogBox.Box:SetText(text)
                         LogBox.Scroll:UpdateScrollChildRect()
@@ -377,6 +386,18 @@ function WoWPro:OnInitialize()
 	end
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
+	end
+	if WoWProCharDB.EnablePetBattles == nil then
+	    WoWProCharDB.EnablePetBattles = true
+	end
+	if WoWProCharDB.EnableRares == nil then
+	    WoWProCharDB.EnableRares = true
+	end
+	if WoWProCharDB.EnableTreasures == nil then
+	    WoWProCharDB.EnableTreasures = true
+	end
+	if WoWProCharDB.EnableFlight == nil then
+	    WoWProCharDB.EnableFlight = true
 	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
@@ -669,10 +690,11 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+    guide['sortlevel'] = guide['level']
 end
 
 -- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
-function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
+function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
     if not WoWPro.NewLevels then
         return
     end
@@ -694,7 +716,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
     else
         if lowerLevel <= playerLevel then
             -- We are in the guide band
-            meanLevel = playerLevel
+            meanLevel = (playerLevel + lowerLevel) / 2.0
         else
             -- We are below the guide band
             meanLevel = lowerLevel + 1.0
@@ -704,6 +726,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+    guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide,race)
@@ -783,14 +806,25 @@ end
 function WoWPro:GuideQuestTriggers(guide, ...)
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
+        WoWPro.ClearQID2Guide(guide.GID)
         for _,QID in ipairs({...}) do
             WoWProCharDB.QID2Guide[QID] = guide['GID']
         end
+        guide['QuestTriggers'] = true
+    end
+    if guide['AutoSwitch'] then
+        WoWPro:Error("For guide %s, use only GuideQuestTriggers or GuideAutoSwitch", guide.GID)
     end
 end
 
-function WoWPro:GuideAutoSwitch(guide)
+function WoWPro:GuideAutoSwitch(guide, state)
     local locClass, engClass = UnitClass("player")
+
+    if state == false then
+        -- A clear request
+        WoWPro.ClearQID2Guide(guide.GID)
+        return
+    end
 
     if guide.class and engClass ~= guide.class then
         -- Developers can peek, but should not AutoSwitch on the class specific guides if they are not for them
@@ -798,6 +832,9 @@ function WoWPro:GuideAutoSwitch(guide)
         return
     end
     guide['AutoSwitch'] = true
+    if guide['QuestTriggers'] then
+        WoWPro:Error("For guide %s, use only GuideQuestTriggers or GuideAutoSwitch", guide.GID)
+    end
     WoWPro.Guides2Register = WoWPro.Guides2Register or {}
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then

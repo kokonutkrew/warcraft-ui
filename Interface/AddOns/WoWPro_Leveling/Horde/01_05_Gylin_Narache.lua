@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-10-17 22:53
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3203/revisions/29719/view
+-- Date: 2018-09-10 21:58
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3203/revisions/29491/view
+-- Date: 2018-08-09 23:07
+-- Who: Ludovicus_Maior
+-- Log: Added [Ghost Howl] warning.
+
+-- URL: http://wow-pro.com/node/3203/revisions/29451/view
 -- Date: 2018-07-29 06:16
 -- Who: Emmaleah
 -- Log: Removed Deprecated Quest "The Hunter's Way".
@@ -198,7 +213,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('GylNar0105', "Leveling", 'Camp Narache (Tauren)', 'Gylin', 'Horde')
-WoWPro:GuideLevels(guide,1,2,1.11628)
+WoWPro:GuideLevels(guide,1,4,1.11628)
 WoWPro:GuideNextGuide(guide, 'GylMul0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Tauren_Male","Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -224,14 +239,14 @@ C Rite of Courage|US|QID|14456|M|34.67,61.32|N|Kill Britlebark Gun Thiefs and lo
 
 T Rite of Courage|QID|14456|M|30.92,50.59|N|To Adana Thunderhorn.|
 T Stop the Thorncallers|QID|14455|M|30.92,50.59|N|To Adana Thunderhorn.|
-A The Battleboars|QID|14459|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.|
-A Feed of Evil|QID|14461|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.|
+A The Battleboars|QID|14459|PRE|14455&14456|M|30.92,50.59|N|From Adana Thunderhorn.|
+A Feed of Evil|QID|14461|PRE|14455&14456|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Feed of Evil|NC|QID|14461|M|26.38,66.35;25.15,69.15;28.22,70.45|CS|N|Use Adona's Torch on the Troughs|U|49539|
 C The Battleboars|QID|14459|M|26.68,68.39|N|Kill any Battleboars you still need|
 T The Battleboars|QID|14459|M|30.92,50.597|N|To Adana Thunderhorn.|
 
 T Feed of Evil|QID|14461|M|30.92,50.59|N|To Adana Thunderhorn.|
-A Rite of Honor|QID|14460|PRE|14459;14461|M|30.92,50.59|N|From Adana Thunderhorn.|
+A Rite of Honor|QID|14460|PRE|14459&14461|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Rite of Honor|QID|14460|M|15.32,46.69|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
 
 H Camp Narache|QID|14460|M|27.76,28.29|U|6948|N|Use your hearthstone to return to Camp Narache (or run there).|
@@ -252,3 +267,5 @@ T Rite of the Winds|QID|24215|M|47.65,59.58|Z|Mulgore|N|To Ahmo Thunderhorn.|
 ]]
 
 end)
+
+

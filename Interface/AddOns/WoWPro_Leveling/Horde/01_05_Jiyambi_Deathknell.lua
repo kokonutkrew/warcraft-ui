@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-10-17 22:57
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3205/revisions/29721/view
+-- Date: 2018-09-10 21:59
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3205/revisions/29439/view
 -- Date: 2018-07-19 14:25
 -- Who: Ludovicus_Maior
 -- Log: Corrected ACTIVE tag issues pointed out by Linkslegend
@@ -210,7 +219,7 @@
 -- Who: Jiyambi
 
 local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Deathknell (Undead)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,1,3, 1.69231)
+WoWPro:GuideLevels(guide,1,4, 1.69231)
 WoWPro:GuideNextGuide(guide, 'JiyTir0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Undead_Male","Interface\\Icons\\Achievement_Character_Undead_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -286,3 +295,5 @@ T Vital Intelligence|QID|24972|M|44.70,53.67|Z|Tirisfal Glades|N|To Deathguard S
 ]]
 
 end)
+
+

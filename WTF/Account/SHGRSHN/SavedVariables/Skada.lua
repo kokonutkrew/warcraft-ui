@@ -51,11 +51,10 @@ SkadaDB = {
 				{
 					["barheight"] = 16,
 					["modeincombat"] = "Damage",
-					["hidden"] = true,
-					["y"] = 9.0000581741333,
+					["y"] = 0,
 					["barfont"] = "ABF",
 					["name"] = "KokonutKrew",
-					["x"] = -174.999633789063,
+					["x"] = -33.99951171875,
 					["point"] = "BOTTOMRIGHT",
 					["barbgcolor"] = {
 						["a"] = 0,

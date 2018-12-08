@@ -32,7 +32,7 @@ Prat3DB = {
 		["Prat_Fading"] = {
 			["profiles"] = {
 				["KokonutKrew"] = {
-					["duration"] = 5,
+					["duration"] = 1,
 				},
 			},
 		},
@@ -51,6 +51,11 @@ Prat3DB = {
 		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["showGratsLink"] = true,
+				},
+			},
 		},
 		["Prat_ChatLog"] = {
 		},
@@ -78,12 +83,12 @@ Prat3DB = {
 			["profiles"] = {
 				["KokonutKrew"] = {
 					["showvoice"] = false,
-					["showminimize"] = false,
+					["showMenu"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
-					["showButtons"] = false,
-					["showMenu"] = false,
 					["scrollReminder"] = false,
+					["showminimize"] = false,
+					["showButtons"] = false,
 				},
 			},
 		},

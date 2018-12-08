@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_durotar
+-- Date: 2018-10-17 22:51
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3199/revisions/29718/view
+-- Date: 2018-09-10 21:57
+-- Who: Ludovicus_Maior
+-- Log: Level Tweaks
+
+-- URL: http://wow-pro.com/node/3199/revisions/29473/view
+-- Date: 2018-08-03 17:37
+-- Who: Ludovicus_Maior
+-- Log: How long has it been spelt "Sen'jin Villiage"
+
+-- URL: http://wow-pro.com/node/3199/revisions/29343/view
 -- Date: 2018-06-04 18:17
 -- Who: Ludovicus_Maior
 -- Log: Tweak shaman [Proving Pit] and tweak [Riding On]
@@ -271,21 +286,8 @@
 -- Who: Ludovicus_Maior
 -- Log: Icon
 
--- URL: http://wow-pro.com/node/3199/revisions/26046/view
--- Date: 2014-05-17 17:45
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3199/revisions/26045/view
--- Date: 2014-05-17 17:45
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3199/revisions/26039/view
--- Date: 2014-05-17 17:28
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,1,3,1.59184)
+WoWPro:GuideLevels(guide,1,4,1.59184)
 WoWPro:GuideNextGuide(guide, 'BitDur0512')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Orc_Male","Interface\\Icons\\Achievement_Character_Orc_Female"))
 WoWPro:GuideSteps(guide, function()
@@ -329,8 +331,8 @@ A Back to the Den|QID|25130|M|34.59,44.38|N|From Hana'zua.|PRE|25129|
 T Back to the Den|QID|25130|M|34.40,61.14;40.59,62.94;45.05,66.07|CC|N|To Gornek at the starting area.  As a short-cut, you can jump down near where you fought Sarkoth.|
 T Vile Familiars|QID|25131|M|45.87,63.37|N|To Zureetha Fargaze.|
 
-A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131;37446|
-A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131;37446|
+A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131&37446|
+A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131&37446|
 
 C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|1|
 C Thazz'ril's Pick|QID|25135|NC|M|53.10,21.01;46.97,9.67|CC|N|Enter the cave here, Inside the cave, central passage.|
@@ -350,3 +352,5 @@ T Report to Sen'jin Village|QID|25133|M|55.93,74.69|Z|Durotar|N|To Master Gadrin
 ]]
 
 end)
+
+

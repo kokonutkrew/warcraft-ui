@@ -16,7 +16,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544171051,
+				["lastUpdate"] = 1544241363,
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1544054365,

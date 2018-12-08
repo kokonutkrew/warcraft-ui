@@ -2,5 +2,5 @@ from subprocess import call
 
 call(["pyinstaller",
       "--onefile", "install.py",
-      "--distpath", "../../../",
+      "--distpath", "../../",
       "--specpath", "./build"])

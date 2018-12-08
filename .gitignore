@@ -6,6 +6,7 @@
 
 # Track specific files
 !.gitignore
+!install
 
 # Recursively track the interface directory
 !Interface/**
@@ -17,13 +18,17 @@
 !WTF/Account/**/SavedVariables/**
 !WTF/Account/**/**/**/SavedVariables/**
 
+# Whenever settings are downloaded from the server,
+# the old settings are saved in <file>.old. Log out, 
+# move them back into place and they'll be uploaded to
+# Blizzard servers.
+
 # Track settings that require an upload to Blizzard servers
 !WTF/Account/*/*.txt
 !WTF/Account/*/*.wtf
 !WTF/Account/*/*/*/*.txt
 !WTF/Account/*/*/*/bindings-cache.wtf
 
-# Whenever settings are downloaded from the server,
-# the old settings are saved in <file>.old. Log out, 
-# move them back into place and they'll be uploaded to
-# Blizzard servers.
+# Specific ignore cases
+*.DS_Store
+**/build/**

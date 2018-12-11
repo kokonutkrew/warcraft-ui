@@ -5,6 +5,7 @@ HandyNotesDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -21,6 +22,8 @@ HandyNotesDB = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
+		["Kakattack - Stormrage"] = {
+		},
 	},
 }
 HandyNotes_HandyNotesDB = {
@@ -29,6 +32,7 @@ HandyNotes_HandyNotesDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -40,6 +44,8 @@ HandyNotes_HandyNotesDB = {
 		["Wealthgaming - Emerald Dream"] = {
 		},
 		["Samoansavage - Stormrage"] = {
+		},
+		["Kakattack - Stormrage"] = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},

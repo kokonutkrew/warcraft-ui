@@ -5,6 +5,7 @@ DataStore_CurrenciesDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -57,11 +58,11 @@ DataStore_CurrenciesDB = {
 				["Oil"] = 23,
 				["Order Resources"] = 7,
 				["Apexis Crystal"] = 21,
-				["Wakening Essence"] = 10,
+				["Warlords of Draenor"] = 20,
 				["Timeworn Artifact"] = 9,
 				["Sightless Eye"] = 18,
+				["Wakening Essence"] = 10,
 				["Miscellaneous"] = 13,
-				["Warlords of Draenor"] = 20,
 				["Legion"] = 5,
 				["Darkmoon Prize Ticket"] = 14,
 				["Curious Coin"] = 15,
@@ -126,7 +127,7 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544054365,
+				["lastUpdate"] = 1544408175,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -274,6 +275,25 @@ DataStore_CurrenciesDB = {
 					[994] = "0-0-0-0",
 					[1587] = "0-0-0-0",
 					[1565] = "0-0-0-0",
+				},
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472491,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1710] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1580] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 				},
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {

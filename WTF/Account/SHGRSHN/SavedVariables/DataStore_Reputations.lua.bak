@@ -5,6 +5,7 @@ DataStore_ReputationsDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -41,7 +42,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Driven",
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544054365,
+				["lastUpdate"] = 1544408175,
 				["Factions"] = {
 					8999, -- [1]
 					11525, -- [2]
@@ -109,10 +110,10 @@ DataStore_ReputationsDB = {
 					[135] = 10820,
 					[20] = 775,
 					[69] = 10400,
-					[138] = 12175,
+					[70] = 11571,
 					[137] = 11295,
 					[15] = 6410,
-					[18] = 775,
+					[138] = 12175,
 					[19] = 775,
 					[139] = 1050,
 					[9] = 2445,
@@ -129,7 +130,7 @@ DataStore_ReputationsDB = {
 					[71] = 10400,
 					[136] = 13840,
 					[146] = 14025,
-					[70] = 11571,
+					[18] = 775,
 					[68] = 20801,
 				},
 			},
@@ -186,6 +187,19 @@ DataStore_ReputationsDB = {
 				},
 				["guildRep"] = 42000,
 				["guildName"] = "Driven",
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472493,
+				["Factions"] = {
+					[113] = 3100,
+					[7] = 500,
+					[8] = 500,
+					[10] = 3100,
+					[9] = 4000,
+					[6] = 500,
+					[76] = 3500,
+					[78] = 3100,
+				},
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["lastUpdate"] = 1540622531,

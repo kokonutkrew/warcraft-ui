@@ -9,6 +9,7 @@ BigDebuffsDB = {
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},

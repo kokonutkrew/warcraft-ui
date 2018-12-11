@@ -6,25 +6,25 @@ bind A STRAFELEFT
 bind LEFT CLICK RazerNagaActionButton19:LeftButton
 bind D STRAFERIGHT
 bind RIGHT CLICK RazerNagaActionButton21:LeftButton
-bind Q CLICK BT4Button25:LeftButton
-bind E CLICK BT4Button26:LeftButton
+bind Q CLICK BT4Button37:LeftButton
+bind E CLICK BT4Button38:LeftButton
 bind NUMPAD0 NONE
-bind BUTTON4 CLICK BT4Button36:LeftButton
+bind BUTTON4 CLICK BT4Button48:LeftButton
 bind INSERT CHATPAGEUP
 bind DELETE CHATPAGEDOWN
 bind NUMPADDIVIDE NONE
 bind PAGEUP CLICK RazerNagaActionButton18:LeftButton
 bind PAGEDOWN CLICK RazerNagaActionButton24:LeftButton
-bind CTRL-1 CLICK BT4Button37:LeftButton
-bind CTRL-2 CLICK BT4Button38:LeftButton
-bind CTRL-3 CLICK BT4Button39:LeftButton
-bind CTRL-4 CLICK BT4Button40:LeftButton
-bind CTRL-5 CLICK BT4Button41:LeftButton
-bind CTRL-6 CLICK BT4Button42:LeftButton
-bind CTRL-7 CLICK BT4Button43:LeftButton
-bind CTRL-8 CLICK BT4Button44:LeftButton
-bind CTRL-9 CLICK BT4Button45:LeftButton
-bind CTRL-0 CLICK BT4Button46:LeftButton
+bind CTRL-1 CLICK BT4Button25:LeftButton
+bind CTRL-2 CLICK BT4Button26:LeftButton
+bind CTRL-3 CLICK BT4Button27:LeftButton
+bind CTRL-4 CLICK BT4Button28:LeftButton
+bind CTRL-5 CLICK BT4Button29:LeftButton
+bind CTRL-6 CLICK BT4Button30:LeftButton
+bind CTRL-7 CLICK BT4Button31:LeftButton
+bind CTRL-8 CLICK BT4Button32:LeftButton
+bind CTRL-9 CLICK BT4Button33:LeftButton
+bind CTRL-0 CLICK BT4Button34:LeftButton
 bind SHIFT-1 CLICK BT4Button61:LeftButton
 bind SHIFT-2 CLICK BT4Button62:LeftButton
 bind SHIFT-3 CLICK BT4Button63:LeftButton
@@ -32,20 +32,20 @@ bind SHIFT-4 CLICK BT4Button64:LeftButton
 bind SHIFT-5 CLICK BT4Button65:LeftButton
 bind SHIFT-6 CLICK BT4Button66:LeftButton
 bind SHIFT-UP NONE
-bind SHIFT-MOUSEWHEELUP CLICK BT4Button29:LeftButton
+bind SHIFT-MOUSEWHEELUP CLICK BT4Button41:LeftButton
 bind SHIFT-DOWN NONE
-bind SHIFT-MOUSEWHEELDOWN CLICK BT4Button30:LeftButton
+bind SHIFT-MOUSEWHEELDOWN CLICK BT4Button42:LeftButton
 bind SHIFT-T TOGGLECHATTAB
 bind F10 FLIPCAMERAYAW
 bind F11 CAMERAZOOMOUT
 bind F12 CAMERAZOOMIN
-bind SHIFT-SPACE CLICK BT4Button33:LeftButton
+bind SHIFT-SPACE CLICK BT4Button45:LeftButton
 bind NUMPADPLUS CLICK RazerNagaActionButton51:LeftButton
 bind NUMPADMINUS NONE
-bind CTRL-= CLICK BT4Button48:LeftButton
-bind CTRL-- CLICK BT4Button47:LeftButton
-bind MOUSEWHEELUP CLICK BT4Button27:LeftButton
-bind MOUSEWHEELDOWN CLICK BT4Button28:LeftButton
+bind CTRL-= CLICK BT4Button36:LeftButton
+bind CTRL-- CLICK BT4Button35:LeftButton
+bind MOUSEWHEELUP CLICK BT4Button39:LeftButton
+bind MOUSEWHEELDOWN CLICK BT4Button40:LeftButton
 bind END CLICK RazerNagaActionButton22:LeftButton
 bind HOME CLICK RazerNagaActionButton16:LeftButton
 bind ALT-B TOGGLEFARMHUDBACKGROUND
@@ -64,7 +64,7 @@ bind NUMPAD6 ACTIONPAGE6
 bind NUMPAD2 ACTIONPAGE2
 bind NUMPADDECIMAL CLICK RazerNagaActionButton50:LeftButton
 bind NUMPADMULTIPLY NONE
-bind BUTTON5 CLICK BT4Button35:LeftButton
+bind BUTTON5 CLICK BT4Button47:LeftButton
 bind SHIFT-7 CLICK BT4Button67:LeftButton
 bind SHIFT-8 CLICK BT4Button68:LeftButton
 bind SHIFT-9 CLICK BT4Button69:LeftButton
@@ -115,8 +115,8 @@ bind ALT-6 CLICK BT4Button60:LeftButton
 bind ALT-7 CLICK BT4Button49:LeftButton
 bind ALT-8 CLICK BT4Button50:LeftButton
 bind ALT-9 CLICK BT4Button51:LeftButton
-bind ALT-MOUSEWHEELUP CLICK BT4Button31:LeftButton
-bind ALT-MOUSEWHEELDOWN CLICK BT4Button32:LeftButton
+bind ALT-MOUSEWHEELUP CLICK BT4Button43:LeftButton
+bind ALT-MOUSEWHEELDOWN CLICK BT4Button44:LeftButton
 bind SHIFT-BUTTON5 NONE
 bind SHIFT-BUTTON4 EXTRAACTIONBUTTON1
 bind ALT-BUTTON5 NONE
@@ -127,7 +127,7 @@ bind ALT-= CLICK BT4Button54:LeftButton
 bind CTRL-BUTTON5 NONE
 bind ALT-Q NONE
 bind ALT-E NONE
-bind CTRL-SPACE CLICK BT4Button34:LeftButton
+bind CTRL-SPACE CLICK BT4Button46:LeftButton
 bind CTRL-BUTTON4 NONE
 bind ALT-CTRL-1 RAIDTARGET8
 bind ALT-CTRL-2 RAIDTARGET7

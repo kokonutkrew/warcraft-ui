@@ -5,6 +5,7 @@ DataStore_AgendaDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -19,13 +20,19 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1544241363,
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544054365,
+				["lastUpdate"] = 1544408206,
 			},
 			["Default.Tichondrius.Samoansage"] = {
 				["lastUpdate"] = 1544168008,
 			},
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1541831705,
+			},
+			["Default.Tichondrius.Samoanstrap"] = {
+				["lastUpdate"] = 1544167314,
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472620,
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["Contacts"] = {
@@ -34,9 +41,6 @@ DataStore_AgendaDB = {
 					},
 				},
 				["lastUpdate"] = 1540622531,
-			},
-			["Default.Tichondrius.Samoanstrap"] = {
-				["lastUpdate"] = 1544167314,
 			},
 		},
 	},

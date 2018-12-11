@@ -9,11 +9,17 @@ Prat3DB = {
 		},
 		["Prat_Frames"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
+				["Default"] = {
 					["minchatwidthdefault"] = 296,
 					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608.000061035156,
 					["initialized"] = true,
+				},
+				["KokonutKrew"] = {
+					["minchatwidthdefault"] = 296,
+					["initialized"] = true,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.000061035156,
 				},
 			},
 		},
@@ -22,10 +28,10 @@ Prat3DB = {
 		["Prat_Editbox"] = {
 			["profiles"] = {
 				["KokonutKrew"] = {
-					["editW"] = 609.999917268753,
 					["attach"] = "LOCK",
-					["editX"] = -0.999978303909302,
 					["editY"] = 20.0007400512695,
+					["editX"] = -0.999978303909302,
+					["editW"] = 609.999917268753,
 				},
 			},
 		},
@@ -98,10 +104,12 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["KokonutKrew"] = {
+		["Default"] = {
 			["modules"] = {
 				["ChatLog"] = 2,
 				["PopupMessage"] = 2,
@@ -111,6 +119,18 @@ Prat3DB = {
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
 				["Alias"] = 2,
+			},
+		},
+		["KokonutKrew"] = {
+			["modules"] = {
+				["Sounds"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+				["Paragraph"] = 2,
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
+				["Alias"] = 2,
+				["KeyBindings"] = 2,
 			},
 		},
 	},

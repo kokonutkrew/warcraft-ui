@@ -8,13 +8,12 @@ MogItDB = {
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["y"] = 29.4999294281006,
-			["x"] = 137.00016784668,
 			["previewProps"] = {
 				{
 					["y"] = 55.0001106262207,
@@ -24,6 +23,8 @@ MogItDB = {
 					["x"] = 222.500122070313,
 				}, -- [1]
 			},
+			["gridHeight"] = 907.000244140625,
+			["x"] = 137.00016784668,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -53,13 +54,14 @@ MogItDB = {
 				["Shoulder"] = "Shoulder",
 				["1H-sword"] = "One-Handed Swords",
 			},
-			["gridWidth"] = 1266.00073242188,
-			["gridHeight"] = 907.000244140625,
 			["minimap"] = {
 				["minimapPos"] = 176.478610615402,
 			},
+			["gridWidth"] = 1266.00073242188,
+			["y"] = 29.4999294281006,
 		},
 		["KokonutKrew"] = {
+			["y"] = 0,
 			["x"] = 0,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
@@ -87,7 +89,6 @@ MogItDB = {
 			["minimap"] = {
 				["minimapPos"] = 326.188785177687,
 			},
-			["y"] = 0,
 		},
 	},
 }
@@ -100,6 +101,7 @@ MogItWishlist = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -138,6 +140,8 @@ MogItWishlist = {
 		["Wealthgaming - Emerald Dream"] = {
 		},
 		["Samoansage - Tichondrius"] = {
+		},
+		["Kakattack - Stormrage"] = {
 		},
 	},
 }

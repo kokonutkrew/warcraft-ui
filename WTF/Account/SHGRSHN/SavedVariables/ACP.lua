@@ -2,7 +2,6 @@
 ACP_Data = {
 	["sorter"] = "Default",
 	["NoRecurse"] = false,
-	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"WoWPro", -- [1]
@@ -61,6 +60,7 @@ ACP_Data = {
 			["name"] = "Immersion",
 		},
 	},
+	["NoChildren"] = true,
 	["collapsed"] = {
 	},
 	["ProtectedAddons"] = {

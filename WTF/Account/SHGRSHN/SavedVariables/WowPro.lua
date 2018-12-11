@@ -18,19 +18,20 @@ WoWProData = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["global"] = {
 		["NpcFauxQuests"] = {
-			[79180] = {
-				["qid"] = 79180.1,
-				["title"] = "Deebs, Tyri, and Puzzle",
-				["guide"] = "LudoGarrisonPets",
+			[116791] = {
+				["qid"] = 116791.1,
+				["title"] = "Dreadcoil",
+				["guide"] = "LudoPetWailingCaverns",
 			},
-			[79751] = {
-				["qid"] = 79751.1,
-				["title"] = "Eleanor",
-				["guide"] = "LudoGarrisonPets",
+			[128009] = {
+				["qid"] = 49043,
+				["title"] = "Baneglow",
+				["guide"] = "LudoPetWQKrokuun",
 			},
 			[85657] = {
 				["qid"] = 85656.1,
@@ -47,40 +48,40 @@ WoWProData = {
 				["title"] = "Deviate Flapper",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[116791] = {
-				["qid"] = 116791.1,
-				["title"] = "Dreadcoil",
-				["guide"] = "LudoPetWailingCaverns",
+			[79180] = {
+				["qid"] = 79180.1,
+				["title"] = "Deebs, Tyri, and Puzzle",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128009] = {
-				["qid"] = 49043,
-				["title"] = "Baneglow",
-				["guide"] = "LudoPetWQKrokuun",
+			[79751] = {
+				["qid"] = 79751.1,
+				["title"] = "Eleanor",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128013] = {
-				["qid"] = 49047,
-				["title"] = "Bucky",
-				["guide"] = "LudoPetWQMacAree",
+			[85677] = {
+				["qid"] = 85677.1,
+				["title"] = "Fiero and Tirs",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[85681] = {
 				["qid"] = 85679.1,
 				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[85685] = {
-				["qid"] = 85685.1,
-				["title"] = "Stitches Jr.",
-				["guide"] = "LudoGarrisonPets",
+			[128021] = {
+				["qid"] = 49055,
+				["title"] = "Earseeker",
+				["guide"] = "LudoPetWQAntoran",
 			},
-			[85674] = {
-				["qid"] = 85674.1,
-				["title"] = "Jahan, Samm, and Archimedes",
-				["guide"] = "LudoGarrisonPets",
+			[128010] = {
+				["qid"] = 49044,
+				["title"] = "Retch",
+				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85678] = {
-				["qid"] = 85677.1,
-				["title"] = "Fiero and Tirs",
-				["guide"] = "LudoGarrisonPets",
+			[128014] = {
+				["qid"] = 49048,
+				["title"] = "Snozz",
+				["guide"] = "LudoPetWQMacAree",
 			},
 			[128024] = {
 				["qid"] = 49058,
@@ -132,25 +133,25 @@ WoWProData = {
 				["title"] = "Phyxia",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[128010] = {
-				["qid"] = 49044,
-				["title"] = "Retch",
-				["guide"] = "LudoPetWQKrokuun",
+			[85674] = {
+				["qid"] = 85674.1,
+				["title"] = "Jahan, Samm, and Archimedes",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128014] = {
-				["qid"] = 49048,
-				["title"] = "Snozz",
-				["guide"] = "LudoPetWQMacAree",
+			[85678] = {
+				["qid"] = 85677.1,
+				["title"] = "Fiero and Tirs",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128018] = {
-				["qid"] = 49052,
-				["title"] = "Mar'cuus",
-				["guide"] = "LudoPetWQMacAree",
+			[85682] = {
+				["qid"] = 85682.1,
+				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128022] = {
-				["qid"] = 49056,
-				["title"] = "Pilfer",
-				["guide"] = "LudoPetWQAntoran",
+			[85686] = {
+				["qid"] = 85686.1,
+				["title"] = "Manos, Hanos, and Fatos",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[116790] = {
 				["qid"] = 116790,
@@ -172,20 +173,20 @@ WoWProData = {
 				["title"] = "Son of Skum",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[128007] = {
-				["qid"] = 49041,
-				["title"] = "Ruinhoof",
+			[116793] = {
+				["qid"] = 116793.1,
+				["title"] = "Hiss",
+				["guide"] = "LudoPetWailingCaverns",
+			},
+			[128011] = {
+				["qid"] = 49045,
+				["title"] = "Deathscreech",
 				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85675] = {
-				["qid"] = 85674.1,
-				["title"] = "Jahan, Samm, and Archimedes",
-				["guide"] = "LudoGarrisonPets",
-			},
-			[85687] = {
-				["qid"] = 85686.1,
-				["title"] = "Manos, Hanos, and Fatos",
-				["guide"] = "LudoGarrisonPets",
+			[128023] = {
+				["qid"] = 49057,
+				["title"] = "Minixis",
+				["guide"] = "LudoPetWQAntoran",
 			},
 			[85655] = {
 				["qid"] = 85561.1,
@@ -207,30 +208,30 @@ WoWProData = {
 				["title"] = "Rydyr",
 				["guide"] = "LarePetWQStorm",
 			},
-			[116793] = {
-				["qid"] = 116793.1,
-				["title"] = "Hiss",
-				["guide"] = "LudoPetWailingCaverns",
-			},
-			[128011] = {
-				["qid"] = 49045,
-				["title"] = "Deathscreech",
+			[128007] = {
+				["qid"] = 49041,
+				["title"] = "Ruinhoof",
 				["guide"] = "LudoPetWQKrokuun",
 			},
-			[128015] = {
-				["qid"] = 49049,
-				["title"] = "Gloamwing",
-				["guide"] = "LudoPetWQMacAree",
+			[85675] = {
+				["qid"] = 85674.1,
+				["title"] = "Jahan, Samm, and Archimedes",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128019] = {
-				["qid"] = 49053,
-				["title"] = "Watcher",
-				["guide"] = "LudoPetWQAntoran",
+			[85679] = {
+				["qid"] = 85679.1,
+				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128023] = {
-				["qid"] = 49057,
-				["title"] = "Minixis",
-				["guide"] = "LudoPetWQAntoran",
+			[85683] = {
+				["qid"] = 85682.1,
+				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
+				["guide"] = "LudoGarrisonPets",
+			},
+			[85561] = {
+				["qid"] = 85561.1,
+				["title"] = "Brutus, Ruckus",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[79182] = {
 				["qid"] = 79180.1,
@@ -252,20 +253,20 @@ WoWProData = {
 				["title"] = "Grubbles, Scrags, and Stings",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[85561] = {
-				["qid"] = 85561.1,
-				["title"] = "Brutus, Ruckus",
+			[85687] = {
+				["qid"] = 85686.1,
+				["title"] = "Manos, Hanos, and Fatos",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[85683] = {
-				["qid"] = 85682.1,
-				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
-				["guide"] = "LudoGarrisonPets",
+			[128019] = {
+				["qid"] = 49053,
+				["title"] = "Watcher",
+				["guide"] = "LudoPetWQAntoran",
 			},
-			[85679] = {
-				["qid"] = 85679.1,
-				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
-				["guide"] = "LudoGarrisonPets",
+			[128015] = {
+				["qid"] = 49049,
+				["title"] = "Gloamwing",
+				["guide"] = "LudoPetWQMacAree",
 			},
 			[85656] = {
 				["qid"] = 85656.1,
@@ -312,295 +313,145 @@ WoWProData = {
 				["title"] = "Manos, Hanos, and Fatos",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[85686] = {
-				["qid"] = 85686.1,
-				["title"] = "Manos, Hanos, and Fatos",
-				["guide"] = "LudoGarrisonPets",
-			},
-			[85682] = {
-				["qid"] = 85682.1,
-				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
-				["guide"] = "LudoGarrisonPets",
-			},
-			[85677] = {
-				["qid"] = 85677.1,
-				["title"] = "Fiero and Tirs",
-				["guide"] = "LudoGarrisonPets",
-			},
-			[128021] = {
-				["qid"] = 49055,
-				["title"] = "Earseeker",
+			[128022] = {
+				["qid"] = 49056,
+				["title"] = "Pilfer",
 				["guide"] = "LudoPetWQAntoran",
+			},
+			[128018] = {
+				["qid"] = 49052,
+				["title"] = "Mar'cuus",
+				["guide"] = "LudoPetWQMacAree",
+			},
+			[85685] = {
+				["qid"] = 85685.1,
+				["title"] = "Stitches Jr.",
+				["guide"] = "LudoGarrisonPets",
+			},
+			[128013] = {
+				["qid"] = 49047,
+				["title"] = "Bucky",
+				["guide"] = "LudoPetWQMacAree",
 			},
 		},
 		["Log"] = {
-			"214651 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
-			"214651 |c7f0000ffWoWPro|r: Unit: Samoantitan, Realm: Stormrage, Class: Paladin, Race: Human, Faction: Alliance", -- [2]
-			"214704 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
-			"214704 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
-			"214704 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(false, true) InitLockdown=false", -- [5]
-			"214704 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [6]
-			"214704 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [7]
-			"214704 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [8]
-			"214704 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [9]
-			"214705 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  TwiAlchemy", -- [10]
-			"214706 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [11]
-			"214706 |c7f0000ffWoWPro|r: Quest Log populated. 24 quests found.", -- [12]
-			"214706 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [13]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53482: [Conquest's Reward]", -- [14]
-			"214706 |c7f0000ffWoWPro|r: New Quest 54180: [Quest]", -- [15]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53153: [Death to The Defilers]", -- [16]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Death to The Defilers] => EmmAWarCampaign", -- [17]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53146: [Boulderfist Beatdown]", -- [18]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Boulderfist Beatdown] => EmmAWarCampaign", -- [19]
-			"214706 |c7f0000ffWoWPro|r: New Quest 43179: [The Kirin Tor of Dalaran]", -- [20]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53162: [Sins of the Syndicate]", -- [21]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Sins of the Syndicate] => EmmAWarCampaign", -- [22]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53436: [Azerite for the Alliance]", -- [23]
-			"214706 |c7f0000ffWoWPro|r: New Quest 42421: [The Nightfallen]", -- [24]
-			"214706 |c7f0000ffWoWPro|r: New Quest 42422: [The Wardens]", -- [25]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53179: [Executing Exorcisms]", -- [26]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Executing Exorcisms] => EmmAWarCampaign", -- [27]
-			"214706 |c7f0000ffWoWPro|r: New Quest 50562: [Champions of Azeroth]", -- [28]
-			"214706 |c7f0000ffWoWPro|r: New Quest 50600: [Order of Embers]", -- [29]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53192: [Twice-Exiled]", -- [30]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Twice-Exiled] => EmmAWarCampaign", -- [31]
-			"214706 |c7f0000ffWoWPro|r: New Quest 50601: [Storm's Wake]", -- [32]
-			"214706 |c7f0000ffWoWPro|r: New Quest 53149: [Wiping Out the Witherbark]", -- [33]
-			"214706 |c7f0000ffWoWPro|r: AutoSwitch?: [Wiping Out the Witherbark] => EmmAWarCampaign", -- [34]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [35]
-			"214706 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [36]
-			"214706 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [37]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [38]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(9,1)", -- [39]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(10,2)", -- [40]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(11,3)", -- [41]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(12,4)", -- [42]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(13,5)", -- [43]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(15,6)", -- [44]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(16,7)", -- [45]
-			"214706 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(9,1)", -- [46]
-			"214719 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  EmmAWarCampaign", -- [47]
-			"214720 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [48]
-			"214720 |c7f0000ffWoWPro|r: Quest Log populated. 24 quests found.", -- [49]
-			"214720 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [50]
-			"214720 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [51]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [52]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [53]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [54]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [55]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [56]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [57]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [58]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [59]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [60]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [61]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [62]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [63]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [64]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [65]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [66]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [67]
-			"214720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [68]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [69]
-			"214720 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [70]
-			"214729 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from ResizeStart", -- [71]
-			"214730 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [72]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [73]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [74]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [75]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [76]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [77]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [78]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [79]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [80]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [81]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [82]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [83]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [84]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [85]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [86]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [87]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [88]
-			"214730 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [89]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [90]
-			"214730 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [91]
-			"214733 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from ResizeEnd", -- [92]
-			"214733 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [93]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [94]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [95]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [96]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [97]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [98]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [99]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [100]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [101]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [102]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [103]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [104]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [105]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [106]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [107]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [108]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [109]
-			"214733 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [110]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [111]
-			"214733 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [112]
-			"214736 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from ResizeStart", -- [113]
-			"214737 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [114]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [115]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [116]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [117]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [118]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [119]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [120]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [121]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [122]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [123]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [124]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [125]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [126]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [127]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [128]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [129]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [130]
-			"214737 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [131]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [132]
-			"214737 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [133]
-			"214739 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from ResizeEnd", -- [134]
-			"214740 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [135]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [136]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [137]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [138]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [139]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [140]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [141]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [142]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [143]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [144]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [145]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [146]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [147]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [148]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [149]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [150]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [151]
-			"214740 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [152]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [153]
-			"214740 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [154]
-			"214742 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [155]
-			"214805 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [156]
-			"214814 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [157]
-			"214816 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"MaxDps_Paladin\") InitLockdown=false", -- [158]
-			"214816 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [159]
-			"214816 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [160]
-			"214816 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [161]
-			"214816 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [162]
-			"214818 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [163]
-			"214819 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [164]
-			"214819 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [165]
-			"214819 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [166]
-			"214820 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [167]
-			"214820 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [168]
-			"214821 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [169]
-			"214821 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [170]
-			"214821 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [171]
-			"214823 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [172]
-			"214826 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [173]
-			"214826 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [174]
-			"214826 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [175]
-			"214826 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [176]
-			"214826 |cffff7d0aWoWPro|r: Handled: PLAYER_REGEN_ENABLED() InitLockdown=false", -- [177]
-			"214826 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from PLAYER_REGEN_ENABLED", -- [178]
-			"214826 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [179]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [180]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [181]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [182]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [183]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [184]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [185]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [186]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [187]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [188]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [189]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [190]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [191]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [192]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [193]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [194]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [195]
-			"214826 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [196]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [197]
-			"214826 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [198]
-			"214828 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [199]
-			"214828 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [200]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [201]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [202]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [203]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [204]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [205]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [206]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [207]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [208]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [209]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [210]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [211]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [212]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [213]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [214]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [215]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [216]
-			"214828 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [217]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [218]
-			"214828 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [219]
-			"214912 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [220]
-			"214912 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [221]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [222]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [223]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [224]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [225]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [226]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [227]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [228]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [229]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [230]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [231]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [232]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [233]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [234]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [235]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [236]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [237]
-			"214912 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [238]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [239]
-			"214912 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [240]
-			"214914 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [241]
-			"214916 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [242]
-			"214916 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [243]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [244]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [245]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [246]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [247]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(634,2)", -- [248]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=634: > EOG", -- [249]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(635,3)", -- [250]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=635: > EOG", -- [251]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(636,4)", -- [252]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=636: > EOG", -- [253]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(637,5)", -- [254]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=637: > EOG", -- [255]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(638,6)", -- [256]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=638: > EOG", -- [257]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(639,7)", -- [258]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=639: > EOG", -- [259]
-			"214916 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(633,1)", -- [260]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStep=633: > EOG", -- [261]
-			"214916 |c7f0000ffWoWPro|r: WoWPro.NextStepNotSticky=633: > EOG", -- [262]
-			"214918 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [263]
-			"214921 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [264]
-			"215554 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [265]
-			"215600 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [266]
-			"215600 |c7f0000ffWoWPro|r: Locking Down PLW", -- [267]
+			"191555 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
+			"191555 |c7f0000ffWoWPro|r: Unit: Samoanslayer, Realm: Emerald Dream, Class: Rogue, Race: Human, Faction: Alliance", -- [2]
+			"191608 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
+			"191612 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
+			"191613 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TradeSkillUI\") InitLockdown=false", -- [5]
+			"191613 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(true, false) InitLockdown=false", -- [6]
+			"191613 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [7]
+			"191615 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [8]
+			"191615 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [9]
+			"191616 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_AuctionUI\") InitLockdown=true", -- [10]
+			"191616 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_NEW_AREA() InitLockdown=true", -- [11]
+			"191616 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [12]
+			"191616 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [13]
+			"191617 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [14]
+			"191618 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  JamHel6062", -- [15]
+			"191618 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [16]
+			"191618 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [17]
+			"191619 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [18]
+			"191619 |c7f0000ffWoWPro|r: Quest Log populated. 29 quests found.", -- [19]
+			"191619 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [20]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9383: [An Ambitious Plan]", -- [21]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9399: [Cruel Taskmasters]", -- [22]
+			"191619 |c7f0000ffWoWPro|r: New Quest 10399: [The Heart of Darkness]", -- [23]
+			"191619 |c7f0000ffWoWPro|r: New Quest 10159: [Keep Thornfang Hill Clear!]", -- [24]
+			"191619 |c7f0000ffWoWPro|r: New Quest 28068: [Adventurers Wanted: Blackrock Depths]", -- [25]
+			"191619 |c7f0000ffWoWPro|r: New Quest 13151: [A Royal Escort]", -- [26]
+			"191619 |c7f0000ffWoWPro|r: New Quest 10400: [Overlord]", -- [27]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9912: [The Cenarion Expedition]", -- [28]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9424: [Makuru's Vengeance]", -- [29]
+			"191619 |c7f0000ffWoWPro|r: New Quest 29543: [Invading the Citadel]", -- [30]
+			"191619 |c7f0000ffWoWPro|r: New Quest 13408: [Hellfire Fortifications]", -- [31]
+			"191619 |c7f0000ffWoWPro|r: New Quest 28569: [The Bogpaddle Bullet]", -- [32]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9426: [The Pools of Aggonar]", -- [33]
+			"191619 |c7f0000ffWoWPro|r: New Quest 29826: [Reclaiming Ahn'Kahet]", -- [34]
+			"191619 |c7f0000ffWoWPro|r: New Quest 27471: [Blackrock Anomaly]", -- [35]
+			"191619 |c7f0000ffWoWPro|r: New Quest 29689: [Advancing the Campaign]", -- [36]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9563: [Gaining Mirren's Trust]", -- [37]
+			"191619 |c7f0000ffWoWPro|r: New Quest 29691: [Bring Me A Shrubbery!]", -- [38]
+			"191619 |c7f0000ffWoWPro|r: New Quest 9372: [Demonic Contamination]", -- [39]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [40]
+			"191619 |c7f0000ffWoWPro|r: WoWPro:MapPoint1(190,24.0,72.1@Hellfire Peninsula=100)", -- [41]
+			"191619 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [42]
+			"191619 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [43]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [44]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [45]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(191,2)", -- [46]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(208,3)", -- [47]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(218,4)", -- [48]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(219,5)", -- [49]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(220,6)", -- [50]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(223,7)", -- [51]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [52]
+			"191619 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=190 [24.00,72.10@100] in Hellfire Peninsula. No update needed.", -- [53]
+			"191619 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [54]
+			"191619 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [55]
+			"191619 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [56]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [57]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [58]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(191,2)", -- [59]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(208,3)", -- [60]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(218,4)", -- [61]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(219,5)", -- [62]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(220,6)", -- [63]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(223,7)", -- [64]
+			"191619 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [65]
+			"191619 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=190 [24.00,72.10@100] in Hellfire Peninsula. No update needed.", -- [66]
+			"191619 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [67]
+			"191619 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [68]
+			"191619 |c7f0000ffWoWPro|r: Quest Log populated. 29 quests found.", -- [69]
+			"191619 |c7f0000ffWoWPro|r: Updated objective #1 (0/1 Glowing Sanctified Crystal) on quest [An Ambitious Plan]", -- [70]
+			"191619 |c7f0000ffWoWPro|r: Updated objective #1 (0/10 Mag'har Ancestral Beads) on quest [Makuru's Vengeance]", -- [71]
+			"191619 |c7f0000ffWoWPro|r: Updated objective #1 (0/1 Nethergarde Bitter) on quest [Gaining Mirren's Trust]", -- [72]
+			"191619 |c7f0000ffWoWPro|r: Updated objective #1 (3/5  ) on quest [Bring Me A Shrubbery!]", -- [73]
+			"191619 |c7f0000ffWoWPro|r: Updated objective #1 (6/6 Helboar Blood Sample) on quest [Demonic Contamination]", -- [74]
+			"191619 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from QUEST_LOG_UPDATE", -- [75]
+			"191620 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [76]
+			"191620 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [77]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [78]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [79]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(191,2)", -- [80]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(208,3)", -- [81]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(218,4)", -- [82]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(219,5)", -- [83]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(220,6)", -- [84]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(223,7)", -- [85]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [86]
+			"191620 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=190 [24.00,72.10@100] in Hellfire Peninsula. No update needed.", -- [87]
+			"191620 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [88]
+			"191620 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [89]
+			"191620 |c7f0000ffWoWPro|r: Quest Log populated. 29 quests found.", -- [90]
+			"191620 |c7f0000ffWoWPro|r: Updated objective #1 (3/5 Sanguine Hibiscus) on quest [Bring Me A Shrubbery!]", -- [91]
+			"191620 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from QUEST_LOG_UPDATE", -- [92]
+			"191620 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [93]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [94]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [95]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(191,2)", -- [96]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(208,3)", -- [97]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(218,4)", -- [98]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(219,5)", -- [99]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(220,6)", -- [100]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(223,7)", -- [101]
+			"191620 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [102]
+			"191620 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=190 [24.00,72.10@100] in Hellfire Peninsula. No update needed.", -- [103]
+			"191622 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [104]
+			"191623 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [105]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [106]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [107]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(191,2)", -- [108]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(208,3)", -- [109]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(218,4)", -- [110]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(219,5)", -- [111]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(220,6)", -- [112]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(223,7)", -- [113]
+			"191623 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,1)", -- [114]
+			"191623 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=190 [24.00,72.10@100] in Hellfire Peninsula. No update needed.", -- [115]
+			"191647 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [116]
+			"191647 |c7f0000ffWoWPro|r: Locking Down PLW", -- [117]
 		},
 		["Deltas"] = {
 			"Action=T|Step=Seeing Where Your Loyalties Lie|M0=77.56,43.97|M1=43.86,56.43|Error=35.93|QID=26629|Vers=8.0.1U|Guide=BitCap3035", -- [1]
@@ -10198,10 +10049,10 @@ WoWProData = {
 					["icon"] = 463875,
 					["cid"] = 15252,
 				},
-				[2817] = {
-					["name"] = "Exalted Argent Champion of the Alliance",
-					["icon"] = 255130,
-					["cid"] = 14941,
+				[11264] = {
+					["name"] = "Adventurer of Highmountain",
+					["icon"] = 1409000,
+					["cid"] = 15257,
 				},
 				[1872] = {
 					["name"] = "Zombiefest!",
@@ -10383,11 +10234,6 @@ WoWProData = {
 					["icon"] = 1506461,
 					["cid"] = 15252,
 				},
-				[3137] = {
-					["name"] = "Emalon the Storm Watcher (25 player)",
-					["icon"] = 134452,
-					["cid"] = 14901,
-				},
 				[6926] = {
 					["name"] = "Tranquil Master",
 					["icon"] = 136198,
@@ -10398,15 +10244,20 @@ WoWProData = {
 					["icon"] = 236222,
 					["cid"] = 15067,
 				},
+				[8481] = {
+					["name"] = "Mythic: Paragons of the Klaxxi",
+					["icon"] = 897697,
+					["cid"] = 15107,
+				},
 				[12544] = {
 					["name"] = "Level 120",
 					["icon"] = 2065613,
 					["cid"] = 92,
 				},
-				[8481] = {
-					["name"] = "Mythic: Paragons of the Klaxxi",
-					["icon"] = 897697,
-					["cid"] = 15107,
+				[12576] = {
+					["name"] = "Tour of Duty: Vol'dun",
+					["icon"] = 2125384,
+					["cid"] = 15283,
 				},
 				[4581] = {
 					["name"] = "Neck-Deep in Vile (10 player)",
@@ -10938,10 +10789,10 @@ WoWProData = {
 					["icon"] = 236197,
 					["cid"] = 15068,
 				},
-				[8226] = {
-					["name"] = "Collector: Inert Sound Beacons",
-					["icon"] = 236805,
-					["cid"] = 15071,
+				[6587] = {
+					["name"] = "Outland Safari",
+					["icon"] = 651136,
+					["cid"] = 15118,
 				},
 				[8017] = {
 					["name"] = "For the Swarm",
@@ -10978,11 +10829,6 @@ WoWProData = {
 					["icon"] = 135796,
 					["cid"] = 15255,
 				},
-				[6587] = {
-					["name"] = "Outland Safari",
-					["icon"] = 651136,
-					["cid"] = 15118,
-				},
 				[5307] = {
 					["name"] = "Achieve-a-tron",
 					["icon"] = 415046,
@@ -10992,6 +10838,11 @@ WoWProData = {
 					["name"] = "Win Streak",
 					["icon"] = 643856,
 					["cid"] = 15119,
+				},
+				[12321] = {
+					["name"] = "A Quick Shave",
+					["icon"] = 298670,
+					["cid"] = 14922,
 				},
 				[12257] = {
 					["name"] = "Stardust Crusaders",
@@ -11003,10 +10854,10 @@ WoWProData = {
 					["icon"] = 1100179,
 					["cid"] = 15119,
 				},
-				[12321] = {
-					["name"] = "A Quick Shave",
-					["icon"] = 298670,
-					["cid"] = 14922,
+				[8226] = {
+					["name"] = "Collector: Inert Sound Beacons",
+					["icon"] = 236805,
+					["cid"] = 15071,
 				},
 				[1596] = {
 					["name"] = "Guru of Drakuru",
@@ -11028,11 +10879,6 @@ WoWProData = {
 					["icon"] = 135992,
 					["cid"] = 15218,
 				},
-				[12577] = {
-					["name"] = "Tour of Duty: Tiragarde Sound",
-					["icon"] = 2125383,
-					["cid"] = 15283,
-				},
 				[245] = {
 					["name"] = "That Takes Class",
 					["icon"] = 132092,
@@ -11042,6 +10888,11 @@ WoWProData = {
 					["name"] = "Heroic: Baleroc",
 					["icon"] = 515033,
 					["cid"] = 15068,
+				},
+				[12577] = {
+					["name"] = "Tour of Duty: Tiragarde Sound",
+					["icon"] = 2125383,
+					["cid"] = 15283,
 				},
 				[8482] = {
 					["name"] = "Mythic: Garrosh Hellscream",
@@ -11098,15 +10949,15 @@ WoWProData = {
 					["icon"] = 254648,
 					["cid"] = 14922,
 				},
-				[1225] = {
-					["name"] = "Outland Angler",
-					["icon"] = 236576,
-					["cid"] = 171,
-				},
 				[2016] = {
 					["name"] = "Grizzled Veteran",
 					["icon"] = 236776,
 					["cid"] = 95,
+				},
+				[6571] = {
+					["name"] = "That Was Close!",
+					["icon"] = 651490,
+					["cid"] = 15118,
 				},
 				[12993] = {
 					["name"] = "Don't Warfront Me",
@@ -11123,10 +10974,10 @@ WoWProData = {
 					["icon"] = 1500866,
 					["cid"] = 15298,
 				},
-				[6571] = {
-					["name"] = "That Was Close!",
-					["icon"] = 651490,
-					["cid"] = 15118,
+				[1034] = {
+					["name"] = "The Fires of Azeroth",
+					["icon"] = 135807,
+					["cid"] = 161,
 				},
 				[9026] = {
 					["name"] = "Souls of the Lost",
@@ -11138,15 +10989,15 @@ WoWProData = {
 					["icon"] = 612969,
 					["cid"] = 15228,
 				},
-				[1034] = {
-					["name"] = "The Fires of Azeroth",
-					["icon"] = 135807,
-					["cid"] = 161,
+				[12536] = {
+					["name"] = "Ahead of the Curve: G'huun",
+					["icon"] = 236517,
+					["cid"] = 15271,
 				},
-				[388] = {
-					["name"] = "City Defender",
-					["icon"] = 236593,
-					["cid"] = 95,
+				[1038] = {
+					["name"] = "The Flame Warden",
+					["icon"] = 135268,
+					["cid"] = 155,
 				},
 				[1145] = {
 					["name"] = "King of the Fire Festival",
@@ -11158,20 +11009,20 @@ WoWProData = {
 					["icon"] = 1869658,
 					["cid"] = 15285,
 				},
-				[1153] = {
-					["name"] = "Overly Defensive",
-					["icon"] = 236346,
-					["cid"] = 14802,
+				[4610] = {
+					["name"] = "Boned (25 player)",
+					["icon"] = 342917,
+					["cid"] = 14922,
 				},
 				[9250] = {
 					["name"] = "Flying High",
 					["icon"] = 459026,
 					["cid"] = 15101,
 				},
-				[5122] = {
-					["name"] = "Heroic: Conclave of Wind",
-					["icon"] = 236154,
-					["cid"] = 15068,
+				[230] = {
+					["name"] = "Battlemaster",
+					["icon"] = 236591,
+					["cid"] = 95,
 				},
 				[1165] = {
 					["name"] = "My Sack is \"Gigantique\"",
@@ -11183,19 +11034,19 @@ WoWProData = {
 					["icon"] = 133282,
 					["cid"] = 14802,
 				},
-				[1038] = {
-					["name"] = "The Flame Warden",
-					["icon"] = 135268,
-					["cid"] = 155,
+				[611] = {
+					["name"] = "Bleeding Bloodhoof",
+					["icon"] = 236555,
+					["cid"] = 95,
 				},
 				[9410] = {
 					["name"] = "Unite the Clans",
 					["icon"] = 970886,
 					["cid"] = 15071,
 				},
-				[230] = {
-					["name"] = "Battlemaster",
-					["icon"] = 236591,
+				[908] = {
+					["name"] = "Call to Arms!",
+					["icon"] = 236309,
 					["cid"] = 95,
 				},
 				[1185] = {
@@ -11213,10 +11064,10 @@ WoWProData = {
 					["icon"] = 236719,
 					["cid"] = 14862,
 				},
-				[611] = {
-					["name"] = "Bleeding Bloodhoof",
-					["icon"] = 236555,
-					["cid"] = 95,
+				[9794] = {
+					["name"] = "Big Race Novice",
+					["icon"] = 1100022,
+					["cid"] = 15101,
 				},
 				[9602] = {
 					["name"] = "Shoot For the Moon",
@@ -11228,10 +11079,10 @@ WoWProData = {
 					["icon"] = 463518,
 					["cid"] = 15220,
 				},
-				[604] = {
-					["name"] = "Wrath of the Alliance",
-					["icon"] = 135438,
-					["cid"] = 95,
+				[4930] = {
+					["name"] = "Desolace Quests",
+					["icon"] = 236742,
+					["cid"] = 15081,
 				},
 				[4850] = {
 					["name"] = "The Bastion of Twilight",
@@ -11248,24 +11099,24 @@ WoWProData = {
 					["icon"] = 456570,
 					["cid"] = 15072,
 				},
-				[9794] = {
-					["name"] = "Big Race Novice",
-					["icon"] = 1100022,
-					["cid"] = 15101,
+				[1225] = {
+					["name"] = "Outland Angler",
+					["icon"] = 236576,
+					["cid"] = 171,
 				},
 				[4914] = {
 					["name"] = "Working In the Heat",
 					["icon"] = 132281,
 					["cid"] = 169,
 				},
-				[4930] = {
-					["name"] = "Desolace Quests",
-					["icon"] = 236742,
-					["cid"] = 15081,
+				[9858] = {
+					["name"] = "Master and Commander",
+					["icon"] = 463829,
+					["cid"] = 15303,
 				},
-				[613] = {
-					["name"] = "Killed in Quel'Thalas",
-					["icon"] = 236558,
+				[614] = {
+					["name"] = "For the Alliance!",
+					["icon"] = 132486,
 					["cid"] = 95,
 				},
 				[8230] = {
@@ -11273,14 +11124,14 @@ WoWProData = {
 					["icon"] = 236805,
 					["cid"] = 15071,
 				},
-				[614] = {
-					["name"] = "For the Alliance!",
-					["icon"] = 132486,
-					["cid"] = 95,
-				},
 				[10561] = {
 					["name"] = "Honorable Medallion",
 					["icon"] = 338784,
+					["cid"] = 95,
+				},
+				[1157] = {
+					["name"] = "Duel-icious",
+					["icon"] = 132148,
 					["cid"] = 95,
 				},
 				[10018] = {
@@ -11293,10 +11144,10 @@ WoWProData = {
 					["icon"] = 132765,
 					["cid"] = 171,
 				},
-				[1261] = {
-					["name"] = "G.N.E.R.D. Rage",
-					["icon"] = 132352,
-					["cid"] = 158,
+				[10082] = {
+					["name"] = "Mythic: Grimrail Depot",
+					["icon"] = 1002598,
+					["cid"] = 15228,
 				},
 				[1265] = {
 					["name"] = "Explore Dragonblight",
@@ -11308,10 +11159,10 @@ WoWProData = {
 					["icon"] = 236832,
 					["cid"] = 14780,
 				},
-				[1157] = {
-					["name"] = "Duel-icious",
-					["icon"] = 132148,
-					["cid"] = 95,
+				[5122] = {
+					["name"] = "Heroic: Conclave of Wind",
+					["icon"] = 236154,
+					["cid"] = 15068,
 				},
 				[1277] = {
 					["name"] = "Rapid Defense",
@@ -11548,10 +11399,10 @@ WoWProData = {
 					["icon"] = 134019,
 					["cid"] = 170,
 				},
-				[11714] = {
-					["name"] = "Viciously Vintage",
-					["icon"] = 467623,
-					["cid"] = 15259,
+				[5858] = {
+					["name"] = "Bear-ly Made It",
+					["icon"] = 446127,
+					["cid"] = 15067,
 				},
 				[11746] = {
 					["name"] = "Outlandish Style",
@@ -11673,25 +11524,20 @@ WoWProData = {
 					["icon"] = 1604165,
 					["cid"] = 15298,
 				},
-				[9667] = {
-					["name"] = "Burn It to the Ground",
-					["icon"] = 135831,
-					["cid"] = 15220,
-				},
 				[652] = {
 					["name"] = "The Escape From Durnholde",
 					["icon"] = 254647,
 					["cid"] = 14805,
 				},
-				[12578] = {
-					["name"] = "Tour of Duty: Stormsong Valley",
-					["icon"] = 2125382,
-					["cid"] = 15283,
-				},
 				[1836] = {
 					["name"] = "Old Crafty",
 					["icon"] = 133921,
 					["cid"] = 171,
+				},
+				[12578] = {
+					["name"] = "Tour of Duty: Stormsong Valley",
+					["icon"] = 2125382,
+					["cid"] = 15283,
 				},
 				[10034] = {
 					["name"] = "Mythic: Hellfire High Council",
@@ -11703,26 +11549,6 @@ WoWProData = {
 					["icon"] = 237301,
 					["cid"] = 171,
 				},
-				[8963] = {
-					["name"] = "Mythic: Twin Ogron",
-					["icon"] = 1019377,
-					["cid"] = 15231,
-				},
-				[6754] = {
-					["name"] = "The Dark Heart of the Mogu",
-					["icon"] = 645218,
-					["cid"] = 15113,
-				},
-				[1717] = {
-					["name"] = "Wintergrasp Victory",
-					["icon"] = 135836,
-					["cid"] = 14901,
-				},
-				[6402] = {
-					["name"] = "Ling-Ting's Herbal Journey",
-					["icon"] = 594273,
-					["cid"] = 15106,
-				},
 				[6539] = {
 					["name"] = "One Steppe Forward, Two Steppes Back",
 					["icon"] = 618797,
@@ -11732,6 +11558,31 @@ WoWProData = {
 					["name"] = "Master Angler of Azeroth",
 					["icon"] = 133892,
 					["cid"] = 171,
+				},
+				[229] = {
+					["name"] = "The Grim Reaper",
+					["icon"] = 136177,
+					["cid"] = 95,
+				},
+				[13058] = {
+					["name"] = "Kul Tiran Up the Dance Floor",
+					["icon"] = 651727,
+					["cid"] = 15298,
+				},
+				[6402] = {
+					["name"] = "Ling-Ting's Herbal Journey",
+					["icon"] = 594273,
+					["cid"] = 15106,
+				},
+				[2056] = {
+					["name"] = "Volunteer Work",
+					["icon"] = 236451,
+					["cid"] = 14806,
+				},
+				[8962] = {
+					["name"] = "Mythic: Brackenspore",
+					["icon"] = 1019378,
+					["cid"] = 15231,
 				},
 				[12898] = {
 					["name"] = "Azeroth at War: After Lordaeron",
@@ -11743,25 +11594,25 @@ WoWProData = {
 					["icon"] = 651137,
 					["cid"] = 15118,
 				},
-				[6674] = {
-					["name"] = "Anything You Can Do, I Can Do Better...",
-					["icon"] = 461267,
-					["cid"] = 15107,
+				[941] = {
+					["name"] = "Hemet Nesingwary: The Collected Quests",
+					["icon"] = 135614,
+					["cid"] = 96,
 				},
-				[229] = {
-					["name"] = "The Grim Reaper",
-					["icon"] = 136177,
-					["cid"] = 95,
+				[6882] = {
+					["name"] = "Temple of Kotmogu Veteran",
+					["icon"] = 623704,
+					["cid"] = 15163,
 				},
 				[13026] = {
 					["name"] = "7th Legion Spycatcher",
 					["icon"] = 643249,
 					["cid"] = 15284,
 				},
-				[13058] = {
-					["name"] = "Kul Tiran Up the Dance Floor",
-					["icon"] = 651727,
-					["cid"] = 15298,
+				[8963] = {
+					["name"] = "Mythic: Twin Ogron",
+					["icon"] = 1019377,
+					["cid"] = 15231,
 				},
 				[6546] = {
 					["name"] = "The Golden Lotus",
@@ -11778,25 +11629,25 @@ WoWProData = {
 					["icon"] = 655709,
 					["cid"] = 15120,
 				},
-				[2056] = {
-					["name"] = "Volunteer Work",
-					["icon"] = 236451,
-					["cid"] = 14806,
+				[153] = {
+					["name"] = "The Old Gnome and the Sea",
+					["icon"] = 236573,
+					["cid"] = 171,
 				},
-				[8962] = {
-					["name"] = "Mythic: Brackenspore",
-					["icon"] = 1019378,
-					["cid"] = 15231,
+				[6674] = {
+					["name"] = "Anything You Can Do, I Can Do Better...",
+					["icon"] = 461267,
+					["cid"] = 15107,
 				},
-				[1701] = {
-					["name"] = "Be Mine!",
-					["icon"] = 135451,
-					["cid"] = 187,
+				[12757] = {
+					["name"] = "Angling for Battle",
+					["icon"] = 2057313,
+					["cid"] = 171,
 				},
-				[7106] = {
-					["name"] = "Master of Silvershard Mines",
-					["icon"] = 622094,
-					["cid"] = 15162,
+				[9507] = {
+					["name"] = "Working in Draenor",
+					["icon"] = 132281,
+					["cid"] = 169,
 				},
 				[7347] = {
 					["name"] = "Collector: Standards of Niuzao",
@@ -11808,24 +11659,24 @@ WoWProData = {
 					["icon"] = 459027,
 					["cid"] = 15101,
 				},
-				[6882] = {
-					["name"] = "Temple of Kotmogu Veteran",
-					["icon"] = 623704,
-					["cid"] = 15163,
+				[1705] = {
+					["name"] = "Clockwork Rocket Bot",
+					["icon"] = 133202,
+					["cid"] = 15274,
 				},
-				[153] = {
-					["name"] = "The Old Gnome and the Sea",
-					["icon"] = 236573,
-					["cid"] = 171,
+				[1721] = {
+					["name"] = "Archavon the Stone Watcher (25 player)",
+					["icon"] = 134449,
+					["cid"] = 14901,
 				},
 				[6722] = {
 					["name"] = "Heroic: Four Kings",
 					["icon"] = 625908,
 					["cid"] = 15107,
 				},
-				[9461] = {
-					["name"] = "Sea Scorpion Angler",
-					["icon"] = 970817,
+				[9456] = {
+					["name"] = "Abyssal Gulper Eel Angler",
+					["icon"] = 970811,
 					["cid"] = 171,
 				},
 				[9411] = {
@@ -11843,15 +11694,15 @@ WoWProData = {
 					["icon"] = 135454,
 					["cid"] = 187,
 				},
-				[9507] = {
-					["name"] = "Working in Draenor",
-					["icon"] = 132281,
-					["cid"] = 169,
+				[1701] = {
+					["name"] = "Be Mine!",
+					["icon"] = 135451,
+					["cid"] = 187,
 				},
-				[1705] = {
-					["name"] = "Clockwork Rocket Bot",
-					["icon"] = 133202,
-					["cid"] = 15274,
+				[9539] = {
+					["name"] = "Advanced Husbandry",
+					["icon"] = 975744,
+					["cid"] = 15303,
 				},
 				[9571] = {
 					["name"] = "Broke Back Precipice",
@@ -11868,69 +11719,69 @@ WoWProData = {
 					["icon"] = 132931,
 					["cid"] = 15220,
 				},
-				[1721] = {
-					["name"] = "Archavon the Stone Watcher (25 player)",
-					["icon"] = 134449,
-					["cid"] = 14901,
-				},
-				[12757] = {
-					["name"] = "Angling for Battle",
-					["icon"] = 2057313,
-					["cid"] = 171,
+				[9667] = {
+					["name"] = "Burn It to the Ground",
+					["icon"] = 135831,
+					["cid"] = 15220,
 				},
 				[9458] = {
 					["name"] = "Blind Lake Sturgeon Angler",
 					["icon"] = 970826,
 					["cid"] = 171,
 				},
-				[6930] = {
-					["name"] = "Yaungolian Barbecue",
-					["icon"] = 134024,
-					["cid"] = 15302,
-				},
 				[1737] = {
 					["name"] = "Destruction Derby",
 					["icon"] = 135783,
 					["cid"] = 14901,
 				},
-				[1576] = {
-					["name"] = "Of Blood and Anguish",
-					["icon"] = 133076,
-					["cid"] = 96,
+				[6930] = {
+					["name"] = "Yaungolian Barbecue",
+					["icon"] = 134024,
+					["cid"] = 15302,
 				},
-				[6978] = {
-					["name"] = "Explore Dread Wastes",
-					["icon"] = 624970,
-					["cid"] = 15113,
+				[6946] = {
+					["name"] = "Empowered Spiritualist",
+					["icon"] = 136214,
+					["cid"] = 15106,
 				},
 				[1563] = {
 					["name"] = "Hail to the Chef",
 					["icon"] = 236571,
 					["cid"] = 170,
 				},
+				[6978] = {
+					["name"] = "Explore Dread Wastes",
+					["icon"] = 624970,
+					["cid"] = 15113,
+				},
 				[10587] = {
 					["name"] = "Hot Swapper",
 					["icon"] = 1003587,
 					["cid"] = 169,
-				},
-				[1757] = {
-					["name"] = "Defense of the Ancients",
-					["icon"] = 132341,
-					["cid"] = 15279,
 				},
 				[12556] = {
 					["name"] = "Explore Tiragarde Sound",
 					["icon"] = 2065630,
 					["cid"] = 15298,
 				},
+				[1757] = {
+					["name"] = "Defense of the Ancients",
+					["icon"] = 132341,
+					["cid"] = 15279,
+				},
+				[10589] = {
+					["name"] = "Legion Cook",
+					["icon"] = 133971,
+					["cid"] = 170,
+				},
 				[10019] = {
 					["name"] = "The Black Gate",
 					["icon"] = 1113431,
 					["cid"] = 15231,
 				},
-				[10589] = {
-					["name"] = "Legion Cook",
-					["icon"] = 133971,
+				[1777] = {
+					["name"] = "The Northrend Gourmet",
+					["icon"] = 237351,
 					["cid"] = 170,
 				},
 				[10083] = {
@@ -11938,10 +11789,10 @@ WoWProData = {
 					["icon"] = 967517,
 					["cid"] = 15228,
 				},
-				[1777] = {
-					["name"] = "The Northrend Gourmet",
-					["icon"] = 237351,
-					["cid"] = 170,
+				[7106] = {
+					["name"] = "Master of Silvershard Mines",
+					["icon"] = 622094,
+					["cid"] = 15162,
 				},
 				[1781] = {
 					["name"] = "Critter Gitter",
@@ -11973,25 +11824,25 @@ WoWProData = {
 					["icon"] = 132790,
 					["cid"] = 170,
 				},
-				[1837] = {
-					["name"] = "Old Ironjaw",
-					["icon"] = 133917,
-					["cid"] = 171,
-				},
-				[402] = {
-					["name"] = "Three's Company: 1550",
-					["icon"] = 236330,
-					["cid"] = 165,
+				[13087] = {
+					["name"] = "Sausage Sampler",
+					["icon"] = 133200,
+					["cid"] = 15298,
 				},
 				[12560] = {
 					["name"] = "Explore Vol'dun",
 					["icon"] = 2065632,
 					["cid"] = 15298,
 				},
-				[1817] = {
-					["name"] = "The Culling of Time",
-					["icon"] = 236476,
-					["cid"] = 14806,
+				[1837] = {
+					["name"] = "Old Ironjaw",
+					["icon"] = 133917,
+					["cid"] = 171,
+				},
+				[7266] = {
+					["name"] = "Save it for Later",
+					["icon"] = 461805,
+					["cid"] = 15302,
 				},
 				[7282] = {
 					["name"] = "Finders Keepers",
@@ -12128,25 +11979,10 @@ WoWProData = {
 					["icon"] = 660263,
 					["cid"] = 15107,
 				},
-				[8228] = {
-					["name"] = "Collector: Remains of Paragons",
-					["icon"] = 236805,
-					["cid"] = 15071,
-				},
-				[12099] = {
-					["name"] = "Unstoppable Undead",
-					["icon"] = 237441,
-					["cid"] = 15119,
-				},
 				[4601] = {
 					["name"] = "Been Waiting a Long Time for This (10 player)",
 					["icon"] = 237514,
 					["cid"] = 14922,
-				},
-				[11427] = {
-					["name"] = "No Shellfish Endeavor",
-					["icon"] = 656556,
-					["cid"] = 15252,
 				},
 				[13036] = {
 					["name"] = "A Loa of a Tale",
@@ -12157,6 +11993,21 @@ WoWProData = {
 					["name"] = "Black Forge",
 					["icon"] = 1030797,
 					["cid"] = 15231,
+				},
+				[11427] = {
+					["name"] = "No Shellfish Endeavor",
+					["icon"] = 656556,
+					["cid"] = 15252,
+				},
+				[913] = {
+					["name"] = "To Honor One's Elders",
+					["icon"] = 236704,
+					["cid"] = 155,
+				},
+				[8009] = {
+					["name"] = "Dagger in the Dark",
+					["icon"] = 460715,
+					["cid"] = 15302,
 				},
 				[9605] = {
 					["name"] = "Arak Star",
@@ -12173,15 +12024,15 @@ WoWProData = {
 					["icon"] = 618860,
 					["cid"] = 15222,
 				},
-				[1997] = {
-					["name"] = "Momma Said Knock You Out (10 player)",
-					["icon"] = 136138,
-					["cid"] = 14922,
+				[9761] = {
+					["name"] = "Darkmoon Racer Roadhog",
+					["icon"] = 1100022,
+					["cid"] = 15101,
 				},
-				[913] = {
-					["name"] = "To Honor One's Elders",
-					["icon"] = 236704,
-					["cid"] = 155,
+				[7986] = {
+					["name"] = "You Mean That Wasn't a Void Zone?",
+					["icon"] = 136069,
+					["cid"] = 15302,
 				},
 				[11683] = {
 					["name"] = "Bingo!",
@@ -12203,20 +12054,20 @@ WoWProData = {
 					["icon"] = 298664,
 					["cid"] = 15255,
 				},
-				[8009] = {
-					["name"] = "Dagger in the Dark",
-					["icon"] = 460715,
-					["cid"] = 15302,
+				[735] = {
+					["name"] = "Working In the Cold",
+					["icon"] = 132281,
+					["cid"] = 169,
 				},
-				[9761] = {
-					["name"] = "Darkmoon Racer Roadhog",
-					["icon"] = 1100022,
-					["cid"] = 15101,
+				[8098] = {
+					["name"] = "You Said Crossing the Streams Was Bad",
+					["icon"] = 136028,
+					["cid"] = 15107,
 				},
-				[7986] = {
-					["name"] = "You Mean That Wasn't a Void Zone?",
-					["icon"] = 136069,
-					["cid"] = 15302,
+				[1997] = {
+					["name"] = "Momma Said Knock You Out (10 player)",
+					["icon"] = 136138,
+					["cid"] = 14922,
 				},
 				[2001] = {
 					["name"] = "50 Cooking Awards",
@@ -12228,10 +12079,10 @@ WoWProData = {
 					["icon"] = 615499,
 					["cid"] = 15106,
 				},
-				[735] = {
-					["name"] = "Working In the Cold",
-					["icon"] = 132281,
-					["cid"] = 169,
+				[12323] = {
+					["name"] = "Shattered",
+					["icon"] = 135849,
+					["cid"] = 14922,
 				},
 				[8050] = {
 					["name"] = "Rumbles of Thunder",
@@ -12243,25 +12094,25 @@ WoWProData = {
 					["icon"] = 839399,
 					["cid"] = 15107,
 				},
-				[8082] = {
-					["name"] = "Head Case",
-					["icon"] = 134153,
-					["cid"] = 15107,
+				[12067] = {
+					["name"] = "Spheres of Influence",
+					["icon"] = 897131,
+					["cid"] = 15255,
 				},
-				[8098] = {
-					["name"] = "You Said Crossing the Streams Was Bad",
-					["icon"] = 136028,
-					["cid"] = 15107,
+				[12099] = {
+					["name"] = "Unstoppable Undead",
+					["icon"] = 237441,
+					["cid"] = 15119,
 				},
 				[8114] = {
 					["name"] = "Platform Hero",
 					["icon"] = 236171,
 					["cid"] = 15110,
 				},
-				[2058] = {
-					["name"] = "Snakes. Why'd It Have To Be Snakes?",
-					["icon"] = 236177,
-					["cid"] = 14806,
+				[856] = {
+					["name"] = "Explore Silithus",
+					["icon"] = 236829,
+					["cid"] = 14778,
 				},
 				[2037] = {
 					["name"] = "Chaos Theory",
@@ -12278,25 +12129,25 @@ WoWProData = {
 					["icon"] = 236231,
 					["cid"] = 14806,
 				},
-				[12899] = {
-					["name"] = "Azeroth at War: Kalimdor on Fire",
-					["icon"] = 236807,
-					["cid"] = 15308,
-				},
-				[12323] = {
-					["name"] = "Shattered",
-					["icon"] = 135849,
-					["cid"] = 14922,
-				},
 				[10585] = {
 					["name"] = "Fel-Smelter",
 					["icon"] = 399041,
 					["cid"] = 169,
 				},
+				[2058] = {
+					["name"] = "Snakes. Why'd It Have To Be Snakes?",
+					["icon"] = 236177,
+					["cid"] = 14806,
+				},
 				[6856] = {
 					["name"] = "Ballad of Liu Lang",
 					["icon"] = 645218,
 					["cid"] = 15113,
+				},
+				[4817] = {
+					["name"] = "The Twilight Destroyer (10 player)",
+					["icon"] = 136223,
+					["cid"] = 14922,
 				},
 				[2082] = {
 					["name"] = "Ice Mammoth",
@@ -12308,10 +12159,10 @@ WoWProData = {
 					["icon"] = 236537,
 					["cid"] = 165,
 				},
-				[13027] = {
-					["name"] = "Mushroom Harvest",
-					["icon"] = 1869654,
-					["cid"] = 15298,
+				[4881] = {
+					["name"] = "The Earthen Ring",
+					["icon"] = 456567,
+					["cid"] = 15072,
 				},
 				[12515] = {
 					["name"] = "Allied Races: Dark Iron Dwarf",
@@ -12328,9 +12179,9 @@ WoWProData = {
 					["icon"] = 2125380,
 					["cid"] = 15283,
 				},
-				[4817] = {
-					["name"] = "The Twilight Destroyer (10 player)",
-					["icon"] = 136223,
+				[4403] = {
+					["name"] = "Many Whelps! Handle It! (10 player)",
+					["icon"] = 134154,
 					["cid"] = 14922,
 				},
 				[2138] = {
@@ -12363,21 +12214,6 @@ WoWProData = {
 					["icon"] = 135769,
 					["cid"] = 14922,
 				},
-				[4881] = {
-					["name"] = "The Earthen Ring",
-					["icon"] = 456567,
-					["cid"] = 15072,
-				},
-				[13059] = {
-					["name"] = "Drag Race",
-					["icon"] = 1119937,
-					["cid"] = 15284,
-				},
-				[4403] = {
-					["name"] = "Many Whelps! Handle It! (10 player)",
-					["icon"] = 134154,
-					["cid"] = 14922,
-				},
 				[1691] = {
 					["name"] = "Merrymaker",
 					["icon"] = 236705,
@@ -12387,6 +12223,21 @@ WoWProData = {
 					["name"] = "Desecration of the Horde",
 					["icon"] = 135820,
 					["cid"] = 161,
+				},
+				[12899] = {
+					["name"] = "Azeroth at War: Kalimdor on Fire",
+					["icon"] = 236807,
+					["cid"] = 15308,
+				},
+				[13027] = {
+					["name"] = "Mushroom Harvest",
+					["icon"] = 1869654,
+					["cid"] = 15298,
+				},
+				[13059] = {
+					["name"] = "Drag Race",
+					["icon"] = 1119937,
+					["cid"] = 15284,
 				},
 				[12995] = {
 					["name"] = "Treasures of Drustvar",
@@ -12403,20 +12254,20 @@ WoWProData = {
 					["icon"] = 1006455,
 					["cid"] = 15231,
 				},
-				[6531] = {
-					["name"] = "Attention to Detail",
-					["icon"] = 236457,
-					["cid"] = 15106,
-				},
 				[9806] = {
 					["name"] = "Vagabond",
 					["icon"] = 1100022,
 					["cid"] = 15101,
 				},
-				[8965] = {
-					["name"] = "Mythic: Imperator's Fall",
-					["icon"] = 1030796,
-					["cid"] = 15231,
+				[13060] = {
+					["name"] = "Kul Runnings",
+					["icon"] = 327502,
+					["cid"] = 15284,
+				},
+				[6531] = {
+					["name"] = "Attention to Detail",
+					["icon"] = 236457,
+					["cid"] = 15106,
 				},
 				[13028] = {
 					["name"] = "Hoppin' Sad",
@@ -12438,10 +12289,10 @@ WoWProData = {
 					["icon"] = 133699,
 					["cid"] = 97,
 				},
-				[9220] = {
-					["name"] = "Grand Theft, 3rd Degree",
-					["icon"] = 901746,
-					["cid"] = 15279,
+				[4611] = {
+					["name"] = "Full House (25 player)",
+					["icon"] = 342916,
+					["cid"] = 14922,
 				},
 				[698] = {
 					["name"] = "Sunwell Plateau",
@@ -12558,10 +12409,10 @@ WoWProData = {
 					["icon"] = 236248,
 					["cid"] = 15107,
 				},
-				[9988] = {
-					["name"] = "Pro Toss",
-					["icon"] = 1117882,
-					["cid"] = 15231,
+				[4995] = {
+					["name"] = "Explore the Cape of Stranglethorn",
+					["icon"] = 236844,
+					["cid"] = 14777,
 				},
 				[10020] = {
 					["name"] = "Destructor's Rise",
@@ -12758,20 +12609,20 @@ WoWProData = {
 					["icon"] = 134220,
 					["cid"] = 14922,
 				},
-				[2930] = {
-					["name"] = "Stokin' the Furnace (10 player)",
-					["icon"] = 254092,
-					["cid"] = 15278,
+				[11716] = {
+					["name"] = "Cataclysmic Catwalk",
+					["icon"] = 532989,
+					["cid"] = 15259,
 				},
 				[5875] = {
 					["name"] = "Littlest Pet Shop",
 					["icon"] = 132599,
 					["cid"] = 15118,
 				},
-				[5859] = {
-					["name"] = "Legacy of Leyara",
-					["icon"] = 236449,
-					["cid"] = 15070,
+				[2930] = {
+					["name"] = "Stokin' the Furnace (10 player)",
+					["icon"] = 254092,
+					["cid"] = 15278,
 				},
 				[13102] = {
 					["name"] = "Clash at the Cay",
@@ -12828,10 +12679,10 @@ WoWProData = {
 					["icon"] = 2032229,
 					["cid"] = 15298,
 				},
-				[11716] = {
-					["name"] = "Cataclysmic Catwalk",
-					["icon"] = 532989,
-					["cid"] = 15259,
+				[5859] = {
+					["name"] = "Legacy of Leyara",
+					["icon"] = 236449,
+					["cid"] = 15070,
 				},
 				[11748] = {
 					["name"] = "Black is the New Black",
@@ -12963,10 +12814,10 @@ WoWProData = {
 					["icon"] = 538445,
 					["cid"] = 15285,
 				},
-				[4995] = {
-					["name"] = "Explore the Cape of Stranglethorn",
-					["icon"] = 236844,
-					["cid"] = 14777,
+				[9988] = {
+					["name"] = "Pro Toss",
+					["icon"] = 1117882,
+					["cid"] = 15231,
 				},
 				[1875] = {
 					["name"] = "You Don't Have an Eternity (25 player)",
@@ -13023,10 +12874,10 @@ WoWProData = {
 					["icon"] = 136088,
 					["cid"] = 15255,
 				},
-				[4611] = {
-					["name"] = "Full House (25 player)",
-					["icon"] = 342916,
-					["cid"] = 14922,
+				[9220] = {
+					["name"] = "Grand Theft, 3rd Degree",
+					["icon"] = 901746,
+					["cid"] = 15279,
 				},
 				[4524] = {
 					["name"] = "Doesn't Go to Eleven",
@@ -13038,10 +12889,10 @@ WoWProData = {
 					["icon"] = 134944,
 					["cid"] = 15303,
 				},
-				[13060] = {
-					["name"] = "Kul Runnings",
-					["icon"] = 327502,
-					["cid"] = 15284,
+				[8965] = {
+					["name"] = "Mythic: Imperator's Fall",
+					["icon"] = 1030796,
+					["cid"] = 15231,
 				},
 				[6547] = {
 					["name"] = "The Anglers",
@@ -13093,10 +12944,10 @@ WoWProData = {
 					["icon"] = 133202,
 					["cid"] = 156,
 				},
-				[856] = {
-					["name"] = "Explore Silithus",
-					["icon"] = 236829,
-					["cid"] = 14778,
+				[8228] = {
+					["name"] = "Collector: Remains of Paragons",
+					["icon"] = 236805,
+					["cid"] = 15071,
 				},
 				[6723] = {
 					["name"] = "Heroic: Elegon",
@@ -13113,15 +12964,15 @@ WoWProData = {
 					["icon"] = 236805,
 					["cid"] = 15071,
 				},
+				[8082] = {
+					["name"] = "Head Case",
+					["icon"] = 134153,
+					["cid"] = 15107,
+				},
 				[6824] = {
 					["name"] = "Face Clutchers",
 					["icon"] = 136131,
 					["cid"] = 15107,
-				},
-				[12067] = {
-					["name"] = "Spheres of Influence",
-					["icon"] = 897131,
-					["cid"] = 15255,
 				},
 				[1683] = {
 					["name"] = "Brewmaster",
@@ -13228,20 +13079,20 @@ WoWProData = {
 					["icon"] = 1113443,
 					["cid"] = 168,
 				},
-				[13087] = {
-					["name"] = "Sausage Sampler",
-					["icon"] = 133200,
-					["cid"] = 15298,
+				[1817] = {
+					["name"] = "The Culling of Time",
+					["icon"] = 236476,
+					["cid"] = 14806,
 				},
 				[3578] = {
 					["name"] = "The Turkinator",
 					["icon"] = 132210,
 					["cid"] = 14981,
 				},
-				[7266] = {
-					["name"] = "Save it for Later",
-					["icon"] = 461805,
-					["cid"] = 15302,
+				[402] = {
+					["name"] = "Three's Company: 1550",
+					["icon"] = 236330,
+					["cid"] = 165,
 				},
 				[8222] = {
 					["name"] = "Collector: Ancient Sap Feeders",
@@ -13273,20 +13124,20 @@ WoWProData = {
 					["icon"] = 132622,
 					["cid"] = 15302,
 				},
-				[9456] = {
-					["name"] = "Abyssal Gulper Eel Angler",
-					["icon"] = 970811,
-					["cid"] = 171,
+				[1576] = {
+					["name"] = "Of Blood and Anguish",
+					["icon"] = 133076,
+					["cid"] = 96,
 				},
 				[7299] = {
 					["name"] = "Loner and a Rebel",
 					["icon"] = 413576,
 					["cid"] = 15110,
 				},
-				[6946] = {
-					["name"] = "Empowered Spiritualist",
-					["icon"] = 136214,
-					["cid"] = 15106,
+				[1717] = {
+					["name"] = "Wintergrasp Victory",
+					["icon"] = 135836,
+					["cid"] = 14901,
 				},
 				[7331] = {
 					["name"] = "The Three Brew Fathers",
@@ -13298,10 +13149,10 @@ WoWProData = {
 					["icon"] = 236574,
 					["cid"] = 171,
 				},
-				[9539] = {
-					["name"] = "Advanced Husbandry",
-					["icon"] = 975744,
-					["cid"] = 15303,
+				[6754] = {
+					["name"] = "The Dark Heart of the Mogu",
+					["icon"] = 645218,
+					["cid"] = 15113,
 				},
 				[7379] = {
 					["name"] = "Pandaren Master of All",
@@ -13313,15 +13164,15 @@ WoWProData = {
 					["icon"] = 133816,
 					["cid"] = 15259,
 				},
+				[9461] = {
+					["name"] = "Sea Scorpion Angler",
+					["icon"] = 970817,
+					["cid"] = 171,
+				},
 				[2796] = {
 					["name"] = "Brew of the Month",
 					["icon"] = 133697,
 					["cid"] = 162,
-				},
-				[941] = {
-					["name"] = "Hemet Nesingwary: The Collected Quests",
-					["icon"] = 135614,
-					["cid"] = 96,
 				},
 				[10789] = {
 					["name"] = "Mythic: Halls of Valor",
@@ -13438,6 +13289,11 @@ WoWProData = {
 					["icon"] = 135265,
 					["cid"] = 161,
 				},
+				[11714] = {
+					["name"] = "Viciously Vintage",
+					["icon"] = 467623,
+					["cid"] = 15259,
+				},
 				[5230] = {
 					["name"] = "Twin Peaks Mountaineer",
 					["icon"] = 236350,
@@ -13447,11 +13303,6 @@ WoWProData = {
 					["name"] = "Gladiator",
 					["icon"] = 236540,
 					["cid"] = 165,
-				},
-				[5858] = {
-					["name"] = "Bear-ly Made It",
-					["icon"] = 446127,
-					["cid"] = 15067,
 				},
 				[11064] = {
 					["name"] = "Collector's Edition: Baby Winston",
@@ -13553,34 +13404,34 @@ WoWProData = {
 					["icon"] = 1720723,
 					["cid"] = 15268,
 				},
+				[1261] = {
+					["name"] = "G.N.E.R.D. Rage",
+					["icon"] = 132352,
+					["cid"] = 158,
+				},
 				[396] = {
 					["name"] = "Gurubashi Arena Grand Master",
 					["icon"] = 133599,
 					["cid"] = 95,
-				},
-				[6590] = {
-					["name"] = "World Safari",
-					["icon"] = 651131,
-					["cid"] = 15118,
 				},
 				[12325] = {
 					["name"] = "Stokin' the Furnace",
 					["icon"] = 254092,
 					["cid"] = 14922,
 				},
-				[10082] = {
-					["name"] = "Mythic: Grimrail Depot",
-					["icon"] = 1002598,
-					["cid"] = 15228,
+				[6590] = {
+					["name"] = "World Safari",
+					["icon"] = 651131,
+					["cid"] = 15118,
 				},
 				[8294] = {
 					["name"] = "The Secrets of Ragefire",
 					["icon"] = 135726,
 					["cid"] = 15302,
 				},
-				[908] = {
-					["name"] = "Call to Arms!",
-					["icon"] = 236309,
+				[613] = {
+					["name"] = "Killed in Quel'Thalas",
+					["icon"] = 236558,
 					["cid"] = 95,
 				},
 				[8358] = {
@@ -13588,10 +13439,10 @@ WoWProData = {
 					["icon"] = 236310,
 					["cid"] = 15218,
 				},
-				[9858] = {
-					["name"] = "Master and Commander",
-					["icon"] = 463829,
-					["cid"] = 15303,
+				[604] = {
+					["name"] = "Wrath of the Alliance",
+					["icon"] = 135438,
+					["cid"] = 95,
 				},
 				[612] = {
 					["name"] = "Downing the Dark Lady",
@@ -13603,15 +13454,20 @@ WoWProData = {
 					["icon"] = 132447,
 					["cid"] = 168,
 				},
-				[12536] = {
-					["name"] = "Ahead of the Curve: G'huun",
-					["icon"] = 236517,
-					["cid"] = 15271,
+				[1153] = {
+					["name"] = "Overly Defensive",
+					["icon"] = 236346,
+					["cid"] = 14802,
 				},
 				[8518] = {
 					["name"] = "Master of the Masters",
 					["icon"] = 803763,
 					["cid"] = 15119,
+				},
+				[388] = {
+					["name"] = "City Defender",
+					["icon"] = 236593,
+					["cid"] = 95,
 				},
 				[10365] = {
 					["name"] = "A Frightening Friend",
@@ -13622,11 +13478,6 @@ WoWProData = {
 					["name"] = "Rotten Hallow",
 					["icon"] = 236549,
 					["cid"] = 158,
-				},
-				[4610] = {
-					["name"] = "Boned (25 player)",
-					["icon"] = 342917,
-					["cid"] = 14922,
 				},
 				[12741] = {
 					["name"] = "Giving a Scrap",
@@ -14013,10 +13864,10 @@ WoWProData = {
 					["icon"] = 236396,
 					["cid"] = 15280,
 				},
-				[12576] = {
-					["name"] = "Tour of Duty: Vol'dun",
-					["icon"] = 2125384,
-					["cid"] = 15283,
+				[3137] = {
+					["name"] = "Emalon the Storm Watcher (25 player)",
+					["icon"] = 134452,
+					["cid"] = 14901,
 				},
 				[10555] = {
 					["name"] = "Buggy Fight",
@@ -14138,10 +13989,10 @@ WoWProData = {
 					["icon"] = 2125376,
 					["cid"] = 15283,
 				},
-				[11264] = {
-					["name"] = "Adventurer of Highmountain",
-					["icon"] = 1409000,
-					["cid"] = 15257,
+				[2817] = {
+					["name"] = "Exalted Argent Champion of the Alliance",
+					["icon"] = 255130,
+					["cid"] = 14941,
 				},
 				[12574] = {
 					["name"] = "Tour of Duty: Nazmir",
@@ -14632,17 +14483,17 @@ WoWProData = {
 					["name"] = "Kalimdor",
 					["parentID"] = 96,
 				},
-				[14866] = {
-					["name"] = "Wrath of the Lich King",
-					["parentID"] = 201,
-				},
 				[14941] = {
 					["name"] = "Argent Tournament",
 					["parentID"] = 155,
 				},
-				[15107] = {
-					["name"] = "Pandaria Raid",
-					["parentID"] = 168,
+				[15069] = {
+					["name"] = "Cataclysm",
+					["parentID"] = 97,
+				},
+				[15235] = {
+					["name"] = "Draenor",
+					["parentID"] = 97,
 				},
 				[15218] = {
 					["name"] = "Deepwind Gorge",
@@ -14656,9 +14507,9 @@ WoWProData = {
 					["name"] = "Draenor",
 					["parentID"] = 96,
 				},
-				[15069] = {
-					["name"] = "Cataclysm",
-					["parentID"] = 97,
+				[15234] = {
+					["name"] = "Legacy",
+					["parentID"] = -1,
 				},
 				[15222] = {
 					["name"] = "Proving Grounds",
@@ -14676,17 +14527,17 @@ WoWProData = {
 					["name"] = "Battle",
 					["parentID"] = 15117,
 				},
-				[15120] = {
-					["name"] = "Level",
-					["parentID"] = 15117,
+				[14866] = {
+					["name"] = "Wrath of the Lich King",
+					["parentID"] = 201,
 				},
 				[14778] = {
 					["name"] = "Kalimdor",
 					["parentID"] = 97,
 				},
-				[15101] = {
-					["name"] = "Darkmoon Faire",
-					["parentID"] = 155,
+				[15228] = {
+					["name"] = "Draenor Dungeon",
+					["parentID"] = 168,
 				},
 				[14777] = {
 					["name"] = "Eastern Kingdoms",
@@ -14708,13 +14559,13 @@ WoWProData = {
 					["name"] = "Pandaria Dungeon",
 					["parentID"] = 168,
 				},
-				[15234] = {
-					["name"] = "Legacy",
-					["parentID"] = -1,
+				[15107] = {
+					["name"] = "Pandaria Raid",
+					["parentID"] = 168,
 				},
-				[15235] = {
-					["name"] = "Draenor",
-					["parentID"] = 97,
+				[14981] = {
+					["name"] = "Pilgrim's Bounty",
+					["parentID"] = 155,
 				},
 				[161] = {
 					["name"] = "Midsummer",
@@ -14728,9 +14579,9 @@ WoWProData = {
 					["name"] = "Wintergrasp",
 					["parentID"] = 15301,
 				},
-				[81] = {
-					["name"] = "Feats of Strength",
-					["parentID"] = -1,
+				[15254] = {
+					["name"] = "Legion Dungeon",
+					["parentID"] = 168,
 				},
 				[15113] = {
 					["name"] = "Pandaria",
@@ -14756,13 +14607,13 @@ WoWProData = {
 					["name"] = "Collect",
 					["parentID"] = 15117,
 				},
-				[15246] = {
-					["name"] = "Collections",
-					["parentID"] = -1,
+				[14865] = {
+					["name"] = "The Burning Crusade",
+					["parentID"] = 201,
 				},
-				[15247] = {
-					["name"] = "Toy Box",
-					["parentID"] = 15246,
+				[15120] = {
+					["name"] = "Level",
+					["parentID"] = 15117,
 				},
 				[15248] = {
 					["name"] = "Mounts",
@@ -14788,13 +14639,13 @@ WoWProData = {
 					["name"] = "Noblegarden",
 					["parentID"] = 155,
 				},
-				[15254] = {
-					["name"] = "Legion Dungeon",
-					["parentID"] = 168,
+				[81] = {
+					["name"] = "Feats of Strength",
+					["parentID"] = -1,
 				},
-				[15255] = {
-					["name"] = "Legion Raid",
-					["parentID"] = 168,
+				[163] = {
+					["name"] = "Children's Week",
+					["parentID"] = 155,
 				},
 				[165] = {
 					["name"] = "Arena",
@@ -14824,9 +14675,9 @@ WoWProData = {
 					["name"] = "Draenor Garrison",
 					["parentID"] = 15301,
 				},
-				[15268] = {
-					["name"] = "Promotions",
-					["parentID"] = 81,
+				[95] = {
+					["name"] = "Player vs. Player",
+					["parentID"] = -1,
 				},
 				[15274] = {
 					["name"] = "Events",
@@ -14844,17 +14695,17 @@ WoWProData = {
 					["name"] = "Love is in the Air",
 					["parentID"] = 155,
 				},
-				[95] = {
-					["name"] = "Player vs. Player",
+				[15268] = {
+					["name"] = "Promotions",
+					["parentID"] = 81,
+				},
+				[96] = {
+					["name"] = "Quests",
 					["parentID"] = -1,
 				},
-				[15269] = {
-					["name"] = "Mounts",
-					["parentID"] = 81,
-				},
-				[15270] = {
-					["name"] = "Player vs. Player",
-					["parentID"] = 81,
+				[97] = {
+					["name"] = "Exploration",
+					["parentID"] = -1,
 				},
 				[15271] = {
 					["name"] = "Raids",
@@ -14872,13 +14723,13 @@ WoWProData = {
 					["name"] = "Reputation",
 					["parentID"] = -1,
 				},
-				[97] = {
-					["name"] = "Exploration",
-					["parentID"] = -1,
+				[15270] = {
+					["name"] = "Player vs. Player",
+					["parentID"] = 81,
 				},
-				[96] = {
-					["name"] = "Quests",
-					["parentID"] = -1,
+				[15269] = {
+					["name"] = "Mounts",
+					["parentID"] = 81,
 				},
 				[15277] = {
 					["name"] = "Dungeons",
@@ -14896,9 +14747,9 @@ WoWProData = {
 					["name"] = "Currencies",
 					["parentID"] = 15234,
 				},
-				[163] = {
-					["name"] = "Children's Week",
-					["parentID"] = 155,
+				[15255] = {
+					["name"] = "Legion Raid",
+					["parentID"] = 168,
 				},
 				[15282] = {
 					["name"] = "Brawler's Guild",
@@ -14936,21 +14787,21 @@ WoWProData = {
 					["name"] = "Temple of Kotmogu",
 					["parentID"] = 95,
 				},
-				[14981] = {
-					["name"] = "Pilgrim's Bounty",
-					["parentID"] = 155,
+				[15247] = {
+					["name"] = "Toy Box",
+					["parentID"] = 15246,
 				},
 				[15292] = {
 					["name"] = "Seething Shore",
 					["parentID"] = 95,
 				},
-				[15228] = {
-					["name"] = "Draenor Dungeon",
-					["parentID"] = 168,
+				[15101] = {
+					["name"] = "Darkmoon Faire",
+					["parentID"] = 155,
 				},
-				[14865] = {
-					["name"] = "The Burning Crusade",
-					["parentID"] = 201,
+				[15246] = {
+					["name"] = "Collections",
+					["parentID"] = -1,
 				},
 			},
 		},
@@ -14958,25 +14809,30 @@ WoWProData = {
 		["RecklessCombat"] = false,
 	},
 	["profiles"] = {
+		["Default"] = {
+			["Selector"] = {
+				["QuestHard"] = 0,
+			},
+		},
 		["KokonutKrew"] = {
+			["anchorpoint"] = "CENTER",
+			["minimap"] = {
+				["minimapPos"] = 195.732067734691,
+			},
 			["bgcolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				0, -- [4]
 			},
-			["anchorpoint"] = "CENTER",
-			["autoresize"] = false,
 			["titlecolor"] = {
 				0.501960784313726, -- [1]
 				0.501960784313726, -- [2]
 				0.501960784313726, -- [3]
 				0.548192590475082, -- [4]
 			},
+			["autoresize"] = false,
 			["bordertexture"] = "",
-			["minimap"] = {
-				["minimapPos"] = 195.732067734691,
-			},
 			["resize"] = true,
 			["Selector"] = {
 				["QuestHard"] = 0,

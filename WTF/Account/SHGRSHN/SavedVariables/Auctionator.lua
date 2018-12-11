@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
-	["_200000"] = 1000,
-	["_1000000"] = 2500,
 	["_10000"] = 200,
-	["_500"] = 5,
+	["_5000000"] = 10000,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
 	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -34,6 +34,8 @@ AUCTIONATOR_SHOPPING_LISTS = {
 AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
+	["Stormrage_Horde"] = {
+	},
 	["Emerald Dream_Alliance"] = {
 	},
 	["Tichondrius_Horde"] = {
@@ -57,15 +59,20 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-09F14854",
 		["firstVersion"] = "5.0.5",
 	},
+	["Samoantitan"] = {
+		["firstSeen"] = 1539193579,
+		["guid"] = "Player-60-0A6DF395",
+		["firstVersion"] = "5.0.5",
+	},
 	["Samoansage"] = {
 		["firstSeen"] = 1544167989,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-09ADBF6A",
 	},
-	["Samoantitan"] = {
-		["firstSeen"] = 1539193579,
-		["guid"] = "Player-60-0A6DF395",
+	["Kakattack"] = {
+		["firstSeen"] = 1544472482,
 		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-60-0B864DC6",
 	},
 	["Samoansavage"] = {
 		["firstSeen"] = 1539839019,

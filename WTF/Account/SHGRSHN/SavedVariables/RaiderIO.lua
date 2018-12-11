@@ -1,4 +1,4 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "us-Samoantitan-stormrage"
+RaiderIO_LastCharacter = "us-Samoanslayer-emerald-dream"

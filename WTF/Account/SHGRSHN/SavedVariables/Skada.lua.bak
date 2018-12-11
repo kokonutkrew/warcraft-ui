@@ -9,6 +9,7 @@ SkadaDB = {
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -20,22 +21,22 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["y"] = 10.0000085830688,
-					["x"] = -6,
 					["point"] = "BOTTOMRIGHT",
-					["barwidth"] = 373.000152587891,
 					["mode"] = "Damage",
+					["barwidth"] = 373.000152587891,
 					["background"] = {
 						["height"] = 88,
 					},
+					["x"] = -6,
 				}, -- [1]
+			},
+			["icon"] = {
+				["minimapPos"] = 244.942473879444,
 			},
 			["versions"] = {
 				["1.6.7"] = true,
 				["1.6.4"] = true,
 				["1.6.3"] = true,
-			},
-			["icon"] = {
-				["minimapPos"] = 244.942473879444,
 			},
 			["reset"] = {
 				["instance"] = 2,
@@ -43,77 +44,17 @@ SkadaDB = {
 			},
 		},
 		["KokonutKrew"] = {
-			["modules"] = {
-				["threatraw"] = true,
-				["ccannounce"] = true,
-			},
-			["windows"] = {
-				{
-					["barheight"] = 16,
-					["background"] = {
-						["borderthickness"] = 0,
-						["height"] = 97.9995574951172,
-						["texture"] = "None",
-					},
-					["y"] = 0,
-					["barfont"] = "ABF",
-					["name"] = "KokonutKrew",
-					["classcolortext"] = true,
-					["point"] = "BOTTOMRIGHT",
-					["barbgcolor"] = {
-						["a"] = 0,
-						["b"] = 0.16078431372549,
-						["g"] = 0.164705882352941,
-						["r"] = 0.137254901960784,
-					},
-					["barcolor"] = {
-						["a"] = 0.18674647808075,
-						["b"] = 0.141176470588235,
-						["g"] = 0.141176470588235,
-						["r"] = 0.125490196078431,
-					},
-					["barfontsize"] = 12,
-					["roleicons"] = true,
-					["mode"] = "Damage",
-					["bartexture"] = "Blizzard Raid Bar",
-					["barwidth"] = 285.000793457031,
-					["x"] = -33.99951171875,
-					["classcolorbars"] = false,
-					["modeincombat"] = "Damage",
-					["title"] = {
-						["textcolor"] = {
-							["a"] = 0,
-							["r"] = 0.901960784313726,
-							["g"] = 0.901960784313726,
-							["b"] = 0.901960784313726,
-						},
-						["color"] = {
-							["a"] = 0,
-							["b"] = 0.8,
-							["g"] = 0.6,
-							["r"] = 0.6,
-						},
-						["fontsize"] = 12,
-						["borderthickness"] = 0,
-						["height"] = 18,
-					},
-				}, -- [1]
-			},
-			["icon"] = {
-				["minimapPos"] = 342.395414173265,
+			["updatefrequency"] = 1,
+			["columns"] = {
+				["Damage_Percent"] = false,
 			},
 			["tooltiprows"] = 10,
+			["showself"] = true,
 			["versions"] = {
 				["1.6.3"] = true,
 				["1.6.4"] = true,
 				["1.6.7"] = true,
 			},
-			["hidedisables"] = false,
-			["reset"] = {
-				["instance"] = 2,
-				["join"] = 2,
-			},
-			["showself"] = true,
 			["autostop"] = true,
 			["themes"] = {
 				{
@@ -1214,16 +1155,76 @@ SkadaDB = {
 					["display"] = "bar",
 				}, -- [9]
 			},
-			["columns"] = {
-				["Damage_Percent"] = false,
+			["modules"] = {
+				["threatraw"] = true,
+				["ccannounce"] = true,
 			},
-			["hidesolo"] = true,
 			["modeclicks"] = {
 				["Enemy damage taken"] = 1,
 				["Damage"] = 6,
 			},
+			["hidesolo"] = true,
 			["setstokeep"] = 20,
-			["updatefrequency"] = 1,
+			["windows"] = {
+				{
+					["barheight"] = 16,
+					["barbgcolor"] = {
+						["a"] = 0,
+						["b"] = 0.16078431372549,
+						["g"] = 0.164705882352941,
+						["r"] = 0.137254901960784,
+					},
+					["barcolor"] = {
+						["a"] = 0.18674647808075,
+						["b"] = 0.141176470588235,
+						["g"] = 0.141176470588235,
+						["r"] = 0.125490196078431,
+					},
+					["barfontsize"] = 12,
+					["roleicons"] = true,
+					["modeincombat"] = "Damage",
+					["bartexture"] = "Blizzard Raid Bar",
+					["barwidth"] = 285.000793457031,
+					["title"] = {
+						["textcolor"] = {
+							["a"] = 0,
+							["r"] = 0.901960784313726,
+							["g"] = 0.901960784313726,
+							["b"] = 0.901960784313726,
+						},
+						["borderthickness"] = 0,
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0.8,
+							["g"] = 0.6,
+							["r"] = 0.6,
+						},
+						["height"] = 18,
+						["fontsize"] = 12,
+					},
+					["background"] = {
+						["height"] = 97.9995574951172,
+						["borderthickness"] = 0,
+						["texture"] = "None",
+					},
+					["y"] = 0,
+					["barfont"] = "ABF",
+					["name"] = "KokonutKrew",
+					["classcolorbars"] = false,
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "Damage",
+					["classcolortext"] = true,
+					["x"] = -33.99951171875,
+				}, -- [1]
+			},
+			["hidedisables"] = false,
+			["icon"] = {
+				["minimapPos"] = 342.395414173265,
+			},
+			["reset"] = {
+				["instance"] = 2,
+				["join"] = 2,
+			},
 		},
 	},
 }

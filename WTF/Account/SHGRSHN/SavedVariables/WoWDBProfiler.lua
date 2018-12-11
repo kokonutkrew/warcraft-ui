@@ -42,6 +42,12 @@ WoWDBProfilerData = {
 			},
 		},
 		["items"] = {
+			[2701] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
 			[2575] = {
 				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
@@ -53,6 +59,13 @@ WoWDBProfilerData = {
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 269,
+			},
+			[28074] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 73,
+				["suffix_id"] = 0,
+				["durability"] = 65,
+				["unique_id"] = 0,
 			},
 			[163418] = {
 				["instance_difficulty_id"] = 28,
@@ -143,6 +156,12 @@ WoWDBProfilerData = {
 				["durability"] = 80,
 				["suffix_id"] = 0,
 			},
+			[27684] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
 			[2976] = {
 				["instance_difficulty_id"] = 26,
 				["upgrade_value"] = 15,
@@ -162,6 +181,12 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["durability"] = 100,
 				["suffix_id"] = 0,
+			},
+			[23417] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[6463] = {
 				["instance_difficulty_id"] = 1,
@@ -208,6 +233,13 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
+			[44364] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 68,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
 			[161674] = {
 				["instance_difficulty_id"] = 56,
 				["upgrade_value"] = 0,
@@ -233,6 +265,13 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 244,
 			},
+			[24828] = {
+				["instance_difficulty_id"] = 28,
+				["upgrade_value"] = 66,
+				["suffix_id"] = 0,
+				["durability"] = 70,
+				["unique_id"] = 0,
+			},
 			[160655] = {
 				["instance_difficulty_id"] = 5,
 				["upgrade_value"] = 0,
@@ -252,6 +291,13 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
+			[24589] = {
+				["instance_difficulty_id"] = 27,
+				["upgrade_value"] = 66,
+				["suffix_id"] = 0,
+				["durability"] = 40,
+				["unique_id"] = 0,
+			},
 			[140192] = {
 				["instance_difficulty_id"] = 11,
 				["upgrade_value"] = 0,
@@ -269,6 +315,13 @@ WoWDBProfilerData = {
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
+			},
+			[36380] = {
+				["instance_difficulty_id"] = 29,
+				["upgrade_value"] = 74,
+				["suffix_id"] = 0,
+				["durability"] = 55,
+				["unique_id"] = 0,
 			},
 			[158075] = {
 				["instance_difficulty_id"] = 11,
@@ -327,6 +380,13 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
+			[112365] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 72,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
 			[12008] = {
 				["instance_difficulty_id"] = 28,
 				["suffix_id"] = 0,
@@ -365,12 +425,25 @@ WoWDBProfilerData = {
 				["durability"] = 75,
 				["suffix_id"] = 0,
 			},
+			[36660] = {
+				["instance_difficulty_id"] = 29,
+				["upgrade_value"] = 70,
+				["suffix_id"] = 0,
+				["durability"] = 75,
+				["unique_id"] = 0,
+			},
 			[147242] = {
 				["instance_difficulty_id"] = 0,
 				["upgrade_value"] = 0,
 				["suffix_id"] = 0,
 				["durability"] = 100,
 				["unique_id"] = 0,
+			},
+			[122359] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[163403] = {
 				["instance_difficulty_id"] = 6,
@@ -440,6 +513,12 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
+			[160651] = {
+				["instance_difficulty_id"] = 3,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
 			[121101] = {
 				["instance_difficulty_id"] = 0,
 				["upgrade_value"] = 106,
@@ -447,12 +526,55 @@ WoWDBProfilerData = {
 				["durability"] = 70,
 				["suffix_id"] = 0,
 			},
+			[27761] = {
+				["instance_difficulty_id"] = 1,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 65,
+			},
 			[160919] = {
 				["instance_difficulty_id"] = 11,
 				["upgrade_value"] = 0,
 				["suffix_id"] = 0,
 				["durability"] = 85,
 				["unique_id"] = 0,
+			},
+			[134731] = {
+				["instance_difficulty_id"] = 7,
+				["upgrade_value"] = 74,
+				["suffix_id"] = 0,
+				["durability"] = 70,
+				["unique_id"] = 0,
+			},
+			[158924] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[160654] = {
+				["instance_difficulty_id"] = 5,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[139427] = {
+				["instance_difficulty_id"] = 14,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[5976] = {
+				["instance_difficulty_id"] = 14,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[122249] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[6574] = {
 				["instance_difficulty_id"] = 29,
@@ -468,6 +590,26 @@ WoWDBProfilerData = {
 				["durability"] = 120,
 				["unique_id"] = 0,
 			},
+			[24666] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+			},
+			[160679] = {
+				["instance_difficulty_id"] = 5,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 120,
+				["suffix_id"] = 0,
+			},
+			[44335] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 74,
+			},
 			[118265] = {
 				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
@@ -480,6 +622,12 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
+			[122377] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
 			[160634] = {
 				["instance_difficulty_id"] = 5,
 				["upgrade_value"] = 0,
@@ -487,11 +635,23 @@ WoWDBProfilerData = {
 				["durability"] = 100,
 				["suffix_id"] = 0,
 			},
+			[122261] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
 			[128306] = {
 				["instance_difficulty_id"] = 9,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 45,
+			},
+			[3683] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[144697] = {
 				["instance_difficulty_id"] = 8,
@@ -514,6 +674,13 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
+			[58922] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 22,
+				["suffix_id"] = 0,
+				["durability"] = 30,
+				["unique_id"] = 0,
+			},
 			[160635] = {
 				["instance_difficulty_id"] = 5,
 				["upgrade_value"] = 0,
@@ -533,6 +700,31 @@ WoWDBProfilerData = {
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
 				["durability"] = 120,
+				["suffix_id"] = 0,
+			},
+			[141419] = {
+				["instance_difficulty_id"] = 3,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 165,
+				["unique_id"] = 0,
+			},
+			[25993] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 71,
+			},
+			[141294] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[160645] = {
+				["instance_difficulty_id"] = 5,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
 			[122378] = {
@@ -561,16 +753,17 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[160651] = {
-				["instance_difficulty_id"] = 3,
+			[160103] = {
+				["instance_difficulty_id"] = 14,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
-			[160645] = {
-				["instance_difficulty_id"] = 5,
+			[160685] = {
+				["instance_difficulty_id"] = 3,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
+				["durability"] = 110,
 				["suffix_id"] = 0,
 			},
 			[21949] = {
@@ -579,17 +772,18 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[160103] = {
-				["instance_difficulty_id"] = 14,
+			[134281] = {
+				["instance_difficulty_id"] = 25,
 				["upgrade_value"] = 0,
-				["unique_id"] = 0,
 				["suffix_id"] = 0,
+				["durability"] = 80,
+				["unique_id"] = 0,
 			},
-			[158924] = {
-				["instance_difficulty_id"] = 11,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
+			[128453] = {
+				["instance_difficulty_id"] = 14,
 				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[4566] = {
 				["instance_difficulty_id"] = 26,
@@ -605,31 +799,27 @@ WoWDBProfilerData = {
 				["durability"] = 120,
 				["suffix_id"] = 0,
 			},
-			[160654] = {
-				["instance_difficulty_id"] = 5,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["suffix_id"] = 0,
-			},
-			[139427] = {
-				["instance_difficulty_id"] = 14,
+			[2562] = {
+				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[161624] = {
-				["instance_difficulty_id"] = 56,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 55,
+			[4576] = {
+				["instance_difficulty_id"] = 28,
+				["upgrade_value"] = 21,
 				["suffix_id"] = 0,
+				["durability"] = 65,
+				["unique_id"] = 0,
 			},
-			[68758] = {
-				["instance_difficulty_id"] = 27,
-				["upgrade_value"] = 15,
+			[32838] = {
+				["durability"] = 130,
+			},
+			[138876] = {
+				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
-				["durability"] = 35,
 				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[141284] = {
 				["instance_difficulty_id"] = 0,
@@ -637,11 +827,11 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
-			[160679] = {
-				["instance_difficulty_id"] = 5,
+			[159452] = {
+				["instance_difficulty_id"] = 35,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
-				["durability"] = 120,
+				["durability"] = 80,
 				["suffix_id"] = 0,
 			},
 			[160638] = {
@@ -665,16 +855,17 @@ WoWDBProfilerData = {
 				["durability"] = 65,
 				["unique_id"] = 0,
 			},
-			[122261] = {
+			[122383] = {
 				["instance_difficulty_id"] = 0,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[141605] = {
-				["instance_difficulty_id"] = 11,
+			[85663] = {
+				["instance_difficulty_id"] = 14,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
+				["durability"] = 20,
 				["suffix_id"] = 0,
 			},
 			[144733] = {
@@ -683,18 +874,19 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[138135] = {
-				["instance_difficulty_id"] = 11,
-				["suffix_id"] = 0,
-				["unique_id"] = 0,
+			[6365] = {
+				["instance_difficulty_id"] = 14,
 				["upgrade_value"] = 0,
-			},
-			[58922] = {
-				["instance_difficulty_id"] = 11,
-				["upgrade_value"] = 22,
 				["suffix_id"] = 0,
-				["durability"] = 30,
+				["durability"] = 25,
 				["unique_id"] = 0,
+			},
+			[160637] = {
+				["instance_difficulty_id"] = 5,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 55,
+				["suffix_id"] = 0,
 			},
 			[160639] = {
 				["instance_difficulty_id"] = 5,
@@ -710,11 +902,11 @@ WoWDBProfilerData = {
 				["durability"] = 80,
 				["suffix_id"] = 0,
 			},
-			[163604] = {
+			[33292] = {
 				["instance_difficulty_id"] = 11,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
 				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[65961] = {
 				["instance_difficulty_id"] = 11,
@@ -723,27 +915,20 @@ WoWDBProfilerData = {
 				["durability"] = 60,
 				["unique_id"] = 0,
 			},
-			[141294] = {
+			[58147] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[163604] = {
 				["instance_difficulty_id"] = 11,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
-			},
-			[141419] = {
-				["instance_difficulty_id"] = 3,
-				["upgrade_value"] = 0,
-				["suffix_id"] = 0,
-				["durability"] = 165,
-				["unique_id"] = 0,
 			},
 			[122364] = {
 				["instance_difficulty_id"] = 0,
-				["suffix_id"] = 0,
-				["unique_id"] = 0,
-				["upgrade_value"] = 0,
-			},
-			[33292] = {
-				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
@@ -754,6 +939,13 @@ WoWDBProfilerData = {
 				["suffix_id"] = 0,
 				["durability"] = 55,
 				["unique_id"] = 0,
+			},
+			[160640] = {
+				["instance_difficulty_id"] = 5,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 80,
+				["suffix_id"] = 0,
 			},
 			[152767] = {
 				["instance_difficulty_id"] = 0,
@@ -769,32 +961,36 @@ WoWDBProfilerData = {
 				["durability"] = 120,
 				["suffix_id"] = 0,
 			},
-			[160637] = {
-				["instance_difficulty_id"] = 5,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 55,
+			[60225] = {
+				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
-			},
-			[160685] = {
-				["instance_difficulty_id"] = 3,
-				["upgrade_value"] = 0,
 				["unique_id"] = 0,
-				["durability"] = 110,
-				["suffix_id"] = 0,
-			},
-			[134281] = {
-				["instance_difficulty_id"] = 25,
 				["upgrade_value"] = 0,
-				["suffix_id"] = 0,
-				["durability"] = 80,
-				["unique_id"] = 0,
 			},
-			[128453] = {
+			[48277] = {
 				["instance_difficulty_id"] = 14,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 100,
+				["suffix_id"] = 0,
+			},
+			[138135] = {
+				["instance_difficulty_id"] = 11,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
+			},
+			[141605] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[45579] = {
+				["instance_difficulty_id"] = 14,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
 			},
 			[160641] = {
 				["instance_difficulty_id"] = 5,
@@ -803,27 +999,25 @@ WoWDBProfilerData = {
 				["durability"] = 100,
 				["suffix_id"] = 0,
 			},
-			[2562] = {
-				["instance_difficulty_id"] = 11,
-				["suffix_id"] = 0,
-				["unique_id"] = 0,
-				["upgrade_value"] = 0,
-			},
-			[32838] = {
-				["durability"] = 130,
-			},
-			[4576] = {
-				["instance_difficulty_id"] = 28,
-				["upgrade_value"] = 21,
-				["suffix_id"] = 0,
-				["durability"] = 65,
-				["unique_id"] = 0,
-			},
 			[152768] = {
 				["instance_difficulty_id"] = 0,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
 				["durability"] = 165,
+				["suffix_id"] = 0,
+			},
+			[68758] = {
+				["instance_difficulty_id"] = 27,
+				["upgrade_value"] = 15,
+				["suffix_id"] = 0,
+				["durability"] = 35,
+				["unique_id"] = 0,
+			},
+			[161624] = {
+				["instance_difficulty_id"] = 56,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 55,
 				["suffix_id"] = 0,
 			},
 			[147254] = {
@@ -839,11 +1033,11 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
-			[85663] = {
-				["instance_difficulty_id"] = 14,
+			[152763] = {
+				["instance_difficulty_id"] = 0,
 				["upgrade_value"] = 0,
 				["unique_id"] = 0,
-				["durability"] = 20,
+				["durability"] = 55,
 				["suffix_id"] = 0,
 			},
 			[140465] = {
@@ -852,30 +1046,32 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["suffix_id"] = 0,
 			},
-			[160640] = {
-				["instance_difficulty_id"] = 5,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 80,
+			[24926] = {
+				["instance_difficulty_id"] = 27,
+				["upgrade_value"] = 64,
 				["suffix_id"] = 0,
-			},
-			[58147] = {
-				["instance_difficulty_id"] = 11,
-				["suffix_id"] = 0,
+				["durability"] = 40,
 				["unique_id"] = 0,
-				["upgrade_value"] = 0,
-			},
-			[60225] = {
-				["instance_difficulty_id"] = 11,
-				["suffix_id"] = 0,
-				["unique_id"] = 0,
-				["upgrade_value"] = 0,
 			},
 			[122668] = {
 				["instance_difficulty_id"] = 0,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
+			},
+			[44339] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 75,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
+			[112351] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 75,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
 			},
 			[8180] = {
 				["instance_difficulty_id"] = 25,
@@ -884,17 +1080,19 @@ WoWDBProfilerData = {
 				["durability"] = 45,
 				["unique_id"] = 0,
 			},
-			[45579] = {
-				["instance_difficulty_id"] = 14,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
+			[24582] = {
+				["instance_difficulty_id"] = 28,
+				["upgrade_value"] = 69,
 				["suffix_id"] = 0,
+				["durability"] = 55,
+				["unique_id"] = 0,
 			},
-			[138876] = {
-				["instance_difficulty_id"] = 11,
+			[36944] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 74,
 				["suffix_id"] = 0,
+				["durability"] = 65,
 				["unique_id"] = 0,
-				["upgrade_value"] = 0,
 			},
 			[122254] = {
 				["instance_difficulty_id"] = 0,
@@ -915,25 +1113,23 @@ WoWDBProfilerData = {
 				["durability"] = 85,
 				["suffix_id"] = 0,
 			},
-			[159452] = {
-				["instance_difficulty_id"] = 35,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 80,
+			[25091] = {
+				["instance_difficulty_id"] = 28,
 				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 67,
 			},
-			[122383] = {
+			[122382] = {
 				["instance_difficulty_id"] = 0,
 				["suffix_id"] = 0,
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[152763] = {
+			[122255] = {
 				["instance_difficulty_id"] = 0,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 55,
 				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
 			},
 			[126685] = {
 				["instance_difficulty_id"] = 7,
@@ -948,12 +1144,11 @@ WoWDBProfilerData = {
 				["unique_id"] = 0,
 				["upgrade_value"] = 0,
 			},
-			[48277] = {
-				["instance_difficulty_id"] = 14,
-				["upgrade_value"] = 0,
-				["unique_id"] = 0,
-				["durability"] = 100,
+			[134743] = {
+				["instance_difficulty_id"] = 7,
 				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 71,
 			},
 		},
 		["npcs"] = {
@@ -1012,6 +1207,17 @@ WoWDBProfilerData = {
 					},
 				},
 			},
+			["684"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[22766] = 1,
+						},
+					},
+				},
+			},
 			["105400"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
@@ -1049,6 +1255,17 @@ WoWDBProfilerData = {
 								},
 								["max_health"] = 31,
 							},
+						},
+					},
+				},
+			},
+			["1713"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[22766] = 4,
 						},
 					},
 				},
@@ -1122,6 +1339,17 @@ WoWDBProfilerData = {
 					},
 				},
 			},
+			["43223"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[83864] = 7,
+						},
+					},
+				},
+			},
 			["61834"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
@@ -1166,6 +1394,30 @@ WoWDBProfilerData = {
 					},
 				},
 			},
+			["6491"] = {
+				["genders"] = {
+					["FEMALE"] = true,
+				},
+				["class"] = "WARRIOR",
+				["reaction"] = "75:Alliance:FRIENDLY",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_60"] = {
+								["locations"] = {
+									["Northern Stranglethorn:50"] = {
+										["3:570:560"] = true,
+									},
+									["The Cape of Stranglethorn:210"] = {
+										["3:496:302"] = true,
+									},
+								},
+								["max_health"] = 3217,
+							},
+						},
+					},
+				},
+			},
 			["1976"] = {
 				["is_pvp"] = true,
 				["genders"] = {
@@ -1197,6 +1449,18 @@ WoWDBProfilerData = {
 						["spells"] = {
 							[45577] = 672,
 							[45587] = 23,
+						},
+					},
+				},
+			},
+			["25445"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[45577] = 51,
+							[6917] = 11,
 						},
 					},
 				},
@@ -1245,47 +1509,13 @@ WoWDBProfilerData = {
 					},
 				},
 			},
-			["30279"] = {
+			["96957"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
 						["spells"] = {
-							[59108] = 1,
+							[79892] = 4,
 						},
 						["stats"] = {
-						},
-					},
-				},
-			},
-			["49799"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["stats"] = {
-						},
-						["spells"] = {
-							[89798] = 1,
-						},
-					},
-				},
-			},
-			["96955"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[48168] = 2,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
-			["25445"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["stats"] = {
-						},
-						["spells"] = {
-							[45577] = 51,
-							[6917] = 11,
 						},
 					},
 				},
@@ -1307,6 +1537,50 @@ WoWDBProfilerData = {
 					},
 				},
 			},
+			["61838"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[86603] = 8,
+						},
+					},
+				},
+			},
+			["96955"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[48168] = 2,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["25450"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[67591] = 1,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["52359"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[96847] = 22,
+						},
+					},
+				},
+			},
 			["116311"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
@@ -1321,11 +1595,11 @@ WoWDBProfilerData = {
 					},
 				},
 			},
-			["96957"] = {
+			["96946"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
 						["spells"] = {
-							[79892] = 4,
+							[79962] = 3,
 						},
 						["stats"] = {
 						},
@@ -1349,6 +1623,103 @@ WoWDBProfilerData = {
 					},
 				},
 				["reaction"] = "120:Alliance:FRIENDLY",
+			},
+			["1488"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[83867] = 7,
+						},
+					},
+				},
+			},
+			["53761"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[96041] = 4,
+						},
+					},
+				},
+			},
+			["96947"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[48168] = 1,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["96841"] = {
+				["is_pvp"] = true,
+				["genders"] = {
+					["FEMALE"] = true,
+				},
+				["faction"] = "Kirin Tor",
+				["class"] = "MAGE",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_110"] = {
+								["power"] = "MANA:533107",
+								["max_health"] = 2192,
+							},
+						},
+					},
+				},
+				["reaction"] = "110:Horde:FRIENDLY",
+			},
+			["101527"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[166302] = 3,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["109751"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[183585] = 4,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["25244"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[45578] = 202,
+							[8599] = 2,
+						},
+					},
+				},
+			},
+			["30279"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[59108] = 1,
+						},
+						["stats"] = {
+						},
+					},
+				},
 			},
 			["104091"] = {
 				["is_pvp"] = true,
@@ -1378,102 +1749,6 @@ WoWDBProfilerData = {
 				["reaction"] = "110:Horde:FRIENDLY",
 				["faction"] = "Kirin Tor",
 			},
-			["53761"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["stats"] = {
-						},
-						["spells"] = {
-							[96041] = 4,
-						},
-					},
-				},
-			},
-			["61838"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["stats"] = {
-						},
-						["spells"] = {
-							[86603] = 8,
-						},
-					},
-				},
-			},
-			["109751"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[183585] = 4,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
-			["101527"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[166302] = 3,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
-			["25450"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[67591] = 1,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
-			["96841"] = {
-				["is_pvp"] = true,
-				["genders"] = {
-					["FEMALE"] = true,
-				},
-				["faction"] = "Kirin Tor",
-				["class"] = "MAGE",
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["stats"] = {
-							["level_110"] = {
-								["power"] = "MANA:533107",
-								["max_health"] = 2192,
-							},
-						},
-					},
-				},
-				["reaction"] = "110:Horde:FRIENDLY",
-			},
-			["96946"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[79962] = 3,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
-			["96947"] = {
-				["encounter_data"] = {
-					["NONE:0:false"] = {
-						["spells"] = {
-							[48168] = 1,
-						},
-						["stats"] = {
-						},
-					},
-				},
-			},
 			["110695"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
@@ -1496,25 +1771,38 @@ WoWDBProfilerData = {
 					},
 				},
 			},
-			["25244"] = {
+			["97518"] = {
+				["reaction"] = "110:Horde:FRIENDLY",
+				["class"] = "PALADIN",
+				["genders"] = {
+					["FEMALE"] = true,
+				},
 				["encounter_data"] = {
 					["NONE:0:false"] = {
 						["stats"] = {
-						},
-						["spells"] = {
-							[45578] = 202,
-							[8599] = 2,
+							["level_105"] = {
+								["max_health"] = 8271,
+								["locations"] = {
+									["Dalaran:627"] = {
+										["4:502:358"] = true,
+										["4:498:344"] = true,
+										["4:496:336"] = true,
+										["4:498:350"] = true,
+									},
+								},
+								["power"] = "MANA:209239",
+							},
 						},
 					},
 				},
 			},
-			["52359"] = {
+			["49799"] = {
 				["encounter_data"] = {
 					["NONE:0:false"] = {
 						["stats"] = {
 						},
 						["spells"] = {
-							[96847] = 22,
+							[89798] = 1,
 						},
 					},
 				},
@@ -1542,26 +1830,27 @@ WoWDBProfilerData = {
 					},
 				},
 			},
-			["97518"] = {
-				["reaction"] = "110:Horde:FRIENDLY",
-				["class"] = "PALADIN",
+			["1152"] = {
 				["genders"] = {
-					["FEMALE"] = true,
+					["UNKNOWN"] = true,
 				},
+				["class"] = "WARRIOR",
+				["reaction"] = "75:Alliance:HOSTILE",
 				["encounter_data"] = {
 					["NONE:0:false"] = {
 						["stats"] = {
-							["level_105"] = {
-								["max_health"] = 8271,
+							["level_60"] = {
 								["locations"] = {
-									["Dalaran:627"] = {
-										["4:496:336"] = true,
-										["4:498:350"] = true,
-										["4:502:358"] = true,
-										["4:498:344"] = true,
+									["Northern Stranglethorn:50"] = {
+										["3:520:404"] = true,
+										["3:520:398"] = true,
+										["3:532:392"] = true,
 									},
 								},
-								["power"] = "MANA:209239",
+								["max_health"] = 2384,
+							},
+							["level_59"] = {
+								["max_health"] = 2320,
 							},
 						},
 					},
@@ -1598,60 +1887,20 @@ WoWDBProfilerData = {
 			},
 		},
 		["quests"] = {
-			[52749] = {
-				["can_share"] = true,
-			},
-			[38862] = {
-			},
-			[53372] = {
-			},
-			[43179] = {
-			},
-			[53162] = {
-			},
-			[48513] = {
-				["can_share"] = true,
-			},
-			[28567] = {
-				["can_share"] = true,
-			},
 			[28490] = {
 				["can_share"] = true,
-			},
-			[48641] = {
-			},
-			[46938] = {
-				["can_share"] = true,
-			},
-			[26787] = {
-				["can_share"] = true,
-			},
-			[26586] = {
-				["can_share"] = true,
-			},
-			[26571] = {
-				["can_share"] = true,
-			},
-			[53153] = {
-			},
-			[53192] = {
-			},
-			[42422] = {
 			},
 			[26728] = {
 				["can_share"] = true,
 			},
-			[53146] = {
-			},
-			[26838] = {
+			[9399] = {
 				["can_share"] = true,
-			},
-			[53179] = {
 			},
 			[53149] = {
 			},
-			[26777] = {
-				["can_share"] = true,
+			[53153] = {
+			},
+			[29826] = {
 			},
 			[11356] = {
 				["classes"] = {
@@ -1663,6 +1912,86 @@ WoWDBProfilerData = {
 				["begin"] = {
 					["NPC:18927"] = true,
 				},
+			},
+			[9372] = {
+				["can_share"] = true,
+			},
+			[38862] = {
+			},
+			[28068] = {
+				["can_share"] = true,
+			},
+			[46938] = {
+				["can_share"] = true,
+			},
+			[48641] = {
+			},
+			[53179] = {
+			},
+			[53372] = {
+			},
+			[42422] = {
+			},
+			[26571] = {
+				["can_share"] = true,
+			},
+			[9383] = {
+			},
+			[53146] = {
+			},
+			[29543] = {
+				["can_share"] = true,
+			},
+			[26586] = {
+				["can_share"] = true,
+			},
+			[13408] = {
+				["can_share"] = true,
+			},
+			[53162] = {
+			},
+			[26838] = {
+				["can_share"] = true,
+			},
+			[28567] = {
+				["can_share"] = true,
+			},
+			[26777] = {
+				["can_share"] = true,
+			},
+			[27471] = {
+				["can_share"] = true,
+			},
+			[10399] = {
+				["can_share"] = true,
+			},
+			[9563] = {
+				["can_share"] = true,
+			},
+			[10400] = {
+				["can_share"] = true,
+			},
+			[9424] = {
+				["can_share"] = true,
+			},
+			[48513] = {
+				["can_share"] = true,
+			},
+			[43179] = {
+			},
+			[10159] = {
+				["can_share"] = true,
+			},
+			[9426] = {
+				["can_share"] = true,
+			},
+			[26787] = {
+				["can_share"] = true,
+			},
+			[52749] = {
+				["can_share"] = true,
+			},
+			[53192] = {
 			},
 		},
 		["world_quests"] = {
@@ -3409,23 +3738,23 @@ WoWDBProfilerData = {
 				},
 				["estimated_end_time"] = 1544281282,
 			},
-			[41691] = {
+			[51636] = {
 				["location"] = {
-					["y"] = 31.4588844776154,
-					["world_map_id"] = 650,
-					["x"] = 41.1349415779114,
+					["y"] = 37.6514077186585,
+					["world_map_id"] = 862,
+					["x"] = 81.8045854568482,
 				},
 				["rewards"] = {
-					["items"] = {
-						"139101:1", -- [1]
-					},
-					["currency_count"] = 0,
-					["item_count"] = 1,
+					["currency_count"] = 1,
+					["item_count"] = 0,
 					["honor"] = 0,
 					["money"] = 0,
 					["xp"] = 0,
+					["currencies"] = {
+						"182:1553", -- [1]
+					},
 				},
-				["estimated_end_time"] = 1544259622,
+				["estimated_end_time"] = 1544238082,
 			},
 			[52879] = {
 				["location"] = {
@@ -3499,23 +3828,23 @@ WoWDBProfilerData = {
 				},
 				["estimated_end_time"] = 1544194868,
 			},
-			[51636] = {
+			[41691] = {
 				["location"] = {
-					["y"] = 37.6514077186585,
-					["world_map_id"] = 862,
-					["x"] = 81.8045854568482,
+					["y"] = 31.4588844776154,
+					["world_map_id"] = 650,
+					["x"] = 41.1349415779114,
 				},
 				["rewards"] = {
-					["currency_count"] = 1,
-					["item_count"] = 0,
+					["items"] = {
+						"139101:1", -- [1]
+					},
+					["currency_count"] = 0,
+					["item_count"] = 1,
 					["honor"] = 0,
 					["money"] = 0,
 					["xp"] = 0,
-					["currencies"] = {
-						"182:1553", -- [1]
-					},
 				},
-				["estimated_end_time"] = 1544238082,
+				["estimated_end_time"] = 1544259622,
 			},
 			[52873] = {
 				["location"] = {

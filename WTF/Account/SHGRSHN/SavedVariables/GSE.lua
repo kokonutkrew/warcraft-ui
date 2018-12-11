@@ -76,10 +76,10 @@ GSEOptions = {
 		["MiddleButton"] = false,
 	},
 	["filterList"] = {
-		["Class"] = true,
-		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["UseVerboseExportFormat"] = false,
@@ -112,8 +112,6 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -142,6 +140,8 @@ GSELibrary = {
 					["Trinket1"] = true,
 				}, -- [1]
 			},
+			["SpecID"] = 70,
+			["Author"] = "Samoantitan@Stormrage",
 			["ManualIntervention"] = true,
 		},
 		["BFA_RET_AOE"] = {
@@ -149,6 +149,7 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -180,7 +181,6 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["ManualIntervention"] = true,
 		},
 	}, -- [2]
@@ -190,7 +190,6 @@ GSELibrary = {
 		["SAM_OUTLAW"] = {
 			["Talents"] = "2222231",
 			["Default"] = 1,
-			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast 8676", -- [1]
@@ -220,6 +219,7 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
+			["SpecID"] = 260,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -227,7 +227,6 @@ GSELibrary = {
 			["Help"] = "Sample Assination Macro",
 			["Talents"] = "2222212",
 			["Default"] = 1,
-			["SpecID"] = 259,
 			["MacroVersions"] = {
 				{
 					"/cast 1329", -- [1]
@@ -251,13 +250,13 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
+			["SpecID"] = 259,
 			["Icon"] = "Ability_Rogue_DeadlyBrew",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SUB"] = {
 			["Talents"] = "3113213",
 			["Default"] = 1,
-			["SpecID"] = 261,
 			["MacroVersions"] = {
 				{
 					"/castsequence [form:1/2/3] 185438", -- [1]
@@ -282,14 +281,22 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "Cymiryc",
+			["SpecID"] = 261,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 	}, -- [4]
+	nil, -- [5]
+	{
+	}, -- [6]
+	[0] = {
+	},
 	[11] = {
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
+			["Author"] = "Ed",
+			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -339,8 +346,6 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "Ed",
-			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -348,6 +353,8 @@ GSELibrary = {
 			["Default"] = 1,
 			["Talents"] = "2332213",
 			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -375,8 +382,6 @@ GSELibrary = {
 					["Trinket1"] = true,
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -420,7 +425,5 @@ GSELibrary = {
 			},
 			["ManualIntervention"] = false,
 		},
-	},
-	[0] = {
 	},
 }

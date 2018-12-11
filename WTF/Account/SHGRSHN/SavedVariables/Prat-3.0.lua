@@ -9,6 +9,12 @@ Prat3DB = {
 		},
 		["Prat_Frames"] = {
 			["profiles"] = {
+				["Default"] = {
+					["minchatwidthdefault"] = 296,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.000061035156,
+					["initialized"] = true,
+				},
 				["KokonutKrew"] = {
 					["minchatwidthdefault"] = 296,
 					["maxchatheightdefault"] = 400,
@@ -98,10 +104,12 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Kakattack - Stormrage"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["KokonutKrew"] = {
+		["Default"] = {
 			["modules"] = {
 				["Alias"] = 2,
 				["PopupMessage"] = 2,
@@ -111,6 +119,18 @@ Prat3DB = {
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
 				["ChatLog"] = 2,
+			},
+		},
+		["KokonutKrew"] = {
+			["modules"] = {
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
+				["Alias"] = 2,
+				["OriginalButtons"] = 2,
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
+				["ChatLog"] = 2,
+				["KeyBindings"] = 2,
 			},
 		},
 	},

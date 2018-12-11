@@ -5,6 +5,7 @@ DataStore_StatsDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -24,7 +25,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544054370,
+				["lastUpdate"] = 1544408180,
 				["Stats"] = {
 					["Ranged"] = "123-124|0|417|0|23.543060302734",
 					["HealthMax"] = 7922,
@@ -62,19 +63,6 @@ DataStore_StatsDB = {
 					["Spell"] = "2779|2779|0|25.765851974487|446|2070",
 				},
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622617,
-				["Stats"] = {
-					["Ranged"] = "1-1|0|0|0|5",
-					["HealthMax"] = 168,
-					["Melee"] = "7-8|2|20|0|5|0",
-					["MaxPower"] = "1|100",
-					["Defense"] = "0|0|3|4.2468829154968|10|0",
-					["PVP"] = "0|0",
-					["Base"] = "20|9|21|13|0",
-					["Spell"] = "13|13|0|5|0|0",
-				},
-			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167322,
 				["Stats"] = {
@@ -86,6 +74,32 @@ DataStore_StatsDB = {
 					["PVP"] = "7|0",
 					["Base"] = "223|790|966|295|0",
 					["Spell"] = "295|295|0|18.511686325073|177|0",
+				},
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472622,
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|18.438903808594",
+					["HealthMax"] = 7125,
+					["Melee"] = "202-223|3.6000001430511|287|0|18.438903808594|3",
+					["MaxPower"] = "6|115",
+					["Spell"] = "70|70|0|18.438903808594|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "287|109|475|70|0",
+					["Defense"] = "0|0|3|9.6773471832275|0|0",
+				},
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["lastUpdate"] = 1540622617,
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|5",
+					["HealthMax"] = 168,
+					["Melee"] = "7-8|2|20|0|5|0",
+					["MaxPower"] = "1|100",
+					["Defense"] = "0|0|3|4.2468829154968|10|0",
+					["PVP"] = "0|0",
+					["Base"] = "20|9|21|13|0",
+					["Spell"] = "13|13|0|5|0|0",
 				},
 			},
 		},

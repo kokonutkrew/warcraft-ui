@@ -5,6 +5,7 @@ DataStore_PetsDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -76,7 +77,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544054367,
+				["lastUpdate"] = 1544408175,
 				["CRITTER"] = {
 					10680, -- [1]
 					10684, -- [2]
@@ -123,14 +124,17 @@ DataStore_PetsDB = {
 					229097, -- [9]
 				},
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622532,
-			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167317,
 				["CRITTER"] = {
 					169695, -- [1]
 				},
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472652,
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["lastUpdate"] = 1540622532,
 			},
 		},
 	},

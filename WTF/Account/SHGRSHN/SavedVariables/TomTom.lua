@@ -5,6 +5,7 @@ TomTomDB = {
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -31,6 +32,7 @@ TomTomWaypointsM = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -46,6 +48,8 @@ TomTomWaypointsM = {
 		["Wealthgaming - Emerald Dream"] = {
 		},
 		["Samoansage - Tichondrius"] = {
+		},
+		["Kakattack - Stormrage"] = {
 		},
 	},
 }

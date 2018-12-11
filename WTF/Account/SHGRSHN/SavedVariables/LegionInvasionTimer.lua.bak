@@ -5,6 +5,7 @@ LegionInvasionTimerDB = {
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -18,15 +19,15 @@ LegionInvasionTimerDB = {
 			},
 		},
 		["KokonutKrew"] = {
-			["tooltip12hr"] = true,
-			["lock"] = true,
-			["mode"] = 3,
 			["position"] = {
 				"BOTTOM", -- [1]
 				"BOTTOM", -- [2]
 				2.9999566078186, -- [3]
 				52.4999313354492, -- [4]
 			},
+			["mode"] = 3,
+			["lock"] = true,
+			["tooltip12hr"] = true,
 		},
 	},
 }

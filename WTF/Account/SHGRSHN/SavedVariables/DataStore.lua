@@ -5,6 +5,7 @@ DataStoreDB = {
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -41,11 +42,14 @@ DataStoreDB = {
 				["guildName"] = "Driven",
 				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["faction"] = "Horde",
-			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["guildName"] = "Wealth",
+				["faction"] = "Horde",
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
 				["faction"] = "Horde",
 			},
 		},

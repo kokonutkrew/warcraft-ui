@@ -1,0 +1,155 @@
+BINDINGMODE 0
+bind BUTTON3 TOGGLEAUTORUN
+bind UP CLICK RazerNagaActionButton17:LeftButton
+bind DOWN CLICK RazerNagaActionButton23:LeftButton
+bind A STRAFELEFT
+bind LEFT CLICK RazerNagaActionButton19:LeftButton
+bind D STRAFERIGHT
+bind RIGHT CLICK RazerNagaActionButton21:LeftButton
+bind Q CLICK BT4Button37:LeftButton
+bind E CLICK BT4Button38:LeftButton
+bind NUMPAD0 NONE
+bind BUTTON4 CLICK BT4Button48:LeftButton
+bind INSERT CHATPAGEUP
+bind DELETE CHATPAGEDOWN
+bind NUMPADDIVIDE NONE
+bind PAGEUP CLICK RazerNagaActionButton18:LeftButton
+bind PAGEDOWN CLICK RazerNagaActionButton24:LeftButton
+bind CTRL-1 CLICK BT4Button25:LeftButton
+bind CTRL-2 CLICK BT4Button26:LeftButton
+bind CTRL-3 CLICK BT4Button27:LeftButton
+bind CTRL-4 CLICK BT4Button28:LeftButton
+bind CTRL-5 CLICK BT4Button29:LeftButton
+bind CTRL-6 CLICK BT4Button30:LeftButton
+bind CTRL-7 CLICK BT4Button31:LeftButton
+bind CTRL-8 CLICK BT4Button32:LeftButton
+bind CTRL-9 CLICK BT4Button33:LeftButton
+bind CTRL-0 CLICK BT4Button34:LeftButton
+bind SHIFT-1 CLICK BT4Button61:LeftButton
+bind SHIFT-2 CLICK BT4Button62:LeftButton
+bind SHIFT-3 CLICK BT4Button63:LeftButton
+bind SHIFT-4 CLICK BT4Button64:LeftButton
+bind SHIFT-5 CLICK BT4Button65:LeftButton
+bind SHIFT-6 CLICK BT4Button66:LeftButton
+bind SHIFT-UP NONE
+bind SHIFT-MOUSEWHEELUP CLICK BT4Button41:LeftButton
+bind SHIFT-DOWN NONE
+bind SHIFT-MOUSEWHEELDOWN CLICK BT4Button42:LeftButton
+bind SHIFT-T TOGGLECHATTAB
+bind F10 FLIPCAMERAYAW
+bind F11 CAMERAZOOMOUT
+bind F12 CAMERAZOOMIN
+bind SHIFT-SPACE CLICK BT4Button45:LeftButton
+bind NUMPADPLUS CLICK RazerNagaActionButton51:LeftButton
+bind NUMPADMINUS NONE
+bind CTRL-= CLICK BT4Button36:LeftButton
+bind CTRL-- CLICK BT4Button35:LeftButton
+bind MOUSEWHEELUP CLICK BT4Button39:LeftButton
+bind MOUSEWHEELDOWN CLICK BT4Button40:LeftButton
+bind END CLICK RazerNagaActionButton22:LeftButton
+bind HOME CLICK RazerNagaActionButton16:LeftButton
+bind ALT-B TOGGLEFARMHUDBACKGROUND
+bind NUMPAD5 ACTIONPAGE5
+bind NUMPAD1 NONE
+bind NUMPAD3 ACTIONPAGE3
+bind CTRL-MOUSEWHEELUP CAMERAZOOMIN
+bind CTRL-MOUSEWHEELDOWN CAMERAZOOMOUT
+bind T NONE
+bind ` Toggle Chat (Both)
+bind NUMPAD7 NONE
+bind NUMPAD8 NONE
+bind NUMPAD9 NONE
+bind NUMPAD4 ACTIONPAGE4
+bind NUMPAD6 ACTIONPAGE6
+bind NUMPAD2 ACTIONPAGE2
+bind NUMPADDECIMAL CLICK RazerNagaActionButton50:LeftButton
+bind NUMPADMULTIPLY NONE
+bind BUTTON5 CLICK BT4Button47:LeftButton
+bind SHIFT-7 CLICK BT4Button67:LeftButton
+bind SHIFT-8 CLICK BT4Button68:LeftButton
+bind SHIFT-9 CLICK BT4Button69:LeftButton
+bind SHIFT-0 CLICK BT4Button70:LeftButton
+bind SHIFT-- CLICK BT4Button71:LeftButton
+bind SHIFT-= CLICK BT4Button72:LeftButton
+bind ALT-` NONE
+bind \ TOGGLERUN
+bind ] STRAFERIGHT
+bind SHIFT-NUMPADDIVIDE CLICK RazerNagaActionButton13:LeftButton
+bind SHIFT-NUMPADMULTIPLY CLICK RazerNagaActionButton14:LeftButton
+bind SHIFT-NUMPADMINUS CLICK RazerNagaActionButton15:LeftButton
+bind ALT-UP PREVIOUSACTIONPAGE
+bind ALT-DOWN NEXTACTIONPAGE
+bind [ STRAFELEFT
+bind ALT-NUMPADDIVIDE NONE
+bind ALT-NUMPAD7 NONE
+bind ALT-NUMPAD8 NONE
+bind ALT-NUMPAD1 NONE
+bind ALT-1 CLICK BT4Button55:LeftButton
+bind ALT-NUMPADMULTIPLY NONE
+bind ALT-NUMPADMINUS NONE
+bind ALT-NUMPAD9 NONE
+bind ALT-NUMPAD4 NONE
+bind ALT-NUMPAD5 NONE
+bind ALT-NUMPAD6 NONE
+bind ALT-NUMPAD2 NONE
+bind ALT-NUMPAD3 NONE
+bind CTRL-NUMPADDIVIDE CLICK RazerNagaActionButton37:LeftButton
+bind CTRL-NUMPADMULTIPLY CLICK RazerNagaActionButton38:LeftButton
+bind CTRL-NUMPADMINUS CLICK RazerNagaActionButton39:LeftButton
+bind CTRL-NUMPAD7 CLICK RazerNagaActionButton40:LeftButton
+bind CTRL-NUMPAD8 CLICK RazerNagaActionButton41:LeftButton
+bind CTRL-NUMPAD9 CLICK RazerNagaActionButton42:LeftButton
+bind CTRL-NUMPAD4 CLICK RazerNagaActionButton43:LeftButton
+bind CTRL-NUMPAD5 CLICK RazerNagaActionButton44:LeftButton
+bind CTRL-NUMPAD6 CLICK RazerNagaActionButton45:LeftButton
+bind CTRL-NUMPAD1 CLICK RazerNagaActionButton46:LeftButton
+bind CTRL-NUMPAD2 CLICK RazerNagaActionButton47:LeftButton
+bind CTRL-NUMPAD3 CLICK RazerNagaActionButton48:LeftButton
+bind CTRL-SHIFT-I CLICK WoWPro_FauxItemButton:LeftButton
+bind CTRL-SHIFT-T CLICK WoWPro_FauxTargetButton:LeftButton
+bind ALT-2 CLICK BT4Button56:LeftButton
+bind ALT-3 CLICK BT4Button57:LeftButton
+bind ALT-4 CLICK BT4Button58:LeftButton
+bind ALT-5 CLICK BT4Button59:LeftButton
+bind ALT-6 CLICK BT4Button60:LeftButton
+bind ALT-7 CLICK BT4Button49:LeftButton
+bind ALT-8 CLICK BT4Button50:LeftButton
+bind ALT-9 CLICK BT4Button51:LeftButton
+bind ALT-MOUSEWHEELUP CLICK BT4Button43:LeftButton
+bind ALT-MOUSEWHEELDOWN CLICK BT4Button44:LeftButton
+bind SHIFT-BUTTON5 NONE
+bind SHIFT-BUTTON4 EXTRAACTIONBUTTON1
+bind ALT-BUTTON5 NONE
+bind ALT-BUTTON4 VEHICLEEXIT
+bind ALT-0 CLICK BT4Button52:LeftButton
+bind ALT-- CLICK BT4Button53:LeftButton
+bind ALT-= CLICK BT4Button54:LeftButton
+bind CTRL-BUTTON5 NONE
+bind ALT-Q NONE
+bind ALT-E NONE
+bind CTRL-SPACE CLICK BT4Button46:LeftButton
+bind CTRL-BUTTON4 NONE
+bind ALT-CTRL-1 RAIDTARGET8
+bind ALT-CTRL-2 RAIDTARGET7
+bind ALT-CTRL-3 RAIDTARGET6
+bind ALT-CTRL-4 RAIDTARGET5
+bind ALT-CTRL-5 RAIDTARGET4
+bind ALT-CTRL-6 RAIDTARGET3
+bind ALT-CTRL-7 RAIDTARGET2
+bind ALT-CTRL-8 RAIDTARGET1
+bind ALT-CTRL-9 RAIDTARGETNONE
+bind ALT-M NONE
+bind ALT-N TOGGLEFARMHUDMOUSE
+bind CTRL-SHIFT-MOUSEWHEELUP NONE
+bind ALT-CTRL-SHIFT-1 CLICK BT4Button13:LeftButton
+bind ALT-CTRL-SHIFT-2 CLICK BT4Button14:LeftButton
+bind ALT-CTRL-SHIFT-3 CLICK BT4Button15:LeftButton
+bind ALT-CTRL-SHIFT-4 CLICK BT4Button16:LeftButton
+bind ALT-CTRL-SHIFT-5 CLICK BT4Button17:LeftButton
+bind ALT-CTRL-SHIFT-6 CLICK BT4Button18:LeftButton
+bind ALT-CTRL-SHIFT-7 CLICK BT4Button19:LeftButton
+bind ALT-CTRL-SHIFT-8 CLICK BT4Button20:LeftButton
+bind ALT-CTRL-SHIFT-9 CLICK BT4Button21:LeftButton
+bind ALT-CTRL-SHIFT-0 CLICK BT4Button22:LeftButton
+bind ALT-CTRL-SHIFT-- CLICK BT4Button23:LeftButton
+bind ALT-CTRL-SHIFT-= CLICK BT4Button24:LeftButton

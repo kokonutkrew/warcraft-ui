@@ -1,0 +1,23 @@
+
+PhanxChatDB = {
+	["FontSize"] = 14,
+	["ReplaceRealNames"] = true,
+	["HideRepeats"] = true,
+	["EnableResizeEdges"] = true,
+	["ShowClassColors"] = false,
+	["HideButtons"] = true,
+	["FadeTime"] = 0.25,
+	["HideNotices"] = false,
+	["RemoveRealmNames"] = true,
+	["ShortenChannelNames"] = true,
+	["MoveEditBox"] = true,
+	["EnableArrows"] = true,
+	["LinkURLs"] = true,
+	["ShortenRealNames"] = "BATTLETAG",
+	["LineSpacing"] = 0,
+	["EnableSticky"] = "ALL",
+	["HideFlash"] = false,
+	["HidePetCombatLog"] = true,
+	["HideTextures"] = true,
+	["LockTabs"] = true,
+}

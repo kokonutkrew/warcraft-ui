@@ -1,0 +1,15 @@
+Version: 1
+Frame: WoWPro.MainFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -17
+Y: 240
+W: 235
+H: 87
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 1
+Y: -233
+W: 400
+H: 140

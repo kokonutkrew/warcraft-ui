@@ -1,0 +1,31 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Samoanrouge"] = {
+				["XPMax"] = 400,
+				["played"] = 4571,
+				["playedThisLevel"] = 4571,
+				["isResting"] = false,
+				["lastUpdate"] = 1544576938,
+				["class"] = "Rogue",
+				["race"] = "Human",
+				["level"] = 1,
+				["XP"] = 124,
+				["RestXP"] = 16,
+				["money"] = 1,
+				["gender"] = 2,
+				["englishClass"] = "ROGUE",
+				["name"] = "Samoanrouge",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["zone"] = "Northshire",
+				["lastLogoutTimestamp"] = 1544576938,
+				["subZone"] = "Northshire Valley",
+			},
+		},
+	},
+}

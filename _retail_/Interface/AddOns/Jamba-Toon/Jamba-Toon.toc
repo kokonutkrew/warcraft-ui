@@ -1,0 +1,14 @@
+## Interface: 80000
+## Title: JambaToon
+## Notes: JambaToon
+## Author: Jabberie Former Author: Ebony, Jafula
+## Version: Release-8.0.1(6.0.3)
+## X-Category: Interface Enhancements
+## X-Child-Of: Jamba
+## Dependencies: Jamba
+## SavedVariables: JambaToonProfileDB
+## LoadOnDemand: 1
+Locales\Locales.xml
+JambaToon.lua
+
+

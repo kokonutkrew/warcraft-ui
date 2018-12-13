@@ -1,0 +1,19 @@
+
+JambaDisplayTeamProfileDB = {
+	["profileKeys"] = {
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoantank - Tichondrius"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoantitan - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoantitan - Stormrage"] = {
+			["teamListTitleHeight"] = 0,
+		},
+	},
+}

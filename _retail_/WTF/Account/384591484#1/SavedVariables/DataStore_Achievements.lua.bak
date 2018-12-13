@@ -1,0 +1,36 @@
+
+DataStore_AchievementsDB = {
+	["profileKeys"] = {
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Samoanrouge"] = {
+				["Partial"] = {
+					[776] = "1",
+				},
+				["lastUpdate"] = 1544576666,
+			},
+		},
+		["Account"] = {
+			["Partial"] = {
+				[10686] = 1,
+				[10690] = 1,
+				[10692] = 1,
+				[10681] = 1,
+				[10687] = 1,
+				[10689] = 6,
+				[10691] = 1,
+				[15] = 1,
+				[2141] = 2,
+			},
+			["CompletionDates"] = {
+				[1017] = "11:26:18",
+			},
+			["Completed"] = {
+				[32] = 33554432,
+			},
+			["lastUpdate"] = 1544576666,
+		},
+	},
+}

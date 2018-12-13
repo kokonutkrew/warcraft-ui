@@ -1,0 +1,5 @@
+12/12/2018 18:48:31: The app_new folder doesn't exit!
+12/12/2018 18:48:31: Traceback (most recent call last):
+  File "updater/main.py", line 64, in run
+SystemExit: 1
+

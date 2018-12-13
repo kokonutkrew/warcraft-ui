@@ -1,0 +1,14 @@
+## Interface: 70300
+## Title: zbGuildManager
+## Notes: Manages main/alts relationships
+## Author: jtrack3d
+## Version: 1.1d Release
+## X-Category: Interface Enhancements
+## SavedVariables: ZbGmOptions, ZbGmHistoryDB
+
+embeds.xml
+locale.xml
+
+zbGuildManager.xml
+Roster.lua
+zbGuildManager.lua

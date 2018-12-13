@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "BFA_RET" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BFA_RET RightButton; [button:3] BFA_RET MiddleButton; [button:4] BFA_RET Button4; [button:5] BFA_RET Button5; BFA_RET
+END
+VER 3 0100000000000002 "BFA_RET_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BFA_RET_AOE RightButton; [button:3] BFA_RET_AOE MiddleButton; [button:4] BFA_RET_AOE Button4; [button:5] BFA_RET_AOE Button5; BFA_RET_AOE
+END

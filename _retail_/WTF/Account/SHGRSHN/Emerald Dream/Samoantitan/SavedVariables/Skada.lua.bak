@@ -1,0 +1,506 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["auras"] = {
+		},
+		["ccbreaks"] = 0,
+		["time"] = 16,
+		["interrupts"] = 0,
+		["damage"] = 24,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "PALADIN",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 8,
+				["interrupts"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 24,
+				["damagespells"] = {
+					["Attack"] = {
+						["hitmin"] = 4,
+						["id"] = 6603,
+						["min"] = 4,
+						["hitamount"] = 24,
+						["hitmax"] = 5,
+						["hit"] = 5,
+						["school"] = 1,
+						["max"] = 5,
+						["totalhits"] = 5,
+						["damage"] = 24,
+					},
+				},
+				["damagetaken"] = 35,
+				["healed"] = {
+				},
+				["power"] = {
+				},
+				["id"] = "Player-162-08DD39BF",
+				["healing"] = 0,
+				["deathlog"] = {
+					{
+						["ts"] = 1544576858.201,
+						["amount"] = -5,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 153,
+					}, -- [1]
+					{
+						["ts"] = 1544576859.157,
+						["amount"] = -2,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 148,
+					}, -- [2]
+					{
+						["ts"] = 1544576860.188,
+						["amount"] = -5,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 146,
+					}, -- [3]
+					{
+						["ts"] = 1544576861.221,
+						["amount"] = -2,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 141,
+					}, -- [4]
+					{
+						["ts"] = 1544576862.155,
+						["amount"] = -5,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 139,
+					}, -- [5]
+					{
+						["ts"] = 1544576863.188,
+						["amount"] = -2,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 134,
+					}, -- [6]
+					{
+						["ts"] = 1544576864.188,
+						["amount"] = -5,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Spy",
+						["hp"] = 132,
+					}, -- [7]
+					{
+						["ts"] = 1544628181.192,
+						["amount"] = -5,
+						["hp"] = 153,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Worg",
+					}, -- [8]
+					{
+						["ts"] = 1544628183.265,
+						["amount"] = -4,
+						["hp"] = 148,
+						["spellid"] = 88163,
+						["srcname"] = "Blackrock Worg",
+					}, -- [9]
+					["pos"] = 10,
+				},
+				["damagetakenspells"] = {
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 2,
+						["school"] = 1,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 9,
+						["resisted"] = 0,
+						["max"] = 5,
+						["damage"] = 35,
+					},
+				},
+				["overhealing"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["name"] = "Samoantitan",
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["maxhp"] = 153,
+				["auras"] = {
+				},
+				["ccbreaks"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Blackrock Worg"] = {
+				["players"] = {
+					["Samoantitan"] = {
+						["taken"] = 5,
+						["done"] = 9,
+						["role"] = "NONE",
+						["class"] = "PALADIN",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 5,
+				["done"] = 9,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Stormwind Infantry"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Renew"] = {
+						["min"] = 2,
+						["crits"] = 0,
+						["max"] = 2,
+						["healing"] = 4,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 4,
+				["hdonespell"] = {
+				},
+			},
+			["Blackrock Spy"] = {
+				["players"] = {
+					["Samoantitan"] = {
+						["taken"] = 19,
+						["done"] = 26,
+						["role"] = "NONE",
+						["class"] = "PALADIN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 26,
+				["taken"] = 19,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Brother Paxton"] = {
+				["players"] = {
+				},
+				["hdone"] = 4,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Renew"] = {
+						["min"] = 2,
+						["crits"] = 0,
+						["max"] = 2,
+						["healing"] = 4,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+		},
+		["mobtaken"] = 24,
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["damagetaken"] = 35,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["starttime"] = 1544576806,
+		["name"] = "Total",
+		["dispells"] = 0,
+		["power"] = {
+		},
+		["mobhdone"] = 4,
+		["last_action"] = 1544576806,
+		["mobdone"] = 35,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 6,
+			["interrupts"] = 0,
+			["endtime"] = 1544628186,
+			["dispells"] = 0,
+			["damage"] = 5,
+			["players"] = {
+				{
+					["last"] = 1544628183,
+					["healingabsorbed"] = 0,
+					["class"] = "PALADIN",
+					["damaged"] = {
+						["Blackrock Worg"] = 5,
+					},
+					["dispells"] = 0,
+					["role"] = "NONE",
+					["time"] = 2,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 5,
+					["damagespells"] = {
+						["Attack"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["min"] = 5,
+							["hitamount"] = 5,
+							["hitmax"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 5,
+							["totalhits"] = 1,
+							["damage"] = 5,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-162-08DD39BF",
+					["first"] = 1544628181,
+					["damagetaken"] = 9,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["min"] = 4,
+							["school"] = 1,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 5,
+							["damage"] = 9,
+						},
+					},
+					["maxhp"] = 153,
+					["overhealing"] = 0,
+					["name"] = "Samoantitan",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Blackrock Worg"] = {
+					["players"] = {
+						["Samoantitan"] = {
+							["taken"] = 5,
+							["done"] = 9,
+							["role"] = "NONE",
+							["class"] = "PALADIN",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 5,
+					["done"] = 9,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 5,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 9,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1544628180,
+			["name"] = "Blackrock Worg",
+			["mobname"] = "Blackrock Worg",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1544628180,
+			["mobdone"] = 9,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 10,
+			["interrupts"] = 0,
+			["endtime"] = 1544576865,
+			["dispells"] = 0,
+			["damage"] = 19,
+			["players"] = {
+				{
+					["last"] = 1544576863,
+					["healingabsorbed"] = 0,
+					["class"] = "PALADIN",
+					["damaged"] = {
+						["Blackrock Spy"] = 19,
+					},
+					["dispells"] = 0,
+					["role"] = "NONE",
+					["time"] = 6,
+					["interrupts"] = 0,
+					["ffdamagedonespells"] = {
+					},
+					["ffdamagedone"] = 0,
+					["damage"] = 19,
+					["damagespells"] = {
+						["Attack"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["min"] = 4,
+							["hitamount"] = 19,
+							["hitmax"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["max"] = 5,
+							["totalhits"] = 4,
+							["damage"] = 19,
+						},
+					},
+					["damagetaken"] = 26,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-162-08DD39BF",
+					["healing"] = 0,
+					["maxhp"] = 153,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 2,
+							["school"] = 1,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 7,
+							["resisted"] = 0,
+							["max"] = 5,
+							["damage"] = 26,
+						},
+					},
+					["overhealing"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["name"] = "Samoantitan",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["first"] = 1544576857,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Stormwind Infantry"] = {
+					["players"] = {
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 0,
+					["htakenspell"] = {
+						["Renew"] = {
+							["min"] = 2,
+							["crits"] = 0,
+							["max"] = 2,
+							["healing"] = 4,
+							["overhealing"] = 0,
+							["hits"] = 2,
+						},
+					},
+					["htaken"] = 4,
+					["hdonespell"] = {
+					},
+				},
+				["Blackrock Spy"] = {
+					["players"] = {
+						["Samoantitan"] = {
+							["taken"] = 19,
+							["done"] = 26,
+							["role"] = "NONE",
+							["class"] = "PALADIN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 26,
+					["taken"] = 19,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Brother Paxton"] = {
+					["players"] = {
+					},
+					["hdone"] = 4,
+					["done"] = 0,
+					["taken"] = 0,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+						["Renew"] = {
+							["min"] = 2,
+							["crits"] = 0,
+							["max"] = 2,
+							["healing"] = 4,
+							["overhealing"] = 0,
+							["hits"] = 2,
+						},
+					},
+				},
+			},
+			["mobtaken"] = 19,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 26,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1544576855,
+			["name"] = "Blackrock Spy",
+			["mobname"] = "Blackrock Spy",
+			["power"] = {
+			},
+			["mobhdone"] = 4,
+			["last_action"] = 1544576855,
+			["mobdone"] = 26,
+		}, -- [2]
+	},
+}

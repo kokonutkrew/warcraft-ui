@@ -1,0 +1,16 @@
+
+JambaQuestProfileDB = {
+	["profileKeys"] = {
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoantank - Tichondrius"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+	},
+}

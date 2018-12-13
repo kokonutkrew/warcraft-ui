@@ -1,0 +1,16 @@
+VER 3 0100000000000020 "Follow [FF]" "Ability_Rogue_Sprint"
+/script SendChatMessage("!ff_follow", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000014 "Hand of Ragnaros" "INV_HAMMER_UNIQUE_SULFURAS.BLP"
+/equipset [equipped:Two-Handed Maces] Prot;
+/equipset [equipped:Shield] Hand of Ragnaros;
+END
+VER 3 0100000000000011 "xDivineShield" "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Shield
+/stopcasting
+/cast [@Player] Divine Shield
+/cancelaura Divine Shield
+END
+VER 3 0100000000000021 "xxxMarty" "1360762"
+/castsequence [@mouseover,help,nodead][@player] Light of the Martyr
+END

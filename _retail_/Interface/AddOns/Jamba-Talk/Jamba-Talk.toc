@@ -1,0 +1,14 @@
+## Interface: 80000
+## Title: JambaTalk
+## Notes: JambaTalk
+## Author: Jabberie Former Author: Ebony, Jafula
+## Version: Release-8.0.1(6.0.3)
+## X-Category: Interface Enhancements
+## X-Child-Of: Jamba
+## Dependencies: Jamba
+## SavedVariables: JambaTalkProfileDB
+## LoadOnDemand: 1
+Locales\Locales.xml
+JambaTalk.lua
+
+

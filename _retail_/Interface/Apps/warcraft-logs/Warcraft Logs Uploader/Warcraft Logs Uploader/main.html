@@ -1,0 +1,187 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=900">
+	<link type="text/css" href="/css/global.css" rel="stylesheet" />
+	<script src="libs/applicationupdater_ui.swf" type="application/x-shockwave-flash"/>
+	<script type="application/x-shockwave-flash" src="libs/fzip.swf"></script>
+	<script src="AIRAliases.js"></script>
+	<script src="parser.js"></script>
+	<script src="main.js"></script>
+	</head>
+<body onload="fillInLoginForm()">
+	<div id="background"></div>
+
+<div id="header-bar">
+<span id="home-link" class="left bar-item" href="#" onclick="goHome()">Home</span>
+<span id="logout-link" class="right bar-item" style="display:none" href="#" onclick="logout()">Log Out</span>
+<span id="patreon-link" class="right bar-item" onclick="goToPatreon()">Donate</span>
+<div style="clear:both"></div>
+</div>
+<div id="content">
+	
+<div id="debug-panel" style="display:none">
+<input id="panel-button" type=button value="Close Panel" onclick="document.getElementById('debug-panel').style.display = 'none'">
+<div id="inner-debug-panel"></div>
+</div>
+
+<div id="logo-font">
+		     <img id="logoimage" src="/img/header-logo.png">	
+		  
+<span id="title-top"><span id="title-top-first">
+WARCRAFT
+</span> <span id="title-top-second">LOGS
+</span></span>
+<span id="title-bottom"><span id="title-bottom-interior" style=""><span id="title-bottom-first">
+WARCRAFT
+</span> <span id="title-bottom-second" style="">LOGS</span></span></span>
+</div>
+
+<div id="logincontent">
+		     
+
+<form method="POST" accept-charset="UTF-8" onsubmit="login(document.getElementById('email').value, document.getElementById('password').value, document.getElementById('remember').checked); return false">	
+<table cellspacing=10 class="dialog-table">
+		<tr style="vertical-align:middle"><td style="text-align:right">
+		<label for="email">E-Mail Address</label>
+		<td><input class="login-field type="text" name="email" id="email">
+		<tr style="vertical-align:middle"><td style="text-align:right"><label for="password">Password</label>
+		<td><input class="login-field" type="password" name="password" id="password">
+		<tr><td><td><div class="left" style="vertical-align:middle;"><input type=checkbox id="remember"> <label for="remember"></label>  <label for="remember">Automatically Log In</label></div> <button id="login-button" class="big-button right" type="submit">Log In</button>
+		</table>
+</form>
+</div>
+
+<div id="reportcontent" style="display:none">
+
+<div id="report-first-page">
+<table cellspacing=10 class="dialog-table">
+<tr style="vertical-align:top">
+<td><button class="big-button wide" onclick="setReportUIMode('upload'); selectReportPage('upload')">Upload a Log</button><td>You already finished raiding and want to upload the log file for the raid.
+<tr><td><button class="big-button wide" onclick="setReportUIMode('livelog'); selectReportPage('upload')">Live Log</button><td>You are about to start raiding and want to log the raid in real time.
+<tr><td><button class="big-button wide" onclick="setReportUIMode('split'); selectReportPage('upload')">Split a Log</button><td>You want to split a log file that contains multiple raids without uploading it.
+</table>
+</div>
+
+<div id="report-upload-page" style="display:none">
+
+<table cellspacing=10 class="dialog-table" style="width:100%">
+<tr id="file-chooser-description"><td colspan=2>Choose the file you want to upload (typically WoWCombatLog.txt):
+<tr id="split-file-chooser-description" style="display:none"><td colspan=2>Choose the file you want to split (typically WoWCombatLog.txt):
+<tr id="file-chooser-row"><td colspan=2><div class="directory-file" onclick="browseForFile()"><span id="logfile" style="display:none""></span><span id="logfile-display"></span> <button class="directory-button big-button right">Choose...</button></div></div>
+<tr id="directory-chooser-description" style="display:none"><td colspan=2>Choose the Logs directory inside your WoW installation:
+<tr id="directory-chooser-row" style="display:none"><td colspan=2><div class="directory-file" onclick="browseForDirectory()"><span id="directory" style="display:none"></span><span id="directory-display"></span> <button class="directory-button big-button right">Choose...</button></div></div>
+<tr id="guild-chooser-description"><td colspan=2>Choose the guild you want to upload to:
+<tr id="guild-chooser-controls"><td>
+<button id="selected-guild-upload" class="bnet-char-tab"  onclick="showSelectGuildUI()"></button>
+
+<button id="guild-picker" class="big-button" onclick="showSelectGuildUI()">Choose...</button>
+<td style="width:100%">
+<div class="right" style="vertical-align:middle;margin-right:5px">
+
+<span id="privacy-0" class="region-tab" onclick="selectPrivacy(0)">Public</span>
+<span id="privacy-1" class="region-tab" onclick="selectPrivacy(1)">Private</span>
+<span id="privacy-2" class="region-tab" onclick="selectPrivacy(2)">Unlisted</span>
+
+</div>
+
+	
+	
+</div> 
+
+<tr id="description-label"><td colspan=2><div style="display:inline-block; width:325px">Enter a description for the report:</div><div style="display:inline-block; width:373px"><input style="width:100%; margin-right:5px" type="text" id="description" name="description">
+</div>
+
+<tr><td colspan=2><div id="fight-chooser-container" class="left" style="vertical-align:middle;"><input type=checkbox id="fight-chooser"> <label for="fight-chooser"></label>  <label for="fight-chooser">Select Specific Raids To Upload</label></div> 
+<button id="upload-button" class="big-button right" onclick="goButtonClicked()">Go!</button>
+
+</table>
+
+</div>
+
+<div id="report-guild-page" style="display:none; padding:10px" class="dialog-table">
+
+<div>Choose a guild or your personal logs by clicking on one of the boxes below:</div>
+<div id="guilds-container" onclick="selectGuildOrRegionByTarget(event)"></div>
+
+<div style="text-align:right">
+<button id="finalize-guild" class="big-button" onclick="finalizeGuild()">Ok</button>
+</div>
+
+</div>
+
+
+<div id="report-progress-page" style="display:none; padding:10px" class="dialog-table">
+
+<div id="logfile-progress-container">
+<div style="margin:8px 0"><span id="logfile-progress-status">Processing Log File</span> <span id="logfile-progress-number"></span>...</div>
+<div id="logfile-progress" class="progress-bar"><div class="progress-interior"></div></div>
+</div>
+
+<p id="livelog-progress-status" style="display:none">
+
+</p>
+
+<div id="upload-progress-container" style="visibility:hidden">
+<div style="margin:8px 0"><span id="upload-progress-status">Uploading Fights</span> <span id="upload-progress-number"></span>...</div>
+<div id="upload-progress" class="progress-bar"><div class="progress-interior"></div></div>
+</div>
+
+<p style="text-align:center"><button id="cancelbutton" class="big-button" style="display:none" type=button onclick="cancelOrFinish('upload')">Cancel</button>
+<button class="big-button wide" style="display:none" id="viewlivelogbutton" onclick="viewLog()">View Report</button>
+<button class="big-button wide" style="display:none" id="endlivelogbutton" onclick="stopLiveLoggingSession()">Stop</button>
+</p>
+</div>
+
+<div id="report-deletion-archival-page" style="display:none; padding:10px" class="dialog-table">
+
+<div style="margin-bottom:1em"><a href="#" onclick="goHome(); return false">Click here</a> to go back to the front page. <span id="view-report-description">You can view your report on Warcraft Logs by clicking the View Report button below.</span> </div>
+<p style="text-align:center" id="view-report-container">
+<button type=button id="viewlogbutton" class="big-button wide" onclick="viewLog()">View Report</button>
+</p>
+<div id="deletion-archival-ui">
+<div>Blizzard's combat log file will grow to an unmanageable size unless you either delete or archive the file. Deletion will
+get rid of the log file, and archival will put it in a subfolder in your WoW Logs directory.</div>
+
+<p style="text-align:center">
+<button style="min-width:250px" type=button id="deletelogbutton" onclick="deleteLogFile()">Delete Log File</button>
+<button style="min-width:250px" type=button id="archivelogbutton" onclick="archiveLogFile()">Archive Log File</button>
+</p>
+</div>
+
+</div>
+
+<div id="report-fights-page" style="display:none; padding:10px; position:relative;height:255px" class="dialog-table">
+<select id="fights-list" size=10 multiple></select>
+<div id="fight-details">Hover over enemy names in the list to the left to see details about the fights in this box.</div>
+
+
+<div id="include-trash-container" class="left" style="vertical-align:middle;"><input type=checkbox id="include-trash" onchange="includeTrashChanged()"> <label for="include-trash"></label>  <label for="include-trash">Include Trash Fights</label></div>
+
+<button id="fights-button" class="big-button right" onclick="fightsButtonClicked()">Go!</button>
+</div>
+</div>
+
+<div class="ui-widget" style="font-size:12px; margin:5px 5px 0 5px; padding:0; display:none" id="errorblock">
+	<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+		<div style="margin:5px 0"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+		<strong>Error:</strong> <span id="errortext"></span></div>
+	</div>
+</div>
+
+<div class="ui-widget" style="font-size:12px; margin:5px 5px 0 5px; padding:0; display:none" id="warningblock">
+	<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+		<div style="margin:5px 0"><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+		<strong>Warning:</strong> <span id="warningtext"></span></div>
+	</div>
+</div>
+
+<iframe style="display:none" id="fights"></iframe>
+
+<div id="scratchspace" style="text-indent:-2000px"></div>
+
+</body>
+</html>

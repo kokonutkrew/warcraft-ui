@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+
+-->
+<Games>
+   <Game Name="DxNothing">
+     <Executable>dxNothing.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\InnerSpace\dxNothing.exe" />
+		</Detection>
+   </Game>
+	<Game Name="EverQuest">
+		<Executable>LaunchPad.exe</Executable>
+		<Setting Name="Modules">auto</Setting>
+    <Setting Name="Win32 Mouse Position">1</Setting>
+    <Setting Name="Lock Foreground">1</Setting>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\EverQuest\eqgame.exe" />
+		</Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\EverQuest\LaunchPad.exe" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\EverQuest\LaunchPad.exe" />
+    </Detection>
+		<Detection Name="EverQuest No Patch" Executable="eqgame.exe" Parameters="patchme">
+			<FileExists Filename="%PROGRAMFILES%\EverQuest\eqgame.exe" />
+		</Detection>
+    <Detection Name="EverQuest No Patch" Executable="eqgame.exe" Parameters="patchme">
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\EverQuest\eqgame.exe" />
+    </Detection>
+    <Detection Name="EverQuest No Patch" Executable="eqgame.exe" Parameters="patchme">
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\EverQuest\eqgame.exe" />
+    </Detection>
+  </Game>
+	<Game Name="EverQuest II">
+		<Executable>LaunchPad.exe</Executable>
+		<Setting Name="Lock Foreground">1</Setting>
+		<Detection>
+			<AppPathKey Filename="EverQuest2.exe" />
+		</Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <AppPathKey Filename="EverQuest2.exe" />
+    </Detection>
+    <Detection Executable="LaunchPad.exe">
+      <FileExists Filename="C:\ProgramData\Daybreak Games\Installed Games\EverQuest II\LaunchPad.exe" />
+    </Detection>
+    <Detection Executable="LaunchPad.exe">
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\EverQuest II\LaunchPad.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\ProgramData\Daybreak Games\Installed Games\EverQuest II\EverQuest2.exe" />
+    </Detection>
+    <Detection Executable="LaunchPad.exe">
+      <FileExists Filename="C:\ProgramData\Sony Online Entertainment\Installed Games\EverQuest II\LaunchPad.exe" />
+    </Detection>
+    <Detection Executable="LaunchPad.exe">
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\EverQuest II\LaunchPad.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\ProgramData\Sony Online Entertainment\Installed Games\EverQuest II\EverQuest2.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="%PROGRAMFILES%\Sony\EverQuest II\EverQuest2.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\EverQuest II Streaming\EverQuest2.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\EverQuest II\EverQuest2.exe" />
+    </Detection>
+   
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\EverQuest II Streaming\EverQuest2.exe" />
+    </Detection>
+    <Detection Name="EverQuest II No Patch" Executable="EverQuest2.exe">
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\EverQuest II\EverQuest2.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Anarchy Online">
+    <Executable>Anarchy.exe</Executable>
+    <Detection>
+      <FileExists Filename="C:\Funcom\Anarchy Online\Anarchy.exe" />
+    </Detection>
+    <Detection Name="Anarchy Online No Patch" Executable="AnarchyOnline.exe" Parameters="IA700453413 IP7505 DU">
+      <FileExists Filename="C:\Funcom\Anarchy Online\AnarchyOnline.exe" />
+    </Detection>  
+  </Game>
+  <Game Name="PlanetSide 2">
+    <Executable>LaunchPad.exe</Executable>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Daybreak Games\Installed Games\PlanetSide 2\PlanetSide2.exe" />
+     </Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Sony Online Entertainment\Installed Games\PlanetSide 2\PlanetSide2.exe" />
+     </Detection>
+  </Game>
+  <Game Name="Elder Scrolls Online">
+    <Executable>eso.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Zenimax Online\The Elder Scrolls Online\game\client\eso.exe" />
+    </Detection>
+    <Detection>
+      <UninstallKey ID="The Elder Scrolls Online" />
+      <Concatenate>\The Elder Scrolls Online\game\client</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="World of Warcraft">
+		<Executable>WoW.exe</Executable>
+    <!--
+		<Detection>
+			<UninstallKey ID="World of Warcraft" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Blizzard Entertainment\World of Warcraft" Value="InstallPath" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Blizzard Entertainment\World of Warcraft" Value="InstallPath" />
+    </Detection>
+    -->
+    <Detection>
+			<FileExists Filename="%PROGRAMFILES%\World of Warcraft\WoW.exe" />
+		</Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\_retail_\WoW.exe" />
+    </Detection>
+    <Detection>
+			<FileExists Filename="%PROGRAMFILES%\World of Warcraft US\WoW.exe" />
+		</Detection>
+    <Detection Name="World of Warcraft Launcher" Executable="World of Warcraft Launcher.exe">
+      <UninstallKey ID="World of Warcraft" />
+    </Detection>    
+    <Detection Name="World of Warcraft DirectX11" Executable="WoW.exe" Parameters="-d3d11 -noautolaunch64bit">
+      <UninstallKey ID="World of Warcraft" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX12" Executable="WoW.exe" Parameters="-d3d12 -noautolaunch64bit">
+      <UninstallKey ID="World of Warcraft" />
+    </Detection>
+    <Detection Name="World of Warcraft Launcher" Executable="World of Warcraft Launcher.exe">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\World of Warcraft Launcher.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX11" Executable="WoW.exe" Parameters="-d3d11 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX12" Executable="WoW.exe" Parameters="-d3d12 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX11" Executable="WoW.exe" Parameters="-d3d11 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\_retail_\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX12" Executable="WoW.exe" Parameters="-d3d12 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\_retail_\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft Launcher" Executable="World of Warcraft Launcher.exe">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft US\World of Warcraft Launcher.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX11" Executable="WoW.exe" Parameters="-d3d11 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft US\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX12" Executable="WoW.exe" Parameters="-d3d12 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft US\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX11" Executable="WoW.exe" Parameters="-d3d11 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft US\_retail_\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft DirectX12" Executable="WoW.exe" Parameters="-d3d12 -noautolaunch64bit">
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft US\_retail_\WoW.exe" />
+    </Detection>
+    <Detection Name="World of Warcraft 64-bit" Executable="WoW-64.exe">
+			<UninstallKey ID="World of Warcraft" />
+		</Detection>
+    <Detection Name="World of Warcraft 64-bit" Executable="WoW-64.exe">
+			<FileExists Filename="%PROGRAMFILES%\World of Warcraft\WoW-64.exe" />
+		</Detection>
+    
+		<Detection Name="World of Warcraft DirectX11 64-bit" Executable="WoW-64.exe" Parameters="-d3d11">
+			<UninstallKey ID="World of Warcraft" />
+		</Detection>
+    <Detection Name="World of Warcraft DirectX11 64-bit" Executable="WoW-64.exe" Parameters="-d3d11">      
+      <FileExists Filename="%PROGRAMFILES%\World of Warcraft\WoW-64.exe" />
+    </Detection>
+      </Game>
+  <Game Name="Diablo III">
+    <Executable>Diablo III Launcher.exe</Executable>
+    <Detection Name="Diablo III Launcher" Executable="Diablo III Launcher.exe" Parameters="">
+      <FileExists Filename="%PROGRAMFILES%\Diablo III\Diablo III Launcher.exe" />
+    </Detection>
+    <Detection Name="Diablo III (32-bit) - Skip Launcher" Executable="Diablo III.exe" Parameters="-launch" >
+      <FileExists Filename="%PROGRAMFILES%\Diablo III\Diablo III.exe" />
+    </Detection>
+    <Detection Name="Diablo III (64-bit) - Skip Launcher" Executable="Diablo III64.exe" Parameters="-launch" >
+      <FileExists Filename="%PROGRAMFILES%\Diablo III\x64\Diablo III64.exe" />
+    </Detection>
+    <Detection Name="Diablo III (64-bit) - Skip Launcher" Executable="Diablo III64.exe" Parameters="-launch" >
+      <Concatenate>\x64</Concatenate>
+     <UninstallKey ID="Diablo III" />
+    </Detection>
+    <!--
+    <Detection Name="Diablo III Beta" Executable="Diablo III Beta Launcher.exe" Parameters="">
+      <FileExists Filename="%PROGRAMFILES%\Diablo III Beta\Diablo III Beta Launcher.exe"  />
+    </Detection>
+    <Detection Name="Diablo III Beta - Skip Launcher" Parameters="-launch">
+      <FileExists Filename="%PROGRAMFILES%\Diablo III Beta\Diablo III.exe" />
+    </Detection> -->
+  </Game>
+  <Game Name="Marvel Heroes">
+    <Executable>MarvelHeroesLauncher.exe</Executable>
+    <Detection Executable="MarvelHeroesLauncher.exe" Parameters="">
+      <FileExists Filename="%PROGRAMFILES%\Gazillion Entertainment\Marvel Heroes Game\MarvelHeroesLauncher.exe" />
+    </Detection>
+    <Detection Name="Marvel Heroes - Skip Launcher" Parameters="-nobitraider -nosteam" >
+      <FileExists Filename="%PROGRAMFILES%\Gazillion Entertainment\Marvel Heroes Game\UnrealEngine3\Binaries\Win32\MarvelGame.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Asheron's Call">
+    <Executable>aclauncher.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Turbine\Asheron's Call\aclauncher.exe" />
+    </Detection>
+    <Detection>
+      			<UninstallKey ID="{F0EE55BA-193D-4670-90C0-76E0E25F3A08}" />
+    </Detection>
+  </Game>
+  <Game Name="BlackGold Online">
+    <Executable>fxlaunch.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Snail Games USA\BlackGold\fxlaunch.exe" />
+    </Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="HKEY_CURRENT_USER\Software\Snail Games USA\BlackGold" Value="InstallDir" />
+    </Detection>
+    <Detection>
+      <RegistryKey Key="HKLM" SubKey="HKEY_CURRENT_USER\Software\Snail Games USA\BlackGold" Value="InstallDir" />
+    </Detection>
+  </Game>
+  <Game Name="Warcraft III">
+		<Executable>War3.exe</Executable>
+		<Setting Name="Block New WndProc">1</Setting>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Blizzard Entertainment\Warcraft III" Value="InstallPath" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Blizzard Entertainment\Warcraft III" Value="InstallPath" />
+    </Detection>
+    <Detection>
+			<FileExists Filename="%PROGRAMFILES%\Warcraft III\War3.exe" />
+		</Detection>
+	</Game>
+  <Game Name="Runes of Magic">
+    <Executable>Runes of Magic.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKLM" SubKey="SOFTWARE\Frogster Interactive Pictures\Runes of Magic" Value="RootDir" />
+    </Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Frogster Interactive Pictures\Runes of Magic" Value="RootDir" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Runes of Magic\Runes of Magic.exe" />
+    </Detection>
+    <Detection Name="Runes of Magic No Patch" Executable="client.exe" Parameters="NoCheckVersion">
+      <FileExists Filename="%PROGRAMFILES%\Runes of Magic\Runes of Magic.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Ryzom">
+    <Executable>client_ryzom_rd.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKLM" SubKey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ryzom" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ryzom" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Ryzom\client_ryzom_rd.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Lord of the Rings Online">
+    <Executable>TurbineLauncher.exe</Executable>
+		<Setting Name="Lock Foreground">1</Setting>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Turbine\The Lord of the Rings Online\TurbineLauncher.exe" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Codemasters\Der Herr der Ringe Online\TurbineLauncher.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Dungeons &amp; Dragons Online">
+    <Executable>TurbineInvoker.exe</Executable>
+    <Setting Name="Lock Foreground">1</Setting>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Turbine\DDO Unlimited\TurbineInvoker.exe" />
+    </Detection>
+    <Detection Name="DDO No Patch" Executable="TurbineLauncher.exe" Parameters="-usetdm -invoker">
+      <FileExists Filename="%PROGRAMFILES%\Turbine\DDO Unlimited\TurbineLauncher.exe" />
+    </Detection>
+    <Detection Name="DDO No Patch (Alternate)" Executable="TurbineInvoker.exe" Parameters="-usetdm">
+      <FileExists Filename="%PROGRAMFILES%\Turbine\DDO Unlimited\TurbineInvoker.exe" />
+    </Detection>
+  </Game>  
+	<Game Name="Tron 2.0">
+		<Executable>TRON.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Monolith Productions\Tron 2.0\TRON.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Quake 2">
+		<Setting Name="WindowClass">Quake 2</Setting>
+		<Executable>Quake2.exe</Executable>
+		<!-- Unknown Detection -->
+	</Game>
+	<Game Name="Lineage II">
+		<Executable>LineageII.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Lineage II\LineageII.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Neverwinter Nights">
+		<Executable>nwn.exe</Executable>
+		<Detection>
+			<FileExists Filename="C:\NeverwinterNights\NWN\nwn.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\BioWare\NWN\Neverwinter" Value="Location" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\BioWare\NWN\Neverwinter" Value="Location" />
+    </Detection>
+  </Game>
+	<Game Name="Star Wars Jedi Knight II: Jedi Outcast">
+		<Executable>JediOutcast.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\LucasArts\Star Wars JK II Jedi Outcast" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\LucasArts Entertainment Company LLC\Star Wars JK II Jedi Outcast\1.0" Value="Install Path" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\LucasArts Entertainment Company LLC\Star Wars JK II Jedi Outcast\1.0" Value="Install Path" />
+    </Detection>
+  </Game>
+  <!--
+	<Game Name="Star Wars Galaxies">
+		<Executable>LaunchPad.exe</Executable>
+		<Parameters>/game:starwars</Parameters>
+		<Detection>
+			<AppPathKey Filename="LaunchPad.exe" />
+		</Detection>
+	</Game>
+  -->
+	<Game Name="Star Wars Battlefront">
+		<Executable>LaunchBF.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\LucasArts\Star Wars Battlefront\LaunchBF.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{C79CB9C7-10A4-4814-8402-F574672C2192}" />
+		</Detection>
+	</Game>
+	<Game Name="SWAT 4">
+		<Executable>swat4.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Sierra\SWAT 4\Content\System\swat4.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Sierra\SWAT 4" Value="InstallPath" />
+			<Concatenate>Content\System</Concatenate>
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Sierra\SWAT 4" Value="InstallPath" />
+      <Concatenate>Content\System</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="Grand Theft Auto III">
+		<Executable>gta3.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Rockstar Games\GTAIII\gta3.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Grand Theft Auto Vice City">
+		<Executable>gta-vc.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Rockstar Games\Grand Theft Auto Vice City\gta-vc.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{4B35F00C-E63D-40DC-9839-DF15A33EAC46}" />
+		</Detection>
+	</Game>
+	<Game Name="Lego Star Wars">
+		<Executable>LegoStarwars.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Giant\LEGO Star Wars Game\LegoStarwars.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Brothers in Arms">
+		<Executable>bia.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Ubisoft\Gearbox Software\BrothersInArms\System\bia.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Ubisoft\Gearbox Software\BrothersInArms" Value="Folder" />
+			<Concatenate>\System</Concatenate>
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Ubisoft\Gearbox Software\BrothersInArms" Value="Folder" />
+      <Concatenate>\System</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="Axis &amp; Allies">
+		<Executable>aa.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Atari\Axis &amp; Allies\aa.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Tribes Vengeance">
+		<Executable>TV_CD_DVD.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\VUGames\Tribes Vengeance\Program\Bin\TV_CD_DVD.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\VUGames\Tribes Vengeance" Value="InstallDir" />
+			<Concatenate>\Program\Bin</Concatenate>
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\VUGames\Tribes Vengeance" Value="InstallDir" />
+      <Concatenate>\Program\Bin</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="Guild Wars">
+		<Executable>Gw.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Guild Wars\Gw.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\ArenaNet\Guild Wars" Value="InstallDir" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\ArenaNet\Guild Wars" Value="InstallDir" />
+    </Detection>
+  </Game>
+	<Game Name="Far Cry">
+		<Executable>FarCry.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Ubisoft\Crytek\Far Cry\Bin32\FarCry.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{D6DBDC2A-E72C-4284-B6AD-6B3B61B4DABC}" />
+			<Concatenate>Bin32</Concatenate>
+		</Detection>
+	</Game>
+	<Game Name="Cold Fear">
+		<Executable>ColdFear_Retail.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Ubisoft\Darkworks\ColdFear\ColdFear_Retail.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{2C14901F-ED9D-40B5-8FE5-1BAF3D31F73B}" />
+		</Detection>
+	</Game>
+	<Game Name="Halo">
+		<Exectuable>Halo.exe</Exectuable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Microsoft Games\Halo\Halo.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="Halo" />
+		</Detection>
+	</Game>
+	<Game Name="Need for Speed Underground 2">
+		<Executable>speed2.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\EA GAMES\Need for Speed Underground 2\speed2.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Broken Sword - The Sleeping Dragon">
+		<Executable>bs3pc.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\THQ\Broken Sword - The Sleeping Dragon\bs3pc.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\REVOLUTION\BSTSD" Value="TargetDir" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\REVOLUTION\BSTSD" Value="TargetDir" />
+    </Detection>
+  </Game>
+	<Game Name="Prince of Persia - The Sands of Time">
+		<Executable>princeofpersia.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\UBISOFT\Prince of Persia The Sands of Time\princeofpersia.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{8C453F13-6877-4D34-8816-009ABDE306DB}" />
+		</Detection>
+	</Game>
+	<Game Name="Thief - Deadly Shadows">
+		<Executable>t3.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Thief - Deadly Shadows\System\t3.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{FC123EEA-330A-4685-911C-95B8F5E9DE68}" />
+			<Concatenate>System</Concatenate>
+		</Detection>
+	</Game>
+	<Game Name="Deus Ex: Invisible War">
+		<Executable>DX2.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Deus Ex - Invisible War\System\DX2.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{47BE1E5F-8978-484B-BE86-B616C00EA75A}" />
+			<Concatenate>System</Concatenate>
+		</Detection>
+	</Game>
+	<Game Name="Kal Online">
+		<Executable>KalOnline.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\KalOnline\KalOnline.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{5D23E60C-BBAF-44D1-9809-979F4234C018}" />
+		</Detection>
+	</Game>
+	<Game Name="Delta Force Xtreme">
+		<Executable>dfx.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\NovaLogic\Delta Force Xtreme\dfx.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{961C4925-5B53-4127-969D-1CACF2426C05}" />
+		</Detection>
+	</Game>
+	<Game Name="Psychonauts">
+		<Executable>Psychonauts.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Double Fine Productions\Psychonauts\Psychonauts.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{A129D1F2-CAC4-4AD7-B26D-3C6411B87DCC}" />
+		</Detection>
+	</Game>
+  <!--
+	<Game Name="PlanetSide">
+		<Executable>LaunchPad.exe</Executable>
+		<Parameters>/game:planetside</Parameters>
+		<Detection>
+			<AppPathKey Filename="LaunchPad.exe" />
+		</Detection>
+	</Game>
+  -->
+  <Game Name="Vanguard: Saga of Heroes">
+    <Executable>Vanguard.exe</Executable>
+    <Detection>
+      <AppPathKey Filename="Vanguard.exe" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Sony\Vanguard\Vanguard.exe" />
+    </Detection>
+  </Game>  
+  <Game Name="Star Wars Knights of the Old Republic">
+		<Setting Name="Window Class">Render Window</Setting>
+		<Executable>swkotor.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\LucasArts\SWKotOR\swkotor.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Star Wars Knights of the Old Republic II">
+		<Executable>swkotor2.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\LucasArts\SWKotOR2\swkotor2.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Half-Life 2">
+		<Executable>steam.exe</Executable>
+		<Detection Parameters="-applaunch 220">
+			<FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+		</Detection>
+		<Detection Parameters="-applaunch 220">
+			<RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+		</Detection>
+		<Detection Name="Half-Life: Source Default Profile" Parameters="-applaunch 280">
+			<FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+		</Detection>
+		<Detection Name="Half-Life: Source Default Profile" Parameters="-applaunch 280">
+			<RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+		</Detection>
+		<Detection Name="Counter-strike: Source Default Profile" Parameters="-applaunch 240">
+			<FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+		</Detection>
+		<Detection Name="Counter-strike: Source Default Profile" Parameters="-applaunch 240">
+			<RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+		</Detection>
+    <Detection Name="Half-Life 2: Deathmatch Default Profile" Parameters="-applaunch 320">
+      <FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+    </Detection>
+    <Detection Name="Half-Life 2: Deathmatch Default Profile" Parameters="-applaunch 320">
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+    </Detection>
+    <Detection Name="Half-Life 2: Lost Coast Default Profile" Parameters="-applaunch 340">
+      <FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+    </Detection>
+    <Detection Name="Half-Life 2: Lost Coast Default Profile" Parameters="-applaunch 340">
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+    </Detection>
+    <Detection Name="Just Launch Steam">
+			<FileExists Filename="%PROGRAMFILES%\Valve\Steam\steam.exe" />
+		</Detection>
+		<Detection Name="Just Launch Steam">
+			<RegistryKey Key="HKCU" SubKey="SOFTWARE\Valve\Steam" Value="InstallPath" />
+		</Detection>
+	</Game>
+	<Game Name="Grand Theft Auto: San Andreas">
+		<Executable>gta_sa.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Rockstar Games\GTA San Andreas\gta_sa.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{D417C96A-FCC7-4590-A1BB-FAF73F5BC98E}" />
+		</Detection>
+	</Game>
+	<Game Name="The Simpsons Hit &amp; Run">
+		<Executable>simpsons.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Vivendi Universal Games\The Simpsons Hit &amp; Run\simpsons.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Sims 2">
+		<Executable>Sims2.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\EA Games\The Sims 2\TSBin\Sims2.exe" />
+		</Detection>
+		<Detection>
+			<AppPathKey Filename="Sims2.exe" />
+			<Concatenate>\TSBin</Concatenate>
+		</Detection>
+	</Game>
+	<Game Name="Unreal Tournament 2004">
+		<Executable></Executable>
+		<Detection>
+			<FileExists Filename="C:\UT2004\System\ut2004.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Unreal Technology\Installed Apps\UT2004" Value="Path" />
+			<Concatenate>\System</Concatenate>
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Unreal Technology\Installed Apps\UT2004" Value="Path" />
+      <Concatenate>\System</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="Star Wars Republic Commando">
+		<Executable>SWRepublicCommando.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\LucasArts\Star Wars Republic Commando\GameData\System\SWRepublicCommando.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{DFAE9340-E8BB-4433-9A08-C8334DAFE1B9}" />
+			<Concatenate>\GameData\System</Concatenate>
+		</Detection>
+	</Game>
+	<Game Name="Doom 3">
+		<Executable>Doom3.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Doom 3\Doom3.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Quake III Arena">
+		<Executable>quake3.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Quake III Arena\quake3.exe" />
+		</Detection>
+	</Game>
+	<Game Name="America's Army">
+		<Executable>ArmyOps.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\America's Army\System\ArmyOps.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\US Army\America's Army\Operations" Value="InstallDir" />
+			<Concatenate>\System</Concatenate>
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\US Army\America's Army\Operations" Value="InstallDir" />
+      <Concatenate>\System</Concatenate>
+    </Detection>
+  </Game>
+	<Game Name="Battlefield 1942">
+		<Executable>BF1942.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Ea Games\Battlefield 1942\BF1942.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Rollercoaster Tycoon 3">
+		<Executable>rct3.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Atari\RollerCoaster Tycoon® 3\rct3.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Rise of Nations">
+		<Executable>nations.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Microsoft Games\Rise of Nations\nations.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Lords of EverQuest">
+		<Executable>lords.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Lords of EverQuest\lords.exe" />
+		</Detection>
+	</Game>
+	<Game Name="Dark Age of Camelot">
+		<Executable>camelot.exe</Executable>
+		<Detection>
+			<FileExists Filename="c:\Mythic\Camelot\camelot.exe" />
+		</Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Electronic Arts\Dark Age of Camelot\camelot.exe" />
+    </Detection>
+    <Detection Name="DAOC No Patch" Executable="login.dll">
+      <FileExists Filename="%PROGRAMFILES%\Electronic Arts\Dark Age of Camelot\login.dll" />
+    </Detection>
+
+  </Game>
+	<Game Name="Sid Meier's Pirates!">
+		<Executable>pirates!.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Firaxis Games\Sid Meier's Pirates!\pirates!.exe" />
+		</Detection>
+		<Detection>
+			<RegistryKey Key="HKLM" SubKey="SOFTWARE\Atari\Sid Meier's Pirates!" Value="INSTALL_PATH" />
+		</Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Atari\Sid Meier's Pirates!" Value="INSTALL_PATH" />
+    </Detection>
+  </Game>
+	<Game Name="FlyFF">
+		<Executable>Flyff.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Aeonsoft\FlyffEng\Flyff.exe" />
+		</Detection>
+	</Game>
+	<Game Name="ROSE Online">
+		<Executable>ROSEOnline.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Triggersoft\Rose Online\ROSEOnline.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{E69BFD34-5D6B-4F14-918B-4E26E70F81A6}" />
+		</Detection>
+	</Game>
+	<Game Name="Asheron's Call - Throne of Destiny">
+		<Executable>aclauncher.exe</Executable>
+		<Setting Name="DirectInput8 Mouse">0</Setting>
+		<Setting Name="DirectInput8 Keyboard">0</Setting>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\Turbine\Asheron's Call - Throne of Destiny\aclauncher.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{01501EBA-EC35-4F9F-8889-3BE346E5DA13}" />
+		</Detection>
+	</Game>
+	<Game Name="Battlefield 2">
+		<Executable>bf2.exe</Executable>
+    <Setting Name="Win32 Mouse">0</Setting>
+    <Setting Name="Win32 Keyboard">0</Setting>
+    <Detection>
+			<FileExists Filename="%PROGRAMFILES%\EA GAMES\Battlefield 2\bf2.exe" />
+		</Detection>
+		<Detection>
+			<UninstallKey ID="{04858915-9F49-4B2A-AED4-DC49A7DE6A7B}" />
+		</Detection>
+	</Game>	
+	<Game Name="EVE Online">
+		<Executable>launcher.exe</Executable>
+		<Detection>
+			<FileExists Filename="%PROGRAMFILES%\CCP\EVE\launcher\launcher.exe" />
+		</Detection>
+    <!--
+		<Detection Name="EVE Online No Patch" Executable="exefile.exe" >
+			<FileExists Filename="%PROGRAMFILES%\CCP\EVE\SharedCache\tq\bin\exefile.exe" />
+		</Detection>
+    <Detection Name="EVE Online No Patch DirectX11" Executable="exefile.exe" Parameters="/triPlatform=dx11 /noconsole">
+      <FileExists Filename="%PROGRAMFILES%\CCP\EVE\SharedCache\tq\bin\exefile.exe" />
+    </Detection>
+    <Detection Name="EVE Online No Patch DirectX9" Executable="exefile.exe" Parameters="/triPlatform=dx9 /noconsole">
+      <FileExists Filename="%PROGRAMFILES%\CCP\EVE\SharedCache\tq\bin\exefile.exe" />
+    </Detection>
+    -->
+    <Detection>
+			<UninstallKey ID="EVE" />
+      <!-- <Concatenate>\bin</Concatenate> -->
+    </Detection>
+	</Game>
+  <!--
+  <Game Name="EVE Online China">
+    <Executable>exefile.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Optic\EVE\SharedCache\tq\bin\exefile.exe" />
+    </Detection>
+  </Game>
+  -->
+  <Game Name="Entropia Universe">
+    <Executable>ClientLoader.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Entropia Universe\bin32\Entropia.exe" />
+    </Detection>
+  </Game>
+  <Game Name="RIFT">
+    <Executable>riftpatchlive.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\RIFT Game\riftpatchlive.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Champions Online">
+    <Executable>Champions Online.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Champions Online" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Champions Online.exe" />
+    </Detection>
+    <Detection Name="Champions Online No Patch" Executable="GameClient.exe">
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Champions Online" Value="InstallLocation" />
+      <Concatenate>\Champions Online\Live</Concatenate>
+    </Detection>
+    <Detection Name="Champions Online No Patch" Executable="GameClient.exe">
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Champions Online\Live\GameClient.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Neverwinter">
+    <Executable>Neverwinter.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Neverwinter" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Neverwinter.exe" />
+    </Detection>
+    <Detection Name="Neverwinter No Patch" Executable="GameClient.exe">
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Neverwinter" Value="InstallLocation" />
+      <Concatenate>\Neverwinter\Live</Concatenate>
+    </Detection>
+    <Detection Name="Neverwinter No Patch" Executable="GameClient.exe">
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Neverwinter\Live\GameClient.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Star Trek Online">
+    <Executable>Star Trek Online.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Star Trek Online" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Star Trek Online.exe" />
+    </Detection>
+    <Detection Name="Star Trek Online No Patch" Executable="GameClient.exe">
+      <RegistryKey Key="HKCU" SubKey="Software\Cryptic\Star Trek Online" Value="InstallLocation" />
+      <Concatenate>\Star Trek Online\Live</Concatenate>
+    </Detection>
+    <Detection Name="Star Trek Online No Patch" Executable="GameClient.exe">
+      <FileExists Filename="C:\Users\Public\Games\Cryptic Studios\Star Trek Online\Live\GameClient.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Ultima Online">
+    <Executable>UOSA.exe</Executable>
+    <Detection>
+      <AppPathKey Filename="uopatch.exe" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Electronic Arts\Ultima Online Enhanced\UOSA.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Perpetuum">
+    <Executable>perpetuum.exe</Executable>
+    <Detection>
+      <RegistryKey Key="HKLM" SubKey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Perpetuum" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <RegistryKey Key="HKCU" SubKey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Perpetuum" Value="InstallLocation" />
+    </Detection>
+    <Detection>
+      <FileExists Filename="C:\Games\Perpetuum\Perpetuum.exe" />
+    </Detection>
+  </Game>
+  <Game Name="Civilization IV">
+    <Executable>Civilization4.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Firaxis Games\Sid Meier's Civilization 4\Civilization4.exe" />
+    </Detection>
+    <Detection>
+      <UninstallKey ID="{A8589680-35C1-4732-ACCA-09B78921ECE3}" />
+    </Detection>
+  </Game>
+  <Game Name="Age of Empires III">
+    <Executable>age3.exe</Executable>
+    <Detection>
+      <FileExists Filename="%PROGRAMFILES%\Microsoft Games\Age of Empires III\age3.exe" />
+    </Detection>
+    <Detection>
+      <UninstallKey ID="{7B9CC60A-9B81-46A3-A953-76B6BF9EEC97}" />
+    </Detection>
+  </Game>
+</Games>

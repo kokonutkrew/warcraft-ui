@@ -1,0 +1,12 @@
+## Interface: 70300
+## Title: Jamba-Extras
+## Notes: Jamba-Extras
+## Version: 3.0.0
+## X-Category: Interface Enhancements
+## X-Child-Of: Jamba
+## Dependencies: Jamba
+## SavedVariables: JambaExtrasProfileDB
+
+Jamba-Extras.lua
+Jamba-Extras.xml
+media\load_media.xml

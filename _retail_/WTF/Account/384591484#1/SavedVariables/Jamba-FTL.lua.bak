@@ -1,0 +1,21 @@
+
+JambaFTLProfileDB = {
+	["profileKeys"] = {
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanrouge - Emerald Dream"] = {
+			["CharListWithModifiers"] = {
+				["Samoanrouge-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+			},
+		},
+	},
+}

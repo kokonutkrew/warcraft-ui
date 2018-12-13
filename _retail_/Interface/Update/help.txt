@@ -1,0 +1,24 @@
+This directory contains git submodules that are used for updating addons.
+
+Useful Git Submodule Commands:
+
+git submodule add -b master [URL to Git repo]
+git submodule init
+git submodule update --remote
+
+git pull --recurse-submodules
+git submodule update --remote
+
+git submodule foreach 'git reset --hard'
+git submodule foreach --recursive 'git reset --hard'
+
+git submodule deinit -f?—?mymodule
+rm -rf .git/modules/mymodule
+git rm -f mymodule
+
+git clone --recursive [URL to Git repo]
+git submodule update --init
+git submodule update --init --recursive
+
+git submodule update --init --recursive --jobs 8
+git clone --recursive --jobs 8 [URL to Git repo]

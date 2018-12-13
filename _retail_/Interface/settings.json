@@ -1,59 +1,71 @@
 {
-    "default": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+    "default": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
     "profileTemplates": {
-        "custom": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "deathknight": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "demonhunter": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "druid": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "hunter": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "mage": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "monk": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "paladin": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "priest": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "rouge": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "shaman": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "warlock": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
-        "warrior": "WTF/Account/SHGRSHN/Stormrage/Samoantitan"
+        "custom": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "deathknight": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "demonhunter": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "druid": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "hunter": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "mage": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "monk": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "paladin": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "priest": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "rouge": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "shaman": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "warlock": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+        "warrior": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan"
     }, 
     "profiles": [
         {
-            "path": "WTF/Account/384591484#1/Emerald Dream/Samoanrouge", 
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanrouge", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/384591484#1/Emerald Dream/test", 
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/test", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Emerald Dream/Samoanslayer", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoanslayer", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Kakattack", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoantitan", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoanlegend", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Kakattack", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoanrelic", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoanlegend", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoansage", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoanrelic", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoansavage", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoansage", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoanslayer", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoansavage", 
             "template": "default"
         }, 
         {
-            "path": "WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoanslayer", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantitan", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoantotems", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoantank", 
             "template": "default"
         }
     ]

@@ -1,12 +1,12 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0231,
-	["LastPlayerFullName"] = "Kakattack-Stormrage",
+	["LastPlayerFullName"] = "Samoantitan-Stormrage",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "DEATHKNIGHT",
+	["LastClass"] = "PALADIN",
 	["LastAdded"] = 1,
 }

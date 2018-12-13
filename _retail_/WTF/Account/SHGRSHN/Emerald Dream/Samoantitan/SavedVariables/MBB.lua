@@ -2,14 +2,14 @@
 MBB_Exclude = {
 }
 MBB_Options = {
-	["CollapseTimeout"] = 1,
-	["AltExpandDirection"] = 4,
+	["CollapseTimeout"] = 5,
+	["AltExpandDirection"] = 1,
 	["AttachToMinimap"] = 1,
-	["ExpandDirection"] = 1,
-	["MaxButtonsPerLine"] = 0,
+	["ExpandDirection"] = 4,
+	["DetachedButtonPos"] = "TOPLEFT",
 	["ButtonPos"] = {
-		-18, -- [1]
-		-100, -- [2]
+		98.6302108764649, -- [1]
+		-121.924476623535, -- [2]
 	},
-	["DetachedButtonPos"] = "CENTER",
+	["MaxButtonsPerLine"] = 3,
 }

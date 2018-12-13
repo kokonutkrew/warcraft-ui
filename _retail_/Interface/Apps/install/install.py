@@ -21,10 +21,10 @@ def main():
 def findGameFolder():
     global warcraft
     global settings
-    if os.path.exists('../../../../Wow.exe'):
+    if os.path.exists('../../../../World of Warcraft Launcher.exe'):
         warcraft = '../../../../'
         settings = '../../settings.json'
-    elif os.path.exists('../Wow.exe'):
+    elif os.path.exists('../../World of Warcraft Launcher.exe'):
         warcraft = '../../'
         settings = 'settings.json'
     else:
@@ -124,6 +124,10 @@ def installProfiles():
         template = profile['template']
         template = data['profileTemplates'].get(template, data['default'])
         template = warcraft + template
+
+        if template == warcraft + profile['path']:
+            continue
+
         distutils.dir_util.copy_tree(template, warcraft + profile['path'])
 
 def write(data):

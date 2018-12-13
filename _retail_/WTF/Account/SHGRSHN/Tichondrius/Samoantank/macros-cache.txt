@@ -1,16 +1,8 @@
-VER 3 0100000000000020 "Follow [FF]" "Ability_Rogue_Sprint"
-/script SendChatMessage("!ff_follow", "WHISPER", nil, UnitName("target"))
+VER 3 0100000000000001 "BFA_RET" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BFA_RET RightButton; [button:3] BFA_RET MiddleButton; [button:4] BFA_RET Button4; [button:5] BFA_RET Button5; BFA_RET
 END
-VER 3 0100000000000014 "Hand of Ragnaros" "INV_HAMMER_UNIQUE_SULFURAS.BLP"
-/equipset [equipped:Two-Handed Maces] Prot;
-/equipset [equipped:Shield] Hand of Ragnaros;
-END
-VER 3 0100000000000011 "xDivineShield" "INV_MISC_QUESTIONMARK"
-#showtooltip Divine Shield
-/stopcasting
-/cast [@Player] Divine Shield
-/cancelaura Divine Shield
-END
-VER 3 0100000000000021 "xxxMarty" "1360762"
-/castsequence [@mouseover,help,nodead][@player] Light of the Martyr
+VER 3 0100000000000002 "BFA_RET_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] BFA_RET_AOE RightButton; [button:3] BFA_RET_AOE MiddleButton; [button:4] BFA_RET_AOE Button4; [button:5] BFA_RET_AOE Button5; BFA_RET_AOE
 END

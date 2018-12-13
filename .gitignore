@@ -6,6 +6,7 @@
 
 # Track specific files
 !.gitignore
+!.gitmodules
 
 # Recursively track the interface directory
 !_retail_/Interface/**

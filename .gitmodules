@@ -1,0 +1,4 @@
+[submodule "_retail_/Interface/Update/DynamicCam"]
+	path = _retail_/Interface/Update/DynamicCam
+	url = https://github.com/Mpstark/DynamicCam.git
+	branch = master

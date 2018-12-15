@@ -74,20 +74,7 @@ WeakAurasSaved = {
 			["text2Enabled"] = false,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 64.0000152587891,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["useglowColor"] = false,
 			["load"] = {
 				["talent"] = {
 					["single"] = 12,
@@ -111,10 +98,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["internalVersion"] = 9,
 			["icon"] = true,
 			["authorOptions"] = {
 			},
-			["useglowColor"] = false,
 			["text2Containment"] = "INSIDE",
 			["glowType"] = "buttonOverlay",
 			["text1Font"] = "Friz Quadrata TT",
@@ -159,7 +146,20 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 	},
 	["registered"] = {

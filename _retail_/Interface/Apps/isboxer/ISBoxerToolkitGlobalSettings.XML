@@ -340,7 +340,11 @@
       <Height>0</Height>
     </Crop>
   </Image>
-  <CompatibilityFlags />
+  <CompatibilityFlags>
+    <CompatibilityFlagInfo Flag="~" Behavior="Ignore" />
+    <CompatibilityFlagInfo Flag="RUNASADMIN" Behavior="Ignore" />
+    <CompatibilityFlagInfo Flag="DISABLEDXMAXIMIZEDWINDOWEDMODE" Behavior="Remove" />
+  </CompatibilityFlags>
   <LastProfileFilename>ISBoxerToolkitProfile.XML</LastProfileFilename>
   <LastMultiplePCHelperState>false</LastMultiplePCHelperState>
   <UseInnerSpace64>false</UseInnerSpace64>
@@ -357,21 +361,21 @@
     </ptMaxPosition>
     <rcNormalPosition>
       <Location>
-        <X>182</X>
-        <Y>182</Y>
+        <X>-1181</X>
+        <Y>77</Y>
       </Location>
       <Size>
-        <Width>974</Width>
-        <Height>792</Height>
+        <Width>-389</Width>
+        <Height>687</Height>
       </Size>
-      <X>182</X>
-      <Y>182</Y>
-      <Width>974</Width>
-      <Height>792</Height>
+      <X>-1181</X>
+      <Y>77</Y>
+      <Width>-389</Width>
+      <Height>687</Height>
     </rcNormalPosition>
   </LastWindowPlacement>
-  <LastMainSplitter>292</LastMainSplitter>
-  <LastBottomSplitter>0</LastBottomSplitter>
+  <LastMainSplitter>344</LastMainSplitter>
+  <LastBottomSplitter>294</LastBottomSplitter>
   <LastLanguage>English (United States) (LCID:0409)</LastLanguage>
   <NeverShowCPUThrottleForm>false</NeverShowCPUThrottleForm>
   <NeverShowCompatibilityForm>false</NeverShowCompatibilityForm>

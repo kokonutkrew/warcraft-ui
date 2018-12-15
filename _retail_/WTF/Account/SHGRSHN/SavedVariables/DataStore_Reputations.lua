@@ -4,12 +4,16 @@ DataStore_ReputationsDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -118,10 +122,10 @@ DataStore_ReputationsDB = {
 					[135] = 10820,
 					[20] = 775,
 					[69] = 10400,
-					[18] = 775,
+					[138] = 12175,
 					[137] = 11295,
 					[15] = 6410,
-					[70] = 11571,
+					[18] = 775,
 					[19] = 775,
 					[139] = 1050,
 					[9] = 2445,
@@ -138,7 +142,7 @@ DataStore_ReputationsDB = {
 					[71] = 10400,
 					[136] = 13840,
 					[146] = 14025,
-					[138] = 12175,
+					[70] = 11571,
 					[68] = 20801,
 				},
 			},
@@ -196,6 +200,19 @@ DataStore_ReputationsDB = {
 				["guildRep"] = 42000,
 				["guildName"] = "Driven",
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810348,
+				["Factions"] = {
+					3100, -- [1]
+					4000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[141] = 6000,
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
 				["Factions"] = {
@@ -210,7 +227,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814541,
 				["Factions"] = {
 					38997, -- [1]
 					3598, -- [2]
@@ -239,20 +256,21 @@ DataStore_ReputationsDB = {
 				["guildRep"] = 42000,
 				["guildName"] = "Driven",
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628726,
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770121,
 				["Factions"] = {
 					3100, -- [1]
 					3000, -- [2]
 					3100, -- [3]
 					3100, -- [4]
-					4000, -- [5]
+					3100, -- [5]
+					[112] = 3000,
+					[77] = 3000,
 					[75] = 3300,
-					[112] = 3100,
 				},
 			},
 			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1544642630,
+				["lastUpdate"] = 1544808310,
 				["guildName"] = "Wealth",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -264,10 +282,10 @@ DataStore_ReputationsDB = {
 					[128] = 20242,
 					[132] = 28150,
 					[134] = 39597,
-					[136] = 36165,
+					[136] = 38715,
 					[138] = 46600,
 					[140] = 47650,
-					[142] = 28582,
+					[142] = 34832,
 					[146] = 42000,
 					[148] = 10200,
 					[38] = 8858,
@@ -284,7 +302,7 @@ DataStore_ReputationsDB = {
 					[54] = 9408,
 					[14] = 8955,
 					[56] = 42000,
-					[57] = 6071,
+					[57] = 6168,
 					[58] = 8900,
 					[59] = 3542,
 					[15] = 5620,
@@ -296,8 +314,8 @@ DataStore_ReputationsDB = {
 					[133] = 42000,
 					[68] = 42000,
 					[137] = 47450,
-					[139] = 41062,
-					[141] = 35152,
+					[139] = 41812,
+					[141] = 43000,
 					[143] = 2750,
 					[73] = 9000,
 					[149] = 9750,
@@ -345,17 +363,28 @@ DataStore_ReputationsDB = {
 					[69] = 42000,
 				},
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622531,
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544815835,
 				["Factions"] = {
-					[113] = 3100,
-					[7] = 4075,
-					[8] = 3100,
-					[10] = 400,
-					[78] = 3100,
-					[76] = 3500,
-					[9] = 500,
-					[6] = 3100,
+					4000, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3100,
+					[75] = 3300,
+				},
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544812697,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					4000, -- [5]
+					[75] = 3300,
+					[112] = 3100,
 				},
 			},
 			["Default.Stormrage.Samoantotems"] = {
@@ -369,6 +398,39 @@ DataStore_ReputationsDB = {
 					[75] = 3300,
 					[112] = 3100,
 				},
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["lastUpdate"] = 1540622531,
+				["Factions"] = {
+					[113] = 3100,
+					[7] = 4075,
+					[8] = 3100,
+					[10] = 400,
+					[78] = 3100,
+					[76] = 3500,
+					[9] = 500,
+					[6] = 3100,
+				},
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768458,
+				["Factions"] = {
+					4037, -- [1]
+					3037, -- [2]
+					3137, -- [3]
+					3137, -- [4]
+					3250, -- [5]
+					[75] = 3337,
+					[137] = 600,
+					[134] = 1350,
+					[112] = 3137,
+					[139] = 2400,
+					[123] = 3250,
+					[136] = 2325,
+					[77] = 37,
+				},
+				["guildRep"] = 3875,
+				["guildName"] = "Mass Dispel",
 			},
 		},
 	},

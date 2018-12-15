@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["LOG_DE_DATA_X"] = true,
 	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -67,17 +67,12 @@ AUCTIONATOR_TOONS = {
 	["Samoansavage"] = {
 		["firstSeen"] = 1539839019,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-60-0A6E12EE",
+		["guid"] = "Player-162-08DD3CB6",
 	},
 	["Samoanstrap"] = {
 		["firstSeen"] = 1544165930,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-09AF1B98",
-	},
-	["Samoantank"] = {
-		["firstSeen"] = 1544585485,
-		["guid"] = "Player-11-042FD3AD",
-		["firstVersion"] = "5.0.5",
 	},
 	["Kakattack"] = {
 		["firstSeen"] = 1544472482,
@@ -89,10 +84,25 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-11-09ADBF6A",
 		["firstVersion"] = "5.0.5",
 	},
+	["Samoantank"] = {
+		["firstSeen"] = 1544585485,
+		["guid"] = "Player-11-042FD3AD",
+		["firstVersion"] = "5.0.5",
+	},
 	["Samoanslayer"] = {
 		["firstSeen"] = 1540254841,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-162-09F14854",
+	},
+	["Samoanrelic"] = {
+		["firstSeen"] = 1544768453,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-0A0137D4",
+	},
+	["Samoansaint"] = {
+		["firstSeen"] = 1544810226,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-60-0BE0EFE2",
 	},
 	["Samoantotems"] = {
 		["firstSeen"] = 1544634790,

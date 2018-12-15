@@ -2,18 +2,24 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Samoanknight - Emerald Dream"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Samoanknight - Emerald Dream"] = {
 		},
 	},
 }

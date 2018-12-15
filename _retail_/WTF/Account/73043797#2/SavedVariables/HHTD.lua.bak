@@ -1,0 +1,23 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+}

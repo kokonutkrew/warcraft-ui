@@ -1,0 +1,31 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Tygrrlilly"] = {
+				["XPMax"] = 400,
+				["played"] = 1017,
+				["playedThisLevel"] = 1017,
+				["isResting"] = false,
+				["lastUpdate"] = 1544680270,
+				["class"] = "Hunter",
+				["race"] = "Human",
+				["level"] = 1,
+				["XP"] = 266,
+				["RestXP"] = 0,
+				["money"] = 0,
+				["gender"] = 3,
+				["subZone"] = "Northshire Valley",
+				["name"] = "Tygrrlilly",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["zone"] = "Northshire",
+				["lastLogoutTimestamp"] = 1544680270,
+				["englishClass"] = "HUNTER",
+			},
+		},
+	},
+}

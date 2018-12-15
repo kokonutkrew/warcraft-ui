@@ -1,0 +1,188 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["StatusTrackingBar"] = {
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+								["y"] = -227.499847412109,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 94,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 94,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+						["y"] = 223.000030517578,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["padding"] = -2,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 41.75,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 345,
+						["point"] = "BOTTOM",
+						["y"] = 38.5,
+					},
+				},
+			},
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["ZoneAbilityBar"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+						["y"] = 223.000045776367,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.5,
+						["point"] = "CENTER",
+						["y"] = -14.9999618530273,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 127,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Tygrrlilly - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.5000305175781,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

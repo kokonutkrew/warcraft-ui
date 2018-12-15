@@ -33,6 +33,9 @@ Known Bugs:
 		
 CHANGELOG:
 
+20181214 - 2.19
+    8.1 version update
+	
 20181211 - 2.18
 	Added patch 8.1 trinkets
 	

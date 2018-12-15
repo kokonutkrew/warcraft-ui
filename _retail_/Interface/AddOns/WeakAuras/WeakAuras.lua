@@ -1600,16 +1600,7 @@ function WeakAuras.CreateEncounterTable(encounter_id)
 end
 
 local encounterScriptsDeferred = {}
-function WeakAuras.LoadEncounterInitScripts(id)
-  if not WeakAuras.IsLoginFinished() then
-    if encounterScriptsDeferred[id] then
-      return
-    end
-    loginQueue[#loginQueue + 1] = {WeakAuras.LoadEncounterInitScripts, {id}}
-    encounterScriptsDeferred[id] = true
-    return
-  end
-  encounterScriptsDeferred = nil
+local function LoadEncounterInitScriptsImpl(id)
   if (WeakAuras.currentInstanceType ~= "raid") then
     return
   end
@@ -1619,6 +1610,7 @@ function WeakAuras.LoadEncounterInitScripts(id)
       WeakAuras.ActivateAuraEnvironment(id)
       WeakAuras.ActivateAuraEnvironment(nil)
     end
+    encounterScriptsDeferred[id] = nil
   else
     for id, data in pairs(db.displays) do
       if (data.load.use_encounterid and not WeakAuras.IsEnvironmentInitialized(id) and data.actions.init and data.actions.init.do_custom) then
@@ -1627,6 +1619,18 @@ function WeakAuras.LoadEncounterInitScripts(id)
       end
     end
   end
+end
+
+function WeakAuras.LoadEncounterInitScripts(id)
+  if not WeakAuras.IsLoginFinished() then
+    if encounterScriptsDeferred[id] then
+      return
+    end
+    loginQueue[#loginQueue + 1] = {LoadEncounterInitScriptsImpl, {id}}
+    encounterScriptsDeferred[id] = true
+    return
+  end
+  LoadEncounterInitScriptsImpl(id)
 end
 
 function WeakAuras.UpdateCurrentInstanceType(instanceType)
@@ -1648,10 +1652,7 @@ end
 
 local toLoad = {}
 local toUnload = {};
-function WeakAuras.ScanForLoads(self, event, arg1, ...)
-  if not WeakAuras.IsLoginFinished() then
-    return
-  end
+local function scanForLoadsImpl(self, event, arg1, ...)
   if (WeakAuras.IsOptionsProcessingPaused()) then
     return;
   end
@@ -1793,6 +1794,13 @@ function WeakAuras.ScanForLoads(self, event, arg1, ...)
   wipe(toUnload)
 end
 
+function WeakAuras.ScanForLoads(self, event, arg1, ...)
+  if not WeakAuras.IsLoginFinished() then
+    return
+  end
+  scanForLoadsImpl(self, event, arg1, ...)
+end
+
 local loadFrame = CreateFrame("FRAME");
 WeakAuras.loadFrame = loadFrame;
 WeakAuras.frames["Display Load Handling"] = loadFrame;
@@ -1848,7 +1856,7 @@ end
 
 function WeakAuras.ReloadAll()
   WeakAuras.UnloadAll();
-  WeakAuras.ScanForLoads();
+  scanForLoadsImpl();
 end
 
 function WeakAuras.UnloadAll()
@@ -4187,21 +4195,26 @@ do
     WeakAuras.StopProfileSystem("custom text - every frame update");
   end
 
+  local function InitCustomTextUpdatesImpl()
+    if not(customTextUpdateFrame) then
+      customTextUpdateFrame = CreateFrame("frame");
+      customTextUpdateFrame:SetScript("OnUpdate", DoCustomTextUpdates);
+    end
+  end
 
   function WeakAuras.InitCustomTextUpdates()
     if not WeakAuras.IsLoginFinished() then
       if initRequested then
         return
       end
-      loginQueue[#loginQueue] = WeakAuras.InitCustomTextUpdates
+      loginQueue[#loginQueue] = InitCustomTextUpdatesImpl
       initRequested = true
       return
     end
-    if not(customTextUpdateFrame) then
-      customTextUpdateFrame = CreateFrame("frame");
-      customTextUpdateFrame:SetScript("OnUpdate", DoCustomTextUpdates);
-    end
+    InitCustomTextUpdatesImpl()
   end
+
+
 
   function WeakAuras.RegisterCustomTextUpdates(region)
     WeakAuras.InitCustomTextUpdates();

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InnerSpaceSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Set Name="Characters">
+    <Set Name="Samoantitan">
+      <Set Name="Relay Groups">
+        <Setting Name="Follower" />
+        <Setting Name="Combat" />
+      </Set>
+      <Set Name="Key Maps" />
+      <Set Name="Click Bars" />
+      <Set Name="Virtual Files">
+        <Setting Name="Battle.net.config">Battle.net-Samoantitan.config</Setting>
+        <Setting Name="Config.WTF">Config-Samoantitan.WTF</Setting>
+        <Setting Name="Software/Blizzard Entertainment/Battle.net/">Software/Blizzard Entertainment/Battle.net-ISBoxer/Samoantitan/</Setting>
+      </Set>
+      <Set Name="Variable Keystrokes" />
+      <Setting Name="Game">World of Warcraft</Setting>
+      <Setting Name="Game Profile">World of Warcraft Launcher</Setting>
+      <Setting Name="Video Feed Viewers Permanent">FALSE</Setting>
+      <Setting Name="Mute Broadcasts">FALSE</Setting>
+    </Set>
+    <Set Name="Samoanrouge">
+      <Set Name="Relay Groups">
+        <Setting Name="Follower" />
+        <Setting Name="Combat" />
+      </Set>
+      <Set Name="Key Maps" />
+      <Set Name="Menus" />
+      <Set Name="Click Bars" />
+      <Set Name="Virtual Files">
+        <Setting Name="Battle.net.config">Battle.net-Samoanrouge.config</Setting>
+        <Setting Name="Config.WTF">Config-Samoanrouge.WTF</Setting>
+        <Setting Name="Software/Blizzard Entertainment/Battle.net/">Software/Blizzard Entertainment/Battle.net-ISBoxer/Samoanrouge/</Setting>
+      </Set>
+      <Set Name="Virtual Mapped Keys" />
+      <Set Name="Variable Keystrokes" />
+      <Setting Name="Game">World of Warcraft</Setting>
+      <Setting Name="Game Profile">World of Warcraft Launcher</Setting>
+      <Setting Name="Video Feed Viewers Permanent">FALSE</Setting>
+      <Setting Name="Mute Broadcasts">FALSE</Setting>
+    </Set>
+    <Set Name="Tygrrlilly">
+      <Set Name="Relay Groups">
+        <Setting Name="Follower" />
+        <Setting Name="Combat" />
+      </Set>
+      <Set Name="Key Maps" />
+      <Set Name="Menus" />
+      <Set Name="Click Bars" />
+      <Set Name="Virtual Files">
+        <Setting Name="Battle.net.config">Battle.net-New Character.config</Setting>
+        <Setting Name="Config.WTF">Config-New Character.WTF</Setting>
+        <Setting Name="Software/Blizzard Entertainment/Battle.net/">Software/Blizzard Entertainment/Battle.net-ISBoxer/New Character/</Setting>
+      </Set>
+      <Set Name="Virtual Mapped Keys" />
+      <Set Name="Variable Keystrokes" />
+      <Setting Name="Game">World of Warcraft</Setting>
+      <Setting Name="Game Profile">World of Warcraft Launcher</Setting>
+      <Setting Name="Video Feed Viewers Permanent">FALSE</Setting>
+      <Setting Name="Mute Broadcasts">FALSE</Setting>
+    </Set>
+  </Set>
+  <Set Name="Character Sets">
+    <Set Name="SS + M4NCUB">
+      <Set Name="Slots">
+        <Set Name="Slot 1">
+          <Set Name="Variable Keystrokes">
+            <Setting Name="Target Slot 1">F1</Setting>
+            <Setting Name="Target Slot 2">F2</Setting>
+          </Set>
+          <Setting Name="Character">Samoantitan</Setting>
+          <Setting Name="CPU Cores">1 on 2 on 3 on 4 on 5 on 6 on 7 on 8 on</Setting>
+          <Setting Name="FTL Modifiers">160</Setting>
+          <Setting Name="Foreground Max FPS">60</Setting>
+          <Setting Name="Background Max FPS">30</Setting>
+          <Setting Name="Switch To Hotkey">Ctrl+Alt+1</Setting>
+          <Setting Name="Switch To Hotkey is Global">TRUE</Setting>
+          <Setting Name="Switch To Effect Type">OnFocus</Setting>
+          <Setting Name="Switch To Effect Key Map">ISB42 - WoW</Setting>
+          <Setting Name="Switch To Effect Mapped Key">JambaMaster</Setting>
+        </Set>
+        <Set Name="Slot 2">
+          <Set Name="Variable Keystrokes">
+            <Setting Name="Target Slot 1">F2</Setting>
+            <Setting Name="Target Slot 2">F1</Setting>
+          </Set>
+          <Setting Name="Character">Samoanrouge</Setting>
+          <Setting Name="CPU Cores">1 on 2 on 3 on 4 on 5 on 6 on 7 on 8 on</Setting>
+          <Setting Name="FTL Modifiers">161</Setting>
+          <Setting Name="Foreground Max FPS">60</Setting>
+          <Setting Name="Background Max FPS">30</Setting>
+          <Setting Name="Switch To Hotkey">Ctrl+Alt+2</Setting>
+          <Setting Name="Switch To Hotkey is Global">TRUE</Setting>
+          <Setting Name="Switch To Effect Type">OnFocus</Setting>
+          <Setting Name="Switch To Effect Key Map">ISB42 - WoW</Setting>
+          <Setting Name="Switch To Effect Mapped Key">JambaMaster</Setting>
+        </Set>
+      </Set>
+      <Set Name="Key Maps">
+        <Setting Name="ISB42 - Always On" />
+        <Setting Name="ISB42 - Base Hotkeys" />
+        <Setting Name="ISB42 - Toggles" />
+        <Setting Name="ISB42 - Party" />
+        <Setting Name="ISB42 - Combat Broadcast" />
+        <Setting Name="ISB42 - Combat Broadcast Hotkeys" />
+        <Setting Name="ISB42 - WoW" />
+        <Setting Name="ISB42 - Custom Hotkeys" />
+      </Set>
+      <Set Name="Menus">
+        <Setting xsi:type="MenuInstanceSetting" Name="ISB42 - Toggles" />
+      </Set>
+      <Set Name="Click Bars" />
+      <Set Name="Virtual Files" />
+      <Set Name="Virtual Mapped Keys">
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #1" FromKeyMap="ISB42 - Party" FromMappedKey="Invite Team - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Invite Team (WoW Macro)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #2" FromKeyMap="ISB42 - Toggles" FromMappedKey="Activate Maps - Active Method" ToKeyMap="ISB42 - Toggles" ToMappedKey="Activate Maps (all windows)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #3" FromKeyMap="ISB42 - Toggles" FromMappedKey="Activate Repeat - Active Method" ToKeyMap="ISB42 - Toggles" ToMappedKey="Activate Repeat (current window)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #4" FromKeyMap="ISB42 - Party" FromMappedKey="Interact with Target - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Interact with Target - Standard" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #5" FromKeyMap="ISB42 - Party" FromMappedKey="Auto-Interact with Target - Active Method" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #6" FromKeyMap="ISB42 - Party" FromMappedKey="Auto-Assist Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Assist Me - Active Method" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #7" FromKeyMap="ISB42 - Party" FromMappedKey="Follow Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Follow Me (WoW Macro)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #8" FromKeyMap="ISB42 - Party" FromMappedKey="Assist Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Assist Me (WoW Macro)" />
+      </Set>
+      <Set Name="Variable Keystrokes" />
+      <Set Name="Launch Other Character Sets" />
+      <Setting Name="Repeater">Default</Setting>
+      <Setting Name="Launch Delay">10</Setting>
+      <Setting Name="Dynamic Launch Mode">FALSE</Setting>
+      <Setting Name="Lock Foreground">FALSE</Setting>
+      <Setting Name="Auto Mute Background">FALSE</Setting>
+      <Setting Name="Disable FPS Indicator">FALSE</Setting>
+      <Setting Name="Disable Force Windowed">FALSE</Setting>
+      <Setting Name="Disable Vertical Sync">TRUE</Setting>
+      <Setting Name="Cursor Clipping Mode">Allow</Setting>
+      <Setting Name="GUI Toggle Hotkey">162+160+164+G</Setting>
+      <Setting Name="Video FX Focus Hotkey">164+Mouse1</Setting>
+      <Setting Name="Window Layout">SS + M4NCUB</Setting>
+    </Set>
+    <Set Name="S + M + T">
+      <Set Name="Slots">
+        <Set Name="Slot 1">
+          <Set Name="Variable Keystrokes">
+            <Setting Name="Target Slot 1">F1</Setting>
+            <Setting Name="Target Slot 2">F2</Setting>
+            <Setting Name="Target Slot 3">F3</Setting>
+          </Set>
+          <Setting Name="Character">Samoantitan</Setting>
+          <Setting Name="CPU Cores">1 on 2 on 3 on 4 on 5 on 6 on 7 on 8 on</Setting>
+          <Setting Name="FTL Modifiers">160</Setting>
+          <Setting Name="Foreground Max FPS">60</Setting>
+          <Setting Name="Background Max FPS">30</Setting>
+          <Setting Name="Switch To Hotkey">Ctrl+Alt+1</Setting>
+          <Setting Name="Switch To Hotkey is Global">TRUE</Setting>
+          <Setting Name="Switch To Effect Type">OnFocus</Setting>
+          <Setting Name="Switch To Effect Key Map">ISB42 - WoW</Setting>
+          <Setting Name="Switch To Effect Mapped Key">JambaMaster</Setting>
+        </Set>
+        <Set Name="Slot 2">
+          <Set Name="Variable Keystrokes">
+            <Setting Name="Target Slot 1">F2</Setting>
+            <Setting Name="Target Slot 2">F1</Setting>
+            <Setting Name="Target Slot 3">F3</Setting>
+          </Set>
+          <Setting Name="Character">Samoanrouge</Setting>
+          <Setting Name="CPU Cores">1 on 2 on 3 on 4 on 5 on 6 on 7 on 8 on</Setting>
+          <Setting Name="FTL Modifiers">161</Setting>
+          <Setting Name="Foreground Max FPS">60</Setting>
+          <Setting Name="Background Max FPS">30</Setting>
+          <Setting Name="Switch To Hotkey">Ctrl+Alt+2</Setting>
+          <Setting Name="Switch To Hotkey is Global">TRUE</Setting>
+          <Setting Name="Switch To Effect Type">OnFocus</Setting>
+          <Setting Name="Switch To Effect Key Map">ISB42 - WoW</Setting>
+          <Setting Name="Switch To Effect Mapped Key">JambaMaster</Setting>
+        </Set>
+        <Set Name="Slot 3">
+          <Set Name="Variable Keystrokes">
+            <Setting Name="Target Slot 1">F2</Setting>
+            <Setting Name="Target Slot 2">F3</Setting>
+            <Setting Name="Target Slot 3">F1</Setting>
+          </Set>
+          <Setting Name="Character">Tygrrlilly</Setting>
+          <Setting Name="CPU Cores">1 on 2 on 3 on 4 on 5 on 6 on 7 on 8 on</Setting>
+          <Setting Name="FTL Modifiers">162</Setting>
+          <Setting Name="Foreground Max FPS">60</Setting>
+          <Setting Name="Background Max FPS">30</Setting>
+          <Setting Name="Switch To Hotkey">Ctrl+Alt+3</Setting>
+          <Setting Name="Switch To Hotkey is Global">TRUE</Setting>
+          <Setting Name="Switch To Effect Type">OnFocus</Setting>
+          <Setting Name="Switch To Effect Key Map">ISB42 - WoW</Setting>
+          <Setting Name="Switch To Effect Mapped Key">JambaMaster</Setting>
+        </Set>
+      </Set>
+      <Set Name="Key Maps">
+        <Setting Name="ISB42 - Always On" />
+        <Setting Name="ISB42 - Base Hotkeys" />
+        <Setting Name="ISB42 - Toggles" />
+        <Setting Name="ISB42 - Party" />
+        <Setting Name="ISB42 - Combat Broadcast" />
+        <Setting Name="ISB42 - Combat Broadcast Hotkeys" />
+        <Setting Name="ISB42 - WoW" />
+        <Setting Name="ISB42 - Custom Hotkeys" />
+      </Set>
+      <Set Name="Menus">
+        <Setting xsi:type="MenuInstanceSetting" Name="ISB42 - Toggles" />
+      </Set>
+      <Set Name="Click Bars" />
+      <Set Name="Virtual Files" />
+      <Set Name="Virtual Mapped Keys">
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #1" FromKeyMap="ISB42 - Party" FromMappedKey="Invite Team - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Invite Team (WoW Macro)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #2" FromKeyMap="ISB42 - Toggles" FromMappedKey="Activate Maps - Active Method" ToKeyMap="ISB42 - Toggles" ToMappedKey="Activate Maps (all windows)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #3" FromKeyMap="ISB42 - Toggles" FromMappedKey="Activate Repeat - Active Method" ToKeyMap="ISB42 - Toggles" ToMappedKey="Activate Repeat (current window)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #4" FromKeyMap="ISB42 - Party" FromMappedKey="Interact with Target - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Interact with Target - Standard" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #5" FromKeyMap="ISB42 - Party" FromMappedKey="Auto-Interact with Target - Active Method" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #6" FromKeyMap="ISB42 - Party" FromMappedKey="Auto-Assist Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Assist Me - Active Method" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #7" FromKeyMap="ISB42 - Party" FromMappedKey="Follow Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Follow Me (WoW Macro)" />
+        <Setting xsi:type="VirtualMappedKeySetting" Name="VMK #8" FromKeyMap="ISB42 - Party" FromMappedKey="Assist Me - Active Method" ToKeyMap="ISB42 - Party" ToMappedKey="Assist Me (WoW Macro)" />
+      </Set>
+      <Set Name="Variable Keystrokes" />
+      <Set Name="Launch Other Character Sets" />
+      <Setting Name="Repeater">Default</Setting>
+      <Setting Name="Launch Delay">10</Setting>
+      <Setting Name="Dynamic Launch Mode">FALSE</Setting>
+      <Setting Name="Lock Foreground">FALSE</Setting>
+      <Setting Name="Auto Mute Background">FALSE</Setting>
+      <Setting Name="Disable FPS Indicator">FALSE</Setting>
+      <Setting Name="Disable Force Windowed">FALSE</Setting>
+      <Setting Name="Disable Vertical Sync">TRUE</Setting>
+      <Setting Name="Cursor Clipping Mode">Allow</Setting>
+      <Setting Name="GUI Toggle Hotkey">162+160+164+G</Setting>
+      <Setting Name="Video FX Focus Hotkey">164+Mouse1</Setting>
+      <Setting Name="Window Layout">SS + M4NCUB + TYGR</Setting>
+    </Set>
+  </Set>
+  <Set Name="WindowSnapper Profiles" />
+  <Set Name="Window Layouts">
+    <Set Name="SS + M4NCUB">
+      <Set Name="Regions">
+        <Set Name="1">
+          <Setting Name="Top">0</Setting>
+          <Setting Name="Left">0</Setting>
+          <Setting Name="Width">1920</Setting>
+          <Setting Name="Height">1080</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">0</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY2</Setting>
+        </Set>
+        <Set Name="2">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">1920</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">1</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+        <Set Name="3">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">2760</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">2</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+      </Set>
+      <Set Name="Slots">
+        <Setting xsi:type="SlotSetting" Name="1" SwapGroup="1" Region="2" Permanent="false" />
+        <Setting xsi:type="SlotSetting" Name="2" SwapGroup="1" Region="3" Permanent="false" />
+      </Set>
+      <Set Name="Swap Groups">
+        <Set Name="1">
+          <Setting Name="Active Region">1</Setting>
+          <Setting Name="Reset Region">1</Setting>
+          <Setting Name="PiPSqueak Slot">0</Setting>
+        </Set>
+      </Set>
+      <Setting Name="Use Video FX Layout">FALSE</Setting>
+      <Setting Name="Instant Swap">TRUE</Setting>
+      <Setting Name="Swap Mode">AlwaysForGames</Setting>
+    </Set>
+    <Set Name="S + M + T">
+      <Set Name="Regions">
+        <Set Name="1">
+          <Setting Name="Top">0</Setting>
+          <Setting Name="Left">0</Setting>
+          <Setting Name="Width">1920</Setting>
+          <Setting Name="Height">1080</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">0</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY2</Setting>
+        </Set>
+        <Set Name="2">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">1920</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">2</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+        <Set Name="3">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">2760</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">3</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+      </Set>
+      <Set Name="Slots">
+        <Setting xsi:type="SlotSetting" Name="2" SwapGroup="1" Region="2" Permanent="false" />
+        <Setting xsi:type="SlotSetting" Name="3" SwapGroup="1" Region="3" Permanent="false" />
+        <Setting xsi:type="SlotSetting" Name="1" SwapGroup="1" Region="0" Permanent="false" />
+      </Set>
+      <Set Name="Swap Groups">
+        <Set Name="1">
+          <Setting Name="Active Region">1</Setting>
+          <Setting Name="Reset Region">1</Setting>
+          <Setting Name="PiPSqueak Slot">1</Setting>
+        </Set>
+      </Set>
+      <Setting Name="Use Video FX Layout">FALSE</Setting>
+      <Setting Name="Instant Swap">TRUE</Setting>
+      <Setting Name="Swap Mode">AlwaysForGames</Setting>
+    </Set>
+    <Set Name="SS + M4NCUB + TYGR">
+      <Set Name="Regions">
+        <Set Name="1">
+          <Setting Name="Top">0</Setting>
+          <Setting Name="Left">0</Setting>
+          <Setting Name="Width">1920</Setting>
+          <Setting Name="Height">1080</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">0</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY2</Setting>
+        </Set>
+        <Set Name="2">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">1920</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">1</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+        <Set Name="3">
+          <Setting Name="Top">561</Setting>
+          <Setting Name="Left">2760</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">2</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+        <Set Name="4">
+          <Setting Name="Top">36</Setting>
+          <Setting Name="Left">1920</Setting>
+          <Setting Name="Width">840</Setting>
+          <Setting Name="Height">525</Setting>
+          <Setting Name="Always On Top">SometimesOnTop</Setting>
+          <Setting Name="Border">None</Setting>
+          <Setting Name="Character Set Slot">3</Setting>
+          <Setting Name="Swap Group">1</Setting>
+          <Setting Name="Monitor">\\.\DISPLAY3</Setting>
+        </Set>
+      </Set>
+      <Set Name="Slots">
+        <Setting xsi:type="SlotSetting" Name="1" SwapGroup="1" Region="2" Permanent="false" />
+        <Setting xsi:type="SlotSetting" Name="2" SwapGroup="1" Region="3" Permanent="false" />
+        <Setting xsi:type="SlotSetting" Name="3" SwapGroup="1" Region="4" Permanent="false" />
+      </Set>
+      <Set Name="Swap Groups">
+        <Set Name="1">
+          <Setting Name="Active Region">1</Setting>
+          <Setting Name="Reset Region">1</Setting>
+          <Setting Name="PiPSqueak Slot">0</Setting>
+        </Set>
+      </Set>
+      <Setting Name="Use Video FX Layout">FALSE</Setting>
+      <Setting Name="Instant Swap">TRUE</Setting>
+      <Setting Name="Swap Mode">AlwaysForGames</Setting>
+    </Set>
+  </Set>
+  <Set Name="Repeater Profiles">
+    <Set Name="Default">
+      <Setting Name="Key Repeat Enabled">FALSE</Setting>
+      <Setting Name="Mouse Repeat Enabled">FALSE</Setting>
+      <Setting Name="Video FX Always Affects Broadcasting">FALSE</Setting>
+      <Setting Name="Mouse Transform Mode">None</Setting>
+      <Setting Name="Fake Cursor">TRUE</Setting>
+      <Setting Name="Mute Cursor When Foreground">TRUE</Setting>
+      <Setting Name="List Type">Ignore</Setting>
+      <Setting Name="Cursor Color Mask">FFFFFFFF</Setting>
+      <Setting Name="Repeater Target">all other</Setting>
+      <Setting Name="Block Local">FALSE</Setting>
+      <Setting Name="Cursor Feed">FALSE</Setting>
+      <Setting Name="Cursor Source Width">0</Setting>
+      <Setting Name="Cursor Source Height">0</Setting>
+      <Setting Name="Cursor Output Width">0</Setting>
+      <Setting Name="Cursor Output Height">0</Setting>
+      <Setting Name="Cursor Output Alpha">0</Setting>
+    </Set>
+  </Set>
+  <Set Name="Computers" />
+  <Set Name="Relay Groups">
+    <Setting Name="Follower" />
+    <Setting Name="Combat" />
+  </Set>
+  <Set Name="Action Timer Pools" />
+  <Set Name="Variable Keystrokes">
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Move Forward" Category="Movement" SubCategory="" Description="Moves the character forward. (Requires HOLD option on Mapped Key)">W</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Move Backward" Category="Movement" SubCategory="" Description="Moves the character backward. (Requires HOLD option on Mapped Key)">S</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Turn Left" Category="Movement" SubCategory="" Description="Turns the character counter-clockwise. (Requires HOLD option on Mapped Key)">A</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Turn Right" Category="Movement" SubCategory="" Description="Turns the character clockwise. (Requires HOLD option on Mapped Key)">D</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Move Left" Category="Movement" SubCategory="" Description="Strafes the character left. (Requires HOLD option on Mapped Key)">Q</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Move Right" Category="Movement" SubCategory="" Description="Strafes the character right. (Requires HOLD option on Mapped Key)">E</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Jump" Category="Movement" SubCategory="" Description="Makes the character jump. (May require HOLD option on Mapped Key)">Space</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Follow Target" Category="Movement" SubCategory="" Description="Most MMORPGs include an Auto-Follow feature, which is useful to move your characters together as a group." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Assist Target" Category="Targeting" SubCategory="" Description="Causes the character to select his target's target, such as to assist in combat against the same enemy. Most games include this feature." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Self" Category="Targeting" SubCategory="" Description="Causes the character to select himself.">F1</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 1" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 1, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 2" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 2, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 3" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 3, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 4" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 4, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 5" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 5, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Slot 6" Category="Targeting" SubCategory="Per-Slot targeting" Description="This can be configured individually for each Slot in your Character Set, in order to target the Character in Slot 6, in the game. This is useful for being able to easily Auto-Follow or Assist each window, for games that cannot easily do those things on a per-Character basis." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Interact with Target" Category="Targeting" SubCategory="" Description="While most MMORPGs require actually clicking with the mouse to perform the default 'right click' action, others including World of Warcraft provide a configurable Hotkey for the same capability." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Focus my Target" Category="Targeting" SubCategory="" Description="Focus is a secondary target available in some games, to remain 'focused' on a target while still being able to click or otherwise select others." />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Follow FTL" Category="Movement" SubCategory="" Description="If custom in-game /follow macros are available (RIFT and WoW), this keystroke can be combined with 'FTL Modifiers' to /follow a specific Character.">F11</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Assist FTL" Category="Targeting" SubCategory="" Description="If custom in-game /assist macros are available (RIFT and WoW), this keystroke can be combined with 'FTL Modifiers' to /assist a specific Character.">Backspace</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target FTL" Category="Targeting" SubCategory="" Description="If custom in-game /target macros are available (RIFT and WoW), this keystroke can be combined with 'FTL Modifiers' to /target a specific Character.">221</Setting>
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Assist Main" Category="Targeting" SubCategory="" Description="This can be configured to enable simply Assisting a pre-determined Main Character" />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Follow Main" Category="Movement" SubCategory="" Description="This can be configured to enable simply Following a pre-determined Main Character" />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Target Party Leader" Category="Targeting" SubCategory="" Description="If the game provides a key binding for targeting the Party Leader directly, this can be used to enable easily Following/Assisting the Party Leader" />
+    <Setting xsi:type="VariableKeystrokeSetting" Name="Invite Team" Category="Team" SubCategory="" Description="This can be configured to complete set up of the 'Invite Team' Mapped Key." />
+  </Set>
+</InnerSpaceSettings>

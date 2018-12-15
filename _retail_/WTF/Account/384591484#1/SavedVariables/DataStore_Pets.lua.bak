@@ -2,11 +2,15 @@
 DataStore_PetsDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["lastUpdate"] = 1544723709,
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1544576665,
+				["lastUpdate"] = 1544675426,
 			},
 		},
 	},

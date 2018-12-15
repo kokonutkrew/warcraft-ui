@@ -244,6 +244,29 @@ AAP.DubbleMacro = {}
 AAP.ButtonList = {}
 AAP.SetButtonVar = nil
 AAP.ButtonVisual = nil
+local function AAP_CheckZoneSteps()
+	if (AAP.ActiveMap and AAP1 and AAP1[AAP.Realm] and AAP1[AAP.Realm][AAP.Name] and AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap] and AAP.QuestStepList and AAP.QuestStepList[AAP.ActiveMap]) then
+		if (not AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"]) then
+			AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"] = {}
+		end
+		if (not AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"][AAP.ActiveMap]) then
+			local count = 0
+			for AAP_index,AAP_value in pairs(AAP.QuestStepList[AAP.ActiveMap]) do
+				count = count + 1
+			end
+			AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"][AAP.ActiveMap] = count
+		end
+		if (AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"][AAP.ActiveMap] > 1) then
+			AAP.QuestList.QuestFrames["MyProgressFS"]:SetText(AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap].."/"..AAP1[AAP.Realm][AAP.Name]["CountedZoneSteps"][AAP.ActiveMap])
+			local aapwidth = AAP.QuestList.QuestFrames["MyProgressFS"]:GetStringWidth()
+			AAP.QuestList.QuestFrames["MyProgress"]:SetWidth(aapwidth+10)
+			AAP.QuestList.QuestFrames["MyProgressFS"]:SetWidth(aapwidth+10)
+			AAP.QuestList.QuestFrames["MyProgress"]:Show()
+		else
+			AAP.QuestList.QuestFrames["MyProgress"]:Hide()
+		end
+	end
+end
 local function AAP_LeaveQuest(QuestIDs)
 	local tempa = 0
 	for j=1, GetNumQuestLogEntries() do
@@ -334,6 +357,7 @@ local function AAP_PrintQStep()
 	if (AAP.InCombat == 1) then
 		AAP.BookUpdAfterCombat = 1
 	end
+	AAP_CheckZoneSteps()
 	local CLi
 	for CLi = 1, 10 do
 		if (AAP.QuestList.QuestFrames[CLi]:IsShown()) then
@@ -2114,14 +2138,11 @@ local function AAP_UpdateMapId()
 	end
 	if (AAP.ActiveMap == 1 and AAP.Level == 20 and AAP.Race == "MagharOrc") then
 		AAP.ActiveMap = "1-MagharOrc"
-	end
-	if (AAP.ActiveMap == 1 and AAP.Level == 20 and AAP.Race == "HighmountainTauren") then
+	elseif (AAP.ActiveMap == 1 and AAP.Level == 20 and AAP.Race == "HighmountainTauren") then
 		AAP.ActiveMap = "1-HighmountainTauren"
-	end
-	if (AAP.ActiveMap == 1 and AAP.Level == 20 and AAP.Race == "Nightborne") then
+	elseif (AAP.ActiveMap == 1 and AAP.Level == 20 and AAP.Race == "Nightborne") then
 		AAP.ActiveMap = "1-Nightborne"
-	end
-	if (AAP.ActiveMap == 1 and AAP.Level > 19 and AAP.Level < 60) then
+	elseif (AAP.ActiveMap == 1 and AAP.Level > 19 and AAP.Level < 60) then
 		AAP.ActiveMap = "1-20-60"
 	end
 	if (AAP.ActiveMap == 76 and AAP.Level > 19 and AAP.Level < 60) then
@@ -2690,6 +2711,98 @@ function AAP_BookQStep()
 		print("Extra BookQStep")
 	end
 end
+local function AAP_InstanceTest()
+	local inInstance, instanceType = IsInInstance()
+	if (inInstance) then
+		local name, type, difficultyIndex, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapId, lfgID = GetInstanceInfo()
+		if (instanceMapId == 1760) then
+			return 0
+		elseif (instanceMapId == 1904) then
+			return 0
+		else
+			return 1
+		end
+	else
+		return 0
+	end
+end
+local function AAP_SendGroup()
+	if (IsInGroup(LE_PARTY_CATEGORY_HOME) and AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap] and (AAP.LastSent ~= AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]) and (AAP_InstanceTest() == 0)) then
+		C_ChatInfo.SendAddonMessage("AAPChat", AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap], "PARTY");
+		AAP.LastSent = AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]
+	end
+end
+function AAP.GroupListingFunc(AAP_StepStuffs, AAP_GListName)
+	if (not AAP.GroupListSteps[1]) then
+		AAP.GroupListSteps[1] = {}
+		AAP.GroupListStepsNr = 1
+	end
+	AAP.GroupListSteps[1]["Step"] = AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]
+	AAP.GroupListSteps[1]["Name"] = AAP.Name
+	if (AAP_GListName ~= AAP.Name) then
+		local AAPNews = 0
+		for AAP_index,AAP_value in pairs(AAP.GroupListSteps) do
+			if (AAP.GroupListSteps[AAP_index]["Name"] == AAP_GListName) then
+				AAP.GroupListSteps[AAP_index]["Step"] = AAP_StepStuffs
+				AAPNews = 1
+			end
+		end
+		if (AAPNews == 0) then
+			AAP.GroupListStepsNr = AAP.GroupListStepsNr + 1
+			AAP.GroupListSteps[AAP.GroupListStepsNr] = {}
+			AAP.GroupListSteps[AAP.GroupListStepsNr]["Name"] = AAP_GListName
+			AAP.GroupListSteps[AAP.GroupListStepsNr]["Step"] = AAP_StepStuffs
+		end
+	end
+	AAP.RepaintGroups()
+end
+function AAP.RepaintGroups()
+	if (AAP_InstanceTest() ~= 0) then
+		local CLi
+		for CLi = 1, 5 do
+			AAP.PartyList.PartyFrames[CLi]:Hide()
+			AAP.PartyList.PartyFrames2[CLi]:Hide()
+		end
+	else
+		if (not AAP.GroupListSteps[1]) then
+			AAP.GroupListSteps[1] = {}
+			AAP.GroupListStepsNr = 1
+		end
+		AAP.GroupListSteps[1]["Step"] = AAP1[AAP.Realm][AAP.Name][AAP.ActiveZone]
+		AAP.GroupListSteps[1]["Name"] = AAP.Name
+		local CLi
+		for CLi = 1, 5 do
+			if (AAP.GroupListSteps[CLi]) then
+				AAP.PartyList.PartyFramesFS1[CLi]:SetText(AAP.GroupListSteps[CLi]["Name"])
+				AAP.PartyList.PartyFramesFS2[CLi]:SetText(AAP.GroupListSteps[CLi]["Step"])
+				local CLi2
+				local Highnr = 0
+				for CLi2 = 1, 5 do
+					if (AAP.GroupListSteps[CLi2] and AAP.GroupListSteps[CLi2]["Step"] and AAP.GroupListSteps[CLi] and AAP.GroupListSteps[CLi]["Step"] and (AAP.GroupListSteps[CLi2]["Step"] > AAP.GroupListSteps[CLi]["Step"])) then
+						Highnr = 1
+					end
+				end
+				if (Highnr == 1) then
+					AAP.PartyList.PartyFramesFS2[CLi]:SetTextColor(1, 0, 0)
+				else
+					AAP.PartyList.PartyFramesFS2[CLi]:SetTextColor(0, 1, 0)
+				end
+				AAP.PartyList.PartyFrames[CLi]:Show()
+				AAP.PartyList.PartyFrames2[CLi]:Show()
+			else
+				AAP.PartyList.PartyFrames[CLi]:Hide()
+				AAP.PartyList.PartyFrames2[CLi]:Hide()
+			end
+		end
+	end
+	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowGroup"] == 0) then
+		local CLi
+		for CLi = 1, 5 do
+			AAP.PartyList.PartyFrames[CLi]:Hide()
+			AAP.PartyList.PartyFrames2[CLi]:Hide()
+		end
+	end
+end
 
 AAP.LoopBooking = CreateFrame("frame")
 AAP.LoopBooking:SetScript("OnUpdate", AAP_LoopBookingFunc)
@@ -2721,7 +2834,7 @@ AAP_QH_EventFrame:RegisterEvent ("QUEST_CHOICE_UPDATE")
 AAP_QH_EventFrame:RegisterEvent ("PLAYER_REGEN_ENABLED")
 AAP_QH_EventFrame:RegisterEvent ("PLAYER_REGEN_DISABLED")
 AAP_QH_EventFrame:RegisterEvent ("QUEST_CHOICE_UPDATE")
-
+AAP_QH_EventFrame:RegisterEvent ("CHAT_MSG_ADDON")
 
 AAP_QH_EventFrame:SetScript("OnEvent", function(self, event, ...)
 	if (event=="PLAYER_REGEN_ENABLED") then
@@ -2732,6 +2845,12 @@ AAP_QH_EventFrame:SetScript("OnEvent", function(self, event, ...)
 	end
 	if (event=="PLAYER_REGEN_DISABLED") then
 		AAP.InCombat = 1
+	end
+	if (event=="CHAT_MSG_ADDON" and AAP_DisableAddon == 0) then
+		local arg1, arg2, arg3, arg4 = ...;
+		if (arg1 == "AAPChat") then
+			AAP.GroupListingFunc(tonumber(arg2), AAP.TrimPlayerServer(arg4))
+		end
 	end
 	if (event=="QUEST_CHOICE_UPDATE") then
 		local CurStep = AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]
@@ -3002,7 +3121,7 @@ AAP_QH_EventFrame:SetScript("OnEvent", function(self, event, ...)
 		if (arg1 == "player" and arg3 == 85141) then
 			local CurStep = AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]
 			local steps
-			if (CurStep) then
+			if (CurStep and AAP.QuestStepList and AAP.QuestStepList[AAP.ActiveMap] and AAP.QuestStepList[AAP.ActiveMap][CurStep]) then
 				steps = AAP.QuestStepList[AAP.ActiveMap][CurStep]
 			end
 			if (steps and steps["ExtraLine"] and steps["ExtraLine"] == 55) then
@@ -3018,7 +3137,7 @@ AAP_QH_EventFrame:SetScript("OnEvent", function(self, event, ...)
 		if ((arg1 == "player") and (arg3 == 8690)) then
 			local CurStep = AAP1[AAP.Realm][AAP.Name][AAP.ActiveMap]
 			local steps
-			if (CurStep) then
+			if (CurStep and AAP.QuestStepList and AAP.QuestStepList[AAP.ActiveMap] and AAP.QuestStepList[AAP.ActiveMap][CurStep]) then
 				steps = AAP.QuestStepList[AAP.ActiveMap][CurStep]
 			end
 			if (steps and steps["UseHS"]) then

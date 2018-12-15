@@ -1,8 +1,8 @@
 --[[
 	AutoFlood
 
-	Version : v1.2.0.15
-	Date    : 2018-07-18T21:05:47Z
+	Version : v1.2.0.16
+	Date    : 2018-12-14T20:56:54Z
 	Author  : LenweSaralonde
 ]]
 

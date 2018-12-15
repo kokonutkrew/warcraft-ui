@@ -226,7 +226,7 @@ local function showplayertooltip(name,groupID)
 				GameTooltip:AddDoubleLine(BEST,table.concat(tb),nil,nil,nil,r,g,b)
 			end
 			if not groupID then
-				local _, activityID = C_LFGList.GetActiveEntryInfo()
+				local _, activityID = LookingForGroup.GetActiveEntryInfo()
 				if activityID then
 					_,_,_,groupID = C_LFGList.GetActivityInfo(activityID)
 				end
@@ -334,17 +334,14 @@ local maps_to_activity_id =
 	[248] = 530
 }
 
-LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(resultID,profile,player_info)
-	local id, activityID, name, comment, voiceChat, iLvl, honorLevel,
-		age, numBNetFriends, numCharFriends, numGuildMates,
-		isDelisted, leaderName, numMembers = C_LFGList.GetSearchResultInfo(resultID)
-	local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
+LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(lfginfo,profile,player_info)
+	local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(lfginfo.activityID)
 	local did = dungeons[groupID]
 	if not did then
 		return 1
 	end
 	local t = player_info.dungeons[did] or 0
-	local info = GetScore(leaderName)
+	local info = GetScore(lfginfo.leaderName)
 	local tl = info and info.dungeons[did] or 0
 	if t1 + 3 < t then
 		return 1
@@ -356,13 +353,10 @@ end,function(profile)
 	end
 end)
 
-LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(resultID,profile)
+LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(lfginfo,profile)
 	local minimum_score = profile.a.raider_io_find_a_group_min_score
 	local maximum_score = profile.a.raider_io_find_a_group_max_score
-	local id, activityID, name, comment, voiceChat, iLvl, honorLevel,
-		age, numBNetFriends, numCharFriends, numGuildMates,
-		isDelisted, leaderName, numMembers = C_LFGList.GetSearchResultInfo(resultID)
-	local info = GetScore(leaderName)
+	local info = GetScore(lfginfo.leaderName)
 	if info then
 		local score = info.allScore
 		if (not minimum_score or minimum_score <= score) and (not maximum_score or score <=maximum_score) then
@@ -388,7 +382,7 @@ LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,i
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = C_LFGList.GetActiveEntryInfo()
+		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
 		if active then
 			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
 			if categoryID == 2 then
@@ -414,7 +408,7 @@ LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,i
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = C_LFGList.GetActiveEntryInfo()
+		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
 		if active then
 			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
 			if categoryID == 2 and profile.raider_io_start_a_group_elitist then
@@ -473,7 +467,7 @@ LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,i
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = C_LFGList.GetActiveEntryInfo()
+		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
 		if active then
 			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
 			if groupID == LookingForGroup_RaiderIO.CurrentRaidGroupID and profile.a.raider_io_find_a_group_elitism then
@@ -483,12 +477,9 @@ end,function(profile)
 	end
 end)
 
-LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(resultID,profile)
-	local id, activityID, name, comment, voiceChat, iLvl, honorLevel,
-		age, numBNetFriends, numCharFriends, numGuildMates,
-		isDelisted, leaderName, numMembers = C_LFGList.GetSearchResultInfo(resultID)
-	local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
-	if groupID == LookingForGroup_RaiderIO.CurrentRaidGroupID and player_has_finished("player",shortName) ~= player_has_finished(leaderName,shortName) then
+LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(lfginfo,profile)
+	local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(lfginfo.activityID)
+	if groupID == LookingForGroup_RaiderIO.CurrentRaidGroupID and player_has_finished("player",shortName) ~= player_has_finished(lfginfo.leaderName,shortName) then
 		return 1
 	end
 end,function(profile)
@@ -517,7 +508,7 @@ end
 local CLASS_COLORS = CUSTOM_CLASS_COLORS or RAID_CLASS_COLORS
 
 LookingForGroup_Options.lfg_applicant_scores[#LookingForGroup_Options.lfg_applicant_scores+1] = function(applicantID)
-	local id, status, pendingStatus, numMembers, isNew, comment = C_LFGList.GetApplicantInfo(applicantID)
+	local id, status, pendingStatus, numMembers, isNew, comment = LookingForGroup.GetApplicantInfo(applicantID)
 	for i=1,numMembers do
 		local name, class, localizedClass, level, itemLevel, honorLevel, tank, healer, damage, assignedRole, relationship = C_LFGList.GetApplicantMemberInfo(id,i)
 		if name then
@@ -786,7 +777,7 @@ LookingForGroup_Options:push("raider.io",{
 		create_elitist_activity =
 		{
 			name = function()
-				if C_LFGList.GetActiveEntryInfo() then
+				if LookingForGroup.GetActiveEntryInfo() then
 					return UNLIST_MY_GROUP
 				else
 					return L.create_elitist
@@ -796,7 +787,7 @@ LookingForGroup_Options:push("raider.io",{
 			type = "execute",
 			order = 1,
 			func = function()
-				if C_LFGList.GetActiveEntryInfo() then
+				if LookingForGroup.GetActiveEntryInfo() then
 					C_LFGList.RemoveListing()
 					return
 				end
@@ -934,7 +925,7 @@ local function check_progress()
 	local dialog = {}
 	StaticPopupDialogs.LookingForGroup_RaiderIO_Popup = dialog
 	while not db.profile.raider_io_checkkills and tag~=0 do
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = C_LFGList.GetActiveEntryInfo()
+		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
 		if active then
 			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
 			if groupID ~= LookingForGroup_RaiderIO.CurrentRaidGroupID then

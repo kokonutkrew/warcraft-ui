@@ -2,6 +2,7 @@
 LegionInvasionTimerDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanknight - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -14,4 +15,4 @@ LegionInvasionTimerDB = {
 		},
 	},
 }
-LegionInvasionTime = 1544551234
+LegionInvasionTime = 1544617822

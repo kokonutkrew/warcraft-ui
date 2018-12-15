@@ -1,0 +1,53 @@
+
+AAP1 = {
+	["EmeraldDream"] = {
+		["Tygrrlilly"] = {
+			["A13"] = 1,
+			["A37"] = 1,
+			["WantedQuestList"] = {
+			},
+			["Settings"] = {
+				["LockArrow"] = 0,
+				["Scale"] = 0.71,
+				["CutScene"] = 1,
+				["left"] = 1200,
+				["Greetings2"] = 1,
+				["Greetings3"] = 0,
+				["AutoHandIn"] = 1,
+				["BannerScale"] = 0.71,
+				["Lock"] = 0,
+				["AutoGossip"] = 1,
+				["ShowQList"] = 1,
+				["Greetings"] = 0,
+				["Hide"] = 0,
+				["ArrowScale"] = 0.71,
+				["ShowArrow"] = 1,
+				["AutoVendor"] = 0,
+				["Hcamptop"] = -215.999975585938,
+				["AutoRepair"] = 0,
+				["ShowGroup"] = 1,
+				["alpha"] = 1,
+				["AutoHandInChoice"] = 0,
+				["top"] = -215.999975585938,
+				["ChooseQuests"] = 0,
+				["AutoShareQ"] = 0,
+				["BannerShow"] = 0,
+				["AutoAccept"] = 1,
+				["Hcampleft"] = 1200,
+				["arrowleft"] = 936.585365853659,
+				["arrowtop"] = -719.999918619792,
+			},
+			["BonusSkips"] = {
+			},
+			["SkippedBonusObj"] = {
+			},
+			["LoaPick"] = 0,
+			["AAP_DoWarCampaign"] = 0,
+			["QlineSkip"] = {
+			},
+		},
+	},
+}
+AAP2 = nil
+AAP3 = nil
+AAP_HoldZoneVar = nil

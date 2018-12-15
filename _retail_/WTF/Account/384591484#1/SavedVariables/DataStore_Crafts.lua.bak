@@ -2,11 +2,15 @@
 DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["lastUpdate"] = 1544723654,
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1544576665,
+				["lastUpdate"] = 1544674494,
 			},
 		},
 	},
@@ -14,5 +18,6 @@ DataStore_CraftsDB = {
 DataStore_CraftsRefDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 }

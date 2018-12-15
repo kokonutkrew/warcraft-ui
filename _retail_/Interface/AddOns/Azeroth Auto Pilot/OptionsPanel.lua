@@ -617,6 +617,27 @@ function AAP.LoadOptionsFrame()
 	AAP.OptionsFrame.BannerScaleSlider:SetValue(AAP1[AAP.Realm][AAP.Name]["Settings"]["BannerScale"] * 100)
 
 
+	
+	AAP.OptionsFrame.GroupShowCheckButton = CreateFrame("CheckButton", "AAP_GroupShowCheckButton", AAP.OptionsFrame.MainFrame.OptionsGeneral, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.GroupShowCheckButton:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame.OptionsGeneral, "TOPLEFT", 10, -175)
+	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowGroup"] == 0) then
+		AAP.OptionsFrame.GroupShowCheckButton:SetChecked(false)
+	else
+		AAP.OptionsFrame.GroupShowCheckButton:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.GroupShowCheckButton:GetName() .. 'Text'):SetText(": "..AAP_Locals["ShowGroup"])
+	getglobal(AAP.OptionsFrame.GroupShowCheckButton:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.GroupShowCheckButton:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.GroupShowCheckButton:GetChecked() == true) then
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowGroup"] = 1
+			AAP.PartyList.PartyFrame:Show()
+		else
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowGroup"] = 0
+			AAP.PartyList.PartyFrame:Hide()
+		end
+	end)
+	
+	
 
 
 
@@ -629,6 +650,7 @@ function AAP.LoadOptionsFrame()
 	AAP.OptionsFrame["Button1"]:SetHeight(30)
 	AAP.OptionsFrame["Button1"]:SetText("Close")
 	AAP.OptionsFrame["Button1"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button1:SetFrameStrata("HIGH")
 	AAP.OptionsFrame.Button1:SetNormalFontObject("GameFontNormal")
 	AAP.OptionsFrame.Button1ntex = AAP.OptionsFrame.Button1:CreateTexture()
 	AAP.OptionsFrame.Button1ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
@@ -659,6 +681,7 @@ function AAP.LoadOptionsFrame()
 	AAP.OptionsFrame["Button2"]:SetHeight(30)
 	AAP.OptionsFrame["Button2"]:SetText(AAP_Locals["Keybinds"])
 	AAP.OptionsFrame["Button2"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button2:SetFrameStrata("HIGH")
 	AAP.OptionsFrame.Button2:SetNormalFontObject("GameFontNormal")
 	AAP.OptionsFrame.Button2ntex = AAP.OptionsFrame.Button2:CreateTexture()
 	AAP.OptionsFrame.Button2ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
@@ -686,6 +709,7 @@ function AAP.LoadOptionsFrame()
 	AAP.OptionsFrame["Button3"]:SetHeight(30)
 	AAP.OptionsFrame["Button3"]:SetText("Reset")
 	AAP.OptionsFrame["Button3"]:SetParent(AAP.OptionsFrame.MainFrame)
+	AAP.OptionsFrame.Button3:SetFrameStrata("HIGH")
 	AAP.OptionsFrame.Button3:SetNormalFontObject("GameFontNormal")
 	AAP.OptionsFrame.Button3ntex = AAP.OptionsFrame.Button3:CreateTexture()
 	AAP.OptionsFrame.Button3ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")

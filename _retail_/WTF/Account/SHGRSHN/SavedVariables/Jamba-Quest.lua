@@ -2,15 +2,27 @@
 JambaQuestProfileDB = {
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoantank - Tichondrius"] = {
 		},
-		["Samoantitan - Stormrage"] = {
+		["KokonutKrew"] = {
+			["onlyAcceptQuestsFrom"] = true,
+			["acceptFromTeam"] = true,
+			["doNotAutoAccept"] = false,
+			["masterAutoShareQuestOnAccept"] = true,
 		},
 		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
 		},
 	},
 }

@@ -2,6 +2,7 @@
 sArenaDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanknight - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

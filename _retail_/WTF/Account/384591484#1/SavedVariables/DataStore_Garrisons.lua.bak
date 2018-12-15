@@ -2,11 +2,15 @@
 DataStore_GarrisonsDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["lastUpdate"] = 1544723655,
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1544576667,
+				["lastUpdate"] = 1544674496,
 			},
 		},
 	},

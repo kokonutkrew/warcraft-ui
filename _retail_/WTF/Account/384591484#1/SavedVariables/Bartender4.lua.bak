@@ -8,13 +8,13 @@ Bartender4DB = {
 				["Samoanrouge - Emerald Dream"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -26,6 +26,7 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
@@ -33,9 +34,9 @@ Bartender4DB = {
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["padding"] = 5,
 						}, -- [3]
 						{
+							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
@@ -43,25 +44,24 @@ Bartender4DB = {
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["padding"] = 5,
 						}, -- [4]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 94,
 								["x"] = 3,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [5]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 94,
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -72,6 +72,72 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Samoanknight - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+								["y"] = -227.499847412109,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 94,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 94,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
@@ -79,26 +145,44 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["Samoanrouge - Emerald Dream"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
+				},
+				["Samoanknight - Emerald Dream"] = {
 					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+						["y"] = 223.000030517578,
+					},
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Samoanrouge - Emerald Dream"] = {
+					["padding"] = -2,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
+				},
+				["Samoanknight - Emerald Dream"] = {
 					["version"] = 3,
 					["padding"] = -2,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 41.75,
+					},
 				},
 			},
 		},
@@ -112,30 +196,55 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Samoanknight - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 345,
+						["point"] = "BOTTOM",
+						["y"] = 38.5,
+					},
+				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["Samoanrouge - Emerald Dream"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
+				},
+				["Samoanknight - Emerald Dream"] = {
+					["enabled"] = true,
 					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
 				},
 			},
 		},
-		["StanceBar"] = {
+		["ZoneAbilityBar"] = {
 			["profiles"] = {
 				["Samoanrouge - Emerald Dream"] = {
-					["position"] = {
-						["y"] = -14.9999618530273,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
 					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanknight - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+						["y"] = 223.000045776367,
+					},
 				},
 			},
 		},
@@ -147,6 +256,14 @@ Bartender4DB = {
 						["y"] = 47.5000305175781,
 						["x"] = 99.5,
 						["point"] = "CENTER",
+					},
+				},
+				["Samoanknight - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.5000305175781,
 					},
 				},
 			},
@@ -161,26 +278,48 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Samoanknight - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 127,
+					},
+				},
 			},
 		},
-		["ZoneAbilityBar"] = {
+		["StanceBar"] = {
 			["profiles"] = {
 				["Samoanrouge - Emerald Dream"] = {
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
 					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999618530273,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanknight - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.5,
+						["point"] = "CENTER",
+						["y"] = -14.9999618530273,
+					},
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanrouge - Emerald Dream"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Samoanknight - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

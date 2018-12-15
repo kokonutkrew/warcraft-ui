@@ -2,10 +2,14 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Version"] = 1,
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
 				["faction"] = "Alliance",
 			},

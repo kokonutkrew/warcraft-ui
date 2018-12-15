@@ -2,11 +2,17 @@
 DataStore_QuestsDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["HistoryLastUpdate"] = 1544723655,
+				["HistoryBuild"] = "28724",
+				["lastUpdate"] = 1544723654,
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["HistoryLastUpdate"] = 1544576667,
+				["HistoryLastUpdate"] = 1544674496,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:28764:3:1:255:0|h[Beating Them Back!]|h|r", -- [1]
 				},
@@ -17,12 +23,15 @@ DataStore_QuestsDB = {
 				["QuestHeaders"] = {
 					"Northshire", -- [1]
 				},
-				["lastUpdate"] = 1544576870,
+				["QuestTags"] = {
+					"COMPLETED", -- [1]
+				},
+				["lastUpdate"] = 1544674569,
 				["Money"] = {
 					50, -- [1]
 				},
 				["Quests"] = {
-					198720, -- [1]
+					198721, -- [1]
 				},
 			},
 		},

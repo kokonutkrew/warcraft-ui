@@ -17,11 +17,31 @@
     }, 
     "profiles": [
         {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanhunter", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanknight", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanrouge", 
             "template": "default"
         }, 
         {
             "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/test", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/73043797#2/Emerald Dream/Tygrrlilly", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoanrelic", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoansavage", 
             "template": "default"
         }, 
         {
@@ -46,6 +66,10 @@
         }, 
         {
             "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoansage", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Stormrage/Samoansaint", 
             "template": "default"
         }, 
         {

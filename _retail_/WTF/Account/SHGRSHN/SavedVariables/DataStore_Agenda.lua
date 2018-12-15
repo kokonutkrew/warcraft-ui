@@ -4,12 +4,16 @@ DataStore_AgendaDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -31,24 +35,24 @@ DataStore_AgendaDB = {
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1541831705,
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810808,
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472620,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["DungeonIDs"] = {
-					["The MOTHERLODE!! Heroic|254249338"] = "79249|1544633953|0|0",
-				},
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814542,
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628726,
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770122,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["Contacts"] = {
-					["Teenkerbella"] = {
+					["Dkpindleskin"] = {
 						["note"] = "",
 					},
-					["Dkpindleskin"] = {
+					["Sparticusmx"] = {
 						["note"] = "",
 					},
 					["Pacìfist"] = {
@@ -57,31 +61,19 @@ DataStore_AgendaDB = {
 					["Cotanbank"] = {
 						["note"] = "",
 					},
-					["LaieboC2AE2A"] = {
-						["note"] = "",
-					},
-					["Frogz"] = {
-						["note"] = "",
-					},
-					["Sparticusmx"] = {
-						["note"] = "",
-					},
-					["Traynissa"] = {
-						["note"] = "",
-					},
 					["Clandestìne"] = {
 						["note"] = "",
 					},
-					["Rafidh"] = {
+					["LaieboC2AE2A"] = {
 						["note"] = "",
 					},
-					["Mythicimus"] = {
+					["Bauce"] = {
 						["note"] = "",
 					},
 					["Bankbeamz"] = {
 						["note"] = "",
 					},
-					["Bauce"] = {
+					["Nossbigga"] = {
 						["note"] = "",
 					},
 					["Nossbig"] = {
@@ -93,11 +85,23 @@ DataStore_AgendaDB = {
 					["Maikar"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
+					["Rafidh"] = {
+						["note"] = "",
+					},
+					["Frogz"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1544642630,
+				["lastUpdate"] = 1544808310,
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544815836,
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544812697,
+			},
+			["Default.Stormrage.Samoantotems"] = {
+				["lastUpdate"] = 1544635459,
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["Contacts"] = {
@@ -107,8 +111,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1540622531,
 			},
-			["Default.Stormrage.Samoantotems"] = {
-				["lastUpdate"] = 1544635459,
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768458,
 			},
 		},
 	},

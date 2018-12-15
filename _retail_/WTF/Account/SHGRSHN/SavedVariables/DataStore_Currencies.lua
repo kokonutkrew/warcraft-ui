@@ -4,12 +4,16 @@ DataStore_CurrenciesDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -91,9 +95,9 @@ DataStore_CurrenciesDB = {
 				["7th Legion Service Medal"] = 29,
 				["Legion"] = 5,
 				["Timeworn Artifact"] = 9,
+				["Wakening Essence"] = 10,
 				["Warlords of Draenor"] = 20,
 				["Miscellaneous"] = 13,
-				["Wakening Essence"] = 10,
 				["Apexis Crystal"] = 21,
 				["Darkmoon Prize Ticket"] = 14,
 				["Oil"] = 23,
@@ -287,6 +291,47 @@ DataStore_CurrenciesDB = {
 					[1565] = "0-0-0-0",
 				},
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810348,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[1580] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[1710] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+				},
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
 				["CurrencyInfo"] = {
@@ -342,7 +387,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814541,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "676-0-0-0",
@@ -360,23 +405,23 @@ DataStore_CurrenciesDB = {
 					[1565] = "0-0-0-0",
 				},
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628726,
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770122,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "0-0-0-0",
 					[824] = "0-0-0-0",
 					[1273] = "0-0-0-0",
 					[1191] = "0-0-0-0",
-					[1580] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1560] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1710] = "0-0-0-0",
 					[1342] = "0-0-0-0",
 					[1226] = "0-0-0-0",
-					[1710] = "0-0-0-0",
+					[1560] = "0-0-0-0",
 					[994] = "0-0-0-0",
-					[1587] = "0-0-0-0",
-					[1565] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1580] = "0-0-0-0",
 				},
 			},
 			["Default.Tichondrius.Samoantank"] = {
@@ -399,12 +444,12 @@ DataStore_CurrenciesDB = {
 					2976, -- [16]
 					70, -- [17]
 					3322786, -- [18]
-					1168014, -- [19]
+					1467022, -- [19]
 					144, -- [20]
 					155428, -- [21]
 					18, -- [22]
-					210854, -- [23]
-					112532, -- [24]
+					256038, -- [23]
+					146964, -- [24]
 					41, -- [25]
 					13035690, -- [26]
 					49456, -- [27]
@@ -444,10 +489,10 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1544642630,
+				["lastUpdate"] = 1544808310,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "9125-0-0-0",
+					[1220] = "11461-0-0-0",
 					[824] = "4707-0-0-10000",
 					[1273] = "1-0-0-6",
 					[1191] = "2150-0-0-5000",
@@ -462,8 +507,27 @@ DataStore_CurrenciesDB = {
 					[1580] = "0-0-0-0",
 				},
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622531,
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544815836,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1710] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+					[1580] = "0-0-0-0",
+				},
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544812697,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "0-0-0-0",
@@ -471,9 +535,9 @@ DataStore_CurrenciesDB = {
 					[1273] = "0-0-0-0",
 					[1191] = "0-0-0-0",
 					[1580] = "0-0-0-0",
-					[1342] = "0-0-0-0",
-					[1560] = "0-0-0-0",
 					[823] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 					[1226] = "0-0-0-0",
 					[1710] = "0-0-0-0",
 					[994] = "0-0-0-0",
@@ -511,8 +575,53 @@ DataStore_CurrenciesDB = {
 					[824] = "0-0-0-0",
 					[1273] = "0-0-0-0",
 					[1191] = "0-0-0-0",
-					[1342] = "0-0-0-0",
 					[1580] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[1710] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+				},
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["lastUpdate"] = 1540622531,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[1580] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+					[1560] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[1710] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1587] = "0-0-0-0",
+					[1565] = "0-0-0-0",
+				},
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["Currencies"] = {
+					11, -- [1]
+					627470, -- [2]
+					18708, -- [3]
+					41, -- [4]
+					24236, -- [5]
+				},
+				["lastUpdate"] = 1544768458,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "4902-0-0-0",
+					[824] = "189-0-0-10000",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[1580] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 					[1560] = "0-0-0-0",
 					[823] = "0-0-0-0",
 					[1226] = "0-0-0-0",

@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
-	["_200000"] = 1000,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
+	["_500"] = 5,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -40,7 +40,17 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Samoanrouge"] = {
 		["firstSeen"] = 1544572353,
+		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-162-0A000DE2",
+	},
+	["Samoanknight"] = {
+		["firstSeen"] = 1544723649,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-0A01142D",
+	},
+	["Samoanhunter"] = {
+		["firstSeen"] = 1544725074,
+		["guid"] = "Player-162-0A0112EF",
 		["firstVersion"] = "5.0.5",
 	},
 }

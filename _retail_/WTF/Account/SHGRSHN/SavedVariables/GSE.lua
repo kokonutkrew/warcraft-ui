@@ -69,10 +69,10 @@ GSEOptions = {
 		["RightShift"] = false,
 	},
 	["filterList"] = {
-		["Spec"] = true,
-		["Class"] = true,
-		["Global"] = true,
 		["All"] = false,
+		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
 	["UseVerboseExportFormat"] = false,
@@ -112,6 +112,7 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -141,7 +142,6 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["ManualIntervention"] = true,
 		},
 		["BFA_RET_AOE"] = {
@@ -149,6 +149,7 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["SpecID"] = 70,
 			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
@@ -180,7 +181,6 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["SpecID"] = 70,
 			["ManualIntervention"] = true,
 		},
 	}, -- [2]
@@ -191,6 +191,8 @@ GSELibrary = {
 			["Default"] = 1,
 			["Talents"] = "2222212",
 			["Help"] = "Sample Assination Macro",
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 259,
 			["MacroVersions"] = {
 				{
 					"/cast 1329", -- [1]
@@ -213,14 +215,14 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 259,
 			["Icon"] = "Ability_Rogue_DeadlyBrew",
 			["ManualIntervention"] = false,
 		},
 		["SAM_OUTLAW"] = {
 			["Talents"] = "2222231",
 			["Default"] = 1,
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast 8676", -- [1]
@@ -249,14 +251,14 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 260,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SUB"] = {
 			["Talents"] = "3113213",
 			["Default"] = 1,
+			["Author"] = "Cymiryc",
+			["SpecID"] = 261,
 			["MacroVersions"] = {
 				{
 					"/castsequence [form:1/2/3] 185438", -- [1]
@@ -280,13 +282,76 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "Cymiryc",
-			["SpecID"] = 261,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 	}, -- [4]
-	nil, -- [5]
+	{
+		["SAM_SHADOW"] = {
+			["Help"] = "",
+			["Talents"] = "1211221",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/castsequence [nochanneling] reset=target  34914, 15407, null", -- [1]
+					"/cast [nochanneling] 8092", -- [2]
+					"/castsequence [combat, nochanneling] 228260, 34433", -- [3]
+					"/cast [nochanneling] 228260", -- [4]
+					"/cast [nochanneling] 32379", -- [5]
+					"/cast [nochanneling] 15407", -- [6]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+						"/cast [combat,nochanneling] 586", -- [1]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [form:0] 232698", -- [1]
+						"/targetenemy [noharm][dead]", -- [2]
+						"/castsequence [mod:alt] 589, 34914", -- [3]
+					},
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 258,
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_DISC"] = {
+			["Talents"] = "1231212",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/cast [@player, nocombat, nochanneling] 17", -- [1]
+					"/cast [combat, nochanneling] 34433", -- [2]
+					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
+					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
+					"/cast [combat, nochanneling] 585", -- [5]
+					["Trinket1"] = true,
+					["StepFunction"] = "Priority",
+					["Combat"] = true,
+					["Trinket2"] = true,
+					["PostMacro"] = {
+					},
+					["KeyPress"] = {
+						"/target [@focustarget, harm, nodead]", -- [1]
+						"/targetenemy [noharm, dead]", -- [2]
+						"/startattack", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 256,
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+	}, -- [5]
 	{
 	}, -- [6]
 	{
@@ -294,7 +359,6 @@ GSELibrary = {
 			["Help"] = "A simple Elemental Macro",
 			["Talents"] = "2211121",
 			["Default"] = 1,
-			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/castsequence [nopet:Fire Elemental] 198067", -- [1]
@@ -317,6 +381,7 @@ GSELibrary = {
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
+			["SpecID"] = 262,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -324,6 +389,7 @@ GSELibrary = {
 			["Talents"] = "2211121",
 			["Default"] = 1,
 			["Help"] = "Sample Elemental Macro",
+			["SpecID"] = 262,
 			["Author"] = "Lloskka",
 			["MacroVersions"] = {
 				{
@@ -346,10 +412,15 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["SpecID"] = 262,
 			["ManualIntervention"] = false,
 		},
 	}, -- [7]
+	[0] = {
+	},
+	[10] = {
+	},
+	[12] = {
+	},
 	[11] = {
 		["SAM_BALANCE"] = {
 			["Talents"] = "1323321",
@@ -368,11 +439,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["KeyRelease"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 				{
 					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
@@ -382,11 +453,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 				}, -- [2]
 			},
 			["ManualIntervention"] = false,
@@ -395,7 +466,6 @@ GSELibrary = {
 			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
 			["Talents"] = "2332213",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
 			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
@@ -407,10 +477,10 @@ GSELibrary = {
 					"/cast Mangle", -- [6]
 					"/castsequence Ironfur, Ironfur", -- [7]
 					"/cast Rage of the Sleeper", -- [8]
-					["Trinket1"] = true,
+					["StepFunction"] = "Priority",
 					["KeyRelease"] = {
 					},
-					["StepFunction"] = "Priority",
+					["Trinket2"] = true,
 					["PostMacro"] = {
 					},
 					["KeyPress"] = {
@@ -421,16 +491,16 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket2"] = true,
+					["Trinket1"] = true,
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
-			["Author"] = "Ed",
 			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
@@ -471,20 +541,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [noform:2] Cat Form", -- [1]
 						"/cast [nostealth,nocombat] Prowl", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 			},
+			["Author"] = "Ed",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
-	},
-	[0] = {
 	},
 }

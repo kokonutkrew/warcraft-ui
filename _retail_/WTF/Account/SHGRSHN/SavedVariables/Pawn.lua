@@ -61,6 +61,9 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST1"] = {
 			["IconTexturePath"] = 135940,
 			["PerCharacterOptions"] = {
+				["Samoansaint-Stormrage"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ffffff",
 			["ClassID"] = 5,
@@ -166,6 +169,12 @@ PawnCommon = {
 		["\"MrRobot\":DEMONHUNTER1"] = {
 			["IconTexturePath"] = 1247264,
 			["PerCharacterOptions"] = {
+				["Samoanrelic-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Samoanrelic-Stormrage"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["ClassID"] = 12,
@@ -226,6 +235,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
+				["Samoansavage-Emerald Dream"] = {
+					["Visible"] = true,
+				},
 				["Samoansage-Tichondrius"] = {
 					["Visible"] = true,
 				},

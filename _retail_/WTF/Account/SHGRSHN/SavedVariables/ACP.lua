@@ -53,6 +53,23 @@ ACP_Data = {
 			["name"] = "Debug",
 		}, -- [6]
 		{
+			"ISBoxer", -- [1]
+			"Jamba", -- [2]
+			"Jamba-AdvancedLoot", -- [3]
+			"Jamba-DisplayTeam", -- [4]
+			"Jamba-Extras", -- [5]
+			"Jamba-Purchase", -- [6]
+			"Jamba-Taxi", -- [7]
+			"Jamba-Curr", -- [8]
+			"Jamba-Follow", -- [9]
+			"Jamba-FTL", -- [10]
+			"Jamba-ItemUse", -- [11]
+			"Jamba-Quest", -- [12]
+			"Jamba-QuestWatcher", -- [13]
+			"Jamba-Sell", -- [14]
+			"Jamba-Talk", -- [15]
+			"Jamba-Toon", -- [16]
+			"Jamba-Trade", -- [17]
 			["name"] = "MultiBoxing",
 		}, -- [7]
 		[25] = {
@@ -110,37 +127,38 @@ ACP_Data = {
 		["DBM-DefaultSkin"] = true,
 		["HandyNotes_BattleForAzerothTreasures"] = true,
 		["MaxDps_Mage"] = true,
-		["MaxDps"] = true,
 		["DataStore_Talents"] = true,
+		["MaxDps"] = true,
+		["MBB"] = true,
 		["PersonalLootHelper"] = true,
 		["DataStore_Agenda"] = true,
 		["sArena"] = true,
-		["MBB"] = true,
+		["!BugGrabber"] = true,
 		["BugSack"] = true,
 		["Altoholic_Guild"] = true,
-		["!BugGrabber"] = true,
 		["Skada"] = true,
-		["ExRT"] = true,
 		["Altoholic_Search"] = true,
+		["Prat-3.0"] = true,
 		["DBM-Core"] = true,
+		["DataStore_Quests"] = true,
 		["DataStore_Crafts"] = true,
 		["DataStore_Auctions"] = true,
 		["Altoholic_Characters"] = true,
-		["DataStore_Quests"] = true,
 		["MaxDps_Hunter"] = true,
 		["Altoholic_Agenda"] = true,
 		["Altoholic"] = true,
+		["DBM-Azeroth-BfA"] = true,
 		["DBM-Uldir"] = true,
-		["MaxDps_Warlock"] = true,
 		["AutoFlood"] = true,
 		["OrderHallCommander"] = true,
+		["MaxDps_Warlock"] = true,
 		["DataStore_Reputations"] = true,
-		["DBM-Azeroth-BfA"] = true,
+		["Bartender4"] = true,
 		["GSE"] = true,
 		["DataStore_Stats"] = true,
 		["MaxDps_Warrior"] = true,
 		["Immersion"] = true,
-		["Prat-3.0"] = true,
+		["ExRT"] = true,
 		["Pawn"] = true,
 		["Altoholic_Grids"] = true,
 		["DataStore_Achievements"] = true,

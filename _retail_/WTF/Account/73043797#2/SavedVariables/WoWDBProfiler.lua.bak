@@ -1,0 +1,108 @@
+
+WoWDBProfilerData = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Default",
+	},
+	["region"] = "US",
+	["version"] = 19,
+	["build_num"] = 28724,
+	["global"] = {
+		["items"] = {
+			[147] = {
+				["durability"] = 40,
+			},
+			[129] = {
+				["durability"] = 25,
+			},
+			[23347] = {
+				["durability"] = 25,
+			},
+			[58232] = {
+				["durability"] = 55,
+			},
+		},
+		["npcs"] = {
+			["49874"] = {
+				["genders"] = {
+					["FEMALE"] = true,
+				},
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[92857] = 556,
+							[80676] = 59,
+						},
+						["stats"] = {
+							["level_1"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:346:400"] = true,
+									},
+								},
+								["max_health"] = 31,
+							},
+						},
+					},
+				},
+				["class"] = "WARRIOR",
+				["reaction"] = "1:Alliance:NEUTRAL",
+			},
+			["951"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[17843] = 32,
+							[93091] = 44,
+							[13864] = 6,
+							[93094] = 44,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["49871"] = {
+				["reaction"] = "1:Alliance:NEUTRAL",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_1"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:324:484"] = true,
+										["3:324:494"] = true,
+										["3:322:472"] = true,
+										["3:318:460"] = true,
+										["3:322:466"] = true,
+										["3:324:460"] = true,
+										["3:326:478"] = true,
+										["3:352:394"] = true,
+										["3:350:400"] = true,
+										["3:348:406"] = true,
+										["3:308:440"] = true,
+									},
+								},
+								["max_health"] = 31,
+							},
+						},
+					},
+				},
+				["class"] = "WARRIOR",
+				["genders"] = {
+					["MALE"] = true,
+				},
+			},
+			["823"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[104945] = 1,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}

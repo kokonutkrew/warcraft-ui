@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Tygrrlilly|Emerald Dream|Alliance|1|HUNTER", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+		},
+	},
+}

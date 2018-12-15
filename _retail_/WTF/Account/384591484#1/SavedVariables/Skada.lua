@@ -5,6 +5,8 @@ SkadaDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanknight - Emerald Dream"] = "Default",
+		["Samoanhunter - Emerald Dream"] = "Default",
 		["Samoanrouge - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
@@ -17,9 +19,9 @@ SkadaDB = {
 				}, -- [1]
 			},
 			["versions"] = {
-				["1.6.3"] = true,
-				["1.6.4"] = true,
 				["1.6.7"] = true,
+				["1.6.4"] = true,
+				["1.6.3"] = true,
 			},
 		},
 	},

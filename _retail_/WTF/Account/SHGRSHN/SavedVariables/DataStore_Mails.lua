@@ -4,12 +4,16 @@ DataStore_MailsDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -34,17 +38,25 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2018/11/26 18:06",
 			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622665,
-				["lastVisitDate"] = "2018/10/27 00:44",
-			},
 			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1544642219,
-				["lastVisitDate"] = "2018/12/12 12:16",
+				["lastUpdate"] = 1544808352,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1544808352,
+						["sender"] = "Cala Cruzpot",
+						["subject"] = "Endangered Preservationists",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Samoantank, Good news, we are already seeing the results of Ben'jin and Ma'fon's \"chemistry\"!  The runt of the litter is proving a tad problematic, she won't stop biting Jangalar! We sent her over to Holaua, but maybe she'd be happier with you.",
+						["icon"] = 134327,
+						["daysLeft"] = 28.7504043579102,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2018/12/14 10:25",
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544575076,
-				["lastVisitDate"] = "2018/12/11 17:37",
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810667,
+				["lastVisitDate"] = "2018/12/14 11:04",
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635344,
@@ -53,6 +65,14 @@ DataStore_MailsDB = {
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1544584586,
 				["lastVisitDate"] = "2018/12/11 20:16",
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544674735,
+				["lastVisitDate"] = "2018/12/12 21:18",
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["lastUpdate"] = 1540622665,
+				["lastVisitDate"] = "2018/10/27 00:44",
 			},
 		},
 	},

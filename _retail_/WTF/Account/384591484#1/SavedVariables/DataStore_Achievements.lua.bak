@@ -2,35 +2,61 @@
 DataStore_AchievementsDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Samoanknight"] = {
+				["Completed"] = {
+					1984, -- [1]
+					[28] = 167772160,
+				},
+				["Partial"] = {
+					[1010] = "4:3200",
+				},
+				["lastUpdate"] = 1544723654,
+				["CompletionDates"] = {
+					[6] = "12:13:18",
+					[889] = "12:13:18",
+					[891] = "12:13:18",
+					[10] = "12:13:18",
+					[7] = "12:13:18",
+					[9] = "12:13:18",
+					[8] = "12:13:18",
+				},
+			},
 			["Default.Emerald Dream.Samoanrouge"] = {
 				["Partial"] = {
+					[1176] = 1,
 					[776] = "1",
 				},
-				["lastUpdate"] = 1544576666,
+				["lastUpdate"] = 1544674494,
 			},
 		},
 		["Account"] = {
 			["Partial"] = {
-				[10686] = 1,
+				[10682] = 1,
+				[10684] = 1,
+				[10686] = 2,
+				[10688] = 1,
 				[10690] = 1,
-				[10692] = 1,
-				[10681] = 1,
-				[10687] = 1,
-				[10689] = 6,
-				[10691] = 1,
-				[15] = 1,
+				[10692] = 2,
+				[10681] = 2,
 				[2141] = 2,
+				[10685] = 1,
+				[10687] = 2,
+				[10689] = 11,
+				[10691] = 1,
+				[10693] = 1,
+				[15] = 1,
 			},
 			["CompletionDates"] = {
 				[1017] = "11:26:18",
 			},
+			["lastUpdate"] = 1544723654,
 			["Completed"] = {
 				[32] = 33554432,
 			},
-			["lastUpdate"] = 1544576666,
 		},
 	},
 }

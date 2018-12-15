@@ -813,6 +813,9 @@ AAP.QuestStepList2060 = {
 ---- Undercity ----
 	["90-20Silverpine"] = {
 		{
+			["LeaveQuests"] = {
+				14190,
+			},
 			["Trigger"] = {
 				["y"] = 1760.5,
 				["x"] = 160.4,
@@ -7491,6 +7494,7 @@ AAP.QuestStepList2060 = {
 				["y"] = 1054.2,
 				["x"] = 1520.9,
 			},
+			["Name"] = "Forsaken High Command, Silverpine Forest",
 			["UseFlightPath"] = 27096,
 			["PosX"] = 42.1,
 			["PosY"] = 35.9,
@@ -8108,6 +8112,7 @@ AAP.QuestStepList2060 = {
 				["x"] = 1313.8,
 			},
 			["UseFlightPath"] = 27476,
+			["Name"] = "The Sepulcher, Silverpine Forest",
 			["PosX"] = 40.8,
 			["PosY"] = 39.4,
 			["ETA"] = 42,
@@ -8202,6 +8207,7 @@ AAP.QuestStepList2060 = {
 			["UseFlightPath"] = 27484,
 			["PosX"] = 41.3,
 			["PosY"] = 41.5,
+			["Name"] = "The Forsaken Front, Silverpine Forest",
 			["ETA"] = 29,
 		}, -- [1]
 		{
@@ -8616,6 +8622,36 @@ AAP.QuestStepList2060 = {
 	},
 ---- Hillsbrad Foothills ----
 	["25-20-63"] = {
+		{
+			["Trigger"] = {
+				["y"] = 422,
+				["x"] = 115,
+			},
+			["Qpart"] = {
+				[27483] = {
+					["1"] = "1",
+				},
+				[27478] = {
+					["1"] = "1",
+				},
+			},
+			["Range"] = 1000.69,
+			["TT"] = {
+				["y"] = 422,
+				["x"] = 115,
+			},
+		}, -- [1]
+		{
+			["ExtraLine"] = 49,
+			["Done"] = {
+				27483, -- [1]
+				27478, -- [2]
+			},
+			["TT"] = {
+				["y"] = 294.2,
+				["x"] = 377.6,
+			},
+		}, -- [1]
 		{
 			["Done"] = {
 				28089, -- [2]
@@ -9690,6 +9726,11 @@ AAP.QuestStepList2060 = {
 					["1"] = "1",
 				},
 			},
+			["Fillers"] = {
+				[28355] = {
+					["1"] = "1",
+				},
+			},
 			["Range"] = 32.98,
 			["TT"] = {
 				["y"] = -918.7,
@@ -9969,15 +10010,6 @@ AAP.QuestStepList2060 = {
 				["x"] = -902.5,
 			},
 		}, -- [13]
-		{
-			["PickUp"] = {
-				14065, -- [1]
-			},
-			["TT"] = {
-				["y"] = -50.7,
-				["x"] = -879.7,
-			},
-		}, -- [14]
 		{
 			["Trigger"] = {
 				["y"] = -12.2,

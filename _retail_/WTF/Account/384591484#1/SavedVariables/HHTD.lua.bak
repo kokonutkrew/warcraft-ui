@@ -4,13 +4,9 @@ HHTD_SavedVariables = {
 		["Samoanrouge - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
-	["profileKeys"] = {
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
 	},
 	["namespaces"] = {
 		["Announcer"] = {
@@ -19,5 +15,13 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
+	},
+	["profileKeys"] = {
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 }

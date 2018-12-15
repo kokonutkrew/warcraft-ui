@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
-	["_200000"] = 1000,
-	["_1000000"] = 2500,
 	["_10000"] = 200,
-	["_500"] = 5,
+	["_5000000"] = 10000,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
 	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -66,12 +66,22 @@ AUCTIONATOR_TOONS = {
 	},
 	["Samoansavage"] = {
 		["firstSeen"] = 1539839019,
-		["guid"] = "Player-60-0A6E12EE",
+		["guid"] = "Player-162-08DD3CB6",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoantotems"] = {
 		["firstSeen"] = 1544634790,
 		["guid"] = "Player-60-0BE06788",
+		["firstVersion"] = "5.0.5",
+	},
+	["Samoansaint"] = {
+		["firstSeen"] = 1544810226,
+		["guid"] = "Player-60-0BE0EFE2",
+		["firstVersion"] = "5.0.5",
+	},
+	["Samoanrelic"] = {
+		["firstSeen"] = 1544768453,
+		["guid"] = "Player-162-0A0137D4",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoantank"] = {

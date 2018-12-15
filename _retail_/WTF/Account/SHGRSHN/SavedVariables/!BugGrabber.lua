@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 191,
+	["session"] = 207,
 	["errors"] = {
 		{
 			["message"] = "[string \"CloseTradeSkill()\"]:1: attempt to call global 'CloseTradeSkill' (a nil value)",
@@ -118,28 +118,13 @@ BugGrabberDB = {
 			["counter"] = 2,
 		}, -- [15]
 		{
-			["message"] = "Interface\\AddOns\\WeakAuras\\Locales\\ruRU-Russian.lua:616: unfinished long string near '<eof>'",
-			["time"] = "2018/12/12 08:31:50",
-			["locals"] = "",
-			["stack"] = "",
-			["session"] = 191,
-			["counter"] = 25,
-		}, -- [16]
-		{
-			["message"] = "...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:132: GetAchievementCriteriaInfo(achievementID, criteriaIndex [,countHidden]), criteria not found",
-			["time"] = "2018/12/11 16:53:26",
-			["stack"] = "[C]: in function `GetAchievementCriteriaInfo'\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:132: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:90>\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:181: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:166>\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:214: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:209>\n[C]: ?\n...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:29: in function <...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\n...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
-			["session"] = 191,
-			["counter"] = 20,
-		}, -- [17]
-		{
 			["message"] = "Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:3022: attempt to index field '?' (a nil value)",
 			["time"] = "2018/12/12 10:28:07",
 			["locals"] = "self = <unnamed> {\n 0 = <userdata>\n}\nevent = \"UNIT_SPELLCAST_SUCCEEDED\"\narg1 = \"player\"\narg2 = \"Cast-3-3776-1669-13-8690-001211451B\"\narg3 = 8690\narg4 = nil\narg5 = nil\nCurStep = 1\nsteps = nil\n(*temporary) = nil\n(*temporary) = 882\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\nAAP_PopupFunc = <function> defined @Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:2674\nAAP_BuyMerchFunc = <function> defined @Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:2659\n",
 			["stack"] = "Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:3022: in function <Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:2726>",
 			["session"] = 191,
 			["counter"] = 1,
-		}, -- [18]
+		}, -- [16]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Azeroth Auto Pilot' tried to call the protected function 'CLQListF21:Hide()'.",
 			["time"] = "2018/12/12 00:18:24",
@@ -147,6 +132,21 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[C]: in function `Hide'\nInterface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:2548: in function <Interface\\AddOns\\Azeroth Auto Pilot\\QuestHandler.lua:2529>",
 			["session"] = 191,
 			["counter"] = 2,
+		}, -- [17]
+		{
+			["message"] = "Interface\\AddOns\\WeakAuras\\Locales\\ruRU-Russian.lua:616: unfinished long string near '<eof>'",
+			["time"] = "2018/12/12 08:31:50",
+			["locals"] = "",
+			["stack"] = "",
+			["session"] = 207,
+			["counter"] = 105,
+		}, -- [18]
+		{
+			["message"] = "...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:132: GetAchievementCriteriaInfo(achievementID, criteriaIndex [,countHidden]), criteria not found",
+			["time"] = "2018/12/11 16:53:26",
+			["stack"] = "[C]: in function `GetAchievementCriteriaInfo'\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:132: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:90>\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:181: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:166>\n...ns\\DataStore_Achievements\\DataStore_Achievements-r47.lua:214: in function <...ns\\DataStore_Achievements\\DataStore_Achievements.lua:209>\n[C]: ?\n...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:29: in function <...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...ore\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\n...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
+			["session"] = 207,
+			["counter"] = 34,
 		}, -- [19]
 	},
 }

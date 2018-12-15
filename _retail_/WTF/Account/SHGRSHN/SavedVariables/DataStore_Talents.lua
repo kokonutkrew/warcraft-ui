@@ -4,12 +4,16 @@ DataStore_TalentsDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -39,25 +43,18 @@ DataStore_TalentsDB = {
 				["Class"] = "DRUID",
 			},
 			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1544642630,
+				["lastUpdate"] = 1544808310,
 				["Specializations"] = {
 					[3] = 5850,
 				},
 				["Class"] = "PALADIN",
 			},
-			["Default.Stormrage.Samoansavage"] = {
-				["lastUpdate"] = 1541831705,
-				["Specializations"] = {
-					[3] = 6781,
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Stormrage.Kakattack"] = {
-				["lastUpdate"] = 1544472618,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810348,
 				["Specializations"] = {
 					0, -- [1]
 				},
-				["Class"] = "DEATHKNIGHT",
+				["Class"] = "PRIEST",
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
@@ -67,12 +64,40 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814541,
 				["Specializations"] = {
 					[3] = 5882,
 					[2] = 6553,
 				},
 				["Class"] = "PALADIN",
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544815836,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472618,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Stormrage.Samoansavage"] = {
+				["lastUpdate"] = 1541831705,
+				["Specializations"] = {
+					[3] = 6781,
+				},
+				["Class"] = "DRUID",
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768458,
+				["Specializations"] = {
+					5461, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
 			},
 		},
 	},
@@ -82,12 +107,16 @@ DataStore_TalentsRefDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -123,6 +152,20 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28153,
 		},
+		["DEATHKNIGHT"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 250,
+					["talents"] = {
+						19165, -- [1]
+						19166, -- [2]
+						19217, -- [3]
+					},
+				}, -- [1]
+			},
+			["Version"] = 28153,
+		},
 		["ROGUE"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
@@ -149,19 +192,77 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28153,
 		},
-		["DEATHKNIGHT"] = {
+		["PALADIN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 70,
+					["talents"] = {
+						22590, -- [1]
+						22557, -- [2]
+						22175, -- [3]
+						22319, -- [4]
+						22592, -- [5]
+						22593, -- [6]
+						22896, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22375, -- [10]
+						22182, -- [11]
+						22183, -- [12]
+						22595, -- [13]
+						22185, -- [14]
+						22186, -- [15]
+						23167, -- [16]
+						22483, -- [17]
+						23086, -- [18]
+						22591, -- [19]
+						22215, -- [20]
+						22634, -- [21]
+					},
+				},
+				[2] = {
+					["id"] = 66,
+					["talents"] = {
+						22428, -- [1]
+						22558, -- [2]
+						22430, -- [3]
+						22431, -- [4]
+						22604, -- [5]
+						22594, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						22435, -- [12]
+						22705, -- [13]
+						21795, -- [14]
+						17601, -- [15]
+						22189, -- [16]
+						22438, -- [17]
+						23087, -- [18]
+						21201, -- [19]
+						21202, -- [20]
+						22645, -- [21]
+					},
+				},
+			},
+			["Version"] = 28768,
+		},
+		["SHAMAN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 250,
+					["id"] = 262,
 					["talents"] = {
-						19165, -- [1]
-						19166, -- [2]
-						19217, -- [3]
+						22356, -- [1]
+						22357, -- [2]
+						22358, -- [3]
 					},
 				}, -- [1]
 			},
-			["Version"] = 28153,
+			["Version"] = 28724,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -273,77 +374,28 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28153,
 		},
-		["PALADIN"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				[3] = {
-					["id"] = 70,
-					["talents"] = {
-						22590, -- [1]
-						22557, -- [2]
-						22175, -- [3]
-						22319, -- [4]
-						22592, -- [5]
-						22593, -- [6]
-						22896, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22375, -- [10]
-						22182, -- [11]
-						22183, -- [12]
-						22595, -- [13]
-						22185, -- [14]
-						22186, -- [15]
-						23167, -- [16]
-						22483, -- [17]
-						23086, -- [18]
-						22591, -- [19]
-						22215, -- [20]
-						22634, -- [21]
-					},
-				},
-				[2] = {
-					["id"] = 66,
-					["talents"] = {
-						22428, -- [1]
-						22558, -- [2]
-						22430, -- [3]
-						22431, -- [4]
-						22604, -- [5]
-						22594, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22433, -- [10]
-						22434, -- [11]
-						22435, -- [12]
-						22705, -- [13]
-						21795, -- [14]
-						17601, -- [15]
-						22189, -- [16]
-						22438, -- [17]
-						23087, -- [18]
-						21201, -- [19]
-						21202, -- [20]
-						22645, -- [21]
-					},
-				},
-			},
-			["Version"] = 28724,
-		},
-		["SHAMAN"] = {
+		["DEMONHUNTER"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 262,
+					["id"] = 577,
+				}, -- [1]
+			},
+			["Version"] = 28768,
+		},
+		["PRIEST"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 256,
 					["talents"] = {
-						22356, -- [1]
-						22357, -- [2]
-						22358, -- [3]
+						19752, -- [1]
+						22313, -- [2]
+						22329, -- [3]
 					},
 				}, -- [1]
 			},
-			["Version"] = 28724,
+			["Version"] = 28768,
 		},
 	},
 }

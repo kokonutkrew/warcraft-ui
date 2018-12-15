@@ -4,12 +4,16 @@ DataStore_ReputationsDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -116,10 +120,10 @@ DataStore_ReputationsDB = {
 					[135] = 10820,
 					[68] = 20801,
 					[69] = 10400,
-					[70] = 11571,
+					[18] = 775,
 					[137] = 11295,
 					[15] = 6410,
-					[138] = 12175,
+					[70] = 11571,
 					[146] = 14025,
 					[139] = 1050,
 					[136] = 13840,
@@ -136,7 +140,7 @@ DataStore_ReputationsDB = {
 					[8] = 6320,
 					[9] = 2445,
 					[19] = 775,
-					[18] = 775,
+					[138] = 12175,
 					[20] = 775,
 				},
 				["guildRep"] = 42000,
@@ -196,6 +200,19 @@ DataStore_ReputationsDB = {
 					[157] = 310,
 				},
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810348,
+				["Factions"] = {
+					3100, -- [1]
+					4000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[141] = 6000,
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
 				["Factions"] = {
@@ -210,7 +227,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814541,
 				["guildName"] = "Driven",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -239,8 +256,41 @@ DataStore_ReputationsDB = {
 					[154] = 43000,
 				},
 			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770121,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3000,
+					[77] = 3000,
+					[75] = 3300,
+				},
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768458,
+				["guildName"] = "Mass Dispel",
+				["guildRep"] = 3875,
+				["Factions"] = {
+					4037, -- [1]
+					3037, -- [2]
+					3137, -- [3]
+					3137, -- [4]
+					3250, -- [5]
+					[112] = 3137,
+					[137] = 600,
+					[134] = 1350,
+					[77] = 37,
+					[123] = 3250,
+					[139] = 2400,
+					[136] = 2325,
+					[75] = 3337,
+				},
+			},
 			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628726,
+				["lastUpdate"] = 1544812697,
 				["Factions"] = {
 					3100, -- [1]
 					3000, -- [2]
@@ -249,6 +299,18 @@ DataStore_ReputationsDB = {
 					4000, -- [5]
 					[75] = 3300,
 					[112] = 3100,
+				},
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544769898,
+				["Factions"] = {
+					4000, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3100,
+					[75] = 3300,
 				},
 			},
 			["Default.Stormrage.Samoantotems"] = {
@@ -277,7 +339,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1544631298,
+				["lastUpdate"] = 1544808310,
 				["Factions"] = {
 					[121] = 1575,
 					[122] = 42000,
@@ -286,16 +348,16 @@ DataStore_ReputationsDB = {
 					[32] = 4000,
 					[128] = 20242,
 					[132] = 28150,
-					[134] = 37097,
-					[136] = 34665,
-					[138] = 46450,
+					[134] = 39597,
+					[136] = 38715,
+					[138] = 46600,
 					[140] = 47650,
-					[142] = 27282,
+					[142] = 34832,
 					[146] = 42000,
 					[148] = 10200,
 					[38] = 8858,
 					[39] = 2943,
-					[156] = 3300,
+					[156] = 3450,
 					[158] = 5330,
 					[42] = 6062,
 					[46] = 9349,
@@ -307,7 +369,7 @@ DataStore_ReputationsDB = {
 					[54] = 9408,
 					[14] = 8955,
 					[56] = 42000,
-					[57] = 5876,
+					[57] = 6168,
 					[58] = 8900,
 					[59] = 3542,
 					[15] = 5620,
@@ -319,13 +381,13 @@ DataStore_ReputationsDB = {
 					[133] = 42000,
 					[68] = 42000,
 					[137] = 47450,
-					[139] = 40362,
-					[141] = 32452,
+					[139] = 41812,
+					[141] = 43000,
 					[143] = 2750,
 					[73] = 9000,
 					[149] = 9750,
 					[151] = 1000,
-					[155] = 20,
+					[155] = 95,
 					[157] = 1380,
 					[80] = 42000,
 					[83] = 2200,
@@ -334,7 +396,7 @@ DataStore_ReputationsDB = {
 					[87] = 16670,
 					[69] = 42000,
 					[70] = 42000,
-					[135] = 38572,
+					[135] = 39072,
 					[71] = 42000,
 					[92] = 42000,
 					[93] = 3000,

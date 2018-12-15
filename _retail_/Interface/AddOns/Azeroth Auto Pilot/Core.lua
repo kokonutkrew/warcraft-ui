@@ -11,6 +11,10 @@ AAP.QuestList = {}
 AAP.NPCList = {}
 AAP.Icons = {}
 AAP.ActiveQuests = {}
+AAP.RegisterChat = C_ChatInfo.RegisterAddonMessagePrefix("AAPChat")
+AAP.LastSent = 0
+AAP.GroupListSteps = {}
+AAP.GroupListStepsNr = 1
 AAP.Version = tonumber(GetAddOnMetadata("Azeroth Auto Pilot", "Version"))
 local CoreLoadin = 0
 AAP.AfkTimerVar = 0
@@ -319,7 +323,7 @@ AAP.CoreEventFrame:SetScript("OnEvent", function(self, event, ...)
 			end
 		end)
 		AAP_LoadInTimer:Play()
-		
+		AAP.RegisterChat = C_ChatInfo.RegisterAddonMessagePrefix("AAPChat")
 		
 		
 		AAP_IconTimer = AAP.CoreEventFrame:CreateAnimationGroup()

@@ -1,0 +1,95 @@
+VER 3 0000000000000002 "!Accept" "254290"
+/script AcceptGroup();
+/script AcceptQuest();
+/script AcceptTrade();
+/script RetrieveCorpse();
+/script RepopMe();
+--Quest Oriented
+/run SelectGossipAvailableQuest(1)
+/run AcceptQuest()
+/run ConfirmAcceptQuest()
+/run CompleteQuest()
+/run GetQuestReward(1)
+END
+VER 3 0000000000000003 "!Follow" "254296"
+/target focus 
+/follow 
+/assist 
+/stopcasting 
+END
+VER 3 0000000000000012 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000008 "Aloha" "134224"
+/wave
+END
+VER 3 000000000000000A "ancestor coins" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/way Ashenvale 35.54 48.91 Riversong
+/way Azshara 64.73 79.34 Skygleam
+/way Darkshore 49.53 18.94 Starweave
+/way Durotar 53.22 43.61 Runetotem
+/way Felwood 38.35 52.85 Nightwind
+/way Feralas 76.71 37.91 Grimtotem
+/way Feralas 62.56 31.07 Mistwalker
+/way M
+END
+VER 3 000000000000000C "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Hand of Sacrifice;  [@mouseover,exists,mod:ctrl] Cleanse; [@mouseover,exists,mod:shift] Hand of Sacrifice
+END
+VER 3 000000000000000B "DinoSAWR" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/way The Jade Forest  52 17 
+/way Townlong Steppes 36 88 
+/way Krasarang Wilds 39 66
+/way Kun-Lai Summit 75 62
+/way Dread Wastes 47 60
+END
+VER 3 0000000000000009 "DumpQuests" "INV_MISC_QUESTIONMARK"
+/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
+END
+VER 3 0000000000000006 "FishingBuddy" "INV_Fishingpole_02"
+#showtooltip Fishing
+/fb fishing start
+/cast  [nochanneling:Fishing] Fishing
+END
+VER 3 000000000000000D "Focus" "INV_PET_BATTLEPETTRAINING"
+#showtooltip
+/focus [@focus,noharm][@focus,dead]
+/follow [@focus]
+/follow 
+/assist 
+/stopcasting 
+END
+VER 3 0000000000000007 "GrantLevel" "SPELL_SHADOW_TELEPORT"
+/script GrantLevel("Target");
+END
+VER 3 000000000000000F "Leave Party" "135882"
+/run LeaveParty()
+END
+VER 3 0000000000000010 "PandaMounts" "1378702"
+/way The Jade Forest  52 17 
+/way Townlong Steppes 36 88 
+/way Krasarang Wilds 39 66
+/way Kun-Lai Summit 75 62
+/way Dread Wastes 47 60
+END
+VER 3 0000000000000005 "Pet" "135450"
+/randomfavoritepet 
+END
+VER 3 0000000000000001 "Quest" "237113"
+/run SelectGossipAvailableQuest(1)
+/run AcceptQuest()
+/run ConfirmAcceptQuest()
+/run CompleteQuest()
+/run GetQuestReward(1) 
+END
+VER 3 0000000000000011 "ServerHop" "134331"
+/run ServerHop_HopForward()
+END
+VER 3 000000000000000E "TRADE" "1060983"
+/trade
+END
+VER 3 0000000000000004 "Wand" "INV_STAFF_18.BLP"
+/assist focus 
+/cast [harm] shoot; 
+END

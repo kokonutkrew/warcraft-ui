@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanknight - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -12,9 +13,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Samoanknight - Emerald Dream"] = {
 		},
 	},
 }

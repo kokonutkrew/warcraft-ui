@@ -1,10 +1,11 @@
 
 MogItDB = {
-	["global"] = {
-		["version"] = "3.8.11",
-	},
 	["profileKeys"] = {
 		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanknight - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.8.11",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -20,31 +21,38 @@ MogItDB = {
 				["Hands"] = "Hands",
 				["Gun"] = "Guns",
 				["Bow"] = "Bows",
+				["2H-sword"] = "Two-Handed Swords",
+				["2H-axe"] = "Two-Handed Axes",
 				["ArtifactLegion"] = "Legion Artifacts",
 				["1H-mace"] = "One-Handed Maces",
 				["1H-axe"] = "One-Handed Axes",
 				["Holdable"] = "Held In Off-hand",
 				["Feet"] = "Feet",
 				["Chest"] = "Chest",
-				["Head"] = "Head",
+				["Polearm"] = "Polearms",
+				["2H-mace"] = "Two-Handed Maces",
+				["1H-sword"] = "One-Handed Swords",
 				["Wrist"] = "Wrist",
 				["Crossbow"] = "Crossbows",
 				["Shoulder"] = "Shoulder",
-				["1H-sword"] = "One-Handed Swords",
+				["Head"] = "Head",
 			},
 			["y"] = 0,
 		},
 	},
 }
 MogItWishlist = {
-	["profileKeys"] = {
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
-	},
 	["global"] = {
 		["version"] = 80000,
 	},
+	["profileKeys"] = {
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanknight - Emerald Dream"] = "Samoanknight - Emerald Dream",
+	},
 	["profiles"] = {
 		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Samoanknight - Emerald Dream"] = {
 		},
 	},
 }

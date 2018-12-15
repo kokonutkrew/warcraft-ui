@@ -1,0 +1,68 @@
+
+JambaCoreProfileDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+			["showStartupMessage4000"] = false,
+		},
+	},
+}
+JambaCommunicationsProfileDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+		},
+	},
+}
+JambaTeamProfileDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+			["characterOnline"] = {
+				["Samoantitan-EmeraldDream"] = true,
+				["Tygrrlilly-EmeraldDream"] = true,
+			},
+			["teamList"] = {
+				["Samoantitan-EmeraldDream"] = 2,
+				["Tygrrlilly-EmeraldDream"] = 1,
+			},
+			["master"] = "Tygrrlilly-EmeraldDream",
+		},
+	},
+}
+JambaTagProfileDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+			["tagList"] = {
+				["Tygrrlilly-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
+				},
+				["Samoantitan-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"minion", -- [3]
+				},
+			},
+		},
+	},
+}
+JambaMessageProfileDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["profiles"] = {
+		["Tygrrlilly - Emerald Dream"] = {
+		},
+	},
+}

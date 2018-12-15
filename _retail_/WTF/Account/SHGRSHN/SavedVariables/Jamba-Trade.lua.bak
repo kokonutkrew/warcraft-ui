@@ -2,15 +2,28 @@
 JambaTradeProfileDB = {
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoantank - Tichondrius"] = {
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["KokonutKrew"] = {
+			["adjustMoneyWithGuildBank"] = true,
+			["adjustMoneyWithMasterOnTrade"] = true,
+			["tradeCRItems"] = true,
+			["showJambaTradeWindow"] = true,
+			["tradeBoEItems"] = true,
 		},
 		["Samoantitan - Stormrage"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
 		},
 	},
 }

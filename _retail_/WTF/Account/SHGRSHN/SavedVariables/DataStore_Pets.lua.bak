@@ -4,12 +4,16 @@ DataStore_PetsDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -57,21 +61,21 @@ DataStore_PetsDB = {
 				[210691] = 99526,
 				[193943] = 98463,
 				[280333] = 143817,
-				[221907] = 111423,
+				[55068] = 29726,
 				[177227] = 88367,
 				[184482] = 93143,
 				[193388] = 97207,
 				[35909] = 21009,
 				[92396] = 49588,
-				[55068] = 29726,
+				[62561] = 33226,
 				[224403] = 112728,
 				[177212] = 77021,
 				[210671] = 97174,
 				[224536] = 112798,
-				[126885] = 64899,
+				[62746] = 33239,
 				[170291] = 87704,
 				[179832] = 90203,
-				[89039] = 47944,
+				[126885] = 64899,
 				[141436] = 71017,
 				[10714] = 7565,
 				[54187] = 24968,
@@ -116,11 +120,11 @@ DataStore_PetsDB = {
 				[101989] = 54541,
 				[159581] = 79039,
 				[273839] = 139252,
-				[62746] = 33239,
+				[89039] = 47944,
 				[223339] = 112132,
 				[135261] = 68666,
 				[39709] = 22943,
-				[62561] = 33226,
+				[221907] = 111423,
 				[171758] = 85994,
 				[66175] = 34770,
 			},
@@ -180,11 +184,14 @@ DataStore_PetsDB = {
 					229097, -- [9]
 				},
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810348,
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472652,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1544634047,
+				["lastUpdate"] = 1544814723,
 				["CRITTER"] = {
 					36031, -- [1]
 					230443, -- [2]
@@ -199,8 +206,17 @@ DataStore_PetsDB = {
 					39709, -- [11]
 				},
 			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770121,
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768460,
+			},
 			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628810,
+				["lastUpdate"] = 1544812697,
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544769898,
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
@@ -209,7 +225,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1540622532,
 			},
 			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1544631298,
+				["lastUpdate"] = 1544808310,
 				["CRITTER"] = {
 					177212, -- [1]
 					62746, -- [2]

@@ -1,0 +1,26 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Tygrrlilly"] = {
+				["HistoryLastUpdate"] = 1544677944,
+				["HistorySize"] = 44,
+				["HistoryBuild"] = "28724",
+				["History"] = {
+					[979] = 12288,
+					[987] = 4294901787,
+					[995] = 96,
+					[258] = 8192,
+					[986] = 4026531841,
+					[988] = 1022,
+					[997] = 15360,
+					[1001] = 512,
+				},
+				["lastUpdate"] = 1544677941,
+			},
+		},
+	},
+}

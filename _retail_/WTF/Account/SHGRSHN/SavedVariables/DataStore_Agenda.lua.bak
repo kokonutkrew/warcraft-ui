@@ -4,12 +4,16 @@ DataStore_AgendaDB = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -31,17 +35,26 @@ DataStore_AgendaDB = {
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1541831705,
 			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810808,
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472620,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["DungeonIDs"] = {
-					["The MOTHERLODE!! Heroic|254249338"] = "79249|1544633953|0|0",
-				},
-				["lastUpdate"] = 1544633952,
+				["lastUpdate"] = 1544814542,
+			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1544770122,
+			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["lastUpdate"] = 1544768458,
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544628726,
+				["lastUpdate"] = 1544812697,
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544769899,
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
@@ -56,10 +69,10 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["Contacts"] = {
-					["Teenkerbella"] = {
+					["Dkpindleskin"] = {
 						["note"] = "",
 					},
-					["Dkpindleskin"] = {
+					["Sparticusmx"] = {
 						["note"] = "",
 					},
 					["Pacìfist"] = {
@@ -68,47 +81,38 @@ DataStore_AgendaDB = {
 					["Cotanbank"] = {
 						["note"] = "",
 					},
-					["LaieboC2AE2A"] = {
-						["note"] = "",
-					},
-					["Frogz"] = {
-						["note"] = "",
-					},
-					["Sparticusmx"] = {
-						["note"] = "",
-					},
 					["Clandestìne"] = {
 						["note"] = "",
 					},
-					["Mythicimus"] = {
-						["note"] = "",
-					},
-					["Bankbeamz"] = {
-						["note"] = "",
-					},
-					["Nossbigga"] = {
-						["note"] = "",
-					},
-					["Nossbig"] = {
-						["note"] = "",
-					},
-					["Rafidh"] = {
-						["note"] = "",
-					},
-					["Vinza"] = {
-						["note"] = "",
-					},
-					["Maikar"] = {
+					["LaieboC2AE2A"] = {
 						["note"] = "",
 					},
 					["Bauce"] = {
 						["note"] = "",
 					},
-					["Traynissa"] = {
+					["Bankbeamz"] = {
+						["note"] = "",
+					},
+					["Frogz"] = {
+						["note"] = "",
+					},
+					["Nossbig"] = {
+						["note"] = "",
+					},
+					["Vinza"] = {
+						["note"] = "",
+					},
+					["Rafidh"] = {
+						["note"] = "",
+					},
+					["Maikar"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1544631300,
+				["lastUpdate"] = 1544808310,
 			},
 		},
 	},

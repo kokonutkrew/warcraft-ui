@@ -5,15 +5,16 @@ DataStoreDB = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -58,6 +59,10 @@ DataStoreDB = {
 			["Default.Stormrage.Kakattack"] = {
 				["faction"] = "Horde",
 			},
+			["Default.Tichondrius.Samoantank"] = {
+				["guildName"] = "Wealth",
+				["faction"] = "Horde",
+			},
 			["Default.Stormrage.Samoantitan"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Driven",
@@ -65,9 +70,8 @@ DataStoreDB = {
 			["Default.Emerald Dream.Samoansavage"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Samoantank"] = {
-				["guildName"] = "Wealth",
-				["faction"] = "Horde",
+			["Default.Stormrage.Samoantotems"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["faction"] = "Alliance",
@@ -75,8 +79,8 @@ DataStoreDB = {
 			["Default.Emerald Dream.Samoantitan"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Stormrage.Samoantotems"] = {
-				["faction"] = "Alliance",
+			["Default.Emerald Dream.Samoanspy"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["faction"] = "Horde",

@@ -3,12 +3,20 @@ JambaDisplayTeamProfileDB = {
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoantank - Tichondrius"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoantitan - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoansavage - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["KokonutKrew"] = {
@@ -23,13 +31,13 @@ JambaDisplayTeamProfileDB = {
 			["frameBackgroundColourA"] = 0,
 			["statusBarTexture"] = "Minimalist",
 		},
-		["Samoantitan - Emerald Dream"] = {
-			["teamListTitleHeight"] = 0,
-		},
 		["Samoanrelic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoanspy - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoantitan - Stormrage"] = {

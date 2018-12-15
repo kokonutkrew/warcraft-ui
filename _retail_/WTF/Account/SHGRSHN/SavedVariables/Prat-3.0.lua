@@ -89,12 +89,12 @@ Prat3DB = {
 			["profiles"] = {
 				["KokonutKrew"] = {
 					["showvoice"] = false,
-					["showButtons"] = false,
+					["scrollReminder"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
-					["scrollReminder"] = false,
-					["showMenu"] = false,
+					["showButtons"] = false,
 					["showminimize"] = false,
+					["showMenu"] = false,
 				},
 			},
 		},
@@ -109,10 +109,11 @@ Prat3DB = {
 		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
 		["Samoansaint - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Kakattack - Stormrage"] = "KokonutKrew",
-		["Samoanrelic - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Kakattack - Stormrage"] = "KokonutKrew",
+		["Samoantank - Tichondrius"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -131,8 +132,8 @@ Prat3DB = {
 		["KokonutKrew"] = {
 			["modules"] = {
 				["Sounds"] = 2,
-				["ChatLog"] = 2,
 				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
 				["Paragraph"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,

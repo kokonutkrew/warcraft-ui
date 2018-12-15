@@ -5,14 +5,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -25,11 +26,13 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoansaint - Stormrage"] = {
 		},
-		["Samoanrelic - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
 		},
 		["Samoantitan - Emerald Dream"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
 		},
 		["Samoanstrap - Tichondrius"] = {
 		},
@@ -39,7 +42,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
-		["Samoanrelic - Stormrage"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
 		},

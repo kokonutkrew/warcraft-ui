@@ -5,14 +5,15 @@ DataStoreDB = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
@@ -58,6 +59,10 @@ DataStoreDB = {
 			["Default.Stormrage.Kakattack"] = {
 				["faction"] = "Horde",
 			},
+			["Default.Stormrage.Samoanrelic"] = {
+				["guildName"] = "Mass Dispel",
+				["faction"] = "Alliance",
+			},
 			["Default.Stormrage.Samoantitan"] = {
 				["guildName"] = "Driven",
 				["faction"] = "Alliance",
@@ -65,17 +70,16 @@ DataStoreDB = {
 			["Default.Emerald Dream.Samoansavage"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Stormrage.Samoanrelic"] = {
-				["guildName"] = "Mass Dispel",
+			["Default.Stormrage.Samoantotems"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["faction"] = "Alliance",
+			["Default.Emerald Dream.Samoanspy"] = {
+				["faction"] = "Horde",
 			},
-			["Default.Stormrage.Samoantotems"] = {
+			["Default.Emerald Dream.Samoanrelic"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {

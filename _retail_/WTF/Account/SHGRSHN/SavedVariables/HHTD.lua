@@ -13,19 +13,22 @@ HHTD_SavedVariables = {
 		["Samoansaint - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantitan - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanrelic - Emerald Dream"] = {
+		["Samoansavage - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantank - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanstrap - Tichondrius"] = {
+		["Samoantitan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Stormrage"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanstrap - Tichondrius"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoansavage - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansage - Tichondrius"] = {
@@ -34,10 +37,10 @@ HHTD_SavedVariables = {
 		["Kakattack - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansavage - Stormrage"] = {
+		["Samoanrelic - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantitan - Stormrage"] = {
@@ -52,24 +55,25 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 }

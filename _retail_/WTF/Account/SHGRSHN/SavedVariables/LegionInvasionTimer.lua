@@ -5,15 +5,16 @@ LegionInvasionTimerDB = {
 		["Samoantotems - Stormrage"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansaint - Stormrage"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Samoanstrap - Tichondrius"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Kakattack - Stormrage"] = "Default",
-		["Samoansavage - Stormrage"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanspy - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -27,16 +28,16 @@ LegionInvasionTimerDB = {
 			},
 		},
 		["KokonutKrew"] = {
+			["tooltip12hr"] = true,
+			["lock"] = true,
+			["mode"] = 3,
 			["position"] = {
 				"BOTTOM", -- [1]
 				"BOTTOM", -- [2]
 				2.9999566078186, -- [3]
 				52.4999313354492, -- [4]
 			},
-			["mode"] = 3,
-			["lock"] = true,
-			["tooltip12hr"] = true,
 		},
 	},
 }
-LegionInvasionTime = 1544750979
+LegionInvasionTime = 1544884229

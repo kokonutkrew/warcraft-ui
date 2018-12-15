@@ -11,14 +11,14 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
-					["initialized"] = true,
 					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608.000061035156,
+					["initialized"] = true,
 				},
 				["KokonutKrew"] = {
 					["minchatwidthdefault"] = 296,
-					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608.000061035156,
+					["maxchatheightdefault"] = 400,
 					["initialized"] = true,
 				},
 			},
@@ -28,10 +28,10 @@ Prat3DB = {
 		["Prat_Editbox"] = {
 			["profiles"] = {
 				["KokonutKrew"] = {
-					["editW"] = 609.999917268753,
 					["attach"] = "LOCK",
-					["editX"] = -0.999978303909302,
 					["editY"] = 20.0007400512695,
+					["editX"] = -0.999978303909302,
+					["editW"] = 609.999917268753,
 				},
 			},
 		},
@@ -89,12 +89,12 @@ Prat3DB = {
 			["profiles"] = {
 				["KokonutKrew"] = {
 					["showvoice"] = false,
-					["showMenu"] = false,
+					["showminimize"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
-					["scrollReminder"] = false,
-					["showminimize"] = false,
 					["showButtons"] = false,
+					["showMenu"] = false,
+					["scrollReminder"] = false,
 				},
 			},
 		},
@@ -109,6 +109,7 @@ Prat3DB = {
 		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
 		["Samoansaint - Stormrage"] = "Default",
+		["Samoanspy - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
 		["Kakattack - Stormrage"] = "KokonutKrew",
 		["Samoanrelic - Emerald Dream"] = "Default",
@@ -118,26 +119,26 @@ Prat3DB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Sounds"] = 2,
-				["OriginalButtons"] = 2,
 				["Alias"] = 2,
-				["Paragraph"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
-				["ChatLog"] = 2,
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 		["KokonutKrew"] = {
 			["modules"] = {
-				["Alias"] = 2,
-				["PopupMessage"] = 2,
-				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["Paragraph"] = 2,
-				["KeyBindings"] = 2,
+				["Alias"] = 2,
 				["OriginalButtons"] = 2,
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
 				["ChatLog"] = 2,
+				["KeyBindings"] = 2,
 			},
 		},
 	},

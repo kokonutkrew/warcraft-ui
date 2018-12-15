@@ -5,15 +5,16 @@ DataStore_TalentsDB = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -26,7 +27,7 @@ DataStore_TalentsDB = {
 				["Class"] = "HUNTER",
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1544408175,
+				["lastUpdate"] = 1544902800,
 				["Specializations"] = {
 					857, -- [1]
 				},
@@ -71,19 +72,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PALADIN",
 			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["lastUpdate"] = 1544815836,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "DEMONHUNTER",
-			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
 				["Specializations"] = {
 					0, -- [1]
 				},
 				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1544815836,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DEMONHUNTER",
 			},
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1541831705,
@@ -99,6 +100,13 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DEMONHUNTER",
 			},
+			["Default.Emerald Dream.Samoanspy"] = {
+				["lastUpdate"] = 1544902629,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "ROGUE",
+			},
 		},
 	},
 }
@@ -108,15 +116,16 @@ DataStore_TalentsRefDB = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -161,32 +170,6 @@ DataStore_TalentsRefDB = {
 						19165, -- [1]
 						19166, -- [2]
 						19217, -- [3]
-					},
-				}, -- [1]
-			},
-			["Version"] = 28153,
-		},
-		["ROGUE"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 259,
-					["talents"] = {
-						22337, -- [1]
-						22338, -- [2]
-						22339, -- [3]
-						22331, -- [4]
-						22332, -- [5]
-						23022, -- [6]
-						19239, -- [7]
-						19240, -- [8]
-						19241, -- [9]
-						22340, -- [10]
-						22122, -- [11]
-						22123, -- [12]
-						19245, -- [13]
-						23037, -- [14]
-						22115, -- [15]
 					},
 				}, -- [1]
 			},
@@ -247,6 +230,15 @@ DataStore_TalentsRefDB = {
 						22645, -- [21]
 					},
 				},
+			},
+			["Version"] = 28768,
+		},
+		["DEMONHUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 577,
+				}, -- [1]
 			},
 			["Version"] = 28768,
 		},
@@ -374,11 +366,28 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28153,
 		},
-		["DEMONHUNTER"] = {
+		["ROGUE"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 577,
+					["id"] = 259,
+					["talents"] = {
+						22337, -- [1]
+						22338, -- [2]
+						22339, -- [3]
+						22331, -- [4]
+						22332, -- [5]
+						23022, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22340, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						19245, -- [13]
+						23037, -- [14]
+						22115, -- [15]
+					},
 				}, -- [1]
 			},
 			["Version"] = 28768,

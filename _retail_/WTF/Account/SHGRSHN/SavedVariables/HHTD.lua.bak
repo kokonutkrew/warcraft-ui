@@ -13,13 +13,16 @@ HHTD_SavedVariables = {
 		["Samoansaint - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrelic - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantitan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanrelic - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanrelic - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanstrap - Tichondrius"] = {
@@ -34,7 +37,7 @@ HHTD_SavedVariables = {
 		["Samoansavage - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrelic - Stormrage"] = {
+		["Samoantank - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansavage - Emerald Dream"] = {
@@ -44,25 +47,26 @@ HHTD_SavedVariables = {
 			["settingsMigrated"] = false,
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 	["namespaces"] = {
 		["Announcer"] = {

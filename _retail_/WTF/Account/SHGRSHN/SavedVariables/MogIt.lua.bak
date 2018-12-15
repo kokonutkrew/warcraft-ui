@@ -8,21 +8,20 @@ MogItDB = {
 		["Samoantotems - Stormrage"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Samoansaint - Stormrage"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanspy - Emerald Dream"] = "Default",
 		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
-		["Samoanrelic - Stormrage"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["y"] = 29.4999294281006,
-			["x"] = 137.00016784668,
 			["previewProps"] = {
 				{
 					["y"] = 55.0001106262207,
@@ -32,6 +31,8 @@ MogItDB = {
 					["x"] = 222.500122070313,
 				}, -- [1]
 			},
+			["gridHeight"] = 907.000244140625,
+			["x"] = 137.00016784668,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -52,8 +53,8 @@ MogItDB = {
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
 				["Shield"] = "Shields",
-				["Staff"] = "Staves",
 				["Feet"] = "Feet",
+				["Staff"] = "Staves",
 				["Chest"] = "Chest",
 				["Crossbow"] = "Crossbows",
 				["Gun"] = "Guns",
@@ -63,13 +64,14 @@ MogItDB = {
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
 			},
-			["gridWidth"] = 1266.00073242188,
-			["gridHeight"] = 907.000244140625,
 			["minimap"] = {
 				["minimapPos"] = 176.478610615402,
 			},
+			["gridWidth"] = 1266.00073242188,
+			["y"] = 29.4999294281006,
 		},
 		["KokonutKrew"] = {
+			["y"] = 0,
 			["x"] = 0,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
@@ -97,7 +99,6 @@ MogItDB = {
 			["minimap"] = {
 				["minimapPos"] = 326.188785177687,
 			},
-			["y"] = 0,
 		},
 	},
 }
@@ -110,14 +111,15 @@ MogItWishlist = {
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
@@ -153,21 +155,23 @@ MogItWishlist = {
 		},
 		["Samoansaint - Stormrage"] = {
 		},
-		["Samoanrelic - Stormrage"] = {
-		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
 		["Samoanstrap - Tichondrius"] = {
-		},
-		["Samoanrelic - Emerald Dream"] = {
-		},
-		["Samoansage - Tichondrius"] = {
 		},
 		["Kakattack - Stormrage"] = {
 		},
+		["Samoansage - Tichondrius"] = {
+		},
 		["Samoansavage - Stormrage"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
 		},

@@ -7,6 +7,13 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Emerald Dream-Samoansavage"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Stormrage-Samoantotems"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -21,7 +28,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoansavage"] = {
+	["Stormrage-Samoantitan"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -42,21 +49,7 @@ AF_config = {
 		["rate"] = 1000,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Samoansaint"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
-		["system"] = "CHANNEL",
-	},
-	["Stormrage-Samoanrelic"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
-		["system"] = "CHANNEL",
-	},
-	["Stormrage-Kakattack"] = {
+	["Tichondrius-Samoanstrap"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -70,7 +63,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Wealthgaming"] = {
+	["Stormrage-Kakattack"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -84,14 +77,28 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Samoantitan"] = {
+	["Emerald Dream-Wealthgaming"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoanstrap"] = {
+	["Stormrage-Samoanrelic"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Samoanspy"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Stormrage-Samoansaint"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",

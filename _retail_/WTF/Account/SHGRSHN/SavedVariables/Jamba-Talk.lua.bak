@@ -3,16 +3,22 @@ JambaTalkProfileDB = {
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoantank - Tichondrius"] = {
 		},
+		["Samoantitan - Stormrage"] = {
+		},
+		["Samoanspy - Emerald Dream"] = {
+		},
 		["KokonutKrew"] = {
 		},
-		["Samoantitan - Stormrage"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},

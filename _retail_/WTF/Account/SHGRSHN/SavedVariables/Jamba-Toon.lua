@@ -3,26 +3,32 @@ JambaToonProfileDB = {
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoantank - Tichondrius"] = {
 		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
 		["KokonutKrew"] = {
 			["autoAcceptSummonRequest"] = true,
-			["acceptReadyCheck"] = true,
 			["autoDenyGuildInvites"] = true,
+			["acceptReadyCheck"] = true,
 			["teleportLFGWithTeam"] = true,
 			["autoAcceptRoleCheck"] = true,
 			["rollWithTeam"] = true,
 		},
-		["Samoantitan - Emerald Dream"] = {
-		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Samoanspy - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

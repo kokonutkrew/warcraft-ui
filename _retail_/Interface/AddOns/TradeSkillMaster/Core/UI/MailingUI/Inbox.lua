@@ -49,7 +49,7 @@ end
 -- ============================================================================
 
 function private.GetInboxFrame()
-	TSM.Analytics.PageView("mailing/inbox")
+	TSM.UI.AnalyticsRecordPathChange("mailing", "inbox")
 	local frame = TSMAPI_FOUR.UI.NewElement("Frame", "frame")
 		:SetLayout("VERTICAL")
 		:AddChild(TSMAPI_FOUR.UI.NewElement("ViewContainer", "view")
@@ -501,6 +501,8 @@ function private.TakeAllOnClick(button)
 end
 
 function private.AutoLootMailItem(button)
+	-- marks the mail as read
+	GetInboxText(private.selectedMail)
 	AutoLootMailItem(private.selectedMail)
 	button:GetElement("__parent.__parent.__parent.__parent"):SetPath("mails", true)
 end
@@ -638,9 +640,7 @@ end
 
 function private.InboxFrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 55)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(55)
 
 	private.UpdateCountDown(true)
 	TSMAPI_FOUR.Delay.AfterTime("mailUpdateCounter", 0, private.UpdateCountDown, 1)
@@ -650,9 +650,7 @@ end
 
 function private.InboxItemsFrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 34)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(34)
 end
 
 function private.InboxFrameOnHide(frame)
@@ -685,6 +683,8 @@ function private.QueryOnRowClick(scrollingTable, row, button)
 		local index = row:GetField("index")
 		local _, _, _, _, _, cod = GetInboxHeaderInfo(index)
 		if cod <= 0 then
+			-- marks the mail as read
+			GetInboxText(index)
 			AutoLootMailItem(index)
 		end
 	else

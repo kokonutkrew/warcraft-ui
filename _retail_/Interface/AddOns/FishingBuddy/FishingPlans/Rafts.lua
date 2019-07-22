@@ -36,72 +36,64 @@ local function HasRaftBuff()
 end
 FishingBuddy.HasRaftBuff = HasRaftBuff
 
+-- have to check this because C_ToyBox.IsToyUsable(RAFT_ID) also
+-- checks for revered, which is only necesssar to buy the raft.
+local function HasPandarianFishing()
+    local skill, _, _, _ = FL:GetContinentSkill(FBConstants.PANDARIA);
+    return skill > 0;
+end
+
 local function HaveRafts()
-    local haveRaft = PlayerHasToy(RAFT_ID);
-    local haveBerg = GetItemCount(BERG_ID);
+    local haveRaft = PlayerHasToy(RAFT_ID) and HasPandarianFishing();
+    local haveBerg = GetItemCount(BERG_ID) > 0;
     return (haveRaft or haveBerg), haveRaft, haveBerg
 end
 
-local RaftOption = "UseRaft";
 local function SetupRaftOptions()
-    local haveAny, haveRaft, haveBerg = HaveRafts()
-    if (haveAny) then
-        local options = {};
-        if (haveRaft and haveBerg) then
-            -- if we have both, be smarter about rafts
-            options[RaftOption] = {
-                ["text"] = FBConstants.CONFIG_USERAFTS_ONOFF,
-                ["tooltip"] = FBConstants.CONFIG_USERAFTS_INFO,
-                ["v"] = 1,
-                ["default"] = true
-            };
-            options["UseBobbingBerg"] = {
-                ["text"] = FBConstants.CONFIG_BOBBINGBERG_ONOFF,
-                ["tooltip"] = FBConstants.CONFIG_BOBBINGBERG_INFO,
-                ["v"] = 1,
-                ["default"] = true,
-                ["parents"] = { [RaftOption] = "d", },
-            };
-        elseif haveRaft then
-            RaftOption = "UseAnglersRaft";
-            options[RaftOption] = {
-                ["text"] = RaftItems[RAFT_ID][CurLoc],
-                ["tooltip"] = FBConstants.CONFIG_FISHINGRAFT_INFO,
-                ["v"] = 1,
-                ["default"] = true,
-            };
-        else
-            RaftOption = "UseBobbingBerg";
-            options[RaftOption] = {
-                ["text"] = RaftItems[BERG_ID][CurLoc],
-                ["tooltip"] = FBConstants.CONFIG_BOBBINGBERG_INFO,
-                ["v"] = 1,
-                ["default"] = true,
-            };
-        end
-        options["BergMaintainOnly"] = {
-            ["text"] = FBConstants.CONFIG_MAINTAINRAFTBERG_ONOFF,
-            ["tooltip"] = FBConstants.CONFIG_MAINTAINRAFT_INFO,
-            ["default"] = true,
-            ["v"] = 1,
-            ["parents"] = { [RaftOption] = "d", }
-        };
-        options["OverWalking"] = {
-            ["text"] = FBConstants.CONFIG_OVERWALKING_ONOFF,
-            ["tooltip"] = FBConstants.CONFIG_OVERWALKING_INFO,
-            ["default"] = false,
-            ["v"] = 1,
-            ["parents"] = { [RaftOption] = "d", }
-        };
+    local haveAny, haveRaft, haveBerg = HaveRafts();
+    local options = {};
+    -- if we have both, be smarter about rafts
+    options["UseRaft"] = {
+        ["tooltip"] = FBConstants.CONFIG_USERAFTS_INFO,
+        ["tooltipd"] = FBConstants.CONFIG_USERAFTS_INFOD,
+        ["text"] = FBConstants.CONFIG_USERAFTS_ONOFF,
+        ["enabled"] = HaveRafts;
+        ["v"] = 1,
+        ["default"] = true
+    };
+    options["UseBobbingBerg"] = {
+        ["text"] = FBConstants.CONFIG_BOBBINGBERG_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_BOBBINGBERG_INFO,
+        ["enabled"] = function()
+            local _, _, berg = HaveRafts();
+            return berg;
+        end;
+        ["v"] = 1,
+        ["default"] = true,
+        ["parents"] = { ["UseRaft"] = "d", },
+    };
 
-        return options
-    end
-    -- return nil
+    options["BergMaintainOnly"] = {
+        ["text"] = FBConstants.CONFIG_MAINTAINRAFTBERG_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_MAINTAINRAFT_INFO,
+        ["default"] = true,
+        ["v"] = 1,
+        ["parents"] = { ["UseRaft"] = "d", }
+    };
+    options["OverWalking"] = {
+        ["text"] = FBConstants.CONFIG_OVERWALKING_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_OVERWALKING_INFO,
+        ["default"] = false,
+        ["v"] = 1,
+        ["parents"] = { ["UseRaft"] = "d", }
+    };
+
+    return options
 end
 
 -- Don't cast the angler's raft if we're doing Scavenger Hunt or on Inkgill Mere
 local function RaftBergUsable()
-    if (not GSB(RaftOption) or IsMounted()) then
+    if (not GSB("UseRaft") or IsMounted()) then
         return false
     elseif FL:HasBuff(201944) then
         -- Surface Tension
@@ -161,3 +153,25 @@ RaftEvents[FBConstants.FIRST_UPDATE_EVT] = function()
 end
 
 FishingBuddy.RegisterHandlers(RaftEvents);
+
+FishingBuddy.Commands["raft"] = {};
+FishingBuddy.Commands["raft"].func =
+    function()
+        local skill, _, _, _ = FL:GetContinentSkill(FBConstants.PANDARIA);
+        FishingBuddy_Info["RaftDebug"] = {
+            ["RaftOption"] = GSB("UseRaft"),
+            ["RaftQuests"] = {
+                ["116032"] = FL:HasBuff(116032),
+                ["119700"] = FL:HasBuff(119700),
+            },
+            ["SurfaceTension"] = GSB("OverWalking"),
+            ["HaveRaft"] = PlayerHasToy(RAFT_ID),
+            ["UseableRaft"] = C_ToyBox.IsToyUsable(RAFT_ID),
+            ["RaftInfo"] = C_ToyBox.GetToyInfo(RAFT_ID),
+            ["BergCount"] = GetItemCount(BERG_ID),
+            ["Maintain"] = GSB("BergMaintainOnly"),
+            ["UseBerg"] = GSB("UseBobbingBerg"),
+            ["PandarenSkill"] = skill
+        };
+        return true;
+    end

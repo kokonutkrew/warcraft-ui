@@ -29,7 +29,7 @@ local function Slider_OnLoad(self, info, height, width)
 end
 
 local function Slider_OnShow(self)
-    local where = FishingBuddy.GetSetting(self.info.setting);
+    local where = self.info.getter(self.info.setting);
     if (where) then
         self:SetValue(where);
         self.textfield:SetText(string.format(self.info.format, where));
@@ -39,20 +39,21 @@ end
 local function Slider_OnValueChanged(self)
     local where = self:GetValue();
     self.textfield:SetText(string.format(self.info.format, where));
-    FishingBuddy.SetSetting(self.info.setting, where);
+    self.info.setter(self.info.setting, where);
     if (self.info.action) then
         self.info.action(self);
     end
 end
 
 -- info contains
--- name
+-- name -- required
 -- format -- how to print the value
 -- min
 -- max
 -- step -- default to 1
 -- rightextra -- extra room needed, if any
 -- setting -- what this slider changes
+-- action -- function to call when the value change
 function OptionsLib:CreateSlider(info)
     local s = _G[info.name];
     if (not s) then
@@ -63,6 +64,63 @@ function OptionsLib:CreateSlider(info)
     s:SetScript("OnValueChanged", Slider_OnValueChanged);
     s.info = info
     return s;
+end
+
+-- edit box
+local function EditBox_OnLoad(self, info)
+    self.info = info;
+    local maxLetters = info.maxLetters or 32;
+    if not info.width and info.maxLetters then
+        self:SetText('M');
+        local emSpace = self:GetWidth();
+        self:SetWidth(maxLetters*emSpace);
+    else
+        self:SetWidth(184);
+    end
+    self:SetMaxLetters(maxLetters);
+    self:SetHeight(info.height or 20);
+    self:SetTextInsets(0, 0, 3, 3)
+    self:SetMultiLine(false)
+    self:SetAutoFocus(false)
+    self:SetFontObject(ChatFontNormal)
+    self:EnableMouse(true)
+end
+
+local function EditBox_OnShow(self)
+    local what = self.info.getter(self.info.setting);
+    if (what) then
+        self:SetText(what);
+    end
+end
+
+local function EditBox_OnTextChanged(self)
+    local what = self:GetText();
+    self.info.setter(self.info.setting, what);
+    if (self.info.action) then
+        self.info.action(self);
+    end
+end
+
+-- info contains
+-- name
+-- setting -- what this edit box changes
+-- action -- function to call when the value changes
+-- height, width -- override defaults
+function OptionsLib:CreateEditBox(info)
+    local s = _G[info.name];
+    if (not s) then
+        s = CreateFrame("EditBox", info.name, nil, "InputBoxTemplate");
+    end
+    if (info.label and not s.label) then
+        s.label = s:CreateFontString(nil, "BACKGROUND", "GameFontNormalSmall")
+        s.label:SetPoint("RIGHT", s, "LEFT", -10, 0);
+        s.label:SetPoint("CENTER", s, "CENTER", 0, 0);
+        s.label:SetText(info.label)
+    end
+    EditBox_OnLoad(s, info)
+    s:SetScript("OnShow", EditBox_OnShow);
+    s:SetScript("OnTextChanged", EditBox_OnTextChanged)
+    return s
 end
 
 local function ParentValue(button)
@@ -374,6 +432,11 @@ function OptionsLib:_dolayout(layout, lastbutton, firstoff)
             yoff = -(lb.margin[2] or SQUISH_OFF);
             firstoff = firstoff + lb.margin[1] or 0;
         end
+        if (rb) then
+            local h1 = lb:GetHeight();
+            local h2 = rb:GetHeight();
+            firstoff = firstoff + math.abs(h1 - h2);
+        end
         if ( not lastbutton ) then
             self:_firstposition(lb, firstoff, yoff);
         else
@@ -388,12 +451,12 @@ function OptionsLib:_dolayout(layout, lastbutton, firstoff)
             if ( rb.margin ) then
                 yoff = yoff + (rb.margin[2] or 0);
             end
-            rb:SetPoint("TOP", lb, "TOP");
+            rb:SetPoint("CENTER", lb, "CENTER");
             if ( rb.checkbox ) then
                 rb:SetPoint("RIGHT", self.reference, "RIGHT", -rb.width, 0);
                 rb:SetHitRectInsets(0, -rb.width, 0, 0);
             else
-                rb:SetPoint("RIGHT", self.reference, "RIGHT", -rb.slider, 0);
+                rb:SetPoint("RIGHT", self.reference, "RIGHT", -(rb.slider or 0), 0);
             end
         end
     end
@@ -411,7 +474,6 @@ local function CleanupButton(button)
     button.enabled = nil;
     button.text = "";
     button.tooltipText = nil;
-    button.disabledTooltipText = nil;
     button.primary = nil;
     button.right = nil;
     button.layoutright = nil;
@@ -434,15 +496,18 @@ local function CleanupButton(button)
         button:SetScript("OnClick", nil);
         button.checkbox = nil;
     end
+
+    if not button.custom then
+        local text = _G[button:GetName().."Text"];
+        if (text) then
+            text:SetText(button:GetName());
+        end
+    end
+
     button.custom = nil;
     button.option = nil;
     button:Hide();
     button:SetParent(nil);
-
-    local text = _G[button:GetName().."Text"];
-    if (text) then
-        text:SetText(button:GetName());
-    end
 end
 
 function OptionsLib:NextButton()

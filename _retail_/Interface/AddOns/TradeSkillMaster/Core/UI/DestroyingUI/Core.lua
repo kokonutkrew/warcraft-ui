@@ -35,6 +35,11 @@ function DestroyingUI.OnInitialize()
 	private.FSMCreate()
 end
 
+function DestroyingUI.OnDisable()
+	-- hide the frame
+	private.fsm:ProcessEvent("EV_FRAME_HIDE")
+end
+
 function DestroyingUI.Toggle()
 	private.fsm:ProcessEvent("EV_FRAME_TOGGLE")
 end
@@ -46,7 +51,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("destroying")
+	TSM.UI.AnalyticsRecordPathChange("destroying")
 	private.query = private.query or TSM.Destroying.CreateBagQuery()
 	private.query:ResetOrderBy()
 	private.query:OrderBy("name", true)
@@ -134,7 +139,8 @@ end
 -- Local Script Handlers
 -- ============================================================================
 
-function private.FrameOnHide(frame)
+function private.FrameOnHide()
+	TSM.UI.AnalyticsRecordClose("destroying")
 	private.fsm:ProcessEvent("EV_FRAME_TOGGLE")
 end
 
@@ -183,7 +189,7 @@ function private.FSMCreate()
 		didShowOnce = false,
 		didAutoCombine = false,
 	}
-	local function UpdateDestroyingFrame(context)
+	local function UpdateDestroyingFrame(context, redraw)
 		if not context.frame then
 			return
 		end
@@ -194,7 +200,9 @@ function private.FSMCreate()
 		local destroyBtn = context.frame:GetElement("content.destroyBtn")
 		destroyBtn:SetText(context.destroyThread and L["Destroying..."] or L["Destroy Next"])
 		destroyBtn:SetDisabled(context.combineThread or context.destroyThread or private.query:Count() == 0)
-		context.frame:Draw()
+		if redraw then
+			context.frame:Draw()
+		end
 	end
 	private.fsm = TSMAPI_FOUR.FSM.New("DESTROYING")
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_FRAME_CLOSED")
@@ -233,7 +241,7 @@ function private.FSMCreate()
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_FRAME_OPEN")
 			:SetOnEnter(function(context)
-				UpdateDestroyingFrame(context)
+				UpdateDestroyingFrame(context, true)
 				if TSM.db.global.destroyingOptions.autoStack and not context.didAutoCombine and TSM.Destroying.CanCombine() then
 					context.didAutoCombine = true
 					context.frame:GetElement("content.combineBtn")
@@ -253,6 +261,7 @@ function private.FSMCreate()
 			:AddEvent("EV_COMBINE_BUTTON_CLICKED", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_COMBINING_STACKS"))
 			:AddEvent("EV_DESTROY_BUTTON_PRE_CLICK", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_DESTROYING"))
 			:AddEvent("EV_BAG_UPDATE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_FRAME_OPEN"))
+			:AddEvent("EV_FRAME_HIDE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_FRAME_CLOSED"))
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_COMBINING_STACKS")
 			:SetOnEnter(function(context)
@@ -265,6 +274,7 @@ function private.FSMCreate()
 			:AddTransition("ST_COMBINING_DONE")
 			:AddTransition("ST_FRAME_CLOSED")
 			:AddEvent("EV_COMBINE_DONE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_COMBINING_DONE"))
+			:AddEvent("EV_FRAME_HIDE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_FRAME_CLOSED"))
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_COMBINING_DONE")
 			:SetOnEnter(function(context)
@@ -289,6 +299,7 @@ function private.FSMCreate()
 			:AddTransition("ST_DESTROYING_DONE")
 			:AddTransition("ST_FRAME_CLOSED")
 			:AddEvent("EV_DESTROY_DONE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_DESTROYING_DONE"))
+			:AddEvent("EV_FRAME_HIDE", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_FRAME_CLOSED"))
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_DESTROYING_DONE")
 			:SetOnEnter(function(context)

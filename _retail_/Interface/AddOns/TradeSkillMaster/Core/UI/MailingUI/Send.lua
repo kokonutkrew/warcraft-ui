@@ -26,18 +26,6 @@ local private = {
 	listElements = {},
 	listFilter = ""
 }
-
-local SEND_DB_SCHEMA = {
-	fields = {
-		itemString = "string",
-		quantity = "number",
-	},
-	fieldOrder = {
-		"itemString",
-		"quantity",
-	},
-}
-
 local PLAYER_NAME_REALM = string.gsub(UnitName("player").."-"..GetRealmName(), "%s+", "")
 
 
@@ -50,8 +38,10 @@ function Send.OnInitialize()
 	private.FSMCreate()
 	TSM.UI.MailingUI.RegisterTopLevelPage(L["Send"], "iconPack.24x24/Send Mail", private.GetSendFrame)
 
-	private.db = TSMAPI_FOUR.Database.New(SEND_DB_SCHEMA, "MAILTRACKING_SEND_INFO")
-
+	private.db = TSMAPI_FOUR.Database.NewSchema("MAILTRACKING_SEND_INFO")
+		:AddStringField("itemString")
+		:AddNumberField("quantity")
+		:Commit()
 	private.query = private.db:NewQuery()
 end
 
@@ -66,7 +56,7 @@ end
 -- ============================================================================
 
 function private.GetSendFrame()
-	TSM.Analytics.PageView("mailing/send")
+	TSM.UI.AnalyticsRecordPathChange("mailing", "send")
 	local frame = TSMAPI_FOUR.UI.NewElement("Frame", "send")
 		:SetLayout("VERTICAL")
 		:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "container")
@@ -530,9 +520,7 @@ end
 
 function private.SendFrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 36)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(36)
 
 	private.fsm:ProcessEvent("EV_FRAME_SHOW", frame)
 end
@@ -791,7 +779,8 @@ end
 
 function private.MoneyValueConvert(input)
 	local text = gsub(strtrim(input:GetText()), TSMAPI_FOUR.Util.StrEscape(LARGE_NUMBER_SEPERATOR), "")
-	local value = tonumber(text) or TSM.Money.FromString(text) or 0
+	local value = min(max(tonumber(text) or TSM.Money.FromString(text) or 0, 0), MAXIMUM_BID_PRICE)
+
 	private.money = private.isCOD and min(value, 100000000) or value
 
 	input:SetFocused(false)
@@ -813,6 +802,7 @@ function private.SendMail(button)
 		money = private.money * -1
 	end
 
+	button:GetElement("__parent.__parent.container.name.input"):SetFocused(false)
 	private.UpdateRecentlyMailed(private.recipient)
 
 	if private.query:Count() > 0 then
@@ -1060,9 +1050,6 @@ function private.FSMCreate()
 			:AddTransition("ST_SHOWN")
 			:AddTransition("ST_HIDDEN")
 			:AddEvent("EV_FRAME_SHOW", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_SHOWN"))
-			:AddEvent("EV_MAIL_CLEAR", function(context, redraw)
-				ClearMail(context, redraw)
-			end)
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_SHOWN")
 			:SetOnEnter(function(context, frame)
@@ -1083,7 +1070,7 @@ function private.FSMCreate()
 				UpdateFrame(context)
 			end)
 			:AddEvent("EV_MAIL_CLEAR", function(context, redraw)
-				ClearMail(context, redraw)
+				ClearMail(context, IsShiftKeyDown(), redraw)
 			end)
 			:AddEvent("EV_BUTTON_CLICKED", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_SENDING_START"))
 		)

@@ -3,8 +3,8 @@
 --------------------------------------------------------------------------------------------------------------------------------------------
 local NS = select( 2, ... );
 local L = NS.localization;
-NS.releasePatch = "8.0.1";
-NS.versionString = "3.06";
+NS.releasePatch = "8.1";
+NS.versionString = "3.07";
 NS.version = tonumber( NS.versionString );
 --
 NS.options = {};
@@ -269,8 +269,9 @@ for i = 1, #NS.ridingSpells do
 end
 NS.cachedDressUpIds = {};
 NS.mountInfo = {
-	-- As of 07/04/2018
+	-- As of 12/22/2018
 	--[mountItemId] = { displayID, spellID }, -- creatureName -- itemName
+	[90655] = { 45797, 132036 }, -- Thundering Ruby Cloud Serpent -- Reins of the Thundering Ruby Cloud Serpent
 	[153594] = { 80513, 256123 }, -- Xiwyllag ATV -- Xiwyllag ATV
 	[161134] = { 81816, 261437 }, -- Mecha-Mogul Mk2 -- Mecha-Mogul Mk2
 	[163573] = { 81690, 260175 }, -- Goldenmane -- Goldenmane's Reins
@@ -318,8 +319,9 @@ NS.mountInfo = {
 	[49290] = { 34655, 65917 }, -- Magic Rooster -- Magic Rooster Egg
 };
 NS.petInfo = {
-	-- As of 07/04/2018
+	-- As of 12/22/2018
 	--[companionPetItemId] = { speciesID, creatureID }, -- itemName
+	[166487] = { 2552, 148979 }, -- Leatherwing Screecher
 	[152878] = { 2201, 139743 }, -- Enchanted Tiki Mask
 	[151645] = { 2001, 117340 }, -- Model D1-BB-L3R
 	[151269] = { 2002, 117341 }, -- Naxxy
@@ -394,6 +396,7 @@ NS.petInfo = {
 	[21308] = { 118, 15706 }, -- Winter Reindeer
 	[48120] = { 236, 35399 }, -- Obsidian Hatchling
 	[132519] = { 1886, 106210 }, -- Trigger
+	[136921] = { 1886, 106210 }, -- Trigger
 	[136924] = { 1889, 106278 }, -- Felbat Pup
 	[44970] = { 205, 33194 }, -- Dun Morogh Cub
 	[48122] = { 237, 35397 }, -- Ravasaur Hatchling
@@ -418,7 +421,7 @@ NS.petInfo = {
 	[29904] = { 141, 21018 }, -- White Moth
 	[67282] = { 293, 50722 }, -- Elementium Geode
 	[29903] = { 140, 21008 }, -- Yellow Moth
-	[113569] = { 1429, 83584 }, -- Autumnal Sproutling
+	[118599] = { 1429, 83584 }, -- Autumnal Sproutling
 	[87526] = { 844, 64899 }, -- Mechanical Pandaren Dragonling
 	[127856] = { 1687, 94867 }, -- Left Shark
 	[118595] = { 1432, 83594 }, -- Nightshade Sproutling
@@ -500,8 +503,10 @@ NS.petInfo = {
 	[146953] = { 2042, 120397 }, -- Scraps
 };
 NS.toyInfo = {
-	-- As of 07/04/2018
+	-- As of 12/22/2018
 	--[toyItemId] = { catNum, subCatNum }, -- itemName
+	[166743] = { 12, 4 }, -- Blight Bomber
+	[166744] = { 12, 4 }, -- Glaive Tosser
 	[160740] = { 12, 4 }, -- Croak Crock
 	[160751] = { 12, 4 }, -- Dance of the Dead
 	[151652] = { 6, 1 }, -- Wormhole Generator: Argus

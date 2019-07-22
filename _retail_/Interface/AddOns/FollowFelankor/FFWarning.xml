@@ -1,0 +1,34 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="FFWarning.lua"/>
+
+	<Frame name="FFWarning" parent="UIParent" frameStrata="HIGH" toplevel="true" hidden="true">
+		<Size>
+			<AbsDimension x="512" y="70"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOP" relativeTo="RaidWarningFrame" relativePoint="BOTTOM"/>
+		</Anchors>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="$parentSlot1" inherits="GameFontNormalHuge" justifyH="CENTER" hidden="true">
+					<Size x="800" y="0"/>
+					<Anchors>
+						<Anchor point="TOP"/>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentSlot2" inherits="GameFontNormalHuge" justifyH="CENTER" hidden="true">
+					<Size x="800" y="0"/>
+					<Anchors>
+						<Anchor point="TOP" relativeTo="$parentSlot1" relativePoint="BOTTOM"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad function="FFWarning_OnLoad"/>
+			<OnUpdate function="FFWarning_OnUpdate"/>
+		</Scripts>
+	</Frame>
+
+</Ui>

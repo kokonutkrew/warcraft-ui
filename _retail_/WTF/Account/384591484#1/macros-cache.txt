@@ -36,8 +36,19 @@ END
 VER 3 000000000000004F "AOTC Legion HC" "INV_SCROLL_11"
 /run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:11195:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:17:17:4294967295:4294967295:4294967295:4294967295\124h[Ahead of the Curve: Gul'dan]\124h\124r")
 END
+VER 3 00000000000000A6 "AutoFollow" "132127"
+/clearfocus
+/target [target=party1]
+/focus [@focus,noharm][@focus,dead]
+/follow [@focus]
+/assist
+/stopcasting
+END
 VER 3 000000000000006E "ChatHide" "132331"
 /run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+END
+VER 3 00000000000000A5 "Cluck" "576309"
+/chicken
 END
 VER 3 000000000000009D "Death" "135426"
 /run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)

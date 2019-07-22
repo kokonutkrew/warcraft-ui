@@ -1,12 +1,12 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0231,
-	["LastPlayerFullName"] = "Samoantitan-Stormrage",
+	["LastVersion"] = 2.0234,
+	["LastPlayerFullName"] = "Tygrrlilly-Emerald Dream",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "PALADIN",
+	["LastClass"] = "HUNTER",
 	["LastAdded"] = 1,
 }

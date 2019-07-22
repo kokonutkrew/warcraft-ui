@@ -1,6 +1,6 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: Fishing Buddy
-## Version: 1.9.22
+## Version: 1.9.27
 ## Notes: Help with fishing related tasks -- clothing, fish information, etc.
 ## Notes-deDE: Erleichtert das Angeln - Ausrüstung und Fish-Infos
 ## Notes-frFR: Vous facilite la vie de pecheur. Informations sur les poissons, changement d'habits, etc.
@@ -42,4 +42,5 @@ FishingSchools.lua
 FishingAbout.lua
 FishingPlans.lua
 FishingPlans\Plans.xml
+FishingMacro.lua
 FishingFluff.xml

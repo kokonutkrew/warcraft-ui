@@ -7,9 +7,18 @@ dbBFA = {
 		["Samoantank - Tichondrius"] = {
 			["firstun"] = false,
 		},
+		["Samoanrelic - Tichondrius"] = {
+			["firstun"] = false,
+		},
 		["Samoantitan - Stormrage"] = {
 			["firstun"] = false,
 		},
+	},
+	["profileKeys"] = {
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -17,11 +26,6 @@ dbBFA = {
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-	},
-	["profileKeys"] = {
-		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
-		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -45,8 +49,8 @@ dbBFA = {
 				["PREFERHIGH"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["MAXCHAMP"] = 3,
 				["TROOPALERT"] = true,
+				["MAXCHAMP"] = 3,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
 			},

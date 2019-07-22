@@ -540,9 +540,24 @@ FishingInit.UpdateFishingDB = function()
 		end
 	end
 
+    local location = FishingBuddy_Player["WatcherLocation"];
+    if location and location["x"] ~= nil then
+        for _,key in ipairs({"x", "y", "point", "scale"}) do
+            location["solo_"..key] = location[key];
+            location["grp_"..key] = location[key];
+            location["raid_"..key] = location[key];
+            location[key] = nil;
+        end
+    end
+
 	if (type(FishingBuddy_Player["Settings"]["TotalTimeFishing"]) ~= "number") then
 		FishingBuddy_Player["Settings"]["TotalTimeFishing"] = 1;
-	end
+    end
+
+    if FishingBuddy_Player["Settings"]["UseAnglersRaft"] ~= nil then
+        FishingBuddy_Player["Settings"]["UseRaft"] = FishingBuddy_Player["Settings"]["UseAnglersRaft"] or  FishingBuddy_Player["Settings"]["UseBobbingBerg"];
+        FishingBuddy_Player["Settings"]["UseAnglersRaft"] = nil;
+    end
 
 	-- save this for other pieces that might need to update
 	lastVersion = version;

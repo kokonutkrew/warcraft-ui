@@ -17,11 +17,9 @@ L[" macros per character.  You currently have "] = "макросов на пер
 L[" saved as version "] = "сохранено как версия"
 L[" sent"] = "послать"
 L[" tried to overwrite the version already loaded from "] = "попытался перезаписать версию, уже загруженную из"
---[[Translation missing --]]
---[[ L[" was imported as a new macro."] = ""--]] 
+L[" was imported as a new macro."] = "был импортирован как новый макрос."
 L[" was imported with the following errors."] = "был импортирован со следующими ошибками."
---[[Translation missing --]]
---[[ L[" was updated to new version."] = ""--]] 
+L[" was updated to new version."] = "была обновлена ​​до новой версии."
 L[". This version was not loaded."] = ". Эта версия не была загружена."
 L["/gs |r to get started."] = "/gs |r для запуска."
 L["/gs checkmacrosforerrors|r will loop through your macros and check for corrupt macro versions.  This will then show how to correct these issues."] = "/gs checkmacrosforerrors | r перебирает ваши макросы и проверяет наличие поврежденные версий макросов. Эта команда покажет, как исправить проблемы."

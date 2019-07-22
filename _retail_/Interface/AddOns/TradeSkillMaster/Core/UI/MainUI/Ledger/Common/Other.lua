@@ -52,10 +52,12 @@ end
 -- ============================================================================
 
 function private.DrawOtherExpensesPage()
+	TSM.UI.AnalyticsRecordPathChange("main", "ledger", "expenses", "other")
 	return private.DrawOtherPage("expense")
 end
 
 function private.DrawOtherRevenuePage()
+	TSM.UI.AnalyticsRecordPathChange("main", "ledger", "revenue", "other")
 	return private.DrawOtherPage("income")
 end
 
@@ -161,7 +163,7 @@ function private.DrawOtherPage(recordType)
 				:NewColumn("amount")
 					:SetTitles(L["Amount"])
 					:SetWidth(120)
-					:SetFont(TSM.UI.Fonts.RobotoMedium)
+					:SetFont(TSM.UI.Fonts.FRIZQT)
 					:SetFontHeight(12)
 					:SetJustifyH("RIGHT")
 					:SetTextInfo("amount", TSM.Money.ToString)

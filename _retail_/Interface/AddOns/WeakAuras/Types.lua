@@ -1499,6 +1499,12 @@ WeakAuras.cooldown_progress_behavior_types = {
   showAlways = L["Always"]
 }
 
+WeakAuras.cooldown_types = {
+  auto = L["Auto"],
+  charges = L["Charges"],
+  cooldown = L["Cooldown"]
+}
+
 WeakAuras.bufftrigger_progress_behavior_types = {
   showOnActive = L["Buffed/Debuffed"],
   showOnMissing = L["Missing"],
@@ -1598,6 +1604,7 @@ WeakAuras.mythic_plus_affixes = {
   [13] = true,
   [14] = true,
   [16] = true,
+  [117] = true -- Reaping
 }
 
 for k in pairs(WeakAuras.mythic_plus_affixes) do
@@ -1727,6 +1734,8 @@ WeakAuras.internal_fields = {
   expanded = true,
   parent = true,
   authorMode = true,
+  skipWagoUpdate = true,
+  ignoreWagoUpdate = true
 }
 
 WeakAuras.data_stub = {
@@ -1791,6 +1800,8 @@ WeakAuras.author_option_types = {
   color = L["Color"],
   select = L["Dropdown Menu"],
   space = L["Space"],
+  multiselect = L["Toggle List"],
+  header = L["Separator"],
 }
 
 WeakAuras.author_option_fields = {
@@ -1836,12 +1847,17 @@ WeakAuras.author_option_fields = {
   },
   space = {
     variableWidth = true,
-  }
-}
-
-WeakAuras.space_types = {
-  multi = L["Multi-Line"],
-  single = L["Single-Line"]
+    useHeight = false,
+    height = 1,
+  },
+  multiselect = {
+    default = {true},
+    values = {"val1"},
+  },
+  header = {
+    useName = false,
+    text = "",
+  },
 }
 
 WeakAuras.difficulty_info = {

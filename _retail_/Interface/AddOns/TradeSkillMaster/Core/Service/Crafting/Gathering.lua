@@ -15,23 +15,6 @@ local private = {
 	professionList = {},
 	contextChangedCallback = nil,
 }
-local DB_SCHEMA = {
-	fields = {
-		itemString = "string",
-		numNeed = "number",
-		numHave = "number",
-		sourcesStr = "string",
-	},
-	fieldAttributes = {
-		itemString = { "unique" },
-	},
-	fieldOrder = {
-		"itemString",
-		"numNeed",
-		"numHave",
-		"sourcesStr",
-	}
-}
 
 
 
@@ -40,7 +23,12 @@ local DB_SCHEMA = {
 -- ============================================================================
 
 function Gathering.OnEnable()
-	private.db = TSMAPI_FOUR.Database.New(DB_SCHEMA, "GATHERING_MATS")
+	private.db = TSMAPI_FOUR.Database.NewSchema("GATHERING_MATS")
+		:AddUniqueStringField("itemString")
+		:AddNumberField("numNeed")
+		:AddNumberField("numHave")
+		:AddStringField("sourcesStr")
+		:Commit()
 	private.queuedCraftsUpdateQuery = TSM.Crafting.CreateQueuedCraftsQuery()
 		:SetUpdateCallback(private.OnQueuedCraftsUpdated)
 	private.OnQueuedCraftsUpdated()
@@ -266,8 +254,9 @@ function private.UpdateDB()
 						-- we are crafting these, so add the necessary mats
 						local spellId = TSM.Crafting.GetMostProfitableSpellIdByItem(itemString, crafter)
 						assert(spellId)
+						local numToCraft = ceil(prevNumNeed / TSM.Crafting.GetNumResult(spellId))
 						for _, intMatItemString, intMatQuantity in TSM.Crafting.MatIterator(spellId) do
-							local intMatNumNeed, numUsed = private.HandleNumHave(intMatItemString, prevNumNeed * intMatQuantity, matsNumHaveExtra[intMatItemString] or 0)
+							local intMatNumNeed, numUsed = private.HandleNumHave(intMatItemString, numToCraft * intMatQuantity, matsNumHaveExtra[intMatItemString] or 0)
 							if numUsed > 0 then
 								matsNumHaveExtra[intMatItemString] = matsNumHaveExtra[intMatItemString] - numUsed
 							end
@@ -454,7 +443,8 @@ function private.ProcessSource(itemString, numNeed, source, sourceList)
 		local spellId, maxProfit = TSM.Crafting.GetMostProfitableSpellIdByItem(itemString, crafter)
 		if spellId and (source == "craftNoProfit" or (maxProfit and maxProfit > 0)) then
 			-- assume we can craft all we need
-			tinsert(sourceList, source.."/"..numNeed.."/")
+			local numToCraft = ceil(numNeed / TSM.Crafting.GetNumResult(spellId))
+			tinsert(sourceList, source.."/"..numToCraft.."/")
 			return 0
 		end
 	elseif source == "auction" then

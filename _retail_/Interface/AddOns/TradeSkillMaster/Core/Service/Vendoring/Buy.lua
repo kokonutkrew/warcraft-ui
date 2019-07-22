@@ -11,28 +11,6 @@ local Buy = TSM.Vendoring:NewPackage("Buy")
 local private = {
 	merchantDB = nil,
 }
-local MERCHANT_DB_SCHEMA = {
-	fields = {
-		index = "number",
-		itemString = "string",
-		price = "number",
-		costItemString = "string",
-		stackSize = "number",
-		numAvailable = "number",
-	},
-	fieldAttributes = {
-		index = { "unique" },
-		itemString = { "unique" },
-	},
-	fieldOrder = {
-		"index",
-		"itemString",
-		"price",
-		"costItemString",
-		"stackSize",
-		"numAvailable",
-	},
-}
 
 
 
@@ -41,7 +19,14 @@ local MERCHANT_DB_SCHEMA = {
 -- ============================================================================
 
 function Buy.OnInitialize()
-	private.merchantDB = TSMAPI_FOUR.Database.New(MERCHANT_DB_SCHEMA, "MERCHANT")
+	private.merchantDB = TSMAPI_FOUR.Database.NewSchema("MERCHANT")
+		:AddUniqueNumberField("index")
+		:AddStringField("itemString")
+		:AddNumberField("price")
+		:AddStringField("costItemString")
+		:AddNumberField("stackSize")
+		:AddNumberField("numAvailable")
+		:Commit()
 	TSMAPI_FOUR.Event.Register("MERCHANT_SHOW", private.MerchantShowEventHandler)
 	TSMAPI_FOUR.Event.Register("MERCHANT_CLOSED", private.MerchantClosedEventHandler)
 	TSMAPI_FOUR.Event.Register("MERCHANT_UPDATE", private.MerchantUpdateEventHandler)
@@ -69,8 +54,23 @@ function Buy.DoRepair()
 end
 
 function Buy.BuyItem(itemString, quantity)
-	local index = private.merchantDB:GetUniqueRowField("itemString", itemString, "index")
-	assert(index)
+	local query = Buy.CreateMerchantQuery()
+		:Equal("itemString", itemString)
+		:OrderBy("index", true)
+	local row = query:GetFirstResultAndRelease()
+	if not row then
+		return
+	end
+	local index = row:GetField("index")
+	local maxStack = GetMerchantItemMaxStack(index)
+	quantity = min(quantity, private.GetMaxCanAfford(index))
+	while quantity > 0 do
+		BuyMerchantItem(index, min(quantity, maxStack))
+		quantity = quantity - maxStack
+	end
+end
+
+function Buy.BuyItemIndex(index, quantity)
 	local maxStack = GetMerchantItemMaxStack(index)
 	quantity = min(quantity, private.GetMaxCanAfford(index))
 	while quantity > 0 do
@@ -80,7 +80,11 @@ function Buy.BuyItem(itemString, quantity)
 end
 
 function Buy.CanBuyItem(itemString)
-	return private.merchantDB:GetUniqueRowField("itemString", itemString, "index") and true or false
+	local query = Buy.CreateMerchantQuery()
+		:Equal("itemString", itemString)
+		:OrderBy("index", true)
+	local row = query:GetFirstResultAndRelease()
+	return row and true or false
 end
 
 
@@ -105,15 +109,11 @@ end
 
 function private.UpdateMerchantDB()
 	local needsRetry = false
-	local usedItem = TSMAPI_FOUR.Util.AcquireTempTable()
-	private.merchantDB:SetQueryUpdatesPaused(true)
-	private.merchantDB:Truncate()
-	private.merchantDB:BulkInsertStart()
+	private.merchantDB:TruncateAndBulkInsertStart()
 	for i = 1, GetMerchantNumItems() do
 		local itemLink = GetMerchantItemLink(i)
 		local itemString = TSMAPI_FOUR.Item.ToItemString(itemLink)
-		if itemString and not usedItem[itemString] then
-			usedItem[itemString] = true
+		if itemString then
 			TSM.ItemInfo.StoreItemInfoByLink(itemLink)
 			local _, _, price, stackSize, numAvailable, _, _, extendedCost = GetMerchantItemInfo(i)
 			local numAltCurrencies = GetMerchantItemCostInfo(i)
@@ -134,7 +134,8 @@ function private.UpdateMerchantDB()
 					elseif costItemString then
 						texture = TSMAPI_FOUR.Item.GetTexture(costItemString)
 					elseif strmatch(costItemLink, "currency:") then
-						texture = select(3, GetCurrencyInfo(costItemLink))
+						local _
+						_, _, texture = GetCurrencyInfo(costItemLink)
 					else
 						error(format("Unknown item cost (%d, %d, %s)", i, costNum, tostring(costItemLink)))
 					end
@@ -147,8 +148,6 @@ function private.UpdateMerchantDB()
 		end
 	end
 	private.merchantDB:BulkInsertEnd()
-	private.merchantDB:SetQueryUpdatesPaused(false)
-	TSMAPI_FOUR.Util.ReleaseTempTable(usedItem)
 
 	if needsRetry then
 		TSM:LOG_ERR("Failed to scan merchant")

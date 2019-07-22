@@ -1,0 +1,79 @@
+VER 3 0100000000000006 "Art O Warbringer" "INV_Misc_QuestionMark"
+/castsequence [harm] reset=15 Charge, Intercept; [help] Intervene
+END
+VER 3 0100000000000008 "Berserk Retallia" "INV_Misc_QuestionMark"
+#show Retaliation
+/cast [stance:1] Retaliation; Battle Stance
+/cast Berserker Stance
+END
+VER 3 0100000000000001 "Blood/Slam" "Spell_Nature_BloodLust"
+/cast Bloodthirst
+/cast Slam
+END
+VER 3 0100000000000007 "Execute/Rush" "INV_Misc_QuestionMark"
+#show Victory Rush
+/cast Execute
+/cast Victory Rush
+END
+VER 3 0100000000000009 "Fury Buff" "Ability_BackStab"
+/use Battlemaster's Fury
+/use Mark of Supremacy
+/cast Bloodrage
+/cast Death Wish
+/cast Battle Shout
+/cast Recklessness
+/cast Heroic Throw
+/cast Hamstring
+/cast Demoralizing Shout
+/cast Enraged Regeneration
+/cast Execute
+/cast Victory Rush
+END
+VER 3 0100000000000004 "Heroic/Revenge" "INV_Misc_QuestionMark"
+#showtooltip Revenge
+/castsequence reset=2 Revenge, !Heroic Strike
+END
+VER 3 010000000000000B "Note: Fury Ro." "Spell_Shaman_StaticShock"
+Cleave,Whirl,Bloodrage,Blood/Slam,BerserkerRage, Victory Rush, Sunder, Heroic Throw, HS, Blank, Pummel,Ham
+END
+VER 3 010000000000000D "Overpower" "Ability_Warrior_WeaponMastery"
+/cast overpower
+/cast Victory Rush
+/cast Execute
+END
+VER 3 010000000000000A "Prot PVP" "Ability_BackStab"
+/cast Bloodrage
+/use Battlemaster's Fury
+/use Corroded Skeleton Key
+/use Ick's Rotting Thumb
+/use Glyph of Indomitability
+/cast Shield Wall
+/cast Shield Block
+/cast Last Stand
+/cast Spell Reflection
+/cast Enraged Regeneration
+/cast Commanding Shout 
+END
+VER 3 0100000000000003 "Recklessness Def" "INV_Misc_QuestionMark"
+Recklessness Macro
+#show Recklessness
+/cast Shield Block
+/cast [stance:3] Recklessness; Berserker Stance
+/cast Defensive Stance
+END
+VER 3 0100000000000002 "Retalalion Macro" "INV_Misc_QuestionMark"
+#show Retaliation
+/cast [stance:1] Retaliation; Battle Stance
+/cast Defensive Stance
+END
+VER 3 010000000000000C "Sweep/Storm" "Ability_Warrior_Bladestorm"
+/cast Bloodrage
+/cast Sweeping Strikes
+/cast Bladestorm
+END
+VER 3 010000000000000E "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000F "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

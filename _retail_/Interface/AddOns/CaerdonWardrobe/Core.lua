@@ -1,4 +1,5 @@
 local DEBUG_ENABLED = false
+-- local DEBUG_ITEM = 113588
 local ADDON_NAME, NS = ...
 local L = NS.L
 local eventFrame
@@ -52,7 +53,7 @@ local InventorySlots = {
 }
 
 local mainTip = CreateFrame( "GameTooltip", "CaerdonWardrobeGameTooltip", nil, "GameTooltipTemplate" )
-mainTip.ItemTooltip = CreateFrame("FRAME", "CaerdonWardrobeGameTooltipChild", nil, "InternalEmbeddedItemTooltipTemplate")
+mainTip.ItemTooltip = CreateFrame("FRAME", "CaerdonWardrobeGameTooltipChild", mainTip, "InternalEmbeddedItemTooltipTemplate")
 mainTip.ItemTooltip.Tooltip.shoppingTooltips = { WorldMapCompareTooltip1, WorldMapCompareTooltip2 }
 
 local cachedBinding = {}
@@ -211,15 +212,19 @@ end
 local function PlayerHasAppearance(appearanceID)
 	local hasAppearance = false
 
-    local sources = C_TransmogCollection.GetAppearanceSources(appearanceID)
+    local sources = C_TransmogCollection.GetAllAppearanceSources(appearanceID)
     local matchedSource
     if sources then
-        for i, source in pairs(sources) do
-            if source.isCollected then
-            	matchedSource = source
-                hasAppearance = true
-                break
-            end
+		for i, sourceID in pairs(sources) do
+			if sourceID and sourceID ~= NO_TRANSMOG_SOURCE_ID then
+				local categoryID, appearanceID, canEnchant, texture, isCollected, sourceItemLink = C_TransmogCollection.GetAppearanceSourceInfo(sourceID)
+
+				if isCollected then
+					matchedSource = source
+					hasAppearance = true
+					break
+				end
+			end
         end
     end
 
@@ -227,6 +232,7 @@ local function PlayerHasAppearance(appearanceID)
 end
  
 local function PlayerCanCollectAppearance(appearanceID, itemID, itemLink)
+	local isDebugItem = itemID == DEBUG_ITEM
 	local _, _, quality, _, reqLevel, itemClass, itemSubClass, _, equipSlot, _, _, itemClassID, itemSubClassID = GetItemInfo(itemID)
 	local playerLevel = UnitLevel("player")
 	local canCollect = false
@@ -255,22 +261,13 @@ local function PlayerCanCollectAppearance(appearanceID, itemID, itemLink)
 		classArmor = LE_ITEM_ARMOR_MAIL
 	end
 
-	if equipSlot ~= "INVTYPE_CLOAK"
-		and itemClassID == LE_ITEM_CLASS_ARMOR and 
-		(	itemSubClassID == LE_ITEM_ARMOR_CLOTH or 
-			itemSubClassID == LE_ITEM_ARMOR_LEATHER or 
-			itemSubClassID == LE_ITEM_ARMOR_MAIL or
-			itemSubClassID == LE_ITEM_ARMOR_PLATE)
-		and itemSubClassID ~= classArmor then 
-			canCollect = false
-			return
-		end
-
 	if playerLevel >= reqLevel then
+		if isDebugItem then print("Player is high enough level to collect") end
 	    local sources = C_TransmogCollection.GetAppearanceSources(appearanceID)
 	    if sources then
 	        for i, source in pairs(sources) do
-		        isInfoReady, canCollect = C_TransmogCollection.PlayerCanCollectSource(source.sourceID)
+				isInfoReady, canCollect = C_TransmogCollection.PlayerCanCollectSource(source.sourceID)
+				if isDebugItem then print("Info Ready: " .. tostring(isInfoReady) .. ", Can Collect: " .. tostring(canCollect)) end
 	            if isInfoReady then
 	            	if canCollect then
 		            	matchedSource = source
@@ -280,7 +277,20 @@ local function PlayerCanCollectAppearance(appearanceID, itemID, itemLink)
 	            	shouldRetry = true
 	            end
 	        end
-	    end
+		else
+			if isDebugItem then print("No sources found for item: " .. itemLink .. ", Appearance ID: " .. tostring(appearanceID)) end
+		end
+	end
+
+	if equipSlot ~= "INVTYPE_CLOAK"
+		and itemClassID == LE_ITEM_CLASS_ARMOR and 
+		(	itemSubClassID == LE_ITEM_ARMOR_CLOTH or 
+			itemSubClassID == LE_ITEM_ARMOR_LEATHER or 
+			itemSubClassID == LE_ITEM_ARMOR_MAIL or
+			itemSubClassID == LE_ITEM_ARMOR_PLATE)
+		and itemSubClassID ~= classArmor then 
+			if isDebugItem then print("Wrong armor. Can't collect: " .. itemLink) end
+			canCollect = false
 	end
 
     return canCollect, matchedSource, shouldRetry
@@ -323,11 +333,15 @@ local function GetItemLinkLocal(bag, slot)
 	elseif bag == "LootFrame" or bag == "GroupLootFrame" then
 		return slot.link
 	elseif bag == "QuestButton" then
-		local itemID = slot.itemID
-		local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
-		itemEquipLoc, iconFileDataID, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID, 
-		isCraftingReagent = GetItemInfo(itemID)
-		return itemLink
+		if slot.itemLink then
+			return slot.itemLink
+		else
+			local itemID = slot.itemID
+			local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
+			itemEquipLoc, iconFileDataID, itemSellPrice, itemClassID, itemSubClassID, bindType, expacID, itemSetID, 
+			isCraftingReagent = GetItemInfo(itemID)
+			return itemLink
+		end
 	else
 	    if bag then
 	      return GetContainerItemLink(bag, slot)
@@ -357,9 +371,9 @@ end
 local equipLocations = {}
 
 local function GetBindingStatus(bag, slot, itemID, itemLink)
-	-- local isDebugItem = itemID == 140261
+	local isDebugItem = itemID == DEBUG_ITEM
 
-	-- if isDebugItem then print ("GetBindingStatus (" .. itemLink .. "): bag = " .. bag .. ", slot = " .. slot) end
+	if isDebugItem then print ("GetBindingStatus (" .. itemLink .. "): bag = " .. bag .. ", slot = " .. tostring(slot)) end
 
 	local scanTip = mainTip
 	local itemKey = GetItemKey(bag, slot, itemLink)
@@ -369,7 +383,9 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 
     local isInEquipmentSet = false
     local isBindOnPickup = false
-    local isCompletionistItem = false
+	local isCompletionistItem = false
+	local matchesLootSpec = true
+	local unusableItem = false
     local isDressable, shouldRetry
 
     local isCollectionItem = IsCollectibleLink(itemLink)
@@ -380,9 +396,20 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 		isDressable = false
 		shouldRetry = false
 	else
-	    isDressable, shouldRetry = IsDressableItemCheck(itemID, itemLink)
+		isDressable, shouldRetry = IsDressableItemCheck(itemID, itemLink)
+		if isDebugItem then print ("IsDressable: " .. tostring(isDressable)) end
 	end
 
+	local playerSpec = GetSpecialization();
+	local playerClassID = select(3, UnitClass("player")) 
+	local playerSpecID = -1
+	if (playerSpec) then
+		playerSpecID = GetSpecializationInfo(playerSpec, nil, nil, nil, UnitSex("player"));
+	end
+	local playerLootSpecID = GetLootSpecialization()
+	if playerLootSpecID == 0 then
+		playerLootSpecID = playerSpecID
+	end
 
 	if binding then
 		if isDebugItem then print("Using cached binding: " .. tostring(binding.bindingText)) end
@@ -392,6 +419,8 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 		isInEquipmentSet = binding.isInEquipmentSet
 		isBindOnPickup = binding.isBindOnPickup
 		isCompletionistItem = binding.isCompletionistItem
+		unusableItem = binding.unusableItem
+		matchesLootSpec = binding.matchesLootSpec
 	elseif not shouldRetry then
 		if isDebugItem then print("Processing binding") end
 		needsItem = true
@@ -416,6 +445,29 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 			scanTip:SetLootItem(slot.index)
 		elseif bag == "GroupLootFrame" then
 			scanTip:SetLootRollItem(slot.index)
+		elseif bag == "EncounterJournal" then
+			local classID, specID = EJ_GetLootFilter();
+			if (specID == 0) then
+				if (playerSpec and classID == playerClassID) then
+					specID = playerSpecID
+				else
+					specID = -1;
+				end
+			end
+			scanTip:SetHyperlink(itemLink, classID, specID)
+
+			local specTable = GetItemSpecInfo(itemLink)
+			if specTable then
+				for specIndex = 1, #specTable do
+					matchesLootSpec = false
+
+					local validSpecID = GetSpecializationInfo(specIndex, nil, nil, nil, UnitSex("player"));
+					if validSpecID == playerLootSpecID then
+						matchesLootSpec = true
+						break
+					end
+				end
+			end
 		elseif bag == "QuestButton" then
 			GameTooltip_AddQuestRewardsToTooltip(scanTip, slot.questID)
 			scanTip = scanTip.ItemTooltip.Tooltip
@@ -448,7 +500,7 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 							if location ~= nil then
 							    local isPlayer, isBank, isBags, isVoidStorage, equipSlot, equipBag, equipTab, equipVoidSlot = EquipmentManager_UnpackLocation(location)
 							    if isDebugItem then
-							    	print("isPlayer: " .. tostring(isPlayer) .. ", isBank: " .. tostring(isBank) .. ", isBags: " .. tostring(isBags) .. ", isVoidStorage: " .. tostring(isVoidStorage) .. ", equipSlot: " .. tostring(equipSlot) .. ", equipBag: " .. tostring(equipBag) .. ", equipTab: " .. tostring(equipTab) .. ", equipVoidSlot: " .. tostring(equipVoidSlot))
+							    	-- print("isPlayer: " .. tostring(isPlayer) .. ", isBank: " .. tostring(isBank) .. ", isBags: " .. tostring(isBags) .. ", isVoidStorage: " .. tostring(isVoidStorage) .. ", equipSlot: " .. tostring(equipSlot) .. ", equipBag: " .. tostring(equipBag) .. ", equipTab: " .. tostring(equipTab) .. ", equipVoidSlot: " .. tostring(equipVoidSlot))
 							    end
 							    equipSlot = tonumber(equipSlot)
 							    equipBag = tonumber(equipBag)
@@ -456,7 +508,8 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 							    if isVoidStorage then
 							    	-- Do nothing for now
 							    elseif isBank and not isBags then -- player or bank
-							    	if bag == BANK_CONTAINER and BankButtonIDToInvSlotID(slot) == equipSlot then
+									if bag == BANK_CONTAINER and BankButtonIDToInvSlotID(slot) == equipSlot then
+										if isDebugItem then print("=== Setting needs item to false due to set") end
 							    		needsItem = false
 										if bindingText then
 											bindingText = "*" .. bindingText
@@ -470,6 +523,7 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 							    	end
 							    else
 								    if equipSlot == slot and equipBag == bag then
+										if isDebugItem then print("=== Setting needs item to false due to set 2") end
 										needsItem = false
 										if bindingText then
 											bindingText = "*" .. bindingText
@@ -493,52 +547,85 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 		end
 
 		local canBeChanged, noChangeReason, canBeSource, noSourceReason = C_Transmog.GetItemInfo(itemID)
-		if canBeSource then
-	        local hasTransmog = C_TransmogCollection.PlayerHasTransmog(itemID)
-	        if hasTransmog then
-	        	needsItem = false
-	        end
-	    else
+		if not isCollectionItem and canBeSource then
+			if isDebugItem then print(itemLink .. " can be source") end
+			local appearanceID, isCollected, sourceID
+			appearanceID, isCollected, sourceID, shouldRetry = GetItemAppearance(itemID, itemLink)
+
+			if sourceID and sourceID ~= NO_TRANSMOG_SOURCE_ID then 
+				local hasTransmog = C_TransmogCollection.PlayerHasTransmogItemModifiedAppearance(sourceID)
+				if hasTransmog then
+					if isDebugItem then print("=== Setting needs item to false due to has transmog") end
+					needsItem = false
+				end
+			end
+		else
+			if isDebugItem then print("Can't be source: " .. noSourceReason) end
 	    	needsItem = false
 	    end
 
-	  	local PET_KNOWN = strmatch(ITEM_PET_KNOWN, "[^%(]+")
-	  	local needsCollectionItem = true
-	  	local numLines = scanTip:NumLines()
-	    if isDebugItem then print('Scan Tip Lines: ' .. tostring(numLines)) end
-		for lineIndex = 1, numLines do
-			local scanName = scanTip:GetName()
-			local lineText = _G[scanName .. "TextLeft" .. lineIndex]:GetText()
-			if lineText then
-				-- TODO: Look at switching to GetItemSpell
-				if isDebugItem then print ("Tip: " .. lineText) end
-				if strmatch(lineText, USE_COLON) or strmatch(lineText, ITEM_SPELL_TRIGGER_ONEQUIP) or strmatch(lineText, string.format(ITEM_SET_BONUS, "")) then -- it's a recipe or has a "use" effect or belongs to a set
-					hasUse = true
-					-- break
-				end
+		local numLines = scanTip:NumLines()
+		local PET_KNOWN = strmatch(ITEM_PET_KNOWN, "[^%(]+")
+		local needsCollectionItem = true
 
-				if not bindingText then
-					bindingText = bindTextTable[lineText]
-				end
+		if isDebugItem then print('Scan Tip Lines: ' .. tostring(numLines)) end
+		if not isCollectionItem and not noSourceReason and numLines == 0 then
+			if isDebugItem then print("No scan lines... retrying") end
+			shouldRetry = true
+		end
 
-				if lineText == RETRIEVING_ITEM_INFO then
-					shouldRetry = true
-					break
-				elseif lineText == ITEM_BIND_ON_PICKUP then
-					isBindOnPickup = true
-				elseif lineText == TRANSMOGRIFY_TOOLTIP_ITEM_UNKNOWN_APPEARANCE_KNOWN then
-					if CaerdonWardrobeConfig.Icon.ShowLearnable.SameLookDifferentItem then
-						isCompletionistItem = true
-					else
-						needsItem = false
+		if not shouldRetry then
+			for lineIndex = 1, numLines do
+				local scanName = scanTip:GetName()
+				local line = _G[scanName .. "TextLeft" .. lineIndex]
+				local lineText = line:GetText()
+				if lineText then
+					-- TODO: Look at switching to GetItemSpell
+					if isDebugItem then print ("Tip: " .. lineText) end
+					if strmatch(lineText, USE_COLON) or strmatch(lineText, ITEM_SPELL_TRIGGER_ONEQUIP) or strmatch(lineText, string.format(ITEM_SET_BONUS, "")) then -- it's a recipe or has a "use" effect or belongs to a set
+						hasUse = true
+						-- break
 					end
-					break
-				elseif lineText == ITEM_SPELL_KNOWN or strmatch(lineText, PET_KNOWN) then
-					needsCollectionItem = false
+
+					if not bindingText then
+						bindingText = bindTextTable[lineText]
+					end
+
+					if lineText == RETRIEVING_ITEM_INFO then
+						shouldRetry = true
+						break
+					elseif lineText == ITEM_BIND_ON_PICKUP or lineText == ITEM_SOULBOUND then
+						isBindOnPickup = true
+					elseif lineText == TRANSMOGRIFY_TOOLTIP_ITEM_UNKNOWN_APPEARANCE_KNOWN then
+						if CaerdonWardrobeConfig.Icon.ShowLearnable.SameLookDifferentItem then
+							isCompletionistItem = true
+						else
+							needsItem = false
+						end
+						break
+					elseif lineText == TRANSMOGRIFY_TOOLTIP_APPEARANCE_UNKNOWN then
+						if CaerdonWardrobeConfig.Icon.ShowLearnable.SameLookDifferentItem then
+							isCompletionistItem = true
+						end
+					elseif lineText == ITEM_SPELL_KNOWN or strmatch(lineText, PET_KNOWN) then
+						needsCollectionItem = false
+					end
+
+					-- TODO: Should possibly only look for "Classes:" but could have other reasons for not being usable
+					local r, g, b = line:GetTextColor()
+					hex = string.format("%02x%02x%02x", r*255, g*255, b*255)
+					if isDebugItem then print("Color: " .. hex) end
+					if hex == "fe1f1f" and isBindOnPickup then
+						if isDebugItem then print("Red text in tooltip indicates item is soulbound and can't be used by this toon") end
+						unusableItem = true
+						if not bag == "EncounterJournal" then
+							needsItem = false
+							isCompletionistItem = false
+						end
+					end
 				end
 			end
 		end
-
 
 		if not shouldRetry then
 			if isDebugItem then print("Is Collection Item: " .. tostring(isCollectionItem)) end
@@ -572,11 +659,13 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 				end
 			end
 
-			-- cachedBinding[itemKey] = {bindingText = bindingText, needsItem = needsItem, hasUse = hasUse, isDressable = isDressable, isInEquipmentSet = isInEquipmentSet, isBindOnPickup = isBindOnPickup, isCompletionistItem = isCompletionistItem }
+			-- cachedBinding[itemKey] = {bindingText = bindingText, needsItem = needsItem, hasUse = hasUse, isDressable = isDressable, isInEquipmentSet = isInEquipmentSet, isBindOnPickup = isBindOnPickup, isCompletionistItem = isCompletionistItem, unusableItem = unusableItem, matchesLootSpec = matchesLootSpec }
 		end
 	end
 
-	return bindingText, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry
+	scanTip:Hide()
+
+	return bindingText, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry, unusableItem, matchesLootSpec
 end
 
 local function addDebugInfo(tooltip)
@@ -795,6 +884,11 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 		originalButton.caerdonButton = button
 	end
 
+	-- Had some addons messing with frame level resulting in this getting covered by the parent button.
+	-- Haven't seen any negative issues with bumping it up, yet, but keep an eye on it if
+	-- the status icon overlaps something it shouldn't.
+	button:SetFrameLevel(originalButton:GetFrameLevel() + 100)
+
 	local mogStatus = button.mogStatus
 	local mogAnim = button.mogAnim
 	local iconPosition, showSellables, isSellable
@@ -881,7 +975,7 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 			button.isWaitingIcon = true
 		end
 	else
-		if status == "own" or status == "ownPlus" or status == "otherPlus" or status == "refundable" or status == "openable" then
+		if status == "own" or status == "ownPlus" or status == "otherSpec" or status == "otherSpecPlus" or status == "refundable" or status == "openable" then
 			showAnim = true
 
 			if mogAnim and button.isWaitingIcon then
@@ -956,6 +1050,17 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 		else
 			mogStatus:SetTexture("")
 		end
+	elseif status == "otherSpec" or status == "otherSpecPlus" then
+		if not ShouldHideOtherIcon(bag) then
+			SetIconPositionAndSize(mogStatus, iconPosition, 15, otherIconSize, otherIconOffset)
+			mogStatus:SetTexture("Interface\\COMMON\\icon-noloot")
+			mogStatus:SetVertexColor(1, 1, 1)
+			if status == "otherSpecPlus" then
+				mogStatus:SetVertexColor(0.4, 1, 0)
+			end
+		else
+			mogStatus:SetTexture("")
+		end
 	elseif status == "collected" then
 		if not IsGearSetStatus(bindingStatus) and showSellables and isSellable and not ShouldHideSellableIcon(bag) then -- it's known and can be sold
 			SetIconPositionAndSize(mogStatus, iconPosition, 10, 30, iconOffset)
@@ -1015,20 +1120,23 @@ local function SetItemButtonBindType(button, mogStatus, bindingStatus, options, 
 	bindsOnText:ClearAllPoints()
 	bindsOnText:SetWidth(button:GetWidth())
 
-	if CaerdonWardrobeConfig.Binding.Position == "BOTTOM" then
-		bindsOnText:SetPoint("BOTTOMRIGHT", 0, 2)
+	local bindingPosition = options.overrideBindingPosition or CaerdonWardrobeConfig.Binding.Position
+	local bindingOffset = options.bindingOffset or 2
+
+	if bindingPosition == "BOTTOM" then
+		bindsOnText:SetPoint("BOTTOMRIGHT", bindingOffset, 2)
 		if bindingStatus == L["BoA"] then
 			local offset = options.itemCountOffset or 15
 			if (button.count and button.count > 1) then
 				bindsOnText:SetPoint("BOTTOMRIGHT", 0, offset)
-				if(options.bindingScale) then
-					bindsOnText:SetScale(options.bindingScale)
-				end
+			end
+			if(options.bindingScale) then
+				bindsOnText:SetScale(options.bindingScale)
 			end
 		end
-	elseif CaerdonWardrobeConfig.Binding.Position == "CENTER" then
+	elseif bindingPosition == "CENTER" then
 		bindsOnText:SetPoint("CENTER", 0, 0)
-	elseif CaerdonWardrobeConfig.Binding.Position == "TOP" then
+	elseif bindingPosition == "TOP" then
 		bindsOnText:SetPoint("TOPRIGHT", 0, -2)
 	end
 
@@ -1132,8 +1240,8 @@ local function DebugItem(itemID, itemLink, bag, slot)
 	end
 
 	print ( '---- Addon API')
-	local bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry = GetBindingStatus(bag, slot, itemID, itemLink)
-	print ('Binding Status: ' .. tostring(bindingStatus) .. ', Needs Item: ' .. tostring(needsItem) .. ', HasUse: ' .. tostring(hasUse) .. ', Is Dressable: ' .. tostring(isDressable) .. ', Is In Equipment Set: ' .. tostring(isInEquipmentSet) .. ', Is BoP: ' .. tostring(isBindOnPickup) .. ', Is Completionist: ' .. tostring(isCompletionistItem) .. ', Should Retry: ' .. tostring(shouldRetry))
+	local bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry, unusableItem, matchesLootSpec = GetBindingStatus(bag, slot, itemID, itemLink)
+	print ('Binding Status: ' .. tostring(bindingStatus) .. ', Needs Item: ' .. tostring(needsItem) .. ', HasUse: ' .. tostring(hasUse) .. ', Is Dressable: ' .. tostring(isDressable) .. ', Is In Equipment Set: ' .. tostring(isInEquipmentSet) .. ', Is BoP: ' .. tostring(isBindOnPickup) .. ', Is Completionist: ' .. tostring(isCompletionistItem) .. ', Should Retry: ' .. tostring(shouldRetry) .. ', Unusable: ' .. tostring(unusableItem) .. ', Matches Loot Spec: ' .. tostring(matchesLootSpec))
 
 	local appearanceID, isCollected, sourceID, shouldRetry = GetItemAppearance(itemID, itemLink)
 	print ('Appearance ID: ' .. tostring(appearanceID) .. ', Is Collected: ' .. tostring(isCollected) .. ', Source ID: ' .. tostring(sourceID) .. ', Should Retry: ' .. tostring(shouldRetry))
@@ -1183,14 +1291,20 @@ local function ProcessItem(itemID, bag, slot, button, options, itemProcessed)
 		-- local itemString = string.match(itemLink, "item[%-?%d:]+")
 		-- print(itemLink .. ": " .. itemID .. ", printable: " .. tostring(printable))
 
-  	-- if itemID == 82800 then
-   		-- DebugItem(itemID, itemLink, bag, slot)
-   	-- end
-	local bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry
+	local isDebugItem = itemID == DEBUG_ITEM
+  	if isDebugItem then
+   		DebugItem(itemID, itemLink, bag, slot)
+   	end
+	local bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry, unusableItem
+	if isDebugItem then
+		print ('Binding Status: ' .. tostring(bindingStatus) .. ', Needs Item: ' .. tostring(needsItem) .. ', HasUse: ' .. tostring(hasUse) .. ', Is Dressable: ' .. tostring(isDressable) .. ', Is In Equipment Set: ' .. tostring(isInEquipmentSet) .. ', Is BoP: ' .. tostring(isBindOnPickup) .. ', Is Completionist: ' .. tostring(isCompletionistItem) .. ', Should Retry: ' .. tostring(shouldRetry) .. ', Unusable: ' .. tostring(unusableItem) .. ', Matches Loot Spec: ' .. tostring(matchesLootSpec))
+	end
+
 	local appearanceID, isCollected, sourceID
 
-	bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry = GetBindingStatus(bag, slot, itemID, itemLink)
+	bindingStatus, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry, unusableItem, matchesLootSpec = GetBindingStatus(bag, slot, itemID, itemLink)
 	if shouldRetry then
+		if isDebugItem then print("Retrying item: " .. itemLink) end
 		QueueProcessItem(itemLink, itemID, bag, slot, button, options, itemProcessed)
 		return
 	end
@@ -1206,36 +1320,62 @@ local function ProcessItem(itemID, bag, slot, button, options, itemProcessed)
 	end
 
 	if appearanceID then
-		if(needsItem and not isCollected and not PlayerHasAppearance(appearanceID)) then
-			local canCollect, matchedSource, shouldRetry = PlayerCanCollectAppearance(appearanceID, itemID, itemLink)
-			if shouldRetry then
-				QueueProcessItem(itemLink, itemID, bag, slot, button, options, itemProcessed)
-				return
-			end
+		if isDebugItem then print("=== Has appearance ID") end
+		local canCollect, matchedSource, shouldRetry = PlayerCanCollectAppearance(appearanceID, itemID, itemLink)
+		if shouldRetry then
+			QueueProcessItem(itemLink, itemID, bag, slot, button, options, itemProcessed)
+			return
+		end
 
-			if canCollect then
+		if isDebugItem then print("Needs Item: " .. tostring(needsItem)) end
+		if isDebugItem then print("Is Collected: " .. tostring(isCollected)) end
+		if isDebugItem then print("Player Has Appearance: " .. tostring(PlayerHasAppearance(appearanceID))) end
+
+		if(needsItem and not isCollected and not PlayerHasAppearance(appearanceID)) then
+			if isDebugItem then print("=== Has appearance, Processing needsItem") end
+			if canCollect and not unusableItem then
 				mogStatus = "own"
 			else
-				if bindingStatus and needsItem then
+				if bindingStatus then
 					mogStatus = "other"
-				elseif (bag == "EncounterJournal" or bag == "QuestButton") and needsItem then
+				elseif (bag == "EncounterJournal" or bag == "QuestButton") then
 					mogStatus = "other"
-				elseif (bag == "LootFrame" or bag == "GroupLootFrame") and needsItem and not isBindOnPickup then
+				elseif (bag == "LootFrame" or bag == "GroupLootFrame") and not isBindOnPickup then
 					mogStatus = "other"
+				elseif unusableItem then
+					mogStatus = "collected"
 				end
 			end
+
+			if not matchesLootSpec and bag == "EncounterJournal" then
+				mogStatus = "otherSpec"
+			end
 		else
+			if isDebugItem then print("Is Completionist Item: " .. tostring(isCompletionistItem)) end
 
 			if isCompletionistItem then
+				if isDebugItem then print("=== Processing completionist item") end
 				-- You have this, but you want them all.  Why?  Because.
-				local _, _, _, _, reqLevel, class, subclass, _, equipSlot = GetItemInfo(itemID)
-				local playerLevel = UnitLevel("player")
 
-				if playerLevel >= reqLevel then
+				-- local _, _, _, _, reqLevel, class, subclass, _, equipSlot = GetItemInfo(itemID)
+				-- local playerLevel = UnitLevel("player")
+
+				if canCollect then
 					mogStatus = "ownPlus"
 				else
 					mogStatus = "otherPlus"
 				end
+
+				if not matchesLootSpec and bag == "EncounterJournal" then
+					if isDebugItem then print("=== Doesn't match loot spec - flagging other") end
+					mogStatus = "otherSpecPlus"
+				end
+
+				if unusableItem then
+					if isDebugItem then print("=== Marked unusable for toon - flagging other") end
+					mogStatus = "otherPlus"
+				end
+
 			-- If an item isn't flagged as a source or has a usable effect,
 			-- then don't mark it as sellable right now to avoid accidents.
 			-- May need to expand this to account for other items, too, for now.
@@ -1262,6 +1402,8 @@ local function ProcessItem(itemID, bag, slot, button, options, itemProcessed)
 
 		end
 	elseif needsItem then
+		if isDebugItem then print("=== No appearance, Processing needsItem") end
+
 		if ((canBeSource and isDressable) or IsMountLink(itemLink)) and not shouldRetry then
 			local _, _, _, _, reqLevel, class, subclass, _, equipSlot = GetItemInfo(itemID)
 			local playerLevel = UnitLevel("player")
@@ -1630,6 +1772,7 @@ local ignoreEvents = {
 	["COMPANION_UPDATE"] = {},
 	["CRITERIA_UPDATE"] = {},
 	["CURSOR_UPDATE"] = {},
+	["FRIENDLIST_UPDATE"] = {},
 	["GET_ITEM_INFO_RECEIVED"] = {},
 	["GUILDBANKBAGSLOTS_CHANGED"] = {},
 	["GUILD_ROSTER_UPDATE"] = {},
@@ -1647,8 +1790,12 @@ local ignoreEvents = {
 	["UNIT_POWER"] = {},
 	["UNIT_POWER_FREQUENT"] = {},
 	["UPDATE_INVENTORY_DURABILITY"] = {},
+	["UNIT_ATTACK_SPEED"] = {},
+	["UNIT_SPELL_HASTE"] = {},
+	["UNIT_TARGET"] = {},
 	["UPDATE_MOUSEOVER_UNIT"] = {},
 	["UPDATE_PENDING_MAIL"] = {},
+	["UPDATE_UI_WIDGET"] = {},
 	["UPDATE_WORLD_STATES"] = {},
 	["QUESTLINE_UPDATE"] = {},
 	["WORLD_MAP_UPDATE"] = {}
@@ -1850,6 +1997,29 @@ function eventFrame:ADDON_LOADED(name)
 	end
 end
 
+function UpdatePin(pin)
+	local options = {
+		iconOffset = -5,
+		iconSize = 60,
+		overridePosition = "TOPRIGHT",
+		-- itemCountOffset = 10,
+		-- bindingScale = 0.9
+	}
+
+	if GetNumQuestLogRewards(pin.questID) > 0 then
+		local itemName, itemTexture, numItems, quality, isUsable, itemID = GetQuestLogRewardInfo(1, pin.questID)
+		CaerdonWardrobe:UpdateButton(itemID, "QuestButton", { itemID = itemID, questID = pin.questID }, pin, options)
+	else
+		CaerdonWardrobe:ClearButton(pin)
+	end
+end
+
+function OnWorldMapRefreshAllData(self) 
+	for qId, pin in pairs(self.activePins) do
+		UpdatePin(pin);
+	end
+end
+
 function eventFrame:PLAYER_LOGIN(...)
 	if DEBUG_ENABLED then
 		eventFrame:RegisterAllEvents()
@@ -1864,8 +2034,22 @@ function eventFrame:PLAYER_LOGIN(...)
 		-- eventFrame:RegisterEvent "TRANSMOG_COLLECTION_ITEM_UPDATE"
 		eventFrame:RegisterEvent "EQUIPMENT_SETS_CHANGED"
 		eventFrame:RegisterEvent "MERCHANT_UPDATE"
+		eventFrame:RegisterEvent "PLAYER_LOOT_SPEC_UPDATED"
 	end
 	C_TransmogCollection.SetShowMissingSourceInItemTooltips(true)
+
+	local mapWQProvider;
+	for k, v in pairs(WorldMapFrame.dataProviders) do 
+		for k1, v2 in pairs(k) do
+			-- Some addons will cause there to be multiple map providers.
+			-- We want to hook to any that are there.
+			if k1=="IsMatchingWorldMapFilters" then 
+				mapWQProvider = k; 
+				hooksecurefunc(mapWQProvider, "RefreshAllData", OnWorldMapRefreshAllData)
+				OnWorldMapRefreshAllData(mapWQProvider);
+			end 
+		end 
+	end
 end
 
 function RefreshMainBank()
@@ -1994,6 +2178,12 @@ function eventFrame:GET_ITEM_INFO_RECEIVED(itemID)
 				end
         	end
         end
+	end
+end
+
+function eventFrame:PLAYER_LOOT_SPEC_UPDATED()
+	if EncounterJournal then
+		EncounterJournal_LootUpdate()
 	end
 end
 

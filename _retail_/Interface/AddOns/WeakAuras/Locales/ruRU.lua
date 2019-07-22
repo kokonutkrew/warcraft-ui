@@ -106,6 +106,12 @@ L["Anticlockwise"] = "Против часовой стрелки"
 L["Any"] = "Любая"
 L["Any Triggers"] = "Любые триггеры"
 L["Arena"] = "Арена"
+--[[Translation missing --]]
+L["Armor (%)"] = "Armor (%)"
+--[[Translation missing --]]
+L["Armor against Target (%)"] = "Armor against Target (%)"
+--[[Translation missing --]]
+L["Armor Rating"] = "Armor Rating"
 L["Ascending"] = "По возрастанию"
 L["Assist"] = "Поддержка"
 L["At Least One Enemy"] = "Хотя бы один противник"
@@ -135,11 +141,17 @@ L["Auras:"] = "Эффекты:"
 --[[Translation missing --]]
 L["Author Options"] = "Author Options"
 --[[Translation missing --]]
+L["Auto"] = "Auto"
+--[[Translation missing --]]
 L["Autocast Shine"] = "Autocast Shine"
 --[[Translation missing --]]
 L["Auto-Clone (Show all Matches)"] = "Auto-Clone (Show all Matches)"
 L["Automatic"] = "Автоматически"
 L["Automatic Rotation"] = "Автоматический поворот"
+--[[Translation missing --]]
+L["Avoidance (%)"] = "Avoidance (%)"
+--[[Translation missing --]]
+L["Avoidance Rating"] = "Avoidance Rating"
 L["Back"] = "Спина"
 L["Back and Forth"] = "Назад и вперед"
 L["Backdrop Color"] = "Цвет фона"
@@ -156,6 +168,10 @@ L["BigWigs Message"] = "Сообщение BigWigs"
 L["BigWigs Timer"] = "Таймер BigWigs"
 L["Blizzard Combat Text"] = "Текст боя Blizzard"
 L["Block"] = "Блок"
+--[[Translation missing --]]
+L["Block (%)"] = "Block (%)"
+--[[Translation missing --]]
+L["Block against Target (%)"] = "Block against Target (%)"
 L["Blocked"] = "Заблокировано"
 L["Border Color"] = "Цвет границы"
 --[[Translation missing --]]
@@ -191,6 +207,8 @@ L["Challenge"] = "Испытание"
 L["Changed"] = "Изменен"
 L["Channel"] = "Канал"
 L["Channel (Spell)"] = "Потоковое"
+--[[Translation missing --]]
+L["Character Stats"] = "Character Stats"
 L["Character Type"] = "Тип персонажа"
 L["Charge gained/lost"] = "Событие заряда"
 L["Charges"] = "Заряды"
@@ -213,6 +231,8 @@ L["Combine all matches"] = "Combine all matches"
 L["Conditions"] = "Условия"
 L["Contains"] = "Содержит"
 --[[Translation missing --]]
+L["Cooldown"] = "Cooldown"
+--[[Translation missing --]]
 L["Cooldown Edge"] = "Cooldown Edge"
 L["Cooldown Progress (Equipment Slot)"] = "Восстановление (ячейка экипировки)"
 L["Cooldown Progress (Item)"] = "Восстановление (предмет)"
@@ -226,12 +246,20 @@ L["Counter Clockwise"] = "Против часовой стрелки"
 L["Create"] = "Создание"
 L["Create a Copy"] = "Создать копию"
 L["Critical"] = "Критический эффект"
+--[[Translation missing --]]
+L["Critical (%)"] = "Critical (%)"
+--[[Translation missing --]]
+L["Critical Rating"] = "Critical Rating"
 L["Cross"] = "Крест"
 L["Crowd Controlled"] = "Потеря контроля над персонажем (CC)"
 L["Crushing"] = "Сокрушительный удар"
 L["Cunning"] = "Хитрость"
-L["Current Zone Group ID: "] = "ID текущей группы: "
-L["Current Zone ID: "] = "ID текущей зоны: "
+--[[Translation missing --]]
+L["Current Zone Group"] = "Current Zone Group"
+--[[Translation missing --]]
+L[ [=[Current Zone
+]=] ] = [=[Current Zone
+]=]
 L["Curse"] = "Проклятие"
 L["Custom"] = "Самостоятельно"
 --[[Translation missing --]]
@@ -266,12 +294,18 @@ L["Dispel Failed"] = "Рассеивание (неудача)"
 L["Display"] = "Отображение"
 L["Distance"] = "Расстояние"
 L["Dodge"] = "Уклонение"
+--[[Translation missing --]]
+L["Dodge (%)"] = "Dodge (%)"
+--[[Translation missing --]]
+L["Dodge Rating"] = "Dodge Rating"
 L["Done"] = "Выполнено"
 L["Down"] = "Вниз"
 L["Drain"] = "Вытягивание"
 --[[Translation missing --]]
 L["Dropdown Menu"] = "Dropdown Menu"
 L["Drowning"] = "Утопление"
+--[[Translation missing --]]
+L["Dungeons"] = "Dungeons"
 L["Durability Damage"] = "Повреждение экипировки"
 L["Durability Damage All"] = "Повреждение всей экипировки"
 L["Elide"] = "Опускать"
@@ -297,6 +331,10 @@ L["Every Frame"] = "Каждый кадр"
 L["Extend Outside"] = "Выйти за границы"
 L["Extra Amount"] = "Доп-е количество"
 L["Extra Attacks"] = "Дополнительные атаки"
+--[[Translation missing --]]
+L["Extra Options: %s"] = "Extra Options: %s"
+--[[Translation missing --]]
+L["Extra Options: none"] = "Extra Options: none"
 L["Extra Spell Name"] = "Доп-е название заклинания"
 L["Fade In"] = "Появление"
 L["Fade Out"] = "Исчезновение"
@@ -350,6 +388,10 @@ L["Hands"] = "Кисти рук"
 L["Has Target"] = "Есть цель"
 L["Has Vehicle UI"] = "Имеет UI транспорта"
 L["HasPet"] = "Питомец призван (и жив)"
+--[[Translation missing --]]
+L["Haste (%)"] = "Haste (%)"
+--[[Translation missing --]]
+L["Haste Rating"] = "Haste Rating"
 L["Head"] = "Голова"
 L["Heal"] = "Исцеление"
 L["Healer"] = "Лекарь"
@@ -372,6 +414,12 @@ L["Id"] = "ID"
 --[[Translation missing --]]
 L["If you require additional assistance, please open a ticket on GitHub or visit our Discord at https://discord.gg/wa2!"] = "If you require additional assistance, please open a ticket on GitHub or visit our Discord at https://discord.gg/wa2!"
 L["Ignore Rune CD"] = "Игнорировать задержку руны"
+--[[Translation missing --]]
+L["Ignore Rune CDs"] = "Ignore Rune CDs"
+--[[Translation missing --]]
+L["Ignore Spell Known"] = "Ignore Spell Known"
+--[[Translation missing --]]
+L["Ignore Unknown Spell"] = "Ignore Unknown Spell"
 L["Immune"] = "Невосприимчивость"
 L["Import"] = "Импорт"
 L["Import as Copy"] = "Копировать"
@@ -419,6 +467,10 @@ L["Lava"] = "Лава"
 L["Least remaining time"] = "Least remaining time"
 L["Leaving"] = "Выход"
 L["Leech"] = "Похищение"
+--[[Translation missing --]]
+L["Leech (%)"] = "Leech (%)"
+--[[Translation missing --]]
+L["Leech Rating"] = "Leech Rating"
 L["Left"] = "Слева"
 L["Left to Right"] = "Слева направо"
 --[[Translation missing --]]
@@ -435,6 +487,8 @@ L["Low Damage"] = "Низкий урон"
 L["Lower Than Tank"] = "Ниже чем танк"
 L["Magic"] = "Магия"
 L["Main Hand"] = "Правая рука"
+--[[Translation missing --]]
+L["Main Stat"] = "Main Stat"
 L["Make sure you can trust the person who sent it!"] = [=[Убедитесь, что вы можете доверять человеку,
 отправившему ее!]=]
 L["Malformed WeakAuras link"] = "Неверная ссылка WeakAuras"
@@ -442,6 +496,10 @@ L["Manual Rotation"] = "Ручной поворот"
 L["Marked First"] = "В начале списка"
 L["Marked Last"] = "В конце списка"
 L["Master"] = "Главный"
+--[[Translation missing --]]
+L["Mastery (%)"] = "Mastery (%)"
+--[[Translation missing --]]
+L["Mastery Rating"] = "Mastery Rating"
 --[[Translation missing --]]
 L["Match Count"] = "Match Count"
 L["Matches (Pattern)"] = "Совпадения по шаблону"
@@ -475,7 +533,9 @@ L["Most remaining time"] = "Most remaining time"
 L["Mounted"] = "Верхом"
 L["Mouse Cursor"] = "Курсор мыши"
 --[[Translation missing --]]
-L["Multi-Line"] = "Multi-Line"
+L["Movement Speed (%)"] = "Movement Speed (%)"
+--[[Translation missing --]]
+L["Movement Speed Rating"] = "Movement Speed Rating"
 L["Multi-target"] = "Несколько целей"
 L["Music"] = "Музыка"
 L["Mythic"] = "Эпохальный"
@@ -496,7 +556,6 @@ L["Next"] = "Далее"
 L["No Children"] = "Нет индикаций"
 L["No Instance"] = "Не в подземелье"
 L["No Profiling information saved."] = "Нет данных профилирования."
-L["none"] = "нет"
 L["None"] = "Нет"
 L["Non-player Character"] = "Не игровой персонаж"
 L["Normal"] = "Обычный"
@@ -530,6 +589,10 @@ L["Overkill"] = "Избыточный урон"
 L["Overlay %s"] = "Наложение %s"
 L["Overlay Cost of Casts"] = "Показать стоимость применения заклинаний"
 L["Parry"] = "Парирование"
+--[[Translation missing --]]
+L["Parry (%)"] = "Parry (%)"
+--[[Translation missing --]]
+L["Parry Rating"] = "Parry Rating"
 L["Party"] = "Группа"
 L["Party Kill"] = "Убийство"
 L["Passive"] = "Бездействие"
@@ -574,6 +637,8 @@ L["PvP Talent selected"] = "PvP талант выбран"
 L["Radius"] = "Радиус"
 L["Raid"] = "Рейд"
 L["Raid Warning"] = "Объявление рейду"
+--[[Translation missing --]]
+L["Raids"] = "Raids"
 L["Range"] = "Дальний бой"
 L["Range Check"] = "Проверка дистанции"
 L["Ready Check"] = "Проверка готовности"
@@ -640,6 +705,8 @@ L["Second Value of Tooltip Text"] = "Second Value of Tooltip Text"
 L["Seconds"] = "Секунды"
 L["Select Frame"] = "Выбрать кадр"
 --[[Translation missing --]]
+L["Separator"] = "Separator"
+--[[Translation missing --]]
 L["Set Glow Visibility"] = "Set Glow Visibility"
 L["Set Maximum Progress"] = "Задать макс. прогресс"
 L["Set Minimum Progress"] = "Задать мин. прогресс"
@@ -655,6 +722,8 @@ L["Show all Matches"] = "Show all Matches"
 L["Show all Matches from all Units"] = "Show all Matches from all Units"
 L["Show CD of Charge"] = "Показать восстановление заряда"
 L["Show Code"] = "Показать код"
+--[[Translation missing --]]
+L["Show GCD"] = "Show GCD"
 L["Show Global Cooldown"] = "Показать общее время восстановления (GCD)"
 L["Show Incoming Heal"] = "Показать входящее исцеление"
 --[[Translation missing --]]
@@ -670,8 +739,6 @@ L["Show lowest time left over all units"] = "Show lowest time left over all unit
 --[[Translation missing --]]
 L["Show lowest time left per unit"] = "Show lowest time left per unit"
 L["Shrink"] = "Сжатие"
---[[Translation missing --]]
-L["Single-Line"] = "Single-Line"
 L["Size & Position"] = "Размер и расположение"
 L["Skull"] = "Череп"
 L["Slide from Bottom"] = "Сдвиг снизу"
@@ -727,6 +794,8 @@ L["Stacks Text Color"] = "Цвет текста стаков"
 L["Stacks Text Size"] = "Размер текста стаков"
 --[[Translation missing --]]
 L["Stagger Scale"] = "Stagger Scale"
+--[[Translation missing --]]
+L["Stamina"] = "Stamina"
 L["Stance/Form/Aura"] = "Стойка / Форма / Аура"
 L["Star"] = "Звезда"
 L["Start Profiling"] = "Запустить профилирование"
@@ -737,6 +806,8 @@ L["Stop Profiling"] = "Остановить профилирование"
 --[[Translation missing --]]
 L["String"] = "String"
 L["Summon"] = "Призыв"
+--[[Translation missing --]]
+L["Supports multiple entries, separated by commas"] = "Supports multiple entries, separated by commas"
 L[ [=[Supports multiple entries, separated by commas
 ]=] ] = [=[Можно указать несколько значений, разделенных запятыми.
 ]=]
@@ -744,9 +815,9 @@ L["Swing"] = "Ближний бой"
 L["Swing Timer"] = "Таймер Swing (время между атаками оружия)"
 L["System"] = "Система"
 L["Tabard"] = "Гербовая накидка"
+L["Talent selected"] = "Выбран талант"
 --[[Translation missing --]]
 L["Talent Selected"] = "Talent Selected"
-L["Talent selected"] = "Выбран талант"
 L["Talent Specialization"] = "Специализация"
 L["Tank"] = "Танк"
 L["Tanking And Highest"] = "Танкует и макс. угрозa"
@@ -772,6 +843,8 @@ L["Timed"] = "По истечении времени"
 L["Timewalking"] = "Путешествие во времени"
 --[[Translation missing --]]
 L["Toggle"] = "Toggle"
+--[[Translation missing --]]
+L["Toggle List"] = "Toggle List"
 L["Toggle Options Window"] = "Переключение окна параметров"
 --[[Translation missing --]]
 L["Tooltip"] = "Tooltip"
@@ -797,6 +870,14 @@ L["Totem"] = "Тотем"
 L["Totem #%i"] = "Тотем #%i"
 L["Totem Name"] = "Название тотема"
 L["Totem Number"] = "Номер тотема"
+--[[Translation missing --]]
+L["Track Cooldowns"] = "Track Cooldowns"
+--[[Translation missing --]]
+L["Tracking Charge %i"] = "Tracking Charge %i"
+--[[Translation missing --]]
+L["Tracking Charge CDs"] = "Tracking Charge CDs"
+--[[Translation missing --]]
+L["Tracking Only Cooldown"] = "Tracking Only Cooldown"
 L["Transmission error"] = "Ошибка передачи"
 L["Triangle"] = "Треугольник"
 L["Trigger"] = "Триггер"
@@ -831,6 +912,10 @@ L["Use /wa minimap to show the minimap icon again"] = "Use /wa minimap to show t
 L["Use Custom Glow Color"] = "Use Custom Glow Color"
 L["Values/Remaining Time above this value are displayed as full progress."] = "Значения/Оставшееся время выше указанного числа отображаются как полный прогресс."
 L["Values/Remaining Time below this value are displayed as no progress."] = "Значения/Оставшееся время ниже указанного числа отображаются как нулевой прогресс."
+--[[Translation missing --]]
+L["Versatility (%)"] = "Versatility (%)"
+--[[Translation missing --]]
+L["Versatility Rating"] = "Versatility Rating"
 L["Version: "] = "Версия: "
 L["Waist"] = "Пояс"
 L["War Mode Active"] = "Включен режим войны"

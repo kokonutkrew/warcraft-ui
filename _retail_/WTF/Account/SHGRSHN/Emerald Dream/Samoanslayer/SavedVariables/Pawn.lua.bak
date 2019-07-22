@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0231,
+	["LastVersion"] = 2.0232,
 	["LastPlayerFullName"] = "Samoanslayer-Emerald Dream",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

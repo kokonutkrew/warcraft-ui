@@ -1,0 +1,104 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1548868961,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[09:23:04]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoanhunter:46|h|cffd8bc3f50|r:|cffaad372Samoanhunter|r|h|cffd8d8d8]|r has come online.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[09:30:09]|r|c00000000|r You are now Away: AFK", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [2]
+			{
+				"|cff979797[09:35:50]|r|c00000000|r You are no longer Away.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [3]
+			{
+				"|cff979797[09:42:38]|r|c00000000|r You are now Away: AFK", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [4]
+			{
+				"|cff979797[10:07:18]|r|c00000000|r |cffaad372Tygrrlilly|r has gone offline.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [5]
+			{
+				"|cff979797[10:07:52]|r|c00000000|r |cffaad372Samoanhunter|r has gone offline.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [6]
+			{
+				"|cff979797[10:22:41]|r|c00000000|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [7]
+		},
+	},
+}

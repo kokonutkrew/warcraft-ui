@@ -2,9 +2,9 @@
 WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
-	["minimap"] = {
-		["minimapPos"] = 126.869819244542,
-		["hide"] = false,
+	["editor_theme"] = "Monokai",
+	["login_squelch_time"] = 10,
+	["registered"] = {
 	},
 	["displays"] = {
 		["KK-Wake of Ashes"] = {
@@ -21,11 +21,11 @@ WeakAurasSaved = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = true,
 				},
-				["init"] = {
-				},
 				["finish"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = false,
+				},
+				["init"] = {
 				},
 			},
 			["triggers"] = {
@@ -39,20 +39,20 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["unevent"] = "auto",
-						["duration"] = "1",
-						["use_genericShowOn"] = true,
+						["names"] = {
+						},
+						["buffShowOn"] = "showOnActive",
 						["event"] = "Cooldown Progress (Spell)",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["realSpellName"] = "Wake of Ashes",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 255937,
-						["subeventPrefix"] = "SPELL",
-						["buffShowOn"] = "showOnActive",
-						["names"] = {
-						},
+						["subeventSuffix"] = "_CAST_START",
+						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["duration"] = "1",
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showOnReady",
@@ -71,22 +71,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Point"] = "BOTTOMRIGHT",
-			["text2Enabled"] = false,
+			["alpha"] = 1,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 64.0000152587891,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["authorOptions"] = {
 			},
 			["load"] = {
 				["talent"] = {
@@ -111,19 +99,26 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
-			["authorOptions"] = {
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
 			},
-			["useglowColor"] = false,
+			["internalVersion"] = 11,
+			["icon"] = true,
 			["text2Containment"] = "INSIDE",
 			["glowType"] = "buttonOverlay",
 			["text1Font"] = "Friz Quadrata TT",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text1Containment"] = "INSIDE",
 			["glow"] = true,
 			["text2Color"] = {
 				1, -- [1]
@@ -138,38 +133,43 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = -2.99993896484375,
+			["text1FontFlags"] = "OUTLINE",
 			["text2FontSize"] = 24,
-			["anchorFrameType"] = "SCREEN",
+			["width"] = 64.0000839233399,
 			["text1"] = "%s",
-			["text2Font"] = "Friz Quadrata TT",
-			["zoom"] = 0,
+			["frameStrata"] = 1,
 			["text2"] = "%p",
+			["zoom"] = 0,
 			["auto"] = true,
 			["stickyDuration"] = false,
 			["id"] = "KK-Wake of Ashes",
-			["frameStrata"] = 1,
-			["alpha"] = 1,
-			["width"] = 64.0000839233399,
-			["text1FontFlags"] = "OUTLINE",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = -2.99993896484375,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["text1Containment"] = "INSIDE",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["internalVersion"] = 9,
+			["useglowColor"] = false,
 		},
 	},
-	["registered"] = {
-	},
-	["login_squelch_time"] = 10,
 	["frame"] = {
 		["xOffset"] = -10.9998779296875,
-		["yOffset"] = -143.499694824219,
-		["height"] = 515,
 		["width"] = 875.000061035156,
+		["height"] = 515,
+		["yOffset"] = -143.499694824219,
 	},
-	["editor_theme"] = "Monokai",
+	["minimap"] = {
+		["minimapPos"] = 126.869819244542,
+		["hide"] = false,
+	},
 }

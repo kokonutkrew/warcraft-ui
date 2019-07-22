@@ -144,6 +144,11 @@ do
 				quest_icons_scale_offset = 0,
 			},
 			
+			accessibility = {
+				extra_tracking_indicator = false,
+				
+			},
+			
 			last_news_time = 0,
 
 			hoverover_animations = true, --hover and shown slider animations
@@ -202,6 +207,7 @@ do
 			zone_only_tracked = false,
 			low_level_tutorial = false, --
 			bar_anchor = "bottom",
+			bar_visible = true,
 			use_old_icons = false,
 			history = {
 				reward = {

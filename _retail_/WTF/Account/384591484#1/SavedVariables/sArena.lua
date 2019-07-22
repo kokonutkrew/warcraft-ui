@@ -1,9 +1,10 @@
 
-sArenaDB = {
+sArena3DB = {
 	["profileKeys"] = {
-		["Samoanknight - Emerald Dream"] = "Default",
+		["Samoandruid - Tichondrius"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
 		["Samoanhunter - Emerald Dream"] = "Default",
-		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoandrued - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

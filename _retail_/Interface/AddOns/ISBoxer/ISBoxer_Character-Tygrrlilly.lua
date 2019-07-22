@@ -3,16 +3,16 @@ isboxer.Character.ActualName = "Tygrrlilly";
 isboxer.Character.QualifiedName = "Tygrrlilly-Emerald Dream";
 
 function isboxer.Character_LoadBinds()
-	if (isboxer.CharacterSet.Name=="S + M + T") then
-		isboxer.SetMacro("FTLAssist","BACKSPACE","/assist [nomod:alt,mod:lshift,nomod:ctrl]Samoantitan;[nomod:alt,mod:rshift,nomod:ctrl]Samoanrouge;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
+	if (isboxer.CharacterSet.Name=="#2") then
+		isboxer.SetMacro("FTLAssist","BACKSPACE","/assist [nomod:alt,mod:lshift,nomod:ctrl]Samoanranger;[nomod:alt,mod:rshift,nomod:ctrl]Samoanhunter;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
 
-		isboxer.SetMacro("FTLFocus","NONE","/focus [nomod:alt,mod:lshift,nomod:ctrl]Samoantitan;[nomod:alt,mod:rshift,nomod:ctrl]Samoanrouge;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
+		isboxer.SetMacro("FTLFocus","NONE","/focus [nomod:alt,mod:lshift,nomod:ctrl]Samoanranger;[nomod:alt,mod:rshift,nomod:ctrl]Samoanhunter;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
 
-		isboxer.SetMacro("FTLFollow","F11","/jamba-follow snw\n/follow [nomod:alt,mod:lshift,nomod:ctrl]Samoantitan;[nomod:alt,mod:rshift,nomod:ctrl]Samoanrouge;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
+		isboxer.SetMacro("FTLFollow","F11","/jamba-follow snw\n/follow [nomod:alt,mod:lshift,nomod:ctrl]Samoanranger;[nomod:alt,mod:rshift,nomod:ctrl]Samoanhunter;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
 
-		isboxer.SetMacro("FTLTarget","]","/targetexact [nomod:alt,mod:lshift,nomod:ctrl]Samoantitan;[nomod:alt,mod:rshift,nomod:ctrl]Samoanrouge;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
+		isboxer.SetMacro("FTLTarget","]","/targetexact [nomod:alt,mod:lshift,nomod:ctrl]Samoanranger;[nomod:alt,mod:rshift,nomod:ctrl]Samoanhunter;[nomod:alt,nomod:shift,mod:lctrl]Tygrrlilly\n",1,1,1,1);
 
-		isboxer.SetMacro("InviteTeam","ALT-CTRL-SHIFT-I","/invite Samoantitan\n/invite Samoanrouge\n",nil,nil,nil,1);
+		isboxer.SetMacro("InviteTeam","ALT-CTRL-SHIFT-I","/invite Samoanranger\n/invite Samoanhunter\n",nil,nil,nil,1);
 
 		isboxer.SetMacro("CTMOn","ALT-SHIFT-N","/console autointeract 1\n",nil,nil,nil,1);
 
@@ -26,10 +26,10 @@ function isboxer.Character_LoadBinds()
 
 		isboxer.ManageJambaTeam=True
 		isboxer.ClearMembers();
-		isboxer.AddMember("Samoantitan-Emerald Dream");
-		isboxer.AddMember("Samoanrouge-Emerald Dream");
+		isboxer.AddMember("Samoanranger-Emerald Dream");
+		isboxer.AddMember("Samoanhunter-Emerald Dream");
 		isboxer.AddMember("Tygrrlilly-Emerald Dream");
-		isboxer.SetMaster("Samoantitan-Emerald Dream");
+		isboxer.SetMaster("Samoanranger-Emerald Dream");
 		return
 	end
 end

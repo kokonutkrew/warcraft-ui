@@ -1,10 +1,9 @@
 local mod	= DBM:NewMod(2194, "DBM-Uldir", nil, 1031)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 18122 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 18139 $"):sub(12, -3))
 mod:SetCreatureID(134546)--138324 Xalzaix
 mod:SetEncounterID(2135)
---mod:DisableESCombatDetection()
 mod:SetZone()
 mod:SetBossHPInfoToHighest()
 mod:SetUsedIcons(1, 2)
@@ -21,8 +20,6 @@ mod:RegisterEventsInCombat(
 	"SPELL_AURA_APPLIED_DOSE 272146",
 	"SPELL_AURA_REMOVED 272407 272536 279157 272146",
 	"SPELL_AURA_REMOVED_DOSE 272146",
---	"SPELL_PERIODIC_DAMAGE",
---	"SPELL_PERIODIC_MISSED",
 	"UNIT_DIED",
 	"UNIT_SPELLCAST_SUCCEEDED boss1"
 )
@@ -53,7 +50,6 @@ local yellImminentRuinFades				= mod:NewIconFadesYell(272536, 139073)
 local specWarnImminentRuinNear			= mod:NewSpecialWarningClose(272536, false, nil, 2, 1, 2)
 local specWarnLivingWeapon				= mod:NewSpecialWarningSwitch(276922, "RangedDps", nil, nil, 1, 2)--Mythic (include melee dps too? asuming do to spheres, a big no)
 local specWarnVoidEchoes				= mod:NewSpecialWarningCount(279157, false, nil, 2, 2, 2)--Mythic
---local specWarnGTFO					= mod:NewSpecialWarningGTFO(238028, nil, nil, nil, 1, 8)
 --Stage Two: Fury of the C'thraxxi
 local specWarnObliterationbeam			= mod:NewSpecialWarningDodgeCount(272115, nil, nil, nil, 2, 2)--Generic for now
 --local specWarnObliterationbeamYou		= mod:NewSpecialWarningRun(272115, nil, nil, nil, 4, 2)--Generic for now
@@ -78,6 +74,7 @@ local timerVisionsoMadnessCD			= mod:NewNextCountTimer(20, 273949, nil, nil, nil
 local countdownOblivionSphere			= mod:NewCountdown(19.9, 272407, nil, nil, 3)
 local countdownEssenceShear				= mod:NewCountdown("Alt20", 274693, "Tank", nil, 3)
 local countdownImminentRuin				= mod:NewCountdown("AltTwo20", 272536, "-Tank", nil, 3)
+local countdownBeam						= mod:NewCountdown("AltTwo20", 272115, nil, nil, 3)
 
 mod:AddSetIconOption("SetIconRuin", 272536, true)
 mod:AddRangeFrameOption(5, 272407)
@@ -103,6 +100,7 @@ local function beamCorrection(self)
 	local timer = self:IsMythic() and mythicBeamTimers[self.vb.beamCast+1] or beamTimers[self.vb.beamCast+1]
 	if timer then
 		timerObliterationbeamCD:Start(timer-4, self.vb.beamCast+1)
+		countdownBeam:Start(timer-4)
 		local timer2 = self:IsMythic() and mythicBeamTimers[self.vb.beamCast+1] or beamTimers[self.vb.beamCast+2]
 		if timer2 then
 			self:Schedule(timer2, beamCorrection, self)
@@ -195,10 +193,12 @@ function mod:SPELL_CAST_START(args)
 		countdownOblivionSphere:Start(7)--Still seems same in all
 		if self:IsMythic() then
 			timerObliterationbeamCD:Start(18.5, 1)
+			countdownBeam:Start(18.5)
 			timerVisionsoMadnessCD:Start(26.1, 1)
 			timerIntermission:Start(75)
 		else
 			timerObliterationbeamCD:Start(20.5, 1)
+			countdownBeam:Start(20.5)
 			if not self:IsLFR() then
 				timerVisionsoMadnessCD:Start(31.5, 1)
 			end
@@ -212,6 +212,7 @@ function mod:SPELL_CAST_START(args)
 		local timer = self:IsMythic() and mythicBeamTimers[self.vb.beamCast+1] or beamTimers[self.vb.beamCast+1]
 		if timer then
 			timerObliterationbeamCD:Start(timer, self.vb.beamCast+1)
+			countdownBeam:Start(timer)
 			local timer2 = self:IsMythic() and mythicBeamTimers[self.vb.beamCast+1] or beamTimers[self.vb.beamCast+2]
 			if timer2 then
 				self:Schedule(timer2+4, beamCorrection, self)
@@ -364,23 +365,9 @@ function mod:SPELL_AURA_REMOVED_DOSE(args)
 	end
 end
 
---[[
-function mod:SPELL_PERIODIC_DAMAGE(_, _, _, _, destGUID, _, _, _, spellId)
-	if spellId == 228007 and destGUID == UnitGUID("player") and self:AntiSpam(2, 4) then
-		specWarnGTFO:Show()
-		specWarnGTFO:Play("watchfeet")
-	end
-end
-mod.SPELL_PERIODIC_MISSED = mod.SPELL_PERIODIC_DAMAGE
---]]
-
 function mod:UNIT_DIED(args)
 	local cid = self:GetCIDFromGUID(args.destGUID)
-	if cid == 138492 then--Oblivion Sphere
-		--TODO, infoframe add tracking
-	--elseif cid == 139487 then--Vision of Madness
-		--TODO, infoframe add tracking
-	elseif cid == 139381 then--N'raqi Destroyer
+	if cid == 139381 then--N'raqi Destroyer
 		castsPerGUID[args.destGUID] = nil
 		self.vb.destroyersRemaining = self.vb.destroyersRemaining - 1
 		warnDestroyerRemaining:Show(self.vb.destroyersRemaining)
@@ -417,6 +404,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
 		warnPhase:Show(DBM_CORE_AUTO_ANNOUNCE_TEXTS.stage:format(1))
 		warnPhase:Play("phasechange")
 		timerObliterationbeamCD:Stop()
+		countdownBeam:Cancel()
 		timerVisionsoMadnessCD:Stop()
 		if self:IsMythic() then
 			timerImminentRuinCD:Start(5, 1)--SUCCESS

@@ -1,6 +1,6 @@
 # MaxDps
 
-## [v8.0.11.1](https://github.com/kaminaris/MaxDps/tree/v8.0.11.1) (2018-12-03)
-[Full Changelog](https://github.com/kaminaris/MaxDps/compare/v8.0.11...v8.0.11.1)
+## [v8.1.3](https://github.com/kaminaris/MaxDps/tree/v8.1.3) (2019-03-06)
+[Full Changelog](https://github.com/kaminaris/MaxDps/compare/v8.1.2.1...v8.1.3)
 
-- v8.0.11.1 - TimeToDie fixes, Nameplate counter fixes  
+- v8.1.3 - Color fixes  

@@ -1,9 +1,9 @@
-## Interface: 80000
+## Interface: 80100
 ## Author: cqwrteur
 ## Title: LookingForGroup Raider.IO
-## Version: r161
+## Version: r186
 ## Dependencies: LookingForGroup_Options, RaiderIO
-## X-LFG-OPT: 1
+## X-LFG-OPT: 0
 ## LoadOnDemand: 1
 
 locale\locale.xml

@@ -42,7 +42,6 @@ local GetQuestLogRewardMoney = GetQuestLogRewardMoney
 local GetQuestTagInfo = GetQuestTagInfo
 local GetNumQuestLogRewards = GetNumQuestLogRewards
 local GetQuestInfoByQuestID = C_TaskQuest.GetQuestInfoByQuestID
-local GetQuestTimeLeftMinutes = C_TaskQuest.GetQuestTimeLeftMinutes
 
 local MapRangeClamped = DF.MapRangeClamped
 local FindLookAtRotation = DF.FindLookAtRotation
@@ -997,9 +996,32 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 			-- �ptionsfunc ~optionsfunc
 			local options_on_click = function (_, _, option, value, value2, mouseButton)
 			
+				if (option == "accessibility") then
+					if (value == "extra_tracking_indicator") then
+						WorldQuestTracker.db.profile.accessibility.extra_tracking_indicator = value2
+					end
+					if (WorldQuestTrackerAddon.GetCurrentZoneType() == "zone") then
+						WorldQuestTracker.UpdateZoneWidgets (true)
+					end
+					if (WorldQuestTrackerAddon.GetCurrentZoneType() == "world") then
+						WorldQuestTracker.UpdateWorldQuestsOnWorldMap (true, true, false, true)
+					end
+					
+					GameCooltip:Hide()
+					return
+				end
+			
 				if (option == "ignore_quest") then
 					WorldQuestTracker.OpenQuestBanPanel()
 					GameCooltip:Hide()
+					return
+				end
+				
+				if (option == "bar_visible") then 
+					WorldQuestTracker.db.profile.bar_visible = value
+					WorldQuestTracker.RefreshStatusBarVisibility()
+					GameCooltip:Hide()
+					WorldQuestTracker:Msg (L["S_MAPBAR_OPTIONSMENU_STATUSBAR_ONDISABLE"])
 					return
 				end
 				
@@ -1353,7 +1375,7 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 			worldSummary.TotalAPower = 0
 			worldSummary.FactionSelected = 1 
 			worldSummary.FactionSelected_OnInit = 6 --the index 6 is the tortollan faction which has less quests and add less noise
-			worldSummary.AnchorAmount = 6
+			worldSummary.AnchorAmount = 7
 			worldSummary.MaxWidgetsPerRow = 7
 			worldSummary.FactionIDs = {}
 			worldSummary.ZoneAnchors = {}
@@ -1375,6 +1397,8 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 				"ANCHORTYPE_GOLD",
 				"ANCHORTYPE_REPUTATION",
 				"ANCHORTYPE_MISC",
+				"ANCHORTYPE_MISC2",
+				"",
 			}
 			
 			worldSummary.QuestTypes = {
@@ -1384,6 +1408,7 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 				["ANCHORTYPE_GOLD"] = 4,
 				["ANCHORTYPE_REPUTATION"] = 5,
 				["ANCHORTYPE_MISC"] = 6,
+				["ANCHORTYPE_MISC2"] = 7,
 			}
  			
 			function worldSummary.UpdateMaxWidgetsPerRow()
@@ -1753,8 +1778,11 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 							worldSummary.ZoneAnchors.NextAnchor = worldSummary.ZoneAnchors.NextAnchor + 1
 						end
 					end
-					
+
 					anchor = worldSummary.Anchors [anchorIndex]
+					
+					--print (anchor, )
+					
 					anchor.mapID = mapID
 					anchorTitle = WorldQuestTracker.GetMapName (mapID)
 				end
@@ -1781,6 +1809,9 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 				worldSummary.AnchorsByQuestType [worldSummary.QuestTypesByIndex [worldSummary.QuestTypes.ANCHORTYPE_REPUTATION]].AnchorOrder = abs (order [WQT_QUESTTYPE_REPUTATION] - (WQT_QUESTTYPE_MAX + 1))
 				--misc
 				worldSummary.AnchorsByQuestType [worldSummary.QuestTypesByIndex [worldSummary.QuestTypes.ANCHORTYPE_MISC]].AnchorOrder = 100
+				
+				--7th anchor
+				worldSummary.AnchorsByQuestType [worldSummary.QuestTypesByIndex [worldSummary.QuestTypes.ANCHORTYPE_MISC2]].AnchorOrder = 101
 			end
 
 			--reorder widgets within the anchor, sorting by the questID, time left and selected faction
@@ -1968,10 +1999,10 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 
 					if (repAmount > 41900) then
 						factionButton:SetAlpha (.75)
-						factionButton.Icon:SetDesaturated (true)
+						--factionButton.Icon:SetDesaturated (true)
 					else
 						factionButton:SetAlpha (1)
-						factionButton.Icon:SetDesaturated (false)
+						--factionButton.Icon:SetDesaturated (false)
 					end
 				end
 				
@@ -2316,7 +2347,7 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 				widget.Order = order
 				widget.X = x
 				widget.Y = y
-				
+
 				local okay, gold, resource, apower = WorldQuestTracker.UpdateWorldWidget (widget, questID, numObjectives, mapID, isCriteria, isNew, isUsingTracker, timeLeft, artifactPowerIcon)
 				widget.texture:SetTexCoord (.1, .9, .1, .9)
 				
@@ -4154,6 +4185,14 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 						GameCooltip:AddIcon ([[Interface\BUTTONS\UI-AutoCastableOverlay]], 2, 1, 16, 16, .4, .6, .4, .6)
 					end					
 				
+				-- ~accessibility
+				GameCooltip:AddLine ("Accessibility")
+				GameCooltip:AddIcon ([[Interface\PVPFrame\PVP-Banner-Emblem-1]], 1, 1, IconSize, IconSize)
+					
+				GameCooltip:AddLine ("Extra Tracker Mark", "", 2)
+				add_checkmark_icon (WorldQuestTracker.db.profile.accessibility.extra_tracking_indicator)
+				GameCooltip:AddMenu (2, options_on_click, "accessibility", "extra_tracking_indicator", not WorldQuestTracker.db.profile.accessibility.extra_tracking_indicator)
+				
 				-- other options
 				GameCooltip:AddLine ("$div")
 				
@@ -4193,6 +4232,11 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 					GameCooltip:AddIcon ([[Interface\BUTTONS\UI-AutoCastableOverlay]], 1, 1, 16, 16, .4, .6, .4, .6)
 				end
 				GameCooltip:AddMenu (1, options_on_click, "bar_anchor", WorldQuestTracker.db.profile.bar_anchor == "bottom" and "top" or "bottom")
+				
+				--show the statusbar
+				GameCooltip:AddLine (L["S_MAPBAR_OPTIONSMENU_STATUSBAR_VISIBILITY"]) --show statusbar
+				add_checkmark_icon (WorldQuestTracker.db.profile.bar_visible, true)
+				GameCooltip:AddMenu (1, options_on_click, "bar_visible", not WorldQuestTracker.db.profile.bar_visible)
 				
 				-- frame scale and frame align options
 				GameCooltip:AddLine ("$div")
@@ -4858,7 +4902,7 @@ WorldQuestTracker.OnToggleWorldMap = function (self)
 			end
 			
 			local numNews = DF:GetNumNews (WorldQuestTracker.GetChangelogTable(), WorldQuestTracker.db.profile.last_news_time)
-			if (numNews > 0) then
+			if (numNews > 0 and WorldQuestTracker.DoubleTapFrame and false) then --adding a false here to not show the news button for now (15/02/2019)
 				-- /run WorldQuestTrackerAddon.db.profile.last_news_time = 0
 			
 				local openNewsButton = DF:CreateButton (WorldQuestTracker.DoubleTapFrame, WorldQuestTracker.OpenNewsWindow, 120, 20, "What's New?", -1, nil, nil, nil, nil, nil, DF:GetTemplate ("button", "WQT_NEWS_BUTTON"), DF:GetTemplate ("font", "WQT_TOGGLEQUEST_TEXT"))

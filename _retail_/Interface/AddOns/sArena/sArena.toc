@@ -1,13 +1,12 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: sArena
 ## Notes: Enhanced arena frames
 ## Author: Stako
-## Version: 2.0.8
+## Version: 3.0.9
+## Dependencies: Blizzard_ArenaUI
 ## X-Category: PvP/Arena
-## X-Credits: Tekkub, Starship, Kouri, Kollektiv, Lyn, haste, evl, Zork, jturel
-## RequiredDeps: Blizzard_ArenaUI
+## X-Credits: Tekkub, Starship, Kouri, Kollektiv, Lyn, haste, evl, Zork, jturel, wardz
 
-## SavedVariables: sArenaDB
+## SavedVariables: sArena3DB
 
-embeds.xml
 sArena.xml

@@ -1,7 +1,7 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: CollectionShop
-## Version: 3.06
-## Author: Clinton Caldwell
+## Version: 3.07
+## Author: Clinton Caldwell (CurseForge User: cmc3215)
 ## Notes: Find and buy the lowest buyout Mounts, Pets, Toys, Appearances, and Recipes.
 ## SavedVariables: COLLECTIONSHOP_SAVEDVARIABLES
 ## SavedVariablesPerCharacter: COLLECTIONSHOP_SAVEDVARIABLESPERCHARACTER

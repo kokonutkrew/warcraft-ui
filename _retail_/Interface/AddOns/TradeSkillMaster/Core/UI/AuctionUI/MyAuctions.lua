@@ -35,7 +35,7 @@ end
 -- ============================================================================
 
 function private.GetMyAuctionsFrame()
-	TSM.Analytics.PageView("auction/my_auctions")
+	TSM.UI.AnalyticsRecordPathChange("auction", "my_auctions")
 	private.query = private.query or TSM.MyAuctions.CreateQuery()
 	local frame = TSMAPI_FOUR.UI.NewElement("Frame", "myAuctions")
 		:SetLayout("VERTICAL")
@@ -180,7 +180,7 @@ function private.GetMyAuctionsFrame()
 			)
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "labels")
 				:SetLayout("VERTICAL")
-				:SetStyle("width", 120)
+				:SetStyle("width", 125)
 				:AddChild(TSMAPI_FOUR.UI.NewElement("Text", "sold")
 					:SetStyle("font", TSM.UI.Fonts.MontserratMedium)
 					:SetStyle("fontHeight", 11)
@@ -248,18 +248,14 @@ end
 
 function private.FrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 38)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(38)
 	private.fsm:ProcessEvent("EV_FRAME_SHOWN", frame)
 end
 
 function private.FrameOnHide(frame)
 	assert(frame == private.frame)
 	private.frame = nil
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", nil)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(nil)
 	private.fsm:ProcessEvent("EV_FRAME_HIDDEN")
 end
 
@@ -350,17 +346,20 @@ function private.FSMCreate()
 			end
 		end
 		context.currentSelectionIndex = selectedRow and selectedRow:GetField("index") or nil
-		auctions:SetSelection(selectedRow and selectedRow:GetUUID() or nil)
-		auctions:Draw()
+		auctions:SetSelection(selectedRow and selectedRow:GetUUID() or nil, true)
 
-		local clearfilterBtn = context.frame:GetElement("headerFrame.clearfilterBtn")
-		clearfilterBtn:SetDisabled(not private.durationFilter and not private.keywordFilter and not private.bidFilter)
-		clearfilterBtn:Draw()
+		context.frame:GetElement("headerFrame.clearfilterBtn")
+			:SetDisabled(not private.durationFilter and not private.keywordFilter and not private.bidFilter and not private.soldFilter)
+			:Draw()
 
 		local hasSelection = auctions:GetSelection() and true or false
 		local bottomFrame = context.frame:GetElement("bottom")
-		bottomFrame:GetElement("cancelBtn"):SetDisabled(not hasSelection)
-		bottomFrame:GetElement("skipBtn"):SetDisabled(not hasSelection)
+		bottomFrame:GetElement("cancelBtn")
+			:SetDisabled(not hasSelection)
+			:Draw()
+		bottomFrame:GetElement("skipBtn")
+			:SetDisabled(not hasSelection)
+			:Draw()
 		local numPending = TSM.MyAuctions.GetNumPending()
 		local progressText = nil
 		if numPending > 0 then
@@ -373,16 +372,20 @@ function private.FSMCreate()
 		bottomFrame:GetElement("progressBar")
 			:SetProgressIconHidden(numPending == 0)
 			:SetText(progressText)
+			:Draw()
 		local numPosted, numSold, postedGold, soldGold = TSM.MyAuctions.GetAuctionInfo()
 		bottomFrame:GetElement("labels.sold")
 			:SetFormattedText(L["Sold Auctions %s:"], "|cffffd839"..numSold.."|r")
+			:Draw()
 		bottomFrame:GetElement("labels.posted")
 			:SetFormattedText(L["Posted Auctions %s:"], "|cff6ebae6"..numPosted.."|r")
+			:Draw()
 		bottomFrame:GetElement("values.sold")
 			:SetText(TSM.Money.ToString(soldGold))
+			:Draw()
 		bottomFrame:GetElement("values.posted")
 			:SetText(TSM.Money.ToString(postedGold))
-		bottomFrame:Draw()
+			:Draw()
 	end
 	private.fsm = TSMAPI_FOUR.FSM.New("MY_AUCTIONS")
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_HIDDEN")

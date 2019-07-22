@@ -1,0 +1,8 @@
+VER 3 0100000000000002 "JMM_WK_DEMO_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] JMM_WK_DEMO_AOE RightButton; [button:3] JMM_WK_DEMO_AOE MiddleButton; [button:4] JMM_WK_DEMO_AOE Button4; [button:5] JMM_WK_DEMO_AOE Button5; JMM_WK_DEMO_AOE
+END
+VER 3 0100000000000001 "JMM_WK_DEMO_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] JMM_WK_DEMO_ST RightButton; [button:3] JMM_WK_DEMO_ST MiddleButton; [button:4] JMM_WK_DEMO_ST Button4; [button:5] JMM_WK_DEMO_ST Button5; JMM_WK_DEMO_ST
+END

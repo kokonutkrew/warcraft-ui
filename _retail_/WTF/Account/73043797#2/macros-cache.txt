@@ -33,6 +33,17 @@ VER 3 000000000000000A "ancestor coins" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
 /way Feralas 62.56 31.07 Mistwalker
 /way M
 END
+VER 3 0000000000000014 "AutoFollow" "132127"
+/clearfocus
+/target [target=party1]
+/focus [@focus,noharm][@focus,dead]
+/follow [@focus]
+/assist
+/stopcasting
+END
+VER 3 0000000000000013 "Cluck" "576309"
+/chicken
+END
 VER 3 000000000000000C "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Hand of Sacrifice;  [@mouseover,exists,mod:ctrl] Cleanse; [@mouseover,exists,mod:shift] Hand of Sacrifice

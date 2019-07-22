@@ -106,27 +106,8 @@ local GeneralOptions = {
         ["tooltip"] = FBConstants.CONFIG_SPARKLIES_INFO,
         ["v"] = 1,
         ["default"] = false,
-        ["parents"] = { ["EnhanceFishingSounds"] = "d" }, },
---	["CreateMacro"] = {
---		["text"] = FBConstants.CONFIG_CREATEMACRO_ONOFF,
---		["tooltip"] = FBConstants.CONFIG_CREATEMACRO_INFO,
---		["v"] = 1,
---		["global"] = 1,
---		["default"] = false, },
---	["PreventRecast"] = {
---		["text"] = FBConstants.CONFIG_PREVENTRECAST_ONOFF,
---		["tooltip"] = FBConstants.CONFIG_PREVENTRECAST_INFO,
---		["v"] = 1,
---		["global"] = 1,
---		["default"] = false,
---		["parents"] = { ["CreateMacro"] = "d" }, },
---	["ToonMacro"] = {
---		["text"] = FBConstants.CONFIG_TOONMACRO_ONOFF,
---		["tooltip"] = FBConstants.CONFIG_TOONMACRO_INFO,
---		["v"] = 1,
---		["global"] = 1,
---		["default"] = false,
---		["parents"] = { ["CreateMacro"] = "d" }, },
+        ["parents"] = { ["EnhanceFishingSounds"] = "d" },
+    },
 };
 
 -- x87bliss has implemented IsFishWardenEnabled as a public function, so
@@ -138,11 +119,6 @@ local function IsWardenEnabled()
         doautoloot = 0;
     end
     return "d", doautoloot;
-end
-
-local function CustomLooting()
-    local _, autoloot = IsWardenEnabled();
-    return FishingBuddy.GetSettingBool("AutoLoot") and (autoloot == 1);
 end
 
 local function IsFishingAceEnabled()
@@ -387,12 +363,18 @@ local VolumeSlider =
     ["step"] = 5,
     ["scale"] = 1,
     ["rightextra"] = 32,
-    ["setting"] = "EnhanceSound_MasterVolume",
+    ["setting"] = "EnhanceSound_MasterVolume"
 };
+
+local function PrepareVolumeSlider()
+    VolumeSlider['getter'] = FishingBuddy.GetSetting;
+    VolumeSlider['setter'] = FishingBuddy.SetSetting;
+    LO:CreateSlider(VolumeSlider);
+end
 
 EasyCastInit = function(option, button)
     -- prettify drop down?
-    local check = FBEasyKeys.menu.label:GetWidth() + FBEasyKeys:GetWidth();
+    local check = FBEasyKeys:GetWidth();
     if (FishingBuddy.FitInOptionFrame(check)) then
         CastingOptions["EasyCast"].layoutright = "EasyCastKeys";
     else
@@ -913,6 +895,7 @@ local function GetUpdateLure()
 
     return false;
 end
+FishingBuddy.GetUpdateLure = GetUpdateLure
 
 local CaptureEvents = {};
 local trackedtime = 0;
@@ -976,6 +959,10 @@ CaptureEvents["UNIT_AURA"] = function(arg1)
             LastLure = nil;
         end
     end
+end
+
+CaptureEvents[FBConstants.OPT_UPDATE_EVT] = function()
+    FishingBuddyRoot:RegisterEvent("UPDATE_BINDINGS")
 end
 
 local function GetCurrentSpell()
@@ -1139,14 +1126,6 @@ local function PushOptionChanges()
     FL:WatchBobber(FishingBuddy.GetSettingBool("WatchBobber"));
     FL:SetSAMouseEvent(FishingBuddy.GetSetting("MouseEvent"));
     FishingBuddy.WatchUpdate();
-
-    if (false) then
-        if (FishingBuddy.GetSettingBool("CreateMacro")) then
-            CreateFishingMacro();
-        else
-            DeleteMacro(FBConstants.MACRONAME);
-        end
-    end
 end
 
 -- do everything we think is necessary when we start fishing
@@ -1267,82 +1246,6 @@ local function TrapWorldMouse()
 end
 FishingBuddy.TrapWorldMouse = TrapWorldMouse;
 
--- Move a macro from global to perchar, or vice versa
-local function GetMacroIndex(macroname)
-    for idx = 1, _G.MAX_ACCOUNT_MACROS + _G.MAX_CHARACTER_MACROS do
-        local name, icon, body = GetMacroInfo(idx)
-        if (name and macroname == name) then
-            return idx;
-        end
-    end
-end
-
-local function CreateOrUpdateMacro(name, icon, body, perchar)
-    local exists = GetMacroIndex(name);
-    if (exists) then
-        local isglobal = (exists <= _G.MAX_ACCOUNT_MACROS);
-        if ((perchar and isglobal) or (not perchar and not isglobal)) then
-            -- switch per char and global
-            DeleteMacro(name);
-            exists = nil;
-        end
-    end
-
-    if (exists) then
-        EditMacro(name, nil, icon, body, 1, perchar);
-    else
-        CreateMacro(name, icon, body, perchar);
-    end
-end
-
-local function CreateFishingMacro()
-    local GSB = FishingBuddy.GetSettingBool;
-    local _, fishing = FL:GetFishingSkillInfo();
-    local update, id, name = GetUpdateLure();
-    local bag, slot;
-    if (update) then
-        bag, slot = FL:FindThisItem(id);
-    end
-
-    local action = "";
-    if (slot) then
-        action = "/stopcasting\n/use "
-        if (bag) then
-            action = action..bag
-        end
-        action = action.." "..slot.."\n";
-    else
-        action = "/cast ";
-        if (GSB("PreventRecast")) then
-            action = action.." [nochanneling:"..fishing.."] ";
-        else
-            action = "/stopcasting\n"..action;
-        end
-        action = action..fishing
-    end
-
-    local numglobal,numperchar = GetNumMacros();
-    local perchar = nil;
-    local fullup;
-    if (GSB("ToonMacro")) then
-        if (numperchar >= _G.MAX_CHARACTER_MACROS) then
-            fullup = FBConstants.NOCREATEMACROPER;
-        end
-        perchar = 1;
-    else
-        if (numglobal >= _G.MAX_ACCOUNT_MACROS) then
-            fullup = FBConstants.NOCREATEMACROGLOB;
-        end
-    end
-
-    if (fullup) then
-        FishingBuddy.Message(fullup.."\""..FBConstants.MACRONAME.."\"", 1, 0, 0);
-        return;
-    end
-
-    CreateOrUpdateMacro(FBConstants.MACRONAME, "INV_Fishingpole_02", "#showtooltip Fishing\n/fb fishing start\n"..action, perchar);
-end
-
 FishingBuddy.Commands[FBConstants.FISHINGMODE] = {};
 FishingBuddy.Commands[FBConstants.FISHINGMODE].help = FBConstants.FISHINGMODE_HELP;
 FishingBuddy.Commands[FBConstants.FISHINGMODE].func =
@@ -1354,10 +1257,16 @@ FishingBuddy.Commands[FBConstants.FISHINGMODE].func =
             autopoleframe:Show();
         end
 
-        if (FishingBuddy.GetSettingBool("CreateMacro")) then
-            -- CreateFishingMacro();
-        end
-
+        return true;
+    end;
+    
+FishingBuddy.Commands['macro'] = {};
+FishingBuddy.Commands['macro'].help = FBConstants.FBMACRO_HELP;
+FishingBuddy.Commands['macro'].func =
+    function()
+        SetLastCastTime();
+        autopoleframe:Show();
+        FishingBuddy.FishingMacro();
         return true;
     end;
 
@@ -1586,31 +1495,31 @@ FishingBuddy.OnEvent = function(self, event, ...)
                 poolhint = true;
             end
 
-            if not autoloot and not IsModifiedClick("AUTOLOOTTOGGLE") then
-                doautoloot = CustomLooting()
+            if autoLoot or (autoLoot == nil and GetCVarBool("autoLootDefault") ~= IsModifiedClick("AUTOLOOTTOGGLE"))  then
+                doautoloot = true
+            else
+                doautoloot = FishingBuddy.GetSettingBool("AutoLoot")
             end
 
             -- if we want to autoloot, and Blizz isn't, let's grab stuff
             local checkloot = LootSlotIsItem or LootSlotHasItem;
-            for index = GetNumLootItems(), 1, -1 do
-                local texture, fishie, quantity, currency, quality, locked, qitem, questID, qactive = GetLootSlotInfo(index);
-                if (checkloot(index)) then
-                    local link = GetLootSlotLink(index);
-
-                    -- should we track "locked" items we couldn't loot?'
-                    FishingBuddy.AddLootCache(texture, fishie, quantity, quality, link, poolhit)
-
+            local info = GetLootInfo()
+            for index, item in ipairs(info) do
+                local link = GetLootSlotLink(index);
+                -- should we track "locked" items we couldn't loot?'
+                FishingBuddy.AddLootCache(item.texture, item.name, item.quantity, item.quality, link, poolhint)
+                -- not sure this makes sense any more
+                if false then
                     local _, id, _ = FL:SplitLink(link, true);
                     -- handle things we can't actually count that might be in our fish (e.g. Garrison Resources)
                     if (id and quality == 0 and FL:IsMissedFish(id)) then
                         DoEscaped = 1;
                     end
                 end
-                if (not locked and doautoloot) then
+                if (doautoloot) then
                     LootSlot(index);
                 end
             end
-
             ClearTooltipText();
             FL:ExtendDoubleClick();
             LureState = 0;
@@ -1634,10 +1543,19 @@ FishingBuddy.OnEvent = function(self, event, ...)
         StopFishingMode(true);
         FishingBuddy.SavePlayerInfo();
         RunHandlers(FBConstants.LOGOUT_EVT);
+    elseif ( event == "UPDATE_BINDINGS" ) then
+        local key1, key2 = GetBindingKey("FISHINGBUDDY_GOFISHING");
+        if key1 or key2 then
+            if FishingBuddy.CreateFishingMacro() then
+                self:UnregisterEvent(event);
+                FishingBuddy.SetupMacroKeyBinding();
+                self:RegisterEvent(event);
+            end
+        end
     elseif ( event == "VARIABLES_LOADED" ) then
         local _, name = FL:GetFishingSkillInfo();
         FishingBuddy.Initialize();
-        LO:CreateSlider(VolumeSlider);
+        PrepareVolumeSlider()
         FishingBuddy.OptionsFrame.HandleOptions(GENERAL, nil, GeneralOptions);
         FishingBuddy.AddSchoolFish();
 
@@ -1646,11 +1564,6 @@ FishingBuddy.OnEvent = function(self, event, ...)
 
         FishingBuddy.OptionsFrame.HandleOptions(name, "Interface\\Icons\\INV_Fishingpole_02", CastingOptions);
         FishingBuddy.OptionsFrame.HandleOptions(nil, nil, InvisibleOptions);
-
-        -- make sure we have the Macro globals
-        -- if (not IsAddOnLoaded("Blizzard_MacroUI")) then
-        --	LoadAddOn("Blizzard_MacroUI");
-        -- end
 
         -- defaults to true
         if (FishingBuddy_Player and FishingBuddy_Player["Settings"] and FishingBuddy_Player["Settings"]["ShowBanner"] == nil) then
@@ -1681,9 +1594,6 @@ FishingBuddy.OnEvent = function(self, event, ...)
         end
     elseif ( event == "PLAYER_ALIVE" ) then
         FishingMode();
-        if (FishingBuddy.GetSettingBool("CreateMacro")) then
-            -- CreateFishingMacro();
-        end
         self:UnregisterEvent("PLAYER_ALIVE");
     elseif ( event == "PLAYER_LEAVING_WORLD") then
         RunHandlers(FBConstants.LEAVING_EVT);
@@ -1925,13 +1835,6 @@ if ( FishingBuddy.Debugging ) then
             for idx,info in pairs(OpenThisFishId) do
                 FishingBuddy.Debug(idx, info);
             end
-            return true;
-        end
-
-    FishingBuddy.Commands["macrotest"] = {};
-    FishingBuddy.Commands["macrotest"].func =
-        function()
-            CreateFishingMacro();
             return true;
         end
 end

@@ -1,7 +1,7 @@
-changeset:   160:9a5dbd00f9ff
-tag:         161.0
+changeset:   185:79ae32068096
+tag:         186.0
 user:        ejsvifq_mabmip
-date:        Fri Dec 14 02:42:47 2018 +0800
-summary:     lfg raider.io alpha version
+date:        Sun Mar 03 18:52:13 2019 +0800
+summary:     fix bug of LFG Raider.IO
 
 

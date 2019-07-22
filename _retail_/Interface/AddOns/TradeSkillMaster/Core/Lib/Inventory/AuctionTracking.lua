@@ -23,45 +23,6 @@ local private = {
 local PLAYER_NAME = UnitName("player")
 local SALE_HINT_SEP = "\001"
 local SALE_HINT_EXPIRE_TIME = 33 * 24 * 60 * 60
-local DB_SCHEMA = {
-	fields = {
-		index = "number",
-		itemString = "string",
-		baseItemString = "string",
-		autoBaseItemString = "string",
-		itemLink = "string",
-		itemTexture = "number",
-		itemName = "string",
-		itemQuality = "number",
-		duration = "number",
-		highBidder = "string",
-		currentBid = "number",
-		buyout = "number",
-		stackSize = "number",
-		saleStatus = "number",
-	},
-	fieldAttributes = {
-		index = { "unique", "index" },
-		autoBaseItemString = { "index" },
-		saleStatus = { "index" },
-	},
-	fieldOrder = {
-		"index",
-		"itemString",
-		"baseItemString",
-		"autoBaseItemString",
-		"itemLink",
-		"itemTexture",
-		"itemName",
-		"itemQuality",
-		"duration",
-		"highBidder",
-		"currentBid",
-		"buyout",
-		"stackSize",
-		"saleStatus",
-	},
-}
 
 
 
@@ -73,10 +34,28 @@ function AuctionTracking.OnInitialize()
 	TSMAPI_FOUR.Event.Register("AUCTION_HOUSE_SHOW", private.AuctionHouseShowHandler)
 	TSMAPI_FOUR.Event.Register("AUCTION_HOUSE_CLOSED", private.AuctionHouseClosedHandler)
 	TSMAPI_FOUR.Event.Register("AUCTION_OWNED_LIST_UPDATE", private.AuctionOwnedListUpdateHandler)
-	private.db = TSMAPI_FOUR.Database.New(DB_SCHEMA, "AUCTION_TRACKING")
+	private.db = TSMAPI_FOUR.Database.NewSchema("AUCTION_TRACKING")
+		:AddUniqueNumberField("index")
+		:AddStringField("itemString")
+		:AddSmartMapField("baseItemString", TSM.Item.GetBaseItemStringMap(), "itemString")
+		:AddSmartMapField("autoBaseItemString", TSM.Groups.GetAutoBaseItemStringSmartMap(), "itemString")
+		:AddStringField("itemLink")
+		:AddNumberField("itemTexture")
+		:AddStringField("itemName")
+		:AddNumberField("itemQuality")
+		:AddNumberField("duration")
+		:AddStringField("highBidder")
+		:AddNumberField("currentBid")
+		:AddNumberField("buyout")
+		:AddNumberField("stackSize")
+		:AddNumberField("saleStatus")
+		:AddIndex("index")
+		:AddIndex("autoBaseItemString")
+		:AddIndex("saleStatus")
+		:Commit()
 	private.updateQuery = private.db:NewQuery()
 		:SetUpdateCallback(private.OnCallbackQueryUpdated)
-	for info, timestamp in ipairs(TSM.db.char.internalData.auctionSaleHints) do
+	for info, timestamp in pairs(TSM.db.char.internalData.auctionSaleHints) do
 		if time() > timestamp + SALE_HINT_EXPIRE_TIME then
 			TSM.db.char.internalData.auctionSaleHints[info] = nil
 		end
@@ -153,6 +132,7 @@ function private.AuctionOwnedListUpdateHandler()
 	end
 	wipe(private.indexUpdates.pending)
 	wipe(private.indexUpdates.list)
+	GetOwnerAuctionItems()
 	for i = 1, GetNumAuctionItems("owner") do
 		if not private.indexUpdates.pending[i] then
 			private.indexUpdates.pending[i] = true
@@ -195,9 +175,7 @@ function private.AuctionOwnedListUpdateDelayed()
 	-- scan the auctions
 	TSM.Inventory.WipeAuctionQuantity()
 
-	private.db:SetQueryUpdatesPaused(true)
-	private.db:Truncate()
-	private.db:BulkInsertStart()
+	private.db:TruncateAndBulkInsertStart()
 	local expire = math.huge
 	for i = #private.indexUpdates.list, 1, -1 do
 		local index = private.indexUpdates.list[i]
@@ -219,21 +197,18 @@ function private.AuctionOwnedListUpdateDelayed()
 			highBidder = highBidder or ""
 			texture = texture or TSMAPI_FOUR.Item.GetTexture(link)
 			local itemString = TSMAPI_FOUR.Item.ToItemString(link)
-			local baseItemString = TSMAPI_FOUR.Item.ToBaseItemString(itemString)
-			local autoBaseItemString = TSMAPI_FOUR.Item.ToBaseItemString(itemString, true)
 			local currentBid = highBidder ~= "" and bid or minBid
 			if saleStatus == 0 then
-				TSM.Inventory.ChangeAuctionQuantity(baseItemString, stackSize)
+				TSM.Inventory.ChangeAuctionQuantity(TSMAPI_FOUR.Item.ToBaseItemString(itemString), stackSize)
 				local hintInfo = strjoin(SALE_HINT_SEP, TSMAPI_FOUR.Item.GetName(link), itemString, stackSize, buyout)
 				TSM.db.char.internalData.auctionSaleHints[hintInfo] = time()
 			end
 			private.indexUpdates.pending[index] = nil
 			tremove(private.indexUpdates.list, i)
-			private.db:BulkInsertNewRow(index, itemString, baseItemString, autoBaseItemString, link, texture, name, quality, duration, highBidder, currentBid, buyout, stackSize, saleStatus)
+			private.db:BulkInsertNewRow(index, itemString, link, texture, name, quality, duration, highBidder, currentBid, buyout, stackSize, saleStatus)
 		end
 	end
 	private.db:BulkInsertEnd()
-	private.db:SetQueryUpdatesPaused(false)
 
 	if expire ~= math.huge then
 		if (TSM.db.factionrealm.internalData.expiringAuction[PLAYER_NAME] or math.huge) > expire then

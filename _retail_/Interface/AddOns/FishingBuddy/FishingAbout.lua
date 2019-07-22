@@ -119,8 +119,11 @@ credits[FBConstants.ROLE_HELP_BUGS] = {
 	["Gulduka"] = { "German language testing for LibBabble-SubZone" },
 	["Mastigophoran"] = { "Help with Truthseeker/Oathbreaker issue" },
 	["Resike"] = { "Help fix leaking globals, potentional taint hazards" },
-	["HarlequinBonse"] = { "Found the Tuskarr spear bug!"},
-	["chadcloman"] = { "Most detailed bug ever!", },
+	["HarlequinBonse"] = { "Found the Tuskarr spear bug!" },
+    ["chadcloman"] = { "Most detailed bug ever!", },
+    ["robgha01"] = { "No pets bug" },
+    ["bolerro619"] = { "Titan and Broker issues" },
+    ["Seamhas"] = { "Much help with rafts." },
 };
 
 -- Ideas and suggestions
@@ -156,7 +159,8 @@ credits[FBConstants.ROLE_HELP_SUGGESTIONS] = {
 	["brykrys"] = { "Corpse Worm" },
 	["Ross"] = { "Improved action button" },
 	["p3lim"] = { "For the ExtraQuestButton addon!" },
-	["Zeglar"] = { "Raid Boss and server reset time" }
+    ["Zeglar"] = { "Raid Boss and server reset time" },
+    ["bsmorgan"] = { "Group size specific locations for watcher." }
 };
 
 credits[FBConstants.ROLE_ADDON_AUTHORS] = {

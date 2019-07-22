@@ -17,6 +17,13 @@ local MIN_FRAME_SIZE = { width = 948, height = 757 }
 -- Module Functions
 -- ============================================================================
 
+function MainUI.OnDisable()
+	-- hide the frame
+	if private.frame then
+		MainUI.Toggle()
+	end
+end
+
 function MainUI.RegisterTopLevelPage(name, texturePack, callback)
 	tinsert(private.topLevelPages, { name = name, texturePack = texturePack, callback = callback })
 end
@@ -40,7 +47,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("main")
+	TSM.UI.AnalyticsRecordPathChange("main")
 	-- Always show the Dashboard first
 	TSM.db.global.internalData.mainUIFrameContext.page = 1
 	local frame = TSMAPI_FOUR.UI.NewElement("LargeApplicationFrame", "base")
@@ -66,4 +73,5 @@ function private.BaseFrameOnHide(frame)
 	assert(frame == private.frame)
 	frame:Release()
 	private.frame = nil
+	TSM.UI.AnalyticsRecordClose("main")
 end

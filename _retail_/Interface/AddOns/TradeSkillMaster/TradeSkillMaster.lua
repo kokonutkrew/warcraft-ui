@@ -18,7 +18,7 @@ local APP_INFO_REQUIRED_KEYS = { "version", "lastSync", "addonVersions", "messag
 local LOGOUT_TIME_WARNING_THRESHOLD_MS = 20
 do
 	-- show a message if we were updated
-	if GetAddOnMetadata("TradeSkillMaster", "Version") ~= "v4.6.9" then
+	if GetAddOnMetadata("TradeSkillMaster", "Version") ~= "v4.7.16" then
 		message("TSM was just updated and may not work properly until you restart WoW.")
 	end
 end
@@ -66,9 +66,11 @@ end
 -- [45] added char.internalData.auctionSaleHints
 -- [46] added global.shoppingOptions.{buyoutConfirm,buyoutAlertSource}
 -- [47] added factionrealm.internalData.expiringMail and factionrealm.internalData.expiringAuction
+-- [48] added profile.internalData.exportGroupTreeContext
+-- [49] added factionrealm.internalData.{mailDisenchantablesChar,mailExcessGoldChar,mailExcessGoldLimit}
 
 local SETTINGS_INFO = {
-	version = 47,
+	version = 49,
 	global = {
 		debug = {
 			chatLoggingEnabled = { type = "boolean", default = false, lastModifiedVersion = 19 },
@@ -193,6 +195,7 @@ local SETTINGS_INFO = {
 			mailingGroupTreeContext = { type = "table", default = {}, lastModifiedVersion = 39 },
 			vendoringGroupTreeContext = { type = "table", default = {}, lastModifiedVersion = 39 },
 			importGroupTreeContext = { type = "table", default = {}, lastModifiedVersion = 39 },
+			exportGroupTreeContext = { type = "table", default = {}, lastModifiedVersion = 48 },
 		},
 		userData = {
 			groups = { type = "table", default = {}, lastModifiedVersion = 10 },
@@ -210,6 +213,9 @@ local SETTINGS_INFO = {
 			pendingMail = { type = "table", default = {}, lastModifiedVersion = 10 },
 			expiringMail = { type = "table", default = {}, lastModifiedVersion = 47 },
 			expiringAuction = { type = "table", default = {}, lastModifiedVersion = 47 },
+			mailDisenchantablesChar = { type = "string", default = "", lastModifiedVersion = 49 },
+			mailExcessGoldChar = { type = "string", default = "", lastModifiedVersion = 49 },
+			mailExcessGoldLimit = { type = "number", default = 10000000000, lastModifiedVersion = 49 },
 			crafts = { type = "table", default = {}, lastModifiedVersion = 10 },
 			mats = { type = "table", default = {}, lastModifiedVersion = 10 },
 			guildGoldLog = { type = "table", default = {}, lastModifiedVersion = 25 },
@@ -281,7 +287,7 @@ function TSM.OnInitialize()
 	end
 
 	-- load settings
-	local db, upgradeObj = TSMAPI_FOUR.Settings.New("TradeSkillMasterDB", SETTINGS_INFO)
+	local db, upgradeObj = TSM.Settings.New("TradeSkillMasterDB", SETTINGS_INFO)
 	TSM.db = db
 	if upgradeObj then
 		local prevVersion = upgradeObj:GetPrevVersion()
@@ -503,8 +509,6 @@ function TSM.OnInitialize()
 	-- store the class of this character
 	TSM.db.sync.internalData.classKey = select(2, UnitClass("player"))
 
-	TSM.db:RegisterCallback("OnLogout", private.OnLogout)
-
 	-- core price sources
 	TSM.CustomPrice.RegisterSource("TradeSkillMaster", "VendorBuy", L["Buy from Vendor"], TSMAPI_FOUR.Item.GetVendorBuy)
 	TSM.CustomPrice.RegisterSource("TradeSkillMaster", "VendorSell", L["Sell to Vendor"], TSMAPI_FOUR.Item.GetVendorSell)
@@ -633,6 +637,22 @@ function TSM.OnEnable()
 	TSM.LoadAppData()
 end
 
+function TSM.OnDisable()
+	local originalProfile = TSM.db:GetCurrentProfile()
+	-- erroring here would cause the profile to be reset, so use pcall
+	local startTime = debugprofilestop()
+	local success, errMsg = pcall(private.SaveAppData)
+	local timeTaken = debugprofilestop() - startTime
+	if timeTaken > LOGOUT_TIME_WARNING_THRESHOLD_MS then
+		TSM:LOG_WARN("private.SaveAppData took %0.2fms", timeTaken)
+	end
+	if not success then
+		TSM:LOG_ERR("private.SaveAppData hit an error: %s", tostring(errMsg))
+	end
+	-- ensure we're back on the correct profile
+	TSM.db:SetProfile(originalProfile)
+end
+
 function TSM.LoadAppData()
 	if not TSMAPI_FOUR.Util.IsAddonInstalled("TradeSkillMaster_AppHelper") then
 		return
@@ -698,7 +718,96 @@ function TSM.LoadAppData()
 	end
 end
 
-function TSM.OnTSMDBShutdown()
+
+
+-- ============================================================================
+-- General Slash-Command Handlers
+-- ============================================================================
+
+function private.TestPriceSource(price)
+	local _, endIndex, link = strfind(price, "(\124c[0-9a-f]+\124H[^\124]+\124h%[[^%]]+%]\124h\124r)")
+	price = link and strtrim(strsub(price, endIndex + 1))
+	if not price or price == "" then
+		TSM:Print(L["Usage: /tsm price <ItemLink> <Price String>"])
+		return
+	end
+
+	local isValid, err = TSMAPI_FOUR.CustomPrice.Validate(price)
+	if not isValid then
+		TSM:Printf(L["%s is not a valid custom price and gave the following error: %s"], "|cff99ffff"..price.."|r", err)
+		return
+	end
+
+	local itemString = TSMAPI_FOUR.Item.ToItemString(link)
+	if not itemString then
+		TSM:Printf(L["%s is a valid custom price but %s is an invalid item."], "|cff99ffff"..price.."|r", link)
+		return
+	end
+
+	local value = TSMAPI_FOUR.CustomPrice.GetValue(price, itemString)
+	if not value then
+		TSM:Printf(L["%s is a valid custom price but did not give a value for %s."], "|cff99ffff"..price.."|r", link)
+		return
+	end
+
+	TSM:Printf(L["A custom price of %s for %s evaluates to %s."], "|cff99ffff"..price.."|r", link, TSM.Money.ToString(value))
+end
+
+function private.ChangeProfile(targetProfile)
+	targetProfile = strtrim(targetProfile)
+	local profiles = TSM.db:GetProfiles()
+	if targetProfile == "" then
+		TSM:Printf(L["No profile specified. Possible profiles: '%s'"], table.concat(profiles, "', '"))
+	else
+		for _, profile in ipairs(profiles) do
+			if profile == targetProfile then
+				if profile ~= TSM.db:GetCurrentProfile() then
+					TSM.db:SetProfile(profile)
+				end
+				TSM:Printf(L["Profile changed to '%s'."], profile)
+				return
+			end
+		end
+		TSM:Printf(L["Could not find profile '%s'. Possible profiles: '%s'"], targetProfile, table.concat(profiles, "', '"))
+	end
+end
+
+function private.DebugSlashCommandHandler(arg)
+	if arg == "fstack" then
+		TSM.UI.ToggleFrameStack()
+	elseif arg == "error" then
+		TSM.ShowManualError()
+	elseif arg == "logging" then
+		TSM.db.global.debug.chatLoggingEnabled = not TSM.db.global.debug.chatLoggingEnabled
+		if TSM.db.global.debug.chatLoggingEnabled then
+			TSM:Printf("Logging to chat enabled")
+		else
+			TSM:Printf("Logging to chat disabled")
+		end
+	elseif arg == "db" then
+		TSM.UI.DBViewer.Toggle()
+	elseif arg == "logout" then
+		TSM.AddonTestLogout()
+	elseif arg == "clearitemdb" then
+		TSMItemInfoDB = nil
+		ReloadUI()
+	end
+end
+
+function private.PrintVersions()
+	TSM:Print(L["TSM Version Info:"])
+	TSM:PrintfRaw("TradeSkillMaster |cff99ffff%s|r", TSM:GetVersion())
+	local appHelperVersion = GetAddOnMetadata("TradeSkillMaster_AppHelper", "Version")
+	if appHelperVersion then
+		-- use strmatch so that our sed command doesn't replace this string
+		if strmatch(appHelperVersion, "^@tsm%-project%-version@$") then
+			appHelperVersion = "Dev"
+		end
+		TSM:PrintfRaw("TradeSkillMaster_AppHelper |cff99ffff%s|r", appHelperVersion)
+	end
+end
+
+function private.SaveAppData()
 	if not TSMAPI.AppHelper then
 		return
 	end
@@ -760,112 +869,6 @@ function TSM.OnTSMDBShutdown()
 
 	-- save analytics
 	TSM.Analytics.Save(appDB)
-end
-
-
-
--- ============================================================================
--- General Slash-Command Handlers
--- ============================================================================
-
-function private.TestPriceSource(price)
-	local _, endIndex, link = strfind(price, "(\124c[0-9a-f]+\124H[^\124]+\124h%[[^%]]+%]\124h\124r)")
-	price = link and strtrim(strsub(price, endIndex + 1))
-	if not price or price == "" then
-		TSM:Print(L["Usage: /tsm price <ItemLink> <Price String>"])
-		return
-	end
-
-	local isValid, err = TSMAPI_FOUR.CustomPrice.Validate(price)
-	if not isValid then
-		TSM:Printf(L["%s is not a valid custom price and gave the following error: %s"], "|cff99ffff"..price.."|r", err)
-		return
-	end
-
-	local itemString = TSMAPI_FOUR.Item.ToItemString(link)
-	if not itemString then
-		TSM:Printf(L["%s is a valid custom price but %s is an invalid item."], "|cff99ffff"..price.."|r", link)
-		return
-	end
-
-	local value = TSMAPI_FOUR.CustomPrice.GetValue(price, itemString)
-	if not value then
-		TSM:Printf(L["%s is a valid custom price but did not give a value for %s."], "|cff99ffff"..price.."|r", link)
-		return
-	end
-
-	TSM:Printf(L["A custom price of %s for %s evaluates to %s."], "|cff99ffff"..price.."|r", link, TSM.Money.ToString(value))
-end
-
-function private.ChangeProfile(targetProfile)
-	targetProfile = strtrim(targetProfile)
-	local profiles = TSM.db:GetProfiles()
-	if targetProfile == "" then
-		TSM:Printf(L["No profile specified. Possible profiles: '%s'"], table.concat(profiles, "', '"))
-	else
-		for _, profile in ipairs(profiles) do
-			if profile == targetProfile then
-				if profile ~= TSM.db:GetCurrentProfile() then
-					TSM.db:SetProfile(profile)
-				end
-				TSM:Printf(L["Profile changed to '%s'."], profile)
-				return
-			end
-		end
-		TSM:Printf(L["Could not find profile '%s'. Possible profiles: '%s'"], targetProfile, table.concat(profiles, "', '"))
-	end
-end
-
-function private.DebugSlashCommandHandler(arg)
-	if arg == "fstack" then
-		TSM.UI.ToggleFrameStack()
-	elseif arg == "error" then
-		TSM:ShowManualError()
-	elseif arg == "logging" then
-		TSM.db.global.debug.chatLoggingEnabled = not TSM.db.global.debug.chatLoggingEnabled
-		if TSM.db.global.debug.chatLoggingEnabled then
-			TSM:Printf("Logging to chat enabled")
-		else
-			TSM:Printf("Logging to chat disabled")
-		end
-	elseif arg == "db" then
-		TSM.UI.DBViewer.Toggle()
-	elseif arg == "logout" then
-		TSM.AddonTestLogout()
-		private.OnLogout()
-	elseif arg == "clearitemdb" then
-		TSMItemInfoDB = nil
-		ReloadUI()
-	end
-end
-
-function private.PrintVersions()
-	TSM:Print(L["TSM Version Info:"])
-	TSM:PrintfRaw("TradeSkillMaster |cff99ffff%s|r", TSM:GetVersion())
-	local appHelperVersion = GetAddOnMetadata("TradeSkillMaster_AppHelper", "Version")
-	if appHelperVersion then
-		-- use strmatch so that our sed command doesn't replace this string
-		if strmatch(appHelperVersion, "^@tsm%-project%-version@$") then
-			appHelperVersion = "Dev"
-		end
-		TSM:PrintfRaw("TradeSkillMaster_AppHelper |cff99ffff%s|r", appHelperVersion)
-	end
-end
-
-function private.OnLogout()
-	local originalProfile = TSM.db:GetCurrentProfile()
-	-- erroring here would cause the profile to be reset, so use pcall
-	local startTime = debugprofilestop()
-	local success, errMsg = pcall(TSM.OnTSMDBShutdown)
-	local timeTaken = debugprofilestop() - startTime
-	if timeTaken > LOGOUT_TIME_WARNING_THRESHOLD_MS then
-		TSM:LOG_WARN("OnTSMDBShutdown took %0.2fms", timeTaken)
-	end
-	if not success then
-		TSM:LOG_ERR("OnTSMDBShutdown hit an error: %s", tostring(errMsg))
-	end
-	-- ensure we're back on the correct profile
-	TSM.db:SetProfile(originalProfile)
 end
 
 

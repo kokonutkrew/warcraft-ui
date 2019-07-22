@@ -1,24 +1,18 @@
-tag a1c89957ebc73f4d29cb9fc975ba2a329dfa6a07 8.0-8-release
+tag 8993431dc1dd464ef0413fd774afa57e9ad9f974 8.1-1-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Thu Dec 6 17:12:04 2018 +0100
+Date:	Fri Jan 25 01:59:36 2019 +0100
 
-Tagging as 8.0-8-release
+Tagging as 8.1-1-release
 
-commit 31fce3537cbe3937fc698bdd4aae47e8d2c82e58
+commit e39ee9da5ee90af306ae677fc1a0f351dfd20338
 Author: Hizuro <hizuro@gmx.net>
-Date:   Thu Dec 6 15:18:39 2018 +0100
+Date:   Fri Jan 25 01:58:26 2019 +0100
 
-    added option to toggle visibility of elements anchored to the dummy frame; added option to toggle the visibility of the dummy background
+    update toc file
 
-commit 78dc451d3c2129f0d7c09cd4be145e77533b471a
+commit 52b671898dce851e87659d2970be2f0b112f9b08
 Author: Hizuro <hizuro@gmx.net>
-Date:   Thu Nov 8 16:19:42 2018 +0100
+Date:   Fri Jan 25 01:57:20 2019 +0100
 
-    update cardinal points; hide in instances if GetPlayerFacing returns nil
-
-commit f9fd64301e4d123e5bb2f8051dadae113b8dfbfc
-Author: Hizuro <hizuro@gmx.net>
-Date:   Wed Oct 31 22:20:25 2018 +0100
-
-    added missing playerDot-black.tga file
+    some minor changes
 

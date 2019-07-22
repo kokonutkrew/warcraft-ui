@@ -1,26 +1,15 @@
 
-sArenaDB = {
+sArena3DB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoantotems - Stormrage"] = "Default",
-		["Wealthgaming - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanspy - Emerald Dream"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
-		["Samoanrelic - Stormrage"] = "Default",
-		["Samoanstrap - Tichondrius"] = "Default",
-		["Kakattack - Stormrage"] = "Default",
-		["Samoansage - Tichondrius"] = "Default",
-		["Samoansavage - Stormrage"] = "Default",
+		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-		},
-		["KokonutKrew"] = {
 		},
 	},
 }

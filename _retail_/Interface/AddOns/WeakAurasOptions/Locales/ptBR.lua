@@ -7,8 +7,6 @@ local L = WeakAuras.L
 -- WeakAuras/Options
 	--[[Translation missing --]]
 	L[" by "] = " by "
-	--[[Translation missing --]]
-	L[" Configuration"] = " Configuration"
 	L["-- Do not remove this comment, it is part of this trigger: "] = "-- Não remova este comentário, ele é parte deste gatilho:"
 	--[[Translation missing --]]
 	L[" to version "] = " to version "
@@ -18,6 +16,8 @@ local L = WeakAuras.L
 	L["%i Matches"] = "%i resultados"
 	L["%s Color"] = "%s Cor"
 	L["%s total auras"] = "%s auras totais"
+	--[[Translation missing --]]
+	L["|cFFFF0000Duplicate Keys Found!|nPlease change the keys of the following options!|r"] = "|cFFFF0000Duplicate Keys Found!|nPlease change the keys of the following options!|r"
 	L["1 Match"] = "1 resultado"
 	L["1. Text"] = "1. Texto"
 	L["1. Text Settings"] = "1. Configurações do texto"
@@ -257,6 +257,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Done"] = "Done"
 	--[[Translation missing --]]
+	L["Don't skip this Version"] = "Don't skip this Version"
+	--[[Translation missing --]]
 	L["Down"] = "Down"
 	--[[Translation missing --]]
 	L["Drag to move"] = "Drag to move"
@@ -279,6 +281,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Dynamic information from Trigger %i"] = "Dynamic information from Trigger %i"
 	--[[Translation missing --]]
 	L["Dynamic text tooltip"] = "Dynamic text tooltip"
+	--[[Translation missing --]]
+	L["Enable"] = "Enable"
 	L["Enabled"] = "Habilitado"
 	--[[Translation missing --]]
 	L["End Angle"] = "End Angle"
@@ -364,6 +368,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Group (verb)"] = "Group (verb)"
 	--[[Translation missing --]]
 	L["Group aura count description"] = "Group aura count description"
+	--[[Translation missing --]]
+	L["Group contains updates from Wago"] = "Group contains updates from Wago"
 	L["Group Member Count"] = "Contagem dos membros do grupo"
 	--[[Translation missing --]]
 	L["Group Role"] = "Group Role"
@@ -406,6 +412,10 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["If"] = "If"
 	--[[Translation missing --]]
+	L["If checked, then this separator will include text. Otherwise, it will be just a horizontal line."] = "If checked, then this separator will include text. Otherwise, it will be just a horizontal line."
+	--[[Translation missing --]]
+	L["If checked, then this space will span across multiple lines."] = "If checked, then this space will span across multiple lines."
+	--[[Translation missing --]]
 	L["If this option is enabled, you are no longer able to import auras."] = "If this option is enabled, you are no longer able to import auras."
 	--[[Translation missing --]]
 	L["If Trigger %s"] = "If Trigger %s"
@@ -419,8 +429,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Ignore Self"] = "Ignore Self"
 	--[[Translation missing --]]
 	L["Ignore self"] = "Ignore self"
-	--[[Translation missing --]]
-	L["Ignore this Update"] = "Ignore this Update"
 	L["Ignored"] = "Ignorado"
 	L["Import"] = "Importar"
 	L["Import a display from an encoded string"] = "Importar um display de um string codificado"
@@ -448,6 +456,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Left HUD position"] = "Left HUD position"
 	L["Left Text"] = "Texto à esquerda"
+	--[[Translation missing --]]
+	L["Legacy Aura Trigger"] = "Legacy Aura Trigger"
 	--[[Translation missing --]]
 	L["Length"] = "Length"
 	--[[Translation missing --]]
@@ -526,10 +536,12 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Only match auras cast by people other than the player"] = "Only match auras cast by people other than the player"
 	--[[Translation missing --]]
-	L["Only match auras cast by the player"] = "Only match auras cast by the player"
-	L["Operator"] = "Operador"
+	L["Only match auras cast by people other than the player or his pet"] = "Only match auras cast by people other than the player or his pet"
 	--[[Translation missing --]]
-	L["Option #"] = "Option #"
+	L["Only match auras cast by the player"] = "Only match auras cast by the player"
+	--[[Translation missing --]]
+	L["Only match auras cast by the player or his pet"] = "Only match auras cast by the player or his pet"
+	L["Operator"] = "Operador"
 	--[[Translation missing --]]
 	L["Option #%i"] = "Option #%i"
 	--[[Translation missing --]]
@@ -651,6 +663,12 @@ WeakAuras → Opções → Opções ]=]
 	L["Select the auras you always want to be listed first"] = "Select the auras you always want to be listed first"
 	L["Send To"] = "Enviar para"
 	--[[Translation missing --]]
+	L["Separator"] = "Separator"
+	--[[Translation missing --]]
+	L["Separator Text"] = "Separator Text"
+	--[[Translation missing --]]
+	L["Separator text"] = "Separator text"
+	--[[Translation missing --]]
 	L["Set Parent to Anchor"] = "Set Parent to Anchor"
 	--[[Translation missing --]]
 	L["Set tooltip description"] = "Set tooltip description"
@@ -688,6 +706,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Simple"] = "Simple"
 	L["Size"] = "Tamanho"
+	--[[Translation missing --]]
+	L["Skip this Version"] = "Skip this Version"
 	--[[Translation missing --]]
 	L["Slant Amount"] = "Slant Amount"
 	--[[Translation missing --]]
@@ -746,8 +766,6 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Sticky Duration"] = "Sticky Duration"
 	--[[Translation missing --]]
-	L["Stop ignoring this Update"] = "Stop ignoring this Update"
-	--[[Translation missing --]]
 	L["Stop ignoring Updates"] = "Stop ignoring Updates"
 	--[[Translation missing --]]
 	L["Stop Sound"] = "Stop Sound"
@@ -777,6 +795,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Then "] = "Then "
 	--[[Translation missing --]]
 	L["This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."] = "This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."
+	--[[Translation missing --]]
+	L["This aura has legacy aura trigger(s). Convert them to the new system to benefit from enhanced performance and features"] = "This aura has legacy aura trigger(s). Convert them to the new system to benefit from enhanced performance and features"
 	--[[Translation missing --]]
 	L["This display is currently loaded"] = "This display is currently loaded"
 	--[[Translation missing --]]
@@ -848,6 +868,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Update Custom Text On..."] = "Update Custom Text On..."
 	--[[Translation missing --]]
+	L["Update in Group"] = "Update in Group"
+	--[[Translation missing --]]
 	L["Update this Aura"] = "Update this Aura"
 	--[[Translation missing --]]
 	L["Use Full Scan (High CPU)"] = "Use Full Scan (High CPU)"
@@ -869,8 +891,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Values are in normalized rgba format."] = "Values are in normalized rgba format."
 	--[[Translation missing --]]
 	L["Values:"] = "Values:"
-	--[[Translation missing --]]
-	L["Variable Size"] = "Variable Size"
 	--[[Translation missing --]]
 	L["Version: "] = "Version: "
 	--[[Translation missing --]]

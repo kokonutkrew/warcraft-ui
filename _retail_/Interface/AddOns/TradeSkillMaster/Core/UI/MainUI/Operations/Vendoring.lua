@@ -29,6 +29,7 @@ end
 -- ============================================================================
 
 function private.GetVendoringOperationSettings(operationName)
+	TSM.UI.AnalyticsRecordPathChange("main", "operations", "vendoring")
 	private.currentOperationName = operationName
 
 	local operation = TSM.Operations.GetSettings("Vendoring", private.currentOperationName)
@@ -146,54 +147,62 @@ function private.GetVendoringOperationSettings(operationName)
 			:AddChild(TSM.MainUI.Operations.CreateLinkedSettingLine("vsMarketValue", L["Market Value"], not operation.enableSell))
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "marketValueFrame")
 				:SetLayout("HORIZONTAL")
-				:SetStyle("height", 32)
+				:SetStyle("height", 26)
 				:SetStyle("margin.bottom", 16)
 				:AddChild(TSMAPI_FOUR.UI.NewElement("Input", "marketValueInput")
 					:SetStyle("background", "#1ae2e2e2")
 					:SetStyle("textColor", not operation.enableSell and "#424242" or "#e2e2e2")
-					:SetStyle("height", 32)
+					:SetStyle("height", 26)
 					:SetSettingInfo(operation, "vsMarketValue", TSM.MainUI.Operations.CheckCustomPrice)
 					:SetDisabled(TSM.Operations.HasRelationship("Vendoring", private.currentOperationName, "vsMarketValue") or not operation.enableSell)
+					:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMarketValue)) or TSM.Money.ToString(operation.vsMarketValue) or operation.vsMarketValue)
+					:SetScript("OnEnterPressed", private.MarketValueOnEnterPressed)
 				)
 			)
 			:AddChild(TSM.MainUI.Operations.CreateLinkedSettingLine("vsMaxMarketValue", L["Maximum Market Value (Enter '0c' to disable)"], not operation.enableSell))
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "vsMaxMarketValueFrame")
 				:SetLayout("HORIZONTAL")
-				:SetStyle("height", 32)
+				:SetStyle("height", 26)
 				:SetStyle("margin.bottom", 16)
 				:AddChild(TSMAPI_FOUR.UI.NewElement("Input", "vsMaxMarketValueInput")
 					:SetStyle("background", "#1ae2e2e2")
 					:SetStyle("textColor", not operation.enableSell and "#424242" or "#e2e2e2")
-					:SetStyle("height", 32)
+					:SetStyle("height", 26)
 					:SetSettingInfo(operation, "vsMaxMarketValue", TSM.MainUI.Operations.CheckCustomPrice)
 					:SetDisabled(TSM.Operations.HasRelationship("Vendoring", private.currentOperationName, "vsMaxMarketValue") or not operation.enableSell)
+					:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMaxMarketValue)) or TSM.Money.ToString(operation.vsMaxMarketValue) or operation.vsMaxMarketValue)
+					:SetScript("OnEnterPressed", private.MaxMarketValueOnEnterPressed)
 				)
 			)
 			:AddChild(TSM.MainUI.Operations.CreateLinkedSettingLine("vsDestroyValue", L["Destroy Value"], not operation.enableSell))
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "vsDestroyValueFrame")
 				:SetLayout("HORIZONTAL")
-				:SetStyle("height", 32)
+				:SetStyle("height", 26)
 				:SetStyle("margin.bottom", 16)
 				:AddChild(TSMAPI_FOUR.UI.NewElement("Input", "vsDestroyValueInput")
 					:SetStyle("background", "#1ae2e2e2")
 					:SetStyle("textColor", not operation.enableSell and "#424242" or "#e2e2e2")
-					:SetStyle("height", 32)
+					:SetStyle("height", 26)
 					:SetSettingInfo(operation, "vsDestroyValue", TSM.MainUI.Operations.CheckCustomPrice)
 					:SetDisabled(TSM.Operations.HasRelationship("Vendoring", private.currentOperationName, "vsDestroyValue") or not operation.enableSell)
+					:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsDestroyValue)) or TSM.Money.ToString(operation.vsDestroyValue) or operation.vsDestroyValue)
+					:SetScript("OnEnterPressed", private.DestroyValueOnEnterPressed)
 				)
 			)
 			:AddChild(TSM.MainUI.Operations.CreateLinkedSettingLine("vsMaxDestroyValue", L["Maximum Destroy Value (Enter '0c' to disable)"], not operation.enableSell))
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "vsMaxDestroyValueFrame")
 				:SetLayout("HORIZONTAL")
-				:SetStyle("height", 32)
+				:SetStyle("height", 26)
 				:SetStyle("margin.bottom", 16)
 				:AddChild(TSMAPI_FOUR.UI.NewElement("Input", "vsMaxDestroyValueInput")
 					:SetStyle("background", "#1ae2e2e2")
 					:SetStyle("textColor", not operation.enableSell and "#424242" or "#e2e2e2")
-					:SetStyle("height", 32)
+					:SetStyle("height", 26)
 					:SetDisabled(not operation.enableSell)
 					:SetSettingInfo(operation, "vsMaxDestroyValue", TSM.MainUI.Operations.CheckCustomPrice)
 					:SetDisabled(TSM.Operations.HasRelationship("Vendoring", private.currentOperationName, "vsMaxDestroyValue") or not operation.enableSell)
+					:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMaxDestroyValue)) or TSM.Money.ToString(operation.vsMaxDestroyValue) or operation.vsMaxDestroyValue)
+					:SetScript("OnEnterPressed", private.MaxDestroyValueOnEnterPressed)
 				)
 			)
 			:AddChild(TSM.MainUI.Operations.CreateLinkedSettingLine("sellSoulbound", L["Sell soulbound items?"], not operation.enableSell)
@@ -310,4 +319,52 @@ function private.EnableSellingToggleOnValueChanged(toggle, value)
 		:SetDisabled(not value)
 
 	settingsFrame:Draw()
+end
+
+function private.MarketValueOnEnterPressed(input)
+	local text = input:GetText()
+	if not TSM.MainUI.Operations.CheckCustomPrice(text) then
+		local operation = TSM.Operations.GetSettings("Vendoring", private.currentOperationName)
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMarketValue)) or TSM.Money.ToString(operation.vsMarketValue) or operation.vsMarketValue)
+			:Draw()
+	else
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(text)) or TSM.Money.ToString(text) or text)
+			:Draw()
+	end
+end
+
+function private.MaxMarketValueOnEnterPressed(input)
+	local text = input:GetText()
+	if not TSM.MainUI.Operations.CheckCustomPrice(text) then
+		local operation = TSM.Operations.GetSettings("Vendoring", private.currentOperationName)
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMaxMarketValue)) or TSM.Money.ToString(operation.vsMaxMarketValue) or operation.vsMaxMarketValue)
+			:Draw()
+	else
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(text)) or TSM.Money.ToString(text) or text)
+			:Draw()
+	end
+end
+
+function private.DestroyValueOnEnterPressed(input)
+	local text = input:GetText()
+	if not TSM.MainUI.Operations.CheckCustomPrice(text) then
+		local operation = TSM.Operations.GetSettings("Vendoring", private.currentOperationName)
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsDestroyValue)) or TSM.Money.ToString(operation.vsDestroyValue) or operation.vsDestroyValue)
+			:Draw()
+	else
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(text)) or TSM.Money.ToString(text) or text)
+			:Draw()
+	end
+end
+
+function private.MaxDestroyValueOnEnterPressed(input)
+	local text = input:GetText()
+	if not TSM.MainUI.Operations.CheckCustomPrice(text) then
+		local operation = TSM.Operations.GetSettings("Vendoring", private.currentOperationName)
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(operation.vsMaxDestroyValue)) or TSM.Money.ToString(operation.vsMaxDestroyValue) or operation.vsMaxDestroyValue)
+			:Draw()
+	else
+		input:SetText(TSM.Money.ToString(TSM.Money.FromString(text)) or TSM.Money.ToString(text) or text)
+			:Draw()
+	end
 end

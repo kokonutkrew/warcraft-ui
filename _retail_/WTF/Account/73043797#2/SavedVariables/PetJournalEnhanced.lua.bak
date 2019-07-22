@@ -1,0 +1,12 @@
+
+PetJournalEnhancedDB = {
+	["namespaces"] = {
+		["Sorting"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Tygrrlilly - Stormrage"] = "Default",
+		["Tygrlilly - Tichondrius"] = "Default",
+	},
+}

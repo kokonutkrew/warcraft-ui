@@ -1,0 +1,101 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["auras"] = {
+		},
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 6917,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "MAGE",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "DAMAGER",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 6917,
+				["damagespells"] = {
+					["Frost Nova"] = {
+						["hitmin"] = 6917,
+						["id"] = 122,
+						["min"] = 6917,
+						["hitamount"] = 6917,
+						["hitmax"] = 6917,
+						["hit"] = 1,
+						["school"] = 16,
+						["max"] = 6917,
+						["totalhits"] = 1,
+						["damage"] = 6917,
+					},
+				},
+				["maxhp"] = 17320,
+				["healed"] = {
+				},
+				["power"] = {
+				},
+				["id"] = "Player-11-03FAA0FC",
+				["damagetaken"] = 0,
+				["damagetakenspells"] = {
+				},
+				["deathlog"] = {
+				},
+				["overhealing"] = 0,
+				["name"] = "Shgrshn",
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["healing"] = 0,
+				["auras"] = {
+				},
+				["ccbreaks"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Snapjaw Crocolisk"] = {
+				["players"] = {
+					["Shgrshn"] = {
+						["taken"] = 6917,
+						["done"] = 0,
+						["role"] = "DAMAGER",
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 6917,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 6917,
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["damagetaken"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["starttime"] = 1546813861,
+		["name"] = "Total",
+		["dispells"] = 0,
+		["power"] = {
+		},
+		["mobhdone"] = 0,
+		["last_action"] = 1546813861,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

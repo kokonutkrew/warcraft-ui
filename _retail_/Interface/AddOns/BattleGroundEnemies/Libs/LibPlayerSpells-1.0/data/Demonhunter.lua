@@ -20,13 +20,12 @@ along with LibPlayerSpells-1.0. If not, see <http://www.gnu.org/licenses/>.
 
 local lib = LibStub('LibPlayerSpells-1.0')
 if not lib then return end
-lib:__RegisterSpells("DEMONHUNTER", 80000, 2, {
+lib:__RegisterSpells("DEMONHUNTER", 80100, 2, {
 	COOLDOWN = {
 		 185123, -- Throw Glaive (Havoc)
 		 189110, -- Infernal Strike (Vengeance)
 		 195072, -- Fel Rush (Havoc)
 		 198013, -- Eye Beam (Havoc)
-		 203704, -- Mana Break (Havoc honor talent)
 		 212084, -- Fel Devastation (Vengeance talent)
 		 235903, -- Mana Rift (Havon honor talent)
 		 258925, -- Fel Barrage (Havoc talent)
@@ -36,11 +35,13 @@ lib:__RegisterSpells("DEMONHUNTER", 80000, 2, {
 				[209426] = 'SURVIVAL', -- Darkness (Havoc)
 			},
 			HARMFUL = {
+				203704, -- Mana Break (Havoc honor talent)
 				204598, -- Sigil of Flame (Vengeance)
 				206491, -- Nemesis (Havoc talent)
 				206649, -- Eye of Leotheras (Havoc honor talent)
-				206891, -- Intimidated (Vengeance honor talent)
+				206891, -- Focused Assault (Vengeance honor talent)
 				207744, -- Fiery Brand (Vengeance)
+				207771, -- Fiery Brand (Vengeance talent)
 				258860, -- Dark Slash (Havoc talent)
 				258883, -- Trail of Ruin (Havoc talent)
 				[204490] = 'INTERRUPT', -- Sigil of Silence (Vengeance)
@@ -70,7 +71,7 @@ lib:__RegisterSpells("DEMONHUNTER", 80000, 2, {
 				},
 			},
 			PERSONAL = {
-				188499, -- Blade Dance (Havoc) -- NOTE: somehow the same id as Sigil of Flame
+				188499, -- Blade Dance (Havoc)
 				188501, -- Spectral Sight
 				205629, -- Demonic Trample (Vengeance honor talent)
 				206803, -- Rain from Above (launching) (Havoc honor talent)
@@ -142,14 +143,24 @@ lib:__RegisterSpells("DEMONHUNTER", 80000, 2, {
 		203782, -- Shear
 		264632, -- Fracture (talent)
 	},
-	[204490] = 202137, -- Sigil of Silence (Vengeange)
-	[204598] = 188499, -- Sigil of Flame (Vengeance)
+	[204490] = { -- Sigil of Silence (Vengeange)
+		202137, -- Sigil of Silence
+		207682, -- Sigil of Silence (with Concentrated Sigils talent)
+	},
+	[204598] = { -- Sigil of Flame (Vengeance)
+		204513, -- Sigil of Flame (with Concentrated Sigils talent)
+		204596, -- Sigil of Flame
+	},
 	[204843] = 202138, -- Sigil of Chains (Vengeance talent)
 	[206804] = 206803, -- Rain from Above (gliding) (Havoc honor talent)
-	[206891] = 198589, -- Intimidated (Vengeance honor talent) <- Tormentor
-	[207685] = 207684, -- Sigil of Misery (Vengeance)
+	[206891] = 198589, -- Focused Assault (Vengeance honor talent) <- Tormentor
+	[207685] = { -- Sigil of Misery (Vengeance)
+		202140, -- Sigil of Misery (with Concentrated Sigils talent)
+		207684, -- Sigil of Misery
+	},
 	[207693] = 207697, -- Feast of Souls (Vengeance talent)
 	[207744] = 204021, -- Fiery Brand (Vengeance)
+	[207771] = 207739, -- Fiery Brand <- Burning Alive (Vengeance talent)
 	[208579] = 206491, -- Nemesis (Demons) (Havoc talent)
 	[208605] = 206491, -- Nemesis (Humanoids) (Havoc talent)
 	[208607] = 206491, -- Nemesis (Aberrations) (Havoc talent)
@@ -180,21 +191,10 @@ lib:__RegisterSpells("DEMONHUNTER", 80000, 2, {
 		247454, -- Soul Bomb (talent)
 		263648, -- Soul Barrier (talent)
 	},
-	[204490] = { -- Sigil of Silence (Vengeange)
-		202137, -- Sigil of Silence
-		207682, -- Sigil of Silence (with Concentrated Sigils talent)
-	},
-	[204598] = { -- Sigil of Flame (Vengeance)
-		204513, -- Sigil of Flame (with Concentrated Sigils talent)
-		204596, -- Sigil of Flame
-	},
 	[205630] = 208173, -- Illidan's Grasp (Vengeance honor talent) -> Illidan's Grasp: Throw
-	[206891] = 207029, -- Intimidated (Vengeance honor talent) <- Tormentor
-	[207685] = { -- Sigil of Misery (Vengeance)
-		202140, -- Sigil of Misery (with Concentrated Sigils talent)
-		207684, -- Sigil of Misery
-	},
+	[206891] = 207029, -- Focused Assault (Vengeance honor talent) -> Tormentor
 	[207693] = 228477, -- Feast of Souls (Vengeance talent) -> Soul Cleave
+	[207771] = 204021, -- Fiery Brand (Vengeance talent)
 	[208628] = 195072, -- Momentum (Havoc talent) -> Fel Rush
 	[208796] = 203720, -- Jagged Spikes (Vengeance honor talent) -> Demon Spikes
 	[210003] = 6603, -- Razor Spikes (Vengeance talent) -> Auto Attack

@@ -1,0 +1,18 @@
+WoWPro: disabled
+Carbonite: enabled
+WoWPro_Achievements: disabled
+WoWPro_Dailies: disabled
+WowPro_Profession: disabled
+WoWPro_Leveling: disabled
+WoWPro_WorldEvents: disabled
+jamba: enabled
+AAP-Core: enabled
+AAP-Vanilla: enabled
+AAP-TBC-WotLK: enabled
+AAP-Cata-MoP: enabled
+AAP-WoD: enabled
+AAP-Legion: enabled
+AAP-BfA: enabled
+EMA: disabled
+Azeroth Auto Pilot: enabled
+LegionInvasionTimer_Options: enabled

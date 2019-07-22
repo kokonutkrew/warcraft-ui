@@ -48,6 +48,11 @@ local function changes(property, regionType)
     };
   elseif WeakAuras.regionTypes[regionType].default[property] == nil then
     return nil;
+  elseif property == "cooldownSwipe" then
+    return {
+      value = true,
+      property = "cooldownSwipe",
+    };
   elseif property == "alpha" then
     return {
       value = 0.5,
@@ -84,13 +89,21 @@ local checks = {
     variable = "insufficientResources",
     value = 1,
   },
-  buffed = {
+  buffedAuraFound = {
+    variable = "show",
+    value = 1,
+  },
+  buffedAuraAlways = {
     variable = "buffed",
     value = 1,
   },
-  buffedFalse = {
+  buffedFalseAuraAlways = {
     variable = "buffed",
     value = 0,
+  },
+  duration = {
+    variable = "show",
+    value = 1,
   },
   onCooldown = {
     variable = "onCooldown",
@@ -136,7 +149,7 @@ local function buildCondition(trigger, check, properties)
 end
 
 local function missingBuffGreyed(conditions, trigger, regionType)
-  tinsert(conditions, buildCondition(trigger, checks.buffedFalse, {changes("grey", regionType)}));
+  tinsert(conditions, buildCondition(trigger, checks.buffedFalseAuraAlways, {changes("grey", regionType)}));
 end
 
 local function hasTargetAlpha(conditions, regionType)
@@ -152,7 +165,11 @@ local function insufficientResourcesBlue(conditions, trigger, regionType)
 end
 
 local function hasChargesGrey(conditions, trigger, regionType)
-  tinsert(conditions, buildCondition(trigger, checks.charges, {changes("grey", regionType)}));
+  if regionType == "icon" then
+    tinsert(conditions, buildCondition(trigger, checks.charges, {changes("cooldownSwipe", regionType)}));
+  else
+    tinsert(conditions, buildCondition(trigger, checks.charges, {changes("grey", regionType)}));
+  end
 end
 
 local function isOnCdGrey(conditions, trigger, regionType)
@@ -161,11 +178,31 @@ end
 
 local function isBuffedGlow(conditions, trigger, regionType)
   if regionType == "icon" then
-    tinsert(conditions, buildCondition(trigger, checks.buffed, {changes("inverse", regionType), changes("glow", regionType), changes("white", regionType)}));
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraFound, {changes("inverse", regionType), changes("glow", regionType), changes("white", regionType)}));
   elseif regionType == "aurabar" or regionType == "progresstexture" then
-    tinsert(conditions, buildCondition(trigger, checks.buffed, {changes("inverse", regionType), changes("yellow", regionType)}));
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraFound, {changes("inverse", regionType), changes("yellow", regionType)}));
   else
-    tinsert(conditions, buildCondition(trigger, checks.buffed, {changes("yellow", regionType)}));
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraFound, {changes("yellow", regionType)}));
+  end
+end
+
+local function isDurationGlow(conditions, trigger, regionType)
+  if regionType == "icon" then
+    tinsert(conditions, buildCondition(trigger, checks.duration, {changes("inverse", regionType), changes("glow", regionType), changes("white", regionType)}));
+  elseif regionType == "aurabar" or regionType == "progresstexture" then
+    tinsert(conditions, buildCondition(trigger, checks.duration, {changes("inverse", regionType), changes("yellow", regionType)}));
+  else
+    tinsert(conditions, buildCondition(trigger, checks.duration, {changes("yellow", regionType)}));
+  end
+end
+
+local function isBuffedGlowAuraAlways(conditions, trigger, regionType)
+  if regionType == "icon" then
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraAlways, {changes("inverse", regionType), changes("glow", regionType), changes("white", regionType)}));
+  elseif regionType == "aurabar" or regionType == "progresstexture" then
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraAlways, {changes("inverse", regionType), changes("yellow", regionType)}));
+  else
+    tinsert(conditions, buildCondition(trigger, checks.buffedAuraAlways, {changes("yellow", regionType)}));
   end
 end
 
@@ -216,8 +253,19 @@ local function createBuffTrigger(triggers, position, item, buffShowOn, isBuff)
       unitExists = false,
     }
   };
+
+  if triggers[position].trigger.unit == "multi" and buffShowOn == "showOnActive"  then
+    local trigger = triggers[position].trigger
+    trigger.useGroup_count = true
+    trigger.group_countOperator =  ">="
+    trigger.group_count = "1"
+  end
+
   if (item.spellIds) then
-    WeakAuras.DeepCopy(item.spellIds, triggers[position].trigger.spellIds);
+    triggers[position].trigger.auranames = {}
+    for index, spell in ipairs(item.spellIds) do
+      triggers[position].trigger.auranames[index] = tostring(spell)
+    end
   end
   if (item.fullscan) then
     triggers[position].trigger.use_spellId = true;
@@ -230,6 +278,22 @@ local function createBuffTrigger(triggers, position, item, buffShowOn, isBuff)
   if (item.unit == "multi") then
     triggers[position].trigger.spellId = item.buffId or item.spell;
   end
+end
+
+local function createDurationTrigger(triggers, position, item)
+  triggers[position] = {
+    trigger = {
+      type = "event",
+      event = "Combat Log",
+      subeventSuffix = "_CAST_SUCCESS",
+      use_sourceUnit = true,
+      sourceUnit = item.unit or "player",
+      use_spellId = true,
+      spellId = tostring(item.spell),
+      unevent = "timed",
+      duration = tostring(item.duration),
+    }
+  };
 end
 
 local function createTotemTrigger(triggers, position, item)
@@ -324,6 +388,11 @@ local function createOverlayGlowTrigger(triggers, position, item)
       spellName = item.spell,
     }
   };
+end
+
+local function createAbilityAndDurationTrigger(triggers, item)
+  createDurationTrigger(triggers, 1, item);
+  createAbilityTrigger(triggers, 2, item, "showAlways");
 end
 
 local function createAbilityAndBuffTrigger(triggers, item)
@@ -425,7 +494,7 @@ local function subTypesFor(item, regionType)
       tinsert(types, {
         icon = icon.charges,
         title = L["Charge Tracking"],
-        description = L["Always shows the aura, turns greys on zero charges, blue on insufficient resources."],
+        description = L["Always shows the aura, turns blue on insufficient resources."],
         createTriggers = function(triggers, item)
           createAbilityTrigger(triggers, 1, item, "showAlways");
         end,
@@ -433,8 +502,22 @@ local function subTypesFor(item, regionType)
           insufficientResourcesBlue(conditions, 1, regionType);
           hasChargesGrey(conditions, 1, regionType);
         end,
+        data = { cooldownSwipe = false, cooldownEdge = true },
       });
-      if (item.buff) then
+      if (item.duration) then
+        tinsert(types, {
+          icon = icon.glow,
+          title = L["Charge and Duration Tracking"],
+          description = L["Tracks the charge and the duration of spell, highlight while the spell is active, blue on insufficient resources."],
+          createTriggers = createAbilityAndDurationTrigger,
+          createConditions = function(conditions, item, regionType)
+            insufficientResourcesBlue(conditions, 2, regionType);
+            hasChargesGrey(conditions, 2, regionType);
+            isDurationGlow(conditions, 1, regionType);
+          end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
+        });
+      elseif (item.buff) then
         tinsert(types, {
           icon = icon.glow,
           title = L["Charge and Buff Tracking"],
@@ -445,6 +528,7 @@ local function subTypesFor(item, regionType)
             hasChargesGrey(conditions, 2, regionType);
             isBuffedGlow(conditions, 1, regionType);
           end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
         });
       elseif(item.debuff) then
         tinsert(types, {
@@ -457,12 +541,13 @@ local function subTypesFor(item, regionType)
             hasChargesGrey(conditions, 2, regionType);
             isBuffedGlow(conditions, 1, regionType);
           end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
         })
       elseif(item.requiresTarget) then
         tinsert(types,  {
           icon = icon.target,
           title = L["Show Charges with Range Tracking"],
-          description = L["Always shows the aura, turns grey when on zero charges, red when out of range, blue on insufficient resources."],
+          description = L["Always shows the aura, turns red when out of range, blue on insufficient resources."],
           genericShowOn = "showAlways",
           createTriggers = function(triggers, item)
             createAbilityTrigger(triggers, 1, item, "showAlways");
@@ -472,6 +557,7 @@ local function subTypesFor(item, regionType)
             hasChargesGrey(conditions, 1, regionType);
             isSpellNotInRangeRed(conditions, 1, regionType);
           end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
         });
         if (item.usable) then
           tinsert(types,  {
@@ -486,6 +572,7 @@ local function subTypesFor(item, regionType)
               hasChargesGrey(conditions, 1, regionType);
               isSpellNotInRangeRed(conditions, 1, regionType);
             end,
+            data = { cooldownSwipe = false, cooldownEdge = true },
           });
         end
         if (item.overlayGlow) then
@@ -500,13 +587,14 @@ local function subTypesFor(item, regionType)
               isSpellNotInRangeRed(conditions, 1, regionType);
               overlayGlow(conditions, 2, regionType);
             end,
+            data = { cooldownSwipe = false, cooldownEdge = true },
           });
         end
       elseif(item.totem) then
         tinsert(types, {
           icon = icon.charges,
           title = L["Show Totem and Charge Information"],
-          description = L["Always shows the aura, turns grey when on zero charges, highlight when active, blue on insufficient resources."],
+          description = L["Always shows the aura, highlight when active, turns blue on insufficient resources."],
           createTriggers = function(triggers, item)
             createTotemTrigger(triggers, 1, item);
             createAbilityTrigger(triggers, 2, item, "showAlways");
@@ -516,12 +604,13 @@ local function subTypesFor(item, regionType)
             hasChargesGrey(conditions, 2, regionType);
             totemActiveGlow(conditions, 1, regionType);
           end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
         });
       elseif(item.usable) then
         tinsert(types, {
           icon = icon.charges,
           title = L["Show Charges and Check Usable"],
-          description = L["Always shows the aura, turns grey when on zero charges, blue when not usable."],
+          description = L["Always shows the aura, turns blue when not usable."],
           createTriggers = function(triggers, item)
             createAbilityTrigger(triggers, 1, item, "showAlways");
           end,
@@ -529,6 +618,7 @@ local function subTypesFor(item, regionType)
             isNotUsableBlue(conditions, 1, regionType);
             hasChargesGrey(conditions, 1, regionType);
           end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
         });
         if (item.overlayGlow) then
           tinsert(types,  {
@@ -541,6 +631,7 @@ local function subTypesFor(item, regionType)
               hasChargesGrey(conditions, 1, regionType);
               overlayGlow(conditions, 2, regionType);
             end,
+            data = { cooldownSwipe = false, cooldownEdge = true },
           });
         end
       end
@@ -548,7 +639,7 @@ local function subTypesFor(item, regionType)
       tinsert(types, {
         icon = icon.cd2,
         title = L["Cooldown Tracking"],
-        description = L["Always shows the aura, turns grey when on cooldown, blue when unusable."],
+        description = L["Always shows the aura, turns blue when not usable."],
         createTriggers = function(triggers, item)
           createAbilityTrigger(triggers, 1, item, "showAlways");
         end,
@@ -557,7 +648,47 @@ local function subTypesFor(item, regionType)
           isOnCdGrey(conditions, 1, regionType);
         end,
       });
-      if (item.buff) then
+      if (item.duration) then
+        tinsert(types, {
+          icon = icon.glow,
+          title = L["Show Cooldown and Duration"],
+          description = L["Highlight while spell is active."],
+          createTriggers = createAbilityAndDurationTrigger,
+          createConditions = function(conditions, item, regionType)
+            insufficientResourcesBlue(conditions, 2, regionType);
+            isOnCdGrey(conditions, 2, regionType);
+            isDurationGlow(conditions, 1, regionType);
+          end,
+          data = { cooldownSwipe = false, cooldownEdge = true },
+        });
+        if (item.usable) then
+          tinsert(types, {
+            icon = icon.glow,
+            title = L["Show Cooldown and Duration and Check Usable"],
+            description = L["Highlight while active."],
+            createTriggers = createAbilityAndDurationTrigger,
+            createConditions = function(conditions, item, regionType)
+              isNotUsableBlue(conditions, 2, regionType);
+              isOnCdGrey(conditions, 2, regionType);
+              isDurationGlow(conditions, 1, regionType);
+            end,
+          });
+        end
+        if (item.requiresTarget) then
+          tinsert(types, {
+            icon = icon.target,
+            title = L["Show Cooldown and Duration and Check for Target"],
+            description = L["Highlight while active, red when out of range."],
+            createTriggers = createAbilityAndDurationTrigger,
+            createConditions = function(conditions, item, regionType)
+              insufficientResourcesBlue(conditions, 2, regionType);
+              isOnCdGrey(conditions, 2, regionType);
+              isSpellNotInRangeRed(conditions, 2, regionType);
+              isDurationGlow(conditions, 1, regionType);
+            end,
+          });
+        end
+      elseif (item.buff) then
         tinsert(types, {
           icon = icon.glow,
           title = L["Show Cooldown and Buff"],
@@ -757,7 +888,7 @@ local function subTypesFor(item, regionType)
         createBuffTrigger(triggers, 1, item, "showAlways", true);
       end,
       createConditions = function(conditions, item, regionType)
-        isBuffedGlow(conditions, 1, regionType);
+        isBuffedGlowAuraAlways(conditions, 1, regionType);
       end,
       data = { inverse = false },
     });
@@ -791,7 +922,7 @@ local function subTypesFor(item, regionType)
         createBuffTrigger(triggers, 1, item, "showAlways", false);
       end,
       createConditions = function(conditions, item, regionType)
-        isBuffedGlow(conditions, 1, regionType);
+        isBuffedGlowAuraAlways(conditions, 1, regionType);
       end,
       data = { inverse = false },
     });

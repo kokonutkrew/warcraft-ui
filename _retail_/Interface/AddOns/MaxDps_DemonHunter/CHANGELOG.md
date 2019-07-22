@@ -1,8 +1,6 @@
 # MaxDps_DemonHunter
 
-## [v8.0.0](https://github.com/kaminaris/MaxDps-DemonHunter/tree/v8.0.0) (2018-09-22)
-[Full Changelog](https://github.com/kaminaris/MaxDps-DemonHunter/compare/v7.3.0...v8.0.0)
+## [v8.1.0](https://github.com/kaminaris/MaxDps-DemonHunter/tree/v8.1.0) (2019-01-27)
+[Full Changelog](https://github.com/kaminaris/MaxDps-DemonHunter/compare/v8.0.0...v8.1.0)
 
-- v8.0.0 - First beta  
-- v8.0.0 - First beta  
-- v8.0.0 - First beta  
+- v8.1.0 - Vengeance from Simcraft  

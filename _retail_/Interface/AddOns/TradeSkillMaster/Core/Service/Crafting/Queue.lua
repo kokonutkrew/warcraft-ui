@@ -10,15 +10,6 @@ local _, TSM = ...
 local Queue = TSM.Crafting:NewPackage("Queue")
 local L = TSM.L
 local private = { db = nil }
-local QUEUE_DB_SCHEMA = {
-	fields = {
-		spellId = "number",
-		num = "number",
-	},
-	fieldAttributes = {
-		spellId = { "unique" },
-	}
-}
 
 
 
@@ -27,7 +18,10 @@ local QUEUE_DB_SCHEMA = {
 -- ============================================================================
 
 function Queue.OnEnable()
-	private.db = TSMAPI_FOUR.Database.New(QUEUE_DB_SCHEMA, "CRAFTING_QUEUE")
+	private.db = TSMAPI_FOUR.Database.NewSchema("CRAFTING_QUEUE")
+		:AddUniqueNumberField("spellId")
+		:AddNumberField("num")
+		:Commit()
 	private.db:SetQueryUpdatesPaused(true)
 	for spellId, data in pairs(TSM.db.factionrealm.internalData.crafts) do
 		Queue.SetNum(spellId, data.queued) -- sanitize / cache the number queued
@@ -152,7 +146,7 @@ end
 
 function private.RestockItem(itemString, operationSettings)
 	local cheapestSpellId, cheapestCost = nil, nil
-	for _, spellId in TSM.Crafting.GetSpellIdsByItem(itemString) do
+	for _, spellId in TSM.Crafting.GetSpellIdsByItem(itemString, TSM.db.global.craftingOptions.ignoreCDCraftCost) do
 		local cost = TSM.Crafting.Cost.GetCraftingCostBySpellId(spellId)
 		if cost and (not cheapestCost or cost < cheapestCost) then
 			cheapestSpellId = spellId

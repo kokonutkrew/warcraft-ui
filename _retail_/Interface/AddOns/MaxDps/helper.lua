@@ -19,6 +19,10 @@ local _Bloodlusts = {_Bloodlust, _TimeWrap, _Heroism, _AncientHysteria, _Netherw
 -- Global functions
 local UnitAura = UnitAura;
 local pairs = pairs;
+local ipairs = ipairs;
+local StringSplit = strsplit;
+local Select = select;
+local TableInsert = tinsert;
 local GetTalentInfo = GetTalentInfo;
 local C_AzeriteEmpoweredItem = C_AzeriteEmpoweredItem;
 local GetSpecialization = GetSpecialization;
@@ -28,6 +32,7 @@ local UnitCastingInfo = UnitCastingInfo;
 local GetTime = GetTime;
 local GetSpellCooldown = GetSpellCooldown;
 local GetSpellInfo = GetSpellInfo;
+local UnitGUID = UnitGUID;
 local GetSpellBaseCooldown = GetSpellBaseCooldown;
 local IsSpellInRange = IsSpellInRange;
 local UnitSpellHaste = UnitSpellHaste;
@@ -304,6 +309,9 @@ function MaxDps:EndCast(target)
 	local c = t * 1000;
 	local gcd = 0;
 	local _, _, _, _, endTime, _, _, _, spellId = UnitCastingInfo(target or 'player');
+	if not spellId then
+		_, _, _, _, endTime, _, _, spellId = UnitChannelInfo(target or 'player');
+	end
 
 	-- we can only check player global cooldown
 	if target == 'player' then
@@ -392,6 +400,7 @@ function MaxDps:CooldownConsolidated(spellId, timeShift)
 	end
 
 	return {
+		duration        = GetSpellBaseCooldown(spellId) / 1000,
 		ready           = remains <= 0,
 		remains         = remains,
 		fullRecharge    = fullRecharge,
@@ -571,7 +580,15 @@ function MaxDps:ThreatCounter()
 	for i, unit in ipairs(self.visibleNameplates) do
 		if UnitThreatSituation('player', unit) ~= nil then
 			count = count + 1;
-			tinsert(units, unit);
+			TableInsert(units, unit);
+		else
+			local npcId = Select(6, StringSplit('-', UnitGUID(unit)));
+			npcId = tonumber(npcId);
+			-- Risen Soul, Tormented Soul, Lost Soul
+			if npcId == 148716 or npcId == 148893 or npcId == 148894 then
+				count = count + 1;
+				TableInsert(units, unit);
+			end
 		end
 	end
 
@@ -595,6 +612,10 @@ function MaxDps:DebuffCounter(spellId, timeShift)
 end
 
 function MaxDps:SmartAoe(itemId)
+	if self.db.global.forceSingle then
+		return 1;
+	end
+
 	local inInstance, instanceType = IsInInstance();
 	local count, units = self:ThreatCounter();
 
@@ -620,6 +641,7 @@ function MaxDps:SmartAoe(itemId)
 		end
 	end
 
+	if WeakAuras then WeakAuras.ScanEvents('MAXDPS_TARGET_COUNT', count); end
 	return count;
 end
 

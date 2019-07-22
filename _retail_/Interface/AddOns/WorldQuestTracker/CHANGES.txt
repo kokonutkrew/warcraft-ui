@@ -1,7 +1,7 @@
-changeset:   346:bbe827635ad0
-tag:         v8.1.0.346
+changeset:   362:50a860389853
+tag:         v8.1.0.362
 user:        Tercioo
-date:        Fri Dec 14 21:31:14 2018 -0200
-summary:     - Another polishing pass, several icons got emphasize.
+date:        Fri Mar 01 17:25:10 2019 -0300
+summary:     - Added accessibility option for an extra icon above the quest location for color blind users.
 
 

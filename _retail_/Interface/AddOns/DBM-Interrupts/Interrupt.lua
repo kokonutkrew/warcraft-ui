@@ -1,5 +1,5 @@
 local mod = DBM:NewMod("Displays the CDs of interrupts to you (and your raid in some configurations).", "DBM-Interrupts")
-mod:SetRevision("Revision 6.12.2015")
+mod:SetRevision("Revision 2.20.2019")
 mod:RegisterEvents("SPELL_CAST_SUCCESS")
 mod:SetZone(DBM_DISABLE_ZONE_DETECTION)
 
@@ -20,15 +20,16 @@ function mod:SPELL_CAST_SUCCESS(args)
         OpticalBlast={    "OptlBlast",  115782,  24},
         Pummel={          "Pummel",     6552,    15},
         SpearHandStrike={ "SHStrike",   116705,  15},
+        Disrupt={         "Disrupt",    183752,  15},
     }
     
     for key, value in pairs(Spells) do
         Name            = Spells[key][1]
-        ID              = Spells[key][2]
+        ID_no_taint     = Spells[key][2]
         Duration        = Spells[key][3]
         _, _, SpellIcon = GetSpellInfo(args.spellId)
 
-        if args.spellId == ID then
+        if args.spellId == ID_no_taint then
             DBM.Bars:CreateBar(Duration, Name..":"..args.sourceName, SpellIcon)
             end
         end

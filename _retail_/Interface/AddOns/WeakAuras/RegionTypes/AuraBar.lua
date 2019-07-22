@@ -370,6 +370,8 @@ local barPrototype = {
       for index, additionalBar in ipairs(self.additionalBars) do
         if (not self.extraTextures[index]) then
           local extraTexture = self:CreateTexture(nil, "ARTWORK");
+          extraTexture:SetSnapToPixelGrid(false)
+          extraTexture:SetTexelSnappingBias(0)
           extraTexture:SetTexture(self:GetStatusBarTexture(), extraTextureWrapMode, extraTextureWrapMode);
           extraTexture:SetDrawLayer("ARTWORK", min(index, 7));
           self.extraTextures[index] = extraTexture;
@@ -627,9 +629,15 @@ local function create(parent)
   local bar = CreateFrame("FRAME", nil, region);
   Mixin(bar, SmoothStatusBarMixin);
   local fg = bar:CreateTexture(nil, "ARTWORK");
+  fg:SetSnapToPixelGrid(false)
+  fg:SetTexelSnappingBias(0)
   local bg = bar:CreateTexture(nil, "ARTWORK");
+  bg:SetSnapToPixelGrid(false)
+  bg:SetTexelSnappingBias(0)
   bg:SetAllPoints();
   local spark = bar:CreateTexture(nil, "ARTWORK");
+  spark:SetSnapToPixelGrid(false)
+  spark:SetTexelSnappingBias(0)
   fg:SetDrawLayer("ARTWORK", 0);
   bg:SetDrawLayer("ARTWORK", -1);
   spark:SetDrawLayer("ARTWORK", 7);
@@ -662,6 +670,8 @@ local function create(parent)
   local iconFrame = CreateFrame("FRAME", nil, region);
   region.iconFrame = iconFrame;
   local icon = iconFrame:CreateTexture(nil, "OVERLAY");
+  icon:SetSnapToPixelGrid(false)
+  icon:SetTexelSnappingBias(0)
   region.icon = icon;
   icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark");
 
@@ -1200,6 +1210,23 @@ local function modify(parent, region, data)
     timer.visible = false;
   end
 
+  -- Icon update function
+  function region:SetIcon(path)
+    -- Set icon options
+    local iconPath = (
+      region.useAuto
+      and path ~= ""
+      and path
+      or data.displayIcon
+      or "Interface\\Icons\\INV_Misc_QuestionMark"
+      );
+    self.icon:SetTexture(iconPath);
+    region.values.icon = "|T"..iconPath..":12:12:0:0:64:64:4:60:4:60|t";
+
+    -- Update text
+    UpdateText(self, data);
+  end
+
   -- Update icon visibility
   if data.icon then
     -- Update icon
@@ -1210,23 +1237,6 @@ local function modify(parent, region, data)
     icon:SetTexCoord(GetTexCoordZoom(texWidth))
     icon:SetDesaturated(data.desaturate);
     icon:SetVertexColor(data.icon_color[1], data.icon_color[2], data.icon_color[3], data.icon_color[4]);
-
-    -- Icon update function
-    function region:SetIcon(path)
-      -- Set icon options
-      local iconPath = (
-        region.useAuto
-        and path ~= ""
-        and path
-        or data.displayIcon
-        or "Interface\\Icons\\INV_Misc_QuestionMark"
-        );
-      self.icon:SetTexture(iconPath);
-      region.values.icon = "|T"..iconPath..":12:12:0:0:64:64:4:60:4:60|t";
-
-      -- Update text
-      UpdateText(self, data);
-    end
 
     -- Update icon visibility
     icon:Show();
@@ -1405,6 +1415,7 @@ local function modify(parent, region, data)
     end
 
     if (data.smoothProgress) then
+      region.bar.targetValue = progress
       region.bar:SetSmoothedValue(progress);
     else
       region.bar:SetValue(progress);
@@ -1424,6 +1435,7 @@ local function modify(parent, region, data)
       progress = 1 - progress;
     end
     if (data.smoothProgress) then
+      region.bar.targetValue = progress
       region.bar:SetSmoothedValue(progress);
     else
       region.bar:SetValue(progress);
@@ -1519,12 +1531,25 @@ local function modify(parent, region, data)
       return;
     end
     region.inverseDirection = inverse;
-    region.bar:SetValue(1 - region.bar:GetValue());
+    if (data.smoothProgress) then
+      if (region.bar.targetValue) then
+        region.bar.targetValue = 1 - region.bar.targetValue
+        region.bar:SetSmoothedValue(region.bar.targetValue);
+      end
+    else
+      region.bar:SetValue(1 - region.bar:GetValue());
+    end
   end
 
   function region:SetOrientation(orientation)
     orient(region, data, orientation);
-    region.bar:SetValue(region.bar:GetValue());
+    if (data.smoothProgress) then
+      if region.bar.targetValue then
+        region.bar:SetSmoothedValue(region.bar.targetValue);
+      end
+    else
+      region.bar:SetValue(region.bar:GetValue());
+    end
   end
 
   function region:SetOverlayColor(id, r, g, b, a)

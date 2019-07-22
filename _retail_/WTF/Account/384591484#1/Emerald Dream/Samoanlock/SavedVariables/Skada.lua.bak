@@ -1,0 +1,193 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["auras"] = {
+		},
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 48746,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "WARLOCK",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "DAMAGER",
+				["time"] = 24,
+				["interrupts"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 48746,
+				["damagespells"] = {
+					["Leeshzinul: Pursuit"] = {
+						["criticalamount"] = 48746,
+						["id"] = 30153,
+						["min"] = 48746,
+						["criticalmax"] = 48746,
+						["critical"] = 1,
+						["criticalmin"] = 48746,
+						["school"] = 1,
+						["totalhits"] = 1,
+						["max"] = 48746,
+						["damage"] = 48746,
+					},
+				},
+				["healed"] = {
+				},
+				["damagetaken"] = 27588,
+				["power"] = {
+				},
+				["id"] = "Player-162-0A0114B2",
+				["maxhp"] = 28320,
+				["deathlog"] = {
+					{
+						["ts"] = 1545605115.578,
+						["amount"] = -5155,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 23165,
+						["spellid"] = 95826,
+					}, -- [1]
+					{
+						["ts"] = 1545605127.576,
+						["amount"] = -4032,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 19996,
+						["spellid"] = 95826,
+					}, -- [2]
+					{
+						["ts"] = 1545605142.507,
+						["amount"] = -4787,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 15209,
+						["spellid"] = 95826,
+					}, -- [3]
+					{
+						["ts"] = 1545605181.932,
+						["amount"] = -4089,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 15987,
+						["spellid"] = 95826,
+					}, -- [4]
+					{
+						["ts"] = 1545605186.795,
+						["amount"] = -5229,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 10758,
+						["spellid"] = 95826,
+					}, -- [5]
+					{
+						["ts"] = 1545605191.287,
+						["amount"] = -4296,
+						["srcname"] = "Grom'gol Grunt",
+						["hp"] = 6462,
+						["spellid"] = 95826,
+					}, -- [6]
+					["pos"] = 7,
+				},
+				["damagetakenspells"] = {
+					["Shoot"] = {
+						["crushing"] = 0,
+						["id"] = 95826,
+						["absorbed"] = 0,
+						["min"] = 4032,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "Shoot",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 5229,
+						["damage"] = 27588,
+					},
+				},
+				["overhealing"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["name"] = "Samoanlock",
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["healing"] = 0,
+				["auras"] = {
+					["Leeshzinul: Pursuit"] = {
+						["uptime"] = 0,
+						["name"] = "Leeshzinul: Pursuit",
+						["active"] = 0,
+						["school"] = 1,
+						["auratype"] = "BUFF",
+						["id"] = 30151,
+					},
+					["Soul Leech"] = {
+						["uptime"] = 0,
+						["name"] = "Soul Leech",
+						["active"] = 0,
+						["school"] = 32,
+						["auratype"] = "BUFF",
+						["id"] = 108366,
+					},
+				},
+				["ccbreaks"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Grom'gol Grunt"] = {
+				["players"] = {
+					["Samoanlock"] = {
+						["taken"] = 0,
+						["done"] = 27588,
+						["role"] = "DAMAGER",
+						["class"] = "WARLOCK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 27588,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Snapjaw Crocolisk"] = {
+				["players"] = {
+					["Samoanlock"] = {
+						["taken"] = 48746,
+						["done"] = 0,
+						["class"] = "WARLOCK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 48746,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+		},
+		["mobtaken"] = 48746,
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["damagetaken"] = 27588,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["starttime"] = 1545601700,
+		["name"] = "Total",
+		["dispells"] = 0,
+		["power"] = {
+		},
+		["mobhdone"] = 0,
+		["last_action"] = 1545601700,
+		["mobdone"] = 27588,
+	},
+}

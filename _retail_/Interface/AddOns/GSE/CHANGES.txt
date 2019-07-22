@@ -1,16 +1,16 @@
-lightweight tag 3e09aaccea45c01775ab84e5ab482e123d9d1ebe 2.4.02
+lightweight tag 8b63660ffe4b380f6920a417a6268f3618d1a308 GSE_2.4.04
 Author:	Timothy Minahan <timothy@minahan.net>
-Date:	Thu Oct 11 08:35:57 2018 +1030
+Date:	Fri Jan 11 08:04:19 2019 +1030
 
-commit 3e09aaccea45c01775ab84e5ab482e123d9d1ebe
+commit 8b63660ffe4b380f6920a417a6268f3618d1a308
 Author: Timothy Minahan <timothy@minahan.net>
-Date:   Thu Oct 11 08:35:57 2018 +1030
+Date:   Fri Jan 11 08:04:19 2019 +1030
 
-    more for #478
+    #493 use a random icon for LDB
 
-commit 7499bb6506d9f27b9847ddba49280786b0710e16
+commit 6fe92052c1863ea6195a01fb4c4e24512ab63d44
 Author: Timothy Minahan <timothy@minahan.net>
-Date:   Thu Oct 11 08:32:59 2018 +1030
+Date:   Fri Jan 11 08:03:48 2019 +1030
 
-    #478 Fix viewer when deleting or creating an icon.
+    #494 typo
 

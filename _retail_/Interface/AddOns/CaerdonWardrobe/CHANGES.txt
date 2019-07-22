@@ -1,10 +1,23 @@
-lightweight tag ff9a2ec65e42521f442a41ff43de75e6a96349d5 v2.1.3
+lightweight tag 49fadf81e6c9054b5359e37a7f05a53d4e10bc88 v2.2.3
 Author:	Caerdon <caerdon@caerdon.games>
-Date:	Sun Oct 21 11:29:16 2018 -0600
+Date:	Sun Mar 10 20:01:02 2019 -0600
 
-commit ff9a2ec65e42521f442a41ff43de75e6a96349d5
+commit 49fadf81e6c9054b5359e37a7f05a53d4e10bc88
 Author: Caerdon <caerdon@caerdon.games>
-Date:   Sun Oct 21 11:29:16 2018 -0600
+Date:   Sun Mar 10 20:01:02 2019 -0600
 
-    Ensure item ID is valid to avoid crashing behavior
+    Fixes for Encounter Journal and loot spec switching
+    
+    When the Encounter Journal hadn't yet been opened, switching loot
+    spec would cause an error.  I fixed this and noticed that when
+    your toon is on auto loot spec, it wasn't correctly reflecting
+    status on Encounter Journal, so I fixed that.
+    
+    I'm seeing some strange behavior where loot that should be valid
+    for a spec is (maybe) misidentified for that spec, but it's not
+    clear to me, yet, if I'm missing something, or if I'm actually
+    tracking it correctly and the game is wrong (seems unlikely).
+    
+    At any rate, I don't think this is a new behavior, so I'm fixing
+    the crash and will go from there as I get more info.
 

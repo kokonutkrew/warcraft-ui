@@ -23,15 +23,25 @@ L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "按下一个快捷键（shift/ctrl/alt）
 --[[ L["API_INVALID_DATABASE"] = ""--]] 
 L["BEST_FOR_DUNGEON"] = "最佳地下城"
 L["BEST_RUN"] = "最高记录"
+--[[Translation missing --]]
+--[[ L["BEST_SCORE"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[您的改动已保存，但您必须重新加载（reload）才能生效。
 
 你需要现在这么做吗？]=]
 --[[Translation missing --]]
 --[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["CHOOSE_HEADLINE_HEADER"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "复制 Raider.IO 人物简介链接"
 L["COPY_RAIDERIO_URL"] = "复制 Raider.IO 链接"
+--[[Translation missing --]]
+--[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CURRENT_SCORE"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS分数"
 --[[Translation missing --]]
@@ -88,6 +98,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "将评分用基础装备等级颜色显�
 --[[Translation missing --]]
 --[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["GENERAL_TOOLTIP_OPTIONS"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_TITLE"] = ""--]] 
@@ -113,6 +125,8 @@ L["KEYSTONE_COMPLETED_15"] = "+15 完成的钥石"
 --[[ L["LEGION_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["LOCKING_PROFILE_FRAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["MAINS_BEST_SCORE_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["MAINS_RAID_PROGRESS"] = ""--]] 
 L["MAINS_SCORE"] = "当前分数"
@@ -142,7 +156,11 @@ L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r使用的数据已经有|cffFF6666%d|r
 --[[ L["PLAYER_PROFILE_TITLE"] = ""--]] 
 L["PREV_SEASON_SUFFIX"] = "（*）"
 --[[Translation missing --]]
+--[[ L["PREVIOUS_SCORE"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["PROFILE_BEST_RUNS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_ABBREVIATION_ULD"] = ""--]] 
 --[[Translation missing --]]
@@ -167,6 +185,24 @@ L["PREV_SEASON_SUFFIX"] = "（*）"
 --[[ L["RAID_BOSS_ABT_8"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ABT_9"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ULD_1"] = ""--]] 
 --[[Translation missing --]]
@@ -202,9 +238,13 @@ L["PREV_SEASON_SUFFIX"] = "（*）"
 --[[Translation missing --]]
 --[[ L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["RAIDERIO_BEST_RUN"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["RAIDERIO_CLIENT_CUSTOMIZATION"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAIDERIO_MP_BASE_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAIDERIO_MP_BEST_SCORE"] = ""--]] 
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 大秘境评分"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO 大秘境评分："
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 大秘境选项"
@@ -215,13 +255,33 @@ L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 大秘境选项"
 L["RELOAD_LATER"] = "我一会儿再重载（Reload）"
 L["RELOAD_NOW"] = "现在重载（Reload）"
 --[[Translation missing --]]
+--[[ L["SEASON_LABEL_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_2"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON_DESC"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["SHOW_CLIENT_GUILD_BEST"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_CLIENT_GUILD_BEST_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON_DESC"] = ""--]] 
 L["SHOW_IN_FRIENDS"] = "显示在好友名单"
 L["SHOW_IN_FRIENDS_DESC"] = "当你鼠标悬停到好友时显示大秘境评分"
 L["SHOW_IN_LFD"] = "在地下城查找器中显示"
@@ -247,9 +307,17 @@ L["SHOW_ON_PLAYER_UNITS_DESC"] = "当你鼠标悬停在玩家单位的时候显�
 --[[Translation missing --]]
 --[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST_DESC"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["SHOW_RAIDERIO_PROFILE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_RAIDERIO_PROFILE_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_SCORE_IN_COMBAT"] = ""--]] 
 --[[Translation missing --]]
@@ -258,6 +326,8 @@ L["TANK"] = "坦克"
 L["TANK_SCORE"] = "坦克评分"
 L["TIMED_10_RUNS"] = "限时通关 10-14 次数"
 L["TIMED_15_RUNS"] = "限时通关 15+ 次数"
+--[[Translation missing --]]
+--[[ L["TIMED_20_RUNS"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["TIMED_5_RUNS"] = ""--]] 
 L["TOOLTIP_CUSTOMIZATION"] = "提示自定义"

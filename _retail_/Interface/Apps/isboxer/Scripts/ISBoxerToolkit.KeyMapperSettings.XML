@@ -181,7 +181,7 @@
         <Set Name="Step 1">
           <Setting xsi:type="MappedKeyExecuteActionSetting" Name="Action_1" ActionType="DoMappedKey" Target="self" KeyMap="ISB42 - Party" RoundRobin="false" ConditionalKey="">Interact with Target - Active Method</Setting>
         </Set>
-        <Setting Name="Hotkey">None</Setting>
+        <Setting Name="Hotkey">164+G</Setting>
         <Setting Name="Hold">TRUE</Setting>
         <Setting Name="Use FTL Modifiers">FALSE</Setting>
         <Setting Name="Manual Load">FALSE</Setting>

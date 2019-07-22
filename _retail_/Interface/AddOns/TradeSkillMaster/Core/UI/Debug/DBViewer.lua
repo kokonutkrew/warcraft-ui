@@ -40,6 +40,13 @@ function DBViewer.OnInitialize()
 	private.dividedContainerContext = CopyTable(DEFAULT_DIVIDED_CONTAINER_CONTEXT)
 end
 
+function DBViewer.OnDisable()
+	-- hide the frame
+	if private.frame then
+		DBViewer.Toggle()
+	end
+end
+
 function DBViewer.Toggle()
 	if not private.frame then
 		private.frame = private.CreateMainFrame()
@@ -58,7 +65,6 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("debug/db_viewer")
 	private.selectedDBName = nil
 	return TSMAPI_FOUR.UI.NewElement("ApplicationFrame", "base")
 		:SetTextureSet("SMALL", "SMALL")

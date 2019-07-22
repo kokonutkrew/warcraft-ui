@@ -87,7 +87,7 @@ end
 -- ============================================================================
 
 function private.GetShoppingFrame()
-	TSM.Analytics.PageView("auction/shopping")
+	TSM.UI.AnalyticsRecordPathChange("auction", "shopping")
 	if not private.hasLastScan then
 		private.contentPath = "selection"
 	end
@@ -116,6 +116,7 @@ function private.GetShoppingContentFrame(viewContainer, path)
 end
 
 function private.GetSelectionFrame()
+	TSM.UI.AnalyticsRecordPathChange("auction", "shopping", "selection")
 	local frame = TSMAPI_FOUR.UI.NewElement("DividedContainer", "selection")
 		:SetStyle("background", "#272727")
 		:SetContextTable(private.dividedContainerContext, DEFAULT_DIVIDED_CONTAINER_CONTEXT)
@@ -167,9 +168,15 @@ function private.GetSelectionFrame()
 			:AddPath("search", true)
 			:AddPath("advanced")
 		)
-	local noGroupSelected = frame:GetElement("groupSelection.groupTree"):IsSelectionCleared(true)
-	frame:GetElement("groupSelection.scanBtn"):SetDisabled(noGroupSelected)
+		:SetScript("OnUpdate", private.SelectionFrameOnUpdate)
+
 	return frame
+end
+
+function private.SelectionFrameOnUpdate(frame)
+	frame:SetScript("OnUpdate", nil)
+	frame:GetBaseElement():SetBottomPadding(nil)
+	frame:GetElement("groupSelection.scanBtn"):SetDisabled(frame:GetElement("groupSelection.groupTree"):IsSelectionCleared(true)):Draw()
 end
 
 function private.GetSelectionContent(viewContainer, path)
@@ -536,6 +543,7 @@ function private.GetSearchesElement(self, button)
 end
 
 function private.GetScanFrame()
+	TSM.UI.AnalyticsRecordPathChange("auction", "shopping", "scan")
 	return TSMAPI_FOUR.UI.NewElement("Frame", "scan")
 		:SetLayout("VERTICAL")
 		:SetStyle("background", "#272727")
@@ -661,6 +669,10 @@ function private.BuyoutBtnOnClick(button)
 end
 
 function private.BuyoutConfirmationShow(context, isBuy)
+	if context.scanFrame:GetBaseElement():IsDialogVisible() then
+		return
+	end
+
 	local record = context.scanFrame:GetElement("auctions"):GetSelectedRecord()
 	local buyout = isBuy and record:GetField("buyout") or record:GetField("requiredBid")
 	local stackSize = record:GetField("stackSize")
@@ -1144,15 +1156,23 @@ function private.PostingFrameOnUpdate(frame)
 		assert(record.itemString)
 		local foundItem = false
 		local backupItemString = nil
-		for _, _, _, itemString in TSMAPI_FOUR.Inventory.BagIterator() do
+		for _, _, _, itemString in TSMAPI_FOUR.Inventory.BagIterator(false, false, false, true) do
 			if itemString == record.itemString then
 				foundItem = true
 			elseif not backupItemString and TSMAPI_FOUR.Item.ToBaseItemString(itemString) == TSMAPI_FOUR.Item.ToBaseItemString(record.itemString) then
 				backupItemString = itemString
 			end
 		end
-		assert(foundItem or backupItemString)
 		private.itemString = foundItem and record.itemString or backupItemString
+
+		if not private.itemString then
+			frame:GetBaseElement():HideDialog()
+			TSM:Printf(L["Failed to post %sx%d as the item no longer exists in your bags."], TSMAPI_FOUR.Item.GetLink(record.itemString), record.stackSize)
+			private.frame:GetElement("scan.bottom.postBtn")
+				:SetDisabled(true)
+				:Draw()
+			return
+		end
 	end
 	local undercut = TSMAPI_FOUR.PlayerInfo.IsPlayer(record.seller, true, true, true) and 0 or 1
 	local bid = floor(record.displayedBid / record.stackSize) - undercut
@@ -1241,6 +1261,10 @@ local function MoreDialogRowIterator(_, prevIndex)
 		return 1, L["Select All Groups"], private.SelectAllBtnOnClick
 	elseif prevIndex == 1 then
 		return 2, L["Deselect All Groups"], private.DeselectAllBtnOnClick
+	elseif prevIndex == 2 then
+		return 3, L["Expand All Groups"], private.ExpandAllBtnOnClick
+	elseif prevIndex == 3 then
+		return 4, L["Collapse All Groups"], private.CollapseAllBtnOnClick
 	end
 end
 function private.MoreBtnOnClick(button)
@@ -1256,6 +1280,18 @@ end
 function private.DeselectAllBtnOnClick(button)
 	local baseFrame = button:GetBaseElement()
 	baseFrame:GetElement("content.shopping.selection.groupSelection.groupTree"):DeselectAll()
+	baseFrame:HideDialog()
+end
+
+function private.ExpandAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.shopping.selection.groupSelection.groupTree"):ExpandAll()
+	baseFrame:HideDialog()
+end
+
+function private.CollapseAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.shopping.selection.groupSelection.groupTree"):CollapseAll()
 	baseFrame:HideDialog()
 end
 
@@ -1409,20 +1445,21 @@ function private.FilterSearchButtonOnClick(button)
 	private.FilterSearchInputOnEnterPressed(button:GetElement("__parent.filterInput"))
 end
 
-function private.StartFilterSearchHelper(viewContainer, filter, isSpecial, itemInfo)
+function private.StartFilterSearchHelper(viewContainer, filter, isGreatDeals, itemInfo)
 	if not TSM.UI.AuctionUI.StartingScan(L["Shopping"]) then
 		return
 	end
 	local originalFilter = filter
-	local mode = private.singleItemSearchType == "crafting" and "CRAFTING" or "NORMAL"
+	local mode = (private.singleItemSearchType == "crafting" and not isGreatDeals) and "CRAFTING" or "NORMAL"
 	filter = TSM.Shopping.FilterSearch.PrepareFilter(strtrim(filter), mode, TSM.db.global.shoppingOptions.pctSource)
 	if not filter or filter == "" then
+		viewContainer:SetPath("scan", true)
 		TSM:Print(L["Invalid search filter"]..": "..originalFilter)
 		return
 	end
 	viewContainer:SetPath("scan", true)
-	local threadId, marketValueFunc = TSM.Shopping.FilterSearch.GetScanContext(isSpecial)
-	private.fsm:ProcessEvent("EV_START_SCAN", threadId, marketValueFunc, NoOp, NoOp, filter, filter, itemInfo)
+	local threadId, marketValueFunc = TSM.Shopping.FilterSearch.GetScanContext(isGreatDeals)
+	private.fsm:ProcessEvent("EV_START_SCAN", threadId, marketValueFunc, NoOp, NoOp, isGreatDeals and L["Great Deals Search"] or filter, filter, itemInfo)
 end
 
 function private.StartGatheringSearchHelper(viewContainer, items, stateCallback, buyCallback, mode)
@@ -1466,9 +1503,6 @@ function private.DisenchantButtonOnClick(button)
 end
 
 function private.ScanBackButtonOnClick(button)
-	local baseFrame = button:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", nil)
-	baseFrame:Draw()
 	button:GetParentElement():GetParentElement():GetParentElement():SetPath("selection", true)
 	private.fsm:ProcessEvent("EV_SCAN_BACK_BUTTON_CLICKED")
 end
@@ -1487,9 +1521,7 @@ end
 
 function private.ScanFrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 38)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(38)
 	private.fsm:ProcessEvent("EV_SCAN_FRAME_SHOWN", frame)
 end
 
@@ -1676,7 +1708,7 @@ end
 
 function private.UpdateDepositCost(frame)
 	local postBag, postSlot = nil, nil
-	for _, bag, slot, itemString in TSMAPI_FOUR.Inventory.BagIterator() do
+	for _, bag, slot, itemString in TSMAPI_FOUR.Inventory.BagIterator(false, false, false, true) do
 		if not postBag and not postSlot and itemString == frame:GetElement("confirmBtn"):GetContext() then
 			postBag = bag
 			postSlot = slot
@@ -1754,7 +1786,7 @@ function private.PostButtonOnClick(button)
 	end
 
 	local postBag, postSlot = nil, nil
-	for _, bag, slot, itemString in TSMAPI_FOUR.Inventory.BagIterator() do
+	for _, bag, slot, itemString in TSMAPI_FOUR.Inventory.BagIterator(false, false, false, true) do
 		if not postBag and not postSlot and itemString == button:GetContext() then
 			postBag = bag
 			postSlot = slot
@@ -1770,11 +1802,7 @@ function private.PostButtonOnClick(button)
 		ClearCursor()
 		PickupContainerItem(postBag, postSlot)
 		ClickAuctionSellItemButton(AuctionsItemButton, "LeftButton")
-		if tonumber((select(2, GetBuildInfo()))) >= 27481 then
-			PostAuction(bid, buyout, postTime, stackSize, num)
-		else
-			StartAuction(bid, buyout, postTime, stackSize, num)
-		end
+		PostAuction(bid, buyout, postTime, stackSize, num)
 		ClearCursor()
 	end
 	frame:GetBaseElement():HideDialog()
@@ -2154,6 +2182,7 @@ function private.FSMCreate()
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_AUCTION_FOUND")
 			:SetOnEnter(function(context, result)
+				TSM.UI.AuctionUI.EndedScan(L["Shopping"])
 				context.findResult = result
 				context.numFound = min(#result, context.auctionScan:GetNumCanBuy(context.findAuction) or math.huge)
 				assert(context.numBought == 0 and context.numBid == 0 and context.numConfirmed == 0)
@@ -2163,6 +2192,7 @@ function private.FSMCreate()
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_AUCTION_NOT_FOUND")
 			:SetOnEnter(function(context)
+				TSM.UI.AuctionUI.EndedScan(L["Shopping"])
 				local link = context.findAuction:GetField("rawLink")
 				context.auctionScan:DeleteRowFromDB(context.findAuction)
 				TSM:Printf(L["Failed to find auction for %s, so removing it from the results."], link)

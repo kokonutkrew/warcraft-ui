@@ -53,7 +53,7 @@ end
 -- ============================================================================
 
 function private.GetCraftingFrame()
-	TSM.Analytics.PageView("crafting/crafting")
+	TSM.UI.AnalyticsRecordPathChange("crafting", "crafting")
 	return TSMAPI_FOUR.UI.NewElement("DividedContainer", "crafting")
 		:SetContextTable(private.dividedContainerContext, DEFAULT_DIVIDED_CONTAINER_CONTEXT)
 		:SetMinWidth(450, 250)
@@ -268,7 +268,7 @@ end
 function private.GetCraftingElements(self, button)
 	if button == "profession" then
 		private.filterText = ""
-		local frame = TSMAPI_FOUR.UI.NewElement("Frame", "profession")
+		private.professionFrame = TSMAPI_FOUR.UI.NewElement("Frame", "profession")
 			:SetLayout("VERTICAL")
 			:AddChild(TSMAPI_FOUR.UI.NewElement("Frame", "dropdownFilterFrame")
 				:SetLayout("HORIZONTAL")
@@ -435,10 +435,9 @@ function private.GetCraftingElements(self, button)
 				:SetStyle("justifyH", "CENTER")
 				:SetText(L["Profession loading..."])
 			)
-			:SetScript("OnUpdate", private.ProfessionFrameOnUpdate)
 			:SetScript("OnHide", private.ProfessionFrameOnHide)
-		frame:GetElement("recipeContent"):Hide()
-		return frame
+		private.professionFrame:GetElement("recipeContent"):Hide()
+		return private.professionFrame
 	elseif button == "group" then
 		local frame = TSMAPI_FOUR.UI.NewElement("Frame", "group")
 			:SetLayout("VERTICAL")
@@ -509,11 +508,6 @@ function private.FrameOnHide()
 	private.fsm:ProcessEvent("EV_FRAME_HIDE")
 end
 
-function private.ProfessionFrameOnUpdate(frame)
-	frame:SetScript("OnUpdate", nil)
-	private.professionFrame = frame
-end
-
 function private.ProfessionFrameOnHide(frame)
 	assert(private.professionFrame == frame)
 	private.professionFrame = nil
@@ -532,7 +526,11 @@ local function MoreDialogRowIterator(_, prevIndex)
 	elseif prevIndex == 1 then
 		return 2, L["Deselect All Groups"], private.DeselectAllBtnOnClick
 	elseif prevIndex == 2 then
-		return 3, L["Create Profession Group"], private.CreateProfessionBtnOnClick
+		return 3, L["Expand All Groups"], private.ExpandAllBtnOnClick
+	elseif prevIndex == 3 then
+		return 4, L["Collapse All Groups"], private.CollapseAllBtnOnClick
+	elseif prevIndex == 4 then
+		return 5, L["Create Profession Group"], private.CreateProfessionBtnOnClick
 	end
 end
 function private.MoreBtnOnClick(button)
@@ -551,13 +549,34 @@ function private.DeselectAllBtnOnClick(button)
 	baseFrame:HideDialog()
 end
 
+function private.ExpandAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.crafting.left.viewContainer.main.content.group.groupTree"):ExpandAll()
+	baseFrame:HideDialog()
+end
+
+function private.CollapseAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.crafting.left.viewContainer.main.content.group.groupTree"):CollapseAll()
+	baseFrame:HideDialog()
+end
+
 function private.CreateProfessionBtnOnClick(button)
 	local baseFrame = button:GetBaseElement()
 	local profName = TSM.Crafting.ProfessionState.GetCurrentProfession()
-	if not TSM.Groups.Exists(profName) then
+	local items = profName..TSM.CONST.GROUP_SEP..L["Items"]
+	local mats = profName..TSM.CONST.GROUP_SEP..L["Materials"]
+	if TSM.Groups.Exists(profName) then
+		if not TSM.Groups.Exists(items) then
+			TSM.Groups.Create(items)
+		end
+		if not TSM.Groups.Exists(mats) then
+			TSM.Groups.Create(mats)
+		end
+	else
 		TSM.Groups.Create(profName)
-		TSM.Groups.Create(profName..TSM.CONST.GROUP_SEP..L["Items"])
-		TSM.Groups.Create(profName..TSM.CONST.GROUP_SEP..L["Materials"])
+		TSM.Groups.Create(items)
+		TSM.Groups.Create(mats)
 	end
 
 	local numMats, numItems = 0, 0
@@ -567,8 +586,8 @@ function private.CreateProfessionBtnOnClick(button)
 
 	for _, itemString in query:IteratorAndRelease() do
 		local classId = TSMAPI_FOUR.Item.GetClassId(itemString)
-		if not TSM.Groups.IsItemInGroup(itemString) and classId ~= LE_ITEM_CLASS_WEAPON and classId ~= LE_ITEM_CLASS_ARMOR then
-			TSM.Groups.SetItemGroup(itemString, profName..TSM.CONST.GROUP_SEP..L["Materials"])
+		if itemString and not TSM.Groups.IsItemInGroup(itemString) and not TSMAPI_FOUR.Item.IsSoulbound(itemString) and classId ~= LE_ITEM_CLASS_WEAPON and classId ~= LE_ITEM_CLASS_ARMOR then
+			TSM.Groups.SetItemGroup(itemString, mats)
 			numMats = numMats + 1
 		end
 	end
@@ -578,14 +597,16 @@ function private.CreateProfessionBtnOnClick(button)
 
 	for _, spellId in query:IteratorAndRelease() do
 		local itemString = TSM.Crafting.GetItemString(spellId)
-		if itemString and not TSM.Groups.IsItemInGroup(itemString) then
-			TSM.Groups.SetItemGroup(itemString, profName..TSM.CONST.GROUP_SEP..L["Items"])
+		if itemString and not TSM.Groups.IsItemInGroup(itemString) and not TSMAPI_FOUR.Item.IsSoulbound(itemString) then
+			TSM.Groups.SetItemGroup(itemString, items)
 			numItems = numItems + 1
 		end
 	end
 
 	if numMats > 0 or numItems > 0 then
 		TSM:Printf(L["%s group updated with %d items and %d materials."], profName, numItems, numMats)
+	else
+		TSM:Printf(L["%s group is already up to date."], profName)
 	end
 
 	baseFrame:GetElement("content.crafting.left.viewContainer.main.content.group.groupTree"):UpdateData(true)
@@ -611,6 +632,7 @@ function private.PageToggleOnValueChanged(toggle, value)
 	else
 		error("Unexpected value: "..tostring(value))
 	end
+	TSM.UI.AnalyticsRecordPathChange("crafting", "crafting", page)
 	toggle:GetElement("__parent.__parent.content"):SetPath(page, true)
 	private.fsm:ProcessEvent("EV_PAGE_CHANGED", page)
 end

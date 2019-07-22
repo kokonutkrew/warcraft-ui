@@ -87,7 +87,7 @@ SkadaPerCharDB = {
 					["time"] = 4,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 0,
+					["first"] = 1544809467,
 					["damage"] = 44012,
 					["damagespells"] = {
 						["Attack"] = {
@@ -151,8 +151,9 @@ SkadaPerCharDB = {
 							["hitamount"] = 6735,
 						},
 					},
-					["first"] = 1544809467,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -163,7 +164,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 0,
 					["shielding"] = 0,
 					["damagetakenspells"] = {
 					},
@@ -174,8 +175,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -198,10 +198,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 26417,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Cave Spider"] = {
 					["players"] = {
@@ -216,10 +216,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 17595,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 0,
@@ -325,7 +325,7 @@ SkadaPerCharDB = {
 					["time"] = 13,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 306,
+					["first"] = 1544809436,
 					["damage"] = 66195,
 					["damagespells"] = {
 						["Attack"] = {
@@ -389,8 +389,16 @@ SkadaPerCharDB = {
 							["hitamount"] = 6735,
 						},
 					},
-					["first"] = 1544809436,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+						["Player-60-0A6DF395"] = {
+							["role"] = "NONE",
+							["name"] = "Samoantitan",
+							["amount"] = 306,
+							["class"] = "PALADIN",
+							["shielding"] = 306,
+						},
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -402,7 +410,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 306,
 					["shielding"] = 306,
 					["damagetakenspells"] = {
 					},
@@ -425,15 +433,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-						["Player-60-0A6DF395"] = {
-							["role"] = "NONE",
-							["name"] = "Samoantitan",
-							["amount"] = 306,
-							["class"] = "PALADIN",
-							["shielding"] = 306,
-						},
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -456,10 +456,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 16768,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Demented"] = {
 					["players"] = {
@@ -474,10 +474,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 49427,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 306,
@@ -583,7 +583,7 @@ SkadaPerCharDB = {
 					["time"] = 7,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 758,
+					["first"] = 1544809359,
 					["damage"] = 82937,
 					["damagespells"] = {
 						["Wake of Ashes"] = {
@@ -604,13 +604,13 @@ SkadaPerCharDB = {
 							["id"] = 224239,
 							["damage"] = 25143,
 							["max"] = 15473,
-							["school"] = 2,
+							["totalhits"] = 2,
 							["min"] = 9670,
 							["criticalmax"] = 15473,
-							["critical"] = 1,
-							["hit"] = 1,
-							["totalhits"] = 2,
 							["hitmax"] = 9670,
+							["hit"] = 1,
+							["school"] = 2,
+							["critical"] = 1,
 							["criticalmin"] = 15473,
 							["hitamount"] = 9670,
 						},
@@ -663,8 +663,16 @@ SkadaPerCharDB = {
 							["hitamount"] = 11562,
 						},
 					},
-					["first"] = 1544809359,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+						["Player-60-0A6DF395"] = {
+							["role"] = "NONE",
+							["name"] = "Samoantitan",
+							["amount"] = 758,
+							["class"] = "PALADIN",
+							["shielding"] = 758,
+						},
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -675,7 +683,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 758,
 					["shielding"] = 758,
 					["damagetakenspells"] = {
 					},
@@ -698,15 +706,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-						["Player-60-0A6DF395"] = {
-							["role"] = "NONE",
-							["name"] = "Samoantitan",
-							["amount"] = 758,
-							["class"] = "PALADIN",
-							["shielding"] = 758,
-						},
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -729,10 +729,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 49127,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Confusion"] = {
 					["players"] = {
@@ -747,10 +747,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 33810,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 758,
@@ -857,7 +857,7 @@ SkadaPerCharDB = {
 					["time"] = 5,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 0,
+					["first"] = 1544809306,
 					["damage"] = 90914,
 					["damagespells"] = {
 						["Wake of Ashes"] = {
@@ -933,8 +933,9 @@ SkadaPerCharDB = {
 							["hitamount"] = 7520,
 						},
 					},
-					["first"] = 1544809306,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -945,7 +946,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 0,
 					["shielding"] = 0,
 					["damagetakenspells"] = {
 					},
@@ -956,8 +957,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -980,10 +980,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 24682,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Temptation"] = {
 					["players"] = {
@@ -998,10 +998,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 43701,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Swamp Snake"] = {
 					["players"] = {
@@ -1016,10 +1016,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 22531,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 0,
@@ -1132,7 +1132,7 @@ SkadaPerCharDB = {
 					["time"] = 12,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 6632,
+					["first"] = 1544809218,
 					["damage"] = 67776,
 					["damagespells"] = {
 						["Wake of Ashes"] = {
@@ -1153,13 +1153,13 @@ SkadaPerCharDB = {
 							["id"] = 6603,
 							["damage"] = 19572,
 							["max"] = 7848,
-							["school"] = 1,
+							["totalhits"] = 4,
 							["min"] = 3801,
 							["criticalmax"] = 7848,
-							["hitmax"] = 3974,
-							["hit"] = 3,
-							["totalhits"] = 4,
 							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3974,
 							["criticalmin"] = 7848,
 							["hitamount"] = 11724,
 						},
@@ -1212,8 +1212,16 @@ SkadaPerCharDB = {
 							["hitamount"] = 6710,
 						},
 					},
-					["first"] = 1544809218,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+						["Player-60-0A6DF395"] = {
+							["role"] = "NONE",
+							["name"] = "Samoantitan",
+							["amount"] = 6632,
+							["class"] = "PALADIN",
+							["shielding"] = 6632,
+						},
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -1224,7 +1232,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 6632,
 					["shielding"] = 6632,
 					["damagetakenspells"] = {
 					},
@@ -1247,15 +1255,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-						["Player-60-0A6DF395"] = {
-							["role"] = "NONE",
-							["name"] = "Samoantitan",
-							["amount"] = 6632,
-							["class"] = "PALADIN",
-							["shielding"] = 6632,
-						},
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -1278,10 +1278,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 67776,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 6632,
@@ -1371,7 +1371,7 @@ SkadaPerCharDB = {
 					["time"] = 5,
 					["interrupts"] = 0,
 					["dispells"] = 0,
-					["healing"] = 335,
+					["first"] = 1544809124,
 					["damage"] = 47184,
 					["damagespells"] = {
 						["Attack"] = {
@@ -1435,8 +1435,16 @@ SkadaPerCharDB = {
 							["hitamount"] = 6736,
 						},
 					},
-					["first"] = 1544809124,
-					["damagetaken"] = 0,
+					["maxhp"] = 144740,
+					["healed"] = {
+						["Player-60-0A6DF395"] = {
+							["role"] = "NONE",
+							["name"] = "Samoantitan",
+							["amount"] = 335,
+							["class"] = "PALADIN",
+							["shielding"] = 335,
+						},
+					},
 					["power"] = {
 						[9] = {
 							["spells"] = {
@@ -1446,7 +1454,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["maxhp"] = 144740,
+					["healing"] = 335,
 					["shielding"] = 335,
 					["damagetakenspells"] = {
 					},
@@ -1469,15 +1477,7 @@ SkadaPerCharDB = {
 					},
 					["overhealing"] = 0,
 					["ccbreaks"] = 0,
-					["healed"] = {
-						["Player-60-0A6DF395"] = {
-							["role"] = "NONE",
-							["name"] = "Samoantitan",
-							["amount"] = 335,
-							["class"] = "PALADIN",
-							["shielding"] = 335,
-						},
-					},
+					["damagetaken"] = 0,
 					["ffdamagedone"] = 0,
 					["ffdamagedonespells"] = {
 					},
@@ -1500,10 +1500,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 32359,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Swamp Snake"] = {
 					["players"] = {
@@ -1518,10 +1518,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 					["taken"] = 14825,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 			},
 			["shielding"] = 335,
@@ -1695,17 +1695,18 @@ SkadaPerCharDB = {
 							["id"] = 184575,
 							["hitamount"] = 8419,
 							["criticalmin"] = 13471,
-							["hitmax"] = 8419,
+							["critical"] = 1,
 							["min"] = 8419,
 							["criticalmax"] = 13471,
-							["critical"] = 1,
+							["hitmax"] = 8419,
 							["hit"] = 1,
-							["school"] = 1,
 							["totalhits"] = 2,
+							["school"] = 1,
 							["max"] = 13471,
 							["damage"] = 21890,
 						},
 					},
+					["damagetaken"] = 0,
 					["healed"] = {
 						["Player-60-0A6DF395"] = {
 							["role"] = "NONE",
@@ -1715,7 +1716,6 @@ SkadaPerCharDB = {
 							["shielding"] = 469,
 						},
 					},
-					["damagetaken"] = 0,
 					["power"] = {
 						[9] = {
 							["amount"] = 4,
@@ -1725,7 +1725,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["healing"] = 469,
+					["first"] = 1544809035,
 					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
@@ -1748,8 +1748,8 @@ SkadaPerCharDB = {
 						},
 					},
 					["shielding"] = 469,
+					["healing"] = 469,
 					["maxhp"] = 144740,
-					["first"] = 1544809035,
 					["dispells"] = 0,
 				}, -- [1]
 			},
@@ -1765,10 +1765,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 39886,
 					["htakenspell"] = {
 					},
-					["taken"] = 39886,
-					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -1783,10 +1783,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 12746,
 					["htakenspell"] = {
 					},
-					["taken"] = 12746,
-					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -1909,6 +1909,7 @@ SkadaPerCharDB = {
 							["damage"] = 7672,
 						},
 					},
+					["damagetaken"] = 0,
 					["healed"] = {
 						["Player-60-0A6DF395"] = {
 							["role"] = "NONE",
@@ -1918,7 +1919,6 @@ SkadaPerCharDB = {
 							["shielding"] = 1872,
 						},
 					},
-					["damagetaken"] = 0,
 					["power"] = {
 						[9] = {
 							["amount"] = 4,
@@ -1930,7 +1930,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["healing"] = 1872,
+					["first"] = 1544808988,
 					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
@@ -1953,8 +1953,8 @@ SkadaPerCharDB = {
 						},
 					},
 					["shielding"] = 1872,
+					["healing"] = 1872,
 					["maxhp"] = 144740,
-					["first"] = 1544808988,
 					["dispells"] = 0,
 				}, -- [1]
 			},
@@ -1970,10 +1970,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 30285,
 					["htakenspell"] = {
 					},
-					["taken"] = 30285,
-					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -2120,9 +2120,9 @@ SkadaPerCharDB = {
 							["damage"] = 7566,
 						},
 					},
+					["damagetaken"] = 0,
 					["healed"] = {
 					},
-					["damagetaken"] = 0,
 					["power"] = {
 						[9] = {
 							["amount"] = 4,
@@ -2134,7 +2134,7 @@ SkadaPerCharDB = {
 						},
 					},
 					["id"] = "Player-60-0A6DF395",
-					["healing"] = 0,
+					["first"] = 1544808925,
 					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
@@ -2145,8 +2145,8 @@ SkadaPerCharDB = {
 					["healingspells"] = {
 					},
 					["shielding"] = 0,
+					["healing"] = 0,
 					["maxhp"] = 144740,
-					["first"] = 1544808925,
 					["dispells"] = 0,
 				}, -- [1]
 			},
@@ -2162,10 +2162,10 @@ SkadaPerCharDB = {
 						},
 					},
 					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 35775,
 					["htakenspell"] = {
 					},
-					["taken"] = 35775,
-					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
@@ -2251,14 +2251,6 @@ SkadaPerCharDB = {
 						["auratype"] = "BUFF",
 						["name"] = "Swirling Sands",
 					},
-					["Wake of Ashes"] = {
-						["uptime"] = 10,
-						["active"] = 0,
-						["auratype"] = "DEBUFF",
-						["id"] = 255937,
-						["name"] = "Wake of Ashes",
-						["school"] = 6,
-					},
 					["Elemental Whirl"] = {
 						["uptime"] = 10,
 						["active"] = 0,
@@ -2266,6 +2258,14 @@ SkadaPerCharDB = {
 						["school"] = 8,
 						["auratype"] = "BUFF",
 						["name"] = "Elemental Whirl",
+					},
+					["Art of War"] = {
+						["name"] = "Art of War",
+						["active"] = 0,
+						["id"] = 231843,
+						["school"] = 1,
+						["auratype"] = "BUFF",
+						["uptime"] = 3,
 					},
 					["Righteous Verdict"] = {
 						["uptime"] = 0,
@@ -2299,13 +2299,13 @@ SkadaPerCharDB = {
 						["auratype"] = "DEBUFF",
 						["uptime"] = 6,
 					},
-					["Art of War"] = {
-						["name"] = "Art of War",
+					["Wake of Ashes"] = {
+						["uptime"] = 10,
 						["active"] = 0,
-						["id"] = 231843,
-						["school"] = 1,
-						["auratype"] = "BUFF",
-						["uptime"] = 3,
+						["auratype"] = "DEBUFF",
+						["id"] = 255937,
+						["name"] = "Wake of Ashes",
+						["school"] = 6,
 					},
 					["Selfless Healer"] = {
 						["name"] = "Selfless Healer",
@@ -2342,13 +2342,13 @@ SkadaPerCharDB = {
 						["id"] = 20271,
 						["hitamount"] = 92126,
 						["criticalmin"] = 12277,
-						["critical"] = 8,
+						["hitmax"] = 6185,
 						["min"] = 6138,
 						["criticalmax"] = 12786,
-						["hitmax"] = 6185,
+						["critical"] = 8,
 						["hit"] = 15,
-						["school"] = 2,
 						["totalhits"] = 23,
+						["school"] = 2,
 						["max"] = 12786,
 						["damage"] = 191335,
 					},
@@ -2358,13 +2358,13 @@ SkadaPerCharDB = {
 						["id"] = 269031,
 						["hitamount"] = 17188,
 						["max"] = 4386,
-						["school"] = 1,
+						["totalhits"] = 13,
 						["min"] = 2133,
 						["criticalmax"] = 4386,
-						["hitmax"] = 2193,
-						["hit"] = 8,
-						["totalhits"] = 13,
 						["critical"] = 5,
+						["hit"] = 8,
+						["school"] = 1,
+						["hitmax"] = 2193,
 						["criticalmin"] = 4267,
 						["damage"] = 38792,
 					},
@@ -2374,13 +2374,13 @@ SkadaPerCharDB = {
 						["id"] = 184575,
 						["hitamount"] = 102985,
 						["criticalmin"] = 13420,
-						["hitmax"] = 8536,
+						["critical"] = 3,
 						["min"] = 6710,
 						["criticalmax"] = 13471,
-						["critical"] = 3,
+						["hitmax"] = 8536,
 						["hit"] = 14,
-						["school"] = 1,
 						["totalhits"] = 17,
+						["school"] = 1,
 						["max"] = 13471,
 						["damage"] = 143297,
 					},
@@ -2402,13 +2402,13 @@ SkadaPerCharDB = {
 						["id"] = 224239,
 						["damage"] = 50523,
 						["max"] = 15473,
-						["school"] = 2,
+						["totalhits"] = 5,
 						["min"] = 7809,
 						["criticalmax"] = 15473,
-						["hitmax"] = 9762,
-						["hit"] = 4,
-						["totalhits"] = 5,
 						["critical"] = 1,
+						["hit"] = 4,
+						["school"] = 2,
+						["hitmax"] = 9762,
 						["criticalmin"] = 15473,
 						["hitamount"] = 35050,
 					},
@@ -2430,13 +2430,13 @@ SkadaPerCharDB = {
 						["id"] = 224266,
 						["hitamount"] = 264454,
 						["max"] = 32768,
-						["school"] = 2,
+						["totalhits"] = 21,
 						["min"] = 13058,
 						["criticalmax"] = 32768,
-						["hitmax"] = 22695,
-						["hit"] = 17,
-						["totalhits"] = 21,
 						["critical"] = 4,
+						["hit"] = 17,
+						["school"] = 2,
+						["hitmax"] = 22695,
 						["criticalmin"] = 26116,
 						["damage"] = 386016,
 					},
@@ -2446,13 +2446,13 @@ SkadaPerCharDB = {
 						["id"] = 35395,
 						["hitamount"] = 32382,
 						["max"] = 7081,
-						["school"] = 1,
+						["totalhits"] = 10,
 						["min"] = 3540,
 						["criticalmax"] = 7081,
-						["hitmax"] = 3666,
-						["hit"] = 9,
-						["totalhits"] = 10,
 						["critical"] = 1,
+						["hit"] = 9,
+						["school"] = 1,
+						["hitmax"] = 3666,
 						["criticalmin"] = 7081,
 						["damage"] = 39463,
 					},
@@ -2462,13 +2462,13 @@ SkadaPerCharDB = {
 						["id"] = 6603,
 						["hitamount"] = 138082,
 						["max"] = 7848,
-						["school"] = 1,
+						["totalhits"] = 44,
 						["min"] = 3727,
 						["criticalmax"] = 7848,
-						["hitmax"] = 3974,
-						["hit"] = 36,
-						["totalhits"] = 44,
 						["critical"] = 8,
+						["hit"] = 36,
+						["school"] = 1,
+						["hitmax"] = 3974,
 						["criticalmin"] = 7549,
 						["damage"] = 199603,
 					},
@@ -2483,59 +2483,19 @@ SkadaPerCharDB = {
 						["shielding"] = 11200,
 					},
 				},
-				["deathlog"] = {
-					{
-						["srcname"] = "Swamp Toad",
-						["ts"] = 1544808884.463,
-						["hp"] = 144740,
-						["spellid"] = 88163,
-					}, -- [1]
-					{
-						["srcname"] = "Doubt",
-						["ts"] = 1544809036.631,
-						["hp"] = 144740,
-						["spellid"] = 88163,
-					}, -- [2]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809124.208,
-						["spellid"] = 88163,
-						["srcname"] = "Fear",
-					}, -- [3]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809218.526,
-						["spellid"] = 88163,
-						["srcname"] = "Terror",
-					}, -- [4]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809361.037,
-						["spellid"] = 88163,
-						["srcname"] = "Confusion",
-					}, -- [5]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809363.052,
-						["spellid"] = 88163,
-						["srcname"] = "Confusion",
-					}, -- [6]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809440.625,
-						["spellid"] = 88163,
-						["srcname"] = "Cave Spider",
-					}, -- [7]
-					{
-						["hp"] = 144740,
-						["ts"] = 1544809497.62,
-						["spellid"] = 88163,
-						["srcname"] = "Demented",
-					}, -- [8]
-					["pos"] = 9,
+				["power"] = {
+					[9] = {
+						["amount"] = 53,
+						["spells"] = {
+							[255937] = 11,
+							[184575] = 28,
+							[220637] = 4,
+							[35395] = 10,
+						},
+					},
 				},
 				["id"] = "Player-60-0A6DF395",
-				["healing"] = 11200,
+				["maxhp"] = 144740,
 				["damagetaken"] = 0,
 				["damagetakenspells"] = {
 				},
@@ -2558,23 +2518,176 @@ SkadaPerCharDB = {
 					},
 				},
 				["shielding"] = 11200,
-				["maxhp"] = 144740,
-				["power"] = {
-					[9] = {
-						["amount"] = 53,
-						["spells"] = {
-							[255937] = 11,
-							[184575] = 28,
-							[220637] = 4,
-							[35395] = 10,
-						},
-					},
+				["healing"] = 11200,
+				["deathlog"] = {
+					{
+						["hp"] = 144740,
+						["ts"] = 1544808884.463,
+						["spellid"] = 88163,
+						["srcname"] = "Swamp Toad",
+					}, -- [1]
+					{
+						["hp"] = 144740,
+						["ts"] = 1544809036.631,
+						["spellid"] = 88163,
+						["srcname"] = "Doubt",
+					}, -- [2]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809124.208,
+						["srcname"] = "Fear",
+						["hp"] = 144740,
+					}, -- [3]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809218.526,
+						["srcname"] = "Terror",
+						["hp"] = 144740,
+					}, -- [4]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809361.037,
+						["srcname"] = "Confusion",
+						["hp"] = 144740,
+					}, -- [5]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809363.052,
+						["srcname"] = "Confusion",
+						["hp"] = 144740,
+					}, -- [6]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809440.625,
+						["srcname"] = "Cave Spider",
+						["hp"] = 144740,
+					}, -- [7]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1544809497.62,
+						["srcname"] = "Demented",
+						["hp"] = 144740,
+					}, -- [8]
+					["pos"] = 9,
 				},
 				["dispells"] = 0,
 			}, -- [1]
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "WARRIOR",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 4,
+				["interrupts"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["maxhp"] = 180,
+				["healed"] = {
+				},
+				["power"] = {
+					{
+						["amount"] = 12,
+						["spells"] = {
+							[195707] = 12,
+						},
+					}, -- [1]
+				},
+				["id"] = "Player-162-0A01CE6B",
+				["damagetaken"] = 20,
+				["damagetakenspells"] = {
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["min"] = 3,
+						["school"] = 1,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 5,
+						["damage"] = 20,
+					},
+				},
+				["deathlog"] = {
+					{
+						["ts"] = 1545153103.126,
+						["amount"] = -5,
+						["hp"] = 180,
+						["spellid"] = 88163,
+						["srcname"] = "Cutpurse",
+					}, -- [1]
+					{
+						["ts"] = 1545153105.046,
+						["amount"] = -4,
+						["hp"] = 175,
+						["spellid"] = 88163,
+						["srcname"] = "Mangy Wolf",
+					}, -- [2]
+					{
+						["ts"] = 1545153105.559,
+						["amount"] = -3,
+						["hp"] = 171,
+						["spellid"] = 88163,
+						["srcname"] = "Young Wolf",
+					}, -- [3]
+					{
+						["ts"] = 1545153106.66,
+						["amount"] = -4,
+						["hp"] = 168,
+						["spellid"] = 88163,
+						["srcname"] = "Mangy Wolf",
+					}, -- [4]
+					{
+						["ts"] = 1545153107.488,
+						["amount"] = -4,
+						["hp"] = 164,
+						["spellid"] = 88163,
+						["srcname"] = "Young Wolf",
+					}, -- [5]
+					["pos"] = 6,
+				},
+				["overhealing"] = 0,
+				["name"] = "Samoansavage",
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["healing"] = 0,
+				["auras"] = {
+				},
+				["ccbreaks"] = 0,
+			}, -- [2]
 		},
 		["deaths"] = 0,
 		["mobs"] = {
+			["Mangy Wolf"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 0,
+						["done"] = 8,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 8,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
 			["Cave Spider"] = {
 				["players"] = {
 					["Samoantitan"] = {
@@ -2588,9 +2701,27 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 97587,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Cutpurse"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 0,
+						["done"] = 5,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 5,
+				["htaken"] = 0,
+				["hdonespell"] = {
 				},
 			},
 			["Swamp Snake"] = {
@@ -2603,10 +2734,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 112053,
 				["htakenspell"] = {
 				},
-				["taken"] = 112053,
-				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2621,10 +2752,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 163816,
 				["htakenspell"] = {
 				},
-				["taken"] = 163816,
-				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2642,10 +2773,10 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 283099,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
 				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 			["Swamp Serpent"] = {
 				["players"] = {
@@ -2657,10 +2788,28 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 35775,
 				["htakenspell"] = {
 				},
-				["taken"] = 35775,
-				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Young Wolf"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 0,
+						["done"] = 7,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 7,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2675,10 +2824,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 53216,
 				["htakenspell"] = {
 				},
-				["taken"] = 53216,
-				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2704,8 +2853,6 @@ SkadaPerCharDB = {
 					},
 				},
 				["taken"] = 143060,
-				["done"] = 0,
-				["htaken"] = 822,
 				["htakenspell"] = {
 					["Soothing Mist"] = {
 						["min"] = 822,
@@ -2716,6 +2863,8 @@ SkadaPerCharDB = {
 						["hits"] = 1,
 					},
 				},
+				["htaken"] = 822,
+				["done"] = 0,
 			},
 			["Crystal Fury"] = {
 				["players"] = {
@@ -2727,10 +2876,10 @@ SkadaPerCharDB = {
 					},
 				},
 				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 30285,
 				["htakenspell"] = {
 				},
-				["taken"] = 30285,
-				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
@@ -2748,10 +2897,10 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 67776,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
 				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 			["Temptation"] = {
 				["players"] = {
@@ -2766,10 +2915,10 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 92828,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
 				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 			["Fear"] = {
 				["players"] = {
@@ -2784,17 +2933,18 @@ SkadaPerCharDB = {
 				["hdonespell"] = {
 				},
 				["taken"] = 88489,
-				["done"] = 0,
-				["htaken"] = 0,
 				["htakenspell"] = {
 				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 		},
 		["shielding"] = 11200,
 		["ffdamagedone"] = 0,
 		["healing"] = 11200,
-		["damagetaken"] = 0,
+		["damagetaken"] = 20,
 		["power"] = {
+			12, -- [1]
 			[9] = 53,
 		},
 		["mobtaken"] = 1167984,
@@ -2805,6 +2955,6 @@ SkadaPerCharDB = {
 		},
 		["mobhdone"] = 822,
 		["last_action"] = 1544633892,
-		["mobdone"] = 0,
+		["mobdone"] = 20,
 	},
 }

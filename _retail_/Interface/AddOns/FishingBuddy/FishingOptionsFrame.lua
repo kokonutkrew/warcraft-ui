@@ -11,7 +11,7 @@ local FBOptionsTable = {};
 
 local function FindOptionInfo (setting)
     for _,info in pairs(FBOptionsTable) do
-        if ( info.options[setting] ) then
+        if ( info.options and info.options[setting] ) then
             return info;
         end
     end
@@ -20,7 +20,7 @@ end
 
 local function GetDefault(setting)
     local info = FindOptionInfo(setting);
-    if ( info ) then
+    if ( info and info.options ) then
         local opt = info.options[setting];
         if ( opt ) then
             if ( opt.check and opt.checkfail ) then
@@ -141,39 +141,6 @@ local function CheckButton_OnClick(button, quiet)
     end
     FishingOptionsFrame:HandleDeps(button);
 end
-
-local function EditBox_OnShow(self)
-    local text = FishingBuddy.GetSetting(self.info.setting);
-    if (text) then
-        self:SetText(text);
-    end
-end
-
-local function EditBox_OnValueChanged(self)
-    local text = self:GetText();
-    FishingBuddy.SetSetting(self.info.setting, text);
-    if (self.info.action) then
-        self.info.action(self);
-    end
-end
-
-local function EditBox_Create(info)
-    local t = _G[info.name];
-    if (not t) then
-        t = CreateFrame("EditBox", info.name, nil);
-        t:SetMultiLine(false)
-        t:SetMaxLetters(info.max or 50)
-        t:SetAutoFocus(false)
-        t:SetFontObject(ChatFontNormal)
-        t:EnableMouse(true)
-        t.info = info;
-        t:SetHeight(info.height or 17);
-        t:SetWidth(info.width or 130);
-    end
-    t:SetScript("OnShow", EditBox_OnShow);
-    t:SetScript("OnValueChanged", EditBox_OnValueChanged);
-end
-FishingBuddy.EditBox_Create = EditBox_Create;
 
 -- handle option panel tabs
 local tabbuttons = {};
@@ -463,38 +430,55 @@ FishingBuddy.MakeDropDown = function(switchText, switchSetting)
     end
 end
 
--- menuname has to be set regardless, or UI drop down doesn't work
-FishingBuddy.CreateFBDropDownMenu = function(holdername, menuname)
+local function CreateLabeledThing(holdername, label, thing, thingname)
     local holder = CreateFrame("Frame", holdername);
-    if (not menuname) then
-        menuname = holdername.."Menu"
-    end
-    holder.menu = CreateFrame("Frame", menuname, holder, "FishingBuddyDropDownMenuTemplate");
-    holder.menu:ClearAllPoints();
-    holder.menu:SetPoint("TOPRIGHT", holder, "TOPRIGHT", 0, 0);
-    holder.html = CreateFrame("SimpleHTML", nil, holder);
-    holder.html:ClearAllPoints();
-    holder.html:SetPoint("TOPLEFT", holder, "TOPLEFT", 0, -4);
-    holder.html:SetSize(210, 16);
-    holder.fontstring = holder.html:CreateFontString(nil, nil, "GameFontNormalSmall");
-    holder.fontstring:SetAllPoints(holder.html);
-    holder.fontstring:SetSize(183, 0);
+    thingname = thingname or 'thing';
+    holder[thingname] = thing;
+
+    thing:ClearAllPoints();
+    thing:SetParent(holder)
+    thing:SetPoint("TOPRIGHT", holder, "TOPRIGHT", 0, -4);
+    thing.label:ClearAllPoints();
+    thing.label:SetParent(holder)
+    local offset = thing.label:GetHeight() - thing:GetHeight();
+    thing.label:SetPoint("TOPLEFT", holder, "TOPLEFT", 0, 0)
 
     function holder:FixSizes()
-        self:SetWidth(self.menu:GetWidth() + self.menu.label:GetWidth() + 4);
-        self:SetHeight(self.menu:GetHeight());
+        self:SetWidth(thing:GetWidth() + thing.label:GetWidth() + (holder.width_adjust or 8));
+        self:SetHeight(thing:GetHeight() + (holder.height_adjust or 8));
+        local offset = (thing.label:GetHeight() - thing:GetHeight())/2;
+        thing.label:SetPoint("TOPLEFT", holder, "TOPLEFT", 0, offset - 4)
     end
 
     function holder:SetLabel(text)
         if (text) then
-            self.menu.label:Show();
-            self.menu.label:SetText(text);
+            thing.label:Show();
+            thing.label:SetText(text);
         else
-            self.menu.label:SetText("");
-            self.menu.label:Hide();
+            thing.label:SetText("");
+            thing.label:Hide();
         end
         self:FixSizes();
     end
+
+    return holder;
+end
+FishingBuddy.CreateLabeledThing = CreateLabeledThing
+
+-- menuname has to be set regardless, or UI drop down doesn't work
+FishingBuddy.CreateFBDropDownMenu = function(holdername, menuname)
+    if (not menuname) then
+        menuname = holdername.."Menu"
+    end
+    local menu = CreateFrame("Frame", menuname, holder, "FishingBuddyDropDownMenuTemplate");
+    local holder = CreateLabeledThing(holdername, '', menu, 'menu')
+    holder.width_adjust = -12;
+    holder.html = CreateFrame("SimpleHTML", nil, holder);
+    holder.html:ClearAllPoints();
+    holder.html:SetAllPoints(holder);
+    holder.fontstring = holder.html:CreateFontString(nil, nil, "GameFontNormalSmall");
+    holder.fontstring:SetAllPoints(holder.html);
+    holder:FixSizes();
 
     return holder;
 end
@@ -551,6 +535,7 @@ FishingBuddy.CreateFBMappedDropDown = function(holdername, setting, label, mappi
     keymenu.menu.Mapping = mapping;
     keymenu.menu.SetMappedValue = SetMappedValue;
     keymenu.InitMappedMenu = InitMappedMenu;
+    keymenu:FixSizes()
     return keymenu;
 end
 

@@ -7,8 +7,6 @@ local L = WeakAuras.L
 -- WeakAuras/Options
 	--[[Translation missing --]]
 	L[" by "] = " by "
-	--[[Translation missing --]]
-	L[" Configuration"] = " Configuration"
 	L["-- Do not remove this comment, it is part of this trigger: "] = "-- No elimines este comentario, es parte de este activador:"
 	--[[Translation missing --]]
 	L[" to version "] = " to version "
@@ -20,6 +18,8 @@ local L = WeakAuras.L
 	L["%s Color"] = "%s Color"
 	--[[Translation missing --]]
 	L["%s total auras"] = "%s total auras"
+	--[[Translation missing --]]
+	L["|cFFFF0000Duplicate Keys Found!|nPlease change the keys of the following options!|r"] = "|cFFFF0000Duplicate Keys Found!|nPlease change the keys of the following options!|r"
 	L["1 Match"] = "1 Correspondencia"
 	L["1. Text"] = "1. Texto"
 	L["1. Text Settings"] = "1. Ajustes de texto"
@@ -269,6 +269,8 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED
 	--[[Translation missing --]]
 	L["Done"] = "Done"
 	--[[Translation missing --]]
+	L["Don't skip this Version"] = "Don't skip this Version"
+	--[[Translation missing --]]
 	L["Down"] = "Down"
 	--[[Translation missing --]]
 	L["Drag to move"] = "Drag to move"
@@ -290,6 +292,8 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED
 	--[[Translation missing --]]
 	L["Dynamic information from Trigger %i"] = "Dynamic information from Trigger %i"
 	L["Dynamic text tooltip"] = "Descripción emergente dinámica"
+	--[[Translation missing --]]
+	L["Enable"] = "Enable"
 	L["Enabled"] = "Activado"
 	--[[Translation missing --]]
 	L["End Angle"] = "End Angle"
@@ -380,6 +384,8 @@ Con |cFF00CC00!= 2|r se activará cuando el número de miembros del grupo o band
 Con |cFF00CC00<= 0.8|r se activará cuando menos del 80%% del grupo o banda esté afectado (4 de 5 miembros en grupos, 8 de 10 ó 20 de 25 en bandas).
 Con |cFF00CC00> 1/2|r se activará cuando más de la mitad de miembros del grupo o banda estén afectados.
 Con |cFF00CC00>= 0|r se activará siempre.]=]
+	--[[Translation missing --]]
+	L["Group contains updates from Wago"] = "Group contains updates from Wago"
 	L["Group Member Count"] = "Contador del Miembro de Grupo"
 	--[[Translation missing --]]
 	L["Group Role"] = "Group Role"
@@ -421,6 +427,10 @@ Con |cFF00CC00>= 0|r se activará siempre.]=]
 	--[[Translation missing --]]
 	L["If"] = "If"
 	--[[Translation missing --]]
+	L["If checked, then this separator will include text. Otherwise, it will be just a horizontal line."] = "If checked, then this separator will include text. Otherwise, it will be just a horizontal line."
+	--[[Translation missing --]]
+	L["If checked, then this space will span across multiple lines."] = "If checked, then this space will span across multiple lines."
+	--[[Translation missing --]]
 	L["If this option is enabled, you are no longer able to import auras."] = "If this option is enabled, you are no longer able to import auras."
 	--[[Translation missing --]]
 	L["If Trigger %s"] = "If Trigger %s"
@@ -434,8 +444,6 @@ Con |cFF00CC00>= 0|r se activará siempre.]=]
 	L["Ignore Self"] = "Ignore Self"
 	--[[Translation missing --]]
 	L["Ignore self"] = "Ignore self"
-	--[[Translation missing --]]
-	L["Ignore this Update"] = "Ignore this Update"
 	L["Ignored"] = "Ignorar"
 	L["Import"] = "Importar"
 	L["Import a display from an encoded string"] = "Importar un aura desde un texto cifrado"
@@ -463,6 +471,8 @@ Con |cFF00CC00>= 0|r se activará siempre.]=]
 	--[[Translation missing --]]
 	L["Left HUD position"] = "Left HUD position"
 	L["Left Text"] = "Texto Izquierdo"
+	--[[Translation missing --]]
+	L["Legacy Aura Trigger"] = "Legacy Aura Trigger"
 	--[[Translation missing --]]
 	L["Length"] = "Length"
 	L["Load"] = "Cargar"
@@ -538,10 +548,12 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["On Init"] = "On Init"
 	L["On Show"] = "Mostrar"
 	L["Only match auras cast by people other than the player"] = "Solamente corresponder auras conjuradas por otros jugadores"
-	L["Only match auras cast by the player"] = "Solamente corresponder auras conjuradas por ti"
-	L["Operator"] = "Operador"
 	--[[Translation missing --]]
-	L["Option #"] = "Option #"
+	L["Only match auras cast by people other than the player or his pet"] = "Only match auras cast by people other than the player or his pet"
+	L["Only match auras cast by the player"] = "Solamente corresponder auras conjuradas por ti"
+	--[[Translation missing --]]
+	L["Only match auras cast by the player or his pet"] = "Only match auras cast by the player or his pet"
+	L["Operator"] = "Operador"
 	--[[Translation missing --]]
 	L["Option #%i"] = "Option #%i"
 	--[[Translation missing --]]
@@ -660,6 +672,12 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Select the auras you always want to be listed first"] = "Selecciona las auras que quieres que siempre sean listadas primero"
 	L["Send To"] = "Envar A"
 	--[[Translation missing --]]
+	L["Separator"] = "Separator"
+	--[[Translation missing --]]
+	L["Separator Text"] = "Separator Text"
+	--[[Translation missing --]]
+	L["Separator text"] = "Separator text"
+	--[[Translation missing --]]
 	L["Set Parent to Anchor"] = "Set Parent to Anchor"
 	--[[Translation missing --]]
 	L["Set tooltip description"] = "Set tooltip description"
@@ -697,6 +715,8 @@ Sólo un valor coincidente puede ser escogido.]=]
 	--[[Translation missing --]]
 	L["Simple"] = "Simple"
 	L["Size"] = "Tamaño"
+	--[[Translation missing --]]
+	L["Skip this Version"] = "Skip this Version"
 	--[[Translation missing --]]
 	L["Slant Amount"] = "Slant Amount"
 	--[[Translation missing --]]
@@ -752,8 +772,6 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Step Size"] = "Step Size"
 	L["Sticky Duration"] = "Duración Adhesiva"
 	--[[Translation missing --]]
-	L["Stop ignoring this Update"] = "Stop ignoring this Update"
-	--[[Translation missing --]]
 	L["Stop ignoring Updates"] = "Stop ignoring Updates"
 	--[[Translation missing --]]
 	L["Stop Sound"] = "Stop Sound"
@@ -779,6 +797,8 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Then "] = "Then "
 	--[[Translation missing --]]
 	L["This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."] = "This adds %tooltip, %tooltip1, %tooltip2, %tooltip3 as text replacements."
+	--[[Translation missing --]]
+	L["This aura has legacy aura trigger(s). Convert them to the new system to benefit from enhanced performance and features"] = "This aura has legacy aura trigger(s). Convert them to the new system to benefit from enhanced performance and features"
 	--[[Translation missing --]]
 	L["This display is currently loaded"] = "This display is currently loaded"
 	--[[Translation missing --]]
@@ -831,6 +851,8 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Update "] = "Update "
 	L["Update Custom Text On..."] = "Actualizar Texto Personalizado En..."
 	--[[Translation missing --]]
+	L["Update in Group"] = "Update in Group"
+	--[[Translation missing --]]
 	L["Update this Aura"] = "Update this Aura"
 	L["Use Full Scan (High CPU)"] = "Escaneo Total (carga el procesador)"
 	--[[Translation missing --]]
@@ -850,8 +872,6 @@ Sólo un valor coincidente puede ser escogido.]=]
 	L["Values are in normalized rgba format."] = "Values are in normalized rgba format."
 	--[[Translation missing --]]
 	L["Values:"] = "Values:"
-	--[[Translation missing --]]
-	L["Variable Size"] = "Variable Size"
 	--[[Translation missing --]]
 	L["Version: "] = "Version: "
 	L["Vertical Align"] = "Alineado Vertical"

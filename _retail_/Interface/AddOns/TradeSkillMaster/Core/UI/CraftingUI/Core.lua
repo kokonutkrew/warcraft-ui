@@ -23,6 +23,14 @@ function CraftingUI.OnInitialize()
 	TSM.Crafting.ProfessionScanner.SetDisabled(TSM.db.global.internalData.craftingUIFrameContext.showDefault)
 end
 
+function CraftingUI.OnDisable()
+	-- hide the frame
+	if private.isVisible then
+		TSM.Crafting.ProfessionScanner.SetDisabled(false)
+		private.fsm:ProcessEvent("EV_FRAME_TOGGLE")
+	end
+end
+
 function CraftingUI.RegisterTopLevelPage(name, textureInfo, callback)
 	tinsert(private.topLevelPages, { name = name, textureInfo = textureInfo, callback = callback })
 end
@@ -53,7 +61,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("crafting")
+	TSM.UI.AnalyticsRecordPathChange("crafting")
 	local frame = TSMAPI_FOUR.UI.NewElement("LargeApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetMinResize(MIN_FRAME_SIZE.width, MIN_FRAME_SIZE.height)
@@ -78,6 +86,7 @@ end
 -- ============================================================================
 
 function private.BaseFrameOnHide()
+	TSM.UI.AnalyticsRecordClose("crafting")
 	private.fsm:ProcessEvent("EV_FRAME_HIDE")
 end
 
@@ -157,8 +166,11 @@ function private.FSMCreate()
 					private.defaultUISwitchBtn:Draw()
 				end
 				TradeSkillFrame:SetScript("OnHide", DefaultFrameOnHide)
-				TradeSkillFrame:OnEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
-				TradeSkillFrame:OnEvent("TRADE_SKILL_LIST_UPDATE")
+				local linked, linkedName = C_TradeSkillUI.IsTradeSkillLinked()
+				if C_TradeSkillUI.IsTradeSkillReady() and not C_TradeSkillUI.IsTradeSkillGuild() and not C_TradeSkillUI.IsTradeSkillGuildMember() and (not linked or (linked and linkedName == UnitName("player"))) then
+					TradeSkillFrame:OnEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
+					TradeSkillFrame:OnEvent("TRADE_SKILL_LIST_UPDATE")
+				end
 			end)
 			:SetOnExit(function(context)
 				TradeSkillFrame:SetScript("OnHide", nil)
@@ -216,6 +228,9 @@ function private.FSMCreate()
 			end)
 			:AddEvent("EV_SWITCH_BTN_CLICKED", function()
 				return "ST_DEFAULT_OPEN"
+			end)
+			:AddEvent("EV_FRAME_TOGGLE", function(context)
+				return "ST_CLOSED"
 			end)
 		)
 		:Init("ST_CLOSED", fsmContext)

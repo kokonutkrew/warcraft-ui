@@ -1,0 +1,27 @@
+VER 3 0100000000000007 "Dance [FF]" "Ability_Creature_Cursed_04"
+/script SendChatMessage("!ff_dance", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000009 "Flying Mount [FF]" "Ability_Druid_FlightForm"
+/script SendChatMessage("!ff_fly", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000003 "Follow [FF]" "Ability_Rogue_Sprint"
+/script SendChatMessage("!ff_follow", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000008 "Ground Mount [FF]" "Ability_Mount_Charger"
+/script SendChatMessage("!ff_mount", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000006 "Invite Me [FF]" "Spell_Holy_PrayerofSpirit"
+/script SendChatMessage("!ff_inviteme", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000004 "Sit [FF]" "Spell_ChargeNegative"
+/script SendChatMessage("!ff_sit", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000005 "Stand [FF]" "Spell_ChargePositive"
+/script SendChatMessage("!ff_stand", "WHISPER", nil, UnitName("target"))
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

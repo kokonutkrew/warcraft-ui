@@ -72,8 +72,8 @@
 		<Setting Name="Pre-Startup Sequence Version">3</Setting>
 		<Setting Name="Startup Sequence Version">3</Setting>
 		<Set Name="Pre-Startup Sequence">
-			<!--Pre-Startup sequence is executed in the order of appearance; names are ignored.-->
-			<!--Pre-Startup sequence is completed before the game performs initialization-->
+			<!--PreStartup sequence is executed in the order of appearance; names are ignored.-->
+			<!--PreStartup sequence is completed before the game performs initialization-->
 			<Setting Name="Scripts/DefaultPreStartup.iss">waitscript DefaultPreStartup</Setting>
 			<Setting Name="Scripts/DefaultPreStartup.ice">squelch executefile DefaultPreStartup</Setting>
 		</Set>

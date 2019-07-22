@@ -489,8 +489,30 @@ WatchEvents[FBConstants.ADD_FISHIE_EVT] = function(id, name, mapId, subzone, tex
     end
 end
 
+local function GetLocPrefix()
+    if IsInRaid() then
+        return "raid_";
+    elseif IsInGroup() then
+        return "grp_";
+    else
+        return "solo_"
+    end
+end
+
+local libwindow_names = {
+    ["prefix"] = "solo_"
+}
+
+local function UpdateWatcherPosition()
+    local next_prefix = GetLocPrefix();
+    if libwindow_names.prefix ~= next_prefix then
+        libwindow_names.prefix = next_prefix;
+        FishingWatchFrame:RestorePosition();
+    end
+end
+
 local InvisibleOptions = {
-    -- options not directly manipulatable from the UI
+    -- options not directly manipulatible from the UI
 };
 
 local function HideAway()
@@ -513,10 +535,22 @@ WatchEvents["VARIABLES_LOADED"] = function()
     if ( not FishingBuddy_Player["WatcherLocation"] ) then
         FishingBuddy_Player["WatcherLocation"] = {};
     end
-    LW.RegisterConfig(FishingWatchFrame, FishingBuddy_Player["WatcherLocation"]);
-    LW.RestorePosition(FishingWatchFrame);
-    LW.MakeDraggable(FishingWatchFrame);
+
+    LW:Embed(FishingWatchFrame)
+    FishingWatchFrame:RegisterConfig(FishingBuddy_Player["WatcherLocation"], libwindow_names);
+    FishingWatchFrame:RestorePosition();
+    FishingWatchFrame:MakeDraggable();
     FishingWatchFrame:EnableMouse(false);
+
+    local location = FishingBuddy_Player["WatcherLocation"];
+    if location and location["grp_x"] == nil then
+        for _,key in ipairs({"x", "y", "point", "scale"}) do
+            location["grp_"..key] = location["solo_"..key];
+            location["raid_"..key] = location["solo_"..key];
+        end
+    end
+
+    libwindow_names.prefix = GetLocPrefix()
 
     FL.RegisterCallback(FBConstants.ID, FL.PLAYER_SKILL_READY, function()
         if ( FishingWatchFrame:IsVisible() ) then
@@ -890,6 +924,7 @@ local isDragging = nil;
 local hover;
 function WatWin:OnUpdate(elapsed)
     if ( self:IsVisible() ) then
+        UpdateWatcherPosition();
         if ( isDragging ) then
             return;
         end

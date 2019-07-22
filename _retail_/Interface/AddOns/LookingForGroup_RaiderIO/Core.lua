@@ -3,7 +3,12 @@ local LookingForGroup_Options = LibStub("AceAddon-3.0"):GetAddon("LookingForGrou
 local LookingForGroup_RaiderIO = LookingForGroup:NewModule("RaiderIO","AceEvent-3.0")
 local L = LibStub("AceLocale-3.0"):GetLocale("LookingForGroup_RaiderIO")
 
-LookingForGroup_RaiderIO.CurrentRaidGroupID = 135 -- Uldir
+local Raids =
+{
+[135]={"previousRaid","previousProgress"}, -- Uldir
+[251]={"currentRaid","progress"} -- Battle of Dazar'alor
+}
+LookingForGroup_RaiderIO.raids = Raids
 
 local function GetScore(...)
 	local m = RaiderIO.GetPlayerProfile(0,...)
@@ -196,7 +201,7 @@ local function showplayertooltip(name,groupID)
 		local GameTooltip = GameTooltip
 		if m then
 			local info = m.profile
-			local allScore = info.allScore
+			local allScore = info.mplusCurrent.score
 			local GetScoreColor = RaiderIO.GetScoreColor
 			local r,g,b = GetScoreColor(allScore)
 			GameTooltip:AddDoubleLine("Raider.IO",allScore,nil,nil,nil,r,g,b)
@@ -225,11 +230,8 @@ local function showplayertooltip(name,groupID)
 				tb[3] = info.maxDungeonNameLocale
 				GameTooltip:AddDoubleLine(BEST,table.concat(tb),nil,nil,nil,r,g,b)
 			end
-			if not groupID then
-				local _, activityID = LookingForGroup.GetActiveEntryInfo()
-				if activityID then
-					_,_,_,groupID = C_LFGList.GetActivityInfo(activityID)
-				end
+			if not groupID and C_LFGList.HasActiveEntryInfo() then
+				groupID = select(4,C_LFGList.GetActivityInfo(C_LFGList.GetActiveEntryInfo().activityID))
 			end
 			if groupID then
 				local dungeon_id = dungeons[groupID]
@@ -263,6 +265,9 @@ local function showplayertooltip(name,groupID)
 			local currentRaid = info.currentRaid
 			GameTooltip:AddDoubleLine(currentRaid.name,nil,nil,nil,0,255,0)
 			local function generate_progress(progress)
+				if not progress then
+					return
+				end
 				for i=1,#progress do
 					local ele = progress[i]
 					local difficulty = ele.difficulty
@@ -308,7 +313,7 @@ local function showplayertooltip(name,groupID)
 			if mainProgress then
 				GameTooltip:AddLine()
 				GameTooltip:AddLine("Main")
-				generate_progress(info.mainProgress)
+				generate_progress(mainProgress)
 			end
 		end
 	end
@@ -358,7 +363,7 @@ LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(lfginfo,pr
 	local maximum_score = profile.a.raider_io_find_a_group_max_score
 	local info = GetScore(lfginfo.leaderName)
 	if info then
-		local score = info.allScore
+		local score = info.mplusCurrent.score
 		if (not minimum_score or minimum_score <= score) and (not maximum_score or score <=maximum_score) then
 			return 0
 		end
@@ -377,17 +382,14 @@ LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,i
 	if not info then
 		return 1
 	end
-	if info.allScore < score then
+	if info.mplusCurrent.score < score then
 		return 1
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
-		if active then
-			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
-			if categoryID == 2 then
-				return profile.raider_io_start_a_group_min_score
-			end
+		local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(C_LFGList.GetActiveEntryInfo().activityID)
+		if categoryID == 2 then
+			return profile.raider_io_start_a_group_min_score
 		end
 	end
 end)
@@ -408,12 +410,9 @@ LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,i
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
-		if active then
-			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
-			if categoryID == 2 and profile.raider_io_start_a_group_elitist then
-				return groupID
-			end
+		local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(C_LFGList.GetActiveEntryInfo().activityID)
+		if categoryID == 2 and profile.raider_io_start_a_group_elitist then
+			return groupID
 		end
 	end
 end)
@@ -425,14 +424,18 @@ meaning of return value for player_has_finished()
 1 finished
 ]]
 
-local function player_has_finished(unit,shortName)
+local function player_has_finished(unit,shortName,groupID)
 	local pprf = RaiderIO.GetPlayerProfile(0,unit)
 	if pprf then
 		local raid = pprf[2]
 		if raid then
 			local info = raid.info
-			local currentRaid = info.currentRaid
-			local progress = info.progress
+			local raid = Raids[group]
+			local currentRaid = info[raid[1]]
+			local progress = info[raid[2]]
+			if progress == nil then
+				return 0
+			end
 			local bossCount = currentRaid.bossCount
 			local maxdifficulty = 0
 			for i=1,#progress do
@@ -462,24 +465,21 @@ local function player_has_finished(unit,shortName)
 end
 
 LookingForGroup_Options.RegisterSimpleApplicantFilter("s",function(applicantid,index,profile,player_states)
-	if player_has_finished(C_LFGList.GetApplicantMemberInfo(applicantid,index),player_states[2]) ~= player_states[1] then
+	if player_has_finished(C_LFGList.GetApplicantMemberInfo(applicantid,index),player_states[2],player_states[3]) ~= player_states[1] then
 		return 1
 	end
 end,function(profile)
 	if not profile.raider_io_disable then
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
-		if active then
-			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
-			if groupID == LookingForGroup_RaiderIO.CurrentRaidGroupID and profile.a.raider_io_find_a_group_elitism then
-				return {player_has_finished(unit,shortName),shortName}
-			end
+		local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(C_LFGList.GetActiveEntryInfo().activityID)
+		if Raids[groupID] and profile.a.raider_io_find_a_group_elitism then
+			return {player_has_finished(unit,shortName,groupID),shortName, groupID}
 		end
 	end
 end)
 
 LookingForGroup_Options.RegisterSimpleFilterExpensive("find",function(lfginfo,profile)
 	local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(lfginfo.activityID)
-	if groupID == LookingForGroup_RaiderIO.CurrentRaidGroupID and player_has_finished("player",shortName) ~= player_has_finished(lfginfo.leaderName,shortName) then
+	if Raids[groupID] and player_has_finished("player",shortName,groupID) ~= player_has_finished(lfginfo.leaderName,shortName,groupID) then
 		return 1
 	end
 end,function(profile)
@@ -494,9 +494,9 @@ LookingForGroup_Options.lfgscoresbrief[#LookingForGroup_Options.lfgscoresbrief+1
 	if name then
 		local info = GetScore(name)
 		if info then
-			local allScore = info.allScore
+			local allScore = info.mplusCurrent.score
 			local r,g,b = RaiderIO.GetScoreColor(allScore)
-			return format("|cFF%02x%02x%02xRaider.IO:%d|r",math.ceil(r*255),math.ceil(g*255),math.ceil(b*255),info.allScore)
+			return format("|cFF%02x%02x%02xRaider.IO:%d|r",math.ceil(r*255),math.ceil(g*255),math.ceil(b*255),allScore)
 		end
 	end
 end
@@ -508,9 +508,9 @@ end
 local CLASS_COLORS = CUSTOM_CLASS_COLORS or RAID_CLASS_COLORS
 
 LookingForGroup_Options.lfg_applicant_scores[#LookingForGroup_Options.lfg_applicant_scores+1] = function(applicantID)
-	local id, status, pendingStatus, numMembers, isNew, comment = LookingForGroup.GetApplicantInfo(applicantID)
+	local numMembers = C_LFGList.GetApplicantInfo(applicantID).numMembers
 	for i=1,numMembers do
-		local name, class, localizedClass, level, itemLevel, honorLevel, tank, healer, damage, assignedRole, relationship = C_LFGList.GetApplicantMemberInfo(id,i)
+		local name, class, localizedClass, level, itemLevel, honorLevel, tank, healer, damage, assignedRole, relationship = C_LFGList.GetApplicantMemberInfo(applicantID,i)
 		if name then
 			local class_color = CLASS_COLORS[class]
 			GameTooltip:AddDoubleLine(name,math.floor(itemLevel),class_color.r,class_color.g,class_color.b,0.5,0.5,0.8)
@@ -544,45 +544,15 @@ local function generate_raider_io_info(unit)
 		local m = pprf[1]
 		if m then
 			local info = m.profile
-			local allScore = info.allScore
+			local mplusCurrent = info.mplusCurrent
+			local allScore = mplusCurrent.score
 			local GetScoreColor = RaiderIO.GetScoreColor
 			local r,g,b = GetScoreColor(allScore)
 			tb[#tb+1] = "\n\n"
 			tb[#tb+1] = string.format("|cFF%02x%02x%02x",r*255,g*255,b*255)
 			tb[#tb+1] = allScore
 			tb[#tb+1] = "|r\n"
-			if info.isTank then
-				local score = info.tankScore
-				tb[#tb+1]="|TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES:16:16:0:0:64:64:0:19:22:41|t "
-				local r,g,b = GetScoreColor(score)
-				tb[#tb+1]=string.format("|cFF%02x%02x%02x",r*255,g*255,b*255)
-				tb[#tb+1]=score
-				tb[#tb+1]="|r\n"
-			end
-			if info.isHealer then
-				local score = info.healScore
-				tb[#tb+1]="|TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES:16:16:0:0:64:64:20:39:1:20|t "
-				local r,g,b = GetScoreColor(score)
-				tb[#tb+1]=string.format("|cFF%02x%02x%02x",r*255,g*255,b*255)
-				tb[#tb+1]=score
-				tb[#tb+1]="|r\n"
-			end
-			if info.isDPS then
-				local score = info.dpsScore
-				tb[#tb+1]="|TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES:16:16:0:0:64:64:20:39:22:41|t "
-				local r,g,b = GetScoreColor(score)
-				tb[#tb+1]=string.format("|cFF%02x%02x%02x",r*255,g*255,b*255)
-				tb[#tb+1]=score
-				tb[#tb+1]="|r\n"
-			end
-			local main_score = info.mainScore
-			if main_score and 0 < main_score then
-				tb[#tb+1]="Main "
-				local r,g,b = GetScoreColor(main_score)
-				tb[#tb+1]=string.format("|cFF%02x%02x%02x",r*255,g*255,b*255)
-				tb[#tb+1]=main_score
-				tb[#tb+1]="|r\n"
-			end
+			local mplus_roles = mplusCurrent.roles
 			local legion_score = info.legionScore
 			if legion_score and 0 < legion_score then
 				tb[#tb+1]="Main "
@@ -671,6 +641,9 @@ local function generate_raider_io_info(unit)
 			tb[#tb + 1] = currentRaid.name
 			tb[#tb + 1] = "|r"
 			local function generate_progress(progress)
+				if not progress then
+					return
+				end
 				for i=1,#progress do
 					local ele = progress[i]
 					local difficulty = ele.difficulty
@@ -718,8 +691,12 @@ local function generate_raider_io_info(unit)
 			local mainProgress = info.mainProgress
 			if mainProgress then
 				tb[#tb+1] = "\n\nMain"
-				generate_progress(info.mainProgress)
+				generate_progress(mainProgress)
 			end
+			tb[#tb + 1] = "\n\n|c0000FF00"
+			tb[#tb + 1] = info.previousRaid.name
+			tb[#tb + 1] = "|r"
+			generate_progress(info.previousProgress)
 			local dte = info.date
 			local dt,tm = dte:match("^(.*)%T(.*)%Z$")
 			if dt then
@@ -777,7 +754,7 @@ LookingForGroup_Options:push("raider.io",{
 		create_elitist_activity =
 		{
 			name = function()
-				if LookingForGroup.GetActiveEntryInfo() then
+				if C_LFGList.HasActiveEntryInfo() then
 					return UNLIST_MY_GROUP
 				else
 					return L.create_elitist
@@ -787,7 +764,7 @@ LookingForGroup_Options:push("raider.io",{
 			type = "execute",
 			order = 1,
 			func = function()
-				if LookingForGroup.GetActiveEntryInfo() then
+				if C_LFGList.HasActiveEntryInfo() then
 					C_LFGList.RemoveListing()
 					return
 				end
@@ -925,13 +902,13 @@ local function check_progress()
 	local dialog = {}
 	StaticPopupDialogs.LookingForGroup_RaiderIO_Popup = dialog
 	while not db.profile.raider_io_checkkills and tag~=0 do
-		local active, activityID, iLevel, name, comment, voiceChat, expiration, autoAccept = LookingForGroup.GetActiveEntryInfo()
-		if active then
+		if C_LFGList.HasActiveEntryInfo() then
+			local activityID = C_LFGList.GetActiveEntryInfo().activityID
 			local fullName, shortName, categoryID, groupID = C_LFGList.GetActivityInfo(activityID)
-			if groupID ~= LookingForGroup_RaiderIO.CurrentRaidGroupID then
+			if Raids[groupID] then
 				break
 			end
-			local player_progress = player_has_finished("player",shortName)
+			local player_progress = player_has_finished("player",shortName,groupID)
 			local nm = GetNumGroupMembers()
 			local u = UnitInRaid("player") and "raid" or "party"
 			wipe(kicks_tb)
@@ -939,7 +916,7 @@ local function check_progress()
 				local ui = u..i
 				if not UnitIsUnit(ui,"player") then
 					local name,server = UnitName(ui)
-					if name and player_has_finished(ui,shortName)~=player_progress then
+					if name and player_has_finished(ui,shortName,groupID)~=player_progress then
 						if server then
 							kicks_tb[#kicks_tb+1] = name .. "-"..server
 						else

@@ -124,7 +124,7 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	["addonVersion"] = 18,
+	["addonVersion"] = 19,
 	[161676] = {
 		["isAzeriteArmor"] = false,
 		[365] = {

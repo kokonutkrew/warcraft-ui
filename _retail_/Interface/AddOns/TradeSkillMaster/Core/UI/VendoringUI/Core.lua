@@ -22,6 +22,11 @@ function VendoringUI.OnInitialize()
 	private.FSMCreate()
 end
 
+function VendoringUI.OnDisable()
+	-- hide the frame
+	private.fsm:ProcessEvent("EV_FRAME_HIDE")
+end
+
 function VendoringUI.RegisterTopLevelPage(name, textureInfo, callback)
 	tinsert(private.topLevelPages, { name = name, textureInfo = textureInfo, callback = callback })
 end
@@ -37,7 +42,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("vendoring")
+	TSM.UI.AnalyticsRecordPathChange("vendoring")
 	local frame = TSMAPI_FOUR.UI.NewElement("LargeApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetMinResize(MIN_FRAME_SIZE.width, MIN_FRAME_SIZE.height)
@@ -62,6 +67,7 @@ end
 -- ============================================================================
 
 function private.BaseFrameOnHide()
+	TSM.UI.AnalyticsRecordClose("vendoring")
 	private.fsm:ProcessEvent("EV_FRAME_HIDE")
 end
 
@@ -94,6 +100,7 @@ function private.FSMCreate()
 
 	local fsmContext = {
 		frame = nil,
+		defaultPoint = nil,
 	}
 	local function DefaultFrameOnHide()
 		private.fsm:ProcessEvent("EV_FRAME_HIDE")
@@ -155,6 +162,12 @@ function private.FSMCreate()
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_FRAME_OPEN")
 			:SetOnEnter(function(context)
 				assert(not context.frame)
+				MerchantFrame_OnEvent(MerchantFrame, "MERCHANT_SHOW")
+				if not context.defaultPoint then
+					context.defaultPoint = {MerchantFrame:GetPoint(1)}
+				end
+				MerchantFrame:ClearAllPoints()
+				MerchantFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", 100000, 100000)
 				OpenAllBags()
 				context.frame = private.CreateMainFrame()
 				context.frame:Show()
@@ -164,6 +177,8 @@ function private.FSMCreate()
 			end)
 			:SetOnExit(function(context)
 				CloseAllBags()
+				MerchantFrame:ClearAllPoints()
+				MerchantFrame:SetPoint(unpack(context.defaultPoint))
 				private.isVisible = false
 				context.frame:Hide()
 				context.frame:Release()

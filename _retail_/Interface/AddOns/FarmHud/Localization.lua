@@ -189,6 +189,10 @@ L["W"] = "W"
 end
 
 if LOCALE_esES then
+L["AddOnLoaded"] = "AddOn Cargado..."
+L["AddOnLoadedDesc"] = "Muestra el mensaje \"AddOn Cargado\" después del Login"
+L["AreaBorder"] = "Perímetro"
+L["AreaBorderByClient"] = "Usa la opción de trackeo del juego"
 
 end
 

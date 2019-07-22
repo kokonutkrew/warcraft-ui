@@ -6,14 +6,18 @@ WeakAuras.halfWidth = WeakAuras.normalWidth / 2
 WeakAuras.doubleWidth = WeakAuras.normalWidth * 2
 
 local versionStringFromToc = GetAddOnMetadata("WeakAuras", "Version");
-local versionString = "2.10.10"
+local versionString = "2.11.6"
+local buildTime = "20190226183814"
+
 --[===[@debug@
-if versionStringFromToc == "2.10.10" then
+if versionStringFromToc == "2.11.6" then
   versionStringFromToc = "Dev"
+  buildTime = "Dev"
 end
 --@end-debug@]===]
 
 WeakAuras.versionString = versionStringFromToc
+WeakAuras.buildTime = buildTime
 WeakAuras.printPrefix = "|cff9900ffWeakAuras:|r "
 WeakAuras.newFeatureString = "|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0|t"
 

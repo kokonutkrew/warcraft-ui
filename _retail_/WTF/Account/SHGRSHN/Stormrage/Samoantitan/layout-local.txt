@@ -1,4 +1,11 @@
 Version: 1
+Frame: AAPQOrderList
+FrameLevel: 1
+Anchor: CENTER
+X: -329
+Y: 84
+W: 231
+H: 440
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER

@@ -98,7 +98,7 @@ Postal: disabled
 PVPSound: disabled
 Routes: disabled
 sArena: enabled
-SuperGuildInviteReborn: disabled
+SuperGuildInviteReborn: enabled
 TomTom: enabled
 WeakAuras: enabled
 WeakAurasModelPaths: disabled
@@ -140,8 +140,8 @@ LiteBag: enabled
 WorldQuestTab: enabled
 GuildManager: disabled
 zbGuildManager: disabled
-WowPro: disabled
-WoWPro_Leveling: disabled
+WowPro: enabled
+WoWPro_Leveling: enabled
 RaiderIO_DB_TW_H_R: disabled
 RaiderIO_DB_TW_H: disabled
 RaiderIO_DB_TW_A_R: disabled
@@ -173,10 +173,10 @@ Prat-3.0: enabled
 Prat-3.0_Libraries: enabled
 MBB: enabled
 Storyline: disabled
-WoWPro_Achievements: disabled
-WoWPro_Dailies: disabled
-WowPro_Profession: disabled
-WoWPro_WorldEvents: disabled
+WoWPro_Achievements: enabled
+WoWPro_Dailies: enabled
+WowPro_Profession: enabled
+WoWPro_WorldEvents: enabled
 ConsolePort: enabled
 LibStub: enabled
 LibRaces-1.0: enabled
@@ -215,3 +215,4 @@ Jamba-Talk: enabled
 Jamba-Toon: enabled
 Jamba-Trade: enabled
 ISBoxer: enabled
+EMA: disabled

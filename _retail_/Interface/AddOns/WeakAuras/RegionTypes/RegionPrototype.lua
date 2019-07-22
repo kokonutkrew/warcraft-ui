@@ -463,7 +463,7 @@ end
 
 -- Expand/Collapse function
 
-function WeakAuras.regionPrototype.AddExpandFunction(data, region, id, cloneId, parent, parentRegionType)
+function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, parent, parentRegionType)
   local indynamicgroup = parentRegionType == "dynamicgroup";
   local ingroup = parentRegionType == "group";
 
@@ -474,17 +474,23 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, id, cloneId, 
   local hideRegion;
   if(indynamicgroup) then
     hideRegion = function()
+      if region.PreHide then
+        region:PreHide()
+      end
       region:Hide();
       if (cloneId) then
-        WeakAuras.ReleaseClone(id, cloneId, data.regionType);
+        WeakAuras.ReleaseClone(region.id, cloneId, data.regionType);
       end
       parent:ControlChildren();
     end
   else
     hideRegion = function()
+      if region.PreHide then
+        region:PreHide()
+      end
       region:Hide();
       if (cloneId) then
-        WeakAuras.ReleaseClone(id, cloneId, data.regionType);
+        WeakAuras.ReleaseClone(region.id, cloneId, data.regionType);
       end
     end
   end
@@ -520,7 +526,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, id, cloneId, 
 
       parent:EnsureTrays();
       region.justCreated = nil;
-      region:SetFrameLevel(WeakAuras.GetFrameLevelFor(id));
+      region:SetFrameLevel(WeakAuras.GetFrameLevelFor(region.id));
       WeakAuras.PerformActions(data, "start", region);
       if not(WeakAuras.Animate("display", data, "start", data.animation.start, region, true, startMainAnimation, nil, cloneId)) then
         startMainAnimation();
@@ -561,7 +567,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, id, cloneId, 
       if(region.PreShow) then
         region:PreShow();
       end
-      region:SetFrameLevel(WeakAuras.GetFrameLevelFor(id));
+      region:SetFrameLevel(WeakAuras.GetFrameLevelFor(region.id));
       region:Show();
       WeakAuras.PerformActions(data, "start", region);
       if not(WeakAuras.Animate("display", data, "start", data.animation.start, region, true, startMainAnimation, nil, cloneId)) then
@@ -588,11 +594,7 @@ function WeakAuras.regionPrototype.SetTextOnText(text, str)
     return
   end
 
-  text:SetWidth(0); -- This makes the text use its internal text size calculation
   text:SetText(str);
-  local w = text:GetStringWidth();
-  w = w + max(15, w / 20);
-  text:SetWidth(w); -- But that internal text size calculation is wrong, see ticket 1014
 end
 
 function WeakAuras.SetTextureOrAtlas(texture, path, wrapModeH, wrapModeV)

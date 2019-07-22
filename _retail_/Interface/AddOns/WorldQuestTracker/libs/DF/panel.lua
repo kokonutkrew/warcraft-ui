@@ -1030,6 +1030,8 @@ local create_panel_entry = function (self, row)
 	editbox:SetBackdropBorderColor (1, 1, 1, 0.1)
 	editbox.editbox.current_bordercolor = {1, 1, 1, 0.1}
 	
+	editbox:SetTemplate (DF:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
+	
 	tinsert (row.entry_available, editbox)
 end
 
@@ -1524,8 +1526,8 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 		
 		DF.IconPickFrame:SetScript ("OnShow", function()
 			
-			MACRO_ICON_FILENAMES [1] = "INV_MISC_QUESTIONMARK";
-			local index = 2;
+			MACRO_ICON_FILENAMES [1] = "INV_MISC_QUESTIONMARK"
+			local index = 2
 		
 			for i = 1, GetNumSpellTabs() do
 				local tab, tabTex, offset, numSpells, _ = GetSpellTabInfo (i)
@@ -1537,7 +1539,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 					local spellType, ID = GetSpellBookItemInfo (j, "player")
 					if (spellType ~= "FUTURESPELL") then
 						MACRO_ICON_FILENAMES [index] = GetSpellBookItemTexture (j, "player") or 0
-						index = index + 1;
+						index = index + 1
 						
 					elseif (spellType == "FLYOUT") then
 						local _, _, numSlots, isKnown = GetFlyoutInfo (ID)
@@ -1546,7 +1548,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 								local spellID, overrideSpellID, isKnown = GetFlyoutSlotInfo (ID, k)
 								if (isKnown) then
 									MACRO_ICON_FILENAMES [index] = GetSpellTexture (spellID) or 0
-									index = index + 1;
+									index = index + 1
 								end
 							end
 						end
@@ -1601,7 +1603,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..(i+1), DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..(i+1).."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -1618,7 +1620,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..i, DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..i.."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -1635,7 +1637,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..i, DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..i.."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -1652,7 +1654,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..i, DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..i.."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -1669,7 +1671,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..i, DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..i.."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -1686,7 +1688,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 			local newcheck = CreateFrame ("Button", "DetailsFrameworkIconPickFrameButton"..i, DF.IconPickFrame)
 			local image = newcheck:CreateTexture ("DetailsFrameworkIconPickFrameButton"..i.."Icon", "overlay")
 			newcheck.icon = image
-			image:SetPoint ("topleft", newcheck, "topleft", 2, -2); image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
+			image:SetPoint ("topleft", newcheck, "topleft", 2, -2) image:SetPoint ("bottomright", newcheck, "bottomright", -2, 2)
 			newcheck:SetSize (30, 28)
 			newcheck:SetBackdrop (backdrop)
 			
@@ -2252,7 +2254,7 @@ function DF:ShowTextPromptPanel (message, callback)
 		button_true:SetPoint ("bottomright", f, "bottomright", -10, 5)
 		f.button_true = button_true
 
-		local button_false = DF:CreateButton (f, function() f.textbox:ClearFocus(); f:Hide() end, 60, 20, "Cancel", nil, nil, nil, nil, nil, nil, options_dropdown_template)
+		local button_false = DF:CreateButton (f, function() f.textbox:ClearFocus() f:Hide() end, 60, 20, "Cancel", nil, nil, nil, nil, nil, nil, options_dropdown_template)
 		button_false:SetPoint ("bottomleft", f, "bottomleft", 10, 5)
 		f.button_false = button_false
 		
@@ -2994,7 +2996,7 @@ end
 function calc_cubeweight (i, j, d)
     local w = ( 1 - math.abs ((j-i)/d)^3)^3
     if w < 0 then
-        w = 0;
+        w = 0
     end
     return w
 end
@@ -3035,11 +3037,11 @@ local calc_lowess_smoothing = function (self, data, bandwidth)
 		end
 		
 		-- Calculate a (slope) and b (offset) for the linear fit
-		local a = (A*B-D*E)/(A^2 - C*E);
-		local b = (A*D-B*C)/(A^2 - C*E);
+		local a = (A*B-D*E)/(A^2 - C*E)
+		local b = (A*D-B*C)/(A^2 - C*E)
 
 		-- Calculate the smoothed value by the formula y=a*x+b (x <- i)
-		newData [i] = a*i+b;
+		newData [i] = a*i+b
 	
 	end
 	
@@ -3802,6 +3804,7 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 		title:SetPoint ("topleft", mainTitle, "bottomleft", 0, 0)
 		
 		local tabButton = DF:CreateButton (mainFrame, DF.TabContainerFunctions.SelectIndex, button_width, button_height, frame.title, i, nil, nil, nil, nil, false, button_tab_template)
+		PixelUtil.SetSize (tabButton, button_width, button_height)
 		tabButton:SetFrameLevel (220)
 		tabButton.textsize = button_text_size
 		tabButton.mainFrame = mainFrame
@@ -3846,7 +3849,7 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 	
 	for i = 2, #mainFrame.AllButtons do
 		local button = mainFrame.AllButtons [i]
-		button:SetPoint ("topleft", mainTitle, "topleft", x, y)
+		PixelUtil.SetPoint (button, "topleft", mainTitle, "topleft", x, y)
 		x = x + button_width + 2
 		
 		if (i % amount_buttons_per_row == 0) then
@@ -4763,9 +4766,9 @@ function DF:BuildKeybindFunctions (data, prefix)
 	local classLoc, class = UnitClass ("player")
 	local bindingList = data
 	
-	local bindString = "self:ClearBindings();"
-	local bindKeyBindTypeFunc = [[local unitFrame = ...;]]
-	local bindMacroTextFunc = [[local unitFrame = ...;]]
+	local bindString = "self:ClearBindings()"
+	local bindKeyBindTypeFunc = [[local unitFrame = ...]]
+	local bindMacroTextFunc = [[local unitFrame = ...]]
 	local isMouseBinding
 	
 	for i = 1, #bindingList do
@@ -4779,7 +4782,7 @@ function DF:BuildKeybindFunctions (data, prefix)
 			isMouseBinding = true
 		else
 			bindType = prefix .. "" .. i
-			bindString = bindString .. "self:SetBindingClick (0, '" .. bind.key .. "', self:GetName(), '" .. bindType .. "');"
+			bindString = bindString .. "self:SetBindingClick (0, '" .. bind.key .. "', self:GetName(), '" .. bindType .. "')"
 			bindType = "-" .. prefix .. "" .. i
 			isMouseBinding = nil
 		end
@@ -4792,9 +4795,9 @@ function DF:BuildKeybindFunctions (data, prefix)
 		
 		local keyBindType
 		if (isMouseBinding) then
-			keyBindType = [[unitFrame:SetAttribute ("@COMMANDtype@BINDTYPE", "macro");]]
+			keyBindType = [[unitFrame:SetAttribute ("@COMMANDtype@BINDTYPE", "macro")]]
 		else
-			keyBindType = [[unitFrame:SetAttribute ("type@BINDTYPE", "macro");]]
+			keyBindType = [[unitFrame:SetAttribute ("type@BINDTYPE", "macro")]]
 		end
 		
 		keyBindType = keyBindType:gsub ("@BINDTYPE", bindType)
@@ -4805,9 +4808,9 @@ function DF:BuildKeybindFunctions (data, prefix)
 		if (bind.action == "_spell") then
 			local macroTextLine
 			if (isMouseBinding) then
-				macroTextLine = [[unitFrame:SetAttribute ("@COMMANDmacrotext@BINDTYPE", "/cast [@mouseover] @SPELL");]]
+				macroTextLine = [[unitFrame:SetAttribute ("@COMMANDmacrotext@BINDTYPE", "/cast [@mouseover] @SPELL")]]
 			else
-				macroTextLine = [[unitFrame:SetAttribute ("macrotext@BINDTYPE", "/cast [@mouseover] @SPELL");]]
+				macroTextLine = [[unitFrame:SetAttribute ("macrotext@BINDTYPE", "/cast [@mouseover] @SPELL")]]
 			end
 			macroTextLine = macroTextLine:gsub ("@BINDTYPE", bindType)
 			macroTextLine = macroTextLine:gsub ("@SPELL", bind.actiontext)
@@ -4817,9 +4820,9 @@ function DF:BuildKeybindFunctions (data, prefix)
 		elseif (bind.action == "_macro") then
 			local macroTextLine
 			if (isMouseBinding) then
-				macroTextLine = [[unitFrame:SetAttribute ("@COMMANDmacrotext@BINDTYPE", "@MACRO");]]
+				macroTextLine = [[unitFrame:SetAttribute ("@COMMANDmacrotext@BINDTYPE", "@MACRO")]]
 			else
-				macroTextLine = [[unitFrame:SetAttribute ("macrotext@BINDTYPE", "@MACRO");]]
+				macroTextLine = [[unitFrame:SetAttribute ("macrotext@BINDTYPE", "@MACRO")]]
 			end
 			macroTextLine = macroTextLine:gsub ("@BINDTYPE", bindType)
 			macroTextLine = macroTextLine:gsub ("@MACRO", bind.actiontext)
@@ -4952,10 +4955,10 @@ DF.IconRowFunctions = {
 		
 		if (not iconFrame) then
 			local newIconFrame = CreateFrame ("frame", "$parentIcon" .. self.NextIcon, self)
-			newIconFrame:SetSize (self.options.icon_width, self.options.icon_height)
 			
 			newIconFrame.Texture = newIconFrame:CreateTexture (nil, "artwork")
-			newIconFrame.Texture:SetAllPoints()
+			PixelUtil.SetPoint (newIconFrame.Texture, "topleft", newIconFrame, "topleft", 1, -1)
+			PixelUtil.SetPoint (newIconFrame.Texture, "bottomright", newIconFrame, "bottomright", -1, 1)
 			
 			newIconFrame.Border = newIconFrame:CreateTexture (nil, "background")
 			newIconFrame.Border:SetAllPoints()
@@ -4993,16 +4996,16 @@ DF.IconRowFunctions = {
 
 		if (growDirection == 1) then --grow to right
 			if (self.NextIcon == 1) then
-				iconFrame:SetPoint ("left", anchorTo, "left", xPadding, 0)
+				PixelUtil.SetPoint (iconFrame, "left", anchorTo, "left", xPadding, 0)
 			else
-				iconFrame:SetPoint ("left", anchorTo, "right", xPadding, 0)
+				PixelUtil.SetPoint (iconFrame, "left", anchorTo, "right", xPadding, 0)
 			end
 			
 		elseif (growDirection == 2) then --grow to left
 			if (self.NextIcon == 1) then
-				iconFrame:SetPoint ("right", anchorTo, "right", xPadding, 0)
+				PixelUtil.SetPoint (iconFrame, "right", anchorTo, "right", xPadding, 0)
 			else
-				iconFrame:SetPoint ("right", anchorTo, "left", xPadding, 0)
+				PixelUtil.SetPoint (iconFrame, "right", anchorTo, "left", xPadding, 0)
 			end
 			
 		end
@@ -5071,7 +5074,7 @@ DF.IconRowFunctions = {
 				iconFrame.Desc:Hide()
 			end
 			
-			iconFrame:SetSize (self.options.icon_width, self.options.icon_height)
+			PixelUtil.SetSize (iconFrame, self.options.icon_width, self.options.icon_height)
 			iconFrame:Show()
 			
 			--> update the size of the frame
@@ -5596,9 +5599,13 @@ function DF:CreateLoadFilterParser (callback)
 		if (event == "ENCOUNTER_START") then
 			local encounterID = ...
 			f.EncounterIDCached = encounterID
-			
-		elseif (event == "PLAYER_REGEN_ENABLED") then
+		
+		elseif (event == "ENCOUNTER_END") then
 			f.EncounterIDCached = nil
+		
+		elseif (event == "PLAYER_REGEN_ENABLED") then
+			--f.EncounterIDCached = nil
+			--when the player dies during an encounter, the game is triggering regen enabled
 			
 		elseif (event == "PLAYER_SPECIALIZATION_CHANGED") then
 			if (DetailsFrameworkLoadConditionsPanel and DetailsFrameworkLoadConditionsPanel:IsShown()) then
@@ -5802,7 +5809,7 @@ function DF:UpdateLoadConditionsTable (configTable)
 	return configTable
 end
 
---/run Plater.OpenOptionsPanel();PlaterOptionsPanelContainer:SelectIndex (Plater, 14);
+--/run Plater.OpenOptionsPanel()PlaterOptionsPanelContainer:SelectIndex (Plater, 14)
 
 function DF:OpenLoadConditionsPanel (optionsTable, callback, frameOptions)
 
@@ -6144,7 +6151,7 @@ function DF:OpenLoadConditionsPanel (optionsTable, callback, frameOptions)
 		
 		--create radio group for mythic+ affixes
 			local affixes = {}
-			for i = 2, 50 do
+			for i = 2, 1000 do
 				local affixName, desc, texture = C_ChallengeMode.GetAffixInfo (i)
 				if (affixName) then
 					tinsert (affixes, {
@@ -6166,16 +6173,16 @@ function DF:OpenLoadConditionsPanel (optionsTable, callback, frameOptions)
 				local idList = f.OptionsTable [self.DBKey]
 				self:SetText ("")
 				for i = 1, #idList do 
-					self:SetText (self:GetText() .. "; " .. idList [i])
+					self:SetText (self:GetText() .. " " .. idList [i])
 				end
-				self:SetText (self:GetText():gsub ("^; ", ""))
+				self:SetText (self:GetText():gsub ("^ ", ""))
 			end
 			
 			local textEntryOnEnterPressed = function (_, self)
 				wipe (f.OptionsTable [self.DBKey])
 				local text = self:GetText()
 				
-				for _, ID in ipairs ({strsplit (";", text)}) do
+				for _, ID in ipairs ({strsplit ("", text)}) do
 					ID = DF:trim (ID)
 					ID = tonumber (ID)
 					if (ID) then
@@ -6192,7 +6199,7 @@ function DF:OpenLoadConditionsPanel (optionsTable, callback, frameOptions)
 			encounterIDEditbox:SetPoint ("topleft", encounterIDLabel, "bottomleft", 0, -2)
 			encounterIDEditbox.DBKey = "encounter_ids"
 			encounterIDEditbox.Refresh = textEntryRefresh
-			encounterIDEditbox.tooltip = "Enter multiple IDs separating with a semicolon (;)\nExample: 35; 45; 95\n\nUldir:\n"
+			encounterIDEditbox.tooltip = "Enter multiple IDs separating with a semicolon ()\nExample: 35 45 95\n\nUldir:\n"
 			for _, encounterTable in ipairs (DF:GetCLEncounterIDs()) do
 				encounterIDEditbox.tooltip = encounterIDEditbox.tooltip .. encounterTable.ID .. " - " .. encounterTable.Name .. "\n"
 			end
@@ -6206,7 +6213,7 @@ function DF:OpenLoadConditionsPanel (optionsTable, callback, frameOptions)
 			mapIDEditbox:SetPoint ("topleft", mapIDLabel, "bottomleft", 0, -2)
 			mapIDEditbox.DBKey = "map_ids"
 			mapIDEditbox.Refresh = textEntryRefresh
-			mapIDEditbox.tooltip = "Enter multiple IDs separating with a semicolon (;)\nExample: 35; 45; 95"
+			mapIDEditbox.tooltip = "Enter multiple IDs separating with a semicolon ()\nExample: 35 45 95"
 			mapIDEditbox:SetHook ("OnEnterPressed", textEntryOnEnterPressed)
 			tinsert (f.AllTextEntries, mapIDEditbox)
 
@@ -6563,16 +6570,2811 @@ end
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> statusbar mixin
+
+--[=[
+	collection of functions to embed into a statusbar
+	statusBar:GetTexture()
+	statusBar:SetTexture (texture)
+	statusBar:SetColor (unparsed color)
+	statusBar:GetColor()
+	statusBar:
+	statusBar:
+	
+--]=]
+
+DF.StatusBarFunctions = {
+	
+	GetTexture = function (self)
+		return self.barTexture:GetTexture()
+	end,
+	
+	SetTexture = function (self, texture)
+		self.barTexture:SetTexture (texture)
+	end,
+	
+	SetColor = function (self, r, g, b, a)
+		r, g, b, a = DF:ParseColors (r, g, b, a)
+		self:SetStatusBarColor (r, g, b, a)
+	end,
+
+	GetColor = function (self)
+		return self:GetStatusBarColor()
+	end,
+	
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> health bar frame
+
+--[=[
+	DF:CreateHealthBar (parent, name, settingsOverride)
+	creates a health bar to show an unit health
+	@parent = frame to pass for the CreateFrame function
+	@name = absolute name of the frame, if omitted it uses the parent's name .. "HealthBar"
+	@settingsOverride = table with keys and values to replace the defaults from the framework
+	
+	methods:
+	healthbar:SetUnit (unit)
+	healthBar:GetTexture()
+	healthBar:SetTexture (texture)
+--]=]
+
+local debugPerformance = {
+	eventCall = {},
+	unitCall = {},
+	functionCall = {},
+	CPUUsageByFunction = {},
+}
+
+local function CalcPerformance (type, data)
+	if (type == "event") then
+		debugPerformance.eventCall [data] = (debugPerformance.eventCall [data] or 0) + 1
+		
+	elseif (type == "unit") then
+		debugPerformance.unitCall [data] = (debugPerformance.unitCall [data] or 0) + 1
+	
+	elseif (type == "call") then
+		debugPerformance.functionCall [data] = (debugPerformance.functionCall [data] or 0) + 1
+		
+	end
+end
+
+function DF_CalcCpuUsage (name)
+	local cpu = debugPerformance.CPUUsageByFunction [name] or {usage = 0, last = 0, active = false}
+	debugPerformance.CPUUsageByFunction [name] = cpu
+	
+	if (cpu.active) then
+		cpu.active = false
+		local diff = debugprofilestop() - cpu.last
+		cpu.usage = cpu.usage + diff
+	else
+		cpu.active = true
+		cpu.last = debugprofilestop()
+	end
+end
+
+function UnitFrameStats()
+	for functionName, functionTable in pairs (debugPerformance.CPUUsageByFunction) do
+		debugPerformance.CPUUsageByFunction [functionName] = floor (functionTable.usage)
+	end
+
+	Details:Dump (debugPerformance)
+	
+	for functionName, functionTable in pairs (debugPerformance.CPUUsageByFunction) do
+		debugPerformance.CPUUsageByFunction [functionName] = {usage = 0, last = 0, active = false}
+	end
+end
+
+
+--CalcPerformance ("unit", data)
+
+DF.HealthFrameFunctions = {
+
+	WidgetType = "healthBar",
+	SetHook = DF.SetHook,
+	RunHooksForWidget = DF.RunHooksForWidget,
+	
+	HookList = {
+		OnHide = {}, 
+		OnShow = {},
+	},
+
+	Settings = {
+		CanTick = false, --> if true calls the method 'OnTick' every tick, the function needs to be overloaded, it receives self and deltaTime as parameters
+		ShowHealingPrediction = true, --> when casting a healing pass, show the amount of health that spell will heal
+		ShowShields = true, --> indicator of the amount of damage absortion the unit has
+		
+		--appearance
+		BackgroundColor = DF:CreateColorTable (.2, .2, .2, .8),
+		Texture = [[Interface\RaidFrame\Raid-Bar-Hp-Fill]],
+		ShieldIndicatorTexture = [[Interface\RaidFrame\Shield-Fill]],
+		ShieldGlowTexture = [[Interface\RaidFrame\Shield-Overshield]],
+		ShieldGlowWidth = 16,
+
+		--default size
+		Width = 100,
+		Height = 20,
+	},
+	
+	HealthBarEvents = {
+		{"PLAYER_ENTERING_WORLD"},
+		--{"UNIT_HEALTH", true},
+		{"UNIT_MAXHEALTH", true},
+		{"UNIT_HEALTH_FREQUENT", true},
+		{"UNIT_HEAL_PREDICTION", true},
+		{"UNIT_ABSORB_AMOUNT_CHANGED", true},
+		{"UNIT_HEAL_ABSORB_AMOUNT_CHANGED", true},
+	},
+	
+	--> setup the castbar to be used by another unit
+	SetUnit = function (self, unit, displayedUnit)
+		if (self.unit ~= unit or self.displayedUnit ~= displayedUnit or unit == nil) then
+		
+			CalcPerformance ("call", "SetUnit")
+		
+			self.unit = unit
+			self.displayedUnit = displayedUnit or unit
+
+			--> register events
+			if (unit) then
+				self.currentHealth = UnitHealth (unit) or 0
+				self.currentHealthMax = UnitHealthMax (unit) or 0
+				
+				for _, eventTable in ipairs (self.HealthBarEvents) do
+					local event = eventTable [1]
+					local isUnitEvent = eventTable [2]
+					if (isUnitEvent) then
+						self:RegisterUnitEvent (event, self.displayedUnit, self.unit)
+					else
+						self:RegisterEvent (event)
+					end
+				end
+				
+				--> check for settings and update some events
+				if (not self.Settings.ShowHealingPrediction) then
+					self:UnregisterEvent ("UNIT_HEAL_PREDICTION")
+					self:UnregisterEvent ("UNIT_HEAL_ABSORB_AMOUNT_CHANGED")
+					self.incomingHealIndicator:Hide()
+					self.healAbsorbIndicator:Hide()
+				end
+				if (not self.Settings.ShowShields) then
+					self:UnregisterEvent ("UNIT_ABSORB_AMOUNT_CHANGED")
+					self.shieldAbsorbIndicator:Hide()
+					self.shieldAbsorbGlow:Hide()
+				end
+				
+				--> set scripts
+				self:SetScript ("OnEvent", self.OnEvent)
+				
+				if (self.Settings.CanTick) then
+					self:SetScript ("OnUpdate", self.OnTick)
+				end
+				
+				self:PLAYER_ENTERING_WORLD (self.unit, self.displayedUnit)
+			else
+				--> remove all registered events
+				for _, eventTable in ipairs (self.HealthBarEvents) do
+					local event = eventTable [1]
+					self:UnregisterEvent (event)
+				end
+				
+				--> remove scripts
+				self:SetScript ("OnEvent", nil)
+				self:SetScript ("OnUpdate", nil)
+				self:Hide()
+			end
+		end
+	end,
+	
+	Initialize = function (self)
+		PixelUtil.SetWidth (self, self.Settings.Width, 1)
+		PixelUtil.SetHeight (self, self.Settings.Height, 1)
+		
+		self:SetTexture (self.Settings.Texture)
+		
+		self.background:SetAllPoints()
+		self.background:SetColorTexture (self.Settings.BackgroundColor:GetColor())
+
+		--setpoint of these widgets are set inside the function that updates the incoming heal
+		self.incomingHealIndicator:SetTexture (self:GetTexture())
+		self.healAbsorbIndicator:SetTexture (self:GetTexture())
+		self.healAbsorbIndicator:SetVertexColor (.1, .8, .8)
+		self.shieldAbsorbIndicator:SetTexture (self.Settings.ShieldIndicatorTexture, true, true)
+
+		self.shieldAbsorbGlow:SetWidth (self.Settings.ShieldGlowWidth)
+		self.shieldAbsorbGlow:SetTexture (self.Settings.ShieldGlowTexture)
+		self.shieldAbsorbGlow:SetBlendMode ("ADD")
+		self.shieldAbsorbGlow:SetPoint ("topright", self, "topright", 8, 0)
+		self.shieldAbsorbGlow:SetPoint ("bottomright", self, "bottomright", 8, 0)
+		self.shieldAbsorbGlow:Hide()
+		
+		self:SetUnit (nil)
+		
+		CalcPerformance ("call", "HealthBar-Initialize")
+	end,
+	
+	--> call every tick
+	OnTick = function (self, deltaTime) end, --if overrided, set 'CanTick' to true on the settings table
+
+	--> when an event happen for this unit, send it to the apropriate function
+	OnEvent = function (self, event, ...)
+		CalcPerformance ("unit", self.unit)
+		CalcPerformance ("event", event)
+		CalcPerformance ("call", "HealthBar-OnEvent")
+	
+		DF_CalcCpuUsage ("healthBar-OnEvent")
+		local eventFunc = self [event]
+		if (eventFunc) then
+			--the function doesn't receive which event was, only 'self' and the parameters
+			eventFunc (self, ...)
+		end
+		DF_CalcCpuUsage ("healthBar-OnEvent")
+	end,
+
+	--colocar mais coisas aqui, um member dizendo quanto de health e o health max da unit
+	UpdateMaxHealth = function (self)
+		DF_CalcCpuUsage ("HealthBar-UpdateMaxHealth")
+			local maxHealth = UnitHealthMax (self.displayedUnit)
+			self:SetMinMaxValues (0, maxHealth)
+			self.currentHealthMax = maxHealth
+		DF_CalcCpuUsage ("HealthBar-UpdateMaxHealth")
+
+		CalcPerformance ("call", "HealthBar-UpdateMaxHealth")
+	end,
+
+	UpdateHealth = function (self)
+		DF_CalcCpuUsage ("HealthBar-UpdateHealth")
+			local health = UnitHealth (self.displayedUnit)
+			self.currentHealth = health
+			PixelUtil.SetStatusBarValue (self, health)
+		DF_CalcCpuUsage ("HealthBar-UpdateHealth")
+		
+		CalcPerformance ("call", "HealthBar-UpdateHealth")
+	end,
+	
+	--isso aqui vai ser complicado!
+	UpdateHealPrediction = function (self)
+		CalcPerformance ("call", "HealthBar-UpdateHealPrediction")
+		
+		DF_CalcCpuUsage ("HealthBar-UpdateHealPrediction")
+		
+		local currentHealth = self.currentHealth
+		local currentHealthMax = self.currentHealthMax
+		local healthPercent = currentHealth / currentHealthMax
+		
+		if (not currentHealthMax or currentHealthMax <= 0) then
+			DF_CalcCpuUsage ("HealthBar-UpdateHealPrediction")
+			return
+		end
+		
+		--order is: the health of the unit > damage absorb > heal absorb > incoming heal
+		local width = self:GetWidth()
+		
+		if (self.Settings.ShowHealingPrediction) then
+			--incoming heal on the unit from all sources
+			local unitHealIncoming = UnitGetIncomingHeals (self.displayedUnit) or 0
+			--heal absorbs
+			local unitHealAbsorb = UnitGetTotalHealAbsorbs (self.displayedUnit) or 0
+		
+			if (unitHealIncoming > 0) then
+				--calculate what is the percent of health incoming based on the max health the player has
+				local incomingPercent = unitHealIncoming / currentHealthMax
+				self.incomingHealIndicator:Show()
+				self.incomingHealIndicator:SetWidth (max (1, min (width * incomingPercent, abs (healthPercent - 1) * width)))
+				self.incomingHealIndicator:SetPoint ("topleft", self, "topleft", width * healthPercent, 0)
+				self.incomingHealIndicator:SetPoint ("bottomleft", self, "bottomleft", width * healthPercent, 0)
+			else
+				self.incomingHealIndicator:Hide()
+			end
+			
+			if (unitHealAbsorb > 0) then
+				local healAbsorbPercent = unitHealAbsorb / currentHealthMax
+				self.healAbsorbIndicator:Show()
+				self.healAbsorbIndicator:SetWidth (max (1, min (width * healAbsorbPercent, abs (healthPercent - 1) * width)))
+				self.healAbsorbIndicator:SetPoint ("topleft", self, "topleft", width * healthPercent, 0)
+				self.healAbsorbIndicator:SetPoint ("bottomleft", self, "bottomleft", width * healthPercent, 0)
+			else
+				self.healAbsorbIndicator:Hide()
+			end
+		end
+		
+		if (self.Settings.ShowShields) then
+			--damage absorbs
+			local unitDamageAbsorb = UnitGetTotalAbsorbs (self.displayedUnit) or 0
+		
+			if (unitDamageAbsorb > 0) then
+				local damageAbsorbPercent = unitDamageAbsorb / currentHealthMax
+				self.shieldAbsorbIndicator:Show()
+				--set the width where the max width size is what is lower: the absorb size or the missing amount of health in the health bar
+				--/dump NamePlate1PlaterUnitFrameHealthBar.shieldAbsorbIndicator:GetSize()
+				self.shieldAbsorbIndicator:SetWidth (max (1, min (width * damageAbsorbPercent, abs (healthPercent - 1) * width)))
+				self.shieldAbsorbIndicator:SetPoint ("topleft", self, "topleft", width * healthPercent, 0)
+				self.shieldAbsorbIndicator:SetPoint ("bottomleft", self, "bottomleft", width * healthPercent, 0)
+				
+				--if the absorb percent pass 100%, show the glow
+				if ((healthPercent + damageAbsorbPercent) > 1) then
+					self.shieldAbsorbGlow:Show()
+				else
+					self.shieldAbsorbGlow:Hide()
+				end
+			else
+				self.shieldAbsorbIndicator:Hide()
+				self.shieldAbsorbGlow:Hide()
+			end
+		else
+			self.shieldAbsorbIndicator:Hide()
+			self.shieldAbsorbGlow:Hide()
+		end
+		
+		DF_CalcCpuUsage ("HealthBar-UpdateHealPrediction")
+	end,
+
+	PLAYER_ENTERING_WORLD = function (self, ...) 
+		self:UpdateMaxHealth()
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+	
+	--> health events
+	UNIT_HEALTH = function (self, ...) 
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+		
+		local unitName = UnitName (self.unit)
+		CalcPerformance ("call", "HealthBar-UNIT_HEALTH-" .. unitName)
+	end,
+	UNIT_HEALTH_FREQUENT = function (self, ...)
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+	UNIT_MAXHEALTH = function (self, ...)
+		self:UpdateMaxHealth()
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+
+	UNIT_HEAL_PREDICTION = function (self, ...)
+		self:UpdateMaxHealth()
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+	UNIT_ABSORB_AMOUNT_CHANGED = function (self, ...)
+		self:UpdateMaxHealth()
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+	UNIT_HEAL_ABSORB_AMOUNT_CHANGED = function (self, ...)
+		self:UpdateMaxHealth()
+		self:UpdateHealth()
+		self:UpdateHealPrediction()
+	end,
+}
+
+-- ~healthbar
+function DF:CreateHealthBar (parent, name, settingsOverride)
+
+	assert (name or parent:GetName(), "DetailsFramework:CreateHealthBar parameter 'name' omitted and parent has no name.")
+
+	local healthBar = CreateFrame ("StatusBar", name or (parent:GetName() .. "HealthBar"), parent)
+		do --layers
+			--background
+			healthBar.background = healthBar:CreateTexture (nil, "background")
+			healthBar.background:SetDrawLayer ("background", -6)
+			
+			--artwork
+			--healing incoming
+			healthBar.incomingHealIndicator = healthBar:CreateTexture (nil, "artwork")
+			healthBar.incomingHealIndicator:SetDrawLayer ("artwork", 4)
+			--current shields on the unit
+			healthBar.shieldAbsorbIndicator =  healthBar:CreateTexture (nil, "artwork")
+			healthBar.shieldAbsorbIndicator:SetDrawLayer ("artwork", 5)
+			--debuff absorbing heal
+			healthBar.healAbsorbIndicator = healthBar:CreateTexture (nil, "artwork")
+			healthBar.healAbsorbIndicator:SetDrawLayer ("artwork", 6)
+			--the shield fills all the bar, show that cool glow
+			healthBar.shieldAbsorbGlow = healthBar:CreateTexture (nil, "artwork")
+			healthBar.shieldAbsorbGlow:SetDrawLayer ("artwork", 7)
+			--statusbar texture
+			healthBar.barTexture = healthBar:CreateTexture (nil, "artwork")
+			healthBar:SetStatusBarTexture (healthBar.barTexture)
+		end
+
+	--> mixins
+	DF:Mixin (healthBar, DF.HealthFrameFunctions)
+	DF:Mixin (healthBar, DF.StatusBarFunctions)
+	
+	--> settings and hooks
+	local settings = DF.table.copy ({}, DF.HealthFrameFunctions.Settings)
+	if (settingsOverride) then
+		DF.table.copy (settings, settingsOverride)
+	end
+	healthBar.Settings = settings
+	
+	local hookList = DF.table.copy ({}, DF.HealthFrameFunctions.HookList)
+	healthBar.HookList = hookList
+	
+	--> initialize the cast bar
+	healthBar:Initialize()
+	
+	return healthBar
+end
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> power bar frame
+
+--[=[
+	DF:CreatePowerBar (parent, name, settingsOverride)
+	creates statusbar frame to show the unit power bar
+	@parent = frame to pass for the CreateFrame function
+	@name = absolute name of the frame, if omitted it uses the parent's name .. "PPowerBar"
+	@settingsOverride = table with keys and values to replace the defaults from the framework
+--]=]
+
+DF.PowerFrameFunctions = {
+
+	WidgetType = "powerBar",
+	SetHook = DF.SetHook,
+	RunHooksForWidget = DF.RunHooksForWidget,
+	
+	HookList = {
+		OnHide = {}, 
+		OnShow = {},
+	},
+	
+	Settings = {
+		--> misc
+		ShowAlternatePower = true, --> if true it'll show alternate power over the regular power the unit uses
+		ShowPercentText = true, --> if true show a text with the current energy percent
+		HideIfNoPower = true, --> if true and the UnitMaxPower returns zero, it'll hide the power bar with self:Hide()
+		CanTick = false, --> if it calls the OnTick function every tick
+		
+		--appearance
+		BackgroundColor = DF:CreateColorTable (.2, .2, .2, .8),
+		Texture = [[Interface\RaidFrame\Raid-Bar-Resource-Fill]],
+		
+		--> default size
+		Width = 100,
+		Height = 20,
+	},
+	
+	PowerBarEvents = {
+		{"PLAYER_ENTERING_WORLD"},
+		{"UNIT_DISPLAYPOWER", true},
+		{"UNIT_POWER_BAR_SHOW", true},
+		{"UNIT_POWER_BAR_HIDE", true},
+		{"UNIT_MAXPOWER", true},
+		{"UNIT_POWER_UPDATE", true},
+		{"UNIT_POWER_FREQUENT", true},
+	},
+	
+	--> setup the castbar to be used by another unit
+	SetUnit = function (self, unit, displayedUnit)
+		if (self.unit ~= unit or self.displayedUnit ~= displayedUnit or unit == nil) then
+			self.unit = unit
+			self.displayedUnit = displayedUnit or unit
+			
+			--> register events
+			if (unit) then
+				for _, eventTable in ipairs (self.PowerBarEvents) do
+					local event = eventTable [1]
+					local isUnitEvent = eventTable [2]
+					
+					if (isUnitEvent) then
+						self:RegisterUnitEvent (event, self.displayedUnit)
+					else
+						self:RegisterEvent (event)
+					end
+				end
+				
+				--> set scripts
+				self:SetScript ("OnEvent", self.OnEvent)
+				
+				if (self.Settings.CanTick) then
+					self:SetScript ("OnUpdate", self.OnTick)
+				end
+				
+				self:Show()
+				self:UpdatePowerBar()
+			else
+				--> remove all registered events
+				for _, eventTable in ipairs (self.PowerBarEvents) do
+					local event = eventTable [1]
+					self:UnregisterEvent (event)
+				end
+				
+				--> remove scripts
+				self:SetScript ("OnEvent", nil)
+				self:SetScript ("OnUpdate", nil)
+				self:Hide()
+			end
+		end
+	end,
+	
+	Initialize = function (self)
+		PixelUtil.SetWidth (self, self.Settings.Width)
+		PixelUtil.SetHeight (self, self.Settings.Height)
+		
+		self:SetTexture (self.Settings.Texture)
+		
+		self.background:SetAllPoints()
+		self.background:SetColorTexture (self.Settings.BackgroundColor:GetColor())
+		
+		if (self.Settings.ShowPercentText) then
+			self.percentText:Show()
+			PixelUtil.SetPoint (self.percentText, "center", self, "center", 0, 0)
+			
+			DF:SetFontSize (self.percentText, 9)
+			DF:SetFontColor (self.percentText, "white")
+			DF:SetFontOutline (self.percentText, "OUTLINE")
+		else
+			self.percentText:Hide()
+		end
+		
+		self:SetUnit (nil)
+	end,
+	
+	--> call every tick
+	OnTick = function (self, deltaTime) end, --if overrided, set 'CanTick' to true on the settings table
+
+	--> when an event happen for this unit, send it to the apropriate function
+	OnEvent = function (self, event, ...)
+		DF_CalcCpuUsage ("Powerbar-OnEvent")
+		local eventFunc = self [event]
+		if (eventFunc) then
+			--the function doesn't receive which event was, only 'self' and the parameters
+			eventFunc (self, ...)
+		end
+		DF_CalcCpuUsage ("Powerbar-OnEvent")
+	end,
+	
+	UpdatePowerBar = function (self)
+		self:UpdatePowerInfo()
+		self:UpdateMaxPower()
+		self:UpdatePower()
+		self:UpdatePowerColor()
+	end,
+	
+	--> power update
+	UpdateMaxPower = function (self)
+		self.currentPowerMax = UnitPowerMax (self.displayedUnit, self.powerType)
+		self:SetMinMaxValues (self.minPower, self.currentPowerMax)
+		
+		if (self.currentPowerMax == 0 and self.Settings.HideIfNoPower) then
+			self:Hide()
+		end
+	end,
+	UpdatePower = function (self)
+		DF_CalcCpuUsage ("Powerbar-UpdatePower")
+		self.currentPower = UnitPower (self.displayedUnit, self.powerType)
+		PixelUtil.SetStatusBarValue (self, self.currentPower)
+		
+		if (self.Settings.ShowPercentText) then
+			self.percentText:SetText (floor (self.currentPower / self.currentPowerMax * 100) .. "%")
+		end
+		DF_CalcCpuUsage ("Powerbar-UpdatePower")
+	end,
+	
+	--> when a event different from unit_power_update is triggered, update which type of power the unit should show
+	UpdatePowerInfo = function (self)
+		DF_CalcCpuUsage ("Powerbar-UpdatePowerInfo")
+		if (self.Settings.ShowAlternatePower) then
+			local _, minPower, _, _, _, _, showOnRaid = UnitAlternatePowerInfo (self.displayedUnit)
+			if (showOnRaid and IsInGroup()) then
+				self.powerType = ALTERNATE_POWER_INDEX
+				self.minPower = minPower
+				DF_CalcCpuUsage ("Powerbar-UpdatePowerInfo")
+				return
+			end
+		end
+		
+		self.powerType = UnitPowerType (self.displayedUnit)
+		self.minPower = 0
+		DF_CalcCpuUsage ("Powerbar-UpdatePowerInfo")
+	end,
+	
+	--> tint the bar with the color of the power, e.g. blue for a mana bar
+	UpdatePowerColor = function (self)
+		if (not UnitIsConnected (self.unit)) then
+			self:SetStatusBarColor (.5, .5, .5)
+			return
+		end
+		
+		if (self.powerType == ALTERNATE_POWER_INDEX) then
+			--> don't change this, keep the same color as the game tints on CompactUnitFrame.lua
+			self:SetStatusBarColor (0.7, 0.7, 0.6)
+			return
+		end
+		
+		local powerColor = PowerBarColor [self.powerType] --> don't appear to be, but PowerBarColor is a global table with all power colors /run Details:Dump (PowerBarColor)
+		if (powerColor) then
+			self:SetStatusBarColor (powerColor.r, powerColor.g, powerColor.b)
+			return
+		end
+		
+		local _, _, r, g, b = UnitPowerType (self.displayedUnit)
+		if (r) then
+			self:SetStatusBarColor (r, g, b)
+			return
+		end
+		
+		--> if everything else fails, tint as rogue energy
+		powerColor = PowerBarColor ["ENERGY"]
+		self:SetStatusBarColor (powerColor.r, powerColor.g, powerColor.b)
+	end,
+
+	--> events
+	PLAYER_ENTERING_WORLD = function (self, ...)
+		self:UpdatePowerBar()
+	end,
+	UNIT_DISPLAYPOWER  = function (self, ...) 
+		self:UpdatePowerBar()
+	end,
+	UNIT_POWER_BAR_SHOW = function (self, ...) 
+		self:UpdatePowerBar()
+	end,
+	UNIT_POWER_BAR_HIDE = function (self, ...)
+		self:UpdatePowerBar()
+	end,
+	
+	UNIT_MAXPOWER = function (self, ...)
+		self:UpdateMaxPower()
+		self:UpdatePower()
+	end,
+	UNIT_POWER_UPDATE = function (self, ...)
+		self:UpdatePower()
+	end,
+	UNIT_POWER_FREQUENT = function (self, ...)
+		self:UpdatePower()
+	end,
+}
+
+-- ~powerbar
+function DF:CreatePowerBar (parent, name, settingsOverride)
+
+	assert (name or parent:GetName(), "DetailsFramework:CreatePowerBar parameter 'name' omitted and parent has no name.")
+
+	local powerBar = CreateFrame ("StatusBar", name or (parent:GetName() .. "PowerBar"), parent)
+		do --layers
+			--background
+			powerBar.background = powerBar:CreateTexture (nil, "background")
+			powerBar.background:SetDrawLayer ("background", -6)
+			
+			--artwork
+			powerBar.barTexture = powerBar:CreateTexture (nil, "artwork")
+			powerBar:SetStatusBarTexture (powerBar.barTexture)
+			
+			--overlay
+			powerBar.percentText = powerBar:CreateFontString (nil, "overlay", "GameFontNormal")
+		end
+
+	--> mixins
+	DF:Mixin (powerBar, DF.PowerFrameFunctions)
+	DF:Mixin (powerBar, DF.StatusBarFunctions)
+	
+	--> settings and hooks
+	local settings = DF.table.copy ({}, DF.PowerFrameFunctions.Settings)
+	if (settingsOverride) then
+		DF.table.copy (settings, settingsOverride)
+	end
+	powerBar.Settings = settings
+	
+	local hookList = DF.table.copy ({}, DF.PowerFrameFunctions.HookList)
+	powerBar.HookList = hookList
+	
+	--> initialize the cast bar
+	powerBar:Initialize()
+	
+	return powerBar
+end
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> cast bar frame
+
+--[=[
+	DF:CreateCastBar (parent, name, settingsOverride)
+	creates a cast bar to show an unit cast
+	@parent = frame to pass for the CreateFrame function
+	@name = absolute name of the frame, if omitted it uses the parent's name .. "CastBar"
+	@settingsOverride = table with keys and values to replace the defaults from the framework
+--]=]
+
+DF.CastFrameFunctions = {
+
+	WidgetType = "castBar",
+	SetHook = DF.SetHook,
+	RunHooksForWidget = DF.RunHooksForWidget,
+	
+	HookList = {
+		OnHide = {}, 
+		OnShow = {},
+		
+		--can be regular cast or channel
+		OnCastStart = {},
+	},
+
+	CastBarEvents = {
+		{"UNIT_SPELLCAST_INTERRUPTED"},
+		{"UNIT_SPELLCAST_DELAYED"},
+		{"UNIT_SPELLCAST_CHANNEL_START"},
+		{"UNIT_SPELLCAST_CHANNEL_UPDATE"},
+		{"UNIT_SPELLCAST_CHANNEL_STOP"},
+		{"UNIT_SPELLCAST_INTERRUPTIBLE"},
+		{"UNIT_SPELLCAST_NOT_INTERRUPTIBLE"},
+		{"PLAYER_ENTERING_WORLD"},
+		{"UNIT_SPELLCAST_START", true},
+		{"UNIT_SPELLCAST_STOP", true},
+		{"UNIT_SPELLCAST_FAILED", true},
+	},
+	
+	Settings = {
+		NoFadeEffects = false, --if true it won't play fade effects when a cast if finished
+		ShowTradeSkills = false, --if true, it shows cast for trade skills, e.g. creating an icon with blacksmith
+		ShowShield = true, --if true, shows the shield above the spell icon for non interruptible casts
+		CanTick = true, --if true it will run its OnTick function every tick.
+		ShowCastTime = true, --if true, show the remaining time to finish the cast, lazy tick must be enabled
+		FadeInTime = 0.1, --amount of time in seconds to go from zero to 100% alpha when starting to cast
+		FadeOutTime = 0.5, --amount of time in seconds to go from 100% to zero alpha when the cast finishes
+		CanLazyTick = true, --if true, it'll execute the lazy tick function, it ticks in a much slower pace comparece with the regular tick
+		LazyUpdateCooldown = 0.2, --amount of time to wait for the next lazy update, this updates non critical things like the cast timer
+		
+		--default size
+		Width = 100,
+		Height = 20,
+		
+		--colour the castbar statusbar by the type of the cast
+		Colors = {
+			Casting = DF:CreateColorTable (1, 0.73, .1, 1),
+			Channeling = DF:CreateColorTable (1, 0.73, .1, 1),
+			Finished = DF:CreateColorTable (0, 1, 0, 1),
+			NonInterruptible = DF:CreateColorTable (.7, .7, .7, 1),
+			Failed = DF:CreateColorTable (.4, .4, .4, 1),
+			Interrupted = DF:CreateColorTable (.965, .754, .154, 1),
+		},
+
+		--appearance
+		BackgroundColor = DF:CreateColorTable (.2, .2, .2, .8),
+		Texture = [[Interface\TargetingFrame\UI-StatusBar]],
+		BorderShieldWidth = 10,
+		BorderShieldHeight = 12,
+		BorderShieldCoords = {0.26171875, 0.31640625, 0.53125, 0.65625},
+		BorderShieldTexture = 1300837,
+		SpellIconWidth = 10,
+		SpellIconHeight = 10,
+		ShieldIndicatorTexture = [[Interface\RaidFrame\Shield-Fill]],
+		ShieldGlowTexture = [[Interface\RaidFrame\Shield-Overshield]],
+		SparkTexture = [[Interface\CastingBar\UI-CastingBar-Spark]],
+		SparkWidth = 16,
+		SparkHeight = 16,
+		SparkOffset = 0,
+	},
+	
+	Initialize = function (self)
+		self.unit = "unutilized unit"
+		self.lazyUpdateCooldown = self.Settings.LazyUpdateCooldown
+		self.Colors = self.Settings.Colors
+		
+		self:SetUnit (nil)
+		PixelUtil.SetWidth (self, self.Settings.Width)
+		PixelUtil.SetHeight (self, self.Settings.Height)
+		
+		self.background:SetColorTexture (self.Settings.BackgroundColor:GetColor())
+		self.background:SetAllPoints()		
+		self.extraBackground:SetColorTexture (0, 0, 0, 1)
+		self.extraBackground:SetVertexColor (self.Settings.BackgroundColor:GetColor())
+		self.extraBackground:SetAllPoints()
+		
+		self:SetTexture (self.Settings.Texture)
+		
+		self.BorderShield:SetPoint ("center", self, "left", 0, 0)
+		self.BorderShield:SetTexture (self.Settings.BorderShieldTexture)
+		self.BorderShield:SetTexCoord (unpack (self.Settings.BorderShieldCoords))
+		self.BorderShield:SetSize (self.Settings.BorderShieldWidth, self.Settings.BorderShieldHeight)
+		
+		self.Icon:SetPoint ("center", self, "left", 2, 0)
+		self.Icon:SetSize (self.Settings.SpellIconWidth, self.Settings.SpellIconHeight)
+		
+		self.Spark:SetTexture (self.Settings.SparkTexture)
+		self.Spark:SetSize (self.Settings.SparkWidth, self.Settings.SparkHeight)
+		
+		self.percentText:SetPoint ("right", self, "right", -2, 0)
+		self.percentText:SetJustifyH ("right")
+		
+		self.fadeOutAnimation.alpha1:SetDuration (self.Settings.FadeOutTime)
+		self.fadeInAnimation.alpha1:SetDuration (self.Settings.FadeInTime)
+	end,
+	
+	SetDefaultColor = function (self, colorType, r, g, b, a)
+		assert (type (colorType) == "string", "DetailsFramework: CastBar:SetDefaultColor require a string in the first argument.")
+		self.Colors [colorType]:SetColor (r, g, b, a)
+	end,
+	
+	--> this get a color suggestion based on the type of cast being shown in the cast bar
+	GetCastColor = function (self)
+		if (not self.canInterrupt) then
+			return self.Colors.NonInterruptible
+			
+		elseif (self.channeling) then
+			return self.Colors.Channeling
+		
+		elseif (self.failed) then
+			return self.Colors.Failed
+		
+		elseif (self.interrupted) then
+			return self.Colors.Interrupted
+		
+		elseif (self.finished) then
+			return self.Colors.Finished
+		
+		else		
+			return self.Colors.Casting
+		end
+	end,
+	
+	--> update all colors of the cast bar
+	UpdateCastColor = function (self)
+		local castColor = self:GetCastColor()
+		self:SetColor (castColor) --SetColor handles with ParseColors()
+	end,
+	
+	--> initial checks to know if this is a valid cast and should show the cast bar, if this fails the cast bar won't show
+	IsValid = function (self, unit, castName, isTradeSkill, ignoreVisibility)
+		if (not ignoreVisibility and not self:IsShown()) then
+			return false
+		end
+		
+		if (not self.Settings.ShowTradeSkills) then
+			if (isTradeSkill) then
+				return false
+			end
+		end
+		
+		if (not castName) then
+			return false
+		end
+		
+		return true
+	end,
+	
+	--> handle the interrupt state of the cast
+	--> this does not change the cast bar color because this function is called inside the start cast where is already handles the cast color
+	UpdateInterruptState = function (self)
+		if (self.Settings.ShowShield and not self.canInterrupt) then
+			self.BorderShield:Show()
+		else
+			self.BorderShield:Hide()
+		end
+	end,
+	
+	--> this check if the cast did reach 100% in the statusbar, mostly called from OnTick
+	CheckCastIsDone = function (self, event, isFinished)
+
+		--> check max value
+		if (not isFinished and not self.finished) then
+			if (self.casting) then
+				if (self.value >= self.maxValue or self.value < 0) then
+					isFinished = true
+				end
+				
+			elseif (self.channeling) then
+				if (self.value > self.maxValue or self.value <= 0) then
+					isFinished = true
+				end
+			end
+			
+			--> check if passed an event (not begin used at the moment)
+			if (event) then
+				if (event == UNIT_SPELLCAST_STOP or event == UNIT_SPELLCAST_CHANNEL_STOP) then
+					isFinished = true
+				end
+			end
+		end
+		
+		--> the cast is finished
+		if (isFinished) then
+			if (self.casting) then
+				self.UNIT_SPELLCAST_STOP (self, self.unit, self.unit, self.castID, self.spellID)
+
+			elseif (self.channeling) then
+				self.UNIT_SPELLCAST_CHANNEL_STOP (self, self.unit, self.unit, self.castID, self.spellID)
+			end
+			
+			return true
+		end
+	end,
+	
+	--> setup the castbar to be used by another unit
+	SetUnit = function (self, unit, displayedUnit)
+		if (self.unit ~= unit or self.displayedUnit ~= displayedUnit or unit == nil) then
+			self.unit = unit
+			self.displayedUnit = displayedUnit or unit
+
+			--> reset the cast bar
+			self.casting = nil
+			self.channeling = nil
+			self.caninterrupt = nil
+			
+			--> register events
+			if (unit) then
+				for _, eventTable in ipairs (self.CastBarEvents) do
+					local event = eventTable [1]
+					local isUnitEvent = eventTable [2]
+					
+					if (isUnitEvent) then
+						self:RegisterUnitEvent (event, unit)
+					else
+						self:RegisterEvent (event)
+					end
+				end
+				
+				--> set scripts
+				self:SetScript ("OnEvent", self.OnEvent)
+				self:SetScript ("OnShow", self.OnShow)
+				self:SetScript ("OnHide", self.OnHide)
+				
+				if (self.Settings.CanTick) then
+					self:SetScript ("OnUpdate", self.OnTick)
+				end
+				
+				--> check is can show the cast time text
+				if (self.Settings.ShowCastTime and self.Settings.CanLazyTick) then
+					self.percentText:Show()
+				else
+					self.percentText:Hide()
+				end
+
+				--> setup animtions
+				self:CancelScheduleToHide()
+
+				--self:PLAYER_ENTERING_WORLD (unit, unit)
+				self:OnEvent ("PLAYER_ENTERING_WORLD", unit, unit)
+				
+			else
+				for _, eventTable in ipairs (self.CastBarEvents) do
+					local event = eventTable [1]
+					self:UnregisterEvent (event)
+				end
+				
+				--> register main events
+				self:SetScript ("OnUpdate", nil)
+				self:SetScript ("OnEvent", nil)
+				self:SetScript ("OnShow", nil)
+				self:SetScript ("OnHide", nil)
+				
+				self:Hide()
+			end
+		end
+	end,
+	
+	--> executed after a scheduled to hide timer is done
+	DoScheduledHide = function (timerObject)
+		timerObject.castBar.scheduledHideTime = nil
+		
+		--just to make sure it isn't casting
+		if (not timerObject.castBar.casting and not timerObject.castBar.channeling) then
+			if (not timerObject.castBar.Settings.NoFadeEffects) then
+				timerObject.castBar:Animation_FadeOut()
+			else
+				timerObject.castBar:Hide()
+			end
+		end
+	end,
+	
+	HasScheduledHide = function (self)
+		return self.scheduledHideTime and not self.scheduledHideTime._cancelled
+	end,
+	
+	CancelScheduleToHide = function (self)
+		if (self:HasScheduledHide()) then
+			self.scheduledHideTime:Cancel()
+		end
+	end,
+	
+	--> after an interrupt, do not immediately hide the cast bar, let it up for short amount of time to give feedback to the player
+	ScheduleToHide = function (self, delay)
+		if (not delay) then
+			if (self.scheduledHideTime and not self.scheduledHideTime._cancelled) then
+				self.scheduledHideTime:Cancel()
+			end
+			
+			self.scheduledHideTime = nil
+			return
+		end
+
+		--> already have a scheduled timer?
+		if (self.scheduledHideTime and not self.scheduledHideTime._cancelled) then
+			self.scheduledHideTime:Cancel()
+		end
+		
+		self.scheduledHideTime = C_Timer.NewTimer (delay, self.DoScheduledHide)
+		self.scheduledHideTime.castBar = self
+	end,
+
+	OnHide = function (self)
+		--> just in case some other effects made it have a different alpha since SetUnit won't load if the unit is the same.
+		self:SetAlpha (1)
+		--> cancel any timer to hide scheduled
+		self:CancelScheduleToHide()
+	end,
+	
+	--> just update the current value if a spell is being cast since it wasn't running its tick function during the hide state
+	--> everything else should be in the correct state
+	OnShow = function (self)
+		self.flashTexture:Hide()
+		
+		if (self.unit) then
+			if (self.casting) then
+				local name, text, texture, startTime = UnitCastingInfo (self.unit)
+				if (name) then
+					self.value = GetTime() - self.spellStartTime
+				end
+
+				self:RunHooksForWidget ("OnShow", self, self.unit)
+				
+			elseif (self.channeling) then
+				local name, text, texture, endTime = UnitChannelInfo (self.unit)
+				if (name) then
+					self.value = self.spellEndTime - GetTime()
+				end
+
+				self:RunHooksForWidget ("OnShow", self, self.unit)
+			end
+		end
+	end,
+	
+	--it's triggering several events since it's not registered for the unit with RegisterUnitEvent
+	OnEvent = function (self, event, ...)
+		local arg1 = ...
+		local unit = self.unit
+
+		if (event == "PLAYER_ENTERING_WORLD") then
+			local newEvent = self.PLAYER_ENTERING_WORLD (self, unit, ...)
+			if (newEvent) then
+				self.OnEvent (self, newEvent, unit)
+				return
+			end
+			
+		elseif (arg1 ~= unit) then
+			return
+		end
+
+		local eventFunc = self [event]
+		if (eventFunc) then
+			eventFunc (self, unit, ...)
+		end
+	end,
+	
+	OnTick_LazyTick = function (self)
+		--> run the lazy tick if allowed
+		if (self.Settings.CanLazyTick) then
+			--> update the cast time
+			if (self.Settings.ShowCastTime) then
+				if (self.casting) then
+					self.percentText:SetText (format ("%.1f", abs (self.value - self.maxValue)))
+					
+				elseif (self.channeling) then
+					local remainingTime = abs (self.value)
+					if (remainingTime > 999) then
+						self.percentText:SetText ("")
+					else
+						self.percentText:SetText (format ("%.1f", remainingTime))
+					end
+				else
+					self.percentText:SetText ("")
+				end
+			end
+			
+			return true
+		else
+			return false
+		end
+	end,
+	
+	--> tick function for regular casts
+	OnTick_Casting = function (self, deltaTime)
+		self.value = self.value + deltaTime
+		
+		if (self:CheckCastIsDone()) then
+			return
+		else
+			self:SetValue (self.value)
+		end
+		
+		--update spark position
+		local sparkPosition = self.value / self.maxValue * self:GetWidth()
+		self.Spark:SetPoint ("center", self, "left", sparkPosition + self.Settings.SparkOffset, 0)
+		
+		--in order to allow the lazy tick run, it must return true, it tell that the cast didn't finished
+		return true
+	end,
+
+	--> tick function for channeling casts
+	OnTick_Channeling = function (self, deltaTime)
+		self.value = self.value - deltaTime
+		
+		if (self:CheckCastIsDone()) then
+			return
+		else
+			self:SetValue (self.value)
+		end
+		
+		--update spark position
+		local sparkPosition = self.value / self.maxValue * self:GetWidth()
+		self.Spark:SetPoint ("center", self, "left", sparkPosition + self.Settings.SparkOffset, 0)
+		
+		return true
+	end,
+	
+	OnTick = function (self, deltaTime)
+		DF_CalcCpuUsage ("CastBar-OnTick")
+		if (self.casting) then
+			if (not self:OnTick_Casting (deltaTime)) then
+				DF_CalcCpuUsage ("CastBar-OnTick")
+				return
+			end
+
+			--lazy tick
+			self.lazyUpdateCooldown = self.lazyUpdateCooldown - deltaTime
+			if (self.lazyUpdateCooldown < 0) then
+				self:OnTick_LazyTick()
+				self.lazyUpdateCooldown = self.Settings.LazyUpdateCooldown
+			end
+			
+		elseif (self.channeling) then
+			if (not self:OnTick_Channeling (deltaTime)) then
+				DF_CalcCpuUsage ("CastBar-OnTick")
+				return
+			end
+			
+			--lazy tick
+			self.lazyUpdateCooldown = self.lazyUpdateCooldown - deltaTime
+			if (self.lazyUpdateCooldown < 0) then
+				self:OnTick_LazyTick()
+				self.lazyUpdateCooldown = self.Settings.LazyUpdateCooldown
+			end
+		end
+		DF_CalcCpuUsage ("CastBar-OnTick")
+	end,
+	
+	--> animation start script
+	Animation_FadeOutStarted = function (self)
+		
+	end,
+	
+	--> animation finished script
+	Animation_FadeOutFinished = function (self)
+		local castBar = self:GetParent()
+		castBar:SetAlpha (1)
+		castBar:Hide()
+	end,
+	
+	--> animation start script
+	Animation_FadeInStarted = function (self)
+		
+	end,
+	
+	--> animation finished script
+	Animation_FadeInFinished = function (self)
+		local castBar = self:GetParent()
+		castBar:Show()
+		castBar:SetAlpha (1)
+	end,
+	
+	--> animation calls
+	Animation_FadeOut = function (self)
+		self:ScheduleToHide (false)
+		
+		if (self.fadeInAnimation:IsPlaying()) then
+			self.fadeInAnimation:Stop()
+		end
+		
+		if (not self.fadeOutAnimation:IsPlaying()) then
+			self.fadeOutAnimation:Play()
+		end
+	end,
+	
+	Animation_FadeIn = function (self)
+		self:ScheduleToHide (false)
+		
+		if (self.fadeOutAnimation:IsPlaying()) then
+			self.fadeOutAnimation:Stop()
+		end
+		
+		if (not self.fadeInAnimation:IsPlaying()) then
+			self.fadeInAnimation:Play()
+		end
+	end,
+	
+	Animation_Flash = function (self)
+		if (not self.flashAnimation:IsPlaying()) then
+			self.flashAnimation:Play()
+		end
+	end,
+	
+	Animation_StopAllAnimations = function (self)
+		if (self.flashAnimation:IsPlaying()) then
+			self.flashAnimation:Stop()
+		end
+		
+		if (self.fadeOutAnimation:IsPlaying()) then
+			self.fadeOutAnimation:Stop()
+		end
+		
+		if (self.fadeInAnimation:IsPlaying()) then
+			self.fadeInAnimation:Stop()
+		end
+	end,
+	
+	PLAYER_ENTERING_WORLD = function (self, unit, arg1)
+		local isChannel = UnitChannelInfo (unit)
+		local isRegularCast = UnitCastingInfo (unit)
+		
+		if (isChannel) then
+			self.channeling = true
+			return self.unit == arg1 and "UNIT_SPELLCAST_CHANNEL_START"
+			
+		elseif (isRegularCast) then
+			self.casting = true
+			return self.unit == arg1 and "UNIT_SPELLCAST_START"
+			
+		else
+			self.casting = nil
+			self.channeling = nil
+			self.failed = nil
+			self.finished = nil
+			self.interrupted = nil
+			self.Spark:Hide()
+			self:Hide()
+		end
+	end,
+	
+	UNIT_SPELLCAST_START = function (self, unit)
+
+		local name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID = UnitCastingInfo (unit)
+		
+		--> is valid?
+		if (not self:IsValid (unit, name, isTradeSkill, true)) then
+			return
+		end
+		
+		--> setup cast
+			self.casting = true
+			self.channeling = nil
+			self.interrupted = nil
+			self.failed = nil
+			self.finished = nil
+			self.canInterrupt = not notInterruptible
+			self.spellID = spellID
+			self.castID = castID
+			self.spellName = name
+			self.spellTexture = texture
+			self.spellStartTime = startTime / 1000
+			self.spellEndTime = endTime / 1000
+			self.value = GetTime() - self.spellStartTime
+			self.maxValue = self.spellEndTime - self.spellStartTime
+			
+			self:SetMinMaxValues (0, self.maxValue)
+			self:SetValue (self.value)
+			self:SetAlpha (1)
+			self.Icon:SetTexture (texture)
+			self.Icon:Show()
+			self.Text:SetText (text)
+			
+			if (self.Settings.ShowCastTime and self.Settings.CanLazyTick) then
+				self.percentText:Show()
+			end
+			
+			self.flashTexture:Hide()
+			self:Animation_StopAllAnimations()
+			
+			if (not self:IsShown()) then
+				self:Animation_FadeIn()
+			end
+			
+			self.Spark:Show()
+			self:SetAlpha (1)
+			self:Show()
+		
+		--> set the statusbar color
+		self:UpdateCastColor()
+		
+		--> update the interrupt cast border
+		self:UpdateInterruptState()
+		
+		self:RunHooksForWidget ("OnCastStart", self, self.unit, "UNIT_SPELLCAST_START")
+	end,
+	
+	UNIT_SPELLCAST_CHANNEL_START = function (self, unit, ...)
+		local name, text, texture, startTime, endTime, isTradeSkill, notInterruptible, spellID = UnitChannelInfo (unit)
+
+		--> is valid?
+		if (not self:IsValid (unit, name, isTradeSkill, true)) then
+			return
+		end
+
+		--> setup cast
+			self.casting = nil
+			self.channeling = true
+			self.interrupted = nil
+			self.failed = nil
+			self.finished = nil
+			self.canInterrupt = not notInterruptible
+			self.spellID = spellID
+			self.castID = castID
+			self.spellName = name
+			self.spellTexture = texture
+			self.spellStartTime = startTime / 1000
+			self.spellEndTime = endTime / 1000
+			self.value = self.spellEndTime - GetTime()
+			self.maxValue = self.spellEndTime - self.spellStartTime
+			
+			self:SetMinMaxValues (0, self.maxValue)
+			self:SetValue (self.value)
+			
+			self:SetAlpha (1)
+			self.Icon:SetTexture (texture)
+			self.Icon:Show()
+			self.Text:SetText (text)
+			
+			if (self.Settings.ShowCastTime and self.Settings.CanLazyTick) then
+				self.percentText:Show()
+			end
+			
+			self.flashTexture:Hide()
+			self:Animation_StopAllAnimations()
+			
+			if (not self:IsShown()) then
+				self:Animation_FadeIn()
+			end
+			
+			self.Spark:Show()
+			self:SetAlpha (1)
+			self:Show()
+			
+		--> set the statusbar color
+		self:UpdateCastColor()
+		
+		--> update the interrupt cast border
+		self:UpdateInterruptState()
+
+		self:RunHooksForWidget ("OnCastStart", self, self.unit, "UNIT_SPELLCAST_CHANNEL_START")
+	end,
+	
+	UNIT_SPELLCAST_STOP = function (self, unit, ...)
+		local unitID, castID, spellID = ...
+		if (self.castID == castID) then
+			self.Spark:Hide()
+			self.percentText:Hide()
+			
+			local value = self:GetValue()
+			local _, maxValue = self:GetMinMaxValues()
+			self:SetValue (self.maxValue or maxValue or 1)
+			
+			self.casting = nil
+			self.finished = true
+			
+			if (not self:HasScheduledHide()) then
+				--> check if settings has no fade option or if its parents are not visible
+				if (not self:IsVisible()) then
+					self:Hide()
+					
+				elseif (self.Settings.NoFadeEffects) then
+					self:ScheduleToHide (0.3)
+					
+				else
+					self:Animation_Flash()
+					self:Animation_FadeOut()
+				end
+			end
+			
+			self:UpdateCastColor()
+		end
+	end,
+
+	UNIT_SPELLCAST_CHANNEL_STOP = function (self, unit, ...)
+		local unitID, castID, spellID = ...
+		
+		if (self.channeling and castID == self.castID) then
+			self.Spark:Hide()
+			self.percentText:Hide()
+			
+			local value = self:GetValue()
+			local _, maxValue = self:GetMinMaxValues()
+			self:SetValue (self.maxValue or maxValue or 1)
+			
+			self.channeling = nil
+			self.finished = true
+
+			if (not self:HasScheduledHide()) then
+				--> check if settings has no fade option or if its parents are not visible
+				if (not self:IsVisible()) then
+					self:Hide()
+					
+				elseif (self.Settings.NoFadeEffects) then
+					self:ScheduleToHide (0.3)
+					
+				else
+					self:Animation_Flash()
+					self:Animation_FadeOut()
+				end
+			end
+			
+			self:UpdateCastColor()
+		end	
+	end,
+
+	UNIT_SPELLCAST_FAILED = function (self, unit, ...)
+		local unitID, castID, spellID = ...
+	
+		if (self.casting and castID == self.castID and not self.fadeOut) then
+			self.casting = nil
+			self.channeling = nil
+			self.failed = true
+			self.finished = true
+			self:SetValue (self.maxValue or select (2, self:GetMinMaxValues()) or 1)
+			
+			--> set the statusbar color
+			self:UpdateCastColor()
+
+			self.Spark:Hide()
+			self.percentText:Hide()
+			self.Text:SetText (FAILED) --> auto locale within the global namespace
+			
+			self:ScheduleToHide (1)
+		end
+	end,
+	
+	UNIT_SPELLCAST_INTERRUPTED = function (self, unit, ...)
+		local unitID, castID, spellID = ...
+
+		if (self.casting and castID == self.castID and not self.fadeOut) then
+			self.casting = nil
+			self.channeling = nil
+			self.interrupted = true
+			self.finished = true
+			self:SetValue (self.maxValue or select (2, self:GetMinMaxValues()) or 1)
+			
+			local castColor = self:GetCastColor()
+			self:SetColor (castColor) --SetColor handles with ParseColors()
+			
+			self.Spark:Hide()
+			self.percentText:Hide()
+			self.Text:SetText (INTERRUPTED) --> auto locale within the global namespace
+			
+			self:ScheduleToHide (1)
+		end
+	end,
+
+	UNIT_SPELLCAST_DELAYED = function (self, unit, ...)
+		local name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible = UnitCastingInfo (unit)
+		
+		if (not self:IsValid (unit, name, isTradeSkill)) then
+			return
+		end
+
+		--> update the cast time
+		self.spellStartTime = startTime / 1000
+		self.spellEndTime = endTime / 1000
+		self.value = GetTime() - self.spellStartTime
+		self.maxValue = self.spellEndTime - self.spellStartTime
+		self:SetMinMaxValues (0, self.maxValue)
+	end,
+
+	UNIT_SPELLCAST_CHANNEL_UPDATE = function (self, unit, ...)
+		local name, text, texture, startTime, endTime, isTradeSkill = UnitChannelInfo (unit)
+		
+		if (not self:IsValid (unit, name, isTradeSkill)) then
+			return
+		end
+		
+		--> update the cast time
+		self.spellStartTime = startTime / 1000
+		self.spellEndTime = endTime / 1000
+		self.value = self.spellEndTime - GetTime()
+		self.maxValue = self.spellEndTime - self.spellStartTime
+		self:SetMinMaxValues (0, self.maxValue)
+		self:SetValue (self.value)
+	end,
+	
+	--> cast changed its state to interruptable
+	UNIT_SPELLCAST_INTERRUPTIBLE = function (self, unit, ...)
+		self.canInterrupt = true
+		self:UpdateCastColor()
+		self:UpdateInterruptState()
+	end,
+	
+	--> cast changed its state to non interruptable
+	UNIT_SPELLCAST_NOT_INTERRUPTIBLE = function (self, unit, ...)
+		self.canInterrupt = false
+		self:UpdateCastColor()
+		self:UpdateInterruptState()
+	end,
+
+}
+
+-- ~castbar
+
+function DF:CreateCastBar (parent, name, settingsOverride)
+	
+	assert (name or parent:GetName(), "DetailsFramework:CreateCastBar parameter 'name' omitted and parent has no name.")
+	
+	local castBar = CreateFrame ("StatusBar", name or (parent:GetName() .. "CastBar"), parent)
+	
+		do --layers
+		
+			--these widgets was been made with back compatibility in mind
+			--they are using the same names as the retail game uses on the nameplate castbar
+			--this should make Plater core and Plater scripts made by users compatible with the new unit frame made on the framework
+		
+			--background
+			castBar.background = castBar:CreateTexture (nil, "background")
+			castBar.background:SetDrawLayer ("background", -6)
+			
+			castBar.extraBackground = castBar:CreateTexture (nil, "background")
+			castBar.extraBackground:SetDrawLayer ("background", -5)
+			
+			--overlay
+			castBar.Text = castBar:CreateFontString (nil, "overlay", "SystemFont_Shadow_Small")
+			castBar.Text:SetPoint ("center", 0, 0)
+			castBar.Text:SetDrawLayer ("overlay", 1)
+			
+			castBar.BorderShield = castBar:CreateTexture (nil, "overlay")
+			castBar.BorderShield:SetDrawLayer ("overlay", 5)
+			castBar.BorderShield:Hide()
+			
+			castBar.Icon = castBar:CreateTexture (nil, "overlay")
+			castBar.Icon:SetDrawLayer ("overlay", 4)
+			castBar.Icon:Hide()
+			
+			castBar.Spark = castBar:CreateTexture (nil, "overlay")
+			castBar.Spark:SetDrawLayer ("overlay", 3)
+			castBar.Spark:SetBlendMode ("ADD")
+			
+			--time left on the cast
+			castBar.percentText = castBar:CreateFontString (nil, "overlay", "SystemFont_Shadow_Small")
+			castBar.percentText:SetDrawLayer ("overlay", 7)
+			
+			--statusbar texture
+			castBar.barTexture = castBar:CreateTexture (nil, "artwork")
+			castBar:SetStatusBarTexture (castBar.barTexture)
+			
+			--animations fade in and out
+			local fadeOutAnimationHub = DF:CreateAnimationHub (castBar, DF.CastFrameFunctions.Animation_FadeOutStarted, DF.CastFrameFunctions.Animation_FadeOutFinished)
+			fadeOutAnimationHub.alpha1 = DF:CreateAnimation (fadeOutAnimationHub, "ALPHA", 1, 1, 1, 0)
+			castBar.fadeOutAnimation = fadeOutAnimationHub
+			
+			local fadeInAnimationHub = DF:CreateAnimationHub (castBar, DF.CastFrameFunctions.Animation_FadeInStarted, DF.CastFrameFunctions.Animation_FadeInFinished)
+			fadeInAnimationHub.alpha1 = DF:CreateAnimation (fadeInAnimationHub, "ALPHA", 1, 0.150, 0, 1)
+			castBar.fadeInAnimation = fadeInAnimationHub
+			
+			--animatios flash
+			local flashTexture = castBar:CreateTexture (nil, "overlay")
+			flashTexture:SetDrawLayer ("overlay", 7)
+			flashTexture:SetColorTexture (1, 1, 1, 1)
+			flashTexture:SetAllPoints()
+			flashTexture:SetAlpha (0)
+			flashTexture:Hide()
+			flashTexture:SetBlendMode ("ADD")
+			castBar.flashTexture = flashTexture
+			
+			local flashAnimationHub = DF:CreateAnimationHub (flashTexture, function() flashTexture:Show() end, function() flashTexture:Hide() end)
+			DF:CreateAnimation (flashAnimationHub, "ALPHA", 1, 0.2, 0, 0.8)
+			DF:CreateAnimation (flashAnimationHub, "ALPHA", 2, 0.2, 1, 0)
+			castBar.flashAnimation = flashAnimationHub			
+		end
+	
+	--> mixins
+	DF:Mixin (castBar, DF.CastFrameFunctions)
+	DF:Mixin (castBar, DF.StatusBarFunctions)
+	
+	--> settings and hooks
+	local settings = DF.table.copy ({}, DF.CastFrameFunctions.Settings)
+	if (settingsOverride) then
+		DF.table.copy (settings, settingsOverride)
+	end
+	castBar.Settings = settings
+	
+	local hookList = DF.table.copy ({}, DF.CastFrameFunctions.HookList)
+	castBar.HookList = hookList
+	
+	--> initialize the cast bar
+	castBar:Initialize()
+
+	return castBar
+end
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> border frame
+
+--[=[
+	DF:CreateBorderFrame (parent, name)
+	creates a frame with 4 child textures attached to each one of the 4 sides of a frame
+	@parent = parent frame to pass to CreateFrame function
+	@name = name of the frame, if omitted a random name is created
+--]=]
+
+DF.BorderFunctions = {
+	SetBorderColor = function (self, r, g, b, a)
+		r, g, b, a = DF:ParseColors (r, g, b, a)
+		for _, texture in ipairs (self.allTextures) do
+			texture:SetVertexColor (r, g, b, a)
+		end
+	end,
+	
+	SetBorderThickness = function (self, newThickness)
+		PixelUtil.SetWidth (f.leftBorder, newThickness, newThickness)
+		PixelUtil.SetWidth (f.rightBorder, newThickness, newThickness)
+		PixelUtil.SetHeight (f.topBorder, newThickness, newThickness)
+		PixelUtil.SetHeight (f.bottomBorder, newThickness, newThickness)
+	end,
+	
+	WidgetType = "border",
+}
+
+-- ~borderframe
+function DF:CreateBorderFrame (parent, name)
+
+	local parentName = name or "DetailsFrameworkBorderFrame" .. tostring (math.random (1, 100000000))
+
+	local f = CreateFrame ("frame", parentName, parent)
+	f:SetFrameLevel (f:GetFrameLevel()+1)
+	f:SetAllPoints()
+	
+	DF:Mixin (f, DF.BorderFunctions)
+	
+	f.allTextures = {}
+	
+	--> create left border
+		local leftBorder = f:CreateTexture (nil, "overlay")
+		leftBorder:SetDrawLayer ("overlay", 7)
+		leftBorder:SetColorTexture (1, 1, 1, 1)
+		tinsert (f.allTextures, leftBorder)
+		f.leftBorder = leftBorder
+		PixelUtil.SetPoint (leftBorder, "topright", f, "topleft", 0, 1, 0, 1)
+		PixelUtil.SetPoint (leftBorder, "bottomright", f, "bottomleft", 0, -1, 0, -1)
+		PixelUtil.SetWidth (leftBorder, 1, 1)
+
+	--> create right border
+		local rightBorder = f:CreateTexture (nil, "overlay")
+		rightBorder:SetDrawLayer ("overlay", 7)
+		rightBorder:SetColorTexture (1, 1, 1, 1)
+		tinsert (f.allTextures, rightBorder)
+		f.rightBorder = rightBorder
+		PixelUtil.SetPoint (rightBorder, "topleft", f, "topright", 0, 1, 0, 1)
+		PixelUtil.SetPoint (rightBorder, "bottomleft", f, "bottomright", 0, -1, 0, -1)
+		PixelUtil.SetWidth (rightBorder, 1, 1)
+	
+	--> create top border
+		local topBorder = f:CreateTexture (nil, "overlay")
+		topBorder:SetDrawLayer ("overlay", 7)
+		topBorder:SetColorTexture (1, 1, 1, 1)
+		tinsert (f.allTextures, topBorder)
+		f.topBorder = topBorder
+		PixelUtil.SetPoint (topBorder, "bottomleft", f, "topleft", 0, 0, 0, 0)
+		PixelUtil.SetPoint (topBorder, "bottomright", f, "topright", 0, 0, 0, 0)
+		PixelUtil.SetHeight (topBorder, 1, 1)
+	
+	--> create  border
+		local bottomBorder = f:CreateTexture (nil, "overlay")
+		bottomBorder:SetDrawLayer ("overlay", 7)
+		bottomBorder:SetColorTexture (1, 1, 1, 1)
+		tinsert (f.allTextures, bottomBorder)
+		f.bottomBorder = bottomBorder
+		PixelUtil.SetPoint (bottomBorder, "topleft", f, "bottomleft", 0, 0, 0, 0)
+		PixelUtil.SetPoint (bottomBorder, "topright", f, "bottomright", 0, 0, 0, 0)
+		PixelUtil.SetHeight (bottomBorder, 1, 1)
+		
+	return f
+end
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> unit frame
+
+--[=[
+	DF:CreateUnitFrame (parent, name, settingsOverride)
+	creates a very basic unit frame with a healthbar, castbar and power bar
+	each unit frame has a .Settings table which isn't shared among other unit frames created with this method
+	all members names are the same as the unit frame from the retail game
+	
+	@parent = frame to pass for the CreateFrame function
+	@name = absolute name of the frame, if omitted a random name is created
+	@settingsOverride = table with keys and values to replace the defaults from the framework
+	
+--]=]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> unit frame
+
+	--> return true if the unit has been claimed by another player (health bar is gray)
+	local unit_is_tap_denied = function (unit)
+		return unit and not UnitPlayerControlled (unit) and UnitIsTapDenied (unit)
+	end
+
+	DF.UnitFrameFunctions = {
+	
+		WidgetType = "unitFrame",
+		
+		Settings = {
+			--> unit frames
+			ClearUnitOnHide = true, --> if tue it'll set the unit to nil when the unit frame is set to hide
+			ShowCastBar = true, --if this is false, the cast bar for the unit won't be shown
+			ShowPowerBar = true, --if true it'll show the power bar for the unit, e.g. the mana bar
+			ShowUnitName = true, --if false, the unit name won't show
+			ShowBorder = true, --if false won't show the border frame
+			
+			--> health bar color
+			CanModifyHealhBarColor = true, --> if false it won't change the color of the health bar
+			ColorByAggro = false, --if true it'll color the healthbar with red color when the unit has aggro on player
+			FixedHealthColor = false, --color override with a table {r=1, g=1, b=1}
+			UseFriendlyClassColor = true, --make the healthbar class color for friendly players
+			UseEnemyClassColor = true, --make the healthbar class color for enemy players
+			
+			--> misc
+			ShowTargetOverlay = true, --shows a highlighht for the player current target
+			BorderColor = DF:CreateColorTable (0, 0, 0, 1), --border color, set to alpha zero for no border
+			CanTick = false, --if true it'll run the OnTick event
+			
+			--> size
+			Width = 100,
+			Height = 20,
+			PowerBarHeight = 4,
+			CastBarHeight = 8,
+		},
+		
+		UnitFrameEvents = {
+			--> run for all units
+			{"PLAYER_ENTERING_WORLD"},
+			{"PARTY_MEMBER_DISABLE"},
+			{"PARTY_MEMBER_ENABLE"},
+			{"PLAYER_TARGET_CHANGED"},
+			
+			--> run for one unit
+			{"UNIT_NAME_UPDATE", true},
+			{"UNIT_CONNECTION", true},
+			{"UNIT_ENTERED_VEHICLE", true},
+			{"UNIT_EXITED_VEHICLE", true},
+			{"UNIT_PET", true},
+			{"UNIT_THREAT_LIST_UPDATE", true},
+		},
+
+		--> used when a event is triggered to quickly check if is a unit event
+		IsUnitEvent = {
+			["UNIT_NAME_UPDATE"] = true,
+			["UNIT_CONNECTION"] = true,
+			["UNIT_ENTERED_VEHICLE"] = true,
+			["UNIT_EXITED_VEHICLE"] = true,
+			["UNIT_PET"] = true,
+			["UNIT_THREAT_LIST_UPDATE"] = true,
+		},
+		
+		Initialize = function (self)
+			self.border:SetBorderColor (self.Settings.BorderColor)
+			
+			PixelUtil.SetWidth (self, self.Settings.Width, 1)
+			PixelUtil.SetHeight (self, self.Settings.Height, 1)
+
+			PixelUtil.SetPoint (self.powerBar, "bottomleft", self, "bottomleft", 0, 0, 1, 1)
+			PixelUtil.SetPoint (self.powerBar, "bottomright", self, "bottomright", 0, 0, 1, 1)
+			PixelUtil.SetHeight (self.powerBar, self.Settings.PowerBarHeight, 1)
+			
+			--make the castbar overlap the powerbar
+			PixelUtil.SetPoint (self.castBar, "bottomleft", self, "bottomleft", 0, 0, 1, 1)
+			PixelUtil.SetPoint (self.castBar, "bottomright", self, "bottomright", 0, 0, 1, 1)
+			PixelUtil.SetHeight (self.castBar, self.Settings.CastBarHeight, 1)
+		end,
+		
+		SetHealthBarColor = function (self, r, g, b, a)
+			self.healthBar:SetColor (r, g, b, a)
+		end,
+		
+		--> register all events which will be used by the unit frame
+		RegisterEvents = function (self)
+			--> register events
+			for index, eventTable in ipairs (self.UnitFrameEvents) do
+				local event, isUnitEvent = unpack (eventTable)
+				if (not isUnitEvent) then
+					self:RegisterEvent (event)
+				else
+					self:RegisterUnitEvent (event, self.unit, self.displayedUnit ~= unit and self.displayedUnit or nil)
+				end
+			end
+			
+			--> check settings and unregister events for disabled features
+			if (not self.Settings.ColorByAggro) then
+				self:UnregisterEvent ("UNIT_THREAT_LIST_UPDATE")
+			end
+			
+			--> set scripts
+			self:SetScript ("OnEvent", self.OnEvent)
+			self:SetScript ("OnHide", self.OnHide)
+			
+			if (self.Settings.CanTick) then
+				self:SetScript ("OnUpdate", self.OnTick)
+			end
+		end,
+		
+		--> unregister events, called when this unit frame losses its unit
+		UnregisterEvents = function (self)
+			for index, eventTable in ipairs (self.UnitFrameEvents) do
+				local event, firstUnit, secondUnit = unpack (eventTable)
+				self:UnregisterEvent (event)
+			end
+			
+			self:SetScript ("OnEvent", nil)
+			self:SetScript ("OnUpdate", nil)
+			self:SetScript ("OnHide", nil)
+		end,
+		
+		--> call every tick
+		OnTick = function (self, deltaTime) end, --if overrided, set 'CanTick' to true on the settings table
+
+		--> when an event happen for this unit, send it to the apropriate function
+		OnEvent = function (self, event, ...)
+			--> run the function for this event
+			DF_CalcCpuUsage ("unitFrame-OnEvent")
+			local eventFunc = self [event]
+			if (eventFunc) then
+				--> is this event an unit event?
+				if (self.IsUnitEvent [event]) then
+					local unit = ...
+					--> check if is for this unit (even if the event is registered only for the unit)
+					if (unit == self.unit or unit == self.displayedUnit) then
+						eventFunc (self, ...)
+					end
+				else
+					eventFunc (self, ...)
+				end
+			end
+			DF_CalcCpuUsage ("unitFrame-OnEvent")
+		end,
+		
+		OnHide = function (self)
+			if (self.Settings.ClearUnitOnHide) then
+				self:SetUnit (nil)
+			end
+		end,
+		
+		--> run if the unit currently shown is different than the new one
+		SetUnit = function (self, unit)
+			if (unit ~= self.unit or unit == nil) then
+				self.unit = unit --absolute unit
+				self.displayedUnit = unit --~todo rename to 'displayedUnit' for back compatibility with older scripts in Plater
+				self.unitInVehicle = nil --true when the unit is in a vehicle
+				
+				if (unit) then
+					self:RegisterEvents()
+					
+					self.healthBar:SetUnit (unit, self.displayedUnit)
+					
+					--> is using castbars?
+					if (self.Settings.ShowCastBar) then
+						self.castBar:SetUnit (unit, self.displayedUnit)
+					else
+						self.castBar:SetUnit (nil)
+					end
+					
+					--> is using powerbars?
+					if (self.Settings.ShowPowerBar) then
+						self.powerBar:SetUnit (unit, self.displayedUnit)
+					else
+						self.powerBar:SetUnit (nil)
+					end
+					
+					--> is using the border?
+					if (self.Settings.ShowBorder) then
+						self.border:Show()
+					else
+						self.border:Hide()
+					end
+					
+					if (not self.Settings.ShowUnitName) then
+						self.unitName:Hide()
+					end
+				else
+					self:UnregisterEvents()
+					self.healthBar:SetUnit (nil)
+					self.castBar:SetUnit (nil)
+					self.powerBar:SetUnit (nil)
+				end
+				
+				self:UpdateUnitFrame()
+			end
+		end,
+
+		--> if the unit is controlling a vehicle, need to show the vehicle instead
+		--> .unit and .displayedUnit is always the same execept when the unit is controlling a vehicle, then .displayedUnit is the unitID for the vehicle
+		--> todo: see what 'UnitTargetsVehicleInRaidUI' is, there's a call for this in the CompactUnitFrame.lua but zero documentation
+		CheckVehiclePossession = function (self)
+			--> this unit is possessing a vehicle?
+			local unitPossessVehicle = UnitHasVehicleUI (self.unit)			
+			if (unitPossessVehicle) then
+				if (not self.unitInVehicle) then
+					if (UnitIsUnit ("player", self.unit)) then
+						self.displayedUnit = "vehicle"
+						self.unitInVehicle = true
+						self:RegisterEvents()
+						self:UpdateAllWidgets()
+						return true
+					end
+					
+					local prefix, id, suffix = string.match (self.unit, "([^%d]+)([%d]*)(.*)") --CompactUnitFrame.lua
+					local vehicleUnitID = prefix .. "pet" .. id .. suffix
+					if (UnitExists (vehicleUnitID)) then
+						self.displayedUnit = vehicleUnitID
+						self.unitInVehicle = true
+						self:RegisterEvents()
+						self:UpdateAllWidgets()
+						return true
+					end
+				end
+			end
+			
+			if (self.unitInVehicle) then
+				self.displayedUnit = self.unit
+				self.unitInVehicle = nil
+				self:RegisterEvents()
+				self:UpdateAllWidgets()
+			end
+		end,
+
+		--> find a color for the health bar, if a color has been passed in the arguments use it instead, 'CanModifyHealhBarColor' must be true for this function run
+		UpdateHealthColor = function (self, r, g, b)
+		
+			--> check if color changes is disabled
+			if (not self.Settings.CanModifyHealhBarColor) then
+				return
+			end
+		
+			local unit = self.displayedUnit
+			
+			--> check if a color has been passed within the parameters
+			if (r) then
+				--> check if passed a special color
+				if (type (r) ~= "number") then
+					r, g, b = DF:ParseColors (r)
+				end
+				
+				self:SetHealthBarColor (r, g, b)
+				return
+			end
+			
+			--> check if there is a color override in the settings
+			if (self.Settings.FixedHealthColor) then
+				local FixedHealthColor = self.Settings.FixedHealthColor
+				r, g, b = FixedHealthColor.r, FixedHealthColor.g, FixedHealthColor.b
+				self:SetHealthBarColor (r, g, b)
+				return
+			end
+			
+			--> check if the unit is a player
+			if (UnitIsPlayer (unit)) then
+			
+				--> check if the unit is disconnected (in case it is a player
+				if (not UnitIsConnected (unit)) then
+					self:SetHealthBarColor (.5, .5, .5)
+					return
+				end
+			
+				--is a friendly or enemy player?
+				if (UnitIsFriend ("player", unit)) then
+					if (self.Settings.UseFriendlyClassColor) then
+						local _, className = UnitClass (unit)
+						if (className) then
+							local classColor = RAID_CLASS_COLORS [className]
+							if (classColor) then
+								self:SetHealthBarColor (classColor.r, classColor.g, classColor.b)
+								return
+							end
+						end
+					else
+						self:SetHealthBarColor (0, 1, 0)
+						return
+					end
+				else
+					if (self.Settings.UseEnemyClassColor) then
+						local _, className = UnitClass (unit)
+						if (className) then
+							local classColor = RAID_CLASS_COLORS [className]
+							if (classColor) then
+								self:SetHealthBarColor (classColor.r, classColor.g, classColor.b)
+								return
+							end
+						end
+					else
+						self:SetHealthBarColor (1, 0, 0)
+						return
+					end
+				end
+			end
+			
+			--> is tapped?
+			if (unit_is_tap_denied (unit)) then
+				self:SetHealthBarColor (.6, .6, .6)
+				return
+			end
+			
+			--> is this is a npc attacking the player?
+			if (self.Settings.ColorByAggro) then
+				local _, threatStatus = UnitDetailedThreatSituation ("player", unit)
+				if (threatStatus) then
+					self:SetHealthBarColor (1, 0, 0)
+					return
+				end
+			end
+			
+			-->  get the regular color by selection
+			r, g, b = UnitSelectionColor (unit)
+			self:SetHealthBarColor (r, g, b)
+		end,	
+
+		--> misc
+		UpdateName = function (self)
+			if (not self.Settings.ShowUnitName) then
+				return
+			end
+			
+			--unit name without realm names by default
+			local name = UnitName (self.unit)
+			self.unitName:SetText (name)
+			self.unitName:Show()
+		end,
+
+		--> this runs when the player it self changes its target, need to update the current target overlay
+		--> todo: add focus overlay
+		UpdateTargetOverlay = function (self)
+			if (not self.Settings.ShowTargetOverlay) then
+				self.targetOverlay:Hide()
+				return
+			end
+
+			if (UnitIsUnit (self.displayedUnit, "target")) then
+				self.targetOverlay:Show()
+			else
+				self.targetOverlay:Hide()
+			end
+		end,
+		
+		UpdateAllWidgets = function (self)
+			if (UnitExists (self.displayedUnit)) then
+				local unit = self.unit
+				local displayedUnit = self.displayedUnit
+			
+				self:SetUnit (unit, displayedUnit)
+				
+				--> is using castbars?
+				if (self.Settings.ShowCastBar) then
+					self.castBar:SetUnit (unit, displayedUnit)
+				end
+				
+				--> is using powerbars?
+				if (self.Settings.ShowPowerBar) then
+					self.powerBar:SetUnit (unit, displayedUnit)
+				end
+				
+				self:UpdateName()
+				self:UpdateTargetOverlay()
+				self:UpdateHealthColor()
+			end
+		end,
+		
+		--> update the unit frame and its widgets
+		UpdateUnitFrame = function (self)
+			local unitInVehicle = self:CheckVehiclePossession()
+			
+			--> if the unit is inside a vehicle, the vehicle possession function will call an update on all widgets
+			if (not unitInVehicle) then
+				self:UpdateAllWidgets()
+			end
+		end,
+		
+		--> event handles
+		PLAYER_ENTERING_WORLD = function (self, ...)
+			self:UpdateUnitFrame()
+		end,
+		
+		--> update overlays when the player changes its target
+		PLAYER_TARGET_CHANGED = function (self, ...)
+			self:UpdateTargetOverlay()
+		end,
+		
+		--> unit received a name update
+		UNIT_NAME_UPDATE = function (self, ...)
+			self:UpdateName()
+		end,
+		
+		--> this is registered only if .settings.ColorByAggro is true
+		UNIT_THREAT_LIST_UPDATE = function (self, ...)
+			if (self.Settings.ColorByAggro) then
+				self:UpdateHealthColor()
+			end
+		end,
+
+		--> vehicle
+		UNIT_ENTERED_VEHICLE = function (self, ...) 
+			self:UpdateUnitFrame()
+		end,
+		UNIT_EXITED_VEHICLE = function (self, ...) 
+			self:UpdateUnitFrame()
+		end,
+
+		--> pet
+		UNIT_PET = function (self, ...)
+			self:UpdateUnitFrame()
+		end,
+
+		--> player connection
+		UNIT_CONNECTION = function (self, ...)
+			if (UnitIsConnected (self.unit)) then
+				self:UpdateUnitFrame()
+			end
+		end,
+		PARTY_MEMBER_ENABLE = function (self, ...)
+			if (UnitIsConnected (self.unit)) then
+				self:UpdateName()
+			end
+		end,
+	}
+
+-- ~unitframe
+function DF:CreateUnitFrame (parent, name, unitFrameSettingsOverride, healthBarSettingsOverride, castBarSettingsOverride, powerBarSettingsOverride)
+	
+	local parentName = name or ("DetailsFrameworkUnitFrame" .. tostring (math.random (1, 100000000)))
+	
+	--> create the main unit frame
+	local f = CreateFrame ("button", parentName, parent)
+	
+	--> base level
+	local baseFrameLevel = f:GetFrameLevel()
+	
+	--> create the healthBar
+	local healthBar = DF:CreateHealthBar (f, false, healthBarSettingsOverride)
+	healthBar:SetFrameLevel (baseFrameLevel + 1)
+	f.healthBar = healthBar
+	
+	--> create the power bar
+	local powerBar = DF:CreatePowerBar (f, false, powerBarSettingsOverride)
+	powerBar:SetFrameLevel (baseFrameLevel + 2)
+	f.powerBar = powerBar
+	
+	--> create the castBar
+	local castBar = DF:CreateCastBar (f, false, castBarSettingsOverride)
+	castBar:SetFrameLevel (baseFrameLevel + 3)
+	f.castBar = castBar
+	
+	--> border frame
+	local borderFrame = DF:CreateBorderFrame (f, f:GetName() .. "Border")
+	borderFrame:SetFrameLevel (f:GetFrameLevel() + 5)
+	f.border = borderFrame
+	
+	--> overlay frame (widgets that need to stay above the unit frame)
+	local overlayFrame = CreateFrame ("frame", "$parentOverlayFrame", f)
+	borderFrame:SetFrameLevel (f:GetFrameLevel() + 6)
+	f.overlayFrame = overlayFrame
+	
+	--> unit frame layers
+		do
+			--artwork
+			f.unitName = f:CreateFontString (nil, "artwork", "GameFontHighlightSmall")
+			PixelUtil.SetPoint (f.unitName, "topleft", healthBar, "topleft", 2, -2, 1, 1)
+
+			--target overlay - it's parented in the healthbar so other widgets won't get the overlay
+			f.targetOverlay = overlayFrame:CreateTexture (nil, "artwork")
+			f.targetOverlay:SetTexture (healthBar:GetTexture())
+			f.targetOverlay:SetBlendMode ("ADD")
+			f.targetOverlay:SetAlpha (.5)
+			f.targetOverlay:SetAllPoints (healthBar)
+		end
+
+	--> mixins
+		--inject mixins
+		DF:Mixin (f, DF.UnitFrameFunctions)
+		
+		--create the settings table and copy the overrides into it, the table is set into the frame after the mixin
+		local unitFrameSettings = DF.table.copy ({}, DF.UnitFrameFunctions.Settings)
+		if (unitFrameSettingsOverride) then
+			unitFrameSettings = DF.table.copy (unitFrameSettings, unitFrameSettingsOverride)
+		end
+		f.Settings = unitFrameSettings
+
+	--> initialize scripts
+		--unitframe
+		f:Initialize()
+
+	return f
+end
+	
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> horizontal scroll frame
+
+local timeline_options = {
+	width = 400,
+	height = 700,
+	line_height = 20,
+	line_padding = 1,
+	
+	show_elapsed_timeline = true,
+	elapsed_timeline_height = 20,
+	
+	--space to put the player/spell name and icons
+	header_width = 150,
+	
+	--how many pixels will be use to represent 1 second
+	pixels_per_second = 20,
+
+	backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
+	backdrop_color = {0, 0, 0, 0.2},
+	backdrop_color_highlight = {.2, .2, .2, 0.4},
+	backdrop_border_color = {0.1, 0.1, 0.1, .2},
+	
+	title_template = "ORANGE_FONT_TEMPLATE",
+	text_tempate = "OPTIONS_FONT_TEMPLATE",
+	
+	on_enter = DF.DataScrollFunctions.LineOnEnter,
+	on_leave = DF.DataScrollFunctions.LineOnLeave,
+}
+
+local elapsedtime_frame_options = {
+	backdrop = {bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
+	backdrop_color = {.3, .3, .3, .7},
+
+	text_color = {1, 1, 1, 1},
+	text_size = 12,
+	text_font = "Arial Narrow",
+	text_outline = "NONE",
+	
+	height = 20,
+	
+	distance = 200, --distance in pixels between each label informing the time
+	distance_min = 50, --minimum distance in pixels
+	draw_line = true, --if true it'll draw a vertical line to represent a segment
+	draw_line_color = {1, 1, 1, 0.3},
+	draw_line_thickness = 1,
+}
+
+DF.TimeLineElapsedTimeFunctions = {
+	--get a label and update its appearance
+	GetLabel = function (self, index)
+		local label = self.labels [index]
+		
+		if (not label) then
+			label = self:CreateFontString (nil, "artwork", "GameFontNormal")
+			label.line = self:CreateTexture (nil, "artwork")
+			label.line:SetColorTexture (1, 1, 1)
+			label.line:SetPoint ("topleft", label, "bottomleft", 0, -2)
+			self.labels [index] = label
+		end
+		
+		DF:SetFontColor (label, self.options.text_color)
+		DF:SetFontSize (label, self.options.text_size)
+		DF:SetFontFace (label, self.options.text_font)
+		DF:SetFontOutline (label, self.options.text_outline)
+		
+		if (self.options.draw_line) then
+			label.line:SetVertexColor (unpack (self.options.draw_line_color))
+			label.line:SetWidth (self.options.draw_line_thickness)
+			label.line:Show()
+		else
+			label.line:Hide()
+		end
+		
+		return label
+	end,
+	
+	Reset = function (self)
+		for i = 1, #self.labels do
+			self.labels [i]:Hide()
+		end
+	end,
+	
+	Refresh = function (self, elapsedTime, scale)
+		local parent = self:GetParent()
+
+		self:SetHeight (self.options.height)
+		local effectiveArea = self:GetWidth() --already scaled down width
+		local pixelPerSecond = elapsedTime / effectiveArea --how much 1 pixels correlate to time
+		
+		local distance = self.options.distance --pixels between each segment
+		local minDistance = self.options.distance_min --min pixels between each segment
+		
+		--scale the distance between each label showing the time with the parent's scale
+		distance = distance * scale
+		distance = max (distance, minDistance)
+
+		local amountSegments = ceil (effectiveArea / distance)
+		
+		for i = 1, amountSegments do
+			local label = self:GetLabel (i)
+			local xOffset = distance * (i - 1)
+			label:SetPoint ("left", self, "left", xOffset, 0)
+			
+			local secondsOfTime = pixelPerSecond * xOffset
+			
+			label:SetText (DF:IntegerToTimer (floor (secondsOfTime)))
+			
+			if (label.line:IsShown()) then
+				label.line:SetHeight (parent:GetParent():GetHeight())
+			end
+			
+			label:Show()
+		end
+	end,
+}
+
+--creates a frame to show the elapsed time in a row
+function DF:CreateElapsedTimeFrame (parent, name, options)
+	local elapsedTimeFrame = CreateFrame ("frame", name, parent)
+	
+	DF:Mixin (elapsedTimeFrame, DF.OptionsFunctions)
+	DF:Mixin (elapsedTimeFrame, DF.LayoutFrame)
+	
+	elapsedTimeFrame:BuildOptionsTable (elapsedtime_frame_options, options)
+	
+	DF:Mixin (elapsedTimeFrame, DF.TimeLineElapsedTimeFunctions)
+	
+	elapsedTimeFrame:SetBackdrop (elapsedTimeFrame.options.backdrop)
+	elapsedTimeFrame:SetBackdropColor (unpack (elapsedTimeFrame.options.backdrop_color))
+	
+	elapsedTimeFrame.labels = {}
+	
+	return elapsedTimeFrame
+end
 
 
+DF.TimeLineBlockFunctions = {
+	--self is the line
+	SetBlock = function (self, index, blockInfo)
+		--get the block information
+		--see what is the current scale
+		--adjust the block position
+		
+		local block = self:GetBlock (index)
+		
+		--need: 
+			--the total time of the timeline
+			--the current scale of the timeline
+			--the elapsed time of this block
+			--icon of the block
+			--text
+			--background color
+		
+	end,
+	
+	SetBlocksFromData = function (self)
+		local parent = self:GetParent():GetParent()
+		local data = parent.data
+		local defaultColor = parent.defaultColor --guarantee to have a value
+		
+		self:Show()
+		
+		--none of these values are scaled, need to calculate
+		local pixelPerSecond = parent.pixelPerSecond
+		local totalLength = parent.totalLength
+		local scale = parent.currentScale
+		
+		pixelPerSecond = pixelPerSecond * scale
+		
+		local headerWidth = parent.headerWidth
+		
+		--dataIndex stores which line index from the data this line will use
+		--lineData store members: .text .icon .timeline
+		local lineData = data.lines [self.dataIndex]
+		
+		--if there's an icon, anchor the text at the right side of the icon
+		--this is the title and icon of the title
+		if (lineData.icon) then
+			self.icon:SetTexture (lineData.icon)
+			self.text:SetText (lineData.text or "")
+			self.text:SetPoint ("left", self.icon.widget, "right", 2, 0)
+		else
+			self.icon:SetTexture (nil)
+			self.text:SetText (lineData.text or "")
+			text:SetPoint ("left", self, "left", 2, 0)
+		end
+		
+		local timelineData = lineData.timeline
+		
+		for i = 1, #timelineData do
+			local blockInfo = timelineData [i]
+			
+			local time = blockInfo [1]
+			local length = blockInfo [2]
+			local color = blockInfo [3] or defaultColor
+			local text = blockInfo [4]
+			local icon = blockInfo [5]
+			local tooltip = blockInfo [6]
+			
+			local xOffset = pixelPerSecond * time
+			local width = pixelPerSecond * length
+			
+			local block = self:GetBlock (i)
+			block:Show()
+			PixelUtil.SetPoint (block, "left", self, "left", xOffset + headerWidth, 0)
+			PixelUtil.SetSize (block, width, self:GetHeight())
+			block.background:SetVertexColor (unpack (color))
+			
+			--guess where it is anchored
+			--guess it's size
+			--both taking in consideration the scroll scale
+			
+		end
+	end,
+	
+	GetBlock = function (self, index)
+		local block = self.blocks [index]
+		if (not block) then
+			block = CreateFrame ("frame", nil, self)
+			self.blocks [index] = block
+			
+			local background = block:CreateTexture (nil, "background")
+			background:SetColorTexture (1, 1, 1, 1)
+			local icon = block:CreateTexture (nil, "artwork")
+			local text = block:CreateFontString (nil, "artwork")
+			
+			background:SetAllPoints()
+			icon:SetPoint ("left")
+			text:SetPoint ("left", icon, "left", 2, 0)
+			
+			block.icon = icon
+			block.text = text
+			block.background = background
+		end
+		
+		return block
+	end,
+	
+	Reset = function (self)
+		--attention, it doesn't reset icon texture, text and background color
+		for i = 1, #self.blocks do
+			self.blocks [i]:Hide()
+		end
+		self:Hide()
+	end,
+}
+
+DF.TimeLineFunctions = {
+	
+	GetLine = function (self, index)
+		local line = self.lines [index]
+		if (not line) then
+			--create a new line
+			line = CreateFrame ("frame", "$parentLine" .. index, self.body)
+			DF:Mixin (line, DF.TimeLineBlockFunctions)
+			self.lines [index] = line
+			
+			--store the individual textures that shows the timeline information
+			line.blocks = {}
+			line.SetBlock = DF.TimeLineBlockFunctions.SetBlock
+			line.GetBlock = DF.TimeLineBlockFunctions.GetBlock
+			
+			--set its parameters
+
+			if (self.options.show_elapsed_timeline) then
+				line:SetPoint ("topleft", self.body, "topleft", 1, -((index-1) * (self.options.line_height + 1)) - 2 - self.options.elapsed_timeline_height)
+			else
+				line:SetPoint ("topleft", self.body, "topleft", 1, -((index-1) * (self.options.line_height + 1)) - 1)
+			end
+			line:SetSize (1, self.options.line_height) --width is set when updating the frame
+			
+			line:SetScript ("OnEnter",	self.options.on_enter)
+			line:SetScript ("OnLeave",	self.options.on_leave)
+			
+			line:SetBackdrop (self.options.backdrop)
+			line:SetBackdropColor (unpack (self.options.backdrop_color))
+			line:SetBackdropBorderColor (unpack (self.options.backdrop_border_color))
+
+			local icon = DF:CreateImage (line, "", self.options.line_height, self.options.line_height)
+			icon:SetPoint ("left", line, "left", 2, 0)
+			line.icon = icon
+			
+			local text = DF:CreateLabel (line, "", DF:GetTemplate ("font", self.options.title_template))
+			text:SetPoint ("left", icon.widget, "right", 2, 0)
+			line.text = text
+			
+			line.backdrop_color = self.options.backdrop_color or {.1, .1, .1, .3}
+			line.backdrop_color_highlight = self.options.backdrop_color_highlight or {.3, .3, .3, .5}
+		end
+		
+		return line
+	end,
+	
+	ResetAllLines = function (self)
+		for i = 1, #self.lines do
+			self.lines [i]:Reset()
+		end
+	end,
+
+	AdjustScale = function (self, index)
+		
+	end,
+	
+	--~todo ~doing
+	--+ just finished the blocks alignment and scale, looks to be working okay
+	--+ at the moment the with and height doesn't look correct, the height is way to much and the width looks too short
+	--+ make the blocks start AFTER the title, currently it is in from of them
+	--+ need to create the time line with font string to show the time elapsed
+	--+ make them to scale with a scale bar
+	
+	--make the on enter and leave tooltips
+	--set icons and texts
+	--skin the sliders
+	
+	RefreshTimeLine = function (self)
+	
+		--debug
+		--self.currentScale = 1
+	
+		--calculate the total width
+		local pixelPerSecond = self.options.pixels_per_second
+		local totalLength = self.data.length
+		local currentScale = self.currentScale
+		
+		--how many pixels represent 1 second
+		local bodyWidth = totalLength * pixelPerSecond * currentScale
+		self.body:SetWidth (bodyWidth + self.options.header_width)
+		self.body.effectiveWidth = bodyWidth
+
+		--reduce the default canvas size from the body with and don't allow the max value be negative
+		local newMaxValue = max (bodyWidth - (self:GetWidth() - self.options.header_width), 0)
+		
+		--adjust the scale slider range
+		local oldMin, oldMax = self.horizontalSlider:GetMinMaxValues()
+		self.horizontalSlider:SetMinMaxValues (0, newMaxValue)
+		self.horizontalSlider:SetValue (DF:MapRangeClamped (oldMin, oldMax, 0, newMaxValue, self.horizontalSlider:GetValue()))
+		
+		local defaultColor = self.data.defaultColor or {1, 1, 1, 1}
+		
+		--cache values
+		self.pixelPerSecond = pixelPerSecond
+		self.totalLength = totalLength
+		self.defaultColor = defaultColor
+		self.headerWidth = self.options.header_width
+		
+		--calculate the total height
+		local lineHeight = self.options.line_height
+		local linePadding = self.options.line_padding
+		
+		local bodyHeight = (lineHeight + linePadding) * #self.data.lines
+		self.body:SetHeight (bodyHeight)
+		self.verticalSlider:SetMinMaxValues (0, max (bodyHeight - self:GetHeight(), 0))
+		self.verticalSlider:SetValue (0)
+		
+		--refresh lines
+		self:ResetAllLines()
+		for i = 1, #self.data.lines do
+			local line = self:GetLine (i)
+			line.dataIndex = i --this index is used inside the line update function to know which data to get
+			line:SetBlocksFromData() --the function to update runs within the line object
+		end
+		
+		--refresh elapsed time frame
+		--the elapsed frame must have a width before the refresh function is called
+		self.elapsedTimeFrame:ClearAllPoints()
+		self.elapsedTimeFrame:SetPoint ("topleft", self.body, "topleft", self.options.header_width, 0)
+		self.elapsedTimeFrame:SetPoint ("topright", self.body, "topright", 0, 0)
+		self.elapsedTimeFrame:Reset()
+		
+		self.elapsedTimeFrame:Refresh (self.data.length, self.currentScale)
+	end,
+	
+	SetData = function (self, data)
+		self.data = data
+		self:RefreshTimeLine()
+	end,
+	
+
+	--[=[
+		receives a table with
+		--should be tables of indexes? to save memory on not using hash names
+		
+		header = {icon = "", name = ""}, --player name and player icon / need support for more things like boss casts / can be spell name and the icon of the spell / must be as generic as possible
+		data = {time = when it happened, duration = size of the bar, spellID for tooltip, tooltip = {what to add to Cooltip} } --numeric table with data of spells used
+		
+		will it scroll vertically too in case there's more data to show?
+		i think it can without any problem since the scroll bar does scroll on both directions
+		
+		parts it'll need
+			- a time line
+			- a scructure of lines (rows)
+			- two sliders for vertical and horizontal
+		
+		how the zoom scaling will work?
+		a slider in the bottom side of the main slider
+		it starts in 0.5?
+		
+		how it will zoom?
+			- change the scale? problem is the height will also be modified, so NO
+			
+			- change the width of each bar
+			- change the timeline time
+			- change the max value of the main slider
+			
+		
+	--]=]
+	
+
+}
+
+--creates a regular scroll in horizontal position
+function DF:CreateTimeLineFrame (parent, name, options)
+
+	local width = options and options.width or timeline_options.width
+	local height = options and options.height or timeline_options.height
+	local scrollWidth = 800 --placeholder until the timeline receives data
+	local scrollHeight = 800 --placeholder until the timeline receives data
+
+	local frameCanvas = CreateFrame ("scrollframe", name, parent)
+	DF:Mixin (frameCanvas, DF.TimeLineFunctions)
+	
+	frameCanvas.data = {}
+	frameCanvas.lines = {}
+	frameCanvas.currentScale = 1
+	frameCanvas:SetSize (width, height)
+	frameCanvas:SetBackdrop({
+			bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", 
+			tile = true, tileSize = 16,
+			insets = {left = 1, right = 1, top = 0, bottom = 1},})
+	frameCanvas:SetBackdropColor (.1, .1, .1, .3)
+
+	local frameBody = CreateFrame ("frame", nil, frameCanvas)
+	frameBody:SetSize (scrollWidth, scrollHeight)
+	
+	frameCanvas:SetScrollChild (frameBody)
+	frameCanvas.body = frameBody
+	
+	DF:Mixin (frameCanvas, DF.OptionsFunctions)
+	DF:Mixin (frameCanvas, DF.LayoutFrame)
+	
+	frameCanvas:BuildOptionsTable (timeline_options, options)	
+	
+	--create elapsed time frame
+	frameCanvas.elapsedTimeFrame = DF:CreateElapsedTimeFrame (frameBody)
+	
+	--create horizontal slider
+		local horizontalSlider = CreateFrame ("slider", nil, parent)
+		horizontalSlider.bg = horizontalSlider:CreateTexture (nil, "background")
+		horizontalSlider.bg:SetAllPoints (true)
+		horizontalSlider.bg:SetTexture (0, 0, 0, 0.5)
+		
+		horizontalSlider.thumb = horizontalSlider:CreateTexture (nil, "OVERLAY")
+		horizontalSlider.thumb:SetTexture ("Interface\\Buttons\\UI-ScrollBar-Knob")
+		horizontalSlider.thumb:SetSize (25, 25)
+		
+		horizontalSlider:SetThumbTexture (horizontalSlider.thumb)
+		horizontalSlider:SetOrientation ("horizontal")
+		horizontalSlider:SetSize (width, 20)
+		horizontalSlider:SetPoint ("topleft", frameCanvas, "bottomleft")
+		horizontalSlider:SetMinMaxValues (0, scrollWidth)
+		horizontalSlider:SetValue (0)
+		horizontalSlider:SetScript ("OnValueChanged", function (self)
+		      frameCanvas:SetHorizontalScroll (self:GetValue())
+		end)
+		
+		--[=[
+		frameCanvas:EnableMouseWheel (true)
+		frameCanvas:SetScript ("OnMouseWheel", function (self, delta)
+			delta = delta * -1
+			
+			local current = horizontalSlider:GetValue()
+			
+			if (IsShiftKeyDown() and (delta > 0)) then
+				horizontalSlider:SetValue(0)
+				
+			elseif (IsShiftKeyDown() and (delta < 0)) then
+				horizontalSlider:SetValue (scrollWidth)
+				
+			elseif ((delta < 0) and (current < scrollWidth)) then
+				horizontalSlider:SetValue (current + 20)
+				
+			elseif ((delta > 0) and (current > 1)) then
+				horizontalSlider:SetValue (current - 20)
+				
+			end
+		end)
+		--]=]
+		
+		frameCanvas.horizontalSlider = horizontalSlider
+	
+	--create scale slider
+		local scaleSlider = CreateFrame ("slider", nil, parent)
+		scaleSlider.bg = scaleSlider:CreateTexture (nil, "background")
+		scaleSlider.bg:SetAllPoints (true)
+		scaleSlider.bg:SetTexture (0, 0, 0, 0.5)
+		
+		scaleSlider.thumb = scaleSlider:CreateTexture (nil, "OVERLAY")
+		scaleSlider.thumb:SetTexture ("Interface\\Buttons\\UI-ScrollBar-Knob")
+		scaleSlider.thumb:SetSize (25, 25)
+		
+		scaleSlider:SetThumbTexture (scaleSlider.thumb)
+		scaleSlider:SetOrientation ("horizontal")
+		scaleSlider:SetSize (width, 20)
+		scaleSlider:SetPoint ("topleft", horizontalSlider, "bottomleft", 0, -2)
+		scaleSlider:SetMinMaxValues (0.1, 1)
+		scaleSlider:SetValue (1)
+		scaleSlider:SetScript ("OnValueChanged", function (self)
+			local current = scaleSlider:GetValue()
+			frameCanvas.currentScale = current
+			frameCanvas:RefreshTimeLine()
+		end)
+	
+	--create vertical slider
+		local verticalSlider = CreateFrame ("slider", nil, parent)
+		verticalSlider.bg = verticalSlider:CreateTexture (nil, "background")
+		verticalSlider.bg:SetAllPoints (true)
+		verticalSlider.bg:SetTexture (0, 0, 0, 0.5)
+		
+		verticalSlider.thumb = verticalSlider:CreateTexture (nil, "OVERLAY")
+		verticalSlider.thumb:SetTexture ("Interface\\Buttons\\UI-ScrollBar-Knob")
+		verticalSlider.thumb:SetSize (25, 25)
+		
+		verticalSlider:SetThumbTexture (verticalSlider.thumb)
+		verticalSlider:SetOrientation ("vertical")
+		verticalSlider:SetSize (20, height)
+		verticalSlider:SetPoint ("topleft", frameCanvas, "topright", 2, 0)
+		verticalSlider:SetMinMaxValues (0, scrollHeight)
+		verticalSlider:SetValue (0)
+		verticalSlider:SetScript ("OnValueChanged", function (self)
+		      frameCanvas:SetVerticalScroll (self:GetValue())
+		end)
+		
+		frameCanvas:EnableMouseWheel (true)
+		frameCanvas:SetScript ("OnMouseWheel", function (self, delta)
+			delta = delta
+			
+			local current = verticalSlider:GetValue()
+			
+			if (IsShiftKeyDown() and (delta > 0)) then
+				verticalSlider:SetValue(0)
+				
+			elseif (IsShiftKeyDown() and (delta < 0)) then
+				verticalSlider:SetValue (scrollWidth)
+				
+			elseif ((delta < 0) and (current < scrollWidth)) then
+				verticalSlider:SetValue (current + 20)
+				
+			elseif ((delta > 0) and (current > 1)) then
+				verticalSlider:SetValue (current - 20)
+				
+			end
+		end)
+		
+		frameCanvas.verticalSlider = verticalSlider
+	
+	return frameCanvas
+end
 
 
+--[=[
+local f = CreateFrame ("frame", "TestFrame", UIParent)
+f:SetPoint ("center")
+f:SetSize (900, 420)
+f:SetBackdrop({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16,	insets = {left = 1, right = 1, top = 0, bottom = 1}})
+
+local scroll = DF:CreateTimeLineFrame (f, "$parentTimeLine", {width = 880, height = 400})
+scroll:SetPoint ("topleft", f, "topleft", 0, 0)
+
+--need fake data to test fills
+scroll:SetData ({
+	length = 360,
+	defaultColor = {1, 1, 1, 1},
+	lines = {
+			{text = "player 1", icon = "", timeline = {
+				--each table here is a block shown in the line
+				--is an indexed table with: [1] time [2] length [3] color (if false, use the default) [4] text [5] icon [6] tooltip: if number = spellID tooltip, if table is text lines
+				{1, 10}, {13, 11}, {25, 7}, {36, 5}, {55, 18}, {76, 30}, {105, 20}, {130, 11}, {155, 11}, {169, 7}, {199, 16}, {220, 18}, {260, 10}, {290, 23}, {310, 30}, {350, 10}
+			}
+		}, --end of line 1
+	},
+})
 
 
+f:Hide()
 
+--scroll.body:SetScale (0.5)
 
+--]=]
 
---functionn falsee truee breakk elsea
+--functionn falsee truee breakk elsea endz 

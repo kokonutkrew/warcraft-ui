@@ -86,6 +86,14 @@ function TaskListUI.OnInitialize()
 	end
 end
 
+function TaskListUI.OnDisable()
+	if private.frame then
+		-- hide the frame
+		private.frame:Hide()
+		assert(not private.frame)
+	end
+end
+
 function TaskListUI.Toggle()
 	if private.frame then
 		private.frame:Hide()
@@ -120,7 +128,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("task_list")
+	TSM.UI.AnalyticsRecordPathChange("task_list")
 	local frame = TSMAPI_FOUR.UI.NewElement("OverlayApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetStylesheet(BASE_STYLESHEET)
@@ -275,6 +283,7 @@ function private.BaseFrameOnHide(frame)
 	assert(frame == private.frame)
 	frame:Release()
 	private.frame = nil
+	TSM.UI.AnalyticsRecordClose("task_list")
 end
 
 function private.CloseBtnOnClick(button)

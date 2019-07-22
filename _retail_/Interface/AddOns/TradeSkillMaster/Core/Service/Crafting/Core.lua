@@ -20,75 +20,6 @@ local CHARACTER_KEY = UnitName("player").." - "..GetRealmName()
 local IGNORED_COOLDOWN_SEP = "\001"
 local PROFESSION_SEP = ","
 local PLAYER_SEP = ","
-local SPELL_DB_SCHEMA = {
-	fields = {
-		spellId = "number",
-		itemString = "string",
-		itemName = "string",
-		name = "string",
-		profession = "string",
-		numResult = "number",
-		players = "string",
-		hasCD = "boolean",
-		firstOperation = "string",
-	},
-	fieldAttributes = {
-		spellId = { "unique" },
-		itemString = { "index" },
-	},
-	fieldOrder = {
-		"spellId",
-		"itemString",
-		"itemName",
-		"name",
-		"profession",
-		"numResult",
-		"players",
-		"hasCD",
-		"firstOperation",
-	},
-}
-local MAT_DB_SCHEMA = {
-	fields = {
-		spellId = "number",
-		itemString = "string",
-		quantity = "number",
-	},
-	fieldAttributes = {
-		spellId = { "index" },
-		itemString = { "index" },
-	},
-	fieldOrder = {
-		"spellId",
-		"itemString",
-		"quantity",
-	},
-}
-local MAT_ITEM_DB_SCHEMA = {
-	fields = {
-		itemString = "string",
-		professions = "string",
-		hasCustomValue = "boolean",
-	},
-	fieldAttributes = {
-		itemString = { "unique" },
-	},
-	fieldOrder = {
-		"itemString",
-		"professions",
-		"hasCustomValue",
-	},
-}
-local IGNORED_COOLDOWN_DB_SCHEMA = {
-	fields = {
-		characterKey = "string",
-		spellId = "number",
-	},
-	fieldOrder = {
-		"characterKey",
-		"spellId",
-	},
-}
 
 
 
@@ -116,28 +47,50 @@ function Crafting.OnInitialize()
 	TSMAPI_FOUR.Util.ReleaseTempTable(used)
 
 	local professionItems = TSMAPI_FOUR.Util.AcquireTempTable()
-	private.matDB = TSMAPI_FOUR.Database.New(MAT_DB_SCHEMA, "CRAFTING_MATS")
+	local matSpellCount = TSMAPI_FOUR.Util.AcquireTempTable()
+	local matFirstItemString = TSMAPI_FOUR.Util.AcquireTempTable()
+	local matFirstQuantity = TSMAPI_FOUR.Util.AcquireTempTable()
+	private.matDB = TSMAPI_FOUR.Database.NewSchema("CRAFTING_MATS")
+		:AddNumberField("spellId")
+		:AddStringField("itemString")
+		:AddNumberField("quantity")
+		:AddIndex("spellId")
+		:AddIndex("itemString")
+		:Commit()
 	private.matDB:BulkInsertStart()
-	private.spellDB = TSMAPI_FOUR.Database.New(SPELL_DB_SCHEMA, "CRAFTING_SPELLS")
+	private.spellDB = TSMAPI_FOUR.Database.NewSchema("CRAFTING_SPELLS")
+		:AddUniqueNumberField("spellId")
+		:AddStringField("itemString")
+		:AddStringField("itemName")
+		:AddStringField("name")
+		:AddStringField("profession")
+		:AddNumberField("numResult")
+		:AddStringField("players")
+		:AddBooleanField("hasCD")
+		:AddIndex("itemString")
+		:Commit()
 	private.spellDB:BulkInsertStart()
+	local playersTemp = TSMAPI_FOUR.Util.AcquireTempTable()
 	for spellId, craftInfo in pairs(TSM.db.factionrealm.internalData.crafts) do
-		local players = TSMAPI_FOUR.Util.AcquireTempTable()
+		wipe(playersTemp)
 		for player in pairs(craftInfo.players) do
-			tinsert(players, player)
+			tinsert(playersTemp, player)
 		end
-		sort(players)
-		local playersStr = strjoin(PLAYER_SEP, TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(players))
+		sort(playersTemp)
+		local playersStr = table.concat(playersTemp, PLAYER_SEP)
 		local itemName = TSMAPI_FOUR.Item.GetName(craftInfo.itemString) or ""
-		-- FIXME: replace with a join
-		local firstOperation = TSM.Operations.GetFirstOperationByItem("Crafting", craftInfo.itemString) or ""
-		private.spellDB:BulkInsertNewRow(spellId, craftInfo.itemString, itemName, craftInfo.name or "", craftInfo.profession, craftInfo.numResult, playersStr, craftInfo.hasCD and true or false, firstOperation)
+		private.spellDB:BulkInsertNewRow(spellId, craftInfo.itemString, itemName, craftInfo.name or "", craftInfo.profession, craftInfo.numResult, playersStr, craftInfo.hasCD and true or false)
 
 		for matItemString, matQuantity in pairs(craftInfo.mats) do
 			private.matDB:BulkInsertNewRow(spellId, matItemString, matQuantity)
 			professionItems[craftInfo.profession] = professionItems[craftInfo.profession] or TSMAPI_FOUR.Util.AcquireTempTable()
 			professionItems[craftInfo.profession][matItemString] = true
+			matSpellCount[spellId] = (matSpellCount[spellId] or 0) + 1
+			matFirstItemString[spellId] = matItemString
+			matFirstQuantity[spellId] = matQuantity
 		end
 	end
+	TSMAPI_FOUR.Util.ReleaseTempTable(playersTemp)
 	private.spellDB:BulkInsertEnd()
 	private.matDB:BulkInsertEnd()
 
@@ -145,19 +98,25 @@ function Crafting.OnInitialize()
 		:Select("itemString", "quantity")
 		:Equal("spellId", TSM.CONST.BOUND_QUERY_PARAM)
 
-	private.matItemDB = TSMAPI_FOUR.Database.New(MAT_ITEM_DB_SCHEMA, "CRAFTING_MAT_ITEMS")
+	private.matItemDB = TSMAPI_FOUR.Database.NewSchema("CRAFTING_MAT_ITEMS")
+		:AddUniqueStringField("itemString")
+		:AddStringField("professions")
+		:AddBooleanField("hasCustomValue")
+		:Commit()
 	private.matItemDB:BulkInsertStart()
+	local professionsTemp = TSMAPI_FOUR.Util.AcquireTempTable()
 	for itemString, info in pairs(TSM.db.factionrealm.internalData.mats) do
-		local professions = TSMAPI_FOUR.Util.AcquireTempTable()
+		wipe(professionsTemp)
 		for profession, items in pairs(professionItems) do
 			if items[itemString] then
-				tinsert(professions, profession)
+				tinsert(professionsTemp, profession)
 			end
 		end
-		sort(professions)
-		local professionsStr = strjoin(PROFESSION_SEP, TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(professions))
+		sort(professionsTemp)
+		local professionsStr = table.concat(professionsTemp)
 		private.matItemDB:BulkInsertNewRow(itemString, professionsStr, info.customValue and true or false)
 	end
+	TSMAPI_FOUR.Util.ReleaseTempTable(professionsTemp)
 	private.matItemDB:BulkInsertEnd()
 
 	for _, tbl in pairs(professionItems) do
@@ -172,20 +131,15 @@ function Crafting.OnInitialize()
 	local query = private.spellDB:NewQuery()
 		:Select("spellId", "itemString", "numResult")
 		:Equal("hasCD", false)
-	local matQuery = private.matDB:NewQuery()
-		:Select("itemString", "quantity")
-		:Equal("spellId", TSM.CONST.BOUND_QUERY_PARAM)
 	for _, spellId, itemString, numResult in query:Iterator() do
-		if not TSM.CONST.MASS_MILLING_RECIPES[spellId] then
-			matQuery:BindParams(spellId)
-			if matQuery:Count() == 1 then
-				local matItemString, matQuantity = matQuery:GetFirstResult()
-				TSMAPI_FOUR.Conversions.Add(itemString, matItemString, numResult / matQuantity, "craft")
-			end
+		if not TSM.CONST.MASS_MILLING_RECIPES[spellId] and matSpellCount[spellId] == 1 then
+			TSMAPI_FOUR.Conversions.Add(itemString, matFirstItemString[spellId], numResult / matFirstQuantity[spellId], "craft")
 		end
 	end
-	matQuery:Release()
 	query:Release()
+	TSMAPI_FOUR.Util.ReleaseTempTable(matSpellCount)
+	TSMAPI_FOUR.Util.ReleaseTempTable(matFirstItemString)
+	TSMAPI_FOUR.Util.ReleaseTempTable(matFirstQuantity)
 
 	local isValid, err = TSMAPI_FOUR.CustomPrice.Validate(TSM.db.global.craftingOptions.defaultCraftPriceMethod, "crafting")
 	if not isValid then
@@ -197,14 +151,16 @@ function Crafting.OnInitialize()
 		if operation.craftPriceMethod ~= "" then
 			isValid, err = TSMAPI_FOUR.CustomPrice.Validate(operation.craftPriceMethod, "crafting")
 			if not isValid then
-				TSMAPI_FOUR.Debug.DumpTable({operation.craftPriceMethod})
 				TSM:Printf(L["Your craft value method for '%s' was invalid so it has been returned to the default. Details: %s"], name, err)
 				operation.craftPriceMethod = ""
 			end
 		end
 	end
 
-	private.ignoredCooldownDB = TSMAPI_FOUR.Database.New(IGNORED_COOLDOWN_DB_SCHEMA, "IGNORED_COOLDOWNS")
+	private.ignoredCooldownDB = TSMAPI_FOUR.Database.NewSchema("IGNORED_COOLDOWNS")
+		:AddStringField("characterKey")
+		:AddNumberField("spellId")
+		:Commit()
 	private.ignoredCooldownDB:BulkInsertStart()
 	for entry in pairs(TSM.db.factionrealm.userData.craftingCooldownIgnore) do
 		local characterKey, spellId = strsplit(IGNORED_COOLDOWN_SEP, entry)
@@ -259,17 +215,24 @@ function Crafting.SpellIterator()
 		:IteratorAndRelease()
 end
 
-function Crafting.GetSpellIdsByItem(itemString)
-	return private.spellDB:NewQuery()
-		:Select("spellId", "hasCD")
+function Crafting.GetSpellIdsByItem(itemString, ignoreCD)
+	local query = private.spellDB:NewQuery()
 		:Equal("itemString", itemString)
-		:IteratorAndRelease()
+
+	if ignoreCD then
+		query:Select("spellId")
+		query:Equal("hasCD", false)
+	else
+		query:Select("spellId", "hasCD")
+	end
+
+	return query:IteratorAndRelease()
 end
 
 function Crafting.GetMostProfitableSpellIdByItem(itemString, playerFilter)
 	local maxProfit, bestSpellId = nil, nil
 	local maxProfitCD, bestSpellIdCD = nil, nil
-	for _, spellId, hasCD in Crafting.GetSpellIdsByItem(itemString) do
+	for _, spellId, hasCD in Crafting.GetSpellIdsByItem(itemString, TSM.db.global.craftingOptions.ignoreCDCraftCost) do
 		if not playerFilter or TSMAPI_FOUR.Util.In(playerFilter, Crafting.GetPlayers(spellId)) then
 			local profit = TSM.Crafting.Cost.GetProfitBySpellId(spellId)
 			if hasCD then
@@ -430,8 +393,6 @@ function Crafting.CreateOrUpdate(spellId, itemString, profession, name, numResul
 			:SetField("numResult", numResult)
 			:SetField("players", player)
 			:SetField("hasCD", hasCD)
-			-- FIXME: replace with a join
-			:SetField("firstOperation", TSM.Operations.GetFirstOperationByItem("Crafting", itemString) or "")
 			:Create()
 	end
 end

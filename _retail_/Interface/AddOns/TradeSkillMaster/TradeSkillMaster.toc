@@ -1,8 +1,8 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: |cff00fe00TradeSkillMaster|r
 ## Notes: Auction house and gold making addon.
 ## Author: TSM Team
-## Version: v4.6.9
+## Version: v4.7.16
 ## SavedVariables: TradeSkillMasterDB, TSMItemCacheDB, TSMItemInfoDB, TradeSkillMasterModulesDB
 ## OptionalDeps: CostBasis, Auc-Advanced, Auctionator, TheUndermineJournal
 ## X-Embeds: AccurateTime, Ace3, LibDataBroker-1.1, LibDBIcon-1.0, LibCompress, LibRealmInfo
@@ -38,11 +38,13 @@ Core\Const\VendorSellPrices.lua
 # Utility files (no dependencies)
 Core\__init.lua
 Core\API.lua
+Core\Util\SmartMap.lua
 Core\Util\Core.lua
 Core\Util\Class.lua
 Core\Util\CSV.lua
 Core\Util\Debug.lua
 Core\Util\Event.lua
+Core\Util\JSON.lua
 Core\Util\Item\__init.lua
 Core\Util\Item\ItemClass.lua
 Core\Util\Item\ItemString.lua
@@ -55,19 +57,20 @@ Core\Lib\ObjectPool.lua
 Core\Lib\Addon.lua
 Core\Lib\ErrorHandler.lua
 Core\Lib\Logger.lua
-Core\Lib\Settings.lua
 Core\Lib\Thread.lua
 
 # Main addon file
 TradeSkillMaster.lua
 
 # Lib files which depend on the main addon file being loaded
+Core\Lib\Settings.lua
 Core\Lib\Analytics.lua
 Core\Lib\Auction\Core.lua
 Core\Lib\Auction\QueryUtil.lua
 Core\Lib\Auction\Scanning.lua
 Core\Lib\Database\Core.lua
 Core\Lib\Database\Database.lua
+Core\Lib\Database\DatabaseSchema.lua
 Core\Lib\Database\DatabaseQuery.lua
 Core\Lib\Database\DatabaseQueryClause.lua
 Core\Lib\Database\DatabaseQueryResultRow.lua

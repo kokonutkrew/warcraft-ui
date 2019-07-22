@@ -10,7 +10,7 @@ Licensed under a Creative Commons "Attribution Non-Commercial Share Alike" Licen
 local _
 
 local MAJOR_VERSION = "LibFishing-1.0"
-local MINOR_VERSION = 91010
+local MINOR_VERSION = 91012
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub") end
 
@@ -210,11 +210,10 @@ function FishLib:UpdateFishingSkill()
     end
 end
 
--- get our current fishing skill level
-function FishLib:GetCurrentSkill()
+-- get the fishing skill for the specified continent
+function FishLib:GetContinentSkill(continent)
     local _, _, _, fishing, _, _ = GetProfessions();
     if (fishing and self.havedata) then
-        local continent, _ = self:GetCurrentMapContinent();
         local info = FishLib.continent_fishing[continent];
         if (info) then
             local name, _, _, skillmax, _, _, _, mods = GetProfessionInfo(fishing);
@@ -222,7 +221,13 @@ function FishLib:GetCurrentSkill()
             return info.rank or 0, mods or 0, info.max or 0, lure or 0;
         end
     end
-    return 0, 0, 0;
+    return 0, 0, 0, 0;
+end
+
+-- get our current fishing skill level
+function FishLib:GetCurrentSkill()
+    local continent, _ = self:GetCurrentMapContinent();
+    return self:GetContinentSkill(continent)
 end
 
 -- Lure library
@@ -1015,7 +1020,9 @@ function FishLib:printable(val)
         end
         return tab.." ]"
     elseif (val ~= nil) then
-        return tostring(val);
+        val = tostring(val)
+        val = gsub(val, "\124", "\124\124");
+        return val;
     else
         return "nil";
     end
@@ -1025,7 +1032,7 @@ end
 -- "|c(%x+)|Hitem:(%d+)(:%d+):%d+:%d+:%d+:%d+:[-]?%d+:[-]?%d+:[-]?%d+:[-]?%d+|h%[(.*)%]|h|r"
 -- go with a fixed pattern, since sometimes the hyperlink trick appears not to work
 -- In 7.0, the single digit '0' can be dropped, leading to ":::::" sequences
-local _itempattern = "|c(%x+)|Hitem:(%d+):(%d*):[^|]+|h%[(.*)%]|h|r"
+local _itempattern = "|c(%x+)|Hitem:(%d+):(%d*)(:[^|]+)|h%[(.*)%]|h|r"
 
 function FishLib:GetItemPattern()
     if ( not _itempattern ) then
@@ -1064,15 +1071,36 @@ function FishLib:SetInventoryItem(tooltip, target, item, uncleared)
     tooltip:SetInventoryItem(target, item);
 end
 
-function FishLib:SplitLink(link, get_id)
+function FishLib:ParseLink(link)
     if ( link ) then
         -- Make the link canonical
         link = self:ValidLink(link, true);
-        local _,_, color, id, enchant, name = string.find(link, self:GetItemPattern());
+
+        local _,_, color, id, enchant, numberlist, name = string.find(link, self:GetItemPattern());
         if ( name ) then
-            if (not enchant or enchant == '') then
-                enchant = 0;
+            local numbers = {}
+            -- numbers:
+            -- id, enchant
+            -- gem1, gem2, gem3, gem4, suffix, unique id, link level (the level of the player?), specid, upgrade type, difficulty id
+            -- 0, 1 or 2 -- followed by that many extra numbers
+            -- upgrade id
+            tinsert(numbers, tonumber(id))
+            tinsert(numbers, tonumber(enchant or 0))
+            for entry in string.gmatch(numberlist, ":%d*") do
+                local value = tonumber(strmatch(entry, ":(%d+)")) or 0;
+                tinsert(numbers, value);
             end
+            return name, color, numbers;
+        end
+    end
+end
+
+function FishLib:SplitLink(link, get_id)
+    if ( link ) then
+        local name, color, numbers = self:ParseLink(link);
+        if ( name ) then
+            local id = numbers[1];
+            local enchant = numbers[2];
             if (not get_id) then
                 id = id..":"..enchant
             else
@@ -2126,32 +2154,19 @@ function FishLib:GetFishingOutfitItems(wearing, nopole, ignore)
     -- find fishing gear
     -- no affinity, check all bags
     local outfit = nil;
+    ignore = ignore or {};
     for invslot=1,17,1 do
         local slotid = slotinfo[invslot].id;
         local ismain = (slotid == INVSLOT_MAINHAND);
         if ( not nopole or not ismain ) then
             item = self:GetBestFishingItem(slotid)
-            if item then
+            if item and not ignore[item] then
                 outfit = outfit or {};
                 outfit[slotid] = item
             end
         end
     end
     return outfit;
-end
-
-function FishLib:GetBagItemStats(bag, slot)
-    local link;
-    local c, i, n;
-    if ( bag ) then
-        link = GetContainerItemLink (bag,slot);
-    else
-        link = GetInventoryItemLink("player", slot);
-    end
-    if (link) then
-        c, i, n = self:SplitLink(link, true);
-    end
-    return c, i, n;
 end
 
 -- look in a particular bag

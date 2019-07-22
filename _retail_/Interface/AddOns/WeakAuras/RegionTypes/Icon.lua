@@ -210,6 +210,8 @@ local function create(parent, data)
   end
 
   local icon = region:CreateTexture(nil, "BACKGROUND");
+  icon:SetSnapToPixelGrid(false)
+  icon:SetTexelSnappingBias(0)
   if MSQ then
     icon:SetAllPoints(button);
   else
@@ -301,25 +303,15 @@ local function configureText(fontString, icon, enabled, point, width, height, co
     local selfPoint = WeakAuras.inverse_point_types[point];
     fontString:SetPoint(selfPoint, icon, point, -0.5 * sxo, -0.5 * syo);
   end
-  -- WORKAROUND even more Blizzard stupidity. SetJustifyH doesn't seem to work with the hack from SetTextOnText
-  -- So reset here to automatic width
+
   local fontPath = SharedMedia:Fetch("font", font);
   fontString:SetFont(fontPath, fontSize, fontFlags == "MONOCHROME" and "OUTLINE, MONOCHROME" or fontFlags);
-  local t = fontString:GetText();
-  fontString:SetText("WORKAROUND Blizzard Bugs");
-  fontString:SetText(t);
 
   fontString:SetTextHeight(fontSize);
   fontString:SetTextColor(textColor[1], textColor[2], textColor[3], textColor[4]);
 
   fontString:SetJustifyH(h);
   fontString:SetJustifyV(v);
-
-  fontString:SetWidth(0);
-  local tw = fontString:GetWidth();
-  local w = fontString:GetStringWidth();
-  w = w + max(15, w / 20);
-  fontString:SetWidth(w); -- But that internal text size calculation is wrong, see ticket 1014
 end
 
 local function modify(parent, region, data)
@@ -332,11 +324,18 @@ local function modify(parent, region, data)
   region.progressPrecision = data.progressPrecision;
   region.totalPrecision = data.totalPrecision;
 
-  if MSQ and not region.MSQGroup then
-    region.MSQGroup = MSQ:Group("WeakAuras", region.frameId);
-    region.MSQGroup:AddButton(button, {Icon = icon, Cooldown = cooldown});
+  if MSQ then
+    local masqueId = data.id:lower():gsub(" ", "_");
+    -- TODO -- This should check if the masque id is different instead of always keeping the same masqueId
+    -- But currently masque behaves strangely when a button was already part of a group and the new group is disabled
+    -- In that case the button gets a Blizzard skin
+    if not region.masqueId then
+      region.masqueId = masqueId
+      region.MSQGroup = MSQ:Group("WeakAuras", region.masqueId);
+      region.MSQGroup:AddButton(button, {Icon = icon, Cooldown = cooldown});
 
-    button.data = data
+      button.data = data
+    end
   end
 
   region:SetWidth(data.width);
@@ -509,7 +508,6 @@ local function modify(parent, region, data)
   function region:UpdateSize()
     local width = region.width * math.abs(region.scalex);
     local height = region.height * math.abs(region.scaley);
-
     region:SetWidth(width);
     region:SetHeight(height);
     if MSQ then
@@ -520,6 +518,9 @@ local function modify(parent, region, data)
     icon:SetAllPoints();
 
     region:UpdateTexCoords();
+    if region.glow then
+      region:SetGlow(true);
+    end
   end
 
   function region:UpdateTexCoords()
@@ -689,6 +690,13 @@ local function modify(parent, region, data)
     end
   end
 
+  function region:PreShowGlow()
+    if region.glow then
+      region:SetGlow(false)
+      region:SetGlow(true)
+    end
+  end
+
   region.useGlowColor = data.useGlowColor
   region.glowColor = data.glowColor
   region:SetGlowType(data.glowType)
@@ -717,6 +725,7 @@ local function modify(parent, region, data)
     end
 
     function region:PreShow()
+      region:PreShowGlow()
       if (region.duration > 0.01) then
         cooldown:Show();
         cooldown:SetCooldown(region.expirationTime - region.duration, region.duration);
@@ -736,8 +745,7 @@ local function modify(parent, region, data)
       UpdateText();
     end
 
-    function region:PreShow()
-    end
+    region.PreShow = region.PreShowGlow
   end
 end
 

@@ -59,6 +59,11 @@ function BankingUI.OnInitialize()
 	private.FSMCreate()
 end
 
+function BankingUI.OnDisable()
+	-- hide the frame
+	private.fsm:ProcessEvent("EV_BANK_CLOSED")
+end
+
 function BankingUI.Toggle()
 	private.fsm:ProcessEvent("EV_TOGGLE")
 end
@@ -70,7 +75,7 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("banking")
+	TSM.UI.AnalyticsRecordPathChange("banking")
 	local frame = TSMAPI_FOUR.UI.NewElement("ApplicationFrame", "base")
 		:SetTextureSet("LARGE", "SMALL")
 		:SetParent(UIParent)
@@ -80,6 +85,7 @@ function private.CreateMainFrame()
 		:SetStyle("strata", "HIGH")
 		:SetStyle("bottomPadding", 170)
 		:SetTitle(L["TSM Banking"])
+		:SetScript("OnHide", private.BaseFrameOnHide)
 		:SetContentFrame(TSMAPI_FOUR.UI.NewElement("Frame", "content")
 			:SetLayout("VERTICAL")
 			:SetStyle("background", "#272727")
@@ -162,10 +168,13 @@ function private.UpdateCurrentModule(frame)
 	-- update group tree
 	local contextTable = nil
 	if private.currentModule == "Warehousing" then
+		TSM.UI.AnalyticsRecordPathChange("banking", "warehousing")
 		contextTable = TSM.db.profile.internalData.bankingWarehousingGroupTreeContext
 	elseif private.currentModule == "Auctioning" then
+		TSM.UI.AnalyticsRecordPathChange("banking", "auctioning")
 		contextTable = TSM.db.profile.internalData.bankingAuctioningGroupTreeContext
 	elseif private.currentModule == "Mailing" then
+		TSM.UI.AnalyticsRecordPathChange("banking", "mailing")
 		contextTable = TSM.db.profile.internalData.bankingMailingGroupTreeContext
 	else
 		error("Unexpected module: "..tostring(private.currentModule))
@@ -275,6 +284,10 @@ end
 -- Local Script Handlers
 -- ============================================================================
 
+function private.BaseFrameOnHide()
+	TSM.UI.AnalyticsRecordClose("banking")
+end
+
 function private.CloseBtnOnClick(button)
 	TSM:Print(L["Hiding the TSM Banking UI. Type '/tsm bankui' to reopen it."])
 	button:GetParentElement():Hide()
@@ -299,6 +312,10 @@ local function MoreDialogRowIterator(_, prevIndex)
 		return 1, L["Select All Groups"], private.SelectAllBtnOnClick
 	elseif prevIndex == 1 then
 		return 2, L["Deselect All Groups"], private.DeselectAllBtnOnClick
+	elseif prevIndex == 2 then
+		return 3, L["Expand All Groups"], private.ExpandAllBtnOnClick
+	elseif prevIndex == 3 then
+		return 4, L["Collapse All Groups"], private.CollapseAllBtnOnClick
 	end
 end
 function private.MoreBtnOnClick(button)
@@ -314,6 +331,18 @@ end
 function private.DeselectAllBtnOnClick(button)
 	local baseFrame = button:GetBaseElement()
 	baseFrame:GetElement("content.groupTree"):DeselectAll()
+	baseFrame:HideDialog()
+end
+
+function private.ExpandAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.groupTree"):ExpandAll()
+	baseFrame:HideDialog()
+end
+
+function private.CollapseAllBtnOnClick(button)
+	local baseFrame = button:GetBaseElement()
+	baseFrame:GetElement("content.groupTree"):CollapseAll()
 	baseFrame:HideDialog()
 end
 

@@ -1,0 +1,135 @@
+//================================================================
+// SAMPLE SCRIPT FOR THREE WOW'S ON ONE PC
+//
+// Warcraft Patch 8.0.1
+//
+// Toggle the scroll lock key to turn hotkeys off and on. (You 
+// can change this if you want, just like you can change 
+// everything else with HotkeyNet.) 
+//
+// Requires HotkeyNet build 147 or higher.
+// 
+// For more info, go to www.hotkeynet.com 
+//================================================================
+
+//-----------------------------------------------------------
+// PRESS CTRL R TO RENAME WINDOWS IF LAUNCHED MANUALLY
+// HIDDEN WINDOWS ARE RENAMED TO WOW#A. GAME WINDOWS
+// ARE RENAMED TO WOW#B
+//-----------------------------------------------------------
+<Hotkey ScrollLockOn Ctrl R>
+    <SendPC local>
+        <RenameWin "World of Warcraft" WoW1a>
+        <RenameWin "World of Warcraft" WoW2a>
+        <RenameWin "World of Warcraft" WoW3a>
+        <RenameWin "World of Warcraft" WoW1b>
+        <RenameWin "World of Warcraft" WoW2b>
+        <RenameWin "World of Warcraft" WoW3b>
+
+//-----------------------------------------------------------
+// PRESS CTRL SHIFT R TO UNDO RENAME
+//-----------------------------------------------------------
+<Hotkey ScrollLockOn SHIFT Ctrl R>
+    <SendPC local>
+        <RenameWin WoW1a "World of Warcraft">
+        <RenameWin WoW2a "World of Warcraft">
+        <RenameWin WoW3a "World of Warcraft">
+        <RenameWin WoW1b "World of Warcraft">
+        <RenameWin WoW2b "World of Warcraft">
+        <RenameWin WoW3b "World of Warcraft">
+
+//-----------------------------------------------------------
+// SUBROUTINE TO LAUNCH AND RENAME A COPY OF WOW.
+//-----------------------------------------------------------
+<Command LaunchAndRename>
+   <SendPC %1%> 
+      <Run "C:\code\tools\other\blizzard\World of Warcraft\_retail_\Wow.exe" %2%>
+        <RenameTargetWin %3%>
+          <wait 500>
+
+<Command BlizzardLauncher>
+  <SendPC %1%>
+    <Run "C:\code\tools\other\blizzard\World of Warcraft\World of Warcraft Launcher.exe">
+
+//-----------------------------------------------------------
+// HOTKEY TO LAUNCH AND RENAME BOTH WOW'S.
+//-----------------------------------------------------------
+<Hotkey ScrollLockOn Ctrl L>
+  <If WinExists "World of Warcraft">
+    <RenameWin "World of Warcraft" WoW1b>
+    <RenameWin "World of Warcraft" WoW1a>
+    <LaunchAndRename local "-config TYGRRRLILLY-WOW2.WTF" WoW2a>
+    <RenameWin "World of Warcraft" WoW2b>
+    <wait 500>
+    <LaunchAndRename local "-config M4NCUB-WOW1.WTF" WoW3a>
+    <RenameWin "World of Warcraft" WoW3b>
+  <Else If WinExists "WoW1b">
+    <LaunchAndRename local "-config TYGRRRLILLY-WOW2.WTF" WoW2a>
+    <RenameWin "World of Warcraft" WoW2b>
+    <wait 500>
+    <LaunchAndRename local "-config M4NCUB-WOW1.WTF" WoW3a>
+    <RenameWin "World of Warcraft" WoW3b>
+  <Else>
+    <LaunchAndRename local "-config S4M04NSL4Y3R-SHGRSHN.WTF" WoW1a>
+    <RenameWin "World of Warcraft" WoW1b>
+    <wait 500>
+    <LaunchAndRename local "-config TYGRRRLILLY-WOW2.WTF" WoW2a>
+    <RenameWin "World of Warcraft" WoW2b>
+    <wait 500>
+    <LaunchAndRename local "-config M4NCUB-WOW1.WTF" WoW3a>
+    <RenameWin "World of Warcraft" WoW3b>
+
+<Hotkey ScrollLockOn SHIFT Ctrl L>
+  <BlizzardLauncher local>
+  <BlizzardLauncher local>
+  <BlizzardLauncher local>
+
+<Hotkey ScrollLockOn SHIFT ALT Ctrl L>
+  <BlizzardLauncher local>
+
+//-----------------------------------------------------------
+// DEFINE MAIL LABELS FOR SENDING KEY STROKES 
+//-----------------------------------------------------------
+<Label w1 Local SendWinS WoW1b>
+<Label w2 Local SendWinS WoW2b>
+<Label w3 Local SendWinS WoW3b>
+
+//-----------------------------------------------------------
+// DEFINE HOTKEYS FOR ALL KEY COMBINATIONS THAT WILL GET
+// SENT TO ALL 3 WOWS. ADD MORE KEY COMBO'S IF YOU WANT. 
+//-----------------------------------------------------------
+<Hotkey ScrollLockOn A-Z, 0-9, Plus, Minus, F1-F12, Esc except W, A, S, D, Q, E>
+<SendLabel w1, w2, w3>
+<Key %Trigger%> 
+
+//-----------------------------------------------------------
+// DEFINE MOVEMENT KEYS THAT WILL GET SENT TO ALL 3 WOWS.
+// ADD MORE KEYS IF YOU WANT. 
+//-----------------------------------------------------------
+<MovementHotkey ScrollLockOn Up, Down, Left, Right>
+<SendLabel w1, w2, w3>
+<Key %Trigger%> 
+
+//-----------------------------------------------------------
+// BROADCAST MOUSE CLICKS. HOLD DOWN OEM3 (ON U.S. KEYBOARDS,
+// THAT'S THE SQUIGGLE KEY IN UPPPER LEFT CORNER) WHEN YOU 
+// WANT TO BROADCAST.
+//-----------------------------------------------------------
+<UseKeyAsModifier Oem3>
+<Hotkey ScrollLockOn Oem3 LButton, MButton, RButton, Button4, Button5>
+   <SendLabel w1, w2, w3>
+      <ClickMouse %TriggerMainKey%>
+
+//-----------------------------------------------------------
+// STUNS & INTERRUPTS ROUND ROBBIN
+//-----------------------------------------------------------
+<Hotkey ScrollLockOn Q>
+<Toggle>
+    <SendLabel w1>
+    <Key %Trigger%>
+   <Toggle>
+     <SendLabel w2>
+     <Key %Trigger%>
+   <Toggle>
+     <SendLabel w3>
+     <Key %Trigger%>

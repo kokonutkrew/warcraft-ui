@@ -35,6 +35,14 @@ function AuctionUI.OnInitialize()
 	TSMAPI_FOUR.Util.RegisterItemLinkedCallback(private.ItemLinkedCallback)
 end
 
+function AuctionUI.OnDisable()
+	if private.frame then
+		-- hide the frame
+		private.frame:Hide()
+		assert(not private.frame)
+	end
+end
+
 function AuctionUI.RegisterTopLevelPage(name, texturePack, callback, itemLinkedHandler)
 	tinsert(private.topLevelPages, { name = name, texturePack = texturePack, callback = callback, itemLinkedHandler = itemLinkedHandler })
 end
@@ -124,7 +132,7 @@ function private.AuctionFrameInit()
 		tab:SetID(tabId)
 		tab:SetText("|cff99ffffTSM4|r")
 		tab:SetNormalFontObject(GameFontHighlightSmall)
-		tab:SetPoint("LEFT", _G["AuctionFrameTab"..tabId-1], "RIGHT", -8, 0)
+		tab:SetPoint("LEFT", _G["AuctionFrameTab"..tabId - 1], "RIGHT", -8, 0)
 		tab:Show()
 		PanelTemplates_SetNumTabs(AuctionFrame, tabId)
 		PanelTemplates_EnableTab(AuctionFrame, tabId)
@@ -161,7 +169,7 @@ function private.HideAuctionFrame()
 end
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("auction")
+	TSM.UI.AnalyticsRecordPathChange("auction")
 	local frame = TSMAPI_FOUR.UI.NewElement("LargeApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetMinResize(MIN_FRAME_SIZE.width, MIN_FRAME_SIZE.height)
@@ -200,11 +208,12 @@ function private.BaseFrameOnHide(frame)
 	if not private.isSwitching then
 		CloseAuctionHouse()
 	end
+	TSM.UI.AnalyticsRecordClose("auction")
 end
 
 function private.SwitchBtnOnClick(button)
 	private.isSwitching = true
-	TSM.db.global.internalData.auctionUIFrameContext.showDefault = button ~= private.defaultUISwitchBtn
+	TSM.db.global.internalData.auctionUIFrameContext.showDefault = true
 	private.HideAuctionFrame()
 	UIParent_OnEvent(UIParent, "AUCTION_HOUSE_SHOW")
 	private.isSwitching = false

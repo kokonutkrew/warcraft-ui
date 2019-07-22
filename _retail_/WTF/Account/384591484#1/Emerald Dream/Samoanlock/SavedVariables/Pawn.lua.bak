@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0234,
+	["LastPlayerFullName"] = "Samoanlock-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "WARLOCK",
+	["LastAdded"] = 1,
+}

@@ -10,26 +10,6 @@ local _, TSM = ...
 local CancelScan = TSM.Auctioning:NewPackage("CancelScan")
 local L = TSM.L
 local private = { scanThreadId = nil, queueDB = nil, auctionScanDB = nil, itemList = {}, usedAuctionIndex = {} }
-local QUEUE_DB_SCHEMA = {
-	fields = {
-		index = "number",
-		itemString = "string",
-		operationName = "string",
-		bid = "number",
-		buyout = "number",
-		itemBid = "number",
-		itemBuyout = "number",
-		stackSize = "number",
-		numStacks = "number",
-		numProcessed = "number",
-		numConfirmed = "number",
-		numFailed = "number",
-	},
-	fieldAttributes = {
-		index = { "index" },
-		itemString = { "index" },
-	}
-}
 
 
 
@@ -40,7 +20,22 @@ local QUEUE_DB_SCHEMA = {
 function CancelScan.OnInitialize()
 	-- initialize thread
 	private.scanThreadId = TSMAPI_FOUR.Thread.New("CANCEL_SCAN", private.ScanThread)
-	private.queueDB = TSMAPI_FOUR.Database.New(QUEUE_DB_SCHEMA, "AUCTIONING_CANCEL_QUEUE")
+	private.queueDB = TSMAPI_FOUR.Database.NewSchema("AUCTIONING_CANCEL_QUEUE")
+		:AddNumberField("index")
+		:AddStringField("itemString")
+		:AddStringField("operationName")
+		:AddNumberField("bid")
+		:AddNumberField("buyout")
+		:AddNumberField("itemBid")
+		:AddNumberField("itemBuyout")
+		:AddNumberField("stackSize")
+		:AddNumberField("numStacks")
+		:AddNumberField("numProcessed")
+		:AddNumberField("numConfirmed")
+		:AddNumberField("numFailed")
+		:AddIndex("index")
+		:AddIndex("itemString")
+		:Commit()
 end
 
 function CancelScan.Prepare()
@@ -256,10 +251,9 @@ function private.AuctionScanOnFilterDone(_, filter)
 				:Equal("autoBaseItemString", itemString)
 				:Equal("saleStatus", 0)
 				:OrderBy("index", false)
-			for _, auctionsDBRow in auctionsDBQuery:Iterator() do
+			for _, auctionsDBRow in auctionsDBQuery:IteratorAndRelease() do
 				private.GenerateCancels(auctionsDBRow, itemString, query, groupPath)
 			end
-			auctionsDBQuery:Release()
 		else
 			TSM:LOG_WARN("Item removed from group since start of scan: %s", itemString)
 		end

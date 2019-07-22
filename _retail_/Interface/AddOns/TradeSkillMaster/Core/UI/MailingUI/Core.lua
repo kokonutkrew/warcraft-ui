@@ -14,7 +14,7 @@ local private = {
 	frame = nil,
 	fsm = nil,
 	defaultUISwitchBtn = nil,
-	isVisible = false
+	isVisible = false,
 }
 local MIN_FRAME_SIZE = { width = 560, height = 500 }
 
@@ -26,6 +26,11 @@ local MIN_FRAME_SIZE = { width = 560, height = 500 }
 
 function MailingUI.OnInitialize()
 	private.FSMCreate()
+end
+
+function MailingUI.OnDisable()
+	-- hide the frame
+	private.fsm:ProcessEvent("EV_FRAME_HIDE")
 end
 
 function MailingUI.RegisterTopLevelPage(name, textureInfo, callback)
@@ -47,7 +52,9 @@ end
 -- ============================================================================
 
 function private.CreateMainFrame()
-	TSM.Analytics.PageView("mailing")
+	TSM.UI.AnalyticsRecordPathChange("mailing")
+	-- Always show the Inbox first
+	TSM.db.global.internalData.mailingUIFrameContext.page = 1
 	local frame = TSMAPI_FOUR.UI.NewElement("LargeApplicationFrame", "base")
 		:SetParent(UIParent)
 		:SetMinResize(MIN_FRAME_SIZE.width, MIN_FRAME_SIZE.height)
@@ -74,6 +81,7 @@ end
 -- ============================================================================
 
 function private.BaseFrameOnHide()
+	TSM.UI.AnalyticsRecordClose("mailing")
 	private.fsm:ProcessEvent("EV_FRAME_HIDE")
 end
 
@@ -178,13 +186,16 @@ function private.FSMCreate()
 
 				assert(not context.frame)
 				context.frame = private.CreateMainFrame()
+				context.frame:Show()
 				context.frame:Draw()
 				private.isVisible = true
 			end)
 			:SetOnExit(function(context)
-				context.frame:Hide()
-				context.frame:Release()
-				context.frame = nil
+				if context.frame then
+					context.frame:Hide()
+					context.frame:Release()
+					context.frame = nil
+				end
 				private.isVisible = false
 			end)
 			:AddTransition("ST_CLOSED")
@@ -208,13 +219,10 @@ function private.FSMCreate()
 				end
 			end)
 			:AddEvent("EV_MAIL_CLOSED", function(context)
-				context.frame:Hide()
-				context.frame:Release()
-				context.frame = nil
-				private.isVisible = false
-
 				CancelEmote()
 				CloseAllBags()
+
+				return "ST_CLOSED"
 			end)
 			:AddEvent("EV_SWITCH_BTN_CLICKED", function()
 				return "ST_DEFAULT_OPEN"

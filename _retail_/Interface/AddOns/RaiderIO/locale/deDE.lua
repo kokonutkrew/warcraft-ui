@@ -11,27 +11,31 @@ L["ALLOW_ON_PLAYER_UNITS"] = "Erlaube auf Einheitenfenstern von Spielern"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Rechtsklick auf Einheitenfenster von Spielern, um den Raider.IO Profil-Link zu kopieren."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Immer Wertung der aktuellen Rolle anzeigen"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Halte einen Modifikator gedrückt (Shift / Strg / Alt), um die Rollenwertung des Spielers im Tooltip anzuzeigen. Wenn du diese Option aktivierst, enthalten die Tooltips immer Rollenwerte."
---[[Translation missing --]]
---[[ L["API_DEPRECATED"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_UNKNOWN_ADDON"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_UNKNOWN_FILE"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_DEPRECATED_WITH"] = ""--]] 
---[[Translation missing --]]
---[[ L["API_INVALID_DATABASE"] = ""--]] 
+L["API_DEPRECATED"] = "|cffFF0000Warnung!|r Das AddOn |cffFFFFFF%s|r verwendet eine veraltete Funktion RaiderIO.%s. Diese Funktion wird in zukünftigen Versionen entfernt. Bitte ermutigen Sie den Autor von %s, sein AddOn zu aktualisieren. Call stack: %s"
+L["API_DEPRECATED_UNKNOWN_ADDON"] = "<Unbekanntes AddOn>"
+L["API_DEPRECATED_UNKNOWN_FILE"] = "<Unbekannte AddOn Datei>"
+L["API_DEPRECATED_WITH"] = "|cffFF0000Warnung!|r Das AddOn |cffFFFFFF%s|r verwendet eine veraltete Funktion RaiderIO.%s. Diese Funktion wird in zukünftigen Versionen entfernt. Bitte ermutigen Sie den Autor von %s auf die neue API RaiderIO.%s zu aktualisieren. Call stack: %s"
+L["API_INVALID_DATABASE"] = "|cffFF0000Warnung!|r Ungültige RaiderIO Datenbank in |cffffffff%s|r entdeckt. Bitte aktualisiere alle Regionen und Fraktionen im RaiderIO Client oder installiere das AddOn manuell neu."
 L["BEST_FOR_DUNGEON"] = "Beste Instanzwertung"
 L["BEST_RUN"] = "Bester Run"
+--[[Translation missing --]]
+--[[ L["BEST_SCORE"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Ihre Änderungen wurden gespeichert, du musst jedoch die Benutzeroberfläche neu laden, damit diese wirksam werden.
 
 Möchtest du das jetzt tun?]=]
 --[[Translation missing --]]
 --[[ L["CHECKBOX_DISPLAY_WEEKLY"] = ""--]] 
 --[[Translation missing --]]
---[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
+--[[ L["CHOOSE_HEADLINE_HEADER"] = ""--]] 
+L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ und Raid Tooltips"
+--[[Translation missing --]]
+--[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Kopiere Raider.IO Link"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
+--[[Translation missing --]]
+--[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CURRENT_SCORE"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS Wertung"
 --[[Translation missing --]]
@@ -82,8 +86,7 @@ L["DPS_SCORE"] = "DPS Wertung"
 --[[ L["DUNGEON_SHORT_NAME_VOTW"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["DUNGEON_SHORT_NAME_WM"] = ""--]] 
---[[Translation missing --]]
---[[ L["ENABLE_AUTO_FRAME_POSITION"] = ""--]] 
+L["ENABLE_AUTO_FRAME_POSITION"] = "Positioniere RaiderIO Profilfenster automatisch"
 --[[Translation missing --]]
 --[[ L["ENABLE_AUTO_FRAME_POSITION_DESC"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Sperre meinen M+ Profilrahmen"
@@ -98,6 +101,8 @@ L["ENABLE_SIMPLE_SCORE_COLORS"] = "Verwende einfache Farben"
 L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Zeigt nur Wertungen mit Standardfarben für Itemqualität an. Dies kann es für Personen mit Farbsehschwächen leichter machen, die Bewertungsstufen zu unterscheiden."
 --[[Translation missing --]]
 --[[ L["EXPORTJSON_COPY_TEXT"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["GENERAL_TOOLTIP_OPTIONS"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_SEASON"] = ""--]] 
 --[[Translation missing --]]
@@ -123,6 +128,8 @@ L["KEYSTONE_COMPLETED_15"] = "+15 (SSM)"
 --[[ L["LEGION_SCORE"] = ""--]] 
 L["LOCKING_PROFILE_FRAME"] = "RaiderIO: M+ Profilrahmen sperren"
 --[[Translation missing --]]
+--[[ L["MAINS_BEST_SCORE_BEST_SEASON"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["MAINS_RAID_PROGRESS"] = ""--]] 
 L["MAINS_SCORE"] = "Hauptcharakter Wertung"
 L["MAINS_SCORE_COLON"] = "Hauptcharakter Wertung:"
@@ -142,7 +149,11 @@ L["OUTDATED_DATABASE_HOURS"] = "Wertungen sind %d Stunde(n) alt"
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r benutzt Daten die |cffFF6666%d|r Tag(e) alt sind. Bitte update das Addon für aktuellere Mythic Plus Wertungen."
 L["PLAYER_PROFILE_TITLE"] = "Spieler M+ Profil"
 L["PREV_SEASON_SUFFIX"] = "(*)"
+--[[Translation missing --]]
+--[[ L["PREVIOUS_SCORE"] = ""--]] 
 L["PROFILE_BEST_RUNS"] = "Beste Instanzdurchläufe"
+--[[Translation missing --]]
+--[[ L["PROVIDER_NOT_LOADED"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_ABBREVIATION_ULD"] = ""--]] 
 --[[Translation missing --]]
@@ -167,6 +178,24 @@ L["PROFILE_BEST_RUNS"] = "Beste Instanzdurchläufe"
 --[[ L["RAID_BOSS_ABT_8"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ABT_9"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_8"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_BOD_9"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RAID_BOSS_ULD_1"] = ""--]] 
 --[[Translation missing --]]
@@ -200,8 +229,12 @@ L["PROFILE_BEST_RUNS"] = "Beste Instanzdurchläufe"
 --[[Translation missing --]]
 --[[ L["RAID_PROGRESS_TITLE"] = ""--]] 
 L["RAIDERIO_AVERAGE_PLAYER_SCORE"] = "Durchschn. Wertungen für Timed +%s"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_BEST_RUN"] = ""--]] 
 L["RAIDERIO_CLIENT_CUSTOMIZATION"] = "RaiderIO Client-Anpassung"
 L["RAIDERIO_MP_BASE_SCORE"] = "Raider.IO M+ Basiswertung"
+--[[Translation missing --]]
+--[[ L["RAIDERIO_MP_BEST_SCORE"] = ""--]] 
 L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ Wertung"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO M+ Wertung:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ Einstellungen"
@@ -211,12 +244,32 @@ L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO M+ Einstellungen"
 --[[ L["RAIDING_DB_MODULES"] = ""--]] 
 L["RELOAD_LATER"] = "Aktualisiere später"
 L["RELOAD_NOW"] = "Aktualisiere jetzt"
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_2"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Zeige durchschn. Wertungen für Durchgänge"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Zeigt die durchschnittliche Raider.IO-Wertung an, welche von Mitspielern in in-time Durchgängen angezeigt wird. Dies ist in den SchlüsselsteinTooltips und Spieler Tooltips im Dungeon Finder sichtbar."
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_MAINS_SCORE_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_RUN_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_BEST_SEASON_DESC"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_CLIENT_GUILD_BEST"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_CLIENT_GUILD_BEST_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_CURRENT_SEASON_DESC"] = ""--]] 
 L["SHOW_IN_FRIENDS"] = "Zeige Freundesliste"
 L["SHOW_IN_FRIENDS_DESC"] = "Zeige Mythic+ Wertung wenn du mit der Maus über deine Freunde fährst."
 L["SHOW_IN_LFD"] = "Zeige im Dungeon Finder"
@@ -239,8 +292,16 @@ L["SHOW_ON_PLAYER_UNITS_DESC"] = "Zeige Mythic+ Wertung, wenn du mit der Maus ü
 --[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SHOW_RAID_ENCOUNTERS_IN_PROFILE_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_RAIDERIO_BESTRUN_FIRST_DESC"] = ""--]] 
 L["SHOW_RAIDERIO_PROFILE"] = "Zeige Profil Tooltip im Dungeon Finder"
 L["SHOW_RAIDERIO_PROFILE_DESC"] = "Zeigt den Raider.IO Profil Tooltip im Dungeon Finder"
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SHOW_ROLE_ICONS_DESC"] = ""--]] 
 L["SHOW_SCORE_IN_COMBAT"] = "Zeige Wertung im Kampf"
 L["SHOW_SCORE_IN_COMBAT_DESC"] = "Deaktiviere die Option, um die Auswirkungen auf die Spielleistung zu minimieren, während du Spieler während des Kampfes mit \"mausüber\" inspizierst"
 L["TANK"] = "Tank"
@@ -248,17 +309,15 @@ L["TANK_SCORE"] = "Tank Wertung"
 L["TIMED_10_RUNS"] = "Erfolgreiche +10-14 Runs"
 L["TIMED_15_RUNS"] = "Erfolgreiche +15 Runs"
 --[[Translation missing --]]
---[[ L["TIMED_5_RUNS"] = ""--]] 
+--[[ L["TIMED_20_RUNS"] = ""--]] 
+L["TIMED_5_RUNS"] = "Erfolgreiche +5-9 Runs"
 L["TOOLTIP_CUSTOMIZATION"] = "Wertung Tooltip Anpassungen"
 L["TOOLTIP_PROFILE"] = "Profil Tooltip Anpassungen"
---[[Translation missing --]]
---[[ L["TOTAL_MP_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["TOTAL_RUNS"] = ""--]] 
+L["TOTAL_MP_SCORE"] = "Mythic+ Wertung"
+L["TOTAL_RUNS"] = "Anzahl BFA Runs"
 L["UNKNOWN_SCORE"] = "Unbekannt"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r hat einen neuen Server gefunden. Bitte schreibe folgende information auf: |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r . Danach schicke diese den Entwicklern. Danke!"
---[[Translation missing --]]
---[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
+L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Entsperre das M+ Profilfenster."
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Ihr müsst zuerst die automatische Positionierung des M+ Profils deaktivieren."
 
 

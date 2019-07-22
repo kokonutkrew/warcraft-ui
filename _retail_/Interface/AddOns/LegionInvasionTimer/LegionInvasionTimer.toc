@@ -1,5 +1,5 @@
-## Interface: 80000
-## Version: v8.0.4
+## Interface: 80100
+## Version: v8.1.2
 ## Title: LegionInvasionTimer
 ## Author: Funkydude
 ## Notes: Shows the Legion invasion timer.

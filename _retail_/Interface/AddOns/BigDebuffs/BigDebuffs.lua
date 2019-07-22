@@ -2,6 +2,7 @@
 -- BigDebuffs by Jordon
 
 BigDebuffs = LibStub("AceAddon-3.0"):NewAddon("BigDebuffs", "AceEvent-3.0", "AceHook-3.0")
+local SM = LibStub("LibSharedMedia-3.0")
 
 -- Defaults
 local defaults = {
@@ -11,6 +12,9 @@ local defaults = {
 			anchor = "INNER",
 			enabled = true,
 			cooldownCount = true,
+			cooldownFontSize = 10,
+			cooldownFontEffect = "OUTLINE",
+			cooldownFont = "Friz Quadrata TT",
 			hideBliz = true,
 			redirectBliz = false,
 			increaseBuffs = false,
@@ -35,6 +39,9 @@ local defaults = {
 		unitFrames = {
 			enabled = true,
 			cooldownCount = true,
+			cooldownFontSize = 16,
+			cooldownFontEffect = "OUTLINE",
+			cooldownFont = "Friz Quadrata TT",
 			tooltips = true,
 			player = {
 				enabled = true,
@@ -196,6 +203,7 @@ BigDebuffs.Spells = {
 	[81261] = { type = "cc" }, -- Solar Beam
 	[102342] = { type = "buffs_defensive" }, -- Ironbark
 	[102359] = { type = "roots" }, -- Mass Entanglement
+	[279642] = { type = "buffs_offensive" }, -- Lively Spirit
 	[102543] = { type = "buffs_offensive" }, -- Incarnation: King of the Jungle
 	[102558] = { type = "buffs_offensive" }, -- Incarnation: Guardian of Ursoc
 	[102560] = { type = "buffs_offensive" }, -- Incarnation: Chosen of Elune
@@ -221,6 +229,7 @@ BigDebuffs.Spells = {
 
 	[136] = { type = "buffs_defensive" }, -- Mend Pet
 	[3355] = { type = "cc" }, -- Freezing Trap
+		[203340] = { type ="cc" }, -- Diamond Ice (Survival Honor Talent)
 	[5384] = { type = "buffs_defensive" }, -- Feign Death
 	[19386] = { type = "cc" }, -- Wyvern Sting
 	[19574] = { type = "buffs_offensive" }, -- Bestial Wrath
@@ -406,6 +415,9 @@ BigDebuffs.Spells = {
 		[211004] = { type = "cc", parent = 51514 }, -- Hex (Spider)
 		[211010] = { type = "cc", parent = 51514 }, -- Hex (Snake)
 		[211015] = { type = "cc", parent = 51514 }, -- Hex (Cockroach)
+		[269352] = { type = "cc", parent = 51514 }, -- Hex (Skeletal Hatchling)
+		[277778] = { type = "cc", parent = 51514 }, -- Hex (Zandalari Tendonripper)
+		[277784] = { type = "cc", parent = 51514 }, -- Hex (Wicker Mongrel)
 	[79206] = { type = "buffs_defensive" }, -- Spiritwalker's Grace 60 * OTHER
 	[108281] = { type = "buffs_defensive" }, -- Ancestral Guidance
 	[16166] = { type = "buffs_offensive" }, -- Elemental Mastery
@@ -424,7 +436,10 @@ BigDebuffs.Spells = {
 	[204366] = { type = "buffs_offensive" }, -- Thundercharge
 	[204945] = { type = "buffs_offensive" }, -- Doom Winds
 	[260878] = { type = "buffs_defensive" }, -- Spirit Wolf
-
+	[8178] = { type = "immunities_spells" }, -- Grounding
+		[255016] = { type = "immunities_spells", parent = 8178 }, -- Grounding
+		[204336] = { type = "immunities_spells", parent = 8178 }, -- Grounding
+		[34079] = { type = "immunities_spells", parent = 8178 }, -- Grounding
 
 	-- Warlock
 
@@ -494,7 +509,8 @@ BigDebuffs.Spells = {
 		[232633] = { type = "cc", parent = 129597 }, -- Arcane Torrent
 	[192001] = { type = "buffs_other" }, -- Drink
 		[167152] = { type = "buffs_other", parent = 192001 }, -- Refreshment
-	[257040] = { type = "buffs_other" }, -- Spatial Rift
+	[256948] = { type = "buffs_other" }, -- Spatial Rift
+	[255654] = { type = "cc" }, --Bull Rush
 
 	-- Legacy (may be deprecated)
 
@@ -782,6 +798,13 @@ function BigDebuffs:Refresh()
 	for unit, frame in pairs(self.UnitFrames) do
 		frame:Hide()
 		frame.current = nil
+		if self.db.profile.unitFrames.cooldownCount then
+			local text = frame.cooldown:GetRegions()
+			if text then
+				text:SetFont(SM:Fetch("font",BigDebuffs.db.profile.unitFrames.cooldownFont),
+					self.db.profile.unitFrames.cooldownFontSize, self.db.profile.unitFrames.cooldownFontEffect)
+			end
+		end
 		frame.cooldown:SetHideCountdownNumbers(not self.db.profile.unitFrames.cooldownCount)
 		frame.cooldown.noCooldownCount = not self.db.profile.unitFrames.cooldownCount
 		self:UNIT_AURA(unit)
@@ -798,6 +821,15 @@ function BigDebuffs:AttachUnitFrame(unit)
 		frame = CreateFrame("Button", frameName, UIParent, "BigDebuffsUnitFrameTemplate")
 		self.UnitFrames[unit] = frame
 		frame:SetScript("OnEvent", function() self:UNIT_AURA(unit) end)
+		if self.db.profile.unitFrames.cooldownCount then
+			local text = frame.cooldown:GetRegions()
+			if text then
+				text:SetFont(SM:Fetch("font",BigDebuffs.db.profile.unitFrames.cooldownFont),
+					self.db.profile.unitFrames.cooldownFontSize, self.db.profile.unitFrames.cooldownFontEffect)
+			end
+		end
+		frame.cooldown:SetHideCountdownNumbers(not self.db.profile.unitFrames.cooldownCount)
+		frame.cooldown.noCooldownCount = not self.db.profile.unitFrames.cooldownCount
 		frame.icon:SetDrawLayer("BORDER")
 		frame:RegisterUnitEvent("UNIT_AURA", unit)
 		frame:RegisterForDrag("LeftButton")
@@ -904,7 +936,7 @@ local function UnitDebuffTest(unit, index)
 	local debuff = TestDebuffs[index]
 	if not debuff then return end
 	-- name, icon, count, debuffType, duration, expirationTime, unitCaster, canStealOrPurge, _, spellId
-	return "Test", debuff[2], 0, debuff[4], 0, 0, nil, nil, nil, debuff[1]
+	return "Test", debuff[2], 0, debuff[4], 60, GetTime() + 60, nil, nil, nil, debuff[1]
 end
 
 function BigDebuffs:OnEnable()
@@ -946,7 +978,7 @@ end
 local function UnitBuffByName(unit, name)
 	for i = 1, 40 do
 		local n = UnitBuff(unit, i)
-		if n == name then return end
+		if n == name then return true end
 	end
 end
 
@@ -964,7 +996,7 @@ function BigDebuffs:COMBAT_LOG_EVENT_UNFILTERED()
 	-- Find unit
 	for i = 1, #unitsWithRaid do
 		local unit = unitsWithRaid[i]
-		if destGUID == UnitGUID(unit) and (event ~= "SPELL_CAST_SUCCESS" or select(8, UnitChannelInfo(unit)) == false) then
+		if destGUID == UnitGUID(unit) and (event ~= "SPELL_CAST_SUCCESS" or select(7, UnitChannelInfo(unit)) == false) then
 			local duration = spell.duration
 			local _, class = UnitClass(unit)
 
@@ -1019,6 +1051,7 @@ function BigDebuffs:AddBigDebuffs(frame)
 			local buffPrefix = frameName .. "Buff"
 			local buffFrame = _G[buffPrefix .. i] or CreateFrame("Button", buffPrefix .. i, frame, "CompactBuffTemplate")
 			buffFrame:ClearAllPoints()
+			buffFrame:SetSize(frame.buffFrames[1]:GetSize())
 			if math.fmod(i - 1, 3) == 0 then
 				buffFrame:SetPoint("BOTTOMRIGHT", _G[buffPrefix .. i - 3], "TOPRIGHT")
 			else
@@ -1068,6 +1101,7 @@ end
 local pending = {}
 
 hooksecurefunc("CompactUnitFrame_UpdateAll", function(frame)
+	if not BigDebuffs.db.profile.raidFrames.enabled then return end
 	if frame:IsForbidden() then return end
 	local name = frame:GetName()
 	if not name or not name:match("^Compact") then return end
@@ -1208,6 +1242,10 @@ local function CompactUnitFrame_UtilSetDebuff(debuffFrame, unit, index, filter, 
 	local enabled = expirationTime and expirationTime ~= 0;
 	if enabled then
 		local startTime = expirationTime - duration;
+		local text = debuffFrame.cooldown:GetRegions();
+		text:SetFont(SM:Fetch("font",BigDebuffs.db.profile.raidFrames.cooldownFont),
+			BigDebuffs.db.profile.raidFrames.cooldownFontSize, BigDebuffs.db.profile.raidFrames.cooldownFontEffect);
+
 		CooldownFrame_Set(debuffFrame.cooldown, startTime, duration, true);
 	else
 		CooldownFrame_Clear(debuffFrame.cooldown);
@@ -1524,9 +1562,9 @@ function BigDebuffs:UNIT_AURA(unit)
 				SetPortraitToTexture(frame.icon, icon)
 
 				-- Adapt
-				if frame.anchor and Adapt and Adapt.portraits[frame.anchor] then
-					Adapt.portraits[frame.anchor].modelLayer:SetFrameStrata("BACKGROUND")
-				end
+				-- if frame.anchor and Adapt and Adapt.portraits[frame.anchor] then
+				-- 	Adapt.portraits[frame.anchor].modelLayer:SetFrameStrata("BACKGROUND")
+				-- end
 			else
 				frame.icon:SetTexture(icon)
 			end
@@ -1543,9 +1581,9 @@ function BigDebuffs:UNIT_AURA(unit)
 		frame.current = icon
 	else
 		-- Adapt
-		if frame.anchor and frame.blizzard and Adapt and Adapt.portraits[frame.anchor] then
-			Adapt.portraits[frame.anchor].modelLayer:SetFrameStrata("LOW")
-		end
+		-- if frame.anchor and frame.blizzard and Adapt and Adapt.portraits[frame.anchor] then
+		-- 	Adapt.portraits[frame.anchor].modelLayer:SetFrameStrata("LOW")
+		-- end
 
 		frame:Hide()
 		frame.current = nil

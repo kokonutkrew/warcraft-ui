@@ -1,7 +1,16 @@
 
 AzeriteTooltipDB = {
 	["OnlySpec"] = false,
+	["profileKeys"] = {
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+	},
 	["Compact"] = false,
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
 	["Bags"] = true,
 	["Flyout"] = true,
 	["RemoveBlizzard"] = true,

@@ -361,20 +361,20 @@
     </ptMaxPosition>
     <rcNormalPosition>
       <Location>
-        <X>-1181</X>
-        <Y>77</Y>
+        <X>2666</X>
+        <Y>408</Y>
       </Location>
       <Size>
-        <Width>-389</Width>
-        <Height>687</Height>
+        <Width>3458</Width>
+        <Height>1018</Height>
       </Size>
-      <X>-1181</X>
-      <Y>77</Y>
-      <Width>-389</Width>
-      <Height>687</Height>
+      <X>2666</X>
+      <Y>408</Y>
+      <Width>3458</Width>
+      <Height>1018</Height>
     </rcNormalPosition>
   </LastWindowPlacement>
-  <LastMainSplitter>344</LastMainSplitter>
+  <LastMainSplitter>352</LastMainSplitter>
   <LastBottomSplitter>294</LastBottomSplitter>
   <LastLanguage>English (United States) (LCID:0409)</LastLanguage>
   <NeverShowCPUThrottleForm>false</NeverShowCPUThrottleForm>

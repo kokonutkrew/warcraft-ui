@@ -16,47 +16,6 @@ local private = {
 }
 local PLAYER_NAME = UnitName("player")
 
-local INBOX_INFO_DB_SCHEMA = {
-	fields = {
-		index = "number",
-		icon = "string",
-		subject = "string",
-		itemString = "string",
-		itemCount = "number",
-		money = "number",
-		cod = "number",
-		expires = "number",
-	},
-	fieldAttributes = {
-		index = { "index", "unique" },
-	},
-	fieldOrder = {
-		"index",
-		"icon",
-		"subject",
-		"itemString",
-		"itemCount",
-		"money",
-		"cod",
-		"expires",
-	},
-}
-
-local INBOX_ITEMS_DB_SCHEMA = {
-	fields = {
-		index = "number",
-		itemIndex = "number",
-		itemLink = "string",
-		quantity = "number",
-	},
-	fieldOrder = {
-		"index",
-		"itemIndex",
-		"itemLink",
-		"quantity",
-	},
-}
-
 
 
 -- ============================================================================
@@ -91,8 +50,23 @@ function MailTracking.OnInitialize()
 	end
 	TSMAPI_FOUR.Util.ReleaseTempTable(toRemove)
 
-	private.mailDB = TSMAPI_FOUR.Database.New(INBOX_INFO_DB_SCHEMA, "MAILTRACKING_INBOX_INFO")
-	private.itemDB = TSMAPI_FOUR.Database.New(INBOX_ITEMS_DB_SCHEMA, "MAILTRACKING_INBOX_ITEMS")
+	private.mailDB = TSMAPI_FOUR.Database.NewSchema("MAILTRACKING_INBOX_INFO")
+		:AddUniqueNumberField("index")
+		:AddStringField("icon")
+		:AddStringField("subject")
+		:AddStringField("itemString")
+		:AddNumberField("itemCount")
+		:AddNumberField("money")
+		:AddNumberField("cod")
+		:AddNumberField("expires")
+		:AddIndex("index")
+		:Commit()
+	private.itemDB = TSMAPI_FOUR.Database.NewSchema("MAILTRACKING_INBOX_ITEMS")
+		:AddNumberField("index")
+		:AddNumberField("itemIndex")
+		:AddStringField("itemLink")
+		:AddNumberField("quantity")
+		:Commit()
 
 	TSM.db.factionrealm.internalData.pendingMail[PLAYER_NAME] = TSM.db.factionrealm.internalData.pendingMail[PLAYER_NAME] or {}
 	TSMAPI_FOUR.Event.Register("MAIL_SHOW", private.MailShowHandler)
@@ -224,12 +198,12 @@ function private.MailInboxUpdateDelayed()
 		for j = 1, ATTACHMENTS_MAX do
 			local itemString = TSMAPI_FOUR.Item.ToBaseItemString(GetInboxItemLink(i, j))
 			local _, _, _, quantity = GetInboxItem(i, j)
-			if itemString and quantity then
+			if itemString and quantity and quantity > 0 then
 				TSM.Inventory.ChangeMailQuantity(itemString, quantity)
 			end
 
 			local itemLink = private.GetInboxItemLink(i, j)
-			if itemLink and quantity then
+			if itemLink and quantity and quantity > 0 then
 				private.itemDB:BulkInsertNewRow(i, j, itemLink, quantity)
 			end
 		end
@@ -307,10 +281,10 @@ function private.GetMailType(index)
 		return "SALE"
 	elseif numItems and numItems > 0 and info == "buyer" then
 		return "BUY"
-	elseif not (select(5, GetInboxText(index))) and numItems == 1 then
+	elseif not info and numItems == 1 then
 		local itemName = TSMAPI_FOUR.Item.GetName(private.GetInboxItemLink(index))
 		if itemName then
-			local quantity = select(4, GetInboxItem(index, 1))
+			local _, _, _, quantity = GetInboxItem(index, 1)
 			if quantity and quantity > 0 and (subject == format(AUCTION_REMOVED_MAIL_SUBJECT.." (%d)", itemName, quantity) or subject == format(AUCTION_REMOVED_MAIL_SUBJECT, itemName)) then
 				return "CANCEL"
 			end

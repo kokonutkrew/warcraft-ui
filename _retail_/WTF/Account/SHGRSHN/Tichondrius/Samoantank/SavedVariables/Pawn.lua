@@ -1,7 +1,7 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0231,
-	["LastPlayerFullName"] = "Samoantitan-Stormrage",
+	["LastVersion"] = 2.0236,
+	["LastPlayerFullName"] = "Samoantank-Tichondrius",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["LastKeybindingsSet"] = 1,

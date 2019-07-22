@@ -1,4 +1,4 @@
-local internalVersion = 9;
+local internalVersion = 11;
 
 -- WoW APIs
 local GetTalentInfo, IsAddOnLoaded, InCombatLockdown = GetTalentInfo, IsAddOnLoaded, InCombatLockdown
@@ -442,7 +442,7 @@ function WeakAuras.ConstructFunction(prototype, trigger, skipOptional)
     init = "";
   end
   for index, arg in pairs(prototype.args) do
-    local enable = true;
+    local enable = arg.type ~= "collpase";
     if(type(arg.enable) == "function") then
       enable = arg.enable(trigger);
     end
@@ -1263,7 +1263,7 @@ end
 
 local Broker_WeakAuras;
 Broker_WeakAuras = LDB:NewDataObject("WeakAuras", {
-  type = "data source",
+  type = "launcher",
   text = "WeakAuras",
   icon = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\icon.blp",
   OnClick = function(self, button)
@@ -1661,7 +1661,7 @@ local function scanForLoadsImpl(self, event, arg1, ...)
   -- following IF statement limits the impact of the PET_BATTLE_CLOSE event to the second one.
   if (event == "PET_BATTLE_CLOSE" and C_PetBattles.IsInBattle()) then return end
 
-  if(event == "PLAYER_LEVEL_UP") then
+  if (event == "PLAYER_LEVEL_UP") then
     playerLevel = arg1;
   end
 
@@ -2167,6 +2167,7 @@ function WeakAuras.Convert(data, newType)
 
   data.regionType = newType;
   WeakAuras.Add(data);
+  WeakAuras.ResetCollapsed(id)
 end
 
 function WeakAuras.DeepCopy(source, dest)
@@ -2722,7 +2723,7 @@ function WeakAuras.Modernize(data)
   -- Version 8 was introduced in September 2018
   -- Changes are in PreAdd
 
-  -- Version 9 was introduced in September 2019
+  -- Version 9 was introduced in September 2018
   if data.internalVersion < 9 then
     local function repairCheck(check)
       if check and check.variable == "buffed" then
@@ -2748,6 +2749,19 @@ function WeakAuras.Modernize(data)
     for _, condition in pairs(data.conditions) do
       repairCheck(condition.check);
       recurseRepairChecks(condition.check.checks);
+    end
+  end
+
+  -- Version 11 was introduced in January 2018
+  if data.internalVersion < 11 then
+    if data.url and data.url ~= "" then
+      local slug, version = data.url:match("wago.io/([^/]+)/([0-9]+)")
+      if not slug and not version then
+        version = 1
+      end
+      if version and tonumber(version) then
+        data.version = tonumber(version)
+      end
     end
   end
 
@@ -2862,7 +2876,11 @@ local function validateUserConfig(data)
     if option.key then
       authorOptionKeys[option.key] = index
       if data.config[option.key] == nil then
-        data.config[option.key] = option.default
+        if type(option.default) ~= "table" then
+          data.config[option.key] = option.default
+        else
+          data.config[option.key] = CopyTable(option.default)
+        end
       end
     end
   end
@@ -2873,7 +2891,11 @@ local function validateUserConfig(data)
       local option = data.authorOptions[authorOptionKeys[key]]
       if type(value) ~= type(option.default) then
         -- if type mismatch then we know that it can't be right
-        data.config[key] = option.default
+        if type(option.default) ~= "table" then
+          data.config[key] = option.default
+        else
+          data.config[key] = CopyTable(option.default)
+        end
       elseif option.type == "input" and option.useLength then
         data.config[key] = data.config[key]:sub(1, option.length)
       elseif option.type == "number" or option.type == "range" then
@@ -2888,6 +2910,17 @@ local function validateUserConfig(data)
       elseif option.type == "select" then
         if value < 1 or value > #option.values then
           data.config[key] = option.default
+        end
+      elseif option.type == "multiselect" then
+        local multiselect = data.config[key]
+        for i, v in ipairs(multiselect) do
+          if option.default[i] ~= nil then
+            if type(v) ~= "boolean" then
+              multiselect[i] = option.default[i]
+            end
+          else
+            multiselect[i] = nil
+          end
         end
       elseif option.type == "color" then
         for i = 1, 4 do
@@ -3174,11 +3207,16 @@ function WeakAuras.SetRegion(data, cloneId)
         if((not regions[id]) or (not regions[id].region) or regions[id].regionType ~= regionType) then
           region = regionTypes[regionType].create(frame, data);
           region.regionType = regionType;
-          region.toShow = true;
           regions[id] = {
             regionType = regionType,
             region = region
           };
+          if regionType ~= "dynamicgroup" and regionType ~= "group" then
+            region.toShow = false
+            region:Hide()
+          else
+            region.toShow = true
+          end
         else
           region = regions[id].region;
         end
@@ -3200,8 +3238,7 @@ function WeakAuras.SetRegion(data, cloneId)
 
       regionTypes[regionType].modify(parent, region, data);
       WeakAuras.regionPrototype.AddSetDurationInfo(region);
-      local parentRegionType = data.parent and db.displays[data.parent] and db.displays[data.parent].regionType;
-      WeakAuras.regionPrototype.AddExpandFunction(data, region, id, cloneId, parent, parentRegionType)
+      WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, parent, parent.regionType)
 
 
       data.animation = data.animation or {};
@@ -4340,9 +4377,9 @@ do
 
         -- Resume or remove
         if coroutine.status(func) ~= "dead" then
-          local err,ret1,ret2 = assert(coroutine.resume(func))
-          if err then
-            debug(debugstack(func))
+          local ok, msg = coroutine.resume(func)
+          if not ok then
+            geterrorhandler()(msg .. '\n' .. debugstack(func))
           end
         else
           dynFrame:RemoveAction(name);
@@ -4548,17 +4585,17 @@ end
 local function ApplyStatesToRegions(id, triggernum, states)
   -- Show new clones
   for cloneId, state in pairs(states) do
-    local region = WeakAuras.GetRegion(id, cloneId);
     if (state.show) then
+      local region = WeakAuras.GetRegion(id, cloneId);
       if (not region.toShow or state.changed or region.state ~= state) then
         ApplyStateToRegion(id, region, state);
       end
-    end
-    -- We don't check for state.changed here, because conditions depend
-    -- on the states of all triggers, not just of the trigger whose states
-    -- we are checking
-    if (checkConditions[id]) then
-      checkConditions[id](region, not state.show);
+      -- We don't check for state.changed here, because conditions depend
+      -- on the states of all triggers, not just of the trigger whose states
+      -- we are checking
+      if (checkConditions[id]) then
+        checkConditions[id](region, not state.show);
+      end
     end
   end
 end

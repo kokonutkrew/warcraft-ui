@@ -108,18 +108,26 @@ def updateSettings():
 def installProfiles():
     data = read()
 
-    defaultAccount = data['default'].split("/")[0:3]
+    defaultAccount = data['default'].split("/")[0:4]
     defaultAccount = os.path.join(warcraft, *defaultAccount)
 
-    previousAccount = ""
+    previousAccount = ''
     for profile in data['profiles']:
-        account = profile['path'].split("/")[0:3]
+        account = profile['path'].split("/")[0:4]
         account = os.path.join(warcraft, *account)
+
+        if account == defaultAccount:
+            continue
+
         if not account == previousAccount:
+            previousAccount = account
+            distutils.dir_util.copy_tree(defaultAccount + '/SavedVariables', account + '/SavedVariables')
+
             files = next(os.walk(defaultAccount))[2]
             for defaultFile in files:
                 defaultFile = os.path.join(defaultAccount, defaultFile)
                 copy(defaultFile, account)
+            print('Account level settings were copied from ' + defaultAccount + ' to ' + account)
 
         template = profile['template']
         template = data['profileTemplates'].get(template, data['default'])
@@ -129,6 +137,7 @@ def installProfiles():
             continue
 
         distutils.dir_util.copy_tree(template, warcraft + profile['path'])
+        print(template + ' was copied to ' + warcraft + profile['path'])
 
 def write(data):
     with open(settings, 'w') as out:

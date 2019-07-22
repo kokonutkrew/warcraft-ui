@@ -33,7 +33,7 @@ end
 -- ============================================================================
 
 function private.GetFrame()
-	TSM.Analytics.PageView("vendoring/buy")
+	TSM.UI.AnalyticsRecordPathChange("vendoring", "buy")
 	private.filterText = ""
 	if not private.query then
 		private.query = TSM.Vendoring.Buy.CreateMerchantQuery()
@@ -172,15 +172,10 @@ end
 
 function private.FrameOnUpdate(frame)
 	frame:SetScript("OnUpdate", nil)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", 32)
-	baseFrame:Draw()
+	frame:GetBaseElement():SetBottomPadding(32)
 end
 
 function private.FrameOnHide(frame)
-	local baseFrame = frame:GetBaseElement()
-	baseFrame:SetStyle("bottomPadding", nil)
-	baseFrame:Draw()
 	StackSplitFrame:Hide()
 end
 
@@ -204,14 +199,10 @@ function private.RowOnClick(table, row, mouseButton)
 	if IsShiftKeyDown() then
 		private.splitFrame:SetParent(table:_GetBaseFrame())
 		private.splitFrame:SetAllPoints(table:_GetBaseFrame())
-		private.splitFrame.item = row:GetField("itemString")
-		if tonumber((select(2, GetBuildInfo()))) >= 28724 then
-			StackSplitFrame:OpenStackSplitFrame(math.huge, private.splitFrame, "TOPLEFT", "TOPRIGHT")
-		else
-			OpenStackSplitFrame(math.huge, private.splitFrame, "TOPLEFT", "TOPRIGHT")
-		end
+		private.splitFrame.item = row:GetField("index")
+		StackSplitFrame:OpenStackSplitFrame(math.huge, private.splitFrame, "TOPLEFT", "TOPRIGHT", IsAltKeyDown() and row:GetField("stackSize") or nil)
 	elseif mouseButton == "RightButton" then
-		TSM.Vendoring.Buy.BuyItem(row:GetFields("itemString", "stackSize"))
+		TSM.Vendoring.Buy.BuyItemIndex(row:GetFields("index", "stackSize"))
 	end
 end
 
@@ -232,8 +223,8 @@ end
 
 function private.SplitStackCallback(frame, num)
 	assert(frame == private.splitFrame)
-	local itemString = private.splitFrame.item
-	assert(itemString)
+	local index = private.splitFrame.item
+	assert(index)
 	private.splitFrame.item = nil
-	TSM.Vendoring.Buy.BuyItem(itemString, num)
+	TSM.Vendoring.Buy.BuyItemIndex(index, num)
 end

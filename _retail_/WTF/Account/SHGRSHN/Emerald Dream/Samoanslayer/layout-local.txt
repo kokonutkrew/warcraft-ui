@@ -8,8 +8,8 @@ W: 640
 H: 512
 Frame: PLH_LootedItemsFrame
 FrameLevel: 1
-Anchor: LEFT
+Anchor: BOTTOMLEFT
 X: 1
-Y: -233
+Y: 222
 W: 400
 H: 140

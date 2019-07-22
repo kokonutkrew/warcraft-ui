@@ -1,4 +1,30 @@
-﻿Version 1.9.22
+﻿Version 1.9.27
+- Improve the detection of whether or not you can use the raft toy.
+
+Version 1.9.26a1
+- Add "/fb raft" command for help in debugging raft issues
+
+Version 1.9.26
+- Fix for error when no pets selected, CurseForge #376 (thanks, robgha01!)
+- Update libraries
+
+Version 1.9.25p1
+- Fix for the watcher failing to be draggable
+
+Version 1.9.25
+- Updated fishing macro support, with key binding.
+- Add "watcher location by group size" feature, Curse #289
+
+Version 1.9.24
+- Hot fix for TOC change in the hotfix
+- Improve looting code
+- More internal code cleanup
+
+Version 1.9.23
+- Really, really get rafts working even if you can't use the toy you have (Curse #337)
+- Internal code improvements
+
+Version 1.9.22
 - Rewrite raft handling to be smarter when you don't have the berg
 - Actually get the watcher to stick when using the start macro (CurseForge #364)
 - Fix location frame error (CurseForge #365)

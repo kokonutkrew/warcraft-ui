@@ -1,34 +1,52 @@
 
 LegionInvasionTimerDB = {
 	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Default",
+		["Samoansensei - Emerald Dream"] = "Default",
+		["Samoaninja - Emerald Dream"] = "Default",
+		["Samoansavage - Tichondrius"] = "Default",
+		["Samoansaint - Tichondrius"] = "Default",
+		["Hfishsamoan - Ravenholdt"] = "Default",
+		["Samoanspy - Emerald Dream"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoansneaky - Tichondrius"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
 		["Samoantotems - Stormrage"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
+		["Serepa - Tichondrius"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanrelic - Stormrage"] = "Default",
 		["Samoanstrap - Tichondrius"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
-		["Samoansage - Tichondrius"] = "Default",
+		["Gfsdfgsd - Tichondrius"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Shgrshn - Tichondrius"] = "Default",
 		["Kakattack - Stormrage"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
-		["Samoanspy - Emerald Dream"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
+		["Kalin - Ravenholdt"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["lock"] = true,
 			["position"] = {
 				"BOTTOMLEFT", -- [1]
 				"BOTTOMLEFT", -- [2]
 				13.0000925064087, -- [3]
 				174.499801635742, -- [4]
 			},
+			["lock"] = true,
 		},
 		["KokonutKrew"] = {
-			["tooltip12hr"] = true,
 			["lock"] = true,
 			["mode"] = 3,
 			["position"] = {
@@ -40,4 +58,4 @@ LegionInvasionTimerDB = {
 		},
 	},
 }
-LegionInvasionTime = 1544884229
+LegionInvasionTime = 1563732033

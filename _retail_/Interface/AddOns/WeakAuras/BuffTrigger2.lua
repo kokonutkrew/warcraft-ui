@@ -155,9 +155,9 @@ end
 
 local function MatchesTriggerInfoMulti(triggerInfo, sourceGUID)
   if triggerInfo.ownOnly then
-    return sourceGUID == UnitGUID("player")
+    return sourceGUID == UnitGUID("player") or sourceGUID == UnitGUID("pet")
   elseif triggerInfo.ownOnly == false then
-    return sourceGUID ~= UnitGUID("player")
+    return sourceGUID ~= UnitGUID("player") and sourceGUID ~= UnitGUID("pet")
   else
     return true
   end
@@ -257,7 +257,7 @@ local function UpdateMatchData(time, matchDataChanged, resetMatchDataByTrigger, 
   end
 
   if data.isStealable ~= isStealable then
-    data.isStealable = name
+    data.isStealable = isStealable
     changed = true
   end
 
@@ -534,13 +534,7 @@ local function UpdateStateWithMatch(time, bestMatch, triggerStates, cloneId, mat
 end
 
 local function UpdateStateWithNoMatch(time, triggerStates, triggerInfo, cloneId, unit, matchCount, unitCount, maxUnitCount, affected, unaffected)
-  if not triggerInfo.fallbackName or not triggerInfo.fallbackName then
-    local fallbackName, fallbackIcon = BuffTrigger.GetNameAndIconSimple(WeakAuras.GetData(triggerInfo.id), triggerInfo.triggernum)
-    if (fallbackName and fallbackIcon) then
-      triggerInfo.fallbackName = fallbackName
-      triggerInfo.fallbackIcon = fallbackIcon
-    end
-  end
+  local fallbackName, fallbackIcon = BuffTrigger.GetNameAndIconSimple(WeakAuras.GetData(triggerInfo.id), triggerInfo.triggernum)
   if not triggerStates[cloneId] then
     triggerStates[cloneId] = {
       show = true,
@@ -559,8 +553,8 @@ local function UpdateStateWithNoMatch(time, triggerStates, triggerInfo, cloneId,
       unit = unit,
       unitName = unit and GetUnitName(unit, false) or "",
       destName = "",
-      name = triggerInfo.fallbackName,
-      icon = triggerInfo.fallbackIcon
+      name = fallbackName,
+      icon = fallbackIcon
     }
     return true
   else
@@ -573,13 +567,13 @@ local function UpdateStateWithNoMatch(time, triggerStates, triggerInfo, cloneId,
       changed = true
     end
 
-    if state.name ~= triggerInfo.fallbackName then
-      state.name = triggerInfo.fallbackName
+    if state.name ~= fallbackName then
+      state.name = fallbackName
       changed = true
     end
 
-    if state.icon ~= triggerInfo.fallbackIcon then
-      state.icon = triggerInfo.fallbackIcon
+    if state.icon ~= fallbackIcon then
+      state.icon = fallbackIcon
       changed = true
     end
 
@@ -1609,14 +1603,6 @@ local function LoadAura(id, triggernum, triggerInfo)
   local filter = triggerInfo.debuffType
   local time = GetTime();
 
-  if not triggerInfo.fallbackName or not triggerInfo.fallbackName then
-    local fallbackName, fallbackIcon = BuffTrigger.GetNameAndIconSimple(WeakAuras.GetData(id), triggernum)
-    if (fallbackName and fallbackIcon) then
-      triggerInfo.fallbackName = fallbackName
-      triggerInfo.fallbackIcon = fallbackIcon
-    end
-  end
-
   if triggerInfo.unit == "multi" then
      AddScanFuncs(triggerInfo, nil, scanFuncNameMulti, scanFuncSpellIdMulti, nil)
   elseif triggerInfo.unit == "group" then
@@ -1886,13 +1872,13 @@ local function createScanFunc(trigger)
 
   if trigger.ownOnly then
     ret = ret .. [[
-      if matchData.unitCaster ~= 'player' then
+      if matchData.unitCaster ~= 'player' and matchData.unitCaster ~= 'pet' then
         return false
       end
     ]]
   elseif trigger.ownOnly == false then
     ret = ret .. [[
-      if matchData.unitCaster == 'player' then
+      if matchData.unitCaster == 'player' or matchData.unitCaster == 'pet' then
         return false
       end
     ]]
@@ -2082,8 +2068,6 @@ function BuffTrigger.Add(data)
         BuffTrigger.InitMultiAura()
       end
 
-      local fallbackName, fallbackIcon = BuffTrigger.GetNameAndIconSimple(data, triggernum)
-
       local auraspellids
       if trigger.useExactSpellId and trigger.auraspellids then
         auraspellids = {}
@@ -2120,8 +2104,6 @@ function BuffTrigger.Add(data)
         matchCountFunc = matchCountFunc,
         useAffected = trigger.unit == "group" and trigger.useAffected,
         isMulti = trigger.unit == "multi",
-        fallbackName = fallbackName,
-        fallbackIcon = fallbackIcon,
       }
       triggerInfos[id] = triggerInfos[id] or {}
       triggerInfos[id][triggernum] = triggerInformation
@@ -2308,6 +2290,12 @@ function BuffTrigger.GetTriggerConditions(data, triggernum)
   result["name"] = {
     display = L["Name"],
     type = "string"
+  }
+
+  result["spellId"] = {
+    display = L["Spell Id"],
+    type = "number",
+    operator_types_only_equal = true
   }
 
   result["matchCount"] = {
@@ -2572,8 +2560,8 @@ local function RemoveMatchDataMulti(base, destGUID, key, sourceGUID)
         matchDataChanged[id][triggernum] = true
       end
     end
+    base[key][sourceGUID] = nil
   end
-  base[key] = nil
 end
 
 local function CleanUpMulti(guid)

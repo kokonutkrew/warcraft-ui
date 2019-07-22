@@ -3,6 +3,9 @@
   (c) 2004-2018 Lavish Software
 ---------------------------------
 
+1.16 Build 6372
+- Direct3D 12 Compatibility update for World of Warcraft
+
 1.16 Build 6368
 - Auto-detect and fix broken World of Warcraft Game Profiles from WoW 8.1 update
 

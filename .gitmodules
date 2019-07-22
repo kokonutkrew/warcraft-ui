@@ -2,3 +2,7 @@
 	path = _retail_/Interface/Update/DynamicCam
 	url = https://github.com/Mpstark/DynamicCam.git
 	branch = master
+[submodule "_classic_/Interface/AddOns/aux-addon"]
+	path = _classic_/Interface/AddOns/aux-addon
+	url = https://github.com/shirsig/aux-addon.git
+	branch = master

@@ -1,36 +1,242 @@
 
 CoreProfileDB = {
+	["global"] = {
+		["showStartupMessage2000"] = false,
+	},
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
 		},
 	},
 }
 CommunicationsProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["KokonutKrew"] = {
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+		},
 		["Tygrrlilly - Emerald Dream"] = {
 		},
-		["Grapejellie - Tichondrius"] = {
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
 		},
 	},
 }
 TeamProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["master"] = "Samoanslayer-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanslayer-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+			["inviteAcceptGuild"] = true,
+			["masterChangeClickToMove"] = true,
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Samoanslayer-EmeraldDream",
+			["inviteAcceptFriends"] = true,
+			["newTeamList"] = {
+				["Mercis-EmeraldDream"] = {
+					{
+						["order"] = 5,
+						["class"] = "DRUID",
+						["name"] = "Mercis-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					{
+						["order"] = 4,
+						["class"] = "ROGUE",
+						["name"] = "Aeredyl-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					{
+						["order"] = 3,
+						["class"] = "ROGUE",
+						["name"] = "Cherriebomb-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					{
+						["order"] = 2,
+						["class"] = "ROGUE",
+						["name"] = "Samoanrouge-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+			["inviteSetAllAssistant"] = true,
+		},
+		["Samoansavage - Tichondrius"] = {
+			["master"] = "Samoansavage-Tichondrius",
+			["newTeamList"] = {
+				["Samoansavage-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansavage-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["master"] = "Samoantank-Tichondrius",
+			["newTeamList"] = {
+				["Samoandrued-Tichondrius"] = {
+					{
+						["order"] = 4,
+						["class"] = "DRUID",
+						["name"] = "Samoandrued-Tichondrius",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoandruid-Tichondrius"] = {
+					{
+						["order"] = 3,
+						["class"] = "DRUID",
+						["name"] = "Samoandruid-Tichondrius",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					{
+						["order"] = 2,
+						["class"] = "DRUID",
+						["name"] = "Gfsdfgsd-Tichondrius",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoantank-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantank-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Grapejellie-Tichondrius"] = {
+					{
+						["order"] = 5,
+						["class"] = "DRUID",
+						["name"] = "Grapejellie-Tichondrius",
+						["online"] = false,
+					}, -- [1]
+				},
+			},
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["master"] = "Cherriebomb-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Cherriebomb-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Cherriebomb-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
 		["Tygrrlilly - Emerald Dream"] = {
 			["master"] = "Tygrrlilly-EmeraldDream",
+			["global"] = {
+			},
 			["newTeamList"] = {
 				["Tygrrlilly-EmeraldDream"] = {
 					{
@@ -42,14 +248,51 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Grapejellie - Tichondrius"] = {
-			["master"] = "Grapejellie-Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = {
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Gfsdfgsd-Tichondrius",
 			["newTeamList"] = {
-				["Grapejellie-Tichondrius"] = {
+				["Samoandruid-Tichondrius"] = {
+					{
+						["order"] = 2,
+						["class"] = "DRUID",
+						["name"] = "Samoandruid-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Grapejellie-Tichondrius",
+						["name"] = "Gfsdfgsd-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["master"] = "Samoanranger-EmeraldDream",
+			["newTeamList"] = {
+				["Samoanranger-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanranger-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoantitan - Stormrage"] = {
+			["master"] = "Samoantitan-Stormrage",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoantitan-Stormrage"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantitan-Stormrage",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -59,10 +302,196 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"druid", -- [2]
+					"minion", -- [3]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+					"warrior", -- [3]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+			["tagList"] = {
+				["Samoansavage-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["tagList"] = {
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["tagList"] = {
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
 		["Tygrrlilly - Emerald Dream"] = {
 			["tagList"] = {
 				["Tygrrlilly-EmeraldDream"] = {
@@ -87,10 +516,45 @@ TagProfileDB = {
 				"warlock", -- [14]
 				"warrior", -- [15]
 			},
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["Gfsdfgsd - Tichondrius"] = {
 			["tagList"] = {
-				["Grapejellie-Tichondrius"] = {
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanranger-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -113,87 +577,364 @@ TagProfileDB = {
 				"warrior", -- [15]
 			},
 		},
+		["Samoantitan - Stormrage"] = {
+			["tagList"] = {
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
 	},
 }
 MessageProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 CurrProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["currencyBackgroundStyle"] = "None",
+			["global"] = {
+			},
+			["currencyFrameYOffset"] = 202.999313354492,
+			["currencyFrameXOffset"] = -127.99885559082,
+			["currencyNameWidth"] = 68,
+			["currencyBorderStyle"] = "None",
+			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
+			["currGoldInGuildBank"] = true,
+			["currencyFramePoint"] = "BOTTOMRIGHT",
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+			["currencyBackgroundStyle"] = "None",
+			["currencyFrameYOffset"] = 202.999313354492,
+			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
+			["currencyFrameXOffset"] = -127.99885559082,
+			["currencyNameWidth"] = 68,
+			["currencyFramePoint"] = "BOTTOMRIGHT",
+			["currGoldInGuildBank"] = true,
+			["currencyBorderStyle"] = "None",
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 DisplayTeamProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["enableClique"] = true,
+			["showListTitle"] = false,
+			["teamListHorizontal"] = false,
+			["followStatusShowName"] = false,
+			["global"] = {
+			},
+			["followStatusWidth"] = 15,
+			["teamListTitleHeight"] = 0,
+			["frameBackgroundColourA"] = 0,
+			["frameBorderColourA"] = 0,
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+			["enableClique"] = true,
+			["frameBorderColourA"] = 0,
+			["followStatusShowName"] = false,
+			["showListTitle"] = false,
+			["teamListHorizontal"] = false,
+			["followStatusWidth"] = 15,
+			["teamListTitleHeight"] = 0,
+			["frameBackgroundColourA"] = 0,
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 FollowProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["autoFollowAfterCombat"] = true,
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 GuildProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 InteractionProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+			["dismountWithTeam"] = true,
+			["changeTexiTime"] = 5,
+			["autoLoot"] = true,
+			["mountWithTeam"] = true,
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+			["changeTexiTime"] = 5,
+			["dismountWithTeam"] = true,
+			["autoLoot"] = true,
+			["mountWithTeam"] = true,
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["autoLoot"] = true,
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 ItemUseProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -278,7 +1019,103 @@ ItemUseProfileDB = {
 			},
 			["itemUseTitleHeight"] = 2,
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["backgroundStyle"] = "None",
+			["itemsAdvanced"] = {
+				{
+					["action"] = "item:57954",
+					["kind"] = "item",
+				}, -- [1]
+				{
+					["action"] = "item:2589",
+					["kind"] = "item",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["hideClearButton"] = true,
+			["itemUseTitleHeight"] = 2,
+			["frameYOffset"] = 0,
+			["itemUseScale"] = 0.68,
+			["numberOfItems"] = 20,
+			["frameXOffset"] = -1.9998836517334,
+			["global"] = {
+			},
+			["autoAddQuestItemsToBar"] = true,
+			["autoAddSatchelsItemsToBar"] = true,
+			["borderStyle"] = "None",
+		},
+		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -362,117 +1199,937 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+		},
+		["Samoantank - Tichondrius"] = {
+			["backgroundStyle"] = "None",
+			["frameYOffset"] = 0,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "item:49652",
+					["kind"] = "item",
+				}, -- [1]
+				{
+					["action"] = "item:52283",
+					["kind"] = "item",
+				}, -- [2]
+				{
+					["action"] = "item:52065",
+					["kind"] = "item",
+				}, -- [3]
+				{
+					["action"] = "item:52514",
+					["kind"] = "item",
+				}, -- [4]
+				{
+					["action"] = "item:46722",
+					["kind"] = "item",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["frameXOffset"] = -1.9998836517334,
+			["itemUseTitleHeight"] = 2,
+			["autoAddSatchelsItemsToBar"] = true,
+			["borderStyle"] = "None",
+			["itemUseScale"] = 0.68,
+			["numberOfItems"] = 20,
+			["autoAddQuestItemsToBar"] = true,
+			["hideClearButton"] = true,
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoantitan - Stormrage"] = {
+			["itemUseTitleHeight"] = 2,
+			["frameYOffset"] = 70.00000762939453,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
 		},
 	},
 }
 PurchaseProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 QuestProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["overrideQuestAutoSelectAndComplete"] = true,
+			["acceptFromParty"] = true,
+			["acceptFromTeam"] = true,
+			["onlyAcceptQuestsFrom"] = true,
+			["acceptFromGuild"] = true,
+			["acceptFromFriends"] = true,
+			["masterAutoShareQuestOnAccept"] = true,
+			["doNotAutoAccept"] = false,
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 QuestWatcherProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
-			["watcherFrameYOffset"] = 61.0239410400391,
-			["watcherFrameXOffset"] = -120.038307189941,
+		["KokonutKrew"] = {
+			["watcherFrameYOffset"] = 0,
+			["watcherFrameXOffset"] = -192.0001373291016,
+			["watcherFrameWidth"] = 250,
+			["enableQuestWatcherOnMasterOnly"] = true,
+			["global"] = {
+			},
+			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
+			["watcherListLines"] = 50,
+			["watcherFramePoint"] = "BOTTOMRIGHT",
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+			["watcherFrameWidth"] = 250,
+			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
+			["watcherListLines"] = 50,
+			["watcherFrameYOffset"] = 0,
+			["watcherFramePoint"] = "BOTTOMRIGHT",
+			["watcherFrameXOffset"] = -262.000122070313,
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 SellProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 TalkProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 ToonProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+			["autoAcceptSummonRequest"] = true,
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 TradeProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 MailProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 	},
 }
 ISBoxerProfileDB = {
 	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Cherriebomb - Emerald Dream"] = "KokonutKrew",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Tygrrlilly - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
 			["isboxerTeamName"] = "",
 		},
-		["Grapejellie - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Cherriebomb - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["isboxerTeamName"] = "",
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 			["isboxerTeamName"] = "",
 		},
 	},

@@ -52,23 +52,30 @@ ACP_Data = {
 			["name"] = "Debug",
 		}, -- [6]
 		{
-			"ISBoxer", -- [1]
-			"Jamba", -- [2]
-			"Jamba-AdvancedLoot", -- [3]
-			"Jamba-DisplayTeam", -- [4]
-			"Jamba-Extras", -- [5]
-			"Jamba-Purchase", -- [6]
-			"Jamba-Taxi", -- [7]
-			"Jamba-Curr", -- [8]
-			"Jamba-Follow", -- [9]
-			"Jamba-FTL", -- [10]
-			"Jamba-ItemUse", -- [11]
-			"Jamba-Quest", -- [12]
-			"Jamba-QuestWatcher", -- [13]
-			"Jamba-Sell", -- [14]
-			"Jamba-Talk", -- [15]
-			"Jamba-Toon", -- [16]
-			"Jamba-Trade", -- [17]
+			"AAP-Core", -- [1]
+			"AAP-Vanilla", -- [2]
+			"AAP-TBC-WotLK", -- [3]
+			"AAP-Cata-MoP", -- [4]
+			"AAP-WoD", -- [5]
+			"AAP-Legion", -- [6]
+			"AAP-BfA", -- [7]
+			"Azeroth Auto Pilot", -- [8]
+			"EMA", -- [9]
+			"Jamba-AdvancedLoot", -- [10]
+			"Jamba-DisplayTeam", -- [11]
+			"Jamba-Extras", -- [12]
+			"Jamba-Purchase", -- [13]
+			"Jamba-Taxi", -- [14]
+			"Jamba-Curr", -- [15]
+			"Jamba-Follow", -- [16]
+			"Jamba-FTL", -- [17]
+			"Jamba-ItemUse", -- [18]
+			"Jamba-Quest", -- [19]
+			"Jamba-QuestWatcher", -- [20]
+			"Jamba-Sell", -- [21]
+			"Jamba-Talk", -- [22]
+			"Jamba-Toon", -- [23]
+			"Jamba-Trade", -- [24]
 			["name"] = "MultiBoxing",
 		}, -- [7]
 		[25] = {
@@ -91,11 +98,11 @@ ACP_Data = {
 		["ChampionCommander"] = true,
 		["DataStore_Mails"] = true,
 		["MaxDps_Rogue"] = true,
-		["GSE_LDB"] = true,
+		["DataStore_Talents"] = true,
 		["Prat-3.0_Libraries"] = true,
 		["Altoholic_Summary"] = true,
 		["MogIt"] = true,
-		["ACP"] = true,
+		["Altoholic_Agenda"] = true,
 		["MaxDps_Priest"] = true,
 		["LegionInvasionTimer_Options"] = true,
 		["AzeriteTooltip"] = true,
@@ -115,7 +122,6 @@ ACP_Data = {
 		["WeakAurasOptions"] = true,
 		["HHTD"] = true,
 		["BigDebuffs"] = true,
-		["GSE_GUI"] = true,
 		["AceGUI-3.0-Selectable-Panel"] = true,
 		["DataStore_Inventory"] = true,
 		["WeakAuras"] = true,
@@ -127,41 +133,38 @@ ACP_Data = {
 		["DBM-DefaultSkin"] = true,
 		["HandyNotes_BattleForAzerothTreasures"] = true,
 		["MaxDps_Mage"] = true,
-		["DataStore_Spells"] = true,
 		["MaxDps"] = true,
-		["DataStore_Achievements"] = true,
 		["PersonalLootHelper"] = true,
 		["DataStore_Agenda"] = true,
 		["sArena"] = true,
-		["!BugGrabber"] = true,
 		["BugSack"] = true,
 		["Altoholic_Guild"] = true,
-		["Skada"] = true,
-		["ExRT"] = true,
+		["DataStore_Spells"] = true,
+		["DataStore_Achievements"] = true,
 		["Prat-3.0"] = true,
-		["Altoholic_Search"] = true,
-		["DataStore_Quests"] = true,
+		["DBM-Core"] = true,
+		["Skada"] = true,
 		["DataStore_Crafts"] = true,
 		["DataStore_Auctions"] = true,
 		["Altoholic_Characters"] = true,
+		["Altoholic_Search"] = true,
+		["ExRT"] = true,
 		["MaxDps_Hunter"] = true,
-		["Altoholic_Agenda"] = true,
 		["Altoholic"] = true,
-		["Bartender4"] = true,
 		["DBM-Uldir"] = true,
-		["MaxDps_Warlock"] = true,
-		["OrderHallCommander"] = true,
 		["AutoFlood"] = true,
+		["Bartender4"] = true,
+		["OrderHallCommander"] = true,
 		["DataStore_Reputations"] = true,
 		["DBM-Azeroth-BfA"] = true,
-		["GSE"] = true,
+		["MaxDps_Warlock"] = true,
 		["DataStore_Stats"] = true,
 		["MaxDps_Warrior"] = true,
 		["Immersion"] = true,
-		["DBM-Core"] = true,
+		["DataStore_Quests"] = true,
 		["Pawn"] = true,
 		["Altoholic_Grids"] = true,
+		["!BugGrabber"] = true,
 		["MBB"] = true,
-		["DataStore_Talents"] = true,
 	},
 }

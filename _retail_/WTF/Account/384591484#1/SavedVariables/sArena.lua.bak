@@ -1,10 +1,15 @@
 
 sArena3DB = {
 	["profileKeys"] = {
-		["Samoandruid - Tichondrius"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoanlock - Emerald Dream"] = "Default",
-		["Samoanhunter - Emerald Dream"] = "Default",
-		["Samoandrued - Tichondrius"] = "Default",
+		["Samoansavage - Tichondrius"] = "Default",
+		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Gfsdfgsd - Tichondrius"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

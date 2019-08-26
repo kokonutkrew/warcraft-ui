@@ -2,23 +2,11 @@
 WoWProData = {
 	["char"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["currentguide"] = "JamHel6062",
+			["currentguide"] = "KurNShire0105",
 			["lastlevelingguide"] = "BitCap3035",
 		},
 		["Samoanbeast - Ravenholdt"] = {
 			["currentguide"] = "EmmLegionDruid",
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["currentguide"] = "BitWes3540",
-		},
-		["Samoanstrap - Tichondrius"] = {
-			["currentguide"] = "EmmVoldun",
-		},
-		["Samoanlegend - Emerald Dream"] = {
-			["currentguide"] = "LudoTelogrus",
-		},
-		["Samoansage - Tichondrius"] = {
-			["currentguide"] = "EmmVoldun",
 		},
 		["Samoansmash - Emerald Dream"] = {
 			["currentguide"] = "JamScar5558",
@@ -26,7 +14,19 @@ WoWProData = {
 		["Samoantank - Tichondrius"] = {
 			["currentguide"] = "LudoWowAnniversary",
 		},
+		["Samoanstrap - Tichondrius"] = {
+			["currentguide"] = "EmmVoldun",
+		},
 		["Samoanmystic - Emerald Dream"] = {
+			["currentguide"] = "LudoTelogrus",
+		},
+		["Samoansage - Tichondrius"] = {
+			["currentguide"] = "EmmVoldun",
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["currentguide"] = "BitWes3540",
+		},
+		["Samoanlegend - Emerald Dream"] = {
 			["currentguide"] = "LudoTelogrus",
 		},
 		["Samoantitan - Stormrage"] = {
@@ -36,13 +36,14 @@ WoWProData = {
 		},
 	},
 	["profileKeys"] = {
-		["Samoantank - Tichondrius"] = "Default",
-		["Samoansmash - Emerald Dream"] = "Default",
-		["Samoanbeast - Ravenholdt"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
 		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoanmystic - Emerald Dream"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoansmash - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["global"] = {
@@ -207,9 +208,9 @@ WoWProData = {
 				["title"] = "Deathscreech",
 				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85687] = {
-				["qid"] = 85686.1,
-				["title"] = "Manos, Hanos, and Fatos",
+			[85561] = {
+				["qid"] = 85561.1,
+				["title"] = "Brutus, Ruckus",
 				["guide"] = "LudoGarrisonPets",
 			},
 			[85655] = {
@@ -252,10 +253,10 @@ WoWProData = {
 				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[128023] = {
-				["qid"] = 49057,
-				["title"] = "Minixis",
-				["guide"] = "LudoPetWQAntoran",
+			[85687] = {
+				["qid"] = 85686.1,
+				["title"] = "Manos, Hanos, and Fatos",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[79182] = {
 				["qid"] = 79180.1,
@@ -277,10 +278,10 @@ WoWProData = {
 				["title"] = "Grubbles, Scrags, and Stings",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[85561] = {
-				["qid"] = 85561.1,
-				["title"] = "Brutus, Ruckus",
-				["guide"] = "LudoGarrisonPets",
+			[128023] = {
+				["qid"] = 49057,
+				["title"] = "Minixis",
+				["guide"] = "LudoPetWQAntoran",
 			},
 			[128019] = {
 				["qid"] = 49053,
@@ -359,36 +360,54 @@ WoWProData = {
 			},
 		},
 		["Log"] = {
-			"003219 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
-			"003219 |c7f0000ffWoWPro|r: Unit: Samoanranger, Realm: Emerald Dream, Class: Hunter, Race: Human, Faction: Alliance", -- [2]
-			"003223 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
-			"003223 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
-			"003224 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(false, true) InitLockdown=false", -- [5]
-			"003224 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [6]
-			"003224 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [7]
-			"003224 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [8]
-			"003225 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  BitWes3540", -- [9]
-			"003225 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE(\"-punted-\") InitLockdown=false", -- [10]
-			"003225 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [11]
-			"003225 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [12]
-			"003225 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [13]
-			"003225 |c7f0000ffWoWPro|r: New Quest 26943: [Home Sweet Gnome]", -- [14]
-			"003225 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [15]
-			"003225 |c7f0000ffWoWPro|r: WoWPro:MapPoint1(120,54.78,34.10;56.16,34.70;57.07,35.56@Western Plaguelands=22)", -- [16]
-			"003225 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [17]
-			"003226 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [18]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [19]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(120,1)", -- [20]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(121,2)", -- [21]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(136,3)", -- [22]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(137,4)", -- [23]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(150,5)", -- [24]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(159,6)", -- [25]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(181,7)", -- [26]
-			"003226 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(120,1)", -- [27]
-			"003226 |c7f0000ffWoWPro|r: MapPoint: LastMapPoint=120 [57.07,35.56@22] in Western Plaguelands. No update needed.", -- [28]
-			"003313 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [29]
-			"003313 |c7f0000ffWoWPro|r: Locking Down PLW", -- [30]
+			"172756 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
+			"172756 |c7f0000ffWoWPro|r: Unit: Samoansavage, Realm: Emerald Dream, Class: Rogue, Race: Human, Faction: Alliance", -- [2]
+			"172809 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
+			"172809 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
+			"172813 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TradeSkillUI\") InitLockdown=false", -- [5]
+			"172813 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(true, false) InitLockdown=false", -- [6]
+			"172813 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [7]
+			"172816 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [8]
+			"172816 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [9]
+			"172817 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_AuctionUI\") InitLockdown=true", -- [10]
+			"172817 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [11]
+			"172817 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [12]
+			"172818 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [13]
+			"172819 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  nil", -- [14]
+			"172819 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [15]
+			"172819 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [16]
+			"172820 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [17]
+			"172820 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_NEW_AREA() InitLockdown=false", -- [18]
+			"172822 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"AAP-TBC-WotLK\") InitLockdown=false", -- [19]
+			"172850 |cffff7d0aWoWPro|r: Handled: GOSSIP_CLOSED() InitLockdown=false", -- [20]
+			"172850 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_GuildBankUI\") InitLockdown=false", -- [21]
+			"172851 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1023, nil, 0, false, false, false, false) InitLockdown=false", -- [22]
+			"172851 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1024, nil, 0, false, false, false, false) InitLockdown=false", -- [23]
+			"172851 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1025, nil, 0, false, false, false, false) InitLockdown=false", -- [24]
+			"172851 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1026, nil, 0, false, false, false, false) InitLockdown=false", -- [25]
+			"172851 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1027, nil, 0, false, false, false, false) InitLockdown=false", -- [26]
+			"173016 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Mercis has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1073, nil, 0, false, false, false, false) InitLockdown=false", -- [27]
+			"173500 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are now Away: AFK\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1160, nil, 0, false, false, false, false) InitLockdown=false", -- [28]
+			"175057 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are no longer Away.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1407, nil, 0, false, false, false, false) InitLockdown=false", -- [29]
+			"175224 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Aeredyl has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1431, nil, 0, false, false, false, false) InitLockdown=false", -- [30]
+			"175608 |cffff7d0aWoWPro|r: Handled: GOSSIP_CLOSED() InitLockdown=false", -- [31]
+			"175608 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1485, nil, 0, false, false, false, false) InitLockdown=false", -- [32]
+			"175608 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1486, nil, 0, false, false, false, false) InitLockdown=false", -- [33]
+			"175608 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1487, nil, 0, false, false, false, false) InitLockdown=false", -- [34]
+			"175608 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1488, nil, 0, false, false, false, false) InitLockdown=false", -- [35]
+			"175608 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1489, nil, 0, false, false, false, false) InitLockdown=false", -- [36]
+			"175643 |cffff7d0aWoWPro|r: Handled: GOSSIP_CLOSED() InitLockdown=false", -- [37]
+			"175643 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1500, nil, 0, false, false, false, false) InitLockdown=false", -- [38]
+			"175643 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1501, nil, 0, false, false, false, false) InitLockdown=false", -- [39]
+			"175643 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1502, nil, 0, false, false, false, false) InitLockdown=false", -- [40]
+			"175643 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1503, nil, 0, false, false, false, false) InitLockdown=false", -- [41]
+			"175643 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't have permission to do that.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1504, nil, 0, false, false, false, false) InitLockdown=false", -- [42]
+			"175720 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Tygrrlilly has promoted Samoansavage to Lead*.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1515, nil, 0, false, false, false, false) InitLockdown=false", -- [43]
+			"175727 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Tygrrlilly has promoted Samoanrouge to Lead*.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1518, nil, 0, false, false, false, false) InitLockdown=false", -- [44]
+			"175748 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Aeredyl|h[Aeredyl]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1521, nil, 0, false, false, false, false) InitLockdown=false", -- [45]
+			"175750 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Mercis|h[Mercis]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1524, nil, 0, false, false, false, false) InitLockdown=false", -- [46]
+			"175753 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [47]
+			"175753 |c7f0000ffWoWPro|r: Locking Down PLW", -- [48]
 		},
 		["Deltas"] = {
 			"Action=T|Step=Seeing Where Your Loyalties Lie|M0=77.56,43.97|M1=43.86,56.43|Error=35.93|QID=26629|Vers=8.0.1U|Guide=BitCap3035", -- [1]
@@ -1525,6 +1544,7 @@ WoWProData = {
 			"Action=C|Step=Too Close for Comfort|M0=53.78,64.67|M1=44.21,38.36|Error=28.00|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1132]
 			"Action=T|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.30,32.00|Error=33.13|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1133]
 			"Action=f|Step=The Menders' Stead|M0=53.78,64.67|M1=40.39,47.36|Error=21.88|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1134]
+			"Action=A|Step=Into the Woods|M0=53.78,64.67|M1=42.96,83.59|Error=21.79|QID=27683|Vers=8.0.1N|Guide=BitWes3540", -- [1135]
 		},
 		["Achievements"] = {
 			["Achievement"] = {
@@ -12693,15 +12713,15 @@ WoWProData = {
 					["icon"] = 236231,
 					["cid"] = 14806,
 				},
+				[2058] = {
+					["name"] = "Snakes. Why'd It Have To Be Snakes?",
+					["icon"] = 236177,
+					["cid"] = 14806,
+				},
 				[8228] = {
 					["name"] = "Collector: Remains of Paragons",
 					["icon"] = 236805,
 					["cid"] = 15071,
-				},
-				[12323] = {
-					["name"] = "Shattered",
-					["icon"] = 135849,
-					["cid"] = 14922,
 				},
 				[6856] = {
 					["name"] = "Ballad of Liu Lang",
@@ -12823,15 +12843,15 @@ WoWProData = {
 					["icon"] = 1100022,
 					["cid"] = 15101,
 				},
-				[6531] = {
-					["name"] = "Attention to Detail",
-					["icon"] = 236457,
-					["cid"] = 15106,
-				},
 				[8965] = {
 					["name"] = "Mythic: Imperator's Fall",
 					["icon"] = 1030796,
 					["cid"] = 15231,
+				},
+				[13060] = {
+					["name"] = "Kul Runnings",
+					["icon"] = 327502,
+					["cid"] = 15284,
 				},
 				[13028] = {
 					["name"] = "Hoppin' Sad",
@@ -13173,20 +13193,20 @@ WoWProData = {
 					["icon"] = 134220,
 					["cid"] = 14922,
 				},
-				[2930] = {
-					["name"] = "Stokin' the Furnace (10 player)",
-					["icon"] = 254092,
-					["cid"] = 15278,
+				[5859] = {
+					["name"] = "Legacy of Leyara",
+					["icon"] = 236449,
+					["cid"] = 15070,
 				},
 				[5875] = {
 					["name"] = "Littlest Pet Shop",
 					["icon"] = 132599,
 					["cid"] = 15118,
 				},
-				[5859] = {
-					["name"] = "Legacy of Leyara",
-					["icon"] = 236449,
-					["cid"] = 15070,
+				[11716] = {
+					["name"] = "Cataclysmic Catwalk",
+					["icon"] = 532989,
+					["cid"] = 15259,
 				},
 				[13102] = {
 					["name"] = "Clash at the Cay",
@@ -13243,10 +13263,10 @@ WoWProData = {
 					["icon"] = 2032229,
 					["cid"] = 15298,
 				},
-				[11716] = {
-					["name"] = "Cataclysmic Catwalk",
-					["icon"] = 532989,
-					["cid"] = 15259,
+				[2930] = {
+					["name"] = "Stokin' the Furnace (10 player)",
+					["icon"] = 254092,
+					["cid"] = 15278,
 				},
 				[11748] = {
 					["name"] = "Black is the New Black",
@@ -13453,10 +13473,10 @@ WoWProData = {
 					["icon"] = 134944,
 					["cid"] = 15303,
 				},
-				[13060] = {
-					["name"] = "Kul Runnings",
-					["icon"] = 327502,
-					["cid"] = 15284,
+				[6531] = {
+					["name"] = "Attention to Detail",
+					["icon"] = 236457,
+					["cid"] = 15106,
 				},
 				[6547] = {
 					["name"] = "The Anglers",
@@ -13508,10 +13528,10 @@ WoWProData = {
 					["icon"] = 133202,
 					["cid"] = 156,
 				},
-				[2058] = {
-					["name"] = "Snakes. Why'd It Have To Be Snakes?",
-					["icon"] = 236177,
-					["cid"] = 14806,
+				[12323] = {
+					["name"] = "Shattered",
+					["icon"] = 135849,
+					["cid"] = 14922,
 				},
 				[6723] = {
 					["name"] = "Heroic: Elegon",
@@ -15379,24 +15399,24 @@ WoWProData = {
 			},
 		},
 		["KokonutKrew"] = {
+			["anchorpoint"] = "CENTER",
+			["minimap"] = {
+				["minimapPos"] = 195.732067734691,
+			},
 			["bgcolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				0, -- [4]
 			},
-			["anchorpoint"] = "CENTER",
-			["autoresize"] = false,
 			["titlecolor"] = {
 				0.501960784313726, -- [1]
 				0.501960784313726, -- [2]
 				0.501960784313726, -- [3]
 				0.548192590475082, -- [4]
 			},
+			["autoresize"] = false,
 			["bordertexture"] = "",
-			["minimap"] = {
-				["minimapPos"] = 195.732067734691,
-			},
 			["resize"] = true,
 			["Selector"] = {
 				["QuestHard"] = 0,

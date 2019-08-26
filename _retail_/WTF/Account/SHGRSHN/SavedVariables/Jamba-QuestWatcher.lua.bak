@@ -16,10 +16,10 @@ JambaQuestWatcherProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -29,12 +29,12 @@ JambaQuestWatcherProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["watcherFrameWidth"] = 250,
-			["watcherFrameYOffset"] = 68.4358139038086,
-			["watcherFrameXOffset"] = -128.346420288086,
-			["watchFontSize"] = 15,
 			["enableQuestWatcherOnMasterOnly"] = true,
 			["watcherFrameAlpha"] = 0.8,
 			["watcherListLines"] = 50,
+			["watcherFrameYOffset"] = 68.4358139038086,
+			["watchFontSize"] = 15,
+			["watcherFrameXOffset"] = -128.346420288086,
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -64,13 +64,13 @@ JambaQuestWatcherProfileDB = {
 		},
 		["Default"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
-		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

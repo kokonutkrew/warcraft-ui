@@ -14,18 +14,18 @@ dbBFA = {
 			["firstun"] = false,
 		},
 	},
-	["profileKeys"] = {
-		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
-		["Samoantitan - Stormrage"] = "Default",
-	},
 	["global"] = {
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
+	},
+	["profileKeys"] = {
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -49,10 +49,13 @@ dbBFA = {
 				["PREFERHIGH"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["TROOPALERT"] = true,
 				["MAXCHAMP"] = 3,
+				["TROOPALERT"] = true,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
+			},
+			["blacklist"] = {
+				[1921] = true,
 			},
 			["showmenu"] = false,
 		},

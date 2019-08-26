@@ -1,7 +1,7 @@
 
 MogItDB = {
 	["global"] = {
-		["version"] = "3.8.12",
+		["version"] = "3.9.0",
 	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Default",
@@ -72,8 +72,8 @@ MogItDB = {
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
 				["Shield"] = "Shields",
-				["Feet"] = "Feet",
 				["Staff"] = "Staves",
+				["Feet"] = "Feet",
 				["Chest"] = "Chest",
 				["Crossbow"] = "Crossbows",
 				["Gun"] = "Guns",

@@ -50,6 +50,7 @@ FarmHudDB = {
 	["cardinalpoints_radius"] = 0.47,
 	["buttons_buttom"] = false,
 	["time_bottom"] = false,
+	["buttons_radius"] = 0.56,
 	["MinimapIcon"] = {
 		["minimapPos"] = 138.17981134081,
 		["radius"] = 80,
@@ -71,7 +72,7 @@ FarmHudDB = {
 		0, -- [3]
 		0.7, -- [4]
 	},
-	["buttons_radius"] = 0.56,
+	["time_local"] = true,
 	["areaborder_task_texture"] = false,
 	["SuperTrackedQuest"] = true,
 }

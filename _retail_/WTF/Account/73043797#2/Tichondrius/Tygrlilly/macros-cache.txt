@@ -1,40 +1,8 @@
-VER 3 0100000000000004 "Cleanse" "SPELL_HOLY_PURIFY"
+VER 3 0100000000000001 "BFA_RET" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast Cleanse 
-/cast [@player]Hand of Freedom
-/cast [@player]Hand of Sacrifice
+/click [button:2] BFA_RET RightButton; [button:3] BFA_RET MiddleButton; [button:4] BFA_RET Button4; [button:5] BFA_RET Button5; BFA_RET
 END
-VER 3 0100000000000007 "Crusader" "SPELL_HOLY_CRUSADERSTRIKE"
-#showtooltip Crusader Strike
-/cast Crusader Strike
-/use Hammer of Wrath
-/use Seraphim
-END
-VER 3 0100000000000009 "Execution" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000002 "BFA_RET_AOE" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use Execution Sentence
-/use Hammer of Wrath
-END
-VER 3 0100000000000002 "Interrupt" "SPELL_HOLY_REBUKE"
-#showtooltip
-/castsequence reset=14/ctrl Rebuke, Arcane Torrent, Fist of Justice, Turn Evil
-END
-VER 3 0100000000000008 "Judgment" "INV_MISC_QUESTIONMARK"
-#showtooltip Judgment
-/use Judgment
-/use Exorcism
-END
-VER 3 0100000000000001 "Killswitch" "SPELL_HOLY_AVENGINEWRATH"
-#showtooltip
-/castsequence reset=3 Sacred Shield, Holy Prism
-/cast Avenging Wrath
-/cast Divine Protection
-/cast Fist of Justice
-/cast Emancipate
-END
-VER 3 0100000000000005 "VuhDoDCShieldData" "Ability_Repair"
-P1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 0100000000000006 "VuhDoDCShieldNames" "Ability_Repair"
-NShg[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tyg[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+/click [button:2] BFA_RET_AOE RightButton; [button:3] BFA_RET_AOE MiddleButton; [button:4] BFA_RET_AOE Button4; [button:5] BFA_RET_AOE Button5; BFA_RET_AOE
 END

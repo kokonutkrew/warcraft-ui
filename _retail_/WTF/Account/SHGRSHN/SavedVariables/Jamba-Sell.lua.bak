@@ -16,10 +16,10 @@ JambaSellProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -32,13 +32,13 @@ JambaSellProfileDB = {
 			["autoSellBoERare"] = true,
 			["autoSellBoEEpic"] = true,
 			["autoSellIlvlRare"] = "200",
-			["autoSellRare"] = true,
 			["autoSellItem"] = true,
 			["autoSellUncommon"] = true,
-			["autoSellEpic"] = true,
-			["autoSellIlvlUncommon"] = "200",
-			["sellItemOnAllWithAltKey"] = true,
 			["autoSellIlvlEpic"] = "200",
+			["autoSellRare"] = true,
+			["sellItemOnAllWithAltKey"] = true,
+			["autoSellIlvlUncommon"] = "200",
+			["autoSellEpic"] = true,
 			["autoSellBoEUncommon"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
@@ -69,13 +69,13 @@ JambaSellProfileDB = {
 		},
 		["Default"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
-		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

@@ -16,10 +16,10 @@ JambaDisplayTeamProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -33,6 +33,7 @@ JambaDisplayTeamProfileDB = {
 			["enableClique"] = true,
 			["showHealthStatus"] = false,
 			["teamListHorizontal"] = false,
+			["followStatusShowName"] = false,
 			["frameYOffset"] = 363.64892578125,
 			["showCharacterPortrait"] = false,
 			["showToolTipInfo"] = false,
@@ -44,12 +45,11 @@ JambaDisplayTeamProfileDB = {
 			["characterPortraitWidth"] = 30,
 			["fontSize"] = 9,
 			["followStatusWidth"] = 15,
-			["teamListScale"] = 0.63,
 			["fontStyle"] = "ABF",
-			["followStatusShowName"] = false,
+			["teamListScale"] = 0.63,
+			["statusBarTexture"] = "Minimalist",
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
-			["statusBarTexture"] = "Minimalist",
 			["experienceStatusWidth"] = 53,
 			["frameBorderColourA"] = 0,
 		},
@@ -95,16 +95,16 @@ JambaDisplayTeamProfileDB = {
 		["Default"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoanranger - Emerald Dream"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Samoanspy - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoansage - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoanranger - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoantitan - Stormrage"] = {

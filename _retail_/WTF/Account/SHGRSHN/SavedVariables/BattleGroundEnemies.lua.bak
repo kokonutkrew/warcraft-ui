@@ -2,14 +2,29 @@
 BattleGroundEnemiesDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["Enemies"] = {
+				["15"] = {
+					["Position_Y"] = 334.9332980407598,
+					["Position_X"] = 1053.86677899096,
+				},
+			},
+			["Allies"] = {
+				["15"] = {
+					["Position_Y"] = 702.5778381930468,
+					["Position_X"] = 1054.57823734152,
+				},
+			},
 		},
 		["KokonutKrew"] = {
 			["Allies"] = {

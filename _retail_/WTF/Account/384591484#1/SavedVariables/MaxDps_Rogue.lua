@@ -1,0 +1,4 @@
+
+MaxDpsRogueOptions = {
+	["outlawMarkedAsCooldown"] = false,
+}

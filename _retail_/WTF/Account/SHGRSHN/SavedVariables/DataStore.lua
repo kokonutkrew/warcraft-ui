@@ -115,6 +115,7 @@ DataStoreDB = {
 				["faction"] = "Horde",
 			},
 			["Default.Emerald Dream.Samoansavage"] = {
+				["guildName"] = "KokonutKrew",
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Shgrshn"] = {

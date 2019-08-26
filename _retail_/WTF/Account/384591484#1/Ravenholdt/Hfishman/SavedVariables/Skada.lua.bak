@@ -1,243 +1,33 @@
 
 SkadaPerCharDB = {
-	["sets"] = {
-	},
 	["total"] = {
 		["healingabsorbed"] = 0,
-		["auras"] = {
-		},
+		["dispells"] = 0,
 		["ccbreaks"] = 0,
 		["time"] = 0,
 		["interrupts"] = 0,
 		["damage"] = 0,
 		["players"] = {
-			{
-				["healingabsorbed"] = 0,
-				["class"] = "WARRIOR",
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "DAMAGER",
-				["time"] = 8,
-				["interrupts"] = 0,
-				["ccbreaks"] = 0,
-				["auras"] = {
-				},
-				["healing"] = 0,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["deaths"] = {
-					{
-						["ts"] = 1546814461.02503,
-						["log"] = {
-							{
-								["ts"] = 1546814457.32501,
-								["amount"] = -144,
-								["srcname"] = "Venture Co. Geologist",
-								["hp"] = 54,
-								["spellid"] = 9532,
-							}, -- [1]
-							{
-								["ts"] = 1546814461.02502,
-								["amount"] = -155,
-								["srcname"] = "Venture Co. Geologist",
-								["hp"] = 1,
-								["spellid"] = 9532,
-							}, -- [2]
-							{
-								["spellname"] = "Hfishman dies",
-								["ts"] = 1546814461.02503,
-								["spellid"] = 41220,
-								["hp"] = 0,
-							}, -- [3]
-							["pos"] = 4,
-						},
-						["maxhp"] = 198,
-					}, -- [1]
-					{
-						["ts"] = 1546813862.16404,
-						["log"] = {
-							{
-								["ts"] = 1546813857.97501,
-								["amount"] = -59,
-								["srcname"] = "Snapjaw Crocolisk",
-								["hp"] = 198,
-								["spellid"] = 88163,
-							}, -- [1]
-							{
-								["ts"] = 1546813859.99702,
-								["amount"] = -58,
-								["srcname"] = "Snapjaw Crocolisk",
-								["hp"] = 139,
-								["spellid"] = 88163,
-							}, -- [2]
-							{
-								["ts"] = 1546813862.16403,
-								["amount"] = -96,
-								["srcname"] = "Snapjaw Crocolisk",
-								["hp"] = 81,
-								["spellid"] = 88163,
-							}, -- [3]
-							{
-								["spellname"] = "Hfishman dies",
-								["ts"] = 1546813862.16404,
-								["spellid"] = 41220,
-								["hp"] = 0,
-							}, -- [4]
-							["pos"] = 5,
-						},
-						["maxhp"] = 198,
-					}, -- [2]
-				},
-				["healed"] = {
-				},
-				["power"] = {
-					{
-						["spells"] = {
-							[195707] = 9,
-						},
-						["amount"] = 9,
-					}, -- [1]
-				},
-				["id"] = "Player-164-0A04677C",
-				["maxhp"] = 198,
-				["shielding"] = 0,
-				["damagetakenspells"] = {
-					["Lightning Bolt"] = {
-						["crushing"] = 0,
-						["id"] = 9532,
-						["damage"] = 413,
-						["max"] = 155,
-						["name"] = "Lightning Bolt",
-						["min"] = 114,
-						["totalhits"] = 3,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["school"] = 8,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Attack"] = {
-						["crushing"] = 2,
-						["id"] = 6603,
-						["damage"] = 213,
-						["max"] = 96,
-						["name"] = "Attack",
-						["min"] = 58,
-						["totalhits"] = 3,
-						["critical"] = 1,
-						["blocked"] = 0,
-						["school"] = 1,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-				},
-				["healingspells"] = {
-				},
-				["name"] = "Hfishman",
-				["ffdamagedonetargets"] = {
-				},
-				["overhealing"] = 0,
-				["deathlog"] = {
-					{
-						["ts"] = 1546816869.493,
-						["amount"] = -114,
-						["hp"] = 51,
-						["spellid"] = 9532,
-						["srcname"] = "Venture Co. Geologist",
-					}, -- [1]
-					["pos"] = 2,
-				},
-				["damagetaken"] = 626,
-				["ffdamagedone"] = 0,
-				["ffdamagedonespells"] = {
-				},
-			}, -- [1]
 		},
-		["deaths"] = 2,
+		["deaths"] = 0,
 		["mobs"] = {
-			["Venture Co. Geologist"] = {
-				["players"] = {
-					["Hfishman"] = {
-						["taken"] = 0,
-						["done"] = 413,
-						["class"] = "WARRIOR",
-						["role"] = "DAMAGER",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 413,
-			},
-			["Dantevoid-Hyjal"] = {
-				["players"] = {
-				},
-				["hdone"] = 54,
-				["htakenspell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 27,
-						["crits"] = 0,
-						["max"] = 27,
-						["healing"] = 54,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 54,
-				["hdonespell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 27,
-						["crits"] = 0,
-						["max"] = 27,
-						["healing"] = 54,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Snapjaw Crocolisk"] = {
-				["players"] = {
-					["Hfishman"] = {
-						["taken"] = 0,
-						["done"] = 213,
-						["class"] = "WARRIOR",
-						["role"] = "DAMAGER",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 213,
-			},
 		},
-		["mobtaken"] = 0,
+		["shielding"] = 0,
 		["ffdamagedone"] = 0,
 		["healing"] = 0,
-		["damagetaken"] = 626,
-		["overhealing"] = 0,
+		["damagetaken"] = 0,
 		["power"] = {
-			9, -- [1]
 		},
-		["dispells"] = 0,
+		["mobtaken"] = 0,
+		["overhealing"] = 0,
 		["name"] = "Total",
-		["starttime"] = 1546813704,
-		["shielding"] = 0,
-		["mobhdone"] = 54,
-		["last_action"] = 1546813704,
-		["mobdone"] = 626,
+		["starttime"] = 1545606142,
+		["auras"] = {
+		},
+		["mobhdone"] = 0,
+		["last_action"] = 1545606142,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
 	},
 }

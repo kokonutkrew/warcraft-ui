@@ -3,26 +3,23 @@ JambaQuestProfileDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Wealthxport - Tichondrius"] = "Wealthxport - Tichondrius",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoantiger - Tichondrius"] = "Samoantiger - Tichondrius",
-		["Tygrrlilly - Emerald Dream"] = "KokonutKrew",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoansavage - Stormrage"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
-		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Tygrlilly - Tichondrius"] = "Tygrlilly - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -31,18 +28,19 @@ JambaQuestProfileDB = {
 		["Samoansaint - Stormrage"] = {
 		},
 		["KokonutKrew"] = {
+			["hasChoiceAquireBestQuestRewardForCharacter"] = false,
 			["allAutoSelectQuests"] = true,
 			["hasChoiceSlaveDoNothing"] = true,
+			["acceptFromTeam"] = true,
 			["mirrorMasterQuestSelectionAndDeclining"] = false,
 			["hasChoiceSlaveCompleteQuestWithMaster"] = false,
-			["noChoiceSlaveCompleteQuestWithMaster"] = false,
+			["noChoiceAllAutoCompleteQuest"] = true,
 			["onlyAcceptQuestsFrom"] = true,
 			["acceptFromGuild"] = true,
 			["acceptFromFriends"] = true,
-			["acceptFromTeam"] = true,
 			["doNotAutoAccept"] = false,
 			["masterAutoShareQuestOnAccept"] = true,
-			["noChoiceAllAutoCompleteQuest"] = true,
+			["noChoiceSlaveCompleteQuestWithMaster"] = false,
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -54,37 +52,31 @@ JambaQuestProfileDB = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
-		["Wealthxport - Tichondrius"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
 		["Samoansavage - Emerald Dream"] = {
 		},
-		["Samoantiger - Tichondrius"] = {
-		},
-		["Tygrrlilly - Emerald Dream"] = {
-		},
 		["Samoanbeast - Ravenholdt"] = {
-		},
-		["Grapejellie - Tichondrius"] = {
 		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Tygrrlilly - Stormrage"] = {
-		},
-		["Tygrlilly - Tichondrius"] = {
+		["Samoansmash - Emerald Dream"] = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
-		["Cherriebomb - Emerald Dream"] = {
-		},
 		["Samoanspy - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

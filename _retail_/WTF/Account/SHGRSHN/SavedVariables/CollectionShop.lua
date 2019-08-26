@@ -14,7 +14,7 @@ COLLECTIONSHOP_SAVEDVARIABLES = {
 		["APPEARANCES"] = 0,
 		["RECIPES"] = 0,
 	},
-	["version"] = 3.06,
+	["version"] = 3.08,
 	["modeFilters"] = {
 		["TOYS"] = {
 		},

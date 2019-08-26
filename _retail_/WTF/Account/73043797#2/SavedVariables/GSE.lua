@@ -1,45 +1,48 @@
 
 GSEOptions = {
 	["HideLoginMessage"] = true,
-	["use2"] = true,
+	["use1"] = true,
 	["STANDARDFUNCS"] = "|cff55ddcc",
+	["use2"] = true,
+	["DebugPrintModConditionsOnKeyPress"] = false,
 	["showGSEUsers"] = false,
 	["UnfoundSpellIDs"] = {
 	},
+	["autoCreateMacroStubsClass"] = false,
 	["COMMENT"] = "|cff55cc55",
 	["use14"] = true,
-	["use1"] = true,
-	["EQUALS"] = "|cffccddee",
-	["use11"] = true,
-	["sendDebugOutputToChatWindow"] = false,
-	["KEYWORD"] = "|cff88bbdd",
-	["debug"] = false,
-	["Update2305"] = true,
 	["saveAllMacrosLocal"] = true,
+	["use11"] = true,
+	["EQUALS"] = "|cffccddee",
+	["CreateGlobalButtons"] = false,
+	["sendDebugOutputToChatWindow"] = false,
+	["debug"] = false,
 	["use6"] = true,
-	["CommandColour"] = "|cFF00FF00",
-	["CONCAT"] = "|cffcc7777",
-	["UNKNOWN"] = "|cffff6666",
-	["Updated801"] = true,
-	["DisabledSequences"] = {
-	},
+	["Update2305"] = true,
 	["use12"] = true,
+	["CONCAT"] = "|cffcc7777",
+	["CommandColour"] = "|cFF00FF00",
+	["Updated801"] = true,
+	["UNKNOWN"] = "|cffff6666",
 	["NUMBER"] = "|cffffaa00",
 	["autoCreateMacroStubsGlobal"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
+	["ActiveSequenceVersions"] = {
+	},
+	["requireTarget"] = false,
 	["sendDebugOutputToDebugOutput"] = false,
 	["hideSoundErrors"] = false,
 	["ErroneousSpellID"] = {
 	},
-	["requireTarget"] = false,
+	["useTranslator"] = false,
 	["STRING"] = "|cff888888",
 	["clearUIErrors"] = false,
-	["AuthorColour"] = "|cFF00D1FF",
-	["useTranslator"] = false,
-	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
+	["Update2411"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["PromptSample"] = true,
 	["initialised"] = true,
-	["ActiveSequenceVersions"] = {
-	},
+	["resetOOC"] = true,
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
@@ -50,7 +53,7 @@ GSEOptions = {
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
-	["resetOOC"] = true,
+	["INDENT"] = "|cffccaa88",
 	["MacroResetModifiers"] = {
 		["Alt"] = false,
 		["LeftControl"] = false,
@@ -79,18 +82,32 @@ GSEOptions = {
 	["WOWSHORTCUTS"] = "|cffddaaff",
 	["RealtimeParse"] = false,
 	["deleteOrphansOnLogout"] = true,
-	["INDENT"] = "|cffccaa88",
+	["Update2410"] = true,
 	["UnfoundSpells"] = {
+		["Ambush"] = true,
+		["Ghostly Strike"] = true,
+		["Kingsbane"] = true,
+		["Death from Above"] = true,
+		["Pistol Shot"] = true,
+		["Adrenaline Rush"] = true,
 		["Blood Fury"] = true,
-		["Smack"] = true,
-		["A Murder of Crows"] = true,
-		["Fetch"] = true,
-		["Titan's Thunder"] = true,
-		["Barrage"] = true,
-		["Dire Beast"] = true,
+		["Blade Flurry"] = true,
+		["Berserking"] = true,
+		["Slice and Dice"] = true,
+		["Run Through"] = true,
+		["Saber Slash"] = true,
+		["Curse of the Dreadblades"] = true,
 	},
 	["overflowPersonalMacros"] = false,
 	["showGSEoocqueue"] = true,
+	["showMiniMap"] = {
+		["hide"] = true,
+	},
+	["DisabledSequences"] = {
+	},
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["use13"] = true,
+	["NormalColour"] = "|cFFFFFFFF",
 	["AddInPacks"] = {
 		["GS-MultiboxMacros"] = {
 			["Name"] = "GS-MultiboxMacros",
@@ -134,21 +151,16 @@ GSEOptions = {
 			},
 		},
 		["Samples"] = {
-			["Version"] = "2404",
+			["Version"] = "2414",
 			["Name"] = "Samples",
 			["SequenceNames"] = {
 				"Assorted Sample Macros", -- [1]
 			},
 		},
 	},
-	["DebugPrintModConditionsOnKeyPress"] = false,
-	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
-	["use13"] = true,
-	["NormalColour"] = "|cFFFFFFFF",
-	["autoCreateMacroStubsClass"] = false,
 	["UseWLMExportFormat"] = true,
 	["setDefaultIconQuestionMark"] = true,
-	["CreateGlobalButtons"] = false,
+	["KEYWORD"] = "|cff88bbdd",
 	["DefaultImportAction"] = "MERGE",
 }
 GSELibrary = {
@@ -214,17 +226,17 @@ GSELibrary = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
+					["Trinket1"] = true,
+					["Trinket2"] = true,
 					["KeyRelease"] = {
 					},
-					["Trinket2"] = true,
-					["Combat"] = true,
+					["KeyPress"] = {
+					},
 					["Ring2"] = true,
+					["Combat"] = true,
 					["PreMacro"] = {
 					},
-					["Trinket1"] = true,
+					["StepFunction"] = "Sequential",
 				}, -- [1]
 			},
 			["ManualIntervention"] = true,
@@ -245,14 +257,14 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Divine Protection", -- [1]
 						"/cast [combat] Avenging Wrath", -- [2]
 						"/cast [combat] Aura Mastery", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
 					},
 				}, -- [1]
 			},
@@ -275,12 +287,12 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast Shield of the Righteous", -- [1]
+					["KeyPress"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
+					["KeyRelease"] = {
+						"/cast Shield of the Righteous", -- [1]
 					},
 				}, -- [1]
 			},
@@ -307,11 +319,11 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
+					["KeyRelease"] = {
 					},
 				}, -- [1]
 			},
@@ -338,11 +350,11 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
+					["KeyRelease"] = {
 					},
 				}, -- [1]
 			},
@@ -370,18 +382,18 @@ GSELibrary = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["KeyRelease"] = {
-					},
-					["Trinket2"] = true,
-					["Combat"] = true,
-					["Ring2"] = true,
-					["PreMacro"] = {
-					},
 					["PostMacro"] = {
 					},
+					["Trinket2"] = true,
+					["KeyRelease"] = {
+					},
+					["KeyPress"] = {
+					},
+					["Ring2"] = true,
+					["Combat"] = true,
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 				}, -- [1]
 			},
 			["SpecID"] = 70,
@@ -461,7 +473,7 @@ GSELibrary = {
 		["BMBFAST"] = {
 			["Talents"] = "1-3-x-3-x-1-1",
 			["Author"] = "Bootyhuntêr@Thrall",
-			["PVP"] = 2,
+			["MythicPlus"] = 2,
 			["ManualIntervention"] = false,
 			["Dungeon"] = 1,
 			["MacroVersions"] = {
@@ -487,7 +499,8 @@ GSELibrary = {
 					["Neck"] = false,
 					["Belt"] = false,
 					["Ring1"] = false,
-					["Combat"] = true,
+					["PostMacro"] = {
+					},
 					["Ring2"] = false,
 					["KeyRelease"] = {
 					},
@@ -506,8 +519,7 @@ GSELibrary = {
 					["StepFunction"] = "Priority",
 					["PreMacro"] = {
 					},
-					["PostMacro"] = {
-					},
+					["Combat"] = true,
 				}, -- [1]
 				{
 					"/cast 5116", -- [1]
@@ -533,7 +545,7 @@ GSELibrary = {
 					["Neck"] = false,
 					["Belt"] = false,
 					["Ring1"] = false,
-					["Trinket1"] = false,
+					["Combat"] = true,
 					["KeyRelease"] = {
 					},
 					["Ring2"] = false,
@@ -551,15 +563,15 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Combat"] = true,
+					["Trinket1"] = false,
 				}, -- [2]
 			},
 			["Help"] = "\n\n--=Hold Ctrl for Multi-Shot in AoE situations as needed to keep up Beast Cleave=--",
-			["Arena"] = 2,
-			["Default"] = 1,
 			["SpecID"] = 253,
+			["Default"] = 1,
+			["Arena"] = 2,
 			["Icon"] = "",
-			["MythicPlus"] = 2,
+			["PVP"] = 2,
 		},
 		["JMM_HU_BM_FARM"] = {
 			["Talents"] = "3,1,1,3,3,?,3",
@@ -612,19 +624,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [nostealth, combat] Blood Fury", -- [2]
-						"/cast [nostealth, combat] Berserking", -- [3]
+					["KeyPress"] = {
+						"/cast [mod:ctrl] Pistol Shot", -- [1]
+						"/cancelaura Blade Flurry", -- [2]
+						"/cast [stealth] Ambush", -- [3]
 					},
 					["PreMacro"] = {
 						"/cast [nostealth,nocombat] Stealth", -- [1]
 						"/cast [stealth] Ambush", -- [2]
 					},
-					["KeyPress"] = {
-						"/cast [mod:ctrl] Pistol Shot", -- [1]
-						"/cancelaura Blade Flurry", -- [2]
-						"/cast [stealth] Ambush", -- [3]
+					["KeyRelease"] = {
+						"/cast [nostealth,nocombat] Stealth", -- [1]
+						"/cast [nostealth, combat] Blood Fury", -- [2]
+						"/cast [nostealth, combat] Berserking", -- [3]
 					},
 				}, -- [1]
 			},
@@ -651,15 +663,15 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/cast [mod:alt] 13877", -- [2]
+					["KeyRelease"] = {
+						"/cast [nostealth,nocombat] 1784", -- [1]
 					},
 					["PreMacro"] = {
 						"/cast [nostealth,nocombat] 1784", -- [1]
 					},
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] 1784", -- [1]
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+						"/cast [mod:alt] 13877", -- [2]
 					},
 				}, -- [1]
 			},
@@ -681,16 +693,16 @@ GSELibrary = {
 					["LoopLimit"] = 30,
 					["Combat"] = true,
 					["StepFunction"] = "Priority",
-					["KeyPress"] = {
-						"/castsequence [mod:ctrl,form:0] reset=1  195452, 185313", -- [1]
-						"/cast [mod:shift] Death from Above", -- [2]
+					["KeyRelease"] = {
 					},
 					["PostMacro"] = {
 					},
 					["PreMacro"] = {
 						"/cast [form:0] 1856", -- [1]
 					},
-					["KeyRelease"] = {
+					["KeyPress"] = {
+						"/castsequence [mod:ctrl,form:0] reset=1  195452, 185313", -- [1]
+						"/cast [mod:shift] Death from Above", -- [2]
 					},
 				}, -- [1]
 			},
@@ -715,13 +727,13 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
+					["KeyRelease"] = {
+						"/cast Kingsbane", -- [1]
 					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
-						"/cast Kingsbane", -- [1]
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
 					},
 				}, -- [1]
 			},
@@ -742,19 +754,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [nostealth, combat] Blood Fury", -- [2]
-						"/cast [nostealth, combat] Berserking", -- [3]
+					["KeyPress"] = {
+						"/cast [mod:ctrl] Pistol Shot", -- [1]
+						"/cast !Blade Flurry", -- [2]
+						"/cast [stealth] Ambush", -- [3]
 					},
 					["PreMacro"] = {
 						"/cast [nostealth,nocombat] Stealth", -- [1]
 						"/cast [stealth] Ambush", -- [2]
 					},
-					["KeyPress"] = {
-						"/cast [mod:ctrl] Pistol Shot", -- [1]
-						"/cast !Blade Flurry", -- [2]
-						"/cast [stealth] Ambush", -- [3]
+					["KeyRelease"] = {
+						"/cast [nostealth,nocombat] Stealth", -- [1]
+						"/cast [nostealth, combat] Blood Fury", -- [2]
+						"/cast [nostealth, combat] Berserking", -- [3]
 					},
 				}, -- [1]
 			},
@@ -784,11 +796,11 @@ GSELibrary = {
 						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
 						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat Smite, Shadow Word: Pain, null", -- [3]
 					},
-					["PostMacro"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
 				}, -- [1]
 			},
 			["Icon"] = "INV_MISC_QUESTIONMARK",
@@ -817,11 +829,11 @@ GSELibrary = {
 						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
 						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat  Smite, Shadow Word: Pain, null", -- [3]
 					},
-					["PostMacro"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
 				}, -- [1]
 			},
 			["Icon"] = "INV_MISC_QUESTIONMARK",
@@ -844,15 +856,15 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+						"/cast [combat,nochanneling] 586", -- [1]
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/cast [form:0] 232698", -- [1]
 						"/targetenemy [noharm][dead]", -- [2]
 						"/castsequence [mod:alt] 589, 34914", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat,nochanneling] 586", -- [1]
 					},
 				}, -- [1]
 			},
@@ -871,21 +883,21 @@ GSELibrary = {
 					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
 					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
 					"/cast [combat, nochanneling] 585", -- [5]
-					["Trinket1"] = true,
-					["Trinket2"] = true,
 					["Combat"] = true,
 					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+					},
+					["Trinket2"] = true,
+					["PostMacro"] = {
+					},
 					["KeyPress"] = {
 						"/target [@focustarget, harm, nodead]", -- [1]
 						"/targetenemy [noharm, dead]", -- [2]
 						"/startattack", -- [3]
 					},
-					["PostMacro"] = {
-					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
-					},
+					["Trinket1"] = true,
 				}, -- [1]
 			},
 			["Icon"] = "",
@@ -913,15 +925,15 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [combat] Vampiric Blood", -- [1]
 						"/cast [combat] Dancing Rune Weapon", -- [2]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1159,14 +1171,14 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1186,14 +1198,14 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1218,18 +1230,18 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/cast [mod:shift] Drain Life", -- [2]
+						"/castsequence reset=target Doom, null", -- [3]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 						"/petautocastoff [group] Threatening Presence", -- [3]
 						"/petautocaston [nogroup] Threatening Presence", -- [4]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
 					},
 				}, -- [1]
 			},
@@ -1250,18 +1262,18 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/cast [mod:shift] Drain Life", -- [2]
+						"/castsequence reset=target Doom, null", -- [3]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 						"/petautocastoff [group] Threatening Presence", -- [3]
 						"/petautocaston [nogroup] Threatening Presence", -- [4]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
 					},
 				}, -- [1]
 			},
@@ -1282,16 +1294,16 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/cast [nopet] Summon Doomguard", -- [2]
 						"/castsequence reset=target Immolate, null", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1312,15 +1324,15 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/castsequence reset=target/combat  Agony, Corruption, Unstable Affliction, Drain Soul, Null", -- [2]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1342,16 +1354,16 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/cast [nopet] Summon Imp", -- [2]
 						"/castsequence reset=target Immolate, null", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1435,7 +1447,7 @@ GSELibrary = {
 					"/cast Mangle", -- [6]
 					"/castsequence Ironfur, Ironfur", -- [7]
 					"/cast Rage of the Sleeper", -- [8]
-					["Trinket2"] = true,
+					["Trinket1"] = true,
 					["KeyRelease"] = {
 					},
 					["StepFunction"] = "Priority",
@@ -1449,7 +1461,7 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket1"] = true,
+					["Trinket2"] = true,
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
@@ -1474,11 +1486,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 				}, -- [1]
 				{
 					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
@@ -1488,11 +1500,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["KeyRelease"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
 				}, -- [2]
 			},
 			["ManualIntervention"] = false,
@@ -1514,16 +1526,16 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [noform:1] !Bear Form", -- [1]
-						"/castsequence  reset=target  Moonfire, null", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast Mangle", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Berserking", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [noform:1] !Bear Form", -- [1]
+						"/castsequence  reset=target  Moonfire, null", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1552,14 +1564,14 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Celestial Alignment", -- [1]
 						"/cast [combat] Berserking", -- [2]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [noform:4] Moonkin Form", -- [1]
 					},
 				}, -- [1]
 			},
@@ -1579,11 +1591,11 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
+					["KeyRelease"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 				}, -- [1]
 			},
@@ -1604,13 +1616,6 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [noform:2] !Cat Form", -- [1]
-						"/cast [nostealth, nocombat] Prowl", -- [2]
-						"/castsequence [combat] reset=combat  Rake, Shred, Shred, Rip, nulll", -- [3]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Berserk", -- [1]
 						"/console autounshift 0", -- [2]
@@ -1618,6 +1623,13 @@ GSELibrary = {
 						"/console autounshift 1", -- [4]
 						"/cast [combat] Blood Fury", -- [5]
 						"/cast [combat] Berserking", -- [6]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [noform:2] !Cat Form", -- [1]
+						"/cast [nostealth, nocombat] Prowl", -- [2]
+						"/castsequence [combat] reset=combat  Rake, Shred, Shred, Rip, nulll", -- [3]
 					},
 				}, -- [1]
 			},
@@ -1638,16 +1650,16 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/cast [talent:3/1, noform:5] !Treant Form; [talent:3/2, noform:4][talent:3/3, noform:4] !Treant Form", -- [2]
 						"/castsequence [@player] reset=combat  Efflorescence, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
@@ -1674,14 +1686,14 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Celestial Alignment", -- [1]
 						"/cast [combat] Berserking", -- [2]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [noform:4] Moonkin Form", -- [1]
 					},
 				}, -- [1]
 			},
@@ -1730,13 +1742,13 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [noform:2] Cat Form", -- [1]
-						"/cast [nostealth,nocombat] Prowl", -- [2]
+					["KeyRelease"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
+					["KeyPress"] = {
+						"/cast [noform:2] Cat Form", -- [1]
+						"/cast [nostealth,nocombat] Prowl", -- [2]
 					},
 				}, -- [1]
 			},

@@ -1,0 +1,94 @@
+VER 3 0000000000000009 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000002 "blink artist" "Ability_Creature_Cursed_03"
+/cast Blink
+/cast Escape Artist(Racial)
+END
+VER 3 0000000000000001 "chicken" "Ability_Creature_Disease_03"
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+/chicken
+END
+VER 3 0000000000000003 "EMERGENCY" "Ability_Creature_Disease_05"
+/cast Presence of Mind
+/cast Arcane Power
+g
+/cast Pyroblast(Rank 10)
+END
+VER 3 00000000000000AB "f1.TargetSelf" "135914"
+/focus
+/target player
+END
+VER 3 00000000000000AC "f2.FollowParty1" "135914"
+/follow party1
+/assist party1
+/target party1
+END
+VER 3 00000000000000AD "f3.FollowParty2" "135914"
+/follow party2
+/assist party2
+/target party2
+END
+VER 3 00000000000000AE "f4.FollowParty3" "135914"
+/follow party3
+/assist party3
+/target party3
+END
+VER 3 00000000000000AF "f5.FollowParty4" "135914"
+/follow party4
+/assist party4
+/target party4
+END
+VER 3 000000000000000E "f6.StartParty" "135914"
+/run InviteUnit("Tigerlilly");
+/run InviteUnit("Mancub"); 
+/run InviteUnit("Foxxer"); 
+/run InviteUnit("Kickbrass"); 
+/ffa
+/changeactionbar 2
+END
+VER 3 00000000000000B0 "GRM_Roster" "Achievement_pvp_h_a"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000006 "help" "INV_Misc_QuestionMark"
+/rw help!
+END
+VER 3 0000000000000005 "I AM DIEING" "Ability_Creature_Cursed_04"
+/cast Nature's Swiftness
+/cast Healing Touch(Rank 5)
+END
+VER 3 0000000000000008 "love" "Ability_Creature_Cursed_01"
+/love
+END
+VER 3 0000000000000004 "uber damage" "Ability_Creature_Cursed_05"
+/use Dark Iron Smoking Pipe
+/use Direbrew Hops
+/cast Arcane Power
+END
+VER 3 0000000000000007 "wtf" "Ability_CheapShot"
+/sit
+/yawn
+END

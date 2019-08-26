@@ -1,53 +1,102 @@
-VER 3 0000000000000037 "..Cross" "878234"
-/run SetRaidTarget("mouseover", 7)
+VER 3 000000000000000A "1. Ranged Pull" "132094"
+/cast shoot
+/cast taunt
+/cast attack
 END
-VER 3 000000000000003B "..Diamond" "878233"
+VER 3 0000000000000009 "2. Damage" "132094"
+/cast charge
+/cast overpower
+/cast attack
+/cast thunder clap
+/cast heroic strike
+/cast sunder armor
+END
+VER 3 000000000000000B "3. Dots" "132094"
+/cast bloodrage
+/cast rend
+END
+VER 3 0000000000000010 "4. Light Damage" "132094"
+/cast bloodrage
+/cast sunder armor
+END
+VER 3 000000000000000D "5. Battle Buffs" "132094"
+/cast bloodrage
+/cast battle shout 
+/cast blood fury
+END
+VER 3 000000000000000C "8.s Self Heal" "132094"
+/use Major Healthstone
+/use Greater Healthstone
+/use Healthstone
+/use Major Healing Potion
+/use Greater Healing Potion
+/use Healing Potion
+/use Furbolg Medicine Pouch
+END
+VER 3 0000000000000036 "a-01 Skull" "915741"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button1
+END
+VER 3 0000000000000038 "a-02 Square" "878231"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button3
+END
+VER 3 0000000000000037 "a-03 Remove All" "878234"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button9
+END
+VER 3 000000000000003B "a-04 Diamond" "878233"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button6
 END
-VER 3 0000000000000038 "..Moon" "878231"
-/run SetRaidTarget("mouseover", 5)
-END
-VER 3 0000000000000036 "..Skull" "915741"
-/Attacktarget
-/run SetRaidTarget("mouseover", 8)
-END
-VER 3 0000000000000039 "..Star" "878235"
+VER 3 0000000000000039 "a-05 Star" "878235"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button8
 END
-VER 3 000000000000003A "..Triangle" "878232"
+VER 3 000000000000003A "a-06 Triangle" "878232"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button5
 END
-VER 3 000000000000007D "1Back ServerHop" "133745"
-/run ServerHop_HopBack()
+VER 3 00000000000000AE "a-07 Drink" "132807"
+/oom
 END
-VER 3 0000000000000079 "1Next ServerHop" "133745"
-/run ServerHop_HopForward()
+VER 3 00000000000000AF "a-08 Self Heal" "135230"
 END
-VER 3 0000000000000086 "1ServerHop" "1305155"
-/serverhop
+VER 3 00000000000000AC "a-09 Heal Me" "134914"
+/run SetRaidTarget("player", 7)
+/healme
+/run SetRaidTarget("player", 7)
 END
-VER 3 00000000000000A3 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click ExtraActionButton1
+VER 3 00000000000000A9 "a-10 Skull" "132097"
+/run SetRaidTarget("mouseover", 8)
+/attacktarget
+END
+VER 3 00000000000000B0 "a-11 Spot Target" "1033497"
+/run SetRaidTarget("mouseover", 8)
+/incoming
+END
+VER 3 00000000000000AD "a-12 Mock" "132333"
+/run SetRaidTarget("mouseover", 8)
+/roar
+/spit
+/sigh
+/golfclap
+/laugh
+/guffaw
+/rofl
+/pity
+/violin
+END
+VER 3 00000000000000B1 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
 END
 VER 3 000000000000004F "AOTC Legion HC" "INV_SCROLL_11"
 /run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:11195:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:17:17:4294967295:4294967295:4294967295:4294967295\124h[Ahead of the Curve: Gul'dan]\124h\124r")
 END
-VER 3 00000000000000A6 "AutoFollow" "132127"
-/clearfocus
-/target [target=party1]
-/focus [@focus,noharm][@focus,dead]
-/follow [@focus]
-/assist
-/stopcasting
-END
 VER 3 000000000000006E "ChatHide" "132331"
 /run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
 END
-VER 3 00000000000000A5 "Cluck" "576309"
+VER 3 00000000000000A7 "Cluck" "132172"
 /chicken
 END
 VER 3 000000000000009D "Death" "135426"
@@ -56,11 +105,51 @@ END
 VER 3 0000000000000006 "Distance Aggro" "878211"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
 END
+VER 3 0000000000000008 "ExtraAction 1" "136058"
+#showtooltip
+/click ExtraActionButton1
+END
 VER 3 000000000000005F "Fish Bait" "1379246"
 /castsequence [nomod] Fishing
 /equipset [mod:alt] Max Fishing
 /castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
 /use [mod:shift] Worm Supreme
+END
+VER 3 00000000000000AB "Follow Party 0" "135914"
+/focus
+/target player
+END
+VER 3 0000000000000001 "Follow Party1" "135914"
+/follow party1
+/assist party1
+/target party1
+END
+VER 3 0000000000000002 "Follow Party2" "135914"
+/follow party2
+/assist party2
+/target party2
+END
+VER 3 0000000000000003 "Follow Party3" "135914"
+/follow party3
+/assist party3
+/target party3
+END
+VER 3 0000000000000004 "Follow Party4" "135914"
+/follow party4
+/assist party4
+/target party4
+END
+VER 3 00000000000000B2 "GRM_Roster" "Achievement_pvp_h_a"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 000000000000000E "Invite" "135946"
+/run InviteUnit("Tigerlilly");
+/run InviteUnit("Mancub"); 
+/run InviteUnit("Foxxer"); 
+/run InviteUnit("Kickbrass"); 
+/ffa
+/changeactionbar 2
 END
 VER 3 0000000000000061 "Invite" "135026"
 --/run GuildManager:InviteAction()
@@ -69,11 +158,8 @@ END
 VER 3 000000000000008E "LeaveParty" "132219"
 /leave party
 END
-VER 3 000000000000007B "Notes" "134330"
---UI / Addon Notes
---Auto accept quests: Leatrix, ConsLegion
---Auto party/follow/control: FollowFelankor
---Fake Achievs: wow-fake.com
+VER 3 00000000000000A5 "Professions" "134942"
+/tsm tasklist
 END
 VER 3 0000000000000083 "PVP Champion Ach" "1398085"
 /run SendChatMessage("\124cffffff00\124Hachievement:5353:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:26:17:4294967295:4294967295:4294967295:4294967295\124h[Champion]\124h\124r, 2k exp, have voice", WHISPER, nil, "Kurropt-Dragonmaw")
@@ -109,12 +195,6 @@ END
 VER 3 000000000000000F "Trash Gray" "1542860"
 /run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
 END
-VER 3 0000000000000059 "TS3" "135026"
-/g /////////////////////////////////
-/g Wealth Discord: kokonutkrew.com/discord
-/g Proud members of the KokonutKrew!
-/g /////////////////////////////////
-END
 VER 3 00000000000000A4 "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMCancelAuctionBtn
 /click TSMShoppingBuyoutBtn
@@ -129,22 +209,6 @@ VER 3 0000000000000085 "Utility Mount" "294469"
 /use Sky Golem
 /use [noflyable][mod:alt] Grand Black War Mammoth
 /use [mod:alt] Obsidian Nightwing
-END
-VER 3 000000000000007C "xArchived Macro" "134330"
---Invite
-/run local _,n=BNGetToonInfo(BNet_GetPresenceID'Tigerlilly')InviteUnit(n)
---Follow
-/target focus 
-/follow 
-/assist 
-/stopcasting 
---focus
-#showtooltip
-/focus [@focus,noharm][@focus,dead]
-/follow [@focus]
-/follow 
-/assist 
-/stopcasting 
 END
 VER 3 000000000000002B "xThndrfury" "INV_MISC_QUESTIONMARK"
 #show item:19019

@@ -4,36 +4,44 @@ Postal3DB = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Samoanbeast|Ravenholdt|Alliance|1|DRUID", -- [1]
-				"Samoansage|Tichondrius|Horde|110|DRUID", -- [2]
-				"Samoansavage|Stormrage|Alliance|115|DRUID", -- [3]
-				"Samoanslayer|Emerald Dream|Alliance|75|ROGUE", -- [4]
-				"Samoanstrap|Tichondrius|Horde|110|HUNTER", -- [5]
-				"Samoantank|Tichondrius|Horde|112|PALADIN", -- [6]
-				"Samoantitan|Stormrage|Alliance|120|PALADIN", -- [7]
+				"Samoanranger|Emerald Dream|Alliance|51|HUNTER", -- [2]
+				"Samoansage|Tichondrius|Horde|110|DRUID", -- [3]
+				"Samoansavage|Emerald Dream|Alliance|76|ROGUE", -- [4]
+				"Samoansavage|Stormrage|Alliance|115|DRUID", -- [5]
+				"Samoanslayer|Emerald Dream|Alliance|17|WARRIOR", -- [6]
+				"Samoanstrap|Tichondrius|Horde|110|HUNTER", -- [7]
+				"Samoantank|Tichondrius|Horde|112|PALADIN", -- [8]
+				"Samoantitan|Stormrage|Alliance|120|PALADIN", -- [9]
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Samoanstrap - Tichondrius"] = {
-		},
 		["Samoanbeast - Ravenholdt"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Samoanstrap - Tichondrius"] = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

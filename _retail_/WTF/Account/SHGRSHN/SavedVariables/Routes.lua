@@ -2,11 +2,13 @@
 RoutesDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 }

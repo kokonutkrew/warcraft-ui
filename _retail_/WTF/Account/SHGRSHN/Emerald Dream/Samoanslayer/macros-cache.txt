@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "Invite" "132351"
+/run InviteUnit("Cherriebomb");
+/run InviteUnit("Samoanrouge"); 
+/run InviteUnit("Aeredyl"); 
+/run InviteUnit("Mercis"); 
+/ffa
+/changeactionbar 2
+END

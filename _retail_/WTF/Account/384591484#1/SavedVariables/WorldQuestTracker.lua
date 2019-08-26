@@ -24,19 +24,21 @@ WQTrackerDB = {
 			["TutorialPopupID"] = 5,
 			["is_BFA_version"] = true,
 			["quests_tracked"] = {
+				["Player-60-0A6DF395"] = {
+				},
 				["Player-162-09F14854"] = {
 				},
-				["Player-11-09ADBF6A"] = {
+				["Player-162-0A2F1F9A"] = {
 				},
 				["Player-60-0A6E12EE"] = {
+				},
+				["Player-11-042FD3AD"] = {
+				},
+				["Player-11-09ADBF6A"] = {
 				},
 				["Player-164-09CD1964"] = {
 				},
 				["Player-11-09AF1B98"] = {
-				},
-				["Player-11-042FD3AD"] = {
-				},
-				["Player-60-0A6DF395"] = {
 				},
 			},
 			["quests_all_characters"] = {
@@ -76,25 +78,25 @@ WQTrackerDB = {
 						["rewardAmount"] = "|cffc557FF182",
 						["rewardTexture"] = "Interface\\ICONS\\INV_Belt_15",
 					},
-					[41637] = {
-						["expireAt"] = 1544648494,
-						["rewardAmount"] = "4",
-						["rewardTexture"] = 1417744,
+					[42746] = {
+						["expireAt"] = 1544713294,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Necklace_07",
 					},
 					[41636] = {
 						["expireAt"] = 1544670095,
 						["rewardAmount"] = "110",
 						["rewardTexture"] = 1387622,
 					},
-					[44892] = {
-						["expireAt"] = 1544886095,
-						["rewardAmount"] = "|cffc557FF184",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Shoulder_25",
+					[41637] = {
+						["expireAt"] = 1544648494,
+						["rewardAmount"] = "4",
+						["rewardTexture"] = 1417744,
 					},
-					[43943] = {
-						["expireAt"] = 1544886034,
-						["rewardAmount"] = "",
-						["rewardTexture"] = 1409002,
+					[41866] = {
+						["expireAt"] = 1544713235,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Gauntlets_17",
 					},
 					[41980] = {
 						["expireAt"] = 1544691635,
@@ -106,10 +108,10 @@ WQTrackerDB = {
 						["rewardAmount"] = "1",
 						["rewardTexture"] = 1417744,
 					},
-					[44737] = {
-						["expireAt"] = 1544886034,
-						["rewardAmount"] = "|cffc557FF182",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
+					[49045] = {
+						["expireAt"] = 1544713270,
+						["rewardAmount"] = "17",
+						["rewardTexture"] = 133675,
 					},
 					[48983] = {
 						["expireAt"] = 1544670041,
@@ -136,45 +138,60 @@ WQTrackerDB = {
 						["rewardAmount"] = "|cffc557FF189",
 						["rewardTexture"] = "Interface\\ICONS\\inv_misc_enchantedpearlE",
 					},
-					[49045] = {
-						["expireAt"] = 1544713270,
-						["rewardAmount"] = "17",
-						["rewardTexture"] = 133675,
+					[44737] = {
+						["expireAt"] = 1544886034,
+						["rewardAmount"] = "|cffc557FF182",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
 					},
 					[47507] = {
 						["expireAt"] = 1544691670,
 						["rewardAmount"] = "|cffc557FF187",
 						["rewardTexture"] = "Interface\\ICONS\\inv_misc_enchantedpearlE",
 					},
-					[41866] = {
-						["expireAt"] = 1544713235,
-						["rewardAmount"] = "|cffc557FF182",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Gauntlets_17",
+					[43943] = {
+						["expireAt"] = 1544886034,
+						["rewardAmount"] = "",
+						["rewardTexture"] = 1409002,
 					},
-					[42746] = {
-						["expireAt"] = 1544713294,
-						["rewardAmount"] = "|cffc557FF182",
-						["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Necklace_07",
+					[44892] = {
+						["expireAt"] = 1544886095,
+						["rewardAmount"] = "|cffc557FF184",
+						["rewardTexture"] = "Interface\\ICONS\\INV_Shoulder_25",
 					},
 				},
 				["Player-60-0A6DF395"] = {
 				},
 			},
 			["player_names"] = {
+				["Player-60-0A6DF395"] = {
+					["class"] = "PALADIN",
+					["name"] = "Samoantitan",
+					["realm"] = "Stormrage",
+				},
 				["Player-162-09F14854"] = {
 					["class"] = "ROGUE",
 					["name"] = "Samoanslayer",
 					["realm"] = "Emerald Dream",
 				},
-				["Player-11-09ADBF6A"] = {
-					["class"] = "DRUID",
-					["name"] = "Samoansage",
-					["realm"] = "Tichondrius",
+				["Player-162-0A2F1F9A"] = {
+					["class"] = "WARRIOR",
+					["name"] = "Samoanslayer",
+					["realm"] = "Emerald Dream",
 				},
 				["Player-60-0A6E12EE"] = {
 					["class"] = "DRUID",
 					["name"] = "Samoansavage",
 					["realm"] = "Stormrage",
+				},
+				["Player-11-042FD3AD"] = {
+					["class"] = "PALADIN",
+					["name"] = "Samoantank",
+					["realm"] = "Tichondrius",
+				},
+				["Player-11-09ADBF6A"] = {
+					["class"] = "DRUID",
+					["name"] = "Samoansage",
+					["realm"] = "Tichondrius",
 				},
 				["Player-164-09CD1964"] = {
 					["class"] = "DRUID",
@@ -186,58 +203,32 @@ WQTrackerDB = {
 					["name"] = "Samoanstrap",
 					["realm"] = "Tichondrius",
 				},
-				["Player-11-042FD3AD"] = {
-					["class"] = "PALADIN",
-					["name"] = "Samoantank",
-					["realm"] = "Tichondrius",
+			},
+			["rarescan"] = {
+				["recently_killed"] = {
+					["Player-60-0A6E12EE"] = {
+					},
+					["Player-11-042FD3AD"] = {
+					},
+					["Player-60-0A6DF395"] = {
+					},
 				},
-				["Player-60-0A6DF395"] = {
-					["class"] = "PALADIN",
-					["name"] = "Samoantitan",
-					["realm"] = "Stormrage",
+				["name_cache"] = {
+					["Void Warden Valsuran"] = 127300,
+					["Commander Vecaya"] = 122911,
+					["Captain Faruq"] = 126869,
+					["Golrakahn"] = 124185,
+					["Vigilant Thanos"] = 126865,
+					["Varga"] = 126208,
+					["Houndmaster Kerrax"] = 127288,
+					["Shadowcaster Voruun"] = 122838,
+					["Lieutenant Xakaar"] = 126254,
+					["Umbra'jin"] = 122004,
+					["Chief Alchemist Munculus"] = 127376,
 				},
 			},
+			["TutorialToggleButton"] = 2,
 			["history"] = {
-				["period"] = {
-					["global"] = {
-						["181211"] = {
-							["resource"] = 1430,
-							["quest"] = 6,
-							["gold"] = 435400,
-						},
-						["181023"] = {
-							["artifact"] = 270,
-							["resource"] = 764,
-							["quest"] = 6,
-							["gold"] = 2787800,
-						},
-						["181212"] = {
-							["quest"] = 13,
-							["resource"] = 1448,
-						},
-					},
-					["character"] = {
-						["Player-11-042FD3AD"] = {
-							["181211"] = {
-								["resource"] = 1430,
-								["quest"] = 6,
-								["gold"] = 435400,
-							},
-							["181212"] = {
-								["quest"] = 13,
-								["resource"] = 1448,
-							},
-						},
-						["Player-60-0A6DF395"] = {
-							["181023"] = {
-								["artifact"] = 270,
-								["resource"] = 764,
-								["quest"] = 6,
-								["gold"] = 2787800,
-							},
-						},
-					},
-				},
 				["quest"] = {
 					["global"] = {
 						[48099] = 1,
@@ -252,20 +243,20 @@ WQTrackerDB = {
 						[47833] = 1,
 						[54437] = 1,
 						[48828] = 1,
-						[43767] = 1,
+						[43027] = 1,
 						[43777] = 1,
-						[41095] = 1,
-						[52847] = 1,
-						[52869] = 1,
-						[48510] = 1,
+						[42211] = 1,
+						[43059] = 1,
+						[48777] = 1,
+						[48866] = 1,
 						[48835] = 1,
 						[48867] = 1,
 						["total"] = 25,
-						[48866] = 1,
-						[48777] = 1,
-						[43059] = 1,
-						[42211] = 1,
-						[43027] = 1,
+						[48510] = 1,
+						[52869] = 1,
+						[52847] = 1,
+						[41095] = 1,
+						[43767] = 1,
 					},
 					["character"] = {
 						["Player-11-042FD3AD"] = {
@@ -279,25 +270,65 @@ WQTrackerDB = {
 							[54437] = 1,
 							["total"] = 19,
 							[43777] = 1,
-							[48828] = 1,
+							[43027] = 1,
+							[42211] = 1,
 							[48835] = 1,
-							[48866] = 1,
 							[48867] = 1,
-							[48510] = 1,
+							[43059] = 1,
 							[48727] = 1,
 							[48777] = 1,
-							[43059] = 1,
-							[42211] = 1,
-							[43027] = 1,
+							[48510] = 1,
+							[48866] = 1,
+							[48828] = 1,
 						},
 						["Player-60-0A6DF395"] = {
 							["total"] = 6,
 							[51635] = 1,
 							[52869] = 1,
 							[51639] = 1,
-							[51640] = 1,
-							[52196] = 1,
 							[52847] = 1,
+							[52196] = 1,
+							[51640] = 1,
+						},
+					},
+				},
+				["period"] = {
+					["global"] = {
+						["181211"] = {
+							["quest"] = 6,
+							["resource"] = 1430,
+							["gold"] = 435400,
+						},
+						["181023"] = {
+							["artifact"] = 270,
+							["quest"] = 6,
+							["resource"] = 764,
+							["gold"] = 2787800,
+						},
+						["181212"] = {
+							["quest"] = 13,
+							["resource"] = 1448,
+						},
+					},
+					["character"] = {
+						["Player-11-042FD3AD"] = {
+							["181211"] = {
+								["quest"] = 6,
+								["resource"] = 1430,
+								["gold"] = 435400,
+							},
+							["181212"] = {
+								["quest"] = 13,
+								["resource"] = 1448,
+							},
+						},
+						["Player-60-0A6DF395"] = {
+							["181023"] = {
+								["artifact"] = 270,
+								["quest"] = 6,
+								["resource"] = 764,
+								["gold"] = 2787800,
+							},
 						},
 					},
 				},
@@ -318,30 +349,6 @@ WQTrackerDB = {
 							["gold"] = 2787800,
 						},
 					},
-				},
-			},
-			["TutorialToggleButton"] = 2,
-			["rarescan"] = {
-				["recently_killed"] = {
-					["Player-60-0A6DF395"] = {
-					},
-					["Player-11-042FD3AD"] = {
-					},
-					["Player-60-0A6E12EE"] = {
-					},
-				},
-				["name_cache"] = {
-					["Void Warden Valsuran"] = 127300,
-					["Commander Vecaya"] = 122911,
-					["Captain Faruq"] = 126869,
-					["Golrakahn"] = 124185,
-					["Vigilant Thanos"] = 126865,
-					["Varga"] = 126208,
-					["Chief Alchemist Munculus"] = 127376,
-					["Shadowcaster Voruun"] = 122838,
-					["Lieutenant Xakaar"] = 126254,
-					["Umbra'jin"] = 122004,
-					["Houndmaster Kerrax"] = 127288,
 				},
 			},
 		},

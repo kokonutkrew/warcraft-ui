@@ -74,12 +74,12 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	[160634] = {
-		["isAzeriteArmor"] = true,
+	[160699] = {
+		["isAzeriteArmor"] = false,
 		[370] = {
-			["Gridrunner Galea"] = {
+			["Barricade of Purifying Resolve"] = {
 				{
-					"4823", -- [1]
+					"4799", -- [1]
 					"1492", -- [2]
 					"4786", -- [3]
 				}, -- [1]
@@ -124,6 +124,7 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
+	["addonVersion"] = 24,
 	[161676] = {
 		["isAzeriteArmor"] = false,
 		[365] = {
@@ -137,13 +138,12 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	["addonVersion"] = 19,
-	[160699] = {
-		["isAzeriteArmor"] = false,
+	[160634] = {
+		["isAzeriteArmor"] = true,
 		[370] = {
-			["Barricade of Purifying Resolve"] = {
+			["Gridrunner Galea"] = {
 				{
-					"4799", -- [1]
+					"4823", -- [1]
 					"1492", -- [2]
 					"4786", -- [3]
 				}, -- [1]

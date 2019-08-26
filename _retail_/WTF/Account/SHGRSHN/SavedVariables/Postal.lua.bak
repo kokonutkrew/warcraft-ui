@@ -2,26 +2,36 @@
 Postal3DB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Samoansage|Tichondrius|Horde|110|DRUID", -- [1]
-				"Samoansavage|Stormrage|Alliance|115|DRUID", -- [2]
-				"Samoanslayer|Emerald Dream|Alliance|75|ROGUE", -- [3]
-				"Samoanstrap|Tichondrius|Horde|110|HUNTER", -- [4]
-				"Samoantank|Tichondrius|Horde|112|PALADIN", -- [5]
-				"Samoantitan|Stormrage|Alliance|120|PALADIN", -- [6]
+				"Samoanbeast|Ravenholdt|Alliance|1|DRUID", -- [1]
+				"Samoanranger|Emerald Dream|Alliance|51|HUNTER", -- [2]
+				"Samoansage|Tichondrius|Horde|110|DRUID", -- [3]
+				"Samoansavage|Emerald Dream|Alliance|76|ROGUE", -- [4]
+				"Samoansavage|Stormrage|Alliance|115|DRUID", -- [5]
+				"Samoanslayer|Emerald Dream|Alliance|17|WARRIOR", -- [6]
+				"Samoanstrap|Tichondrius|Horde|110|HUNTER", -- [7]
+				"Samoantank|Tichondrius|Horde|112|PALADIN", -- [8]
+				"Samoantitan|Stormrage|Alliance|120|PALADIN", -- [9]
 			},
 		},
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Samoanbeast - Ravenholdt"] = {
+		},
+		["Samoantank - Tichondrius"] = {
 		},
 		["Samoanstrap - Tichondrius"] = {
 		},
@@ -29,7 +39,9 @@ Postal3DB = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

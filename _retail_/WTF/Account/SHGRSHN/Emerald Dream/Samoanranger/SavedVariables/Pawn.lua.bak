@@ -1,9 +1,16 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0234,
+	["LastVersion"] = 2.0246,
 	["LastPlayerFullName"] = "Samoanranger-Emerald Dream",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		[2] = {
+			["ID"] = 122668,
+			["Level"] = 55,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::51:253:::1:582:::|h[Eternal Will of the Martyr]|h|r",
+		},
+	},
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

@@ -1,0 +1,99 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0246,
+	["ItemLevels"] = {
+		{
+			["ID"] = 143732,
+			["Level"] = 265,
+			["Link"] = "|cffff8000|Hitem:143732::::::::110:263:::2:3459:3630:::|h[Uncertain Reminder]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 153963,
+			["Level"] = 176,
+			["Link"] = "|cff1eff00|Hitem:153963::::::::110:263::::::|h[Streamtalker Choker]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 151578,
+			["Level"] = 182,
+			["Link"] = "|cffa335ee|Hitem:151578::::::::110:263::13:5:3598:601:1682:3408:3609:::|h[Fiendish Spaulders of the Quickblade]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 152088,
+			["Level"] = 225,
+			["Link"] = "|cffa335ee|Hitem:152088::::::::110:263::5:3:3611:1487:3528:::|h[Horror Fiend-Scale Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 134481,
+			["Level"] = 195,
+			["Link"] = "|cffa335ee|Hitem:134481::::::::110:263::35:3:3413:1505:3337:::|h[Boulderbuckle Strap]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 152682,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:152682::::::::110:263::4:3:3613:1462:3336:::|h[Greaves of the Felblade Defenders]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 144000,
+			["Level"] = 180,
+			["Link"] = "|cff0070dd|Hitem:144000::::::::110:263:512:22:1:3623:110:::|h[Airbender Sandals]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 152089,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:152089::::::::110:263::3:3:3610:1472:3528:::|h[Wristguards of Ominous Forging]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 137320,
+			["Level"] = 186,
+			["Link"] = "|cffa335ee|Hitem:137320::::::::110:263::16:4:3410:1808:1496:3336:::|h[Gloves of Vile Defiance]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 153965,
+			["Level"] = 176,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff1eff00|Hitem:153965:5423:::::::110:263::::::|h[Streamtalker Band of Onslaught]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 153966,
+			["Level"] = 176,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:153966:5423:::::::110:263::::::|h[Streamtalker Ring of Onslaught]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 139113,
+			["Level"] = 215,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cffa335ee|Hitem:139113::::::::110:263::43:5:3573:42:603:1526:3337:::|h[An'she's Token of Guile]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 153967,
+			["Level"] = 176,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff1eff00|Hitem:153967::::::::110:263::::::|h[Streamtalker Stone of Rage]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 144170,
+			["Level"] = 186,
+			["Link"] = "|cff0070dd|Hitem:144170::::::::110:263:512:22:2:3623:3624:110:::|h[Aerial Bombardment Cloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 128819,
+			["Level"] = 206,
+			["Link"] = "|cffe6cc80|Hitem:128819::151009:152696:133682::::110:263:16777472::2:745:1526:303:1:3:3397:1547:3336:1:3492:3:3413:1500:3336|h[Doomhammer]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 128873,
+			["Level"] = 152,
+			["Link"] = "|cffe6cc80|Hitem:128873::::::::110:263:256:::303:::|h[Fury of the Stonemother]|h|r",
+		}, -- [17]
+	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Kecil-Zul'jin",
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "SHAMAN",
+	["LastAdded"] = 1,
+}

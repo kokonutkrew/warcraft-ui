@@ -3,26 +3,23 @@ JambaQuestWatcherProfileDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Wealthxport - Tichondrius"] = "Wealthxport - Tichondrius",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoantiger - Tichondrius"] = "Samoantiger - Tichondrius",
-		["Tygrrlilly - Emerald Dream"] = "KokonutKrew",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoansavage - Stormrage"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
-		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
-		["Tygrlilly - Tichondrius"] = "Tygrlilly - Tichondrius",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -32,12 +29,12 @@ JambaQuestWatcherProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["watcherFrameWidth"] = 250,
-			["watcherFrameYOffset"] = 89.6667556762695,
-			["watchFontSize"] = 12,
+			["watcherFrameYOffset"] = 68.4358139038086,
 			["enableQuestWatcherOnMasterOnly"] = true,
-			["watcherFrameXOffset"] = -147.889038085938,
+			["watchFontSize"] = 15,
+			["watcherFrameXOffset"] = -128.346420288086,
+			["watcherFrameAlpha"] = 0.8,
 			["watcherListLines"] = 50,
-			["watcherFrameScale"] = 0.9,
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -49,37 +46,31 @@ JambaQuestWatcherProfileDB = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
-		["Wealthxport - Tichondrius"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
 		["Samoansavage - Emerald Dream"] = {
 		},
-		["Samoantiger - Tichondrius"] = {
-		},
-		["Tygrrlilly - Emerald Dream"] = {
-		},
 		["Samoanbeast - Ravenholdt"] = {
-		},
-		["Grapejellie - Tichondrius"] = {
 		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
+		["Samoansmash - Emerald Dream"] = {
+		},
 		["Default"] = {
-		},
-		["Samoanspy - Emerald Dream"] = {
-		},
-		["Cherriebomb - Emerald Dream"] = {
-		},
-		["Samoansage - Emerald Dream"] = {
 		},
 		["Samoanranger - Emerald Dream"] = {
 		},
-		["Tygrlilly - Tichondrius"] = {
+		["Samoanspy - Emerald Dream"] = {
 		},
-		["Tygrrlilly - Stormrage"] = {
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

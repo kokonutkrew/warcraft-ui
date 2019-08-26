@@ -1,51 +1,352 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Wealthxport - Tichondrius"] = "Wealthxport - Tichondrius",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantiger - Tichondrius"] = "Samoantiger - Tichondrius",
-		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
+		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
-		["Tygrlilly - Tichondrius"] = "Tygrlilly - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
+		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2019-02-05",
+			["NextWeeklyReset"] = "2019-08-27",
 		},
 		["Characters"] = {
 			["Default.Emerald Dream.Samoantank"] = {
 				["lastUpdate"] = 1545020846,
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1545065598,
+				["lastUpdate"] = 1566111388,
 			},
 			["Default.Stormrage.Samoanrelic"] = {
 				["lastUpdate"] = 1544768458,
+			},
+			["Default.Tichondrius.Samoanrelic"] = {
+				["lastUpdate"] = 1546812567,
+			},
+			["Default.Stormrage.Samoansavage"] = {
+				["lastUpdate"] = 1545106385,
+			},
+			["Default.Emerald Dream.Tygrrlilly"] = {
+				["lastUpdate"] = 1566342023,
+			},
+			["Default.Stormrage.Samoantitan"] = {
+				["lastUpdate"] = 1566107047,
+			},
+			["Default.Ravenholdt.Samoanbeast"] = {
+				["lastUpdate"] = 1546811661,
+			},
+			["Default.Tichondrius.Samoanmystic"] = {
+				["lastUpdate"] = 1546812752,
+			},
+			["Default.Emerald Dream.Samoanspy"] = {
+				["lastUpdate"] = 1544902629,
+			},
+			["Default.Tichondrius.Samoansaint"] = {
+				["lastUpdate"] = 1546209469,
+			},
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1547416006,
+			},
+			["Default.Stormrage.Samoantotems"] = {
+				["lastUpdate"] = 1544635459,
+			},
+			["Default.Tichondrius.Samoansneaky"] = {
+				["lastUpdate"] = 1544933122,
+			},
+			["Default.Emerald Dream.Wealthgaming"] = {
+				["Contacts"] = {
+					["Drumu"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1540622531,
+			},
+			["Default.Emerald Dream.Samoanlegend"] = {
+				["lastUpdate"] = 1545148651,
+			},
+			["Default.Tichondrius.Gfsdfgsd"] = {
+				["lastUpdate"] = 1548864605,
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472620,
+			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1545152911,
+			},
+			["Default.Tichondrius.Shgrshn"] = {
+				["Contacts"] = {
+					["SaturnD117E8"] = {
+						["note"] = "",
+					},
+					["Forsho"] = {
+						["note"] = "",
+					},
+					["LaieboC2AE2A"] = {
+						["note"] = "",
+					},
+					["Cryptt"] = {
+						["note"] = "",
+					},
+					["Kapahulu"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
+						["note"] = "",
+					},
+					["Yotaforlife"] = {
+						["note"] = "",
+					},
+					["ßerzerk"] = {
+						["note"] = "",
+					},
+					["Froztt"] = {
+						["note"] = "",
+					},
+					["Deletemeeplz"] = {
+						["note"] = "",
+					},
+					["Nightm5C36D6"] = {
+						["note"] = "",
+					},
+					["Fekzul"] = {
+						["note"] = "",
+					},
+					["Deydrellia"] = {
+						["note"] = "",
+					},
+					["Mingan"] = {
+						["note"] = "",
+					},
+					["Savedby"] = {
+						["note"] = "",
+					},
+					["Grenji"] = {
+						["note"] = "",
+					},
+					["Bauce"] = {
+						["note"] = "",
+					},
+					["Scottxyz"] = {
+						["note"] = "",
+					},
+					["Yoshïo"] = {
+						["note"] = "",
+					},
+					["Yoter"] = {
+						["note"] = "",
+					},
+					["Nossbig"] = {
+						["note"] = "",
+					},
+					["Yennk"] = {
+						["note"] = "",
+					},
+					["Veryholytaco"] = {
+						["note"] = "",
+					},
+					["Teamspirit"] = {
+						["note"] = "",
+					},
+					["Råndôm"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1546816790,
+			},
+			["Default.Emerald Dream.Samoansensei"] = {
+				["lastUpdate"] = 1545023282,
+			},
+			["Default.Tichondrius.Samoansavage"] = {
+				["Contacts"] = {
+					["SaturnD117E8"] = {
+						["note"] = "",
+					},
+					["Maneatingcow"] = {
+						["note"] = "",
+					},
+					["Apoloz"] = {
+						["note"] = "",
+					},
+					["Bahaumut"] = {
+						["note"] = "",
+					},
+					["Olliewhop"] = {
+						["note"] = "",
+					},
+					["Deletemeeplz"] = {
+						["note"] = "",
+					},
+					["Nightm5C36D6"] = {
+						["note"] = "",
+					},
+					["TacooCB8789"] = {
+						["note"] = "",
+					},
+					["UnsafeE04672"] = {
+						["note"] = "",
+					},
+					["Bigslyck"] = {
+						["note"] = "",
+					},
+					["Bauce"] = {
+						["note"] = "",
+					},
+					["Grenji"] = {
+						["note"] = "",
+					},
+					["Nossbig"] = {
+						["note"] = "",
+					},
+					["Froztt"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
+						["note"] = "",
+					},
+					["Yoter"] = {
+						["note"] = "",
+					},
+					["Forsho"] = {
+						["note"] = "",
+					},
+					["Megalomania"] = {
+						["note"] = "",
+					},
+					["LaieboC2AE2A"] = {
+						["note"] = "",
+					},
+					["Rebelx3A1261"] = {
+						["note"] = "",
+					},
+					["Yotaforlife"] = {
+						["note"] = "",
+					},
+					["Cryptt"] = {
+						["note"] = "",
+					},
+					["Scottxyz"] = {
+						["note"] = "",
+					},
+					["Issennas"] = {
+						["note"] = "",
+					},
+					["Oxyeighty"] = {
+						["note"] = "",
+					},
+					["Kapahulu"] = {
+						["note"] = "",
+					},
+					["Pebox"] = {
+						["note"] = "",
+					},
+					["AlienmDD7619"] = {
+						["note"] = "",
+					},
+					["Mollywhompin"] = {
+						["note"] = "",
+					},
+					["ßerzerk"] = {
+						["note"] = "",
+					},
+					["Samoantank"] = {
+						["note"] = "",
+					},
+					["Hagslayer"] = {
+						["note"] = "",
+					},
+					["ShamanFBF878"] = {
+						["note"] = "",
+					},
+					["ShamanFBF83F"] = {
+						["note"] = "",
+					},
+					["Symbolik"] = {
+						["note"] = "",
+					},
+					["Savedby"] = {
+						["note"] = "",
+					},
+					["Abricalio"] = {
+						["note"] = "",
+					},
+					["Silentreaper"] = {
+						["note"] = "",
+					},
+					["Yoshïo"] = {
+						["note"] = "",
+					},
+					["Spiitout"] = {
+						["note"] = "",
+					},
+					["Tonica"] = {
+						["note"] = "",
+					},
+					["Adrial0FC740"] = {
+						["note"] = "",
+					},
+					["Yennk"] = {
+						["note"] = "",
+					},
+					["Veryholytaco"] = {
+						["note"] = "",
+					},
+					["Slappyz"] = {
+						["note"] = "",
+					},
+					["Råndôm"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1547638065,
+			},
+			["Default.Tichondrius.Samoanstrap"] = {
+				["lastUpdate"] = 1544167314,
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1545148803,
+			},
+			["Default.Tichondrius.Samoansage"] = {
+				["lastUpdate"] = 1544168008,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
+			},
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["lastUpdate"] = 1566507301,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["Contacts"] = {
@@ -73,106 +374,50 @@ DataStore_AgendaDB = {
 					["Bankbeamz"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
-						["note"] = "",
-					},
-					["Nossbig"] = {
-						["note"] = "",
-					},
-					["Vinza"] = {
-						["note"] = "",
-					},
-					["Maikar"] = {
+					["Frogz"] = {
 						["note"] = "",
 					},
 					["Rafidh"] = {
 						["note"] = "",
 					},
-					["Frogz"] = {
+					["Vinza"] = {
+						["note"] = "",
+					},
+					["Nossbig"] = {
+						["note"] = "",
+					},
+					["Maikar"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1545012893,
-			},
-			["Default.Emerald Dream.Tygrrlilly"] = {
-				["lastUpdate"] = 1548864772,
-			},
-			["Default.Stormrage.Kakattack"] = {
-				["lastUpdate"] = 1544472620,
-			},
-			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1545013897,
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1544770122,
-			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544902629,
+				["lastUpdate"] = 1552319660,
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
 				["lastUpdate"] = 1544920075,
 			},
-			["Default.Stormrage.Tygrrlilly"] = {
-				["lastUpdate"] = 1547417882,
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1545022454,
 			},
-			["Default.Emerald Dream.Samoansensei"] = {
-				["lastUpdate"] = 1545023282,
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
 			},
-			["Default.Ravenholdt.Samoanbeast"] = {
-				["lastUpdate"] = 1544997201,
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
 			},
-			["Default.Tichondrius.Samoanstrap"] = {
-				["lastUpdate"] = 1544167314,
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1566073399,
 			},
 			["Default.Emerald Dream.Samoansage"] = {
 				["lastUpdate"] = 1545018699,
 			},
-			["Default.Tichondrius.Samoansage"] = {
-				["lastUpdate"] = 1544168008,
-			},
-			["Default.Tichondrius.Samoantiger"] = {
-				["lastUpdate"] = 1547415967,
+			["Default.Ravenholdt.Kalin"] = {
+				["lastUpdate"] = 1546208371,
 			},
 			["Default.Stormrage.Samoansaint"] = {
 				["lastUpdate"] = 1545013962,
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1545077937,
-			},
-			["Default.Stormrage.Samoantotems"] = {
-				["lastUpdate"] = 1544635459,
-			},
-			["Default.Tichondrius.Wealthxport"] = {
-				["lastUpdate"] = 1546817116,
-			},
-			["Default.Tichondrius.Tygrlilly"] = {
-				["lastUpdate"] = 1545730393,
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022454,
-			},
-			["Default.Tichondrius.Samoansneaky"] = {
-				["lastUpdate"] = 1544933122,
-			},
-			["Default.Emerald Dream.Cherriebomb"] = {
-				["lastUpdate"] = 1545150712,
-			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["lastUpdate"] = 1545022505,
-			},
-			["Default.Stormrage.Samoansavage"] = {
-				["lastUpdate"] = 1544947291,
-			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["Contacts"] = {
-					["Drumu"] = {
-						["note"] = "",
-					},
-				},
-				["lastUpdate"] = 1540622531,
-			},
-			["Default.Tichondrius.Grapejellie"] = {
-				["lastUpdate"] = 1548864605,
 			},
 		},
 	},

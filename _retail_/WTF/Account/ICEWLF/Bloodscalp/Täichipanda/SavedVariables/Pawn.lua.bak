@@ -1,0 +1,77 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0246,
+	["ItemLevels"] = {
+		{
+			["ID"] = 112666,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:112666::::::::91:268::11::::|h[Voidgazer Headcover]|h|r",
+		}, -- [1]
+		nil, -- [2]
+		{
+			["ID"] = 112668,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:112668::::::::91:268::11::::|h[Quarrier's Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 112441,
+			["Level"] = 119,
+			["Link"] = "|cff0070dd|Hitem:112441::::::::91:268::11::::|h[Slavebreaker Tunic]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 117139,
+			["Level"] = 116,
+			["Link"] = "|cff1eff00|Hitem:117139::::::::91:268::::::|h[Mistdancer Cord]|h|r",
+		}, -- [6]
+		nil, -- [7]
+		{
+			["ID"] = 117134,
+			["Level"] = 116,
+			["Link"] = "|cff1eff00|Hitem:117134::::::::91:268::::::|h[Mistdancer Footpads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 109869,
+			["Level"] = 124,
+			["Link"] = "|cff0070dd|Hitem:109869::::::::91:268:4:17:1:518:529:::|h[Bloodfeather Bracers]|h|r",
+		}, -- [9]
+		nil, -- [10]
+		{
+			["ID"] = 109776,
+			["Level"] = 124,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:109776::::::::91:268:4:17:1:518:529:::|h[Seal of Resilient Fortitude]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 117129,
+			["Level"] = 116,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:117129::::::::91:268::::::|h[Mistdancer Ring of Stoicism]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 110015,
+			["Level"] = 124,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:110015::::::::91:268:4:17:1:518:529:::|h[Toria's Unseeing Eye]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 117132,
+			["Level"] = 116,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff1eff00|Hitem:117132::::::::91:268::::::|h[Mistdancer Defender Idol]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 113541,
+			["Level"] = 122,
+			["Link"] = "|cff0070dd|Hitem:113541::::::::91:268::::::|h[Darktalon's Drape]|h|r",
+		}, -- [15]
+	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Täichipanda-Bloodscalp",
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MONK",
+	["LastAdded"] = 1,
+}

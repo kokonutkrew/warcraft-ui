@@ -3,26 +3,23 @@ JambaFTLProfileDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Wealthxport - Tichondrius"] = "Wealthxport - Tichondrius",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoantiger - Tichondrius"] = "Samoantiger - Tichondrius",
-		["Tygrrlilly - Emerald Dream"] = "KokonutKrew",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoansavage - Stormrage"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
-		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Tygrlilly - Tichondrius"] = "Tygrlilly - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -104,8 +101,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["lctrl"] = false,
 					["rshift"] = false,
+					["lctrl"] = false,
 					["lalt"] = false,
 				},
 				["Samoanslayer-EmeraldDream"] = {
@@ -113,8 +110,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["rshift"] = false,
 					["lctrl"] = false,
+					["rshift"] = false,
 					["lalt"] = false,
 				},
 				["Samoantitan-Stormrage"] = {
@@ -122,8 +119,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["lctrl"] = false,
 					["rshift"] = false,
+					["lctrl"] = false,
 					["lalt"] = false,
 				},
 				["Samoanrelic-EmeraldDream"] = {
@@ -131,8 +128,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["rshift"] = false,
 					["lctrl"] = false,
+					["rshift"] = false,
 					["lalt"] = false,
 				},
 				["Tygrrlilly-EmeraldDream"] = {
@@ -140,8 +137,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["rshift"] = false,
 					["lctrl"] = false,
+					["rshift"] = false,
 					["lalt"] = false,
 				},
 				["Samoantitan-EmeraldDream"] = {
@@ -149,8 +146,8 @@ JambaFTLProfileDB = {
 					["useToon"] = false,
 					["rctrl"] = false,
 					["lshift"] = false,
-					["rshift"] = false,
 					["lctrl"] = false,
+					["rshift"] = false,
 					["lalt"] = false,
 				},
 			},
@@ -265,9 +262,18 @@ JambaFTLProfileDB = {
 				},
 			},
 		},
-		["Wealthxport - Tichondrius"] = {
+		["Samoanlegend - Emerald Dream"] = {
 			["CharListWithModifiers"] = {
-				["Wealthxport-Tichondrius"] = {
+				["Samoanlegend-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoanranger-EmeraldDream"] = {
 					["ralt"] = false,
 					["useToon"] = false,
 					["rctrl"] = false,
@@ -280,7 +286,25 @@ JambaFTLProfileDB = {
 		},
 		["Samoansavage - Stormrage"] = {
 			["CharListWithModifiers"] = {
-				["Samoanbeast-Ravenholdt"] = {
+				["Samoanranger-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoantitan-Stormrage"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Tygrrlilly-EmeraldDream"] = {
 					["ralt"] = false,
 					["useToon"] = false,
 					["rctrl"] = false,
@@ -298,6 +322,64 @@ JambaFTLProfileDB = {
 					["lctrl"] = false,
 					["lalt"] = false,
 				},
+				["Samoanslayer-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoantitan-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoanbeast-Ravenholdt"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+				["Samoanhunter-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["CharListWithModifiers"] = {
+				["Gfsdfgsd-Tichondrius"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
 			},
 		},
 		["Samoansavage - Emerald Dream"] = {
@@ -311,42 +393,16 @@ JambaFTLProfileDB = {
 					["rshift"] = false,
 					["lalt"] = false,
 				},
-				["Samoantitan-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["lctrl"] = false,
-					["rshift"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Samoantiger - Tichondrius"] = {
-			["CharListWithModifiers"] = {
-				["Samoantiger-Tichondrius"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["rshift"] = false,
-					["lctrl"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Tygrrlilly - Emerald Dream"] = {
-			["CharListWithModifiers"] = {
-				["Tygrrlilly-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["lctrl"] = false,
-					["rshift"] = false,
-					["lalt"] = false,
-				},
 				["Samoanranger-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+				["Samoantitan-EmeraldDream"] = {
 					["ralt"] = false,
 					["useToon"] = false,
 					["rctrl"] = false,
@@ -415,19 +471,6 @@ JambaFTLProfileDB = {
 				},
 			},
 		},
-		["Grapejellie - Tichondrius"] = {
-			["CharListWithModifiers"] = {
-				["Grapejellie-Tichondrius"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["rshift"] = false,
-					["lctrl"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
 		["Samoansneaky - Tichondrius"] = {
 			["CharListWithModifiers"] = {
 				["Samoanbeast-Ravenholdt"] = {
@@ -490,20 +533,7 @@ JambaFTLProfileDB = {
 				},
 			},
 		},
-		["Tygrrlilly - Stormrage"] = {
-			["CharListWithModifiers"] = {
-				["Tygrrlilly-Stormrage"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["lctrl"] = false,
-					["rshift"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Tygrlilly - Tichondrius"] = {
+		["Samoansmash - Emerald Dream"] = {
 			["CharListWithModifiers"] = {
 				["Samoanranger-EmeraldDream"] = {
 					["ralt"] = false,
@@ -514,7 +544,7 @@ JambaFTLProfileDB = {
 					["lctrl"] = false,
 					["lalt"] = false,
 				},
-				["Tygrlilly-Tichondrius"] = {
+				["Samoansmash-EmeraldDream"] = {
 					["ralt"] = false,
 					["useToon"] = false,
 					["rctrl"] = false,
@@ -583,6 +613,63 @@ JambaFTLProfileDB = {
 				},
 			},
 		},
+		["Samoanmystic - Emerald Dream"] = {
+			["CharListWithModifiers"] = {
+				["Samoanmystic-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+				["Samoanranger-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["CharListWithModifiers"] = {
+				["Samoansage-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+				["Samoanbeast-Ravenholdt"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["lctrl"] = false,
+					["rshift"] = false,
+					["lalt"] = false,
+				},
+			},
+		},
+		["Samoanspy - Emerald Dream"] = {
+			["CharListWithModifiers"] = {
+				["Samoanspy-EmeraldDream"] = {
+					["ralt"] = false,
+					["useToon"] = false,
+					["rctrl"] = false,
+					["lshift"] = false,
+					["rshift"] = false,
+					["lctrl"] = false,
+					["lalt"] = false,
+				},
+			},
+		},
 		["Samoanranger - Emerald Dream"] = {
 			["CharListWithModifiers"] = {
 				["Samoanranger-EmeraldDream"] = {
@@ -631,63 +718,6 @@ JambaFTLProfileDB = {
 					["lalt"] = false,
 				},
 				["Samoantitan-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["rshift"] = false,
-					["lctrl"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Samoansage - Emerald Dream"] = {
-			["CharListWithModifiers"] = {
-				["Samoansage-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["lctrl"] = false,
-					["rshift"] = false,
-					["lalt"] = false,
-				},
-				["Samoanbeast-Ravenholdt"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["lctrl"] = false,
-					["rshift"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Cherriebomb - Emerald Dream"] = {
-			["CharListWithModifiers"] = {
-				["Cherriebomb-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["rshift"] = false,
-					["lctrl"] = false,
-					["lalt"] = false,
-				},
-				["Samoanranger-EmeraldDream"] = {
-					["ralt"] = false,
-					["useToon"] = false,
-					["rctrl"] = false,
-					["lshift"] = false,
-					["rshift"] = false,
-					["lctrl"] = false,
-					["lalt"] = false,
-				},
-			},
-		},
-		["Samoanspy - Emerald Dream"] = {
-			["CharListWithModifiers"] = {
-				["Samoanspy-EmeraldDream"] = {
 					["ralt"] = false,
 					["useToon"] = false,
 					["rctrl"] = false,

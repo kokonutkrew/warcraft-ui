@@ -2,26 +2,32 @@
 WoWProData = {
 	["char"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["currentguide"] = "JamHel6062",
+			["currentguide"] = "KurNShire0105",
 			["lastlevelingguide"] = "BitCap3035",
-		},
-		["Samoanstrap - Tichondrius"] = {
-			["currentguide"] = "EmmVoldun",
 		},
 		["Samoanbeast - Ravenholdt"] = {
 			["currentguide"] = "EmmLegionDruid",
 		},
+		["Samoanranger - Emerald Dream"] = {
+			["currentguide"] = "BitWes3540",
+		},
+		["Samoanstrap - Tichondrius"] = {
+			["currentguide"] = "EmmVoldun",
+		},
+		["Samoanlegend - Emerald Dream"] = {
+			["currentguide"] = "LudoTelogrus",
+		},
 		["Samoansage - Tichondrius"] = {
 			["currentguide"] = "EmmVoldun",
 		},
-		["Tygrrlilly - Emerald Dream"] = {
-			["currentguide"] = "BitWes3540",
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["currentguide"] = "BitWes1020",
+		["Samoansmash - Emerald Dream"] = {
+			["currentguide"] = "JamScar5558",
 		},
 		["Samoantank - Tichondrius"] = {
 			["currentguide"] = "LudoWowAnniversary",
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["currentguide"] = "LudoTelogrus",
 		},
 		["Samoantitan - Stormrage"] = {
 			["currentguide"] = "EmmAWarCampaign",
@@ -31,23 +37,25 @@ WoWProData = {
 	},
 	["profileKeys"] = {
 		["Samoantank - Tichondrius"] = "Default",
+		["Samoansmash - Emerald Dream"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
-		["Tygrrlilly - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanmystic - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["global"] = {
 		["NpcFauxQuests"] = {
-			[116791] = {
-				["qid"] = 116791.1,
-				["title"] = "Dreadcoil",
-				["guide"] = "LudoPetWailingCaverns",
+			[79180] = {
+				["qid"] = 79180.1,
+				["title"] = "Deebs, Tyri, and Puzzle",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128009] = {
-				["qid"] = 49043,
-				["title"] = "Baneglow",
-				["guide"] = "LudoPetWQKrokuun",
+			[79751] = {
+				["qid"] = 79751.1,
+				["title"] = "Eleanor",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[85657] = {
 				["qid"] = 85656.1,
@@ -64,40 +72,40 @@ WoWProData = {
 				["title"] = "Deviate Flapper",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[79180] = {
-				["qid"] = 79180.1,
-				["title"] = "Deebs, Tyri, and Puzzle",
-				["guide"] = "LudoGarrisonPets",
+			[116791] = {
+				["qid"] = 116791.1,
+				["title"] = "Dreadcoil",
+				["guide"] = "LudoPetWailingCaverns",
 			},
-			[79751] = {
-				["qid"] = 79751.1,
-				["title"] = "Eleanor",
-				["guide"] = "LudoGarrisonPets",
+			[128009] = {
+				["qid"] = 49043,
+				["title"] = "Baneglow",
+				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85677] = {
-				["qid"] = 85677.1,
-				["title"] = "Fiero and Tirs",
-				["guide"] = "LudoGarrisonPets",
+			[128013] = {
+				["qid"] = 49047,
+				["title"] = "Bucky",
+				["guide"] = "LudoPetWQMacAree",
 			},
 			[85681] = {
 				["qid"] = 85679.1,
 				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[128021] = {
-				["qid"] = 49055,
-				["title"] = "Earseeker",
-				["guide"] = "LudoPetWQAntoran",
+			[85685] = {
+				["qid"] = 85685.1,
+				["title"] = "Stitches Jr.",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128010] = {
-				["qid"] = 49044,
-				["title"] = "Retch",
-				["guide"] = "LudoPetWQKrokuun",
+			[85674] = {
+				["qid"] = 85674.1,
+				["title"] = "Jahan, Samm, and Archimedes",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128014] = {
-				["qid"] = 49048,
-				["title"] = "Snozz",
-				["guide"] = "LudoPetWQMacAree",
+			[85678] = {
+				["qid"] = 85677.1,
+				["title"] = "Fiero and Tirs",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[128024] = {
 				["qid"] = 49058,
@@ -149,25 +157,25 @@ WoWProData = {
 				["title"] = "Phyxia",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[85674] = {
-				["qid"] = 85674.1,
-				["title"] = "Jahan, Samm, and Archimedes",
-				["guide"] = "LudoGarrisonPets",
+			[128010] = {
+				["qid"] = 49044,
+				["title"] = "Retch",
+				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85678] = {
-				["qid"] = 85677.1,
-				["title"] = "Fiero and Tirs",
-				["guide"] = "LudoGarrisonPets",
+			[128014] = {
+				["qid"] = 49048,
+				["title"] = "Snozz",
+				["guide"] = "LudoPetWQMacAree",
 			},
-			[85682] = {
-				["qid"] = 85682.1,
-				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
-				["guide"] = "LudoGarrisonPets",
+			[128018] = {
+				["qid"] = 49052,
+				["title"] = "Mar'cuus",
+				["guide"] = "LudoPetWQMacAree",
 			},
-			[85686] = {
-				["qid"] = 85686.1,
-				["title"] = "Manos, Hanos, and Fatos",
-				["guide"] = "LudoGarrisonPets",
+			[128022] = {
+				["qid"] = 49056,
+				["title"] = "Pilfer",
+				["guide"] = "LudoPetWQAntoran",
 			},
 			[116790] = {
 				["qid"] = 116790,
@@ -189,15 +197,15 @@ WoWProData = {
 				["title"] = "Son of Skum",
 				["guide"] = "LudoPetWailingCaverns",
 			},
-			[116793] = {
-				["qid"] = 116793.1,
-				["title"] = "Hiss",
-				["guide"] = "LudoPetWailingCaverns",
-			},
-			[128011] = {
-				["qid"] = 49045,
-				["title"] = "Deathscreech",
+			[128007] = {
+				["qid"] = 49041,
+				["title"] = "Ruinhoof",
 				["guide"] = "LudoPetWQKrokuun",
+			},
+			[85675] = {
+				["qid"] = 85674.1,
+				["title"] = "Jahan, Samm, and Archimedes",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[85687] = {
 				["qid"] = 85686.1,
@@ -224,25 +232,25 @@ WoWProData = {
 				["title"] = "Rydyr",
 				["guide"] = "LarePetWQStorm",
 			},
-			[128007] = {
-				["qid"] = 49041,
-				["title"] = "Ruinhoof",
+			[116793] = {
+				["qid"] = 116793.1,
+				["title"] = "Hiss",
+				["guide"] = "LudoPetWailingCaverns",
+			},
+			[128011] = {
+				["qid"] = 49045,
+				["title"] = "Deathscreech",
 				["guide"] = "LudoPetWQKrokuun",
 			},
-			[85675] = {
-				["qid"] = 85674.1,
-				["title"] = "Jahan, Samm, and Archimedes",
-				["guide"] = "LudoGarrisonPets",
+			[128015] = {
+				["qid"] = 49049,
+				["title"] = "Gloamwing",
+				["guide"] = "LudoPetWQMacAree",
 			},
-			[85679] = {
-				["qid"] = 85679.1,
-				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
-				["guide"] = "LudoGarrisonPets",
-			},
-			[85683] = {
-				["qid"] = 85682.1,
-				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
-				["guide"] = "LudoGarrisonPets",
+			[128019] = {
+				["qid"] = 49053,
+				["title"] = "Watcher",
+				["guide"] = "LudoPetWQAntoran",
 			},
 			[128023] = {
 				["qid"] = 49057,
@@ -274,15 +282,15 @@ WoWProData = {
 				["title"] = "Brutus, Ruckus",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[128019] = {
-				["qid"] = 49053,
-				["title"] = "Watcher",
-				["guide"] = "LudoPetWQAntoran",
+			[85683] = {
+				["qid"] = 85682.1,
+				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
+				["guide"] = "LudoGarrisonPets",
 			},
-			[128015] = {
-				["qid"] = 49049,
-				["title"] = "Gloamwing",
-				["guide"] = "LudoPetWQMacAree",
+			[85679] = {
+				["qid"] = 85679.1,
+				["title"] = "Acidtooth, Stonechewer, and Rockbiter",
+				["guide"] = "LudoGarrisonPets",
 			},
 			[85656] = {
 				["qid"] = 85656.1,
@@ -329,131 +337,330 @@ WoWProData = {
 				["title"] = "Manos, Hanos, and Fatos",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[128022] = {
-				["qid"] = 49056,
-				["title"] = "Pilfer",
-				["guide"] = "LudoPetWQAntoran",
-			},
-			[128018] = {
-				["qid"] = 49052,
-				["title"] = "Mar'cuus",
-				["guide"] = "LudoPetWQMacAree",
-			},
-			[85685] = {
-				["qid"] = 85685.1,
-				["title"] = "Stitches Jr.",
+			[85686] = {
+				["qid"] = 85686.1,
+				["title"] = "Manos, Hanos, and Fatos",
 				["guide"] = "LudoGarrisonPets",
 			},
-			[128013] = {
-				["qid"] = 49047,
-				["title"] = "Bucky",
-				["guide"] = "LudoPetWQMacAree",
+			[85682] = {
+				["qid"] = 85682.1,
+				["title"] = "Blingtron 4999b, Protectron 022481, and Protectron 011803",
+				["guide"] = "LudoGarrisonPets",
+			},
+			[128021] = {
+				["qid"] = 49055,
+				["title"] = "Earseeker",
+				["guide"] = "LudoPetWQAntoran",
+			},
+			[85677] = {
+				["qid"] = 85677.1,
+				["title"] = "Fiero and Tirs",
+				["guide"] = "LudoGarrisonPets",
 			},
 		},
 		["Log"] = {
-			"091239 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
-			"091239 |c7f0000ffWoWPro|r: Unit: Tygrrlilly, Realm: Emerald Dream, Class: Hunter, Race: Human, Faction: Alliance", -- [2]
-			"091250 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
-			"091251 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
-			"091251 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(true, false) InitLockdown=false", -- [5]
-			"091251 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [6]
-			"091252 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [7]
-			"091252 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [8]
-			"091253 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [9]
-			"091253 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [10]
-			"091253 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [11]
-			"091253 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [12]
-			"091253 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_NEW_AREA() InitLockdown=false", -- [13]
-			"091254 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  BitWes3540", -- [14]
-			"091254 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [15]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Cherriebomb-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 8, nil, 0, false, false, false, false) InitLockdown=false", -- [16]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 9, nil, 0, false, false, false, false) InitLockdown=false", -- [17]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoandruid-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 10, nil, 0, false, false, false, false) InitLockdown=false", -- [18]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanslayer-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 11, nil, 0, false, false, false, false) InitLockdown=false", -- [19]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanrelic-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 12, nil, 0, false, false, false, false) InitLockdown=false", -- [20]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanhunter-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 13, nil, 0, false, false, false, false) InitLockdown=false", -- [21]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Cherriebomb-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 14, nil, 0, false, false, false, false) InitLockdown=false", -- [22]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 15, nil, 0, false, false, false, false) InitLockdown=false", -- [23]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoandruid-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 16, nil, 0, false, false, false, false) InitLockdown=false", -- [24]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanslayer-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 17, nil, 0, false, false, false, false) InitLockdown=false", -- [25]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanrelic-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 18, nil, 0, false, false, false, false) InitLockdown=false", -- [26]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanhunter-EmeraldDream' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 19, nil, 0, false, false, false, false) InitLockdown=false", -- [27]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanbeast-Ravenholdt' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 20, nil, 0, false, false, false, false) InitLockdown=false", -- [28]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoansavage-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 21, nil, 0, false, false, false, false) InitLockdown=false", -- [29]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoanbeast-Ravenholdt' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 22, nil, 0, false, false, false, false) InitLockdown=false", -- [30]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantank-Tichondrius' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 23, nil, 0, false, false, false, false) InitLockdown=false", -- [31]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantank-Tichondrius' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 24, nil, 0, false, false, false, false) InitLockdown=false", -- [32]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 25, nil, 0, false, false, false, false) InitLockdown=false", -- [33]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoansavage-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 26, nil, 0, false, false, false, false) InitLockdown=false", -- [34]
-			"091254 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 27, nil, 0, false, false, false, false) InitLockdown=false", -- [35]
-			"091254 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [36]
-			"091255 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [37]
-			"091255 |c7f0000ffWoWPro|r: Quest Log populated. 5 quests found.", -- [38]
-			"091255 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [39]
-			"091255 |c7f0000ffWoWPro|r: New Quest 26943: [Home Sweet Gnome]", -- [40]
-			"091255 |c7f0000ffWoWPro|r: New Quest 27370: [Tarenar Sunstrike]", -- [41]
-			"091255 |c7f0000ffWoWPro|r: New Quest 27367: [Gidwin Goldbraids]", -- [42]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [43]
-			"091255 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro:LoadGuideSteps()", -- [44]
-			"091255 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [45]
-			"091255 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [46]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [47]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [48]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(184,2)", -- [49]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=185: > EOG", -- [50]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(186,3)", -- [51]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=186: > EOG", -- [52]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(187,4)", -- [53]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=187: > EOG", -- [54]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(188,5)", -- [55]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=188: > EOG", -- [56]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(189,6)", -- [57]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=189: > EOG", -- [58]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,7)", -- [59]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=190: > EOG", -- [60]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [61]
-			"091255 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [62]
-			"091255 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [63]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [64]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [65]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(184,2)", -- [66]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=185: > EOG", -- [67]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(186,3)", -- [68]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=186: > EOG", -- [69]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(187,4)", -- [70]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=187: > EOG", -- [71]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(188,5)", -- [72]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=188: > EOG", -- [73]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(189,6)", -- [74]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=189: > EOG", -- [75]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,7)", -- [76]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=190: > EOG", -- [77]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [78]
-			"091255 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [79]
-			"091255 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [80]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [81]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [82]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(184,2)", -- [83]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=185: > EOG", -- [84]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(186,3)", -- [85]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=186: > EOG", -- [86]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(187,4)", -- [87]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=187: > EOG", -- [88]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(188,5)", -- [89]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=188: > EOG", -- [90]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(189,6)", -- [91]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=189: > EOG", -- [92]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(190,7)", -- [93]
-			"091255 |c7f0000ffWoWPro|r: WoWPro.NextStep=190: > EOG", -- [94]
-			"091255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(183,1)", -- [95]
-			"091328 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=false", -- [96]
-			"091800 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are now Away: AFK\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 29, nil, 0, false, false, false, false) InitLockdown=false", -- [97]
-			"092304 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Samoanhunter|h[Samoanhunter]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 31, nil, 0, false, false, false, false) InitLockdown=false", -- [98]
-			"093556 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are no longer Away.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 32, nil, 0, false, false, false, false) InitLockdown=false", -- [99]
-			"094158 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are now Away: AFK\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 33, nil, 0, false, false, false, false) InitLockdown=false", -- [100]
-			"100658 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 37, nil, 0, false, false, false, false) InitLockdown=false", -- [101]
-			"100718 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [102]
-			"100718 |c7f0000ffWoWPro|r: Locking Down PLW", -- [103]
+			"004020 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
+			"004020 |c7f0000ffWoWPro|r: Unit: Samoanslayer, Realm: Emerald Dream, Class: Warrior, Race: Human, Faction: Alliance", -- [2]
+			"004035 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
+			"004035 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
+			"004039 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TradeSkillUI\") InitLockdown=false", -- [5]
+			"004039 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(true, false) InitLockdown=false", -- [6]
+			"004039 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [7]
+			"004042 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Dungeon Difficulty set to Normal.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 74, nil, 0, false, false, false, false) InitLockdown=true", -- [8]
+			"004042 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_RaidUI\") InitLockdown=true", -- [9]
+			"004042 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [10]
+			"004042 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [11]
+			"004043 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_AuctionUI\") InitLockdown=false", -- [12]
+			"004043 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [13]
+			"004044 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  KurNShire0105", -- [14]
+			"004044 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [15]
+			"004044 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE(\"-punted-\") InitLockdown=false", -- [16]
+			"004044 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [17]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 75, nil, 0, false, false, false, false) InitLockdown=false", -- [18]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 76, nil, 0, false, false, false, false) InitLockdown=false", -- [19]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 77, nil, 0, false, false, false, false) InitLockdown=false", -- [20]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 78, nil, 0, false, false, false, false) InitLockdown=false", -- [21]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 79, nil, 0, false, false, false, false) InitLockdown=false", -- [22]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 80, nil, 0, false, false, false, false) InitLockdown=false", -- [23]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 81, nil, 0, false, false, false, false) InitLockdown=false", -- [24]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 82, nil, 0, false, false, false, false) InitLockdown=false", -- [25]
+			"004044 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"No player named 'Samoantitan-Stormrage' is currently playing.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 83, nil, 0, false, false, false, false) InitLockdown=false", -- [26]
+			"004044 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [27]
+			"004044 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [28]
+			"004044 |c7f0000ffWoWPro|r: Empty old Quest log. Time to fill it up!", -- [29]
+			"004044 |c7f0000ffWoWPro|r: New Quest 28766: [Beating Them Back!]", -- [30]
+			"004045 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_NEW_AREA() InitLockdown=false", -- [31]
+			"004234 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Aeredyl has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 84, nil, 0, false, false, false, false) InitLockdown=false", -- [32]
+			"004236 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Mercis has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 85, nil, 0, false, false, false, false) InitLockdown=false", -- [33]
+			"004256 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Aeredyl|h[Aeredyl]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 86, nil, 0, false, false, false, false) InitLockdown=false", -- [34]
+			"004257 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Mercis|h[Mercis]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 87, nil, 0, false, false, false, false) InitLockdown=false", -- [35]
+			"004416 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [36]
+			"004439 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Tigerlilly'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 89, nil, 0, false, false, false, false) InitLockdown=false", -- [37]
+			"004439 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Mancub'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 90, nil, 0, false, false, false, false) InitLockdown=false", -- [38]
+			"004439 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Foxxer'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 91, nil, 0, false, false, false, false) InitLockdown=false", -- [39]
+			"004439 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Kickbrass'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 92, nil, 0, false, false, false, false) InitLockdown=false", -- [40]
+			"004441 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Tigerlilly'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 93, nil, 0, false, false, false, false) InitLockdown=false", -- [41]
+			"004441 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Mancub'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 94, nil, 0, false, false, false, false) InitLockdown=false", -- [42]
+			"004441 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Foxxer'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 95, nil, 0, false, false, false, false) InitLockdown=false", -- [43]
+			"004441 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Kickbrass'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 96, nil, 0, false, false, false, false) InitLockdown=false", -- [44]
+			"004446 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Tigerlilly'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 97, nil, 0, false, false, false, false) InitLockdown=false", -- [45]
+			"004446 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Mancub'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 98, nil, 0, false, false, false, false) InitLockdown=false", -- [46]
+			"004446 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Foxxer'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 99, nil, 0, false, false, false, false) InitLockdown=false", -- [47]
+			"004446 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Kickbrass'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 100, nil, 0, false, false, false, false) InitLockdown=false", -- [48]
+			"004801 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Aeredyl has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 101, nil, 0, false, false, false, false) InitLockdown=false", -- [49]
+			"004822 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Aeredyl|h[Aeredyl]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 102, nil, 0, false, false, false, false) InitLockdown=false", -- [50]
+			"005014 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [51]
+			"005014 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [52]
+			"005014 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [53]
+			"005022 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Aeredyl has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 104, nil, 0, false, false, false, false) InitLockdown=false", -- [54]
+			"005109 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"|Hplayer:Aeredyl|h[Aeredyl]|h has come online.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 105, nil, 0, false, false, false, false) InitLockdown=false", -- [55]
+			"005216 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Tigerlilly'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 106, nil, 0, false, false, false, false) InitLockdown=false", -- [56]
+			"005216 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Mancub'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 107, nil, 0, false, false, false, false) InitLockdown=false", -- [57]
+			"005216 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Foxxer'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 108, nil, 0, false, false, false, false) InitLockdown=false", -- [58]
+			"005216 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Kickbrass'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 109, nil, 0, false, false, false, false) InitLockdown=false", -- [59]
+			"005220 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Tigerlilly'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 110, nil, 0, false, false, false, false) InitLockdown=false", -- [60]
+			"005220 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Mancub'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 111, nil, 0, false, false, false, false) InitLockdown=false", -- [61]
+			"005220 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Foxxer'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 112, nil, 0, false, false, false, false) InitLockdown=false", -- [62]
+			"005220 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cannot find player 'Kickbrass'.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 113, nil, 0, false, false, false, false) InitLockdown=false", -- [63]
+			"005237 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [64]
+			"005247 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [65]
+			"005247 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [66]
+			"005247 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [67]
+			"005247 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [68]
+			"005248 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [69]
+			"005248 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [70]
+			"005248 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [71]
+			"005248 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [72]
+			"005249 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [73]
+			"005249 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [74]
+			"005249 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [75]
+			"005249 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [76]
+			"005252 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [77]
+			"005252 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [78]
+			"005252 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [79]
+			"005252 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [80]
+			"005253 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [81]
+			"005253 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [82]
+			"005253 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [83]
+			"005253 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [84]
+			"005253 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [85]
+			"005253 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [86]
+			"005253 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [87]
+			"005253 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [88]
+			"005254 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [89]
+			"005254 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [90]
+			"005254 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [91]
+			"005254 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [92]
+			"005254 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [93]
+			"005254 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [94]
+			"005254 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [95]
+			"005254 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [96]
+			"005255 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [97]
+			"005255 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [98]
+			"005255 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [99]
+			"005255 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [100]
+			"005256 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [101]
+			"005256 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [102]
+			"005256 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [103]
+			"005256 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [104]
+			"005256 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [105]
+			"005256 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [106]
+			"005257 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [107]
+			"005257 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [108]
+			"005257 |cffff7d0aWoWPro|r: Handled: UPDATE_BINDINGS() InitLockdown=false", -- [109]
+			"005257 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from UPDATE_BINDINGS", -- [110]
+			"005257 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [111]
+			"005257 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [112]
+			"005340 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [113]
+			"005345 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_INDOORS() InitLockdown=false", -- [114]
+			"005348 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [115]
+			"005352 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [116]
+			"005354 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [117]
+			"005354 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [118]
+			"005354 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [119]
+			"005354 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [120]
+			"005354 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is true", -- [121]
+			"005354 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [122]
+			"005423 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [123]
+			"005424 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [124]
+			"005426 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [125]
+			"005427 |cffff7d0aWoWPro|r: Handled: QUEST_PROGRESS() InitLockdown=false", -- [126]
+			"005427 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You don't meet the requirements for that quest.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 114, nil, 0, false, false, false, false) InitLockdown=false", -- [127]
+			"005427 |cffff7d0aWoWPro|r: Handled: QUEST_FINISHED() InitLockdown=false", -- [128]
+			"005455 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [129]
+			"005458 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [130]
+			"005524 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [131]
+			"005537 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are no longer rested.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 116, nil, 0, false, false, false, false) InitLockdown=false", -- [132]
+			"005537 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [133]
+			"005537 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [134]
+			"005537 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [135]
+			"005537 |c7f0000ffWoWPro|r: Updated objective #1 (1/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [136]
+			"005537 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [137]
+			"005537 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 1/6\") InitLockdown=false", -- [138]
+			"005537 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [139]
+			"005537 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [140]
+			"005537 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [141]
+			"005538 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [142]
+			"005538 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [143]
+			"005539 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [144]
+			"005539 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [145]
+			"005539 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [146]
+			"005544 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [147]
+			"005544 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [148]
+			"005546 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [149]
+			"005554 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [150]
+			"005554 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 2/6\") InitLockdown=false", -- [151]
+			"005554 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [152]
+			"005554 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [153]
+			"005554 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [154]
+			"005554 |c7f0000ffWoWPro|r: Updated objective #1 (2/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [155]
+			"005554 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [156]
+			"005555 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [157]
+			"005555 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [158]
+			"005555 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [159]
+			"005556 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [160]
+			"005556 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [161]
+			"005557 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [162]
+			"005557 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [163]
+			"005557 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [164]
+			"005603 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [165]
+			"005603 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [166]
+			"005606 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [167]
+			"005616 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"MaxDps_Warrior\") InitLockdown=false", -- [168]
+			"005616 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [169]
+			"005616 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [170]
+			"005616 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [171]
+			"005618 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [172]
+			"005618 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [173]
+			"005618 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [174]
+			"005620 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [175]
+			"005620 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [176]
+			"005620 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [177]
+			"005622 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [178]
+			"005622 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [179]
+			"005622 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [180]
+			"005623 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [181]
+			"005624 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [182]
+			"005624 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [183]
+			"005624 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [184]
+			"005624 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [185]
+			"005624 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [186]
+			"005626 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [187]
+			"005626 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [188]
+			"005626 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [189]
+			"005627 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [190]
+			"005627 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 3/6\") InitLockdown=false", -- [191]
+			"005627 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [192]
+			"005627 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [193]
+			"005627 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [194]
+			"005627 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [195]
+			"005627 |c7f0000ffWoWPro|r: Updated objective #1 (3/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [196]
+			"005627 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [197]
+			"005627 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [198]
+			"005627 |c7f0000ffWoWPro|r: Suppresssed guide update.  In Combat.", -- [199]
+			"005628 |cffff7d0aWoWPro|r: Handled: PLAYER_REGEN_ENABLED() InitLockdown=false", -- [200]
+			"005628 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from PLAYER_REGEN_ENABLED", -- [201]
+			"005628 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [202]
+			"005628 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [203]
+			"005629 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [204]
+			"005629 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [205]
+			"005630 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [206]
+			"005630 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [207]
+			"005630 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [208]
+			"005630 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [209]
+			"005632 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [210]
+			"005633 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [211]
+			"005633 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [212]
+			"005633 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [213]
+			"005633 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [214]
+			"005635 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [215]
+			"005636 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [216]
+			"005637 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [217]
+			"005637 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [218]
+			"005637 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [219]
+			"005637 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [220]
+			"005637 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [221]
+			"005639 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [222]
+			"005654 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [223]
+			"005658 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [224]
+			"005658 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [225]
+			"005658 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [226]
+			"005658 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [227]
+			"005658 |c7f0000ffWoWPro|r: Updated objective #1 (4/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [228]
+			"005658 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [229]
+			"005658 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 4/6\") InitLockdown=false", -- [230]
+			"005659 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [231]
+			"005659 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [232]
+			"005659 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [233]
+			"005700 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [234]
+			"005700 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [235]
+			"005701 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [236]
+			"005701 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [237]
+			"005701 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [238]
+			"005705 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [239]
+			"005709 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [240]
+			"005715 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [241]
+			"005715 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 5/6\") InitLockdown=false", -- [242]
+			"005715 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [243]
+			"005715 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [244]
+			"005715 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [245]
+			"005715 |c7f0000ffWoWPro|r: Updated objective #1 (5/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [246]
+			"005715 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [247]
+			"005715 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [248]
+			"005716 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [249]
+			"005716 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [250]
+			"005717 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [251]
+			"005717 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [252]
+			"005718 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [253]
+			"005718 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [254]
+			"005718 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [255]
+			"005720 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [256]
+			"005720 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [257]
+			"005720 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [258]
+			"005720 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [259]
+			"005720 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [260]
+			"005720 |c7f0000ffWoWPro|r: Completed objective #1 (6/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [261]
+			"005720 |c7f0000ffWoWPro|r: Updated objective #1 (6/6 Blackrock Worg slain) on quest [Beating Them Back!]", -- [262]
+			"005720 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(287, \"Blackrock Worg slain: 6/6\") InitLockdown=false", -- [263]
+			"005720 |cffff7d0aWoWPro|r: Handled: UI_INFO_MESSAGE(286, \"Objective Complete.\") InitLockdown=false", -- [264]
+			"005720 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [265]
+			"005720 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [266]
+			"005720 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [267]
+			"005724 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [268]
+			"005748 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [269]
+			"005751 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [270]
+			"005752 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [271]
+			"005754 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [272]
+			"005754 |cffff7d0aWoWPro|r: Handled: QUEST_COMPLETE() InitLockdown=false", -- [273]
+			"005754 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Beating Them Back! completed.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 155, nil, 0, false, false, false, false) InitLockdown=false", -- [274]
+			"005754 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Experience gained: 500.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 156, nil, 0, false, false, false, false) InitLockdown=false", -- [275]
+			"005754 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Received 50 Copper.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 157, nil, 0, false, false, false, false) InitLockdown=false", -- [276]
+			"005754 |cffff7d0aWoWPro|r: Handled: QUEST_TURNED_IN(28766, 500, 50) InitLockdown=false", -- [277]
+			"005754 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=false", -- [278]
+			"005755 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are now Neutral with KokonutKrew.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 160, nil, 0, false, false, false, false) InitLockdown=false", -- [279]
+			"005755 |cffff7d0aWoWPro|r: Handled: QUEST_FINISHED() InitLockdown=false", -- [280]
+			"005755 |cffff7d0aWoWPro|r: Handled: QUEST_DETAIL() InitLockdown=false", -- [281]
+			"005755 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [282]
+			"005755 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is false", -- [283]
+			"005755 |c7f0000ffWoWPro|r: Quest Log populated. 0 quests found.", -- [284]
+			"005755 |c7f0000ffWoWPro|r: Completed Quest: 28766 [Beating Them Back!]", -- [285]
+			"005755 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=false", -- [286]
+			"005755 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Quest accepted: Lions for Lambs\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 161, nil, 0, false, false, false, false) InitLockdown=false", -- [287]
+			"005755 |cffff7d0aWoWPro|r: Handled: QUEST_ACCEPTED(2, 28774) InitLockdown=false", -- [288]
+			"005755 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=false", -- [289]
+			"005755 |c7f0000ffWoWPro|r: PopulateQuestLog(): WoWPro.inhibit_oldQuests_update is true", -- [290]
+			"005755 |c7f0000ffWoWPro|r: Quest Log populated. 2 quests found.", -- [291]
+			"005755 |c7f0000ffWoWPro|r: New Quest 28774: [Lions for Lambs]", -- [292]
+			"005755 |c7f0000ffWoWPro|r: Completed Quest: 28766 [Beating Them Back!]", -- [293]
+			"005755 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteCriteria?", -- [294]
+			"005755 |c7f0000ffWoWPro|r: QUEST_DETAIL_PUNTED: No active step.", -- [295]
+			"005755 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [296]
+			"005755 |c7f0000ffWoWPro|r: Running: UpdateGuideReal(), WoWPro Version 8.0.1N.", -- [297]
+			"005755 |c7f0000ffWoWPro|r: Called WoWPro.NextStep(1,1)", -- [298]
+			"005804 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [299]
+			"005810 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED() InitLockdown=false", -- [300]
+			"005858 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [301]
+			"005858 |c7f0000ffWoWPro|r: Locking Down PLW", -- [302]
 		},
 		["Deltas"] = {
 			"Action=T|Step=Seeing Where Your Loyalties Lie|M0=77.56,43.97|M1=43.86,56.43|Error=35.93|QID=26629|Vers=8.0.1U|Guide=BitCap3035", -- [1]
@@ -1207,450 +1414,390 @@ WoWProData = {
 			"Action=T|Step=It's Alive!|M0=48.75,28.00|M1=56.02,31.23|Error=7.96|QID=26257|Vers=8.0.1N|Guide=BitWes1020", -- [749]
 			"Action=A|Step=The Legend of Captain Grayson|M0=48.75,28.00|M1=56.35,47.36|Error=20.80|QID=26371|Vers=8.0.1N|Guide=BitWes1020", -- [750]
 			"Action=f|Step=Sentinel Hill|M0=48.75,28.00|M1=41.71,63.85|Error=36.53|QID=26287|Vers=8.0.1N|Guide=BitWes1020", -- [751]
-			"Action=C|Step=Seasoned Wolf Kabobs|M0=73.93,44.49|M1=61.39,17.90|Error=29.40|QID=26620|Vers=8.0.1N|Guide=TwiDus2025", -- [752]
-			"Action=C|Step=Wolves at Our Heels|M0=73.93,44.49|M1=53.22,18.88|Error=32.93|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [753]
-			"Action=C|Step=Wolves at Our Heels|M0=73.93,44.49|M1=53.22,18.88|Error=32.93|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [754]
-			"Action=C|Step=Dusky Crab Cakes|M0=73.93,44.49|M1=75.46,24.63|Error=19.91|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [755]
-			"Action=C|Step=Dusky Crab Cakes|M0=73.93,44.49|M1=75.46,24.63|Error=19.91|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [756]
-			"Action=C|Step=Worgen in the Woods|M0=73.93,44.49|M1=61.80,42.23|Error=12.34|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [757]
-			"Action=C|Step=Worgen in the Woods|M0=73.93,44.49|M1=61.80,42.23|Error=12.34|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [758]
-			"Action=T|Step=Wolves at Our Heels|M0=73.93,44.49|M1=73.53,46.87|Error=2.42|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [759]
-			"Action=A|Step=Worgen in the Woods|M0=73.93,44.49|M1=73.53,46.87|Error=2.42|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [760]
-			"Action=h|Step=Darkshire|M0=73.93,44.49|M1=73.53,46.87|Error=2.42|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [761]
-			"Action=A|Step=The Hermit|M0=73.80,43.61|M1=73.49,46.88|Error=3.29|QID=26627|Vers=8.0.1N|Guide=TwiDus2025", -- [762]
-			"Action=A|Step=The Night Watch|M0=73.80,43.61|M1=73.49,46.88|Error=3.29|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [763]
-			"Action=A|Step=The Night Watch|M0=73.80,43.61|M1=73.49,46.88|Error=3.29|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [764]
-			"Action=T|Step=Worgen in the Woods|M0=73.80,43.61|M1=75.35,48.02|Error=4.68|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [765]
-			"Action=A|Step=The Rotting Orchard|M0=73.80,43.61|M1=75.35,48.02|Error=4.68|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [766]
-			"Action=T|Step=Seasoned Wolf Kabobs|M0=73.80,43.61|M1=73.74,43.43|Error=0.19|QID=26620|Vers=8.0.1N|Guide=TwiDus2025", -- [767]
-			"Action=T|Step=Dusky Crab Cakes|M0=73.80,43.61|M1=73.74,43.43|Error=0.19|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [768]
-			"Action=L|Step=Level 20|M0=79.53,47.41|M1=74.72,49.00|Error=5.07|QID=-99|Vers=8.0.1N|Guide=TwiDus2025", -- [769]
-			"Action=A|Step=The Night Watch|M0=79.53,47.41|M1=74.72,49.00|Error=5.07|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [770]
-			"Action=A|Step=The Hermit|M0=79.53,47.41|M1=74.72,49.00|Error=5.07|QID=26627|Vers=8.0.1N|Guide=TwiDus2025", -- [771]
-			"Action=A|Step=The Night Watch|M0=79.53,47.41|M1=74.72,49.00|Error=5.07|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [772]
-			"Action=A|Step=The Rotting Orchard|M0=79.53,47.41|M1=74.72,49.00|Error=5.07|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [773]
-			"Action=A|Step=Look To The Stars|M0=79.53,47.41|M1=79.61,47.60|Error=0.20|QID=26683|Vers=8.0.1N|Guide=TwiDus2025", -- [774]
-			"Action=A|Step=The Legend of Stalvan|M0=87.45,35.38|M1=79.05,44.20|Error=12.18|QID=26666|Vers=8.0.1N|Guide=TwiDus2025", -- [775]
-			"Action=T|Step=The Hermit|M0=87.45,35.38|M1=87.38,35.13|Error=0.26|QID=26627|Vers=8.0.1N|Guide=TwiDus2025", -- [776]
-			"Action=A|Step=Supplies from Darkshire|M0=87.45,35.38|M1=87.38,35.13|Error=0.26|QID=26653|Vers=8.0.1N|Guide=TwiDus2025", -- [777]
-			"Action=T|Step=Supplies from Darkshire|M0=75.75,45.33|M1=75.85,45.28|Error=0.11|QID=26653|Vers=8.0.1N|Guide=TwiDus2025", -- [778]
-			"Action=A|Step=Ghost Hair Thread|M0=75.75,45.33|M1=75.85,45.28|Error=0.11|QID=26652|Vers=8.0.1N|Guide=TwiDus2025", -- [779]
-			"Action=T|Step=The Legend of Stalvan|M0=81.91,59.17|M1=72.45,46.90|Error=15.50|QID=26666|Vers=8.0.1N|Guide=TwiDus2025", -- [780]
-			"Action=A|Step=The Stolen Letters|M0=81.91,59.17|M1=72.45,46.90|Error=15.50|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [781]
-			"Action=T|Step=Look To The Stars|M0=81.91,59.17|M1=82.03,59.30|Error=0.18|QID=26683|Vers=8.0.1N|Guide=TwiDus2025", -- [782]
-			"Action=A|Step=The Insane Ghoul|M0=81.91,59.17|M1=82.03,59.30|Error=0.18|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [783]
-			"Action=A|Step=The Insane Ghoul|M0=81.91,59.17|M1=82.03,59.30|Error=0.18|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [784]
-			"Action=T|Step=Ghost Hair Thread|M0=81.91,59.17|M1=82.03,59.30|Error=0.18|QID=26652|Vers=8.0.1N|Guide=TwiDus2025", -- [785]
-			"Action=A|Step=Return the Comb|M0=81.91,59.17|M1=82.03,59.30|Error=0.18|QID=26654|Vers=8.0.1N|Guide=TwiDus2025", -- [786]
-			"Action=C|Step=The Night Watch|M0=81.91,59.17|M1=80.60,60.27|Error=1.71|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [787]
-			"Action=C|Step=The Insane Ghoul|M0=73.72,46.89|M1=80.48,71.20|Error=25.23|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [788]
-			"Action=T|Step=The Insane Ghoul|M0=73.72,46.89|M1=79.60,47.38|Error=5.90|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [789]
-			"Action=A|Step=Classy Glass|M0=73.72,46.89|M1=79.60,47.38|Error=5.90|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [790]
-			"Action=T|Step=Return the Comb|M0=73.72,46.89|M1=75.83,45.30|Error=2.64|QID=26654|Vers=8.0.1N|Guide=TwiDus2025", -- [791]
-			"Action=A|Step=Deliver the Thread|M0=73.72,46.89|M1=75.83,45.30|Error=2.64|QID=26655|Vers=8.0.1N|Guide=TwiDus2025", -- [792]
-			"Action=T|Step=The Night Watch|M0=73.72,46.89|M1=73.52,46.94|Error=0.21|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [793]
-			"Action=A|Step=Bones That Walk|M0=73.72,46.89|M1=73.52,46.94|Error=0.21|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [794]
-			"Action=T|Step=Deliver the Thread|M0=87.45,35.38|M1=87.42,35.11|Error=0.28|QID=26655|Vers=8.0.1N|Guide=TwiDus2025", -- [795]
-			"Action=A|Step=Zombie Juice|M0=87.45,35.38|M1=87.42,35.11|Error=0.28|QID=26660|Vers=8.0.1N|Guide=TwiDus2025", -- [796]
-			"Action=T|Step=Zombie Juice|M0=73.83,44.47|M1=74.09,44.68|Error=0.33|QID=26660|Vers=8.0.1N|Guide=TwiDus2025", -- [797]
-			"Action=A|Step=Gather Rot Blossoms|M0=73.83,44.47|M1=74.09,44.68|Error=0.33|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [798]
-			"Action=C|Step=Gather Rot Blossoms|M0=77.40,68.54|M1=79.57,72.58|Error=4.58|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [799]
-			"Action=C|Step=Bones That Walk|M0=77.40,68.54|M1=79.42,72.53|Error=4.48|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [800]
-			"Action=T|Step=Bones That Walk|M0=73.83,44.47|M1=73.46,46.90|Error=2.45|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [801]
-			"Action=T|Step=Gather Rot Blossoms|M0=73.83,44.47|M1=74.10,44.67|Error=0.34|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [802]
-			"Action=A|Step=Juice Delivery|M0=73.83,44.47|M1=74.10,44.67|Error=0.34|QID=26676|Vers=8.0.1N|Guide=TwiDus2025", -- [803]
-			"Action=T|Step=Juice Delivery|M0=87.45,35.38|M1=87.43,35.13|Error=0.25|QID=26676|Vers=8.0.1N|Guide=TwiDus2025", -- [804]
-			"Action=A|Step=Ogre Thieves|M0=87.45,35.38|M1=87.43,35.13|Error=0.25|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [805]
-			"Action=C|Step=The Stolen Letters|M0=61.24,40.39|M1=61.22,40.53|Error=0.14|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [806]
-			"Action=T|Step=The Stolen Letters|M0=72.50,46.87|M1=72.42,46.91|Error=0.09|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [807]
-			"Action=A|Step=In A Dark Corner|M0=72.50,46.87|M1=72.42,46.91|Error=0.09|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [808]
-			"Action=C|Step=The Rotting Orchard|M0=66.50,76.50|M1=64.59,74.91|Error=2.49|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [809]
-			"Action=C|Step=In A Dark Corner|M0=66.50,76.50|M1=66.59,76.47|Error=0.10|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [810]
-			"Action=A|Step=A Deadly Vine|M0=45.18,66.95|M1=44.97,67.39|Error=0.49|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [811]
-			"Action=A|Step=The Yorgen Worgen|M0=45.18,66.95|M1=44.97,67.39|Error=0.49|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [812]
-			"Action=A|Step=The Yorgen Worgen|M0=45.18,66.95|M1=44.97,67.39|Error=0.49|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [813]
-			"Action=A|Step=Vulgar Vul'Gol|M0=45.18,66.95|M1=45.16,66.99|Error=0.05|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [814]
-			"Action=C|Step=Ogre Thieves|M0=33.45,75.27|M1=33.53,75.36|Error=0.12|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [815]
-			"Action=C|Step=Vulgar Vul'Gol|M0=37.84,84.33|M1=36.97,82.60|Error=1.94|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [816]
-			"Action=C|Step=Vulgar Vul'Gol|M0=37.84,84.33|M1=36.97,82.60|Error=1.94|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [817]
-			"Action=C|Step=Classy Glass|M0=37.84,84.33|M1=37.73,84.29|Error=0.12|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [818]
-			"Action=T|Step=Vulgar Vul'Gol|M0=45.18,66.95|M1=45.11,67.01|Error=0.09|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [819]
-			"Action=C|Step=A Deadly Vine|M0=49.68,77.88|M1=49.75,74.73|Error=3.15|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [820]
-			"Action=C|Step=A Deadly Vine|M0=49.68,77.88|M1=49.75,74.73|Error=3.15|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [821]
-			"Action=C|Step=The Yorgen Worgen|M0=49.68,77.88|M1=49.87,77.77|Error=0.22|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [822]
-			"Action=T|Step=A Deadly Vine|M0=44.81,67.32|M1=44.93,67.47|Error=0.19|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [823]
-			"Action=T|Step=The Yorgen Worgen|M0=44.81,67.32|M1=44.93,67.47|Error=0.19|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [824]
-			"Action=A|Step=Delivery to Master Harris|M0=44.81,67.32|M1=44.93,67.47|Error=0.19|QID=26719|Vers=8.0.1N|Guide=TwiDus2025", -- [825]
-			"Action=H|Step=Scarlet Raven Tavern|M0=44.81,67.32|M1=73.86,44.37|Error=37.02|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [826]
-			"Action=T|Step=In A Dark Corner|M0=72.50,46.87|M1=72.42,46.92|Error=0.09|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [827]
-			"Action=A|Step=Roland's Doom|M0=75.28,47.95|M1=72.42,46.92|Error=3.04|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [828]
-			"Action=T|Step=The Rotting Orchard|M0=75.28,47.95|M1=75.32,48.01|Error=0.07|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [829]
-			"Action=A|Step=Vile and Tainted|M0=75.28,47.95|M1=75.32,48.01|Error=0.07|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [830]
-			"Action=T|Step=Classy Glass|M0=79.53,47.41|M1=79.56,47.53|Error=0.13|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [831]
-			"Action=T|Step=Ogre Thieves|M0=87.45,35.38|M1=87.41,35.14|Error=0.24|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [832]
-			"Action=A|Step=Ghoulish Effigy|M0=87.45,35.38|M1=87.41,35.14|Error=0.24|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [833]
-			"Action=C|Step=Ghoulish Effigy|M0=76.83,33.72|M1=75.11,36.12|Error=2.95|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [834]
-			"Action=T|Step=Ghoulish Effigy|M0=87.45,35.38|M1=87.42,35.13|Error=0.25|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [835]
-			"Action=A|Step=Note to the Mayor|M0=73.63,79.19|M1=87.42,35.13|Error=46.16|QID=26681|Vers=8.0.1N|Guide=TwiDus2025", -- [836]
-			"Action=T|Step=Note to the Mayor|M0=71.85,46.45|M1=71.96,46.39|Error=0.13|QID=26681|Vers=8.0.1N|Guide=TwiDus2025", -- [837]
-			"Action=A|Step=The Embalmer's Revenge|M0=73.63,79.19|M1=71.96,46.39|Error=32.84|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [838]
-			"Action=C|Step=The Embalmer's Revenge|M0=73.84,46.62|M1=73.58,46.62|Error=0.26|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [839]
-			"Action=T|Step=The Embalmer's Revenge|M0=71.85,46.45|M1=71.95,46.44|Error=0.10|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [840]
-			"Action=C|Step=Vile and Tainted|M0=73.63,79.19|M1=74.09,78.70|Error=0.67|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [841]
-			"Action=C|Step=Vile and Tainted|M0=73.63,79.19|M1=74.09,78.70|Error=0.67|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [842]
-			"Action=C|Step=Roland's Doom|M0=73.63,79.19|M1=73.59,79.19|Error=0.04|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [843]
-			"Action=T|Step=Vile and Tainted|M0=75.28,47.95|M1=75.31,48.12|Error=0.17|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [844]
-			"Action=A|Step=Worgen in the Woods|M0=72.50,46.87|M1=75.31,48.12|Error=3.08|QID=26691|Vers=8.0.1N|Guide=TwiDus2025", -- [845]
-			"Action=T|Step=Worgen in the Woods|M0=75.35,48.93|M1=75.41,49.02|Error=0.11|QID=26691|Vers=8.0.1N|Guide=TwiDus2025", -- [846]
-			"Action=T|Step=Roland's Doom|M0=72.50,46.87|M1=72.42,46.90|Error=0.08|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [847]
-			"Action=A|Step=The Fate of Stalvan Mistmantle|M0=72.50,46.87|M1=72.42,46.90|Error=0.08|QID=26671|Vers=8.0.1N|Guide=TwiDus2025", -- [848]
-			"Action=T|Step=The Fate of Stalvan Mistmantle|M0=78.95,44.25|M1=79.09,44.09|Error=0.22|QID=26671|Vers=8.0.1N|Guide=TwiDus2025", -- [849]
-			"Action=A|Step=Clawing at the Truth|M0=77.45,44.25|M1=79.09,44.09|Error=1.65|QID=26672|Vers=8.0.1N|Guide=TwiDus2025", -- [850]
-			"Action=T|Step=Clawing at the Truth|M0=75.76,45.28|M1=75.85,45.22|Error=0.11|QID=26672|Vers=8.0.1N|Guide=TwiDus2025", -- [851]
-			"Action=A|Step=Mistmantle's Revenge|M0=75.76,45.28|M1=75.85,45.22|Error=0.11|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [852]
-			"Action=C|Step=Mistmantle's Revenge|M0=77.39,36.32|M1=77.36,36.17|Error=0.16|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [853]
-			"Action=T|Step=Mistmantle's Revenge|M0=78.98,44.21|M1=79.06,44.13|Error=0.11|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [854]
-			"Action=L|Step=Level 25|M0=19.92,57.88|M1=57.54,71.80|Error=40.11|QID=-99|Vers=8.0.1N|Guide=BitAra2025", -- [855]
-			"Action=R|Step=Refuge Pointe|M0=39.91,48.71|M1=39.31,55.70|Error=7.01|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [856]
-			"Action=f|Step=Refuge Point|M0=39.85,47.34|M1=39.85,47.29|Error=0.05|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [857]
-			"Action=A|Step=Quae and Kinelory|M0=39.91,49.04|M1=40.02,47.77|Error=1.28|QID=26113|Vers=8.0.1N|Guide=BitAra2025", -- [858]
-			"Action=A|Step=Northfold Manor|M0=39.91,49.04|M1=39.98,48.86|Error=0.19|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [859]
-			"Action=A|Step=Wanted! Marez Cowl|M0=39.91,49.04|M1=40.24,49.10|Error=0.33|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [860]
-			"Action=A|Step=Wanted! Otto and Falconcrest|M0=39.91,49.04|M1=40.24,49.10|Error=0.33|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [861]
-			"Action=A|Step=Worth Its Weight in Gold|M0=39.91,49.04|M1=40.34,49.14|Error=0.45|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [862]
-			"Action=A|Step=Shakes O'Breen|M0=39.91,49.04|M1=40.34,49.14|Error=0.45|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [863]
-			"Action=A|Step=The Stone Shards|M0=39.91,49.04|M1=40.34,49.14|Error=0.45|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [864]
-			"Action=h|Step=Refuge Point|M0=39.91,49.04|M1=39.96,48.65|Error=0.39|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [865]
-			"Action=C|Step=Worth Its Weight in Gold|M0=59.90,71.01|M1=61.45,65.89|Error=5.34|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [866]
-			"Action=T|Step=Quae and Kinelory|M0=39.89,48.75|M1=54.81,55.39|Error=16.33|QID=26113|Vers=8.0.1N|Guide=BitAra2025", -- [867]
-			"Action=A|Step=Just Like Old Times|M0=39.89,48.75|M1=54.81,55.39|Error=16.33|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [868]
-			"Action=C|Step=Just Like Old Times|M0=39.89,48.75|M1=52.56,64.39|Error=20.13|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [869]
-			"Action=T|Step=Just Like Old Times|M0=39.89,48.75|M1=54.86,55.37|Error=16.37|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [870]
-			"Action=A|Step=Quae Trusts You|M0=39.89,48.75|M1=54.86,55.37|Error=16.37|QID=26114|Vers=8.0.1N|Guide=BitAra2025", -- [871]
-			"Action=T|Step=Quae Trusts You|M0=39.89,48.75|M1=54.86,55.37|Error=16.37|QID=26114|Vers=8.0.1N|Guide=BitAra2025", -- [872]
-			"Action=A|Step=Kinelory Strikes|M0=39.89,48.75|M1=54.86,55.37|Error=16.37|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [873]
-			"Action=H|Step=Refuge Pointe|M0=39.89,48.75|M1=43.28,49.52|Error=3.47|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [874]
-			"Action=T|Step=Worth Its Weight in Gold|M0=40.27,49.05|M1=40.33,49.18|Error=0.14|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [875]
-			"Action=C|Step=Kinelory Strikes|M0=25.13,30.48|M1=40.33,49.18|Error=24.10|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [876]
-			"Action=A|Step=Wand over Fist|M0=25.13,30.48|M1=40.33,49.18|Error=24.10|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [877]
-			"Action=C|Step=Wand over Fist|M0=47.94,79.38|M1=49.10,83.89|Error=4.65|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [878]
-			"Action=T|Step=Wand over Fist|M0=40.35,48.99|M1=40.35,49.19|Error=0.20|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [879]
-			"Action=A|Step=Trelane's Defenses|M0=40.35,48.99|M1=40.35,49.19|Error=0.20|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [880]
-			"Action=C|Step=Northfold Manor|M0=25.13,30.48|M1=25.06,29.21|Error=1.27|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [881]
-			"Action=T|Step=Northfold Manor|M0=39.89,48.75|M1=40.01,48.90|Error=0.19|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [882]
-			"Action=A|Step=Stromgarde Badges|M0=19.60,59.00|M1=40.01,48.90|Error=22.77|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [883]
-			"Action=R|Step=Stromgarde Keep|M0=19.60,59.00|M1=19.49,55.79|Error=3.21|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [884]
-			"Action=C|Step=Stromgarde Badges|M0=23.20,64.80|M1=22.98,62.75|Error=2.06|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [885]
-			"Action=C|Step=Stromgarde Badges|M0=23.20,64.80|M1=22.98,62.75|Error=2.06|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [886]
-			"Action=C|Step=Wanted! Marez Cowl|M0=23.20,64.80|M1=23.36,64.84|Error=0.16|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [887]
-			"Action=C|Step=Wanted! Otto and Falconcrest|M0=19.50,67.50|M1=19.59,66.46|Error=1.04|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [888]
-			"Action=C|Step=Trelane's Defenses|M0=17.75,63.10|M1=14.81,69.07|Error=6.66|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [889]
-			"Action=T|Step=Trelane's Defenses|M0=12.95,69.32|M1=13.05,69.21|Error=0.15|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [890]
-			"Action=A|Step=Attack on the Tower|M0=12.95,69.32|M1=13.05,69.21|Error=0.15|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [891]
-			"Action=C|Step=Attack on the Tower|M0=11.34,70.17|M1=11.15,70.53|Error=0.41|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [892]
-			"Action=C|Step=Attack on the Tower|M0=11.17,69.90|M1=11.19,69.89|Error=0.02|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [893]
-			"Action=C|Step=Attack on the Tower|M0=11.33,71.22|M1=11.31,71.21|Error=0.02|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [894]
-			"Action=H|Step=Refuge Pointe|M0=39.89,48.75|M1=39.96,49.06|Error=0.32|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [895]
-			"Action=T|Step=Stromgarde Badges|M0=39.89,48.75|M1=39.98,48.87|Error=0.15|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [896]
-			"Action=T|Step=Wanted! Marez Cowl|M0=39.89,48.75|M1=39.98,48.87|Error=0.15|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [897]
-			"Action=T|Step=Wanted! Otto and Falconcrest|M0=39.89,48.75|M1=39.98,48.87|Error=0.15|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [898]
-			"Action=T|Step=Attack on the Tower|M0=40.22,49.07|M1=40.36,49.16|Error=0.17|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [899]
-			"Action=R|Step=Faldir's Cove|M0=24.85,67.55|M1=26.02,78.79|Error=11.30|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [900]
-			"Action=A|Step=Goggle Boggle|M0=26.03,83.93|M1=27.63,82.90|Error=1.90|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [901]
-			"Action=A|Step=Drowned Sorrows|M0=26.03,83.93|M1=27.71,83.29|Error=1.80|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [902]
-			"Action=T|Step=Shakes O'Breen|M0=26.03,83.93|M1=25.94,83.95|Error=0.09|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [903]
-			"Action=C|Step=Goggle Boggle|M0=27.60,83.13|M1=26.97,83.73|Error=0.87|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [904]
-			"Action=T|Step=Drowned Sorrows|M0=27.60,83.13|M1=27.55,82.95|Error=0.19|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [905]
-			"Action=C|Step=Drowned Sorrows|M0=27.50,83.13|M1=15.18,92.75|Error=15.63|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [906]
-			"Action=C|Step=Drowned Sorrows|M0=27.50,83.13|M1=15.18,92.75|Error=15.63|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [907]
-			"Action=A|Step=Goggle Boggle|M0=27.50,83.13|M1=27.59,83.00|Error=0.16|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [908]
-			"Action=C|Step=Goggle Boggle|M0=27.60,83.13|M1=27.54,82.91|Error=0.23|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [909]
-			"Action=T|Step=Goggle Boggle|M0=27.60,83.13|M1=27.54,82.91|Error=0.23|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [910]
-			"Action=A|Step=Sunken Treasure|M0=27.60,83.13|M1=27.54,82.91|Error=0.23|QID=26051|Vers=8.0.1N|Guide=BitAra2025", -- [911]
-			"Action=C|Step=Sunken Treasure|M0=27.60,83.13|M1=10.67,91.55|Error=18.91|QID=26051|Vers=8.0.1N|Guide=BitAra2025", -- [912]
-			"Action=T|Step=Sunken Treasure|M0=27.55,83.08|M1=27.58,82.82|Error=0.26|QID=26051|Vers=8.0.1N|Guide=BitAra2025", -- [913]
-			"Action=A|Step=Speak to Shakes|M0=27.55,83.08|M1=27.58,82.82|Error=0.26|QID=26052|Vers=8.0.1N|Guide=BitAra2025", -- [914]
-			"Action=T|Step=Speak to Shakes|M0=26.05,83.84|M1=25.90,83.93|Error=0.18|QID=26052|Vers=8.0.1N|Guide=BitAra2025", -- [915]
-			"Action=A|Step=Death From Below|M0=54.85,55.34|M1=25.90,83.93|Error=40.69|QID=26628|Vers=8.0.1N|Guide=BitAra2025", -- [916]
-			"Action=C|Step=Death From Below|M0=25.75,83.16|M1=24.99,85.15|Error=2.13|QID=26628|Vers=8.0.1N|Guide=BitAra2025", -- [917]
-			"Action=T|Step=Death From Below|M0=25.86,83.95|M1=25.94,83.86|Error=0.12|QID=26628|Vers=8.0.1N|Guide=BitAra2025", -- [918]
-			"Action=A|Step=The Stone Shards|M0=54.85,55.34|M1=40.34,49.15|Error=15.78|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [919]
-			"Action=A|Step=Kinelory Strikes|M0=54.85,55.34|M1=54.91,55.50|Error=0.17|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [920]
-			"Action=T|Step=Kinelory Strikes|M0=54.62,55.32|M1=54.79,55.30|Error=0.17|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [921]
-			"Action=A|Step=For Southshore|M0=54.70,55.35|M1=54.79,55.30|Error=0.10|QID=26117|Vers=8.0.1N|Guide=BitAra2025", -- [922]
-			"Action=T|Step=For Southshore|M0=39.94,47.73|M1=39.92,47.78|Error=0.05|QID=26117|Vers=8.0.1N|Guide=BitAra2025", -- [923]
-			"Action=T|Step=The Stone Shards|M0=57.03,34.61|M1=57.17,34.52|Error=0.16|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [924]
-			"Action=A|Step=The Princess Trapped|M0=57.03,34.61|M1=57.17,34.52|Error=0.16|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [925]
-			"Action=R|Step=Drywhisker Gorge|M0=73.70,38.80|M1=73.08,41.03|Error=2.32|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [926]
-			"Action=C|Step=The Princess Trapped|M0=75.95,41.15|M1=80.71,30.58|Error=11.59|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [927]
-			"Action=T|Step=The Princess Trapped|M0=79.83,31.62|M1=79.81,31.65|Error=0.04|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [928]
-			"Action=A|Step=Stones of Binding|M0=61.75,30.42|M1=79.81,31.65|Error=18.10|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [929]
-			"Action=R|Step=Circle of East Binding|M0=61.75,30.42|M1=64.01,35.52|Error=5.58|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [930]
-			"Action=C|Step=Stones of Binding: Cresting Key|M0=61.73,30.38|M1=61.60,30.44|Error=0.15|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [931]
-			"Action=C|Step=Stones of Binding: Thundering Key|M0=61.73,30.38|M1=61.60,30.44|Error=0.15|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [932]
-			"Action=C|Step=Stones of Binding: Burning Key|M0=18.93,31.00|M1=18.92,30.76|Error=0.24|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [933]
-			"Action=T|Step=Stones of Binding|M0=30.06,59.18|M1=30.06,58.99|Error=0.19|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [934]
-			"Action=A|Step=Breaking the Keystone|M0=30.06,59.18|M1=30.06,58.99|Error=0.19|QID=26042|Vers=8.0.1N|Guide=BitAra2025", -- [935]
-			"Action=C|Step=Breaking the Keystone|M0=43.40,66.26|M1=43.00,66.83|Error=0.70|QID=26042|Vers=8.0.1N|Guide=BitAra2025", -- [936]
-			"Action=T|Step=Breaking the Keystone|M0=30.11,59.74|M1=29.85,59.70|Error=0.26|QID=26042|Vers=8.0.1N|Guide=BitAra2025", -- [937]
-			"Action=A|Step=Myzrael's Tale|M0=30.01,59.18|M1=30.06,59.05|Error=0.13|QID=26346|Vers=8.0.1N|Guide=BitAra2025", -- [938]
-			"Action=H|Step=Refuge Pointe|M0=40.26,49.07|M1=35.73,54.23|Error=6.86|QID=26346|Vers=8.0.1N|Guide=BitAra2025", -- [939]
-			"Action=T|Step=Myzrael's Tale|M0=40.26,49.07|M1=40.35,49.19|Error=0.15|QID=26346|Vers=8.0.1N|Guide=BitAra2025", -- [940]
-			"Action=A|Step=The Princess Unleashed: Group [2] Quest|M0=40.00,48.80|M1=40.35,49.19|Error=0.52|QID=26049|Vers=8.0.1N|Guide=BitAra2025", -- [941]
-			"Action=C|Step=The Princess Unleashed|M0=57.56,34.99|M1=57.40,34.61|Error=0.41|QID=26049|Vers=8.0.1N|Guide=BitAra2025", -- [942]
-			"Action=T|Step=The Princess Unleashed|M0=57.26,34.61|M1=57.30,34.58|Error=0.05|QID=26049|Vers=8.0.1N|Guide=BitAra2025", -- [943]
-			"Action=A|Step=Hero's Call: The Hinterlands!|M0=40.00,48.80|M1=40.03,48.90|Error=0.11|QID=26542|Vers=8.0.1N|Guide=BitAra2025", -- [944]
-			"Action=L|Step=Level 30|M0=40.00,48.80|M1=39.71,48.33|Error=0.55|QID=-99|Vers=8.0.1N|Guide=CraHin3035", -- [945]
-			"Action=R|Step=The Hinterlands|M0=43.36,45.18|M1=23.43,81.78|Error=41.67|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [946]
-			"Action=R|Step=Aerie Peak|M0=26.29,69.07|M1=12.66,50.59|Error=22.96|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [947]
-			"Action=f|Step=Aerie Peak|M0=12.90,48.30|M1=11.11,46.14|Error=2.81|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [948]
-			"Action=A|Step=Razorbeak Friends|M0=9.96,44.31|M1=9.88,44.28|Error=0.09|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [949]
-			"Action=A|Step=A Mangy Threat|M0=9.96,44.31|M1=9.88,44.28|Error=0.09|QID=26547|Vers=8.0.1N|Guide=CraHin3035", -- [950]
-			"Action=C|Step=A Mangy Threat|M0=15.43,52.23|M1=16.63,51.84|Error=1.27|QID=26547|Vers=8.0.1N|Guide=CraHin3035", -- [951]
-			"Action=C|Step=A Mangy Threat|M0=15.43,52.23|M1=16.63,51.84|Error=1.27|QID=26547|Vers=8.0.1N|Guide=CraHin3035", -- [952]
-			"Action=C|Step=Razorbeak Friends|M0=15.43,52.23|M1=18.45,50.25|Error=3.61|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [953]
-			"Action=T|Step=Razorbeak Friends|M0=9.97,44.27|M1=9.92,44.12|Error=0.16|QID=26546|Vers=8.0.1N|Guide=CraHin3035", -- [954]
-			"Action=T|Step=A Mangy Threat|M0=9.97,44.27|M1=9.92,44.12|Error=0.16|QID=26547|Vers=8.0.1N|Guide=CraHin3035", -- [955]
-			"Action=A|Step=Out to the Front|M0=9.97,44.27|M1=9.92,44.12|Error=0.16|QID=26548|Vers=8.0.1N|Guide=CraHin3035", -- [956]
-			"Action=F|Step=Stormfeather Outpost|M0=11.11,46.09|M1=65.77,45.33|Error=54.66|QID=26548|Vers=8.0.1N|Guide=CraHin3035", -- [957]
-			"Action=f|Step=Stormfeather Outpost|M0=65.74,44.94|M1=65.74,44.95|Error=0.01|QID=26548|Vers=8.0.1N|Guide=CraHin3035", -- [958]
-			"Action=T|Step=Out to the Front|M0=66.33,44.37|M1=66.36,44.47|Error=0.10|QID=26548|Vers=8.0.1N|Guide=CraHin3035", -- [959]
-			"Action=A|Step=The Wicked Revantusk|M0=66.33,44.37|M1=66.36,44.47|Error=0.10|QID=26462|Vers=8.0.1N|Guide=CraHin3035", -- [960]
-			"Action=A|Step=Gan'dranda|M0=66.33,44.37|M1=66.36,44.47|Error=0.10|QID=26483|Vers=8.0.1N|Guide=CraHin3035", -- [961]
-			"Action=A|Step=Snapjaws, Lad!|M0=66.27,44.32|M1=66.30,44.35|Error=0.04|QID=26485|Vers=8.0.1N|Guide=CraHin3035", -- [962]
-			"Action=A|Step=99 Bottles of Booze on the Beach|M0=66.27,44.32|M1=66.30,44.35|Error=0.04|QID=26486|Vers=8.0.1N|Guide=CraHin3035", -- [963]
-			"Action=C|Step=The Wicked Revantusk|M0=66.27,44.32|M1=72.40,50.79|Error=8.91|QID=26462|Vers=8.0.1N|Guide=CraHin3035", -- [964]
-			"Action=C|Step=The Wicked Revantusk|M0=66.27,44.32|M1=72.40,50.79|Error=8.91|QID=26462|Vers=8.0.1N|Guide=CraHin3035", -- [965]
-			"Action=C|Step=Gan'dranda|M0=66.27,44.32|M1=73.49,53.50|Error=11.68|QID=26483|Vers=8.0.1N|Guide=CraHin3035", -- [966]
-			"Action=C|Step=Snapjaws, Lad!|M0=66.27,44.32|M1=75.39,68.18|Error=25.55|QID=26485|Vers=8.0.1N|Guide=CraHin3035", -- [967]
-			"Action=C|Step=Snapjaws, Lad!|M0=66.27,44.32|M1=75.39,68.18|Error=25.55|QID=26485|Vers=8.0.1N|Guide=CraHin3035", -- [968]
-			"Action=C|Step=99 Bottles of Booze on the Beach|M0=66.27,44.32|M1=80.03,59.63|Error=20.59|QID=26486|Vers=8.0.1N|Guide=CraHin3035", -- [969]
-			"Action=T|Step=Snapjaws, Lad!|M0=66.27,44.32|M1=66.25,44.32|Error=0.02|QID=26485|Vers=8.0.1N|Guide=CraHin3035", -- [970]
-			"Action=T|Step=99 Bottles of Booze on the Beach|M0=66.27,44.32|M1=66.25,44.32|Error=0.02|QID=26486|Vers=8.0.1N|Guide=CraHin3035", -- [971]
-			"Action=T|Step=The Wicked Revantusk|M0=66.27,44.32|M1=66.34,44.33|Error=0.07|QID=26462|Vers=8.0.1N|Guide=CraHin3035", -- [972]
-			"Action=h|Step=Stormfeather Outpost|M0=66.27,44.32|M1=66.34,44.33|Error=0.07|QID=26462|Vers=8.0.1N|Guide=CraHin3035", -- [973]
-			"Action=T|Step=Gan'dranda|M0=66.30,44.36|M1=66.34,44.33|Error=0.05|QID=26483|Vers=8.0.1N|Guide=CraHin3035", -- [974]
-			"Action=A|Step=Skulk Rock Clean-Up|M0=66.30,44.36|M1=66.34,44.33|Error=0.05|QID=26491|Vers=8.0.1N|Guide=CraHin3035", -- [975]
-			"Action=A|Step=Skulk Rock Supplies|M0=66.30,44.36|M1=66.34,44.33|Error=0.05|QID=26492|Vers=8.0.1N|Guide=CraHin3035", -- [976]
-			"Action=A|Step=Prime Slime|M0=66.27,44.36|M1=66.26,44.31|Error=0.05|QID=26490|Vers=8.0.1N|Guide=CraHin3035", -- [977]
-			"Action=R|Step=Skulk Rock|M0=57.42,38.67|M1=63.83,44.72|Error=8.81|QID=26490|Vers=8.0.1N|Guide=CraHin3035", -- [978]
-			"Action=C|Step=Prime Slime|M0=57.42,38.67|M1=57.52,42.63|Error=3.96|QID=26490|Vers=8.0.1N|Guide=CraHin3035", -- [979]
-			"Action=C|Step=Skulk Rock Clean-Up|M0=57.80,41.44|M1=57.13,42.38|Error=1.16|QID=26491|Vers=8.0.1N|Guide=CraHin3035", -- [980]
-			"Action=C|Step=Skulk Rock Clean-Up|M0=57.80,41.44|M1=57.13,42.38|Error=1.16|QID=26491|Vers=8.0.1N|Guide=CraHin3035", -- [981]
-			"Action=C|Step=Skulk Rock Supplies|M0=57.80,41.44|M1=57.48,42.33|Error=0.95|QID=26492|Vers=8.0.1N|Guide=CraHin3035", -- [982]
-			"Action=T|Step=Prime Slime|M0=66.31,44.39|M1=66.25,44.38|Error=0.06|QID=26490|Vers=8.0.1N|Guide=CraHin3035", -- [983]
-			"Action=T|Step=Skulk Rock Clean-Up|M0=66.31,44.39|M1=66.25,44.38|Error=0.06|QID=26491|Vers=8.0.1N|Guide=CraHin3035", -- [984]
-			"Action=T|Step=Skulk Rock Supplies|M0=66.31,44.39|M1=66.25,44.38|Error=0.06|QID=26492|Vers=8.0.1N|Guide=CraHin3035", -- [985]
-			"Action=A|Step=Down with the Vilebranch|M0=66.31,44.39|M1=66.25,44.38|Error=0.06|QID=26496|Vers=8.0.1N|Guide=CraHin3035", -- [986]
-			"Action=T|Step=Down with the Vilebranch|M0=63.90,59.72|M1=63.87,59.80|Error=0.08|QID=26496|Vers=8.0.1N|Guide=CraHin3035", -- [987]
-			"Action=A|Step=Vilebranch Scum|M0=63.90,59.72|M1=63.87,59.80|Error=0.08|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [988]
-			"Action=A|Step=Heads Up|M0=63.90,59.72|M1=63.87,59.80|Error=0.08|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [989]
-			"Action=A|Step=Faces of Evil|M0=63.81,60.00|M1=63.74,59.98|Error=0.07|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [990]
-			"Action=A|Step=All That Skitters|M0=63.81,60.00|M1=63.74,59.98|Error=0.07|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [991]
-			"Action=C|Step=Vilebranch Scum|M0=65.16,65.11|M1=66.34,70.21|Error=5.24|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [992]
-			"Action=C|Step=Vilebranch Scum|M0=65.16,65.11|M1=66.34,70.21|Error=5.24|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [993]
-			"Action=C|Step=Heads Up|M0=65.16,65.11|M1=65.16,65.12|Error=0.01|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [994]
-			"Action=C|Step=Faces of Evil|M0=65.29,67.31|M1=66.08,76.28|Error=9.00|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [995]
-			"Action=C|Step=All That Skitters|M0=68.55,70.21|M1=66.17,69.74|Error=2.42|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [996]
-			"Action=T|Step=Vilebranch Scum|M0=63.90,60.04|M1=63.89,59.89|Error=0.15|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [997]
-			"Action=T|Step=Heads Up|M0=63.90,60.04|M1=63.89,59.89|Error=0.15|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [998]
-			"Action=A|Step=Ongo'longo's Revenge|M0=63.90,60.04|M1=63.89,59.89|Error=0.15|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [999]
-			"Action=A|Step=Death to the Vilebranch|M0=63.90,60.04|M1=63.89,59.89|Error=0.15|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1000]
-			"Action=T|Step=Faces of Evil|M0=63.86,60.00|M1=63.71,59.99|Error=0.15|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [1001]
-			"Action=T|Step=All That Skitters|M0=63.86,60.00|M1=63.71,59.99|Error=0.15|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [1002]
-			"Action=A|Step=Dark Vessels|M0=63.89,60.04|M1=63.71,59.99|Error=0.18|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1003]
-			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=66.37,63.76|Error=4.46|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1004]
-			"Action=C|Step=Death to the Vilebranch|M0=62.33,75.19|M1=64.56,71.38|Error=4.42|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1005]
-			"Action=C|Step=Dark Vessels|M0=62.33,75.19|M1=67.13,71.91|Error=5.81|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1006]
-			"Action=C|Step=Dark Vessels|M0=62.33,75.19|M1=67.13,71.91|Error=5.81|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1007]
-			"Action=C|Step=Ongo'longo's Revenge|M0=62.33,75.19|M1=62.06,75.13|Error=0.28|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1008]
-			"Action=T|Step=Ongo'longo's Revenge|M0=63.89,59.97|M1=63.97,59.98|Error=0.08|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1009]
-			"Action=T|Step=Death to the Vilebranch|M0=63.87,59.99|M1=63.97,59.98|Error=0.10|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1010]
-			"Action=A|Step=It's Ours Now|M0=63.83,60.02|M1=63.97,59.98|Error=0.15|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1011]
-			"Action=T|Step=Dark Vessels|M0=63.83,60.02|M1=63.78,60.08|Error=0.08|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1012]
-			"Action=A|Step=Summit of Fate|M0=63.83,59.97|M1=63.78,60.08|Error=0.12|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1013]
-			"Action=T|Step=Summit of Fate|M0=63.90,60.04|M1=64.12,59.99|Error=0.23|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1014]
-			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=66.59,63.79|Error=4.61|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1015]
-			"Action=C|Step=It's Ours Now|M0=59.20,76.98|M1=60.07,73.49|Error=3.60|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1016]
-			"Action=C|Step=Summit of Fate|M0=59.20,76.98|M1=60.40,79.09|Error=2.42|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1017]
-			"Action=F|Step=The Hinterlands|M0=59.20,76.98|M1=60.40,79.09|Error=2.42|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1018]
-			"Action=A|Step=Hunt the Keeper|M0=63.76,60.03|M1=63.71,60.04|Error=0.05|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1019]
-			"Action=A|Step=Venomous Secrets|M0=63.76,60.03|M1=63.71,60.04|Error=0.05|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1020]
-			"Action=T|Step=It's Ours Now|M0=63.85,59.92|M1=63.90,59.98|Error=0.08|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1021]
-			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=52.65,65.34|Error=12.44|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1022]
-			"Action=C|Step=Venomous Secrets|M0=59.69,77.83|M1=56.72,83.57|Error=6.47|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1023]
-			"Action=C|Step=Venomous Secrets|M0=59.69,77.83|M1=56.72,83.57|Error=6.47|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1024]
-			"Action=C|Step=Hunt the Keeper|M0=59.69,77.83|M1=57.35,86.37|Error=8.85|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1025]
-			"Action=F|Step=The Hinterlands|M0=59.69,77.83|M1=57.35,86.37|Error=8.85|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1026]
-			"Action=T|Step=Hunt the Keeper|M0=63.76,60.04|M1=63.75,60.00|Error=0.04|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1027]
-			"Action=T|Step=Venomous Secrets|M0=63.76,60.04|M1=63.75,60.00|Error=0.04|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1028]
-			"Action=A|Step=Quel'Danil Lodge|M0=63.99,59.85|M1=63.96,59.84|Error=0.03|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1029]
-			"Action=R|Step=Quel'Danil Lodge|M0=26.37,55.00|M1=36.08,45.40|Error=13.65|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1030]
-			"Action=T|Step=Quel'Danil Lodge|M0=32.20,42.63|M1=32.17,42.59|Error=0.05|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1031]
-			"Action=A|Step=In Defense of Quel'Danil|M0=32.20,42.63|M1=32.17,42.59|Error=0.05|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1032]
-			"Action=A|Step=The Highvale Documents|M0=32.20,42.63|M1=32.17,42.59|Error=0.05|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1033]
-			"Action=C|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=31.21,48.12|Error=3.37|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1034]
-			"Action=C|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=31.21,48.12|Error=3.37|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1035]
-			"Action=C|Step=The Highvale Documents|M0=28.56,46.04|M1=31.92,46.91|Error=3.47|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1036]
-			"Action=T|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=32.15,42.52|Error=5.03|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1037]
-			"Action=T|Step=The Highvale Documents|M0=28.56,46.04|M1=32.15,42.52|Error=5.03|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1038]
-			"Action=A|Step=The Eye of Shadra|M0=30.74,47.18|M1=30.67,47.15|Error=0.08|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1039]
-			"Action=A|Step=Can't Make An Omelette Without...|M0=30.74,47.18|M1=30.67,47.15|Error=0.08|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1040]
-			"Action=R|Step=Agol'watha|M0=47.56,41.83|M1=42.28,46.57|Error=7.10|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1041]
-			"Action=C|Step=The Eye of Shadra|M0=45.53,38.92|M1=45.53,38.87|Error=0.05|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1042]
-			"Action=C|Step=Can't Make An Omelette Without...|M0=46.13,40.36|M1=46.50,41.41|Error=1.12|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1043]
-			"Action=T|Step=The Eye of Shadra|M0=30.74,47.19|M1=30.72,47.22|Error=0.03|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1044]
-			"Action=A|Step=The Fang of Shadra|M0=30.74,47.19|M1=30.72,47.22|Error=0.03|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1045]
-			"Action=T|Step=Can't Make An Omelette Without...|M0=30.74,47.19|M1=30.72,47.22|Error=0.03|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1046]
-			"Action=A|Step=Starvation Diet|M0=30.74,47.19|M1=30.72,47.22|Error=0.03|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1047]
-			"Action=C|Step=Starvation Diet|M0=49.47,52.28|M1=49.10,52.74|Error=0.59|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1048]
-			"Action=C|Step=Starvation Diet|M0=49.47,52.28|M1=49.10,52.74|Error=0.59|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1049]
-			"Action=C|Step=The Fang of Shadra|M0=49.47,52.28|M1=49.45,52.25|Error=0.04|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1050]
-			"Action=T|Step=The Fang of Shadra|M0=30.74,47.22|M1=30.67,47.16|Error=0.09|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1051]
-			"Action=A|Step=The Shell of Shadra|M0=30.74,47.22|M1=30.67,47.16|Error=0.09|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1052]
-			"Action=T|Step=Starvation Diet|M0=30.74,47.22|M1=30.67,47.16|Error=0.09|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1053]
-			"Action=C|Step=The Shell of Shadra|M0=48.35,67.64|M1=48.44,67.68|Error=0.10|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1054]
-			"Action=T|Step=The Shell of Shadra|M0=30.74,47.20|M1=30.67,47.08|Error=0.13|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1055]
-			"Action=A|Step=Summoning Shadra|M0=30.74,47.20|M1=30.67,47.08|Error=0.13|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1056]
-			"Action=R|Step=Shadra'Alor|M0=35.72,64.40|M1=35.71,63.67|Error=0.73|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1057]
-			"Action=C|Step=Northwestern Temple|M0=32.03,67.07|M1=32.13,67.24|Error=0.20|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1058]
-			"Action=C|Step=Southwestern Temple|M0=32.03,67.07|M1=32.13,67.24|Error=0.20|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1059]
-			"Action=C|Step=Eastern Temple|M0=37.03,71.55|M1=37.09,71.32|Error=0.24|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1060]
-			"Action=T|Step=Summoning Shadra|M0=34.39,67.91|M1=34.34,67.75|Error=0.17|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1061]
-			"Action=A|Step=Shadra the Venom Queen|M0=34.39,67.91|M1=34.34,67.75|Error=0.17|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1062]
-			"Action=C|Step=Shadra the Venom Queen|M0=34.21,69.46|M1=34.06,69.46|Error=0.15|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1063]
-			"Action=A|Step=The Battle for Andorhal|M0=34.21,69.46|M1=9.91,44.26|Error=35.01|QID=28505|Vers=8.0.1N|Guide=CraHin3035", -- [1064]
-			"Action=T|Step=Shadra the Venom Queen|M0=34.21,69.46|M1=9.91,44.26|Error=35.01|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1065]
-			"Action=C|Step=Uther's Blessing|M0=51.94,82.64|M1=52.12,83.48|Error=0.85|QID=27169|Vers=8.0.1N|Guide=BitWes3540", -- [1066]
-			"Action=T|Step=Uther's Blessing|M0=51.95,82.71|M1=51.98,82.91|Error=0.21|QID=27169|Vers=8.0.1N|Guide=BitWes3540", -- [1067]
-			"Action=A|Step=The Abandoned Crypt|M0=43.44,83.76|M1=51.98,82.91|Error=8.58|QID=27170|Vers=8.0.1N|Guide=BitWes3540", -- [1068]
-			"Action=T|Step=The Abandoned Crypt|M0=54.32,79.92|M1=53.76,80.39|Error=0.73|QID=27170|Vers=8.0.1N|Guide=BitWes3540", -- [1069]
-			"Action=A|Step=Ambushed!|M0=53.77,80.47|M1=53.76,80.39|Error=0.08|QID=27171|Vers=8.0.1N|Guide=BitWes3540", -- [1070]
-			"Action=C|Step=Ambushed!|M0=54.82,79.75|M1=53.96,81.01|Error=1.53|QID=27171|Vers=8.0.1N|Guide=BitWes3540", -- [1071]
-			"Action=T|Step=Those That Couldn't Let Go|M0=43.44,83.76|M1=43.43,83.70|Error=0.06|QID=27168|Vers=8.0.1N|Guide=BitWes3540", -- [1072]
-			"Action=T|Step=Ambushed!|M0=43.02,83.61|M1=42.70,84.10|Error=0.58|QID=27171|Vers=8.0.1N|Guide=BitWes3540", -- [1073]
-			"Action=A|Step=The Writhing Haunt|M0=43.02,83.61|M1=42.70,84.10|Error=0.58|QID=27172|Vers=8.0.1N|Guide=BitWes3540", -- [1074]
-			"Action=A|Step=The Menders' Stead|M0=43.02,83.61|M1=42.90,83.64|Error=0.12|QID=27175|Vers=8.0.1N|Guide=BitWes3540", -- [1075]
-			"Action=T|Step=The Menders' Stead|M0=53.78,64.67|M1=49.30,54.85|Error=10.79|QID=27175|Vers=8.0.1N|Guide=BitWes3540", -- [1076]
-			"Action=f|Step=The Menders' Stead|M0=53.78,64.67|M1=49.30,54.85|Error=10.79|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1077]
-			"Action=A|Step=A New Era for the Plaguelands|M0=53.78,64.67|M1=49.30,54.85|Error=10.79|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1078]
-			"Action=A|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=48.93,54.77|Error=11.03|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1079]
-			"Action=A|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=48.57,54.88|Error=11.09|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1080]
-			"Action=C|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=47.49,52.94|Error=13.31|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1081]
-			"Action=C|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=46.31,54.99|Error=12.23|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1082]
-			"Action=C|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=44.83,53.26|Error=14.50|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1083]
-			"Action=l|Step=Hulking Plaguebear Samples|M0=53.78,64.67|M1=43.24,49.08|Error=18.82|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1084]
-			"Action=l|Step=Diseased Wolf Samples|M0=53.78,64.67|M1=46.27,47.37|Error=18.86|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1085]
-			"Action=l|Step=Diseased Wolf Samples|M0=53.78,64.67|M1=46.27,47.37|Error=18.86|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1086]
-			"Action=C|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=52.92,50.34|Error=14.36|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1087]
-			"Action=C|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=52.92,50.34|Error=14.36|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1088]
-			"Action=T|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=48.58,54.90|Error=11.07|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1089]
-			"Action=T|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=48.84,54.64|Error=11.18|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1090]
-			"Action=A|Step=A Different Approach|M0=53.78,64.67|M1=48.84,54.64|Error=11.18|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1091]
-			"Action=C|Step=A New Era for the Plaguelands|M0=53.78,64.67|M1=51.38,60.19|Error=5.08|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1092]
-			"Action=C|Step=A Different Approach|M0=53.78,64.67|M1=53.92,53.85|Error=10.83|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1093]
-			"Action=T|Step=A New Era for the Plaguelands|M0=53.78,64.67|M1=49.28,54.94|Error=10.72|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1094]
-			"Action=A|Step=Northridge Lumber Mill|M0=53.78,64.67|M1=49.28,54.94|Error=10.72|QID=26935|Vers=8.0.1N|Guide=BitWes3540", -- [1095]
-			"Action=N|Step=Hunters|M0=53.78,64.67|M1=48.92,54.79|Error=11.01|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1096]
-			"Action=T|Step=A Different Approach|M0=53.78,64.67|M1=48.92,54.79|Error=11.01|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1097]
-			"Action=T|Step=Northridge Lumber Mill|M0=53.78,64.67|M1=48.11,32.43|Error=32.73|QID=26935|Vers=8.0.1N|Guide=BitWes3540", -- [1098]
-			"Action=A|Step=Learning the Ropes|M0=53.78,64.67|M1=48.11,32.43|Error=32.73|QID=27000|Vers=8.0.1N|Guide=BitWes3540", -- [1099]
-			"Action=A|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.49,32.06|Error=33.04|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1100]
-			"Action=C|Step=Too Close for Comfort|M0=53.78,64.67|M1=44.29,38.45|Error=27.88|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1101]
-			"Action=T|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.31,31.90|Error=33.22|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1102]
-			"Action=T|Step=The Writhing Haunt|M0=53.78,64.67|M1=38.55,73.44|Error=17.57|QID=27172|Vers=8.0.1N|Guide=BitWes3540", -- [1103]
-			"Action=A|Step=Into the Woods|M0=48.49,32.00|M1=42.93,83.68|Error=51.98|QID=27683|Vers=8.0.1N|Guide=BitWes3540", -- [1104]
-			"Action=A|Step=This Is Our Army|M0=48.49,32.00|M1=53.78,64.66|Error=33.08|QID=27173|Vers=8.0.1N|Guide=BitWes3540", -- [1105]
-			"Action=C|Step=This Is Our Army|M0=52.53,65.78|M1=53.49,66.00|Error=0.99|QID=27173|Vers=8.0.1N|Guide=BitWes3540", -- [1106]
-			"Action=T|Step=This Is Our Army|M0=53.78,64.67|M1=53.77,64.67|Error=0.01|QID=27173|Vers=8.0.1N|Guide=BitWes3540", -- [1107]
-			"Action=A|Step=Combat Training|M0=53.78,64.67|M1=53.77,64.67|Error=0.01|QID=27174|Vers=8.0.1N|Guide=BitWes3540", -- [1108]
-			"Action=C|Step=Combat Training|M0=53.91,65.70|M1=54.09,65.84|Error=0.23|QID=27174|Vers=8.0.1N|Guide=BitWes3540", -- [1109]
-			"Action=T|Step=Combat Training|M0=53.84,64.66|M1=53.81,64.68|Error=0.04|QID=27174|Vers=8.0.1N|Guide=BitWes3540", -- [1110]
-			"Action=A|Step=The Battle Resumes!|M0=48.49,32.00|M1=50.49,52.79|Error=20.89|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1111]
-			"Action=T|Step=The Battle Resumes!|M0=48.49,32.00|M1=39.80,69.54|Error=38.53|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1112]
-			"Action=A|Step=Ashes to Ashes|M0=48.49,32.00|M1=39.80,69.54|Error=38.53|QID=27199|Vers=8.0.1N|Guide=BitWes3540", -- [1113]
-			"Action=A|Step=Supporting the Troops|M0=48.49,32.00|M1=40.05,69.21|Error=38.15|QID=27198|Vers=8.0.1N|Guide=BitWes3540", -- [1114]
-			"Action=C|Step=Ashes to Ashes|M0=48.49,32.00|M1=45.38,66.18|Error=34.33|QID=27199|Vers=8.0.1N|Guide=BitWes3540", -- [1115]
-			"Action=C|Step=Supporting the Troops|M0=48.49,32.00|M1=44.45,69.27|Error=37.49|QID=27198|Vers=8.0.1N|Guide=BitWes3540", -- [1116]
-			"Action=C|Step=Supporting the Troops|M0=48.49,32.00|M1=44.45,69.27|Error=37.49|QID=27198|Vers=8.0.1N|Guide=BitWes3540", -- [1117]
-			"Action=T|Step=Ashes to Ashes|M0=48.49,32.00|M1=39.94,69.52|Error=38.48|QID=27199|Vers=8.0.1N|Guide=BitWes3540", -- [1118]
-			"Action=T|Step=Supporting the Troops|M0=48.49,32.00|M1=39.99,69.28|Error=38.24|QID=27198|Vers=8.0.1N|Guide=BitWes3540", -- [1119]
-			"Action=A|Step=The Depravity of the Forsaken|M0=48.49,32.00|M1=39.73,69.52|Error=38.53|QID=27205|Vers=8.0.1N|Guide=BitWes3540", -- [1120]
-			"Action=T|Step=The Depravity of the Forsaken|M0=48.49,32.00|M1=39.73,69.52|Error=38.53|QID=27205|Vers=8.0.1N|Guide=BitWes3540", -- [1121]
-			"Action=A|Step=Val'kyr Incursion|M0=48.49,32.00|M1=39.73,69.52|Error=38.53|QID=27201|Vers=8.0.1N|Guide=BitWes3540", -- [1122]
-			"Action=A|Step=Brother Against Brother|M0=48.49,32.00|M1=39.84,69.64|Error=38.62|QID=27202|Vers=8.0.1N|Guide=BitWes3540", -- [1123]
-			"Action=C|Step=Val'kyr Incursion|M0=48.49,32.00|M1=43.87,65.87|Error=34.19|QID=27201|Vers=8.0.1N|Guide=BitWes3540", -- [1124]
-			"Action=C|Step=Val'kyr Incursion|M0=48.49,32.00|M1=43.87,65.87|Error=34.19|QID=27201|Vers=8.0.1N|Guide=BitWes3540", -- [1125]
-			"Action=C|Step=Brother Against Brother|M0=48.49,32.00|M1=43.87,65.87|Error=34.19|QID=27202|Vers=8.0.1N|Guide=BitWes3540", -- [1126]
-			"Action=T|Step=Brother Against Brother|M0=48.49,32.00|M1=39.79,69.78|Error=38.77|QID=27202|Vers=8.0.1N|Guide=BitWes3540", -- [1127]
-			"Action=T|Step=Val'kyr Incursion|M0=48.49,32.00|M1=39.85,69.58|Error=38.56|QID=27201|Vers=8.0.1N|Guide=BitWes3540", -- [1128]
-			"Action=A|Step=Aradne|M0=48.49,32.00|M1=39.85,69.58|Error=38.56|QID=27204|Vers=8.0.1N|Guide=BitWes3540", -- [1129]
-			"Action=C|Step=Aradne|M0=48.49,32.00|M1=40.40,71.98|Error=40.79|QID=27204|Vers=8.0.1N|Guide=BitWes3540", -- [1130]
-			"Action=T|Step=Aradne|M0=48.49,32.00|M1=39.92,69.50|Error=38.46|QID=27204|Vers=8.0.1N|Guide=BitWes3540", -- [1131]
-			"Action=A|Step=Alas, Andorhal|M0=48.49,32.00|M1=39.92,69.50|Error=38.46|QID=27206|Vers=8.0.1N|Guide=BitWes3540", -- [1132]
-			"Action=T|Step=Alas, Andorhal|M0=48.49,32.00|M1=42.72,84.10|Error=52.42|QID=27206|Vers=8.0.1N|Guide=BitWes3540", -- [1133]
-			"Action=A|Step=Redpine Thievery|M0=48.49,32.00|M1=48.49,32.05|Error=0.05|QID=27011|Vers=8.0.1N|Guide=BitWes3540", -- [1134]
-			"Action=A|Step=Redpine Thievery|M0=48.49,32.00|M1=48.49,32.05|Error=0.05|QID=27011|Vers=8.0.1N|Guide=BitWes3540", -- [1135]
-			"Action=A|Step=A Gnoll's Resolve|M0=48.49,32.00|M1=48.49,32.05|Error=0.05|QID=27012|Vers=8.0.1N|Guide=BitWes3540", -- [1136]
-			"Action=C|Step=Learning the Ropes|M0=47.67,31.80|M1=49.52,35.32|Error=3.97|QID=27000|Vers=8.0.1N|Guide=BitWes3540", -- [1137]
-			"Action=T|Step=Learning the Ropes|M0=49.76,42.09|M1=48.11,32.41|Error=9.82|QID=27000|Vers=8.0.1N|Guide=BitWes3540", -- [1138]
-			"Action=A|Step=This Means WAR (Wild Arachnid Roundup)|M0=49.76,42.09|M1=48.11,32.41|Error=9.82|QID=27001|Vers=8.0.1N|Guide=BitWes3540", -- [1139]
-			"Action=C|Step=This Means WAR (Wild Arachnid Roundup)|M0=49.76,42.09|M1=47.92,33.19|Error=9.09|QID=27001|Vers=8.0.1N|Guide=BitWes3540", -- [1140]
-			"Action=T|Step=This Means WAR (Wild Arachnid Roundup)|M0=49.76,42.09|M1=48.09,32.39|Error=9.84|QID=27001|Vers=8.0.1N|Guide=BitWes3540", -- [1141]
-			"Action=A|Step=An Audience with the Highlord|M0=49.76,42.09|M1=48.09,32.39|Error=9.84|QID=27002|Vers=8.0.1N|Guide=BitWes3540", -- [1142]
-			"Action=C|Step=A Gnoll's Resolve|M0=49.76,42.09|M1=48.36,43.05|Error=1.70|QID=27012|Vers=8.0.1N|Guide=BitWes3540", -- [1143]
-			"Action=C|Step=A Gnoll's Resolve|M0=49.76,42.09|M1=48.36,43.05|Error=1.70|QID=27012|Vers=8.0.1N|Guide=BitWes3540", -- [1144]
-			"Action=C|Step=Redpine Thievery|M0=49.76,42.09|M1=53.40,45.11|Error=4.73|QID=27011|Vers=8.0.1N|Guide=BitWes3540", -- [1145]
-			"Action=T|Step=Redpine Thievery|M0=48.41,32.11|M1=48.28,31.93|Error=0.22|QID=27011|Vers=8.0.1N|Guide=BitWes3540", -- [1146]
-			"Action=T|Step=Redpine Thievery|M0=48.41,32.11|M1=48.28,31.93|Error=0.22|QID=27011|Vers=8.0.1N|Guide=BitWes3540", -- [1147]
-			"Action=T|Step=A Gnoll's Resolve|M0=48.41,32.11|M1=48.28,31.93|Error=0.22|QID=27012|Vers=8.0.1N|Guide=BitWes3540", -- [1148]
-			"Action=f|Step=Hearthglen|M0=47.67,31.80|M1=44.63,18.50|Error=13.64|QID=27002|Vers=8.0.1N|Guide=BitWes3540", -- [1149]
-			"Action=A|Step=It's About Time!|M0=43.24,16.02|M1=43.21,15.96|Error=0.07|QID=27156|Vers=8.0.1N|Guide=BitWes3540", -- [1150]
-			"Action=C|Step=It's About Time!|M0=42.04,14.64|M1=43.17,16.48|Error=2.16|QID=27156|Vers=8.0.1N|Guide=BitWes3540", -- [1151]
-			"Action=T|Step=It's About Time!|M0=42.04,14.64|M1=43.26,15.99|Error=1.82|QID=27156|Vers=8.0.1N|Guide=BitWes3540", -- [1152]
-			"Action=A|Step=Drudges...|M0=42.04,14.64|M1=43.26,15.99|Error=1.82|QID=27157|Vers=8.0.1N|Guide=BitWes3540", -- [1153]
-			"Action=C|Step=Drudges...|M0=42.04,14.64|M1=45.31,9.84|Error=5.80|QID=27157|Vers=8.0.1N|Guide=BitWes3540", -- [1154]
-			"Action=T|Step=Drudges...|M0=42.04,14.64|M1=43.24,15.86|Error=1.71|QID=27157|Vers=8.0.1N|Guide=BitWes3540", -- [1155]
-			"Action=A|Step=The Long Trip Home|M0=42.04,14.64|M1=42.59,14.81|Error=0.57|QID=26957|Vers=8.0.1N|Guide=BitWes3540", -- [1156]
-			"Action=T|Step=An Audience with the Highlord|M0=42.04,14.64|M1=42.05,14.59|Error=0.05|QID=27002|Vers=8.0.1N|Guide=BitWes3540", -- [1157]
-			"Action=A|Step=Taelan Fordring's Legacy|M0=42.19,14.98|M1=42.19,14.98|Error=0.00|QID=27151|Vers=8.0.1N|Guide=BitWes3540", -- [1158]
-			"Action=C|Step=Taelan Fordring's Legacy|M0=54.78,24.69|M1=54.41,23.97|Error=0.81|QID=27151|Vers=8.0.1N|Guide=BitWes3540", -- [1159]
-			"Action=T|Step=Taelan Fordring's Legacy|M0=54.78,24.69|M1=54.49,23.86|Error=0.88|QID=27151|Vers=8.0.1N|Guide=BitWes3540", -- [1160]
-			"Action=A|Step=Unusual Behavior... Even For Gnolls|M0=54.78,24.69|M1=54.49,23.86|Error=0.88|QID=27152|Vers=8.0.1N|Guide=BitWes3540", -- [1161]
-			"Action=C|Step=Unusual Behavior... Even For Gnolls|M0=54.78,34.10|M1=57.14,35.56|Error=2.77|QID=27152|Vers=8.0.1N|Guide=BitWes3540", -- [1162]
-			"Action=T|Step=Unusual Behavior... Even For Gnolls|M0=54.78,34.10|M1=57.16,35.59|Error=2.81|QID=27152|Vers=8.0.1N|Guide=BitWes3540", -- [1163]
-			"Action=A|Step=The Good People of Hearthglen|M0=57.28,35.71|M1=57.17,35.60|Error=0.15|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1164]
-			"Action=C|Step=High Cleric Alphus|M0=43.68,17.22|M1=42.16,18.30|Error=1.87|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1165]
-			"Action=C|Step=Bree Ironstock|M0=43.68,17.22|M1=43.69,17.24|Error=0.03|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1166]
-			"Action=C|Step=Morris Vant|M0=44.38,13.55|M1=44.42,13.52|Error=0.05|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1167]
-			"Action=C|Step=Outfitter Mendelev|M0=44.82,12.47|M1=44.82,12.53|Error=0.06|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1168]
-			"Action=T|Step=The Good People of Hearthglen|M0=44.82,12.47|M1=44.82,12.53|Error=0.06|QID=27153|Vers=8.0.1N|Guide=BitWes3540", -- [1169]
-			"Action=A|Step=Bagging Bisp|M0=42.16,18.33|M1=44.82,12.53|Error=6.38|QID=27154|Vers=8.0.1N|Guide=BitWes3540", -- [1170]
-			"Action=C|Step=Bagging Bisp|M0=45.90,18.46|M1=45.89,18.42|Error=0.04|QID=27154|Vers=8.0.1N|Guide=BitWes3540", -- [1171]
-			"Action=T|Step=Bagging Bisp|M0=45.90,18.46|M1=45.89,18.42|Error=0.04|QID=27154|Vers=8.0.1N|Guide=BitWes3540", -- [1172]
-			"Action=A|Step=Turning Yourself In|M0=45.90,18.46|M1=45.89,18.42|Error=0.04|QID=27155|Vers=8.0.1N|Guide=BitWes3540", -- [1173]
-			"Action=T|Step=Turning Yourself In|M0=42.06,14.61|M1=42.03,14.84|Error=0.23|QID=27155|Vers=8.0.1N|Guide=BitWes3540", -- [1174]
-			"Action=F|Step=The Menders' Stead|M0=44.62,18.37|M1=51.51,53.84|Error=36.13|QID=26957|Vers=8.0.1N|Guide=BitWes3540", -- [1175]
-			"Action=T|Step=The Long Trip Home|M0=50.59,52.52|M1=50.60,52.52|Error=0.01|QID=26957|Vers=8.0.1N|Guide=BitWes3540", -- [1176]
-			"Action=A|Step=Memories from a Lost Past|M0=49.30,54.84|M1=50.60,52.52|Error=2.66|QID=27017|Vers=8.0.1N|Guide=BitWes3540", -- [1177]
-			"Action=A|Step=Gahrron's Withering Cauldron|M0=49.30,54.84|M1=49.29,54.86|Error=0.03|QID=27053|Vers=8.0.1N|Guide=BitWes3540", -- [1178]
-			"Action=C|Step=Gahrron's Withering Cauldron|M0=62.71,59.17|M1=62.97,58.48|Error=0.74|QID=27053|Vers=8.0.1N|Guide=BitWes3540", -- [1179]
-			"Action=C|Step=Memories from a Lost Past|M0=62.58,58.62|M1=64.81,59.30|Error=2.33|QID=27017|Vers=8.0.1N|Guide=BitWes3540", -- [1180]
-			"Action=T|Step=Gahrron's Withering Cauldron|M0=62.58,58.62|M1=63.02,58.23|Error=0.59|QID=27053|Vers=8.0.1N|Guide=BitWes3540", -- [1181]
-			"Action=A|Step=Return to the Stead|M0=62.58,58.62|M1=63.02,58.23|Error=0.59|QID=27057|Vers=8.0.1N|Guide=BitWes3540", -- [1182]
-			"Action=C|Step=Memories from a Lost Past|M0=64.93,59.43|M1=64.85,59.40|Error=0.09|QID=27017|Vers=8.0.1N|Guide=BitWes3540", -- [1183]
-			"Action=T|Step=Memories from a Lost Past|M0=49.32,54.76|M1=50.65,52.63|Error=2.50|QID=27017|Vers=8.0.1N|Guide=BitWes3540", -- [1184]
-			"Action=T|Step=Return to the Stead|M0=49.32,54.76|M1=49.32,54.86|Error=0.10|QID=27057|Vers=8.0.1N|Guide=BitWes3540", -- [1185]
-			"Action=A|Step=Desperate Acts|M0=49.32,54.76|M1=49.32,54.86|Error=0.10|QID=27054|Vers=8.0.1N|Guide=BitWes3540", -- [1186]
-			"Action=A|Step=Zen'Kiki and the Cultists|M0=48.93,54.76|M1=48.91,54.79|Error=0.04|QID=26955|Vers=8.0.1N|Guide=BitWes3540", -- [1187]
-			"Action=C|Step=Desperate Acts|M0=66.04,47.75|M1=65.92,47.63|Error=0.17|QID=27054|Vers=8.0.1N|Guide=BitWes3540", -- [1188]
-			"Action=C|Step=Zen'Kiki and the Cultists|M0=66.04,47.75|M1=67.89,47.83|Error=1.86|QID=26955|Vers=8.0.1N|Guide=BitWes3540", -- [1189]
-			"Action=C|Step=Zen'Kiki and the Cultists|M0=66.04,47.75|M1=67.89,47.83|Error=1.86|QID=26955|Vers=8.0.1N|Guide=BitWes3540", -- [1190]
-			"Action=T|Step=Zen'Kiki and the Cultists|M0=66.04,47.75|M1=48.93,54.76|Error=18.49|QID=26955|Vers=8.0.1N|Guide=BitWes3540", -- [1191]
-			"Action=T|Step=Desperate Acts|M0=66.04,47.75|M1=49.21,54.83|Error=18.26|QID=27054|Vers=8.0.1N|Guide=BitWes3540", -- [1192]
-			"Action=A|Step=Students of Krastinov|M0=66.04,47.75|M1=49.21,54.83|Error=18.26|QID=27055|Vers=8.0.1N|Guide=BitWes3540", -- [1193]
-			"Action=C|Step=Students of Krastinov|M0=65.22,38.83|M1=63.34,32.46|Error=6.64|QID=27055|Vers=8.0.1N|Guide=BitWes3540", -- [1194]
-			"Action=T|Step=Students of Krastinov|M0=49.31,54.81|M1=49.30,54.84|Error=0.04|QID=27055|Vers=8.0.1N|Guide=BitWes3540", -- [1195]
+			"Action=L|Step=Level 15|M0=56.35,30.55|M1=64.93,74.03|Error=44.31|QID=-99|Vers=8.0.1N|Guide=KurRed1520", -- [752]
+			"Action=R|Step=Redridge Mountains|M0=96.68,72.33|M1=9.94,64.09|Error=87.13|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [753]
+			"Action=A|Step=WANTED: Redridge Gnolls|M0=16.15,64.54|M1=16.11,64.70|Error=0.17|QID=26504|Vers=8.0.1N|Guide=KurRed1520", -- [754]
+			"Action=A|Step=Franks and Beans|M0=15.67,65.28|M1=15.57,65.37|Error=0.13|QID=26506|Vers=8.0.1N|Guide=KurRed1520", -- [755]
+			"Action=A|Step=Still Assessing the Threat|M0=15.32,64.86|M1=15.30,64.61|Error=0.25|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [756]
+			"Action=C|Step=Gnoll Battle Plans|M0=16.19,55.25|M1=16.13,55.38|Error=0.15|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [757]
+			"Action=C|Step=Wanted: Redridge Gnolls|M0=28.02,74.72|M1=16.27,58.04|Error=20.40|QID=26504|Vers=8.0.1N|Guide=KurRed1520", -- [758]
+			"Action=C|Step=Wanted: Redridge Gnolls|M0=28.02,74.72|M1=16.27,58.04|Error=20.40|QID=26504|Vers=8.0.1N|Guide=KurRed1520", -- [759]
+			"Action=C|Step=Gnoll Strategy Guide|M0=28.02,74.72|M1=30.56,62.62|Error=12.36|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [760]
+			"Action=T|Step=WANTED: Redridge Gnolls|M0=28.02,74.72|M1=15.37,64.65|Error=16.16|QID=26504|Vers=8.0.1N|Guide=KurRed1520", -- [761]
+			"Action=C|Step=Franks and Beans|M0=28.02,74.72|M1=16.22,67.28|Error=13.95|QID=26506|Vers=8.0.1N|Guide=KurRed1520", -- [762]
+			"Action=C|Step=Franks and Beans|M0=28.02,74.72|M1=16.22,67.28|Error=13.95|QID=26506|Vers=8.0.1N|Guide=KurRed1520", -- [763]
+			"Action=T|Step=Franks and Beans|M0=28.02,74.72|M1=15.65,65.29|Error=15.55|QID=26506|Vers=8.0.1N|Guide=KurRed1520", -- [764]
+			"Action=C|Step=Gnoll Orders|M0=28.02,74.72|M1=28.03,74.83|Error=0.11|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [765]
+			"Action=T|Step=Still Assessing the Threat|M0=15.31,64.82|M1=15.32,64.82|Error=0.01|QID=26503|Vers=8.0.1N|Guide=KurRed1520", -- [766]
+			"Action=A|Step=Parker's Report|M0=15.31,64.82|M1=15.32,64.82|Error=0.01|QID=26505|Vers=8.0.1N|Guide=KurRed1520", -- [767]
+			"Action=f|Step=Lakeshire|M0=29.48,53.77|M1=29.37,53.73|Error=0.12|QID=26761|Vers=8.0.1N|Guide=KurRed1520", -- [768]
+			"Action=A|Step=Lake Everstill Clean Up|M0=28.78,41.15|M1=28.69,40.95|Error=0.22|QID=26511|Vers=8.0.1N|Guide=KurRed1520", -- [769]
+			"Action=T|Step=Parker's Report|M0=28.78,41.15|M1=28.91,41.13|Error=0.13|QID=26505|Vers=8.0.1N|Guide=KurRed1520", -- [770]
+			"Action=A|Step=We Must Prepare!|M0=28.78,41.15|M1=28.91,41.13|Error=0.13|QID=26510|Vers=8.0.1N|Guide=KurRed1520", -- [771]
+			"Action=h|Step=Lakeshire|M0=26.38,41.54|M1=26.41,41.37|Error=0.17|QID=26509|Vers=8.0.1N|Guide=KurRed1520", -- [772]
+			"Action=C|Step=We Must Prepare!|M0=37.82,42.14|M1=37.79,42.11|Error=0.04|QID=26510|Vers=8.0.1N|Guide=KurRed1520", -- [773]
+			"Action=C|Step=Lake Everstill Clean Up|M0=37.46,43.48|M1=38.23,43.21|Error=0.81|QID=26511|Vers=8.0.1N|Guide=KurRed1520", -- [774]
+			"Action=T|Step=We Must Prepare!|M0=28.62,41.01|M1=28.90,41.20|Error=0.34|QID=26510|Vers=8.0.1N|Guide=KurRed1520", -- [775]
+			"Action=A|Step=Tuning the Gnomecorder|M0=28.62,41.01|M1=28.90,41.20|Error=0.34|QID=26512|Vers=8.0.1N|Guide=KurRed1520", -- [776]
+			"Action=T|Step=Lake Everstill Clean Up|M0=28.62,41.01|M1=28.63,40.97|Error=0.04|QID=26511|Vers=8.0.1N|Guide=KurRed1520", -- [777]
+			"Action=A|Step=Nida's Necklace|M0=31.73,44.80|M1=28.31,48.75|Error=5.22|QID=26508|Vers=8.0.1N|Guide=KurRed1520", -- [778]
+			"Action=C|Step=Nida's Necklace|M0=20.43,47.21|M1=19.84,47.33|Error=0.61|QID=26508|Vers=8.0.1N|Guide=KurRed1520", -- [779]
+			"Action=A|Step=An Unwelcome Guest|M0=28.30,48.73|M1=22.08,42.61|Error=8.73|QID=26509|Vers=8.0.1N|Guide=KurRed1520", -- [780]
+			"Action=C|Step=An Unwelcome Guest|M0=17.59,44.80|M1=17.94,44.99|Error=0.40|QID=26509|Vers=8.0.1N|Guide=KurRed1520", -- [781]
+			"Action=T|Step=An Unwelcome Guest|M0=21.89,42.82|M1=22.12,42.62|Error=0.31|QID=26509|Vers=8.0.1N|Guide=KurRed1520", -- [782]
+			"Action=T|Step=Nida's Necklace|M0=28.30,48.73|M1=28.26,48.81|Error=0.09|QID=26508|Vers=8.0.1N|Guide=KurRed1520", -- [783]
+			"Action=A|Step=Like a Fart in the Wind|M0=31.73,44.80|M1=31.81,45.05|Error=0.26|QID=26513|Vers=8.0.1N|Guide=KurRed1520", -- [784]
+			"Action=C|Step=Tuning the Gnomecorder|M0=32.36,39.53|M1=32.34,39.73|Error=0.20|QID=26512|Vers=8.0.1N|Guide=KurRed1520", -- [785]
+			"Action=T|Step=Tuning the Gnomecorder|M0=32.31,39.51|M1=32.31,39.53|Error=0.02|QID=26512|Vers=8.0.1N|Guide=KurRed1520", -- [786]
+			"Action=A|Step=Canyon Romp|M0=27.45,22.09|M1=32.31,39.53|Error=18.11|QID=26514|Vers=8.0.1N|Guide=KurRed1520", -- [787]
+			"Action=A|Step=He Who Controls the Ettins|M0=32.14,25.18|M1=32.34,37.36|Error=12.18|QID=26519|Vers=8.0.1N|Guide=KurRed1520", -- [788]
+			"Action=C|Step=Canyon Romp|M0=32.14,25.18|M1=35.59,30.07|Error=5.99|QID=26514|Vers=8.0.1N|Guide=KurRed1520", -- [789]
+			"Action=C|Step=Like a Fart in the Wind|M0=32.57,25.13|M1=27.61,27.18|Error=5.36|QID=26513|Vers=8.0.1N|Guide=KurRed1520", -- [790]
+			"Action=C|Step=Like a Fart in the Wind|M0=32.57,25.13|M1=27.61,27.18|Error=5.36|QID=26513|Vers=8.0.1N|Guide=KurRed1520", -- [791]
+			"Action=C|Step=He Who Controls the Ettins|M0=32.57,25.13|M1=18.41,18.61|Error=15.59|QID=26519|Vers=8.0.1N|Guide=KurRed1520", -- [792]
+			"Action=T|Step=He Who Controls the Ettins|M0=32.57,25.13|M1=17.88,18.70|Error=16.03|QID=26519|Vers=8.0.1N|Guide=KurRed1520", -- [793]
+			"Action=A|Step=Saving Foreman Oslow|M0=32.57,25.13|M1=17.88,18.70|Error=16.03|QID=26520|Vers=8.0.1N|Guide=KurRed1520", -- [794]
+			"Action=T|Step=Like a Fart in the Wind|M0=32.57,25.13|M1=31.91,44.90|Error=19.78|QID=26513|Vers=8.0.1N|Guide=KurRed1520", -- [795]
+			"Action=C|Step=Saving Foreman Oslow|M0=32.57,25.13|M1=31.39,44.32|Error=19.22|QID=26520|Vers=8.0.1N|Guide=KurRed1520", -- [796]
+			"Action=N|Step=Wandering Elite|M0=32.57,25.13|M1=28.93,41.17|Error=16.45|QID=26514|Vers=8.0.1N|Guide=KurRed1520", -- [797]
+			"Action=T|Step=Canyon Romp|M0=32.57,25.13|M1=28.93,41.17|Error=16.45|QID=26514|Vers=8.0.1N|Guide=KurRed1520", -- [798]
+			"Action=A|Step=They've Wised Up...|M0=27.45,22.09|M1=28.93,41.17|Error=19.14|QID=26544|Vers=8.0.1N|Guide=KurRed1520", -- [799]
+			"Action=T|Step=Saving Foreman Oslow|M0=20.22,23.77|M1=28.93,41.17|Error=19.46|QID=26520|Vers=8.0.1N|Guide=KurRed1520", -- [800]
+			"Action=C|Step=They've Wised Up...|M0=20.22,23.77|M1=19.38,22.95|Error=1.17|QID=26544|Vers=8.0.1N|Guide=KurRed1520", -- [801]
+			"Action=T|Step=They've Wised Up...|M0=20.22,23.77|M1=28.91,41.16|Error=19.44|QID=26544|Vers=8.0.1N|Guide=KurRed1520", -- [802]
+			"Action=A|Step=Yowler Must Die!|M0=27.45,22.09|M1=28.91,41.16|Error=19.13|QID=26545|Vers=8.0.1N|Guide=KurRed1520", -- [803]
+			"Action=K|Step=Yowler Must Die!|M0=27.45,22.09|M1=25.88,21.63|Error=1.64|QID=26545|Vers=8.0.1N|Guide=KurRed1520", -- [804]
+			"Action=T|Step=Yowler Must Die!|M0=28.76,41.12|M1=28.90,40.98|Error=0.20|QID=26545|Vers=8.0.1N|Guide=KurRed1520", -- [805]
+			"Action=A|Step=John J. Keeshan|M0=28.76,40.90|M1=28.90,40.98|Error=0.16|QID=26567|Vers=8.0.1N|Guide=KurRed1520", -- [806]
+			"Action=T|Step=John J. Keeshan|M0=26.20,39.86|M1=26.34,40.17|Error=0.34|QID=26567|Vers=8.0.1N|Guide=KurRed1520", -- [807]
+			"Action=A|Step=This Ain't My War|M0=29.63,44.41|M1=26.34,40.17|Error=5.37|QID=26568|Vers=8.0.1N|Guide=KurRed1520", -- [808]
+			"Action=T|Step=This Ain't My War|M0=28.57,40.84|M1=28.58,40.78|Error=0.06|QID=26568|Vers=8.0.1N|Guide=KurRed1520", -- [809]
+			"Action=A|Step=Weapons of War|M0=28.57,40.84|M1=28.58,40.78|Error=0.06|QID=26571|Vers=8.0.1N|Guide=KurRed1520", -- [810]
+			"Action=A|Step=In Search of Bravo Company|M0=28.58,40.90|M1=28.58,40.78|Error=0.12|QID=26586|Vers=8.0.1N|Guide=KurRed1520", -- [811]
+			"Action=A|Step=Surveying Equipment|M0=29.63,44.41|M1=29.65,44.50|Error=0.10|QID=26569|Vers=8.0.1N|Guide=KurRed1520", -- [812]
+			"Action=A|Step=Render's Army|M0=29.63,44.41|M1=29.74,44.53|Error=0.16|QID=26570|Vers=8.0.1N|Guide=KurRed1520", -- [813]
+			"Action=R|Step=Alther's Mill|M0=41.25,35.60|M1=41.11,35.43|Error=0.22|QID=26586|Vers=8.0.1N|Guide=KurRed1520", -- [814]
+			"Action=T|Step=In Search of Bravo Company|M0=47.42,41.68|M1=47.61,41.95|Error=0.33|QID=26586|Vers=8.0.1N|Guide=KurRed1520", -- [815]
+			"Action=A|Step=Breaking Out is Hard to Do|M0=50.82,41.45|M1=47.61,41.95|Error=3.25|QID=26587|Vers=8.0.1N|Guide=KurRed1520", -- [816]
+			"Action=C|Step=Weapons of War|M0=50.82,41.45|M1=50.66,41.65|Error=0.25|QID=26571|Vers=8.0.1N|Guide=KurRed1520", -- [817]
+			"Action=T|Step=Weapons of War|M0=51.45,41.30|M1=50.66,41.65|Error=0.86|QID=26571|Vers=8.0.1N|Guide=KurRed1520", -- [818]
+			"Action=A|Step=His Heart Must Be In It|M0=51.45,41.30|M1=50.66,41.65|Error=0.86|QID=26573|Vers=8.0.1N|Guide=KurRed1520", -- [819]
+			"Action=C|Step=Render's Army|M0=49.06,37.83|M1=47.27,40.17|Error=2.95|QID=26570|Vers=8.0.1N|Guide=KurRed1520", -- [820]
+			"Action=C|Step=Render's Army|M0=49.06,37.83|M1=47.27,40.17|Error=2.95|QID=26570|Vers=8.0.1N|Guide=KurRed1520", -- [821]
+			"Action=C|Step=Breaking Out is Hard to Do|M0=49.06,37.83|M1=49.21,37.92|Error=0.18|QID=26587|Vers=8.0.1N|Guide=KurRed1520", -- [822]
+			"Action=T|Step=Breaking Out is Hard to Do|M0=47.57,41.81|M1=47.49,41.85|Error=0.09|QID=26587|Vers=8.0.1N|Guide=KurRed1520", -- [823]
+			"Action=A|Step=Jorgensen|M0=47.60,41.83|M1=47.49,41.85|Error=0.11|QID=26560|Vers=8.0.1N|Guide=KurRed1520", -- [824]
+			"Action=C|Step=Surveying Equipment|M0=43.56,11.03|M1=43.56,14.62|Error=3.59|QID=26569|Vers=8.0.1N|Guide=KurRed1520", -- [825]
+			"Action=C|Step=Surveying Equipment|M0=43.56,11.03|M1=43.56,14.62|Error=3.59|QID=26569|Vers=8.0.1N|Guide=KurRed1520", -- [826]
+			"Action=C|Step=Jorgensen|M0=43.56,11.03|M1=43.70,11.19|Error=0.21|QID=26560|Vers=8.0.1N|Guide=KurRed1520", -- [827]
+			"Action=T|Step=Jorgensen|M0=33.62,11.75|M1=33.58,12.00|Error=0.25|QID=26560|Vers=8.0.1N|Guide=KurRed1520", -- [828]
+			"Action=A|Step=Krakauer|M0=33.63,11.37|M1=33.62,11.76|Error=0.39|QID=26561|Vers=8.0.1N|Guide=KurRed1520", -- [829]
+			"Action=C|Step=Krakauer|M0=26.67,10.65|M1=26.64,10.41|Error=0.24|QID=26561|Vers=8.0.1N|Guide=KurRed1520", -- [830]
+			"Action=C|Step=His Heart Must Be In It|M0=26.67,10.65|M1=26.54,10.41|Error=0.27|QID=26573|Vers=8.0.1N|Guide=KurRed1520", -- [831]
+			"Action=T|Step=Krakauer|M0=26.03,10.45|M1=25.90,10.35|Error=0.16|QID=26561|Vers=8.0.1N|Guide=KurRed1520", -- [832]
+			"Action=A|Step=And Last But Not Least... Danforth|M0=26.08,10.48|M1=25.90,10.35|Error=0.22|QID=26562|Vers=8.0.1N|Guide=KurRed1520", -- [833]
+			"Action=C|Step=And Last But Not Least... Danforth|M0=28.13,18.25|M1=28.07,18.09|Error=0.17|QID=26562|Vers=8.0.1N|Guide=KurRed1520", -- [834]
+			"Action=T|Step=And Last But Not Least... Danforth|M0=28.21,17.11|M1=28.32,17.02|Error=0.14|QID=26562|Vers=8.0.1N|Guide=KurRed1520", -- [835]
+			"Action=A|Step=Return of the Bravo Company|M0=28.07,17.29|M1=28.23,17.21|Error=0.18|QID=26563|Vers=8.0.1N|Guide=KurRed1520", -- [836]
+			"Action=H|Step=Lakeshire Inn|M0=28.07,17.29|M1=26.41,41.37|Error=24.13|QID=26563|Vers=8.0.1N|Guide=KurRed1520", -- [837]
+			"Action=T|Step=Surveying Equipment|M0=28.51,40.85|M1=29.56,44.50|Error=3.80|QID=26569|Vers=8.0.1N|Guide=KurRed1520", -- [838]
+			"Action=T|Step=Render's Army|M0=28.51,40.85|M1=29.56,44.50|Error=3.80|QID=26570|Vers=8.0.1N|Guide=KurRed1520", -- [839]
+			"Action=T|Step=Return of the Bravo Company|M0=28.51,40.85|M1=28.53,40.78|Error=0.07|QID=26563|Vers=8.0.1N|Guide=KurRed1520", -- [840]
+			"Action=T|Step=His Heart Must Be In It|M0=28.51,40.85|M1=28.53,40.78|Error=0.07|QID=26573|Vers=8.0.1N|Guide=KurRed1520", -- [841]
+			"Action=A|Step=They Drew First Blood|M0=28.51,40.85|M1=28.53,40.78|Error=0.07|QID=26607|Vers=8.0.1N|Guide=KurRed1520", -- [842]
+			"Action=T|Step=They Drew First Blood|M0=26.29,39.90|M1=26.28,39.87|Error=0.04|QID=26607|Vers=8.0.1N|Guide=KurRed1520", -- [843]
+			"Action=A|Step=It's Never Over|M0=26.29,39.90|M1=26.28,39.87|Error=0.04|QID=26616|Vers=8.0.1N|Guide=KurRed1520", -- [844]
+			"Action=A|Step=For the Alliance|M0=28.54,22.27|M1=28.56,22.38|Error=0.11|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [845]
+			"Action=P|Step=Stormwind City|M0=27.99,21.50|M1=54.00,14.75|Error=26.87|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [846]
+			"Action=T|Step=For the Alliance|M0=53.07,15.25|M1=53.19,15.21|Error=0.12|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [847]
+			"Action=A|Step=Stranger in a Strange Land|M0=53.07,15.25|M1=53.19,15.21|Error=0.12|QID=50305|Vers=8.0.1N|Guide=LudoTelogrus", -- [848]
+			"Action=A|Step=For the Alliance|M0=28.54,22.27|M1=28.57,22.43|Error=0.16|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [849]
+			"Action=P|Step=Stormwind City|M0=27.99,21.50|M1=54.00,14.75|Error=26.87|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [850]
+			"Action=T|Step=For the Alliance|M0=53.07,15.25|M1=53.12,15.27|Error=0.06|QID=49788|Vers=8.0.1N|Guide=LudoTelogrus", -- [851]
+			"Action=A|Step=Stranger in a Strange Land|M0=53.07,15.25|M1=53.12,15.27|Error=0.06|QID=50305|Vers=8.0.1N|Guide=LudoTelogrus", -- [852]
+			"Action=A|Step=In Service Of The Lich King|M0=51.30,35.20|M1=51.32,35.10|Error=0.10|QID=12593|Vers=8.0.1N|Guide=JamScar5558", -- [853]
+			"Action=T|Step=In Service Of The Lich King|M0=48.00,28.50|M1=48.17,28.38|Error=0.21|QID=12593|Vers=8.0.1N|Guide=JamScar5558", -- [854]
+			"Action=A|Step=The Emblazoned Runeblade|M0=48.00,28.50|M1=48.17,28.38|Error=0.21|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [855]
+			"Action=l|Step=Get a Battle-worn Sword|M0=48.00,28.50|M1=48.02,27.60|Error=0.91|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [856]
+			"Action=C|Step=The Emblazoned Runeblade|M0=47.40,31.00|M1=47.39,31.22|Error=0.22|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [857]
+			"Action=T|Step=The Emblazoned Runeblade|M0=48.00,28.50|M1=47.64,28.80|Error=0.47|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [858]
+			"Action=A|Step=Runeforging: Preparation For Battle|M0=51.09,36.23|M1=47.64,28.80|Error=8.20|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [859]
+			"Action=C|Step=Runeforging: Preparation For Battle|M0=47.40,31.00|M1=47.40,31.24|Error=0.24|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [860]
+			"Action=T|Step=Runeforging: Preparation For Battle|M0=48.00,28.50|M1=47.72,29.41|Error=0.95|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [861]
+			"Action=A|Step=The Endless Hunger|M0=51.09,36.23|M1=47.73,29.33|Error=7.67|QID=12848|Vers=8.0.1N|Guide=JamScar5558", -- [862]
+			"Action=f|Step=Camp Everstill|M0=52.87,54.51|M1=77.47,44.27|Error=26.65|QID=26616|Vers=8.0.1N|Guide=KurRed1520", -- [863]
+			"Action=L|Step=Level 20|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=-99|Vers=8.0.1N|Guide=TwiDus2025", -- [864]
+			"Action=R|Step=Duskwood|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [865]
+			"Action=A|Step=Wolves at Our Heels|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [866]
+			"Action=A|Step=Dusky Crab Cakes|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [867]
+			"Action=A|Step=Seasoned Wolf Kabobs|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26620|Vers=8.0.1N|Guide=TwiDus2025", -- [868]
+			"Action=A|Step=Dusky Crab Cakes|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [869]
+			"Action=f|Step=Darkshire|M0=77.91,65.85|M1=73.32,32.57|Error=33.60|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [870]
+			"Action=C|Step=Seasoned Wolf Kabobs|M0=73.93,44.49|M1=61.49,17.85|Error=29.40|QID=26620|Vers=8.0.1N|Guide=TwiDus2025", -- [871]
+			"Action=C|Step=Wolves at Our Heels|M0=73.93,44.49|M1=53.05,19.11|Error=32.86|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [872]
+			"Action=C|Step=Wolves at Our Heels|M0=73.93,44.49|M1=53.05,19.11|Error=32.86|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [873]
+			"Action=C|Step=Dusky Crab Cakes|M0=73.93,44.49|M1=69.88,16.30|Error=28.48|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [874]
+			"Action=C|Step=Dusky Crab Cakes|M0=73.93,44.49|M1=69.88,16.30|Error=28.48|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [875]
+			"Action=A|Step=Worgen in the Woods|M0=73.93,44.49|M1=69.88,16.30|Error=28.48|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [876]
+			"Action=C|Step=Worgen in the Woods|M0=73.93,44.49|M1=61.83,42.56|Error=12.25|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [877]
+			"Action=C|Step=Worgen in the Woods|M0=73.93,44.49|M1=61.83,42.56|Error=12.25|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [878]
+			"Action=T|Step=Wolves at Our Heels|M0=73.93,44.49|M1=73.58,47.00|Error=2.53|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [879]
+			"Action=h|Step=Darkshire|M0=73.93,44.49|M1=73.58,47.00|Error=2.53|QID=26618|Vers=8.0.1N|Guide=TwiDus2025", -- [880]
+			"Action=A|Step=The Hermit|M0=73.80,43.61|M1=73.58,47.00|Error=3.39|QID=26627|Vers=8.0.1N|Guide=TwiDus2025", -- [881]
+			"Action=A|Step=The Night Watch|M0=73.80,43.61|M1=73.58,47.00|Error=3.39|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [882]
+			"Action=A|Step=The Night Watch|M0=73.80,43.61|M1=73.58,47.00|Error=3.39|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [883]
+			"Action=T|Step=Worgen in the Woods|M0=73.80,43.61|M1=75.21,47.89|Error=4.51|QID=26688|Vers=8.0.1N|Guide=TwiDus2025", -- [884]
+			"Action=A|Step=The Rotting Orchard|M0=73.80,43.61|M1=75.21,47.89|Error=4.51|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [885]
+			"Action=T|Step=Seasoned Wolf Kabobs|M0=73.80,43.61|M1=73.78,43.56|Error=0.05|QID=26620|Vers=8.0.1N|Guide=TwiDus2025", -- [886]
+			"Action=T|Step=Dusky Crab Cakes|M0=73.80,43.61|M1=73.78,43.56|Error=0.05|QID=26623|Vers=8.0.1N|Guide=TwiDus2025", -- [887]
+			"Action=A|Step=Look To The Stars|M0=79.53,47.41|M1=79.57,47.53|Error=0.13|QID=26683|Vers=8.0.1N|Guide=TwiDus2025", -- [888]
+			"Action=A|Step=The Legend of Stalvan|M0=87.45,35.38|M1=79.05,44.22|Error=12.20|QID=26666|Vers=8.0.1N|Guide=TwiDus2025", -- [889]
+			"Action=T|Step=The Hermit|M0=87.45,35.38|M1=87.38,35.32|Error=0.09|QID=26627|Vers=8.0.1N|Guide=TwiDus2025", -- [890]
+			"Action=A|Step=Supplies from Darkshire|M0=87.45,35.38|M1=87.38,35.32|Error=0.09|QID=26653|Vers=8.0.1N|Guide=TwiDus2025", -- [891]
+			"Action=T|Step=Supplies from Darkshire|M0=75.75,45.33|M1=75.75,45.30|Error=0.03|QID=26653|Vers=8.0.1N|Guide=TwiDus2025", -- [892]
+			"Action=A|Step=Ghost Hair Thread|M0=81.91,59.17|M1=75.75,45.30|Error=15.18|QID=26652|Vers=8.0.1N|Guide=TwiDus2025", -- [893]
+			"Action=T|Step=The Legend of Stalvan|M0=81.91,59.17|M1=72.55,46.88|Error=15.45|QID=26666|Vers=8.0.1N|Guide=TwiDus2025", -- [894]
+			"Action=A|Step=The Stolen Letters|M0=81.91,59.17|M1=72.55,46.88|Error=15.45|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [895]
+			"Action=C|Step=The Night Watch|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [896]
+			"Action=C|Step=The Night Watch|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [897]
+			"Action=T|Step=Ghost Hair Thread|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26652|Vers=8.0.1N|Guide=TwiDus2025", -- [898]
+			"Action=T|Step=Ghost Hair Thread|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26652|Vers=8.0.1N|Guide=TwiDus2025", -- [899]
+			"Action=T|Step=Look To The Stars|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26683|Vers=8.0.1N|Guide=TwiDus2025", -- [900]
+			"Action=A|Step=Return the Comb|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26654|Vers=8.0.1N|Guide=TwiDus2025", -- [901]
+			"Action=A|Step=The Insane Ghoul|M0=81.91,59.17|M1=81.92,59.26|Error=0.09|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [902]
+			"Action=C|Step=The Insane Ghoul|M0=73.72,46.89|M1=80.39,71.11|Error=25.12|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [903]
+			"Action=T|Step=The Insane Ghoul|M0=73.72,46.89|M1=79.53,47.50|Error=5.85|QID=26684|Vers=8.0.1N|Guide=TwiDus2025", -- [904]
+			"Action=A|Step=Classy Glass|M0=73.72,46.89|M1=79.53,47.50|Error=5.85|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [905]
+			"Action=T|Step=Return the Comb|M0=73.72,46.89|M1=75.73,45.33|Error=2.54|QID=26654|Vers=8.0.1N|Guide=TwiDus2025", -- [906]
+			"Action=A|Step=Deliver the Thread|M0=73.72,46.89|M1=75.73,45.33|Error=2.54|QID=26655|Vers=8.0.1N|Guide=TwiDus2025", -- [907]
+			"Action=T|Step=The Night Watch|M0=73.72,46.89|M1=73.63,46.83|Error=0.11|QID=26645|Vers=8.0.1N|Guide=TwiDus2025", -- [908]
+			"Action=A|Step=Bones That Walk|M0=87.45,35.38|M1=73.63,46.83|Error=17.95|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [909]
+			"Action=T|Step=Deliver the Thread|M0=87.45,35.38|M1=87.40,35.30|Error=0.09|QID=26655|Vers=8.0.1N|Guide=TwiDus2025", -- [910]
+			"Action=A|Step=Zombie Juice|M0=77.63,68.83|M1=87.40,35.30|Error=34.92|QID=26660|Vers=8.0.1N|Guide=TwiDus2025", -- [911]
+			"Action=T|Step=Zombie Juice|M0=73.83,44.47|M1=74.06,44.89|Error=0.48|QID=26660|Vers=8.0.1N|Guide=TwiDus2025", -- [912]
+			"Action=A|Step=Gather Rot Blossoms|M0=73.83,44.47|M1=74.06,44.89|Error=0.48|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [913]
+			"Action=C|Step=Bones That Walk|M0=77.40,68.54|M1=79.45,72.51|Error=4.47|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [914]
+			"Action=C|Step=Gather Rot Blossoms|M0=77.40,68.54|M1=79.55,72.60|Error=4.60|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [915]
+			"Action=T|Step=Bones That Walk|M0=73.83,44.47|M1=73.55,47.00|Error=2.54|QID=26686|Vers=8.0.1N|Guide=TwiDus2025", -- [916]
+			"Action=T|Step=Gather Rot Blossoms|M0=73.83,44.47|M1=74.06,44.88|Error=0.48|QID=26661|Vers=8.0.1N|Guide=TwiDus2025", -- [917]
+			"Action=A|Step=Juice Delivery|M0=73.83,44.47|M1=74.06,44.88|Error=0.48|QID=26676|Vers=8.0.1N|Guide=TwiDus2025", -- [918]
+			"Action=T|Step=Juice Delivery|M0=87.45,35.38|M1=87.41,35.33|Error=0.06|QID=26676|Vers=8.0.1N|Guide=TwiDus2025", -- [919]
+			"Action=A|Step=Ogre Thieves|M0=61.24,40.39|M1=87.41,35.33|Error=26.66|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [920]
+			"Action=C|Step=The Stolen Letters|M0=61.24,40.39|M1=61.36,40.58|Error=0.22|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [921]
+			"Action=T|Step=The Stolen Letters|M0=72.50,46.87|M1=72.52,46.90|Error=0.03|QID=26667|Vers=8.0.1N|Guide=TwiDus2025", -- [922]
+			"Action=A|Step=In A Dark Corner|M0=72.50,46.87|M1=72.52,46.90|Error=0.03|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [923]
+			"Action=C|Step=The Rotting Orchard|M0=66.50,76.50|M1=64.74,74.95|Error=2.34|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [924]
+			"Action=C|Step=In A Dark Corner|M0=66.50,76.50|M1=66.46,76.47|Error=0.05|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [925]
+			"Action=A|Step=A Deadly Vine|M0=45.18,66.95|M1=44.88,67.47|Error=0.60|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [926]
+			"Action=A|Step=The Yorgen Worgen|M0=45.18,66.95|M1=44.88,67.47|Error=0.60|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [927]
+			"Action=A|Step=Vulgar Vul'Gol|M0=45.18,66.95|M1=45.02,67.09|Error=0.21|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [928]
+			"Action=A|Step=The Yorgen Worgen|M0=45.18,66.95|M1=44.05,69.00|Error=2.34|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [929]
+			"Action=C|Step=Ogre Thieves|M0=33.45,75.27|M1=33.53,75.19|Error=0.11|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [930]
+			"Action=C|Step=Vulgar Vul'Gol|M0=37.84,84.33|M1=36.90,82.31|Error=2.23|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [931]
+			"Action=C|Step=Vulgar Vul'Gol|M0=37.84,84.33|M1=36.90,82.31|Error=2.23|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [932]
+			"Action=C|Step=Classy Glass|M0=37.84,84.33|M1=37.63,84.21|Error=0.24|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [933]
+			"Action=T|Step=Vulgar Vul'Gol|M0=45.18,66.95|M1=45.03,66.99|Error=0.16|QID=25235|Vers=8.0.1N|Guide=TwiDus2025", -- [934]
+			"Action=C|Step=A Deadly Vine|M0=49.68,77.88|M1=49.69,74.87|Error=3.01|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [935]
+			"Action=C|Step=A Deadly Vine|M0=49.68,77.88|M1=49.69,74.87|Error=3.01|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [936]
+			"Action=C|Step=The Yorgen Worgen|M0=49.68,77.88|M1=49.91,77.63|Error=0.34|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [937]
+			"Action=T|Step=A Deadly Vine|M0=44.81,67.32|M1=44.88,67.37|Error=0.08|QID=26707|Vers=8.0.1N|Guide=TwiDus2025", -- [938]
+			"Action=T|Step=The Yorgen Worgen|M0=44.81,67.32|M1=44.88,67.37|Error=0.08|QID=26717|Vers=8.0.1N|Guide=TwiDus2025", -- [939]
+			"Action=A|Step=Delivery to Master Harris|M0=44.81,67.32|M1=44.88,67.37|Error=0.08|QID=26719|Vers=8.0.1N|Guide=TwiDus2025", -- [940]
+			"Action=H|Step=Scarlet Raven Tavern|M0=44.81,67.32|M1=73.95,44.53|Error=36.99|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [941]
+			"Action=T|Step=In A Dark Corner|M0=72.50,46.87|M1=72.53,46.91|Error=0.05|QID=26669|Vers=8.0.1N|Guide=TwiDus2025", -- [942]
+			"Action=A|Step=Roland's Doom|M0=72.50,46.87|M1=72.53,46.91|Error=0.05|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [943]
+			"Action=T|Step=The Rotting Orchard|M0=75.28,47.95|M1=75.22,48.00|Error=0.08|QID=26689|Vers=8.0.1N|Guide=TwiDus2025", -- [944]
+			"Action=A|Step=Vile and Tainted|M0=79.53,47.41|M1=75.22,48.00|Error=4.35|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [945]
+			"Action=T|Step=Classy Glass|M0=79.53,47.41|M1=79.51,47.41|Error=0.02|QID=26685|Vers=8.0.1N|Guide=TwiDus2025", -- [946]
+			"Action=T|Step=Ogre Thieves|M0=87.45,35.38|M1=87.40,35.26|Error=0.13|QID=26680|Vers=8.0.1N|Guide=TwiDus2025", -- [947]
+			"Action=A|Step=Ghoulish Effigy|M0=73.63,79.19|M1=87.40,35.26|Error=46.03|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [948]
+			"Action=C|Step=Ghoulish Effigy|M0=76.83,33.72|M1=75.03,34.63|Error=2.02|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [949]
+			"Action=T|Step=Ghoulish Effigy|M0=87.45,35.38|M1=87.46,35.27|Error=0.11|QID=26677|Vers=8.0.1N|Guide=TwiDus2025", -- [950]
+			"Action=A|Step=Note to the Mayor|M0=87.45,35.38|M1=87.46,35.27|Error=0.11|QID=26681|Vers=8.0.1N|Guide=TwiDus2025", -- [951]
+			"Action=T|Step=Note to the Mayor|M0=71.85,46.45|M1=71.86,46.58|Error=0.13|QID=26681|Vers=8.0.1N|Guide=TwiDus2025", -- [952]
+			"Action=A|Step=The Embalmer's Revenge|M0=73.63,79.19|M1=71.86,46.58|Error=32.66|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [953]
+			"Action=C|Step=The Embalmer's Revenge|M0=73.84,46.62|M1=73.48,46.65|Error=0.37|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [954]
+			"Action=T|Step=The Embalmer's Revenge|M0=71.85,46.45|M1=71.83,46.57|Error=0.12|QID=26727|Vers=8.0.1N|Guide=TwiDus2025", -- [955]
+			"Action=C|Step=Vile and Tainted|M0=73.63,79.19|M1=74.14,78.51|Error=0.85|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [956]
+			"Action=C|Step=Vile and Tainted|M0=73.63,79.19|M1=74.14,78.51|Error=0.85|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [957]
+			"Action=C|Step=Roland's Doom|M0=73.63,79.19|M1=73.69,79.12|Error=0.09|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [958]
+			"Action=T|Step=Vile and Tainted|M0=75.28,47.95|M1=75.28,47.97|Error=0.02|QID=26690|Vers=8.0.1N|Guide=TwiDus2025", -- [959]
+			"Action=A|Step=Worgen in the Woods|M0=75.28,47.95|M1=75.28,47.97|Error=0.02|QID=26691|Vers=8.0.1N|Guide=TwiDus2025", -- [960]
+			"Action=T|Step=Worgen in the Woods|M0=75.35,48.93|M1=75.31,48.87|Error=0.07|QID=26691|Vers=8.0.1N|Guide=TwiDus2025", -- [961]
+			"Action=T|Step=Roland's Doom|M0=72.50,46.87|M1=72.53,46.87|Error=0.03|QID=26670|Vers=8.0.1N|Guide=TwiDus2025", -- [962]
+			"Action=A|Step=The Fate of Stalvan Mistmantle|M0=72.50,46.87|M1=72.53,46.87|Error=0.03|QID=26671|Vers=8.0.1N|Guide=TwiDus2025", -- [963]
+			"Action=T|Step=The Fate of Stalvan Mistmantle|M0=78.95,44.25|M1=79.02,44.26|Error=0.07|QID=26671|Vers=8.0.1N|Guide=TwiDus2025", -- [964]
+			"Action=A|Step=Clawing at the Truth|M0=77.45,44.25|M1=79.02,44.26|Error=1.57|QID=26672|Vers=8.0.1N|Guide=TwiDus2025", -- [965]
+			"Action=T|Step=Clawing at the Truth|M0=75.76,45.28|M1=75.78,45.24|Error=0.04|QID=26672|Vers=8.0.1N|Guide=TwiDus2025", -- [966]
+			"Action=A|Step=Mistmantle's Revenge|M0=75.76,45.28|M1=75.78,45.24|Error=0.04|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [967]
+			"Action=C|Step=Mistmantle's Revenge|M0=77.39,36.32|M1=77.39,36.11|Error=0.21|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [968]
+			"Action=T|Step=Mistmantle's Revenge|M0=78.98,44.21|M1=78.99,44.25|Error=0.04|QID=26674|Vers=8.0.1N|Guide=TwiDus2025", -- [969]
+			"Action=L|Step=Level 25|M0=44.81,67.32|M1=57.49,71.46|Error=13.34|QID=-99|Vers=8.0.1N|Guide=BitAra2025", -- [970]
+			"Action=R|Step=Refuge Pointe|M0=39.91,48.71|M1=39.31,55.64|Error=6.96|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [971]
+			"Action=f|Step=Refuge Point|M0=39.85,47.34|M1=39.88,47.40|Error=0.07|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [972]
+			"Action=A|Step=Quae and Kinelory|M0=39.91,49.04|M1=39.98,47.58|Error=1.46|QID=26113|Vers=8.0.1N|Guide=BitAra2025", -- [973]
+			"Action=A|Step=Northfold Manor|M0=39.91,49.04|M1=40.00,48.74|Error=0.31|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [974]
+			"Action=A|Step=Wanted! Marez Cowl|M0=39.91,49.04|M1=40.19,49.01|Error=0.28|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [975]
+			"Action=A|Step=Wanted! Otto and Falconcrest|M0=39.91,49.04|M1=40.19,49.01|Error=0.28|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [976]
+			"Action=A|Step=Worth Its Weight in Gold|M0=39.91,49.04|M1=40.30,49.04|Error=0.39|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [977]
+			"Action=A|Step=Shakes O'Breen|M0=39.91,49.04|M1=40.30,49.04|Error=0.39|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [978]
+			"Action=A|Step=The Stone Shards|M0=39.91,49.04|M1=40.30,49.04|Error=0.39|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [979]
+			"Action=C|Step=Worth Its Weight in Gold|M0=39.91,49.04|M1=61.37,66.00|Error=27.36|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [980]
+			"Action=T|Step=Quae and Kinelory|M0=39.91,49.04|M1=54.83,55.28|Error=16.17|QID=26113|Vers=8.0.1N|Guide=BitAra2025", -- [981]
+			"Action=A|Step=Just Like Old Times|M0=39.91,49.04|M1=54.83,55.28|Error=16.17|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [982]
+			"Action=C|Step=Just Like Old Times|M0=39.91,49.04|M1=52.56,64.27|Error=19.80|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [983]
+			"Action=T|Step=Just Like Old Times|M0=39.91,49.04|M1=54.78,55.33|Error=16.15|QID=26110|Vers=8.0.1N|Guide=BitAra2025", -- [984]
+			"Action=A|Step=Quae Trusts You|M0=39.91,49.04|M1=54.78,55.33|Error=16.15|QID=26114|Vers=8.0.1N|Guide=BitAra2025", -- [985]
+			"Action=T|Step=Worth Its Weight in Gold|M0=39.91,49.04|M1=40.37,49.07|Error=0.46|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [986]
+			"Action=h|Step=Refuge Point|M0=39.91,49.04|M1=40.37,49.07|Error=0.46|QID=26035|Vers=8.0.1N|Guide=BitAra2025", -- [987]
+			"Action=A|Step=Wand over Fist|M0=40.27,49.05|M1=40.37,49.07|Error=0.10|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [988]
+			"Action=C|Step=Wand over Fist|M0=47.94,79.38|M1=49.10,83.76|Error=4.53|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [989]
+			"Action=T|Step=Wand over Fist|M0=40.35,48.99|M1=40.35,49.07|Error=0.08|QID=26036|Vers=8.0.1N|Guide=BitAra2025", -- [990]
+			"Action=A|Step=Trelane's Defenses|M0=25.13,30.48|M1=40.35,49.07|Error=24.02|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [991]
+			"Action=C|Step=Northfold Manor|M0=25.13,30.48|M1=25.15,29.22|Error=1.26|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [992]
+			"Action=T|Step=Northfold Manor|M0=39.89,48.75|M1=39.95,48.80|Error=0.08|QID=26093|Vers=8.0.1N|Guide=BitAra2025", -- [993]
+			"Action=A|Step=Stromgarde Badges|M0=39.89,48.75|M1=39.95,48.80|Error=0.08|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [994]
+			"Action=R|Step=Stromgarde Keep|M0=19.60,59.00|M1=19.48,55.82|Error=3.19|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [995]
+			"Action=C|Step=Stromgarde Badges|M0=23.20,64.80|M1=22.88,62.81|Error=2.02|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [996]
+			"Action=C|Step=Stromgarde Badges|M0=23.20,64.80|M1=22.88,62.81|Error=2.02|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [997]
+			"Action=C|Step=Wanted! Marez Cowl|M0=23.20,64.80|M1=23.40,64.74|Error=0.21|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [998]
+			"Action=C|Step=Wanted! Otto and Falconcrest|M0=19.50,67.50|M1=19.64,66.35|Error=1.16|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [999]
+			"Action=C|Step=Trelane's Defenses|M0=17.75,63.10|M1=14.85,69.18|Error=6.74|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [1000]
+			"Action=T|Step=Trelane's Defenses|M0=12.95,69.32|M1=13.13,69.24|Error=0.20|QID=26037|Vers=8.0.1N|Guide=BitAra2025", -- [1001]
+			"Action=A|Step=Attack on the Tower|M0=12.95,69.32|M1=13.13,69.24|Error=0.20|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [1002]
+			"Action=C|Step=Attack on the Tower|M0=11.34,70.17|M1=11.31,70.28|Error=0.11|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [1003]
+			"Action=C|Step=Attack on the Tower|M0=11.17,69.90|M1=11.24,69.99|Error=0.11|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [1004]
+			"Action=C|Step=Attack on the Tower|M0=11.33,71.22|M1=11.24,71.19|Error=0.10|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [1005]
+			"Action=H|Step=Refuge Pointe|M0=39.89,48.75|M1=39.94,49.04|Error=0.29|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [1006]
+			"Action=T|Step=Stromgarde Badges|M0=39.89,48.75|M1=40.06,49.01|Error=0.31|QID=26095|Vers=8.0.1N|Guide=BitAra2025", -- [1007]
+			"Action=T|Step=Wanted! Marez Cowl|M0=39.89,48.75|M1=40.05,48.81|Error=0.17|QID=26024|Vers=8.0.1N|Guide=BitAra2025", -- [1008]
+			"Action=T|Step=Wanted! Otto and Falconcrest|M0=39.89,48.75|M1=40.05,48.81|Error=0.17|QID=26079|Vers=8.0.1N|Guide=BitAra2025", -- [1009]
+			"Action=T|Step=Attack on the Tower|M0=40.22,49.07|M1=40.25,49.02|Error=0.06|QID=26038|Vers=8.0.1N|Guide=BitAra2025", -- [1010]
+			"Action=R|Step=Faldir's Cove|M0=24.85,67.55|M1=26.04,78.86|Error=11.37|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [1011]
+			"Action=A|Step=Goggle Boggle|M0=26.03,83.93|M1=27.65,82.79|Error=1.98|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [1012]
+			"Action=A|Step=Drowned Sorrows|M0=26.03,83.93|M1=27.67,83.18|Error=1.80|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [1013]
+			"Action=T|Step=Shakes O'Breen|M0=26.03,83.93|M1=26.02,83.95|Error=0.02|QID=26336|Vers=8.0.1N|Guide=BitAra2025", -- [1014]
+			"Action=C|Step=Goggle Boggle|M0=27.60,83.13|M1=26.99,83.67|Error=0.81|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [1015]
+			"Action=T|Step=Drowned Sorrows|M0=27.60,83.13|M1=27.57,83.11|Error=0.04|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [1016]
+			"Action=C|Step=Drowned Sorrows|M0=27.50,83.13|M1=15.17,92.94|Error=15.76|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [1017]
+			"Action=C|Step=Drowned Sorrows|M0=27.50,83.13|M1=15.17,92.94|Error=15.76|QID=26055|Vers=8.0.1N|Guide=BitAra2025", -- [1018]
+			"Action=A|Step=Goggle Boggle|M0=27.50,83.13|M1=27.65,83.30|Error=0.22|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [1019]
+			"Action=C|Step=Goggle Boggle|M0=27.60,83.13|M1=27.58,83.02|Error=0.11|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [1020]
+			"Action=T|Step=Goggle Boggle|M0=27.60,83.13|M1=27.58,83.02|Error=0.11|QID=26050|Vers=8.0.1N|Guide=BitAra2025", -- [1021]
+			"Action=A|Step=Sunken Treasure|M0=27.60,83.13|M1=27.58,83.02|Error=0.11|QID=26051|Vers=8.0.1N|Guide=BitAra2025", -- [1022]
+			"Action=A|Step=The Stone Shards|M0=27.60,83.13|M1=40.28,49.07|Error=36.34|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [1023]
+			"Action=A|Step=Quae Trusts You|M0=27.60,83.13|M1=54.71,55.28|Error=38.86|QID=26114|Vers=8.0.1N|Guide=BitAra2025", -- [1024]
+			"Action=T|Step=Quae Trusts You|M0=27.60,83.13|M1=54.78,55.34|Error=38.87|QID=26114|Vers=8.0.1N|Guide=BitAra2025", -- [1025]
+			"Action=A|Step=Kinelory Strikes|M0=27.60,83.13|M1=54.78,55.34|Error=38.87|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [1026]
+			"Action=C|Step=Kinelory Strikes|M0=27.60,83.13|M1=52.78,44.23|Error=46.34|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [1027]
+			"Action=T|Step=The Stone Shards|M0=27.60,83.13|M1=57.18,34.74|Error=56.72|QID=26341|Vers=8.0.1N|Guide=BitAra2025", -- [1028]
+			"Action=A|Step=The Princess Trapped|M0=27.60,83.13|M1=57.18,34.74|Error=56.72|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [1029]
+			"Action=T|Step=Kinelory Strikes|M0=27.60,83.13|M1=54.87,55.33|Error=38.94|QID=26116|Vers=8.0.1N|Guide=BitAra2025", -- [1030]
+			"Action=A|Step=For Southshore|M0=27.60,83.13|M1=54.77,55.45|Error=38.79|QID=26117|Vers=8.0.1N|Guide=BitAra2025", -- [1031]
+			"Action=C|Step=The Princess Trapped|M0=27.60,83.13|M1=80.54,32.02|Error=73.59|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [1032]
+			"Action=T|Step=The Princess Trapped|M0=27.60,83.13|M1=79.82,31.55|Error=73.40|QID=26039|Vers=8.0.1N|Guide=BitAra2025", -- [1033]
+			"Action=A|Step=Stones of Binding|M0=27.60,83.13|M1=79.82,31.55|Error=73.40|QID=26041|Vers=8.0.1N|Guide=BitAra2025", -- [1034]
+			"Action=T|Step=For Southshore|M0=27.60,83.13|M1=39.59,47.90|Error=37.21|QID=26117|Vers=8.0.1N|Guide=BitAra2025", -- [1035]
+			"Action=L|Step=Level 30|M0=27.60,83.13|M1=67.55,68.87|Error=42.42|QID=-99|Vers=8.0.1N|Guide=CraHin3035", -- [1036]
+			"Action=A|Step=Vilebranch Scum|M0=27.60,83.13|M1=67.55,68.87|Error=42.42|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [1037]
+			"Action=A|Step=Heads Up|M0=27.60,83.13|M1=67.55,68.87|Error=42.42|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [1038]
+			"Action=A|Step=Faces of Evil|M0=27.60,83.13|M1=67.55,68.87|Error=42.42|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [1039]
+			"Action=A|Step=All That Skitters|M0=27.60,83.13|M1=67.55,68.87|Error=42.42|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [1040]
+			"Action=C|Step=Vilebranch Scum|M0=65.16,65.11|M1=66.19,70.21|Error=5.20|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [1041]
+			"Action=C|Step=Vilebranch Scum|M0=65.16,65.11|M1=66.19,70.21|Error=5.20|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [1042]
+			"Action=C|Step=Heads Up|M0=65.16,65.11|M1=65.16,65.01|Error=0.10|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [1043]
+			"Action=C|Step=Faces of Evil|M0=65.29,67.31|M1=66.05,76.38|Error=9.10|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [1044]
+			"Action=C|Step=All That Skitters|M0=68.55,70.21|M1=65.27,66.61|Error=4.87|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [1045]
+			"Action=T|Step=Vilebranch Scum|M0=63.90,60.04|M1=63.94,59.96|Error=0.09|QID=26497|Vers=8.0.1N|Guide=CraHin3035", -- [1046]
+			"Action=T|Step=Heads Up|M0=63.90,60.04|M1=63.94,59.96|Error=0.09|QID=26518|Vers=8.0.1N|Guide=CraHin3035", -- [1047]
+			"Action=A|Step=Ongo'longo's Revenge|M0=63.90,60.04|M1=63.94,59.96|Error=0.09|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1048]
+			"Action=A|Step=Death to the Vilebranch|M0=63.90,60.04|M1=63.78,59.98|Error=0.13|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1049]
+			"Action=T|Step=Faces of Evil|M0=63.86,60.00|M1=63.71,59.98|Error=0.15|QID=26521|Vers=8.0.1N|Guide=CraHin3035", -- [1050]
+			"Action=T|Step=All That Skitters|M0=63.86,60.00|M1=63.71,59.98|Error=0.15|QID=26523|Vers=8.0.1N|Guide=CraHin3035", -- [1051]
+			"Action=A|Step=Dark Vessels|M0=63.89,60.04|M1=63.71,59.98|Error=0.19|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1052]
+			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=66.35,63.67|Error=4.38|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1053]
+			"Action=C|Step=Death to the Vilebranch|M0=62.33,75.19|M1=64.62,71.45|Error=4.38|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1054]
+			"Action=C|Step=Dark Vessels|M0=62.33,75.19|M1=66.43,74.59|Error=4.15|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1055]
+			"Action=C|Step=Dark Vessels|M0=62.33,75.19|M1=66.43,74.59|Error=4.15|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1056]
+			"Action=C|Step=Ongo'longo's Revenge|M0=62.33,75.19|M1=62.04,75.26|Error=0.30|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1057]
+			"Action=T|Step=Ongo'longo's Revenge|M0=63.89,59.97|M1=63.92,59.91|Error=0.07|QID=26515|Vers=8.0.1N|Guide=CraHin3035", -- [1058]
+			"Action=T|Step=Death to the Vilebranch|M0=63.87,59.99|M1=63.92,59.91|Error=0.10|QID=26498|Vers=8.0.1N|Guide=CraHin3035", -- [1059]
+			"Action=A|Step=It's Ours Now|M0=63.83,60.02|M1=63.92,59.91|Error=0.15|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1060]
+			"Action=T|Step=Dark Vessels|M0=63.83,60.02|M1=63.73,59.99|Error=0.11|QID=26524|Vers=8.0.1N|Guide=CraHin3035", -- [1061]
+			"Action=A|Step=Summit of Fate|M0=63.83,59.97|M1=63.73,59.99|Error=0.10|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1062]
+			"Action=T|Step=Summit of Fate|M0=63.90,60.04|M1=64.05,59.94|Error=0.18|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1063]
+			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=66.58,63.66|Error=4.50|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1064]
+			"Action=C|Step=It's Ours Now|M0=59.20,76.98|M1=60.16,73.30|Error=3.80|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1065]
+			"Action=C|Step=Summit of Fate|M0=59.20,76.98|M1=58.63,76.18|Error=0.98|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1066]
+			"Action=F|Step=The Hinterlands|M0=59.20,76.98|M1=58.63,76.18|Error=0.98|QID=26517|Vers=8.0.1N|Guide=CraHin3035", -- [1067]
+			"Action=A|Step=Hunt the Keeper|M0=63.76,60.03|M1=63.75,59.96|Error=0.07|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1068]
+			"Action=A|Step=Venomous Secrets|M0=63.76,60.03|M1=63.75,59.96|Error=0.07|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1069]
+			"Action=T|Step=It's Ours Now|M0=63.85,59.92|M1=63.89,59.92|Error=0.04|QID=26516|Vers=8.0.1N|Guide=CraHin3035", -- [1070]
+			"Action=F|Step=Jintha'Alor|M0=63.90,60.04|M1=52.73,65.52|Error=12.44|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1071]
+			"Action=C|Step=Venomous Secrets|M0=59.69,77.83|M1=56.82,83.56|Error=6.41|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1072]
+			"Action=C|Step=Venomous Secrets|M0=59.69,77.83|M1=56.82,83.56|Error=6.41|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1073]
+			"Action=C|Step=Hunt the Keeper|M0=59.69,77.83|M1=57.27,86.35|Error=8.86|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1074]
+			"Action=F|Step=The Hinterlands|M0=59.69,77.83|M1=57.27,86.35|Error=8.86|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1075]
+			"Action=T|Step=Hunt the Keeper|M0=63.76,60.04|M1=63.65,59.96|Error=0.14|QID=26526|Vers=8.0.1N|Guide=CraHin3035", -- [1076]
+			"Action=T|Step=Venomous Secrets|M0=63.76,60.04|M1=63.65,59.96|Error=0.14|QID=26525|Vers=8.0.1N|Guide=CraHin3035", -- [1077]
+			"Action=A|Step=Quel'Danil Lodge|M0=63.99,59.85|M1=63.96,59.89|Error=0.06|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1078]
+			"Action=R|Step=Quel'Danil Lodge|M0=26.37,55.00|M1=36.14,45.37|Error=13.72|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1079]
+			"Action=T|Step=Quel'Danil Lodge|M0=32.20,42.63|M1=32.17,42.59|Error=0.04|QID=27725|Vers=8.0.1N|Guide=CraHin3035", -- [1080]
+			"Action=A|Step=In Defense of Quel'Danil|M0=32.20,42.63|M1=32.17,42.59|Error=0.04|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1081]
+			"Action=A|Step=The Highvale Documents|M0=32.20,42.63|M1=32.17,42.59|Error=0.04|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1082]
+			"Action=C|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=31.22,48.12|Error=3.37|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1083]
+			"Action=C|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=31.22,48.12|Error=3.37|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1084]
+			"Action=C|Step=The Highvale Documents|M0=28.56,46.04|M1=31.92,46.92|Error=3.47|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1085]
+			"Action=T|Step=In Defense of Quel'Danil|M0=28.56,46.04|M1=32.19,42.61|Error=4.99|QID=27625|Vers=8.0.1N|Guide=CraHin3035", -- [1086]
+			"Action=T|Step=The Highvale Documents|M0=28.56,46.04|M1=32.19,42.61|Error=4.99|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1087]
+			"Action=l|Step=Highvale Report|M0=28.56,46.04|M1=32.19,42.61|Error=4.99|QID=27626|Vers=8.0.1N|Guide=CraHin3035", -- [1088]
+			"Action=A|Step=The Eye of Shadra|M0=30.74,47.18|M1=30.61,47.08|Error=0.16|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1089]
+			"Action=A|Step=Can't Make An Omelette Without...|M0=30.74,47.18|M1=30.61,47.08|Error=0.16|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1090]
+			"Action=R|Step=Agol'watha|M0=47.56,41.83|M1=42.25,46.59|Error=7.13|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1091]
+			"Action=C|Step=The Eye of Shadra|M0=45.53,38.92|M1=45.51,38.89|Error=0.04|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1092]
+			"Action=C|Step=Can't Make An Omelette Without...|M0=46.13,40.36|M1=46.48,41.44|Error=1.13|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1093]
+			"Action=T|Step=The Eye of Shadra|M0=30.74,47.19|M1=30.66,47.01|Error=0.20|QID=26528|Vers=8.0.1N|Guide=CraHin3035", -- [1094]
+			"Action=A|Step=The Fang of Shadra|M0=30.74,47.19|M1=30.66,47.01|Error=0.20|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1095]
+			"Action=T|Step=Can't Make An Omelette Without...|M0=30.74,47.19|M1=30.66,47.01|Error=0.20|QID=26641|Vers=8.0.1N|Guide=CraHin3035", -- [1096]
+			"Action=A|Step=Starvation Diet|M0=49.47,52.28|M1=30.66,47.01|Error=19.54|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1097]
+			"Action=C|Step=Starvation Diet|M0=49.47,52.28|M1=49.16,52.82|Error=0.62|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1098]
+			"Action=C|Step=Starvation Diet|M0=49.47,52.28|M1=49.16,52.82|Error=0.62|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1099]
+			"Action=C|Step=The Fang of Shadra|M0=49.47,52.28|M1=49.50,52.17|Error=0.12|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1100]
+			"Action=T|Step=The Fang of Shadra|M0=30.74,47.22|M1=30.64,47.06|Error=0.18|QID=26529|Vers=8.0.1N|Guide=CraHin3035", -- [1101]
+			"Action=A|Step=The Shell of Shadra|M0=30.74,47.22|M1=30.64,47.06|Error=0.18|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1102]
+			"Action=T|Step=Starvation Diet|M0=30.74,47.22|M1=30.64,47.06|Error=0.18|QID=26643|Vers=8.0.1N|Guide=CraHin3035", -- [1103]
+			"Action=C|Step=The Shell of Shadra|M0=48.35,67.64|M1=48.39,67.60|Error=0.06|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1104]
+			"Action=T|Step=The Shell of Shadra|M0=30.74,47.20|M1=30.70,47.18|Error=0.04|QID=26530|Vers=8.0.1N|Guide=CraHin3035", -- [1105]
+			"Action=A|Step=Summoning Shadra|M0=35.72,64.40|M1=30.70,47.18|Error=17.93|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1106]
+			"Action=R|Step=Shadra'Alor|M0=35.72,64.40|M1=35.70,63.75|Error=0.65|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1107]
+			"Action=C|Step=Northwestern Temple|M0=32.03,67.07|M1=32.22,67.29|Error=0.29|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1108]
+			"Action=C|Step=Southwestern Temple|M0=32.03,67.07|M1=32.22,67.29|Error=0.29|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1109]
+			"Action=C|Step=Eastern Temple|M0=37.03,71.55|M1=37.05,71.37|Error=0.18|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1110]
+			"Action=T|Step=Summoning Shadra|M0=34.39,67.91|M1=34.35,67.86|Error=0.06|QID=26531|Vers=8.0.1N|Guide=CraHin3035", -- [1111]
+			"Action=A|Step=Shadra the Venom Queen|M0=34.39,67.91|M1=34.35,67.86|Error=0.06|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1112]
+			"Action=C|Step=Shadra the Venom Queen|M0=34.21,69.46|M1=34.09,69.36|Error=0.16|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1113]
+			"Action=A|Step=The Battle for Andorhal|M0=34.21,69.46|M1=9.96,44.32|Error=34.93|QID=28505|Vers=8.0.1N|Guide=CraHin3035", -- [1114]
+			"Action=T|Step=Shadra the Venom Queen|M0=34.21,69.46|M1=9.96,44.32|Error=34.93|QID=26532|Vers=8.0.1N|Guide=CraHin3035", -- [1115]
+			"Action=l|Step=Hulking Plaguebear Samples|M0=53.78,64.67|M1=43.19,49.01|Error=18.90|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1116]
+			"Action=l|Step=Diseased Wolf Samples|M0=53.78,64.67|M1=46.32,47.29|Error=18.91|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1117]
+			"Action=l|Step=Diseased Wolf Samples|M0=53.78,64.67|M1=46.32,47.29|Error=18.91|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1118]
+			"Action=C|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=52.94,50.43|Error=14.26|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1119]
+			"Action=C|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=52.94,50.43|Error=14.26|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1120]
+			"Action=T|Step=Zen'Kiki, the Druid|M0=53.78,64.67|M1=48.84,54.81|Error=11.03|QID=26953|Vers=8.0.1N|Guide=BitWes3540", -- [1121]
+			"Action=A|Step=A Different Approach|M0=53.78,64.67|M1=48.84,54.81|Error=11.03|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1122]
+			"Action=T|Step=I Ain't Sayin' You a Gourd-Digger...|M0=53.78,64.67|M1=48.52,54.92|Error=11.08|QID=26956|Vers=8.0.1N|Guide=BitWes3540", -- [1123]
+			"Action=C|Step=A New Era for the Plaguelands|M0=53.78,64.67|M1=51.41,60.11|Error=5.14|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1124]
+			"Action=C|Step=A Different Approach|M0=53.78,64.67|M1=53.94,53.75|Error=10.92|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1125]
+			"Action=T|Step=A New Era for the Plaguelands|M0=53.78,64.67|M1=49.22,54.97|Error=10.72|QID=26999|Vers=8.0.1N|Guide=BitWes3540", -- [1126]
+			"Action=A|Step=Northridge Lumber Mill|M0=53.78,64.67|M1=49.22,54.97|Error=10.72|QID=26935|Vers=8.0.1N|Guide=BitWes3540", -- [1127]
+			"Action=T|Step=A Different Approach|M0=53.78,64.67|M1=48.86,54.83|Error=11.00|QID=26954|Vers=8.0.1N|Guide=BitWes3540", -- [1128]
+			"Action=T|Step=Northridge Lumber Mill|M0=53.78,64.67|M1=48.15,32.35|Error=32.81|QID=26935|Vers=8.0.1N|Guide=BitWes3540", -- [1129]
+			"Action=A|Step=Learning the Ropes|M0=53.78,64.67|M1=48.15,32.35|Error=32.81|QID=27000|Vers=8.0.1N|Guide=BitWes3540", -- [1130]
+			"Action=A|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.55,32.09|Error=33.00|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1131]
+			"Action=C|Step=Too Close for Comfort|M0=53.78,64.67|M1=44.21,38.36|Error=28.00|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1132]
+			"Action=T|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.30,32.00|Error=33.13|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1133]
+			"Action=f|Step=The Menders' Stead|M0=53.78,64.67|M1=40.39,47.36|Error=21.88|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1134]
+			"Action=A|Step=Into the Woods|M0=53.78,64.67|M1=42.96,83.59|Error=21.79|QID=27683|Vers=8.0.1N|Guide=BitWes3540", -- [1135]
 		},
 		["Achievements"] = {
 			["Achievement"] = {
@@ -10739,10 +10886,10 @@ WoWProData = {
 					["icon"] = 463875,
 					["cid"] = 15252,
 				},
-				[11264] = {
-					["name"] = "Adventurer of Highmountain",
-					["icon"] = 1409000,
-					["cid"] = 15257,
+				[2817] = {
+					["name"] = "Exalted Argent Champion of the Alliance",
+					["icon"] = 255130,
+					["cid"] = 14941,
 				},
 				[1872] = {
 					["name"] = "Zombiefest!",
@@ -10939,10 +11086,10 @@ WoWProData = {
 					["icon"] = 897697,
 					["cid"] = 15107,
 				},
-				[12544] = {
-					["name"] = "Level 120",
-					["icon"] = 2065613,
-					["cid"] = 92,
+				[3137] = {
+					["name"] = "Emalon the Storm Watcher (25 player)",
+					["icon"] = 134452,
+					["cid"] = 14901,
 				},
 				[12576] = {
 					["name"] = "Tour of Duty: Vol'dun",
@@ -11529,10 +11676,10 @@ WoWProData = {
 					["icon"] = 643856,
 					["cid"] = 15119,
 				},
-				[12321] = {
-					["name"] = "A Quick Shave",
-					["icon"] = 298670,
-					["cid"] = 14922,
+				[8226] = {
+					["name"] = "Collector: Inert Sound Beacons",
+					["icon"] = 236805,
+					["cid"] = 15071,
 				},
 				[12257] = {
 					["name"] = "Stardust Crusaders",
@@ -11544,10 +11691,10 @@ WoWProData = {
 					["icon"] = 1100179,
 					["cid"] = 15119,
 				},
-				[8226] = {
-					["name"] = "Collector: Inert Sound Beacons",
-					["icon"] = 236805,
-					["cid"] = 15071,
+				[12321] = {
+					["name"] = "A Quick Shave",
+					["icon"] = 298670,
+					["cid"] = 14922,
 				},
 				[1596] = {
 					["name"] = "Guru of Drakuru",
@@ -11699,10 +11846,10 @@ WoWProData = {
 					["icon"] = 1869658,
 					["cid"] = 15285,
 				},
-				[4610] = {
-					["name"] = "Boned (25 player)",
-					["icon"] = 342917,
-					["cid"] = 14922,
+				[1153] = {
+					["name"] = "Overly Defensive",
+					["icon"] = 236346,
+					["cid"] = 14802,
 				},
 				[9250] = {
 					["name"] = "Flying High",
@@ -11754,10 +11901,10 @@ WoWProData = {
 					["icon"] = 236719,
 					["cid"] = 14862,
 				},
-				[9794] = {
-					["name"] = "Big Race Novice",
-					["icon"] = 1100022,
-					["cid"] = 15101,
+				[1225] = {
+					["name"] = "Outland Angler",
+					["icon"] = 236576,
+					["cid"] = 171,
 				},
 				[9602] = {
 					["name"] = "Shoot For the Moon",
@@ -11789,10 +11936,10 @@ WoWProData = {
 					["icon"] = 456570,
 					["cid"] = 15072,
 				},
-				[1225] = {
-					["name"] = "Outland Angler",
-					["icon"] = 236576,
-					["cid"] = 171,
+				[9794] = {
+					["name"] = "Big Race Novice",
+					["icon"] = 1100022,
+					["cid"] = 15101,
 				},
 				[4914] = {
 					["name"] = "Working In the Heat",
@@ -11834,10 +11981,10 @@ WoWProData = {
 					["icon"] = 132765,
 					["cid"] = 171,
 				},
-				[10082] = {
-					["name"] = "Mythic: Grimrail Depot",
-					["icon"] = 1002598,
-					["cid"] = 15228,
+				[1261] = {
+					["name"] = "G.N.E.R.D. Rage",
+					["icon"] = 132352,
+					["cid"] = 158,
 				},
 				[1265] = {
 					["name"] = "Explore Dragonblight",
@@ -12089,10 +12236,10 @@ WoWProData = {
 					["icon"] = 134019,
 					["cid"] = 170,
 				},
-				[5858] = {
-					["name"] = "Bear-ly Made It",
-					["icon"] = 446127,
-					["cid"] = 15067,
+				[11714] = {
+					["name"] = "Viciously Vintage",
+					["icon"] = 467623,
+					["cid"] = 15259,
 				},
 				[11746] = {
 					["name"] = "Outlandish Style",
@@ -12299,10 +12446,10 @@ WoWProData = {
 					["icon"] = 643249,
 					["cid"] = 15284,
 				},
-				[13058] = {
-					["name"] = "Kul Tiran Up the Dance Floor",
-					["icon"] = 651727,
-					["cid"] = 15298,
+				[8963] = {
+					["name"] = "Mythic: Twin Ogron",
+					["icon"] = 1019377,
+					["cid"] = 15231,
 				},
 				[6546] = {
 					["name"] = "The Golden Lotus",
@@ -12334,10 +12481,10 @@ WoWProData = {
 					["icon"] = 461267,
 					["cid"] = 15107,
 				},
-				[6882] = {
-					["name"] = "Temple of Kotmogu Veteran",
-					["icon"] = 623704,
-					["cid"] = 15163,
+				[9667] = {
+					["name"] = "Burn It to the Ground",
+					["icon"] = 135831,
+					["cid"] = 15220,
 				},
 				[7347] = {
 					["name"] = "Collector: Standards of Niuzao",
@@ -12354,25 +12501,25 @@ WoWProData = {
 					["icon"] = 132281,
 					["cid"] = 169,
 				},
-				[1705] = {
-					["name"] = "Clockwork Rocket Bot",
-					["icon"] = 133202,
-					["cid"] = 15274,
+				[9539] = {
+					["name"] = "Advanced Husbandry",
+					["icon"] = 975744,
+					["cid"] = 15303,
 				},
 				[6722] = {
 					["name"] = "Heroic: Four Kings",
 					["icon"] = 625908,
 					["cid"] = 15107,
 				},
-				[9667] = {
-					["name"] = "Burn It to the Ground",
-					["icon"] = 135831,
-					["cid"] = 15220,
+				[6882] = {
+					["name"] = "Temple of Kotmogu Veteran",
+					["icon"] = 623704,
+					["cid"] = 15163,
 				},
-				[9411] = {
-					["name"] = "Highmaul Historian",
-					["icon"] = 236695,
-					["cid"] = 15071,
+				[6754] = {
+					["name"] = "The Dark Heart of the Mogu",
+					["icon"] = 645218,
+					["cid"] = 15113,
 				},
 				[1693] = {
 					["name"] = "Fool For Love",
@@ -12389,10 +12536,10 @@ WoWProData = {
 					["icon"] = 135451,
 					["cid"] = 187,
 				},
-				[9539] = {
-					["name"] = "Advanced Husbandry",
-					["icon"] = 975744,
-					["cid"] = 15303,
+				[1705] = {
+					["name"] = "Clockwork Rocket Bot",
+					["icon"] = 133202,
+					["cid"] = 15274,
 				},
 				[9571] = {
 					["name"] = "Broke Back Precipice",
@@ -12404,10 +12551,10 @@ WoWProData = {
 					["icon"] = 645218,
 					["cid"] = 15113,
 				},
-				[9635] = {
-					["name"] = "Bobbing for Orcs",
-					["icon"] = 132931,
-					["cid"] = 15220,
+				[1717] = {
+					["name"] = "Wintergrasp Victory",
+					["icon"] = 135836,
+					["cid"] = 14901,
 				},
 				[1721] = {
 					["name"] = "Archavon the Stone Watcher (25 player)",
@@ -12469,20 +12616,20 @@ WoWProData = {
 					["icon"] = 1113431,
 					["cid"] = 15231,
 				},
-				[1777] = {
-					["name"] = "The Northrend Gourmet",
-					["icon"] = 237351,
-					["cid"] = 170,
+				[7106] = {
+					["name"] = "Master of Silvershard Mines",
+					["icon"] = 622094,
+					["cid"] = 15162,
 				},
 				[10083] = {
 					["name"] = "Mythic: The Everbloom",
 					["icon"] = 967517,
 					["cid"] = 15228,
 				},
-				[7106] = {
-					["name"] = "Master of Silvershard Mines",
-					["icon"] = 622094,
-					["cid"] = 15162,
+				[1777] = {
+					["name"] = "The Northrend Gourmet",
+					["icon"] = 237351,
+					["cid"] = 170,
 				},
 				[1781] = {
 					["name"] = "Critter Gitter",
@@ -12529,10 +12676,10 @@ WoWProData = {
 					["icon"] = 133917,
 					["cid"] = 171,
 				},
-				[7266] = {
-					["name"] = "Save it for Later",
-					["icon"] = 461805,
-					["cid"] = 15302,
+				[1817] = {
+					["name"] = "The Culling of Time",
+					["icon"] = 236476,
+					["cid"] = 14806,
 				},
 				[7282] = {
 					["name"] = "Finders Keepers",
@@ -12744,20 +12891,20 @@ WoWProData = {
 					["icon"] = 298664,
 					["cid"] = 15255,
 				},
-				[7986] = {
-					["name"] = "You Mean That Wasn't a Void Zone?",
-					["icon"] = 136069,
-					["cid"] = 15302,
-				},
-				[8082] = {
-					["name"] = "Head Case",
-					["icon"] = 134153,
-					["cid"] = 15107,
-				},
 				[1997] = {
 					["name"] = "Momma Said Knock You Out (10 player)",
 					["icon"] = 136138,
 					["cid"] = 14922,
+				},
+				[12067] = {
+					["name"] = "Spheres of Influence",
+					["icon"] = 897131,
+					["cid"] = 15255,
+				},
+				[7986] = {
+					["name"] = "You Mean That Wasn't a Void Zone?",
+					["icon"] = 136069,
+					["cid"] = 15302,
 				},
 				[2001] = {
 					["name"] = "50 Cooking Awards",
@@ -12784,10 +12931,10 @@ WoWProData = {
 					["icon"] = 839399,
 					["cid"] = 15107,
 				},
-				[12067] = {
-					["name"] = "Spheres of Influence",
-					["icon"] = 897131,
-					["cid"] = 15255,
+				[8082] = {
+					["name"] = "Head Case",
+					["icon"] = 134153,
+					["cid"] = 15107,
 				},
 				[8098] = {
 					["name"] = "You Said Crossing the Streams Was Bad",
@@ -12979,10 +13126,10 @@ WoWProData = {
 					["icon"] = 133699,
 					["cid"] = 97,
 				},
-				[4611] = {
-					["name"] = "Full House (25 player)",
-					["icon"] = 342916,
-					["cid"] = 14922,
+				[9220] = {
+					["name"] = "Grand Theft, 3rd Degree",
+					["icon"] = 901746,
+					["cid"] = 15279,
 				},
 				[698] = {
 					["name"] = "Sunwell Plateau",
@@ -13099,10 +13246,10 @@ WoWProData = {
 					["icon"] = 236248,
 					["cid"] = 15107,
 				},
-				[4995] = {
-					["name"] = "Explore the Cape of Stranglethorn",
-					["icon"] = 236844,
-					["cid"] = 14777,
+				[9988] = {
+					["name"] = "Pro Toss",
+					["icon"] = 1117882,
+					["cid"] = 15231,
 				},
 				[10020] = {
 					["name"] = "Destructor's Rise",
@@ -13504,10 +13651,10 @@ WoWProData = {
 					["icon"] = 538445,
 					["cid"] = 15285,
 				},
-				[9988] = {
-					["name"] = "Pro Toss",
-					["icon"] = 1117882,
-					["cid"] = 15231,
+				[4995] = {
+					["name"] = "Explore the Cape of Stranglethorn",
+					["icon"] = 236844,
+					["cid"] = 14777,
 				},
 				[1875] = {
 					["name"] = "You Don't Have an Eternity (25 player)",
@@ -13564,10 +13711,10 @@ WoWProData = {
 					["icon"] = 136088,
 					["cid"] = 15255,
 				},
-				[9220] = {
-					["name"] = "Grand Theft, 3rd Degree",
-					["icon"] = 901746,
-					["cid"] = 15279,
+				[4611] = {
+					["name"] = "Full House (25 player)",
+					["icon"] = 342916,
+					["cid"] = 14922,
 				},
 				[4524] = {
 					["name"] = "Doesn't Go to Eleven",
@@ -13769,10 +13916,10 @@ WoWProData = {
 					["icon"] = 1113443,
 					["cid"] = 168,
 				},
-				[1817] = {
-					["name"] = "The Culling of Time",
-					["icon"] = 236476,
-					["cid"] = 14806,
+				[7266] = {
+					["name"] = "Save it for Later",
+					["icon"] = 461805,
+					["cid"] = 15302,
 				},
 				[3578] = {
 					["name"] = "The Turkinator",
@@ -13824,10 +13971,10 @@ WoWProData = {
 					["icon"] = 413576,
 					["cid"] = 15110,
 				},
-				[1717] = {
-					["name"] = "Wintergrasp Victory",
-					["icon"] = 135836,
-					["cid"] = 14901,
+				[9635] = {
+					["name"] = "Bobbing for Orcs",
+					["icon"] = 132931,
+					["cid"] = 15220,
 				},
 				[7331] = {
 					["name"] = "The Three Brew Fathers",
@@ -13839,10 +13986,10 @@ WoWProData = {
 					["icon"] = 236574,
 					["cid"] = 171,
 				},
-				[6754] = {
-					["name"] = "The Dark Heart of the Mogu",
-					["icon"] = 645218,
-					["cid"] = 15113,
+				[9411] = {
+					["name"] = "Highmaul Historian",
+					["icon"] = 236695,
+					["cid"] = 15071,
 				},
 				[7379] = {
 					["name"] = "Pandaren Master of All",
@@ -13859,10 +14006,10 @@ WoWProData = {
 					["icon"] = 970817,
 					["cid"] = 171,
 				},
-				[8963] = {
-					["name"] = "Mythic: Twin Ogron",
-					["icon"] = 1019377,
-					["cid"] = 15231,
+				[13058] = {
+					["name"] = "Kul Tiran Up the Dance Floor",
+					["icon"] = 651727,
+					["cid"] = 15298,
 				},
 				[10789] = {
 					["name"] = "Mythic: Halls of Valor",
@@ -13979,10 +14126,10 @@ WoWProData = {
 					["icon"] = 135265,
 					["cid"] = 161,
 				},
-				[11714] = {
-					["name"] = "Viciously Vintage",
-					["icon"] = 467623,
-					["cid"] = 15259,
+				[5858] = {
+					["name"] = "Bear-ly Made It",
+					["icon"] = 446127,
+					["cid"] = 15067,
 				},
 				[5230] = {
 					["name"] = "Twin Peaks Mountaineer",
@@ -14094,10 +14241,10 @@ WoWProData = {
 					["icon"] = 1720723,
 					["cid"] = 15268,
 				},
-				[1261] = {
-					["name"] = "G.N.E.R.D. Rage",
-					["icon"] = 132352,
-					["cid"] = 158,
+				[10082] = {
+					["name"] = "Mythic: Grimrail Depot",
+					["icon"] = 1002598,
+					["cid"] = 15228,
 				},
 				[396] = {
 					["name"] = "Gurubashi Arena Grand Master",
@@ -14144,10 +14291,10 @@ WoWProData = {
 					["icon"] = 132447,
 					["cid"] = 168,
 				},
-				[1153] = {
-					["name"] = "Overly Defensive",
-					["icon"] = 236346,
-					["cid"] = 14802,
+				[4610] = {
+					["name"] = "Boned (25 player)",
+					["icon"] = 342917,
+					["cid"] = 14922,
 				},
 				[8518] = {
 					["name"] = "Master of the Masters",
@@ -14554,10 +14701,10 @@ WoWProData = {
 					["icon"] = 236396,
 					["cid"] = 15280,
 				},
-				[3137] = {
-					["name"] = "Emalon the Storm Watcher (25 player)",
-					["icon"] = 134452,
-					["cid"] = 14901,
+				[12544] = {
+					["name"] = "Level 120",
+					["icon"] = 2065613,
+					["cid"] = 92,
 				},
 				[10555] = {
 					["name"] = "Buggy Fight",
@@ -14679,10 +14826,10 @@ WoWProData = {
 					["icon"] = 2125376,
 					["cid"] = 15283,
 				},
-				[2817] = {
-					["name"] = "Exalted Argent Champion of the Alliance",
-					["icon"] = 255130,
-					["cid"] = 14941,
+				[11264] = {
+					["name"] = "Adventurer of Highmountain",
+					["icon"] = 1409000,
+					["cid"] = 15257,
 				},
 				[12574] = {
 					["name"] = "Tour of Duty: Nazmir",
@@ -15197,9 +15344,9 @@ WoWProData = {
 					["name"] = "Draenor",
 					["parentID"] = 96,
 				},
-				[15235] = {
-					["name"] = "Draenor",
-					["parentID"] = 97,
+				[14981] = {
+					["name"] = "Pilgrim's Bounty",
+					["parentID"] = 155,
 				},
 				[15222] = {
 					["name"] = "Proving Grounds",
@@ -15225,9 +15372,9 @@ WoWProData = {
 					["name"] = "Kalimdor",
 					["parentID"] = 97,
 				},
-				[15228] = {
-					["name"] = "Draenor Dungeon",
-					["parentID"] = 168,
+				[15101] = {
+					["name"] = "Darkmoon Faire",
+					["parentID"] = 155,
 				},
 				[14777] = {
 					["name"] = "Eastern Kingdoms",
@@ -15253,9 +15400,9 @@ WoWProData = {
 					["name"] = "Pandaria Raid",
 					["parentID"] = 168,
 				},
-				[14981] = {
-					["name"] = "Pilgrim's Bounty",
-					["parentID"] = 155,
+				[15235] = {
+					["name"] = "Draenor",
+					["parentID"] = 97,
 				},
 				[161] = {
 					["name"] = "Midsummer",
@@ -15269,9 +15416,9 @@ WoWProData = {
 					["name"] = "Wintergrasp",
 					["parentID"] = 15301,
 				},
-				[15254] = {
-					["name"] = "Legion Dungeon",
-					["parentID"] = 168,
+				[81] = {
+					["name"] = "Feats of Strength",
+					["parentID"] = -1,
 				},
 				[15113] = {
 					["name"] = "Pandaria",
@@ -15297,13 +15444,13 @@ WoWProData = {
 					["name"] = "Collect",
 					["parentID"] = 15117,
 				},
-				[14865] = {
-					["name"] = "The Burning Crusade",
-					["parentID"] = 201,
+				[15246] = {
+					["name"] = "Collections",
+					["parentID"] = -1,
 				},
-				[15120] = {
-					["name"] = "Level",
-					["parentID"] = 15117,
+				[15247] = {
+					["name"] = "Toy Box",
+					["parentID"] = 15246,
 				},
 				[15248] = {
 					["name"] = "Mounts",
@@ -15329,13 +15476,13 @@ WoWProData = {
 					["name"] = "Noblegarden",
 					["parentID"] = 155,
 				},
-				[81] = {
-					["name"] = "Feats of Strength",
-					["parentID"] = -1,
+				[15254] = {
+					["name"] = "Legion Dungeon",
+					["parentID"] = 168,
 				},
-				[163] = {
-					["name"] = "Children's Week",
-					["parentID"] = 155,
+				[15255] = {
+					["name"] = "Legion Raid",
+					["parentID"] = 168,
 				},
 				[165] = {
 					["name"] = "Arena",
@@ -15365,9 +15512,9 @@ WoWProData = {
 					["name"] = "Draenor Garrison",
 					["parentID"] = 15301,
 				},
-				[95] = {
-					["name"] = "Player vs. Player",
-					["parentID"] = -1,
+				[15268] = {
+					["name"] = "Promotions",
+					["parentID"] = 81,
 				},
 				[15274] = {
 					["name"] = "Events",
@@ -15385,17 +15532,17 @@ WoWProData = {
 					["name"] = "Love is in the Air",
 					["parentID"] = 155,
 				},
-				[15268] = {
-					["name"] = "Promotions",
+				[95] = {
+					["name"] = "Player vs. Player",
+					["parentID"] = -1,
+				},
+				[15269] = {
+					["name"] = "Mounts",
 					["parentID"] = 81,
 				},
-				[96] = {
-					["name"] = "Quests",
-					["parentID"] = -1,
-				},
-				[97] = {
-					["name"] = "Exploration",
-					["parentID"] = -1,
+				[15270] = {
+					["name"] = "Player vs. Player",
+					["parentID"] = 81,
 				},
 				[15271] = {
 					["name"] = "Raids",
@@ -15413,13 +15560,13 @@ WoWProData = {
 					["name"] = "Reputation",
 					["parentID"] = -1,
 				},
-				[15270] = {
-					["name"] = "Player vs. Player",
-					["parentID"] = 81,
+				[97] = {
+					["name"] = "Exploration",
+					["parentID"] = -1,
 				},
-				[15269] = {
-					["name"] = "Mounts",
-					["parentID"] = 81,
+				[96] = {
+					["name"] = "Quests",
+					["parentID"] = -1,
 				},
 				[15277] = {
 					["name"] = "Dungeons",
@@ -15437,9 +15584,9 @@ WoWProData = {
 					["name"] = "Currencies",
 					["parentID"] = 15234,
 				},
-				[15255] = {
-					["name"] = "Legion Raid",
-					["parentID"] = 168,
+				[163] = {
+					["name"] = "Children's Week",
+					["parentID"] = 155,
 				},
 				[15282] = {
 					["name"] = "Brawler's Guild",
@@ -15477,21 +15624,21 @@ WoWProData = {
 					["name"] = "Temple of Kotmogu",
 					["parentID"] = 95,
 				},
-				[15247] = {
-					["name"] = "Toy Box",
-					["parentID"] = 15246,
+				[15120] = {
+					["name"] = "Level",
+					["parentID"] = 15117,
 				},
 				[15292] = {
 					["name"] = "Seething Shore",
 					["parentID"] = 95,
 				},
-				[15101] = {
-					["name"] = "Darkmoon Faire",
-					["parentID"] = 155,
+				[15228] = {
+					["name"] = "Draenor Dungeon",
+					["parentID"] = 168,
 				},
-				[15246] = {
-					["name"] = "Collections",
-					["parentID"] = -1,
+				[14865] = {
+					["name"] = "The Burning Crusade",
+					["parentID"] = 201,
 				},
 			},
 		},
@@ -15505,13 +15652,18 @@ WoWProData = {
 			},
 		},
 		["KokonutKrew"] = {
+			["anchorpoint"] = "CENTER",
+			["Selector"] = {
+				["QuestHard"] = 0,
+			},
 			["bgcolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				0, -- [4]
 			},
-			["anchorpoint"] = "CENTER",
+			["resize"] = true,
+			["bordertexture"] = "",
 			["autoresize"] = false,
 			["titlecolor"] = {
 				0.501960784313726, -- [1]
@@ -15519,13 +15671,8 @@ WoWProData = {
 				0.501960784313726, -- [3]
 				0.548192590475082, -- [4]
 			},
-			["bordertexture"] = "",
 			["minimap"] = {
 				["minimapPos"] = 195.732067734691,
-			},
-			["resize"] = true,
-			["Selector"] = {
-				["QuestHard"] = 0,
 			},
 		},
 	},

@@ -4,7 +4,7 @@ EasyScrap_SaveData = {
 		["defaultFilter"] = 0,
 		["canScrapTooltip"] = false,
 	},
-	["addonVersion"] = 19,
+	["addonVersion"] = 24,
 	["customFilters"] = {
 	},
 }

@@ -1,4 +1,11 @@
 Version: 1
+Frame: MBB_MinimapButtonFrame
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -26
+Y: -150
+W: 33
+H: 33
 Frame: AAPQOrderList
 FrameLevel: 1
 Anchor: CENTER

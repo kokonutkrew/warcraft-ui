@@ -33,7 +33,7 @@ AUCTIONATOR_SHOPPING_LISTS = {
 }
 AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
-	["Emerald Dream_Horde"] = {
+	["Stormrage_Alliance"] = {
 	},
 	["Tichondrius_Horde"] = {
 	},
@@ -45,25 +45,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 	},
 	["Ravenholdt_Horde"] = {
 	},
+	["__dbversion"] = 4,
+	["Emerald Dream_Horde"] = {
+	},
 	["Ravenholdt_Alliance"] = {
 	},
-	["Stormrage_Alliance"] = {
-		["Siren's Pollen"] = {
-			["mr"] = 480000,
-			["cc"] = 7,
-			["id"] = "152509:0:0:0:0",
-			["sc"] = 9,
-			["H2886"] = 480000,
-		},
-	},
-	["__dbversion"] = 4,
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Samoanslayer"] = {
 		["firstSeen"] = 1540254841,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-09F14854",
+		["guid"] = "Player-162-0A2F1F9A",
 	},
 	["Samoantitan"] = {
 		["firstSeen"] = 1539193579,
@@ -73,42 +66,62 @@ AUCTIONATOR_TOONS = {
 	["Samoansavage"] = {
 		["firstSeen"] = 1539839019,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-60-0A6E12EE",
+		["guid"] = "Player-11-04281954",
 	},
-	["Samoanhunter"] = {
-		["firstSeen"] = 1545103423,
+	["Samoanrouge"] = {
+		["firstSeen"] = 1566112335,
+		["guid"] = "Player-162-0A000DE2",
+		["firstVersion"] = "8.2.0",
+	},
+	["Samoanmystic"] = {
+		["firstSeen"] = 1545148733,
+		["guid"] = "Player-11-0B428CD9",
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-0A0112EF",
+	},
+	["Samoansmash"] = {
+		["firstSeen"] = 1545149757,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-0A020733",
 	},
 	["Samoantank"] = {
 		["firstSeen"] = 1544585485,
-		["guid"] = "Player-162-0A01CCD8",
+		["guid"] = "Player-11-042FD3AD",
 		["firstVersion"] = "5.0.5",
 	},
-	["Hfishman"] = {
-		["firstSeen"] = 1546209220,
+	["Samoanrelic"] = {
+		["firstSeen"] = 1544768453,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-164-0A04677C",
-	},
-	["Samoandruid"] = {
-		["firstSeen"] = 1545150726,
-		["guid"] = "Player-11-0B4F11A0",
-		["firstVersion"] = "5.0.5",
-	},
-	["Samoantotems"] = {
-		["firstSeen"] = 1544634790,
-		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-60-0BE06788",
+		["guid"] = "Player-162-0A2F1FD8",
 	},
 	["Samoansaint"] = {
 		["firstSeen"] = 1544810226,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-60-0BE0EFE2",
+		["guid"] = "Player-11-09B1FBE9",
+	},
+	["Samoansensei"] = {
+		["firstSeen"] = 1545023277,
+		["guid"] = "Player-162-0A01CE7D",
+		["firstVersion"] = "5.0.5",
+	},
+	["Samoanlegend"] = {
+		["firstSeen"] = 1545148569,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-0A0206D6",
+	},
+	["Wealthgaming"] = {
+		["firstSeen"] = 1540622080,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-08085E88",
 	},
 	["Samoansneaky"] = {
 		["firstSeen"] = 1544932923,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-09B7CFA4",
+	},
+	["Gfsdfgsd"] = {
+		["firstSeen"] = 1547632165,
+		["guid"] = "Player-11-0B544BD3",
+		["firstVersion"] = "8.1.0",
 	},
 	["Samoanranger"] = {
 		["firstSeen"] = 1545063421,
@@ -120,14 +133,14 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-0A01CA50",
 		["firstVersion"] = "5.0.5",
 	},
-	["Afishman"] = {
-		["firstSeen"] = 1546208726,
-		["guid"] = "Player-164-0A046702",
+	["Hfishsamoan"] = {
+		["firstSeen"] = 1546208860,
+		["guid"] = "Player-164-0A046727",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoanlock"] = {
-		["firstSeen"] = 1545158605,
-		["guid"] = "Player-162-0A0114B2",
+	["Kalin"] = {
+		["firstSeen"] = 1546207288,
+		["guid"] = "Player-164-0A0465C2",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoanbeast"] = {
@@ -140,34 +153,34 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-162-09F7E713",
 	},
-	["Samoansensei"] = {
-		["firstSeen"] = 1545023277,
-		["guid"] = "Player-162-0A01CE7D",
+	["Shgrshn"] = {
+		["firstSeen"] = 1546812786,
 		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-11-03FAA0FC",
+	},
+	["Samoanlock"] = {
+		["firstSeen"] = 1566336536,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-162-0A0114B2",
 	},
 	["Samoansage"] = {
 		["firstSeen"] = 1544167989,
 		["guid"] = "Player-162-0A01C9F2",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoandrued"] = {
-		["firstSeen"] = 1547634788,
-		["guid"] = "Player-11-0B544C38",
-		["firstVersion"] = "8.1.0",
-	},
-	["Wealthgaming"] = {
-		["firstSeen"] = 1540622080,
+	["Samoantotems"] = {
+		["firstSeen"] = 1544634790,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-08085E88",
-	},
-	["Samoanrelic"] = {
-		["firstSeen"] = 1544768453,
-		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-0A0137D4",
+		["guid"] = "Player-60-0BE06788",
 	},
 	["Kakattack"] = {
 		["firstSeen"] = 1544472482,
 		["guid"] = "Player-60-0B864DC6",
+		["firstVersion"] = "5.0.5",
+	},
+	["Serepa"] = {
+		["firstSeen"] = 1545730659,
+		["guid"] = "Player-11-0B509BB5",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoanstrap"] = {

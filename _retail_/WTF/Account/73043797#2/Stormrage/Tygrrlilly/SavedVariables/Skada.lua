@@ -22,12 +22,12 @@ SkadaPerCharDB = {
 		},
 		["auras"] = {
 		},
-		["starttime"] = 1544926467,
+		["starttime"] = 1545606142,
 		["name"] = "Total",
 		["overhealing"] = 0,
 		["mobtaken"] = 0,
 		["mobhdone"] = 0,
-		["last_action"] = 1544926467,
+		["last_action"] = 1545606142,
 		["mobdone"] = 0,
 	},
 }

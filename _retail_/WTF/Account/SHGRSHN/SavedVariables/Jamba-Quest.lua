@@ -16,10 +16,10 @@ JambaQuestProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -34,12 +34,12 @@ JambaQuestProfileDB = {
 			["acceptFromTeam"] = true,
 			["mirrorMasterQuestSelectionAndDeclining"] = false,
 			["hasChoiceSlaveCompleteQuestWithMaster"] = false,
-			["noChoiceSlaveCompleteQuestWithMaster"] = false,
+			["masterAutoShareQuestOnAccept"] = true,
 			["onlyAcceptQuestsFrom"] = true,
 			["acceptFromGuild"] = true,
 			["acceptFromFriends"] = true,
 			["doNotAutoAccept"] = false,
-			["masterAutoShareQuestOnAccept"] = true,
+			["noChoiceSlaveCompleteQuestWithMaster"] = false,
 			["noChoiceAllAutoCompleteQuest"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
@@ -70,13 +70,13 @@ JambaQuestProfileDB = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Samoanspy - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

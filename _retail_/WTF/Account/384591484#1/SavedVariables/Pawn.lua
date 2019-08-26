@@ -6,6 +6,7 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
+	["ShowItemLevelUpgrades"] = true,
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
@@ -28,6 +29,15 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK1"] = {
 			["IconTexturePath"] = 136145,
 			["PerCharacterOptions"] = {
+				["Samoanlegend-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Samoanlock-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Kalin-Ravenholdt"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "8787ed",
 			["ClassID"] = 9,
@@ -82,6 +92,9 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST3"] = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
+				["Samoansaint-Tichondrius"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ffffff",
 			["ClassID"] = 5,
@@ -97,6 +110,18 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
+				["Shgrshn-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Hfishsamoan-Ravenholdt"] = {
+					["Visible"] = true,
+				},
+				["Samoanmystic-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Samoanmystic-Emerald Dream"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "3fc6ea",
 			["ClassID"] = 8,
@@ -181,6 +206,9 @@ PawnCommon = {
 				["Samoanrelic-Stormrage"] = {
 					["Visible"] = true,
 				},
+				["Samoanrelic-Tichondrius"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["ClassID"] = 12,
@@ -241,16 +269,7 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
-				["Samoandrued-Tichondrius"] = {
-					["Visible"] = true,
-				},
-				["Samoandruid-Tichondrius"] = {
-					["Visible"] = true,
-				},
-				["Samoandruid-Emerald Dream"] = {
-					["Visible"] = true,
-				},
-				["Samoansavage-Emerald Dream"] = {
+				["Gfsdfgsd-Tichondrius"] = {
 					["Visible"] = true,
 				},
 				["Samoanbeast-Ravenholdt"] = {
@@ -259,7 +278,7 @@ PawnCommon = {
 				["Samoansage-Tichondrius"] = {
 					["Visible"] = true,
 				},
-				["Afishman-Ravenholdt"] = {
+				["Serepa-Tichondrius"] = {
 					["Visible"] = true,
 				},
 			},
@@ -292,10 +311,16 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR1"] = {
 			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
-				["Wealthgaming-Emerald Dream"] = {
+				["Samoanslayer-Emerald Dream"] = {
 					["Visible"] = true,
 				},
-				["Hfishman-Ravenholdt"] = {
+				["Samoansavage-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Samoansavage-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Wealthgaming-Emerald Dream"] = {
 					["Visible"] = true,
 				},
 			},
@@ -337,9 +362,6 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK2"] = {
 			["IconTexturePath"] = 136172,
 			["PerCharacterOptions"] = {
-				["Samoanlock-Emerald Dream"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "8787ed",
 			["ClassID"] = 9,
@@ -421,9 +443,6 @@ PawnCommon = {
 				["Samoanranger-Emerald Dream"] = {
 					["Visible"] = true,
 				},
-				["Samoanhunter-Emerald Dream"] = {
-					["Visible"] = true,
-				},
 				["Samoanstrap-Tichondrius"] = {
 					["Visible"] = true,
 				},
@@ -442,6 +461,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT3"] = {
 			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
+				["Samoansmash-Emerald Dream"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -517,10 +539,10 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE1"] = {
 			["IconTexturePath"] = 236270,
 			["PerCharacterOptions"] = {
-				["Samoanspy-Emerald Dream"] = {
+				["Samoanrouge-Emerald Dream"] = {
 					["Visible"] = true,
 				},
-				["Samoanslayer-Emerald Dream"] = {
+				["Samoanspy-Emerald Dream"] = {
 					["Visible"] = true,
 				},
 			},
@@ -644,6 +666,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0236,
+	["LastVersion"] = 2.0246,
 	["Digits"] = 1,
 }

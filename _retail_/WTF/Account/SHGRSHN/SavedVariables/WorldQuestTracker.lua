@@ -2,11 +2,13 @@
 WQTrackerDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
@@ -28,11 +30,15 @@ WQTrackerDB = {
 				},
 				["Player-11-09ADBF6A"] = {
 				},
-				["Player-60-0A6E12EE"] = {
-				},
 				["Player-164-09CD1964"] = {
 				},
 				["Player-11-09AF1B98"] = {
+				},
+				["Player-162-0A2F1F9A"] = {
+				},
+				["Player-60-0A6E12EE"] = {
+				},
+				["Player-162-0A01CDAD"] = {
 				},
 				["Player-11-042FD3AD"] = {
 				},
@@ -163,18 +169,13 @@ WQTrackerDB = {
 			["player_names"] = {
 				["Player-162-09F14854"] = {
 					["class"] = "ROGUE",
-					["name"] = "Samoanslayer",
+					["name"] = "Samoansavage",
 					["realm"] = "Emerald Dream",
 				},
 				["Player-11-09ADBF6A"] = {
 					["class"] = "DRUID",
 					["name"] = "Samoansage",
 					["realm"] = "Tichondrius",
-				},
-				["Player-60-0A6E12EE"] = {
-					["class"] = "DRUID",
-					["name"] = "Samoansavage",
-					["realm"] = "Stormrage",
 				},
 				["Player-164-09CD1964"] = {
 					["class"] = "DRUID",
@@ -185,6 +186,21 @@ WQTrackerDB = {
 					["class"] = "HUNTER",
 					["name"] = "Samoanstrap",
 					["realm"] = "Tichondrius",
+				},
+				["Player-162-0A2F1F9A"] = {
+					["class"] = "WARRIOR",
+					["name"] = "Samoanslayer",
+					["realm"] = "Emerald Dream",
+				},
+				["Player-60-0A6E12EE"] = {
+					["class"] = "DRUID",
+					["name"] = "Samoansavage",
+					["realm"] = "Stormrage",
+				},
+				["Player-162-0A01CDAD"] = {
+					["class"] = "HUNTER",
+					["name"] = "Samoanranger",
+					["realm"] = "Emerald Dream",
 				},
 				["Player-11-042FD3AD"] = {
 					["class"] = "PALADIN",
@@ -323,6 +339,8 @@ WQTrackerDB = {
 			["TutorialToggleButton"] = 2,
 			["rarescan"] = {
 				["recently_killed"] = {
+					["Player-162-0A01CDAD"] = {
+					},
 					["Player-60-0A6DF395"] = {
 					},
 					["Player-11-042FD3AD"] = {

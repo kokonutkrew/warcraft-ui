@@ -37,7 +37,7 @@ FF_Options = {
 	},
 	["PreventFollowWhenBusy"] = 0,
 	["ShowMinimapButton"] = 0,
-	["MinimapPosition"] = 275,
+	["MinimapPosition"] = -33.93651471372307,
 	["BanListOrder"] = "Asc",
 }
 FF_Options_Announcements = {

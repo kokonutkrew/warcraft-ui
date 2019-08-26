@@ -6,3 +6,7 @@
 	path = _classic_/Interface/AddOns/aux-addon
 	url = https://github.com/shirsig/aux-addon.git
 	branch = master
+[submodule "_classic_/Interface/AddOns/[update]/DBM-Classic"]
+	path = _classic_/Interface/AddOns/[update]/DBM-Classic
+	url = https://github.com/DeadlyBossMods/DBM-Classic.git
+	branch = master

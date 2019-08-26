@@ -37,12 +37,10 @@ MogItDB = {
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["global"] = {
-		["version"] = "3.8.12",
+		["version"] = "3.9.0",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["y"] = 29.4999332427979,
-			["x"] = 137.00016784668,
 			["previewProps"] = {
 				{
 					["y"] = 55.0001106262207,
@@ -52,6 +50,8 @@ MogItDB = {
 					["x"] = 222.500122070313,
 				}, -- [1]
 			},
+			["gridHeight"] = 907.000244140625,
+			["x"] = 137.0001678466797,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -73,23 +73,24 @@ MogItDB = {
 				["Holdable"] = "Held In Off-hand",
 				["ArtifactLegion"] = "Legion Artifacts",
 				["Bow"] = "Bows",
-				["Staff"] = "Staves",
+				["Feet"] = "Feet",
 				["Chest"] = "Chest",
 				["1H-axe"] = "One-Handed Axes",
 				["Gun"] = "Guns",
 				["Crossbow"] = "Crossbows",
-				["Feet"] = "Feet",
+				["Staff"] = "Staves",
 				["Shield"] = "Shields",
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
 			},
-			["gridWidth"] = 1266.00073242188,
-			["gridHeight"] = 907.000244140625,
 			["minimap"] = {
 				["minimapPos"] = 176.478610615402,
 			},
+			["gridWidth"] = 1266.00073242188,
+			["y"] = 29.49993515014648,
 		},
 		["KokonutKrew"] = {
+			["y"] = 0,
 			["x"] = 0,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
@@ -117,7 +118,6 @@ MogItDB = {
 			["minimap"] = {
 				["minimapPos"] = 326.188785177687,
 			},
-			["y"] = 0,
 		},
 	},
 }

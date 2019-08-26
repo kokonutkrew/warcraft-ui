@@ -16,10 +16,10 @@ JambaQuestProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -28,19 +28,19 @@ JambaQuestProfileDB = {
 		["Samoansaint - Stormrage"] = {
 		},
 		["KokonutKrew"] = {
-			["hasChoiceAquireBestQuestRewardForCharacter"] = false,
-			["allAutoSelectQuests"] = true,
-			["hasChoiceSlaveDoNothing"] = true,
 			["acceptFromTeam"] = true,
 			["mirrorMasterQuestSelectionAndDeclining"] = false,
-			["hasChoiceSlaveCompleteQuestWithMaster"] = false,
-			["noChoiceAllAutoCompleteQuest"] = true,
-			["onlyAcceptQuestsFrom"] = true,
-			["acceptFromGuild"] = true,
 			["acceptFromFriends"] = true,
+			["hasChoiceSlaveDoNothing"] = true,
+			["noChoiceAllAutoCompleteQuest"] = true,
+			["hasChoiceAquireBestQuestRewardForCharacter"] = false,
+			["allAutoSelectQuests"] = true,
+			["noChoiceSlaveCompleteQuestWithMaster"] = false,
 			["doNotAutoAccept"] = false,
 			["masterAutoShareQuestOnAccept"] = true,
-			["noChoiceSlaveCompleteQuestWithMaster"] = false,
+			["acceptFromGuild"] = true,
+			["onlyAcceptQuestsFrom"] = true,
+			["hasChoiceSlaveCompleteQuestWithMaster"] = false,
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -70,13 +70,13 @@ JambaQuestProfileDB = {
 		},
 		["Default"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
-		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

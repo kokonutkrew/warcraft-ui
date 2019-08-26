@@ -1,0 +1,34 @@
+VER 3 0100000000000002 "02. Light Damage" "132094"
+/follow party1
+/targetparty
+/cast rejuvenation
+END
+VER 3 0100000000000001 "03. Dots" "132094"
+/follow party1
+/assist party1
+/castsequence moonfire, sunfire
+END
+VER 3 010000000000000A "07. Hots" "132094"
+/castsequence [@focus]reset=15 lifebloom, swiftmend, swiftmend
+END
+VER 3 0100000000000008 "08. Heal" "132094"
+/cast [@focus] regrowth
+END
+VER 3 010000000000000C "08s.SetFocusHeal" "132094"
+/assist party1
+/focus target
+END
+VER 3 0100000000000009 "09. Mitigation" "132094"
+/cast [@targettarget] power word: shield
+END
+VER 3 010000000000000B "10. Big Damage" "132094"
+/follow party1
+/assist party1
+/use solar wrath
+END
+VER 3 010000000000000D "11. Gap Closer" "132094"
+/follow party1
+/assist party1
+/castsequence prowl, shred
+/use dash
+END

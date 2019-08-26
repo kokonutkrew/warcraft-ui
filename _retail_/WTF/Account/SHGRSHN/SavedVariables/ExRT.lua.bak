@@ -63,63 +63,90 @@ VExRT = {
 	},
 	["Encounter"] = {
 		["names"] = {
-			[1947] = "Swamplord Musel'ek",
-			[2014] = "Mage-Lord Urom",
-			[1892] = "Vazruden the Herald",
-			[2122] = "G'huun",
-			[2026] = "Prince Keleseth",
-			[1967] = "Jedoga Shadowseeker",
-			[1656] = "Hunter Bonetusk",
-			[1660] = "Groyat, the Blind Hunter",
-			[1983] = "Drakkari Colossus",
-			[1924] = "Broggok",
-			[2131] = "Tidesage Council",
-			[2139] = "The Golden Serpent",
-			[1948] = "The Black Stalker",
-			[2015] = "Varos Cloudstrider",
-			[1893] = "Watchkeeper Gargolmar",
-			[1901] = "Tavarok",
-			[2140] = "The Council of Tribes",
-			[438] = "Roogug",
-			[1661] = "Chalgra Razorflank",
-			[1980] = "Moorabi",
-			[2108] = "Mogul Razdunk",
-			[2107] = "Rixxa Fluxfume",
 			[2141] = "MOTHER",
-			[2106] = "Azerokk",
-			[1945] = "Ghaz'an",
-			[1900] = "Pandemonius",
-			[2016] = "Drakos the Interrogator",
-			[1972] = "Hadronox",
-			[2024] = "Skarvold & Dalronn",
-			[2134] = "Vectis",
-			[2142] = "Mchimba the Embalmer",
-			[1973] = "Anub'arak",
+			[591] = "Verdan the Everliving",
+			[1063] = "Foe Reaper 5000",
 			[1968] = "Herald Volazj",
-			[1981] = "Gal'darah",
-			[1922] = "The Maker",
-			[423] = "Razorlash",
-			[2128] = "Fetid Devourer",
-			[2135] = "Mythrax",
+			[2016] = "Drakos the Interrogator",
 			[2143] = "King Dazar",
-			[2025] = "Ingvar the Plunderer",
-			[1946] = "Hungarfen",
-			[2013] = "Ley-Guardian Eregos",
-			[1891] = "Omor the Unscarred",
-			[1966] = "Prince Taldaram",
-			[1899] = "Nexus-Prince Shaffar",
-			[2136] = "Zek'voz",
+			[1667] = "Ghamoo-ra",
+			[1064] = "Glubtok",
 			[2144] = "Taloc",
-			[1659] = "Warlord Ramtusk",
-			[1978] = "Slad'ran",
-			[2105] = "Coin-Operated Crowd Pummeler",
+			[2145] = "Zul",
+			[1922] = "The Maker",
+			[592] = "Mutanus the Devourer",
+			[1065] = "Helix Gearbreaker",
+			[1891] = "Omor the Unscarred",
 			[1923] = "Keli'dan the Breaker",
-			[1969] = "Elder Nadox",
 			[1971] = "Krik'thir the Gatewatcher",
 			[350] = "Tendris Warpwood",
-			[2145] = "Zul",
-			[2130] = "Aqu'sirr",
+			[1924] = "Broggok",
+			[1972] = "Hadronox",
+			[1893] = "Watchkeeper Gargolmar",
+			[1671] = "Twilight Lord Bathiel",
+			[1973] = "Anub'arak",
+			[1656] = "Hunter Bonetusk",
 			[422] = "Noxxion",
+			[2122] = "G'huun",
+			[438] = "Roogug",
+			[1070] = "Baron Silverlaine",
+			[587] = "Kresh",
+			[1071] = "Commander Springvale",
+			[2024] = "Skarvold & Dalronn",
+			[1659] = "Warlord Ramtusk",
+			[1945] = "Ghaz'an",
+			[2128] = "Fetid Devourer",
+			[1670] = "Executioner Gore",
+			[1669] = "Subjugator Kor'ul",
+			[2025] = "Ingvar the Plunderer",
+			[1660] = "Groyat, the Blind Hunter",
+			[423] = "Razorlash",
+			[1946] = "Hungarfen",
+			[2130] = "Aqu'sirr",
+			[1978] = "Slad'ran",
+			[1668] = "Domina",
+			[1072] = "Lord Godfrey",
+			[2026] = "Prince Keleseth",
+			[1661] = "Chalgra Razorflank",
+			[1446] = "Lava Guard Gordoth",
+			[1947] = "Swamplord Musel'ek",
+			[1969] = "Elder Nadox",
+			[588] = "Lord Pythas",
+			[2140] = "The Council of Tribes",
+			[2108] = "Mogul Razdunk",
+			[1900] = "Pandemonius",
+			[2142] = "Mchimba the Embalmer",
+			[589] = "Skum",
+			[1948] = "The Black Stalker",
+			[2134] = "Vectis",
+			[1980] = "Moorabi",
+			[2105] = "Coin-Operated Crowd Pummeler",
+			[585] = "Lady Anacondra",
+			[2135] = "Mythrax",
+			[2107] = "Rixxa Fluxfume",
+			[1901] = "Tavarok",
+			[1060] = "\"Captain\" Cookie",
+			[2136] = "Zek'voz",
+			[1981] = "Gal'darah",
+			[2131] = "Tidesage Council",
+			[2013] = "Ley-Guardian Eregos",
+			[1062] = "Admiral Ripsnarl",
+			[1073] = "Lord Walden",
+			[590] = "Lord Serpentis",
+			[2106] = "Azerokk",
+			[1966] = "Prince Taldaram",
+			[1444] = "Dark Shaman Koranthal",
+			[1892] = "Vazruden the Herald",
+			[2014] = "Mage-Lord Urom",
+			[2139] = "The Golden Serpent",
+			[1445] = "Slagmaw",
+			[1069] = "Baron Ashbury",
+			[1443] = "Adarogg",
+			[1967] = "Jedoga Shadowseeker",
+			[1983] = "Drakkari Colossus",
+			[586] = "Lord Cobrahn",
+			[2015] = "Varos Cloudstrider",
+			[1899] = "Nexus-Prince Shaffar",
 		},
 		["list"] = {
 			["Samoanslayer"] = {
@@ -169,6 +196,60 @@ VExRT = {
 				"^2014^1^1541997739^39^0^5^89.34^", -- [44]
 				"^2014^1^1541997795^68^1^5^89.34^Sïr-Proudmoore", -- [45]
 				"^2013^1^1541997920^37^1^5^89.47^", -- [46]
+				"^1064^1^1566256959^97^0^5^12.09^Samoanslayer", -- [47]
+				"^1064^1^1566277839^85^1^5^14.66^", -- [48]
+				"^1065^1^1566278590^119^1^5^14.70^", -- [49]
+				"^1063^1^1566279332^138^1^5^14.90^Mercis", -- [50]
+				"^1062^1^1566281453^148^1^5^13.51^", -- [51]
+				"^1060^1^1566281661^84^1^5^13.65^", -- [52]
+				"^1443^1^1566285127^106^1^5^16.27^", -- [53]
+				"^1444^1^1566285609^90^1^5^16.51^", -- [54]
+				"^1445^1^1566285864^62^0^5^16.51^Mercis", -- [55]
+				"^1446^1^1566286448^133^1^5^16.77^Samoanslayer", -- [56]
+				"^1445^1^1566286876^23^0^5^16.79^", -- [57]
+				"^1445^1^1566286980^299^1^5^16.79^Mercis", -- [58]
+				"^1069^1^1566287739^92^1^5^17.05^", -- [59]
+				"^1070^1^1566288527^98^1^5^17.18^Samoanslayer", -- [60]
+				"^1071^1^1566289180^69^1^5^17.40^", -- [61]
+				"^1073^1^1566289754^49^0^5^17.79^Mercis", -- [62]
+				"^1073^1^1566290146^62^0^5^17.79^Mercis", -- [63]
+				"^1069^1^1566338847^0^1^5^46.51^", -- [64]
+				"^1070^1^1566339117^2^1^5^46.51^", -- [65]
+				"^1071^1^1566339298^1^1^5^46.51^", -- [66]
+				"^1073^1^1566339725^1^1^5^46.76^", -- [67]
+				"^1072^1^1566340445^80^0^5^18.09^Mercis", -- [68]
+				"^1072^1^1566340594^115^1^5^18.09^", -- [69]
+				"^1443^1^1566361220^91^1^5^18.94^", -- [70]
+				"^1444^1^1566361626^86^1^5^19.09^", -- [71]
+				"^1445^1^1566361903^23^0^5^19.09^", -- [72]
+				"^1446^1^1566362262^84^1^5^19.09^", -- [73]
+				"^1064^1^1566363938^88^1^5^20.32^", -- [74]
+				"^1065^1^1566364331^101^1^5^20.32^", -- [75]
+				"^1063^1^1566364693^91^1^5^20.59^Samoanrouge", -- [76]
+				"^1062^1^1566365307^177^0^5^20.73^", -- [77]
+				"^1062^1^1566365668^172^1^5^20.73^", -- [78]
+				"^1443^1^1566366379^81^1^5^21.95^", -- [79]
+				"^1444^1^1566366597^65^1^5^22.14^", -- [80]
+				"^1446^1^1566366892^85^1^5^22.14^", -- [81]
+				"^1069^1^1566367190^70^1^5^22.14^", -- [82]
+				"^1070^1^1566367561^62^1^5^22.14^", -- [83]
+				"^1071^1^1566367757^55^1^5^22.14^", -- [84]
+				"^1073^1^1566368219^70^0^5^22.29^Samoanrouge", -- [85]
+				"^1073^1^1566368434^99^1^5^22.29^Samoanrouge", -- [86]
+				"^1072^1^1566368771^81^1^5^22.29^", -- [87]
+				"^585^1^1566370078^58^1^5^22.99^Cherriebomb", -- [88]
+				"^588^1^1566371743^57^1^5^23.10^", -- [89]
+				"^586^1^1566372119^39^1^5^23.10^", -- [90]
+				"^587^1^1566372244^39^1^5^23.10^", -- [91]
+				"^589^1^1566372460^42^1^5^23.10^", -- [92]
+				"^590^1^1566373064^47^1^5^23.10^", -- [93]
+				"^591^1^1566373176^100^1^5^23.10^", -- [94]
+				"^592^1^1566373777^81^1^5^23.88^", -- [95]
+				"^1667^1^1566449739^52^1^5^24.89^", -- [96]
+				"^1668^1^1566450001^120^1^5^25.00^", -- [97]
+				"^1669^1^1566450513^109^1^5^25.00^", -- [98]
+				"^1670^1^1566451339^47^0^5^25.00^", -- [99]
+				"^1671^1^1566451697^188^1^5^25.00^", -- [100]
 			},
 			["Samoantitan"] = {
 				"^2144^15^1539224288^3^0^11^367.33^", -- [1]
@@ -387,6 +468,7 @@ VExRT = {
 			["Thûrin-MoonGuard"] = 259,
 			["Saltz-Quel'Thalas"] = 258,
 			["Lyrie-Antonidas"] = 104,
+			["Edarran-Bonechewer"] = 258,
 			["Annÿ-Ragnaros"] = 70,
 			["Samoanstrap"] = 253,
 			["Oochiemama-Turalyon"] = 257,
@@ -444,7 +526,7 @@ VExRT = {
 			["Brenah-Darkspear"] = 256,
 			["Marcusgarvey-WyrmrestAccord"] = 70,
 			["Quanzao-Sentinels"] = 253,
-			["Samoanslayer"] = 259,
+			["Samoanslayer"] = 73,
 			["Alireah-LaughingSkull"] = 253,
 			["Marcàs"] = 262,
 			["Bramos-Stormrage"] = 262,
@@ -473,6 +555,7 @@ VExRT = {
 			["Elizar-Korgath"] = 251,
 			["Caryatis-Dalaran"] = 253,
 			["Zandalar-Garrosh"] = 104,
+			["Cassperr-Kel'Thuzad"] = 71,
 			["Lyrasunfury-Sargeras"] = 64,
 			["Lobukii-Quel'Thalas"] = 72,
 			["Voidster-Turalyon"] = 256,
@@ -493,10 +576,12 @@ VExRT = {
 			["Dremeth-SilverHand"] = 73,
 			["Kopoian-Azshara"] = 253,
 			["Katana-Medivh"] = 270,
+			["Rerollhunter-Greymane"] = 253,
 			["Svela-Duskwood"] = 66,
 			["Priesttits-Aegwynn"] = 258,
 			["Tawok-Quel'Thalas"] = 253,
 			["Boondox-BlackDragonflight"] = 257,
+			["Aeredyl"] = 259,
 			["Fordrågon"] = 250,
 			["Cosmicforge-Khadgar"] = 70,
 			["Erliona-Daggerspine"] = 64,
@@ -520,6 +605,7 @@ VExRT = {
 			["Dalac"] = 253,
 			["Metamerc-MoonGuard"] = 266,
 			["Needmylanta-EmeraldDream"] = 72,
+			["Mizzi-Frostmourne"] = 265,
 			["Arboretum-Doomhammer"] = 105,
 			["Walkingpig-Frostmourne"] = 64,
 			["Qzz"] = 63,
@@ -530,191 +616,196 @@ VExRT = {
 			["Beerz-Zul'jin"] = 269,
 			["Walele-Quel'Thalas"] = 72,
 			["Henrywallace-Hakkar"] = 70,
+			["Samoanrouge"] = 259,
 			["Léstat-Sargeras"] = 252,
-			["Paralock-Doomhammer"] = 267,
-			["Prèächaround-AeriePeak"] = 256,
-			["Gamnhammer-Frostmourne"] = 70,
-			["Clambelle-Dalaran"] = 66,
+			["Mercis"] = 105,
 			["Shadowmain-Bloodhoof"] = 105,
-			["Nathy-Lothar"] = 257,
-			["Onestopshop"] = 64,
+			["Badgamer-MoonGuard"] = 70,
+			["Paralock-Doomhammer"] = 267,
 			["Phesic-Gnomeregan"] = 72,
+			["Prèächaround-AeriePeak"] = 256,
+			["Shalaka-Korgath"] = 264,
+			["Ippó-Ragnaros"] = 269,
+			["Gamnhammer-Frostmourne"] = 70,
+			["Klima-Dawnbringer"] = 268,
+			["Antiiochus-Lightbringer"] = 252,
+			["Clambelle-Dalaran"] = 66,
+			["Alacran-BurningLegion"] = 256,
+			["Nathy-Lothar"] = 257,
+			["Shappard-Azralon"] = 250,
+			["Shiyo-Frostmourne"] = 251,
 			["Lightaara-Arygos"] = 66,
 			["Jibzyttv-Sargeras"] = 258,
 			["Bloodyblades-Ragnaros"] = 577,
 			["Ishamel-Frostmourne"] = 250,
 			["Endrok-Quel'Thalas"] = 63,
 			["Sénsual-Bonechewer"] = 259,
-			["Metricfukton-Tichondrius"] = 267,
-			["Kaarren-Sargeras"] = 70,
-			["Jaesyn"] = 70,
-			["Klima-Dawnbringer"] = 268,
+			["Zippe-AeriePeak"] = 577,
+			["Rhoul-Whisperwind"] = 102,
+			["Rawrcane-BurningLegion"] = 62,
+			["Stankbish-Fizzcrank"] = 265,
 			["Kvaz-Sargeras"] = 63,
 			["Erehwon-Kel'Thuzad"] = 577,
-			["Antiiochus-Lightbringer"] = 252,
+			["Profit-Bonechewer"] = 65,
 			["Overman-EmeraldDream"] = 73,
-			["Jimdaniels-Rexxar"] = 72,
-			["Shiyo-Frostmourne"] = 251,
-			["Alacran-BurningLegion"] = 256,
-			["Shappard-Azralon"] = 250,
+			["Naeyethirn-Arathor"] = 105,
+			["Metricfukton-Tichondrius"] = 267,
+			["Adrertheon-Ragnaros"] = 259,
 			["Maximusdecim-EmeraldDream"] = 262,
-			["Zippe-AeriePeak"] = 577,
-			["Astarfire-Kel'Thuzad"] = 577,
-			["Rhoul-Whisperwind"] = 102,
-			["Huntershots-Sargeras"] = 253,
-			["Elizella-Dalaran"] = 262,
+			["Cotillion-Stormreaver"] = 259,
 			["Repomen-Tichondrius"] = 65,
+			["Astarfire-Kel'Thuzad"] = 577,
+			["Elizella-Dalaran"] = 262,
+			["Huntershots-Sargeras"] = 253,
+			["Cherriebomb"] = 261,
+			["Izbela-Darrowmere"] = 65,
 			["Mizrain-Ragnaros"] = 253,
 			["Totemrecal-Blackhand"] = 263,
-			["Stankbish-Fizzcrank"] = 265,
-			["Cotillion-Stormreaver"] = 259,
 			["Clampett"] = 70,
-			["Goo-Sargeras"] = 70,
-			["Izbela-Darrowmere"] = 65,
+			["Ohno-Elune"] = 258,
+			["Treefiddy-Anub'arak"] = 102,
 			["Waldobutters-MoonGuard"] = 62,
+			["Dæpadærpadps-Quel'dorei"] = 260,
+			["Meatpeter-Kel'Thuzad"] = 256,
 			["Razorsharp-SilverHand"] = 259,
-			["Heinzhummer-Quel'Thalas"] = 253,
+			["Raesug"] = 577,
 			["Torchbeard-Sargeras"] = 72,
 			["Elleanny-Sargeras"] = 102,
-			["Ultraweenies-Stormrage"] = 256,
-			["Dæpadærpadps-Quel'dorei"] = 260,
+			["Eaglei-Stonemaul"] = 253,
+			["Nates-Balnazzar"] = 259,
 			["Pikapewtie"] = 73,
-			["Treefiddy-Anub'arak"] = 102,
+			["Blackaras-Frostmourne"] = 66,
 			["Brotherzarc-Aggramar"] = 257,
 			["Juggalopain-Cairne"] = 70,
-			["Eaglei-Stonemaul"] = 253,
+			["Kraigmoure-Sargeras"] = 65,
 			["Sybria-Whisperwind"] = 261,
-			["Shamakk-Daggerspine"] = 263,
-			["Raesug"] = 577,
+			["Nynns"] = 581,
+			["Erradicator-Ragnaros"] = 263,
 			["Sooniaa-Gallywix"] = 265,
-			["Nates-Balnazzar"] = 259,
+			["Fráyer"] = 64,
 			["Älistair-Dalaran"] = 257,
 			["Halfpype"] = 258,
 			["Shîfthäppëns-Feathermoon"] = 105,
-			["Darkshapes-Cenarius"] = 102,
+			["Holyjustice-Icecrown"] = 70,
+			["Coberthered-Dalaran"] = 254,
 			["Robotech-Icecrown"] = 259,
-			["Jàràt"] = 259,
 			["Dedorf-WyrmrestAccord"] = 253,
-			["Blackaras-Frostmourne"] = 66,
-			["Philopater-Stormrage"] = 70,
-			["Gandinn-MoonGuard"] = 66,
-			["Thrøndil-Khadgar"] = 65,
-			["Fráyer"] = 64,
-			["Hiu-Thunderlord"] = 270,
-			["Poisonivory-Sargeras"] = 577,
 			["Heavenknight"] = 253,
+			["Mischá-Lightbringer"] = 253,
+			["Gandinn-MoonGuard"] = 66,
+			["Velidreyn-WyrmrestAccord"] = 267,
+			["Philopater-Stormrage"] = 70,
+			["Epictetus-Daggerspine"] = 63,
+			["Hiu-Thunderlord"] = 270,
+			["Plütõ-Lightbringer"] = 267,
 			["Ziestra-EmeraldDream"] = 259,
-			["Syanaz-Tichondrius"] = 261,
+			["Punchespilot-Mannoroth"] = 268,
 			["Phiil-Stonemaul"] = 252,
 			["Ripdeath-Anvilmar"] = 251,
 			["Zinidine-Zul'jin"] = 71,
 			["Tygrrlilly"] = 253,
 			["Romance-Caelestrasz"] = 250,
-			["Holyjustice-Icecrown"] = 70,
-			["Coberthered-Dalaran"] = 254,
+			["Pallord-Eonar"] = 70,
+			["Lucicicia-Bronzebeard"] = 72,
 			["Xaldine-Lightbringer"] = 70,
 			["Seiffer-Stonemaul"] = 66,
 			["Nunshållpåss-Dalaran"] = 65,
-			["Cagryn-Gnomeregan"] = 267,
-			["Velidreyn-WyrmrestAccord"] = 267,
-			["Gabreril-Sargeras"] = 581,
-			["Noriahn-Ragnaros"] = 72,
+			["Polliänna"] = 64,
+			["Waytodney-Aegwynn"] = 63,
+			["Illidanvc-Quel'Thalas"] = 577,
+			["Peyronies"] = 250,
 			["Rowest-Fenris"] = 267,
 			["Miha-ScarletCrusade"] = 262,
 			["Bwonk-Sargeras"] = 70,
 			["Supra-Proudmoore"] = 64,
 			["Zaìra"] = 65,
-			["Epictetus-Daggerspine"] = 63,
+			["Zerila-Anvilmar"] = 250,
 			["Silverwarden-Kel'Thuzad"] = 66,
-			["Piamara-Nagrand"] = 102,
-			["Hjopaucome-Nemesis"] = 252,
-			["Dôôgiehowser-KhazModan"] = 257,
 			["Patrin-Feathermoon"] = 64,
-			["Punchespilot-Mannoroth"] = 268,
+			["Hjopaucome-Nemesis"] = 252,
+			["Jette-Bloodscalp"] = 266,
+			["Dôôgiehowser-KhazModan"] = 257,
+			["Galandriss-Area52"] = 102,
 			["Inyer-MoonGuard"] = 262,
-			["Kitthycat"] = 102,
-			["Lucicicia-Bronzebeard"] = 72,
+			["Cocoba-Frostmourne"] = 256,
+			["Gachibop"] = 252,
 			["Luramune-Uther"] = 577,
 			["Lacervezza-Dalaran"] = 251,
 			["Krogan-Lightbringer"] = 262,
-			["Polliänna"] = 64,
+			["Crazyscorp-Nagrand"] = 70,
 			["Feetpics-Lethon"] = 103,
 			["Raën-Stormrage"] = 102,
-			["Zarkasticus-WyrmrestAccord"] = 72,
-			["Viernea"] = 64,
 			["Araris-ShadowCouncil"] = 104,
+			["Viernea"] = 64,
+			["Zarkasticus-WyrmrestAccord"] = 72,
 			["Áether-Tichondrius"] = 254,
 			["Nikô-Tichondrius"] = 63,
 			["Souleris-Sargeras"] = 577,
 			["Reeps-Kil'jaeden"] = 254,
+			["Superlust"] = 64,
+			["Bonza"] = 105,
+			["Monktg-Frostmourne"] = 268,
 			["Springsong-Maelstrom"] = 102,
-			["Cocoba-Frostmourne"] = 256,
-			["Galandriss-Area52"] = 102,
-			["Jette-Bloodscalp"] = 266,
 			["Alaylaa-Proudmoore"] = 70,
 			["Kñighterrant-Khadgar"] = 72,
-			["Bonza"] = 105,
+			["Piamara-Nagrand"] = 102,
 			["Roudied-Tichondrius"] = 259,
-			["Illidanvc-Quel'Thalas"] = 577,
-			["Superlust"] = 64,
-			["Gachibop"] = 252,
-			["Crazyscorp-Nagrand"] = 70,
-			["Monktg-Frostmourne"] = 268,
+			["Gabreril-Sargeras"] = 581,
+			["Corilan-EmeraldDream"] = 72,
+			["Cagryn-Gnomeregan"] = 267,
+			["Kitthycat"] = 102,
+			["Tempest-BlackDragonflight"] = 264,
 			["Samoanlock-EmeraldDream"] = 266,
-			["Waytodney-Aegwynn"] = 63,
-			["Zerila-Anvilmar"] = 250,
-			["Peyronies"] = 250,
+			["Poisonivory-Sargeras"] = 577,
+			["Noriahn-Ragnaros"] = 72,
+			["Thrøndil-Khadgar"] = 65,
 			["Akthar-Drakkari"] = 258,
 			["Eavildeathii-Aegwynn"] = 251,
-			["Mischá-Lightbringer"] = 253,
-			["Corilan-EmeraldDream"] = 72,
-			["Tempest-BlackDragonflight"] = 264,
-			["Pallord-Eonar"] = 70,
+			["Darkshapes-Cenarius"] = 102,
+			["Kurzerhals-Nemesis"] = 255,
+			["Jàràt"] = 259,
+			["Syanaz-Tichondrius"] = 261,
 			["Zhengh-Goldrinn"] = 270,
 			["Zhuxiongmao-Azuremyst"] = 262,
 			["Rightish-Stormscale"] = 70,
-			["Plütõ-Lightbringer"] = 267,
+			["Shamakk-Daggerspine"] = 263,
 			["Rimm-Proudmoore"] = 259,
 			["Colossian"] = 65,
-			["Kurzerhals-Nemesis"] = 255,
+			["Heinzhummer-Quel'Thalas"] = 253,
 			["Trailerswift-Fizzcrank"] = 260,
-			["Nynns"] = 581,
-			["Meatpeter-Kel'Thuzad"] = 256,
-			["Erradicator-Ragnaros"] = 263,
+			["Ultraweenies-Stormrage"] = 256,
+			["Birdkilla-Kel'Thuzad"] = 63,
+			["Goo-Sargeras"] = 70,
 			["Critoris-Lightbringer"] = 259,
-			["Kraigmoure-Sargeras"] = 65,
+			["Katele-Kilrogg"] = 267,
 			["Sabishiiarro-Sargeras"] = 255,
 			["Magniz-Goldrinn"] = 72,
-			["Katele-Kilrogg"] = 267,
+			["Hucaresneway-Daggerspine"] = 70,
 			["Dreppie-Gurubashi"] = 63,
 			["Indivisível-Goldrinn"] = 260,
-			["Hucaresneway-Daggerspine"] = 70,
+			["Charizma-Durotan"] = 261,
 			["Samoandruid"] = 102,
 			["Gatoux-Quel'Thalas"] = 103,
-			["Charizma-Durotan"] = 261,
-			["Ohno-Elune"] = 258,
+			["Joannananana-Tichondrius"] = 71,
+			["Jimdaniels-Rexxar"] = 72,
 			["Cshepard-Dath'Remar"] = 577,
 			["Aejis"] = 268,
-			["Adrertheon-Ragnaros"] = 259,
-			["Joannananana-Tichondrius"] = 71,
+			["Kaarren-Sargeras"] = 70,
+			["Durpia-Quel'Thalas"] = 260,
 			["Mcd-Maelstrom"] = 102,
 			["Kirishim"] = 254,
-			["Naeyethirn-Arathor"] = 105,
-			["Rawrcane-BurningLegion"] = 62,
+			["Onestopshop"] = 64,
+			["Jaesyn"] = 70,
 			["Shabinass-Saurfang"] = 262,
 			["Hilippy-Illidan"] = 260,
-			["Durpia-Quel'Thalas"] = 260,
+			["Tyrayssara-Sargeras"] = 105,
 			["Tabitri-Balnazzar"] = 253,
-			["Ippó-Ragnaros"] = 269,
+			["Drakann-Nemesis"] = 102,
 			["Aquinsa-Shadowmoon"] = 103,
 			["Highllhander"] = 66,
 		},
 		["Left"] = 565.999938964844,
-		["Save"] = {
-			["Samoantitan31884"] = {
-				2810.37, -- [1]
-				120, -- [2]
-			},
+		["userDB"] = {
 		},
 		["CDECol"] = {
 			["196718;2"] = 10,
@@ -723,8 +814,8 @@ VExRT = {
 			["47788;3"] = 3,
 			["15286;4"] = 8,
 			["32182;1"] = 1,
-			["161642;1"] = 2,
-			["740;5"] = 5,
+			["20484;1"] = 2,
+			["633;1"] = 3,
 			["265202;3"] = 8,
 			["102342;5"] = 3,
 			["97462;1"] = 6,
@@ -734,9 +825,9 @@ VExRT = {
 			["64843;3"] = 8,
 			["33206;2"] = 3,
 			["98008;4"] = 7,
-			["633;1"] = 3,
+			["740;5"] = 5,
 			["31884;2"] = 9,
-			["116849;4"] = 3,
+			["31884;3"] = 9,
 			["204150;3"] = 9,
 			["20707;1"] = 2,
 			["61999;1"] = 2,
@@ -745,9 +836,9 @@ VExRT = {
 			["80353;1"] = 1,
 			["108280;4"] = 7,
 			["216331;2"] = 9,
-			["31884;3"] = 9,
+			["116849;4"] = 3,
 			["271466;2"] = 8,
-			["20484;1"] = 2,
+			["161642;1"] = 2,
 			["21169;1"] = 2,
 		},
 		["default_userCD"] = {
@@ -1013,7 +1104,7 @@ VExRT = {
 			[20484] = true,
 			[98008] = true,
 			[271466] = true,
-			[204018] = true,
+			[6940] = true,
 			[20707] = true,
 			[31821] = true,
 			[61999] = true,
@@ -1034,9 +1125,9 @@ VExRT = {
 			[47788] = true,
 			[108280] = true,
 			[20608] = true,
-			[6940] = true,
+			[204018] = true,
 		},
-		["userDB"] = {
+		["Save"] = {
 		},
 	},
 	["Attendance"] = {
@@ -1055,13 +1146,13 @@ VExRT = {
 				"EKoztic", -- [9]
 				"ESqueaktoys", -- [10]
 				"JAejis", -- [11]
-				["eN"] = "Taloc",
-				["k"] = true,
-				["t"] = 1539224718,
 				["eI"] = 2144,
+				["c"] = "Samoantitan-Stormrage",
+				["t"] = 1539224718,
+				["eN"] = "Taloc",
 				["d"] = 15,
 				["g"] = 11,
-				["c"] = "Samoantitan-Stormrage",
+				["k"] = true,
 			}, -- [1]
 			{
 				"BColossian", -- [1]
@@ -1074,13 +1165,13 @@ VExRT = {
 				"JAejis", -- [8]
 				"GWojojo-Sargeras", -- [9]
 				[11] = "FWinna-Scilla",
-				["eI"] = 2144,
-				["c"] = "Samoantitan-Stormrage",
-				["t"] = 1539829628,
 				["eN"] = "Taloc",
+				["k"] = true,
+				["t"] = 1539829628,
+				["eI"] = 2144,
 				["d"] = 15,
 				["g"] = 11,
-				["k"] = true,
+				["c"] = "Samoantitan-Stormrage",
 			}, -- [2]
 			{
 				"DNayia-LaughingSkull", -- [1]
@@ -1101,14 +1192,14 @@ VExRT = {
 				"BColossian", -- [16]
 				"JAejis", -- [17]
 				"APikapewtie", -- [18]
-				["k"] = true,
-				["eN"] = "Mythrax",
 				[21] = "EHalfpype",
+				["eN"] = "Mythrax",
+				["c"] = "Samoantitan-Stormrage",
 				["t"] = 1539838634,
 				["eI"] = 2135,
 				["d"] = 15,
 				["g"] = 16,
-				["c"] = "Samoantitan-Stormrage",
+				["k"] = true,
 			}, -- [3]
 			{
 				"BColossian", -- [1]
@@ -1131,13 +1222,13 @@ VExRT = {
 				"JAejis", -- [18]
 				"KBonza", -- [19]
 				"BAnxiti", -- [20]
-				["k"] = true,
 				["c"] = "Samoantitan-Stormrage",
+				["k"] = true,
 				["d"] = 15,
-				["eN"] = "Taloc",
+				["eI"] = 2144,
 				["t"] = 1540433094,
 				["g"] = 20,
-				["eI"] = 2144,
+				["eN"] = "Taloc",
 			}, -- [4]
 			{
 				"APikapewtie", -- [1]
@@ -1156,13 +1247,13 @@ VExRT = {
 				"CHeavenknight", -- [14]
 				"IHalfpiipe", -- [15]
 				"FKinnigit-Dath'Remar", -- [16]
-				["k"] = true,
 				["c"] = "Samoantitan-Stormrage",
+				["k"] = true,
 				["d"] = 15,
-				["eI"] = 2122,
+				["eN"] = "G'huun",
 				["t"] = 1541131651,
 				["g"] = 16,
-				["eN"] = "G'huun",
+				["eI"] = 2122,
 			}, -- [5]
 			{
 				"DSunglasses-Stormscale", -- [1]
@@ -1183,13 +1274,13 @@ VExRT = {
 				"CTrarex-Quel'Thalas", -- [16]
 				"BTitanideluz-Quel'Thalas", -- [17]
 				"ABubz-Rexxar", -- [18]
-				["eI"] = 2144,
-				["k"] = true,
-				["t"] = 1541472341,
 				["eN"] = "Taloc",
+				["c"] = "Samoantitan-Stormrage",
+				["t"] = 1541472341,
+				["eI"] = 2144,
 				["d"] = 15,
 				["g"] = 18,
-				["c"] = "Samoantitan-Stormrage",
+				["k"] = true,
 			}, -- [6]
 			{
 				"BColossian", -- [1]
@@ -1212,13 +1303,13 @@ VExRT = {
 				"KBonza", -- [18]
 				"BSamoantitan", -- [19]
 				"KUnforgiveñ", -- [20]
-				["eN"] = "Taloc",
-				["c"] = "Samoantitan-Stormrage",
-				["t"] = 1542251031,
 				["eI"] = 2144,
+				["k"] = true,
+				["t"] = 1542251031,
+				["eN"] = "Taloc",
 				["d"] = 15,
 				["g"] = 20,
-				["k"] = true,
+				["c"] = "Samoantitan-Stormrage",
 			}, -- [7]
 		},
 		["alts"] = {
@@ -1227,25 +1318,24 @@ VExRT = {
 	["InspectViewer"] = {
 	},
 	["Addon"] = {
-		["Version"] = 4000,
-		["PreVersion"] = 4000,
+		["Version"] = 4030,
 		["IconMiniMapLeft"] = 33.9313624899283,
+		["Scale"] = 0.98,
 		["Timer"] = 0.1,
 		["IconMiniMapTop"] = -72.4476544794729,
-		["Scale"] = 0.98,
+		["PreVersion"] = 4030,
 	},
 	["WhoPulled"] = {
 	},
 	["Profiles"] = {
 		["default"] = {
-			["VisNote"] = {
-				["data"] = {
-					{
-						"600A6DF3951539196315", -- [1]
-					}, -- [1]
-				},
-				["sync_data"] = {
-				},
+			["InspectViewer"] = {
+				["ColorizeLowIlvl685"] = false,
+				["ColorizeNoEnch"] = true,
+				["ColorizeNoGems"] = true,
+				["ColorizeNoTopEnchGems"] = false,
+				["ColorizeLowIlvl"] = true,
+				["ColorizeNoValorUpgrade"] = false,
 			},
 			["Note"] = {
 				["BlackNames"] = {
@@ -1253,12 +1343,12 @@ VExRT = {
 				["FontSize"] = 12,
 				["AutoLoad"] = {
 				},
-				["Width"] = 200.000183105469,
+				["Width"] = 200.0001831054688,
 				["BlackLastUpdateName"] = {
 				},
 				["OnlyPromoted"] = true,
 				["Strata"] = "HIGH",
-				["Height"] = 99.9999389648438,
+				["Height"] = 99.99995422363281,
 				["BlackLastUpdateTime"] = {
 				},
 				["Black"] = {
@@ -1273,8 +1363,12 @@ VExRT = {
 				["BuffsCheck"] = true,
 				["ReadyCheckFrameTimerFade"] = 4,
 			},
-			["Marks"] = {
-				["list"] = {
+			["BossWatcher"] = {
+				["optionsDamageGraph"] = true,
+				["fightsNum"] = 2,
+				["optionsPositionsDist"] = true,
+				["optionsHealingGraph"] = true,
+				["trackingDamageSpells"] = {
 				},
 			},
 			["Encounter"] = {
@@ -1325,13 +1419,13 @@ VExRT = {
 					},
 					["Samoansmash"] = {
 					},
-					["Samoanlegend"] = {
-					},
-					["Samoansensei"] = {
-					},
 					["Samoantotems"] = {
 					},
-					["Samoansaint"] = {
+					["Kalin"] = {
+					},
+					["Samoanlegend"] = {
+					},
+					["Wealthgaming"] = {
 					},
 					["Samoansneaky"] = {
 					},
@@ -1373,7 +1467,7 @@ VExRT = {
 					},
 					["Hfishsamoan"] = {
 					},
-					["Kalin"] = {
+					["Samoansensei"] = {
 					},
 					["Samoanbeast"] = {
 					},
@@ -1385,7 +1479,7 @@ VExRT = {
 					},
 					["Samoansage"] = {
 					},
-					["Wealthgaming"] = {
+					["Samoansaint"] = {
 					},
 					["Kakattack"] = {
 					},
@@ -1395,7 +1489,12 @@ VExRT = {
 					},
 				},
 			},
-			["Logging"] = {
+			["Attendance"] = {
+				["enabled"] = 2,
+				["data"] = {
+				},
+				["alts"] = {
+				},
 			},
 			["InviteTool"] = {
 				["Words"] = "инв inv byd штм 123",
@@ -1451,7 +1550,7 @@ VExRT = {
 					["Samoantiger-Tichondrius"] = 104,
 					["Rédhawk-Proudmoore"] = 73,
 					["Kakattack"] = 250,
-					["Samoansavage"] = 71,
+					["Samoansavage"] = 259,
 					["Hfishman-Ravenholdt"] = 71,
 					["Orangec-Frostmourne"] = 260,
 					["Tercus-Saurfang"] = 66,
@@ -1461,10 +1560,10 @@ VExRT = {
 					["Alessaelora-Dalaran"] = 73,
 					["Samoanspy"] = 259,
 					["Younghell-Sen'jin"] = 255,
-					["Samoanlock-EmeraldDream"] = 266,
 					["Samoansaint"] = 258,
+					["Samoanlock-EmeraldDream"] = 266,
 					["Samoansneaky"] = 260,
-					["Gfsdfgsd"] = 102,
+					["Caskass-Stormreaver"] = 270,
 					["Samoanranger"] = 253,
 					["Xhade-Blackrock"] = 258,
 					["Joshm-Dreadmaul"] = 256,
@@ -1502,7 +1601,7 @@ VExRT = {
 					["Hfishsamoan"] = 64,
 					["Coleck-MoonGuard"] = 257,
 					["Afishman"] = 102,
-					["Caskass-Stormreaver"] = 270,
+					["Gfsdfgsd"] = 102,
 					["Wispy"] = 105,
 					["Fakeiron-Frostmourne"] = 72,
 					["Samoanmystic"] = 64,
@@ -1684,6 +1783,8 @@ VExRT = {
 				["userDB"] = {
 				},
 			},
+			["BattleRes"] = {
+			},
 			["Timers"] = {
 				["specTimes"] = {
 					[62] = 10,
@@ -1726,16 +1827,9 @@ VExRT = {
 				["Strata"] = "HIGH",
 				["timeToKillAnalyze"] = 15,
 			},
-			["BattleRes"] = {
-			},
 			["WhoPulled"] = {
 			},
-			["Attendance"] = {
-				["enabled"] = 2,
-				["data"] = {
-				},
-				["alts"] = {
-				},
+			["Logging"] = {
 			},
 			["MarksBar"] = {
 				["pulltimer"] = 10,
@@ -1747,20 +1841,17 @@ VExRT = {
 					true, -- [4]
 				},
 			},
-			["InspectViewer"] = {
-				["ColorizeLowIlvl685"] = false,
-				["ColorizeNoEnch"] = true,
-				["ColorizeNoGems"] = true,
-				["ColorizeNoTopEnchGems"] = false,
-				["ColorizeLowIlvl"] = true,
-				["ColorizeNoValorUpgrade"] = false,
+			["VisNote"] = {
+				["data"] = {
+					{
+						"600A6DF3951539196315", -- [1]
+					}, -- [1]
+				},
+				["sync_data"] = {
+				},
 			},
-			["BossWatcher"] = {
-				["optionsDamageGraph"] = true,
-				["fightsNum"] = 2,
-				["optionsPositionsDist"] = true,
-				["optionsHealingGraph"] = true,
-				["trackingDamageSpells"] = {
+			["Marks"] = {
+				["list"] = {
 				},
 			},
 		},
@@ -1833,8 +1924,8 @@ VExRT = {
 		["Strata"] = "BACKGROUND",
 		["WMarksReverse"] = true,
 		["Scale"] = 127,
-		["Left"] = 90.5516052246094,
-		["Top"] = 34.0000038146973,
+		["Left"] = 537.7954711914063,
+		["Top"] = 850.3937377929688,
 		["Alpha"] = 40,
 		["MarksReverse"] = true,
 		["pulltimer"] = 10,

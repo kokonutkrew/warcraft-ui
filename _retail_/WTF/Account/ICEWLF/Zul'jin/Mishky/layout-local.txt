@@ -1,0 +1,15 @@
+Version: 1
+Frame: AAP_GreetingsFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -110
+Y: -107
+W: 330
+H: 200
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: BOTTOMLEFT
+X: -239
+Y: 147
+W: 400
+H: 140

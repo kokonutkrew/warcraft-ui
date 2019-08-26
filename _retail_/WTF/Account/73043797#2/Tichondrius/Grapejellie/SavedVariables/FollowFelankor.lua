@@ -8,7 +8,7 @@ FF_Options = {
 		["Friends"] = 0,
 	},
 	["BanListOrder"] = "Asc",
-	["MinimapPosition"] = 275,
+	["MinimapPosition"] = -33.93651471372307,
 	["WhisperLogSettings"] = {
 		["OrderBy"] = "Date",
 		["Order"] = "Desc",

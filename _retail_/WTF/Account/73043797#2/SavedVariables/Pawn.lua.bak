@@ -6,6 +6,7 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
+	["ShowItemLevelUpgrades"] = true,
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
@@ -30,6 +31,12 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK1"] = {
 			["IconTexturePath"] = 136145,
 			["PerCharacterOptions"] = {
+				["Samoanlegend-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Kalin-Ravenholdt"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "8787ed",
 			["LocalizedName"] = "Warlock: Affliction",
@@ -84,6 +91,9 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST3"] = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
+				["Samoansaint-Tichondrius"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ffffff",
 			["LocalizedName"] = "Priest: Shadow",
@@ -99,6 +109,18 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
+				["Shgrshn-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Samoanmystic-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Samoanmystic-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Hfishsamoan-Ravenholdt"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "3fc6ea",
 			["LocalizedName"] = "Mage: Frost",
@@ -114,9 +136,6 @@ PawnCommon = {
 		["\"MrRobot\":MAGE2"] = {
 			["IconTexturePath"] = 135810,
 			["PerCharacterOptions"] = {
-				["Wealthxport-Tichondrius"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "3fc6ea",
 			["LocalizedName"] = "Mage: Fire",
@@ -186,6 +205,9 @@ PawnCommon = {
 				["Samoanrelic-Stormrage"] = {
 					["Visible"] = true,
 				},
+				["Samoanrelic-Tichondrius"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["LocalizedName"] = "Demon Hunter: Havoc",
@@ -246,19 +268,16 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
-				["Samoantiger-Tichondrius"] = {
+				["Gfsdfgsd-Tichondrius"] = {
 					["Visible"] = true,
 				},
-				["Grapejellie-Tichondrius"] = {
-					["Visible"] = true,
-				},
-				["Samoansavage-Emerald Dream"] = {
-					["Visible"] = true,
-				},
-				["Samoansage-Tichondrius"] = {
+				["Serepa-Tichondrius"] = {
 					["Visible"] = true,
 				},
 				["Samoanbeast-Ravenholdt"] = {
+					["Visible"] = true,
+				},
+				["Samoansage-Tichondrius"] = {
 					["Visible"] = true,
 				},
 			},
@@ -294,9 +313,6 @@ PawnCommon = {
 				["Samoantank-Tichondrius"] = {
 					["Visible"] = true,
 				},
-				["Tygrlilly-Tichondrius"] = {
-					["Visible"] = true,
-				},
 				["Samoantitan-Emerald Dream"] = {
 					["Visible"] = true,
 				},
@@ -318,7 +334,16 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR1"] = {
 			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
+				["Samoanslayer-Emerald Dream"] = {
+					["Visible"] = true,
+				},
 				["Wealthgaming-Emerald Dream"] = {
+					["Visible"] = true,
+				},
+				["Samoansavage-Tichondrius"] = {
+					["Visible"] = true,
+				},
+				["Samoansavage-Emerald Dream"] = {
 					["Visible"] = true,
 				},
 			},
@@ -411,16 +436,13 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["Samoanstrap-Tichondrius"] = {
-					["Visible"] = true,
-				},
 				["Tygrrlilly-Emerald Dream"] = {
 					["Visible"] = true,
 				},
 				["Samoanranger-Emerald Dream"] = {
 					["Visible"] = true,
 				},
-				["Tygrrlilly-Stormrage"] = {
+				["Samoanstrap-Tichondrius"] = {
 					["Visible"] = true,
 				},
 			},
@@ -438,13 +460,10 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE1"] = {
 			["IconTexturePath"] = 236270,
 			["PerCharacterOptions"] = {
-				["Samoanspy-Emerald Dream"] = {
-					["Visible"] = true,
-				},
 				["Cherriebomb-Emerald Dream"] = {
 					["Visible"] = true,
 				},
-				["Samoanslayer-Emerald Dream"] = {
+				["Samoanspy-Emerald Dream"] = {
 					["Visible"] = true,
 				},
 			},
@@ -522,6 +541,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT3"] = {
 			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
+				["Samoansmash-Emerald Dream"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Death Knight: Unholy",
@@ -640,7 +662,7 @@ PawnCommon = {
 			["SpecID"] = 3,
 		},
 	},
-	["LastVersion"] = 2.0234,
+	["LastVersion"] = 2.0246,
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,

@@ -1,4 +1,11 @@
 Version: 1
+Frame: EMAItemUseWindowFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -177
+Y: 155
+W: 219
+H: 117
 Frame: ACP_AddonList
 FrameLevel: 0
 Anchor: CENTER

@@ -16,10 +16,10 @@ JambaFollowProfileDB = {
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -29,9 +29,9 @@ JambaFollowProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["overrideStrobeTargetWithMaster"] = true,
-			["onlyWarnIfOutOfFollowRange"] = true,
-			["autoFollowAfterCombat"] = true,
 			["strobePauseIfDrinking"] = true,
+			["autoFollowAfterCombat"] = true,
+			["onlyWarnIfOutOfFollowRange"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -61,13 +61,13 @@ JambaFollowProfileDB = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Samoanspy - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoansage - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoanspy - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

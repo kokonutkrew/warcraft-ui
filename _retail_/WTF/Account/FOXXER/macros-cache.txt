@@ -1,0 +1,211 @@
+VER 3 000000000000002C "/1REC" "Ability_Creature_Disease_04"
+/1 <Mass Dispel> guild{lvl 11} is currently recruiting active members! We need dedicated people who show up on time & are prepared for raids. PST for more info. All levels welcome!
+END
+VER 3 0000000000000018 "/2REC" "Ability_Druid_ImprovedTreeForm"
+/2 <Mass Dispel> guild{lvl 5} is currently recruiting active members! We need dedicated people who show up on time & are prepared for raids. PST for more info. All levels welcome!
+END
+VER 3 000000000000002B "/tar assault" "INV_Misc_QuestionMark"
+END
+VER 3 0000000000000032 "/tar neth" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/tar netha
+END
+VER 3 0000000000000030 "/tar Pat" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/tar Pathrunner
+END
+VER 3 0000000000000016 "/tar thrall" "Ability_Creature_Disease_01"
+/1 LF1M ICC 10 need Healer or dps with heals OS pst w/ GS
+END
+VER 3 0000000000000035 "``" "INV_MISC_QUESTIONMARK"
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+END
+VER 3 000000000000003A "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000011 "ACO" "Ability_Creature_Cursed_04"
+/tar dark rune Aco
+END
+VER 3 000000000000002E "aeon" "Ability_Creature_Poison_03"
+/tar aeon
+END
+VER 3 0000000000000025 "alch" "Ability_Ambush"
+/2 |cffffd000|Htrade:51304:450:450:18000000375FB58:2//P/Vv3/3d//Cf1m9qPvqelUv5/9JG/////L8/////v|h[Alchemy]|h|r LFW
+END
+VER 3 000000000000001A "AmixtaVent" "Spell_Shadow_Twilight"
+/guild >>VENT<<
+/guild lead.typefrag.com
+/guild 24836
+/guild immortal
+END
+VER 3 0000000000000010 "BOMB" "Ability_Creature_Cursed_01"
+/tar bomb bot
+END
+VER 3 0000000000000021 "chicken" "INV_Misc_QuestionMark"
+/chicken
+END
+VER 3 0000000000000024 "chicken" "INV_Misc_QuestionMark"
+/chicken
+END
+VER 3 0000000000000033 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Polymorph;  [@mouseover,exists,mod:ctrl] Remove Curse; [@mouseover,exists,mod:shift] Spellsteal
+END
+VER 3 00000000000000AB "f1.TargetSelf" "135914"
+/focus
+/target player
+END
+VER 3 00000000000000AC "f2.FollowParty1" "135914"
+/follow party1
+/assist party1
+/target party1
+END
+VER 3 00000000000000AD "f3.FollowParty2" "135914"
+/follow party2
+/assist party2
+/target party2
+END
+VER 3 00000000000000AE "f4.FollowParty3" "135914"
+/follow party3
+/assist party3
+/target party3
+END
+VER 3 0000000000000004 "f5.FollowParty4" "135914"
+/follow party4
+/assist party4
+/target party4
+END
+VER 3 000000000000000E "f6.StartParty" "135914"
+/run InviteUnit("Tigerlilly");
+/run InviteUnit("Mancub"); 
+/run InviteUnit("Foxxer"); 
+/run InviteUnit("Kickbrass"); 
+/ffa
+/changeactionbar 2
+END
+VER 3 000000000000002F "freez" "Ability_Creature_Cursed_02"
+/tar flash freeze
+END
+VER 3 000000000000001E "FROG" "Spell_Shaman_Hex"
+/tar lake frog
+/stopmacro [noexist]
+/use Warts-B-Gone Lip Balm
+/kiss
+/cleararget
+END
+VER 3 000000000000000A "FROG" "Spell_Shaman_Hex"
+/tar lake frog
+/stopmacro [noexists]
+/use Warts-B-Gone Lip Balm
+/kiss
+/cleartarget
+END
+VER 3 0000000000000029 "gon" "Ability_Druid_HealingInstincts"
+/tar gondr
+11111111rr
+END
+VER 3 00000000000000AF "GRM_Roster" "Achievement_pvp_h_a"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 000000000000003B "Heal" "1373904"
+test
+END
+VER 3 000000000000000F "heart whisper <t" "Ability_Hunter_Pet_TallStrider"
+/heart whisper target
+END
+VER 3 000000000000001B "ICC" "Spell_Shadow_SpectralSight"
+END
+VER 3 000000000000001C "icc" "Spell_Shadow_SpectralSight"
+/2 ICC 10 Man LFM NEED  1 Tank & Resto Shammy + Holy Pally on PW - pst S/S/A
+END
+VER 3 0000000000000023 "icc10" "Ability_Druid_Eclipse"
+/1 ***LFM ICC 25*****
+/1 ***NEED HEALS /DPS***
+/1 ***3k+  GS & whisp furthest achieve***
+END
+VER 3 0000000000000014 "infernal volcano" "Ability_Creature_Cursed_04"
+/tar infernal volcano
+END
+VER 3 0000000000000002 "ins" "Ability_Creature_Cursed_02"
+/tar instruc
+END
+VER 3 0000000000000037 "lightning paw" "132266"
+/tar lightning
+END
+VER 3 0000000000000001 "loqu" "Ability_Druid_HealingInstincts"
+/tar loque
+END
+VER 3 0000000000000003 "macro for MM" "INV_Misc_QuestionMark"
+#showtooltip Steady Shot
+/console Sound_EnableSFX 0
+/castsequence reset=5 arcane shot, steady shot, steady shot
+/Console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+/cast !auto shot
+END
+VER 3 0000000000000015 "MD" "Ability_Rogue_EnvelopingShadows"
+/w [target] MD on YOU
+/cast misdirect
+END
+VER 3 0000000000000022 "MDRECR" "Spell_Holy_Serendipity"
+/g <Mass Dispel> is a new guild looking for players who are laid back, have a sense of humor and like to have a good time. Raid times are 7:30pm server Tuesday, Wednesday and Thursday. PST for more info.
+END
+VER 3 0000000000000028 "MDRECRUIT" "Ability_Hunter_MarkedForDeath"
+/2  <Mass Dispel> is recruiting and looking for 1 Holy Pally & 1 Resto Shammy for our core ICC10 KS group. We need dedicated & reliable players who will be ontime & online for raids. We raid 8-12pm server Tues-Thurs. PST for more info.
+END
+VER 3 000000000000002A "Mountiful" "INV_Misc_QuestionMark"
+/click [button:1] Mountiful; [button:2] MOrightclickbutton
+#showtooltipicon Black Battlestrider
+END
+VER 3 0000000000000034 "orphan" "136116"
+/tar orphan
+END
+VER 3 0000000000000031 "path" "237509"
+/tar path
+END
+VER 3 0000000000000038 "PAW" "236169"
+/Target Lightning Paw
+END
+VER 3 0000000000000019 "rrr" "Ability_BullRush"
+/2 LFM ICC 10 man- PST STats, Spec, Achiev, Need ranged DPS OR 2 Healer- no reserves
+END
+VER 3 000000000000001F "SFK" "Ability_Druid_Eclipse"
+/2 LF TANK SFK then gtg
+/4 LF TANK SFK then GTG
+END
+VER 3 000000000000001D "SH VENT" "Ability_Druid_Nourish"
+/raid << Soul Hunters>> VENT INFO
+/raid LA2.Ventriloservers.biz
+/raid 3976
+END
+VER 3 0000000000000006 "spark" "Ability_Druid_GiftoftheEarthmother"
+/tar spark
+END
+VER 3 0000000000000036 "spirit menf" "236165"
+#showtooltip Spirit Mend
+/cast [@player] Spirit Mend
+END
+VER 3 000000000000002D "star" "Ability_Creature_Disease_01"
+/tar coll
+END
+VER 3 0000000000000026 "TOC" "Ability_Hunter_Pet_Hyena"
+/1 ** LFM TOC 25**
+/1 **Need HEALS /DPS**
+/1 **2800 GS +**
+END
+VER 3 0000000000000012 "TRAPS" "Ability_Warlock_EverlastingAffliction"
+/castsequence [no mod]Frost trap, Explosive trap, Snake trap
+END
+VER 3 0000000000000017 "VENT" "Spell_Nature_NatureBlessing"
+/raid VENT INFO for
+/raid Mass Dispel
+/raid 76.74.141.131
+/raid 4334
+END
+VER 3 0000000000000039 "waypoitns" "1376038"
+/way 16.69, 54.44
+/way 23, 29
+/way 16, 60
+/way 24.31, 39.69
+/way 23.58, 76.66
+/way 30.23, 41.71
+END

@@ -14,23 +14,23 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1563743645,
+	["time"] = 1566342295,
 	["scrollback"] = {
 		["ChatFrame1"] = {
 			{
-				"|cff979797[15:14:05]|r|c00000000|r You are now Away: AFK", -- [1]
+				"|cff979797[17:04:55]|r|c00000000|r |cff00ff00|cffa9d271Samoanranger|r|r has promoted |cfffef367Aeredyl|r to Lead*.", -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]

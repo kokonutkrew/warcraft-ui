@@ -3,26 +3,23 @@ JambaDisplayTeamProfileDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Grapejellie - Tichondrius"] = "Grapejellie - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Wealthxport - Tichondrius"] = "Wealthxport - Tichondrius",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoantiger - Tichondrius"] = "Samoantiger - Tichondrius",
-		["Tygrrlilly - Emerald Dream"] = "KokonutKrew",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoansavage - Stormrage"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
-		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
-		["Tygrlilly - Tichondrius"] = "Tygrlilly - Tichondrius",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -33,30 +30,28 @@ JambaDisplayTeamProfileDB = {
 			["teamListTitleHeight"] = 0,
 		},
 		["KokonutKrew"] = {
+			["enableClique"] = true,
 			["showHealthStatus"] = false,
 			["teamListHorizontal"] = false,
-			["frameYOffset"] = -126.984130859375,
+			["frameYOffset"] = 363.64892578125,
 			["showCharacterPortrait"] = false,
-			["hideTeamListInCombat"] = true,
+			["showToolTipInfo"] = false,
 			["showTeamListOnMasterOnly"] = false,
 			["experienceStatusShowPercentage"] = false,
 			["barsAreStackedVertically"] = false,
-			["frameXOffset"] = 39.6825294494629,
 			["charactersPerRow"] = 10,
 			["showPowerStatus"] = false,
 			["characterPortraitWidth"] = 30,
 			["fontSize"] = 9,
-			["followStatusWidth"] = 85,
-			["fontStyle"] = "ABF",
+			["followStatusWidth"] = 15,
 			["teamListScale"] = 0.63,
-			["frameBorderColourA"] = 0,
-			["framePoint"] = "TOPLEFT",
+			["fontStyle"] = "ABF",
+			["followStatusShowName"] = false,
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
-			["showFollowStatus"] = false,
 			["statusBarTexture"] = "Minimalist",
 			["experienceStatusWidth"] = 53,
-			["frameRelativePoint"] = "TOPLEFT",
+			["frameBorderColourA"] = 0,
 		},
 		["Samoantank - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
@@ -73,25 +68,19 @@ JambaDisplayTeamProfileDB = {
 		["Samoantank - Tichondrius"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Wealthxport - Tichondrius"] = {
+		["Samoanlegend - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoansavage - Stormrage"] = {
 			["teamListTitleHeight"] = 0,
 		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["teamListTitleHeight"] = 0,
+		},
 		["Samoansavage - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoantiger - Tichondrius"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Tygrrlilly - Emerald Dream"] = {
-			["teamListTitleHeight"] = 0,
-		},
 		["Samoanbeast - Ravenholdt"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Grapejellie - Tichondrius"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoansneaky - Tichondrius"] = {
@@ -100,25 +89,22 @@ JambaDisplayTeamProfileDB = {
 		["Samoanrelic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
+		["Samoansmash - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
 		["Default"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Samoanspy - Emerald Dream"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Cherriebomb - Emerald Dream"] = {
-			["teamListTitleHeight"] = 0,
-		},
-		["Samoansage - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoanranger - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Tygrlilly - Tichondrius"] = {
+		["Samoanspy - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Tygrrlilly - Stormrage"] = {
+		["Samoansage - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoanmystic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoantitan - Stormrage"] = {

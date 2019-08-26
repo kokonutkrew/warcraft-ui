@@ -1,40 +1,41 @@
 
 Storyline_Data = {
 	["config"] = {
+		["dynamicBackgrounds"] = true,
 		["disableInInstances"] = false,
 		["textSpeedFactor"] = 0.5,
 		["useLayoutEngine"] = false,
 		["QuestTitle"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["locale"] = "enUS",
 		["DialogText"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["disableInDMF"] = false,
 		["useKeyboard"] = true,
 		["NPCName"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["forceGossip"] = false,
 		["width"] = 700,
-		["debug"] = false,
-		["autoEquip"] = false,
+		["NextAction"] = {
+			["Size"] = 10,
+			["Font"] = "Friz Quadrata TT",
+		},
+		["hideOriginalFrames"] = true,
+		["lockFrame"] = false,
+		["height"] = 450,
 		["DialogOptions"] = {
 			["Outline"] = "",
 			["Font"] = "Friz Quadrata TT",
 			["Size"] = 13,
 		},
-		["height"] = 450,
-		["lockFrame"] = false,
-		["hideOriginalFrames"] = true,
-		["NextAction"] = {
-			["Font"] = "Friz Quadrata TT",
-			["Size"] = 10,
-		},
+		["autoEquip"] = false,
+		["debug"] = false,
 	},
 	["customscale"] = {
 		["personal"] = {

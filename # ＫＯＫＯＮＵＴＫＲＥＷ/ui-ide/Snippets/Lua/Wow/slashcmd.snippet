@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>slashcmd</Title>
+      <Shortcut>slashcmd</Shortcut>
+      <Description>Code snippet for slash command</Description>
+      <Author>Steven Haworth</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>command</ID>
+          <Default>Cmd</Default>
+          <ToolTip>Command ID</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>text</ID>
+          <Default>/cmd</Default>
+          <ToolTip>Slash command text</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>action</ID>
+          <Default>myfunc(cmd)</Default>
+          <ToolTip>Action to occur on receipt of the slash command</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="lua">
+        <![CDATA[SLASH_$command$1 = "$text$";
+SlashCmdList["$command$"] = function(cmd) $action$ end]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

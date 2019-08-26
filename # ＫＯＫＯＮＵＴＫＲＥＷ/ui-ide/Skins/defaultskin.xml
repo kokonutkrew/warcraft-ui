@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Skin name="Default" skinid="{DCB143E1-A4AB-4e7c-B934-1EFA40101D21}">
+  <Templates>
+    <Template name="tr">
+      <Types>
+        <Type type="enum" name="TitleRegion">
+          <EnumValue value="None"/>
+          <EnumValue value="SetAllPoints"/>
+        </Type>
+      </Types>
+    </Template>
+  </Templates>
+  <Frame name="form" render="FrameRender" onToolbox="false" frameid="{2D508883-59C2-4f83-AE10-27AAAD48391B}" icon="Frame">
+    <FrameSkin template="tr">
+      <Setup>
+        <Property name="AnchorOffset" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="new System.Drawing.Point(0,0)" category="Layout" visible="true" />
+        <Property name="AnchorParent" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;UIParent&quot;" category="Layout" visible="true" />
+        <Property name="AnchorPoint" type="wowuides.UI.FRAMEPOINT" value="wowuides.UI.FRAMEPOINT.CENTER" category="Layout" visible="true" />
+        <Property name="BackdropColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.FromArgb(94,94,86)" visible="false" />
+        <Property name="clampedToScreen" displayName="Clamped To Screen" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="EnableKeyboard" displayName="Enable Keyboard" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" />
+        <Property name="EnableMouse" displayName="Enable Mouse" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" />
+        <Property name="Moveable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" />
+        <Property name="Opacity" visible="true" />
+        <Property name="parent" displayName="Parent" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="string.Empty" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="Resizeable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(400,400)" visible="true" />
+        <Property name="Text" visible="true" />
+        <Property name="TitleRegion" displayName="Title Region" type="TitleRegion" value="TitleRegion.None" category="Behaviour" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = (FRAMEPOINT)control.Properties["AnchorPoint"];
+						frame.Anchors[0].Offset = Dimension.FromPoint((System.Drawing.Point)control.Properties["AnchorOffset"]);
+            frame.Anchors[0].relativeTo = (string)control.Properties["AnchorParent"];
+						frame.alpha = (float)control.Opacity;
+						frame.GetFrameFromName("$parentTitleBorder").hidden = string.IsNullOrEmpty(control.Text);
+						frame.GetFrameFromName("$parentTitleString").hidden = string.IsNullOrEmpty(control.Text);
+						((FontString)frame.GetFrameFromName("$parentTitleString")).text = control.Text;
+						frame.enableKeyboard = (bool)control.Properties["EnableKeyboard"];
+						frame.enableMouse = (bool)control.Properties["EnableMouse"];
+						frame.movable = (bool)control.Properties["Moveable"];
+						frame.resizable = (bool)control.Properties["Resizeable"];
+            TitleRegion tr = (TitleRegion)control.Properties["TitleRegion"];
+            if(tr == TitleRegion.None)
+            {
+              frame.TitleRegion = null;
+            }
+            else if(tr == TitleRegion.SetAllPoints)
+            {
+              frame.TitleRegion = new LayoutFrame();
+              frame.TitleRegion.setAllPoints = true;
+            }
+				</OnSetupFrame>
+        <OnSetupForm>
+            control.Size = frame.Size.ToSize();
+            control.Properties["AnchorPoint"] = frame.Anchors[0].point;
+            control.Properties["AnchorParent"] = frame.Anchors[0].relativeTo;
+            control.Properties["AnchorOffset"] = frame.Anchors[0].Offset.ToPoint();
+            control.Opacity = frame.alpha;
+            control.Text = ((FontString)frame.GetFrameFromName("$parentTitleString")).text;
+						control.Properties["EnableKeyboard"] = frame.enableKeyboard;
+						control.Properties["EnableMouse"] = frame.enableMouse;
+						control.Properties["Moveable"] = frame.movable;
+						control.Properties["Resizeable"] = frame.resizable;
+            if((frame.TitleRegion != null) &amp;&amp; (frame.TitleRegion.setAllPoints))
+            {
+              control.Properties["TitleRegion"] = TitleRegion.SetAllPoints;
+            }
+            else
+            {
+              control.Properties["TitleRegion"] = TitleRegion.None;
+            }
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+      <BackgroundInsets>
+        <AbsInset left="11" right="12" top="12" bottom="11"/>
+      </BackgroundInsets>
+      <TileSize>
+        <AbsValue val="32"/>
+      </TileSize>
+      <EdgeSize>
+        <AbsValue val="32"/>
+      </EdgeSize>
+    </Backdrop>
+    <Layers>
+      <Layer>
+        <Texture name="$parentTitleBorder" file="Interface\DialogFrame\UI-DialogBox-Header">
+          <Size>
+            <AbsDimension x="160" y="32"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOP">
+              <Offset>
+                <AbsDimension x="0" y="5"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+          <TexCoords left="0.20" right="0.8" top="0" bottom="0.6"/>
+        </Texture>
+        <FontString name="$parentTitleString" inherits="GameFontNormal">
+          <Size>
+            <AbsDimension x="140" y="0"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOP">
+              <Offset>
+                <AbsDimension x="0" y="-4"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+  </Frame>
+  <Button name="Button" inherits="UIPanelButtonTemplate" render="ComponentRender" frameid="{2D508884-59C2-4f83-AE10-27AAAD48391B}" icon="Button">
+    <FrameSkin>
+      <Setup>
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,22)" visible="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+            frame.text = control.Text;
+				</OnSetupFrame>
+        <OnSetupForm>
+            control.Location = frame.Anchors[0].Offset.ToPoint();
+            control.Size = frame.Size.ToSize();
+            control.Text = frame.text;
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Size>
+      <AbsDimension x="100" y="22"/>
+    </Size>
+  </Button>
+  <Frame name="Label" render="ComponentRender" frameid="{2D508885-59C2-4f83-AE10-27AAAD48391B}" icon="FontString">
+    <FrameSkin>
+      <Setup>
+        <Property name="FontHeight" displayName="Font Height" type="System.Int32" value="12" category="Appearance" visible="true" />
+        <Property name="HorizontalAlignment" displayName="Horizontal Alignment" type="wowuides.UI.JUSTIFYHTYPE" value="wowuides.UI.JUSTIFYHTYPE.CENTER" category="Appearance" visible="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(75,18)" visible="true" />
+        <Property name="Text" visible="true" />
+        <Property name="VerticalAlignment" displayName="Vertical Alignment" type="wowuides.UI.JUSTIFYVTYPE" value="wowuides.UI.JUSTIFYVTYPE.MIDDLE" category="Appearance" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						wowuides.UI.FontString fs = (wowuides.UI.FontString)frame.GetFrameFromName("$parentLabel");
+						fs.text = control.Text;
+						int fh = (int)control.Properties["FontHeight"];
+						if(fh != fs.FontHeight.AbsValue.val) {
+							fs.FontHeight.AbsValue.val = fh;
+							fs.InvalidateFont();
+						}
+						fs.justifyH = (wowuides.UI.JUSTIFYHTYPE)control.Properties["HorizontalAlignment"];
+						fs.justifyV = (wowuides.UI.JUSTIFYVTYPE)control.Properties["VerticalAlignment"];
+					</OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Size = frame.Size.ToSize();
+						wowuides.UI.FontString fs = (wowuides.UI.FontString)frame.GetFrameFromName("$parentLabel");
+						control.Text = fs.text;
+						control.Properties["FontHeight"] = fs.FontHeight.AbsValue.val;
+						control.Properties["HorizontalAlignment"] = fs.justifyH;
+						control.Properties["VerticalAlignment"] = fs.justifyV;
+                    </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Layers>
+      <Layer>
+        <FontString name="$parentLabel" inherits="GameFontNormal">
+          <Anchors>
+            <Anchor point="TOPLEFT"/>
+            <Anchor point="BOTTOMRIGHT"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+  </Frame>
+  <CheckButton name="CheckButton" displayName="Check Button" render="ComponentRender" inherits="UICheckButtonTemplate" frameid="{2D508886-59C2-4f83-AE10-27AAAD48391B}" icon="CheckButton">
+    <FrameSkin>
+      <Setup>
+        <Property name="Checked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" visible="true" />
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,32)" visible="true" persist="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						((FontString)frame.GetFrameFromName("$parentText")).text = control.Text;
+						frame.@checked = (bool)control.Properties["Checked"];
+					</OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Text = ((FontString)frame.GetFrameFromName("$parentText")).text;
+						control.Properties["Checked"] = frame.@checked;
+                    </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </CheckButton>
+  <EditBox name="SingleLineEdit" displayName="Singleline Edit Box" render="ComponentRender" enableMouse="true" frameid="{2D508887-59C2-4f83-AE10-27AAAD48391B}" icon="EditBox">
+    <FrameSkin>
+      <Setup>
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,22)" visible="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+					</OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Size = frame.Size.ToSize();
+                    </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Size>
+      <AbsDimension x="100" y="22"/>
+    </Size>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture name="$parentLeft" file="Interface\Common\Common-Input-Border">
+          <Size>
+            <AbsDimension x="8" y="20"/>
+          </Size>
+          <Anchors>
+            <Anchor point="LEFT"/>
+          </Anchors>
+          <TexCoords left="0" right="0.0625" top="0" bottom="0.625"/>
+        </Texture>
+        <Texture name="$parentRight" file="Interface\Common\Common-Input-Border">
+          <Size>
+            <AbsDimension x="8" y="20"/>
+          </Size>
+          <Anchors>
+            <Anchor point="RIGHT"/>
+          </Anchors>
+          <TexCoords left="0.9375" right="1.0" top="0" bottom="0.625"/>
+        </Texture>
+        <Texture name="$parentMiddle" file="Interface\Common\Common-Input-Border">
+          <Size>
+            <AbsDimension x="10" y="20"/>
+          </Size>
+          <Anchors>
+            <Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
+            <Anchor point="RIGHT" relativeTo="$parentRight" relativePoint="LEFT"/>
+          </Anchors>
+          <TexCoords left="0.0625" right="0.9375" top="0" bottom="0.625"/>
+        </Texture>
+      </Layer>
+    </Layers>
+    <FontString inherits="ChatFontNormal"/>
+  </EditBox>
+  <ScrollFrame name="MultiLineEdit" displayName="Multiline Edit Box" inherits="FauxScrollFrameTemplate" render="ComponentRender" frameid="{7f06b3a2-fe45-40e8-9284-4754c6a3c9fb}" icon="EditBox">
+    <FrameSkin>
+      <Setup>
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <ScriptSubFrame name="$parentEdit" />
+        <OnSetupFrame>
+						Size sz = control.Size;
+						sz.Width = sz.Width - 21;
+						frame.Size = Dimension.FromSize(sz);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						frame.ScrollChild.Size = Dimension.FromSize(sz);
+					</OnSetupFrame>
+        <OnSetupForm>
+            control.Location = frame.Anchors[0].Offset.ToPoint();
+						Size sz = frame.Size.ToSize();
+						sz.Width = sz.Width + 21;
+            control.Size = sz;
+          </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <ScrollChild>
+      <EditBox name="$parentEdit" multiLine="true" enableMouse="true">
+        <Scripts>
+          <OnTextChanged>
+						ScrollingEdit_OnTextChanged(null);
+					</OnTextChanged>
+          <OnCursorChanged>
+						ScrollingEdit_OnCursorChanged(arg1,arg2,arg3,arg4);
+					</OnCursorChanged>
+          <OnUpdate>
+						ScrollingEdit_OnUpdate(null);
+					</OnUpdate>
+        </Scripts>
+        <FontString inherits="ChatFontNormal" />
+      </EditBox>
+    </ScrollChild>
+  </ScrollFrame>
+  <Frame name="Panel" render="ContainerRender" frameid="{2D508888-59C2-4f83-AE10-27AAAD48391B}" icon="Panel">
+    <FrameSkin>
+      <Setup>
+        <Property name="BackdropColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.FromArgb(126,126,124)" visible="false" />
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(150,75)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+					</OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Size = frame.Size.ToSize();
+                    </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Size>
+      <AbsDimension x="150" y="75"/>
+    </Size>
+    <Anchors>
+      <Anchor point="TOPLEFT"/>
+      <Anchor point="BOTTOMRIGHT"/>
+    </Anchors>
+    <Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+      <EdgeSize>
+        <AbsValue val="16"/>
+      </EdgeSize>
+      <TileSize>
+        <AbsValue val="16"/>
+      </TileSize>
+      <BackgroundInsets>
+        <AbsInset left="5" right="5" top="5" bottom="5"/>
+      </BackgroundInsets>
+    </Backdrop>
+  </Frame>
+  <Frame name="HorizontalSlider" displayName="Horizontal Slider" render="ComponentRender" frameid="{2D508889-59C2-4f83-AE10-27AAAD48391B}" icon="Slider">
+    <FrameSkin>
+      <Setup>
+        <Property name="Location" visible="true" />
+        <Property name="Minimum" type="System.Single" value="0" visible="true" />
+        <Property name="Maximum" type="System.Single" value="100" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(128,50)" visible="true" />
+        <Property name="Step" type="System.Single" value="1" visible="true" />
+        <Property name="Text" visible="true" />
+        <Property name="Value" type="System.Single" value="0" visible="true" />
+      </Setup>
+      <Script>
+        <ScriptSubFrame name="$parentSlider" />
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						((FontString)frame.GetFrameFromName("$parentTitle")).text = control.Text;
+						Slider s = (Slider)frame.GetFrameFromName("$parentSlider");
+						s.minValue = (float)control.Properties["Minimum"];
+						s.maxValue = (float)control.Properties["Maximum"];
+						s.defaultValue = (float)control.Properties["Value"];
+						s.valueStep = (float)control.Properties["Step"];
+					</OnSetupFrame>
+        <OnSetupForm>
+            control.Location = frame.Anchors[0].Offset.ToPoint();
+            control.Size = frame.Size.ToSize();
+						control.Text = ((FontString)frame.GetFrameFromName("$parentTitle")).text;
+						Slider s = (Slider)frame.GetFrameFromName("$parentSlider");
+						control.Properties["Minimum"] = s.minValue;
+						control.Properties["Maximum"] = s.maxValue;
+						control.Properties["Value"] = s.defaultValue;
+						control.Properties["Step"] = s.valueStep;
+          </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Size>
+      <AbsDimension x="128" y="50"/>
+    </Size>
+    <Anchors>
+      <Anchor point="TOPLEFT"/>
+      <Anchor point="BOTTOMRIGHT"/>
+    </Anchors>
+    <Frames>
+      <Slider name="$parentSlider" orientation="HORIZONTAL" enableMouse="true">
+        <Size>
+          <AbsDimension x="128" y="17"/>
+        </Size>
+        <Anchors>
+          <Anchor point="LEFT"/>
+          <Anchor point="RIGHT"/>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <EdgeSize>
+            <AbsValue val="8"/>
+          </EdgeSize>
+          <TileSize>
+            <AbsValue val="8"/>
+          </TileSize>
+          <BackgroundInsets>
+            <AbsInset left="3" right="3" top="6" bottom="6"/>
+          </BackgroundInsets>
+        </Backdrop>
+        <Layers>
+          <Layer>
+            <FontString name="$parentTitle" inherits="GameFontNormalSmall">
+              <Anchors>
+                <Anchor point="BOTTOM" relativePoint="TOP"/>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentLow" inherits="GameFontHighlightSmall" text="Low">
+              <Anchors>
+                <Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT"/>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentHigh" inherits="GameFontHighlightSmall" text="High">
+              <Anchors>
+                <Anchor point="TOPRIGHT" relativePoint="BOTTOMRIGHT"/>
+              </Anchors>
+            </FontString>
+          </Layer>
+        </Layers>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+          <Size>
+            <AbsDimension x="32" y="32"/>
+          </Size>
+        </ThumbTexture>
+      </Slider>
+    </Frames>
+  </Frame>
+  <Frame name="VerticalSlider" displayName="Vertical Slider" render="ComponentRender" frameid="{2D50888A-59C2-4f83-AE10-27AAAD48391B}" icon="Slider">
+    <FrameSkin>
+      <Setup>
+        <Property name="Location" visible="true" />
+        <Property name="Minimum" type="System.Single" value="0" visible="true" />
+        <Property name="Maximum" type="System.Single" value="100" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(75,128)" visible="true" />
+        <Property name="Step" type="System.Single" value="1" visible="true" />
+        <Property name="Text" visible="true" />
+        <Property name="Value" type="System.Single" value="0" visible="true" />
+      </Setup>
+      <Script>
+        <ScriptSubFrame name="$parentSlider" />
+        <OnSetupFrame>
+						frame.Size = Dimension.FromSize(control.Size);
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						((FontString)frame.GetFrameFromName("$parentTitle")).text = control.Text;
+						Slider s = (Slider)frame.GetFrameFromName("$parentSlider");
+						s.minValue = (float)control.Properties["Minimum"];
+						s.maxValue = (float)control.Properties["Maximum"];
+						s.defaultValue = (float)control.Properties["Value"];
+						s.valueStep = (float)control.Properties["Step"];
+					</OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Size = frame.Size.ToSize();
+						control.Text = ((FontString)frame.GetFrameFromName("$parentTitle")).text;
+						Slider s = (Slider)frame.GetFrameFromName("$parentSlider");
+						control.Properties["Minimum"] = s.minValue;
+						control.Properties["Maximum"] = s.maxValue;
+						control.Properties["Value"] = s.defaultValue;
+						control.Properties["Step"] = s.valueStep;
+                    </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Size>
+      <AbsDimension x="75" y="128"/>
+    </Size>
+    <Anchors>
+      <Anchor point="TOPLEFT"/>
+      <Anchor point="BOTTOMRIGHT"/>
+    </Anchors>
+    <Frames>
+      <Slider name="$parentSlider" orientation="VERTICAL" enableMouse="true">
+        <Size>
+          <AbsDimension x="10" y="128"/>
+        </Size>
+        <Anchors>
+          <Anchor point="TOP">
+            <Offset>
+              <AbsDimension x="0" y="-12"/>
+            </Offset>
+          </Anchor>
+          <Anchor point="BOTTOM">
+            <Offset>
+              <AbsDimension x="0" y="12"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+          <EdgeSize>
+            <AbsValue val="8"/>
+          </EdgeSize>
+          <TileSize>
+            <AbsValue val="8"/>
+          </TileSize>
+          <BackgroundInsets>
+            <AbsInset left="6" right="6" top="3" bottom="3"/>
+          </BackgroundInsets>
+        </Backdrop>
+        <Layers>
+          <Layer>
+            <FontString name="$parentTitle" inherits="GameFontNormalSmall">
+              <Anchors>
+                <Anchor point="LEFT" relativePoint="RIGHT">
+                  <Offset>
+                    <AbsDimension x="2" y="0"/>
+                  </Offset>
+                </Anchor>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentLow" inherits="GameFontHighlightSmall" text="Low">
+              <Anchors>
+                <Anchor point="BOTTOM" relativePoint="TOP" />
+              </Anchors>
+            </FontString>
+            <FontString name="$parentHigh" inherits="GameFontHighlightSmall" text="High">
+              <Anchors>
+                <Anchor point="TOP" relativePoint="BOTTOM" />
+              </Anchors>
+            </FontString>
+          </Layer>
+        </Layers>
+        <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Vertical">
+          <Size>
+            <AbsDimension x="32" y="32"/>
+          </Size>
+        </ThumbTexture>
+      </Slider>
+    </Frames>
+  </Frame>
+  <Button name="ComboBox" inherits="UIDropDownMenuTemplate" render="ComponentRender" frameid="{2D50888B-59C2-4f83-AE10-27AAAD48391B}" icon="Button">
+    <FrameSkin>
+      <Setup>
+        <Property name="Location" visible="true" />
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Items" type="System.Collections.Specialized.StringCollection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="new System.Collections.Specialized.StringCollection()" visible="true" category="Data" editor="System.Windows.Forms.Design.StringCollectionEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" persist="true" />
+        <Property name="OnSelectionChanged" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" category="Scripts" value="string.Empty" editor="wowuides.LuaScriptEditor" persist="true" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,32)" visible="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Designer>
+        <SelectionRule value="LeftSizeable" />
+        <SelectionRule value="RightSizeable" />
+        <SelectionRule value="Moveable" />
+      </Designer>
+      <Script>
+        <OnSetupFrame>
+						frame.Anchors.Clear();
+						frame.Anchors.Add(new LayoutFrame.Anchor());
+						frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+						frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+						
+						int width = control.Size.Width;
+						
+						Texture t = (Texture)frame.GetFrameFromName("$parentMiddle");						
+						t.Size.AbsDimension.x = width - 50;
+												
+						FontString fs = (FontString)frame.GetFrameFromName("$parentText");						
+						fs.Size.AbsDimension.x = width - 25;
+						fs.text = control.Text;
+						
+						control.Size = new Size(width,32);
+						frame.Size = Dimension.FromSize(control.Size);
+			  </OnSetupFrame>
+        <OnSetupForm>
+                        control.Location = frame.Anchors[0].Offset.ToPoint();
+                        control.Size = frame.Size.ToSize();
+						FontString fs = (FontString)frame.GetFrameFromName("$parentText");
+						control.Text = fs.text;
+        </OnSetupForm>
+        <OnLoad>
+						System.Collections.Specialized.StringCollection sc = (System.Collections.Specialized.StringCollection)control.Properties["Items"];
+						StringBuilder sb = new StringBuilder();
+						if(sc.Count &gt; 0) 
+						{
+							sb.AppendLine("local cb_init_fn = function()");
+							sb.AppendLine("  local info");
+							for(int c=0; c&lt;sc.Count; ++c) 
+							{
+								sb.AppendLine("  info = {}");
+								sb.AppendLine(string.Format("  info.text = \"{0}\"", sc[c]));
+								sb.AppendLine(string.Format("  info.func = function() UIDropDownMenu_SetSelectedID({0}, this:GetID(), 0); {1} end", frame.ResolvedName, control.Properties["OnSelectionChanged"]));
+								sb.AppendLine("  UIDropDownMenu_AddButton(info);");
+							}
+							sb.AppendLine("end");
+							sb.AppendLine("UIDropDownMenu_Initialize(this, cb_init_fn)");
+						}
+						return sb.ToString();
+					</OnLoad>
+      </Script>
+    </FrameSkin>
+  </Button>
+</Skin>

@@ -1,0 +1,179 @@
+<HTML>
+<HEAD>
+<TITLE>WoW UI Designer Tutorial</TITLE>
+</HEAD>
+<BODY>
+<P>
+<H2>WoW UI Designer Tutorial</H2></P>
+<P>
+<H3>Introduction</H3></P>
+<P>
+This is a quick start tutorial for WoW UI Designer v1.1.x (just called <I>wowuides</I> from now on).  It contains 
+steps on how to get started using the program to create a UI for your addon.</P>
+<P>
+<H3>Installation</H3></P>
+<P>
+Refer to <A href="../release.html">Release Notes</A> for information on installing the application.</P>
+<P>
+<H3>Setup (Optional)</H3></P>
+<P>
+Once you have installed the application, you can <B>optionally</B> set it up to not work directly within your
+WoW game directory.  This can be advantageous if you feel that loading from the files takes longer than loading
+from the mpq files.</P>
+<P>
+Say that you installed <I>wowuides</I> into the <B>c:\wowuides</B> directory and just want to work within that,
+and that WoW is installed in <B>c:\games\WoW</B>.  I will provide steps using Command Prompt commands, but you can
+use Windows Explorer or any other method you like:</P>
+<P>
+<OL>
+	<LI>Move the interface directory:<BR>
+	<PRE><B>echo -- Do a full copy of the interface folder
+md c:\wowuides\interface
+xcopy c:\games\wow\interface\*.* c:\wowuides\interface /e
+echo -- Now delete the contents of the folder (don't worry, you have a full backup if the previous step succeeded)
+rd /s /q c:\games\wow\interface
+echo -- You still need your addons, so copy them back, recreate the directories first
+md c:\games\wow\interface
+md c:\games\wow\interface\addons
+echo -- Copy the addons back to the WoW directory
+xcopy c:\wowuides\interface\addons\*.* c:\games\wow\interface\addons /e /i</B></PRE>
+	Those are the precise steps, if there is an error, then do not continue.  If you are a more advanced user, then
+	there are safer steps to achieve this if you wish.
+	<LI>Now start the <I>wowuides</I> program, it will not initialise correctly, but OK the error and go to the
+	<B>Tools</B> menu and select <B>Options...</B>.  In the first general page, there is a <B>
+        Work Directory</B> option, 
+	in that text box type <B>c:\wowuides</B> and press OK.
+	<LI>Close down the <I>wowuides</I> application and restart, it should now be using 
+        the new copy of the WoW interface files.
+</OL>When you are ready to test an addon in WoW, you can use the <B>Project | Copy 
+Files to Install Directory...</B> command to copy the files into the install 
+directory to be loaded by WoW on start up.<P>
+<H3>Getting Started</H3></P>
+<P>
+Lets get started by creating a new project and setting up a basic frame.</P>
+<P>
+<TABLE>
+	<TR>
+		<TD valign="top">1. Create a new project: Go to <B>File | New Project...</B> menu item, or press CTRL-SHIFT-N key combination.</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD valign="top">2. A text input form is now displayed, enter the name of our new project called <B>Tutorial Project</B> 
+		and	press OK.</TD>
+		<TD align="centre">
+			<A href="pics\newproject.jpg"><IMG src="pics\newproject.jpg" alt="New Project Dialog" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">3. Now the Project properties page is displayed, enter some information so that you, 
+		and your addon users know what the addon is about.  Some basic sample information is shown below, you can 
+		use your own name ofcourse~</TD>
+		<TD align="centre">
+			<A href="pics\projinfo1.jpg"><IMG src="pics\projinfo1.jpg" alt="Project Properties Form" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">4. Now save the project, go to the <B>File | Save</B> menu item, or press CTRL-S key 
+		combination.  You should find yourself in the interface directory, select the <B>Addons</B> directory and 
+		create a new folder by pressing the third button from the left shown here, name this folder <B>TutProj</B>.  
+		Now go into the folder you just created and type <B>tutproj</B> for the file name and press save.</TD>
+		<TD align="centre">
+			<IMG src="pics\newfolder.jpg" alt="Create New Folder">
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">5. We are now ready to start adding files to the project.  Go to the <B>Project | Add 
+		New Script File</B> menu item, you should now see a new file TutorialProject.lua in the Project Explorer.  
+		Now go to the <B>Project | Add New Form</B> menu item and you will see a TutorialProjectForm.xml file added 
+		to the list.</TD>
+		<TD align="centre">
+			<A href="pics\projexp1.jpg"><IMG src="pics\projexp1.jpg" alt="Project Explorer" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">6. Save the project again (CTRL-S).</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD valign="top">7. Double click on TutorialProjectForm.xml.  This will open a dialog asking what skin to
+		create the form from, select <B>Default</B> and continue.  Now the UI designer will display.</TD>
+		<TD align="centre">
+			<A href="pics\uides1.jpg"><IMG src="pics\uides1.jpg" alt="UI Designer" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">8. Now to set up the form, select the <B>Text</B> property from the list to the right 
+		(near the top), enter something like <B>Wowuides Tutorial</B>, leave the rest alone and go down to the 
+		script property <B>OnEvent</B>, for this enter <B>TutFormEvent();</B> exactly, finally go down to the 
+		<B>OnLoad</B> script property and enter <B>this:RegisterEvent("VARIABLES_LOADED");</B> exactly.</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD valign="top">9. Now for some visuals, within the toolbox usually located at the bottom right of the 
+		screen there is an item called <B>Label</B>, select this and move the cursor over the form.  The cursor 
+		should be a cross shape, move it to the top left of the form and click the left mouse button once.  Something 
+		like below should be displayed, if you moved the mouse while the button was down, then your label is likely 
+		to be smaller, but it will still be there and selected.</TD>
+		<TD align="centre">
+			<A href="pics\uides2.jpg"><IMG src="pics\uides2.jpg" alt="UI Designer with Label" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">10. Now set up the properties for the label to:<BR>
+		<B>Location</B> = <B>32, 64</B><BR>
+		<B>Size</B> = <B>336, 16</B><BR>
+		<B>(Name)</B> = <B>$parentCountLabel</B><BR>
+		<B>Horizontal Alignment</B> = <B>LEFT</B><BR>
+		It should look something like -></TD>
+		<TD align="centre">
+			<A href="pics\uides3.jpg"><IMG src="pics\uides3.jpg" alt="UI Designer with Label setup" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">11. Now go back to the toolbox and place a Button component with the following 
+		properties:<BR>
+		<B>(Name)</B> = <B>$parentDoneButton</B><BR>
+		<B>Text</B> = <B>Done</B><BR>
+		<B>Location</B> = <B>160, 350</B><BR>
+		<B>Size</B> = <B>100, 22</B><BR>
+		<B>OnClick</B> = <B>TutorialProjectForm:Hide();</B><BR>
+		It should look something like this -></TD>
+		<TD align="centre">
+			<A href="pics\uides4.jpg"><IMG src="pics\uides4.jpg" alt="UI Designer with Label and Button" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">12. Now save everything, go to <B>File | Save All</B> menu item, or press CTRL-SHIFT-S 
+		key combination.</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD valign="top">13. Our form is done for now, so double click on TutorialProject.lua in the Project 
+		Explorer to bring up the text editor window for scripting.</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD valign="top">14. Because we called a function <B>TutFormEvent()</B> on the OnEvent event of our 
+		form, we need to define it.  This tutorial does not go into lua scripting, so the contents are in the 
+		picture across, save this.
+		<TD align="centre">
+			<A href="pics\luaeditor.jpg"><IMG src="pics\luaeditor.jpg" alt="Lua Editor" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">15. In the function created above, we referenced a variable called TutSavedVar, we 
+		want this variable to be saved across uses of the addon, so we need to set it into the saved variables.  
+		Go to the menu item <B>Project | Properties</B>, this will redisplay a form we have seen earlier.  Now 
+		press the <B>Add...</B> button located to the right of the Saved Variable text, for the Variable Name 
+		enter <B>TutSavedVar</B> and press OK. Save the project and the project properties should look like -></TD>
+		<TD align="centre">
+			<A href="pics\projinfo2.jpg"><IMG src="pics\projinfo2.jpg" alt="Project Properties" width=300></A>
+		</TD>
+	</TR>
+	<TR>
+		<TD valign="top">16. Now all that is left is to start WoW and see if it worked!</TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+</BODY>
+</HTML>

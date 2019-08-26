@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<apidoc version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../apidoc.xsd">
+	<function name="assert">
+		<summary>
+Issues an error when the value of its argument v is nil or false; otherwise, returns this 
+value. message is an error message; when absent, it defaults to "assertion failed!"
+		</summary>
+		<arguments>
+			<argument name="v" type="object">
+				<summary>
+					tested condition
+				</summary>
+			</argument>
+			<argument name="message" type="string" optional ="true">
+				<summary>
+					message to display on assertion
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="collectgarbage">
+		<summary>
+Sets the garbage-collection threshold to the given limit (in Kbytes) and checks it against 
+the byte counter. If the new threshold is smaller than the byte counter, then Lua immediately 
+runs the garbage collector. If limit is absent, it defaults to zero (thus forcing a 
+garbage-collection cycle).
+		</summary>
+		<arguments>
+			<argument name="limit" type="integer" optional="true">
+				<summary>
+					gc threshold limit
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="dofile">
+		<summary>
+Opens the named file and executes its contents as a Lua chunk. When called without arguments, 
+dofile executes the contents of the standard input (stdin). Returns any value returned by the 
+chunk. In case of errors, dofile propagates the error to its caller (that is, it does not run 
+in protected mode).
+		</summary>
+		<return type="object"/>
+		<arguments>
+			<argument name="filename" type="string">
+				<summary>
+					name of file to execute
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="error">
+		<summary>
+Terminates the last protected function called and returns message as the error message. 
+Function error never returns.
+		</summary>
+		<arguments>
+			<argument name="message" type="string">
+				<summary>
+					error message
+				</summary>
+			</argument>
+			<argument name="level" type="level" optional="true">
+				<summary>
+specifies where the error message points the error; level 1 (the default), the error position 
+is where the error function was called; level 2 points the error to where the function that 
+called error was called; and so on.
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="getfenv">
+		<summary>
+Returns the current environment in use by the function. f can be a Lua function or a number, 
+which specifies the function at that stack level: Level 1 is the function calling getfenv. 
+If the given function is not a Lua function, or if f is 0, getfenv returns the global 
+environment. The default for f is 1.
+If the environment has a "__fenv" field, returns the associated value, instead of the environment.
+		</summary>
+		<return type="table"/>
+		<arguments>
+			<argument name="f" type="string|number">
+				<summary>
+					context of environment to return
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="getmetatable">
+		<summary>
+If the object does not have a metatable, returns nil. Otherwise, if the object's metatable 
+has a "__metatable" field, returns the associated value. Otherwise, returns the metatable of 
+the given object.
+		</summary>
+		<return type="table"/>
+		<arguments>
+			<argument name="object" type="object">
+				<summary>
+					the object to get the metatable of
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="gcinfo">
+		<summary>
+Returns two results: the number of Kbytes of dynamic memory that Lua is using and the current 
+garbage collector threshold (also in Kbytes).
+		</summary>
+		<return type="integer, integer"/>
+	</function>
+	<function name="ipairs">
+		<summary>
+			Returns an iterator function, the table t, and 0.
+		</summary>
+		<return type="function, table, 0"/>
+		<arguments>
+			<argument name="t" type="table">
+				<summary>
+					table to iterate over
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="loadfile">
+		<summary>
+Loads a file as a Lua chunk (without running it). If there are no errors, returns the compiled 
+chunk as a function; otherwise, returns nil plus the error message. The environment of the returned 
+function is the global environment.
+		</summary>
+		<return type="function[, string]"/>
+		<arguments>
+			<argument name="filename" type="string">
+				<summary>
+					name of file to load
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="loadlib">
+		<summary>
+Links the program with the dynamic C library libname. Inside this library, looks for a function 
+funcname and returns this function as a C function.
+		</summary>
+		<return type="function"/>
+		<arguments>
+			<argument name="libname" type="string">
+				<summary>
+the complete file name of the C library, including any eventual path and extension
+				</summary>
+			</argument>
+			<argument name="funcname" type="string">
+				<summary>
+					name of the function to obtain
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="loadstring">
+		<summary>
+Loads a string as a Lua chunk (without running it). If there are no errors, returns the compiled 
+chunk as a function; otherwise, returns nil plus the error message. The environment of the returned 
+function is the global environment.
+		</summary>
+		<return type="function[, string]"/>
+		<arguments>
+			<argument name="string" type="string">
+				<summary>
+					lua chunk to load
+				</summary>
+			</argument>
+			<argument name="chunkname" type="string" optional="true">
+				<summary>
+					the name to be used in error messages and debug information
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="next">
+		<summary>
+			Allows a program to traverse all fields of a table.
+		</summary>
+		<return type="integer, object"/>
+		<arguments>
+			<argument name="table" type="table">
+				<summary>
+					table to iterate through
+				</summary>
+			</argument>
+			<argument name="index" type="integer" optional="true">
+				<summary>
+					current index of iteration
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="pairs">
+		<summary>
+			Returns the next function and the table t (plus a nil).
+		</summary>
+		<return type="function, table, nil"/>
+		<arguments>
+			<argument name="t" type="table">
+				<summary>
+					table to iterate through
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="pcall">
+		<summary>
+Calls function f with the given arguments in protected mode. That means that any error 
+inside f is not propagated; instead, pcall catches the error and returns a status code.
+		</summary>
+		<return type="boolean[, ...]"/>
+		<arguments>
+			<argument name="f" type="string">
+				<summary>
+					name of function to call
+				</summary>
+			</argument>
+			<argument name="..." type="">
+				<summary>
+					arguments of the call
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="print">
+		<summary>
+Receives any number of arguments, and prints their values in stdout, using the tostring function 
+to convert them to strings. This function is not intended for formatted output, but only as a 
+quick way to show a value, typically for debugging.
+		</summary>
+		<arguments>
+			<argument name="e1" type="object">
+				<summary>
+					object to print out
+				</summary>
+			</argument>
+			<argument name="..." type="">
+				<summary>
+					more objects
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="rawequal">
+		<summary>
+			Checks whether v1 is equal to v2, without invoking any metamethod.
+		</summary>
+		<return type="boolean"/>
+		<arguments>
+			<argument name="v1" type="object">
+				<summary>
+					first object
+				</summary>
+			</argument>
+			<argument name="v2" type="object">
+				<summary>
+					second object
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="rawget">
+		<summary>
+			Gets the real value of table[index], without invoking any metamethod.
+		</summary>
+		<return type="object"/>
+		<arguments>
+			<argument name="table" type="table">
+				<summary>
+					table to get value from
+				</summary>
+			</argument>
+			<argument name="index" type="object">
+				<summary>
+					any value different from nil
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="rawset">
+		<summary>
+			Sets the real value of table[index] to value, without invoking any metamethod.
+		</summary>
+		<arguments>
+			<argument name="table" type="table">
+				<summary>
+					table to get value from
+				</summary>
+			</argument>
+			<argument name="index" type="object">
+				<summary>
+					any value different from nil
+				</summary>
+			</argument>
+			<argument name="value" type="object">
+				<summary>
+					any value
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="require">
+		<summary>
+			Loads the given package.
+		</summary>
+		<arguments>
+			<argument name="packagename" type="string">
+				<summary>
+					name of package to load
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="setfenv">
+		<summary>
+			Sets the current environment to be used by the given function.
+		</summary>
+		<arguments>
+			<argument name="f" type="string|number">
+				<summary>
+					context of environment to set
+				</summary>
+			</argument>
+			<argument name="table" type="table">
+				<summary>
+					environment to set
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="setmetatable">
+		<summary>
+Sets the metatable for the given table. (You cannot change the metatable of a userdata 
+from Lua.) If metatable is nil, removes the metatable of the given table. If the original 
+metatable has a "__metatable" field, raises an error.
+		</summary>
+		<arguments>
+			<argument name="object" type="object">
+				<summary>
+					the object to get the metatable of
+				</summary>
+			</argument>
+			<argument name="metatable" type="table">
+				<summary>
+					the new metatable
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="tonumber">
+		<summary>
+Tries to convert its argument to a number. If the argument is already a number or a string 
+convertible to a number, then tonumber returns that number; otherwise, it returns nil.
+		</summary>
+		<return type="number"/>
+		<arguments>
+			<argument name="e" type="object">
+				<summary>
+					the object to convert to a number
+				</summary>
+			</argument>
+			<argument name="base" type="integer" optional="true">
+				<summary>
+					the base of the conversion
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="tostring">
+		<summary>
+			Receives an argument of any type and converts it to a string in a reasonable format.
+		</summary>
+		<return type="string"/>
+		<arguments>
+			<argument name="e" type="object">
+				<summary>
+					the object to convert to a string
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="type">
+		<summary>
+Returns the type of its only argument, coded as a string. The possible results of this 
+function are "nil" (a string, not the value nil), "number", "string", "boolean, "table", 
+"function", "thread", and "userdata".
+		</summary>
+		<return type="string"/>
+		<arguments>
+			<argument name="v" type="object">
+				<summary>
+					the object to get the type of
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="unpack">
+		<summary>
+			Returns all elements from the given list.
+		</summary>
+		<return type="..."/>
+		<arguments>
+			<argument name="list" type="table">
+				<summary>
+					the table to list
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="xpcall">
+		<summary>
+Calls function f in protected mode, using err as the error handler. Any error inside 
+f is not propagated; instead, xpcall catches the error, calls the err function with 
+the original error object, and returns a status code. Its first result is the status 
+code (a boolean), which is true if the call succeeds without errors. In such case, 
+xpcall also returns all results from the call, after this first result. In case of 
+any error, xpcall returns false plus the result from err.
+		</summary>
+		<return type="boolean[, ...]"/>
+		<arguments>
+			<argument name="f" type="string">
+				<summary>
+					name of function to call
+				</summary>
+			</argument>
+			<argument name="err" type="function">
+				<summary>
+					error handler function
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+</apidoc>

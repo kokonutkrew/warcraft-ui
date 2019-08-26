@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>var</Title>
+      <Shortcut>var</Shortcut>
+      <Description>Code snippet for variable declaration</Description>
+      <Author>Steven Haworth</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>varname</ID>
+          <Default>VariableName</Default>
+          <ToolTip>Variable Name</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>initlist</ID>
+          <Default>init</Default>
+          <ToolTip>Initialisation List</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="lua">
+        <![CDATA[$varname$ = $initlist$;]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,508 @@
+﻿<html>
+<head>
+    <title>WoW UI Designer Release Notes</title>
+</head>
+<body>
+    <h2>
+        WoW UI Designer Release Notes</h2>
+    <p>
+        <b>These notes refer to wowuides.exe version 1.1.x, the beta release.</b>
+    </p>
+    <h3>
+        Introduction</h3>
+    <p>
+        This is the WoW UI Designer initially mentioned <a href="http://forums.worldofwarcraft.com/thread.aspx?fn=wow-interface-customization&t=211988&p=1&tmp=1#post211988">
+            here</a>. It started off as an idea I had to be able to load in any addon frame
+        and edit it like you would a form in Borland C++ Builder (my development environment
+        of choice until recently). From that it developed into a full IDE, with the ability
+        to edit lua scripts, and xml files in both code and designer views. Hopefully in
+        the months ahead, it will develop into the only choice for WoW interface developers
+        even if the visual designer is not powerful enough for them.
+    </p>
+    <h3>
+        Features</h3>
+    <ul>
+        <li>Native Win32 application developed in C# 2005 requiring .Net v2.0. Compatible with
+            Windows XP Home(<i>Untested</i>) and Professional(<i>Tested</i>), Windows 2003 Server
+            (<i>Untested</i>), and Windows 2000 Professional (<i>Tested</i>) with the latest
+            service packs; </li>
+        <li>Multiple docking form interface in the style of Microsoft's development environments,
+            provides flexibility for the user and developer; </li>
+        <li>Tight integration with <a href="http://www.worldofwarcraft.com">Blizzard's World
+            of Warcraft</a> game, providing editors for their open User Interface standard that
+            use <a href="http://www.w3c.org">XML</a> and <a href="http://www.lua.org">Lua 5.0</a>
+            standards; </li>
+        <li>Flexible renderer to display any LayoutFrame element defined in an XML file validated
+            against Blizzard's UI.XSD schema; </li>
+        <li>Embedded ActiproSoftware SyntaxEditor provides syntax highlighting for XML and LUA files, and
+            the ability to display calltips in the future; </li>
+        <li>Visual designer to create new forms and edit them. Uses skin files to define what
+            components can be placed, what properties they have, and how to convert between
+            the XML and Windows.Forms; </li>
+        <li><b>This release WILL NOT handle your existing UI files within the editor, it can
+            only handle files that it itself created. </b></li>
+        <li>Lots of other stuff yet to do! </li>
+    </ul>
+    <h3>
+        Installation</h3>
+    <p>
+    </p>
+        <ol>
+            <li>Install all latest service packs: <a href="http://www.windowsupdate.com">Windows
+                Update</a>. </li>
+            <li>Install <a href="http://www.microsoft.com/downloads/details.aspx?familyid=889482fc-5f56-4a38-b838-de776fd4138c&displaylang=en">
+                Windows Installer 3.1</a>, if you don't already have it installed. Unfortunately
+                this requires genuine Windows validation, not sure how to get around it. </li>
+            <li>Install <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5&DisplayLang=en">
+                Microsoft .NET Framework Version 2.0 Redistributable Package (x86)</a> </li>
+            <li>If you have issues later with the Lua interpretor, install the <a href="http://www.microsoft.com/downloads/details.aspx?familyid=262D25E3-F589-4842-8157-034D1E7CF3A3&displaylang=en">
+                Microsoft .NET Framework Version 1.1 Redistributable Package</a>, not sure if this
+                is required or not. </li>
+            <li>Ensure that a copy of World of Warcraft is installed correctly on your system. Use
+                regedit.exe to check
+                <nobr>
+                    HKEY_LOCAL_MACHINE/SOFTWARE/Blizzard Entertainment/World of Warcraft/InstallPath</nobr>
+                to see if you have a good install. You can change the path in the wowuides program
+                options later, but this reduces the problems. </li>
+            <li>Should now be good to go, run the installer <b>WoW UI Designer v1.1.X.msi</b>
+                and follow the prompts. </li>
+        </ol>
+    <h3>
+        Notes</h3>
+    <p>
+    </p>
+        <ul>
+            <li>As of WoW version 1.8.0, the Blizzard XML files no longer conform to their schema
+                exactly. In order to load these files correctly, there is an option in the General
+                tab of the options dialog to not validate the Blizzard XML files against the schema.
+            </li>
+            <li>The loading process can take a bit of time, but hopefully you wont have to do it
+                as many times as I did when developing it. </li>
+            <li>Many addons do not validate against the Blizzard schema, the program does not attempt
+                to load these files and will display one error about that file. These can be safely
+                ignored unless you want order. You can use <b>Tools | Validate XML</b> to validate
+                the current buffer against the schema, if no errors are displayed then it is valid.
+                You can then use <b>Tools | Reload Addons</b> to attempt to reload all the addons
+                to the file list again. </li>
+            <li>The pixel values for location and size are accurate at 1024x768 resolution, but
+                are scaled down for lower resolutions by the WoW renderer. </li>
+            <li>The image reader looks for .TGA files first, then .BLP files.</li>
+            <li>There are 2 skins installed with the designer with overlapping component types.
+                The Default skin has fewer properties and should be easier for a beginner to start
+                playing with, the Basic skin has most of the properties available exposed and is
+                good for users requiring more control. There is no way to convert a component from
+                one skin to another without recreating it. </li>
+        </ul>
+    <h3>
+        Known Bugs</h3>
+    <p>
+    </p>
+        <ul>
+            <li>Structure view does not work correctly with table element names in the [expr] format
+                if expr is not a straight integer. </li>
+            <li>Lots of potential exceptions are not correctly trapped, debug output not available
+                to users. </li>
+            <li>Application uses a s**t load of memory once everything is loaded (~200MB), will
+                work to reduce this (but it is beta after all). </li>
+            <li>New forms added to a project, but not edited and saved before closing the project
+                will load them back as normal xml files. </li>
+            <li>Font drawing is a bit off, with characters offset a little high and a bit wider
+                than the WoW rendering. </li>
+            <li>Find and Replace dialog is not finished. </li>
+        </ul>
+    <h3>
+        To Do</h3>
+    <p>
+    </p>
+        <ul>
+            <li>Implement Undo throughout, you can use CTRL-Z or the context menu on the edit control
+                to undo its actions, you cannot Undo what you have done in the visual designer.
+            </li>
+            <li>Expand the default skin, and provide an interface to add more skins. Document the
+                skin file format. Maybe rename to Component Libraries? </li>
+            <li>Improve the renderer speed and functionality, so that it more closely represents
+                the WoW experience. </li>
+            <li>Change the property script editor interface so that it is embedded directly into
+                the document view like a normal lua script, thus giving the author access to all
+                the resources possible. </li>
+            <li>Tighten application security to make the current skin files less dangerous. </li>
+            <li>Allow multiple message view windows to be created, each with their own filtering
+                states. </li>
+        </ul>
+    <h3>
+        Planned</h3>
+    <p>
+    </p>
+        <ul>
+            <li>Implement calltips for LUA and XML code. Use information provided on wowwiki to
+                get the current function listing. Eventually provide all the wowwiki information
+                to the developer contextually through help windows. </li>
+            <li>Improve the editor interface so that all the functionality available in ActiproSoftware.SyntaxEditor
+                is exposed to the user, and can be customised fully. </li>
+            <li>Develop the UI section of the WoW sandbox, so that most scripts can be run to see
+                their effect in the renderer. </li>
+            <li>Change the renderer to a DirectX implementation to provide faster drawing speed
+                and more effects on texture drawing than the current GDI+ implementation. </li>
+        </ul>
+    <h3>
+        Contributors</h3>
+    <p>
+    </p>
+        <ul>
+            <li><a href="mailto:nulkris@wowuides.wowinterface.com">Steven Haworth</a> - AKA Nulkris,
+                60 Alliance Rogue on Proudmoore; and Barbucan, 65 Rogue on Torvonnilous. </li>
+            <li>Jason Harrell - AKA Aegean, 60 Alliance Hunter on Proudmoore. </li>
+        </ul>
+    <p>
+    </p>
+        <h3>
+            Other Contributors (though they didn't know it)</h3>
+    <p>
+    </p>
+        <ul>
+            <li>Fabio Mascarenhas - Author of <a href="http://luaforge.net/projects/luainterface">
+                Lua Interface 1.3.0</a> </li>
+            <li>gserack - Author of <a href="https://sourceforge.net/projects/scide">ScintillaNET
+                0.61</a> </li>
+            <li>Neil Hodgson and Co. - Authors of <a href="https://sourceforge.net/projects/scintilla/">
+                Scintilla 1.66</a> </li>
+            <li>Weifen Luo - Author of <a href="https://sourceforge.net/projects/dockpanelsuite/">
+                Dock Panel Suite 0.99.0.3</a> </li>
+            <li>Technetium - Author of <a href="http://www.curse-gaming.com/mod.php?addid=181">blp2decode.dll</a>
+            </li>
+            <li>Developers of <a href="http://freeimage.sourceforge.net">FreeImage 1.3.0</a> </li>
+            <li>Shadowflare - Developer of <a href="http://shadowflare.gameproc.com/">sfmpq dll</a>
+            </li>
+            <li>Mike Krueger - Developer of <a href="http://sharpdevelop.net/OpenSource/SharpZipLib/Default.aspx">
+                #ziplib</a> </li>
+        </ul>
+    <h3>
+        History</h3>
+    <p>
+        <font color="red">1.0.0.100</font>: Initial limited release<br />
+        + All new
+    </p>
+    <p>
+        <font color="red">1.0.0.100a1</font>: Alpha 1 Patch<br />
+        + Added a view menu to recover lost windows.
+    </p>
+    <p>
+        <font color="red">1.0.100.2</font>: Alpha 2 Patch<br />
+        * Redone version numbering to match the correct format.<br />
+        + Added a project menu to duplicate what is on the Project Explorer context menu.<br />
+        + Added a selector box to the properties window so that you can easily select components
+        in the visual editor. (Fixed up so it worked properly in release 2 of this version).<br />
+        + More properties for the form component, all components have the hidden property
+        now.<br />
+        * Made it so you can load up forms from any version of the software<br />
+        * Changed the rename functionality.<br />
+        * Changed the name of new items so that they match up with the project title.<br />
+        * Made it so you cannot access functionality while the program is loading up the
+        file list.<br />
+        * Various other fixes.
+    </p>
+    <p>
+        <font color="red">1.0.100.3</font>: Alpha 4 Patch<br />
+        + Added keywords for WoW API so that they are syntax highlighed (Thanks Beladona
+        for the list)<br />
+        + Added skin file page to options.<br />
+        + Added editor customisation page to options.<br />
+        + Added per character saved variable support (1.8 feature).<br />
+        + Added support for changing the file load order in the project explorer, can use
+        context menu or drag files around.<br />
+        * Fixed copy/paste for UI visual editor.<br />
+        * Fixed globalisation issues.<br />
+        * Find form has some improved functionality.<br />
+        * Debug file written to same directory as wowuides.exe.<br />
+        * Hopefully fixed hard crashes with lua interpretor and text labels with odd characters.<br />
+        - Removed need for wow.exe to be in WoW override folder.
+    </p>
+    <p>
+        <font color="red">1.0.100.4</font>: Alpha 5 Release<br />
+        + About box.<br />
+        + Tooltips for known WoW functions displayed in editor, added apidoc.xsd containing
+        the schema for the docfile. Some functions defined in api/*.xml<br />
+        + Added a toolbar with basic functions.<br />
+        + Expand scripts defined in an XML file within the project explorer.<br />
+        + Added support for include tag for XML files, this is now used alot in 1.8.<br />
+        + Now includes its own Lua parser.<br />
+        + Added a structure window for editing Lua Files, shows functions and variables
+        defined within the file.<br />
+        + Options to not verify XML files against the schema, can turn off verification
+        for Blizzard files only.<br />
+        + Now has a proper application icon!<br />
+        + Added a tutorial<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.5</font>: Alpha 6 Release<br />
+        * Ensure line endings are all CRLF, and specify UTF-8 encoding when saving.<br />
+        + Structure view now tries to show tables that are defined in the source.<br />
+        * Structure view now updates on error, and will only show contents prior to the
+        error.<br />
+        + Message window will now show a Lua syntax error if available, as you are typing.<br />
+        * Structure view should remember what is opened as things appear and disappear when
+        typing.<br />
+        * Docking state file is now stored in the same directory as the executable.<br />
+        * Structure view will clear when buffer is closed.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.6</font>: Alpha 7 Release<br />
+        + Comes in an install package now.<br />
+        * Script support in the designer should be a little better now, can access scripts
+        of sub-frames.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.7</font>: Alpha 8 Release<br />
+        + Now handles reading in lua files for the interpreter, should handle Euro globalstrings.lua
+        correctly now.<br />
+        * Fixed a bug where an invalid XML file in a project would cause the whole project
+        not to load.<br />
+        * Updated version numbers on DLLs so that the installer will overwrite old ones
+        if they are present.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.8</font>: Alpha 9 Release<br />
+        * Fixed freezing when lua parser couldn't find a token before the end of the file.<br />
+        + Added a window menu to display the list of windows in the document view.<br />
+        + Added a format menu to the UI designer view with some component alignment commands.<br />
+        * When pasting components back onto a form, the new components are centred within
+        the parent, instead of over the top of the old components.<br />
+        + Added a Renderer menu when the Renderer is displayed.<br />
+        + Project Explorer now contains a tree listing of all the frames defined in the
+        project, this is updated when any file is saved.<br />
+        + New command with the Renderer allows you to rewrite the XML file that contains
+        the frame you are viewing, changing properties will change those values in the output.<br />
+        * Mass code changes to better support outputting XML that is close to what is read
+        in, taking into account inheritance.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.9</font>: Beta Release Candidate 1<br />
+        * Fixed up a bug in the XML loader not correctly inheriting sub-frames, also ScrollFrames
+        fixed up.<br />
+        * When positioning frames, the renderer will now look for named parents.<br />
+        + Added some icons to the File List tree view to represent frame types.<br />
+        + Added icons to the format menu.<br />
+        + Added a texture viewer editor to xml properties that use textures.<br />
+        * Changed the color type to use the standard colour editor.<br />
+        + Added filtering to the message view, and column-click sorting.<br />
+        * Error marker now showing up when lua parser finds a syntax error.<br />
+        * Changed Delete key handling for the editor control.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.10</font>: Beta Release Candidate 1a<br />
+        * Quick fix for Euro machines when loading Color tags.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.11</font>: Beta Release Candidate 2<br />
+        + Added a new skin called "Basic", this exposes most of the frame types and a majority
+        of their properties.<br />
+        * Changed the skin format and handling a little to make it more straightforward.<br />
+        * Made it so placing any xml file in the skins directory will install it as a skin.<br />
+        + Added functionality to the Slider and StatusBar frame types to draw the bar and
+        thumb texture.<br />
+        + Added custom type converter to backdrop that allows you to select from a list
+        of predefined backdrops.<br />
+        + Added custom type converter to textures and fontstrings that allows you to clear
+        and set them properly.<br />
+        * Fixed a hang bug with the editor error marking.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.12</font>: Beta Release Candidate 2a<br />
+        * Release to test the program against the release version of the tools and framework.<br />
+    </p>
+    <p>
+        <font color="red">1.0.100.13</font>: Beta Release Candidate 3<br />
+        * Changed the update strategy of the structure form to update only when the lua
+        file is valid, this is a bit less distracting when typing.<br />
+        * Now clears error markers from the whole file to eradicate left behind tails.<br />
+        * Played with the message view to make it a bit less flashy when typing Lua.<br />
+        + Added the ability to set the GetLocale() return value (see the Options dialog),
+        be careful as it isn't checked.<br />
+        * Made addon loading take into account dependencies.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.0</font>: Beta Release<br />
+        * New version number for first public release.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.1</font>: Beta Release 1<br />
+        * Changed manifest file to work on IA-64 Windows versions.<br />
+        + Added a context menu to the file list to easily allow a project to be opened.<br />
+        * Put in a work around so that addons with circular dependencies will still load.<br />
+        + Added an option to disable real-time error marking on the edit control.<br />
+        * Changed the way window locations are stored between sessions, now stored in the
+        registry and not version dependant.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.2</font>: Beta Release 2<br />
+        * Found what was causing extra error markers in the XML syntax highlighting and
+        fixed with a new lexer dll.<br />
+        + Added line numbers and code folding to the editor, with options to turn them on
+        and off, rearranged the options dialog to suite.<br />
+        * Can now open text files with the Open File... command.<br />
+        * Fixed up a few frame definitions so that they can be used as base frames in skins.<br />
+        + Added a new component to the Default skin, Multiline Edit Box with full scroll
+        capabilities.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.3</font>: Beta Release 3<br />
+        + Added a hide context menu command to the Frame explorers to hide sub-frames from
+        the render.<br />
+        * Xml files that do not validate are included in the File List with an error marker.<br />
+        * Fixed BLP reader to read uncompressed texture files.<br />
+        + Options to add file extensions pointing to the application.<br />
+        + Project editor form now allows you to set localized properties, and handles 1.9
+        LoadWith property.<br />
+        * Fixed a bug that didn't allow more than one instance of the application to run.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.4</font>: Beta Release 4<br />
+        * Some more text editor enhancements, including auto-indenting/unindenting, and
+        brace highlighting.<br />
+        + Now has full support for reading data files directly from the MPQ files.<br />
+        * Options has 2 separate directory entries, one for the install directory (containing
+        the MPQ files), and another work directory.<br />
+        + Added a zip library and a utility to zip up your addon project files.<br />
+        + Added a utility to copy addon project files from the work directory to the WoW
+        install directory.<br />
+    </p>
+    <p>
+        <font color="red">1.0.200.5</font>: Beta Release 5<br />
+        * Hopefully made the auto-indent a little more intelligent.<br/>
+        + Added a Go To command for going to a line number.<br />
+        + Added initial support for XML autocomplete.<br />
+        * Fixed up defaultCopy skin mechanism to set parent propertly.<br />
+        + Added Uppercase/Lowercase to context menu of edit control.<br />
+        * Fixed up all forms to have consistant appearance with different themes.</p>
+    <p>
+        <font color="red">1.0.300.0</font>: Beta Release 6<br />
+        * Large rewrite with new editor control and image editor.<br>
+    </p>
+    <p>
+        <font color="red">1.0.300.1</font>: Beta Release 7<br />
+        + Added outlining and bookmarking functionality to the text editor.<br>
+        * Improved drawing speed within the renderer.<br>
+        + Added null functions for seterrorhandler() and GetItemQualityColor() so they don't bring up errors when loading the default 1.10 files.<br>
+    </p>
+    <p>
+        <font color="red">1.0.300.2</font>: Beta Release 8<br />
+        + Added a help window that links directly to <a href="http://wowwiki.com">WoWWiki</a>.  Press F1 on a known function and it will bring up the wiki for that function.<br>
+        * Reintroduced tooltips for known functions within the editor.  Hovering the mouse over the function name will bring up a short summary.<br>
+        * Updated highlighting definitions for new 1.10 functions.<br>
+        * Updated apidoc definitions for new 1.10 functions (still very incomplete).<br>
+        * Filled in more functionality in the Project Explorer, most of the context menus will work now.<br>
+        + Added code folding for block comments.<br>
+        + Added special region tokens for folding arbrarily defined regions of a file, use <nobr>--#region [Description]</nobr> to start, <nobr>--#endregion</nobr> to end (note: no space between <nobr>--</nobr> & #)
+    </p>
+    <p>
+        <font color="red">1.0.300.3</font>: Beta Release 9<br />
+        + Added a symbol library.  When the application first starts, it will parse each lua file for symbols, and whilst editing you can CONTROL-LEFT CLICK on a symbol to go to where it is defined.<br />
+        + Added an update application feature.<br />
+        * Fixed path comparision when trailing '\' were different.
+    </p>
+    <p>
+        <font color="red">1.0.300.4</font>: Beta Release 10<br />
+        * Fixed a bug with the texture browser not showing.<br />
+        * Redid some of the multi-document find functionality.<br />
+        * Updated structure view so that it provides some help whilst editing XML files.<br />
+        + Added file modified detection to allow easy reloading/deleting of files modified outside the editor.<br />
+        * Updated context menu of editor to add more functions.<br />
+        * Options dialog now working, editor customization available again!<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.5/6</font>: Beta Release 11<br />
+        * Made it so changing the background color of the "Text" font style will change the background of the entire text area.<br />
+        + Added clampedToScreen property to Frame class and Frame skin object.<br />
+        + Added ButtonText, NormalFont/Color, HighlightFont/Color, and DisabledFont/Color properties to Button class. Depreciated NormalText, HighlightText, and DisabledText, and added conversion from old style to new style Button properties.<br />
+        + Added fade and displayDuration properties to MessageFrame class.<br />
+        * Updated lua syntax highlighting for 1.11 keywords.<br />
+        * Improved MPQ file searching for PTR and live.<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.7</font>: Beta Release 12 (13Jul06)<br />
+        + Added lots of options for the text editor, check them out!<br />
+        + Reintroduced autocomplete list for the XML editor, there are typing triggers for bringing up select lists, and you can use CTRL-SPACE to bring up the list when inside elements.<br />
+        + Reintroduced smart indenting for lua and xml.<br />
+        * Fixed bug when opening a file that does not exist, it will now use the correct language syntax based on file extension.<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.8</font>: Beta Release 13 (18Jul06)<br />
+        * Altered skin format slightly to support templates. Existing skins should just remove any comments around &lt;FrameSkin&gt; elements to work again.<br />
+        + Added missing Frame types to Basic skin (Model &amp; derivatives, MessageFrame, ScrollingMessageFrame, SimpleHTML, ColorSelect).<br />
+        * Redid Font rendering to support color changing escape sequences (i.e. |cffff0000Red|r), spacing and sizing still not exactly like WoWs.<br />
+        + Added ability to enter meta data fields in the project form.<br />
+        * Fixed bug with loadWith dependencies not loading in before addon, and addons dependant on Blizzard addons not loading.<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.9</font>: Beta Release 14 (31Aug06)<br />
+        + Added Color and BorderColor elements to Backdrop objects, also has a visual display.<br />
+        * Updated lua syntax highlighting for 1.12 keywords.<br />
+        + Added code snippets to the editor, some basic lua and xml snippets provided.<br />
+        * Fixed a bug where key shortcuts would go to the wrong editor instance.<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.85</font>: Beta Release 15 (9Feb07)<br />
+        + Updated to version 4 of the editor control.  Should be working as before, but some functionality may be missing.<br />
+        * Updated lua syntax highlighting for 2.0.6 keywords.<br />
+        * Fixed issue with Save All command.<br />
+    </p>
+    <p>
+        <font color="red">1.0.300.102</font>: Beta Release 16 (3Oct07)><br />
+        * Fixed bugs related to closing projects.<br />
+        * Updated to latest version of the docking manager.<br />
+        + Can handle multiple inheritance without errors, although the result isn't correct.<br />
+        + Improved UI for closing of unsaved files.<br />
+        * Updated lua syntax highlighting for 2.2.2 keywords.<br />
+    </p>
+    <p>
+        <font color="red">1.1.106</font>: Beta Release 17 (11Oct07)><br />
+        * Should now work on 64-bit versions of Windows XP.<br />
+        * Templates loaded from addons now go into the Addons list.<br />
+        + Changed start up behaviour, the environment is now not created at start up by default, reducing load time significantly.<br />
+        > New command line argument /lf loads the framexml on start up.<br />
+        > New command line argument /la loads the framexml and addons on start up.<br />
+        > New menu command <B>Tools | Load FrameXML</B> loads the framexml as required.<br />
+        > New menu command <b>Project | Load Environment</b> loads the framexml, the addon and its dependencies.<br />
+        > Loading a UI designer form will load the framexml first if it is not already loaded<br />
+    </p>
+    <p>
+        <font color="red">1.1.107</font>: Beta Release 18 (Jul08)<br />
+        * Lua parser now handles % operator and hexadecimal numbers properly.<br />
+        + Added startup options for loading XML files.<br />
+        * Added messages when files cannot be saved.<br />
+        + Added new functions to lua highlighting.<br />
+        + Handles DXT4/5 BLP2 files.<br />
+    </p>
+    <p>
+        <font color="red">1.1.109</font>: Beta Release 19 (Oct08)<br />
+        * Updated Button rendering for WoW client v3.<br />
+    </p>
+    <p>
+        <font color="red">1.1.110</font>: Beta Release 20 (Nov10)<br />
+        * Updated MPQ reader to WoW client v4.<br />
+    </p>
+    <h3>
+        Other Stuff</h3>
+    <p>
+        THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED
+        OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS
+        FOR A PARTICULAR PURPOSE.
+    </p>
+    <p>
+        IN NO EVENT SHALL THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR BE LIABLE FOR ANY
+        SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES
+        WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF
+        THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN
+        CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+    </p>
+    <p>
+        Permission to use this software and its documentation for testing purposes is hereby
+        granted without fee, provided that the above copyright notices and this permission
+        notice appear in all copies of the software and related documentation. You are not
+        authorised to distribute any copies of this software although you can distribute
+        anything you make with it.
+    </p>
+    <hr>
+    Last updated 20 November 2010
+</body>
+</html>

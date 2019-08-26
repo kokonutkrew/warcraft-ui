@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Frame</Title>
+      <Shortcut>Frame</Shortcut>
+      <Description>Code snippet for named Frame UI element</Description>
+      <Author>Steven Haworth</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>frame</ID>
+          <ToolTip>Frame type</ToolTip>
+          <Default>Frame</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Frame name</ToolTip>
+          <Default>$parentFrame</Default>
+        </Literal>
+        <Literal>
+          <ID>parent</ID>
+          <ToolTip>Frame parent name</ToolTip>
+          <Default>$parent</Default>
+        </Literal>
+        <Literal>
+          <ID>inherits</ID>
+          <ToolTip>Frame inheritance</ToolTip>
+          <Default>Frame</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="XML">
+        <![CDATA[<$frame$ name="$name$" parent="$parent$" inherits="$inherits$">
+   $selected$$end$
+</$frame$>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

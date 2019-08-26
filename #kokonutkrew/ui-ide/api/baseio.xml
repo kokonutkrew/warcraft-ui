@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<apidoc version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../apidoc.xsd">
+	<function name="close">
+		<table name="io"/>
+		<summary>
+			Closes file. Without a file, closes the default output file.
+		</summary>
+		<return type="object, string"/>
+		<arguments>
+			<argument name="file" type="FILE*" optional="true">
+				<summary>
+					file to close
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="flush">
+		<table name="io"/>
+		<summary>
+			Saves any written data to the default output file.
+		</summary>
+		<return type="object, string"/>
+	</function>
+	<function name="input">
+		<table name="io"/>
+		<summary>
+When called with a file name, it opens the named file (in text mode), and sets its handle
+as the default input file. When called with a file handle, it simply sets that file handle
+as the default input file. When called without parameters, it returns the current default
+input file.
+In case of errors this function raises the error, instead of returning an error code.
+		</summary>
+		<return type="[FILE*]"/>
+		<arguments>
+      <argument name="file" type="string|FILE*" optional="true">
+        <summary>
+          when string, name of file to open; when FILE*, sets default input file
+        </summary>
+      </argument>
+    </arguments>
+	</function>
+	<function name="lines">
+		<table name="io"/>
+		<summary>
+Opens the given file name in read mode and returns an iterator function that, each time 
+it is called, returns a new line from the file.
+		</summary>
+		<return type="function"/>
+		<arguments>
+			<argument name="filename" type="string" optional="true">
+				<summary>
+					the name of the file, if not present then default input file is used
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="open">
+		<table name="io"/>
+		<summary>
+This function opens a file, in the mode specified in the string mode. It returns a new 
+file handle, or, in case of errors, nil plus an error message.
+		</summary>
+		<return type="FILE*[, string]"/>
+		<arguments>
+			<argument name="filename" type="string">
+				<summary>
+					the name of the file
+				</summary>
+			</argument>
+			<argument name="mode" type="string" optional="true">
+				<summary>
+mode to open the file ("r" read mode, "w" write mode, "a" append mode, "r+" update mode
+(all previous data preserved), "w+" update mode (all previous data erased), "a+" append
+update mode (previous data is preserved, writing is only allowed at the end of file)
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="output">
+		<table name="io"/>
+		<summary>
+When called with a file name, it opens the named file (in text mode), and sets its handle
+as the default output file. When called with a file handle, it simply sets that file handle
+as the default output file. When called without parameters, it returns the current default
+output file.
+In case of errors this function raises the error, instead of returning an error code.
+		</summary>
+		<return type="[FILE*]"/>
+		<arguments>
+			<argument name="file" type="string|FILE*" optional="true">
+				<summary>
+					when string, name of file to open; when FILE*, sets default output file
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="read">
+		<table name="io"/>
+		<summary>
+Reads the default input file, according to the given formats, which specify what to read. 
+For each format, the function returns a string (or a number) with the characters read, or 
+nil if it cannot read data with the specified format. When called without formats, it uses 
+a default format that reads the entire next line.
+		</summary>
+		<return type="string"/>
+		<arguments>
+			<argument name="format1" type="string">
+				<summary>
+"n" reads a number; "a" reads the whole file; "i" reads the next line; number reads a string
+with up to that number of characters
+				</summary>
+			</argument>
+			<argument name="..." type="">
+				<summary>
+					more formats
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="tmpfile">
+		<table name="io"/>
+		<summary>
+Returns a handle for a temporary file. This file is open in update mode and it is automatically 
+removed when the program ends.
+		</summary>
+		<return type="FILE*"/>
+	</function>
+	<function name="type">
+		<table name="io"/>
+		<summary>
+Checks whether obj is a valid file handle. Returns the string "file" if obj is an open file 
+handle, "closed file" if obj is a closed file handle, and nil if obj is not a file handle.
+		</summary>
+		<return type="string"/>
+		<arguments>
+			<argument name="obj" type="object">
+				<summary>
+					object to test
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="write">
+		<table name="io"/>
+		<summary>
+Writes the value of each of its arguments to the default output file. The arguments must 
+be strings or numbers. To write other values, use tostring or string.format before write.
+		</summary>
+		<return type="object, string"/>
+		<arguments>
+			<argument name="value1" type="string">
+				<summary>
+					value to write
+				</summary>
+			</argument>
+			<argument name="..." type="">
+				<summary>
+					more values to write
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="close">
+		<context type="file"/>
+		<summary>
+			Closes file.
+		</summary>
+		<return type="object, string"/>
+	</function>
+	<function name="flush">
+		<context type="file"/>
+		<summary>
+			Saves any written data to file.
+		</summary>
+		<return type="object, string"/>
+	</function>
+	<function name="lines">
+		<context type="file"/>
+		<summary>
+			Returns an iterator function that, each time it is called, returns a new line from the file.
+		</summary>
+		<return type="function"/>
+	</function>
+	<function name="read">
+		<context type="file"/>
+		<summary>
+Reads the file file, according to the given formats, which specify what to read. For each
+format, the function returns a string (or a number) with the characters read, or nil if it
+cannot read data with the specified format. When called without formats, it uses a default
+format that reads the entire next line.
+		</summary>
+		<return type="string"/>
+		<arguments>
+			<argument name="format1" type="string">
+				<summary>
+"n" reads a number; "a" reads the whole file; "i" reads the next line; number reads a string
+with up to that number of characters
+				</summary>
+			</argument>
+			<argument name="..." type="" optional="true">
+				<summary />
+			</argument>
+		</arguments>
+	</function>
+	<function name="seek">
+		<context type="file"/>
+		<summary>
+Sets and gets the file position, measured from the beginning of the file, to the position given 
+by offset plus a base specified by the string whence.
+		</summary>
+		<return type="number[, string]"/>
+		<arguments>
+			<argument name="whence" type="string" optional="true">
+				<summary>
+"set" base is position 0; "cur" base is current position; "end" base is end of file
+				</summary>
+			</argument>
+			<argument name="offset" type="integer" optional ="true">
+				<summary>
+					offset from base to seek
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+	<function name="write">
+		<context type="file"/>
+		<summary>
+Writes the value of each of its arguments to file. The arguments must be strings 
+or numbers. To write other values, use tostring or string.format before write.
+		</summary>
+		<return type="object, string"/>
+		<arguments>
+			<argument name="value1" type="string">
+				<summary>
+					value to write
+				</summary>
+			</argument>
+			<argument name="..." type="">
+				<summary>
+					more values to write
+				</summary>
+			</argument>
+		</arguments>
+	</function>
+</apidoc>

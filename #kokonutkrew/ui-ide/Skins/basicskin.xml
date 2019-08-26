@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Skin name="Basic" skinid="{f15d4970-d66d-444e-bb2d-1ad102c87fed}">
+  <Templates>
+    <Template name="Basic">
+      <Properties>
+        <Property name="enableKeyboard" displayName="Enable Keyboard" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="enableMouse" displayName="Enable Mouse" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="frameLevel" displayName="Frame Level" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="frameStrata" displayName="Frame Strata" type="wowuides.UI.FRAMESTRATA" value="wowuides.UI.FRAMESTRATA.PARENT" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="id" displayName="Id" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="MaximumSize" visible="true" />
+        <Property name="MinimumSize" visible="true" />
+        <Property name="movable" displayName="Moveable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="resizable" displayName="Resizeable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="toplevel" displayName="Top Level" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Layout" visible="true" defaultCopy="true" />
+      </Properties>
+      <Types>
+        <Type type="enum" name="TitleRegion">
+          <EnumValue value="None"/>
+          <EnumValue value="SetAllPoints"/>
+        </Type>
+      </Types>
+      <Routines>
+        <Routine name="SetupFrameSizes">
+          Frame f = (Frame)frame;
+          f.Size = Dimension.FromSize(control.Size);
+          if((control.MaximumSize.Width &gt; 0) &amp;&amp; (control.MaximumSize.Height &gt; 0))
+          {
+            if(f.ResizeBounds == null)
+            {
+              f.ResizeBounds = new Frame.__ResizeBounds();
+            }
+            f.ResizeBounds.maxResize = Dimension.FromSize(control.MaximumSize);
+          }
+          else if(f.ResizeBounds != null)
+          {
+            f.ResizeBounds.maxResize = null;
+          }
+          if((control.MinimumSize.Width &gt; 0) &amp;&amp; (control.MinimumSize.Height &gt; 0))
+          {
+            if(f.ResizeBounds == null)
+            {
+              f.ResizeBounds = new Frame.__ResizeBounds();
+            }
+            f.ResizeBounds.minResize = Dimension.FromSize(control.MinimumSize);
+          }
+          else if(f.ResizeBounds != null)
+          {
+            f.ResizeBounds.minResize = null;
+          }
+        </Routine>
+        <Routine name="SetupFormSizes">
+          Frame f = (Frame)frame;
+          control.Size = f.Size.ToSize();
+          if(f.ResizeBounds != null)
+          {
+            if(f.ResizeBounds.maxResize != null)
+            {
+              control.MaximumSize = f.ResizeBounds.maxResize.ToSize();
+            }
+            else
+            {
+              control.MaximumSize = Size.Empty;
+            }
+            if(f.ResizeBounds.minResize != null)
+            {
+              control.MinimumSize = f.ResizeBounds.minResize.ToSize();
+            }
+            else
+            {
+              control.MinimumSize = Size.Empty;
+            }
+          }
+          else
+          {
+            control.MaximumSize = Size.Empty;
+            control.MinimumSize = Size.Empty;
+          }
+        </Routine>
+      </Routines>
+    </Template>
+  </Templates>
+  <Frame name="form" render="FrameRender" onToolbox="false" frameid="{f15d4971-d66d-444e-bb2d-1ad102c87fed}" icon="Frame">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="AnchorOffset" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="new System.Drawing.Point(0,0)" category="Layout" visible="true" />
+        <Property name="AnchorParent" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;UIParent&quot;" category="Layout" visible="true" />
+        <Property name="AnchorPoint" type="wowuides.UI.FRAMEPOINT" value="wowuides.UI.FRAMEPOINT.CENTER" category="Layout" visible="true" />
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="BackdropColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.FromArgb(94,94,86)" visible="false" />
+        <Property name="clampedToScreen" displayName="Clamped To Screen" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Opacity" visible="true" />
+        <Property name="parent" displayName="Parent" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="string.Empty" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(400,400)" visible="true" />
+        <Property name="TitleRegion" displayName="Title Region" type="TitleRegion" value="TitleRegion.None" category="Behaviour" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = (FRAMEPOINT)control.Properties["AnchorPoint"];
+          frame.Anchors[0].Offset = Dimension.FromPoint((System.Drawing.Point)control.Properties["AnchorOffset"]);
+          frame.Anchors[0].relativeTo = (string)control.Properties["AnchorParent"];
+          frame.alpha = (float)control.Opacity;
+          TitleRegion tr = (TitleRegion)control.Properties["TitleRegion"];
+          if(tr == TitleRegion.None)
+          {
+            frame.TitleRegion = null;
+          }
+          else if(tr == TitleRegion.SetAllPoints)
+          {
+            frame.TitleRegion = new LayoutFrame();
+            frame.TitleRegion.setAllPoints = true;
+          }
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Properties["AnchorPoint"] = frame.Anchors[0].point;
+          control.Properties["AnchorParent"] = frame.Anchors[0].relativeTo;
+          control.Properties["AnchorOffset"] = frame.Anchors[0].Offset.ToPoint();
+          control.Opacity = frame.alpha;
+          if((frame.TitleRegion != null) &amp;&amp; (frame.TitleRegion.setAllPoints))
+          {
+            control.Properties["TitleRegion"] = TitleRegion.SetAllPoints;
+          }
+          else
+          {
+            control.Properties["TitleRegion"] = TitleRegion.None;
+          }
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+      <BackgroundInsets>
+        <AbsInset left="11" right="12" top="12" bottom="11"/>
+      </BackgroundInsets>
+      <TileSize>
+        <AbsValue val="32"/>
+      </TileSize>
+      <EdgeSize>
+        <AbsValue val="32"/>
+      </EdgeSize>
+    </Backdrop>
+  </Frame>
+  <Button name="Button" inherits="UIPanelButtonTemplate" render="ComponentRender" onToolbox="true" frameid="{f15d4973-d66d-444e-bb2d-1ad102c87fed}" icon="Button">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="ButtonText" displayName="Button Text" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledColor" displayName="Disabled Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledFont" displayName="Disabled Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledTexture" displayName="Disabled Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightColor" displayName="Highlight Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightFont" displayName="Highlight Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightTexture" displayName="Highlight Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="NormalColor" displayName="Normal Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="NormalFont" displayName="Normal Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="NormalTexture" displayName="Normal Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="PushedTextOffset" displayName="Pushed Text Offset" type="wowuides.UI.Dimension" value="new wowuides.UI.Dimension()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="PushedTexture" displayName="Pushed Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,22)" visible="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          frame.text = control.Text;
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          control.Text = frame.text;
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </Button>
+  <CheckButton name="CheckButton" render="ComponentRender" onToolbox="true" frameid="{f15d4974-d66d-444e-bb2d-1ad102c87fed}" icon="CheckButton">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Checked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Appearance" visible="true" />
+        <Property name="CheckedTexture" displayName="Checked Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledCheckedTexture" displayName="Disabled Checked Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledText" displayName="Disabled Text" type="wowuides.UI.FontString" value="new FontString()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="DisabledTexture" displayName="Disabled Texture" type="wowuides.UI.Texture" value="new Texture()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightText" displayName="Highlight Text" type="wowuides.UI.FontString" value="new FontString()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightTexture" displayName="Highlight Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="NormalText" displayName="Normal Text" type="wowuides.UI.FontString" value="new FontString()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="NormalTexture" displayName="Normal Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="PushedTextOffset" displayName="Pushed Text Offset" type="wowuides.UI.Dimension" value="new wowuides.UI.Dimension()" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="PushedTexture" displayName="Pushed Texture" type="wowuides.UI.Texture" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(32,32)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          frame.text = control.Text;
+          frame.@checked = (bool)control.Properties["Checked"];
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          control.Text = frame.text;
+          control.Properties["Checked"] = frame.@checked;
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <NormalTexture file="Interface\Buttons\UI-CheckBox-Up"/>
+    <PushedTexture file="Interface\Buttons\UI-CheckBox-Down"/>
+    <HighlightTexture file="Interface\Buttons\UI-CheckBox-Highlight" alphaMode="ADD"/>
+    <CheckedTexture file="Interface\Buttons\UI-CheckBox-Check"/>
+    <DisabledCheckedTexture file="Interface\Buttons\UI-CheckBox-Check-Disabled"/>
+  </CheckButton>
+  <ColorSelect name="ColorSelect" render="ComponentRender" onToolbox="true" frameid="{E3651ECE-AA83-452f-81C7-85EEF1E27F2E}" icon="ColorSelect">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="ColorValueTexture" displayName="Color Value Texture" type="wowuides.UI.Texture" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="ColorValueThumbTexture" displayName="Color Value Thumb Texture" type="wowuides.UI.Texture" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="ColorWheelTexture" displayName="Color Wheel Texture" type="wowuides.UI.Texture" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="ColorWheelThumbTexture" displayName="Color Wheel Thumb Texture" type="wowuides.UI.Texture" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </ColorSelect>
+  <DressUpModel name="DressUpModel" render="ComponentRender" onToolbox="true" frameid="{f15d497b-d66d-444e-bb2d-1ad102c87fed}">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="file" displayName="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FogColor" displayName="Fog Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.Empty" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogFar" displayName="Fog Far" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogNear" displayName="Fog Near" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="scale" displayName="Scale" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </DressUpModel>
+  <EditBox name="EditBox" render="ComponentRender" onToolbox="true" frameid="{f15d4975-d66d-444e-bb2d-1ad102c87fed}" icon="EditBox">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="autoFocus" displayName="Auto Focus" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="blinkSpeed" displayName="Blink Speed" type="System.Single" value="0.5f" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="FontString" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="HighlightColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.White" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="historyLines" displayName="History Lines" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="ignoreArrows" displayName="Ignore Arrows" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="letters" displayName="Letters" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="multiLine" displayName="Multi Line" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="numeric" displayName="Numeric" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="password" displayName="Password" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(100,20)" visible="true" />
+        <Property name="TextInsets" type="wowuides.UI.Inset" value="new wowuides.UI.Inset(0,0,0,0)" category="Behaviour" visible="true" defaultCopy="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <FontString inherits="ChatFontNormal" />
+  </EditBox>
+  <Frame name="Label" render="ComponentRender" onToolbox="true" frameid="{f15d4978-d66d-444e-bb2d-1ad102c87fed}" icon="FontString">
+    <FrameSkin>
+      <Setup>
+        <Property name="Bytes" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="255" category="Behaviour" visible="true" />
+        <Property name="Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.FromArgb(255,209,0)" category="Appearance" visible="true" />
+        <Property name="DrawLayer" displayName="Draw Layer" type="wowuides.UI.DRAWLAYER" value="wowuides.UI.DRAWLAYER.ARTWORK" category="Layout" visible="true" />
+        <Property name="font" displayName="Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;Fonts\\FRIZQT__.TTF&quot;" category="Appearance" visible="true" />
+        <Property name="FontHeight" type="wowuides.UI.Value" value="new Value(12)" category="Appearance" visible="true" />
+        <Property name="JustifyH" type="wowuides.UI.JUSTIFYHTYPE" value="JUSTIFYHTYPE.CENTER" category="Appearance" visible="true" />
+        <Property name="JustifyV" type="wowuides.UI.JUSTIFYVTYPE" value="JUSTIFYVTYPE.MIDDLE" category="Appearance" visible="true" />
+        <Property name="Location" visible="true" />
+        <Property name="MaxLines" type="System.UInt32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="0" category="Behaviour" visible="true" />
+        <Property name="Monochrome" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Appearance" visible="true" />
+        <Property name="NonSpaceWrap" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Appearance" visible="true" />
+        <Property name="Outline" type="wowuides.UI.OUTLINETYPE" value="OUTLINETYPE.NONE" category="Appearance" visible="true" />
+        <Property name="Shadow" type="wowuides.UI.Shadow" value="new Shadow(System.Drawing.Color.Black, new System.Drawing.Point(1,1))" category="Appearance" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(128,17)" visible="true" />
+        <Property name="Spacing" type="System.Single" value="0.0f" category="Appearance" visible="true" />
+        <Property name="Text" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Size = Dimension.FromSize(control.Size);
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          frame.Layers[0].level = (wowuides.UI.DRAWLAYER)control.Properties["DrawLayer"];
+          FontString fs = frame.Layers[0].FontString[0];
+          fs.font = (string)control.Properties["font"];
+          fs.bytes = (int)control.Properties["Bytes"];
+          fs.text = control.Text;
+          fs.spacing = (float)control.Properties["Spacing"];
+          fs.outline = (OUTLINETYPE)control.Properties["Outline"];
+          fs.monochrome = (bool)control.Properties["Monochrome"];
+          fs.nonspacewrap = (bool)control.Properties["NonSpaceWrap"];
+          fs.justifyV = (JUSTIFYVTYPE)control.Properties["JustifyV"];
+          fs.justifyH = (JUSTIFYHTYPE)control.Properties["JustifyH"];
+          fs.maxLines = (uint)control.Properties["MaxLines"];
+          fs.FontHeight = (Value)control.Properties["FontHeight"];
+          fs.Color = (System.Drawing.Color)control.Properties["Color"];
+          fs.Shadow = (Shadow)control.Properties["Shadow"];
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Size = frame.Size.ToSize();
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          control.Properties["DrawLayer"] = frame.Layers[0].level;
+          FontString fs = frame.Layers[0].FontString[0];
+          control.Text = fs.text;
+          control.Properties["font"] = fs.font;
+          control.Properties["Bytes"] = fs.bytes;
+          control.Properties["Spacing"] = fs.spacing;
+          control.Properties["Outline"] = fs.outline;
+          control.Properties["Monochrome"] = fs.monochrome;
+          control.Properties["NonSpaceWrap"] = fs.nonspacewrap;
+          control.Properties["JustifyV"] = fs.justifyV;
+          control.Properties["JustifyH"] = fs.justifyH;
+          control.Properties["MaxLines"] = fs.maxLines;
+          control.Properties["FontHeight"] = fs.FontHeight;
+          control.Properties["Color"] = fs.Color;
+          control.Properties["Shadow"] = fs.Shadow;
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Layers>
+      <Layer>
+        <FontString name="$parentLabel" inherits="GameFontNormal" setAllPoints="true" />
+      </Layer>
+    </Layers>
+  </Frame>
+  <MessageFrame name="MessageFrame" render="ComponentRender" onToolbox="true" frameid="{07BEF61D-CEB4-4cab-BD99-CC05653863C3}">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="displayDuration" displayName="Display Duration" type="System.Single" value="10.0f" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="fade" displayName="Fade" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="fadeDuration" displayName="Fade Duration" type="System.Single" value="3.0f" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="font" displayName="Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FontString" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="insertMode" displayName="Insert Mode" type="wowuides.UI.INSERTMODE" value="wowuides.UI.INSERTMODE.BOTTOM" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+        <Property name="TextInsets" type="wowuides.UI.Inset" value="new wowuides.UI.Inset(0,0,0,0)" category="Behaviour" visible="true" defaultCopy="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <FontString inherits="GameFontNormal"/>
+  </MessageFrame>
+  <Model name="Model" render="ComponentRender" onToolbox="true" frameid="{f15d497a-d66d-444e-bb2d-1ad102c87fed}">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="file" displayName="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FogColor" displayName="Fog Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.Empty" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogFar" displayName="Fog Far" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogNear" displayName="Fog Near" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="scale" displayName="Scale" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </Model>
+  <Frame name="Panel" render="ContainerRender" onToolbox="true" frameid="{f15d4972-d66d-444e-bb2d-1ad102c87fed}" icon="Panel">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="BackdropColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.FromArgb(126,126,124)" visible="false" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+      <EdgeSize>
+        <AbsValue val="16"/>
+      </EdgeSize>
+      <TileSize>
+        <AbsValue val="16"/>
+      </TileSize>
+      <BackgroundInsets>
+        <AbsInset left="5" right="5" top="5" bottom="5"/>
+      </BackgroundInsets>
+    </Backdrop>
+  </Frame>
+  <PlayerModel name="PlayerModel" render="ComponentRender" onToolbox="true" frameid="{f15d497d-d66d-444e-bb2d-1ad102c87fed}">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="file" displayName="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FogColor" displayName="Fog Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.Empty" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogFar" displayName="Fog Far" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogNear" displayName="Fog Near" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="scale" displayName="Scale" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </PlayerModel>
+  <ScrollingMessageFrame name="ScrollingMessageFrame" render="ComponentRender" onToolbox="true" frameid="{07BEF61E-CEB4-4cab-BD99-CC05653863C3}" icon="ScrollingMessageFrame">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="displayDuration" displayName="Display Duration" type="System.Single" value="10.0f" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="fade" displayName="Fade" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="false" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="fadeDuration" displayName="Fade Duration" type="System.Single" value="3.0f" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="font" displayName="Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FontString" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="maxLines" displayName="Maximum Lines" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="8" category="Behaviour" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+        <Property name="TextInsets" type="wowuides.UI.Inset" value="new wowuides.UI.Inset(0,0,0,0)" category="Behaviour" visible="true" defaultCopy="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <FontString inherits="GameFontNormal"/>
+  </ScrollingMessageFrame>
+  <SimpleHTML name="SimpleHTML" render="ComponentRender" onToolbox="true" frameid="{3EECDA8A-2E43-4781-999F-95A367166924}" icon="SimpleHTML">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="file" displayName="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Misc" visible="true" defaultCopy="true" />
+        <Property name="font" displayName="Font" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FontString" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="FontStringHeader1" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="FontStringHeader2" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="FontStringHeader3" type="wowuides.UI.FontString" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="hyperlinkFormat" displayName="Hyperlink Format" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;|H%s|h%s|h&quot;" category="Misc" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <FontString inherits="ChatFontNormal"/>
+  </SimpleHTML>
+  <Slider name="Slider" render="ComponentRender" onToolbox="true" frameid="{f15d4976-d66d-444e-bb2d-1ad102c87fed}" icon="Slider">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="@skin@" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="defaultValue" displayName="Value" type="System.Single" value="0.5f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="drawLayer" displayName="Draw Layer" type="wowuides.UI.DRAWLAYER" value="wowuides.UI.DRAWLAYER.OVERLAY" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="HitRectInsets" type="wowuides.UI.Inset" value="new Inset(0,0,-10,-10)" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="maxValue" displayName="Maximum Value" type="System.Single" value="1.0f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="minValue" displayName="Minimum Value" type="System.Single" value="0.0f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="orientation" displayName="Orientation" type="wowuides.UI.ORIENTATION" value="wowuides.UI.ORIENTATION.HORIZONTAL" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(128,17)" visible="true" />
+        <Property name="ThumbTexture" type="wowuides.UI.Texture" value="@skin@" category="Appearance" defaultCopy="true" visible="true" />
+        <Property name="valueStep" displayName="Value Step" type="System.Single" value="0.1f" category="Behaviour" defaultCopy="true" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
+      <EdgeSize>
+        <AbsValue val="8"/>
+      </EdgeSize>
+      <TileSize>
+        <AbsValue val="8"/>
+      </TileSize>
+      <BackgroundInsets>
+        <AbsInset left="3" right="3" top="6" bottom="6"/>
+      </BackgroundInsets>
+    </Backdrop>
+    <ThumbTexture name="$parentThumb" file="Interface\Buttons\UI-SliderBar-Button-Horizontal">
+      <Size>
+        <AbsDimension x="32" y="32"/>
+      </Size>
+    </ThumbTexture>
+  </Slider>
+  <StatusBar name="StatusBar" render="ComponentRender" onToolbox="true" frameid="{f15d4977-d66d-444e-bb2d-1ad102c87fed}" icon="StatusBar">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="BarColor" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="@skin@" category="Appearance" defaultCopy="true" visible="true" />
+        <Property name="BarTexture" type="wowuides.UI.Texture" value="@skin@" category="Appearance" defaultCopy="true" visible="true" />
+        <Property name="defaultValue" displayName="Value" type="System.Single" value="0.5f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="drawLayer" displayName="Draw Layer" type="wowuides.UI.DRAWLAYER" value="wowuides.UI.DRAWLAYER.OVERLAY" category="Layout" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="maxValue" displayName="Maximum Value" type="System.Single" value="1.0f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="minValue" displayName="Minimum Value" type="System.Single" value="0.0f" category="Behaviour" defaultCopy="true" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(128,17)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
+    <BarColor r="1.0" g="0.7" b="0.0"/>
+  </StatusBar>
+  <TabardModel name="TabardModel" render="ComponentRender" onToolbox="true" frameid="{f15d497c-d66d-444e-bb2d-1ad102c87fed}">
+    <FrameSkin template="Basic">
+      <Setup>
+        <Property name="Backdrop" type="wowuides.UI.Backdrop" value="null" visible="true" category="Appearance" defaultCopy="true" />
+        <Property name="file" displayName="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="FogColor" displayName="Fog Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.Empty" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogFar" displayName="Fog Far" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="fogNear" displayName="Fog Near" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Location" visible="true" />
+        <Property name="scale" displayName="Scale" type="System.Single" value="1.0f" category="Appearance" visible="true" defaultCopy="true" />
+        <Property name="Size" value="new System.Drawing.Size(200,200)" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          SetupFrameSizes(frame, control);
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          SetupFormSizes(frame, control);
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+  </TabardModel>
+  <Frame name="Texture" render="ComponentRender" onToolbox="true" frameid="{f15d4979-d66d-444e-bb2d-1ad102c87fed}" icon="Texture">
+    <FrameSkin>
+      <Setup>
+        <Property name="AlphaMode" type="wowuides.UI.ALPHAMODE" value="ALPHAMODE.BLEND" category="Appearance" visible="true" />
+        <Property name="Color" type="System.Drawing.Color, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" value="System.Drawing.Color.Empty" category="Appearance" visible="true" />
+        <Property name="DrawLayer" displayName="Draw Layer" type="wowuides.UI.DRAWLAYER" value="wowuides.UI.DRAWLAYER.ARTWORK" category="Layout" visible="true" />
+        <Property name="File" type="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&quot;&quot;" category="Appearance" visible="true" editor="wowuides.TextureEditor" />
+        <Property name="Location" visible="true" />
+        <Property name="Size" value="new System.Drawing.Size(128,17)" visible="true" />
+        <Property name="TexCoords" type="wowuides.UI.Texture+__TexCoords" value="new Texture.__TexCoords()" visible="true" />
+      </Setup>
+      <Script>
+        <OnSetupFrame>
+          frame.Size = Dimension.FromSize(control.Size);
+          frame.Anchors.Clear();
+          frame.Anchors.Add(new LayoutFrame.Anchor());
+          frame.Anchors[0].point = FRAMEPOINT.TOPLEFT;
+          frame.Anchors[0].Offset = Dimension.FromPoint(control.Location);
+          frame.Layers[0].level = (wowuides.UI.DRAWLAYER)control.Properties["DrawLayer"];
+          Texture tex = frame.Layers[0].Texture[0];
+          tex.alphaMode = (ALPHAMODE)control.Properties["AlphaMode"];
+          tex.Color = (System.Drawing.Color)control.Properties["Color"];
+          tex.file = (string)control.Properties["File"];
+          tex.TexCoords = (Texture.__TexCoords)control.Properties["TexCoords"];
+        </OnSetupFrame>
+        <OnSetupForm>
+          control.Size = frame.Size.ToSize();
+          control.Location = frame.Anchors[0].Offset.ToPoint();
+          control.Properties["DrawLayer"] = frame.Layers[0].level;
+          Texture tex = frame.Layers[0].Texture[0];
+          control.Properties["AlphaMode"] = tex.alphaMode;
+          control.Properties["Color"] = tex.Color;
+          control.Properties["File"] = tex.file;
+          control.Properties["TexCoords"] = tex.TexCoords;
+        </OnSetupForm>
+      </Script>
+    </FrameSkin>
+    <Layers>
+      <Layer>
+        <Texture name="$parentTexture" setAllPoints="true" />
+      </Layer>
+    </Layers>
+  </Frame>
+</Skin>

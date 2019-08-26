@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>function</Title>
+      <Shortcut>function</Shortcut>
+      <Description>Code snippet for function</Description>
+      <Author>Steven Haworth</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>funcname</ID>
+          <Default>FunctionName</Default>
+          <ToolTip>Function Name</ToolTip>
+        </Literal>
+        <Literal>
+          <ID>arglist</ID>
+          <Default>arg0</Default>
+          <ToolTip>Argument List</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="lua">
+        <![CDATA[function $funcname$($arglist$)
+   $selected$ $end$
+end]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

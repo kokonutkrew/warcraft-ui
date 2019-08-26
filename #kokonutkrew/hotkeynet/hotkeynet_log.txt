@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------------
+HotkeyNet Log File
+-------------------------------------------------------------------------------------
+
+File opened at 19:19:23 on Sunday, August 25, 2019
+DNS name: DESKTOP-VEEBCOF
+OS version: Microsoft  (build 9200)
+
+
+CPU:
+	Archictecture = 0; 
+	Page size = 1000; 
+	Min app address = 10000; 
+	Max app address = 7ffeffff; 
+	Mask = ff; 
+	Qty cores = 8; 
+	Type = 24a; 
+	Alloc granularity = 10000; 
+	Level = 15; 
+	Revision = 200.
+
+
+Memory:
+	Load = 44%; 
+	Total physical = 32688 MB; 
+	Available physical = 18159 MB; 
+	Total page file = 37552 MB; 
+	Avail page file = 11461 MB; 
+	Total virtual = 2047 MB; 
+	Avail virtual = 1954 MB; 
+	Avail extended virtual = 0 MB.
+
+
+Mouse:
+	Mouse installed.
+	Buttons not swapped.
+	Speed: 1
+	Threshold (x,y): 0,0
+
+
+Adapter 0:
+
+	IP Address	192.168.0.11
+	Subnet Mask	255.255.255.0
+	Default Gateway	192.168.0.1
+
+	Adapter Name	{01EC47FC-3700-4711-9801-D4927A7FEF69}
+	Description	Realtek PCIe GBE Family Controller
+	Physical Address	60-A4-4C-25-B1-6B
+
+	DHCP Enabled	Yes
+	DHCP Server	192.168.0.1
+	Lease Obtained	Sun Aug 25 19:05:30 2019
+
+	Have WINS	No
+
+HotkeyNet 0.1.45 build 210
+Start as server.
+This IP: 192.168.0.11
+
+C:\d\sou\cpp\macro\cAuth.cpp 423: IP seen by authorization server: 69.128.224.39
+

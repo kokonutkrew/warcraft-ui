@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -10,7 +10,7 @@
 --																					--
 -- ================================================================================ --
 
-local MAJOR, MINOR = "Module-1.0", 1
+local MAJOR, MINOR = "Module-1.0", 2
 local EMAModule, oldMinor = LibStub:NewLibrary( MAJOR, MINOR )
 
 if not EMAModule then 
@@ -19,6 +19,7 @@ end
 
 -- Load libraries.
 LibStub( "AceConsole-3.0" ):Embed( EMAModule )
+local L = LibStub( "AceLocale-3.0" ):GetLocale( "Core" )
 
 -------------------------------------------------------------------------------------------------------------
 -- EMA Module Mixin Management.
@@ -34,7 +35,7 @@ local mixinMethods = {
 	"EMASendCommandToTeam", "EMASendCommandToMaster",
 	"EMASendMessageToTeam", "EMASendCommandToToon",
 	"EMASendSettings", "EMAOnSettingsReceived",
-	"EMAChatCommand",
+	"EMAChatCommand", 
 	"EMAConfigurationGetSetting", "EMAConfigurationSetSetting",
 } 
 
@@ -88,19 +89,51 @@ end
 -------------------------------------------------------------------------------------------------------------
 -- EMA Chat Commands.
 -------------------------------------------------------------------------------------------------------------
+-- Does the Chat Command Exist
+local function DoesTheChatCommandExist( configuration, command )
+	local exist = false
+	for key, info in pairs( configuration ) do
+		stringName = string.lower( key )
+		--print("aa", stringName, "vs", command )
+		if info.type == "input" then
+			if stringName == command then	
+				exist = true
+				break
+			end
+		end
+	end
+	return exist	
+end				
 
--- Handle the chat command.
-function EMAModule:EMAChatCommand( input )
-   --print("test", input, self.chatCommand, self.moduleName )
-	if not input or input:trim() == "" then
+-- Handle the chat command v2 EMA.
+function EMAModule:EMAChatCommand( inputBefore )
+	input = string.lower( inputBefore )
+	--print("test2", "input", input, "command", self.chatCommand, "module", self.moduleName )
+	local inputString, tag = strsplit( " ", inputBefore )
+	local CommandExist = DoesTheChatCommandExist( self:GetConfiguration().args, inputString ) 
+	if input == "config" then
+		if InCombatLockdown() then
+			print( L["CANNOT_OPEN_IN_COMBAT"] )
+		return
+	end
+		-- Show Config
 		EMAPrivate.SettingsFrame.Widget:Show()
 		EMAPrivate.SettingsFrame.TreeGroupStatus.groups[self.parentDisplayName] = true
 		EMAPrivate.SettingsFrame.WidgetTree:SelectByPath( self.parentDisplayName, self.moduleDisplayName )
 		EMAPrivate.SettingsFrame.Tree.ButtonClick( nil, nil, self.moduleDisplayName, false)
-    else
-        LibStub( "AceConfigCmd-3.0" ):HandleCommand( self.chatCommand, self.moduleName, input )
-		--LibStub( "AceConfigCmd-3.0" ):HandleCommand( self.chatCommandTwo, self.moduleName, input )
-    end    
+	elseif CommandExist then			
+		--Command Found now Handle IT!
+		--print("Command Found", input )
+		LibStub( "AceConfigCmd-3.0" ):HandleCommand( self.chatCommand, self.moduleName, input )
+	else	
+		-- hell knows what to do so HELP!!!
+		--print("No found Command Found HELP", input )
+		for key, info in pairs( self:GetConfiguration().args ) do
+			if info.type == "input" then
+				print("|cFFFFFF00"..info.usage, "|cFFFFFFFF".." [ "..info.desc.." ]" )
+			end
+		end	
+	end    
 end
 
 -------------------------------------------------------------------------------------------------------------
@@ -110,8 +143,9 @@ end
 -- Initialise the module.
 function EMAModule:EMAModuleInitialize( settingsFrame )
     -- Create the settings database supplying the settings values along with defaults.
-    self.completeDatabase = LibStub( "AceDB-3.0" ):New( self.settingsDatabaseName, self.settings )
+	self.completeDatabase = LibStub( "AceDB-3.0" ):New( self.settingsDatabaseName, self.settings )
 	self.db = self.completeDatabase.profile
+	self.db.global = self.completeDatabase.global
 	-- Create the settings.
 	LibStub( "AceConfig-3.0" ):RegisterOptionsTable( self.moduleName, self:GetConfiguration() )
 	self.settingsFrame = settingsFrame
@@ -120,14 +154,6 @@ function EMAModule:EMAModuleInitialize( settingsFrame )
 	if self.chatCommand then
 		self:RegisterChatCommand( self.chatCommand, "EMAChatCommand" )
 	end
-	--[[
-	if self.chatCommandTwo then
-		self:RegisterChatCommand( self.chatCommandTwo, "EMAChatCommand" )
-	end
-	if self.chatCommandThree then
-		--self:RegisterChatCommand( self.chatCommandThree, "EMAChatCommandThree" )
-	end
-	]]
 	-- Remember the characters name.
 	-- If server has a space in realm name GetRealmName() will show space this will not work with blizzard API so we need to hack this to work --ebony
 	--local _, k = UnitFullName("player")

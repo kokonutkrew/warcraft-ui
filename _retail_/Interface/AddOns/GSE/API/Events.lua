@@ -12,7 +12,7 @@ local GCD, GCD_Update_Timer
 --- This function is used to debug a sequence and trace its execution.
 function GSE.TraceSequence(button, step, task)
   if GSE.UnsavedOptions.DebugSequenceExecution then
-    -- Note to self do i care if its a loop sequence?
+    -- Note to self: Do I care if it's a loop sequence?
     local isUsable, notEnoughMana = IsUsableSpell(task)
     local usableOutput, manaOutput, GCDOutput, CastingOutput
     if isUsable then
@@ -140,7 +140,11 @@ function GSE:ADDON_LOADED(event, addon)
     end
   end
   if counter <= 0 then
-    StaticPopup_Show ("GSE-SampleMacroDialog")
+    if GSEOptions.PromptSample then
+      if table.getn(Statics.SampleMacros) > 0 then
+        StaticPopup_Show ("GSE-SampleMacroDialog")
+      end
+    end
   end
   GSE.PrintDebugMessage("I am loaded")
   GSEOptions.UnfoundSpells = {}
@@ -164,7 +168,7 @@ function GSE:ADDON_LOADED(event, addon)
     end
   end
 
-  -- added in 2.1.0
+  -- Added in 2.1.0
   if GSE.isEmpty(GSEOptions.MacroResetModifiers) then
     GSEOptions.MacroResetModifiers = {}
     GSEOptions.MacroResetModifiers["LeftButton"] = false
@@ -284,10 +288,16 @@ GSE:RegisterChatCommand("gse", "GSSlash")
 --- Handle slash commands
 function GSE:GSSlash(input)
   if string.lower(input) == "showspec" then
-    local currentSpec = GetSpecialization()
-    local currentSpecID = currentSpec and select(1, GetSpecializationInfo(currentSpec)) or "None"
-    local _, specname, specdescription, specicon, _, specrole, specclass = GetSpecializationInfoByID(currentSpecID)
-    GSE.Print(L["Your current Specialisation is "] .. currentSpecID .. ':' .. specname .. L["  The Alternative ClassID is "] .. currentclassId, GNOME)
+    local version, build, date, tocversion = GetBuildInfo()
+    local majorVersion = GSE.split(version, '.')
+    if tonumber(majorVersion[1]) == 1 then
+      GSE.Print(L["Your ClassID is "] .. currentclassId .. ' ' .. Statics.SpecIDList[currentclassId], GNOME)
+    else
+      local currentSpec = GetSpecialization()
+      local currentSpecID = currentSpec and select(1, GetSpecializationInfo(currentSpec)) or "None"
+      local _, specname, specdescription, specicon, _, specrole, specclass = GetSpecializationInfoByID(currentSpecID)
+      GSE.Print(L["Your current Specialisation is "] .. currentSpecID .. ':' .. specname .. L["  The Alternative ClassID is "] .. currentclassId, GNOME)
+    end
   elseif string.lower(input) == "help" then
     PrintGnomeHelp()
   elseif string.lower(input) == "cleanorphans" or string.lower(input) == "clean" then
@@ -433,3 +443,4 @@ function GSE.ToggleOOCQueue()
     GSE.StopOOCTimer()
   end
 end
+

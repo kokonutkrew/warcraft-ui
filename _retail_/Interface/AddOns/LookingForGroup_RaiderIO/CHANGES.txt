@@ -1,7 +1,7 @@
-changeset:   185:79ae32068096
-tag:         186.0
-user:        ejsvifq_mabmip
-date:        Sun Mar 03 18:52:13 2019 +0800
-summary:     fix bug of LFG Raider.IO
+changeset:   238:086fe3cbe563
+tag:         239.0
+user:        ejsvifq_mabmip <euloanty@live.com>
+date:        Fri Jul 26 02:31:09 2019 +0800
+summary:     to id
 
 

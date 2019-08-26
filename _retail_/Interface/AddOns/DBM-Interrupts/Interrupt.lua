@@ -22,7 +22,9 @@ function mod:SPELL_CAST_SUCCESS(args)
         SpearHandStrike={ "SHStrike",   116705,  15},
         Disrupt={         "Disrupt",    183752,  15},
     }
-    
+
+    local key, value, Name, ID_no_taint, Duration, _, SpellIcon
+
     for key, value in pairs(Spells) do
         Name            = Spells[key][1]
         ID_no_taint     = Spells[key][2]

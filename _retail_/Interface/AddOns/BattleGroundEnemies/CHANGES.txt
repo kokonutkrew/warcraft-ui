@@ -1,20 +1,24 @@
-lightweight tag 9acb5b03c14323c05dda7a113ac889f51a0fd69c v3.1.9.7
+lightweight tag 8e6a5951465d82b6a2778690b9479e036e550ac2 v3.1.9.9
 Author:	GitHub <noreply@github.com>
-Date:	Thu Feb 7 13:01:30 2019 +0100
+Date:	Thu Mar 21 23:16:52 2019 +0100
 
-commit 9acb5b03c14323c05dda7a113ac889f51a0fd69c
+commit 8e6a5951465d82b6a2778690b9479e036e550ac2
 Author: bullsei <bullsei@users.noreply.github.com>
-Date:   Thu Feb 7 13:01:30 2019 +0100
+Date:   Thu Mar 21 23:16:52 2019 +0100
 
     Update CHANGELOG.md
 
-commit 0e29e2e629cdf2b5009a1ae58ab98388288c370f
+commit 0adca723d280afa8e5531079ba58fc39bea7089d
 Author: bullsei <bullsei@users.noreply.github.com>
-Date:   Thu Feb 7 11:57:33 2019 +0100
+Date:   Thu Mar 21 23:15:16 2019 +0100
 
-    Update for 8.1
+    Update Main.lua
+
+commit 0a0a6768abf30e0cfb89e41407c4c96ad65b80f1
+Author: bullsei <bullsei@users.noreply.github.com>
+Date:   Thu Mar 21 23:10:57 2019 +0100
+
+    Error prevention UI Scale
     
-    Updated Toc,
-    localization updates,
-    removed outdated interrupt reductions for some specs
+    Don't call UI_SCALE_CHANGED too frequently when in combat
 

@@ -13,7 +13,13 @@ local editkey = ""
 
 local viewframe = AceGUI:Create("Frame")
 viewframe:SetTitle(L["Sequence Viewer"])
-
+-- viewframe.frame:SetBackdrop({
+--   bgFile="Interface\\Addons\\GSE_GUI\\GSE2_Logo_Dark_512.tga",
+--   edgeFile="Interface\\Tooltips\\UI-Tooltip-Border",
+--   tile=false,
+--   edgeSize=10,
+--   insets={left=3, right=3, top=3, bottom=3}
+-- });
 
 GSE.GUIViewFrame = viewframe
 
@@ -88,7 +94,7 @@ function GSE.GUICreateSequencePanels(frame, container, key)
     end
   end)
 
-  -- workaround for vanishing label ace3 bug
+  -- Workaround for vanishing label ace3 bug
   local label = AceGUI:Create("Label")
   label:SetFontObject(fontlarge)
   selpanel:AddChild(label)
@@ -185,6 +191,12 @@ function GSE.GUICreateSequencePanels(frame, container, key)
   selpanel.Icon = viewiconpicker
   viewiconpicker:SetImage(GSE.GetMacroIcon(classid, sequencename))
   viewiconpicker:SetImageSize(50,50)
+  viewiconpicker:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Macro Icon"], L["Drag this icon to your action bar to use this macro. You can change this icon in the /macro window."], viewframe)
+  end)
+  viewiconpicker:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   column2:AddChild(viewiconpicker)
 
   selpanel:AddChild(columngroup)
@@ -204,7 +216,13 @@ function GSE.GUIViewerToolbar(container)
   local newbutton = AceGUI:Create("Button")
   newbutton:SetText(L["New"])
   newbutton:SetWidth(150)
-  newbutton:SetCallback("OnClick", function() GSE.GUILoadEditor(nil, viewframe) end)
+  newbutton:SetCallback("OnClick", function() GSE.GUILoadEditor(nil, viewframe)end)
+  newbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["New"], L["Create a new macro."], viewframe)
+  end)
+  newbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   buttonGroup:AddChild(newbutton)
 
   local updbutton = AceGUI:Create("Button")
@@ -217,6 +235,13 @@ function GSE.GUIViewerToolbar(container)
       GSE.GUILoadEditor(editkey, viewframe)
     end
   end)
+  updbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Edit"], L["Edit this macro.  To delete a macro, choose this edit option and then from inside hit the delete button."], viewframe)
+  end)
+  updbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
+
   updbutton:SetDisabled(true)
   buttonGroup:AddChild(updbutton)
   viewframe.EditButton = updbutton
@@ -225,6 +250,12 @@ function GSE.GUIViewerToolbar(container)
   impbutton:SetText(L["Import"])
   impbutton:SetWidth(150)
   impbutton:SetCallback("OnClick", function() GSE.GUIViewFrame:Hide(); GSE.GUIImportFrame:Show() end)
+  impbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Import"], L["Import Macro from Forums"], viewframe)
+  end)
+  impbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   buttonGroup:AddChild(impbutton)
 
   local expbutton = AceGUI:Create("Button")
@@ -235,18 +266,36 @@ function GSE.GUIViewerToolbar(container)
   end)
   buttonGroup:AddChild(expbutton)
   expbutton:SetDisabled(true)
+  expbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Export"], L["Export this Macro."], viewframe)
+  end)
+  expbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   viewframe.ExportButton = expbutton
 
   local tranbutton = AceGUI:Create("Button")
   tranbutton:SetText(L["Send"])
   tranbutton:SetWidth(150)
   tranbutton:SetCallback("OnClick", function() GSE.GUIShowTransmissionGui(viewframe.ClassID .. "," .. viewframe.SequenceName) end)
+  tranbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Send"], L["Send this macro to another GSE player who is on the same server as you are."], viewframe)
+  end)
+  tranbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   buttonGroup:AddChild(tranbutton)
 
   disableSeqbutton = AceGUI:Create("Button")
   disableSeqbutton:SetDisabled(true)
   disableSeqbutton:SetText(L["Create Icon"])
   disableSeqbutton:SetWidth(150)
+  disableSeqbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Create Icon"], L["Create or remove a Macro stub in /macro that can be dragged to your action bar so that you can use this macro.\nGSE can store an unlimited number of macros however WOW's /macro interface can only store a limited number of macros."], viewframe)
+  end)
+  disableSeqbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
 
 
   buttonGroup:AddChild(disableSeqbutton)
@@ -255,24 +304,36 @@ function GSE.GUIViewerToolbar(container)
   eOptionsbutton:SetText(L["Options"])
   eOptionsbutton:SetWidth(150)
   eOptionsbutton:SetCallback("OnClick", function() GSE.OpenOptionsPanel() end)
+  eOptionsbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Options"], L["Opens the GSE Options window"], viewframe)
+  end)
+  eOptionsbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
   buttonGroup:AddChild(eOptionsbutton)
 
   local recordwindowbutton = AceGUI:Create("Button")
   recordwindowbutton:SetText(L["Record Macro"])
   recordwindowbutton:SetWidth(150)
   recordwindowbutton:SetCallback("OnClick", function() GSE.GUIViewFrame:Hide(); GSE.GUIRecordFrame:Show() end)
+  recordwindowbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Record Macro"], L["Record the spells and items you use into a new macro."], viewframe)
+  end)
+  recordwindowbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(viewframe)
+  end)
+
   buttonGroup:AddChild(recordwindowbutton)
-
   container:AddChild(buttonGroup)
-
   sequenceboxtext = sequencebox
 end
 
-
-
 function GSE.GUIViewerLayout(mcontainer)
-  mcontainer:SetStatusText(L["Gnome Sequencer: Sequence Viewer"])
-  mcontainer:SetCallback("OnClose", function(widget) viewframe:Hide() end)
+  mcontainer:SetStatusText("GSE: " .. GSE.formatModVersion(GSE.VersionString))
+  mcontainer:SetCallback("OnClose", function(widget)
+    GSE.ClearTooltip(viewframe)
+    viewframe:Hide()
+  end)
   mcontainer:SetLayout("List")
 
 

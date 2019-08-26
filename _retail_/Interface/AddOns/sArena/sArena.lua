@@ -388,6 +388,8 @@ function sArenaFrameMixin:OnEvent(event, eventUnit, arg1)
         elseif ( event == "UNIT_DISPLAYPOWER" ) then
             local _, powerType = UnitPowerType(unit);
             self:SetPowerType(powerType);
+            self.PowerBar:SetMinMaxValues(0, UnitPowerMax(unit));
+            self.PowerBar:SetValue(UnitPower(unit));
         elseif ( event == "UNIT_ABSORB_AMOUNT_CHANGED" ) then
             UnitFrameHealPredictionBars_Update(self);
         elseif ( event == "UNIT_HEAL_ABSORB_AMOUNT_CHANGED" ) then
@@ -447,7 +449,7 @@ function sArenaFrameMixin:OnUpdate()
 
         if ( timeLeft > 30 ) then
             self.AuraText:SetText("");
-        elseif ( timeLeft >= 10 ) then
+        elseif ( timeLeft >= 5 ) then
             self.AuraText:SetFormattedText("%i", timeLeft);
         elseif (timeLeft > 0 ) then
             self.AuraText:SetFormattedText("%.1f", timeLeft);
@@ -906,6 +908,7 @@ function sArenaMixin:Test()
         frame.CastBar.Text:SetText("Polymorph");
         frame.CastBar:SetStatusBarColor(1, 0.7, 0, 1);
 
+        frame.hideStatusText = false;
         frame:SetStatusText("player");
         frame:UpdateStatusTextVisible();
     end

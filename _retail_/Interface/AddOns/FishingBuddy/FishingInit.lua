@@ -615,9 +615,7 @@ FishingInit.InitSortHelpers = function()
 	FishingInit.ResetHelpers();
 	for mapId, name in pairs(FishingBuddy_Info["KnownZones"]) do
 		zone = FL:GetLocZone(mapId)
-		if not zone then
-			print("missing", mapId, name)
-		else
+		if zone then
 			FishingBuddy.MappedZones[zone] = mapId
 			tinsert(FishingBuddy.SortedZones, zone);
 			FishingBuddy.SortedByZone[zone] = {};
@@ -635,7 +633,7 @@ FishingInit.InitSortHelpers = function()
 					FishingBuddy.SubZoneMap[subzone][idx] = 1;
 				end
 				table.sort(FishingBuddy.SortedByZone[zone]);
-			end
+            end
 		end
 	end
 	table.sort(FishingBuddy.SortedZones);

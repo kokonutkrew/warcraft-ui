@@ -93,22 +93,21 @@ function Sharing:OnMessage(prefix, message, distribution, sender)
 	-- don't use zone+0 etc type implicit type-conversion, because it fails and errors
 	-- if the received string/message isn't valid
 	zone = tonumber(zone)
-	nodeType = tonumber(nodeType)
+	nodeType = dbIndexes[tonumber(nodeType)]
 	coord = tonumber(coord)
 	nodeID = tonumber(nodeID)
-	local x,y,nodeName
-	if not GatherMate2.reverseNodeIDs[ dbIndexes[nodeType] ][nodeID] then
+	if not nodeType or not GatherMate2.reverseNodeIDs[nodeType] or not GatherMate2.reverseNodeIDs[nodeType][nodeID] then
 		return -- invalid nodeID
 	end
-	x,y = GatherMate2:DecodeLoc(coord)
-	nodeName = GatherMate2.reverseNodeIDs[dbIndexes[nodeType]][nodeID]
 	if cmd == 'A' and db.syncAdds then
+		local x,y = GatherMate2:DecodeLoc(coord)
+		local nodeName = GatherMate2.reverseNodeIDs[nodeType][nodeID]
 		actingOnComm = true
-		GatherMate2:AddNode(zone,x,y,dbIndexes[nodeType],nodeName)
+		GatherMate2:AddNode(zone, x, y, nodeType, nodeName)
 		actingOnComm = false
 	elseif cmd == 'D' and db.syncDeletes then
 		actingOnComm = true
-		GatherMate2:RemoveNodeByID(zone, dbIndexes[nodeType], coord)			
+		GatherMate2:RemoveNodeByID(zone, nodeType, coord)
 		actingOnComm = false
 	end
 end

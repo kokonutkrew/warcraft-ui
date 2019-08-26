@@ -11,6 +11,7 @@ local LEW = LibStub("LibEventWindow-1.0");
 local HBD = LibStub("HereBeDragons-2.0")
 
 local CurLoc = GetLocale();
+local PLANS = FishingBuddy.FishingPlans;
 
 -- Information for the stylin' fisherman
 local POLES = {
@@ -129,6 +130,15 @@ local function IsFishingAceEnabled()
     return false;
 end
 
+-- we want to do all the magic stuff even when we didn't equip anything
+local autopoleframe = CreateFrame("Frame");
+autopoleframe:Hide();
+
+local function AreWeFishing()
+    return (FishingBuddy.StartedFishing ~= nil or autopoleframe:IsShown());
+end
+FishingBuddy.AreWeFishing = AreWeFishing
+
 local EasyCastInit;
 
 local CastingOptions = {
@@ -147,6 +157,14 @@ local CastingOptions = {
         ["tooltip"] = FBConstants.CONFIG_MOUNTEDCAST_INFO,
         ["v"] = 1,
         ["parents"] = { ["EasyCast"] = "d", },
+        ["active"] = function(i, s, b) return not IsMounted() or b end,
+        ["default"] = false },
+    ["FlyingCast"] = {
+        ["text"] = FBConstants.CONFIG_FLYINGCAST_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_FLYINGCAST_INFO,
+        ["v"] = 1,
+        ["parents"] = { ["EasyCast"] = "d", },
+        ["active"] = function(i, s, b) return (not IsFlying()) or b end,
         ["default"] = false },
     ["AutoLoot"] = {
         ["text"] = FBConstants.CONFIG_AUTOLOOT_ONOFF,
@@ -185,12 +203,14 @@ local CastingOptions = {
         ["tooltip"] = FBConstants.CONFIG_WATCHBOBBER_INFO,
         ["v"] = 1,
         ["parents"] = { ["EasyCast"] = "d" },
-        ["default"] = true },
+        ["default"] = true
+    },
     ["ContestSupport"] = {
         ["text"] = FBConstants.CONFIG_CONTESTS_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_CONTESTS_INFO,
         ["v"] = 1,
-        ["default"] = false },
+        ["default"] = false
+    },
     ["STVTimer"] = {
         ["text"] = FBConstants.CONFIG_STVTIMER_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_STVTIMER_INFO,
@@ -222,8 +242,9 @@ local CastingOptions = {
         ["text"] = FBConstants.CONFIG_KEEPONTRUCKIN_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_KEEPONTRUCKIN_INFO,
         ["v"] = 1,
-        ["default"] = true,
-        ["parents"] = { ["EasyCast"] = "d" }
+        ["active"] = function(i, s, b) return b and AreWeFishing() end,
+        ["parents"] = { ["EasyCast"] = "d" },
+        ["default"] = true
     },
     ["MouseEvent"] = {
         ["default"] = "RightButtonUp",
@@ -433,14 +454,6 @@ FishingBuddy.StartedFishing = nil;
 
 local CastingNow = false;
 
--- Let's wait at least five seconds before we attempt to lure again
-local RELURE_DELAY = 8.0;
-
-local AddingLure = false;
-local DoEscaped = nil;
-local LureState = 0;
-local LastLure = nil;
-local LastUsed = nil;
 local OpenThisFishId = {};
 local DoAutoOpenLoot = nil;
 
@@ -491,10 +504,6 @@ function bagupdateframe:StopInventory()
         self.fbframe:UnregisterEvent(event)
     end
 end
-
--- we want to do all the magic stuff even when we didn't equip anything
-local autopoleframe = CreateFrame("Frame");
-autopoleframe:Hide();
 
 local LastCastTime = nil;
 local FISHINGSPAN = 60;
@@ -667,6 +676,15 @@ QuestLures[69907] = {
     spell = 99315,
 };
 
+local AutoFishingItems = {}
+local GOGGLES_ID = 167698;
+AutoFishingItems[GOGGLES_ID] = {
+    ["enUS"] = "Secret Fishing Goggles",
+    spell = 293671,
+    setting = "UseSecretGoggles",
+    ["tooltip"] = FBConstants.CONFIG_SECRET_FISHING_GOGGES_INFO,
+    ["default"] = false,
+}
 
 -- Get an array of all the lures we have in our inventory, sorted by
 -- cost, then bonus
@@ -680,20 +698,10 @@ end
 FishingBuddy.CheckCombat = CheckCombat;
 
 local function PostCastUpdate()
-    local stop = true;
+    local LSM = FishingBuddy.LureStateManager;
     if ( not CheckCombat() ) then
         FL:ResetOverride();
-        if ( AddingLure ) then
-            local sp, sub, txt, tex, st, et, trade, int = UnitChannelInfo("player");
-            local _, lure = FL:GetPoleBonus();
-            if ( not sp or not LastLure or (lure and lure == LastLure.b) ) then
-                AddingLure = false;
-                FL:UpdateLureInventory();
-            else
-                stop = false;
-            end
-        end
-        if ( stop ) then
+        if ( LSM:LuringComplete() ) then
             FishingBuddy_PostCastUpdateFrame:Hide();
         end
     end
@@ -704,27 +712,18 @@ local function HideAwayAll(self, button, down)
     FishingBuddy_PostCastUpdateFrame:Show();
 end
 
-local function HaveThing(itemid, info)
-    if (info.toy) then
-        return PlayerHasToy(itemid)
-    else
-        return GetItemCount(itemid) > 0;
-    end
-end
-
 local function GetFishingItem(itemtable)
     local GSB = FishingBuddy.GetSettingBool;
     for itemid, info in pairs(itemtable) do
-        if ( info.always or (HaveThing(itemid, info) and (not info.setting or GSB(info.setting))) ) then
+        if ( info.always or (PLANS:HaveThing(itemid, info) and (not info.setting or GSB(info.setting))) ) then
             if (not info[CurLoc]) then
                 info[CurLoc] = GetItemInfo(itemid);
             end
-            if ( not info.usable or info.usable(info) ) then
-                local buff = info.spell;
-                local doit = not FL:HasBuff(buff);
+            if PLANS:CanUseFishingItem(itemid, info) then
+                local doit = true;
                 local it = nil;
                 if ( info.check ) then
-                    doit, itemid, it = info.check(info, buff, doit, itemid);
+                    doit, itemid, it = info.check(info, info.spell, doit, itemid);
                 elseif (info.toy) then
                     _, itemid = C_ToyBox.GetToyInfo(itemid);
                 end
@@ -777,11 +776,26 @@ end
 
 local function GetUpdateLure()
     local GSB = FishingBuddy.GetSettingBool;
+    local LSM = FishingBuddy.LureStateManager;
     local lureinventory, _ = FL:GetLureInventory();
+
+    -- Let's wait a bit so that the enchant can show up before we lure again
+    if LSM:LuringCheck() then
+        return false, 0, nil
+    end
 
     DoAutoOpenLoot = nil;
 
-    local doit, id, name, it = FishingBuddy.GetPlan()
+    local doit, id, name, it;
+
+    if autopoleframe:IsShown() then
+        doit, id, name, it = PLANS:CanUseFishingItems(AutoFishingItems)
+        if ( doit ) then
+            return doit, id, name, it;
+        end
+    end
+
+    doit, id, name, it = PLANS:GetPlan()
     if ( doit ) then
         return doit, id, name, it;
     end
@@ -816,81 +830,6 @@ local function GetUpdateLure()
         if ( doit ) then
             return doit, id, name, it;
         end
-
-        -- only apply a lure if we're actually fishing with a "real" pole
-        if (FL:IsFishingPole()) then
-            -- Let's wait a bit so that the enchant can show up before we lure again
-            if ( LastLure and LastLure.time and ((LastLure.time - GetTime()) > 0) ) then
-                return false;
-            end
-
-            if ( LastLure ) then
-                LastLure.time = nil;
-            end
-
-            local skill, _, _, _ = FL:GetCurrentSkill();
-            if (skill > 0) then
-                local NextLure, NextState;
-                local pole, tempenchant = FL:GetPoleBonus();
-                local continent = FL:GetCurrentMapContinent()
-                local bigdraenor = (GSB("BigDraenor") and (continent == FBConstants.DRAENOR));
-                local state, bestlure = FL:FindBestLure(tempenchant, LureState, false, bigdraenor);
-                -- If we could use a lure based on skill, or we lost a fish.
-                if ( DoEscaped or not FL:HasLureBuff() ) then
-                    if ( state or bestlure ) then
-                        NextState = state or LureState;
-                        NextLure = bestlure;
-                    else
-                        NextLure = nil;
-                    end
-                elseif ( GSB("AlwaysLure") or bigdraenor) then
-                    -- don't put on a lure if we've already got one
-                    if ( tempenchant == 0 ) then
-                        if ( not state ) then
-                            NextState, NextLure = FL:FindNextLure(nil, 0);
-                        else
-                            NextState = state;
-                            NextLure = bestlure;
-                        end
-                    elseif (state and bestlure) then
-                        NextState = state;
-                        NextLure = bestlure;
-                    else
-                        NextLure = nil -- oscarucb
-                    end
-                elseif ( state and bestlure and tempenchant == 0 and GSB("LastResort") ) then
-                    NextState = state;
-                    NextLure = bestlure;
-                else
-                    NextLure = nil;
-                end
-                if ( not NextLure and GSB("AlwaysHat")) then
-                    local _, hat = FL:FindBestHat()
-                    if (hat) then
-                        return true, hat['id'], hat['n']
-                    end
-                end
-                local DoLure = NextLure;
-                if ( DoLure and DoLure.id ) then
-                    -- if the pole has an enchantment, we can assume it's got a lure on it (so far, anyway)
-                    -- remove the main hand enchantment (since it's a fishing pole, we know what it is)
-                    local startTime, duration, enable = GetItemCooldown(DoLure.id);
-                    if (startTime == 0) then
-                        AddingLure = true;
-                        LastLure = DoLure;
-                        LureState = NextState;
-                        LastLure.time = GetTime() + RELURE_DELAY;
-                        local id = DoLure.id;
-                        local name = DoLure.n;
-                        return true, id, name;
-                    elseif ( LastLure and not LastLure.time ) then
-                        LastLure = nil;
-                        LastState = 0;
-                        AddingLure = false;
-                    end
-                end
-            end
-        end
     end
 
     return false;
@@ -910,8 +849,9 @@ CaptureEvents["TRACKED_ACHIEVEMENT_UPDATE"] = function(id, criterion, actualtime
     end
 end
 
-local function ClearAddingLure()
-    AddingLure = false;
+local function ClearLastLure()
+    local LSM = FishingBuddy.LureStateManager;
+    LSM:ClearLastLure()
 end
 
 -- we don't want to interrupt ourselves if we're casting.
@@ -932,7 +872,7 @@ CaptureEvents["UNIT_SPELLCAST_CHANNEL_STOP"] = function(unit, lineid, spellid)
         SetLastCastTime();
     end
     current_spell_id = nil
-    ClearAddingLure()
+    ClearLastLure()
 end
 
 CaptureEvents["UNIT_SPELLCAST_INTERRUPTED"] = function(unit, lineid, spellid)
@@ -940,11 +880,11 @@ CaptureEvents["UNIT_SPELLCAST_INTERRUPTED"] = function(unit, lineid, spellid)
         SetLastCastTime();
     end
     current_spell_id = nil
-    ClearAddingLure()
+    ClearLastLure()
 end
 
-CaptureEvents["UNIT_SPELLCAST_FAILED"] = ClearAddingLure;
-CaptureEvents["UNIT_SPELLCAST_FAILED_QUIET"] = ClearAddingLure;
+CaptureEvents["UNIT_SPELLCAST_FAILED"] = ClearLastLure;
+CaptureEvents["UNIT_SPELLCAST_FAILED_QUIET"] = ClearLastLure;
 
 CaptureEvents["ACTIONBAR_SLOT_CHANGED"] = function()
     if ( FishingBuddy.GetSettingBool("UseAction") ) then
@@ -956,7 +896,7 @@ CaptureEvents["UNIT_AURA"] = function(arg1)
     if ( arg1 == "player" ) then
         local hmhe,_,_,_,_,_ = GetWeaponEnchantInfo();
         if ( not hmhe ) then
-            LastLure = nil;
+            ClearLastLure();
         end
     end
 end
@@ -978,17 +918,15 @@ local function ReadyForFishing()
 end
 FishingBuddy.ReadyForFishing = ReadyForFishing;
 
-local function AreWeFishing()
-    return (FishingBuddy.StartedFishing ~= nil or autopoleframe:IsShown());
-end
-FishingBuddy.AreWeFishing = AreWeFishing
 
 local function NormalHijackCheck()
     local GSB = FishingBuddy.GetSettingBool;
-    if ( not AddingLure and
-         not CheckCombat() and (not IsMounted() or GSB("MountedCast")) and
+    local GSA = FishingBuddy.ActiveSetting;
+    local LSM = FishingBuddy.LureStateManager;
+    if ( not LSM:GetLastLure() and
+         not CheckCombat() and GSA("FlyingCast") and GSA("MountedCast") and
          not IsFishingAceEnabled() and
-         GSB("EasyCast") and (CastingKeys() or (GSB("KeepOnTruckin") and AreWeFishing()) or ReadyForFishing()) ) then
+         GSB("EasyCast") and (CastingKeys() or GSA("KeepOnTruckin") or ReadyForFishing()) ) then
         return true;
     end
 end
@@ -1019,16 +957,16 @@ FishingBuddy.SetStealClick = SetStealClick;
 local function CentralCasting()
     -- put on a lure if we need to
     if ( not StealClick() ) then
+        autopoleframe:Show();
         local update, id, n, target = GetUpdateLure();
         if (update and id) then
             FL:InvokeLuring(id, target);
         else
+            SetLastCastTime();
             if ( not FL:GetLastTooltipText() or not FL:OnFishingBobber() ) then
                  -- watch for fishing holes
                 FL:SaveTooltipText();
             end
-            SetLastCastTime();
-            autopoleframe:Show();
             local macrotext = FishingBuddy.CastAndThrow()
             if macrotext then
                 FL:InvokeMacro(macrotext)
@@ -1051,7 +989,7 @@ local function WF_OnMouseDown(...)
     local button = select(2, ...);
 
     if ( HijackCheck() ) then
-        FishingBuddy.ExecutePlans()
+        PLANS:ExecutePlans()
         if ( FL:CheckForDoubleClick(button) ) then
             -- We're stealing the mouse-up event, make sure we exit MouseLook
             if ( IsMouselooking() ) then
@@ -1140,11 +1078,10 @@ local function StartFishingMode()
         end
         FishingBuddy.EnhanceFishingSounds(true);
         handlerframe:Show();
-        LureState = 0;	  -- start with the cheapest lure
         local pole, lure = FL:GetPoleBonus();
         if ( not lure or lure == 0 ) then
-            LastLure = {};
-            LastLure.b = lure;
+            local LSM = FishingBuddy.LureStateManager;
+            LSM:SetLure({["b"] = lure})
         end
         FishingBuddy.StartedFishing = GetTime();
         RunHandlers(FBConstants.FISHING_ENABLED_EVT);
@@ -1173,7 +1110,7 @@ local function StopFishingMode(logout)
         resetClickToMove = nil;
     end
 
-    AddingLure = false;
+    ClearLastLure();
 end
 
 local function FishingMode()
@@ -1204,10 +1141,12 @@ local function AutoPoleCheck(self, ...)
             self.x, self.y, self.instanceID = HBD:GetPlayerWorldPosition();
         elseif (self.x) then
             if (self.moving) then
-                local x, y, instanceID = HBD:GetPlayerWorldPosition();
-                local _, distance = HBD:GetWorldVector(instanceId, self.x, self.y, x, y);
-                if instanceID ~= self.instanceID or distance > 10 then
-                    LastCastTime = GetTime() - FISHINGSPAN - 1
+                if not FishingBuddy.HaveRafts() then
+                    local x, y, instanceID = HBD:GetPlayerWorldPosition();
+                    local _, distance = HBD:GetWorldVector(instanceId, self.x, self.y, x, y);
+                    if instanceID ~= self.instanceID or distance > 10 then
+                        LastCastTime = GetTime() - FISHINGSPAN - 1
+                    end
                 end
             elseif (self.stopped) then
                 self.x, self.y, self.instanceID = HBD:GetPlayerWorldPosition();
@@ -1259,7 +1198,7 @@ FishingBuddy.Commands[FBConstants.FISHINGMODE].func =
 
         return true;
     end;
-    
+
 FishingBuddy.Commands['macro'] = {};
 FishingBuddy.Commands['macro'].help = FBConstants.FBMACRO_HELP;
 FishingBuddy.Commands['macro'].func =
@@ -1502,27 +1441,17 @@ FishingBuddy.OnEvent = function(self, event, ...)
             end
 
             -- if we want to autoloot, and Blizz isn't, let's grab stuff
-            local checkloot = LootSlotIsItem or LootSlotHasItem;
             local info = GetLootInfo()
             for index, item in ipairs(info) do
                 local link = GetLootSlotLink(index);
                 -- should we track "locked" items we couldn't loot?'
                 FishingBuddy.AddLootCache(item.texture, item.name, item.quantity, item.quality, link, poolhint)
-                -- not sure this makes sense any more
-                if false then
-                    local _, id, _ = FL:SplitLink(link, true);
-                    -- handle things we can't actually count that might be in our fish (e.g. Garrison Resources)
-                    if (id and quality == 0 and FL:IsMissedFish(id)) then
-                        DoEscaped = 1;
-                    end
-                end
                 if (doautoloot) then
                     LootSlot(index);
                 end
             end
             ClearTooltipText();
             FL:ExtendDoubleClick();
-            LureState = 0;
         elseif (DoAutoOpenLoot) then
             DoAutoOpenLoot = nil;
             for index = 1, GetNumLootItems(), 1 do
@@ -1554,6 +1483,7 @@ FishingBuddy.OnEvent = function(self, event, ...)
         end
     elseif ( event == "VARIABLES_LOADED" ) then
         local _, name = FL:GetFishingSkillInfo();
+        PLANS = FishingBuddy.FishingPlans;
         FishingBuddy.Initialize();
         PrepareVolumeSlider()
         FishingBuddy.OptionsFrame.HandleOptions(GENERAL, nil, GeneralOptions);
@@ -1569,6 +1499,9 @@ FishingBuddy.OnEvent = function(self, event, ...)
         if (FishingBuddy_Player and FishingBuddy_Player["Settings"] and FishingBuddy_Player["Settings"]["ShowBanner"] == nil) then
             FishingBuddy.Output(FBConstants.WINDOW_TITLE.." loaded");
         end
+
+        FishingBuddy.SetupSpecialItems(AutoFishingItems, false, true, true)
+        FishingBuddy.UpdateFluffOption(GOGGLES_ID, AutoFishingItems[GOGGLES_ID])
 
         self:UnregisterEvent("VARIABLES_LOADED");
         -- tell all the listeners about this one
@@ -1794,47 +1727,3 @@ FishingBuddy.Testing = function(line)
     tinsert(FishingBuddy_Info["Testing"], line);
 end
 
-if ( FishingBuddy.Debugging ) then
-    FishingBuddy.Commands["poles"] = {};
-    FishingBuddy.Commands["poles"].func =
-        function()
-            local _,_,_,_,fp_itemtype,fp_subtype,_,_,_,_ = FL:GetItemInfo(6256);
-            FishingBuddy.Debug("'"..fp_itemtype.."' '"..fp_subtype.."'");
-            for name,item in pairs(POLES) do
-                local link = "item:"..item;
-                if ( not FL:IsLinkableItem(item) ) then
-                    FishingBuddy.Debug(link);
-                    -- fetch the data (may disconnect)
-                    FishingBuddyTooltip:SetHyperlink(link);
-                end
-                -- now that we have it in our cache, get the name
-                local nm,li,ra,ml,it,st,sc,el,tx,il = FL:GetItemInfo(link);
-                if ( nm ) then
-                    FishingBuddy.Debug("		'"..it.."' '"..st.."'");
-                end
-            end
-            return true;
-        end
-
-    FishingBuddy.Commands["showopen"] = {};
-    FishingBuddy.Commands["showopen"].func =
-        function()
-            -- FishingBuddy_Info["Fishies"][id].canopen
-            for id,info in pairs(FishingBuddy_Info["Fishies"]) do
-                if (FishingBuddy_Info["Fishies"][id].canopen) then
-                    FishingBuddy.Debug("Id: %d Name: %s", id, info[CurLoc]);
-                end
-            end
-            return true;
-        end
-
-    FishingBuddy.Commands["nowopen"] = {};
-    FishingBuddy.Commands["nowopen"].func =
-        function()
-            -- 58856
-            for idx,info in pairs(OpenThisFishId) do
-                FishingBuddy.Debug(idx, info);
-            end
-            return true;
-        end
-end

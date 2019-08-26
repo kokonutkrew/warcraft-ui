@@ -49,106 +49,55 @@ AAP.QuestStepList2060 = {
 	},
 	["A84-Hellfire"] = {
 		{
-			["ExtraLine"] = 93,
 			["Trigger"] = {
-				["y"] = -8999.8,
-				["x"] = 864.2,
+				["y"] = -9002.3,
+				["x"] = 876.2,
 			},
+			["ExtraLineText"] = "Talk to Honor Hold Mage to port to Dark Portal",
+			["Gossip"] = 1,
+			["Range"] = 0.75,
 			["CRange"] = 9747,
-			["Range"] = 7.06,
 			["TT"] = {
-				["y"] = -8999.8,
-				["x"] = 864.2,
-			},
-		}, -- [1]
-		{
-			["Trigger"] = {
-				["y"] = -9011.8,
-				["x"] = 874,
-			},
-			["CRange"] = 9747,
-			["Range"] = 4.25,
-			["ExtraLine"] = 93,
-			["TT"] = {
-				["y"] = -9011.8,
-				["x"] = 874,
+				["y"] = -9006.8,
+				["x"] = 869.7,
 			},
 		}, -- [2]
 		{
-			["Trigger"] = {
-				["y"] = -9002.3,
-				["x"] = 875.7,
+			["ExtraLineText"] = "Talk to Honor Hold Mage to port to Dark Portal",
+			["Done"] = {
+				9747, -- [1]
 			},
-			["CRange"] = 9747,
-			["Range"] = 4.07,
-			["ExtraLine"] = 93,
+			["Gossip"] = 1,
 			["TT"] = {
-				["y"] = -9002.3,
-				["x"] = 875.7,
+				["y"] = -9006.8,
+				["x"] = 869.7,
 			},
-		}, -- [3]
+		}, -- [8]
+	},
+	["A17-60-80"] = {
 		{
-			["Trigger"] = {
-				["y"] = -9011,
-				["x"] = 869,
-			},
 			["CRange"] = 9747,
-			["Range"] = 3.98,
-			["ExtraLine"] = 93,
-			["TT"] = {
-				["y"] = -9011,
-				["x"] = 869,
-			},
-		}, -- [4]
-		{
 			["Trigger"] = {
-				["y"] = -9015.3,
-				["x"] = 876.7,
+				["y"] = -11912.5,
+				["x"] = -3183,
 			},
-			["CRange"] = 9747,
-			["Range"] = 3.58,
-			["ExtraLine"] = 93,
+			["ExtraLineText"] = "Enter The Portal",
+			["Range"] = 0.69,
 			["TT"] = {
-				["y"] = -9015.3,
-				["x"] = 876.7,
+				["y"] = -11907,
+				["x"] = -3210,
 			},
-		}, -- [5]
+		}, -- [1]
 		{
-			["Trigger"] = {
-				["y"] = -9016.5,
-				["x"] = 885.9,
-			},
-			["CRange"] = 9747,
-			["Range"] = 4.16,
-			["ExtraLine"] = 93,
-			["TT"] = {
-				["y"] = -9016.5,
-				["x"] = 885.9,
-			},
-		}, -- [6]
-		{
-			["Trigger"] = {
-				["y"] = -8984.8,
-				["x"] = 863.4,
-			},
-			["CRange"] = 9747,
-			["Range"] = 0.75,
-			["ExtraLine"] = 93,
-			["TT"] = {
-				["y"] = -9003.8,
-				["x"] = 856.2,
-			},
-		}, -- [7]
-		{
-			["ExtraLine"] = 93,
+			["ExtraLineText"] = "Enter The Portal",
 			["Done"] = {
 				9747, -- [1]
 			},
 			["TT"] = {
-				["y"] = -9002.7,
-				["x"] = 856.2,
+				["y"] = -11907,
+				["x"] = -3210,
 			},
-		}, -- [8]
+		}, -- [2]
 	},
 ---- Borean Tundra ----
 	["A114-60-83"] = {
@@ -3978,8 +3927,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 4043.5,
 			},
 			["UseFlightPath"] = 11723,
-			["PosX"] = 20.8,
-			["PosY"] = 49.1,
 			["Name"] = "Fizzcrank Airstrip, Borean Tundra",
 			["ETA"] = 88,
 		}, -- [1]
@@ -3998,8 +3945,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 5310.5,
 			},
 			["UseFlightPath"] = 11944,
-			["PosX"] = 29,
-			["PosY"] = 56.9,
 			["Name"] = "Unu'pe, Borean Tundra",
 			["ETA"] = 73,
 		}, -- [1]
@@ -5128,8 +5073,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 907.5,
 			},
 			["UseFlightPath"] = 12107,
-			["PosX"] = 42.2,
-			["PosY"] = 53.1,
 			["Name"] = "Stars' Rest, Dragonblight",
 			["ETA"] = 64,
 		}, -- [1]
@@ -7661,8 +7604,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 244.3,
 			},
 			["UseFlightPath"] = 12478,
-			["PosX"] = 59.6,
-			["PosY"] = 51.8,
 			["Name"] = "Wintergarde Keep, Dragonblight",
 			["ETA"] = 41,
 		}, -- [1]

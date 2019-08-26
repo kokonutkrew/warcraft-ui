@@ -1,40 +1,17 @@
-## Changelog for version 3.0.2
+## Changelog for version 3.1.1
 
 ### Fixed
 
-- Fixed an issue that could cause Storyline to be incorrectly reported as the source of other add-ons errors.
+- Fixed a display issue with the new dynamic backgrounds for campaign quests. Only the campaign specific background will now be shown, and the background has proper borders fading.
 
-## Changelog for version 3.0.1
-
-### Fixed
-
-- Hotfixed an issue with the library shared between Total RP 3 and Storyline.
-- Updated list of Patreon supporters.
-
-## Changelog for version 3.0
-
-_Note: The scaling system in this version is **temporary** and will be improved in a future version._
+## Changelog for version 3.1.0
 
 ### Added
 
-- The player model is now refreshed when changes happen to your character (equipment changes, druid forms, etc.).
-- The scaling between the two models is now animated when one of the models changes.
-- The 3D models are now animated into the view.
-- Added support for quests with special background and wax seals.
-- Added item icon border for Azerite empowered rewards.
+- Storyline will now display backgrounds specific for the zone you are currently in (from the pool of follower missions backgrounds). 
+- I was finally able to add the parchment object to the reading animation on the player model. Special thanks to Peterodox, developer of the [Narcissus add-on](https://www.curseforge.com/wow/addons/narcissus) for his help on this.
 
-### Modified
 
-- Completely re-implemented the way animations are played on the 3D models. Using new in-game methods for timing animations, we no longer need our own database of animation timings. This means that all models are now timed automatically by the game.
-
-### Fixed
-
-- Fixed Lua error when displaying spell rewards.
-- Empty lines will now be skipped and no longer be shown in the dialogs.
-- NPC emotes spanning over multiple paragraphs are now correctly colored until the actual end of the emote.
-- Models with no speaking animation will no longer start playing their idle animation from the beginning when they are being animated.
-- Fixed an issue that prevented dead NPCs to appear as dead in Storyline.
-- Fixed an issue where the player model would not be displayed correctly when Storyline was opened when the player model was not already loaded (typically during login).
-- Fixed an issue that would make the game crash during quests that have an attached 3D portrait.
-- Fixed an issue that would prevent the correct attached 3D portrait from appearing for some quests or display it when it shouldn't be.
-- Remove April fools' joke from UI.
+![Stormsong Valley, reading](https://www.dropbox.com/s/nkedovteikk17kw/WoWScrnShot_062919_202913.jpg?raw=1)
+![Val'sharah](https://www.dropbox.com/s/6gi3fpcim8yiokb/WoWScrnShot_062919_202336.jpg?raw=1)
+![Arathi Highlands](https://www.dropbox.com/s/op36z06v8ox4qwy/WoWScrnShot_062919_201556.jpg?raw=1)

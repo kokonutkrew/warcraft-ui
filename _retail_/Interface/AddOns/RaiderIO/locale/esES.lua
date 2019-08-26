@@ -20,6 +20,8 @@ L["BEST_FOR_DUNGEON"] = "Mejor M+ en esta mazmorra"
 L["BEST_RUN"] = "Mejor M+"
 --[[Translation missing --]]
 --[[ L["BEST_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CANCEL"] = ""--]] 
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Se han guardado los cambios, pero se necesita reiniciar la interfaz para que surtan efecto.
 
 ¿Quieres reiniciarla ahora?]=]
@@ -29,12 +31,16 @@ L["CHECKBOX_DISPLAY_WEEKLY"] = "Mostrar semanal"
 L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Ventanas emergentes de M+ y bandas"
 --[[Translation missing --]]
 --[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar dirección de Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copiar dirección de Raider.IO"
 --[[Translation missing --]]
 --[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CURRENT_SCORE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Puntuación de DPS"
 L["DUNGEON_SHORT_NAME_AD"] = "Atal'Dazar"
@@ -63,6 +69,8 @@ L["DUNGEON_SHORT_NAME_VOTW"] = "Celadoras"
 L["DUNGEON_SHORT_NAME_WM"] = "Mansión"
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar automáticamente el marco de perfil de RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Fija la ventana emergente de perfil de M+ junto al marco del buscador de grupos o la ventana emergente de jugador."
+--[[Translation missing --]]
+--[[ L["ENABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["ENABLE_LOCK_PROFILE_FRAME"] = "Bloquear el marco de perfil de RaiderIO"
 L["ENABLE_LOCK_PROFILE_FRAME_DESC"] = "Evita que se pueda desplazar el marco de perfil de M+. No tiene efecto si el marco de perfil de M+ está configurado para posicionarse automáticamente."
 L["ENABLE_NO_SCORE_COLORS"] = "Desactivar colores de puntuación"
@@ -135,6 +143,22 @@ L["RAID_BOSS_BOD_6"] = "Rey Rastakhan"
 L["RAID_BOSS_BOD_7"] = "Manitas mayor Mekkatorque"
 L["RAID_BOSS_BOD_8"] = "Bloqueo de la tormenta"
 L["RAID_BOSS_BOD_9"] = "Lady Jaina Valiente"
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_1"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_3"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_4"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_5"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_6"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_7"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RAID_BOSS_EP_8"] = ""--]] 
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Devorador fétido"
@@ -169,6 +193,8 @@ L["RELOAD_NOW"] = "Reiniciarla ahora"
 --[[ L["SEASON_LABEL_1"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["SEASON_LABEL_2"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["SEASON_LABEL_3"] = ""--]] 
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO"] = "Mostrar puntuación media de M+ en tiempo"
 L["SHOW_AVERAGE_PLAYER_SCORE_INFO_DESC"] = "Muestra la puntuación media de M+ en tiempo de los miembros de un grupo. Aparece en las descripciones emergentes de piedras angulares y jugadores en el buscador de grupos."
 --[[Translation missing --]]
@@ -235,6 +261,12 @@ L["TOTAL_RUNS"] = "Total en BfA"
 L["UNKNOWN_SCORE"] = "Desconocida"
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r ha encontrado un nuevo servidor. Por favor, apunta esta información |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r y envíasela a los desarrolladores. ¡Gracias!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: desbloqueando el marco de perfil de M+."
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: primero debes deshabilitar el posicionamiento automático del marco de perfil de RaiderIO."
 
 

@@ -10,7 +10,7 @@ Licensed under a Creative Commons "Attribution Non-Commercial Share Alike" Licen
 local _
 
 local MAJOR_VERSION = "LibFishing-1.0"
-local MINOR_VERSION = 91012
+local MINOR_VERSION = 91013
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub") end
 
@@ -94,8 +94,8 @@ FishLib.continent_fishing = {
     { ["max"] = 75, ["skillid"] = 2588, ["cat"] = 1108, ["rank"] = 0 },	-- Pandaria Fishing
     { ["max"] = 100, ["skillid"] = 2587, ["cat"] = 1110, ["rank"] = 0 },	-- Draenor Fishing
     { ["max"] = 100, ["skillid"] = 2586, ["cat"] = 1112, ["rank"] = 0 },	-- Legion Fishing
-    { ["max"] = 150, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Kul Tiras Fishing
-    { ["max"] = 150, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Zandalar Fishing
+    { ["max"] = 175, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Kul Tiras Fishing
+    { ["max"] = 175, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Zandalar Fishing
 }
 
 local itsready = C_TradeSkillUI.IsTradeSkillReady
@@ -391,6 +391,16 @@ local FISHINGLURES = {
     },
 }
 
+local SalmonLure = {
+    {	["id"] = 165699,
+        ["enUS"] = "Scarlet Herring Lure",		    -- Increase chances for Midnight Salmon
+        spell = 285895,
+        ["b"] = 0,
+        ["s"] = 1,
+        ["d"] = 15,
+    },
+}
+
 local FISHINGHATS = {}
 for _,info in ipairs(NATS_HATS) do
     tinsert(FISHINGLURES, info)
@@ -528,7 +538,7 @@ function FishLib:HasBuff(buffId, skipWait)
     if ( buffId ) then
         -- if we're waiting, assume we're going to have it
         if ( not skipWait and BuffWatch[buffId] ) then
-            return true
+            return true, GetTime() + 10
         else
             for i=1,40 do
                 local info = {UnitBuff("player", i)}
@@ -536,12 +546,23 @@ function FishLib:HasBuff(buffId, skipWait)
                 if current_buff then
                     local spellid = select(10, unpack(info));
                     if (buffId == spellid) then
-                        return true;
+                        local et = select(6, unpack(info));
+                        return true, et;
                     end
                 else
-                    return nil
+                    return nil, nil
                 end
             end
+        end
+    end
+    -- return nil
+end
+
+function FishLib:HasAnyBuff(buffs)
+    for _, buff in pairs(buffs) do
+        local has, et = self:HasBuff(buff.spell)
+        if has then
+            return has, et
         end
     end
     -- return nil
@@ -1395,7 +1416,7 @@ function FishLib:ExtendDoubleClick()
 end
 
 function FishLib:GetLocZone(mapId)
-    return HBD:GetLocalizedMap(mapId);
+    return HBD:GetLocalizedMap(mapId) or UNKNOWN
 end
 
 function FishLib:GetZoneSize(mapId)
@@ -1418,6 +1439,7 @@ local continent_map = {
     [619] = 8,		-- Broken Isles
     [876] = 9,		-- Kul Tiras
     [875] = 10,     -- Zandalar
+    [1355] = 9,     -- Nazjatar
     [407] = 5,		-- Darkmoon Island
 }
 
@@ -1442,7 +1464,7 @@ function FishLib:GetMapContinent(mapId)
     if HBD.mapData[mapId] and mapId then
         local cMapId = mapId;
         local parent = HBD.mapData[cMapId].parent;
-        while (parent ~= 946 and parent ~= 947) do
+        while (parent ~= 946 and parent ~= 947 and HBD.mapData[parent]) do
             cMapId = parent;
             parent = HBD.mapData[cMapId].parent;
         end

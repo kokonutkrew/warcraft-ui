@@ -3,19 +3,24 @@ local GSE = GSE
 local Statics = GSE.Static
 local L = GSE.L
 
+local iconSource = "Interface\\Addons\\GSE_GUI\\GSE2_Logo_Dark_512.blp"
+
 local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
 local dataobj = ldb:NewDataObject(L["GSE"] .." ".. L["GnomeSequencer-Enhanced"], {
   type = "data source",
   text = "GSE",
-  icon = "Interface\\Icons\\INV_Chest_Cloth_17",
+  icon = iconSource,
   OnLeave = dataObject_OnLeave
 })
 local LibQTip = LibStub('LibQTip-1.0')
 local LibSharedMedia = LibStub('LibSharedMedia-3.0')
 
+local icon = LibStub("LibDBIcon-1.0")
+icon:Register(L["GSE"] .." ".. L["GnomeSequencer-Enhanced"], dataobj, GSEOptions.showMiniMap)
+
 local baseFont = CreateFont("baseFont")
 
--- CHeck for ElvUI
+-- Check for ElvUI
 if GSE.isEmpty(ElvUI) then
   baseFont:SetFont(GameTooltipText:GetFont(), 10)
 elseif LibSharedMedia:IsValid('font', ElvUI[1].db.general.font) then
@@ -27,7 +32,7 @@ end
 function dataobj:OnEnter()
   -- Acquire a tooltip with 3 columns, respectively aligned to left, center and right
   --local tooltip = LibQTip:Acquire("GSSE", 3, "LEFT", "CENTER", "RIGHT")
-  local tooltip = LibQTip:Acquire("GSSE", 3, "LEFT", "CENTER", "RIGHT")
+  local tooltip = LibQTip:Acquire("GSE", 3, "LEFT", "CENTER", "RIGHT")
   self.tooltip = tooltip
   tooltip:SetHighlightTexture("Interface\\FriendsFrame\\UI-FriendsFrame-HighlightBar")
 
@@ -41,7 +46,7 @@ function dataobj:OnEnter()
   y,x = tooltip:AddLine()
   tooltip:SetCell(y, 1, L["GSE: Right Click to open the Sequence Debugger"],"CENTER", 3)
 
-  -- If in party add other users and their versions
+  -- If in party, add other users and their versions
   if not GSE.isEmpty(GSE.UnsavedOptions["PartyUsers"]) and GSEOptions.showGSEUsers then
     tooltip:AddSeparator()
     y,x = tooltip:AddLine()
@@ -96,13 +101,20 @@ function dataobj:OnEnter()
   tooltip:Show()
 end
 
-local function dataObject_OnLeave(self)
+local function handleLeave(self)
   -- Dont close the tooltip if mouseover
   if not MouseIsOver(self.tooltip) then
     -- Release the tooltip
     LibQTip:Release(self.tooltip)
     self.tooltip = nil
   end
+  return true
+end
+
+local function dataObject_OnLeave(self)
+  -- this may throw an error - capture the error silently
+  pcall(handleLeave, self)
+
 end
 
 
@@ -119,3 +131,25 @@ function dataobj:OnClick(button)
     GSE.GUIShowDebugWindow()
   end
 end
+
+function GSE.miniMapShow()
+  icon:Show(L["GSE"] .." ".. L["GnomeSequencer-Enhanced"])
+end
+
+function GSE.miniMapHide()
+  icon:Hide(L["GSE"] .." ".. L["GnomeSequencer-Enhanced"])
+end
+
+--- This shows or hides the minimap icon.
+function GSE.MiniMapControl(show)
+  -- print(show)
+  if show then
+    GSE.miniMapHide()
+  else
+    GSE.miniMapShow()
+  end
+end
+
+-- GSE.MiniMapControl(GSEOptions.showMiniMap.hide)
+
+GSE.LDB = true

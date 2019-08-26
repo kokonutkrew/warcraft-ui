@@ -1,4 +1,46 @@
-﻿Version 1.9.27
+﻿Version 1.10.5
+- Fix missing reference for raft support
+
+Version 1.10.4
+-- Update localization information using CurseForge
+-- Support the Gnarlwood Waveboard
+-- Rewrite to make item and lure handling cleaner
+
+Version 1.10.3
+- Update support libraries (HereBeDragons)
+- Add option to allowing casting while flying (Monks!)
+
+Version 1.10.2
+- Fix some bugs in the new item handling code
+
+Version 1.10.1
+- Check cooldown when using lures, the Scarelet Lure in particular
+- Don't cast while flying
+- Don't clear "fishing without a pole" if on a raft and moving
+- Use the "Secret Fish Goggles" as the first action in "Fish without a pole"
+
+Version 1.10
+- Update TOC
+
+Version 1.9.30.2
+- Remove the skill check completely until I can figure out why IWOMM and nowhere else
+
+Version 1.9.30.1
+- Make sure that the option turns off the "Check your skill" message
+
+Version 1.9.30
+- Support for the "Scarlet Herring Lure"
+- Warn the player if they haven't learned the skill for the local area (Curseforge #383)
+
+Version 1.9.29
+- Fix for CurseForge #380 (error with fountain coins)
+- Fixes for a bunch of issues caused by map changes in 8.1.5
+
+Version 1.9.28
+- Fix CurseForge #379 (zone lookup error)
+- Update libraries
+
+Version 1.9.27
 - Improve the detection of whether or not you can use the raft toy.
 
 Version 1.9.26a1

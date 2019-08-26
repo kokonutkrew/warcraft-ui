@@ -8,6 +8,7 @@ local _
 local FL = LibStub("LibFishing-1.0");
 
 local CurLoc = GetLocale();
+local PLANS = FishingBuddy.FishingPlans;
 
 local BOBBER_NONE = -1;
 local BOBBER_ALL = -2;
@@ -115,9 +116,7 @@ local function PickRandomBobber(bobbersetting)
 	local baits = {};
 	for _,id in ipairs(bobbersetting) do
 		if (PlayerHasToy(id) and C_ToyBox.IsToyUsable(id)) then
-			local start, duration, enable = GetItemCooldown(id);
-			local et = (start + duration) - GetTime();
-			if (et <= 0) then
+			if not PLANS:ItemCooldownOn(id) then
 				_, id = C_ToyBox.GetToyInfo(id);
 				tinsert(baits, id);
 			end
@@ -133,9 +132,7 @@ local function UseThisBobber(itemid, info)
     if (info.toy) then
         canuse = false
 		if (PlayerHasToy(itemid) and C_ToyBox.IsToyUsable(itemid)) then
-			local start, duration, enable = GetItemCooldown(itemid);
-			local et = (start + duration) - GetTime();
-			if (et <= 0) then
+			if not PLANS:ItemCooldownOn(itemid) then
                 _, itemid = C_ToyBox.GetToyInfo(itemid);
                 canuse = true
             end
@@ -161,7 +158,7 @@ local function unwind(table)
 	return unwound
 end
 
-local function SpecialBobberPlan(queue)
+local function SpecialBobberPlan()
 	if GSB(BigBobbers[136377].setting) then
 		for id,bobber in pairs(BigBobbers) do
 			if FL:HasBuff(bobber.spell) then
@@ -171,11 +168,7 @@ local function SpecialBobberPlan(queue)
 			local itemid, canuse = UseThisBobber(id, bobber);
 			if canuse then
 				ClearSpecialBobberBuffs()
-				tinsert(queue, {
-					["itemid"] = itemid,
-					["name"] = bobber[CurLoc],
-					["targetid"] = nil
-				})
+				PLANS:AddEntry(itemid, bobber[CurLoc])
 				return
 			end
 		end
@@ -190,10 +183,7 @@ local function SpecialBobberPlan(queue)
 
 		local itemid = PickRandomBobber(bobbersetting);
 		if ( itemid ) then
-			tinsert(queue, {
-				["itemid"] = itemid,
-				["targetid"] = nil
-			})
+			PLANS:AddEntry(itemid)
 		end
 	end
 end
@@ -237,7 +227,7 @@ local BobberEvents = {}
 BobberEvents["VARIABLES_LOADED"] = function(started)
 	FishingBuddy.SetupSpecialItems(BigBobbers, true, true, true)
     FishingBuddy.SetupSpecialItems(Bobbers, false, true, true)
-    FishingBuddy.RegisterPlan(SpecialBobberPlan)
+	PLANS:RegisterPlan(SpecialBobberPlan)
 
 	local FSF = FishingBuddy.FSF
 	local simple = {}
@@ -262,10 +252,7 @@ if ( FishingBuddy.Debugging ) then
 			local baits = {};
 			for _,id in ipairs(bobberkeys) do
 				if (PlayerHasToy(id) and C_ToyBox.IsToyUsable(id)) then
-					local start, duration, enable = GetItemCooldown(id);
-					local et = (start + duration) - GetTime();
-					print(id, et)
-					if (et <= 0) then
+					if not PLANS:ItemCooldownOn(id) then
 						_, id = C_ToyBox.GetToyInfo(id);
 						tinsert(baits, id);
 					end

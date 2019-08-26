@@ -1,18 +1,12 @@
-tag 8993431dc1dd464ef0413fd774afa57e9ad9f974 8.1-1-release
+tag 043d46006cb295cddb13e4158e691e1e2087d6c3 8.1.2-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Fri Jan 25 01:59:36 2019 +0100
+Date:	Tue Jun 25 09:44:32 2019 +0200
 
-Tagging as 8.1-1-release
+Tagging as 8.1.2-release
 
-commit e39ee9da5ee90af306ae677fc1a0f351dfd20338
+commit b6fb58628c9380031df1e4e3edf883f23bc5f06f
 Author: Hizuro <hizuro@gmx.net>
-Date:   Fri Jan 25 01:58:26 2019 +0100
+Date:   Tue Jun 25 09:17:02 2019 +0200
 
-    update toc file
-
-commit 52b671898dce851e87659d2970be2f0b112f9b08
-Author: Hizuro <hizuro@gmx.net>
-Date:   Fri Jan 25 01:57:20 2019 +0100
-
-    some minor changes
+    update toc file for 8.2
 

@@ -3,8 +3,8 @@
 --------------------------------------------------------------------------------------------------------------------------------------------
 local NS = select( 2, ... );
 local L = NS.localization;
-NS.releasePatch = "8.1";
-NS.versionString = "3.07";
+NS.releasePatch = "8.2";
+NS.versionString = "3.08";
 NS.version = tonumber( NS.versionString );
 --
 NS.options = {};
@@ -269,7 +269,7 @@ for i = 1, #NS.ridingSpells do
 end
 NS.cachedDressUpIds = {};
 NS.mountInfo = {
-	-- As of 12/22/2018
+	-- As of 07/28/2019
 	--[mountItemId] = { displayID, spellID }, -- creatureName -- itemName
 	[90655] = { 45797, 132036 }, -- Thundering Ruby Cloud Serpent -- Reins of the Thundering Ruby Cloud Serpent
 	[153594] = { 80513, 256123 }, -- Xiwyllag ATV -- Xiwyllag ATV
@@ -319,8 +319,16 @@ NS.mountInfo = {
 	[49290] = { 34655, 65917 }, -- Magic Rooster -- Magic Rooster Egg
 };
 NS.petInfo = {
-	-- As of 12/22/2018
+	-- As of 07/28/2019
 	--[companionPetItemId] = { speciesID, creatureID }, -- itemName
+	[170072] = { 2766, 155829}, -- Armored Vaultbot
+	[167810] = { 2763, 151632}, -- Slimy Hermit Crab
+	[167806] = { 2760, 151673}, -- Slimy Octopode
+	[167809] = { 2762, 151651}, -- Slimy Darkhunter
+	[167808] = { 2758, 151697}, -- Slimy Eel
+	[167805] = { 2757, 151700}, -- Slimy Otter
+	[167804] = { 2765, 151631}, -- Slimy Sea Slug
+	[167807] = { 2761, 151696}, -- Slimy Fangtooth
 	[166487] = { 2552, 148979 }, -- Leatherwing Screecher
 	[152878] = { 2201, 139743 }, -- Enchanted Tiki Mask
 	[151645] = { 2001, 117340 }, -- Model D1-BB-L3R
@@ -503,8 +511,10 @@ NS.petInfo = {
 	[146953] = { 2042, 120397 }, -- Scraps
 };
 NS.toyInfo = {
-	-- As of 12/22/2018
+	-- As of 07/28/2019
 	--[toyItemId] = { catNum, subCatNum }, -- itemName
+	[168807] = { 6, 1 }, -- Wormhole Generator: Kul Tiras
+	[168808] = { 6, 1 }, -- Wormhole Generator: Zandalar
 	[166743] = { 12, 4 }, -- Blight Bomber
 	[166744] = { 12, 4 }, -- Glaive Tosser
 	[160740] = { 12, 4 }, -- Croak Crock

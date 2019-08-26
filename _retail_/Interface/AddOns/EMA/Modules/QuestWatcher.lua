@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -88,11 +88,19 @@ function EMA:GetConfiguration()
 		get = "EMAConfigurationGetSetting",
 		set = "EMAConfigurationSetSetting",
 		args = {
+			config = {
+				type = "input",
+				name = L["OPEN_CONFIG"],
+				desc = L["OPEN_CONFIG_HELP"],
+				usage = "/ema-quest-watcher config",
+				get = false,
+				set = "",				
+			},
 			show = {
 				type = "input",
 				name = L["SHOW_QUEST_WATCHER"],
 				desc = L["SHOW_QUEST_WATCHER_HELP"],
-				usage = "/EMA-quest-watcher show",
+				usage = "/ema-quest-watcher show",
 				get = false,
 				set = "ShowFrameCommand",
 			},		
@@ -100,7 +108,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["HIDE_QUEST_WATCHER"] ,
 				desc = L["HIDE_QUEST_WATCHER_HELP"] ,
-				usage = "/EMA-quest-watcher hide",
+				usage = "/ema-quest-watcher hide",
 				get = false,
 				set = "HideFrameCommand",
 			},		
@@ -108,7 +116,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["PUSH_SETTINGS"],
 				desc = L["PUSH_SETTINGS_INFO"],
-				usage = "/EMA-quest-watcher push",
+				usage = "/ema-quest-watcher push",
 				get = false,
 				set = "EMASendSettings",
 			},	
@@ -279,8 +287,8 @@ function EMA:SettingsCreateQuestWatcherControl( top )
 		EMA.SettingsToggleEnableQuestWatcher,
 		L["ENABLE_TRACKER_HELP"]
 	)	
-
-	movingTop = movingTop - checkBoxHeight		
+--[[
+	movingTop = movingTop - checkBoxHeight
 	EMA.settingsControlWatcher.checkBoxUnlockWatcherFrame = EMAHelperSettings:CreateCheckBox( 
 		EMA.settingsControlWatcher, 
 		headingWidth, 
@@ -290,6 +298,7 @@ function EMA:SettingsCreateQuestWatcherControl( top )
 		EMA.SettingsToggleUnlockWatcherFrame,
 		L["UNLOCK_TRACKER_HELP"]
 	)
+]]
 	movingTop = movingTop - checkBoxHeight	
 	EMA.settingsControlWatcher.checkBoxHideBlizzardWatchFrame = EMAHelperSettings:CreateCheckBox( 
 		EMA.settingsControlWatcher, 
@@ -774,7 +783,7 @@ function EMA:SettingsRefresh()
 	EMA.settingsControlWatcher.questWatchBorderColourPicker:SetColor( EMA.db.watchFrameBorderColourR, EMA.db.watchFrameBorderColourG, EMA.db.watchFrameBorderColourB, EMA.db.watchFrameBorderColourA )
 	EMA.settingsControlWatcher.displayOptionsQuestWatcherLinesSlider:SetValue( EMA.db.watcherListLines )
 	EMA.settingsControlWatcher.displayOptionsQuestWatcherFrameWidthSlider:SetValue( EMA.db.watcherFrameWidth )
-	EMA.settingsControlWatcher.checkBoxUnlockWatcherFrame:SetValue( EMA.db.unlockWatcherFrame )
+--	EMA.settingsControlWatcher.checkBoxUnlockWatcherFrame:SetValue( EMA.db.unlockWatcherFrame )
 	EMA.settingsControlWatcher.checkBoxHideBlizzardWatchFrame:SetValue( EMA.db.hideBlizzardWatchFrame )
 	EMA.settingsControlWatcher.checkBoxShowCompletedObjectivesAsDone:SetValue( EMA.db.showCompletedObjectivesAsDone  )
 	EMA.settingsControlWatcher.checkBoxHideQuestIfAllComplete:SetValue( EMA.db.hideQuestIfAllComplete )
@@ -794,7 +803,7 @@ function EMA:SettingsRefresh()
 	EMA.settingsControlWatcher.questWatchBorderColourPicker:SetDisabled( not EMA.db.enableQuestWatcher )
 	EMA.settingsControlWatcher.displayOptionsQuestWatcherLinesSlider:SetDisabled( not EMA.db.enableQuestWatcher )
 	EMA.settingsControlWatcher.displayOptionsQuestWatcherFrameWidthSlider:SetDisabled( not EMA.db.enableQuestWatcher )
-	EMA.settingsControlWatcher.checkBoxUnlockWatcherFrame:SetDisabled( not EMA.db.enableQuestWatcher )
+--	EMA.settingsControlWatcher.checkBoxUnlockWatcherFrame:SetDisabled( not EMA.db.enableQuestWatcher )
 	EMA.settingsControlWatcher.checkBoxHideBlizzardWatchFrame:SetDisabled( not EMA.db.enableQuestWatcher )
 	EMA.settingsControlWatcher.checkBoxShowCompletedObjectivesAsDone:SetDisabled( not EMA.db.enableQuestWatcher )
 	EMA.settingsControlWatcher.checkBoxHideQuestIfAllComplete:SetDisabled( not EMA.db.enableQuestWatcher )

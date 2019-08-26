@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201903110600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201908200600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -216,26 +216,33 @@ local ENUM_DUNGEONS = {}
 local KEYSTONE_INST_TO_DUNGEONID = {}
 local DUNGEON_INSTANCEMAPID_TO_DUNGEONID = {}
 local LFD_ACTIVITYID_TO_DUNGEONID = {}
-for i = 1, #CONST_DUNGEONS do
-	local dungeon = CONST_DUNGEONS[i]
-	dungeon.index = i
 
-	ENUM_DUNGEONS[dungeon.shortName] = i
-	KEYSTONE_INST_TO_DUNGEONID[dungeon.keystone_instance] = i
-	DUNGEON_INSTANCEMAPID_TO_DUNGEONID[dungeon.instance_map_id] = i
+local function UpdateConstDungeon()
+	for i = 1, #CONST_DUNGEONS do
+		local dungeon = CONST_DUNGEONS[i]
+		dungeon.index = i
 
-	for _, activity_id in ipairs(dungeon.lfd_activity_ids) do
-		LFD_ACTIVITYID_TO_DUNGEONID[activity_id] = i
+		ENUM_DUNGEONS[dungeon.shortName] = i
+		KEYSTONE_INST_TO_DUNGEONID[dungeon.keystone_instance] = i
+		DUNGEON_INSTANCEMAPID_TO_DUNGEONID[dungeon.instance_map_id] = i
+
+		for _, activity_id in ipairs(dungeon.lfd_activity_ids) do
+			LFD_ACTIVITYID_TO_DUNGEONID[activity_id] = i
+		end
+
+		if ns.addonConfig.useEnglishAbbreviations == true then
+			dungeon.shortNameLocale = dungeon.shortName
+		else
+			dungeon.shortNameLocale = L["DUNGEON_SHORT_NAME_" .. dungeon.shortName] or dungeon.shortName
+		end
 	end
-
-	dungeon.shortNameLocale = L["DUNGEON_SHORT_NAME_" .. dungeon.shortName] or dungeon.shortName
 end
 
 -- defined constants
 local MAX_LEVEL = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_BATTLE_FOR_AZEROTH]
 local OUTDATED_SECONDS = 86400 * 3 -- number of seconds before we start warning about outdated data
-local PREVIOUS_SEASON_ID = 1
-local CURRENT_SEASON_ID = 2
+local PREVIOUS_SEASON_ID = 2
+local CURRENT_SEASON_ID = 3
 local FACTION
 local REGIONS
 local REGIONS_RESET_TIME
@@ -390,8 +397,9 @@ local GetFaction
 local IsUnitMaxLevel
 local GetWeeklyAffix
 local GetStarsForUpgrades
-local GetFormattedRunCount
+local GetFormattedScore
 local GetTooltipScore
+local GetFormattedRunCount
 do
 	-- bracket can be 10, 100, 0.1, 0.01, and so on
 	function RoundNumber(v, bracket)
@@ -1094,10 +1102,16 @@ do
 		return cache
 	end
 
-	-- returns the profile of a given character, faction is optional but recommended for quicker lookups
-	local function GetProviderData(dataType, name, realm, faction)
+	-- returns the profile of a given character
+	--   faction is optional but recommended for quicker lookups
+	--   region is optional as well, and will default to the player's region
+	local function GetProviderData(dataType, name, realm, faction, region)
+		if region == nil then
+			region = PLAYER_REGION
+		end
+
 		-- shorthand for data provider group table
-		local dataProviderGroup = dataProvider[dataType]
+		local dataProviderGroup = dataProvider[region] and dataProvider[region][dataType]
 		-- if the provider isn't loaded we don't try and search for the data
 		if not dataProviderGroup then return end
 		-- figure out what faction tables we want to iterate
@@ -1154,7 +1168,7 @@ do
 	end
 
 	-- returns score color using item colors
-	function GetScoreColorFromTable(score, tbl, tblSimple)
+	local function GetScoreColorFromTable(score, tbl, tblSimple)
 		if score == 0 or ns.addonConfig.disableScoreColors then
 			return 1, 1, 1
 		end
@@ -1209,14 +1223,7 @@ do
 		local best = { dungeon = nil, level = 0, text = nil }			-- dungeon best
 		local overallBest = { dungeon = profile.maxDungeon, level = profile.dungeons[profile.maxDungeon.index] }	-- overall best
 
-		if addLFD then
-			local hasArgs, dungeonIndex = ...
-			if hasArgs == true then
-				best.dungeon = CONST_DUNGEONS[dungeonIndex] or best.dungeon
-			end
-		end
-
-		if focusDungeon then
+		if addLFD or focusDungeon then
 			local hasArgs, dungeonIndex = ...
 			if hasArgs == true then
 				best.dungeon = CONST_DUNGEONS[dungeonIndex] or best.dungeon
@@ -1588,52 +1595,78 @@ do
 		return output
 	end
 
+	-- Parse input of "GetPlayerProfile"
+	-- Can be either :
+	-- - name, realm, (faction, (region))
+	-- - name, faction
+	-- - name
+	-- Each of these option above can be followed by either :
+	-- - boolean, arg1, arg2, ...
+	-- - {boolean, arg1, arg2, ...}}
+	local function GetInputPlayerProfile(...)
+		local args = {...}
+		local queryName, queryRealm, queryFaction, queryRegion, passThroughArg
+
+		for i, arg in pairs(args) do
+			local typeArg = type(arg)
+
+			-- if boolean or table, this means that these are the additional arguments
+			if typeArg == "boolean" then
+				passThroughArg = {select(i, ...)}
+				break
+			elseif typeArg == "table" then
+				passThroughArg = arg
+				break
+			end
+
+			if typeArg == "string" then
+				if i == 1 then
+					queryName = arg
+				elseif i == 2 then
+					queryRealm = arg
+				elseif i == 4 then
+					queryRegion = arg
+				end
+			end
+
+			-- Number is always faction
+			if typeArg == "number" then
+				queryFaction = arg
+			end
+		end
+
+		return queryName, queryRealm, queryFaction, queryRegion, type(passThroughArg) == "table" and passThroughArg or {}
+	end
+
 	-- retrieves the complete player profile from all providers
 	function GetPlayerProfile(outputFlag, ...)
 		if not dataProvider then
 			return
 		end
+
 		-- must be a number 0 or larger
 		if type(outputFlag) ~= "number" or outputFlag < 1 then
 			outputFlag = ProfileOutput.DATA
 		end
-		-- read the first args and figure out the request
-		local arg1, arg2, arg3, arg4, arg5 = ...
-		local targ1, targ2, targ3 = type(arg1), type(arg2), type(arg3)
-		local passThroughAt, passThroughArg1, passThroughArg2, passThroughArg1Table
-		local queryName, queryRealm, queryFaction
-		if targ1 == "string" and targ2 == "string" and targ3 == "number" then
-			passThroughAt, passThroughArg1, passThroughArg2 = 4, arg4, arg5
-			queryName, queryRealm, queryFaction = arg1, arg2, arg3
-		elseif targ1 == "string" and arg2 == nil and targ3 == "number" then
-			passThroughAt, passThroughArg1, passThroughArg2 = 4, arg4, arg5
-			queryName, queryRealm, queryFaction = arg1, arg2, arg3
-		elseif targ1 == "string" and targ2 == "string" then
-			passThroughAt, passThroughArg1, passThroughArg2 = 3, arg3, arg4
-			queryName, queryRealm, queryFaction = arg1, arg2, nil
-		elseif targ1 == "string" and targ2 == "number" then
-			passThroughAt, passThroughArg1, passThroughArg2 = 3, arg3, arg4
-			queryName, queryRealm, queryFaction = arg1, nil, arg2
-		else
-			passThroughAt, passThroughArg1, passThroughArg2 = 2, arg2, arg3
-			queryName, queryRealm, queryFaction = arg1, nil, nil
-		end
-		-- is the pass args an object? if so we pass it directly
-		if type(passThroughArg1) == "table" and passThroughArg2 == nil then
-			passThroughArg1Table = passThroughArg1
-		end
+
+		local queryName, queryRealm, queryFaction, queryRegion, passThroughArg = GetInputPlayerProfile(...)
+
 		-- lookup name, realm and potentially unit identifier
 		local name, realm, unit = GetNameAndRealm(queryName, queryRealm)
 		if name and realm then
+
 			-- global flag to avoid caching LFD/instance flagged tooltips everywhere
 			if not ns.enableTooltipCaching and band(outputFlag, ProfileOutput.ADD_LFD) ~= ProfileOutput.ADD_LFD then
 				outputFlag = bor(outputFlag, ProfileOutput.ADD_LFD)
 			end
+
 			-- what modules are we looking into?
 			local reqMythicPlus = band(outputFlag, ProfileOutput.MYTHICPLUS) == ProfileOutput.MYTHICPLUS
 			local reqRaiding = band(outputFlag, ProfileOutput.RAIDING) == ProfileOutput.RAIDING
+
 			-- profile GUID for this particular request
 			local profileGUID = realm .. "-" .. name .. "-" .. outputFlag
+
 			-- return cached table if it exists, and if we are capable of caching this particular tooltip
 			local canCacheProfile = band(outputFlag, ProfileOutput.ADD_LFD) ~= ProfileOutput.ADD_LFD and band(outputFlag, ProfileOutput.FOCUS_DUNGEON) ~= ProfileOutput.FOCUS_DUNGEON and band(outputFlag, ProfileOutput.FOCUS_KEYSTONE) ~= ProfileOutput.FOCUS_KEYSTONE and true or false
 			if canCacheProfile then
@@ -1642,12 +1675,15 @@ do
 					return cachedProfile, true, true, reqMythicPlus and reqRaiding
 				end
 			end
+
 			-- unless the flag to specifically ignore the level check, do make sure we only query max level players
 			if not IsUnitMaxLevel(unit, true) and band(outputFlag, ProfileOutput.INCLUDE_LOWBIES) ~= ProfileOutput.INCLUDE_LOWBIES then
 				return
 			end
+
 			-- establish faction for the lookups
 			local faction = type(queryFaction) == "number" and queryFaction or GetFaction(unit)
+
 			-- retrieve data from the various data types
 			local profile = {}
 			local hasData = false
@@ -1656,7 +1692,7 @@ do
 			for i = 1, #CONST_PROVIDER_DATA_LIST do
 				local dataType = CONST_PROVIDER_DATA_LIST[i]
 				if (dataType == CONST_PROVIDER_DATA_MYTHICPLUS and reqMythicPlus) or (dataType == CONST_PROVIDER_DATA_RAIDING and reqRaiding) then
-					local data = GetProviderData(dataType, name, realm, faction)
+					local data = GetProviderData(dataType, name, realm, faction, queryRegion)
 					if data then
 						validProviders[#validProviders + 1] = data
 					end
@@ -1687,11 +1723,7 @@ do
 					localOutputFlag = bor(localOutputFlag, ProfileOutput.ADD_FOOTER)
 				end
 
-				if passThroughArg1Table then
-					profile[dataType] = ShapeProfileData(dataType, data, localOutputFlag, passThroughArg1Table)
-				else
-					profile[dataType] = ShapeProfileData(dataType, data, localOutputFlag, select(passThroughAt, ...))
-				end
+				profile[dataType] = ShapeProfileData(dataType, data, localOutputFlag, unpack(passThroughArg))
 			end
 
 			-- if we only requested specific mythic+ or raiding data we only return that specific table
@@ -1700,22 +1732,31 @@ do
 			elseif not reqMythicPlus and reqRaiding then
 				profile = profile[CONST_PROVIDER_DATA_RAIDING]
 			end
+
 			-- cache profile before returning, if we are allowed to cache this particular tooltip
 			if canCacheProfile then
 				profileCacheTooltip[profileGUID] = profile
+
+				-- if the unit exists we try to store the fact they don't have a profile
+				if _G.RaiderIO_MissingCharacters and not hasData and UnitExists(unit) then
+					local realmSlug = GetRealmSlug(realm)
+					_G.RaiderIO_MissingCharacters[format("%s-%s-%s", PLAYER_REGION or "", name or "", realmSlug or "")] = true
+				end
 			end
+
 			return profile, hasData, canCacheProfile, reqMythicPlus and reqRaiding
 		end
 	end
 
 	-- checks if the player has a profile in any data provider
-	function HasPlayerProfile(queryName, queryRealm, queryFaction)
+	function HasPlayerProfile(queryName, queryRealm, queryFaction, queryRegion)
 		local name, realm, unit = GetNameAndRealm(queryName, queryRealm)
 		if name and realm then
 			local faction = type(queryFaction) == "number" and queryFaction or GetFaction(unit)
+			local region = (queryRegion ~= nil and queryRegion ~= "" and type(queryRegion) == "string") and queryRegion or nil
+
 			for i = 1, #CONST_PROVIDER_DATA_LIST do
-				local dataType = CONST_PROVIDER_DATA_LIST[i]
-				if GetProviderData(CONST_PROVIDER_DATA_LIST[i], name, realm, faction) then
+				if GetProviderData(CONST_PROVIDER_DATA_LIST[i], name, realm, faction, region) then
 					return true
 				end
 			end
@@ -1726,12 +1767,13 @@ end
 
 -- tooltips
 local ShowTooltip
+local ShowTooltipRegion
 local FlushTooltipCache
 local UpdateTooltips
 do
 	-- tooltip related hooks and storage
 	local tooltipArgs = {}
-	local tooltipHooks = { Wipe = function(tooltip) table.wipe(tooltipArgs[tooltip]) end }
+	local tooltipHooks = { Wipe = function(tooltip) wipe(tooltipArgs[tooltip]) end }
 
 	-- draws the tooltip based on the returned profile data from the data providers
 	local function AppendTooltipLines(tooltip, profile, multipleProviders)
@@ -1774,6 +1816,10 @@ do
 
 	-- shows data on the provided tooltip widget for the particular player
 	function ShowTooltip(tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...)
+		return ShowTooltipRegion(tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, nil, arg1, ...)
+	end
+
+	function ShowTooltipRegion(tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, regionOrNil, arg1, ...)
 		-- setup tooltip hook
 		if not tooltipHooks[tooltip] then
 			tooltipHooks[tooltip] = true
@@ -1783,15 +1829,15 @@ do
 			tooltipArgs[tooltip] = {}
 		end
 		-- get the player profile
-		local profile, hasProfile, isCached, multipleProviders = GetPlayerProfile(outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...)
+		local profile, hasProfile, isCached, multipleProviders = GetPlayerProfile(outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, regionOrNil, arg1, ...)
 		-- sanity check
 		if hasProfile and AppendTooltipLines(tooltip, profile, multipleProviders) then
 			-- store tooltip args for refresh purposes
 			local tooltipCache = tooltipArgs[tooltip]
 			if isCached then
-				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8] = true, tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...
+				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8], tooltipCache[9] = true, tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, regionOrNil, arg1, ...
 			else
-				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8] = false, {tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, arg1, ...}
+				tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8], tooltipCache[9] = false, {tooltip, outputFlag, unitOrNameOrNameAndRealm, realmOrNil, factionOrNil, regionOrNil, arg1, ...}
 			end
 			-- resize tooltip to fit the new contents
 			tooltip:Show()
@@ -1803,7 +1849,7 @@ do
 	-- updates the visible tooltip
 	local function UpdateTooltip(tooltipCache)
 		-- unpack the args
-		local arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8 = tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8]
+		local arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9 = tooltipCache[1], tooltipCache[2], tooltipCache[3], tooltipCache[4], tooltipCache[5], tooltipCache[6], tooltipCache[7], tooltipCache[8], tooltipCache[9]
 		local tooltip
 		if arg1 == true then
 			tooltip = arg2
@@ -1872,9 +1918,9 @@ do
 		end
 		-- finalize by calling the show tooltip API with the same arguments as earlier
 		if arg1 == true then
-			ShowTooltip(arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+			ShowTooltipRegion(arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)
 		elseif arg1 == false then
-			ShowTooltip(unpack(arg2))
+			ShowTooltipRegion(unpack(arg2))
 		end
 	end
 
@@ -1888,8 +1934,8 @@ do
 	end
 
 	function FlushTooltipCache()
-		table.wipe(profileCache)
-		table.wipe(profileCacheTooltip)
+		wipe(profileCache)
+		wipe(profileCacheTooltip)
 	end
 end
 
@@ -1928,6 +1974,9 @@ do
 			ns.addon:RegisterEvent("GROUP_ROSTER_UPDATE")
 			ns.addon:RegisterEvent("ZONE_CHANGED")
 			ns.addon:RegisterEvent("ZONE_CHANGED_NEW_AREA")
+
+			-- purge missing players cache at login
+			_G.RaiderIO_MissingCharacters = wipe(_G.RaiderIO_MissingCharacters or {})
 		end
 
 		-- apply hooks to interface elements
@@ -1963,6 +2012,9 @@ do
 		ns.PLAYER_FACTION = PLAYER_FACTION
 		ns.PLAYER_REGION = PLAYER_REGION
 
+		-- Now that the config is loaded, update the dungeon's abbreviation locale
+		UpdateConstDungeon()
+
 		-- we can now create the empty table that contains all providers and provider groups
 		dataProvider = {}
 
@@ -1976,23 +2028,29 @@ do
 			local data = dataProviderQueue[i]
 			local dataType = data.data
 
-			-- is this provider relevant?
-			if data.region == PLAYER_REGION then
-				local dataProviderGroup = dataProvider[dataType]
+			-- is this provider relevant? (when in debug mode, provider for region different than yours are authorized)
+			if data.region == PLAYER_REGION or ns.addonConfig.debugMode == true then
+				if dataProvider[data.region] == nil then
+					dataProvider[data.region] = {}
+				end
 
-				-- is the provider up to date?
-				local isOutdated, outdatedHours, outdatedDays = IsProviderOutdated(data)
-				IS_DB_OUTDATED[dataType][data.faction] = isOutdated
-				OUTDATED_HOURS[dataType][data.faction] = outdatedHours
-				OUTDATED_DAYS[dataType][data.faction] = outdatedDays
+				local dataProviderGroup = dataProvider[data.region][dataType]
 
-				-- update the outdated counter with the largest count
-				if isOutdated then
-					isAnyProviderOutdated = isAnyProviderOutdated and max(isAnyProviderOutdated, outdatedDays) or outdatedDays
+				if data.region == PLAYER_REGION then
+					-- is the provider up to date?
+					local isOutdated, outdatedHours, outdatedDays = IsProviderOutdated(data)
+					IS_DB_OUTDATED[dataType][data.faction] = isOutdated
+					OUTDATED_HOURS[dataType][data.faction] = outdatedHours
+					OUTDATED_DAYS[dataType][data.faction] = outdatedDays
+
+					-- update the outdated counter with the largest count
+					if isOutdated then
+						isAnyProviderOutdated = isAnyProviderOutdated and max(isAnyProviderOutdated, outdatedDays) or outdatedDays
+					end
 				end
 
 				-- Check if our faction is loaded
-				if PLAYER_FACTION == data.faction then
+				if PLAYER_REGION == data.region and PLAYER_FACTION == data.faction then
 					neededProviderLoaded = neededProviderLoaded + 1
 				end
 
@@ -2025,14 +2083,13 @@ do
 					end
 				else
 					dataProviderGroup = data
-					dataProvider[dataType] = dataProviderGroup
+					dataProvider[data.region][dataType] = dataProviderGroup
 				end
-
 			else
 				-- disable the provider addon from loading in the future
 				DisableAddOn(data.name)
 				-- wipe the table to free up memory
-				table.wipe(data)
+				wipe(data)
 			end
 
 			-- remove reference from the queue
@@ -2059,6 +2116,10 @@ do
 
 		-- init the profiler now that the addon is fully loaded
 		ns.PROFILE_UI.Init()
+
+		if ns.addonConfig.debugMode == true then
+			DEFAULT_CHAT_FRAME:AddMessage(format(L.WARNING_DEBUG_MODE_ENABLE, addonName), 1, 1, 0)
+		end
 	end
 
 	-- we enter the world (after a loading screen, int/out of instances)
@@ -2182,7 +2243,7 @@ do
 			end
 			-- TODO: summoning portals don't always trigger OnTooltipSetUnit properly, leaving the unit tooltip on the portal object
 			local _, unit = self:GetUnit()
-			ShowTooltip(self, TooltipProfileOutput.PADDING(), unit, nil, GetFaction(unit))
+			ShowTooltipRegion(self, TooltipProfileOutput.PADDING(), unit, nil, GetFaction(unit))
 		end
 		GameTooltip:HookScript("OnTooltipSetUnit", OnTooltipSetUnit)
 		return 1
@@ -2216,8 +2277,8 @@ do
 						end
 						local _, activityID, _, title, description = C_LFGList.GetActiveEntryInfo()
 						local keystoneLevel = GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
-						ShowTooltip(GameTooltip, bor(TooltipProfileOutput.PADDING(), ProfileOutput.ADD_LFD), fullName, nil, PLAYER_FACTION, true, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
-						ns.PROFILE_UI.ShowProfile(fullName, nil, PLAYER_FACTION, GameTooltip, nil, activityID, keystoneLevel)
+						ShowTooltipRegion(GameTooltip, bor(TooltipProfileOutput.PADDING(), ProfileOutput.ADD_LFD), fullName, nil, PLAYER_FACTION, nil, true, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
+						ns.PROFILE_UI.ShowProfile(fullName, nil, PLAYER_FACTION, PLAYER_REGION, GameTooltip, nil, activityID, keystoneLevel)
 					end
 				end
 			end
@@ -2241,7 +2302,7 @@ do
 					local keystoneLevel = 0 -- GetKeystoneLevel(title) or GetKeystoneLevel(description) or 0
 					-- Update game tooltip with player info
 					ShowTooltip(tooltip, bor(TooltipProfileOutput.PADDING(), ProfileOutput.ADD_LFD), leaderName, nil, PLAYER_FACTION, true, LFD_ACTIVITYID_TO_DUNGEONID[activityID], keystoneLevel)
-					ns.PROFILE_UI.ShowProfile(leaderName, nil, PLAYER_FACTION, tooltip, nil, activityID, keystoneLevel)
+					ns.PROFILE_UI.ShowProfile(leaderName, nil, PLAYER_FACTION, nil, tooltip, nil, activityID, keystoneLevel)
 				end
 			end
 			hooksecurefunc("LFGListUtil_SetSearchEntryTooltip", SetSearchEntryTooltip)
@@ -2388,10 +2449,29 @@ do
 			local function OnLeave(self)
 				GameTooltip:Hide()
 			end
-			for _, b in pairs(CommunitiesFrame.MemberList.ListScrollFrame.buttons) do
-				b:HookScript("OnEnter", OnEnter)
-				b:HookScript("OnLeave", OnLeave)
+			local hooked = {}
+			local completed
+			local function HookButtons()
+				if completed then
+					return
+				end
+				local buttons = _G.CommunitiesFrame.MemberList.ListScrollFrame.buttons
+				if not buttons then
+					return
+				end
+				for _, b in pairs(buttons) do
+					if not hooked[b] then
+						hooked[b] = true
+						b:HookScript("OnEnter", OnEnter)
+						b:HookScript("OnLeave", OnLeave)
+					end
+				end
+				if next(hooked) then
+					completed = true -- one pass seems to create all the buttons
+				end
 			end
+			HookButtons()
+			hooksecurefunc(_G.CommunitiesFrame.MemberList, "RefreshLayout", HookButtons)
 			return 1
 		end
 	end
@@ -2826,7 +2906,9 @@ do
 	ns.GetPlayerProfile = GetPlayerProfile
 	ns.HasPlayerProfile = HasPlayerProfile
 	ns.ShowTooltip = ShowTooltip
+	ns.ShowTooltipRegion = ShowTooltipRegion
 	ns.FlushTooltipCache = FlushTooltipCache
+	ns.UpdateConstDungeon = UpdateConstDungeon
 end
 
 -- mirror certain data exposed in the public API to avoid external users changing our internal data
@@ -2911,18 +2993,20 @@ _G.RaiderIO = {
 	-- GetPlayerProfile
 	--   A function that returns a table with different data types, based on the type of query specified. Use the explanations above to build the query you need.
 	--
-	-- RaiderIO.HasPlayerProfile(unitOrNameOrNameRealm, realmOrNil, factionOrNil) => true | false
+	-- RaiderIO.HasPlayerProfile(unitOrNameOrNameRealm, realmOrNil, factionOrNil, [regionOrNil]) => true | false
 	--   unitOrNameOrNameRealm = "player", "target", "raid1", "Joe" or "Joe-ArgentDawn"
 	--   realmOrNil            = "ArgentDawn" or nil. Can be nil if realm is part of unitOrNameOrNameRealm, or if it's the same realm as the currently logged in character
-	--   factionOrNil          = 1 for Aliance, 2 for Horde, or nil for automatic (looks up both factions, first found is used)
+	--   factionOrNil          = 1 for Alliance, 2 for Horde, or nil for automatic (looks up both factions, first found is used)
+	--   regionOrNil           = "eu", "us", "kr", "tw", or nil for automatic (default to current region) - only useful when debugMode is enable
 	--
-	-- RaiderIO.GetPlayerProfile(outputFlag, unitOrNameOrNameRealm, realmOrNil, factionOrNil, ...) => nil | profile, hasData, isCached, hasDataFromMultipleProviders
+	-- RaiderIO.GetPlayerProfile(outputFlag, unitOrNameOrNameRealm, realmOrNil, factionOrNil, regionOrNil, ...) => nil | profile, hasData, isCached, hasDataFromMultipleProviders
 	--   outputFlag  = a number generated by one of the functions in TooltipProfileOutput, or a bit.bor you create using ProfileOutput as described above.
 	--
 	-- RaiderIO.GetPlayerProfile(0, "target")
 	-- RaiderIO.GetPlayerProfile(0, "Joe")
 	-- RaiderIO.GetPlayerProfile(0, "Joe-ArgentDawn")
 	-- RaiderIO.GetPlayerProfile(0, "Joe", "ArgentDawn")
+	-- RaiderIO.GetPlayerProfile(0, "Joe", "ArgentDawn", nil, "eu")
 	--
 	ProfileOutput = EXTERNAL_ProfileOutput,
 	TooltipProfileOutput = EXTERNAL_TooltipProfileOutput,

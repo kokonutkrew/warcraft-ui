@@ -1,7 +1,7 @@
-## Interface: 70300
+## Interface: 80100
 ## Title: Ellyb
 ## Author: Ellypse & Telkostrasz
-## Version: 5
+## Version: 3.1.1
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 

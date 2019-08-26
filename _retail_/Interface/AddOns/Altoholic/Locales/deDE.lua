@@ -17,14 +17,13 @@ L["%s has disabled guild communication"] = "%s hat die Kommunikation mit der Gil
 L["%s has no auctions"] = "%s hat keine Auktionen"
 L["%s has no bids"] = "%s hat keine Gebote"
 L["%s has no mail"] = "%s hat keine Post"
-L["%s is %s with %s (%d/%d)"] = [=[Der Ruf von %s ist %s in %s (%d/%d)
-Dies soll eine schlecht formatierte Codierung ersetzen, die schon viel zu lange vorhanden war. Beispiel: "Der Ruf von Thaoky ist ehrfürchtig in Eisenschmiede (999/1000)."]=]
+L["%s is %s with %s (%d/%d)"] = "Der Ruf von %s ist %s in %s (%d/%d)"
 L["%s is in combat, request cancelled"] = "%s ist im Kampf, Anfrage wurde storniert."
 L["%s is now ready (%s on %s)"] = "%s ist jetzt bereit (%s auf %s)"
-L["%s is now unlocked (%s on %s)"] = "%s ist jetzt freigeschaltet (%s auf %s)"
-L["%s starts in %d minutes (%s on %s)"] = "%s beginnt in %d Minuten (%s auf %s)"
-L["%s will be ready in %d minutes (%s on %s)"] = "%s wird in %d Minuten bereit sein (%s auf %s)"
-L["%s will be unlocked in %d minutes (%s on %s)"] = "%s wird freigesetzt in %d Minuten (%s auf %s)"
+L["%s is now unlocked (%s on %s)"] = "%s wurde gerade zurückgesetzt (%s auf %s)"
+L["%s starts in %d minutes (%s on %s)"] = "%s beginnt in %d Minute(n) (%s auf %s)"
+L["%s will be ready in %d minutes (%s on %s)"] = "%s wird in %d Minute(n) bereit sein (%s auf %s)"
+L["%s will be unlocked in %d minutes (%s on %s)"] = "%s wird in %d Minute(n) zurückgesetzt (%s auf %s)"
 L[ [=[%s%s|r has requested the bank tab %s%s|r
 Send this information ?]=] ] = [=[%s%s|r hat das Bank-Tab %s%s|r angefordert.
 Diese Informationen senden?]=]
@@ -255,7 +254,7 @@ L["COLUMN_GARRISON_MISSIONS_DETAIL_1"] = "Mindestens eine Mission ist abgeschlos
 L["COLUMN_GARRISON_MISSIONS_DETAIL_2"] = "Alle Missionen sind abgeschlossen"
 L["COLUMN_GARRISON_MISSIONS_DETAIL_3"] = "Keine laufenden Missionen"
 L["COLUMN_GARRISON_MISSIONS_SUBTITLE"] = "Letztes Mal wurde der Status der Mission überprüft"
-L["COLUMN_GARRISON_MISSIONS_TITLE"] = "Garnison Missionen"
+L["COLUMN_GARRISON_MISSIONS_TITLE"] = "Garnisonsmissionen"
 L["COLUMN_GARRISON_MISSIONS_TITLE_SHORT"] = "Missionen"
 L["COLUMN_ILEVEL_SUBTITLE"] = "Klicke auf das Level um die Dezimalanzeige umzuschalten"
 L["COLUMN_ILEVEL_TITLE"] = "Durchschnitt Item Level"
@@ -263,18 +262,19 @@ L["COLUMN_ILEVEL_TITLE_SHORT"] = "iLvl"
 L["COLUMN_LASTONLINE_SUBTITLE"] = "Letztes Mal als ein Charakter eingeloggt wurde"
 L["COLUMN_LASTONLINE_TITLE"] = "Zuletzt Online"
 L["COLUMN_LASTONLINE_TITLE_SHORT"] = "Zul. online"
-L["COLUMN_LEVEL_SUBTITLE"] = "Klicke auf das Level um die Dezimalanzeige umzuschalten"
-L["COLUMN_LEVEL_TITLE"] = "Charakter Level"
-L["COLUMN_LEVEL_TITLE_SHORT"] = "Level"
+L["COLUMN_LEVEL_SUBTITLE"] = "Auf die Stufe klicken, um zw. der Dezimal- und der normalen Anzeige zu wechseln"
+L["COLUMN_LEVEL_TITLE"] = "Charakterstufe"
+L["COLUMN_LEVEL_TITLE_SHORT"] = "Stufe"
 L["COLUMN_MAILBOX_VISITED_SUBTITLE"] = "Letztes Mal wurde der Postfachinhalt überprüft"
 L["COLUMN_MAILBOX_VISITED_TITLE"] = "Letzte Postfach Überprüfung"
-L["COLUMN_MAILBOX_VISITED_TITLE_SHORT"] = "besucht"
-L["COLUMN_MAILS_DETAIL_1"] = "Ab einer bestimmten Anzahl werden die Mails Serverseitig zurückgehalten"
-L["COLUMN_MAILS_DETAIL_2"] = "Diese Mails werden hier nicht aufgeführt."
+L["COLUMN_MAILBOX_VISITED_TITLE_SHORT"] = "Besucht"
+L["COLUMN_MAILS_DETAIL_1"] = "Ab einer bestimmten Anzahl wird die Post Serverseitig zurückgehalten."
+L["COLUMN_MAILS_DETAIL_2"] = "Diese Post wird hier nicht aufgeführt."
 L["COLUMN_MAILS_SUBTITLE"] = "Anzahl der Gegenstände im Briefkasten"
-L["COLUMN_MAILS_TITLE"] = "Postkasten Inhalt"
+L["COLUMN_MAILS_TITLE"] = "Briefkasten-Inhalt"
 L["COLUMN_MAILS_TITLE_SHORT"] = "Post"
-L["COLUMN_MONEY_SUBTITLE_2"] = "Kein Geld, kein Problem"
+L["COLUMN_MONEY_SUBTITLE_1"] = "Deine Glanzstücke"
+L["COLUMN_MONEY_SUBTITLE_2"] = "Mehr Geld - Mehr Probleme"
 L["COLUMN_MONEY_SUBTITLE_3"] = "Gier ist gut"
 L["COLUMN_MONEY_SUBTITLE_4"] = "Man kann kein Glück kaufen.. aber haufenweise Reittiere!"
 L["COLUMN_MONEY_SUBTITLE_5"] = "Wächst nicht auf Bäumen"
@@ -375,12 +375,15 @@ L["Fireworks Pack"] = "Feuerwerkspaket"
 L["First Prize"] = "Erster Preis"
 L["Fishing"] = "Angeln"
 L["Fishing Extravaganza"] = "Angelwettbewerb"
+L["Fishing Masters"] = "Angelmeister"
 L["Fishing Poles"] = "Angelruten"
 L["Flame Cap"] = "Flammenkappe"
 L["Flame Guard"] = "Flammenwächter"
 L["Food"] = "Essen"
 L["Forgosh"] = true
 L["free"] = "frei"
+L["Fully rested"] = "Komplett Erholt"
+L["Fully rested in"] = "Komplett Erholt in"
 L["Furies Deck"] = "Furienkartenset"
 L["Fury of the Nether"] = "Netherzorn"
 L["Gaily Wrapped Present"] = "Fröhlich verpacktes Geschenk"
@@ -456,10 +459,10 @@ L["Invalid tradeskill link"] = "Ungültige Fertigkeiten-Verknüpfung"
 L["Iron Deposit"] = "Eisenvorkommen"
 L["Ironfeather Armor"] = "Eisenfederrüstung"
 L["Item / Location"] = "Gegenstand / Standort"
-L["Item Level"] = true
+L["Item Level"] = "Gegenstandsstufe"
 L["ITEM_SUBTYPE_BOOK"] = "Buch"
 L["ITEM_TYPE_RECIPE"] = "Rezept"
-L["Items"] = true
+L["Items"] = "Gegenstände"
 L["Journeyman"] = "Geselle"
 L["Justice"] = "Gerechtigkeit"
 L["Karrog"] = true
@@ -524,6 +527,7 @@ L["Master Hammersmith"] = "Hammerschmiedemeister"
 L["Master Swordsmith"] = "Schwertschmiedemeister"
 L["Max. uncollected resources in"] = "Max. nicht gesammelte Ressourcen in"
 L["Maximum Level: %s"] = "Maximale Stufe: %s"
+L["Maximum Rest XP"] = "Maximale Erholt-EP"
 L["Memory used"] = "Verwendeter Speicher"
 L["Midsummer Fire Festival"] = "Das Sonnenwendfest"
 L["Minimap Icon Angle"] = "Positionswinkel des Minikarten-Symbols"
@@ -644,6 +648,7 @@ L["Rogue Set"] = "Schurken-Set"
 L["Roogug"] = true
 L["Sanguine Hibiscus"] = "Bluthibiskus"
 L["Savage Gladiator's Weapons"] = "Waffen des grausamen Gladiators"
+L["Saved Rest XP"] = "Aufgesparte Erholt-EP"
 L["Scaled Draenic Armor"] = "Geschuppte draenische Rüstung"
 L["Scorn"] = "des Verächters"
 L["Scourge Invasion"] = "Invasion der Geißel"
@@ -653,10 +658,7 @@ L["Search in bags"] = "In Taschen suchen"
 L["Secondary Skills"] = "Sekundäre Fertigkeiten"
 L[ [=[Security hint: disable this if you have officer rights
 on guild bank tabs that may not be viewed by everyone,
-and authorize requests manually]=] ] = [=[Sicherheitshinweis: dies deaktivieren, falls du Offiziersrechte
-in Gildenbanktabs hast, die nicht von jedermann eingesehen
-werden dürfen, und genehmige Anfragen manuell.
-und die Anforderungen manuell bestätigen.]=]
+and authorize requests manually]=] ] = "Sicherheitshinweis: falls du Offiziersrechte in Gildenbanktabs hast, die nicht von jedermann eingesehen werden dürfen, deaktiviere dies und genehmige Anfragen stattdessen manuell"
 L[ [=[Security hint: Only enable this when you actually need to transfer data,
 disable otherwise]=] ] = [=[Sicherheitshinweis: dies nur aktivieren, wenn du wirklich Daten übertragen mußt,
 ansonsten deaktivieren.]=]
@@ -748,9 +750,8 @@ L["Theldren"] = true
 L[ [=[There is a risk of disconnection if the queried item
 is a loot from a high level dungeon.
 
-]=] ] = [=[Es gibt das Risiko eines Verbindungsabbruchs, wenn der gefragte
-Gegenstand eine Beute in einer hochstufigen Instanz ist.
-]=]
+]=] ] = [=[Es besteht das Risiko eines Verbindungsabbruchs, wenn der gefragte
+Gegenstand eine Beute aus einer hochstufigen Instanz ist.]=]
 L["Thick Draenic Armor"] = "Dicke draenische Rüstung"
 L["This account"] = "Dieser Account"
 L["This character"] = "Dieser Charakter"

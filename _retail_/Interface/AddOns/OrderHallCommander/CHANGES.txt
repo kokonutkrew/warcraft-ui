@@ -1,12 +1,12 @@
-tag 80b175f09e2726947c8748010290226f522f138d 1.7.3
+tag 200eb62e37293409e9935c6f516db146daadf49d 1.7.5
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Sun Dec 16 18:29:47 2018 +0100
+Date:	Sun Jul 7 00:21:51 2019 +0200
 
 TOC BUMP
 
-commit 319a38dcb95765d20effe80e4a86c891b7adf7f9
+commit 6cb7de2dbf81428d84c4f3fa798a3735f82eb8e4
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Sun Dec 16 18:29:13 2018 +0100
+Date:   Sun Jul 7 00:21:24 2019 +0200
 
-    TOC BUMP
+    8.2
 

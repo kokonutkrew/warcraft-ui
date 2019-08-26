@@ -2312,8 +2312,7 @@ AAP.QuestStepList2060 = {
 				["x"] = 5625.7,
 			},
 			["UseFlightPath"] = 37855,
-			["PosX"] = 34.2,
-			["PosY"] = 53.2,
+			["Name"] = "Azurewing Repose, Azsuna",
 			["ETA"] = 34,
 		}, -- [1]
 		{
@@ -3086,8 +3085,7 @@ AAP.QuestStepList2060 = {
 				["x"] = 6640.3,
 			},
 			["UseFlightPath"] = 37496,
-			["PosX"] = 32.9,
-			["PosY"] = 58.7,
+			["Name"] = "Illidari Stand, Azsuna",
 			["ETA"] = 28,
 		}, -- [1]
 		{
@@ -8822,8 +8820,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 4347.8,
 			},
 			["UseFlightPath"] = 38913,
-			["PosX"] = 48.4,
-			["PosY"] = 19.3,
 			["Name"] = "Skyhorn, Highmountain",
 			["ETA"] = 75,
 		}, -- [1]
@@ -14001,8 +13997,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 1870,
 			},
 			["UseFlightPath"] = 40001,
-			["PosX"] = 61.4,
-			["PosY"] = 32.3,
 			["Name"] = "Valdisdall, Stormheim",
 			["ETA"] = 32,
 		}, -- [1]

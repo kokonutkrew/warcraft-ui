@@ -3383,8 +3383,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 218.6,
 			},
 			["UseFlightPath"] = 35556,
-			["PosX"] = 62.7,
-			["PosY"] = 31.5,
 			["Name"] = "Wildwood Wash, Gorgrond",
 			["ETA"] = 60,
 		}, -- [1]

@@ -1,10 +1,17 @@
-## Interface: 80100
+## Interface: 80200
 ## Author: cqwrteur
 ## Title: LookingForGroup Raider.IO
-## Version: r186
-## Dependencies: LookingForGroup_Options, RaiderIO
+## Version: r239
 ## X-LFG-OPT: 0
 ## LoadOnDemand: 1
+## Dependencies: LookingForGroup_Options
+## OptionalDeps: LibRaiderIO, LibRaiderIO_Debugger
 
-locale\locale.xml
-Core.lua
+#@no-lib-strip@
+Libs\LibRaiderIO\LibRaiderIO.lua
+#@end-no-lib-strip@
+
+config.lua
+indicator.lua
+filter.lua
+tooltip.lua

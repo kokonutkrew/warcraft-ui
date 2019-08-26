@@ -2,17 +2,176 @@
 ChangeLogs:
 ---------------------------
 
+EMA Version: v8.2.0-Release-v2.2(0133)
+Game Version: 8.2.0
+Release Date: 3/8/2019
+
+# Disaply Team
+	- Fixed a SetPoint Bug
+
+
+
+---------------------------
+
+EMA Version: v8.2.0-Release-v2.2(0132)
+Game Version: 8.2.0
+Release Date: 31/7/2019
+
+# Core
+	- Updated Ace3 to r1214
+
+# Item-Use
+	- Fixed Command Line Help Files. issue #83
+	
+# Information
+	- Fixed a SetPoint Bug
+
+---------------------------
+
+EMA Version: v8.2.0-Release-v2.2(0131)
+Game Version: 8.2.0
+Release Date: 27/7/2019
+
+## Trade, Vender, Purchase, Mail, Guild
+	-- You can Now Use Shift+Click to add the Item to the EditBox. 
+	(Dev Note: The Ui Is Protected On Normal Click And Could Not Use Items )
+
+## Trade
+	-- Holding "Shift Key" will not trade items to master. (If For Some Reason U Did Not Want To Use Ema-Trade)
+
+## Communications
+	-- Now Uses Its Own Prefix And Not Jamba's
+	-- Changed LayOut
+	-- Removed Boost Communications ( As Chat Chatthrottlelib Now Uses The Same Settings )
+	
+## Currency
+	-- Added 8.2 Currencys
+		- Prismatic Manapearl
+
+---------------------------
+
+EMA Version: v8.2.0-Release-v2.1(0127)
+Game Version: 8.2.0
+Release Date: 26/6/2019
+
+## Core
+	- Updated Ace3
+	- Updated SharedMediaWidgets
+	- Updated LibSharedMedia-3.0
+	
+
+
+## Message
+	- Fixed 8.2 Sound changes
+		- Added new sound EMA Warning (from jamba-extras)
+		- Had to added blizzard own Raid warning Sound for libsheardmedia to work. (hacky)
+---------------------------
+
+EMA Version: v8.1.5-Release-v2.1(0126)
+Game Version: 8.1.5
+Release Date: 8/6/2019
+
+## Core
+	- Updated Ace3
+	- Updated LibSharedMedia-3.0
+
+## Item-Use
+	- Will now Disaply Item count to 9999 before it * out Issue #20
+	
+## Interaction
+	- Fixed a Bug not telling Team when you loot a Epic/Rare BoE items
+
+## Toon
+	- Fixed Issue #70
+
+ 	
+---------------------------
+
+EMA Version: v8.1.5-Release-v2.0(0121)
+Game Version: 8.1.5
+Release Date: 16/4/2019
+
+## information (curr)
+	- Fixed a bug with it still reporting to use old Command lines "help"
+
+---------------------------
+
+EMA Version: v8.1.5-Release-v2.0(0120)
+Game Version: 8.1.5
+Release Date: 13/4/2019
+
+EMA V2 
+
+## Core
+	- Fixed ToC files to support 8.1.5 
+		-- Dev Note: This Was Hotfixed Into The Game As There Was No Toc Change At The Start Of The Patch Grrrr!
+	- Fixed Some Text Placements
+	- Command Line v2
+		--* /EMA Config To Now Open The Config!
+		--* Now Shows A "Help" If The Command Is Wrong Or You Added A Unknown Command In.
+		--** Can Not Open Config In combat (As it can not draw the GUI when in combat)
+	- New Year, A New Year to add to copyright!
+
+## Team
+	-- Remove All Team Command Should Now Work Again.
+
+## Vender
+	- Should Now Work With The TradeSkill Master 4 UI Issue#26
+	- Now Sells One Item At A Item Then Trying To Loop The Bag!
+			-- Fixed Items gettting stuck/selling very very slow when in a stack.
+	- Fixed The Sell Items, And Gold Prices In Chat
+	- Added A Global Sell List, This Works Across "All" Characters
+		-- Dev Note: Use "/EMA-purchase Sell" To Copy From The Local List To The Global List	
+	- Added Support To Sell or Destroy Already Known Toys and Mounts
+		
+## Purchase
+	- Updated GUI
+	- Added A Global Sell List, This Works Across "All" Characters
+		-- Dev Note: Use "/EMA-purchase copy" To Copy From The Local List To The Global List
+	
+	
+## Trade
+	- Added A Global Sell List, This Works Across "All" Characters
+		-- Dev Note: Use "/EMA-trade copy" To Copy From The Local List To The Global List
+	- fixed issue #61
+
+## Mail
+	- Added A Global Sell List, This Works Across "All" Characters
+		-- Dev Note: Use "/EMA-Mail copy" To Copy From The Local List To The Global List
+	- Should Send Gold After its send all items issue #52
+	- Fixed issue #59
+	
+
+## GuildBank
+	- Added A Global Sell List, This Works Across "All" Characters
+		-- Dev Note: Use "/EMA-Sell copy" To Copy From The Local List To The Global List
+	- Fixed Bug #65
+		
+## Item-Use
+	- Should Remove Quest Items On Its Own From The Item Bar Again
+
+## Currency
+	- Added 8.1 Currency's
+		-- 7th Legion Service
+		-- Honorbound Service
+		-- Titan Residuum
+
+## Interaction
+	-- Added Tells The Team If They Looted A BoE Mount!
+	
+---------------------------
+
 EMA Version: v8.1.0-Release(0108)
 Game Version: 8.1.0
 Release Date: 12/12/2018
 
-# Toon
+## Toon
 	-- Fixed some API changes in WarMode that was changed in patch 8.1
 
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0107)
+EMA Version: v8.0.1-Release-v1.0(0107)
 Game Version: 8.0.1
 Release Date: 02/12/2018
 
@@ -26,7 +185,7 @@ Release Date: 02/12/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0106)
+EMA Version: v8.0.1-Release-v1.0(0106)
 Game Version: 8.0.1
 Release Date: 17/11/2018
 
@@ -45,7 +204,7 @@ Release Date: 17/11/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0103)
+EMA Version: v8.0.1-Release-v1.0(0103)
 Game Version: 8.0.1
 Release Date: 23/10/2018
 
@@ -59,7 +218,7 @@ Release Date: 23/10/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0102)
+EMA Version: v8.0.1-Release-v1.0(0102)
 Game Version: 8.0.1
 Release Date: 30/09/2018
 
@@ -79,7 +238,7 @@ Release Date: 30/09/2018
 		
 ---------------------------
 
-EMA Version: v8.0.1-Release(0099)
+EMA Version: v8.0.1-Release-v1.0(0099)
 Game Version: 8.0.1
 Release Date: 10/09/2018
 
@@ -91,7 +250,7 @@ Release Date: 10/09/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0098)
+EMA Version: v8.0.1-Release-v1.0(0098)
 Game Version: 8.0.1
 Release Date: 10/09/2018
 
@@ -106,7 +265,7 @@ Release Date: 10/09/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0097)
+EMA Version: v8.0.1-Release-v1.0(0097)
 Game Version: 8.0.1
 Release Date: 09/09/2018
 
@@ -125,7 +284,7 @@ Release Date: 09/09/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0096)
+EMA Version: v8.0.1-Release-v1.0(0096)
 Game Version: 8.0.1
 Release Date: 08/09/2018
 
@@ -161,7 +320,7 @@ Release Date: 08/09/2018
 		
 ---------------------------
 
-EMA Version: v8.0.1-Release(0095)
+EMA Version: v8.0.1-Release-v1.0(0095)
 Game Version: 8.0.1
 Release Date: 26/8/2018
 
@@ -172,7 +331,7 @@ Release Date: 26/8/2018
 	
 ---------------------------
 
-EMA Version: v8.0.1-Release(0094)
+EMA Version: v8.0.1-Release-v1.0(0094)
 Game Version: 8.0.1
 Release Date: 26/8/2018
 
@@ -198,7 +357,7 @@ Release Date: 26/8/2018
 	
 ---------------------------
 
-EMA Version: v8.0.1-Release(0092)
+EMA Version: v8.0.1-Release-v1.0(0092)
 Game Version: 8.0.1
 Release Date: 24/8/2018
 
@@ -269,7 +428,7 @@ Release Date: 24/8/2018
 	
 ---------------------------
 
-EMA Version: v8.0.1-Release(0088)
+EMA Version: v8.0.1-Release-v1.0(0088)
 Game Version: 8.0.1
 Release Date: 18/8/2018
 
@@ -299,7 +458,7 @@ Release Date: 17/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0084/0085)
+EMA Version: v8.0.1-Release-v1.0(0084/0085)
 Game Version: 8.0.1
 Release Date: 15/8/2018
 
@@ -311,7 +470,7 @@ Release Date: 15/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0087)
+EMA Version: v8.0.1-Release-v1.0(0087)
 Game Version: 8.0.1
 Release Date: 15/8/2018
 	
@@ -325,7 +484,7 @@ Release Date: 15/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0081)
+EMA Version: v8.0.1-Release-v1.0(0081)
 Game Version: 8.0.1
 Release Date: 10/8/2018
 
@@ -337,7 +496,7 @@ Release Date: 10/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0078)
+EMA Version: v8.0.1-Release-v1.0(0078)
 Game Version: 8.0.1
 Release Date: 10/8/2018
 
@@ -348,7 +507,7 @@ Release Date: 10/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0078)
+EMA Version: v8.0.1-Release-v1.0(0078)
 Game Version: 8.0.1
 Release Date: 10/8/2018
 
@@ -363,7 +522,7 @@ Release Date: 10/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0077)
+EMA Version: v8.0.1-Release-v1.0(0077)
 Game Version: 8.0.1
 Release Date: 09/8/2018
 
@@ -379,7 +538,7 @@ Release Date: 09/8/2018
 	
 ---------------------------
 
-EMA Version: v8.0.1-Release(0076)
+EMA Version: v8.0.1-Release-v1.0(0076)
 Game Version: 8.0.1
 Release Date: 3/8/2018
 
@@ -390,7 +549,7 @@ Release Date: 3/8/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0075)
+EMA Version: v8.0.1-Release-v1.0(0075)
 Game Version: 8.0.1
 Release Date: 30/7/2018
 
@@ -412,7 +571,7 @@ Release Date: 30/7/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0074)
+EMA Version: v8.0.1-Release-v1.0(0074)
 Game Version: 8.0.1
 Release Date: 20/7/2018
 
@@ -423,7 +582,7 @@ Release Date: 20/7/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0073)
+EMA Version: v8.0.1-Release-v1.0(0073)
 Game Version: 8.0.1
 Release Date: 20/7/2018
 
@@ -436,7 +595,7 @@ Release Date: 20/7/2018
 	
 ---------------------------
 
-EMA Version: v8.0.1-Release(0072)
+EMA Version: v8.0.1-Release-v1.0(0072)
 Game Version: 8.0.1
 Release Date: 19/7/2018
 ---------------------------
@@ -447,7 +606,7 @@ Release Date: 19/7/2018
 
 ---------------------------
 
-EMA Version: v8.0.1-Release(0071)
+EMA Version: v8.0.1-Release-v1.0(0071)
 Game Version: 8.0.1
 Release Date: 18/7/2018
 
@@ -461,7 +620,7 @@ Release Date: 18/7/2018
 
 
 ---------------------------
-EMA Version: v8.0.1-Release(0069)
+EMA Version: v8.0.1-Release-v1.0(0069)
 Game Version: 8.0.1
 Release Date: 18/7/2018
 ---------------------------
@@ -472,7 +631,7 @@ Release Date: 18/7/2018
 	
 
 ---------------------------	
-EMA Version: v8.0.1-Beta(0068)
+EMA Version: v8.0.1-Beta-v1.0(0068)
 Game Version: 8.0.1
 Release Date: 17/7/2018
 ---------------------------

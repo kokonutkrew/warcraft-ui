@@ -116,6 +116,10 @@ local node_ids = {
 		[NL["Slimy Mackerel School"]]			= 194,
 		[NL["Tiragarde Perch School"]]			= 195,
 		[NL["U'taka School"]]					= 196,
+		[NL["Mauve Stinger School"]]			= 197,
+		[NL["Viper Fish School"]]				= 198,
+		[NL["Ionized Minnows"]]					= 199,
+		[NL["Sentry Fish School"]]				= 1101,
 	},
 	["Mining"] = {
 		[NL["Copper Vein"]] 					= 201,
@@ -192,6 +196,9 @@ local node_ids = {
 		[NL["Storm Silver Deposit"]]			= 267,
 		[NL["Rich Storm Silver Deposit"]]		= 268,
 		[NL["Storm Silver Seam"]]				= 269,
+		[NL["Osmenite Deposit"]]				= 270,
+		[NL["Rich Osmenite Deposit"]]			= 271,
+		[NL["Osmenite Seam"]]					= 272,
 	},
 	["Extract Gas"] = {
 		[NL["Windy Cloud"]] 					= 301,
@@ -299,6 +306,7 @@ local node_ids = {
 		[NL["Siren's Sting"]]					= 489,
 		[NL["Star Moss"]]						= 490,
 		[NL["Winter's Kiss"]]					= 491,
+		[NL["Zin'anthid"]]						= 492,
 	},
 	["Treasure"] = {
 		[NL["Giant Clam"]] 						= 501,
@@ -361,6 +369,10 @@ local node_ids = {
 		[NL["Glowing Tome"]]					= 557,
 		[NL["Mana-Infused Gem"]]				= 558,
 		[NL["Twice-Fortified Arcwine"]]			= 559,
+		-- bfa 8.2 treasures
+		[NL["Mechanized Chest"]]				= 560,
+		[NL["Glimmering Chest"]]				= 561,
+		[NL["Prismatic Crystal"]]				= 562,
 	},
 	["Archaeology"] = {
 		-- cata archeolgy objects
@@ -445,7 +457,8 @@ local rare_spawns = {
 	[263] = {[262]=true}, -- rich monelite deposit
 	[266] = {[265]=true}, -- rich platinum deposit
 	[268] = {[267]=true}, -- rich storm silver deposit
-	[486] = {[485]=true,[487]=true,[488]=true,[491]=true}, -- anchor weed
+	[486] = {[485]=true,[487]=true,[488]=true,[491]=true,[492]=true}, -- anchor weed
+	[271] = {[270]=true}, -- rich osmenite deposit
 }
 Collector.rareNodes = rare_spawns
 -- Format zone = { "Database", "new node id"}
@@ -575,6 +588,10 @@ local node_textures = {
 		[194] = icon_path.."Fish\\slimy_mackerel.tga",
 		[195] = icon_path.."Fish\\tiragarde_perch.tga",
 		[196] = icon_path.."Fish\\utaka.tga",
+		[197] = icon_path.."Fish\\mauvestinger.tga",
+		[198] = icon_path.."Fish\\viperfish.tga",
+		[199] = icon_path.."Fish\\ionizedminnow.tga",
+		[1101] = icon_path.."Fish\\sentryfish.tga",
 	},
 	["Mining"] = {
 		[201] = icon_path.."Mine\\copper.tga",
@@ -646,6 +663,9 @@ local node_textures = {
 		[267] = icon_path.."Mine\\stormsilver.tga",
 		[268] = icon_path.."Mine\\stormsilver.tga",
 		[269] = icon_path.."Mine\\stormsilver.tga",
+		[270] = icon_path.."Mine\\osmenite.tga",
+		[271] = icon_path.."Mine\\osmenite.tga",
+		[272] = icon_path.."Mine\\osmenite.tga",
 	},
 	["Extract Gas"] = {
 		[301] = icon_path.."Gas\\windy_cloud.tga",
@@ -748,6 +768,7 @@ local node_textures = {
 		[489] = icon_path.."Herb\\sirens_pollen.tga",
 		[490] = icon_path.."Herb\\star_moss.tga",
 		[491] = icon_path.."Herb\\winters_kiss.tga",
+		[492] = icon_path.."Herb\\zinanthid.tga",
 	},
 	["Treasure"] = {
 		[501] = icon_path.."Treasure\\clam.tga",
@@ -809,6 +830,9 @@ local node_textures = {
 		[557] = icon_path.."Treasure\\ancient_mana.tga",
 		[558] = icon_path.."Treasure\\ancient_mana.tga",
 		[559] = icon_path.."Treasure\\ancient_mana.tga",
+		[560] = icon_path.."Treasure\\treasure.tga",
+		[561] = icon_path.."Treasure\\treasure.tga",
+		[562] = icon_path.."Treasure\\ancient_mana.tga",
 	},
 	["Archaeology"] = {
 		[601] = icon_path.."Archaeology\\shovel.tga",
@@ -920,6 +944,9 @@ local node_expansion = {
 		[267] = BFA,
 		[268] = BFA,
 		[269] = BFA,
+		[270] = BFA,
+		[271] = BFA,
+		[272] = BFA,
 	},
 	["Herb Gathering"] = {
 		[401] = CLASSIC,
@@ -1013,6 +1040,7 @@ local node_expansion = {
 		[489] = BFA,
 		[490] = BFA,
 		[491] = BFA,
+		[492] = BFA,
 	},
 }
 GatherMate.nodeExpansion = node_expansion

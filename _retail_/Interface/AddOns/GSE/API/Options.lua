@@ -19,6 +19,19 @@ function GSE.GetOptionsTable()
             name = L["General Options"],
             order = 100
           },
+          minimapIcon = {
+            name = L["Hide Minimap Icon"],
+            desc = L["Hide Minimap Icon for LibDataBroker (LDB) data text."],
+            type = "toggle",
+            set = function(info,val)
+              GSEOptions.showMiniMap.hide = val
+              if GSE.LDB then
+                GSE.MiniMapControl(GSEOptions.showMiniMap.hide)
+              end
+            end,
+            get = function(info) return GSEOptions.showMiniMap.hide end,
+            order = 199
+          },
           showothergseusersintooltip = {
             name = L["Show GSE Users in LDB"],
             desc = L["GSE has a LibDataBroker (LDB) data feed.  List Other GSE Users and their version when in a group on the tooltip to this feed."],
@@ -41,6 +54,14 @@ function GSE.GetOptionsTable()
             type = "toggle",
             set = function(info,val) GSEOptions.HideLoginMessage = val end,
             get = function(info) return GSEOptions.HideLoginMessage end,
+            order = 202
+          },
+          promptSamples = {
+            name = L["Prompt Samples"],
+            desc = L["When you log into a class without any macros, prompt to load the sample macros."],
+            type = "toggle",
+            set = function(info,val) GSEOptions.PromptSample = val end,
+            get = function(info) return GSEOptions.PromptSample end,
             order = 202
           },
           resetOOC = {
@@ -618,6 +639,45 @@ function GSE.GetOptionsTable()
           }
         },
       },
+      aboutTab = {
+        name = L["About"],
+        desc = L["About GSE"],
+        type = "group",
+        order = 5,
+        args = {
+          -- aboutIcon = {
+          --   type = "description",
+          --   name = "",
+          --   image = "Interface\\Addons\\GSE_GUI\\GSE2_Logo_Dark_512.tga",
+          --   imageWidth = 100;
+          --   imageHeight = 100;
+          --   order = 5
+          -- },
+          title4 = {
+            type = "header",
+            name = L["History"],
+            order = 10,
+          },
+          aboutDescription = {
+            type = "description",
+            name = L["GSE was originally forked from GnomeSequencer written by semlar.  It was enhanced by TImothyLuke to include a lot of configuration and boilerplate functionality with a GUI added.  The enhancements pushed the limits of what the original code could handle and was rewritten from scratch into GSE.\n\nGSE itself wouldn't be what it is without the efforts of the people who write macros with it.  Check out https://wowlazymacros.com for the things that make this mod work.  Special thanks to Lutechi for creating this community."],
+            order = 20,
+            image = "Interface\\Addons\\GSE_GUI\\GSE2_Logo_Dark_512.tga",
+            imageWidth = 120;
+            imageHeight = 120;
+          },
+          title5 = {
+            type = "header",
+            name = L["Supporters"],
+            order = 30,
+          },
+          supportersDescription = {
+            type = "description",
+            name = L["The following people donate monthly via Patreon for the ongoing maintenance and development of GSE.  Their support is greatly appreciated."],
+            order = 31,
+          },
+        },
+      },
       debugTab = {
         name = L["Debug"],
         desc = L["Debug Mode Options"],
@@ -675,7 +735,7 @@ function GSE.GetOptionsTable()
       }
     }
   }
-  -- Add Dynamic contentcontainer
+  -- Add Dynamic Content Container
 
   local ord = 900
   for k,v in pairs(GSEOptions.AddInPacks) do
@@ -702,6 +762,17 @@ function GSE.GetOptionsTable()
       set = function(info,val) GSEOptions.DebugModules[k] = val end,
       get = function(info) return GSEOptions.DebugModules[k] end,
       order = ord
+    }
+  end
+
+  ord = 31
+  for k,v in ipairs(Statics.Patrons) do
+    local pos = ord + k
+    OptionsTable.args.aboutTab.args[v..k] = {
+      name = v,
+      desc = v,
+      type = "description",
+      order = pos
     }
   end
   return OptionsTable

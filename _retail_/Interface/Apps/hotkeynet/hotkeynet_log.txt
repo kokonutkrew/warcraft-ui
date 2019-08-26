@@ -2,7 +2,7 @@
 HotkeyNet Log File
 -------------------------------------------------------------------------------------
 
-File opened at 22:18:26 on Sunday, July 21, 2019
+File opened at 19:19:23 on Sunday, August 25, 2019
 DNS name: DESKTOP-VEEBCOF
 OS version: Microsoft  (build 9200)
 
@@ -21,11 +21,11 @@ CPU:
 
 
 Memory:
-	Load = 26%; 
+	Load = 44%; 
 	Total physical = 32688 MB; 
-	Available physical = 23881 MB; 
+	Available physical = 18159 MB; 
 	Total page file = 37552 MB; 
-	Avail page file = 24136 MB; 
+	Avail page file = 11461 MB; 
 	Total virtual = 2047 MB; 
 	Avail virtual = 1954 MB; 
 	Avail extended virtual = 0 MB.
@@ -34,7 +34,7 @@ Memory:
 Mouse:
 	Mouse installed.
 	Buttons not swapped.
-	Speed: 0
+	Speed: 1
 	Threshold (x,y): 0,0
 
 
@@ -50,8 +50,13 @@ Adapter 0:
 
 	DHCP Enabled	Yes
 	DHCP Server	192.168.0.1
-	Lease Obtained	Sun Jul 21 22:06:03 2019
+	Lease Obtained	Sun Aug 25 19:05:30 2019
 
 	Have WINS	No
 
 HotkeyNet 0.1.45 build 210
+Start as server.
+This IP: 192.168.0.11
+
+C:\d\sou\cpp\macro\cAuth.cpp 423: IP seen by authorization server: 69.128.224.39
+

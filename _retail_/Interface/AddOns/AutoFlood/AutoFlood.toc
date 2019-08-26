@@ -1,7 +1,7 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: AutoFlood
 ## Author: LenweSaralonde
-## Version: v1.2.0.16
+## Version: v1.2.0.17
 ## Notes: Sends a periodical message in a channel
 ## SavedVariables: AF_config
 AutoFlood.xml

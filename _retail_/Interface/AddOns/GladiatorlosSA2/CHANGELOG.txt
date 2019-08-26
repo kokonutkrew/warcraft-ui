@@ -1,3 +1,65 @@
+- version B12 (8.2)
+
+Druid
+* Fixed Thorns spellID for all specs.
+===============================================
+- version B11 (8.2)
+
+General
+* Fixed Gladiator's Maledict spellID and moved it from Buff Applied to Special Abilities.
+* Fixed "Invalid fileDataID" error in combat caused by: Cenarion Ward cast, Safeguard expiration, Holy Word: Salvation cast, Faerie Swarm cast, Psychic Horror cast.
+** NOTE: You will continue to receive the "Invalid fileDataID" when changing certain options for GSA. This can safely be ignored and is the result of how the spell options playback was coded. I'll fix this eventually.
+
+Druid
+* Fixed Cenarion Ward.
+* Fixed Faerie Swarm.
+
+Priest
+* Psychic Horror alert is back!
+
+Shaman
+* Tremor Totem alert is back, and is no longer off by default.
+* Fixed Lightning Lasso's spellID.
+
+Warlock
+* Removed Howl of Terror (no longer exists).
+===============================================
+- version B10 (8.2)
+
+General
+* Epic Battlegrounds now have their own toggle. Epic Battlegrounds include: Isle of Conquest, Alterac Valley, Southshore vs Tarren Mill, Wintergrasp, and Ashran.
+
+===============================================
+- version B8 (and B9) (8.1.5)
+
+B9: Caught a typo right after I posted B8 that caused Buff Applied abilities to not function correctly. Fixed, re-download if you happened to get B8.
+
+General
+* Added support for Gladiator's Maledict now that Blizzard FINALLY added a way for addons to accurately track it without broken gimmicks. You can find it under General in Aura Applied. It plays an annoying sound.
+Now to try to convince Blizzard to remove it entirely.
+
+- If you spot spells with existing alerts that are no longer alerting, please let me know so I can correct their spell IDs.
+- No, I don't know when recording will get done. Please don't message me about it unless you intend to help.
+
+===============================================
+- version B7 (8.1.5)
+
+General
+* Oops fixes.
+* Abilities that are missing an alert are now all off by default.
+
+- If you spot spells with existing alerts that are no longer alerting, please let me know so I can correct their spell IDs.
+- No, I don't know when recording will get done.
+
+===============================================
+- version B6 (8.1.5)
+
+General
+* Fixed Drinking alert in arenas (I'm *fairly* certain, but yell at me if it isn't.)
+
+Yes, I'm aware that there are some spellIDs that need fixing since 8.1. I have very little time to play WoW at the moment and I don't PvP actively right now, so it might be a while on getting those unless someone at least tell me what abilities to look at. I also have straight up no idea when the new VO is going to be done anymore.
+
+===============================================
 - version B5 (8.1.0)
 
 General

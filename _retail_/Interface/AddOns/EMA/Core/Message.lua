@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -28,8 +28,8 @@ local EMAHelperSettings = LibStub:GetLibrary( "EMAHelperSettings-1.0" )
 local Media = LibStub("LibSharedMedia-3.0")
 
 -- Built in Sounds
-Media:Register("sound", "EMA: RaidWarning", "Sound\\interface\\RaidWarning.ogg")
-
+Media:Register("sound", "EMA: RaidWarning", "Interface\\Addons\\EMA\\Media\\Sounds\\raidwarning.ogg" )
+Media:Register("sound", "EMA: Warning", "Interface\\Addons\\EMA\\Media\\Sounds\\Warning.ogg")
  
 -- Constants and Locale for this module.
 EMA.moduleName = "Message"
@@ -203,11 +203,19 @@ function EMA:GetConfiguration()
 		get = "EMAConfigurationGetSetting",
 		set = "EMAConfigurationSetSetting",
 		args = {	
+			config = {
+				type = "input",
+				name = L["OPEN_CONFIG"],
+				desc = L["OPEN_CONFIG_HELP"],
+				usage = "/ema-message config",
+				get = false,
+				set = "",				
+			},
 			push = {
 				type = "input",
 				name = L["PUSH_SETTINGS"],
 				desc = L["PUSH_SETTINGS_INFO"],
-				usage = "/EMA-message push",
+				usage = "/ema-message push",
 				get = false,
 				set = "EMASendSettings",
 			},	
@@ -878,6 +886,7 @@ end
 		
 
 local function PlayMessageSound( soundToPlay )	
+	--EMA:Print("test", Media:Fetch( 'sound', soundToPlay  ) )
 	PlaySoundFile( Media:Fetch( 'sound', soundToPlay ), "Ambience" )
 end
 
@@ -938,7 +947,8 @@ local function ProcessReceivedMessage( sender, areaName, message, suppressSender
 		-- Do nothing! Mute means eat the message.
 	end
 	if areaType.usesSound == true and area.soundToPlay ~= "None" then
-		PlayMessageSound(area.soundToPlay)
+		--EMA:Print("test", area.soundToPlay )
+		PlayMessageSound(area.soundToPlay )
 	end	
 end
 

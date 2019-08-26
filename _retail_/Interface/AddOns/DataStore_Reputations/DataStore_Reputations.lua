@@ -230,6 +230,8 @@ local factions = {
 	{ id = 2163, name = GetFactionInfoByID(2163) },		-- AH - Tortollan Seekers
 	{ id = 2158, name = GetFactionInfoByID(2158) },		-- H  - Voldunai
 	{ id = 2103, name = GetFactionInfoByID(2103) },		-- H  - Zandalari Empire
+	{ id = 2400, name = GetFactionInfoByID(2400) },		-- Waveblade Ankoan
+	{ id = 2391, name = GetFactionInfoByID(2391) },		-- Rustbolt Resistance
  
 }
 

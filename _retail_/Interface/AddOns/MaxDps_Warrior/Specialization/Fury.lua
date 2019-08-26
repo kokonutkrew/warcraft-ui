@@ -62,6 +62,8 @@ function Warrior:Fury()
 	fd.rage = rage;
 	fd.rampageCost = rampageCost;
 
+	MaxDps:GlowEssences();
+
 	-- recklessness;
 	MaxDps:GlowCooldown(FR.Recklessness, cooldown[FR.Recklessness].ready);
 
@@ -85,7 +87,7 @@ function Warrior:Fury()
 	end
 
 	-- rampage,if=cooldown.recklessness.remains<3;
-	if rage >= rampageCost and cooldown[FR.Recklessness].remains < 3 then
+	if rage >= rampageCost and cooldown[FR.Recklessness].remains < 3 and not (talents[FR.Siegebreaker] and cooldown[FR.Siegebreaker].ready) then
 		return FR.Rampage;
 	end
 
@@ -125,7 +127,7 @@ function Warrior:FurySingleTarget()
 			talents[FR.Carnage] and (buff[FR.Enrage].remains < gcd or rage > 90) or
 			talents[FR.Massacre] and (buff[FR.Enrage].remains < gcd or rage > 90)
 		)
-	) then
+	) and not (talents[FR.Siegebreaker] and cooldown[FR.Siegebreaker].ready) then
 		return FR.Rampage;
 	end
 

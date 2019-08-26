@@ -18,11 +18,25 @@ if select(4, GetAddOnInfo(addonName)) then
 end
 
 if Version then
+	local ElvUIBags = ElvUI[1]:GetModule("Bags")
 	local function OnBagUpdate_Coroutine()
+			-- TODO: Add support for separate bank and bag sizes
+			-- local iconSize = isBank and ElvUIBags.db.bankSize or ElvUIBags.db.bagSize
+			-- local uiScale = ElvUI[1].global.general.UIScale
+			local iconSize = ElvUIBags.db.bagSize
 	    for bag, bagData in pairs(waitingOnBagUpdate) do
 	    	for slot, slotData in pairs(bagData) do
 	    		for itemID, itemData in pairs(slotData) do
-					CaerdonWardrobe:UpdateButton(itemData.itemID, itemData.bag, itemData.slot, itemData.button, { showMogIcon = true, showBindStatus = true, showSellables = true } )
+						CaerdonWardrobe:UpdateButton(itemData.itemID, itemData.bag, itemData.slot, itemData.button, {
+							showMogIcon = true,
+							showBindStatus = true,
+							showSellables = true,
+							iconSize = iconSize,
+							otherIconSize = iconSize,
+							-- TODO: These aren't correct but hopefully work for now
+							iconOffset = math.abs(40 - iconSize) / 2,
+							otherIconOffset = math.abs(40 - iconSize) / 2
+						})
 	    		end
 	    	end
 
@@ -50,15 +64,13 @@ if Version then
 		isBagUpdateRequested = true
 	end
 
-	local ElvUIBags = ElvUI[1]:GetModule("Bags")
-
-	local function OnUpdateSlot(self, bagID, slotID)
-		if (self.Bags[bagID] and self.Bags[bagID].numSlots ~= GetContainerNumSlots(bagID)) or not self.Bags[bagID] or not self.Bags[bagID][slotID] then
+	local function OnUpdateSlot(self, frame, bagID, slotID)
+		if (frame.Bags[bagID] and frame.Bags[bagID].numSlots ~= GetContainerNumSlots(bagID)) or not frame.Bags[bagID] or not frame.Bags[bagID][slotID] then
 			return
 		end
 
-		local button = self.Bags[bagID][slotID]
-		local bagType = self.Bags[bagID].type
+		local button = frame.Bags[bagID][slotID]
+		local bagType = frame.Bags[bagID].type
 
 		local itemID
 		itemID = GetContainerItemID(bagID, slotID)
@@ -72,6 +84,12 @@ if Version then
 			ScheduleItemUpdate(itemID, bagID, slotID, button)
 			-- CaerdonWardrobe:UpdateButton(itemID, bagID, slotID, button, options)
 		else
+			local waitBag = waitingOnBagUpdate[tostring(bagID)]
+			if waitBag then
+				-- Clear out in case we had scheduled an update
+				-- (Mostly an issue during sorting)
+				waitBag[tostring(slotID)] = nil
+			end
 			CaerdonWardrobe:ClearButton(button)
 			-- CaerdonWardrobe:UpdateButton(nil, bagID, slotID, button, nil)
 		end
@@ -126,13 +144,10 @@ if Version then
 			eventFrame:RegisterEvent "TRANSMOG_COLLECTION_UPDATED"
 			eventFrame:SetScript("OnEvent", OnEvent)
 			eventFrame:SetScript("OnUpdate", OnUpdate)
-			-- Seem to need both?  Not sure.
-			-- First one works if I do it outside OnInitialize.
-			-- Second one works in OnIntialize.
-			-- There's some branching logic in ElvUI that will call
-			-- one or the other, so I probably need both just in case.
 			hooksecurefunc(ElvUIBags, "UpdateSlot", OnUpdateSlot)
-			hooksecurefunc(ElvUI_ContainerFrame, "UpdateSlot", OnUpdateSlot)
+			-- Causing issues in 11.20 - might not need anymore but leaving as a reminder
+			-- if new issues crop up
+			-- hooksecurefunc(ElvUI_ContainerFrame, "UpdateSlot", OnUpdateSlot)
 
 			function eventFrame:TRANSMOG_COLLECTION_UPDATED()
 				RefreshItems()

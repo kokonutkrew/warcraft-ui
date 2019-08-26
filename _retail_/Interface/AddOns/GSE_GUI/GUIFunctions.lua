@@ -1,6 +1,8 @@
 local GSE = GSE
 local L = GSE.L
 local Statics = GSE.Static
+local LibQTip = LibStub('LibQTip-1.0')
+
 
 --- This function pops up a confirmation dialog.
 function GSE.GUIDeleteSequence(classid, sequenceName)
@@ -13,7 +15,7 @@ function GSE.GUIDeleteSequence(classid, sequenceName)
   StaticPopup_Show ("GSE-DeleteMacroDialog")
 end
 
---- This function then deletes the macro
+--- This function then deletes the macro.
 function GSE.GUIConfirmDeleteSequence(classid, sequenceName)
   GSE.GUIViewFrame:Hide()
   GSE.GUIEditFrame:Hide()
@@ -109,7 +111,7 @@ end
 
 
 function GSE.GUIUpdateSequenceDefinition(classid, SequenceName, sequence)
-  -- Changes have been made so save them
+  -- Changes have been made, so save them
   for k,v in ipairs(sequence.MacroVersions) do
     sequence.MacroVersions[k] = GSE.TranslateSequence(v, SequenceName, "ID")
     sequence.MacroVersions[k] = GSE.UnEscapeSequence(sequence.MacroVersions[k])
@@ -165,4 +167,21 @@ function GSE.OpenOptionsPanel()
   config:Open("GSE")
   --config:SelectGroup("GSSE", "Debug")
 
+end
+
+function GSE.CreateToolTip(title, tip, GSEFrame)
+  GSE.ClearTooltip(GSEFrame)
+  local tooltip = LibQTip:Acquire("GSE", 1, "CENTER")
+
+  GSEFrame.tooltip = tooltip
+  tooltip:AddHeader(GSEOptions.TitleColour .. title .. Statics.StringReset)
+  tooltip:AddLine(tip)
+  tooltip:SmartAnchorTo(GSEFrame.frame)
+
+  tooltip:Show()
+end
+
+function GSE.ClearTooltip(GSEFrame)
+  LibQTip:Release(GSEFrame.tooltip)
+  GSEFrame.tooltip = nil
 end

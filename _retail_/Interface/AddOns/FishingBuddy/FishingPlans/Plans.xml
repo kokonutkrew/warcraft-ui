@@ -6,4 +6,5 @@
 	<Include file="Items.lua" />
 	<Include file="Coins.lua" />
 	<Include file="Baits.lua" />
+	<Include file="Lures.lua" />
 </Ui>

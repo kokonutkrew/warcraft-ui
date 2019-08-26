@@ -76,6 +76,7 @@ function MaxDps:EnableRotation()
 
 	self:CheckTalents();
 	self:GetAzeriteTraits();
+	self:GetAzeriteEssences();
 	self:CheckIsPlayerMelee();
 	if self.ModuleOnEnable then
 		self.ModuleOnEnable();
@@ -115,6 +116,7 @@ function MaxDps:OnEnable()
 	self:RegisterEvent('PLAYER_TALENT_UPDATE');
 	self:RegisterEvent('PLAYER_REGEN_DISABLED');
 	self:RegisterEvent('PLAYER_ENTERING_WORLD');
+	self:RegisterEvent('AZERITE_ESSENCE_ACTIVATED');
 
 	self:RegisterEvent('ACTIONBAR_SLOT_CHANGED', 'ButtonFetch');
 	self:RegisterEvent('ACTIONBAR_HIDEGRID', 'ButtonFetch');
@@ -168,6 +170,10 @@ function MaxDps:NAME_PLATE_UNIT_REMOVED(_, nameplateUnit)
 end
 
 function MaxDps:PLAYER_TALENT_UPDATE()
+	self:DisableRotation();
+end
+
+function MaxDps:AZERITE_ESSENCE_ACTIVATED()
 	self:DisableRotation();
 end
 
@@ -228,6 +234,7 @@ function MaxDps:PrepareFrameData()
 	self.FrameData.buff, self.FrameData.debuff = MaxDps:CollectAuras();
 	self.FrameData.talents = self.PlayerTalents;
 	self.FrameData.azerite = self.AzeriteTraits;
+	self.FrameData.essences = self.AzeriteEssences;
 	self.FrameData.spellHistory = self.spellHistory;
 	self.FrameData.timeToDie = self:GetTimeToDie();
 end

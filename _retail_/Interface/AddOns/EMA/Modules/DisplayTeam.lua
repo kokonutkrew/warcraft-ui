@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -129,11 +129,19 @@ function EMA:GetConfiguration()
 		get = "EMAConfigurationGetSetting",
 		set = "EMAConfigurationSetSetting",
 		args = {	
+			config = {
+				type = "input",
+				name = L["OPEN_CONFIG"],
+				desc = L["OPEN_CONFIG_HELP"],
+				usage = "/ema-display config",
+				get = false,
+				set = "",				
+			},
 			push = {
 				type = "input",
 				name = L["PUSH_SETTINGS"],
 				desc = L["PUSH_SETTINGS_INFO"],
-				usage = "/EMA-display-team push",
+				usage = "/ema-display-team push",
 				get = false,
 				set = "EMASendSettings",
 			},	
@@ -141,7 +149,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["HIDE_TEAM_DISPLAY"],
 				desc = L["HIDE_TEAM_DISPLAY_HELP"],
-				usage = "/EMA-display-team hide",
+				usage = "/ema-display-team hide",
 				get = false,
 				set = "HideTeamListCommand",
 			},	
@@ -149,7 +157,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["SHOW_TEAM_DISPLAY"],
 				desc = L["SHOW_TEAM_DISPLAY_HELP"],
-				usage = "/EMA-display-team show",
+				usage = "/ema-display-team show",
 				get = false,
 				set = "ShowTeamListCommand",
 			},				
@@ -337,6 +345,7 @@ local function CreateEMATeamListFrame()
 	} )
 	-- Create the title for the team list frame.
 	local titleName = frame:CreateFontString( "EMADisplayTeamListWindowFrameTitleText", "OVERLAY", "GameFontNormal" )
+	titleName:ClearAllPoints()
 	titleName:SetPoint( "TOP", frame, "TOP", 0, -5 )
 	titleName:SetTextColor( 1.00, 1.00, 1.00 )
 	titleName:SetText( L["EMA_TEAM"] )
@@ -887,9 +896,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
         portraitButton:SetPosition( 0, 0, 0 )
         portraitButton:SetWidth( EMA.db.characterPortraitWidth )
 		portraitButton:SetHeight( EMA.db.characterPortraitWidth )
+		portraitButton:ClearAllPoints()
 		portraitButton:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		portraitButtonClick:SetWidth( EMA.db.characterPortraitWidth )
 		portraitButtonClick:SetHeight( EMA.db.characterPortraitWidth )
+		portraitButtonClick:ClearAllPoints()
 		portraitButtonClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		portraitButton:Show()
 		portraitButtonClick:Show()
@@ -905,9 +916,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 		followBar.backgroundTexture:SetAllPoints()
 		followBar:SetWidth( EMA.db.followStatusWidth )
 		followBar:SetHeight( EMA.db.followStatusHeight )
+		followBar:ClearAllPoints()
 		followBar:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		followBarClick:SetWidth( EMA.db.followStatusWidth )
 		followBarClick:SetHeight( EMA.db.followStatusHeight )
+		followBarClick:ClearAllPoints()
 		followBarClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		followBar:Show()
 		followBarClick:Show()
@@ -1011,9 +1024,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 			experienceBar.backgroundTexture:SetAllPoints()
 			experienceBar:SetWidth( EMA.db.experienceStatusWidth )
 			experienceBar:SetHeight( EMA.db.experienceStatusHeight / showBarCount )
+			experienceBar:ClearAllPoints()
 			experienceBar:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft , positionTop )
 			experienceBarClick:SetWidth( EMA.db.experienceStatusWidth )
 			experienceBarClick:SetHeight( EMA.db.experienceStatusHeight / showBarCount )
+			experienceBarClick:ClearAllPoints()
 			experienceBarClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )		
 		if EMA.db.showXpStatus == true then
 			experienceBar:Show()
@@ -1026,7 +1041,9 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 			experienceArtBar.backgroundTexture:SetAllPoints()
 			experienceArtBar:SetWidth( EMA.db.experienceStatusWidth )
 			experienceArtBar:SetHeight( EMA.db.experienceStatusHeight / showBarCount )
+			experienceArtBar:ClearAllPoints()
 			experienceArtBar:SetPoint( "TOPLEFT", showArtBeforeBar, setArtPoint, setArtLeft , setArtTop )
+			experienceArtBarClick:ClearAllPoints()
 			experienceArtBarClick:SetPoint( "TOPLEFT", showArtBeforeBar, setArtPoint, setArtLeft , setArtTop )
 			experienceArtBarClick:SetWidth( EMA.db.experienceStatusWidth )
 			experienceArtBarClick:SetHeight( EMA.db.experienceStatusHeight / showBarCount )		
@@ -1056,7 +1073,9 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 			reputationBar.backgroundTexture:SetAllPoints()
 			reputationBar:SetWidth( EMA.db.experienceStatusWidth )
 			reputationBar:SetHeight( EMA.db.experienceStatusHeight / showBarCount )
+			reputationBar:ClearAllPoints()
 			reputationBar:SetPoint( "TOPLEFT", showRepBeforeBar , setRepPoint, setRepLeft, setRepTop )
+			reputationBarClick:ClearAllPoints()
 			reputationBarClick:SetPoint( "TOPLEFT", showRepBeforeBar , setRepPoint, setRepLeft, setRepTop )
 			reputationBarClick:SetWidth( EMA.db.experienceStatusWidth )
 			reputationBarClick:SetHeight( EMA.db.experienceStatusHeight / showBarCount )
@@ -1090,9 +1109,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 		healthBar.backgroundTexture:SetAllPoints()
 		healthBar:SetWidth( EMA.db.healthStatusWidth )
 		healthBar:SetHeight( EMA.db.healthStatusHeight )
+		healthBar:ClearAllPoints()
 		healthBar:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		healthBarClick:SetWidth( EMA.db.healthStatusWidth )
 		healthBarClick:SetHeight( EMA.db.healthStatusHeight )
+		healthBarClick:ClearAllPoints()
 		healthBarClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		healthBar:Show()
 		healthBarClick:Show()
@@ -1110,6 +1131,7 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 		healthIncomingBar.backgroundTexture:SetAllPoints()
 		healthIncomingBar:SetWidth( EMA.db.healthStatusWidth )
 		healthIncomingBar:SetHeight( EMA.db.healthStatusHeight )
+		healthIncomingBar:ClearAllPoints()
 		healthIncomingBar:SetPoint( "TOPLEFT", healthBar, "TOPLEFT", 0, 0 )
 		healthIncomingBar:Show()
 	else
@@ -1123,9 +1145,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 		powerBar.backgroundTexture:SetAllPoints()
 		powerBar:SetWidth( EMA.db.powerStatusWidth )
 		powerBar:SetHeight( EMA.db.powerStatusHeight )
+		powerBar:ClearAllPoints()
 		powerBar:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		powerBarClick:SetWidth( EMA.db.powerStatusWidth )
 		powerBarClick:SetHeight( EMA.db.powerStatusHeight )
+		powerBarClick:ClearAllPoints()
 		powerBarClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		powerBar:Show()
 		powerBarClick:Show()
@@ -1145,9 +1169,11 @@ function EMA:UpdateEMATeamStatusBar( characterName, characterPosition )
 		comboBar.backgroundTexture:SetAllPoints()
 		comboBar:SetWidth( EMA.db.comboStatusWidth )
 		comboBar:SetHeight( EMA.db.comboStatusHeight )
+		comboBar:ClearAllPoints()
 		comboBar:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		comboBarClick:SetWidth( EMA.db.comboStatusWidth )
 		comboBarClick:SetHeight( EMA.db.comboStatusHeight )
+		comboBarClick:ClearAllPoints()
 		comboBarClick:SetPoint( "TOPLEFT", parentFrame, "TOPLEFT", positionLeft, positionTop )
 		comboBar:Show()
 		comboBarClick:Show()

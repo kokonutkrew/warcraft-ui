@@ -5,7 +5,7 @@ L["Update"] = true
 L["<SEQUENCEDEBUG> |r "] = true
 L["<DEBUG> |r "] = true
 
---Output Strings from Core
+-- Output Strings from Core
 L["Close to Maximum Personal Macros.|r  You can have a maximum of "] = true
 L[" macros per character.  You currently have "] = true
 L["|r.  As a result this macro was not created.  Please delete some macros and reenter "] = true
@@ -53,14 +53,14 @@ L["Matching helpTxt"] = true
 L["Different helpTxt"] = true
 L["You cannot delete this version of a sequence.  This version will be reloaded as it is contained in "] = true
 
---sequence editor stuff
+-- Sequence Editor Stuff
 L["Sequence"] = true
 L["Edit"] = true
 L["New"] = true
 L["Choose Language"] = true
 L["Translated Sequence"] = true
 L["Sequence Viewer"] = true
-L["Gnome Sequencer: Sequence Viewer"] = true
+
 L["Load Sequence"] = true
 L["Disable Sequence"] = true
 L["Enable Sequence"] = true
@@ -89,10 +89,11 @@ L["Delete Version"] = true
 L["No Sequences present so none displayed in the list."] = true
 L["Specialisation / Class ID"] = true
 L["You need to reload the User Interface for the change in StepFunction to take effect.  Would you like to do this now?"] = true
--- options Debug
+
+-- Options Debug
 
 
--- options stuff
+-- Options Stuff
 L["You need to reload the User Interface to complete this task.  Would you like to do this now?"] = true
 L["Yes"] = true
 L["No"] = true
@@ -201,7 +202,7 @@ L["When loading or creating a sequence, if it is a global or the macro has an un
 L["Updating due to new version."] = true
 L["Creating New Sequence."] = true
 
--- Transmission stuff
+-- Transmission Stuff
 L["This will display debug messages for the GS-E Ingame Transmission and transfer"] = true
 
 -- New Strings 1.4
@@ -249,7 +250,7 @@ L["The Custom StepFunction Specified is not recognised and has been ignored."] =
 L["Load"] = true
 L["There are No Macros Loaded for this class.  Would you like to load the Sample Macro?"]= true
 L["A sequence collision has occured.  Extra versions of this macro have been loaded.  Manage the sequence to determine how to use them "] = true
-L["GSE is out of date. You can download the newest version from https://mods.curse.com/addons/wow/gnomesequencer-enhanced."] = true
+L["GSE is out of date. You can download the newest version from https://www.curseforge.com/wow/addons/gse-gnome-sequencer-enhanced-advanced-macros."] = true
 L["Macro unable to be imported."] = true
 L["Macro Import Successful."]= true
 L["Gnome Sequencer: Import a Macro String."] = true
@@ -293,7 +294,7 @@ L["Create Icon"] = true
 L["Addin Version %s contained versions for the following macros:"] = true
 L["GSE allows plugins to load Macro Collections as plugins.  You can reload a collection by pressing the button below."] = true
 L["The Sample Macros have been reloaded."] = true
-L["GSE is out of date. You can download the newest version from https://mods.curse.com/addons/wow/gnomesequencer-enhanced."] = true
+L["GSE is out of date. You can download the newest version from https://www.curseforge.com/wow/addons/gse-gnome-sequencer-enhanced-advanced-macros."] = true
 L["GSE"] = true
 L["/gs |r to get started."] = true
 L["Gnome Sequencer: Export a Sequence String."] = true
@@ -317,7 +318,7 @@ L["Your current Specialisation is "] = true
 -- GSE 2.0.14
 L["This Sequence was exported from GSE %s."] = true
 
---GSE 2.1.0
+-- GSE 2.1.0
 L["Dungeon"] = true
 L["Heroic"] = true
 L["GSE is a complete rewrite of that addon that allows you create a sequence of macros to be executed at the push of a button."] = true
@@ -446,3 +447,59 @@ L["This macro uses features that are not available in this version. You need to 
 L["Export Macro Read Only"] = true
 L["This sequence is Read Only and unable to be edited."] = true
 L["Disable Editor"] = true
+
+-- GSE 2.4.06
+L["Your ClassID is "] = true
+
+-- GSE 2.4.08
+L["The name of your macro.  This name has to be unique and can only be used for one object.\nYou can copy this entire macro by changing the name and choosing Save."] = true
+L["Drag this icon to your action bar to use this macro. You can change this icon in the /macro window."] = true
+L["Opens the GSE Options window"] = true
+L["Send this macro to another GSE player who is on the same server as you are."] = true
+L["Save the changes made to this macro"] = true
+L["What class or spec is this macro for?  If it is for all classes choose Global."] = true
+L["What are the preferred talents for this macro?\n'1,2,3,1,2,3,1' means First row choose the first talent, Second row choose the second talent etc"] = true
+L["Notes and help on how this macro works.  What things to remember.  This information is shown in the sequence browser."] = true
+L["Website or forum URL where a player can get more information or ask questions about this macro."] = true
+L["The version of this macro that will be used where no other version has been configured."] = true
+L["The version of this macro that will be used when you enter raids."] = true
+L["The version of this macro to use in Arenas.  If this is not specified, GSE will look for a PVP version before the default."] = true
+L["The version of this macro to use in Mythic Dungeons."] = true
+L["The version of this macro to use in PVP."] = true
+L["The version of this macro to use in normal dungeons."] = true
+L["The version of this macro to use in heroic dungeons."] = true
+L["The version of this macro to use when in a party in the world."] = true
+L["The version of this macro to use when in time walking dungeons."] = true
+L["The version of this macro to use in Mythic+ Dungeons."] = true
+L["The step function determines how your macro executes.  Each time you click your macro GSE will go to the next line.  \nThe next line it chooses varies.  If Random then it will choose any line.  If Sequential it will go to the next line.  \nIf Priority it will try some spells more often than others."] = true
+L["Inner Loop Limit controls how many times the Sequence part of your macro executes \nuntil it goes onto to the PostMacro and then resets to the PreMacro."] = true
+L["The author of this macro."] = true
+L["Delete this verion of the macro.  This can be undone by closing this window and not saving the change.  \nThis is different to the Delete button below which will delete this entire macro."] = true
+L["These lines are executed every time you click this macro.  They are evaluated by WOW before the line in the Sequence Box."] = true
+L["These lines are executed before the lines in the Sequence Box.  If an Inner Loop Limit is not set, these are executed only once.  \nIf an Inner Loop Limit has been set these are executed after the Sequence has been looped through the number of times.  \nThe Sequence will then go on to the Post Macro if it exists then back to the PreMacro."] = true
+L["The main lines of the macro."] = true
+L["These lines are executed every time you click this macro.  They are evaluated by WOW after the line in the Sequence Box."] = true
+L["These lines are executed after the lines in the Sequence Box have been repeated Inner Loop Limit number of times.  If an Inner Loop Limit is not set, these are never executed as the sequence will never stop repeating.\nThe Sequence will then go on to the PreMacro if it exists then back to the Sequence."] = true
+L["Reset this macro when you exit combat."] = true
+L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."] = true
+L["Delete this macro.  This is not able to be undone."] = true
+L["Create a new macro."] = true
+L["Edit this macro.  To delete a macro, choose this edit option and then from inside hit the delete button."] = true
+L["Export this Macro."] = true
+L["Create or remove a Macro stub in /macro that can be dragged to your action bar so that you can use this macro.\nGSE can store an unlimited number of macros however WOW's /macro interface can only store a limited number of macros."] = true
+L["Record the spells and items you use into a new macro."] = true
+L["Decompress"] = true
+
+-- GSE 2.4.10
+L["Prompt Samples"] = true
+L["When you log into a class without any macros, prompt to load the sample macros."] = true
+
+-- GSE 2.4.11
+L["About"] = true
+L["About GSE"] = true
+L["History"] = true
+L["GSE was originally forked from GnomeSequencer written by semlar.  It was enhanced by TImothyLuke to include a lot of configuration and boilerplate functionality with a GUI added.  The enhancements pushed the limits of what the original code could handle and was rewritten from scratch into GSE.\n\nGSE itself wouldn't be what it is without the efforts of the people who write macros with it.  Check out https://wowlazymacros.com for the things that make this mod work.  Special thanks to Lutechi for creating this community."] = true
+L["Supporters"] = true
+L["The following people donate monthly via Patreon for the ongoing maintenance and development of GSE.  Their support is greatly appreciated."] = true
+L["Hide Minimap Icon"] = true
+L["Hide Minimap Icon for LibDataBroker (LDB) data text."] = true

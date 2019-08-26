@@ -1,7 +1,10 @@
-changeset:   362:50a860389853
-tag:         v8.1.0.362
-user:        Tercioo
-date:        Fri Mar 01 17:25:10 2019 -0300
-summary:     - Added accessibility option for an extra icon above the quest location for color blind users.
+lightweight tag aab12a1212ef9c82352202249e05550c1f6eb81c v8.2.0.381
+Author:	Tercioo <terciob19@hotmail.com>
+Date:	Sat Aug 17 13:10:04 2019 -0300
 
+commit aab12a1212ef9c82352202249e05550c1f6eb81c
+Author: Tercioo <terciob19@hotmail.com>
+Date:   Sat Aug 17 13:10:04 2019 -0300
+
+    Fixed the issue of sending messages to chat when a new rare is detected
 

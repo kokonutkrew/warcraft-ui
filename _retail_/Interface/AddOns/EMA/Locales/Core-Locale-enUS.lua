@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -12,14 +12,11 @@
 
 local L = LibStub("AceLocale-3.0"):NewLocale( "Core", "enUS", true )
 
-
-
 -- NewLocales
   
 --PreCoded ALL
 L["JAMBA"] = "Jamba"
 L["JAMBA EE"] = "Jamba EE"
-
 L["EMA"] = "EMA"
 L[""] = true
 L[" "] = true
@@ -30,6 +27,8 @@ L[" / "] = true
 L["/"] = true
 L["%"] = true
 L["N/A"] = true
+L["OPEN_CONFIG"] = "Opens The Config"
+L["OPEN_CONFIG_HELP"] = "Opens The Configuration GUI"
 L["PUSH_SETTINGS"] = "Push Settings"
 L["PUSH_ALL_SETTINGS"] = "Push All Settings"
 L["PUSH_SETTINGS_INFO"] = "Push Settings To Team Members" 
@@ -41,11 +40,18 @@ L["MESSAGES_HEADER"] = "Messages"
 L["MESSAGE_AREA"]  = "Message Area"
 L["SEND_WARNING_AREA"] = "Warning Area"
 L["PH"] = "PH"
+L["PH_HELP"] = "Place Holder"
 L["CTRL"] = "Ctrl"
 L["SHIFT"] = "Shift"
 L["ALT"] = "Alt"
 L["UPDATE"] = "Update"
 L["ISBOXER_ADDON_NOT_LOADED"] = "ISBoxer Addon Not Installed Or Loaded"
+L["GLOBAL_LIST"] = "Use Global List"
+L["GLOBAL_SETTINGS_LIST_HELP"] = "Use A Global List \nThis Works Across All Characters"
+L["COPY"] = "Copy"
+L["COPY_HELP"] = "Copy From Local To Global List"
+L["MODULE_LIST"] = "Module List"
+L["CANNOT_OPEN_IN_COMBAT"] = "|cFFFF0000Cannot Open The GUI Config In Combat"
 
 -- Display Options
 L["APPEARANCE_LAYOUT_HEALDER"] = "Appearance & Layout"
@@ -133,7 +139,7 @@ L["A_IS_NOT_IN_TEAM"] = function( characterName )
 end
 --------------------------
 -- Core Locale
-L["STATUSTEXT"] = "EMA: The Even More Awesome MultiBoxing Assistant"
+L["STATUSTEXT"] = "EMA: Ebony's MultiBoxing Assistant"
 L["RESET_SETTINGS_FRAME"] = "Reset Settings Frame"
 L["MODULE_NOT_LOADED"] = "Module Not Loaded Or Is Out Of Date"
 L["RELEASE_NOTES"] = "Release Notes "
@@ -144,34 +150,37 @@ L["RESETTING_PROFILE"] = "Resetting profile: "
 L["PROFILE_DELETED"] = "Profile deleted - iterating all modules."
 L["DELETING_PROFILE"] = "Deleting profile: "
 L["Failed_LOAD_MODULE"] =  "Failed to load EMA Module: "
-L["TEXT1"] = "Ebony's MultiBoxing Assistant v8 For BFA!" 
+L["TEXT1"] = "Ebony's MultiBoxing Assistant v2.2 For 8.2.0!" 
 L["TEXT2"] = ""
-L["TEXT3"] = "This Build Is Beta!"
+L["TEXT3"] = "Welcome To v2.2!"
 L["TEXT4"] = ""
 L["TEXT5"] = ""
-L["TEXT6"] = "Read The ChangeLog For More Information"
+L["TEXT6"] = "|cFFFFFFFFRead The ChangeLog For More Information"
 L["TEXT7"] = ""
 L["TEXT8"] = ""
 L["TEXT9"] = ""
 L["TEXT10"] = ""
 L["SPECIAL_THANKS"] = "Special Thanks:"
-L["THANKS1"] = "Michael \"Jafula\" Miller For Making Jamba That Some Of This Code Is Based Of"
+L["THANKS1"] = "Michael \"Jafula\" Miller For Making Jamba That Some Of This Code Is Based On"
 L["THANKS2"] = "tk911 For Translating EMA To German (DE)"
 L["THANKS3"] = ""
 L["WEBSITES"] = "Websites"
-L["ME"] = "Current Project Manger Jennifer (Ebony) Cally" 
+L["ME"] = "Current Project Manger Jennifer (Ebony) Calladine" 
 L["ME_TWITTER"] = "https://twitter.com/Jenn_Ebony"
 L["D-B"] = "http://Dual-boxing.com"
 L["ISB"] = ""
 L["TEMP_WEBSITE1"] = ""
 L["TEMP_WEBSITE2"] = ""
 L["TEMP_WEBSITE3"] = ""
-L["COPYRIGHT"] = "Copyright (c) 2015-2018  Jennifer Cally"
-L["COPYRIGHTTWO"] = "Released Under License: The MIT License"
+L["COPYRIGHT"] = "Copyright (c) 2015-2019  Jennifer (Cally) Calladine"
+L["COPYRIGHTTWO"] = "Released Under License: All Rights Reserved unless otherwise explicitly stated"
 L["FRAME_RESET"] = "Frame Reset"
 -- Msg 8000
 L["ALL_SETTINGS_RESET"] = "Thank You For Using EMA \nYour settings have been reset. \n\nPlease report any bugs to the source control issue tracker."
 L["CAN_NOT_RUN_JAMBA_AND_EMA"] = "|cFFFF0000 You Can Not Run \"Jamba\" With EMA \nDisabling Jamba Addon \n\nThis Will Reload Your UI"
+-- CHANGE ME!!!
+L["v2_NEWS"] = "|cFFFFFF00Thank You For Upgrading EMA \nYou Are Now On Release v2.2 \n\n|cFFFFFFFFRead Changelog For More Information"
+
 --------------------------
 -- Communications Locale
 
@@ -182,7 +191,12 @@ L["AUTO_SET_TEAM"] = "Auto Set Team Members On and Off Line"
 L["BOOST_COMMUNICATIONS"] = "Boost EMA Communications"
 L["BOOST_COMMUNICATIONS_HELP"] = "Reload UI To Take Effect, May Cause Disconnections"
 L["USE_GUILD_COMMS"] = "Use Guild Communications"
-L["USE_GUILD_COMMS_INFO"] = "Use Guild Communications All Of Team Needs To Be In Same Guild" 
+L["USE_GUILD_COMMS_INFO"] = "Use Guild Communications \nAll Of Team Needs To Be In Same Guild" 
+L["USE_CHANNEL_COMMS"] = "Use Channel Communications"
+L["USE_CHANNEL_COMMS_INFO"] = "Use Chennel Communications \nAll Of Team Needs To Be On The Same Realm" 
+L["AVD_INFORMATION_ONE"] = "All Characters Will Need To Be on the Same Realm Or A Connect Realms"
+L["AVD_INFORMATION_TWO"] = "This Is The Recommended System To Use"
+L["COMMUNICATIONS_AVD"] = "Advanced Communications"
 
 ----------------------------
 -- Helper Locale
@@ -337,6 +351,7 @@ L["NUMBER_OF_ITEMS"] = "Number Of Items"
 L["ITEM_BAR_CLEARED"] = "Item Bar Cleared"
 L["TEAM_BAGS"] = "Items In Team Bags"
 L["BAG_BANK"] = "Bag (Banks)"
+L["QUEST_ITEM"] = "Quest Item"
 
 --------------------------
 -- Sell Locale
@@ -347,6 +362,7 @@ L["ALT_SELL_ALL"] = "Hold [Alt] While Selling An Item, To Sell On All Toons"
 L["ALT_SELL_ALL_HELP"] = "Hold [Alt] Key While Selling An Item To The Vendor, To Sell That Item On All Toons"
 L["AUTO_SELL_ITEMS"] = "Automatically Sell Items"
 L["AUTO_SELL_ITEMS_HELP"] = "Automatically Sell Items Below"
+L["GLOBAL_SELL_LIST"] = "Global Sell List"
 L["BLACKLIST_ITEM"] = "Black List"
 L["BLACKLIST_ITEM_HELP"] = "EMA Can Not Sell This Item \ne.g.: Philosopher's Stones"
 L["DESTROY_ITEM"] = "Destroy Items"
@@ -363,7 +379,11 @@ L["SELL_RARE"] = "|cff0070dd Sell Rare Items"
 L["SELL_RARE_HELP"] = "Sell All Rare(Blue) Items"
 L["SELL_EPIC"] = "|cffa335ee Sell Epic Items"
 L["SELL_EPIC_HELP"]	= "Sell All Epic(Purple) Items"
-L["SELL_LIST_DROP_ITEM"] = "Sell Other Item (DRAG ITEM TO BOX)"
+L["AUTO_SELL_TOYS"] = "|cff00ccff Sell Already Known Toys"
+L["AUTO_SELL_TOYS_HELP"] = "Sell Or Destroy Already Known SoulBound Toys"
+L["AUTO_SELL_MOUNTS"] = "|cff00ccff Already Known Mounts"
+L["AUTO_SELL_MOUNTS_HELP"] = "Sell Or Destroy Already Known SoulBound Mounts"
+L["SELL_LIST_DROP_ITEM"] = "Sell Other Item (Shift+Click Item In Bag)"
 L["ITEM_TAG_ERR"] = "Item Tags Must Only Be Made Up Of Letters And Numbers."
 L["POPUP_REMOVE_ITEM"] = "Are You Sure You Wish To Remove The Selected Item From The Auto Sell: Items List?"
 L["ADD_TO_LIST"] = "Adds Item To List"
@@ -411,16 +431,15 @@ L["TELL_TEAM_BOE_RARE"] = "Tell Team BoE Rare"
 L["TELL_TEAM_BOE_RARE_HELP"] = "Tell The Team If I Loot A BoE Rare"
 L["TELL_TEAM_BOE_EPIC"] = "Tell Team BoE Epic"
 L["TELL_TEAM_BOE_EPIC_HELP"] = "Tell The Team If I Loot A BoE Epic"
+L["TELL_TEAM_BOE_MOUNT"] = "Tell Team Mount"
+L["TELL_TEAM_BOE_MOUNT_HELP"] = "Tell The Team If I Loot A BoE Mount"
 L["I_HAVE_LOOTED_X_Y_ITEM"] = function( rarity, itemName )
 	return string.format( "I Have Looted A %q BoE Item: %s", rarity, itemName )
 end
 L["EPIC"] = "Epic"
 L["RARE"] = "Rare"
 L["REQUESTED_STOP_X"] = function( sender )
-	return string.format( "I Have Requested a Stop From %s", sender )
-end
-L["SETTINGS_RECEIVED_FROM_A"] = function( characterName )
-	return string.format( "Settings Received From %s.", characterName )
+	return string.format( "I Have Requested A Taxi Stop From %s", sender )
 end
 L["I_AM_UNABLE_TO_FLY_TO_A"] = function( nodename )
 	return string.format( "I Am Unable To Fly To %s.", nodename )
@@ -566,7 +585,7 @@ L["PVP_FOLLOW_ERR"] = "Can Not Follow You, I Am Engaged In PvP Combat"
 L["AUTO_BUY_ITEMS"] = "Auto Buy Items"
 L["OVERFLOW"] = "Overflow"
 L["REMOVE_VENDER_LIST"] = "Remove From Vendor List"
-L["ITEM_DROP"] = "Item (Drag Item To Box From Your Bags)"
+L["ITEM_DROP"] = "Item (Shift+Click Item In Bag)"
 L["PURCHASE_ITEMS"] = "Auto Purchase Items"
 L["ADD_ITEM"] = "Add Item"
 L["AMOUNT"] = "Amount"
@@ -582,8 +601,9 @@ L["ERROR_CURR"] = "I Do Not Have Enough Other Currency To Complete My Purchases.
 -- Trade Locale
 L["REMOVE_TRADE_LIST"] = "Are You Sure You Wish To Remove The Selected Item From The Trade Items List?"
 L["TRADE_LIST_HEADER"] = "Trade Item List"
-L["TRADE_LIST"] = "Trade The Items With The EMA-Group Members"
-L["TRADE_LIST_HELP"] = "The List Will Trade With The Selected EMA-Group Member"
+L["TRADE_LIST"] = "Trade Items"
+L["GLOBAL_TRADE_LIST"] = "Global Trade List"
+L["TRADE_LIST_HELP"] = "Trade Items With The Selected EMA-Group Member"
 L["TRADE_BOE_ITEMS"] = "Trades Binds When Equipped Items With:"
 L["TRADE_BOE_ITEMS_HELP"] = "Trade All Binds When Equipped Items with EMA Group"
 L["TRADE_REAGENTS"] = "Trades Crafting Reagents Items With:"
@@ -831,8 +851,8 @@ L["HIDE_QUEST_WATCHER_HELP"] = "Hides The Objective/Quest EMA Tracker Window."
 L["QUEST_TRACKER_HEADER"] = "Quest Tracker Settings"
 L["ENABLE_TRACKER"] = "Enable Objective Tracker"
 L["ENABLE_TRACKER_HELP"] = "Enables The EMA Objective/Quest Tracker"
-L["UNLOCK_TRACKER"] = "Unlocks The Objective Tracker"
-L["UNLOCK_TRACKER_HELP"] = "Unlocks The Objective/Quest Tracker \n\nHold Alt key To Move It\nLock to Click Through"
+L["UNLOCK_TRACKER"] = "Disable Click-Through"
+L["UNLOCK_TRACKER_HELP"] = "Disable Click-Through on the The Objective/Quest Tracker"
 L["HIDE_BLIZZ_OBJ_TRACKER"] = "Hide Blizzard's Objectives Tracker" 
 L["HIDE_BLIZZ_OBJ_TRACKER_HELP"] = "Hides Default Blizzard Objective\Quest Tracker"
 L["SHOW_JOT_ON_MASTER"] = "Show The EMA Objective Tracker On Master Toon"

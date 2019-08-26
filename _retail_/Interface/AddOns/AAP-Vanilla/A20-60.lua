@@ -98,8 +98,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 491,
 			},
 			["UseFlightPath"] = 26504,
-			["PosX"] = 47.8,
-			["PosY"] = 76,
 			["Name"] = "Eastvale Logging Camp, Elwynn",
 			["ETA"] = 97,
 		}, -- [1]

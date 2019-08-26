@@ -28,6 +28,8 @@ local C_AzeriteEmpoweredItem = C_AzeriteEmpoweredItem;
 local GetSpecialization = GetSpecialization;
 local GetSpecializationInfo = GetSpecializationInfo;
 local AzeriteUtil = AzeriteUtil;
+local C_AzeriteEssence = C_AzeriteEssence;
+local FindSpellOverrideByID = FindSpellOverrideByID;
 local UnitCastingInfo = UnitCastingInfo;
 local GetTime = GetTime;
 local GetSpellCooldown = GetSpellCooldown;
@@ -61,6 +63,7 @@ function MaxDps:IntUnitAura(unit, nameOrId, filter, timeShift)
 	local aura = {
 		name           = nil,
 		up             = false,
+		upMath		   = 0,
 		count          = 0,
 		expirationTime = 0,
 		remains        = 0,
@@ -94,6 +97,7 @@ function MaxDps:IntUnitAura(unit, nameOrId, filter, timeShift)
 			return {
 				name           = name,
 				up             = remains > 0,
+				upMath		   = remains > 0 and 1 or 0,
 				count          = count,
 				expirationTime = expirationTime,
 				remains        = remains,
@@ -137,6 +141,7 @@ function MaxDps:CollectAura(unit, timeShift, output, filter)
 		output[id] = {
 			name           = name,
 			up             = remains > 0,
+			upMath		   = remains > 0 and 1 or 0,
 			count          = count,
 			expirationTime = expirationTime,
 			remains        = remains,
@@ -152,6 +157,7 @@ local auraMetaTable = {
 	__index = function()
 		return {
 			up          = false,
+			upMath		= 0,
 			count       = 0,
 			remains     = 0,
 			duration    = 0,
@@ -266,6 +272,57 @@ function MaxDps:GetAzeriteTraits()
 
 	self.AzeriteTraits = t;
 	return t;
+end
+
+function MaxDps:GetAzeriteEssences()
+	if not self.AzeriteEssences then
+		self.AzeriteEssences = {
+			major = false,
+			minor = {}
+		};
+	else
+		self.AzeriteEssences.major = false;
+		self.AzeriteEssences.minor = {};
+	end
+
+	local result = self.AzeriteEssences;
+
+	local milestones = C_AzeriteEssence.GetMilestones();
+	if not milestones then
+		return result;
+	end
+
+	for i, milestoneInfo in ipairs(milestones) do
+		local spellId = C_AzeriteEssence.GetMilestoneSpell(milestoneInfo.ID);
+		local essenceId = C_AzeriteEssence.GetMilestoneEssence(milestoneInfo.ID);
+		if milestoneInfo.unlocked then
+			if milestoneInfo.slot == Enum.AzeriteEssence.MainSlot then
+				-- Major
+				if essenceId and spellId then
+					local realSpellId = FindSpellOverrideByID(spellId);
+					result.major = realSpellId;
+				end
+			elseif milestoneInfo.slot == Enum.AzeriteEssence.PassiveOneSlot or
+				milestoneInfo.slot == Enum.AzeriteEssence.PassiveTwoSlot
+			then
+				if essenceId and spellId then
+					local realSpellId = FindSpellOverrideByID(spellId);
+					result.minor[realSpellId] = true;
+				end
+			end
+		end
+	end
+
+	return result;
+end
+
+function MaxDps:GlowEssences()
+	local fd = MaxDps.FrameData;
+	if not fd.essences.major then
+		return;
+	end
+
+	MaxDps:GlowCooldown(fd.essences.major, fd.cooldown[fd.essences.major].ready);
 end
 
 function MaxDps:DumpAzeriteTraits()

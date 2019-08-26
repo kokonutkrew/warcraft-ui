@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: MIT License 2018 Jennifer Cally							--
+--				License: MIT License 2018-2019 Jennifer Cally							--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 									--
@@ -199,6 +199,19 @@ function EbonyUtilities:FixValueToRange( value, minValue, maxValue )
 	return value
 end
 
+function EbonyUtilities:MerchantFrameIsShown()
+	local Show = false
+	if MerchantFrame:IsVisible() == true then
+		Show = true
+	else
+		if IsAddOnLoaded("TradeSkillMaster" ) == true then
+			if TSM_API.IsUIVisible("VENDORING") == true then
+				Show = true
+			end
+		end
+	end	
+	return Show
+end	
 
 function EbonyUtilities:CheckIsFromMyRealm( name )
 	--print("test", name)

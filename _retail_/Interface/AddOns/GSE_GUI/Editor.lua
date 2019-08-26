@@ -45,6 +45,7 @@ editframe.Height = fheight
 editframe:SetTitle(L["Sequence Editor"])
 --editframe:SetStatusText(L["Gnome Sequencer: Sequence Editor."])
 editframe:SetCallback("OnClose", function (self)
+  GSE.ClearTooltip(editframe)
   editframe:Hide();
   if editframe.save then
     local event = {}
@@ -101,10 +102,16 @@ function GSE.GUIEditorPerformLayout(frame)
   nameeditbox:SetCallback("OnTextChanged", function()
     editframe.SequenceName = nameeditbox:GetText()
   end)
-  -- nameeditbox:SetScript("OnEditFocusLost", function()
-  --   editframe:SetText(string.upper(editframe:GetText()))
-  --   editframe.SequenceName = nameeditbox:GetText()
-  -- end)
+  --nameeditbox:SetScript("OnEditFocusLost", function()
+  --  editframe:SetText(string.upper(editframe:GetText()))
+  --  editframe.SequenceName = nameeditbox:GetText()
+  --end)
+  nameeditbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Sequence Name"], L["The name of your macro.  This name has to be unique and can only be used for one object.\nYou can copy this entire macro by changing the name and choosing Save."], editframe)
+  end)
+  nameeditbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   nameeditbox:DisableButton( true)
   nameeditbox:SetText(editframe.SequenceName)
@@ -124,6 +131,12 @@ function GSE.GUIEditorPerformLayout(frame)
     end
   end)
   iconpicker:SetImage(GSEOptions.DefaultDisabledMacroIcon)
+  iconpicker:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Macro Icon"], L["Drag this icon to your action bar to use this macro. You can change this icon in the /macro window."], editframe)
+  end)
+  iconpicker:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   headerGroup:AddChild(iconpicker)
   editframe.iconpicker = iconpicker
 
@@ -138,6 +151,7 @@ function GSE.GUIEditorPerformLayout(frame)
   tabgrp:SetCallback("OnGroupSelected",  function (container, event, group)
     GSE.GUISelectEditorTab(container, event, group)
   end)
+
   tabgrp:SetFullWidth(true)
   tabgrp:SetFullHeight(true)
 
@@ -150,11 +164,24 @@ function GSE.GUIEditorPerformLayout(frame)
   editOptionsbutton:SetText(L["Options"])
   editOptionsbutton:SetWidth(150)
   editOptionsbutton:SetCallback("OnClick", function() GSE.OpenOptionsPanel() end)
+  editOptionsbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Options"], L["Opens the GSE Options window"], editframe)
+  end)
+  editOptionsbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   local transbutton = AceGUI:Create("Button")
   transbutton:SetText(L["Send"])
   transbutton:SetWidth(150)
   transbutton:SetCallback("OnClick", function() GSE.GUIShowTransmissionGui(editframe.ClassId.. "," ..editframe.SequenceName) end)
+  transbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Send"], L["Send this macro to another GSE player who is on the same server as you are."], editframe)
+  end)
+  transbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
 
   local editButtonGroup = AceGUI:Create("SimpleGroup")
   editButtonGroup:SetWidth(602)
@@ -171,6 +198,12 @@ function GSE.GUIEditorPerformLayout(frame)
     GSE.GUIUpdateSequenceDefinition(editframe.ClassID, editframe.SequenceName, editframe.Sequence)
     editframe.save = true
   end)
+  savebutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Save"], L["Save the changes made to this macro"], editframe)
+  end)
+  savebutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   editButtonGroup:AddChild(savebutton)
   editframe.SaveButton = savebutton
 
@@ -178,6 +211,12 @@ function GSE.GUIEditorPerformLayout(frame)
   delbutton:SetText(L["Delete"])
   delbutton:SetWidth(150)
   delbutton:SetCallback("OnClick", function() GSE.GUIDeleteSequence(editframe.ClassID, editframe.SequenceName) end)
+  delbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Delete"], L["Delete this macro.  This is not able to be undone."], editframe)
+  end)
+  delbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   editButtonGroup:AddChild(delbutton)
 
   editButtonGroup:AddChild(transbutton)
@@ -204,7 +243,7 @@ function GSE:GUIDrawMetadataEditor(container)
   local scrollcontainer = AceGUI:Create("SimpleGroup") -- "InlineGroup" is also good
   scrollcontainer:SetFullWidth(true)
   scrollcontainer:SetHeight(editframe.Height - 260)
-  scrollcontainer:SetLayout("Fill") -- important!
+  scrollcontainer:SetLayout("Fill") -- Important!
 
   local contentcontainer = AceGUI:Create("ScrollFrame")
   scrollcontainer:AddChild(contentcontainer)
@@ -229,6 +268,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.ClassID = tonumber(sid)
     end
   end)
+  speciddropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Specialisation / Class ID"], L["What class or spec is this macro for?  If it is for all classes choose Global."], editframe)
+  end)
+  speciddropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   metasimplegroup:AddChild(speciddropdown)
   speciddropdown:SetValue(Statics.SpecIDList[editframe.Sequence.SpecID])
 
@@ -247,12 +292,26 @@ function GSE:GUIDrawMetadataEditor(container)
   talentseditbox:SetCallback("OnTextChanged", function (obj,event,key)
     editframe.Sequence.Talents = key
   end)
+  talentseditbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Talents"], L["What are the preferred talents for this macro?\n'1,2,3,1,2,3,1' means First row choose the first talent, Second row choose the second talent etc"], editframe)
+  end)
+  talentseditbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   local helpeditbox = AceGUI:Create("MultiLineEditBox")
   helpeditbox:SetLabel(L["Help Information"])
   helpeditbox:SetWidth(250)
   helpeditbox:DisableButton( true)
   helpeditbox:SetNumLines(4)
   helpeditbox:SetFullWidth(true)
+  helpeditbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Help Information"], L["Notes and help on how this macro works.  What things to remember.  This information is shown in the sequence browser."], editframe)
+  end)
+  helpeditbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   if not GSE.isEmpty(editframe.Sequence.Help) then
     helpeditbox:SetText(editframe.Sequence.Help)
   end
@@ -270,6 +329,13 @@ function GSE:GUIDrawMetadataEditor(container)
   helplinkeditbox:SetLabel(L["Help Link"])
   helplinkeditbox:SetWidth(250)
   helplinkeditbox:DisableButton( true)
+  helplinkeditbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Help Link"], L["Website or forum URL where a player can get more information or ask questions about this macro."], editframe)
+  end)
+  helplinkeditbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   if not GSE.isEmpty(editframe.Sequence.Helplink) then
     helplinkeditbox:SetText(editframe.Sequence.Helplink)
   end
@@ -286,6 +352,12 @@ function GSE:GUIDrawMetadataEditor(container)
   authoreditbox:SetLabel(L["Author"])
   authoreditbox:SetWidth(250)
   authoreditbox:DisableButton( true)
+  authoreditbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Author"], L["The author of this macro."], editframe)
+  end)
+  authoreditbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   if not GSE.isEmpty(editframe.Sequence.Author) then
     authoreditbox:SetText(editframe.Sequence.Author)
   end
@@ -310,6 +382,12 @@ function GSE:GUIDrawMetadataEditor(container)
     editframe.Sequence.Default = tonumber(key)
     editframe.Default = tonumber(key)
   end)
+  defaultdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Default Version"], L["The version of this macro that will be used where no other version has been configured."], editframe)
+  end)
+  defaultdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   local spacerlabel4 = AceGUI:Create("Label")
   spacerlabel4:SetWidth(100)
@@ -327,6 +405,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Raid = tonumber(key)
     end
   end)
+  raiddropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Raid"], L["The version of this macro that will be used when you enter raids."], editframe)
+  end)
+  raiddropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   contentcontainer:AddChild(defgroup1)
 
@@ -339,7 +423,20 @@ function GSE:GUIDrawMetadataEditor(container)
   arenadropdown:SetWidth(250)
   arenadropdown:SetList(GSE.GetVersionList())
   arenadropdown:SetValue(tostring(editframe.Arena))
-
+  arenadropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Arena"], L["The version of this macro to use in Arenas.  If this is not specified, GSE will look for a PVP version before the default."], editframe)
+  end)
+  arenadropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+  arenadropdown:SetCallback("OnValueChanged", function (obj,event,key)
+    if editframe.Sequence.Default == tonumber(key) then
+      editframe.Sequence.Arena = nil
+    else
+      editframe.Sequence.Arena = tonumber(key)
+      editframe.Arena = tonumber(key)
+    end
+  end)
 
 
   local mythicdropdown = AceGUI:Create("Dropdown")
@@ -355,13 +452,11 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Mythic = tonumber(key)
     end
   end)
-  arenadropdown:SetCallback("OnValueChanged", function (obj,event,key)
-    if editframe.Sequence.Default == tonumber(key) then
-      editframe.Sequence.Arena = nil
-    else
-      editframe.Sequence.Arena = tonumber(key)
-      editframe.Arena = tonumber(key)
-    end
+  mythicdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Mythic"], L["The version of this macro to use in Mythic Dungeons."], editframe)
+  end)
+  mythicdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
   end)
 
 
@@ -382,7 +477,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.PVP = tonumber(key)
     end
   end)
-
+  pvpdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["PVP"], L["The version of this macro to use in PVP."], editframe)
+  end)
+  pvpdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   contentcontainer:AddChild(defgroup2)
 
@@ -406,6 +506,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Dungeon = tonumber(key)
     end
   end)
+  dungeondropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Dungeon"], L["The version of this macro to use in normal dungeons."], editframe)
+  end)
+  dungeondropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   local spacerlabel6 = AceGUI:Create("Label")
   spacerlabel6:SetWidth(100)
@@ -422,6 +528,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Sequence.Heroic = tonumber(key)
       editframe.Heroic = tonumber(key)
     end
+  end)
+  heroicdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Heroic"], L["The version of this macro to use in heroic dungeons."], editframe)
+  end)
+  heroicdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
   end)
 
   local defgroup4 = AceGUI:Create("SimpleGroup")
@@ -440,6 +552,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Sequence.Party = tonumber(key)
       editframe.Party = tonumber(key)
     end
+  end)
+  partydropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Party"], L["The version of this macro to use when in a party in the world."], editframe)
+  end)
+  partydropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
   end)
 
   local spacerlabel7 = AceGUI:Create("Label")
@@ -465,6 +583,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.Timewalking = tonumber(key)
     end
   end)
+  Timewalkingdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Timewalking"], L["The version of this macro to use when in time walking dungeons."], editframe)
+  end)
+  Timewalkingdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   local spacerlabel8 = AceGUI:Create("Label")
   spacerlabel8:SetWidth(100)
@@ -482,7 +606,12 @@ function GSE:GUIDrawMetadataEditor(container)
       editframe.MythicPlus = tonumber(key)
     end
   end)
-
+  mythicplusdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Mythic+"], L["The version of this macro to use in Mythic+ Dungeons."], editframe)
+  end)
+  mythicplusdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   defgroup1:AddChild(defaultdropdown)
   defgroup1:AddChild(spacerlabel4)
   defgroup1:AddChild(raiddropdown)
@@ -521,14 +650,14 @@ function GSE:GUIDrawMacroEditor(container, version)
   local layoutcontainer = AceGUI:Create("SimpleGroup")
   layoutcontainer:SetFullWidth(true)
   layoutcontainer:SetHeight(editframe.Height - 260 )
-  layoutcontainer:SetLayout("Flow") -- important!
+  layoutcontainer:SetLayout("Flow") -- Important!
 
   local scrollcontainer = AceGUI:Create("SimpleGroup") -- "InlineGroup" is also good
   --scrollcontainer:SetFullWidth(true)
-  --scrollcontainer:SetFullHeight(true) -- probably?
+  --scrollcontainer:SetFullHeight(true) -- Probably?
   scrollcontainer:SetWidth(editframe.Width - 200)
   scrollcontainer:SetHeight(editframe.Height - 260)
-  scrollcontainer:SetLayout("Fill") -- important!
+  scrollcontainer:SetLayout("Fill") -- Important!
 
   local contentcontainer = AceGUI:Create("ScrollFrame")
   scrollcontainer:AddChild(contentcontainer)
@@ -545,6 +674,12 @@ function GSE:GUIDrawMacroEditor(container, version)
     ["Priority"] = L["Priority List (1 12 123 1234)"],
     ["Random"] = L["Random - It will select .... a spell, any spell"]
   })
+  stepdropdown:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Step Function"], L["The step function determines how your macro executes.  Each time you click your macro GSE will go to the next line.  \nThe next line it chooses varies.  If Random then it will choose any line.  If Sequential it will go to the next line.  \nIf Priority it will try some spells more often than others."], editframe)
+  end)
+  stepdropdown:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   if GSE.isEmpty(editframe.Sequence.MacroVersions[version].StepFunction) then
     editframe.Sequence.MacroVersions[version].StepFunction = "Sequential"
   end
@@ -563,6 +698,12 @@ function GSE:GUIDrawMacroEditor(container, version)
   looplimit:DisableButton(true)
   looplimit:SetMaxLetters(4)
   looplimit:SetWidth(100)
+  looplimit:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Inner Loop Limit"], L["Inner Loop Limit controls how many times the Sequence part of your macro executes \nuntil it goes onto to the PostMacro and then resets to the PreMacro."], editframe)
+  end)
+  looplimit:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   linegroup1:AddChild(looplimit)
   if not GSE.isEmpty(editframe.Sequence.MacroVersions[version].LoopLimit) then
@@ -583,6 +724,12 @@ function GSE:GUIDrawMacroEditor(container, version)
   delversionbutton:SetCallback("OnClick", function()
     GSE.GUIDeleteVersion(version)
   end)
+  delversionbutton:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Delete Version"], L["Delete this verion of the macro.  This can be undone by closing this window and not saving the change.  \nThis is different to the Delete button below which will delete this entire macro."], editframe)
+  end)
+  delversionbutton:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   linegroup1:AddChild(delversionbutton)
 
   contentcontainer:AddChild(linegroup1)
@@ -602,6 +749,13 @@ function GSE:GUIDrawMacroEditor(container, version)
   KeyPressbox:SetCallback("OnTextChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].KeyPress = GSE.SplitMeIntolines(value)
   end)
+  KeyPressbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["KeyPress"], L["These lines are executed every time you click this macro.  They are evaluated by WOW before the line in the Sequence Box."], editframe)
+  end)
+  KeyPressbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   linegroup2:AddChild(KeyPressbox)
 
   local spacerlabel2 = AceGUI:Create("Label")
@@ -614,6 +768,13 @@ function GSE:GUIDrawMacroEditor(container, version)
   PreMacro:DisableButton(true)
   PreMacro:SetWidth((editframe.Width - 210) * 0.48)
   PreMacro.editBox:SetScript( "OnLeave",  function() GSE.GUIParseText(PreMacro) end)
+  PreMacro:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["PreMacro"], L["These lines are executed before the lines in the Sequence Box.  If an Inner Loop Limit is not set, these are executed only once.  \nIf an Inner Loop Limit has been set these are executed after the Sequence has been looped through the number of times.  \nThe Sequence will then go on to the Post Macro if it exists then back to the PreMacro."], editframe)
+  end)
+  PreMacro:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   if not GSE.isEmpty(editframe.Sequence.MacroVersions[version].PreMacro) then
     PreMacro:SetText(table.concat(editframe.Sequence.MacroVersions[version].PreMacro, "\n"))
   end
@@ -629,6 +790,13 @@ function GSE:GUIDrawMacroEditor(container, version)
   spellbox:SetNumLines(8)
   spellbox:DisableButton(true)
   spellbox:SetFullWidth(true)
+  spellbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Sequence"], L["The main lines of the macro."], editframe)
+  end)
+  spellbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   spellbox.editBox:SetScript( "OnLeave",  function() GSE.GUIParseText(KeyPressbox) end)
   if not GSE.isEmpty(editframe.Sequence.MacroVersions[version]) then
     spellbox:SetText(table.concat(editframe.Sequence.MacroVersions[version], "\n"))
@@ -654,6 +822,12 @@ function GSE:GUIDrawMacroEditor(container, version)
   KeyReleasebox:DisableButton(true)
   KeyReleasebox:SetWidth((editframe.Width - 210) * 0.48)
   KeyReleasebox.editBox:SetScript( "OnLeave",  function() GSE.GUIParseText(KeyPressbox) end)
+  KeyReleasebox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["KeyRelease"], L["These lines are executed every time you click this macro.  They are evaluated by WOW after the line in the Sequence Box."], editframe)
+  end)
+  KeyReleasebox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   if not GSE.isEmpty(editframe.Sequence.MacroVersions[version].KeyRelease) then
     KeyReleasebox:SetText(table.concat(editframe.Sequence.MacroVersions[version].KeyRelease, "\n"))
   end
@@ -679,6 +853,13 @@ function GSE:GUIDrawMacroEditor(container, version)
   PostMacro:SetCallback("OnTextChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].PostMacro = GSE.SplitMeIntolines(value)
   end)
+  PostMacro:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["PostMacro"], L["These lines are executed after the lines in the Sequence Box have been repeated Inner Loop Limit number of times.  If an Inner Loop Limit is not set, these are never executed as the sequence will never stop repeating.\nThe Sequence will then go on to the PreMacro if it exists then back to the Sequence."], editframe)
+  end)
+  PostMacro:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
   contentcontainer:AddChild(linegroup3)
 
   layoutcontainer:AddChild(scrollcontainer)
@@ -690,18 +871,18 @@ function GSE:GUIDrawMacroEditor(container, version)
   heading2:SetText(L["Resets"])
   toolbarcontainer:AddChild(heading2)
 
-  -- local targetresetcheckbox = AceGUI:Create("CheckBox")
-  -- targetresetcheckbox:SetType("checkbox")
-  -- targetresetcheckbox:SetWidth(78)
-  -- targetresetcheckbox:SetTriState(false)
-  -- targetresetcheckbox:SetLabel(L["Target"])
-  -- toolbarcontainer:AddChild(targetresetcheckbox)
-  -- if editframe.Sequence.MacroVersions[version].Target then
-  --   targetresetcheckbox:SetValue(true)
-  -- end
-  -- targetresetcheckbox:SetCallback("OnValueChanged", function (sel, object, value)
-  --   editframe.Sequence.MacroVersions[version].Target = value
-  -- end)
+  --local targetresetcheckbox = AceGUI:Create("CheckBox")
+  --targetresetcheckbox:SetType("checkbox")
+  --targetresetcheckbox:SetWidth(78)
+  --targetresetcheckbox:SetTriState(false)
+  --targetresetcheckbox:SetLabel(L["Target"])
+  --toolbarcontainer:AddChild(targetresetcheckbox)
+  --if editframe.Sequence.MacroVersions[version].Target then
+  --  targetresetcheckbox:SetValue(true)
+  --end
+  --targetresetcheckbox:SetCallback("OnValueChanged", function (sel, object, value)
+  --  editframe.Sequence.MacroVersions[version].Target = value
+  --end)
 
   local combatresetcheckbox = AceGUI:Create("CheckBox")
   combatresetcheckbox:SetType("checkbox")
@@ -713,6 +894,13 @@ function GSE:GUIDrawMacroEditor(container, version)
   combatresetcheckbox:SetCallback("OnValueChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].Combat = value
   end)
+  combatresetcheckbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Combat"], L["Reset this macro when you exit combat."], editframe)
+  end)
+  combatresetcheckbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
+
 
   local headingspace1 = AceGUI:Create("Label")
   headingspace1:SetText(" ")
@@ -731,6 +919,12 @@ function GSE:GUIDrawMacroEditor(container, version)
     editframe.Sequence.MacroVersions[version].Head = value
   end)
   headcheckbox:SetValue(editframe.Sequence.MacroVersions[version].Head)
+  headcheckbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Head"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
+  end)
+  headcheckbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
 
   toolbarcontainer:AddChild(headcheckbox)
 
@@ -743,6 +937,12 @@ function GSE:GUIDrawMacroEditor(container, version)
     editframe.Sequence.MacroVersions[version].Neck = value
   end)
   neckcheckbox:SetValue(editframe.Sequence.MacroVersions[version].Neck)
+  neckcheckbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Neck"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
+  end)
+  neckcheckbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   toolbarcontainer:AddChild(neckcheckbox)
 
   local beltcheckbox = AceGUI:Create("CheckBox")
@@ -754,6 +954,12 @@ function GSE:GUIDrawMacroEditor(container, version)
     editframe.Sequence.MacroVersions[version].Belt = value
   end)
   beltcheckbox:SetValue(editframe.Sequence.MacroVersions[version].Belt)
+  beltcheckbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Belt"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
+  end)
+  beltcheckbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
+  end)
   toolbarcontainer:AddChild(beltcheckbox)
 
   local ring1checkbox = AceGUI:Create("CheckBox")
@@ -763,6 +969,12 @@ function GSE:GUIDrawMacroEditor(container, version)
   ring1checkbox:SetLabel(L["Ring 1"])
   ring1checkbox:SetCallback("OnValueChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].Ring1 = value
+  end)
+  ring1checkbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Ring 1"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
+  end)
+  ring1checkbox:SetCallback('OnLeave', function ()
+    GSE.ClearTooltip(editframe)
   end)
   ring1checkbox:SetValue(editframe.Sequence.MacroVersions[version].Ring1)
   toolbarcontainer:AddChild(ring1checkbox)
@@ -774,6 +986,12 @@ function GSE:GUIDrawMacroEditor(container, version)
   ring2checkbox:SetLabel(L["Ring 2"])
   ring2checkbox:SetCallback("OnValueChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].Ring2 = value
+  end)
+  ring2checkbox:SetCallback("OnValueChanged", function (sel, object, value)
+    editframe.Sequence.MacroVersions[version].Ring2 = value
+  end)
+  ring2checkbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Ring 2"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
   end)
   ring2checkbox:SetValue(editframe.Sequence.MacroVersions[version].Ring2)
   toolbarcontainer:AddChild(ring2checkbox)
@@ -787,6 +1005,9 @@ function GSE:GUIDrawMacroEditor(container, version)
     editframe.Sequence.MacroVersions[version].Trinket1 = value
   end)
   trinket1checkbox:SetValue(editframe.Sequence.MacroVersions[version].Trinket1)
+  trinket1checkbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Trinket 1"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
+  end)
   toolbarcontainer:AddChild(trinket1checkbox)
 
   local trinket2checkbox = AceGUI:Create("CheckBox")
@@ -796,6 +1017,9 @@ function GSE:GUIDrawMacroEditor(container, version)
   trinket2checkbox:SetLabel(L["Trinket 2"])
   trinket2checkbox:SetCallback("OnValueChanged", function (sel, object, value)
     editframe.Sequence.MacroVersions[version].Trinket2 = value
+  end)
+  trinket2checkbox:SetCallback('OnEnter', function ()
+    GSE.CreateToolTip(L["Trinket 2"], L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."], editframe)
   end)
   trinket2checkbox:SetValue(editframe.Sequence.MacroVersions[version].Trinket2)
   toolbarcontainer:AddChild(trinket2checkbox)

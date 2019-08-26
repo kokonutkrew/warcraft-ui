@@ -28,7 +28,7 @@ Storyline_API.locale.info = {
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 	-- LOCALE_EN
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-	
+
 	["enUS"] = {
 		localeText = "English",
 		localeContent = {
@@ -95,13 +95,18 @@ The frame cannot be moved when using the default position. This option requires 
 
 %s
 ]],
+			SL_BYPASS_NPC = "Bypass this NPC's gossip dialog",
+			SL_BYPASS_NPC_TT = [[Mark this NPC so that its flavor gossip dialog should always be bypassed to directly access its functionality.
+
+Useful for vendors, flight masters or tables to tend to talk to a lot.]],
+			SL_USE_DYNAMIC_BACKGROUNDS = "Use animated backgrounds based on the current zone when possible",
 		}
 	},
-	
+
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 	-- LOCALE_FR
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-	
+
 	["frFR"] = {
 		localeText = "Français",
 		localeContent = {
@@ -110,6 +115,10 @@ The frame cannot be moved when using the default position. This option requires 
 
 %s]=],
 	["SL_ACCEPTANCE"] = "J'accepte.",
+	["SL_BYPASS_NPC"] = "Passer le texte d'ambiance de ce PNJ",
+	["SL_BYPASS_NPC_TT"] = [=[Marque ce PNJ pour que Storyline désactiver les textes aditionnels d'ambiance qui sont ré-activés par l'option "Forcer les textes des PNJs", et accéder directement à la fonctionnalité du PNJ à la place.
+
+Pratique pour les vendeurs, maîtres de vols ou les tables qui parlent.]=],
 	["SL_CHECK_OBJ"] = "Vérifier objectifs",
 	["SL_CONFIG"] = "Configuration",
 	["SL_CONFIG_AUTOEQUIP"] = "Équipement automatique (expérimental)",
@@ -184,6 +193,10 @@ Expérience: |cffffffff%s xp|r
 	["esES"] = {
 		localeText = "Español",
 		localeContent = {
+	["SL_ABOUT"] = "Acerca de",
+	["SL_ABOUT_TEXT"] = [=[Este add-on se mantiene y actualiza gracias a la ayuda de quienes apoyan el Patreon de Ellypse (|cffcccccchttp://patreon.com/Ellypse|r):
+
+%s]=],
 	["SL_ACCEPTANCE"] = "Acepto",
 	["SL_CHECK_OBJ"] = "Comprueba los objetivos",
 	["SL_CONFIG"] = "Configuración",
@@ -193,7 +206,9 @@ Expérience: |cffffffff%s xp|r
 —Poema de Rohan sobre su fundador, Eorl el Joven]=],
 	["SL_CONFIG_DEBUG"] = "Modo de depuración",
 	["SL_CONFIG_DEBUG_TT"] = "Activa el marco de depuración que muestra información de desarrollo debajo del marco de Storyline",
+	["SL_CONFIG_DIALOG_CHOICES"] = "Opciones de diálogo",
 	["SL_CONFIG_DIALOG_TEXT"] = "Texto de dialogo",
+	["SL_CONFIG_DISABLE_IN_DMF_TT"] = "Deshabilitar automáticamente Storyline cuando estás en la Isla de la Feria de la Luna Negra.",
 	["SL_CONFIG_DISABLE_IN_INSTANCES"] = "Deshabilitar Storyline en estancias",
 	["SL_CONFIG_DISABLE_IN_INSTANCES_TT"] = "Deshabilitar automáticamente Storyline cuando estés en una estancia (mazmorra, campo de batalla, banda, escenario...)",
 	["SL_CONFIG_FORCEGOSSIP"] = "Forzar diálogos de PNJs",

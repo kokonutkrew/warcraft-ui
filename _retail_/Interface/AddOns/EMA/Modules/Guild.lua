@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -41,9 +41,15 @@ EMA.moduleOrder = 20
 
 -- Settings - the values to store and their defaults for the settings database.
 EMA.settings = {
+	 global = {
+		['**'] = {
+			autoGuildItemsListGlobal = {},
+		},
+	 },
 	profile = {
 		messageArea = EMAApi.DefaultMessageArea(),
 		showEMAGuildWindow = false,
+		globalGuildList = false,
 		blackListItem = false,
 		guildBoEItems = false,
 		autoGuildBankTabBoE = "1",
@@ -51,7 +57,7 @@ EMA.settings = {
 		autoBoEItemTag = EMAApi.AllGroup(),	
 		guildCRItems = false,
 		autoGuildBankTabCR = "1",
-		autoCRItemTag = EMAApi.AllGroup(),
+		autoGuildCRItemTag = EMAApi.AllGroup(),
 		autoGuildItemsList = {},
 		adjustMoneyWithGuildBank = false,
 		goldAmountToKeepOnToon = 250,
@@ -68,14 +74,30 @@ function EMA:GetConfiguration()
 		get = "EMAConfigurationGetSetting",
 		set = "EMAConfigurationSetSetting",
 		args = {
+			config = {
+				type = "input",
+				name = L["OPEN_CONFIG"],
+				desc = L["OPEN_CONFIG_HELP"],
+				usage = "/ema-guild config",
+				get = false,
+				set = "",				
+			},
 			push = {
 				type = "input",
 				name = L["PUSH_SETTINGS"],
 				desc = L["PUSH_ALL_SETTINGS"],
-				usage = "/EMA-Guild push",
+				usage = "/ema-guild push",
 				get = false,
 				set = "EMASendSettings",
 				guiHidden = true,
+			},
+			copy = {
+				type = "input",
+				name = L["COPY"],
+				desc = L["COPY_HELP"],
+				usage = "/ema-guild copy",
+				get = false,
+				set = "CopyListCommmand",
 			},
 		},
 	}
@@ -156,6 +178,7 @@ end
 -- Called when the addon is enabled.
 function EMA:OnEnable()
 	EMA:RegisterEvent( "GUILDBANKFRAME_OPENED" )
+	EMA:RawHook( "ContainerFrameItemButton_OnModifiedClick", true)
 	EMA:RegisterMessage( EMAApi.MESSAGE_MESSAGE_AREAS_CHANGED, "OnMessageAreasChanged" )
 	EMA:RegisterMessage( EMAApi.GROUP_LIST_CHANGED , "OnGroupAreasChanged" )
 	-- Update DropDownList
@@ -216,13 +239,22 @@ function EMA:SettingsCreateGuild( top )
 	movingTop = movingTop - headingHeight
 	EMA.settingsControl.checkBoxShowEMAGuildWindow = EMAHelperSettings:CreateCheckBox( 
 		EMA.settingsControl, 
-		headingWidth, 
-		left2, 
+		halfWidth, 
+		left, 
 		movingTop, 
 		L["GUILD_LIST"],
 		EMA.SettingsToggleShowEMAGuildWindow,
 		L["GUILD_LIST_HELP"]
 	)	
+	EMA.settingsControl.checkBoxGlobalGuildList = EMAHelperSettings:CreateCheckBox( 
+		EMA.settingsControl, 
+		halfWidth, 
+		left3, 
+		movingTop, 
+		L["GLOBAL_LIST"],
+		EMA.SettingsToggleGlobalGuildList,
+		L["GLOBAL_SETTINGS_LIST_HELP"]
+	)
 	movingTop = movingTop - checkBoxHeight
 	EMA.settingsControl.GuildItemsHighlightRow = 1
 	EMA.settingsControl.GuildItemsOffset = 1
@@ -473,6 +505,7 @@ function EMA:SettingsGuildItemsAddClick( event )
 	if EMA.autoGuildItemLink ~= nil and EMA.autoGuildBankTab ~= nil and EMA.db.guildTagName ~= nil then
 		EMA:AddItem( EMA.autoGuildItemLink, EMA.autoGuildBankTab, EMA.db.guildTagName, EMA.db.blackListItem )
 		EMA.autoGuildItemLink = nil
+		EMA.settingsControl.GuildItemsEditBoxGuildItem:SetText( "" )
 		EMA:SettingsRefresh()
 	end
 end
@@ -547,7 +580,7 @@ function EMA:GBTabDropDownListCR (event, value )
 	if value == " " or value == nil then 
 		return 
 	end
-	EMA.db.autoGuildBankTabCR = value
+	EMA.db.autoGuildBankTabCR = tonumber(value)
 	EMA:SettingsRefresh()
 end
 
@@ -558,7 +591,7 @@ function EMA:GroupListDropDownListCR (event, value )
 	end
 	for index, groupName in ipairs( EMAApi.GroupList() ) do
 		if index == value then
-			EMA.db.autoCRItemTag = groupName
+			EMA.db.autoGuildCRItemTag = groupName
 			break
 		end
 	end
@@ -579,6 +612,11 @@ function EMA:SettingsSetMessageArea( event, value )
 	EMA.db.messageArea = value
 	EMA:SettingsRefresh()
 end
+
+function EMA:SettingsToggleGlobalGuildList( event, checked )
+	EMA.db.globalGuildList = checked
+	EMA:SettingsRefresh()
+end	
 
 function EMA:SettingsToggleShowEMAGuildWindow( event, checked )
 	EMA.db.showEMAGuildWindow = checked
@@ -603,20 +641,29 @@ function EMA:EditBoxChangedGoldAmountToLeaveOnToon( event, text )
 	EMA:SettingsRefresh()
 end
 
+function EMA:CopyListCommmand()
+	EMA:Print("Copying Local List To Global List")
+	EMA.db.global.autoGuildItemsListGlobal = EMAUtilities:CopyTable( EMA.db.autoGuildItemsList )
+	EMA:SettingsRefresh()
+end
+
+
 -- Settings received.
 function EMA:EMAOnSettingsReceived( characterName, settings )	
 	if characterName ~= EMA.characterName then
 		-- Update the settings.
 		EMA.db.messageArea = settings.messageArea
 		EMA.db.showEMAGuildWindow = settings.showEMAGuildWindow
+		EMA.db.globalGuildList = settings.globalGuildList
 		EMA.db.guildTagName = settings.guildTagName
 		EMA.db.guildBoEItems = settings.guildBoEItems
 		EMA.db.autoGuildBankTabBoE = settings.autoGuildBankTabBoE
 		EMA.db.autoBoEItemTag = settings.autoBoEItemTag
 		EMA.db.guildCRItems = settings.guildCRItems
 		EMA.db.autoGuildBankTabCR = settings.autoGuildBankTabCR
-		EMA.db.autoCRItemTag = settings.autoCRItemTag
+		EMA.db.autoGuildCRItemTag = settings.autoGuildCRItemTag
 		EMA.db.autoGuildItemsList = EMAUtilities:CopyTable( settings.autoGuildItemsList )
+		EMA.db.global.autoGuildItemsListGlobal = EMAUtilities:CopyTable( settings.global.autoGuildItemsListGlobal )
 		EMA.db.adjustMoneyWithGuildBank = settings.adjustMoneyWithGuildBank
 		EMA.db.goldAmountToKeepOnToon = settings.goldAmountToKeepOnToon
 		-- Refresh the settings.
@@ -635,6 +682,9 @@ end
 
 function EMA:SettingsRefresh()
 	EMA.settingsControl.checkBoxShowEMAGuildWindow:SetValue( EMA.db.showEMAGuildWindow )
+	-- global CheckBox
+	EMA.settingsControl.checkBoxGlobalGuildList:SetValue( EMA.db.globalGuildList )
+	EMA.settingsControl.checkBoxGlobalGuildList:SetDisabled( not EMA.db.showEMAGuildWindow )
 	EMA.settingsControl.GuildItemsEditBoxGuildTag:SetText( EMA.db.guildTagName )
 	EMA.settingsControl.checkBoxGuildBoEItems:SetValue( EMA.db.guildBoEItems )
 	EMA.settingsControl.listCheckBoxBoxOtherBlackListItem:SetValue( EMA.db.blackListItem )
@@ -642,7 +692,7 @@ function EMA:SettingsRefresh()
 	EMA.settingsControl.guildTradeBoEItemsTagBoE:SetText( EMA.db.autoBoEItemTag )
 	EMA.settingsControl.checkBoxGuildCRItems:SetValue( EMA.db.guildCRItems )
 	EMA.settingsControl.tabNumListDropDownListCR:SetText( EMA.db.autoGuildBankTabCR )
-	EMA.settingsControl.guildTradeCRItemsTagCR:SetText( EMA.db.autoCRItemTag )
+	EMA.settingsControl.guildTradeCRItemsTagCR:SetText( EMA.db.autoGuildCRItemTag )
 	EMA.settingsControl.dropdownMessageArea:SetValue( EMA.db.messageArea )
 	EMA.settingsControl.checkBoxAdjustMoneyOnToonViaGuildBank:SetValue( EMA.db.adjustMoneyWithGuildBank )
 	EMA.settingsControl.editBoxGoldAmountToLeaveOnToon:SetText( tostring( EMA.db.goldAmountToKeepOnToon ) )
@@ -675,12 +725,62 @@ end
 -- Guild functionality.
 -------------------------------------------------------------------------------------------------------------
 
+function EMA:ContainerFrameItemButton_OnClick(self, event, ... )
+	--EMA:Print("tester")
+	if EMAPrivate.SettingsFrame.Widget:IsVisible() == true then	
+		local GUIPanel = EMAPrivate.SettingsFrame.TreeGroupStatus.selected
+		local currentModule = string.find(GUIPanel, EMA.moduleDisplayName) 
+		--EMA:Print("test2", GUIPanel, "vs", currentModule )
+		if currentModule ~= nil then
+			local itemID, itemLink = GameTooltip:GetItem()
+				--EMA:Print("test1", itemID, itemLink )
+			if itemLink ~= nil then
+				EMA.settingsControl.GuildItemsEditBoxGuildItem:SetText( itemLink )
+				EMA.autoGuildItemLink = itemLink	
+			end
+		else
+			return EMA.hooks["ContainerFrameItemButton_OnClick"]( self, event, ... )
+		end
+	else
+		return EMA.hooks["ContainerFrameItemButton_OnClick"]( self, event, ... )
+	end		
+end
+
+function EMA:ContainerFrameItemButton_OnModifiedClick( self, event, ... )
+	local isConfigOpen = EMAPrivate.SettingsFrame.Widget:IsVisible()
+	if isConfigOpen == true and IsShiftKeyDown() == true then
+		local GUIPanel = EMAPrivate.SettingsFrame.TreeGroupStatus.selected
+		local currentModule = string.find(GUIPanel, EMA.moduleDisplayName) 
+		--EMA:Print("test2", GUIPanel, "vs", currentModule )
+		if currentModule ~= nil then
+			local itemID, itemLink = GameTooltip:GetItem()
+			--EMA:Print("test1", itemID, itemLink )
+			if itemLink ~= nil then
+				EMA.settingsControl.GuildItemsEditBoxGuildItem:SetText( "" )
+				EMA.settingsControl.GuildItemsEditBoxGuildItem:SetText( itemLink )
+				EMA.autoGuildItemLink = itemLink
+				return
+			end
+		end	
+	end	
+	return EMA.hooks["ContainerFrameItemButton_OnModifiedClick"]( self, event, ... )
+end
+
+
 function EMA:GetGuildItemsMaxPosition()
-	return #EMA.db.autoGuildItemsList
+	if EMA.db.globalGuildList == true then
+		return #EMA.db.global.autoGuildItemsListGlobal
+	else
+		return #EMA.db.autoGuildItemsList
+	end	
 end
 
 function EMA:GetGuildItemsAtPosition( position )
-	return EMA.db.autoGuildItemsList[position]
+	if EMA.db.globalGuildList == true then
+		return EMA.db.global.autoGuildItemsListGlobal[position]
+	else
+		return EMA.db.autoGuildItemsList[position]
+	end	
 end
 
 function EMA:AddItem( itemLink, GBTab, itemTag, blackList )
@@ -695,14 +795,22 @@ function EMA:AddItem( itemLink, GBTab, itemTag, blackList )
 		itemInformation.GBTab = GBTab
 		itemInformation.tag = itemTag
 		itemInformation.blackList = blackList
+		if EMA.db.globalGuildList == true then
+			table.insert( EMA.db.global.autoGuildItemsListGlobal, itemInformation )
+		else	
 			table.insert( EMA.db.autoGuildItemsList, itemInformation )
-			EMA:SettingsRefresh()			
-			EMA:SettingsGuildItemsRowClick( 1, 1 )
+		end
+		EMA:SettingsRefresh()			
+		EMA:SettingsGuildItemsRowClick( 1, 1 )
 	end	
 end
 
 function EMA:RemoveItem()
-	table.remove( EMA.db.autoGuildItemsList, EMA.settingsControl.GuildItemsHighlightRow )
+	if EMA.db.globalGuildList == true then
+		table.remove( EMA.db.global.autoGuildItemsListGlobal, EMA.settingsControl.listHighlightRow )
+	else
+		table.remove( EMA.db.autoGuildItemsList, EMA.settingsControl.GuildItemsHighlightRow )
+	end
 	EMA:SettingsRefresh()
 	EMA:SettingsGuildItemsRowClick( EMA.settingsControl.GuildItemsHighlightRow  - 1, 1 )		
 end
@@ -717,7 +825,7 @@ function EMA:GUILDBANKFRAME_OPENED()
 end
 
 function EMA:AddAllToGuildBank()
-	local delay = 1
+	local delay = 0
 	for bagID = 0, NUM_BAG_SLOTS do
 		for slotID = 1,GetContainerNumSlots( bagID ),1 do 
 			--EMA:Print( "Bags OK. checking", itemLink )
@@ -747,15 +855,21 @@ function EMA:AddAllToGuildBank()
 					end	
 					if EMA.db.guildCRItems == true then
 						if isCraftingReagent == true then
-							if EMAApi.IsCharacterInGroup(  EMA.characterName, EMA.db.autoCRItemTag ) == true then
+							if EMAApi.IsCharacterInGroup(  EMA.characterName, EMA.db.autoGuildCRItemTag ) == true then
 								if isBop == false then
 									canPlace = true
-									bankTab = EMA.db.autoGuildBankTabCR		
+									bankTab = EMA.db.autoGuildBankTabCR
 								end
 							end										
 						end
 					end
-					for position, itemInformation in pairs( EMA.db.autoGuildItemsList ) do
+				
+					if EMA.db.globalGuildList == true then
+						itemTable = EMA.db.global.autoGuildItemsListGlobal
+					else
+						itemTable = EMA.db.autoGuildItemsList
+					end
+					for position, itemInformation in pairs( itemTable  ) do
 						if EMAUtilities:DoItemLinksContainTheSameItem( itemLink, itemInformation.link ) then
 							if EMAApi.IsCharacterInGroup(  EMA.characterName, itemInformation.tag ) == true then
 								--EMA:Print("DataTest", itemInformation.link, itemInformation.blackList )
@@ -768,8 +882,9 @@ function EMA:AddAllToGuildBank()
 							end
 						end
 					end	
+					--	EMA:Print("tester", canPlace, bankTab, itemLink, "a", bagID, slotID )
 					if canPlace == true and bankTab ~= 0 then
-						delay = delay + 3
+						delay = delay + 1
 						EMA:ScheduleTimer("PlaceItemInGuildBank", delay , bagID, slotID, bankTab )	
 					end
 				end	
@@ -794,10 +909,10 @@ function EMA:PlaceItemInGuildBank(bagID, slotID, tab)
 				for slot = 1, MAX_GUILDBANK_SLOTS_PER_TAB or 98 do 
 					local texture, count, locked = GetGuildBankItemInfo(tab, slot)
 					if not locked then
-						PickupContainerItem( bagID ,slotID  )
+						--PickupContainerItem( bagID ,slotID  )
 						UseContainerItem( bagID ,slotID  )
 					end
-				end		
+				end				
 			end
 		end	
 	end

@@ -29,11 +29,43 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanlock", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanmage", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanmonk", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanpally", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanpriest", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanrouge", 
             "template": "default"
         }, 
         {
-            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/test", 
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanshaman", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Emerald Dream/Samoanwar", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Ravenholdt/Afishman", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Ravenholdt/Hfishman", 
             "template": "default"
         }, 
         {
@@ -50,6 +82,10 @@
         }, 
         {
             "path": "_retail_/WTF/Account/384591484#1/Stormrage/Samoandruid", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/384591484#1/Tichondrius/Samoandrued", 
             "template": "default"
         }, 
         {
@@ -77,6 +113,10 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/73043797#2/Tichondrius/Grapejellie", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/73043797#2/Tichondrius/Samoantiger", 
             "template": "default"
         }, 
@@ -85,7 +125,35 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/73043797#2/Tichondrius/Wealthxport", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/FOXXER/Emerald Dream/Aeredyl", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/FOXXER/Sargeras/Triprunner", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/ICEWLF/Emerald Dream/Mercis", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/ICEWLF/Zul'jin/Phyra", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoaninja", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoanlegend", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoanmystic", 
             "template": "default"
         }, 
         {
@@ -101,6 +169,10 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoansaint", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoansavage", 
             "template": "default"
         }, 
@@ -113,6 +185,10 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoansmash", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoanspy", 
             "template": "default"
         }, 
@@ -122,6 +198,14 @@
         }, 
         {
             "path": "_retail_/WTF/Account/SHGRSHN/Emerald Dream/Samoantitan", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Ravenholdt/Hfishsamoan", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Ravenholdt/Kalin", 
             "template": "default"
         }, 
         {
@@ -165,11 +249,39 @@
             "template": "default"
         }, 
         {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Gfsdfgsd", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoanmystic", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoanrelic", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoansaint", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoansavage", 
+            "template": "default"
+        }, 
+        {
             "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoansneaky", 
             "template": "default"
         }, 
         {
             "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Samoantank", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Serepa", 
+            "template": "default"
+        }, 
+        {
+            "path": "_retail_/WTF/Account/SHGRSHN/Tichondrius/Shgrshn", 
             "template": "default"
         }
     ]

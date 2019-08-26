@@ -91,6 +91,12 @@ local WatcherOptions = {
         ["v"] = 1,
         ["default"] = false,
         ["parents"] = { ["WatchFishies"] = "d" } },
+--    ["WatchWarnFishing"] = {
+--        ["text"] = FBConstants.CONFIG_FISHWARNFISHING_ONOFF,
+--        ["tooltip"] = FBConstants.CONFIG_FISHWARNFISHING_INFO,
+--        ["v"] = 1,
+--        ["default"] = false,
+--        ["parents"] = { ["WatchFishies"] = "d" } },
 };
 
 local FWF = {};
@@ -421,7 +427,23 @@ local function BuildCurrentData()
     SortFishData();
 end
 
-local function HandleZoneChange()
+local lastContinent = 0;
+local function DisplaySkillWarning()
+    if False and GSB("WatchWarnFishing") then
+        local continent, _ = FL:GetCurrentMapContinent();
+        if continent ~= lastContinent then
+            local skill, modx, skillmax, lure = FL:GetContinentSkill(continent);
+            if skillmax == 0 then
+                UIErrorsFrame:AddMessage(FBConstants.CHECKSKILLWINDOW, 1.0, 1.0, 0.0, 10);
+            elseif skill == 0 then
+                UIErrorsFrame:AddMessage(FBConstants.UNLEARNEDSKILLWINDOW, 1.0, 0.0, 0.0, 10);
+            end
+            lastContinent = continent;
+        end
+    end
+end
+
+local function HandleZoneChange(self, event, ...)
     if ( not FishingBuddy.IsLoaded() ) then
         return;
     end
@@ -434,6 +456,12 @@ local function HandleZoneChange()
         FishingBuddy.SetSetting("TotalTimeFishing", TotalTimeFishing);
     end
 end
+
+FL.RegisterCallback('FishingWatcher', FL.PLAYER_SKILL_READY, function()
+    lastContinent = 0;
+--    DisplaySkillWarning();
+end);
+
 
 -- keep track of what's going on
 local WatchEvents = {};

@@ -19,23 +19,23 @@ local sort = sort;
 local pairs = pairs;
 local format = format;
 
----@type Color
+---@type Ellyb_Color
 local PURPLE = Ellyb.ColorManager.PURPLE;
 
 local GOLDEN_SUPPORTERS = {
 	"Connor Macleod",
 	"Andiss Aaren",
+	"Adam M",
 	"Vlad",
 }
 
 local PATREON_SUPPORTERS = {
-	"Adam M",
-	"Valnoressa",
 	"Solanya",
 	"Ripperley",
 	"Keyboardturner",
 	"Petr Cihelka",
 	"Syccor",
+	"Donnie Bellorniere",
 }
 
 sort(GOLDEN_SUPPORTERS);

@@ -129,6 +129,7 @@ function AAP.ZoneQuestOrderList()
 	AAP.ZoneQuestOrder["AAP_Button"]:SetScript("OnClick", function(self, arg1)
 		AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowQuestListOrder"] = 0
 		AAP.ZoneQuestOrder:Hide()
+		AAP.OptionsFrame.QorderListzCheckButton:SetChecked(false)
 	end)
 	AAP.ZoneQuestOrder:SetBackdrop( { 
 		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 

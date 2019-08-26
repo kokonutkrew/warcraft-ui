@@ -143,6 +143,10 @@ VER 3 00000000000000B2 "GRM_Roster" "Achievement_pvp_h_a"
 /run GuildFrame_Toggle()
 /run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
+VER 3 0000000000000061 "Invite" "135026"
+--/run GuildManager:InviteAction()
+/flood on
+END
 VER 3 000000000000000E "Invite" "135946"
 /run InviteUnit("Tigerlilly");
 /run InviteUnit("Mancub"); 
@@ -150,10 +154,6 @@ VER 3 000000000000000E "Invite" "135946"
 /run InviteUnit("Kickbrass"); 
 /ffa
 /changeactionbar 2
-END
-VER 3 0000000000000061 "Invite" "135026"
---/run GuildManager:InviteAction()
-/flood on
 END
 VER 3 000000000000008E "LeaveParty" "132219"
 /leave party

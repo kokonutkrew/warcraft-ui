@@ -318,10 +318,31 @@ function AAP.LoadOptionsFrame()
 		self:SetValue(tonumber(self:GetValue())+delta)
 	end)
 	AAP.OptionsFrame.QuestOrderListScaleSlider:SetValue(AAP1[AAP.Realm][AAP.Name]["Settings"]["OrderListScale"] * 100)
-	
+
+
+
+	AAP.OptionsFrame.QorderListzCheckButton = CreateFrame("CheckButton", "AAP_QorderListzCheckButton", AAP.OptionsFrame.MainFrame.OptionsQuests, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.QorderListzCheckButton:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame.OptionsQuests, "TOPLEFT", 10, -185)
+	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowQuestListOrder"] == 0) then
+		AAP.OptionsFrame.QorderListzCheckButton:SetChecked(false)
+	else
+		AAP.OptionsFrame.QorderListzCheckButton:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.QorderListzCheckButton:GetName() .. 'Text'):SetText(": Show QuestOrderList")
+	getglobal(AAP.OptionsFrame.QorderListzCheckButton:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.QorderListzCheckButton:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.QorderListzCheckButton:GetChecked() == true) then
+			AAP.UpdateZoneQuestOrderList("LoadIn")
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowQuestListOrder"] = 1
+			AAP.ZoneQuestOrder:Show()
+		else
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowQuestListOrder"] = 0
+			AAP.ZoneQuestOrder:Hide()
+		end
+	end)	
 	
 	AAP.OptionsFrame.WorldQuestsCheckButton = CreateFrame("CheckButton", "AAP_WorldQuestsCheckButton", AAP.OptionsFrame.MainFrame.OptionsQuests, "ChatConfigCheckButtonTemplate");
-	AAP.OptionsFrame.WorldQuestsCheckButton:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame.OptionsQuests, "TOPLEFT", 10, -185)
+	AAP.OptionsFrame.WorldQuestsCheckButton:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame.OptionsQuests, "TOPLEFT", 10, -210)
 	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["WQs"] == 0) then
 		AAP.OptionsFrame.WorldQuestsCheckButton:SetChecked(false)
 	else
@@ -337,7 +358,26 @@ function AAP.LoadOptionsFrame()
 		end
 	end)
 	
-	
+	AAP.OptionsFrame.LegionCheckButton = CreateFrame("CheckButton", "AAP_LegionCheckButton", AAP.OptionsFrame.MainFrame.OptionsQuests, "ChatConfigCheckButtonTemplate");
+	AAP.OptionsFrame.LegionCheckButton:SetPoint("TOPLEFT", AAP.OptionsFrame.MainFrame.OptionsQuests, "TOPLEFT", 10, -235)
+	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["Legion"] == 0) then
+		AAP.OptionsFrame.LegionCheckButton:SetChecked(false)
+	else
+		AAP.OptionsFrame.LegionCheckButton:SetChecked(true)
+	end
+	getglobal(AAP.OptionsFrame.LegionCheckButton:GetName() .. 'Text'):SetText(": Enable Legion Questroutes")
+	getglobal(AAP.OptionsFrame.LegionCheckButton:GetName() .. 'Text'):SetTextColor(1, 1, 1)
+	AAP.OptionsFrame.LegionCheckButton:SetScript("OnClick", function()
+		if (AAP.OptionsFrame.LegionCheckButton:GetChecked() == true) then
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["Legion"] = 1
+			AAP.BookingList["UpdateMapId"] = 1
+			AAP.BookingList["PrintQStep"] = 1
+		else
+			AAP1[AAP.Realm][AAP.Name]["Settings"]["Legion"] = 0
+			AAP.BookingList["UpdateMapId"] = 1
+			AAP.BookingList["PrintQStep"] = 1
+		end
+	end)
 	
 	
 	
@@ -975,34 +1015,7 @@ function AAP.LoadOptionsFrame()
 		AAP.ResetSettings()
 	end)
 
-	AAP.OptionsFrame["Button4"] = CreateFrame("Button", "AAP_OptionsButtons4", AAP.OptionsFrame.MainFrame, "SecureActionButtonTemplate")
-	AAP.OptionsFrame["Button4"]:SetPoint("BOTTOMRIGHT",AAP.OptionsFrame.MainFrame,"BOTTOMRIGHT",-310,5)
-	AAP.OptionsFrame["Button4"]:SetWidth(130)
-	AAP.OptionsFrame["Button4"]:SetHeight(30)
-	AAP.OptionsFrame["Button4"]:SetText("Quest Order List")
-	AAP.OptionsFrame["Button4"]:SetParent(AAP.OptionsFrame.MainFrame)
-	AAP.OptionsFrame.Button4:SetFrameStrata("HIGH")
-	AAP.OptionsFrame.Button4:SetNormalFontObject("GameFontNormal")
-	AAP.OptionsFrame.Button4ntex = AAP.OptionsFrame.Button4:CreateTexture()
-	AAP.OptionsFrame.Button4ntex:SetTexture("Interface/Buttons/UI-Panel-Button-Up")
-	AAP.OptionsFrame.Button4ntex:SetTexCoord(0, 0.625, 0, 0.6875)
-	AAP.OptionsFrame.Button4ntex:SetAllPoints()	
-	AAP.OptionsFrame.Button4:SetNormalTexture(AAP.OptionsFrame.Button4ntex)
-	AAP.OptionsFrame.Button4htex = AAP.OptionsFrame.Button4:CreateTexture()
-	AAP.OptionsFrame.Button4htex:SetTexture("Interface/Buttons/UI-Panel-Button-Highlight")
-	AAP.OptionsFrame.Button4htex:SetTexCoord(0, 0.625, 0, 0.6875)
-	AAP.OptionsFrame.Button4htex:SetAllPoints()
-	AAP.OptionsFrame.Button4:SetHighlightTexture(AAP.OptionsFrame.Button4htex)
-	AAP.OptionsFrame.Button4ptex = AAP.OptionsFrame.Button4:CreateTexture()
-	AAP.OptionsFrame.Button4ptex:SetTexture("Interface/Buttons/UI-Panel-Button-Down")
-	AAP.OptionsFrame.Button4ptex:SetTexCoord(0, 0.625, 0, 0.6875)
-	AAP.OptionsFrame.Button4ptex:SetAllPoints()
-	AAP.OptionsFrame.Button4:SetPushedTexture(AAP.OptionsFrame.Button4ptex)
-	AAP.OptionsFrame["Button4"]:SetScript("OnClick", function(self, arg1)
-		AAP.UpdateZoneQuestOrderList("LoadIn")
-		AAP1[AAP.Realm][AAP.Name]["Settings"]["ShowQuestListOrder"] = 1
-		AAP.ZoneQuestOrder:Show()
-	end)
+
 
 
 end

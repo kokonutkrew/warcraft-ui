@@ -96,6 +96,7 @@ local function AAP_CreateQuestList()
 				AAP.PartyList.PartyFrame.isMoving = false;
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["Partyleft"] = AAP.PartyList.PartyFrame:GetLeft()
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["Partytop"] = AAP.PartyList.PartyFrame:GetTop() - GetScreenHeight()
+				AAP.PartyList.PartyFrame:ClearAllPoints()
 				AAP.PartyList.PartyFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["Partyleft"], AAP1[AAP.Realm][AAP.Name]["Settings"]["Partytop"])
 			end
 		end)
@@ -105,6 +106,7 @@ local function AAP_CreateQuestList()
 				AAP.PartyList.PartyFrame.isMoving = false;
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["Partyleft"] = AAP.PartyList.PartyFrame:GetLeft()
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["Partytop"] = AAP.PartyList.PartyFrame:GetTop() - GetScreenHeight()
+				AAP.PartyList.PartyFrame:ClearAllPoints()
 				AAP.PartyList.PartyFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["Partyleft"], AAP1[AAP.Realm][AAP.Name]["Settings"]["Partytop"])
 			end
 		end)
@@ -146,6 +148,7 @@ local function AAP_CreateQuestList()
 			AAP.QuestList.SugQuestFrame.isMoving = false;
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["Sugleft"] = AAP.QuestList.SugQuestFrame:GetLeft()
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["Sugtop"] = AAP.QuestList.SugQuestFrame:GetTop() - GetScreenHeight()
+			AAP.QuestList.SugQuestFrame:ClearAllPoints()
 			AAP.QuestList.SugQuestFrame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["Sugleft"], AAP1[AAP.Realm][AAP.Name]["Settings"]["Sugtop"])
 		end
 	end)
@@ -307,7 +310,7 @@ local function AAP_CreateQuestList()
 	AAP.QuestList.Greetings2EB2:SetSize(200, 20)
 	AAP.QuestList.Greetings2EB2:SetPoint("TOP",AAP.QuestList.Greetings,"TOP",0,-148)
 	AAP.QuestList.Greetings2EB2:SetAutoFocus(false)
-	AAP.QuestList.Greetings2EB2:SetText("bit.ly/2QpXN3O")
+	AAP.QuestList.Greetings2EB2:SetText("www.twitch.tv/desmephisto")
 
 	AAP.QuestList.GreetingsHideB = CreateFrame("Button", "AAP_GreetingsHideB", AAP.QuestList.Greetings, "SecureActionButtonTemplate")
 	AAP.QuestList.GreetingsHideB:SetPoint("BOTTOMRIGHT",AAP.QuestList.Greetings,"BOTTOMRIGHT",-15,5)
@@ -351,6 +354,7 @@ local function AAP_CreateQuestList()
 	if (AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] > 6) then
 		AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = 150
 		AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = -150
+		AAP.QuestList.MainFrame:ClearAllPoints()
 		AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 		print("AAP: QuestList Out of screen, resetting!")
 	end
@@ -372,10 +376,12 @@ local function AAP_CreateQuestList()
 			AAP.QuestList.MainFrame.isMoving = false;
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = AAP.QuestList.MainFrame:GetLeft()
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = AAP.QuestList.MainFrame:GetTop() - GetScreenHeight()
+			AAP.QuestList.MainFrame:ClearAllPoints()
 			AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 			if (AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] > 6) then
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = 150
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = -150
+				AAP.QuestList.MainFrame:ClearAllPoints()
 				AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 				print("AAP: QuestList Out of screen, resetting!")
 			end
@@ -428,10 +434,12 @@ local function AAP_CreateQuestList()
 			AAP.QuestList.MainFrame.isMoving = false;
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = AAP.QuestList.MainFrame:GetLeft()
 			AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = AAP.QuestList.MainFrame:GetTop() - GetScreenHeight()
+			AAP.QuestList.MainFrame:ClearAllPoints()
 			AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 			if (AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] > 6) then
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = 150
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = -150
+				AAP.QuestList.MainFrame:ClearAllPoints()
 				AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 				print("AAP: QuestList Out of screen, resetting!")
 			end
@@ -512,10 +520,12 @@ local function AAP_CreateQuestList()
 				AAP.QuestList.MainFrame.isMoving = false;
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = AAP.QuestList.MainFrame:GetLeft()
 				AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = AAP.QuestList.MainFrame:GetTop() - GetScreenHeight()
+				AAP.QuestList.MainFrame:ClearAllPoints()
 				AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 				if (AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] > 6) then
 					AAP1[AAP.Realm][AAP.Name]["Settings"]["left"] = 150
 					AAP1[AAP.Realm][AAP.Name]["Settings"]["top"] = -150
+					AAP.QuestList.MainFrame:ClearAllPoints()
 					AAP.QuestList.MainFrame:SetPoint("TOPLEFT", AAP1[AAP.Realm][AAP.Name]["Settings"]["left"], AAP1[AAP.Realm][AAP.Name]["Settings"]["top"])
 					print("AAP: QuestList Out of screen, resetting!")
 				end

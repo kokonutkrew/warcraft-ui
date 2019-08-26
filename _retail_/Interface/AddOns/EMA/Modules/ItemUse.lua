@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: All Rights Reserved 2018 Jennifer Cally					--
+--				License: All Rights Reserved 2018-2019 Jennifer Cally					--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 										--
@@ -109,11 +109,19 @@ function EMA:GetConfiguration()
 		handler = EMA,
 		type = 'group',
 		args = {	
+			config = {
+				type = "input",
+				name = L["OPEN_CONFIG"],
+				desc = L["OPEN_CONFIG_HELP"],
+				usage = "/ema-itemuse config",
+				get = false,
+				set = "",				
+			},
 			push = {
 				type = "input",
 				name = L["PUSH_SETTINGS"],
 				desc = L["PUSH_SETTINGS_INFO"],
-				usage = "/EMA-item-use push",
+				usage = "/ema-itemuse push",
 				get = false,
 				set = "EMASendSettings",
 			},											
@@ -121,7 +129,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["HIDE_ITEM_BAR"],
 				desc = L["HIDE_ITEM_BAR_HELP"],
-				usage = "/EMA-item-use hide",
+				usage = "/ema-itemuse hide",
 				get = false,
 				set = "HideItemUseCommand",
 			},	
@@ -129,7 +137,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["SHOW_ITEM_BAR"],
 				desc = L["SHOW_ITEM_BAR_HELP"],
-				usage = "/EMA-item-use show",
+				usage = "/ema-itemuse show",
 				get = false,
 				set = "ShowItemUseCommand",
 			},
@@ -137,7 +145,7 @@ function EMA:GetConfiguration()
 				type = "input",
 				name = L["CLEAR_ITEM_BAR"],
 				desc = L["CLEAR_ITEM_BAR_HELP"],
-				usage = "/EMA-item-use clear",
+				usage = "/ema-itemuse clear",
 				get = false,
 				set = "ClearItemUseCommand",
 			},				
@@ -236,8 +244,8 @@ local function CreateEMAItemUseFrame()
 		tile = true, tileSize = 10, edgeSize = 10, 
 		insets = { left = 3, right = 3, top = 3, bottom = 3 }
 	} )	
-	frame:SetPoint( EMA.db.framePoint, nil, EMA.db.frameRelativePoint, EMA.db.frameXOffset, EMA.db.frameYOffset )
 	frame:ClearAllPoints()
+	frame:SetPoint( EMA.db.framePoint, nil, EMA.db.frameRelativePoint, EMA.db.frameXOffset, EMA.db.frameYOffset )
 	-- Clear Button
 		local updateButton = CreateFrame( "Button", "ButtonUpdate", frame, "UIPanelButtonTemplate" )
 		updateButton:SetScript( "OnClick", function() EMA.ClearButton() end )
@@ -361,10 +369,12 @@ function EMA:UpdateQuestItemsInBar()
 		local kind = itemInfo.kind
 		local action = itemInfo.action
 		if kind == "item" then
-			local itemLink,_,_,_,_,questItem = GetItemInfo( action )
+			--local itemLink,_,_,_,_,questItem = GetItemInfo( action )
+			--local text, text2 = EMAUtilities:TooltipScaner( action )
+			local _, _, _, _, _, _ , _, _, _, _, _, _, _, bindType = GetItemInfo( action )
 			local canUse = GetItemSpell( action )
-			--EMA:Print("Checking Item...", itemLink, action, questItem )
-			if ( canUse ) and questItem == QUEST then
+			--EMA:Print("Checking Item...", action, canUse, "a",  bindType )
+			if ( canUse ) and ( bindType == 4 ) then
 				local IsInInventory = EMA:IsInInventory( action )
 				if IsInInventory == false then
 					--EMA:Print("NOT IN BAGS", IsInInventory, action)

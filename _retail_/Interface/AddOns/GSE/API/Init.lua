@@ -31,9 +31,9 @@ end
 --- Prints <code>filepath</code>to the chat handler.  This accepts an optional
 --    <code>title</code> to be prepended to that message.
 function GSE.Print(message, title)
-  -- stroe this for later on.
+  -- Store this for later on.
   if not GSE.isEmpty(title) then
-    message = GSEOptions.TitleColour .. title .. Statics.StringReset .." " .. message
+    message = GSEOptions.CommandColour .. title .. Statics.StringReset .." " .. message
   end
   table.insert(GSE.OutputQueue, message)
   if GSE.PrintAvailable then
@@ -66,9 +66,9 @@ function GSE.PrintDebugMessage(message, module)
       module = "GS-Core"
     end
     if module == Statics.SequenceDebug then
-      determinationOutputDestination(message, GSEOptions.TitleColour .. GNOME .. ':|r ' .. GSEOptions.AuthorColour .. L["<SEQUENCEDEBUG> |r "] )
+      determinationOutputDestination(message, GSEOptions.CommandColour .. GNOME .. ':|r ' .. GSEOptions.AuthorColour .. L["<SEQUENCEDEBUG> |r "] )
 		elseif GSEOptions.debug and module ~= GSStaticSequenceDebug and GSEOptions.DebugModules[module] == true then
-      determinationOutputDestination(GSEOptions.TitleColour .. (GSE.isEmpty(module) and GNOME or module) .. ':|r ' .. GSEOptions.AuthorColour .. L["<DEBUG> |r "] .. message )
+      determinationOutputDestination(GSEOptions.CommandColour .. (GSE.isEmpty(module) and GNOME or module) .. ':|r ' .. GSEOptions.AuthorColour .. L["<DEBUG> |r "] .. message )
     end
 end
 
@@ -80,7 +80,7 @@ end
 GSE.CurrentGCD = GetSpellCooldown(61304)
 GSE.RecorderActive = false
 
--- Macro mode Status
+-- Macro Mode Status
 GSE.PVPFlag = false
 GSE.inRaid = false
 GSE.inMythic = false

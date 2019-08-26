@@ -325,6 +325,9 @@ end
 
 eventHandlers[Dialogs.EVENT_TYPES.GOSSIP_SHOW] = function()
 	gossipEventHandler(Dialogs.EVENT_TYPES.GOSSIP_SHOW);
+	if Storyline_Data.config.forceGossip and  not Storyline_API.isCurrentNPCBlacklisted() then
+		Storyline_NPCFrameBlacklistButton:Show()
+	end
 end;
 eventHandlers[Dialogs.EVENT_TYPES.QUEST_GREETING] = function()
 	gossipEventHandler(Dialogs.EVENT_TYPES.QUEST_GREETING);
@@ -575,6 +578,12 @@ function Storyline_API.playNext(targetModel)
 	end
 end
 
+local function isQuestCampaignQuest(questId)
+	-- Special quest with sealed background
+	local questID = GetQuestID()
+	return SEAL_QUESTS[questID] ~= nil or (C_CampaignInfo.IsCampaignQuest(questID) and not EXCEPTION_QUESTS[questID])
+end
+
 local specialFrameBackgroundTransitionator = Ellyb.Transitionator();
 local function fadeInSpecialFrameBackground(value)
 	frameSpecialAtlas:SetAlpha(value);
@@ -607,6 +616,27 @@ local function displaySpecialDetails()
 		frameBackground:SetAlpha(0)
 	end
 end
+
+local function displaySpecialBackgrounds()
+	-- Do not display zone dynamic backgrounds for campaign quests
+	if isQuestCampaignQuest(GetQuestID()) then return end
+
+	if not Storyline_Data.config.dynamicBackgrounds then
+		Storyline_API.hideDynamicBackground()
+		Storyline_NPCFrameBG:Show()
+		return
+	end
+	local dynamicBackground = Storyline_API.DynamicBackgroundsManager.getCustomBackgroundForPlayer()
+
+	if dynamicBackground then
+		Storyline_API.DynamicBackgroundsManager.setDynamicBackground(dynamicBackground)
+		Storyline_NPCFrameBG:Hide()
+	else
+		Storyline_API.DynamicBackgroundsManager.hideDynamicBackground()
+		Storyline_NPCFrameBG:Show()
+	end
+end
+Storyline_API.displaySpecialBackgrounds = displaySpecialBackgrounds
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 -- INIT
@@ -812,6 +842,7 @@ function Storyline_API.initEventsStructure()
 				end
 			end
 
+			displaySpecialBackgrounds()
 			if event == "QUEST_DETAIL" or event == "QUEST_COMPLETE" then
 				displaySpecialDetails();
 			end
@@ -839,15 +870,6 @@ function Storyline_API.initEventsStructure()
 	Ellyb.GameEvents.registerCallback("QUEST_ITEM_UPDATE", RewardsButtons.refreshButtons);
 	Ellyb.GameEvents.registerCallback("GOSSIP_CLOSED", function()
 		storylineFrameShouldOpen = false;
-	end);
-
-	-- Replay buttons
-	local questButton = CreateFrame("Button", nil, QuestLogPopupDetailFrame, "Storyline_CommonButton");
-	questButton:SetText(loc("SL_STORYLINE"));
-	questButton:SetPoint("TOP");
-	questButton:SetScript("OnClick", function()
-		local questDescription = GetQuestLogQuestText();
-		startDialog("none", questDescription, "REPLAY", EVENT_INFO["REPLAY"]);
 	end);
 
 	-- UI

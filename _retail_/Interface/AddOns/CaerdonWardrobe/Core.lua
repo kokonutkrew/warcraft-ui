@@ -1,5 +1,5 @@
 local DEBUG_ENABLED = false
--- local DEBUG_ITEM = 113588
+-- local DEBUG_ITEM = 131438
 local ADDON_NAME, NS = ...
 local L = NS.L
 local eventFrame
@@ -54,7 +54,7 @@ local InventorySlots = {
 
 local mainTip = CreateFrame( "GameTooltip", "CaerdonWardrobeGameTooltip", nil, "GameTooltipTemplate" )
 mainTip.ItemTooltip = CreateFrame("FRAME", "CaerdonWardrobeGameTooltipChild", mainTip, "InternalEmbeddedItemTooltipTemplate")
-mainTip.ItemTooltip.Tooltip.shoppingTooltips = { WorldMapCompareTooltip1, WorldMapCompareTooltip2 }
+mainTip.ItemTooltip.Tooltip.shoppingTooltips = { ShoppingTooltip1, ShoppingTooltip2 }
 
 local cachedBinding = {}
 
@@ -469,8 +469,16 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 				end
 			end
 		elseif bag == "QuestButton" then
-			GameTooltip_AddQuestRewardsToTooltip(scanTip, slot.questID)
-			scanTip = scanTip.ItemTooltip.Tooltip
+			if slot.questItem ~= nil and slot.questItem.type ~= nil then
+				if QuestInfoFrame.questLog then
+					scanTip:SetQuestLogItem(slot.questItem.type, slot.index, slot.questID)
+				else
+					scanTip:SetQuestItem(slot.questItem.type, slot.index, slot.questID)
+				end
+			else
+				GameTooltip_AddQuestRewardsToTooltip(scanTip, slot.questID)
+				scanTip = scanTip.ItemTooltip.Tooltip
+			end
 		else
 			scanTip:SetBagItem(bag, slot)
 		   	if not isCollectionItem then
@@ -557,6 +565,10 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 				if hasTransmog then
 					if isDebugItem then print("=== Setting needs item to false due to has transmog") end
 					needsItem = false
+				else
+					if CaerdonWardrobeConfig.Icon.ShowLearnable.SameLookDifferentItem then
+						isCompletionistItem = true
+					end
 				end
 			end
 		else
@@ -663,6 +675,8 @@ local function GetBindingStatus(bag, slot, itemID, itemLink)
 		end
 	end
 
+	ShoppingTooltip1:Hide()
+	ShoppingTooltip2:Hide()
 	scanTip:Hide()
 
 	return bindingText, needsItem, hasUse, isDressable, isInEquipmentSet, isBindOnPickup, isCompletionistItem, shouldRetry, unusableItem, matchesLootSpec
@@ -1020,6 +1034,7 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 	-- 	end
 
 	local alpha = 1
+	mogStatus:SetVertexColor(1, 1, 1)
 	if status == "refundable" and not ShouldHideSellableIcon(bag) then
 		SetIconPositionAndSize(mogStatus, iconPosition, 3, 15, iconOffset)
 		alpha = 0.9
@@ -1027,12 +1042,10 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 	elseif status == "openable" and not ShouldHideSellableIcon(bag) then -- TODO: Add separate option for showing
 			SetIconPositionAndSize(mogStatus, iconPosition, 15, iconSize, iconOffset)
 			mogStatus:SetTexture("Interface\\Store\\category-icon-free")
-			mogStatus:SetVertexColor(1, 1, 1)
 	elseif status == "own" or status == "ownPlus" then
 		if not ShouldHideOwnIcon(bag) then
 			SetIconPositionAndSize(mogStatus, iconPosition, 15, iconSize, iconOffset)
 			mogStatus:SetTexture("Interface\\Store\\category-icon-featured")
-			mogStatus:SetVertexColor(1, 1, 1)
 			if status == "ownPlus" then
 				mogStatus:SetVertexColor(0.4, 1, 0)
 			end
@@ -1043,7 +1056,6 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 		if not ShouldHideOtherIcon(bag) then
 			SetIconPositionAndSize(mogStatus, iconPosition, 15, otherIconSize, otherIconOffset)
 			mogStatus:SetTexture(otherIcon)
-			mogStatus:SetVertexColor(1, 1, 1)
 			if status == "otherPlus" then
 				mogStatus:SetVertexColor(0.4, 1, 0)
 			end
@@ -1054,7 +1066,6 @@ local function SetItemButtonMogStatus(originalButton, status, bindingStatus, opt
 		if not ShouldHideOtherIcon(bag) then
 			SetIconPositionAndSize(mogStatus, iconPosition, 15, otherIconSize, otherIconOffset)
 			mogStatus:SetTexture("Interface\\COMMON\\icon-noloot")
-			mogStatus:SetVertexColor(1, 1, 1)
 			if status == "otherSpecPlus" then
 				mogStatus:SetVertexColor(0.4, 1, 0)
 			end
@@ -1138,6 +1149,8 @@ local function SetItemButtonBindType(button, mogStatus, bindingStatus, options, 
 		bindsOnText:SetPoint("CENTER", 0, 0)
 	elseif bindingPosition == "TOP" then
 		bindsOnText:SetPoint("TOPRIGHT", 0, -2)
+	else
+		bindsOnText:SetPoint(bindingPosition, options.bindingOffsetX or 2, options.bindingOffsetY or 2)
 	end
 
 	local bindingText
@@ -1995,6 +2008,7 @@ function eventFrame:ADDON_LOADED(name)
 	elseif name == "Blizzard_EncounterJournal" then
 		hooksecurefunc("EncounterJournal_SetLootButton", OnEncounterJournalSetLootButton)
 	end
+
 end
 
 function UpdatePin(pin)
@@ -2014,9 +2028,108 @@ function UpdatePin(pin)
 	end
 end
 
-function OnWorldMapRefreshAllData(self) 
-	for qId, pin in pairs(self.activePins) do
-		UpdatePin(pin);
+local function OnQuestInfoShowRewards(template, parentFrame)
+	local numQuestRewards = 0;
+	local numQuestChoices = 0;
+	local rewardsFrame = QuestInfoFrame.rewardsFrame;
+	local questID
+
+	if ( template.canHaveSealMaterial ) then
+		local questFrame = parentFrame:GetParent():GetParent();
+		if ( template.questLog ) then
+			questID = questFrame.questID;
+		else
+			questID = GetQuestID();
+		end
+	end
+
+	local spellGetter;
+	if ( QuestInfoFrame.questLog ) then
+		questID = select(8, GetQuestLogTitle(GetQuestLogSelection()));
+		if C_QuestLog.ShouldShowQuestRewards(questID) then
+			numQuestRewards = GetNumQuestLogRewards();
+			numQuestChoices = GetNumQuestLogChoices();
+			-- playerTitle = GetQuestLogRewardTitle();
+			-- numSpellRewards = GetNumQuestLogRewardSpells();
+			-- spellGetter = GetQuestLogRewardSpell;
+		end
+	else
+		numQuestRewards = GetNumQuestRewards();
+		numQuestChoices = GetNumQuestChoices();
+		-- playerTitle = GetRewardTitle();
+		-- numSpellRewards = GetNumRewardSpells();
+		-- spellGetter = GetRewardSpell;
+	end
+
+	local options = {
+		iconOffset = 0,
+		iconSize = 40,
+		overridePosition = "TOPLEFT",
+		overrideBindingPosition = "TOPLEFT",
+		bindingOffsetX = -53,
+		bindingOffsetY = -16
+	}
+
+	local questItem, name, texture, quality, isUsable, numItems, itemID;
+	local rewardsCount = 0;
+	if ( numQuestChoices > 0 ) then
+		local index;
+		local itemLink;
+		local baseIndex = rewardsCount;
+		for i = 1, numQuestChoices do
+			index = i + baseIndex;
+			questItem = QuestInfo_GetRewardButton(rewardsFrame, index);
+			if ( QuestInfoFrame.questLog ) then
+				name, texture, numItems, quality, isUsable, itemID = GetQuestLogChoiceInfo(i);
+			else
+				name, texture, numItems, quality, isUsable = GetQuestItemInfo(questItem.type, i);
+				itemLink = GetQuestItemLink(questItem.type, i);
+				itemID = GetItemID(itemLink)
+			end
+			rewardsCount = rewardsCount + 1;
+
+			CaerdonWardrobe:UpdateButton(itemID, "QuestButton", { itemID = itemID, questID = questID, index = i, questItem = questItem }, questItem, options)
+		end
+	end
+
+	if ( numQuestRewards > 0) then
+		local index;
+		local itemLink;
+		local baseIndex = rewardsCount;
+		local buttonIndex = 0;
+		for i = 1, numQuestRewards, 1 do
+			buttonIndex = buttonIndex + 1;
+			index = i + baseIndex;
+			questItem = QuestInfo_GetRewardButton(rewardsFrame, index);
+			questItem.type = "reward";
+			questItem.objectType = "item";
+			if ( QuestInfoFrame.questLog ) then
+				name, texture, numItems, quality, isUsable, itemID = GetQuestLogRewardInfo(i);
+			else
+				name, texture, numItems, quality, isUsable = GetQuestItemInfo(questItem.type, i);
+				itemLink = GetQuestItemLink(questItem.type, i);
+				if itemLink ~= nil then
+					itemID = GetItemID(itemLink)
+				else
+					itemID = -1
+				end
+			end
+			rewardsCount = rewardsCount + 1;
+
+			if itemID ~= -1 then
+				CaerdonWardrobe:UpdateButton(itemID, "QuestButton", { itemID = itemID, questID = questID, index = i, questItem = questItem }, questItem, options)
+			end
+		end
+	end
+end
+
+local function OnQuestInfoDisplay(template, parentFrame)
+	-- Hooking OnQuestInfoDisplay instead of OnQuestInfoShowRewards directly because it seems to work
+	-- and I was having some problems.  :)
+	local i = 1
+	while template.elements[i] do
+		if template.elements[i] == QuestInfo_ShowRewards then OnQuestInfoShowRewards(template, parentFrame) return end
+		i = i + 3
 	end
 end
 
@@ -2038,18 +2151,13 @@ function eventFrame:PLAYER_LOGIN(...)
 	end
 	C_TransmogCollection.SetShowMissingSourceInItemTooltips(true)
 
-	local mapWQProvider;
-	for k, v in pairs(WorldMapFrame.dataProviders) do 
-		for k1, v2 in pairs(k) do
-			-- Some addons will cause there to be multiple map providers.
-			-- We want to hook to any that are there.
-			if k1=="IsMatchingWorldMapFilters" then 
-				mapWQProvider = k; 
-				hooksecurefunc(mapWQProvider, "RefreshAllData", OnWorldMapRefreshAllData)
-				OnWorldMapRefreshAllData(mapWQProvider);
-			end 
-		end 
-	end
+	hooksecurefunc (WorldMap_WorldQuestPinMixin, "RefreshVisuals", function (self)
+		if not IsModifiedClick("COMPAREITEMS") and not ShoppingTooltip1:IsShown() then
+			UpdatePin(self);
+		end
+	end)
+	-- hooksecurefunc("QuestInfo_GetRewardButton", OnQuestInfoGetRewardButton)
+	-- hooksecurefunc("QuestInfo_ShowRewards", OnQuestInfoShowRewards)
 end
 
 function RefreshMainBank()
@@ -2271,6 +2379,7 @@ function OnGroupLootFrameShow(frame)
 end
 
 hooksecurefunc("LootFrame_UpdateButton", OnLootFrameUpdateButton)
+hooksecurefunc("QuestInfo_Display", OnQuestInfoDisplay)
 
 GroupLootFrame1:HookScript("OnShow", OnGroupLootFrameShow)
 GroupLootFrame2:HookScript("OnShow", OnGroupLootFrameShow)

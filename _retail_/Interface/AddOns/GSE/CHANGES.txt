@@ -1,16 +1,10 @@
-lightweight tag 8b63660ffe4b380f6920a417a6268f3618d1a308 GSE_2.4.04
+lightweight tag ad6035bbb1dea9cf0d63f13d13c9b8e4865a8c6a 2.4.14
 Author:	Timothy Minahan <timothy@minahan.net>
-Date:	Fri Jan 11 08:04:19 2019 +1030
+Date:	Thu Aug 15 23:21:54 2019 +0930
 
-commit 8b63660ffe4b380f6920a417a6268f3618d1a308
+commit ad6035bbb1dea9cf0d63f13d13c9b8e4865a8c6a
 Author: Timothy Minahan <timothy@minahan.net>
-Date:   Fri Jan 11 08:04:19 2019 +1030
+Date:   Thu Aug 15 23:21:54 2019 +0930
 
-    #493 use a random icon for LDB
-
-commit 6fe92052c1863ea6195a01fb4c4e24512ab63d44
-Author: Timothy Minahan <timothy@minahan.net>
-Date:   Fri Jan 11 08:03:48 2019 +1030
-
-    #494 typo
+    2.4.14 TOC Retail
 

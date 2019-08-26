@@ -6,7 +6,7 @@
 ## X-Category: Library
 ## X-License: BSD
 ## X-Website: http://www.wowace.com/addons/libbuttonglow-1-0/
-## Version: v8.1.0-Release(0108)
+## Version: v8.2.0-Release-v2.2(0133)
 ## OptionalDeps: Masque
 
 LibStub\LibStub.lua

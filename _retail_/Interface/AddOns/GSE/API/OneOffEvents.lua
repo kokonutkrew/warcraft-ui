@@ -6,13 +6,15 @@ local L = GSE.L
 function GSE.PerformOneOffEvents()
   GSE.UpdateFrom735to801()
   GSE.Update2305()
+  GSE.Update2410()
+  GSE.Update2411()
 end
 
 function GSE.UpdateFrom735to801()
   if GSE.isEmpty(GSEOptions.Updated801) then
      GSEOptions.UseVerboseExportFormat = false
      -- Update Sequence Names to UPPERCASE
-    -- if next(GSELibrary) == nil then
+     --if next(GSELibrary) == nil then
        for k,v in ipairs(GSELibrary) do
          for i,j in pairs(v) do
            --i = string.upper(i)
@@ -36,4 +38,20 @@ function GSE.Update2305()
      GSEOptions.UseWLMExportFormat = true
   end
   GSEOptions.Update2305 = true
+end
+
+function GSE.Update2410()
+  if GSE.isEmpty(GSEOptions.Update2410) then
+    GSEOptions.PromptSample = true
+  end
+  GSEOptions.Update2410 = true
+end
+
+function GSE.Update2411()
+  if GSE.isEmpty(GSEOptions.Update2411) then
+      GSEOptions.showMiniMap = {
+        hide = true
+      }
+  end
+  GSEOptions.Update2411 = true
 end

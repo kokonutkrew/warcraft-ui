@@ -1,6 +1,6 @@
 # MaxDps_Hunter
 
-## [v8.1.4](https://github.com/kaminaris/MaxDps-Hunter/tree/v8.1.4) (2019-02-17)
-[Full Changelog](https://github.com/kaminaris/MaxDps-Hunter/compare/v8.1.3...v8.1.4)
+## [v8.2.0](https://github.com/kaminaris/MaxDps-Hunter/tree/v8.2.0) (2019-08-10)
+[Full Changelog](https://github.com/kaminaris/MaxDps-Hunter/compare/v8.1.5.1...v8.2.0)
 
-- v8.1.4 - Error message dampening  
+- v8.2.0 - Azerite Essences Support  

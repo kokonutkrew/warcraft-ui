@@ -1162,13 +1162,8 @@ AAP.QuestStepList2060 = {
 			},
 		}, -- [1]
 		{
-			["ClearZP"] = 1,
-			["TaxiNr"] = 5,
 			["UseFlightPath"] = 50835,
-			["PosX"] = 58.4,
-			["PosY"] = 71.1,
 			["ETA"] = 47,
-			["TaxiNodes"] = 29,
 			["Name"] = "Port of Zandalar, Zuldazar",
 			["TT"] = {
 				["y"] = -1035.4,
@@ -2657,12 +2652,8 @@ AAP.QuestStepList2060 = {
 				["x"] = -1058.4,
 			},
 			["UseFlightPath"] = 51539,
-			["PosX"] = 58.3,
-			["PosY"] = 61,
 			["ETA"] = 71,
 			["Name"] = "The Great Seal",
-			["TaxiNr"] = 6,
-			["TaxiNodes"] = 29,
 		}, -- [50]
 		{
 			["Trigger"] = {
@@ -4578,12 +4569,7 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 49122,
 			["ETA"] = 46,
-			["PosX"] = 58.3,
-			["PosY"] = 61,
 			["Name"] = "The Great Seal",
-			["TaxiNr"] = 6,
-			["TaxiNodes"] = 29,
-
 		}, -- [30]
 		{
 			["Trigger"] = {
@@ -7823,11 +7809,7 @@ AAP.QuestStepList2060 = {
 				["x"] = -280.4,
 			},
 			["UseFlightPath"] = 51111,
-			["TaxiNr"] = 6,
-			["PosX"] = 58.3,
-			["PosY"] = 61,
 			["Name"] = "The Great Seal",
-			["TaxiNodes"] = 29,
 			["ETA"] = 1,
 		}, -- [1]
 		{
@@ -8344,11 +8326,7 @@ AAP.QuestStepList2060 = {
 		{
 			["UseFlightPath"] = 51985,
 			["ETA"] = 47,
-			["TaxiNr"] = 5,
-			["PosX"] = 58.4,
-			["PosY"] = 71.1,
 			["Name"] = "Port of Zandalar, Zuldazar",
-			["TaxiNodes"] = 29,
 			["TT"] = {
 				["y"] = -1035.4,
 				["x"] = 751.1,
@@ -21429,11 +21407,7 @@ AAP.QuestStepList2060 = {
 				["x"] = 3161.4,
 			},
 			["UseFlightPath"] = 51985,
-			["PosX"] = 25.4,
-			["PosY"] = 65.4,
 			["Name"] = "Anyport, Dustvar",
-			["TaxiNr"] = 9,
-			["TaxiNodes"] = 21,
 			["ETA"] = 52,
 		}, -- [1]
 		{

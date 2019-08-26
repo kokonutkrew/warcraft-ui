@@ -1,4 +1,10 @@
 ------------------------------------------------------------------------
+r53 | thaokyaltoholic | 2019-06-30 06:54:04 +0000 (Sun, 30 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/DataStore_Mails.toc
+
+8.2.001 Commit
+------------------------------------------------------------------------
 r52 | thaoky.altoholic@yahoo.com | 2018-08-12 13:16:27 +0000 (Sun, 12 Aug 2018) | 1 line
 Changed paths:
    M /trunk/DataStore_Mails.lua

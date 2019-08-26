@@ -4944,8 +4944,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 50814,
 			["ETA"] = 1,
-			["PosX"] = 50.5,
-			["PosY"] = 28.1,
 			["Name"] = "Deadwash, Stormsong Valley",
 		}, -- [28]
 		{
@@ -6213,8 +6211,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 51218,
 			["ETA"] = 1,
-			["PosX"] = 50.5,
-			["PosY"] = 28.1,
 			["Name"] = "Deadwash, Stormsong Valley",
 		}, -- [28]
 		{
@@ -7660,8 +7656,6 @@ AAP.QuestStepList2060 = {
 				["x"] = -45.3,
 			},
 			["UseFlightPath"] = 1234561234,
-			["PosX"] = 61.1,
-			["PosY"] = 49.2,
 			["Name"] = "Tradewinds Market, Tiragarde Sound",
 			["ETA"] = 51,
 		}, -- [1]
@@ -8730,8 +8724,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 51426,
 			["ETA"] = 100,
-			["PosX"] = 57,
-			["PosY"] = 64,
 			["Boat"] = 1,
 			["Name"] = "Southwind Station, Tiragarde Sound",
 		}, -- [9]
@@ -8967,8 +8959,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 48540,
 			["ETA"] = 124,
-			["PosX"] = 43.2,
-			["PosY"] = 53.3,
 			["Boat"] = 1,
 			["Name"] = "Anglepoint Wharf, Tiragarde Sound",
 		}, -- [9]
@@ -10692,8 +10682,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 49260,
 			["ETA"] = 53,
-			["PosX"] = 55.6,
-			["PosY"] = 53.2,
 			["Boat"] = 1,
 			["Name"] = "Firebreaker Expedition, Tiragarde Sound",
 		}, -- [9]
@@ -13043,8 +13031,6 @@ AAP.QuestStepList2060 = {
 			},
 			["UseFlightPath"] = 51226,
 			["ETA"] = 76,
-			["PosX"] = 61.4,
-			["PosY"] = 60.9,
 			["Boat"] = 1,
 			["Name"] = "Eastpoint Station, Tiragarde Sound",
 		}, -- [9]
@@ -14478,8 +14464,6 @@ AAP.QuestStepList2060 = {
 				["x"] = -696.3,
 			},
 			["UseFlightPath"] = 47489,
-			["PosX"] = 62.4,
-			["PosY"] = 63.4,
 			["Name"] = "Bridgeport, Tiragarde Sound",
 			["ETA"] = 34,
 		}, -- [1]
@@ -19271,8 +19255,6 @@ AAP.QuestStepList2060 = {
 		{
 			["UseFlightPath"] = 51402,
 			["ETA"] = 52,
-			["PosX"] = 33.2,
-			["PosY"] = 19.2,
 			["Name"] = "Shatterstone Harbor, Vol'dun",
 			["TT"] = {
 				["y"] = 2049.1,
@@ -20005,6 +19987,7 @@ AAP.QuestStepList2060 = {
 			["PickUp"] = {
 				48948, -- [1]
 			},
+			["BreadCrum"] = 48948,
 			["TT"] = {
 				["y"] = -79.1,
 				["x"] = 2138.6,
@@ -21625,8 +21608,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 1276.2,
 			},
 			["UseFlightPath"] = 48538,
-			["PosX"] = 48.1,
-			["PosY"] = 65.8,
 			["ETA"] = 1,
 			["Name"] = "Hangman's Point, Drustvar",
 		}, -- [1]
@@ -22065,7 +22046,7 @@ AAP.QuestStepList2060 = {
 			},
 		}, -- [2]
 		{
-			["UseHS"] = 48948,
+			["UseHS"] = 48793,
 			["TT"] = {
 				["y"] = -1004.3,
 				["x"] = 1753,
@@ -22076,6 +22057,7 @@ AAP.QuestStepList2060 = {
 		}, -- [16]
 
 		{
+			["BreadCrum"] = 48948,
 			["Done"] = {
 				48948, -- [1]
 			},
@@ -26393,8 +26375,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 3828.1,
 			},
 			["UseFlightPath"] = 50763,
-			["PosX"] = 30.8,
-			["PosY"] = 61.2,
 			["ETA"] = 27,
 			["Name"] = "Watchman's Rise, Drustvar",
 		}, -- [1]
@@ -26752,8 +26732,6 @@ AAP.QuestStepList2060 = {
 				["x"] = 2141.3,
 			},
 			["UseFlightPath"] = 50639,
-			["PosX"] = 61.1,
-			["PosY"] = 49.2,
 			["Name"] = "Tradewinds Market, Tiragarde Sound",
 			["ETA"] = 107,
 
@@ -26768,6 +26746,10 @@ for AAP_index,AAP_value in pairs(AAP.QuestStepList2060) do
 end
 AAP.QuestStepList2060 = nil
 	AAP.Breadcrums = {
+		[48948] = {
+			48793,
+			48792,
+        },
 		[50158] = {
 			50134,
 			50135,

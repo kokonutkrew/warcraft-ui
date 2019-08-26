@@ -23,19 +23,19 @@ LegionInvasionTimerDB = {
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Kakattack - Stormrage"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
 		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoanrouge - Emerald Dream"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
-		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -50,14 +50,14 @@ LegionInvasionTimerDB = {
 		},
 		["KokonutKrew"] = {
 			["mode"] = 3,
-			["lock"] = true,
 			["position"] = {
 				"BOTTOM", -- [1]
 				"BOTTOM", -- [2]
 				2.9999566078186, -- [3]
 				52.4999313354492, -- [4]
 			},
+			["lock"] = true,
 		},
 	},
 }
-LegionInvasionTime = 1566329432
+LegionInvasionTime = 1566795633

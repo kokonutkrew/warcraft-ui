@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0246,
+	["LastPlayerFullName"] = "Aeredyl-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160634,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122350::::::::23:259::::::|h[Balanced Heartseeker]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Aeredyl-Emerald Dream",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

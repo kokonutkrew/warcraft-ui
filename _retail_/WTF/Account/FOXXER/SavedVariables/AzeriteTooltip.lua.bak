@@ -9,17 +9,17 @@ AzeriteTooltipDB = {
 		["Samoanrelic - Emerald Dream"] = "Default",
 		["Foxxah - Stormrage"] = "Default",
 		["Dreamå - Stormrage"] = "Default",
-		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 	["Compact"] = false,
-	["RemoveBlizzard"] = true,
-	["Bags"] = true,
-	["Flyout"] = true,
 	["profiles"] = {
 		["Default"] = {
 		},
 	},
+	["Bags"] = true,
+	["Flyout"] = true,
+	["RemoveBlizzard"] = true,
 }

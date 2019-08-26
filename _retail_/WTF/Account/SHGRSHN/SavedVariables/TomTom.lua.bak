@@ -22,18 +22,18 @@ TomTomDB = {
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
-		["Kakattack - Stormrage"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
 		["Samoantitan - Emerald Dream"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -79,18 +79,18 @@ TomTomWaypointsM = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -136,15 +136,15 @@ TomTomWaypointsM = {
 		},
 		["Samoanrelic - Tichondrius"] = {
 		},
-		["Samoanrelic - Stormrage"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
 		["Shgrshn - Tichondrius"] = {
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoanmystic - Tichondrius"] = {
 		},
-		["Samoansavage - Stormrage"] = {
+		["Samoansaint - Stormrage"] = {
 		},
-		["Samoanlegend - Emerald Dream"] = {
+		["Samoantank - Emerald Dream"] = {
 		},
 		["Kalin - Ravenholdt"] = {
 		},
@@ -154,13 +154,13 @@ TomTomWaypointsM = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
-		["Samoantank - Emerald Dream"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoansavage - Stormrage"] = {
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Samoansavage - Emerald Dream"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanrelic - Stormrage"] = {
 		},
 	},
 }

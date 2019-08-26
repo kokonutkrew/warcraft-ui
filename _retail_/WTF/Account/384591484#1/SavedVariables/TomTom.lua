@@ -23,19 +23,19 @@ TomTomDB = {
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
-		["Kakattack - Stormrage"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
 		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoanrouge - Emerald Dream"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
-		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -82,19 +82,19 @@ TomTomWaypointsM = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -142,33 +142,33 @@ TomTomWaypointsM = {
 		},
 		["Samoanrelic - Tichondrius"] = {
 		},
-		["Samoanrelic - Stormrage"] = {
-		},
-		["Samoansavage - Emerald Dream"] = {
-		},
-		["Shgrshn - Tichondrius"] = {
-		},
-		["Samoansavage - Stormrage"] = {
-		},
-		["Samoanlegend - Emerald Dream"] = {
-		},
-		["Kalin - Ravenholdt"] = {
-		},
-		["Samoanrouge - Emerald Dream"] = {
-		},
-		["Samoantank - Tichondrius"] = {
-		},
-		["Samoantitan - Emerald Dream"] = {
-		},
-		["Samoansage - Tichondrius"] = {
-		},
-		["Samoantank - Emerald Dream"] = {
-		},
-		["Samoansaint - Stormrage"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
 		["Samoanmystic - Tichondrius"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Shgrshn - Tichondrius"] = {
+		},
+		["Samoansaint - Stormrage"] = {
+		},
+		["Samoantank - Emerald Dream"] = {
+		},
+		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Kalin - Ravenholdt"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Samoansage - Tichondrius"] = {
+		},
+		["Samoanlegend - Emerald Dream"] = {
+		},
+		["Samoansavage - Stormrage"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
 		},
 	},
 }

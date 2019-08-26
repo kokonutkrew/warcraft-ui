@@ -27,6 +27,13 @@ X: -1
 Y: -42
 W: 640
 H: 512
+Frame: GRM_RosterChangeLogFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 600
+H: 465
 Frame: GRM_MassKickCoreFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -41,10 +48,3 @@ X: 1
 Y: -92
 W: 400
 H: 140
-Frame: GRM_RosterChangeLogFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 600
-H: 465

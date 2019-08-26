@@ -2,28 +2,17 @@
 WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
+	["editor_theme"] = "Monokai",
+	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
 	["displays"] = {
 		["KK-Wake of Ashes"] = {
 			["text2Point"] = "CENTER",
 			["text1FontSize"] = 12,
 			["authorOptions"] = {
 			},
-			["glowXOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = -237.000061035156,
-			["anchorPoint"] = "CENTER",
-			["glow"] = true,
-			["cooldownSwipe"] = true,
-			["glowLength"] = 10,
-			["customTextUpdate"] = "update",
-			["cooldownEdge"] = false,
-			["icon"] = true,
-			["useglowColor"] = false,
+			["glowThickness"] = 1,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -35,20 +24,20 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["unevent"] = "auto",
-						["duration"] = "1",
-						["use_genericShowOn"] = true,
+						["names"] = {
+						},
+						["buffShowOn"] = "showOnActive",
 						["event"] = "Cooldown Progress (Spell)",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["realSpellName"] = "Wake of Ashes",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 255937,
-						["subeventPrefix"] = "SPELL",
-						["buffShowOn"] = "showOnActive",
-						["names"] = {
-						},
+						["subeventSuffix"] = "_CAST_START",
+						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["duration"] = "1",
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showOnReady",
@@ -56,36 +45,51 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
+			["yOffset"] = -237.000061035156,
+			["anchorPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownSwipe"] = true,
+			["glow"] = true,
+			["customTextUpdate"] = "update",
+			["cooldownEdge"] = false,
+			["icon"] = true,
+			["useglowColor"] = false,
+			["glowLength"] = 10,
 			["internalVersion"] = 16,
-			["keepAspectRatio"] = false,
+			["glowXOffset"] = 0,
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["main"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
+			["text1Enabled"] = true,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = true,
 				},
-				["init"] = {
-				},
 				["finish"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = false,
 				},
+				["init"] = {
+				},
 			},
 			["selfPoint"] = "CENTER",
-			["text2Font"] = "Friz Quadrata TT",
 			["stickyDuration"] = false,
 			["glowColor"] = {
 				1, -- [1]
@@ -94,14 +98,14 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Point"] = "BOTTOMRIGHT",
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 64.0000152587891,
-			["width"] = 64.0000839233399,
+			["anchorFrameType"] = "SCREEN",
 			["glowLines"] = 8,
-			["alpha"] = 1,
+			["text2Enabled"] = false,
 			["glowFrequency"] = 0.25,
-			["frameStrata"] = 1,
+			["glowYOffset"] = 0,
 			["text2Containment"] = "INSIDE",
 			["glowType"] = "buttonOverlay",
 			["text1Color"] = {
@@ -110,6 +114,7 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["frameStrata"] = 1,
 			["load"] = {
 				["talent"] = {
 					["single"] = 12,
@@ -133,7 +138,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["xOffset"] = -2.99993896484375,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -141,43 +145,39 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
+			["xOffset"] = -2.99993896484375,
+			["zoom"] = 0,
+			["text2FontSize"] = 24,
+			["text2"] = "%p",
+			["text1"] = "%s",
+			["text1FontFlags"] = "OUTLINE",
 			["text1Font"] = "Friz Quadrata TT",
 			["cooldownTextDisabled"] = false,
-			["text2FontSize"] = 24,
-			["text1FontFlags"] = "OUTLINE",
-			["text1"] = "%s",
-			["glowThickness"] = 1,
-			["text2"] = "%p",
-			["zoom"] = 0,
 			["auto"] = true,
 			["glowScale"] = 1,
 			["id"] = "KK-Wake of Ashes",
-			["glowYOffset"] = 0,
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
+			["alpha"] = 1,
+			["width"] = 64.0000839233399,
+			["text2Font"] = "Friz Quadrata TT",
 			["config"] = {
 			},
 			["inverse"] = true,
-			["text1Enabled"] = true,
+			["keepAspectRatio"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
 			["glowBorder"] = false,
 		},
 	},
-	["registered"] = {
+	["frame"] = {
+		["xOffset"] = -10.9998779296875,
+		["width"] = 875.000061035156,
+		["height"] = 515,
+		["yOffset"] = -143.499694824219,
 	},
 	["minimap"] = {
 		["minimapPos"] = 126.869819244542,
 		["hide"] = false,
 	},
-	["frame"] = {
-		["xOffset"] = -10.9998779296875,
-		["yOffset"] = -143.499694824219,
-		["height"] = 515,
-		["width"] = 875.000061035156,
-	},
-	["login_squelch_time"] = 10,
-	["editor_theme"] = "Monokai",
 }

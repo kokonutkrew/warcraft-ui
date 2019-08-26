@@ -133,7 +133,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Gfsdfgsd"] = {
+	["Emerald Dream-Samoansensei"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -154,18 +154,18 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Samoantitan"] = {
+	["Emerald Dream-Samoanranger"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansneaky"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
+	["Emerald Dream-Samoanslayer"] = {
+		["message"] = "|cff1eff00|Hitem:5976::::::::41:259::::::|h[Guild Tabard]|h|r|cffa335ee|Hitem:62287::::::::41:259::::::|h[Guild Vault Voucher (8th Slot)]|h|r +Bank Access +Repairs +WPVP +Social +Open Recruitment [Msg for guild info or visit kokonutkrew.com/g]",
+		["channel"] = "2",
+		["idChannel"] = "2",
+		["rate"] = 1000,
 		["system"] = "CHANNEL",
 	},
 	["Ravenholdt-Kalin"] = {
@@ -175,7 +175,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoanrelic"] = {
+	["Emerald Dream-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -203,7 +203,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Serepa"] = {
+	["Tichondrius-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -217,35 +217,35 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansavage"] = {
+	["Tichondrius-Serepa"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoansavage"] = {
+	["Tichondrius-Samoanrelic"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoanslayer"] = {
-		["message"] = "|cff1eff00|Hitem:5976::::::::41:259::::::|h[Guild Tabard]|h|r|cffa335ee|Hitem:62287::::::::41:259::::::|h[Guild Vault Voucher (8th Slot)]|h|r +Bank Access +Repairs +WPVP +Social +Open Recruitment [Msg for guild info or visit kokonutkrew.com/g]",
-		["channel"] = "2",
-		["idChannel"] = "2",
-		["rate"] = 1000,
-		["system"] = "CHANNEL",
-	},
-	["Emerald Dream-Samoanranger"] = {
+	["Tichondrius-Samoansneaky"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoansensei"] = {
+	["Stormrage-Samoantitan"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Tichondrius-Gfsdfgsd"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",

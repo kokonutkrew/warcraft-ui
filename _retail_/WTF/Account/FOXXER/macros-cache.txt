@@ -84,19 +84,19 @@ END
 VER 3 000000000000002F "freez" "Ability_Creature_Cursed_02"
 /tar flash freeze
 END
-VER 3 000000000000000A "FROG" "Spell_Shaman_Hex"
-/tar lake frog
-/stopmacro [noexists]
-/use Warts-B-Gone Lip Balm
-/kiss
-/cleartarget
-END
 VER 3 000000000000001E "FROG" "Spell_Shaman_Hex"
 /tar lake frog
 /stopmacro [noexist]
 /use Warts-B-Gone Lip Balm
 /kiss
 /cleararget
+END
+VER 3 000000000000000A "FROG" "Spell_Shaman_Hex"
+/tar lake frog
+/stopmacro [noexists]
+/use Warts-B-Gone Lip Balm
+/kiss
+/cleartarget
 END
 VER 3 0000000000000029 "gon" "Ability_Druid_HealingInstincts"
 /tar gondr
@@ -112,10 +112,10 @@ END
 VER 3 000000000000000F "heart whisper <t" "Ability_Hunter_Pet_TallStrider"
 /heart whisper target
 END
+VER 3 000000000000001B "ICC" "Spell_Shadow_SpectralSight"
+END
 VER 3 000000000000001C "icc" "Spell_Shadow_SpectralSight"
 /2 ICC 10 Man LFM NEED  1 Tank & Resto Shammy + Holy Pally on PW - pst S/S/A
-END
-VER 3 000000000000001B "ICC" "Spell_Shadow_SpectralSight"
 END
 VER 3 0000000000000023 "icc10" "Ability_Druid_Eclipse"
 /1 ***LFM ICC 25*****

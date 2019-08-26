@@ -25,21 +25,21 @@ TomTomDB = {
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Foxxah - Stonemaul"] = "Default",
-		["Samoanslayer - Emerald Dream"] = "Default",
+		["Føxxer - Stormrage"] = "Default",
 		["Dreamå - Stormrage"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
-		["Kakattack - Stormrage"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
 		["Samoantank - Emerald Dream"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
-		["Kalin - Ravenholdt"] = "Default",
-		["Samoanrelic - Stormrage"] = "Default",
 		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Kalin - Ravenholdt"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
-		["Føxxer - Stormrage"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -88,21 +88,21 @@ TomTomWaypointsM = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Foxxah - Stonemaul"] = "Foxxah - Stonemaul",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Føxxer - Stormrage"] = "Føxxer - Stormrage",
 		["Dreamå - Stormrage"] = "Dreamå - Stormrage",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Føxxer - Stormrage"] = "Føxxer - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -154,37 +154,37 @@ TomTomWaypointsM = {
 		},
 		["Samoanrelic - Tichondrius"] = {
 		},
-		["Føxxer - Stormrage"] = {
+		["Foxxah - Stonemaul"] = {
 		},
 		["Dreamå - Stormrage"] = {
 		},
-		["Samoanrelic - Stormrage"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoanmystic - Tichondrius"] = {
 		},
 		["Shgrshn - Tichondrius"] = {
 		},
-		["Samoansavage - Stormrage"] = {
+		["Samoansaint - Stormrage"] = {
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoanlegend - Emerald Dream"] = {
 		},
 		["Kalin - Ravenholdt"] = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
-		["Samoanlegend - Emerald Dream"] = {
+		["Samoantitan - Emerald Dream"] = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoansavage - Stormrage"] = {
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Samoansavage - Emerald Dream"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanrelic - Stormrage"] = {
 		},
-		["Foxxah - Stonemaul"] = {
+		["Føxxer - Stormrage"] = {
 		},
 	},
 }

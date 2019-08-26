@@ -1,117 +1,21 @@
 
 GSEOptions = {
 	["HideLoginMessage"] = true,
-	["use1"] = true,
-	["STANDARDFUNCS"] = "|cff55ddcc",
+	["DefaultImportAction"] = "MERGE",
+	["KEYWORD"] = "|cff88bbdd",
 	["use2"] = true,
-	["DebugPrintModConditionsOnKeyPress"] = false,
+	["STANDARDFUNCS"] = "|cff55ddcc",
 	["showGSEUsers"] = false,
 	["UnfoundSpellIDs"] = {
 	},
-	["autoCreateMacroStubsClass"] = false,
+	["use11"] = true,
 	["COMMENT"] = "|cff55cc55",
 	["use14"] = true,
-	["saveAllMacrosLocal"] = true,
-	["use11"] = true,
-	["EQUALS"] = "|cffccddee",
-	["CreateGlobalButtons"] = false,
-	["sendDebugOutputToChatWindow"] = false,
-	["debug"] = false,
-	["use6"] = true,
-	["Update2305"] = true,
-	["use12"] = true,
-	["CONCAT"] = "|cffcc7777",
-	["CommandColour"] = "|cFF00FF00",
-	["Updated801"] = true,
-	["UNKNOWN"] = "|cffff6666",
-	["NUMBER"] = "|cffffaa00",
-	["autoCreateMacroStubsGlobal"] = false,
-	["AuthorColour"] = "|cFF00D1FF",
-	["ActiveSequenceVersions"] = {
-	},
-	["requireTarget"] = false,
-	["sendDebugOutputToDebugOutput"] = false,
-	["hideSoundErrors"] = false,
-	["ErroneousSpellID"] = {
-	},
-	["PromptSample"] = true,
-	["STRING"] = "|cff888888",
-	["clearUIErrors"] = false,
-	["useTranslator"] = false,
-	["Update2411"] = true,
-	["TitleColour"] = "|cFFFF0000",
-	["hideUIErrors"] = false,
-	["initialised"] = true,
-	["resetOOC"] = true,
-	["DebugModules"] = {
-		["Translator"] = false,
-		["GUI"] = false,
-		["Storage"] = false,
-		["Editor"] = false,
-		["API"] = false,
-		["Versions"] = false,
-		["Viewer"] = false,
-		["Transmission"] = false,
-	},
-	["INDENT"] = "|cffccaa88",
-	["MacroResetModifiers"] = {
-		["Alt"] = false,
-		["LeftControl"] = false,
-		["LeftButton"] = false,
-		["LeftAlt"] = false,
-		["RighttButton"] = false,
-		["RightAlt"] = false,
-		["MiddleButton"] = false,
-		["Button5"] = false,
-		["Button4"] = false,
-		["LeftShift"] = false,
-		["Control"] = false,
-		["Shift"] = true,
-		["RightControl"] = false,
-		["AnyMod"] = false,
-		["RightShift"] = false,
-	},
-	["filterList"] = {
-		["All"] = false,
-		["Spec"] = true,
-		["Global"] = true,
-		["Class"] = true,
-	},
-	["EmphasisColour"] = "|cFFFFFF00",
-	["UseVerboseExportFormat"] = false,
-	["WOWSHORTCUTS"] = "|cffddaaff",
-	["RealtimeParse"] = false,
-	["deleteOrphansOnLogout"] = true,
-	["Update2410"] = true,
-	["UnfoundSpells"] = {
-		["Ambush"] = true,
-		["Ghostly Strike"] = true,
-		["Kingsbane"] = true,
-		["Death from Above"] = true,
-		["Pistol Shot"] = true,
-		["Adrenaline Rush"] = true,
-		["Blood Fury"] = true,
-		["Blade Flurry"] = true,
-		["Berserking"] = true,
-		["Slice and Dice"] = true,
-		["Run Through"] = true,
-		["Saber Slash"] = true,
-		["Curse of the Dreadblades"] = true,
-	},
-	["overflowPersonalMacros"] = false,
-	["showGSEoocqueue"] = true,
-	["showMiniMap"] = {
-		["hide"] = true,
-	},
-	["DisabledSequences"] = {
-	},
-	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
-	["use13"] = true,
-	["NormalColour"] = "|cFFFFFFFF",
+	["UseWLMExportFormat"] = true,
 	["AddInPacks"] = {
 		["GS-MultiboxMacros"] = {
-			["Name"] = "GS-MultiboxMacros",
 			["Version"] = "v2.1.0",
+			["Name"] = "GS-MultiboxMacros",
 			["SequenceNames"] = {
 				"JMM_DH_Vengeance_ST", -- [1]
 				"JMM_Sh_Ele_AoE", -- [2]
@@ -151,23 +55,121 @@ GSEOptions = {
 			},
 		},
 		["Samples"] = {
-			["Version"] = "2414",
 			["Name"] = "Samples",
+			["Version"] = "2414",
 			["SequenceNames"] = {
 				"Assorted Sample Macros", -- [1]
 			},
 		},
 	},
-	["UseWLMExportFormat"] = true,
+	["EQUALS"] = "|cffccddee",
+	["autoCreateMacroStubsClass"] = false,
+	["sendDebugOutputToChatWindow"] = false,
+	["Update2305"] = true,
+	["CONCAT"] = "|cffcc7777",
+	["debug"] = false,
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["use6"] = true,
+	["CommandColour"] = "|cFF00FF00",
+	["DisabledSequences"] = {
+	},
+	["UNKNOWN"] = "|cffff6666",
+	["NUMBER"] = "|cffffaa00",
+	["showGSEoocqueue"] = true,
+	["overflowPersonalMacros"] = false,
+	["ActiveSequenceVersions"] = {
+	},
+	["Update2410"] = true,
+	["sendDebugOutputToDebugOutput"] = false,
+	["hideSoundErrors"] = false,
+	["ErroneousSpellID"] = {
+	},
+	["useTranslator"] = false,
+	["STRING"] = "|cff888888",
+	["requireTarget"] = false,
+	["hideUIErrors"] = false,
+	["Update2411"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["PromptSample"] = true,
+	["initialised"] = true,
+	["INDENT"] = "|cffccaa88",
+	["DebugModules"] = {
+		["Translator"] = false,
+		["GUI"] = false,
+		["Storage"] = false,
+		["Editor"] = false,
+		["Versions"] = false,
+		["API"] = false,
+		["Viewer"] = false,
+		["Transmission"] = false,
+	},
+	["resetOOC"] = true,
+	["MacroResetModifiers"] = {
+		["Alt"] = false,
+		["LeftControl"] = false,
+		["LeftButton"] = false,
+		["LeftAlt"] = false,
+		["RighttButton"] = false,
+		["RightAlt"] = false,
+		["RightShift"] = false,
+		["Button5"] = false,
+		["AnyMod"] = false,
+		["RightControl"] = false,
+		["Control"] = false,
+		["Shift"] = true,
+		["LeftShift"] = false,
+		["Button4"] = false,
+		["MiddleButton"] = false,
+	},
+	["filterList"] = {
+		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
+	},
+	["EmphasisColour"] = "|cFFFFFF00",
+	["UseVerboseExportFormat"] = false,
+	["WOWSHORTCUTS"] = "|cffddaaff",
+	["RealtimeParse"] = false,
+	["deleteOrphansOnLogout"] = true,
+	["clearUIErrors"] = false,
+	["UnfoundSpells"] = {
+		["Ambush"] = true,
+		["Ghostly Strike"] = true,
+		["Kingsbane"] = true,
+		["Death from Above"] = true,
+		["Pistol Shot"] = true,
+		["Adrenaline Rush"] = true,
+		["Blood Fury"] = true,
+		["Blade Flurry"] = true,
+		["Berserking"] = true,
+		["Slice and Dice"] = true,
+		["Run Through"] = true,
+		["Saber Slash"] = true,
+		["Curse of the Dreadblades"] = true,
+	},
+	["AuthorColour"] = "|cFF00D1FF",
+	["autoCreateMacroStubsGlobal"] = false,
+	["showMiniMap"] = {
+		["hide"] = true,
+	},
+	["Updated801"] = true,
+	["use12"] = true,
+	["use13"] = true,
+	["NormalColour"] = "|cFFFFFFFF",
+	["CreateGlobalButtons"] = false,
+	["saveAllMacrosLocal"] = true,
 	["setDefaultIconQuestionMark"] = true,
-	["KEYWORD"] = "|cff88bbdd",
-	["DefaultImportAction"] = "MERGE",
+	["DebugPrintModConditionsOnKeyPress"] = false,
+	["use1"] = true,
 }
 GSELibrary = {
 	{
 		["JMM_WR_PROT_ST"] = {
 			["Talents"] = "1,2,2,3,3,1,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 73,
 			["MacroVersions"] = {
 				{
 					"/cast Devastate", -- [1]
@@ -184,21 +186,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/castsequence [combat] reset=combat Devastate, Thunder Clap, null", -- [1]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/castsequence [combat] reset=combat Devastate, Demoralizing Shout", -- [1]
 						"/castsequence [combat] reset=combat Devastate, Battle Cry", -- [2]
 						"/cast [combat] Blood Fury", -- [3]
 						"/cast [combat] Berserking", -- [4]
 					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/castsequence [combat] reset=combat Devastate, Thunder Clap, null", -- [1]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 73,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -209,6 +209,7 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["SpecID"] = 70,
 			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
@@ -225,25 +226,26 @@ GSELibrary = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["Trinket1"] = true,
-					["Trinket2"] = true,
-					["KeyRelease"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["KeyPress"] = {
 					},
-					["Ring2"] = true,
+					["KeyRelease"] = {
+					},
+					["Trinket2"] = true,
 					["Combat"] = true,
+					["Ring2"] = true,
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["Trinket1"] = true,
 				}, -- [1]
 			},
-			["SpecID"] = 70,
 			["ManualIntervention"] = true,
 		},
 		["HOLY_ST"] = {
 			["Talents"] = "1,2,2,1,2,3,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 65,
 			["MacroVersions"] = {
 				{
 					"/cast Judgment", -- [1]
@@ -255,109 +257,17 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Divine Protection", -- [1]
 						"/cast [combat] Avenging Wrath", -- [2]
 						"/cast [combat] Aura Mastery", -- [3]
 					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 65,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_PROT_ST"] = {
-			["Talents"] = "2,1,3,3,1,2,1",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [1]
-					"/cast Avenger's Shield", -- [2]
-					"/cast Judgment", -- [3]
-					"/cast [combat] Hammer of the Righteous", -- [4]
-					"/cast Avenger's Shield", -- [5]
-					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [6]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
-						"/cast Shield of the Righteous", -- [1]
-					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 66,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_RET_AOE"] = {
-			["Talents"] = "3,1,3,3,2,2,2",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast Crusader Strike", -- [1]
-					"/cast [combat] Blade of Justice", -- [2]
-					"/cast [combat] Judgment", -- [3]
-					"/cast [combat] Divine Storm", -- [4]
-					"/cast [combat] Wake of Ashes", -- [5]
-					"/cast Crusader Strike", -- [6]
-					"/cast [combat] Divine Storm", -- [7]
-					"/cast [combat] Judgment", -- [8]
-					"/cast [combat] Wake of Ashes", -- [9]
-					"/cast [combat] Divine Hammer", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
 					["KeyPress"] = {
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_RET_ST"] = {
-			["Talents"] = "3,1,3,3,2,2,2",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast Crusader Strike", -- [1]
-					"/cast [combat] Blade of Justice", -- [2]
-					"/cast [combat] Judgment", -- [3]
-					"/cast Templar's Verdict", -- [4]
-					"/cast [combat] Wake of Ashes", -- [5]
-					"/cast Crusader Strike", -- [6]
-					"/cast Templar's Verdict", -- [7]
-					"/cast [combat] Judgment", -- [8]
-					"/cast [combat] Wake of Ashes", -- [9]
-					"/cast [combat] Divine Hammer", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -366,8 +276,6 @@ GSELibrary = {
 			["Talents"] = "2233211",
 			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -384,27 +292,121 @@ GSELibrary = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
-					["PostMacro"] = {
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+					},
+					["KeyRelease"] = {
 					},
 					["Trinket2"] = true,
+					["Combat"] = true,
+					["Ring2"] = true,
+					["PreMacro"] = {
+					},
+					["PostMacro"] = {
+					},
+				}, -- [1]
+			},
+			["SpecID"] = 70,
+			["Author"] = "Samoantitan@Stormrage",
+			["ManualIntervention"] = true,
+		},
+		["JMM_PA_RET_AOE"] = {
+			["Talents"] = "3,1,3,3,2,2,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 70,
+			["MacroVersions"] = {
+				{
+					"/cast Crusader Strike", -- [1]
+					"/cast [combat] Blade of Justice", -- [2]
+					"/cast [combat] Judgment", -- [3]
+					"/cast [combat] Divine Storm", -- [4]
+					"/cast [combat] Wake of Ashes", -- [5]
+					"/cast Crusader Strike", -- [6]
+					"/cast [combat] Divine Storm", -- [7]
+					"/cast [combat] Judgment", -- [8]
+					"/cast [combat] Wake of Ashes", -- [9]
+					"/cast [combat] Divine Hammer", -- [10]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
 					},
 					["KeyPress"] = {
 					},
-					["Ring2"] = true,
-					["Combat"] = true,
-					["PreMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
 				}, -- [1]
 			},
-			["ManualIntervention"] = true,
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_PA_RET_ST"] = {
+			["Talents"] = "3,1,3,3,2,2,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 70,
+			["MacroVersions"] = {
+				{
+					"/cast Crusader Strike", -- [1]
+					"/cast [combat] Blade of Justice", -- [2]
+					"/cast [combat] Judgment", -- [3]
+					"/cast Templar's Verdict", -- [4]
+					"/cast [combat] Wake of Ashes", -- [5]
+					"/cast Crusader Strike", -- [6]
+					"/cast Templar's Verdict", -- [7]
+					"/cast [combat] Judgment", -- [8]
+					"/cast [combat] Wake of Ashes", -- [9]
+					"/cast [combat] Divine Hammer", -- [10]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+					},
+				}, -- [1]
+			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_PA_PROT_ST"] = {
+			["Talents"] = "2,1,3,3,1,2,1",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 66,
+			["MacroVersions"] = {
+				{
+					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [1]
+					"/cast Avenger's Shield", -- [2]
+					"/cast Judgment", -- [3]
+					"/cast [combat] Hammer of the Righteous", -- [4]
+					"/cast Avenger's Shield", -- [5]
+					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [6]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+						"/cast Shield of the Righteous", -- [1]
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+					},
+				}, -- [1]
+			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
 		},
 	}, -- [2]
 	{
 		["JMM_HU_BM_AOE"] = {
 			["Talents"] = "3,1,1,2,3,3,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
@@ -417,28 +419,28 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Bestial Wrath", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Aspect of the Wild", -- [3]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [@focus, exists, nodead][@party1, exists, nodead][@pet, exists, nodead] Misdirection", -- [1]
 						"/petautocastoff [group] Growl", -- [2]
 						"/petautocaston [nogroup] growl", -- [3]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Bestial Wrath", -- [1]
+						"/cast [combat] Blood Fury", -- [2]
+						"/cast [combat] Aspect of the Wild", -- [3]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_HU_BM_ST"] = {
 			["Talents"] = "3,1,1,2,3,3,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
@@ -451,29 +453,27 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Bestial Wrath", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Aspect of the Wild", -- [3]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [@focus, exists, nodead][@party1, exists, nodead][@pet, exists, nodead] Misdirection", -- [1]
 						"/petautocastoff [group] Growl", -- [2]
 						"/petautocaston [nogroup] growl", -- [3]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Bestial Wrath", -- [1]
+						"/cast [combat] Blood Fury", -- [2]
+						"/cast [combat] Aspect of the Wild", -- [3]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["BMBFAST"] = {
 			["Talents"] = "1-3-x-3-x-1-1",
 			["Author"] = "Bootyhuntêr@Thrall",
-			["MythicPlus"] = 2,
+			["PVP"] = 2,
 			["ManualIntervention"] = false,
 			["Dungeon"] = 1,
 			["MacroVersions"] = {
@@ -499,12 +499,12 @@ GSELibrary = {
 					["Neck"] = false,
 					["Belt"] = false,
 					["Ring1"] = false,
-					["Trinket1"] = false,
-					["KeyRelease"] = {
+					["PostMacro"] = {
 					},
 					["Ring2"] = false,
+					["KeyRelease"] = {
+					},
 					["Trinket2"] = false,
-					["StepFunction"] = "Priority",
 					["KeyPress"] = {
 						"/targetenemy [noharm,dead]", -- [1]
 						"/startattack", -- [2]
@@ -516,10 +516,10 @@ GSELibrary = {
 						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] 34477", -- [8]
 						"/cast [mod:ctrl] 2643", -- [9]
 					},
+					["StepFunction"] = "Priority",
 					["PreMacro"] = {
 					},
-					["PostMacro"] = {
-					},
+					["Trinket1"] = false,
 				}, -- [1]
 				{
 					"/cast 5116", -- [1]
@@ -544,12 +544,12 @@ GSELibrary = {
 					["Neck"] = false,
 					["Belt"] = false,
 					["Ring1"] = false,
-					["PostMacro"] = {
-					},
-					["Ring2"] = false,
+					["Combat"] = true,
 					["KeyRelease"] = {
 					},
+					["Ring2"] = false,
 					["Trinket2"] = false,
+					["StepFunction"] = "Priority",
 					["KeyPress"] = {
 						"/targetenemy [noharm][dead]", -- [1]
 						"/startattack", -- [2]
@@ -560,22 +560,24 @@ GSELibrary = {
 						"/cast [target=pet,dead] 982; [nopet,nodead] 883", -- [7]
 						"/cast [mod:ctrl] 2643", -- [8]
 					},
-					["StepFunction"] = "Priority",
 					["PreMacro"] = {
 					},
-					["Combat"] = true,
+					["PostMacro"] = {
+					},
 				}, -- [2]
 			},
 			["Help"] = "\n\n--=Hold Ctrl for Multi-Shot in AoE situations as needed to keep up Beast Cleave=--",
-			["SpecID"] = 253,
-			["Default"] = 1,
 			["Arena"] = 2,
+			["Default"] = 1,
+			["SpecID"] = 253,
 			["Icon"] = "",
-			["PVP"] = 2,
+			["MythicPlus"] = 2,
 		},
 		["JMM_HU_BM_FARM"] = {
 			["Talents"] = "3,1,1,3,3,?,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet] Call Pet 2", -- [1]
@@ -591,21 +593,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+						"/cast [@focus, exists, nodead][@pet, exists, nodead] Misdirection", -- [2]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Bestial Wrath", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Aspect of the Wild", -- [3]
 					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/cast [@focus, exists, nodead][@pet, exists, nodead] Misdirection", -- [2]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -614,6 +614,8 @@ GSELibrary = {
 		["JMM_RO_OUTLAW_ST"] = {
 			["Talents"] = "1,1,1,1,3,2,1",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Adrenaline Rush", -- [1]
@@ -638,15 +640,12 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_OUTLAW"] = {
 			["Talents"] = "2222231",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
 			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
@@ -676,13 +675,13 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SUB"] = {
 			["Talents"] = "3113213",
 			["Default"] = 1,
-			["Author"] = "Cymiryc",
 			["SpecID"] = 261,
 			["MacroVersions"] = {
 				{
@@ -707,14 +706,14 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Cymiryc",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_ASSASSIN"] = {
-			["Default"] = 1,
-			["Talents"] = "2222212",
 			["Help"] = "Sample Assination Macro",
-			["Author"] = "TimothyLuke",
+			["Talents"] = "2222212",
+			["Default"] = 1,
 			["SpecID"] = 259,
 			["MacroVersions"] = {
 				{
@@ -738,12 +737,15 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
 			["Icon"] = "Ability_Rogue_DeadlyBrew",
 			["ManualIntervention"] = false,
 		},
 		["JMM_RO_OUTLAW_AOE"] = {
 			["Talents"] = "1,1,1,1,3,2,1",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Adrenaline Rush", -- [1]
@@ -768,47 +770,48 @@ GSELibrary = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 	}, -- [4]
 	{
-		["JMM_PR_DISC_ST"] = {
-			["Talents"] = "1,1,2,3,1,1,3",
+		["SAM_DISC"] = {
+			["Talents"] = "1231212",
 			["Default"] = 1,
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
-					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
-					"/castsequence reset=combat [talent:7/2][talent:7/3] reset=combat Smite, Smite, Smite, Smite, Shadow Word: Pain; Smite, Smite, Smite, Smite, Purge the Wicked", -- [2]
-					"/cast [combat] Penance", -- [3]
-					"/castsequence [talent:4/3] reset=combat Smite, Mindbender; reset=combat Smite, Shadowfiend", -- [4]
-					"/cast [combat] Penance", -- [5]
+					"/cast [@player, nocombat, nochanneling] 17", -- [1]
+					"/cast [combat, nochanneling] 34433", -- [2]
+					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
+					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
+					"/cast [combat, nochanneling] 585", -- [5]
 					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
+					},
+					["StepFunction"] = "Priority",
+					["Trinket1"] = true,
+					["Trinket2"] = true,
+					["PostMacro"] = {
 					},
 					["KeyPress"] = {
-						"/stopmacro [channeling:Penance]", -- [1]
-						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
-						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat Smite, Shadow Word: Pain, null", -- [3]
-					},
-					["PostMacro"] = {
+						"/target [@focustarget, harm, nodead]", -- [1]
+						"/targetenemy [noharm, dead]", -- [2]
+						"/startattack", -- [3]
 					},
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["Combat"] = true,
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["JMM_PR_DISC_AOE"] = {
 			["Talents"] = "1,1,2,3,1,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
 					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
@@ -827,22 +830,22 @@ GSELibrary = {
 						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
 						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat  Smite, Shadow Word: Pain, null", -- [3]
 					},
-					["PostMacro"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SHADOW"] = {
-			["Help"] = "",
-			["Talents"] = "1211221",
 			["Default"] = 1,
+			["Talents"] = "1211221",
+			["Help"] = "",
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 258,
 			["MacroVersions"] = {
 				{
 					"/castsequence [nochanneling] reset=target  34914, 15407, null", -- [1]
@@ -854,53 +857,50 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+						"/cast [combat,nochanneling] 586", -- [1]
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/cast [form:0] 232698", -- [1]
 						"/targetenemy [noharm][dead]", -- [2]
 						"/castsequence [mod:alt] 589, 34914", -- [3]
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat,nochanneling] 586", -- [1]
-					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 258,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
-		["SAM_DISC"] = {
-			["Talents"] = "1231212",
+		["JMM_PR_DISC_ST"] = {
+			["Talents"] = "1,1,2,3,1,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
-					"/cast [@player, nocombat, nochanneling] 17", -- [1]
-					"/cast [combat, nochanneling] 34433", -- [2]
-					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
-					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
-					"/cast [combat, nochanneling] 585", -- [5]
-					["Trinket1"] = true,
-					["Trinket2"] = true,
-					["Combat"] = true,
-					["StepFunction"] = "Priority",
+					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
+					"/castsequence reset=combat [talent:7/2][talent:7/3] reset=combat Smite, Smite, Smite, Smite, Shadow Word: Pain; Smite, Smite, Smite, Smite, Purge the Wicked", -- [2]
+					"/cast [combat] Penance", -- [3]
+					"/castsequence [talent:4/3] reset=combat Smite, Mindbender; reset=combat Smite, Shadowfiend", -- [4]
+					"/cast [combat] Penance", -- [5]
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
+					},
 					["KeyPress"] = {
-						"/target [@focustarget, harm, nodead]", -- [1]
-						"/targetenemy [noharm, dead]", -- [2]
-						"/startattack", -- [3]
+						"/stopmacro [channeling:Penance]", -- [1]
+						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
+						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat Smite, Shadow Word: Pain, null", -- [3]
+					},
+					["StepFunction"] = "Sequential",
+					["PreMacro"] = {
 					},
 					["PostMacro"] = {
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 256,
-			["Icon"] = "",
+			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 	}, -- [5]
@@ -908,6 +908,8 @@ GSELibrary = {
 		["JMM_DK_BLOOD_ST"] = {
 			["Talents"] = "2,1,1,2,1,3,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 250,
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat Marrowrend, Marrowrend, Death Strike", -- [1]
@@ -923,20 +925,18 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [combat] Vampiric Blood", -- [1]
-						"/cast [combat] Dancing Rune Weapon", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/cast [combat] Vampiric Blood", -- [1]
+						"/cast [combat] Dancing Rune Weapon", -- [2]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 250,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -945,6 +945,8 @@ GSELibrary = {
 		["JMM_SH_RESTO_AOE"] = {
 			["Talents"] = "3,2,1,3,3,2,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 264,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
@@ -954,27 +956,27 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Healing Stream Totem", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Berserking", -- [3]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_ELEMENTAL"] = {
-			["Help"] = "A simple Elemental Macro",
-			["Talents"] = "2211121",
 			["Default"] = 1,
+			["Talents"] = "2211121",
+			["Help"] = "A simple Elemental Macro",
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/castsequence [nopet:Fire Elemental] 198067", -- [1]
@@ -985,25 +987,25 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Stormkeeper", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/targetenemy [noharm][dead]", -- [1]
 						"/petattack [@target,harm]", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat] Stormkeeper", -- [1]
+					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 262,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_RESTO_ST"] = {
 			["Talents"] = "3,2,1,3,3,2,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 264,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
@@ -1014,20 +1016,18 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Healing Stream Totem", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Berserking", -- [3]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1035,8 +1035,6 @@ GSELibrary = {
 			["Talents"] = "2211121",
 			["Default"] = 1,
 			["Help"] = "Sample Elemental Macro",
-			["SpecID"] = 262,
-			["Author"] = "Lloskka",
 			["MacroVersions"] = {
 				{
 					"/cast Stormstrike", -- [1]
@@ -1049,20 +1047,24 @@ GSELibrary = {
 					["KeyRelease"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
+					["PostMacro"] = {
 					},
 					["PreMacro"] = {
 					},
-					["PostMacro"] = {
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
 					},
 				}, -- [1]
 			},
+			["SpecID"] = 262,
+			["Author"] = "Lloskka",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_ELE_AOE"] = {
 			["Talents"] = "3,2,1,2,3,3,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/cast Stormkeeper", -- [1]
@@ -1075,61 +1077,27 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/castsequence  reset=target  Flame Shock, null", -- [1]
-						"/castsequence  [talent:1/3] reset=combat  Totem Mastery, null", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast Lava Burst", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Berserking", -- [3]
 					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_SH_ELE_ST"] = {
-			["Talents"] = "3,2,1,2,3,1,2",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast Stormkeeper", -- [1]
-					"/cast [talent:5/3] Elemental Blast", -- [2]
-					"/cast Lava Burst", -- [3]
-					"/castsequence Lightning Bolt, Lightning Bolt, Flame Shock", -- [4]
-					"/cast [talent:5/3] Elemental Blast", -- [5]
-					"/cast Lava Burst", -- [6]
-					"/castsequence Lightning Bolt, Lightning Bolt, Lightning Bolt, Earth Shock", -- [7]
-					"/cast [combat] Fire Elemental", -- [8]
-					["PostMacro"] = {
+					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
 					["KeyPress"] = {
 						"/castsequence  reset=target  Flame Shock, null", -- [1]
 						"/castsequence  [talent:1/3] reset=combat  Totem Mastery, null", -- [2]
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast Lava Burst", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_ENH_ST"] = {
 			["Talents"] = "3,1,1,2,2,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 263,
 			["MacroVersions"] = {
 				{
 					"/cast Rockbiter", -- [1]
@@ -1146,15 +1114,47 @@ GSELibrary = {
 					["KeyPress"] = {
 						"/cast [combat] Doom Winds", -- [1]
 					},
+					["StepFunction"] = "Sequential",
+					["PreMacro"] = {
+					},
 					["PostMacro"] = {
+					},
+				}, -- [1]
+			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_SH_ELE_ST"] = {
+			["Talents"] = "3,2,1,2,3,1,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 262,
+			["MacroVersions"] = {
+				{
+					"/cast Stormkeeper", -- [1]
+					"/cast [talent:5/3] Elemental Blast", -- [2]
+					"/cast Lava Burst", -- [3]
+					"/castsequence Lightning Bolt, Lightning Bolt, Flame Shock", -- [4]
+					"/cast [talent:5/3] Elemental Blast", -- [5]
+					"/cast Lava Burst", -- [6]
+					"/castsequence Lightning Bolt, Lightning Bolt, Lightning Bolt, Earth Shock", -- [7]
+					"/cast [combat] Fire Elemental", -- [8]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+						"/cast Lava Burst", -- [1]
+						"/cast [combat] Blood Fury", -- [2]
+						"/cast [combat] Berserking", -- [3]
 					},
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/castsequence  reset=target  Flame Shock, null", -- [1]
+						"/castsequence  [talent:1/3] reset=combat  Totem Mastery, null", -- [2]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 263,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1163,31 +1163,33 @@ GSELibrary = {
 		["JMM_MA_ARCANE_AOE"] = {
 			["Talents"] = "2,2,3,3,1,2,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 62,
 			["MacroVersions"] = {
 				{
 					"/castsequence Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Barrage", -- [1]
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_MA_ARCANE_ST"] = {
 			["Talents"] = "2,2,3,3,1,2,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 62,
 			["MacroVersions"] = {
 				{
 					"/cast Prismatic Barrier", -- [1]
@@ -1196,19 +1198,17 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1218,6 +1218,7 @@ GSELibrary = {
 			["Talents"] = "3,1,2,1,1,2,2",
 			["Help"] = "",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat/15 Shadow Bolt, Call Dreadstalkers, Demonic Empowerment, Life Tap, Shadow Bolt", -- [1]
@@ -1229,29 +1230,30 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 						"/petautocastoff [group] Threatening Presence", -- [3]
 						"/petautocaston [nogroup] Threatening Presence", -- [4]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/cast [mod:shift] Drain Life", -- [2]
+						"/castsequence reset=target Doom, null", -- [3]
+					},
 				}, -- [1]
 			},
 			["SpecID"] = 266,
-			["Author"] = "Jabberie@Draka",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DEMO_AOE"] = {
-			["Default"] = 1,
-			["Talents"] = "3,1,2,1,1,2,2",
 			["Help"] = "",
+			["Talents"] = "3,1,2,1,1,2,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 266,
 			["MacroVersions"] = {
 				{
 					"/castsequence [combat] reset=combat/15 Demonwrath, Hand of Gul'dan, Demonic Empowerment, Demonwrath, Demonwrath, Life Tap", -- [1]
@@ -1260,29 +1262,29 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 						"/petautocastoff [group] Threatening Presence", -- [3]
 						"/petautocaston [nogroup] Threatening Presence", -- [4]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/cast [mod:shift] Drain Life", -- [2]
+						"/castsequence reset=target Doom, null", -- [3]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 266,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DESTRO_ST"] = {
 			["Talents"] = "1,1,?,2,1,1,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 267,
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat Immolate, Shadow Bolt, Shadow Bolt, Shadow Bolt", -- [1]
@@ -1292,27 +1294,27 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/cast [nopet] Summon Doomguard", -- [2]
 						"/castsequence reset=target Immolate, null", -- [3]
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_AFF_ST"] = {
 			["Talents"] = "3,1,2,1,1,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 265,
 			["MacroVersions"] = {
 				{
 					"/cast [mod:shift] Seed of Corruption", -- [1]
@@ -1322,26 +1324,26 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/castsequence reset=target/combat  Agony, Corruption, Unstable Affliction, Drain Soul, Null", -- [2]
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Blood Fury", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/castsequence reset=target/combat  Agony, Corruption, Unstable Affliction, Drain Soul, Null", -- [2]
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 265,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DESTRO_AOE"] = {
 			["Talents"] = "1,3,3,1,2,2,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 267,
 			["MacroVersions"] = {
 				{
 					"/cast [@player] Rain of Fire", -- [1]
@@ -1352,21 +1354,19 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 						"/cast [nopet] Summon Imp", -- [2]
 						"/castsequence reset=target Immolate, null", -- [3]
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1375,6 +1375,8 @@ GSELibrary = {
 		["JMM_MK_BM_ST"] = {
 			["Talents"] = "2,1,1,3,1,1,2",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 268,
 			["MacroVersions"] = {
 				{
 					"/castsequence Keg Smash, Tiger Palm, Blackout Strike, Tiger Palm", -- [1]
@@ -1386,23 +1388,23 @@ GSELibrary = {
 						"/cast [combat] Berserking", -- [2]
 					},
 					["StepFunction"] = "Sequential",
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 					},
+					["PreMacro"] = {
+					},
+					["PostMacro"] = {
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 268,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_MK_WW_ST"] = {
 			["Talents"] = "3,2,3,3,1,2,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 269,
 			["MacroVersions"] = {
 				{
 					"/cast Tiger Palm", -- [1]
@@ -1417,27 +1419,24 @@ GSELibrary = {
 						"/cast [combat] Blood Fury", -- [1]
 					},
 					["StepFunction"] = "Sequential",
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/stopmacro [channeling]", -- [1]
 					},
+					["PreMacro"] = {
+					},
+					["PostMacro"] = {
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 269,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 	}, -- [10]
 	{
 		["SAM_GUARDIAN"] = {
-			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
-			["Talents"] = "2332213",
 			["Default"] = 1,
-			["SpecID"] = 104,
+			["Talents"] = "2332213",
+			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -1448,9 +1447,8 @@ GSELibrary = {
 					"/cast Mangle", -- [6]
 					"/castsequence Ironfur, Ironfur", -- [7]
 					"/cast Rage of the Sleeper", -- [8]
+					["Trinket2"] = true,
 					["Trinket1"] = true,
-					["KeyRelease"] = {
-					},
 					["StepFunction"] = "Priority",
 					["PostMacro"] = {
 					},
@@ -1462,18 +1460,20 @@ GSELibrary = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket2"] = true,
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
+			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_BALANCE"] = {
 			["Talents"] = "1323321",
 			["Default"] = 1,
-			["Author"] = "John Metz",
 			["SpecID"] = 102,
+			["Author"] = "John Metz",
 			["MacroVersions"] = {
 				{
 					"/castsequence 8921, 93402, 190984, 190984, 190984, 190984, 190984", -- [1]
@@ -1486,11 +1486,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["KeyRelease"] = {
-					},
+					["StepFunction"] = "Sequential",
 					["PreMacro"] = {
 					},
-					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 				{
 					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
@@ -1500,11 +1500,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 				}, -- [2]
 			},
 			["ManualIntervention"] = false,
@@ -1512,6 +1512,8 @@ GSELibrary = {
 		["JMM_DR_GUARDIAN_ST"] = {
 			["Talents"] = "3,3,1,1,1,2,1",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Thrash", -- [1]
@@ -1524,27 +1526,85 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/cast [noform:1] !Bear Form", -- [1]
+						"/castsequence  reset=target  Moonfire, null", -- [2]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast Mangle", -- [1]
 						"/cast [combat] Blood Fury", -- [2]
 						"/cast [combat] Berserking", -- [3]
 					},
+				}, -- [1]
+			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_DR_FERAL_ST"] = {
+			["Helplink"] = "https://www.youtube.com/watch?v=IT31Rp7aIOU",
+			["Talents"] = "2,1,1,1,1,1,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 103,
+			["MacroVersions"] = {
+				{
+					"/castsequence reset=combat  Shred, Rake, Shred, Shred, Ferocious Bite", -- [1]
+					"/castsequence [combat] reset=combat  Shred, Rake, Tiger's Fury", -- [2]
+					"/cast [combat] Ashamane's Frenzy", -- [3]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/cast [noform:2] !Cat Form", -- [1]
+						"/cast [nostealth, nocombat] Prowl", -- [2]
+						"/castsequence [combat] reset=combat  Rake, Shred, Shred, Rip, nulll", -- [3]
+					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
-						"/cast [noform:1] !Bear Form", -- [1]
-						"/castsequence  reset=target  Moonfire, null", -- [2]
+					["KeyRelease"] = {
+						"/cast [combat] Berserk", -- [1]
+						"/console autounshift 0", -- [2]
+						"/cast [@player] Regrowth", -- [3]
+						"/console autounshift 1", -- [4]
+						"/cast [combat] Blood Fury", -- [5]
+						"/cast [combat] Berserking", -- [6]
 					},
 				}, -- [1]
 			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_DR_BATTLEREZ"] = {
+			["Helplink"] = "",
+			["Talents"] = "?,?,?,?,?,?,?",
+			["Default"] = 1,
 			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 104,
+			["SpecID"] = 103,
+			["MacroVersions"] = {
+				{
+					"/cast [@focus,dead,combat][@party1,dead,combat][@party2,dead,combat][@party3,dead,combat][@party4,dead,combat][@party5,dead,combat] Rebirth", -- [1]
+					"/cast [@focus,dead,nocombat][@party1,dead,nocombat][@party2,dead,nocombat][@party3,dead,nocombat][@party4,dead,nocombat][@party5,dead,nocombat] Revive", -- [2]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [1]
+			},
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DR_BOOMKIN_ST"] = {
 			["Talents"] = "3,1,3,1,1,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
 					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
@@ -1562,113 +1622,25 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/cast [noform:4] Moonkin Form", -- [1]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Celestial Alignment", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_BATTLEREZ"] = {
-			["Helplink"] = "",
-			["Talents"] = "?,?,?,?,?,?,?",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus,dead,combat][@party1,dead,combat][@party2,dead,combat][@party3,dead,combat][@party4,dead,combat][@party5,dead,combat] Rebirth", -- [1]
-					"/cast [@focus,dead,nocombat][@party1,dead,nocombat][@party2,dead,nocombat][@party3,dead,nocombat][@party4,dead,nocombat][@party5,dead,nocombat] Revive", -- [2]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_FERAL_ST"] = {
-			["Helplink"] = "https://www.youtube.com/watch?v=IT31Rp7aIOU",
-			["Talents"] = "2,1,1,1,1,1,2",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/castsequence reset=combat  Shred, Rake, Shred, Shred, Ferocious Bite", -- [1]
-					"/castsequence [combat] reset=combat  Shred, Rake, Tiger's Fury", -- [2]
-					"/cast [combat] Ashamane's Frenzy", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Berserk", -- [1]
-						"/console autounshift 0", -- [2]
-						"/cast [@player] Regrowth", -- [3]
-						"/console autounshift 1", -- [4]
-						"/cast [combat] Blood Fury", -- [5]
-						"/cast [combat] Berserking", -- [6]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:2] !Cat Form", -- [1]
-						"/cast [nostealth, nocombat] Prowl", -- [2]
-						"/castsequence [combat] reset=combat  Rake, Shred, Shred, Rip, nulll", -- [3]
-					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_RESTO_ST"] = {
-			["Talents"] = "2,1,1,1,3,2,2",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus,exists][@Party1,exists] Cenarion Ward", -- [1]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Lifebloom, Regrowth, Rejuvenation, Wild Growth, Healing Touch", -- [2]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Regrowth, Healing Touch, Swiftmend", -- [3]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Healing Touch, Regrowth, Rejuvenation, Ironbark", -- [4]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [talent:3/1, noform:5] !Treant Form; [talent:3/2, noform:4][talent:3/3, noform:4] !Treant Form", -- [2]
-						"/castsequence [@player] reset=combat  Efflorescence, null", -- [3]
-					},
-				}, -- [1]
-			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 105,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DR_BOOMKIN_AOE"] = {
 			["Talents"] = "3,1,3,1,1,1,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
 					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
@@ -1684,26 +1656,53 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/cast [noform:4] Moonkin Form", -- [1]
+					},
+					["PreMacro"] = {
+					},
 					["KeyRelease"] = {
 						"/cast [combat] Celestial Alignment", -- [1]
 						"/cast [combat] Berserking", -- [2]
 					},
+				}, -- [1]
+			},
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["ManualIntervention"] = false,
+		},
+		["JMM_DR_RESTO_ST"] = {
+			["Talents"] = "2,1,1,1,3,2,2",
+			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 105,
+			["MacroVersions"] = {
+				{
+					"/cast [@focus,exists][@Party1,exists] Cenarion Ward", -- [1]
+					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Lifebloom, Regrowth, Rejuvenation, Wild Growth, Healing Touch", -- [2]
+					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Regrowth, Healing Touch, Swiftmend", -- [3]
+					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Healing Touch, Regrowth, Rejuvenation, Ironbark", -- [4]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/stopmacro [channeling]", -- [1]
+						"/cast [talent:3/1, noform:5] !Treant Form; [talent:3/2, noform:4][talent:3/3, noform:4] !Treant Form", -- [2]
+						"/castsequence [@player] reset=combat  Efflorescence, null", -- [3]
+					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
+					["KeyRelease"] = {
+						"/cast [combat] Blood Fury", -- [1]
+						"/cast [combat] Berserking", -- [2]
 					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -1743,17 +1742,18 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyPress"] = {
 						"/cast [noform:2] Cat Form", -- [1]
 						"/cast [nostealth,nocombat] Prowl", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+					},
 				}, -- [1]
 			},
 			["Author"] = "Ed",
+			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -1762,6 +1762,8 @@ GSELibrary = {
 		["JMM_DH_VENGEANCE_ST"] = {
 			["Talents"] = "3,2,2,2,2,3,3",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 581,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Immolation Aura", -- [1]
@@ -1777,24 +1779,24 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 						"/cast [combat] Demon Spikes", -- [1]
 						"/cast [combat] Soul Barrier", -- [2]
 					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 581,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DH_HAVOC_ST"] = {
 			["Talents"] = "2,2,2,2,2,1,1",
 			["Default"] = 1,
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 577,
 			["MacroVersions"] = {
 				{
 					"/cast [nochanneling] Chaos Blades", -- [1]
@@ -1808,18 +1810,16 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
+					},
 					["KeyPress"] = {
 						"/cast [nochanneling] Blur", -- [1]
 						"/cast [nochanneling] Nemesis", -- [2]
 					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
 				}, -- [1]
 			},
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 577,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},

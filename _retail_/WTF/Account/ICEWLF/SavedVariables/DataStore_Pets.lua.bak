@@ -27,22 +27,22 @@ DataStore_PetsDB = {
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -124,73 +124,73 @@ DataStore_PetsDB = {
 				[170292] = 85284,
 				[229102] = 115147,
 				[71840] = 38374,
-				[229103] = 115148,
+				[131650] = 66984,
 				[141447] = 71020,
 				[70613] = 37865,
 				[173543] = 86717,
-				[36027] = 21055,
-				[62746] = 33239,
+				[26533] = 15698,
+				[61855] = 32841,
 				[61349] = 32590,
 				[273839] = 139252,
+				[135254] = 68656,
 				[141448] = 71021,
-				[230443] = 115918,
 				[100576] = 54027,
 				[177212] = 77021,
 				[26045] = 15710,
-				[179832] = 90203,
-				[170291] = 87704,
+				[221907] = 111423,
+				[135264] = 68662,
 				[135265] = 68663,
-				[10709] = 14421,
+				[230444] = 115919,
 				[141449] = 71022,
-				[279213] = 143189,
-				[122748] = 62829,
-				[177238] = 88577,
-				[169695] = 84915,
+				[93838] = 50722,
+				[170269] = 86081,
+				[224403] = 112728,
+				[127816] = 65314,
 				[69002] = 36607,
-				[179831] = 90202,
+				[10714] = 7565,
 				[204148] = 103159,
-				[193943] = 98463,
+				[35156] = 20408,
 				[35239] = 20472,
 				[147124] = 73011,
-				[61725] = 32791,
+				[62561] = 33226,
 				[65358] = 34364,
 				[215560] = 108568,
 				[184482] = 93143,
 				[188084] = 94867,
 				[223359] = 112144,
 				[103588] = 55386,
-				[170272] = 88103,
+				[135263] = 68661,
 				[10680] = 7390,
+				[61350] = 32592,
 				[89039] = 47944,
-				[10684] = 7389,
 				[240064] = 120397,
 				[10688] = 7395,
 				[69452] = 36871,
 				[223339] = 112132,
-				[195370] = 99403,
 				[168668] = 84330,
+				[195370] = 99403,
 				[179830] = 90201,
-				[61350] = 32592,
-				[135263] = 68661,
+				[10684] = 7389,
+				[170272] = 88103,
 				[10704] = 7549,
 				[124660] = 63832,
-				[62561] = 33226,
+				[61725] = 32791,
 				[164212] = 81431,
-				[35156] = 20408,
-				[10714] = 7565,
+				[193943] = 98463,
+				[179831] = 90202,
 				[221683] = 111296,
-				[127816] = 65314,
-				[224403] = 112728,
-				[170269] = 86081,
-				[93838] = 50722,
-				[230444] = 115919,
-				[135264] = 68662,
-				[221907] = 111423,
-				[135254] = 68656,
-				[61855] = 32841,
-				[26533] = 15698,
+				[169695] = 84915,
+				[177238] = 88577,
+				[122748] = 62829,
+				[279213] = 143189,
+				[10709] = 14421,
+				[170291] = 87704,
+				[179832] = 90203,
+				[230443] = 115918,
+				[62746] = 33239,
+				[36027] = 21055,
 				[170270] = 86447,
-				[131650] = 66984,
+				[229103] = 115148,
 			},
 		},
 		["Characters"] = {
@@ -339,12 +339,20 @@ DataStore_PetsDB = {
 					39709, -- [40]
 				},
 			},
-			["Default.Bloodscalp.Vylara"] = {
-				["lastUpdate"] = 1566358566,
+			["Default.Arygos.Ärgo"] = {
+				["lastUpdate"] = 1566356230,
 				["CRITTER"] = {
-					69677, -- [1]
-					55068, -- [2]
-					69541, -- [3]
+					61855, -- [1]
+					131650, -- [2]
+					26533, -- [3]
+					10683, -- [4]
+					69677, -- [5]
+					124660, -- [6]
+					4055, -- [7]
+					55068, -- [8]
+					67417, -- [9]
+					69541, -- [10]
+					62561, -- [11]
 				},
 			},
 			["Default.Emerald Dream.Samoansensei"] = {
@@ -405,11 +413,11 @@ DataStore_PetsDB = {
 					221907, -- [21]
 				},
 			},
-			["Default.Emerald Dream.Mercis"] = {
-				["lastUpdate"] = 1566452461,
-				["CRITTER"] = {
-					92395, -- [1]
-				},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013963,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743397,
 			},
 			["Default.Arygos.Taichipanda"] = {
 				["lastUpdate"] = 1566356338,
@@ -421,11 +429,17 @@ DataStore_PetsDB = {
 					69541, -- [5]
 				},
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743397,
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1545018699,
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920046,
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
+			},
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
+			},
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1545022454,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1552319660,
@@ -505,41 +519,27 @@ DataStore_PetsDB = {
 					26529, -- [73]
 				},
 			},
-			["Default.Tichondrius.Serepa"] = {
-				["lastUpdate"] = 1545730666,
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022454,
-			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1545018699,
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920046,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1566073365,
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013963,
+			["Default.Emerald Dream.Mercis"] = {
+				["lastUpdate"] = 1566780805,
+				["CRITTER"] = {
+					92395, -- [1]
+				},
 			},
 			["Default.Ravenholdt.Kalin"] = {
 				["lastUpdate"] = 1546207293,
 			},
-			["Default.Arygos.Ärgo"] = {
-				["lastUpdate"] = 1566356230,
+			["Default.Bloodscalp.Vylara"] = {
+				["lastUpdate"] = 1566358566,
 				["CRITTER"] = {
-					61855, -- [1]
-					131650, -- [2]
-					26533, -- [3]
-					10683, -- [4]
-					69677, -- [5]
-					124660, -- [6]
-					4055, -- [7]
-					55068, -- [8]
-					67417, -- [9]
-					69541, -- [10]
-					62561, -- [11]
+					69677, -- [1]
+					55068, -- [2]
+					69541, -- [3]
 				},
 			},
 		},

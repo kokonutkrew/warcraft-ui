@@ -126,21 +126,21 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Bloodscalp-Täichipanda"] = {
+	["Stormrage-Samoantitan"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoanranger"] = {
+	["Emerald Dream-Mercis"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Zul'jin-Mishky"] = {
+	["Emerald Dream-Samoansmash"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -154,7 +154,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Zul'jin-Phyra"] = {
+	["Tichondrius-Samoansneaky"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -175,14 +175,14 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Kakattack"] = {
+	["Tichondrius-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoanrelic"] = {
+	["Tichondrius-Serepa"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -203,7 +203,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoanrelic"] = {
+	["Zul'jin-Kecil"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -238,7 +238,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Zul'jin-Kecil"] = {
+	["Emerald Dream-Samoanrelic"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -252,14 +252,14 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Serepa"] = {
+	["Tichondrius-Samoanrelic"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansavage"] = {
+	["Stormrage-Kakattack"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -273,28 +273,28 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansneaky"] = {
+	["Zul'jin-Phyra"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoansmash"] = {
+	["Zul'jin-Mishky"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Mercis"] = {
+	["Emerald Dream-Samoanranger"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Samoantitan"] = {
+	["Bloodscalp-Täichipanda"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",

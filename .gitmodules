@@ -14,3 +14,7 @@
 	path = "# ＫＯＫＯＮＵＴＫＲＥＷ/macros"
 	url = https://github.com/kokonutkrew/macros.git
 	branch = master
+[submodule "#kokonutkrew/macros"]
+	path = "#kokonutkrew/macros"
+	url = https://github.com/kokonutkrew/macros.git
+	branch = master

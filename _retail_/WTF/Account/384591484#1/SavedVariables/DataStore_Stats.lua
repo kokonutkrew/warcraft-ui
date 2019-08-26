@@ -28,8 +28,8 @@ DataStore_StatsDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -470,7 +470,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1566799838,
+				["lastUpdate"] = 1566855105,
 				["Stats"] = {
 					["Ranged"] = "38-39|0|118|0|22.343067169189",
 					["HealthMax"] = 1550,

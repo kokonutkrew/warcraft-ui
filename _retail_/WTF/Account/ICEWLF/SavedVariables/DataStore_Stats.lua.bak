@@ -437,19 +437,6 @@ DataStore_StatsDB = {
 					["Defense"] = "0|0|11.911451339722|0|0|0",
 				},
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545015169,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|11.375289916992",
-					["HealthMax"] = 1090,
-					["Melee"] = "7-11|3.4520001411438|0|0|11.375289916992|0",
-					["MaxPower"] = "0|995",
-					["Defense"] = "0|0|3|0|0|0",
-					["PVP"] = "0|0",
-					["Base"] = "34|48|109|122|0",
-					["Spell"] = "122|122|0|11.375289916992|14|39",
-				},
-			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1563743277,
 				["Stats"] = {
@@ -461,6 +448,19 @@ DataStore_StatsDB = {
 					["PVP"] = "0|0",
 					["Base"] = "74|260|317|99|0",
 					["Spell"] = "99|99|0|21.550514221191|92|0",
+				},
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545015169,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|11.375289916992",
+					["HealthMax"] = 1090,
+					["Melee"] = "7-11|3.4520001411438|0|0|11.375289916992|0",
+					["MaxPower"] = "0|995",
+					["Defense"] = "0|0|3|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "34|48|109|122|0",
+					["Spell"] = "122|122|0|11.375289916992|14|39",
 				},
 			},
 			["Default.Arygos.Taichipanda"] = {
@@ -568,7 +568,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Mercis"] = {
-				["lastUpdate"] = 1566781132,
+				["lastUpdate"] = 1566853801,
 				["Stats"] = {
 					["Ranged"] = "69-70|0|0|0|18.045433044434",
 					["HealthMax"] = 1470,

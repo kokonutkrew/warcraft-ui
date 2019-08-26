@@ -28,8 +28,8 @@ DataStore_TalentsDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -172,12 +172,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "WARRIOR",
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
 				["Specializations"] = {
 					0, -- [1]
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "HUNTER",
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
@@ -229,18 +229,18 @@ DataStore_TalentsDB = {
 				["Class"] = "DEMONHUNTER",
 			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1566799639,
+				["lastUpdate"] = 1566855106,
 				["Specializations"] = {
 					1, -- [1]
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743272,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
 				["Specializations"] = {
 					0, -- [1]
 				},
-				["Class"] = "HUNTER",
+				["Class"] = "PRIEST",
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,
@@ -281,8 +281,8 @@ DataStore_TalentsRefDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",

@@ -28,8 +28,8 @@ DataStore_MailsDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -94,17 +94,17 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1545236305,
 				["lastVisitDate"] = "2018/12/19 09:18",
 			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544900579,
-				["lastVisitDate"] = "2018/12/15 12:02",
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544674735,
+				["lastVisitDate"] = "2018/12/12 21:18",
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["lastUpdate"] = 1540622665,
 				["lastVisitDate"] = "2018/10/27 00:44",
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544674735,
-				["lastVisitDate"] = "2018/12/12 21:18",
+			["Default.Emerald Dream.Samoanspy"] = {
+				["lastUpdate"] = 1544900579,
+				["lastVisitDate"] = "2018/12/15 12:02",
 			},
 		},
 	},

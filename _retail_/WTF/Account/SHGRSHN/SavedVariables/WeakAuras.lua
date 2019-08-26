@@ -12,17 +12,16 @@ WeakAurasSaved = {
 			["text1FontSize"] = 12,
 			["authorOptions"] = {
 			},
-			["text2"] = "%p",
-			["xOffset"] = -2.99993896484375,
+			["text1FontFlags"] = "OUTLINE",
+			["glowLength"] = 10,
 			["yOffset"] = -237.000061035156,
 			["anchorPoint"] = "CENTER",
-			["glow"] = true,
+			["xOffset"] = -2.99993896484375,
 			["cooldownSwipe"] = true,
-			["glowLength"] = 10,
+			["glow"] = true,
 			["customTextUpdate"] = "update",
 			["cooldownEdge"] = false,
 			["icon"] = true,
-			["useglowColor"] = false,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -55,6 +54,7 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
+			["useglowColor"] = false,
 			["internalVersion"] = 16,
 			["glowXOffset"] = 0,
 			["animation"] = {
@@ -130,6 +130,7 @@ WeakAurasSaved = {
 			["text2Enabled"] = false,
 			["text2Containment"] = "INSIDE",
 			["glowType"] = "buttonOverlay",
+			["glowThickness"] = 1,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -137,7 +138,6 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -145,13 +145,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["text1Containment"] = "INSIDE",
-			["zoom"] = 0,
+			["desaturate"] = false,
+			["text2"] = "%p",
 			["text2FontSize"] = 24,
-			["text1FontFlags"] = "OUTLINE",
+			["zoom"] = 0,
 			["text1"] = "%s",
-			["glowThickness"] = 1,
 			["glowYOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["glowScale"] = 1,

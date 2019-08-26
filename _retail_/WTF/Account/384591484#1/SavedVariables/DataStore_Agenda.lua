@@ -28,8 +28,8 @@ DataStore_AgendaDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -142,10 +142,10 @@ DataStore_AgendaDB = {
 					["Fekzul"] = {
 						["note"] = "",
 					},
-					["Deydrellia"] = {
+					["Mingan"] = {
 						["note"] = "",
 					},
-					["Mingan"] = {
+					["Deydrellia"] = {
 						["note"] = "",
 					},
 					["Savedby"] = {
@@ -154,7 +154,7 @@ DataStore_AgendaDB = {
 					["Grenji"] = {
 						["note"] = "",
 					},
-					["Bauce"] = {
+					["Yoter"] = {
 						["note"] = "",
 					},
 					["Scottxyz"] = {
@@ -163,7 +163,7 @@ DataStore_AgendaDB = {
 					["Yoshïo"] = {
 						["note"] = "",
 					},
-					["Yoter"] = {
+					["Bauce"] = {
 						["note"] = "",
 					},
 					["Nossbig"] = {
@@ -411,7 +411,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1566073399,
 			},
 			["Default.Emerald Dream.Samoanrouge"] = {
-				["lastUpdate"] = 1566799639,
+				["lastUpdate"] = 1566855103,
 			},
 			["Default.Ravenholdt.Kalin"] = {
 				["lastUpdate"] = 1546208371,

@@ -212,7 +212,7 @@ TeamProfileDB = {
 						["order"] = 3,
 						["class"] = "ROGUE",
 						["name"] = "Cherriebomb-EmeraldDream",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanrouge-EmeraldDream"] = {
@@ -891,7 +891,6 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
-			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
 			["itemsAdvanced"] = {
@@ -976,12 +975,12 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantitan - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 70.00000762939453,
 			["global"] = {
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1064,6 +1063,7 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantank - Tichondrius"] = {
 			["backgroundStyle"] = "None",
@@ -1259,8 +1259,6 @@ ItemUseProfileDB = {
 			["frameRelativePoint"] = "BOTTOMLEFT",
 		},
 		["Samoanslayer - Emerald Dream"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1344,6 +1342,8 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 			["itemsAdvanced"] = {

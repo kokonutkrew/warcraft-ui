@@ -44,13 +44,13 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1552316915,
-				["lastVisitDate"] = "2019/03/11 09:08",
-			},
 			["Default.Tichondrius.Gfsdfgsd"] = {
 				["lastUpdate"] = 1547741452,
 				["lastVisitDate"] = "2019/01/17 09:10",
+			},
+			["Default.Emerald Dream.Samoanslayer"] = {
+				["lastUpdate"] = 1552316915,
+				["lastVisitDate"] = "2019/03/11 09:08",
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1544926156,

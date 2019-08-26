@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_5000000"] = 10000,
 	["_200000"] = 1000,
-	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
-	["STARTING_DISCOUNT"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -115,9 +115,9 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-0A0206D6",
 		["firstVersion"] = "5.0.5",
 	},
-	["Wealthgaming"] = {
-		["firstSeen"] = 1540622080,
-		["guid"] = "Player-162-08085E88",
+	["Samoansaint"] = {
+		["firstSeen"] = 1544810226,
+		["guid"] = "Player-11-09B1FBE9",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoantotems"] = {
@@ -125,9 +125,9 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-60-0BE06788",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoansaint"] = {
-		["firstSeen"] = 1544810226,
-		["guid"] = "Player-11-09B1FBE9",
+	["Wealthgaming"] = {
+		["firstSeen"] = 1540622080,
+		["guid"] = "Player-162-08085E88",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoansneaky"] = {
@@ -170,15 +170,15 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-09F7E713",
 		["firstVersion"] = "5.0.5",
 	},
-	["Kalin"] = {
-		["firstSeen"] = 1546207288,
-		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-164-0A0465C2",
-	},
 	["Shgrshn"] = {
 		["firstSeen"] = 1546812786,
 		["guid"] = "Player-11-03FAA0FC",
 		["firstVersion"] = "5.0.5",
+	},
+	["Kalin"] = {
+		["firstSeen"] = 1546207288,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-164-0A0465C2",
 	},
 	["Samoansage"] = {
 		["firstSeen"] = 1544167989,

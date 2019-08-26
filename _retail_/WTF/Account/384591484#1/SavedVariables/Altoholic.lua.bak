@@ -29,9 +29,9 @@ AltoholicDB = {
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
@@ -42,7 +42,7 @@ AltoholicDB = {
 		["options"] = {
 			["UI.Tabs.Summary.CurrentMode"] = 4,
 			["UI.Minimap.IconAngle"] = 21,
-			["UI.Mail.LastExpiryWarning"] = 1566780533,
+			["UI.Mail.LastExpiryWarning"] = 1566853545,
 		},
 	},
 }

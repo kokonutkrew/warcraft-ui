@@ -82,10 +82,10 @@ HHTD_SavedVariables = {
 		["Samoantitan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrouge - Emerald Dream"] = {
+		["Kalin - Ravenholdt"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kalin - Ravenholdt"] = {
+		["Samoanrouge - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Stormrage"] = {
@@ -118,10 +118,6 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
-	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
@@ -150,8 +146,8 @@ HHTD_SavedVariables = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -159,5 +155,9 @@ HHTD_SavedVariables = {
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 }

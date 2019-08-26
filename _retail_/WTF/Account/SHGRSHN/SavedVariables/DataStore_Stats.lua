@@ -52,7 +52,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1566799838,
+				["lastUpdate"] = 1566855119,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|23.84486579895",
 					["HealthMax"] = 2400,

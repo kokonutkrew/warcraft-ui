@@ -46,7 +46,7 @@ DataStore_TalentsDB = {
 				["Class"] = "DRUID",
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1566799640,
+				["lastUpdate"] = 1566855116,
 				["Specializations"] = {
 					0, -- [1]
 					[3] = 2,

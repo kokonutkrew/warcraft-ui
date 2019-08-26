@@ -6,10 +6,10 @@ MBB_Options = {
 	["AltExpandDirection"] = 1,
 	["AttachToMinimap"] = 0,
 	["ExpandDirection"] = 4,
-	["DetachedButtonPos"] = "TOPRIGHT",
+	["MaxButtonsPerLine"] = 3,
 	["ButtonPos"] = {
 		-29.49968910217285, -- [1]
 		-151.4999389648438, -- [2]
 	},
-	["MaxButtonsPerLine"] = 3,
+	["DetachedButtonPos"] = "TOPRIGHT",
 }

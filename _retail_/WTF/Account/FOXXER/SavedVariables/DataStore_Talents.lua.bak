@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 				["Class"] = "PALADIN",
 			},
 			["Default.Emerald Dream.Aeredyl"] = {
-				["lastUpdate"] = 1566780809,
+				["lastUpdate"] = 1566853801,
 				["Specializations"] = {
 					1, -- [1]
 				},

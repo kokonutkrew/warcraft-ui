@@ -98,7 +98,7 @@ DataStore_TalentsDB = {
 				["Class"] = "MAGE",
 			},
 			["Default.Emerald Dream.Mercis"] = {
-				["lastUpdate"] = 1566799639,
+				["lastUpdate"] = 1566855107,
 				["Specializations"] = {
 					[4] = 1,
 				},

@@ -409,7 +409,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Aeredyl"] = {
-				["lastUpdate"] = 1566782200,
+				["lastUpdate"] = 1566853801,
 				["Stats"] = {
 					["Ranged"] = "39-40|0|116|0|24.39354133606",
 					["HealthMax"] = 1510,

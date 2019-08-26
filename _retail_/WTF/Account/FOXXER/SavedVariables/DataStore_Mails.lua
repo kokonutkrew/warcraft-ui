@@ -44,6 +44,10 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Tichondrius.Samoanstrap"] = {
+				["lastUpdate"] = 1544167701,
+				["lastVisitDate"] = "2018/12/07 00:28",
+			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1566072396,
 				["lastVisitDate"] = "2019/08/17 14:06",
@@ -51,6 +55,14 @@ DataStore_MailsDB = {
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1547629707,
 				["lastVisitDate"] = "2019/01/16 02:08",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1545236305,
+				["lastVisitDate"] = "2018/12/19 09:18",
+			},
+			["Default.Stormrage.Samoantotems"] = {
+				["lastUpdate"] = 1544635344,
+				["lastVisitDate"] = "2018/12/12 10:22",
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1566107970,
@@ -82,9 +94,9 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2018/12/16 01:34",
 			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544900579,
-				["lastVisitDate"] = "2018/12/15 12:02",
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544674735,
+				["lastVisitDate"] = "2018/12/12 21:18",
 			},
 			["Default.Stonemaul.Foxxah"] = {
 				["lastUpdate"] = 1566352329,
@@ -112,33 +124,21 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2019/08/20 19:52",
 			},
-			["Default.Tichondrius.Samoanstrap"] = {
-				["lastUpdate"] = 1544167701,
-				["lastVisitDate"] = "2018/12/07 00:28",
-			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544674735,
-				["lastVisitDate"] = "2018/12/12 21:18",
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1545236305,
-				["lastVisitDate"] = "2018/12/19 09:18",
-			},
-			["Default.Stormrage.Samoantotems"] = {
-				["lastUpdate"] = 1544635344,
-				["lastVisitDate"] = "2018/12/12 10:22",
+			["Default.Emerald Dream.Samoanspy"] = {
+				["lastUpdate"] = 1544900579,
+				["lastVisitDate"] = "2018/12/15 12:02",
 			},
 			["Default.Stormrage.Samoansaint"] = {
 				["lastUpdate"] = 1544810667,
 				["lastVisitDate"] = "2018/12/14 11:04",
 			},
-			["Default.Emerald Dream.Aeredyl"] = {
-				["lastUpdate"] = 1566782202,
-				["lastVisitDate"] = "2019/08/25 19:16",
-			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["lastUpdate"] = 1540622665,
 				["lastVisitDate"] = "2018/10/27 00:44",
+			},
+			["Default.Emerald Dream.Aeredyl"] = {
+				["lastUpdate"] = 1566782202,
+				["lastVisitDate"] = "2019/08/25 19:16",
 			},
 		},
 	},

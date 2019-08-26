@@ -85,13 +85,13 @@ HHTD_SavedVariables = {
 		["Samoanlegend - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kalin - Ravenholdt"] = {
+		["Samoanrouge - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrouge - Emerald Dream"] = {
+		["Kalin - Ravenholdt"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoansage - Tichondrius"] = {
@@ -109,10 +109,6 @@ HHTD_SavedVariables = {
 		["Samoantitan - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
@@ -143,14 +139,18 @@ HHTD_SavedVariables = {
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 	["namespaces"] = {
 		["Announcer"] = {

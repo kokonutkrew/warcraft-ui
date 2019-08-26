@@ -177,12 +177,12 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Wealth",
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "KokonutKrew",
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Arygos.Taichipanda"] = {
 				["faction"] = "Alliance",

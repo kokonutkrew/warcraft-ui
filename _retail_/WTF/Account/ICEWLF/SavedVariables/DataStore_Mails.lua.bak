@@ -97,14 +97,6 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1544900579,
 				["lastVisitDate"] = "2018/12/15 12:02",
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544674735,
-				["lastVisitDate"] = "2018/12/12 21:18",
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1545236305,
-				["lastVisitDate"] = "2018/12/19 09:18",
-			},
 			["Default.Bloodscalp.Täichipanda"] = {
 				["lastUpdate"] = 1566358518,
 				["lastVisitDate"] = "2019/08/20 21:35",
@@ -117,9 +109,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1566357927,
 				["lastVisitDate"] = "2019/08/20 21:25",
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1544810667,
-				["lastVisitDate"] = "2018/12/14 11:04",
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1545236305,
+				["lastVisitDate"] = "2018/12/19 09:18",
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635344,
@@ -129,6 +121,10 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1566357865,
 				["lastVisitDate"] = "2019/08/20 21:24",
 			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544674735,
+				["lastVisitDate"] = "2018/12/12 21:18",
+			},
 			["Default.Arygos.Taichipanda"] = {
 				["lastUpdate"] = 1566356382,
 				["lastVisitDate"] = "2019/08/20 20:59",
@@ -136,6 +132,10 @@ DataStore_MailsDB = {
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["lastUpdate"] = 1540622665,
 				["lastVisitDate"] = "2018/10/27 00:44",
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1544810667,
+				["lastVisitDate"] = "2018/12/14 11:04",
 			},
 		},
 	},

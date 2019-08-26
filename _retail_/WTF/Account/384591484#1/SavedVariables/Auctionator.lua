@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_500"] = 5,
 	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["LOG_DE_DATA_X"] = true,
-	["_200000"] = 1000,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -98,25 +98,25 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-09B1FBE9",
 	},
-	["Kalin"] = {
-		["firstSeen"] = 1546207288,
-		["guid"] = "Player-164-0A0465C2",
+	["Samoansensei"] = {
+		["firstSeen"] = 1545023277,
+		["guid"] = "Player-162-0A01CE7D",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoantotems"] = {
-		["firstSeen"] = 1544634790,
+	["Samoanlegend"] = {
+		["firstSeen"] = 1545148569,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-60-0BE06788",
+		["guid"] = "Player-162-0A0206D6",
 	},
 	["Wealthgaming"] = {
 		["firstSeen"] = 1540622080,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-162-08085E88",
 	},
-	["Samoanlock"] = {
-		["firstSeen"] = 1566336536,
-		["firstVersion"] = "8.2.0",
-		["guid"] = "Player-162-0A0114B2",
+	["Samoansneaky"] = {
+		["firstSeen"] = 1544932923,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-11-09B7CFA4",
 	},
 	["Gfsdfgsd"] = {
 		["firstSeen"] = 1547632165,
@@ -138,9 +138,9 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-164-0A046727",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoansensei"] = {
-		["firstSeen"] = 1545023277,
-		["guid"] = "Player-162-0A01CE7D",
+	["Kalin"] = {
+		["firstSeen"] = 1546207288,
+		["guid"] = "Player-164-0A0465C2",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoanbeast"] = {
@@ -158,20 +158,20 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-03FAA0FC",
 	},
-	["Samoansneaky"] = {
-		["firstSeen"] = 1544932923,
-		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-11-09B7CFA4",
+	["Samoanlock"] = {
+		["firstSeen"] = 1566336536,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-162-0A0114B2",
 	},
 	["Samoansage"] = {
 		["firstSeen"] = 1544167989,
 		["guid"] = "Player-162-0A01C9F2",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoanlegend"] = {
-		["firstSeen"] = 1545148569,
+	["Samoantotems"] = {
+		["firstSeen"] = 1544634790,
 		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-0A0206D6",
+		["guid"] = "Player-60-0BE06788",
 	},
 	["Kakattack"] = {
 		["firstSeen"] = 1544472482,

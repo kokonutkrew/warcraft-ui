@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 394,
+	["session"] = 396,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -216,70 +216,70 @@ BugGrabberDB = {
 			["time"] = "2019/01/30 09:12:34",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"FollowFelankor\"\n(*temporary) = \"attempt to call global 'RegisterAddonMessagePrefix' (a nil value)\"\n",
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: in function `FF_OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>",
-			["session"] = 394,
-			["counter"] = 51,
+			["session"] = 396,
+			["counter"] = 53,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Frost.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 44,
+			["session"] = 396,
+			["counter"] = 46,
 		}, -- [29]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Unholy.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 44,
+			["session"] = 396,
+			["counter"] = 46,
 		}, -- [30]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Marksmanship.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 44,
+			["session"] = 396,
+			["counter"] = 46,
 		}, -- [31]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Survival.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 43,
+			["session"] = 396,
+			["counter"] = 45,
 		}, -- [32]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Fire.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 42,
+			["session"] = 396,
+			["counter"] = 44,
 		}, -- [33]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Frost.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 35,
+			["session"] = 396,
+			["counter"] = 37,
 		}, -- [34]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Monk\\Mistweaver.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 12,
+			["session"] = 396,
+			["counter"] = 14,
 		}, -- [35]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Holy.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 12,
+			["session"] = 396,
+			["counter"] = 14,
 		}, -- [36]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Shadow.lua",
 			["time"] = "2019/01/30 09:12:39",
-			["session"] = 394,
-			["counter"] = 11,
+			["session"] = 396,
+			["counter"] = 13,
 		}, -- [37]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: attempt to call field 'GetMountInfo' (a nil value)",
 			["time"] = "2019/01/30 09:12:42",
 			["locals"] = "FFNewNumMounts = 82\n(for index) = 1\n(for limit) = 82\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call field 'GetMountInfo' (a nil value)\"\n",
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: in function `FF_UpdateMounts'\nInterface\\AddOns\\FollowFelankor\\FFEvents.lua:38: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
-			["session"] = 394,
-			["counter"] = 3441,
+			["session"] = 396,
+			["counter"] = 3507,
 		}, -- [38]
 	},
 }

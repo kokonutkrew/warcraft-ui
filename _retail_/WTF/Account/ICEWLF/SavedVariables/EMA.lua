@@ -8,16 +8,16 @@ CoreProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -46,7 +46,7 @@ CoreProfileDB = {
 				["showStartupMessage2000"] = false,
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -55,7 +55,10 @@ CoreProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -79,10 +82,7 @@ CoreProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-				["showStartupMessage2000"] = false,
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -97,16 +97,16 @@ CommunicationsProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -120,13 +120,13 @@ CommunicationsProfileDB = {
 		},
 		["Phyra - Zul'jin"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
 		},
 		["Vylara - Bloodscalp"] = {
 		},
@@ -138,7 +138,7 @@ CommunicationsProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},
@@ -150,16 +150,16 @@ TeamProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -246,7 +246,7 @@ TeamProfileDB = {
 						["order"] = 3,
 						["class"] = "ROGUE",
 						["name"] = "Cherriebomb-EmeraldDream",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanrouge-EmeraldDream"] = {
@@ -270,47 +270,6 @@ TeamProfileDB = {
 						["order"] = 1,
 						["class"] = "UNKNOWN",
 						["name"] = "Phyra-Zul'jin",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["master"] = "Samoanranger-EmeraldDream",
-			["newTeamList"] = {
-				["Samoanranger-EmeraldDream"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoanranger-EmeraldDream",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Taichipanda - Arygos"] = {
-			["master"] = "Taichipanda-Arygos",
-			["global"] = {
-			},
-			["newTeamList"] = {
-				["Taichipanda-Arygos"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Taichipanda-Arygos",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-			["master"] = "Samoansavage-Tichondrius",
-			["newTeamList"] = {
-				["Samoansavage-Tichondrius"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoansavage-Tichondrius",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -357,6 +316,49 @@ TeamProfileDB = {
 						["class"] = "DRUID",
 						["name"] = "Grapejellie-Tichondrius",
 						["online"] = false,
+					}, -- [1]
+				},
+			},
+		},
+		["Taichipanda - Arygos"] = {
+			["master"] = "Taichipanda-Arygos",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Taichipanda-Arygos"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Taichipanda-Arygos",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+			["master"] = "Samoansavage-Tichondrius",
+			["newTeamList"] = {
+				["Samoansavage-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansavage-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Mishky - Zul'jin"] = {
+			["master"] = "Mishky-Zul'jin",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Mishky-Zul'jin"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Mishky-Zul'jin",
+						["online"] = true,
 					}, -- [1]
 				},
 			},
@@ -443,16 +445,14 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Mishky - Zul'jin"] = {
-			["master"] = "Mishky-Zul'jin",
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
+			["master"] = "Samoanranger-EmeraldDream",
 			["newTeamList"] = {
-				["Mishky-Zul'jin"] = {
+				["Samoanranger-EmeraldDream"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Mishky-Zul'jin",
+						["name"] = "Samoanranger-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -481,16 +481,16 @@ TagProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -662,11 +662,27 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 			["tagList"] = {
-				["Samoanranger-EmeraldDream"] = {
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantank-Tichondrius"] = {
 					"all", -- [1]
 					"master", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -739,27 +755,11 @@ TagProfileDB = {
 				"warrior", -- [15]
 			},
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
 			["tagList"] = {
-				["Samoandrued-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandruid-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoantank-Tichondrius"] = {
+				["Mishky-Zul'jin"] = {
 					"all", -- [1]
 					"master", -- [2]
-				},
-				["Grapejellie-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -778,6 +778,8 @@ TagProfileDB = {
 				"shaman", -- [13]
 				"warlock", -- [14]
 				"warrior", -- [15]
+			},
+			["global"] = {
 			},
 		},
 		["Vylara - Bloodscalp"] = {
@@ -921,9 +923,9 @@ TagProfileDB = {
 				"warrior", -- [15]
 			},
 		},
-		["Mishky - Zul'jin"] = {
+		["Samoanranger - Emerald Dream"] = {
 			["tagList"] = {
-				["Mishky-Zul'jin"] = {
+				["Samoanranger-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -944,8 +946,6 @@ TagProfileDB = {
 				"shaman", -- [13]
 				"warlock", -- [14]
 				"warrior", -- [15]
-			},
-			["global"] = {
 			},
 		},
 		["Samoantitan - Stormrage"] = {
@@ -1003,16 +1003,16 @@ MessageProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1036,7 +1036,7 @@ MessageProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -1044,7 +1044,9 @@ MessageProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1064,9 +1066,7 @@ MessageProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1080,16 +1080,16 @@ CurrProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1121,14 +1121,6 @@ CurrProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Taichipanda - Arygos"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
 		["Samoantank - Tichondrius"] = {
 			["currencyBackgroundStyle"] = "None",
 			["currencyFrameYOffset"] = 202.999313354492,
@@ -1138,6 +1130,16 @@ CurrProfileDB = {
 			["currencyFramePoint"] = "BOTTOMRIGHT",
 			["currGoldInGuildBank"] = true,
 			["currencyBorderStyle"] = "None",
+		},
+		["Taichipanda - Arygos"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1157,9 +1159,7 @@ CurrProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1173,16 +1173,16 @@ DisplayTeamProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1214,14 +1214,6 @@ DisplayTeamProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Taichipanda - Arygos"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
 		["Samoantank - Tichondrius"] = {
 			["enableClique"] = true,
 			["frameBorderColourA"] = 0,
@@ -1231,6 +1223,16 @@ DisplayTeamProfileDB = {
 			["followStatusWidth"] = 15,
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
+		},
+		["Taichipanda - Arygos"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1250,9 +1252,7 @@ DisplayTeamProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1266,16 +1266,16 @@ FollowProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1300,7 +1300,7 @@ FollowProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -1308,7 +1308,9 @@ FollowProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1328,9 +1330,7 @@ FollowProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1344,16 +1344,16 @@ GuildProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1377,7 +1377,7 @@ GuildProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -1385,7 +1385,9 @@ GuildProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1405,9 +1407,7 @@ GuildProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1421,16 +1421,16 @@ InteractionProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1458,7 +1458,11 @@ InteractionProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
+			["changeTexiTime"] = 5,
+			["dismountWithTeam"] = true,
+			["autoLoot"] = true,
+			["mountWithTeam"] = true,
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -1466,11 +1470,9 @@ InteractionProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
-			["changeTexiTime"] = 5,
-			["dismountWithTeam"] = true,
-			["autoLoot"] = true,
-			["mountWithTeam"] = true,
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -1491,9 +1493,7 @@ InteractionProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = {
 			["autoLoot"] = true,
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -1507,22 +1507,20 @@ ItemUseProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1606,8 +1604,13 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Ärgo - Arygos"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1689,13 +1692,9 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
 			},
 		},
 		["Mercis - Emerald Dream"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1780,6 +1779,7 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["KokonutKrew"] = {
 			["backgroundStyle"] = "None",
@@ -1878,178 +1878,6 @@ ItemUseProfileDB = {
 			["borderStyle"] = "None",
 		},
 		["Phyra - Zul'jin"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["global"] = {
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Taichipanda - Arygos"] = {
 			["global"] = {
 			},
 			["itemUseTitleHeight"] = 2,
@@ -2135,91 +1963,6 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-		},
-		["Samoansavage - Tichondrius"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantank - Tichondrius"] = {
 			["backgroundStyle"] = "None",
@@ -2315,9 +2058,7 @@ ItemUseProfileDB = {
 			["autoAddQuestItemsToBar"] = true,
 			["hideClearButton"] = true,
 		},
-		["Vylara - Bloodscalp"] = {
-			["global"] = {
-			},
+		["Taichipanda - Arygos"] = {
 			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
@@ -2400,11 +2141,270 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
+			},
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Mishky - Zul'jin"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Vylara - Bloodscalp"] = {
+			["itemUseTitleHeight"] = 2,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
 			},
 		},
 		["Kecil - Zul'jin"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2488,8 +2488,13 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Täichipanda - Bloodscalp"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2571,14 +2576,9 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
 			},
 		},
 		["Kayleeroo - Zul'jin"] = {
-			["global"] = {
-			},
 			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
@@ -2661,6 +2661,8 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
+			},
+			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
@@ -2748,8 +2750,7 @@ ItemUseProfileDB = {
 			},
 			["itemUseTitleHeight"] = 2,
 		},
-		["Mishky - Zul'jin"] = {
-			["itemUseTitleHeight"] = 2,
+		["Samoanranger - Emerald Dream"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2832,14 +2833,12 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["global"] = {
-			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantitan - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 70.00000762939453,
 			["global"] = {
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2922,6 +2921,7 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 	},
 }
@@ -2931,16 +2931,16 @@ PurchaseProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -2964,7 +2964,7 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -2972,7 +2972,9 @@ PurchaseProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -2992,9 +2994,7 @@ PurchaseProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3008,16 +3008,16 @@ QuestProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3049,7 +3049,7 @@ QuestProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3057,7 +3057,9 @@ QuestProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3077,9 +3079,7 @@ QuestProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3093,16 +3093,16 @@ QuestWatcherProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3133,14 +3133,6 @@ QuestWatcherProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Taichipanda - Arygos"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
 		["Samoantank - Tichondrius"] = {
 			["watcherFrameWidth"] = 250,
 			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
@@ -3148,6 +3140,16 @@ QuestWatcherProfileDB = {
 			["watcherFrameYOffset"] = 0,
 			["watcherFramePoint"] = "BOTTOMRIGHT",
 			["watcherFrameXOffset"] = -262.000122070313,
+		},
+		["Taichipanda - Arygos"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3167,9 +3169,7 @@ QuestWatcherProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3183,16 +3183,16 @@ SellProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3216,7 +3216,7 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3224,7 +3224,9 @@ SellProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3244,9 +3246,7 @@ SellProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3260,16 +3260,16 @@ TalkProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3293,7 +3293,7 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3301,7 +3301,9 @@ TalkProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3321,9 +3323,7 @@ TalkProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3337,16 +3337,16 @@ ToonProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3371,7 +3371,7 @@ ToonProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3379,7 +3379,9 @@ ToonProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3399,9 +3401,7 @@ ToonProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3415,16 +3415,16 @@ TradeProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3448,7 +3448,7 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3456,7 +3456,9 @@ TradeProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3476,9 +3478,7 @@ TradeProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3492,16 +3492,16 @@ MailProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3525,7 +3525,7 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3533,7 +3533,9 @@ MailProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3553,9 +3555,7 @@ MailProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {
@@ -3569,16 +3569,16 @@ ISBoxerProfileDB = {
 		["Ärgo - Arygos"] = "Ärgo - Arygos",
 		["Mercis - Emerald Dream"] = "KokonutKrew",
 		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Taichipanda - Arygos"] = "Taichipanda - Arygos",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
 		["Vylara - Bloodscalp"] = "Vylara - Bloodscalp",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
 		["Kayleeroo - Zul'jin"] = "Kayleeroo - Zul'jin",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Mishky - Zul'jin"] = "Mishky - Zul'jin",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -3607,8 +3607,7 @@ ISBoxerProfileDB = {
 			},
 			["isboxerTeamName"] = "",
 		},
-		["Samoanranger - Emerald Dream"] = {
-			["isboxerTeamName"] = "",
+		["Samoantank - Tichondrius"] = {
 		},
 		["Taichipanda - Arygos"] = {
 			["global"] = {
@@ -3617,7 +3616,10 @@ ISBoxerProfileDB = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Mishky - Zul'jin"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
 		},
 		["Vylara - Bloodscalp"] = {
 			["global"] = {
@@ -3641,9 +3643,7 @@ ISBoxerProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Mishky - Zul'jin"] = {
-			["global"] = {
-			},
+		["Samoanranger - Emerald Dream"] = {
 			["isboxerTeamName"] = "",
 		},
 		["Samoantitan - Stormrage"] = {

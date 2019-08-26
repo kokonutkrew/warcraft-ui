@@ -152,10 +152,10 @@ DataStore_AgendaDB = {
 					["Fekzul"] = {
 						["note"] = "",
 					},
-					["Deydrellia"] = {
+					["Mingan"] = {
 						["note"] = "",
 					},
-					["Mingan"] = {
+					["Deydrellia"] = {
 						["note"] = "",
 					},
 					["Savedby"] = {
@@ -164,7 +164,7 @@ DataStore_AgendaDB = {
 					["Grenji"] = {
 						["note"] = "",
 					},
-					["Bauce"] = {
+					["Yoter"] = {
 						["note"] = "",
 					},
 					["Scottxyz"] = {
@@ -173,7 +173,7 @@ DataStore_AgendaDB = {
 					["Yoshïo"] = {
 						["note"] = "",
 					},
-					["Yoter"] = {
+					["Bauce"] = {
 						["note"] = "",
 					},
 					["Nossbig"] = {
@@ -345,10 +345,10 @@ DataStore_AgendaDB = {
 					["Poodlephile"] = {
 						["note"] = "",
 					},
-					["Sourðiesel"] = {
+					["Cupcak4AA26F"] = {
 						["note"] = "",
 					},
-					["Cupcak4AA26F"] = {
+					["Sourðiesel"] = {
 						["note"] = "",
 					},
 					["Sightbane"] = {
@@ -373,7 +373,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1566352000,
 			},
 			["Default.Emerald Dream.Aeredyl"] = {
-				["lastUpdate"] = 1566780804,
+				["lastUpdate"] = 1566853801,
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1563743272,

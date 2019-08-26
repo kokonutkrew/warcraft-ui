@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_10000"] = 200,
 	["_5000000"] = 10000,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
+	["_500"] = 5,
 	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
-	["_500"] = 5,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -88,9 +88,9 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-11-042FD3AD",
 	},
-	["Samoantotems"] = {
-		["firstSeen"] = 1544634790,
-		["guid"] = "Player-60-0BE06788",
+	["Samoanlegend"] = {
+		["firstSeen"] = 1545148569,
+		["guid"] = "Player-162-0A0206D6",
 		["firstVersion"] = "5.0.5",
 	},
 	["Wealthgaming"] = {
@@ -98,14 +98,14 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-08085E88",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoanlock"] = {
-		["firstSeen"] = 1566336536,
-		["guid"] = "Player-162-0A0114B2",
-		["firstVersion"] = "8.2.0",
+	["Samoansneaky"] = {
+		["firstSeen"] = 1544932923,
+		["guid"] = "Player-11-09B7CFA4",
+		["firstVersion"] = "5.0.5",
 	},
-	["Samoanlegend"] = {
-		["firstSeen"] = 1545148569,
-		["guid"] = "Player-162-0A0206D6",
+	["Samoantotems"] = {
+		["firstSeen"] = 1544634790,
+		["guid"] = "Player-60-0BE06788",
 		["firstVersion"] = "5.0.5",
 	},
 	["Samoansaint"] = {
@@ -113,10 +113,10 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-11-09B1FBE9",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoansneaky"] = {
-		["firstSeen"] = 1544932923,
-		["guid"] = "Player-11-09B7CFA4",
-		["firstVersion"] = "5.0.5",
+	["Samoanlock"] = {
+		["firstSeen"] = 1566336536,
+		["guid"] = "Player-162-0A0114B2",
+		["firstVersion"] = "8.2.0",
 	},
 	["Gfsdfgsd"] = {
 		["firstSeen"] = 1547632165,
@@ -153,15 +153,15 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-162-09F7E713",
 		["firstVersion"] = "5.0.5",
 	},
-	["Samoansensei"] = {
-		["firstSeen"] = 1545023277,
-		["firstVersion"] = "5.0.5",
-		["guid"] = "Player-162-0A01CE7D",
-	},
 	["Kalin"] = {
 		["firstSeen"] = 1546207288,
 		["firstVersion"] = "5.0.5",
 		["guid"] = "Player-164-0A0465C2",
+	},
+	["Samoansensei"] = {
+		["firstSeen"] = 1545023277,
+		["firstVersion"] = "5.0.5",
+		["guid"] = "Player-162-0A01CE7D",
 	},
 	["Samoansage"] = {
 		["firstSeen"] = 1544167989,

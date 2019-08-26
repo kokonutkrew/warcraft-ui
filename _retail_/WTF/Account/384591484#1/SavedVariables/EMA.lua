@@ -146,7 +146,7 @@ TeamProfileDB = {
 						["order"] = 3,
 						["class"] = "ROGUE",
 						["name"] = "Cherriebomb-EmeraldDream",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanrouge-EmeraldDream"] = {
@@ -933,6 +933,9 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1014,9 +1017,6 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
 			},
 		},
 		["KokonutKrew"] = {
@@ -1116,8 +1116,6 @@ ItemUseProfileDB = {
 			["borderStyle"] = "None",
 		},
 		["Samoanlock - Emerald Dream"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1201,6 +1199,8 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
@@ -1288,6 +1288,9 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1370,9 +1373,6 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["global"] = {
-			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Samoanranger - Emerald Dream"] = {
 			["itemsAdvanced"] = {
@@ -1639,9 +1639,6 @@ ItemUseProfileDB = {
 			["hideClearButton"] = true,
 		},
 		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
-			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1724,7 +1721,10 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 	},
 }

@@ -7,8 +7,15 @@ FF_Options = {
 		["Guild"] = 0,
 		["Friends"] = 0,
 	},
-	["ShowPartyStatusIcons"] = 0,
 	["AllowAcceptResurrect"] = {
+		["Enabled"] = 0,
+		["Master"] = 0,
+		["Guild"] = 0,
+		["Group"] = 0,
+		["Raid"] = 0,
+		["Friends"] = 0,
+	},
+	["AllowEmoteCommand"] = {
 		["Enabled"] = 0,
 		["Master"] = 0,
 		["Guild"] = 0,
@@ -20,14 +27,7 @@ FF_Options = {
 		["OrderBy"] = "Date",
 		["Order"] = "Desc",
 	},
-	["AllowEmoteCommand"] = {
-		["Enabled"] = 0,
-		["Master"] = 0,
-		["Guild"] = 0,
-		["Group"] = 0,
-		["Raid"] = 0,
-		["Friends"] = 0,
-	},
+	["ShowPartyStatusIcons"] = 0,
 	["EnableLogging"] = 0,
 	["AllowAutoAcceptParty"] = {
 		["Enabled"] = 0,
@@ -35,9 +35,9 @@ FF_Options = {
 		["Guild"] = 0,
 		["Friends"] = 0,
 	},
-	["PreventFollowWhenBusy"] = 0,
-	["ShowMinimapButton"] = 0,
 	["MinimapPosition"] = -33.93651471372307,
+	["ShowMinimapButton"] = 0,
+	["PreventFollowWhenBusy"] = 0,
 	["BanListOrder"] = "Asc",
 }
 FF_Options_Announcements = {
@@ -52,7 +52,6 @@ FF_Options_Announcements = {
 }
 FF_Options_DualBox = {
 	["AutoAcceptQuests"] = 0,
-	["AnnounceHealthWarning"] = 0,
 	["ResumeFollow"] = {
 		["Enabled"] = 0,
 		["Master"] = 0,
@@ -62,6 +61,7 @@ FF_Options_DualBox = {
 		["Friends"] = 0,
 	},
 	["CancelResumeOnSpellCast"] = 0,
+	["AnnounceHealthWarning"] = 0,
 }
 FF_Static_Ground_Mount = ""
 FF_Static_Flying_Mount = ""

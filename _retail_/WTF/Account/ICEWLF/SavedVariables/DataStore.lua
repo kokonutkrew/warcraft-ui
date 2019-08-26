@@ -185,7 +185,8 @@ DataStoreDB = {
 			["Default.Arygos.Taichipanda"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Stormrage.Samoansaint"] = {
+			["Default.Emerald Dream.Samoanranger"] = {
+				["guildName"] = "KokonutKrew",
 				["faction"] = "Alliance",
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
@@ -210,8 +211,7 @@ DataStoreDB = {
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["guildName"] = "KokonutKrew",
+			["Default.Stormrage.Samoansaint"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Ravenholdt.Kalin"] = {

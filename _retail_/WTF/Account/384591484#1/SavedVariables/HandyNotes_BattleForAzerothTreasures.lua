@@ -28,8 +28,8 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
@@ -93,9 +93,9 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoantitan - Emerald Dream"] = {
 		},
-		["Samoanrouge - Emerald Dream"] = {
-		},
 		["Kalin - Ravenholdt"] = {
+		},
+		["Samoanrouge - Emerald Dream"] = {
 		},
 		["Samoanrelic - Stormrage"] = {
 		},

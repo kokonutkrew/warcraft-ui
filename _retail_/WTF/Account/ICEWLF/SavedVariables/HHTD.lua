@@ -139,6 +139,10 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Mercis - Emerald Dream"] = "Mercis - Emerald Dream",
@@ -183,9 +187,5 @@ HHTD_SavedVariables = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 }

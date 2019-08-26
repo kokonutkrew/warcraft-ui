@@ -158,10 +158,10 @@ DataStore_AgendaDB = {
 					["Fekzul"] = {
 						["note"] = "",
 					},
-					["Mingan"] = {
+					["Deydrellia"] = {
 						["note"] = "",
 					},
-					["Deydrellia"] = {
+					["Mingan"] = {
 						["note"] = "",
 					},
 					["Savedby"] = {
@@ -170,7 +170,7 @@ DataStore_AgendaDB = {
 					["Grenji"] = {
 						["note"] = "",
 					},
-					["Yoter"] = {
+					["Bauce"] = {
 						["note"] = "",
 					},
 					["Scottxyz"] = {
@@ -179,7 +179,7 @@ DataStore_AgendaDB = {
 					["Yoshïo"] = {
 						["note"] = "",
 					},
-					["Bauce"] = {
+					["Yoter"] = {
 						["note"] = "",
 					},
 					["Nossbig"] = {
@@ -382,7 +382,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1544168008,
 			},
 			["Default.Emerald Dream.Mercis"] = {
-				["lastUpdate"] = 1566799639,
+				["lastUpdate"] = 1566855105,
 			},
 			["Default.Arygos.Taichipanda"] = {
 				["Contacts"] = {
@@ -392,8 +392,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1566356396,
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
 				["lastUpdate"] = 1544920075,
@@ -460,8 +460,8 @@ DataStore_AgendaDB = {
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1566073399,
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743272,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
 			},
 			["Default.Ravenholdt.Kalin"] = {
 				["lastUpdate"] = 1546208371,

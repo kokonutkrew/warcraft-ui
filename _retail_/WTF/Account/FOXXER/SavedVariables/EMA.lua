@@ -201,7 +201,7 @@ TeamProfileDB = {
 						["order"] = 3,
 						["class"] = "ROGUE",
 						["name"] = "Cherriebomb-EmeraldDream",
-						["online"] = false,
+						["online"] = true,
 					}, -- [1]
 				},
 				["Samoanrouge-EmeraldDream"] = {
@@ -1269,8 +1269,6 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1354,9 +1352,10 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Aeredyl - Emerald Dream"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1441,6 +1440,7 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["KokonutKrew"] = {
 			["backgroundStyle"] = "None",
@@ -1539,6 +1539,9 @@ ItemUseProfileDB = {
 			["borderStyle"] = "None",
 		},
 		["Foxxah - Stonemaul"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1620,12 +1623,12 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
 			},
 		},
 		["Dreamâ - Stormrage"] = {
+			["global"] = {
+			},
+			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1708,9 +1711,6 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["global"] = {
-			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
@@ -1892,8 +1892,6 @@ ItemUseProfileDB = {
 			["itemUseScale"] = 0.68,
 		},
 		["Dreamå - Stormrage"] = {
-			["global"] = {
-			},
 			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
@@ -1976,10 +1974,11 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
+			},
+			["global"] = {
 			},
 		},
 		["Foxxah - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2064,9 +2063,9 @@ ItemUseProfileDB = {
 			},
 			["global"] = {
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Føxxer - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
 			["itemsAdvanced"] = {
@@ -2151,6 +2150,7 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 			["itemsAdvanced"] = {
@@ -2323,10 +2323,9 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantitan - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 70.00000762939453,
 			["global"] = {
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -2409,6 +2408,7 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 	},
 }

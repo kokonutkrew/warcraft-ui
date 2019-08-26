@@ -46,7 +46,7 @@ AltoholicDB = {
 		["options"] = {
 			["UI.Tabs.Summary.CurrentMode"] = 4,
 			["UI.Minimap.IconAngle"] = 21,
-			["UI.Mail.LastExpiryWarning"] = 1566798835,
+			["UI.Mail.LastExpiryWarning"] = 1566853546,
 		},
 	},
 }

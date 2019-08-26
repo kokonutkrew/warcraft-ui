@@ -891,8 +891,6 @@ ItemUseProfileDB = {
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -976,6 +974,8 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
@@ -1256,6 +1256,9 @@ ItemUseProfileDB = {
 			["frameRelativePoint"] = "BOTTOMLEFT",
 		},
 		["Samoanslayer - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1337,9 +1340,6 @@ ItemUseProfileDB = {
 					["action"] = "empty",
 					["kind"] = "empty",
 				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
@@ -1517,9 +1517,6 @@ ItemUseProfileDB = {
 			},
 		},
 		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
-			["frameYOffset"] = 70.00000762939453,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1602,7 +1599,10 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 	},
 }

@@ -1,16 +1,16 @@
 
 CoreProfileDB = {
-	["global"] = {
-		["showStartupMessage2000"] = false,
-	},
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+	},
+	["global"] = {
+		["showStartupMessage2000"] = false,
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
@@ -18,7 +18,10 @@ CoreProfileDB = {
 				["showStartupMessage2000"] = false,
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -42,27 +45,24 @@ CoreProfileDB = {
 				["showStartupMessage2000"] = false,
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-				["showStartupMessage2000"] = false,
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 CommunicationsProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
 		},
 		["Samoantank - Tichondrius"] = {
 		},
@@ -74,19 +74,19 @@ CommunicationsProfileDB = {
 		},
 		["Samoansavage - Emerald Dream"] = {
 		},
-		["Samoantitan - Stormrage"] = {
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 TeamProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
@@ -104,14 +104,16 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
-			["master"] = "Samoansavage-Tichondrius",
+		["Samoantitan - Stormrage"] = {
+			["master"] = "Samoantitan-Stormrage",
+			["global"] = {
+			},
 			["newTeamList"] = {
-				["Samoansavage-Tichondrius"] = {
+				["Samoantitan-Stormrage"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoansavage-Tichondrius",
+						["name"] = "Samoantitan-Stormrage",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -146,20 +148,20 @@ TeamProfileDB = {
 						["online"] = false,
 					}, -- [1]
 				},
-				["Samoantank-Tichondrius"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoantank-Tichondrius",
-						["online"] = true,
-					}, -- [1]
-				},
 				["Grapejellie-Tichondrius"] = {
 					{
 						["order"] = 5,
 						["class"] = "DRUID",
 						["name"] = "Grapejellie-Tichondrius",
 						["online"] = false,
+					}, -- [1]
+				},
+				["Samoantank-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantank-Tichondrius",
+						["online"] = true,
 					}, -- [1]
 				},
 			},
@@ -276,32 +278,30 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["master"] = "Samoantitan-Stormrage",
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 			["newTeamList"] = {
-				["Samoantitan-Stormrage"] = {
+				["Samoansavage-Tichondrius"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoantitan-Stormrage",
+						["name"] = "Samoansavage-Tichondrius",
 						["online"] = true,
 					}, -- [1]
 				},
 			},
+			["master"] = "Samoansavage-Tichondrius",
 		},
 	},
 }
 TagProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
@@ -331,11 +331,31 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
 			["tagList"] = {
-				["Samoansavage-Tichondrius"] = {
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
 					"all", -- [1]
 					"master", -- [2]
+				},
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -355,6 +375,8 @@ TagProfileDB = {
 				"warlock", -- [14]
 				"warrior", -- [15]
 			},
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["tagList"] = {
@@ -370,13 +392,13 @@ TagProfileDB = {
 					"all", -- [1]
 					"minion", -- [2]
 				},
-				["Samoantank-Tichondrius"] = {
-					"all", -- [1]
-					"master", -- [2]
-				},
 				["Grapejellie-Tichondrius"] = {
 					"all", -- [1]
 					"minion", -- [2]
+				},
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -542,29 +564,9 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Samoansavage - Tichondrius"] = {
 			["tagList"] = {
-				["Samoantank-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandruid-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoantitan-Stormrage"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Grapejellie-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandrued-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
+				["Samoansavage-Tichondrius"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -586,27 +588,27 @@ TagProfileDB = {
 				"warlock", -- [14]
 				"warrior", -- [15]
 			},
-			["global"] = {
-			},
 		},
 	},
 }
 MessageProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -626,28 +628,28 @@ MessageProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 CurrProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["currencyBackgroundStyle"] = "None",
@@ -657,9 +659,9 @@ CurrProfileDB = {
 			["currencyNameWidth"] = 68,
 			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
 			["currencyFrameYOffset"] = 202.999313354492,
-			["currencyFrameXOffset"] = -127.99885559082,
-			["currGoldInGuildBank"] = true,
 			["currencyFramePoint"] = "BOTTOMRIGHT",
+			["currGoldInGuildBank"] = true,
+			["currencyFrameXOffset"] = -127.99885559082,
 		},
 		["KokonutKrew"] = {
 			["currencyBackgroundStyle"] = "None",
@@ -683,28 +685,28 @@ CurrProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 DisplayTeamProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["enableClique"] = true,
@@ -714,9 +716,9 @@ DisplayTeamProfileDB = {
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
 			["followStatusShowName"] = false,
-			["followStatusWidth"] = 15,
-			["showListTitle"] = false,
 			["frameBorderColourA"] = 0,
+			["showListTitle"] = false,
+			["followStatusWidth"] = 15,
 		},
 		["KokonutKrew"] = {
 			["enableClique"] = true,
@@ -740,28 +742,28 @@ DisplayTeamProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 FollowProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -782,28 +784,28 @@ FollowProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 GuildProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -823,36 +825,36 @@ GuildProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 InteractionProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["changeTexiTime"] = 5,
 			["global"] = {
 			},
 			["dismountWithTeam"] = true,
-			["autoLoot"] = true,
 			["mountWithTeam"] = true,
+			["autoLoot"] = true,
 		},
 		["KokonutKrew"] = {
 			["global"] = {
@@ -873,111 +875,109 @@ InteractionProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 ItemUseProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
 			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1060,7 +1060,10 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["frameYOffset"] = 70.00000762939453,
 			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["backgroundStyle"] = "None",
@@ -1151,16 +1154,15 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 			["autoAddSatchelsItemsToBar"] = true,
 			["borderStyle"] = "None",
-			["numberOfItems"] = 20,
-			["itemUseScale"] = 0.68,
+			["autoAddQuestItemsToBar"] = true,
+			["frameXOffset"] = -1.9998836517334,
 			["global"] = {
 			},
-			["frameXOffset"] = -1.9998836517334,
-			["autoAddQuestItemsToBar"] = true,
+			["itemUseScale"] = 0.68,
+			["numberOfItems"] = 20,
 		},
 		["KokonutKrew"] = {
 			["backgroundStyle"] = "None",
-			["frameYOffset"] = 0,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "item:57954",
@@ -1245,17 +1247,19 @@ ItemUseProfileDB = {
 			},
 			["hideClearButton"] = true,
 			["itemUseTitleHeight"] = 2,
+			["framePoint"] = "BOTTOMLEFT",
+			["numberOfItems"] = 20,
+			["itemUseScale"] = 0.68,
 			["global"] = {
 			},
-			["itemUseScale"] = 0.68,
-			["framePoint"] = "BOTTOMLEFT",
 			["autoAddQuestItemsToBar"] = true,
 			["autoAddSatchelsItemsToBar"] = true,
-			["numberOfItems"] = 20,
+			["frameYOffset"] = 0,
 			["borderStyle"] = "None",
 			["frameRelativePoint"] = "BOTTOMLEFT",
 		},
 		["Samoanslayer - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
 			["itemsAdvanced"] = {
@@ -1340,7 +1344,6 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 			["itemsAdvanced"] = {
@@ -1516,11 +1519,7 @@ ItemUseProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 70.00000762939453,
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1603,25 +1602,28 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
 		},
 	},
 }
 PurchaseProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1641,28 +1643,28 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 QuestProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1690,28 +1692,28 @@ QuestProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 QuestWatcherProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["watcherFrameWidth"] = 250,
@@ -1725,9 +1727,9 @@ QuestWatcherProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["watcherFrameYOffset"] = 0,
-			["watcherFrameXOffset"] = -192.0001373291016,
-			["watcherFrameWidth"] = 250,
 			["enableQuestWatcherOnMasterOnly"] = true,
+			["watcherFrameWidth"] = 250,
+			["watcherFrameXOffset"] = -192.0001373291016,
 			["global"] = {
 			},
 			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
@@ -1744,28 +1746,28 @@ QuestWatcherProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 SellProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1785,28 +1787,28 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 TalkProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1826,28 +1828,28 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 ToonProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1868,28 +1870,28 @@ ToonProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 TradeProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1909,28 +1911,28 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 MailProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1950,21 +1952,19 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }
 ISBoxerProfileDB = {
 	["profileKeys"] = {
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 	},
 	["profiles"] = {
 		["Samoanranger - Emerald Dream"] = {
@@ -1972,7 +1972,10 @@ ISBoxerProfileDB = {
 			},
 			["isboxerTeamName"] = "",
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
 		},
 		["Samoantank - Tichondrius"] = {
 			["global"] = {
@@ -1995,10 +1998,7 @@ ISBoxerProfileDB = {
 			},
 			["isboxerTeamName"] = "",
 		},
-		["Samoantitan - Stormrage"] = {
-			["global"] = {
-			},
-			["isboxerTeamName"] = "",
+		["Samoansavage - Tichondrius"] = {
 		},
 	},
 }

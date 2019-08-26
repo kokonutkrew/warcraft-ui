@@ -23,19 +23,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["profiles"] = {
@@ -83,13 +83,13 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoanlegend - Emerald Dream"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Kakattack - Stormrage"] = {
 		},
 		["Shgrshn - Tichondrius"] = {
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoanrelic - Tichondrius"] = {
 		},
 		["Samoantank - Emerald Dream"] = {
 		},
@@ -103,11 +103,11 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
-		["Samoanrelic - Tichondrius"] = {
+		["Samoansaint - Stormrage"] = {
 		},
-		["Kakattack - Stormrage"] = {
+		["Samoanmystic - Tichondrius"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

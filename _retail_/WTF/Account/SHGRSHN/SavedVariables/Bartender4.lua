@@ -5,7 +5,7 @@ Bartender4DB = {
 			["profiles"] = {
 				["KokonutKrew"] = {
 					["enabled"] = true,
-					["fadeoutalpha"] = 0.05,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 52,
 						["x"] = -256,
@@ -16,7 +16,7 @@ Bartender4DB = {
 						["custom"] = true,
 						["customdata"] = "[@target,exists]show;[combat]show;[petbattle]hide;[overridebar]hide;[vehicleui]hide;fade\n",
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 0.05,
 				},
 			},
 		},
@@ -43,72 +43,6 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
-				["Samoanmystic - Tichondrius"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.499847412109,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
 							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
@@ -154,7 +88,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Samoansaint - Stormrage"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -221,18 +155,85 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Samoansaint - Stormrage"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499847412109,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
 				["KokonutKrew"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["fadeout"] = true,
-							["version"] = 3,
+							["fadeoutalpha"] = 0.15,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -253.999984741211,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 0.15,
+							["version"] = 3,
 							["padding"] = 6,
 							["visibility"] = {
 								["custom"] = true,
@@ -305,9 +306,9 @@ Bartender4DB = {
 							["fadeoutalpha"] = 0.2,
 							["position"] = {
 								["y"] = -2.99999785423279,
-								["growVertical"] = "UP",
-								["point"] = "BOTTOM",
 								["x"] = 344.964477539063,
+								["point"] = "BOTTOM",
+								["growVertical"] = "UP",
 							},
 							["visibility"] = {
 								["custom"] = true,
@@ -331,10 +332,10 @@ Bartender4DB = {
 						}, -- [6]
 						{
 							["showgrid"] = true,
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0,
 							["enabled"] = true,
 							["alpha"] = 0.5,
-							["fadeoutdelay"] = 0,
+							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
@@ -346,10 +347,10 @@ Bartender4DB = {
 						}, -- [7]
 						{
 							["showgrid"] = true,
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0,
 							["enabled"] = true,
 							["alpha"] = 0.5,
-							["fadeoutdelay"] = 0,
+							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
@@ -361,10 +362,10 @@ Bartender4DB = {
 						}, -- [8]
 						{
 							["showgrid"] = true,
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0,
 							["enabled"] = true,
 							["alpha"] = 0.5,
-							["fadeoutdelay"] = 0,
+							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
@@ -376,10 +377,10 @@ Bartender4DB = {
 						}, -- [9]
 						{
 							["showgrid"] = true,
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0,
 							["enabled"] = true,
 							["alpha"] = 0.5,
-							["fadeoutdelay"] = 0,
+							["fadeout"] = true,
 							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
@@ -412,8 +413,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -422,8 +423,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -478,8 +479,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -488,8 +489,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -544,8 +545,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -554,8 +555,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -590,7 +591,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
+				["Samoanmystic - Tichondrius"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -677,6 +678,72 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499847412109,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
 							["rows"] = 12,
 							["padding"] = 5,
 							["version"] = 3,
@@ -743,72 +810,6 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
-				["Samoanmystic - Emerald Dream"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.499847412109,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
 							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
@@ -854,7 +855,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Samoansaint - Tichondrius"] = {
+				["Samoansavage - Emerald Dream"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -916,8 +917,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Kakattack - Stormrage"] = {
@@ -941,8 +943,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -951,8 +953,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1008,8 +1010,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1018,8 +1020,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1075,8 +1077,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1085,8 +1087,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1121,7 +1123,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Samoansmash - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1183,8 +1185,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Samoanranger - Emerald Dream"] = {
@@ -1208,8 +1211,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1218,8 +1221,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1254,7 +1257,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Serepa - Tichondrius"] = {
+				["Samoansage - Emerald Dream"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1341,8 +1344,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1351,8 +1354,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1387,7 +1390,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Samoanspy - Emerald Dream"] = {
+				["Samoantank - Tichondrius"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1408,8 +1411,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1418,8 +1421,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1475,8 +1478,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1485,8 +1488,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1542,8 +1545,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1552,8 +1555,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1608,8 +1611,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1618,8 +1621,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1674,8 +1677,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1684,8 +1687,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1741,8 +1744,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1751,8 +1754,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1786,7 +1789,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Samoantank - Tichondrius"] = {
+				["Samoanspy - Emerald Dream"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1807,8 +1810,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1817,8 +1820,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1853,7 +1856,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
+				["Serepa - Tichondrius"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1940,8 +1943,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1950,8 +1953,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1985,141 +1988,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Samoansavage - Stormrage"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.499847412109,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.499847412109,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 94,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Gfsdfgsd - Tichondrius"] = {
+				["Samoansmash - Emerald Dream"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -2185,7 +2054,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Samoantitan - Emerald Dream"] = {
+				["Samoansaint - Tichondrius"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -2247,9 +2116,140 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						nil, -- [9]
+						[10] = {
+						},
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["actionbars"] = {
 						{
-						}, -- [10]
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499847412109,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499847412109,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 94,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
 					},
 				},
 			},
@@ -2266,7 +2266,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2318,7 +2318,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
+				["Samoanmystic - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2334,6 +2334,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000030517578,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Samoanlegend - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2342,15 +2350,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000030517578,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
+				["Samoansavage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2382,7 +2382,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansmash - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2398,7 +2398,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Serepa - Tichondrius"] = {
+				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2414,7 +2414,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanspy - Emerald Dream"] = {
+				["Samoantank - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2462,7 +2462,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoantank - Tichondrius"] = {
+				["Samoanspy - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2470,7 +2470,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
+				["Serepa - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2486,7 +2486,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Stormrage"] = {
+				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2494,7 +2494,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Emerald Dream"] = {
+				["Samoansaint - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2502,7 +2502,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Gfsdfgsd - Tichondrius"] = {
+				["Samoanmystic - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2510,7 +2510,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoantitan - Emerald Dream"] = {
+				["Samoansavage - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
@@ -2532,14 +2532,14 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Samoansaint - Stormrage"] = {
@@ -2559,8 +2559,8 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 0.800000011920929,
 					},
-					["version"] = 3,
 					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["fadeout"] = true,
 				},
 				["Samoantank - Emerald Dream"] = {
@@ -2593,7 +2593,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
+				["Samoanmystic - Tichondrius"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2613,6 +2613,16 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
 				["Samoanlegend - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -2623,24 +2633,14 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Samoanmystic - Emerald Dream"] = {
+				["Samoansavage - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
 						["scale"] = 1,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
 					},
 				},
 				["Kakattack - Stormrage"] = {
@@ -2673,14 +2673,14 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Samoansmash - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Samoanranger - Emerald Dream"] = {
@@ -2693,7 +2693,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Serepa - Tichondrius"] = {
+				["Samoansage - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2713,7 +2713,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Samoanspy - Emerald Dream"] = {
+				["Samoantank - Tichondrius"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2773,7 +2773,7 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Samoantank - Tichondrius"] = {
+				["Samoanspy - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2783,7 +2783,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
+				["Serepa - Tichondrius"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2803,27 +2803,7 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Samoansavage - Stormrage"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Gfsdfgsd - Tichondrius"] = {
+				["Samoansmash - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2833,14 +2813,34 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Samoantitan - Emerald Dream"] = {
+				["Samoansaint - Tichondrius"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 41.75,
+						["scale"] = 1,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
 						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
 					},
 				},
 			},
@@ -2855,7 +2855,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2872,13 +2872,13 @@ Bartender4DB = {
 					},
 				},
 				["KokonutKrew"] = {
-					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 136.9293518066406,
 						["x"] = -163.9998779296875,
 						["point"] = "BOTTOMRIGHT",
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 					["visibility"] = {
 						["custom"] = false,
 						["customdata"] = "",
@@ -2909,7 +2909,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
+				["Samoanmystic - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2925,6 +2925,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Samoanlegend - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2933,15 +2941,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
+				["Samoansavage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2973,7 +2973,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansmash - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2989,7 +2989,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Serepa - Tichondrius"] = {
+				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3005,7 +3005,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanspy - Emerald Dream"] = {
+				["Samoantank - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3053,7 +3053,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoantank - Tichondrius"] = {
+				["Samoanspy - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3061,7 +3061,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
+				["Serepa - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3077,7 +3077,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Stormrage"] = {
+				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3085,7 +3085,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Emerald Dream"] = {
+				["Samoansaint - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3093,7 +3093,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Gfsdfgsd - Tichondrius"] = {
+				["Samoanmystic - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3101,7 +3101,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoantitan - Emerald Dream"] = {
+				["Samoansavage - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -3122,7 +3122,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3183,1013 +3183,228 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Stormrage"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanlegend - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanmystic - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kakattack - Stormrage"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hfishsamoan - Ravenholdt"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansmash - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanranger - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Serepa - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanbeast - Ravenholdt"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanspy - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Shgrshn - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantotems - Stormrage"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansneaky - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kalin - Ravenholdt"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantank - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Stormrage"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Gfsdfgsd - Tichondrius"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantitan - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["ZoneAbilityBar"] = {
-			["profiles"] = {
-				["Samoanslayer - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Samoanmystic - Tichondrius"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["KokonutKrew"] = {
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Samoantank - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansensei - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoaninja - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
 				["Samoanrelic - Stormrage"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanlegend - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanmystic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kakattack - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hfishsamoan - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansmash - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanranger - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Serepa - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanbeast - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanspy - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Shgrshn - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantotems - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansneaky - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kalin - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantank - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
 				["Gfsdfgsd - Tichondrius"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantitan - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.5000610351563,
-						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Samoanslayer - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanmystic - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansaint - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["KokonutKrew"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 132.073837280273,
-						["x"] = -310.677581787109,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantank - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansensei - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoaninja - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansavage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanrelic - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
 					},
 				},
 				["Samoanlegend - Emerald Dream"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanmystic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Kakattack - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Hfishsamoan - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanrelic - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansmash - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanranger - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Serepa - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanbeast - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanspy - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Shgrshn - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoantotems - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansneaky - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoanrelic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Kalin - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoantank - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoansavage - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Samoansavage - Emerald Dream"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Gfsdfgsd - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Samoantitan - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
-		["PetBar"] = {
-			["profiles"] = {
-				["Samoanslayer - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Kakattack - Stormrage"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansaint - Stormrage"] = {
+				["Hfishsamoan - Ravenholdt"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
-				["KokonutKrew"] = {
+				["Samoanrelic - Tichondrius"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 164,
-						["x"] = -164,
-						["point"] = "BOTTOM",
-					},
-					["visibility"] = {
-						["custom"] = true,
-						["customdata"] = "[@target,exists]show;[combat]show;[petbattle]hide;[overridebar]hide;[vehicleui]hide;fade\n",
-					},
-					["fadeoutalpha"] = 0,
-				},
-				["Samoantank - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoansensei - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Samoaninja - Emerald Dream"] = {
+				["Samoanranger - Emerald Dream"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanbeast - Ravenholdt"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantank - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Shgrshn - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantotems - Stormrage"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansneaky - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kalin - Ravenholdt"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanspy - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Serepa - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansmash - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansaint - Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
 				["Samoansavage - Tichondrius"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanlegend - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanmystic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kakattack - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hfishsamoan - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansmash - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanranger - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Serepa - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanbeast - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanspy - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Shgrshn - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantotems - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansneaky - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoanrelic - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kalin - Ravenholdt"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantank - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansage - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Gfsdfgsd - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Samoantitan - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
+						["y"] = 47,
+						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -4206,7 +3421,7 @@ Bartender4DB = {
 						["y"] = 127,
 					},
 				},
-				["Samoanmystic - Tichondrius"] = {
+				["Samoantitan - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4255,7 +3470,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoansavage - Tichondrius"] = {
+				["Samoanmystic - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4271,6 +3486,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999618530273,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
 				["Samoanlegend - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4279,21 +3502,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoanmystic - Emerald Dream"] = {
+				["Samoansavage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
 						["x"] = -82.5,
 						["point"] = "CENTER",
-					},
-				},
-				["Samoansaint - Tichondrius"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 127,
 					},
 				},
 				["Kakattack - Stormrage"] = {
@@ -4320,12 +3534,13 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoansmash - Emerald Dream"] = {
+				["Samoansavage - Stormrage"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.9999618530273,
-						["x"] = -82.5,
-						["point"] = "CENTER",
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
 				["Samoanranger - Emerald Dream"] = {
@@ -4336,7 +3551,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Serepa - Tichondrius"] = {
+				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4352,13 +3567,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoanspy - Emerald Dream"] = {
+				["Samoantank - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = -14.9999618530273,
+						["x"] = -82.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Shgrshn - Tichondrius"] = {
@@ -4402,15 +3616,16 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoantank - Tichondrius"] = {
+				["Samoanspy - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.9999618530273,
-						["x"] = -82.5,
-						["point"] = "CENTER",
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
+				["Serepa - Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4427,16 +3642,7 @@ Bartender4DB = {
 						["y"] = 127,
 					},
 				},
-				["Samoansavage - Stormrage"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 127,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Samoansavage - Emerald Dream"] = {
+				["Samoansmash - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
@@ -4444,20 +3650,814 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Gfsdfgsd - Tichondrius"] = {
+				["Samoansaint - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 127,
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999618530273,
 						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999618530273,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Samoanslayer - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
 						["point"] = "CENTER",
 					},
 				},
 				["Samoantitan - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.9999618530273,
-						["x"] = -82.5,
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
 						["point"] = "CENTER",
+					},
+				},
+				["Samoansaint - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["KokonutKrew"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 132.073837280273,
+						["x"] = -310.677581787109,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantank - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansensei - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoaninja - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanmystic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanrelic - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanlegend - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansavage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Kakattack - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Hfishsamoan - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanrelic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansavage - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanranger - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanbeast - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoantank - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Shgrshn - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoantotems - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansneaky - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanrelic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Kalin - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanspy - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Serepa - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansmash - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansaint - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Samoanslayer - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantitan - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansaint - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["KokonutKrew"] = {
+					["fadeoutalpha"] = 0,
+					["position"] = {
+						["y"] = 164,
+						["x"] = -164,
+						["point"] = "BOTTOM",
+					},
+					["visibility"] = {
+						["custom"] = true,
+						["customdata"] = "[@target,exists]show;[combat]show;[petbattle]hide;[overridebar]hide;[vehicleui]hide;fade\n",
+					},
+					["version"] = 3,
+				},
+				["Samoantank - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansensei - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoaninja - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanmystic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanlegend - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kakattack - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hfishsamoan - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanranger - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanbeast - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantank - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Shgrshn - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantotems - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansneaky - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kalin - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanspy - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Serepa - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansmash - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansaint - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -120,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 127,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["ZoneAbilityBar"] = {
+			["profiles"] = {
+				["Samoanslayer - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantitan - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansaint - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["KokonutKrew"] = {
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+				["Samoantank - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansensei - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoaninja - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanmystic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Gfsdfgsd - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanlegend - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kakattack - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hfishsamoan - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanranger - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanbeast - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantank - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Shgrshn - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoantotems - Stormrage"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansneaky - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanrelic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kalin - Ravenholdt"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanspy - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Serepa - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansmash - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansaint - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoanmystic - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Samoansavage - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.5000610351563,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -4484,18 +4484,18 @@ Bartender4DB = {
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoantank - Tichondrius"] = "KokonutKrew",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoansage - Tichondrius"] = "KokonutKrew",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantank - Tichondrius"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -4504,7 +4504,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Samoantitan - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4537,7 +4537,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoansavage - Tichondrius"] = {
+		["Samoanmystic - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4547,17 +4547,17 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["Samoanlegend - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoanmystic - Emerald Dream"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Samoansaint - Tichondrius"] = {
+		["Samoansavage - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4577,7 +4577,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoansavage - Stormrage"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4587,7 +4587,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Serepa - Tichondrius"] = {
+		["Samoansage - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4597,7 +4597,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoanspy - Emerald Dream"] = {
+		["Samoantank - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4627,12 +4627,12 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanspy - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Serepa - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -4645,22 +4645,22 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoansavage - Stormrage"] = {
+		["Samoansmash - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Samoansaint - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Gfsdfgsd - Tichondrius"] = {
+		["Samoanmystic - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoansavage - Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

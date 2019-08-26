@@ -8,11 +8,11 @@ sArena3DB = {
 		["Samoansavage - Tichondrius"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
 		["Dreamå - Stormrage"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
+		["Foxxah - Stormrage"] = "Default",
 		["Føxxer - Stormrage"] = "Default",
 		["Samoanranger - Emerald Dream"] = "Default",
 		["Gfsdfgsd - Tichondrius"] = "Default",
-		["Foxxah - Stormrage"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {

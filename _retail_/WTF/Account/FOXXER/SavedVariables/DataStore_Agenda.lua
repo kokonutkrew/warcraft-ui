@@ -25,21 +25,21 @@ DataStore_AgendaDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Foxxah - Stonemaul"] = "Foxxah - Stonemaul",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Føxxer - Stormrage"] = "Føxxer - Stormrage",
 		["Dreamå - Stormrage"] = "Dreamå - Stormrage",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Føxxer - Stormrage"] = "Føxxer - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -131,16 +131,16 @@ DataStore_AgendaDB = {
 					["Kapahulu"] = {
 						["note"] = "",
 					},
-					["Råndôm"] = {
+					["Nossbigga"] = {
 						["note"] = "",
 					},
-					["Teamspirit"] = {
+					["Yotaforlife"] = {
 						["note"] = "",
 					},
 					["ßerzerk"] = {
 						["note"] = "",
 					},
-					["Yennk"] = {
+					["Froztt"] = {
 						["note"] = "",
 					},
 					["Deletemeeplz"] = {
@@ -152,7 +152,7 @@ DataStore_AgendaDB = {
 					["Fekzul"] = {
 						["note"] = "",
 					},
-					["Bauce"] = {
+					["Deydrellia"] = {
 						["note"] = "",
 					},
 					["Mingan"] = {
@@ -161,34 +161,34 @@ DataStore_AgendaDB = {
 					["Savedby"] = {
 						["note"] = "",
 					},
+					["Grenji"] = {
+						["note"] = "",
+					},
+					["Bauce"] = {
+						["note"] = "",
+					},
+					["Scottxyz"] = {
+						["note"] = "",
+					},
 					["Yoshïo"] = {
 						["note"] = "",
 					},
 					["Yoter"] = {
 						["note"] = "",
 					},
-					["Scottxyz"] = {
-						["note"] = "",
-					},
-					["Grenji"] = {
-						["note"] = "",
-					},
-					["Deydrellia"] = {
-						["note"] = "",
-					},
 					["Nossbig"] = {
 						["note"] = "",
 					},
-					["Froztt"] = {
+					["Yennk"] = {
 						["note"] = "",
 					},
 					["Veryholytaco"] = {
 						["note"] = "",
 					},
-					["Yotaforlife"] = {
+					["Teamspirit"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
+					["Råndôm"] = {
 						["note"] = "",
 					},
 				},
@@ -250,22 +250,22 @@ DataStore_AgendaDB = {
 					["Forsho"] = {
 						["note"] = "",
 					},
-					["Slappyz"] = {
-						["note"] = "",
-					},
-					["Yotaforlife"] = {
-						["note"] = "",
-					},
-					["Rebelx3A1261"] = {
+					["Megalomania"] = {
 						["note"] = "",
 					},
 					["LaieboC2AE2A"] = {
 						["note"] = "",
 					},
+					["Rebelx3A1261"] = {
+						["note"] = "",
+					},
+					["Yotaforlife"] = {
+						["note"] = "",
+					},
 					["Cryptt"] = {
 						["note"] = "",
 					},
-					["Yennk"] = {
+					["Scottxyz"] = {
 						["note"] = "",
 					},
 					["Issennas"] = {
@@ -277,61 +277,61 @@ DataStore_AgendaDB = {
 					["Kapahulu"] = {
 						["note"] = "",
 					},
-					["Tonica"] = {
-						["note"] = "",
-					},
-					["Spiitout"] = {
-						["note"] = "",
-					},
-					["Mollywhompin"] = {
-						["note"] = "",
-					},
-					["Yoshïo"] = {
-						["note"] = "",
-					},
-					["Silentreaper"] = {
-						["note"] = "",
-					},
-					["Abricalio"] = {
-						["note"] = "",
-					},
-					["Symbolik"] = {
-						["note"] = "",
-					},
-					["ShamanFBF83F"] = {
-						["note"] = "",
-					},
-					["ShamanFBF878"] = {
-						["note"] = "",
-					},
-					["Savedby"] = {
-						["note"] = "",
-					},
-					["Hagslayer"] = {
-						["note"] = "",
-					},
-					["Samoantank"] = {
-						["note"] = "",
-					},
-					["ßerzerk"] = {
+					["Pebox"] = {
 						["note"] = "",
 					},
 					["AlienmDD7619"] = {
 						["note"] = "",
 					},
-					["Pebox"] = {
+					["Mollywhompin"] = {
+						["note"] = "",
+					},
+					["ßerzerk"] = {
+						["note"] = "",
+					},
+					["Samoantank"] = {
+						["note"] = "",
+					},
+					["Hagslayer"] = {
+						["note"] = "",
+					},
+					["ShamanFBF878"] = {
+						["note"] = "",
+					},
+					["ShamanFBF83F"] = {
+						["note"] = "",
+					},
+					["Symbolik"] = {
+						["note"] = "",
+					},
+					["Savedby"] = {
+						["note"] = "",
+					},
+					["Abricalio"] = {
+						["note"] = "",
+					},
+					["Silentreaper"] = {
+						["note"] = "",
+					},
+					["Yoshïo"] = {
+						["note"] = "",
+					},
+					["Spiitout"] = {
+						["note"] = "",
+					},
+					["Tonica"] = {
 						["note"] = "",
 					},
 					["Adrial0FC740"] = {
 						["note"] = "",
 					},
-					["Scottxyz"] = {
+					["Yennk"] = {
 						["note"] = "",
 					},
 					["Veryholytaco"] = {
 						["note"] = "",
 					},
-					["Megalomania"] = {
+					["Slappyz"] = {
 						["note"] = "",
 					},
 					["Råndôm"] = {
@@ -340,16 +340,25 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1547638065,
 			},
-			["Default.Stormrage.Føxxer"] = {
+			["Default.Stonemaul.Foxxah"] = {
 				["Contacts"] = {
-					["Atomiic"] = {
+					["Poodlephile"] = {
 						["note"] = "",
 					},
-					["Avorii"] = {
+					["Sourðiesel"] = {
+						["note"] = "",
+					},
+					["Cupcak4AA26F"] = {
+						["note"] = "",
+					},
+					["Sightbane"] = {
+						["note"] = "",
+					},
+					["Sùbzërö"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1566351832,
+				["lastUpdate"] = 1566357979,
 			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167314,
@@ -362,6 +371,33 @@ DataStore_AgendaDB = {
 			},
 			["Default.Stormrage.Dreamâ"] = {
 				["lastUpdate"] = 1566352000,
+			},
+			["Default.Emerald Dream.Aeredyl"] = {
+				["lastUpdate"] = 1566780804,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920075,
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1545018699,
+			},
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1545022454,
+			},
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
+			},
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1566073399,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["Contacts"] = {
@@ -389,7 +425,7 @@ DataStore_AgendaDB = {
 					["Bankbeamz"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
+					["Frogz"] = {
 						["note"] = "",
 					},
 					["Rafidh"] = {
@@ -398,67 +434,31 @@ DataStore_AgendaDB = {
 					["Vinza"] = {
 						["note"] = "",
 					},
-					["Maikar"] = {
-						["note"] = "",
-					},
 					["Nossbig"] = {
 						["note"] = "",
 					},
-					["Frogz"] = {
+					["Maikar"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
 						["note"] = "",
 					},
 				},
 				["lastUpdate"] = 1552319660,
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743272,
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
-			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
-			},
-			["Default.Tichondrius.Serepa"] = {
-				["lastUpdate"] = 1545730666,
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022454,
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1545018699,
-			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920075,
-			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["lastUpdate"] = 1566073399,
-			},
-			["Default.Emerald Dream.Aeredyl"] = {
-				["lastUpdate"] = 1566453071,
-			},
 			["Default.Ravenholdt.Kalin"] = {
 				["lastUpdate"] = 1546208371,
 			},
-			["Default.Stonemaul.Foxxah"] = {
+			["Default.Stormrage.Føxxer"] = {
 				["Contacts"] = {
-					["Poodlephile"] = {
+					["Atomiic"] = {
 						["note"] = "",
 					},
-					["Sùbzërö"] = {
-						["note"] = "",
-					},
-					["Cupcak4AA26F"] = {
-						["note"] = "",
-					},
-					["Sightbane"] = {
-						["note"] = "",
-					},
-					["Sourðiesel"] = {
+					["Avorii"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1566357979,
+				["lastUpdate"] = 1566351832,
 			},
 		},
 	},

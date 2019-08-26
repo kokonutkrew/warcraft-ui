@@ -3,12 +3,6 @@ VER 3 000000000000000A "01. Ranged Pull" "132094"
 /cast taunt
 /cast attack
 END
-VER 3 00000000000000B2 "2. Damage" "132094"
-/follow party1
-/assist party1
-/use garrote
-/use sinister strike
-END
 VER 3 0000000000000009 "2. Damage" "132094"
 /cast charge
 /cast overpower
@@ -16,6 +10,12 @@ VER 3 0000000000000009 "2. Damage" "132094"
 /cast thunder clap
 /cast heroic strike
 /cast sunder armor
+END
+VER 3 00000000000000B2 "2. Damage" "132094"
+/follow party1
+/assist party1
+/use garrote
+/use sinister strike
 END
 VER 3 000000000000000B "3. Dots" "132094"
 /cast bloodrage
@@ -149,10 +149,6 @@ VER 3 00000000000000B3 "GRM_Roster" "Achievement_pvp_h_a"
 /run GuildFrame_Toggle()
 /run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
-VER 3 0000000000000061 "Invite" "135026"
---/run GuildManager:InviteAction()
-/flood on
-END
 VER 3 000000000000000E "Invite" "135946"
 /run InviteUnit("Tigerlilly");
 /run InviteUnit("Mancub"); 
@@ -160,6 +156,10 @@ VER 3 000000000000000E "Invite" "135946"
 /run InviteUnit("Kickbrass"); 
 /ffa
 /changeactionbar 2
+END
+VER 3 0000000000000061 "Invite" "135026"
+--/run GuildManager:InviteAction()
+/flood on
 END
 VER 3 000000000000008E "LeaveParty" "132219"
 /leave party

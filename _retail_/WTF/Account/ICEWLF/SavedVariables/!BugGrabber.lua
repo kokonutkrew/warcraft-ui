@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 406,
 	["lastSanitation"] = 3,
-	["session"] = 405,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\StaticPopup.lua:4460: bad argument #2 to 'SetFormattedText' (string expected, got nil)",
@@ -122,8 +122,8 @@ BugGrabberDB = {
 		}, -- [15]
 		{
 			["message"] = "(null)",
-			["time"] = "2019/08/20 20:57:14",
 			["session"] = 385,
+			["time"] = "2019/08/20 20:57:14",
 			["counter"] = 1,
 		}, -- [16]
 		{
@@ -216,20 +216,20 @@ BugGrabberDB = {
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\XPBarClassic.lua",
-			["time"] = "2019/08/20 20:57:14",
 			["session"] = 390,
+			["time"] = "2019/08/20 20:57:14",
 			["counter"] = 10,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\Options\\XPBarClassic.lua",
-			["time"] = "2019/08/20 20:57:14",
 			["session"] = 390,
+			["time"] = "2019/08/20 20:57:14",
 			["counter"] = 10,
 		}, -- [29]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\GSE\\Lib\\LibDBIcon-1.0-43\\lib.xml",
-			["time"] = "2019/08/09 16:08:19",
 			["session"] = 390,
+			["time"] = "2019/08/09 16:08:19",
 			["counter"] = 118,
 		}, -- [30]
 		{
@@ -321,70 +321,70 @@ BugGrabberDB = {
 			["time"] = "2019/01/30 09:12:34",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"FollowFelankor\"\n(*temporary) = \"attempt to call global 'RegisterAddonMessagePrefix' (a nil value)\"\n",
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: in function `FF_OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>",
-			["session"] = 405,
-			["counter"] = 59,
+			["session"] = 406,
+			["counter"] = 60,
 		}, -- [42]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Frost.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 57,
+			["session"] = 406,
+			["counter"] = 58,
 		}, -- [43]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Unholy.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 57,
+			["session"] = 406,
+			["counter"] = 58,
 		}, -- [44]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Marksmanship.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 53,
+			["session"] = 406,
+			["counter"] = 54,
 		}, -- [45]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Survival.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 52,
+			["session"] = 406,
+			["counter"] = 53,
 		}, -- [46]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Fire.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 51,
+			["session"] = 406,
+			["counter"] = 52,
 		}, -- [47]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Frost.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 44,
+			["session"] = 406,
+			["counter"] = 45,
 		}, -- [48]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Monk\\Mistweaver.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 19,
+			["session"] = 406,
+			["counter"] = 20,
 		}, -- [49]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Holy.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 19,
+			["session"] = 406,
+			["counter"] = 20,
 		}, -- [50]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Shadow.lua",
-			["session"] = 405,
 			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 17,
+			["session"] = 406,
+			["counter"] = 18,
 		}, -- [51]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: attempt to call field 'GetMountInfo' (a nil value)",
 			["time"] = "2019/01/30 09:12:42",
 			["locals"] = "FFNewNumMounts = 82\n(for index) = 1\n(for limit) = 82\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call field 'GetMountInfo' (a nil value)\"\n",
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: in function `FF_UpdateMounts'\nInterface\\AddOns\\FollowFelankor\\FFEvents.lua:38: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
-			["session"] = 405,
-			["counter"] = 3563,
+			["session"] = 406,
+			["counter"] = 3584,
 		}, -- [52]
 	},
 }

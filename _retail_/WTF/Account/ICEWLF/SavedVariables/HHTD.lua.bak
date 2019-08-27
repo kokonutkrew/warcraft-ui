@@ -79,25 +79,25 @@ HHTD_SavedVariables = {
 		["Samoansavage - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kecil - Zul'jin"] = {
+		["Phyra - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Kakattack - Stormrage"] = {
+		["Samoanmystic - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Täichipanda - Bloodscalp"] = {
+		["Samoansage - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanrelic - Tichondrius"] = {
+		["Samoansaint - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 		["Shgrshn - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantank - Emerald Dream"] = {
+		["Samoantitan - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoanrelic - Stormrage"] = {
@@ -109,26 +109,34 @@ HHTD_SavedVariables = {
 		["Kalin - Ravenholdt"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoantank - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoanrelic - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoansage - Tichondrius"] = {
+		["Täichipanda - Bloodscalp"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Kakattack - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Phyra - Zul'jin"] = {
+		["Kecil - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantitan - Stormrage"] = {
 			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
 		},
 	},
 	["global"] = {
@@ -162,30 +170,22 @@ HHTD_SavedVariables = {
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
-	},
-	["namespaces"] = {
-		["Announcer"] = {
-		},
-		["CM"] = {
-		},
-		["NPH"] = {
-		},
 	},
 }

@@ -27,22 +27,22 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Phyra - Zul'jin"] = "Phyra - Zul'jin",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Täichipanda - Bloodscalp"] = "Täichipanda - Bloodscalp",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Kecil - Zul'jin"] = "Kecil - Zul'jin",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["profiles"] = {
@@ -98,19 +98,19 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Samoansavage - Emerald Dream"] = {
 		},
-		["Kecil - Zul'jin"] = {
+		["Phyra - Zul'jin"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Kakattack - Stormrage"] = {
+		["Samoanmystic - Tichondrius"] = {
 		},
-		["Täichipanda - Bloodscalp"] = {
+		["Samoansage - Tichondrius"] = {
 		},
-		["Samoanrelic - Tichondrius"] = {
+		["Samoansaint - Stormrage"] = {
 		},
 		["Shgrshn - Tichondrius"] = {
 		},
-		["Samoantank - Emerald Dream"] = {
+		["Samoantitan - Emerald Dream"] = {
 		},
 		["Samoanrelic - Stormrage"] = {
 		},
@@ -118,17 +118,17 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Kalin - Ravenholdt"] = {
 		},
-		["Samoantitan - Emerald Dream"] = {
+		["Samoantank - Emerald Dream"] = {
 		},
-		["Samoansaint - Stormrage"] = {
+		["Samoanrelic - Tichondrius"] = {
 		},
-		["Samoansage - Tichondrius"] = {
+		["Täichipanda - Bloodscalp"] = {
 		},
-		["Samoanmystic - Tichondrius"] = {
+		["Kakattack - Stormrage"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
-		["Phyra - Zul'jin"] = {
+		["Kecil - Zul'jin"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

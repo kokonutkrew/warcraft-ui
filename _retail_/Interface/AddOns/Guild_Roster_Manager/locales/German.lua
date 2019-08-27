@@ -1111,6 +1111,87 @@ GRML.German = function()
     GRM_L["Your Guild Leader has changed the Custom Rejoin Tag from \"{name}\" to \"{name2}\""] = true
     GRM_L["Your Guild Leader has set the Custom Rejoin Tag to \"{name}\""] = true
     
+     -- 1.67
+    -- Note, lots of plural/singular forms here for just a superior user experience, albeit a bit of extra work
+    GRM_L["Kick"] = true
+    GRM_L["Promote"] = true
+    GRM_L["Demote"] = true
+    GRM_L["Macro:"] = true
+    GRM_L["Macro Size: {num}/255"] = true        -- "Macro Size: 242/255"
+    GRM_L["Action"] = true
+    GRM_L["Ignored Action:"] = true                 -- As in, the action being ignored, be it kick or promote or demote. 
+    GRM_L["Click to Build Macro"] = true
+    GRM_L["No Current Names to Add"] = true
+    GRM_L["No Names to Add to the Macro"] = true
+    GRM_L["Hot Key: {name}"] = true
+    GRM_L["Press the Hot-key 1 time to complete all actions"] = true
+    GRM_L["Press the Hot-key {num} times to complete all actions"] = true
+    GRM_L["Permissions"] = true
+    GRM_L["Player rank change detected, re-checking permissions and rebuilding GRM Macro Tool."] = true
+    GRM_L["Click to remove selected names from the macro"] = true           -- Plural form of statement
+    GRM_L["Click to remove selected name from the macro"] = true            -- Singular form of statement
+    GRM_L["Click to remove selected names from Ignore List"] = true         -- Plural
+    GRM_L["Click to remove selected name from Ignore List"] = true          -- Singular
+    GRM_L["No names selected to remove from macro"] = true
+    GRM_L["No names selected to remove from Ignore List"] = true
+    GRM_L["Macro is currently empty"] = true
+    GRM_L["{num} players removed from the macro"] = true                    -- plural form of the statement
+    GRM_L["{num} player was removed from the macro"] = true                 -- singular form of the statement
+    GRM_L["{num} players removed from the Ignored List"] = true
+    GRM_L["{num} player was removed from Ignore List"] = true
+    GRM_L["There are no names currently selected to be removed from the Ignore List."] = true
+    GRM_L["There are no names currently selected to be removed from the macro."] = true
+    GRM_L["The macro is not yet built. Please click the button to create the macro."] = true
+    GRM_L["Nothing to clear"] = true
+    GRM_L["There are currently no names to add"] = true
+    GRM_L["There are currently no names to remove"] = true
+    GRM_L["Rules"] = true
+    GRM_L["Please choose a day between 1 and 99"] = true
+    GRM_L["Time before recommending to kick has been set to 99 Days. For a longer time period, use the months instead."] = true
+    GRM_L["Time before recommending to kick has been set to the default period of 12 Months."] = true
+    GRM_L["Time before recommending to kick has been set to {num} Months."] = true
+    GRM_L["Time before recommending to kick has been set to {num} Days."] = true
+    GRM_L["Pressing the ESC key will also clear all lines"] = true
+    GRM_L["Player's rank does not have permission to remove others from the guild"] = true
+    GRM_L["Player's rank does not have permission to promote others in the guild"] = true
+    GRM_L["Player's rank does not have permission to demote others in the guild"] = true
+    GRM_L["Queued Actions"] = true
+    GRM_L["Current Actions"] = true
+    GRM_L["View Ignore List"] = true
+    GRM_L["No players are currently safe from recommendations"] = true
+    GRM_L["1 player is on the safe list."] = true
+    GRM_L["{num} players are on the safe list."] = true
+    GRM_L["1 action is being ignored."] = true
+    GRM_L["{num} actions are being ignored."] = true
+    GRM_L["No current actions are being ignored"] = true
+    GRM_L["Actions Ignored:"] = true
+    GRM_L["Total Queued:"] = true
+    GRM_L["Ignored Players Safe From Action"] = true
+    GRM_L["Only show players with ignored action"] = true
+    GRM_L["No players on Ignore List"] = true
+    GRM_L["No players to select. 1 player filtered"] = true                     -- Singular
+    GRM_L["No players to select. {num} players filtered"] = true                -- Plural
+    GRM_L["There are no names to select. 1 player is filtered"] = true          -- these 2 statements might seem redundant, but often the text on a button is more short hand. This gives a cleaner statement in the chat. Useful for translating in some languages that need a bit more room to be more clear.
+    GRM_L["There are no names to select. {num} players are filtered"] = true
+    GRM_L["Really remove selected player from the ignore list?"] = true
+    GRM_L["Really remove the {num} selected players from the ignore list?"] = true
+    GRM_L["Do you really wish to clear all players from the Ignore List?"] = true
+    GRM_L["There are currently no players on the Ignore List"] = true
+    GRM_L["Remove all players from Ignore List"] = true
+    GRM_L["Ignored Players: {num}"] = true
+    GRM_L["Ignore Macro Tool Filters"] = true
+    GRM_L["Type \"/grm tool\" to Bring Up Macro Tool"] = true       -- Of note, the /grm tool will ALWAYS work, regardless of the language. Feel free to create your own word to coordinate for a slash command. It will match the next line
+    GRM_L["Tool"] = true                                            -- /grm tool
+    GRM_L["Macro Tool"] = true
+    GRM_L["Macro Tool: {num}"] = true
+
+    -- CLASSIC
+    GRM_L["Social"] = true
+    GRM_L["Information about other people in the game. You can use the Social window to manage your friends list and ignore list, as well as see who is online."] = true        -- This should be used in System messages.
+    GRM_L["Roster"] = true
+    GRM_L["|CFFE6CC7FCtrl-Click|r to open the Guild Roster Window"] = true
+
+    
 end
 
 -- THANK YOU @Nehry for this full translation up to R1.20

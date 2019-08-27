@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0246,
-	["LastPlayerFullName"] = "Samoanslayer-Emerald Dream",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122248,
@@ -93,6 +90,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122364:4443:::::::76:259:::1:582:::|h[Sharpened Scarlet Kris]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Samoanslayer-Emerald Dream",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

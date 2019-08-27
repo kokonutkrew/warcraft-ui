@@ -1,6 +1,6 @@
 -- For Sync controls!
 -- Author: Arkaan... aka "TheGenomeWhisperer"
--- Version 8.1.5R1.66
+-- Version 8.1.5R1.67
 -- To hold all Sync Methods/Functions
 GRMsync = {};
 
@@ -2095,19 +2095,24 @@ end
 -- Purpose:         Efficiently sync data
 GRMsync.BuildDatabaseCheckArray = function ( index )
     local result = {};
-    for i = 1 , #GRMsyncGlobals.DatabaseMarkers[index] do
-        if not GRMsyncGlobals.DatabaseMarkers[index][i] then
-            -- database needs to be sync'd
-            for j = ( i * GRMsyncGlobals.Refinement ) - ( GRMsyncGlobals.Refinement - 1 ) , i * GRMsyncGlobals.Refinement do
-                if j > 1 then
-                    table.insert ( result , j );
-                end
 
-                if j == #GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ] then -- Stop at member cap.
-                    break;  
+    if GRMsyncGlobals.DatabaseMarkers[index] ~= nil and #GRMsyncGlobals.DatabaseMarkers[index] ~= nil then
+        for i = 1 , #GRMsyncGlobals.DatabaseMarkers[index] do
+            if not GRMsyncGlobals.DatabaseMarkers[index][i] then
+                -- database needs to be sync'd
+                for j = ( i * GRMsyncGlobals.Refinement ) - ( GRMsyncGlobals.Refinement - 1 ) , i * GRMsyncGlobals.Refinement do
+                    if j > 1 then
+                        table.insert ( result , j );
+                    end
+
+                    if j == #GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ] then -- Stop at member cap.
+                        break;  
+                    end
                 end
             end
         end
+    -- else
+    --     GRM.Report ( "Please report this error to GRM Creator. In-Combat error, unable to pull some data from server during sync." );
     end
     return result;
 end

@@ -27,22 +27,22 @@ LegionInvasionTimerDB = {
 		["Samoansavage - Stormrage"] = "Default",
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
-		["Kecil - Zul'jin"] = "Default",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Kakattack - Stormrage"] = "Default",
-		["Täichipanda - Bloodscalp"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Phyra - Zul'jin"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
 		["Samoanlegend - Emerald Dream"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoansage - Tichondrius"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Phyra - Zul'jin"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Täichipanda - Bloodscalp"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Kecil - Zul'jin"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -57,13 +57,13 @@ LegionInvasionTimerDB = {
 		},
 		["KokonutKrew"] = {
 			["mode"] = 3,
-			["lock"] = true,
 			["position"] = {
 				"BOTTOM", -- [1]
 				"BOTTOM", -- [2]
 				2.9999566078186, -- [3]
 				52.4999313354492, -- [4]
 			},
+			["lock"] = true,
 		},
 	},
 }

@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(424, "DBM-Party-Classic", 8, 232)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("@file-date-integer@")
+mod:SetRevision("20190810175354")
 mod:SetCreatureID(12258)
 mod:SetEncounterID(423)
 
@@ -20,9 +20,13 @@ function mod:OnCombatStart(delay)
 	timerPunctureCD:Start(1-delay)
 end
 
-function mod:SPELL_CAST_SUCCESS(args)
-	if args.spellId == 15976 then
-		warningPuncture:Show()
-		timerPunctureCD:Start()
+do
+	local Puncture = DBM:GetSpellInfo(15976)
+	function mod:SPELL_CAST_SUCCESS(args)
+		--if args.spellId == 15976 then
+		if args.spellName == Puncture then
+			warningPuncture:Show()
+			timerPunctureCD:Start()
+		end
 	end
 end

@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("Glutton", "DBM-Party-Classic", 10)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("@file-date-integer@")
+mod:SetRevision("20190810210513")
 mod:SetCreatureID(8567)
 --mod:SetEncounterID(585)
 
@@ -20,8 +20,12 @@ function mod:OnCombatStart(delay)
 end
 --]]
 
-function mod:SPELL_CAST_SUCCESS(args)
-	if args.spellId == 12795 then
-		warningEnrage:Show()
+do
+	local Enrage = DBM:GetSpellInfo(12795)
+	function mod:SPELL_CAST_SUCCESS(args)
+		--if args.spellId == 12795 then
+		if args.spellName == Enrage and args:IsSrcTypeHostile() then
+			warningEnrage:Show()
+		end
 	end
 end

@@ -5,42 +5,44 @@ if ns:IsSameLocale("esES") then
 
 	L.LOCALE_NAME = "esES"
 
-L["ALLOW_IN_LFD"] = "Habilitar en el buscador de grupos"
-L["ALLOW_IN_LFD_DESC"] = "Permite hacer clic derecho sobre grupos ya creados del buscador o jugadores que soliciten unirse a tu grupo para copiar la dirección de su perfil de Raider.IO."
-L["ALLOW_ON_PLAYER_UNITS"] = "Habilitar en marcos de unidad de jugadores"
-L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Permite hacer clic derecho sobre los marcos de unidad de los jugadores para copiar la dirección de su perfil de Raider.IO."
-L["ALWAYS_SHOW_EXTENDED_INFO"] = "Mostrar siempre puntuaciones de rol"
-L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Puedes mantener pulsado Mayús, Control o Alt para mostrar las puntuaciones de rol de un jugador en la ventana emergente. Si activas esta opción, las ventanas emergentes incluirán siempre las puntuaciones de rol."
-L["API_DEPRECATED"] = "|cffFF0000¡Atención!|r El addon |cffFFFFFF%s|r está solicitando una función obsoleta de RaiderIO.%s. Esta función será eliminada en la próxima versión. Por favor, avisa al autor de %s de que actualice su addon. Pila solicitada: %s."
-L["API_DEPRECATED_UNKNOWN_ADDON"] = "<Addon desconocido>"
-L["API_DEPRECATED_UNKNOWN_FILE"] = "<Archivo de addon desconocido>"
-L["API_DEPRECATED_WITH"] = "|cffFF0000¡Atención!|r El addon |cffFFFFFF%s|r está solicitando una función obsoleta de RaiderIO.%s. Esta función será eliminada en la próxima versión. Por favor, avisa al autor de %s de que lo actualice a la nueva API de Raider.IO.%s. Pila solicitada: %s."
-L["API_INVALID_DATABASE"] = "|cffFF0000¡Atención!|r Se ha detectado una base de datos inválida de RaiderIO en |cffffffff%s|r. Por favor, actualiza todas las regiones y facciones en el cliente de RaiderIO o reinstala manualmente el addon."
-L["BEST_FOR_DUNGEON"] = "Mejor M+ en esta mazmorra"
-L["BEST_RUN"] = "Mejor M+"
---[[Translation missing --]]
---[[ L["BEST_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CANCEL"] = ""--]] 
-L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Se han guardado los cambios, pero se necesita reiniciar la interfaz para que surtan efecto.
-
-¿Quieres reiniciarla ahora?]=]
-L["CHECKBOX_DISPLAY_WEEKLY"] = "Mostrar semanal"
---[[Translation missing --]]
---[[ L["CHOOSE_HEADLINE_HEADER"] = ""--]] 
-L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Ventanas emergentes de M+ y bandas"
---[[Translation missing --]]
---[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
---[[Translation missing --]]
---[[ L["CONFIRM"] = ""--]] 
-L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar dirección de Raider.IO"
-L["COPY_RAIDERIO_URL"] = "Copiar dirección de Raider.IO"
---[[Translation missing --]]
---[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CURRENT_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
+L["ALLOW_IN_LFD"] = "Permitir en buscador de mazmorras"
+L["ALLOW_IN_LFD_DESC"] = "Click derecho en los grupos o aplicantes en el buscador de mazmorras para copiar la URL de su perfil de Raider.IO"
+L["ALLOW_ON_PLAYER_UNITS"] = "Permitir en marcos de jugador"
+L["ALLOW_ON_PLAYER_UNITS_DESC"] = [=[Click derecho en el marco de un jugador para copiar la URL de su perfil de Raider.IO
+]=]
+L["ALWAYS_SHOW_EXTENDED_INFO"] = "Mostrar las puntuaciones de Rol siempre"
+L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = [=[Manten presionado (shift / ctrl / alt) para mostrar la puntuacion por Rol del jugador en la nota. Si habilitas esta opción, las notas siempre incluiran puntuaciones por Rol
+]=]
+L["API_DEPRECATED"] = [=[| cffFF0000Warning! | r El complemento | cffFFFFFF% s | r está llamando a una función obsoleta RaiderIO.% s. Esta función se eliminará en futuras versiones. Anime al autor de% s a actualizar su complemento. Pila de llamadas:% s
+]=]
+L["API_DEPRECATED_UNKNOWN_ADDON"] = [=[<Complemento desconocido>
+]=]
+L["API_DEPRECATED_UNKNOWN_FILE"] = [=[<Archivo de complementos desconocido>
+]=]
+L["API_DEPRECATED_WITH"] = [=[| cffFF0000"Aviso! | r El complemento | cffFFFFFF% s | r está llamando a una función obsoleta RaiderIO.% s. Esta función se eliminará en futuras versiones. Anime al autor de% s a actualizar a la nueva API RaiderIO.% S en su lugar. Pila de llamadas:% s
+]=]
+L["API_INVALID_DATABASE"] = [=[| cffFF0000 ¡Advertencia! | r Se detectó una base de datos Raider.IO no válida en | cffffffff% s | r. Actualice todas las regiones y facciones en el cliente Raider.IO, o reinstale el complemento manualmente.
+]=]
+L["BEST_FOR_DUNGEON"] = "Mejor en esta mazmorra"
+L["BEST_RUN"] = "Mejor mazmorra"
+L["BEST_SCORE"] = "Mejor puntuacion M + (% s)"
+L["CANCEL"] = "Cancelar"
+L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Sus cambios se han guardado, pero debe volver a cargar su interfaz para que surtan efecto.
+ 
+ ¿Desea hacer eso ahora?]=]
+L["CHECKBOX_DISPLAY_WEEKLY"] = [=[Mostrar semanal
+]=]
+L["CHOOSE_HEADLINE_HEADER"] = "Encabezado del truco de herramientas Mythic+"
+L["CONFIG_SHOW_TOOLTIPS_HEADER"] = [=[Notas de miticas+ y bandas
+]=]
+L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = "Dónde mostrar Mythic+ y progreso de la incursión"
+L["CONFIRM"] = "Confirmar"
+L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar la URL de Raider.IO"
+L["COPY_RAIDERIO_URL"] = "Copiar la URL de Raider.IO"
+L["CURRENT_MAINS_SCORE"] = "Puntuación actual de M+ del Personaje Principal"
+L["CURRENT_SCORE"] = [=[Actual puntuación M+
+]=]
+L["DISABLE_DEBUG_MODE_RELOAD"] = "Estás desactivando el modo Debug. Al hacer clic en Confirmar se cargará de nuevo su interfaz."
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "Puntuación de DPS"
 L["DUNGEON_SHORT_NAME_AD"] = "Atal'Dazar"
@@ -52,21 +54,21 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Arboleda"
 L["DUNGEON_SHORT_NAME_EOA"] = "Ojo"
 L["DUNGEON_SHORT_NAME_FH"] = "Fuerte Libre"
 L["DUNGEON_SHORT_NAME_HOV"] = "Valor"
-L["DUNGEON_SHORT_NAME_KR"] = "Reposo"
+L["DUNGEON_SHORT_NAME_KR"] = "Reposo "
 L["DUNGEON_SHORT_NAME_LOWR"] = "Kara-I"
 L["DUNGEON_SHORT_NAME_ML"] = "Veta Madre"
 L["DUNGEON_SHORT_NAME_MOS"] = "Fauce"
 L["DUNGEON_SHORT_NAME_NL"] = "Guarida"
 L["DUNGEON_SHORT_NAME_SEAT"] = "Trono"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Asedio"
-L["DUNGEON_SHORT_NAME_SOTS"] = "Altar"
+L["DUNGEON_SHORT_NAME_SOTS"] = "Altar "
 L["DUNGEON_SHORT_NAME_TD"] = "Tol Dagor"
 L["DUNGEON_SHORT_NAME_TM"] = "Veta Madre"
-L["DUNGEON_SHORT_NAME_TOS"] = "Templo"
+L["DUNGEON_SHORT_NAME_TOS"] = "Templo "
 L["DUNGEON_SHORT_NAME_UNDR"] = "Catacumbas"
 L["DUNGEON_SHORT_NAME_UPPR"] = "Kara-S"
 L["DUNGEON_SHORT_NAME_VOTW"] = "Celadoras"
-L["DUNGEON_SHORT_NAME_WM"] = "Mansión"
+L["DUNGEON_SHORT_NAME_WM"] = "Mansión "
 L["ENABLE_AUTO_FRAME_POSITION"] = "Posicionar automáticamente el marco de perfil de RaiderIO"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "Fija la ventana emergente de perfil de M+ junto al marco del buscador de grupos o la ventana emergente de jugador."
 --[[Translation missing --]]

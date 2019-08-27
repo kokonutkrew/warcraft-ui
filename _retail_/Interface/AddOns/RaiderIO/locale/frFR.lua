@@ -143,22 +143,14 @@ L["RAID_BOSS_BOD_6"] = "Roi Rastakhan"
 L["RAID_BOSS_BOD_7"] = "Grand Bricoleur Mekkanivelle"
 L["RAID_BOSS_BOD_8"] = "Rempart tempétueux"
 L["RAID_BOSS_BOD_9"] = "Dame Jaina Portvaillant"
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_8"] = ""--]] 
+L["RAID_BOSS_EP_1"] = "Commandant abyssal Sivara"
+L["RAID_BOSS_EP_2"] = "Béhémoth des flots noirs"
+L["RAID_BOSS_EP_3"] = "Radiance d'Azshara"
+L["RAID_BOSS_EP_4"] = "Dame Corsandre"
+L["RAID_BOSS_EP_5"] = "Orgozoa"
+L["RAID_BOSS_EP_6"] = "Cour de la reine"
+L["RAID_BOSS_EP_7"] = "Za'qul"
+L["RAID_BOSS_EP_8"] = "Reine Azshara"
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "DAME"
 L["RAID_BOSS_ULD_3"] = "Dévoreur Fétide"

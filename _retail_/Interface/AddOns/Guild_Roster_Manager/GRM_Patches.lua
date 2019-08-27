@@ -362,6 +362,17 @@ GRM_Patch.SettingsCheck = function ( numericV )
         GRM_Patch.ModifyNewDefaultSetting ( 48 , { "" , "" } );
     end
 
+    if numericV < 1.67 then
+        GRM_Patch.ExpandOptionsType ( 3 , 1 , 73 );                             -- for keeping the setpoints of GRM window...
+        GRM_Patch.ModifyNewDefaultSetting ( 74 , { "" , "" , 0 , 0 } );         -- Center position default
+        GRM_Patch.ExpandOptionsType ( 3 , 1 , 74 );                             -- Adding slots 75 for storing the names and rules for kick/promote/demote tool
+        GRM_Patch.AddPlayerMetaDataSlot ( 44 , false );                         -- Rule if player rules should be ignored.
+        GRM_Patch.ModifyNewDefaultSetting ( 10 , true );                        -- Needs to be done before the conversion because I WANT players to use this feature
+        GRM_Patch.ConvertRecommendedKickDateToRule ( 75 );                      -- Converts the old month date to the new feature
+        GRM_Patch.ExpandOptionsType ( 3 , 1 , 75 );                             -- Adding slot 76 for the GRM tool safe list to only show players where actions were ignored
+        
+    end
+
 end
 
         -------------------------------
@@ -2452,7 +2463,7 @@ GRM_Patch.SortGuildRosterDeepArray = function()
 end
 
 -- 1.50
--- Method:          GRM_Patch.PlayerMetaDataDatabaseWideEdit ( function , bool , bool )
+-- Method:          GRM_Patch.PlayerMetaDataDatabaseWideEdit ( function , bool , bool , bool )
 -- What it Does:    Implements the function logic argument on all metadata profiles of all character profiles database wide: in-guild, previously in-guild, and all backup data indexes
 -- Purpose:         Patch code bloat getting large. Streamline the process of writing patches a bit and allow me to condense previous changes as well without risk of inconsistent
 GRM_Patch.PlayerMetaDataDatabaseWideEdit = function ( databaseChangeFunction , editCurrentPlayers , editLeftPlayers , includeAllGuildData )
@@ -2926,6 +2937,40 @@ GRM_Patch.PlayerSettingsIntegrityCheck = function()
         end
     end
     return needsToKeep;
+end
+
+-- Method:          GRM_Patch.ConvertRecommendedKickDateToRule ( int )
+-- What it Does:    It converts the old setting to the new format.
+-- Purpose:         Integration into the GRM tool.
+GRM_Patch.ConvertRecommendedKickDateToRule = function( index )
+    for i = 1 , #GRM_AddonSettings_Save do
+        for j = #GRM_AddonSettings_Save[i] , 2 , -1 do
+            if GRM_AddonSettings_Save[i][j][2] ~= nil and GRM_AddonSettings_Save[i][j][2][index] ~= nil then
+
+                GRM_AddonSettings_Save[i][j][2][index] = { { 1 , 1 , 1 , GRM_AddonSettings_Save[i][j][2][9] , GRM_AddonSettings_Save[i][j][2][10] } };
+
+            else
+                table.remove ( GRM_AddonSettings_Save[i] , j );
+
+                -- Double check if it is current player still is found
+                local isFound = false;
+                for k = 2 , #GRM_AddonSettings_Save[GRM_G.FID] do
+                    if GRM_AddonSettings_Save[GRM_G.FID][k][1] == GRM_G.addonPlayerName then
+                        isFound = true;
+                        break;
+                    end
+                end
+                if not isFound then -- Edge case scenario of addon settings being lost thus are replaced with defaults.
+                    table.insert ( GRM_AddonSettings_Save[GRM_G.FID] , { GRM_G.addonPlayerName } );
+                    GRM_G.setPID = #GRM_AddonSettings_Save[GRM_G.FID];
+                    table.insert ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID] , GRM.GetDefaultAddonSettings() );
+                    GRM_G.IsNewToon = true;
+                    -- Forcing core log window/options frame to load on the first load ever as well
+                    GRM_G.ChangesFoundOnLoad = true;
+                end
+            end
+        end
+    end
 end
 
 -- /run local c=GRM_PlayersThatLeftHistory_Save;for i=1,#c do print(c[i][1]);for k = 2, #c[i] do print("Guild: "..c[i][k][1][1]);for j=2,#c[i][k] do if c[i][k][j][23][6] == nil then print(j);end;end;end;end

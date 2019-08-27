@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 414,
 	["lastSanitation"] = 3,
+	["session"] = 415,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\StaticPopup.lua:4460: bad argument #2 to 'SetFormattedText' (string expected, got nil)",
@@ -20,14 +20,14 @@ BugGrabberDB = {
 		}, -- [2]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Holy.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 348,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 6,
 		}, -- [3]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Shadow.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 348,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 5,
 		}, -- [4]
 		{
@@ -132,8 +132,8 @@ BugGrabberDB = {
 		}, -- [17]
 		{
 			["message"] = "Error loading Interface\\AddOns\\PVPSound_CustomSoundPack\\PVPSound_SoundLengthsCustom.lua",
-			["session"] = 383,
 			["time"] = "2019/08/19 00:48:20",
+			["session"] = 383,
 			["counter"] = 33,
 		}, -- [18]
 		{
@@ -161,8 +161,8 @@ BugGrabberDB = {
 		}, -- [21]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Monk\\Mistweaver.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 391,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 7,
 		}, -- [22]
 		{
@@ -206,38 +206,38 @@ BugGrabberDB = {
 		}, -- [27]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Frost.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 39,
 		}, -- [28]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Unholy.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 39,
 		}, -- [29]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Marksmanship.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 39,
 		}, -- [30]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Survival.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 38,
 		}, -- [31]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Fire.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 35,
 		}, -- [32]
 		{
 			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Frost.lua",
-			["time"] = "2019/01/30 09:12:39",
 			["session"] = 404,
+			["time"] = "2019/01/30 09:12:39",
 			["counter"] = 22,
 		}, -- [33]
 		{
@@ -250,8 +250,8 @@ BugGrabberDB = {
 		}, -- [34]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\GSE\\Lib\\LibDBIcon-1.0-43\\lib.xml",
-			["session"] = 405,
 			["time"] = "2019/08/09 16:08:19",
+			["session"] = 405,
 			["counter"] = 117,
 		}, -- [35]
 		{
@@ -264,14 +264,14 @@ BugGrabberDB = {
 		}, -- [36]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\XPBarClassic.lua",
-			["time"] = "2019/08/20 20:54:50",
 			["session"] = 406,
+			["time"] = "2019/08/20 20:54:50",
 			["counter"] = 3,
 		}, -- [37]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\Options\\XPBarClassic.lua",
-			["time"] = "2019/08/20 20:54:50",
 			["session"] = 406,
+			["time"] = "2019/08/20 20:54:50",
 			["counter"] = 3,
 		}, -- [38]
 		{

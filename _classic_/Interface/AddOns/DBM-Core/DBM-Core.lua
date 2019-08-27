@@ -68,9 +68,9 @@ local function showRealDate(curseDate)
 end
 
 DBM = {
-	Revision = parseCurseDate("@project-date-integer@"),
-	DisplayVersion = "1.13.0", -- the string that is shown as version
-	ReleaseRevision = releaseDate(2019, 8, 8) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	Revision = parseCurseDate("20190827054906"),
+	DisplayVersion = "1.13.3 alpha", -- the string that is shown as version
+	ReleaseRevision = releaseDate(2019, 8, 24) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 }
 DBM.HighestRelease = DBM.ReleaseRevision --Updated if newer version is detected, used by update nags to reflect critical fixes user is missing on boss pulls
 
@@ -155,7 +155,6 @@ DBM.DefaultOptions = {
 	ShowEngageMessage = true,
 	ShowDefeatMessage = true,
 	ShowGuildMessages = true,
-	ShowGuildMessagesPlus = false,
 	AutoRespond = true,
 	StatusEnabled = true,
 	WhisperStats = false,
@@ -681,19 +680,55 @@ do
 	end
 
 	function argsMT.__index:IsSrcTypePlayer()
-		return bband(args.sourceFlags, COMBATLOG_OBJECT_TYPE_PLAYER) ~= 0
+		--If blizzard ever removes sourceFlags, this will automatically switch to fallback
+		if args.sourceFlags and COMBATLOG_OBJECT_TYPE_PLAYER then
+			return bband(args.sourceFlags, COMBATLOG_OBJECT_TYPE_PLAYER) ~= 0
+		else
+			if raid[args.sourceName] then--Unit in group, friendly
+				return true
+			else
+				return false
+			end
+		end
 	end
 
 	function argsMT.__index:IsDestTypePlayer()
-		return bband(args.destFlags, COMBATLOG_OBJECT_TYPE_PLAYER) ~= 0
+		--If blizzard ever removes destFlags, this will automatically switch to fallback
+		if args.destFlags and COMBATLOG_OBJECT_TYPE_PLAYER then
+			return bband(args.destFlags, COMBATLOG_OBJECT_TYPE_PLAYER) ~= 0
+		else
+			if raid[args.destName] then--Unit in group, friendly
+				return true
+			else
+				return false
+			end
+		end
 	end
 
 	function argsMT.__index:IsSrcTypeHostile()
-		return bband(args.sourceFlags, COMBATLOG_OBJECT_REACTION_HOSTILE) ~= 0
+		--If blizzard ever removes sourceFlags, this will automatically switch to fallback
+		if args.sourceFlags and COMBATLOG_OBJECT_REACTION_HOSTILE then
+			return bband(args.sourceFlags, COMBATLOG_OBJECT_REACTION_HOSTILE) ~= 0
+		else
+			if raid[args.sourceName] then--Unit in group, friendly
+				return false
+			else
+				return true
+			end
+		end
 	end
 
 	function argsMT.__index:IsDestTypeHostile()
-		return bband(args.destFlags, COMBATLOG_OBJECT_REACTION_HOSTILE) ~= 0
+		--If blizzard ever removes destFlags, this will automatically switch to fallback
+		if args.destFlags and COMBATLOG_OBJECT_REACTION_HOSTILE then
+			return bband(args.destFlags, COMBATLOG_OBJECT_REACTION_HOSTILE) ~= 0
+		else
+			if raid[args.destName] then--Unit in group, friendly
+				return false
+			else
+				return true
+			end
+		end
 	end
 
 	function argsMT.__index:GetSrcCreatureID()
@@ -783,23 +818,36 @@ do
 				DBM:AddMsg("DBM RegisterEvents Error: "..spellId.." is not a number!")
 				return
 			end
-			if spellId and not DBM:GetSpellInfo(spellId) then
+			local spellName = DBM:GetSpellInfo(spellId)
+			if spellId and not spellName then
 				DBM:Debug("DBM RegisterEvents Error: "..spellId.." spell id does not exist!")
 				return
 			end
 			if not registeredSpellIds[event] then
 				registeredSpellIds[event] = {}
 			end
-			registeredSpellIds[event][spellId] = (registeredSpellIds[event][spellId] or 0) + 1
+
+			--registeredSpellIds[event][spellId] = (registeredSpellIds[event][spellId] or 0) + 1--BC+ can use spellIDs
+			if not registeredSpellIds[event][spellName] then--Don't register duplicate spell Names
+				registeredSpellIds[event][spellName] = (registeredSpellIds[event][spellName] or 0) + 1--But classic needs spellNames
+			end
 		end
 
 		function unregisterSpellId(event, spellId)
 			if not registeredSpellIds[event] then return end
+			local spellName = DBM:GetSpellInfo(spellId)
+			local refs = (registeredSpellIds[event][spellName] or 1) - 1
+			registeredSpellIds[event][spellName] = refs
+			if refs <= 0 then
+				registeredSpellIds[event][spellName] = nil
+			end
+			--[[
 			local refs = (registeredSpellIds[event][spellId] or 1) - 1
 			registeredSpellIds[event][spellId] = refs
 			if refs <= 0 then
 				registeredSpellIds[event][spellId] = nil
 			end
+			--]]
 		end
 
 		--There are 2 tables. unfilteredCLEUEvents and registeredSpellIds table.
@@ -1053,7 +1101,8 @@ do
 		if not registeredEvents[event] then return end
 		local eventSub6 = event:sub(0, 6)
 		if (eventSub6 == "SPELL_" or eventSub6 == "RANGE_") and not unfilteredCLEUEvents[event] and registeredSpellIds[event] then
-			if not registeredSpellIds[event][extraArg1] then return end
+			--if not registeredSpellIds[event][extraArg1] then return end--SpellId filter for BC+
+			if not registeredSpellIds[event][extraArg2] then return end--SpellName filter for Classic
 		end
 		-- process some high volume events without building the whole table which is somewhat faster
 		-- this prevents work-around with mods that used to have their own event handler to prevent this overhead
@@ -1195,7 +1244,7 @@ do
 			end
 			onLoadCallbacks = nil
 			loadOptions(self)
-			if wowTOC >= 20000 then
+			if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
 				self:Disable(true)
 				C_TimerAfter(15, function() AddMsg(self, DBM_CORE_CLASSIC_ONLY) end)
 				return
@@ -3597,54 +3646,59 @@ do
 		self:UpdateSpecialWarningOptions()
 		self.Options.CoreSavedRevision = self.Revision
 		--Migrate user sound options to soundkit Ids if selected media doesn't exist in Interface\\AddOns
-		--This will in the short term, screw with people trying to use LibSharedMedia sound files on 8.1.5 until LSM has migrated as well.
-		if (testBuild or wowTOC >= 80200) then
-			local migrated = false
-			if type(self.Options.RaidWarningSound) == "string" and self.Options.RaidWarningSound ~= "" then
-				local searchMsg = self.Options.RaidWarningSound:lower()
-				if not searchMsg:find("addons") then
-					self.Options.RaidWarningSound = self.DefaultOptions.RaidWarningSound
-					migrated = true
-				end
+		local migrated = false
+		if type(self.Options.RaidWarningSound) == "string" and self.Options.RaidWarningSound ~= "" then
+			local searchMsg = self.Options.RaidWarningSound:lower()
+			if not searchMsg:find("addons") then
+				self.Options.RaidWarningSound = self.DefaultOptions.RaidWarningSound
+				migrated = true
 			end
-			if type(self.Options.SpecialWarningSound) == "string" and self.Options.SpecialWarningSound ~= "" then
-				local searchMsg = self.Options.SpecialWarningSound:lower()
-				if not searchMsg:find("addons") then
-					self.Options.SpecialWarningSound = self.DefaultOptions.SpecialWarningSound
-					migrated = true
-				end
+		elseif self.Options.RaidWarningSound == 11742 then--Retail Soundkit ID, user copied wtf from retail to classic, so we need to fix their default sound
+			self.Options.RaidWarningSound = self.DefaultOptions.RaidWarningSound
+		end
+		if type(self.Options.SpecialWarningSound) == "string" and self.Options.SpecialWarningSound ~= "" then
+			local searchMsg = self.Options.SpecialWarningSound:lower()
+			if not searchMsg:find("addons") then
+				self.Options.SpecialWarningSound = self.DefaultOptions.SpecialWarningSound
+				migrated = true
 			end
-			if type(self.Options.SpecialWarningSound2) == "string" and self.Options.SpecialWarningSound2 ~= "" then
-				local searchMsg = self.Options.SpecialWarningSound2:lower()
-				if not searchMsg:find("addons") then
-					self.Options.SpecialWarningSound2 = self.DefaultOptions.SpecialWarningSound2
-					migrated = true
-				end
+		end
+		if type(self.Options.SpecialWarningSound2) == "string" and self.Options.SpecialWarningSound2 ~= "" then
+			local searchMsg = self.Options.SpecialWarningSound2:lower()
+			if not searchMsg:find("addons") then
+				self.Options.SpecialWarningSound2 = self.DefaultOptions.SpecialWarningSound2
+				migrated = true
 			end
-			if type(self.Options.SpecialWarningSound3) == "string" and self.Options.SpecialWarningSound3 ~= "" then
-				local searchMsg = self.Options.SpecialWarningSound3:lower()
-				if not searchMsg:find("addons") then
-					self.Options.SpecialWarningSound3 = self.DefaultOptions.SpecialWarningSound3
-					migrated = true
-				end
+		elseif self.Options.SpecialWarningSound2 == 15391 then--Retail Soundkit ID, user copied wtf from retail to classic, so we need to fix their default sound
+			self.Options.SpecialWarningSound2 = self.DefaultOptions.SpecialWarningSound2
+		end
+		if type(self.Options.SpecialWarningSound3) == "string" and self.Options.SpecialWarningSound3 ~= "" then
+			local searchMsg = self.Options.SpecialWarningSound3:lower()
+			if not searchMsg:find("addons") then
+				self.Options.SpecialWarningSound3 = self.DefaultOptions.SpecialWarningSound3
+				migrated = true
 			end
-			if type(self.Options.SpecialWarningSound4) == "string" and self.Options.SpecialWarningSound4 ~= "" then
-				local searchMsg = self.Options.SpecialWarningSound4:lower()
-				if not searchMsg:find("addons") then
-					self.Options.SpecialWarningSound4 = self.DefaultOptions.SpecialWarningSound4
-					migrated = true
-				end
+		end
+		if type(self.Options.SpecialWarningSound4) == "string" and self.Options.SpecialWarningSound4 ~= "" then
+			local searchMsg = self.Options.SpecialWarningSound4:lower()
+			if not searchMsg:find("addons") then
+				self.Options.SpecialWarningSound4 = self.DefaultOptions.SpecialWarningSound4
+				migrated = true
 			end
-			if type(self.Options.SpecialWarningSound5) == "string" and self.Options.SpecialWarningSound5 ~= "" then
-				local searchMsg = self.Options.SpecialWarningSound5:lower()
-				if not searchMsg:find("addons") then
-					self.Options.SpecialWarningSound5 = self.DefaultOptions.SpecialWarningSound5
-					migrated = true
-				end
+		elseif self.Options.SpecialWarningSound4 == 9278 then--Retail Soundkit ID, user copied wtf from retail to classic, so we need to fix their default sound
+			self.Options.SpecialWarningSound4 = self.DefaultOptions.SpecialWarningSound4
+		end
+		if type(self.Options.SpecialWarningSound5) == "string" and self.Options.SpecialWarningSound5 ~= "" then
+			local searchMsg = self.Options.SpecialWarningSound5:lower()
+			if not searchMsg:find("addons") then
+				self.Options.SpecialWarningSound5 = self.DefaultOptions.SpecialWarningSound5
+				migrated = true
 			end
-			if migrated then
-				self:AddMsg(DBM_CORE_SOUNDKIT_MIGRATION)
-			end
+		elseif self.Options.SpecialWarningSound5 == 128466 then--Retail Soundkit ID, user copied wtf from retail to classic, so we need to fix their default sound
+			self.Options.SpecialWarningSound5 = self.DefaultOptions.SpecialWarningSound5
+		end
+		if migrated then
+			self:AddMsg(DBM_CORE_SOUNDKIT_MIGRATION)
 		end
 	end
 end
@@ -3940,24 +3994,26 @@ do
 			loadModByUnit(uId)
 		end
 		--Debug options for seeing where BossUnitTargetScanner can be used.
-		if (self.Options.DebugLevel > 2 or (Transcriptor and Transcriptor:IsLogging())) and (uId == "boss1" or uId == "boss2" or uId == "boss3" or uId == "boss4" or uId == "boss5") then
-			local targetName = uId == "boss1" and UnitName("boss1target") or uId == "boss2" and UnitName("boss2target") or uId == "boss3" and UnitName("boss3target") or uId == "boss4" and UnitName("boss4target") or uId == "boss5" and UnitName("boss5target") or "nil"
+		if (self.Options.DebugLevel > 2 or (Transcriptor and Transcriptor:IsLogging())) and uId:find("boss") then
+			local targetName = UnitName(uId.."target") or "nil"
 			self:Debug(uId.." changed targets to "..targetName)
 		end
 		--Active BossUnitTargetScanner
-		if targetMonitor[uId] and targetMonitorFilter[uId] and UnitExists(uId.."target") and UnitPlayerOrPetInRaid(uId.."target") then
-			self:Debug("targetMonitor exists, target exists", 2)
-			local modId, unitId, returnFunc = string.split("\t", targetMonitor[uId])
-			self:Debug("targetMonitor: "..modId..", "..unitId..", "..returnFunc, 2)
-			if UnitIsUnit(targetMonitorFilter[uId], unitId.."target") then
-				self:Debug("targetMonitor ending, it's targetMonitorFilter", 2)
-				return
-			end--It's a tank/highest threat, this method ignores tanks
+		if targetMonitor[uId] and UnitExists(uId.."target") and UnitPlayerOrPetInRaid(uId.."target") then
+			self:Debug("targetMonitor for this unit exists, target exists", 2)
+			local modId, returnFunc = targetMonitor[uId].modid, targetMonitor[uId].returnFunc
+			self:Debug("targetMonitor: "..modId..", "..uId..", "..returnFunc, 2)
+			if not targetMonitor[uId].allowTank then
+				local tanking, status = UnitDetailedThreatSituation(uId, uId.."target")--Tanking may return 0 if npc is temporarily looking at an NPC (IE fracture) but status will still be 3 on true tank
+				if tanking or (status == 3) then
+					self:Debug("targetMonitor ending for unit without 'allowTank', ignoring target", 2)
+					return
+				end
+			end
 			local mod = self:GetModByName(modId)
-			self:Debug("targetMonitor success, a valid target that's not a tank", 2)
-			mod[returnFunc](mod, self:GetUnitFullName(unitId.."target"), unitId.."target", unitId)--Return results to warning function with all variables.
+			self:Debug("targetMonitor success for this unit, a valid target for returnFunc", 2)
+			mod[returnFunc](mod, self:GetUnitFullName(uId.."target"), uId.."target", uId)--Return results to warning function with all variables.
 			targetMonitor[uId] = nil
-			targetMonitorFilter[uId] = nil
 		end
 	end
 end
@@ -4121,8 +4177,8 @@ do
 	local dummyMod -- dummy mod for the pull timer
 	syncHandlers["PT"] = function(sender, timer, lastMapID, target)
 		if DBM.Options.DontShowUserTimers then return end
-		local LFGTankException = IsPartyLFG() and UnitGroupRolesAssigned(sender) == "TANK"
-		if (DBM:GetRaidRank(sender) == 0 and IsInGroup() and not LFGTankException) or select(2, IsInInstance()) == "pvp" or IsEncounterInProgress() then
+		--local LFGTankException = IsPartyLFG() and UnitGroupRolesAssigned(sender) == "TANK"
+		if (DBM:GetRaidRank(sender) == 0 and IsInGroup()) or select(2, IsInInstance()) == "pvp" or IsEncounterInProgress() then
 			return
 		end
 		if (lastMapID and tonumber(lastMapID) ~= LastInstanceMapID) or (not lastMapID and DBM.Options.DontShowPTNoID) then return end
@@ -4540,19 +4596,8 @@ do
 			if DBM:AntiSpam(10, "GCB") then
 				if IsInInstance() then return end--Simple filter, if you are inside an instance, just filter it, if not in instance, good to go.
 				difficulty = tonumber(difficulty)
-				if not DBM.Options.ShowGuildMessagesPlus and difficulty == 8 then return end
 				local bossName = EJ_GetEncounterInfo and EJ_GetEncounterInfo(modId) or name or DBM_CORE_UNKNOWN
-				local difficultyName = DBM_CORE_UNKNOWN
-				if difficulty == 8 then
-					difficultyName = PLAYER_DIFFICULTY6.."+"
-				elseif difficulty == 16 then
-					difficultyName = PLAYER_DIFFICULTY6
-				elseif difficulty == 15 then
-					difficultyName = PLAYER_DIFFICULTY2
-				else
-					difficultyName = PLAYER_DIFFICULTY1
-				end
-				DBM:AddMsg(DBM_CORE_GUILD_COMBAT_STARTED:format(difficultyName.."-"..bossName))
+				DBM:AddMsg(DBM_CORE_GUILD_COMBAT_STARTED:format(bossName))
 			end
 		end
 
@@ -4562,22 +4607,11 @@ do
 			if DBM:AntiSpam(5, "GCE") then
 				if IsInInstance() then return end--Simple filter, if you are inside an instance, just filter it, if not in instance, good to go.
 				difficulty = tonumber(difficulty)
-				if not DBM.Options.ShowGuildMessagesPlus and difficulty == 8 then return end
 				local bossName = EJ_GetEncounterInfo and EJ_GetEncounterInfo(modId) or name or DBM_CORE_UNKNOWN
-				local difficultyName = DBM_CORE_UNKNOWN
-				if difficulty == 8 then
-					difficultyName = PLAYER_DIFFICULTY6.."+"
-				elseif difficulty == 16 then
-					difficultyName = PLAYER_DIFFICULTY6
-				elseif difficulty == 15 then
-					difficultyName = PLAYER_DIFFICULTY2
-				else
-					difficultyName = PLAYER_DIFFICULTY1
-				end
 				if wipe == "1" then
-					DBM:AddMsg(DBM_CORE_GUILD_COMBAT_ENDED_AT:format(difficultyName.."-"..bossName, wipeHP, time))
+					DBM:AddMsg(DBM_CORE_GUILD_COMBAT_ENDED_AT:format(bossName, wipeHP, time))
 				else
-					DBM:AddMsg(DBM_CORE_GUILD_BOSS_DOWN:format(difficultyName.."-"..bossName, time))
+					DBM:AddMsg(DBM_CORE_GUILD_BOSS_DOWN:format(bossName, time))
 				end
 			end
 		end
@@ -5742,7 +5776,7 @@ do
 						self:AddMsg(DBM_CORE_COMBAT_STARTED_IN_PROGRESS:format(difficultyText..name))
 					else
 						self:AddMsg(DBM_CORE_COMBAT_STARTED:format(difficultyText..name))
-						if (difficultyIndex == 8 or difficultyIndex == 14 or difficultyIndex == 15 or difficultyIndex == 16) and InGuildParty() and not statusGuildDisabled and not self.Options.DisableGuildStatus then--Only send relevant content, not guild beating down lich king or LFR.
+						if (DBM:GetNumRealPlayersInZone() >= 20) and not statusGuildDisabled and not self.Options.DisableGuildStatus then--Only send relevant content, ie raids
 							SendAddonMessage("D4C", "GCB\t"..modId.."\t2\t"..difficultyIndex.."\t"..name, "GUILD")
 						end
 					end
@@ -5910,7 +5944,7 @@ do
 				else
 					if self.Options.ShowDefeatMessage then
 						self:AddMsg(DBM_CORE_COMBAT_ENDED_AT_LONG:format(difficultyText..name, wipeHP, strFromTime(thisTime), totalPulls - totalKills))
-						if (difficultyIndex == 8 or difficultyIndex == 14 or difficultyIndex == 15 or difficultyIndex == 16) and InGuildParty() and not statusGuildDisabled and not self.Options.DisableGuildStatus then--Maybe add mythic plus/CM?
+						if (DBM:GetNumRealPlayersInZone() >= 20) and not statusGuildDisabled and not self.Options.DisableGuildStatus then
 							SendAddonMessage("D4C", "GCE\t"..modId.."\t5\t1\t"..strFromTime(thisTime).."\t"..difficultyIndex.."\t"..name.."\t"..wipeHP, "GUILD")
 						end
 					end
@@ -5966,17 +6000,17 @@ do
 						msg = DBM_CORE_BOSS_DOWN_I:format(difficultyText..name, totalKills)
 					elseif not lastTime then
 						msg = DBM_CORE_BOSS_DOWN:format(difficultyText..name, strFromTime(thisTime))
-						if (difficultyIndex == 8 or difficultyIndex == 14 or difficultyIndex == 15 or difficultyIndex == 16) and InGuildParty() and not statusGuildDisabled and not self.Options.DisableGuildStatus then
+						if (DBM:GetNumRealPlayersInZone() >= 20) and not statusGuildDisabled and not self.Options.DisableGuildStatus then
 							SendAddonMessage("D4C", "GCE\t"..modId.."\t5\t0\t"..strFromTime(thisTime).."\t"..difficultyIndex.."\t"..name, "GUILD")
 						end
 					elseif thisTime < (bestTime or mhuge) then
 						msg = DBM_CORE_BOSS_DOWN_NR:format(difficultyText..name, strFromTime(thisTime), strFromTime(bestTime), totalKills)
-						if (difficultyIndex == 8 or difficultyIndex == 14 or difficultyIndex == 15 or difficultyIndex == 16) and InGuildParty() and not statusGuildDisabled and not self.Options.DisableGuildStatus then
+						if (DBM:GetNumRealPlayersInZone() >= 20) and not statusGuildDisabled and not self.Options.DisableGuildStatus then
 							SendAddonMessage("D4C", "GCE\t"..modId.."\t5\t0\t"..strFromTime(thisTime).."\t"..difficultyIndex.."\t"..name, "GUILD")
 						end
 					else
 						msg = DBM_CORE_BOSS_DOWN_L:format(difficultyText..name, strFromTime(thisTime), strFromTime(lastTime), strFromTime(bestTime), totalKills)
-						if (difficultyIndex == 8 or difficultyIndex == 14 or difficultyIndex == 15 or difficultyIndex == 16) and InGuildParty() and not statusGuildDisabled and not self.Options.DisableGuildStatus then
+						if (DBM:GetNumRealPlayersInZone() >= 20) and not statusGuildDisabled and not self.Options.DisableGuildStatus then
 							SendAddonMessage("D4C", "GCE\t"..modId.."\t5\t0\t"..strFromTime(thisTime).."\t"..difficultyIndex.."\t"..name, "GUILD")
 						end
 					end
@@ -7429,28 +7463,31 @@ do
 	end
 
 	function bossModPrototype:BossUnitTargetScannerAbort(uId)
-		if uId then
-			targetMonitor[uId] = nil
-			targetMonitorFilter[uId] = nil
-		else--Legacy mod, just wipe entire table
-			twipe(targetMonitor)
-			twipe(targetMonitorFilter)
+		if not uId then--Not called with unit, means mod requested to clear all used units
+			DBM:Debug("BossUnitTargetScannerAbort called without unit, clearing all targetMonitor units", 2)
+			table.wipe(targetMonitor)
+			return
 		end
-		DBM:Debug("Boss unit target scan should be aborting.", 3)
+		if targetMonitor[uId] and targetMonitor[uId].allowTank and UnitExists(uId.."target") and UnitPlayerOrPetInRaid(uId.."target") then
+			self:Debug("targetMonitor unit exists, allowTank target exists", 2)
+			local modId, returnFunc = targetMonitor[uId].modid, targetMonitor[uId].returnFunc
+			self:Debug("targetMonitor: "..modId..", "..uId..", "..returnFunc, 2)
+			local mod = self:GetModByName(modId)
+			self:Debug("targetMonitor found a target that probably is a tank", 2)
+			mod[returnFunc](mod, self:GetUnitFullName(uId.."target"), uId.."target", uId)--Return results to warning function with all variables.
+		end
+		targetMonitor[uId] = nil
+		DBM:Debug("Boss unit target scan should be aborting for "..uId, 3)
 	end
 
-	function bossModPrototype:BossUnitTargetScanner(unitId, returnFunc, scanTime, filteredUnitID)
-		--UNIT_TARGET technique was originally used by DXE on heroic lich king back in wrath to give most accurate defile/shadow trap warnings. Recently bigwigs started using it.
-		--This is fastest and most accurate method for getting the target and probably should be used where it does work 100% of time.
-		--This method fails if boss is already looking at correct target!! This method needs to monitor a target change so it must start before that target change
-		--In most cases, using BossTargetScanner is probably still better, especially if boss is expected to look at target before or immediately on cast start
-		--Limited to only one unitTarget scanner at a time. TODO, maybe make targetMonitor a table or something to support more than one scan at a time?
-		--This code is much prettier if it's in mod, but then it'd require copying and pasting it all the time. SO ugly code in core more convinient.
-		local modId = self.id
+	function bossModPrototype:BossUnitTargetScanner(uId, returnFunc, scanTime, allowTank)
+		--UNIT_TARGET event monitor target scanner. Will instantly detect a target change of a registered Unit
+		--If target change occurs before this method is called (or if boss doesn't change target because cast ends up actually being on the tank, target scan will fail completely
+		--If allowTank is passed, it basically tells this scanner to return current target of unitId at time of failure/abort when scanTime is complete
 		local scanDuration = scanTime or 1.5
-		targetMonitor[unitId] = modId.."\t"..unitId.."\t"..returnFunc
-		targetMonitorFilter[unitId] = filteredUnitID--Required for Classic and BC since there is no threat api to filter tanks by threat, so we hard code a unit to ignore
-		self:ScheduleMethod(scanDuration, "BossUnitTargetScannerAbort", unitId)--In case of BossUnitTargetScanner firing too late, and boss already having changed target before monitor started, it needs to abort after x seconds
+		targetMonitor[uId] = {}
+		targetMonitor[uId].modid, targetMonitor[uId].returnFunc, targetMonitor[uId].allowTank = self.id, returnFunc, allowTank
+		self:ScheduleMethod(scanDuration, "BossUnitTargetScannerAbort", uId)--In case of BossUnitTargetScanner firing too late, and boss already having changed target before monitor started, it needs to abort after x seconds
 	end
 
 	function bossModPrototype:BossTargetScanner(cidOrGuid, returnFunc, scanInterval, scanTimes, scanOnlyBoss, isEnemyScan, isFinalScan, targetFilter, tankFilter)
@@ -7898,7 +7935,7 @@ do
 			--Inspect throttle exists, so have to do it this way
 			if class == "DRUID" or class == "SHAMAN" or class == "PALADIN" then
 				local unitMaxPower = UnitPowerMax(uId)
-				if unitMaxPower < 35000 then
+				if unitMaxPower < 7500 then
 					return true
 				end
 			end
@@ -7923,7 +7960,7 @@ do
 			end
 			--Inspect throttle exists, so have to do it this way
 			if class == "DRUID" or class == "SHAMAN" or class == "PALADIN" then
-				if UnitPowerMax(uId) < 35000 then
+				if UnitPowerMax(uId) < 7500 then
 					return true
 				end
 			end
@@ -8029,8 +8066,7 @@ function bossModPrototype:UnitClass(uId)
 	return playerClass--else return "player"
 end
 
---Needs Review
-function bossModPrototype:IsTanking(unit, boss, isName, onlyRequested)
+function bossModPrototype:IsTanking(unit, boss, isName, onlyRequested, bossGUID)
 	if isName then--Passed combat log name, so pull unit ID
 		unit = DBM:GetRaidUnitId(unit)
 	end
@@ -8038,17 +8074,45 @@ function bossModPrototype:IsTanking(unit, boss, isName, onlyRequested)
 		DBM:Debug("IsTanking passed with invalid unit", 2)
 		return false
 	end
-	--Prefer threat target first
+	--Prefer main target first
 	if boss then--Only checking one bossID as requested
-		local _, targetuid = self:GetBossTarget(UnitGUID(boss), true)
-		if UnitIsUnit(unit, targetuid) then
-			return true
-		end
-	else--Check all of them if one isn't defined
-		for i = 1, 5 do
-			local _, targetuid = self:GetBossTarget(UnitGUID("boss"..i), true)
+		if UnitExists(boss) then
+			local _, targetuid = self:GetBossTarget(UnitGUID(boss), true)
 			if UnitIsUnit(unit, targetuid) then
 				return true
+			end
+		end
+	else
+		--Check all of them if one isn't defined
+		for i = 1, 5 do
+			local unitID = "boss"..i
+			if UnitExists(unitID) then
+				local _, targetuid = self:GetBossTarget(UnitGUID(unitID), true)
+				if UnitIsUnit(unit, targetuid) then
+					return true
+				end
+			end
+		end
+		--Check group targets if no boss unitIDs found, but we have a
+		if bossGUID then
+			if IsInRaid() then
+				for i = 1, GetNumGroupMembers() do
+					if UnitGUID("raid"..i.."target") == bossGUID then
+						local _, targetuid = self:GetBossTarget(bossGUID, true)
+						if UnitIsUnit("raid"..i.."target", targetuid) then
+							return true
+						end
+					end
+				end
+			elseif IsInGroup() then
+				for i = 1, GetNumSubgroupMembers() do
+					if UnitGUID("party"..i.."target") == bossGUID then
+						local _, targetuid = self:GetBossTarget(bossGUID, true)
+						if UnitIsUnit("party"..i.."target", targetuid) then
+							return true
+						end
+					end
+				end
 			end
 		end
 	end
@@ -8064,7 +8128,6 @@ function bossModPrototype:IsTanking(unit, boss, isName, onlyRequested)
 	return false
 end
 
---Needs Review
 function bossModPrototype:GetNumAliveTanks()
 	if not IsInGroup() then return 1 end--Solo raid, you're the "tank"
 	local count = 0
@@ -10050,18 +10113,24 @@ do
 			if bar then
 				local elapsed, total = (bar.totalTime - bar.timer), bar.totalTime
 				if elapsed and total then
-					if bar.countdown then
-						DBM:Unschedule(playCountSound, id)
-						if not bar.fade then--Don't start countdown voice if it's faded bar
-							local newRemaining = (total-reduceAmount) - elapsed
-							if newRemaining > 2 then
+					local newRemaining = (total-reduceAmount) - elapsed
+					if newRemaining > 0 then
+						if bar.countdown and newRemaining > 2 then
+							DBM:Unschedule(playCountSound, id)
+							if not bar.fade then--Don't start countdown voice if it's faded bar
 								playCountdown(id, newRemaining, bar.countdown, bar.countdownMax)--timerId, timer, voice, count
 								DBM:Debug("Updating a countdown after a timer RemoveTime call for timer ID:"..id)
 							end
 						end
+						fireEvent("DBM_TimerUpdate", id, elapsed, total-reduceAmount)
+						return DBM.Bars:UpdateBar(id, elapsed, total-reduceAmount)
+					else--New remaining less than 0
+						if bar.countdown then
+							DBM:Unschedule(playCountSound, id)
+						end
+						fireEvent("DBM_TimerStop", id)
+						return DBM.Bars:CancelBar(id)
 					end
-					fireEvent("DBM_TimerUpdate", id, elapsed, total-reduceAmount)
-					return DBM.Bars:UpdateBar(id, elapsed, total-reduceAmount)
 				end
 			end
 		end

@@ -67,56 +67,52 @@ HHTD_SavedVariables = {
 		["Samoanslayer - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanmystic - Tichondrius"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoansaint - Stormrage"] = {
-			["settingsMigrated"] = false,
-		},
-		["Shgrshn - Tichondrius"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoantank - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoantitan - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Kalin - Ravenholdt"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanrouge - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanrelic - Stormrage"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanlegend - Emerald Dream"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoansage - Tichondrius"] = {
-			["settingsMigrated"] = false,
-		},
-		["Samoanrelic - Tichondrius"] = {
+		["Samoanranger - Emerald Dream"] = {
 			["settingsMigrated"] = false,
 		},
 		["Kakattack - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Shgrshn - Tichondrius"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanrelic - Tichondrius"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoantitan - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanlegend - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kalin - Ravenholdt"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanrelic - Stormrage"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanrouge - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoansage - Tichondrius"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoantank - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoansaint - Stormrage"] = {
+			["settingsMigrated"] = false,
+		},
+		["Samoanmystic - Tichondrius"] = {
 			["settingsMigrated"] = false,
 		},
 		["Samoantitan - Stormrage"] = {
 			["settingsMigrated"] = false,
 		},
 	},
-	["namespaces"] = {
-		["Announcer"] = {
-		},
-		["CM"] = {
-		},
-		["NPH"] = {
-		},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
@@ -141,23 +137,27 @@ HHTD_SavedVariables = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
 	},
 }

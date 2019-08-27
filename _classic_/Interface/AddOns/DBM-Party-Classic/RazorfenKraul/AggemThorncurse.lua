@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("AggemThorncurse", "DBM-Party-Classic", 11)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("@file-date-integer@")
+mod:SetRevision("20190810210513")
 mod:SetCreatureID(4424)
 --mod:SetEncounterID(438)
 
@@ -20,9 +20,13 @@ function mod:OnCombatStart(delay)
 	timerSummonBoarCD:Start(1-delay)
 end
 
-function mod:SPELL_CAST_SUCCESS(args)
-	if args.spellId == 8286 then
-		warningSummonBoar:Show()
-		timerSummonBoarCD:Start()
+do
+	local SummonBoar = DBM:GetSpellInfo(8286)
+	function mod:SPELL_CAST_SUCCESS(args)
+		--if args.spellId == 8286 then
+		if args.spellName == SummonBoar then
+			warningSummonBoar:Show()
+			timerSummonBoarCD:Start()
+		end
 	end
 end

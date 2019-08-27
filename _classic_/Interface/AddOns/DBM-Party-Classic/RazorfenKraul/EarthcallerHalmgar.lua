@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("EarthcallerHalmgar", "DBM-Party-Classic", 11)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("@file-date-integer@")
+mod:SetRevision("20190810210513")
 mod:SetCreatureID(4842)
 --mod:SetEncounterID(438)
 
@@ -20,9 +20,13 @@ function mod:OnCombatStart(delay)
 	timerSummonEarthRumblerCD:Start(1-delay)
 end
 
-function mod:SPELL_CAST_SUCCESS(args)
-	if args.spellId == 8270 then
-		warningSummonEarthRumbler:Show()
-		timerSummonEarthRumblerCD:Start()
+do
+	local SummonEarthRumbler = DBM:GetSpellInfo(8270)
+	function mod:SPELL_CAST_SUCCESS(args)
+		--if args.spellId == 8270 then
+		if args.spellName == SummonEarthRumbler then
+			warningSummonEarthRumbler:Show()
+			timerSummonEarthRumblerCD:Start()
+		end
 	end
 end

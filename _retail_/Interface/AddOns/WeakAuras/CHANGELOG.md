@@ -1,14 +1,14 @@
-# [2.13.4](https://github.com/WeakAuras/WeakAuras2/tree/2.13.4) (2019-07-07)
+# [2.14.4](https://github.com/WeakAuras/WeakAuras2/tree/2.14.4) (2019-08-26)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.13.3...2.13.4)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.14.3...2.14.4)
 
 ## Highlights
 
- Bug fix for corrupted custom options 
+ - Fix another issue that came up 
 
 ## Commits
 
-emptyrivers (1):
+InfusOnWoW (1):
 
-- delete corrupted custom options (#1435)
+- BuffTrigger: Don't use the spellcache for creating fallback states
 

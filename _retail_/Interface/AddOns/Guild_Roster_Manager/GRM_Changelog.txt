@@ -1,3 +1,16 @@
+**VERSION 8.2R1.68 DATE: August 28th, 2019**
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed an issue in regards to people that used the original /groster - the "OnUpdate" handler of the new Tool's button was erroring out.
+
+* BUG2: Ignore recommendations unless all in the alt grouping were inactive was not filtering properly. This is now updated.
+
+* BUG3: Frames should now properly auto-update and repopulate the lists on changes to the roster, such as settings changes, or add/remove alts
+
+
 **VERSION 8.2R1.67 DATE: August 26th, 2019**
 
 *NOTE: This is NOT a compatibility update for Classic. I am planning on it. I have built a lot of backend infrastructure to help the process. But, I am pushing this out because I wanted to be done with it so I can focus on Classic!*
@@ -30,7 +43,7 @@
 **BUGS AND BUGS!**
 **--------------**
 
-* BUG1: Fixed a bug that seemed to affect a few people when trying to sync whilst in combat. Unfortunately there seems to have been a slight change on the backend server where some info is restricted when in combat. This no longer error out.
+* BUG1: Fixed a bug that seemed to affect a few people when trying to sync whilst in combat. Unfortunately there seems to have been a slight change on the backend server where some info is restricted when in combat. This no longer errors out.
 
 
 **VERSION 8.2R1.66 DATE: July 23rd, 2019**

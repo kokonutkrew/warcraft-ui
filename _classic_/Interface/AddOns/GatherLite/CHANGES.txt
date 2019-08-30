@@ -1,0 +1,10 @@
+lightweight tag c46921eed9706c2f9d8df2e100c517e6e34c994a 1.0.24-classic
+Author:	Wuild <wuildz@gmail.com>
+Date:	Thu Aug 29 02:25:36 2019 +0200
+
+commit c46921eed9706c2f9d8df2e100c517e6e34c994a
+Author: Wuild <wuildz@gmail.com>
+Date:   Thu Aug 29 02:25:36 2019 +0200
+
+    Fixed errors in instances and treasure chests
+

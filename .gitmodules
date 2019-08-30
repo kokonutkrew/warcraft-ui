@@ -18,3 +18,11 @@
 	path = "#kokonutkrew/macros"
 	url = https://S4M04NSL4Y3R@bitbucket.org/kokonoutkrew/macros.git
 	branch = master
+[submodule "_classic_/Interface/AddOns/NugRunning"]
+	path = _classic_/Interface/AddOns/NugRunning
+	url = https://github.com/rgd87/NugRunning.git
+	branch = master
+[submodule "_classic_/Interface/AddOns/HealComm"]
+	path = _classic_/Interface/AddOns/HealComm
+	url = https://github.com/Aviana/HealComm.git
+	branch = master

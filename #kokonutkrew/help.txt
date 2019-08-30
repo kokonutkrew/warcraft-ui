@@ -23,7 +23,7 @@ git submodule update --remote
 git submodule foreach 'git reset --hard'
 git submodule foreach --recursive 'git reset --hard'
 
-git submodule deinit -f?—?mymodule
+git submodule deinit -f mymodule
 rm -rf .git/modules/mymodule
 git rm -f mymodule
 

@@ -39,9 +39,9 @@ GRM_G = {};
 -- }
 
 -- Addon Details:
-GRM_G.Version = "8.2R1.67";
-GRM_G.PatchDay = 1566858669;             -- In Epoch Time
-GRM_G.PatchDayString = "1566858669";     -- 2 Versions saves on conversion computational costs... just keep one stored in memory. Extremely minor gains, but very useful if syncing thousands of pieces of data in large guilds.
+GRM_G.Version = "8.2R1.68";
+GRM_G.PatchDay = 1567022225;             -- In Epoch Time
+GRM_G.PatchDayString = "1567022225";     -- 2 Versions saves on conversion computational costs... just keep one stored in memory. Extremely minor gains, but very useful if syncing thousands of pieces of data in large guilds.
 GRM_G.Patch = "8.2";
 GRM_G.LvlCap = GetMaxPlayerLevel();
 GRM_G.ExpansionLvl = GetClientDisplayExpansionLevel();
@@ -11987,6 +11987,30 @@ GRM.IsAnyAltActive = function ( listOfAlts )
     return result;
 end
 
+-- Method:          GRM.IsAnyAltActive ( table )
+-- What it Does:    Returns true if at least one of the alts is active
+-- Purpose:         No need to announce inactive return if it is just an old alt...
+GRM.IsAnyAltActiveForRecommendKicks = function ( listOfAlts )
+    local result = false;
+    local guildData = GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ];
+
+    for i = 1 , #listOfAlts do
+        for j = 2 , #guildData do
+            if listOfAlts[i][1] == guildData[j][1] then
+                if guildData[j][24] < GRM_G.NumberOfHoursTilRecommend then
+                    result = true;
+                end
+                break;
+            end
+        end
+        if result then          -- Exit if true;
+            break;
+        end
+    end
+
+    return result;
+end
+
 -- Method           GRM.RecordChanges( int , table , table )
 -- What it does:    Builds all the changes, sorts them, then adds them to change report
 -- Purpose:         Consolidation of data for final output report.
@@ -22928,6 +22952,10 @@ Initialization:SetScript ( "OnEvent" , GRM.ActivateAddon );
     ----- BUSY work ---------------
     -------------------------------------
 
+    -- If set to unknown, then player is added to alt grouping weith birthdate set, it still says unknown.
+
+    -- Birthdays not syncing in some cases...
+
     -- GRM join date tool should have a text explaining that the addon only supports the date formats supported by the addon in the options, and they need to be at the beginning of the note.
 
     -- More flexibility with the audit window - additional column of "Last online" dates, etc... ability to place columns in certain positions
@@ -23020,7 +23048,9 @@ Initialization:SetScript ( "OnEvent" , GRM.ActivateAddon );
     -- QOL
         
     -- BUGS
-        -- 
+        -- Fixed an issue for people who use the old roster exclusively - caused a Lua error on checking the number of people Recommended for Macro Action
+        -- Ignore recommendations unless all are inactive was not functioning properly
+        -- Frames should now properly auto-update as all of the settings are adjusted.
 
 
 

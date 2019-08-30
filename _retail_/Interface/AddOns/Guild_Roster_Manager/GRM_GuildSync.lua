@@ -1,6 +1,6 @@
 -- For Sync controls!
 -- Author: Arkaan... aka "TheGenomeWhisperer"
--- Version 8.1.5R1.67
+-- Version 8.1.5R1.68
 -- To hold all Sync Methods/Functions
 GRMsync = {};
 
@@ -5222,6 +5222,10 @@ GRMsync.ReportSyncCompletion = function ( currentSyncer , finalAnnounce )
         if GRM_UI.GRM_RosterChangeLogFrame.GRM_LogFrame:IsVisible() then
             GRM_G.LogNumbersColorUpdate = true;
             GRM.BuildLogComplete( true , true );
+        end
+
+        if GRM_UI.GRM_ToolCoreFrame:IsVisible() then
+            GRM_UI.RefreshManagementTool();
         end
 
         local playerCount = GRMsyncGlobals.AddLeftPlayerCount;

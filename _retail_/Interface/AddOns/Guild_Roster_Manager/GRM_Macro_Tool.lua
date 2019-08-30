@@ -167,7 +167,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
     GRM_UI.GRM_ToolCoreFrame.IsInitialized = true;
 
     -- Only load this once...
-    if not isManual then
+    if not isManual then 
         -- Use ESC key to exit window.
         GRM_UI.GRM_ToolCoreFrame:SetScript ( "OnKeyDown" , function ( self , key )
             self:SetPropagateKeyboardInput ( true );
@@ -518,8 +518,10 @@ GRM_UI.LoadToolFrames = function ( isManual )
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolAltsOfflineTimed:SetScript ( "OnClick", function()
             if GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolAltsOfflineTimed:GetChecked() then
                 GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][60] = true;
+                GRM_UI.RefreshManagementTool();
             else
                 GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][60] = false;
+                GRM_UI.RefreshManagementTool();
             end
             GRM.SyncSettings();
         end);
@@ -947,6 +949,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
                         end
 
                         if needsRefresh then
+                            GRM.SetNumHoursToKickValue();
                             GRM_UI.RefreshManagementTool();
                             GRM.SyncSettings();
                         end
@@ -2703,12 +2706,10 @@ end
 GRM.GetNamesByFilterRules = function()
     local result = {};
     local guildData = GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ];
-    local numHoursNeedsToBeUnderToNotKick = 0;
     local tempDetails = {};
     local needsToSave = false;
     local saveControlCheck = false;
     local notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
-    local hoursFromMonthConfigured = false;
     GRM_UI.GRM_ToolCoreFrame.Safe = {};         -- Reset the list of names
 
     -- Ok, scan through every member of the guild and scan the rules.
@@ -2719,8 +2720,6 @@ GRM.GetNamesByFilterRules = function()
             -- No need to check the rules on the player if they are ranked higher than you...
             tempDetails = {};
             needsToSave = false;
-            numHoursNeedsToBeUnderToNotKick = 0;
-            hoursFromMonthConfigured = false;
             notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
         
             for j = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
@@ -2729,7 +2728,7 @@ GRM.GetNamesByFilterRules = function()
                 if CanGuildRemove() and GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] == 1 and GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][5] and not notAllKickRulesMet  then
                     saveControlCheck = false;
 
-                    needsToSave , saveControlCheck , notAllKickRulesMet , hoursFromMonthConfigured , tempDetails = GRM.GetNamesFromKickRules ( j , guildData[i] , needsToSave , saveControlCheck , notAllKickRulesMet , hoursFromMonthConfigured , tempDetails );
+                    needsToSave , saveControlCheck , notAllKickRulesMet , tempDetails = GRM.GetNamesFromKickRules ( j , guildData[i] , needsToSave , saveControlCheck , notAllKickRulesMet , tempDetails );
 
                 -- Promote Rules
                 elseif CanGuildPromote() and GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] == 2 and GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] then
@@ -2764,11 +2763,10 @@ GRM.GetNamesByFilterRules = function()
     return result;
 end
 
-
 -- Method:          GRM.GetNamesFromKickRules ( int , bool , bool , bool , array )
 -- What it Does:    Gets the names that adhere to the given rules
 -- Purpose:         UX
-GRM.GetNamesFromKickRules = function( j , player , needsToSave , saveControlCheck , hoursFromMonthConfigured , tempDetails )
+GRM.GetNamesFromKickRules = function( j , player , needsToSave , saveControlCheck , notAllKickRulesMet , tempDetails )
 
     local ind = 0;
     local isFound = false;
@@ -2800,58 +2798,58 @@ GRM.GetNamesFromKickRules = function( j , player , needsToSave , saveControlChec
 
     -- By Time
     if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] == 1 then
+           
+        if not GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][60] or ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][60] and not GRM.IsAnyAltActiveForRecommendKicks ( player[11] ) ) then
+            -- if by Month
+            if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] == 1 then
 
-        -- if by Month
-        if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] == 1 then
+                -- No need to do extra processing if not necessary.
+                if GRM_G.NumberOfHoursTilRecommend == 0 then
+                    GRM_G.NumberOfHoursTilRecommend = GRM.GetNumHoursTilRecommend ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][1][4] );
+                end
 
-            -- No need to do extra processing if not necessary.
-            if not hoursFromMonthConfigured then
-                hoursFromMonthConfigured = true;
-                numHoursNeedsToBeUnderToNotKick = GRM.GetNumHoursTilRecommend ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] );
-            end
+                -- Error protection if it returns nil, meaning the server is not providing dates at this time.
+                if GRM_G.NumberOfHoursTilRecommend == 0 then
+                    return nil;
+                end
 
-            -- Error protection if it returns nil, meaning the server is not providing dates at this time.
-            if not numHoursNeedsToBeUnderToNotKick then
-                return nil;
-            end
-
-            if player[24] >= numHoursNeedsToBeUnderToNotKick and ( ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][55] and not GRM.IsAnyAltActive ( player[11] ) ) or not GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][55] ) then
-                if not player[45] or GRM_G.playerRankID >= player[5] then      -- Ignore for scanning... but I still want a count of the ignored.
-                    needsToSave = true;
-                    saveControlCheck = true;
-                    tempDetails = { player[1] , GRM.GetClassColorRGB ( player[9] ) , "/gremove " .. name , GRM.L ( "Kick" ) , player[24] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] , false };
-                    -- { name , kickRule , ByTimeOffline , MonthCheck , MonthNumber }
-                else
-                    isFound , ind = isPlayerAlreadyInList ( player[1] );
-
-                    if not isFound then
-                        table.insert ( GRM_UI.GRM_ToolCoreFrame.Safe , { player[1] , player[5] , player[9] , GRM.L ( "Kick" ) } ); -- Player { name , rankIndex , class , action }
+                if player[24] >= GRM_G.NumberOfHoursTilRecommend then
+                    if not player[45] or GRM_G.playerRankID >= player[5] then      -- Ignore for scanning... but I still want a count of the ignored.
+                        needsToSave = true;
+                        saveControlCheck = true;
+                        tempDetails = { player[1] , GRM.GetClassColorRGB ( player[9] ) , "/gremove " .. name , GRM.L ( "Kick" ) , player[24] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] , false };
+                        -- { name , kickRule , ByTimeOffline , MonthCheck , MonthNumber }
                     else
-                        GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] = GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] .. ", " .. GRM.L ( "Kick" );
+                        isFound , ind = isPlayerAlreadyInList ( player[1] );
+
+                        if not isFound then
+                            table.insert ( GRM_UI.GRM_ToolCoreFrame.Safe , { player[1] , player[5] , player[9] , GRM.L ( "Kick" ) } ); -- Player { name , rankIndex , class , action }
+                        else
+                            GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] = GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] .. ", " .. GRM.L ( "Kick" );
+                        end
                     end
                 end
-            end
 
-            -- if by Day
-        elseif GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] == 2 then
-            if player[24] >= ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] * 24 ) and ( ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][55] and not GRM.IsAnyAltActive ( player[11] ) ) or not GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][55] ) then
-                if not player[45] or GRM_G.playerRankID >= player[5] then
-                    needsToSave = true;
-                    saveControlCheck = true;
-                    tempDetails = { player[1] , GRM.GetClassColorRGB ( player[9] ) , "/gremove " .. name , GRM.L ( "Kick" ) , player[24] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] , false };
-                    -- { name , kickRule , ByTimeOffline , DayCheck , DayNumber }
-                else
-                    isFound , ind = isPlayerAlreadyInList ( player[1] );
-
-                    if not isFound then
-                        table.insert ( GRM_UI.GRM_ToolCoreFrame.Safe , { player[1] , player[5] , player[9] , GRM.L ( "Kick" ) } ); -- Player { name , rankIndex , class , action }
+                -- if by Day
+            elseif GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] == 2 then
+                if player[24] >= GRM_G.NumberOfHoursTilRecommend then
+                    if not player[45] or GRM_G.playerRankID >= player[5] then
+                        needsToSave = true;
+                        saveControlCheck = true;
+                        tempDetails = { player[1] , GRM.GetClassColorRGB ( player[9] ) , "/gremove " .. name , GRM.L ( "Kick" ) , player[24] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][1] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][3] , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][4] , false };
+                        -- { name , kickRule , ByTimeOffline , DayCheck , DayNumber }
                     else
-                        GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] = GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] .. ", " .. GRM.L ( "Kick" );
+                        isFound , ind = isPlayerAlreadyInList ( player[1] );
+
+                        if not isFound then
+                            table.insert ( GRM_UI.GRM_ToolCoreFrame.Safe , { player[1] , player[5] , player[9] , GRM.L ( "Kick" ) } ); -- Player { name , rankIndex , class , action }
+                        else
+                            GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] = GRM_UI.GRM_ToolCoreFrame.Safe[ind][4] .. ", " .. GRM.L ( "Kick" );
+                        end
                     end
                 end
             end
         end
-
 
     -- If by Level
     elseif GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][j][2] == 2 then
@@ -2870,7 +2868,20 @@ GRM.GetNamesFromKickRules = function( j , player , needsToSave , saveControlChec
         notAllKickRulesMet = true;
     end
 
-    return needsToSave , saveControlCheck , notAllKickRulesMet , hoursFromMonthConfigured , tempDetails;
+    return needsToSave , saveControlCheck , notAllKickRulesMet , tempDetails;
+end
+
+-- Method:          GRM.SetNumHoursToKickValue()
+-- What it Does:    Resets the numberOfHours value if player changes it, on the fly
+-- Purpose:         UX
+GRM.SetNumHoursToKickValue = function()
+    -- General one-time configurations
+    if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][1][3] == 1 then
+        GRM_G.NumberOfHoursTilRecommend = GRM.GetNumHoursTilRecommend ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][1][4] );
+    -- if by day
+    elseif GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][1][3] == 2 then
+        GRM_G.NumberOfHoursTilRecommend = ( GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75][1][4] * 24 );
+    end
 end
 
 -- Method:          GRM_UI.RefreshManagementTool()

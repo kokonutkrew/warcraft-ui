@@ -1,8 +1,9 @@
 # Deadly Boss Mods Core
 
-## [1.13.2-6-g93d7fe2](https://github.com/DeadlyBossMods/DBM-Classic/tree/93d7fe2a054caaa4ab52f6b378b13b79ee62d764) (2019-08-27)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Classic/compare/1.13.2...93d7fe2a054caaa4ab52f6b378b13b79ee62d764)
+## [1.13.2-7-gb9be987](https://github.com/DeadlyBossMods/DBM-Classic/tree/b9be987a5a2f7d4989d9eee5a086ccb043f1687a) (2019-08-28)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Classic/compare/1.13.2...b9be987a5a2f7d4989d9eee5a086ccb043f1687a)
 
+- Minor creature Id fix  
 - Update README.md  
 - Merge pull request #7 from Elnarfim/master  
     KR update (classic)  

@@ -36,12 +36,9 @@ L["CANCEL"] = "Cancela"
 --[[ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["CONFIG_WHERE_TO_SHOW_TOOLTIPS"] = ""--]] 
---[[Translation missing --]]
---[[ L["CONFIRM"] = ""--]] 
---[[Translation missing --]]
---[[ L["COPY_RAIDERIO_PROFILE_URL"] = ""--]] 
---[[Translation missing --]]
---[[ L["COPY_RAIDERIO_URL"] = ""--]] 
+L["CONFIRM"] = "Confirmar"
+L["COPY_RAIDERIO_PROFILE_URL"] = "Copiar URL do Raider.IO"
+L["COPY_RAIDERIO_URL"] = "Copiar URL do Raider.IO"
 --[[Translation missing --]]
 --[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
 --[[Translation missing --]]
@@ -130,8 +127,7 @@ L["DPS_SCORE"] = "Pontos DPS"
 --[[ L["GUILD_BEST_TITLE"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["GUILD_BEST_WEEKLY"] = ""--]] 
---[[Translation missing --]]
---[[ L["HEALER"] = ""--]] 
+L["HEALER"] = "Curador"
 --[[Translation missing --]]
 --[[ L["HEALER_SCORE"] = ""--]] 
 --[[Translation missing --]]
@@ -423,8 +419,7 @@ L["OPEN_CONFIG"] = "Abrir Configuração"
 --[[ L["UNKNOWN_SERVER_FOUND"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["UNLOCKING_PROFILE_FRAME"] = ""--]] 
---[[Translation missing --]]
---[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
+L["USE_ENGLISH_ABBREVIATION"] = "Forçar Abreviações em Inglês para Masmorras"
 --[[Translation missing --]]
 --[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
 --[[Translation missing --]]

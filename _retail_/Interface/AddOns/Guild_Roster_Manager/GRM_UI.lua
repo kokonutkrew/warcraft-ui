@@ -3258,6 +3258,10 @@ GRM_UI.GR_MetaDataInitializeUIThird = function( isManualUpdate )
                             GRM.BuildAltGroupingScrollFrame();
                         end
 
+                        if GRM_UI.GRM_ToolCoreFrame:IsVisible() then
+                            GRM_UI.RefreshManagementTool();
+                        end
+
                         -- Communicate the changes!
                         if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][14] then
                             local syncRankFilter = GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][15];
@@ -3333,9 +3337,15 @@ GRM_UI.GR_MetaDataInitializeUIThird = function( isManualUpdate )
                 if GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
                     GRM.RefreshAuditFrames ( true , true );
                 end
+                
                 if GRM_UI.GRM_MemberDetailMetaData.GRM_AltGroupingScrollBorderFrame:IsVisible() then
                     GRM.BuildAltGroupingScrollFrame();
                 end
+
+                if GRM_UI.GRM_ToolCoreFrame:IsVisible() then
+                    GRM_UI.RefreshManagementTool();
+                end
+
                 if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][14] then
                     local syncRankFilter = GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][15];
                     if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][35] then
@@ -3419,7 +3429,6 @@ GRM_UI.GR_MetaDataInitializeUIThird = function( isManualUpdate )
 
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButton:SetSize ( 90 , 11 );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButton:SetPoint ( "BOTTOMRIGHT" , GuildFrame , "TOPRIGHT" , 0 , 1 );
-    GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButton.Timer = 0;
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButtonText:SetPoint ( "CENTER" , GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButton );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButtonText:SetFont ( GRM_G.FontChoice , GRM_G.FontModifier + 8 );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButtonText:SetText ( GRM.L ( "Guild Log" ) );
@@ -3462,6 +3471,7 @@ GRM_UI.GR_MetaDataInitializeUIThird = function( isManualUpdate )
 
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButton:SetSize ( 90 , 11 );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButton:SetPoint ( "RIGHT" , GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadLogOldRosterButton , "LEFT" , 0 , 0 );
+    GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButton.Timer = 0;
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButtonText:SetPoint ( "CENTER" , GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButton );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButtonText:SetFont ( GRM_G.FontChoice , GRM_G.FontModifier + 8 );
     GRM_UI.GRM_RosterChangeLogFrame.GRM_LoadToolOldRosterButtonText:SetText ( GRM.L ( "Macro Tool" ) );

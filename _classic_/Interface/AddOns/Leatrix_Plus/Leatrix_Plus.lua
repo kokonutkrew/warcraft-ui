@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 1.13.25 (24th August 2019, www.leatrix.com)
+-- 	Leatrix Plus 1.13.26 (28th August 2019, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "1.13.25"
+	LeaPlusLC["AddonVer"] = "1.13.26"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -51,6 +51,7 @@
 	local LpEvt = CreateFrame("FRAME")
 	LpEvt:RegisterEvent("ADDON_LOADED")
 	LpEvt:RegisterEvent("PLAYER_LOGIN")
+	LpEvt:RegisterEvent("PLAYER_ENTERING_WORLD")
 
 ----------------------------------------------------------------------
 --	L01: Functions
@@ -2128,15 +2129,21 @@
 
 			-- Function to add vendor price to tooltips
 			local function ShowVendorPrice(tooltip)
+				-- Do nothing if money frame is already showing
+				if tooltip.shownMoneyFrames then return end
+				-- Get item sell price
 				local void, link = tooltip:GetItem()
 				if not link then return end
 				local void, void, void, void, void, void, void, void, void, void, itemSellPrice = GetItemInfo(link)
 				if not itemSellPrice or itemSellPrice <= 0 then return end
 				local container = GetMouseFocus()
+				if not container then return end
+				-- Get item quantity
 				local buttonName = container:GetName() and (container:GetName() .. "Count")
 				local count = container.count or (container.Count and container.Count:GetText()) or (container.Quantity and container.Quantity:GetText()) or (buttonName and _G[buttonName] and _G[buttonName]:GetText())
 				count = tonumber(count) or 1
 				if count <= 1 then count = 1 end
+				-- Show sell price in tooltip
 				SetTooltipMoney(tooltip, count * itemSellPrice, "STATIC", SELL_PRICE .. ":")
 			end
 
@@ -2300,27 +2307,6 @@
 			-- Set screen effects when option is clicked and on startup (if enabled)
 			LeaPlusCB["NoScreenEffects"]:HookScript("OnClick", SetEffects)
 			if LeaPlusLC["NoScreenEffects"] == "On" then SetEffects() end
-
-		end
-
-		----------------------------------------------------------------------
-		--	Max camera zoom (no reload required)
-		----------------------------------------------------------------------
-
-		do
-
-			-- Function to set camera zoom
-			local function SetZoom()
-				if LeaPlusLC["MaxCameraZoom"] == "On" then
-					SetCVar("cameraDistanceMaxZoomFactor", 4.0)
-				else
-					SetCVar("cameraDistanceMaxZoomFactor", 1.9)
-				end
-			end
-
-			-- Set camera zoom when option is clicked and on startup (if enabled)
-			LeaPlusCB["MaxCameraZoom"]:HookScript("OnClick", SetZoom)
-			if LeaPlusLC["MaxCameraZoom"] == "On" then SetZoom() end
 
 		end
 
@@ -4564,6 +4550,35 @@
 	end
 
 ----------------------------------------------------------------------
+--	L45: World
+----------------------------------------------------------------------
+
+	function LeaPlusLC:World()
+
+		----------------------------------------------------------------------
+		--	Max camera zoom (no reload required)
+		----------------------------------------------------------------------
+
+		do
+
+			-- Function to set camera zoom
+			local function SetZoom()
+				if LeaPlusLC["MaxCameraZoom"] == "On" then
+					SetCVar("cameraDistanceMaxZoomFactor", 4.0)
+				else
+					SetCVar("cameraDistanceMaxZoomFactor", 1.9)
+				end
+			end
+
+			-- Set camera zoom when option is clicked and on startup (if enabled)
+			LeaPlusCB["MaxCameraZoom"]:HookScript("OnClick", SetZoom)
+			if LeaPlusLC["MaxCameraZoom"] == "On" then SetZoom() end
+
+		end
+
+	end
+
+----------------------------------------------------------------------
 -- 	L50: RunOnce
 ----------------------------------------------------------------------
 
@@ -5594,6 +5609,12 @@
 		if event == "PLAYER_LOGIN" then
 			LeaPlusLC:Player()
 			collectgarbage()
+			return
+		end
+
+		if event == "PLAYER_ENTERING_WORLD" then
+			LeaPlusLC:World()
+			LpEvt:UnregisterEvent("PLAYER_ENTERING_WORLD")
 			return
 		end
 

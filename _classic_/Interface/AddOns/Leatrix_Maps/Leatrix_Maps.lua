@@ -1,6 +1,6 @@
 
 	----------------------------------------------------------------------
-	-- 	Leatrix Maps 1.13.25 (26th August 2019, www.leatrix.com)
+	-- 	Leatrix Maps 1.13.26 (28th August 2019, www.leatrix.com)
 	----------------------------------------------------------------------
 
 	-- 10:Func, 20:Comm, 30:Evnt, 40:Panl
@@ -12,7 +12,7 @@
 	local LeaMapsLC, LeaMapsCB, LeaConfigList = {}, {}, {}
 
 	-- Version
-	LeaMapsLC["AddonVer"] = "1.13.25"
+	LeaMapsLC["AddonVer"] = "1.13.26"
 	LeaMapsLC["RestartReq"] = nil
 
 	-- If client restart is required and has not been done, show warning and quit
@@ -39,6 +39,166 @@
 
 		-- Get player faction
 		local playerFaction = UnitFactionGroup("player")
+
+		----------------------------------------------------------------------
+		-- Enlarge player arrow
+		----------------------------------------------------------------------
+
+		do
+
+			local WorldMapUnitPin, WorldMapUnitPinSizes
+
+			-- Get unit provider
+			for pin in WorldMapFrame:EnumeratePinsByTemplate("GroupMembersPinTemplate") do
+				WorldMapUnitPin = pin
+				WorldMapUnitPinSizes = pin.dataProvider:GetUnitPinSizesTable()
+				break
+			end
+
+			-- Function to set player arrow size
+			local function SetPlayerArrowSize()
+				if LeaMapsLC["EnlargePlayerArrow"] == "On" then
+					WorldMapUnitPinSizes.player = 27
+				else
+					WorldMapUnitPinSizes.player = 16
+				end
+				WorldMapUnitPin:SynchronizePinSizes()
+			end
+
+			-- Set player arrow when option is clicked and on startup
+			LeaMapsCB["EnlargePlayerArrow"]:HookScript("OnClick", SetPlayerArrowSize)
+			SetPlayerArrowSize()
+
+		end
+
+		----------------------------------------------------------------------
+		-- Show zone levels (must be before show dungeon location icons)
+		----------------------------------------------------------------------
+
+		do
+
+			-- Create level range table
+			local mapTable = {
+
+				-- Eastern Kingdoms
+				--[[Alterac Mountains]]		[1416] = {minLevel = 27, 	maxLevel = 39},
+				--[[Arathi Highlands]]		[1417] = {minLevel = 30, 	maxLevel = 40},
+				--[[Badlands]]				[1418] = {minLevel = 36, 	maxLevel = 45},
+				--[[Blasted Lands]]			[1419] = {minLevel = 46, 	maxLevel = 63},
+				--[[Burning Steppes]]		[1428] = {minLevel = 50, 	maxLevel = 59},
+				--[[Deadwind Pass]]			[1430] = {minLevel = 50, 	maxLevel = 60},
+				--[[Dun Morogh]]			[1426] = {minLevel = 1, 	maxLevel = 12},
+				--[[Duskwood]]				[1431] = {minLevel = 10, 	maxLevel = 30},
+				--[[Eastern Plaguelands]]	[1423] = {minLevel = 54, 	maxLevel = 59},
+				--[[Elwynn Forest]]			[1429] = {minLevel = 1, 	maxLevel = 10},
+				--[[Felwood]]				[1448] = {minLevel = 47, 	maxLevel = 54},
+				--[[Hillsbrad Foothills]]	[1424] = {minLevel = 20, 	maxLevel = 31},
+				--[[Loch Modan]]			[1432] = {minLevel = 10,	maxLevel = 18},
+				--[[Redridge Mountains]]	[1433] = {minLevel = 15, 	maxLevel = 25},
+				--[[Searing Gorge]]			[1427] = {minLevel = 43, 	maxLevel = 56},
+				--[[Silverpine Forest]]		[1421] = {minLevel = 10, 	maxLevel = 20},
+				--[[Stranglethorn Vale]]	[1434] = {minLevel = 30, 	maxLevel = 50},
+				--[[Swamp of Sorrows]]		[1435] = {minLevel = 36, 	maxLevel = 43},
+				--[[The Hinterlands]]		[1425] = {minLevel = 41, 	maxLevel = 49},
+				--[[Tirisfal Glades]]		[1420] = {minLevel = 1, 	maxLevel = 12},
+				--[[Westfall]]				[1436] = {minLevel = 9, 	maxLevel = 18},
+				--[[Western Plaguelands]]	[1422] = {minLevel = 46, 	maxLevel = 57},
+				--[[Wetlands]]				[1437] = {minLevel = 20, 	maxLevel = 30},
+
+				-- Kalimdor
+				--[[Ashenvale]]				[1440] = {minLevel = 19, 	maxLevel = 30},
+				--[[Azshara]]				[1447] = {minLevel = 42, 	maxLevel = 55},
+				--[[Darkshore]]				[1439] = {minLevel = 11,	maxLevel = 19},
+				--[[Desolace]]				[1443] = {minLevel = 30, 	maxLevel = 39},
+				--[[Durotar]]				[1411] = {minLevel = 1, 	maxLevel = 10},
+				--[[Dustwallow Marsh]]		[1445] = {minLevel = 36, 	maxLevel = 61},
+				--[[Feralas]]				[1444] = {minLevel = 41, 	maxLevel = 60},
+				--[[Moonglade]]				[1450] = {minLevel = 15, 	maxLevel = 15},
+				--[[Mulgore]]				[1412] = {minLevel = 1, 	maxLevel = 10},
+				--[[Silithus]]				[1451] = {minLevel = 55, 	maxLevel = 59},
+				--[[Stonetalon Mountains]]	[1442] = {minLevel = 15, 	maxLevel = 25},
+				--[[Tanaris]]				[1446] = {minLevel = 40, 	maxLevel = 50},
+				--[[Teldrassil]]			[1438] = {minLevel = 1, 	maxLevel = 11},
+				--[[The Barrens]]			[1413] = {minLevel = 10, 	maxLevel = 33},
+				--[[Thousand Needles]]		[1441] = {minLevel = 24, 	maxLevel = 35},
+				--[[Un'Goro Crater]]		[1449] = {minLevel = 48, 	maxLevel = 55},
+				--[[Winterspring]]			[1452] = {minLevel = 55, 	maxLevel = 60},
+
+			}
+
+			-- Replace AreaLabelFrameMixin.OnUpdate
+			local function AreaLabelOnUpdate(self)
+				self:ClearLabel(MAP_AREA_LABEL_TYPE.AREA_NAME)
+				local map = self.dataProvider:GetMap()
+				if map:IsCanvasMouseFocus() then
+					local name
+					local mapID = map:GetMapID()
+					local normalizedCursorX, normalizedCursorY = map:GetNormalizedCursorPosition()
+					local positionMapInfo = C_Map.GetMapInfoAtPosition(mapID, normalizedCursorX, normalizedCursorY)	
+					if positionMapInfo and positionMapInfo.mapID ~= mapID then
+						-- print(positionMapInfo.mapID)
+						name = positionMapInfo.name
+						-- Get level range from table
+						local playerMinLevel, playerMaxLevel
+						if mapTable[positionMapInfo.mapID] then
+							playerMinLevel = mapTable[positionMapInfo.mapID]["minLevel"]
+							playerMaxLevel = mapTable[positionMapInfo.mapID]["maxLevel"]
+						end
+						-- Show level range if map zone exists in table
+						if name and playerMinLevel and playerMaxLevel and playerMinLevel > 0 and playerMaxLevel > 0 then
+							local playerLevel = UnitLevel("player")
+							local color
+							if playerLevel < playerMinLevel then
+								color = GetQuestDifficultyColor(playerMinLevel)
+							elseif playerLevel > playerMaxLevel then
+								-- Subtract 2 from the maxLevel so zones entirely below the player's level won't be yellow
+								color = GetQuestDifficultyColor(playerMaxLevel - 2)
+							else
+								color = QuestDifficultyColors["difficult"]
+							end
+							color = ConvertRGBtoColorString(color)
+							if playerMinLevel ~= playerMaxLevel then
+								name = name..color.." ("..playerMinLevel.."-"..playerMaxLevel..")"..FONT_COLOR_CODE_CLOSE
+							else
+								name = name..color.." ("..playerMaxLevel..")"..FONT_COLOR_CODE_CLOSE
+							end
+						end
+					else
+						name = MapUtil.FindBestAreaNameAtMouse(mapID, normalizedCursorX, normalizedCursorY)
+					end
+					if name then
+						self:SetLabel(MAP_AREA_LABEL_TYPE.AREA_NAME, name, description)
+					end
+				end
+				self:EvaluateLabels()
+			end
+
+			-- Get original script name
+			local origScript
+			for provider in next, WorldMapFrame.dataProviders do
+				if provider.setAreaLabelCallback then
+					origScript = provider.Label:GetScript("OnUpdate")
+				end
+			end
+
+			-- Toggle zone levels
+			local function SetZoneLevelScript()
+				for provider in next, WorldMapFrame.dataProviders do
+					if provider.setAreaLabelCallback then
+						if LeaMapsLC["ShowZoneLevels"] == "On" then
+							provider.Label:SetScript("OnUpdate", AreaLabelOnUpdate)
+						else
+							provider.Label:SetScript("OnUpdate", origScript)
+						end
+					end
+				end
+			end
+
+			-- Set zone levels when option is clicked and on startup
+			LeaMapsCB["ShowZoneLevels"]:HookScript("OnClick", SetZoneLevelScript)
+			SetZoneLevelScript()
+
+		end
 
 		----------------------------------------------------------------------
 		-- Show coordinates
@@ -274,7 +434,7 @@
 		do
 
 			-- Create fade frame
-			local fadeFrame = LeaMapsLC:CreatePanel("Fade Frame", "fadeFrame")
+			local fadeFrame = LeaMapsLC:CreatePanel("Fade Map", "fadeFrame")
 
 			-- Add controls
 			LeaMapsLC:MakeTx(fadeFrame, "Settings", 16, -72)
@@ -325,7 +485,7 @@
 		end
 
 		----------------------------------------------------------------------
-		-- Show dungeon location icons
+		-- Show dungeon location icons (must be after show zone levels)
 		----------------------------------------------------------------------
 
 		do
@@ -337,28 +497,28 @@
 			local PinData = {
 
 				-- Eastern Kingdoms
-				[1418] =  --[[Badlands]] {{44.6, 12.1, L["Uldaman"], L["Dungeon"], dnTex},},
-				[1420] =  --[[Tirisfal Glades]] {{82.6, 33.8, L["Scarlet Monastery"], L["Dungeon"], dnTex},},
-				[1421] =  --[[Silverpine Forest]] {{44.8, 67.8, L["Shadowfang Keep"], L["Dungeon"], dnTex},},
-				[1422] =  --[[Western Plaguelands]] {{69.7, 73.2, L["Scholomance"], L["Dungeon"], dnTex},},
-				[1423] =  --[[Eastern Plaguelands]] {{31.3, 15.7, L["Stratholme (Main Entrance)"], L["Dungeon"], dnTex}, {47.9, 23.9, L["Stratholme (Side Entrance)"], L["Dungeon"], dnTex}, --[[{28.9, 11.7, L["Naxxramas"], L["Raid"], rdTex},]]},
-				[1426] =  --[[Dun Morogh]] {{24.3, 39.8, L["Gnomeregan"], L["Dungeon"], dnTex},},
-				[1427] =  --[[Searing Gorge]] {{34.8, 85.3, L["Blackrock Mountain"], L["Blackrock Depths"] .. ", " .. L["Lower Blackrock Spire"] .. ", " .. L["Upper Blackrock Spire"] .. ", " .. L["Molten Core"] --[[.. ", " .. L["Blackwing Lair"] ]], dnTex},},
-				[1428] =  --[[Burning Steppes]] {{29.4, 38.3, L["Blackrock Mountain"], L["Blackrock Depths"] .. ", " .. L["Lower Blackrock Spire"] .. ", " .. L["Upper Blackrock Spire"] .. ", " .. L["Molten Core"] --[[.. ", " .. L["Blackwing Lair"] ]], dnTex},},
-				--[1434] =  --[[Stranglethorn Vale]] {{53.9, 17.6, L["Zul'Gurub"], L["Raid"], rdTex},},
-				[1435] =  --[[Swamp of Sorrows]] {{69.9, 53.6, L["Temple of Atal'Hakkar"], L["Dungeon"], dnTex},},
-				[1436] =  --[[Westfall]] {{42.5, 71.7, L["The Deadmines"], L["Dungeon"], dnTex},},
-				[1453] =  --[[Stormwind City]] {{42.3, 59.0, L["The Stockade"], L["Dungeon"], dnTex},},
+				[1418] =  --[[Badlands]] {{44.6, 12.1, L["Uldaman"], L["Dungeon"], dnTex, nil, nil, 35, 45},},
+				[1420] =  --[[Tirisfal Glades]] {{82.6, 33.8, L["Scarlet Monastery"], L["Dungeon"], dnTex, nil, nil, 26, 45},},
+				[1421] =  --[[Silverpine Forest]] {{44.8, 67.8, L["Shadowfang Keep"], L["Dungeon"], dnTex, nil, nil, 22, 30},},
+				[1422] =  --[[Western Plaguelands]] {{69.7, 73.2, L["Scholomance"], L["Dungeon"], dnTex, nil, nil, 58, 60},},
+				[1423] =  --[[Eastern Plaguelands]] {{31.3, 15.7, L["Stratholme (Main Gate)"], L["Dungeon"], dnTex, nil, nil, 58, 60}, {47.9, 23.9, L["Stratholme (Service Gate)"], L["Dungeon"], dnTex, nil, nil, 58, 60}, --[[{28.9, 11.7, L["Naxxramas"], L["Raid"], rdTex, nil, nil, 60, 60},]]},
+				[1426] =  --[[Dun Morogh]] {{24.3, 39.8, L["Gnomeregan"], L["Dungeon"], dnTex, nil, nil, 24, 34},},
+				[1427] =  --[[Searing Gorge]] {{34.8, 85.3, L["Blackrock Mountain"], L["Blackrock Depths"] .. ", " .. L["Lower Blackrock Spire"] .. ", " .. L["Upper Blackrock Spire"] .. ", " .. L["Molten Core"] --[[.. ", " .. L["Blackwing Lair"] ]], dnTex, nil, nil, 52, 60},},
+				[1428] =  --[[Burning Steppes]] {{29.4, 38.3, L["Blackrock Mountain"], L["Blackrock Depths"] .. ", " .. L["Lower Blackrock Spire"] .. ", " .. L["Upper Blackrock Spire"] .. ", " .. L["Molten Core"] --[[.. ", " .. L["Blackwing Lair"] ]], dnTex, nil, nil, 52, 60},},
+				--[1434] =  --[[Stranglethorn Vale]] {{53.9, 17.6, L["Zul'Gurub"], L["Raid"], rdTex, nil, nil, 60, 60},},
+				[1435] =  --[[Swamp of Sorrows]] {{69.9, 53.6, L["Temple of Atal'Hakkar"], L["Dungeon"], dnTex, nil, nil, 55, 60},},
+				[1436] =  --[[Westfall]] {{42.5, 71.7, L["The Deadmines"], L["Dungeon"], dnTex, nil, nil, 18, 23},},
+				[1453] =  --[[Stormwind City]] {{42.3, 59.0, L["The Stockade"], L["Dungeon"], dnTex, nil, nil, 22, 30},},
 
 				-- Kalimdor
-				[1413] =  --[[The Barrens]] {{46.0, 36.4, L["Wailing Caverns"], L["Dungeon"], dnTex}, {42.9, 90.2, L["Razorfen Kraul"], L["Dungeon"], dnTex}, {49.0, 93.9, L["Razorfen Downs"], L["Dungeon"], dnTex},},
-				[1440] =  --[[Ashenvale]] {{14.5, 14.2, L["Blackfathom Deeps"], L["Dungeon"], dnTex},},
-				[1443] =  --[[Maraudon]] {{29.1, 62.5, L["Maraudon"], L["Dungeon"], dnTex},},
-				-- [1444] =  --[[Feralas]] {{58.9, 41.5, L["Dire Maul"], L["Dungeon"], dnTex},},
-				[1445] =  --[[Dustwallow Marsh]] {{52.6, 76.8, L["Onyxia's Lair"], L["Raid"], rdTex},},
-				[1446] =  --[[Tanaris]] {{38.7, 20.0, L["Zul'Farrak"], L["Dungeon"], dnTex},},
-				--[1451] =  --[[Silithus]] {{28.6, 92.4, L["Ahn'Qiraj"], L["Ruins of Ahn'Qiraj"] .. ", " .. L["Temple of Ahn'Qiraj"], rdTex},},
-				[1454] =  --[[Orgrimmar]] {{52.6, 49.0, L["Ragefire Chasm"], L["Dungeon"], dnTex},},
+				[1413] =  --[[The Barrens]] {{46.0, 36.4, L["Wailing Caverns"], L["Dungeon"], dnTex, nil, nil, 15, 25}, {42.9, 90.2, L["Razorfen Kraul"], L["Dungeon"], dnTex, nil, nil, 30, 40}, {49.0, 93.9, L["Razorfen Downs"], L["Dungeon"], dnTex, nil, nil, 40, 50},},
+				[1440] =  --[[Ashenvale]] {{14.5, 14.2, L["Blackfathom Deeps"], L["Dungeon"], dnTex, nil, nil, 20, 30},},
+				[1443] =  --[[Maraudon]] {{29.1, 62.5, L["Maraudon"], L["Dungeon"], dnTex, nil, nil, 46, 55},},
+				-- [1444] =  --[[Feralas]] {{58.9, 41.5, L["Dire Maul"], L["Dungeon"], dnTex, nil, nil, 55, 60},},
+				[1445] =  --[[Dustwallow Marsh]] {{52.6, 76.8, L["Onyxia's Lair"], L["Raid"], rdTex, nil, nil, 60, 60},},
+				[1446] =  --[[Tanaris]] {{38.7, 20.0, L["Zul'Farrak"], L["Dungeon"], dnTex, nil, nil, 44, 54},},
+				--[1451] =  --[[Silithus]] {{28.6, 92.4, L["Ahn'Qiraj"], L["Ruins of Ahn'Qiraj"] .. ", " .. L["Temple of Ahn'Qiraj"], rdTex, nil, nil, 60, 60},},
+				[1454] =  --[[Orgrimmar]] {{52.6, 49.0, L["Ragefire Chasm"], L["Dungeon"], dnTex, nil, nil, 13, 18},},
 
 			}
 
@@ -387,7 +547,31 @@
 								if playerFaction == "Alliance" and pinInfo[5] ~= pHTex or playerFaction == "Horde" and pinInfo[5] ~= pATex then
 									local myPOI = {}
 									myPOI["position"] = CreateVector2D(pinInfo[1] / 100, pinInfo[2] / 100)
-									myPOI["name"] = pinInfo[3]
+									if LeaMapsLC["ShowZoneLevels"] == "On" and pinInfo[8] and pinInfo[9] then
+										-- Set dungeon level in title
+										local playerLevel = UnitLevel("player")
+										local color
+										local name = ""
+										local dungeonMinLevel, dungeonMaxLevel = pinInfo[8], pinInfo[9]
+										if playerLevel < dungeonMinLevel then
+											color = GetQuestDifficultyColor(dungeonMinLevel)
+										elseif playerLevel > dungeonMaxLevel then
+											-- Subtract 2 from the maxLevel so zones entirely below the player's level won't be yellow
+											color = GetQuestDifficultyColor(dungeonMaxLevel - 2)
+										else
+											color = QuestDifficultyColors["difficult"]
+										end
+										color = ConvertRGBtoColorString(color)
+										if dungeonMinLevel ~= dungeonMaxLevel then
+											name = name..color.." (" .. dungeonMinLevel .. "-" .. dungeonMaxLevel .. ")" .. FONT_COLOR_CODE_CLOSE
+										else
+											name = name..color.." (" .. dungeonMaxLevel .. ")" .. FONT_COLOR_CODE_CLOSE
+										end
+										myPOI["name"] = pinInfo[3] .. name
+									else
+										-- Show zone levels is disabled or dungeon has no level range
+										myPOI["name"] = pinInfo[3]
+									end
 									myPOI["description"] = pinInfo[4]
 									myPOI["atlasName"] = pinInfo[5]
 									self:GetMap():AcquirePin("LeaMapsGlobalPinTemplate", myPOI)
@@ -410,6 +594,9 @@
 
 			-- Toggle icons when option is clicked
 			LeaMapsCB["ShowIcons"]:HookScript("OnClick", function() LeaMix:RefreshAllData() end)
+
+			-- Refresh icons when zone levels are toggled
+			LeaMapsCB["ShowZoneLevels"]:HookScript("OnClick", function() LeaMix:RefreshAllData() end)
 
 		end
 
@@ -672,7 +859,7 @@
 
 			end
 
-			ShowMemoryUsage(LeaMapsLC["PageF"], "TOPLEFT", 16, -242)
+			ShowMemoryUsage(LeaMapsLC["PageF"], "TOPLEFT", 16, -282)
 
 		end
 
@@ -716,7 +903,7 @@
 
 		-- Set frame parameters
 		Side:Hide()
-		Side:SetSize(370, 340)
+		Side:SetSize(370, 380)
 		Side:SetClampedToScreen(true)
 		Side:SetFrameStrata("FULLSCREEN_DIALOG")
 		Side:SetFrameLevel(20)
@@ -738,7 +925,7 @@
 
 		-- Set textures
 		LeaMapsLC:CreateBar("FootTexture", Side, 370, 48, "BOTTOM", 0.5, 0.5, 0.5, 1.0, "Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated.png")
-		LeaMapsLC:CreateBar("MainTexture", Side, 370, 293, "TOPRIGHT", 0.7, 0.7, 0.7, 0.7,  "Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated.png")
+		LeaMapsLC:CreateBar("MainTexture", Side, 370, 333, "TOPRIGHT", 0.7, 0.7, 0.7, 0.7,  "Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated.png")
 
 		-- Allow movement
 		Side:EnableMouse(true)
@@ -1116,6 +1303,8 @@
 				LeaMapsLC["FadeLevel"] = 0.5
 				LeaMapsLC["RememberZoom"] = "On"
 				LeaMapsLC["ShowCoords"] = "On"
+				LeaMapsLC["ShowZoneLevels"] = "On"
+				LeaMapsLC["EnlargePlayerArrow"] = "On"
 				LeaMapsLC["MapPosA"] = "CENTER"
 				LeaMapsLC["MapPosR"] = "CENTER"
 				LeaMapsLC["MapPosX"] = 0
@@ -1185,6 +1374,8 @@
 			LeaMapsLC:LoadVarNum("FadeLevel", 0.5, 0.2, 1)				-- Fade map level
 			LeaMapsLC:LoadVarChk("RememberZoom", "On")					-- Remember zoom level
 			LeaMapsLC:LoadVarChk("ShowCoords", "On")					-- Show coordinates
+			LeaMapsLC:LoadVarChk("ShowZoneLevels", "On")				-- Show zone levels
+			LeaMapsLC:LoadVarChk("EnlargePlayerArrow", "On")			-- Enlarge player arrow
 			LeaMapsLC:LoadVarAnc("MapPosA", "CENTER")					-- Map anchor
 			LeaMapsLC:LoadVarAnc("MapPosR", "CENTER")					-- Map relative
 			LeaMapsLC:LoadVarNum("MapPosX", 0, -5000, 5000)				-- Map X axis
@@ -1214,6 +1405,8 @@
 			LeaMapsDB["FadeLevel"] = LeaMapsLC["FadeLevel"]
 			LeaMapsDB["RememberZoom"] = LeaMapsLC["RememberZoom"]
 			LeaMapsDB["ShowCoords"] = LeaMapsLC["ShowCoords"]
+			LeaMapsDB["ShowZoneLevels"] = LeaMapsLC["ShowZoneLevels"]
+			LeaMapsDB["EnlargePlayerArrow"] = LeaMapsLC["EnlargePlayerArrow"]
 			LeaMapsDB["MapPosA"] = LeaMapsLC["MapPosA"]
 			LeaMapsDB["MapPosR"] = LeaMapsLC["MapPosR"]
 			LeaMapsDB["MapPosX"] = LeaMapsLC["MapPosX"]
@@ -1244,7 +1437,7 @@
 
 	-- Set frame parameters
 	LeaMapsLC["PageF"] = PageF
-	PageF:SetSize(370, 340)
+	PageF:SetSize(370, 380)
 	PageF:Hide()
 	PageF:SetFrameStrata("FULLSCREEN_DIALOG")
 	PageF:SetFrameLevel(20)
@@ -1268,7 +1461,7 @@
 	-- Add textures
 	local MainTexture = PageF:CreateTexture(nil, "BORDER")
 	MainTexture:SetTexture("Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated.png")
-	MainTexture:SetSize(370, 293)
+	MainTexture:SetSize(370, 333)
 	MainTexture:SetPoint("TOPRIGHT")
 	MainTexture:SetVertexColor(0.7, 0.7, 0.7, 0.7)
 	MainTexture:SetTexCoord(0.09, 1, 0, 1)
@@ -1311,6 +1504,8 @@
 	LeaMapsLC:MakeCB(PageF, "FadeMap", "Fade map while moving", 16, -152, false)
 	LeaMapsLC:MakeCB(PageF, "RememberZoom", "Remember zoom level", 16, -172, false)
 	LeaMapsLC:MakeCB(PageF, "ShowCoords", "Show coordinates", 16, -192, false)
+	LeaMapsLC:MakeCB(PageF, "ShowZoneLevels", "Show zone levels", 16, -212, false)
+	LeaMapsLC:MakeCB(PageF, "EnlargePlayerArrow", "Enlarge player arrow", 16, -232, false)
 
  	LeaMapsLC:CfgBtn("RevTintBtn", LeaMapsCB["RevealMap"])
  	LeaMapsLC:CfgBtn("RescaleMapBtn", LeaMapsCB["RescaleMap"])

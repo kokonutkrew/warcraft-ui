@@ -70,7 +70,7 @@ function ItemInfo.OnInitialize()
 
 	-- load the item info database
 	local build, revision = GetBuildInfo()
-	if not TSMItemInfoDB or TSMItemInfoDB.version ~= DB_VERSION or TSMItemInfoDB.locale ~= GetLocale() or TSMItemInfoDB.build ~= build or TSMItemInfoDB.revision ~= revision then
+	if not TSMItemInfoDB or #TSMItemInfoDB.data % RECORD_DATA_LENGTH ~= 0 or TSMItemInfoDB.version ~= DB_VERSION or TSMItemInfoDB.locale ~= GetLocale() or TSMItemInfoDB.build ~= build or TSMItemInfoDB.revision ~= revision then
 		private.isRebuilding = true
 		TSMItemInfoDB = {
 			names = nil,
@@ -489,7 +489,8 @@ end
 function TSMAPI_FOUR.Item.GetVendorSell(item)
 	local itemString = TSMAPI_FOUR.Item.ToItemString(item)
 	if not itemString then return end
-	return private.GetFieldValueHelper(itemString, "vendorSell", false, false, 0)
+	local vendorSell = private.GetFieldValueHelper(itemString, "vendorSell", false, false, 0)
+	return (vendorSell or 0) > 0 and vendorSell or nil
 end
 
 --- Get the class id.

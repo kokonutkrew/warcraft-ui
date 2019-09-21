@@ -16,6 +16,7 @@ local zmex = FishingBuddy.ZoneMarkerEx;
 
 local ZoneFishingTime = 0;
 local TotalTimeFishing = nil;
+local CurLoc = GetLocale();
 
 local FL = LibStub("LibFishing-1.0");
 local LW = LibStub("LibWindow-1.1");
@@ -110,7 +111,7 @@ FWF.First = {}
 FWF.Last = {}
 
 function FWF:RegisterLineHandler(renderline, priority, first, last)
-    handler = {}
+    local handler = {}
     handler.first = first
     handler.last = last
     handler.render = renderline
@@ -192,7 +193,7 @@ function FWF:DisplayFishLine(fish, label, area)
         if info.area then
             here = info.area == area;
         else
-            here = not info.zone or zone == info.zone;
+            here = not info.zone;
         end
         if here and info.subzone then
             here = info.subzone == subzone
@@ -429,7 +430,7 @@ end
 
 local lastContinent = 0;
 local function DisplaySkillWarning()
-    if False and GSB("WatchWarnFishing") then
+    if false and GSB("WatchWarnFishing") then
         local continent, _ = FL:GetCurrentMapContinent();
         if continent ~= lastContinent then
             local skill, modx, skillmax, lure = FL:GetContinentSkill(continent);
@@ -443,7 +444,7 @@ local function DisplaySkillWarning()
     end
 end
 
-local function HandleZoneChange(self, event, ...)
+local function HandleZoneChange(self, _, ...)
     if ( not FishingBuddy.IsLoaded() ) then
         return;
     end
@@ -623,7 +624,7 @@ local legionmaps = {
     [1096] = "Eye of Azshara",
 }
 
-function DisplayFishingWorldQuests()
+local function DisplayFishingWorldQuests()
     if not GSB("WatchWorldQuests") then
         return nil
     end
@@ -912,13 +913,19 @@ local function TimerUpdate()
     end
 end
 
+local function TimerEvent(_, ...)
+end
+
 local WatWin = {}
 function WatWin:OnLoad()
+    local _, _, _, classic = FL:WOWVersion();
     timerframe = CreateFrame("FRAME");
     timerframe:Hide();
     timerframe:SetScript("OnUpdate", TimerUpdate);
     timerframe:SetScript("OnEvent", TimerEvent);
-    timerframe:RegisterEvent("CALENDAR_UPDATE_EVENT_LIST")
+    if not classic then
+        timerframe:RegisterEvent("CALENDAR_UPDATE_EVENT_LIST");
+    end
 
     -- since we can leave this open all the time, register these against the window itself
     self:RegisterEvent("ZONE_CHANGED");
@@ -1021,7 +1028,7 @@ local function WatchMenu_Initialize()
         local ff = FishingBuddy_Info["Fishies"];
         for fishid in pairs(fz[zidm]) do
             local info = {};
-            info.text = ff[fishid][loc];
+            info.text = ff[fishid][CurLoc];
             info.func = WatcherMakeToggle(fishid);
             info.checked = ( not FishingBuddy_Info["HiddenFishies"][fishid] );
             info.keepShownOnClick = 1;

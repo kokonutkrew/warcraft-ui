@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 418,
 	["lastSanitation"] = 3,
-	["session"] = 415,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\StaticPopup.lua:4460: bad argument #2 to 'SetFormattedText' (string expected, got nil)",
@@ -19,24 +19,12 @@ BugGrabberDB = {
 			["counter"] = 8,
 		}, -- [2]
 		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Holy.lua",
-			["session"] = 348,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 6,
-		}, -- [3]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Shadow.lua",
-			["session"] = 348,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 5,
-		}, -- [4]
-		{
 			["message"] = "...dOns\\AzeriteTooltip\\libs\\AceHook-3.0\\AceHook-3.0-8.lua:180: Attempting to rehook already active hook OnTooltipSetItem.",
 			["time"] = "2019/06/29 22:06:28",
 			["stack"] = "[C]: ?\n...dOns\\AzeriteTooltip\\libs\\AceHook-3.0\\AceHook-3.0-8.lua:180: in function <...dOns\\AzeriteTooltip\\libs\\AceHook-3.0\\AceHook-3.0.lua:118>\n...dOns\\AzeriteTooltip\\libs\\AceHook-3.0\\AceHook-3.0-8.lua:411: in function `SecureHookScript'\nInterface\\AddOns\\AzeriteTooltip\\AzeriteTooltip-2.0.2.lua:162: in function <Interface\\AddOns\\AzeriteTooltip\\AzeriteTooltip.lua:146>\n[C]: ?\n...\\AddOns\\DataStore\\libs\\AceAddon-3.0\\AceAddon-3.0-12.lua:70: in function <...\\AddOns\\DataStore\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n...\\AddOns\\DataStore\\libs\\AceAddon-3.0\\AceAddon-3.0-12.lua:527: in function `EnableAddon'\n...\\AddOns\\DataStore\\libs\\AceAddon-3.0\\AceAddon-3.0-12.lua:620: in function <...\\AddOns\\DataStore\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:605>\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:450: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:569: in function `TimeManager_LoadUI'\nInterface\\FrameXML\\UIParent.lua:1210: in function <Interface\\FrameXML\\UIParent.lua:1108>",
 			["session"] = 348,
 			["counter"] = 4,
-		}, -- [5]
+		}, -- [3]
 		{
 			["message"] = "Interface\\AddOns\\GSE_LDB\\LDBProvider.lua:145: attempt to index field 'showMiniMap' (a nil value)",
 			["time"] = "2019/08/09 16:08:12",
@@ -44,7 +32,7 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\GSE_LDB\\LDBProvider.lua:145: in main chunk",
 			["session"] = 349,
 			["counter"] = 1,
-		}, -- [6]
+		}, -- [4]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:195: attempt to perform arithmetic on a nil value",
 			["time"] = "2019/08/17 14:32:07",
@@ -52,14 +40,14 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:195: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
 			["session"] = 355,
 			["counter"] = 1,
-		}, -- [7]
+		}, -- [5]
 		{
 			["message"] = "Interface\\AddOns\\Prat-3.0-r1201      \\modules\\ChannelSticky.lua:379: attempt to call method 'ResgisterSmartGroup' (a nil value)",
 			["time"] = "2019/08/18 01:15:43",
 			["stack"] = "Interface\\AddOns\\Prat-3.0-r1201      \\modules\\ChannelSticky.lua:379: in function `OnModuleDisable'\nInterface\\AddOns\\Prat-3.0-r1201      \\addon\\modules.lua:190: in function <Interface\\AddOns\\Prat-3.0\\addon\\modules.lua:187>\n[C]: ?\nInterface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0-12.lua:70: in function <Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:65>\nInterface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0-12.lua:562: in function <Interface\\AddOns\\Ace3\\AceAddon-3.0\\AceAddon-3.0.lua:555>\n(tail call): ?\nInterface\\AddOns\\Prat-3.0-r1201      \\addon\\addon.lua:341: in function `?'\nInterface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0-17.lua:55: in function <Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:50>",
 			["session"] = 369,
 			["counter"] = 1,
-		}, -- [8]
+		}, -- [6]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:230: attempt to call global 'SendAddonMessage' (a nil value)",
 			["time"] = "2019/08/17 12:58:13",
@@ -67,7 +55,7 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:230: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
 			["session"] = 372,
 			["counter"] = 94,
-		}, -- [9]
+		}, -- [7]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:83: attempt to call global 'SendAddonMessage' (a nil value)",
 			["time"] = "2019/08/17 23:38:21",
@@ -75,7 +63,7 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:83: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>\n[C]: in function `FollowUnit'\nInterface\\AddOns\\ISBoxer\\ISBoxer-1.0.lua:242: in function `Follow'\nInterface\\AddOns\\ISBoxer\\ISBoxer-1.0.lua:252: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4836: in function <Interface\\FrameXML\\ChatFrame.lua:4783>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4497: in function <Interface\\FrameXML\\ChatFrame.lua:4496>\n[C]: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2991: in function <Interface\\FrameXML\\ChatFrame.lua:2984>\n[C]: in function `UseAction'\nInterface\\FrameXML\\SecureTemplates.lua:345: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:632: in function `SecureActionButton_OnClick'\nInterface\\FrameXML\\MultiActionBars.lua:14: in function `MultiActionButtonDown'\n[string \"MULTIACTIONBAR4BUTTON2\"]:2: in function <[string \"MULTIACTIONBAR4BUTTON2\"]:1>",
 			["session"] = 372,
 			["counter"] = 127,
-		}, -- [10]
+		}, -- [8]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:112: attempt to call global 'SendAddonMessage' (a nil value)",
 			["time"] = "2019/08/17 23:38:22",
@@ -83,14 +71,14 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:112: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
 			["session"] = 372,
 			["counter"] = 139,
-		}, -- [11]
+		}, -- [9]
 		{
 			["message"] = "Interface\\AddOns\\EMA\\EbonyUtilities.lua:260: attempt to index field '?' (a nil value)",
 			["time"] = "2019/08/18 23:16:22",
 			["stack"] = "Interface\\AddOns\\EMA\\EbonyUtilities.lua:260: in function `TooltipScaner'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:561: in function `CheckForSatchelsItemAndAddToBar'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:1272: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:119: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:29: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\nInterface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 376,
 			["counter"] = 8,
-		}, -- [12]
+		}, -- [10]
 		{
 			["message"] = "Interface\\AddOns\\AAP-Core\\QuestList.lua:52: Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: AAP_PartyListFrame1:SetPoint.",
 			["time"] = "2019/08/18 01:28:36",
@@ -98,7 +86,7 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\AddOns\\AAP-Core\\QuestList.lua:52: in function <Interface\\AddOns\\AAP-Core\\QuestList.lua:46>",
 			["session"] = 377,
 			["counter"] = 16,
-		}, -- [13]
+		}, -- [11]
 		{
 			["message"] = "...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:443: Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: <unnamed>:GetLeft().",
 			["time"] = "2019/08/19 16:17:27",
@@ -106,7 +94,7 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `GetLeft'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:443: in function `GetPreferredInsets'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:138: in function `UpdateInsetsForType'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:122: in function `ApplyFrameOptions'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:93: in function `OnNamePlateAdded'\n...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:51: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:42>",
 			["session"] = 377,
 			["counter"] = 1,
-		}, -- [14]
+		}, -- [12]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WoWPro_Achievements' tried to call the protected function 'MainMenuBar:ClearAllPoints()'.",
 			["time"] = "2019/08/19 16:17:29",
@@ -114,14 +102,14 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\MainMenuBar.lua:43: in function `SetPositionForStatusBars'\nInterface\\FrameXML\\MainMenuBar.lua:8: in function `OnStatusBarsUpdated'\nInterface\\FrameXML\\StatusTrackingManager.lua:181: in function `LayoutBars'\nInterface\\FrameXML\\StatusTrackingManager.lua:84: in function <Interface\\FrameXML\\StatusTrackingManager.lua:75>\n[C]: in function `UpdateBarsShown'\nInterface\\FrameXML\\StatusTrackingManager.lua:209: in function <Interface\\FrameXML\\StatusTrackingManager.lua:205>",
 			["session"] = 377,
 			["counter"] = 1,
-		}, -- [15]
+		}, -- [13]
 		{
 			["message"] = "Interface\\AddOns\\EMA\\EbonyUtilities.lua:267: script ran too long",
 			["time"] = "2019/08/19 16:39:35",
 			["stack"] = "Interface\\AddOns\\EMA\\EbonyUtilities.lua:267: in function `TooltipScaner'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:561: in function `CheckForSatchelsItemAndAddToBar'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:1272: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:119: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:29: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\nInterface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 378,
 			["counter"] = 1,
-		}, -- [16]
+		}, -- [14]
 		{
 			["message"] = "...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:30: script ran too long",
 			["time"] = "2019/08/19 16:39:35",
@@ -129,20 +117,20 @@ BugGrabberDB = {
 			["stack"] = "...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:30: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\nInterface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 378,
 			["counter"] = 1,
-		}, -- [17]
+		}, -- [15]
 		{
 			["message"] = "Error loading Interface\\AddOns\\PVPSound_CustomSoundPack\\PVPSound_SoundLengthsCustom.lua",
-			["time"] = "2019/08/19 00:48:20",
 			["session"] = 383,
+			["time"] = "2019/08/19 00:48:20",
 			["counter"] = 33,
-		}, -- [18]
+		}, -- [16]
 		{
 			["message"] = "Interface\\AddOns\\WoWPro\\WoWPro_Broker.lua:2164: PlaySoundFile Error - Invalid fileDataID for sound.",
 			["time"] = "2019/08/17 23:18:59",
 			["stack"] = "[C]: in function `PlaySoundFile'\nInterface\\AddOns\\WoWPro\\WoWPro_Broker.lua:2164: in function `CompleteStep'\nInterface\\AddOns\\WoWPro\\WoWPro_Events.lua:217: in function `AutoCompleteQuestUpdate'\nInterface\\AddOns\\WoWPro\\WoWPro_Parser.lua:871: in function <Interface\\AddOns\\WoWPro\\WoWPro_Parser.lua:839>\n[C]: ?\n...nterface\\AddOns\\Ace3\\AceBucket-3.0\\AceBucket-3.0-4.lua:73: in function <...nterface\\AddOns\\Ace3\\AceBucket-3.0\\AceBucket-3.0.lua:71>\n...nterface\\AddOns\\Ace3\\AceBucket-3.0\\AceBucket-3.0-4.lua:89: in function `func'\nInterface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0-17.lua:57: in function <Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:50>",
 			["session"] = 383,
 			["counter"] = 2149,
-		}, -- [19]
+		}, -- [17]
 		{
 			["message"] = "Interface\\AddOns\\Prat-3.0-r1201      \\modules\\Achievements-Achievements.lua:932: Usage: GetPlayerInfoByGUID(\"playerGUID\")",
 			["time"] = "2019/08/20 00:15:45",
@@ -150,7 +138,7 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `GetPlayerInfoByGUID'\nInterface\\AddOns\\Prat-3.0-r1201      \\modules\\Achievements-Achievements.lua:932: in function <Interface\\AddOns\\Prat-3.0\\modules\\Achievements.lua:921>\n[C]: in function `gsub'\nInterface\\AddOns\\Prat-3.0-r1201      \\services\\patterns.lua:159: in function `MatchPatterns'\nInterface\\AddOns\\Prat-3.0-r1201      \\addon\\addon.lua:639: in function <Interface\\AddOns\\Prat-3.0\\addon\\addon.lua:565>\n(tail call): ?\nInterface\\FrameXML\\ChatFrame.lua:3005: in function `ChatFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>",
 			["session"] = 387,
 			["counter"] = 3,
-		}, -- [20]
+		}, -- [18]
 		{
 			["message"] = "...rface\\AddOns\\SuperGuildInviteReborn\\core\\SGI_GUI.lua:98: Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: SuperScanFrame:SetPoint.",
 			["time"] = "2019/08/20 16:55:59",
@@ -158,20 +146,14 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `SetPoint'\n...rface\\AddOns\\SuperGuildInviteReborn\\core\\SGI_GUI.lua:98: in function <...rface\\AddOns\\SuperGuildInviteReborn\\core\\SGI_GUI.lua:79>\n...rface\\AddOns\\SuperGuildInviteReborn\\core\\SGI_GUI.lua:267: in function `CreateSmallSuperScanFrame'\n...ce\\AddOns\\SuperGuildInviteReborn\\core\\SGI_Events.lua:115: in function `?'\n...ce\\AddOns\\SuperGuildInviteReborn\\core\\SGI_Events.lua:162: in function <...ce\\AddOns\\SuperGuildInviteReborn\\core\\SGI_Events.lua:161>",
 			["session"] = 390,
 			["counter"] = 34,
-		}, -- [21]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Monk\\Mistweaver.lua",
-			["session"] = 391,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 7,
-		}, -- [22]
+		}, -- [19]
 		{
 			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'Pawn' tried to call the protected function 'SetGuildRankOrder()'.",
 			["time"] = "2019/08/20 17:04:18",
 			["stack"] = "Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[C]: in function `SetGuildRankOrder'\n...nterface\\AddOns\\Blizzard_Communities\\GuildRoster.lua:174: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:914: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
 			["session"] = 391,
 			["counter"] = 1,
-		}, -- [23]
+		}, -- [20]
 		{
 			["message"] = "Interface\\AddOns\\CaerdonWardrobe\\Core.lua:1846: invalid key to 'next'",
 			["time"] = "2019/08/20 18:28:32",
@@ -179,7 +161,7 @@ BugGrabberDB = {
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\CaerdonWardrobe\\Core.lua:1846: in function <Interface\\AddOns\\CaerdonWardrobe\\Core.lua:1841>",
 			["session"] = 398,
 			["counter"] = 1,
-		}, -- [24]
+		}, -- [21]
 		{
 			["message"] = "Interface\\AddOns\\PVPSound\\PVPSound-4.0.9.lua:277: attempt to call global 'RegisterAddonMessagePrefix' (a nil value)",
 			["time"] = "2019/08/17 23:18:16",
@@ -187,7 +169,7 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\PVPSound\\PVPSound-4.0.9.lua:277: in function `DefaultSettings'\nInterface\\AddOns\\PVPSound\\PVPSound-4.0.9.lua:924: in function <Interface\\AddOns\\PVPSound\\PVPSound.lua:917>",
 			["session"] = 399,
 			["counter"] = 28,
-		}, -- [25]
+		}, -- [22]
 		{
 			["message"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:242: attempt to call global 'SendAddonMessage' (a nil value)",
 			["time"] = "2019/03/11 09:03:19",
@@ -195,65 +177,13 @@ BugGrabberDB = {
 			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFEvents.lua:242: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
 			["session"] = 399,
 			["counter"] = 304,
-		}, -- [26]
-		{
-			["message"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: attempt to call global 'RegisterAddonMessagePrefix' (a nil value)",
-			["time"] = "2019/01/30 09:12:34",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"FollowFelankor\"\n(*temporary) = \"attempt to call global 'RegisterAddonMessagePrefix' (a nil value)\"\n",
-			["stack"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: in function `FF_OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>",
-			["session"] = 404,
-			["counter"] = 53,
-		}, -- [27]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Frost.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 39,
-		}, -- [28]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Unholy.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 39,
-		}, -- [29]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Marksmanship.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 39,
-		}, -- [30]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Survival.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 38,
-		}, -- [31]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Fire.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 35,
-		}, -- [32]
-		{
-			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Frost.lua",
-			["session"] = 404,
-			["time"] = "2019/01/30 09:12:39",
-			["counter"] = 22,
-		}, -- [33]
-		{
-			["message"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: attempt to call field 'GetMountInfo' (a nil value)",
-			["time"] = "2019/01/30 09:12:42",
-			["locals"] = "FFNewNumMounts = 82\n(for index) = 1\n(for limit) = 82\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call field 'GetMountInfo' (a nil value)\"\n",
-			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: in function `FF_UpdateMounts'\nInterface\\AddOns\\FollowFelankor\\FFEvents.lua:38: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
-			["session"] = 404,
-			["counter"] = 1997,
-		}, -- [34]
+		}, -- [23]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\GSE\\Lib\\LibDBIcon-1.0-43\\lib.xml",
-			["time"] = "2019/08/09 16:08:19",
 			["session"] = 405,
+			["time"] = "2019/08/09 16:08:19",
 			["counter"] = 117,
-		}, -- [35]
+		}, -- [24]
 		{
 			["message"] = "Usage: GameTooltip:SetHyperlink(link)",
 			["time"] = "2019/08/20 19:16:49",
@@ -261,25 +191,111 @@ BugGrabberDB = {
 			["stack"] = "[C]: ?\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `SetHyperlink'\nInterface\\AddOns\\Blizzard_Communities\\GuildNews.lua:160: in function `CommunitiesGuildNewsButton_OnEnter'\n[string \"*:OnEnter\"]:2: in function <[string \"*:OnEnter\"]:1>\n[C]: in function `Enable'\nInterface\\AddOns\\Blizzard_Communities\\GuildNews.lua:71: in function `CommunitiesGuildNews_Update'\nInterface\\AddOns\\Blizzard_Communities\\GuildNews.lua:13: in function `update'\nInterface\\SharedXML\\HybridScrollFrame.lua:191: in function `HybridScrollFrame_SetOffset'\nInterface\\SharedXML\\HybridScrollFrame.lua:30: in function <Interface\\SharedXML\\HybridScrollFrame.lua:29>\n[C]: in function `SetValue'\nInterface\\SharedXML\\HybridScrollFrame.lua:67: in function <Interface\\SharedXML\\HybridScrollFrame.lua:57>",
 			["session"] = 405,
 			["counter"] = 4,
-		}, -- [36]
+		}, -- [25]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\XPBarClassic.lua",
-			["session"] = 406,
 			["time"] = "2019/08/20 20:54:50",
+			["session"] = 406,
 			["counter"] = 3,
-		}, -- [37]
+		}, -- [26]
 		{
 			["message"] = "Error loading Interface\\AddOns\\Bartender4\\Options\\XPBarClassic.lua",
-			["session"] = 406,
 			["time"] = "2019/08/20 20:54:50",
+			["session"] = 406,
 			["counter"] = 3,
-		}, -- [38]
+		}, -- [27]
 		{
 			["message"] = "Interface\\AddOns\\EMA\\EbonyUtilities.lua:258: EMAScanner:SetHyperlink(): Unknown link type",
 			["time"] = "2019/08/19 15:57:21",
 			["stack"] = "[C]: in function `SetHyperlink'\nInterface\\AddOns\\EMA\\EbonyUtilities.lua:258: in function `TooltipScaner'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:561: in function `CheckForSatchelsItemAndAddToBar'\nInterface\\AddOns\\EMA\\Modules\\ItemUse.lua:1272: in function `?'\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:119: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:29: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0-7.lua:64: in function `Fire'\nInterface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0-4.lua:120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>",
 			["session"] = 409,
 			["counter"] = 52,
+		}, -- [28]
+		{
+			["message"] = "Interface\\AddOns\\Bartender4\\ButtonBar.lua:167: attempt to perform arithmetic on local 'Rows' (a nil value)",
+			["time"] = "2019/09/04 13:41:36",
+			["locals"] = "self = BT4BarMicroMenu {\n 0 = <userdata>\n WrapScript = <function> defined @Interface\\FrameXML\\SecureHandlers.lua:782\n buttons = <table> {\n }\n id = \"MicroMenu\"\n hidedriver = <table> {\n }\n faded = true\n UnwrapScript = <function> defined @Interface\\FrameXML\\SecureHandlers.lua:788\n config = <table> {\n }\n name = \"Micro Menu\"\n anchors = <table> {\n }\n elapsed = 0\n overlay = BT4BarMicroMenuOverlay {\n }\n SetFrameRef = <function> defined @Interface\\FrameXML\\SecureHandlers.lua:793\n Execute = <function> defined @Interface\\FrameXML\\SecureHandlers.lua:777\n}\nbuttons = <table> {\n 1 = CharacterMicroButton {\n }\n 2 = SpellbookMicroButton {\n }\n 3 = TalentMicroButton {\n }\n 4 = AchievementMicroButton {\n }\n 5 = QuestLogMicroButton {\n }\n 6 = GuildMicroButton {\n }\n 7 = LFDMicroButton {\n }\n 8 = CollectionsMicroButton {\n }\n 9 = EJMicroButton {\n }\n 10 = StoreMicroButton {\n }\n 11 = MainMenuMicroButton {\n }\n}\npad = nil\nnumbuttons = 11\nRows = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'Rows' (a nil value)\"\nmath_ceil = <function> defined =[C]:-1\nMasque = nil\n",
+			["stack"] = "Interface\\AddOns\\Bartender4\\ButtonBar.lua:167: in function `UpdateButtonLayout'\nInterface\\AddOns\\Bartender4\\MicroMenu.lua:146: in function `UpdateButtonLayout'\nInterface\\AddOns\\Bartender4\\MicroMenu.lua:111: in function <Interface\\AddOns\\Bartender4\\MicroMenu.lua:107>\n(tail call): ?\n[C]: in function `UpdateMicroButtons'\n[string \"*:OnEvent\"]:6: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `SetBindingMacro'\n...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager-1.68.lua:7613: in function `CreateMacro'\n...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager-1.68.lua:22101: in function <...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager.lua:22091>\n[C]: ?\n[C]: ?",
+			["session"] = 417,
+			["counter"] = 9,
+		}, -- [29]
+		{
+			["message"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: attempt to call global 'RegisterAddonMessagePrefix' (a nil value)",
+			["time"] = "2019/01/30 09:12:34",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"FollowFelankor\"\n(*temporary) = \"attempt to call global 'RegisterAddonMessagePrefix' (a nil value)\"\n",
+			["stack"] = "Interface\\AddOns\\FollowFelankor\\FollowFelankor-2.5.5a [60000].lua:346: in function `FF_OnLoad'\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>",
+			["session"] = 418,
+			["counter"] = 56,
+		}, -- [30]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Frost.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 42,
+		}, -- [31]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\DeathKnight\\Unholy.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 42,
+		}, -- [32]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Marksmanship.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 42,
+		}, -- [33]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Hunter\\Survival.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 41,
+		}, -- [34]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Fire.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 38,
+		}, -- [35]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Mage\\Frost.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 25,
+		}, -- [36]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Monk\\Mistweaver.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 10,
+		}, -- [37]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Holy.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 9,
+		}, -- [38]
+		{
+			["message"] = "Error loading Interface\\AddOns\\GS-MultiboxMacros\\GSEMacros\\Priest\\Shadow.lua",
+			["time"] = "2019/01/30 09:12:39",
+			["session"] = 418,
+			["counter"] = 8,
 		}, -- [39]
+		{
+			["message"] = "...nterface\\AddOns\\Guild_Roster_Manager\\GRM_Patches.lua:2992: attempt to index field '?' (a nil value)",
+			["time"] = "2019/09/13 09:41:55",
+			["locals"] = "(for index) = 2\n(for limit) = 2\n(for step) = 1\ni = 2\n(for index) = 2\n(for limit) = 2\n(for step) = -1\nj = 2\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\n",
+			["stack"] = "...nterface\\AddOns\\Guild_Roster_Manager\\GRM_Patches.lua:2992: in function `FixMonthDateRecommendationError'\n...nterface\\AddOns\\Guild_Roster_Manager\\GRM_Patches.lua:382: in function `SettingsCheck'\n...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager-1.72.lua:668: in function `LoadSettings'\n...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager-1.72.lua:22965: in function <...AddOns\\Guild_Roster_Manager\\Guild_Roster_Manager.lua:22963>",
+			["session"] = 418,
+			["counter"] = 1,
+		}, -- [40]
+		{
+			["message"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: attempt to call field 'GetMountInfo' (a nil value)",
+			["time"] = "2019/01/30 09:12:42",
+			["locals"] = "FFNewNumMounts = 82\n(for index) = 1\n(for limit) = 82\n(for step) = 1\ni = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call field 'GetMountInfo' (a nil value)\"\n",
+			["stack"] = "Interface\\AddOns\\FollowFelankor\\FFMount.lua:28: in function `FF_UpdateMounts'\nInterface\\AddOns\\FollowFelankor\\FFEvents.lua:38: in function <Interface\\AddOns\\FollowFelankor\\FFEvents.lua:22>",
+			["session"] = 418,
+			["counter"] = 2082,
+		}, -- [41]
 	},
 }

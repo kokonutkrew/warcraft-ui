@@ -1,4 +1,8 @@
-﻿Version 1.10.5
+﻿Version 1.10.6
+- Fix Ancient Pandaren Charm support now that it's a toy
+- Fix a bunch of Lua errors (misspelled variables, bad globals, etc.)
+
+Version 1.10.5
 - Fix missing reference for raft support
 
 Version 1.10.4

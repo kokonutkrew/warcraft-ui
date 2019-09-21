@@ -89,7 +89,9 @@ end
 
 function GoldTracker.OnDisable()
 	private.PlayerLogGold()
-	private.GuildLogGold()
+	if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
+		private.GuildLogGold()
+	end
 	TSM.db.sync.internalData.goldLog = TSMAPI_FOUR.CSV.Encode(CSV_COLUMNS, private.characterGoldLog[private.currentCharacterKey])
 	local guild = TSMAPI_FOUR.PlayerInfo.GetPlayerGuild(UnitName("player"))
 	if guild and private.guildGoldLog[guild] then
@@ -169,7 +171,7 @@ end
 -- ============================================================================
 
 function private.UpdateGoldLog(goldLog, copper)
-	copper = TSMAPI_FOUR.Util.Round(copper, COPPER_PER_GOLD * 1000)
+	copper = TSMAPI_FOUR.Util.Round(copper, COPPER_PER_GOLD * (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and 1 or 1000))
 	local currentMinute = floor(time() / 60)
 	local prevRecord = goldLog[#goldLog]
 
@@ -286,11 +288,11 @@ function private.GetGoldValueAtTime(logEntries, timestamp)
 				-- timestamp is before we had any data
 				return 0
 			end
-			return TSMAPI_FOUR.Util.Round(logEntries[i-1].copper / (COPPER_PER_GOLD * 1000))
+			return TSMAPI_FOUR.Util.Round(logEntries[i-1].copper / (COPPER_PER_GOLD * (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and 1 or 1000)))
 		end
 	end
 	-- we're on the most recent entry
-	return TSMAPI_FOUR.Util.Round(logEntries[#logEntries].copper / (COPPER_PER_GOLD * 1000))
+	return TSMAPI_FOUR.Util.Round(logEntries[#logEntries].copper / (COPPER_PER_GOLD * (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and 1 or 1000)))
 end
 
 function private.CharacterGuildIteratorHelper(_, lastKey)

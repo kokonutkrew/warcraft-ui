@@ -167,6 +167,8 @@ VER 3 00000000000000B6 "GRM_Roster" "Achievement_pvp_h_a"
 /run GuildFrame_Toggle()
 /run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
+VER 3 00000000000000B7 "GRM_Tool" "Inv_axe_39"
+END
 VER 3 0000000000000061 "Invite" "135026"
 --/run GuildManager:InviteAction()
 /flood on

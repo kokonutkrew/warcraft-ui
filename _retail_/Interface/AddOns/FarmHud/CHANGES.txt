@@ -1,12 +1,12 @@
-tag 043d46006cb295cddb13e4158e691e1e2087d6c3 8.1.2-release
+tag f18e10825fcff92681e21410c1e5a24d9f866a09 8.2-1-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Tue Jun 25 09:44:32 2019 +0200
+Date:	Fri Aug 30 15:18:40 2019 +0200
 
-Tagging as 8.1.2-release
+Tagging as 8.2-1-release
 
-commit b6fb58628c9380031df1e4e3edf883f23bc5f06f
+commit 0c5e0c6fb73633f3b9151f1a021afb4d46414627
 Author: Hizuro <hizuro@gmx.net>
-Date:   Tue Jun 25 09:17:02 2019 +0200
+Date:   Fri Aug 30 15:16:51 2019 +0200
 
-    update toc file for 8.2
+    added support for questie's customized lib HereBeDragon for classic
 

@@ -510,7 +510,7 @@ FishingBuddy.GetZoneIndex = GetZoneIndex;
 
 local function GetCurrentZoneIndex(marker)
 	initmappings();
-	mapId, subzone = GetCurrentMapIdInfo();
+	local mapId, subzone = GetCurrentMapIdInfo();
 	return GetZoneIndex(mapId, subzone, marker)
 end
 FishingBuddy.GetCurrentZoneIndex = GetCurrentZoneIndex;
@@ -669,8 +669,9 @@ local function AddFishie(color, id, name, mapId, subzone, texture, quantity, qua
 	end
 
 	if ( not subzone ) then
-		subzone = zone;
+		_, subzone = GetCurrentMapIdInfo();
 	end
+
 	local zidx, sidx = AddZoneIndex(mapId, subzone);
 	local idx = zmto(zidx, sidx);
 
@@ -725,6 +726,7 @@ local function AddFishie(color, id, name, mapId, subzone, texture, quantity, qua
 		fs[idx] = 0;
 	end
 	local skill, mods, _ = FL:GetCurrentSkill();
+	local skillcheck = 0;
 	if ( not skillcheck ) then
 		skillcheck = skill + mods;
 	end
@@ -732,12 +734,12 @@ local function AddFishie(color, id, name, mapId, subzone, texture, quantity, qua
 		if ( not fs[idx] or skillcheck < fs[idx] ) then
 			fs[idx] = skillcheck;
 		end
-		if ( fishid ) then
-			if ( not FishingBuddy_Info["Fishies"][fishid].level or
-				  skillcheck < FishingBuddy_Info["Fishies"][fishid].level ) then
-				FishingBuddy_Info["Fishies"][fishid].level = skillcheck;
-				FishingBuddy_Info["Fishies"][fishid].skill = skill;
-				FishingBuddy_Info["Fishies"][fishid].mods = mods;
+		if ( id ) then
+			if ( not FishingBuddy_Info["Fishies"][id].level or
+				  skillcheck < FishingBuddy_Info["Fishies"][id].level ) then
+				FishingBuddy_Info["Fishies"][id].level = skillcheck;
+				FishingBuddy_Info["Fishies"][id].skill = skill;
+				FishingBuddy_Info["Fishies"][id].mods = mods;
 			end
 		end
 	end
@@ -774,8 +776,13 @@ local function ProcessFishLoot()
 end
 lootframe:SetScript("OnUpdate", ProcessFishLoot);
 
-local function AddLootCache(texture, fishie, quantity, quality, link, poolhit)
-	tinsert(lootcache, {texture = texture, fishie = fishie, quantity = quantity, quality = quality, link = link, poolhit = poolhint});
+local function GetLootState()
+	return lootcount, lootcheck;
+end
+FishingBuddy.GetLootState = GetLootState;
+
+local function AddLootCache(texture, fishie, quantity, quality, link, poolhint)
+	tinsert(lootcache, {texture = texture, fishie = fishie, quantity = quantity, quality = quality, link = link, poolhint = poolhint});
 	lootframe:Show()
 end
 FishingBuddy.AddLootCache = AddLootCache

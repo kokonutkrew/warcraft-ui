@@ -227,6 +227,8 @@ L["Mouse Button 5"] = "鼠標鍵5"
 L["Mouse Buttons."] = "鼠標鍵."
 L["Moved %s to class %s."] = "移動 %s 到職業 %s ."
 L["Mythic"] = "史詩難度"
+--[[Translation missing --]]
+L["Mythic setting changed to Default."] = "Mythic setting changed to Default."
 L["Mythic+"] = "史詩難度+"
 L["Mythic+ setting changed to Default."] = "史詩難度+設置更改為默認."
 L["Neck"] = "頸部"
@@ -278,6 +280,8 @@ L["Prompt Samples"] = "提示樣品"
 L["PVP"] = "PVP"
 L["PVP setting changed to Default."] = "PVP設置更改為默認值."
 L["Raid"] = "Raid"
+--[[Translation missing --]]
+L["Raid setting changed to Default."] = "Raid setting changed to Default."
 L["Random - It will select .... a spell, any spell"] = "隨機 - 它將選擇......一個咒語，任何咒語"
 L["Ready to Send"] = "準備發送"
 L["Received Sequence "] = "接收序列"
@@ -446,6 +450,7 @@ L["You need to reload the User Interface for the change in StepFunction to take 
 L["You need to reload the User Interface to complete this task.  Would you like to do this now?"] = "你需要重新加載用戶界面以完成此任務. 你現在想這樣做嗎?"
 L["Your ClassID is "] = "你的 Class ID 是"
 L["Your current Specialisation is "] = "你當前的專精是"
+
 
 
 

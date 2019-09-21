@@ -570,4 +570,5 @@ NL["Winter's Kiss"] = "Beijo-do-inverno"
 NL["Wintersbite"] = "Wintersbite"
 NL["Withered Herb"] = "Planta Murcha"
 NL["Zandalari Archaeology Find"] = "Achado Arqueológico Zandalari"
+NL["Zin'anthid"] = "Zin'antida"
 

@@ -156,6 +156,7 @@ local tabbuttons = {};
 local tabmap = {};
 
 local function Handle_TabClick(tabframe, tabname)
+    local target;
     if tabframe.target.handoff then
         target = tabframe.target.handoff
     else
@@ -479,8 +480,9 @@ FishingBuddy.CreateFBDropDownMenu = function(holdername, menuname)
     if (not menuname) then
         menuname = holdername.."Menu"
     end
-    local menu = CreateFrame("Frame", menuname, holder, "FishingBuddyDropDownMenuTemplate");
+    local menu = CreateFrame("Frame", menuname, nil, "FishingBuddyDropDownMenuTemplate");
     local holder = CreateLabeledThing(holdername, '', menu, 'menu')
+    menu:SetParent(holder)
     holder.width_adjust = -12;
     holder.html = CreateFrame("SimpleHTML", nil, holder);
     holder.html:ClearAllPoints();

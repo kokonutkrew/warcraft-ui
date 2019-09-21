@@ -1,3 +1,319 @@
+**VERSION 8.2R1.72 DATE: September 10th, 2019**
+
+* Major bug fix - for many addon would not load in 1.71 update - this is resolved
+
+* Player nameChanges should now report properly.
+
+
+**VERSION 8.2R1.71 DATE: September 9th, 2019**
+
+*More progress on the path to smoothing out Classic!*
+
+**--------------**
+**QUALITY OF LIFE**
+**--------------**
+
+* QOL1: Classic - Social Micro button should now properly show a localized tooltip for all languages
+
+* QOL2: Classic - Ctrl-hotkey (typically CTRL-J) keybind is unnecessary in Classic and is now removed
+
+* QOL3: Classic - Reputation on player mouseover window is not relevant in Classic and is now removed
+
+* QOL4: Classic - Several irrelevant "Options" configurations are made more obvious to not be applicable in Classic.
+
+* QOL5: Both - When closing the members detail window (where you can do promotions), it doesn't immediately release the pause on mouseover if the player mouseover frame is still visible. Either closing the window or 1 more ESC key will do it. Feels better, imo.
+
+* QOL6: BOTH: When editing a player date, rather than the starting date being today's date, it will instead be the corresponding date that is to be edited.
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Classic - Rank changes should now properly log when you promote and demote people!
+
+* BUG2: Classic - Players should no longer be reported as having gotten a demotion when they join the guild, in some cases.
+
+* BUG3: Classic - Players should be unhighlighted and unselected now with the Guild Roster properly as you mouseover from one to the next
+
+* BUG4: Classic - Compatibility built with ElvUI again, since they are still calling many community frames, it can error out GRM.
+
+* BUG5: Classic - Mouseover should now work on the roster window for both "Player Status" and "Guild Status" settings...
+
+* BUG6: Classic - Mouseover window should now be properly pinned to the guild roster in all cases.
+
+* BUG7: Classic - Critical German Client only bug that caused tons of /ginfo system message spam. Oops!
+
+* BUG8: BOTH - Adding and removing ranks to a guild should properly report how many to the log now.
+
+* BUG9: BOTH - Keybind for opening the roster should not overwrite yours now if it already exists. Oops!
+
+* BUG10: BOTH - Found that when a player not only joins the guild, but is promoted to a higher rank than the initial, the log was reporting this. But, in some cases it was logging a double report of a rank. It would have 2 listing in the mouseover history of promotions of the same exact promotion on the same day. Furthermore, this could error out in Classic where if it was not found in the event log, since it can't be, it would report a nil, throwing an error on mouseover. Database is cleaned up and prevented from occurring. This CAN technically happen in retail, but less likely for reasons I won't bore you with.
+
+* BUG11: BOTH - Macro tool the recommendations to kick if player offline was accidentally set to a default of after 75 months, or in other words, 6 years and 3 months offline lol. If you had not already changed this the settings will be reset to their proper default recommendation of 12 months. This does not re-enable it if you have it disabled. It only changes the stored month interval.
+
+* BUG12: BOTH - The ESCAPE key should once again properly work if you open the macro tool. It was not bringing up the game menu after loading the macro tool and it was messing up some things.
+
+* BUG13: BOTH - Critical storage wasting bug. If you ever used /grm clearguild it created a 2nd index of the backups, wastefully. This now purges the double backups and removes the bug
+
+* BUG14: BOTH - Ban reason count 14/0 on first focus when adding a ban. For some reason it was tallying maxLetters rather than maxBytes. It has to be set to maxBytes for sync purposes, rather than letters, as some alt-code type special characters or asian characters can take up 3 bytes (but count only as 1 character). 75 characters could be 225 bytes in theory, whilst 75 Bytes is 75 bytes.
+
+
+**VERSION 8.2R1.70 DATE: September 5th, 2019**
+
+*Minor update in regards to smoothing out some bugs for both Classic and retail*
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: CLASSIC - Promotions/Demotions that you make should now properly instantly trigger the change to the roster and report to the log
+
+* BUG2: CLASSIC - Fixed an issue that could cause a Lua error when an invited player joins the guild.
+
+* BUG3: CLASSIC - Fixed an issue that could prevent a Classic addon user from loading GRM properly due to a previously loaded incompatible build. Popup window will appear on logon requiring you to confirm the action and reload the UI to resolve the bug.
+
+* BUG4: Default recommend to kick a player was accidentally set to only announce after 75 months lol. Oops! Shoulda been 12
+
+* BUG5: Join dates detected live should now properly again be stored as verified information of that moment (promotion/demotions already does)
+
+* BUG6: Fixed a bug that would cause a Lua error when adding an alt to a "main" where the alt had their bday set to "unknown" - the alt would still add, but it would error out and fill to reset the addAlt window. This is resolved now.
+
+* BUG7: The Macro Tool button should now be properly sized, and the 2 buttons above the roster have had their font size increase a bit.
+
+
+**VERSION 8.2R1.69 DATE: September 4th, 2019**
+
+**CLASSIC COMPATIBILITY RELEASE**
+
+*That's right! I went ahead and ported this to WoW Classic. This was not a small undertaking. GRM is deeply integrated into the guild interface and with BFA 8.0 release of Communities I decided to go all-in and intertwine the addon into the modern interface. I even abandoned some old data pull methods relying on the original roster and instead relied on the speedier "CommunitiesUtil" and "C_Club" API collection. This is not accessible in Classic. It meant reverting a great deal of work, and then adapting it to what I had built since BFA had launched.*
+
+*As such, I have somewhat made the assumption that one day Blizz might release TBC Classic, and even WOTLK Classic some years down the road. So, rather than go through this process again, maybe 2 or 3 years from now, I have decided to take pre-emptive action and I basically rebuilt much of the addon with a bit more flexibility for handling these changes on the future down to not just expansion changes, but even individual "Builds" or patches. This should save me some future headaches. I also did this very a very important reason. Coding is time-consuming. This is a hobby of mine, at the end of the day. I still have my wife and kids, my career, my other distractions in life, and as such GRM remains basically my interest as I have time to put into it. This is just me making sure that my time doesn't get too buried into it as it continues to grow. By ensuring I have only 1 single code-base I have to deal with, rather than 1 for Classic, and 1 for Retail (and if more epxansions came out 1 for each of them), I instead get to deal with just 1 single code-base and my life is a heck of a lot easier. This may help explain why my release of Classic maybe took a bit more time and effort than usual.*
+
+**Limitiations of Classic:**
+
+* No in-game Calendar. This means no adding anniversaries and birthdays to the calendar. As such, I have temporarily disabled anniversary/bday announcements until I decide what I want to do... I am considering making at least a Classic unique "list" of upcoming anniversaries and bdays for leadership to reference. Until then it is disabled.
+
+* No guild event log. It did not exist in Classic. This is that tiny log you can click that tells you the last 100 events in your guild, like who kicked a player, who invited a player and so on. Since this log does not exist, while GRM can detect that a player joined the guild or left it, the addon cannot determine who invited the person, or who promoted them. Sadly, you will have to rely on just knowing they were promoted. There is currently no server data that provides this information in Classic.
+
+* More untrustworthy dates. Because the addon cannot know the exact date a person joined the guild. For example, let's say you are offline 3 days, you logon and find 10 new memebers. Before, in retail, GRM could look at the event log and pull the exact dates (as long as it was within the last 100 events). Well, in Classic there is no way to know when in the last 3 days it occurred. So, it just adds a timestamp of when you logged in. Those dates are flagged with 2 red exclamation points as "unverified" - This prevents unverified data from syncing to others. To verify all you need to do is right click the date on the player mouseover window, edit it or confirm it.
+
+* Some limitiations on the speed information is accessible. With Communities, if someone joined the guild I could pull their full data and build a metadata profile of their character instantly. With Classic I have to wait for a callback from the server indicating the data has been refreshed. This can take up to 10 seconds when a player joins for it to trigger them in the guild. If you currently have the roster window open, it will update in less than a second, but in Classic, if the Guild Roster is closed, it won't do on-the-fly updates of roster info.
+
+* Yay, most features still work just fine!
+
+
+***Classic Specific Updates***
+
+* CLASSIC1: GRM fully ported and working!!!
+
+* CLASSIC2: Opening the Guild Info now auto-focuses the edit box, it also only closes the Guild Info frame when pressing ESCAPE key rather than closing the entire guild roster.
+
+* CLASSIC3: Social Micro Button (since there is no guild/community button in Classic), I added a tooltip explanation and the ability to CTRL-CLICK that button to open guild window. CTRL-J also works, and added the keybind default to "J" to open guild roster (it was not set by default)
+
+* CLASSIC4: Icon texture was unavailable for the minimap, so in classic a different texture is used. This also applies to the macro button icons.
+
+
+***NEW FEATURES***
+
+**Tagging and Flagging unverified dates (TY @Ayr on Discord)**
+
+*Previously briefly touched on this in regards to Classic unverified dates. Yes, this works retroactively with your databases, as the information was already there.*
+
+*Unverified dates exist because they were not able to be verified by using the guild event log. You NEED to have verified data to be "safe to sync." However, if the date is not discovered, or you are playing Classic, then it becomes untrustworthy data. These dates will now be obviously tagged with a “!!” red in front of the dates on both the player window and the audit, as well as a mouseover tooltip explanation on how to resolve them. These will automatically be removed if you sync with a guildie with verified data, or you Edit the data yourself and confirm it. What we don't want to happen is say a guildie has been offline for 3 months, logs in, tags a bunch of dates as the day he logged in, since no other dates were discoverable, and then sync that bad data over, ultimately overwriting accurate data because it is logged as newer. That would be bad. He still has a reference point date from when he logged on, but he won’t share that with you until data is verified.*
+
+
+**--------------**
+**QUALITY OF LIFE**
+**--------------**
+
+* QOL1: AFK notification system, or players going offline/coming online, is now wholly independent of the roster process, so even if you have it to never scan for changes except when you logon. You can still right-click the AFK/Offline status of the player on the mouseover window and set to be notified of their return. If the roster window is open it will now notify you within 1 second of the update. If it is closed the server will push the information out within 10 seconds, so it is much much more reliable and usable.
+
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed an issue with the recruitment window getting repeated hooks causing message spam on a ginvite and some additional guild check spam on the back end was unnecessary ( TY @Xulu on Discord)
+
+* BUG2: Fixed an issue where sync was not working properly in all cases in regards to birthday information.
+
+* BUG3: In the GRM Macro tool "safe" list the tooltip was not stating the time offline properly for "Kick" actions being ignored.
+
+* BUG4: Officer note change message was not being reported instantly to the chat log when manually editing the officer note with GRM
+
+* BUG5: Audit frames should now properly update LIVE as changes between players are sync'd. Some data was not updating visually on the fly.
+
+* BUG6: /grm center should now properly center frames again, storing the positions between sessions. Useful if a player drags a frame off screen
+
+* BUG7: Fixed an issue that could prevent some people from getting GRM to initialize on first login.
+
+
+
+**VERSION 8.2R1.68 DATE: August 28th, 2019**
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed an issue in regards to people that used the original /groster - the "OnUpdate" handler of the new Tool's button was erroring out.
+
+* BUG2: Ignore recommendations unless all in the alt grouping were inactive was not filtering properly. This is now updated.
+
+* BUG3: Frames should now properly auto-update and repopulate the lists on changes to the roster, such as settings changes, or add/remove alts
+
+
+**VERSION 8.2R1.67 DATE: August 26th, 2019**
+
+*NOTE: This is NOT a compatibility update for Classic. I am planning on it. I have built a lot of backend infrastructure to help the process. But, I am pushing this out because I wanted to be done with it so I can focus on Classic!*
+
+***NEW FEATURES***
+
+**Macro Tool**
+
+*This new Macro Tool is to assist players in being able to do things far more streamlined and easier since Blizz restricted addons from kicking/promoting/demoting players. So, what the addon now does is compiles a list of names based on a set of rules configured by some filters and then it auto-creates a large macro. It crams as many names as it can into that macro. It then binds that macro to a hot-key (so you don't have to keep it on the bars). Upon pressing the macro it activates all actions, clears the macro and rebuilds a new macro from the names in the que. In theory, you should be able to spam the macro rather rapidly to complete all macro'd actions, like /gremove playerName (and kick 10-15 names at a time, depending on their name length). It should be noted that as of now only the "Kick" recommendation rules are currently implemented.
+
+![GRM Macro Tool](https://i.imgur.com/8OeTMwW.jpg)
+
+* Auto-build and rebuild the macro as needed
+
+* Ability to create a "Safe" ignore list of players you want to be immune to the recommended filters. For example, maybe you want to kick everyone offline > 6 months, but you don't want to kick a specific person ever. Or, maybe some gets deployed 9 months, etc...
+
+* Ability to ignore recommended actions as long as at least 1 toon in an alt grouping is say, active.
+
+* Ability to adjust the macro on the fly and remove names quickly with only temporarily removing them from the que. Rebuilding the macro will re-add the names
+
+* Ability to manage the "Ignore List" easily from within the tool.
+
+* New Checkbox on the mouseover window in the bottome left corner to set a person as ignore.
+
+* /grm tool or kick or promote or demote will all bring up the new Macro Tool (or just click the new button on the roster window)
+
+*I am about 3000+ lines of code into this new tool, and a bit more work to go. This is why this release took so long*
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed a bug that seemed to affect a few people when trying to sync whilst in combat. Unfortunately there seems to have been a slight change on the backend server where some info is restricted when in combat. This no longer errors out.
+
+
+**VERSION 8.2R1.66 DATE: July 23rd, 2019**
+
+*Needed to rush this out due to a potential bug that could affect only new users, but not all. Sort of an edge case that would prvent some from loading the first time, though it would load properly on their 2nd attempt after relog or reload. Now is should configure properly for all.*
+
+***NEW FEATURES***
+
+*Custom Note Tags for auto added join dates (for join and rejoin)*
+
+* Change the "Joined: XXXX" or "Rejoined: XXXX" date tags to your own custom ones! This is found in the Officer Options tab.
+
+* Global control of these custom tags has also been included using the key "g6^"
+
+* Example: "g6^Joined:^^Rejoined:^^"  (though using your own custom tags)
+
+*   - You MUST include the "^^" to verify the stop. Max number of characters is 16 per tag.
+
+*   - "g6^Joined:^^"      - No need to force both, you can force just the Joined.
+
+*   - "g6^^^Rejoined:^^"  - You can also just force the Rejoined, and ignore the joined (notice there still is the double ^^, but the joined is empty, no text).
+
+*   - "g6^Capt'sLog:^^Re-Recruited:^^"  - Pure custom, so if a player joins, or rejoins, they date auto added to the officer note will be like "Capt's Log: 23 Jul '19'"
+
+**--------------**
+**QUALITY OF LIFE**
+**--------------**
+  
+* QoL1: Dutch compatibility has been built-in. While it is not yet localized into Dutch, it can now be selected as a language option as we patiently await the translation work (as of now roughly 900 lines to do all. So much work!)
+
+* QoL2: Cleaned up a littl ebit of unnecessary processing in the background that could be optimized a little bit.
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed another bug that could cause new addon users or new alts to trigger on load - it goes away after a reload - this is sort of an edge case and won't affect everyone.
+
+
+**VERSION 8.2R1.65 DATE: July 22nd, 2019**
+
+*Minor bug fix - addon would not load for NEW alts or new users of the addon as the LoadSettings was triggering a check on the new channel destination which had not yet been configured to default as of yet. This is now resolved.*
+
+
+**VERSION 8.2R1.64 DATE: July 22nd, 2019**
+
+***NEW FEATURES***
+
+*Nothing too major. Some large stuff in the pipeline, so this is a minor cleanup patch with a couple Quality of Life improvements, and some added customization.*
+
+* New1: Players now have the ability to choose which channel to send GRM messages to, in the General Options - 
+
+*   - If you wish, GRM will create the channel for you when you type in a custom name, and if it doesn't exist, it will prompt you for permission to create it.
+
+*   - If you end up removing the custom channel GRM will automatically report to the defauly general chat channel again.
+
+*   - This chat window setting will not be sync'd between alts and will be character specific.
+
+**--------------**
+**QUALITY OF LIFE**
+**--------------**
+
+* QoL1: Italian is fully translated once again! TY @Nihal6#8125 (Discord)
+
+* QoL2: Someone had pointed out that when clicking some custom values, the editbox disappears, though you can still type. This has been around forever and I decided a long time ago I was only ever going to fix it if someone reported it lol. Well, the time has finally come!!! So now, they are properly displaying :D
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* Bug1: Fixed an issue that caused a Lua error on trying to export the player join dates to the designated note location if they were not there.
+
+* Bug2: When manually clearing a range of lines from the log, the addon will now properly tell you the number of lines cleared, not falsely report only 1 line was cleared.
+
+* Bug3: The font should now properly resize and change on the main log, the audit window, the backup window, and the Advanced Join Date Audit tool - before it would only refresh the size settings on a reload. It should now happen instantly on changing the setting.
+
+* Bug4: There's actually a couple of other bugs I resolved and now, for the life of me, I don't even remember exactly what they were because I was too lazy to document it that night lol.
+
+
+**VERSION 8.2R1.63 DATE: July 12th, 2019**
+
+**--------------**
+**QUALITY OF LIFE**
+**--------------**
+
+* QOL1: Audit Window has been rebuilt and now scrolls as a hybridscroll frame
+
+*   - In addition, birthdays have been added to the audit window, as well as the ability to set birthdays as "unknown" if you prefer, both in the audit and the player mouseover window.
+
+*   - It should be noted that in the GRM Options > UI tab, you can completely disable the birthday info if you choose not to track it in your guild, and the audit window will show that info as disabled and be considered "complete"
+
+* QOL2: GRM window should now properly save its position. This is due to some changes in 8.2 that essentially made "SetUserPlaced" where Warcraft automatically stored the position you dragged the window between sessions. Now, I have to manually store the points as saved data and load it.
+
+* QOL3: Fixed a couple misc. typos I noticed.
+
+**--------------**
+**BUGS AND BUGS!**
+**--------------**
+
+* BUG1: Fixed and issue with the built-in backup/restore not working properly as it was not loading the guild names properly to match to the database.
+
+* BUG2: Tooltip should no longer permanently resize in some cases, like when opening the audit log.
+
+* BUG3: Fixed a self-resolving sync bug, so that it doesn't happen at all.
+
+* BUG4: Fixed an issue on removing a range of log entries where it would not remove index position 1
+
+* BUG5: Title of the events was wrapping the text and messing allignment in some cases. Fixed
+
+* BUG6: The Communities window will now properly open when in combat when using the MicroToolbarButton, not the hotkey.
+
+* BUG7: Advanced Join Date Audit tool should now always stay properly anchored in place.
+
+
+**VERSION 8.2R1.62 DATE: June 28th, 2019**
+
+*Further smoothing out the 8.2 transition*
+
+
 **VERSION 8.2R1.61 DATE: June 26th, 2019**
 
 *Unanticipated bug that only affects some people on the 8.2 update changes of patch R.160 release)

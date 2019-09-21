@@ -89,7 +89,7 @@ local function SetupRaftOptions()
         ["tooltip"] = FBConstants.CONFIG_USERAFTS_INFO,
         ["tooltipd"] = FBConstants.CONFIG_USERAFTS_INFOD,
         ["text"] = FBConstants.CONFIG_USERAFTS_ONOFF,
-        ["enabled"] = haveAny;
+        ["enabled"] = HaveRafts;
         ["v"] = 1,
         ["default"] = true
     };

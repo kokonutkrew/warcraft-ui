@@ -1,24 +1,13 @@
-tag b076712672a8210d2de57d5b2f4097baa8eb2bd4 1.2.0
+tag 618263b751f89bf2c6f867f710715a10a09be6a8 1.2.2
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Mon Jul 1 09:28:44 2019 +0200
+Date:	Mon Sep 2 23:32:43 2019 +0200
 
-Updated to 8.2.0
+#11
+#33
 
-commit 46dcc9f98e0e1d7c2380e0fd69eb48bbec477ad1
+commit c70447a38903f4c653ff26af5352494376375b9d
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Mon Jul 1 09:28:07 2019 +0200
+Date:   Mon Sep 2 23:31:27 2019 +0200
 
-    TOC Bump
-
-commit 770094636e14f3d60f0d2140215d8d83fe5e6f13
-Author: Alar of Runetotem <alar@aspide.it>
-Date:   Mon Jul 1 09:27:16 2019 +0200
-
-    Defends from no status follower
-
-commit e430f1b4aa5875622bf583295b784e2bc2b5d071
-Author: Alar of Runetotem <alar@aspide.it>
-Date:   Tue May 14 22:34:48 2019 +0200
-
-    #24 fixed MAX_LEVEL
+    Removed debug message
 

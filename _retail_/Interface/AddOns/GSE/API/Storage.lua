@@ -90,8 +90,8 @@ end
 function GSE.OOCAddSequenceToCollection(sequenceName, sequence, classid)
   -- check for version flags.
   if sequence.EnforceCompatability then
-    if tonumber(sequence.GSEVersion) > tonumber(GSE.VersionString) then
-      GSE.Print(string.format(L["This macro uses features that are not available in this version. You need to update GSE to %s in order to use this macro."], GSE.formatModVersion(sequence.GSEVersion)))
+    if GSE.ParseVersion(sequence.GSEVersion) > (GSE.VersionNumber) then
+      GSE.Print(string.format(L["This macro uses features that are not available in this version. You need to update GSE to %s in order to use this macro."], sequence.GSEVersion))
       GSE.PrintDebugMessage("Macro Version " .. sequence.GSEVersion .. " Required Version: " .. GSE.VersionString , "Storage" )
       return
     end
@@ -527,7 +527,7 @@ function GSE.ExportSequence(sequence, sequenceName, verbose, mode, hideversion)
     --local returnVal = ("Sequences['" .. sequenceName .. "'] = {\n" .."author=\"".. sequence.author .."\",\n" .."specID="..sequence.specID ..",\n" .. sequencemeta .. steps )
     returnVal = "Sequences['" .. GSEOptions.EmphasisColour .. sequenceName .. Statics.StringReset .. "'] = {\n"
     if not hideversion then
-      returnVal = returnVal .. GSEOptions.CONCAT .. "-- " .. string.format(L["This Sequence was exported from GSE %s."], GSE.formatModVersion(GSE.VersionString)) .. Statics.StringReset .. "\n"
+      returnVal = returnVal .. GSEOptions.CONCAT .. "-- " .. string.format(L["This Sequence was exported from GSE %s."], GSE.VersionString) .. Statics.StringReset .. "\n"
     end
     returnVal = returnVal .. "  Author=\"" .. GSEOptions.AuthorColour .. (GSE.isEmpty(sequence.Author) and "Unknown Author" or sequence.Author) .. Statics.StringReset .. "\",\n" .. (GSE.isEmpty(sequence.SpecID) and "-- Unknown SpecID.  This could be a GS sequence and not a GS-E one.  Care will need to be taken. \n" or "  SpecID=" .. GSEOptions.NUMBER  .. sequence.SpecID .. Statics.StringReset ..",\n") ..  sequencemeta
     if not GSE.isEmpty(sequence.Icon) then
@@ -1254,6 +1254,17 @@ function GSE.GetMacroResetImplementation()
 
 end
 
+--- This function finds a macro by name.  It checks current class first then global
+function GSE.FindMacro(sequenceName)
+  local returnVal = {}
+  if not GSE.isEmpty(GSELibrary[GSE.GetCurrentClassID()][sequenceName]) then
+    returnVal = GSELibrary[GSE.GetCurrentClassID()][sequenceName]
+  elseif not GSE.isEmpty(GSELibrary[0][sequenceName]) then
+    returnVal = GSELibrary[0][sequenceName]
+  end
+  return returnVal
+end
+
 --- This funcion returns the actual onclick implementation
 function GSE.PrepareOnClickImplementation(sequence)
   local returnstring = (GSEOptions.DebugPrintModConditionsOnKeyPress and Statics.PrintKeyModifiers or "" )
@@ -1345,11 +1356,11 @@ end
 
 --- This creates a pretty export for WLM Forums
 function GSE.ExportSequenceWLMFormat(sequence, sequencename)
-    local returnstring = "<strong>".. sequencename .."</strong>\n<em>Talents</em> " .. (GSE.isEmpty(sequence.Talents) and "?,?,?,?,?,?,?" or sequence.Talents) .. "\n\n\n\n"
+    local returnstring = "<br/><strong>".. sequencename .."</strong>\n<em>Talents</em> " .. (GSE.isEmpty(sequence.Talents) and "?,?,?,?,?,?,?" or sequence.Talents) .. "<br/><br/>"
     if not GSE.isEmpty(sequence.Help) then
-      returnstring = "\n\n<em>Usage Information</em>\n" .. sequence.Help .. "\n\n"
+      returnstring = "<em>Usage Information</em>\n" .. sequence.Help .. "<br/><br/>"
     end
-    returnstring = returnstring .. "This macro contains " .. (table.getn(sequence.MacroVersions) > 1 and table.getn(sequence.MacroVersions) .. "macro versions. " or "1 macro version. ") .. string.format(L["This Sequence was exported from GSE %s."], GSE.formatModVersion(GSE.VersionString)) .. "\n\n"
+    returnstring = returnstring .. "This macro contains " .. (table.getn(sequence.MacroVersions) > 1 and table.getn(sequence.MacroVersions) .. "macro versions. " or "1 macro version. ") .. string.format(L["This Sequence was exported from GSE %s."], GSE.VersionString) .. "\n\n"
     if (table.getn(sequence.MacroVersions) > 1) then
       returnstring = returnstring .. "<ul>"
       for k,v in pairs(sequence.MacroVersions) do

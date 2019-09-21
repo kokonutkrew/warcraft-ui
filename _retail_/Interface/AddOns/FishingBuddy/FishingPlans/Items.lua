@@ -80,7 +80,7 @@ local function TuskarrPlan()
             if not PLANS:HaveEntry(TuskarrItem.id) then
                 PLANS:AddEntry(TuskarrItem.id, TuskarrItem[CurLoc])
                 PLANS:AddEntry(TuskarrItem.id, TuskarrItem[CurLoc])
-                PLANS:AddEntry(main, name)
+                PLANS:AddEntry(main)
             end
         end
     end

@@ -75,6 +75,7 @@ GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolRecommendKickCheckButtonText 
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolAltsOfflineTimed = CreateFrame ( "CheckButton" , "GRM_ToolAltsOfflineTimed" , GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules , "OptionsSmallCheckButtonTemplate" );
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolAltsOfflineTimedText = GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolAltsOfflineTimed:CreateFontString ( "GRM_ToolAltsOfflineTimedText" , "OVERLAY" , "GameFontNormalSmall" );
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox = CreateFrame( "EditBox" , "GRM_RosterKickRecommendEditBox" , GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolRecommendKickCheckButton , "InputBoxTemplate" );
+GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:ClearFocus();
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:Hide();
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickOverlayNote = CreateFrame ( "Frame" , "GRM_RosterKickOverlayNote" , GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_ToolRecommendKickCheckButton );
 GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickOverlayNoteText = GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickOverlayNote:CreateFontString ( "GRM_RosterKickOverlayNoteText" , "OVERLAY" , "GameFontNormalSmall" );
@@ -231,7 +232,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
 
         GRM_UI.GRM_ToolCoreFrame:SetScript ( "OnHide" , function()
             -- Clear the macro!
-            GRM.CreateMacro ( "" , "GRM_Tool" , "Inv_axe_39" , "CTRL-SHIFT-K" );
+            GRM.CreateMacro ( "" , "GRM_Tool" , "INV_MISC_QUESTIONMARK" , "CTRL-SHIFT-K" );
             GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame:Hide();
         end);
 
@@ -430,7 +431,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoreResetSelectedNamesButton:SetScript ( "OnClick" , function ( _ , button )
             if button == "LeftButton" then
-                local result , count = GRM.IsAnyIgnoredHighlighted();
+                local result = GRM.IsAnyIgnoredHighlighted();
 
                 if result then
                     GRM.ResetIgnoredHighlights();
@@ -538,6 +539,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:SetNumeric ( true );
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:SetTextColor ( 1.0 , 0 , 0 , 1.0 );
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:EnableMouse ( true );
+        GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickRecommendEditBox:ClearFocus();
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.RuleButtons = {};
 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_RosterKickOverlayNote:SetScript ( "OnMouseDown" , function ( self , button )
@@ -704,7 +706,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolResetSelectedMacroNamesButton:SetScript ( "OnClick" , function ( _ , button )
             if button == "LeftButton" then
-                local result , count = GRM.IsAnyMacroHighlighted();
+                local result = GRM.IsAnyMacroHighlighted();
 
                 if result then
                     GRM.ResetToolMacrodHighlights();
@@ -773,7 +775,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
         GRM_UI.GRM_ToolCoreFrame.GRM_PromoTab:SetSize ( 80 , 25 );
         PanelTemplates_TabResize ( GRM_UI.GRM_ToolCoreFrame.GRM_PromoTab , nil , 80 , 25 );
         GRM_UI.GRM_ToolCoreFrame.GRM_PromoTabText:SetPoint ( "CENTER" , GRM_UI.GRM_ToolCoreFrame.GRM_PromoTab , 0 , -5 );
-        GRM_UI.GRM_ToolCoreFrame.GRM_PromoTab:SetScript ( "OnClick" , function ( self , button )
+        GRM_UI.GRM_ToolCoreFrame.GRM_PromoTab:SetScript ( "OnClick" , function ( _ , button )
             if button == "LeftButton" then
                 GRM_UI.GRM_ToolCoreFrame.TabPosition = 2;                   -- Set Position
                 GRM_UI.SetToolTabHighlights();
@@ -837,14 +839,14 @@ GRM_UI.LoadToolFrames = function ( isManual )
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu:SetBackdrop ( GRM_UI.noteBackdrop2 );
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu:SetFrameStrata ( "DIALOG" );
 
-        GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu:SetScript ( "OnKeyDown" , function ( self , key )
-            self:SetPropagateKeyboardInput ( true );
-            if key == "ESCAPE" then
-                self:SetPropagateKeyboardInput ( false );
-                self:Hide();
-                GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleSelected:Show();
-            end
-        end);
+        -- GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu:SetScript ( "OnKeyDown" , function ( self , key )
+        --     self:SetPropagateKeyboardInput ( true );
+        --     if key == "ESCAPE" then
+        --         self:SetPropagateKeyboardInput ( false );
+        --         self:Hide();
+        --         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleSelected:Show();
+        --     end
+        -- end);
 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleSelected:SetScript ( "OnShow" , function() 
             GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu:Hide();
@@ -884,7 +886,6 @@ GRM_UI.LoadToolFrames = function ( isManual )
 
                 local FontButton = GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu.Buttons[i][1];
                 local FontButtonText = GRM_UI.GRM_ToolCoreFrame.GRM_ToolKickRules.GRM_TimeScaleDropDownMenu.Buttons[i][2];
-                local additionalModifier = 0;
  
                 FontButton:SetWidth ( width );
                 FontButton:SetHeight ( 11 );
@@ -1066,7 +1067,7 @@ GRM_UI.LoadToolFrames = function ( isManual )
 
         if not MacroFrame then
             ShowMacroFrame();
-            MacroFrame:Hide();
+            MacroFrameCloseButton:Click();
         end
 
         MacroFrame:HookScript ( "OnHide" , function()
@@ -1432,7 +1433,7 @@ GRM.BuildQueuedScrollFrame = function ( showAll , fullRefresh )
     GRM.SetHybridScrollFrameSliderParameters ( 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolQueuedScrollChildFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolQueuedScrollFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolQueuedScrollFrameSilder, 
         buttonWidth , buttonHeight , scrollHeight , #GRM_UI.GRM_ToolCoreFrame.QueuedEntries , GRM_UI.GRM_ToolCoreFrame.GRM_ToolQueuedScrollChildFrame.AllButtons , 
-        GRM.KickQueuedHybridShiftDown , GRM.KickQueuedHybridShiftUp 
+        GRM.KickQueuedHybridShiftDown , GRM.KickQueuedHybridShiftUp , hybridScrollFrameButtonCount
     );
 
     if #GRM_UI.GRM_ToolCoreFrame.QueuedEntries > 13 then
@@ -1481,7 +1482,7 @@ GRM.BuildKickQueuedScrollButtons = function ( ind , isResizeAction )
         coreButton:RegisterForDrag ( "LeftButton" );
 
         -- Setup draggable conditions
-        coreButton:SetScript ( "OnDragStart" , function( self )
+        coreButton:SetScript ( "OnDragStart" , function()
             GRM_UI.GRM_ToolCoreFrame:StartMoving();
         end);
         coreButton:SetScript ( "OnDragStop" , function()
@@ -1489,7 +1490,7 @@ GRM.BuildKickQueuedScrollButtons = function ( ind , isResizeAction )
             GRM_UI.SaveToolPosition();
         end);
 
-        coreButton:SetScript ( "OnMouseDown" , function ( self , button )
+        coreButton:SetScript ( "OnMouseDown" , function ( _ , button )
             local playerName = GRM_UI.GRM_ToolCoreFrame.GRM_ToolQueuedScrollChildFrame.AllButtons[ind][2]:GetText();
             if button == "LeftButton" then
                 if IsShiftKeyDown() and IsControlKeyDown() then
@@ -1507,7 +1508,7 @@ GRM.BuildKickQueuedScrollButtons = function ( ind , isResizeAction )
             end
         end);            
 
-        coreButton:SetScript ( "OnEnter" , function ( self )
+        coreButton:SetScript ( "OnEnter" , function ()
             GRM.UpdateQueuedTooltip( ind );
         end);
 
@@ -1631,7 +1632,7 @@ GRM.GetMacroEntries = function ()
             -- Macro IS full, and we are still on the first set.
             elseif #tempText > 255 and count2 == 0 then
                 finalCount = #macroTxt;
-                GRM.CreateMacro ( macroTxt , "GRM_Tool" , "Inv_axe_39" , "CTRL-SHIFT-K" );
+                GRM.CreateMacro ( macroTxt , "GRM_Tool" , "INV_MISC_QUESTIONMARK" , "CTRL-SHIFT-K" );
                 macroSet = true;
                 count = 0;
                 count2 = count2 + 1;
@@ -1652,7 +1653,7 @@ GRM.GetMacroEntries = function ()
         if i > #entries then
             if not macroSet and #tempText > 0 then
                 finalCount = #macroTxt;
-                GRM.CreateMacro ( macroTxt , "GRM_Tool" , "Inv_axe_39" , "CTRL-SHIFT-K" );
+                GRM.CreateMacro ( macroTxt , "GRM_Tool" , "INV_MISC_QUESTIONMARK" , "CTRL-SHIFT-K" );
             end
             count2 = count2 + 1;
             -- Finished!
@@ -1851,7 +1852,7 @@ GRM.BuildMacrodScrollFrame = function ( showAll , fullRefresh )
         GRM_UI.GRM_ToolCoreFrame.MacroEntries , count , size = GRM.GetMacroEntries();
 
     elseif not fullRefresh then
-        GRM.CreateMacro ( "" , "GRM_Tool" , "Inv_axe_39" , "CTRL-SHIFT-K" );    -- Clear the macro
+        GRM.CreateMacro ( "" , "GRM_Tool" , "INV_MISC_QUESTIONMARK" , "CTRL-SHIFT-K" );    -- Clear the macro
     end
 
 
@@ -1908,7 +1909,7 @@ GRM.BuildMacrodScrollFrame = function ( showAll , fullRefresh )
     GRM.SetHybridScrollFrameSliderParameters ( 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollChildFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollFrameSilder, 
         buttonWidth , buttonHeight , scrollHeight , #GRM_UI.GRM_ToolCoreFrame.MacroEntries , GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollChildFrame.AllButtons , 
-        GRM.KickMacrodHybridShiftDown , GRM.KickMacrodHybridShiftUp 
+        GRM.KickMacrodHybridShiftDown , GRM.KickMacrodHybridShiftUp , hybridScrollFrameButtonCount
     );
     
     if #GRM_UI.GRM_ToolCoreFrame.MacroEntries > 13 then
@@ -1982,7 +1983,7 @@ GRM.BuildKickMacrodScrollButtons = function ( ind , isResizeAction )
         coreButton:RegisterForDrag ( "LeftButton" );
 
         -- Setup draggable conditions
-        coreButton:SetScript ( "OnDragStart" , function( self )
+        coreButton:SetScript ( "OnDragStart" , function()
             GRM_UI.GRM_ToolCoreFrame:StartMoving();
         end);
         coreButton:SetScript ( "OnDragStop" , function()
@@ -1990,7 +1991,7 @@ GRM.BuildKickMacrodScrollButtons = function ( ind , isResizeAction )
             GRM_UI.SaveToolPosition();
         end);
 
-        coreButton:SetScript ( "OnMouseDown" , function ( self , button )
+        coreButton:SetScript ( "OnMouseDown" , function ( _ , button )
             local playerName = GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollChildFrame.AllButtons[ind][2]:GetText();
             if button == "LeftButton" then
                 if IsShiftKeyDown() and IsControlKeyDown() then
@@ -2026,7 +2027,7 @@ GRM.BuildKickMacrodScrollButtons = function ( ind , isResizeAction )
             end
         end);            
 
-        coreButton:SetScript ( "OnEnter" , function ( self )
+        coreButton:SetScript ( "OnEnter" , function ()
             GRM.UpdateMacrodTooltip( ind );
 
             if #GRM_UI.GRM_ToolCoreFrame.MacroEntries > 13 and not GRM_UI.GRM_ToolCoreFrame.GRM_ToolMacrodScrollFrameSilder:IsVisible() then
@@ -2515,7 +2516,7 @@ GRM.BuildIgnoredScrollFrame = function ( showAll , fullRefresh )
     GRM.SetHybridScrollFrameSliderParameters ( 
         GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoredScrollChildFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoredScrollFrame , GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoredScrollFrameSilder, 
         buttonWidth , buttonHeight , scrollHeight , #GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.AllIgnoredEntries , GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoredScrollChildFrame.AllButtons , 
-        GRM.IgnoredHybridShiftDown , GRM.IgnoredHybridShiftUp 
+        GRM.IgnoredHybridShiftDown , GRM.IgnoredHybridShiftUp , hybridScrollFrameButtonCount
     );
 
     if #GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.AllIgnoredEntries > 12 then
@@ -2555,14 +2556,14 @@ GRM.BuildIgnoredScrollButtons = function ( ind , isResizeAction )
         coreButton:RegisterForDrag ( "LeftButton" );
 
         -- Setup draggable conditions
-        coreButton:SetScript ( "OnDragStart" , function( self )
+        coreButton:SetScript ( "OnDragStart" , function()
             GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame:StartMoving();
         end);
         coreButton:SetScript ( "OnDragStop" , function()
             GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame:StopMovingOrSizing();
         end);
 
-        coreButton:SetScript ( "OnMouseDown" , function ( self , button )
+        coreButton:SetScript ( "OnMouseDown" , function ( _ , button )
             local playerName = GRM_UI.GRM_ToolCoreFrame.GRM_ToolIgnoreListFrame.GRM_ToolIgnoredScrollChildFrame.AllButtons[ind][2]:GetText();
             if button == "LeftButton" then
                 if IsShiftKeyDown() and IsControlKeyDown() then
@@ -2598,7 +2599,7 @@ GRM.BuildIgnoredScrollButtons = function ( ind , isResizeAction )
             end
         end);            
 
-        coreButton:SetScript ( "OnEnter" , function ( self )
+        coreButton:SetScript ( "OnEnter" , function ()
             GRM.UpdateIgnoredToolTip( ind );
         end);
 
@@ -2640,64 +2641,64 @@ GRM.GetSafePlayers = function( getCountAndPlayers )
                 count = count + 1;
                 -- Default just gets the count - otherwise it returns the list of players as well.
                 if getCountAndPlayers then
-                    table.insert ( names , { GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ][i][1] , GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ][i][9] , false , "" } ); -- name,class,isHighlighted,Reason
+                    table.insert ( names , { GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ][i][1] , GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ][i][9] , false , "" , GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ][i][24] } ); -- name,class,isHighlighted,Reason
                 end
             end
         end
     return count , names;
 end
 
-GRM.AddOrEditRule = function ( rule , isAnEdit )
+-- GRM.AddOrEditRule = function ( rule , isAnEdit )
 
-    if isAnEdit then
+--     if isAnEdit then
 
-    else
-        for i = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
+--     else
+--         for i = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
 
-        end
-    end
+--         end
+--     end
 
-end
+-- end
 
-GRM.CreateFilterRule = function ( toDoAction , filterType , tScale , value )
-    local action = { [ "kick" ] = 1 , [ "promote" ] = 2 , [ "demote" ] = 3 };
-    local typeOfFilter= { [ "time" ] = 1 , ["level"] = 2 , ["rank"] = 3 };
-    local timeScale = { [ "month" ] = 1 , [ "day" ] = 2 };
-    local rule = { action [ toDoAction ] };
+-- GRM.CreateFilterRule = function ( toDoAction , filterType , tScale , value )
+--     local action = { [ "kick" ] = 1 , [ "promote" ] = 2 , [ "demote" ] = 3 };
+--     local typeOfFilter= { [ "time" ] = 1 , ["level"] = 2 , ["rank"] = 3 };
+--     local timeScale = { [ "month" ] = 1 , [ "day" ] = 2 };
+--     local rule = { action [ toDoAction ] };
 
-    -- Kick action
-    if rule[1] == 1 then
+--     -- Kick action
+--     if rule[1] == 1 then
 
-        table.insert ( rule , typeOfFilter [ filterType ] );
-        table.insert ( rule , timeScale [ tScale ] );
-        table.insert ( rule , value );
+--         table.insert ( rule , typeOfFilter [ filterType ] );
+--         table.insert ( rule , timeScale [ tScale ] );
+--         table.insert ( rule , value );
 
-        if GRM.CanRuleBeAdded ( rule ) then
+--         if GRM.CanRuleBeAdded ( rule ) then
 
-        end
+--         end
 
-    -- Promote action
-    elseif rule[1] == 2 then
+--     -- Promote action
+--     elseif rule[1] == 2 then
 
-    -- Demote action
-    elseif rule[1] == 3 then
+--     -- Demote action
+--     elseif rule[1] == 3 then
 
-    end
+--     end
 
-end
+-- end
 
--- Method:          GRM.CanRuleBeAdded ( array )
--- What it Does:    Determines if a rule already exists, or there is a contradictory rule
--- Purpose:         Need to allow player the flexibility to create their own custom rules without creating contradictory rules breaking the filter process
-GRM.CanRuleBeAdded = function( rule )
-    local result = true;
+-- -- Method:          GRM.CanRuleBeAdded ( array )
+-- -- What it Does:    Determines if a rule already exists, or there is a contradictory rule
+-- -- Purpose:         Need to allow player the flexibility to create their own custom rules without creating contradictory rules breaking the filter process
+-- GRM.CanRuleBeAdded = function( rule )
+--     local result = true;
 
-    for i = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
-        -- First, determine if rule 1 matches up.
-    end
+--     for i = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
+--         -- First, determine if rule 1 matches up.
+--     end
 
-    return result;
-end
+--     return result;
+-- end
 
 -- RULES!!!
 -- Method:          GRM.GetNamesByFilterRules()
@@ -2709,9 +2710,14 @@ GRM.GetNamesByFilterRules = function()
     local tempDetails = {};
     local needsToSave = false;
     local saveControlCheck = false;
-    local notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
+    local notAllKickRulesMet = false
+    -- local notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
     GRM_UI.GRM_ToolCoreFrame.Safe = {};         -- Reset the list of names
 
+    -- Escape if database hasn't fully loaded yet
+    if not guildData then
+        return result;
+    end
     -- Ok, scan through every member of the guild and scan the rules.
 
     if #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] > 0 then             -- No Need to do all the work if no rule
@@ -2720,7 +2726,8 @@ GRM.GetNamesByFilterRules = function()
             -- No need to check the rules on the player if they are ranked higher than you...
             tempDetails = {};
             needsToSave = false;
-            notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
+            notAllKickRulesMet = false;
+            -- notAllKickRulesMet , notAllPromoRulesMet, notAllDemoteRulesMet = false , false , false;
         
             for j = 1 , #GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][75] do
             

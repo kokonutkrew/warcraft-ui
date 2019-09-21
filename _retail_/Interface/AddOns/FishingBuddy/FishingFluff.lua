@@ -164,6 +164,7 @@ FishingItems[85973] = {
             local C, _ = FL:GetCurrentMapContinent();
             return (C == FBConstants.PANDARIA);
         end,
+    ["toy"] = 1,
     ["default"] = true,
 };
 FishingItems[122742] = {
@@ -380,16 +381,17 @@ local function ItemInit(option, button)
     end
 end
 
-local function ItemVisible(option)
-    return GetItemCount(option.id) > 0;
+local function ItemCountVisible(option)
+    return FishingBuddy.FishingPlans:HaveThing(option.id, option)
 end
 
 local function UpdateItemOption(id, info)
     info.id = id;
     if (info.setting and not info.ignore) then
-        local option = {};
+        local option = {}; 
 
         option.id = id;
+        option.toy = info.toy;
         option.enUS = info.enUS;
 
         if (info.visible) then

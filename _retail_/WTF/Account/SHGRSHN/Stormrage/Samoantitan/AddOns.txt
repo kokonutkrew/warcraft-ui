@@ -106,8 +106,8 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: disabled
 WorldQuestTracker: disabled
 WoWDBProfiler: disabled
-TradeSkillMaster: disabled
-TradeSkillMaster_AppHelper: disabled
+TradeSkillMaster: enabled
+TradeSkillMaster_AppHelper: enabled
 GSE: enabled
 GSE_GUI: enabled
 GSE_LDB: enabled

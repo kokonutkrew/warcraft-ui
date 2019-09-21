@@ -577,21 +577,25 @@ local function GetSpellRank(spellID)
 end
 
 local function ClassicGetSpellInfo(spellID)
-  local name,rank,icon,castTime,minRange,maxRange=GetSpellInfo( spellID );
-  local version, build, date, tocversion = GetBuildInfo()
-  local majorVersion = GSE.split(version, '.')
+  local name,rank,icon,castTime,minRange,maxRange, sid=GetSpellInfo( spellID );
   -- only check rank if classic.
-  if tonumber(majorVersion[1]) == 1 then
+  if GSE.GameMode == 1 then
     rank = rank or GetSpellRank(spellID);
   end
-    
-  return name,rank,icon,castTime,minRange,maxRange;
+  return name,rank,icon,castTime,minRange,maxRange, sid;
 end
 
-----------
+
+--- Test override of GetSpellInfo
+function GSE.ClassicGetSpellInfo(spellID)
+  return ClassicGetSpellInfo(spellID)
+end
 
 --- Converts a string spell name to an id and back again.
-function GSE.GetSpellId(spellstring, mode, trinketmode)
+function GSE.GetSpellId(spellstring, mode)
+  if GSE.isEmpty(mode) then
+    mode = ""
+  end
   local returnval = ""
   local name, rank, icon, castTime, minRange, maxRange, spellId = ClassicGetSpellInfo(spellstring)
   if mode == "STRING" then
@@ -602,9 +606,12 @@ function GSE.GetSpellId(spellstring, mode, trinketmode)
     end
   else
     returnval = spellId
-    -- Check for overrides like Crusade and Avenging Wrath.
-    if not GSE.isEmpty(Statics.BaseSpellTable[returnval]) then
-      returnval = Statics.BaseSpellTable[returnval]
+    if GSE.GameMode ~= 1 then
+      -- If we are not in classic
+      -- Check for overrides like Crusade and Avenging Wrath.
+      if not GSE.isEmpty(Statics.BaseSpellTable[returnval]) then
+        returnval = Statics.BaseSpellTable[returnval]
+      end
     end
   end
   if not GSE.isEmpty(returnval) then

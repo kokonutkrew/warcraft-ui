@@ -57,11 +57,6 @@ function GSE.lines(tab, str)
   helper((str:gsub("(.-)\r?\n", helper)))
 end
 
---- Checks for nil or empty variables.
-function GSE.isEmpty(s)
-  return s == nil or s == ''
-end
-
 --- Convert a string to an array of lines.
 function GSE.SplitMeIntolines(str)
   GSE.PrintDebugMessage("Entering GSTRSplitMeIntolines with : \n" .. str, GNOME)
@@ -99,16 +94,6 @@ function GSE.SplitCastSequence(str)
   table.insert(tab, string.sub(str, start))
   return tab
 end
-
-
---- Split a string into an array based on the delimiter specified.
-function GSE.split(source, delimiters)
-  local elements = {}
-  local pattern = '([^'..delimiters..']+)'
-  string.gsub(source, pattern, function(value) elements[#elements + 1] =     value;  end);
-  return elements
-end
-
 
 function GSE.FixQuotes(source)
   source = string.gsub(source, "%‘", "'")
@@ -164,13 +149,6 @@ function GSE.pairsByKeys (t, f)
     end
   end
   return iter
-end
-
-
-function GSE.formatModVersion(vers)
-  vers = tostring(vers)
-  vers = string.sub(vers, 1, 1) .. "." .. string.sub(vers, 2, 2) .. "." .. string.sub(vers, 3)
-  return vers
 end
 
 --- This function removes any hidden characters from a string.

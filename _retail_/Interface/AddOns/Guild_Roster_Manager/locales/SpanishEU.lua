@@ -1174,9 +1174,28 @@ GRML.SpanishEU = function()
 
     -- CLASSIC
     GRM_L["Social"] = true
-    GRM_L["Information about other people in the game. You can use the Social window to manage your friends list and ignore list, as well as see who is online."] = true        -- This should be used in System messages.
     GRM_L["Roster"] = true
     GRM_L["|CFFE6CC7FCtrl-Click|r to open the Guild Roster Window"] = true
+    GRM_L["Feature is disabled in WoW Classic"] = true
+    GRM_L["Feature is disabled in TBC Classic"] = true          -- Just laying groundwork now in case Blizz ever releases it. Calendar was not added until WOTLK
+    GRM_L["There is no calendar to add events to"] = true
+    GRM_L["(Classic)"] = true       -- tooltip tag that shows only on the minimap mosueover version tooltip in Classic
+    
+    -- 1.69
+    GRM_L["Importing dates must be done in a compatible format"] = true
+    GRM_L["The date selection in OPTIONS shows all supported"] = true
+    GRM_L["Headers, like \"Joined,\" are supported"] = true
+    GRM_L["Date can only be detected if at the beginning of a note"] = true
+    GRM_L["Note: Dates are only found if at the start of a note in an addon supported format. \"Joined\" headers are ok"] = true
+    GRM_L["To confirm or edit the date, open the player window, right click the date, edit, and submit"] = true        --The "!!" tags are the {name}
+    GRM_L["To confirm or edit the date, right click the date, edit, and submit"] = true     -- Slightly shorter explanation if already on player window
+    GRM_L["The {name} tag indicates a date must be verified to sync"] = true
+    
+    -- 1.70
+    GRM_L["GRM has errored due to a previous incompatible build with Classic that was enabled. Click YES to reload UI and fix the issue"] = true
+
+    -- 1.71
+    GRM_L["(Disabled in Classic)"] = true           -- For the Options... rather than removing them all
 
 end
 

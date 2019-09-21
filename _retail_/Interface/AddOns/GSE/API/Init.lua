@@ -5,6 +5,13 @@ GSE.Static = {}
 
 GSE.VersionString = GetAddOnMetadata("GSE", "Version");
 
+--[===[@debug@
+if GSE.VersionString == "2.4.17" then
+  GSE.VersionString = "2.4.19-18-g95ecb41"
+end
+--@end-debug@]===]
+
+
 GSE.MediaPath = "Interface\\Addons\\GSE\\Media"
 
 GSE.OutputQueue = {}
@@ -16,7 +23,43 @@ local Statics = GSE.Static
 local GNOME = "GSE"
 
 -- Initialisation Functions
+--- Checks for nil or empty variables.
+function GSE.isEmpty(s)
+  return s == nil or s == ''
+end
 
+--- Split a string into an array based on the delimiter specified.
+function GSE.split(source, delimiters)
+  local elements = {}
+  local pattern = '([^'..delimiters..']+)'
+  string.gsub(source, pattern, function(value) elements[#elements + 1] =     value;  end);
+  return elements
+end
+
+local gameversion, build, date, tocversion = GetBuildInfo()
+local majorVersion = GSE.split(gameversion, '.')
+
+GSE.GameMode = tonumber(majorVersion[1])
+
+
+--- This function takes a version String and returns a version number.
+function GSE.ParseVersion(version)
+  local parts = GSE.split(version, "-")
+  local numbers = GSE.split(parts[1], ".")
+  local returnVal = 0
+  if GSE.isEmpty(number) and type(version) == "number" then
+    returnVal = version
+  else
+    if table.getn(numbers) > 1 then
+      returnVal = (tonumber(numbers[1]) * 1000) + (tonumber(numbers[2]) * 100) + (tonumber(numbers[3]) )
+    else
+      returnVal = tonumber(version)
+    end
+  end
+  return tonumber(returnVal)
+end
+
+GSE.VersionNumber = GSE.ParseVersion(GSE.VersionString)
 
 --- When the Addon loads, printing is paused until after every other mod has loaded.
 --    This method prints the print queue.

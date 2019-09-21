@@ -178,7 +178,7 @@ local CastingOptions = {
         ["v"] = 1,
         ["m"] = 1,
         ["p"] = 1,
-        ["parents"] = { ["EasyCast"] = "d", ["EasyCast"] = IsWardenEnabled },
+        ["parents"] = { ["EasyCast"] = IsWardenEnabled },
         ["default"] = false },
     ["AutoOpen"] = {
         ["text"] = FBConstants.CONFIG_AUTOOPEN_ONOFF,
@@ -299,7 +299,7 @@ local CastingOptions = {
         ["v"] = 1,
         ["m"] = 1,
         ["primary"] = "EasyLures",
-        ["parents"] = { ["EasyLures"] = "d", ["EasyLures"] = "d" },
+        ["parents"] = { ["EasyLures"] = "d", },
         ["default"] = true },
     ["DraenorBaitMaintainOnly"] = {
         ["text"] = FBConstants.CONFIG_DRAENORBAITMAINTAIN_ONOFF,
@@ -683,6 +683,7 @@ AutoFishingItems[GOGGLES_ID] = {
     spell = 293671,
     setting = "UseSecretGoggles",
     ["tooltip"] = FBConstants.CONFIG_SECRET_FISHING_GOGGES_INFO,
+    ["usable"] = function() return not FishingBuddy.ReadyForFishing(); end,
     ["default"] = false,
 }
 
@@ -1143,7 +1144,7 @@ local function AutoPoleCheck(self, ...)
             if (self.moving) then
                 if not FishingBuddy.HaveRafts() then
                     local x, y, instanceID = HBD:GetPlayerWorldPosition();
-                    local _, distance = HBD:GetWorldVector(instanceId, self.x, self.y, x, y);
+                    local _, distance = HBD:GetWorldVector(instanceID, self.x, self.y, x, y);
                     if instanceID ~= self.instanceID or distance > 10 then
                         LastCastTime = GetTime() - FISHINGSPAN - 1
                     end
@@ -1411,6 +1412,7 @@ FishingBuddy.OnEvent = function(self, event, ...)
         FishingMode();
         RunHandlers(FBConstants.INVENTORY_EVT)
     elseif (event == "BAG_UPDATE" ) then
+        local lootcount, lootcheck = FishingBuddy.GetLootState();
         if (lootcheck) then
             if (lootcount > 0) then
                 lootcount = lootcount - 1;
@@ -1423,21 +1425,21 @@ FishingBuddy.OnEvent = function(self, event, ...)
         FishingMode();
         RunHandlers(FBConstants.INVENTORY_EVT)
     elseif ( event == "LOOT_OPENED" ) then
+        local autoLoot = ...;
+        local doautoloot = false;
+        if autoLoot or (autoLoot == nil and GetCVarBool("autoLootDefault") ~= IsModifiedClick("AUTOLOOTTOGGLE"))  then
+            doautoloot = true
+        else
+            doautoloot = FishingBuddy.GetSettingBool("AutoLoot")
+        end
+
         if ( IsFishingLoot() or LegionBarrel() ) then
-            local autoLoot = ...;
-            local doautoloot = false;
             local poolhint = nil;
 
             -- How long ago did the achievement fire?
             local elapsedtime = GetTime() - trackedtime;
             if ( elapsedtime < TRACKING_DELAY ) then
                 poolhint = true;
-            end
-
-            if autoLoot or (autoLoot == nil and GetCVarBool("autoLootDefault") ~= IsModifiedClick("AUTOLOOTTOGGLE"))  then
-                doautoloot = true
-            else
-                doautoloot = FishingBuddy.GetSettingBool("AutoLoot")
             end
 
             -- if we want to autoloot, and Blizz isn't, let's grab stuff

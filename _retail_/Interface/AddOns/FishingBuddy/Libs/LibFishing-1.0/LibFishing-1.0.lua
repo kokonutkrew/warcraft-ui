@@ -57,7 +57,7 @@ FishLib.UNKNOWN = "UNKNOWN";
 
 local WOW = {};
 function FishLib:WOWVersion()
-    return WOW.major, WOW.minor, WOW.dot;
+    return WOW.major, WOW.minor, WOW.dot, WOW.classic;
 end
 
 if ( GetBuildInfo ) then
@@ -68,20 +68,45 @@ if ( GetBuildInfo ) then
     WOW.major = tonumber(maj);
     WOW.minor = tonumber(min);
     WOW.dot = tonumber(dot);
+    WOW.classic = (_G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC)
 else
     WOW.major = 1;
     WOW.minor = 9;
     WOW.dot = 0;
+    WOW.classic = true
 end
 
-function FishLib:GetFishingSkillInfo()
-    local _, _, _, fishing, _, _ = GetProfessions();
-    if ( fishing ) then
-        local name, _, _, _, _, _, _ = GetProfessionInfo(fishing);
-        -- is this always the same as PROFESSIONS_FISHING?
-        return true, name;
+-- support finding the fishing skill
+local function FindSpellID(thisone)
+    local id = 1;
+    local spellTexture = GetSpellTexture(id);
+    while (spellTexture) do
+        if (spellTexture and spellTexture == thisone) then
+            return id;
+        end
+        id = id + 1;
+        spellTexture = GetSpellTexture(id);
     end
-    return false, PROFESSIONS_FISHING;
+    return nil;
+end
+ 
+function FishLib:GetFishingSkillInfo()
+    if WOW.classic then
+        local spell = FindSpellID("Interface\\Icons\\Trade_Fishing");
+        if spell then
+            local name, _, _ = GetSpellInfo(spell);
+            return spell, name;
+        end
+        return 0, "Fishing"
+    else
+        local _, _, _, fishing, _, _ = GetProfessions();
+        if ( fishing ) then
+            local name, _, _, _, _, _, _ = GetProfessionInfo(fishing);
+            -- is this always the same as PROFESSIONS_FISHING?
+            return fishing, name;
+        end
+        return 0, PROFESSIONS_FISHING;
+    end
 end
 
 local DEFAULT_SKILL = { ["max"] = 300, ["skillid"] = 356, ["cat"] = 1100, ["rank"] = 0 }
@@ -98,106 +123,112 @@ FishLib.continent_fishing = {
     { ["max"] = 175, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Zandalar Fishing
 }
 
-local itsready = C_TradeSkillUI.IsTradeSkillReady
-local OpenTradeSkill = C_TradeSkillUI.OpenTradeSkill
-local GetTradeSkillLine = C_TradeSkillUI.GetTradeSkillLine
-local GetCategoryInfo = C_TradeSkillUI.GetCategoryInfo
-local CloseTradeSkill = C_TradeSkillUI.CloseTradeSkill
-local itsempty = C_TradeSkillUI.IsEmptySkillLineCategory
-local CHECKINTERVAL = 0.5
+if not WOW.classic then
+    local itsready = C_TradeSkillUI.IsTradeSkillReady
+    local OpenTradeSkill = C_TradeSkillUI.OpenTradeSkill
+    local GetTradeSkillLine = C_TradeSkillUI.GetTradeSkillLine
+    local GetCategoryInfo = C_TradeSkillUI.GetCategoryInfo
+    local CloseTradeSkill = C_TradeSkillUI.CloseTradeSkill
+    local itsempty = C_TradeSkillUI.IsEmptySkillLineCategory
+    local CHECKINTERVAL = 0.5
 
-function FishLib:UpdateFishingSkillData()
-    for _,info in pairs(self.continent_fishing) do
-        if (itsempty(info.cat)) then
-            local data = GetCategoryInfo(info.cat);
-            -- info.max = data.skillLineMaxLevel
-            info.rank = data.skillLineCurrentLevel
-            self.havedata = true
+    function FishLib:UpdateFishingSkillData()
+        for _,info in pairs(self.continent_fishing) do
+            if (itsempty(info.cat)) then
+                local data = GetCategoryInfo(info.cat);
+                -- info.max = data.skillLineMaxLevel
+                info.rank = data.skillLineCurrentLevel
+                self.havedata = true
+            end
         end
     end
-end
 
-local function SkillUpdate(self, elapsed)
-    if itsready() then
+    local function SkillUpdate(self, elapsed)
+        if itsready() then
+            self.lastUpdate = self.lastUpdate + elapsed;
+            if self.lastUpdate > CHECKINTERVAL then
+                self.lib:UpdateFishingSkillData()
+                self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
+                self:Hide()
+                self.lastUpdate = 0
+            end
+        end
+    end
+
+    function FishLib:QueueUpdateFishingSkillData()
+        if not self.havedata then
+            local btn = _G[SABUTTONNAME];
+            if btn then
+                btn.skillupdate:Show()
+            end
+        end
+    end
+
+    -- Open up the tradeskill window and get the current data
+    local function SkillInitialize(self, elapsed)
         self.lastUpdate = self.lastUpdate + elapsed;
-        if self.lastUpdate > CHECKINTERVAL then
-            self.lib:UpdateFishingSkillData()
-            self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
-            self:Hide()
+        if self.lastUpdate > CHECKINTERVAL/2 then
+            if self.state == 0 then
+                if TradeSkillFrame then
+                    self.state = self.state + 1
+                    self.tsfpanel = UIPanelWindows["TradeSkillFrame"]
+                    UIPanelWindows["TradeSkillFrame"] = nil
+                    self.tsfpos = {}
+                    for idx=1,TradeSkillFrame:GetNumPoints() do
+                        tinsert(self.tsfpos, {TradeSkillFrame:GetPoint(idx)})
+                    end
+                    TradeSkillFrame:ClearAllPoints();
+                    TradeSkillFrame:SetPoint("LEFT", UIParent, "RIGHT", 10000, 0);
+                end
+            elseif self.state == 1 then
+                OpenTradeSkill(DEFAULT_SKILL.skillid)
+                self.selfopened = true
+                self.state = self.state + 1
+            elseif self.state == 2 then
+                if itsready() then
+                    self.lib:UpdateFishingSkillData()
+                    self.state = self.state + 1
+                end
+            else
+                CloseTradeSkill()
+                if self.tsfpos then
+                    TradeSkillFrame:ClearAllPoints();
+                    for _,point in ipairs(self.tsfpos) do
+                        TradeSkillFrame:SetPoint(unpack(point));
+                    end
+                end
+                if self.tsfpanel then
+                    UIPanelWindows["TradeSkillFrame"] = self.tsfpanel
+                end
+                self.tsfpanel = nil
+                self.tsfpos = nil
+                self:Hide()
+                self:SetScript("OnUpdate", SkillUpdate);
+                self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
+            end
             self.lastUpdate = 0
         end
     end
-end
 
-function FishLib:QueueUpdateFishingSkillData()
-    if not self.havedata then
+    -- Go ahead and forcibly get the trade skill data
+    function FishLib:GetTradeSkillData()
         local btn = _G[SABUTTONNAME];
         if btn then
+            if (not IsAddOnLoaded("Blizzard_TradeSkillUI")) then
+                LoadAddOn("Blizzard_TradeSkillUI");
+            end
+            btn.skillupdate:SetScript("OnUpdate", SkillInitialize);
             btn.skillupdate:Show()
         end
     end
-end
+else
+    function FishLib:GetTradeSkillData() end;
+    function FishLib:QueueUpdateFishingSkillData() end;
 
--- Open up the tradeskill window and get the current data
-local function SkillInitialize(self, elapsed)
-    self.lastUpdate = self.lastUpdate + elapsed;
-    if self.lastUpdate > CHECKINTERVAL/2 then
-        if self.state == 0 then
-            if TradeSkillFrame then
-                self.state = self.state + 1
-                self.tsfpanel = UIPanelWindows["TradeSkillFrame"]
-                UIPanelWindows["TradeSkillFrame"] = nil
-                self.tsfpos = {}
-                for idx=1,TradeSkillFrame:GetNumPoints() do
-                    tinsert(self.tsfpos, {TradeSkillFrame:GetPoint(idx)})
-                end
-                TradeSkillFrame:ClearAllPoints();
-                TradeSkillFrame:SetPoint("LEFT", UIParent, "RIGHT", 10000, 0);
-            end
-        elseif self.state == 1 then
-            OpenTradeSkill(DEFAULT_SKILL.skillid)
-            self.selfopened = true
-            self.state = self.state + 1
-        elseif self.state == 2 then
-            if itsready() then
-                self.lib:UpdateFishingSkillData()
-                self.state = self.state + 1
-            end
-        else
-            CloseTradeSkill()
-            if self.tsfpos then
-                TradeSkillFrame:ClearAllPoints();
-                for _,point in ipairs(self.tsfpos) do
-                    TradeSkillFrame:SetPoint(unpack(point));
-                end
-            end
-            if self.tsfpanel then
-                UIPanelWindows["TradeSkillFrame"] = self.tsfpanel
-            end
-            self.tsfpanel = nil
-            self.tsfpos = nil
-            self:Hide()
-            self:SetScript("OnUpdate", SkillUpdate);
-            self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
-        end
-        self.lastUpdate = 0
-    end
-end
-
--- Go ahead and forcibly get the trade skill data
-function FishLib:GetTradeSkillData()
-    local btn = _G[SABUTTONNAME];
-    if btn then
-        if (not IsAddOnLoaded("Blizzard_TradeSkillUI")) then
-            LoadAddOn("Blizzard_TradeSkillUI");
-        end
-        btn.skillupdate:SetScript("OnUpdate", SkillInitialize);
-        btn.skillupdate:Show()
-    end
 end
 
 function FishLib:UpdateFishingSkill()
-    local _, _, _, fishing, _, _ = GetProfessions();
+    local fishing, _ = self:GetFishingSkillInfo();
     if (fishing and self.havedata) then
         local continent, _ = self:GetCurrentMapContinent();
         local info = FishLib.continent_fishing[continent];
@@ -696,10 +727,12 @@ if ( not fishlibframe) then
     fishlibframe:RegisterEvent("UNIT_INVENTORY_CHANGED");
     fishlibframe:RegisterEvent("UNIT_SPELLCAST_CHANNEL_START");
     fishlibframe:RegisterEvent("UNIT_SPELLCAST_CHANNEL_STOP");
-    fishlibframe:RegisterEvent("EQUIPMENT_SWAP_FINISHED");
     fishlibframe:RegisterEvent("ITEM_LOCK_CHANGED");
-    fishlibframe:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
-    fishlibframe:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
+    if not WOW.classic then
+        fishlibframe:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
+        fishlibframe:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
+        fishlibframe:RegisterEvent("EQUIPMENT_SWAP_FINISHED");
+    end
 end
 
 fishlibframe.fl = FishLib;
@@ -936,7 +969,7 @@ function FishLib:GetSlotMap()
 end
 
 -- http://lua-users.org/wiki/CopyTable
-function shallowcopy(orig)
+local function shallowcopy(orig)
     local orig_type = type(orig)
     local copy
     if orig_type == 'table' then
@@ -1580,7 +1613,7 @@ function FishLib:GetCurrentFishingLevel()
 
     -- Let's just go with continent level skill for now, since
     -- subzone skill levels are now up in the air.
-    info = self.continent_fishing[continent] or DEFAULT_SKILL
+    local info = self.continent_fishing[continent] or DEFAULT_SKILL
     return info.max
     -- local _, subzone = self:GetZoneInfo()
     -- if (continent ~= 7 and subzoneskills[subzone]) then
@@ -2063,7 +2096,7 @@ function FishLib:FishingBonusPoints(item, inv)
     local points = 0;
     if ( item and item ~= "" ) then
         if ( not match ) then
-            local _,skillname = self:GetFishingSkillInfo(true);
+            local _, skillname = self:GetFishingSkillInfo();
             match = {};
             match[1] = "%+(%d+) "..skillname;
             match[2] = skillname.." %+(%d+)";
@@ -2149,7 +2182,8 @@ function FishLib:GetBestFishingItem(slotid)
     end
 
     -- this only gets items in bags, hence the check above for slots
-    local itemtable = {}
+    local itemtable = {};
+    local item = nil;
     itemtable = GetInventoryItemsForSlot(slotid, itemtable);
     for location,id in pairs(itemtable) do
         if (not ignore or not ignore[id]) then
@@ -2168,7 +2202,7 @@ function FishLib:GetBestFishingItem(slotid)
             end
         end
     end
-    return item
+    return item;
 end
 
 -- return a list of the best items we have for a fishing outfit
@@ -2254,7 +2288,7 @@ function FishLib:IsOpenable(item)
     for i=1,#lines do
         local line = lines[i];
         if ( line == _G.ITEM_OPENABLE ) then
-            openable = true;
+            canopen = true;
         elseif ( line == _G.LOCKED ) then
             locked = true;
         end

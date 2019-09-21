@@ -22,18 +22,18 @@ DataStore_ReputationsDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
-		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -46,6 +46,8 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1566856230,
+				["guildName"] = "KokonutKrew",
+				["guildRep"] = 11060,
 				["Factions"] = {
 					5777, -- [1]
 					5777, -- [2]
@@ -56,35 +58,33 @@ DataStore_ReputationsDB = {
 					[77] = 4327,
 					[75] = 5977,
 				},
-				["guildRep"] = 11060,
-				["guildName"] = "KokonutKrew",
 			},
 			["Default.Stormrage.Samoanrelic"] = {
 				["lastUpdate"] = 1544768458,
+				["guildName"] = "Mass Dispel",
+				["guildRep"] = 3875,
 				["Factions"] = {
 					4037, -- [1]
 					3037, -- [2]
 					3137, -- [3]
 					3137, -- [4]
 					3250, -- [5]
-					[75] = 3337,
+					[112] = 3137,
 					[137] = 600,
 					[134] = 1350,
-					[112] = 3137,
-					[139] = 2400,
-					[123] = 3250,
-					[136] = 2325,
 					[77] = 37,
+					[123] = 3250,
+					[139] = 2400,
+					[136] = 2325,
+					[75] = 3337,
 				},
-				["guildRep"] = 3875,
-				["guildName"] = "Mass Dispel",
 			},
 			["Default.Tichondrius.Samoanrelic"] = {
 				["lastUpdate"] = 1546812567,
 				["Factions"] = {
 					[139] = 2850,
-					[134] = 2035,
-					[113] = 3100,
+					[7] = 500,
+					[137] = 1650,
 					[78] = 3100,
 					[8] = 500,
 					[16] = 590,
@@ -93,13 +93,15 @@ DataStore_ReputationsDB = {
 					[10] = 4000,
 					[136] = 1200,
 					[76] = 3500,
-					[137] = 1650,
 					[6] = 500,
-					[7] = 500,
+					[113] = 3100,
+					[134] = 2035,
 				},
 			},
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1545106385,
+				["guildName"] = "Driven",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					42000, -- [1]
 					42000, -- [2]
@@ -136,24 +138,24 @@ DataStore_ReputationsDB = {
 					[139] = 2500,
 					[140] = 7907,
 					[141] = 26830,
-					[157] = 310,
+					[20] = 1502,
 					[142] = 21232,
-					[123] = 15685,
+					[137] = 10860,
 					[18] = 1502,
-					[52] = 10253,
+					[77] = 42000,
 					[75] = 30108,
 					[45] = 15260,
 					[53] = 4117,
-					[77] = 42000,
+					[52] = 10253,
 					[19] = 1502,
-					[137] = 10860,
-					[20] = 1502,
+					[123] = 15685,
+					[157] = 310,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Driven",
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1566351587,
+				["lastUpdate"] = 1568389311,
+				["guildName"] = "Driven",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					38997, -- [1]
 					3698, -- [2]
@@ -172,16 +174,14 @@ DataStore_ReputationsDB = {
 					[157] = 34963,
 					[13] = 3333,
 					[134] = 247,
-					[154] = 43000,
-					[29] = 367,
-					[75] = 3898,
 					[150] = 43165,
-					[79] = 715,
 					[112] = 3698,
+					[75] = 3898,
 					[77] = 598,
+					[79] = 715,
+					[29] = 367,
+					[154] = 43000,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Driven",
 			},
 			["Default.Ravenholdt.Samoanbeast"] = {
 				["lastUpdate"] = 1546811661,
@@ -195,9 +195,9 @@ DataStore_ReputationsDB = {
 					[75] = 3771,
 					[77] = 3471,
 					[135] = 750,
-					[17] = 500,
-					[12] = 35,
 					[112] = 3471,
+					[12] = 35,
+					[17] = 500,
 				},
 			},
 			["Default.Tichondrius.Samoanmystic"] = {
@@ -230,6 +230,8 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Tichondrius.Samoansaint"] = {
 				["lastUpdate"] = 1546209125,
+				["guildName"] = "Wealth",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					[15] = 35,
 					[135] = 1575,
@@ -245,25 +247,23 @@ DataStore_ReputationsDB = {
 					[39] = 2144,
 					[78] = 8999,
 					[113] = 8999,
-					[101] = 2610,
+					[10] = 8999,
 					[137] = 9250,
 					[45] = 10662,
 					[6] = 8999,
 					[47] = 6648,
-					[140] = 3000,
-					[70] = 162,
-					[69] = 162,
-					[134] = 2025,
-					[138] = 1075,
-					[7] = 42000,
-					[71] = 162,
-					[52] = 6320,
 					[76] = 17029,
+					[71] = 162,
+					[138] = 1075,
+					[134] = 2025,
+					[52] = 6320,
+					[7] = 42000,
+					[69] = 162,
+					[70] = 162,
+					[140] = 3000,
 					[57] = 715,
-					[10] = 8999,
+					[101] = 2610,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Wealth",
 			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1547416006,
@@ -293,6 +293,8 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["lastUpdate"] = 1544932964,
+				["guildName"] = "Wealth",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					[122] = 1285,
 					[38] = 6912,
@@ -318,27 +320,25 @@ DataStore_ReputationsDB = {
 					[101] = 2000,
 					[15] = 970,
 					[138] = 75,
-					[70] = 991,
+					[9] = 8999,
 					[139] = 3075,
-					[137] = 5695,
+					[8] = 8999,
 					[71] = 991,
-					[140] = 3260,
+					[10] = 8999,
 					[141] = 6100,
-					[72] = 2375,
+					[7] = 42000,
 					[142] = 1125,
-					[136] = 2650,
+					[113] = 8999,
 					[52] = 7946,
 					[68] = 1982,
 					[37] = 7099,
 					[45] = 4522,
-					[113] = 8999,
-					[7] = 42000,
-					[10] = 8999,
-					[8] = 8999,
-					[9] = 8999,
+					[136] = 2650,
+					[72] = 2375,
+					[140] = 3260,
+					[137] = 5695,
+					[70] = 991,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Wealth",
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["lastUpdate"] = 1540622531,
@@ -347,10 +347,10 @@ DataStore_ReputationsDB = {
 					[7] = 4075,
 					[8] = 3100,
 					[10] = 400,
-					[78] = 3100,
-					[76] = 3500,
-					[9] = 500,
 					[6] = 3100,
+					[9] = 500,
+					[76] = 3500,
+					[78] = 3100,
 				},
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
@@ -368,18 +368,18 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Tichondrius.Gfsdfgsd"] = {
 				["lastUpdate"] = 1548864604,
-				["guildName"] = "Wealth",
-				["guildRep"] = 6875,
 				["Factions"] = {
 					[113] = 5681,
 					[7] = 10001,
 					[8] = 8245,
 					[10] = 2981,
-					[6] = 9453,
-					[9] = 3268,
-					[76] = 6081,
 					[78] = 6188,
+					[76] = 6081,
+					[9] = 3268,
+					[6] = 9453,
 				},
+				["guildRep"] = 6875,
+				["guildName"] = "Wealth",
 			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
@@ -388,14 +388,16 @@ DataStore_ReputationsDB = {
 					[7] = 500,
 					[8] = 500,
 					[10] = 3100,
-					[6] = 500,
-					[9] = 4000,
-					[76] = 3500,
 					[78] = 3100,
+					[76] = 3500,
+					[9] = 4000,
+					[6] = 500,
 				},
 			},
 			["Default.Emerald Dream.Samoansavage"] = {
 				["lastUpdate"] = 1566347533,
+				["guildName"] = "KokonutKrew",
+				["guildRep"] = 31747,
 				["Factions"] = {
 					8999, -- [1]
 					11625, -- [2]
@@ -416,20 +418,20 @@ DataStore_ReputationsDB = {
 					[12] = 918,
 					[65] = 375,
 					[67] = 375,
-					[63] = 750,
-					[57] = 715,
+					[20] = 2679,
+					[112] = 8999,
 					[27] = 60,
 					[75] = 12239,
 					[77] = 11721,
 					[17] = 4858,
-					[112] = 8999,
-					[20] = 2679,
+					[57] = 715,
+					[63] = 750,
 				},
-				["guildRep"] = 31747,
-				["guildName"] = "KokonutKrew",
 			},
 			["Default.Tichondrius.Shgrshn"] = {
 				["lastUpdate"] = 1546816791,
+				["guildName"] = "Wealth",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					[121] = 835,
 					[122] = 15770,
@@ -490,23 +492,21 @@ DataStore_ReputationsDB = {
 					[105] = 250,
 					[106] = 4800,
 					[27] = 26349,
-					[70] = 42000,
-					[137] = 686,
+					[20] = 3087,
+					[18] = 3387,
 					[7] = 42000,
 					[28] = 2040,
-					[134] = 1138,
-					[113] = 5058,
-					[68] = 42000,
-					[21] = 10088,
-					[25] = 13942,
-					[6] = 9660,
-					[9] = 11192,
 					[17] = 3049,
-					[18] = 3387,
-					[20] = 3087,
+					[113] = 5058,
+					[9] = 11192,
+					[6] = 9660,
+					[25] = 13942,
+					[21] = 10088,
+					[68] = 42000,
+					[134] = 1138,
+					[137] = 686,
+					[70] = 42000,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Wealth",
 			},
 			["Default.Emerald Dream.Samoansensei"] = {
 				["lastUpdate"] = 1545023282,
@@ -522,6 +522,8 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["lastUpdate"] = 1547637900,
+				["guildName"] = "Wealth",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					[122] = 1510,
 					[38] = 7504,
@@ -540,57 +542,57 @@ DataStore_ReputationsDB = {
 					[24] = 535,
 					[110] = 5499,
 					[79] = 693,
-					[8] = 8019,
+					[20] = 1010,
 					[56] = 31993,
-					[47] = 7097,
+					[10] = 8558,
 					[80] = 7468,
 					[7] = 7792,
 					[6] = 5119,
-					[105] = 250,
-					[68] = 42000,
-					[144] = 1200,
+					[53] = 10,
 					[57] = 16770,
+					[73] = 3100,
+					[113] = 3173,
 					[17] = 1010,
 					[21] = 30822,
-					[18] = 1010,
-					[69] = 42000,
-					[137] = 26607,
+					[136] = 1800,
+					[9] = 3952,
+					[59] = 42000,
 					[83] = 9470,
 					[99] = 42000,
 					[58] = 8900,
 					[134] = 1170,
-					[72] = 42000,
+					[142] = 2950,
 					[135] = 2575,
-					[70] = 42000,
-					[136] = 1800,
-					[141] = 9460,
-					[101] = 42000,
-					[59] = 42000,
 					[138] = 500,
+					[69] = 42000,
+					[52] = 3283,
+					[101] = 42000,
+					[15] = 505,
+					[70] = 42000,
 					[36] = 273,
 					[139] = 8040,
 					[118] = 3150,
 					[140] = 4085,
 					[71] = 42000,
-					[52] = 3283,
+					[141] = 9460,
 					[60] = 42000,
-					[142] = 2950,
-					[15] = 505,
+					[72] = 42000,
+					[137] = 26607,
 					[143] = 250,
-					[9] = 3952,
-					[73] = 3100,
-					[113] = 3173,
-					[53] = 10,
+					[18] = 1010,
+					[144] = 1200,
+					[68] = 42000,
+					[105] = 250,
 					[61] = 42000,
 					[19] = 1520,
-					[10] = 8558,
-					[20] = 1010,
+					[47] = 7097,
+					[8] = 8019,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Wealth",
 			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167317,
+				["guildName"] = "Wealth",
+				["guildRep"] = 42000,
 				["Factions"] = {
 					[83] = 1100,
 					[59] = 325,
@@ -609,20 +611,18 @@ DataStore_ReputationsDB = {
 					[137] = 3525,
 					[45] = 3482,
 					[47] = 6014,
-					[136] = 1725,
+					[9] = 9085,
 					[25] = 357,
-					[135] = 1125,
+					[10] = 8999,
 					[134] = 1510,
 					[52] = 8659,
 					[7] = 42000,
-					[131] = 5385,
-					[76] = 11511,
 					[6] = 8999,
-					[10] = 8999,
-					[9] = 9085,
+					[76] = 11511,
+					[131] = 5385,
+					[135] = 1125,
+					[136] = 1725,
 				},
-				["guildRep"] = 42000,
-				["guildName"] = "Wealth",
 			},
 			["Default.Emerald Dream.Samoanmystic"] = {
 				["lastUpdate"] = 1545148803,
@@ -639,8 +639,6 @@ DataStore_ReputationsDB = {
 			},
 			["Default.Tichondrius.Samoansage"] = {
 				["lastUpdate"] = 1544168008,
-				["guildName"] = "Wealth",
-				["guildRep"] = 42000,
 				["Factions"] = {
 					[27] = 3645,
 					[122] = 14015,
@@ -670,36 +668,36 @@ DataStore_ReputationsDB = {
 					[133] = 26027,
 					[134] = 9110,
 					[135] = 10820,
-					[20] = 775,
+					[68] = 20801,
 					[69] = 10400,
 					[70] = 11571,
 					[137] = 11295,
 					[15] = 6410,
 					[138] = 12175,
-					[19] = 775,
+					[146] = 14025,
 					[139] = 1050,
-					[9] = 2445,
+					[136] = 13840,
 					[140] = 3485,
 					[87] = 4920,
 					[52] = 16479,
-					[8] = 6320,
+					[71] = 10400,
 					[72] = 11750,
 					[10] = 2345,
 					[7] = 42000,
 					[113] = 5045,
 					[37] = 13917,
 					[45] = 5045,
-					[71] = 10400,
-					[136] = 13840,
-					[146] = 14025,
+					[8] = 6320,
+					[9] = 2445,
+					[19] = 775,
 					[18] = 775,
-					[68] = 20801,
+					[20] = 775,
 				},
+				["guildRep"] = 42000,
+				["guildName"] = "Wealth",
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1566342032,
-				["guildName"] = "KokonutKrew",
-				["guildRep"] = 32334,
 				["Factions"] = {
 					8999, -- [1]
 					9137, -- [2]
@@ -714,15 +712,114 @@ DataStore_ReputationsDB = {
 					[18] = 775,
 					[19] = 775,
 					[38] = 275,
-					[17] = 1050,
-					[29] = 254,
 					[20] = 775,
+					[29] = 254,
+					[17] = 1050,
+				},
+				["guildRep"] = 32334,
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
+				["Factions"] = {
+					3100, -- [1]
+					4000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[141] = 6000,
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920046,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					4000, -- [5]
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1545022454,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					4000, -- [4]
+					3100, -- [5]
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1545018699,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					3100, -- [3]
+					4000, -- [4]
+					3100, -- [5]
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
+				["Factions"] = {
+					[113] = 3100,
+					[7] = 3100,
+					[8] = 4000,
+					[10] = 400,
+					[78] = 3100,
+					[76] = 3500,
+					[9] = 500,
+					[6] = 3100,
+				},
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1566073365,
+				["Factions"] = {
+					4000, -- [1]
+					3100, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3100,
+					[75] = 3300,
+				},
+			},
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
+				["Factions"] = {
+					3100, -- [1]
+					3000, -- [2]
+					4000, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[75] = 3300,
+					[112] = 3100,
+				},
+			},
+			["Default.Ravenholdt.Kalin"] = {
+				["lastUpdate"] = 1546207293,
+				["Factions"] = {
+					[113] = 3100,
+					[7] = 500,
+					[8] = 500,
+					[10] = 3100,
+					[78] = 3100,
+					[76] = 3500,
+					[9] = 4000,
+					[6] = 500,
 				},
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1566353958,
-				["guildName"] = "Wealth",
-				["guildRep"] = 42000,
 				["Factions"] = {
 					[121] = 1575,
 					[122] = 42000,
@@ -777,140 +874,43 @@ DataStore_ReputationsDB = {
 					[85] = 16934,
 					[86] = 1650,
 					[87] = 16670,
-					[78] = 42000,
-					[10] = 42000,
-					[79] = 2486,
-					[20] = 1505,
+					[69] = 42000,
+					[70] = 42000,
+					[135] = 39072,
+					[71] = 42000,
 					[92] = 42000,
 					[93] = 3000,
 					[94] = 3340,
 					[24] = 3150,
-					[19] = 1142,
+					[72] = 42000,
 					[97] = 42000,
-					[18] = 1142,
+					[37] = 6730,
 					[99] = 3000,
-					[17] = 1147,
+					[159] = 4730,
 					[101] = 605,
-					[9] = 42000,
+					[21] = 42000,
 					[8] = 42000,
 					[104] = 25550,
-					[25] = 75,
+					[76] = 42000,
 					[106] = 4300,
 					[27] = 22799,
 					[108] = 3000,
-					[110] = 4099,
-					[7] = 42000,
 					[6] = 42000,
-					[76] = 42000,
+					[7] = 42000,
+					[110] = 4099,
+					[25] = 75,
 					[113] = 8999,
-					[21] = 42000,
-					[159] = 4730,
-					[37] = 6730,
-					[72] = 42000,
-					[71] = 42000,
-					[135] = 39072,
-					[70] = 42000,
-					[69] = 42000,
+					[9] = 42000,
+					[17] = 1147,
+					[18] = 1142,
+					[19] = 1142,
+					[20] = 1505,
+					[79] = 2486,
+					[10] = 42000,
+					[78] = 42000,
 				},
-			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920046,
-				["Factions"] = {
-					3100, -- [1]
-					3000, -- [2]
-					3100, -- [3]
-					3100, -- [4]
-					4000, -- [5]
-					[75] = 3300,
-					[112] = 3100,
-				},
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022454,
-				["Factions"] = {
-					3100, -- [1]
-					3000, -- [2]
-					3100, -- [3]
-					4000, -- [4]
-					3100, -- [5]
-					[75] = 3300,
-					[112] = 3100,
-				},
-			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
-				["Factions"] = {
-					3100, -- [1]
-					3000, -- [2]
-					4000, -- [3]
-					3100, -- [4]
-					3100, -- [5]
-					[75] = 3300,
-					[112] = 3100,
-				},
-			},
-			["Default.Tichondrius.Serepa"] = {
-				["lastUpdate"] = 1545730666,
-				["Factions"] = {
-					[113] = 3100,
-					[7] = 3100,
-					[8] = 4000,
-					[10] = 400,
-					[6] = 3100,
-					[9] = 500,
-					[76] = 3500,
-					[78] = 3100,
-				},
-			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["lastUpdate"] = 1566073365,
-				["Factions"] = {
-					4000, -- [1]
-					3100, -- [2]
-					3100, -- [3]
-					3100, -- [4]
-					3100, -- [5]
-					[112] = 3100,
-					[75] = 3300,
-				},
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1545018699,
-				["Factions"] = {
-					3100, -- [1]
-					3000, -- [2]
-					3100, -- [3]
-					4000, -- [4]
-					3100, -- [5]
-					[75] = 3300,
-					[112] = 3100,
-				},
-			},
-			["Default.Ravenholdt.Kalin"] = {
-				["lastUpdate"] = 1546207293,
-				["Factions"] = {
-					[113] = 3100,
-					[7] = 500,
-					[8] = 500,
-					[10] = 3100,
-					[6] = 500,
-					[9] = 4000,
-					[76] = 3500,
-					[78] = 3100,
-				},
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
-				["Factions"] = {
-					3100, -- [1]
-					4000, -- [2]
-					3100, -- [3]
-					3100, -- [4]
-					3100, -- [5]
-					[141] = 6000,
-					[75] = 3300,
-					[112] = 3100,
-				},
+				["guildRep"] = 42000,
+				["guildName"] = "Wealth",
 			},
 		},
 	},

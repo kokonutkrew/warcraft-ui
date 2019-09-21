@@ -98,7 +98,7 @@ GRML.listOfFonts = {
     "FONTS\\ARKai_T.TTF",
     -- Traditional Chines
     "FONTS\\blei00d.TTF",
-
+    
     ---------------
     -- CUSTOM FONTS (so far none are Asian character friendly)
     ---------------
@@ -232,7 +232,13 @@ if GRM_G.Region == "deDE" then
     GRM_L["has demoted"] = "degradiert."
     GRM_L["Professions"] = "Berufe"
     GRM_L["Guild: "] = "Gilde: "
-    GRM_L["Guild created "] = "Gilde am "
+    
+    if GRM_G.BuildVersion < GRM_G.RetailBuild then
+        GRM_L["Guild created "] = "Gilde erstellt "
+    else
+        GRM_L["Guild created "] = "Gilde am "
+    end
+    
     GRM_L["added to friends"] = "zur Kontaktliste hinzugefügt."
     GRM_L["is already your friend"] = "ist bereits einer Eurer Kontakte."
     GRM_L["Player not found."] = "Spieler nicht gefunden."

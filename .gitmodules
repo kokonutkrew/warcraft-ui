@@ -1,24 +1,8 @@
-[submodule "_retail_/Interface/Update/DynamicCam"]
-	path = _retail_/Interface/Update/DynamicCam
-	url = https://github.com/Mpstark/DynamicCam.git
-	branch = master
-[submodule "_classic_/Interface/AddOns/aux-addon"]
-	path = _classic_/Interface/AddOns/aux-addon
-	url = https://github.com/shirsig/aux-addon.git
-	branch = master
 [submodule "_classic_/Interface/AddOns/[update]/DBM-Classic"]
 	path = _classic_/Interface/AddOns/[update]/DBM-Classic
 	url = https://github.com/DeadlyBossMods/DBM-Classic.git
 	branch = master
-[submodule "# ＫＯＫＯＮＵＴＫＲＥＷ/macros"]
-	path = "# ＫＯＫＯＮＵＴＫＲＥＷ/macros"
-	url = https://github.com/kokonutkrew/macros.git
-	branch = master
 [submodule "#kokonutkrew/macros"]
 	path = "#kokonutkrew/macros"
 	url = https://S4M04NSL4Y3R@bitbucket.org/kokonoutkrew/macros.git
-	branch = master
-[submodule "_classic_/Interface/AddOns/NugRunning"]
-	path = _classic_/Interface/AddOns/NugRunning
-	url = https://github.com/rgd87/NugRunning.git
 	branch = master

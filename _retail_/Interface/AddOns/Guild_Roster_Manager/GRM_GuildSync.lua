@@ -1,6 +1,6 @@
 -- For Sync controls!
 -- Author: Arkaan... aka "TheGenomeWhisperer"
--- Version 8.1.5R1.68
+-- Version 8.1.5R1.71
 -- To hold all Sync Methods/Functions
 GRMsync = {};
 
@@ -694,7 +694,7 @@ GRMsync.CheckJoinDateChange = function( msg , sender , prefix )
                 end
 
                 if not isSyncUpdate and GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-                    GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+                    GRM.RefreshAuditFrames ( true , true );
                 end
                 
             end
@@ -759,7 +759,7 @@ GRMsync.CheckPromotionDateChange = function ( msg , sender , prefix )
                 end
 
                 if not isSyncUpdate and GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-                    GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+                    GRM.RefreshAuditFrames ( true , true );
                 end
 
             end
@@ -935,7 +935,7 @@ GRMsync.CheckAddAltChange = function ( msg , sender , prefix )
                 end
 
                 if not isSyncUpdate and GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-                    GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+                    GRM.RefreshAuditFrames ( true , true );
                 end
             end);
         end
@@ -1019,7 +1019,7 @@ GRMsync.CheckRemoveAltChange = function ( msg , sender , prefix )
             end
 
             if not isSyncUpdate and GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-                GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+                GRM.RefreshAuditFrames ( true , true );
             end
         end
     end
@@ -1059,7 +1059,7 @@ GRMsync.CheckAltMainChange = function ( msg , sender )
     end
 
     if GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-        GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+        GRM.RefreshAuditFrames ( true , true );
     end
 end
 
@@ -1130,7 +1130,7 @@ GRMsync.CheckAltMainToAltChange = function ( msg , sender )
     end
 
     if GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-        GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+        GRM.RefreshAuditFrames ( true , true );
     end
 end
 
@@ -3321,7 +3321,7 @@ GRMsync.InitiateDataSync = function ()
                         GRMsyncGlobals.timeOfLastSyncCompletion = time();
                     end
                     if GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-                        GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+                        GRM.RefreshAuditFrames ( true , true );
                     end
                     if GRM_UI.GRM_RosterChangeLogFrame.GRM_LogFrame:IsVisible() then
                         GRM_G.LogNumbersColorUpdate = true;
@@ -4790,9 +4790,9 @@ GRMsync.CheckingBdayChanges = function ( syncRankFilter )
     -- No need to check my data if I am not going to share it. I must just accept their data and pass it along. I just wont' absorb it and then people will rely on their filters.
     if GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][68] then
         -- Just checking my own data first...
-        for j = 2 , #GRMsyncGlobals.DatabaseExactIndexes[7] do
+        for j = 1 , #GRMsyncGlobals.DatabaseExactIndexes[7] do
             for i = #list , 1 , -1 do
-                if guildData[GRMsyncGlobals.DatabaseExactIndexes[7][j]][1] == list[i] then
+                if guildData[GRMsyncGlobals.DatabaseExactIndexes[7][j]][1] == list[i][1] then
                     if guildData[GRMsyncGlobals.DatabaseExactIndexes[7][j]][22][2][4] ~= 0 then       -- Birthday set!
                         -- Cleanup the list to save on additional parses
                         list = GRMsync.RemoveAltGroupingFromList ( guildData[GRMsyncGlobals.DatabaseExactIndexes[7][j]][1] , guildData[GRMsyncGlobals.DatabaseExactIndexes[7][j]][11] , list );
@@ -5217,7 +5217,7 @@ GRMsync.ReportSyncCompletion = function ( currentSyncer , finalAnnounce )
         end
 
         if GRM_UI.GRM_RosterChangeLogFrame.GRM_AuditFrame:IsVisible() then
-            GRM.RefreshAuditFrames( GRM_G.AuditSortType );
+            GRM.RefreshAuditFrames ( true , true );
         end
         if GRM_UI.GRM_RosterChangeLogFrame.GRM_LogFrame:IsVisible() then
             GRM_G.LogNumbersColorUpdate = true;

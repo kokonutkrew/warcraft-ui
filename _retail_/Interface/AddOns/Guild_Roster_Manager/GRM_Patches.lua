@@ -26,12 +26,6 @@ GRM_Patch.SettingsCheck = function ( numericV )
     end
 
     -- Introduced Patch R1.111
-    -- Custom sync'd guild notepad and officer notepad.
-    if #GRM_GuildNotePad_Save == 0 then
-        GRM_Patch.CustomNotepad();
-    end
-
-    -- Introduced Patch R1.111
     -- Added some more booleans to the options for future growth.
     if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 26 then
         GRM_Patch.ExpandOptions();
@@ -175,7 +169,6 @@ GRM_Patch.SettingsCheck = function ( numericV )
     end
 
     if numericV < 1.1530 then
-        GRM_Patch.FixGuildNotePad();
         GRM_Patch.FixBanListNameGrammar();
     end
 
@@ -370,7 +363,53 @@ GRM_Patch.SettingsCheck = function ( numericV )
         GRM_Patch.ModifyNewDefaultSetting ( 10 , true );                        -- Needs to be done before the conversion because I WANT players to use this feature
         GRM_Patch.ConvertRecommendedKickDateToRule ( 75 );                      -- Converts the old month date to the new feature
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 75 );                             -- Adding slot 76 for the GRM tool safe list to only show players where actions were ignored
-        
+    end
+
+    if numericV < 1.69 and GRM_G.BuildVersion < GRM_G.RetailBuild then
+        GRM_Patch.FixClassIncompatibilityBuild();
+    end
+
+    if numericV < 1.70 then
+        if GRM_G.BuildVersion < 80000 then
+            GRM_Patch.RemoveMacroInClassic();
+        end
+
+        if GRM_G.BuildVersion < 40000 then
+            GRM_Patch.ModifyNewDefaultSetting ( 53 , false );
+        end
+
+        GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupPromotionDateMouseOverError , true , true , false );
+        GRM_Patch.FixMonthDateRecommendationError();
+        GRM_Patch.ClearExtraBackups();
+    end
+
+end
+
+------------------------
+--- CLASSIC ISSUES -----
+------------------------
+
+-- Method:          GRM_Patch.FixClassIncompatibilityBuild()
+-- What it Does:    Activates the popup window to enable wiping and hard restting the addon data due to a previous incompatible load
+-- Purpose:         Resolves issues from players who enabled an outdated version of the addon.
+GRM_Patch.FixClassIncompatibilityBuild = function()
+    GRM_AddonSettings_Save = {};
+
+    local hardReset = function()
+        GRM_AddonSettings_Save = {};
+        ReloadUI();
+    end
+
+    GRM.SetConfirmationWindow ( hardReset , GRM.L ( "GRM has errored due to a previous incompatible build with Classic that was enabled. Click YES to reload UI and fix the issue" ) );
+end
+
+-- Method:          GRM_Patch.RemoveMacroInClassic()
+-- What it Does:    Checks if macro exists and then removes it if it does.
+-- Purpose:         
+GRM_Patch.RemoveMacroInClassic = function()
+
+    if GetMacroInfo ( "GRM_Roster" ) ~= nil then
+        DeleteMacro ( "GRM_Roster" );
     end
 
 end
@@ -423,21 +462,6 @@ GRM_Patch.UpdateRankControlSettingDefault = function()
         if not needsUpdate then     -- No need to cycle through everytime. Resource saving here!
             break;
         end
-    end
-end
-
-
--- Introduced Patch R1.111
--- Custom sync'd guild notepad and officer notepad needs initialization if never
-GRM_Patch.CustomNotepad = function()
-
-    -- Build the table for the first time! It will be unique to the faction and the guild.
-    table.insert ( GRM_GuildNotePad_Save , { "Horde" } );
-    table.insert ( GRM_GuildNotePad_Save , { "Alliance" } );
-
-    if IsInGuild() then
-        -- guild is found, let's add the guild!
-        table.insert ( GRM_GuildNotePad_Save[ GRM_G.FID ] , { GRM_G.guildName } );  -- alts list, let's create an index for the guild!
     end
 end
 
@@ -659,13 +683,6 @@ GRM_Patch.AddGuildCreationDate = function( index )
                 end
             end
 
-            for j = 2 , #GRM_GuildNotePad_Save[GRM_G.FID] do
-                if GRM_GuildNotePad_Save[GRM_G.FID][j][1] == GRM.SlimName ( GRM_G.guildName ) then
-                    GRM_GuildNotePad_Save[GRM_G.FID][j][1] = { GRM_G.guildName , GRM_G.guildCreationDate };
-                    break;
-                end
-            end
-
             for j = 2 , #GRM_PlayerListOfAlts_Save[GRM_G.FID] do
                 if GRM_PlayerListOfAlts_Save[GRM_G.FID][j][1] == GRM.SlimName ( GRM_G.guildName ) then
                     GRM_PlayerListOfAlts_Save[GRM_G.FID][j][1] = { GRM_G.guildName , GRM_G.guildCreationDate };
@@ -717,15 +734,6 @@ GRM_Patch.ResetCreationDates = function()
             -- Only need to fix if it was updated with 1.130
             if GRM_LogReport_Save[i][j][1][1] ~= nil then
                 GRM_LogReport_Save[i][j][1] = GRM_LogReport_Save[i][j][1][1];
-            end
-        end
-    end
-
-    for i = 1 , #GRM_GuildNotePad_Save do
-        for j = 2 , #GRM_GuildNotePad_Save[i] do
-            -- Only need to fix if it was updated with 1.130
-            if GRM_GuildNotePad_Save[i][j][1][1] ~= nil then
-                GRM_GuildNotePad_Save[i][j][1] = GRM_GuildNotePad_Save[i][j][1][1];
             end
         end
     end
@@ -1082,7 +1090,6 @@ GRM_Patch.DoubleGuildFix = function ( guildName , creationDate , faction )
             GRM_GuildMemberHistory_Save[factionIndex][guildIndex][1][2] = creationDate;
             GRM_PlayersThatLeftHistory_Save[factionIndex][guildIndex][1][2] = creationDate;
             GRM_CalendarAddQue_Save[factionIndex][guildIndex][1][2] = creationDate;
-            GRM_GuildNotePad_Save[factionIndex][guildIndex][1][2] = creationDate;
             GRM_GuildDataBackup_Save[factionIndex][guildIndex][1][2] = creationDate;
             GRM_LogReport_Save[factionIndex][logIndex][1][2] = creationDate;
 
@@ -1447,18 +1454,6 @@ GRM_Patch.FixBanListNameGrammar = function()
                     GRM_PlayersThatLeftHistory_Save[i][j][r][1] = GRM.FormatInputName ( GRM.SlimName ( GRM_PlayersThatLeftHistory_Save[i][j][r][1] ) ) .. "-" .. server;
                 end
             end
-        end
-    end
-end
-
--- Method:          GRM_Patch.FixGuildNotePad()
--- What it Does:    Removes a nil index in the notepad database
--- Purpose:         For some reason in the database conversion there was a flaw where the index was made nil instead of eliminated for some instances, thus breaking scan logic through the guild
---                  This removes the nil index, shifting the database down and leaving them in their proper index now.
-GRM_Patch.FixGuildNotePad = function()
-    for i = 1 , #GRM_GuildNotePad_Save do
-        if GRM_GuildNotePad_Save[i][2] == nil then
-            table.remove ( GRM_GuildNotePad_Save[i] , 2 );
         end
     end
 end
@@ -2967,6 +2962,51 @@ GRM_Patch.ConvertRecommendedKickDateToRule = function( index )
                     GRM_G.IsNewToon = true;
                     -- Forcing core log window/options frame to load on the first load ever as well
                     GRM_G.ChangesFoundOnLoad = true;
+                end
+            end
+        end
+    end
+end
+
+-- Method:          GRM_Patch.CleanupPromotionDateMouseOverError ( array )
+-- What it Does:    Due to an error on setting the promotion date when a new player joins incompletely, this resolves that mouseover bug of promotion date history
+-- Purpose:         If a player joins guild AND changes rank since the last you logged, it was reporting they joined and they changed rank. However, the rank history was getting set as nil
+--                  in some cases which would throw a Lua error on mouseover. This cleans that up.
+GRM_Patch.CleanupPromotionDateMouseOverError = function ( player )
+     
+    for i = #player[25] , 1 , -1 do
+        if #player[25][i] == 1 then
+            table.remove ( player[25] , i );
+        end
+    end
+
+    return player;
+end
+
+-- Method:          GRM_Patch.FixMonthDateRecommendationError()
+-- What it Does:    Previous error on the macro tool changed the default reporting to 75 months. This changes it to 12 months
+-- Purpose:         Reset just the settings of this one erroneously, but if they don't match, it means the player has already adjusted this setting and it will be left alone.
+GRM_Patch.FixMonthDateRecommendationError = function()
+    for i = 1 , #GRM_AddonSettings_Save do
+        for j = #GRM_AddonSettings_Save[i] , 2 , -1 do
+            if GRM_AddonSettings_Save[i][j][2] ~= nil and GRM_AddonSettings_Save[i][j][2][75][1][3] == 1 and GRM_AddonSettings_Save[i][j][2][75][1][4] == 75 then
+                GRM_AddonSettings_Save[i][j][2][75][1][4] = 12;
+            end
+        end
+    end
+end
+
+
+-- Method:          GRM_Patch.ClearExtraBackups()
+-- What it Does:    Scans through the backups and remove duplicates
+-- Purpose:         The /grm ClearGuild was failing to remove the backs, so it was rebuilding it every time the guild was remade.
+GRM_Patch.ClearExtraBackups = function()
+    for i = 1 , #GRM_GuildDataBackup_Save do                -- Factions
+        for j = #GRM_GuildDataBackup_Save[i] , 2 , -1 do    -- Individual Guilds
+            for k = ( j - 1 ) , 2 , -1 do                   -- Scanning through individual after grabbing 1
+                if GRM_GuildDataBackup_Save[i][k][1][1] == GRM_GuildDataBackup_Save[i][j][1][1] and GRM_GuildDataBackup_Save[i][k][1][2] == GRM_GuildDataBackup_Save[i][j][1][2] then
+                    table.remove ( GRM_GuildDataBackup_Save[i] , k );
+                    break;
                 end
             end
         end

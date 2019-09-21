@@ -25,6 +25,7 @@ local VG = {
 	DemonSpikes        = 203720,
 	DemonSpikesAura    = 203819,
 	SoulBarrier        = 263648,
+	InfernalStrike	   = 189110,
 };
 
 setmetatable(VG, DemonHunter.spellMeta);
@@ -41,6 +42,8 @@ function DemonHunter:Vengeance()
 	MaxDps:GlowEssences();
 	MaxDps:GlowCooldown(VG.Metamorphosis, cooldown[VG.Metamorphosis].ready);
 	MaxDps:GlowCooldown(VG.DemonSpikes, cooldown[VG.DemonSpikes].ready and not buff[VG.DemonSpikesAura].up);
+	MaxDps:GlowCooldown(VG.FieryBrand, cooldown[VG.FieryBrand].ready);
+	MaxDps:GlowCooldown(VG.InfernalStrike, cooldown[VG.InfernalStrike].ready);
 
 	if talents[VG.SoulBarrier] then
 		MaxDps:GlowCooldown(VG.SoulBarrier, cooldown[VG.SoulBarrier].ready);
@@ -52,6 +55,12 @@ function DemonHunter:Vengeance()
 	end
 
 	--- SIMC
+	--- This cannot be used on normal rotation, not always you want to move
+	-- infernal_strike;
+	--if cooldown[VG.InfernalStrike].ready then
+	--	return VG.InfernalStrike;
+	--end
+
 	-- spirit_bomb,if=soul_fragments>=4;
 	if talents[VG.SpiritBomb] and pain >= 30 and soulFragments >= 4 then
 		return VG.SpiritBomb;
@@ -117,6 +126,11 @@ function DemonHunter:VengeanceBrand()
 	if cooldown[VG.FieryBrand].remains < 2 and cooldown[VG.SigilOfFlame].ready then
 		return VG.SigilOfFlame;
 	end
+
+	---- infernal_stike,if=cooldown.fiery_brand.remains=0;
+	--if cooldown[VG.FieryBrand].remains <= 0 and cooldown[VG.InfernalStrike].ready then
+	--	return VG.InfernalStrike;
+	--end
 
 	-- fiery_brand;
 	if cooldown[VG.FieryBrand].ready then

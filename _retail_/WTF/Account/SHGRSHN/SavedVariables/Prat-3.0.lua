@@ -11,9 +11,9 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
-					["maxchatwidthdefault"] = 608.0000610351563,
-					["maxchatheightdefault"] = 400,
 					["initialized"] = true,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.0000610351563,
 				},
 				["KokonutKrew"] = {
 					["minchatwidthdefault"] = 296,
@@ -51,19 +51,19 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_Font"] = {
-		},
-		["Prat_Bubbles"] = {
-		},
 		["Prat_ChannelNames"] = {
 		},
 		["Prat_KeyBindings"] = {
+		},
+		["Prat_Font"] = {
+		},
+		["Prat_Bubbles"] = {
 		},
 		["Prat_UrlCopy"] = {
 		},
 		["Prat_Scroll"] = {
 		},
-		["Prat_Sounds"] = {
+		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Achievements"] = {
 			["profiles"] = {
@@ -75,7 +75,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_Timestamps"] = {
+		["Prat_ChatLog"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -85,37 +85,37 @@ Prat3DB = {
 		},
 		["Prat_PopupMessage"] = {
 		},
-		["Prat_Paragraph"] = {
+		["Prat_History"] = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Paragraph"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Timestamps"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_Sounds"] = {
 		},
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Default"] = {
 					["showvoice"] = false,
-					["scrollReminder"] = false,
+					["showminimize"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
 					["showButtons"] = false,
-					["showminimize"] = false,
 					["showMenu"] = false,
+					["scrollReminder"] = false,
 				},
 				["KokonutKrew"] = {
 					["showvoice"] = false,
-					["showButtons"] = false,
+					["showMenu"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
 					["scrollReminder"] = false,
-					["showMenu"] = false,
 					["showminimize"] = false,
+					["showButtons"] = false,
 				},
 			},
 		},
@@ -127,59 +127,59 @@ Prat3DB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansaint - Stormrage"] = "Default",
-		["Samoantitan - Emerald Dream"] = "Default",
+		["Samoansavage - Tichondrius"] = "Default",
 		["Samoantank - Emerald Dream"] = "Default",
 		["Samoansensei - Emerald Dream"] = "Default",
 		["Samoaninja - Emerald Dream"] = "Default",
-		["Samoansavage - Tichondrius"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
 		["Samoanlegend - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
-		["Kakattack - Stormrage"] = "KokonutKrew",
 		["Gfsdfgsd - Tichondrius"] = "Default",
-		["Samoanspy - Emerald Dream"] = "Default",
-		["Samoansaint - Tichondrius"] = "Default",
-		["Serepa - Tichondrius"] = "Default",
-		["Samoansmash - Emerald Dream"] = "Default",
+		["Kakattack - Stormrage"] = "KokonutKrew",
+		["Hfishsamoan - Ravenholdt"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanmystic - Emerald Dream"] = "Default",
+		["Samoantotems - Stormrage"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
-		["Samoanrelic - Stormrage"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
 		["Shgrshn - Tichondrius"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 		["Samoansneaky - Tichondrius"] = "Default",
 		["Samoanrelic - Emerald Dream"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
-		["Samoansavage - Stormrage"] = "Default",
-		["Samoantotems - Stormrage"] = "Default",
-		["Samoanmystic - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Hfishsamoan - Ravenholdt"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Samoansmash - Emerald Dream"] = "Default",
+		["Serepa - Tichondrius"] = "Default",
+		["Samoansaint - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoanspy - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
 				["Sounds"] = 2,
-				["Paragraph"] = 2,
-				["ChatLog"] = 2,
 				["OriginalButtons"] = 2,
+				["Alias"] = 2,
+				["Paragraph"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["KeyBindings"] = 2,
 			},
 		},
 		["KokonutKrew"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

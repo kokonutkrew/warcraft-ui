@@ -1,8 +1,6 @@
 # Prat 3.0
 
-## [3.2.30](https://github.com/sylvanaar/prat-3-0/tree/3.2.30) (2019-08-28)
-[Full Changelog](https://github.com/sylvanaar/prat-3-0/compare/3.2.29...3.2.30)
+## [3.7.34](https://github.com/sylvanaar/prat-3-0/tree/3.7.34) (2019-09-10)
+[Full Changelog](https://github.com/sylvanaar/prat-3-0/compare/3.7.33...3.7.34)
 
-- Move around fills  
-- Fix sendwho, getnumfriends and getfriendinfo  
-- Update README.md  
+- Remove global class color table stuff, and just special case it for classic  

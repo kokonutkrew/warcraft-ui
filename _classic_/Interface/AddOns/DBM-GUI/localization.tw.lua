@@ -107,7 +107,6 @@ L.ShowGuildMessages 		= "在聊天視窗顯示的開戰/戰勝/滅團的公會�
 L.ShowGuildMessagesPlus		= "也顯示公會隊伍傳奇+開戰/戰勝/滅團的訊息(需要團隊選項)"
 L.WhisperMessages			= "密語訊息選項"
 L.AutoRespond 				= "啟用戰鬥中自動密語回覆"
-L.EnableStatus 				= "回覆'status'的密語"
 L.WhisperStats 				= "在密語回應中加入戰勝/滅團狀態"
 L.DisableStatusWhisper 		= "禁用整個團隊狀態密語(需要隊伍隊長)。只套用於普通/英雄/傳奇團隊和傳奇+地城"
 L.DisableGuildStatus 		= "禁用整個團隊進度訊息至公會(需要隊伍隊長)。"
@@ -279,7 +278,6 @@ L.Area_PullTimer			= "開怪計時器過濾選項"
 L.DontShowPTNoID			= "阻擋與你不同區域ID送出的開怪倒數計時條"
 L.DontShowPT				= "不要顯示開怪/休息倒數計時條"
 L.DontShowPTText			= "不要顯示開怪/休息提示文字"
-L.DontShowPTCountdownText	= "不要顯示開怪計時器倒數文字"
 L.DontPlayPTCountdown		= "完全不要使用開怪/休息/開戰/自訂計時器倒數音效"
 L.PT_Threshold				= "不要使用高於%d秒以上的開怪/休息/開戰/自訂倒數計時器音效"
 
@@ -306,7 +304,6 @@ L.MythicRaider				= "傳奇團隊"--Basically anything below 385
 L.Panel_ExtraFeatures		= "額外功能"
 --
 L.Area_ChatAlerts			= "文字警告選項"
-L.RoleSpecAlert				= "當你加入團隊時捨取專精不符合你目前專精顯示警告訊息"
 L.CheckGear					= "開怪時顯示裝備警告訊息 (當你裝備的裝備等級低於包包裡40等以上或主手武器沒有裝備時顯示警告訊息)"
 L.WorldBossAlert			= "當你的工會成員或是朋友可能在你的伺服器上開戰世界首領時顯示警告訊息(如果發送者是被戰復的會不準確)"
 --
@@ -324,7 +321,7 @@ L.ShowQueuePop				= "為佇列(隨機,戰場,其他)接受時間顯示計時器"
 L.Area_AutoLogging			= "自動記錄選項"
 L.AutologBosses				= "自動使用暴雪戰鬥日誌記錄首領戰鬥(為了紀錄藥水事件等其他事件請於開打前使用/dbm pull)"
 L.AdvancedAutologBosses		= "自動使用Transcriptor紀錄首領戰鬥"
-L.LogOnlyRaidBosses			= "只記錄當前資料片團隊首領的戰鬥(除了隨機團隊/隨機隊伍/隨機事件/舊副本團隊)"
+L.LogOnlyNonTrivial			= "只記錄當前資料片團隊首領的戰鬥(除了隨機團隊/隨機隊伍/隨機事件/舊副本團隊)"
 --
 L.Area_3rdParty				= "協力插件選項"
 L.ShowBBOnCombatStart		= "戰鬥開始時顯示BigBrother(檢查團隊 增益/精煉UI)"

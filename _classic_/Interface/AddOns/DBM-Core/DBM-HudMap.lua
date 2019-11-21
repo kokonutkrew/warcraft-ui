@@ -4,6 +4,7 @@
 local ADDON_NAME = ...
 
 DBMHudMap = {}
+DBMHudMap.Version = 2--That way external usage can querie hud api feature level of of users installed mod version
 local mainFrame = CreateFrame("Frame", "DBMHudMapFrame")
 local mod = DBMHudMap
 
@@ -13,6 +14,7 @@ local error, print = error, print
 
 local CallbackHandler = LibStub:GetLibrary("CallbackHandler-1.0")
 local updateFrame = CreateFrame("Frame", "DBMHudMapUpdateFrame")
+local fixedOnUpdateRate = 0.03
 local onUpdate, Point, Edge
 local callbacks = CallbackHandler:New(mod)
 local activeMarkers = 0
@@ -44,7 +46,7 @@ else
 	standardFont = "Fonts\\FRIZQT__.TTF"
 end
 
-local targetCanvasAlpha
+local targetCanvasAlpha, supressCanvas
 
 local textureLookup = {
 	star		= 137001,--[[Interface\TARGETINGFRAME\UI-RaidTargetingIcon_1.blp]]
@@ -252,7 +254,7 @@ do
 
 			targetZoomScale = computeNewScale()
 			local currentAlpha = mod.canvas:GetAlpha()
-			if targetCanvasAlpha and currentAlpha ~= targetCanvasAlpha then
+			if not supressCanvas and targetCanvasAlpha and currentAlpha ~= targetCanvasAlpha then
 				local newAlpha
 				if targetCanvasAlpha > currentAlpha then
 					newAlpha = min(targetCanvasAlpha, currentAlpha + 1 * elapsed / fadeInDelay)
@@ -285,12 +287,6 @@ function mod:OnInitialize()
 	self.canvas:SetPoint("CENTER")
 	self.canvas:Hide()
 	self.HUDEnabled = false
-	if DBM.Options.UseRetailShamanColor then
-		RAID_CLASS_COLORS["SHAMAN"].colorStr = "ff006fdc"
-		RAID_CLASS_COLORS["SHAMAN"].b = 0.86666476726532
-		RAID_CLASS_COLORS["SHAMAN"].g = 0.4392147064209
-		RAID_CLASS_COLORS["SHAMAN"].r = 0
-	end
 end
 
 function mod:Enable()
@@ -299,7 +295,9 @@ function mod:Enable()
 	self.currentMap = select(8, GetInstanceInfo())
 	mainFrame:Show()
 	mainFrame:RegisterEvent("LOADING_SCREEN_DISABLED")
-	self.canvas:Show()
+	if not supressCanvas then
+		self.canvas:Show()
+	end
 	self.canvas:SetAlpha(1)
 	self:UpdateCanvasPosition()
 
@@ -310,7 +308,7 @@ function mod:Enable()
 	self.HUDEnabled = true
 	updateFrame:Show()
 	if not updateFrame.ticker then
-		updateFrame.ticker = C_Timer.NewTicker(0.035, function() onUpdate(updateFrame, 0.035) end)
+		updateFrame.ticker = C_Timer.NewTicker(fixedOnUpdateRate, function() onUpdate(updateFrame, fixedOnUpdateRate) end)
 	end
 end
 
@@ -320,8 +318,6 @@ function mod:Disable()
 	self:FreeEncounterMarkers()
 	Edge:ClearAll()
 	if hudarActive then return end--Don't disable if hudar is open
-	--Anything else needed? maybe clear all marks, hide any frames, etc?
---	mainFrame:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 	mainFrame:UnregisterEvent("LOADING_SCREEN_DISABLED")
 	self.canvas:Hide()
 	mainFrame:Hide()
@@ -463,7 +459,12 @@ local function DrawRouteLineCustom(T, C, sx, sy, ex, ey, w, extend, relPoint)
 
 	-- Set texture coordinates and anchors
 	T:ClearAllPoints();
-	T:SetTexCoord(TLx, TLy, BLx, BLy, TRx, TRy, BRx, BRy);
+	-- Hack to fix backwards arrow since it's easier to fix here than figure out wtf is going on up above
+	if reverse == 1 then
+		T:SetTexCoord(TLx, TLy, BLx, BLy, TRx, TRy, BRx, BRy);
+	else
+		T:SetTexCoord(BRx, BRy, TRx, TRy, BLx, BLy, TLx, TLy);
+	end
 	T:SetPoint("BOTTOMLEFT", C, relPoint, cx - Bwid, cy - Bhgt);
 	T:SetPoint("TOPRIGHT",   C, relPoint, cx + Bwid, cy + Bhgt);
 end
@@ -1326,7 +1327,15 @@ function mod:RegisterEncounterMarker(spellid, name, marker)
 	marker.RegisterCallback(self, "Free", "FreeEncounterMarker", key)
 end
 
-function mod:RegisterPositionMarker(spellid, name, texture, x, y, radius, duration, r, g, b, a, blend)
+function mod:RegisterPositionMarker(spellid, name, texture, x, y, radius, duration, r, g, b, a, blend, localMap, AreaID)
+	if localMap then
+		if x >= 0 and x <= 100 and y >= 0 and y <= 100 then
+			local localMap = tonumber(AreaID) or C_Map.GetBestMapForUnit("player")
+			local vector = CreateVector2D(x/100, y/100)
+			local _, temptable = C_Map.GetWorldPosFromMapPos(localMap, vector)
+			x, y = temptable.x, temptable.y
+		end
+	end
 	local marker = encounterMarkers[spellid..name]
 	if marker ~= nil then return marker end
 	marker = Point:New(self.currentMap, x, y, nil, duration, texture, radius, blend, r, g, b, a)
@@ -1380,6 +1389,10 @@ function mod:FreeEncounterMarker(key)
 	if activeMarkers == 0 then--No markers left, disable hud
 		self:Disable()
 	end
+end
+
+function mod:GetEncounterMarker(key)
+	return encounterMarkers[key]
 end
 
 -- should be called to manually free marker
@@ -1437,7 +1450,19 @@ function mod:SetZoom(zoom, zoomChange)
 end
 
 function mod:SetFixedZoom(zoom)
-	fixedZoomScale = zoom
+	if type(zoom) == "number" then
+		fixedZoomScale = zoom
+	else
+		fixedZoomScale = nil
+	end
+end
+
+function mod:SetFixedUpdateRate(updateRate)
+	if type(updateRate) == "number" and updateRate > 0 then
+		fixedOnUpdateRate = updateRate
+	else
+		fixedOnUpdateRate = 0.03
+	end
 end
 
 function mod:Update()
@@ -1531,6 +1556,20 @@ end
 
 function mod:HideCanvas()
 	targetCanvasAlpha = 0
+end
+
+function mod:SupressCanvas()
+	supressCanvas = true
+	if self.HUDEnabled then
+		self.canvas:Hide()
+	end
+end
+
+function mod:UnSupressCanvas()
+	supressCanvas = nil
+	if self.HUDEnabled then
+		self.canvas:Show()
+	end
 end
 
 function mod:Toggle(flag)

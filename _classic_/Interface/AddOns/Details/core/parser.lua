@@ -300,7 +300,8 @@
 	--> DAMAGE 	serach key: ~damage											|
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-	local meleeString = GetSpellInfo (6603) or "Melee"
+	local meleeString = "!Melee" --GetSpellInfo (6603)
+	local autoShotString = "!Autoshot"
 
 	function parser:swing (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)
 		return parser:spell_dmg (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, 1, meleeString, 00000001, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand) --> localize-me
@@ -308,7 +309,7 @@
 	end
 
 	function parser:range (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)
-		return parser:spell_dmg (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)  --> localize-me
+		return parser:spell_dmg (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, autoShotString, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)  --> localize-me
 	end
 
 --	/run local f=CreateFrame("frame");f:RegisterAllEvents();f:SetScript("OnEvent", function(self, ...)print (...);end)
@@ -421,6 +422,8 @@
 
 	------------------------------------------------------------------------------------------------
 	--> early checks and fixes
+
+		--9/20 18:55:03.683  SPELL_EXTRA_ATTACKS,Player-4701-0091E2F3,"Gravel-Mograine",0x511,0x0,Player-4701-0091E2F3,"Gravel-Mograine",0x511,0x0,16459,"Sword Specialization",0x1,1
 
 		spellid = spellname
 
@@ -1196,14 +1199,14 @@
 		end
 		
 	end
-	
+
 	--function parser:swingmissed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, missType, isOffHand, amountMissed)
 	function parser:swingmissed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
-		return parser:missed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, 1, "Corpo-a-Corpo", 00000001, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
+		return parser:missed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, 1, meleeString, 00000001, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
 	end
 
 	function parser:rangemissed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spelltype, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
-		return parser:missed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, 2, "Tiro-Autom�tico", 00000001, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
+		return parser:missed (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, 2, autoShotString, 00000001, missType, isOffHand, amountMissed) --, isOffHand, amountMissed, arg1
 	end
 
 	-- ~miss
@@ -1225,12 +1228,8 @@
 	
 	------------------------------------------------------------------------------------------------
 	--> get actors
-		--print ("MISS", "|", missType, "|", isOffHand, "|", amountMissed, "|", arg1)
 		
 	
-		--print (missType, who_name,  spellname, amountMissed)
-		
-		
 		--> 'misser'
 		local este_jogador = damage_cache [who_serial]
 		if (not este_jogador) then
@@ -1314,6 +1313,7 @@
 			end
 		
 			--> actor spells table
+			spellid = spellname
 			local spell = este_jogador.spells._ActorTable [spellid]
 			if (not spell) then
 				spell = este_jogador.spells:PegaHabilidade (spellid, true, token)
@@ -1322,6 +1322,7 @@
 					_detalhes.spell_school_cache [spellname] = spelltype
 				end
 			end
+		
 			return spell_damageMiss_func (spell, alvo_serial, alvo_name, alvo_flags, who_name, missType)		
 		end
 		
@@ -1538,6 +1539,8 @@
 	------------------------------------------------------------------------------------------------
 	--> early checks and fixes
 	
+		spellid = spellname
+
 		--> only capture heal if is in combat
 		if (not _in_combat) then
 			return
@@ -1821,6 +1824,9 @@
 
 	function parser:buff (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, spellid, spellname, spellschool, tipo, amount, arg1, arg2, arg3)
 
+		
+		spellid = spellname
+
 	--> not yet well know about unnamed buff casters
 		if (not alvo_name) then
 			alvo_name = "[*] Unknown shield target"
@@ -1831,13 +1837,15 @@
 			who_serial = ""
 		end 
 
+		spellid = spellname
+
 	------------------------------------------------------------------------------------------------
 	--> handle shields
 
 		if (tipo == "BUFF") then
 			------------------------------------------------------------------------------------------------
 			--> buff uptime
-				
+
 				if (spellid == 27827) then --> spirit of redemption (holy priest)
 					parser:dead ("UNIT_DIED", time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags)
 					ignore_death [who_name] = true
@@ -2479,6 +2487,8 @@
 	--> early checks and fixes
 		
 		_current_misc_container.need_refresh = true
+
+		spellid = spellname
 		
 	------------------------------------------------------------------------------------------------
 	--> get actors
@@ -2517,6 +2527,8 @@
 	------------------------------------------------------------------------------------------------
 	--> early checks and fixes
 		
+		spellid = spellname
+
 		_current_misc_container.need_refresh = true
 		
 	------------------------------------------------------------------------------------------------
@@ -2715,11 +2727,15 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 
 		--print (who_name, alvo_name, spellid, spellname, spelltype, amount, powertype)
 	
+		spellid = spellname
+
 		if (not who_name) then
 			who_name = "[*] "..spellname
 		elseif (not alvo_name) then
 			return
 		end
+
+		spellid = spellname
 
 	------------------------------------------------------------------------------------------------
 	--> check if is energy or resource
@@ -2844,6 +2860,8 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 	------------------------------------------------------------------------------------------------
 	--> early checks and fixes
 		
+		spellid = spellname
+
 		_current_misc_container.need_refresh = true
 		
 	------------------------------------------------------------------------------------------------
@@ -2952,6 +2970,9 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		elseif (not alvo_name) then
 			return
 		end
+
+		spellid = spellname
+		extraSpellID = extraSpellName
 		
 		_current_misc_container.need_refresh = true
 
@@ -3060,6 +3081,8 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			who_name = "[*] " .. spellname
 		end
 
+		spellid = spellname
+
 	------------------------------------------------------------------------------------------------
 	--> get actors
 
@@ -3153,6 +3176,9 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (not alvo_name) then
 			alvo_name = "[*] "..spellid
 		end
+
+		spellid = spellname
+		extraSpellID = extraSpellName
 		
 		_current_misc_container.need_refresh = true
 		
@@ -3342,6 +3368,9 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (not spellname) then
 			spellname = "Melee"
 		end
+
+		spellid = spellname
+		extraSpellID = extraSpellName
 
 		if (not alvo_name) then
 			--> no target name, just quit

@@ -9,16 +9,20 @@
 -- This is the main TSM file that holds the majority of the APIs that modules will use.
 
 local TSM = TSMAPI_FOUR.Addon.New(...)
+TSMAPI = {} -- FIXME: this is still needed for AppHelper
+local ClassicRealms = TSM.Include("Data.ClassicRealms")
+local ErrorHandler = TSM.Include("Service.ErrorHandler")
 local LibRealmInfo = LibStub("LibRealmInfo")
 local LibDBIcon = LibStub("LibDBIcon-1.0")
 local L = TSM.L
-local private = { appInfo = nil }
-TSMAPI = {Operations={}, Settings={}}
+local private = {
+	appInfo = nil
+}
 local APP_INFO_REQUIRED_KEYS = { "version", "lastSync", "message", "news" }
 local LOGOUT_TIME_WARNING_THRESHOLD_MS = 20
 do
 	-- show a message if we were updated
-	if GetAddOnMetadata("TradeSkillMaster", "Version") ~= "v4.8.8" then
+	if GetAddOnMetadata("TradeSkillMaster", "Version") ~= "v4.8.20" then
 		message("TSM was just updated and may not work properly until you restart WoW.")
 	end
 end
@@ -69,9 +73,10 @@ end
 -- [48] added profile.internalData.exportGroupTreeContext
 -- [49] added factionrealm.internalData.{mailDisenchantablesChar,mailExcessGoldChar,mailExcessGoldLimit}
 -- [50] added factionrealm.internalData.{csvAuctionDBScan,auctionDBScanTime,auctionDBScanHash}
+-- [51-53] resetting factionrealm.internalData.crafts
 
 local SETTINGS_INFO = {
-	version = 50,
+	version = 53,
 	global = {
 		debug = {
 			chatLoggingEnabled = { type = "boolean", default = false, lastModifiedVersion = 19 },
@@ -93,7 +98,7 @@ local SETTINGS_INFO = {
 			globalOperations = { type = "boolean", default = false, lastModifiedVersion = 10 },
 			chatFrame = { type = "string", default = "", lastModifiedVersion = 10 },
 			auctionSaleEnabled = { type = "boolean", default = true, lastModifiedVersion = 10 },
-			auctionSaleSound = { type = "string", default = TSM.CONST.NO_SOUND_KEY, lastModifiedVersion = 10 },
+			auctionSaleSound = { type = "string", default = TSM.Sound.GetNoSoundKey(), lastModifiedVersion = 10 },
 			auctionBuyEnabled = { type = "boolean", default = true, lastModifiedVersion = 10 },
 			tsmItemTweetEnabled = { type = "boolean", default = false, lastModifiedVersion = 10 },
 			minimapIcon = { type = "table", default = { hide = false, minimapPos = 220, radius = 80 }, lastModifiedVersion = 10 },
@@ -110,8 +115,8 @@ local SETTINGS_INFO = {
 			disableInvalidMsg = { type = "boolean", default = false, lastModifiedVersion = 10 },
 			roundNormalPrice = { type = "boolean", default = false, lastModifiedVersion = 10 },
 			matchWhitelist = { type = "boolean", default = true, lastModifiedVersion = 10 },
-			scanCompleteSound = { type = "string", default = TSM.CONST.NO_SOUND_KEY, lastModifiedVersion = 10 },
-			confirmCompleteSound = { type = "string", default = TSM.CONST.NO_SOUND_KEY, lastModifiedVersion = 10 },
+			scanCompleteSound = { type = "string", default = TSM.Sound.GetNoSoundKey(), lastModifiedVersion = 10 },
+			confirmCompleteSound = { type = "string", default = TSM.Sound.GetNoSoundKey(), lastModifiedVersion = 10 },
 		},
 		craftingOptions = {
 			ignoreCDCraftCost = { type = "boolean", default = true, lastModifiedVersion = 10 },
@@ -134,7 +139,7 @@ local SETTINGS_INFO = {
 			resendDelay = { type = "number", default = 1, lastModifiedVersion = 10 },
 			keepMailSpace = { type = "number", default = 0, lastModifiedVersion = 10 },
 			deMaxQuality = { type = "number", default = 2, lastModifiedVersion = 10 },
-			openMailSound = { type = "string", default = TSM.CONST.NO_SOUND_KEY, lastModifiedVersion = 10 },
+			openMailSound = { type = "string", default = TSM.Sound.GetNoSoundKey(), lastModifiedVersion = 10 },
 			recentlyMailedList = { type = "table", default = {}, lastModifiedVersion = 38 },
 		},
 		shoppingOptions = {
@@ -146,7 +151,7 @@ local SETTINGS_INFO = {
 			buyoutAlertSource  = { type = "string", default = "min(100000g, 200% dbmarket)", lastModifiedVersion = 46 },
 		},
 		sniperOptions = {
-			sniperSound = { type = "string", default = TSM.CONST.NO_SOUND_KEY, lastModifiedVersion = 10 },
+			sniperSound = { type = "string", default = TSM.Sound.GetNoSoundKey(), lastModifiedVersion = 10 },
 		},
 		vendoringOptions = {
 			displayMoneyCollected = { type = "boolean", default = false, lastModifiedVersion = 10 },
@@ -217,7 +222,7 @@ local SETTINGS_INFO = {
 			mailDisenchantablesChar = { type = "string", default = "", lastModifiedVersion = 49 },
 			mailExcessGoldChar = { type = "string", default = "", lastModifiedVersion = 49 },
 			mailExcessGoldLimit = { type = "number", default = 10000000000, lastModifiedVersion = 49 },
-			crafts = { type = "table", default = {}, lastModifiedVersion = 10 },
+			crafts = { type = "table", default = {}, lastModifiedVersion = 53 },
 			mats = { type = "table", default = {}, lastModifiedVersion = 10 },
 			guildGoldLog = { type = "table", default = {}, lastModifiedVersion = 25 },
 			csvAuctionDBScan = { type = "string", default = "", lastModifiedVersion = 50 },
@@ -283,115 +288,23 @@ local SETTINGS_INFO = {
 -- ============================================================================
 
 function TSM.OnInitialize()
-	-- create setting migration table
-	TradeSkillMasterModulesDB = TradeSkillMasterModulesDB or {}
-	for _, moduleName in ipairs(TSM.CONST.OLD_TSM_MODULES) do
-		moduleName = gsub(moduleName, "TradeSkillMaster_", "")
-		TradeSkillMasterModulesDB[moduleName] = TradeSkillMasterModulesDB[moduleName] or {}
-	end
-
 	-- load settings
 	local db, upgradeObj = TSM.Settings.New("TradeSkillMasterDB", SETTINGS_INFO)
 	TSM.db = db
+
+	-- configure the logger
+	TSM.Logger.SetLoggingToChatEnabled(TSM.db.global.debug.chatLoggingEnabled)
+	TSM.Logger.SetCurrentThreadNameFunction(TSMAPI_FOUR.Thread.GetCurrentThreadName)
+
+	-- process DB upgrades
 	if upgradeObj then
 		local prevVersion = upgradeObj:GetPrevVersion()
-		if prevVersion < 10 then
-			-- migrate all the old settings to their new namespaces
-			for key, value in upgradeObj:RemovedSettingIterator() do
-				local scopeType, scopeKey, _, settingKey = upgradeObj:GetKeyInfo(key)
-				for namespace, namespaceInfo in pairs(SETTINGS_INFO[scopeType]) do
-					if namespaceInfo[settingKey] then
-						TSM.db:Set(scopeType, scopeKey, namespace, settingKey, value)
-					end
-				end
-			end
-			-- migrade all old module settings into the core settings
-			local MIGRATION_INFO = {
-				Accounting = {
-					["global.trackTrades"] = "global.accountingOptions.trackTrades",
-					["global.autoTrackTrades"] = "global.accountingOptions.autoTrackTrades",
-					["realm.csvSales"] = "realm.internalData.csvSales",
-					["realm.csvBuys"] = "realm.internalData.csvBuys",
-					["realm.csvIncome"] = "realm.internalData.csvIncome",
-					["realm.csvExpense"] = "realm.internalData.csvExpense",
-					["realm.csvExpired"] = "realm.internalData.csvExpired",
-					["realm.csvCancelled"] = "realm.internalData.csvCancelled",
-					["realm.saveTimeSales"] = "realm.internalData.saveTimeSales",
-					["realm.saveTimeBuys"] = "realm.internalData.saveTimeBuys",
-					["realm.saveTimeExpires"] = "realm.internalData.saveTimeExpires",
-					["realm.saveTimeCancels"] = "realm.internalData.saveTimeCancels",
-					["realm.accountingTrimmed"] = "realm.internalData.accountingTrimmed",
-				},
-				Auctioning = {
-					["global.cancelWithBid"] = "global.auctioningOptions.cancelWithBid",
-					["global.disableInvalidMsg"] = "global.auctioningOptions.disableInvalidMsg",
-					["global.roundNormalPrice"] = "global.auctioningOptions.roundNormalPrice",
-					["global.matchWhitelist"] = "global.auctioningOptions.matchWhitelist",
-					["global.scanCompleteSound"] = "global.auctioningOptions.scanCompleteSound",
-					["global.confirmCompleteSound"] = "global.auctioningOptions.confirmCompleteSound",
-					["factionrealm.whitelist"] = "factionrealm.auctioningOptions.whitelist",
-				},
-				Crafting = {
-					["global.ignoreCDCraftCost"] = "global.craftingOptions.ignoreCDCraftCost",
-					["global.defaultMatCostMethod"] = "global.craftingOptions.defaultMatCostMethod",
-					["global.defaultCraftPriceMethod"] = "global.craftingOptions.defaultCraftPriceMethod",
-					["global.ignoreCharacters"] = "global.craftingOptions.ignoreCharacters",
-					["global.ignoreGuilds"] = "global.craftingOptions.ignoreGuilds",
-					["factionrealm.crafts"] = "factionrealm.internalData.crafts",
-					["factionrealm.mats"] = "factionrealm.internalData.mats",
-				},
-				Destroying = {
-					["global.history"] = "global.internalData.destroyingHistory",
-					["global.autoStack"] = "global.destroyingOptions.autoStack",
-					["global.includeSoulbound"] = "global.destroyingOptions.includeSoulbound",
-					["global.autoShow"] = "global.destroyingOptions.autoShow",
-					["global.deMaxQuality"] = "global.destroyingOptions.deMaxQuality",
-					["global.deAbovePrice"] = "global.destroyingOptions.deAbovePrice",
-					["global.ignore"] = "global.userData.destroyingIgnore",
-				},
-				Mailing = {
-					["global.sendItemsIndividually"] = "global.mailingOptions.sendItemsIndividually",
-					["global.inboxMessages"] = "global.mailingOptions.inboxMessages",
-					["global.sendMessages"] = "global.mailingOptions.sendMessages",
-					["global.resendDelay"] = "global.mailingOptions.resendDelay",
-					["global.keepMailSpace"] = "global.mailingOptions.keepMailSpace",
-					["global.deMaxQuality"] = "global.mailingOptions.deMaxQuality",
-					["global.openMailSound"] = "global.mailingOptions.openMailSound",
-				},
-				Shopping = {
-					["global.minDeSearchLvl"] = "global.shoppingOptions.minDeSearchLvl",
-					["global.maxDeSearchLvl"] = "global.shoppingOptions.maxDeSearchLvl",
-					["global.maxDeSearchPercent"] = "global.shoppingOptions.maxDeSearchPercent",
-					["global.sniperSound"] = "global.sniperOptions.sniperSound",
-					["global.savedSearches"] = "global.userData.savedShoppingSearches",
-				},
-				Vendoring = {
-					["global.displayMoneyCollected"] = "global.vendoringOptions.displayMoneyCollected",
-					["global.qsMarketValue"] = "global.vendoringOptions.qsMarketValue",
-					["global.ignore"] = "global.userData.vendoringIgnore",
-				},
-			}
-			for module, migrations in pairs(MIGRATION_INFO) do
-				for key, value in pairs(TradeSkillMasterModulesDB[module]) do
-					if strsub(key, 1, 1) ~= "_" then
-						local scopeType, scopeKey, _, settingKey = upgradeObj:GetKeyInfo(key)
-						local oldPath = strjoin(".", scopeType, settingKey)
-						local newPath = migrations[oldPath]
-						if newPath then
-							local newScopeType, newNamespace, newSettingKey = strsplit(".", newPath)
-							assert(newScopeType == scopeType)
-							TSM.db:Set(newScopeType, scopeKey, newNamespace, newSettingKey, value)
-						end
-					end
-				end
-			end
-		end
 		if prevVersion < 19 then
 			-- migrate inventory data to the sync scope
-			local oldInventoryData = TSMAPI_FOUR.Util.AcquireTempTable()
-			local oldSyncMetadata = TSMAPI_FOUR.Util.AcquireTempTable()
-			local oldAccountKey = TSMAPI_FOUR.Util.AcquireTempTable()
-			local oldCharacters = TSMAPI_FOUR.Util.AcquireTempTable()
+			local oldInventoryData = TSM.TempTable.Acquire()
+			local oldSyncMetadata = TSM.TempTable.Acquire()
+			local oldAccountKey = TSM.TempTable.Acquire()
+			local oldCharacters = TSM.TempTable.Acquire()
 			for key, value in upgradeObj:RemovedSettingIterator() do
 				local scopeType, scopeKey, _, settingKey = upgradeObj:GetKeyInfo(key)
 				if scopeType == "factionrealm" then
@@ -424,16 +337,16 @@ function TSM.OnInitialize()
 					end
 				end
 			end
-			TSMAPI_FOUR.Util.ReleaseTempTable(oldInventoryData)
-			TSMAPI_FOUR.Util.ReleaseTempTable(oldSyncMetadata)
-			TSMAPI_FOUR.Util.ReleaseTempTable(oldAccountKey)
-			TSMAPI_FOUR.Util.ReleaseTempTable(oldCharacters)
+			TSM.TempTable.Release(oldInventoryData)
+			TSM.TempTable.Release(oldSyncMetadata)
+			TSM.TempTable.Release(oldAccountKey)
+			TSM.TempTable.Release(oldCharacters)
 		end
 		if prevVersion < 25 then
 			-- migrate gold log info
 			local NEW_CSV_COLS = { "minute", "copper" }
 			local function ConvertGoldLogFormat(data)
-				local decodedData = select(2, TSMAPI_FOUR.CSV.Decode(data))
+				local decodedData = select(2, TSM.CSV.Decode(data))
 				if not decodedData then
 					return
 				end
@@ -444,7 +357,7 @@ function TSM.OnInitialize()
 					entry.minute = minute
 					entry.copper = copper
 				end
-				return TSMAPI_FOUR.CSV.Encode(NEW_CSV_COLS, decodedData)
+				return TSM.CSV.Encode(NEW_CSV_COLS, decodedData)
 			end
 			local function ProcessGoldLogData(character, data, scopeKey)
 				if type(data) ~= "string" then
@@ -465,7 +378,7 @@ function TSM.OnInitialize()
 					local found = false
 					for factionrealm in TSM.db:FactionrealmByRealmIterator(scopeKey) do
 						local characterGuilds = TSM.db:Get("factionrealm", factionrealm, "internalData", "characterGuilds")
-						if not found and characterGuilds and TSMAPI_FOUR.Util.TableKeyByValue(characterGuilds, character) then
+						if not found and characterGuilds and TSM.Table.KeyByValue(characterGuilds, character) then
 							local guildGoldLog = TSM.db:Get("factionrealm", factionrealm, "internalData", "guildGoldLog") or {}
 							guildGoldLog[character] = ConvertGoldLogFormat(data)
 							TSM.db:Set("factionrealm", factionrealm, "internalData", "guildGoldLog", guildGoldLog)
@@ -474,16 +387,7 @@ function TSM.OnInitialize()
 					end
 				end
 			end
-			if prevVersion < 10 then
-				for key, value in pairs(TradeSkillMasterModulesDB.Accounting) do
-					if strmatch(key,"^r@.+@goldLog$") then
-						local _, scopeKey = upgradeObj:GetKeyInfo(key)
-						for character, data in pairs(value) do
-							ProcessGoldLogData(character, data, scopeKey)
-						end
-					end
-				end
-			else
+			if prevVersion >= 10 then
 				for key, value in upgradeObj:RemovedSettingIterator() do
 					local scopeType, scopeKey, _, settingKey = upgradeObj:GetKeyInfo(key)
 					if scopeType == "realm" and settingKey == "goldLog" then
@@ -508,6 +412,14 @@ function TSM.OnInitialize()
 				end
 			end
 		end
+		if prevVersion < 53 and WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
+			for key, value in upgradeObj:RemovedSettingIterator() do
+				local scopeType, factionrealm, namespace, settingKey = upgradeObj:GetKeyInfo(key)
+				if scopeType == "factionrealm" and namespace == "internalData" and settingKey == "crafts" then
+					TSM.db:Set("factionrealm", factionrealm, "internalData", "crafts", value)
+				end
+			end
+		end
 	end
 
 	-- store the class of this character
@@ -522,7 +434,7 @@ function TSM.OnInitialize()
 	TSM.CustomPrice.RegisterSource("TradeSkillMaster", "RequiredLevel", L["Required Level"], TSMAPI_FOUR.Item.GetMinLevel)
 
 	-- Auctioneer price sources
-	if TSMAPI_FOUR.Util.IsAddonEnabled("Auc-Advanced") and AucAdvanced then
+	if TSM.Wow.IsAddonEnabled("Auc-Advanced") and AucAdvanced then
 		if AucAdvanced.Modules.Util.Appraiser and AucAdvanced.Modules.Util.Appraiser.GetPrice then
 			TSM.CustomPrice.RegisterSource("External", "AucAppraiser", L["Auctioneer - Appraiser"], AucAdvanced.Modules.Util.Appraiser.GetPrice, true)
 		end
@@ -538,12 +450,12 @@ function TSM.OnInitialize()
 	end
 
 	-- Auctionator price sources
-	if TSMAPI_FOUR.Util.IsAddonEnabled("Auctionator") and Atr_GetAuctionBuyout then
+	if TSM.Wow.IsAddonEnabled("Auctionator") and Atr_GetAuctionBuyout then
 		TSM.CustomPrice.RegisterSource("External", "AtrValue", L["Auctionator - Auction Value"], Atr_GetAuctionBuyout, true)
 	end
 
-	-- TheUndermineJournal price sources
-	if TSMAPI_FOUR.Util.IsAddonEnabled("TheUndermineJournal") and TUJMarketInfo then
+	-- TheUndermineJournal and BootyBayGazette price sources
+	if TSM.Wow.IsAddonEnabled("TheUndermineJournal") and TUJMarketInfo then
 		local function GetTUJPrice(itemLink, arg)
 			local data = TUJMarketInfo(itemLink)
 			return data and data[arg] or nil
@@ -552,10 +464,19 @@ function TSM.OnInitialize()
 		TSM.CustomPrice.RegisterSource("External", "TUJMarket", L["TUJ 14-Day Price"], GetTUJPrice, true, "market")
 		TSM.CustomPrice.RegisterSource("External", "TUJGlobalMean", L["TUJ Global Mean"], GetTUJPrice, true, "globalMean")
 		TSM.CustomPrice.RegisterSource("External", "TUJGlobalMedian", L["TUJ Global Median"], GetTUJPrice, true, "globalMedian")
+	elseif TSM.Wow.IsAddonEnabled("BootyBayGazette") and TUJMarketInfo then
+		local function GetBBGPrice(itemLink, arg)
+			local data = TUJMarketInfo(itemLink)
+			return data and data[arg] or nil
+		end
+		TSM.CustomPrice.RegisterSource("External", "BBGRecent", L["BBG 3-Day Price"], GetBBGPrice, true, "recent")
+		TSM.CustomPrice.RegisterSource("External", "BBGMarket", L["BBG 14-Day Price"], GetBBGPrice, true, "market")
+		TSM.CustomPrice.RegisterSource("External", "BBGGlobalMean", L["BBG Global Mean"], GetBBGPrice, true, "globalMean")
+		TSM.CustomPrice.RegisterSource("External", "BBGGlobalMedian", L["BBG Global Median"], GetBBGPrice, true, "globalMedian")
 	end
 
 	-- AHDB price sources
-	if TSMAPI_FOUR.Util.IsAddonEnabled("AuctionDB") and AuctionDB and AuctionDB.AHGetAuctionInfoByLink then
+	if TSM.Wow.IsAddonEnabled("AuctionDB") and AuctionDB and AuctionDB.AHGetAuctionInfoByLink then
 		local function GetAHDBPrice(itemLink, arg)
 			local info = AuctionDB:AHGetAuctionInfoByLink(itemLink)
 			return info and info[arg] or nil
@@ -632,52 +553,11 @@ function TSM.OnInitialize()
 end
 
 function TSM.OnEnable()
-	-- disable old TSM modules
-	local didDisable = false
-	for _, name in ipairs(TSM.CONST.OLD_TSM_MODULES) do
-		if TSMAPI_FOUR.Util.IsAddonEnabled(name) then
-			didDisable = true
-			DisableAddOn(name, true)
-		end
-	end
-	if didDisable then
-		StaticPopupDialogs["TSM_OLD_MODULE_DISABLE"] = {
-			text = L["Welcome to TSM4! All of the old TSM3 modules (i.e. Crafting, Shopping, etc) are now built-in to the main TSM addon, so you only need TSM and TSM_AppHelper installed. TSM has disabled the old modules and requires a reload."],
-			button1 = L["Reload"],
-			timeout = 0,
-			whileDead = true,
-			OnAccept = ReloadUI,
-		}
-		TSMAPI_FOUR.Util.ShowStaticPopupDialog("TSM_OLD_MODULE_DISABLE")
-	else
-		TradeSkillMasterModulesDB = nil
-	end
-
-	TSM.LoadAppData()
-end
-
-function TSM.OnDisable()
-	local originalProfile = TSM.db:GetCurrentProfile()
-	-- erroring here would cause the profile to be reset, so use pcall
-	local startTime = debugprofilestop()
-	local success, errMsg = pcall(private.SaveAppData)
-	local timeTaken = debugprofilestop() - startTime
-	if timeTaken > LOGOUT_TIME_WARNING_THRESHOLD_MS then
-		TSM:LOG_WARN("private.SaveAppData took %0.2fms", timeTaken)
-	end
-	if not success then
-		TSM:LOG_ERR("private.SaveAppData hit an error: %s", tostring(errMsg))
-	end
-	-- ensure we're back on the correct profile
-	TSM.db:SetProfile(originalProfile)
-end
-
-function TSM.LoadAppData()
-	if not TSMAPI_FOUR.Util.IsAddonInstalled("TradeSkillMaster_AppHelper") then
+	if not TSM.Wow.IsAddonInstalled("TradeSkillMaster_AppHelper") then
 		return
 	end
 
-	if not TSMAPI_FOUR.Util.IsAddonEnabled("TradeSkillMaster_AppHelper") then
+	if not TSM.Wow.IsAddonEnabled("TradeSkillMaster_AppHelper") then
 		-- TSM_AppHelper is disabled
 		StaticPopupDialogs["TSM_APP_DATA_ERROR"] = {
 			text = L["The TradeSkillMaster_AppHelper addon is installed, but not enabled. TSM has enabled it and requires a reload."],
@@ -689,7 +569,7 @@ function TSM.LoadAppData()
 				ReloadUI()
 			end,
 		}
-		TSMAPI_FOUR.Util.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
+		TSM.Wow.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
 		return
 	end
 
@@ -703,7 +583,7 @@ function TSM.LoadAppData()
 			timeout = 0,
 			whileDead = true,
 		}
-		TSMAPI_FOUR.Util.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
+		TSM.Wow.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
 		return
 	end
 
@@ -722,7 +602,7 @@ function TSM.LoadAppData()
 			button1 = OKAY,
 			timeout = 0,
 		}
-		TSMAPI_FOUR.Util.ShowStaticPopupDialog("TSM_APP_MESSAGE")
+		TSM.Wow.ShowStaticPopupDialog("TSM_APP_MESSAGE")
 	end
 
 	if time() - private.appInfo.lastSync > 60 * 60 then
@@ -733,8 +613,24 @@ function TSM.LoadAppData()
 			timeout = 0,
 			whileDead = true,
 		}
-		TSMAPI_FOUR.Util.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
+		TSM.Wow.ShowStaticPopupDialog("TSM_APP_DATA_ERROR")
 	end
+end
+
+function TSM.OnDisable()
+	local originalProfile = TSM.db:GetCurrentProfile()
+	-- erroring here would cause the profile to be reset, so use pcall
+	local startTime = debugprofilestop()
+	local success, errMsg = pcall(private.SaveAppData)
+	local timeTaken = debugprofilestop() - startTime
+	if timeTaken > LOGOUT_TIME_WARNING_THRESHOLD_MS then
+		TSM:LOG_WARN("private.SaveAppData took %0.2fms", timeTaken)
+	end
+	if not success then
+		TSM:LOG_ERR("private.SaveAppData hit an error: %s", tostring(errMsg))
+	end
+	-- ensure we're back on the correct profile
+	TSM.db:SetProfile(originalProfile)
 end
 
 
@@ -795,9 +691,10 @@ function private.DebugSlashCommandHandler(arg)
 	if arg == "fstack" then
 		TSM.UI.ToggleFrameStack()
 	elseif arg == "error" then
-		TSM.ShowManualError()
+		ErrorHandler.ShowManual()
 	elseif arg == "logging" then
 		TSM.db.global.debug.chatLoggingEnabled = not TSM.db.global.debug.chatLoggingEnabled
+		TSM.Logger.SetLoggingToChatEnabled(TSM.db.global.debug.chatLoggingEnabled)
 		if TSM.db.global.debug.chatLoggingEnabled then
 			TSM:Printf("Logging to chat enabled")
 		else
@@ -839,18 +736,11 @@ function private.SaveAppData()
 	appDB.region = region
 
 	-- save errors
-	TSM.SaveErrorReports(appDB)
+	ErrorHandler.SaveReports(appDB)
 
 	local function GetShoppingMaxPrice(itemString)
-		local operation = TSM.Operations.GetFirstOperationByItem("Shopping", itemString)
-		if not operation or type(operation.maxPrice) ~= "string" then
-			return
-		end
-		local value = TSMAPI_FOUR.CustomPrice.GetValue(operation.maxPrice, itemString)
-		if not value or value <= 0 then
-			return
-		end
-		return value
+		local value = TSM.Operations.Shopping.GetMaxPrice(itemString)
+		return value and value > 0 and value or nil
 	end
 
 	-- save TSM_Shopping max prices in the app DB
@@ -882,7 +772,7 @@ function private.SaveAppData()
 	local realmName = GetRealmName()
 	appDB.blackMarket = appDB.blackMarket or {}
 	if TSM.Features.blackMarket then
-		local hash = TSMAPI_FOUR.Util.CalculateHash(TSM.Features.blackMarket..":"..TSM.Features.blackMarketTime)
+		local hash = TSM.Math.CalculateHash(TSM.Features.blackMarket..":"..TSM.Features.blackMarketTime)
 		appDB.blackMarket[realmName] = {data=TSM.Features.blackMarket, key=hash, updateTime=TSM.Features.blackMarketTime}
 	end
 
@@ -913,7 +803,7 @@ function TSM:GetChatFrame()
 end
 
 function TSM:GetVersion()
-	return TSMAPI_FOUR.Util.IsDevVersion("TradeSkillMaster") and "Dev" or GetAddOnMetadata("TradeSkillMaster", "Version")
+	return TSM.Wow.IsTSMDevVersion() and "Dev" or GetAddOnMetadata("TradeSkillMaster", "Version")
 end
 
 
@@ -924,9 +814,13 @@ end
 
 function TSM.GetRegion()
 	local cVar = GetCVar("Portal")
-	local region = WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC and LibRealmInfo:GetCurrentRegion() or (cVar ~= "public-test" and cVar) or "PTR"
+	local region = nil
 	if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+		local currentRealmName = gsub(GetRealmName(), "\226", "'")
+		region = ClassicRealms.GetRegion(currentRealmName) or (cVar ~= "public-test" and cVar) or "PTR"
 		region = region.."-Classic"
+	else
+		region = LibRealmInfo:GetCurrentRegion() or (cVar ~= "public-test" and cVar) or "PTR"
 	end
 	return region
 end
@@ -942,32 +836,5 @@ function TSM.GetTSMProfileIterator()
 			return profile
 		end
 		TSM.db:SetProfile(originalProfile)
-	end
-end
-
-
-
--- ============================================================================
--- FIXME: this is all just temporary code which should eventually be removed
--- ============================================================================
-
-do
-	TSMAPI.Settings.Init = function(_, name)
-		local moduleName = gsub(name, "DB$", "")
-		local AceAddon = LibStub("AceAddon-3.0")
-		local obj = AceAddon and AceAddon:GetAddon(gsub(moduleName, "TradeSkillMaster", "TSM"))
-		if obj and tContains(TSM.CONST.OLD_TSM_MODULES, moduleName) then
-			obj.OnInitialize = nil
-			obj.OnEnable = nil
-			obj.OnDisable = nil
-			for _, module in ipairs(obj.modules) do
-				module.OnInitialize = nil
-				module.OnEnable = nil
-				module.OnDisable = nil
-			end
-			wipe(obj.modules)
-			wipe(obj.orderedModules)
-		end
-		error(moduleName, 2)
 	end
 end

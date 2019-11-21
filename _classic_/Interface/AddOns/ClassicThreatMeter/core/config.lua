@@ -1,4 +1,4 @@
-local A, C, L, _ = unpack(select(2, ...))
+local CTM, C, L, _ = unpack(select(2, ...))
 
 -----------------------------
 -- Default Config
@@ -6,12 +6,12 @@ local A, C, L, _ = unpack(select(2, ...))
 local defaultTexture	= [[Interface\ChatFrame\ChatFrameBackground]]
 local defaultFont		= [[Interface\AddOns\ClassicThreatMeter\media\NotoSans-SemiCondensedBold.ttf]] or _G.STANDARD_TEXT_FONT
 
-A.defaultConfig = {}
+CTM.defaultConfig = {}
 
 -- general
-A.defaultConfig.general = {
+CTM.defaultConfig.general = {
 	welcome				= true,									-- display welcome message
-	update				= 0.25,									-- time (in seconds) between updates
+	update				= 0.1,									-- time (in seconds) between updates
 	minimap				= false,								-- toggle for minimap icon
 	ignorePets			= false,								-- toggle for ignoring pets
 	hideOOC				= false,								-- hide frame when out of combat
@@ -27,11 +27,13 @@ A.defaultConfig.general = {
 }
 
 -- frame settings
-A.defaultConfig.frame = {
+CTM.defaultConfig.frame = {
 	test				= false,								-- toggle for test mode
 	scale				= 1,									-- global scale
 	width				= 217,									-- frame width
+	height				= 161,									-- frame height
 	locked				= false,								-- toggle for movable
+	strata				= "3-MEDIUM",							-- frame strata
 	position			= {"LEFT", "UIParent", "LEFT", 50, 0},	-- frame position
 	color				= {0, 0, 0, 0.35},						-- frame background color
 	headerShow			= true,									-- show frame header
@@ -39,7 +41,7 @@ A.defaultConfig.frame = {
 }
 
 -- backdrop settings
-A.defaultConfig.backdrop = {
+CTM.defaultConfig.backdrop = {
 	bgFile				= defaultTexture,						-- backdrop file location
 	bgColor				= {1, 1, 1, 0.1},						-- backdrop color
 	edgeFile			= defaultTexture,						-- backdrop edge file location
@@ -51,7 +53,7 @@ A.defaultConfig.backdrop = {
 }
 
 -- threat bar settings
-A.defaultConfig.bar = {
+CTM.defaultConfig.bar = {
 	count				= 9,									-- maximum amount of bars to show
 	descend				= true,									-- sort bars descending / ascending
 	height				= 18,									-- bar height
@@ -65,7 +67,7 @@ A.defaultConfig.bar = {
 }
 
 -- font settings
-A.defaultConfig.font = {
+CTM.defaultConfig.font = {
 	family				= defaultFont,							-- font file location
 	size				= 12,									-- font size
 	style				= "OUTLINE",							-- font style
@@ -74,7 +76,7 @@ A.defaultConfig.font = {
 }
 
 -- warning settings
-A.defaultConfig.warnings = {
+CTM.defaultConfig.warnings = {
 	visual				= true,									-- enable screen flash
 	sounds				= true,									-- enable sounds
 	threshold			= 80,									-- alert threshold (of normalized percentage 0-100)

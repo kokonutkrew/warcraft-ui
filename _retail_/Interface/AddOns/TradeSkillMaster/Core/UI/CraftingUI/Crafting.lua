@@ -37,7 +37,7 @@ private.dividedContainerContext = {}
 -- ============================================================================
 
 function Crafting.OnInitialize()
-	TSMAPI_FOUR.Util.RegisterItemLinkedCallback(private.ItemLinkedCallback)
+	TSM.Wow.RegisterItemLinkedCallback(private.ItemLinkedCallback)
 	TSM.UI.CraftingUI.RegisterTopLevelPage("Crafting", "iconPack.24x24/Crafting", private.GetCraftingFrame)
 	private.FSMCreate()
 end
@@ -641,7 +641,7 @@ function private.ProfessionDropdownOnSelectionChanged(_, value)
 	if not value then
 		-- nothing selected
 	else
-		local key = TSMAPI_FOUR.Util.GetDistinctTableKey(private.professions, value)
+		local key = TSM.Table.GetDistinctKey(private.professions, value)
 		local player, profession = strsplit(KEY_SEP, key)
 		if not profession then
 			-- the current linked / guild / NPC profession was re-selected, so just ignore this change
@@ -668,6 +668,10 @@ function private.RecipeListOnSelectionChanged(list)
 	local selection = list:GetSelection()
 	if not selection then
 		return
+	end
+
+	if CraftFrame_SetSelection and TSM.Crafting.ProfessionState.IsClassicCrafting() then
+		CraftFrame_SetSelection(TSM.Crafting.ProfessionScanner.GetIndexBySpellId(selection))
 	end
 
 	private.fsm:ProcessEvent("EV_RECIPE_SELECTION_CHANGED", selection)
@@ -697,7 +701,24 @@ function private.QueueBtnOnClick(button)
 end
 
 function private.ItemOnClick(text)
-	TSMAPI_FOUR.Util.SafeItemRef(TSMAPI_FOUR.Item.GetLink(text:GetElement("__parent.name"):GetContext()))
+	local spellId = tonumber(text:GetElement("__parent.name"):GetContext())
+	if spellId then
+		if TSM.Crafting.ProfessionState.IsClassicCrafting() then
+			if IsShiftKeyDown() and ChatEdit_GetActiveWindow() then
+				ChatEdit_InsertLink(GetCraftItemLink(TSM.Crafting.ProfessionScanner.GetIndexBySpellId(spellId)))
+			end
+		else
+			if IsShiftKeyDown() and ChatEdit_GetActiveWindow() then
+				if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+					ChatEdit_InsertLink(GetTradeSkillItemLink(TSM.Crafting.ProfessionScanner.GetIndexBySpellId(spellId)))
+				else
+					ChatEdit_InsertLink(C_TradeSkillUI.GetRecipeItemLink(spellId))
+				end
+			end
+		end
+	else
+		TSM.Wow.SafeItemRef(TSMAPI_FOUR.Item.GetLink(text:GetElement("__parent.name"):GetContext()))
+	end
 end
 
 function private.CraftBtnOnMouseDown(button)
@@ -749,12 +770,12 @@ function private.ClearOnClick(button)
 end
 
 function private.QueueAddBtnOnClick(button)
-	local groups = TSMAPI_FOUR.Util.AcquireTempTable()
+	local groups = TSM.TempTable.Acquire()
 	for _, groupPath in button:GetElement("__parent.groupTree"):SelectedGroupsIterator() do
 		tinsert(groups, groupPath)
 	end
 	TSM.Crafting.Queue.RestockGroups(groups)
-	TSMAPI_FOUR.Util.ReleaseTempTable(groups)
+	TSM.TempTable.Release(groups)
 end
 
 function private.HandleOnTitleClick(button)
@@ -809,7 +830,7 @@ function private.FSMCreate()
 		craftingQuantity = nil,
 	}
 
-	TSMAPI_FOUR.Event.Register("BAG_UPDATE_DELAYED", function()
+	TSM.Event.Register("BAG_UPDATE_DELAYED", function()
 		private.fsm:ProcessEvent("EV_BAG_UPDATE_DELAYED")
 	end)
 
@@ -992,7 +1013,7 @@ function private.FSMCreate()
 		end
 		detailsFrame:GetElement("left.title.name")
 			:SetText(resultName)
-			:SetContext(resultItemString)
+			:SetContext(resultItemString or tostring(context.selectedRecipeSpellId))
 		detailsFrame:GetElement("left.title.icon")
 			:SetStyle("backgroundTexture", resultTexture)
 			:SetTooltip(resultItemString or tostring(context.selectedRecipeSpellId))
@@ -1023,6 +1044,20 @@ function private.FSMCreate()
 			:SetRecipe(context.selectedRecipeSpellId)
 			:SetContext(context.selectedRecipeSpellId)
 		craftingContentFrame:Draw()
+		if TSM.Crafting.ProfessionState.IsClassicCrafting() and CraftCreateButton then
+			CraftCreateButton:SetParent(detailsFrame:GetElement("right.buttons.craftBtn"):_GetBaseFrame())
+			CraftCreateButton:ClearAllPoints()
+			CraftCreateButton:SetAllPoints(detailsFrame:GetElement("right.buttons.craftBtn"):_GetBaseFrame())
+			CraftCreateButton:SetFrameLevel(200)
+			CraftCreateButton:DisableDrawLayer("BACKGROUND")
+			CraftCreateButton:DisableDrawLayer("ARTWORK")
+			CraftCreateButton:SetHighlightTexture(nil)
+			if canCraft then
+				CraftCreateButton:Enable()
+			else
+				CraftCreateButton:Disable()
+			end
+		end
 	end
 	function fsmPrivate.UpdateQueueFrame(context)
 		local queueFrame = context.frame:GetElement("right.queue")
@@ -1073,6 +1108,13 @@ function private.FSMCreate()
 				:SetPressed(context.craftingSpellId and context.craftingType == "all")
 				:SetDisabled(not canCraft or context.craftingSpellId)
 				:Draw()
+			if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and CraftCreateButton then
+				if canCraft then
+					CraftCreateButton:Enable()
+				else
+					CraftCreateButton:Disable()
+				end
+			end
 		end
 
 		local nextCraftRecord = context.frame:GetElement("right.queue.queueList"):GetFirstData()
@@ -1181,7 +1223,7 @@ function private.FSMCreate()
 					:OrderBy("index", true)
 					:VirtualField("matNames", "string", TSM.Crafting.GetMatNames, "spellId")
 				if filter ~= "" then
-					filter = TSMAPI_FOUR.Util.StrEscape(filter)
+					filter = TSM.String.Escape(filter)
 					context.recipeQuery
 						:Or()
 							:Matches("name", filter)
@@ -1239,7 +1281,7 @@ function private.FSMCreate()
 				fsmPrivate.StartCraft(context, spellId, quantity)
 			end)
 			:AddEvent("EV_SPELLCAST_COMPLETE", function(context, success, isDone)
-				if success then
+				if success and context.craftingSpellId then
 					TSM:LOG_INFO("Crafted %d", context.craftingSpellId)
 					TSM.Crafting.Queue.Remove(context.craftingSpellId, 1)
 					context.craftingQuantity = context.craftingQuantity - 1

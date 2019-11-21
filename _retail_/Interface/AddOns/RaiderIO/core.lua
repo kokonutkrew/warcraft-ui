@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201909100600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201911200600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -1128,6 +1128,15 @@ do
 			-- sanity check that the data exists and is loaded, because it might not be for the requested faction
 			if db and lu then
 				r = db[realm]
+
+				-- temp fix for the apostrophe
+				if realm == 'Ner\'zhul' and not r then
+					r = db['Ner’zhul']
+				end
+				if realm == 'Cho\'gall' and not r then
+					r = db['Cho’gall']
+				end
+
 				if r then
 					d = BinarySearchForName(r, name, 2, #r)
 					if d then
@@ -2329,14 +2338,14 @@ do
 			if not ns.addonConfig.enableWhoTooltips then
 				return
 			end
-			if self.whoIndex then
-				local name, guild, level, race, class, zone, classFileName = GetWhoInfo(self.whoIndex)
-				if name and level and level >= MAX_LEVEL then
+			if self.index then
+                 local info = C_FriendList.GetWhoInfo(self.index)
+                 if info and info.fullName and info.level and info.level >= MAX_LEVEL then
 					local hasOwner = GameTooltip:GetOwner()
 					if not hasOwner then
 						GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", 0, 0)
 					end
-					if not ShowTooltip(GameTooltip, bor(TooltipProfileOutput.DEFAULT(), hasOwner and ProfileOutput.ADD_PADDING or 0), name, nil, PLAYER_FACTION) and not hasOwner then
+					if not ShowTooltip(GameTooltip, bor(TooltipProfileOutput.DEFAULT(), hasOwner and ProfileOutput.ADD_PADDING or 0), info.fullName, nil, PLAYER_FACTION) and not hasOwner then
 						GameTooltip:Hide()
 					end
 				end
@@ -2347,10 +2356,9 @@ do
 				GameTooltip:Hide()
 			end
 		end
-		for i = 1, 17 do
-			local b = _G["WhoFrameButton" .. i]
-			b:HookScript("OnEnter", OnEnter)
-			b:HookScript("OnLeave", OnLeave)
+		for _, button in pairs(WhoListScrollFrame.buttons) do
+			button:HookScript("OnEnter", OnEnter)
+			button:HookScript("OnLeave", OnLeave)
 		end
 		return 1
 	end
@@ -2364,7 +2372,9 @@ do
 			local fullName, faction, level
 			if self.buttonType == FRIENDS_BUTTON_TYPE_BNET then
 				local bnetIDAccount = BNGetFriendInfo(self.id)
-				fullName, faction, level = GetNameAndRealmForBNetFriend(bnetIDAccount)
+				if bnetIDAccount then
+					fullName, faction, level = GetNameAndRealmForBNetFriend(bnetIDAccount)
+				end
 			elseif self.buttonType == FRIENDS_BUTTON_TYPE_WOW then
 				fullName, level = GetFriendInfo(self.id)
 				faction = PLAYER_FACTION
@@ -2384,12 +2394,12 @@ do
 			end
 			GameTooltip:Hide()
 		end
-		local buttons = FriendsFrameFriendsScrollFrame.buttons
+		local buttons = FriendsListFrameScrollFrame.buttons
 		for i = 1, #buttons do
 			local button = buttons[i]
 			button:HookScript("OnEnter", OnEnter)
 		end
-		hooksecurefunc("FriendsFrameTooltip_Show", OnEnter)
+		--hooksecurefunc("FriendsFrameTooltip_Show", OnEnter)
 		hooksecurefunc(FriendsTooltip, "Hide", FriendTooltip_Hide)
 		return 1
 	end

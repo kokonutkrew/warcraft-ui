@@ -4,9 +4,18 @@ local WeakAuras = WeakAuras
 local L = WeakAuras.L
 local prettyPrint = WeakAuras.prettyPrint
 
+local LCD
+if WeakAuras.IsClassic() then
+  LCD = LibStub("LibClassicDurations")
+  LCD:RegisterFrame("WeakAuras")
+end
+
 local UnitAura = UnitAura
 -- Unit Aura functions that return info about the first Aura matching the spellName or spellID given on the unit.
 local WA_GetUnitAura = function(unit, spell, filter)
+  if filter and not filter:upper():find("FUL") then
+      filter = filter.."|HELPFUL"
+  end
   for i = 1, 255 do
     local name, _, _, _, _, _, _, _, _, spellId = UnitAura(unit, i, filter)
     if not name then return end
@@ -16,7 +25,23 @@ local WA_GetUnitAura = function(unit, spell, filter)
   end
 end
 
+if WeakAuras.IsClassic() then
+  local WA_GetUnitAuraBase = WA_GetUnitAura
+  WA_GetUnitAura = function(unit, spell, filter)
+    local name, icon, count, debuffType, duration, expirationTime, source, isStealable, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, castByPlayer, nameplateShowAll, timeMod = WA_GetUnitAuraBase(unit, spell, filter)
+    if spellId then
+      local durationNew, expirationTimeNew = LCD:GetAuraDurationByUnit(unit, spellId, source, name)
+      if duration == 0 and durationNew then
+          duration = durationNew
+          expirationTime = expirationTimeNew
+      end
+    end
+    return name, icon, count, debuffType, duration, expirationTime, source, isStealable, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, castByPlayer, nameplateShowAll, timeMod
+  end
+end
+
 local WA_GetUnitBuff = function(unit, spell, filter)
+  filter = filter and filter.."|HELPFUL" or "HELPFUL"
   return WA_GetUnitAura(unit, spell, filter)
 end
 
@@ -225,7 +250,7 @@ function WeakAuras.LoadFunction(string, id, inTrigger)
   if function_cache[string] then
     return function_cache[string]
   else
-    local loadedFunction, errorString = loadstring("--[[ Error in '" .. (id or "Unknown") .. (inTrigger and ("':'".. inTrigger) or "") .."' ]] " .. string)
+    local loadedFunction, errorString = loadstring("--[==[ Error in '" .. (id or "Unknown") .. (inTrigger and ("':'".. inTrigger) or "") .."' ]==] " .. string)
     if errorString then
       print(errorString)
     else

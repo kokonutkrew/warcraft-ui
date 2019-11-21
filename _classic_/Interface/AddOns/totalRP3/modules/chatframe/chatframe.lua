@@ -64,10 +64,14 @@ local CONFIG_USAGE = "chat_use_";
 local CONFIG_OOC = "chat_ooc";
 local CONFIG_OOC_PATTERN = "chat_ooc_pattern";
 local CONFIG_OOC_COLOR = "chat_ooc_color";
+local CONFIG_SPEECH = "chat_speech";
 local CONFIG_YELL_NO_EMOTE = "chat_yell_no_emote";
 local CONFIG_INSERT_FULL_RP_NAME = "chat_insert_full_rp_name";
 local CONFIG_SHOW_ICON = "chat_show_icon";
+local CONFIG_SHOW_OOC = "chat_show_ooc";
 local CONFIG_NPCSPEECH_REPLACEMENT = "chat_npcspeech_replacement";
+
+local OOC_INDICATOR_TEXT = ColorManager.RED("<" .. loc.CM_OOC .. "> ");
 
 local function configNoYelledEmote()
 	return getConfigValue(CONFIG_YELL_NO_EMOTE);
@@ -124,6 +128,10 @@ local function configOOCDetectionColor()
 	return Color(getConfigValue(CONFIG_OOC_COLOR));
 end
 
+local function configDoSpeechDetection()
+	return getConfigValue(CONFIG_SPEECH);
+end
+
 local function configInsertFullRPName()
 	return getConfigValue(CONFIG_INSERT_FULL_RP_NAME);
 end
@@ -139,9 +147,11 @@ local function createConfigPage()
 	registerConfigKey(CONFIG_OOC, true);
 	registerConfigKey(CONFIG_OOC_PATTERN, "(%(.-%))");
 	registerConfigKey(CONFIG_OOC_COLOR, "aaaaaa");
+	registerConfigKey(CONFIG_SPEECH, true);
 	registerConfigKey(CONFIG_YELL_NO_EMOTE, false);
 	registerConfigKey(CONFIG_INSERT_FULL_RP_NAME, true);
 	registerConfigKey(CONFIG_SHOW_ICON, false);
+	registerConfigKey(CONFIG_SHOW_OOC, false);
 	registerConfigKey(CONFIG_NPCSPEECH_REPLACEMENT, true);
 
 	local NAMING_METHOD_TAB = {
@@ -211,6 +221,11 @@ local function createConfigPage()
 			},
 			{
 				inherit = "TRP3_ConfigCheck",
+				title = loc.CO_CHAT_SHOW_OOC,
+				configKey = CONFIG_SHOW_OOC,
+			},
+			{
+				inherit = "TRP3_ConfigCheck",
 				title = loc.CO_CHAT_NPCSPEECH_REPLACEMENT,
 				help = loc.CO_CHAT_NPCSPEECH_REPLACEMENT_TT,
 				configKey = CONFIG_NPCSPEECH_REPLACEMENT,
@@ -262,6 +277,16 @@ local function createConfigPage()
 				title = loc.CO_CHAT_MAIN_OOC_COLOR,
 				configKey = CONFIG_OOC_COLOR,
 				dependentOnOptions = { CONFIG_OOC },
+			},
+			{
+				inherit = "TRP3_ConfigH1",
+				title = loc.CO_CHAT_MAIN_SPEECH,
+			},
+			{
+				inherit = "TRP3_ConfigCheck",
+				title = loc.CO_CHAT_MAIN_SPEECH_USE,
+				help = loc.CO_CHAT_MAIN_SPEECH_USE_TT,
+				configKey = CONFIG_SPEECH,
 			},
 			{
 				inherit = "TRP3_ConfigH1",
@@ -345,12 +370,15 @@ local function detectEmoteAndOOC(message, NPCEmoteChatColor)
 	local EmoteTempPatternEnd = "TRP3ETEMPEMOTE"
 	local OOCTempPatternStart = "TRP3BTEMPOOC"
 	local OOCTempPatternEnd = "TRP3ETEMPOOC"
+	local SpeechTempPatternStart = "TRP3BTEMPSPEECH"
+	local SpeechTempPatternEnd = "TRP3ETEMPSPEECH"
 
 	local LinkDetectionPattern = "(%|H.-%|h.-|h)"
 	local EmoteTempDetectionPattern = EmoteTempPatternStart .. ".-" .. EmoteTempPatternEnd
 	local OOCTempDetectionPattern = OOCTempPatternStart .. ".-" .. OOCTempPatternEnd
+	local SpeechTempDetectionPattern = SpeechTempPatternStart .. ".-" .. SpeechTempPatternEnd
 
-	-- Emote/OOC replacement
+	-- Emote/OOC/Speech replacement
 	if configDoEmoteDetection() and message:find(configEmoteDetectionPattern()) then
 		-- Wrapping patterns in a temporary pattern
 		local chatColor = ColorManager.getChatColorForChannel("EMOTE");
@@ -391,6 +419,28 @@ local function detectEmoteAndOOC(message, NPCEmoteChatColor)
 		if (message:find(OOCTempDetectionPattern)) then
 			message = message:gsub(OOCTempDetectionPattern, function(content)
 				return OOCColor:WrapTextInColorCode(content):gsub(OOCTempPatternStart, ""):gsub(OOCTempPatternEnd, "") .. NPCEmoteChatString;
+			end);
+		end
+	end
+
+	if configDoSpeechDetection() and message:find('%b""') then
+		-- Wrapping patterns in a temporary pattern
+		local chatColor = ColorManager.getChatColorForChannel("SAY");
+		message = message:gsub('%b""', function(content)
+			return SpeechTempPatternStart .. content .. SpeechTempPatternEnd;
+		end);
+
+		-- Removing temporary patterns from links
+		if (message:find(LinkDetectionPattern)) then
+			message = message:gsub(LinkDetectionPattern, function(content)
+				return content:gsub(SpeechTempPatternStart, ""):gsub(SpeechTempPatternEnd, "");
+			end);
+		end
+
+		-- Replacing temporary patterns by color wrap
+		if (message:find(SpeechTempDetectionPattern)) then
+			message = message:gsub(SpeechTempDetectionPattern, function(content)
+				return chatColor:WrapTextInColorCode(content):gsub(SpeechTempPatternStart, ""):gsub(SpeechTempPatternEnd, "") .. NPCEmoteChatString;
 			end);
 		end
 	end
@@ -692,6 +742,11 @@ function Utils.customGetColoredNameWithCustomFallbackFunction(fallback, event, a
 	if characterColor then
 		-- And wrap the name inside the color's code
 		characterName = characterColor:WrapTextInColorCode(characterName);
+	end
+
+	if getConfigValue(CONFIG_SHOW_OOC) and not player:IsInCharacter() then
+		-- Prefix name with OOC indicator.
+		characterName = OOC_INDICATOR_TEXT .. characterName;
 	end
 
 	if getConfigValue(CONFIG_SHOW_ICON) then

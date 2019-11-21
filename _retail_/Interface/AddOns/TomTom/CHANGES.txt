@@ -1,10 +1,10 @@
-lightweight tag daebb70a28dfe1a802951205ffd2437ee3302bec v80200-1.0.7
+lightweight tag aa9cd39e8ceb4be47985de42808f7a8ccb0230f0 v80205-1.0.8
 Author:	Ludovicus <ludovicus.maior@gmail.com>
-Date:	Sun Aug 25 15:13:26 2019 -0400
+Date:	Sun Nov 3 15:47:51 2019 -0500
 
-commit daebb70a28dfe1a802951205ffd2437ee3302bec
+commit aa9cd39e8ceb4be47985de42808f7a8ccb0230f0
 Author: Ludovicus <ludovicus.maior@gmail.com>
-Date:   Sun Aug 25 15:13:26 2019 -0400
+Date:   Sun Nov 3 15:47:51 2019 -0500
 
-    Switch interface to Retail.
+    Retail Cut.
 

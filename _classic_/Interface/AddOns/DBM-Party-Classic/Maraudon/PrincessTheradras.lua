@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(431, "DBM-Party-Classic", 8, 232)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20190810175354")
+mod:SetRevision("20191001141144")
 mod:SetCreatureID(12201)
 mod:SetEncounterID(429)
 
@@ -15,30 +15,28 @@ mod:RegisterEventsInCombat(
 
 --TODO, fear spread diff ID from initial target? if so, announce initial target
 --TODO, target scan Boulder?
+--TODO, more data that maybe gaze and dust field ona shared special timer?
 --local warningRepulsiveGaze		= mod:NewTargetNoFilterAnnounce(21869, 2)
 local warningRepulsiveGaze			= mod:NewSpellAnnounce(21869, 2)
 local warningBoulder				= mod:NewSpellAnnounce(21832, 2)
 local warningDustField				= mod:NewSpellAnnounce(21909, 2)
 
---local specWarnWrath					= mod:NewSpecialWarningInterrupt(21807, "HasInterrupt", nil, nil, 1, 2)
+local specWarnDustField				= mod:NewSpecialWarningRun(21909, "Melee", nil, nil, 4, 2)
 
-local timerRespulsiveGazeCD			= mod:NewAITimer(180, 21869, nil, nil, nil, 3)
-local timerBoulderCD				= mod:NewAITimer(180, 21832, nil, nil, nil, 3)
-local timerDustFieldCD				= mod:NewAITimer(180, 21909, nil, nil, nil, 2)
+local timerRespulsiveGazeCD			= mod:NewCDTimer(26.8, 21869, nil, nil, nil, 3)--26.8-51
+local timerDustFieldCD				= mod:NewCDTimer(21.9, 21909, nil, nil, nil, 2)--21.9-44
 
 function mod:OnCombatStart(delay)
-	timerRespulsiveGazeCD:Start(1-delay)
-	timerBoulderCD:Start(1-delay)
-	timerDustFieldCD:Start(1-delay)
+	timerRespulsiveGazeCD:Start(7-delay)
+	timerDustFieldCD:Start(8-delay)
 end
 
 do
 	local Boulder = DBM:GetSpellInfo(21832)
 	function mod:SPELL_CAST_START(args)
 		--if args.spellId == 21832 then
-		if args.spellName == Boulder then
+		if args.spellName == Boulder and args:GetSrcCreatureID() == 12201 then
 			warningBoulder:Show()
-			timerBoulderCD:Start()
 		end
 	end
 end
@@ -52,7 +50,12 @@ do
 			timerRespulsiveGazeCD:Start()
 		--elseif args.spellId == 21909 then
 		elseif args.spellName == Dustfield then
-			warningDustField:Show()
+			if self.Options.SpecWarn21909run and not self:IsTrivial(60) then
+				specWarnDustField:Show()
+				specWarnDustField:Play("justrun")
+			else
+				warningDustField:Show()
+			end
 			timerDustFieldCD:Start()
 		end
 	end

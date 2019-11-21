@@ -20,7 +20,7 @@
 
 ---@type TRP3_API
 local _, TRP3_API = ...;
-local Ellyb = Ellyb(_);
+local Ellyb = Ellyb(...);
 local LibRPMedia = LibStub:GetLibrary("LibRPMedia-1.0");
 
 -- Public accessor
@@ -70,13 +70,12 @@ end
 -- LOGGING
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
+-- Default logger.
+local logger = Ellyb.Logger("TRP3");
+
+-- Alias the log level constants for backwards compatibility.
 -- The log level defines the prefix color and serves as filter
-Log.level = {
-	DEBUG = "-|cff00ffffDEBUG|r] ",
-	INFO = "-|cff00ff00INFO|r] ",
-	WARNING = "-|cffffaa00WARNING|r] ",
-	SEVERE = "-|cffff0000SEVERE|r] "
-}
+Log.level = Ellyb.Logger.LEVELS;
 
 -- Print a log message to the chatFrame.
 local function log(message, level)
@@ -84,7 +83,8 @@ local function log(message, level)
 	if not Globals.DEBUG_MODE then
 		return;
 	end
-	Utils.print( "[TRP3".. level ..tostring(message));
+
+	logger:Log(level, message);
 end
 Log.log = log;
 
@@ -369,7 +369,21 @@ end
 -- Return an texture text tag based on the given icon url and size. Nil safe.
 function Utils.str.icon(iconPath, iconSize)
 	iconPath = iconPath or Globals.icons.default;
-	return Utils.str.texture("Interface\\ICONS\\" .. iconPath, iconSize);
+	return Utils.str.texture(Utils.getIconTexture(iconPath), iconSize);
+end
+
+--- Gives the full texture path of an individual icon.
+--- Handle using icon as a string, a file ID or as an Ellyb.icon
+--- @param icon string|Icon
+--- @return string
+function Utils.getIconTexture(icon)
+	if type(icon) == "table" and icon.isInstanceOf and icon:isInstanceOf(Ellyb.Icon) then
+		return icon:GetFileID()
+	elseif type(icon) == "number" then
+		return icon
+	else
+		return "Interface\\ICONS\\" .. tostring(icon)
+	end
 end
 
 -- Return a color tag based on a letter
@@ -452,7 +466,7 @@ For players: Player-[server ID]-[player UID] (Example: "Player-976-0002FD64")
 For creatures, pets, objects, and vehicles: [Unit type]-0-[server ID]-[instance ID]-[zone UID]-[ID]-[Spawn UID] (Example: "Creature-0-976-0-11-31146-000136DF91")
 Unit Type Names: "Creature", "Pet", "GameObject", and "Vehicle"
 For vignettes: Vignette-0-[server ID]-[instance ID]-[zone UID]-0-[spawn UID] (Example: "Vignette-0-970-1116-7-0-0017CAE465" for rare mob Sulfurious)
- ]]
+]]
 Utils.guid = {};
 
 local GUID_TYPES = {
@@ -543,7 +557,7 @@ end
 -- @return True if the text will be readable
 --
 local textColorIsReadableOnBackground = function(textColor)
-    return ((0.299 * textColor.r + 0.587 * textColor.g + 0.114 * textColor.b)) >= 0.5;
+	return ((0.299 * textColor.r + 0.587 * textColor.g + 0.114 * textColor.b)) >= 0.5;
 end
 
 Utils.color.textColorIsReadableOnBackground = textColorIsReadableOnBackground;

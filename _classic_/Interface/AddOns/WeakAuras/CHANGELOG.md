@@ -1,30 +1,23 @@
-# [2.14.5](https://github.com/WeakAuras/WeakAuras2/tree/2.14.5) (2019-08-27)
+# [2.15.5](https://github.com/WeakAuras/WeakAuras2/tree/2.15.5) (2019-10-22)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.14.4...2.14.5)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.15.4...2.15.5)
 
 ## Highlights
 
- - Let's call this the Reloe and Causese release
-- Bulk editing very large groups is now way faster
-- Your usual round of bug fixes 
+ - A few more bug fixes 
 
 ## Commits
 
-InfusOnWoW (3):
+Stanzilla (1):
 
-- Pause dynamic groups in setAll
-- Text: Run custom text function in Update
-- Fix sorting of DynamicGroups
+- drop branch name from PR artifacts
 
-Stanzilla (2):
+Vardex (1):
 
-- update opdeps for LibClassicCasterino
-- don't watch rune cooldowns on classic
+- Fix weapon enchant shortened name
 
-mrbuds (4):
+mrbuds (2):
 
-- fix options for unsuported regions
-- fix import of unsupported region
-- add region.Update for "fallback" regionType
-- bossmod triggers: fix arithmetic error if state.extend is nil fix #1625
+- swing timer: fix nil error if no offhand equiped
+- update "Cooldown Progress (Equipment Slot)" for handling amno fixes #1762 refresh on UNIT_INVENTORY_CHANGED add a stacksFunc
 

@@ -21,6 +21,8 @@ PawnSingleStatMultiplier = "_SingleMultiplier"
 PawnMultipleStatsFixed = "_MultipleFixed"
 PawnMultipleStatsExtract = "_MultipleExtract"
 
+local IsClassic = VgerCore.IsClassic
+
 ------------------------------------------------------------
 -- Localization
 ------------------------------------------------------------
@@ -38,7 +40,9 @@ end
 
 -- Turns a game constant into a regular expression but without the ^ and $ on the ends.
 function PawnGameConstantUnwrapped(Text)
-	-- REVIEW: This function seems like it might be pretty inefficient...
+	-- Some of these constants don't exist on Classic, so skip them: but not on live, where we would want this to error out.
+	if Text == nil and IsClassic then return "^UNUSED$" end
+
 	local Ret1 = gsub(Text, "%%", "%%%%")
 	return gsub(Ret1, "%-", "%%-")
 end

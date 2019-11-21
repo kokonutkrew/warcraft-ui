@@ -27,7 +27,23 @@
 
 GRML.Korean = function()
     
-    GRM_L["Guild"] = true
+    -- SET YOUR OWN CUSTOM SLASH COMMAND FOR GRM
+	GRM_L["/XXXX"] = true            -- /grm will always work, now you can make your own acronym that fits your language.
+
+	GRM_L["German"] = "독일어"
+	GRM_L["English"] = "영어"
+	GRM_L["French"] = "프랑스어"
+	GRM_L["Italian"] = "이탈리아어"
+	GRM_L["Russian"] = "러시아어"
+	GRM_L["SpanishMX"] = "스페인어 (MX)"
+	GRM_L["SpanishEU"] = "스페인어 (EU)"
+	GRM_L["Portuguese"] = "포르투갈어 (EU)"
+	GRM_L["PortugueseBR"] = "포르투갈어 (BR)"
+	GRM_L["Korean"] = "한국어"
+	GRM_L["MandarinCN"] = "중국어"
+	GRM_L["MandarinTW"] = "만다린 대만"
+	GRM_L["Dutch"] = "네덜란드어"
+	GRM_L["Danish"] = "덴마크어"
 
     -- PLAYER MAIN ROSTER DETAILS WINDOW
     GRM_L["Level: "] = " 레벨"
@@ -77,6 +93,7 @@ GRML.Korean = function()
     GRM_L["(Press Tab)"] = true
     GRM_L["Shift-Mouseover Name On Roster Also Works"] = true
     GRM_L["Guild Log"] = true
+    GRM_L["Guild"] = true
 
     -- TOOLTIPS
     GRM_L["Rank History"] = true 
@@ -256,8 +273,7 @@ GRML.Korean = function()
 
     GRM_L["Reactivating SCAN for Guild Member Changes..."] = true
     GRM_L["Deactivating SCAN of Guild Member Changes..."] = true
-    GRM_L["Due to server data restrictions, a scan interval must be at least 10 seconds or more!"] = true
-    GRM_L["Please choose an scan interval 10 seconds or higher!"] = true
+    GRM_L["Please choose a scan interval {num} seconds or higher!"] = true
     GRM_L["{num} is too Low!"] = true
     GRM_L["The Current Lvl Cap is {num}."] = true
     GRM_L["Kick Inactive Player Reminder at"] = true        -- Context: "Kick Inactive Player Reminder at X Months" - Again, allignment will need to be adjusted for options UI, so please post
@@ -1030,7 +1046,7 @@ GRML.Korean = function()
     GRM_L["Mismatched dates"] = true
     GRM_L["Matching date found in wrong note location"] = true
     GRM_L["Date not added to note"] = true
-    GRM_L["Mismatched dates and found in wrong note location"] = true
+    GRM_L["Mismatched dates, and found in wrong note location"] = true
     GRM_L["Mismatched date found in multiple locations, including correct"] = true
     GRM_L["Mismatched date found in multiple incorrect note locations"] = true
     GRM_L["Matching date found in multiple incorrect note locations"] = true
@@ -1197,6 +1213,129 @@ GRML.Korean = function()
     -- 1.71
     GRM_L["(Disabled in Classic)"] = true           -- For the Options... rather than removing them all
 
+    -- 1.73
+    GRM_L["{name} is no longer in the Guild!"] = true       -- There should really be 3 options. They got kicked, they left on their own, or if not found in the event log, they are just no longer in the guild
+    GRM_L["is no longer in the Guild!"] = true              -- THIS MUST MATCH THE PREVIOUS LINE with missing name.
+    GRM_L["Applying update patches... one moment."] = true
+    GRM_L["Update Complete... {num} patches applied."] = true   -- Plural
+    GRM_L["Update Complete... 1 patch applied."] = true         -- Singular version
+    GRM_L["|CFFE6CC7FCtrl-Click|r to also REMOVE all alts from the ignore list"] = true     -- Safe/ignore filters list checkButton tooltip (bottom left mouseover window)
+    GRM_L["|CFFE6CC7FCtrl-Click|r to also ADD all alts to the ignore list"] = true          -- Same
+    GRM_L["Disabling will also hide the Birthday info on the roster mouseover window"] = true       -- Enable/disable birthday chekbox on UI Options and the Audit windoppw
+    GRM_L["To avoid addon taint/blocking errors in Classic, the player must manually open the Guild Roster tab the first time."] = true          -- Classic only message for players explaining why window cannot open automatically.
+    GRM_L["Confirm Date"] = true
+    GRM_L["If the date is accurate, right click and select 'Confirm Date'"] = true
+    
+     -- 1.74
+    GRM_L["Class Colorize Names in Guild Member Alerts"] = true
+    GRM_L["All player custom notes re-enabled for sync and their checkboxes set."] = true
+    
+    -- 1.75
+    GRM_L["!note"] = true               -- !note in English will always work. This gives you the option of creating your own key to register a public note.
+    GRM_L["No officer online to set {name}'s note"] = true
+    GRM_L["No officer is currently online to update your note"] = true
+    GRM_L["Note updated by @{name}"] = true              -- As in "Note updated by @Arkaan"
+    GRM_L["Allow Guild Members to Type \"!note\" to Set Their Own Public Note"] = true
+    GRM_L["'!note' trigger has been globally enabled"] = true
+    GRM_L["Enabled"] = true         -- As in, the opposite of Disabled
+    GRM_L["'!note' trigger has been globally ENABLED"] = true
+    GRM_L["'!note' trigger has been globally DISABLED"] = true
+    GRM_L["'g7^X' - Designate '!note' use. g7^1 = Enabled, g7^2 = Disabled"] = true
+
+    -- 1.76
+    GRM_L["Same Rank"] = true                                                                   -- Macro Tool, Ignore List window - tooltip info on why no action is being done on some players who may be on it.
+    GRM_L["Higher Rank"] = true                                                                 -- Macro Tool, Ignore List window - tooltip info on why no action is being done on some players who may be on it.
+    GRM_L["Feature Disabled. There is no Calendar in Classic"] = true                           -- Events Tab top warning
+    GRM_L["This only affects settings for your current guild: {name}"] = true                   -- Tooltip for Options > General > Sync settings to all alts in same guild
+    GRM_L["GC"] = true                                                                          -- Options window, acronym for "Global Controls" and will be adjacent to all settings that have global controls
+    GRM_L["*GC = Global Control - Use Guild Info to Force Setting For All"] = true              -- Top left Options window
+    GRM_L["Set Global Controls"] = true                                                      -- Options > Officer Tab > Bottom left export button
+    GRM_L["Global Control Values Set in Guild Info"] = true                                     -- Export GuildInfo tool tooltip
+    GRM_L["Configure your settings. Click to set in Guild Info"] = true                                    -- Tooltip line 2- same as above
+    GRM_L["Unable to add globals controls to GuildInfo. There is not enough room."] = true      -- If export of globals is not able to complete
+    GRM_L["Global controls exported to the guild info note. Updating..."] = true                -- Success in exporting
+    GRM_L["Your rank cannot edit the Guild Info"] = true                                              -- Mouseover tooltip helper for people without MOTD edit access
+    GRM_L["All global controls are already set. You must Edit or Remove the settings manually in the guild Info."] = true;
+    GRM_L["Do you really want to wipe all GRM data and settings account-wide?"] = true
+    GRM_L["Are you sure your settings are configured and ready for global controls?"] = true
+    GRM_L["Players the same rank or higher will not be shown"] = true
+    GRM_L["Macro"] = true       -- For the slash command  /grm tool or /grm macro - same thing
+
+    	-- 1.77
+	GRM_L["Add Custom Rule"] = true         -- Kick Macro Tool - custom rule button right side
+	GRM_L["Former Members"] = true          -- Export tool
+	GRM_L["Data Export"] = true
+	GRM_L["*Max Export is 500 Log Entries at a Time"] = true
+	GRM_L["*Max Export is 500 Members at a Time"] = true
+	GRM_L["*Max Export is 500 Former Members at a Time"] = true
+	GRM_L["Log export follows the search and display settings"] = true
+	GRM_L["*Export obeys the current log display filters"] = true
+	GRM_L["Select Line Range:"] = true
+	GRM_L["Select Member Range:"] = true
+	GRM_L["Export Selection"] = true
+	GRM_L["Export Next {num}"] = true       -- As in, "Export next 500" names or log lines
+	GRM_L["Export Prev {num}"] = true       -- As in, Export Previous name
+	GRM_L["Total Members: {num}"] = true
+	GRM_L["Total Former Members: {num}"] = true
+	GRM_L["Class"] = true                       -- As in Class Name, there is currently a "Class:" we need one with the colon
+	GRM_L["Guild Rep"] = true                   -- Guild Faction reputation (abbreviated)
+	GRM_L["Last Online (Days)"] = true
+	GRM_L["Spreadsheet Headers"] = true
+	GRM_L["Auto Include Headers"] = true        -- Auto include headers on the export frame, as in the column headers for each category on member and former mebers
+	GRM_L["These will only be included if exporting from the top of the table"] = true      -- tooltip for the auto-Included export checkbutton
+	GRM_L["Export"] = true
+	GRM_L["This will be rounded to the nearest day"] = true
+	GRM_L["Clearing Log Export. A filter setting has been changed."] = true             -- If the filter settings have been modified, the export string should be cleared and re-done
+	GRM_L["No Tag"] = true                                                              -- Main Tag
+	GRM_L["Delimiter:"] = true                                                          -- Delimiter selection for Export window
+	GRM_L["|CFFE6CC7FClick|r to view more alt details."] = true                         -- Calendar tooltip
+	GRM_L["|CFFE6CC7FRight-Click|r for additional options."] = true                     -- Also Calendar tooltip
+	GRM_L["The selected delimiter will be removed from all notes on export"] = true
+	GRM_L["Choose thoughtfully"] = true
+	GRM_L["{name}'s note has been updated!"] = true
+	GRM_L["Locked. Press ESC"] = true                                        -- Mouseover Locked text in top right.
+	GRM_L["{num} guild members have outdated GRM versions"] = true                      -- Player sync with another is outdated
+    GRM_L["|CFFE6CC7FClick|r to Select for Removal"] = true
+    GRM_L["Feel free to recommend a delimiter you wish to use to the author"] = true
+    GRM_L["Export Tool"] = true
+    GRM_L["Opens the Data Export Tool"] = true
+    GRM_L["Opens the Advanced Macro Tool"] = true
+    GRM_L["Open any GRM window: Log, Event, Ban, etc."] = true
+
+    -- 1.78
+    GRM_L["Hurray!"] = true                                                              -- A short cheer! Like "Yay!" except "Hurray!"
+    GRM_L["{name} has Reached the {num} Level Cap! {custom1}"] = true                  -- Arkaan has Reached the 120 Level Cap! Hurray!
+    
+    -- 1.80
+    GRM_L["Core Window:"] = true
+    GRM_L["Mouseover Player Details:"] = true
+    GRM_L["Macro Tool:"] = true
+    GRM_L["Export Tool:"] = true
+    GRM_L["Audit Join Date Tool:"] = true
+    GRM_L["GRM UI Scale"] = true
+    GRM_L["Right-Click to Reset"] = true
+    GRM_L["Open the Mouseover Window to see immediate scaling changes"] = true
+    GRM_L["Open the Macro Tool Window to see immediate scaling changes"] = true
+    GRM_L["The Export Tool is connected to the Core window scaling"] = true
+    GRM_L["This provides additional scaling controls on just this window"] = true
+    GRM_L["Open the Export Tool Window to see immediate scaling changes"] = true
+    GRM_L["WARNING: Clear the text box before re-scaling or you may lock up your system"] = true
+    GRM_L["Resets ALL settings, not just the ones on this page"] = true
+    GRM_L["Open MouseOver"] = true
+    GRM_L["Open Macro Tool"] = true
+    GRM_L["Open Export Tool"] = true
+    GRM_L["Open Join Date Tool"] = true
+
+    -- 1.81
+    GRM_L["Race"] = true
+    GRM_L["Sex"] = true
+    GRM_L["Male"] = true
+    GRM_L["Female"] = true
+    GRM_L["{name} {name2}"] = true          -- This might seem weird, but the format is "Race Sex" In other words, "Orc Male" or "Nightborne Female" and so on. Adjust how you see fit, it appears in the mouseover tooltip on the player name
+    
+    -- 1.82
+    GRM_L["Disabled While Player is Grouped"] = true
+    GRM_L["SYNC is currently disabled while you are grouped. Due to server restricted addon to addon talk data caps, and in an effort to avoid clogging up the shared global comm space of all addons, sync will be temporarily restricted while grouped."] = true
 
 end
 

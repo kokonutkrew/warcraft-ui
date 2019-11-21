@@ -2,7 +2,7 @@
 HotkeyNet Log File
 -------------------------------------------------------------------------------------
 
-File opened at 08:57:39 on Friday, September 20, 2019
+File opened at 21:24:14 on Wednesday, November 20, 2019
 DNS name: DESKTOP-VEEBCOF
 OS version: Microsoft  (build 9200)
 
@@ -21,11 +21,11 @@ CPU:
 
 
 Memory:
-	Load = 15%; 
+	Load = 19%; 
 	Total physical = 32688 MB; 
-	Available physical = 27681 MB; 
+	Available physical = 26195 MB; 
 	Total page file = 37552 MB; 
-	Avail page file = 30794 MB; 
+	Avail page file = 28797 MB; 
 	Total virtual = 2047 MB; 
 	Avail virtual = 1969 MB; 
 	Avail extended virtual = 0 MB.
@@ -50,7 +50,7 @@ Adapter 0:
 
 	DHCP Enabled	Yes
 	DHCP Server	192.168.0.1
-	Lease Obtained	Fri Sep 20 08:49:09 2019
+	Lease Obtained	Wed Nov 20 20:59:05 2019
 
 	Have WINS	No
 

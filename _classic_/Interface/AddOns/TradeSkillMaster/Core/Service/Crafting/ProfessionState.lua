@@ -33,6 +33,10 @@ function ProfessionState.IsClassicCrafting()
 	return WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and private.craftOpen
 end
 
+function ProfessionState.SetCraftOpen(open)
+	private.craftOpen = open
+end
+
 function ProfessionState.GetCurrentProfession()
 	return private.professionName
 end
@@ -44,45 +48,57 @@ end
 -- ============================================================================
 
 function private.CreateFSM()
-	TSMAPI_FOUR.Event.Register("TRADE_SKILL_SHOW", function()
+	if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and not IsAddOnLoaded("Blizzard_CraftUI") then
+		LoadAddOn("Blizzard_CraftUI")
+	end
+	TSM.Event.Register("TRADE_SKILL_SHOW", function()
 		private.tradeSkillOpen = true
 		private.fsm:ProcessEvent("EV_TRADE_SKILL_SHOW")
 		private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGING")
 		private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGED")
 	end)
-	TSMAPI_FOUR.Event.Register("TRADE_SKILL_CLOSE", function()
+	TSM.Event.Register("TRADE_SKILL_CLOSE", function()
 		private.tradeSkillOpen = false
 		if not private.craftOpen then
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_CLOSE")
 		end
 	end)
 	if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
-		TSMAPI_FOUR.Event.Register("GARRISON_TRADESKILL_NPC_CLOSED", function()
+		TSM.Event.Register("GARRISON_TRADESKILL_NPC_CLOSED", function()
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_CLOSE")
 		end)
-		TSMAPI_FOUR.Event.Register("TRADE_SKILL_DATA_SOURCE_CHANGED", function()
+		TSM.Event.Register("TRADE_SKILL_DATA_SOURCE_CHANGED", function()
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGED")
 		end)
-		TSMAPI_FOUR.Event.Register("TRADE_SKILL_DATA_SOURCE_CHANGING", function()
+		TSM.Event.Register("TRADE_SKILL_DATA_SOURCE_CHANGING", function()
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGING")
 		end)
 	else
-		TSMAPI_FOUR.Event.Register("CRAFT_SHOW", function()
+		TSM.Event.Register("CRAFT_SHOW", function()
 			private.craftOpen = true
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_SHOW")
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGING")
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGED")
 		end)
-		TSMAPI_FOUR.Event.Register("CRAFT_CLOSE", function()
+		TSM.Event.Register("CRAFT_CLOSE", function()
 			private.craftOpen = false
 			if not private.tradeSkillOpen then
 				private.fsm:ProcessEvent("EV_TRADE_SKILL_CLOSE")
 			end
 		end)
-		TSMAPI_FOUR.Event.Register("CRAFT_UPDATE", function()
-			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGING")
+		TSM.Event.Register("CRAFT_UPDATE", function()
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_DATA_SOURCE_CHANGED")
 		end)
+	end
+	local function ToggleDefaultCraftButton()
+		if not CraftCreateButton then
+			return
+		end
+		if private.craftOpen then
+			CraftCreateButton:Show()
+		else
+			CraftCreateButton:Hide()
+		end
 	end
 	local function FrameDelayCallback()
 		private.fsm:ProcessEvent("EV_FRAME_DELAY")
@@ -130,6 +146,9 @@ function private.CreateFSM()
 				assert(name)
 				TSM:LOG_INFO("Showing profession: %s", name)
 				private.professionName = name
+				if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+					ToggleDefaultCraftButton()
+				end
 				private.RunUpdateCallbacks()
 			end)
 			:SetOnExit(function()

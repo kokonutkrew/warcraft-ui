@@ -196,6 +196,8 @@ FishingTranslations["itIT"] = {
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SECRET_FISHING_GOGGES_INFO"] = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",--]] 
 	--[[Translation missing --]]
+	--[[ ["CONFIG_SECRET_FISHING_GOGGLES_INFO"] = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",--]] 
+	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_INFO"] = "If enabled, show the #NAME# banner on login.",--]] 
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_ONOFF"] = "Show banner",--]] 
@@ -280,6 +282,8 @@ FishingTranslations["itIT"] = {
 	--[[Translation missing --]]
 	--[[ ["FISHDATARESETMORE_MSG"] = "Run |c#GREEN#/fb #FISHDATA# #RESET#|r one more time to reset fish location data.",--]] 
 	--[[Translation missing --]]
+	--[[ ["FISHING_SKILL"] = "Fishing",--]] 
+	--[[Translation missing --]]
 	--[[ ["FISHINGMODE"] = "fishing",--]] 
 	["FISHINGMODE_HELP"] = "|c#GREEN#/fb #FISHINGMODE# [inizia|interrompi]|r#BRSPCS#Esegui #NAME# azioni di pesca.#BRSPCS#Utile nelle macro insieme a /lancia Pesca'.",
 	["FISHTYPES"] = "Tipi di pesce: %d",
@@ -302,6 +306,8 @@ FishingTranslations["itIT"] = {
 	["LEFTCLICKTODRAG"] = "Clic sinistro per trascinare",
 	["LOCATIONS_INFO"] = "Mostra dove hai catturato pesci sia per Area che per Tipo di Pesce",
 	["LOCATIONS_TAB"] = "Luoghi",
+	--[[Translation missing --]]
+	--[[ ["LURE_NAME"] = "Fishing Lure",--]] 
 	["MACRONAME"] = "FishingBuddy",
 	["MINIMAPBUTTONPLACEMENT"] = "Piazzamento",
 	["MINIMAPBUTTONPLACEMENTTOOLTIP"] = "Permette di muovere l'icona #NAME# attorno alla minimappa.",

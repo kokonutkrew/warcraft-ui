@@ -35,10 +35,6 @@ end
 
 local FishingInit = {};
 
-local function copytable(tab, level)
-	return FL:copytable(tab, level);
-end
-
 FishingInit.ResetHelpers = function()
 	FishingBuddy.MappedZones = {};
 	FishingBuddy.SortedZones = {};

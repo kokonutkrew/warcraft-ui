@@ -20,11 +20,11 @@ local private = {
 -- ============================================================================
 
 function PlayerUtil.OnInitialize()
-	TSMAPI_FOUR.Event.Register("CHAT_MSG_SYSTEM", private.ChatMsgSystemEventHandler)
+	TSM.Event.Register("CHAT_MSG_SYSTEM", private.ChatMsgSystemEventHandler)
 end
 
 function PlayerUtil.GetTargetPlayer(account)
-	local tempTbl = TSMAPI_FOUR.Util.AcquireTempTable()
+	local tempTbl = TSM.TempTable.Acquire()
 	for _, player in TSM.db:FactionrealmCharacterByAccountIterator(account) do
 		tinsert(tempTbl, player)
 	end
@@ -32,40 +32,30 @@ function PlayerUtil.GetTargetPlayer(account)
 	-- find the player to connect to without adding to the friends list
 	for _, player in ipairs(tempTbl) do
 		if PlayerUtil.IsOnline(player, true) then
-			TSMAPI_FOUR.Util.ReleaseTempTable(tempTbl)
+			TSM.TempTable.Release(tempTbl)
 			return player
 		end
 	end
 	-- if we failed, try again with adding to friends list
 	for _, player in ipairs(tempTbl) do
 		if PlayerUtil.IsOnline(player) then
-			TSMAPI_FOUR.Util.ReleaseTempTable(tempTbl)
+			TSM.TempTable.Release(tempTbl)
 			return player
 		end
 	end
-	TSMAPI_FOUR.Util.ReleaseTempTable(tempTbl)
+	TSM.TempTable.Release(tempTbl)
 end
 
 function PlayerUtil.IsOnline(target, noAdd)
 	C_FriendList.ShowFriends()
-	for i = 1, C_FriendList.GetNumFriends() do
-		local info = C_FriendList.GetFriendInfoByIndex(i)
-		if info.name and strlower(info.name) == strlower(target) then
-			return info.connected
-		end
-	end
-
-	if not noAdd and not private.invalidPlayers[strlower(target)] and C_FriendList.GetNumFriends() ~= 50 then
+	local info = C_FriendList.GetFriendInfo(target)
+	if not info and not noAdd and not private.invalidPlayers[strlower(target)] and C_FriendList.GetNumFriends() ~= 50 then
 		-- add them as a friend
 		C_FriendList.AddFriend(target)
 		tinsert(private.addedFriends, target)
-		for i = 1, C_FriendList.GetNumFriends() do
-			local info = C_FriendList.GetFriendInfoByIndex(i)
-			if info.name and strlower(info.name) == strlower(target) then
-				return info.connected
-			end
-		end
+		info = C_FriendList.GetFriendInfo(target)
 	end
+	return info and info.connected or false
 end
 
 

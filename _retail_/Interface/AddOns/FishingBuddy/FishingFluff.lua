@@ -172,7 +172,7 @@ FishingItems[122742] = {
     ["spell"] = 182226,
     setting = "UseBladeboneHook",
     visible = function(option)
-            return true;
+            return not FL:IsClassic();
         end,
     usable = function(item)
             -- only usable in Draenor
@@ -447,7 +447,12 @@ end
 FishingBuddy.SetupSpecialItems = SetupSpecialItems
 
 local function AddFluffOptions(options)
-    FishingBuddy.OptionsFrame.HandleOptions(FBConstants.CONFIG_FISHINGFLUFF_ONOFF, "Interface\\Icons\\inv_misc_food_164_fish_seadog", options);
+    if FL:IsClassic() then
+        local _, name = FL:GetFishingSkillInfo();
+        FishingBuddy.OptionsFrame.HandleOptions(name, "Interface\\Icons\\INV_Fishingpole_02", options);
+    else
+        FishingBuddy.OptionsFrame.HandleOptions(FBConstants.CONFIG_FISHINGFLUFF_ONOFF, "Interface\\Icons\\inv_misc_food_164_fish_seadog", options);
+    end
 end
 FishingBuddy.AddFluffOptions = AddFluffOptions
 

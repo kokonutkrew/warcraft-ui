@@ -1,13 +1,12 @@
-tag 618263b751f89bf2c6f867f710715a10a09be6a8 1.2.2
+tag d5abbf5acdaa2cfcfea085e1bba147a22f1cf821 1.2.3.1
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Mon Sep 2 23:32:43 2019 +0200
+Date:	Sat Oct 5 16:25:49 2019 +0200
 
-#11
-#33
+Updated TOC to 80205
 
-commit c70447a38903f4c653ff26af5352494376375b9d
+commit f3e3902ce6e9cfa2a8a0411dff61728b0b72f6cc
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Mon Sep 2 23:31:27 2019 +0200
+Date:   Sat Oct 5 16:25:42 2019 +0200
 
-    Removed debug message
+    Updated TOC to 80205
 

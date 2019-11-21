@@ -204,6 +204,8 @@ Puntuación estilo Draznar's: %d ]=],
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SECRET_FISHING_GOGGES_INFO"] = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",--]] 
 	--[[Translation missing --]]
+	--[[ ["CONFIG_SECRET_FISHING_GOGGLES_INFO"] = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",--]] 
+	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_INFO"] = "If enabled, show the #NAME# banner on login.",--]] 
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_ONOFF"] = "Show banner",--]] 
@@ -289,6 +291,8 @@ Puntuación estilo Draznar's: %d ]=],
 	--[[Translation missing --]]
 	--[[ ["FISHDATARESETMORE_MSG"] = "Run |c#GREEN#/fb #FISHDATA# #RESET#|r one more time to reset fish location data.",--]] 
 	--[[Translation missing --]]
+	--[[ ["FISHING_SKILL"] = "Fishing",--]] 
+	--[[Translation missing --]]
 	--[[ ["FISHINGMODE"] = "fishing",--]] 
 	--[[Translation missing --]]
 	--[[ ["FISHINGMODE_HELP"] = "|c#GREEN#/fb #FISHINGMODE# [start|stop]|r#BRSPCS#Run #NAME# fishing actions.#BRSPCS#Useful in macros along with '/cast Fishing'.",--]] 
@@ -312,6 +316,7 @@ Puntuación estilo Draznar's: %d ]=],
 	["LEFTCLICKTODRAG"] = "Click-Izq para mover",
 	["LOCATIONS_INFO"] = "Muestra info de zona de pesca",
 	["LOCATIONS_TAB"] = "Zona",
+	["LURE_NAME"] = "Cebo de pesca",
 	--[[Translation missing --]]
 	--[[ ["MACRONAME"] = "FishingBuddy",--]] 
 	["MINIMAPBUTTONPLACEMENT"] = "Posición del Botón",

@@ -11,7 +11,7 @@
 -- @classmod MenuDialogFrame
 
 local _, TSM = ...
-local MenuDialogFrame = TSMAPI_FOUR.Class.DefineClass("MenuDialogFrame", TSM.UI.Frame)
+local MenuDialogFrame = TSM.Include("LibTSMClass").DefineClass("MenuDialogFrame", TSM.UI.Frame)
 TSM.UI.MenuDialogFrame = MenuDialogFrame
 
 

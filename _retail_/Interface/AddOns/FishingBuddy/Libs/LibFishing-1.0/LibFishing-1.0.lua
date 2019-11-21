@@ -10,13 +10,38 @@ Licensed under a Creative Commons "Attribution Non-Commercial Share Alike" Licen
 local _
 
 local MAJOR_VERSION = "LibFishing-1.0"
-local MINOR_VERSION = 91013
+local MINOR_VERSION = 101071
 
 if not LibStub then error(MAJOR_VERSION .. " requires LibStub") end
 
 local FishLib, lastVersion = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
 if not FishLib then
     return
+end
+
+local WOW = {};
+function FishLib:WOWVersion()
+    return WOW.major, WOW.minor, WOW.dot, WOW.classic;
+end
+
+function FishLib:IsClassic()
+    return WOW.classic;
+end
+
+if ( GetBuildInfo ) then
+    local v, b, d = GetBuildInfo();
+    WOW.build = b;
+    WOW.date = d;
+    local s,e,maj,min,dot = string.find(v, "(%d+).(%d+).(%d+)");
+    WOW.major = tonumber(maj);
+    WOW.minor = tonumber(min);
+    WOW.dot = tonumber(dot);
+    WOW.classic = (_G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC)
+else
+    WOW.major = 1;
+    WOW.minor = 9;
+    WOW.dot = 0;
+    WOW.classic = true
 end
 
 -- Some code suggested by the author of LibBabble-SubZone so I don't have
@@ -36,17 +61,21 @@ local function FishLib_GetLocaleLibBabble(typ)
     return rettab;
 end
 
+local CBH = LibStub("CallbackHandler-1.0")
 local BSZ = FishLib_GetLocaleLibBabble("LibBabble-SubZone-3.0");
 local BSL = LibStub("LibBabble-SubZone-3.0"):GetBaseLookupTable();
 local BSZR = LibStub("LibBabble-SubZone-3.0"):GetReverseLookupTable();
-local HBD = LibStub("HereBeDragons-2.0")
-local CBH = LibStub("CallbackHandler-1.0")
+local HBD = LibStub("HereBeDragons-2.0");
+local LT = LibStub("LibTourist-3.0");
+
+FishLib.HBD = HBD
 
 if not lastVersion then
     FishLib.caughtSoFar = 0;
     FishLib.gearcheck = true
     FishLib.hasgear = false;
     FishLib.PLAYER_SKILL_READY = "PlayerSkillReady"
+    FishLib.havedata = WOW.classic;
 end
 
 FishLib.registered = FishLib.registered or CBH:New(FishLib, nil, nil, false)
@@ -55,58 +84,14 @@ FishLib.registered = FishLib.registered or CBH:New(FishLib, nil, nil, false)
 local SABUTTONNAME = "LibFishingSAButton";
 FishLib.UNKNOWN = "UNKNOWN";
 
-local WOW = {};
-function FishLib:WOWVersion()
-    return WOW.major, WOW.minor, WOW.dot, WOW.classic;
-end
-
-if ( GetBuildInfo ) then
-    local v, b, d = GetBuildInfo();
-    WOW.build = b;
-    WOW.date = d;
-    local s,e,maj,min,dot = string.find(v, "(%d+).(%d+).(%d+)");
-    WOW.major = tonumber(maj);
-    WOW.minor = tonumber(min);
-    WOW.dot = tonumber(dot);
-    WOW.classic = (_G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC)
-else
-    WOW.major = 1;
-    WOW.minor = 9;
-    WOW.dot = 0;
-    WOW.classic = true
-end
-
--- support finding the fishing skill
-local function FindSpellID(thisone)
-    local id = 1;
-    local spellTexture = GetSpellTexture(id);
-    while (spellTexture) do
-        if (spellTexture and spellTexture == thisone) then
-            return id;
-        end
-        id = id + 1;
-        spellTexture = GetSpellTexture(id);
-    end
-    return nil;
-end
- 
 function FishLib:GetFishingSkillInfo()
-    if WOW.classic then
-        local spell = FindSpellID("Interface\\Icons\\Trade_Fishing");
-        if spell then
-            local name, _, _ = GetSpellInfo(spell);
-            return spell, name;
-        end
-        return 0, "Fishing"
-    else
-        local _, _, _, fishing, _, _ = GetProfessions();
-        if ( fishing ) then
-            local name, _, _, _, _, _, _ = GetProfessionInfo(fishing);
-            -- is this always the same as PROFESSIONS_FISHING?
-            return fishing, name;
-        end
-        return 0, PROFESSIONS_FISHING;
+    local _, _, _, fishing, _, _ = GetProfessions();
+    if ( fishing ) then
+        local name, _, _, _, _, _, _ = GetProfessionInfo(fishing);
+        -- is this always the same as PROFESSIONS_FISHING?
+        return fishing, name;
     end
+    return 0, PROFESSIONS_FISHING;
 end
 
 local DEFAULT_SKILL = { ["max"] = 300, ["skillid"] = 356, ["cat"] = 1100, ["rank"] = 0 }
@@ -123,109 +108,107 @@ FishLib.continent_fishing = {
     { ["max"] = 175, ["skillid"] = 2585, ["cat"] = 1114, ["rank"] = 0 },	-- Zandalar Fishing
 }
 
-if not WOW.classic then
-    local itsready = C_TradeSkillUI.IsTradeSkillReady
-    local OpenTradeSkill = C_TradeSkillUI.OpenTradeSkill
-    local GetTradeSkillLine = C_TradeSkillUI.GetTradeSkillLine
-    local GetCategoryInfo = C_TradeSkillUI.GetCategoryInfo
-    local CloseTradeSkill = C_TradeSkillUI.CloseTradeSkill
-    local itsempty = C_TradeSkillUI.IsEmptySkillLineCategory
-    local CHECKINTERVAL = 0.5
+local itsready = C_TradeSkillUI.IsTradeSkillReady
+local OpenTradeSkill = C_TradeSkillUI.OpenTradeSkill
+local GetTradeSkillLine = C_TradeSkillUI.GetTradeSkillLine
+local GetCategoryInfo = C_TradeSkillUI.GetCategoryInfo
+local CloseTradeSkill = C_TradeSkillUI.CloseTradeSkill
+local itsempty = C_TradeSkillUI.IsEmptySkillLineCategory
+local CHECKINTERVAL = 0.5
 
-    function FishLib:UpdateFishingSkillData()
-        for _,info in pairs(self.continent_fishing) do
-            if (itsempty(info.cat)) then
-                local data = GetCategoryInfo(info.cat);
-                -- info.max = data.skillLineMaxLevel
-                info.rank = data.skillLineCurrentLevel
-                self.havedata = true
-            end
+function FishLib:UpdateFishingSkillData()
+    for _,info in pairs(self.continent_fishing) do
+        if (itsempty(info.cat)) then
+            local data = GetCategoryInfo(info.cat);
+            -- info.max = data.skillLineMaxLevel
+            info.rank = data.skillLineCurrentLevel
+            self.havedata = true
         end
     end
+end
 
-    local function SkillUpdate(self, elapsed)
-        if itsready() then
-            self.lastUpdate = self.lastUpdate + elapsed;
-            if self.lastUpdate > CHECKINTERVAL then
-                self.lib:UpdateFishingSkillData()
-                self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
-                self:Hide()
-                self.lastUpdate = 0
-            end
-        end
-    end
-
-    function FishLib:QueueUpdateFishingSkillData()
-        if not self.havedata then
-            local btn = _G[SABUTTONNAME];
-            if btn then
-                btn.skillupdate:Show()
-            end
-        end
-    end
-
-    -- Open up the tradeskill window and get the current data
-    local function SkillInitialize(self, elapsed)
+local function SkillUpdate(self, elapsed)
+    if itsready() then
         self.lastUpdate = self.lastUpdate + elapsed;
-        if self.lastUpdate > CHECKINTERVAL/2 then
-            if self.state == 0 then
-                if TradeSkillFrame then
-                    self.state = self.state + 1
-                    self.tsfpanel = UIPanelWindows["TradeSkillFrame"]
-                    UIPanelWindows["TradeSkillFrame"] = nil
-                    self.tsfpos = {}
-                    for idx=1,TradeSkillFrame:GetNumPoints() do
-                        tinsert(self.tsfpos, {TradeSkillFrame:GetPoint(idx)})
-                    end
-                    TradeSkillFrame:ClearAllPoints();
-                    TradeSkillFrame:SetPoint("LEFT", UIParent, "RIGHT", 10000, 0);
-                end
-            elseif self.state == 1 then
-                OpenTradeSkill(DEFAULT_SKILL.skillid)
-                self.selfopened = true
-                self.state = self.state + 1
-            elseif self.state == 2 then
-                if itsready() then
-                    self.lib:UpdateFishingSkillData()
-                    self.state = self.state + 1
-                end
-            else
-                CloseTradeSkill()
-                if self.tsfpos then
-                    TradeSkillFrame:ClearAllPoints();
-                    for _,point in ipairs(self.tsfpos) do
-                        TradeSkillFrame:SetPoint(unpack(point));
-                    end
-                end
-                if self.tsfpanel then
-                    UIPanelWindows["TradeSkillFrame"] = self.tsfpanel
-                end
-                self.tsfpanel = nil
-                self.tsfpos = nil
-                self:Hide()
-                self:SetScript("OnUpdate", SkillUpdate);
-                self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
-            end
+        if self.lastUpdate > CHECKINTERVAL then
+            self.lib:UpdateFishingSkillData()
+            self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
+            self:Hide()
             self.lastUpdate = 0
         end
     end
+end
 
-    -- Go ahead and forcibly get the trade skill data
-    function FishLib:GetTradeSkillData()
+function FishLib:QueueUpdateFishingSkillData()
+    if not self.havedata then
         local btn = _G[SABUTTONNAME];
         if btn then
-            if (not IsAddOnLoaded("Blizzard_TradeSkillUI")) then
-                LoadAddOn("Blizzard_TradeSkillUI");
-            end
-            btn.skillupdate:SetScript("OnUpdate", SkillInitialize);
             btn.skillupdate:Show()
         end
     end
-else
-    function FishLib:GetTradeSkillData() end;
-    function FishLib:QueueUpdateFishingSkillData() end;
-
 end
+
+-- Open up the tradeskill window and get the current data
+local function SkillInitialize(self, elapsed)
+    self.lastUpdate = self.lastUpdate + elapsed;
+    if self.lastUpdate > CHECKINTERVAL/2 then
+        if self.state == 0 then
+            if TradeSkillFrame then
+                self.state = self.state + 1
+                self.tsfpanel = UIPanelWindows["TradeSkillFrame"]
+                UIPanelWindows["TradeSkillFrame"] = nil
+                self.tsfpos = {}
+                for idx=1,TradeSkillFrame:GetNumPoints() do
+                    tinsert(self.tsfpos, {TradeSkillFrame:GetPoint(idx)})
+                end
+                TradeSkillFrame:ClearAllPoints();
+                TradeSkillFrame:SetPoint("LEFT", UIParent, "RIGHT", 10000, 0);
+            end
+        elseif self.state == 1 then
+            OpenTradeSkill(DEFAULT_SKILL.skillid)
+            self.selfopened = true
+            self.state = self.state + 1
+        elseif self.state == 2 then
+            if itsready() then
+                self.lib:UpdateFishingSkillData()
+                self.state = self.state + 1
+            end
+        else
+            CloseTradeSkill()
+            if self.tsfpos then
+                TradeSkillFrame:ClearAllPoints();
+                for _,point in ipairs(self.tsfpos) do
+                    TradeSkillFrame:SetPoint(unpack(point));
+                end
+            end
+            if self.tsfpanel then
+                UIPanelWindows["TradeSkillFrame"] = self.tsfpanel
+            end
+            self.tsfpanel = nil
+            self.tsfpos = nil
+            self:Hide()
+            self:SetScript("OnUpdate", SkillUpdate);
+            self.lib.registered:Fire(FishLib.PLAYER_SKILL_READY)
+        end
+        self.lastUpdate = 0
+    end
+end
+
+-- Go ahead and forcibly get the trade skill data
+function FishLib:GetTradeSkillData()
+    if self:IsClassic() then
+        return
+    end
+    local btn = _G[SABUTTONNAME];
+    if btn then
+        if (not IsAddOnLoaded("Blizzard_TradeSkillUI")) then
+            LoadAddOn("Blizzard_TradeSkillUI");
+        end
+        btn.skillupdate:SetScript("OnUpdate", SkillInitialize);
+        btn.skillupdate:Show()
+    end
+end
+
 
 function FishLib:UpdateFishingSkill()
     local fishing, _ = self:GetFishingSkillInfo();
@@ -243,7 +226,7 @@ end
 
 -- get the fishing skill for the specified continent
 function FishLib:GetContinentSkill(continent)
-    local _, _, _, fishing, _, _ = GetProfessions();
+    local fishing, _ = self:GetFishingSkillInfo();
     if (fishing and self.havedata) then
         local info = FishLib.continent_fishing[continent];
         if (info) then
@@ -728,11 +711,9 @@ if ( not fishlibframe) then
     fishlibframe:RegisterEvent("UNIT_SPELLCAST_CHANNEL_START");
     fishlibframe:RegisterEvent("UNIT_SPELLCAST_CHANNEL_STOP");
     fishlibframe:RegisterEvent("ITEM_LOCK_CHANGED");
-    if not WOW.classic then
-        fishlibframe:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
-        fishlibframe:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
-        fishlibframe:RegisterEvent("EQUIPMENT_SWAP_FINISHED");
-    end
+    fishlibframe:RegisterEvent("TRADE_SKILL_DATA_SOURCE_CHANGED")
+    fishlibframe:RegisterEvent("TRADE_SKILL_LIST_UPDATE")
+    fishlibframe:RegisterEvent("EQUIPMENT_SWAP_FINISHED");
 end
 
 fishlibframe.fl = FishLib;
@@ -1517,7 +1498,7 @@ function FishLib:GetCurrentMapContinent()
 end
 
 function FishLib:GetCurrentMapId()
-    if select(4, GetBuildInfo()) < 80000 then
+    if not self:IsClassic() and select(4, GetBuildInfo()) < 80000 then
         return GetCurrentMapAreaID()
     else
         local mapId, _ = HBD:GetPlayerZone()
@@ -1609,12 +1590,15 @@ local subzoneskills = {
 -- this should be something useful for BfA
 function FishLib:GetCurrentFishingLevel()
     local mapID = self:GetCurrentMapId()
-    local continent, _ = self:GetCurrentMapContinent()
-
-    -- Let's just go with continent level skill for now, since
-    -- subzone skill levels are now up in the air.
-    local info = self.continent_fishing[continent] or DEFAULT_SKILL
-    return info.max
+    local current_max = LT:GetFishingLevel(mapID)
+    if current_max == 0 then
+        local continent, _ = self:GetCurrentMapContinent()
+        -- Let's just go with continent level skill for now, since
+        -- subzone skill levels are now up in the air.
+        local info = self.continent_fishing[continent] or DEFAULT_SKILL
+        current_max = info.max
+    end
+    return current_max
     -- local _, subzone = self:GetZoneInfo()
     -- if (continent ~= 7 and subzoneskills[subzone]) then
     -- 	return subzoneskills[subzone];
@@ -1627,7 +1611,7 @@ end
 function FishLib:GetFishingSkillLine(join, withzone, isfishing)
     local part1 = "";
     local part2 = "";
-    local skill, mods, skillmax = self:GetCurrentSkill();
+    local skill, mods, skillmax, _ = self:GetCurrentSkill();
     local totskill = skill + mods;
     local subzone = GetSubZoneText();
     local zone = GetRealZoneText() or "Unknown";
@@ -1637,7 +1621,7 @@ function FishLib:GetFishingSkillLine(join, withzone, isfishing)
     end
     if not self.havedata then
         part1 = part1..self:Yellow("-- (0%)");
-    elseif ( self.havedata and  level ) then
+    elseif ( level ) then
          if ( level > 0 ) then
             local perc = totskill/level; -- no get aways
             if (perc > 1.0) then
@@ -2103,7 +2087,10 @@ function FishLib:FishingBonusPoints(item, inv)
             -- Equip: Fishing skill increased by N.
             match[3] = skillname.."[%a%s]+(%d+)%.";
             if ( GetLocale() == "deDE" ) then
-                 match[4] = "+(%d+) Angelfertigkeit";
+                tinsert(match, "+(%d+) Angelfertigkeit");
+            end
+            if self.LURE_NAME then
+                tinsert(match, self.LURE_NAME.." %+(%d+)")
             end
         end
         local tooltip = self:GetFishTooltip();
@@ -2164,6 +2151,7 @@ function FishLib:GetOutfitBonus()
     local pole, lure = self:GetPoleBonus();
     return bonus + pole, lure;
 end
+
 
 function FishLib:GetBestFishingItem(slotid)
     local item = nil
@@ -2441,10 +2429,12 @@ end
 
 -- addon message support
 function FishLib:RegisterAddonMessagePrefix(prefix)
-    if (WOW.major < 8) then
-        RegisterAddonMessagePrefix(prefix)
-    else
-        C_ChatInfo.RegisterAddonMessagePrefix(prefix)
+    if not self:IsClassic() then
+        if (WOW.major < 8) then
+            RegisterAddonMessagePrefix(prefix)
+        else
+            C_ChatInfo.RegisterAddonMessagePrefix(prefix)
+        end
     end
 end
 
@@ -2560,10 +2550,13 @@ FishLib.SCHOOL_FIRE = 8;
 
 local FLTrans = {};
 
-function FLTrans:Setup(lang, school, ...)
+function FLTrans:Setup(lang, school, lurename, ...)
     self[lang] = {};
     -- as long as string.lower breaks all UTF-8 equally, this should still work
     self[lang].SCHOOL = string.lower(school);
+    if lurename then
+        self[lang].LURE_NAME = lurename;
+    end
     local n = select("#", ...);
     local schools = {};
     for idx=1,n,2 do
@@ -2574,7 +2567,7 @@ function FLTrans:Setup(lang, school, ...)
     self[lang].SCHOOLS = schools;
 end
 
-FLTrans:Setup("enUS", "school",
+FLTrans:Setup("enUS", "school", "Fishing Lure",
     "Floating Wreckage", FishLib.SCHOOL_WRECKAGE,
     "Patch of Elemental Water", FishLib.SCHOOL_WATER,
     "Floating Debris", FishLib.SCHOOL_DEBRIS,
@@ -2586,7 +2579,7 @@ FLTrans:Setup("enUS", "school",
     "School of Tastyfish", FishLib.SCHOOL_TASTY,
     "Pool of Fire", FishLib.SCHOOL_FIRE);
 
-FLTrans:Setup("koKR", "떼",
+FLTrans:Setup("koKR", "떼", "낚시용 미끼",
     "표류하는 잔해", FishLib.SCHOOL_WRECKAGE, --	 Floating Wreckage
     "정기가 흐르는 물 웅덩이", FishLib.SCHOOL_WATER, --	 Patch of Elemental Water
     "표류하는 파편", FishLib.SCHOOL_DEBRIS, --  Floating Debris
@@ -2596,7 +2589,7 @@ FLTrans:Setup("koKR", "떼",
     "증기 양수기 표류물", FishLib.SCHOOL_FLOTSAM, --	Steam Pump Flotsam
     "맛둥어 떼", FishLib.SCHOOL_TASTY); -- School of Tastyfish
 
-FLTrans:Setup("deDE", "schwarm",
+FLTrans:Setup("deDE", "schwarm", "Angelköder",
     "Treibende Wrackteile", FishLib.SCHOOL_WRECKAGE, --  Floating Wreckage
     "Stelle mit Elementarwasser", FishLib.SCHOOL_WATER, --  Patch of Elemental Water
     "Schwimmende Trümmer", FishLib.SCHOOL_DEBRIS, --  Floating Debris
@@ -2606,7 +2599,7 @@ FLTrans:Setup("deDE", "schwarm",
     "Treibgut der Dampfpumpe", FishLib.SCHOOL_FLOTSAM, --	 Steam Pump Flotsam
     "Leckerfischschwarm", FishLib.SCHOOL_TASTY); -- School of Tastyfish
 
-FLTrans:Setup("frFR", "banc",
+FLTrans:Setup("frFR", "banc", "Appât de pêche",
     "Débris flottants", FishLib.SCHOOL_WRECKAGE, --	 Floating Wreckage
     "Remous d'eau élémentaire", FishLib.SCHOOL_WATER, --	Patch of Elemental Water
     "Débris flottant", FishLib.SCHOOL_DEBRIS, --	 Floating Debris
@@ -2616,7 +2609,7 @@ FLTrans:Setup("frFR", "banc",
     "Détritus de la pompe à vapeur", FishLib.SCHOOL_FLOTSAM, --	 Steam Pump Flotsam
     "Banc de courbine", FishLib.SCHOOL_TASTY); -- School of Tastyfish
 
-FLTrans:Setup("esES", "banco",
+FLTrans:Setup("esES", "banco", "Cebo de pesca",
     "Restos de un naufragio", FishLib.SCHOOL_WRECKAGE,	  --	Floating Wreckage
     "Restos flotando", FishLib.SCHOOL_DEBRIS,		--	 Floating Debris
     "Vertido de petr\195\179leo", FishLib.SCHOOL_OIL,	 --  Oil Spill
@@ -2624,7 +2617,7 @@ FLTrans:Setup("esES", "banco",
     "Restos flotantes de bomba de vapor", FishLib.SCHOOL_FLOTSAM, --	Steam Pump Flotsam
     "Banco de pezricos", FishLib.SCHOOL_TASTY); -- School of Tastyfish
 
-FLTrans:Setup("zhCN", "鱼群",
+FLTrans:Setup("zhCN", "鱼群", "鱼饵",
     "漂浮的残骸", FishLib.SCHOOL_WRECKAGE, --  Floating Wreckage
     "元素之水", FishLib.SCHOOL_WATER, --	 Patch of Elemental Water
     "漂浮的碎片", FishLib.SCHOOL_DEBRIS, --	Floating Debris
@@ -2635,7 +2628,7 @@ FLTrans:Setup("zhCN", "鱼群",
     "蒸汽泵废料", FishLib.SCHOOL_FLOTSAM, --	 Steam Pump Flotsam
     "可口鱼", FishLib.SCHOOL_TASTY); -- School of Tastyfish
 
-FLTrans:Setup("zhTW", "群",
+FLTrans:Setup("zhTW", "群", "鱼饵",
     "漂浮的殘骸", FishLib.SCHOOL_WRECKAGE, --  Floating Wreckage
     "元素之水", FishLib.SCHOOL_WATER, --	 Patch of Elemental Water
     "漂浮的碎片", FishLib.SCHOOL_DEBRIS, --	Floating Debris

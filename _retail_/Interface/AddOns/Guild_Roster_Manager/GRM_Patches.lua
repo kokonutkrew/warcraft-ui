@@ -2,301 +2,467 @@
 
 
 GRM_Patch = {};
-local chat = DEFAULT_CHAT_FRAME;
+local patchNeeded = false;
 
 -- Method:          GRM_Patch.SettingsCheck ( float )
 -- What it Does:    Holds the patch logic for when people upgrade the addon
 -- Purpose:         To keep the database healthy and corrected from dev design errors and unanticipated consequences of code.
-GRM_Patch.SettingsCheck = function ( numericV )
-    -- Introduced in 1.133 - placed in the beginning to to critcal issue with database
-    if numericV < 1.133 then
-        GRM.CleanupGuildNames();
-    end
+GRM_Patch.SettingsCheck = function ( numericV , count , patch )
+
+    local numActions = count or 0;
+    local baseValue = patch or 0;
     
+    -- Purpose of this function...
+    -- Updates are not that computationally intensive on their own, but I'd imagine if a player has not updated GRM is a very very long time the process might cause the game to hang for several seconds and possible
+    -- timeout. This prevents that and makes it more obvious to the player what is occurring.
+    local loopCheck = function ( actionValue )
+
+        local needsUpdate = false;
+        numActions = numActions + 1;
+        baseValue = actionValue;
+
+        -- Announce in chat that GRM is updating for patches... Only state this one time in the cycle.
+        if numActions == 1 then
+            GRM.Report ( GRM.L ( "GRM:" ) .. " " .. GRM.L ( "Applying update patches... one moment." ) )
+            patchNeeded = true;
+        end
+
+        if numActions % 5 == 0 then
+            needsUpdate = true;
+            C_Timer.After ( 2 , function()
+                GRM_Patch.SettingsCheck ( numericV , numActions , baseValue );
+            end);
+        end
+
+        return needsUpdate;
+    end
+
     -- Introduced Patch R1.092
     -- Alt tracking of the player - so it can auto-add the player's own alts to the guild info on use.
-    if #GRM_PlayerListOfAlts_Save == 0 then
+    if numericV < 1.092 and baseValue < 1.092 and #GRM_PlayerListOfAlts_Save == 0 then
         GRM_Patch.SetupAltTracking();
+        if loopCheck ( 1.092 ) then         -- this can be checked again, so can hold previous value
+            return;
+        end
     end
 
     -- Introduced Patch R1.100
     -- Updating the version for ALL saved accounts.
-    if numericV < 1.100 then
+    if numericV < 1.100 and baseValue < 1.100 then
         GRM_Patch.UpdateRankControlSettingDefault();
+        if loopCheck ( 1.100 ) then
+            return;
+        end
     end
 
     -- Introduced Patch R1.111
     -- Added some more booleans to the options for future growth.
-    if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 26 then
+    if numericV < 1.111 and baseValue < 1.111 and #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 26 then
         GRM_Patch.ExpandOptions();
+        if loopCheck ( 1.111 ) then
+            return;
+        end
     end
 
     -- Intoduced Patch R1.122
     -- Adds an additional point of logic for "Unknown" on join date...
-    if numericV < 1.122 then
+    if numericV < 1.122 and baseValue < 1.122 then
         GRM_Patch.IntroduceUnknown();
+        if loopCheck ( 1.122 ) then
+            return;
+        end
     end
 
     -- Introduced Patch R1.125
     -- Bug fix... need to purge of repeats
-    if numericV < 1.125 and GRM_AddonSettings_Save[GRM_G.FID][2][2][24] == 0 then
+    if numericV < 1.125 and baseValue < 1.125 and GRM_AddonSettings_Save[GRM_G.FID][2][2][24] == 0 then
         GRM_Patch.RemoveRepeats();
         GRM_Patch.EstablishThrottleSlider();
-    end
-
-    -- Introdued Patch R1.126
-    -- Cleans up broken code that might have been causing error.
-    if numericV < 1.126 then
-        GRM_Patch.CleanupSettings ( 30 );
+        if loopCheck ( 1.125 ) then
+            return;
+        end
     end
 
     -- Introduced Patch R.1.126
     -- Need some more options booleans
-    if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 30 then
-        GRM_Patch.ExpandOptionsScalable( 10 , 30 , true );  -- Adding 10 boolean spots
-    end
+    if numericV < 1.126 and baseValue < 1.126 then
+        GRM_Patch.CleanupSettings ( 30 );
+        
+        if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 30 then
+            GRM_Patch.ExpandOptionsScalable( 10 , 30 , true );  -- Adding 10 boolean spots
+        end
+        -- Need some more options int placeholders for dropdown menus
+        if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 40 then
+            GRM_Patch.ExpandOptionsScalable( 5 , 40 , false );  -- Adding 5 boolean spots
+        end
 
-    -- Introdued Patch R1.126
-    -- Need some more options int placeholders for dropdown menus
-    if #GRM_AddonSettings_Save[GRM_G.FID][2][2] == 40 then
-        GRM_Patch.ExpandOptionsScalable( 5 , 40 , false );  -- Adding 5 boolean spots
-    end
+        -- Minimap Created!!!
+        if GRM_AddonSettings_Save[GRM_G.FID][2][2][25] == 0 or GRM_AddonSettings_Save[GRM_G.FID][2][2][26] == 0 then
+            GRM_Patch.SetMinimapValues();
+        end
 
-    -- Introduced Patch R1.126
-    -- Minimap Created!!!
-    if GRM_AddonSettings_Save[GRM_G.FID][2][2][25] == 0 or GRM_AddonSettings_Save[GRM_G.FID][2][2][26] == 0 then
-        GRM_Patch.SetMinimapValues();
+        if loopCheck ( 1.126 ) then
+            return;
+        end
     end
 
     -- Introduced R1.129
     -- Some erroneous promo date formats occurred due to a faulty previous update. These cleans them up.
-    if numericV < 1.129 then
+    if numericV < 1.129 and baseValue < 1.129 then
         GRM_Patch.CleanupPromoDates();
+        if loopCheck ( 1.129 ) then
+            return;
+        end
     end
 
     -- Introduced R1.130
     -- Sync addon settings should not be enabled by default.
     -- Greenwall users sync was getting slower and slower and slower... this resolves it.
-    if numericV < 1.130 then
+    if numericV < 1.130 and baseValue < 1.130 then
         GRM_Patch.TurnOffDefaultSyncSettingsOption();
         GRM_Patch.ResetSyncThrottle();
+        if loopCheck ( 1.130 ) then
+            return;
+        end
     end
 
     -- R1.131
     -- Some messed up date formatting needs to be re-cleaned up due to failure to take into consideration month/date formating issues on guildInfo system message on creation date.
-    if numericV < 1.131 then
+    if numericV < 1.131 and baseValue < 1.131 then
         GRM_Patch.ResetCreationDates();
+        if loopCheck ( 1.131 ) then
+            return;
+        end
     end
 
     -- Some flaw in the left players I noticed... this cleans up old database issues.
-    if numericV < 1.132 then
+    if numericV < 1.132 and baseValue < 1.132 then
         GRM_Patch.CleanupLeftPlayersDatabaseOfRepeats();
+        if loopCheck ( 1.132 ) then
+            return;
+        end
     end
 
-    -- Cleanup the guild backups feature. This will affect almost no one, but I had the methods in the code, this just protects some smarter coders who noticed it and utilized them.
-    if numericV < 1.140 then
-        chat:AddMessage ( "GRM: Warning!!! Due to a flaw in the database build of the backups that I had missed, the entire backup database had to be wiped and rebuilt. There was a critical flaw in it. I apologize, but this really is the best solution. A new auto-backup will be established the first time you logout, but a manual save is also encouraged." , 1 , 0 , 0 , 1 );
-        GRM.ResetAllBackups();
+    -- Introduced in 1.133 - placed in the beginning to to critcal issue with database
+    if numericV < 1.133 and baseValue < 1.133 then
+        GRM.CleanupGuildNames();
+        if loopCheck ( 1.133 ) then
+            return;
+        end
     end
 
     -- Sets the settings menu configuration and updates the auto backup arrays to include room for the autobackups...
-    if numericV < 1.137 then
+    if numericV < 1.137 and baseValue < 1.137 then
         GRM_Patch.ConfigureAutoBackupSettings();
+        if loopCheck ( 1.137 ) then
+            return;
+        end
+    end
+    
+    -- Cleanup the guild backups feature. This will affect almost no one, but I had the methods in the code, this just protects some smarter coders who noticed it and utilized them.
+    if numericV < 1.140 and baseValue < 1.140 then
+        GRM.Report ( "GRM: Warning!!! Due to a flaw in the database build of the backups that I had missed, the entire backup database had to be wiped and rebuilt. There was a critical flaw in it. I apologize, but this really is the best solution. A new auto-backup will be established the first time you logout, but a manual save is also encouraged." , 1 , 0 , 0 , 1 );
+        GRM.ResetAllBackups();
+        if loopCheck ( 1.140 ) then
+            return;
+        end
     end
 
+
     -- Cleans up the Promo dates.
-    if numericV < 1.142 then
+    if numericV < 1.142 and baseValue < 1.142 then
         GRM_Patch.CleanupPromoDates();
         GRM_Patch.ExpandOptionsType ( 3 , 3 , 45 );
         GRM_Patch.ModifyNewDefaultSetting ( 46 , { 1 , 0 , 0 } );
+        if loopCheck ( 1.142 ) then
+            return;
+        end
     end
 
-    if numericV < 1.143 then
+    if numericV < 1.143 and baseValue < 1.143 then
         GRM_Patch.ModifyNewDefaultSetting ( 36 , false );
         GRM_Patch.ModifyNewDefaultSetting ( 37 , false );
         GRM_Patch.ModifyNewDefaultSetting ( 43 , GRM_G.LocalizedIndex );
+        if loopCheck ( 1.143 ) then
+            return;
+        end
     end
 
-    if numericV < 1.144 then
+    if numericV < 1.144 and baseValue < 1.144 then
         GRM_Patch.FixBrokenLanguageIndex();
+        if loopCheck ( 1.144 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1461 then
+    if numericV < 1.1461 and baseValue < 1.1461 then
         GRM_Patch.SetProperFontIndex();
         GRM_Patch.ModifyNewDefaultSetting( 45 , 0 );
+        if loopCheck ( 1.1461 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1471 then
+    if numericV < 1.1471 and baseValue < 1.1471 then
         GRM_Patch.SetMiscConfiguration();
+        if loopCheck ( 1.1471 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1480 then
+    if numericV < 1.1480 and baseValue < 1.1480 then
         GRM_Patch.ExpandOptionsType ( 1 , 2 , 48 );
         GRM_Patch.ModifyNewDefaultSetting ( 49 , 2 );
         GRM_Patch.ModifyPlayerMetadata ( 23 , { true , 0 , "" , GRM_AddonSettings_Save[GRM_G.FID][GRM_G.setPID][2][49] , false , "" } , false , -1 );  -- Adding custom note logic
         GRM_Patch.AddNewDefaultSetting ( 3 , true , true );         -- Print log report for custom note boolean
         GRM_Patch.AddNewDefaultSetting ( 13 , true , true );        -- Chat log report for custom note boolean
         GRM_Patch.SetProperRankRestrictions();
+        if loopCheck ( 1.1480 ) then
+            return;
+        end
     end
     
-    if numericV < 1.1482 then
+    if numericV < 1.1482 and baseValue < 1.1482 then
         GRM_Patch.FixAltData();
         GRM_Patch.ExpandOptionsType ( 1 , 1 , 49 );
+        if loopCheck ( 1.1482 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1490 then
+    if numericV < 1.1490 and baseValue < 1.1490 then
         GRM_Patch.FixAltData();
+        if loopCheck ( 1.1490 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1492 then
+    if numericV < 1.1492 and baseValue < 1.1492 then
         GRM_Patch.RemoveAllAutoBackups();
+        if loopCheck ( 1.1492 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1500 then
+    if numericV < 1.1500 and baseValue < 1.1500 then
         GRM_Patch.CleanupAnniversaryEvents();
         GRM_Patch.RemoveTitlesEventDataAndUpdateBirthday();
         GRM_Patch.UpdateCalendarEventsDatabase();
+        if loopCheck ( 1.1500 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1501 then
+    if numericV < 1.1501 and baseValue < 1.1501 then
         GRM_Patch.RemoveTitlesEventDataAndUpdateBirthday();
+        if loopCheck ( 1.1501 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1510 then
+    if numericV < 1.1510 and baseValue < 1.1510 then
         GRM_Patch.ExpandOptionsType ( 1 , 1 , 50 );
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 51 );
         GRM_Patch.MatchLanguageTo24HrFormat();
+        if loopCheck ( 1.1510 ) then
+            return;
+        end
     end
 
-    if numericV < 1.1530 then
+    if numericV < 1.1530 and baseValue < 1.1530 then
         GRM_Patch.FixBanListNameGrammar();
+        if loopCheck ( 1.1530 ) then
+            return;
+        end
     end
 
-    if numericV < 1.20 then
+    if numericV < 1.20 and baseValue < 1.20 then
         GRM_Patch.FixDoubleCopiesInLeftPLayers();
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 52 );
         GRM_Patch.ModifyNewDefaultSetting ( 53 , false );
         GRM_Patch.ModifyNewDefaultSetting ( 24 , 1 );
         GRM_Patch.AddPlayerMetaDataSlot ( 41 , "" );            -- Adding the GUID position...
         GRM_Patch.FixPlayerListOfAltsDatabase();
+        if loopCheck ( 1.20 ) then
+            return;
+        end
     end
 
-    if numericV < 1.21 then
+    if numericV < 1.21 and baseValue < 1.21 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 53 );
         GRM_Patch.ModifyNewDefaultSetting ( 54 , false );
+        if loopCheck ( 1.21 ) then
+            return;
+        end
     end
     
-    if numericV < 1.22 then
+    if numericV < 1.22 and baseValue < 1.22 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 54 );
-        GRM.Report ( GRM.L ( "GRM:" ) .. " " .. GRM.L ( "New Feature!" ) .. "\n" .. GRM.L ( "Type !note in guild chat, and anything you add after it will become your Public Note (if an officer with GRM installed is online)" ) );
+        if loopCheck ( 1.22 ) then
+            return;
+        end
     end
     
-    if numericV < 1.25 then
+    if numericV < 1.25 and baseValue < 1.25 then
         GRM_Patch.ExpandOptionsType ( 2 , 2 , 55 );         -- adding 56 and 57
         GRM_Patch.ModifyNewDefaultSetting ( 56 , false );  -- 57 can be true
+        if loopCheck ( 1.25 ) then
+            return;
+        end
     end
 
-    if numericV < 1.26 then
+    if numericV < 1.26 and baseValue < 1.26 then
         GRM_Patch.AddStreamViewMarker();
         GRM_Patch.PratCompatibilityCheck();
+        if loopCheck ( 1.26 ) then
+            return;
+        end
     end
 
-    if numericV < 1.27 then
+    if numericV < 1.27 and baseValue < 1.27 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 57 );
+        if loopCheck ( 1.27 ) then
+            return;
+        end
     end
 
-    if numericV < 1.28 then
+    if numericV < 1.28 and baseValue < 1.28 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 57 );         -- Needs to be repeated as unfortunately new characters this was not updated properly.
         GRM_Patch.ExpandOptionsType ( 2 , 2 , 58 );
         GRM_Patch.ModifyNoteSavedSettings();
+        if loopCheck ( 1.28 ) then
+            return;
+        end
     end
 
-    if numericV < 1.29 then
+    if numericV < 1.29 and baseValue < 1.29 then
         GRM_Patch.RemoveRepeats();
         GRM_Patch.LogDatabaseRepair();
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 60 );             -- add a boolean
         GRM_Patch.ModifyNewDefaultSetting ( 61 , false );       -- Set all booleans to false (default adds it as true)
         GRM_Patch.ExpandOptionsType ( 4 , 1 , 61 );             -- Add string
+        if loopCheck ( 1.29 ) then
+            return;
+        end
     end
 
-    if numericV < 1.30 then
+    if numericV < 1.30 and baseValue < 1.30 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 62 );             -- Add a boolean
         GRM_Patch.ModifyNewDefaultSetting ( 63 , false );       -- needs to be off by default
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 63 );             -- for keeping the setpoints...
         GRM_Patch.ModifyNewDefaultSetting ( 64 , { "" , "" } ); -- needs to be off by default
+        if loopCheck ( 1.30 ) then
+            return;
+        end
     end
 
-    if numericV < 1.31 then
+    if numericV < 1.31 and baseValue < 1.31 then
         -- need to repeat this check as I forgot to build it in the settings last time for new player alts...
         GRM_Patch.FixCustomMinimapPosition();                   -- need to fix a minimap bug I accidentally introduced...
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 63 );             -- for keeping the setpoints...
         GRM_Patch.ModifyNewDefaultSetting ( 64 , { "" , "" } ); -- needs to be off by default
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 64 );             -- Add boolean for main tag controls
         GRM_Patch.ModifyNewDefaultSetting ( 65 , false );       -- put them off by default.
+        if loopCheck ( 1.31 ) then
+            return;
+        end
     end
 
-    if numericV < 1.32 then
+    if numericV < 1.32 and baseValue < 1.32 then
         GRM_Patch.ConvertLeaderNoteControlFormatToGuildInfo();  -- Formatting the guild controls to be in the player note window...
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 65 );             -- Add boolean for leader purge controls
         GRM_Patch.ModifyNewDefaultSetting ( 66 , false );       -- put them off by default.
+        if loopCheck ( 1.32 ) then
+            return;
+        end
     end
 
-    if numericV < 1.33 then
+    if numericV < 1.33 and baseValue < 1.33 then
         GRM_Patch.ModifyNewDefaultSetting ( 53 , true );            -- set the guild reputation visual to true
         GRM_Patch.ModifyNewDefaultSetting ( 17 , true );            -- Sets it by default to make sure only "mains" are announced as a bday approaches, to avoid event chat spam.
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 66 );                 -- Add boolean for showing birthday
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 67 );                 -- Add boolean for allowing birthday sync
         GRM_Patch.ConvertAndModifyAnniversaryStorageFormat();       -- Modify the way events are stored and changed!
         GRM_Patch.ModifyPlayerMetadata ( 22 , { { 0 , 0 , 0 } , false , "" , 0 } , true , 2 ); -- Modify member record details for birthday, resets it to base value
+        if loopCheck ( 1.33 ) then
+            return;
+        end
     end
 
-    if numericV < 1.34 then
+    if numericV < 1.34 and baseValue < 1.34 then
         GRM_Patch.EventDatabaseIntegrityCheckAndRebuild();
+        if loopCheck ( 1.34 ) then
+            return;
+        end
     end
 
-    if numericV < 1.35 then
+    if numericV < 1.35 and baseValue < 1.35 then
         GRM_Patch.AltListRepeatAndSelfCleanup();
         GRM_Patch.FixEventCalendarAdvanceScanTimeFrame();
+        if loopCheck ( 1.35 ) then
+            return;
+        end
     end
 
-    if numericV < 1.39 then
+    if numericV < 1.39 and baseValue < 1.39 then
         GRM_Patch.ModifyNewDefaultSetting ( 55 , true );                                                        -- Ensures the setting to only announce returning from inactivity if ALL alts meet the criteria.
         GRM_Patch.ModifyNewDefaultSetting ( 56 , true );                                                        -- Record leveling data
         GRM_Patch.ModifyNewDefaultSetting ( 47 , { true , true , true , true , true , true , true , true } );   -- Level filtering options
         GRM_Patch.CleanupErroneousSlashesInBanNames();                                                          -- Custom names from ban list cleaned up a little.
         GRM_Patch.AddBanSlotIndex();
+        if loopCheck ( 1.39 ) then
+            return;
+        end
     end
 
-    if numericV < 1.40 then
+    if numericV < 1.40 and baseValue < 1.40 then
         GRM_Patch.AddBanSlotIndex();
+        if loopCheck ( 1.40 ) then
+            return;
+        end
     end
 
-    if numericV < 1.41 then
+    if numericV < 1.41 and baseValue < 1.41 then
         GRM_Patch.ModifyNewDefaultSetting ( 66 , false );                -- Auto Focus the search bar.
+        if loopCheck ( 1.41 ) then
+            return;
+        end
     end
 
-    if numericV < 1.42 then
+    if numericV < 1.42 and baseValue < 1.42 then
         GRM_Patch.FixUnknownPromoShowing();
+        if loopCheck ( 1.42 ) then
+            return;
+        end
     end
 
-    if numericV < 1.43 then
+    if numericV < 1.43 and baseValue < 1.43 then
         GRM_Patch.ConvertEmptyGUID();
         GRM_Patch.FixLeftPlayersClassToUppercase();
         GRM_Patch.AddPlayerMetaDataSlot ( 42 , false );            -- Adding the ban flag and is currently no longer on server position...
         GRM_Patch.BuildGUIDProfilesForAllNoLongerInGuild();
+        if loopCheck ( 1.43 ) then
+            return;
+        end
     end
 
-    if numericV < 1.44 then
+    if numericV < 1.44 and baseValue < 1.44 then
         GRM_Patch.FixLogOfNilEntries();
+        if loopCheck ( 1.44 ) then
+            return;
+        end
     end
 
-    if numericV < 1.45 then
+    if numericV < 1.45 and baseValue < 1.45 then
         GRM_Patch.FixBanData();
         GRM_Patch.FixAltListsDatabaseWide();
         GRM_Patch.ModifyPlayerMetadata ( 37 , {} , false );
+        if loopCheck ( 1.45 ) then
+            return;
+        end
     end
 
-    if numericV < 1.50 then
+    if numericV < 1.50 and baseValue < 1.50 then
         GRM_Patch.IntegrityCheckAndFixBdayAndAnniversaryEvents();
         GRM_Patch.ModifyNewDefaultSetting ( 19 , true );                                        -- Needs to be reset to only sync with players with current version due to overhaul
         GRM_Patch.ModifyNewDefaultSetting ( 24 , 1 );                                           -- Due to the changes in sync, resetting people back to defautl 100% as some are killing themselves too low lol
@@ -312,50 +478,81 @@ GRM_Patch.SettingsCheck = function ( numericV )
         GRM_Patch.FinalAltListCleanup()
         GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupCustomNoteError , true , true , false );
         GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupJoinAndPromosSetUnknownError , true , true , false );
+        if loopCheck ( 1.50 ) then
+            return;
+        end
     end
 
-    if numericV < 1.51 then
+    if numericV < 1.51 and baseValue < 1.51 then
         GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupPromoDateSituation , true , true , false );
+        if loopCheck ( 1.51 ) then
+            return;
+        end
     end
+    
 
-    if numericV < 1.53 then
+    if numericV < 1.53 and baseValue < 1.53 then
         GRM_Patch.GuildDataDatabaseWideEdit ( GRM_Patch.CleanupJoinDateError );
+        if loopCheck ( 1.53 ) then
+            return;
+        end
     end
 
-    if numericV < 1.56 then
+    if numericV < 1.56 and baseValue < 1.56 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 68 );                 -- Add boolean for checkbox for JD Audit tool
-        GRM_Patch.ModifyNewDefaultSetting ( 69 , false ); 
+        GRM_Patch.ModifyNewDefaultSetting ( 69 , false );
+        if loopCheck ( 1.56 ) then
+            return;
+        end
     end
 
-    if numericV < 1.57 then
+    if numericV < 1.57 and baseValue < 1.57 then
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 69 );                 -- Add boolean for checkbox for the log tooltip enablement
+        if loopCheck ( 1.57 ) then
+            return;
+        end
     end
 
-    if numericV < 1.59 then
+    if numericV < 1.59 and baseValue < 1.59 then
         DeleteMacro("GRM_Roster")                                   -- Deleting the macro to rebuild it in general.
         GRM_Patch.ExpandOptionsType ( 2 , 1 , 70 );                 -- Add boolean to enable or disable the GRM window on the old roster.
         GRM_Patch.ModifyNewDefaultSetting ( 71 , false );
+        if loopCheck ( 1.59 ) then
+            return;
+        end
     end
 
-    if numericV < 1.61 then
+    if numericV < 1.61 and baseValue < 1.61 then
         GRM_Patch.RemoveOneAutoAndOneManualBackup();
+        if loopCheck ( 1.61 ) then
+            return;
+        end
     end
 
-    if numericV < 1.63 then
+    if numericV < 1.63 and baseValue < 1.63 then
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 71 );                             -- for keeping the setpoints of GRM window...
         GRM_Patch.ModifyNewDefaultSetting ( 72 , { "" , "" , 0 , 0 } );         -- Center position default
         GRM_Patch.AddPlayerMetaDataSlot ( 43 , false );                         -- Adding the position to have an "unknown" option in regards to bdays
+        if loopCheck ( 1.63 ) then
+            return;
+        end
     end
 
-    if numericV < 1.64 then
+    if numericV < 1.64 and baseValue < 1.64 then
         GRM_Patch.ExpandOptionsType ( 4 , 1 , 72 );
+        if loopCheck ( 1.64 ) then
+            return;
+        end
     end
 
-    if numericV < 1.66 then
+    if numericV < 1.66 and baseValue < 1.66 then
         GRM_Patch.ModifyNewDefaultSetting ( 48 , { "" , "" } );
+        if loopCheck ( 1.66 ) then
+            return;
+        end
     end
 
-    if numericV < 1.67 then
+    if numericV < 1.67 and baseValue < 1.67 then
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 73 );                             -- for keeping the setpoints of GRM window...
         GRM_Patch.ModifyNewDefaultSetting ( 74 , { "" , "" , 0 , 0 } );         -- Center position default
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 74 );                             -- Adding slots 75 for storing the names and rules for kick/promote/demote tool
@@ -363,13 +560,19 @@ GRM_Patch.SettingsCheck = function ( numericV )
         GRM_Patch.ModifyNewDefaultSetting ( 10 , true );                        -- Needs to be done before the conversion because I WANT players to use this feature
         GRM_Patch.ConvertRecommendedKickDateToRule ( 75 );                      -- Converts the old month date to the new feature
         GRM_Patch.ExpandOptionsType ( 3 , 1 , 75 );                             -- Adding slot 76 for the GRM tool safe list to only show players where actions were ignored
+        if loopCheck ( 1.67 ) then
+            return;
+        end
     end
 
-    if numericV < 1.69 and GRM_G.BuildVersion < GRM_G.RetailBuild then
+    if numericV < 1.69 and baseValue < 1.69 and GRM_G.BuildVersion < 80000 then
         GRM_Patch.FixClassIncompatibilityBuild();
+        if loopCheck ( 1.69 ) then
+            return;
+        end
     end
 
-    if numericV < 1.70 then
+    if numericV < 1.70 and baseValue < 1.70 then
         if GRM_G.BuildVersion < 80000 then
             GRM_Patch.RemoveMacroInClassic();
         end
@@ -381,9 +584,198 @@ GRM_Patch.SettingsCheck = function ( numericV )
         GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupPromotionDateMouseOverError , true , true , false );
         GRM_Patch.FixMonthDateRecommendationError();
         GRM_Patch.ClearExtraBackups();
+        if loopCheck ( 1.70 ) then
+            return;
+        end
     end
 
+    if numericV < 1.73 and baseValue < 1.73 then
+        GRM_Patch.ModifyNewDefaultSetting ( 10 , true );            -- Mouseover control checkbox on whether to show the tooltip or not.
+        if loopCheck ( 1.73 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.74 and baseValue < 1.74 then
+        GRM_Patch.ModifyNewDefaultSetting ( 9 , true );            -- Colorcode Names in Chat
+        if loopCheck ( 1.74 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.75 and baseValue < 1.75 then
+        GRM_Patch.ExpandOptionsType ( 2 , 1 , 76 );                 -- Add boolean for checkbox to enable or disable the !note feature
+        if loopCheck ( 1.75 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.76 and baseValue < 1.76 then
+        GRM_Patch.ExpandOptionsType ( 1 , 1 , 77 );                 -- Log specific font size modifier - default 100% size = 0;
+        GRM_Patch.ModifyNewDefaultSetting ( 78 , 0 );
+        if loopCheck ( 1.76 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.77 and baseValue < 1.77 then
+        GRM_Patch.ExpandOptionsType ( 3 , 2 , 78 );                 -- Export delimiter selection and export details
+        GRM_Patch.ModifyNewDefaultSetting ( 79 , { true , ";" } );
+        if GRM_G.BuildVersion < 40000 then
+            GRM_Patch.ModifyNewDefaultSetting ( 80 , { true , true , true , true , true , true , true , true , true , false , true , true , true , true } );     -- Export filters with Guild rep disabled
+        else
+            GRM_Patch.ModifyNewDefaultSetting ( 80 , { true , true , true , true , true , true , true , true , true , true , true , true , true , true } );     -- Export filters
+        end
+        GRM_Patch.ExpandOptionsType ( 2 , 1 , 80 );                 -- Auto include export headers
+        GRM_Patch.ModifyNewDefaultSetting ( 81 , false );           -- Don't keep it ON as default
+        if loopCheck ( 1.77 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.80 and baseValue < 1.80 then
+        GRM_Patch.ExpandOptionsType ( 3 , 1 , 81 );
+        GRM_Patch.ModifyNewDefaultSetting ( 82 , { 1.0 , 1.33 , 1.0 , 1.0 , 1.0 } );     -- Adding Scaler controls to the addon settings.
+        if loopCheck ( 1.80 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.801 and baseValue < 1.801 then
+        GRM_Patch.AddPlayerMetaDataSlot ( 45 , "" );                         -- Adding the position to have an "unknown" option in regards to bdays
+        GRM_Patch.AddPlayerMetaDataSlot ( 46 , 1 );
+        if loopCheck ( 1.801 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.81 and baseValue < 1.81 then
+        GRM_Patch.FixOptionsSetting ( 82 , { 1.0 , 1.33 , 1.0 , 1.0 , 1.0 } , GRM_Patch.FixScalingOption );
+        if loopCheck ( 1.81 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.812 and baseValue < 1.812 then
+        if GRM_G.BuildVersion < 40000 then
+            GRM_Patch.FixOptionsSetting ( 80 , { true , true , true , true , true , true , true , true , true , false , true , true , true , true , true , true } , GRM_Patch.ExpandExportFilters );
+        else
+            GRM_Patch.FixOptionsSetting ( 80 , { true , true , true , true , true , true , true , true , true , true , true , true , true , true , true , true } , GRM_Patch.ExpandExportFilters );
+        end
+        
+        if loopCheck ( 1.812 ) then
+            return;
+        end
+    end
+
+    if numericV < 1.82 and baseValue < 1.82 then
+        GRM_Patch.FixOptionsSetting ( 6 , 20 , GRM_Patch.UpdateMinimumScanTime );       -- New default setting to max 20 seconds
+        if loopCheck ( 1.82 ) then
+            return;
+        end
+    end
+    
+    if numericV < 1.831 and baseValue < 1.831 then
+        GRM_Patch.FixDoubleCopiesInCurrentGuilds(); -- Due to an error reported... this was likely due to a bug that existed for a couple of hours before I noticed, but a couple hundred people had downloaded it... it was still somewhat edge case but it opened the door. Well, someone won the lottery!
+        GRM_Patch.FixDoubleCopiesInLeftPLayers();   -- Prob not necessary, but need to cover all my bases here on this one...
+        GRM_Patch.FixDoubleCopiesInBackup();        -- Same as above.
+        GRM_Patch.RealignDatabaseDueToMisSort();    -- Due to a faulty insert that I created in 1.82 /sigh
+        
+        if GRM_G.BuildVersion < 80000 then
+            GRM_Patch.ModifyNewDefaultSetting ( 71 , true );        -- needs to fix mouseover In Classic. Might have been forced disabled on accident.
+        end
+        
+        if loopCheck ( 1.831 ) then
+            return;
+        end
+    end
+    GRM_Patch.FinalizeReportPatches( patchNeeded , numActions );
 end
+
+-- Final report is good to go!
+GRM_Patch.FinalizeReportPatches = function ( patchNeeded , numActions )
+    if patchNeeded then
+        if numActions > 1 then
+            GRM.Report ( GRM.L ( "GRM:" ) .. " " .. GRM.L ( "Update Complete... {num} patches applied." , nil , nil , numActions ) );
+        else
+            GRM.Report ( GRM.L ( "GRM:" ) .. " " .. GRM.L ( "Update Complete... 1 patch applied." ) );
+        end
+    end
+
+    -- Ok, let's update the version!
+    GRM.Report ( GRM.L ( "GRM Updated:" ) .. " v" .. string.sub ( GRM_G.Version , string.find ( GRM_G.Version , "R" ) + 1 ) );
+
+    -- Updating the version for ALL saved accoutns.
+    for i = 1 , #GRM_AddonSettings_Save do
+        for j = 2 , #GRM_AddonSettings_Save[i] do
+            GRM_AddonSettings_Save[i][j][2][1] = GRM_G.Version;      -- Changing version for all indexes of all toons on this account
+        end
+    end
+
+    GRM.FinalSettingsConfigurations();
+end
+
+
+
+-- -- Major Database Overhaul ( Future Plans )
+
+-- GRM_Patch.ConvertAddonSettings = function()
+--     local tempUI = GRM.DeepCopyArray ( GRM_AddonSettings_Save );
+--     local newUI = {};
+
+--     newUI["H"] = {};
+--     newUI["A"] = {};
+    
+
+
+--     for i = 1 , 2 do
+--         for j = 2 , #tempUI[i] do
+--             if i == 1 then
+--                 newUI["H"][ tempUI[i][j][1] ] = tempUI[i][j][2];
+--             else
+--                 newUI["A"][ tempUI[i][j][1] ] = tempUI[i][j][2];
+--             end
+--         end
+--     end
+
+--     GRM_AddonSettings_Save = newUI;
+-- end
+
+-- GRM_Patch.ConvertListOfAddonAlts = function()
+    
+--     -- Structure
+--     -- GRM_PlayerListOfAlts_Save[ faction ][ guildName ][ playerName ] = { playerDetails }
+
+--     local tempUI = GRM.DeepCopyArray ( GRM_PlayerListOfAlts_Save );
+--     local newUI = {};
+
+--     newUI["H"] = {};
+--     newUI["A"] = {};
+    
+
+--     local f = "";
+--     for i = 1 , 2 do
+
+--         if i == 1 then
+--             f = "H";
+--         elseif i == 2 then
+--             f = "A";
+--         end
+
+--         for j = 2 , #tempUI[i] do                                   -- Guilds
+--             newUI[ f ][ tempUI[i][j][1][1] ] = tempUI[i][j][1];
+
+--             for s = 2 , #tempUI[i][j] do                            -- Each player in a guild
+--                 newUI[ f ][ tempUI[i][j][1][1] ][ tempUI[i][j][s][1] ] = tempUI[i][j][s];
+--             end
+--         end
+--     end
+
+--     GRM_G.V = newUI;
+
+-- end
+
+
 
 ------------------------
 --- CLASSIC ISSUES -----
@@ -414,9 +806,9 @@ GRM_Patch.RemoveMacroInClassic = function()
 
 end
 
-        -------------------------------
-        --- START PATCH LOGIC ---------
-        -------------------------------
+-------------------------------
+--- START PATCH LOGIC ---------
+-------------------------------
 
 -- Introduced Patch R1.092
 -- Alt tracking of the player - so it can auto-add the player's own alts to the guild info on use.
@@ -508,7 +900,6 @@ GRM_Patch.IntroduceUnknown = function()
         end
     end
 end
--- /run local n=GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ];for i=2,#n do if n[i][1]=="Vulnir-LaughingSkull" then print("Vulnir Found at: " .. i );end;end
 
 -- Introduced Patch R1.125
 -- Bug fix... need to purge of repeats
@@ -911,20 +1302,24 @@ GRM_Patch.CleanupPromoDates = function()
 end
 
 -- Introduced patch R1.142
--- Method:          GRM_Patch.ExpandOptionsType(int,int,int)
+-- Method:          GRM_Patch.ExpandOptionsType(int,int,int,object)
 -- What it Does:    Expands the number of options settings, and initializes the type
 -- Purpose:         Reusuable for future flexibility on updates.
 -- 1 = number, 2=boolean, 3 = array , 4 = string
-GRM_Patch.ExpandOptionsType = function( typeToAdd , numberSlots , referenceCheck )
+GRM_Patch.ExpandOptionsType = function( typeToAdd , numberSlots , referenceCheck , saveOption )
     local expansionType;
-    if typeToAdd == 1 then          -- Int
-        expansionType = 1;
-    elseif typeToAdd == 2 then      -- Boolean
-        expansionType = true;
-    elseif typeToAdd == 3 then      -- Array/Table
-        expansionType = {};
-    elseif typeToAdd == 4 then      -- String
-        expansionType = "";
+    if saveOption then
+        expansionType = saveOption;
+    else
+        if typeToAdd == 1 then          -- Int
+            expansionType = 1;
+        elseif typeToAdd == 2 then      -- Boolean
+            expansionType = true;
+        elseif typeToAdd == 3 then      -- Array/Table
+            expansionType = {};
+        elseif typeToAdd == 4 then      -- String
+            expansionType = "";
+        end
     end
     -- Updating settings for all
     for i = 1 , #GRM_AddonSettings_Save do
@@ -1219,20 +1614,35 @@ GRM_Patch.AddPlayerMetaDataSlot = function ( previousMaxIndex , newValue )
     end
 
     -- Need backup info to be modified as well...
+    local needsToBreak = false;
     if GRM_GuildDataBackup_Save ~= nil then
         for i = 1 , #GRM_GuildDataBackup_Save do
             for j = 2 , #GRM_GuildDataBackup_Save[i] do
                 for s = 2 , #GRM_GuildDataBackup_Save[i][j] do
+
+                    needsToBreak = false;
+
                     if #GRM_GuildDataBackup_Save[i][j][s] > 0 then
                         -- 3 and 4 = history and leftHistory
                         for m = 3 , 4 do
-                            for n = 2 , #GRM_GuildDataBackup_Save[i][j][s][m] do
-                                if #GRM_GuildDataBackup_Save[i][j][s][m][n] == previousMaxIndex then
-                                    table.insert ( GRM_GuildDataBackup_Save[i][j][s][m][n] , newValue );
+                            if GRM_GuildDataBackup_Save[i][j][s][m] ~= nil then
+                                for n = 2 , #GRM_GuildDataBackup_Save[i][j][s][m] do
+                                    if #GRM_GuildDataBackup_Save[i][j][s][m][n] == previousMaxIndex then
+                                        table.insert ( GRM_GuildDataBackup_Save[i][j][s][m][n] , newValue );
+                                    end
                                 end
+                            else
+                                -- Uh oh... backup corrupted?
+                                GRM_GuildDataBackup_Save[i][j] = { GRM_GuildDataBackup_Save[i][j][1] , {} };
+                                needsToBreak = true;
+                                break;
                             end
                         end
                     end
+                    if needsToBreak then
+                        break;
+                    end
+
                 end
             end
         end
@@ -1330,7 +1740,7 @@ GRM_Patch.RemoveAllAutoBackups = function()
         for j = 2 , #tempBackup[i] do
             -- find a guild, then find if there are any autobackups...
             for s = 2 , 3 do
-                if #tempBackup[i][j][s] > 0 then
+                if tempBackup[i][j][s] ~= nil and #tempBackup[i][j][s] > 0 then
                     -- We found a backup!!! Let's remove it!!!
                     if type ( tempBackup[i][j][1] ) == "table" then
                         GRM.RemoveGuildBackup ( tempBackup[i][j][1][1] , tempBackup[i][j][1][2] , i , tempBackup[i][j][s][1] , false );
@@ -1458,31 +1868,91 @@ GRM_Patch.FixBanListNameGrammar = function()
     end
 end
 
+-- Method:          GRM_Patch.RemoveDouble ( table )
+-- What it Does:    Iterates through the roster and finds all copies and removes them
+-- Purpose:         Fixing a coding flaw
+GRM_Patch.RemoveDouble = function ( finalStepTable )
+    local t = finalStepTable;
+    local i , c , r = 2;
+    while i <= #t do
+        c = 0;
+        local n = t[i][1];
+        for j = 2 , #t do
+            if t[j][1] == n then
+                c = c + 1;
+                if c > 1 then
+                    r = j;
+                    break;
+                end;
+            end;
+        end;
+        if c > 1 then 
+            table.remove ( t , r );
+        else
+            i = i + 1;
+        end;
+    end
+end
+
+-- Methhod:         GRM_Patch.FixDoubleCopiesOfData ( array )
+-- What it Does:    Fixes the database given to it of left or joined players
+-- Purpose:         Reusuable logic depending on the selected database of choice.
+GRM_Patch.FixDoubleCopiesOfData = function ( dataTable )
+    for j = 1 , #dataTable do
+        for s = 2 , #dataTable[j] do
+
+            GRM_Patch.RemoveDouble ( dataTable[j][s] );
+
+        end
+    end
+end
+
 -- Method:          GRM_Patch.FixDoubleCopiesInLeftPLayers()
 -- What it Does:    Cleans up the left players for double copies which could have happened with the ban list.
 -- Purpose:         Fix an error in the code from patch 1.1530 in the ban list modification updates.
 GRM_Patch.FixDoubleCopiesInLeftPLayers = function()
-    for j = 1 , #GRM_PlayersThatLeftHistory_Save do
-        for s = 2 , #GRM_PlayersThatLeftHistory_Save[j] do
-            local t = GRM_PlayersThatLeftHistory_Save[j][s];
-            local i , c , r = 2;
-            while i <= #t do
-                c = 0;
-                local n = t[i][1];
-                for j = 2 , #t do
-                    if t[j][1] == n then
-                        c = c + 1;
-                        if c > 1 then
-                            r = j;
-                            break;
-                        end;
-                    end;
-                end;
-                if c > 1 then 
-                    table.remove ( t , r );
-                else
-                    i = i + 1;
-                end;
+    GRM_Patch.FixDoubleCopiesOfData ( GRM_PlayersThatLeftHistory_Save );
+end
+
+-- Method:          GRM_Patch.FixDoubleCopiesInCurrentGuilds()
+-- What it Does:    Cleans up the current players for double copies which could have happened with a previous flaw in a recent update.
+-- Purpose:         Fix database error.
+GRM_Patch.FixDoubleCopiesInCurrentGuilds = function()
+    GRM_Patch.FixDoubleCopiesOfData ( GRM_GuildMemberHistory_Save );
+end
+
+-- Method:          GRM_Patch.FixDoubleCopiesInBackup()
+-- What it Does:    Fixes the lingering issue in the backups as well
+-- Purpose:         Fixes coding flaw that allowed a double entry
+GRM_Patch.FixDoubleCopiesInBackup = function()
+    local needsToBreak = false;
+    if GRM_GuildDataBackup_Save ~= nil then
+        for i = 1 , #GRM_GuildDataBackup_Save do
+            for j = 2 , #GRM_GuildDataBackup_Save[i] do
+                for s = 2 , #GRM_GuildDataBackup_Save[i][j] do
+
+                    needsToBreak = false;
+
+                    if #GRM_GuildDataBackup_Save[i][j][s] > 0 then
+                        -- 3 and 4 = history and leftHistory
+                        for m = 3 , 4 do
+                            if GRM_GuildDataBackup_Save[i][j][s][m] ~= nil then
+                                -- Logic to remove the doubles in a whie loop
+                                GRM_Patch.RemoveDouble ( GRM_GuildDataBackup_Save[i][j][s][m] );
+
+                            else
+                                -- Uh oh... backup corrupted?
+                                GRM_GuildDataBackup_Save[i][j] = { GRM_GuildDataBackup_Save[i][j][1] , {} };
+                                needsToBreak = true;
+                                break;
+                            end
+                        end
+                    end
+                    if needsToBreak then
+                        break;
+                    end
+
+                end
             end
         end
     end
@@ -1720,7 +2190,7 @@ GRM_Patch.ConvertLeaderNoteControlFormatToGuildInfo = function()
 
         for i = 1 , GRM.GetNumGuildies() do
             -- For guild info
-            local _ , _ , rankInd , _ , _ , _ , note , officerNote = GetGuildRosterInfo ( i );
+            local rankInd , _ , _ , _ , note , officerNote = select ( 3 , GetGuildRosterInfo ( i ) );
             if rankInd == 0 then
                 -- Guild Leader identified!
                 -- first, let's look for grm1, if it's there, let's get rid of it.
@@ -3013,9 +3483,122 @@ GRM_Patch.ClearExtraBackups = function()
     end
 end
 
--- /run local c=GRM_PlayersThatLeftHistory_Save;for i=1,#c do print(c[i][1]);for k = 2, #c[i] do print("Guild: "..c[i][k][1][1]);for j=2,#c[i][k] do if c[i][k][j][23][6] == nil then print(j);end;end;end;end
--- /run local c=GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ];GRM_Patch.CleanupBirthdayRepeats(c,c[3]);
--- /run local c=GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ];for i = 2,#c do if c[i][22][2][1][1]==0 then GRM.SetBirthday(c[i][1],8,9,1,"8 Sep '19'",time(),true,"Arkaan-Zul'jin",false);end;end
--- /run GRM_Patch.PlayerMetaDataDatabaseWideEdit ( GRM_Patch.CleanupPromoJoinDateOriginalTemplateDates , true , false )
--- /run local g=GRM_GuildMemberHistory_Save[ GRM_G.FID ][ GRM_G.saveGID ]; for i = 2 , #g do if g[i][12]~= nil and g[i][36][1]=="" then print(i);end;end
--- /run c,g=GRM_GuildMemberHistory_Save,c;for i=1,#c do print(c[i][1]);g=0;for j=2,#c[i] do print(c[i][j][1][1]);for k=2,#c[i][j] do if c[i][j][k][22][2][1][1]==nil then g=g+1;end;end;print("Errors: "..g);end;end
+-- 1.81
+-- Method:          GRM_Patch.FixOptionsSetting ( int , var , function )
+-- What it Does:    Determines if the setting exists. If it does not, is sets the correctSetting. If it does, then it modifies the setting based on the function logic
+-- Purpose:         It is possible in some cases when updating the addon the system crashes before a system updated takes, maybe in the middle of it. This verifies and fixes issues with the settings.
+GRM_Patch.FixOptionsSetting = function( index , correctSetting , settingsControlFunction )
+
+    for i = 1 , #GRM_AddonSettings_Save do
+        for j = #GRM_AddonSettings_Save[i] , 2 , -1 do
+            if #GRM_AddonSettings_Save[i][j] == nil then
+                table.remove ( GRM_AddonSettings_Save[i] , j );
+            else
+                if #GRM_AddonSettings_Save[i][j] == 1 then
+                    table.remove ( GRM_AddonSettings_Save[i] , j );                 -- Error protection in case bad settings profile build
+                else
+                    if GRM_AddonSettings_Save[i][j][2][index] ~= nil then
+                        GRM_AddonSettings_Save[i][j][2][index] = settingsControlFunction ( GRM_AddonSettings_Save[i][j][2][index] , correctSetting );
+                    else
+                        GRM_AddonSettings_Save[i][j][2][index] = correctSetting;
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- 1.81
+-- Method:          GRM_Patch.FixScalingOption ( var , table )
+-- What it Does:    Checks if the format of the setting is correct and fixes each part of it properly to defauly correct setting, or keeps previous settings if ok.
+-- Purpose:         Integrity check of this due to a potential issue that caused crash when creating the setting.
+GRM_Patch.FixScalingOption = function ( setting , correctSetting )
+
+    if setting ~= nil and #setting == 5 then
+        for i = 1 , #setting do
+            if setting[i] == nil or type ( setting[i] ) ~= "number" then
+                setting[i] = correctSetting[i];
+            end
+        end
+    else
+        setting = correctSetting;
+    end
+
+    return setting;
+end
+
+-- 1.81
+-- Method:          GRM_Patch.ExpandExportFilters ( var , table )
+-- What it Does:    Addes 2 extra booleans to the table for export filter controls for sex/race
+-- Purpose:         So that the sex and race filters can be added to the settings.
+GRM_Patch.ExpandExportFilters = function ( setting , correctSetting )
+    if setting ~= nil and #setting == 14 then
+        setting[15] = true;
+        setting[16] = true;
+    else
+        setting = correctSetting;
+    end
+
+    return setting;
+end
+
+-- 1.82
+-- Method:          GRM_Patch.UpdateMinimumScanTime ( int , int )
+-- What it Does:    Checks if the minimum scan setting is below 20 seconds, and if it is, sets it to 20
+-- Purpose:         To set the minimum to only be at 20 seconds instead of the previous 10.
+GRM_Patch.UpdateMinimumScanTime = function ( setting , correctSetting )
+    if setting == nil or setting < 20 then
+        setting = correctSetting;
+    end
+    return setting;
+end
+
+-- 1.831
+-- Method:          GRM_Patch.RealignDatabaseDueToMisSort()
+-- What it Does:    Takes all guild saves and sorts them properly, including backups
+-- Purpose:         Fix a dump insert issue I created in 1.82
+GRM_Patch.RealignDatabaseDueToMisSort = function ()
+    for i = 1 , #GRM_GuildMemberHistory_Save do                         -- Horde and Alliance
+        for j = 2 , #GRM_GuildMemberHistory_Save[i] do                  -- The guilds in each faction
+            GRM_GuildMemberHistory_Save[i][j] =  GRM.SortDeepArrayInOrder ( GRM_GuildMemberHistory_Save[i][j] );
+        end
+    end
+
+    -- need to update the left player's database too...
+    for i = 1 , #GRM_PlayersThatLeftHistory_Save do                         -- Horde and Alliance
+        for j = 2 , #GRM_PlayersThatLeftHistory_Save[i] do                  -- The guilds in each faction
+            GRM_PlayersThatLeftHistory_Save[i][j] =  GRM.SortDeepArrayInOrder ( GRM_PlayersThatLeftHistory_Save[i][j] );
+        end
+    end
+
+    local needsToBreak = false;
+    -- Need backup info to be modified as well...
+    if GRM_GuildDataBackup_Save ~= nil then
+        for i = 1 , #GRM_GuildDataBackup_Save do
+            for j = 2 , #GRM_GuildDataBackup_Save[i] do
+                for s = 2 , #GRM_GuildDataBackup_Save[i][j] do
+
+                    needsToBreak = false;
+                    if #GRM_GuildDataBackup_Save[i][j][s] > 0 then
+                        -- 3 and 4 = history and leftHistory
+                        for m = 3 , 4 do
+                            if GRM_GuildDataBackup_Save[i][j][s][m] ~= nil then
+                                GRM_GuildDataBackup_Save[i][j][s][m] =  GRM.SortDeepArrayInOrder ( GRM_GuildDataBackup_Save[i][j][s][m] );
+                            else
+                                -- Uh oh... backup corrupted?
+                                GRM_GuildDataBackup_Save[i][j] = { GRM_GuildDataBackup_Save[i][j][1] , {} };
+                                needsToBreak = true;
+                                break;
+                            end
+                        end
+                    end
+
+                    if needsToBreak then
+                        break;
+                    end
+
+                end
+            end
+        end
+    end
+end

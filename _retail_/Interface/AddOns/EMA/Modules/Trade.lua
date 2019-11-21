@@ -570,6 +570,8 @@ function EMA:EMAOnSettingsReceived( characterName, settings )
 		EMA.db.blackListItem = settings.blackListItem
 		EMA.db.tradeBoEItems = settings.tradeBoEItems
 		EMA.db.tradeCRItems = settings.tradeCRItems
+		EMA.db.autoBoEItemTag = settings.autoBoEItemTag
+		EMA.db.autoCRItemTag = settings.autoCRItemTag
 		EMA.db.autoTradeItemsList = EMAUtilities:CopyTable( settings.autoTradeItemsList )
 		EMA.db.global.autoTradeItemsListGlobal = EMAUtilities:CopyTable( settings.global.autoTradeItemsListGlobal )
 		EMA.db.adjustMoneyWithGuildBank = settings.adjustMoneyWithGuildBank
@@ -690,7 +692,7 @@ end
 
 function EMA:RemoveItem()
 	if EMA.db.globalTradeList == true then
-		table.remove( EMA.db.global.autoTradeItemsListGlobal, EMA.settingsControl.listHighlightRow )
+		table.remove( EMA.db.global.autoTradeItemsListGlobal,  EMA.settingsControl.tradeItemsHighlightRow )
 	else	
 		table.remove( EMA.db.autoTradeItemsList, EMA.settingsControl.tradeItemsHighlightRow )
 	end

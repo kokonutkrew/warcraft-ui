@@ -578,7 +578,7 @@
 									<Size><AbsDimension x="400" y="25" /></Size>
 								</FontString>
 
-								<FontString inherits="GameFontNormal" justifyH="LEFT" justifyV="MIDDLE" text="PawnUIFrame_NewScaleFromDefaultsButton_Label_Text">
+								<FontString name="PawnUIFrame_NewScaleFromDefaultsButton_Label" inherits="GameFontNormal" justifyH="LEFT" justifyV="MIDDLE" text="PawnUIFrame_NewScaleFromDefaultsButton_Label_Text">
 									<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="160" y="-315"/></Offset></Anchor></Anchors>
 									<Size><AbsDimension x="400" y="25" /></Size>
 								</FontString>
@@ -714,7 +714,7 @@
 						<Layers>
 							<Layer level="ARTWORK">
 
-								<Texture file="Interface\AddOns\Pawn\Textures\HorizontalBar">
+								<Texture name="PawnUIFrame_AutoManualDivider" file="Interface\AddOns\Pawn\Textures\HorizontalBar">
 									<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="10" y="-390" /></Offset></Anchor></Anchors>
 									<Size><AbsDimension x="580" y="1" /></Size>
 								</Texture>
@@ -1550,7 +1550,7 @@
 						</FontString>
 						<FontString name="PawnUIFrame_AboutTranslationLabel" inherits="PawnFontSilver" justifyH="LEFT" text="PawnUIFrame_AboutTranslationLabel_Text">
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="175" y="-75" /></Offset></Anchor></Anchors>
-							<Size><AbsDimension x="300" y="20" /></Size>
+							<Size><AbsDimension x="300" y="30" /></Size>
 						</FontString>
 
 						<FontString name="PawnUIFrame_ReadmeLabel" inherits="GameFontHighlight" justifyH="LEFT" justifyV="TOP" text="PawnUIFrame_ReadmeLabel_Text">
@@ -1561,7 +1561,7 @@
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="25" y="-160" /></Offset></Anchor></Anchors>
 							<Size><AbsDimension x="550" y="40" /></Size>
 						</FontString>
-						<Texture file="Interface\AddOns\Pawn\Textures\MrRobot">
+						<Texture name="PawnUIFrame_MrRobotLogo" file="Interface\AddOns\Pawn\Textures\MrRobot">
 							<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="25" y="-210" /></Offset></Anchor></Anchors>
 							<Size><AbsDimension x="100" y="100" /></Size>
 						</Texture>
@@ -1672,8 +1672,11 @@
 				self:RegisterEvent("PLAYER_LOGOUT")
 				self:RegisterEvent("UNIT_INVENTORY_CHANGED")
 				self:RegisterEvent("ITEM_LOCKED")
-				self:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
-				self:RegisterEvent("ARTIFACT_UPDATE")
+				if not VgerCore.IsClassic then
+					-- These events don't exist on Classic.
+					self:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
+					self:RegisterEvent("ARTIFACT_UPDATE")
+				end
 				PawnUITabList = { PawnUIScalesTabPage, PawnUIValuesTabPage, PawnUICompareTabPage, PawnUIGemsTabPage, PawnUIOptionsTabPage, PawnUIAboutTabPage, PawnUIHelpTabPage }
 				PanelTemplates_SetNumTabs(PawnUIFrame, #PawnUITabList)
 			</OnLoad>
@@ -1756,7 +1759,7 @@
 	
 	<!-- A generic dialog for asking for a string -->
 	<Frame name="PawnUIStringDialog" inherits="PawnUIDialogTemplate">
-	 	<Size><AbsDimension x="350" y="155" /></Size>
+	 	<Size><AbsDimension x="350" y="230" /></Size>
 
 		<!-- The art layer -->
 		<Layers>
@@ -1774,14 +1777,38 @@
 		<Frames>
 
 			<!-- Main frame buttons and such -->
-			<EditBox name="$parent_TextBox" inherits="InputBoxTemplate" hidden="false">
-				<Anchors><Anchor point="TOPLEFT"><Offset><AbsDimension x="50" y="-75" /></Offset></Anchor></Anchors>
-				<Size><AbsDimension x="250" y="25" /></Size>
-				<Scripts>
-					<OnTextChanged function="PawnUIStringDialog_TextBox_OnTextChanged" />
-				</Scripts>
-			</EditBox>
-			
+
+			<ScrollFrame name="$parent_Scroller" inherits="UIPanelScrollFrameTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT"><Offset><AbsDimension x="25" y="-75" /></Offset></Anchor>
+					<Anchor point="BOTTOMRIGHT"><Offset><AbsDimension x="-43" y="65" /></Offset></Anchor>
+				</Anchors>
+				<ScrollChild>
+					<EditBox name="PawnUIStringDialog_TextBox" multiLine="true" hidden="false">
+						<Anchors>
+							<Anchor point="TOPLEFT"><Offset><AbsDimension x="0" y="0" /></Offset></Anchor>
+							<Anchor point="BOTTOMRIGHT"><Offset><AbsDimension x="0" y="0" /></Offset></Anchor>
+						</Anchors>
+						<Size><AbsDimension x="282" y="25" /></Size>
+						<Scripts>
+							<OnTextChanged function="PawnUIStringDialog_TextBox_OnTextChanged" />
+							<OnEscapePressed function="PawnUIStringDialog_CancelButton_OnClick" />
+						</Scripts>
+						<FontString inherits="GameFontHighlightSmall" />
+					</EditBox>
+				</ScrollChild>
+			</ScrollFrame>
+
+			<Frame>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_Scroller"><Offset><AbsDimension x="-7" y="7" /></Offset></Anchor>
+					<Anchor point="BOTTOMRIGHT" relativeTo="$parent_Scroller"><Offset><AbsDimension x="26" y="-7" /></Offset></Anchor>
+				</Anchors>
+				<Backdrop edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+					<EdgeSize><AbsValue val="16" /></EdgeSize>
+				</Backdrop>
+			</Frame>
+
 			<Button name="$parent_OKButton" hidden="false" inherits="UIPanelButtonTemplate">
 				<Anchors><Anchor point="BOTTOMRIGHT"><Offset><AbsDimension x="-125" y="20" /></Offset></Anchor></Anchors>
 				<Size><AbsDimension x="95" y="25" /></Size>

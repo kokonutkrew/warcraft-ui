@@ -61,6 +61,7 @@ FishingTranslations["enUS"] = {
     RANDOM = "Random",
 
     BOBBER_NAME = "Fishing Bobber",
+    LURE_NAME = "Fishing Lure",
 
     OUTFITS = "Outfits",
     ELAPSED = "Elapsed",
@@ -160,7 +161,7 @@ FishingTranslations["enUS"] = {
     CONFIG_FISHINGCHARM_INFO  = "If enabled, use the fishing charm while in Pandaria.",
     CONFIG_TUSKAARSPEAR_INFO  = "If enabled, do the complicated dance to use the Tuskaar Spear.",
     CONFIG_TRAWLERTOTEM_INFO  = "If enabled, use the toy.",
-    CONFIG_SECRET_FISHING_GOGGES_INFO = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",
+    CONFIG_SECRET_FISHING_GOGGLES_INFO = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",
 
     CONFIG_BOBBINGBERG_ONOFF  = "Use Bipsi's Berg",
     CONFIG_BOBBINGBERG_INFO   = "If enabled, use the bobbing berg.",

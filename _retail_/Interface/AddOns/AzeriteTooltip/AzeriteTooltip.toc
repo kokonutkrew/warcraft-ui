@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80205
 ## Title: AzeriteTooltip
 ## Notes: Lightweight addon that shows azerite traits in the tooltip.
 ## Version: 2.0.6

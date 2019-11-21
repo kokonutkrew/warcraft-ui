@@ -9,7 +9,8 @@
 local _, TSM = ...
 local L = TSM.L
 TSMAPI_FOUR.ItemFilter = {}
-local ItemFilter = TSMAPI_FOUR.Class.DefineClass("ItemFilter")
+local ItemFilter = TSM.Include("LibTSMClass").DefineClass("ItemFilter")
+local ItemClass = TSM.Include("Data.ItemClass")
 
 
 
@@ -83,7 +84,7 @@ function ItemFilter.ParseStr(self, str)
 	local numLevelParts, numItemLevelParts, numPriceParts = 0, 0, 0
 	self._isValid = nil
 	local hasNonCraftingPart = false
-	for i, part in TSMAPI_FOUR.Util.VarargIterator(strsplit("/", strtrim(str))) do
+	for i, part in TSM.Vararg.Iterator(strsplit("/", strtrim(str))) do
 		part = strtrim(part)
 		if self._isValid ~= nil then
 			-- already done iterating, but can't break / return out of a VarargIterator
@@ -99,7 +100,7 @@ function ItemFilter.ParseStr(self, str)
 					self._exactOnly = true
 					self._item = part
 					self._str = strlower(name)
-					self._escapedStr = TSMAPI_FOUR.Util.StrEscape(self._str)
+					self._escapedStr = TSM.String.Escape(self._str)
 					self._quality = quality
 					self._minLevel = level
 					self._maxLevel = level
@@ -108,7 +109,7 @@ function ItemFilter.ParseStr(self, str)
 				end
 			else
 				self._str = strlower(part)
-				self._escapedStr = TSMAPI_FOUR.Util.StrEscape(self._str)
+				self._escapedStr = TSM.String.Escape(self._str)
 			end
 		elseif part == "" then
 			-- ignore an empty part
@@ -134,14 +135,14 @@ function ItemFilter.ParseStr(self, str)
 			end
 			numItemLevelParts = numItemLevelParts + 1
 			hasNonCraftingPart = true
-		elseif TSMAPI_FOUR.Item.GetClassIdFromClassString(part) then
-			self._class = TSMAPI_FOUR.Item.GetClassIdFromClassString(part)
+		elseif ItemClass.GetClassIdFromClassString(part) then
+			self._class = ItemClass.GetClassIdFromClassString(part)
 			hasNonCraftingPart = true
-		elseif self._class and TSMAPI_FOUR.Item.GetSubClassIdFromSubClassString(part, self._class) then
-			self._subClass = TSMAPI_FOUR.Item.GetSubClassIdFromSubClassString(part, self._class)
+		elseif self._class and ItemClass.GetSubClassIdFromSubClassString(part, self._class) then
+			self._subClass = ItemClass.GetSubClassIdFromSubClassString(part, self._class)
 			hasNonCraftingPart = true
-		elseif TSMAPI_FOUR.Item.GetInventorySlotIdFromInventorySlotString(part) then
-			self._invSlotId = TSMAPI_FOUR.Item.GetInventorySlotIdFromInventorySlotString(part)
+		elseif ItemClass.GetInventorySlotIdFromInventorySlotString(part) then
+			self._invSlotId = ItemClass.GetInventorySlotIdFromInventorySlotString(part)
 			hasNonCraftingPart = true
 		elseif self:_ItemQualityToIndex(part) then
 			self._quality = self:_ItemQualityToIndex(part)

@@ -96,11 +96,15 @@ FishingBuddy.GetSettingOption = GetSettingOption;
 
 local function ActiveSetting(setting)
     local info = GetSettingOption(setting);
-    local active = GetSettingBool(setting)
-    if info.active then
-        return info.active(info, setting, active)
+    if info then
+        local active = GetSettingBool(setting);
+        if info.active then
+            return info.active(info, setting, active);
+        end
+        return active;
     end
-    return active
+    -- Let's pretend we're good, even if we don't have the setting
+    return true
 end
 FishingBuddy.ActiveSetting = ActiveSetting;
 

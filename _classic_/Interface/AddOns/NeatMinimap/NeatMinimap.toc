@@ -1,0 +1,13 @@
+## Interface: 11302
+## Title: Neat Minimap
+## Notes: Neat Minimap auto hides/shows buttons and clutter as needed (|cFF99E5FF/nmm|r)
+## Author: MooreaTV moorea@ymail.com
+## Version: v1.05.00
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: NeatMinimapSaved
+## OptionalDeps: SexyMap, ElvUI
+## Globe: check-classic
+MoLib/MoLib.lua
+MoLib/MoLibUI.lua
+NeatMinimap.lua

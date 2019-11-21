@@ -1,6 +1,6 @@
 # MaxDps_Warrior
 
-## [v8.2.0](https://github.com/kaminaris/MaxDps-Warrior/tree/v8.2.0) (2019-08-10)
-[Full Changelog](https://github.com/kaminaris/MaxDps-Warrior/compare/v8.1.1...v8.2.0)
+## [v8.2.5.1](https://github.com/kaminaris/MaxDps-Warrior/tree/v8.2.5.1) (2019-09-26)
+[Full Changelog](https://github.com/kaminaris/MaxDps-Warrior/compare/v8.2.5...v8.2.5.1)
 
-- v8.2.0 - Azerite Essences Support  
+- v8.2.5.1 - Stoneheart buff fixed, no longer supported  

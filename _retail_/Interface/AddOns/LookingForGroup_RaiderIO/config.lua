@@ -21,7 +21,28 @@ LFG_OPT:push("rioffline",{
 			end,
 			type = "input",
 			order = 1,
-			width = "full"
+			width = 2,
+		},
+		region =
+		{
+			name = "Region",
+			type = "select",
+			values = {"US","KR","EU","TW","CN"},
+			get = function()
+				return LFG_OPT.db.profile.io_region or GetCurrentRegion()
+			end,
+			set = function(info,v)
+				local profile = LFG_OPT.db.profile
+				local io_region = profile.io_region
+				if v == GetCurrentRegion() then
+					profile.io_region = nil
+				else
+					profile.io_region = v
+				end
+				ReloadUI()
+			end,
+			order = 2,
+			confirm = true
 		},
 		desc = 
 		{

@@ -1,4 +1,4 @@
-local RIO = LibStub:NewLibrary("LibRaiderIO",2)
+local RIO = LibStub:NewLibrary("LibRaiderIO",3)
 if not RIO then return end
 RIO.instances =
 {
@@ -59,7 +59,7 @@ function RIO.raw(data,player,server,pool)
 			RIO.providers = exposed_current_region_faction_providers
 		else
 			local faction = UnitFactionGroup("player")
-			local region = GetCurrentRegion()
+			local region = RIO.region or GetCurrentRegion()
 			local GetAddOnMetadata = GetAddOnMetadata
 			local GetAddOnInfo = GetAddOnInfo
 			local IsAddOnLoaded = IsAddOnLoaded

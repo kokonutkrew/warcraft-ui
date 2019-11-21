@@ -141,7 +141,11 @@ L["Classwide Macro"] = "Classwide Macro"
 --[[Translation missing --]]
 L["Clear"] = "Clear"
 --[[Translation missing --]]
+L["Clear Common Keybindings"] = "Clear Common Keybindings"
+--[[Translation missing --]]
 L["Clear Errors"] = "Clear Errors"
+--[[Translation missing --]]
+L["Clear Keybindings"] = "Clear Keybindings"
 --[[Translation missing --]]
 L["Close"] = "Close"
 --[[Translation missing --]]
@@ -471,6 +475,8 @@ L["No Help Information "] = "No Help Information "
 --[[Translation missing --]]
 L["No Help Information Available"] = "No Help Information Available"
 --[[Translation missing --]]
+L["No Sample Macros are available yet for this class."] = "No Sample Macros are available yet for this class."
+--[[Translation missing --]]
 L["No Sequences present so none displayed in the list."] = "No Sequences present so none displayed in the list."
 --[[Translation missing --]]
 L["Normal Colour"] = "Normal Colour"
@@ -556,6 +562,8 @@ L["Raid"] = "Raid"
 L["Raid setting changed to Default."] = "Raid setting changed to Default."
 --[[Translation missing --]]
 L["Random - It will select .... a spell, any spell"] = "Random - It will select .... a spell, any spell"
+--[[Translation missing --]]
+L["Rank"] = "Rank"
 --[[Translation missing --]]
 L["Ready to Send"] = "Ready to Send"
 --[[Translation missing --]]
@@ -762,6 +770,8 @@ L["These options combine to allow you to reset a macro while it is running.  The
 L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."] = "These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."
 --[[Translation missing --]]
 L["This change will not come into effect until you save this macro."] = "This change will not come into effect until you save this macro."
+--[[Translation missing --]]
+L["This function will remove the SHIFT+N, ALT+N and CTRL+N keybindings for this character.  Useful if [mod:shift] etc conditions don't work in game."] = "This function will remove the SHIFT+N, ALT+N and CTRL+N keybindings for this character.  Useful if [mod:shift] etc conditions don't work in game."
 --[[Translation missing --]]
 L["This function will update macro stubs to support listening to the options below.  This is required to be completed 1 time per character."] = "This function will update macro stubs to support listening to the options below.  This is required to be completed 1 time per character."
 --[[Translation missing --]]

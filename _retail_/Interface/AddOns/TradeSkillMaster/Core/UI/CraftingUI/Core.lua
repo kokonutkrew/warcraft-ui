@@ -11,6 +11,14 @@ local CraftingUI = TSM.UI:NewPackage("CraftingUI")
 local L = TSM.L
 local private = { topLevelPages = {}, fsm = nil, craftOpen = nil, tradeSkillOpen = nil, defaultUISwitchBtn = nil, isVisible = false }
 local MIN_FRAME_SIZE = { width = 820, height = 587 }
+local BEAST_TRAINING_DE = "Bestienausbildung"
+local BEAST_TRAINING_ES = "Entrenamiento de bestias"
+local BEAST_TRAINING_RUS = "Воспитание питомца"
+local IGNORED_PROFESSIONS = {
+	[53428] = true,  -- Runeforging
+	[158756] = true, -- Skinning Skills
+	[193290] = true  -- Herbalism Skills
+}
 
 
 
@@ -43,15 +51,17 @@ end
 
 function CraftingUI.IsProfessionIgnored(name)
 	if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
-		if name == GetSpellInfo(7620) then
+		if name == GetSpellInfo(5149) or name == BEAST_TRAINING_DE or name == BEAST_TRAINING_ES or name == BEAST_TRAINING_RUS then -- Beast Training
 			return true
-		elseif name == GetSpellInfo(2366) then
+		elseif name == GetSpellInfo(7620) then -- Fishing
 			return true
-		elseif name == GetSpellInfo(8613) then
+		elseif name == GetSpellInfo(2366) then -- Herb Gathering
+			return true
+		elseif name == GetSpellInfo(8613) then -- Skinning
 			return true
 		end
 	end
-	for i in pairs(TSM.CONST.IGNORED_PROFESSIONS) do
+	for i in pairs(IGNORED_PROFESSIONS) do
 		local ignoredName = GetSpellInfo(i)
 		if ignoredName == name then
 			return true
@@ -117,26 +127,28 @@ end
 
 function private.FSMCreate()
 	if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
-		TSMAPI_FOUR.Event.Register("CRAFT_SHOW", function()
+		TSM.Event.Register("CRAFT_SHOW", function()
 			CloseTradeSkill()
 			private.craftOpen = true
+			TSM.Crafting.ProfessionState.SetCraftOpen(true)
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_SHOW")
 		end)
-		TSMAPI_FOUR.Event.Register("CRAFT_CLOSE", function()
+		TSM.Event.Register("CRAFT_CLOSE", function()
 			private.craftOpen = false
+			TSM.Crafting.ProfessionState.SetCraftOpen(false)
 			if not private.tradeSkillOpen then
 				private.fsm:ProcessEvent("EV_TRADE_SKILL_CLOSED")
 			end
 		end)
 	end
-	TSMAPI_FOUR.Event.Register("TRADE_SKILL_SHOW", function()
+	TSM.Event.Register("TRADE_SKILL_SHOW", function()
 		if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
 			CloseCraft()
 		end
 		private.tradeSkillOpen = true
 		private.fsm:ProcessEvent("EV_TRADE_SKILL_SHOW")
 	end)
-	TSMAPI_FOUR.Event.Register("TRADE_SKILL_CLOSE", function()
+	TSM.Event.Register("TRADE_SKILL_CLOSE", function()
 		private.tradeSkillOpen = false
 		if not private.craftOpen then
 			private.fsm:ProcessEvent("EV_TRADE_SKILL_CLOSED")
@@ -151,6 +163,18 @@ function private.FSMCreate()
 	local fsmContext = {
 		frame = nil,
 	}
+	local function UpdateDefaultCraftButton()
+		if CraftFrame and CraftCreateButton and private.craftOpen then
+			CraftCreateButton:SetParent(CraftFrame)
+			CraftCreateButton:ClearAllPoints()
+			CraftCreateButton:SetPoint("CENTER", CraftFrame, "TOPLEFT", 224, -422)
+			CraftCreateButton:SetFrameLevel(2)
+			CraftCreateButton:EnableDrawLayer("BACKGROUND")
+			CraftCreateButton:EnableDrawLayer("ARTWORK")
+			CraftCreateButton:SetHighlightTexture("Interface\\Buttons\\UI-Panel-Button-Highlight")
+			CraftCreateButton:GetHighlightTexture():SetTexCoord(0, 0.625, 0, 0.6875)
+		end
+	end
 	local function DefaultFrameOnHide()
 		private.fsm:ProcessEvent("EV_FRAME_HIDE")
 	end
@@ -179,6 +203,7 @@ function private.FSMCreate()
 			:SetOnEnter(function(context, isIgnored)
 				if private.craftOpen then
 					UIParent_OnEvent(UIParent, "CRAFT_SHOW")
+					UpdateDefaultCraftButton()
 				else
 					UIParent_OnEvent(UIParent, "TRADE_SKILL_SHOW")
 				end
@@ -230,9 +255,22 @@ function private.FSMCreate()
 			end)
 			:AddTransition("ST_CLOSED")
 			:AddTransition("ST_FRAME_OPEN")
+			:AddTransition("ST_DEFAULT_OPEN")
 			:AddEvent("EV_FRAME_HIDE", function(context)
 				TSM.Crafting.ProfessionUtil.CloseTradeSkill(false, private.craftOpen)
 				return "ST_CLOSED"
+			end)
+			:AddEvent("EV_TRADE_SKILL_SHOW", function(context)
+				if CraftingUI.IsProfessionIgnored(TSM.Crafting.ProfessionUtil.GetCurrentProfessionName()) then
+					return "ST_DEFAULT_OPEN", true
+				else
+					if TSM.db.global.internalData.craftingUIFrameContext.showDefault then
+						return "ST_DEFAULT_OPEN"
+					else
+						TSM.Crafting.ProfessionScanner.SetDisabled(TSM.db.global.internalData.craftingUIFrameContext.showDefault)
+						return "ST_FRAME_OPEN"
+					end
+				end
 			end)
 			:AddEvent("EV_TRADE_SKILL_CLOSED", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_CLOSED"))
 			:AddEvent("EV_SWITCH_BTN_CLICKED", TSMAPI_FOUR.FSM.SimpleTransitionEventHandler("ST_FRAME_OPEN"))
@@ -255,6 +293,9 @@ function private.FSMCreate()
 				context.frame:Release()
 				context.frame = nil
 				private.isVisible = false
+				if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then
+					UpdateDefaultCraftButton()
+				end
 			end)
 			:AddTransition("ST_CLOSED")
 			:AddTransition("ST_DEFAULT_OPEN")
@@ -263,6 +304,9 @@ function private.FSMCreate()
 				return "ST_CLOSED"
 			end)
 			:AddEvent("EV_TRADE_SKILL_SHOW", function(context)
+				if CraftingUI.IsProfessionIgnored(TSM.Crafting.ProfessionUtil.GetCurrentProfessionName()) then
+					return "ST_DEFAULT_OPEN", true
+				end
 				context.frame:GetElement("titleFrame.switchBtn"):Show()
 				context.frame:GetElement("titleFrame"):Draw()
 			end)

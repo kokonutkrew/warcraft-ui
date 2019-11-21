@@ -94,6 +94,7 @@ DBM_CORE_SOUNDKIT_MIGRATION			= "한개 이상의 경고/특수 경고 효과음
 
 DBM_CORE_WORLDBOSS_ENGAGED			= "당신이 속한 서버에서 %s 전투가 %s 퍼센트의 체력으로 시작된 것 같습니다. (%s|1이;가; 전송)"
 DBM_CORE_WORLDBOSS_DEFEATED			= "당신이 속한 서버에서 %s|1이;가; 잡힌 것 같습니다. (%s|1이;가; 전송)"
+DBM_CORE_WORLDBUFF_STARTED			= "%s 버프가 당신이 속한 서버의 %s 진영에서 시작됐습니다. (%s|1이;가; 받음)"
 
 DBM_CORE_TIMER_FORMAT_SECS			= "%.2f초"
 DBM_CORE_TIMER_FORMAT_MINS			= "%d분"
@@ -151,14 +152,15 @@ DBM_CORE_UPDATEREMINDER_HEADER_ALPHA	= "사용중인 Deadly Boss Mods ALPHA 버�
 DBM_CORE_UPDATEREMINDER_FOOTER			= (IsMacClient() and "Cmd-C" or "Ctrl-C").. "를 누르면 주소를 복사할 수 있습니다."
 DBM_CORE_UPDATEREMINDER_FOOTER_GENERIC	= (IsMacClient() and "Cmd-C" or "Ctrl-C").. "를 누르면 주소를 복사할 수 있습니다."
 --DBM_CORE_UPDATEREMINDER_URL				= "http://www.inven.co.kr/board/powerbbs.php?come_idx=3716" -- No longer updated by the website
---DBM_CORE_UPDATEREMINDER_DISABLE			= "경고: 현재 사용중인 Deadly Boss Mods가 지나치게 오래되어 강제로 비활성화되며 업데이트 전 까진 사용할 수 없습니다. 이는 오래되고 호환되지 않는 코드로 인해 당신과 공격대원이 조악한 플레이 경험을 겪지 않게 하기 위함입니다."
-DBM_CORE_UPDATEREMINDER_NODISABLE		= "경고: 설치한 Deadly Boss Mods가 사용 기한을 지났습니다. 업데이트 알림이 꺼져있거나 해서 특정 기한을 지나면 본 메시지가 등장하는 것이며 이 알림은 끌 수 없습니다. 반드시 업데이트 하시기 바랍니다."
+DBM_CORE_UPDATEREMINDER_DISABLE			= "경고: 지금 사용중인 Deadly Boss Mods가 지나치게 오래되어 강제로 비활성화되며 업데이트 전 까진 사용할 수 없습니다. 이는 오래되고 호환되지 않는 모드가 당신과 파티/공대원의 플레이에 악영향을 미치지 않게 하기 위함입니다."
+--DBM_CORE_UPDATEREMINDER_NODISABLE		= "경고: 설치한 Deadly Boss Mods가 사용 기한을 지났습니다. 업데이트 알림이 꺼져있거나 해서 특정 기한을 지나면 본 메시지가 등장하는 것이며 이 알림은 끌 수 없습니다. 반드시 업데이트 하시기 바랍니다."
 DBM_CORE_UPDATEREMINDER_HOTFIX			= "지금 사용하는 DBM 버전은 이 보스 전투에서 알려진 오류를 가지고 있습니다. 이 오류는 최신 버전으로 업데이트하면 수정됩니다."
 DBM_CORE_UPDATEREMINDER_HOTFIX_ALPHA	= "지금 사용하는 DBM 버전은 이 보스 전투에서 알려진 오류를 가지고 있습니다. 이 오류는 향후 출시될 버전 (또는 최신 ALPHA 버전)에서 수정되어있을 것입니다."
 DBM_CORE_UPDATEREMINDER_MAJORPATCH		= "경고: 대규모 패치로 인해 Deadly Boss Mods 버전이 사용 기한이 지나 업데이트하기 전까진 비활성화됩니다. 이는 오래되고 호환되지 않는 코드로 인해 당신과 공격대원이 조악한 플레이 경험을 겪지 않게 하기 위함입니다. 당장 deadlybossmods.com이나 Curse에서 최신 버전을 다운로드 하시기 바랍니다."
 DBM_CORE_UPDATEREMINDER_TESTVERSION		= "경고: 현재 게임 버전과 맞지 않는 Deadly Boss Mods 버전을 사용중입니다. 게임 클라이언트에 맞는 버전을 deadlybossmods.com이나 Curse에서 다운로드 하시기 바랍니다."
 DBM_CORE_VEM							= "경고: Deadly Boss Mods와 Voice Encounter Mods를 함께 사용중입니다. 현재 설정으로는 DBM이 작동하지 않으며 로딩도 되지 않을 것입니다."
 DBM_CORE_3RDPROFILES					= "경고: DBM-Profiles가 이 버전의 DBM과 호환되지 않습니다. DBM이 읽기 전에 삭제해야 충돌을 방지할 수 있습니다."
+DBM_CORE_VICTORYSOUND					= "경고: DBM-VictorySound가 이 버전의 DBM과 호환되지 않습니다. DBM이 해결할 수 있기 전까진 충돌 방지를 위해 삭제해야 합니다."
 DBM_CORE_DPMCORE						= "경고: Deadly PvP 모드는 더이상 개발되지 않으며 본 DBM 버전과 호환되지 않습니다. DBM이 읽기 전에 삭제해야 충돌을 방지할 수 있습니다."
 DBM_CORE_DBMLDB							= "경고: DBM-LDB는 이제 DBM-Core에 편입되었습니다. 같이 사용해도 문제가 생기는건 아니지만 가급적 애드온 폴더에서 'DBM-LDB' 폴더를 삭제하는걸 권장합니다"
 DBM_CORE_UPDATE_REQUIRES_RELAUNCH		= "경고: 지금 업데이트한 DBM은 게임 클라이언트를 완전히 재시작하기 전까진 정상 작동하지 않습니다. 이 업데이트엔 새 파일이 포함되어 있거나 UI 재시작으로는 로딩할 수 없는 .toc 파일의 변경 사항이 있습니다. 클라이언트 재시작 없이 사용할 경우 오류가 발생하거나 작동하지 않을 수 있습니다."
@@ -368,8 +370,8 @@ DBM_CORE_AUTO_SPEC_WARN_TEXTS.stack		= "당신에게 %s (%%d중첩)"
 DBM_CORE_AUTO_SPEC_WARN_TEXTS.switch		= "%s - 대상 바꾸세요"
 DBM_CORE_AUTO_SPEC_WARN_TEXTS.switchcount	= "%s - 대상 바꾸세요 (%%s)"
 DBM_CORE_AUTO_SPEC_WARN_TEXTS.gtfo		= "%%s 깔림 - 피하세요"
-DBM_CORE_AUTO_SPEC_WARN_TEXTS.Adds		= "쫄 등장 - 대상 바꾸세요"
-DBM_CORE_AUTO_SPEC_WARN_TEXTS.Addscustom	= "쫄 등장 - %%s"
+DBM_CORE_AUTO_SPEC_WARN_TEXTS.adds		= "쫄 등장 - 대상 바꾸세요"
+DBM_CORE_AUTO_SPEC_WARN_TEXTS.addscustom	= "쫄 등장 - %%s"
 DBM_CORE_AUTO_SPEC_WARN_TEXTS.targetchange	= "대상 변경 - %%s 치세요"
 
 -- Auto-generated Special Warning Localizations
@@ -412,8 +414,8 @@ DBM_CORE_AUTO_SPEC_WARN_OPTIONS.stack			= "당신이 $spell:%2$s %1$d중첩 이�
 DBM_CORE_AUTO_SPEC_WARN_OPTIONS.switch			= "$spell:%s에 대상 변경 특수 경고 보기"
 DBM_CORE_AUTO_SPEC_WARN_OPTIONS.switchcount 		= "$spell:%s에 대상 변경 특수 경고 보기 (횟수 포함)"
 DBM_CORE_AUTO_SPEC_WARN_OPTIONS.gtfo 			= "바닥 피하기 특수 경고 보기"
-DBM_CORE_AUTO_SPEC_WARN_OPTIONS.Adds 			= "쫄 등장시 대상 변경 특수 경고 보기"
-DBM_CORE_AUTO_SPEC_WARN_OPTIONS.Addscustom		= "쫄 등장시 특수 경고 보기"
+DBM_CORE_AUTO_SPEC_WARN_OPTIONS.adds 			= "쫄 등장시 대상 변경 특수 경고 보기"
+DBM_CORE_AUTO_SPEC_WARN_OPTIONS.addscustom		= "쫄 등장시 특수 경고 보기"
 DBM_CORE_AUTO_SPEC_WARN_OPTIONS.targetchange		= "점사 우선순위 변경시 특수 경고 보기"
 
 -- Auto-generated Timer Localizations
@@ -509,7 +511,7 @@ DBM_CORE_HUD_USAGE	= {
 	"유효한 형식: arrow, red, blue, green, yellow, icon (대상에게 공격대 징표가 설정되어 있어야 함)",
 	"유효한 대상: target, focus, <대상이름>",
 	"유효한 시간: 아무 숫자(초단위). 지정하지 않으면 20분간 적용됩니다.",
-	"/dbm hud hide: HUD를 숨기고 비활성화"
+	"/dbm hud hide: 사용자가 생성한 HUD를 비활성화"
 }
 
 DBM_ARROW_MOVABLE						= "화살표 이동"
@@ -574,5 +576,12 @@ DBM_LDB_CAT_OTHER		= "그 외 보스 모드"
 
 DBM_LDB_CAT_GENERAL		= "일반"
 DBM_LDB_ENABLE_BOSS_MOD	= "보스 모드 사용"
+
+DBM_CORE_WORLD_BUFFS.hordeOny		= "호드의 백성들이여, 오그리마의 주민들이여, 모두 와서 호드의 영웅을 찬양하라."
+DBM_CORE_WORLD_BUFFS.allianceOny	= "스톰윈드의 주민들과 모든 얼라이언스여! 오늘, 역사가 이루어졌노라."
+DBM_CORE_WORLD_BUFFS.hordeNef		= "NEFARIAN IS SLAIN! People of Orgrimmar"
+DBM_CORE_WORLD_BUFFS.allianceNef	= "Citizens of the Alliance, the Lord of Blackrock is slain!"
+DBM_CORE_WORLD_BUFFS.zgHeart		= "Now, only one step remains to rid us of the Soulflayer's threat"
+DBM_CORE_WORLD_BUFFS.rendHead		= "가짜 대족장 렌드 블랙핸드가 쓰러졌도다!"
 
 end

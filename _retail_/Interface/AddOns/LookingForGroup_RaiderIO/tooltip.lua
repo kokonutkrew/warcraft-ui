@@ -2,6 +2,7 @@ local RIO = LibStub:GetLibrary("LibRaiderIO")
 local LFG = LibStub("AceAddon-3.0"):GetAddon("LookingForGroup")
 local LFG_OPT = LibStub("AceAddon-3.0"):GetAddon("LookingForGroup_Options")
 local LFG_RIO = LFG_OPT:GetModule("RaiderIO")
+RIO.region=LFG_OPT.db.profile.io_region
 
 LFG_OPT.Register("lfgscoresbrief",nil,function(name,tag)
 	if tag == 0 then return end

@@ -74,9 +74,6 @@ L.Button_InfoFrame			= "Show/hide info frame"
 L.Button_TestBars			= "Start test bars"
 L.Button_ResetInfoRange		= "Reset Info/Range frames"
 
-L.ClassicOptions			= "Classic Options"
-L.UseRetailShamanColor		= "Override WoW Classic Shaman class color with retail one (GLOBALLY)"
-
 -- Tab: Raidwarning
 L.Tab_RaidWarning 			= "Raid Warnings"
 L.RaidWarning_Header		= "Raid Warning Options"
@@ -115,12 +112,12 @@ L.CombatMessages			= "Combat Message Options"
 L.ShowEngageMessage 		= "Show engage messages in chat frame"
 L.ShowDefeatMessage 		= "Show kill/wipe messages in chat frame"
 L.ShowGuildMessages 		= "Show engage/kill/wipe messages for guild raids in chat frame"
-L.WhisperMessages			= "Whisper Message Options"
+L.WhisperMessages			= "Auto-Reply/Sharing Message Options"
 L.AutoRespond 				= "Auto-respond to whispers while fighting"
-L.EnableStatus 				= "Reply to 'status' whispers"
 L.WhisperStats 				= "Include kill/wipe stats in whisper responses"
 L.DisableStatusWhisper 		= "Disable status whispers for the entire group (requires Group Leader). Applies only to raids"
 L.DisableGuildStatus 		= "Disable progression messages from being sent to guild for entire group (requires Group Leader)."
+L.EnableWBSharing 			= "Share when you pull/defeat a world boss or activate a world buff with your battle.net friends that are on same realm. (This information will always be shared with your guild)"
 
 -- Tab: Barsetup
 L.BarSetup					= "Bar Setup"
@@ -224,7 +221,7 @@ L.SpecialWarnSound5			= "Set default sound for special warnings with notes conta
 
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Spoken Alerts"
-L.Area_VoiceSelection		= "Voice Selections (scroll selection menus with mouse wheel)"
+L.Area_VoiceSelection		= "Voice Selections"
 L.CountdownVoice			= "Set primary voice for count sounds"
 L.CountdownVoice2			= "Set secondary voice for count sounds"
 L.CountdownVoice3			= "Set tertiary voice for count sounds"
@@ -273,7 +270,7 @@ L.SpamBlockNoNameplate		= "Do not show Nameplate Auras (disables completely)"
 L.SpamBlockNoCountdowns		= "Do not play countdown sounds"
 L.SpamBlockNoYells			= "Do not send chat yells"
 L.SpamBlockNoNoteSync		= "Do not accept shared notes"
-L.SpamBlockNoReminders		= "Do not show any login, recommendation, or update messages (NOT recommended)"
+L.SpamBlockNoReminders		= "Do not show any login, recommendation, missing mod, or hotfix messages"
 
 L.Area_Restore				= "DBM Restore Options (Whether DBM restores previous user state when mods finish)"
 L.SpamBlockNoIconRestore	= "Do not save icon states and restore them on combat end"
@@ -298,7 +295,6 @@ L.Area_PullTimer			= "Pull, Break, Combat, & Custom Timer Filter Options"
 L.DontShowPTNoID			= "Block Pull Timer if not sent from same zone as you"
 L.DontShowPT				= "Do not show Pull/Break Timer bar"
 L.DontShowPTText			= "Do not show announce text for Pull/Break Timer"
-L.DontShowPTCountdownText	= "Do not show Pull countdown text"
 L.DontPlayPTCountdown		= "Do not play Pull/Break/Combat/Custom Timer countdown audio at all"
 L.PT_Threshold				= "Do not play Pull/Break/Combat/Custom Timer countdown audio above: %d"
 
@@ -320,6 +316,7 @@ L.Panel_ExtraFeatures		= "Extra Features"
 --
 L.Area_ChatAlerts			= "Text Alert Options"
 L.WorldBossAlert			= "Show alert message when world bosses might have been engaged on your realm by guildies or friends"
+L.WorldBuffAlert			= "Show alert message and timer when world buff RP has been started on your realm"
 --
 L.Area_SoundAlerts			= "Sound/Flash Alert Options"
 L.LFDEnhance				= "Play ready check sound and flash application icon for role checks &amp; BG proposals in Master or Dialog audio channel (I.E. sounds work even if SFX are off and are generally louder)"
@@ -333,9 +330,10 @@ L.ShowRespawn				= "Show boss respawn timer after a wipe"
 L.ShowQueuePop				= "Show time remaining to accept a queue pop (BG,etc)"
 --
 L.Area_AutoLogging			= "Auto Logging Options"
-L.AutologBosses				= "Automatically record boss encounters using blizzard combat log (Use /dbm pull before bosses to start logging early for pre pots and other events.)"
-L.AdvancedAutologBosses		= "Automatically record boss encounters with Transcriptor"
-L.LogOnlyRaidBosses			= "Only record raid boss encounters (excludes dungeons)"
+L.AutologBosses				= "Automatically record dungeons/raids using blizzard combat log"
+L.AdvancedAutologBosses		= "Automatically record dungeons/raids with Transcriptor"
+L.RecordOnlyBosses			= "Only record Bosses (Excludes all trash. Use '/dbm pull' before bosses to capture pre pull pots &amp; ENCOUNTER_START)"
+L.LogOnlyNonTrivial			= "Only record non trivial content (excludes dungeons)"
 --
 --L.Area_3rdParty				= "3rd Party Addon Options"
 --L.ShowBBOnCombatStart		= "Perform Big Brother buff check on combat start"

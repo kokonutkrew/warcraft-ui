@@ -1,7 +1,7 @@
-## Interface: 80200
+## Interface: 80205
 ## Author: cqwrteur
 ## Title: LookingForGroup Raider.IO
-## Version: r239
+## Version: r250
 ## X-LFG-OPT: 0
 ## LoadOnDemand: 1
 ## Dependencies: LookingForGroup_Options

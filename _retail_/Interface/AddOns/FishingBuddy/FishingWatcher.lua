@@ -33,65 +33,75 @@ local WatcherOptions = {
         ["v"] = 1,
         ["m"] = 1,
         ["p"] = 1,
-        ["default"] = true },
+        ["default"] = true
+    },
     ["WatchCurrentSkill"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHSKILL_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHSKILL_INFO,
         ["v"] = 1,
         ["default"] = true,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchOnlyWhenFishing"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHONLY_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHONLY_INFO,
         ["v"] = 1,
         ["m1"] = 1,
         ["default"] = true,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchCurrentZone"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHZONE_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHZONE_INFO,
         ["v"] = 1,
         ["m"] = 1,
         ["default"] = false,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchFishPercent"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHPERCENT_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHPERCENT_INFO,
         ["v"] = 1,
         ["m"] = 1,
         ["default"] = true,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchElapsedTime"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHTIME_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHTIME_INFO,
         ["v"] = 1,
         ["m"] = 1,
         ["default"] = false,
-        ["parents"] = { ["WatchFishies"] = "d" } },
-    ["WatchPagleFish"] = {
-        ["text"] = FBConstants.CONFIG_FISHWATCHPAGLE_ONOFF,
-        ["tooltip"] = FBConstants.CONFIG_FISHWATCHPAGLE_INFO,
-        ["v"] = 1,
-        ["default"] = true,
-        ["parents"] = { ["WatchFishies"] = "d" } },
-    ["WatchWorldQuests"] = {
-        ["text"] = FBConstants.CONFIG_FISHWATCHWORLD_ONOFF,
-        ["tooltip"] = FBConstants.CONFIG_FISHWATCHWORLD_INFO,
-        ["v"] = 1,
-        ["default"] = true,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchCurrentOnly"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHCURRENT_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHCURRENT_INFO,
         ["v"] = 1,
         ["default"] = false,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
     ["WatchHideTrash"] = {
         ["text"] = FBConstants.CONFIG_FISHWATCHTRASH_ONOFF,
         ["tooltip"] = FBConstants.CONFIG_FISHWATCHNOGREYS_INFO,
         ["v"] = 1,
         ["default"] = false,
-        ["parents"] = { ["WatchFishies"] = "d" } },
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
+    ["WatchPagleFish"] = {
+        ["text"] = FBConstants.CONFIG_FISHWATCHPAGLE_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_FISHWATCHPAGLE_INFO,
+        ["v"] = 1,
+        ["default"] = true,
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
+    ["WatchWorldQuests"] = {
+        ["text"] = FBConstants.CONFIG_FISHWATCHWORLD_ONOFF,
+        ["tooltip"] = FBConstants.CONFIG_FISHWATCHWORLD_INFO,
+        ["v"] = 1,
+        ["default"] = true,
+        ["parents"] = { ["WatchFishies"] = "d" }
+    },
 --    ["WatchWarnFishing"] = {
 --        ["text"] = FBConstants.CONFIG_FISHWARNFISHING_ONOFF,
 --        ["tooltip"] = FBConstants.CONFIG_FISHWARNFISHING_INFO,
@@ -344,6 +354,10 @@ end
 -- Handle legion fountain coins
 local _achievement_pattern = "|c%x+|Hachievement:[^|]+|h%[(.*)%]|h|r"
 local function SetupLegionCoinCount()
+    if FL:IsClassic() then
+        legion_coins = {}
+        return
+    end
     local wishid = 10722
     if not wish_remover["text"] then
         local link = GetAchievementLink(wishid)
@@ -625,7 +639,7 @@ local legionmaps = {
 }
 
 local function DisplayFishingWorldQuests()
-    if not GSB("WatchWorldQuests") then
+    if FL:IsClassic() or not GSB("WatchWorldQuests") then
         return nil
     end
 

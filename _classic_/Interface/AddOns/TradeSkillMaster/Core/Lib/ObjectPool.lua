@@ -9,8 +9,9 @@
 --- ObjectPool TSMAPI_FOUR Functions.
 -- @module ObjectPool
 
+local _, TSM = ...
 TSMAPI_FOUR.ObjectPool = {}
-local ObjectPool = TSMAPI_FOUR.Class.DefineClass("ObjectPool")
+local ObjectPool = TSM.Include("LibTSMClass").DefineClass("ObjectPool")
 local private = { instances = {} }
 local DEBUG_STATS_MIN_COUNT = 1
 
@@ -67,7 +68,7 @@ function ObjectPool.Get(self)
 		assert(obj)
 	end
 	if self._extraStackOffset then
-		self._state[obj] = (TSMAPI_FOUR.Util.GetDebugStackInfo(2 + self._extraStackOffset) or "?").." -> "..(TSMAPI_FOUR.Util.GetDebugStackInfo(3 + self._extraStackOffset) or "?")
+		self._state[obj] = (TSM.Debug.GetStackLevelLocation(2 + self._extraStackOffset) or "?").." -> "..(TSM.Debug.GetStackLevelLocation(3 + self._extraStackOffset) or "?")
 	else
 		self._state[obj] = "???"
 	end

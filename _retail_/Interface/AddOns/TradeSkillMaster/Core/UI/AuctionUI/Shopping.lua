@@ -8,6 +8,7 @@
 
 local _, TSM = ...
 local Shopping = TSM.UI.AuctionUI:NewPackage("Shopping")
+local ItemClass = TSM.Include("Data.ItemClass")
 local L = TSM.L
 local private = {
 	singleItemSearchType = "normal",
@@ -48,7 +49,7 @@ local PLAYER_NAME = UnitName("player")
 local POST_TIME_STRS = {
 	WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and L["2 hr"] or L["12 hr"],
 	WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and L["8 hr"] or L["24 hr"],
-	WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and L["12 hr"] or L["48 hr"],
+	WOW_PROJECT_ID == WOW_PROJECT_CLASSIC and L["24 hr"] or L["48 hr"],
 }
 local function NoOp()
 	-- do nothing - what did you expect?
@@ -389,14 +390,14 @@ function private.GetAdvancedFrame()
 					:AddChild(TSMAPI_FOUR.UI.NewElement("Dropdown", "classDropdown")
 						:SetStyle("height", 20)
 						:SetStyle("margin.right", 20)
-						:SetItems(TSMAPI_FOUR.Item.GetItemClasses())
+						:SetItems(ItemClass.GetClasses())
 						:SetScript("OnSelectionChanged", private.ClassDropdownOnSelectionChanged)
 						:SetHintText(L["All Item Classes"])
 					)
 					:AddChild(TSMAPI_FOUR.UI.NewElement("Dropdown", "subClassDropdown")
 						:SetStyle("height", 20)
 						:SetDisabled(true)
-						:SetItems(TSMAPI_FOUR.Item.GetItemClasses())
+						:SetItems(ItemClass.GetClasses())
 						:SetHintText(L["All Subclasses"])
 					)
 				)
@@ -1363,12 +1364,14 @@ end
 function private.ClassDropdownOnSelectionChanged(dropdown, selection)
 	local subClassDropdown = dropdown:GetElement("__parent.subClassDropdown")
 	if selection then
-		subClassDropdown:SetItems(TSMAPI_FOUR.Item.GetItemSubClasses(selection))
+		subClassDropdown:SetItems(ItemClass.GetSubClasses(selection))
 		subClassDropdown:SetDisabled(false)
 		subClassDropdown:SetSelection(nil)
+			:Draw()
 	else
 		subClassDropdown:SetDisabled(true)
 		subClassDropdown:SetSelection(nil)
+			:Draw()
 	end
 end
 
@@ -1388,7 +1391,7 @@ end
 
 function private.AdvancedStartOnClick(button)
 	local searchFrame = button:GetElement("__parent.__parent.search.body")
-	local filterParts = TSMAPI_FOUR.Util.AcquireTempTable()
+	local filterParts = TSM.TempTable.Acquire()
 
 	tinsert(filterParts, strtrim(searchFrame:GetElement("filterInput"):GetText()))
 
@@ -1433,7 +1436,7 @@ function private.AdvancedStartOnClick(button)
 	end
 
 	local filter = table.concat(filterParts, "/")
-	TSMAPI_FOUR.Util.ReleaseTempTable(filterParts)
+	TSM.TempTable.Release(filterParts)
 	local viewContainer = searchFrame:GetParentElement():GetParentElement():GetParentElement():GetParentElement():GetParentElement()
 	private.StartFilterSearchHelper(viewContainer, filter)
 end
@@ -1472,12 +1475,12 @@ function private.StartGatheringSearchHelper(viewContainer, items, stateCallback,
 	if not TSM.UI.AuctionUI.StartingScan(L["Shopping"]) then
 		return
 	end
-	local filterList = TSMAPI_FOUR.Util.AcquireTempTable()
+	local filterList = TSM.TempTable.Acquire()
 	for itemString, quantity in pairs(items) do
 		tinsert(filterList, itemString.."/x"..quantity)
 	end
 	local filter = table.concat(filterList, ";")
-	TSMAPI_FOUR.Util.ReleaseTempTable(filterList)
+	TSM.TempTable.Release(filterList)
 	filter = TSM.Shopping.FilterSearch.PrepareFilter(filter, mode, "matprice")
 	assert(filter and filter ~= "")
 	viewContainer:SetPath("scan", true)
@@ -1736,7 +1739,7 @@ function private.UpdateDepositCost(frame)
 	end
 
 	private.postTimeStr = frame:GetElement("duration.toggle"):GetValue()
-	local postTime = TSMAPI_FOUR.Util.GetDistinctTableKey(POST_TIME_STRS, private.postTimeStr)
+	local postTime = TSM.Table.GetDistinctKey(POST_TIME_STRS, private.postTimeStr)
 
 	local bid = TSM.Money.FromString(frame:GetElement("bid.text"):GetText())
 	local buyout = TSM.Money.FromString(frame:GetElement("buyout.text"):GetText())
@@ -1785,7 +1788,7 @@ function private.PostButtonOnClick(button)
 			num = 1
 		end
 		-- need to set the duration in the default UI to avoid Blizzard errors
-		local postTime = TSMAPI_FOUR.Util.GetDistinctTableKey(POST_TIME_STRS, frame:GetElement("duration.toggle"):GetValue())
+		local postTime = TSM.Table.GetDistinctKey(POST_TIME_STRS, frame:GetElement("duration.toggle"):GetValue())
 		AuctionFrameAuctions.duration = postTime
 		ClearCursor()
 		PickupContainerItem(postBag, postSlot)
@@ -1820,8 +1823,8 @@ end
 function private.GetBagQuantity(itemString)
 	local query = TSM.Inventory.BagTracking.CreateQuery()
 		:Equal("baseItemString", TSMAPI_FOUR.Item.ToBaseItemString(itemString))
-		:GreaterThanOrEqual("slotId", TSMAPI_FOUR.Util.JoinSlotId(0, 1))
-		:LessThanOrEqual("slotId", TSMAPI_FOUR.Util.JoinSlotId(NUM_BAG_SLOTS + 1, 0))
+		:GreaterThanOrEqual("slotId", TSM.SlotId.Join(0, 1))
+		:LessThanOrEqual("slotId", TSM.SlotId.Join(NUM_BAG_SLOTS + 1, 0))
 		:Equal("usedCharges", false)
 		:Equal("isBoP", false)
 		:Equal("isBoA", false)
@@ -1899,9 +1902,9 @@ function private.FSMCreate()
 		stateCallback = nil,
 	}
 
-	TSMAPI_FOUR.Event.Register("CHAT_MSG_SYSTEM", private.FSMMessageEventHandler)
-	TSMAPI_FOUR.Event.Register("UI_ERROR_MESSAGE", private.FSMMessageEventHandler)
-	TSMAPI_FOUR.Event.Register("AUCTION_HOUSE_CLOSED", function()
+	TSM.Event.Register("CHAT_MSG_SYSTEM", private.FSMMessageEventHandler)
+	TSM.Event.Register("UI_ERROR_MESSAGE", private.FSMMessageEventHandler)
+	TSM.Event.Register("AUCTION_HOUSE_CLOSED", function()
 		private.fsm:ProcessEvent("EV_AUCTION_HOUSE_CLOSED")
 	end)
 	local function UpdateScanFrame(context)
@@ -1945,7 +1948,7 @@ function private.FSMCreate()
 					context.query:Release()
 				end
 				if context.scanContext then
-					TSMAPI_FOUR.Util.ReleaseTempTable(context.scanContext)
+					TSM.TempTable.Release(context.scanContext)
 					context.scanContext = nil
 				end
 				if context.stateCallback then
@@ -1985,7 +1988,7 @@ function private.FSMCreate()
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_STARTING_SCAN")
 			:SetOnEnter(function(context, scanThreadId, marketValueFunc, buyCallback, stateCallback, scanName, filterStr, itemInfo, ...)
-				context.scanContext = TSMAPI_FOUR.Util.AcquireTempTable(scanThreadId, marketValueFunc, buyCallback, stateCallback, scanName, filterStr, itemInfo, ...)
+				context.scanContext = TSM.TempTable.Acquire(scanThreadId, marketValueFunc, buyCallback, stateCallback, scanName, filterStr, itemInfo, ...)
 				private.hasLastScan = true
 				context.scanThreadId = scanThreadId
 				context.marketValueFunc = marketValueFunc
@@ -2036,7 +2039,7 @@ function private.FSMCreate()
 				end
 				local scanContext = context.scanContext
 				context.scanContext = nil
-				return "ST_INIT", TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(scanContext)
+				return "ST_INIT", TSM.TempTable.UnpackAndRelease(scanContext)
 			end)
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_UPDATING_SCAN_PROGRESS")
@@ -2116,7 +2119,7 @@ function private.FSMCreate()
 				end
 				local scanContext = context.scanContext
 				context.scanContext = nil
-				return "ST_INIT", TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(scanContext)
+				return "ST_INIT", TSM.TempTable.UnpackAndRelease(scanContext)
 			end)
 		)
 		:AddState(TSMAPI_FOUR.FSM.NewState("ST_FINDING_AUCTION")
@@ -2162,7 +2165,7 @@ function private.FSMCreate()
 				end
 				local scanContext = context.scanContext
 				context.scanContext = nil
-				return "ST_INIT", TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(scanContext)
+				return "ST_INIT", TSM.TempTable.UnpackAndRelease(scanContext)
 			end)
 			:AddEvent("EV_SCAN_FRAME_HIDDEN", function(context)
 				context.scanFrame = nil
@@ -2264,7 +2267,7 @@ function private.FSMCreate()
 				end
 				local scanContext = context.scanContext
 				context.scanContext = nil
-				return "ST_INIT", TSMAPI_FOUR.Util.UnpackAndReleaseTempTable(scanContext)
+				return "ST_INIT", TSM.TempTable.UnpackAndRelease(scanContext)
 			end)
 			:AddEvent("EV_SCAN_FRAME_HIDDEN", function(context)
 				context.scanFrame = nil

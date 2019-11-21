@@ -4,8 +4,7 @@ FishingTranslations["ptBR"] = {
 	["ABOUT_TAB"] = "Sobre",
 	["ADDFISHINFOMSG"] = "Adicionando '%s' para a localização %s.",
 	["ALLZOMGPETS"] = "Incluir todos os mascotes",
-	--[[Translation missing --]]
-	--[[ ["AUTHOR"] = "Sutorix (sutorix@hotmail.com)",--]] 
+	["AUTHOR"] = "Sutorix (sutorix@hotmail.com)",
 	--[[Translation missing --]]
 	--[[ ["BINDING_HEADER_FISHINGBUDDY_BINDINGS"] = "#NAME#",--]] 
 	["BINDING_NAME_FISHINGBUDDY_GOFISHING"] = "Vista-se e vá pescar",
@@ -207,6 +206,8 @@ FishingTranslations["ptBR"] = {
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SECRET_FISHING_GOGGES_INFO"] = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",--]] 
 	--[[Translation missing --]]
+	--[[ ["CONFIG_SECRET_FISHING_GOGGLES_INFO"] = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",--]] 
+	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_INFO"] = "If enabled, show the #NAME# banner on login.",--]] 
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_ONOFF"] = "Show banner",--]] 
@@ -304,6 +305,8 @@ FishingTranslations["ptBR"] = {
 	--[[Translation missing --]]
 	--[[ ["FISHDATARESETMORE_MSG"] = "Run |c#GREEN#/fb #FISHDATA# #RESET#|r one more time to reset fish location data.",--]] 
 	--[[Translation missing --]]
+	--[[ ["FISHING_SKILL"] = "Fishing",--]] 
+	--[[Translation missing --]]
 	--[[ ["FISHINGMODE"] = "fishing",--]] 
 	--[[Translation missing --]]
 	--[[ ["FISHINGMODE_HELP"] = "|c#GREEN#/fb #FISHINGMODE# [start|stop]|r#BRSPCS#Run #NAME# fishing actions.#BRSPCS#Useful in macros along with '/cast Fishing'.",--]] 
@@ -329,6 +332,7 @@ FishingTranslations["ptBR"] = {
 	["LEFTCLICKTODRAG"] = "Clique com o botão esquerdo para arrastar",
 	["LOCATIONS_INFO"] = "Exibe onde você capturou peixe seja por Área ou Tipo de Peixe",
 	["LOCATIONS_TAB"] = "Localizações",
+	["LURE_NAME"] = "Isca de Pesca",
 	--[[Translation missing --]]
 	--[[ ["MACRONAME"] = "FishingBuddy",--]] 
 	["MINIMAPBUTTONPLACEMENT"] = "Fixação",

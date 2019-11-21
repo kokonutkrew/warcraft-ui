@@ -27,11 +27,12 @@ local TrawlerTotem = {
     spell = 251211,
     setting = "UseTrawlerTotem",
     ["tooltip"] = FBConstants.CONFIG_TUSKAARSPEAR_INFO,
+    ["toy"] = true,
     ["default"] = false,
-	visible = function(option)
-        return PlayerHasToy(TRAWLER_ID);
-    end,
 }
+TrawlerTotem["visible"] = function(option)
+    return PLANS:HaveThing(TRAWLER_ID, TrawlerTotem);
+end
 
 local buffs = nil
 local function WWJD()
@@ -91,7 +92,7 @@ local function TrawlerPlan()
         return
     end
 
-    if (PlayerHasToy(TRAWLER_ID) and C_ToyBox.IsToyUsable(TRAWLER_ID) and not FL:HasBuff(TrawlerTotem.spell)) then
+    if PLANS:CanUseFishingItem(TRAWLER_ID, TrawlerTotem) then
         local pole = FL:IsFishingPole();
         if (pole) then
             local start, duration, enable = GetItemCooldown(TRAWLER_ID);

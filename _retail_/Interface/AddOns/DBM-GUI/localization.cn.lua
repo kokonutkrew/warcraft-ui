@@ -114,7 +114,6 @@ L.ShowGuildMessages 		= "在聊天窗口中显示工会开战，击杀，灭团�
 L.ShowGuildMessagesPlus		= "显示工会中的M+以上难度的开战，击杀，灭团信息(需要团队选项)"
 L.WhisperMessages			= "密语信息设置"
 L.AutoRespond 				= "在战斗中自动回复私聊"
-L.EnableStatus 				= "回复“status”私聊当前战斗信息"
 L.WhisperStats 				= "在回复的私聊中包含击杀或灭团次数统计信息"
 L.DisableStatusWhisper 		= "屏蔽全团成员的status私聊(需要团长权限)。只对普通/英雄/神话团队和挑战/神话五人小队有效。"
 L.DisableGuildStatus 		= "屏蔽通报团队进度信息到工会(需要团长权限)。"
@@ -238,7 +237,6 @@ L.EventWipeSound			= "设置灭团音效"
 L.EventEngageSound			= "设置开战音效"
 L.EventDungeonMusic			= "设置在副本内播放的音乐"
 L.EventEngageMusic			= "设置战斗过程中的音乐"
-L.EventTurtleMusic			= "设置乌龟海滩场景播放的音乐"
 L.Area_EventSoundsExtras	= "事件音效选项"
 L.EventMusicCombined		= "允许在副本内播放在音乐选项中的全部音效(需要reload)"
 L.Area_EventSoundsFilters	= "事件音效过滤条件"
@@ -308,11 +306,6 @@ L.AfterFirst				= "仅第一次播放"
 L.Always					= "总是跳过"
 L.CombatOnly				= "在任何战斗中隐藏"
 L.RaidCombat				= "只在Boss战斗中隐藏"
-L.HideBonusHeader			= "隐藏奖励拾取投掷"
-L.TrivialContent			= "低于5M掉落"--Basically anything below 340
-L.NormalRaider				= "低于5层大秘和随机团掉落"--Basically, anything below 355
-L.HeroicRaider				= "低于10层大秘，H副本"--Basically anything below 370
-L.MythicRaider				= "M副本"--Basically anything below 385
 
 L.Panel_ExtraFeatures		= "其他功能"
 --

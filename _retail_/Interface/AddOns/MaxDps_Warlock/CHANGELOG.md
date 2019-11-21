@@ -1,6 +1,6 @@
 # MaxDps_Warlock
 
-## [v8.2.0](https://github.com/kaminaris/MaxDps-Warlock/tree/v8.2.0) (2019-08-10)
-[Full Changelog](https://github.com/kaminaris/MaxDps-Warlock/compare/v8.1.2...v8.2.0)
+## [v8.2.5](https://github.com/kaminaris/MaxDps-Warlock/tree/v8.2.5) (2019-09-26)
+[Full Changelog](https://github.com/kaminaris/MaxDps-Warlock/compare/v8.2.0...v8.2.5)
 
-- v8.2.0 - Demo improvement + azerite essences support  
+- v8.2.5 - Interface version bump, Cataclysm moved to cooldowns  

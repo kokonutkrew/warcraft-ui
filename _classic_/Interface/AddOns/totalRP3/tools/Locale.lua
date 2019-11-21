@@ -576,6 +576,7 @@ Possible status:
 (When this option is enabled, you can ALT-SHIFT-Click on a name when you want the default behavior and insert the character name instead of the full RP name.)]],
 	CO_CHAT_MAIN_COLOR = "Use custom colors for names",
 	CO_CHAT_INCREASE_CONTRAST = "Increase color contrast",
+	CO_CHAT_SHOW_OOC = "Show OOC indicator",
 	CO_CHAT_USE_ICONS = "Show player icons",
 	CO_CHAT_USE = "Used chat channels",
 	CO_CHAT_USE_SAY = "Say channel",
@@ -604,6 +605,7 @@ Possible status:
 	CO_GLANCE_PRESET_TRP3 = "Use Total RP 3 style positions",
 	CO_GLANCE_PRESET_TRP3_HELP = "Shortcut to setup the bar in a TRP3 style : to the bottom of the TRP3 target frame.",
 	CO_GLANCE_TT_ANCHOR = "Tooltips anchor point",
+	CO_HIDE_EMPTY_MAP_BUTTON = "Hide when no scans available",
 	CO_MSP = "Mary Sue Protocol",
 	CO_WIM = "|cffff9900Whisper channels are disabled.",
 	CO_WIM_TT = "You are using |cff00ff00WIM|r, the handling for whisper channels is disabled for compatibility purposes",
@@ -612,6 +614,8 @@ Possible status:
 	CO_LOCATION_ACTIVATE_TT = "Enable the character location system, allowing you to scan for other Total RP users on the world map and allowing them to find you.",
 	CO_LOCATION_DISABLE_OOC = "Disable location when OOC",
 	CO_LOCATION_DISABLE_OOC_TT = "You will not respond to location requests from other players when you've set your RP status to Out Of Character.",
+	CO_LOCATION_DISABLE_CLASSIC_PVP = "Disable location when flagged for PvP",
+	CO_LOCATION_DISABLE_CLASSIC_PVP_TT = "You will not respond to location requests from other players when you are flagged for PvP.\n\nThis option is particularly useful to avoid abuses of the location system to track you.",
 	CO_SANITIZER = "Sanitize incoming profiles",
 	CO_SANITIZER_TT = "Remove escaped sequences in tooltip fields from incoming profiles when TRP doesn't allow it (color, images ...).",
 
@@ -756,6 +760,16 @@ Use the |cffffff00Import profile|r option to paste data from a previous export i
 	DB_STATUS_RP_EXP_TT = "Shows that you are an experienced roleplayer.\nIt will not show any specific icon on your tooltip.",
 	DB_STATUS_RP_VOLUNTEER = "Volunteer roleplayer",
 	DB_STATUS_RP_VOLUNTEER_TT = "This selection will show an icon on your tooltip, indicating\nto beginner roleplayers that you are willing to help them.",
+	DB_STATUS_LC = "Roleplay language",
+	DB_STATUS_LC_TT = [[Sets your preferred roleplaying language. This will be shared with other compatible RP addon users.
+
+|cffff9900Note:|r This does |cffff0000not|r change the user interface language of Total RP 3. This option can instead be found in the |cfffff569Advanced Settings|r page.]],
+
+	-- DB_STATUS_LC_DEFAULT will be formatted with the current locale name, eg. "Italiano".
+	DB_STATUS_LC_DEFAULT = "Default (%1$s)",
+
+	-- DB_STATUS_ICON_ITEM will be formatted with an icon texture and a label for a dropdown item.
+	DB_STATUS_ICON_ITEM = "%1$s %2$s",
 	DB_TUTO_1 = [[|cffffff00The character status|r indicates if you are currently playing your character's role or not.
 
 |cffffff00The roleplayer status|r allows you to state that you are a beginner, or a veteran willing to help rookies!
@@ -923,6 +937,18 @@ Total RP is not responsible for links leading to harmful content.]],
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
 	ABOUT_TITLE = "About",
+
+	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+	-- Slash commands
+	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+	SLASH_CMD_STATUS_USAGE = "ic || ooc || toggle",
+	SLASH_CMD_STATUS_HELP = [[Usage: |cff00ff00/trp3 status ic || ooc || toggle|r
+Changes your character status to the specified option:
+
+|cffff9900/trp3 status ic|r will set your status to |cff00ff00in character|r.
+|cffff9900/trp3 status ooc|r will set your status to |cffff0000out of character|r.
+|cffff9900/trp3 status toggle|r will switch your status to the opposite state.]],
 
 	--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 	-- MAP
@@ -1095,7 +1121,7 @@ The Kui |cff9966ffNameplates|r module adds several Total RP 3 customizations to 
 
 {h2}{icon:THUMBUP:20} Acknowledgements{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Our pre-alpha QA team:{/col}
 %TESTERS$s
@@ -1226,11 +1252,6 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 
 ]],
 
-	------------------------------------------------------------------------------------------------
-	--- PLACE LOCALIZATION NOT ALREADY UPLOADED TO CURSEFORGE HERE
-	--- THEN MOVE IT UP ONCE IMPORTED
-	------------------------------------------------------------------------------------------------
-
 	---@language Markdown
 	WHATS_NEW_23_5 = [[
 # Changelog version 1.6.5
@@ -1243,6 +1264,58 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 
 - Fixed an error when someone executes a scan in your zone. (Classic only)
 - Fixed a potential error when saving a glance slot.
+
+]],
+
+	---@language Markdown
+	WHATS_NEW_23_6 = [[
+# Changelog version 1.6.6
+
+## Added
+
+- Added slash commands to change your roleplay status, which you can use in macros. You can now use `/trp3 status ic` to get in character, `/trp3 status ooc` to get out of character, or `/trp3 status toggle` to switch status.
+- Added a chat setting to display the OOC indicator next to the name in chat.
+- Added a setting to hide the map scan button if no scan is available.
+- Added a roleplay language field to the main dashboard.
+  - This setting is profile-based, defaults to your addon language, and allows you to indicate the language you're roleplaying in.
+  - If your addon language doesn't match a player's roleplaying language, you'll see a flag at the bottom of their tooltip indicating their roleplaying language.
+  - This change is mainly aimed at Classic roleplayers, as only English RP realms were made.
+- Added back buttons to toggle helmet and cloak display for Classic.
+
+## Changed
+
+- Renamed the war mode setting to PvP mode for Classic.
+
+## Fixed
+
+- Fixed issues when the target bar module was disabled.
+- Fixed an issue causing duplicate Mary-Sue Protocol profiles to appear in the register when unchecking "This realm only".
+- Fixed a few remaining missing icons for Classic (default template 3 icons and `/trp3 roll` icons)
+- Fixed an issue when using the "Right-click to open profile" setting on Classic.
+
+]],
+
+	------------------------------------------------------------------------------------------------
+	--- PLACE LOCALIZATION NOT ALREADY UPLOADED TO CURSEFORGE HERE
+	--- THEN MOVE IT UP ONCE IMPORTED
+	------------------------------------------------------------------------------------------------
+
+	CO_CHAT_MAIN_SPEECH = "Speech detection",
+	CO_CHAT_MAIN_SPEECH_USE = "Use speech detection",
+	CO_CHAT_MAIN_SPEECH_USE_TT = "Text surrounded by quotation marks will be colored as if written in /say.",
+
+	---@language Markdown
+	WHATS_NEW_23_7 = [[
+# Changelog version 1.6.7
+
+## Added
+
+- Added a setting to detect speech in emotes and automatically color it.
+- Added 7 icons and 1 music from patch 8.2.5.
+
+## Changed
+
+- The companion profiles list accessed through the target frame is now alphabetically sorted, and "Create new profile" has been moved out of it.
 
 ]],
 };
@@ -1424,9 +1497,13 @@ Please keep in mind that changing those settings might alter your experience wit
 	["CO_CHAT_MAIN_OOC_COLOR"] = "OOC color",
 	["CO_CHAT_MAIN_OOC_PATTERN"] = "OOC detection pattern",
 	["CO_CHAT_MAIN_OOC_USE"] = "Use OOC detection",
+	["CO_CHAT_MAIN_SPEECH"] = "Speech detection",
+	["CO_CHAT_MAIN_SPEECH_USE"] = "Use speech detection",
+	["CO_CHAT_MAIN_SPEECH_USE_TT"] = "Text surrounded by quotation marks will be colored as if written in /say.",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT"] = "Customize companion names in NPC speeches",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT_TT"] = "If a companion name is in brackets in an NPC speech, it will be colored and its icon will be shown depending on your settings above.",
 	["CO_CHAT_REMOVE_REALM"] = "Remove realm from player names",
+	["CO_CHAT_SHOW_OOC"] = "Show OOC indicator",
 	["CO_CHAT_USE"] = "Used chat channels",
 	["CO_CHAT_USE_ICONS"] = "Show player icons",
 	["CO_CHAT_USE_SAY"] = "Say channel",
@@ -1476,9 +1553,14 @@ If not, the language will be changed on the next connection.]=],
 	["CO_GLANCE_PRESET_TRP3_HELP"] = "Shortcut to setup the bar in a TRP3 style : to the bottom of the TRP3 target frame.",
 	["CO_GLANCE_RESET_TT"] = "Reset the bar position to the bottom left of the anchored frame.",
 	["CO_GLANCE_TT_ANCHOR"] = "Tooltips anchor point",
+	["CO_HIDE_EMPTY_MAP_BUTTON"] = "Hide when no scans available",
 	["CO_LOCATION"] = "Location settings",
 	["CO_LOCATION_ACTIVATE"] = "Enable character location",
 	["CO_LOCATION_ACTIVATE_TT"] = "Enable the character location system, allowing you to scan for other Total RP users on the world map and allowing them to find you.",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP"] = "Disable location when flagged for PvP",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP_TT"] = [=[You will not respond to location requests from other players when you are flagged for PvP.
+
+This option is particularly useful to avoid abuses of the location system to track you.]=],
 	["CO_LOCATION_DISABLE_OOC"] = "Disable location when OOC",
 	["CO_LOCATION_DISABLE_OOC_TT"] = "You will not respond to location requests from other players when you've set your RP status to Out Of Character.",
 	["CO_LOCATION_DISABLE_PVP"] = "Disable location when flagged for PvP",
@@ -1644,6 +1726,12 @@ Your profiles, companions profiles and settings will be temporarily stashed away
 	["DB_STATUS_CURRENTLY_OOC"] = "Other information (OOC)",
 	["DB_STATUS_CURRENTLY_OOC_TT"] = "Here you can indicate something important about you, as a player, or anything out of your character.",
 	["DB_STATUS_CURRENTLY_TT"] = "Here you can indicate something important about your character.",
+	["DB_STATUS_ICON_ITEM"] = "%1$s %2$s",
+	["DB_STATUS_LC"] = "Roleplay language",
+	["DB_STATUS_LC_DEFAULT"] = "Default (%1$s)",
+	["DB_STATUS_LC_TT"] = [=[Sets your preferred roleplaying language. This will be shared with other compatible RP addon users.
+
+|cffff9900Note:|r This does |cffff0000not|r change the user interface language of Total RP 3. This option can instead be found in the |cfffff569Advanced Settings|r page.]=],
 	["DB_STATUS_RP"] = "Character status",
 	["DB_STATUS_RP_EXP"] = "Experienced roleplayer",
 	["DB_STATUS_RP_EXP_TT"] = [=[Shows that you are an experienced roleplayer.
@@ -2395,6 +2483,13 @@ If you wish to report %s's profile and you cannot target them you will need to o
 	["REG_TT_TARGET"] = "Target: |cffff9900%s",
 	["SCRIPT_ERROR"] = "Error in script.",
 	["SCRIPT_UNKNOWN_EFFECT"] = "Script error, unknown FX",
+	["SLASH_CMD_STATUS_HELP"] = [=[Usage: |cff00ff00/trp3 status ic || ooc || toggle|r
+Changes your character status to the specified option:
+
+|cffff9900/trp3 status ic|r will set your status to |cff00ff00in character|r.
+|cffff9900/trp3 status ooc|r will set your status to |cffff0000out of character|r.
+|cffff9900/trp3 status toggle|r will switch your status to the opposite state.]=],
+	["SLASH_CMD_STATUS_USAGE"] = "ic || ooc || toggle",
 	["TB_AFK_MODE"] = "Away",
 	["TB_DND_MODE"] = "Do not disturb",
 	["TB_GO_TO_MODE"] = "Switch to %s mode",
@@ -2444,7 +2539,7 @@ If you wish to report %s's profile and you cannot target them you will need to o
 
 {h2}{icon:THUMBUP:20} Acknowledgements{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Our pre-alpha QA team:{/col}
 %TESTERS$s
@@ -2624,6 +2719,45 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 
 - Fixed an error when someone executes a scan in your zone. (Classic only)
 - Fixed a potential error when saving a glance slot.
+
+]=],
+	["WHATS_NEW_23_6"] = [=[
+# Changelog version 1.6.6
+
+## Added
+
+- Added slash commands to change your roleplay status, which you can use in macros. You can now use `/trp3 status ic` to get in character, `/trp3 status ooc` to get out of character, or `/trp3 status toggle` to switch status.
+- Added a chat setting to display the OOC indicator next to the name in chat.
+- Added a setting to hide the map scan button if no scan is available.
+- Added a roleplay language field to the main dashboard.
+  - This setting is profile-based, defaults to your addon language, and allows you to indicate the language you're roleplaying in.
+  - If your addon language doesn't match a player's roleplaying language, you'll see a flag at the bottom of their tooltip indicating their roleplaying language.
+  - This change is mainly aimed at Classic roleplayers, as only English RP realms were made.
+- Added back buttons to toggle helmet and cloak display for Classic.
+
+## Changed
+
+- Renamed the war mode setting to PvP mode for Classic.
+
+## Fixed
+
+- Fixed issues when the target bar module was disabled.
+- Fixed an issue causing duplicate Mary-Sue Protocol profiles to appear in the register when unchecking "This realm only".
+- Fixed a few remaining missing icons for Classic (default template 3 icons and `/trp3 roll` icons)
+- Fixed an issue when using the "Right-click to open profile" setting on Classic.
+
+]=],
+	["WHATS_NEW_23_7"] = [=[
+# Changelog version 1.6.7
+
+## Added
+
+- Added a setting to detect speech in emotes and automatically color it.
+- Added 7 icons and 1 music from patch 8.2.5.
+
+## Changed
+
+- The companion profiles list accessed through the target frame is now alphabetically sorted, and "Create new profile" has been moved out of it.
 
 ]=]
 }
@@ -3736,7 +3870,7 @@ Zum Beispiel kann du folgendes angeben: |c0000ff00schlank, dick or muskulös...|
 
 {h2}{icon:THUMBUP:20} Danksagungen{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Unser Pre-Alpha QA Team:{/col}
 - Saelora
@@ -3972,9 +4106,13 @@ Gardez à l'esprit que changer ces paramètres peut altérer votre expérience a
 	["CO_CHAT_MAIN_OOC_COLOR"] = "Couleur du HRP",
 	["CO_CHAT_MAIN_OOC_PATTERN"] = "Schéma de détection du HRP",
 	["CO_CHAT_MAIN_OOC_USE"] = "Utiliser la détection du HRP",
+	["CO_CHAT_MAIN_SPEECH"] = "Détection de dialogue",
+	["CO_CHAT_MAIN_SPEECH_USE"] = "Activer la détection de dialogue",
+	["CO_CHAT_MAIN_SPEECH_USE_TT"] = "Les textes entourés de guillemets seront colorés comme s'ils étaient écrits en /dire.",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT"] = "Noms de companion dans les textes de PNJ",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT_TT"] = "Si un nom de companion est indiqué entre crochet dans un texte de PNJ, il sera formatté suivant les réglages de discussion (coloré, avec une icône, etc.).",
 	["CO_CHAT_REMOVE_REALM"] = "Retirer le royaume du nom des joueurs",
+	["CO_CHAT_SHOW_OOC"] = "Afficher indicateur HRP",
 	["CO_CHAT_USE"] = "Canaux de discussion utilisés",
 	["CO_CHAT_USE_ICONS"] = "Afficher les icônes",
 	["CO_CHAT_USE_SAY"] = "Canal /dire",
@@ -4023,9 +4161,14 @@ Cela provoquera un rechargement de l'interface.]=],
 	["CO_GLANCE_PRESET_TRP3_HELP"] = "Raccourci pour configurer la barre dans le style de TRP3 : en-dessous du portrait de la cible.",
 	["CO_GLANCE_RESET_TT"] = "Réinitialiser la position de la barre en bas à gauche du cadre d'ancrage.",
 	["CO_GLANCE_TT_ANCHOR"] = "Point d'ancrage des infobulles",
+	["CO_HIDE_EMPTY_MAP_BUTTON"] = "Cacher si aucun scan disponible",
 	["CO_LOCATION"] = "Paramètres de position",
 	["CO_LOCATION_ACTIVATE"] = "Activer la position du personnage",
 	["CO_LOCATION_ACTIVATE_TT"] = "Active la fonctionnalité de position du personnage, vous permettant de lancer un scan afin d'afficher sur la carte les autres utilisateurs de Total RP ayant activé cette fonctionnalité. Cela leur permet aussi de vous scanner.",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP"] = "Désactiver le scan si PvP",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP_TT"] = [=[Vous ne répondrez pas aux requêtes de positions de personnages si vous êtes en mode PvP.
+
+Cette option est particulièrement utile pour éviter les abus du système pour vous traquer.]=],
 	["CO_LOCATION_DISABLE_OOC"] = "Désactiver le scan si HRP",
 	["CO_LOCATION_DISABLE_OOC_TT"] = "Vous ne répondrez pas aux requêtes de positions de personnages si vous êtes en statut HRP.",
 	["CO_LOCATION_DISABLE_PVP"] = "Désactiver le scan si PvP",
@@ -4186,6 +4329,12 @@ Vos profils, les profils de vos compagnons et vos préférences seront temporair
 	["DB_STATUS_CURRENTLY_OOC"] = "Autres informations (HRP)",
 	["DB_STATUS_CURRENTLY_OOC_TT"] = "Vous pouvez indiquer ici quelque chose d'important sur vous, le joueur, ou autre chose hors de votre personnage.",
 	["DB_STATUS_CURRENTLY_TT"] = "Vous pouvez indiquer ici quelque chose d'important sur votre personnage.",
+	["DB_STATUS_ICON_ITEM"] = "%1$s %2$s",
+	["DB_STATUS_LC"] = "Langage de jeu de rôle",
+	["DB_STATUS_LC_DEFAULT"] = "Par défaut (%1$s)",
+	["DB_STATUS_LC_TT"] = [=[Règle votre langage de jeu de rôle préféré. Ce réglage sera partagé avec les autres utilisateurs d'addons RP compatibles.
+
+|cffff9900Note:|r Ceci ne change |cffff0000pas|r le langage de l'interface de Total RP 3. Cette option peut être trouvée dans la page de |cfffff569Paramètres avancés|r.]=],
 	["DB_STATUS_RP"] = "Statut du personnage",
 	["DB_STATUS_RP_EXP"] = "Rôliste confirmé",
 	["DB_STATUS_RP_EXP_TT"] = [=[Montre que vous êtes un rôliste confirmé.
@@ -4927,6 +5076,13 @@ Si vous souhaitez signaler le profil de %s comme enfreignant le Code de Conduite
 	["REG_TT_TARGET"] = "Cible: |cffff9900%s",
 	["SCRIPT_ERROR"] = "Erreur dans le script.",
 	["SCRIPT_UNKNOWN_EFFECT"] = "Erreur dans le script, effet inconnu.",
+	["SLASH_CMD_STATUS_HELP"] = [=[Usage: |cff00ff00/trp3 status ic || ooc || toggle|r
+Change le statut de votre personnage en fonction de l'option spécifiée:
+
+|cffff9900/trp3 status ic|r met votre personnage en |cff00ff00RP|r.
+|cffff9900/trp3 status ooc|r met votre personnage en |cffff0000HRP|r.
+|cffff9900/trp3 status toggle|r change votre statut pour le statut opposé.]=],
+	["SLASH_CMD_STATUS_USAGE"] = "ic || ooc || toggle",
 	["TB_AFK_MODE"] = "Absent",
 	["TB_DND_MODE"] = "Ne pas déranger",
 	["TB_GO_TO_MODE"] = "Passer en mode %s",
@@ -4977,7 +5133,7 @@ Si vous souhaitez signaler le profil de %s comme enfreignant le Code de Conduite
 
 {h2}{icon:THUMBUP:20} Remerciements{/h2}
 {col:ffffff}Les logos et icône de la carte ont été réalisés par:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Notre équipe de test:{/col}
 - Erzan
@@ -5125,7 +5281,43 @@ Nous sommes au courant d'un bug depuis le patch 8.2 bloquant parfois **l'utilisa
 
 ## Modifié
 
-- Lors d'un scan de personnages sur la carte, les personnages avec lesquels vous avez une relation apparaîtront désormais au-dessus des autres.]=]
+- Lors d'un scan de personnages sur la carte, les personnages avec lesquels vous avez une relation apparaîtront désormais au-dessus des autres.]=],
+	["WHATS_NEW_23_6"] = [=[
+# Liste des changements de la version 1.6.6
+
+## Ajouté
+
+- Ajout de commandes pour changer votre statut roleplay, utilisables dans des macros. Vous pouvez désormais utiliser `/trp3 status ic` pour passer RP, `/trp3 status ooc` pour passer HRP, ou `/trp3 status toggle` pour inverser votre statut.
+- Ajout d'un paramètre de discussion pour afficher un indicateur HRP à côté du nom dans la fenêtre de discussion.
+- Ajout d'un paramètre pour cacher de bouton de scan de la carte si aucun scan n'est disponible.
+- Ajout d'un champ de langage de jeu de rôle sur la fenêtre principale.
+  - Ce paramètre est défini par profil, choisit le langage de l'addon par défaut, et vous permet d'indiquer la langage dans lequel vous effectuez du jeu de rôle.
+  - Si le langage de votre addon ne correspond pas au langage de jeu de rôle d'un autre joueur, un drapeau en bas de l'infobulle indique leur langage de jeu de rôle.
+  - Ce changement est principalement destiné aux rôlistes sur Classic, du fait de l'absence de serveurs RP non-anglais.
+- Ajout de boutons pour changer l'affichage des casques et capes pour Classic.
+
+## Modifié
+
+- Le paramètre de mode de guerre a été renommé pour Classic pour référencer le mode PvP.
+
+## Corrigé
+
+- Correction de problèmes lorsque le module de fenêtre de cible était désactivé.
+- Correction d'un bug causant l'apparition de profils Mary-Sue Protocol en double dans le registre en désélectionnant "Ce royaume uniquement".
+- Correction de quelques icônes manquantes sur Classic (icônes par défaut du modèle 3, icônes pour `/trp3 roll`)
+- Correction d'un bug avec l'utilisation du paramètre "Clic droit pour ouvrir un profil" sur Classic.
+
+]=],
+	["WHATS_NEW_23_7"] = [=[# Liste des changements de la version 1.6.7
+
+## Ajouté
+
+- Ajout d'un paramètre de détection de dialogue dans les emotes pour les colorer automatiquement.
+- Ajout de 7 icones et 1 musique du patch 8.2.5.
+
+## Modifié
+
+- La liste de profils de compagnons accessible via la fenêtre de cible est désormais triée par ordre alphabétique, et "Créer nouveau profil" a été déplacé hors de cette liste.]=]
 }
 
 TRP3_API.loc:RegisterNewLocale("frFR", "Français", localeContent);
@@ -6306,7 +6498,7 @@ Si quieres denunciar el perfil de %s y no puedes marcarlo como objetivo tendrás
 
 {h2}{icon:THUMBUP:20} Reconocimientos{/h2}
 {col:ffffff}Logo e icono del botón del minimapa:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Nuestro equipo PR pre-alpha:{/col}
 - Saelora
@@ -6410,7 +6602,7 @@ El registro también tiene una casilla de verificación para solo mostrar aquell
 - Se ha eliminado el código de April Fool's (incluido el olvidado arcoíris en los nombres de compañero).]=]
 }
 
-TRP3_API.loc:RegisterNewLocale("esES", "Español", localeContent);
+TRP3_API.loc:RegisterNewLocale("esES", "Español (EU)", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "Acerca de",
@@ -6942,7 +7134,7 @@ Por ejemplo podría ser |c0000ff00delgado, gordo o musculoso...|r ¡O simplement
 	["UI_TUTO_BUTTON_TT"] = "Haz clic para activar/desactivar el modo tutorial"
 }
 
-TRP3_API.loc:RegisterNewLocale("esMX", "Español (Latin American)", localeContent);
+TRP3_API.loc:RegisterNewLocale("esMX", "Español (AL)", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "Di",
@@ -7444,7 +7636,7 @@ Ci sono diverse maniere per farlo:|c0000ff00
 	["UI_MUSIC_SELECT"] = "Seleziona musica"
 }
 
-TRP3_API.loc:RegisterNewLocale("itIT", "Italian", localeContent);
+TRP3_API.loc:RegisterNewLocale("itIT", "Italiano", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "약",
@@ -7486,7 +7678,7 @@ localeContent = {
 	["GEN_WELCOME_MESSAGE"] = "Total RP 3 (v %s)를 사용하여 주셔서 감사합니다! 재미를!"
 }
 
-TRP3_API.loc:RegisterNewLocale("koKR", "Korean", localeContent);
+TRP3_API.loc:RegisterNewLocale("koKR", "한국어", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "Sobre",
@@ -8492,7 +8684,7 @@ Por exemplo, ele pode ser |c0000ff00esbelto, gordo ou musculoso...|r. Ou ele pod
 
 {h2}{icon:THUMBUP:20} Reconhecimentos{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Nossa equipe de QA do pré-alpha:{/col}
 - Saelora
@@ -8544,7 +8736,7 @@ O Total RP não é responsável por links que levem a conteúdo nocivo.
 	["UI_TUTO_BUTTON_TT"] = "Clique para ativar/desativar o modo tutorial"
 }
 
-TRP3_API.loc:RegisterNewLocale("ptBR", "Brazilian Portuguese", localeContent);
+TRP3_API.loc:RegisterNewLocale("ptBR", "Português", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = [=[О персонаже
@@ -8598,6 +8790,7 @@ localeContent = {
 	["CM_CANCEL"] = "Отмена",
 	["CM_CENTER"] = "Центр",
 	["CM_CLASS_DEATHKNIGHT"] = "Рыцарь Смерти",
+	["CM_CLASS_DEMONHUNTER"] = "Охотник на Демонов",
 	["CM_CLASS_DRUID"] = "Друид",
 	["CM_CLASS_HUNTER"] = "Охотник",
 	["CM_CLASS_MAGE"] = "Маг",
@@ -8656,6 +8849,7 @@ localeContent = {
 	["CM_YELLOW"] = "Жёлтый",
 	["CO_ADVANCED_BROADCAST"] = "Канал чата",
 	["CO_ADVANCED_BROADCAST_CHANNEL_ALWAYS_LAST"] = "Переносить канал в конец списка",
+	["CO_ADVANCED_BROADCAST_CHANNEL_ALWAYS_LAST_TT"] = "Данная опция удостоверит то что общий канал чата всегда будет последним каналом в вашем списке каналов.",
 	["CO_ADVANCED_LANGUAGE_WORKAROUND"] = "Разрешить обход сброса языка.",
 	["CO_ADVANCED_LANGUAGE_WORKAROUND_TT"] = "С патча 8.0.1 игра меняет ваш выбранный язык на язык вашей фракции после каждого загрузочного экрана. Это решение позволит восстанавливать выбранный язык обратно после экрана загрузки.",
 	["CO_ADVANCED_LANGUAGES"] = "Языки",
@@ -8708,9 +8902,13 @@ localeContent = {
 	["CO_CHAT_MAIN_OOC_COLOR"] = "Цвет \"вне отыгрыша\"",
 	["CO_CHAT_MAIN_OOC_PATTERN"] = "Шаблон обнаружения \"вне отыгрыша\"",
 	["CO_CHAT_MAIN_OOC_USE"] = "Использовать обнаружение \"вне отыгрыша\"",
+	["CO_CHAT_MAIN_SPEECH"] = "Обнаружение речи",
+	["CO_CHAT_MAIN_SPEECH_USE"] = "Использовать обнаружение речи",
+	["CO_CHAT_MAIN_SPEECH_USE_TT"] = "Текст в кавычках будет иметь тот же цвет какой был бы при использовании /сказать.",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT"] = "Кастомизировать имя компаньона в речи НИП",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT_TT"] = "Если имя компаньона есть в речи НИП, оно будет окрашено и его иконка будет отображаться согласно от ваших настроек выше.",
 	["CO_CHAT_REMOVE_REALM"] = "Не отображать название мира в именах персонажей",
+	["CO_CHAT_SHOW_OOC"] = "Показать индикатор Вне Роли",
 	["CO_CHAT_USE"] = "Используемые каналы чата",
 	["CO_CHAT_USE_ICONS"] = "Отображать значки игроков",
 	["CO_CHAT_USE_SAY"] = "Канал /сказать",
@@ -8760,9 +8958,12 @@ localeContent = {
 	["CO_GLANCE_PRESET_TRP3_HELP"] = "Ярлык для установки панели в стиле TRP3: снизу от рамки цели TRP3.",
 	["CO_GLANCE_RESET_TT"] = "Сбросить позиционирование панели вниз влево от закрепленной рамки.",
 	["CO_GLANCE_TT_ANCHOR"] = "Точка закрепления подсказок",
+	["CO_HIDE_EMPTY_MAP_BUTTON"] = "Скрыть когда нет доступных сканов",
 	["CO_LOCATION"] = "Настройки местоположения",
 	["CO_LOCATION_ACTIVATE"] = "Активировать местоположение персонажа",
 	["CO_LOCATION_ACTIVATE_TT"] = "Активирование местоположение персонажа позволит Вам сканировать и обнаруживать на карте других пользователей Total RP, и так же позволит другим пользователям найти Вас.",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP"] = "Отключить локацию когда включен PvP режим",
+	["CO_LOCATION_DISABLE_CLASSIC_PVP_TT"] = "Вы не будете реагировать на запросы локации от других игроков когда вы отмечены для PvP. Эта опция частично полезна для избежания злоупотребления системы локации для вашего отслеживания.",
 	["CO_LOCATION_DISABLE_OOC"] = "Отключить местоположение персонажа вне отыгрыша",
 	["CO_LOCATION_DISABLE_OOC_TT"] = "Другие игроки не смогут отследить Ваше местоположение с помощью сканирования карты, пока активен статус \"Вне отыгрыша\".",
 	["CO_LOCATION_DISABLE_PVP"] = "Отключить местоположение персонажа пока активен режим PvP",
@@ -8915,10 +9116,14 @@ localeContent = {
 	["DB_NEW"] = "Что нового?",
 	["DB_STATUS"] = "Статус",
 	["DB_STATUS_CURRENTLY"] = "Текущее (Отыгрываю)",
-	["DB_STATUS_CURRENTLY_COMMON"] = "Эти статусы будут показаны в подсказке вашего персонажа. Делайте их краткими, так как |cffff9900by по умолчанию игроки с TRP3 будут видеть только первые 140 символов",
+	["DB_STATUS_CURRENTLY_COMMON"] = "Эти статусы будут показаны в подсказке вашего персонажа. Делайте их краткими, так как |cffff9900по умолчанию игроки с TRP3 будут видеть только первые 140 символов!",
 	["DB_STATUS_CURRENTLY_OOC"] = "Другая информация (Вне отыгрыша)",
 	["DB_STATUS_CURRENTLY_OOC_TT"] = "Здесь вы можете указать что-то важное о вас, как игроке, или что-нибудь еще вне отыгрыша.",
 	["DB_STATUS_CURRENTLY_TT"] = "Здесь вы можете указать что-нибудь важное о вашем персонаже.",
+	["DB_STATUS_ICON_ITEM"] = "%1$s %2$s",
+	["DB_STATUS_LC"] = "Язык ролевой игры",
+	["DB_STATUS_LC_DEFAULT"] = "По умолчанию (%1$s)",
+	["DB_STATUS_LC_TT"] = "Устанавливает ваш предпочитаемый язык ролевой игры. Эта информация будет доступна другим пользователям совместимых ролевых аддонов.  |cffff9900Заметка:|r Это |cffff0000не|r меняет язык интерфейса Total RP 3. Данная опция может быть найдена на странице |cfffff569Расширенных Настроек|r.",
 	["DB_STATUS_RP"] = "Статус персонажа",
 	["DB_STATUS_RP_EXP"] = "Опытный ролевик",
 	["DB_STATUS_RP_EXP_TT"] = [=[Показывает, что вы опытный ролевик.
@@ -8992,6 +9197,7 @@ localeContent = {
 | cffffff00 Мы настоятельно рекомендуем вам использовать актуальную версию.
 
 Это сообщение будет появляться только один раз за сеанс, его можно отключить в настройках (Общие настройки => Разное).]=],
+	["NEW_VERSION_BEHIND"] = "Вы на данный момент отстаёте на %s версия и пропускаете множество исправлений багов и новых возможностей. Другие игроки могут не видеть ваш профиль корректно. Пожалуйста, подумайте обновить аддон.",
 	["NEW_VERSION_TITLE"] = "Доступно новое обновление",
 	["NPC_TALK_BUTTON_TT"] = "Открыт окно речи НИП позволяющее вам использовать речь и эмоции НИП.",
 	["NPC_TALK_CHANNEL"] = "Канал:",
@@ -9262,7 +9468,7 @@ Link it anyway ?]=],
 	["REG_PLAYER_ABOUT_MUSIC_THEME"] = "Музыкальная тема персонажа",
 	["REG_PLAYER_ABOUT_NOMUSIC"] = "|cffff9900Тема не выбрана",
 	["REG_PLAYER_ABOUT_P"] = "Метка абзаца",
-	["REG_PLAYER_ABOUT_REMOVE_FRAME"] = "Удалить рамку",
+	["REG_PLAYER_ABOUT_REMOVE_FRAME"] = "Удалить окно",
 	["REG_PLAYER_ABOUT_SOME"] = "Текст ...",
 	["REG_PLAYER_ABOUT_T1_YOURTEXT"] = "Вставьте Ваш текст",
 	["REG_PLAYER_ABOUT_TAGS"] = "Инструменты форматирования",
@@ -9466,6 +9672,8 @@ Link it anyway ?]=],
 
 | C00ffff00Правым кликом мыши, вы можете легко установить текущее местоположение на карте в качестве резиденции.]=],
 	["REG_PLAYER_RIGHTTRAIT"] = "Правая черта",
+	["REG_PLAYER_SHOWMISC"] = "Показывать рамку разного",
+	["REG_PLAYER_SHOWMISC_TT"] = "Пометьте если вы хотите отображать пользовательские поля для вашего персонажа. Если вы не хотите отображать пользовательские поля, оставьте коробочку непомеченой и рамка разного останется абсолютно скрытой.",
 	["REG_PLAYER_SHOWPSYCHO"] = "Отображать рамку характера",
 	["REG_PLAYER_SHOWPSYCHO_TT"] = [=[Выберите если вы хотите использовать описание характера.
 
@@ -9526,7 +9734,10 @@ Link it anyway ?]=],
 
 |cff00ff00Совет: Вы можете drag & drop позиции для изменения сортировки.|r
 Так же работает в |cffffff00"На первый взгляд" блоке|r!]=],
-	["REG_PLAYER_TUTO_ABOUT_MISC_3"] = "Эта секция содержит |cffffff00список переключателей,|r чтобы ответить на|cffffff00частозадаваемые вопросы о вас, вашем персонаже иособенностях игры за него/нее|r.",
+	["REG_PLAYER_TUTO_ABOUT_MISC_3"] = "Эта секция содержит |cffffff00список переключателей,|r чтобы ответить на |cffffff00часто задаваемые вопросы о вас, вашем персонаже иособенностях игры за него/нее|r.",
+	["REG_PLAYER_TUTO_ABOUT_T1"] = "Данный шаблон позволяет вам |cff00ff00свободно обустраивать своё описание|r. Описание не обязано быть ограниченным |cffff9900физическим описанием|r вашего персонажа. Не стесняйтесь отмечать части его |cffff9900биографии|r или детали его |cffff9900характера|r. С этим шаблоном вы можете использовать инструменты форматирования для доступка к некоторым параметрам отображения вроде |cffffff00размеов текста, цветов и выравнивания|r. Эти инструменты так же позволяет вам вставлять |cffffff00изображения, иконки или ссылки на внешние веб сайты|r.",
+	["REG_PLAYER_TUTO_ABOUT_T2"] = "Этот шаблон более структурированный и состоит из |cff00ff00списка независимых окон|r. Каждое окно характеризуется |cffffff00иконкой, фоном и текстом|r. Заметьте что вы можете использовать некоторые текстовые ярлыки в этих окнах, вроде текстовых ярлыков цвета и иконок. Описание не должно быть ограниченным |cffff9900физическим описанием|r вашего персонажа. Не стесняйтесь отмечать части его |cffff9900биографии|r или детали про его |cffff9900характер|r.",
+	["REG_PLAYER_TUTO_ABOUT_T3"] = "Этот шаблон разделён на 3 секции:  |cff00ff00Физическое описание, характер и история|r. Вы не обязаны заполнять все окна, |cffff9900если вы оставите окно пустым оно не будет отображаться в вашем описании|r. Каждое окно характеризуется |cffffff00иконкой, фоном и текстом|r. Заметьте что вы можете использовать некоторые текстовые ярлыки в этих окнах, вроде текстовых ярлыков цвета и иконок.",
 	["REG_PLAYER_WEIGHT"] = "Телосложение",
 	["REG_PLAYER_WEIGHT_TT"] = [=[Это форма тела вашего персонажа.
 К примеру, она может быть |c0000ff00slim, толстый или мускулистый...|r Или она просто может быть обычной!]=],
@@ -9568,6 +9779,8 @@ Link it anyway ?]=],
 	["REG_TT_TARGET"] = "Цель: |cffff9900%s",
 	["SCRIPT_ERROR"] = "Ошибка в скрипте.",
 	["SCRIPT_UNKNOWN_EFFECT"] = "Ошибка скрипта, неизвестный FX",
+	["SLASH_CMD_STATUS_HELP"] = "Использование:  |cff00ff00/trp3 status ic || ooc || toggle|r Меняет ваш статус персонажа на выбранную опцию:  |cffff9900/trp3 status ic|r установит ваш статус на |cff00ff00в роли|r.  |cffff9900/trp3 status ooc|r установит ваш статус на |cffff0000вне роли|r. |cffff9900/trp3 status toggle|r поменяет ваш статус на противоположное состояние.",
+	["SLASH_CMD_STATUS_USAGE"] = "ic || ooc || toggle",
 	["TB_AFK_MODE"] = "Отсутствует",
 	["TB_DND_MODE"] = "Не беспокоить",
 	["TB_GO_TO_MODE"] = "Переключить в статус %s ",
@@ -9648,7 +9861,7 @@ Total RP не несет ответственности, если ссылка �
 	["UI_TUTO_BUTTON_TT"] = "Нажмите, чтобы включить/выключить режим обучения"
 }
 
-TRP3_API.loc:RegisterNewLocale("ruRU", "Russian", localeContent);
+TRP3_API.loc:RegisterNewLocale("ruRU", "Pусский", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "关于",
@@ -10847,7 +11060,7 @@ Total RP不对导致有害内容的链接负责。]=],
 	["UI_TUTO_BUTTON_TT"] = "点击打开/关闭教程模式"
 }
 
-TRP3_API.loc:RegisterNewLocale("zhCN", "Simplified Chinese", localeContent);
+TRP3_API.loc:RegisterNewLocale("zhCN", "简体中文", localeContent);
 
 localeContent = {
 	["ABOUT_TITLE"] = "關於",
@@ -11630,7 +11843,7 @@ localeContent = {
 
 {h2}{icon:THUMBUP:20} 感謝{/h2}
 {col:ffffff}Logo 與小地圖按鈕:{/col}
-- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
+- {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}準預覽版本測試團隊：{/col}
 %TESTERS$s
@@ -11683,7 +11896,7 @@ localeContent = {
 	["UI_TUTO_BUTTON_TT"] = "點擊以開啟／關閉教學模式"
 }
 
-TRP3_API.loc:RegisterNewLocale("zhTW", "Traditional Chinese", localeContent);
+TRP3_API.loc:RegisterNewLocale("zhTW", "繁體中文", localeContent);
 
 local Locale = {};
 TRP3_API.Locale = Locale;

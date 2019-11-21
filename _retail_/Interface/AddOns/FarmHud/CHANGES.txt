@@ -1,12 +1,12 @@
-tag f18e10825fcff92681e21410c1e5a24d9f866a09 8.2-1-release
+tag e120e1e982a903dbea22f9b40ad8c7ca0ba52f0c 8.3-3-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Fri Aug 30 15:18:40 2019 +0200
+Date:	Tue Nov 19 17:21:41 2019 +0100
 
-Tagging as 8.2-1-release
+Tagging as 8.3-3-release
 
-commit 0c5e0c6fb73633f3b9151f1a021afb4d46414627
+commit 7955f7b56038e6b2fd82ca98f13873d248f8c1e8
 Author: Hizuro <hizuro@gmx.net>
-Date:   Fri Aug 30 15:16:51 2019 +0200
+Date:   Tue Nov 19 17:21:35 2019 +0100
 
-    added support for questie's customized lib HereBeDragon for classic
+    little bugfix. Sorry :-)
 

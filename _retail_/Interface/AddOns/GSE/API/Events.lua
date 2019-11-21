@@ -25,7 +25,14 @@ function GSE.TraceSequence(button, step, task)
     else
       manaOutput =  GSEOptions.CommandColour .. "Resources Available" .. Statics.StringReset
     end
-    local castingspell, _, _, _, _, _, castspellid, _ = UnitCastingInfo("player")
+    local castingspell, castspellid
+
+    if GSE.GameMode == 1 then
+      print(CastingInfo())
+      castingspell, _, _, _, _, _, castspellid, _ = CastingInfo()
+    else
+      castingspell, _, _, _, _, _, castspellid, _ = UnitCastingInfo("player")
+    end
     if not GSE.isEmpty(castingspell) then
       CastingOutput = GSEOptions.UNKNOWN .. "Casting " .. castingspell .. Statics.StringReset
     else
@@ -243,6 +250,10 @@ function GSE:PLAYER_SPECIALIZATION_CHANGED()
   GSE.ReloadSequences()
 end
 
+function GSE:PLAYER_LEVEL_UP()
+  GSE.ReloadSequences()
+end
+
 function GSE:GROUP_ROSTER_UPDATE(...)
   -- Serialisation stuff
   GSE.sendVersionCheck()
@@ -266,6 +277,7 @@ GSE:RegisterEvent('ADDON_LOADED')
 GSE:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED')
 GSE:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 GSE:RegisterEvent("UNIT_FACTION")
+GSE:RegisterEvent("PLAYER_LEVEL_UP")
 
 local function PrintGnomeHelp()
   GSE.Print(L["GnomeSequencer was originally written by semlar of wowinterface.com."], GNOME)
@@ -362,7 +374,6 @@ end
 function GSE:processReload(action, arg)
   if arg == "Samples" then
     GSE.LoadSampleMacros(GSE.GetCurrentClassID())
-    GSE.Print(L["The Sample Macros have been reloaded."])
   end
 end
 

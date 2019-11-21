@@ -115,7 +115,6 @@ L.ShowGuildMessages 		= "Mostra messaggi ingaggio/vittoria/disfatta per i raid d
 L.ShowGuildMessagesPlus		= "Mostra inoltre i messaggi ingaggio/vittoria/disfatta Mitiche+ per i gruppi di gilda (richiede opzione incursione)"
 L.WhisperMessages			= "Opzioni Sussurri"
 L.AutoRespond 				= "Rispondi automaticamente ai sussurri mentre stai combattendo"
-L.EnableStatus 				= "Rispondi ai sussurri con lo stato del combattimento"
 L.WhisperStats 				= "Nelle risposte ai sussurri, aggiungi le informazioni su uccisioni e sconfitte."
 L.DisableStatusWhisper 		= "Disabilita sussurri stato per il gruppo (richiede Capoincursione). Solo per incursioni normale/eroico/mitico e spedizioni mitiche+"
 L.DisableGuildStatus 		= "Disabilita messaggi di progresso alla gilda per il gruppo (richiede Capoincursione)."
@@ -222,7 +221,7 @@ L.SpecialWarnSound5			= "Suono predefinito per accisi speciali con note contenen
 
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Avvisi Parlati"
-L.Area_VoiceSelection		= "Selezioni Voce (scorri i menu con la rotellina)"
+L.Area_VoiceSelection		= "Selezioni Voce"
 L.CountdownVoice			= "Prima Voce conto alla rovescia"
 L.CountdownVoice2			= "Seconda Voce conto alla rovescia"
 L.CountdownVoice3			= "Terza Voce conto alla rovescia"
@@ -250,7 +249,6 @@ L.EventWipeSound			= "Suono riprodotto alla disfatta"
 L.EventEngageSound			= "Suono riprodotto all'ingaggio"
 L.EventDungeonMusic			= "Musica riprodotta nelle spedizioni/incursioni"
 L.EventEngageMusic			= "Musica riprodotta negli scontri"
-L.EventTurtleMusic			= "Musica riprodotta nelle missioni tartarughine"
 L.Area_EventSoundsExtras	= "Opzioni Eventi Sonori"
 L.EventMusicCombined		= "Permetti tutte le selezioni musicali nelle spedizioni e scontri (modificando l'opzione è necessario eseguire UIReload)"
 L.Area_EventSoundsFilters	= "Filtro Condizionale Eventi Sonori"
@@ -320,11 +318,6 @@ L.AfterFirst				= "Nelle istanze, dopo aver visto il filmato almeno una volta"
 L.Always					= "Sempre"
 L.CombatOnly				= "Disabilita in combattimento (qualunque)"
 L.RaidCombat				= "Disabilita in combattimento (solo boss)"
-L.HideBonusHeader			= "Nascondi riquadro tiro bonus in..."
-L.TrivialContent			= "Spedizioni NON-Mitiche" -- Basically anything below 340
-L.NormalRaider				= "Spedizioni Mitiche < 5 e incursioni LFR"--Basically, anything below 355
-L.HeroicRaider				= "Spedizioni Mitiche < 10, incursioni sotto eroico e boss fuori dal fronte" -- Basically anything below 370
-L.MythicRaider				= "Tutto al di sotto delle incursioni mitiche"--Basically anything below 385
 
 L.Panel_ExtraFeatures		= "Funzionalità Aggiuntive"
 --

@@ -50,6 +50,75 @@ print("Number of music files:", LibRPMedia:GetNumMusicFiles());
 -- Example output: "Number of music files: 192"
 ```
 
+#### `LibRPMedia:GetMusicDataByName(musicName[, target])`
+
+Returns data about a music file identified by its name.
+
+An optional second parameter (target) may be specified to control the type of data yielded by the query:
+
+* If a string is given, it must correspond to a field in the database, and will return the value associated with this music file for that field. Invalid field lookups will return `nil`.
+* If a table is given, all fields are collected into the given table and returned. The contents of the table are not wiped.
+* If nil is given, a table is created automatically, and all fields will be collected into it and returned.
+
+If the requested music file is not found within the database, `nil` is returned for all query types.
+
+##### Usage
+
+```lua
+local musicData = LibRPMedia:GetMusicDataByName("citymusic/darnassus/darnassus intro");
+local musicFile = LibRPMedia:GetMusicDataByName("citymusic/darnassus/darnassus intro", "file");
+
+assert(musicData.file == musicFile);
+print("Music file ID:", musicFile);
+-- Example output: "Music file ID: 53183"
+```
+
+#### `LibRPMedia:GetMusicDataByFile(musicName[, target])`
+
+Returns data about a music file identified by its file ID.
+
+An optional second parameter (target) may be specified to control the type of data yielded by the query:
+
+* If a string is given, it must correspond to a field in the database, and will return the value associated with this music file for that field. Invalid field lookups will return `nil`.
+* If a table is given, all fields are collected into the given table and returned. The contents of the table are not wiped.
+* If nil is given, a table is created automatically, and all fields will be collected into it and returned.
+
+If the requested music file is not found within the database, `nil` is returned for all query types.
+
+##### Usage
+
+```lua
+local musicData = LibRPMedia:GetMusicDataByFile(53183);
+local musicName = LibRPMedia:GetMusicDataByFile(53183, "name");
+
+assert(musicData.name == musicName);
+print("Music name:", musicName);
+-- Example output: "Music name: citymusic/darnassus/darnassus intro"
+```
+
+#### `LibRPMedia:GetMusicDataByIndex(musicIndex[, target])`
+
+Returns data about a music file identified by its numeric index inside the database, in the range of 1 through the result of `LibRPMedia:GetNumMusicFiles()`.
+
+An optional second parameter (target) may be specified to control the type of data yielded by the query:
+
+* If a string is given, it must correspond to a field in the database, and will return the value associated with this music file for that field. Invalid field lookups will return `nil`.
+* If a table is given, all fields are collected into the given table and returned. The contents of the table are not wiped.
+* If nil is given, a table is created automatically, and all fields will be collected into it and returned.
+
+If the requested music file is not found within the database, `nil` is returned for all query types.
+
+##### Usage
+
+```lua
+local musicData = LibRPMedia:GetMusicDataByIndex(1);
+local musicFile = LibRPMedia:GetMusicDataByIndex(1, "file");
+
+assert(musicData.file == musicFile);
+print("Music file ID:", musicFile);
+-- Example output: "Music file ID: 53183"
+```
+
 #### `LibRPMedia:GetMusicFileByName(musicName)`
 
 Returns the file ID associated with a given name or file path.
@@ -231,6 +300,52 @@ print("Number of icons:", LibRPMedia:GetNumIcons());
 -- Example output: "Number of icons: 20974"
 ```
 
+#### `LibRPMedia:GetIconDataByName(iconName[, target])`
+
+Returns data about an icon identified by its name.
+
+An optional second parameter (target) may be specified to control the type of data yielded by the query:
+
+* If a string is given, it must correspond to a field in the database, and will return the value associated with this icon for that field. Invalid field lookups will return `nil`.
+* If a table is given, all fields are collected into the given table and returned. The contents of the table are not wiped.
+* If nil is given, a table is created automatically, and all fields will be collected into it and returned.
+
+If the requested icon is not found within the database, `nil` is returned for all query types.
+
+##### Usage
+
+```lua
+local iconData = LibRPMedia:GetIconDataByName("ability-ambush");
+local iconName = LibRPMedia:GetIconDataByName("ability-ambush", "name");
+
+assert(iconData.name == iconName);
+print("Icon name:", iconName);
+-- Example output: "Icon name: ability-ambush"
+```
+
+#### `LibRPMedia:GetIconDataByIndex(iconIndex[, target])`
+
+Returns data about an icon identified by its numeric index inside the database, in the range of 1 through the result of `LibRPMedia:GetNumIcons()`.
+
+An optional second parameter (target) may be specified to control the type of data yielded by the query:
+
+* If a string is given, it must correspond to a field in the database, and will return the value associated with this icon for that field. Invalid field lookups will return `nil`.
+* If a table is given, all fields are collected into the given table and returned. The contents of the table are not wiped.
+* If nil is given, a table is created automatically, and all fields will be collected into it and returned.
+
+If the requested icon is not found within the database, `nil` is returned for all query types.
+
+##### Usage
+
+```lua
+local iconData = LibRPMedia:GetIconDataByIndex(1);
+local iconName = LibRPMedia:GetIconDataByIndex(1, "name");
+
+assert(iconData.name == iconName);
+print("Icon name:", iconName);
+-- Example output: "Icon name: ability-ambush"
+```
+
 #### `LibRPMedia:GetIconNameByIndex(iconIndex)`
 
 Returns the name of an icon by its given index within the database, in the range of 1 through the result of `LibRPMedia:GetNumIcons()`. Queries outside of this range will return `nil`.
@@ -244,6 +359,19 @@ print("Icon Name #1:", LibRPMedia:GetIconNameByIndex(1));
 -- Example output: "Icon Name #1: ability_ambush"
 ```
 
+#### `LibRPMedia:GetIconFileByIndex(iconIndex)`
+
+Returns the file ID of an icon by its given index within the database, in the range of 1 through the result of `LibRPMedia:GetNumIcons()`. Queries outside of this range will return `nil`.
+
+Icon indices are not stable and may result in different data being returned between upgrades to the library. It is recommended to persist icons via their name and instead query via the `GetIcon<X>ByName` functions where possible.
+
+##### Usage
+
+```lua
+print("Icon File ID #1:", LibRPMedia:GetIconFileByIndex(1));
+-- Example output: "Icon File ID #1: 1044087"
+```
+
 #### `LibRPMedia:GetIconTypeByIndex(iconIndex)`
 
 Returns the type of an icon by its given index within the database, in the range of 1 through the result of `LibRPMedia:GetNumIcons()`. Queries outside of this range will return `nil`, otherwise a value present in the `LibRPMedia.IconType` enumeration is returned.
@@ -255,6 +383,17 @@ Icon indices are not stable and may result in different data being returned betw
 ```lua
 print("Icon Type #1:", LibRPMedia:GetIconTypeByIndex(1));
 -- Example output: "Icon Type #1: 1"
+```
+
+#### `LibRPMedia:GetIconFileByName(iconName)`
+
+Returns the file ID of an icon keyed by its name within the database. If the given icon name cannot be found `nil` is returned.
+
+##### Usage
+
+```lua
+print("Icon File ID:", LibRPMedia:GetIconFileByName("raceicon-dwarf-female"));
+-- Example output: "Icon File ID: 1662186"
 ```
 
 #### `LibRPMedia:GetIconTypeByName(iconName)`

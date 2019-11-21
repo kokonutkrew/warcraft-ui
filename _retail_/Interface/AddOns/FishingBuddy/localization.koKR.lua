@@ -189,6 +189,8 @@ FishingTranslations["koKR"] = {
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SECRET_FISHING_GOGGES_INFO"] = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",--]] 
 	--[[Translation missing --]]
+	--[[ ["CONFIG_SECRET_FISHING_GOGGLES_INFO"] = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",--]] 
+	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_INFO"] = "If enabled, show the #NAME# banner on login.",--]] 
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_ONOFF"] = "Show banner",--]] 
@@ -272,6 +274,8 @@ FishingTranslations["koKR"] = {
 	--[[Translation missing --]]
 	--[[ ["FISHDATARESETMORE_MSG"] = "Run |c#GREEN#/fb #FISHDATA# #RESET#|r one more time to reset fish location data.",--]] 
 	--[[Translation missing --]]
+	--[[ ["FISHING_SKILL"] = "Fishing",--]] 
+	--[[Translation missing --]]
 	--[[ ["FISHINGMODE"] = "fishing",--]] 
 	["FISHINGMODE_HELP"] = "|c#GREEN#/fb #FISHINGMODE# [start|stop]|r#BRSPCS# #NAME# 낚시 실행:#BRSPCS#'/cast Fishing'와 함께 사용하면 유용한 매크로입니다.",
 	["FISHTYPES"] = "물고기 종류: %d",
@@ -294,6 +298,7 @@ FishingTranslations["koKR"] = {
 	["LEFTCLICKTODRAG"] = "좌클릭으로 이동",
 	["LOCATIONS_INFO"] = "장소나 종류 별로 물고기를 잡은 장소를 보여줍니다.",
 	["LOCATIONS_TAB"] = "위치",
+	["LURE_NAME"] = "낚시용 미끼",
 	["MACRONAME"] = "낚시 도움이",
 	["MINIMAPBUTTONPLACEMENT"] = "버튼 위치",
 	["MINIMAPBUTTONPLACEMENTTOOLTIP"] = "#NAME# 의 미니맵 버튼의 위치를 변경할 수 있습니다.",

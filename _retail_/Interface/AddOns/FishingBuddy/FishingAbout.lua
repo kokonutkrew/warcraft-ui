@@ -122,7 +122,10 @@ credits[FBConstants.ROLE_HELP_BUGS] = {
     ["chadcloman"] = { "Most detailed bug ever!", },
     ["robgha01"] = { "No pets bug" },
     ["bolerro619"] = { "Titan and Broker issues" },
-    ["Seamhas"] = { "Much help with rafts." },
+	["Seamhas"] = { "Much help with rafts." },
+	["Globe"] = { "https://www.townlong-yak.com/globe"},
+	["Zwixx"] = { "Help with Classic skill fix" },
+	["PierrotIV"] = { "Help with Classic skill fix" },
 };
 
 -- Ideas and suggestions

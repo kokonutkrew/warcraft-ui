@@ -7,7 +7,6 @@ local _
 
 local FL = LibStub("LibFishing-1.0");
 local LO = LibStub("LibOptionsFrame-1.0");
-local LEW = LibStub("LibEventWindow-1.0");
 
 local zmto = FishingBuddy.ZoneMarkerTo;
 local zmex = FishingBuddy.ZoneMarkerEx;
@@ -592,7 +591,7 @@ FishingBuddy.AddZoneIndex = AddZoneIndex;
 -- User interface handling
 local function IsRareFish(id, forced)
 	-- always skip extravaganza fish
-	if ( FishingBuddy.Extravaganza.Fish[id] ) then
+	if ( FishingBuddy.Extravaganza and FishingBuddy.Extravaganza.Fish[id] ) then
 		return true;
 	end
 	return ( not forced and QuestItems[id] );

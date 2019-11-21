@@ -1,3 +1,19 @@
+## Changelog for version 3.1.3
+
+### Fixed
+
+- Fixed a Lua error related to patch 8.2.5 changes to the quests additional NPC portrait frame.
+
+## Changelog for version 3.1.2
+
+### Fixed
+
+- Updated the add-on to be fully compatible with patch 8.2.5, including fixing a change causing dialogs with multiple quests available to have the wrong text for the quest titles or to cause Lua errors.
+
+### Added
+
+- Added popup tutorial frames that will appear once to explain to new users some of the hard to discover behavior of Storyline. For now this includes scrolling on the list of dialog options when there are more available, and clicking on a reward to choose it.
+
 ## Changelog for version 3.1.1
 
 ### Fixed
@@ -8,7 +24,7 @@
 
 ### Added
 
-- Storyline will now display backgrounds specific for the zone you are currently in (from the pool of follower missions backgrounds). 
+- Storyline will now display backgrounds specific for the zone you are currently in (from the pool of follower missions backgrounds).
 - I was finally able to add the parchment object to the reading animation on the player model. Special thanks to Peterodox, developer of the [Narcissus add-on](https://www.curseforge.com/wow/addons/narcissus) for his help on this.
 
 

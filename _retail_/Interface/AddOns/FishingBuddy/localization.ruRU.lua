@@ -175,6 +175,8 @@ FishingTranslations["ruRU"] = {
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SECRET_FISHING_GOGGES_INFO"] = "If enabled, 'Fishing Without A Poel' will use 'Secret Fishing Goggles' first.",--]] 
 	--[[Translation missing --]]
+	--[[ ["CONFIG_SECRET_FISHING_GOGGLES_INFO"] = "If enabled, 'Fishing Without A Pole' will use 'Secret Fishing Goggles' first.",--]] 
+	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_INFO"] = "If enabled, show the #NAME# banner on login.",--]] 
 	--[[Translation missing --]]
 	--[[ ["CONFIG_SHOWBANNER_ONOFF"] = "Show banner",--]] 
@@ -258,6 +260,8 @@ FishingTranslations["ruRU"] = {
 	--[[Translation missing --]]
 	--[[ ["FISHDATARESETMORE_MSG"] = "Run |c#GREEN#/fb #FISHDATA# #RESET#|r one more time to reset fish location data.",--]] 
 	--[[Translation missing --]]
+	--[[ ["FISHING_SKILL"] = "Fishing",--]] 
+	--[[Translation missing --]]
 	--[[ ["FISHINGMODE"] = "fishing",--]] 
 	["FISHINGMODE_HELP"] = "|c#GREEN#/fb #FISHINGMODE# [старт|стоп]|r#BRSPCS#Бег #NAME# действия для рыбалки.#BRSPCS#Полезно в макросах вместе с '/cast Fishing'.",
 	["FISHTYPES"] = "Типы рыб: %d",
@@ -280,6 +284,8 @@ FishingTranslations["ruRU"] = {
 	["LEFTCLICKTODRAG"] = "[Левый-клик] - перемещение",
 	["LOCATIONS_INFO"] = "Отображает, где вы поймали рыбу по зоне или типу рыбы",
 	["LOCATIONS_TAB"] = "Расположение",
+	--[[Translation missing --]]
+	--[[ ["LURE_NAME"] = "Fishing Lure",--]] 
 	["MACRONAME"] = "Рыбалка",
 	["MINIMAPBUTTONPLACEMENT"] = "Размещение",
 	["MINIMAPBUTTONPLACEMENTTOOLTIP"] = "Позволяет перемещать иконку #NAME# у мини-карты",

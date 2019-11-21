@@ -115,7 +115,6 @@ L.ShowGuildMessages 		= "Show engage/kill/wipe messages for guild raids in chat 
 L.ShowGuildMessagesPlus		= "Also show Mythic+ engage/kill/wipe messages for guild groups (requires raid option)"
 L.WhisperMessages			= "Whisper Message Options"
 L.AutoRespond 				= "Auto-respond to whispers while fighting"
-L.EnableStatus 				= "Reply to 'status' whispers"
 L.WhisperStats 				= "Include kill/wipe stats in whisper responses"
 L.DisableStatusWhisper 		= "Disable status whispers for the entire group (requires Group Leader). Applies only to normal/heroic/mythic raids and mythic+ dungeons"
 L.DisableGuildStatus 		= "Disable progression messages from being sent to guild for entire group (requires Group Leader)."
@@ -222,7 +221,7 @@ L.SpecialWarnSound5			= "Set default sound for special warnings with notes conta
 
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Spoken Alerts"
-L.Area_VoiceSelection		= "Voice Selections (scroll selection menus with mouse wheel)"
+L.Area_VoiceSelection		= "Voice Selections"
 L.CountdownVoice			= "Set primary voice for count sounds"
 L.CountdownVoice2			= "Set secondary voice for count sounds"
 L.CountdownVoice3			= "Set tertiary voice for count sounds"
@@ -250,7 +249,6 @@ L.EventWipeSound			= "Set sound played for encounter wipe"
 L.EventEngageSound			= "Set sound played for encounter engage"
 L.EventDungeonMusic			= "Set music played inside dungeons/raids"
 L.EventEngageMusic			= "Set music played during encounters"
-L.EventTurtleMusic			= "Set music played during turtle beach quests"
 L.Area_EventSoundsExtras	= "Event Sound Options"
 L.EventMusicCombined		= "Allow all music choices in dungeon and encounter selections (changing this option requires UIReload to reflect changes)"
 L.Area_EventSoundsFilters	= "Event Sound Filter Conditions"
@@ -275,7 +273,7 @@ L.SpamBlockNoNameplateLines	= "Do not show Nameplate Aura lines (aura icons stil
 L.SpamBlockNoCountdowns		= "Do not play countdown sounds"
 L.SpamBlockNoYells			= "Do not send chat yells"
 L.SpamBlockNoNoteSync		= "Do not accept shared notes"
-L.SpamBlockNoReminders		= "Do not show any login, recommendation, or update messages (NOT recommended)"
+L.SpamBlockNoReminders		= "Do not show any login, recommendation, missing mod, or hotfix messages"
 
 L.Area_Restore				= "DBM Restore Options (Whether DBM restores previous user state when mods finish)"
 L.SpamBlockNoIconRestore	= "Do not save icon states and restore them on combat end"
@@ -320,11 +318,6 @@ L.AfterFirst				= "In instance, after each movie has played once"
 L.Always					= ALWAYS
 L.CombatOnly				= "Disable in combat (any)"
 L.RaidCombat				= "Disable in combat (bosses only)"
-L.HideBonusHeader			= "Hide bonus roll window in..."
-L.TrivialContent			= "NON-Mythic dungeons"--Basically anything below 340
-L.NormalRaider				= "Dungeons below Mythic+5 and LFR raids"--Basically, anything below 355
-L.HeroicRaider				= "Dungeons below Mythic+10 and raids below heroic and non warfront bosses"--Basically anything below 370
-L.MythicRaider				= "Anything below mythic difficulty raids"--Basically anything below 385
 
 L.Panel_ExtraFeatures		= "Extra Features"
 --

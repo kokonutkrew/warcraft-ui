@@ -644,11 +644,16 @@ local function CastingKeys()
     end
 end
 
+local function ReadyForFishing()
+    local GSB = FishingBuddy.GetSettingBool;
+    local id = FL:GetMainHandItem(true);
+    -- if we're holding the spear, assume we're fishing
+    return (GSB("UseTuskarrSpear") and (id == 88535)) or FL:IsFishingReady(GSB("PartialGear"));
+end
+FishingBuddy.ReadyForFishing = ReadyForFishing;
+
 local function CheckCastingKeys()
-    if FishingBuddy.ReadyForFishing() then
-        return FL:IsClassic() or (CastingKeys() or FishingBuddy.ActiveSetting("KeepOnTruckin") or ReadyForFishing());
-    end
-    return False
+    return CastingKeys() or FishingBuddy.ActiveSetting("KeepOnTruckin") or ReadyForFishing();
 end
 
 local QuestLures = {};
@@ -891,14 +896,6 @@ local function GetCurrentSpell()
     return current_spell_id;
 end
 FishingBuddy.GetCurrentSpell = GetCurrentSpell
-
-local function ReadyForFishing()
-    local GSB = FishingBuddy.GetSettingBool;
-    local id = FL:GetMainHandItem(true);
-    -- if we're holding the spear, assume we're fishing
-    return (GSB("UseTuskarrSpear") and (id == 88535)) or FL:IsFishingReady(GSB("PartialGear"));
-end
-FishingBuddy.ReadyForFishing = ReadyForFishing;
 
 local function NormalHijackCheck()
     local GSB = FishingBuddy.GetSettingBool;

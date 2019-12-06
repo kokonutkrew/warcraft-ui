@@ -1,7 +1,7 @@
 local addonName, ns = ...
 
 -- if we're on the developer version the addon behaves slightly different
-ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201911200600", nil, true)
+ns.DEBUG_MODE = not not (GetAddOnMetadata(addonName, "Version") or ""):find("v201912050600", nil, true)
 
 -- micro-optimization for more speed
 local unpack = unpack
@@ -2203,7 +2203,7 @@ do
 	local function CopyURLForNameAndRealm(...)
 		local name, realm = GetNameAndRealm(...)
 		local realmSlug = GetRealmSlug(realm)
-		local url = format("https://raider.io/characters/%s/%s/%s", PLAYER_REGION, realmSlug, name)
+		local url = format("https://raider.io/characters/%s/%s/%s?utm_source=addon", PLAYER_REGION, realmSlug, name)
 		if IsModifiedClick("CHATLINK") then
 			local editBox = ChatFrame_OpenChat(url, DEFAULT_CHAT_FRAME)
 			editBox:HighlightText()

@@ -20,6 +20,8 @@
 -- limitations under the License.
 ----------------------------------------------------------------------------------
 
+local Ellyb = Ellyb(...)
+
 local assert, tinsert, pairs = assert, tinsert, pairs;
 local CreateFrame = CreateFrame;
 local tsize = Storyline_API.lib.tsize;
@@ -57,13 +59,16 @@ local function decorateItemButton(button, index, type, texture, name, numItems, 
 	end)
 end
 
-local function decorateCurrencyButton(button, index, type, texture, name, numItems)
+local function decorateCurrencyButton(button, index, type, texture, name, numItems, currencyID, quality)
 	numItems = numItems or 0;
 	button.index = index;
 	button.type = type;
 	button.Icon:SetTexture(texture);
 	button.Name:SetText(name);
 	button.Count:SetText(numItems > 1 and numItems or "");
+	local currencyColor = currencyID and numItems and GetColorForCurrencyReward(currencyID, numItems) or Ellyb.ColorManager.WHITE
+	button.Count:SetTextColor(currencyColor:GetRGB());
+	SetItemButtonQuality(button, quality, currencyID);
 	button:SetScript("OnEnter", function(self)
 		GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
 		GameTooltip:SetQuestCurrency(self.type, self.index);
@@ -118,7 +123,7 @@ end
 
 local function decorateRewardButton(button, rewardType, reward)
 	if rewardType == Rewards.REWARD_TYPES.CURRENCY then
-		decorateCurrencyButton(button, reward.index, Storyline_API.getCurrentEvent() == "QUEST_PROGRESS" and "required" or "reward", reward.icon, reward.text, reward.count);
+		decorateCurrencyButton(button, reward.index, Storyline_API.getCurrentEvent() == "QUEST_PROGRESS" and "required" or "reward", reward.icon, reward.text, reward.count, reward.currencyID, reward.quality);
 	elseif rewardType == Rewards.REWARD_TYPES.SPELL then
 		decorateSpellButton(button, reward.icon, reward.text, reward.rewardSpellIndex);
 	elseif rewardType == Rewards.REWARD_TYPES.ITEMS then
@@ -243,6 +248,8 @@ local REWARDS_HEADER_TEXT = {
 	[Rewards.BUCKET_TYPES.CHOICE] = REWARD_CHOICES,
 	[Rewards.BUCKET_TYPES.AURA] = REWARD_AURA,
 	[Rewards.BUCKET_TYPES.FOLLOWER] = REWARD_FOLLOWER,
+	[Rewards.BUCKET_TYPES.UNLOCK] = REWARD_UNLOCK,
+	[Rewards.BUCKET_TYPES.LEARN] = REWARD_ABILITY,
 	[Rewards.BUCKET_TYPES.OBJECTIVES] = TURN_IN_ITEMS,
 };
 

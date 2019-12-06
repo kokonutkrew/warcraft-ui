@@ -1,18 +1,22 @@
 # Deadly Boss Mods Core
 
-## [8.2.28](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/8.2.28) (2019-11-14)
-[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/8.2.27...8.2.28)
+## [8.2.30](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/8.2.30) (2019-12-05)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/8.2.29...8.2.30)
 
-- Version increase without update notification activation. This release is purely for this weeks ptr, so while it is version 8.2.28, it will not send update notification to 8.2.27 users.  
-- Update Nzoth again. The journal update posted by wowhead was from an obsolete build and some mechanics were missed. Thanks to Reloe for pointing this out.  
-- Some pre mythic testing tweaks to vexiona and maut. Wrathion already looks fine  
-- Tweaks to cataclysm and wrath events  
-    Revised update policy to return to DBM force disabling if more than 1 month out of date, instead of only doing force disables on major patches. When out of date mods are wiping raids REPEATEDLY, DBM is being too leaniant. In addition, the update notification nag message can no longer be disabled either. Out of date, get a nag, period.  
-- Full Nzoth drycode based on current build. quite a few guesses based on incomplete journal and 0 phase change code exists so timers will auto generate during phases but not between phase changes.  
-    Fixed bug where charged bonds was missing voice on Rad-den  
-    Additional tweaks to timer scheduling on Shadhar  
-- Several Nyalotha fixes/additions based on more normal mode feedback.  
-- KR Update (toc) (#86)  
-    * koKR Update (toc)  
-- KR Update (#85)  
-    * KR Update  
+- Mythic Xanesh update ahead of testing  
+- Mythic Ra-den update  
+- Improved IsValidWarning function used by virtually all trash mods to have additional checks, reducing it's chance to fail if it can't find targetting info for affecting combat checks.  
+    Updated Mechagon trash mod with next round of trash warnings. This time, all the notable trash warnings before 2nd boss.  
+- Nyalotha zhCN (#92)  
+    * Create localization.cn.lua  
+    * zhCN  
+- Begin work on Mechagon trash mod. This mod was low priority among other things because the zone had no M+ mode. However, with 8.3 raid work wrapped up, and mechagon getting upgrade to M+ eligable zone in 8.3, work on this dungeon is now resuming. This first update contains notable trash warnings before first boss. I'll continue pushing additional notable trash warnings in coming days/weeks up to release of 8.3 to ensure mod is ready for M+  
+- Forgot option text  
+- Changed feeding frenzy tank warnings on Behemoth from 18 stacks to 12 stacks for first warning, and changed throttle from once per 5 seconds to once per 4. This should make swap warning a little more in line with people still in progression vs being aimed at people who have fight on farm.  
+- A bit more work is needed, but I'm done for night and pushing some of the work from fridays testing  
+- fix  
+- Hivemind fixes, should be a done mod now for most part  
+- Forgot these  
+- hivemind hotfix, fix spellod look up and use normal mode timers on mythic  
+- Restore basher tentacle timer/warning with updated journal ID  
+- Fix invalid spellids/hournal Ids for now, dirty fix, will find new ids later  

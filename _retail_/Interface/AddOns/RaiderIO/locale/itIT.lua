@@ -35,10 +35,8 @@ L["CONFIG_SHOW_TOOLTIPS_HEADER"] = "Mythic+ e Raid Tooltips"
 --[[ L["CONFIRM"] = ""--]] 
 L["COPY_RAIDERIO_PROFILE_URL"] = "Copia URL Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Copia URL Raider.IO"
---[[Translation missing --]]
---[[ L["CURRENT_MAINS_SCORE"] = ""--]] 
---[[Translation missing --]]
---[[ L["CURRENT_SCORE"] = ""--]] 
+L["CURRENT_MAINS_SCORE"] = "Punteggio PG Principale"
+L["CURRENT_SCORE"] = "Punteggio Corrente"
 --[[Translation missing --]]
 --[[ L["DISABLE_DEBUG_MODE_RELOAD"] = ""--]] 
 L["DPS"] = "DPS"
@@ -144,22 +142,14 @@ L["RAID_BOSS_BOD_6"] = "Re Rastakhan"
 L["RAID_BOSS_BOD_7"] = "Gran Meccanista Meccatork"
 L["RAID_BOSS_BOD_8"] = "Blocco Navale Frangitempeste"
 L["RAID_BOSS_BOD_9"] = "Dama Jaina Marefiero"
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_EP_8"] = ""--]] 
+L["RAID_BOSS_EP_1"] = "Comandante Abissale Sivara"
+L["RAID_BOSS_EP_2"] = "Behemoth Acquanera"
+L["RAID_BOSS_EP_3"] = "Radiosità di Azshara"
+L["RAID_BOSS_EP_4"] = "Dama Bracescura"
+L["RAID_BOSS_EP_5"] = "Orgozoa"
+L["RAID_BOSS_EP_6"] = "Corte della Regina"
+L["RAID_BOSS_EP_7"] = "Za'qul"
+L["RAID_BOSS_EP_8"] = "Regina Azshara"
 L["RAID_BOSS_ULD_1"] = "Taloc"
 L["RAID_BOSS_ULD_2"] = "MADRE"
 L["RAID_BOSS_ULD_3"] = "Divoratore Fetido"
@@ -252,9 +242,8 @@ L["SHOW_SCORE_IN_COMBAT_DESC"] = "Disabilita per minimizzare l'impatto sulle pre
 L["TANK"] = "Difensore"
 L["TANK_SCORE"] = "Punteggio Difensore"
 L["TIMED_10_RUNS"] = "+10-14 In Tempo"
-L["TIMED_15_RUNS"] = "+15 In Tempo"
---[[Translation missing --]]
---[[ L["TIMED_20_RUNS"] = ""--]] 
+L["TIMED_15_RUNS"] = "15+ In Tempo"
+L["TIMED_20_RUNS"] = "20+ In Tempo"
 L["TIMED_5_RUNS"] = "+5-9 In Tempo"
 L["TOOLTIP_CUSTOMIZATION"] = "Personalizzazione Finestra Tooltip"
 L["TOOLTIP_PROFILE"] = "Personalizzazione Finestra Tooltip del Profilo RaiderIO"
@@ -263,10 +252,8 @@ L["TOTAL_RUNS"] = "Corse Totali in \"BFA\""
 L["UNKNOWN_SCORE"] = "Sconosciuto"
 L["UNKNOWN_SERVER_FOUND"] = "| cffFFFFFF% s | r ha rilevato un nuovo server. Si prega di scrivere queste informazioni | cffFF9999 {| r | cffFFFFFF% s | r | cffFF9999, | r | cffFFFFFF% s | r | cffFF9999} | r e segnalarlo agli sviluppatori. Grazie!"
 L["UNLOCKING_PROFILE_FRAME"] = "RaiderIO: Sblocco della Finetra Profilo M+"
---[[Translation missing --]]
---[[ L["USE_ENGLISH_ABBREVIATION"] = ""--]] 
---[[Translation missing --]]
---[[ L["USE_ENGLISH_ABBREVIATION_DESC"] = ""--]] 
+L["USE_ENGLISH_ABBREVIATION"] = "Forza Abbreviazioni dei Dungeon in Inglese"
+L["USE_ENGLISH_ABBREVIATION_DESC"] = "Quando selezionato, verranno usate le abbreviazioni per i nomi dei dungeon in Inglese, al posto della lingua corrente."
 --[[Translation missing --]]
 --[[ L["WARNING_DEBUG_MODE_ENABLE"] = ""--]] 
 L["WARNING_LOCK_POSITION_FRAME_AUTO"] = "RaiderIO: Devi prima Disabilitare \"Posizionamento Automatico\" per il Profilo RaiderIO."

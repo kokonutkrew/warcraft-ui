@@ -9,7 +9,7 @@ local _G,type,wipe,tinsert,unpack,tostring = _G,type,wipe,tinsert,unpack,tostrin
 local GetPlayerFacing,C_Map = GetPlayerFacing,C_Map;
 local Minimap_OnClick = Minimap_OnClick;
 
-local LibHijackMinimap_Token,AreaBorderStates,TrackingIndex,LibHijackMinimap,_ = {},{},{};
+local LibHijackMinimap_Token,TrackingIndex,LibHijackMinimap,_ = {},{};
 local media, media_blizz = "Interface\\AddOns\\"..addon.."\\media\\", "Interface\\Minimap\\";
 local mps,MinimapMT,mouseOnKeybind,Dummy = {},getmetatable(_G.Minimap).__index;
 local minimapScripts,cardinalTicker,coordsTicker = {--[["OnMouseUp",]]"OnMouseDown","OnDragStart"};
@@ -101,26 +101,6 @@ local function SetPlayerDotTexture(bool) -- executed by FarmHud:UpdateOptions(),
 	MinimapMT.SetPlayerTexture(_G.Minimap,tex);
 end
 
--- unusable. changes from lower to upper values are ignored by blizzards api without ui reload.
---[[
-local function AreaBorder_SetAlpha(Type,Value)
-	if not (Type=="Arch" or Type=="Quest" or Type=="Task") then return end
-	_G.Minimap["Set"..Type.."BlobInsideAlpha"](Value);
-	_G.Minimap["Set"..Type.."BlobOutsideAlpha"](Value);
-	_G.Minimap["Set"..Type.."BlobRingAlpha"](Value);
-end
-
-local function AreaBorder_SetTexture(Type,Inside,Outside,Ring,Selected)
-	if not (Type=="Arch" or Type=="Quest" or Type=="Task") then return end
-	_G.Minimap["Set"..Type.."BlobInsideTexture"](Inside);
-	_G.Minimap["Set"..Type.."BlobOutsideTexture"](Outside);
-	_G.Minimap["Set"..Type.."BlobRingTexture"](Ring);
-	if t=="Quest" and Selected then
-		_G.Minimap["Set"..v.."BlobOutsideSelectedTexture"](Selected);
-	end
-end
---]]
-
 -- tracking options
 
 function ns.GetTrackingTypes()
@@ -165,46 +145,12 @@ local function TrackingTypes_Update(bool, id)
 	else
 		ns.GetTrackingTypes();
 		for id, data in pairs(trackingTypes) do
-			if FarmHudDB["tracking^"..id]~="client" then
+			if FarmHudDB["tracking^"..id]=="true" or FarmHudDB["tracking^"..id]=="false" then
 				TrackingTypes_Update(bool, id);
 			end
 		end
 	end
 end
-
-local function AreaBorder_Update(bool, key, dbValue)
-	if ns.IsClassic() then return end
-	if key then
-		local _, _, active = GetTrackingInfo(TrackingIndex[key]);
-		if bool and dbValue~=tostring(active) then
-			AreaBorderStates[key] = active;
-			SetTracking(TrackingIndex[key],dbValue=="true");
-		elseif not bool and AreaBorderStates[key]~=nil then
-			SetTracking(TrackingIndex[key],AreaBorderStates[key]);
-			AreaBorderStates[key] = nil;
-		end
-	else
-		local num = GetNumTrackingTypes();
-		if TrackingIndex.NumTypes~=num then
-			TrackingIndex.NumTypes = num;
-			for i=1, num do
-				local name = GetTrackingInfo(i);
-				if name==MINIMAP_TRACKING_DIGSITES then
-					TrackingIndex.Arch = i;
-				elseif name==MINIMAP_TRACKING_QUEST_POIS then
-					TrackingIndex.Quest = i;
-				end
-			end
-		end
-		if FarmHudDB.areaborder_arch_show~="blizz" then
-			AreaBorder_Update(bool, "Arch", FarmHudDB.areaborder_arch_show);
-		end
-		if FarmHudDB.areaborder_quest_show~="blizz" then
-			AreaBorder_Update(bool, "Quest", FarmHudDB.areaborder_quest_show);
-		end
-	end
-end
-
 
 -- dummyOnly; prevent changes by foreign addons while farmhud is visible
 
@@ -350,7 +296,7 @@ function FarmHudMixin:UpdateTime(state)
 	self.TextFrame.time:SetShown(state);
 end
 
---
+-- main frame functions
 
 function FarmHudMixin:SetScales(enabled)
 	self:SetPoint("CENTER");
@@ -466,7 +412,7 @@ do
 			Dummy:SetShown(FarmHudDB.showDummy);
 		elseif IsKey(key,"showDummyBg") then
 			Dummy.bg:SetShown(FarmHudDB.showDummyBg);
-		elseif key:find("tracking^%d+") then
+		elseif key:find("tracking^%d+") and not ns.IsClassic() then
 			local _, id = strsplit("^",key);
 			id = tonumber(id);
 			TrackingTypes_Update(true,id);
@@ -570,7 +516,6 @@ function FarmHudMixin:OnShow()
 	end
 
 	SetPlayerDotTexture(true);
-	--AreaBorder_Update(true);
 	TrackingTypes_Update(true);
 
 	self:SetScales(true);
@@ -649,7 +594,6 @@ function FarmHudMixin:OnHide(force)
 	wipe(mps);
 
 	SetPlayerDotTexture(false);
-	--AreaBorder_Update(false);
 	TrackingTypes_Update(false);
 
 	self:UpdateCardinalPoints(false);
@@ -698,7 +642,7 @@ function FarmHudMixin:ToggleOptions()
 		ACD:Close(addon);
 	else
 		ACD:Open(addon);
-		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..": 8.3-3-release");
+		ACD.OpenFrames[addon]:SetStatusText(GAME_VERSION_LABEL..": 8.3-5-release");
 	end
 end
 
@@ -789,12 +733,13 @@ function FarmHudMixin:OnLoad()
 		Dummy.bg:SetMask(texture);
 	end);
 
-	hooksecurefunc("SetTracking",function(index,bool)
-		if not trackingHookLocked and FarmHud:IsVisible() and trackingTypesStates[index]~=nil then
-			ns.print("SetTracking",index,bool);
-			trackingTypesStates[index]=nil;
-		end
-	end);
+	if not ns.IsClassic() then
+		hooksecurefunc("SetTracking",function(index,bool)
+			if not trackingHookLocked and FarmHud:IsVisible() and trackingTypesStates[index]~=nil then
+				trackingTypesStates[index]=nil;
+			end
+		end);
+	end
 
 	hooksecurefunc("SetSuperTrackedQuestID",function(questID)
 		questID = tonumber(questID) or 0;

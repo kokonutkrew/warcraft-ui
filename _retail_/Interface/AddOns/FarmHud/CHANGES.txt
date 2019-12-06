@@ -1,12 +1,12 @@
-tag e120e1e982a903dbea22f9b40ad8c7ca0ba52f0c 8.3-3-release
+tag 8db8053a521e480b2dff3fdcc77588181fde260e 8.3-5-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Tue Nov 19 17:21:41 2019 +0100
+Date:	Thu Nov 28 00:09:43 2019 +0100
 
-Tagging as 8.3-3-release
+Tagging as 8.3-5-release
 
-commit 7955f7b56038e6b2fd82ca98f13873d248f8c1e8
+commit 24b7bcca49b57911942f258fc61057e944cf6134
 Author: Hizuro <hizuro@gmx.net>
-Date:   Tue Nov 19 17:21:35 2019 +0100
+Date:   Thu Nov 28 00:07:46 2019 +0100
 
-    little bugfix. Sorry :-)
+    Fix problem between new tracking option and classic clients
 

@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 8.2.17 (20th November 2019)
+-- 	Leatrix Plus 8.2.18 (3rd December 2019)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "8.2.17"
+	LeaPlusLC["AddonVer"] = "8.2.18"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -420,7 +420,6 @@
 		-- Text
 		or	(LeaPlusLC["HideErrorMessages"]		~= LeaPlusDB["HideErrorMessages"])		-- Hide error messages
 		or	(LeaPlusLC["NoHitIndicators"]		~= LeaPlusDB["NoHitIndicators"])		-- Hide portrait text
-		or	(LeaPlusLC["HideCraftedNames"]		~= LeaPlusDB["HideCraftedNames"])		-- Hide crafted names
 		or	(LeaPlusLC["HideZoneText"]			~= LeaPlusDB["HideZoneText"])			-- Hide zone text
 		or	(LeaPlusLC["MailFontChange"]		~= LeaPlusDB["MailFontChange"])			-- Resize mail text
 		or	(LeaPlusLC["QuestFontChange"]		~= LeaPlusDB["QuestFontChange"])		-- Resize quest text
@@ -1607,14 +1606,6 @@
 				end)
 			end
 
-		end
-
-		----------------------------------------------------------------------
-		--	Hide crafted names
-		----------------------------------------------------------------------
-
-		if LeaPlusLC["HideCraftedNames"] == "On" then
-			_G.ITEM_CREATED_BY = ""
 		end
 
 		----------------------------------------------------------------------
@@ -7641,7 +7632,6 @@
 				-- Text
 				LeaPlusLC:LoadVarChk("HideErrorMessages", "Off")			-- Hide error messages
 				LeaPlusLC:LoadVarChk("NoHitIndicators", "Off")				-- Hide portrait text
-				LeaPlusLC:LoadVarChk("HideCraftedNames", "Off")				-- Hide crafted names
 				LeaPlusLC:LoadVarChk("HideZoneText", "Off")					-- Hide zone text
 
 				LeaPlusLC:LoadVarChk("MailFontChange", "Off")				-- Resize mail text
@@ -7811,7 +7801,6 @@
 			-- Text
 			LeaPlusDB["HideErrorMessages"]		= LeaPlusLC["HideErrorMessages"]
 			LeaPlusDB["NoHitIndicators"]		= LeaPlusLC["NoHitIndicators"]
-			LeaPlusDB["HideCraftedNames"] 		= LeaPlusLC["HideCraftedNames"]
 			LeaPlusDB["HideZoneText"] 			= LeaPlusLC["HideZoneText"]
 
 			LeaPlusDB["MailFontChange"] 		= LeaPlusLC["MailFontChange"]
@@ -9498,7 +9487,6 @@
 				-- Text
 				LeaPlusDB["HideErrorMessages"] = "On"			-- Hide error messages
 				LeaPlusDB["NoHitIndicators"] = "On"				-- Hide portrait text
-				LeaPlusDB["HideCraftedNames"] = "On"			-- Hide crafted names
 				LeaPlusDB["MailFontChange"] = "On"				-- Resize mail text
 				LeaPlusDB["LeaPlusMailFontSize"] = 22			-- Mail font size
 				LeaPlusDB["QuestFontChange"] = "On"				-- Resize quest text
@@ -9904,8 +9892,7 @@
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Visibility"				, 	146, -72)
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "HideErrorMessages"			, 	"Hide error messages"			,	146, -92, 	true,	"If checked, most error messages (such as 'Not enough rage') will not be shown.  Some important errors are excluded.|n|nIf you have the minimap button enabled, you can hold down the control key and right-click it to toggle error messages without affecting this setting.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoHitIndicators"			, 	"Hide portrait numbers"			,	146, -112, 	true,	"If checked, damage and healing numbers in the player and pet portrait frames will be hidden.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "HideCraftedNames"			, 	"Hide crafted names"			,	146, -132, 	true,	"If checked, crafted items will no longer show the name of the crafter.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "HideZoneText"				,	"Hide zone text"				,	146, -152, 	true,	"If checked, zone text will not be shown (eg. 'Ironforge').")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "HideZoneText"				,	"Hide zone text"				,	146, -132, 	true,	"If checked, zone text will not be shown (eg. 'Ironforge').")
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Text Size"					, 	340, -72)
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "MailFontChange"			,	"Resize mail text"				, 	340, -92, 	true,	"If checked, you will be able to change the font size of standard mail text.|n|nThis does not affect mail created using templates (such as auction house invoices).")

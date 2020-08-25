@@ -1,0 +1,13 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
+	},
+	["global"] = {
+		["__addonrevision"] = 1050005,
+	},
+	["profiles"] = {
+		["Samoanslayer - Grobbulus"] = {
+		},
+	},
+}

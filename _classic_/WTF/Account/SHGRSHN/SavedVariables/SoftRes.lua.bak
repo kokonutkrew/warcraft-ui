@@ -1,0 +1,147 @@
+
+SoftResList = {
+	["players"] = {
+	},
+	["onHold"] = {
+	},
+	["zone"] = "Silithus",
+	["date"] = "20-08-25 14:52:34",
+	["removedPlayers"] = {
+	},
+	["shitRolls"] = {
+	},
+	["time"] = 1598388754,
+	["waitingForItems"] = {
+	},
+	["drops"] = {
+	},
+}
+SoftResConfig = {
+	["state"] = {
+		["autoShowOnLoot"] = true,
+		["addPenalty"] = true,
+		["autoHideOnLootDone"] = false,
+		["softResEnabled"] = true,
+	},
+	["timers"] = {
+		["ms"] = {
+			["value"] = 15,
+			["minValue"] = 10,
+			["default"] = 15,
+			["maxValue"] = 20,
+		},
+		["os"] = {
+			["value"] = 15,
+			["minValue"] = 10,
+			["default"] = 15,
+			["maxValue"] = 20,
+		},
+		["softRes"] = {
+			["value"] = 15,
+			["minValue"] = 10,
+			["default"] = 15,
+			["maxValue"] = 20,
+		},
+	},
+	["extraInformation"] = {
+		["default"] = "Ω SoftRes, by Snits-NoggenfoggerEU",
+		["value"] = "Ω SoftRes, by Snits-NoggenfoggerEU",
+	},
+	["dropDecay"] = {
+		["ms"] = {
+			["value"] = 10,
+			["minValue"] = 0,
+			["default"] = 10,
+			["maxValue"] = 100,
+		},
+		["os"] = {
+			["value"] = 5,
+			["minValue"] = 0,
+			["default"] = 5,
+			["maxValue"] = 100,
+		},
+	},
+	["ui"] = {
+		["frames"] = {
+			["rollFrameContainer"] = {
+				["child"] = {
+					["size"] = {
+						["height"] = 227,
+						["width"] = 300,
+					},
+				},
+				["hidden"] = false,
+				["size"] = {
+					["full"] = {
+						["height"] = 118,
+						["width"] = 284,
+					},
+				},
+			},
+			["listFrameContainer"] = {
+				["child"] = {
+					["size"] = {
+						["height"] = 227,
+						["width"] = 300,
+					},
+				},
+				["hidden"] = false,
+				["size"] = {
+					["full"] = {
+						["height"] = 148,
+						["width"] = 284,
+					},
+				},
+			},
+			["mainFrame"] = {
+				["hidden"] = false,
+				["size"] = {
+					["full"] = {
+						["height"] = 284,
+						["width"] = 338,
+					},
+				},
+			},
+			["tabContainer"] = {
+				["pages"] = {
+				},
+				["hidden"] = false,
+				["size"] = {
+					["full"] = {
+						["height"] = 227,
+						["width"] = 327,
+					},
+				},
+			},
+		},
+	},
+	["itemRarity"] = {
+		["value"] = 2,
+		["minValue"] = 0,
+		["default"] = 2,
+		["maxValue"] = 5,
+	},
+	["icons"] = {
+		["dice"] = "|TInterface\\Buttons\\UI-GroupLoot-Dice-Up:10:10:0:0|t",
+		["redCross"] = "|TInterface\\RaidFrame\\ReadyCheck-NotReady:10:10:0:0|t",
+		["readyCheck"] = "|TInterface\\RaidFrame\\ReadyCheck-Ready:10:10:0:0|t",
+		["skull"] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_8:10:10:0:0|t",
+		["questionMark"] = "|TInterface\\RaidFrame\\ReadyCheck-Waiting:10:10:0:0|t",
+		["softResBag"] = "|TInterface\\Store\\category-icon-bag:30:30:-5:0|t",
+		["loot"] = "|TInterface\\GroupFrame\\UI-Group-MasterLooter:10:10:0:0|t",
+		["indicatorRed"] = "|TInterface\\COMMON\\Indicator-Red:10:10:0:0|t",
+		["quest"] = "|TInterface\\GossipFrame\\AvailableQuestIcon:10:10:0:0|t",
+		["cancel"] = "|TInterface\\Buttons\\UI-GroupLoot-Pass-Up:14:14:0:0|t",
+		["noLoot"] = "|TInterface\\COMMON\\icon-noloot:10:10:0:0|t",
+		["indicatorGreen"] = "|TInterface\\COMMON\\Indicator-Green:10:10:0:0|t",
+	},
+	["colors"] = {
+		["yellow"] = "|cFFFFFF00",
+		["green"] = "|cFF00FF00",
+		["red"] = "|cFFFF0000",
+	},
+}
+SoftResDB = {
+	["shitRollers"] = {
+	},
+}

@@ -1,7 +1,6 @@
 # <FGI> FastGuildInvite
 
-## 73 (2020-08-18)
+## 74 (2020-08-25)
  
 
-- added GUILDLINK placeholder  
-- added NAME placeholder to auto-complete notes  
+- All search data is saved between sessions  

@@ -1,0 +1,790 @@
+
+TradeSkillMasterDB = {
+	["g@ @destroyingOptions@deAbovePrice"] = "0c",
+	["p@Default@internalData@bankingWarehousingGroupTreeContext"] = {
+	},
+	["g@ @shoppingOptions@buyoutConfirm"] = false,
+	["_hash"] = 13058566,
+	["f@Horde - Grobbulus@internalData@auctionDBScanHash"] = 0,
+	["g@ @craftingOptions@defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @mailingOptions@deMaxQuality"] = 2,
+	["g@ @sniperOptions@sniperSound"] = "TSM_NO_SOUND",
+	["g@ @auctioningOptions@roundNormalPrice"] = false,
+	["g@ @tooltipOptions@deTooltip"] = true,
+	["r@Grobbulus@internalData@csvExpense"] = "type,amount,otherPlayer,player,time",
+	["s@Samoanslayer - Horde - Grobbulus@internalData@bagQuantity"] = {
+		["i:19715"] = 1,
+		["i:5665"] = 1,
+		["i:17760"] = 1,
+		["i:22216"] = 1,
+		["i:12940"] = 1,
+		["i:14047"] = 1,
+		["i:17191"] = 1,
+		["i:10721"] = 1,
+		["i:12952"] = 1,
+		["i:12846"] = 1,
+		["i:18834"] = 1,
+		["i:10726"] = 1,
+		["i:15276"] = 1,
+		["i:20560"] = 3,
+		["i:20559"] = 1,
+		["i:12960"] = 1,
+		["i:12602"] = 1,
+		["i:10725"] = 1,
+		["i:19316"] = 200,
+		["i:10724"] = 1,
+		["i:10310"] = 5,
+		["i:19120"] = 1,
+		["i:18537"] = 1,
+		["i:12967"] = 1,
+		["i:13452"] = 2,
+		["i:15785"] = 1,
+		["i:20130"] = 1,
+		["i:19022"] = 1,
+		["i:10518"] = 1,
+		["i:14530"] = 9,
+		["i:17713"] = 1,
+		["i:4397"] = 1,
+		["i:18641"] = 6,
+		["i:12336"] = 1,
+		["i:6948"] = 1,
+		["i:10720"] = 1,
+		["i:10716"] = 1,
+		["i:9206"] = 5,
+		["i:13851"] = 6,
+		["i:12219"] = 1,
+		["i:929"] = 2,
+		["i:12583"] = 1,
+		["i:13173"] = 200,
+		["i:20452"] = 10,
+		["i:12337"] = 1,
+		["i:10309"] = 5,
+		["i:16309"] = 1,
+		["i:22217"] = 1,
+		["i:19880"] = 1,
+		["i:13183"] = 1,
+		["i:6533"] = 18,
+		["i:13963"] = 1,
+		["i:12735"] = 1,
+		["i:16787"] = 1,
+		["i:11145"] = 1,
+		["i:10645"] = 1,
+		["i:12964"] = 1,
+	},
+	["c@Samoanslayer - Grobbulus@internalData@auctionMessages"] = {
+	},
+	["g@ @shoppingOptions@pctSource"] = "dbmarket",
+	["r@Grobbulus@internalData@csvCancelled"] = "itemString,stackSize,quantity,player,time",
+	["g@ @shoppingOptions@buyoutAlertSource"] = "min(100000g, 200% dbmarket)",
+	["g@ @accountingOptions@smartBuyPrice"] = false,
+	["g@ @coreOptions@auctionSaleEnabled"] = true,
+	["r@Grobbulus@internalData@accountingTrimmed"] = {
+	},
+	["g@ @auctioningOptions@disableInvalidMsg"] = false,
+	["r@Grobbulus@internalData@saveTimeBuys"] = "",
+	["f@Horde - Grobbulus@internalData@auctionDBScanTime"] = 0,
+	["g@ @internalData@auctionUIFrameContext"] = {
+		["width"] = 830,
+		["height"] = 587,
+		["scale"] = 1,
+		["centerY"] = 100,
+		["page"] = 1,
+		["centerX"] = -300,
+	},
+	["g@ @internalData@destroyingHistory"] = {
+	},
+	["g@ @destroyingOptions@includeSoulbound"] = false,
+	["s@Samoanslayer - Horde - Grobbulus@internalData@reagentBankQuantity"] = {
+	},
+	["_lastModifiedVersion"] = {
+		["r@internalData@csvSales"] = 10,
+		["g@coreOptions@groupPriceSource"] = 41,
+		["g@userData@destroyingIgnore"] = 10,
+		["s@internalData@classKey"] = 19,
+		["r@internalData@saveTimeBuys"] = 10,
+		["g@internalData@destroyingUIFrameContext"] = 44,
+		["g@coreOptions@auctionSaleSound"] = 10,
+		["g@coreOptions@chatFrame"] = 10,
+		["p@internalData@mailingGroupTreeContext"] = 39,
+		["g@internalData@craftingUIFrameContext"] = 44,
+		["g@craftingOptions@defaultCraftPriceMethod"] = 10,
+		["g@mailingOptions@keepMailSpace"] = 10,
+		["g@debug@chatLoggingEnabled"] = 19,
+		["p@internalData@bankingWarehousingGroupTreeContext"] = 31,
+		["p@gatheringOptions@sources"] = 32,
+		["r@internalData@saveTimeExpires"] = 10,
+		["s@internalData@playerProfessions"] = 36,
+		["g@userData@operations"] = 10,
+		["r@internalData@csvExpense"] = 10,
+		["r@internalData@csvBuys"] = 10,
+		["f@userData@craftingCooldownIgnore"] = 35,
+		["g@coreOptions@globalOperations"] = 10,
+		["g@tooltipOptions@prospectTooltip"] = 10,
+		["g@destroyingOptions@includeSoulbound"] = 10,
+		["g@shoppingOptions@buyoutConfirm"] = 46,
+		["g@craftingOptions@ignoreCharacters"] = 10,
+		["g@auctioningOptions@scanCompleteSound"] = 10,
+		["p@userData@operations"] = 10,
+		["g@destroyingOptions@autoStack"] = 10,
+		["g@vendoringOptions@displayMoneyCollected"] = 10,
+		["f@internalData@pendingMail"] = 10,
+		["r@internalData@csvCancelled"] = 10,
+		["g@tooltipOptions@customPriceTooltips"] = 10,
+		["g@accountingOptions@smartBuyPrice"] = 10,
+		["g@userData@customPriceSources"] = 10,
+		["s@internalData@auctionQuantity"] = 19,
+		["p@userData@items"] = 10,
+		["c@internalData@auctionSaleHints"] = 45,
+		["g@shoppingOptions@minDeSearchLvl"] = 10,
+		["g@tooltipOptions@tooltipShowModifier"] = 10,
+		["f@internalData@mailExcessGoldLimit"] = 49,
+		["g@craftingOptions@ignoreGuilds"] = 10,
+		["g@internalData@vendorItems"] = 10,
+		["f@internalData@auctionDBScanHash"] = 50,
+		["g@accountingOptions@autoTrackTrades"] = 10,
+		["f@internalData@crafts"] = 53,
+		["r@internalData@saveTimeSales"] = 10,
+		["p@internalData@bankingAuctioningGroupTreeContext"] = 31,
+		["s@internalData@bagQuantity"] = 19,
+		["g@destroyingOptions@deAbovePrice"] = 10,
+		["s@internalData@reagentBankQuantity"] = 19,
+		["g@coreOptions@auctionBuyEnabled"] = 10,
+		["g@tooltipOptions@groupNameTooltip"] = 10,
+		["g@destroyingOptions@deMaxQuality"] = 10,
+		["p@internalData@auctioningTabGroupContext"] = 26,
+		["r@internalData@csvExpired"] = 10,
+		["g@tooltipOptions@operationTooltips"] = 10,
+		["c@internalData@craftingCooldowns"] = 27,
+		["f@internalData@expiringAuction"] = 47,
+		["g@sniperOptions@sniperSound"] = 10,
+		["p@internalData@importGroupTreeContext"] = 39,
+		["g@vendoringOptions@qsMarketValue"] = 10,
+		["r@internalData@accountingTrimmed"] = 10,
+		["g@mailingOptions@sendItemsIndividually"] = 10,
+		["g@tooltipOptions@tooltipPriceFormat"] = 10,
+		["p@internalData@bankUIBankFramePosition"] = 16,
+		["f@internalData@csvAuctionDBScan"] = 50,
+		["f@gatheringContext@crafter"] = 32,
+		["p@internalData@vendoringGroupTreeContext"] = 39,
+		["p@internalData@createdDefaultOperations"] = 11,
+		["p@internalData@bankingMailingGroupTreeContext"] = 31,
+		["p@internalData@shoppingTabGroupContext"] = 26,
+		["g@internalData@mailingUIFrameContext"] = 44,
+		["f@internalData@mailDisenchantablesChar"] = 49,
+		["g@internalData@vendoringUIFrameContext"] = 44,
+		["g@auctioningOptions@roundNormalPrice"] = 10,
+		["g@destroyingOptions@autoShow"] = 10,
+		["f@coreOptions@ignoreGuilds"] = 10,
+		["g@craftingOptions@ignoreCDCraftCost"] = 10,
+		["g@tooltipOptions@detailedDestroyTooltip"] = 10,
+		["g@auctioningOptions@disableInvalidMsg"] = 10,
+		["c@internalData@auctionMessages"] = 10,
+		["f@auctioningOptions@whitelist"] = 10,
+		["g@accountingOptions@trackTrades"] = 10,
+		["g@tooltipOptions@enabled"] = 20,
+		["g@internalData@bankingUIFrameContext"] = 44,
+		["p@internalData@craftingGroupTreeContext"] = 39,
+		["g@auctioningOptions@matchWhitelist"] = 10,
+		["f@internalData@characterGuilds"] = 10,
+		["g@auctioningOptions@cancelWithBid"] = 10,
+		["r@internalData@saveTimeCancels"] = 10,
+		["g@tooltipOptions@millTooltip"] = 10,
+		["g@coreOptions@auctionSaleEnabled"] = 10,
+		["f@internalData@guildGoldLog"] = 25,
+		["s@internalData@goldLog"] = 25,
+		["c@internalData@auctionPrices"] = 10,
+		["g@auctioningOptions@confirmCompleteSound"] = 10,
+		["g@userData@savedAuctioningSearches"] = 14,
+		["g@internalData@destroyingHistory"] = 10,
+		["g@tooltipOptions@deTooltip"] = 10,
+		["g@shoppingOptions@buyoutAlertSource"] = 46,
+		["r@internalData@csvIncome"] = 10,
+		["f@internalData@mats"] = 10,
+		["g@mailingOptions@recentlyMailedList"] = 38,
+		["g@mailingOptions@deMaxQuality"] = 10,
+		["g@coreOptions@destroyValueSource"] = 10,
+		["g@craftingOptions@defaultMatCostMethod"] = 10,
+		["g@tooltipOptions@vendorBuyTooltip"] = 10,
+		["g@shoppingOptions@maxDeSearchPercent"] = 23,
+		["g@internalData@mainUIFrameContext"] = 44,
+		["g@internalData@taskListUIFrameContext"] = 33,
+		["g@tooltipOptions@vendorSellTooltip"] = 10,
+		["g@internalData@auctionUIFrameContext"] = 44,
+		["g@mailingOptions@inboxMessages"] = 10,
+		["g@internalData@appMessageId"] = 10,
+		["g@mailingOptions@openMailSound"] = 10,
+		["g@coreOptions@tsmItemTweetEnabled"] = 10,
+		["g@coreOptions@minimapIcon"] = 10,
+		["g@userData@savedShoppingSearches"] = 10,
+		["p@internalData@shoppingGroupTreeContext"] = 13,
+		["g@tooltipOptions@inventoryTooltipFormat"] = 10,
+		["f@internalData@guildVaults"] = 10,
+		["p@userData@groups"] = 10,
+		["s@internalData@bankQuantity"] = 19,
+		["g@tooltipOptions@transformTooltip"] = 10,
+		["g@tooltipOptions@moduleTooltips"] = 10,
+		["g@shoppingOptions@maxDeSearchLvl"] = 10,
+		["p@internalData@managementGroupTreeContext"] = 13,
+		["f@internalData@auctionDBScanTime"] = 50,
+		["p@internalData@bankUIGBankFramePosition"] = 16,
+		["g@tooltipOptions@embeddedTooltip"] = 10,
+		["f@gatheringContext@professions"] = 32,
+		["f@internalData@expiringMail"] = 47,
+		["g@shoppingOptions@pctSource"] = 12,
+		["s@internalData@mailQuantity"] = 19,
+		["g@mailingOptions@sendMessages"] = 10,
+		["p@internalData@exportGroupTreeContext"] = 48,
+		["p@internalData@auctioningGroupTreeContext"] = 13,
+		["g@mailingOptions@resendDelay"] = 10,
+		["f@internalData@mailExcessGoldChar"] = 49,
+		["g@userData@vendoringIgnore"] = 10,
+	},
+	["g@ @userData@savedShoppingSearches"] = {
+	},
+	["f@Horde - Grobbulus@internalData@guildVaults"] = {
+	},
+	["g@ @tooltipOptions@enabled"] = true,
+	["g@ @internalData@vendorItems"] = {
+		["i:3372"] = 200,
+		["i:17194"] = 10,
+		["i:17034"] = 200,
+		["i:2320"] = 10,
+		["i:159"] = 25,
+		["i:2321"] = 100,
+		["i:2692"] = 40,
+		["i:4400"] = 2000,
+		["i:1179"] = 125,
+		["i:4470"] = 38,
+		["i:17038"] = 2000,
+		["i:2596"] = 120,
+		["i:18256"] = 30000,
+		["i:4340"] = 350,
+		["i:4291"] = 500,
+		["i:17037"] = 1400,
+		["i:21177"] = 3000,
+		["i:2324"] = 25,
+		["i:17028"] = 700,
+		["i:6217"] = 124,
+		["i:2678"] = 10,
+		["i:3371"] = 20,
+		["i:17020"] = 1000,
+		["i:4289"] = 50,
+		["i:6530"] = 100,
+		["i:4341"] = 500,
+		["i:17036"] = 800,
+		["i:8925"] = 2500,
+		["i:17032"] = 2000,
+		["i:4399"] = 200,
+		["i:3713"] = 160,
+		["i:2665"] = 20,
+		["i:16583"] = 10000,
+		["i:17202"] = 10,
+		["i:17021"] = 700,
+		["i:17196"] = 50,
+		["i:4536"] = 25,
+		["i:10648"] = 500,
+		["i:11291"] = 4500,
+		["i:4342"] = 2500,
+		["i:6261"] = 1000,
+		["i:17029"] = 1000,
+		["i:2894"] = 50,
+		["i:14341"] = 5000,
+		["i:18567"] = 150000,
+		["i:17030"] = 2000,
+		["i:2325"] = 1000,
+		["i:10647"] = 2000,
+		["i:2604"] = 50,
+		["i:10290"] = 2500,
+		["i:3466"] = 2000,
+		["i:2605"] = 100,
+		["i:3857"] = 500,
+		["i:17026"] = 1000,
+		["i:6260"] = 50,
+		["i:17035"] = 400,
+		["i:2880"] = 100,
+		["i:5140"] = 25,
+		["i:17031"] = 1000,
+		["i:17033"] = 2000,
+		["i:8343"] = 2000,
+	},
+	["p@Default@internalData@vendoringGroupTreeContext"] = {
+	},
+	["s@Samoanslayer - Horde - Grobbulus@internalData@goldLog"] = "minute,copper\n26639812,3890000",
+	["g@ @coreOptions@chatFrame"] = "",
+	["s@Samoanslayer - Horde - Grobbulus@internalData@classKey"] = "WARRIOR",
+	["g@ @coreOptions@auctionSaleSound"] = "TSM_NO_SOUND",
+	["f@Horde - Grobbulus@internalData@mailDisenchantablesChar"] = "",
+	["f@Horde - Grobbulus@coreOptions@ignoreGuilds"] = {
+	},
+	["f@Horde - Grobbulus@internalData@mats"] = {
+	},
+	["r@Grobbulus@internalData@csvBuys"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source",
+	["f@Horde - Grobbulus@userData@craftingCooldownIgnore"] = {
+	},
+	["r@Grobbulus@internalData@csvSales"] = "itemString,stackSize,quantity,price,otherPlayer,player,time,source",
+	["g@ @auctioningOptions@scanCompleteSound"] = "TSM_NO_SOUND",
+	["p@Default@userData@operations"] = {
+		["Mailing"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["restock"] = false,
+				["keepQty"] = 0,
+				["relationships"] = {
+				},
+				["maxQtyEnabled"] = false,
+				["target"] = "",
+				["restockSources"] = {
+					["guild"] = false,
+					["bank"] = false,
+				},
+				["ignorePlayer"] = {
+				},
+				["maxQty"] = 10,
+			},
+		},
+		["Auctioning"] = {
+			["#Default"] = {
+				["aboveMax"] = "normalPrice",
+				["normalPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(2*avg(crafting,dbmarket,dbregionmarketavg),12*vendorsell))",
+				["duration"] = 2,
+				["matchStackSize"] = false,
+				["blacklist"] = "",
+				["postCap"] = 5,
+				["bidPercent"] = 1,
+				["stackSizeIsCap"] = false,
+				["maxPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(5*avg(crafting,dbmarket,dbregionmarketavg),30*vendorsell))",
+				["ignoreLowDuration"] = 0,
+				["stackSize"] = 1,
+				["keepPosted"] = 0,
+				["undercut"] = "1c",
+				["ignoreFactionrealm"] = {
+				},
+				["maxExpires"] = 0,
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
+				["priceReset"] = "none",
+				["cancelRepostThreshold"] = "1g",
+				["cancelRepost"] = true,
+				["cancelUndercut"] = true,
+				["minPrice"] = "check(first(crafting,dbmarket,dbregionmarketavg),max(0.25*avg(crafting,dbmarket,dbregionmarketavg),1.5*vendorsell))",
+				["keepQtySources"] = {
+				},
+				["keepQuantity"] = 0,
+			},
+		},
+		["Crafting"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["relationships"] = {
+				},
+				["minRestock"] = 1,
+				["ignorePlayer"] = {
+				},
+				["minProfit"] = "100g",
+				["maxRestock"] = 3,
+				["craftPriceMethod"] = "",
+			},
+		},
+		["Sniper"] = {
+			["#Default"] = {
+				["ignoreFactionrealm"] = {
+				},
+				["belowPrice"] = "max(vendorsell, ifgt(DBRegionMarketAvg, 250000g, 0.8, ifgt(DBRegionMarketAvg, 100000g, 0.7, ifgt(DBRegionMarketAvg, 50000g, 0.6, ifgt(DBRegionMarketAvg, 25000g, 0.5, ifgt(DBRegionMarketAvg, 10000g, 0.4, ifgt(DBRegionMarketAvg, 5000g, 0.3, ifgt(DBRegionMarketAvg, 2000g, 0.2, ifgt(DBRegionMarketAvg, 1000g, 0.1, 0.05)))))))) * DBRegionMarketAvg)",
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
+			},
+		},
+		["Vendoring"] = {
+			["#Default"] = {
+				["vsMarketValue"] = "dbmarket",
+				["ignoreFactionrealm"] = {
+				},
+				["enableBuy"] = true,
+				["vsMaxMarketValue"] = "0c",
+				["sellAfterExpired"] = 20,
+				["vsDestroyValue"] = "destroy",
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
+				["restockQty"] = 0,
+				["keepQty"] = 0,
+				["vsMaxDestroyValue"] = "0c",
+				["restockSources"] = {
+					["alts_ah"] = false,
+					["ah"] = false,
+					["guild"] = false,
+					["alts"] = false,
+					["mail"] = false,
+					["bank"] = false,
+				},
+				["sellSoulbound"] = false,
+				["enableSell"] = true,
+			},
+		},
+		["Shopping"] = {
+			["#Default"] = {
+				["relationships"] = {
+				},
+				["ignoreFactionrealm"] = {
+				},
+				["evenStacks"] = false,
+				["maxPrice"] = "dbmarket",
+				["restockQuantity"] = 0,
+				["restockSources"] = {
+					["alts"] = false,
+					["auctions"] = false,
+					["guild"] = false,
+					["bank"] = false,
+				},
+				["ignorePlayer"] = {
+				},
+				["showAboveMaxPrice"] = true,
+			},
+		},
+		["Warehousing"] = {
+			["#Default"] = {
+				["stackSize"] = 0,
+				["ignoreFactionrealm"] = {
+				},
+				["moveQuantity"] = 0,
+				["keepBankQuantity"] = 0,
+				["relationships"] = {
+				},
+				["ignorePlayer"] = {
+				},
+				["restockQuantity"] = 0,
+				["restockKeepBankQuantity"] = 0,
+				["keepBagQuantity"] = 0,
+				["restockStackSize"] = 0,
+			},
+		},
+	},
+	["p@Default@internalData@createdDefaultOperations"] = true,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Samoanslayer - Grobbulus", -- [1]
+		},
+		["sync"] = {
+			"Samoanslayer - Horde - Grobbulus", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Grobbulus", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Grobbulus", -- [1]
+		},
+	},
+	["g@ @userData@operations"] = {
+	},
+	["g@ @craftingOptions@ignoreGuilds"] = {
+	},
+	["g@ @accountingOptions@autoTrackTrades"] = false,
+	["g@ @mailingOptions@sendItemsIndividually"] = false,
+	["s@Samoanslayer - Horde - Grobbulus@internalData@auctionQuantity"] = {
+	},
+	["g@ @internalData@bankingUIFrameContext"] = {
+		["tab"] = "Warehousing",
+		["isOpen"] = true,
+		["width"] = 325,
+		["scale"] = 1,
+		["centerY"] = 0,
+		["height"] = 600,
+		["centerX"] = 500,
+	},
+	["g@ @destroyingOptions@deMaxQuality"] = 3,
+	["p@Default@internalData@shoppingTabGroupContext"] = {
+	},
+	["g@ @debug@chatLoggingEnabled"] = false,
+	["p@Default@internalData@mailingGroupTreeContext"] = {
+	},
+	["g@ @tooltipOptions@tooltipShowModifier"] = "none",
+	["r@Grobbulus@internalData@csvExpired"] = "itemString,stackSize,quantity,player,time",
+	["g@ @tooltipOptions@tooltipPriceFormat"] = "text",
+	["r@Grobbulus@internalData@saveTimeSales"] = "",
+	["g@ @internalData@destroyingUIFrameContext"] = {
+		["width"] = 296,
+		["height"] = 442,
+		["centerY"] = 0,
+		["scale"] = 1,
+		["centerX"] = 0,
+	},
+	["p@Default@gatheringOptions@sources"] = {
+		"vendor", -- [1]
+		"alt", -- [2]
+		"craftProfit", -- [3]
+		"auction", -- [4]
+		"craftNoProfit", -- [5]
+	},
+	["p@Default@userData@groups"] = {
+		[""] = {
+			["Mailing"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Auctioning"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Crafting"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Sniper"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Vendoring"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Shopping"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+			["Warehousing"] = {
+				"#Default", -- [1]
+				["override"] = true,
+			},
+		},
+	},
+	["f@Horde - Grobbulus@internalData@mailExcessGoldChar"] = "",
+	["g@ @tooltipOptions@groupNameTooltip"] = true,
+	["g@ @auctioningOptions@cancelWithBid"] = false,
+	["g@ @userData@customPriceSources"] = {
+	},
+	["r@Grobbulus@internalData@saveTimeExpires"] = "",
+	["g@ @coreOptions@tsmItemTweetEnabled"] = false,
+	["g@ @accountingOptions@trackTrades"] = true,
+	["g@ @craftingOptions@defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["g@ @internalData@mailingUIFrameContext"] = {
+		["width"] = 560,
+		["height"] = 500,
+		["scale"] = 1,
+		["centerY"] = 0,
+		["page"] = 1,
+		["centerX"] = -200,
+	},
+	["p@Default@internalData@auctioningGroupTreeContext"] = {
+	},
+	["s@Samoanslayer - Horde - Grobbulus@internalData@playerProfessions"] = {
+		["Cooking"] = {
+			["maxLevel"] = 300,
+			["isSecondary"] = false,
+			["level"] = 300,
+			["skillId"] = -1,
+		},
+		["Engineering"] = {
+			["maxLevel"] = 300,
+			["isSecondary"] = false,
+			["level"] = 266,
+			["skillId"] = -1,
+		},
+		["First Aid"] = {
+			["maxLevel"] = 300,
+			["isSecondary"] = false,
+			["level"] = 300,
+			["skillId"] = -1,
+		},
+		["Enchanting"] = {
+			["maxLevel"] = 300,
+			["isSecondary"] = false,
+			["level"] = 280,
+			["skillId"] = -1,
+		},
+	},
+	["r@Grobbulus@internalData@csvIncome"] = "type,amount,otherPlayer,player,time",
+	["c@Samoanslayer - Grobbulus@internalData@auctionPrices"] = {
+	},
+	["g@ @coreOptions@globalOperations"] = false,
+	["g@ @shoppingOptions@minDeSearchLvl"] = 1,
+	["g@ @internalData@appMessageId"] = 0,
+	["p@Default@internalData@shoppingGroupTreeContext"] = {
+	},
+	["g@ @coreOptions@groupPriceSource"] = "dbmarket",
+	["f@Horde - Grobbulus@internalData@guildGoldLog"] = {
+	},
+	["p@Default@internalData@bankingAuctioningGroupTreeContext"] = {
+	},
+	["g@ @internalData@vendoringUIFrameContext"] = {
+		["width"] = 560,
+		["height"] = 500,
+		["scale"] = 1,
+		["centerY"] = 0,
+		["page"] = 1,
+		["centerX"] = -200,
+	},
+	["g@ @coreOptions@auctionBuyEnabled"] = true,
+	["c@Samoanslayer - Grobbulus@internalData@craftingCooldowns"] = {
+	},
+	["g@ @mailingOptions@keepMailSpace"] = 0,
+	["p@Default@userData@items"] = {
+	},
+	["f@Horde - Grobbulus@internalData@csvAuctionDBScan"] = "",
+	["g@ @mailingOptions@sendMessages"] = true,
+	["_syncAccountKey"] = {
+		["Horde - Grobbulus"] = "Horde - Grobbulus - 531528114",
+	},
+	["g@ @userData@savedAuctioningSearches"] = {
+	},
+	["s@Samoanslayer - Horde - Grobbulus@internalData@bankQuantity"] = {
+	},
+	["s@Samoanslayer - Horde - Grobbulus@internalData@mailQuantity"] = {
+	},
+	["c@Samoanslayer - Grobbulus@internalData@auctionSaleHints"] = {
+	},
+	["g@ @tooltipOptions@embeddedTooltip"] = true,
+	["g@ @mailingOptions@resendDelay"] = 1,
+	["g@ @craftingOptions@ignoreCDCraftCost"] = true,
+	["g@ @internalData@mainUIFrameContext"] = {
+		["width"] = 948,
+		["height"] = 757,
+		["scale"] = 1,
+		["centerY"] = 0,
+		["page"] = 1,
+		["centerX"] = 0,
+	},
+	["f@Horde - Grobbulus@auctioningOptions@whitelist"] = {
+	},
+	["g@ @tooltipOptions@millTooltip"] = true,
+	["p@Default@internalData@auctioningTabGroupContext"] = {
+	},
+	["g@ @craftingOptions@ignoreCharacters"] = {
+	},
+	["g@ @shoppingOptions@maxDeSearchPercent"] = 100,
+	["g@ @shoppingOptions@maxDeSearchLvl"] = 735,
+	["g@ @tooltipOptions@moduleTooltips"] = {
+		["AuctionDB"] = {
+			["regionMinBuyout"] = false,
+			["regionHistorical"] = false,
+			["historical"] = false,
+			["regionSalePercent"] = true,
+			["minBuyout"] = true,
+			["regionMarketValue"] = true,
+			["regionSale"] = true,
+			["marketValue"] = true,
+			["regionSoldPerDay"] = true,
+		},
+		["Auctioning"] = {
+			["operationPrices"] = false,
+		},
+		["Crafting"] = {
+			["matPrice"] = false,
+			["craftingCost"] = true,
+			["detailedMats"] = false,
+		},
+		["Accounting"] = {
+			["sale"] = true,
+			["expiredAuctions"] = false,
+			["cancelledAuctions"] = false,
+			["saleRate"] = false,
+			["purchase"] = true,
+		},
+		["Shopping"] = {
+			["maxPrice"] = false,
+		},
+	},
+	["f@Horde - Grobbulus@gatheringContext@professions"] = {
+	},
+	["g@ @mailingOptions@inboxMessages"] = true,
+	["g@ @destroyingOptions@autoStack"] = true,
+	["_version"] = 53,
+	["g@ @tooltipOptions@prospectTooltip"] = true,
+	["g@ @tooltipOptions@transformTooltip"] = true,
+	["f@Horde - Grobbulus@internalData@expiringMail"] = {
+	},
+	["g@ @userData@destroyingIgnore"] = {
+	},
+	["g@ @mailingOptions@openMailSound"] = "TSM_NO_SOUND",
+	["g@ @internalData@taskListUIFrameContext"] = {
+		["topRightY"] = -10,
+		["isOpen"] = true,
+		["topRightX"] = -220,
+		["minimized"] = false,
+	},
+	["g@ @destroyingOptions@autoShow"] = true,
+	["p@Default@internalData@bankingMailingGroupTreeContext"] = {
+	},
+	["g@ @tooltipOptions@vendorSellTooltip"] = true,
+	["g@ @coreOptions@minimapIcon"] = {
+		["minimapPos"] = 220,
+		["radius"] = 80,
+		["hide"] = false,
+	},
+	["p@Default@internalData@importGroupTreeContext"] = {
+	},
+	["g@ @userData@vendoringIgnore"] = {
+	},
+	["f@Horde - Grobbulus@internalData@expiringAuction"] = {
+	},
+	["f@Horde - Grobbulus@internalData@characterGuilds"] = {
+	},
+	["f@Horde - Grobbulus@internalData@pendingMail"] = {
+		["Samoanslayer"] = {
+		},
+	},
+	["p@Default@internalData@bankUIBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["r@Grobbulus@internalData@saveTimeCancels"] = "",
+	["f@Horde - Grobbulus@internalData@crafts"] = {
+	},
+	["p@Default@internalData@managementGroupTreeContext"] = {
+	},
+	["f@Horde - Grobbulus@internalData@mailExcessGoldLimit"] = 10000000000,
+	["_currentProfile"] = {
+		["Samoanslayer - Grobbulus"] = "Default",
+	},
+	["g@ @tooltipOptions@vendorBuyTooltip"] = true,
+	["_syncOwner"] = {
+		["Samoanslayer - Horde - Grobbulus"] = "Horde - Grobbulus - 531528114",
+	},
+	["p@Default@internalData@exportGroupTreeContext"] = {
+	},
+	["g@ @auctioningOptions@matchWhitelist"] = true,
+	["g@ @auctioningOptions@confirmCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @mailingOptions@recentlyMailedList"] = {
+	},
+	["p@Default@internalData@craftingGroupTreeContext"] = {
+	},
+	["g@ @coreOptions@destroyValueSource"] = "dbmarket",
+	["g@ @tooltipOptions@inventoryTooltipFormat"] = "full",
+	["g@ @vendoringOptions@displayMoneyCollected"] = false,
+	["g@ @tooltipOptions@customPriceTooltips"] = {
+	},
+	["g@ @tooltipOptions@detailedDestroyTooltip"] = false,
+	["p@Default@internalData@bankUIGBankFramePosition"] = {
+		100, -- [1]
+		300, -- [2]
+	},
+	["g@ @vendoringOptions@qsMarketValue"] = "dbmarket",
+	["g@ @tooltipOptions@operationTooltips"] = {
+	},
+	["g@ @internalData@craftingUIFrameContext"] = {
+		["width"] = 820,
+		["height"] = 587,
+		["scale"] = 1,
+		["centerY"] = 0,
+		["page"] = 1,
+		["centerX"] = -200,
+	},
+}
+TSMItemInfoDB = {
+	["locale"] = "enUS",
+	["revision"] = "35395",
+	["version"] = 6,
+	["names"] = "Unadorned Seal of AscensionAquadynamic Fish AttractorDense DynamiteHealing PotionElixir of the MongooseHot Wolf RibsHeavy Runecloth BandageScroll of Strength IVScroll of Agility IVElixir of GiantsSmoked Desert DumplingsGold Hakkari BijouRuneclothTruesilver OreTin OreLesser Astral EssenceSmall Brilliant ShardLarge Brilliant ShardLesser Mystic EssenceGold OreLesser Eternal EssenceSoul DustLesser Magic EssenceLesser Nether EssenceSilver OreDream DustGreater Astral EssenceStrange DustLarge Radiant ShardIron OreEarthrootIllusion DustGreater Magic EssenceSmall Glowing ShardMithril OreLarge Glimmering ShardThorium OreLarge Glowing ShardSmall Glimmering ShardNexus CrystalSmall Radiant ShardGreater Eternal EssenceGreater Nether EssenceVision DustGreater Mystic EssenceZorbin's Ultra-ShrinkerRunecloth BandageLarge Rope NetSix Demon BagWool BandageVoodoo CharmScroll of StaminaHeavy Linen BandageLinen BandageMistletoeHeavy Wool BandageMageweave BandageSilk BandageHeavy Mageweave BandageHeavy Silk BandageVessel of RebirthDormant Wind Kissed BladeReliquary of PurityDecoded Tablet TranscriptionBindings of the WindseekerBindings of the WindseekerEssence of the FirelordElementium BarEmber of EmberseerCinder of CyndersExtra-Dimensional Ghost RevealerHallowed BrazierIncendicite of IncendiusEctoplasmic DistillerStable EctoplasmFrozen EctoplasmScorched EctoplasmDruidical RemainsTwilight Tablet FragmentGlyphs of CallingBlooddrenched MaskBloodseekerKromcrush's ChestplateDon Julio's BandBlackhand's BreadthSeal of the Gurubashi BerserkerLeggings of DestructionBattleborn ArmbracesSleeveless T-ShirtEmberfury TalismanSerathilHand of JusticeBrigam GirdleFrostbiteGloves of the TormentedPads of the Dread WolfSpaulders of ValorZulian Tigerhide CloakJourneyman's BackpackHorn of the Dire Wolf",
+	["itemStrings"] = "i:12219i:6533i:18641i:929i:13452i:13851i:14530i:10310i:10309i:9206i:20452i:19715i:14047i:52721i:36912i:108300i:108306i:109991i:152545i:21885i:113588i:111663i:111664i:111666i:22574i:23426i:7911i:74252i:111589i:22452i:111650i:53038i:2771i:22573i:10998i:111669i:37701i:21884i:111659i:22447i:14343i:108298i:36860i:111656i:111668i:97512i:14344i:11134i:34056i:23424i:109119i:22578i:72092i:108303i:108391i:111665i:36910i:108301i:2776i:108294i:16202i:22572i:22577i:108295i:37704i:11083i:10938i:11174i:108307i:111658i:109144i:152548i:34052i:2775i:108309i:108299i:22451i:115502i:152547i:52719i:22576i:109141i:111595i:52185i:108305i:109143i:152546i:21886i:37703i:152544i:111601i:109137i:109138i:11176i:37705i:36909i:11082i:115504i:22457i:10940i:34053i:11178i:35627i:37700i:35625i:152543i:111651i:111674i:111652i:52718i:52720i:2772i:2449i:111675i:111667i:109139i:108308i:108302i:108319i:111673i:108297i:108296i:16204i:37702i:35622i:10939i:35623i:111662i:11138i:111676i:3858i:11084i:10620i:11139i:160711i:22575i:111671i:111672i:22456i:109142i:74247i:111670i:23427i:10978i:23425i:52183i:109140i:20725i:152549i:108304i:34055i:11177i:111245i:16203i:11175i:11137i:22446i:35624i:11135i:18904i:14529i:835i:7734i:3530i:8149i:1180i:2581i:1251i:21519i:3531i:8544i:6450i:8545i:6451i:19016i:19018i:22201i:20405i:18563i:18564i:19017i:17771i:21988i:21989i:22115i:22014i:21987i:21946i:21935i:21936i:21937i:22226i:20378i:20464i:22718i:19107i:18503i:19325i:13965i:22722i:18524i:12936i:18231i:12929i:13015i:11815i:13142i:19103i:22715i:13210i:16733i:19907i:3914i:5665",
+	["data"] = "BAAAAAAAABAAtIhAAMABAAeAAA-AAAAUAAetgAAHDBAAtAAA0HAAAUAASpgAAHCBAAWAMALBAAAFAAv6gAAAABAA4AuAiTAAAFAAc6gAAAABAAjAZA4EAAAUAA0tgAAAABAA6AAAoPAAAUAAyogAAAABAABB3A9BAAAFAAa8gAAAABAABB3A9BAAAFAAa8gAAAABAAwAmA8KAAAFAA56gAAAABAA3AtA6DAAAUAAEugAAAABAA9A6AAAAAA6DAwWgAAMADAAyAAAQGAAAUAAncgAAHABAA______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________oAAA0HAAAKAA02gAAHACAA______________________________________________________________________________________________________________UAAAZAAAAKAAz2gAAHABAA______________________UAAAAAAAAKAA_bgAAHACAA______________________________________________________________________________________________________________yAAAAAAAAUAAKcgAAHADAA______________________________________________________________________________________________________________3AAAAAAAAUAAJcgAAHADAAeAAAAAAAAKAAFcgAAHACAA____________________________________________________________________________________________________________________________________________________________________________________________________________________________ZAAA0HAAAKAAm2gAAHACAA______________________yAAAAAAAAKAABcgAAHACAA________________________________________________________________________________________ZAAAAAAAAUAA5bgAAHABAAKAAAAAAAAKAADcgAAHACAAoAAAAAAAAKAAHcgAAHACAA______________________________________________________________________________________________________________KAAALBAAAKAAKBhAAHACAA__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________tAAAAAAAAUAA3bgAAHABAA____________________________________________ZAAAAAAAAKAA-bgAAHACAA____________________________________________KAAAAAAAAUAA6bgAAHABAA______________________tAAAAAAAAUAATcgAAHADAA______________________________________________________________________________________________________________________________________________________________________________________________________eAAAWCAAAKAAs2gAAHABAAFAAAUAAAAUAArwgAAHABAA______________________________________________________________________________________________________________________________________________________________________________________________________3AAAAAAAAUAA4bgAAHABAA____________________________________________PAAAAAAAAKAACcgAAHACAA____________________________________________eAAAAAAAAUAAPcgAAHADAA______________________oAAA6DAAAKAAw2gAAHABAAZAAAAAAAAUAAMcgAAHADAAoAAA6DAAAKAAy2gAAHABAAjAAAAAAAAUAAOcgAAHADAA______________________________________________________________________________________________________________________________________________________________________________________________________UAAAAAAAAUAANcgAAHADAA__________________________________________________________________8AAAAAAAAUAAQcgAAHAEAA__________________________________________________________________oAAAAAAAAUAAUcgAAHADAA______________________3AAAAAAAAKAAAcgAAHACAAtAAAAAAAAKAAGcgAAHACAAjAAAAAAAAUAA7bgAAHABAA____________________________________________jAAAAAAAAKAAEcgAAHACAABAAAAAAAABAALegAAMABBA0AAA0HAAAUAAxogAAAABAAMACAXAAAABAA1ygAAAABBAzAuAHyDAABAM2ngAAEADAABAAAcAAAAUAA0ogAAAABAABAAAAAAAABAAWWgAAMABBAPAFAlAAAAFAAf8gAAAABAABAAAUAAAAUAA4ogAAAABAABAAAKAAAAUAA1ogAAAABAABAAAAAAAAUAAtwgAAPABBABAAA5AAAAUAA3ogAAAABAABAAAQGAAAUAA5ogAAAABAABAAAIDAAAUAAnogAAAABAABAAAYJAAAUAA6ogAAAABAABAAAQGAAAUAAoogAAAABAAGB8AAAAAABAAOcgAAMAFBAQB8AAAAAABAA1ChAAMAFBABAAAAAAAABAAzXgAAMABBAAAAAAAAAABAA7ygAAAABAAGBAAAAAAABAA0MhAAPAFBAGBAAAAAAABAA0MhAAPAFBABAAAAAAAABAASKhAAMAFBA8AAAgaYAAKAAzhgAAHAFAABAAAAAAAABAAiUgAAMABBABAAAAAAAABAA9JhAAMABBABAAAAAAAABAA2rgAAMABBABAAAVYRBABAA3rgAAMABBABAAAAAAAABAAx2gAAMABBABAAAAAAAABAA6rgAAMABBABAAAAAAAAUAAZ6gAAMABBABAAAAAAAAUAAQ6gAAMABBABAAAAAAAAUAAd6gAAMABBABAAAAAAAABAAXpgAAMABBABABAAAAAAUAAT0gAAMABBABAAAAAAAABAAAQhAAPABBAEB8A67GAABABXggAAECDBA_AAALyKAABAAwFhAACSDBA-A5A5fFAABAUcYgAAEEDBABB8AYHuAABALBkgAAEAEBA_AAA69DAABAMkngAAEADBABB8AeoPAABALyjgAAEAEBA_A6AMsIAABAH32gAAEDDBA_A6A41CAABAJIYgAAEEDBABAAApFAAABAEo9gAAPAAAA9A4A-yEAABACsigAAEADBA9A4AFLNAABANvUgAACADAA6A1AQcCAABAM6kgAAEADBA_A6A61CAABAGqWgAAEEDBABB8A_nPAABANAVgAACADBAEB8AUfFAABAKQdgAAEDDBA8A3AoZEAABAIwXgAAECDBA8A3AntDAABADV-gAAEEDBAEB8AXSFAABAQCqgAAEBDBAtAAAqhBAABAS9ngAABABAAoAoAAAAAABAAqSgAAPADAA",
+	["build"] = "1.13.5",
+}

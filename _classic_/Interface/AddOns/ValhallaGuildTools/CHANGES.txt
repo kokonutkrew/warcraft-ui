@@ -1,24 +1,34 @@
-lightweight tag 5572c7821cc56a01eabba2b56bb512bd17de588c 11305.69
+lightweight tag d3355db5fa3ccf21f814daa744dcb8c2961c63b3 11305.70
 Author:	Patrick Schmidt <prs100791@gmail.com>
-Date:	Fri Aug 21 02:30:45 2020 -0500
+Date:	Sun Aug 23 19:29:25 2020 -0500
 
-commit 5572c7821cc56a01eabba2b56bb512bd17de588c
+commit d3355db5fa3ccf21f814daa744dcb8c2961c63b3
 Author: Patrick Schmidt <prs100791@gmail.com>
-Date:   Fri Aug 21 02:30:45 2020 -0500
+Date:   Sun Aug 23 19:29:25 2020 -0500
 
-    Bump toc
+    Remove global position channel for now
 
-commit d685a789e373d190d8fd8eeee4d502d6af864f2a
-Author: Patrick Schmidt <prs100791@gmail.com>
-Date:   Fri Aug 21 02:29:49 2020 -0500
+commit 32c983b54a80677348b176f64958fad055cc84c4
+Author: Donovan Sullivan <Elite747@live.com>
+Date:   Fri Aug 21 20:52:39 2020 -0700
 
-    add github workflow for auto release
+    Fixed formatting.
 
-commit 07ff367364da73d614c7212cb1d9100450fbafdb
-Author: Patrick Schmidt <prs100791@gmail.com>
-Date:   Fri Aug 21 02:26:21 2020 -0500
+commit 88cc919c418f050c48a7c62676a97f2820cd07dd
+Author: Donovan Sullivan <Elite747@live.com>
+Date:   Fri Aug 21 20:48:46 2020 -0700
 
-    Cleaned up code, added tracking for AQ20
-    
-    WIP cross guild map sync feature using VGTMAP global channel
+    Changed unintentional global to local.
+
+commit d0d6563a56fd14b21603eb69cb62562a3262a522
+Author: Donovan Sullivan <Elite747@live.com>
+Date:   Fri Aug 21 20:36:45 2020 -0700
+
+    Moved version & user checking into separate files.
+
+commit de9cc574cdc566c3e6e7b1e8d2a6e9f7110b376b
+Author: Donovan Sullivan <Elite747@live.com>
+Date:   Fri Aug 21 19:44:16 2020 -0700
+
+    Added .vscode to gitignore
 

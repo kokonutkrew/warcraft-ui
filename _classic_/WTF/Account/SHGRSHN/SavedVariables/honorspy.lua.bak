@@ -1,0 +1,12 @@
+
+HonorSpyDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Grobbulus"] = "Default",
+	},
+	["factionrealm"] = {
+		["Horde - Grobbulus"] = {
+			["actualCommPrefix"] = "HonorSpy4",
+			["last_reset"] = 1598367600,
+		},
+	},
+}

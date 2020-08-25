@@ -1,0 +1,7 @@
+SET flaggedTutorials "v"
+SET actionedAdventureJournalEntries "v"
+SET guildShowOffline "0"
+SET guildMemberNotify "0"
+SET cameraDistanceMaxZoomFactor "1"
+SET showKeyring "1"
+SET AllowDangerousScripts "1"

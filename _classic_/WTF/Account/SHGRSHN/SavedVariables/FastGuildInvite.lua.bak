@@ -1,0 +1,18 @@
+
+FGI_DB = {
+	["global"] = {
+		["introShow"] = false,
+	},
+	["profileKeys"] = {
+		["Samoanslayer - Grobbulus"] = "Default",
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

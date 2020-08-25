@@ -133,7 +133,7 @@ local formatTooltip = function(player, distance)
   text = text .. formatPlayerTooltip(player, class)
 
   for _, otherPlayer in pairs(players) do
-    if (otherPlayer ~= player and otherPlayer.X ~= nil and otherPlayer.Y ~= nil and player.X ~= nil and player.Y ~= nil and (abs(player.X - otherPlayer.X) + abs(player.Y - otherPlayer.Y) < distance)) then
+    if (otherPlayer ~= player and otherPlayer.X ~= nil and otherPlayer.Y ~= nil and player.X ~= nil and player.Y ~= nil and (math.abs(player.X - otherPlayer.X) + math.abs(player.Y - otherPlayer.Y) < distance)) then
       text = text .. NEW_LINE .. formatPlayerTooltip(otherPlayer, otherPlayer.Class)
     end
   end
@@ -519,15 +519,15 @@ function VGT.Map_Initialize()
       FRAME:RegisterEvent("PLAYER_TARGET_CHANGED")
       FRAME:SetScript("OnEvent", onEvent)
       FRAME:SetScript("OnUpdate", main)
-      JoinChannelByName("VGTMAP", "7cd3b0c3")
-      hooksecurefunc("SendChatMessage", sendMyLocationChat)
-      hooksecurefunc("AssistUnit", sendMyLocationChat)
-      hooksecurefunc("TargetUnit", sendMyLocationChat)
-      hooksecurefunc("TargetLastFriend", sendMyLocationChat)
-      hooksecurefunc("TargetLastTarget", sendMyLocationChat)
-      hooksecurefunc("UseAction", sendMyLocationChat)
-      hooksecurefunc("CastSpellByName", sendMyLocationChat)
-      hooksecurefunc("SpellTargetUnit", sendMyLocationChat)
+    --JoinChannelByName("VGTMAP", "7cd3b0c3")
+    -- hooksecurefunc("SendChatMessage", sendMyLocationChat)
+    -- hooksecurefunc("AssistUnit", sendMyLocationChat)
+    -- hooksecurefunc("TargetUnit", sendMyLocationChat)
+    -- hooksecurefunc("TargetLastFriend", sendMyLocationChat)
+    -- hooksecurefunc("TargetLastTarget", sendMyLocationChat)
+    -- hooksecurefunc("UseAction", sendMyLocationChat)
+    -- hooksecurefunc("CastSpellByName", sendMyLocationChat)
+    -- hooksecurefunc("SpellTargetUnit", sendMyLocationChat)
     end
   end
 end

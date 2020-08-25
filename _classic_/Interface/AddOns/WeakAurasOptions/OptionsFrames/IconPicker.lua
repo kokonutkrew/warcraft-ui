@@ -22,7 +22,7 @@ local function ConstructIconPicker(frame)
   group.frame:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -17, 30); -- 12
   group.frame:SetPoint("TOPLEFT", frame, "TOPLEFT", 17, -50);
   group.frame:Hide();
-  group:SetLayout("flow");
+  group:SetLayout("fill");
 
   local scroll = AceGUI:Create("ScrollFrame");
   scroll:SetLayout("flow");
@@ -48,27 +48,40 @@ local function ConstructIconPicker(frame)
     end
 
     local usedIcons = {};
+    local AddButton = function(name, icon)
+      local button = AceGUI:Create("WeakAurasIconButton");
+      button:SetName(name);
+      button:SetTexture(icon);
+      button:SetClick(function()
+        group:Pick(icon);
+      end);
+      scroll:AddChild(button);
+
+      usedIcons[icon] = true;
+    end
+
     local num = 0;
     if(subname and subname ~= "") then
       for name, icons in pairs(spellCache.Get()) do
-        local bestDistance = math.huge;
-        local bestName;
         if(name:lower():find(subname, 1, true)) then
-
-          for spellId, icon in pairs(icons) do
-            if (not usedIcons[icon]) then
-              local button = AceGUI:Create("WeakAurasIconButton");
-              button:SetName(name);
-              button:SetTexture(icon);
-              button:SetClick(function()
-                group:Pick(icon);
-              end);
-              scroll:AddChild(button);
-
-              usedIcons[icon] = true;
-              num = num + 1;
-              if(num >= 500) then
-                break;
+          if icons.spells then
+            for spellId, icon in pairs(icons.spells) do
+              if (not usedIcons[icon]) then
+                AddButton(name, icon)
+                num = num + 1;
+                if(num >= 500) then
+                  break;
+                end
+              end
+            end
+          elseif icons.achievements then
+            for _, icon in pairs(icons.achievements) do
+              if (not usedIcons[icon]) then
+                AddButton(name, icon)
+                num = num + 1;
+                if(num >= 500) then
+                  break;
+                end
               end
             end
           end
@@ -88,7 +101,6 @@ local function ConstructIconPicker(frame)
   input:SetWidth(170);
   input:SetHeight(15);
   input:SetPoint("BOTTOMRIGHT", group.frame, "TOPRIGHT", -12, -5);
-  WeakAuras.input = input;
 
   local inputLabel = input:CreateFontString(nil, "OVERLAY", "GameFontNormal");
   inputLabel:SetText(L["Search"]);
@@ -113,15 +125,13 @@ local function ConstructIconPicker(frame)
         if(childData) then
           childData[self.field] = texturePath;
           WeakAuras.Add(childData);
-          WeakAuras.SetThumbnail(childData);
-          WeakAuras.SetIconNames(childData);
+          WeakAuras.UpdateThumbnail(childData);
         end
       end
     else
       self.data[self.field] = texturePath;
       WeakAuras.Add(self.data);
-      WeakAuras.SetThumbnail(self.data);
-      WeakAuras.SetIconNames(self.data);
+      WeakAuras.UpdateThumbnail(self.data);
     end
     local success = icon:SetTexture(texturePath) and texturePath;
     if(success) then
@@ -147,19 +157,15 @@ local function ConstructIconPicker(frame)
       self.givenPath = self.data[self.field];
     end
     -- group:Pick(self.givenPath);
-    frame.container.frame:Hide();
-    frame.buttonsContainer.frame:Hide();
-    self.frame:Show();
     frame.window = "icon";
+    frame:UpdateFrameVisible()
     input:SetText("");
   end
 
   function group.Close()
-    group.frame:Hide();
-    frame.container.frame:Show();
-    frame.buttonsContainer.frame:Show();
     frame.window = "default";
-    AceConfigDialog:Open("WeakAuras", frame.container);
+    frame:UpdateFrameVisible()
+    WeakAuras.FillOptions()
   end
 
   function group.CancelClose()
@@ -169,8 +175,7 @@ local function ConstructIconPicker(frame)
         if(childData) then
           childData[group.field] = group.givenPath[childId] or childData[group.field];
           WeakAuras.Add(childData);
-          WeakAuras.SetThumbnail(childData);
-          WeakAuras.SetIconNames(childData);
+          WeakAuras.UpdateThumbnail(childData);
         end
       end
     else
@@ -193,7 +198,6 @@ local function ConstructIconPicker(frame)
   close:SetWidth(100);
   close:SetText(L["Okay"]);
 
-  scroll.frame:SetPoint("BOTTOM", close, "TOP", 0, 10);
   return group
 end
 

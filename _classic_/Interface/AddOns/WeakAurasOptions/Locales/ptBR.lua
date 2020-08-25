@@ -7,21 +7,16 @@ end
 local L = WeakAuras.L
 
 -- WeakAuras/Options
-	L[" by "] = "por"
 	L["-- Do not remove this comment, it is part of this trigger: "] = "-- Não remova este comentário, ele é parte deste gatilho:"
-	L[" to version "] = "para versão"
 	L["% of Progress"] = "% do progresso"
-	--[[Translation missing --]]
-	L["%i auras selected"] = "%i auras selected"
+	L["%i auras selected"] = "%i auras selecionadas"
 	L["%i Matches"] = "%i resultados"
-	--[[Translation missing --]]
-	L["%s - Option #%i has the key %s. Please choose a different option key."] = "%s - Option #%i has the key %s. Please choose a different option key."
+	L["%s - Option #%i has the key %s. Please choose a different option key."] = "%s - Option #%i possui a chave %s. Por favor, selecione uma opção diferente de chave."
 	--[[Translation missing --]]
 	L["%s %s, Lines: %d, Frequency: %0.2f, Length: %d, Thickness: %d"] = "%s %s, Lines: %d, Frequency: %0.2f, Length: %d, Thickness: %d"
 	--[[Translation missing --]]
 	L["%s %s, Particles: %d, Frequency: %0.2f, Scale: %0.2f"] = "%s %s, Particles: %d, Frequency: %0.2f, Scale: %0.2f"
-	--[[Translation missing --]]
-	L["%s Alpha: %d%%"] = "%s Alpha: %d%%"
+	L["%s Alpha: %d%%"] = "%s Transparência: %d%%"
 	L["%s Color"] = "%s Cor"
 	--[[Translation missing --]]
 	L["%s Default Alpha, Zoom, Icon Inset, Aspect Ratio"] = "%s Default Alpha, Zoom, Icon Inset, Aspect Ratio"
@@ -29,8 +24,7 @@ local L = WeakAuras.L
 	L["%s Inset: %d%%"] = "%s Inset: %d%%"
 	--[[Translation missing --]]
 	L["%s is not a valid SubEvent for COMBAT_LOG_EVENT_UNFILTERED"] = "%s is not a valid SubEvent for COMBAT_LOG_EVENT_UNFILTERED"
-	--[[Translation missing --]]
-	L["%s Keep Aspect Ratio"] = "%s Keep Aspect Ratio"
+	L["%s Keep Aspect Ratio"] = "%s Manter Proporção"
 	L["%s total auras"] = "%s auras totais"
 	--[[Translation missing --]]
 	L["%s Zoom: %d%%"] = "%s Zoom: %d%%"
@@ -41,9 +35,11 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["%s, offset: %0.2f;%0.2f"] = "%s, offset: %0.2f;%0.2f"
 	--[[Translation missing --]]
-	L["|c%02x%02x%02x%02xColor|r"] = "|c%02x%02x%02x%02xColor|r"
+	L["(Right click to rename)"] = "(Right click to rename)"
 	--[[Translation missing --]]
-	L["|cFFA9A9A9--Please Create an Entry--"] = "|cFFA9A9A9--Please Create an Entry--"
+	L["|c%02x%02x%02x%02xCustom Color|r"] = "|c%02x%02x%02x%02xCustom Color|r"
+	--[[Translation missing --]]
+	L["|cFFFF0000Note:|r The unit '%s' is not a trackable unit."] = "|cFFFF0000Note:|r The unit '%s' is not a trackable unit."
 	--[[Translation missing --]]
 	L["|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r"] = "|cFFffcc00Anchors:|r Anchored |cFFFF0000%s|r to frame's |cFFFF0000%s|r"
 	--[[Translation missing --]]
@@ -56,6 +52,10 @@ local L = WeakAuras.L
 	L["|cFFffcc00Extra Options:|r"] = "|cFFffcc00Extra Options:|r"
 	--[[Translation missing --]]
 	L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s"] = "|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s"
+	--[[Translation missing --]]
+	L["|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"] = "|cFFffcc00Font Flags:|r |cFFFF0000%s|r and shadow |c%sColor|r with offset |cFFFF0000%s/%s|r%s%s%s"
+	--[[Translation missing --]]
+	L["|cFFffcc00Format Options|r"] = "|cFFffcc00Format Options|r"
 	L["1 Match"] = "1 resultado"
 	L["A 20x20 pixels icon"] = "Um ícone de 20x20 pixels"
 	L["A 32x32 pixels icon"] = "Um ícone de 32x32 pixels"
@@ -66,6 +66,8 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["A Unit ID (e.g., party1)."] = "A Unit ID (e.g., party1)."
 	L["Actions"] = "Ações"
+	--[[Translation missing --]]
+	L["Add"] = "Add"
 	--[[Translation missing --]]
 	L["Add %s"] = "Add %s"
 	L["Add a new display"] = "Adicionar um novo display"
@@ -79,11 +81,12 @@ local L = WeakAuras.L
 	L["Add Overlay"] = "Add Overlay"
 	L["Add Property Change"] = "Adicionar mudança de propriedade"
 	--[[Translation missing --]]
+	L["Add Snippet"] = "Add Snippet"
+	--[[Translation missing --]]
 	L["Add Sub Option"] = "Add Sub Option"
 	L["Add to group %s"] = "Adicionar ao grupo %s"
 	L["Add to new Dynamic Group"] = "Adicionar a um novo Grupo Dinâmico"
 	L["Add to new Group"] = "Adicionar a um novo Grupo"
-	L["Add Trigger"] = "Adicionar Gatilho"
 	L["Addon"] = "Addon"
 	L["Addons"] = "Addons"
 	L["Advanced"] = "Avançado"
@@ -106,6 +109,8 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["and rotated right"] = "and rotated right"
 	L["and Trigger %s"] = "e gatilho %s"
+	--[[Translation missing --]]
+	L["and with width |cFFFF0000%s|r and %s"] = "and with width |cFFFF0000%s|r and %s"
 	L["Angle"] = "Ângulo"
 	L["Animate"] = "Animar"
 	L["Animated Expand and Collapse"] = "Animação expande e esvai"
@@ -149,13 +154,13 @@ WeakAuras → Opções → Opções ]=]
 	L["Automatic"] = "Automatic"
 	L["Automatic Icon"] = "Ícone automático"
 	--[[Translation missing --]]
+	L["Automatic length"] = "Automatic length"
+	--[[Translation missing --]]
 	L["Backdrop Color"] = "Backdrop Color"
 	--[[Translation missing --]]
 	L["Backdrop in Front"] = "Backdrop in Front"
 	--[[Translation missing --]]
 	L["Backdrop Style"] = "Backdrop Style"
-	--[[Translation missing --]]
-	L["Background"] = "Background"
 	L["Background Color"] = "Cor de fundo"
 	L["Background Offset"] = "Posicionamento do fundo"
 	L["Background Texture"] = "Textura do fundo"
@@ -198,7 +203,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Bottom Right"] = "Bottom Right"
 	--[[Translation missing --]]
 	L["Bracket Matching"] = "Bracket Matching"
-	L["Button Glow"] = "Iluminar botão"
 	--[[Translation missing --]]
 	L["Can be a Name or a Unit ID (e.g. party1). A name only works on friendly players in your group."] = "Can be a Name or a Unit ID (e.g. party1). A name only works on friendly players in your group."
 	--[[Translation missing --]]
@@ -206,13 +210,13 @@ WeakAuras → Opções → Opções ]=]
 	L["Cancel"] = "Cancelar"
 	--[[Translation missing --]]
 	L["Center"] = "Center"
-	L["Channel Number"] = "Número do canal"
 	L["Chat Message"] = "Mensagem do Chat"
 	L["Check On..."] = "Verificar..."
 	L["Children:"] = "Criança:"
 	L["Choose"] = "Escolher"
-	L["Choose Trigger"] = "Escolher o gatilho"
 	L["Choose whether the displayed icon is automatic or defined manually"] = "Escolher se o ícone mostrado é automático ou definido manualmente"
+	--[[Translation missing --]]
+	L["Class"] = "Class"
 	--[[Translation missing --]]
 	L["Clip Overlays"] = "Clip Overlays"
 	--[[Translation missing --]]
@@ -265,7 +269,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Copy settings..."] = "Copiar configurações"
 	--[[Translation missing --]]
 	L["Copy to all auras"] = "Copy to all auras"
-	L["Copy URL"] = "Copiar URL"
+	--[[Translation missing --]]
+	L["Copy URL"] = "Copy URL"
 	L["Count"] = "Contar"
 	--[[Translation missing --]]
 	L["Counts the number of matches over all units."] = "Counts the number of matches over all units."
@@ -278,6 +283,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Custom Anchor"] = "Custom Anchor"
 	L["Custom Code"] = "Código personalizado"
+	--[[Translation missing --]]
+	L["Custom Color"] = "Custom Color"
 	--[[Translation missing --]]
 	L["Custom Configuration"] = "Custom Configuration"
 	--[[Translation missing --]]
@@ -309,14 +316,14 @@ WeakAuras → Opções → Opções ]=]
 	L["Delete children and group"] = "Delete children and group"
 	--[[Translation missing --]]
 	L["Delete Entry"] = "Delete Entry"
-	L["Delete Trigger"] = "Apagar gatilho"
 	L["Desaturate"] = "Descolorir"
 	L["Description Text"] = "Texto Descritivo"
 	--[[Translation missing --]]
 	L["Determines how many entries can be in the table."] = "Determines how many entries can be in the table."
 	L["Differences"] = "Diferenças"
-	L["Disable Import"] = "Desabilitar Importação"
 	L["Disabled"] = "Desabilitar"
+	--[[Translation missing --]]
+	L["Disallow Entry Reordering"] = "Disallow Entry Reordering"
 	L["Discrete Rotation"] = "Rotação discreta"
 	L["Display"] = "Mostruário"
 	L["Display Icon"] = "Ícone do mostruário"
@@ -333,8 +340,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Done"] = "Done"
 	--[[Translation missing --]]
 	L["Don't skip this Version"] = "Don't skip this Version"
-	--[[Translation missing --]]
-	L["Down"] = "Down"
 	--[[Translation missing --]]
 	L["Drag to move"] = "Drag to move"
 	--[[Translation missing --]]
@@ -357,7 +362,13 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Dynamic text tooltip"] = "Dynamic text tooltip"
 	--[[Translation missing --]]
+	L["Ease Strength"] = "Ease Strength"
+	--[[Translation missing --]]
+	L["Ease type"] = "Ease type"
+	--[[Translation missing --]]
 	L["Edge"] = "Edge"
+	--[[Translation missing --]]
+	L["eliding"] = "eliding"
 	L["Enabled"] = "Habilitado"
 	--[[Translation missing --]]
 	L["End Angle"] = "End Angle"
@@ -371,6 +382,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Enter Author Mode"] = "Enter Author Mode"
 	--[[Translation missing --]]
+	L["Enter in a value for the tick's placement."] = "Enter in a value for the tick's placement."
+	--[[Translation missing --]]
 	L["Enter User Mode"] = "Enter User Mode"
 	--[[Translation missing --]]
 	L["Enter user mode."] = "Enter user mode."
@@ -378,6 +391,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Entry %i"] = "Entry %i"
 	--[[Translation missing --]]
 	L["Entry limit"] = "Entry limit"
+	--[[Translation missing --]]
+	L["Entry Name Source"] = "Entry Name Source"
 	L["Event"] = "Evento"
 	L["Event Type"] = "Tipo de evento"
 	L["Event(s)"] = "Evento(s)"
@@ -408,7 +423,19 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Fetch Affected/Unaffected Names"] = "Fetch Affected/Unaffected Names"
 	--[[Translation missing --]]
+	L["Filter by Class"] = "Filter by Class"
+	--[[Translation missing --]]
 	L["Filter by Group Role"] = "Filter by Group Role"
+	--[[Translation missing --]]
+	L["Filter by Nameplate Type"] = "Filter by Nameplate Type"
+	--[[Translation missing --]]
+	L[ [=[Filter formats: 'Name', 'Name-Realm', '-Realm'.
+
+Supports multiple entries, separated by commas
+]=] ] = [=[Filter formats: 'Name', 'Name-Realm', '-Realm'.
+
+Supports multiple entries, separated by commas
+]=]
 	L["Finish"] = "Finalizar"
 	--[[Translation missing --]]
 	L["Fire Orb"] = "Fire Orb"
@@ -419,21 +446,33 @@ WeakAuras → Opções → Opções ]=]
 	L["Foreground"] = "Foreground"
 	L["Foreground Color"] = "Cor do primeiro plano"
 	L["Foreground Texture"] = "Textura do primeiro plano"
+	--[[Translation missing --]]
+	L["Format"] = "Format"
+	--[[Translation missing --]]
+	L["Format for %s"] = "Format for %s"
 	L["Frame"] = "Quadro"
+	--[[Translation missing --]]
+	L["Frame Selector"] = "Frame Selector"
 	L["Frame Strata"] = "Camada do quadro"
 	--[[Translation missing --]]
 	L["Frequency"] = "Frequency"
 	--[[Translation missing --]]
 	L["From Template"] = "From Template"
 	--[[Translation missing --]]
-	L["From version "] = "From version "
+	L["From version %s to version %s"] = "From version %s to version %s"
 	--[[Translation missing --]]
 	L["Global Conditions"] = "Global Conditions"
+	--[[Translation missing --]]
+	L["Glow %s"] = "Glow %s"
 	L["Glow Action"] = "Ação incandescente"
+	--[[Translation missing --]]
+	L["Glow Anchor"] = "Glow Anchor"
 	--[[Translation missing --]]
 	L["Glow Color"] = "Glow Color"
 	--[[Translation missing --]]
-	L["Glow Settings"] = "Glow Settings"
+	L["Glow External Element"] = "Glow External Element"
+	--[[Translation missing --]]
+	L["Glow Frame Type"] = "Glow Frame Type"
 	--[[Translation missing --]]
 	L["Glow Type"] = "Glow Type"
 	--[[Translation missing --]]
@@ -456,6 +495,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Group key"] = "Group key"
 	L["Group Member Count"] = "Contagem dos membros do grupo"
 	--[[Translation missing --]]
+	L["Group Options"] = "Group Options"
+	--[[Translation missing --]]
 	L["Group Role"] = "Group Role"
 	--[[Translation missing --]]
 	L["Group Scale"] = "Group Scale"
@@ -469,11 +510,13 @@ WeakAuras → Opções → Opções ]=]
 	L["Hawk"] = "Hawk"
 	L["Height"] = "Altura"
 	--[[Translation missing --]]
+	L["Help"] = "Help"
+	--[[Translation missing --]]
 	L["Hide"] = "Hide"
 	--[[Translation missing --]]
 	L["Hide Cooldown Text"] = "Hide Cooldown Text"
 	--[[Translation missing --]]
-	L["Hide Extra Options"] = "Hide Extra Options"
+	L["Hide Glows applied by this aura"] = "Hide Glows applied by this aura"
 	--[[Translation missing --]]
 	L["Hide on"] = "Hide on"
 	--[[Translation missing --]]
@@ -482,6 +525,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Horizontal Align"] = "Alinhamento horizontal"
 	--[[Translation missing --]]
 	L["Horizontal Bar"] = "Horizontal Bar"
+	--[[Translation missing --]]
+	L["Hostility"] = "Hostility"
 	--[[Translation missing --]]
 	L["Huge Icon"] = "Huge Icon"
 	--[[Translation missing --]]
@@ -508,9 +553,9 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["If checked, then this separator will include text. Otherwise, it will be just a horizontal line."] = "If checked, then this separator will include text. Otherwise, it will be just a horizontal line."
 	--[[Translation missing --]]
-	L["If checked, then this space will span across multiple lines."] = "If checked, then this space will span across multiple lines."
+	L["If checked, then this separator will not merge with other separators when selecting multiple auras."] = "If checked, then this separator will not merge with other separators when selecting multiple auras."
 	--[[Translation missing --]]
-	L["If this option is enabled, you are no longer able to import auras."] = "If this option is enabled, you are no longer able to import auras."
+	L["If checked, then this space will span across multiple lines."] = "If checked, then this space will span across multiple lines."
 	--[[Translation missing --]]
 	L["If Trigger %s"] = "If Trigger %s"
 	--[[Translation missing --]]
@@ -520,10 +565,24 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Ignore all Updates"] = "Ignore all Updates"
 	--[[Translation missing --]]
+	L["Ignore Dead"] = "Ignore Dead"
+	--[[Translation missing --]]
+	L["Ignore Disconnected"] = "Ignore Disconnected"
+	--[[Translation missing --]]
+	L["Ignore out of checking range"] = "Ignore out of checking range"
+	--[[Translation missing --]]
 	L["Ignore Self"] = "Ignore Self"
 	--[[Translation missing --]]
 	L["Ignore self"] = "Ignore self"
 	L["Ignored"] = "Ignorado"
+	--[[Translation missing --]]
+	L["Ignored Aura Name"] = "Ignored Aura Name"
+	--[[Translation missing --]]
+	L["Ignored Exact Spell ID(s)"] = "Ignored Exact Spell ID(s)"
+	--[[Translation missing --]]
+	L["Ignored Name(s)"] = "Ignored Name(s)"
+	--[[Translation missing --]]
+	L["Ignored Spell ID"] = "Ignored Spell ID"
 	L["Import"] = "Importar"
 	L["Import a display from an encoded string"] = "Importar um display de um string codificado"
 	--[[Translation missing --]]
@@ -568,10 +627,14 @@ WeakAuras → Opções → Opções ]=]
 	L["Loop"] = "Loop"
 	--[[Translation missing --]]
 	L["Low Mana"] = "Low Mana"
+	--[[Translation missing --]]
+	L["Magnetically Align"] = "Magnetically Align"
 	L["Main"] = "Principal"
 	L["Manage displays defined by Addons"] = "Gerencia os displays definidos por addons"
 	--[[Translation missing --]]
 	L["Match Count"] = "Match Count"
+	--[[Translation missing --]]
+	L["Matches the height setting of a horizontal bar or width for a vertical bar."] = "Matches the height setting of a horizontal bar or width for a vertical bar."
 	--[[Translation missing --]]
 	L["Max"] = "Max"
 	--[[Translation missing --]]
@@ -599,6 +662,8 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Move Down"] = "Move Down"
 	--[[Translation missing --]]
+	L["Move Entry Down"] = "Move Entry Down"
+	--[[Translation missing --]]
 	L["Move Entry Up"] = "Move Entry Up"
 	--[[Translation missing --]]
 	L["Move Into Above Group"] = "Move Into Above Group"
@@ -611,7 +676,6 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Move Up"] = "Move Up"
 	L["Multiple Displays"] = "Múltiplos displays"
-	L["Multiple Triggers"] = "Múltiplos gatilhos"
 	--[[Translation missing --]]
 	L["Multiselect ignored tooltip"] = "Multiselect ignored tooltip"
 	--[[Translation missing --]]
@@ -624,11 +688,14 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Name(s)"] = "Name(s)"
 	--[[Translation missing --]]
+	L["Nameplate"] = "Nameplate"
+	--[[Translation missing --]]
 	L["Nameplates"] = "Nameplates"
 	L["Negator"] = "Negador"
 	--[[Translation missing --]]
 	L["Never"] = "Never"
-	L["New"] = "Novo"
+	--[[Translation missing --]]
+	L["New Aura"] = "New Aura"
 	--[[Translation missing --]]
 	L["New Value"] = "New Value"
 	L["No"] = "Não"
@@ -661,8 +728,6 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Only match auras cast by the player or his pet"] = "Only match auras cast by the player or his pet"
 	L["Operator"] = "Operador"
-	--[[Translation missing --]]
-	L["Option #%i"] = "Option #%i"
 	--[[Translation missing --]]
 	L["Option %i"] = "Option %i"
 	--[[Translation missing --]]
@@ -710,6 +775,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Paste text below"] = "Paste text below"
 	--[[Translation missing --]]
 	L["Paste Trigger Settings"] = "Paste Trigger Settings"
+	--[[Translation missing --]]
+	L["Places a tick on the bar"] = "Places a tick on the bar"
 	L["Play Sound"] = "Reproduzir som"
 	--[[Translation missing --]]
 	L["Portrait Zoom"] = "Portrait Zoom"
@@ -718,7 +785,13 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Preferred Match"] = "Preferred Match"
 	--[[Translation missing --]]
+	L["Premade Snippets"] = "Premade Snippets"
+	--[[Translation missing --]]
 	L["Preset"] = "Preset"
+	--[[Translation missing --]]
+	L["Press Ctrl+C to copy"] = "Press Ctrl+C to copy"
+	--[[Translation missing --]]
+	L["Prevent Merging"] = "Prevent Merging"
 	--[[Translation missing --]]
 	L["Processed %i chars"] = "Processed %i chars"
 	L["Progress Bar"] = "Barra de progresso"
@@ -739,7 +812,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Regions of type \"%s\" are not supported."] = "Regions of type \"%s\" are not supported."
 	--[[Translation missing --]]
 	L["Remaining Time"] = "Remaining Time"
-	L["Remaining Time Precision"] = "Precisão do tempo restante"
 	--[[Translation missing --]]
 	L["Remove"] = "Remove"
 	--[[Translation missing --]]
@@ -753,9 +825,13 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Repeat every"] = "Repeat every"
 	--[[Translation missing --]]
+	L["Require unit from trigger"] = "Require unit from trigger"
+	--[[Translation missing --]]
 	L["Required for Activation"] = "Required for Activation"
 	--[[Translation missing --]]
 	L["Reset all options to their default values."] = "Reset all options to their default values."
+	--[[Translation missing --]]
+	L["Reset Entry"] = "Reset Entry"
 	--[[Translation missing --]]
 	L["Reset to Defaults"] = "Reset to Defaults"
 	--[[Translation missing --]]
@@ -794,7 +870,7 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Set tooltip description"] = "Set tooltip description"
 	--[[Translation missing --]]
-	L["Sets the anchored frame as the aura's parent, causing the aura to inherit attributes such as visiblility and scale."] = "Sets the anchored frame as the aura's parent, causing the aura to inherit attributes such as visiblility and scale."
+	L["Sets the anchored frame as the aura's parent, causing the aura to inherit attributes such as visibility and scale."] = "Sets the anchored frame as the aura's parent, causing the aura to inherit attributes such as visibility and scale."
 	--[[Translation missing --]]
 	L["Settings"] = "Settings"
 	--[[Translation missing --]]
@@ -810,8 +886,6 @@ WeakAuras → Opções → Opções ]=]
 	L["Show Border"] = "Show Border"
 	--[[Translation missing --]]
 	L["Show Cooldown"] = "Show Cooldown"
-	--[[Translation missing --]]
-	L["Show Extra Options"] = "Show Extra Options"
 	--[[Translation missing --]]
 	L["Show Glow"] = "Show Glow"
 	--[[Translation missing --]]
@@ -836,10 +910,14 @@ WeakAuras → Opções → Opções ]=]
 	L["Show Text"] = "Show Text"
 	--[[Translation missing --]]
 	L["Show this group's children"] = "Show this group's children"
+	--[[Translation missing --]]
+	L["Show Tick"] = "Show Tick"
 	L["Shows a 3D model from the game files"] = "Mostrar um modelo 3D dos arquivos do jogo"
 	--[[Translation missing --]]
 	L["Shows a border"] = "Shows a border"
 	L["Shows a custom texture"] = "Mostrar uma textura personalizada"
+	--[[Translation missing --]]
+	L["Shows a glow"] = "Shows a glow"
 	--[[Translation missing --]]
 	L["Shows a model"] = "Shows a model"
 	L["Shows a progress bar with name, timer, and icon"] = "Mostrar uma barra de progresso com nome, temporizador e ícone"
@@ -866,6 +944,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Small Icon"] = "Small Icon"
 	--[[Translation missing --]]
 	L["Smooth Progress"] = "Smooth Progress"
+	--[[Translation missing --]]
+	L["Snippets"] = "Snippets"
 	--[[Translation missing --]]
 	L["Soft Max"] = "Soft Max"
 	--[[Translation missing --]]
@@ -953,13 +1033,19 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["This setting controls what widget is generated in user mode."] = "This setting controls what widget is generated in user mode."
 	--[[Translation missing --]]
+	L["Tick %s"] = "Tick %s"
+	--[[Translation missing --]]
+	L["Tick Mode"] = "Tick Mode"
+	--[[Translation missing --]]
+	L["Tick Placement"] = "Tick Placement"
+	--[[Translation missing --]]
 	L["Time in"] = "Time in"
 	--[[Translation missing --]]
 	L["Tiny Icon"] = "Tiny Icon"
 	--[[Translation missing --]]
 	L["To Frame's"] = "To Frame's"
 	--[[Translation missing --]]
-	L["to group's"] = "to group's"
+	L["To Group's"] = "To Group's"
 	--[[Translation missing --]]
 	L["To Personal Ressource Display's"] = "To Personal Ressource Display's"
 	--[[Translation missing --]]
@@ -993,13 +1079,15 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Top Right"] = "Top Right"
 	--[[Translation missing --]]
-	L["Total Time Precision"] = "Total Time Precision"
+	L["Total Time"] = "Total Time"
 	--[[Translation missing --]]
 	L["Trigger"] = "Trigger"
 	--[[Translation missing --]]
 	L["Trigger %d"] = "Trigger %d"
 	--[[Translation missing --]]
 	L["Trigger %s"] = "Trigger %s"
+	--[[Translation missing --]]
+	L["Trigger Combination"] = "Trigger Combination"
 	--[[Translation missing --]]
 	L["True"] = "True"
 	--[[Translation missing --]]
@@ -1013,19 +1101,25 @@ WeakAuras → Opções → Opções ]=]
 	--[[Translation missing --]]
 	L["Unit Count"] = "Unit Count"
 	--[[Translation missing --]]
+	L["Unit Frame"] = "Unit Frame"
+	--[[Translation missing --]]
 	L["Unit Frames"] = "Unit Frames"
+	--[[Translation missing --]]
+	L["Unit Name Filter"] = "Unit Name Filter"
+	--[[Translation missing --]]
+	L["UnitName Filter"] = "UnitName Filter"
 	--[[Translation missing --]]
 	L["Unlike the start or finish animations, the main animation will loop over and over until the display is hidden."] = "Unlike the start or finish animations, the main animation will loop over and over until the display is hidden."
 	--[[Translation missing --]]
-	L["Up"] = "Up"
-	--[[Translation missing --]]
-	L["Update "] = "Update "
+	L["Update %s by %s"] = "Update %s by %s"
 	--[[Translation missing --]]
 	L["Update Custom Text On..."] = "Update Custom Text On..."
 	--[[Translation missing --]]
 	L["Update in Group"] = "Update in Group"
 	--[[Translation missing --]]
 	L["Update this Aura"] = "Update this Aura"
+	--[[Translation missing --]]
+	L["Use Custom Color"] = "Use Custom Color"
 	--[[Translation missing --]]
 	L["Use Display Info Id"] = "Use Display Info Id"
 	--[[Translation missing --]]
@@ -1042,6 +1136,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Used in Auras:"] = "Used in Auras:"
 	--[[Translation missing --]]
 	L["Used in auras:"] = "Used in auras:"
+	--[[Translation missing --]]
+	L["Uses UnitIsVisible() to check if in range. This is polled every second."] = "Uses UnitIsVisible() to check if in range. This is polled every second."
 	--[[Translation missing --]]
 	L["Value %i"] = "Value %i"
 	--[[Translation missing --]]
@@ -1062,6 +1158,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Whole Area"] = "Whole Area"
 	--[[Translation missing --]]
 	L["Width"] = "Width"
+	--[[Translation missing --]]
+	L["wrapping"] = "wrapping"
 	--[[Translation missing --]]
 	L["X Offset"] = "X Offset"
 	--[[Translation missing --]]
@@ -1084,6 +1182,8 @@ WeakAuras → Opções → Opções ]=]
 	L["Y-Offset"] = "Y-Offset"
 	--[[Translation missing --]]
 	L["You are about to delete %d aura(s). |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "You are about to delete %d aura(s). |cFFFF0000This cannot be undone!|r Would you like to continue?"
+	--[[Translation missing --]]
+	L["Your Saved Snippets"] = "Your Saved Snippets"
 	--[[Translation missing --]]
 	L["Z Offset"] = "Z Offset"
 	--[[Translation missing --]]

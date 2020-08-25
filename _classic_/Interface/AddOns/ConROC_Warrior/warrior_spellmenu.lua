@@ -14,6 +14,9 @@ local defaults = {
 	["ConROC_Melee_Debuff_Rend"] = true,
 	["ConROC_Melee_Debuff_ThunderClap"] = true,
 	["ConROC_Melee_Debuff_SunderArmor"] = true,
+	["ConROC_Tank_Debuff_SunderArmorCount"] = 5,
+	["ConROC_Melee_Debuff_SunderArmorCount"] = 5,
+	["ConROC_PvP_Debuff_SunderArmorCount"] = 5,
 	["ConROC_Melee_Shout_DemoralizingShout"] = true,
 	
 	["ConROC_Melee_Rage_HeroicStrike"] = true,
@@ -347,42 +350,101 @@ function ConROC:CheckFrame1()
 	--Sunder Armor
 		local c4tspellName, _, c4tspell = GetSpellInfo(ids.Prot_Ability.SunderArmorRank1);
 		local check4 = CreateFrame("CheckButton", "ConROC_SM_Debuff_SunderArmor", frame, "UICheckButtonTemplate");
-		local check4text = frame:CreateFontString(check4, "ARTWORK", "GameFontHighlightSmall");		
-			check4:SetPoint("TOP", ConROCCheckFrame1, "BOTTOM", -150, 0);
-			check4:SetScale(.50);
-			if ConROC:CheckBox(ConROC_SM_Role_Tank) then
-				check4:SetChecked(ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmor);
-			elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
-				check4:SetChecked(ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmor);
-			elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
-				check4:SetChecked(ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmor);
-			end
-			check4:SetScript("OnClick", 
-				function()
-					if ConROC:CheckBox(ConROC_SM_Role_Tank) then
-						ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
-					elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
-						ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
-					elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
-						ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
-					end
-				end);
-			check4text:SetText(c4tspellName);				
-		local c4t = check4.texture;
-		 
-			if not c4t then
-				c4t = check4:CreateTexture('CheckFrame1_check4_Texture', 'ARTWORK');
-				c4t:SetTexture(c4tspell);
-				c4t:SetBlendMode('BLEND');
-				check4.texture = c4t;
-			end			
-			c4t:SetScale(0.4);
-			c4t:SetPoint("LEFT", check4, "RIGHT", 8, 0);
-			check4text:SetPoint('LEFT', c4t, 'RIGHT', 5, 0);
-			
-		lastDebuff = check4;
-		lastFrame = check4;
+		check4:SetPoint("TOP", ConROCCheckFrame1, "BOTTOM", -150, 0);
+		check4:SetScale(.50);	
+		
+		if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+			check4:SetChecked(ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmor);
+		elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+			check4:SetChecked(ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmor);
+		elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+			check4:SetChecked(ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmor);
+		end
+		
+		check4:SetScript("OnClick", 
+			function()
+				if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+					ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
+				elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+					ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
+				elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+					ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmor = ConROC_SM_Debuff_SunderArmor:GetChecked();
+				end
+			end);
+		
+		local c4t = check4:CreateTexture('CheckFrame1_check4_Texture', 'ARTWORK');
+		c4t:SetTexture(c4tspell);
+		c4t:SetBlendMode('BLEND');
+		c4t:SetScale(0.4);
+		c4t:SetPoint("LEFT", check4, "RIGHT", 8, 0);
 
+		local check4text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall");
+		check4text:SetText(c4tspellName);
+		check4text:SetPoint('LEFT', c4t, 'RIGHT', 5, 0);
+
+	--Sunder Armor Count
+		local edit1 = CreateFrame("Frame", "ConROC_SM_Debuff_SunderArmorCount_Frame", frame);
+		edit1:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", tile = true, tileSize = 16, insets = {left = 0, right = 0, top = 0, bottom = 0},});
+		edit1:SetBackdropColor(0, 0, 0);
+		edit1:SetPoint("LEFT", check4text, "RIGHT", 8, 0);
+		edit1:SetSize(15, 15);
+		
+		local box1 = CreateFrame("EditBox", "ConROC_SM_Debuff_SunderArmorCount", edit1);	
+		box1:SetPoint("TOP", 0, 0);
+		box1:SetPoint("BOTTOM", 0, 0);
+		box1:SetMultiLine(false);
+		box1:SetFontObject(GameFontNormalSmall);
+		box1:SetNumeric(true);
+		box1:SetAutoFocus(false);
+		box1:SetMaxLetters("1");
+		box1:SetWidth(20);
+		box1:SetTextInsets(3, 0, 0, 0);	
+		
+		if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+			box1:SetNumber(ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmorCount or 5);
+		elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+			box1:SetNumber(ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmorCount or 5);
+		elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+			box1:SetNumber(ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmorCount or 5);
+		end		
+
+		box1:SetScript("OnEditFocusLost", 
+			function()
+				if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+					ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+					ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+					ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				end
+				box1:ClearFocus()
+			end);
+		box1:SetScript("OnEnterPressed", 
+			function()
+				if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+					ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+					ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+					ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				end
+				box1:ClearFocus()
+			end);
+		box1:SetScript("OnEscapePressed", 
+			function()
+				if ConROC:CheckBox(ConROC_SM_Role_Tank) then
+					ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_Melee) then
+					ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				elseif ConROC:CheckBox(ConROC_SM_Role_PvP) then
+					ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmorCount = ConROC_SM_Debuff_SunderArmorCount:GetNumber();
+				end
+				box1:ClearFocus()
+			end);
+
+		lastDebuff = check4;
+		lastFrame = check4;			
+		
 	--Demoralizing Shout
 		local c5tspellName, _, c5tspell = GetSpellInfo(ids.Fury_Ability.DemoralizingShoutRank1);
 		local check5 = CreateFrame("CheckButton", "ConROC_SM_Shout_DemoralizingShout", frame, "UICheckButtonTemplate");
@@ -987,6 +1049,7 @@ function ConROC:RoleProfile()
 		ConROC_SM_Debuff_Rend:SetChecked(ConROCWarriorSpells.ConROC_Tank_Debuff_Rend);
 		ConROC_SM_Debuff_ThunderClap:SetChecked(ConROCWarriorSpells.ConROC_Tank_Debuff_ThunderClap);
 		ConROC_SM_Debuff_SunderArmor:SetChecked(ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmor);
+		ConROC_SM_Debuff_SunderArmorCount:SetNumber(ConROCWarriorSpells.ConROC_Tank_Debuff_SunderArmorCount or 5);
 		ConROC_SM_Shout_DemoralizingShout:SetChecked(ConROCWarriorSpells.ConROC_Tank_Shout_DemoralizingShout);
 		
 		ConROC_SM_Rage_HeroicStrike:SetChecked(ConROCWarriorSpells.ConROC_Tank_Rage_HeroicStrike);
@@ -1002,6 +1065,7 @@ function ConROC:RoleProfile()
 		ConROC_SM_Debuff_Rend:SetChecked(ConROCWarriorSpells.ConROC_Melee_Debuff_Rend);
 		ConROC_SM_Debuff_ThunderClap:SetChecked(ConROCWarriorSpells.ConROC_Melee_Debuff_ThunderClap);
 		ConROC_SM_Debuff_SunderArmor:SetChecked(ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmor);
+		ConROC_SM_Debuff_SunderArmorCount:SetNumber(ConROCWarriorSpells.ConROC_Melee_Debuff_SunderArmorCount or 5);
 		ConROC_SM_Shout_DemoralizingShout:SetChecked(ConROCWarriorSpells.ConROC_Melee_Shout_DemoralizingShout);
 
 		ConROC_SM_Rage_HeroicStrike:SetChecked(ConROCWarriorSpells.ConROC_Melee_Rage_HeroicStrike);
@@ -1017,6 +1081,7 @@ function ConROC:RoleProfile()
 		ConROC_SM_Debuff_Rend:SetChecked(ConROCWarriorSpells.ConROC_PvP_Debuff_Rend);
 		ConROC_SM_Debuff_ThunderClap:SetChecked(ConROCWarriorSpells.ConROC_PvP_Debuff_ThunderClap);
 		ConROC_SM_Debuff_SunderArmor:SetChecked(ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmor);
+		ConROC_SM_Debuff_SunderArmorCount:SetNumber(ConROCWarriorSpells.ConROC_PvP_Debuff_SunderArmorCount or 5);
 		ConROC_SM_Shout_DemoralizingShout:SetChecked(ConROCWarriorSpells.ConROC_PvP_Shout_DemoralizingShout);
 
 		ConROC_SM_Rage_HeroicStrike:SetChecked(ConROCWarriorSpells.ConROC_PvP_Rage_HeroicStrike);

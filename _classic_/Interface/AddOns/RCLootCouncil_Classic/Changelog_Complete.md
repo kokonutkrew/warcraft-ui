@@ -1,3 +1,345 @@
+# v0.11.2
+## Bugfixes
+* *Fixed Druid related issues causing all kinds of trouble in the latest version (CurseClassic#112,#113,#114).*
+* *Fixed error on Guild Council Members options page.*
+
+
+# v0.11.1
+## Updated RCLootCouncil to v2.19.3
+### Bugfixes
+* *`/rc v 1` correctly prints a numbered list again.*
+* *History entries containing quotes are now properly escaped for JSON export.*
+
+## Changes
+### AQ Tokens
+RCLootCouncil now displays a candidates currently equipped items for AQ Tier 2.5 tokens - including those that can be awarded for multiple slots.
+
+Imperial Qiraji items has been removed from the Rep Item auto award list.
+
+
+# v0.11.0
+## Changes
+### Comms
+Comms are now limited to a max of 10 per second in an attempt to fix the remaining comms issues. This change is fully backwards compatible.
+
+### Ahn'Qiraj
+Added Imperial Qiraji and scarab items to the round robin list.
+
+## Bugfixes
+*Druids will now autopass polearms.*
+*Fixed 'lootQueue nil' errors. (CurseClassic #105, #106)*
+
+
+# v0.10.1
+*Note: Just a reminder that this is not compatible with pre v0.10 versions.*
+
+## Upgraded to RCLootCouncil v2.19.2
+### Changes
+#### Council comms
+Council comms is now throttled to avoid sending unnecessary comms.
+
+### Bugfixes
+*Bumped threshold for detecting ML awards for instability in Classic.*
+*Increased stability of ML/GL detection.*
+*Suppressed and logged occasional `lootQueue` error for future inspection.*
+
+## Changes
+### Comms
+Removed errors when receiving messages from pre v0.10 versions.
+Pre v0.10 version will again show up in the Version Checker instead of `Not Installed`.
+
+## Bugfixes
+*Syncing (/rc sync) is now also compressed.*
+*Sessions will no longer error out if candidates hadn't cached the items.*
+
+
+# v0.10.0
+## Changes
+### Comms
+Due to recent changes from Blizzard side, all comms in WoW are now much more restricted. I've had an update for this in mind for a long time, but they decided to just do an undocumented edit, which limits my options.
+
+This update should be compatible with the new limits, but at the cost of backwards compatibility - i.e. any pre v0.10 version of the addon no longer works with v0.10 and up.
+
+### Sync
+Syncing history will most likely not be working due to the changes stated above, unless your history is very small. For various reasons I won't do a fix for that anytime soon, but remember you can always do `Player Export` and import that in the history, which does the same as the sync does.
+
+## Additions
+### Auto Award Reputation Items
+Added a new auto award section for reputation items. These currently includes Coins and Bijous from Zul'Gurub.
+They can be auto awarded two ways:
+1. To a specified player, just as the other auto awards.
+2. In a round robin fashion, in which all players will get one before anyone getting a second.
+
+Note that the Master Looter will still have to loot the mobs in either case.
+
+### Group Loot
+Added support for usage with group loot.
+The group leader must enable this in the `Usage Options`.
+When enabled, the group leader is treated as the Master Looter for all intents and purposes.
+The group leader will still need to loot all mobs to have items added to a session, but doesn't need to keep the loot list open to award items.
+**Note:** This addition only facilitates the use of RCLootCouncil with group loot, but does nothing to circumvent the limitations of said loot method.
+
+
+# v0.9.3
+## Bugfixes
+*Fixed issues on 'LootOpened' introduced in the last version (Curse#64,Curse#65,Curse#66).*
+
+# v0.9.2
+## Bugfixes
+*Fixed desync issue when ML reloaded in groups (#21, Curse#61, Curse#62).*
+*Fixed issue with occasional "Unknown" Master Looter (Curse#60).*
+*Detecting 'Award Later' items after a /reload should be more reliable.*
+
+# v0.9.1
+## Updated RCLootCouncil to v2.19.1
+### Changes
+#### History Deletion
+Prefer using id time stamp when deleting history entries by date (CurseClassic#57).
+Should be more precise until a planend overhaul of the time keeping is implemented.
+
+### Bugfixes
+*Fixed issue with the disenchant button introduced in v2.19.0.*
+
+## Bugfixes
+*Fixed issue with occasional uncached loot.*
+
+# v0.9.0
+## Updated RCLootCouncil to v2.19.0
+*Only Classic relevant changes listed here-*
+### Changes
+
+#### Award Later
+When `Award Later` and `Auto Start` both are enabled, all items are automatically awarded to the Master Looter/Group Leader for award later.
+
+I generally don't recommend enabling `Auto Start` as you will have no control over what happens before setting the addon free to do its thing.
+This is especially dangerous with `Award Later`, as ALL eligible items will be awarded automatically.  
+**You have been warned.**
+
+#### Boss Name in History
+The boss name is now directly attached to items, meaning no matter when you award items the boss name should be correct in the Loot History.
+This would not be the case earlier if another boss was pulled before awarding registered items.
+
+#### Classic
+The retail version will now show a chat message if installed in the Classic client and vice versa, before disabling itself.
+
+#### Error Handler
+RCLootCouncil will now log any lua errors caused by it.
+This will help in debugging errors as users are no longer required to turn on scriptErrors to register them.
+
+#### Voting Frame
+When `Hide Votes` is enabled, the Voting Frame will no longer sort the list when receiving votes from other councilmembers.
+Once the player has voted, the list is sorted as normal.
+
+### Bugfixes
+* *Fixed another issue with EQdkp Plus XML export introduced with v2.18.3.*
+* *Loot should no longer linger in the Session Frame after leaving the instance (CurseClassic#41).*
+* *Multiple items can be automatically added to a pending trade at once.*
+* *Moving responses up/down in the options menu now properly updates their sorting position (Classic#18).*
+* *Deleting history older than a specified number of days now works correctly.*
+
+## Additions
+* Added patch 1.13.4 to history delete options.
+
+### Enchant Level
+The disenchant menu now includes the exact level of the (dis)enchanter. Thanks to Keionu for the addition (#20).
+
+
+## Bugfixes
+* *The Classic Module is no longer listed as outdated with other modules.*
+* *Added another fix for the occasional report of the classic module being out of date (Curse#43).*
+* *Fixed issue with detecting the Master Looter after doing a /reload in raid (Curse#36).*
+
+
+# v0.8.0
+## Updated RCLootCouncil to v2.18.3
+### Bugfixes
+* *Fixed rare error when award later items have no trade time remaining. (CurseClassic#37)*
+* *Fixed issues with EQdkp Plus XML export (CurseClassic#35).*
+* *Fixed issue with Award Later when items aren't available in the ML's bags when expected.*
+
+## Changes
+Updated TOC to 1.13.4
+
+## Bugfixes
+* *Added extra delay when receiving uncached loot on `LOOT_READY`.*
+* *Fixed issue with wowhead links (#14).*
+* *Fixed issues with Auto Awards (Curse#38).*
+
+
+
+# v0.7.2
+## Updated RCLootCouncil to v2.18.2
+### Changes
+#### Allow Keeping
+The pop-up for keeping items now shows "Keep"/"Trade" instead of yes/no. (Git#183).
+
+### Bugfixes
+* *Passes no longer require a note with 'Require Notes' enabled. (Git#184)*
+* *Fixes issue with receiving votes outside an instance (Curse#413).*
+* *Fixed issues with TSV Export hyperlinks.*
+
+## Changes
+### Wowhead Links
+All exports with WowHead links now points to the Classic version of the site (#12).
+
+
+# v0.7.0
+## Updated RCLootCouncil to v2.18.0
+*Only Classic relevant changes are included here.*
+### Additions
+#### Auto Award BoE's
+Added a new system allowing for auto awarding BoE's.
+Only Epic, Equippable, non-bags items qualify.
+This is checked before the normal auto award, so if both is enabled, this will have priority.
+
+#### Class Filter
+Added class filters to the Loot History.
+Unlike the normal filters, these are active when enabled, i.e. checking 'Warrior' and 'Priest' will only show warriors and priests.
+
+#### Require Notes
+Added a new option for ML's that will require a note to be added to all responses.
+When enabled, if no note is supplied, the response is blocked, and the candidate shown a message to why that happened.
+Note: This is not backwards compatible with older version of the addon.
+
+#### Winners of item
+Added all the winners of the selected item to the More Info tooltip in the Loot History.
+Note: Different versions of an item is not included in the count.
+
+### Changes
+#### Auto Award
+Apparently Auto Awards never worked with Personal Loot - this has now been rectified.
+
+#### History Exports
+All exports will now respect all currently active filters, i.e. only export what you're currently able to see.
+
+#### Out of Raid Support
+An "Out of Raid" response is no longer automatically sent if you're outside an instance while in a group of 8 or more.
+Instead, the Master Looter will now have to specifically enable it in the "Master Looter > Usage Options" options.
+When enabled, it functions exactly as it did before.
+*DevNote: I decided to make this change now, as I've seen an increasingly amount of confusion as to why people didn't get Loot pop-ups when out of an instance. I expect the few that actually use this feature will figure out how to turn it on.*
+
+### Bugfixes
+* *Candidate info no longer has the potential to wait a long time before being sync, i.e. guild rank not showing up in the voting frame.*
+* *2.18.1: Previous version would error out when awarding during tests.*
+
+
+## Bugfixes
+* *Fixed lua error when declining usage (Classic#10).*
+
+
+# v0.6.2
+## Updated RCLootCouncil to v2.17.2
+### Bugfixes
+* *Characters with Non-ascii names that have a lower-case by WoW lua's definition can now be council members (CurseClassic#31).*
+* *Fixed issue regarding adding items to a session could potentially cause an error (Curse#406).*
+
+## Bugfixes
+* *Fixed occasional error on login/reload (CurseClassic#29).*
+
+
+
+# v0.6.1
+## Updated RCLootCouncil to v2.17.1
+*Only Classic relevant changes are included here*
+### Changes
+#### Item Registration
+Changed the detection of looted items to ensure better reliability with high latencies (#9).
+
+
+
+# v0.6.0
+## Updated RCLootCouncil to v2.17.0
+*Only Classic relevant changes are included here*
+
+### Additions
+#### JSON Export
+Sebastianbassen kindly created a JSON export which is now included (#180).
+
+### Bugfixes
+* *Fixed issue with CSV importing responses without button groups (CurseClassic#25).*
+
+
+# v0.5.1
+
+## Updated RCLootCouncil to v2.16.1
+### Changes
+
+#### Chat Frame
+`/rc reset` now also resets the chosen chat frame.
+The chat frame is also automatically reset to default if the selected chat frame becomes invalid.
+
+
+### Bugfixes
+* *Time calculations with raid members in different timezones now works properly (CurseClassic#22).*
+* *The TradeUI now detects reawards when a session has ended.*
+* *Bags are now properly ignored by the Auto Award system.*
+
+
+# v0.5.0
+
+## Updated RCLootCouncil to v2.16.0
+### Additions
+
+#### Alt-click Awarding
+ML's can now Award items by Alt-clicking a candidate row, saving you a right-click.
+
+#### CSV Import/Export
+Added support for importing custom history through CSV.  
+See the wiki for more info.  
+*Note: The CSV export has changed fields to comply with the new import system. This also means old CSV exports cannot be imported!*
+
+#### Frame Options
+Added an option to select which chat frame RCLootCouncil will print to.
+
+#### Loot History
+Added "Send to guild" option.  
+Checking this will send history entries to your guild instead of your group.
+
+#### Looting Options
+Added "Award Later" option.  
+When enabled, this option will automatically check "Award Later" in the Session Frame.
+
+### Changes
+
+#### Loot History
+The history is now sortable by class. Just click the class icon header.
+
+#### Options
+
+##### Council
+Current Council list is now sorted alphabetically.
+
+#### Voting Frame
+
+##### Awarding
+When Master Looter, awarding an item will now switch session to the first unawarded session instead of simply the next numerical session (i.e. session + 1).
+
+##### Vote Status
+The list is now sorted alphabetically and colored according to the candidates' class.  
+Added councilmembers that haven't yet voted to the list.  
+The names now respects the "Append realm name" option.
+
+##### Votes Column
+Voter names are now class colored.  
+The names now respects the "Append realm name" option.
+
+
+### Bugfixes
+* *Added a potential fix to the occasional false "Full bags" blame.*
+* *Added a history patch for broken "Award Reasons".*
+
+## Changes
+Updated TOC to patch 1.13.3.  
+Added patch 1.13.3 to history delete options.
+
+
+# v0.4.2
+
+## Bugfixes
+* *Fixed error when looting certain types of items (Curse#15).*
+* *RCLootCouncil Core reported wrong version in last update (#8).*
+
+
 # v0.4.1
 
 ## Bugfixes

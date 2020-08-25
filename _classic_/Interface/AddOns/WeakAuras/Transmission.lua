@@ -108,6 +108,16 @@ function GenerateUniqueID()
 end
 WeakAuras.GenerateUniqueID = GenerateUniqueID
 
+local function stripNonTransmissableFields(datum, fieldMap)
+  for k, v in pairs(fieldMap) do
+    if type(v) == "table" and type(datum[k]) == "table" then
+      stripNonTransmissableFields(datum[k], v)
+    elseif v == true then
+      datum[k] = nil
+    end
+  end
+end
+
 function CompressDisplay(data)
   -- Clean up custom trigger fields that are unused
   -- Those can contain lots of unnecessary data.
@@ -128,16 +138,11 @@ function CompressDisplay(data)
       end
     end
   end
-  local copiedData = {};
-  WeakAuras.DeepCopy(data, copiedData);
-  copiedData.controlledChildren = nil;
-  copiedData.parent = nil;
-  local regionType = copiedData.regionType
-  copiedData.regionType = regionType
-  copiedData.ignoreWagoUpdate = nil
-  copiedData.skipWagoUpdate = nil
-  copiedData.tocversion = WeakAuras.BuildInfo
 
+  local copiedData = {}
+  WeakAuras.DeepCopy(data, copiedData)
+  stripNonTransmissableFields(copiedData, WeakAuras.non_transmissable_fields)
+  copiedData.tocversion = WeakAuras.BuildInfo
   return copiedData;
 end
 
@@ -294,12 +299,16 @@ local function install(data, oldData, patch, mode, isParent)
   -- return the data which the SV knows about afterwards (if there is any)
   local installedUID, imported
   if mode == 1 then
-    -- always import as a new thing
+    -- always import as a new thing, set preferToUpdate = false
     if data then
       imported = CopyTable(data)
       data.id = WeakAuras.FindUnusedId(data.id)
       WeakAuras.Add(data)
       installedUID = data.uid
+      data.preferToUpdate = false
+      if oldData then
+        oldData.preferToUpdate = false
+      end
     else
       -- nothing to add
       return
@@ -312,6 +321,7 @@ local function install(data, oldData, patch, mode, isParent)
     end
     imported = CopyTable(data)
     data.id = WeakAuras.FindUnusedId(data.id)
+    data.preferToUpdate = true
     WeakAuras.Add(data)
     installedUID = data.uid
   elseif not data then
@@ -343,6 +353,7 @@ local function install(data, oldData, patch, mode, isParent)
       oldData.uid = data.uid
     end
     WeakAuras.Update(oldData, patch)
+    oldData.preferToUpdate = true
     installedUID = oldData.uid
     imported = data
   end
@@ -362,7 +373,7 @@ local function importPendingData()
   ItemRefTooltip:Hide()-- this also wipes pendingData via the hook on L521
   buttonAnchor:Hide()
   if thumbnailAnchor.currentThumbnail then
-    thumbnailAnchor.currentThumbnail:Hide()
+    regionOptions[thumbnailAnchor.currentThumbnailType].releaseThumbnail(thumbnailAnchor.currentThumbnail)
     thumbnailAnchor.currentThumbnail = nil
   end
   if imports and WeakAuras.LoadOptions() then
@@ -429,6 +440,10 @@ local function importPendingData()
       end
       if data then
         data.parent = parentData.id
+        data.authorMode = nil
+      end
+      if oldData then
+        oldData.authorMode = nil
       end
       local childData = install(data, oldData, patch, mode)
       if childData then
@@ -539,7 +554,7 @@ local function importPendingData()
     button.callbacks.UpdateExpandButton()
     WeakAuras.UpdateGroupOrders(parentData)
     WeakAuras.UpdateDisplayButton(parentData)
-    WeakAuras.ReloadGroupRegionOptions(parentData)
+    WeakAuras.ClearAndUpdateOptions(parentData.id)
     WeakAuras.SortDisplayButtons()
   end
   WeakAuras.SetImporting(false)
@@ -566,9 +581,13 @@ end)
 
 local Compresser = LibStub:GetLibrary("LibCompress")
 local LibDeflate = LibStub:GetLibrary("LibDeflate")
+local Serializer = LibStub:GetLibrary("AceSerializer-3.0")
+local LibSerialize = LibStub("LibSerialize")
+local Comm = LibStub:GetLibrary("AceComm-3.0")
 local configForDeflate = {level = 9} -- the biggest bottleneck by far is in transmission and printing; so use maximal compression
-local Serializer = LibStub:GetLibrary("AceSerializer-3.0");
-local Comm = LibStub:GetLibrary("AceComm-3.0");
+local configForLS = {
+  errorOnUnserializableType =  false
+}
 
 local tooltipLoading;
 local receivedData;
@@ -586,6 +605,7 @@ hooksecurefunc("SetItemRef", function(link, text)
           editbox:Insert("[WeakAuras: "..characterName.." - "..displayName.."]");
         end
       else
+        characterName = characterName:gsub("%.", "")
         ShowTooltip({
           {2, "WeakAuras", displayName, 0.5, 0, 1, 1, 1, 1},
           {1, L["Requesting display information from %s ..."]:format(characterName), 1, 0.82, 0},
@@ -613,12 +633,29 @@ hooksecurefunc("SetItemRef", function(link, text)
   end
 end);
 
+local compressedTablesCache = {}
+
 function TableToString(inTable, forChat)
-  local serialized = Serializer:Serialize(inTable)
-  local compressed = LibDeflate:CompressDeflate(serialized, configForDeflate)
-  -- prepend with "!" so that we know that it is not a legacy compression
-  -- also this way, old versions of weakauras will error out due to the "bad" encoding
-  local encoded = "!"
+  local serialized = LibSerialize:SerializeEx(configForLS, inTable)
+  local compressed
+  -- get from / add to cache
+  if compressedTablesCache[serialized] then
+    compressed = compressedTablesCache[serialized].compressed
+    compressedTablesCache[serialized].lastAccess = time()
+  else
+    compressed = LibDeflate:CompressDeflate(serialized, configForDeflate)
+    compressedTablesCache[serialized] = {
+      compressed = compressed,
+      lastAccess = time(),
+    }
+  end
+  -- remove cache items after 5 minutes
+  for k, v in pairs(compressedTablesCache) do
+    if v.lastAccess < (time() - 300) then
+      compressedTablesCache[k] = nil
+    end
+  end
+  local encoded = "!WA:2!"
   if(forChat) then
     encoded = encoded .. LibDeflate:EncodeForPrint(compressed)
   else
@@ -628,11 +665,21 @@ function TableToString(inTable, forChat)
 end
 
 function StringToTable(inString, fromChat)
-  -- if gsub strips off a ! at the beginning then we know that this is not a legacy encoding
-  local encoded, usesDeflate = inString:gsub("^%!", "")
+  -- encoding format:
+  -- version 0: simple b64 string, compressed with LC and serialized with AS
+  -- version 1: b64 string prepended with "!", compressed with LD and serialized with AS
+  -- version 2+: b64 string prepended with !WA:N! (where N is encode version)
+  --   compressed with LD and serialized with LS
+  local _, _, encodeVersion, encoded = inString:find("^(!WA:%d+!)(.+)$")
+  if encodeVersion then
+    encodeVersion = tonumber(encodeVersion:match("%d+"))
+  else
+    encoded, encodeVersion = inString:gsub("^%!", "")
+  end
+
   local decoded
   if(fromChat) then
-    if usesDeflate == 1 then
+    if encodeVersion > 0 then
       decoded = LibDeflate:DecodeForPrint(encoded)
     else
       decoded = decodeB64(encoded)
@@ -646,7 +693,7 @@ function StringToTable(inString, fromChat)
   end
 
   local decompressed, errorMsg = nil, "unknown compression method"
-  if usesDeflate == 1 then
+  if encodeVersion > 0 then
     decompressed = LibDeflate:DecompressDeflate(decoded)
   else
     decompressed, errorMsg = Compresser:Decompress(decoded)
@@ -655,11 +702,16 @@ function StringToTable(inString, fromChat)
     return "Error decompressing: " .. errorMsg
   end
 
-  local success, deserialized = Serializer:Deserialize(decompressed);
-  if not(success) then
-    return "Error deserializing "..deserialized;
+  local success, deserialized
+  if encodeVersion < 2 then
+    success, deserialized = Serializer:Deserialize(decompressed)
+  else
+    success, deserialized = LibSerialize:Deserialize(decompressed)
   end
-  return deserialized;
+  if not(success) then
+    return "Error deserializing "..deserialized
+  end
+  return deserialized
 end
 
 function WeakAuras.DisplayToString(id, forChat)
@@ -713,25 +765,25 @@ local function recurseStringify(data, level, lines)
   for k, v in pairs(data) do
     local lineFormat = strrep("    ", level) .. "[%s] = %s"
     local form1, form2, value
-    local ktype, vtype = type(k), type(v)
-    if ktype == "string" then
+    local kType, vType = type(k), type(v)
+    if kType == "string" then
       form1 = "%q"
-    elseif ktype == "number" then
+    elseif kType == "number" then
       form1 = "%d"
     else
       form1 = "%s"
     end
-    if vtype == "string" then
+    if vType == "string" then
       form2 = "%q"
       v = v:gsub("\\", "\\\\"):gsub("\n", "\\n"):gsub("\"", "\\\"")
-    elseif vtype == "boolean" then
+    elseif vType == "boolean" then
       v = tostring(v)
       form2 = "%s"
     else
       form2 = "%s"
     end
     lineFormat = lineFormat:format(form1, form2)
-    if vtype == "table" then
+    if vType == "table" then
       tinsert(lines, lineFormat:format(k, "{"))
       recurseStringify(v, level + 1, lines)
       tinsert(lines, strrep("    ", level) .. "},")
@@ -770,8 +822,6 @@ function WeakAuras.RefreshTooltipButtons()
     showCodeButton:Disable()
   elseif WeakAuras.IsImporting() then
     importButton:SetText(L["Import in progress"])
-  elseif WeakAurasSaved.import_disabled then
-    importButton:SetText(L["Import disabled"])
   elseif pendingData.newData then
     if pendingData.activeCategories then
       if pendingData.mode == 1 then
@@ -815,7 +865,7 @@ local function SetCheckButtonStates(radioButtonAnchor, activeCategories)
     for i, button in ipairs(radioButtons) do
       button:Show()
       button:Enable()
-      button:SetChecked(i == 1)
+      button:SetChecked(i == pendingData.mode)
       button:SetPoint("TOPLEFT", radioButtonAnchor, "TOPLEFT", 0, -20 * (i - .7))
     end
     local checkButtonAnchor = radioButtons[#radioButtons]
@@ -1064,7 +1114,7 @@ local function scamCheck(codes, data)
   end
 end
 
-local ignoredForDiffChecking = WeakAuras.internal_fields
+local ignoredForDiffChecking = CreateFromMixins(WeakAuras.internal_fields, WeakAuras.non_transmissable_fields)
 local deleted = {} -- magic value
 local function recurseDiff(ours, theirs)
   local diff, seen, same = {}, {}, true
@@ -1144,6 +1194,9 @@ local function findMatch(data, children)
       if old.uid ~= new.uid then
         return
       else
+        if (children == nil) ~= (old.controlledChildren == nil) then
+          return
+        end
         return true
       end
     else
@@ -1182,6 +1235,7 @@ function WeakAuras.MatchInfo(data, children, target)
   if not oldParent then return nil end
   -- setup
   local info = {
+    mode = 1,
     unmodified = 0,
     modified = 0,
     added = 0,
@@ -1197,6 +1251,9 @@ function WeakAuras.MatchInfo(data, children, target)
   }
 
   info.oldData[0] = oldParent
+  if info.oldData[0].preferToUpdate then
+    info.mode = 2
+  end
   info.newData[0] = data
   info.diffs[0] = WeakAuras.diff(oldParent, data)
   if info.diffs[0] then
@@ -1386,7 +1443,7 @@ function WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, im
   local hasDescription = data.desc and data.desc ~= "";
   local hasUrl = data.url and data.url ~= "";
   local hasVersion = (data.semver and data.semver ~= "") or (data.version and data.version ~= "");
-  local tocbuild = data.tocbuild;
+  local tocversion = data.tocversion;
 
   if hasDescription or hasUrl or hasVersion then
     tinsert(tooltip, {1, " "});
@@ -1436,7 +1493,6 @@ function WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, im
     if matchInfo ~= nil then
       -- we know of at least one match
       tinsert(tooltip, {1, " "})
-      pendingData.mode = 1
       if type(matchInfo) ~= "table" then
         -- there is no difference whatsoever
         tinsert(tooltip, {1, L["You already have this group/aura. Importing will create a duplicate."], 1, 0.82, 0,})
@@ -1530,7 +1586,7 @@ function WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, im
           if excessChildren <= 0 then
             tinsert(tooltip, {2, " ", child.id, 1, 1, 1, 1, 1, 1})
           end
-          tocbuild = tocbuild or child.tocbuild
+          tocversion = tocversion or child.tocversion
         end
         if excessChildren > 0 then
           tinsert(tooltip, {2, " ", "[...]", 1, 1, 1, 1, 1, 1})
@@ -1554,10 +1610,10 @@ function WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, im
       tinsert(tooltip, {1, L["It might not work correctly with your version!"], 1, 0, 0})
     end
 
-    if WeakAuras.IsClassic() and (not tocbuild or tocbuild > 20000) then
+    if WeakAuras.IsClassic() and (not tocversion or tocversion > 20000) then
       tinsert(tooltip, {1, L["This aura was created with the retail version of World of Warcraft."], 1, 0, 0})
       tinsert(tooltip, {1, L["It might not work correctly on Classic!"], 1, 0, 0})
-    elseif tocbuild and not WeakAuras.IsClassic() and tocbuild < 20000 then
+    elseif tocversion and not WeakAuras.IsClassic() and tocversion < 20000 then
       tinsert(tooltip, {1, L["This aura was created with the Classic version of World of Warcraft."], 1, 0, 0})
       tinsert(tooltip, {1, L["It might not work correctly on Retail!"], 1, 0, 0})
     end
@@ -1670,17 +1726,18 @@ function WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, im
     LoadAddOn('WeakAurasOptions')
   end
   if thumbnailAnchor.currentThumbnail then
-    thumbnailAnchor.currentThumbnail:Hide()
+    regionOptions[thumbnailAnchor.currentThumbnailType].releaseThumbnail(thumbnailAnchor.currentThumbnail)
     thumbnailAnchor.currentThumbnail = nil
   end
   if regionOptions[regionType] then
-    local ok,thumbnail = pcall(regionOptions[regionType].createThumbnail, thumbnailAnchor);
+    local ok, thumbnail = pcall(regionOptions[regionType].acquireThumbnail, thumbnailAnchor, data);
     if not ok then
       error("Error creating thumbnail", 2)
     end
-    pcall(regionOptions[regionType].modifyThumbnail, thumbnailAnchor, thumbnail, data)
     thumbnailAnchor.currentThumbnail = thumbnail
+    thumbnailAnchor.currentThumbnailType = regionType
     thumbnail:SetAllPoints(thumbnailAnchor);
+    thumbnail:SetParent(thumbnailAnchor)
     if (thumbnail.SetIcon) then
       local i;
       if(icon) then
@@ -1867,7 +1924,8 @@ Comm:RegisterComm("WeakAuras", function(prefix, message, distribution, sender)
           WeakAuras.PreAdd(child)
         end
       end
-      WeakAuras.ShowDisplayTooltip(data, children, nil, icon, icons, sender, true)
+      local matchInfo = WeakAuras.MatchInfo(data, children)
+      WeakAuras.ShowDisplayTooltip(data, children, matchInfo, icon, icons, sender, true)
     elseif(received.m == "dR") then
       --if(WeakAuras.linked[received.d]) then
       TransmitDisplay(received.d, sender);

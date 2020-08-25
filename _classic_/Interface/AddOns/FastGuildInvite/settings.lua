@@ -12,6 +12,28 @@ local fontSize = fn.fontSize
 
 local settings
 
+local noteHelp = "\n\n"..
+'%c - date and time (' .. date('%c') .. ")\n"..
+'%Y - year (' .. date('%Y') .. ")\n"..
+'%y - year (' .. date('%y') .. ")\n"..
+'%m - month (' .. date('%m') .. ")\n"..
+'%d - day (' .. date('%d') .. ")\n"..
+'%H - hour, using a 24-hour clock (' .. date('%H') .. ")\n"..
+'%M - minute (' .. date('%M') .. ")\n"..
+'%S - second (' .. date('%S') .. ")\n"..
+'%B - month (' .. date('%B') .. ")\n"..
+'%b - month (' .. date('%b') .. ")\n"..
+'%A - weekday (' .. date('%A') .. ")\n"..
+'%a - weekday ' .. date('%a') .. ")\n"..
+'%w - weekday (' .. date('%w') .. ")\n"..
+'%I - hour, using a 12-hour clock (' .. date('%I') .. ")\n"..
+'%p - "AM" or "PM" (' .. date('%p') .. ")\n"..
+'%x - date (' .. date('%x') .. ")\n"..
+'%X - time (' .. date('%X') .. ")\n"..
+'%% - the character (' .. date('%%') .. ")\n"..
+'NAME - the character name (' .. UnitName('player') .. ")\n"..
+"\n\n Joined: %m/%d/%Y = "..date('Joined: %m/%d/%Y')
+
 local function updateMsgFilters()
 	if DB.realm.systemMSG then
 		ChatFrame_AddMessageEventFilter("CHAT_MSG_SYSTEM", fn.hideSysMsg)
@@ -23,6 +45,20 @@ local function updateMsgFilters()
 	else
 		ChatFrame_RemoveMessageEventFilter("CHAT_MSG_WHISPER_INFORM", fn.hideWhisper)
 	end
+end
+
+local function EditBoxChange(frame)
+	frame.editbox:SetScript("OnEnterPressed", function(self)
+		self:ClearFocus()
+		self.lasttext = self:GetText()
+	end)
+	frame.editbox:SetScript("OnEnter", function(self)
+		self.lasttext = self:GetText()
+	end)
+	frame.editbox:SetScript("OnEscapePressed", function(self)
+		self:SetText(self.lasttext or "")
+		self:ClearFocus()
+	end)
 end
 
 interface.settings = CreateFrame("Frame", UIParent)
@@ -224,6 +260,117 @@ end)
 frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.rememberAll.frame, "BOTTOMLEFT", 0, 0)
 settings:AddChild(frame)
 
+settingsCheckBoxGRP.confirmSearchClear = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.confirmSearchClear
+frame:SetWidth(size.confirmSearchClear)
+frame:SetLabel(L["Требовать подтверждение сброса поиска"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.confirmSearchClear = settingsCheckBoxGRP.confirmSearchClear:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settings.clearDBtimes.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.blacklistReason = GUI:Create("TLabel")
+local frame = settingsCheckBoxGRP.blacklistReason
+frame:SetText(L["Причина по умолчанию для черного списка"])
+fontSize(frame.label)
+frame.label:SetJustifyH("LEFT")
+frame:SetWidth(size.blacklistReason)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.confirmSearchClear.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.blacklistReasonText = GUI:Create("EditBox")
+local frame = settingsCheckBoxGRP.blacklistReasonText
+frame:SetWidth(settings.frame:GetWidth()-30)
+frame:DisableButton(true)
+EditBoxChange(frame)
+frame:SetCallback("OnTextChanged", function(self,_,msg)
+	DB.global.blacklistReasonText = msg
+	self.temptext = msg
+end)
+frame.editbox:SetScript("OnEscapePressed", function(self)
+	DB.global.blacklistReasonText = self.lasttext
+	self:SetText(self.lasttext or "")
+	self:ClearFocus()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.blacklistReason.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.fastBlacklist = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.fastBlacklist
+frame:SetWidth(size.fastBlacklist)
+frame:SetLabel(L["Быстрое добавление в черный список"])
+frame:SetTooltip(L["Не отображать окно ввода причины для черного списка"])
+frame.frame:HookScript("OnClick", function()
+	DB.global.fastBlacklist = settingsCheckBoxGRP.fastBlacklist:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.blacklistReasonText.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.setNote = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.setNote
+frame:SetWidth(size.setNote)
+frame:SetLabel(L["Заметка для новых игроков"])
+frame:SetTooltip(L["Установить заметку для новых членов гильдии"]..noteHelp)
+frame.frame:HookScript("OnClick", function()
+	DB.global.setNote = settingsCheckBoxGRP.setNote:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settingsCheckBoxGRP.fastBlacklist.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.noteText = GUI:Create("EditBox")
+local frame = settingsCheckBoxGRP.noteText
+frame:SetWidth(settings.frame:GetWidth()-30)
+frame:DisableButton(true)
+EditBoxChange(frame)
+frame:SetCallback("OnTextChanged", function(self,_,msg)
+	DB.global.noteText = msg
+	if fn:getCharLen(msg) > FGI_NOTEMAXLENGTH then
+		self:SetText(self.temptext or "")
+		return
+	end
+	self.temptext = msg
+end)
+frame.editbox:SetScript("OnEscapePressed", function(self)
+	DB.global.noteText = self.lasttext
+	self:SetText(self.lasttext or "")
+	self:ClearFocus()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.setNote.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.setOfficerNote = GUI:Create("TCheckBox")
+local frame = settingsCheckBoxGRP.setOfficerNote
+frame:SetWidth(size.setOfficerNote)
+frame:SetLabel(L["Заметка для офицеров для новых игроков"])
+frame:SetTooltip(L["Установить заметку для офицеров для новых членов гильдии"]..noteHelp)
+frame.frame:HookScript("OnClick", function()
+	DB.global.setOfficerNote = settingsCheckBoxGRP.setOfficerNote:GetValue()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.noteText.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
+settingsCheckBoxGRP.officerNoteText = GUI:Create("EditBox")
+local frame = settingsCheckBoxGRP.officerNoteText
+frame:SetWidth(settings.frame:GetWidth()-30)
+frame:DisableButton(true)
+EditBoxChange(frame)
+frame:SetCallback("OnTextChanged", function(self,_,msg)
+	if fn:getCharLen(msg) > FGI_NOTEMAXLENGTH then
+		self:SetText(self.temptext or "")
+		return
+	end
+	self.temptext = msg
+	DB.global.officerNoteText = msg
+end)
+frame.editbox:SetScript("OnEscapePressed", function(self)
+	DB.global.officerNoteText = self.lasttext
+	self:SetText(self.lasttext or "")
+	self:ClearFocus()
+end)
+frame:SetPoint("TOPLEFT", settings.settingsCheckBoxGRP.setOfficerNote.frame, "BOTTOMLEFT", 0, 0)
+settingsCheckBoxGRP:AddChild(frame)
+
 
 
 
@@ -247,6 +394,13 @@ frame:SetScript('OnEvent', function()
 	settingsCheckBoxGRP.searchAlertNotify:SetValue(DB.global.searchAlertNotify or false)
 	settingsCheckBoxGRP.blacklistOfficer:SetValue(DB.global.blacklistOfficer or false)
 	settings.clearDBtimes:SetValue(DB.global.clearDBtimes)
+	settingsCheckBoxGRP.confirmSearchClear:SetValue(DB.global.confirmSearchClear or false)
+	settingsCheckBoxGRP.blacklistReasonText:SetText(DB.global.blacklistReasonText == nil and L["defaultReason"] or DB.global.blacklistReasonText)
+	settingsCheckBoxGRP.fastBlacklist:SetValue(DB.global.fastBlacklist or false)
+	settingsCheckBoxGRP.setNote:SetValue(DB.global.setNote or false)
+	settingsCheckBoxGRP.noteText:SetText(DB.global.noteText or ""); settingsCheckBoxGRP.noteText.temptext = settingsCheckBoxGRP.noteText:GetText()
+	settingsCheckBoxGRP.setOfficerNote:SetValue(DB.global.setOfficerNote or false)
+	settingsCheckBoxGRP.officerNoteText:SetText(DB.global.officerNoteText or ""); settingsCheckBoxGRP.officerNoteText.temptext = settingsCheckBoxGRP.officerNoteText:GetText()
 	
 	
 	updateMsgFilters()

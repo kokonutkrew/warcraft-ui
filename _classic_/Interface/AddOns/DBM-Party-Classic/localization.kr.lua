@@ -12,7 +12,7 @@ L:SetGeneralLocalization{
 	name 		= "가무라"
 }
 -----------------------------
---  Lady Serevess  --
+--  Lady Sarevess  --
 -----------------------------
 L = DBM:GetModLocalization("LadySerevess")
 
@@ -454,7 +454,7 @@ L:SetGeneralLocalization{
 	name 		= "일리아나 레이븐오크"
 }
 -----------------------------
---  Magister Kelendris  --
+--  Magister Kalendris  --
 -----------------------------
 L = DBM:GetModLocalization(408)
 
@@ -698,7 +698,7 @@ L:SetGeneralLocalization{
 }
 
 -----------------------------
---  Mordress Fire Eye  --
+--  Mordresh Fire Eye  --
 -----------------------------
 L = DBM:GetModLocalization("MordreshFireEye")
 
@@ -734,7 +734,7 @@ L:SetGeneralLocalization{
 }
 
 -----------------------------
---  PlaguemawtheRotting  --
+--  Plaguemaw the Rotting  --
 -----------------------------
 L = DBM:GetModLocalization("PlaguemawtheRotting")
 
@@ -1084,7 +1084,7 @@ L:SetGeneralLocalization{
 }
 
 -------------------------
---  Stormwind Stockaid 34M (10L/15C)  --
+--  Stormwind Stockade 34M (10L/15C)  --
 -----------------------------
 --  Targorr the Dread  --
 -----------------------------
@@ -1209,7 +1209,7 @@ L:SetGeneralLocalization{
 }
 
 -----------------------------
---  Narub'enkan  --
+--  Nerub'enkan  --
 -----------------------------
 L = DBM:GetModLocalization(452)
 
@@ -1242,6 +1242,12 @@ L = DBM:GetModLocalization(455)
 
 L:SetGeneralLocalization{
 	name 		= "먹보 람스타인"
+}
+L:SetTimerLocalization{
+	TimerGuards	= "보초병 등장"
+}
+L:SetOptionLocalization{
+	TimerGuards	= "보스를 쓰러트리면 검은호위대 보초병 등장 타이머 바 표시"
 }
 
 -----------------------------

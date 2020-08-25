@@ -1,0 +1,10 @@
+## Interface: 11302
+
+## Title: AdiBags - BOEOverlay
+## Author: apottere
+## Version: v1.1
+## X-Date: 2019-11-18T4:56:14Z
+
+## Dependencies: AdiBags
+
+AdiBags-BOEOverlay.lua

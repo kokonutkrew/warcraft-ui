@@ -1,10 +1,12 @@
-local AceGUI = LibStub("AceGUI-3.0")
-local L = LibStub("AceLocale-3.0"):GetLocale("HonorSpy", true)
-
 local GUI = {}
 _G["HonorSpyGUI"] = GUI
 
-local mainFrame, statusLine, playerStandings, reportBtn, scroll = nil, nil, nil, nil
+local AceGUI = LibStub("AceGUI-3.0")
+local L = LibStub("AceLocale-3.0"):GetLocale("HonorSpy", true)
+
+LibStub("AceHook-3.0"):Embed(GUI)
+
+local mainFrame, poolSize, playerStandings, reportBtn, scroll = nil, nil, nil, nil
 local rows, brackets = {}, {}
 local playersPerRow = 50
 local needsRelayout = true
@@ -14,21 +16,23 @@ local colors = {
 	["GREY"] = "aaaaaa",
 	["RED"] = "C41F3B",
 	["GREEN"] = "00FF96",
-	["SHAMAN"] = "0070DE"
+	["SHAMAN"] = "0070DE",
+	["nil"] = "FFFFFF",
+	["NORMAL"] = "f2ca45"
 }
 
 local playerName = UnitName("player")
 
-function GUI:Show(skipUpdate)
+function GUI:Show(skipUpdate, sort_column)
 	if (not skipUpdate) then
 		HonorSpy:UpdatePlayerData(function()
 			if (mainFrame:IsShown()) then
-				GUI:Show(true)
+				GUI:Show(true, sort_column)
 			end
 		end)
 	end
 	
-	rows = HonorSpy:BuildStandingsTable()
+	rows = HonorSpy:BuildStandingsTable(sort_column)
 	local brk = HonorSpy:GetBrackets(#rows)
 	for i = 1, #brk do
 		for j = brk[i], (brk[i+1] or 0)+1, -1 do
@@ -36,9 +40,19 @@ function GUI:Show(skipUpdate)
 		end
 	end
 
-	local poolSizeText = format(L['Pool Size'] .. ': %d ', #rows)
-	statusLine:SetText('|cff777777/hs show|r                                                            ' .. poolSizeText .. '                                                 |cff777777/hs search nickname|r')
-
+	local poolSizeText
+	
+	if HonorSpy.db.factionrealm.poolBoost > 0 then
+		poolSizeText = format(
+			L['Natural Pool Size'] .. ":" .. colorize(' %d', "RED") .. " - " .. 
+			L['Boosted Pool Size'] .. ":" .. colorize(' %d', "GREEN"), 
+			#rows, #rows + HonorSpy:GetPoolBoostForToday())
+	else
+		poolSizeText = format(
+			L['Pool Size'] .. ":" .. colorize(' %d', "ORANGE"),#rows)
+	end
+	poolSize:SetText(poolSizeText)
+	
 	local pool_size, standing, bracket, RP, EstRP, Rank, Progress, EstRank, EstProgress = HonorSpy:Estimate()
 	if (standing) then
 		local playerText = colorize(L['Progress of'], "GREY") .. ' ' .. colorize(playerName, HonorSpy.db.factionrealm.currentStandings[playerName].class)
@@ -71,7 +85,7 @@ function GUI:Toggle()
 	if (mainFrame and mainFrame:IsShown()) then
 		GUI:Hide()
 	else
-		GUI:Show()
+		GUI:Show(false, L["EstHonor"])
 	end
 end
 
@@ -96,6 +110,13 @@ function GUI:UpdateTableView()
 			brk_delim_inserted = true
 			button.Name:SetText(colorize(format(L["Bracket"] .. " %d", brackets[itemIndex]), "GREY"))
 			button.Honor:SetText();
+			if HonorSpy.db.factionrealm.estHonorCol.show then
+				button.EstHonor:SetText();
+				button.EstHonor:SetWidth(80);
+			else
+				button.EstHonor:SetText();
+				button.EstHonor:SetWidth(0);
+			end
 			button.LstWkHonor:SetText();
 			button.Standing:SetText();
 			button.RP:SetText();
@@ -106,7 +127,7 @@ function GUI:UpdateTableView()
 			button:Show();
 		
 		elseif (itemIndex <= #rows) then
-			local name, class, thisWeekHonor, lastWeekHonor, standing, RP, rank, last_checked = unpack(rows[itemIndex])
+			local name, class, thisWeekHonor, estHonor, lastWeekHonor, standing, RP, rank, last_checked = unpack(rows[itemIndex])
 			local last_seen, last_seen_human = (GetServerTime() - last_checked), ""
 			if (last_seen/60/60/24 > 1) then
 				last_seen_human = ""..math.floor(last_seen/60/60/24)..L["d"]
@@ -120,6 +141,13 @@ function GUI:UpdateTableView()
 			button:SetID(itemIndex);
 			button.Name:SetText(colorize(itemIndex .. ')  ', "GREY") .. colorize(name, class));
 			button.Honor:SetText(colorize(thisWeekHonor, class));
+			if HonorSpy.db.factionrealm.estHonorCol.show then 
+				button.EstHonor:SetText(colorize(estHonor, class)); 
+				button.EstHonor:SetWidth(80);
+			else 
+				button.EstHonor:SetText();
+				button.EstHonor:SetWidth(0);
+			end
 			button.LstWkHonor:SetText(colorize(lastWeekHonor, class));
 			button.Standing:SetText(colorize(standing, class));
 			button.RP:SetText(colorize(RP, class));
@@ -153,7 +181,7 @@ function GUI:PrepareGUI()
 	_G["HonorSpyGUI_MainFrame"] = mainFrame
 	tinsert(UISpecialFrames, "HonorSpyGUI_MainFrame")	-- allow ESC close
 	mainFrame:SetTitle(L["HonorSpy Standings"])
-	mainFrame:SetWidth(600)
+	if HonorSpy.db.factionrealm.estHonorCol.show then mainFrame:SetWidth(680) else mainFrame:SetWidth(600) end
 	mainFrame:SetLayout("List")
 	mainFrame:EnableResize(false)
 
@@ -189,13 +217,23 @@ function GUI:PrepareGUI()
 
 	btn = AceGUI:Create("InteractiveLabel")
 	btn:SetCallback("OnClick", function()
-		HonorSpy.db.factionrealm.sort = L["Honor"]
-		GUI:Show()
+		GUI:Show(false, L["Honor"])
 	end)
 	btn.highlight:SetColorTexture(0.3, 0.3, 0.3, 0.5)
 	btn:SetWidth(80)
 	btn:SetText(colorize(L["Honor"], "ORANGE"))
 	tableHeader:AddChild(btn)
+
+	if HonorSpy.db.factionrealm.estHonorCol.show then
+		btn = AceGUI:Create("InteractiveLabel")
+		btn:SetCallback("OnClick", function()
+			GUI:Show(false, L["EstHonor"])
+		end)
+		btn.highlight:SetColorTexture(0.3, 0.3, 0.3, 0.5)
+		btn:SetWidth(80)
+		btn:SetText(colorize(L["EstHonor"], "ORANGE"))
+		tableHeader:AddChild(btn)
+	end
 
 	btn = AceGUI:Create("InteractiveLabel")
 	btn:SetWidth(80)
@@ -203,6 +241,10 @@ function GUI:PrepareGUI()
 	tableHeader:AddChild(btn)
 
 	btn = AceGUI:Create("InteractiveLabel")
+	btn:SetCallback("OnClick", function()
+		GUI:Show(false, L["Standing"])
+	end)
+	btn.highlight:SetColorTexture(0.3, 0.3, 0.3, 0.5)
 	btn:SetWidth(70)
 	btn:SetText(colorize(L["Standing"], "ORANGE"))
 	tableHeader:AddChild(btn)
@@ -214,8 +256,7 @@ function GUI:PrepareGUI()
 
 	btn = AceGUI:Create("InteractiveLabel")
 	btn:SetCallback("OnClick", function()
-		HonorSpy.db.factionrealm.sort = L["Rank"]
-		GUI:Show()
+		GUI:Show(false, L["Rank"])
 	end)
 	btn.highlight:SetColorTexture(0.3, 0.3, 0.3, 0.5)
 	btn:SetWidth(50)
@@ -227,7 +268,7 @@ function GUI:PrepareGUI()
 	btn:SetText(colorize(L["LastSeen"], "ORANGE"))
 	tableHeader:AddChild(btn)
 
-	scrollcontainer = AceGUI:Create("SimpleGroup")
+	local scrollcontainer = AceGUI:Create("SimpleGroup")
 	scrollcontainer:SetFullWidth(true)
 	scrollcontainer:SetHeight(390)
 	scrollcontainer:SetLayout("Fill")
@@ -241,16 +282,59 @@ function GUI:PrepareGUI()
 	HybridScrollFrame_SetDoNotHideScrollBar(scroll, true)
 	scroll.update = function() GUI:UpdateTableView() end
 
-	statusLine = AceGUI:Create("Label")
-	statusLine:SetFullWidth(true)
-	mainFrame:AddChild(statusLine)
-	statusLine:ClearAllPoints()
-	statusLine:SetPoint("BOTTOM", mainFrame.frame, "BOTTOM", 0, 15)
+	local hsFooter = AceGUI:Create("SimpleGroup")
+	mainFrame:AddChild(hsFooter)
+	hsFooter:SetWidth(mainFrame.frame:GetWidth() - 20)
+	hsFooter:SetLayout("Flow")
+
+	local hsShow = AceGUI:Create("Label")
+	hsShow:SetText('|cff777777/hs show|r')
+	hsShow:SetWidth(hsFooter.frame:GetWidth() / 4)
+	hsShow:SetPoint("BOTTOMLEFT")
+	hsShow:SetJustifyH("LEFT")
+	hsFooter:AddChild(hsShow)
+
+	poolSize = AceGUI:Create("Label")
+	poolSize:SetWidth(hsFooter.frame:GetWidth() / 2)
+	poolSize:SetPoint("BOTTOM")
+	poolSize:SetJustifyH("CENTER")
+	hsFooter:AddChild(poolSize)
+
+	local hsSearch = AceGUI:Create("Label")
+	hsSearch:SetWidth(hsFooter.frame:GetWidth() / 4)
+	hsSearch:SetPoint("BOTTOMRIGHT")
+	hsSearch:SetJustifyH("RIGHT")
+	hsSearch:SetText('|cff777777/hs search nickname|r')
+	hsFooter:AddChild(hsSearch)
+
+	if (not HonorSpyGUI:IsHooked(HonorFrame, "OnUpdate")) then
+		HonorSpyGUI:SecureHookScript(HonorFrame, "OnUpdate", "UpdateHonorFrameText")
+	end
+end
+
+function HonorSpyGUI:UpdateHonorFrameText(setRankProgress)
+	-- rank progress percentage
+	local _, rankNumber = GetPVPRankInfo(UnitPVPRank("player"))
+	local rankProgress = GetPVPRankProgress(); -- This is a player only call
+	HonorFrameCurrentPVPRank:SetText(format("(%s %d) %d%%", RANK, rankNumber, rankProgress*100))
+	
+	-- today's honor
+	HonorFrameCurrentHKValue:SetText(format("%d "..colorize("(Honor: %d)", "NORMAL"), GetPVPSessionStats(), HonorSpy.db.char.estimated_honor - HonorSpy.db.char.original_honor))
+	-- this week honor
+	local _, this_week_honor = GetPVPThisWeekStats();
+	HonorFrameThisWeekContributionValue:SetText(format("%d (%d)", this_week_honor, HonorSpy.db.char.estimated_honor))
 end
 
 function colorize(str, colorOrClass)
+	if (not colorOrClass) then -- some guys have nil class for an unknown reason
+		colorOrClass = "nil"
+	end
+	
 	if (not colors[colorOrClass] and RAID_CLASS_COLORS and RAID_CLASS_COLORS[colorOrClass]) then
 		colors[colorOrClass] = format("%02x%02x%02x", RAID_CLASS_COLORS[colorOrClass].r * 255, RAID_CLASS_COLORS[colorOrClass].g * 255, RAID_CLASS_COLORS[colorOrClass].b * 255)
+	end
+	if (not colors[colorOrClass]) then
+		colorOrClass = "nil"
 	end
 
 	return format("|cff%s%s|r", colors[colorOrClass], str)

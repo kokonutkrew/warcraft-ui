@@ -36,25 +36,25 @@ local function SendSyncData(target, type)
    addon:Debug("SendSyncData",target,type)
    local toSend = addon:Serialize("sync", {addon.playerName, type, sync_table[target][type]})
    if addon:UnitIsUnit(target,"player") then -- If target == "player"
-			addon:SendCommMessage("RCLootCouncil", toSend, "WHISPER", addon.playerName, "BULK", sync.OnDataPartSent, sync)
+			addon:SendCommandModified("RCLootCouncil", toSend, "WHISPER", addon.playerName, "BULK", sync.OnDataPartSent, sync)
 	else
 		-- We cannot send "WHISPER" to a crossrealm player
 		if target:find("-") then
 			if target:find(addon.realmName) then -- Our own realm, just send it
-				addon:SendCommMessage("RCLootCouncil", toSend, "WHISPER", target, "BULK", sync.OnDataPartSent, sync)
+				addon:SendCommandModified("RCLootCouncil", toSend, "WHISPER", target, "BULK", sync.OnDataPartSent, sync)
 			else -- Get creative
 				-- Remake command to be "xrealm" and put target and command in the table
 				-- See "RCLootCouncil:HandleXRealmComms()" for more info
 				toSend = addon:Serialize("xrealm", {target, "sync", addon.playerName, type, sync_table[target][type]})
 				if GetNumGroupMembers() > 0 then -- We're in a group
-					addon:SendCommMessage("RCLootCouncil", toSend, IsPartyLFG() and "INSTANCE_CHAT" or "RAID", nil, "BULK", sync.OnDataPartSent, sync)
+					addon:SendCommandModified("RCLootCouncil", toSend, addon.Utils.IsPartyLFG() and "INSTANCE_CHAT" or "RAID", nil, "BULK", sync.OnDataPartSent, sync)
 				else -- We're not, probably a guild verTest
-					addon:SendCommMessage("RCLootCouncil", toSend, "GUILD", nil, "BULK", sync.OnDataPartSent, sync)
+					addon:SendCommandModified("RCLootCouncil", toSend, "GUILD", nil, "BULK", sync.OnDataPartSent, sync)
 				end
 			end
 
 		else -- Should also be our own realm
-			addon:SendCommMessage("RCLootCouncil", toSend, "WHISPER", target, "BULK", sync.OnDataPartSent, sync)
+			addon:SendCommandModified("RCLootCouncil", toSend, "WHISPER", target, "BULK", sync.OnDataPartSent, sync)
 		end
 	end
    addon:Debug("SendSyncData", "SENT")
@@ -85,8 +85,6 @@ function sync:SyncAckReceived(player, type)
    end
    -- We're ready to send
    SendSyncData(player, type)
-   -- clear the table:
-   data = nil
    addon:Print(format(L["Sending 'type' to 'player'..."], type, player))
 end
 
@@ -188,7 +186,7 @@ function sync:GetSyncTargetOptions()
    if not addon.debug then ret[addon.playerName] = nil end
    -- Check if it's empty
    local isEmpty = true
-   for k in pairs(ret) do isEmpty = false; break end
+   for k in pairs(ret) do isEmpty = false; break end --luacheck: ignore
    ret[1] = isEmpty and "--"..L["No recipients available"].."--" or nil
    table.sort(ret, function(a,b) return a > b end)
    return ret

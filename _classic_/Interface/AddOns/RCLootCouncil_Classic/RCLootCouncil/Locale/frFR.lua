@@ -13,6 +13,8 @@ L["A tab delimited output for Excel. Might work with other spreadsheets."] = "Fo
 L["Abort"] = "Annuler"
 L["Accept Whispers"] = "Autoriser les chuchotements"
 L["accept_whispers_desc"] = "Permet aux joueurs de vous chuchoter leur(s) objet(s) équipé(s) pour qu'il(s) soit(-ent) ajouté à la fenêtre de vote."
+--[[Translation missing --]]
+L["Accepted imports: 'Player Export' and 'CSV'"] = "Accepted imports: 'Player Export' and 'CSV'"
 L["Active"] = "Activé"
 L["active_desc"] = "Décocher pour désactiver RCLootCouncil. Cette option est utile si vous faites partie d'un groupe de raid, mais que vous n'y participez pas. Remarque : cette option est réinitialisée après chaque déconnexion."
 L["Add Item"] = "Ajouter un objet"
@@ -220,6 +222,8 @@ L["confirm_usage_text"] = [=[|cFF87CEFA RCLootCouncil |r
 Souhaitez-vous utiliser RCLootCouncil avec ce groupe ?]=]
 --[[Translation missing --]]
 L["Conqueror Token"] = "Conqueror Token"
+--[[Translation missing --]]
+L["Corruption if awarded:"] = "Corruption if awarded:"
 L["Could not Auto Award i because the Loot Threshold is too high!"] = "Attribution automatique de %s impossible car le seuil de qualité est trop élevé !"
 L["Could not find 'player' in the group."] = "Le joueur %s n'a pas été trouvé dans le groupe."
 L["Couldn't find any councilmembers in the group"] = "Aucun membre du conseil n'a été trouvé dans le groupe"
@@ -241,6 +245,8 @@ L["Diff"] = true
 --[[Translation missing --]]
 L["Discord friendly output."] = "Discord friendly output."
 L["disenchant_desc"] = "Sélectionner cette option pour que ce motif soit choisi lorsque vous attribuez un objet par le biais du bouton 'Désenchanter'"
+--[[Translation missing --]]
+L["Do you want to keep %s for yourself or trade?"] = "Do you want to keep %s for yourself or trade?"
 --[[Translation missing --]]
 L["Do you want to keep %s for yourself?"] = "Do you want to keep %s for yourself?"
 --[[Translation missing --]]
@@ -295,7 +301,15 @@ L["ignore_input_usage"] = "Cette fonction n'accepte que l'ID des objets (numéro
 L["ignore_list_desc"] = "Objets ignorés par RCLootCouncil. Cliquez sur un objet pour le retirer de la liste."
 L["ignore_options_desc"] = "Gérez quels objets devraient être ignorés par RCLootCouncil. Si vous ajoutez un objet qui n'a pas été mis en cache, vous devez changer d'onglet puis revenir dans celui-ci pour que vous puissiez voir l'objet en question apparaître dans la liste."
 --[[Translation missing --]]
+L["Import aborted"] = "Import aborted"
+--[[Translation missing --]]
 L["import_desc"] = "Paste data here. Only show first 2500 characters to avoid freezing the game."
+--[[Translation missing --]]
+L["import_malformed"] = "The import was malformed (not a string)"
+--[[Translation missing --]]
+L["import_malformed_header"] = "Malformed header"
+--[[Translation missing --]]
+L["import_not_supported"] = "The import type is either very malformed or not supported."
 --[[Translation missing --]]
 L["Invalid selection"] = "Invalid selection"
 L["Item"] = "Objet"
@@ -312,6 +326,8 @@ L["item_in_bags_low_trade_time_remaining_reminder"] = "The following bind on pic
 --[[Translation missing --]]
 L["Items stored in the loot master's bag for award later cannot be awarded later."] = "Items stored in the loot master's bag for award later cannot be awarded later."
 L["Items under consideration:"] = "Objets en train d'être examinés"
+--[[Translation missing --]]
+L["Keep"] = "Keep"
 L["Latest item(s) won"] = "Dernier(s) objet(s) attribué(s)."
 L["Length"] = "Durée"
 L["Log"] = "Journal"
@@ -330,6 +346,10 @@ Remarque : les joueurs autres que le maître du butin peuvent uniquement enregis
 L["Looted"] = "Looted"
 --[[Translation missing --]]
 L["Looted by:"] = "Looted by:"
+--[[Translation missing --]]
+L["lootFrame_error_note_required"] = "You must add a note before submitting your repsonse - %s"
+--[[Translation missing --]]
+L["lootHistory_moreInfo_winnersOfItem"] = "Winners of %s:"
 L["Looting options"] = "Paramètres de fouille"
 L["Lower Quality Limit"] = "Seuil inférieur de qualité"
 L["lower_quality_limit_desc"] = [=[Déterminez le seuil inférieur de qualité des objets qui seront automatiquement attribués (cette qualité est comprise).
@@ -345,6 +365,8 @@ L["Message for each item"] = "Message for each item"
 L["message_desc"] = "Message à envoyer au canal prédéfini."
 L["Minimize in combat"] = "Minimiser en combat"
 L["Minor Upgrade"] = "Légère amél."
+--[[Translation missing --]]
+L["Missing votes from:"] = "Missing votes from:"
 L["ML sees voting"] = "MdB voit les votes"
 L["ml_sees_voting_desc"] = "Permet au maître du butin de voir qui a voté pour qui."
 --[[Translation missing --]]
@@ -410,8 +432,12 @@ L["opt_addButton_desc"] = "Add a new button group for the selected slot."
 --[[Translation missing --]]
 L["opt_autoTrade_desc"] = "Check to automatically add awarded items to the trade window when trading with the winner. If disabled, you'll see a popup before items are added."
 --[[Translation missing --]]
+L["opt_award_later_desc"] = "Check to automatically check the 'Award Later' option in the Session Frame."
+--[[Translation missing --]]
 L["opt_buttonsGroup_desc"] = [=[Options group for %s buttons and responses.
 See above for a detailed explanation.]=]
+--[[Translation missing --]]
+L["opt_chatFrameName_desc"] = "Select which chat frame you want RCLootCouncil to output information to."
 --[[Translation missing --]]
 L["opt_deleteDate_confirm"] = [=[Are you sure you want to delete everything older than the selected?
 This cannot be undone.]=]
@@ -442,6 +468,20 @@ L["opt_printCompletedTrade_Name"] = "Trade Messages"
 L["opt_rejectTrade_Desc"] = "Check to enable candidates to choose whether they want to 'give' the item to the council or not. If unchecked, all tradeable PL items are added automatically."
 --[[Translation missing --]]
 L["opt_rejectTrade_Name"] = "Allow Keeping"
+--[[Translation missing --]]
+L["opt_saveBonusRolls_Desc"] = "Check to save all bonus rolls from candidates to the Loot History."
+--[[Translation missing --]]
+L["opt_saveBonusRolls_Name"] = "Save Bonus Rolls"
+--[[Translation missing --]]
+L["options_autoAwardBoE_desc"] = "Enable to automatically award all epic BoE (Bind on Equip) items to a specific person for the selected reason."
+--[[Translation missing --]]
+L["options_autoAwardBoE_name"] = "Auto Award BoE's"
+--[[Translation missing --]]
+L["options_ml_outOfRaid_desc"] = "When enabled, while in a group of 8 or more members, anyone that isn't in an instance when a session starts will automatically send an 'Out of Raid' response."
+--[[Translation missing --]]
+L["options_ml_outOfRaid_name"] = "Out of Raid Support"
+--[[Translation missing --]]
+L["options_requireNotes_desc"] = "If enabled, candidates cannot submit their response without having entered a note."
 --[[Translation missing --]]
 L["Original Owner"] = "Original Owner"
 --[[Translation missing --]]
@@ -500,6 +540,8 @@ L["Remove from consideration"] = "Retirer de la liste"
 L["remove_all_desc"] = "Retirer tous les membres du conseil"
 --[[Translation missing --]]
 L["Requested rolls for 'item' from 'target'"] = "Requested rolls for %s from %s"
+--[[Translation missing --]]
+L["Require Notes"] = "Require Notes"
 L["Reset Skin"] = "Réinitialiser l'apparence"
 L["Reset skins"] = "Réinitialiser les apparences"
 L["reset_announce_to_default_desc"] = "Réinitialise tous les paramètres des annonces avec les paramètres par défaut."
@@ -531,7 +573,11 @@ L["save_skin_desc"] = "Donnez un nom à votre apparence puis appuyez sur \"Okay\
 L["Self Vote"] = "Vote pour soi"
 L["self_vote_desc"] = "Permet aux votants de voter pour eux."
 L["Send History"] = "Envoyer l'historique"
+--[[Translation missing --]]
+L["Send to Guild"] = "Send to Guild"
 L["send_history_desc"] = "Envoyer les données à tous les membres du raid, que vous enregistriez vous-même les données ou non. RCLootCouncil n'enverra de données que si vous êtes le maître du butin."
+--[[Translation missing --]]
+L["send_to_guild_desc"] = "Send history to guild members instead of your group. Useful if you're running multiple raid groups and want a combined history for your guild. The downside is non-guild members in your group won't register your history entries."
 --[[Translation missing --]]
 L["Sending 'type' to 'player'..."] = "Sending %s to %s..."
 L["Sent whisper help to 'player'"] = "Chuchotement d'aide envoyé à %s"
@@ -564,6 +610,8 @@ L["Sort Items"] = "Sort Items"
 --[[Translation missing --]]
 L["sort_items_desc"] = "Sort sessions by item type and item level."
 L["Standard .csv output."] = "Exporter en .csv standard."
+--[[Translation missing --]]
+L["Standard JSON output."] = "JSON array containing one JSON object per history entry."
 L["Status texts"] = "Textes de statut"
 --[[Translation missing --]]
 L["Store in bag and award later"] = "Store in bag and award later"

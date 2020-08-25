@@ -11,7 +11,7 @@ L:SetGeneralLocalization{
 	name 		= "Ghamoo-Ra"
 }
 -----------------------------
---  Lady Serevess  --
+--  Lady Sarevess  --
 -----------------------------
 L = DBM:GetModLocalization("LadySerevess")
 
@@ -453,12 +453,12 @@ L:SetGeneralLocalization{
 	name 		= "Illyanna Ravensoak"
 }
 -----------------------------
---  Magister Kelendris  --
+--  Magister Kalendris  --
 -----------------------------
 L = DBM:GetModLocalization(408)
 
 L:SetGeneralLocalization{
-	name 		= "Magister Kelendris"
+	name 		= "Magister Kalendris"
 }
 -----------------------------
 --  Immol'thar  --
@@ -697,7 +697,7 @@ L:SetGeneralLocalization{
 }
 
 -----------------------------
---  Mordress Fire Eye  --
+--  Mordresh Fire Eye  --
 -----------------------------
 L = DBM:GetModLocalization("MordreshFireEye")
 
@@ -733,7 +733,7 @@ L:SetGeneralLocalization{
 }
 
 -----------------------------
---  PlaguemawtheRotting  --
+--  Plaguemaw the Rotting  --
 -----------------------------
 L = DBM:GetModLocalization("PlaguemawtheRotting")
 
@@ -1241,6 +1241,12 @@ L = DBM:GetModLocalization(455)
 
 L:SetGeneralLocalization{
 	name 		= "Ramstein the Gorger"
+}
+L:SetTimerLocalization{
+	TimerGuards	= "Sentries Spawn"
+}
+L:SetOptionLocalization{
+	TimerGuards	= "Upon defeat of boss, show timer for the arrival of Black Guard Sentries"
 }
 
 -----------------------------

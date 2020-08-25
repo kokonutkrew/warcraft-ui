@@ -4,7 +4,7 @@ local tinsert, tconcat, tremove, wipe = table.insert, table.concat, table.remove
 local select, pairs, next, type, unpack = select, pairs, next, type, unpack
 local tostring, error = tostring, error
 
-local Type, Version = "WeakAurasDisplayButton", 51
+local Type, Version = "WeakAurasDisplayButton", 55
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -32,7 +32,7 @@ local ignoreForCopyingDisplay = {
   semver = true,
   version = true,
   internalVersion = true,
-  tocbuild = true
+  tocversion = true
 }
 
 local function copyAuraPart(source, destination, part)
@@ -95,18 +95,21 @@ clipboard.pasteMenuEntry = {
       for index, childId in pairs(clipboard.current.controlledChildren) do
         local childData = WeakAuras.GetData(childId);
         copyAuraPart(clipboard.source, childData, clipboard.part);
-        WeakAuras.Add(childData);
+        WeakAuras.Add(childData)
+        WeakAuras.ClearAndUpdateOptions(childData.id)
       end
     else
       copyAuraPart(clipboard.source, clipboard.current, clipboard.part);
-      WeakAuras.Add(clipboard.current);
+      WeakAuras.Add(clipboard.current)
+      WeakAuras.ClearAndUpdateOptions(clipboard.current.id)
     end
 
+    WeakAuras.FillOptions()
     WeakAuras.ScanForLoads({[clipboard.current.id] = true});
     WeakAuras.SortDisplayButtons();
     WeakAuras.PickDisplay(clipboard.current.id);
     WeakAuras.UpdateDisplayButton(clipboard.current.id);
-    WeakAuras.ReloadOptions2(clipboard.current.id, clipboard.current);
+    WeakAuras.ClearAndUpdateOptions(clipboard.current.id);
   end
 }
 
@@ -304,16 +307,22 @@ local Actions = {
           WeakAuras.Add(source.data)
           WeakAuras.Add(group.data)
           WeakAuras.UpdateGroupOrders(group.data)
-          WeakAuras.ReloadGroupRegionOptions(group.data)
+          WeakAuras.ClearAndUpdateOptions(group.data.id)
+          WeakAuras.ClearAndUpdateOptions(source.data.id)
           WeakAuras.UpdateDisplayButton(group.data)
+          WeakAuras.FillOptions()
           group.callbacks.UpdateExpandButton();
           group:ReloadTooltip()
         else
           WeakAuras.Add(source.data)
+          WeakAuras.ClearAndUpdateOptions(source.data.id)
+          WeakAuras.FillOptions()
         end
       else
         -- move source into the top-level list
         WeakAuras.Add(source.data)
+        WeakAuras.ClearAndUpdateOptions(source.data.id)
+        WeakAuras.FillOptions()
       end
     else
       error("Calling 'Group' with invalid source. Reload your UI to fix the display list.")
@@ -331,7 +340,7 @@ local Actions = {
         source.data.parent = nil
         WeakAuras.Add(parent);
         WeakAuras.UpdateGroupOrders(parent);
-        WeakAuras.ReloadGroupRegionOptions(parent);
+        WeakAuras.ClearAndUpdateOptions(parent.id);
         WeakAuras.UpdateDisplayButton(parent);
         local group = WeakAuras.GetDisplayButton(parent.id)
         group.callbacks.UpdateExpandButton();
@@ -367,6 +376,8 @@ local Actions = {
           tinsert(children, 1, source.data.id)
         end
         WeakAuras.Add(parent)
+        WeakAuras.ClearAndUpdateOptions(parent.id)
+        WeakAuras.FillOptions()
         WeakAuras.UpdateGroupOrders(parent)
         WeakAuras.UpdateDisplayButton(parent)
       else
@@ -490,6 +501,28 @@ local function Show_DropIndicator(id)
   end
 end
 
+-- WORKAROUND
+-- Blizzard in its infinite wisdom did:
+-- * Force enable the profanity filter for the chinese region
+-- * Add a realm name's part to the profanity filter
+function WeakAuras.ObfuscateName(name)
+  if (GetCurrentRegion() == 5) then
+    local result = ""
+    for i = 1, #name do
+      local b = name:byte(i)
+      if (b >= 196 and i ~= 1) then
+        -- UTF8 Start byte
+        result = result .. string.char(46, b)
+      else
+        result = result .. string.char(b)
+      end
+    end
+    return result
+  else
+    return name
+  end
+end
+
 --[[-----------------------------------------------------------------------------
 Methods
 -------------------------------------------------------------------------------]]
@@ -497,6 +530,7 @@ local methods = {
   ["OnAcquire"] = function(self)
     self:SetWidth(1000);
     self:SetHeight(32);
+    self.hasThumbnail = false
   end,
   ["Initialize"] = function(self)
     local data = self.data;
@@ -516,7 +550,7 @@ local methods = {
           if (not fullName) then
             local name, realm = UnitFullName("player")
             if realm then
-              fullName = name.."-"..realm
+              fullName = name.."-".. WeakAuras.ObfuscateName(realm)
             else
               fullName = name
             end
@@ -571,6 +605,7 @@ local methods = {
           childButton:SetGroupOrder(#data.controlledChildren, #data.controlledChildren);
           childData.parent = data.id;
           WeakAuras.Add(childData);
+          WeakAuras.ClearAndUpdateOptions(childData.id)
         end
       else
         tinsert(data.controlledChildren, self.grouping.id);
@@ -579,16 +614,19 @@ local methods = {
         childButton:SetGroupOrder(#data.controlledChildren, #data.controlledChildren);
         self.grouping.parent = data.id;
         WeakAuras.Add(self.grouping);
+        WeakAuras.ClearAndUpdateOptions(self.grouping.id);
       end
       if (data.regionType == "dynamicgroup") then
         self.grouping.xOffset = 0;
         self.grouping.yOffset = 0;
       end
       WeakAuras.Add(data);
+      WeakAuras.ClearAndUpdateOptions(data.id)
       self.callbacks.UpdateExpandButton();
       WeakAuras.SetGrouping();
       WeakAuras.UpdateDisplayButton(data);
-      WeakAuras.ReloadGroupRegionOptions(data);
+      WeakAuras.ClearAndUpdateOptions(data.id);
+      WeakAuras.FillOptions();
       WeakAuras.UpdateGroupOrders(data);
       WeakAuras.SortDisplayButtons();
       self:ReloadTooltip();
@@ -669,6 +707,7 @@ local methods = {
             tremove(parentData.controlledChildren, index);
             tinsert(parentData.controlledChildren, index - 1, id);
             WeakAuras.Add(parentData);
+            WeakAuras.ClearAndUpdateOptions(parentData.id)
             self:SetGroupOrder(index - 1, #parentData.controlledChildren);
             local otherbutton = WeakAuras.GetDisplayButton(parentData.controlledChildren[index]);
             otherbutton:SetGroupOrder(index, #parentData.controlledChildren);
@@ -678,6 +717,7 @@ local methods = {
             WeakAuras.Animate("button", WeakAuras.GetData(parentData.controlledChildren[index-1]), "main", updata, self.frame, true, function() WeakAuras.SortDisplayButtons() end);
             WeakAuras.Animate("button", WeakAuras.GetData(parentData.controlledChildren[index]), "main", downdata, otherbutton.frame, true, function() WeakAuras.SortDisplayButtons() end);
             WeakAuras.UpdateDisplayButton(parentData);
+            WeakAuras.FillOptions()
           end
         else
           error("Display thinks it is a member of a group which does not control it");
@@ -706,6 +746,7 @@ local methods = {
             tremove(parentData.controlledChildren, index);
             tinsert(parentData.controlledChildren, index + 1, id);
             WeakAuras.Add(parentData);
+            WeakAuras.ClearAndUpdateOptions(parentData.id)
             self:SetGroupOrder(index + 1, #parentData.controlledChildren);
             local otherbutton = WeakAuras.GetDisplayButton(parentData.controlledChildren[index]);
             otherbutton:SetGroupOrder(index, #parentData.controlledChildren);
@@ -715,6 +756,7 @@ local methods = {
             WeakAuras.Animate("button", WeakAuras.GetData(parentData.controlledChildren[index+1]), "main", downdata, self.frame, true, function() WeakAuras.SortDisplayButtons() end);
             WeakAuras.Animate("button", WeakAuras.GetData(parentData.controlledChildren[index]), "main", updata, otherbutton.frame, true, function() WeakAuras.SortDisplayButtons() end);
             WeakAuras.UpdateDisplayButton(parentData);
+            WeakAuras.FillOptions()
           end
         else
           error("Display thinks it is a member of a group which does not control it");
@@ -787,15 +829,12 @@ local methods = {
       if not(newid == oldid) then
 
         WeakAuras.Rename(data, newid);
-        WeakAuras.Add(data);
+        WeakAuras.Add(data)
 
-        WeakAuras.thumbnails[newid] = WeakAuras.thumbnails[oldid];
-        WeakAuras.thumbnails[oldid] = nil;
         WeakAuras.displayButtons[newid] = WeakAuras.displayButtons[oldid];
         WeakAuras.displayButtons[newid]:SetData(data)
         WeakAuras.displayButtons[oldid] = nil;
-        WeakAuras.displayOptions[oldid] = nil;
-        WeakAuras.AddOption(newid, data);
+        WeakAuras.ClearOptions(oldid)
 
         WeakAuras.displayButtons[newid]:SetTitle(newid);
 
@@ -966,11 +1005,13 @@ local methods = {
       notClickable = true,
       notCheckable = true,
     });
-    tinsert(self.menu, {
-      text = L["Delete"],
-      notCheckable = true,
-      func = self.callbacks.OnDeleteClick
-    });
+    if not data.controlledChildren then
+      tinsert(self.menu, {
+        text = L["Delete"],
+        notCheckable = true,
+        func = self.callbacks.OnDeleteClick
+      });
+    end
 
     if (data.controlledChildren) then
       tinsert(self.menu, {
@@ -1022,8 +1063,8 @@ local methods = {
         self.update.version = updateData.wagoVersion
         local showVersion = self.data.semver or self.data.version or 0
         local showCompanionVersion = updateData.wagoSemver or updateData.wagoVersion
-        self.update.title = L["Update "] .. updateData.name .. L[" by "] .. updateData.author
-        self.update.desc = L["From version "] .. showVersion .. L[" to version "] .. showCompanionVersion
+        self.update.title = L["Update %s by %s"]:format(updateData.name, updateData.author)
+        self.update.desc = L["From version %s to version %s"]:format(showVersion, showCompanionVersion)
         if updateData.versionNote then
           self.update.desc = ("%s\n\n%s"):format(self.update.desc, updateData.versionNote)
         end
@@ -1047,6 +1088,8 @@ local methods = {
         error("Display \""..data.id.."\" thinks it is a member of group \""..data.parent.."\" which does not control it");
       end
     end
+
+    self.frame:Hide()
   end,
   ["SetNormalTooltip"] = function(self)
     local data = self.data;
@@ -1153,13 +1196,14 @@ local methods = {
     if(index) then
       tremove(parentData.controlledChildren, index);
       WeakAuras.Add(parentData);
-      WeakAuras.ReloadGroupRegionOptions(parentData);
+      WeakAuras.ClearAndUpdateOptions(parentData.id);
     else
       error("Display thinks it is a member of a group which does not control it");
     end
     self:SetGroup();
     self.data.parent = nil;
     WeakAuras.Add(self.data);
+    WeakAuras.ClearAndUpdateOptions(self.data.id);
     WeakAuras.UpdateGroupOrders(parentData);
     WeakAuras.UpdateDisplayButton(parentData);
     WeakAuras.SortDisplayButtons();
@@ -1311,32 +1355,6 @@ local methods = {
   end,
   ["SetDescription"] = function(self, ...)
     self.frame.description = {...};
-  end,
-  ["SetIcon"] = function(self, icon)
-    self.orgIcon = icon;
-    if(type(icon) == "string" or type(icon) == "number") then
-      self.icon:SetTexture(icon);
-      self.icon:Show();
-      if(self.iconRegion and self.iconRegion.Hide) then
-        self.iconRegion:Hide();
-      end
-    else
-      self.iconRegion = icon;
-      icon:SetAllPoints(self.icon);
-      icon:SetParent(self.frame);
-      self.iconRegion:Show();
-      self.icon:Hide();
-    end
-  end,
-  ["OverrideIcon"] = function(self)
-    self.icon:SetTexture("Interface\\Addons\\WeakAuras\\Media\\Textures\\icon.blp")
-    self.icon:Show()
-    if(self.iconRegion and self.iconRegion.Hide) then
-      self.iconRegion:Hide();
-    end
-  end,
-  ["RestoreIcon"] = function(self)
-    self:SetIcon(self.orgIcon);
   end,
   ["SetViewRegion"] = function(self, region)
     self.view.region = region;
@@ -1544,13 +1562,11 @@ local methods = {
     -- no addon, or no data, or ignore flag
     return false, false, nil, nil
   end,
-  -- TODO: remove this once legacy aura trigger is removed
   ["RefreshBT2UpgradeIcon"] = function(self)
     if not self.data.controlledChildren and self.data.triggers then
       for index, t in ipairs(self.data.triggers) do
         if t.trigger and t.trigger.type == "aura" then
           self.bt2upgrade:SetScript("OnClick", function()
-            WeakAuras.optionTriggerChoices[self.data.id] = index
             WeakAuras.PickDisplay(self.data.id, "trigger")
           end)
           self.bt2upgrade:Show()
@@ -1693,6 +1709,7 @@ local methods = {
     return self.frame:IsEnabled();
   end,
   ["OnRelease"] = function(self)
+    self:ReleaseThumbnail()
     self:SetViewRegion();
     self:Enable();
     self:SetGroup();
@@ -1710,7 +1727,85 @@ local methods = {
     self.frame:Hide();
     self.frame = nil;
     self.data = nil;
-  end
+  end,
+  ["UpdateThumbnail"] = function(self)
+    if not self.hasThumbnail then
+      return
+    end
+
+    if self.data.regionType ~= self.thumbnailType then
+      self:ReleaseThumbnail()
+      self:AcquireThumbnail()
+    else
+      local option = WeakAuras.regionOptions[self.thumbnailType]
+      if option and option.modifyThumbnail then
+        option.modifyThumbnail(self.frame, self.thumbnail, self.data)
+      end
+    end
+  end,
+  ["ReleaseThumbnail"] = function(self)
+    if not self.hasThumbnail then
+      return
+    end
+    self.hasThumbnail = false
+
+    if self.thumbnail then
+      local regionType = self.thumbnailType
+      local option = WeakAuras.regionOptions[regionType]
+      option.releaseThumbnail(self.thumbnail)
+      self.thumbnail = nil
+    end
+  end,
+  ["AcquireThumbnail"] = function(self)
+    if self.hasThumbnail then
+      return
+    end
+
+    if not self.data then
+      return
+    end
+
+    self.hasThumbnail = true
+
+    local button = self.frame
+    local regionType = self.data.regionType
+    self.thumbnailType = regionType
+
+    local option = WeakAuras.regionOptions[regionType]
+    if option and option.acquireThumbnail then
+      self.thumbnail = option.acquireThumbnail(button, self.data)
+      self:SetIcon(self.thumbnail)
+    else
+      self:SetIcon("Interface\\Icons\\INV_Misc_QuestionMark")
+    end
+  end,
+  ["SetIcon"] = function(self, icon)
+    self.orgIcon = icon;
+    if(type(icon) == "string" or type(icon) == "number") then
+      self.icon:SetTexture(icon);
+      self.icon:Show();
+      if(self.iconRegion and self.iconRegion.Hide) then
+        self.iconRegion:Hide();
+      end
+    else
+      self.iconRegion = icon;
+      icon:SetAllPoints(self.icon);
+      icon:SetParent(self.frame);
+      icon:Show()
+      self.iconRegion:Show();
+      self.icon:Hide();
+    end
+  end,
+  ["OverrideIcon"] = function(self)
+    self.icon:SetTexture("Interface\\Addons\\WeakAuras\\Media\\Textures\\icon.blp")
+    self.icon:Show()
+    if(self.iconRegion and self.iconRegion.Hide) then
+      self.iconRegion:Hide();
+    end
+  end,
+  ["RestoreIcon"] = function(self)
+    self:SetIcon(self.orgIcon);
+  end,
 }
 
 --[[-----------------------------------------------------------------------------
@@ -1994,9 +2089,9 @@ local function Constructor()
     -- Update in group icon
     groupUpdate = CreateFrame("Frame", nil, button)
     button.groupUpdate = groupUpdate
-    local gtex = groupUpdate:CreateTexture(nil, "OVERLAY")
-    gtex:SetTexture([[Interface\AddOns\WeakAuras\Media\Textures\wagoupdate_logo.tga]])
-    gtex:SetAllPoints()
+    local gTex = groupUpdate:CreateTexture(nil, "OVERLAY")
+    gTex:SetTexture([[Interface\AddOns\WeakAuras\Media\Textures\wagoupdate_logo.tga]])
+    gTex:SetAllPoints()
     groupUpdate:SetSize(16, 16)
     groupUpdate:SetPoint("BOTTOM", button, "BOTTOM")
     groupUpdate:SetPoint("LEFT", icon, "RIGHT", 20, 0)
@@ -2030,12 +2125,8 @@ local function Constructor()
     frame = button,
     title = title,
     icon = icon,
-    --delete = delete, -- There is no variable called delete?
-    --copy = copy, -- There is no variable called copy?
     view = view,
-    --rename = rename, -- There is no variable called rename?
     renamebox = renamebox,
-    --descbox = descbox, -- There is no variable called descbox?
     group = group,
     ungroup = ungroup,
     upgroup = upgroup,

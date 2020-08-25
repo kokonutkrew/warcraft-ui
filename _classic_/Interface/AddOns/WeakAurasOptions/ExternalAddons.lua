@@ -9,7 +9,6 @@ local AceGUI = LibStub("AceGUI-3.0")
 local collisions = WeakAuras.collisions
 local displayButtons = WeakAuras.displayButtons
 local savedVars = WeakAuras.savedVars
-local thumbnails = WeakAuras.thumbnails
 
 local importAddonButtons = {}
 local importDisplayButtons = {}
@@ -70,7 +69,7 @@ function WeakAuras.CreateImportButtons()
               local button = WeakAuras.GetDisplayButton(groupId);
               button.callbacks.UpdateExpandButton();
               WeakAuras.UpdateDisplayButton(data);
-              WeakAuras.ReloadGroupRegionOptions(data);
+              WeakAuras.ClearAndUpdateOptions(data.id);
             end
           end
         end
@@ -172,7 +171,7 @@ function WeakAuras.CreateImportButtons()
               local button = WeakAuras.GetDisplayButton(id);
               button.callbacks.UpdateExpandButton();
               WeakAuras.UpdateDisplayButton(data);
-              WeakAuras.ReloadGroupRegionOptions(data);
+              WeakAuras.ClearAndUpdateOptions(data.id);
             end
 
             WeakAuras.ScanForLoads();
@@ -322,8 +321,6 @@ function WeakAuras.DisableAddonDisplay(id)
     WeakAuras.Delete(data);
     WeakAuras.SyncParentChildRelationships(true);
     frame.buttonsScroll:DeleteChild(displayButtons[id]);
-    thumbnails[id].region:Hide();
-    thumbnails[id] = nil;
     displayButtons[id] = nil;
 
     if(parentData and parentData.controlledChildren) then
@@ -334,7 +331,7 @@ function WeakAuras.DisableAddonDisplay(id)
         end
       end
       WeakAuras.Add(parentData);
-      WeakAuras.ReloadGroupRegionOptions(parentData);
+      WeakAuras.ClearAndUpdateOptions(parentData.id);
       WeakAuras.UpdateDisplayButton(parentData);
     end
   end

@@ -9,11 +9,11 @@ local ToastFrame;
 local ExpandFrame;
 local ConfirmDeleteFrame;
 
-local addonVersion = "1.4.4";
-local contributors = "Wizm-Mograine PvP, Devilish-Everlook Normal";
+local addonVersion = "2.5.3";
+local contributors = "Wizm-Mograine PvP, Devilish-Everlook Normal, Trashboi-Everlook, Hauclir-Everlook, Dextera-Everlook Normal";
 
 local loadMessageStart = "|cFF00FFB0" .. "BiSTracker" .. ": |r";
-local loadMessage = loadMessageStart .. "|cff00cc66Version |r" .. addonVersion .. "|cff00cc66, developed and maintained by|r Yekru-Mograine PvP";
+local loadMessage = loadMessageStart .. "|cff00cc66Version |r" .. addonVersion .. "|cff00cc66, developed and maintained by|r Dextera-Everlook PVE";
 local contributorMessage = loadMessageStart .. "|cff00cc66Contributors: |r" .. contributors;
 
 local customSpecs = {
@@ -57,6 +57,7 @@ local itemSlots = {
 	"Trinket2",
 	"MainHand",
 	"OffHand",
+	"TwoHand",
 	"Ranged"
 };
 local items = {};
@@ -66,8 +67,8 @@ local phaseItems = {};
 
 local class = "Druid";
 local spec = "FeralDps";
-local phase = "Phase1";
-local newSpecPhase = "Phase1";
+local phase = "Phase1_PreRaid";
+local newSpecPhase = "Phase1_PreRaid";
 
 local classes = {
 	"Druid",
@@ -114,7 +115,7 @@ local paladinSpecs = {
 };
 local priestSpecs = {
 	"Holy",
-	"Hybrid",
+	-- "Hybrid",
 	"Shadow"
 };
 local rogueSpecs = {
@@ -123,54 +124,55 @@ local rogueSpecs = {
 };
 local shamanSpecs = {
 	"Elemental",
-	"Restoration",
-	"Enhancement"
+	"Enhancement",
+	"Restoration"
 };
 local warlockSpecs = {
 	"All"
 };
 local warriorSpecs = {
 	"Fury",
-	"Protection"
+	"Protection",
+	"FuryProt"
 };
 local phases = {
-	"Phase1",
-	"Phase2PreRaid",
-	"Phase2",
-	"Phase3",
-	"Phase4",
-	"Phase5",
-	"Phase6"
+	"Phase1_PreRaid",
+	"Phase2_MC_Ony",
+	-- "Phase2_PvP_WB",
+	-- "Phase3_BWL",
+	"Phase4_BWL_ZG",
+	"Phase5_AhnQiraj",
+	"Phase6_Naxx"
 };
-
-if englishClass == "DRUID" then
-	class = "Druid";
-	spec = "FeralTank";
-elseif englishClass == "HUNTER" then
-	class = "Hunter";
-	spec = "All";
-elseif englishClass == "MAGE" then
-	class = "Mage";
-	spec = "All";
-elseif englishClass == "PALADIN" then
-	class = "Paladin";
-	spec = "Holy";
-elseif englishClass == "PRIEST" then
-	class = "Priest";
-	spec = "Holy";
-elseif englishClass == "ROGUE" then
-	class = "Rogue";
-	spec = "Swords";
-elseif englishClass == "SHAMAN" then
-	class = "Shaman";
-	spec = "Elemental"
-elseif englishClass == "WARLOCK" then
-	class = "Warlock";
-	spec = "All";
-elseif englishClass == "WARRIOR" then
-	class = "Warrior";
-	spec = "Fury";
-end
+--Shows only first spec of other class demending on with which class player is logged in
+-- if englishClass == "DRUID" then
+	-- class = "Druid";
+	-- spec = "FeralTank";
+-- elseif englishClass == "HUNTER" then
+	-- class = "Hunter";
+	-- spec = "All";
+-- elseif englishClass == "MAGE" then
+	-- class = "Mage";
+	-- spec = "All";
+-- elseif englishClass == "PALADIN" then
+	-- class = "Paladin";
+	-- spec = "Holy";
+-- elseif englishClass == "PRIEST" then
+	-- class = "Priest";
+	-- spec = "Holy";
+-- elseif englishClass == "ROGUE" then
+	-- class = "Rogue";
+	-- spec = "Swords";
+-- elseif englishClass == "SHAMAN" then
+	-- class = "Shaman";
+	-- spec = "Elemental"
+-- elseif englishClass == "WARLOCK" then
+	-- class = "Warlock";
+	-- spec = "All";
+-- elseif englishClass == "WARRIOR" then
+	-- class = "Warrior";
+	-- spec = "Fury";
+-- end
 
 local bisCurrentClassSpecData = {};
 
@@ -734,13 +736,19 @@ local function createDropdownListSpecItems(specs, dropdownlist)
 					NewCustomSpecFrame.scrollFrame.content.OffHand.methodEdit:SetText("");
 					NewCustomSpecFrame.scrollFrame.content.OffHand.dropEdit:SetText("");
 
+					NewCustomSpecFrame.scrollFrame.content.TwoHand.idEdit:SetNumber(0);
+					NewCustomSpecFrame.scrollFrame.content.TwoHand.zoneEdit:SetText("");
+					NewCustomSpecFrame.scrollFrame.content.TwoHand.typeEdit:SetText("");
+					NewCustomSpecFrame.scrollFrame.content.TwoHand.methodEdit:SetText("");
+					NewCustomSpecFrame.scrollFrame.content.TwoHand.dropEdit:SetText("");					
+
 					NewCustomSpecFrame.scrollFrame.content.Ranged.idEdit:SetNumber(0);
 					NewCustomSpecFrame.scrollFrame.content.Ranged.zoneEdit:SetText("");
 					NewCustomSpecFrame.scrollFrame.content.Ranged.typeEdit:SetText("");
 					NewCustomSpecFrame.scrollFrame.content.Ranged.methodEdit:SetText("");
 					NewCustomSpecFrame.scrollFrame.content.Ranged.dropEdit:SetText("");
 
-					UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1");
+					UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1_PreRaid");
 
 					NewCustomSpecFrame:Show();
 				else
@@ -1198,7 +1206,7 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 		MainFrame.title:SetFont("Fonts\\FRIZQT__.TTF", 12);
 
 		ExpandFrame = CreateFrame("Button", "BiSExpandButton", CharacterFrame);
-		ExpandFrame:SetPoint("TOPRIGHT", CharacterFrame, "TOPRIGHT", -38, -43);
+		ExpandFrame:SetPoint("TOPRIGHT", CharacterFrame, "TOPRIGHT", -80, -43);
 		ExpandFrame:SetSize(24, 24);
 		ExpandFrame:Show();
 
@@ -1284,7 +1292,7 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 
 		NewCustomSpecFrame = CreateFrame("Frame", "BiSnewCustomSpecFrame", UIParent, "BiSFrameTemplate");
 		NewCustomSpecFrame:SetPoint("CENTER", UIParent, "CENTER", 0, 50);
-		NewCustomSpecFrame:SetSize(400, 600);
+		NewCustomSpecFrame:SetSize(400, 700);
 		NewCustomSpecFrame:SetBackdrop(backdrop);
 		NewCustomSpecFrame:SetBackdropBorderColor(1, 1, 1, 1);
 		NewCustomSpecFrame:SetBackdropColor(0, 0, 0, 1);
@@ -1373,12 +1381,13 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 		NewCustomSpecFrame.scrollFrame.content.Trinket2 = createCustomSpecBlock("Trinket 2", NewCustomSpecFrame.scrollFrame.content, false, -1025);
 		NewCustomSpecFrame.scrollFrame.content.MainHand = createCustomSpecBlock("Main-hand", NewCustomSpecFrame.scrollFrame.content, true, -1195);
 		NewCustomSpecFrame.scrollFrame.content.OffHand = createCustomSpecBlock("Off-hand", NewCustomSpecFrame.scrollFrame.content, false, -1195);
-		NewCustomSpecFrame.scrollFrame.content.Ranged = createCustomSpecBlock("Ranged", NewCustomSpecFrame.scrollFrame.content, true, -1365);
+		NewCustomSpecFrame.scrollFrame.content.TwoHand = createCustomSpecBlock("TwoHand", NewCustomSpecFrame.scrollFrame.content, true, -1365);
+		NewCustomSpecFrame.scrollFrame.content.Ranged = createCustomSpecBlock("Ranged", NewCustomSpecFrame.scrollFrame.content, false, -1365);
 		--NewCustomSpecFrame.scrollFrame.content.addBox = createCustomSpecBlock("Ranged", NewCustomSpecFrame.scrollFrame.content, false, -1365);
 
 		NewCustomSpecFrame.scrollFrame.content.addBox = CreateFrame("Frame", nil, NewCustomSpecFrame.scrollFrame.content, "BiSFrameTemplate");
 		NewCustomSpecFrame.scrollFrame.content.addBox:SetSize((NewCustomSpecFrame.scrollFrame.content:GetWidth()-24)/2, 170);
-		NewCustomSpecFrame.scrollFrame.content.addBox:SetPoint("TOPRIGHT", NewCustomSpecFrame.scrollFrame.content, "TOPRIGHT", -15, -1365);
+		NewCustomSpecFrame.scrollFrame.content.addBox:SetPoint("TOPRIGHT", NewCustomSpecFrame.scrollFrame.content, "TOPRIGHT", -15, -1540);
 
 		NewCustomSpecFrame.scrollFrame.content.addBox.idText = NewCustomSpecFrame.scrollFrame.content.addBox:CreateFontString(nil, "OVERLAY");
 		NewCustomSpecFrame.scrollFrame.content.addBox.idText:SetPoint("TOPLEFT", NewCustomSpecFrame.scrollFrame.content.addBox.TopLeft, "TOPLEFT", 5, -25);
@@ -1388,7 +1397,7 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 		NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown = CreateFrame("Frame", "newSpecPhaseDropdown", NewCustomSpecFrame.scrollFrame.content.addBox, "UIDropDownMenuTemplate");
 		NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown:SetPoint("TOPRIGHT", NewCustomSpecFrame.scrollFrame.content.addBox, "TOPRIGHT", 15, -14);
 		UIDropDownMenu_SetWidth(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, 110);
-		UIDropDownMenu_SetText(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1");
+		UIDropDownMenu_SetText(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1_PreRaid");
 
 		--[[item.idEdit = CreateFrame("EditBox", "headEditBox", item, "InputBoxTemplate");
 		item.idEdit:SetPoint("TOPRIGHT", item.TopRight, "TOPRIGHT", -5, -18);
@@ -1404,31 +1413,31 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 		UIDropDownMenu_Initialize(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, function(self, level, menuList)
 			local info = UIDropDownMenu_CreateInfo();
 			info.func = UIDropDownMenu_OnClick;
-			info.text, info.arg1, info.checked = "Phase1", "Phase1", false;
+			info.text, info.arg1, info.checked = "Phase1_PreRaid", "Phase1_PreRaid", false;
 			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase2PreRaid", "Phase2PreRaid", false;
+			info.text, info.arg1, info.checked = "Phase2_MC_Ony", "Phase2_MC_Ony", false;
 			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase2", "Phase2", false;
+			-- info.text, info.arg1, info.checked = "Phase2_PvP_WB", "Phase2_PvP_WB", false;
+			-- UIDropDownMenu_AddButton(info);
+			-- info.text, info.arg1, info.checked = "Phase3_BWL", "Phase3_BWL", false;
+			-- UIDropDownMenu_AddButton(info);
+			info.text, info.arg1, info.checked = "Phase4_BWL_ZG", "Phase4_BWL_ZG", false;
 			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase3", "Phase3", false;
+			info.text, info.arg1, info.checked = "Phase5_AhnQiraj", "Phase5_AhnQiraj", false;
 			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase4", "Phase4", false;
-			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase5", "Phase5", false;
-			UIDropDownMenu_AddButton(info);
-			info.text, info.arg1, info.checked = "Phase6", "Phase6", false;
+			info.text, info.arg1, info.checked = "Phase6_Naxx", "Phase6_Naxx", false;
 			UIDropDownMenu_AddButton(info);
 			
 		end)
-		UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1");
+		UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1_PreRaid");
 
 
 
 
 
 		NewCustomSpecFrame.scrollFrame.content.addSpecBtn = CreateFrame("Button", "test", NewCustomSpecFrame.scrollFrame.content, "UIPanelButtonTemplate");
-		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetSize(120, 32);
-		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetPoint("TOPRIGHT", NewCustomSpecFrame.scrollFrame.content, "TOPRIGHT", -40, -1435);
+		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetSize(160, 40);
+		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetPoint("TOPRIGHT", NewCustomSpecFrame.scrollFrame.content, "TOPRIGHT", -205, -1545);
 		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetText("Add Spec");
 		NewCustomSpecFrame.scrollFrame.content.addSpecBtn:SetScript("OnClick", function(self)
 			local name = NewCustomSpecFrame.nameEdit:GetText();
@@ -1577,6 +1586,15 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 						Drop = "",
 					}
 				},
+				TwoHand = {
+					itemID = 0,
+					Obtain = {
+						Zone = "",
+						Type = "",
+						Method = "",
+						Drop = "",
+					}
+				},
 				Ranged = {
 					itemID = 0,
 					Obtain = {
@@ -1683,6 +1701,12 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 			items["OffHand"]["Obtain"]["Type"] = NewCustomSpecFrame.scrollFrame.content.OffHand.typeEdit:GetText();
 			items["OffHand"]["Obtain"]["Method"] = NewCustomSpecFrame.scrollFrame.content.OffHand.methodEdit:GetText();
 			items["OffHand"]["Obtain"]["Drop"] = NewCustomSpecFrame.scrollFrame.content.OffHand.dropEdit:GetText();
+			
+			items["TwoHand"]["itemID"] = NewCustomSpecFrame.scrollFrame.content.TwoHand.idEdit:GetNumber();
+			items["TwoHand"]["Obtain"]["Zone"] = NewCustomSpecFrame.scrollFrame.content.TwoHand.zoneEdit:GetText();
+			items["TwoHand"]["Obtain"]["Type"] = NewCustomSpecFrame.scrollFrame.content.TwoHand.typeEdit:GetText();
+			items["TwoHand"]["Obtain"]["Method"] = NewCustomSpecFrame.scrollFrame.content.TwoHand.methodEdit:GetText();
+			items["TwoHand"]["Obtain"]["Drop"] = NewCustomSpecFrame.scrollFrame.content.TwoHand.dropEdit:GetText();
 
 			items["Ranged"]["itemID"] = NewCustomSpecFrame.scrollFrame.content.Ranged.idEdit:GetNumber();
 			items["Ranged"]["Obtain"]["Zone"] = NewCustomSpecFrame.scrollFrame.content.Ranged.zoneEdit:GetText();
@@ -1818,7 +1842,13 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 							NewCustomSpecFrame.scrollFrame.content.OffHand.zoneEdit:SetText("");
 							NewCustomSpecFrame.scrollFrame.content.OffHand.typeEdit:SetText("");
 							NewCustomSpecFrame.scrollFrame.content.OffHand.methodEdit:SetText("");
-							NewCustomSpecFrame.scrollFrame.content.OffHand.dropEdit:SetText("");
+							NewCustomSpecFrame.scrollFrame.content.OffHand.dropEdit:SetText("");							
+
+							NewCustomSpecFrame.scrollFrame.content.TwoHand.idEdit:SetNumber(0);
+							NewCustomSpecFrame.scrollFrame.content.TwoHand.zoneEdit:SetText("");
+							NewCustomSpecFrame.scrollFrame.content.TwoHand.typeEdit:SetText("");
+							NewCustomSpecFrame.scrollFrame.content.TwoHand.methodEdit:SetText("");
+							NewCustomSpecFrame.scrollFrame.content.TwoHand.dropEdit:SetText("");
 
 							NewCustomSpecFrame.scrollFrame.content.Ranged.idEdit:SetNumber(0);
 							NewCustomSpecFrame.scrollFrame.content.Ranged.zoneEdit:SetText("");
@@ -1826,7 +1856,7 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 							NewCustomSpecFrame.scrollFrame.content.Ranged.methodEdit:SetText("");
 							NewCustomSpecFrame.scrollFrame.content.Ranged.dropEdit:SetText("");
 
-							UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1");
+							UIDropDownMenu_SetSelectedValue(NewCustomSpecFrame.scrollFrame.content.addBox.phaseDropdown, "Phase1_PreRaid");
 
 							NewCustomSpecFrame:Show();
 
@@ -2127,6 +2157,12 @@ MainFrame:SetScript("OnEvent", function(self, event, ...)
 				NewCustomSpecFrame.scrollFrame.content.OffHand.typeEdit:SetText(customSpecData[spec][phase]["OffHand"]["Obtain"]["Type"]);
 				NewCustomSpecFrame.scrollFrame.content.OffHand.methodEdit:SetText(customSpecData[spec][phase]["OffHand"]["Obtain"]["Method"]);
 				NewCustomSpecFrame.scrollFrame.content.OffHand.dropEdit:SetText(customSpecData[spec][phase]["OffHand"]["Obtain"]["Drop"]);
+				
+				NewCustomSpecFrame.scrollFrame.content.TwoHand.idEdit:SetNumber(customSpecData[spec][phase]["TwoHand"]["itemID"]);
+				NewCustomSpecFrame.scrollFrame.content.TwoHand.zoneEdit:SetText(customSpecData[spec][phase]["TwoHand"]["Obtain"]["Zone"]);
+				NewCustomSpecFrame.scrollFrame.content.TwoHand.typeEdit:SetText(customSpecData[spec][phase]["TwoHand"]["Obtain"]["Type"]);
+				NewCustomSpecFrame.scrollFrame.content.TwoHand.methodEdit:SetText(customSpecData[spec][phase]["TwoHand"]["Obtain"]["Method"]);
+				NewCustomSpecFrame.scrollFrame.content.TwoHand.dropEdit:SetText(customSpecData[spec][phase]["TwoHand"]["Obtain"]["Drop"]);
 
 				NewCustomSpecFrame.scrollFrame.content.Ranged.idEdit:SetNumber(customSpecData[spec][phase]["Ranged"]["itemID"]);
 				NewCustomSpecFrame.scrollFrame.content.Ranged.zoneEdit:SetText(customSpecData[spec][phase]["Ranged"]["Obtain"]["Zone"]);

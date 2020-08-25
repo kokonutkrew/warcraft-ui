@@ -70,7 +70,8 @@ function ConROC.Warrior.Damage(_, timeShift, currentSpell, gcd)
 	if IsSpellKnown(Arms_Ability.HamstringRank3) then _Hamstring = Arms_Ability.HamstringRank3;
 	elseif IsSpellKnown(Arms_Ability.HamstringRank2) then _Hamstring = Arms_Ability.HamstringRank2; end	
 	
-	if IsSpellKnown(Arms_Ability.HeroicStrikeRank8) then _HeroicStrike = Arms_Ability.HeroicStrikeRank8;
+	if IsSpellKnown(Arms_Ability.HeroicStrikeRank9) then _HeroicStrike = Arms_Ability.HeroicStrikeRank9;
+	elseif IsSpellKnown(Arms_Ability.HeroicStrikeRank8) then _HeroicStrike = Arms_Ability.HeroicStrikeRank8;
 	elseif IsSpellKnown(Arms_Ability.HeroicStrikeRank7) then _HeroicStrike = Arms_Ability.HeroicStrikeRank7;
 	elseif IsSpellKnown(Arms_Ability.HeroicStrikeRank6) then _HeroicStrike = Arms_Ability.HeroicStrikeRank6;
 	elseif IsSpellKnown(Arms_Ability.HeroicStrikeRank5) then _HeroicStrike = Arms_Ability.HeroicStrikeRank5;
@@ -155,7 +156,7 @@ function ConROC.Warrior.Damage(_, timeShift, currentSpell, gcd)
 		
 	local batShoutRDY		 								= ConROC:AbilityReady(_BattleShout, timeShift);	
 		local batShoutBUFF		 								= ConROC:BuffName(_BattleShout, timeShift);
-	local bThirstRDY										= ConROC:AbilityReady(_Bloodthirst, timeShift);
+	local bThirstRDY, bthirstCD								= ConROC:AbilityReady(_Bloodthirst, timeShift);
 		local bThirstBUFF										= ConROC:Buff(_Bloodthirst, timeShift);
 	local cleaveRDY											= ConROC:AbilityReady(_Cleave, timeShift);
 	local dWishRDY											= ConROC:AbilityReady(Fury_Ability.DeathWish, timeShift);
@@ -240,9 +241,15 @@ function ConROC.Warrior.Damage(_, timeShift, currentSpell, gcd)
 		return _Bloodthirst;
 	end		
 	
-	if wwRDY and inStance == Stance.Berserker then
-		return Fury_Ability.Whirlwind;
-	end	
+	if ConROC:TalentChosen(Spec.Fury, Fury_Talent.Bloodthirst) then
+		if wwRDY and bthirstCD > 2 and inStance == Stance.Berserker then
+			return Fury_Ability.Whirlwind;
+		end	
+	else
+		if wwRDY and inStance == Stance.Berserker then
+			return Fury_Ability.Whirlwind;
+		end
+	end
 
 	if sSlamRDY and ConROC:Equipped('Shields', 'SECONDARYHANDSLOT') then
 		return _ShieldSlam;
@@ -256,7 +263,7 @@ function ConROC.Warrior.Damage(_, timeShift, currentSpell, gcd)
 		return _Rend;
 	end
 	
-	if ConROC:CheckBox(ConROC_SM_Debuff_SunderArmor) and sArmorRDY and (not sArmorDEBUFF2 or sArmorCount < 5) and rage >= 30 then
+	if ConROC:CheckBox(ConROC_SM_Debuff_SunderArmor) and sArmorRDY and (not sArmorDEBUFF2 or sArmorCount < ConROC_SM_Debuff_SunderArmorCount:GetNumber()) and rage >= 30 then
 		return _SunderArmor;
 	end
 	

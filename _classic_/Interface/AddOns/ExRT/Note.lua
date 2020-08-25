@@ -74,6 +74,7 @@ module.db.lasttext = ""
 
 module.db.encounter_time_p = {}	--phases
 module.db.encounter_time_c = {}	--custom
+module.db.encounter_time_wa_uids = {}	--wa custom events
 module.db.encounter_id = {}
 
 local function GSUB_Icon(spellID)
@@ -122,6 +123,67 @@ local function GSUB_Encounter(list,msg)
 	end
 end
 
+local classList = {
+	[L.classLocalizate.WARRIOR:lower()] = 1,
+	[L.classLocalizate.PALADIN:lower()] = 2,
+	[L.classLocalizate.HUNTER:lower()] = 3,
+	[L.classLocalizate.ROGUE:lower()] = 4,
+	[L.classLocalizate.PRIEST:lower()] = 5,
+	[L.classLocalizate.DEATHKNIGHT:lower()] = 6,
+	[L.classLocalizate.SHAMAN:lower()] = 7,
+	[L.classLocalizate.MAGE:lower()] = 8,
+	[L.classLocalizate.WARLOCK:lower()] = 9,
+	[L.classLocalizate.MONK:lower()] = 10,
+	[L.classLocalizate.DRUID:lower()] = 11,
+	[L.classLocalizate.DEMONHUNTER:lower()] = 12,
+	["warrior"] = 1,
+	["paladin"] = 2,
+	["hunter"] = 3,
+	["rogue"] = 4,
+	["priest"] = 5,
+	["deathknight"] = 6,
+	["shaman"] = 7,
+	["mage"] = 8,
+	["warlock"] = 9,
+	["monk"] = 10,
+	["druid"] = 11,
+	["demonhunter"] = 12,
+	["war"] = 1,
+	["pal"] = 2,
+	["hun"] = 3,
+	["rog"] = 4,
+	["pri"] = 5,
+	["dk"] = 6,
+	["sham"] = 7,
+	["lock"] = 9,
+	["dru"] = 11,
+	["dh"] = 12,
+	["1"] = 1,
+	["2"] = 2,
+	["3"] = 3,
+	["4"] = 4,
+	["5"] = 5,
+	["6"] = 6,
+	["7"] = 7,
+	["8"] = 7,
+	["9"] = 9,
+	["10"] = 10,
+	["11"] = 11,
+	["12"] = 12,
+}
+
+local function GSUB_Class(list,msg)
+	list = {strsplit(",",list)}
+	local myClassIndex = select(3,UnitClass("player"))
+	for i=1,#list do
+		list[i] = list[i]:gsub("|c........",""):gsub("|r",""):lower()
+		if classList[ list[i] ] == myClassIndex then
+			return msg
+		end
+	end
+	return ""
+end
+
 --[[
 formats:
 {time:75}
@@ -129,6 +191,7 @@ formats:
 {time:2:30,p2}	--start on phase 2, works only with bigwigs
 {time:0:30,SCC:17:2}	--start on combat log event. format "event:spellID:counter", events: SCC (SPELL_CAST_SUCCESS), SCS (SPELL_CAST_START), SAA (SPELL_AURA_APPLIED), SAR (SPELL_AURA_REMOVED)
 {time:0:30,e,customevent}	--start on ExRT.F.Note_Timer(customevent) function or "/rt note starttimer customevent" 
+{time:2:30,wa:nzoth_hs1}	--run weakauras custom event EXRT_NOTE_TIME_EVENT with arg1 = nzoth_hs1, arg2 = time left (event runs every second when timer has 5 seconds or lower), arg3 = note line text
 ]]
 local function GSUB_Time(t,msg)
 	local lineTime
@@ -145,6 +208,8 @@ local function GSUB_Time(t,msg)
 	end
 
 	local currTime = GetTime() - module.db.encounter_time
+
+	local wa_event_uid = t:match(",[wW][aA]:([^,]+)")
 
 	local CLEU = t:match(",S")
 	if CLEU then
@@ -179,7 +244,18 @@ local function GSUB_Time(t,msg)
 		end
 	end
 
-	if currTime > lineTime then
+	if (currTime >= lineTime or lineTime - currTime <= 5) and wa_event_uid and type(WeakAuras)=="table" then
+		local timeleft = currTime >= lineTime and 0 or ceil(lineTime - currTime)
+		local wa_event_uid_cache = timeleft..":"..wa_event_uid
+		if not module.db.encounter_time_wa_uids[wa_event_uid_cache] then
+			module.db.encounter_time_wa_uids[wa_event_uid_cache] = true
+			if WeakAuras.ScanEvents and type(WeakAuras.ScanEvents)=="function" then
+				WeakAuras.ScanEvents("EXRT_NOTE_TIME_EVENT",wa_event_uid,timeleft,msg)
+			end
+		end
+	end
+
+	if currTime >= lineTime then
 		return "|cff555555"..msg:gsub("|c........",""):gsub("|r","").."|r\n"
 	elseif lineTime - currTime <= 10 then
 		t = lineTime - currTime
@@ -231,6 +307,8 @@ local function txtWithIcons(t)
 	if not isDD then t = string_gsub(t,"{[Dd]}.-{/[Dd]}","") end
 	t = string_gsub(t,"{0}.-{/0}","")
 
+	t = string_gsub(t,"{[Cc]:([^}]+)}(.-){/[Cc]}",GSUB_Class)
+
 	t = string_gsub(t.."\n","{time:([0-9:]+[^{}]*)}(.-)\n",GSUB_Time)
 	t = string_gsub(t, "\n$", "")
 
@@ -244,12 +322,25 @@ function module.options:Load()
 	self:CreateTilte()
 
 	module.db.otherIconsAdditionalList = ExRT.isClassic and {} or {
-		31821,62618,97462,98008,115310,64843,740,265202,108280,204150,31884,196718,15286,64901,47536,246287,0,
+		31821,62618,97462,98008,115310,64843,740,265202,108280,204150,31884,196718,15286,64901,47536,246287,33891,0,
 		47788,33206,6940,102342,114030,1022,116849,633,204018,207399,0,
 		2825,32182,80353,0,
 		106898,192077,46968,119381,179057,192058,30283,0,
 		29166,32375,114018,108199,49576,0,
 		--"Interface\\Icons\\inv_60legendary_ring1c","Interface\\Icons\\inv_60legendary_ring1b","Interface\\Icons\\inv_60legendary_ring1a",0,
+		0,
+		307013,313175,306735,311362,306015,314347,308682,305978,307017,306289,306111,306824,314373,312490,306794,313250,312266,307053,307974,0,
+		314992,306005,306387,308872,305722,309315,307399,308903,314337,306301,307805,307839,308158,305663,308044,305675,0,
+		313210,307784,309652,307785,307864,313208,309687,307445,313239,309657,307937,312741,307977,0,
+		305575,311551,314298,311383,316211,306495,313264,306228,314202,312406,314300,309654,313198,305792,306876,314179,0,
+		313460,313461,313129,307968,307201,310402,307217,307202,307582,307637,313676,313692,307227,313652,307232,315311,307569,308166,307213,307334,313441,0,
+		312530,312329,311849,307471,308177,307472,312099,312332,314736,306932,306692,312528,307358,307945,312529,306934,312328,306942,306448,0,
+		310329,310361,310563,310478,310246,308953,310078,315712,308373,310584,308947,310288,310358,308661,310567,308956,308995,317001,310406,310614,310552,0,
+		310319,310788,314396,275269,318383,314502,309961,318396,316813,311143,310322,312486,311401,0,
+		317157,315933,307177,307371,307317,310325,307729,307218,307639,307284,310311,306878,307421,307359,307057,315931,307297,307019,315769,315932,307343,0,
+		306733,306865,306819,312996,306184,306874,306634,306115,313114,312750,306279,309852,316065,309985,309755,306257,313395,310003,306866,313109,313398,309777,306168,306090,306732,313399,313227,306881,314484,0,
+		312158,316847,317165,307044,313322,313330,317627,307340,307131,317896,306984,307079,307008,307058,316701,312333,313364,307048,307831,307092,313334,311980,307832,316307,307042,315947,307306,306973,315954,0,
+		309991,318449,318969,315772,310134,315710,318688,317066,310042,318768,309713,313793,313195,313400,312078,317292,309592,313955,310333,316271,313610,312873,308996,313184,313609,315709,308997,318896,311176,309990,316711,317874,314889,312155,0,
 		0,
 		295705,295791,300705,300961,300698,294847,300962,295421,300957,295704,295601,295795,300701,294726,295850,294711,295346,294715,295138,295332,295807,295348,295796,0,
 		301930,298424,298595,301180,292279,292133,292167,292084,292205,305094,292138,292307,292127,292247,0,
@@ -285,10 +376,11 @@ function module.options:Load()
 	
 	/run function F(eID)local f=select(4,EJ_GetEncounterInfoByIndex(eID))repeat local I=C_EncounterJournal.GetSectionInfo(f)local O=I and (I.headerType == 3)if O then f=I.siblingSectionID end until not O return f end
 	/run function C(f) local I=C_EncounterJournal.GetSectionInfo(f) if I.firstChildSectionID then C(I.firstChildSectionID)end if I.spellID and I.spellID~=0 and P(I.spellID) then L[I.spellID]=true end if I.siblingSectionID then C(I.siblingSectionID) end end
-	/run function P(s)local i=GetSpellTexture(s)if not U[i]then U[i]=1 return true end end for i=1,8 do L,U={},{} local f=F(i) C(f)local s="" for q,w in pairs(L)do s=s..q.."," end print(s..'0,')JJBox(s..'0,') end
+	/run function P(s)local i=GetSpellTexture(s)if not U[i]then U[i]=1 return true end end for i=1,12 do L,U={},{} local f=F(i) C(f)local s="" for q,w in pairs(L)do s=s..q.."," end print(s..'0,')JJBox(s..'0,') end
 	]]
 	
 	module.db.encountersList = ExRT.isClassic and {} or {
+		{1582,2329,2327,2334,2328,2336,2333,2331,2335,2343,2345,2337,2344}, 
 		{1512,2298,2305,2289,2304,2303,2311,2293,2299},
 		{L.S_ZoneT23Storms,2269,2273},
 		{1358,2265,2263,2284,2266,2285,2271,2268,2272,2276,2280,2281},
@@ -329,6 +421,17 @@ function module.options:Load()
 		[936] = -1001,	
 		[1039] = -1036,	[1040] = -1036,	
 		[1015] = -1021,	[1016] = -1021,	[1017] = -1021,	[1018] = -1021,	[1029] = -1021,	
+
+		--nyalotha
+		[1581] = {2329,2327,2334},
+		[1592] = 2328,
+		[1593] = 2336,
+		[1590] = 2333,
+		[1591] = 2331,
+		[1594] = 2335,
+		[1595] = 2343,
+		[1596] = 2345,
+		[1597] = {2337,2344},
 	}
 
 
@@ -803,7 +906,19 @@ function module.options:Load()
 			text = text:gsub("||c........","")
 			text = text:gsub("||r","")
 			text = text:gsub("||T.-:0||t ","")
-			text = text:gsub("%b{}","")
+			for i=1,8 do
+				text = text:gsub(module.db.iconsLocalizatedNames[i],"{rt"..i.."}")
+				for _,lang in pairs(iconsLangs) do
+					text = text:gsub(module.db["icons"..lang.."Names"][i],"{rt"..i.."}")
+				end
+			end
+			text = text:gsub("%b{}",function(p)
+				if p and p:match("^{rt%d}$") then
+					return p
+				else
+					return ""
+				end
+			end)
 			
 			local lines = {strsplit("\n", text)}
 			for i=1,#lines do
@@ -848,7 +963,7 @@ function module.options:Load()
 	end) 
 	self.buttoncopy:Hide()
 	
-	local function AddTextToEditBox(self,text,mypos)
+	local function AddTextToEditBox(self,text,mypos,noremove)
 		local addedText = nil
 		if not self then
 			addedText = text
@@ -857,6 +972,9 @@ function module.options:Load()
 			if IsShiftKeyDown() then
 				addedText = self.iconTextShift
 			end
+		end
+		if not noremove then
+			module.options.NoteEditBox.EditBox:Insert("")
 		end
 		local txt = module.options.NoteEditBox.EditBox:GetText()
 		local pos = module.options.NoteEditBox.EditBox:GetCursorPosition()
@@ -993,10 +1111,10 @@ function module.options:Load()
 		local selectedStart,selectedEnd = module.options.NoteEditBox.EditBox:GetTextHighlight()
 		colorCode = string.gsub(colorCode,"|","||")
 		if selectedStart == selectedEnd then
-			AddTextToEditBox(nil,colorCode.."||r")
+			AddTextToEditBox(nil,colorCode.."||r",nil,true)
 		else
-			AddTextToEditBox(nil,"||r",selectedEnd)
-			AddTextToEditBox(nil,colorCode,selectedStart)
+			AddTextToEditBox(nil,"||r",selectedEnd,true)
+			AddTextToEditBox(nil,colorCode,selectedStart,true)
 		end
 	end
 	for i=1,#self.dropDownColor.list do
@@ -1017,10 +1135,10 @@ function module.options:Load()
 		self.html:SetShadowColor(0, 0, 0, 1)
 	end
 	self.raidnames = {}
-	for i=1,35 do
+	for i=1,40 do
 		self.raidnames[i] = CreateFrame("Button", nil,self.tab.tabs[1])
-		self.raidnames[i]:SetSize(105,14)
-		self.raidnames[i]:SetPoint("TOPLEFT", 5+math.floor((i-1)/5)*108,-55-14*((i-1)%5))
+		self.raidnames[i]:SetSize(93,14)
+		self.raidnames[i]:SetPoint("TOPLEFT", 5+math.floor((i-1)/5)*95,-55-14*((i-1)%5))
 
 		self.raidnames[i].html = ELib:Text(self.raidnames[i],"",11):Color()
 		self.raidnames[i].html:SetAllPoints()
@@ -1120,7 +1238,7 @@ function module.options:Load()
 		end
 	end) 
 	
-	self.chkSaveAllNew = ELib:Check(self.tab.tabs[2],L.NoteEnableWhenReceive,VExRT.Note.EnableWhenReceive):Point(10,-165):OnClick(function(self) 
+	self.chkEnableWhenReceive = ELib:Check(self.tab.tabs[2],L.NoteEnableWhenReceive,VExRT.Note.EnableWhenReceive):Point(10,-165):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Note.EnableWhenReceive = true
 		else
@@ -1260,6 +1378,7 @@ function module.options:Load()
 		"|n|cffffff00{self}|r - "..L.NoteHelp4..
 		"|n|cffffff00{p:|r|cff00ff00JaneD|r|cffffff00,|r|cff00ff00JennyB-HowlingFjord|r|cffffff00}|r...|cffffff00{/p}|r - "..L.NoteHelp5..
 		"|n|cffffff00{icon:|r|cff00ff00Interface/Icons/inv_hammer_unique_sulfuras|r|cffffff00}|r - "..L.NoteHelp6..
+		"|n|cffffff00{c:|r|cff00ff00Paladin,Priest|r|cffffff00}|r...|cffffff00{/c}|r - "..L.NoteHelp8..
 		"|n|cffffff00{time:|r|cff00ff002:45|r|cffffff00}|r - "..L.NoteHelp7
 	):Point("TOPLEFT",5,-20):Point("TOPRIGHT",-5,-20):Color()
 
@@ -1417,10 +1536,32 @@ function module.frame:Save(blackNoteID)
 		end
 	end
 
-	for i=1,#arrtosand do
-		ExRT.F.SendExMsg("multiline",indextosnd.."\t"..arrtosand[i])
+	if ExRT.isClassic or true then
+		local MSG_LIMIT_COUNT = 10
+		local MSG_LIMIT_TIME = 4.2
+		if #arrtosand >= MSG_LIMIT_COUNT and module.options.buttonsend then
+			module.options.buttonsend:Disable()
+			C_Timer.After(floor((#arrtosand+1)/MSG_LIMIT_COUNT * MSG_LIMIT_TIME),function()
+				module.options.buttonsend:Enable()
+			end)
+		end
+		for i=1,#arrtosand,MSG_LIMIT_COUNT do
+			local start = i
+			C_Timer.After(floor((start-1)/MSG_LIMIT_COUNT) * MSG_LIMIT_TIME + 0.05,function()
+				for j=start,min(#arrtosand,start+MSG_LIMIT_COUNT-1) do
+					ExRT.F.SendExMsg("multiline",indextosnd.."\t"..arrtosand[j])
+				end
+			end)
+		end
+		C_Timer.After(floor((#arrtosand)/MSG_LIMIT_COUNT) * MSG_LIMIT_TIME + 0.1,function()
+			ExRT.F.SendExMsg("multiline_add",ExRT.F.CreateAddonMsg(indextosnd,encounterID,noteName))
+		end)
+	else
+		for i=1,#arrtosand do
+			ExRT.F.SendExMsg("multiline",indextosnd.."\t"..arrtosand[i])
+		end
+		ExRT.F.SendExMsg("multiline_add",ExRT.F.CreateAddonMsg(indextosnd,encounterID,noteName))
 	end
-	ExRT.F.SendExMsg("multiline_add",ExRT.F.CreateAddonMsg(indextosnd,encounterID,noteName))
 end 
 
 function module.frame:Clear() 
@@ -1719,7 +1860,7 @@ function module.main:GROUP_ROSTER_UPDATE()
 	for i=1,8 do gruevent[i] = 0 end
 	if IsInRaid() then
 		local n = GetNumGroupMembers() or 0
-		local gMax = 7
+		local gMax = 8
 		for i=1,n do
 			local name,_,subgroup,_,_,class = GetRaidRosterInfo(i)
 			if name and subgroup <= gMax and gruevent[subgroup] then
@@ -1761,7 +1902,7 @@ function module.main:GROUP_ROSTER_UPDATE()
 			end
 		end		
 	end
-	for i=1,7 do
+	for i=1,8 do
 		for j=(gruevent[i]+1),5 do
 			local frame = module.options.raidnames[(i-1)*5+j]
 			frame.iconText = ""
@@ -1846,6 +1987,7 @@ do
 		end
 		if noteText:find("{time:([0-9:]+[^{}]*)}") then
 			wipe(module.db.encounter_time_c)
+			wipe(module.db.encounter_time_wa_uids)
 			module:RegisterTimer()
 			module.db.encounter_time = GetTime()
 			module.db.encounter_time_p[1] = module.db.encounter_time
@@ -1882,6 +2024,7 @@ do
 			module.db.encounter_time = nil
 			wipe(module.db.encounter_time_p)
 			wipe(module.db.encounter_time_c)
+			wipe(module.db.encounter_time_wa_uids)
 	
 			module:UnregisterEvents("COMBAT_LOG_EVENT_UNFILTERED")
 		end
@@ -1974,3 +2117,16 @@ function module:slash(arg)
 		end
 	end
 end
+
+function module:GetText(removeColors,removeExtraSpaces)
+	local text = VExRT.Note.Text1
+	if removeColors then
+		text = text:gsub("|c........",""):gsub("|r","")
+	end
+	if removeExtraSpaces then
+		text = text:gsub(" *\n",""):gsub(" *$",""):gsub(" +"," ")
+	end
+	return text
+end
+ExRT.F.GetNote = module.GetText
+--- you can use to get note text GExRT.F:GetNote()

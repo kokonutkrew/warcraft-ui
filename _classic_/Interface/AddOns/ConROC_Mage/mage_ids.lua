@@ -18,6 +18,7 @@ local ConROC_Mage, ids = ...;
 		AmplifyMagicRank2 = 8455,
 		AmplifyMagicRank3 = 10169,
 		AmplifyMagicRank4 = 10170,
+		ArcaneBrilliance = 23028,
 		ArcaneExplosionRank1 = 1449,
 		ArcaneExplosionRank2 = 8437,
 		ArcaneExplosionRank3 = 8438,

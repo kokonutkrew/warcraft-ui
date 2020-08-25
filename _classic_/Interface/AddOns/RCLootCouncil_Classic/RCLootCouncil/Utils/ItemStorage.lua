@@ -9,7 +9,9 @@ local Storage = {}
 addon.ItemStorage = Storage
 
 local StoredItems = {}
-local private = {}
+local private = {
+   ITEM_WATCH_DELAY = 1
+}
 
 --[[
    Each entry index marks the type of item, and can have following fields:
@@ -47,18 +49,23 @@ local item_class = {
       tDeleteItem(db.itemStorage, self)
       return self
    end,
+   -- Items shouldn't be removed whilst itemWatch is working it.
+   -- This functions checks that.
+   SafeToRemove = function(self)
+      return self.args.itemWatch == nil
+   end
 }
 
 -- lua
-local error, table, tostring, tinsert, tremove, type, select, FindInTableIf, time, tFilter, setmetatable, CopyTable, tDeleteItem, ipairs
-    = error, table, tostring, tinsert, tremove, type, select, FindInTableIf, time, tFilter, setmetatable, CopyTable, tDeleteItem, ipairs
+local error, table, tostring, tinsert, tremove, type, select, FindInTableIf, time, tFilter, setmetatable, CopyTable, ipairs
+    = error, table, tostring, tinsert, tremove, type, select, FindInTableIf, time, tFilter, setmetatable, CopyTable, ipairs
 
 -- GLOBALS: GetContainerNumSlots, GetContainerItemLink, _G
 
 function addon:InitItemStorage()-- Extract items from our SV. Could be more elegant
    db = self:Getdb()
    local Item;
-   for k, v in ipairs(db.itemStorage) do
+   for _, v in ipairs(db.itemStorage) do
       Item = Storage:New(v.link, v.type, "restored", v)
       if not Item.inBags and Storage.AcceptedTypes[Item.type] then -- Item probably no longer exists?
          addon:Debug("Error - ItemStorage, db item no longer in bags", v.link)
@@ -145,12 +152,15 @@ function Storage:GetAllItems()
    return CopyTable(StoredItems)
 end
 
---- Returns a specific item object
+--- Returns a specific item object.
+-- Without type, returns the first found Item that matches the item link.
+-- With type, returns the the first found item that matches both the item link and the type.
 -- @param item ItemLink (@see GetItemInfo)
+-- @tparam itemType string (Optional) The type of the item we want to find
 -- @return The Item object, or nil if not found
-function Storage:GetItem(item)
+function Storage:GetItem(item, itemType)
    if type(item) ~= "string" then return error("'item' is not a string/ItemLink", 2) end
-   return select(2, private:FindItemInTable(StoredItems, item))
+   return select(2, private:FindItemInTable(StoredItems, item, itemType))
 end
 
 --- Returns all stored Items of a specific type
@@ -200,16 +210,39 @@ function Storage:GetItemContainerSlot (item)
    end
 end
 
-function private:FindItemInTable(table, item1)
-   return FindInTableIf(table, function(item2) return addon:ItemIsItem(item1, item2.link) end)
+--- Attempt to find the item in the players bags every 1 second.
+-- Optional callback functions can be attached for once the item is found.
+-- If the item is found, Item.time_remaining and Item.time_added are updated before callbacks.
+-- @param input The item to find; either 'itemLink' or 'Item' object.
+-- @param onFound (Optional) Function - called when the item is found. Params: Item, containerID, slotID, time_remaining
+-- @param onFail (Optional) Function - called when the item isn't found after max_attempts. Params: Item.
+-- @param max_attempts (Optional) number - maximum number of attempts to find the item. Defaults to 3.
+function Storage:WatchForItemInBags (input, onFound, onFail, max_attempts)
+   local Item
+   if type(input) == "table" then
+      Item = input
+   elseif type(input) == "string" then
+      Item = private:newItem(input, "temp") -- Item is not saved in storage
+   else
+      error(format("%s is not a valid input.", input))
+   end
+   private:InitWatchForItemInBags(Item, max_attempts or 3, onFound, onFail)
+end
+
+function private:FindItemInTable(table, item1, type)
+   if type then
+      return FindInTableIf(table, function(item2) return type == item2.type and addon:ItemIsItem(item1, item2.link) end)
+   else
+      return FindInTableIf(table, function(item2) return addon:ItemIsItem(item1, item2.link) end)
+   end
 end
 
 function private:findItemInBags(link)
-   addon:DebugLog("Storage: searching for item:",link)
+   addon:DebugLog("Storage: searching for item:",gsub(link or "", "\124", "\124\124"))
    if link and link ~= "" then
       local c,s,t
       for container=0, _G.NUM_BAG_SLOTS do
-   		for slot=1, GetContainerNumSlots(container) or 0 do
+         for slot=1, GetContainerNumSlots(container) or 0 do
             if addon:ItemIsItem(link, GetContainerItemLink(container, slot)) then -- We found it
                addon:DebugLog("Found item at",container, slot)
                c, s = container, slot
@@ -222,7 +255,7 @@ function private:findItemInBags(link)
             end
          end
       end
-      addon:DebugLog("Error - Couldn't find item")
+      addon:DebugLog("Found:", c,s,t)
       return c,s,t
    end
 end
@@ -236,7 +269,36 @@ function private:newItem(link, type, time_remaining)
    })
    Item.link = link
    Item.type = type or Item.type
-   Item.time_remaining = time_remaining or Item.time_remaining
+   Item.time_remaining = time_remaining or Item.time_remaining or 0
    Item.time_added = time()
    return Item
+end
+
+function private:itemWatcherScheduler (Item)
+   local c,s,t = self:findItemInBags(Item.link)
+   if c and s then
+      Item.time_remaining = t
+      Item.time_added = time() -- Needs updating now that we updated remaining time
+      Item.inBags = true
+      Item.args.itemWatch.onFound(Item,c,s,t)
+   else
+      Item.args.itemWatch.currentAttempt = Item.args.itemWatch.currentAttempt + 1
+      if Item.args.itemWatch.currentAttempt > Item.args.itemWatch.max_attempts then
+         Item.args.itemWatch.onFail(Item)
+      else
+         addon:ScheduleTimer(self.itemWatcherScheduler, self.ITEM_WATCH_DELAY, self, Item)
+         return -- Don't do cleanup yet
+      end
+   end
+   Item.args.itemWatch = nil
+end
+
+function private:InitWatchForItemInBags(Item, max_attempts, onFound, onFail)
+   Item.args.itemWatch = {
+      max_attempts = max_attempts or 3,
+      currentAttempt = 1,
+      onFound = onFound or addon.noop,
+      onFail = onFail or addon.noop
+   }
+   addon:ScheduleTimer(self.itemWatcherScheduler, self.ITEM_WATCH_DELAY, self, Item)
 end

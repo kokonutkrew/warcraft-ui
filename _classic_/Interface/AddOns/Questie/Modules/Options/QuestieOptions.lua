@@ -10,25 +10,26 @@ local QuestieOptionsMinimapIcon = QuestieLoader:ImportModule("QuestieOptionsMini
 
 
 QuestieOptions.tabs = {...}
-QuestieConfigFrame = {...}
+QuestieConfigFrame = nil
 
 local AceGUI = LibStub("AceGUI-3.0")
+local AceConfigDialog = LibStub("AceConfigDialogQuestie-3.0")
 
 -- Forward declaration
-local _CreateGUI
+local _CreateOptionsTable
 
 function QuestieOptions:Initialize()
     Questie:Debug(DEBUG_DEVELOP, "[QuestieOptions]: Initializing...")
 
-    local optionsGUI = _CreateGUI()
-    LibStub("AceConfigQuestie-3.0"):RegisterOptionsTable("Questie", optionsGUI)
-    Questie.configFrame = LibStub("AceConfigDialogQuestie-3.0"):AddToBlizOptions("Questie", "Questie");
+    local optionsTable = _CreateOptionsTable()
+    LibStub("AceConfigQuestie-3.0"):RegisterOptionsTable("Questie", optionsTable)
+    Questie.configFrame = AceConfigDialog:AddToBlizOptions("Questie", "Questie");
 
     local configFrame = AceGUI:Create("Frame");
-    LibStub("AceConfigDialogQuestie-3.0"):SetDefaultSize("Questie", 625, 700)
-    LibStub("AceConfigDialogQuestie-3.0"):Open("Questie", configFrame)
+    AceConfigDialog:SetDefaultSize("Questie", 625, 780)
+    AceConfigDialog:Open("Questie", configFrame)
     configFrame:Hide();
-    QuestieConfigFrame = configFrame.frame;
+    QuestieConfigFrame = configFrame;
     table.insert(UISpecialFrames, "QuestieConfigFrame");
 
     QuestieOptionsMinimapIcon:Initialize()
@@ -46,7 +47,7 @@ end
 function QuestieOptions:OpenConfigWindow()
     if not QuestieConfigFrame:IsShown() then
         PlaySound(882)
-        QuestieConfigFrame:Show()
+        AceConfigDialog:Open("Questie", QuestieConfigFrame)
     else
         QuestieConfigFrame:Hide()
     end
@@ -66,8 +67,7 @@ function QuestieOptions:SetGlobalOptionValue(info, value)
 end
 
 function QuestieOptions:AvailableQuestRedraw()
-    QuestieQuest:CalculateAvailableQuests()
-    QuestieQuest:DrawAllAvailableQuests()
+    QuestieQuest:CalculateAndDrawAvailableQuestsIterative()
 end
 
 function QuestieOptions:ClusterRedraw()
@@ -77,7 +77,7 @@ function QuestieOptions:ClusterRedraw()
 end
 
 
-_CreateGUI = function()
+_CreateOptionsTable = function()
     return {
         name = "Questie",
         handler = Questie,
@@ -90,6 +90,7 @@ _CreateGUI = function()
             dbm_hud_tab = QuestieOptions.tabs.dbm:Initialize(),
             tracker_tab = QuestieOptions.tabs.tracker:Initialize(),
             nameplate_tab = QuestieOptions.tabs.nameplate:Initialize(),
+            tooltip_tab = QuestieOptions.tabs.tooltip:Initialize(),
             advanced_tab = QuestieOptions.tabs.advanced:Initialize(),
         }
     }

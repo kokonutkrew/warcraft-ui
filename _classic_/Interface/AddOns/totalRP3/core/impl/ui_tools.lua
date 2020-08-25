@@ -829,11 +829,19 @@ local unitTexture = {
 	},
 	KulTiran = {
 		"Achievement_Boss_Zuldazar_Manceroy_Mestrah",
-		"INV_Faction_ProudmooreAdmiralty"
+		"Ability_racial_childofthesea"
 	},
 	ZandalariTroll = {
 		"INV_ZandalariMaleHead",
 		"INV_ZandalariFemaleHead"
+	},
+	Mechagnome = {
+		"Ability_racial_hyperorganiclightoriginator",
+		"Inv_plate_mechagnome_c_01helm"
+	},
+	Vulpera = {
+		"Ability_racial_nosefortrouble",
+		"Ability_racial_nosefortrouble"
 	}
 };
 

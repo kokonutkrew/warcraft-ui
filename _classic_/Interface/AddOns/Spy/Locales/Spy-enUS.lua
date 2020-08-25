@@ -2,43 +2,46 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("Spy", "enUS", true)
 if not L then return end
 
--- Addon information
+-- Configuration
 L["Spy"] = "Spy"
 L["Version"] = "Version"
---L["LoadDescription"] = "|cff9933ffSpy addon loaded. Type |cffffffff/spy|cff9933ff for options."
-L["SpyEnabled"] = "|cff9933ffSpy addon enabled."
-L["SpyDisabled"] = "|cff9933ffSpy addon disabled. Type |cffffffff/spy enable|cff9933ff to enable."
-L["UpgradeAvailable"] = "|cff9933ffA new version of Spy is available. It can be downloaded from:\n|cffffffffhttps://www.curseforge.com/wow/addons/spy-classic"
-
--- Configuration frame name
 L["Spy Option"] = "Spy"
-
--- Configuration strings
 L["Profiles"] = "Profiles"
 
-L["GeneralSettings"] = "General Settings"
+-- Information
+L["About"] = "About"
 L["SpyDescription1"] = [[
-Spy is an addon that will alert you to the presence of nearby enemy players.
+Spy is an addon that will alert you to the presence of nearby enemy players. These are some of the main features.
 ]]
 L["SpyDescription2"] = [[
-
-|cffffd000Nearby list|cffffffff
+|cffffd000Nearby List|cffffffff
 Displays enemy players that have been detected nearby. Players are removed from the list if they have not been detected after a period of time.
 
-|cffffd000Last Hour list|cffffffff
+|cffffd000Last Hour List|cffffffff
 Displays all enemies that have been detected in the last hour.
 
-|cffffd000Ignore list|cffffffff
+|cffffd000Ignore List|cffffffff
 Players that are added to the Ignore list will not be reported by Spy. You can add and remove players to/from this list by using the button's drop down menu or by holding the Control key while clicking the button.
 
-|cffffd000Kill On Sight list|cffffffff
+|cffffd000Kill On Sight List|cffffffff
 Players on your Kill On Sight list cause an alarm to sound when detected. You can add and remove players to/from this list by using the button's drop down menu or by holding the Shift key while clicking the button.
 
 The drop down menu can also be used to set the reasons why you have added someone to the Kill On Sight list. If you want to enter a specific reason that is not in the list, then use the "Enter your own reason..." in the Other list.
 
+|cffffd000Statistics Window|cffffffff
+The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons.
+
+|cffffd000Kill On Sight Button|cffffffff
+If enabled, this button will be located on the enemy players target frame. Clicking on this button will add/remove the enemy target to/from the Kill On Sight list. Right clicking on the button will allow you to enter Kill on Sight reasons.
+
 |cffffd000Author: Slipjack|cffffffff
 ]]
 
+-- General Settings
+L["GeneralSettings"] = "General Settings"
+L["GeneralSettingsDescription"] = [[
+Options for when Spy is Enabled or Disabled.
+]] 
 L["EnableSpy"] = "Enable Spy"
 L["EnableSpyDescription"] = "Enables or disables Spy."
 L["EnabledInBattlegrounds"] = "Enable Spy in battlegrounds"
@@ -49,7 +52,28 @@ L["EnabledInWintergrasp"] = "Enable Spy in world combat zones"
 L["EnabledInWintergraspDescription"] = "Enables or disables Spy when you are in world combat zones such as Lake Wintergrasp in Northrend."
 L["DisableWhenPVPUnflagged"] = "Disable Spy when not flagged for PVP"
 L["DisableWhenPVPUnflaggedDescription"] = "Enables or disables Spy depending on your PVP status."
+L["DisabledInZones"] = "Disable Spy while in these locations"
+L["DisabledInZonesDescription"]	= "Select locations where Spy will be disabled"
+L["Booty Bay"] = "Booty Bay"
+L["Everlook"] = "Everlook"						
+L["Gadgetzan"] = "Gadgetzan"
+L["Ratchet"] = "Ratchet"
+L["The Salty Sailor Tavern"] = "The Salty Sailor Tavern"
+L["Shattrath City"] = "Shattrath City"
+L["Area 52"] = "Area 52"
+L["Dalaran"] = "Dalaran"
+L["Dalaran (Northrend)"] = "Dalaran (Northrend)"
+L["Bogpaddle"] = "Bogpaddle"
+L["The Vindicaar"] = "The Vindicaar"
+L["Krasus' Landing"] = "Krasus' Landing"
+L["The Violet Gate"] = "The Violet Gate"
+L["Magni's Encampment"] = "Magni's Encampment"
+L["Silithus"] = "Silithus"
+L["Chamber of Heart"] = "Chamber of Heart"
+L["Hall of Ancient Paths"] = "Hall of Ancient Paths"
+L["Sanctum of the Sages"] = "Sanctum of the Sages"
 
+-- Display
 L["DisplayOptions"] = "Display"
 L["DisplayOptionsDescription"] = [[
 Options for the Spy window and tooltips.
@@ -62,8 +86,14 @@ L["ShowOnlyPvPFlagged"] = "Show only enemy players flagged for PvP"
 L["ShowOnlyPvPFlaggedDescription"] = "Set this to show only enemy players that are flagged for PvP in the Nearby list."
 L["ShowKoSButton"] = "Show KOS button on the enemy target frame"
 L["ShowKoSButtonDescription"] = "Set this to show the KOS button on the enemy player's target frame."
+L["Alpha"] = "Transparency"
+L["AlphaDescription"] = "Set the transparency of the Spy window."
+L["AlphaBG"] = "Transparency in BGs"
+L["AlphaBGDescription"] = "Set the transparency of the Spy window in battlegrounds."
 L["LockSpy"] = "Lock the Spy window"
 L["LockSpyDescription"] = "Locks the Spy window in place so it doesn't move."
+L["ClampToScreen"] = "Clamp to Screen"
+L["ClampToScreenDescription"] = "Controls whether the Spy window can be dragged off screen."
 L["InvertSpy"] = "Invert the Spy window"
 L["InvertSpyDescription"] = "Flips the Spy window upside down."
 L["Reload"] = "Reload UI"
@@ -87,6 +117,9 @@ L["TooltipDisplayKOSReason"] = "Display Kill On Sight reasons in tooltip"
 L["TooltipDisplayKOSReasonDescription"] = "Set this to display the Kill On Sight reasons of a player in the player's tooltip."
 L["TooltipDisplayLastSeen"] = "Display last seen details in tooltip"
 L["TooltipDisplayLastSeenDescription"] = "Set this to display the last known time and location of a player in the player's tooltip."
+L["DisplayListData"] = "Select enemy data to display"
+L["Name"] = "Name"
+L["Class"] = "Class"
 L["SelectFont"] = "Select a Font"
 L["SelectFontDescription"] = "Select a Font for the Spy Window."
 L["RowHeight"] = "Select the Row Height"
@@ -94,6 +127,7 @@ L["RowHeightDescription"] = "Select the Row Height for the Spy window."
 L["Texture"] = "Texture"
 L["TextureDescription"] = "Select a texture for the Spy Window"
 
+-- Alerts
 L["AlertOptions"] = "Alerts"
 L["AlertOptionsDescription"] = [[
 Options for alerts, announcements and warnings when enemy players are detected.
@@ -129,15 +163,20 @@ L["WarnOnRaceDescription"] = "Set this to sound an alert when the selected Race 
 L["SelectWarnRace"] = "Select Race for detection"
 L["SelectWarnRaceDescription"] = "Select a Race for audio alert."
 L["WarnRaceNote"] = "Note: You must target an enemy at least once so their Race can be added to the database. Upon the next detection an alert will sound. This does not work the same as detecting nearby enemies in combat."
-L["DisplayWarningsInErrorsFrame"] = "Display warnings in the errors frame"
-L["DisplayWarningsInErrorsFrameDescription"] = "Set this to use the errors frame to display warnings instead of using the graphical popup frames."
+--L["DisplayWarningsInErrorsFrame"] = "Display warnings in the errors frame"
+--L["DisplayWarningsInErrorsFrameDescription"] = "Set this to use the errors frame to display warnings instead of using the graphical popup frames."
+L["DisplayWarnings"] = "Select warnings message location"
+L["Default"] = "Default"
+L["ErrorFrame"] = "Error Frame"
+L["Moveable"] = "Moveable"
 L["EnableSound"] = "Enable audio alerts"
 L["EnableSoundDescription"] = "Set this to enable audio alerts when enemy players are detected. Different alerts sound if an enemy player gains stealth or if an enemy player is on your Kill On Sight list."
-L["OnlySoundKoS"] = "Only sound audio alerts for the Kill On Sight detection"
+L["OnlySoundKoS"] = "Only sound audio alerts for Kill On Sight detection"
 L["OnlySoundKoSDescription"] = "Set this to only play audio alerts when enemy players on the Kill on Sight list are detected."
 L["StopAlertsOnTaxi"] = "Turn off alerts while on a flight path"
 L["StopAlertsOnTaxiDescription"] = "Stop all new alerts and warnings while on a flight path."
 
+-- Nearby List
 L["ListOptions"] = "Nearby List"
 L["ListOptionsDescription"] = [[
 Options on how enemy players are added and removed.
@@ -160,13 +199,14 @@ L["ShowNearbyListDescription"] = "Set this to display the Nearby list if it is n
 L["PrioritiseKoS"] = "Prioritise Kill On Sight enemy players in the Nearby list"
 L["PrioritiseKoSDescription"] = "Set this to always show Kill On Sight enemy players first in the Nearby list."
 
+-- Map
 L["MapOptions"] = "Map"
 L["MapOptionsDescription"] = [[
 Options for world map and minimap including icons and tooltips.
 ]]
 L["MinimapDetection"] = "Enable minimap detection"
 L["MinimapDetectionDescription"] = "Rolling the cursor over known enemy players detected on the minimap will add them to the Nearby list."
-L["MinimapNote"] = "          Note: Only works for players that can Track Humaniods"
+L["MinimapNote"] = "          Note: Only works for players that can Track Humanoids."
 L["MinimapDetails"] = "Display level/class details in tooltips"
 L["MinimapDetailsDescription"] = "Set this to update the map tooltips so that level/class details are displayed alongside enemy names."
 L["DisplayOnMap"] = "Display icons on the map"
@@ -175,15 +215,17 @@ L["SwitchToZone"] = "Switch to current zone map on enemy detection"
 L["SwitchToZoneDescription"] = "Change the map to the players current zone map when enemies are detected."
 L["MapDisplayLimit"] = "Limit displayed map icons to:"
 L["LimitNone"] = "Everywhere"
-L["LimitNoneDescription"] = "Displayes all detected enemies on the map regardless of your current location."
+L["LimitNoneDescription"] = "Displays all detected enemies on the map regardless of your current location."
 L["LimitSameZone"] = "Same zone"
 L["LimitSameZoneDescription"] = "Only displays detected enemies on the map if you are in the same zone."
 L["LimitSameContinent"] = "Same continent"
 L["LimitSameContinentDescription"] = "Only displays detected enemies on the map if you are on the same continent."
 
+-- Data Management
 L["DataOptions"] = "Data Management"
 L["DataOptionsDescription"] = [[
-Options on how Spy maintains and gathers its data.
+
+Options on how Spy maintains and gathers data.
 ]]
 L["PurgeData"] = "Purge undetected enemy player data after:"
 L["OneDay"] = "1 day"
@@ -209,12 +251,15 @@ L["UseDataDescription"] = "Set this to use the data collected by other Spy users
 L["ShareKOSBetweenCharacters"] = "Share Kill On Sight players between your characters"
 L["ShareKOSBetweenCharactersDescription"] = "Set this to share the players you mark as Kill On Sight between other characters that you play on the same server and faction."
 
+-- Commands
 L["SlashCommand"] = "Slash Command"
 L["SpySlashDescription"] = "These buttons execute the same functions as the ones in the slash command /spy"
 L["Enable"] = "Enable"
 L["EnableDescription"] = "Enables Spy and shows the main window."
 L["Show"] = "Show"
 L["ShowDescription"] = "Shows the main window."
+L["Hide"] = "Hide"
+L["HideDescription"] = "Hides the main window."
 L["Reset"] = "Reset"
 L["ResetDescription"] = "Resets the position and appearance of the main window."
 L["ClearSlash"] = "Clear"
@@ -226,6 +271,8 @@ L["KOSDescription"] = "Add/remove a player to/from the Kill On Sight list."
 L["InvalidInput"] = "Invalid Input"
 L["Ignore"] = "Ignore"
 L["IgnoreDescription"] = "Add/remove a player to/from the Ignore list."
+L["Test"] = "Test"
+L["TestDescription"] = "Shows a warning so it can be repositioned."
 
 -- Lists
 L["Nearby"] = "Nearby"
@@ -234,6 +281,8 @@ L["Ignore"] = "Ignore"
 L["KillOnSight"] = "Kill On Sight"
 
 --Stats
+L["Won"] = "Won"
+L["Lost"] = "Lost"
 L["Time"] = "Time"	
 L["List"] = "List"
 L["Filter"] = "Filter"
@@ -244,7 +293,11 @@ L["Reason"] = "Reason"
 L["HonorKills"] = "Honor Kills"
 L["PvPDeaths"] = "PvP Deaths"
 
--- Output messages
+-- Output Messages
+L["VersionCheck"] = "|cffc41e3aWarning! The wrong version of Spy is installed. Remove this version and install Spy Classic."
+L["SpyEnabled"] = "|cff9933ffSpy addon enabled."
+L["SpyDisabled"] = "|cff9933ffSpy addon disabled. Type |cffffffff/spy show|cff9933ff to enable."
+L["UpgradeAvailable"] = "|cff9933ffA new version of Spy is available. It can be downloaded from:\n|cffffffffhttps://www.curseforge.com/wow/addons/spy-classic"
 L["AlertStealthTitle"] = "Stealth player detected!"
 L["AlertKOSTitle"] = "Kill On Sight player detected!"
 L["AlertKOSGuildTitle"] = "Kill On Sight player guild detected!"
@@ -285,7 +338,7 @@ L["AddToIgnoreList"] = "Add to Ignore list"
 L["AddToKOSList"] = "Add to Kill On Sight list"
 L["RemoveFromIgnoreList"] = "Remove from Ignore list"
 L["RemoveFromKOSList"] = "Remove from Kill On Sight list"
-L["RemoveFromStatsList"] = "Remove from Statistics List"   --++
+L["RemoveFromStatsList"] = "Remove from Statistics List"
 L["AnnounceDropDownMenu"] = "Announce"
 L["KOSReasonDropDownMenu"] = "Set Kill On Sight reason"
 L["PartyDropDownMenu"] = "Party"
@@ -299,9 +352,10 @@ L["KOSReasonOther"] = "Enter your own reason..."
 L["KOSReasonClear"] = "Clear Reason"
 L["StatsWins"] = "|cff40ff00Wins: "
 L["StatsSeparator"] = "  "
-L["StatsLoses"] = "|cff0070ddLoses: "
+L["StatsLoses"] = "|cff0070ddLosses: "
 L["Located"] = "located:"
 L["Yards"] = "yards"
+L["LocalDefenseChannelName"] = "LocalDefense"
 
 Spy_KOSReasonListLength = 6
 Spy_KOSReasonList = {
@@ -391,72 +445,71 @@ StaticPopupDialogs["Spy_SetKOSReasonOther"] = {
 	OnShow = function(self)
 		self.editBox:SetText("");
 	end,
-    	OnAccept = function(self)
+    OnAccept = function(self)
 		local reason = self.editBox:GetText()
 		Spy:SetKOSReason(self.playerName, "Enter your own reason...", reason)
 	end,
 };
 
---++ Class descriptions
---L["DEATHKNIGHT"] = "Death Knight"
---L["DEMONHUNTER"] = "Demon Hunter"
+-- Class descriptions
+L["UNKNOWN"] = "Unknown"
 L["DRUID"] = "Druid"
 L["HUNTER"] = "Hunter"
 L["MAGE"] = "Mage"
---L["MONK"] = "Monk"
 L["PALADIN"] = "Paladin"
 L["PRIEST"] = "Priest"
 L["ROGUE"] = "Rogue"
 L["SHAMAN"] = "Shaman"
 L["WARLOCK"] = "Warlock"
 L["WARRIOR"] = "Warrior"
-L["UNKNOWN"] = "Unknown"
+L["DEATHKNIGHT"] = "Death Knight"
+L["MONK"] = "Monk"
+L["DEMONHUNTER"] = "Demon Hunter"
 
---++ Race descriptions
-L["HUMAN"] = "Human"
-L["ORC"] = "Orc"
-L["DWARF"] = "Dwarf"
-L["NIGHT ELF"] = "Night Elf"
-L["UNDEAD"] = "Undead"
-L["TAUREN"] = "Tauren"
-L["GNOME"] = "Gnome"
-L["TROLL"] = "Troll"
-L["GOBLIN"] = "Goblin"
---L["BLOOD ELF"] = "Blood Elf"
---L["DRAENEI"] = "Draenei"
---L["WORGEN"] = "Worgen"
---L["PANDAREN"] = "Pandaren"
---L["NIGHTBORNE"] = "Nightborne"
---L["HIGHMOUNTAIN TAUREN"] = "Highmountain Tauren"
---L["VOID ELF"] = "Void Elf"
---L["LIGHTFORGED DRAENEI"] = "Lightforged Draenei"
---L["ZANDALARI TROLL"] = "Zandalari Troll"
---L["KUL TIRAN"] = "Kul Tiran"
---L["DARK IRON DWARF"] = "Dark Iron Dwarf"
---L["MAG'HAR ORC"] = "Mag'har Orc"
+-- Race descriptions
+L["Human"] = "Human"
+L["Orc"] = "Orc"
+L["Dwarf"] = "Dwarf"
+L["Tauren"] = "Tauren"
+L["Troll"] = "Troll"
+L["Night Elf"] = "Night Elf"
+L["Undead"] = "Undead"
+L["Gnome"] = "Gnome"
+L["Blood Elf"] = "Blood Elf"
+L["Draenei"] = "Draenei"
+L["Goblin"] = "Goblin"
+L["Worgen"] = "Worgen"
+L["Pandaren"] = "Pandaren"
+L["Highmountain Tauren"] = "Highmountain Tauren"
+L["Lightforged Draenei"] = "Lightforged Draenei"
+L["Nightborne"] = "Nightborne"
+L["Void Elf"] = "Void Elf"
+L["Dark Iron Dwarf"] = "Dark Iron Dwarf"
+L["Mag'har Orc"] = "Mag'har Orc"
+L["Kul Tiran"] = "Kul Tiran"
+L["Zandalari Troll"] = "Zandalari Troll"
+L["Mechagnome"] = "Mechagnome"
+L["Vulpera"] = "Vulpera"
 
 -- Stealth abilities
 L["Stealth"] = "Stealth"
 L["Prowl"] = "Prowl"
 
--- Channel names
-L["LocalDefenseChannelName"] = "LocalDefense"
-
---++ Minimap color codes
---L["MinimapClassTextDEATHKNIGHT"] = "|cffc41e3a"
---L["MinimapClassTextDEMONHUNTER"] = "|cffa330c9"
+-- Minimap color codes
+L["MinimapGuildText"] = "|cffffffff"
+L["MinimapClassTextUNKNOWN"] = "|cff191919"
 L["MinimapClassTextDRUID"] = "|cffff7c0a"
 L["MinimapClassTextHUNTER"] = "|cffaad372"
 L["MinimapClassTextMAGE"] = "|cff68ccef"
---L["MinimapClassTextMONK"] = "|cff00ff96"
 L["MinimapClassTextPALADIN"] = "|cfff48cba"
 L["MinimapClassTextPRIEST"] = "|cffffffff"
 L["MinimapClassTextROGUE"] = "|cfffff468"
 L["MinimapClassTextSHAMAN"] = "|cff2359ff"
 L["MinimapClassTextWARLOCK"] = "|cff9382c9"
 L["MinimapClassTextWARRIOR"] = "|cffc69b6d"
-L["MinimapClassTextUNKNOWN"] = "|cff191919"
-L["MinimapGuildText"] = "|cffffffff"
+L["MinimapClassTextDEATHKNIGHT"] = "|cffc41e3a"
+L["MinimapClassTextMONK"] = "|cff00ff96"
+L["MinimapClassTextDEMONHUNTER"] = "|cffa330c9"
 
 Spy_AbilityList = {
 -----------------------------------------------------------

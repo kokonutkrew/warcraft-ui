@@ -1,6 +1,7 @@
 # <FGI> FastGuildInvite
 
-## 54 (2019-11-17)
+## 73 (2020-08-18)
+ 
 
-
--  messages moved to faction-realm group  
+- added GUILDLINK placeholder  
+- added NAME placeholder to auto-complete notes  

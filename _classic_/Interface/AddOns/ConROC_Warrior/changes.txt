@@ -1,3 +1,10 @@
+Ver 1.13.10
+	-Found Heroic Strike Rank 9 missing.
+	-Tweaked Whirlwind slightly when Bloodthirst is ready.
+
+Ver 1.13.9
+	-Gave Sunder Armor a stack count input field in spellmenu.
+
 Ver 1.13.8
 	-Updated rotation around Fury/Berserker.
 

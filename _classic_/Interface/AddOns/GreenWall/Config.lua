@@ -2,7 +2,7 @@
 
 The MIT License (MIT)
 
-Copyright (c) 2010-2019 Mark Rogaski
+Copyright (c) 2010-2020 Mark Rogaski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -281,7 +281,7 @@ function GwConfig:load()
     --
     local min = semver(self.minimum)
     local cur = semver(gw.version)
-    if min then
+    if min and cur then
         if cur < min then
             gw.Error('Guild configuration specifies a minimum version of %s (%s currently installed).', tostring(min), tostring(cur))
         end

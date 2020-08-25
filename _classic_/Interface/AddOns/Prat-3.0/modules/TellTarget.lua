@@ -96,12 +96,12 @@ L = {
 L = {
 	["TellTarget"] = {
 		["/tt"] = true,
-		["Adds telltarget slash command (/tt)."] = "Fügt das Slash-Kommando TellTarget (/tt) hinzu",
+		["Adds telltarget slash command (/tt)."] = "Fügt den Slash-Befehl Ziel Sagen (/tt) hinzu.",
 		["No target selected."] = "Kein Ziel ausgewählt.",
 		["NoTarget"] = "KeinZiel",
 		["Target does not exist."] = "Ziel existiert nicht.",
 		["Target is not a player."] = "Ziel ist kein Spieler.",
-		["TellTarget"] = true,
+		["TellTarget"] = "Ziel Sagen",
 	}
 }
 
@@ -112,7 +112,7 @@ L = {
  
 L = {
 	["TellTarget"] = {
-		["/tt"] = true,
+		["/tt"] = "/ㅅㅅ",
 		["Adds telltarget slash command (/tt)."] = "대상에게 말하기 슬래쉬 명령어를 추가합니다 (/tt).",
 		["No target selected."] = "대상이 선택되지 않았습니다.",
 		["NoTarget"] = "대상 없음",
@@ -259,7 +259,7 @@ L = {
   function module:GetDescription()
     return PL["Adds telltarget slash command (/tt)."]
   end
-  
+
   function module:OnTextChanged(editBox, ...)
     local command, msg = editBox:GetText():match("^(/%S+)%s(.*)$")
     if command == "/tt" or command == PL["/tt"] then

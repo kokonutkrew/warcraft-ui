@@ -1,9 +1,11 @@
 ---@type QuestieFramePool
-local QuestieFramePool = QuestieLoader:ImportModule("QuestieFramePool");
+local QuestieFramePool = QuestieLoader:ImportModule("QuestieFramePool")
 ---@type QuestieMap
-local QuestieMap = QuestieLoader:ImportModule("QuestieMap");
+local QuestieMap = QuestieLoader:ImportModule("QuestieMap")
 ---@type QuestieDBMIntegration
-local QuestieDBMIntegration = QuestieLoader:ImportModule("QuestieDBMIntegration");
+local QuestieDBMIntegration = QuestieLoader:ImportModule("QuestieDBMIntegration")
+---@type QuestieDB
+local QuestieDB = QuestieLoader:ImportModule("QuestieDB")
 
 local HBDPins = LibStub("HereBeDragonsQuestie-Pins-2.0")
 
@@ -80,7 +82,7 @@ function QuestieFramePool.Qframe:New(frameId, OnEnter)
 
     --We save the colors to the texture object, this way we don't need to use GetVertexColor
     newFrame.glowTexture:SetVertexColor(1,1,1,1);
-    
+
     newFrame.glowTexture:SetTexture(ICON_TYPE_GLOW)
     newFrame.glow:Hide()
     newFrame.glow:SetPoint("CENTER", -9, -9) -- 2 pixels bigger than normal icon
@@ -106,8 +108,9 @@ function QuestieFramePool.Qframe:New(frameId, OnEnter)
     newFrame.FakeUnhide = _Qframe.FakeUnhide
     newFrame.OnShow = _Qframe.OnShow
     newFrame.OnHide = _Qframe.OnHide
+    newFrame.ShouldBeHidden = _Qframe.ShouldBeHidden
 
-    newFrame.data = {}
+    newFrame.data = nil
     newFrame:Hide()
 
     return newFrame
@@ -130,22 +133,32 @@ function _Qframe:OnLeave()
             line:SetColorTexture(line.dR, line.dG, line.dB, line.dA)
         end
     end
+
+    if self.data.touchedPins then
+        for _, entry in pairs(self.data.touchedPins) do
+            local icon = entry.icon;
+            icon.texture:SetVertexColor(unpack(entry.color));
+        end
+        self.data.touchedPins = nil;
+    end
 end
 
 function _Qframe:OnClick(button)
     --_QuestieFramePool:Questie_Click(self)
-    if self and self.data and self.data.UiMapID and WorldMapFrame and WorldMapFrame:IsShown() then
+    if self and self.UiMapID and WorldMapFrame and WorldMapFrame:IsShown() then
         if button == "RightButton" then
             local currentMapParent = WorldMapFrame:GetMapID()
             if currentMapParent then
-                currentMapParent = QuestieZoneToParentTable[currentMapParent];
+                local mapInfo = C_Map.GetMapInfo(currentMapParent)
+                currentMapParent = mapInfo.parentMapID
+
                 if currentMapParent and currentMapParent > 0 then
                     WorldMapFrame:SetMapID(currentMapParent)
                 end
             end
         else
-            if self.data.UiMapID ~= WorldMapFrame:GetMapID() then
-                WorldMapFrame:SetMapID(self.data.UiMapID);
+            if self.UiMapID ~= WorldMapFrame:GetMapID() then
+                WorldMapFrame:SetMapID(self.UiMapID);
             end
         end
         if self.data.Type == "available" and IsShiftKeyDown() then
@@ -155,12 +168,12 @@ function _Qframe:OnClick(button)
             QuestieMap:UnloadManualFrames(self.data.id)
         end
     end
-    if self and self.data and self.data.UiMapID and IsControlKeyDown() and TomTom and TomTom.AddWaypoint then
+    if self and self.UiMapID and IsControlKeyDown() and TomTom and TomTom.AddWaypoint then
         -- tomtom integration (needs more work, will come with tracker
         if Questie.db.char._tom_waypoint and TomTom.RemoveWaypoint then -- remove old waypoint
             TomTom:RemoveWaypoint(Questie.db.char._tom_waypoint)
         end
-        Questie.db.char._tom_waypoint = TomTom:AddWaypoint(self.data.UiMapID, self.x/100, self.y/100, {title = self.data.Name, crazy = true})
+        Questie.db.char._tom_waypoint = TomTom:AddWaypoint(self.UiMapID, self.x/100, self.y/100, {title = self.data.Name, crazy = true})
     elseif self.miniMapIcon then
         local _, _, _, x, y = self:GetPoint()
         Minimap:PingLocation(x, y)
@@ -185,11 +198,11 @@ function _Qframe:GlowUpdate()
     end
 end
 
-function _Qframe:BaseOnUpdate()
-    if self.GlowUpdate then
-        self:GlowUpdate()
-    end
-end
+--function _Qframe:BaseOnUpdate() -- why do this here when its called in QuestieMap.fadeLogicTimerShown?
+--    if self.GlowUpdate then
+--        self:GlowUpdate()
+--    end
+--end
 
 function _Qframe:BaseOnShow()
     local data = self.data
@@ -255,11 +268,18 @@ function _Qframe:UpdateTexture(texture)
 end
 
 function _Qframe:Unload()
+    --Questie:Debug(DEBUG_SPAM, "[_Qframe:Unload]")
     self:SetScript("OnUpdate", nil)
     self:SetScript("OnShow", nil)
     self:SetScript("OnHide", nil)
     self:SetFrameStrata("FULLSCREEN");
     self:SetFrameLevel(0);
+
+    -- Reset questIdFrames so they won't be toggled again
+    local frameName = self:GetName()
+    if frameName and self.data.Id and QuestieMap.questIdFrames[self.data.Id] and QuestieMap.questIdFrames[self.data.Id][frameName] then
+        QuestieMap.questIdFrames[self.data.Id][frameName] = nil
+    end
 
     --We are reseting the frames, making sure that no data is wrong.
     if self ~= nil and self.hidden and self._show ~= nil and self._hide ~= nil then -- restore state to normal (toggle questie)
@@ -299,7 +319,13 @@ function _Qframe:Unload()
     self.glow:Hide()
     self.data = nil -- Just to be safe
     self.loaded = nil
-    self.x = nil;self.y = nil;self.AreaID = nil
+    self.x = nil
+    self.y = nil
+    self.AreaID = nil
+    self.UiMapID = nil
+    self.lastGlowFade = nil
+    self.worldX = nil
+    self.worldY = nil
     QuestieFramePool:RecycleFrame(self)
 end
 
@@ -358,4 +384,29 @@ function _Qframe:FakeUnhide()
             self:Show();
         end
     end
+end
+
+---Checks wheather the frame/icon should be hidden or not
+---@return boolean @True if the frame/icon should be hidden and :FakeHide should be called, false otherwise
+function _Qframe:ShouldBeHidden()
+    local questieGlobalDB = Questie.db.global
+    if (not Questie.db.char.enabled)
+        or ((not questieGlobalDB.enableObjectives) and (self.data.Type == "monster" or self.data.Type == "object" or self.data.Type == "event" or self.data.Type == "item"))
+        or ((not questieGlobalDB.enableTurnins) and self.data.Type == "complete")
+        or ((not questieGlobalDB.enableAvailable) and self.data.Type == "available")
+        or ((not Questie.db.char.showRepeatableQuests) and QuestieDB:IsRepeatable(self.data.Id))
+        or ((not Questie.db.char.showEventQuests) and QuestieDB:IsActiveEventQuest(self.data.Id))
+        or ((not Questie.db.char.showDungeonQuests) and QuestieDB:IsDungeonQuest(self.data.Id))
+        or ((not Questie.db.char.showRaidQuests) and QuestieDB:IsRaidQuest(self.data.Id))
+        or ((not Questie.db.char.showPvPQuests) and QuestieDB:IsPvPQuest(self.data.Id))
+        or ((not Questie.db.char.showAQWarEffortQuests) and QuestieDB:IsAQWarEffortQuest(self.data.Id))
+        or ((not questieGlobalDB.enableMapIcons) and (not self.miniMapIcon))
+        or ((not questieGlobalDB.enableMiniMapIcons) and (self.miniMapIcon))
+        or (self.data.ObjectiveData and self.data.ObjectiveData.HideIcons)
+        or (self.data.QuestData and self.data.QuestData.HideIcons and self.data.Type ~= "complete") then
+
+        return true
+    end
+
+    return false
 end

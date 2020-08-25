@@ -5,30 +5,32 @@ local function getMetalsZone(itemId)
 	
 	--Vanilla Ore
 	if itemId == "11370" then --Dark Iron
-		smetalsZone = "Gathered in: Molten Core & Blackrock Depths."
+		smetalsZone = "Gathered in:\nBurning Steppes\nSearing Gorge"
 	elseif itemId == "3858" then --Mithril
-		smetalsZone = "Gathered in: Thousand Needles,\nBadlands & Searing Gorge."
+		smetalsZone = "Gathered in:\nHinterlands\nTanaris\nDesolace\nBadlands"
 	elseif itemId == "10620" then --Thorium
-		smetalsZone = "Gathered in: Winterspring,\nSilithus & Un'Goro Crater."
+		smetalsZone = "Gathered in:\nWinterspring,\nEastern Plaguelands\nAzshara\nUn'Goro"
 	elseif itemId == "7911" then --Truesilver
-		smetalsZone = "Gathered in: Winterspring,\nThousand Needles & Burning Steppes."
+		smetalsZone = "Gathered in:\nFelwood\nWinterspring"
 	elseif itemId == "2772" then --Iron
-		smetalsZone = "Gathered in: Feralas,\nDescolace & Western Plaguelands."
+		smetalsZone = "Gathered in:\nArathi Highlands\n Desolace\nStranglethorn Vale"
 	elseif itemId == "2776" then --Gold
-		smetalsZone = "Gathered in: Thousand Needles, Feralas & Eastern Plaguelands."
+		smetalsZone = "Gathered in:\nBadlands\nTanaris\nFelwood\nStranglethorn Vale"
 	elseif itemId == "2771" then --Tin
-		smetalsZone = "Gathered in: Hillsbrad Foothills,\nAshenvale & Northern Stranglethorn."
+		smetalsZone = "Gathered in:\nHillsbrad Foothills\nRedridge Mountains\n Thousand Needles\nThe Barrens"
 	elseif itemId == "2775" then --Silver
-		smetalsZone = "Gathered in: Feralas,\nNorthern Stranglethorn & Hillsbrad Foothills."
+		smetalsZone = "Gathered in:\nArathi Highlands\nThe Barrens\n Thousand Needles"
 	elseif itemId == "2770" then --Copper
-		smetalsZone = "Gathered in: Starting Zones,\nDarkshore & Northern Barrens."
+		smetalsZone = "Gathered in: The Barrens\nStarting Zones\nDarkshore"
+	elseif itemId == "3858" then --Elementium Ingot
+		smetalsZone = "Dropped by Blackwing Technician\nin Blackwing Lair"
 	--Vanilla Bars
 	elseif itemId == "17771" then --Enchanted Elementium
 		smetalsZone = "Smelted by Miners using:\n1 Elementium Ingot\n10 Arcanite Bars\n1 Fiery Core\n3 Elemental Flux"
 	elseif itemId == "12655" then --Enchanted Thorium
-		smetalsZone = "Smelted by Miners using:\n1 Thorium Bar\n3 Rich Illusion Dust"
+		smetalsZone = "Created by Enchanters using:\n1 Thorium Bar\n3 Rich Illusion Dust"
 	elseif itemId == "12360" then --Arcanite
-		smetalsZone = "Smelted by Miners using:\n1 Thorium Bar\n1 Arcane Crystal"
+		smetalsZone = "Transmuted by Alchemists using:\n1 Thorium Bar\n1 Arcane Crystal"
 	elseif itemId == "11371" then --Dark Iron
 		smetalsZone = "Smelted by Miners using:\n8 Dark Iron Ore"
 	elseif itemId == "12359" then --Thorium

@@ -197,7 +197,7 @@ local function unitIDIsFilteredForMatureContent(unitID)
 	local profileID = getUnitIDProfileID(unitID);
 	-- Check if the profile has been flagged as containing mature content, that the option to filter such content is enabled
 	-- and that the profile is not in the pink list.
-	return profile.hasMatureContent and getConfigValue("register_mature_filter") and not (TRP3_API.register.mature_filter.isProfileWhitelisted(profileID))
+	return profile.hasMatureContent and getConfigValue("register_mature_filter") and not (TRP3_API.register.mature_filter.isProfileSafeListed(profileID))
 end
 
 TRP3_API.register.unitIDIsFilteredForMatureContent = unitIDIsFilteredForMatureContent;
@@ -207,7 +207,7 @@ local function profileIDISFilteredForMatureContent (profileID)
 
 	local profile = getProfileOrNil(profileID);
 
-	return profile and profile.hasMatureContent and not TRP3_API.register.mature_filter.isProfileWhitelisted(profileID);
+	return profile and profile.hasMatureContent and not TRP3_API.register.mature_filter.isProfileSafeListed(profileID);
 end
 
 TRP3_API.register.profileIDISFilteredForMatureContent = profileIDISFilteredForMatureContent;
@@ -425,6 +425,24 @@ function TRP3_API.register.getUnitRPName(targetType)
 end
 
 TRP3_API.r.name = TRP3_API.register.getUnitRPName;
+
+function TRP3_API.register.getUnitRPFirstName(targetType)
+	local unitID = getUnitID(targetType);
+	if unitID then
+		local player = AddOn_TotalRP3.Player.static.CreateFromCharacterID(unitID);
+		return player:GetFirstName() or TRP3_API.register.getUnitRPName(targetType);
+	end
+	return TRP3_API.register.getUnitRPName(targetType);
+end
+
+function TRP3_API.register.getUnitRPLastName(targetType)
+	local unitID = getUnitID(targetType);
+	if unitID then
+		local player = AddOn_TotalRP3.Player.static.CreateFromCharacterID(unitID);
+		return player:GetLastName() or TRP3_API.register.getUnitRPName(targetType);
+	end
+	return TRP3_API.register.getUnitRPName(targetType);
+end
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 -- Tools

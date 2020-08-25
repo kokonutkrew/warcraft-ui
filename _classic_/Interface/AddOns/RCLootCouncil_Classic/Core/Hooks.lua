@@ -3,19 +3,29 @@ local _, addon = ...
 local Classic = addon:GetModule("RCClassic")
 local VotingFrame = addon:GetModule("RCVotingFrame")
 local SessionFrame = addon:GetModule("RCSessionFrame")
+local HistoryFrame = addon:GetModule("RCLootHistory")
 local hooks = {}
 
 function Classic:DoHooks ()
-   for num, data in pairs(hooks) do
+   for _, data in pairs(hooks) do
       if data.type == "raw" then
          Classic:RawHook(data.object, data.ref, data.func)
-      elseif data.type == "script" then
+      --elseif data.type == "script" then
 
       else
          Classic:Hook(data.object, data.ref, data.func)
       end
    end
 end
+
+tinsert(hooks, {
+   object = HistoryFrame,
+   ref = "OnEnable",
+   type = "post",
+   func = function()
+      HistoryFrame.wowheadBaseUrl = "https://classic.wowhead.com/item="
+   end
+})
 
 tinsert(hooks, {
    object = SessionFrame,
@@ -59,10 +69,26 @@ tinsert(hooks, {
    end,
 })
 
+tinsert(hooks, {
+   object = addon,
+   ref = "InitClassIDs",
+   type = "raw",
+   func = function ()
+      -- Class tags needs updated as druids are number 11 and we have 9 classes
+      local info = C_CreatureInfo.GetClassInfo(11)
+      addon.classDisplayNameToID[info.className] = 11
+      addon.classTagNameToID[info.classFile] = 11
+      addon.classIDToDisplayName = tInvert(addon.classDisplayNameToID)
+      addon.classIDToFileName = tInvert(addon.classTagNameToID)
+   end
+})
+
 local rclootcoucnilCoreVersionsToIgnore = {
    ["2.14.0"] = true,
    ["2.15.0"] = true,
-   ["2.15.1"] = true
+   ["2.15.1"] = true,
+   ["2.18.1"] = true,
+   ["2.18.2"] = true,
 }
 
 tinsert(hooks, {

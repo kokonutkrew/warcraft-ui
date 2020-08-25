@@ -2,26 +2,18 @@ local L = LibStub("AceLocale-3.0"):NewLocale("Spy", "koKR")
 if not L then return end
 -- TOC Note: "근처에 있는 적 플레이어를 탐지하고 경고합니다."
 
--- Addon information
+-- Configuration
 L["Spy"] = "Spy"
 L["Version"] = "버전"
---L["LoadDescription"] = "|cff9933ffSpy 애드온이 로드되었습니다. |cffffffff/spy|cff9933ff 을 입력해 옵션창을 켤 수 있습니다."
-L["SpyEnabled"] = "|cff9933ffSpy 애드온이 활성화되었습니다.."
-L["SpyDisabled"] = "|cff9933ffSpy 애드온이 비활성화되었습니다. |cffffffff/spy enable|cff9933ff 을 입력해 활성화 시키십시오."
-L["UpgradeAvailable"] = "|cff9933ffA Spy의 새로운 버전을 사용할 수 있습니다. 다운로드 주소:\n|cffffffffhttps://www.curseforge.com/wow/addons/spy-classic"
-
--- Configuration frame name
 L["Spy Option"] = "Spy"
-
--- Configuration strings
 L["Profiles"] = "프로필"
 
-L["GeneralSettings"] = "일반 설정"
+-- About
+L["About"] = "정보"
 L["SpyDescription1"] = [[
 Spy는 근처에 있는 적 플레이어를 알려주는 애드온 입니다.
 ]]
 L["SpyDescription2"] = [[
-
 |cffffd000근접한 적 목록|cffffffff
 근접한 적 목록은 근처에 있는 탐지 된 적을 표시합니다. 근접한 적 목록을 클릭하면 적을 타겟팅하지만, 전투 상황은 아닙니다. 근접한 적에 등록된 플레이어가 일정 시간이 지나도 탐지되지 않는다면 자동으로 지워집니다.
 
@@ -36,9 +28,20 @@ L["SpyDescription2"] = [[
 
 드롭다운 메뉴로 살생부 명단에 추가한 이유를 설정 할 수 있습니다. 만약 알맞은 이유가 없다면, "이유를 입력하세요..." 를 선택해 직접 작성 할 수 있습니다.
 
+|cffffd000Statistics Window|cffffffff
+The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons.
+
+|cffffd000Kill On Sight Button|cffffffff
+If enabled, this button will be located on the enemy players target frame. Clicking on this button will add/remove the enemy target to/from the Kill On Sight list. Right clicking on the button will allow you to enter Kill on Sight reasons.
+
 |cffffd000제작자: Slipjack|cffffffff
 ]]
 
+-- General Settings
+L["GeneralSettings"] = "일반 설정"
+L["GeneralSettingsDescription"] = [[
+Spy 가 활성화 또는 비활성화 된 경우에 대한 옵션입니다.
+]] 
 L["EnableSpy"] = "Spy 활성화"
 L["EnableSpyDescription"] = "Spy 활성화 또는 비활성화."
 L["EnabledInBattlegrounds"] = "전장일 때 Spy 활성화"
@@ -49,7 +52,28 @@ L["EnabledInWintergrasp"] = "대규모 전장일 때 Spy 활성화"
 L["EnabledInWintergraspDescription"] = "겨울손아귀 호수와 같은 대규모 전장일 경우 Spy를 활성화 또는 비활성화 합니다."
 L["DisableWhenPVPUnflagged"] = "PVP 상태가 아닐 때 Spy 비활성화"
 L["DisableWhenPVPUnflaggedDescription"] = "PVP 상태일 경우 Spy를 활성화 또는 비활성화 합니다."
+L["DisabledInZones"] = "Disable Spy while in these locations"
+L["DisabledInZonesDescription"]	= "Selecet locations where Spy will be disabled"
+L["Booty Bay"] = "무법항"
+L["Everlook"] = "눈망루 마을"						
+L["Gadgetzan"] = "가젯잔"
+L["Ratchet"] = "톱니항"
+L["The Salty Sailor Tavern"] = "뱃사공의 선술집"
+L["Shattrath City"] = "샤트라스"
+L["Area 52"] = "52번 구역"
+L["Dalaran"] = "달라란"
+L["Dalaran (Northrend)"] = "달라란 (노스렌드)"
+L["Bogpaddle"] = "수렁진흙탕"
+L["The Vindicaar"] = "구원호"
+L["Krasus' Landing"] = "크라서스 착륙장"
+L["The Violet Gate"] = "보랏빛 관문"
+L["Magni's Encampment"] = "마그니의 야영지"
+L["Silithus"] = "실리더스"
+L["Chamber of Heart"] = "심장의 방"
+L["Hall of Ancient Paths"] = "고대 길의 전당"
+L["Sanctum of the Sages"] = "현자의 성소"
 
+-- Display
 L["DisplayOptions"] = "디스플레이"
 L["DisplayOptionsDescription"] = [[
 Spy 창 및 툴팁 옵션.
@@ -62,8 +86,14 @@ L["ShowOnlyPvPFlagged"] = "PVP상태가 활성화 된 적 플레이어만 표시
 L["ShowOnlyPvPFlaggedDescription"] = "근접한 적 목록에 PVP상태가 활성화 된 적 플레이어만 표시하려면 체크하십시오."
 L["ShowKoSButton"] = "적 타겟 프레임에 살생부 버튼 표시"
 L["ShowKoSButtonDescription"] = "적 개체창에 살생부 버튼을 표시하려면 체크하십시오."
+L["Alpha"] = "투명도"
+L["AlphaDescription"] = "Spy 창의 투명도를 설정하십시오."
+L["AlphaBG"] = "전장의 투명성"
+L["AlphaBGDescription"] = "전장에서 Spy 창의 투명도를 설정하십시오."
 L["LockSpy"] = "Spy 창 잠금"
 L["LockSpyDescription"] = "Spy 창이 움직이지 않도록 고정합니다."
+L["ClampToScreen"] = "화면에 고정"
+L["ClampToScreenDescription"] = "Spy 창이 화면 밖으로 벗어나지 못하게 합니다"
 L["InvertSpy"] = "Spy 창 뒤집음"
 L["InvertSpyDescription"] = "Spy 창을 위아래로 뒤집습니다."
 L["Reload"] = "UI 새로고침"
@@ -87,6 +117,9 @@ L["TooltipDisplayKOSReason"] = "적 플레이어 툴팁에 살생부 이유 표�
 L["TooltipDisplayKOSReasonDescription"] = "적 플레이어 툴팁에 살생부 이유를 표시하려면 체크하십시오."
 L["TooltipDisplayLastSeen"] = "적 플레이어 툴팁에 마지막 탐지 시간 표시"
 L["TooltipDisplayLastSeenDescription"] = "적 플레이어 툴팁에 마지막으로 탐지된 시간과 위치를 표시하려면 체크하십시오."
+L["DisplayListData"] = "표시 할 적의 데이터를 선택하십시오"
+L["Name"] = "이름"
+L["Class"] = "직업"
 L["SelectFont"] = "폰트 설정"
 L["SelectFontDescription"] = "Spy 창의 폰트를 선택하세요."
 L["RowHeight"] = "열 높이 설정"
@@ -94,6 +127,7 @@ L["RowHeightDescription"] = "Spy 창의 열 높이를 설정하세요."
 L["Texture"] = "질감 배경"
 L["TextureDescription"] = "Spy 창의 질감을 선택하십시오"
 
+-- Alerts
 L["AlertOptions"] = "경고"
 L["AlertOptionsDescription"] = [[
 적 플레이어가 감지 될 때 경고, 알림 및 경고 옵션.
@@ -131,6 +165,10 @@ L["SelectWarnRaceDescription"] = "탐지할 종족을 선택합니다. 탐지시
 L["WarnRaceNote"] = "주의: 적 플레이어를 최소 한번이라도 타겟팅해야 적의 종족이 데이터베이스에 추가됩니다. 그 다음 탐지 시 소리가 재생됩니다. 근접한 적을 탐지하는 것과는 다르게 동작합니다."
 L["DisplayWarningsInErrorsFrame"] = "오류 프레임으로 경고 표시"
 L["DisplayWarningsInErrorsFrameDescription"] = "그래픽 팝업 프레임 대신 오류 프레임으로 경고를 표시하려면 체크하십시오."
+L["DisplayWarnings"] = "경고 메시지 위치 선택"
+L["Default"] = "기본 위치"
+L["ErrorFrame"] = "오류 프레임"
+L["Moveable"] = "움직일 수 있는"
 L["EnableSound"] = "경고 소리 활성화"
 L["EnableSoundDescription"] = "적 플레이어가 탐지될 때 소리를 활성화하려면 체크하십시오. 은신을 탐지할 때와 살생부 명단을 탐지할 때의 소리는 다릅니다."
 L["OnlySoundKoS"] = "살생부 명단에 한하여 경고 소리 재생"
@@ -138,6 +176,7 @@ L["OnlySoundKoSDescription"] = "살생부 명단에 있는 적 플레이어를 �
 L["StopAlertsOnTaxi"] = "비행 경로에서 알림 끄기"
 L["StopAlertsOnTaxiDescription"] = "비행 경로에서 모든 새로운 경고 및 경고를 중지."
 
+-- Nearby List
 L["ListOptions"] = "근접한 적 목록"
 L["ListOptionsDescription"] = [[
 적 플레이어를 추가하고 제거하는 방법에 대한 옵션.
@@ -160,6 +199,7 @@ L["ShowNearbyListDescription"] = "근접한 적 목록을 표시하지 않을 �
 L["PrioritiseKoS"] = "살생부 명단에 있는 근접한 적을 우선 표시"
 L["PrioritiseKoSDescription"] = "살생부 명단에 있는 적을 근접한 적 목록의 최우선으로 표시하려면 체크하십시오."
 
+-- Map
 L["MapOptions"] = "지도"
 L["MapOptionsDescription"] = [[
 아이콘 및 툴팁을 포함한 세계지도 및 미니 맵 옵션.
@@ -181,6 +221,7 @@ L["LimitSameZoneDescription"] = "같은 지역에 있는 탐지된 적만 지도
 L["LimitSameContinent"] = "같은 대륙"
 L["LimitSameContinentDescription"] = "같은 대륙에 있는 탐지된 적만 지도에 표시합니다."
 
+-- Data Management
 L["DataOptions"] = "데이터 관리"
 L["DataOptionsDescription"] = [[
 Spy 가 데이터를 유지 관리하고 수집하는 방법에 대한 옵션.
@@ -209,12 +250,15 @@ L["UseDataDescription"] = "Spy 애드온을 사용하는 파티원, 길드원, �
 L["ShareKOSBetweenCharacters"] = "캐릭터 간 살생부 공유"
 L["ShareKOSBetweenCharactersDescription"] = "같은 서버, 같은 진영의 캐릭터와 살생부로 표시한 적 플레이어를 공유하려면 체크하십시오."
 
+-- Commands
 L["SlashCommand"] = "Slash 명령어"
 L["SpySlashDescription"] = "이 버튼은 /spy 명령어와 동일한 작업을 수행합니다."
 L["Enable"] = "활성화"
 L["EnableDescription"] = "Spy를 활성화 하고 Spy 창을 띄웁니다."
 L["Show"] = "표시"
 L["ShowDescription"] = "Spy 창을 띄웁니다."
+L["Hide"] = "숨는 장소"
+L["HideDescription"] = "메인 윈도우를 숨 깁니다."
 L["Reset"] = "초기화"
 L["ResetDescription"] = "Spy 창의 외형과 위치를 초기화 합니다."
 L["ClearSlash"] = "지우기"
@@ -226,6 +270,8 @@ L["KOSDescription"] = "적 플레이어를 살생부에 추가/제거 합니다.
 L["InvalidInput"] = "잘못된 입력"
 L["Ignore"] = "제외"
 L["IgnoreDescription"] = "적 플레이어를 제외 목록에 추가/제거 합니다."
+L["Test"] = "Test"
+L["TestDescription"] = "위치를 조정할 수 있도록 경고를 표시합니다."
 
 -- Lists
 L["Nearby"] = "근접한 적"
@@ -234,6 +280,8 @@ L["Ignore"] = "제외"
 L["KillOnSight"] = "살생부"
 
 --Stats
+L["Won"] = "승"
+L["Lost"] = "패"
 L["Time"] = "시간"	
 L["List"] = "표식"
 L["Filter"] = "검색"
@@ -244,7 +292,11 @@ L["Reason"] = "이유"
 L["HonorKills"] = "명예 킬"
 L["PvPDeaths"] = "PvP 죽음"
 
--- Output messages
+-- Output Messages
+L["VersionCheck"] = "|cffc41e3a경고! 잘못된 Spy 버전이 설치되었습니다. 이 버전을 제거하고 Spy Classic 을 설치하십시오."
+L["SpyEnabled"] = "|cff9933ffSpy 애드온이 활성화되었습니다.."
+L["SpyDisabled"] = "|cff9933ffSpy 애드온이 비활성화되었습니다. |cffffffff/spy show|cff9933ff 을 입력해 활성화 시키십시오."
+L["UpgradeAvailable"] = "|cff9933ffA Spy의 새로운 버전을 사용할 수 있습니다. 다운로드 주소:\n|cffffffffhttps://www.curseforge.com/wow/addons/spy-classic"
 L["AlertStealthTitle"] = "은신한 적이 탐지되었습니다!"
 L["AlertKOSTitle"] = "살생부 명단의 적이 탐지되었습니다!"
 L["AlertKOSGuildTitle"] = "살생부 명단의 적 길드가 탐지되었습니다!"
@@ -302,6 +354,7 @@ L["StatsSeparator"] = "  "
 L["StatsLoses"] = "|cff0070dd패: "
 L["Located"] = "위치:"
 L["Yards"] = "야드"
+L["LocalDefenseChannelName"] = "수비"
 
 Spy_KOSReasonListLength = 6
 Spy_KOSReasonList = {
@@ -391,72 +444,71 @@ StaticPopupDialogs["Spy_SetKOSReasonOther"] = {
 	OnShow = function(self)
 		self.editBox:SetText("");
 	end,
-    	OnAccept = function(self)
+    OnAccept = function(self)
 		local reason = self.editBox:GetText()
 		Spy:SetKOSReason(self.playerName, "이유를 입력하세요...", reason)
 	end,
 };
 
---++ Class descriptions
---L["DEATHKNIGHT"] = "죽음의 기사"
---L["DEMONHUNTER"] = "악마사냥꾼"
+-- Class descriptions
+L["UNKNOWN"] = "미확인"
 L["DRUID"] = "드루이드"
 L["HUNTER"] = "사냥꾼"
 L["MAGE"] = "마법사"
---L["MONK"] = "수도사"
 L["PALADIN"] = "성기사"
 L["PRIEST"] = "사제"
 L["ROGUE"] = "도적"
 L["SHAMAN"] = "주술사"
 L["WARLOCK"] = "흑마법사"
 L["WARRIOR"] = "전사"
-L["UNKNOWN"] = "미확인"
+L["DEATHKNIGHT"] = "죽음의 기사"
+L["MONK"] = "수도사"
+L["DEMONHUNTER"] = "악마사냥꾼"
 
---++ Race descriptions
-L["HUMAN"] = "인간"
-L["ORC"] = "오크"
-L["DWARF"] = "드워프"
-L["NIGHT ELF"] = "나이트 엘프"
-L["UNDEAD"] = "언데드"
-L["TAUREN"] = "타우렌"
-L["GNOME"] = "노움"
-L["TROLL"] = "트롤"
-L["GOBLIN"] = "고블린"
---L["BLOOD ELF"] = "블러드 엘프"
---L["DRAENEI"] = "드레나이"
---L["WORGEN"] = "늑대인간"
---L["PANDAREN"] = "판다렌"
---L["NIGHTBORNE"] = "나이트본"
---L["HIGHMOUNTAIN TAUREN"] = "높은산 타우렌"
---L["VOID ELF"] = "공허 엘프"
---L["LIGHTFORGED DRAENEI"] = "빛벼림 드레나이"
---L["ZANDALARI TROLL"] = "잔달라 트롤"
---L["KUL TIRAN"] = "쿨 티란"
---L["DARK IRON DWARF"] = "검은무쇠 드워프"
---L["MAG'HAR ORC"] = "마그하르 오크"
+-- Race descriptions
+L["Human"] = "인간"
+L["Orc"] = "오크"
+L["Dwarf"] = "드워프"
+L["Tauren"] = "타우렌"
+L["Troll"] = "트롤"
+L["Night Elf"] = "나이트 엘프"
+L["Undead"] = "언데드"
+L["Gnome"] = "노움"
+L["Blood Elf"] = "블러드 엘프"
+L["Draenei"] = "드레나이"
+L["Goblin"] = "고블린"
+L["Worgen"] = "늑대인간"
+L["Pandaren"] = "판다렌"
+L["Highmountain Tauren"] = "높은산 타우렌"
+L["Lightforged Draenei"] = "빛벼림 드레나이"
+L["Nightborne"] = "나이트본"
+L["Void Elf"] = "공허 엘프"
+L["Dark Iron Dwarf"] = "검은무쇠 드워프"
+L["Mag'har Orc"] = "마그하르 오크"
+L["Kul Tiran"] = "쿨 티란"
+L["Zandalari Troll"] = "잔달라 트롤"
+L["Mechagnome"] = "기계노움"
+L["Vulpera"] = "불페라"
 
 -- Stealth abilities
 L["Stealth"] = "은신"
 L["Prowl"] = "숨기"
 
--- Channel names
-L["LocalDefenseChannelName"] = "수비"
-
---++ Minimap color codes
---L["MinimapClassTextDEATHKNIGHT"] = "|cffc41e3a"
---L["MinimapClassTextDEMONHUNTER"] = "|cffa330c9"
+-- Minimap color codes
+L["MinimapGuildText"] = "|cffffffff"
+L["MinimapClassTextUNKNOWN"] = "|cff191919"
 L["MinimapClassTextDRUID"] = "|cffff7c0a"
 L["MinimapClassTextHUNTER"] = "|cffaad372"
 L["MinimapClassTextMAGE"] = "|cff68ccef"
---L["MinimapClassTextMONK"] = "|cff00ff96"
 L["MinimapClassTextPALADIN"] = "|cfff48cba"
 L["MinimapClassTextPRIEST"] = "|cffffffff"
 L["MinimapClassTextROGUE"] = "|cfffff468"
 L["MinimapClassTextSHAMAN"] = "|cff2359ff"
 L["MinimapClassTextWARLOCK"] = "|cff9382c9"
 L["MinimapClassTextWARRIOR"] = "|cffc69b6d"
-L["MinimapClassTextUNKNOWN"] = "|cff191919"
-L["MinimapGuildText"] = "|cffffffff"
+L["MinimapClassTextDEATHKNIGHT"] = "|cffc41e3a"
+L["MinimapClassTextMONK"] = "|cff00ff96"
+L["MinimapClassTextDEMONHUNTER"] = "|cffa330c9"
 
 Spy_AbilityList = {
 -----------------------------------------------------------

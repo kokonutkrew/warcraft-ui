@@ -1,4 +1,4 @@
-﻿## Interface: 11302
+﻿## Interface: 11303
 ## Title: Where To Gather Classic
 ## Notes: Adds a tooltip to crafting materials to let you know where you can gather them.
 ## Author: Jack Thallon (Spiolex/Spiokra, Hellscream EU(retail)/Spiolex, Horde Mograine EU(classic))

@@ -11,8 +11,7 @@ local group_aura_name_info_types = WeakAuras.group_aura_name_info_types;
 local group_aura_stack_info_types = WeakAuras.group_aura_stack_info_types;
 
 local function getAuraMatchesLabel(name)
-  local iconCache = WeakAuras.spellCache.Get();
-  local ids = iconCache[name]
+  local ids = WeakAuras.spellCache.GetSpellsMatching(name)
   if(ids) then
     local descText = "";
     local numMatches = 0;
@@ -37,8 +36,7 @@ local function spellId_tremove(tbl, pos)
 end
 
 local function getAuraMatchesList(name)
-  local iconCache = WeakAuras.spellCache.Get();
-  local ids = iconCache[name]
+  local ids = WeakAuras.spellCache.GetSpellsMatching(name)
   if(ids) then
     local descText = "";
     for id, _ in pairs(ids) do
@@ -57,15 +55,35 @@ local function getAuraMatchesList(name)
   end
 end
 
-function WeakAuras.GetBuffConversionOptions(data, optionTriggerChoices)
-  local trigger;
-  if (not data.controlledChildren) then
-    local triggernum = optionTriggerChoices[data.id];
-    if (triggernum) then
-      trigger = data.triggers[triggernum].trigger;
-    end
-  end
+local function GetBuffTriggerOptions(data, triggernum)
+  local trigger= data.triggers[triggernum].trigger
+  local spellCache = WeakAuras.spellCache;
+  local ValidateNumeric = WeakAuras.ValidateNumeric;
   local aura_options = {
+    convertToBuffTrigger2SpaceBeforeDesc = {
+      type = "description",
+      width = 0.4,
+      order = 8.1,
+      name = "",
+    },
+    convertToBuffTrigger2Desc = {
+      type = "description",
+      width = WeakAuras.doubleWidth - 0.8,
+      order = 8.2,
+      name = function()
+        if (not WeakAuras.CanConvertBuffTrigger2) then
+          return "";
+        end
+        local _, err = WeakAuras.CanConvertBuffTrigger2(trigger);
+        return err or "";
+      end,
+    },
+    convertToBuffTrigger2SpaceAfterDesc = {
+      type = "description",
+      width = 0.4,
+      order = 8.3,
+      name = "",
+    },
     convertToBuffTrigger2SpaceBefore = {
       type = "description",
       width = 0.3,
@@ -99,23 +117,10 @@ function WeakAuras.GetBuffConversionOptions(data, optionTriggerChoices)
         return err or ""
       end,
       func = function()
-        if(data.controlledChildren) then
-          for index, childId in pairs(data.controlledChildren) do
-            local childData = WeakAuras.GetData(childId);
-            local trigger = childData.triggers[optionTriggerChoices[childId]] and childData.triggers[optionTriggerChoices[childId]].trigger;
-            if (trigger) then
-              WeakAuras.ConvertBuffTrigger2(trigger);
-              WeakAuras.Add(childData);
-              WeakAuras.ReloadTriggerOptions(childData);
-            end
-          end
-          WeakAuras.Add(data);
-          WeakAuras.ReloadTriggerOptions(data);
-        else
-          WeakAuras.ConvertBuffTrigger2(trigger);
-          WeakAuras.Add(data);
-          WeakAuras.ReloadTriggerOptions(data);
-        end
+        WeakAuras.ConvertBuffTrigger2(trigger);
+        WeakAuras.Add(data);
+        WeakAuras.UpdateDisplayButton(data)
+        WeakAuras.ClearAndUpdateOptions(data.id);
       end
     },
     convertToBuffTrigger2SpaceAfter = {
@@ -123,63 +128,8 @@ function WeakAuras.GetBuffConversionOptions(data, optionTriggerChoices)
       width = 0.3,
       order = 8.6,
       name = "",
-      hidden = function()
-        -- For those that update without restarting
-        return not WeakAuras.CanConvertBuffTrigger2
-      end,
     },
-    convertToBuffTrigger2SpaceBeforeDesc = {
-      type = "description",
-      width = 0.4,
-      order = 8.1,
-      name = "",
-      hidden = function()
-        -- For those that update without restarting
-        return not WeakAuras.CanConvertBuffTrigger2
-      end,
-    },
-    convertToBuffTrigger2Desc = {
-      type = "description",
-      width = WeakAuras.doubleWidth - 0.8,
-      order = 8.2,
-      name = function()
-        if (not WeakAuras.CanConvertBuffTrigger2) then
-          return "";
-        end
-        local _, err = WeakAuras.CanConvertBuffTrigger2(trigger);
-        return err or "";
-      end,
-      hidden = function()
-        -- For those that update without restarting
-        return not WeakAuras.CanConvertBuffTrigger2
-      end,
-    },
-    convertToBuffTrigger2SpaceAfterDesc = {
-      type = "description",
-      width = 0.4,
-      order = 8.3,
-      name = "",
-      hidden = function()
-        -- For those that update without restarting
-        return not WeakAuras.CanConvertBuffTrigger2
-      end,
-    },
-  }
-  return aura_options;
-end
 
-local function GetBuffTriggerOptions(data, optionTriggerChoices)
-  local trigger;
-  if (not data.controlledChildren) then
-    local triggernum = optionTriggerChoices[data.id];
-    if (triggernum) then
-      trigger = data.triggers[triggernum].trigger;
-    end
-  end
-
-  local spellCache = WeakAuras.spellCache;
-  local ValidateNumeric = WeakAuras.ValidateNumeric;
-  local aura_options = {
     fullscan = {
       type = "toggle",
       name = L["Use Full Scan (High CPU)"],
@@ -241,8 +191,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.name = v;
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -296,7 +245,6 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           else trigger.use_stealable = false end
         end
         WeakAuras.Add(data);
-        WeakAuras.SetIconNames(data);
       end
     },
     use_spellId = {
@@ -367,8 +315,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.name, trigger.spellId = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -403,8 +350,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[1], trigger.spellIds[1] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -446,8 +392,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[2], trigger.spellIds[2] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -489,8 +434,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[3], trigger.spellIds[3] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -531,8 +475,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[4], trigger.spellIds[4] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -574,8 +517,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[5], trigger.spellIds[5] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -617,8 +559,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[6], trigger.spellIds[6] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -660,8 +601,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[7], trigger.spellIds[7] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -703,8 +643,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[8], trigger.spellIds[8] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -746,8 +685,7 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.names[9], trigger.spellIds[9] = WeakAuras.spellCache.CorrectAuraName(v);
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.UpdateDisplayButton(data);
       end,
     },
@@ -841,8 +779,6 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
           trigger.group_count = "";
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
         WeakAuras.UpdateDisplayButton(data);
       end
     },
@@ -1090,7 +1026,14 @@ local function GetBuffTriggerOptions(data, optionTriggerChoices)
     },
 
   };
-  return aura_options;
+
+  WeakAuras.commonOptions.AddCommonTriggerOptions(aura_options, data, triggernum)
+  WeakAuras.commonOptions.AddTriggerGetterSetter(aura_options, data, triggernum)
+  WeakAuras.AddTriggerMetaFunctions(aura_options, data, triggernum)
+
+  return {
+    ["trigger." .. triggernum .. ".legacy_aura_options"] = aura_options
+  }
 end
 
 WeakAuras.RegisterTriggerSystemOptions({"aura"}, GetBuffTriggerOptions);

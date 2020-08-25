@@ -70,11 +70,11 @@ Comm.totalBroadcastR = 0;
 Comm.totalBroadcastP2PR = 0;
 
 local function broadcast(command, ...)
-	if not config_UseBroadcast() or not command then
+	if not Globals.is_classic and not config_UseBroadcast() or not command then
 		Log.log("Bad params");
 		return;
 	end
-	if not helloWorlded and command ~= HELLO_CMD then
+	if not Globals.is_classic and not helloWorlded and command ~= HELLO_CMD then
 		Log.log("Broadcast channel not yet initialized.");
 		return;
 	end
@@ -88,8 +88,12 @@ local function broadcast(command, ...)
 		message = message .. BROADCAST_SEPARATOR .. arg;
 	end
 	if message:len() < 254 then
-		local channelName = GetChannelName(config_BroadcastChannel());
-		Chomp.SendAddonMessage(BROADCAST_HEADER, message, "CHANNEL", channelName);
+		if Globals.is_classic then
+			Chomp.SendAddonMessage(BROADCAST_HEADER, message, "YELL");
+		else
+			local channelName = GetChannelName(config_BroadcastChannel());
+			Chomp.SendAddonMessage(BROADCAST_HEADER, message, "CHANNEL", channelName);
+		end
 		Comm.totalBroadcast = Comm.totalBroadcast + BROADCAST_HEADER:len() + message:len();
 	else
 		Log.log(("Trying a broadcast with a message with lenght %s. Abord !"):format(message:len()), Log.level.WARNING);
@@ -115,6 +119,17 @@ function Comm.broadcast.registerCommand(command, callback)
 		PREFIX_REGISTRATION[command] = {};
 	end
 	tinsert(PREFIX_REGISTRATION[command], callback);
+end
+
+local SetChannelPasswordOld = SetChannelPassword;
+SetChannelPassword = function(data, password)
+	if data ~= config_BroadcastChannel() or password == "" then
+		SetChannelPasswordOld(data, password);
+	else
+		-- We totally changed it :fatcat:
+		local message = loc.BROADCAST_PASSWORD:format(data);
+		Utils.message.displayMessage(message);
+	end
 end
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
@@ -222,7 +237,8 @@ local function onMessageReceived(...)
 		end
 
 		if not isIDIgnored(sender) then
-			if distributionType == "CHANNEL" and string.lower(channel) == string.lower(config_BroadcastChannel()) then
+			-- Have to test "UNKNOWN" for "YELL" addon messages because Blizzard lul
+			if distributionType == "YELL" or distributionType == "UNKNOWN" or distributionType == "CHANNEL" and string.lower(channel) == string.lower(config_BroadcastChannel()) then
 				onBroadcastReceived(message, sender, channel);
 			else
 				onP2PMessageReceived(message, sender);
@@ -268,9 +284,11 @@ local function moveBroadcastChannelToTheBottomOfTheList()
 	end
 end
 
-Ellyb.GameEvents.registerCallback("CHANNEL_UI_UPDATE", moveBroadcastChannelToTheBottomOfTheList);
-Ellyb.GameEvents.registerCallback("CHANNEL_COUNT_UPDATE", moveBroadcastChannelToTheBottomOfTheList);
-Ellyb.GameEvents.registerCallback("CHAT_MSG_CHANNEL_JOIN", moveBroadcastChannelToTheBottomOfTheList);
+if not Globals.is_classic then
+	Ellyb.GameEvents.registerCallback("CHANNEL_UI_UPDATE", moveBroadcastChannelToTheBottomOfTheList);
+	Ellyb.GameEvents.registerCallback("CHANNEL_COUNT_UPDATE", moveBroadcastChannelToTheBottomOfTheList);
+	Ellyb.GameEvents.registerCallback("CHAT_MSG_CHANNEL_JOIN", moveBroadcastChannelToTheBottomOfTheList);
+end
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 -- Init and helloWorld
@@ -281,6 +299,15 @@ Comm.broadcast.init = function()
 
 	-- First, register prefix
 	RegisterAddonMessagePrefix(BROADCAST_HEADER);
+
+	-- When we receive a broadcast or a P2P response
+	Utils.event.registerHandler("CHAT_MSG_ADDON", onMessageReceived);
+
+	-- No broadcast channel on Classic (1.13.3)
+	if Globals.is_classic then
+		TRP3_API.events.fireEvent(TRP3_API.events.BROADCAST_CHANNEL_READY);
+		return
+	end
 
 	-- Then, launch the loop
 	TRP3_API.events.listenToEvent(TRP3_API.events.WORKFLOW_ON_LOADED, function()
@@ -308,9 +335,6 @@ Comm.broadcast.init = function()
 		end
 	end);
 
-	-- When we receive a broadcast or a P2P response
-	Utils.event.registerHandler("CHAT_MSG_ADDON", onMessageReceived);
-
 	-- When someone placed a password on the channel
 	Utils.event.registerHandler("CHANNEL_PASSWORD_REQUEST", function(channel)
 		if channel == config_BroadcastChannel() then
@@ -330,6 +354,10 @@ Comm.broadcast.init = function()
 		if mode == "PASSWORD_CHANGED" and channel == config_BroadcastChannel() then
 			Utils.message.displayMessage(loc.BROADCAST_PASSWORDED:format(user, channel));
 		end
+		-- We can't do this yet, will see in 9.0 if addons don't get restricted from using channels.
+		--if mode == "OWNER_CHANGED" and user == TRP3_API.globals.player_id and channel == config_BroadcastChannel() then
+		--	SetChannelPassword(config_BroadcastChannel(), "");
+		--end
 	end);
 
 	-- When you are already in 10 channel

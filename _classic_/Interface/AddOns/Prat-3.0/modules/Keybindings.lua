@@ -26,7 +26,7 @@
 
 Prat:AddModuleToLoad(function()
 
--- Get Utility Libraries
+  -- Get Utility Libraries
   local PRAT_MODULE = Prat:RequestModuleName("KeyBindings")
 
   if PRAT_MODULE == nil then
@@ -131,12 +131,12 @@ L = {
 		["Channel %d"] = "Kanal %d",
 		["Copy Selected Chat Frame"] = "Ausgewähltes Chatfenster kopieren",
 		["Guild Channel"] = "Gildenkanal",
-		["Instance Channel"] = "Schlachtfeld-Kanal",
+		["Instance Channel"] = "Instanzkanal",
 		["module_desc"] = "Fügt chatbezogene Tastenkombinationen hinzu",
 		["Next Chat Tab"] = "Nächster Chatreiter",
 		["Officer Channel"] = "Offizierskanal",
 		["Party Channel"] = "Gruppenkanal",
-		["Prat CopyChat"] = true,
+		["Prat CopyChat"] = "Prat Chat kopieren",
 		["Prat Keybindings"] = true,
 		["Prat TellTarget"] = true,
 		["Raid Channel"] = "Schlachtzugskanal",
@@ -160,8 +160,7 @@ L = {
 		["Copy Selected Chat Frame"] = "선택한 대화창 복사",
 		["Guild Channel"] = "길드 채널",
 		["Instance Channel"] = "인스턴스 채널",
-		--[[Translation missing --]]
-		["module_desc"] = "Adds chat related keybindings",
+		["module_desc"] = "채팅 관련 단축키 추가",
 		["Next Chat Tab"] = "다음 대화 탭",
 		["Officer Channel"] = "관리자 채널",
 		["Party Channel"] = "파티 채널",
@@ -235,7 +234,7 @@ L = {
 		["Copy Selected Chat Frame"] = "Копирование выбранного окна чата",
 		["Guild Channel"] = "Канал Гильдии",
 		["Instance Channel"] = "Канал Подземелий",
-		["module_desc"] = "Добавляет привязки к чату",
+		["module_desc"] = "Добавляет привязки к чату ",
 		["Next Chat Tab"] = "Следующее окно чата",
 		["Officer Channel"] = "Офицерский Канал",
 		["Party Channel"] = "Канал Группы",
@@ -263,8 +262,7 @@ L = {
 		["Copy Selected Chat Frame"] = "复制选定的聊天框体",
 		["Guild Channel"] = "公会频道",
 		["Instance Channel"] = "战场频道",
-		--[[Translation missing --]]
-		["module_desc"] = "Adds chat related keybindings",
+		["module_desc"] = "添加聊天关联的按键绑定",
 		["Next Chat Tab"] = "下一个聊天标签",
 		["Officer Channel"] = "官员频道",
 		["Party Channel"] = "小队频道",

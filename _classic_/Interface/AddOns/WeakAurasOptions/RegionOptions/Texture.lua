@@ -100,12 +100,12 @@ local function createOptions(id, data)
 
   return {
     texture = options,
-    position = WeakAuras.PositionOptions(id, data),
+    position = WeakAuras.commonOptions.PositionOptions(id, data),
   };
 end
 
-local function createThumbnail(parent)
-  local borderframe = CreateFrame("FRAME", nil, parent);
+local function createThumbnail()
+  local borderframe = CreateFrame("FRAME", nil, UIParent);
   borderframe:SetWidth(32);
   borderframe:SetHeight(32);
 

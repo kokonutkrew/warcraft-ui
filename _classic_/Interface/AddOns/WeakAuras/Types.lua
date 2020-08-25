@@ -15,6 +15,12 @@ WeakAuras.glow_action_types = {
   hide = L["Hide"]
 }
 
+WeakAuras.glow_frame_types = {
+  UNITFRAME = L["Unit Frame"],
+  NAMEPLATE = L["Nameplate"],
+  FRAMESELECTOR = L["Frame Selector"]
+}
+
 WeakAuras.circular_group_constant_factor_types = {
   RADIUS = L["Radius"],
   SPACING = L["Spacing"]
@@ -65,9 +71,504 @@ WeakAuras.precision_types = {
   [1] = "12.3",
   [2] = "12.34",
   [3] = "12.345",
-  [4] = "Dynamic 12.3", -- will show 1 digit precision when time is lower than 3 seconds, hardcoded
-  [5] = "Dynamic 12.34" -- will show 2 digits precision when time is lower than 3 seconds, hardcoded
 }
+
+WeakAuras.big_number_types = {
+  ["AbbreviateNumbers"] = L["AbbreviateNumbers (Blizzard)"],
+  ["AbbreviateLargeNumbers"] = L["AbbreviateLargeNumbers (Blizzard)"]
+}
+
+WeakAuras.round_types = {
+  floor = L["Floor"],
+  ceil = L["Ceil"],
+  round = L["Round"]
+}
+
+WeakAuras.unit_color_types = {
+  none = L["None"],
+  class = L["Class"]
+}
+
+WeakAuras.unit_realm_name_types = {
+  never = L["Never"],
+  star = L["* Suffix"],
+  differentServer = L["Only if on a different realm"],
+  always = L["Always include realm"]
+}
+
+local simpleFormatters = {
+  AbbreviateNumbers = function(value, state)
+    return (type(value) == "number") and AbbreviateNumbers(value) or value
+  end,
+  AbbreviateLargeNumbers = function(value, state)
+    return (type(value) == "number") and AbbreviateLargeNumbers(Round(value)) or value
+  end,
+  floor = function(value)
+    return (type(value) == "number") and floor(value) or value
+  end,
+  ceil = function(value)
+    return (type(value) == "number") and ceil(value) or value
+  end,
+  round = function(value)
+    return (type(value) == "number") and Round(value) or value
+  end
+}
+
+WeakAuras.format_types = {
+  none = {
+    display = L["None"],
+    AddOptions = function() end,
+    CreateFormatter = function() end
+  },
+  timed = {
+    display = L["Time Format"],
+    AddOptions = function(symbol, hidden, addOption, get)
+      addOption(symbol .. "_time_precision", {
+        type = "select",
+        name = L["Precision"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.precision_types,
+        hidden = hidden
+      })
+      addOption(symbol .. "_time_dynamic", {
+        type = "toggle",
+        name = L["Dynamic"],
+        desc = L["Increased Precision below 3s"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden,
+        disabled = function() return get(symbol .. "_time_precision") == 0 end
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local precision = get(symbol .. "_time_precision", 1)
+      local dynamic = get(symbol .. "_time_dynamic", false)
+
+      if dynamic then
+        if precision == 1 or precision == 2 or precision == 3 then
+          precision = precision + 3
+        end
+      end
+
+      return function(value, state)
+        return WeakAuras.dynamic_texts.p.func(value, state, precision)
+      end
+    end
+  },
+  BigNumber = {
+    display = L["Big Number"],
+    AddOptions = function(symbol, hidden, addOption)
+      addOption(symbol .. "_big_number_format", {
+        type = "select",
+        name = L["Format"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.big_number_types,
+        hidden = hidden
+      })
+      addOption(symbol .. "_big_number_space", {
+        type = "description",
+        name = "",
+        width = WeakAuras.normalWidth,
+        hidden = hidden
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local format = get(symbol .. "_big_number_format", "AbbreviateNumbers")
+      if (format == "AbbreviateNumbers") then
+        return simpleFormatters.AbbreviateNumbers
+      end
+      return simpleFormatters.AbbreviateLargeNumbers
+    end
+  },
+  Number = {
+    display = L["Number"],
+    AddOptions = function(symbol, hidden, addOption, get)
+      addOption(symbol .. "_decimal_precision", {
+        type = "select",
+        name = L["Precision"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.precision_types,
+        hidden = hidden
+      })
+      addOption(symbol .. "_round_type", {
+        type = "select",
+        name = L["Round Mode"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.round_types,
+        hidden = hidden,
+        disabled = function()
+          return get(symbol .. "_decimal_precision") ~= 0
+        end
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local precision = get(symbol .. "_decimal_precision", 1)
+      if precision == 0 then
+        local type = get(symbol .. "_round_type", "floor")
+        return simpleFormatters[type]
+      else
+        local format = "%." .. precision .. "f"
+        return function(value)
+          return (type(value) == "number") and string.format(format, value) or value
+        end
+      end
+    end
+  },
+  Unit = {
+    display = L["Formats |cFFFF0000%unit|r"],
+    AddOptions = function(symbol, hidden, addOption, get)
+      addOption(symbol .. "_color", {
+        type = "select",
+        name = L["Color"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.unit_color_types,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_realm_name", {
+        type = "select",
+        name = L["Realm Name"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.unit_realm_name_types,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_abbreviate", {
+        type = "toggle",
+        name = L["Abbreviate"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_abbreviate_max", {
+        type = "range",
+        name = L["Max Char "],
+        width = WeakAuras.normalWidth,
+        hidden = hidden,
+        min = 1,
+        max = 20,
+        hidden = hidden,
+        step = 1,
+        disabled = function()
+          return not get(symbol .. "_abbreviate")
+        end
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local color = get(symbol .. "_color", true)
+      local realm = get(symbol .. "_realm_name", "never")
+      local abbreviate = get(symbol .. "_abbreviate", false)
+      local abbreviateMax = get(symbol .. "_abbreviate_max", 8)
+
+      local nameFunc
+      local colorFunc
+      local abbreviateFunc
+      if color == "class" then
+        colorFunc = function(unit, text)
+          if unit and UnitPlayerControlled(unit) then
+            return GetClassColoredTextForUnit(unit, text)
+          end
+          return text
+        end
+      end
+
+      if realm == "never" then
+        nameFunc = function(unit)
+          return unit and UnitName(unit)
+        end
+      elseif realm == "star" then
+        nameFunc = function(unit)
+          if not unit then
+            return ""
+          end
+          local name, realm = UnitName(unit)
+          if realm then
+            return name .. "*"
+          end
+          return name
+        end
+      elseif realm == "differentServer" then
+        nameFunc = function(unit)
+          if not unit then
+            return ""
+          end
+          local name, realm = UnitName(unit)
+          if realm then
+            return name .. "-" .. realm
+          end
+          return name
+        end
+      elseif realm == "always" then
+        nameFunc = function(unit)
+          if not unit then
+            return ""
+          end
+          local name, realm = WeakAuras.UnitNameWithRealm(unit)
+          return name .. "-" .. realm
+        end
+      end
+
+      if abbreviate then
+        abbreviateFunc = function(input)
+          return WeakAuras.WA_Utf8Sub(input, abbreviateMax)
+        end
+      end
+
+      -- Do the checks on what is necessary here instead of inside the returned
+      -- formatter
+      if colorFunc then
+        if abbreviateFunc then
+          return function(unit)
+            local name = abbreviateFunc(nameFunc(unit))
+            return colorFunc(unit, name)
+          end
+        else
+          return function(unit)
+            local name = nameFunc(unit)
+            return colorFunc(unit, name)
+          end
+        end
+      else
+        if abbreviateFunc then
+          return function(unit)
+            local name = nameFunc(unit)
+            return abbreviateFunc(name)
+          end
+        else
+          return nameFunc
+        end
+      end
+    end
+  },
+  guid = {
+    display = L["Formats Player's |cFFFF0000%guid|r"],
+    AddOptions = function(symbol, hidden, addOption, get)
+      addOption(symbol .. "_color", {
+        type = "select",
+        name = L["Color"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.unit_color_types,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_realm_name", {
+        type = "select",
+        name = L["Realm Name"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.unit_realm_name_types,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_abbreviate", {
+        type = "toggle",
+        name = L["Abbreviate"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden,
+      })
+      addOption(symbol .. "_abbreviate_max", {
+        type = "range",
+        name = L["Max Char "],
+        width = WeakAuras.normalWidth,
+        hidden = hidden,
+        min = 1,
+        max = 20,
+        hidden = hidden,
+        disabled = function()
+          return not get(symbol .. "_abbreviate")
+        end
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local color = get(symbol .. "_color", true)
+      local realm = get(symbol .. "_realm_name", "never")
+      local abbreviate = get(symbol .. "_abbreviate", false)
+      local abbreviateMax = get(symbol .. "_abbreviate_max", 8)
+
+      local nameFunc
+      local colorFunc
+      local abbreviateFunc
+      if color == "class" then
+        colorFunc = function(class, text)
+          if class then
+            return RAID_CLASS_COLORS[class]:WrapTextInColorCode(text)
+          else
+            return text
+          end
+        end
+      end
+
+      if realm == "never" then
+        nameFunc = function(name, realm)
+          return name
+        end
+      elseif realm == "star" then
+        nameFunc = function(name, realm)
+          if realm ~= "" then
+            return name .. "*"
+          end
+          return name
+        end
+      elseif realm == "differentServer" then
+        nameFunc = function(name, realm)
+          if realm ~= "" then
+            return name .. "-" .. realm
+          end
+          return name
+        end
+      elseif realm == "always" then
+        nameFunc = function(name, realm)
+          if realm == "" then
+            realm = select(2, WeakAuras.UnitNameWithRealm("player"))
+          end
+          return name .. "-" .. realm
+        end
+      end
+
+      if abbreviate then
+        abbreviateFunc = function(input)
+          return WeakAuras.WA_Utf8Sub(input, abbreviateMax)
+        end
+      end
+
+      -- Do the checks on what is necessary here instead of inside the returned
+      -- formatter
+      if colorFunc then
+        if abbreviateFunc then
+          return function(guid)
+            local ok, _, class, _, _, _, name, realm = pcall(GetPlayerInfoByGUID, guid)
+            if ok then
+              local name = abbreviateFunc(nameFunc(name, realm))
+              return colorFunc(class, name)
+            end
+          end
+        else
+          return function(guid)
+            local ok, _, class, _, _, _, name, realm = pcall(GetPlayerInfoByGUID, guid)
+            if ok then
+              return colorFunc(class, nameFunc(name, realm))
+            end
+          end
+        end
+      else
+        if abbreviateFunc then
+          return function(guid)
+            local ok, _, class, _, _, _, name, realm = pcall(GetPlayerInfoByGUID, guid)
+            if ok then
+              return abbreviateFunc(nameFunc(name, realm))
+            end
+          end
+        else
+          return function(guid)
+            local ok, _, class, _, _, _, name, realm = pcall(GetPlayerInfoByGUID, guid)
+            if ok then
+              return nameFunc(name, realm)
+            end
+          end
+        end
+      end
+    end
+  },
+  GCDTime = {
+    display = L["Time in GCDs"],
+    AddOptions = function(symbol, hidden, addOption, get)
+      addOption(symbol .. "_gcd_gcd", {
+        type = "toggle",
+        name = L["Subtract GCD"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden
+      })
+      addOption(symbol .. "_gcd_cast", {
+        type = "toggle",
+        name = L["Subtract Cast"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden
+      })
+      addOption(symbol .. "_gcd_channel", {
+        type = "toggle",
+        name = L["Subtract Channel"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden
+      })
+      addOption(symbol .. "_gcd_hide_zero", {
+        type = "toggle",
+        name = L["Hide 0 cooldowns"],
+        width = WeakAuras.normalWidth,
+        hidden = hidden
+      })
+
+      addOption(symbol .. "_decimal_precision", {
+        type = "select",
+        name = L["Precision"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.precision_types,
+        hidden = hidden
+      })
+      addOption(symbol .. "_round_type", {
+        type = "select",
+        name = L["Round Mode"],
+        width = WeakAuras.normalWidth,
+        values = WeakAuras.round_types,
+        hidden = hidden,
+        disabled = function()
+          return get(symbol .. "_decimal_precision") ~= 0
+        end
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local gcd = get(symbol .. "_gcd_gcd", true)
+      local cast = get(symbol .. "_gcd_cast", false)
+      local channel = get(symbol .. "_gcd_channel", false)
+      local hideZero = get(symbol .. "_gcd_hide_zero", false)
+      local precision = get(symbol .. "_decimal_precision", 1)
+
+      local numberToStringFunc
+      if precision ~= 0 then
+        local format = "%." .. precision .. "f"
+        numberToStringFunc = function(number)
+          return string.format(format, number)
+        end
+      else
+        local type = get(symbol .. "_round_type", "ceil")
+        numberToStringFunc = simpleFormatters[type]
+      end
+
+      return function(value, state)
+        if state.progressType ~= "timed" or type(value) ~= "number" then
+          return value
+        end
+
+        WeakAuras.WatchGCD()
+        local result = value
+        local now = GetTime()
+        if gcd then
+          local gcdDuration, gcdExpirationTime = WeakAuras.GetGCDInfo()
+          if gcdDuration ~= 0 then
+            result = now + value - gcdExpirationTime
+          end
+        end
+
+        if cast then
+          local _, _, _, _, endTime = WeakAuras.UnitCastingInfo("player")
+          local castExpirationTIme = endTime and endTime > 0 and (endTime / 1000) or 0
+          if castExpirationTIme > 0 then
+            result = min(result, now + value - castExpirationTIme)
+          end
+        end
+        if channel then
+          local _, _, _, _, endTime = WeakAuras.UnitChannelInfo("player")
+          local castExpirationTIme = endTime and endTime > 0 and (endTime / 1000) or 0
+          if castExpirationTIme > 0 then
+            result = min(result, now + value - castExpirationTIme)
+          end
+        end
+
+        if result <= 0 then
+          return hideZero and "" or "0"
+        end
+
+        return numberToStringFunc(result / WeakAuras.CalculatedGcdDuration())
+      end
+    end
+  }
+}
+
+WeakAuras.format_types_display = {}
+for k, v in pairs(WeakAuras.format_types) do WeakAuras.format_types_display[k] = v.display end
+
 
 WeakAuras.sound_channel_types = {
   Master = L["Master"],
@@ -137,7 +638,9 @@ WeakAuras.unit_types_bufftrigger_2 = {
   player = L["Player"],
   target = L["Target"],
   focus = L["Focus"],
-  group = L["Group"],
+  group = L["Smart Group"],
+  raid = L["Raid"],
+  party = L["Party"],
   boss = L["Boss"],
   arena = L["Arena"],
   nameplate = L["Nameplate"],
@@ -158,7 +661,9 @@ WeakAuras.actual_unit_types_cast = {
   player = L["Player"],
   target = L["Target"],
   focus = L["Focus"],
-  group = L["Group"],
+  group = L["Smart Group"],
+  party = L["Party"],
+  raid = L["Raid"],
   boss = L["Boss"],
   arena = L["Arena"],
   nameplate = L["Nameplate"],
@@ -178,6 +683,13 @@ WeakAuras.threat_unit_types = {
   focus = L["Focus"],
   member = L["Specific Unit"],
   none = L["At Least One Enemy"]
+}
+
+WeakAuras.unit_types_range_check = {
+  target = L["Target"],
+  focus = L["Focus"],
+  pet = L["Pet"],
+  member = L["Specific Unit"]
 }
 
 WeakAuras.unit_threat_situation_types = {
@@ -217,8 +729,7 @@ do
     [20] = true,
     [21] = true,
     [23] = true,
-    [33] = true,
-    [35] = true
+    [33] = true
   }
   local raceID = 1
   local raceInfo = C_CreatureInfo.GetRaceInfo(raceID)
@@ -307,6 +818,13 @@ WeakAuras.default_types_for_anchor["ALL"] = {
   type = "area"
 }
 
+WeakAuras.aurabar_anchor_areas = {
+  icon = L["Icon"],
+  fg = L["Foreground"],
+  bg = L["Background"],
+  bar = L["Bar"],
+}
+
 WeakAuras.inverse_point_types = {
   BOTTOMLEFT = "TOPRIGHT",
   BOTTOM = "TOP",
@@ -324,16 +842,16 @@ WeakAuras.anchor_frame_types = {
   PRD = L["Personal Resource Display"],
   MOUSE = L["Mouse Cursor"],
   SELECTFRAME = L["Select Frame"],
+  NAMEPLATE = WeakAuras.newFeatureString..L["Nameplates"],
+  UNITFRAME = WeakAuras.newFeatureString..L["Unit Frames"],
   CUSTOM = WeakAuras.newFeatureString..L["Custom"]
 }
 
-WeakAuras.anchor_frame_types_dynamicgroup = {
+WeakAuras.anchor_frame_types_group = {
   SCREEN = L["Screen/Parent Group"],
   PRD = L["Personal Resource Display"],
   MOUSE = L["Mouse Cursor"],
   SELECTFRAME = L["Select Frame"],
-  NAMEPLATE = WeakAuras.newFeatureString..L["Nameplates"],
-  UNITFRAME = WeakAuras.newFeatureString..L["Unit Frames"],
   CUSTOM = WeakAuras.newFeatureString..L["Custom"]
 }
 
@@ -347,6 +865,13 @@ WeakAuras.spark_hide_types = {
   FULL  = L["Full"],
   EMPTY = L["Empty"],
   BOTH  = L["Full/Empty"]
+}
+
+WeakAuras.tick_placement_modes = {
+  AtValue = L["At Value"],
+  AtMissingValue = L["At missing Value"],
+  AtPercent = L["At Percent"],
+  ValueOffset = L["Offset from progress"]
 }
 
 WeakAuras.containment_types = {
@@ -399,7 +924,10 @@ WeakAuras.subevent_prefix_types = {
   DAMAGE_SHIELD_MISSED = L["Damage Shield Missed"],
   PARTY_KILL = L["Party Kill"],
   UNIT_DIED = L["Unit Died"],
-  UNIT_DESTROYED = L["Unit Destroyed"]
+  UNIT_DESTROYED = L["Unit Destroyed"],
+  UNIT_DISSIPATES = L["Unit Dissipates"],
+  ENCHANT_APPLIED = L["Enchant Applied"],
+  ENCHANT_REMOVED = L["Enchant Removed"]
 }
 
 WeakAuras.subevent_actual_prefix_types = {
@@ -504,6 +1032,20 @@ WeakAuras.environmental_types = {
 WeakAuras.combatlog_flags_check_type = {
   InGroup = L["In Group"],
   NotInGroup = L["Not in Group"]
+}
+
+WeakAuras.combatlog_flags_check_reaction = {
+  Hostile = L["Hostile"],
+  Neutral = L["Neutral"],
+  Friendly = L["Friendly"]
+}
+
+WeakAuras.combatlog_flags_check_object_type = {
+  Object = L["Object"],
+  Guardian = L["Guardian"],
+  Pet = L["Pet"],
+  NPC = L["NPC"],
+  Player = L["Player"]
 }
 
 WeakAuras.combatlog_raid_mark_check_type = {
@@ -929,15 +1471,24 @@ WeakAuras.texture_types = {
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border"] = "Square with Border",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite"] = "Full White Square",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Triangle45"] = "45° Triangle",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Trapezoid"] = "Trapezoid",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\triangle-border.tga"] = "Triangle with Border",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\triangle.tga"] = "Triangle",
-    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Circle_Smooth2.tga"] = "Smoohth Circle Small",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Circle_Smooth2.tga"] = "Smooth Circle Small",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\circle_border5.tga"] = "Circle Border",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\ring_glow3.tga"] = "Circle Border Glow",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\square_mini.tga"] = "Small Square",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\target_indicator.tga"] = "Target Indicator",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\target_indicator_glow.tga"] = "Target Indicator Glow",
     ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\arrows_target.tga"] = "Arrows Target",
+
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Circle_AlphaGradient_In.tga"] = "Circle Alpha Gradient In",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Circle_AlphaGradient_Out.tga"] = "Circle Alpha Gradient Out",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Ring_10px.tga"] = "Ring 10px",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Ring_20px.tga"] = "Ring 20px",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Ring_30px.tga"] = "Ring 30px",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Ring_40px.tga"] = "Ring 40px",
+    ["Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_AlphaGradient.tga"] = "Square Alpha Gradient",
   },
   ["Sparks"] = {
     ["130877"] = "Blizzard Spark",
@@ -947,6 +1498,16 @@ WeakAuras.texture_types = {
     ["Legionfall_BarSpark"]= "Blizzard Legionfall Spark",
     ["honorsystem-bar-spark"] = "Blizzard Honor System Spark",
     ["bonusobjectives-bar-spark"] = "Bonus Objectives Spark"
+  },
+  [BINDING_HEADER_RAID_TARGET] = {
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_1"] = RAID_TARGET_1,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_2"] = RAID_TARGET_2,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_3"] = RAID_TARGET_3,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_4"] = RAID_TARGET_4,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_5"] = RAID_TARGET_5,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_6"] = RAID_TARGET_6,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_7"] = RAID_TARGET_7,
+    ["Interface\\TargetingFrame\\UI-RaidTargetingIcon_8"] = RAID_TARGET_8,
   }
 }
 local BuildInfo = select(4, GetBuildInfo())
@@ -1013,8 +1574,8 @@ if(WeakAuras.PowerAurasPath ~= "") then
     [WeakAuras.PowerAurasPath.."Aura27"] = "Alert",
     [WeakAuras.PowerAurasPath.."Aura29"] = "Paw",
     [WeakAuras.PowerAurasPath.."Aura30"] = "Bull",
-    --   [WeakAuras.PowerAurasPath.."Aura31"] = "Heiroglyphics Horizontal",
-    [WeakAuras.PowerAurasPath.."Aura32"] = "Heiroglyphics",
+    --   [WeakAuras.PowerAurasPath.."Aura31"] = "Hieroglyphics Horizontal",
+    [WeakAuras.PowerAurasPath.."Aura32"] = "Hieroglyphics",
     [WeakAuras.PowerAurasPath.."Aura34"] = "Circled Arrow",
     [WeakAuras.PowerAurasPath.."Aura35"] = "Short Sword",
     --   [WeakAuras.PowerAurasPath.."Aura36"] = "Short Sword Horizontal",
@@ -1056,7 +1617,7 @@ if(WeakAuras.PowerAurasPath ~= "") then
     --   [WeakAuras.PowerAurasPath.."Aura111"] = "Hunter's Mark Horizontal",
     [WeakAuras.PowerAurasPath.."Aura112"] = "Kaleidoscope",
     [WeakAuras.PowerAurasPath.."Aura113"] = "Jesus Face",
-    [WeakAuras.PowerAurasPath.."Aura114"] = "Green Mushrrom",
+    [WeakAuras.PowerAurasPath.."Aura114"] = "Green Mushroom",
     [WeakAuras.PowerAurasPath.."Aura115"] = "Red Mushroom",
     [WeakAuras.PowerAurasPath.."Aura116"] = "Fire Flower",
     [WeakAuras.PowerAurasPath.."Aura117"] = "Radioactive",
@@ -1129,7 +1690,7 @@ if(WeakAuras.PowerAurasPath ~= "") then
     [WeakAuras.PowerAurasPath.."Aura39"] = "Silence",
     [WeakAuras.PowerAurasPath.."Aura40"] = "Root",
     [WeakAuras.PowerAurasPath.."Aura41"] = "Disorient",
-    [WeakAuras.PowerAurasPath.."Aura42"] = "Dispell",
+    [WeakAuras.PowerAurasPath.."Aura42"] = "Dispel",
     [WeakAuras.PowerAurasPath.."Aura43"] = "Danger",
     [WeakAuras.PowerAurasPath.."Aura44"] = "Buff",
     [WeakAuras.PowerAurasPath.."Aura44"] = "Buff",
@@ -1271,6 +1832,29 @@ WeakAuras.anim_types = {
   custom = L["Custom"]
 }
 
+WeakAuras.anim_ease_types = {
+  none = L["None"],
+  easeIn = L["Ease In"],
+  easeOut = L["Ease Out"],
+  easeOutIn = L["Ease In and Out"]
+}
+
+WeakAuras.anim_ease_functions = {
+  none = function(percent) return percent end,
+  easeIn = function(percent, power)
+    return percent ^ power;
+  end,
+  easeOut = function(percent, power)
+    return 1.0 - (1.0 - percent) ^ power;
+  end,
+  easeOutIn = function(percent, power)
+    if percent < .5 then
+        return (percent * 2.0) ^ power * .5;
+    end
+    return 1.0 - ((1.0 - percent) * 2.0) ^ power * .5;
+  end
+}
+
 WeakAuras.anim_translate_types = {
   straightTranslate = L["Normal"],
   circle = L["Circle"],
@@ -1347,6 +1931,16 @@ WeakAuras.role_types = {
   HEALER = INLINE_HEALER_ICON.." "..HEALER
 }
 
+WeakAuras.classification_types = {
+  worldboss = L["World Boss"],
+  rareelite = L["Rare Elite"],
+  elite = L["Elite"],
+  rare = L["Rare"],
+  normal = L["Normal"],
+  trivial = L["Trivial (Low Level)"],
+  minus = L["Minus (Small Nameplate)"]
+}
+
 WeakAuras.anim_start_preset_types = {
   slidetop = L["Slide from Top"],
   slideleft = L["Slide from Left"],
@@ -1356,7 +1950,8 @@ WeakAuras.anim_start_preset_types = {
   shrink = L["Grow"],
   grow = L["Shrink"],
   spiral = L["Spiral"],
-  bounceDecay = L["Bounce"]
+  bounceDecay = L["Bounce"],
+  starShakeDecay = L["Star Shake"],
 }
 
 WeakAuras.anim_main_preset_types = {
@@ -1382,7 +1977,8 @@ WeakAuras.anim_finish_preset_types = {
   shrink = L["Shrink"],
   grow =L["Grow"],
   spiral = L["Spiral"],
-  bounceDecay = L["Bounce"]
+  bounceDecay = L["Bounce"],
+  starShakeDecay = L["Star Shake"],
 };
 
 WeakAuras.chat_message_types = {
@@ -1413,7 +2009,6 @@ WeakAuras.chat_message_types = {
 
 WeakAuras.send_chat_message_types = {
   WHISPER = L["Whisper"],
-  CHANNEL = L["Channel"],
   SAY = L["Say"],
   EMOTE = L["Emote"],
   YELL = L["Yell"],
@@ -1589,6 +2184,11 @@ WeakAuras.pet_behavior_types = {
   assist = PET_MODE_ASSIST
 }
 
+if WeakAuras.IsClassic() then
+  WeakAuras.pet_behavior_types.aggressive = PET_MODE_AGGRESSIVE
+  WeakAuras.pet_behavior_types.assist = nil
+end
+
 if not WeakAuras.IsClassic() then
   WeakAuras.pet_spec_types = {
     [1] = select(2, GetSpecializationInfoByID(74)), -- Ferocity
@@ -1630,25 +2230,10 @@ WeakAuras.bufftrigger_2_preferred_match_types =
   showHighest = L["Most remaining time"]
 }
 
-WeakAuras.bufftrigger_2_combine_types = {
-  showLowest = L["Show lowest time left"],
-  showHighest = L["Show longest time left"],
-  showClones = L["Show all Matches"]
-}
-
 WeakAuras.bufftrigger_2_per_unit_mode = {
   affected = L["Affected"],
   unaffected = L["Unaffected"],
   all = L["All"]
-}
-
-WeakAuras.bufftrigger_2_combine_group_types = {
-  showLowest = L["Show lowest time left over all units"],
-  showHighest = L["Show longest time left over all units"],
-  showClones = L["Show all Matches from all Units"],
-  showLowestPerUnit = L["Show lowest time left per unit"],
-  showHighestPerUnit = L["Show longest time left per unit"],
-  showCombineAll = L["Combine all matches"],
 }
 
 WeakAuras.item_slot_types = {
@@ -1666,6 +2251,8 @@ WeakAuras.item_slot_types = {
   [13] = TRINKET0SLOT_UNIQUE,
   [14] = TRINKET1SLOT_UNIQUE,
   [15] = BACKSLOT,
+  [16] = MAINHANDSLOT,
+  [17] = SECONDARYHANDSLOT,
   [19] = TABARDSLOT
 }
 
@@ -1695,27 +2282,19 @@ WeakAuras.absorb_modes = {
   OVERLAY_FROM_END = L["Attach to End"]
 }
 
-WeakAuras.mythic_plus_affixes = {
-  [2] = true,
-  [3] = true,
-  [4] = true,
-  [5] = true,
-  [6] = true,
-  [7] = true,
-  [8] = true,
-  [9] = true,
-  [10] = true,
-  [11] = true,
-  [12] = true,
-  [13] = true,
-  [14] = true,
-  [16] = true,
-  [117] = true -- Reaping
+WeakAuras.mythic_plus_affixes = {}
+
+local mythic_plus_ignorelist = {
+  [1] = true,
+  [15] = true
 }
 
 if not WeakAuras.IsClassic() then
-  for k in pairs(WeakAuras.mythic_plus_affixes) do
-    WeakAuras.mythic_plus_affixes[k] = C_ChallengeMode.GetAffixInfo(k);
+  for i = 1, 255 do
+    local r = not mythic_plus_ignorelist[i] and C_ChallengeMode.GetAffixInfo(i)
+    if r then
+      WeakAuras.mythic_plus_affixes[i] = r
+    end
   end
 end
 
@@ -1833,15 +2412,24 @@ WeakAuras.update_categories = {
   },
 }
 
+-- fields that are handled as special cases when importing
+-- mismatch of internal fields is not counted as a difference
 WeakAuras.internal_fields = {
   uid = true,
-  controlledChildren = true,
-  parent = true,
   internalVersion = true,
   sortHybridTable = true,
+}
+
+-- fields that are not included in exported data
+-- these represent information which is only meaningful inside the db,
+-- or are represented in other ways in exported
+WeakAuras.non_transmissable_fields = {
+  controlledChildren = true,
+  parent = true,
   authorMode = true,
   skipWagoUpdate = true,
-  ignoreWagoUpdate = true
+  ignoreWagoUpdate = true,
+  preferToUpdate = true,
 }
 
 WeakAuras.data_stub = {
@@ -1882,14 +2470,20 @@ WeakAuras.data_stub = {
     start = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
     main = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
     finish = {
       type = "none",
       duration_type = "seconds",
+      easeType = "none",
+      easeStrength = 3,
     },
   },
   conditions = {},
@@ -1978,6 +2572,7 @@ WeakAuras.author_option_fields = {
   header = {
     useName = false,
     text = "",
+    noMerge = false
   },
   group = {
     groupType = "simple",
@@ -1985,8 +2580,24 @@ WeakAuras.author_option_fields = {
     collapse = false,
     limitType = "none",
     size = 10,
+    nameSource = 0,
+    hideReorder = true,
+    entryNames = nil, -- handled as a special case in code
     subOptions = {},
   }
+}
+
+WeakAuras.array_entry_name_types = {
+  [-1] = L["Fixed Names"],
+  [0] = L["Entry Order"],
+  -- the rest is auto-populated with indices which are valid entry name sources
+}
+
+WeakAuras.name_source_option_types = {
+  -- option types which can be used to generate entry names on arrays
+  input = true,
+  number = true,
+  range = true,
 }
 
 WeakAuras.group_limit_types = {
@@ -2045,7 +2656,7 @@ WeakAuras.difficulty_info = {
     size = "scenario",
     difficulty = "normal",
   },
-  nil, -- 13 is unused
+  -- 13 is unused
   [14] = {
     size = "flexible",
     difficulty = "normal",
@@ -2073,6 +2684,10 @@ WeakAuras.difficulty_info = {
   [33] = {
     size = "flexible",
     difficulty = "timewalking",
+  },
+  [148] = {
+    size = "twenty",
+    difficulty = "normal",
   },
 }
 
@@ -2102,17 +2717,35 @@ WeakAuras.multiUnitId = {
   ["boss"] = true,
   ["arena"] = true,
   ["group"] = true,
+  ["party"] = true,
+  ["raid"] = true,
 }
+
+WeakAuras.multiUnitUnits = {
+  ["nameplate"] = {},
+  ["boss"] = {},
+  ["arena"] = {},
+  ["group"] = {},
+  ["party"] = {},
+  ["raid"] = {}
+}
+
+WeakAuras.multiUnitUnits.group["player"] = true
+WeakAuras.multiUnitUnits.party["player"] = true
 
 for i = 1, 4 do
   WeakAuras.baseUnitId["party"..i] = true
   WeakAuras.baseUnitId["partypet"..i] = true
+  WeakAuras.multiUnitUnits.group["party"..i] = true
+  WeakAuras.multiUnitUnits.party["party"..i] = true
 end
 
 if not WeakAuras.IsClassic() then
-  for i = 1, 5 do
+  for i = 1, MAX_BOSS_FRAMES do
     WeakAuras.baseUnitId["arena"..i] = true
     WeakAuras.baseUnitId["boss"..i] = true
+    WeakAuras.multiUnitUnits.arena["arena"..i] = true
+    WeakAuras.multiUnitUnits.boss["boss"..i] = true
   end
 end
 
@@ -2120,6 +2753,9 @@ for i = 1, 40 do
   WeakAuras.baseUnitId["raid"..i] = true
   WeakAuras.baseUnitId["raidpet"..i] = true
   WeakAuras.baseUnitId["nameplate"..i] = true
+  WeakAuras.multiUnitUnits.nameplate["nameplate"..i] = true
+  WeakAuras.multiUnitUnits.group["raid"..i] = true
+  WeakAuras.multiUnitUnits.raid["raid"..i] = true
 end
 
 WeakAuras.dbm_types = {
@@ -2166,14 +2802,22 @@ WeakAuras.reset_ranged_swing_spells = {
 if WeakAuras.IsClassic() then
   WeakAuras.baseUnitId.focus = nil
   WeakAuras.baseUnitId.vehicle = nil
+  WeakAuras.multiUnitId.boss = nil
+  WeakAuras.multiUnitId.arena = nil
+  wipe(WeakAuras.multiUnitUnits.boss)
+  wipe(WeakAuras.multiUnitUnits.arena)
   WeakAuras.unit_types.focus = nil
   WeakAuras.unit_types_bufftrigger_2.focus = nil
+  WeakAuras.unit_types_bufftrigger_2.boss = nil
+  WeakAuras.unit_types_bufftrigger_2.arena = nil
   WeakAuras.actual_unit_types_with_specific.focus = nil
+  WeakAuras.actual_unit_types_cast.boss = nil
+  WeakAuras.actual_unit_types_cast.arena = nil
   WeakAuras.actual_unit_types_cast.focus = nil
   WeakAuras.actual_unit_types.focus = nil
+  WeakAuras.unit_types_range_check.focus = nil
+  WeakAuras.threat_unit_types.focus = nil
   WeakAuras.item_slot_types[0] = AMMOSLOT
-  WeakAuras.item_slot_types[16] = MAINHANDSLOT
-  WeakAuras.item_slot_types[17] = SECONDARYHANDSLOT
   WeakAuras.item_slot_types[18] = RANGEDSLOT
 
   local reset_swing_spell_list = {

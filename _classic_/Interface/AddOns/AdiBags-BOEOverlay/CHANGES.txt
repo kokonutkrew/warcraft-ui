@@ -1,0 +1,10 @@
+lightweight tag d68d3203801c348562d21ecf3f1a774847e97bc0 v1.1
+Author:	Andrew Potter <apottere@gmail.com>
+Date:	Sun Nov 17 23:56:14 2019 -0500
+
+commit d68d3203801c348562d21ecf3f1a774847e97bc0
+Author: Andrew Potter <apottere@gmail.com>
+Date:   Sun Nov 17 23:56:14 2019 -0500
+
+    Use icon instead of words
+

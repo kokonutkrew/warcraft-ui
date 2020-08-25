@@ -1,7 +1,6 @@
 # HonorSpy
 
-## [1.4.4](https://github.com/kakysha/HonorSpy/tree/1.4.4) (2019-11-20)
-[Full Changelog](https://github.com/kakysha/HonorSpy/compare/1.4.3...1.4.4)
+## [1.7.7](https://github.com/kakysha/HonorSpy/tree/1.7.7) (2020-08-02)
+[Full Changelog](https://github.com/kakysha/HonorSpy/compare/1.7.6...1.7.7) [Previous Releases](https://github.com/kakysha/HonorSpy/releases)
 
-- 1.4.4  
-- Fix DR for titles with 2+ words in them  
+- possible fix #147, 1.7.7  

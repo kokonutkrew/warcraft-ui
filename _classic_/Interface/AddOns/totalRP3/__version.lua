@@ -24,7 +24,7 @@ local _, TRP3_API = ...;
 
 --- Build version, based on Git revision number (ex: 1723)
 --@non-debug@
-TRP3_API.BUILD_NUMBER = 81;
+TRP3_API.BUILD_NUMBER = 95;
 --@end-non-debug@
 
 --[===[@debug@
@@ -33,11 +33,11 @@ TRP3_API.BUILD_NUMBER = -1;
 
 --- Display version, based on the build tag (ex: 1.5.2)
 --@non-debug@
-TRP3_API.VERSION_DISPLAY = "1.6.7.1";
+TRP3_API.VERSION_DISPLAY = "1.6.14";
 --@end-non-debug@
 --[===[@debug@
 TRP3_API.VERSION_DISPLAY = "-dev";
 --@end-debug@]===]
 
 --- Legacy version number (we keep it for now, it should go in the long term)
-TRP3_API.LEGACY_VERSION = 79;
+TRP3_API.LEGACY_VERSION = 86;

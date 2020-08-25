@@ -6,8 +6,46 @@ local GetAtlasInfo = WeakAuras.IsClassic() and GetAtlasInfo or C_Texture.GetAtla
 
 WeakAuras.regionPrototype = {};
 
--- Alpha
 
+local SubRegionEventSystem =
+{
+  ClearSubscribers = function(self)
+    self.events = {}
+  end,
+
+  AddSubscriber = function(self, event, subRegion)
+    if not subRegion[event] then
+      print("Can't register subregion for ", event, " ", subRegion.type)
+      return
+    end
+
+    self.events[event] = self.events[event] or {}
+    tinsert(self.events[event], subRegion)
+  end,
+
+  RemoveSubscriber = function(self, event, subRegion)
+    tremove(self.events[event], tIndexOf(self.events[event], subRegion))
+  end,
+
+  Notify = function(self, event, ...)
+    if self.events[event] then
+      for _, subRegion in ipairs(self.events[event]) do
+        subRegion[event](subRegion, ...)
+      end
+    end
+  end
+}
+
+local function CreateSubRegionEventSystem()
+  local system = {}
+  for f, func in pairs(SubRegionEventSystem) do
+    system[f] = func
+    system.events = {}
+  end
+  return system
+end
+
+-- Alpha
 function WeakAuras.regionPrototype.AddAlphaToDefault(default)
   default.alpha = 1.0;
 end
@@ -29,14 +67,13 @@ function WeakAuras.regionPrototype.AddAdjustedDurationOptions(options, data, ord
   };
 
   options.adjustedMin = {
-    type = "range",
+    type = "input",
+    validate = WeakAuras.ValidateNumericOrPercent,
     width = WeakAuras.normalWidth,
-    min = 0,
-    softMax = 200,
-    bigStep = 1,
     order = order + 0.01,
     name = L["Minimum"],
     hidden = function() return not data.useAdjustededMin end,
+    desc = L["Enter static or relative values with %"]
   };
 
   options.useAdjustedMinSpacer = {
@@ -56,14 +93,13 @@ function WeakAuras.regionPrototype.AddAdjustedDurationOptions(options, data, ord
   };
 
   options.adjustedMax = {
-    type = "range",
+    type = "input",
     width = WeakAuras.normalWidth,
-    min = 0,
-    softMax = 200,
-    bigStep = 1,
+    validate = WeakAuras.ValidateNumericOrPercent,
     order = order + 0.04,
     name = L["Maximum"],
     hidden = function() return not data.useAdjustededMax end,
+    desc = L["Enter static or relative values with %"]
   };
 
   options.useAdjustedMaxSpacer = {
@@ -82,7 +118,7 @@ local screenWidth, screenHeight = math.ceil(GetScreenWidth() / 20) * 20, math.ce
 function WeakAuras.GetAnchorsForData(parentData, type)
   local result
   if not parentData.controlledChildren then
-    if not WeakAuras.regionOptions[parentData.regionType].getAnchors then
+    if not WeakAuras.regionOptions[parentData.regionType] or not WeakAuras.regionOptions[parentData.regionType].getAnchors then
       return
     end
 
@@ -107,7 +143,10 @@ function WeakAuras.regionPrototype:AnchorSubRegion(subRegion, anchorType, selfPo
                        self, WeakAuras.point_types[anchorPoint] and anchorPoint or "CENTER",
                        xOffset, yOffset)
   else
-    subRegion:SetAllPoints(self)
+    anchorXOffset = anchorXOffset or 0
+    anchorYOffset = anchorYOffset or 0
+    subRegion:SetPoint("bottomleft", self, "bottomleft", -anchorXOffset, -anchorYOffset)
+    subRegion:SetPoint("topright", self, "topright", anchorXOffset,  anchorYOffset)
   end
 end
 
@@ -128,21 +167,26 @@ function WeakAuras.regionPrototype.AddProperties(properties, defaultsForRegion)
     action = "RunCode",
     type = "customcode"
   }
-  properties["xOffset"] = {
-    display = L["X-Offset"],
-    setter = "SetXOffset",
+  properties["xOffsetRelative"] = {
+    display = L["Relative X-Offset"],
+    setter = "SetXOffsetRelative",
     type = "number",
     softMin = -screenWidth,
     softMax = screenWidth,
     bigStep = 1
   }
-  properties["yOffset"] = {
-    display = L["Y-Offset"],
-    setter = "SetYOffset",
+  properties["yOffsetRelative"] = {
+    display = L["Relative Y-Offset"],
+    setter = "SetYOffsetRelative",
     type = "number",
     softMin = -screenHeight,
     softMax = screenHeight,
     bigStep = 1
+  }
+  properties["glowexternal"] = {
+    display = L["Glow External Element"],
+    action = "GlowExternal",
+    type = "glowexternal"
   }
 
   if (defaultsForRegion and defaultsForRegion.alpha) then
@@ -234,7 +278,8 @@ local function SendChat(self, options)
   if (not options or WeakAuras.IsOptionsOpen()) then
     return
   end
-  WeakAuras.HandleChatAction(options.message_type, options.message, options.message_dest, options.message_channel, options.r, options.g, options.b, self, options.message_custom);
+
+  WeakAuras.HandleChatAction(options.message_type, options.message, options.message_dest, options.message_channel, options.r, options.g, options.b, self, options.message_custom, nil, options.message_formaters);
 end
 
 local function RunCode(self, func)
@@ -245,13 +290,20 @@ local function RunCode(self, func)
   end
 end
 
+local function GlowExternal(self, options)
+  if (not options or WeakAuras.IsOptionsOpen()) then
+    return
+  end
+  WeakAuras.HandleGlowAction(options, self)
+end
+
 local function UpdatePosition(self)
   if (not self.anchorPoint or not self.relativeTo or not self.relativePoint) then
     return;
   end
 
-  local xOffset = self.xOffset + (self.xOffsetAnim or 0);
-  local yOffset = self.yOffset + (self.yOffsetAnim or 0);
+  local xOffset = self.xOffset + (self.xOffsetAnim or 0) + (self.xOffsetRelative or 0)
+  local yOffset = self.yOffset + (self.yOffsetAnim or 0) + (self.yOffsetRelative or 0)
   self:RealClearAllPoints();
 
   xpcall(self.SetPoint, geterrorhandler(), self, self.anchorPoint, self.relativeTo, self.relativePoint, xOffset, yOffset);
@@ -300,6 +352,31 @@ local function GetYOffset(self)
   return self.yOffset;
 end
 
+local function SetOffsetRelative(self, xOffsetRelative, yOffsetRelative)
+  if (self.xOffsetRelative == xOffsetRelative and self.yOffsetRelative == yOffsetRelative) then
+    return
+  end
+  self.xOffsetRelative = xOffsetRelative
+  self.yOffsetRelative = yOffsetRelative
+  UpdatePosition(self)
+end
+
+local function SetXOffsetRelative(self, xOffsetRelative)
+  self:SetOffsetRelative(xOffsetRelative, self:GetYOffsetRelative())
+end
+
+local function SetYOffsetRelative(self, yOffsetRelative)
+  self:SetOffsetRelative(self:GetXOffsetRelative(), yOffsetRelative)
+end
+
+local function GetXOffsetRelative(self)
+  return self.xOffsetRelative
+end
+
+local function GetYOffsetRelative(self)
+  return self.yOffsetRelative
+end
+
 local function SetOffsetAnim(self, xOffset, yOffset)
   if (self.xOffsetAnim == xOffset and self.yOffsetAnim == yOffset) then
     return;
@@ -315,7 +392,12 @@ local function SetRegionAlpha(self, alpha)
   end
 
   self.alpha = alpha;
-  self:SetAlpha(self.animAlpha or self.alpha or 1);
+  if (WeakAuras.IsOptionsOpen()) then
+    self:SetAlpha(max(self.animAlpha or self.alpha or 1, 0.5));
+  else
+    self:SetAlpha(self.animAlpha or self.alpha or 1);
+  end
+  self.subRegionEvents:Notify("AlphaChanged")
 end
 
 local function GetRegionAlpha(self)
@@ -327,7 +409,12 @@ local function SetAnimAlpha(self, alpha)
     return;
   end
   self.animAlpha = alpha;
-  self:SetAlpha(self.animAlpha or self.alpha or 1);
+  if (WeakAuras.IsOptionsOpen()) then
+    self:SetAlpha(max(self.animAlpha or self.alpha or 1, 0.5));
+  else
+    self:SetAlpha(self.animAlpha or self.alpha or 1);
+  end
+  self.subRegionEvents:Notify("AlphaChanged")
 end
 
 local function SetTriggerProvidesTimer(self, timerTick)
@@ -372,14 +459,20 @@ function WeakAuras.regionPrototype.create(region)
   region.SoundRepeatStop = SoundRepeatStop;
   region.SendChat = SendChat;
   region.RunCode = RunCode;
+  region.GlowExternal = GlowExternal;
 
   region.SetAnchor = SetAnchor;
   region.SetOffset = SetOffset;
   region.SetXOffset = SetXOffset;
   region.SetYOffset = SetYOffset;
-  region.SetOffsetAnim = SetOffsetAnim;
   region.GetXOffset = GetXOffset;
   region.GetYOffset = GetYOffset;
+  region.SetOffsetRelative = SetOffsetRelative
+  region.SetXOffsetRelative = SetXOffsetRelative
+  region.SetYOffsetRelative = SetYOffsetRelative
+  region.GetXOffsetRelative = GetXOffsetRelative
+  region.GetYOffsetRelative = GetYOffsetRelative
+  region.SetOffsetAnim = SetOffsetAnim;
   region.ResetPosition = ResetPosition;
   region.RealClearAllPoints = region.ClearAllPoints;
   region.ClearAllPoints = function()
@@ -393,31 +486,52 @@ function WeakAuras.regionPrototype.create(region)
   region.SetTriggerProvidesTimer = SetTriggerProvidesTimer
   region.UpdateRegionHasTimerTick = UpdateRegionHasTimerTick
   region.UpdateTimerTick = UpdateTimerTick
+
+  region.subRegionEvents = CreateSubRegionEventSystem()
+
+  region:SetPoint("CENTER", UIParent, "CENTER")
 end
 
 -- SetDurationInfo
 
 function WeakAuras.regionPrototype.modify(parent, region, data)
+  region.subRegionEvents:ClearSubscribers()
 
   local defaultsForRegion = WeakAuras.regionTypes[data.regionType] and WeakAuras.regionTypes[data.regionType].default;
   if (defaultsForRegion and defaultsForRegion.alpha) then
     region:SetRegionAlpha(data.alpha);
   end
-  local hasAdjustedMin = defaultsForRegion and defaultsForRegion.useAdjustededMin ~= nil and data.useAdjustededMin;
-  local hasAdjustedMax = defaultsForRegion and defaultsForRegion.useAdjustededMax ~= nil and data.useAdjustededMax;
+  local hasAdjustedMin = defaultsForRegion and defaultsForRegion.useAdjustededMin ~= nil and data.useAdjustededMin
+        and data.adjustedMin;
+  local hasAdjustedMax = defaultsForRegion and defaultsForRegion.useAdjustededMax ~= nil and data.useAdjustededMax
+        and data.adjustedMax;
+
+  region.adjustedMin = nil
+  region.adjustedMinRel = nil
+  region.adjustedMinRelPercent = nil
+  region.adjustedMax = nil
+  region.adjustedMaxRel = nil
+  region.adjustedMaxRelPercent = nil
 
   if (hasAdjustedMin) then
-    region.adjustedMin = data.adjustedMin and data.adjustedMin >= 0 and data.adjustedMin;
-  else
-    region.adjustedMin = nil;
+    local percent = string.match(data.adjustedMin, "(%d+)%%")
+    if percent then
+      region.adjustedMinRelPercent = tonumber(percent) / 100
+    else
+      region.adjustedMin = tonumber(data.adjustedMin);
+    end
   end
   if (hasAdjustedMax) then
-    region.adjustedMax = data.adjustedMax and data.adjustedMax >= 0 and data.adjustedMax;
-  else
-    region.adjustedMax = nil;
+    local percent = string.match(data.adjustedMax, "(%d+)%%")
+    if percent then
+      region.adjustedMaxRelPercent = tonumber(percent) / 100
+    else
+      region.adjustedMax = tonumber(data.adjustedMax)
+    end
   end
 
   region:SetOffset(data.xOffset or 0, data.yOffset or 0);
+  region:SetOffsetRelative(0, 0)
   region:SetOffsetAnim(0, 0);
 
   if data.anchorFrameType == "CUSTOM" and data.customAnchor then
@@ -427,8 +541,39 @@ function WeakAuras.regionPrototype.modify(parent, region, data)
   end
 
   if not parent or parent.regionType ~= "dynamicgroup" then
-    WeakAuras.AnchorFrame(data, region, parent);
+    if
+      -- Don't anchor single Auras that with custom anchoring,
+      -- these will be anchored in expand
+      not (
+        data.anchorFrameType == "CUSTOM"
+        or data.anchorFrameType == "UNITFRAME"
+        or data.anchorFrameType == "NAMEPLATE"
+      )
+      -- Group Auras that will never be expanded, so those need
+      -- to be always anchored here
+      or data.regionType == "dynamicgroup"
+      or data.regionType == "group"
+    then
+      WeakAuras.AnchorFrame(data, region, parent);
+    end
   end
+
+  region.startFormatters = WeakAuras.CreateFormatters(data.actions.start.message, function(key, default)
+    local fullKey = "message_format_" .. key
+    if data.actions.start[fullKey] == nil then
+      data.actions.start[fullKey] = default
+    end
+    return data.actions.start[fullKey]
+  end)
+
+  region.finishFormatters = WeakAuras.CreateFormatters(data.actions.finish.message, function(key, default)
+    local fullKey = "message_format_" .. key
+    if data.actions.finish[fullKey] == nil then
+      data.actions.finish[fullKey] = default
+    end
+    return data.actions.finish[fullKey]
+  end)
+
 end
 
 function WeakAuras.regionPrototype.modifyFinish(parent, region, data)
@@ -477,13 +622,8 @@ function WeakAuras.TimerTick(region)
   if region.TimerTick then
     region:TimerTick();
   end
-  if (region.subRegions) then
-    for index, subRegion in pairs(region.subRegions) do
-      if subRegion.TimerTick then
-        subRegion:TimerTick()
-      end
-    end
-  end
+
+  region.subRegionEvents:Notify("TimerTick")
   WeakAuras.StopProfileAura(region.id);
   WeakAuras.StopProfileSystem("timer tick")
 end
@@ -535,13 +675,7 @@ function WeakAuras.FrameTick()
     if region.FrameTick then
       region.FrameTick()
     end
-    if (region.subRegions) then
-      for index, subRegion in pairs(region.subRegions) do
-        if subRegion.FrameTick then
-          subRegion:FrameTick()
-        end
-      end
-    end
+    region.subRegionEvents:Notify("FrameTick")
     WeakAuras.StopProfileAura(region.id);
   end
   WeakAuras.StopProfileSystem("frame tick")
@@ -550,7 +684,17 @@ end
 local function TimerTick(self)
   local duration = self.duration
   local adjustMin = self.adjustedMin or 0;
-  self:SetTime((duration ~= 0 and self.adjustedMax or duration) - adjustMin, self.expirationTime - adjustMin, self.inverse);
+
+  local max
+  if duration == 0 then
+    max = 0
+  elseif self.adjustedMax then
+    max = self.adjustedMax
+  else
+    max = duration
+  end
+
+  self:SetTime(max - adjustMin, self.expirationTime - adjustMin, self.inverse);
 end
 
 function WeakAuras.regionPrototype.AddSetDurationInfo(region)
@@ -585,8 +729,8 @@ end
 -- Expand/Collapse function
 function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, parent, parentRegionType)
   local id = data.id
-  local indynamicgroup = parentRegionType == "dynamicgroup";
-  local ingroup = parentRegionType == "group";
+  local inDynamicGroup = parentRegionType == "dynamicgroup";
+  local inGroup = parentRegionType == "group";
 
   local startMainAnimation = function()
     WeakAuras.Animate("display", data, "main", data.animation.main, region, false, nil, true, cloneId);
@@ -608,7 +752,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
   end
 
   local hideRegion;
-  if(indynamicgroup) then
+  if(inDynamicGroup) then
     hideRegion = function()
       if region.PreHide then
         region:PreHide()
@@ -639,7 +783,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
     end
   end
 
-  if(indynamicgroup) then
+  if(inDynamicGroup) then
     function region:Collapse()
       if (not region.toShow) then
         return;
@@ -667,13 +811,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
         region:PreShow();
       end
 
-      if region.subRegions then
-        for index, subRegion in pairs(region.subRegions) do
-          if subRegion.PreShow then
-            subRegion:PreShow()
-          end
-        end
-      end
+      region.subRegionEvents:Notify("PreShow")
 
       region.justCreated = nil;
       WeakAuras.ApplyFrameLevel(region)
@@ -683,7 +821,9 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
         startMainAnimation();
       end
       parent:ActivateChild(data.id, cloneId);
+
       WeakAuras.RegisterForFrameTick(region)
+      region:UpdateTimerTick()
     end
   elseif not(data.controlledChildren) then
     function region:Collapse()
@@ -698,7 +838,7 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
         hideRegion();
       end
 
-      if ingroup then
+      if inGroup then
         parent:UpdateBorder(region);
       end
 
@@ -709,27 +849,25 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
       WeakAuras.UnRegisterForFrameTick(region)
     end
     function region:Expand()
+      if data.anchorFrameType == "SELECTFRAME"
+      or data.anchorFrameType == "CUSTOM"
+      or data.anchorFrameType == "UNITFRAME"
+      or data.anchorFrameType == "NAMEPLATE"
+      then
+        WeakAuras.AnchorFrame(data, region, parent);
+      end
+
       if (region.toShow) then
         return;
       end
       region.toShow = true;
-
-      if (data.anchorFrameType == "SELECTFRAME" or data.anchorFrameType == "CUSTOM") then
-        WeakAuras.AnchorFrame(data, region, parent);
-      end
 
       region.justCreated = nil;
       if(region.PreShow) then
         region:PreShow();
       end
 
-      if region.subRegions then
-        for index, subRegion in pairs(region.subRegions) do
-          if subRegion.PreShow then
-            subRegion:PreShow()
-          end
-        end
-      end
+      region.subRegionEvents:Notify("PreShow")
 
       WeakAuras.ApplyFrameLevel(region)
       region:Show();
@@ -738,11 +876,12 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
         startMainAnimation();
       end
 
-      if ingroup then
+      if inGroup then
         parent:UpdateBorder(region);
       end
 
       WeakAuras.RegisterForFrameTick(region)
+      region:UpdateTimerTick()
     end
   end
   -- Stubs that allow for polymorphism
@@ -752,15 +891,6 @@ function WeakAuras.regionPrototype.AddExpandFunction(data, region, cloneId, pare
   if not region.Expand then
     function region:Expand() end
   end
-end
-
--- WORKAROUND Texts don't get the right size by default in WoW 7.3
-function WeakAuras.regionPrototype.SetTextOnText(text, str)
-  if (text:GetText() == str) then
-    return
-  end
-
-  text:SetText(str);
 end
 
 function WeakAuras.SetTextureOrAtlas(texture, path, wrapModeH, wrapModeV)

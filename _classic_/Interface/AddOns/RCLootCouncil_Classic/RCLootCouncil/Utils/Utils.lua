@@ -4,7 +4,6 @@
 -- Create Date : 27/7/2018 20:49:10
 local _,addon = ...
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
-local db = addon:Getdb()
 local Utils = {}
 addon.Utils = Utils
 
@@ -15,6 +14,7 @@ local string, gsub, strmatch, tonumber, format, date, time, strsplit = string, g
 -- @param unitguid The UnitGUID
 -- @return creatureID (string) or nil if nonexistant
 function Utils:ExtractCreatureID (unitguid)
+   if not unitguid then return nil end
    local id = unitguid:match(".+(%b--)")
    return id and (id:gsub("-", "")) or nil
 end
@@ -53,12 +53,12 @@ function Utils:GetItemTextWithCount(link, count)
 	return link..(count and count > 1 and (" x"..count) or "")
 end
 
-local NEUTRALIZE_ITEM_PATTERN = "item:(%d*):(%d*):(%d*):(%d*):(%d*):(%d*):(%d*):%d*:%d*:%d*"
-local NEUTRALIZE_ITEM_REPLACEMENT = "item:%1:%2:%3:%4:%5:%6:%7:::"
+local NEUTRALIZE_ITEM_PATTERN = "item:(%d*):(%d*):(%d*):(%d*):(%d*):(%d*):(%d*):%d*:%d*:%d*:%d*:(%d*):%d*"
+local NEUTRALIZE_ITEM_REPLACEMENT = "item:%1:%2:%3:%4:%5:%6:%7::::%8:"
 
 --- Removes any character specific data from an item
 -- @param item Any itemlink, itemstring etc.
--- @return The same item with level, specID, and uniqueID removed
+-- @return The same item with level, specID, uniqueID, upgradeTypeID, numBonuses removed
 function Utils:NeutralizeItem (item)
 	return item:gsub(NEUTRALIZE_ITEM_PATTERN, NEUTRALIZE_ITEM_REPLACEMENT)
 end
@@ -88,7 +88,7 @@ end
 function Utils:GetNumberOfDaysFromNow(oldDate)
 	local d, m, y = strsplit("/", oldDate, 3)
 	local sinceEpoch = time({year = "20"..y, month = m, day = d, hour = 0}) -- convert from string to seconds since epoch
-	local diff = date("*t", time() - sinceEpoch) -- get the difference as a table
+	local diff = date("*t", math.abs(time() - sinceEpoch)) -- get the difference as a table
 	-- Convert to number of d/m/y
 	return diff.day - 1, diff.month - 1, diff.year - 1970
 end
@@ -117,11 +117,20 @@ end
 
 function Utils:IsInNonInstance()
    local instance_type = select(2, IsInInstance())
-   if IsPartyLFG() or instance_type == "pvp" or instance_type == "arena" then
+   if self.IsPartyLFG() or instance_type == "pvp" or instance_type == "arena" then
       return true
    else
       return false
    end
+end
+
+--- Removes corruption ID from a weapon.
+-- A hotfix made it so bonusID 6513 is added to corrupted weapons after they're looted,
+-- which causes :ItemIsItem to fail.
+-- This function removes this id, but doesn't alter the numBonuses value.
+-- Note: This will remove all occurances of ":6513:", but it shouldn't really matter afaik.
+function Utils:DiscardWeaponCorruption (itemLink)
+   return itemLink and gsub(itemLink, ":6513:", ":") or itemLink
 end
 
 
@@ -157,4 +166,25 @@ function Utils:CheckOutdatedVersion (baseVersion, newVersion, basetVersion, newt
    else
       return addon.VER_CHECK_CODES[1] -- All fine
 	end
+end
+
+function Utils:GuildRoster()
+   if _G.GuildRoster then
+      return _G.GuildRoster()
+   else
+      return C_GuildInfo.GuildRoster()
+   end
+end
+
+--- Upvalued for Classic overwrite
+function Utils:GetNumClasses ()
+   return _G.GetNumClasses and GetNumClasses() or _G.MAX_CLASSES
+end
+
+function Utils:IsPartyLFG ()
+   return IsPartyLFG and IsPartyLFG()
+end
+
+function Utils:GetNumSpecializationsForClassID (classID)
+   return _G.GetNumSpecializationsForClassID and _G.GetNumSpecializationsForClassID(classID) or 3
 end

@@ -1,5 +1,5 @@
 ## Title:-|cffFFFFFFConROC|r- |cff69CCF0Mage|r
-## Version: 1.13.2
+## Version: 1.13.3
 ## Author: Vae
 ## Interface: 11302	
 ## SavedVariablesPerCharacter: ConROCMageSpells

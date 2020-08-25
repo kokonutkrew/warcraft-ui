@@ -55,7 +55,9 @@ local RaceClassCombo = {
 	LightforgedDraenei = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Priest,CLASS.Mage},
 	DarkIronDwarf = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk},
 	KulTiran = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},
-	ZandalariTroll = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},	
+	ZandalariTroll = {CLASS.Warrior,CLASS.Paladin,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Monk,CLASS.Druid,},
+	Mechagnome = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
+	Vulpera = {CLASS.Warrior,CLASS.Hunter,CLASS.Rogue,CLASS.Priest,CLASS.Shaman,CLASS.Mage,CLASS.Warlock,CLASS.Monk,CLASS.DeathKnight},
 }
 --@end-retail@]===]
 --@non-retail@
@@ -178,8 +180,20 @@ local function inviteBtnText(text)
 	interface.scanFrame.invite:SetText(text)
 end
 
-local function IsInBlackList(name)
-	return (DB.realm.blackList[name:lower()] or DB.realm.blackList[name:gsub("^%l", string.upper)]) and true or false
+local function IsInBlackList(name, full)
+	local n1 = name:lower()
+	local n2 = name:gsub("^%l", string.upper)
+	if DB.realm.blackList[n1] then return n1 end
+	if DB.realm.blackList[n2] then return n2 end
+	if not full then return false end
+	n1 = "^"..n1
+	n2 = "^"..n2
+	for k,v in pairs(DB.realm.blackList) do
+		if k:find(n1) or k:find(n2) then
+			return k
+		end
+	end
+	return false
 end
 
 local function IsInLeaveList(name)
@@ -205,12 +219,20 @@ local function onListUpdate()
 	inviteBtnText(format(L["Пригласить: %d"], #list))
 end
 
+function fn:blacklistRemove(name)
+	DB.realm.blackList[name:lower()] = nil
+	DB.realm.blackList[name:gsub("^%l", string.upper)] = nil
+end
 
-function fn:parseBL(str)
+function fn:parseName(name)
+	return name:match("([^%s-]+)")
+end
+
+function fn:parseBL(cmd, str)
 	local name, reason
-	str = str:gsub("blacklist", '')
+	str = str:gsub(cmd, '')
 	if str:find('-') then
-		name,reason = str:match("([^%s-]+)[^%s]+[%s-]+([^-]+)")
+		name,reason = str:match("([^%s-]+)[^%s]*[%s-]+([^-]+)")
 	else
 		name = str:match("([^-%s]+)")
 		reason = false
@@ -244,6 +266,7 @@ frame:SetScript("OnEvent", function(_,_,msg)
 			if DB.realm.alreadySended[name] then
 				addon.searchInfo.invited()
 			end
+			C_Timer.After(1, function() fn:setNote(name) end)
 		end
 	end
 end)
@@ -251,6 +274,33 @@ end)
 function fn:initDB()
 	DB = addon.DB
 	debugDB = addon.debugDB
+end
+
+function fn:setNote(name)
+	if name == nil or name == '' then return end
+	if DB.global.setNote or DB.global.setOfficerNote then
+		name = name:match("([^-]+)-?")
+		for index=1, GetNumGuildMembers() do
+			local n, _, _, _, _, _, publicNote, officerNote = GetGuildRosterInfo(index)
+			if n:match("([^-]+)-?") == name then
+				if DB.global.setNote and DB.global.setNote ~= "" and CanEditPublicNote() and publicNote == "" then
+					-- GuildRosterSetPublicNote(index, date(DB.global.noteText))
+					GuildRosterSetPublicNote(index, date(fn:msgMod(DB.global.noteText, name)))
+					-- print("set note \""..date(DB.global.noteText).."\" for "..name)
+				end
+				if DB.global.setOfficerNote and DB.global.setOfficerNote ~= "" and C_GuildInfo.CanEditOfficerNote() and officerNote == "" then
+					-- GuildRosterSetOfficerNote(index, date(DB.global.officerNoteText))
+					GuildRosterSetOfficerNote(index, date(fn:msgMod(DB.global.officerNoteText, name)))
+					-- print("set officer note \""..date(DB.global.officerNoteText).."\" for "..name)
+				end
+				return
+			end
+		end
+	end
+end
+
+function fn:getCharLen(str)
+	return #(str):gsub('[\128-\191]', '')
 end
 
 local function guildKick(name)
@@ -285,11 +335,21 @@ function fn:blackListAutoKick()
 end
 
 function fn:blackList(name, reason)
-	DB.realm.blackList[name] = reason or L.defaultReason
+	DB.realm.blackList[name] = reason or (DB.global.blacklistReasonText == nil and L.defaultReason or DB.global.blacklistReasonText)
 	if not DB.global.addonMSG then
 		print(format("%s%s|r", color.red, format(L["Игрок %s добавлен в черный список."], name)))
 	end
 	fn:blacklistKick()
+end
+
+function fn:unblacklist(name)
+	local inBlacklist = IsInBlackList(name, true)
+	if inBlacklist then
+		fn:blacklistRemove(inBlacklist)
+		print(format(L["Игрок %s удален из черного списка"], inBlacklist))
+	else
+		print(format(L["Игрок %s не найден в черном списке"], name))
+	end
 end
 
 function fn:closeBtn(obj)
@@ -383,17 +443,61 @@ function fn:FiltersUpdate()
 end
 
 
+function fn:messageSplit(str, arr)
+	if not str then return {} end
+	arr = arr or {''}
+	while(str:len()>0) do
+		local _,e = str:find("[%s%.%,]")
+		local s = ''
+		if e then
+			s = str:sub(1,e)
+			str = str:sub(e+1, -1)
+		else
+			s = str
+			str = ''
+		end
+		if arr[#arr]:len()+s:len()<=255 then
+			arr[#arr] = arr[#arr] .. s
+		else
+			table.insert(arr, s)
+		end
+	end
+	for i=1, #arr do
+		if arr[i]:len()>255 then arr={};break;end
+	end
+	return arr
+end
 
 
-function fn:msgMod(msg, name)
+
+function fn:msgMod(msg, name, noErr)
 	if not msg then return end
 	if msg:find("NAME") then
-		local guildName, guildRankName, guildRankIndex, realm = GetGuildInfo("player")
 		msg = msg:gsub("NAME", name or 'PLAYER_NAME')
+	end
+	if msg:find("GUILDLINK") then
+		local club, link
+		DB.global.guildLinks = DB.global.guildLinks or {}
+		if DB.global.guildLinks[GetGuildInfo("player")] then
+			link = DB.global.guildLinks[GetGuildInfo("player")]
+		elseif ClubFinderGetCurrentClubListingInfo then
+			club = ClubFinderGetCurrentClubListingInfo(C_Club.GetGuildClubId())
+			if club then
+				link = GetClubFinderLink(club.clubFinderGUID, club.name)
+				DB.global.guildLinks[link:match("%[.*: (.*)%]")] = link
+			end
+		end
+		
+		msg = msg:gsub("GUILDLINK", link and link:gsub(" ", " ") or 'G_LINK')
+		
+		if not link and not noErr then
+			print(L["Невозможно создать ссылку гильдии. Откройте окно гильдии и попробуйте снова. Если проблема не устранена, вероятно вы не можете создавать ссылку гильдии."])
+			return nil
+		end
 	end
 	if msg:find("GUILD") then
 		local guildName, guildRankName, guildRankIndex, realm = GetGuildInfo("player")
-		msg = msg:gsub("GUILD", format("<%s>",guildName or 'GUILD_NAME'))
+		msg = msg:gsub("GUILD", format("<%s>", guildName and guildName:gsub(" ", " ") or 'GUILD_NAME'))
 	end
 	return msg
 end
@@ -408,19 +512,21 @@ function fn.hideWhisper(...)
 	end
 end
 
-function fn:sendWhisper(msg, name)
-	if not msg or not name then return end
+function fn:sendWhisper(name)
+	local msg = fn:getRndMsg()
+	if not msg then return print("<FGI> - "..L["Выберите сообщение"]) end
+	if not name then return debug("send message - nil name")  end
+	
+	debug(format("Send whisper: %s %s",name, msg))
 	msg = fn:msgMod(msg, name)
 	
 	if msg ~= nil then
 		if DB.realm.sendMSG then
 			addon.removeMsgList[name:match("([^-]*)")] = true
 		end
-		for i=0, msg:len(), 255 do
-			SendChatMessage(msg:sub(i+1, i+255), 'WHISPER', GetDefaultLanguage("player"), name)
+		for _,message in pairs(fn:messageSplit(msg)) do
+			SendChatMessage(message:gsub(" ", " "), 'WHISPER', GetDefaultLanguage("player"), name)
 		end
-	else
-		print(L["Выберите сообщение"])
 	end
 end
 
@@ -430,19 +536,20 @@ function fn:rememberPlayer(name)
 	debug(format("Remember: %s",name))
 end
 
+function fn:getRndMsg()
+	return DB.factionrealm.messageList[math.random(1, math.max(1,#DB.factionrealm.messageList))]
+end
+
 function fn:invitePlayer(noInv)
 	local list = addon.search.inviteList
 	if #list==0 then return end
 	-- if IsInAlreadySendedList(list[1].name) then return table.remove(list, 1) end
-	if DB.global.inviteType == 2 and not noInv then
+	if (DB.global.inviteType == 2 or DB.global.inviteType == 4) and not noInv then
 		addon.msgQueue[list[1].name] = true
 	elseif DB.global.inviteType == 3 and not noInv then
-		local msg = DB.factionrealm.messageList[math.random(1, math.max(1,#DB.factionrealm.messageList))]
-		debug(format("Send whisper: %s %s",list[1].name, msg or 'nil'))
-		if not msg then return print("<FGI> - "..L["Выберите сообщение"]) end
-		fn:sendWhisper(msg, list[1].name)
+		fn:sendWhisper(list[1].name)
 	end
-	if (DB.global.inviteType == 1 or DB.global.inviteType == 2) and not noInv then
+	if (DB.global.inviteType == 1 or DB.global.inviteType == 2 or DB.global.inviteType == 4) and not noInv then
 		debug(format("Invite: %s",list[1].name))
 		GuildInvite(list[1].name)
 	end
@@ -477,8 +584,10 @@ frame:SetScript('OnEvent', function()
 end)
 
 local function getSearchDeepLvl(query)
-	local l2 = (("%%d+-%%d+ %s\"%s+"):format(L["r-"],addon.ruReg)):gsub("-","%%-")
-	local l3 = (("%%d+-%%d+ %s\"%s+%%\" %s"):format(L["r-"],addon.ruReg,L["c-"])):gsub("-","%%-")
+	-- local l2 = (("%%d+-%%d+ %s\"%s+"):format(L["r-"],addon.ruReg)):gsub("-","%%-")
+	local l2 = L["r-"]:gsub("-","%%-")
+	-- local l3 = (("%%d+-%%d+ %s\"%s+%%\" %s"):format(L["r-"],addon.ruReg,L["c-"])):gsub("-","%%-")
+	local l3 = (("%s.+ %s"):format(L["r-"],L["c-"])):gsub("-","%%-")
 	if query:find(l3) then
 		return 3
 	elseif query:find(l2) then
@@ -689,10 +798,10 @@ function fn:filtered(player)
 	return false
 end
 
-local function addNewPlayer(p)
+function fn:addNewPlayer(p)
 	local list = addon.search.inviteList
 	local playerInfoStr = format("%s - lvl:%d; race:%s; class:%s; Guild: \"%s\"", p.Name, p.Level, p.Race, p.Class, p.Guild)
-	if p.Guild == "" then
+	if p.Guild == "" or FGI.ai then
 		if not IsInBlackList(p.Name) then
 			if not IsInLeaveList(p.Name) then
 				if not IsInTempList(addon.search, p.Name) then
@@ -743,7 +852,7 @@ local function searchWhoResultCallback(query, results)
 	addon.search.oldCount = #addon.search.inviteList
 	for i=1,#results do
 		local player = results[i]
-		addNewPlayer(player)
+		fn:addNewPlayer(player)
 	end
 	if DB.global.queueNotify and #addon.search.inviteList > addon.search.oldCount then
 		FGI.animations.notification:Start(format(L["Игроков найдено: %d"], #addon.search.inviteList - addon.search.oldCount))
@@ -755,14 +864,33 @@ local function searchWhoResultCallback(query, results)
 	onListUpdate()
 end
 
+local function timeCallbackStart()
+	interface.scanFrame.pausePlay:SetDisabled(true)
+	interface.scanFrame.pausePlayLabel.timer = libWho:GetInterval()
+	interface.scanFrame.pausePlayLabel.frame:SetFrameStrata("TOOLTIP")
+	interface.scanFrame.pausePlayLabel.frame:Show()
+	C_Timer.NewTicker(1, function()
+		local n = interface.scanFrame.pausePlayLabel.timer
+		interface.scanFrame.pausePlayLabel.timer = interface.scanFrame.pausePlayLabel.timer-1
+		interface.scanFrame.pausePlayLabel:SetText(interface.scanFrame.pausePlayLabel.timer)
+		if interface.scanFrame.pausePlayLabel.timer == 0 then interface.scanFrame.pausePlayLabel.frame:Hide() end
+	end, libWho:GetInterval())
+	interface.scanFrame.pausePlayLabel:SetText(interface.scanFrame.pausePlayLabel.timer)
+end
+
+local function timeCallbackEnd()
+	interface.scanFrame.pausePlay:SetDisabled(false)
+	if DB.global.searchAlertNotify then
+		FGI.animations.notification:Start(L["Поиск разблокирован"])
+	end
+end
+
+libWho:SetCallback(searchWhoResultCallback)
+libWho:SetInterval(FGI_SCANINTERVALTIME)
+libWho:SetTimeCallbackStart(timeCallbackStart)
+libWho:SetTimeCallbackEnd(timeCallbackEnd)
+	
 function fn:nextSearch()
-	libWho:SetCallback(searchWhoResultCallback)
-	C_Timer.After(FGI_SCANINTERVALTIME, function()
-		interface.scanFrame.pausePlay:SetDisabled(false)
-		if DB.global.searchAlertNotify then
-			FGI.animations.notification:Start(L["Поиск разблокирован"])
-		end
-	end)
 	if #addon.search.whoQueryList == 0 then
 		if  DB.realm.customWho then
 			for i=1, #DB.faction.customWhoList do
@@ -776,6 +904,9 @@ function fn:nextSearch()
 	
 	addon.search.progress = (addon.search.progress <= (#addon.search.whoQueryList or 1)) and addon.search.progress or 1
 	local curQuery = addon.search.whoQueryList[addon.search.progress]
+	if curQuery == nil then
+		return	print("epmty search query")
+	end
 	libWho:GetWho(curQuery)
 end
 

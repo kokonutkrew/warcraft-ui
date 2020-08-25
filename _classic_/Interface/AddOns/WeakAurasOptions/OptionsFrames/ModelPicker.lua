@@ -196,8 +196,7 @@ local function ConstructModelPicker(frame)
           childData.model_st_rz = model_rz;
           childData.model_st_us = model_us;
           WeakAuras.Add(childData);
-          WeakAuras.SetThumbnail(childData);
-          WeakAuras.SetIconNames(childData);
+          WeakAuras.UpdateThumbnail(childData);
         end
       end
     else
@@ -214,8 +213,7 @@ local function ConstructModelPicker(frame)
         WeakAuras.Add(self.parentData);
       else
         WeakAuras.Add(self.data);
-        WeakAuras.SetThumbnail(self.data);
-        WeakAuras.SetIconNames(self.data);
+        WeakAuras.UpdateThumbnail(self.data);
       end
     end
   end
@@ -244,8 +242,7 @@ local function ConstructModelPicker(frame)
           childData.model_x = model_x;
           childData.model_y = model_y;
           WeakAuras.Add(childData);
-          WeakAuras.SetThumbnail(childData);
-          WeakAuras.SetIconNames(childData);
+          WeakAuras.UpdateThumbnail(childData);
         end
       end
     else
@@ -259,8 +256,7 @@ local function ConstructModelPicker(frame)
         WeakAuras.Add(self.parentData)
       else
         WeakAuras.Add(self.data);
-        WeakAuras.SetThumbnail(self.data);
-        WeakAuras.SetIconNames(self.data);
+        WeakAuras.UpdateThumbnail(self.data);
       end
     end
   end
@@ -379,18 +375,14 @@ local function ConstructModelPicker(frame)
         self.givenY = data.model_y;
       end
     end
-    frame.container.frame:Hide();
-    frame.buttonsContainer.frame:Hide();
-    self.frame:Show();
     frame.window = "model";
+    frame:UpdateFrameVisible()
   end
 
   function group.Close()
-    group.frame:Hide();
-    frame.container.frame:Show();
-    frame.buttonsContainer.frame:Show();
-    frame.window = "default";
-    AceConfigDialog:Open("WeakAuras", frame.container);
+    frame.window = "default"
+    frame:UpdateFrameVisible()
+    WeakAuras.FillOptions()
   end
 
   function group.CancelClose(self)
@@ -415,16 +407,15 @@ local function ConstructModelPicker(frame)
             childData.model_y = group.givenY[childId];
           end
           WeakAuras.Add(childData);
-          WeakAuras.SetThumbnail(childData);
-          WeakAuras.SetIconNames(childData);
+          WeakAuras.UpdateThumbnail(childData);
         end
       end
     else
       if (group.givenApi) then
-        group:PickSt(group.givenPath, group.givenPathId, group.givenTX, group.givenTY, group.givenTZ,
+        group:PickSt(group.givenModel, group.givenModelId, group.givenTX, group.givenTY, group.givenTZ,
           group.givenRX, group.givenRY, group.givenRZ, group.givenUS );
       else
-        group:Pick(group.givenPath, group.givenPathId, group.givenZ, group.givenX, group.givenY);
+        group:Pick(group.givenModel, group.givenModelId, group.givenZ, group.givenX, group.givenY);
       end
     end
     group.Close();

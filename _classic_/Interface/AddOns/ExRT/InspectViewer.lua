@@ -128,7 +128,10 @@ module.db.topEnchGems = {
 
 
 module.db.achievementsList = {
-	{	--EP
+	{	--Nyalotha
+		L.S_ZoneT25Nyalotha,
+		14193,14194,14195,14196,14041,14043,14044,14045,14050,14046,14051,14048,14049,14052,14054,14055,14068,
+	},{	--EP
 		L.S_ZoneT24Eternal,
 		13718,13719,13725,13726,13727,13728,13729,13730,13731,13732,13733,13784,13785,
 	},{	--CoS
@@ -191,7 +194,9 @@ module.db.achievementsList = {
 	},
 }
 module.db.achievementsList_statistic = {
-	{	--EP
+	{
+		0,0,0,0,{14078,14079,14080,14082},{14089,14091,14093,14094},{14095,14096,14097,14098},{14101,14102,14104,14105},{14123,14124,14125,14126},{14107,14108,14109,14110},{14127,14128,14129,14130},{14111,14112,14114,14115},{14117,14118,14119,14120},{14207,14208,14210,14211},{14131,14132,14133,14134},{14135,14136,14137,14138}
+	},{	--EP
 		0,0,0,{13587,13588,13589,13590},{13595,13596,13597,13598},{13591,13592,13593,13594},{13600,13601,13602,13603},{13604,13605,13606,13607},{13608,13609,13610,13611},{13612,13613,13614,13615},{13616,13617,13618,13619},
 	},{	--CoS
 		0,{13404,13405,13406,13407},{13408,13411,13412,13413},
@@ -370,6 +375,9 @@ function module.options:Load()
 
 	do
 		local text = TOOLTIP_AZERITE_UNLOCK_LEVELS:gsub(" %(.*","")
+		if ExRT.locale == "zhTW" or ExRT.locale == "zhCN" then
+			text = TOOLTIP_AZERITE_UNLOCK_LEVELS:gsub(" ?%(.*","")
+		end
 		self.chkArtifact = ELib:Radio(self,text):Point(260,-28):AddButton():OnClick(reloadChks)
 		self.chkArtifact.id = 5
 	end
@@ -432,8 +440,8 @@ function module.options:Load()
 	module.db.colorizeLowIlvl685 = VExRT.InspectViewer.ColorizeLowIlvl685
 	module.db.colorizeNoValorUpgrade = VExRT.InspectViewer.ColorizeNoValorUpgrade
 	
-	local colorizeLowIlvl630 = 385
-	local colorizeLowIlvl685 = 430
+	local colorizeLowIlvl630 = 430
+	local colorizeLowIlvl685 = 460
 	if UnitLevel'player' <= 110 then
 		colorizeLowIlvl630 = 185
 		colorizeLowIlvl685 = 240	
@@ -784,6 +792,21 @@ function module.options:Load()
 					end
 
 					line.ilvl:SetText(format("%.2f",data.ilvl or 0))
+					if type(data.corruption)=='number' and data.corruption >= 1 then
+						local essenceResist = 0
+						if data.essence then
+							local ess_d
+							for ess_c=1,#data.essence do	
+								ess_d = data.essence[ess_c]
+								if ess_d.id == 33 or ess_d.id == 34 or ess_d.id == 35 or ess_d.id == 36 or ess_d.id == 37 or ess_d.id == 16 or ess_d.id == 24 then
+									essenceResist = 10
+									break
+								end
+							end
+						end
+						local corrLevel = math.max(data.corruption - (data.corruption_res or 0) - essenceResist,0)
+						line.ilvl:SetText(format("%.2f",data.ilvl or 0).."|n".."|T3176469:16:16:0:0:256:128:11:51:24:64|t "..corrLevel)
+					end
 					
 					line.linkSpecID = spec
 					line.linkClassID = module.db.classIDs[class or "?"]
@@ -1412,7 +1435,7 @@ function module.options:Load()
 		
 		line.apinfo = ELib:Text(line,"",9):Color():Point("LEFT",100,0):Shadow()
 		
-		line.ilvl = ELib:Text(line,"630.52",11):Color():Point(160,0):Size(50,30):Shadow()
+		line.ilvl = ELib:Text(line,"630.52",11):Color():Point(160-5,0):Size(50,30):Shadow():Center()
 		
 		line.items = {}
 		for j=-1,18 do

@@ -1,6 +1,18 @@
 # <DBM> PvP
 
-## [r76](https://github.com/DeadlyBossMods/DBM-PvP/tree/r76) (2019-10-03)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-PvP/compare/r75...r76)
+## [r93](https://github.com/DeadlyBossMods/DBM-PvP/tree/r93) (2020-07-29)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-PvP/compare/r91...r93) [Previous Releases](https://github.com/DeadlyBossMods/DBM-PvP/releases)
 
-- Fix Temple of Kotmogu, which never would have worked at all, do to bad code logic.  
+- Sync master?  
+- Fix timers for silvershard and seething (Wern't localized)  
+- Fix #32  
+- Bump TOC for classic  
+- Update localization.tw.lua (#31)  
+- Update localization.cn.lua (#30)  
+- Update localization.en.lua (#29)  
+- Merge pull request #27 from venuatu/master  
+    bump AB timer up to 64 for classic and keep bars active until the poi changes  
+- Update PvPGeneral.lua  
+- Update PvPGeneral.lua  
+- bump AB timer up to 64 for classic and keep bars active until the poi changes  
+- Styling updates  

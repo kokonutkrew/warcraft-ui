@@ -167,13 +167,11 @@ local function createOptions(id, data)
         data.width = data.width * ((1 + data.crop_x) / (1 + v));
         data.crop_x = v;
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         if(data.parent) then
           local parentData = WeakAuras.GetData(data.parent);
           if(parentData) then
             WeakAuras.Add(parentData);
-            WeakAuras.SetThumbnail(parentData);
           end
         end
         WeakAuras.ResetMoverSizer();
@@ -192,13 +190,11 @@ local function createOptions(id, data)
         data.height = data.height * ((1 + data.crop_y) / (1 + v));
         data.crop_y = v;
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         if(data.parent) then
           local parentData = WeakAuras.GetData(data.parent);
           if(parentData) then
             WeakAuras.Add(parentData);
-            WeakAuras.SetThumbnail(parentData);
           end
         end
         WeakAuras.ResetMoverSizer();
@@ -324,7 +320,7 @@ local function createOptions(id, data)
 
   return {
     progresstexture = options,
-    position = WeakAuras.PositionOptions(id, data),
+    position = WeakAuras.commonOptions.PositionOptions(id, data),
   };
 end
 
@@ -392,8 +388,8 @@ local function Transform(tx, x, y, angle, aspect) -- Translates texture to x, y 
   tx:SetTexCoord(ULx, ULy, LLx, LLy, URx, URy, LRx, LRy)
 end
 
-local function createThumbnail(parent)
-  local borderframe = CreateFrame("FRAME", nil, parent);
+local function createThumbnail()
+  local borderframe = CreateFrame("FRAME", nil, UIParent);
   borderframe:SetWidth(32);
   borderframe:SetHeight(32);
 

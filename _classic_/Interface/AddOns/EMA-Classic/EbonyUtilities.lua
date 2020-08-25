@@ -2,7 +2,7 @@
 --				EMA - ( Ebony's MultiBoxing Assistant )    							--
 --				Current Author: Jennifer Cally (Ebony)								--
 --																					--
---				License: MIT License 2018-2019 Jennifer Cally							--
+--				License: MIT License 2018-2020 Jennifer Cally							--
 --																					--
 --				Some Code Used from "Jamba" that is 								--
 --				Released under the MIT License 									--
@@ -46,6 +46,13 @@ function EbonyUtilities:ClearTable( object )
 		end
 		object[key] = nil
 	end
+end
+
+function EbonyUtilities:GetStatusPercent(val, max)
+	if (max > 0) then
+		return (val / max)
+	end
+	return 1.0
 end
 
 function EbonyUtilities:Lowercase( name )
@@ -310,3 +317,4 @@ function EbonyUtilities:getPetOwner( petName )
 	--	print(owner)
 	end
 end
+

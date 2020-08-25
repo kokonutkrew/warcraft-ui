@@ -2,11 +2,12 @@
 -- L00: Leatrix Maps Library
 ----------------------------------------------------------------------
 
-	-- LibDBIcon 8.0.4 by funkehdude
+	-- LibDBIcon 8.2.0 by funkehdude
 	-- 11: LibStub: (?s)-- LibStubStart\R?\K.*?(?=-- LibStubEnd)
 	-- 12: LibCallbackHandler: (?s)-- CallbackStart\R?\K.*?(?=-- CallbackEnd)
 	-- 13: LibDataBroker: (?s)-- DataBrokerStart\R?\K.*?(?=-- DataBrokerEnd)
 	-- 14: LibDBIcon: (?s)-- LibDBIconStart\R?\K.*?(?=-- LibDBIconEnd)
+	-- 15: Taint: (?s)-- HonorFrameLoadTaintStart\R?\K.*?(?=-- HonorFrameLoadTaintEnd)
 
 ----------------------------------------------------------------------
 -- L11: LibDBIcon: LibStub
@@ -878,4 +879,36 @@ lib:SetButtonRadius(lib.radius) -- Upgrade to 40
 end
 LeaLibDBIcon()
 
--- L15: End
+----------------------------------------------------------------------
+-- L15: Taint: HonorFrameLoadTaint
+-- https://www.townlong-yak.com/bugs/afKy4k-HonorFrameLoadTaint
+----------------------------------------------------------------------
+
+local function HonorFrameLoadTaint()
+
+-- HonorFrameLoadTaintStart
+
+if (_G.UIDROPDOWNMENU_VALUE_PATCH_VERSION or 0) < 2 then
+	_G.UIDROPDOWNMENU_VALUE_PATCH_VERSION = 2
+	hooksecurefunc("UIDropDownMenu_InitializeHelper", function()
+		if _G.UIDROPDOWNMENU_VALUE_PATCH_VERSION ~= 2 then
+			return
+		end
+		for i=1, _G.UIDROPDOWNMENU_MAXLEVELS do
+			for j=1, _G.UIDROPDOWNMENU_MAXBUTTONS do
+				local b = _G["DropDownList" .. i .. "Button" .. j]
+				if not (issecurevariable(b, "value") or b:IsShown()) then
+					b.value = nil
+					repeat
+						j, b["fx" .. j] = j+1, nil
+					until issecurevariable(b, "value")
+				end
+			end
+		end
+	end)
+end
+
+-- HonorFrameLoadTaintEnd
+
+end
+HonorFrameLoadTaint()

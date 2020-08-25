@@ -31,7 +31,7 @@ local loc = TRP3_API.loc;
 local unitIDToInfo, unitInfoToID = Utils.str.unitIDToInfo, Utils.str.unitInfoToID;
 local get = TRP3_API.profile.getData;
 local IsUnitIDKnown = TRP3_API.register.isUnitIDKnown;
-local getUnitIDCurrentProfile = TRP3_API.register.getUnitIDCurrentProfile;
+local getUnitIDCurrentProfile, getUnitRPName, getUnitRPFirstName, getUnitRPLastName = TRP3_API.register.getUnitIDCurrentProfile, TRP3_API.register.getUnitRPName, TRP3_API.register.getUnitRPFirstName, TRP3_API.register.getUnitRPLastName;
 local getConfigValue, registerConfigKey, registerHandler = TRP3_API.configuration.getValue, TRP3_API.configuration.registerConfigKey, TRP3_API.configuration.registerHandler;
 local ChatEdit_GetActiveWindow, IsAltKeyDown = ChatEdit_GetActiveWindow, IsAltKeyDown;
 local handleCharacterMessage, hooking;
@@ -354,7 +354,7 @@ TRP3_API.utils.getCharacterInfoTab = getCharacterInfoTab;
 
 ---@param message string
 ---@param NPCEmoteChatColor Color
-local function detectEmoteAndOOC(message, NPCEmoteChatColor)
+local function detectEmoteAndOOC(message, NPCEmoteChatColor, isEmote)
 	if disabledByOOC() then
 		return message;
 	end
@@ -423,7 +423,8 @@ local function detectEmoteAndOOC(message, NPCEmoteChatColor)
 		end
 	end
 
-	if configDoSpeechDetection() and message:find('%b""') then
+	-- Only apply speech detections on emotes (excluding NPC non-emote speech)
+	if isEmote and configDoSpeechDetection() and message:find('%b""') then
 		-- Wrapping patterns in a temporary pattern
 		local chatColor = ColorManager.getChatColorForChannel("SAY");
 		message = message:gsub('%b""', function(content)
@@ -596,12 +597,22 @@ function handleCharacterMessage(_, event, message, ...)
 	local messageSender = ...;
 	local messageID = select(10, ...);
 	local NPCEmoteChatColor;
+	local isEmote;
 
 	-- Detect NPC talk pattern on authorized channels
 	if event == "CHAT_MSG_EMOTE" then
+		isEmote = true;
+
 		if message:sub(1, 3) == configNPCTalkPrefix() and configDoHandleNPCTalk() then
 			npcMessageId = messageID;
 			npcMessageName, message, NPCEmoteChatColor = handleNPCEmote(message, messageSender);
+
+			if message == " " then
+				-- Colorize emote and OOC (it's an NPC emote, the content is in the name)
+				npcMessageName = detectEmoteAndOOC(npcMessageName, NPCEmoteChatColor, true);
+			else
+				isEmote = false;
+			end
 
 			-- This is one of Saelora's neat modification
 			-- If the emote starts with 's (the subject of the sentence might be someone's pet or mount)
@@ -628,7 +639,9 @@ function handleCharacterMessage(_, event, message, ...)
 	end
 
 	-- Colorize emote and OOC
-	message = detectEmoteAndOOC(message, NPCEmoteChatColor);
+	if message ~= " " then
+		message = detectEmoteAndOOC(message, NPCEmoteChatColor, isEmote);
+	end
 
 	return false, message, ...;
 end
@@ -777,6 +790,7 @@ function Utils.customGetColoredName(...)
 	return Utils.customGetColoredNameWithCustomFallbackFunction(defaultGetColoredNameFunction, ...);
 end
 
+local textBeforeParse, parsedEditBox;
 function hooking()
 	for _, channel in pairs(POSSIBLE_CHANNELS) do
 		ChatFrame_RemoveMessageEventFilter(channel, handleCharacterMessage);
@@ -823,6 +837,30 @@ function hooking()
 			-- Move the cursor to the end of the insertion
 			editBox:SetCursorPosition(textBefore:len() + name:len());
 
+		end
+	end);
+
+	hooksecurefunc("ChatEdit_ParseText", function(editBox, send)
+		local text = editBox:GetText();
+		if text and send == 1 then
+			textBeforeParse = text;
+			parsedEditBox = editBox;
+			text = text:gsub("%%xtf", getUnitRPFirstName("target") or TARGET_TOKEN_NOT_FOUND);
+			text = text:gsub("%%xtl", getUnitRPLastName("target") or TARGET_TOKEN_NOT_FOUND);
+			text = text:gsub("%%xff", getUnitRPFirstName("focus") or FOCUS_TOKEN_NOT_FOUND);
+			text = text:gsub("%%xfl", getUnitRPLastName("focus") or FOCUS_TOKEN_NOT_FOUND);
+			text = text:gsub("%%xt", getUnitRPName("target") or TARGET_TOKEN_NOT_FOUND);
+			text = text:gsub("%%xf", getUnitRPName("focus") or FOCUS_TOKEN_NOT_FOUND);
+			editBox:SetText(text);
+		end
+	end);
+
+	-- Restore the text without substitution before it's stored in the chat history
+	hooksecurefunc("SubstituteChatMessageBeforeSend", function()
+		if parsedEditBox and textBeforeParse then
+			parsedEditBox:SetText(textBeforeParse);
+			parsedEditBox = nil;
+			textBeforeParse = nil;
 		end
 	end);
 end

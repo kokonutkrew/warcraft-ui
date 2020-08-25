@@ -2,6 +2,15 @@ if not WeakAuras.IsCorrectVersion() then return end
 
 local L = WeakAuras.L
 
+local removeFuncs = WeakAuras.commonOptions.removeFuncs
+local replaceNameDescFuncs = WeakAuras.commonOptions.replaceNameDescFuncs
+local replaceImageFuncs = WeakAuras.commonOptions.replaceImageFuncs
+local replaceValuesFuncs = WeakAuras.commonOptions.replaceValuesFuncs
+local disabledAll = WeakAuras.commonOptions.CreateDisabledAll("animation")
+local hiddenAll = WeakAuras.commonOptions.CreateHiddenAll("animation")
+local getAll = WeakAuras.commonOptions.CreateGetAll("animation")
+local setAll = WeakAuras.commonOptions.CreateSetAll("animation", getAll)
+
 local anim_types = WeakAuras.anim_types;
 local anim_translate_types = WeakAuras.anim_translate_types;
 local anim_scale_types = WeakAuras.anim_scale_types;
@@ -13,6 +22,7 @@ local anim_main_preset_types = WeakAuras.anim_main_preset_types;
 local anim_finish_preset_types = WeakAuras.anim_finish_preset_types;
 local duration_types = WeakAuras.duration_types;
 local duration_types_no_choice = WeakAuras.duration_types_no_choice;
+local anim_ease_types = WeakAuras.anim_ease_types;
 
 local function filterAnimPresetTypes(intable, id)
   local ret = {};
@@ -45,7 +55,8 @@ local function filterAnimPresetTypes(intable, id)
   return ret;
 end
 
-function WeakAuras.AddAnimationOption(id, data)
+function WeakAuras.GetAnimationOptions(data)
+  local id = data.id
   local animation = {
     type = "group",
     name = L["Animations"],
@@ -172,6 +183,25 @@ function WeakAuras.AddAnimationOption(id, data)
         end,
         order = 33.5,
         hidden = function() return data.animation.start.type ~= "custom" end
+      },
+      start_easeType = {
+        type = "select",
+        width = WeakAuras.normalWidth,
+        name = L["Ease type"],
+        values = anim_ease_types,
+        order = 33.7,
+        hidden = function() return data.animation.start.type ~= "custom" end
+      },
+      start_easeStrength = {
+        type = "range",
+        width = WeakAuras.normalWidth,
+        name = L["Ease Strength"],
+        order = 33.8,
+        min = 1,
+        max = 5,
+        bigStep = 1,
+        hidden = function() return data.animation.start.type ~= "custom" end,
+        disabled = function() return data.animation.start.easeType == "none" end
       },
       start_use_alpha = {
         type = "toggle",
@@ -403,6 +433,25 @@ function WeakAuras.AddAnimationOption(id, data)
         order = 53.5,
         hidden = function() return data.animation.main.type ~= "custom" end
       },
+      main_easeType = {
+        type = "select",
+        width = WeakAuras.normalWidth,
+        name = L["Ease type"],
+        values = anim_ease_types,
+        order = 53.7,
+        hidden = function() return data.animation.main.type ~= "custom" end
+      },
+      main_easeStrength = {
+        type = "range",
+        width = WeakAuras.normalWidth,
+        name = L["Ease Strength"],
+        order = 53.8,
+        min = 1,
+        max = 5,
+        bigStep = 1,
+        hidden = function() return data.animation.main.type ~= "custom" end,
+        disabled = function() return data.animation.main.easeType == "none" end
+      },
       main_use_alpha = {
         type = "toggle",
         width = WeakAuras.normalWidth,
@@ -606,6 +655,25 @@ function WeakAuras.AddAnimationOption(id, data)
         order = 73.5,
         hidden = function() return data.animation.finish.type ~= "custom" end
       },
+      finish_easeType = {
+        type = "select",
+        width = WeakAuras.normalWidth,
+        name = L["Ease type"],
+        values = anim_ease_types,
+        order = 73.7,
+        hidden = function() return data.animation.finish.type ~= "custom" end
+      },
+      finish_easeStrength = {
+        type = "range",
+        width = WeakAuras.normalWidth,
+        name = L["Ease Strength"],
+        order = 73.8,
+        min = 1,
+        max = 5,
+        bigStep = 1,
+        hidden = function() return data.animation.finish.type ~= "custom" end,
+        disabled = function() return data.animation.finish.easeType == "none" end
+      },
       finish_use_alpha = {
         type = "toggle",
         width = WeakAuras.normalWidth,
@@ -788,79 +856,113 @@ function WeakAuras.AddAnimationOption(id, data)
   local function hideStartAlphaFunc()
     return data.animation.start.type ~= "custom" or data.animation.start.alphaType ~= "custom" or not data.animation.start.use_alpha
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "start_alphaFunc", 35.3, hideStartAlphaFunc, {"animation", "start", "alphaFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "start_alphaFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#alpha-opacity",
+                          35.3, hideStartAlphaFunc, {"animation", "start", "alphaFunc"}, false);
 
   local function hideStartTranslate()
     return data.animation.start.type ~= "custom" or data.animation.start.translateType ~= "custom" or not data.animation.start.use_translate
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "start_translateFunc", 39.3, hideStartTranslate, {"animation", "start", "translateFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "start_translateFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#translate-position",
+                          39.3, hideStartTranslate, {"animation", "start", "translateFunc"}, false);
 
   local function hideStartScale()
     return data.animation.start.type ~= "custom" or data.animation.start.scaleType ~= "custom" or not (data.animation.start.use_scale and WeakAuras.regions[id].region.Scale)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "start_scaleFunc", 43.3, hideStartScale, {"animation", "start", "scaleFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "start_scaleFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#scale-size",
+                          43.3, hideStartScale, {"animation", "start", "scaleFunc"}, false);
 
   local function hideStartRotateFunc()
     return data.animation.start.type ~= "custom" or data.animation.start.rotateType ~= "custom" or not (data.animation.start.use_rotate and WeakAuras.regions[id].region.Rotate)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "start_rotateFunc", 47.3, hideStartRotateFunc, {"animation", "start", "rotateFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "start_rotateFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#rotate",
+                          47.3, hideStartRotateFunc, {"animation", "start", "rotateFunc"}, false);
 
   local function hideStartColorFunc()
     return data.animation.start.type ~= "custom" or data.animation.start.colorType ~= "custom" or not (data.animation.start.use_color and WeakAuras.regions[id].region.Color)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "start_colorFunc", 48.7, hideStartColorFunc, {"animation", "start", "colorFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "start_colorFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#color",
+                          48.7, hideStartColorFunc, {"animation", "start", "colorFunc"}, false);
 
   -- Text Editors for "main"
   local function hideMainAlphaFunc()
     return data.animation.main.type ~= "custom" or data.animation.main.alphaType ~= "custom" or not data.animation.main.use_alpha
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "main_alphaFunc", 55.3, hideMainAlphaFunc, {"animation", "main", "alphaFunc"}, false, nil, extraSetFunction);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "main_alphaFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#alpha-opacity",
+                          55.3, hideMainAlphaFunc, {"animation", "main", "alphaFunc"}, false, nil, extraSetFunction);
 
   local function hideMainTranslate()
     return data.animation.main.type ~= "custom" or data.animation.main.translateType ~= "custom" or not data.animation.main.use_translate
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "main_translateFunc", 59.3, hideMainTranslate, {"animation", "main", "translateFunc"}, false, nil, extraSetFunction);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "main_translateFunc",  "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#translate-position",
+                          59.3, hideMainTranslate, {"animation", "main", "translateFunc"}, false, nil, extraSetFunction);
 
   local function hideMainScale()
     return data.animation.main.type ~= "custom" or data.animation.main.scaleType ~= "custom" or not (data.animation.main.use_scale and WeakAuras.regions[id].region.Scale)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "main_scaleFunc", 63.3, hideMainScale, {"animation", "main", "scaleFunc"}, false, nil, extraSetFunction);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "main_scaleFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#scale-sizes",
+                          63.3, hideMainScale, {"animation", "main", "scaleFunc"}, false, nil, extraSetFunction);
 
   local function hideMainRotateFunc()
     return data.animation.main.type ~= "custom" or data.animation.main.rotateType ~= "custom" or not (data.animation.main.use_rotate and WeakAuras.regions[id].region.Rotate)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "main_rotateFunc", 67.3, hideMainRotateFunc, {"animation", "main", "rotateFunc"}, false, nil, extraSetFunction);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "main_rotateFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#rotate",
+                          67.3, hideMainRotateFunc, {"animation", "main", "rotateFunc"}, false, nil, extraSetFunction);
 
   local function hideMainColorFunc()
     return data.animation.main.type ~= "custom" or data.animation.main.colorType ~= "custom" or not (data.animation.main.use_color and WeakAuras.regions[id].region.Color)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "main_colorFunc", 68.7, hideMainColorFunc, {"animation", "main", "colorFunc"}, false, nil, extraSetFunction);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "main_colorFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#color",
+                          68.7, hideMainColorFunc, {"animation", "main", "colorFunc"}, false, nil, extraSetFunction);
 
   -- Text Editors for "finish"
   local function hideFinishAlphaFunc()
     return data.animation.finish.type ~= "custom" or data.animation.finish.alphaType ~= "custom" or not data.animation.finish.use_alpha
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "finish_alphaFunc", 75.3, hideFinishAlphaFunc, {"animation", "finish", "alphaFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "finish_alphaFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#alpha-opacity",
+                          75.3, hideFinishAlphaFunc, {"animation", "finish", "alphaFunc"}, false);
 
   local function hideFinishTranslate()
     return data.animation.finish.type ~= "custom" or data.animation.finish.translateType ~= "custom" or not data.animation.finish.use_translate
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "finish_translateFunc", 79.3, hideFinishTranslate, {"animation", "finish", "translateFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "finish_translateFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#translate-position",
+                          79.3, hideFinishTranslate, {"animation", "finish", "translateFunc"}, false);
 
   local function hideFinishScale()
     return data.animation.finish.type ~= "custom" or data.animation.finish.scaleType ~= "custom" or not (data.animation.finish.use_scale and WeakAuras.regions[id].region.Scale)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "finish_scaleFunc", 83.3, hideFinishScale, {"animation", "finish", "scaleFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "finish_scaleFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#scale-size",
+                          83.3, hideFinishScale, {"animation", "finish", "scaleFunc"}, false);
 
   local function hideFinishRotateFunc()
     return data.animation.finish.type ~= "custom" or data.animation.finish.rotateType ~= "custom" or not (data.animation.finish.use_rotate and WeakAuras.regions[id].region.Rotate)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "finish_rotateFunc", 87.3, hideFinishRotateFunc, {"animation", "finish", "rotateFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "finish_rotateFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#rotate",
+                          87.3, hideFinishRotateFunc, {"animation", "finish", "rotateFunc"}, false);
 
   local function hideFinishColorFunc()
     return data.animation.finish.type ~= "custom" or data.animation.finish.colorType ~= "custom" or not (data.animation.finish.use_color and WeakAuras.regions[id].region.Color)
   end
-  WeakAuras.AddCodeOption(animation.args, data, L["Custom Function"], "finish_colorFunc", 88.7, hideFinishColorFunc, {"animation", "finish", "colorFunc"}, false);
+  WeakAuras.commonOptions.AddCodeOption(animation.args, data, L["Custom Function"], "finish_colorFunc", "https://github.com/WeakAuras/WeakAuras2/wiki/Custom-Code-Blocks#color",
+                          88.7, hideFinishColorFunc, {"animation", "finish", "colorFunc"}, false);
+
+  if(data.controlledChildren) then
+    removeFuncs(animation);
+    replaceNameDescFuncs(animation, data, "animation");
+    replaceImageFuncs(animation, data, "animation");
+    replaceValuesFuncs(animation, data, "animation");
+
+    animation.get = function(info, ...) return getAll(data, info, ...); end;
+    animation.set = function(info, ...)
+      setAll(data, info, ...);
+      if(type(data.id) == "string") then
+        WeakAuras.Add(data);
+        WeakAuras.UpdateThumbnail(data);
+        WeakAuras.ResetMoverSizer();
+      end
+    end
+    animation.hidden = function(info, ...) return hiddenAll(data, info, ...); end;
+    animation.disabled = function(info, ...) return disabledAll(data, info, ...); end;
+  end
 
   return animation;
 end

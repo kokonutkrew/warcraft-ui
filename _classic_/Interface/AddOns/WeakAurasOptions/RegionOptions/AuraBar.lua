@@ -62,8 +62,7 @@ local function createOptions(id, data)
 
         data.orientation = v;
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -150,8 +149,7 @@ local function createOptions(id, data)
       set = function(info, v)
         data.displayIcon = v;
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
       end
     },
     chooseIcon = {
@@ -184,8 +182,7 @@ local function createOptions(id, data)
       set = function(info, v)
         data.icon_side = v;
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
-        WeakAuras.SetIconNames(data);
+        WeakAuras.UpdateThumbnail(data);
       end
     },
     desaturate = {
@@ -412,14 +409,14 @@ local function createOptions(id, data)
 
   return {
     aurabar = options,
-    position = WeakAuras.PositionOptions(id, data),
+    position = WeakAuras.commonOptions.PositionOptions(id, data),
   };
 end
 
 -- Create preview thumbnail
-local function createThumbnail(parent)
+local function createThumbnail()
   -- Preview frame
-  local borderframe = CreateFrame("FRAME", nil, parent);
+  local borderframe = CreateFrame("FRAME", nil, UIParent);
   borderframe:SetWidth(32);
   borderframe:SetHeight(32);
 
@@ -457,7 +454,9 @@ local function modifyThumbnail(parent, borderframe, data, fullModify, width, hei
   -- Localize
   local region, bar, texture, icon = borderframe.region, borderframe.bar, borderframe.texture, borderframe.icon;
 
-  -- Defaut size
+  borderframe:SetParent(parent)
+
+  -- Default size
   width  = width or 26;
   height = height or 15;
 
@@ -565,6 +564,7 @@ local function modifyThumbnail(parent, borderframe, data, fullModify, width, hei
         icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark");
       end
     end
+
     icon:Show();
   else
     icon:Hide();
@@ -750,12 +750,12 @@ local function subCreateOptions(parentData, data, index, subIndex)
     __order = 1,
     __up = function()
       if (WeakAuras.ApplyToDataOrChildData(parentData, WeakAuras.MoveSubRegionUp, index, "aurabar_bar")) then
-        WeakAuras.ReloadOptions2(parentData.id, parentData)
+        WeakAuras.ClearAndUpdateOptions(parentData.id)
       end
     end,
     __down = function()
       if (WeakAuras.ApplyToDataOrChildData(parentData, WeakAuras.MoveSubRegionDown, index, "aurabar_bar")) then
-        WeakAuras.ReloadOptions2(parentData.id, parentData)
+        WeakAuras.ClearAndUpdateOptions(parentData.id, parentData)
       end
     end,
     __nooptions = true

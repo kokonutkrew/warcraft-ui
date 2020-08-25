@@ -1,0 +1,14 @@
+## Title: NaxxChatAlarm |cff00aa00Classic|r
+## Notes: AutoPost & Chatfilter
+## Version: 1.3.3.1
+## Author: Naxxrama | Everlook  - Karsten Potreck
+## Interface: 11303
+## SavedVariablesPerCharacter: ChatAlarm
+## X-Curse-Project-ID: 345449
+
+init.lua
+NcaFrame.lua
+NcaFrame.xml
+interfaceOptions.lua
+
+

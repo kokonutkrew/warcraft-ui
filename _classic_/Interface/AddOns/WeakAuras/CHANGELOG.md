@@ -1,23 +1,25 @@
-# [2.15.5](https://github.com/WeakAuras/WeakAuras2/tree/2.15.5) (2019-10-22)
+# [2.18.2](https://github.com/WeakAuras/WeakAuras2/tree/2.18.2) (2020-08-11)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.15.4...2.15.5)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.18.1...2.18.2)
 
 ## Highlights
 
- - A few more bug fixes 
+ - Bug Fixes 
 
 ## Commits
 
+InfusOnWoW (4):
+
+- Fix cast bars not having fake timers
+- Fix setting of timed duration in custom trigger
+- Options: GetAll
+- Fix trigger options not appearing at all if the type is nil
+
 Stanzilla (1):
 
-- drop branch name from PR artifacts
+- Update bug_report.md
 
-Vardex (1):
+mrbuds (1):
 
-- Fix weapon enchant shortened name
-
-mrbuds (2):
-
-- swing timer: fix nil error if no offhand equiped
-- update "Cooldown Progress (Equipment Slot)" for handling amno fixes #1762 refresh on UNIT_INVENTORY_CHANGED add a stacksFunc
+- re-enable model region for classic (#2379)
 

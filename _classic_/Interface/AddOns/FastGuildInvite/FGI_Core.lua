@@ -80,44 +80,74 @@ local supportedTypes = {
 	COMMUNITIES_WOW_MEMBER = 1,
 	COMMUNITIES_GUILD_MEMBER = 1,
 }
+local function HandlesGlobalMouseEvent(self, button, event)
+	if event == "GLOBAL_MOUSE_DOWN" and (button == "LeftButton" or button == "RightButton")then
+		return true
+	end
+	return false
+end
 
-local f = GUI:Create("SimpleGroup")
-f:SetWidth(150)
-f:SetHeight(42)
+addon.MENU = GUI:Create("SimpleGroup")
+local f = addon.MENU
+f:SetWidth(135)
+f:SetHeight(63)
 f:SetLayout("NIL")
 
 local invite = GUI:Create('Button')
 invite:SetText('FGI - Guild Invite')
-invite:SetWidth(150)
+invite:SetWidth(135)
 invite:SetHeight(20)
+invite.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
 invite:SetCallback('OnClick', function()
 	local name = f.name
 	GuildInvite(name)
 	fn:rememberPlayer(name)
-	DropDownList1:Hide()
+	CloseDropDownMenus()
 end)
 invite:SetPoint("TOPLEFT", f.frame, "TOPLEFT", 0, 0)
 f:AddChild(invite)
 
 local blacklist = GUI:Create('Button')
 blacklist:SetText('FGI - Black List')
-blacklist:SetWidth(150)
+blacklist:SetWidth(135)
 blacklist:SetHeight(20)
+blacklist.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
 blacklist:SetCallback('OnClick', function()
-	local name = f.name
+	local name = fn:parseName(f.name)
 	fn:blackList(name)
 	interface.settings.Blacklist.content:update()
-	StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = name})
-	DropDownList1:Hide()
+	if not DB.global.fastBlacklist then
+		StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = name})
+	end
+	CloseDropDownMenus()
 end)
 blacklist:SetPoint("TOPLEFT", invite.frame, "BOTTOMLEFT", 0, 0)
 f:AddChild(blacklist)
+
+local unblacklist = GUI:Create('Button')
+unblacklist:SetText('FGI - Unblacklist')
+unblacklist:SetWidth(135)
+unblacklist:SetHeight(20)
+unblacklist.frame.HandlesGlobalMouseEvent = HandlesGlobalMouseEvent
+unblacklist:SetCallback('OnClick', function()
+	local name = fn:parseName(f.name)
+	fn:unblacklist(name)
+	CloseDropDownMenus()
+end)
+unblacklist:SetPoint("TOPLEFT", blacklist.frame, "BOTTOMLEFT", 0, 0)
+f:AddChild(unblacklist)
 
 local function DropDownOnShow(self)
 	local dropdown = self.dropdown
 	if not dropdown then
 		return
 	end
+	
+	f.frame:SetParent(self)
+	f.frame:SetFrameStrata(self:GetFrameStrata())
+	f.frame:SetFrameLevel(self:GetFrameLevel() + 2)
+	f:ClearAllPoints()
+	
 	if dropdown.Button == _G.LFGListFrameDropDownButton then -- LFD
 		-- ShowCustomDropDown(self, dropdown, dropdown.menuList[2].arg1)
 	elseif dropdown.which and supportedTypes[dropdown.which] then -- UnitPopup
@@ -134,12 +164,11 @@ local function DropDownOnShow(self)
 	else
 		return
 	end
-	if DropDownList1:GetLeft() >= DropDownList1:GetWidth() then
-		f:ClearAllPoints()
-		f:SetPoint("TOPRIGHT", DropDownList1, "TOPLEFT",0,0)
+	
+	if self:GetLeft() >= self:GetWidth() then
+		f:SetPoint("TOPRIGHT", self, "TOPLEFT",0,0)
 	else
-		f:ClearAllPoints()
-		f:SetPoint("TOPLEFT", DropDownList1, "TOPRIGHT",0,0)
+		f:SetPoint("TOPLEFT", self, "TOPRIGHT",0,0)
 	end
 	f.frame:Show()
 end
@@ -331,6 +360,13 @@ local defaultSettings =  {
 		queueNotify = true,
 		searchAlertNotify = true,
 		createMenuButtons = true,
+		setNote = false,
+		noteText = "",
+		setOfficerNote = false,
+		officerNoteText = "",
+		confirmSearchClear = true,
+		fastBlacklist = false,
+		introShow = true,
 	},
 } 
 
@@ -423,12 +459,16 @@ function Console:FGIInput(str)
 	elseif str == "nextSearch" then
 		interface.scanFrame.pausePlay.frame:Click()
 	elseif str:find("^blacklist") then 
-		local name,reason = fn:parseBL(str)
+		local name,reason = fn:parseBL("blacklist", str)
 		if not name then return print('Blacklist: nil name') end
 		fn:blackList(name, reason)
-		if not reason then
+		if not reason and not DB.global.fastBlacklist then
 			StaticPopup_Show("FGI_BLACKLIST_CHANGE", _,_,  {name = name})
 		end
+	elseif str:find("^unblacklist") then 
+		local name = fn:parseBL("unblacklist", str)
+		if not name then return print('Unblacklist: nil name') end
+		fn:unblacklist(name)
 	elseif str == 'debug' then 
 		toggleDebug()
 	elseif str == 'resetDB' then DB.realm.alreadySended = {}
@@ -453,6 +493,8 @@ function Console:FGIInput(str)
 		C_UI.Reload()
 	elseif str == "factorySettings" then
 		FastGuildInvite.db:ResetDB()
+	else
+		return print(format("FGI - unregistered command \"%s\"", str))
 	end
 end
 
@@ -465,6 +507,7 @@ function Console:FGIHelp()
 	print(L.invite)
 	print(L.nextSearch)
 	print(L.blacklist)
+	print(L.unblacklist)
 	print(L.help2)
 end
 

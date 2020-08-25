@@ -22,7 +22,9 @@ function Spy:InitOrder()
 end
 
 function Spy:SetWindowTop(window)
-	if InCombatLockdown() then return end
+	if InCombatLockdown() then
+		return
+	end
 	local Check = window.Above
 
 	while Check ~= nil do
@@ -64,7 +66,7 @@ end
 
 function Spy:LockWindows(lock)
 	for k, v in pairs(AllWindows) do
-		if not Spy.db.profile.InvertSpy then	
+		if not Spy.db.profile.InvertSpy then
 			if v.DragBottomRight then
 				v.isLocked = lock
 				v:EnableMouse(not lock)
@@ -95,5 +97,11 @@ function Spy:LockWindows(lock)
 				v:EnableMouse(true)	
 			end
 		end
+	end
+end
+
+function Spy:ClampToScreen()
+	for k, v in pairs(AllWindows) do
+		v:SetClampedToScreen(Spy.db.profile.ClampToScreen)
 	end
 end

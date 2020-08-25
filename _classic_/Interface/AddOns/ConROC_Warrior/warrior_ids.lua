@@ -32,6 +32,7 @@ local ConROC_Warrior, ids = ...;
 		HeroicStrikeRank6 = 11565,
 		HeroicStrikeRank7 = 11566,
 		HeroicStrikeRank8 = 11567,
+		HeroicStrikeRank9 = 25286,
 		MockingBlowRank1 = 694,
 		MockingBlowRank2 = 7400,
 		MockingBlowRank3 = 7402,
@@ -155,7 +156,7 @@ local ConROC_Warrior, ids = ...;
 		ImprovedBerserkerRage = 15,
 		Flurry = 16,
 		
-		BloodThirst = 17,
+		Bloodthirst = 17,
 	}
 --Protection
 	ids.Prot_Ability = {

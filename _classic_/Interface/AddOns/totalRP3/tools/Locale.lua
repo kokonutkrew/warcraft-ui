@@ -478,6 +478,15 @@ Class: 50 characters|r]],
 	CO_TOOLTIP_PROFILE_ONLY = "Use only if target has a profile",
 	CO_TOOLTIP_IN_CHARACTER_ONLY = "Hide when out of character",
 	CO_REGISTER = "Register settings",
+	CO_REGISTER_ABOUT_SETTINGS = "\"About\" settings",
+	CO_REGISTER_ABOUT_H1_SIZE = "Header 1 text size",
+	CO_REGISTER_ABOUT_H1_SIZE_TT = "Size of the text between {h1} tags. Default: %s",
+	CO_REGISTER_ABOUT_H2_SIZE = "Header 2 text size",
+	CO_REGISTER_ABOUT_H2_SIZE_TT = "Size of the text between {h2} tags. Default: %s",
+	CO_REGISTER_ABOUT_H3_SIZE = "Header 3 text size",
+	CO_REGISTER_ABOUT_H3_SIZE_TT = "Size of the text between {h3} tags. Default: %s",
+	CO_REGISTER_ABOUT_P_SIZE = "Paragraph text size",
+	CO_REGISTER_ABOUT_P_SIZE_TT = "Size of the text outside of header tags. Default: %s",
 	CO_REGISTER_AUTO_PURGE = "Auto purge directory",
 	CO_REGISTER_AUTO_PURGE_TT = "Automatically remove from directory the profiles of characters you haven't crossed for a certain time. You can choose the delay before deletion.\n\n|cff00ff00Note that profiles with a relation toward one of your characters will never be purged.\n\n|cffff9900There is a bug in WoW losing all the saved data when it reaches a certain threshold. We strongly recommend to avoid disabling the purge system.",
 	CO_REGISTER_AUTO_PURGE_0 = "Disable purge",
@@ -979,18 +988,6 @@ A mature profile will have a muted tooltip and you will have to confirm that you
 	MATURE_FILTER_STRENGTH_TT = [[Set the strength of the mature filter.
 
 |cffcccccc1 is weak (10 bad words required to flag), 10 is strong (only 1 bad word required to flag).|r]],
-	MATURE_FILTER_ADD_TO_WHITELIST = "Add this profile to the |cffffffffmature white list|r",
-	MATURE_FILTER_ADD_TO_WHITELIST_TT = "Add this profile to the |cffffffffmature white list|r and reveal the mature content found inside.",
-	MATURE_FILTER_ADD_TO_WHITELIST_OPTION = "Add to the |cffffffffmature white list|r",
-	MATURE_FILTER_ADD_TO_WHITELIST_TEXT = [[Confirm that you want to add %s to the |cffffffffmature white list|r.
-
-The content of their profiles will no longer be hidden.]],
-	MATURE_FILTER_REMOVE_FROM_WHITELIST = "Remove this profile from the |cffffffffmature white list|r",
-	MATURE_FILTER_REMOVE_FROM_WHITELIST_TT = "Remove this profile from the |cffffffffmature white list|r and hide again the mature content found inside.",
-	MATURE_FILTER_REMOVE_FROM_WHITELIST_OPTION = "Remove from the |cffffffffmature white list|r",
-	MATURE_FILTER_REMOVE_FROM_WHITELIST_TEXT = [[Confirm that you want to remove %s from the |cffffffffmature white list|r.
-
-The content of their profiles will be hidden again.]],
 	MATURE_FILTER_FLAG_PLAYER = "Flag as mature",
 	MATURE_FILTER_FLAG_PLAYER_TT = "Flag this profile has containing mature content. The profile content will be hidden.",
 	MATURE_FILTER_FLAG_PLAYER_OPTION = "Flag as mature",
@@ -1294,12 +1291,6 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 - Fixed an issue when using the "Right-click to open profile" setting on Classic.
 
 ]],
-
-	------------------------------------------------------------------------------------------------
-	--- PLACE LOCALIZATION NOT ALREADY UPLOADED TO CURSEFORGE HERE
-	--- THEN MOVE IT UP ONCE IMPORTED
-	------------------------------------------------------------------------------------------------
-
 	CO_CHAT_MAIN_SPEECH = "Speech detection",
 	CO_CHAT_MAIN_SPEECH_USE = "Use speech detection",
 	CO_CHAT_MAIN_SPEECH_USE_TT = "Text surrounded by quotation marks will be colored as if written in /say.",
@@ -1318,6 +1309,102 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 - The companion profiles list accessed through the target frame is now alphabetically sorted, and "Create new profile" has been moved out of it.
 
 ]],
+	---@language Markdown
+	WHATS_NEW_23_8 = [[
+# Changelog version 1.6.8
+
+## Changed
+
+- **Classic:** Due to 1.13.3 API changes, the map scan has been modified to find characters in yell range only. It will only show on the map you're in. **Only characters using Total RP 3 version 1.6.8 will be visible on the scan.**
+
+*Reminder : You can disable your scan appearance by unchecking "Register settings > Location settings > Enable character location. Please don't hold on the update for visibility reasons.*
+
+- Speech detection will now only apply to emotes (including NPC emotes).
+
+## Fixed
+
+- Fixed a rare issue where the addon loading process would be interrupted by a setting key unable to be read.
+
+]],
+	---@language Markdown
+	WHATS_NEW_23_9 = [[
+# Changelog version 1.6.9
+
+## Added
+
+- Added 61 musics, 5 images and 223 icons on Retail from patch 8.3.
+- Added 177 images on Retail from previous patches.
+- Added 1 icon on Classic from patch 1.13.3.
+- Added default icons for Vulperas and Mechagnomes.
+
+## Changed
+
+- Changed default Kul Tiran female icon.
+
+## Fixed
+
+- Added workaround to Classic map scan to handle Blizzard's lack of tests.
+- Fixed an issue when trying to use icons with an apostrophe in their name.
+- Image browser filter now correctly handles some special characters.
+
+]],
+	---@language Markdown
+	WHATS_NEW_23_10 = [[
+# Changelog version 1.6.10
+
+## Added
+
+- Added %xt and %xf chat tokens. These will automatically be replaced by the RP name of your target and focus respectively when sending a message.
+- Added settings to adjust About font sizes.
+
+]],
+	WHATS_NEW_23_11 = [[
+	# Changelog version 1.6.11
+
+## Added
+
+- Added new chat tokens for first and last names: %xtf (Target's first name), %xtl (Target's last name), %xff (Focus' first name), %xfl (Focus' last name).
+
+## Fixed
+
+- Fixed an issue when trying to add a chat link to an empty chatbox.
+- Fixed a compatibility issue with PallyPower.
+
+]],
+
+	------------------------------------------------------------------------------------------------
+	--- PLACE LOCALIZATION NOT ALREADY UPLOADED TO CURSEFORGE HERE
+	--- THEN MOVE IT UP ONCE IMPORTED
+	------------------------------------------------------------------------------------------------
+	MATURE_FILTER_ADD_TO_SAFELIST = "Add this profile to the |cffffffffmature safelist|r",
+	MATURE_FILTER_ADD_TO_SAFELIST_TT = "Add this profile to the |cffffffffmature safelist|r and reveal the mature content found inside.",
+	MATURE_FILTER_ADD_TO_SAFELIST_OPTION = "Add to the |cffffffffmature safelist|r",
+	MATURE_FILTER_ADD_TO_SAFELIST_TEXT = [[Confirm that you want to add %s to the |cffffffffmature safelist|r.
+
+The content of their profiles will no longer be hidden.]],
+	MATURE_FILTER_REMOVE_FROM_SAFELIST = "Remove this profile from the |cffffffffmature safelist|r",
+	MATURE_FILTER_REMOVE_FROM_SAFELIST_TT = "Remove this profile from the |cffffffffmature safelist|r and hide again the mature content found inside.",
+	MATURE_FILTER_REMOVE_FROM_SAFELIST_OPTION = "Remove from the |cffffffffmature safelist|r",
+	MATURE_FILTER_REMOVE_FROM_SAFELIST_TEXT = [[Confirm that you want to remove %s from the |cffffffffmature safelist|r.
+
+The content of their profiles will be hidden again.]],
+	WHATS_NEW_23_12 = [[
+# Changelog version 1.6.12
+
+## Fixed
+
+- Tentatively fixed an issue with tooltip lines.
+- Fixed an issue with the residence button on Classic.
+
+]],
+	WHATS_NEW_23_13 =  [[# Changelog version 1.6.13
+
+## Fixed
+
+- Fixed an issue with upgrade patches that would happen only for people with a clean install of the add-on. - #407
+
+]],
+
 };
 
 -- Use Ellyb to generate the Localization system
@@ -1619,6 +1706,15 @@ Possible status:
 	["CO_MSP_T3"] = "Use template 3 only",
 	["CO_MSP_T3_TT"] = "Even if you choose another \"about\" template, the template 3 will always be used for MSP compatibility.",
 	["CO_REGISTER"] = "Register settings",
+	["CO_REGISTER_ABOUT_H1_SIZE"] = "Header 1 text size",
+	["CO_REGISTER_ABOUT_H1_SIZE_TT"] = "Size of the text between {h1} tags. Default: %s",
+	["CO_REGISTER_ABOUT_H2_SIZE"] = "Header 2 text size",
+	["CO_REGISTER_ABOUT_H2_SIZE_TT"] = "Size of the text between {h2} tags. Default: %s",
+	["CO_REGISTER_ABOUT_H3_SIZE"] = "Header 3 text size",
+	["CO_REGISTER_ABOUT_H3_SIZE_TT"] = "Size of the text between {h3} tags. Default: %s",
+	["CO_REGISTER_ABOUT_P_SIZE"] = "Paragraph text size",
+	["CO_REGISTER_ABOUT_P_SIZE_TT"] = "Size of the text outside of header tags. Default: %s",
+	["CO_REGISTER_ABOUT_SETTINGS"] = "\"About\" settings",
 	["CO_REGISTER_ABOUT_VOTE"] = "Use voting system",
 	["CO_REGISTER_ABOUT_VOTE_TT"] = "Enables the voting system, allowing you to vote ('like' or 'unlike') for others' descriptions and allowing them to do the same for you.",
 	["CO_REGISTER_AUTO_ADD"] = "Auto add new players",
@@ -1776,6 +1872,12 @@ to others that you are a beginner roleplayer.]=],
 	["MAP_BUTTON_TITLE"] = "Scan for roleplay",
 	["MAP_SCAN_CHAR"] = "Scan for characters",
 	["MAP_SCAN_CHAR_TITLE"] = "Characters",
+	["MATURE_FILTER_ADD_TO_SAFELIST"] = "Add this profile to the |cffffffffmature safelist|r",
+	["MATURE_FILTER_ADD_TO_SAFELIST_OPTION"] = "Add to the |cffffffffmature safelist|r",
+	["MATURE_FILTER_ADD_TO_SAFELIST_TEXT"] = [=[Confirm that you want to add %s to the |cffffffffmature safelist|r.
+
+The content of their profiles will no longer be hidden.]=],
+	["MATURE_FILTER_ADD_TO_SAFELIST_TT"] = "Add this profile to the |cffffffffmature safelist|r and reveal the mature content found inside.",
 	["MATURE_FILTER_ADD_TO_WHITELIST"] = "Add this profile to the |cffffffffmature white list|r",
 	["MATURE_FILTER_ADD_TO_WHITELIST_OPTION"] = "Add to the |cffffffffmature white list|r",
 	["MATURE_FILTER_ADD_TO_WHITELIST_TEXT"] = [=[Confirm that you want to add %s to the |cffffffffmature white list|r.
@@ -1805,6 +1907,12 @@ The content of their profiles will no longer be hidden.]=],
 A mature profile will have a muted tooltip and you will have to confirm that you want to view the profile the first time you open it.
 
 |cffccccccNote: The mature filter dictionary is pre-populated with a list of words from a crowd sourced repository. You can edit the words using the option below.|r]=],
+	["MATURE_FILTER_REMOVE_FROM_SAFELIST"] = "Remove this profile from the |cffffffffmature safelist|r",
+	["MATURE_FILTER_REMOVE_FROM_SAFELIST_OPTION"] = "Remove from the |cffffffffmature safelist|r",
+	["MATURE_FILTER_REMOVE_FROM_SAFELIST_TEXT"] = [=[Confirm that you want to remove %s from the |cffffffffmature safelist|r.
+
+The content of their profiles will be hidden again.]=],
+	["MATURE_FILTER_REMOVE_FROM_SAFELIST_TT"] = "Remove this profile from the |cffffffffmature safelist|r and hide again the mature content found inside.",
 	["MATURE_FILTER_REMOVE_FROM_WHITELIST"] = "Remove this profile from the |cffffffffmature white list|r",
 	["MATURE_FILTER_REMOVE_FROM_WHITELIST_OPTION"] = "Remove from the |cffffffffmature white list|r",
 	["MATURE_FILTER_REMOVE_FROM_WHITELIST_TEXT"] = [=[Confirm that you want to remove %s from the |cffffffffmature white list|r.
@@ -2531,15 +2639,15 @@ Changes your character status to the specified option:
 {p:c}{link*http://totalrp3.info*TotalRP3.info} — {twitter*TotalRP3*@TotalRP3} {/p}
 {p:c}{link*http://discord.totalrp3.info*Join us on Discord}{/p}
 
-{h2}{icon:INV_Eng_gizmo1:20} Created by{/h2}
+{h2}{icon:Trade_Engineering:20} Created by{/h2}
 %AUTHORS$s
 
-{h2}{icon:QUEST_KHADGAR:20} The Rest of the Team{/h2}
+{h2}{icon:Achievement_General_StayClassy:20} The Rest of the Team{/h2}
 %CONTRIBUTORS$s
 
-{h2}{icon:THUMBUP:20} Acknowledgements{/h2}
+{h2}{icon:Spell_Holy_HealingAura:20} Acknowledgements{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
-- {link*https://twitter.com/Kelandiir*@Kelandiir}
+- {link*https://ebonfeathers.tumblr.com/*EbonFeather@Tumblr}
 
 {col:ffffff}Our pre-alpha QA team:{/col}
 %TESTERS$s
@@ -2661,6 +2769,32 @@ The register also received a checkbox to only display profiles on which you wrot
 - Fixed an error message that could be caused by other addons misusing official API functions.
 
 ]=],
+	["WHATS_NEW_23_10"] = [=[
+# Changelog version 1.6.10
+
+## Added
+
+- Added %xt and %xf chat tokens. These will automatically be replaced by the RP name of your target and focus respectively when sending a message.
+- Added settings to adjust About font sizes.
+
+]=],
+	["WHATS_NEW_23_11"] = [=[
+	# Changelog version 1.6.11
+## Added
+- Added new chat tokens for first and last names: %xtf (Target's first name), %xtl (Target's last name), %xff (Focus' first name), %xfl (Focus' last name).
+## Fixed
+- Fixed an issue when trying to add a chat link to an empty chatbox.
+- Fixed a compatibility issue with PallyPower.
+]=],
+	["WHATS_NEW_23_12"] = [=[
+# Changelog version 1.6.12
+
+## Fixed
+
+- Tentatively fixed an issue with tooltip lines.
+- Fixed an issue with the residence button on Classic.
+
+]=],
 	["WHATS_NEW_23_2"] = [=[
 # Changelog version 1.6.2
 
@@ -2758,6 +2892,43 @@ We are aware of a current issue on Retail causing **quest item usage from the ob
 ## Changed
 
 - The companion profiles list accessed through the target frame is now alphabetically sorted, and "Create new profile" has been moved out of it.
+
+]=],
+	["WHATS_NEW_23_8"] = [=[
+# Changelog version 1.6.8
+
+## Changed
+
+- **Classic:** Due to 1.13.3 API changes, the map scan has been modified to find characters in yell range only. It will only show on the map you're in. **Only characters using Total RP 3 version 1.6.8 will be visible on the scan.**
+
+*Reminder : You can disable your scan appearance by unchecking "Register settings > Location settings > Enable character location. Please don't hold on the update for visibility reasons.*
+
+- Speech detection will now only apply to emotes (including NPC emotes).
+
+## Fixed
+
+- Fixed a rare issue where the addon loading process would be interrupted by a setting key unable to be read.
+
+]=],
+	["WHATS_NEW_23_9"] = [=[
+# Changelog version 1.6.9
+
+## Added
+
+- Added 61 musics, 5 images and 223 icons on Retail from patch 8.3.
+- Added 177 images on Retail from previous patches.
+- Added 1 icon on Classic from patch 1.13.3.
+- Added default icons for Vulperas and Mechagnomes.
+
+## Changed
+
+- Changed default Kul Tiran female icon.
+
+## Fixed
+
+- Added workaround to Classic map scan to handle Blizzard's lack of tests.
+- Fixed an issue when trying to use icons with an apostrophe in their name.
+- Image browser filter now correctly handles some special characters.
 
 ]=]
 }
@@ -3863,31 +4034,25 @@ Zum Beispiel kann du folgendes angeben: |c0000ff00schlank, dick or muskulös...|
 {p:c}{col:6eff51}Version %s (build %s){/col}{/p}
 {p:c}{link*http://totalrp3.info*TotalRP3.info}{/p}
 
-{h2}{icon:INV_Eng_gizmo1:20} Created by{/h2}
-- Renaud "{twitter*EllypseCelwe*Ellypse}" Parize
-- Sylvain "{twitter*Telkostrasz*Telkostrasz}" Cossement
+{h2}{icon:Trade_Engineering:20} Created by{/h2}
+%AUTHORS$s
 
+{h2}{icon:Achievement_General_StayClassy:20} The Rest of the Team{/h2}
+%CONTRIBUTORS$s
 
-{h2}{icon:THUMBUP:20} Danksagungen{/h2}
+{h2}{icon:Spell_Holy_HealingAura:20} Danksagungen{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
 - {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Unser Pre-Alpha QA Team:{/col}
-- Saelora
-- Erzan
-- Calian
-- Kharess
-- Alnih
-- 611
+%TESTERS$s
 
 {col:ffffff}Danke an alle unsere Freunde für Ihre Unterstützung in all diesen Jahren:{/col}
 - Für Telkos: Kharess, Kathryl, Marud, Solona, Stretcher, Lisma...
-- Für Ellypse: The guilds Maison Celwë'Belore, Mercenaires Atal'ai, und ganz besonders Erzan, Elenna, Caleb, Siana and Adaeria
+- Für Ellypse: The guilds Eglise du Saint Gamon, Maison Celwë'Belore, Mercenaires Atal'ai, und ganz besonders Erzan, Elenna, Caleb, Siana and Adaeria
 
 {col:ffffff}Danke für die Hilfe die "Total RP Gilde" auf Kirin Tor (EU) zu erstellen:{/col}
-- Azane
-- Hellclaw
-- Leylou
+%GUILD_MEMBERS$s
 
 {col:ffffff}Danke an Horionne für das zusend einer Ausgabe von dem Magazin "Gamer Culte Online #14" mit einem Artikel über Total RP.{/col}]=],
 	["THANK_YOU_ROLE_AUTHOR"] = "Autor",
@@ -4222,6 +4387,15 @@ Statuts possibles:
 	["CO_MSP_T3"] = "Utiliser uniquement le modèle 3",
 	["CO_MSP_T3_TT"] = "Même si vous choisissez un autre modèle \"À propos\", le modèle 3 sera toujours utilisé pour la compatibilité avec MSP.",
 	["CO_REGISTER"] = "Registre",
+	["CO_REGISTER_ABOUT_H1_SIZE"] = "Taille de texte d'en-tête 1",
+	["CO_REGISTER_ABOUT_H1_SIZE_TT"] = "Taille du texte entre les balises {h1}. Valeur par défaut: %s",
+	["CO_REGISTER_ABOUT_H2_SIZE"] = "Taille de texte d'en-tête 2",
+	["CO_REGISTER_ABOUT_H2_SIZE_TT"] = "Taille du texte entre les balises {h2}. Valeur par défaut: %s",
+	["CO_REGISTER_ABOUT_H3_SIZE"] = "Taille de texte d'en-tête 3",
+	["CO_REGISTER_ABOUT_H3_SIZE_TT"] = "Taille du texte entre les balises {h3}. Valeur par défaut: %s",
+	["CO_REGISTER_ABOUT_P_SIZE"] = "Taille de texte de paragraphe",
+	["CO_REGISTER_ABOUT_P_SIZE_TT"] = "Taille du texte en dehors des balises. Valeur par défaut: %s",
+	["CO_REGISTER_ABOUT_SETTINGS"] = "Paramètres d'à propos",
 	["CO_REGISTER_ABOUT_VOTE"] = "Utiliser le système de vote",
 	["CO_REGISTER_ABOUT_VOTE_TT"] = "Active le système de vote, vous permettant de voter (\"j'aime\" ou \"je n'aime pas\") pour les descriptions des autres et leur permettant de faire de même pour vous.",
 	["CO_REGISTER_AUTO_ADD"] = "Ajouter automatiquement les nouveaux joueurs",
@@ -5123,33 +5297,25 @@ Change le statut de votre personnage en fonction de l'option spécifiée:
 {p:c}{col:6eff51}Version %s (build %s){/col}{/p}
 {p:c}{link*http://totalrp3.info*TotalRP3.info} — {twitter*TotalRP3*@TotalRP3} {/p}
 
-{h2}{icon:INV_Eng_gizmo1:20} Créé par{/h2}
-- Renaud "{twitter*EllypseCelwe*Ellypse}" Parize
-- Sylvain "{twitter*Telkostrasz*Telkostrasz}" Cossement
+{h2}{icon:Trade_Engineering:20} Créé par{/h2}
+%AUTHORS$s
 
-{h2}{icon:QUEST_KHADGAR:20} Le reste de l'équipe{/h2}
-- Connor "{twitter*Saelorable*Sælorable}" Macleod (Contributeur)
-- {twitter*Solanya_*Solanya} (Community Manager)
+{h2}{icon:Achievement_General_StayClassy:20} Le reste de l'équipe{/h2}
+%CONTRIBUTORS$s
 
-{h2}{icon:THUMBUP:20} Remerciements{/h2}
+{h2}{icon:Spell_Holy_HealingAura:20} Remerciements{/h2}
 {col:ffffff}Les logos et icône de la carte ont été réalisés par:{/col}
 - {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Notre équipe de test:{/col}
-- Erzan
-- Calian
-- Kharess
-- Alnih
-- 611
+%TESTERS$s
 
 {col:ffffff}Merci à tous nos amis pour leur soutien:{/col}
 - Pour Telkos: Kharess, Kathryl, Marud, Solona, Stretcher, Lisma...
 - Pour Ellypse: Les guildes Église du Saint Gamon, Maison Celwë'Belore, Mercenaires Atal'ai, et plus particulièrement Erzan, Elenna, Caleb, Siana and Adaeria
 
 {col:ffffff}Pour nous avoir aidés à créer la guilde Total RP sur Kirin Tor (EU):{/col}
-- Azane
-- Hellclaw
-- Leylou
+%GUILD_MEMBERS$s
 
 {col:ffffff}Merci à Horionne pour nous avoir envoyé son exemplaire du Gamer Culte Online #14 qui contient un article sur Total RP.{/col}]=],
 	["THANK_YOU_ROLE_AUTHOR"] = "Créateur",
@@ -5255,6 +5421,14 @@ Le registre a aussi reçu une option pour n'afficher que les profils pour lesque
 - L'ancrage pour le bouton de scan de la carte peut désormais être réglé correctement.
 - Correction d'un échange de titres de menu déroulants pour les titres/paragraphes.
 - Correction d'un message d'erreur pouvant être causé par d'autres addons utilisant mal certains fonctions de l'API de WoW.]=],
+	["WHATS_NEW_23_10"] = [=[# Liste des changements de la version 1.6.10
+
+## Ajouté
+
+- Ajout de balises de discussion %xt and %xf. Ceux-ci seront automatiquement remplacés par le nom RP de votre cible et focalisation respectivement lorsque vous envoyez un message.
+- Ajout de paramètres pour ajuster la taille des textes dans l'onglet A propos.
+
+]=],
 	["WHATS_NEW_23_2"] = [=[# Liste des changements de la version 1.6.2
 
 ## Ajouté
@@ -5317,7 +5491,25 @@ Nous sommes au courant d'un bug depuis le patch 8.2 bloquant parfois **l'utilisa
 
 ## Modifié
 
-- La liste de profils de compagnons accessible via la fenêtre de cible est désormais triée par ordre alphabétique, et "Créer nouveau profil" a été déplacé hors de cette liste.]=]
+- La liste de profils de compagnons accessible via la fenêtre de cible est désormais triée par ordre alphabétique, et "Créer nouveau profil" a été déplacé hors de cette liste.]=],
+	["WHATS_NEW_23_9"] = [=[# Liste des changements de la version 1.6.9
+
+## Ajouté
+
+- Ajout de 61 musiques, 5 images et 223 icones sur Retail du patch 8.3.
+- Ajout de 177 images sur Retail de patchs précédents.
+- Ajout d'une icone sur Classic du patch 1.13.3.
+- Ajout des icones par défaut pour Vulpérins et Mécagnomes.
+
+## Modifié
+
+- L'icone par défaut pour les Kul Tirans femelles a été modifiée.
+
+## Corrigé
+
+- Le scan de personnages sur Classic a été modifié pour pallier au manque de tests de Blizzard.
+- Correction d'un souci lors de l'utilisation d'une icone avec une apostrophe dans le nom.
+- Le filtre du navigateur d'images gère désormais correctement certains caractères spéciaux.]=]
 }
 
 TRP3_API.loc:RegisterNewLocale("frFR", "Français", localeContent);
@@ -6492,30 +6684,24 @@ Si quieres denunciar el perfil de %s y no puedes marcarlo como objetivo tendrás
 {p:c}{link*http://totalrp3.info*TotalRP3.info}{/p}
 
 {h2}{icon:INV_Eng_gizmo1:20} Creado por{/h2}
-- Renaud "{twitter*EllypseCelwe*Ellypse}" Parize
-- Sylvain "{twitter*Telkostrasz*Telkostrasz}" Cossement
+%AUTHORS$s
 
+{h2}{icon:Achievement_General_StayClassy:20} El Resto del Equipo{/h2}
+%CONTRIBUTORS$s
 
 {h2}{icon:THUMBUP:20} Reconocimientos{/h2}
 {col:ffffff}Logo e icono del botón del minimapa:{/col}
 - {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Nuestro equipo PR pre-alpha:{/col}
-- Saelora
-- Erzan
-- Calian
-- Kharess
-- Alnih
-- 611
+%TESTERS$s
 
 {col:ffffff}Gracias a todos nuestros amigos por su apoyo todos estos años:{/col}
 - Para Telkos: Kharess, Kathryl, Marud, Solona, Stretcher, Lisma...
 - Para Ellypse: Las hermandades Maison Celwë'Belore, Mercenaires Atal'ai, y más particularmente Erzan, Elenna, Caleb, Siana and Adaeria
 
 {col:ffffff}Por ayudarnos a crear la hermandad Total RP en Kirin Tor (EU):{/col}
-- Azane
-- Hellclaw
-- Leylou]=],
+%GUILD_MEMBERS$s]=],
 	["THANK_YOU_ROLE_AUTHOR"] = "Autor",
 	["THANK_YOU_ROLE_COMMUNITY_MANAGER"] = "Administrador de la comunidad",
 	["THANK_YOU_ROLE_CONTRIBUTOR"] = "Colaborador",
@@ -8677,31 +8863,25 @@ Por exemplo, ele pode ser |c0000ff00esbelto, gordo ou musculoso...|r. Ou ele pod
 {p:c}{link*http://totalrp3.info*TotalRP3.info} — {twitter*TotalRP3*@TotalRP3} {/p}
 {p:c}{link*http://discord.totalrp3.info*Junte-se a nós no Discord}{/p}
 
-{h2}{icon:INV_Eng_gizmo1:20} Criado por{/h2}
-- Renaud "{twitter*EllypseCelwe*Ellypse}" Parize
-- Sylvain "{twitter*Telkostrasz*Telkostrasz}" Cossement
+{h2}{icon:Trade_Engineering:20} Criado por{/h2}
+%AUTHORS$s
 
+{h2}{icon:Achievement_General_StayClassy:20} The Rest of the Team{/h2}
+%CONTRIBUTORS$s
 
-{h2}{icon:THUMBUP:20} Reconhecimentos{/h2}
+{h2}{icon:Spell_Holy_HealingAura:20} Reconhecimentos{/h2}
 {col:ffffff}Logo and minimap button icon:{/col}
 - {link*https://twitter.com/Kelandiir*@Kelandiir}
 
 {col:ffffff}Nossa equipe de QA do pré-alpha:{/col}
-- Saelora
-- Erzan
-- Calian
-- Kharess
-- Alnih
-- 611
+%TESTERS$s
 
 {col:ffffff}Obrigado a todos os nossos amigos por seus suporte por todos esses anos:{/col}
 - Por Telkos: Kharess, Kathryl, Marud, Solona, Stretcher, Lisma...
 - Por Ellypse: As guildas Église du Saint Gamon, Maison Celwë'Belore, Mercenaires Atal'ai, e mais particularmente Erzan, Elenna, Caleb, Siana e Adaeria
 
 {col:ffffff}Por nos ajudar a criar a guilda Total RP no Kirin Tor (EU):{/col}
-- Azane
-- Hellclaw
-- Leylou
+%GUILD_MEMBERS$s
 
 {col:ffffff}Agradecimentos a Horionne por nos enviar a revista Gamer Culte Online #14 com um artigo sobre o Total RP.{/col}]=],
 	["UI_BKG"] = "Fundo %s",
@@ -8790,7 +8970,6 @@ localeContent = {
 	["CM_CANCEL"] = "Отмена",
 	["CM_CENTER"] = "Центр",
 	["CM_CLASS_DEATHKNIGHT"] = "Рыцарь Смерти",
-	["CM_CLASS_DEMONHUNTER"] = "Охотник на Демонов",
 	["CM_CLASS_DRUID"] = "Друид",
 	["CM_CLASS_HUNTER"] = "Охотник",
 	["CM_CLASS_MAGE"] = "Маг",
@@ -8849,7 +9028,6 @@ localeContent = {
 	["CM_YELLOW"] = "Жёлтый",
 	["CO_ADVANCED_BROADCAST"] = "Канал чата",
 	["CO_ADVANCED_BROADCAST_CHANNEL_ALWAYS_LAST"] = "Переносить канал в конец списка",
-	["CO_ADVANCED_BROADCAST_CHANNEL_ALWAYS_LAST_TT"] = "Данная опция удостоверит то что общий канал чата всегда будет последним каналом в вашем списке каналов.",
 	["CO_ADVANCED_LANGUAGE_WORKAROUND"] = "Разрешить обход сброса языка.",
 	["CO_ADVANCED_LANGUAGE_WORKAROUND_TT"] = "С патча 8.0.1 игра меняет ваш выбранный язык на язык вашей фракции после каждого загрузочного экрана. Это решение позволит восстанавливать выбранный язык обратно после экрана загрузки.",
 	["CO_ADVANCED_LANGUAGES"] = "Языки",
@@ -8902,13 +9080,9 @@ localeContent = {
 	["CO_CHAT_MAIN_OOC_COLOR"] = "Цвет \"вне отыгрыша\"",
 	["CO_CHAT_MAIN_OOC_PATTERN"] = "Шаблон обнаружения \"вне отыгрыша\"",
 	["CO_CHAT_MAIN_OOC_USE"] = "Использовать обнаружение \"вне отыгрыша\"",
-	["CO_CHAT_MAIN_SPEECH"] = "Обнаружение речи",
-	["CO_CHAT_MAIN_SPEECH_USE"] = "Использовать обнаружение речи",
-	["CO_CHAT_MAIN_SPEECH_USE_TT"] = "Текст в кавычках будет иметь тот же цвет какой был бы при использовании /сказать.",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT"] = "Кастомизировать имя компаньона в речи НИП",
 	["CO_CHAT_NPCSPEECH_REPLACEMENT_TT"] = "Если имя компаньона есть в речи НИП, оно будет окрашено и его иконка будет отображаться согласно от ваших настроек выше.",
 	["CO_CHAT_REMOVE_REALM"] = "Не отображать название мира в именах персонажей",
-	["CO_CHAT_SHOW_OOC"] = "Показать индикатор Вне Роли",
 	["CO_CHAT_USE"] = "Используемые каналы чата",
 	["CO_CHAT_USE_ICONS"] = "Отображать значки игроков",
 	["CO_CHAT_USE_SAY"] = "Канал /сказать",
@@ -8958,12 +9132,9 @@ localeContent = {
 	["CO_GLANCE_PRESET_TRP3_HELP"] = "Ярлык для установки панели в стиле TRP3: снизу от рамки цели TRP3.",
 	["CO_GLANCE_RESET_TT"] = "Сбросить позиционирование панели вниз влево от закрепленной рамки.",
 	["CO_GLANCE_TT_ANCHOR"] = "Точка закрепления подсказок",
-	["CO_HIDE_EMPTY_MAP_BUTTON"] = "Скрыть когда нет доступных сканов",
 	["CO_LOCATION"] = "Настройки местоположения",
 	["CO_LOCATION_ACTIVATE"] = "Активировать местоположение персонажа",
 	["CO_LOCATION_ACTIVATE_TT"] = "Активирование местоположение персонажа позволит Вам сканировать и обнаруживать на карте других пользователей Total RP, и так же позволит другим пользователям найти Вас.",
-	["CO_LOCATION_DISABLE_CLASSIC_PVP"] = "Отключить локацию когда включен PvP режим",
-	["CO_LOCATION_DISABLE_CLASSIC_PVP_TT"] = "Вы не будете реагировать на запросы локации от других игроков когда вы отмечены для PvP. Эта опция частично полезна для избежания злоупотребления системы локации для вашего отслеживания.",
 	["CO_LOCATION_DISABLE_OOC"] = "Отключить местоположение персонажа вне отыгрыша",
 	["CO_LOCATION_DISABLE_OOC_TT"] = "Другие игроки не смогут отследить Ваше местоположение с помощью сканирования карты, пока активен статус \"Вне отыгрыша\".",
 	["CO_LOCATION_DISABLE_PVP"] = "Отключить местоположение персонажа пока активен режим PvP",
@@ -9116,14 +9287,10 @@ localeContent = {
 	["DB_NEW"] = "Что нового?",
 	["DB_STATUS"] = "Статус",
 	["DB_STATUS_CURRENTLY"] = "Текущее (Отыгрываю)",
-	["DB_STATUS_CURRENTLY_COMMON"] = "Эти статусы будут показаны в подсказке вашего персонажа. Делайте их краткими, так как |cffff9900по умолчанию игроки с TRP3 будут видеть только первые 140 символов!",
+	["DB_STATUS_CURRENTLY_COMMON"] = "Эти статусы будут показаны в подсказке вашего персонажа. Делайте их краткими, так как |cffff9900by по умолчанию игроки с TRP3 будут видеть только первые 140 символов",
 	["DB_STATUS_CURRENTLY_OOC"] = "Другая информация (Вне отыгрыша)",
 	["DB_STATUS_CURRENTLY_OOC_TT"] = "Здесь вы можете указать что-то важное о вас, как игроке, или что-нибудь еще вне отыгрыша.",
 	["DB_STATUS_CURRENTLY_TT"] = "Здесь вы можете указать что-нибудь важное о вашем персонаже.",
-	["DB_STATUS_ICON_ITEM"] = "%1$s %2$s",
-	["DB_STATUS_LC"] = "Язык ролевой игры",
-	["DB_STATUS_LC_DEFAULT"] = "По умолчанию (%1$s)",
-	["DB_STATUS_LC_TT"] = "Устанавливает ваш предпочитаемый язык ролевой игры. Эта информация будет доступна другим пользователям совместимых ролевых аддонов.  |cffff9900Заметка:|r Это |cffff0000не|r меняет язык интерфейса Total RP 3. Данная опция может быть найдена на странице |cfffff569Расширенных Настроек|r.",
 	["DB_STATUS_RP"] = "Статус персонажа",
 	["DB_STATUS_RP_EXP"] = "Опытный ролевик",
 	["DB_STATUS_RP_EXP_TT"] = [=[Показывает, что вы опытный ролевик.
@@ -9197,7 +9364,6 @@ localeContent = {
 | cffffff00 Мы настоятельно рекомендуем вам использовать актуальную версию.
 
 Это сообщение будет появляться только один раз за сеанс, его можно отключить в настройках (Общие настройки => Разное).]=],
-	["NEW_VERSION_BEHIND"] = "Вы на данный момент отстаёте на %s версия и пропускаете множество исправлений багов и новых возможностей. Другие игроки могут не видеть ваш профиль корректно. Пожалуйста, подумайте обновить аддон.",
 	["NEW_VERSION_TITLE"] = "Доступно новое обновление",
 	["NPC_TALK_BUTTON_TT"] = "Открыт окно речи НИП позволяющее вам использовать речь и эмоции НИП.",
 	["NPC_TALK_CHANNEL"] = "Канал:",
@@ -9468,7 +9634,7 @@ Link it anyway ?]=],
 	["REG_PLAYER_ABOUT_MUSIC_THEME"] = "Музыкальная тема персонажа",
 	["REG_PLAYER_ABOUT_NOMUSIC"] = "|cffff9900Тема не выбрана",
 	["REG_PLAYER_ABOUT_P"] = "Метка абзаца",
-	["REG_PLAYER_ABOUT_REMOVE_FRAME"] = "Удалить окно",
+	["REG_PLAYER_ABOUT_REMOVE_FRAME"] = "Удалить рамку",
 	["REG_PLAYER_ABOUT_SOME"] = "Текст ...",
 	["REG_PLAYER_ABOUT_T1_YOURTEXT"] = "Вставьте Ваш текст",
 	["REG_PLAYER_ABOUT_TAGS"] = "Инструменты форматирования",
@@ -9672,8 +9838,6 @@ Link it anyway ?]=],
 
 | C00ffff00Правым кликом мыши, вы можете легко установить текущее местоположение на карте в качестве резиденции.]=],
 	["REG_PLAYER_RIGHTTRAIT"] = "Правая черта",
-	["REG_PLAYER_SHOWMISC"] = "Показывать рамку разного",
-	["REG_PLAYER_SHOWMISC_TT"] = "Пометьте если вы хотите отображать пользовательские поля для вашего персонажа. Если вы не хотите отображать пользовательские поля, оставьте коробочку непомеченой и рамка разного останется абсолютно скрытой.",
 	["REG_PLAYER_SHOWPSYCHO"] = "Отображать рамку характера",
 	["REG_PLAYER_SHOWPSYCHO_TT"] = [=[Выберите если вы хотите использовать описание характера.
 
@@ -9734,10 +9898,7 @@ Link it anyway ?]=],
 
 |cff00ff00Совет: Вы можете drag & drop позиции для изменения сортировки.|r
 Так же работает в |cffffff00"На первый взгляд" блоке|r!]=],
-	["REG_PLAYER_TUTO_ABOUT_MISC_3"] = "Эта секция содержит |cffffff00список переключателей,|r чтобы ответить на |cffffff00часто задаваемые вопросы о вас, вашем персонаже иособенностях игры за него/нее|r.",
-	["REG_PLAYER_TUTO_ABOUT_T1"] = "Данный шаблон позволяет вам |cff00ff00свободно обустраивать своё описание|r. Описание не обязано быть ограниченным |cffff9900физическим описанием|r вашего персонажа. Не стесняйтесь отмечать части его |cffff9900биографии|r или детали его |cffff9900характера|r. С этим шаблоном вы можете использовать инструменты форматирования для доступка к некоторым параметрам отображения вроде |cffffff00размеов текста, цветов и выравнивания|r. Эти инструменты так же позволяет вам вставлять |cffffff00изображения, иконки или ссылки на внешние веб сайты|r.",
-	["REG_PLAYER_TUTO_ABOUT_T2"] = "Этот шаблон более структурированный и состоит из |cff00ff00списка независимых окон|r. Каждое окно характеризуется |cffffff00иконкой, фоном и текстом|r. Заметьте что вы можете использовать некоторые текстовые ярлыки в этих окнах, вроде текстовых ярлыков цвета и иконок. Описание не должно быть ограниченным |cffff9900физическим описанием|r вашего персонажа. Не стесняйтесь отмечать части его |cffff9900биографии|r или детали про его |cffff9900характер|r.",
-	["REG_PLAYER_TUTO_ABOUT_T3"] = "Этот шаблон разделён на 3 секции:  |cff00ff00Физическое описание, характер и история|r. Вы не обязаны заполнять все окна, |cffff9900если вы оставите окно пустым оно не будет отображаться в вашем описании|r. Каждое окно характеризуется |cffffff00иконкой, фоном и текстом|r. Заметьте что вы можете использовать некоторые текстовые ярлыки в этих окнах, вроде текстовых ярлыков цвета и иконок.",
+	["REG_PLAYER_TUTO_ABOUT_MISC_3"] = "Эта секция содержит |cffffff00список переключателей,|r чтобы ответить на|cffffff00частозадаваемые вопросы о вас, вашем персонаже иособенностях игры за него/нее|r.",
 	["REG_PLAYER_WEIGHT"] = "Телосложение",
 	["REG_PLAYER_WEIGHT_TT"] = [=[Это форма тела вашего персонажа.
 К примеру, она может быть |c0000ff00slim, толстый или мускулистый...|r Или она просто может быть обычной!]=],
@@ -9779,8 +9940,6 @@ Link it anyway ?]=],
 	["REG_TT_TARGET"] = "Цель: |cffff9900%s",
 	["SCRIPT_ERROR"] = "Ошибка в скрипте.",
 	["SCRIPT_UNKNOWN_EFFECT"] = "Ошибка скрипта, неизвестный FX",
-	["SLASH_CMD_STATUS_HELP"] = "Использование:  |cff00ff00/trp3 status ic || ooc || toggle|r Меняет ваш статус персонажа на выбранную опцию:  |cffff9900/trp3 status ic|r установит ваш статус на |cff00ff00в роли|r.  |cffff9900/trp3 status ooc|r установит ваш статус на |cffff0000вне роли|r. |cffff9900/trp3 status toggle|r поменяет ваш статус на противоположное состояние.",
-	["SLASH_CMD_STATUS_USAGE"] = "ic || ooc || toggle",
 	["TB_AFK_MODE"] = "Отсутствует",
 	["TB_DND_MODE"] = "Не беспокоить",
 	["TB_GO_TO_MODE"] = "Переключить в статус %s ",
@@ -11835,13 +11994,13 @@ localeContent = {
 {p:c}{link*http://totalrp3.info*TotalRP3.info} — {twitter*TotalRP3*@TotalRP3} {/p}
 {p:c}{link*http://discord.totalrp3.info* 加入我們的Discord}{/p}
 
-{h2}{icon:INV_Eng_gizmo1:20} 作者：{/h2}
+{h2}{icon:Trade_Engineering:20} 作者：{/h2}
 %AUTHORS$s
 
-{h2}{icon:QUEST_KHADGAR:20} 其他工作人員：{/h2}
+{h2}{icon:Achievement_General_StayClassy:20} 其他工作人員：{/h2}
 %CONTRIBUTORS$s
 
-{h2}{icon:THUMBUP:20} 感謝{/h2}
+{h2}{icon:Spell_Holy_HealingAura:20} 感謝{/h2}
 {col:ffffff}Logo 與小地圖按鈕:{/col}
 - {link*https://twitter.com/Kelandiir*@Kelandiir}
 

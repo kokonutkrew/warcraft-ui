@@ -54,8 +54,7 @@ local function createOptions(id, data)
       set = function(info, v)
         data.groupIcon = v
         WeakAuras.Add(data)
-        WeakAuras.SetThumbnail(data)
-        WeakAuras.SetIconNames(data)
+        WeakAuras.UpdateThumbnail(data)
       end
     },
     chooseIcon = {
@@ -128,7 +127,6 @@ local function createOptions(id, data)
           end
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -195,7 +193,6 @@ local function createOptions(id, data)
           end
         end
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -279,7 +276,6 @@ local function createOptions(id, data)
         end
 
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -363,7 +359,6 @@ local function createOptions(id, data)
         end
 
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -447,7 +442,6 @@ local function createOptions(id, data)
         end
 
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -531,7 +525,6 @@ local function createOptions(id, data)
         end
 
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -553,7 +546,6 @@ local function createOptions(id, data)
         data.yOffset = data.yOffset/(1-change)
         data.scale = v
         WeakAuras.Add(data);
-        WeakAuras.SetThumbnail(data);
         WeakAuras.ResetMoverSizer();
       end
     },
@@ -564,19 +556,19 @@ local function createOptions(id, data)
     },
   };
 
-  for k, v in pairs(WeakAuras.BorderOptions(id, data, nil, nil, 70)) do
+  for k, v in pairs(WeakAuras.commonOptions.BorderOptions(id, data, nil, nil, 70)) do
     options[k] = v
   end
 
   return {
     group = options,
-    position = WeakAuras.PositionOptions(id, data, nil, true, true),
+    position = WeakAuras.commonOptions.PositionOptions(id, data, nil, true, true),
   };
 end
 
-local function createThumbnail(parent)
+local function createThumbnail()
   -- frame
-  local thumbnail = CreateFrame("FRAME", nil, parent);
+  local thumbnail = CreateFrame("FRAME", nil, UIParent);
   thumbnail:SetWidth(32);
   thumbnail:SetHeight(32);
 
@@ -585,6 +577,10 @@ local function createThumbnail(parent)
   border:SetAllPoints(thumbnail);
   border:SetTexture("Interface\\BUTTONS\\UI-Quickslot2.blp");
   border:SetTexCoord(0.2, 0.8, 0.2, 0.8);
+
+  local icon = thumbnail:CreateTexture(nil, "OVERLAY")
+  icon:SetAllPoints(thumbnail)
+  thumbnail.icon = icon
 
   return thumbnail
 end
@@ -616,27 +612,27 @@ end
 -- Modify preview thumbnail
 local function modifyThumbnail(parent, frame, data)
   function frame:SetIcon(path)
-    if not frame.icon then
-      local icon = frame:CreateTexture(nil, "OVERLAY")
-      icon:SetAllPoints(frame)
-      frame.icon = icon
+    if data.groupIcon then
+      local success = frame.icon:SetTexture(data.groupIcon)
+      if success then
+        if frame.defaultIcon then
+          frame.defaultIcon:Hide()
+        end
+        frame.icon:Show()
+        return
+      end
     end
-    local success = frame.icon:SetTexture(path or data.groupIcon) and (path or data.groupIcon)
-    if success then
-      if frame.defaultIcon then
-        frame.defaultIcon:Hide()
-      end
-      frame.icon:Show()
-    else
-      if frame.icon then
-        frame.icon:Hide()
-      end
-      if not frame.defaultIcon then
-        frame.defaultIcon = createDefaultIcon(frame)
-      end
-      frame.defaultIcon:Show()
+
+    if frame.icon then
+      frame.icon:Hide()
     end
+    if not frame.defaultIcon then
+      frame.defaultIcon = createDefaultIcon(frame)
+    end
+    frame.defaultIcon:Show()
   end
+
+  frame:SetIcon(nil)
 end
 
 -- Create "new region" preview

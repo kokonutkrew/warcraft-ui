@@ -1,6 +1,5 @@
-## v4.8.20 Changes
+## v4.9.38 Changes
 
-* Fixed bug with saving of Accounting data.
-* Fixed bug with AH not properly hiding.
+* [Retail] Fixed issues with buying commodities.
 
 [Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)

@@ -1,3 +1,7 @@
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/evil-morfar/RCLootCouncil_Classic?include_prereleases)](https://www.curseforge.com/wow/addons/rclootcouncil-classic)
+[![Discord](https://img.shields.io/discord/427445230870986752?color=%237289DA&label=Discord)](http://discord.rclootcouncil.com)
+[![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/rclootcouncil)
+
 # RCLootCouncil Classic
 World of Warcraft Classic port of [RCLootCouncil](https://www.curseforge.com/wow/addons/rclootcouncil).
 
@@ -22,9 +26,6 @@ The options menu have been updated with settings of old regarding Master Looting
 
 * **Auto Pass**  
 Updated for Classic. Auto passes are only performed on items the player can't equip, as feedback has convinced me that armor type based auto passing doesn't fit Classic.
-
-* **Enchanting Level**  
-I haven't found a good way to precisely get a candidate's Enchanting level, so for now it will be displayed as "< 300".
 
 
 ### Removed

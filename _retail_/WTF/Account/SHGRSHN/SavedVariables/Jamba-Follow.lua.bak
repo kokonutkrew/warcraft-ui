@@ -13,13 +13,15 @@ JambaFollowProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -28,9 +30,9 @@ JambaFollowProfileDB = {
 		["Samoansaint - Stormrage"] = {
 		},
 		["KokonutKrew"] = {
-			["autoFollowAfterCombat"] = true,
 			["overrideStrobeTargetWithMaster"] = true,
 			["strobePauseIfDrinking"] = true,
+			["autoFollowAfterCombat"] = true,
 			["onlyWarnIfOutOfFollowRange"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
@@ -53,21 +55,25 @@ JambaFollowProfileDB = {
 		},
 		["Samoanbeast - Ravenholdt"] = {
 		},
+		["Samoanruin - Emerald Dream"] = {
+		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

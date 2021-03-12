@@ -2510,6 +2510,7 @@ local EXTERMINATOR = {
 	["Player-4372-0014521D"] = true,	-- Bombeon
 	["Player-4372-00E86132"] = true,	-- Borlemont
 	["Player-4372-010B9178"] = true,	-- Braven
+	["Player-4372-0063664F"] = true,	-- Brittbrat
 	["Player-4372-0100DF23"] = true,	-- Dizplaced
 	["Player-4372-01230376"] = true,	-- Drixxtwo
 	["Player-4372-002719C4"] = true,	-- Drunkninja
@@ -2537,6 +2538,7 @@ local EXTERMINATOR = {
 	["Player-4372-0008B144"] = true,	-- Pixl
 	["Player-4372-00C2F945"] = true,	-- Rooni
 	["Player-4372-0058A418"] = true,	-- Saitosan [Druid]
+	["Player-4372-0123A5BE"] = true,	-- Sheisskopf
 	["Player-4372-00F82168"] = true,	-- Semiha
 	["Player-4372-001F92DA"] = true,	-- Shadrac
 	["Player-4372-00732218"] = true,	-- Solow
@@ -2802,14 +2804,14 @@ local SoftReserveUnitOnClick = function(self, button)
 						else
 							app:UpdateSoftReserveInternal(guid, nil);
 						end
-						app:GetWindow("SoftReserves"):Update(true);
+						app:RefreshSoftReserveWindow();
 					end);
 				elseif UnitGUID("player") == guid then
 					-- A player can change their own, so long as it isn't locked.
 					app:ShowPopupDialog("Your Soft Reserve is currently set to:\n \n" .. (self.ref.itemText or RETRIEVING_DATA) .. "\n \nDo you want to delete it?",
 					function()
 						app:UpdateSoftReserve(guid, nil, time(), false, true);
-						app:GetWindow("SoftReserves"):Update(true);
+						app:RefreshSoftReserveWindow();
 					end);
 				elseif IsGUIDInGroup(guid) then
 					app.print("You must be the Master Looter to do that.");
@@ -2823,14 +2825,14 @@ local SoftReserveUnitOnClick = function(self, button)
 					app:ShowPopupDialogWithEditBox((self.ref.unitText or RETRIEVING_DATA) .. " has their Soft Reserve set to:\n \n" .. (self.ref.itemText or RETRIEVING_DATA) .. "\n \nEnter a new Item ID or an Item Link.", "", function(cmd)
 						if cmd and cmd ~= "" then
 							app:ParseSoftReserve(guid, cmd);
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow();
 						end
 					end);
 				else
 					app:ShowPopupDialogWithEditBox((self.ref.unitText or RETRIEVING_DATA) .. " does not have a Soft Reserve.\n \nEnter a new Item ID or an Item Link.", "", function(cmd)
 						if cmd and cmd ~= "" then
 							app:ParseSoftReserve(guid, cmd);
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow();
 						end
 					end);
 				end
@@ -2840,14 +2842,14 @@ local SoftReserveUnitOnClick = function(self, button)
 					app:ShowPopupDialogWithEditBox("Your Soft Reserve is set to:\n \n" .. (self.ref.itemText or RETRIEVING_DATA) .. "\n \nEnter a new Item ID or an Item Link.", "", function(cmd)
 						if cmd and cmd ~= "" then
 							app:ParseSoftReserve(UnitGUID("player"), cmd, true, true);
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow();
 						end
 					end);
 				else
 					app:ShowPopupDialogWithEditBox("You do not have a Soft Reserve yet.\n \nEnter a new Item ID or an Item Link.", "", function(cmd)
 						if cmd and cmd ~= "" then
 							app:ParseSoftReserve(UnitGUID("player"), cmd, true, true);
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow();
 						end
 					end);
 				end
@@ -3009,6 +3011,18 @@ app.BaseSoftReserveUnit = {
 			return text;
 		elseif key == "OnClick" then
 			return SoftReserveUnitOnClick;
+		elseif key == "itemName" then
+			local itemID = t.itemID;
+			if itemID then
+				local itemName = GetItemInfo(itemID);
+				if itemName then
+					return itemName;
+				else
+					return RETRIEVING_DATA;
+				end
+			else
+				return "No Soft Reserve Selected";
+			end
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3203,6 +3217,12 @@ app.QuerySoftReserve = function(app, guid, cmd, target)
 	-- Send back an error message.
 	SendGUIDWhisper("Unrecognized Command. Please use '!sr [itemLink/itemID]'. You can send an item link or an itemID from WoWHead. EX: '!sr 12345' or '!sr [Azuresong Mageblade]'", guid);
 end
+app.RefreshSoftReserveWindow = function(app, force)
+	if app.SoftReservesDirty or force then
+		app.SoftReservesDirty = nil;
+		app:GetWindow("SoftReserves"):Update(true);
+	end
+end
 app.UpdateSoftReserveInternal = function(app, guid, itemID, timeStamp, isCurrentPlayer)
 	local reserves = GetDataMember("SoftReserves");
 	local reservesByItemID = GetTempDataMember("SoftReservesByItemID");
@@ -3232,6 +3252,7 @@ app.UpdateSoftReserveInternal = function(app, guid, itemID, timeStamp, isCurrent
 	
 	-- Update the Reservation
 	wipe(searchCache);
+	app.SoftReservesDirty = true;
 	if itemID and itemID > 0 then
 		if not timeStamp then timeStamp = time(); end
 		reserves[guid] = { itemID, timeStamp };
@@ -3260,7 +3281,7 @@ app.UpdateSoftReserve = function(app, guid, itemID, timeStamp, silentMode, isCur
 	else
 		-- If they didn't previously have a reserve, then allow it. If so, then reject it.
 		app:UpdateSoftReserveInternal(guid, itemID, timeStamp, isCurrentPlayer);
-		app:GetWindow("SoftReserves"):Update(true);
+		app:RefreshSoftReserveWindow();
 		if not silentMode then
 			if itemID then
 				local searchResults = SearchForLink("itemid:" .. itemID);
@@ -3423,20 +3444,17 @@ app.CreateDeathClass = function()
 		local deathsPerCharacter = GetDataMember("DeathsPerCharacter");
 		if deathsPerCharacter then
 			local characters = GetDataMember("Characters");
-			local characterDeaths = {};
+			local c = {};
 			for guid,deaths in pairs(deathsPerCharacter) do
-				if deaths and deaths > 0 then
-					local character = {};
-					table.insert(character, characters[guid] or guid);
-					table.insert(character, deaths or 0);
-					table.insert(characterDeaths, character);
+				if guid and deaths and deaths > 0 then
+					table.insert(c, { ["name"] = characters[guid] or guid or "???", ["deaths"] = deaths or 0 });
 				end
 			end
-			table.sort(characterDeaths, function(a, b)
-				return a[2] >= b[2];
+			table.sort(c, function(a, b)
+				return a.deaths > b.deaths;
 			end);
-			for i,data in ipairs(characterDeaths) do
-				tooltip:AddDoubleLine("  " .. data[1], data[2], 1, 1, 1);
+			for i,data in ipairs(c) do
+				tooltip:AddDoubleLine("  " .. data.name, data.deaths, 1, 1, 1);
 			end
 		else
 			tooltip:AddLine("  No Deaths! Literal god!");
@@ -3484,7 +3502,7 @@ app.BaseFaction = {
 			else
 				if GetTempDataSubMember("CollectedFactions", t.factionID) then return 1; end
 			end
-			if t.standing == 8 then
+			if t.standing >= t.maxstanding then
 				SetTempDataSubMember("CollectedFactions", t.factionID, 1);
 				SetDataSubMember("CollectedFactions", t.factionID, 1);
 				return 1;
@@ -3495,6 +3513,8 @@ app.BaseFaction = {
 			return nil;	-- TODO: Add a faction icon?
 		elseif key == "standing" then
 			return select(3, GetFactionInfoByID(t.factionID)) or 4;
+		elseif key == "maxstanding" then
+			return 8;
 		elseif key == "description" then
 			return select(2, GetFactionInfoByID(t.factionID)) or "Not all reputations can be viewed on a single character. IE: Warsong Outriders cannot be viewed by an Alliance Player and Silverwing Sentinels cannot be viewed by a Horde Player.";
 		elseif key == "name" then
@@ -3874,6 +3894,13 @@ app.GetCurrentMapID = function()
 		local otherMapID = (real and text_to_mapID[real]) or (zone and text_to_mapID[zone]);
 		if otherMapID then return otherMapID; end
 	end
+	text_to_mapID = app.L["ALT_ZONE_TEXT_TO_MAP_ID"];
+	if text_to_mapID then
+		local real = GetRealZoneText();
+		local zone = GetSubZoneText();
+		local otherMapID = (real and text_to_mapID[real]) or (zone and text_to_mapID[zone]);
+		if otherMapID then return otherMapID; end
+	end
 	return mapID;
 end
 app.GetMapLevel = function(mapID)
@@ -3894,6 +3921,11 @@ app.GetMapName = function(mapID)
 			return info.name;
 		else
 			for name,m in pairs(L["ZONE_TEXT_TO_MAP_ID"]) do
+				if mapID == m then
+					return name;
+				end
+			end
+			for name,m in pairs(L["ALT_ZONE_TEXT_TO_MAP_ID"]) do
 				if mapID == m then
 					return name;
 				end
@@ -4307,9 +4339,9 @@ app.SpecializationSpellIDs = setmetatable({
 	[20222] = 4036,	-- Goblin Engineering
 	[9788] = 2018,	-- Armorsmith
 	[9787] = 2018,	-- Weaponsmith
-	[17041] = 9787,	-- Master Axesmith
-	[17040] = 9787,	-- Master Hammersmith
-	[17039] = 9787,	-- Master Swordsmith
+	[17041] = 2018,	-- Master Axesmith
+	[17040] = 2018,	-- Master Hammersmith
+	[17039] = 2018,	-- Master Swordsmith
 	[10656] = 2108,	-- Dragonscale Leatherworking
 	[10658] = 2108,	-- Elemental Leatherworking
 	[10660] = 2108,	-- Tribal Leatherworking
@@ -6991,7 +7023,7 @@ app:GetWindow("Attuned", UIParent, function(self)
 					app.CreateMap(162, {	-- Naxxramas
 						['icon'] = "Interface\\Icons\\INV_Trinket_Naxxramas03",
 						['description'] = "These are players attuned to Naxxramas.\n\nPeople can whisper you '!naxx' to mark themselves attuned.",
-						['questID'] = 9121,	-- The Dread Citadel - Naxxramas [Honored]
+						['questID'] = 9378,	-- Attunement [HIDDEN QUEST TRIGGER]
 						['visible'] = true,
 						["isRaid"] = true,
 						['back'] = 0.5,
@@ -7004,7 +7036,7 @@ app:GetWindow("Attuned", UIParent, function(self)
 					}),
 				},
 			};
-			selectedInstance = instances.options[2];
+			selectedInstance = instances.options[5];
 			selectedQuest = app.CreateQuest(971);
 			instanceSelector = app.CreateMap(1455, {
 				['visible'] = true,
@@ -7031,27 +7063,48 @@ app:GetWindow("Attuned", UIParent, function(self)
 					wipe(data.g);
 					
 					-- Assign the Selected Instance.
+					instanceSelector.locks = nil;
+					data.questID = selectedInstance.questID;
 					instanceSelector.mapID = selectedInstance.mapID;
 					instanceSelector.icon = selectedInstance.icon;
 					instanceSelector.text = selectedInstance.text;
 					instanceSelector.description = selectedInstance.description;
 					instanceSelector.questID = selectedInstance.questID;
-					selectedQuest.questID = selectedInstance.questID;
-					data.questID = selectedInstance.questID;
 					table.insert(data.g, data.queryGroupMembers);
 					table.insert(data.g, data.queryGuildMembers);
 					table.insert(data.g, instanceSelector);
 					table.insert(data.g, selectedQuest);
-					local searchResults = SearchForField("questID", data.questID);
-					if searchResults and #searchResults > 0 then
-						wipe(selectedQuest);
-						for i,questData in ipairs(searchResults) do
-							for key,value in pairs(questData) do
-								selectedQuest[key] = value;
+					if data.questID == 9378 then	-- Naxx Attunement needs to be handled different, display-wise.
+						-- Based on current Argent Dawn rep, show a different quest. (still querying for the hidden attunement quest)
+						local currentStanding = app.CreateFaction(529).standing or 6;
+						local specificQuestID = (currentStanding == 8 and 9123) or (currentStanding == 7 and 9122) or 9121;
+						local searchResults = SearchForField("questID", specificQuestID);
+						if searchResults and #searchResults > 0 then
+							wipe(selectedQuest);
+							for i,questData in ipairs(searchResults) do
+								if questData.questID == specificQuestID then
+									for key,value in pairs(questData) do
+										selectedQuest[key] = value;
+									end
+								end
 							end
+							selectedQuest.OnUpdate = app.AlwaysShowUpdate;
 						end
-						selectedQuest.OnUpdate = app.AlwaysShowUpdate;
+						selectedQuest.text = "The Dread Citadel - Naxxramas";
+					else
+						local searchResults = SearchForField("questID", data.questID);
+						if searchResults and #searchResults > 0 then
+							wipe(selectedQuest);
+							for i,questData in ipairs(searchResults) do
+								for key,value in pairs(questData) do
+									selectedQuest[key] = value;
+								end
+							end
+							selectedQuest.OnUpdate = app.AlwaysShowUpdate;
+						end
 					end
+					selectedQuest.questID = selectedInstance.questID;
+					
 					
 					local nameToGUID = {};
 					local groupMembers = {};
@@ -8521,6 +8574,7 @@ app:GetWindow("SoftReserves", UIParent, function(self)
 					table.insert(g, 1, data.pushGroupMembers);
 					table.insert(g, 1, data.lockSoftReserves);
 					table.insert(g, 1, data.lootMethodReminder);
+					table.insert(g, 1, data.exportSoftReserves);
 					data.g = g;
 					
 					-- Show non-group members.
@@ -8539,6 +8593,50 @@ app:GetWindow("SoftReserves", UIParent, function(self)
 					end
 				end,
 				['g'] = {},
+				['exportSoftReserves'] = {
+					['text'] = "Export Soft Reserves",
+					['icon'] = "Interface\\Icons\\Spell_Shadow_LifeDrain02",
+					['description'] = "Press this button to open an edit box containing the full content of your raid's Soft Reserve list.",
+					['visible'] = true,
+					['g'] = {},
+					['OnClick'] = function(row, button)
+						local s, count = "", 0;
+						for i,o in ipairs(self.data.g) do
+							if o.guid then
+								if count > 0 then
+									s = s .. "\n";
+								end
+								s = s .. o.name .. "\\t" .. o.itemName;
+								count = count + 1;
+								--[[
+							elseif o.g then
+								for i,o in ipairs(o.g) do
+									if o.guid then
+										if count > 0 then
+											s = s .. "\n";
+										end
+										s = s .. o.name .. "\\t" .. o.itemName;
+										count = count + 1;
+									else
+										
+									end
+								end
+								]]--
+							end
+						end
+						
+						app:ShowPopupDialogWithMultiLineEditBox(s);
+						return true;
+					end,
+					['OnUpdate'] = function(data)
+						if app.Settings:GetTooltipSetting("SoftReservesLocked") then
+							data.visible = true;
+						else
+							data.visible = false;
+						end
+					end,
+					['back'] = 0.5,
+				},
 				['lockSoftReserves'] = setmetatable({
 					['text'] = "Lock All Soft Reserves",
 					['icon'] = "Interface\\Icons\\INV_MISC_KEY_13",
@@ -8560,11 +8658,16 @@ app:GetWindow("SoftReserves", UIParent, function(self)
 						end
 					end,
 					['OnUpdate'] = function(data)
-						if IsInGroup() and GetLootMethod() == "master" then
-							data.visible = true;
-							if app.IsMasterLooter() then
-								data.description = data.description_ML;
+						if IsInGroup() then
+							if GetLootMethod() == "master" then
+								data.visible = true;
+								if app.IsMasterLooter() then
+									data.description = data.description_ML;
+								else
+									data.description = data.description_PLEB;
+								end
 							else
+								data.visible = app.Settings:GetTooltipSetting("SoftReservesLocked");
 								data.description = data.description_PLEB;
 							end
 						else
@@ -9512,9 +9615,24 @@ app.events.VARIABLES_LOADED = function()
 	-- Tooltip Settings
 	GetDataMember("EnableTomTomWaypointsOnTaxi", false);
 	GetDataMember("TomTomIgnoreCompletedObjects", true);
-	app.PushSoftReserve(true);
 	app.Settings:Initialize();
+	app.PushSoftReserve(true);
 	C_ChatInfo.RegisterAddonMessagePrefix("ATTC");
+	
+	-- Check if the SRs are locked
+	if IsInGroup() then
+		if not app.IsMasterLooter() then
+			SendGroupMessage("?\tsrlock");
+		end
+	else
+		-- Unlock the Soft Reserves when not in a group
+		local locked = app.Settings:GetTooltipSetting("SoftReservesLocked");
+		if locked then
+			app.Settings:SetTooltipSetting("SoftReservesLocked", false);
+			wipe(searchCache);
+		end
+	end
+	
 end
 app.events.PLAYER_LOGIN = function()
 	app:UnregisterEvent("PLAYER_LOGIN");
@@ -10025,6 +10143,12 @@ app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, zone
 						end
 					elseif a == "srml" then -- Soft Reserve (Master Looter) Command
 						app:QuerySoftReserve(UnitGUID(target), a, target);
+					elseif a == "srlock" then
+						if target == UnitName("player") then
+							return false;
+						else
+							response = "srlock\t" .. (app.Settings:GetTooltipSetting("SoftReservesLocked") and 1 or 0);
+						end
 					end
 				else
 					local data = app:GetWindow("Prime").data;
@@ -10052,7 +10176,7 @@ app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, zone
 							for i=3,#args,2 do
 								app:UpdateSoftReserveInternal(args[i], tonumber(args[i + 1]));
 							end
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow();
 						end
 					elseif a == "srlock" then
 						if target == UnitName("player") then
@@ -10060,7 +10184,7 @@ app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, zone
 						else
 							app.Settings:SetTooltipSetting("SoftReservesLocked", tonumber(args[3]) == 1);
 							wipe(searchCache);
-							app:GetWindow("SoftReserves"):Update(true);
+							app:RefreshSoftReserveWindow(true);
 						end
 					end
 				end

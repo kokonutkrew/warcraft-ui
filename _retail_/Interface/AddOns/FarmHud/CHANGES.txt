@@ -1,12 +1,12 @@
-tag 8db8053a521e480b2dff3fdcc77588181fde260e 8.3-5-release
+tag 176f88e904fc78de9e2863da33239316a8be2846 8.7.3-release
 Author:	Hizuro <hizuro@gmx.net>
-Date:	Thu Nov 28 00:09:43 2019 +0100
+Date:	Fri Nov 27 02:56:18 2020 +0100
 
-Tagging as 8.3-5-release
+Tagging as 8.7.3-release
 
-commit 24b7bcca49b57911942f258fc61057e944cf6134
+commit 0d8beb84e5d9c8a93ce0ba76785544f3899e9d2e
 Author: Hizuro <hizuro@gmx.net>
-Date:   Thu Nov 28 00:07:46 2019 +0100
+Date:   Fri Nov 27 02:56:06 2020 +0100
 
-    Fix problem between new tracking option and classic clients
+    minor changes in pkgmeta
 

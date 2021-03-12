@@ -216,3 +216,7 @@ Jamba-Toon: disabled
 Jamba-Trade: disabled
 ISBoxer: enabled
 WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+TomCats-DarkshoreRares: disabled
+TomCats-Mechagon: disabled
+TomCats-Nazjatar: disabled

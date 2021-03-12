@@ -1,0 +1,50 @@
+BINDINGMODE 0
+bind A STRAFELEFT
+bind D STRAFERIGHT
+bind Q CLICK RazerNagaActionButton21:LeftButton
+bind E CLICK RazerNagaActionButton24:LeftButton
+bind NUMLOCK NONE
+bind BUTTON4 CLICK RazerNagaActionButton22:LeftButton
+bind NUMPADDIVIDE CLICK RazerNagaActionButton1:LeftButton
+bind 1 ACTIONBUTTON1
+bind 2 ACTIONBUTTON2
+bind 3 ACTIONBUTTON3
+bind 4 ACTIONBUTTON4
+bind 5 ACTIONBUTTON5
+bind 6 ACTIONBUTTON6
+bind 7 ACTIONBUTTON7
+bind 8 ACTIONBUTTON8
+bind 9 ACTIONBUTTON9
+bind 0 ACTIONBUTTON10
+bind - ACTIONBUTTON11
+bind = ACTIONBUTTON12
+bind CTRL-1 BONUSACTIONBUTTON1
+bind CTRL-2 BONUSACTIONBUTTON2
+bind CTRL-3 BONUSACTIONBUTTON3
+bind CTRL-4 BONUSACTIONBUTTON4
+bind CTRL-5 BONUSACTIONBUTTON5
+bind CTRL-6 BONUSACTIONBUTTON6
+bind CTRL-7 BONUSACTIONBUTTON7
+bind CTRL-8 BONUSACTIONBUTTON8
+bind CTRL-9 BONUSACTIONBUTTON9
+bind CTRL-0 BONUSACTIONBUTTON10
+bind NUMPADMINUS CLICK RazerNagaActionButton3:LeftButton
+bind CTRL-= CAMERAZOOMIN
+bind CTRL-- CAMERAZOOMOUT
+bind MOUSEWHEELUP CLICK RazerNagaActionButton20:LeftButton
+bind MOUSEWHEELDOWN CLICK RazerNagaActionButton23:LeftButton
+bind NUMPAD5 CLICK RazerNagaActionButton8:LeftButton
+bind NUMPAD1 CLICK RazerNagaActionButton10:LeftButton
+bind NUMPAD3 CLICK RazerNagaActionButton12:LeftButton
+bind BUTTON5 CLICK RazerNagaActionButton19:LeftButton
+bind ] TOGGLEAUTORUN
+bind \ TOGGLERUN
+bind NUMPADMULTIPLY CLICK RazerNagaActionButton2:LeftButton
+bind NUMPAD7 CLICK RazerNagaActionButton4:LeftButton
+bind NUMPAD8 CLICK RazerNagaActionButton5:LeftButton
+bind NUMPAD9 CLICK RazerNagaActionButton6:LeftButton
+bind NUMPAD4 CLICK RazerNagaActionButton7:LeftButton
+bind NUMPAD6 CLICK RazerNagaActionButton9:LeftButton
+bind NUMPAD2 CLICK RazerNagaActionButton11:LeftButton
+bind ` CLICK SGI_INVITE_BUTTON2:LeftButton
+bind [ PAWN_COMPARE_LEFT

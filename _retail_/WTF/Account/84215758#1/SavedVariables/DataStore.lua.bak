@@ -1,0 +1,17 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

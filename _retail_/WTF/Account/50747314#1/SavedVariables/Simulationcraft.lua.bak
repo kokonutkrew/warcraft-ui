@@ -1,0 +1,13 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+	},
+	["profiles"] = {
+		["Kokonutkiing - Emerald Dream"] = {
+		},
+		["Kokonutkween - Emerald Dream"] = {
+		},
+	},
+}

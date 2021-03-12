@@ -13,13 +13,15 @@ JambaCoreProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -62,27 +64,33 @@ JambaCoreProfileDB = {
 		["Samoanbeast - Ravenholdt"] = {
 			["showStartupMessage4000"] = false,
 		},
+		["Samoanruin - Emerald Dream"] = {
+			["showStartupMessage4000"] = false,
+		},
 		["Samoansneaky - Tichondrius"] = {
 			["showStartupMessage4000"] = false,
 		},
 		["Samoanrelic - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+			["showStartupMessage4000"] = false,
+		},
+		["Samoanmystic - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
 		["Samoanspy - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 			["showStartupMessage4000"] = false,
 		},
 		["Samoantitan - Stormrage"] = {
@@ -104,13 +112,15 @@ JambaCommunicationsProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -140,21 +150,25 @@ JambaCommunicationsProfileDB = {
 		},
 		["Samoanbeast - Ravenholdt"] = {
 		},
+		["Samoanruin - Emerald Dream"] = {
+		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},
@@ -174,13 +188,15 @@ JambaTeamProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -189,28 +205,53 @@ JambaTeamProfileDB = {
 				["Samoanslayer-EmeraldDream"] = "ROGUE",
 			},
 			["master"] = "Samoanslayer-EmeraldDream",
-			["characterOnline"] = {
-				["Samoanslayer-EmeraldDream"] = true,
-			},
 			["teamList"] = {
 				["Samoanslayer-EmeraldDream"] = 1,
+			},
+			["characterOnline"] = {
+				["Samoanslayer-EmeraldDream"] = true,
 			},
 		},
 		["Samoansaint - Stormrage"] = {
 			["master"] = "Samoansaint-Stormrage",
-			["characterOnline"] = {
-				["Samoanbeast-Ravenholdt"] = false,
-				["Samoansaint-Stormrage"] = true,
-			},
 			["teamList"] = {
-				["Samoanbeast-Ravenholdt"] = 2,
 				["Samoansaint-Stormrage"] = 1,
+				["Samoanbeast-Ravenholdt"] = 2,
+			},
+			["characterOnline"] = {
+				["Samoansaint-Stormrage"] = true,
+				["Samoanbeast-Ravenholdt"] = false,
 			},
 		},
 		["KokonutKrew"] = {
-			["inviteAcceptBNFriends"] = true,
-			["inviteAcceptGuild"] = true,
 			["masterChangePromoteLeader"] = true,
+			["inviteAcceptFriends"] = true,
+			["inviteSetAllAssistant"] = true,
+			["characterOnline"] = {
+				["Samoanranger-EmeraldDream"] = false,
+				["Cherriebomb-EmeraldDream"] = false,
+				["Samoantitan-EmeraldDream"] = false,
+				["Samoanbeast-Ravenholdt"] = false,
+				["Samoandruid-EmeraldDream"] = false,
+				["Samoantank-Tichondrius"] = false,
+				["Samoansavage-Stormrage"] = true,
+				["Samoanslayer-EmeraldDream"] = false,
+				["Samoanrelic-EmeraldDream"] = false,
+				["Samoantitan-Stormrage"] = false,
+				["Tygrrlilly-EmeraldDream"] = false,
+				["Samoanhunter-EmeraldDream"] = false,
+			},
+			["inviteAcceptGuild"] = true,
+			["characterClass"] = {
+				["Samoanslayer-EmeraldDream"] = "WARRIOR",
+				["Samoanranger-EmeraldDream"] = "HUNTER",
+				["Cherriebomb-EmeraldDream"] = "ROGUE",
+				["Samoantitan-Stormrage"] = "PALADIN",
+				["Samoanbeast-Ravenholdt"] = "DRUID",
+				["Tygrrlilly-EmeraldDream"] = "HUNTER",
+				["Samoandruid-EmeraldDream"] = "DRUID",
+				["Samoanhunter-EmeraldDream"] = "HUNTER",
+			},
 			["master"] = "Samoanranger-EmeraldDream",
 			["teamList"] = {
 				["Samoanranger-EmeraldDream"] = 1,
@@ -226,64 +267,39 @@ JambaTeamProfileDB = {
 				["Tygrrlilly-EmeraldDream"] = 4,
 				["Samoanhunter-EmeraldDream"] = 11,
 			},
-			["inviteAcceptFriends"] = true,
-			["characterClass"] = {
-				["Cherriebomb-EmeraldDream"] = "ROGUE",
-				["Samoanranger-EmeraldDream"] = "HUNTER",
-				["Samoanslayer-EmeraldDream"] = "WARRIOR",
-				["Samoantitan-Stormrage"] = "PALADIN",
-				["Tygrrlilly-EmeraldDream"] = "HUNTER",
-				["Samoanbeast-Ravenholdt"] = "DRUID",
-				["Samoandruid-EmeraldDream"] = "DRUID",
-				["Samoanhunter-EmeraldDream"] = "HUNTER",
-			},
-			["inviteSetAllAssistant"] = true,
-			["characterOnline"] = {
-				["Samoanranger-EmeraldDream"] = false,
-				["Cherriebomb-EmeraldDream"] = false,
-				["Samoantitan-EmeraldDream"] = false,
-				["Samoanbeast-Ravenholdt"] = false,
-				["Samoandruid-EmeraldDream"] = false,
-				["Samoantank-Tichondrius"] = false,
-				["Samoansavage-Stormrage"] = false,
-				["Samoanslayer-EmeraldDream"] = false,
-				["Samoanrelic-EmeraldDream"] = false,
-				["Samoantitan-Stormrage"] = true,
-				["Tygrrlilly-EmeraldDream"] = false,
-				["Samoanhunter-EmeraldDream"] = false,
-			},
+			["inviteAcceptBNFriends"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
 			["master"] = "Samoantank-EmeraldDream",
-			["characterOnline"] = {
-				["Samoantank-EmeraldDream"] = true,
-				["Samoanbeast-Ravenholdt"] = false,
-			},
 			["teamList"] = {
 				["Samoantank-EmeraldDream"] = 1,
 				["Samoanbeast-Ravenholdt"] = 2,
 			},
+			["characterOnline"] = {
+				["Samoantank-EmeraldDream"] = true,
+				["Samoanbeast-Ravenholdt"] = false,
+			},
 		},
 		["Samoansensei - Emerald Dream"] = {
 			["master"] = "Samoansensei-EmeraldDream",
-			["teamList"] = {
-				["Samoansensei-EmeraldDream"] = 1,
-				["Samoanbeast-Ravenholdt"] = 2,
-			},
 			["characterOnline"] = {
-				["Samoansensei-EmeraldDream"] = true,
 				["Samoanbeast-Ravenholdt"] = true,
+				["Samoansensei-EmeraldDream"] = true,
+			},
+			["teamList"] = {
+				["Samoanbeast-Ravenholdt"] = 2,
+				["Samoansensei-EmeraldDream"] = 1,
 			},
 		},
 		["Samoaninja - Emerald Dream"] = {
 			["master"] = "Samoaninja-EmeraldDream",
-			["teamList"] = {
-				["Samoaninja-EmeraldDream"] = 1,
-				["Samoanbeast-Ravenholdt"] = 2,
-			},
 			["characterOnline"] = {
-				["Samoaninja-EmeraldDream"] = true,
 				["Samoanbeast-Ravenholdt"] = false,
+				["Samoaninja-EmeraldDream"] = true,
+			},
+			["teamList"] = {
+				["Samoanbeast-Ravenholdt"] = 2,
+				["Samoaninja-EmeraldDream"] = 1,
 			},
 		},
 		["Samoantitan - Emerald Dream"] = {
@@ -291,50 +307,43 @@ JambaTeamProfileDB = {
 				["Tygrrlilly-EmeraldDream"] = "HUNTER",
 			},
 			["master"] = "Samoantitan-EmeraldDream",
-			["characterOnline"] = {
-				["Tygrrlilly-EmeraldDream"] = true,
-				["Samoantitan-EmeraldDream"] = true,
-			},
 			["teamList"] = {
-				["Tygrrlilly-EmeraldDream"] = 2,
 				["Samoantitan-EmeraldDream"] = 1,
+				["Tygrrlilly-EmeraldDream"] = 2,
+			},
+			["characterOnline"] = {
+				["Samoantitan-EmeraldDream"] = true,
+				["Tygrrlilly-EmeraldDream"] = true,
 			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["master"] = "Samoantank-Tichondrius",
-			["characterOnline"] = {
-				["Samoantank-Tichondrius"] = true,
-				["Samoanbeast-Ravenholdt"] = true,
-			},
 			["teamList"] = {
 				["Samoantank-Tichondrius"] = 1,
 				["Samoanbeast-Ravenholdt"] = 2,
 			},
+			["characterOnline"] = {
+				["Samoantank-Tichondrius"] = true,
+				["Samoanbeast-Ravenholdt"] = true,
+			},
 		},
 		["Samoanlegend - Emerald Dream"] = {
 			["master"] = "Samoanlegend-EmeraldDream",
-			["teamList"] = {
-				["Samoanlegend-EmeraldDream"] = 1,
-				["Samoanranger-EmeraldDream"] = 2,
-			},
 			["characterOnline"] = {
 				["Samoanlegend-EmeraldDream"] = true,
 				["Samoanranger-EmeraldDream"] = false,
 			},
+			["teamList"] = {
+				["Samoanlegend-EmeraldDream"] = 1,
+				["Samoanranger-EmeraldDream"] = 2,
+			},
 		},
 		["Samoansavage - Stormrage"] = {
 			["characterClass"] = {
-				["Tygrrlilly-EmeraldDream"] = "HUNTER",
 				["Samoanhunter-EmeraldDream"] = "HUNTER",
+				["Tygrrlilly-EmeraldDream"] = "HUNTER",
 			},
 			["master"] = "Samoansavage-Stormrage",
-			["teamList"] = {
-				["Samoanranger-EmeraldDream"] = 3,
-				["Samoansavage-Stormrage"] = 1,
-				["Samoanbeast-Ravenholdt"] = 2,
-				["Tygrrlilly-EmeraldDream"] = 4,
-				["Samoanhunter-EmeraldDream"] = 5,
-			},
 			["characterOnline"] = {
 				["Samoanranger-EmeraldDream"] = true,
 				["Samoansavage-Stormrage"] = true,
@@ -342,123 +351,148 @@ JambaTeamProfileDB = {
 				["Tygrrlilly-EmeraldDream"] = true,
 				["Samoanhunter-EmeraldDream"] = true,
 			},
+			["teamList"] = {
+				["Samoanranger-EmeraldDream"] = 3,
+				["Samoansavage-Stormrage"] = 1,
+				["Samoanbeast-Ravenholdt"] = 2,
+				["Tygrrlilly-EmeraldDream"] = 4,
+				["Samoanhunter-EmeraldDream"] = 5,
+			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 			["characterClass"] = {
 				["Gfsdfgsd-Tichondrius"] = "DRUID",
 			},
 			["master"] = "Gfsdfgsd-Tichondrius",
-			["characterOnline"] = {
-				["Gfsdfgsd-Tichondrius"] = true,
-			},
 			["teamList"] = {
 				["Gfsdfgsd-Tichondrius"] = 1,
 			},
+			["characterOnline"] = {
+				["Gfsdfgsd-Tichondrius"] = true,
+			},
 		},
 		["Samoansavage - Emerald Dream"] = {
-			["characterOnline"] = {
-				["Samoansavage-EmeraldDream"] = true,
-				["Samoanranger-EmeraldDream"] = true,
-				["Samoantitan-EmeraldDream"] = true,
-			},
+			["master"] = "Samoansavage-EmeraldDream",
 			["teamList"] = {
 				["Samoansavage-EmeraldDream"] = 1,
 				["Samoanranger-EmeraldDream"] = 3,
 				["Samoantitan-EmeraldDream"] = 2,
 			},
-			["master"] = "Samoansavage-EmeraldDream",
+			["characterOnline"] = {
+				["Samoansavage-EmeraldDream"] = true,
+				["Samoanranger-EmeraldDream"] = true,
+				["Samoantitan-EmeraldDream"] = true,
+			},
 		},
 		["Samoanbeast - Ravenholdt"] = {
 			["master"] = "Samoanbeast-Ravenholdt",
+			["teamList"] = {
+				["Samoantitan-EmeraldDream"] = 2,
+				["Samoanbeast-Ravenholdt"] = 1,
+			},
 			["characterOnline"] = {
-				["Samoanbeast-Ravenholdt"] = true,
 				["Samoantitan-EmeraldDream"] = false,
+				["Samoanbeast-Ravenholdt"] = true,
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["master"] = "Samoanruin-EmeraldDream",
+			["characterOnline"] = {
+				["Samoanruin-EmeraldDream"] = true,
 			},
 			["teamList"] = {
-				["Samoanbeast-Ravenholdt"] = 1,
-				["Samoantitan-EmeraldDream"] = 2,
+				["Samoanruin-EmeraldDream"] = 1,
 			},
 		},
 		["Samoansneaky - Tichondrius"] = {
 			["master"] = "Samoansneaky-Tichondrius",
-			["teamList"] = {
-				["Samoansneaky-Tichondrius"] = 1,
-				["Samoanbeast-Ravenholdt"] = 2,
-			},
 			["characterOnline"] = {
-				["Samoansneaky-Tichondrius"] = true,
 				["Samoanbeast-Ravenholdt"] = false,
+				["Samoansneaky-Tichondrius"] = true,
+			},
+			["teamList"] = {
+				["Samoanbeast-Ravenholdt"] = 2,
+				["Samoansneaky-Tichondrius"] = 1,
 			},
 		},
 		["Samoanrelic - Emerald Dream"] = {
 			["master"] = "Samoanrelic-EmeraldDream",
-			["characterOnline"] = {
-				["Samoanrelic-EmeraldDream"] = true,
-				["Samoantitan-EmeraldDream"] = true,
-			},
 			["teamList"] = {
 				["Samoanrelic-EmeraldDream"] = 1,
 				["Samoantitan-EmeraldDream"] = 2,
 			},
+			["characterOnline"] = {
+				["Samoanrelic-EmeraldDream"] = true,
+				["Samoantitan-EmeraldDream"] = true,
+			},
 		},
-		["Samoansmash - Emerald Dream"] = {
-			["master"] = "Samoansmash-EmeraldDream",
+		["Samoanzero - Emerald Dream"] = {
+			["master"] = "Samoanzero-EmeraldDream",
 			["teamList"] = {
-				["Samoansmash-EmeraldDream"] = 1,
+				["Samoanzero-EmeraldDream"] = 1,
+			},
+			["characterOnline"] = {
+				["Samoanzero-EmeraldDream"] = true,
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["master"] = "Samoanmystic-EmeraldDream",
+			["teamList"] = {
+				["Samoanmystic-EmeraldDream"] = 1,
 				["Samoanranger-EmeraldDream"] = 2,
 			},
 			["characterOnline"] = {
-				["Samoansmash-EmeraldDream"] = true,
+				["Samoanmystic-EmeraldDream"] = true,
 				["Samoanranger-EmeraldDream"] = false,
 			},
 		},
 		["Default"] = {
 			["master"] = "Samoantank-Tichondrius",
-			["characterOnline"] = {
-				["Samoantank-Tichondrius"] = true,
-			},
 			["teamList"] = {
 				["Samoantank-Tichondrius"] = 1,
 			},
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["master"] = "Samoanranger-EmeraldDream",
-			["teamList"] = {
-				["Samoanranger-EmeraldDream"] = 1,
-			},
 			["characterOnline"] = {
-				["Samoanranger-EmeraldDream"] = true,
-			},
-		},
-		["Samoanspy - Emerald Dream"] = {
-			["master"] = "Samoanspy-EmeraldDream",
-			["characterOnline"] = {
-				["Samoanspy-EmeraldDream"] = true,
-			},
-			["teamList"] = {
-				["Samoanspy-EmeraldDream"] = 1,
+				["Samoantank-Tichondrius"] = true,
 			},
 		},
 		["Samoansage - Emerald Dream"] = {
 			["master"] = "Samoansage-EmeraldDream",
-			["characterOnline"] = {
-				["Samoansage-EmeraldDream"] = true,
-				["Samoanbeast-Ravenholdt"] = false,
-			},
 			["teamList"] = {
 				["Samoansage-EmeraldDream"] = 1,
 				["Samoanbeast-Ravenholdt"] = 2,
 			},
+			["characterOnline"] = {
+				["Samoansage-EmeraldDream"] = true,
+				["Samoanbeast-Ravenholdt"] = false,
+			},
 		},
-		["Samoanmystic - Emerald Dream"] = {
-			["master"] = "Samoanmystic-EmeraldDream",
+		["Samoanspy - Emerald Dream"] = {
+			["master"] = "Samoanspy-EmeraldDream",
+			["teamList"] = {
+				["Samoanspy-EmeraldDream"] = 1,
+			},
+			["characterOnline"] = {
+				["Samoanspy-EmeraldDream"] = true,
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["master"] = "Samoanranger-EmeraldDream",
+			["characterOnline"] = {
+				["Samoanranger-EmeraldDream"] = true,
+			},
+			["teamList"] = {
+				["Samoanranger-EmeraldDream"] = 1,
+			},
+		},
+		["Samoansmash - Emerald Dream"] = {
+			["master"] = "Samoansmash-EmeraldDream",
 			["characterOnline"] = {
 				["Samoanranger-EmeraldDream"] = false,
-				["Samoanmystic-EmeraldDream"] = true,
+				["Samoansmash-EmeraldDream"] = true,
 			},
 			["teamList"] = {
 				["Samoanranger-EmeraldDream"] = 2,
-				["Samoanmystic-EmeraldDream"] = 1,
+				["Samoansmash-EmeraldDream"] = 1,
 			},
 		},
 		["Samoantitan - Stormrage"] = {
@@ -466,11 +500,11 @@ JambaTeamProfileDB = {
 				["Samoantitan-Stormrage"] = "PALADIN",
 			},
 			["master"] = "Samoantitan-Stormrage",
-			["teamList"] = {
-				["Samoantitan-Stormrage"] = 1,
-			},
 			["characterOnline"] = {
 				["Samoantitan-Stormrage"] = true,
+			},
+			["teamList"] = {
+				["Samoantitan-Stormrage"] = 1,
 			},
 		},
 	},
@@ -489,13 +523,15 @@ JambaTagProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -530,15 +566,15 @@ JambaTagProfileDB = {
 		},
 		["Samoansaint - Stormrage"] = {
 			["tagList"] = {
-				["Samoansaint-Stormrage"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"master", -- [3]
-				},
 				["Samoanbeast-Ravenholdt"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
+				},
+				["Samoansaint-Stormrage"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
 				},
 			},
 		},
@@ -628,43 +664,43 @@ JambaTagProfileDB = {
 		},
 		["Samoansensei - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoanbeast-Ravenholdt"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"minion", -- [3]
-				},
 				["Samoansensei-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
 				},
-			},
-		},
-		["Samoaninja - Emerald Dream"] = {
-			["tagList"] = {
 				["Samoanbeast-Ravenholdt"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["tagList"] = {
 				["Samoaninja-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
 				},
-			},
-		},
-		["Samoantitan - Emerald Dream"] = {
-			["tagList"] = {
-				["Tygrrlilly-EmeraldDream"] = {
+				["Samoanbeast-Ravenholdt"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
+			},
+		},
+		["Samoantitan - Emerald Dream"] = {
+			["tagList"] = {
 				["Samoantitan-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
+				},
+				["Tygrrlilly-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"minion", -- [3]
 				},
 			},
 		},
@@ -813,12 +849,21 @@ JambaTagProfileDB = {
 					"justme", -- [2]
 					"minion", -- [3]
 				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
+				},
 				["Tygrrlilly-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Samoantitan-Stormrage"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanruin-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
@@ -827,15 +872,15 @@ JambaTagProfileDB = {
 		},
 		["Samoansneaky - Tichondrius"] = {
 			["tagList"] = {
-				["Samoanbeast-Ravenholdt"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"minion", -- [3]
-				},
 				["Samoansneaky-Tichondrius"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
+				},
+				["Samoanbeast-Ravenholdt"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"minion", -- [3]
 				},
 			},
 		},
@@ -851,26 +896,35 @@ JambaTagProfileDB = {
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Samoantitan-Stormrage"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"master", -- [3]
-				},
 				["Samoantitan-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
+				},
 			},
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanzero-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
+				},
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
 			["tagList"] = {
 				["Samoanranger-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Samoansmash-EmeraldDream"] = {
+				["Samoanmystic-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
@@ -914,15 +968,38 @@ JambaTagProfileDB = {
 					"justme", -- [2]
 					"minion", -- [3]
 				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"minion", -- [3]
+				},
 				["Tygrrlilly-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Samoantitan-Stormrage"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoansage-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
+				},
+				["Samoanbeast-Ravenholdt"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
+				},
+			},
+		},
+		["Samoanspy - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanspy-EmeraldDream"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"master", -- [3]
 				},
 			},
 		},
@@ -968,44 +1045,21 @@ JambaTagProfileDB = {
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Tygrrlilly-EmeraldDream"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"minion", -- [3]
-				},
 				["Samoantitan-Stormrage"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-			},
-		},
-		["Samoanspy - Emerald Dream"] = {
-			["tagList"] = {
-				["Samoanspy-EmeraldDream"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"master", -- [3]
-				},
-			},
-		},
-		["Samoansage - Emerald Dream"] = {
-			["tagList"] = {
-				["Samoansage-EmeraldDream"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"master", -- [3]
-				},
-				["Samoanbeast-Ravenholdt"] = {
+				["Tygrrlilly-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"minion", -- [3]
 				},
 			},
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoanmystic-EmeraldDream"] = {
+				["Samoansmash-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
@@ -1024,15 +1078,15 @@ JambaTagProfileDB = {
 					"justme", -- [2]
 					"minion", -- [3]
 				},
-				["Samoantitan-Stormrage"] = {
-					"all", -- [1]
-					"justme", -- [2]
-					"minion", -- [3]
-				},
 				["Samoantitan-EmeraldDream"] = {
 					"all", -- [1]
 					"justme", -- [2]
 					"master", -- [3]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"justme", -- [2]
+					"minion", -- [3]
 				},
 			},
 		},
@@ -1052,13 +1106,15 @@ JambaMessageProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -1088,21 +1144,25 @@ JambaMessageProfileDB = {
 		},
 		["Samoanbeast - Ravenholdt"] = {
 		},
+		["Samoanruin - Emerald Dream"] = {
+		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Default"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

@@ -10,6 +10,7 @@ PS_MultiKillSound = true
 PS_PaybackSound = true
 PS_BattlegroundSound = true
 PS_SoundEffect = true
+PS_Execute = false
 PS_KillSoundEngine = true
 PS_BattlegroundSoundEngine = true
 PS_DataShare = true

@@ -1,7 +1,11 @@
 
 Details_TinyThreatDB = {
 	["characters"] = {
+		["Tigerlilly - Grobbulus"] = "Marshmellow - Grobbulus",
+		["Abenia - Grobbulus"] = "Marshmellow - Grobbulus",
 		["Marshmellow - Grobbulus"] = "Marshmellow - Grobbulus",
+		["Jnx - Grobbulus"] = "Marshmellow - Grobbulus",
+		["Dd - Grobbulus"] = "Marshmellow - Grobbulus",
 	},
 	["profiles"] = {
 		["Marshmellow - Grobbulus"] = {
@@ -18,8 +22,8 @@ Details_TinyThreatDB = {
 			["dividebyhundred"] = true,
 			["showamount"] = true,
 			["useplayercolor"] = true,
-			["alwaysshowme"] = true,
 			["author"] = "Terciob",
+			["alwaysshowme"] = true,
 		},
 	},
 }

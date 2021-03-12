@@ -1,0 +1,19 @@
+
+GatherMate_SharingDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["profiles"] = {
+		["Sprinkles - Emerald Dream"] = {
+		},
+		["Gizelin - Emerald Dream"] = {
+		},
+		["Buhbels - Emerald Dream"] = {
+		},
+		["Cupkek - Emerald Dream"] = {
+		},
+	},
+}

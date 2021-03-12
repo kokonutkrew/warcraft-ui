@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("Buru", "DBM-AQ20", 1)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20200817152042")
+mod:SetRevision("20201101205146")
 mod:SetCreatureID(15370)
 mod:SetEncounterID(721)
 mod:SetModelID(15654)
@@ -13,7 +13,7 @@ mod:RegisterEventsInCombat(
 
 --TODO, see if CLASSIC data set has a spellID for pursuit before it can use generic alerts and voice pack suppot
 local WarnDismember				= mod:NewStackAnnounce(96, 3, nil, "Tank", 3)
-local warnPursue				= mod:NewAnnounce("WarnPursue", 3, 62374)
+local warnPursue				= mod:NewAnnounce("WarnPursue", 3, 12021, false, 2)
 
 local specWarnDismember			= mod:NewSpecialWarningStack(96, nil, 5, nil, nil, 1, 6)
 local specWarnDismemberTaunt	= mod:NewSpecialWarningTaunt(96, nil, nil, nil, 1, 2)
@@ -68,8 +68,7 @@ do
 end
 
 function mod:CHAT_MSG_MONSTER_EMOTE(msg, _, _, _, target)
-	if not msg:find(L.PursueEmote) then return end
-	if target then
+	if (msg:find(L.PursueEmote) or msg == L.PursueEmote) and target then
 		target = DBM:GetUnitFullName(target)
 		if target == UnitName("player") then
 			specWarnPursue:Show()

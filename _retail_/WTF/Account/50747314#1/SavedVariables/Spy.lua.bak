@@ -1,0 +1,83 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Emerald Dream"] = {
+			["Horde"] = {
+				["Gl"] = {
+				},
+			},
+			["Alliance"] = {
+				["Kokonutkiing"] = {
+				},
+				["Kokonutkween"] = {
+				},
+				["Buhbles"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Emerald Dream"] = {
+			["Horde"] = {
+			},
+			["Alliance"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+	},
+	["profiles"] = {
+		["Gl - Emerald Dream"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kokonutkiing - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Buhbles - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kokonutkween - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

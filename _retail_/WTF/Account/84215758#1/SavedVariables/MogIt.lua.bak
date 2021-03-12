@@ -1,0 +1,49 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.9.4",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["x"] = 0,
+			["slotLabels"] = {
+				["Crossbow"] = "Crossbows",
+				["Fist"] = "Fist Weapons",
+				["Tabard"] = "Tabard",
+				["Legs"] = "Legs",
+				["Back"] = "Back",
+				["Shirt"] = "Shirt",
+				["Dagger"] = "Daggers",
+				["Hands"] = "Hands",
+				["Wrist"] = "Wrist",
+				["Bow"] = "Bows",
+				["1H-mace"] = "One-Handed Maces",
+				["1H-axe"] = "One-Handed Axes",
+				["Holdable"] = "Held In Off-hand",
+				["Feet"] = "Feet",
+				["Chest"] = "Chest",
+				["Gun"] = "Guns",
+				["Waist"] = "Waist",
+				["1H-sword"] = "One-Handed Swords",
+				["Shoulder"] = "Shoulder",
+				["Head"] = "Head",
+			},
+			["y"] = 0,
+		},
+	},
+}
+MogItWishlist = {
+	["global"] = {
+		["version"] = 90002,
+	},
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["profiles"] = {
+		["Wealthkk - Emerald Dream"] = {
+		},
+	},
+}

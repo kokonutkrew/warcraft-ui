@@ -13,13 +13,16 @@ JambaTradeProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -29,9 +32,9 @@ JambaTradeProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["adjustMoneyWithGuildBank"] = true,
-			["adjustMoneyWithMasterOnTrade"] = true,
 			["tradeCRItems"] = true,
 			["showJambaTradeWindow"] = true,
+			["adjustMoneyWithMasterOnTrade"] = true,
 			["tradeBoEItems"] = true,
 		},
 		["Samoantank - Emerald Dream"] = {
@@ -54,21 +57,27 @@ JambaTradeProfileDB = {
 		},
 		["Samoanbeast - Ravenholdt"] = {
 		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Samoanruin - Emerald Dream"] = {
+		},
 		["Samoansneaky - Tichondrius"] = {
 		},
 		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
 		},
 		["Samoansmash - Emerald Dream"] = {
 		},
 		["Default"] = {
 		},
-		["Samoanmystic - Emerald Dream"] = {
-		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 		},
 		["Samoanspy - Emerald Dream"] = {
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},

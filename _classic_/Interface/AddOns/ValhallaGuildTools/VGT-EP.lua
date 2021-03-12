@@ -9,44 +9,19 @@ local data
 local MINIMUM_GP = 50
 local MAX_TIME_TO_KEEP = 30
 local MAX_TIME_TO_KEEP_RAID = 8
+local DUNGEON_REWARD = 100
+local RAID_REWARD = 200
 
 -- ############################################################
 -- ##### LOCAL FUNCTIONS ######################################
 -- ############################################################
-
-local function deepcopy(orig)
-  local orig_type = type(orig)
-  local copy
-  if orig_type == "table" then
-    copy = {}
-    for orig_key, orig_value in next, orig, nil do
-      copy[deepcopy(orig_key)] = deepcopy(orig_value)
-    end
-    setmetatable(copy, deepcopy(getmetatable(orig)))
-  else -- number, string, boolean, etc
-    copy = orig
-  end
-  return copy
-end
-
-local timeStampToDaysFromNow = function(timestamp)
-  return (GetServerTime() - (timestamp or 0)) / (60 * 60 * 24)
-end
-
-VGT.withinDays = function(timestamp, days)
-  local daysSinceTimestamp = timeStampToDaysFromNow(timestamp)
-  if (daysSinceTimestamp > -0.01 and daysSinceTimestamp < (days or 0)) then
-    return true
-  end
-  return false
-end
 
 local validateTime = function(timestamp, sender)
   timestamp = tonumber(timestamp)
   if (timestamp and VGT.withinDays(timestamp, MAX_TIME_TO_KEEP)) then
     return true
   end
-  VGT.Log(VGT.LOG_LEVEL.TRACE, "invalid timestamp %s from %s", timeStampToDaysFromNow(timestamp), VGT.Safe(sender))
+  VGT.Log(VGT.LOG_LEVEL.TRACE, "invalid timestamp %s from %s", VGT.timeStampToDaysFromNow(timestamp), VGT.Safe(sender))
   return false
 end
 
@@ -80,10 +55,7 @@ local validateGuild = function(guild, sender)
 end
 
 local validateRecord = function(guildName, timestamp, dungeonName, bossName, sender)
-  if
-    (validateGuild(guildName, sender) and validateTime(timestamp, sender) and validateDungeon(dungeonName, sender) and
-      validateBoss(bossName, sender))
-   then
+  if (validateGuild(guildName, sender) and validateTime(timestamp, sender) and validateDungeon(dungeonName, sender) and validateBoss(bossName, sender)) then
     return true
   end
   return false
@@ -138,10 +110,7 @@ function CleanDatabase:onUpdate(_, firstPlayerKey, _, currentGuidKey)
       end
 
       -- Check if data is valid
-      if
-        (not data or type(data) ~= "table" or not dungeonData or
-          not validateRecord(guildName, data[1], dungeonData[1], VGT.bosses[bossId], nil))
-       then
+      if (not data or type(data) ~= "table" or not dungeonData or not validateRecord(guildName, data[1], dungeonData[1], VGT.bosses[bossId], nil)) then
         VGT.Log(VGT.LOG_LEVEL.DEBUG, "CLEANING %s", self.currentGuidKey)
         VGT_DUNGEON_DB[guildName][self.currentPlayerKey][self.currentGuidKey] = nil
         if (VGT.Count(VGT_DUNGEON_DB[guildName][self.currentPlayerKey]) == 0) then
@@ -249,11 +218,7 @@ local handleUnitDeath = function(timestamp, creatureUID, _, dungeonName, _, boss
         VGT.LIBS:SendCommMessage(MODULE_NAME, message, "GUILD", nil)
       end
     else
-      VGT.Log(
-        VGT.LOG_LEVEL.DEBUG,
-        "skipping boss kill event because you are not in a group with any guild members of %s",
-        guildName
-      )
+      VGT.Log(VGT.LOG_LEVEL.DEBUG, "skipping boss kill event because you are not in a group with any guild members of %s", guildName)
     end
   else
     VGT.Log(VGT.LOG_LEVEL.DEBUG, "skipping boss kill event because you are not in a guild")
@@ -297,24 +262,10 @@ local handleEPMessageReceivedEvent = function(prefix, message, distribution, sen
               VGT_DUNGEON_DB[guildName][players[i]] = {}
             end
             if (VGT_DUNGEON_DB[guildName][players[i]][creatureUID] == nil) then
-              VGT.Log(
-                VGT.LOG_LEVEL.DEBUG,
-                "saving record %s:%s:%s from %s.",
-                guildName,
-                players[i],
-                creatureUID,
-                sender
-              )
+              VGT.Log(VGT.LOG_LEVEL.DEBUG, "saving record %s:%s:%s from %s.", guildName, players[i], creatureUID, sender)
               VGT_DUNGEON_DB[guildName][players[i]][creatureUID] = {timestamp}
             else
-              VGT.Log(
-                VGT.LOG_LEVEL.TRACE,
-                "record %s:%s:%s from %s already exists.",
-                guildName,
-                players[i],
-                creatureUID,
-                sender
-              )
+              VGT.Log(VGT.LOG_LEVEL.TRACE, "record %s:%s:%s from %s already exists.", guildName, players[i], creatureUID, sender)
             end
           end
         end
@@ -408,22 +359,27 @@ VGT.rewardEP = function(test)
   end
 
   local players = {}
-  for _ = 1, 5 do
+  local maxCount = 5
+  for _ = 1, maxCount do
     local currentTime = GetServerTime()
     for player, playerData in pairs(VGT_DUNGEON_DB[VGT.GetMyGuildName()]) do
       local oldestTimestamp = currentTime
       local oldestGuid
       local killCount = 0
       for guid, guidData in pairs(playerData) do
-        local _, dungeonId, _ = strsplit("-", guid)
-        dungeonId = tonumber(dungeonId)
-        local timestamp = tonumber(guidData[1])
-        local rewarded = guidData[2]
-        if (VGT.withinDays(timestamp, MAX_TIME_TO_KEEP) and not rewarded and not VGT.trackedRaids[dungeonId]) then
-          killCount = killCount + 1
-          if (timestamp < oldestTimestamp) then
-            oldestTimestamp = timestamp
-            oldestGuid = guid
+        if (killCount < maxCount) then
+          local _, dungeonId, bossId = strsplit("-", guid)
+          dungeonId = tonumber(dungeonId)
+          bossId = tonumber(bossId)
+          local value = (VGT.bosses[VGT.bosses[bossId]][3] or 1)
+          local timestamp = tonumber(guidData[1])
+          local rewarded = guidData[2]
+          if (VGT.withinDays(timestamp, MAX_TIME_TO_KEEP) and not rewarded and not VGT.trackedRaids[dungeonId]) then
+            killCount = min(killCount + value, maxCount)
+            if (timestamp < oldestTimestamp) then
+              oldestTimestamp = timestamp
+              oldestGuid = guid
+            end
           end
         end
       end
@@ -453,7 +409,7 @@ VGT.rewardEP = function(test)
       if (gp == nil or gp == "" or not tonumber(gp)) then
         gp = MINIMUM_GP
       end
-      local bonus = (10 * count)
+      local bonus = ((DUNGEON_REWARD / 5) * count)
       ep = ep + bonus
 
       if (not test) then
@@ -521,7 +477,7 @@ VGT.rewardRaidEP = function(test)
       if (gp == nil or gp == "" or not tonumber(gp)) then
         gp = MINIMUM_GP
       end
-      local bonus = 100
+      local bonus = RAID_REWARD
       ep = ep + bonus
 
       if (not test) then
@@ -536,39 +492,6 @@ VGT.rewardRaidEP = function(test)
   return players
 end
 
-VGT.decay = function()
-  VGT_PRE_DECAY = {}
-  VGT_POST_DECAY = {}
-
-  local guildTable = {}
-  for i = 1, 1000 do
-    local fullname, _, _, _, _, _, _, officernote = GetGuildRosterInfo(i)
-    if (fullname) then
-      local name = strsplit("-", fullname)
-      guildTable[name] = {i, officernote}
-      VGT_PRE_DECAY[name] = officernote
-    end
-  end
-
-  for name, rosterInfo in pairs(guildTable) do
-    local index = rosterInfo[1]
-    local officernote = rosterInfo[2]
-    if (officernote) then
-      local ep, gp = strsplit(",", officernote)
-      if (ep and gp) then
-        ep = math.floor(ep * 0.8)
-        gp = math.floor(max(gp * 0.8, 50))
-        GuildRosterSetOfficerNote(index, ep .. "," .. gp)
-        VGT_POST_DECAY[name] = ep .. "," .. gp
-      else
-        print("EPGP " .. name .. " NOT DECAYED, EPGP(" .. (ep or "nil") .. "/" .. (gp or "nil") .. ")")
-      end
-    end
-  end
-
-  SendChatMessage("EPGP decayed by 20%", "OFFICER")
-end
-
 local function tableSortTop(a, b)
   return a[2] > b[2]
 end
@@ -580,17 +503,13 @@ VGT.PrintPlayerStatistics = function(playerName)
 
   playerName = playerName:gsub("^%l", string.upper)
 
-  local player, killCount, _, mostKilledBossName, mostKilledBossCount, mostKilledBossDungeonName =
-    playerStatistics(playerName)
+  local player, killCount, _, mostKilledBossName, mostKilledBossCount, mostKilledBossDungeonName = playerStatistics(playerName)
   VGT.Log(VGT.LOG_LEVEL.SYSTEM, format("%s Statistics", player))
   if (killCount == 0) then
     VGT.Log(VGT.LOG_LEVEL.SYSTEM, "  no recorded statistics found.")
   else
     VGT.Log(VGT.LOG_LEVEL.SYSTEM, format("  total bosses killed: %s", killCount))
-    VGT.Log(
-      VGT.LOG_LEVEL.SYSTEM,
-      format("  most killed boss: %sx %s (%s)", mostKilledBossCount, mostKilledBossName, mostKilledBossDungeonName)
-    )
+    VGT.Log(VGT.LOG_LEVEL.SYSTEM, format("  most killed boss: %sx %s (%s)", mostKilledBossCount, mostKilledBossName, mostKilledBossDungeonName))
   end
 end
 
@@ -603,10 +522,7 @@ VGT.PrintDungeonLeaderboard = function()
   table.sort(top, tableSortTop)
   VGT.Log(VGT.LOG_LEVEL.SYSTEM, format("#### DUNGEON LEADERBOARD (%s days) ####", MAX_TIME_TO_KEEP))
   for i = 1, 5 do
-    VGT.Log(
-      VGT.LOG_LEVEL.SYSTEM,
-      format("  %s killed %s bosses (%s %s kills)", top[i][1], top[i][2], top[i][4], top[i][3])
-    )
+    VGT.Log(VGT.LOG_LEVEL.SYSTEM, format("  %s killed %s bosses (%s %s kills)", top[i][1], top[i][2], top[i][4], top[i][3]))
   end
 end
 
@@ -696,7 +612,7 @@ VGT.EP_Initialize = function()
           PushDatabase:onUpdate(sinceLastUpdate, firstPlayerKey, currentPlayerKey, currentGuidKey)
         end
       )
-      dbSnapshot = deepcopy(VGT_DUNGEON_DB)
+      dbSnapshot = VGT.DeepCopy(VGT_DUNGEON_DB)
       synchronize = true
       VGT.LIBS:RegisterComm(MODULE_NAME, handleEPMessageReceivedEvent)
       initialized = true

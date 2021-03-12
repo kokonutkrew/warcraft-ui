@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -29,506 +29,419 @@ Prat3HighCPUPerCharDB = {
 	["time"] = 1566109009,
 	["scrollback"] = {
 		["ChatFrame1"] = {
-			{
-				"|cff979797[00:13:42]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:932:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: why can't we be friends?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[00:13:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:933:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: my point is your still upset about being called 14", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[00:13:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lockofages-Stormrage:934:CHANNEL:2|h|cff8686ecLockofages|r|h|cffd8d8d8]|r: you're right, taped the ufc fights, that's much more entertaining, goodnight", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[00:13:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trescomas-Stormrage:935:CHANNEL:2|h|cffc31d39Trescomas|r|h|cffd8d8d8]|r: you a random nobody...i've seen x-men too", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[00:13:50]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lightpony-Stormrage:936:CHANNEL:2|h|cfff38bb9Lightpony|r|h|cffd8d8d8]|r: #TRUMPDIDNOTHINGWRONGORRIGHTORANYTHINGATALLHESJUSTAPAWNWITHABIGMIRROR", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				67, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[00:13:51]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Shcherbina-Stormrage:937:SAY|h|cff8b8b8b17|r:|cff006fdcShcherbina|r|h|cffd8d8d8]|r: can anyone pop a transmog moutn pls?", -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-				false, -- [6]
-				69, -- [7]
-				70, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[00:13:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:938:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: Talgus get a new comeback", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[00:14:02]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:940:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: No new comeback for a guy named lowski", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[00:14:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Asmora-Stormrage:941:CHANNEL:2|h|cffc31d39Asmora|r|h|cffd8d8d8]|r: no point pilferer thats why i said that", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				29, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[00:14:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:942:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: call them a snowflake or something", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[00:14:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:944:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: if you wanted a comeback id spit it in your face", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[00:14:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ñümb-Stormrage:945:CHANNEL:2|h|cffc59a6cÑümb|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:2529:1:3:158:11:11:0000000000000000|h[Thunder Lizard Runt]|h|r|cff0070dd|Hbattlepet:2755:1:3:160:12:10:0000000000000000|h[Adventurous Hopling]|h|r|cff0070dd|Hbattlepet:114:1:3:161:12:10:0000000000000000|h[Disgusting Oozeling]|h|r|cff0070dd|Hbattlepet:2590:1:3:146:12:12:0000000000000000|h[Ravenous Prideling]|h|r all for 30k pst.... Great Deal ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				51, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[00:14:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:948:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: You can spit in my face daddy", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[00:14:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Grahance-Stormrage:951:CHANNEL:2|h|cfffef367Grahance|r|h|cffd8d8d8]|r: ♦WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-60-0C39AC19:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:259::::::|h[Azshari Bloatray]|h|r/carry  right now.PST♦", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				27, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[00:14:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:952:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: save that talk for your anime body pillow", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[00:14:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:953:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: You still mad sweetheart? Let me give ya a hug", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[00:14:49]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:954:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: i need a new body pillow mine is full of holes", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[00:14:55]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Asmora-Stormrage:955:CHANNEL:2|h|cffc31d39Asmora|r|h|cffd8d8d8]|r: lightpony you forgot the orange skin in the hashtag", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				29, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[00:14:58]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:956:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: Mine stands on its own now i have sex with it so much", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[00:15:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:957:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: Mad at what?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[00:15:02]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ñümb-Stormrage:958:CHANNEL:2|h|cffc59a6cÑümb|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:2529:1:3:158:11:11:0000000000000000|h[Thunder Lizard Runt]|h|r|cff0070dd|Hbattlepet:2755:1:3:160:12:10:0000000000000000|h[Adventurous Hopling]|h|r|cff0070dd|Hbattlepet:114:1:3:161:12:10:0000000000000000|h[Disgusting Oozeling]|h|r|cff0070dd|Hbattlepet:2529:1:3:158:11:11:0000000000000000|h[Thunder Lizard Runt]|h|r for an anime body pillow or 30k pst ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				51, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[00:15:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Floredria-Stormrage:959:CHANNEL:2|h|cfffe7b09Floredria|r|h|cffd8d8d8]|r: lf tank +8 sethraliss", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[00:15:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:960:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: nothing wrong with knowing nothing about politics, and being a 14 year old daddy princess sweetheart", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[00:15:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:961:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: omg you so mad you got orange skin man you mad", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[00:15:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ileneoralee-Stormrage:962:CHANNEL:2|h|cfff38bb9Ileneoralee|r|h|cffd8d8d8]|r: girls dont play wow", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				59, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[00:15:36]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Baerrn-Stormrage:963:CHANNEL:2|h|cffa9d271Baerrn|r|h|cffd8d8d8]|r: Ever just sit down and consume like 6000 calories in like an hour?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				57, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[00:15:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:964:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: Damn he is still mad i called him 14 XD", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[00:15:50]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:965:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: girls are not real", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[00:15:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Grahance-Stormrage:966:CHANNEL:2|h|cfffef367Grahance|r|h|cffd8d8d8]|r: ♦WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-60-0C39AC19:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:259::::::|h[Azshari Bloatray]|h|r/carry  right now.PST♦", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				27, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[00:15:53]|r|c00000000|r Cannot find player 'Tigerlilly'.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				73, -- [7]
-				74, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[00:15:53]|r|c00000000|r Cannot find player 'Mancub'.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				73, -- [7]
-				74, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[00:15:53]|r|c00000000|r Cannot find player 'Foxxer'.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				73, -- [7]
-				74, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[00:15:53]|r|c00000000|r Cannot find player 'Kickbrass'.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				73, -- [7]
-				74, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[00:15:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:971:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: that is a total xD statement", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[00:15:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aakwa-Stormrage:972:CHANNEL:2|h|cfffe7b09Aakwa|r|h|cffd8d8d8]|r: Boys don't play WoW * fixed it for you.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				75, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[00:15:59]|r|c00000000|r Myombe seems a little tipsy from the |cffffffff|Hitem:33929::::::::120:70::::::|h[Brewfest Brew]|h|r.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				73, -- [7]
-				74, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[00:16:05]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:975:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: i think the average wow player consumes 6k calories an hour anyway", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[00:16:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:977:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: we all girls you right", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[00:16:19]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:978:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: Me and talgus totes speak the same language", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[00:16:29]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Poisonpoet-Stormrage:979:CHANNEL:2|h|cff3ec5e9Poisonpoet|r|h|cffd8d8d8]|r: |cff0070dd|Hitem:12790::::::::120:63::::::|h[Arcanite Champion]|h|r for sale, PST!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[00:16:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Poisonpoet-Stormrage:980:CHANNEL:2|h|cff3ec5e9Poisonpoet|r|h|cffd8d8d8]|r: WTS 9pc \"Masterwork Spiritguard\" xmog set for just 12.5k, PST!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[00:16:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:981:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: totes isnt a word bud", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[00:16:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frielly-Stormrage:982:CHANNEL:2|h|cffc59a6cFrielly|r|h|cffd8d8d8]|r: are you twins?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[00:16:37]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Asmora-Stormrage:983:CHANNEL:2|h|cffc31d39Asmora|r|h|cffd8d8d8]|r: DAMN ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				29, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[00:16:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pilferer-Stormrage:984:CHANNEL:2|h|cfffef367Pilferer|r|h|cffd8d8d8]|r: he just rekt u bro, you going to take that from him?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				49, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[00:16:45]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Phries-Stormrage:985:CHANNEL:2|h|cffa22fc8Phries|r|h|cffd8d8d8]|r: that's a lot of calories, when do they have time to play if they are eating all the time?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				79, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[00:16:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lowski-Stormrage:986:CHANNEL:2|h|cfffe7b09Lowski|r|h|cffd8d8d8]|r: xD didnt mean to upset you princess", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[00:16:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talgus-Stormrage:987:CHANNEL:2|h|cfffe7b09Talgus|r|h|cffd8d8d8]|r: your mom rekt me", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				11, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[00:16:47]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Asmora-Stormrage:988:CHANNEL:2|h|cffc31d39Asmora|r|h|cffd8d8d8]|r: shots fired at lowski", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				29, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[00:16:49]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ileneoralee-Stormrage:989:CHANNEL:2|h|cfff38bb9Ileneoralee|r|h|cffd8d8d8]|r: abortion should be illegal ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				59, -- [8]
-			}, -- [50]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 58,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cffffff 0[FF] |rFollow Felankor v2.5.5a [60000] Loaded",
+					["r"] = 0,
+					["timestamp"] = 399204.954,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Options to display the Follow Felankor options dialog",
+					["r"] = 0,
+					["timestamp"] = 399204.954,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Help for help with using Follow Felankor",
+					["r"] = 0,
+					["timestamp"] = 399204.954,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 399204.954,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:33]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
+					["timestamp"] = 399204.954,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:41]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 399224.324,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:41]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 399224.324,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:41]|h|r AutoFlood 1.2 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 399224.421,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:46]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 399224.421,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:46]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 399224.421,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:46]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 399224.421,
+					["serverTime"] = 1604041731,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:53]|h|r Total time played: 0 |4day:days;, 1 |4hour:hours;, 0 |4minute:minutes;, 1 |4second:seconds;",
+					["serverTime"] = 1604041738,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 399235.642,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:53]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 0 |4minute:minutes;, 1 |4second:seconds;",
+					["serverTime"] = 1604041738,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 399235.642,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:53]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041738,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041739,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041739,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041739,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFF1394CCHunter Beast Mastery",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041739,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 399235.642,
+					["serverTime"] = 1604041739,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399237.013,
+					["serverTime"] = 1604041739,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399237.013,
+					["serverTime"] = 1604041739,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:54]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Kill Command(34026)",
+					["timestamp"] = 399237.013,
+					["serverTime"] = 1604041739,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:55]|h|r AAP Loaded",
+					["timestamp"] = 399237.703,
+					["serverTime"] = 1604041740,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hellmannus-Stormrage:26:CHANNEL:2|h|cffc31d39Hellmannus|r|h|cffd8d8d8]|r: Can anyone port me to Darnassus?",
+					["serverTime"] = 1604041744,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399241.674,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:59]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399242.107,
+					["serverTime"] = 1604041744,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:08:59]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399242.107,
+					["serverTime"] = 1604041744,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:01]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+2, |cffe69f00-0",
+					["timestamp"] = 399243.891,
+					["serverTime"] = 1604041746,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:04]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399247.208,
+					["serverTime"] = 1604041749,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:04]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399247.208,
+					["serverTime"] = 1604041749,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Funkymunkey-Stormrage:27:CHANNEL:2|h|cff00fe97Funkymunkey|r|h|cffd8d8d8]|r: nope, no one",
+					["serverTime"] = 1604041753,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399251.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:09]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399252.308,
+					["serverTime"] = 1604041754,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:09]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399252.308,
+					["serverTime"] = 1604041754,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Detheart-Stormrage:28:CHANNEL:2|h|cffc31d39Detheart|r|h|cffd8d8d8]|r: anyone doing a herioc stormgrade?",
+					["serverTime"] = 1604041755,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399253.474,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Canaliyardra-Stormrage:29:CHANNEL:2|h|cff00fe97Canaliyardra|r|h|cffd8d8d8]|r: WTS Guarantee FULL 115 Gear/Mythic+11-20 for 130 weekly chest.Mythic jaina mount|cffa335ee|Hitem:166705::::::::1:1450:::::::|h[Glacial Tidestorm]|h|rand Mechagon 8/8 HM for|cffa335ee|Hitem:168830::::::::1:1450:::::::|h[Aerial Unit R-21/X]|h|rcan do now.PST",
+					["serverTime"] = 1604041757,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399255.074,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:14]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399257.408,
+					["serverTime"] = 1604041759,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:14]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399257.408,
+					["serverTime"] = 1604041759,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:19]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399262.508,
+					["serverTime"] = 1604041764,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:19]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399262.508,
+					["serverTime"] = 1604041764,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:24]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399267.608,
+					["serverTime"] = 1604041769,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:24]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399267.608,
+					["serverTime"] = 1604041769,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:30]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399272.708,
+					["serverTime"] = 1604041775,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:30]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399272.708,
+					["serverTime"] = 1604041775,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Detheart-Stormrage:30:CHANNEL:2|h|cffc31d39Detheart|r|h|cffd8d8d8]|r: |cffa335ee|Hitem:172200::::::::50:251::4:7:4825:6572:6578:6579:6515:1472:4786:1:28:784:::|h[Sk'shuul Vaz]|h|r",
+					["serverTime"] = 1604041779,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399277.491,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:35]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399277.808,
+					["serverTime"] = 1604041780,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:35]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399277.808,
+					["serverTime"] = 1604041780,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:40]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399282.908,
+					["serverTime"] = 1604041785,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:40]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399282.908,
+					["serverTime"] = 1604041785,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:45]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399288.008,
+					["serverTime"] = 1604041790,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:45]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399288.008,
+					["serverTime"] = 1604041790,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:50]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399293.108,
+					["serverTime"] = 1604041795,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:50]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399293.108,
+					["serverTime"] = 1604041795,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:55]|h|r |cff33ff99MaxDps|r: |cFFF0563DAt lest one pet basic ability needs to be on YOUR action bar (One of those: Smack, Claw, Bite).",
+					["timestamp"] = 399298.208,
+					["serverTime"] = 1604041800,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:55]|h|r |cff33ff99MaxDps|r: |cFFF0563DRead this for more information: goo.gl/ZF6FXt",
+					["timestamp"] = 399298.208,
+					["serverTime"] = 1604041800,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:58]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ironforge]|h",
+					["serverTime"] = 1604041803,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399301.441,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:58]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1604041803,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399301.441,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:09:58]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ironforge]|h",
+					["serverTime"] = 1604041803,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 399301.441,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cFF00FF00Storage|r  Deleted Orphaned Macro BFA_RET_AOE",
+					["timestamp"] = 399301.641,
+				}, -- [57]
+				{
+					["message"] = "|cFF00FF00Storage|r  Deleted Orphaned Macro BFA_RET",
+					["timestamp"] = 399301.641,
+				}, -- [58]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 	},
 }

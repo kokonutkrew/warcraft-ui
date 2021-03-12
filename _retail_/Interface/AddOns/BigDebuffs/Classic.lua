@@ -23,6 +23,9 @@ addon.Units = {
 -- Make sure we always see these debuffs, but don't make them bigger
 addon.PriorityDebuffs = {
     770, -- Faerie Fire
+    778, -- Faerie Fire
+    9749, -- Faerie Fire
+    9907, -- Faerie Fire
     12294, -- Mortal Strike
     21551, -- Mortal Strike
     21552, -- Mortal Strike
@@ -34,6 +37,7 @@ addon.PriorityDebuffs = {
     19284, -- Hex of Weakness
     19285, -- Hex of Weakness
     23230, -- Blood Fury Debuff
+    23605, -- Nightfall, Spell Vulnerability
 }
 
 addon.Spells = {
@@ -77,8 +81,13 @@ addon.Spells = {
     [13141] = { type = BUFF_OFFENSIVE }, -- Gnomish Rocket Boots
     [8892] = { type = BUFF_OFFENSIVE }, -- Goblin Rocket Boots
     [9774] = { type = BUFF_OFFENSIVE }, -- Spider Belt & Ornate Mithril Boots
+    [18798] = { type = CROWD_CONTROL }, -- Freezing Band
+    [22734] = { type = BUFF_OTHER }, -- Drink
+    [23605] = { type = BUFF_OTHER }, -- Nightfall, Spell Vulnerability
+    [13494] = { type = BUFF_OFFENSIVE }, -- Manual Crowd Pummeler Haste buff
 
     -- Interrupts
+
     [15752] = { type = INTERRUPT, duration = 10 }, -- Linken's Boomerang Disarm
     [19244] = { type = INTERRUPT, duration = 6 }, -- Spell Lock - Rank 1 (Warlock)
         [19647] = { parent = 19244, duration = 8 }, -- Spell Lock - Rank 2 (Warlock)
@@ -123,6 +132,10 @@ addon.Spells = {
         [10890] = { parent = 8122 },
     [10060] = { type = BUFF_OFFENSIVE }, -- Power Infusion
     [15269] = { type = CROWD_CONTROL }, -- Blackout
+    [15487] = { type = CROWD_CONTROL }, -- Silence
+    [14892] = { type = BUFF_DEFENSIVE }, -- Inspiration
+        [15362] = { parent = 14892 },
+        [15363] = { parent = 14892 },
 
     -- Warlock
 
@@ -149,11 +162,19 @@ addon.Spells = {
         [19442] = { parent = 7812 },
         [19443] = { parent = 7812 },
     [18093] = { type = CROWD_CONTROL }, -- Pyroclasm
+    [18223] = { type = ROOT }, -- Curse of Exhaustion
+        [18310] = { parent = 18223 },
+        [18310] = { parent = 18311 },
+        [18310] = { parent = 18312 },
+        [18313] = { parent = 18223 },
+    [1714] = { type = ROOT }, -- Curse of Tongues
+        [11719] = { parent =  1714 },
 
     -- Shaman
 
     [8178] = { type = IMMUNITY }, -- Grounding Totem Effect
     [16188] = { type = BUFF_DEFENSIVE }, -- Nature's Swiftness
+    [12548] = { type = ROOT }, -- Frost Shock
 
     -- Paladin
 
@@ -171,6 +192,8 @@ addon.Spells = {
     [1044] = { type = BUFF_DEFENSIVE }, -- Blessing of Freedom
     [20066] = { type = CROWD_CONTROL }, -- Repentance
     [20170] = { type = CROWD_CONTROL }, -- Seal of Justice stun
+    [6940] = { type = BUFF_DEFENSIVE }, -- Blessing of Sacrifice
+        [20729] = { parent = 6940 },
 
     -- Hunter
 
@@ -196,6 +219,9 @@ addon.Spells = {
     [19185] = { type = ROOT }, -- Entrapment
     [19503] = { type = CROWD_CONTROL }, -- Scatter Shot
     [25999] = { type = ROOT }, -- Boar Charge
+    [3034] = { type = ROOT }, -- Viper Sting
+        [14279] = { parent = 3034 },
+        [14280] = { parent = 3034 },
 
     -- Druid
 
@@ -207,6 +233,12 @@ addon.Spells = {
         [5196] = { parent = 339 },
         [9852] = { parent = 339 },
         [9853] = { parent = 339 },
+        [19970] = { parent = 339 }, -- Nature's Grasp Rank 6
+        [19971] = { parent = 339 }, -- Nature's Grasp Rank 5
+        [19972] = { parent = 339 }, -- Nature's Grasp Rank 4
+        [19973] = { parent = 339 }, -- Nature's Grasp Rank 3
+        [19974] = { parent = 339 }, -- Nature's Grasp Rank 2
+        [19975] = { parent = 339 }, -- Nature's Grasp Rank 1
     [2637] = { type = CROWD_CONTROL }, -- Hibernate
         [18657] = { parent = 2637 },
         [18658] = { parent = 2637 },
@@ -227,6 +259,10 @@ addon.Spells = {
         [16812] = { parent = 16689 },
         [16813] = { parent = 16689 },
         [17329] = { parent = 16689 },
+    [770] = { type = BUFF_OTHER }, -- Faerie Fire
+        [778] = { parent = 770 },
+        [9749] = { parent = 770 },
+        [9907] = { parent = 770 },
 
     -- Mage
 
@@ -291,6 +327,8 @@ addon.Spells = {
         [11285] = { parent = 1776 },
         [11286] = { parent = 1776 },
     [14278] = { type = BUFF_DEFENSIVE }, -- Ghostly Strike
+    [3409] = { type = ROOT }, -- Crippling Poison
+        [11201] = { parent = 3409 },
 
     -- Warrior
 

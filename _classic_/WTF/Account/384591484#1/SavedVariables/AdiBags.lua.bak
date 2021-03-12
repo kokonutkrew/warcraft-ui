@@ -1,0 +1,45 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["Equipment"] = {
+		},
+		["ClassicItemLevel"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["ItemRackSets"] = {
+		},
+		["DataSource"] = {
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Samoanlock - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["positions"] = {
+				["anchor"] = {
+					["xOffset"] = -106.271362304688,
+					["yOffset"] = 217.382705688477,
+				},
+			},
+		},
+	},
+}

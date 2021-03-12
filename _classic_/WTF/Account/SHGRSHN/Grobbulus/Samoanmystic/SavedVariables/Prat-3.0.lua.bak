@@ -1,0 +1,583 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 35,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:15:55]|h|r You receive item: |cff0070dd|Hitem:14344::::::::25:::::::|h[Large Brilliant Shard]|h|rx9.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105766,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:16:06]|h|r You receive item: |cff1eff00|Hitem:16203::::::::25:::::::|h[Greater Eternal Essence]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105777,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:16:32]|h|r You receive item: |cff1eff00|Hitem:16202::::::::25:::::::|h[Lesser Eternal Essence]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.666666686534882,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105803,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:16:52]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:12:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tQuad)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.509803950786591,
+					["g"] = 0.772549092769623,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105823,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:12]|h|r |Hplayer:Memster:0:TEXT_EMOTE:|h|cffc69b6dMemster|r|h thanks Bossmoney.",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105843,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:13]|h|r |Hplayer:Bossmoney:0:TEXT_EMOTE:|h|cff3fc6eaBossmoney|r|h cheers at Memster!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105844,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						5, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:25]|h|r [Y] |cffd8d8d8[|r|Hplayer:Phinea-Grobbulus:477:YELL|h|cffffffffPhinea|r|h|cffd8d8d8]|r: wtb mage water?",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105856,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:39]|h|r [Y] |cffd8d8d8[|r|Hplayer:Forneci-Grobbulus:481:YELL|h|cffaad372Forneci|r|h|cffd8d8d8]|r: WTS [Black Lotus] pst!!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105870,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						8, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Forneci-Grobbulus:483:CHANNEL:2|h|cffaad372Forneci|r|h|cffd8d8d8]|r: WTS [Black Lotus] pst!!",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105872,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:44]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:55:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>]|h has gone offline.",
+					["b"] = 1,
+					["r"] = 0.509803950786591,
+					["g"] = 0.772549092769623,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105875,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						3, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:17:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vardant-Grobbulus:486:CHANNEL:2|h|cff3fc6eaVardant|r|h|cffd8d8d8]|r: wts |cffffffff|Hitem:13512::::::::60:::::::|h[Flask of Supreme Power]|h|r 235g ea pst",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105878,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:18:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Phinea-Grobbulus:497:CHANNEL:2|h|cffffffffPhinea|r|h|cffd8d8d8]|r: wtb mage water in org",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105929,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:18:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ettubrute-Grobbulus:498:CHANNEL:2|h|cffc69b6dEttubrute|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:22198::::::::60:::::::|h[Jagged Obsidian Shield]|h|r",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105931,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:18:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Simayì:499:CHANNEL:2|h|cff8787edSimayì|r|h|cffd8d8d8]|r: Selling DM Buffs, 5g - Slip frozen, reavers dead, watch out for eye respawns.  Safe Summon available for extra 10g (15g total). Pst Silithyst",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105939,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:19:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Forneci-Grobbulus:502:CHANNEL:2|h|cffaad372Forneci|r|h|cffd8d8d8]|r: WTS [Black Lotus] pst!!",
+					["b"] = 0.752941250801086,
+					["r"] = 1,
+					["g"] = 0.752941250801086,
+					["timestamp"] = 152698.178,
+					["serverTime"] = 1607105954,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "0 days, 1 hours, 11 minutes, 55 seconds",
+					["timestamp"] = 152698.178,
+				}, -- [16]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 152698.178,
+				}, -- [17]
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.2+classic loaded.",
+					["timestamp"] = 152686.318,
+				}, -- [18]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.7.7, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 152686.318,
+				}, -- [19]
+				{
+					["message"] = "|cff00FF00[KillTrack]|r AddOn Loaded!",
+					["timestamp"] = 152686.318,
+				}, -- [20]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 152686.318,
+				}, -- [21]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 152686.318,
+				}, -- [22]
+				{
+					["message"] = "NeatMinimap v1.07.03 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 152686.318,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:30:58]|h|r |cffffff7fWowhead Looter|r loaded (11306)",
+					["timestamp"] = 152698.178,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:30:58]|h|r |cff33ff99Gnosis|r: Gnosis v4.79 (r240) loaded (enabled)",
+					["timestamp"] = 152698.178,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:30:58]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 152698.178,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:30:59]|h|r |cff0bda51GreenWall:|r Connected to confederation on channel 4.",
+					["timestamp"] = 152701.043,
+					["serverTime"] = 1607110270,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jaluense:2027:CHANNEL:2|h|cffffffffJaluense|r|h|cffd8d8d8]|r: WTS  250g HOLY SHNICKIES WHATADEAL. <3",
+					["serverTime"] = 1607110277,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 152707.915,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:06]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hRend: No current timer.|h",
+					["timestamp"] = 152708.184,
+					["serverTime"] = 1607110277,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:06]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hOnyxia: No current timer.|h",
+					["timestamp"] = 152708.184,
+					["serverTime"] = 1607110277,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:06]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hNefarian: 16 minutes 12 seconds. (12:47pm)|h",
+					["timestamp"] = 152708.184,
+					["serverTime"] = 1607110277,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:25]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Undercity]|h",
+					["serverTime"] = 1607110296,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 152726.716,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:31:25]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Undercity]|h",
+					["serverTime"] = 1607110296,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 152726.716,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:32:18]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00Nefarian resets in 15 minutes.",
+					["timestamp"] = 152780.202,
+					["serverTime"] = 1607110349,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:32:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Elssha:2052:CHANNEL:2|h|cffc69b6dElssha|r|h|cffd8d8d8]|r: WTS |cffffffff|Hitem:3387::::::::60:::::::|h[Limited Invulnerability Potion]|h|r 2.9g each",
+					["serverTime"] = 1607110366,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 152796.758,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [35]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -2,7 +2,7 @@
 ## Title: FarmingBar
 ## Author: Nikketa-Hyjal-US
 ## Notes: Action bar to display and track objective goals.
-## Version: FarmingBar-v2.0.7
+## Version: v2.1.5
 ## SavedVariables: FarmingBarDB
 ## SavedVariablesPerCharacter: FarmingBarCharacterDB
 ## X-Curse-Project-ID: 351688

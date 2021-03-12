@@ -1,0 +1,2 @@
+
+RareShareDB_Nazjatar = nil

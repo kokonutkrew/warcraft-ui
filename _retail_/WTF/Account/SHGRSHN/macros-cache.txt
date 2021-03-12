@@ -42,50 +42,42 @@ VER 3 000000000000000C "8.s Self Heal" "132094"
 END
 VER 3 00000000000000B4 "9. Hots" "132094"
 END
-VER 3 0000000000000036 "a-01 Skull" "915741"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button1
+VER 3 00000000000000A9 "a-01 Skull" "132097"
+/run SetRaidTargetIcon("target", 8)
+/attacktarget
+/s Attack {skull}
 END
-VER 3 0000000000000038 "a-02 Square" "878231"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button3
+VER 3 00000000000000C7 "a-02 Set Targets" "236188"
+/script if (charm == nil) or (charm < 0) then charm=9; end; charm=charm-1; SetRaidTarget("mouseover", charm)
 END
-VER 3 0000000000000037 "a-03 Remove All" "878234"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button9
+VER 3 00000000000000C8 "a-03 CC Target" "538563"
+/run SetRaidTargetIcon("mouseover", 5)
+/incoming
+/s CC on {moon}
 END
-VER 3 000000000000003B "a-04 Diamond" "878233"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button6
+VER 3 00000000000000C9 "a-04 Triangle" "252271"
+/worldmarker 2
 END
-VER 3 0000000000000039 "a-05 Star" "878235"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button8
+VER 3 00000000000000CA "a-05 Diamond" "252272"
+/worldmarker 3
 END
-VER 3 000000000000003A "a-06 Triangle" "878232"
-/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
-/click DropDownList1Button5
+VER 3 00000000000000CB "a-06 Star" "252269"
+/worldmarker 5
 END
 VER 3 00000000000000AE "a-07 Drink" "132807"
 /oom
+/use conjured mana bun
+/use conjured mana pie
 END
-VER 3 00000000000000AF "a-08 Self Heal" "135230"
-/use Major Healthstone
-/use Greater Healthstone
-/use Healthstone
-/use Major Healing Potion
-/use Greater Healing Potion
-/use Healing Potion
-/use Furbolg Medicine Pouch
+VER 3 00000000000000CC "a-08 Food" "134036"
+/wait
+/use conjured mana bun
+/use stygian stew
 END
 VER 3 00000000000000AC "a-09 Heal Me" "134914"
 /run SetRaidTarget("player", 7)
 /healme
 /run SetRaidTarget("player", 7)
-END
-VER 3 00000000000000A9 "a-10 Skull" "132097"
-/run SetRaidTarget("mouseover", 8)
-/attacktarget
 END
 VER 3 00000000000000B0 "a-11 Spot Target" "1033497"
 /run SetRaidTarget("mouseover", 8)
@@ -103,8 +95,19 @@ VER 3 00000000000000AD "a-12 Mock" "132333"
 /pity
 /violin
 END
-VER 3 00000000000000B1 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-/script print('no button yet')
+VER 3 00000000000000AF "a-12 Self Heal" "135230"
+#showtooltip major healthstone
+/use Major Healthstone
+/use Greater Healthstone
+/use Healthstone
+/use Major Healing Potion
+/use Greater Healing Potion
+/use Healing Potion
+/use Furbolg Medicine Pouch
+END
+VER 3 00000000000000CD "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Gul'dan's Soul Trap
 END
 VER 3 000000000000004F "AOTC Legion HC" "INV_SCROLL_11"
 /run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:11195:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:17:17:4294967295:4294967295:4294967295:4294967295\124h[Ahead of the Curve: Gul'dan]\124h\124r")
@@ -115,13 +118,25 @@ END
 VER 3 00000000000000A7 "Cluck" "132172"
 /chicken
 END
+VER 3 00000000000000CF "CN1E||Shriek" "INV_MISC_QUESTIONMARK"
+END
+VER 3 00000000000000CE "CN1T:Shriek" "134328"
+Lust: Pull || Tank on {skull} || Melee:{triangle} LOS Shriek, Ranged:{square} || Tank swap on bite || H:|cff66bbff|Hjournal:2:22667:15|h[Echoing Sonar]|h|r M:|cff66bbff|Hjournal:2:22584:16|h[The Blood Lantern]|h|r
+END
 VER 3 000000000000009D "Death" "135426"
 /run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print("Dungeons: "..x.."/"..b) print("WQs: "..c.."/"..d) print("Kills: "..e.."/"..f)
+END
+VER 3 00000000000000BD "Discord Link" "1505945"
+/raid hop in 'public' discord channel pls https://discord.gg/jhDuFwG6wB
 END
 VER 3 0000000000000006 "Distance Aggro" "878211"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
 END
-VER 3 0000000000000008 "ExtraAction 1" "136058"
+VER 3 00000000000000C0 "DropCurrentQuest" "134331"
+/script SetAbandonQuest();
+/script AbandonQuest();
+END
+VER 3 00000000000000BB "ExtraActionButtn" "951874"
 #showtooltip
 /click ExtraActionButton1
 END
@@ -163,15 +178,16 @@ VER 3 000000000000005F "Fish Bait" "1379246"
 /castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
 /use [mod:shift] Worm Supreme
 END
-VER 3 00000000000000B6 "GRM_Roster" "Achievement_pvp_h_a"
+VER 3 00000000000000B6 "GRM_Roster" "inv_bannerpvp_02"
 /run GuildFrame_Toggle()
 /run GuildFrame_TabClicked ( GuildFrameTab2 )
 END
-VER 3 00000000000000B7 "GRM_Tool" "Inv_axe_39"
+VER 3 00000000000000C6 "GRM_Tool" "INV_MISC_QUESTIONMARK"
 END
-VER 3 0000000000000061 "Invite" "135026"
---/run GuildManager:InviteAction()
-/flood on
+VER 3 00000000000000C1 "Interupt Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus,exists,nodead] Kick
+/cast Kick
 END
 VER 3 000000000000008E "LeaveParty" "132219"
 /leave party
@@ -180,17 +196,13 @@ VER 3 00000000000000A5 "Professions" "134942"
 /tsm tasklist
 END
 VER 3 0000000000000083 "PVP Champion Ach" "1398085"
-/run SendChatMessage("\124cffffff00\124Hachievement:5353:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:26:17:4294967295:4294967295:4294967295:4294967295\124h[Champion]\124h\124r, 2k exp, have voice", WHISPER, nil, "Kurropt-Dragonmaw")
+/run SendChatMessage("\124cffffff00\124Hachievement:5353:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:26:17:4294967295:4294967295:4294967295:4294967295\124h[Champion]\124h\124r, 2k exp, have voice", WHISPER, nil, "Samoansavage-Emerald Dream")
 END
 VER 3 0000000000000033 "QuestDump" "132319"
-/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
+/run for i=1,C_QuestLog.GetNumQuestLogEntries() do C_QuestLog.SetSelectedQuest(C_QuestLog.GetInfo(i).questID); C_QuestLog.SetAbandonQuest(); C_QuestLog.AbandonQuest() end;
 END
 VER 3 0000000000000077 "RAF Spam" "132333"
 Power leveling in exchange for RAF link. Your account must be less than 30days old
-END
-VER 3 000000000000005B "Ring1" "133385"
-#showtooltip
-/use 11
 END
 VER 3 0000000000000046 "RStart" "Ability_Warrior_BattleShout"
 /run ConvertToRaid()
@@ -210,15 +222,26 @@ VER 3 000000000000004B "SearchDinoMount" "INV_PET_BATTLEPETTRAINING"
 END
 VER 3 0000000000000023 "Shield" "307704"
 END
+VER 3 00000000000000B9 "Skip Quest" "413580"
+/aap skip
+END
+VER 3 000000000000002B "Thunderfury" "INV_MISC_QUESTIONMARK"
+#show item:19019
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cffff8000\124Hitem:19019:0:0:0:0:0:0:0:0\124h[Thunderfury, Blessed Blade of the Windseeker]\124h\124r");
+END
 VER 3 000000000000000F "Trash Gray" "1542860"
 /run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
 END
-VER 3 00000000000000A4 "TSMMacro" "Achievement_Faction_GoldenLotus"
+VER 3 00000000000000BC "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMCancelAuctionBtn
 /click TSMShoppingBuyoutBtn
 /click TSMSniperBtn
-/click TSMAuctioningBtn
 /click TSMCraftingBtn
+/click TSMAuctioningBtn
+END
+VER 3 000000000000005B "uRing11" "133385"
+#showtooltip
+/use 11
 END
 VER 3 0000000000000085 "Utility Mount" "294469"
 #showtooltip
@@ -228,7 +251,18 @@ VER 3 0000000000000085 "Utility Mount" "294469"
 /use [noflyable][mod:alt] Grand Black War Mammoth
 /use [mod:alt] Obsidian Nightwing
 END
-VER 3 000000000000002B "xThndrfury" "INV_MISC_QUESTIONMARK"
-#show item:19019
-/script DEFAULT_CHAT_FRAME:AddMessage("\124cffff8000\124Hitem:19019:0:0:0:0:0:0:0:0\124h[Thunderfury, Blessed Blade of the Windseeker]\124h\124r");
+VER 3 00000000000000C2 "uTrinket13" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 00000000000000C3 "uTrinket14" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000061 "Welcome" "135026"
+We're happy to have you. We're recruiting heavily this week to fill raid slots. Feel free to inv friends. Let me know if you need anything and be sure to checkout the guild progression plan at kokonutkrew.com
+END
+VER 3 00000000000000BE "xTalent" "134328"
+#showtooltip
+/cast [talent:7/2] Secret Technique; [talent:7/3] Shuriken Tornado
 END

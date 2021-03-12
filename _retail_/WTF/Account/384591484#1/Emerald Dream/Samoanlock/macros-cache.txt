@@ -6,3 +6,9 @@ VER 3 0100000000000001 "JMM_WK_DEMO_ST" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click [button:2] JMM_WK_DEMO_ST RightButton; [button:3] JMM_WK_DEMO_ST MiddleButton; [button:4] JMM_WK_DEMO_ST Button4; [button:5] JMM_WK_DEMO_ST Button5; JMM_WK_DEMO_ST
 END
+VER 3 0100000000000003 "VuhDoDCShieldData" "Ability_Repair"
+P1LR1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000004 "VuhDoDCShieldNames" "Ability_Repair"
+NHerMay[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Kra
+END

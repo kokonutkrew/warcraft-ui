@@ -1,101 +1,102 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0246,
+	["LastVersion"] = 2.0408,
+	["LastPlayerFullName"] = "Samoansavage-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::76:259:::1:582:::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 172317,
+			["Level"] = 190,
+			["Link"] = "|cffff8000|Hitem:172317::::::::60:261::63:6:7124:6716:7194:6647:6650:1487::::|h[Akaari's Soul Fragment]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122668,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122668::::::::76:259:::1:582:::|h[Eternal Will of the Martyr]|h|r",
+			["ID"] = 180115,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:261::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122377,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122377::::::::76:259:::1:583:::|h[Lasting Feralheart Spaulders]|h|r",
+			["ID"] = 175871,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:175871::::::::60:261::14:3:6782:1498:6646:1:28:783:::|h[Sinful Aspirant's Leather Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122383,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::76:259:::1:582:::|h[Stained Shadowcraft Tunic]|h|r",
+			["ID"] = 183009,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:183009::::::::60:261::3:4:7189:40:1472:6646:1:28:751:::|h[Miasma-Lacquered Jerkin]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112365,
-			["Level"] = 89,
-			["Link"] = "|cff0070dd|Hitem:112365::::::::76:259:512:1:2:4242:31:72:::|h[Winterfrost Leather Belt of the Fireflash]|h|r",
+			["ID"] = 180111,
+			["Level"] = 194,
+			["Link"] = "|cffa335ee|Hitem:180111::::::::60:261::16:6:7203:6652:7193:1501:5852:6646:1:28:1279:::|h[Shadowhirl Waistwrap]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122254,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122254::::::::76:259:::1:582:::|h[Stained Shadowcraft Pants]|h|r",
+			["ID"] = 182993,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:182993::::::::60:261::3:4:7189:6652:1472:6646:1:28:751:::|h[Chiropteran Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 28074,
-			["Level"] = 91,
-			["Link"] = "|cff0070dd|Hitem:28074::::::::76:259:512:11:1:3758:73:::|h[Studded Green Anklewraps]|h|r",
+			["ID"] = 175859,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:175859::::::::60:261::14:3:6782:1498:6646:1:28:783:::|h[Sinful Aspirant's Leather Boots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 44339,
-			["Level"] = 95,
-			["Link"] = "|cff0070dd|Hitem:44339::::::::76:259:512:11:1:4133:75:::|h[Soaring Wristwraps]|h|r",
+			["ID"] = 178702,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178702::::::::60:261::23:5:6807:6652:7194:1498:6646:1:28:749:::|h[Bands of the Undergrowth]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 44364,
-			["Level"] = 79,
-			["Link"] = "|cff0070dd|Hitem:44364::::::::76:259:512:11:1:4113:68:::|h[Wraps of Quelled Bane]|h|r",
+			["ID"] = 178832,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178832::::::::60:261::23:4:6807:6652:1498:6646:1:28:749:::|h[Gloves of Haunting Fixation]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 122529,
-			["Level"] = 95,
+			["ID"] = 178871,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff00ccff|Hitem:122529::::::::76:259:::1:3592:::|h[Dread Pirate Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:261::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Bloodoath Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 128173,
-			["Level"] = 95,
+			["ID"] = 178872,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128173::::::::76:259:::1:583:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178872::::::::60:261::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Ring of Perpetual Conflict]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 122361,
-			["Level"] = 95,
+			["ID"] = 184052,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::76:259:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cffa335ee|Hitem:184052::::::::60:261::14:3:6789:1498:6646:1:28:783:::|h[Sinful Aspirant's Medallion]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 128318,
-			["Level"] = 95,
+			["ID"] = 178334,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::76:259:::1:3592:::|h[Touch of the Void]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178334::::::::60:261::14:3:6782:1498:6646:1:28:783:::|h[Sinful Aspirant's Emblem]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122261,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::76:259:::1:582:::|h[Inherited Cape of the Black Baron]|h|r",
+			["ID"] = 175851,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:175851:6208:::::::60:261::14:3:6789:1498:6646:1:28:783:::|h[Sinful Aspirant's Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122350,
-			["Level"] = 95,
+			["ID"] = 178470,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122350:4443:::::::76:259:::1:582:::|h[Balanced Heartseeker]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178470::::::::60:261::14:3:7156:1498:6646:1:28:783:::|h[Sinful Aspirant's Dagger]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122364,
-			["Level"] = 95,
+			["ID"] = 178470,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122364:4443:::::::76:259:::1:582:::|h[Sharpened Scarlet Kris]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178470:6229:::::::60:261::14:3:7156:1498:6646:1:28:783:::|h[Sinful Aspirant's Dagger]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Samoansavage-Emerald Dream",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

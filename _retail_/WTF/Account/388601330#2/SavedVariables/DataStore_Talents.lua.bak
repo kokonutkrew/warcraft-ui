@@ -1,0 +1,194 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Sprinkles"] = {
+				["lastUpdate"] = 1604723990,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["AzeriteEssences"] = {
+					["Purification Protocol"] = {
+						["valid"] = true,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["icon"] = 2967103,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["icon"] = 3015740,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["icon"] = 2967109,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["icon"] = 2967104,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["icon"] = 3193845,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["icon"] = 3015743,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = true,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = true,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["icon"] = 2967102,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Emerald Dream.Cupkek"] = {
+				["lastUpdate"] = 1605815044,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["Class"] = "DRUID",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["DRUID"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[2] = {
+					["id"] = 103,
+					["talents"] = {
+						22363, -- [1]
+						22364, -- [2]
+						22365, -- [3]
+					},
+				},
+			},
+			["Version"] = 36671,
+		},
+		["ROGUE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 259,
+					["talents"] = {
+						22337, -- [1]
+						22338, -- [2]
+						22339, -- [3]
+						22331, -- [4]
+						22332, -- [5]
+						23022, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22340, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						19245, -- [13]
+						23037, -- [14]
+						22115, -- [15]
+						22343, -- [16]
+						23015, -- [17]
+						22344, -- [18]
+					},
+				}, -- [1]
+			},
+			["Version"] = 36492,
+		},
+	},
+}

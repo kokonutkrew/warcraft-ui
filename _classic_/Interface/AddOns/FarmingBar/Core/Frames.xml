@@ -54,7 +54,7 @@
                         <Scripts>
                             <OnEditFocusGained function="FarmingBarTemplateEditBox_OnFocusGained"/>
                             <OnEditFocusLost function="FarmingBarTemplateEditBox_OnEscapePressed"/>
-                            <OnEnterPressed function="FarmingBarBarTemplateObjectiveEditBox_OnEnterPressed"/>
+                            <OnEnterPressed function="FarmingBarBarTemplateButtonIDEditBox_OnEnterPressed"/>
                             <OnEscapePressed function="FarmingBarTemplateEditBox_OnEscapePressed"/>
                             <OnShow function="FarmingBarTemplateEditBox_OnShow"/>
                             <OnTextChanged function="FarmingBarTemplateEditBox_OnTextChanged"/>
@@ -120,6 +120,27 @@
                     <OnEditFocusGained function="FarmingBarTemplateEditBox_OnFocusGained"/>
                     <OnEditFocusLost function="FarmingBarTemplateEditBox_OnEscapePressed"/>
                     <OnEnterPressed function="FarmingBarButtonTemplateObjectiveEditBox_OnEnterPressed"/>
+                    <OnEscapePressed function="FarmingBarTemplateEditBox_OnEscapePressed"/>
+                    <OnShow function="FarmingBarTemplateEditBox_OnShow"/>
+                    <OnTextChanged function="FarmingBarTemplateEditBox_OnTextChanged"/>
+                </Scripts>
+                <FontString inherits="ChatFontNormal" justifyH="LEFT"/>
+            </EditBox>
+            <EditBox parentKey="ItemIDEditBox" name="$parentItemIDEditBox" frameStrata="TOOLTIP" autofocus="false" hidden="true" letters="15">
+                <Anchors>
+                    <Anchor point="BOTTOMLEFT"/>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture file="INTERFACE\\BUTTONS\\WHITE8X8" setAllPoints="true">
+                            <Color r="0" g="0" b="0" a=".5"/>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <Scripts>
+                    <OnEditFocusGained function="FarmingBarTemplateEditBox_OnFocusGained"/>
+                    <OnEditFocusLost function="FarmingBarTemplateEditBox_OnEscapePressed"/>
+                    <OnEnterPressed function="FarmingBarButtonTemplateItemIDEditBox_OnEnterPressed"/>
                     <OnEscapePressed function="FarmingBarTemplateEditBox_OnEscapePressed"/>
                     <OnShow function="FarmingBarTemplateEditBox_OnShow"/>
                     <OnTextChanged function="FarmingBarTemplateEditBox_OnTextChanged"/>

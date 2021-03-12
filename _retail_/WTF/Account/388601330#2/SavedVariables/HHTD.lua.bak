@@ -1,0 +1,35 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Sprinkles - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Gizelin - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Buhbels - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+		["Cupkek - Emerald Dream"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+}

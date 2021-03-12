@@ -1,0 +1,13 @@
+
+DataStore_GarrisonsDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["lastUpdate"] = 1605916092,
+			},
+		},
+	},
+}

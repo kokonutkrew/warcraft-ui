@@ -56,14 +56,31 @@ function GSE.GetOptionsTable()
             get = function(info) return GSEOptions.HideLoginMessage end,
             order = 202
           },
+          editorHeight = {
+            name = L["Default Editor Height"],
+            desc = L["How many pixels high should the Editor start at.  Defaults to 700"],
+            type = "input",
+            set = function(info,val) if tonumber(val) >= 500 then GSEOptions.editorHeight = tonumber(val) end end,
+            get = function(info) return tostring(GSEOptions.editorHeight) end,
+            order = 204
+          },
+          editorWidth = {
+            name = L["Default Editor Width"],
+            desc = L["How many pixels wide should the Editor start at.  Defaults to 700"],
+            type = "input",
+            set = function(info,val) if tonumber(val) >= 700 then GSEOptions.editorWidth = tonumber(val) end end,
+            get = function(info) return tostring(GSEOptions.editorWidth) end,
+            order = 205
+          },
           promptSamples = {
             name = L["Prompt Samples"],
             desc = L["When you log into a class without any macros, prompt to load the sample macros."],
             type = "toggle",
             set = function(info,val) GSEOptions.PromptSample = val end,
             get = function(info) return GSEOptions.PromptSample end,
-            order = 202
+            order = 208
           },
+
           resetOOC = {
             name = L["Reset Macro when out of combat"],
             desc = L["Resets macros back to the initial state when out of combat."],
@@ -135,6 +152,27 @@ function GSE.GetOptionsTable()
             get = function(info) return GSEOptions.UseWLMExportFormat end,
             order = 300
           },
+          MSFiltertitle1 = {
+            type = "header",
+            name = L["Millisecond click settings"],
+            order = 380
+          },
+          externalMillisecondClickRate = {
+            name = L["MS Click Rate"],
+            desc = L["The milliseconds being used in key click delay."],
+            type = "input",
+            set = function(info,val) GSEOptions.msClickRate = val end,
+            get = function(info) return GSEOptions.msClickRate and GSEOptions.msClickRate or "" end,
+            order = 385
+          },
+          useExternalMSTimings = {
+            name = L["Use External MS Timings"],
+            desc = L["Enable timing functions by using Click refresh speed as a pseudo timer."],
+            type = "toggle",
+            set = function(info,val) GSEOptions.useExternalMSTimings = val end,
+            get = function(info) return GSEOptions.useExternalMSTimings and GSEOptions.useExternalMSTimings or false end,
+            order = 390
+          },
           filtertitle1 = {
             type = "header",
             name = L["Filter Macro Selection"],
@@ -172,7 +210,14 @@ function GSE.GetOptionsTable()
             get = function(info) return GSEOptions.CreateGlobalButtons end,
             order = 440
           },
-
+          showCurrentSpells = {
+            name = L["Show Current Spells"],
+            desc = L["GSE stores the base spell and asks WoW to use that ability.  WoW will then choose the current version of the spell.  This toggle switches between showing the Base Spell or the Current Spell."],
+            type = "toggle",
+            set = function(info,val) GSEOptions.showCurrentSpells = val end,
+            get = function(info) return GSEOptions.showCurrentSpells end,
+            order = 441
+          },
           title2 = {
             type = "header",
             name = L["Gameplay Options"],
@@ -680,6 +725,16 @@ function GSE.GetOptionsTable()
             image = "Interface\\Addons\\GSE_GUI\\GSE2_Logo_Dark_512.tga",
             imageWidth = 120;
             imageHeight = 120;
+          },
+          versionHeader = {
+            type = "header",
+            name = L["Version"],
+            order = 21,
+          },
+          versionDescription = {
+            type = "description",
+            name = "GSE: " .. GSE.VersionString,
+            order = 22,
           },
           title5 = {
             type = "header",

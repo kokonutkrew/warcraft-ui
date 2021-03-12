@@ -66,8 +66,11 @@ function GSE.GUILoadEditor(key, incomingframe, recordedstring)
     elements = GSE.split(key, ",")
     classid = tonumber(elements[1])
     sequenceName = elements[2]
-    sequence = GSE.CloneSequence(GSELibrary[classid][sequenceName], true)
+    sequence = GSE.CloneSequence(GSE.Library[classid][sequenceName], true)
     GSE.GUIEditFrame.NewSequence = false
+  end
+  if GSE.isEmpty(sequence.WeakAuras) then
+    sequence.WeakAuras = {}
   end
   GSE.GUIEditFrame:SetStatusText("GSE: " .. GSE.VersionString)
   GSE.GUIEditFrame.SequenceName = sequenceName
@@ -83,8 +86,18 @@ function GSE.GUILoadEditor(key, incomingframe, recordedstring)
   GSE.GUIEditFrame.Timewalking = sequence.Timewalking or sequence.Default
   GSE.GUIEditFrame.MythicPlus = sequence.MythicPlus or sequence.Default
   GSE.GUIEditFrame.Arena = sequence.Arena or sequence.Default
+  GSE.GUIEditFrame.Scenario = sequence.Scenario or sequence.Default
   GSE.GUIEditorPerformLayout(GSE.GUIEditFrame)
   GSE.GUIEditFrame.ContentContainer:SelectTab("config")
+  GSE.GUIEditFrame.tempVariables = {}
+  if not GSE.isEmpty(sequence.Variables) then
+    for k, value in pairs(sequence.Variables) do
+      local pair = {}
+      pair.key = k
+      pair.value = value
+      table.insert(GSE.GUIEditFrame.tempVariables, pair)
+    end
+  end
   incomingframe:Hide()
   if sequence.ReadOnly then
     GSE.GUIEditFrame.SaveButton:SetDisabled(true)
@@ -112,10 +125,14 @@ end
 
 
 function GSE.GUIUpdateSequenceDefinition(classid, SequenceName, sequence)
+  sequence.LastUpdated = GSE.GetTimestamp()
   -- Changes have been made, so save them
   for k,v in ipairs(sequence.MacroVersions) do
     sequence.MacroVersions[k] = GSE.TranslateSequence(v, SequenceName, "ID")
     sequence.MacroVersions[k] = GSE.UnEscapeSequence(sequence.MacroVersions[k])
+    for i,j in ipairs(v) do
+      GSE.enforceMinimumVersion(sequence, j)
+    end
   end
 
   if not GSE.isEmpty(SequenceName) then
@@ -185,4 +202,20 @@ end
 function GSE.ClearTooltip(GSEFrame)
   LibQTip:Release(GSEFrame.tooltip)
   GSEFrame.tooltip = nil
+end
+
+function GSE.ShowSequenceList(SequenceTable, GSEUser)
+  if GSE.UnsavedOptions["GUI"] then
+    GSE.ShowRemoteWindow(SequenceTable, GSEUser)
+  else
+    for k,v in ipairs(SequenceTable) do
+      for i,j in pairs(v) do
+        local msg = i .. " "
+        if not GSE.isEmpty(j.Help) then
+          msg = msg .. j.Help
+        end
+        GSE.Print(msg, "TRANSMISSION")
+      end
+    end
+  end
 end

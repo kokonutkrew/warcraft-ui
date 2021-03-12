@@ -1,0 +1,15 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["Conquest"] = 0,
+				["lastUpdate"] = 1605916077,
+			},
+		},
+		["DatastoreCurrencies8_3_006Update"] = true,
+	},
+}

@@ -33,7 +33,14 @@ Anchor: BOTTOMRIGHT
 X: -128
 Y: 203
 W: 20
-H: 168
+H: 151
+Frame: GRM_RosterChangeLogFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 600
+H: 465
 Frame: PLH_LootedItemsFrame
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -43,8 +50,8 @@ W: 400
 H: 140
 Frame: TomTomCrazyArrow
 FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
+Anchor: TOP
+X: 5
+Y: -216
 W: 56
 H: 42

@@ -1,0 +1,318 @@
+
+FGI_DB = {
+	["profileKeys"] = {
+		["Samoanwar - Emerald Dream"] = "Default",
+		["Stronguard - Emerald Dream"] = "Default",
+		["Dethwish - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Samoanhunter - Emerald Dream"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Emerald Dream"] = {
+			["search"] = {
+				["tempSendedInvites"] = {
+					["Andrindea"] = true,
+					["Heamian"] = true,
+					["Lethalas"] = true,
+					["Milkslammer"] = true,
+					["Littänia"] = true,
+					["Chard"] = true,
+					["Commit"] = true,
+					["Eugeliel"] = true,
+					["Testingonef"] = true,
+					["Berdine"] = true,
+					["Merlinduvk"] = true,
+					["Ràrity"] = true,
+					["Liannaria"] = true,
+					["Wyrmfoe"] = true,
+					["Vanorius"] = true,
+					["Ievity"] = true,
+					["Shogun"] = true,
+					["Phonyx"] = true,
+					["Liinda"] = true,
+					["Jeargen"] = true,
+					["Nimblybimbly"] = true,
+					["Puffnman"] = true,
+					["Chanja"] = true,
+					["Capriestsüñ"] = true,
+					["Nutrabullet"] = true,
+					["Moonshaft"] = true,
+					["Maliphek"] = true,
+					["Solvaryn"] = true,
+					["Lunairyfaye"] = true,
+					["Arcanós"] = true,
+				},
+				["whoQueryList"] = {
+					"1-30", -- [1]
+					"31-45", -- [2]
+					"46-48", -- [3]
+					"49-50", -- [4]
+					"51-52", -- [5]
+					"53-60", -- [6]
+				},
+				["progress"] = 6,
+				["timeShift"] = 0,
+				["inviteList"] = {
+					{
+						["race"] = "Draenei",
+						["name"] = "Ràrity",
+						["lvl"] = 50,
+						["class"] = "Shaman",
+						["NoLocaleClass"] = "SHAMAN",
+					}, -- [1]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Littänia",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [2]
+					{
+						["race"] = "Worgen",
+						["name"] = "Eugeliel",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [3]
+					{
+						["race"] = "Dwarf",
+						["name"] = "Heamian",
+						["lvl"] = 50,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [4]
+					{
+						["race"] = "Gnome",
+						["name"] = "Commit",
+						["lvl"] = 48,
+						["class"] = "Mage",
+						["NoLocaleClass"] = "MAGE",
+					}, -- [5]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Andrindea",
+						["lvl"] = 50,
+						["class"] = "Death Knight",
+						["NoLocaleClass"] = "DEATHKNIGHT",
+					}, -- [6]
+					{
+						["race"] = "Human",
+						["name"] = "Chanja",
+						["lvl"] = 51,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [7]
+					{
+						["race"] = "Gnome",
+						["name"] = "Maliphek",
+						["lvl"] = 51,
+						["class"] = "Mage",
+						["NoLocaleClass"] = "MAGE",
+					}, -- [8]
+					{
+						["race"] = "Human",
+						["name"] = "Lethalas",
+						["lvl"] = 51,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [9]
+					{
+						["race"] = "Pandaren",
+						["name"] = "Liinda",
+						["lvl"] = 50,
+						["class"] = "Monk",
+						["NoLocaleClass"] = "MONK",
+					}, -- [10]
+					{
+						["race"] = "Human",
+						["name"] = "Jeargen",
+						["lvl"] = 48,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [11]
+					{
+						["race"] = "Worgen",
+						["name"] = "Testingonef",
+						["lvl"] = 48,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [12]
+					{
+						["race"] = "Human",
+						["name"] = "Milkslammer",
+						["lvl"] = 50,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [13]
+					{
+						["race"] = "Void Elf",
+						["name"] = "Nutrabullet",
+						["lvl"] = 52,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [14]
+					{
+						["race"] = "Void Elf",
+						["name"] = "Chard",
+						["lvl"] = 50,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [15]
+					{
+						["race"] = "Human",
+						["name"] = "Phonyx",
+						["lvl"] = 50,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [16]
+					{
+						["race"] = "Void Elf",
+						["name"] = "Capriestsüñ",
+						["lvl"] = 50,
+						["class"] = "Priest",
+						["NoLocaleClass"] = "PRIEST",
+					}, -- [17]
+					{
+						["race"] = "Human",
+						["name"] = "Ievity",
+						["lvl"] = 50,
+						["class"] = "Warrior",
+						["NoLocaleClass"] = "WARRIOR",
+					}, -- [18]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Nimblybimbly",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [19]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Vanorius",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [20]
+					{
+						["race"] = "Human",
+						["name"] = "Solvaryn",
+						["lvl"] = 50,
+						["class"] = "Monk",
+						["NoLocaleClass"] = "MONK",
+					}, -- [21]
+					{
+						["race"] = "Void Elf",
+						["name"] = "Liannaria",
+						["lvl"] = 50,
+						["class"] = "Warrior",
+						["NoLocaleClass"] = "WARRIOR",
+					}, -- [22]
+					{
+						["race"] = "Human",
+						["name"] = "Merlinduvk",
+						["lvl"] = 50,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [23]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Berdine",
+						["lvl"] = 50,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [24]
+					{
+						["race"] = "Night Elf",
+						["name"] = "Moonshaft",
+						["lvl"] = 51,
+						["class"] = "Druid",
+						["NoLocaleClass"] = "DRUID",
+					}, -- [25]
+					{
+						["race"] = "Human",
+						["name"] = "Shogun",
+						["lvl"] = 51,
+						["class"] = "Warrior",
+						["NoLocaleClass"] = "WARRIOR",
+					}, -- [26]
+					{
+						["race"] = "Kul Tiran",
+						["name"] = "Puffnman",
+						["lvl"] = 52,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [27]
+					{
+						["race"] = "Worgen",
+						["name"] = "Wyrmfoe",
+						["lvl"] = 52,
+						["class"] = "Hunter",
+						["NoLocaleClass"] = "HUNTER",
+					}, -- [28]
+					{
+						["race"] = "Human",
+						["name"] = "Arcanós",
+						["lvl"] = 52,
+						["class"] = "Paladin",
+						["NoLocaleClass"] = "PALADIN",
+					}, -- [29]
+					{
+						["race"] = "Void Elf",
+						["name"] = "Lunairyfaye",
+						["lvl"] = 51,
+						["class"] = "Mage",
+						["NoLocaleClass"] = "MAGE",
+					}, -- [30]
+				},
+				["oldCount"] = 40,
+			},
+			["messageList"] = {
+				"Hey NAME, GUILDLINK is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3", -- [1]
+			},
+		},
+	},
+	["global"] = {
+		["scanFrame"] = {
+			["yOfs"] = -177.0001068115234,
+			["xOfs"] = 79.0000228881836,
+			["point"] = "LEFT",
+			["relativePoint"] = "LEFT",
+		},
+		["keyBind"] = {
+			["nextSearch"] = "PAGEDOWN",
+			["invite"] = "PAGEUP",
+		},
+		["guildLinks"] = {
+			["KokonutKrew"] = "|cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r",
+		},
+		["inviteType"] = 2,
+		["introShow"] = false,
+	},
+	["realm"] = {
+		["Emerald Dream"] = {
+			["blackList"] = {
+				["Gratatatata"] = "no reason",
+			},
+			["leave"] = {
+				["Klapers"] = true,
+			},
+		},
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

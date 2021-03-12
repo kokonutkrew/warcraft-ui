@@ -1,0 +1,28 @@
+
+HonorSpyDB = {
+	["profileKeys"] = {
+		["Samoanlock - Grobbulus"] = "Default",
+	},
+	["factionrealm"] = {
+		["Horde - Grobbulus"] = {
+			["last_reset"] = 1607439600,
+			["goodPlayers"] = {
+				["Babyswan"] = true,
+				["Marcellusw"] = true,
+				["Jokerjay"] = true,
+				["Boneabelle"] = true,
+				["Vaikyrion"] = true,
+				["Priapizm"] = true,
+				["Morkhz"] = true,
+				["Blazedtotem"] = true,
+				["Popboffin"] = true,
+				["Obetrol"] = true,
+				["Helloder"] = true,
+				["Potafeva"] = true,
+				["Golberg"] = true,
+				["Pallytrainer"] = true,
+			},
+			["actualCommPrefix"] = "HonorSpy4",
+		},
+	},
+}

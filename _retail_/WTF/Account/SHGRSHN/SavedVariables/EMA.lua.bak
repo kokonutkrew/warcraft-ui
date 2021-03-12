@@ -2,25 +2,41 @@
 CoreProfileDB = {
 	["global"] = {
 		["showStartupMessage2000"] = false,
+		["showStartupMessage3000"] = false,
 	},
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-				["showStartupMessage2000"] = false,
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
 			},
@@ -28,11 +44,56 @@ CoreProfileDB = {
 		["KokonutKrew"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
@@ -40,6 +101,103 @@ CoreProfileDB = {
 		["Samoansavage - Emerald Dream"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
 			},
 		},
 		["Samoantitan - Stormrage"] = {
@@ -51,28 +209,94 @@ CoreProfileDB = {
 }
 CommunicationsProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 		},
 		["KokonutKrew"] = {
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Tingerce - Emerald Dream"] = {
+		},
+		["Samoaninja - Emerald Dream"] = {
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+		},
+		["Orecraft - Emerald Dream"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoansavage - Stormrage"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoansurge - Emerald Dream"] = {
+		},
+		["Autumnx - Emerald Dream"] = {
+		},
+		["Adinbalo - Emerald Dream"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Feerless - Emerald Dream"] = {
+		},
+		["Aheenan - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
+		},
+		["Samoansneaky - Tichondrius"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+		},
+		["Gentodnes - Emerald Dream"] = {
+		},
+		["Haedshot - Emerald Dream"] = {
+		},
+		["Samoanruin - Emerald Dream"] = {
+		},
+		["Brunderan - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Dustcraft - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 		},
@@ -80,25 +304,216 @@ CommunicationsProfileDB = {
 }
 TeamProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["master"] = "Samoanranger-EmeraldDream",
+		["Samoanslayer - Emerald Dream"] = {
+			["master"] = "Samoanslayer-EmeraldDream",
 			["global"] = {
 			},
 			["newTeamList"] = {
-				["Samoanranger-EmeraldDream"] = {
+				["Samoanslayer-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["KokonutKrew"] = {
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Kokonutkiing-EmeraldDream",
+			["global"] = {
+			},
+			["inviteAcceptGuild"] = true,
+			["inviteAcceptFriends"] = true,
+			["masterChangeClickToMove"] = true,
+			["inviteSetAllAssistant"] = true,
+			["newTeamList"] = {
+				["Mercis-EmeraldDream"] = {
+					{
+						["order"] = 5,
+						["class"] = "DRUID",
+						["name"] = "Mercis-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					{
+						["order"] = 3,
+						["class"] = "ROGUE",
+						["name"] = "Cherriebomb-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoantitan-Stormrage"] = {
+					{
+						["order"] = 6,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantitan-Stormrage",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					{
+						["order"] = 7,
+						["class"] = "DRUID",
+						["name"] = "Grapejellie-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					{
+						["order"] = 4,
+						["class"] = "ROGUE",
+						["name"] = "Aeredyl-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Stronguard-EmeraldDream"] = {
+					{
+						["order"] = 9,
+						["class"] = "PALADIN",
+						["name"] = "Stronguard-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					{
+						["order"] = 2,
+						["class"] = "ROGUE",
+						["name"] = "Samoanrouge-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					{
+						["order"] = 10,
+						["class"] = "WARLOCK",
+						["name"] = "Kokonutkiing-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Zaranti-EmeraldDream"] = {
+					{
+						["order"] = 11,
+						["class"] = "WARLOCK",
+						["name"] = "Zaranti-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					{
+						["order"] = 12,
+						["class"] = "PRIEST",
+						["name"] = "Samoanrelic-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoansurge-EmeraldDream"] = {
+					{
+						["order"] = 13,
+						["class"] = "MONK",
+						["name"] = "Samoansurge-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					{
+						["order"] = 8,
+						["class"] = "WARLOCK",
+						["name"] = "Herbcraft-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanmystic-EmeraldDream"] = {
+					{
+						["order"] = 14,
+						["class"] = "MAGE",
+						["name"] = "Samoanmystic-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["master"] = "Samoanbeast-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanbeast-EmeraldDream"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoanranger-EmeraldDream",
+						["name"] = "Samoanbeast-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["master"] = "Tingerce-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Tingerce-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Tingerce-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["master"] = "Samoaninja-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoaninja-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoaninja-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -112,6 +527,163 @@ TeamProfileDB = {
 						["order"] = 1,
 						["class"] = "UNKNOWN",
 						["name"] = "Samoansavage-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["master"] = "Samoanzero-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanzero-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanzero-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["master"] = "Orecraft-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Orecraft-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Orecraft-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["master"] = "Samoanmystic-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanmystic-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "MAGE",
+						["name"] = "Samoanmystic-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+			["master"] = "Samoansage-EmeraldDream",
+			["newTeamList"] = {
+				["Samoansage-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "SHAMAN",
+						["name"] = "Samoansage-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["master"] = "Samoansavage-Stormrage",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoansavage-Stormrage"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansavage-Stormrage",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Gfsdfgsd-Tichondrius",
+			["newTeamList"] = {
+				["Samoandruid-Tichondrius"] = {
+					{
+						["order"] = 2,
+						["class"] = "DRUID",
+						["name"] = "Samoandruid-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Gfsdfgsd-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["master"] = "Samoansavage-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoansavage-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansavage-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["master"] = "Samoansurge-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoansurge-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansurge-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["master"] = "Autumnx-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Autumnx-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Autumnx-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["master"] = "Adinbalo-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Adinbalo-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Adinbalo-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -164,113 +736,197 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["KokonutKrew"] = {
+		["Feerless - Emerald Dream"] = {
+			["master"] = "Feerless-EmeraldDream",
 			["global"] = {
 			},
-			["inviteAcceptGuild"] = true,
-			["masterChangeClickToMove"] = true,
-			["masterChangePromoteLeader"] = true,
-			["master"] = "Samoanslayer-EmeraldDream",
-			["inviteAcceptFriends"] = true,
 			["newTeamList"] = {
-				["Mercis-EmeraldDream"] = {
-					{
-						["order"] = 5,
-						["class"] = "DRUID",
-						["name"] = "Mercis-EmeraldDream",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanslayer-EmeraldDream"] = {
+				["Feerless-EmeraldDream"] = {
 					{
 						["order"] = 1,
-						["class"] = "WARRIOR",
-						["name"] = "Samoanslayer-EmeraldDream",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoantitan-Stormrage"] = {
-					{
-						["order"] = 6,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoantitan-Stormrage",
+						["name"] = "Feerless-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
-				["Aeredyl-EmeraldDream"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["master"] = "Aheenan-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Aheenan-EmeraldDream"] = {
 					{
-						["order"] = 4,
-						["class"] = "ROGUE",
-						["name"] = "Aeredyl-EmeraldDream",
-						["online"] = false,
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Aheenan-EmeraldDream",
+						["online"] = true,
 					}, -- [1]
 				},
-				["Cherriebomb-EmeraldDream"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["master"] = "Herbcraft-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Kokonutkiing-EmeraldDream"] = {
+					{
+						["order"] = 2,
+						["class"] = "WARLOCK",
+						["name"] = "Kokonutkiing-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Herbcraft-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Stronguard-EmeraldDream"] = {
 					{
 						["order"] = 3,
-						["class"] = "ROGUE",
-						["name"] = "Cherriebomb-EmeraldDream",
-						["online"] = false,
-					}, -- [1]
-				},
-				["Samoanrouge-EmeraldDream"] = {
-					{
-						["order"] = 2,
-						["class"] = "ROGUE",
-						["name"] = "Samoanrouge-EmeraldDream",
-						["online"] = false,
+						["class"] = "PALADIN",
+						["name"] = "Stronguard-EmeraldDream",
+						["online"] = true,
 					}, -- [1]
 				},
 			},
-			["inviteSetAllAssistant"] = true,
 		},
-		["Samoanslayer - Emerald Dream"] = {
-			["master"] = "Samoanslayer-EmeraldDream",
+		["Samoansneaky - Tichondrius"] = {
+			["master"] = "Samoansneaky-Tichondrius",
 			["global"] = {
 			},
 			["newTeamList"] = {
-				["Samoanslayer-EmeraldDream"] = {
-					{
-						["order"] = 1,
-						["class"] = "WARRIOR",
-						["name"] = "Samoanslayer-EmeraldDream",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Gfsdfgsd - Tichondrius"] = {
-			["masterChangePromoteLeader"] = true,
-			["master"] = "Gfsdfgsd-Tichondrius",
-			["newTeamList"] = {
-				["Samoandruid-Tichondrius"] = {
-					{
-						["order"] = 2,
-						["class"] = "DRUID",
-						["name"] = "Samoandruid-Tichondrius",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
+				["Samoansneaky-Tichondrius"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Gfsdfgsd-Tichondrius",
+						["name"] = "Samoansneaky-Tichondrius",
 						["online"] = true,
 					}, -- [1]
 				},
 			},
 		},
-		["Samoansavage - Emerald Dream"] = {
-			["master"] = "Samoansavage-EmeraldDream",
+		["Samoanrelic - Emerald Dream"] = {
+			["master"] = "Samoanrelic-EmeraldDream",
 			["global"] = {
 			},
 			["newTeamList"] = {
-				["Samoansavage-EmeraldDream"] = {
+				["Samoanrelic-EmeraldDream"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoansavage-EmeraldDream",
+						["name"] = "Samoanrelic-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["master"] = "Gentodnes-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Gentodnes-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Gentodnes-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["master"] = "Haedshot-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Haedshot-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Haedshot-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["master"] = "Samoanruin-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanruin-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanruin-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["master"] = "Brunderan-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Brunderan-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Brunderan-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["master"] = "Samoanranger-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanranger-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanranger-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["master"] = "Dustcraft-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Dustcraft-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Dustcraft-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["master"] = "Threadcraft-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Threadcraft-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Threadcraft-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -295,18 +951,209 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoanranger-EmeraldDream"] = {
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"druid", -- [2]
+					"minion", -- [3]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Stronguard-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"warrior", -- [3]
+				},
+				["Samoanmystic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoansurge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Zaranti-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanbeast-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["tagList"] = {
+				["Tingerce-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoaninja-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -356,27 +1203,11 @@ TagProfileDB = {
 				"warrior", -- [15]
 			},
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanzero - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoandrued-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandruid-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoantank-Tichondrius"] = {
+				["Samoanzero-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
-				},
-				["Grapejellie-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -399,36 +1230,90 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
+		["Orecraft - Emerald Dream"] = {
 			["tagList"] = {
-				["Mercis-EmeraldDream"] = {
-					"all", -- [1]
-					"druid", -- [2]
-					"minion", -- [3]
-				},
-				["Samoanslayer-EmeraldDream"] = {
+				["Orecraft-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
-					"warrior", -- [3]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanmystic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
 					"all", -- [1]
 					"minion", -- [2]
 				},
 				["Aeredyl-EmeraldDream"] = {
 					"all", -- [1]
 					"minion", -- [2]
-					"rogue", -- [3]
 				},
-				["Cherriebomb-EmeraldDream"] = {
+				["Stronguard-EmeraldDream"] = {
 					"all", -- [1]
 					"minion", -- [2]
-					"rogue", -- [3]
 				},
 				["Samoanrouge-EmeraldDream"] = {
 					"all", -- [1]
 					"minion", -- [2]
-					"rogue", -- [3]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoansurge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Zaranti-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -451,13 +1336,36 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoanslayer-EmeraldDream"] = {
+				["Samoansage-EmeraldDream"] = {
 					"all", -- [1]
-					"minion", -- [2]
+					"master", -- [2]
 				},
-				["Samoantitan-Stormrage"] = {
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["tagList"] = {
+				["Samoansavage-Stormrage"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -518,6 +1426,578 @@ TagProfileDB = {
 		["Samoansavage - Emerald Dream"] = {
 			["tagList"] = {
 				["Samoansavage-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Stronguard-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoansurge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Zaranti-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["tagList"] = {
+				["Autumnx-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["tagList"] = {
+				["Adinbalo-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["tagList"] = {
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["tagList"] = {
+				["Feerless-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["tagList"] = {
+				["Aheenan-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Stronguard-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["tagList"] = {
+				["Samoansneaky-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Stronguard-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["tagList"] = {
+				["Gentodnes-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["tagList"] = {
+				["Haedshot-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanruin-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["tagList"] = {
+				["Brunderan-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanranger-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["tagList"] = {
+				["Dustcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["tagList"] = {
+				["Threadcraft-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -593,22 +2073,38 @@ TagProfileDB = {
 }
 MessageProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -616,13 +2112,107 @@ MessageProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -632,54 +2222,137 @@ MessageProfileDB = {
 		},
 	},
 }
-CurrProfileDB = {
+InformationProfileDB = {
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
-			["currencyBackgroundStyle"] = "None",
-			["global"] = {
-			},
-			["currencyBorderStyle"] = "None",
-			["currencyNameWidth"] = 68,
-			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
-			["currencyFrameYOffset"] = 202.999313354492,
-			["currencyFrameXOffset"] = -127.99885559082,
-			["currGoldInGuildBank"] = true,
-			["currencyFramePoint"] = "BOTTOMRIGHT",
-		},
-		["KokonutKrew"] = {
-			["currencyBackgroundStyle"] = "None",
-			["global"] = {
-			},
-			["currencyFrameYOffset"] = 202.999313354492,
-			["currencyFrameXOffset"] = -127.99885559082,
-			["currencyNameWidth"] = 68,
-			["currencyBorderStyle"] = "None",
-			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
-			["currGoldInGuildBank"] = true,
-			["currencyFramePoint"] = "BOTTOMRIGHT",
-		},
 		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Gfsdfgsd - Tichondrius"] = {
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbeast - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -691,20 +2364,107 @@ CurrProfileDB = {
 }
 DisplayTeamProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["enableClique"] = true,
+			["global"] = {
+			},
+			["teamListHorizontal"] = false,
+			["teamListTitleHeight"] = 0,
+			["frameBackgroundColourA"] = 0,
+			["followStatusShowName"] = false,
+			["followStatusWidth"] = 15,
+			["showListTitle"] = false,
+			["frameBorderColourA"] = 0,
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
 		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["frameRelativePoint"] = "BOTTOMRIGHT",
+			["frameYOffset"] = 99.49986267089844,
+			["global"] = {
+			},
+			["framePoint"] = "BOTTOMRIGHT",
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["enableClique"] = true,
@@ -714,29 +2474,55 @@ DisplayTeamProfileDB = {
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
 			["followStatusShowName"] = false,
-			["followStatusWidth"] = 15,
-			["showListTitle"] = false,
 			["frameBorderColourA"] = 0,
-		},
-		["KokonutKrew"] = {
-			["enableClique"] = true,
 			["showListTitle"] = false,
-			["teamListHorizontal"] = false,
-			["followStatusShowName"] = false,
-			["global"] = {
-			},
 			["followStatusWidth"] = 15,
-			["teamListTitleHeight"] = 0,
-			["frameBackgroundColourA"] = 0,
-			["frameBorderColourA"] = 0,
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Feerless - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Gfsdfgsd - Tichondrius"] = {
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -748,22 +2534,38 @@ DisplayTeamProfileDB = {
 }
 FollowProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -772,13 +2574,107 @@ FollowProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -790,22 +2686,38 @@ FollowProfileDB = {
 }
 GuildProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -813,13 +2725,107 @@ GuildProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -831,38 +2837,80 @@ GuildProfileDB = {
 }
 InteractionProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["changeTexiTime"] = 5,
+			["global"] = {
+			},
+			["dismountWithTeam"] = true,
+			["autoLoot"] = true,
+			["mountWithTeam"] = true,
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
-			["changeTexiTime"] = 5,
+		["Samoanzero - Emerald Dream"] = {
 			["global"] = {
 			},
-			["dismountWithTeam"] = true,
-			["autoLoot"] = true,
-			["mountWithTeam"] = true,
 		},
-		["KokonutKrew"] = {
+		["Orecraft - Emerald Dream"] = {
 			["global"] = {
 			},
-			["dismountWithTeam"] = true,
-			["changeTexiTime"] = 5,
-			["autoLoot"] = true,
-			["mountWithTeam"] = true,
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -870,6 +2918,74 @@ InteractionProfileDB = {
 			["autoLoot"] = true,
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["changeTexiTime"] = 5,
+			["global"] = {
+			},
+			["dismountWithTeam"] = true,
+			["mountWithTeam"] = true,
+			["autoLoot"] = true,
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -881,380 +2997,37 @@ InteractionProfileDB = {
 }
 ItemUseProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Samoansavage - Tichondrius"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Samoantank - Tichondrius"] = {
-			["backgroundStyle"] = "None",
-			["frameYOffset"] = 0,
-			["itemsAdvanced"] = {
-				{
-					["action"] = "item:49652",
-					["kind"] = "item",
-				}, -- [1]
-				{
-					["action"] = "item:52283",
-					["kind"] = "item",
-				}, -- [2]
-				{
-					["action"] = "item:52065",
-					["kind"] = "item",
-				}, -- [3]
-				{
-					["action"] = "item:52514",
-					["kind"] = "item",
-				}, -- [4]
-				{
-					["action"] = "item:46722",
-					["kind"] = "item",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["hideClearButton"] = true,
-			["itemUseTitleHeight"] = 2,
-			["autoAddSatchelsItemsToBar"] = true,
-			["borderStyle"] = "None",
-			["numberOfItems"] = 20,
-			["itemUseScale"] = 0.68,
-			["global"] = {
-			},
-			["frameXOffset"] = -1.9998836517334,
-			["autoAddQuestItemsToBar"] = true,
-		},
-		["KokonutKrew"] = {
-			["backgroundStyle"] = "None",
-			["frameYOffset"] = 0,
-			["itemsAdvanced"] = {
-				{
-					["action"] = "item:57954",
-					["kind"] = "item",
-				}, -- [1]
-				{
-					["action"] = "item:2589",
-					["kind"] = "item",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["hideClearButton"] = true,
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
-			["itemUseScale"] = 0.68,
-			["framePoint"] = "BOTTOMLEFT",
-			["autoAddQuestItemsToBar"] = true,
-			["autoAddSatchelsItemsToBar"] = true,
-			["numberOfItems"] = 20,
-			["borderStyle"] = "None",
-			["frameRelativePoint"] = "BOTTOMLEFT",
-		},
 		["Samoanslayer - Emerald Dream"] = {
 			["itemsAdvanced"] = {
 				{
@@ -1342,6 +3115,883 @@ ItemUseProfileDB = {
 			["global"] = {
 			},
 		},
+		["KokonutKrew"] = {
+			["backgroundStyle"] = "None",
+			["itemUseScale"] = 0.68,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "item:57954",
+					["kind"] = "item",
+				}, -- [1]
+				{
+					["action"] = "item:2589",
+					["kind"] = "item",
+				}, -- [2]
+				{
+					["action"] = "item:167070",
+					["kind"] = "item",
+				}, -- [3]
+				{
+					["action"] = "item:111956",
+					["kind"] = "item",
+				}, -- [4]
+				{
+					["action"] = "item:132120",
+					["kind"] = "item",
+				}, -- [5]
+				{
+					["action"] = "item:174078",
+					["kind"] = "item",
+				}, -- [6]
+				{
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["hideClearButton"] = true,
+			["itemUseTitleHeight"] = 2,
+			["autoAddSatchelsItemsToBar"] = true,
+			["global"] = {
+			},
+			["borderStyle"] = "None",
+			["numberOfItems"] = 20,
+			["frameRelativePoint"] = "BOTTOMLEFT",
+			["framePoint"] = "BOTTOMLEFT",
+			["frameYOffset"] = 0,
+			["autoAddQuestItemsToBar"] = true,
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
+			},
+			["showItemUse"] = false,
+		},
+		["Tingerce - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
 		["Gfsdfgsd - Tichondrius"] = {
 			["itemsAdvanced"] = {
 				{
@@ -1428,7 +4078,9 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 		},
 		["Samoansavage - Emerald Dream"] = {
-			["frameYOffset"] = 154.9997253417969,
+			["global"] = {
+			},
+			["frameYOffset"] = 0,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1511,7 +4163,1405 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["frameXOffset"] = -176.9997406005859,
+			["frameXOffset"] = 262.9995422363281,
+			["frameRelativePoint"] = "BOTTOMLEFT",
+			["framePoint"] = "BOTTOMLEFT",
+			["itemUseTitleHeight"] = 2,
+			["showItemUse"] = false,
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoantank - Tichondrius"] = {
+			["backgroundStyle"] = "None",
+			["itemUseScale"] = 0.68,
+			["itemsAdvanced"] = {
+				{
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["hideClearButton"] = true,
+			["itemUseTitleHeight"] = 2,
+			["autoAddSatchelsItemsToBar"] = true,
+			["borderStyle"] = "None",
+			["autoAddQuestItemsToBar"] = true,
+			["frameYOffset"] = 0,
+			["frameXOffset"] = -1.9998836517334,
+			["global"] = {
+			},
+			["numberOfItems"] = 20,
+		},
+		["Feerless - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["showItemUse"] = false,
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
 			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
@@ -1608,22 +5658,38 @@ ItemUseProfileDB = {
 }
 PurchaseProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1631,13 +5697,107 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1649,44 +5809,154 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["acceptFromTeam"] = true,
+			["global"] = {
+			},
+			["acceptFromFriends"] = true,
+			["masterAutoShareQuestOnAccept"] = true,
+			["onlyAcceptQuestsFrom"] = true,
+			["doNotAutoAccept"] = false,
+			["overrideQuestAutoSelectAndComplete"] = true,
+			["acceptFromGuild"] = true,
+			["acceptFromParty"] = true,
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanzero - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
-			["overrideQuestAutoSelectAndComplete"] = true,
-			["acceptFromParty"] = true,
-			["acceptFromTeam"] = true,
-			["onlyAcceptQuestsFrom"] = true,
-			["acceptFromGuild"] = true,
-			["acceptFromFriends"] = true,
-			["masterAutoShareQuestOnAccept"] = true,
-			["doNotAutoAccept"] = false,
+		["Orecraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1698,20 +5968,108 @@ QuestProfileDB = {
 }
 QuestWatcherProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["watcherFrameWidth"] = 250,
+			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
+			["global"] = {
+			},
+			["watcherFrameYOffset"] = 0,
+			["watcherFrameXOffset"] = -192.0001373291016,
+			["watcherListLines"] = 50,
+			["hideBlizzardWatchFrame"] = false,
+			["watcherFramePoint"] = "BOTTOMRIGHT",
+			["enableQuestWatcherOnMasterOnly"] = true,
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
 		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["hideBlizzardWatchFrame"] = false,
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
 		["Samoantank - Tichondrius"] = {
 			["watcherFrameWidth"] = 250,
@@ -1723,24 +6081,54 @@ QuestWatcherProfileDB = {
 			["watcherFramePoint"] = "BOTTOMRIGHT",
 			["watcherFrameXOffset"] = -262.000122070313,
 		},
-		["KokonutKrew"] = {
-			["watcherFrameYOffset"] = 0,
-			["watcherFrameXOffset"] = -192.0001373291016,
-			["watcherFrameWidth"] = 250,
-			["enableQuestWatcherOnMasterOnly"] = true,
-			["global"] = {
-			},
-			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
-			["watcherListLines"] = 50,
-			["watcherFramePoint"] = "BOTTOMRIGHT",
-		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Feerless - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Gfsdfgsd - Tichondrius"] = {
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoansavage - Emerald Dream"] = {
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["hideBlizzardWatchFrame"] = false,
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1752,22 +6140,38 @@ QuestWatcherProfileDB = {
 }
 SellProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1775,13 +6179,107 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1793,22 +6291,38 @@ SellProfileDB = {
 }
 TalkProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1816,13 +6330,107 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1834,22 +6442,38 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1858,13 +6482,107 @@ ToonProfileDB = {
 			},
 			["autoAcceptSummonRequest"] = true,
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1876,22 +6594,38 @@ ToonProfileDB = {
 }
 TradeProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1899,13 +6633,107 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1917,22 +6745,38 @@ TradeProfileDB = {
 }
 MailProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
-			["global"] = {
-			},
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1940,13 +6784,249 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+BankProfileDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "KokonutKrew",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["globalBankdList"] = false,
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["global"] = {
+			},
+			["globalBankdList"] = false,
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Tingerce - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansage - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Feerless - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Brunderan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["Haedshot - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Aheenan - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbeast - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1958,32 +7038,53 @@ MailProfileDB = {
 }
 ISBoxerProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
+		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 			["isboxerTeamName"] = "",
-		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
-			["global"] = {
-			},
 		},
 		["KokonutKrew"] = {
 			["global"] = {
 			},
 			["isboxerTeamName"] = "",
 		},
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanbeast - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoansavage - Stormrage"] = {
 			["global"] = {
 			},
 			["isboxerTeamName"] = "",
@@ -1991,6 +7092,44 @@ ISBoxerProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoansavage - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoansneaky - Tichondrius"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Gentodnes - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Adinbalo - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoantank - Tichondrius"] = {
+			["global"] = {
+			},
+		},
+		["Autumnx - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
 			["global"] = {
 			},
 			["isboxerTeamName"] = "",

@@ -19,15 +19,23 @@ L["Add Item"] = true
 L["Alerts"] = true
 L["Alert Formats"] = true
 L["Alpha"] = true
+L["Alt"] = true
 L["Args"] = true
 L["Anchor"] = true
 L["Anchor Mouseover"] = true
 L["Auction Close"] = true
 L["Auction Open"] = true
+L["Auto Loot Items"] = true
 L["Bank Inclusion"] = true
 L["Bank Overlay"] = true
 L["Bar"] = true
+L["Bar Alert Formats"] = true
+L["Bar Alerts"] = true
+L["Bar Complete"] = true
 L["Bar Direction"] = true
+L["Bar Has Name"] = true
+L["Bar Options"] = true
+L["Bar Progress"] = true
 L["Bars"] = true
 L["Bar Tips"] = true
 L["Bottom"] = true
@@ -36,15 +44,19 @@ L["BOTTOMLEFT"] = true
 L["BOTTOMRIGHT"] = true
 L["Bottom/Right"] = true
 L["Button"] = true
+L["Button Alerts"] = true
 L["Button ID"] = true
 L["Button Layers"] = true
+L["Button Options"] = true
 L["Button Padding"] = true
 L["Button Size"] = true
 L["Button Tips"] = true
 L["Buttons"] = true
 L["Buttons Per Row/Column"] = true
+L["Cancel"] = true
 L["CENTER"] = true
 L["Chat"] = true
+L["Chat Frame"] = true
 L["Choose"] = true
 L["Clear Buttons"] = true
 L["Color"] = true
@@ -52,6 +64,7 @@ L["Command Aliases"] = true
 L["Commands"] = true
 L["Config: Bars"] = true
 L["Config: Buttons"] = true
+L["Control"] = true
 L["Cooldown Edge"] = true
 L["Cooldown Swipe"] = true
 L["Count Color"] = true
@@ -63,6 +76,7 @@ L["Count"] = true
 L["default"] = true
 L["Delete User Template"] = true
 L["Down"] = true
+L["Enable Modifier"] = true
 L["Example"] = true
 L["FALSE"] = true
 L["Farming Progress"] = true
@@ -77,6 +91,8 @@ L["Help"] = true
 L["Hidden"] = true
 L["Icon"] = true
 L["Include Bank"] = true
+L["Include Data"] = true
+L["Include Data Prompt"] = true
 L["Item"] = true
 L["Items"] = true
 L["Item ID"] = true
@@ -92,9 +108,11 @@ L["Locked"] = true
 L["Loot Coin"] = true
 L["minimal"] = true
 L["Mixed Items"] = true
+L["Modifier"] = true
 L["MONOCHROME"] = true
 L["Mouseover"] = true
 L["Movable"] = true
+L["Mute Alerts"] = true
 L["Name/Description"] = true
 L["New"] = true
 L["New Count Preview"] = true
@@ -104,18 +122,23 @@ L["No Objective"] = true
 L["NONE"] = true
 L["Normal"] = true
 L["Objective"] = true
+L["Objective Builder"] = true
 L["Objective Cleared"] = true
 L["Objective Complete"] = true
 L["Objective Preview"] = true
 L["Objective Set"] = true
 L["Objective Text"] = true
 L["Old Count Preview"] = true
+L["Other"] = true
 L["OUTLINE"] = true
 L["Page"] = true
 L["Position"] = true
 L["Preview"] = true
 L["Previous"] = true
 L["Profile Settings"] = true
+L["Progress"] = true
+L["Progress Count"] = true
+L["Progress Total"] = true
 L["Quantity"] = true
 L["Quest Activate"] = true
 L["Quest Complete"] = true
@@ -129,13 +152,17 @@ L["Reverse"] = true
 L["Right"] = true
 L["RIGHT"] = true
 L["Row/Column Direction"] = true
+L["Save Order"] = true
+L["Save Order Prompt"] = true
 L["Scale"] = true
 L["Screen"] = true
 L["Search"] = true
 L["Settings"] = true
+L["Shift"] = true
 L["Show Empty Buttons"] = true
 L["Shopping List"] = true
 L["Shopping Lists"] = true
+L["Track Completed Objectives"] = true
 L["Size Bar to Buttons"] = true
 L["Skin"] = true
 L["Sound"] = true
@@ -152,6 +179,7 @@ L["TOPLEFT"] = true
 L["TOPRIGHT"] = true
 L["Top/Left"] = true
 L["Total Maximum"] = true
+L["Track Progress"] = true
 L["TRUE"] = true
 L["Type"] = true
 L["Unlocked"] = true
@@ -206,6 +234,7 @@ L._Bars = function(str, var)
         loadTemplateSelect2Desc = "Load items from a user-defined template onto this bar.",
         mouseoverToggleDesc = "Hides the bar until you hover over it.",
         movableToggleDesc = "Allows the bar to be moved.",
+        muteDesc = "Mutes alerts for this bar.",
         newTemplateInputDesc = "Create a new template of the items on this bar.",
         profileFontDesc = "Per-bar font settings will override profile settings. These settings will only apply to new bars and bars which haven't overriden these fonts. You can change the font for all bars at once on the main Config page.",
         reindexButtonsExecuteDesc = "Reindexes items on the buttons in this bar so that there are no empty bars in between items.",
@@ -218,6 +247,8 @@ L._Bars = function(str, var)
         scaleDesc = "Sets the scale of the bar and its buttons.",
         showEmptiesDesc = "Shows visible buttons that have no items assigned to them.",
         sizeBarExecuteDesc = "Reindexes buttons and sets the number of visible buttons to the number of items on the bar.",
+        trackCompletedObjectivesToggleDesc = "Enables farming updates for buttons after its objective has been completed.",
+        trackProgressDesc = "Tracks the number of completed objectives on the bar.",
         visibleButtonsDesc = "Sets the number of visible buttons.",
         xOffsetCountDesc = "Adjusts the horizontal offset of the count text.",
         xOffsetObjectiveDesc = "Adjusts the horizontal offset of the objective text.",
@@ -278,11 +309,13 @@ L._Commands = function(l, group, str, range1, range2)
             grow = "Changes the orientation of the specified bar or all bars. You must specify both button direction and group (row/column) direction.",
             mouseover = "Toggles the mouseover property for the specified anchor or bar frame, showing it only when the mouse is over it. Use the true/false arguments to override the toggle behavior.",
             movable = "Toggles the movability of the specified bar or all bars. Use the lock/unlock arguments to override the toggle behavior.",
+            mute = "Toggles mute for button alerts on the specified bar or all bars.",
             name = "Sets the name/description for the specified bar.",
             padding = "Sets the padding between buttons on the specified bar or all bars.",
             remove = "Permanently deletes the specified bar. Use the true/false arguments to skip confirmation.",
             scale = "Sets the scale of the specified bar or all bars and its buttons.",
             size = "Sets the size of the buttons on the specified bar or all bars.",
+            track = "Toggles progress tracking for the specified bar or all bars.",
             visibility = "Toggles the visibility of the specified bar or all bars. Use the show/hide arguments to override the toggle behavior.",
         }
 
@@ -296,11 +329,13 @@ L._Commands = function(l, group, str, range1, range2)
             grow = "/farmingbar bar grow up normal\n/farmingbar bar grow left reverse 1",
             mouseover = "/farmingbar bar mouseover bar\n/farmingbar bar mouseover anchor 1\n/farmingbar bar mouseover bar 1 hide\n/farmingbar bar mouseover bar show",
             movable = "/farmingbar bar movable\n/farmingbar bar movable 1\n/farmingbar bar movable unlock",
+            mute = "/farmingbar bar mute 1\n/farmingbar bar mute 1 true\n/farmingbar bar mute false",
             name = "/farmingbar bar name 1 I just renamed this bar!",
             padding = "/farmingbar bar padding 2\n/farmingbar bar padding 2 1",
             remove = "/farmingbar bar remove 1\n/farmingbar bar remove 1 true",
             scale = "/farmingbar bar scale .5\n/farmingbar bar scale .5 1",
             size = "/farmingbar bar size 35\n/farmingbar bar size 35 1",
+            track = "/farmingbar bar track 1\n/farmingbar bar track 1 true\n/farmingbar bar track false",
             visibility = "/farmingbar bar visibility\n/farmingbar bar visibility 1\n/farmingbar bar visibility 1 hide\n/farmingbar bar visibility show",
         }
 
@@ -357,6 +392,11 @@ L._Commands = function(l, group, str, range1, range2)
         strs.i_movableDesc = descriptions.movable
         strs.i_movableExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.movable)
 
+        strs.c_muteDesc = string.format("%s %s: %s[%s]|r %s[%s]|r", descriptions.mute, l.Args, gold, args.barID[1], gold, args.bool[1])
+        strs.i_muteArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, gold, args.barID[1], args.barID[2], gold, args.bool[1], args.bool[2])
+        strs.i_muteDesc = descriptions.mute
+        strs.i_muteExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.mute)
+
         strs.c_nameDesc = string.format("%s %s: %s[%s]|r %s[%s]|r", descriptions.name, l.Args, red, args.barID[1], gold, args.barName[1])
         strs.i_nameArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, red, args.barID[1], args.barID[2], gold, args.barName[1], args.barName[2])
         strs.i_nameDesc = descriptions.name
@@ -384,6 +424,11 @@ L._Commands = function(l, group, str, range1, range2)
         strs.i_sizeRangeDesc = string.format("%s: %s%d|r-%s%d|r", l.Range, green, range1, green, range2)
         strs.i_sizeDesc = descriptions.size
         strs.i_sizeExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.size)
+
+        strs.c_trackDesc = string.format("%s %s: %s[%s]|r %s[%s]|r", descriptions.track, l.Args, gold, args.barID[1], gold, args.bool[1])
+        strs.i_trackArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, gold, args.barID[1], args.barID[2], gold, args.bool[1], args.bool[2])
+        strs.i_trackDesc = descriptions.track
+        strs.i_trackExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.track)
 
         strs.c_visibilityDesc = string.format("%s %s: %s[%s]|r %s[%s]|r", descriptions.visibility, l.Args, gold, args.barID[1], gold, args.visibility[1])
         strs.i_visibilityArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, gold, args.barID[1], args.barID[2], gold, args.visibility[1], args.visibility[2])
@@ -448,13 +493,13 @@ L._Commands = function(l, group, str, range1, range2)
 
         local descriptions = {
             delete = "Permanently deletes the specified user-defined template.",
-            load = "Load items from a user-defined template onto the specified bar.",
+            load = "Load items from a user-defined template onto the specified bar. The first true/false argument specifies whether or not to include objective data. The second true/false argument specifies whether or not to save the objective order.",
             save = "Creates a new template of the items on the specified bar.",
         }
 
         local examples = {
             delete = "/farmingbar template delete My New Template",
-            load = "/farmingbar template load 1 My New Template",
+            load = "/farmingbar template load 1 true false My New Template",
             save = "/farmingbar template save 1 My New Template",
         }
 
@@ -466,8 +511,8 @@ L._Commands = function(l, group, str, range1, range2)
         strs.i_deleteDesc = descriptions.delete
         strs.i_deleteExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.delete)
 
-        strs.c_loadDesc = string.format("%s %s: %s[%s]|r %s[%s]|r", descriptions.load, l.Args, red, args.barID[1], red, args.templateName[1])
-        strs.i_loadArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, red, args.barID[1], args.barID[2], red, args.templateName[1], args.templateName[2])
+        strs.c_loadDesc = string.format("%s %s: %s[%s]|r %s[%s]|r %s[%s]|r %s[%s]|r", descriptions.load, l.Args, red, args.barID[1], red, args.bool[1], red, args.bool[1], red, args.templateName[1])
+        strs.i_loadArgsDesc = string.format("%s: %s[%s]|r(%s) %s[%s]|r(%s) %s[%s]|r(%s) %s[%s]|r(%s)", l.Args, red, args.barID[1], args.barID[2], red, args.bool[1], args.bool[2], red, args.bool[1], args.bool[2], red, args.templateName[1], args.templateName[2])
         strs.i_loadDesc = descriptions.load
         strs.i_loadExDesc = string.format("%s: %s%s|r", l.Example, lightblue, examples.load)
 
@@ -487,7 +532,7 @@ L._Commands = function(l, group, str, range1, range2)
         strs.limitationsHeader = "Limitations"
         strs.limitationsDesc = string.format("Certain slash commands cannot be used in combat as they require either hardware events or protected Blizzard functions to execute. These commands include /farmingbar: %s[bar add]|r, %s[bar buttons]|r, %s[bar group]|r, %s[bar grow]|r, %s[bar padding]|r, %s[bar remove]|r, %s[bar scale]|r, %s[bar size]|r, %s[bar visibility]|r, %s[button size]|r.", lightblue, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue)
         strs.limitationsDesc2 = "Some commands which set or clear objectives during combat may have limited ability until you leave combat. There will be a chat message informing you when item attributes become available upon rest."
-        strs.limitationsDesc3 = "There are currently no slash commands implemented for button count text size, anchors and offsets; button objective text size, anchors, and offsets; or font face and outlines. These options are better suited to the GUI, but if enough people are interested in having them added, it may happen in the future."
+        strs.limitationsDesc3 = "There are currently no slash commands implemented for button count text size, anchors and offsets; button objective text size, anchors, and offsets; font face and outlines; or a bar's track completed objectives. These options are either better suited to the GUI or not necessary, but if enough people are interested in having them added, it may happen in the future."
 
         strs.argsHeader = "Arguments"
         strs.argsDesc = "Arguments are listed in this documentation and denoted by [] square brackets. Following each arg is a letter inside parentheses which indicates the type of the variable: (b)oolean, (i)nteger, (s)string. Arguments colored in red are required and yellow are optional."
@@ -516,7 +561,7 @@ L._Help = function(l, group, var)
         -- [[Localization strings]] --
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-        local desc = "There are two alert types available to customize: one that tracks items with an objective goal and one that tracks items without. The preview boxes will show you what your alert will look like in real time. Use the sliders (Objective Preview, New Count Preview, Old Count Preview) to adjust the settings of this preview.\n\nKeep in mind that all variables are case sensitive. "
+        local desc = "There are two alert types available to customize: one that tracks items with an objective goal and one that tracks items without. You can adjust alert formats under the Button Options section of the Alert Formats Settings tab. The preview boxes will show you what your alert will look like in real time. Use the sliders (Objective Preview, New Count Preview, Old Count Preview) to adjust the settings of this preview.\n\nKeep in mind that all variables are case sensitive."
 
         local variables = "Variables"
         local colors = "Colors"
@@ -531,7 +576,8 @@ L._Help = function(l, group, var)
                 [6] = {"O", "number of times the objective has been met"},
                 [7] = {"p", "percentage of the objective complete"},
                 [8] = {"r", "number of items required to complete objective"},
-                [9] = {"escapeDesc", "escapes variables"},
+                [9] = {"t", "title of an item objective"},
+                [10] = {"escapeDesc", "escapes variables"},
             },
 
             [2 .. colors] = {
@@ -593,6 +639,69 @@ L._Help = function(l, group, var)
                 i = i + 1
             end
         end
+    elseif group == "barAlertFormats" then
+
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- [[Localization strings]] --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+        local desc = "Bar alerts track a bar's progress (e.g. the number of objectives on the bar complete). Formats are edited under the Alert Formats Settings tab in the Bar Options section.  Preview boxes show you what your alert will look like in real time. Use the sliders (Progress Count, Progress Total) to adjust the settings of this preview. Check Bar Has Name to see what an alert will look like when a bar is given a custom name.\n\nKeep in mind that all variables are case sensitive."
+
+        local variables = "Variables"
+        local colors = "Colors"
+
+        local alertFormatsLines = {
+            [1 .. variables] = {
+                [1] = {"b", "bar id"},
+                [2] = {"B", "bar id and name"},
+                [3] = {"c", "number of completed objectives"},
+                [4] = {"n", "bar name"},
+                [5] = {"p", "percentage of objectives complete"},
+                [8] = {"r", "number of objectives required to complete bar progress"},
+                [7] = {"t", "total number of objectives"},
+                [8] = {"escapeDesc", "escapes variables"},
+            },
+
+            [2 .. colors] = {
+                [1] = {"progressColor", "colors the following text green if the objective has been met or yellow if it hasn't"},
+                [2] = {"color", "used to close a color variable"},
+            },
+
+            [3 .. "Basic Example"] = {
+                [1] = {"basicExCode", string.format("%s%s|r", lightblue, "%B progress: %progressColor%%c/%t%color%%if(%p>0, (%p%%),)if%")},
+                [2] = {"basicExPreview1", string.format("Bar 1 (My Bar Name) progress: %s100/100|r", green)},
+                [3] = {"basicExPreview2", string.format("Bar 1 (My Bar Name) progress: %s0/100|r", gold)},
+                [4] = {"basicExSpacer4", " "},
+                [5] = {"basicExDesc", "Bar alert formats are written the same way normal alert formats are. Colors are closed with %color% and start with the type (%progressColor% is the only one that exists at the moment) and if statements can be used to customize your alert. Variables for bar alert formats are not the same as normal button alerts."},
+            },
+
+            [4 .. "If Statements"] = {
+                [1] = {"ifsDesc1", string.format("If statements can be used to write different text depending on a condition. See the Alert Formats Help documentation for more information on how to write if statements.", lightblue, green, green, green)},
+            },
+        }
+
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+        strs.desc = {desc, 1}
+
+        local i = 2
+        for heading, lines in U.pairs(alertFormatsLines) do
+            heading = heading:gsub("^%d+", "")
+            strs["heading" .. i] = {heading, i, true}
+            i = i + 1
+
+            for _, line in U.pairs(lines) do
+                if heading == variables then
+                    strs[line[1]] = {string.format("%s%%%s|r = %s", lightblue, line[1] ~= "escapeDesc" and line[1] or "", line[2]), i}
+                elseif heading == colors then
+                    strs[line[1]] = {string.format("%s%%%s%%|r = %s", lightblue, line[1], line[2]), i}
+                else
+                    strs[line[1]] = {line[2], i}
+                end
+                i = i + 1
+            end
+        end
     elseif group == "base" then
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- [[Localization strings]] --
@@ -619,6 +728,10 @@ L._Help = function(l, group, var)
                 [6] = {"spacer15", " "},
                 [7] = {"dtrDesc4", string.format("%sTrack items across all toons:|r add support to track your objective using mats across all toons.", lightblue)},
                 [8] = {"spacer17", " "},
+                [9] = {"dtrDesc5", string.format("%sCustomizable keybinds:|r change the keybinds used on bars/buttons (e.g. setting objective, moving the item, etc). Right click for use and left click for move will not be changeable.", lightblue)},
+                [10] = {"spacer18", " "},
+                [11] = {"dtrDesc6", string.format("%sObjective conditions:|r set up custom objective trackers based on certain conditions. Examples may include zone or math objectives (such as count is divisible by 5).", lightblue)},
+                [12] = {"spacer19", " "},
             },
         }
 
@@ -790,6 +903,52 @@ L._Help = function(l, group, var)
                 i = i + 1
             end
         end
+    elseif group == "objectiveBuilder" then
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- [[Localization strings]] --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        local desc = "The Objective Builder allows you to create complex objectives "
+
+        local buttonsLines = {
+            [1 .. "Do I have to use the Objective Builder?"] = {
+                [1] = {"requiredDesc1", "While the Objective Builder lets you customize your farming objective in various ways, sometimes you need to track something simple and fast. You can drag and drop (or pickup) an item from your inventory and place it on a button to quickly track it. Additionally, if you know the item ID or currency ID that you want to track, you can use the following shortcuts to get started quicker."},
+                [2] = {"requiredSpacer2", " "},
+                [3] = {"requiredDesc2", string.format("%sCtrl+shift+click|r a button to quickly enter a currency ID.", lightblue)},
+                [4] = {"requiredDesc3", string.format("%sCtrl+shift+right-click|r a button to quickly enter an item ID.", lightblue)},
+            },
+
+            [2 .. "What shortcuts make it faster to add objectives?"] = {
+                [1] = {"shortcutDesc1", string.format("%sPressing enter within most editboxes|r will change focus to the next editbox.", lightblue)},
+                [2] = {"shortcutDesc2", string.format("%sPressing shift+enter within an any editbox|r (except the first) will change focus to the previous editbox.", lightblue)},
+                [3] = {"shortcutSpacer3", " "},
+                [4] = {"shortcutDesc4", string.format("%sPressing ctrl+enter within any Currency or Item editbox|r will finalize and create the objective.", lightblue)},
+                [5] = {"shortcutSpacer5", " "},
+                [6] = {"shortcutDesc6", string.format("%sPressing ctrl+enter within an Icon editbox|r will open the Icon Selector and focus the search bar.", lightblue)},
+                [7] = {"shortcutDesc7", string.format("%sPressing ctrl+enter within the Icon Selector Search editbox|r will select and apply the currently focused icon.", lightblue)},
+                [8] = {"shortcutSpacer8", " "},
+                [9] = {"shortcutDesc9", string.format("%sPressing enter within an Add Item editbox|r will validate and add the item to the pending list.", lightblue)},
+                [10] = {"shortcutDesc10", string.format("%sPressing ctrl+enter within an Add Item editbox|r will validate and add the item to the pending list and then finalize and create the objective.", lightblue)},
+                [11] = {"shortcutSpacer11", " "},
+            },
+        }
+
+
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+        -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+        strs.desc = {desc, 1}
+
+        i = 2
+        for heading, lines in U.pairs(buttonsLines) do
+            heading = heading:gsub("^%d+", "")
+            strs["heading" .. i] = {heading, i, true}
+            i = i + 1
+
+            for _, line in U.pairs(lines) do
+                strs[line[1]] = {line[2], i}
+                i = i + 1
+            end
+        end
     elseif group == "shoppingLists" then
         -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         -- [[Localization strings]] --
@@ -901,6 +1060,7 @@ end
 L._ObjectiveBuilder = function(str)
     local strs = {
         currencyDesc = "To track a currency, select it from the dropdown list then click Update Button. If you can't find the currency you are looking for in the menu, you can add it manually by the currency ID.",
+        editboxTips = "Pressing enter from any editbox will move to the next editbox while shift+enter moves to the previous. Ctrl+enter will open the icon selector from the icon editbox and update the button from the add item editbox.",
         editItem = "Left click an item to edit its objective.",
         itemDesc = "To track an item, type the name or item ID into the editbox then click Update Button. Keep in mind that you can only add an item by name if it has already been cached or you have it in your inventory.",
         mixedItemsDesc = "Mixed Items objectives track any combination of multiple items to add up to one total objective. You can add items by item name or ID, but if the item hasn't already been cached and you don't have any in your bank or bags, you must use the item ID.",
@@ -922,38 +1082,72 @@ L._Settings = function(str, var1)
 
     local strs = {
         AutoCastableDesc = "Enables the four-point gold border indicating bank inclusion.",
+        autoLootItemsOtherDesc = "Temporarily enables auto looting when using an item on a button.",
+        barChatToggleDesc = "Enables bar progress chat alerts.",
+        barCountPreviewRangeDesc = "Sets the count of objectives complete for the bar alert format preview.",
+        barProgressInputDesc = "Sets the format for bar progress alerts.",
+        barScreenToggleDesc = "Enables bar progress screen alerts.",
+        barSoundToggleDesc = "Enables bar progress sound alerts.",
+        barTitlePreviewToggleDesc = "Enables a sample bar name/desc for the bar alert format preview.",
+        barTotalPreviewRangeDesc = "Sets the total number of objectives for the bar alert format preview.",
         barTipTooltipDesc = "Displays shortcut tips at the bottom of bars' tooltips.",
         barTooltipDesc = "Enables bar tooltips.",
         BorderDesc = "Enables the item quality glow.",
         buttonTipTooltipDesc = "Displays shortcut tips at the bottom of buttons' tooltips.",
         buttonTooltipDesc = "Enables button tooltips.",
         chatToggleDesc = "Enables chat alerts.",
+        chatFrameSelectDesc = "Sets the chat frame alerts will be output to.",
         commandsDescDesc = "Enable or disable command aliases in case of conflicts with other addons.",
         commandsToggleDesc = string.format("Enables the command alias /%s.", var1),
         CooldownDesc = "Enables the item cooldown swipe.",
         CooldownEdgeDesc = "Enables the bling on the edge of item cooldown swipes.",
         countColorDropDownDesc = "Changes the color of buttons' count text.",
+        enableModTooltipDesc = "Enables the ability to toggle tooltip tips with a modifier key.",
         faceDesc = "Sets the font face for button text.",
         farmingProgressDesc = "Sets the sound that plays when you progress toward your objective goal.",
         hasObjectiveInputDesc = "Sets the format of alerts when a objective goal is set.",
+        helpBarExecuteDesc = "View help documentation for bar alert formats.",
         helpExecuteDesc = "View help documentation for alert formats.",
+        includeDataTemplatesDesc = "Include objective data when loading user-defined templates.",
+        includeDataPromptTemplatesDesc = "Prompt to decide whether to include objective data each time a user-defined template is loaded.",
         masqueToggleDesc = "Lets Masque control skins for bars/buttons.",
         masqueToggleName = "Enable Masque",
-        newCountPreviewRangeDesc = "Sets the new count for the alert format preview.",
+        modTooltipDesc = "Sets the modifier key to be used to toggle tips on tooltips.",
+        newCountPreviewRangeDesc = "Sets the new count for the button alert format preview.",
         noObjectiveInputDesc = "Sets the format of alerts when no objective goal is set.",
         objectiveClearedDesc = "Sets the sound that plays when you cancel a objective goal.",
         objectiveCompleteDesc = "Sets the sound that plays when you complete a objective goal.",
-        objectivePreviewRangeDesc = "Sets an objective for the alert format preview.",
+        objectivePreviewRangeDesc = "Sets an objective for the button alert format preview.",
         objectiveSetDesc = "Sets the sound that plays when you set a objective goal.",
-        oldCountPreviewRangeDesc = "Sets the old count for the alert format preview.",
+        oldCountPreviewRangeDesc = "Sets the old count for the button alert format preview.",
         outlineDesc = "Sets the font outline for button text.",
+        resetBarProgressDesc = "Resets the alert format for Bar Progress.",
+        resetBarProgressConfirm = "Are you sure you want to reset Bar Progress to the default alert format?",
         resetHasObjectiveDesc = "Resets the alert format for Has Objective to the default.",
         resetHasObjectiveConfirm = "Are you sure you want to reset Has Objective to the default alert format?",
         resetNoObjectiveDesc = "Resets the alert format for No Objective to the default.",
         resetNoObjectiveConfirm = "Are you sure you want to reset No Objective to the default alert format?",
+        sampleBarTitle = "My Bar Name",
+        saveOrderTemplatesDesc = "Save objective order when loading user-defined templates.",
+        saveOrderPromptTemplatesDesc = "Prompt to decide whether to save objective order each time a user-defined template is loaded.",
         screenToggleDesc = "Enables screen alerts.",
         skinDropDownDesc = "Sets the built-in skin for bars/buttons.",
         soundToggleDesc = "Enables sound alerts.",
+    }
+
+    return strs[str]
+end
+
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- SETTINGS -----------------------------------------------------------------------------------------------------------
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+L._StaticPopups = function(str)
+    local strs = {
+        confirmOverwriteTemplate = "Farming Bar: Template \"%s\" already exists. Do you want to overwrite this template?",
+        includeTemplateData = "Farming Bar: Do you want to include objective data while loading template \"%s\"?",
+        saveTemplateOrder = "Farming Bar: Do you want to save the objective order while loading template \"%s\"?",
     }
 
     return strs[str]
@@ -984,9 +1178,13 @@ L._Tooltips = function(id, str)
         strs[6] = "Alt-right-click at the bank to move\nthis item to your bags up to your objective."
         strs[7] = "Ctrl+alt+right-click at the bank to move\nall of this item to your bags."
         strs[8] = "Shift+alt+right-click at the bank to move\nall of this item to the bank."
+
         strs[9] = "Ctrl+right-click to open the Objective Builder."
-        strs[10] = "Shift+right-click clears the slot."
-        strs[11] = "Pickup and place (or drag and drop) an item\nonto this button to track it."
+        strs[10] = "Ctrl+shift+click to enter a currency ID."
+        strs[11] = "Ctrl+shift+right-click to enter an item ID."
+
+        strs[12] = "Shift+right-click clears the slot."
+        strs[13] = "Pickup and place (or drag and drop) an item\nonto this button to track it."
     elseif id == "broker" then
         strs[1] = string.format("%sClick|r to toggle settings.", lightblue)
         strs[2] = string.format("%sRight-click|r to configure bars.", lightblue)
@@ -1015,6 +1213,20 @@ L.BarMovableChanged = function(barID, movable)
         return "All bars' movability toggled."
     else
         return string.format("All bars %s.", movable and "unlocked" or "locked")
+    end
+end
+
+L.BarTrackingChanged = function(barID, tracking)
+    if barID then
+        if tracking == "_toggle" then
+            return string.format("Bar %s's tracking toggled.", barID)
+        else
+            return string.format("Bar %s %s.", barID, tracking and "tracking progress" or "no longer tracking progress")
+        end
+    elseif tracking == "_toggle" then
+        return "All bars' tracking toggled."
+    else
+        return string.format("All bars %s.", tracking and "tracking progress" or "no longer tracking progress")
     end
 end
 
@@ -1050,11 +1262,14 @@ L.GetErrorMessage = function(str, var1, var2)
         invalidFontSize = string.format("Font size must be an integer between %d and %d.", var1, var2),
         invalidGroupDirection = "Invalid row/column direction.",
         invalidGroupSize = string.format("Group size (buttons per row) must be an integer between %d and %d.", var1, var2),
+        invalidIncludeData = "Missing include data boolean (true/false).",
         invalidItemID = string.format("Invalid item: %s", var1),
         invalidListQuantity = "Mixed Items and Shopping List objectives require at least 2 items.",
         invalidMouseoverFrame = "Mouseover frame must be specified as either bar or anchor.",
         invalidObjectiveQuantity = "Objective quantity must be greater than 0.",
         invalidObjectiveTitle = "Please provide a title for your Mixed Items objective.",
+        invalidProgressDifference = "Error: progress count cannot be greater than progress total.",
+        invalidSaveOrder = "Missing save order boolean (true/false).",
         invalidScale = string.format("Scale must be an integer between %s and %s.", tostring(var1), tostring(var2)),
         invalidTemplate = "Invalid or missing template name.",
         invalidTemplateName = string.format("Template named \"%s\" doesn't exist.", var1),

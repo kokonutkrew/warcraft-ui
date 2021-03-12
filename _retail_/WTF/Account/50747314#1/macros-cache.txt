@@ -1,0 +1,7 @@
+VER 3 0000000000000002 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000001 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END

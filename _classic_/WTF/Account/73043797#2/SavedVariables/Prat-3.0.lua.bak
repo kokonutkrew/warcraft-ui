@@ -1,0 +1,180 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["wealth"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Fading"] = {
+			["profiles"] = {
+				["Default"] = {
+					["duration"] = 14,
+				},
+				["KokonutKrew"] = {
+					["duration"] = 8,
+					["textfade"] = {
+						["ChatFrame3"] = false,
+						["ChatFrame4"] = false,
+						["ChatFrame11"] = false,
+						["ChatFrame1"] = false,
+					},
+				},
+			},
+		},
+		["Prat_Total RP 3"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_Mentions"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_ServerNames"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_AltNames"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+					["pncol"] = false,
+				},
+			},
+		},
+		["Prat_PlayerNames"] = {
+		},
+		["Prat_Memory"] = {
+		},
+		["Prat_Frames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["minchatwidthdefault"] = 296,
+					["maxchatwidthdefault"] = 608.000061035156,
+					["maxchatheightdefault"] = 400,
+					["initialized"] = true,
+				},
+				["KokonutKrew"] = {
+					["minchatwidthdefault"] = 296,
+					["framealpha"] = 0.76,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.000061035156,
+					["initialized"] = true,
+				},
+			},
+		},
+		["Prat_Editbox"] = {
+		},
+		["Prat_History"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["scrollbackduration"] = 168,
+				},
+			},
+		},
+		["Prat_Font"] = {
+		},
+		["Prat_KeyBindings"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_TellTarget"] = {
+		},
+		["Prat_Paragraph"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_Achievements"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Highlight"] = {
+		},
+		["Prat_PopupMessage"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_Sounds"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_ChatLog"] = {
+			["profiles"] = {
+				["KokonutKrew"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_Search"] = {
+		},
+		["Prat_Buttons"] = {
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_HoverTips"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Default",
+		["Jnx - Grobbulus"] = "Default",
+		["Marshmellow - Grobbulus"] = "KokonutKrew",
+		["Abenia - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
+				["Mentions"] = 2,
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
+				["OriginalButtons"] = 2,
+				["Alias"] = 2,
+				["ChatLog"] = 2,
+				["KeyBindings"] = 2,
+			},
+		},
+		["KokonutKrew"] = {
+			["modules"] = {
+				["Alias"] = 2,
+				["OriginalButtons"] = 2,
+			},
+		},
+	},
+}

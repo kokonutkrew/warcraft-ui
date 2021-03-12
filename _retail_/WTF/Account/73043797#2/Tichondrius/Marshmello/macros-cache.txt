@@ -1,0 +1,42 @@
+VER 3 0100000000000006 "Binding Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help,nodead][] Binding Heal
+END
+VER 3 010000000000000B "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Heal
+END
+VER 3 010000000000000A "Holy Word: Seren" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][] Holy Word: Serenity
+END
+VER 3 0100000000000004 "Leap of Faith" "INV_Misc_QuestionMark"
+/cast [@mouseover,help,nodead][] Leap of Faith
+END
+VER 3 0100000000000003 "Power Word" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help,nodead][] Power Word: Shield; [@unit][] Shadow Word: Pain;
+END
+VER 3 0100000000000007 "PrayerOfMending" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help,nodead][] Prayer of Mending
+END
+VER 3 0100000000000008 "Renew" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help,nodead][] Renew
+END
+VER 3 0100000000000009 "Self Shield" "SPELL_LIFEGIVINGSPEED"
+/use [@player] Power Word: Shield;
+/use [@player] Fade;
+/use [@player] Purify;
+END
+VER 3 0100000000000005 "Shadow Word" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@target,harm,nodead][] Shadow Word: Pain
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+NWea[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

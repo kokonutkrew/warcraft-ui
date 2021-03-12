@@ -2,25 +2,40 @@
 GatherMate_SharingDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
+		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
+		["Marshmello - Tichondrius"] = "Marshmello - Tichondrius",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Grapejelley - Emerald Dream"] = "Grapejelley - Emerald Dream",
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 		},
+		["Samoanbeast - Ravenholdt"] = {
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Bunni - Emerald Dream"] = {
+		},
 		["Samoanstrap - Tichondrius"] = {
 		},
-		["Samoanbeast - Ravenholdt"] = {
+		["Marshmello - Tichondrius"] = {
 		},
 		["Samoansage - Tichondrius"] = {
 		},
 		["Samoansavage - Stormrage"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Grapejelley - Emerald Dream"] = {
+		},
+		["Grapejellie - Emerald Dream"] = {
 		},
 		["Samoantitan - Stormrage"] = {
 			["syncDeletes"] = true,

@@ -11,6 +11,12 @@ VGT_OPTIONS = {
 	["DOUSE"] = {
 		["enabled"] = true,
 	},
+	["FUN"] = {
+		["enabled"] = true,
+	},
+	["LOTTERY"] = {
+		["enabled"] = true,
+	},
 	["EP"] = {
 		["enabled"] = true,
 	},
@@ -21,3 +27,5 @@ VGT_OPTIONS = {
 }
 VGT_PRE_DECAY = nil
 VGT_POST_DECAY = nil
+VGT_LOTTERY_DB = {
+}

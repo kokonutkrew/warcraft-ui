@@ -149,7 +149,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631551,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 						["Touch of Gyneth"] = {
 							["crushing"] = 0,
@@ -483,7 +483,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631498,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 0,
@@ -815,7 +815,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631459,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 4942.3017578125,
@@ -1146,7 +1146,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631417,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 						["Shadowfrost Cleave"] = {
 							["crushing"] = 0,
@@ -1510,7 +1510,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631383,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 						["Double Swing"] = {
 							["crushing"] = 0,
@@ -1933,7 +1933,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631320,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 						["Double Swing"] = {
 							["crushing"] = 0,
@@ -2072,13 +2072,13 @@ SkadaPerCharDB = {
 							["auratype"] = "BUFF",
 							["uptime"] = 8,
 						},
-						["Mistladen Windfury"] = {
-							["name"] = "Mistladen Windfury",
+						["Art of War"] = {
+							["name"] = "Art of War",
 							["active"] = 0,
-							["school"] = 8,
-							["id"] = 204495,
+							["school"] = 1,
+							["id"] = 231843,
 							["auratype"] = "BUFF",
-							["uptime"] = 30,
+							["uptime"] = 5,
 						},
 						["Lawbringer"] = {
 							["name"] = "Lawbringer",
@@ -2088,20 +2088,20 @@ SkadaPerCharDB = {
 							["auratype"] = "DEBUFF",
 							["uptime"] = 32,
 						},
+						["Mistladen Windfury"] = {
+							["name"] = "Mistladen Windfury",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 204495,
+							["auratype"] = "BUFF",
+							["uptime"] = 30,
+						},
 						["Wake of Ashes"] = {
 							["name"] = "Wake of Ashes",
 							["active"] = 0,
 							["school"] = 6,
 							["id"] = 255937,
 							["auratype"] = "DEBUFF",
-							["uptime"] = 5,
-						},
-						["Art of War"] = {
-							["name"] = "Art of War",
-							["active"] = 0,
-							["school"] = 1,
-							["id"] = 231843,
-							["auratype"] = "BUFF",
 							["uptime"] = 5,
 						},
 						["Righteous Verdict"] = {
@@ -2263,10 +2263,10 @@ SkadaPerCharDB = {
 					["healingabsorbed"] = 0,
 					["class"] = "PALADIN",
 					["damaged"] = {
-						["Necrodark Defiler"] = 109266,
-						["Shadow Lurker"] = 37358,
-						["Dark Tendril"] = 42849,
 						["Necrogg the Darkspeaker"] = 195399,
+						["Necrodark Defiler"] = 109266,
+						["Dark Tendril"] = 42849,
+						["Shadow Lurker"] = 37358,
 					},
 					["dispells"] = 0,
 					["role"] = "NONE",
@@ -2340,7 +2340,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631043,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 9884.603515625,
@@ -2394,6 +2394,24 @@ SkadaPerCharDB = {
 			},
 			["deaths"] = 0,
 			["mobs"] = {
+				["Necrogg the Darkspeaker"] = {
+					["players"] = {
+						["Samoantank"] = {
+							["taken"] = 195399,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "PALADIN",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 195399,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
 				["Necrodark Defiler"] = {
 					["players"] = {
 						["Samoantank"] = {
@@ -2407,24 +2425,6 @@ SkadaPerCharDB = {
 					["htakenspell"] = {
 					},
 					["taken"] = 109266,
-					["done"] = 0,
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-				["Shadow Lurker"] = {
-					["players"] = {
-						["Samoantank"] = {
-							["taken"] = 37358,
-							["done"] = 0,
-							["role"] = "NONE",
-							["class"] = "PALADIN",
-						},
-					},
-					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 37358,
 					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
@@ -2448,10 +2448,10 @@ SkadaPerCharDB = {
 					["hdonespell"] = {
 					},
 				},
-				["Necrogg the Darkspeaker"] = {
+				["Shadow Lurker"] = {
 					["players"] = {
 						["Samoantank"] = {
-							["taken"] = 195399,
+							["taken"] = 37358,
 							["done"] = 0,
 							["role"] = "NONE",
 							["class"] = "PALADIN",
@@ -2460,7 +2460,7 @@ SkadaPerCharDB = {
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 195399,
+					["taken"] = 37358,
 					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
@@ -2530,7 +2530,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547631032,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 0,
@@ -2683,7 +2683,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547630997,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 4942.3017578125,
@@ -2855,7 +2855,7 @@ SkadaPerCharDB = {
 					},
 					["id"] = "Player-11-042FD3AD",
 					["first"] = 1547630893,
-					["maxhp"] = 49780,
+					["maxhp"] = 50260,
 					["damagetakenspells"] = {
 					},
 					["overhealing"] = 4942.3017578125,
@@ -3590,105 +3590,7 @@ SkadaPerCharDB = {
 						["shielding"] = 81822,
 					},
 				},
-				["deathlog"] = {
-					{
-						["ts"] = 1547631575.724,
-						["amount"] = -782,
-						["spellid"] = 260546,
-						["hp"] = 48663,
-						["srcname"] = "Uul'gyneth",
-					}, -- [1]
-					{
-						["ts"] = 1547631579.258,
-						["amount"] = -3290,
-						["spellid"] = 260509,
-						["hp"] = 45373,
-						["srcname"] = "Uul'gyneth",
-					}, -- [2]
-					{
-						["ts"] = 1547631579.598,
-						["amount"] = -782,
-						["spellid"] = 260546,
-						["hp"] = 44591,
-						["srcname"] = "Uul'gyneth",
-					}, -- [3]
-					{
-						["ts"] = 1547631580.638,
-						["amount"] = -782,
-						["spellid"] = 260546,
-						["hp"] = 43809,
-						["srcname"] = "Uul'gyneth",
-					}, -- [4]
-					{
-						["srcname"] = "Necrodark Defiler",
-						["ts"] = 1547631441.067,
-						["hp"] = 29410,
-						["spellid"] = 88163,
-					}, -- [5]
-					{
-						["srcname"] = "Shadow Lurker",
-						["ts"] = 1547631442.136,
-						["hp"] = 29410,
-						["spellid"] = 88163,
-					}, -- [6]
-					{
-						["srcname"] = "Necrodark Defiler",
-						["ts"] = 1547631443.115,
-						["hp"] = 29410,
-						["spellid"] = 88163,
-					}, -- [7]
-					{
-						["srcname"] = "Shadow Lurker",
-						["ts"] = 1547631446.19,
-						["hp"] = 29410,
-						["spellid"] = 88163,
-					}, -- [8]
-					{
-						["srcname"] = "Necrodark Greysworn",
-						["ts"] = 1547631464.328,
-						["hp"] = 38101,
-						["spellid"] = 88163,
-					}, -- [9]
-					{
-						["srcname"] = "Necrodark Greysworn",
-						["ts"] = 1547631474.278,
-						["hp"] = 38101,
-						["spellid"] = 88163,
-					}, -- [10]
-					{
-						["srcname"] = "Necrodark Defiler",
-						["ts"] = 1547631505.207,
-						["hp"] = 43351,
-						["spellid"] = 88163,
-					}, -- [11]
-					{
-						["srcname"] = "Shadow Lurker",
-						["ts"] = 1547631509.66,
-						["hp"] = 43351,
-						["spellid"] = 88163,
-					}, -- [12]
-					{
-						["srcname"] = "Necrodark Defiler",
-						["ts"] = 1547631511.619,
-						["hp"] = 43351,
-						["spellid"] = 88163,
-					}, -- [13]
-					{
-						["srcname"] = "Shadow Lurker",
-						["ts"] = 1547631513.705,
-						["hp"] = 43351,
-						["spellid"] = 88163,
-					}, -- [14]
-					{
-						["absorb"] = -447,
-						["amount"] = -335,
-						["ts"] = 1547631568.691,
-						["hp"] = 49445,
-						["spellid"] = 260546,
-						["srcname"] = "Uul'gyneth",
-					}, -- [15]
-					["pos"] = 5,
-				},
+				["shielding"] = 81822,
 				["id"] = "Player-11-042FD3AD",
 				["healing"] = 81822,
 				["time"] = 826,
@@ -3878,9 +3780,8 @@ SkadaPerCharDB = {
 				["ffdamagedonetargets"] = {
 				},
 				["name"] = "Samoantank",
-				["maxhp"] = 49780,
+				["maxhp"] = 50260,
 				["damagetaken"] = 76083,
-				["shielding"] = 81822,
 				["power"] = {
 					[9] = {
 						["spells"] = {
@@ -3892,6 +3793,105 @@ SkadaPerCharDB = {
 						},
 						["amount"] = 237,
 					},
+				},
+				["deathlog"] = {
+					{
+						["ts"] = 1547631575.724,
+						["amount"] = -782,
+						["srcname"] = "Uul'gyneth",
+						["spellid"] = 260546,
+						["hp"] = 48663,
+					}, -- [1]
+					{
+						["ts"] = 1547631579.258,
+						["amount"] = -3290,
+						["srcname"] = "Uul'gyneth",
+						["spellid"] = 260509,
+						["hp"] = 45373,
+					}, -- [2]
+					{
+						["ts"] = 1547631579.598,
+						["amount"] = -782,
+						["srcname"] = "Uul'gyneth",
+						["spellid"] = 260546,
+						["hp"] = 44591,
+					}, -- [3]
+					{
+						["ts"] = 1547631580.638,
+						["amount"] = -782,
+						["srcname"] = "Uul'gyneth",
+						["spellid"] = 260546,
+						["hp"] = 43809,
+					}, -- [4]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631441.067,
+						["srcname"] = "Necrodark Defiler",
+						["hp"] = 29410,
+					}, -- [5]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631442.136,
+						["srcname"] = "Shadow Lurker",
+						["hp"] = 29410,
+					}, -- [6]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631443.115,
+						["srcname"] = "Necrodark Defiler",
+						["hp"] = 29410,
+					}, -- [7]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631446.19,
+						["srcname"] = "Shadow Lurker",
+						["hp"] = 29410,
+					}, -- [8]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631464.328,
+						["srcname"] = "Necrodark Greysworn",
+						["hp"] = 38101,
+					}, -- [9]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631474.278,
+						["srcname"] = "Necrodark Greysworn",
+						["hp"] = 38101,
+					}, -- [10]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631505.207,
+						["srcname"] = "Necrodark Defiler",
+						["hp"] = 43351,
+					}, -- [11]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631509.66,
+						["srcname"] = "Shadow Lurker",
+						["hp"] = 43351,
+					}, -- [12]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631511.619,
+						["srcname"] = "Necrodark Defiler",
+						["hp"] = 43351,
+					}, -- [13]
+					{
+						["spellid"] = 88163,
+						["ts"] = 1547631513.705,
+						["srcname"] = "Shadow Lurker",
+						["hp"] = 43351,
+					}, -- [14]
+					{
+						["absorb"] = -447,
+						["amount"] = -335,
+						["ts"] = 1547631568.691,
+						["hp"] = 49445,
+						["spellid"] = 260546,
+						["srcname"] = "Uul'gyneth",
+					}, -- [15]
+					["pos"] = 5,
 				},
 				["healingspells"] = {
 					["Shield of Vengeance"] = {
@@ -4115,114 +4115,7 @@ SkadaPerCharDB = {
 				["role"] = "DAMAGER",
 				["healed"] = {
 				},
-				["deathlog"] = {
-					{
-						["ts"] = 1545449704.333,
-						["amount"] = -1562,
-						["srcname"] = "Blackfang Prowler",
-						["hp"] = 13428,
-						["spellid"] = 88163,
-					}, -- [1]
-					{
-						["ts"] = 1545449878.227,
-						["amount"] = -1655,
-						["srcname"] = "Keravnos",
-						["hp"] = 13085,
-						["spellid"] = 161970,
-					}, -- [2]
-					{
-						["ts"] = 1545448625.725,
-						["amount"] = -597,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 12952,
-						["spellid"] = 171852,
-					}, -- [3]
-					{
-						["ts"] = 1545448627.778,
-						["amount"] = -1263,
-						["srcname"] = "Eredar Chaosborn",
-						["hp"] = 12952,
-						["spellid"] = 88163,
-					}, -- [4]
-					{
-						["ts"] = 1545448628.09,
-						["amount"] = -579,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 11110,
-						["spellid"] = 171852,
-					}, -- [5]
-					{
-						["ts"] = 1545448630.566,
-						["amount"] = -615,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 10495,
-						["spellid"] = 171852,
-					}, -- [6]
-					{
-						["ts"] = 1545448633.031,
-						["amount"] = -615,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 9880,
-						["spellid"] = 171852,
-					}, -- [7]
-					{
-						["ts"] = 1545448635.463,
-						["amount"] = -570,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 9310,
-						["spellid"] = 171852,
-					}, -- [8]
-					{
-						["ts"] = 1545448637.84,
-						["amount"] = -590,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 8720,
-						["spellid"] = 171852,
-					}, -- [9]
-					{
-						["ts"] = 1545448640.255,
-						["amount"] = -605,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 8115,
-						["spellid"] = 171852,
-					}, -- [10]
-					{
-						["ts"] = 1545448646.393,
-						["amount"] = -572,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 7543,
-						["spellid"] = 171852,
-					}, -- [11]
-					{
-						["ts"] = 1545448648.812,
-						["amount"] = -611,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 6932,
-						["spellid"] = 171852,
-					}, -- [12]
-					{
-						["ts"] = 1545448659.735,
-						["amount"] = -562,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 6370,
-						["spellid"] = 171852,
-					}, -- [13]
-					{
-						["ts"] = 1545448662.068,
-						["amount"] = -611,
-						["srcname"] = "Sargerei Summoner",
-						["hp"] = 5759,
-						["spellid"] = 171852,
-					}, -- [14]
-					{
-						["ts"] = 1545449473.644,
-						["amount"] = -3119,
-						["srcname"] = "Gloomtalon",
-						["hp"] = 14740,
-						["spellid"] = 88163,
-					}, -- [15]
-					["pos"] = 3,
-				},
+				["shielding"] = 0,
 				["id"] = "Player-11-09AD31BC",
 				["healing"] = 0,
 				["time"] = 109,
@@ -4339,7 +4232,6 @@ SkadaPerCharDB = {
 				["name"] = "Tygrlilly",
 				["maxhp"] = 14660,
 				["damagetaken"] = 27388,
-				["shielding"] = 0,
 				["power"] = {
 					[9] = {
 						["spells"] = {
@@ -4350,6 +4242,114 @@ SkadaPerCharDB = {
 						},
 						["amount"] = 92,
 					},
+				},
+				["deathlog"] = {
+					{
+						["ts"] = 1545449704.333,
+						["amount"] = -1562,
+						["spellid"] = 88163,
+						["srcname"] = "Blackfang Prowler",
+						["hp"] = 13428,
+					}, -- [1]
+					{
+						["ts"] = 1545449878.227,
+						["amount"] = -1655,
+						["spellid"] = 161970,
+						["srcname"] = "Keravnos",
+						["hp"] = 13085,
+					}, -- [2]
+					{
+						["ts"] = 1545448625.725,
+						["amount"] = -597,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 12952,
+					}, -- [3]
+					{
+						["ts"] = 1545448627.778,
+						["amount"] = -1263,
+						["spellid"] = 88163,
+						["srcname"] = "Eredar Chaosborn",
+						["hp"] = 12952,
+					}, -- [4]
+					{
+						["ts"] = 1545448628.09,
+						["amount"] = -579,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 11110,
+					}, -- [5]
+					{
+						["ts"] = 1545448630.566,
+						["amount"] = -615,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 10495,
+					}, -- [6]
+					{
+						["ts"] = 1545448633.031,
+						["amount"] = -615,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 9880,
+					}, -- [7]
+					{
+						["ts"] = 1545448635.463,
+						["amount"] = -570,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 9310,
+					}, -- [8]
+					{
+						["ts"] = 1545448637.84,
+						["amount"] = -590,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 8720,
+					}, -- [9]
+					{
+						["ts"] = 1545448640.255,
+						["amount"] = -605,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 8115,
+					}, -- [10]
+					{
+						["ts"] = 1545448646.393,
+						["amount"] = -572,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 7543,
+					}, -- [11]
+					{
+						["ts"] = 1545448648.812,
+						["amount"] = -611,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 6932,
+					}, -- [12]
+					{
+						["ts"] = 1545448659.735,
+						["amount"] = -562,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 6370,
+					}, -- [13]
+					{
+						["ts"] = 1545448662.068,
+						["amount"] = -611,
+						["spellid"] = 171852,
+						["srcname"] = "Sargerei Summoner",
+						["hp"] = 5759,
+					}, -- [14]
+					{
+						["ts"] = 1545449473.644,
+						["amount"] = -3119,
+						["spellid"] = 88163,
+						["srcname"] = "Gloomtalon",
+						["hp"] = 14740,
+					}, -- [15]
+					["pos"] = 3,
 				},
 				["healingspells"] = {
 				},

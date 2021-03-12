@@ -1,0 +1,88 @@
+
+DataStore_KeystonesDB = {
+	["profileKeys"] = {
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-12-08",
+			["NextResetTimestamp"] = 1615301999,
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Stronguard"] = {
+				["lastUpdate"] = 1608733915,
+			},
+			["Default.Emerald Dream.Samoanbatman"] = {
+				["lastUpdate"] = 1615043892,
+				["WeeklyActivities"] = {
+					[25] = {
+						["level"] = -1,
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[26] = {
+						["level"] = -1,
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[27] = {
+						["level"] = -1,
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[29] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[30] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[31] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[21] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[22] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[23] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+				},
+			},
+		},
+	},
+}

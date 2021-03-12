@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Wealthkk|Emerald Dream|Alliance|1|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["profiles"] = {
+		["Wealthkk - Emerald Dream"] = {
+		},
+	},
+}

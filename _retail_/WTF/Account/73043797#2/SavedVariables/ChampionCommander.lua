@@ -1,10 +1,13 @@
 
 dbBFA = {
 	["char"] = {
+		["Samoantank - Tichondrius"] = {
+			["firstun"] = false,
+		},
 		["Samoansavage - Stormrage"] = {
 			["firstun"] = false,
 		},
-		["Samoantank - Tichondrius"] = {
+		["Grapejellie - Emerald Dream"] = {
 			["firstun"] = false,
 		},
 		["Samoanrelic - Tichondrius"] = {
@@ -14,18 +17,19 @@ dbBFA = {
 			["firstun"] = false,
 		},
 	},
-	["profileKeys"] = {
-		["Samoansavage - Stormrage"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
-		["Samoantitan - Stormrage"] = "Default",
-	},
 	["global"] = {
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
+	},
+	["profileKeys"] = {
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -49,8 +53,8 @@ dbBFA = {
 				["PREFERHIGH"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITQUICK"] = true,
-				["TROOPALERT"] = true,
 				["MAXCHAMP"] = 3,
+				["TROOPALERT"] = true,
 				["IGNOREBUSY"] = true,
 				["BASECHANCE"] = 0,
 			},

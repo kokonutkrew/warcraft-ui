@@ -96,8 +96,8 @@ end)
 
 nameeditbox:SetLabel(L["New Sequence Name"])
 nameeditbox:SetWidth(250)
-nameeditbox:SetCallback("OnTextChanged", function()
-  compareframe.sequenceName = nameeditbox:GetText()
+nameeditbox:SetCallback("OnTextChanged", function(obj, event, key)
+  compareframe.sequenceName = key
 end)
 --nameeditbox:SetScript("OnEditFocusLost", function()
 --  editframe:SetText(string.upper(editframe:GetText()))
@@ -125,7 +125,7 @@ compareframe:AddChild (actionButtonGroup)
 
 function GSE.GUIShowCompareWindow(sequenceName, classid, newsequence)
   GSE.GUICompareFrame.NewSequence = newsequence
-  GSE.GUICompareFrame.OrigText:SetText(GSE.ExportSequence(GSELibrary[classid][sequenceName], sequenceName, true, "STRING", true))
+  GSE.GUICompareFrame.OrigText:SetText(GSE.ExportSequence(GSE.Library[classid][sequenceName], sequenceName, true, "STRING", true))
   GSE.GUICompareFrame.NewText:SetText(GSE.ExportSequence(newsequence, sequenceName, true, "STRING", true))
   GSE.GUICompareFrame:Show()
   GSE.GUICompareFrame.classid = classid

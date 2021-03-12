@@ -1,0 +1,10 @@
+
+sArena3DB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

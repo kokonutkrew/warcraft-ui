@@ -1,0 +1,25 @@
+
+SpyPerCharDB = {
+	["PlayerData"] = {
+		["Bombthreatx"] = {
+			["mapID"] = 1454,
+			["guild"] = "Nova",
+			["zone"] = "Orgrimmar",
+			["mapY"] = 0.35,
+			["class"] = "PALADIN",
+			["isEnemy"] = true,
+			["race"] = "Human",
+			["isGuess"] = true,
+			["subZone"] = "The Drag",
+			["mapX"] = 0.52,
+			["level"] = 24,
+			["time"] = 1604568519,
+			["name"] = "Bombthreatx",
+		},
+	},
+	["IgnoreData"] = {
+	},
+	["version"] = "1.1",
+	["KOSData"] = {
+	},
+}

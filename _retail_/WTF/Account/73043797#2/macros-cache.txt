@@ -94,7 +94,8 @@ VER 3 00000000000000AD "a-12 Mock" "132333"
 /violin
 END
 VER 3 00000000000000B1 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-/script print('no button yet')
+#showtooltip
+/use Re-Sizer v9.0.1
 END
 VER 3 000000000000004F "AOTC Legion HC" "INV_SCROLL_11"
 /run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:11195:"..string.gsub(UnitGUID("player"), '0x', '')..":1:3:17:17:4294967295:4294967295:4294967295:4294967295\124h[Ahead of the Curve: Gul'dan]\124h\124r")
@@ -114,6 +115,14 @@ END
 VER 3 0000000000000008 "ExtraAction 1" "136058"
 #showtooltip
 /click ExtraActionButton1
+END
+VER 3 00000000000000B5 "F2.Follow" "1378702"
+/follow party1
+/assist party1
+END
+VER 3 00000000000000B6 "F2.Follow" "INV_MISC_QUESTIONMARK"
+/follow party1
+/assist party1
 END
 VER 3 000000000000005F "Fish Bait" "1379246"
 /castsequence [nomod] Fishing
@@ -145,9 +154,14 @@ VER 3 0000000000000004 "Follow Party4" "135914"
 /assist party4
 /target party4
 END
-VER 3 00000000000000B3 "GRM_Roster" "Achievement_pvp_h_a"
+VER 3 00000000000000B7 "Follow S4" "INV_MISC_QUESTIONMARK"
+/follow Samoanbeast
+END
+VER 3 00000000000000B3 "GRM_Roster" "inv_bannerpvp_02"
 /run GuildFrame_Toggle()
 /run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 00000000000000B4 "GRM_Tool" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000000E "Invite" "135946"
 /run InviteUnit("Tigerlilly");

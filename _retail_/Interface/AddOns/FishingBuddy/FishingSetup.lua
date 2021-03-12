@@ -104,24 +104,24 @@ FBConstants.Keys[FBConstants.KEYS_SHIFT] = FBConstants.KEYS_SHIFT_TEXT;
 FBConstants.Keys[FBConstants.KEYS_CTRL] = FBConstants.KEYS_CTRL_TEXT;
 FBConstants.Keys[FBConstants.KEYS_ALT] = FBConstants.KEYS_ALT_TEXT;
 
-FBConstants.MOUSE1 = "RightButtonUp";
-FBConstants.MOUSE2 = "Button4Up";
-FBConstants.MOUSE3 = "Button5Up";
-FBConstants.CastClick = {};
-FBConstants.CastClick[FBConstants.MOUSE1] = KEY_BUTTON2;
-FBConstants.CastClick[FBConstants.MOUSE2] = KEY_BUTTON4;
-FBConstants.CastClick[FBConstants.MOUSE3] = KEY_BUTTON5;
+FBConstants.CastingKeyLabel = {};
+FBConstants.CastingKeyLabel[FL.MOUSE1] = KEY_BUTTON2;
+FBConstants.CastingKeyLabel[FL.MOUSE2] = KEY_BUTTON4;
+FBConstants.CastingKeyLabel[FL.MOUSE3] = KEY_BUTTON5;
+FBConstants.CastingKeyLabel[FL.MOUSE4] = KEY_BUTTON3;
 
 -- Continents
-FBConstants.KALIMDOR = 1
-FBConstants.EASTERN_KINDOMS = 2
-FBConstants.OUTLAND = 3
-FBConstants.NORTHREND = 4
-FBConstants.THE_MAELSTROM = 5
-FBConstants.PANDARIA = 6
-FBConstants.DRAENOR = 7
-FBConstants.BROKEN_ISLES = 8
-FBConstants.KUL_TIRAS = 9
+FBConstants.KALIMDOR = FL.KALIMDOR
+FBConstants.EASTERN_KINDOMS = FL.EASTERN_KINDOMS
+FBConstants.OUTLAND = FL.OUTLAND
+FBConstants.NORTHREND = FL.NORTHREND
+FBConstants.THE_MAELSTROM = FL.THE_MAELSTROM
+FBConstants.PANDARIA = FL.PANDARIA
+FBConstants.DRAENOR = FL.DRAENOR
+FBConstants.BROKEN_ISLES = FL.BROKEN_ISLES
+FBConstants.KUL_TIRAS = FL.KUL_TIRAS
+FBConstants.ZANDALAR = FL.ZANDALAR
+FBConstants.SHADOWLANDS = FL.SHADOWLANDS
 
 local CustomEvents = {
 	["WILDCARD_EVT"] = "*",

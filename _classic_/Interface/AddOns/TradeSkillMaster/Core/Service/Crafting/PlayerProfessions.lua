@@ -1,9 +1,7 @@
 -- ------------------------------------------------------------------------------ --
 --                                TradeSkillMaster                                --
---                http://www.curse.com/addons/wow/tradeskill-master               --
---                                                                                --
---             A TradeSkillMaster Addon (http://tradeskillmaster.com)             --
---    All Rights Reserved* - Detailed license information included with addon.    --
+--                          https://tradeskillmaster.com                          --
+--    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
 local _, TSM = ...
@@ -15,7 +13,12 @@ local Delay = TSM.Include("Util.Delay")
 local TempTable = TSM.Include("Util.TempTable")
 local Vararg = TSM.Include("Util.Vararg")
 local Threading = TSM.Include("Service.Threading")
-local private = { playerProfessionsThread = nil, db = nil, query = nil }
+local private = {
+	playerProfessionsThread = nil,
+	playerProfessionsThreadRunning = false,
+	db = nil,
+	query = nil,
+}
 local TAILORING_ES = "Sastrería"
 local TAILORING_SKILL_ES = "Costura"
 local LEATHERWORKING_ES = "Peletería"
@@ -140,12 +143,13 @@ function private.PlayerProfessionsSkillUpdate()
 		end
 	else
 		local professionIds = TempTable.Acquire(GetProfessions())
+		-- ignore archaeology and fishing which are in the 3rd and 4th slots respectively
+		professionIds[3] = nil
+		professionIds[4] = nil
 		for i, id in pairs(professionIds) do -- needs to be pairs since there might be holes
-			if id ~= 8 and id ~= 9 then -- ignore fishing and arheology
-				local name, _, level, maxLevel, _, _, skillId = GetProfessionInfo(id)
-				if not TSM.UI.CraftingUI.IsProfessionIgnored(name) then -- exclude ignored professions
-					private.UpdatePlayerProfessionInfo(name, skillId, level, maxLevel, i > 2)
-				end
+			local name, _, level, maxLevel, _, _, skillId = GetProfessionInfo(id)
+			if not TSM.UI.CraftingUI.IsProfessionIgnored(name) then -- exclude ignored professions
+				private.UpdatePlayerProfessionInfo(name, skillId, level, maxLevel, i > 2)
 			end
 		end
 		TempTable.Release(professionIds)
@@ -223,7 +227,7 @@ function private.PlayerProfessionsThread()
 	else
 		Threading.WaitForFunction(GetProfessions)
 		local professionIds = Threading.AcquireSafeTempTable(GetProfessions())
-		-- ignore archeology and fishing which are in the 3rd and 4th slots respectively
+		-- ignore archaeology and fishing which are in the 3rd and 4th slots respectively
 		professionIds[3] = nil
 		professionIds[4] = nil
 		for i, id in pairs(professionIds) do -- needs to be pairs since there might be holes

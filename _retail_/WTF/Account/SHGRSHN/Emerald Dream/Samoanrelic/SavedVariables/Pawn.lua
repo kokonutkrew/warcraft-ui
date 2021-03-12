@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0246,
-	["LastPlayerFullName"] = "Samoanrelic-Emerald Dream",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0311,
 	["ItemLevels"] = {
 		{
 			["ID"] = 133320,
@@ -93,9 +90,12 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:112458::::::::98:577::::::|h[Illidari Warglaive]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Samoanrelic-Emerald Dream",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
-	["LastClass"] = "DEMONHUNTER",
+	["LastClass"] = "PRIEST",
 	["LastAdded"] = 1,
 }

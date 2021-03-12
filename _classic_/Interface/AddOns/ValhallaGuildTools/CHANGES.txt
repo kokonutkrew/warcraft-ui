@@ -1,34 +1,10 @@
-lightweight tag d3355db5fa3ccf21f814daa744dcb8c2961c63b3 11305.70
+lightweight tag f4c8a26b364fe1ef39c16ddaab93cc06319da9ff 11305.74
 Author:	Patrick Schmidt <prs100791@gmail.com>
-Date:	Sun Aug 23 19:29:25 2020 -0500
+Date:	Tue Dec 1 19:23:29 2020 -0600
 
-commit d3355db5fa3ccf21f814daa744dcb8c2961c63b3
+commit f4c8a26b364fe1ef39c16ddaab93cc06319da9ff
 Author: Patrick Schmidt <prs100791@gmail.com>
-Date:   Sun Aug 23 19:29:25 2020 -0500
+Date:   Tue Dec 1 19:23:29 2020 -0600
 
-    Remove global position channel for now
-
-commit 32c983b54a80677348b176f64958fad055cc84c4
-Author: Donovan Sullivan <Elite747@live.com>
-Date:   Fri Aug 21 20:52:39 2020 -0700
-
-    Fixed formatting.
-
-commit 88cc919c418f050c48a7c62676a97f2820cd07dd
-Author: Donovan Sullivan <Elite747@live.com>
-Date:   Fri Aug 21 20:48:46 2020 -0700
-
-    Changed unintentional global to local.
-
-commit d0d6563a56fd14b21603eb69cb62562a3262a522
-Author: Donovan Sullivan <Elite747@live.com>
-Date:   Fri Aug 21 20:36:45 2020 -0700
-
-    Moved version & user checking into separate files.
-
-commit de9cc574cdc566c3e6e7b1e8d2a6e9f7110b376b
-Author: Donovan Sullivan <Elite747@live.com>
-Date:   Fri Aug 21 19:44:16 2020 -0700
-
-    Added .vscode to gitignore
+    curse being dumb
 

@@ -44,61 +44,61 @@ local categories = {
 	{
 		name = AUCTION_CATEGORY_CONTAINERS,
 		class = LE_ITEM_CLASS_CONTAINER,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_CONTAINER) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_CONTAINER),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_GEMS,
 		class = LE_ITEM_CLASS_GEM,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_GEM) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_GEM),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_ITEM_ENHANCEMENT,
 		class = LE_ITEM_CLASS_ITEM_ENHANCEMENT,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_ITEM_ENHANCEMENT) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_ITEM_ENHANCEMENT),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_CONSUMABLES,
 		class = LE_ITEM_CLASS_CONSUMABLE,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_CONSUMABLE) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_CONSUMABLE),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_GLYPHS,
 		class = LE_ITEM_CLASS_GLYPH,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_GLYPH) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_GLYPH),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_TRADE_GOODS,
 		class = LE_ITEM_CLASS_TRADEGOODS,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_TRADEGOODS) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_TRADEGOODS),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_RECIPES,
 		class = LE_ITEM_CLASS_RECIPE,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_RECIPE) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_RECIPE),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_BATTLE_PETS,
 		class = LE_ITEM_CLASS_BATTLEPET,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_BATTLEPET) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_BATTLEPET),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_QUEST_ITEMS,
 		class = LE_ITEM_CLASS_QUESTITEM,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_QUESTITEM) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_QUESTITEM),
 		isCollapsed = true,
 	},
 	{
 		name = AUCTION_CATEGORY_MISCELLANEOUS,
 		class = LE_ITEM_CLASS_MISCELLANEOUS,
-		subClasses = { GetAuctionItemSubClasses(LE_ITEM_CLASS_MISCELLANEOUS) },
+		subClasses = C_AuctionHouse.GetAuctionItemSubClasses(LE_ITEM_CLASS_MISCELLANEOUS),
 		isCollapsed = true,
 	},
 }
@@ -129,6 +129,7 @@ function ns:OnLoad()
 	parent.SortButtons.Sort3:SetText(L["Realm"])
 	parent.Slot:SetText(L["Equipment Slot"])
 	parent.Location:SetText(L["Location"])
+    parent.IncludeDescription:SetText("Also Search Description")
 end
 
 function ns:Update()
@@ -188,7 +189,7 @@ function ns:Update()
 				local category = categories[p.parentIndex]
 				local class = category.class
 				local subClass = category.subClasses[p.dataIndex]
-			
+                
 				menuButton.Text:SetText("|cFFBBFFBB   " .. GetItemSubClassInfo(class, subClass))
 				menuButton:SetScript("OnClick", Item_OnClick)
 				menuButton.itemTypeIndex = p.parentIndex
@@ -226,7 +227,7 @@ end
 function ns:DropDownRarity_Initialize()
 	local info = UIDropDownMenu_CreateInfo(); 
 
-	for i = 0, LE_ITEM_QUALITY_HEIRLOOM do		-- Quality: 0 = poor .. 5 = legendary ..
+	for i = 0, Enum.ItemQuality.Heirloom do		-- Quality: 0 = poor .. 5 = legendary ..
 		info.text = format("|c%s%s", select(4, GetItemQualityColor(i)), _G["ITEM_QUALITY"..i.."_DESC"])
 		info.value = i
 		info.func = function(self)	
@@ -299,6 +300,7 @@ function ns:DropDownLocation_Initialize()
 		info.value = i
 		info.func = function(self) 
 				UIDropDownMenu_SetSelectedValue(parent.SelectLocation, self.value)
+                addon:SetOption("UI.Tabs.Search.LocationRealm", UIDropDownMenu_GetSelectedValue(AltoholicTabSearch.SelectLocation))
 			end
 		info.checked = nil; 
 		info.icon = nil; 

@@ -32,6 +32,10 @@ function addon:MoveItem(...)
         end
     end
 
+    --[====[@retail@
+    isReagent = IsReagentBankUnlocked() and isReagent or false
+    --@end-retail@]====]
+
     local stackSize = tonumber((select(8, GetItemInfo(buttonItemID))))
     -- Number of full stacks there should be in the bank if clean
     local numFullStacksInBank = math.floor(countInBank / stackSize)
@@ -46,11 +50,11 @@ function addon:MoveItem(...)
     local counter = 0 -- Using this to keep indexes in order when sorting bankSlots
 
     for _, containerID in pairs(containers) do
-        --[===[@retail@
+        --[====[@retail@
         -- I don't think there's actually an ignore bags feature in Classic, yet a bag seems to be flagged
         -- So I'm just gonna strip this from Classic
         if not GetBagSlotFlag(containerID, LE_BAG_FILTER_FLAG_IGNORE_CLEANUP) then -- Ignoring bags flagged to ignore clenaups
-        --@end-retail@]===]
+        --@end-retail@]====]
             for slotID = 1, GetContainerNumSlots(containerID) do
                 local _, itemCount, locked, _, _, _, _, _, _, itemID = GetContainerItemInfo(containerID, slotID)
 
@@ -68,9 +72,9 @@ function addon:MoveItem(...)
                     end
                 end
             end
-        --[===[@retail@
+        --[====[@retail@
         end
-        --@end-retail@]===]
+        --@end-retail@]====]
     end
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -335,7 +339,7 @@ end
 
 
 function addon:CreateCoFrame()
-    local coFrame = CreateFrame("Frame", string.format("%sCoroutineUpdater", addonName), UIParent)
+    local coFrame = CreateFrame("Frame", string.format("%sCoroutineUpdater", addonName), UIParent, BackdropTemplateMixin and "BackdropTemplate")
     coFrame:SetSize(350, 100)
     coFrame:SetPoint("CENTER", 0, 350)
     coFrame:Hide()

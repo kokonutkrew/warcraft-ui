@@ -172,13 +172,16 @@ local function ScanMailbox()
 	wipe(character.Mails)
 	wipe(character.MailCache)	-- fully clear the mail cache, since the mailbox will now be properly scanned
 	
-	local numItems = GetInboxNumItems();
+	local numItems, totalItems = GetInboxNumItems();
 	if numItems == 0 then
 		return
 	end
 	
+    local _, stationaryIcon, mailSender, mailSubject, mailMoney, _, days, numAttachments, _, wasReturned
+    days = 30
+    
 	for i = 1, numItems do
-		local _, stationaryIcon, mailSender, mailSubject, mailMoney, _, days, numAttachments, _, wasReturned = GetInboxHeaderInfo(i);
+		_, stationaryIcon, mailSender, mailSubject, mailMoney, _, days, numAttachments, _, wasReturned = GetInboxHeaderInfo(i);
 		if numAttachments then	-- treat attachments as separate entries
 			SaveAttachments(character, i, mailSender, days, wasReturned)
 		end
@@ -210,6 +213,23 @@ local function ScanMailbox()
 	
 	-- show mails with the lowest expiry first
 	table.sort(character.Mails, function(a, b) return a.daysLeft < b.daysLeft end)
+    
+    -- Code added 2020/03/23: also include mail that can't be seen beyond the first 50
+    -- Since we can't see the headers or contents of this mail, just making up generic data for the mail
+    if totalItems > numItems then
+        for i = numItems, totalItems do
+            table.insert(character.Mails, {
+                icon = ICON_NOTE,
+                money = 0,
+                text = "UNKNOWN",
+                subject = "UNKNOWN",
+                sender = "UNKNOWN",
+                lastCheck = time(),
+                daysLeft = days,
+                returned = false,
+            } )
+        end
+    end
 	
 	addon:SendMessage("DATASTORE_MAILBOX_UPDATED")
 end
@@ -421,35 +441,32 @@ local function CheckExpiries()
 	local reportToChat = GetOption("ReportExpiredMailsToChat")
 	local expiryFound
 	
-	local account, realm
-	for key, character in pairs(addon.db.global.Characters) do
-		account, realm, charName = strsplit(".", key)
+	for account in pairs(DataStore:GetAccounts()) do
+        for realm in pairs(DataStore:GetRealms(account)) do
+            for charName, key in pairs(DataStore:GetCharacters(realm, account)) do
+                local character = addon.db.global.Characters[key]
 		
-		-- 2015-02-07 : The problem of expired items is here
-		-- It appears that in older versions, the addon managed to create an invalid character key
-		-- ex: Default.Realm.Player-Realm
-		-- This was due to being able to guild character from merged realms, who would then send mail to an alt.
-		-- These invalid keys should be fully deleted.
-		
-		local pos = string.find(charName, "-")		-- is there a '-' in the character name ? if yes, invalid key ! delete it !
-		if pos then
-			addon.db.global.Characters[key] = nil
-		else
-			if allAccounts or ((allAccounts == false) and (account == THIS_ACCOUNT)) then		-- all accounts, or only current and current was found
-				if allRealms or ((allRealms == false) and (realm == GetRealmName())) then			-- all realms, or only current and current was found
-		
-				-- detect return vs delete
-					local numExpiredMails = _GetNumExpiredMails(character, threshold)
-					if numExpiredMails > 0 then
-						expiryFound = true
-						if reportToChat then		-- if the option is active, report the name of the character to chat, one line per alt.
-							addon:Print(format(L["EXPIRED_EMAILS_WARNING"], charName, realm))
-						end
-						addon:SendMessage("DATASTORE_MAIL_EXPIRY", character, key, threshold, numExpiredMails)
-					end
-				end
-			end
-		end
+        		-- 15/Dec/2020: changed this loop to use the global DataStore table instead of stuff stored locally, 
+                -- to filter out characters deleted while DataStore_Mails was disabled.
+                -- Ending those annoying support tickets once and for all.
+                -- ONCE AND FOR ALL.
+                
+      			if allAccounts or ((allAccounts == false) and (account == THIS_ACCOUNT)) then		-- all accounts, or only current and current was found
+      				if allRealms or ((allRealms == false) and (realm == GetRealmName())) then			-- all realms, or only current and current was found
+      		
+      				-- detect return vs delete
+      					local numExpiredMails = _GetNumExpiredMails(character, threshold)
+      					if numExpiredMails > 0 then
+      						expiryFound = true
+      						if reportToChat then		-- if the option is active, report the name of the character to chat, one line per alt.
+      							addon:Print(format(L["EXPIRED_EMAILS_WARNING"], charName, realm))
+      						end
+      						addon:SendMessage("DATASTORE_MAIL_EXPIRY", character, key, threshold, numExpiredMails)
+      					end
+      				end
+      			end
+            end
+        end
 	end
 	
 	if expiryFound then
@@ -480,13 +497,14 @@ function addon:OnInitialize()
 end
 
 function addon:OnEnable()
-	addon:RegisterEvent("MAIL_SHOW", OnMailShow)
-	addon:RegisterEvent("BAG_UPDATE", OnBagUpdate)
-	
 	addon:SetupOptions()
 	if GetOption("CheckMailExpiry") then
-		addon:ScheduleTimer(CheckExpiries, 5)	-- check mail expiries 5 seconds later, to decrease the load at startup
+		addon:ScheduleTimer(CheckExpiries, 3)	-- check mail expiries 5 seconds later, to decrease the load at startup
 	end
+    
+    if IsRestrictedAccount() then return end
+	addon:RegisterEvent("MAIL_SHOW", OnMailShow)
+	addon:RegisterEvent("BAG_UPDATE", OnBagUpdate)
 end
 
 function addon:OnDisable()

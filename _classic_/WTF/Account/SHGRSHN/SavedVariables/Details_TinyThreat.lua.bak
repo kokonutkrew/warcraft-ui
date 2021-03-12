@@ -1,7 +1,18 @@
 
 Details_TinyThreatDB = {
 	["characters"] = {
+		["Samoanraja - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanmystic - Grobbulus"] = "Samoanslayer - Grobbulus",
 		["Samoanslayer - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanlegend - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Kk - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanbeast - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Ss - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoansage - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanrelic - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoanranger - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Samoansavage - Grobbulus"] = "Samoanslayer - Grobbulus",
+		["Dd - Grobbulus"] = "Samoanslayer - Grobbulus",
 	},
 	["profiles"] = {
 		["Samoanslayer - Grobbulus"] = {
@@ -18,8 +29,8 @@ Details_TinyThreatDB = {
 			["dividebyhundred"] = true,
 			["showamount"] = true,
 			["useplayercolor"] = true,
-			["author"] = "Terciob",
 			["alwaysshowme"] = true,
+			["author"] = "Terciob",
 		},
 	},
 }

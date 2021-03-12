@@ -8,13 +8,13 @@ local VExRT = nil
 
 local GetSpellCharges, GetTime, floor = GetSpellCharges, GetTime, floor
 
-local module = ExRT.mod:New("BattleRes",ExRT.L.BattleRes,nil,true)
+local module = ExRT.mod:New("BattleRes",ExRT.L.BattleRes)
 local ELib,L = ExRT.lib,ExRT.L
 
 function module.options:Load()
 	self:CreateTilte()
 
-	self.enableChk = ELib:Check(self,L.senable,VExRT.BattleRes.enabled):Point(5,-30):OnClick(function(self) 
+	self.enableChk = ELib:Check(self,L.Enable,VExRT.BattleRes.enabled):Point(15,-30):AddColorState():OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.BattleRes.enabled = true
 			module:Enable()
@@ -24,7 +24,7 @@ function module.options:Load()
 		end
 	end)
 	
-	self.fixChk = ELib:Check(self,L.BattleResFix,VExRT.BattleRes.fix):Point(5,-55):OnClick(function(self) 
+	self.fixChk = ELib:Check(self,L.BattleResFix,VExRT.BattleRes.fix):Point(15,-55):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.BattleRes.fix = true
 			module.frame:Hide()
@@ -56,7 +56,7 @@ function module.options:Load()
 	
 	self.shtml1 = ELib:Text(self,L.BattleResHelp,12):Size(650,0):Point("TOP",0,-165):Top()
 	
-	self.hideTimerChk = ELib:Check(self,L.BattleResHideTime,VExRT.BattleRes.HideTimer):Point(5,-185):Tooltip(L.BattleResHideTimeTooltip):OnClick(function(self) 
+	self.hideTimerChk = ELib:Check(self,L.BattleResHideTime,VExRT.BattleRes.HideTimer):Point(15,-200):Tooltip(L.BattleResHideTimeTooltip):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.BattleRes.HideTimer = true
 			module.frame.time:Hide()
@@ -65,6 +65,25 @@ function module.options:Load()
 			module.frame.time:Show()
 		end
 	end)
+
+	self.frameStrataDropDown = ELib:DropDown(self,275,8):Point(15,-225):Size(260):SetText(L.S_Strata)
+	local function FrameStrataDropDown_SetVaule(_,arg)
+		VExRT.BattleRes.Strata = arg
+		ELib:DropDownClose()
+		for i=1,#self.frameStrataDropDown.List do
+			self.frameStrataDropDown.List[i].checkState = arg == self.frameStrataDropDown.List[i].arg1
+		end
+		module.frame:SetFrameStrata(arg)
+	end
+	for i,strataString in ipairs({"BACKGROUND","LOW","MEDIUM","HIGH","DIALOG","FULLSCREEN","FULLSCREEN_DIALOG","TOOLTIP"}) do
+		self.frameStrataDropDown.List[i] = {
+			text = strataString,
+			checkState = VExRT.BattleRes.Strata == strataString,
+			radio = true,
+			arg1 = strataString,
+			func = FrameStrataDropDown_SetVaule,
+		}
+	end
 end
 
 function module:Enable()
@@ -97,36 +116,77 @@ function module.main:ADDON_LOADED()
 	if VExRT.BattleRes.enabled then
 		module:Enable()
 	end
+
+	VExRT.BattleRes.Strata = VExRT.BattleRes.Strata or "HIGH"
+	module.frame:SetFrameStrata(VExRT.BattleRes.Strata)
 end
 
-function module:timer(elapsed)
-	local charges, maxCharges, started, duration = GetSpellCharges(20484)
-	if not charges then
-		if VExRT.BattleRes.fix then
-			module.frame:Hide()
+do
+	local stateHidden
+	local is0Charges
+	local isCooldownHidden
+	local cooldownStarted, cooldownDur, chargesNow
+	function module:timer(elapsed)
+		local charges, maxCharges, started, duration = GetSpellCharges(20484)
+		if not charges then
+			if not stateHidden then
+				if VExRT.BattleRes.fix then
+					module.frame:Hide()
+				end
+				module.frame.time:SetText("")
+				module.frame.charge:SetText("")
+				module.frame.cooldown:Hide()
+				chargesNow = nil
+				isCooldownHidden = true
+				stateHidden = true
+			end
+			return
+		elseif stateHidden then
+			module.frame:Show()
+			module.frame.cooldown:Show()
+			stateHidden = false
 		end
-		module.frame.time:SetText("")
-		module.frame.charge:SetText("")
-		module.frame.cooldown:Hide()
-		return
-	else
-		module.frame:Show()
-		module.frame.cooldown:Show()
-	end
-	local time = duration - (GetTime() - started)
-
-	module.frame.time:SetFormattedText("%d:%02d", floor(time/60), time%60)
-	module.frame.charge:SetText(charges)
-	module.frame.cooldown:SetCooldown(started,duration)
-	if charges == 0 then
-		module.frame.charge:SetTextColor(1,0,0,1)
-	else
-		module.frame.charge:SetTextColor(1,1,1,1)
+	
+		if maxCharges == charges then
+			module.frame.time:SetFormattedText("")
+			if chargesNow ~= charges then
+				module.frame.charge:SetText(charges)
+				chargesNow = charges
+			end
+			if not isCooldownHidden then
+				module.frame.cooldown:Hide()
+				isCooldownHidden = true
+			end
+		else
+			local time = duration - (GetTime() - started)
+	
+			module.frame.time:SetFormattedText("%d:%02d", floor(time/60), time%60)
+			if chargesNow ~= charges then
+				module.frame.charge:SetText(charges)
+				chargesNow = charges
+			end
+			if isCooldownHidden then
+				module.frame.cooldown:Show()
+				isCooldownHidden = false
+			end
+			if cooldownStarted ~= started and cooldownDur ~= duration then
+				module.frame.cooldown:SetCooldown(started,duration)
+				cooldownStarted = cooldownStarted
+				cooldownDur = duration
+			end
+		end
+		if charges == 0 and not is0Charges then
+			module.frame.charge:SetTextColor(1,0,0,1)
+			is0Charges = true
+		elseif charges ~= 0 and is0Charges then
+			module.frame.charge:SetTextColor(1,1,1,1)
+			is0Charges = false
+		end
 	end
 end
 
 do
-	local frame = CreateFrame("Frame",nil,UIParent)
+	local frame = CreateFrame("Frame","ExRTBattleRes",UIParent)
 	module.frame = frame
 	frame:SetSize(64,64)
 	frame:SetPoint("TOP", 0,-200)
@@ -151,7 +211,7 @@ do
 	frame.texture:SetAllPoints()
 	frame.texture:SetTexCoord(.1,.9,.1,.9)
 	
-	frame.backdrop = CreateFrame("Frame",nil,frame)
+	frame.backdrop = CreateFrame("Frame",nil,frame, BackdropTemplateMixin and "BackdropTemplate")
 	frame.backdrop:SetPoint("TOPLEFT",-3,3)
 	frame.backdrop:SetPoint("BOTTOMRIGHT",3,-3)
 	frame.backdrop:SetBackdrop({bgFile = "",edgeFile = "Interface\\AddOns\\ExRT\\media\\UI-Tooltip-Border_grey",tile = true,tileSize = 16,edgeSize = 16,insets = {left = 3,right = 3,top = 3,bottom = 3}})

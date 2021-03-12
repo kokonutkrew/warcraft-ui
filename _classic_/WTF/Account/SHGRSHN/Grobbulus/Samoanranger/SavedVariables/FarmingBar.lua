@@ -1,0 +1,2 @@
+
+FarmingBarCharacterDB = nil

@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
@@ -29,506 +29,433 @@ Prat3HighCPUPerCharDB = {
 	["time"] = 1566783236,
 	["scrollback"] = {
 		["ChatFrame1"] = {
-			{
-				"|cff979797[19:29:29]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bhayle-EmeraldDream:653:CHANNEL:2|h|cffc59a6cBhayle|r|h|cffd8d8d8]|r: I suck too.  For oreos.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				72, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[19:29:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mcgeexd-EmeraldDream:654:CHANNEL:2|h|cfffefefeMcgeexd|r|h|cffd8d8d8]|r: luhmao who wants to talk about climate change", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				93, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[19:29:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nightaim-EmeraldDream:655:CHANNEL:2|h|cffa9d271Nightaim|r|h|cffd8d8d8]|r: Classic releases tomorrow Mac", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				117, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[19:29:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oeses-EmeraldDream:656:CHANNEL:2|h|cfffefefeOeses|r|h|cffd8d8d8]|r: I'll suck your oreos", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				107, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[19:29:43]|r|c00000000|r |CFFFFF569|cfffef367Samoanrouge|r|r has gone offline.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[19:29:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nightaim-EmeraldDream:659:CHANNEL:2|h|cffa9d271Nightaim|r|h|cffd8d8d8]|r: Climate change is a hoax", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				117, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[19:29:56]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Owltrainer-EmeraldDream:660:CHANNEL:2|h|cff00fe95Owltrainer|r|h|cffd8d8d8]|r: #facts", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				141, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[19:30:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trangoull-EmeraldDream:661:CHANNEL:2|h|cff8686ecTrangoull|r|h|cffd8d8d8]|r: whats classic?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				143, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[19:30:02]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ingoldd-EmeraldDream:662:CHANNEL:2|h|cff3ec5e9Ingoldd|r|h|cffd8d8d8]|r: Classic will be awesome with 400 people wanting to kill the 4 mobs that drop the quest items at a 2% rate and spawn every 15 minutes", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				133, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[19:30:12]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nightaim-EmeraldDream:663:CHANNEL:2|h|cffa9d271Nightaim|r|h|cffd8d8d8]|r: Layering Ing", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				117, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[19:30:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gioden-EmeraldDream:664:CHANNEL:2|h|cffc59a6cGioden|r|h|cffd8d8d8]|r: It's almost why you have to group or sometihng.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				145, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[19:30:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hipler-EmeraldDream:665:CHANNEL:2|h|cfffe7b09Hipler|r|h|cffd8d8d8]|r: climate change is happening but the only current solution is nuclear power, which global warming alarmists hate....  so its pointless to talk about it", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				62, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[19:30:26]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sophîa-EmeraldDream:666:CHANNEL:2|h|cfffefefeSophîa|r|h|cffd8d8d8]|r: can't wait for classic to release so people will stop talking about classic", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				101, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[19:30:27]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mägñar-EmeraldDream:667:CHANNEL:2|h|cffc59a6cMägñar|r|h|cffd8d8d8]|r: i played classic and ..i am a fan of what they have done now", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				147, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[19:30:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slip-EmeraldDream:668:CHANNEL:2|h|cfffef367Slip|r|h|cffd8d8d8]|r: questing will not be the way to level, obviousyl.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				149, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[19:30:34]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mägñar-EmeraldDream:669:CHANNEL:2|h|cffc59a6cMägñar|r|h|cffd8d8d8]|r: those graphics are ass....", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				147, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[19:30:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trangoull-EmeraldDream:670:CHANNEL:2|h|cff8686ecTrangoull|r|h|cffd8d8d8]|r: cody.. ^&*!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				143, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[19:30:42]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hipler-EmeraldDream:671:CHANNEL:2|h|cfffe7b09Hipler|r|h|cffd8d8d8]|r: dont dox me bro", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				62, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[19:30:49]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Actioncat-EmeraldDream:675:CHANNEL:2|h|cfffe7b09Actioncat|r|h|cffd8d8d8]|r: i do like retail now, like the new portals in the mage tower.. @#$%ing gorgeous", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				105, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[19:31:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mägñar-EmeraldDream:679:CHANNEL:2|h|cffc59a6cMägñar|r|h|cffd8d8d8]|r: they only upgraded the game they just changed the talent tree is rly what ppl hate", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				147, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[19:31:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deathmantica-EmeraldDream:680:CHANNEL:2|h|cfffe7b09Deathmantica|r|h|cffd8d8d8]|r: HOW MANY OF YOU WILL I SEE TOMORROW MORNING ON THE BATTLEFIELD", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				151, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[19:31:10]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sanntor-EmeraldDream:681:CHANNEL:2|h|cff8686ecSanntor|r|h|cffd8d8d8]|r: adios blizzard and your rigged game and bgs!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				153, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[19:31:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oeses-EmeraldDream:682:CHANNEL:2|h|cfffefefeOeses|r|h|cffd8d8d8]|r: Less noobs on retail", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				107, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[19:31:20]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Leonide-EmeraldDream:683:CHANNEL:2|h|cfff38bb9Leonide|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Snakes and Sparklers|r|cffffffff>|r, a PvE guild looking to bolster our ranks going into our Mythic progression raids. Currently 7/8H, we raid Tues/Thurs at 8:30-11PM and do M+, PvP and other events throughout the week. PST for more information!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				155, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[19:31:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Denazel-EmeraldDream:684:CHANNEL:2|h|cff3ec5e9Denazel|r|h|cffd8d8d8]|r: questing vs dungeon levelling,  I think it's still up for debate if dungeon grinding will be better without the lvl 30 twink meta of beta", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				20, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[19:31:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Actioncat-EmeraldDream:685:CHANNEL:2|h|cfffe7b09Actioncat|r|h|cffd8d8d8]|r: Death you wont see ^&*!.. because it will be an enormous lag fest.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				105, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[19:31:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mägñar-EmeraldDream:686:CHANNEL:2|h|cffc59a6cMägñar|r|h|cffd8d8d8]|r: youll be llv 25 for days ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				147, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[19:31:47]|r|c00000000|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Samadyn-EmeraldDream:687:CHANNEL:1|h|cfffefefeSamadyn|r|h|cffd8d8d8]|r: WTS  mythic Operation Mechagon8/8+Mythic+(6-13)Get all 415-455+ilvl tradable loots yours,get17000+Titan Residuum get 440-455 weekly chest+heroic Eternal Palace8/8 PL+Full 430gear +unlock |cffffff00|Hachievement:13687:Player-162-0A2FE713:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|r self playing carry now PST", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				67, -- [5]
-				false, -- [6]
-				3, -- [7]
-				16, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[19:31:52]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deathmantica-EmeraldDream:688:CHANNEL:2|h|cfffe7b09Deathmantica|r|h|cffd8d8d8]|r: I RESENT THAT DENZEL BUT I WILL STILL LOOK FOR YOU SISTER", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				151, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[19:32:01]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mcgeexd-EmeraldDream:689:CHANNEL:2|h|cfffefefeMcgeexd|r|h|cffd8d8d8]|r: they should sell lvl 60 boosts in classic for $200 and see how many people actually use it", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				93, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[19:32:02]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bhayle-EmeraldDream:690:CHANNEL:2|h|cffc59a6cBhayle|r|h|cffd8d8d8]|r: There are gonna be so many abandoned level 41 toons.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				72, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[19:32:18]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cryptícx-EmeraldDream:691:CHANNEL:2|h|cfff38bb9Cryptícx|r|h|cffd8d8d8]|r: girls dont play wow", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				157, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[19:32:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lesaire-EmeraldDream:692:CHANNEL:2|h|cff00fe95Lesaire|r|h|cffd8d8d8]|r: why 41?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				159, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[19:32:25]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deathmantica-EmeraldDream:693:CHANNEL:2|h|cfffe7b09Deathmantica|r|h|cffd8d8d8]|r: THIS GIRL DOES", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				151, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[19:32:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sophîa-EmeraldDream:694:CHANNEL:2|h|cfffefefeSophîa|r|h|cffd8d8d8]|r: @#$%^&S ARE A MYTH", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				101, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[19:32:45]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oeses-EmeraldDream:695:CHANNEL:2|h|cfffefefeOeses|r|h|cffd8d8d8]|r: They obviously don't fart either", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				107, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[19:32:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Owltrainer-EmeraldDream:696:CHANNEL:2|h|cff00fe95Owltrainer|r|h|cffd8d8d8]|r: yes they do", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				141, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[19:32:52]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Owltrainer-EmeraldDream:697:CHANNEL:2|h|cff00fe95Owltrainer|r|h|cffd8d8d8]|r: what?!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				141, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[19:32:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mcgeexd-EmeraldDream:698:CHANNEL:2|h|cfffefefeMcgeexd|r|h|cffd8d8d8]|r: you saw a *!@#$%?!?!?!?!?!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				93, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[19:32:55]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Denazel-EmeraldDream:699:CHANNEL:2|h|cff3ec5e9Denazel|r|h|cffd8d8d8]|r: it's like a lone bread in a sausage party", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				20, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[19:32:55]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bhayle-EmeraldDream:700:CHANNEL:2|h|cffc59a6cBhayle|r|h|cffd8d8d8]|r: Just seems the low 40's was always the biggest break point.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				72, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[19:33:12]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cryptícx-EmeraldDream:701:CHANNEL:2|h|cfff38bb9Cryptícx|r|h|cffd8d8d8]|r: girls dont play wow", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				157, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[19:33:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deathmantica-EmeraldDream:702:CHANNEL:2|h|cfffe7b09Deathmantica|r|h|cffd8d8d8]|r: I HAVE PLAYED THIS GAME FOR YEARS AND I WENT TO BLIZZCON AND SAW OTHER GIRLS TOO BUT NOT MANY", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				151, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[19:33:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Denazel-EmeraldDream:703:CHANNEL:2|h|cff3ec5e9Denazel|r|h|cffd8d8d8]|r: Bhayle yeah because midpoint of lvling is like lvl 44,  it slows down to a crawl post 40", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				20, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[19:33:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bhayle-EmeraldDream:704:CHANNEL:2|h|cffc59a6cBhayle|r|h|cffd8d8d8]|r: Probably, yes", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				72, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[19:33:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Actioncat-EmeraldDream:705:CHANNEL:2|h|cfffe7b09Actioncat|r|h|cffd8d8d8]|r: Well if it is a girl, its a dude, or the FBI.... ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				105, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[19:33:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Adrenochrome-EmeraldDream:706:CHANNEL:2|h|cffc59a6cAdrenochrome|r|h|cffd8d8d8]|r: \"Tribal Order\" is recruiting all who are looking for a new mature and friendly social guild. Rated and WPvP are the goals, with Raids coming as we grow. Also have tab withdrawals and repairs for consistent members. Whisp for inv!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				161, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[19:33:37]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tobie-EmeraldDream:707:CHANNEL:2|h|cfffef367Tobie|r|h|cffd8d8d8]|r: is this classic?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				163, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[19:33:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sophîa-EmeraldDream:708:CHANNEL:2|h|cfffefefeSophîa|r|h|cffd8d8d8]|r: the girls work for the bourgeoisie", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				101, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[19:33:56]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hipler-EmeraldDream:709:CHANNEL:2|h|cfffe7b09Hipler|r|h|cffd8d8d8]|r: everyone in trade chat is bourgeious", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				11, -- [7]
-				62, -- [8]
-			}, -- [50]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 40,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cffffff 0[FF] |rFollow Felankor v2.5.5a [60000] Loaded",
+					["r"] = 0,
+					["timestamp"] = 171408.975,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Options to display the Follow Felankor options dialog",
+					["r"] = 0,
+					["timestamp"] = 171408.975,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Help for help with using Follow Felankor",
+					["r"] = 0,
+					["timestamp"] = 171408.975,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 171408.975,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:00]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 171454.684,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:00]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 171454.684,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:05]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 171454.84,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:05]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 171454.84,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:05]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 171454.84,
+					["serverTime"] = 1603381679,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:08]|h|r AutoFlood 1.2 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["serverTime"] = 1603381682,
+					["timestamp"] = 171463.339,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:10]|h|r Total time played: 1 |4day:days;, 14 |4hour:hours;, 7 |4minute:minutes;, 34 |4second:seconds;",
+					["serverTime"] = 1603381684,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171464.879,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:10]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 55 |4minute:minutes;, 47 |4second:seconds;",
+					["serverTime"] = 1603381684,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171464.879,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:10]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381684,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:11]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381685,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:11]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381685,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:11]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381685,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:11]|h|r |cff33ff99MaxDps|r: |cFF1394CCRogue Assassination",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381685,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:11]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 171464.879,
+					["serverTime"] = 1603381685,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:12]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Deadly Poison(2823)",
+					["timestamp"] = 171466.709,
+					["serverTime"] = 1603381686,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:12]|h|r AAP Loaded",
+					["timestamp"] = 171467.114,
+					["serverTime"] = 1603381686,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:13]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Deadly Poison(2823)",
+					["timestamp"] = 171467.925,
+					["serverTime"] = 1603381687,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kristianos-EmeraldDream:274:CHANNEL:2|h|cffc31d39Kristianos|r|h|cffd8d8d8]|r: i got HH mount during cata when it was 1 loot for the grp, and won it as a druid",
+					["serverTime"] = 1603381691,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171472.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:20]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 171474.702,
+					["serverTime"] = 1603381694,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ryuze-EmeraldDream:275:CHANNEL:2|h|cffc31d39Ryuze|r|h|cffd8d8d8]|r: lmao",
+					["serverTime"] = 1603381703,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171484.402,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:48:39]|h|r Thomas Miller says: Rolls, buns and bread. Baked fresh!",
+					["serverTime"] = 1603381713,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171493.802,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cilbuck-EmeraldDream:295:CHANNEL:2|h|cffc31d39Cilbuck|r|h|cffd8d8d8]|r: if wow were to shut down tomorrow, where would you character log out for the last time?",
+					["serverTime"] = 1603381748,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171529.569,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Valfaren-EmeraldDream:299:CHANNEL:2|h|cffa9d271Valfaren|r|h|cffd8d8d8]|r: oh boy",
+					["serverTime"] = 1603381754,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171535.469,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:28]|h|r Genevieve says: We're going to do little Andi's braids soon. Would you like yours done too, sweetie?",
+					["serverTime"] = 1603381762,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171542.769,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:30]|h|r Anastasia says: Cool.",
+					["serverTime"] = 1603381763,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171545.402,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Remyngton-EmeraldDream:309:CHANNEL:2|h|cff006fdcRemyngton|r|h|cffd8d8d8]|r: Naked in Org",
+					["serverTime"] = 1603381767,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171549.269,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Valfaren-EmeraldDream:310:CHANNEL:2|h|cffa9d271Valfaren|r|h|cffd8d8d8]|r: probably take my main back to varians tomb in stormwind",
+					["serverTime"] = 1603381768,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171550.669,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kristianos-EmeraldDream:317:CHANNEL:2|h|cffc31d39Kristianos|r|h|cffd8d8d8]|r: Timeless Isle, my fav",
+					["serverTime"] = 1603381780,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171561.969,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Alezando-EmeraldDream:319:CHANNEL:2|h|cff3ec6eaAlezando|r|h|cffd8d8d8]|r: grizzly hills",
+					["serverTime"] = 1603381783,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171565.102,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:49:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ilaella-EmeraldDream:322:CHANNEL:2|h|cfffefefeIlaella|r|h|cffd8d8d8]|r: Probably Duskwood",
+					["serverTime"] = 1603381787,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171568.869,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:50:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stephakanoni-EmeraldDream:328:CHANNEL:2|h|cffc59a6cStephakanoni|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-171148-162-50923325|h[Guild: Bring The Ruckus]|h|r is back and LFM for Shadowlands! Join one of the oldest and most experienced guilds on Emerald Dream for endgame content. Currently, LF DPS to push Keys!",
+					["serverTime"] = 1603381802,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171584.493,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:50:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Remyngton-EmeraldDream:329:CHANNEL:2|h|cff006fdcRemyngton|r|h|cffd8d8d8]|r: Frozen throne. Remy will go out giving Arthas a lap dance.",
+					["serverTime"] = 1603381825,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171606.701,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:50:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Honeydrips-EmeraldDream:330:CHANNEL:2|h|cfffefefeHoneydrips|r|h|cffd8d8d8]|r: so you have to be level 48 to get the heart of azeroth now???",
+					["serverTime"] = 1603381838,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171619.765,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:51:01]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1603381854,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171636.083,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:51:01]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1603381854,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171636.083,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:51:01]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1603381854,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171636.083,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 	},
 }

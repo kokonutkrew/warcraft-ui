@@ -1,0 +1,39 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Tigerlilly - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Jnx - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Marshmellow - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Abenia - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+		["Dd - Grobbulus"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Tigerlilly - Grobbulus",
+		["Jnx - Grobbulus"] = "Jnx - Grobbulus",
+		["Marshmellow - Grobbulus"] = "Marshmellow - Grobbulus",
+		["Abenia - Grobbulus"] = "Abenia - Grobbulus",
+		["Dd - Grobbulus"] = "Dd - Grobbulus",
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+}

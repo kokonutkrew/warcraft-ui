@@ -1,59 +1,22 @@
 
 GSEOptions = {
-	["HideLoginMessage"] = true,
-	["use1"] = true,
-	["STANDARDFUNCS"] = "|cff55ddcc",
 	["use2"] = true,
-	["DebugPrintModConditionsOnKeyPress"] = false,
 	["showGSEUsers"] = false,
 	["UnfoundSpellIDs"] = {
 	},
-	["autoCreateMacroStubsClass"] = false,
-	["COMMENT"] = "|cff55cc55",
-	["use14"] = true,
-	["saveAllMacrosLocal"] = true,
+	["Updated801"] = true,
+	["autoCreateMacroStubsGlobal"] = false,
 	["use11"] = true,
-	["EQUALS"] = "|cffccddee",
-	["CreateGlobalButtons"] = false,
-	["sendDebugOutputToChatWindow"] = false,
 	["debug"] = false,
 	["use6"] = true,
-	["Update2305"] = true,
-	["use12"] = true,
-	["CONCAT"] = "|cffcc7777",
 	["CommandColour"] = "|cFF00FF00",
-	["Updated801"] = true,
-	["UNKNOWN"] = "|cffff6666",
-	["NUMBER"] = "|cffffaa00",
-	["autoCreateMacroStubsGlobal"] = false,
-	["AuthorColour"] = "|cFF00D1FF",
-	["ActiveSequenceVersions"] = {
-	},
-	["requireTarget"] = false,
-	["sendDebugOutputToDebugOutput"] = false,
 	["hideSoundErrors"] = false,
-	["ErroneousSpellID"] = {
-	},
-	["useTranslator"] = false,
-	["STRING"] = "|cff888888",
-	["clearUIErrors"] = false,
-	["hideUIErrors"] = false,
+	["Update2410"] = true,
+	["requireTarget"] = false,
 	["Update2411"] = true,
-	["TitleColour"] = "|cFFFF0000",
-	["PromptSample"] = true,
+	["useTranslator"] = false,
 	["initialised"] = true,
 	["resetOOC"] = true,
-	["DebugModules"] = {
-		["Translator"] = false,
-		["GUI"] = false,
-		["Storage"] = false,
-		["Editor"] = false,
-		["API"] = false,
-		["Versions"] = false,
-		["Viewer"] = false,
-		["Transmission"] = false,
-	},
-	["INDENT"] = "|cffccaa88",
 	["MacroResetModifiers"] = {
 		["Alt"] = false,
 		["LeftControl"] = false,
@@ -61,57 +24,64 @@ GSEOptions = {
 		["LeftAlt"] = false,
 		["RighttButton"] = false,
 		["RightAlt"] = false,
-		["MiddleButton"] = false,
-		["Button5"] = false,
-		["Button4"] = false,
-		["LeftShift"] = false,
-		["Control"] = false,
-		["Shift"] = true,
-		["RightControl"] = false,
-		["AnyMod"] = false,
 		["RightShift"] = false,
-	},
-	["filterList"] = {
-		["Class"] = true,
-		["All"] = false,
-		["Global"] = true,
-		["Spec"] = true,
+		["Button5"] = false,
+		["AnyMod"] = false,
+		["Shift"] = true,
+		["Control"] = false,
+		["RightControl"] = false,
+		["LeftShift"] = false,
+		["Button4"] = false,
+		["MiddleButton"] = false,
 	},
 	["EmphasisColour"] = "|cFFFFFF00",
-	["UseVerboseExportFormat"] = false,
 	["WOWSHORTCUTS"] = "|cffddaaff",
-	["RealtimeParse"] = false,
 	["deleteOrphansOnLogout"] = true,
-	["Update2410"] = true,
-	["UnfoundSpells"] = {
-		["Ambush"] = true,
-		["Ghostly Strike"] = true,
-		["Kingsbane"] = true,
-		["Death from Above"] = true,
-		["Pistol Shot"] = true,
-		["Adrenaline Rush"] = true,
-		["Blood Fury"] = true,
-		["Blade Flurry"] = true,
-		["Berserking"] = true,
-		["Slice and Dice"] = true,
-		["Run Through"] = true,
-		["Saber Slash"] = true,
-		["Curse of the Dreadblades"] = true,
-	},
-	["overflowPersonalMacros"] = false,
-	["showGSEoocqueue"] = true,
 	["showMiniMap"] = {
 		["hide"] = true,
 	},
-	["DisabledSequences"] = {
-	},
 	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
 	["use13"] = true,
-	["NormalColour"] = "|cFFFFFFFF",
+	["UseWLMExportFormat"] = true,
+	["use1"] = true,
+	["HideLoginMessage"] = true,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["use14"] = true,
+	["EQUALS"] = "|cffccddee",
+	["NUMBER"] = "|cffffaa00",
+	["sendDebugOutputToChatWindow"] = false,
+	["DisabledSequences"] = {
+	},
+	["sendDebugOutputToDebugOutput"] = false,
+	["DefaultImportAction"] = "MERGE",
+	["ErroneousSpellID"] = {
+	},
+	["editorHeight"] = 700,
+	["STRING"] = "|cff888888",
+	["CreateGlobalButtons"] = false,
+	["showGSEoocqueue"] = true,
+	["PromptSample"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["hideUIErrors"] = false,
+	["clearUIErrors"] = false,
+	["DebugPrintModConditionsOnKeyPress"] = false,
+	["DebugModules"] = {
+		["Translator"] = false,
+		["GUI"] = false,
+		["Storage"] = false,
+		["Editor"] = false,
+		["Versions"] = false,
+		["API"] = false,
+		["Viewer"] = false,
+		["Transmission"] = false,
+	},
+	["Update2415"] = true,
+	["COMMENT"] = "|cff55cc55",
+	["autoCreateMacroStubsClass"] = false,
 	["AddInPacks"] = {
 		["GS-MultiboxMacros"] = {
-			["Name"] = "GS-MultiboxMacros",
 			["Version"] = "v2.1.0",
+			["Name"] = "GS-MultiboxMacros",
 			["SequenceNames"] = {
 				"JMM_DH_Vengeance_ST", -- [1]
 				"JMM_Sh_Ele_AoE", -- [2]
@@ -151,1678 +121,194 @@ GSEOptions = {
 			},
 		},
 		["Samples"] = {
-			["Version"] = "2414",
 			["Name"] = "Samples",
+			["Version"] = "2.6.31",
 			["SequenceNames"] = {
 				"Assorted Sample Macros", -- [1]
 			},
 		},
 	},
-	["UseWLMExportFormat"] = true,
+	["UseVerboseExportFormat"] = false,
+	["Update2305"] = true,
+	["RealtimeParse"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
+	["UNKNOWN"] = "|cffff6666",
+	["UnfoundSpells"] = {
+		[""] = true,
+		["Swiftmend"] = true,
+		["Solar Wrath"] = true,
+		["Call Pet 2"] = true,
+		["Plea"] = true,
+		["Mangle"] = true,
+		["Multi-Shot"] = true,
+		["Purge the Wicked"] = true,
+		["New Moon"] = true,
+		["Tiger's Fury"] = true,
+		["Feral Frenzy"] = true,
+		["Thrash"] = true,
+		["Curse of the Dreadblades"] = true,
+		["Rage of the Sleeper"] = true,
+		["Incarnation: King of the Jungle"] = true,
+		["Power Word: Radiance"] = true,
+		["Bestial Wrath"] = true,
+		["Regrowth"] = true,
+		["Kill Command"] = true,
+		["Misdirection"] = true,
+		["Death from Above"] = true,
+		["Wild Charge"] = true,
+		["Run Through"] = true,
+		["Saber Slash"] = true,
+		["Frenzied Regeneration"] = true,
+		["Rake"] = true,
+		["Rip"] = true,
+		["Starfall"] = true,
+		["Berserk"] = true,
+		["Starsurge"] = true,
+		["Adrenaline Rush"] = true,
+		["!Bear Form"] = true,
+		["Sunfire"] = true,
+		["Evangelism"] = true,
+		["Lunar Strike"] = true,
+		["A Murder of Crows"] = true,
+		["growl"] = true,
+		["Blood Fury"] = true,
+		["Efflorescence"] = true,
+		["Shred"] = true,
+		["Ghostly Strike"] = true,
+		["Shadow Mend"] = true,
+		["Rebirth"] = true,
+		["Mend Pet"] = true,
+		["Ironfur"] = true,
+		["Cenarion Ward"] = true,
+		["Smack"] = true,
+		["Ironbark"] = true,
+		["Barrage"] = true,
+		["Cobra Shot"] = true,
+		["Healing Touch"] = true,
+		["Prowl"] = true,
+		["!Treant Form"] = true,
+		["Pistol Shot"] = true,
+		["Ferocious Bite"] = true,
+		["Bite"] = true,
+		["Wild Growth"] = true,
+		["!Cat Form"] = true,
+		["Celestial Alignment"] = true,
+		["Dire Beast"] = true,
+		["Moonfire"] = true,
+		["Fetch"] = true,
+		["Maul"] = true,
+		["Ashamane's Frenzy"] = true,
+		["Aspect of the Wild"] = true,
+		["Swipe"] = true,
+		["Growl"] = true,
+		["Moonkin Form"] = true,
+		["Rejuvenation"] = true,
+		["Titan's Thunder"] = true,
+		["nulll"] = true,
+		["Lifebloom"] = true,
+		["Cat Form"] = true,
+		["Revive"] = true,
+		["Blade Flurry"] = true,
+		["Kingsbane"] = true,
+		["Penance"] = true,
+		["Berserking"] = true,
+		["Shadowfiend"] = true,
+		["Bear Form"] = true,
+		["null"] = true,
+		["Mindbender"] = true,
+	},
+	["overflowPersonalMacros"] = false,
+	["CONCAT"] = "|cffcc7777",
+	["filterList"] = {
+		["All"] = false,
+		["Spec"] = true,
+		["Global"] = true,
+		["Class"] = true,
+	},
+	["ActiveSequenceVersions"] = {
+	},
+	["use12"] = true,
+	["INDENT"] = "|cffccaa88",
+	["NormalColour"] = "|cFFFFFFFF",
+	["editorWidth"] = 500,
+	["saveAllMacrosLocal"] = true,
 	["setDefaultIconQuestionMark"] = true,
+	["Update2601"] = true,
 	["KEYWORD"] = "|cff88bbdd",
-	["DefaultImportAction"] = "MERGE",
 }
-GSELibrary = {
+GSELibrary = nil
+GSEStorage = {
 	{
-		["JMM_WR_PROT_ST"] = {
-			["Talents"] = "1,2,2,3,3,1,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 73,
-			["MacroVersions"] = {
-				{
-					"/cast Devastate", -- [1]
-					"/cast [combat] Shield Block", -- [2]
-					"/cast Shield Slam", -- [3]
-					"/castsequence [combat] reset=combat Revenge, Ignore Pain", -- [4]
-					"/cast Shield Slam", -- [5]
-					"/castsequence [combat] reset=combat Devastate, Shockwave", -- [6]
-					"/castsequence [combat] reset=combat Devastate, Thunder Clap", -- [7]
-					"/cast Shield Slam", -- [8]
-					"/castsequence [combat] reset=combat Revenge, Ignore Pain", -- [9]
-					"/cast Victory Rush", -- [10]
-					"/cast Shield Slam", -- [11]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/castsequence [combat] reset=combat Devastate, Demoralizing Shout", -- [1]
-						"/castsequence [combat] reset=combat Devastate, Battle Cry", -- [2]
-						"/cast [combat] Blood Fury", -- [3]
-						"/cast [combat] Berserking", -- [4]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/castsequence [combat] reset=combat Devastate, Thunder Clap, null", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_WR_PROT_ST"] = "d8d5daWyLwVuj9sPs9wqzBiv0LH(nf3tQy2aonv5Muv(fv6Buc9vKkzNQ0ErTBH2VOFIuvddPeJdPknqKk1qLQAWsgoLKdsjQJIufhtfoNkQSqkPwkvvlgrlxkpKsXtvSmvKNRQjcQMQatMkmDIlIuQUksj9mqQRJKnkvITQIYMvrvBhHMgLiZsqFwQY3rQWTb6Uiy0G4WKojLQxtP01qkLZdswjLGJtf9xKI5doGVh8ybF(OHU8ttF)0pGMjGVN4aEcuamkpphHNcpfcDi0HhHN4boEELcq47bpJv4AhoFTi084t3M5mS9EM4Zb89Gd47bpUR(swWrI6lQG89epUR(swWwdiPkeYAG4HaoYYAaZAlFHMh3vFjRbIhc4iRbqb5RL4XD1xE0jfgxmlyRbKufcz1WhLoRbKuLS8JeXypmml79IMgMvF1lYxAJh3vFjRbIhc4iRbqb5lDYJ7QV8OtkmUywWwdiPkeYQHpkDwdiPkzbhjQVOcgM1aXS2shkrKVwKh3vF5rNuyCXSGTgqsviKvdFu6SgqsvYcosuFrfmmRaiurhyllBauR4l9YJ7QVK1aXdbCK1aOG89C84U6lp6KcJlMfS1asQcHSA4JsN1asQsw(rIyShgML9ErtdZQV6f57bTWJ7QVK1zERyAqLLFQhcFpo4XD1xYAG4HaoYAauqE6BEXNUndhWcpJGw1fQ4kEMipd6KcJINcWt3iu9B4)CaFp4XD1xE0jfgxmlyRbKufcz1WhLoRbKuLSGJe1xubdZkacv0b2YYga1QWSIuaaSWt)g6t3MHdyHNUrO8JaO(ihW3dECx9LhDsHXfZc2AajvHqwn8rPZAajvjl4ir9fvWWSGJGMMc41vVyVSgigkHVN4XD1xE0jfgxmlyRbKufcz1WhLoRbKuLSGJe1xubdZYAveamlBAqXxO5XD1xYc2AajvHqwwdymoYQlunO4RL4XD1xYc2AajvHqwwJThB26f7XclSWJLPeiMgpwqjjXMhs3WBQTkp2xtKh73ZOXN9XgAOhAL2Na70)6ZY(7MhFAKsbShfSreJINjYKSWcZ",
 	}, -- [1]
 	{
-		["BFA_RET"] = {
-			["Helplink"] = "kokonutkrew.com/g",
-			["Talents"] = "2233211",
-			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
-			["Default"] = 1,
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
-			["MacroVersions"] = {
-				{
-					"/use Avenging Wrath", -- [1]
-					"/use Templar's Verdict", -- [2]
-					"/use Blade of Justice", -- [3]
-					"/use Templar's Verdict", -- [4]
-					"/use Judgement", -- [5]
-					"/use Templar's Verdict", -- [6]
-					"/use Crusader Strike", -- [7]
-					["PostMacro"] = {
-					},
-					["Head"] = true,
-					["Neck"] = true,
-					["Belt"] = true,
-					["Ring1"] = true,
-					["Trinket1"] = true,
-					["Trinket2"] = true,
-					["KeyRelease"] = {
-					},
-					["KeyPress"] = {
-					},
-					["Ring2"] = true,
-					["Combat"] = true,
-					["PreMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-				}, -- [1]
-			},
-			["ManualIntervention"] = true,
-		},
-		["HOLY_ST"] = {
-			["Talents"] = "1,2,2,1,2,3,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 65,
-			["MacroVersions"] = {
-				{
-					"/cast Judgment", -- [1]
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Holy Shock", -- [2]
-					"/cast Crusader Strike", -- [3]
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Bestow Faith", -- [4]
-					"/cast [combat, mod] Consecration", -- [5]
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Holy Shock, Holy Shock, Light of Dawn", -- [6]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Divine Protection", -- [1]
-						"/cast [combat] Avenging Wrath", -- [2]
-						"/cast [combat] Aura Mastery", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_PROT_ST"] = {
-			["Talents"] = "2,1,3,3,1,2,1",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 66,
-			["MacroVersions"] = {
-				{
-					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [1]
-					"/cast Avenger's Shield", -- [2]
-					"/cast Judgment", -- [3]
-					"/cast [combat] Hammer of the Righteous", -- [4]
-					"/cast Avenger's Shield", -- [5]
-					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [6]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast Shield of the Righteous", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_RET_AOE"] = {
-			["Talents"] = "3,1,3,3,2,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
-			["MacroVersions"] = {
-				{
-					"/cast Crusader Strike", -- [1]
-					"/cast [combat] Blade of Justice", -- [2]
-					"/cast [combat] Judgment", -- [3]
-					"/cast [combat] Divine Storm", -- [4]
-					"/cast [combat] Wake of Ashes", -- [5]
-					"/cast Crusader Strike", -- [6]
-					"/cast [combat] Divine Storm", -- [7]
-					"/cast [combat] Judgment", -- [8]
-					"/cast [combat] Wake of Ashes", -- [9]
-					"/cast [combat] Divine Hammer", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PA_RET_ST"] = {
-			["Talents"] = "3,1,3,3,2,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
-			["MacroVersions"] = {
-				{
-					"/cast Crusader Strike", -- [1]
-					"/cast [combat] Blade of Justice", -- [2]
-					"/cast [combat] Judgment", -- [3]
-					"/cast Templar's Verdict", -- [4]
-					"/cast [combat] Wake of Ashes", -- [5]
-					"/cast Crusader Strike", -- [6]
-					"/cast Templar's Verdict", -- [7]
-					"/cast [combat] Judgment", -- [8]
-					"/cast [combat] Wake of Ashes", -- [9]
-					"/cast [combat] Divine Hammer", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["BFA_RET_AOE"] = {
-			["Helplink"] = "kokonutkrew.com/g",
-			["Talents"] = "2233211",
-			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/use Avenging Wrath", -- [1]
-					"/use Divine Storm", -- [2]
-					"/use Wake of Ashes", -- [3]
-					"/use Divine Storm", -- [4]
-					"/use Blade of Justice", -- [5]
-					"/use Divine Storm", -- [6]
-					"/use Judgement", -- [7]
-					"/use Divine Storm", -- [8]
-					"/use Crusader Strike", -- [9]
-					["Trinket1"] = true,
-					["Head"] = true,
-					["Neck"] = true,
-					["Belt"] = true,
-					["Ring1"] = true,
-					["PostMacro"] = {
-					},
-					["Trinket2"] = true,
-					["KeyRelease"] = {
-					},
-					["KeyPress"] = {
-					},
-					["Ring2"] = true,
-					["Combat"] = true,
-					["PreMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-				}, -- [1]
-			},
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
-			["ManualIntervention"] = true,
-		},
+		["BFA_RET"] = "dKtzcaGEjr9sjj7IQIETIA2k5MQc)sHUTc2PQAVIDJy)O8yImmjb)MWaPQsdfu1GrA4kYbLkDyGJrvoUKqleKLkLSyPqlxLhkf1tPSmvPNtLjkfmvLAYsvtN0fPQKVjf5YqxxInkPYwLk2SuQTlPQptuFLQsnnQQQVtvfJeu50OA0QIEgO0jLuABuv4AsICEjfRusQpbk(lvv54LD(EXGQRR)A5RD(VzhdoCnT4K5yZIzbPOZh6hFkjggLJTblKOUyVVWc7RNxm4W1umJtKxiJQGtgvg9ekq5ccJ2wCm6H6XBSOCbHrNalqpN4yuoHrHaQUqgTT4y0UvgpH(mwdyBqzP57f7bq6eDWZXfex257LD(EXgloKr7wpsK5ezg13hqFM)BSXIdz0nomTahmogTdE9CjnFyJnwCiJcTa9iJkAZOvxCkxcZ3)XgloKr34W0cCW4y0o41ZL08RuSXIdz0Ql9Y4as089rSXIdz0nomTahmogTdE9Cjn)MInwCiJ28vCGE8yutp(mgdEHtFaKor2rJbhc6duSpknhOyq4sduSwCISxGIvfwd8h6CzhnMP4uDfIKYfKygwXcsuoyfRkSMw4cbom7OX2hNmJ6BGI1SyOrGgOyT4e53afd(dFaKor2rJTpozgvVafnAmBcLQTH8BQcX6w0NIlMbgeaIYvaXVMkUHdiJXEaifWQwIIx9ir5csGIgnb",
+		["HOLY_ST"] = "d0Z3caWsukVLGTbs8yuntqOtlvZguDzf3ef9lvYTjkZIQ2jc7fA3uSFHFcs6Vir)gyGOKHIKgSOHRsvheuCuvk1XOuhxfQwOkfwkiYIrHLlLhse9uLwgs1Zv1ePsMkLmzenDsxufsxvfkpdLQRtfBeKQTcIAZuP2or4ZGsFvLIMMkeFxLkJejCxcnAKY4jsNKO6SQuY1aPCEv0kbbhwYRvbJ2OfsyJlfqfI3IY1cjOJw4AvWhJ(4A7P7P7T909S7PJRRXD5axrcBC37hUCxibuGgUmlEda5P9DG5rlKWgTqcBCV41RrcbhsyLngfjOJ7fVEnsbwUbCN3h5iT)67J0aiNIuuGf1QPN2(ihP9xFFKga5uKIcIrsba(zKlna)asWoUx861iLS58f50IC1w)WGehb3lE9AKcSCd4oVpYrA)13hPbqofPOalQvtpT9ros7V((inaYPiffeJ8gZRG7Ie6vxPHeqd3lE9AKcCGmgL6JugGumsjbMF4Ts7adsafCV41RrkWYnG78(ihP9xFFKga5uKIcSOwn902h5iT)67J0aiNIuuqmskaWpJCPb4h8rsba(zKlna)Gpsi2HLMgjWDKUQ7m4sf8kZI3aOfQ4U6Cp0DmCTdm4UZXDgJ2l44Y2CcPb(u)GwiHnUx861if4azmkvmsxDj6MjsQnGoCTdmibDCV41RrkWbYyuQyKWiXyGTBGnYB2kLgsWoUx861if4azmkvmsyCAvKmRxN2jQ4sTnmlEdGwOIlBZj128pAHkQOIlmoknqdxiumymT(WYvRou4kNdm4kNaYuYu(kjL3(yhDTKdvcMWaj2WLzzCk4Yn60KymAhyqgOIkI",
+		["JMM_PA_PROT_ST"] = "dKdBcaWsuO3kkyBqvMnvCtf6xkYTrPEmr7uP2ly3e2VKFkQ0FPe)wvdekPHsrgSudxb6GushvushJkDCOIlJSuf1IrjlNQEif1tfwMc65QmrOstfvMmfmDsxuuuxvuINHcUoQAJIISvOeBMcTDOQMMOuMfL6ZqX9evzKIkCArgTsomKtII(Kc4AIcDErvTsOu3vurVwuQgCboy7cb2JJwmz1IP5C5SeCWEiWbbhYHe6bXqBxBgSzW21EOTle4sgr8okSDHigKKmXf24HheJiP)Xc5V0loGd2UahSDHysIo9iC4jHKQUApDKMN8zZcPvxDSsKJHQFJvRlQ65eMLsp)zxT5xCK0J00lSR28los6rA6fWEiets0PvBfFsGH8dCvhRe5ya2maXKeDA1yZBadBsOWoBqmjrNwDgKpBwinNvNdeB2KV63y16IQEoHzP0ZFWoJqmjrNwTv8jbgYpWvDSsKJbyJhets0PhHdpjKu1v7PJ08KpBwiT6QJvICmu9BSADrvpNWSu65p7Qn)IJKEKMEHD1MFXrspstVact)PJiP)boqHiuAWmXlKA6fqeeo8KqtihiyKYFMCi0rahSDHysIoT6yLihdv)gRwxu1ZjmlLE(duim5PrK0)ahOqWiLVjpDhWbkOGcHvED9EiWgXIf5tewX1JYoccMYxabZnwSmYmmBjRzjZbhZC3JwNzeIrKGh5WuOKhFsOPxaSafuaaa",
+		["JMM_PA_RET_AOE"] = "d0txcaWsvsVvQSnjOEmKll6CsOA2iPdlCtP0VivFtIQtdQDsP9QSBvSFv9tjj)fPACsqgOekdvkmyGHljCqK4OsK6yQuhxcXcLiSuOWIrPLtXdHsEkvlJK65iMiuzQOyYKOPtCrOuxvcPNjP66KYgLaTvjfBwLy7srdtsPzHu(SKuFvs0iLi62GmAOOPjrYjHQURu11KaoVeLvscVMK8Bu9UhZS3Zv02sVbf6yGndDkvH9SQhZCMGAEeY860UPvNwDAQPPMM654YlHgvz275EfjcpUzlV25TbYWRjney(HmMzVhZS3Z1rbrEawgnsOmnpWfdSQCw1Z1rbrEqhIdXgs)dkb1qz(a(LhOqJiWOC26Z1rbrEqhIdXgs)duOPSAO8iZwQ56OGipOdXHydP)b4GBcFYh4c3anBbMRJcI8GoehInK(huzOkFa)YdOqWmjZw456OGipalJgjuMMh4IbwvoB5Z1rbrEqhIdXgs)dWb3e(KpWfUbA2cnxhfe5bDioeBi9pqHMYQHYJmBXNRJcI8GoehInK(huzOkFa)YdOqWmjZEx7CDuqKh0H4qSH0)aCWnHp5dkzabLM5n4ePnqg(yMm3LSIcQDqcm)m3ZIOLhboOo)Awggj1mi5yMmVHjBdKHpMjZVML1WKeYyMmzYCkAcMCZCfblBAGZIHZeQI54r8ZC82AO3I3XIEPlk2od(QSTuW46824OfuXFK00mpcm)m2jt2aa",
+		["JMM_PA_RET_ST"] = "d4JucaWyOEjK0BrOTjr0LP8AuPZjHy2svNgPUPu5xKY3KenmjQ2Pq7vz3qSFGFkH0FjrJds0aLqzOskdwvdxs1brvDujuDmv0Xrf1cLGSuuHftQwokpes1tfTms45GMOuQPQstwfMoXfLKCvjGNjLCDsAJsG2Qu0MLcBxsQzHGVkj8zjs3gjJevKPjb1OHuomvNerUlI6AseoVeLvIQ8BbFcs4DU7INl511PSgFLCu1vzExuXUlVEVHiWLTiCsOfHweuqqbbflBBnC1EzXZLzDdtQ9Ivw(YohZcnngKoGa3DXZDx8CPg2Hc4rNPc9dJb(uy0CTfvSud7qb8eXbkDxid(c17hg4dnappvOqJTfBTud7qb8eXbkDxidEEQhLsziYIfEPg2Hc4Vgv9ENHci4BASdASSyjwQHDOaEI4aLUlKbFfoxd8HgGNpendUyjxQHDOaE0zQq)WyGpfgnxBXkxQHDOa(RrvV3zOac(Mg7GgllIYLAyhkGNioqP7czWZt9OukdrwSil1WouaprCGs3fYGVcNRb(qdWZhIMbx8S8LAyhkGNioqP7czW3MUAAed8CYPOm2YAbO05ywy3jltXQxqveSqhqwMgNvneH27xIQvghwV5qB3jlRXSohZc7ozjQwz1ygeU7KjtwYxvqlWwYZ11ngTvS2mNRVKeoGSKuSPYosj6klEbQkVKkASJphOUSZru9EsiIXQ2qe6aY0Nmzd",
+		["BFA_RET_AOE"] = "dSJJcaGEPs1lLQyxqj9AP0SjYJLu3ur8lQYTLIdtyNkzVIDdA)Q8tPIAyuvPFdzGsfzOOIgSQgor1bHIlJCmj54uvvleQwQI0IHsSCGhkvLNsAzkvpNktKOmvu1KPQmDkxuHyCsL0ZqfUUeBubzRsLYMvuBhv60O8vPQAAsf67sfmsOuFwPmAfQTrvvoPc4BkqxJQkoVcQvQq6Vsv6CsL4uf(SQIIpeMENocFVy68izTh(OytsYLyW2OTOweSyTaQdyTg14TfLxirqZfDFNdo2RQIInjjpkgajUhnFpnpt129aKjmgcE)mcCpGmadlfJHG3lxij8XGU7zW7XfMjr3pJa3JP7eazJJkJMffjlRQOyk2yeiQkAqcOXmbStQHanaXgfDIOgG6gbCme0f(SQcFwvr9ko6EmCj4gdUDF)aHnoR9OEfhDVmgxgKUxneOjloI6vC099lAP7rZ3JXnMCz1XOEfhDVmgxgKUxneOjl)e1R4O7XLe(O7rZ3pAXzSAkl)f1R4O7LX4YG09QHanznyuVIJUF0IVnQHGwwDnQxXr3lJXLbP7vdbAYQlr9ko6((afNWhbUxnaRLIYdyWwYQcEuSjHVGhDr1Tbpkojzbp6ugCRk4r7HgMta5CHpwu1i5dvG1gdbJQK)le0ycPO9qdpLKiHJcFSO8agSLS9GhTpudwewWJoLb32dEuob0ernaf(yr5e5SjIAak8XIflQkNQhqwwd63OteWIqAaOraUe0yiyWJflb",
 	}, -- [2]
 	{
-		["JMM_HU_BM_AOE"] = {
-			["Talents"] = "3,1,1,2,3,3,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
-			["MacroVersions"] = {
-				{
-					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
-					"/cast Dire Beast", -- [2]
-					"/cast [nopet] Call Pet 1", -- [3]
-					"/castsequence Kill Command, Multi-Shot, Multi-Shot, Multi-Shot", -- [4]
-					"/cast [talent:6/1] A Murder of Crows; [talent:6/2] Barrage", -- [5]
-					"/castsequence [combat] Dire Beast, Titan's Thunder", -- [6]
-					"/castsequence Kill Command, Multi-Shot, Multi-Shot, Multi-Shot", -- [7]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [@focus, exists, nodead][@party1, exists, nodead][@pet, exists, nodead] Misdirection", -- [1]
-						"/petautocastoff [group] Growl", -- [2]
-						"/petautocaston [nogroup] growl", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Bestial Wrath", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Aspect of the Wild", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_HU_BM_ST"] = {
-			["Talents"] = "3,1,1,2,3,3,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
-			["MacroVersions"] = {
-				{
-					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
-					"/cast Dire Beast", -- [2]
-					"/cast [nopet] Call Pet 1", -- [3]
-					"/castsequence Kill Command, Cobra Shot, Cobra Shot, Multi-Shot", -- [4]
-					"/cast [talent:6/1] A Murder of Crows; [talent:6/2] Barrage", -- [5]
-					"/castsequence [combat] Dire Beast, Titan's Thunder", -- [6]
-					"/castsequence Kill Command, Cobra Shot, Cobra Shot, Multi-Shot", -- [7]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [@focus, exists, nodead][@party1, exists, nodead][@pet, exists, nodead] Misdirection", -- [1]
-						"/petautocastoff [group] Growl", -- [2]
-						"/petautocaston [nogroup] growl", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Bestial Wrath", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Aspect of the Wild", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["BMBFAST"] = {
-			["Talents"] = "1-3-x-3-x-1-1",
-			["Author"] = "Bootyhuntêr@Thrall",
-			["MythicPlus"] = 2,
-			["ManualIntervention"] = false,
-			["Dungeon"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast [combat] 19574", -- [1]
-					"/cast [combat] 193530", -- [2]
-					"/cast 217200", -- [3]
-					"/cast 34026", -- [4]
-					"/cast 131894", -- [5]
-					"/castsequence 193455, 193455, 217200, 193455, 193455", -- [6]
-					"/castsequence 193455, 193455, 34026, 193455, 193455", -- [7]
-					"/cast 217200", -- [8]
-					"/cast 34026", -- [9]
-					"/cast 53209", -- [10]
-					"/castsequence 193455, 193455, 217200, 193455, 193455", -- [11]
-					"/castsequence 193455, 193455, 34026, 193455, 193455", -- [12]
-					"/cast 34026", -- [13]
-					"/cast 53209", -- [14]
-					"/cast [combat] 19574", -- [15]
-					"/cast [combat] 193530", -- [16]
-					["Trinket1"] = false,
-					["Head"] = false,
-					["Neck"] = false,
-					["Belt"] = false,
-					["Ring1"] = false,
-					["PostMacro"] = {
-					},
-					["Ring2"] = false,
-					["KeyRelease"] = {
-					},
-					["Trinket2"] = false,
-					["KeyPress"] = {
-						"/targetenemy [noharm,dead]", -- [1]
-						"/startattack", -- [2]
-						"/petattack", -- [3]
-						"/cast 16827", -- [4]
-						"/cast Bite", -- [5]
-						"/cast Smack", -- [6]
-						"/cast [target=pet,dead] 982; [nopet,nodead] 883", -- [7]
-						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] 34477", -- [8]
-						"/cast [mod:ctrl] 2643", -- [9]
-					},
-					["StepFunction"] = "Priority",
-					["PreMacro"] = {
-					},
-					["Combat"] = true,
-				}, -- [1]
-				{
-					"/cast 5116", -- [1]
-					"/cast [combat] 19574", -- [2]
-					"/cast [combat] 193530", -- [3]
-					"/cast 217200", -- [4]
-					"/cast 34026", -- [5]
-					"/cast 131894", -- [6]
-					"/castsequence 193455, 193455, 217200, 193455, 193455", -- [7]
-					"/castsequence 193455, 193455, 34026, 193455, 193455", -- [8]
-					"/cast 217200", -- [9]
-					"/cast 34026", -- [10]
-					"/cast 53209", -- [11]
-					"/castsequence 193455, 193455, 217200, 193455, 193455", -- [12]
-					"/castsequence 193455, 193455, 34026, 193455, 193455", -- [13]
-					"/cast 34026", -- [14]
-					"/cast 53209", -- [15]
-					"/cast [combat] 19574", -- [16]
-					"/cast [combat] 193530", -- [17]
-					["PostMacro"] = {
-					},
-					["Head"] = false,
-					["Neck"] = false,
-					["Belt"] = false,
-					["Ring1"] = false,
-					["Combat"] = true,
-					["KeyRelease"] = {
-					},
-					["Ring2"] = false,
-					["Trinket2"] = false,
-					["StepFunction"] = "Priority",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/startattack", -- [2]
-						"/petattack", -- [3]
-						"/cast 16827", -- [4]
-						"/cast Bite", -- [5]
-						"/cast Smack", -- [6]
-						"/cast [target=pet,dead] 982; [nopet,nodead] 883", -- [7]
-						"/cast [mod:ctrl] 2643", -- [8]
-					},
-					["PreMacro"] = {
-					},
-					["Trinket1"] = false,
-				}, -- [2]
-			},
-			["Help"] = "\n\n--=Hold Ctrl for Multi-Shot in AoE situations as needed to keep up Beast Cleave=--",
-			["SpecID"] = 253,
-			["Default"] = 1,
-			["Arena"] = 2,
-			["Icon"] = "",
-			["PVP"] = 2,
-		},
-		["JMM_HU_BM_FARM"] = {
-			["Talents"] = "3,1,1,3,3,?,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
-			["MacroVersions"] = {
-				{
-					"/cast [nopet] Call Pet 2", -- [1]
-					"/cast Dire Beast", -- [2]
-					"/cast [talent:6/1] A Murder of Crows; [talent:6/2] Barrage", -- [3]
-					"/castsequence Kill Command, Multi-Shot, Multi-Shot, Multi-Shot, Multi-Shot", -- [4]
-					"/cast [nopet][@pet,dead] Revive Pet", -- [5]
-					"/castsequence [combat] reset=combat  Dire Beast, Titan's Thunder, Fetch", -- [6]
-					"/cast [combat] Mend Pet", -- [7]
-					"/cast Kill Command", -- [8]
-					"/cast [talent:6/1] A Murder of Crows; [talent:6/2] Barrage", -- [9]
-					"/castsequence Kill Command, Multi-Shot, Multi-Shot, Fetch", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/cast [@focus, exists, nodead][@pet, exists, nodead] Misdirection", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Bestial Wrath", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Aspect of the Wild", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_HU_BM_AOE"] = "deuOdaWjcIMfe3sQYViLJPGLrv5zKW0urvxJiPTPIY3iq16ii9occdeKCqqyHQipeKAIGOlsKyJer(OkQmscuoPuvRKi0lbf3Kq7es)KGYqbLokbILkv4PatvHUkbvBLiQVse8wQYDjv7f1FjGbl6WkTys0JPYKjPltzZsL(mrQrdQoTuEnbsZwr3MOA3s8BvnCv44eflxsphQPJCDvA7sf9DQQmEQQ68eL2VW8apYOdmqIIIciycxGtIcaHWKcJ6JhzW4oTcHzGcKbKbeFikquGOGbqAD37Ky0bgaomxFizuFsvbdexx9LSvXTVG5rgDGhz0bgO5wmfPx5pms3dQdJquTvvpYoSoBDArcRrmQpgO5wmfjKTQf5jBXeJQGbAUftr6v(dJ0Je6DoJewJICGrppd0ClMWMmxR4SiHPnNrc9lx(wurIu8oPwpa8NqIu8oPwpa8NqIu8oPwpa8NyuPYan3IPi9ODAfsONPnOhjerkERQwnYVBKqxF)WcrKE0oTcj0Z08Ph5PTwxPng9mgO5wmHnzUwXzr65E5kxspsiBvlYt2IjKihB0wesCKJWVfvRYOcod0ClMWMmxR4SiHPnNrc9lx(wurIu8oPwpa8NqIu8oPwpa8NqIu8oPwpa8NyaSpMexx95rMyaGSdjDloQ9fgamzUwHA7KbWyYcB1WyEKrhyGMBXuKEq19DxmsKM)nmHrIS8Q2QQ7b1XwjzhqI08VHjmsKLx1wvDpOomcjsZ)gMWirwEvBv1JuSHvBvZrTVWO(yG2Hr7LE3IPVB3i9KU(3d9ipx99BYOkyG2Hr7LE3IPVePx5LU(3d9iLU((nzIbWwnX1vFEKjgaJjBh20wSXJm6ad0ClMI0Z9YvUKEKNmm12zKsOUeCg1hd0ClMI0Z9YvUKEKNM)RgPKUvzzufmqZTyksp3lx5s6rcb(WCuKF3ij4wKsOnvzIjMyaexc(xzGexLkTAZGcY6kOld67(cd6Jkzbe7dGwabr4sbm2xyOIq0bmmqCl3D2VqwTtRqTVWkzIjMb",
+		["JMM_HU_BM_ST"] = "deePdaWjcQAwGClcv(fjoMkSmjXZiQMgaY1iuSnjP(gbH1ri8ockgiq6Gerlur6HeyIaXfjO0gju6JeuzKaOoPc1kju1lbKBkP2je)KGudfGokbrlfaEQQMQcUkHKTsi1xje9wH6UczVi)fqnykhwQfRIESGjtsxw0MveFMimAG60Q0Rjiz2G62eLDlXVvA4kQJtKSCs9COMoQRdPTlj57kKgVcX5jsTFQMoObc5GEXxxdmalkGNwd8pqivOb6hA4SWy6LdDaDavbsoKCi50dsoPrHzc5G(FodJbHqQig50x3b9k6uJVBbtdeYbnqih0ReAm7wCzNtokg05KHuZwnYnaKvDRkDdWKjKk0ReAm7gixD620SXmHiNELqJz3Il7CYrUjOHHDdWKD7Gqai6vcnMXPuOzjKUb0fg2nbRmzDrfYnb7PUD7bVmKBc2tD72dEzi3QrH5R4EWltiIHELqJz3I5golSiQw5iYnjDRgvRMA32jUjqVJIfg3I5golSiQwPsKBtBTULijKQPxj0ygNsHMLq6wCyLD2CKBGC1PBtZgZqUnC5Ui8y3gaJwutnHie0ReAmJtPqZsiDdOlmSBcwzY6IkKBc2tD72dEzi3eSN62Th8YqUvJcZxX9GxMEaxmx3b9sdet)Z5Syrlb(Uf6)uk0SW3gMEGsPbuNymnqih0ReAm7wmOt2akgYTCKlMXqUvw1SvJIbDU1S0hqULJCXmgYTYQMTAumOZjd5woYfZyi3kRA2QrUvFXQxDg47wiKk0RmNCJYBOX8ozIBXsOx05i3eo9okmHiNEL5KBuEdnM3IBXLvc9Ioh5Me6DuyIPhqDw3b9sdetpqP0aiHZgN0aHCqVsOXSBXHv2zZrUnnX8THDtK6MbtivOxj0y2T4Wk7S5i3McVRQBIfvlnHiNELqJz3IdRSZMJCts8Cgy32jUXGt3e5fwLyIjMEjrzWRMEX3NNP(MGcIUfQM(XHTq)yerdC94xaWcPOe2FySqJuljaaI(6UG2WJlCQRkl8Dl0jXetea",
+		["BMBFAST"] = "d8Jwiaqzqhg4LuL0BjsBJaVwQ05juoTs1SPkEyHk5MKQ8li(gs65KStb7v1UHQ9l64uvmmszCuvnqcvQHcPmyjdxQYbPkvxNqogIZPKfIeTuPQAXkLLtupKQepvXYKY6iuvtKQsnvcAYqY0PCrcvPhJQNrL3rQk2iHkwvHQyZsf12jvL(msywi10e6UeXiPQKTsQQmAPcJNQuoPurUfKQRHY9KQYkjvvDBsLFdLp5cFG8Hs9OuC8(i8H2f(riWde3uFiO7q3BO7q3BOtqN8X7ISoWK)qjgMjwhIWnXL4rwClSdzGhpFqt)q7H2h9a4IaE6eUbL1xiUTJH)Tp(weofqm8hiF0dWLX0pOSAhdxDHpqUWhiFq4aLLLuoMUnGjjlYIrn(q7dchOSSKYX0TbmjzrwoMt7b3heoqzz1iuBAApe)GWbkllxuRj4b2heoqzzrCe)R4dc(GWbktb9reeNdZISCrgJolYYfzm6SAeQnnn6SilxKXOZISCrg7bQFq4aLPG(icIZHzrwUiJrNfz5ImgDwUOwtaDwKLlYy0zrwUiJ9G)piCGYYQrO200Ey9bHduwwUOwtWdeTpiCGYYI5AARhiKpiCGYuqFebX5WSilxKXOZISCrgJoRgHAttJolYYfzm6SilxKXEG0(GWbktb9reeNdZISCrgJolYYfzm6SCrTMa6SilxKXOZISCrg7bI7dchOSSCrTMGhiXpiCGYYI5AARhiSpiCGYYskht3gWKKfzXOgFGi4dchOSSKYX0TbmjzrwoMt7JxW0TbSt5hFbbO(2NaK39BFOe6X(2N(3XPG8TpOHPm9aCzSl82N(3XPO9TpEfkw)qpqGcEH3(iuEhVl0AF7JxHIHMmuPUWhiFqmGmfqdId1jwwsXX6aiRJgfeGsYdTpikdiBaZa8Up4(G0dAaZa8Upe)GWbkllIa)nQpW(GWbkllk3n4dc(GWbklRrhG39bQFq4aLLLuditb06Rh0OrbbOKK1YFtFYskowpOrJJHccqjjl)(Dp4)dchOSSKAazkGwFDgJlsrNf0B7ktrNfogkiaLeAPgqMcO1xpOrNf0B7ktrNfogkiaLKSCXivQpS(GWbkllP6Wqj(Ct2JKSAcIUBFgd2tCeHZTDm8pOjVJjVBI9bnzOEaUm2fE7Jq5D8UqJ8TBp0UWhiFq4aLLfJqe8q7dchOSSKYX0TbmjzrwmQXhCFq4aLLLuoMUnGjjlYYXCApe)GWbklRgHAtt7b2heoqzz5IAnbpi4dchOSSioI)v8bQFq4aLPG(icIZHzrwUiJrNfz5ImgDwnc1MMgDwKLlYy0zrwUiJ9G)piCGYuqFebX5WSilxKXOZISCrgJolxuRjGolYYfzm6SilxKXEy9bHduwwnc1MM2deTpiCGYYYf1AcEGq(GWbkllMRPTEG0(GWbktb9reeNdZISCrgJolYYfzm6SAeQnnn6SilxKXOZISCrg7bI7dchOmf0hrqComlYYfzm6SilxKXOZYf1AcOZISCrgJolYYfzShiXpiCGYYYf1AcEGW(GWbkllMRPTEGi4dchOSSKYX0TbmjzrwmQXhiu)GWbkllPCmDBatswKLJ50(iuEhVl0iF7JVGauF7taY7(Tpuc9yF7t)74uq(2hVGPBdyNYpEfkw)qpqGcEH3(0)oofTV9rO8oExO1(2NXG9ehr4CBhd)dAY7yY7MyF8kum0KHk1f(a5dIbKPaAqCOoXYskowhazDsKIccqj5H2heLbKnGzaE3hCFq6bnGzaE3hIFq4aLLfrG)g1hyFq4aLLfL7g8bbFq4aLL1OdW7(a1piCGYYsQbKPaA91dA0OGausYA5VPpzjfhRh0OXXqbbOKKLF)Uh8)bHduwws1HHs85MShjz1eeD3(GMmupaxg7cV9bnmLPhGlJDH3UD7JVGE69j1)u)rh9(8fMhuz5ft2twDgtol9e5X2rF6aZYAhplVJjEZsTBIa2ogUklGklCiefevwgwwDHWEzjQxwucbkllV4bc0xyFOJ(hVldXbp0(4ByNbI8ypq(m9G8o57hAm3NoXXW)8rpXSo25O5rK6H2TB)a",
+		["JMM_HU_BM_FARM"] = "duK)daWjsP0Sa5wQi)cvgMQs5yQKLjQ8mfX0qO01ivY2qiFJusghcfNJukwNi4DKs19iLO)HqvdKuvhuf1cfv9qfyIiWfjLuBebnsvLQtQQyLKk1lvHUjO2PQ8teQmuvWrjLWsfHEkWuvPUQIeBLuHVsQO3ks3vu2lXFvvzWuDyPwmP4XKmzu1LPSzvv9zfPgTI60k1RvK0SvYTvODlXVrz4kOJlIA5s65inDORJOTRQKVtQsJNufNxez)clxYT8UeGUHH)99P8lp8pcpNiS8Yj3c4UxwbPcyc0f0f0eOjqep0ebqG9VjxO8UeayOP(qG8YPRjcaUvvMoSkDZku5wExYT8UeaNQPy4Pf2qdZcFqVwHFWWWZjVCcGt1umCc2vl88wtr5nraCQMIHNI9YkyceXDLf(5WHjR8wnC2)Whuz6LQ9WtXEzfmbI4YLfE(Uw7Pn5rScGt1uKAjtAfLf(X9Af(a24yx4HchMCH7tGzgcfom5c3NaZmekCyYfUpbMziu4WKlCFcmZq5PlbWPAkgEAHn0WSu9hAieV18zHNO91(ll8dgkpIeaNQPi1sM0kkl8ufButJzHxnQHAPInQPXWdNGD1cpV1uek87n2fTLg(9mzH3QqHtOHQz5PvcGt1um8ufButJzHdBf(WpyO8igbWPAkg(X9Af(a24yx4LN2iaovtXWtXEzfmbI4UYc)C4WKvERgo7F4dQm9s1E4PyVScMarC5YcpFxR90M8U(Ma4unfPwYKwrzHFCVwHpGno2fEOWHjx4(eyMHqHdtUW9jWmdHcNqdvZc4aJIWTQYKBbfaaTHeswu4MveaWsM0k4Uxc4OL0HQrPYT8Ueah21Pn0k2ysHNwyZDDmlL3A(m5LtaCQMIHNQ)FMIKcfUPNnfPqHxy8wZNLQ)qdHc30ZMIuOWlmER5ZchEt53vtHBwrqbCOAWTQYKBbfWrlPeTL1utUL3La4unfdpvXg10yw45nkU7v46S24S8YjaovtXWtvSrnnMfE(fJXhoHK1KK3ebWPAkgEQInQPXSWpthAkmC2)WXzlCDUx8ckOGc4mjoZQcq3TgnwDB6tqTNAlGpkwraFE64h8hWGFAXu0AW9hI7bFoXJcaUlK96tbT6xwb3SIOrqbfb",
 	}, -- [3]
 	{
-		["JMM_RO_OUTLAW_ST"] = {
-			["Talents"] = "1,1,1,1,3,2,1",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
-			["MacroVersions"] = {
-				{
-					"/cast [combat] Adrenaline Rush", -- [1]
-					"/cast [combat] Curse of the Dreadblades", -- [2]
-					"/castsequence  reset=1  Ghostly Strike, Saber Slash, !Slice and Dice, Saber Slash, Saber Slash, Run Through, Saber Slash, Saber Slash, Run Through, Ghostly Strike, Saber Slash, Run Through, Saber Slash, Run Through", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [mod:ctrl] Pistol Shot", -- [1]
-						"/cancelaura Blade Flurry", -- [2]
-						"/cast [stealth] Ambush", -- [3]
-					},
-					["PreMacro"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [stealth] Ambush", -- [2]
-					},
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [nostealth, combat] Blood Fury", -- [2]
-						"/cast [nostealth, combat] Berserking", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["SAM_OUTLAW"] = {
-			["Talents"] = "2222231",
-			["Default"] = 1,
-			["SpecID"] = 260,
-			["MacroVersions"] = {
-				{
-					"/cast 8676", -- [1]
-					"/cast [combat] 13750", -- [2]
-					"/cast 193316", -- [3]
-					"/cast 1833", -- [4]
-					"/cast 199804", -- [5]
-					"/cast 193315", -- [6]
-					"/cast 199804", -- [7]
-					"/cast 185763", -- [8]
-					"/cast 1856", -- [9]
-					"/cast 8676", -- [10]
-					"/cast 199804", -- [11]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] 1784", -- [1]
-					},
-					["PreMacro"] = {
-						"/cast [nostealth,nocombat] 1784", -- [1]
-					},
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/cast [mod:alt] 13877", -- [2]
-					},
-				}, -- [1]
-			},
-			["Author"] = "TimothyLuke",
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
-		["SAM_SUB"] = {
-			["Talents"] = "3113213",
-			["Default"] = 1,
-			["SpecID"] = 261,
-			["MacroVersions"] = {
-				{
-					"/castsequence [form:1/2/3] 185438", -- [1]
-					"/castsequence [form:0] 53, 196819, 53, 53, 53, 196819, 53, 196819, 53, 53, 53, 196819, 53, 196819, 53, 53, 53, 196819", -- [2]
-					"/cast 212283", -- [3]
-					"/cast 121471", -- [4]
-					"/cast 277925", -- [5]
-					["LoopLimit"] = 30,
-					["Combat"] = true,
-					["StepFunction"] = "Priority",
-					["KeyRelease"] = {
-					},
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-						"/cast [form:0] 1856", -- [1]
-					},
-					["KeyPress"] = {
-						"/castsequence [mod:ctrl,form:0] reset=1  195452, 185313", -- [1]
-						"/cast [mod:shift] Death from Above", -- [2]
-					},
-				}, -- [1]
-			},
-			["Author"] = "Cymiryc",
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
-		["SAM_ASSASSIN"] = {
-			["Default"] = 1,
-			["Talents"] = "2222212",
-			["Help"] = "Sample Assination Macro",
-			["SpecID"] = 259,
-			["MacroVersions"] = {
-				{
-					"/cast 1329", -- [1]
-					"/cast 1943", -- [2]
-					"/cast 79140", -- [3]
-					"/cast 1329", -- [4]
-					"/cast 703", -- [5]
-					"/cast 32645", -- [6]
-					"/cast 1329", -- [7]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast Kingsbane", -- [1]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-					},
-				}, -- [1]
-			},
-			["Author"] = "TimothyLuke",
-			["Icon"] = "Ability_Rogue_DeadlyBrew",
-			["ManualIntervention"] = false,
-		},
-		["JMM_RO_OUTLAW_AOE"] = {
-			["Talents"] = "1,1,1,1,3,2,1",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
-			["MacroVersions"] = {
-				{
-					"/cast [combat] Adrenaline Rush", -- [1]
-					"/cast [combat] Curse of the Dreadblades", -- [2]
-					"/castsequence  reset=1  Ghostly Strike, Saber Slash, !Slice and Dice, Saber Slash, Saber Slash, Run Through, Saber Slash, Saber Slash, Run Through, Ghostly Strike, Saber Slash, Run Through, Saber Slash, Run Through", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [mod:ctrl] Pistol Shot", -- [1]
-						"/cast !Blade Flurry", -- [2]
-						"/cast [stealth] Ambush", -- [3]
-					},
-					["PreMacro"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [stealth] Ambush", -- [2]
-					},
-					["KeyRelease"] = {
-						"/cast [nostealth,nocombat] Stealth", -- [1]
-						"/cast [nostealth, combat] Blood Fury", -- [2]
-						"/cast [nostealth, combat] Berserking", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_RO_OUTLAW_ST"] = "dWtIdaWsfrVfiBdvvntqL8yrnBIUSu3ev5xQWTbQNRQDcYEr2Tc7N0pve(RsQFd1abv0qrjgmLHJc5qGkCuqv6yI0XrvLfQi1srPwmGLd5HOO8ujltewhkqtufzQOYKfrtNQlcQQUkkQEgkPRRsBurYwrrAZOG2oOQ8ruOMLs9zvu3dufhw4RGk1OjmmuaNuj5UGYPvIZROALOioOIYRrvzkL4iOuQycpERzpX6jyohCndUxxCeucIJkUq2d)PkDNUt3PBw3j2PuDQzyCLobLsvXOoV6ebLG)mav8ImcZ0g9l4XtCeukXrqPuDKJ3vdugdgiCyQnljQhHCz0QX((cckbvh54D1aLXGbchMAm7I(wnmdvZfTANqDKeqgj7NGyLQJC8(3872JCRMAO(BhEsvtnglWVlNRw5Of(6TAva0i1kz8ITAWrjxYTAXiPANwY9wTkaAKALmEXwTkaAKALmEXwn23HACce(EwSvRcGgPwjJxSvRcGgPwjJxSvJ9DOgNaHVNfB1ySa)UCUALJw4R3QvbqJuRKXl2QX(ouJtGW3ZITAva0i1kz8ITASVd14ei89SGkwWVZlYimXrovL3mAQ7i7l4bvvZVBp8Lqs1K9C2TSJVjockLQJC8UAGg437q6I9aNXGbchMAL3H0feucQoYX7QbAGFVdPl2QLXGbchMAtlX4KQn1fnNGyLQJC8UAGg437q6ITAzmyGWHP20n6BeFlJZKtflOMxKryIJGsP6ihVRgOb(9oKUypWzmyGWHPw5DiDbbLGQJC8UAGEVdPlGP2mWa3xqovt2Zzb1)tCeukvh54D1abgNKbZosctnwwEhlvReyNGsq1rog5wgxuO20YizR2uYlcnNGyLQJC8UAGEVdPlGP2mWa3xqo5Kt1SRlWiQysaa0OLgopHc(cQwLXdQwbX018wvmBn8YC4V4wnbeVzSNKkEX4gYvdVrWxp8f8GaiNCIa",
+		["SAM_OUTLAW"] = "dGtpcaWsjLERQQTrPMPKKzRi3eP6xk5BuYojSxXUvy)K8tjQ6Vsu63umuvrdMudxsXbvQ6XqDmvohrDzqlvIIflPA5e5Ws9uQwMeEoKjQOYur0KvQmDudtv5QscEgcxhqBuIWwLiAZkQA7sKCAKYSKKAAQs3wPmoG(QKqJgjoUevoPQWNLe11qsNxrzDsICxaETePoxiJ4I77Px2YxbYQ2xXikczCYEcoyu8IIIIcIl(CW5BGtCexC6nwYusOeIMzGczexiJ4IVWnIvAqBl7ikIVWnIv6FSzREZau6JWI6xeeXx4gXk9jtqC2r8gFHBeR0hibreuJVWnIv6twg87nc74lCJyL(KjioQryfFHBeR0NSm43BeGXx4gXk9bs1YMic54lCJyL(aPAhX9fFHBeR0G2w2rCx8fUrSsFYYGFVXFAqm9glzcz44odRPeahyMMze3HLdiCW06P41cN9ucIqHmIl(IBPkdz4aUntP)hgkT0gG)DWEhGikIVWnIv6)nZUk1tmaL(iaTSch)PeKEJLmHmIl(c3iwP)hged7jMs1dd2SvVzak9zb(goETWzLbobBemKrCXx4gXk9)WGyypXuQEyWMT6ndqPplW3WHdhFpqMIrkojTndtzwvalnmUxde)yUikS)I)aBgXJtVha7Phdgkvk4GPzgPE4Wja",
+		["SAM_SUB"] = "dCdBcaWsHQElHABkYmfQmBI0njOFrk3MO2je7v1UrY(L8xHcJdPgQczWIgoc1bripMshtQJJiTqfulvOKfJGwUGhQG8uLwgKEojtermvs1KvGMoWLH6QeipdLRdsBuOuBLa1MbX2vahMQMffttH68eYPfYDjIrJaFJaoPIQZbQRrL7ju06qudtr53O63x)i93LiHXyf0Whb96F19sXua1xw3m0M9LemepuPGJ0Ff6TbUGXbveNsD9J0x)i9xnRxbuysHIPS4kfdHhKj3AOAmjv20UXm6JG(vZ6vafMuOyklUsXq4bzYZKuPJzQSHNOBytLoMPshZuPJzQSHNOBytLoMPYgEIUHnv6yMkDmtLoMPYgEIUHnv6yMkB4j6g2uPJzQ0Xmv6yMkB4j6g(iSVAwVcujAJIsZoY4VAwVcuzJ2JfOpI7RM1RavIkGaWOUVXX5ehxKCe4iSzFhIltOh8H)UamXXgkLfeXP(okeXdrarFJhlAuaRux)i9xnRxbuysHIPS4kflZhKSfeKAGWdYKNjPYawHbXSRSYg2n2HAQSPDSMDe0VAwVcuPyz(GKveebbiPssWEabvcjWLRKic5dGp47iUci0Bd8RFW3rbSqVnWV(r6VAwVcuPyi8Gm5zsQSPDth8nESOyHLI9k81p4Gd(seuab8W3Hejhfez)UeJTZj5iOt935wo13Vc9uq9sNtbWHbWuGio1j8Gd(b",
+		["SAM_ASSASSIN"] = "dutZbaWsfvVfPyBiLMPQQA2G6MkPFbYTrr7Ks7LSBuTFv5Vkk)wOHQinyvA4OWbvQoMeNtPSqKGLIuzXkrlxfpfAzs65iMOcmvGMScA6uDzrpMINjORlWgrISvvvAZQQY2vvXHLAAOuFwH67irnsKeNgWOveddPQtIs(Mc5AkHZRQCCKq3fj1RrsAveOSfH4(6SDe3rKLv2QafsLeMHqSzYaoF3DcbG3oqK)URT5efc2Wj3jcR1ATwQchK)1bWUSfHRT5e)npeGiNiqzlcu2Iqitt83Tew3KTkeY0e)DlBSdLnuiKPj(7oARWMEzzleY0e)DlH1nzxieY0e)DhrFOS0keY0e)DdR0YEHSJeczAI)ULW6MWPrIV2MtuGYfIEYGsbCJde5cXKIbj3bAyHZZVPNKqeOSfHqEFgNEYtMFVln84K(WKAAgM9qQLlC6jxBZjkq5cNNF0LWztsbkBriKPj(7ohGpMSS5PC5YfUh4tIhHGamJ(KV)dOAkezKgwdKTUytiltKlCFjamG)nJU44GC2GShc)rHtszHRnpOHzX988tYDGixlLlxc",
+		["JMM_RO_OUTLAW_AOE"] = "dWtHdaWsPeVfO2MsQAMIq9yrnBIUSIBIk9lvXTbXZvzNGAVi7wQ2pPFIs1FvL8BidujvgkkPbtz4OqoekuhfiLJjfhxeYcvszPOIfdy5q9quuEQKLjsTouGMOQutfvnzrY0P6IOeUkkrpdLY1vvBukPTIIQnJI02bs1hrbnlL6ZaX9as6WcFfiXOjmmuaNuj5UG0PvIZlLALOioOi61IGPgINGBOIjC5(Id7VyNL8jojO8kj7SGGtt8uXhYP7hvn7MDZUzZ2o9UHQ3dtJV0j4gQkgn5vVj40RNbOIBKXiMp4Bb1pINGBiEcUHQNCCUAGZiiaHdvTKPWtpKl9rno)tqWPP6jhNRg4mccq4qvJzF8nQHyQAUyu7nEIuaYi1CemBu9KJZVjr)PNh1udp34GAJAQXqb6CzB1khVKWSvRcGbRwjJtSvJXLCjpQf9uQ9EjpB1QayWQvY4eB1QayWQvY4eB1487QXlWOpiITAvamy1kzCITAvamy1kzCITAC(D14fy0heXwngkqNlBRw54LeMTAvamy1kzCITAC(D14fy0heXwTkagSALmoXwno)UA8cm6dIGkwrNZnYyeXtovLpmQ1Fp7lOov1KO)09LqsvltBoJCIBiEcUHQNCCUAG7OZNq6IDhLrqachQALpH0feCAQEYX5QbUJoFcPl2QLrqachQARjrOuQ16h3MGzJQNCCUAG7OZNq6ITAzeeGWHQ2Ad(gCclDqiNkwXd3iJrepb3q1tooxnWD05tiDXUJYiiaHdvTYNq6cconvp54C1aF(esxavTKqa(NGCQAzAZkEUJ4j4gQEYX5QbgckfdMDSeQASUCosQwjqobNMQNCCUAmEnzKAuRv5hJBtWSr1tooxnWNpH0fqvljeG)jiNCYPk53fimvmjaag8YSU34iHGQvzuNQvWm)f3vfZEbASKff)k2H5MKtluXn6)qUQ7dg0NUVG6ea5Ktea",
 	}, -- [4]
 	{
-		["JMM_PR_DISC_ST"] = {
-			["Talents"] = "1,1,2,3,1,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
-			["MacroVersions"] = {
-				{
-					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
-					"/castsequence reset=combat [talent:7/2][talent:7/3] reset=combat Smite, Smite, Smite, Smite, Shadow Word: Pain; Smite, Smite, Smite, Smite, Purge the Wicked", -- [2]
-					"/cast [combat] Penance", -- [3]
-					"/castsequence [talent:4/3] reset=combat Smite, Mindbender; reset=combat Smite, Shadowfiend", -- [4]
-					"/cast [combat] Penance", -- [5]
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling:Penance]", -- [1]
-						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
-						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat Smite, Shadow Word: Pain, null", -- [3]
-					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
-					["PostMacro"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_PR_DISC_AOE"] = {
-			["Talents"] = "1,1,2,3,1,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
-			["MacroVersions"] = {
-				{
-					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
-					"/castsequence [talent:7/2][talent:7/3] reset=combat  Smite, Smite, Smite, Shadow Word: Pain;[talent:7/1] Smite, Smite, Smite, Purge the Wicked", -- [2]
-					"/castsequence [combat] reset=combat  Smite, [combat, harm] Penance, [combat, harm] Penance, Power Word: Radiance", -- [3]
-					"/cast [@focus, exists][@party1, exists] Power Word: Shield", -- [4]
-					"/castsequence [talent:4/3] reset=combat  Smite, Mindbender;  reset=combat  Smite, Shadowfiend", -- [5]
-					"/cast [combat, harm] Penance", -- [6]
-					"/castsequence [combat] reset=combat  Smite, [combat, harm] Penance, Power Word: Radiance, Evangelism", -- [7]
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling:Penance]", -- [1]
-						"/castsequence [@focus, exists, combat][@party1, exists, combat] reset=combat  Plea, null", -- [2]
-						"/castsequence [talent:7/1] reset=combat  Smite, Purge the Wicked, null; [talent:7/2][talent:7/3] reset=combat  Smite, Shadow Word: Pain, null", -- [3]
-					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
-					["PostMacro"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["SAM_SHADOW"] = {
-			["Help"] = "",
-			["Talents"] = "1211221",
-			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 258,
-			["MacroVersions"] = {
-				{
-					"/castsequence [nochanneling] reset=target  34914, 15407, null", -- [1]
-					"/cast [nochanneling] 8092", -- [2]
-					"/castsequence [combat, nochanneling] 228260, 34433", -- [3]
-					"/cast [nochanneling] 228260", -- [4]
-					"/cast [nochanneling] 32379", -- [5]
-					"/cast [nochanneling] 15407", -- [6]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Priority",
-					["KeyRelease"] = {
-						"/cast [combat,nochanneling] 586", -- [1]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [form:0] 232698", -- [1]
-						"/targetenemy [noharm][dead]", -- [2]
-						"/castsequence [mod:alt] 589, 34914", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
-		["SAM_DISC"] = {
-			["Talents"] = "1231212",
-			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 256,
-			["MacroVersions"] = {
-				{
-					"/cast [@player, nocombat, nochanneling] 17", -- [1]
-					"/cast [combat, nochanneling] 34433", -- [2]
-					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
-					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
-					"/cast [combat, nochanneling] 585", -- [5]
-					["Combat"] = true,
-					["StepFunction"] = "Priority",
-					["KeyRelease"] = {
-					},
-					["Trinket2"] = true,
-					["PostMacro"] = {
-					},
-					["KeyPress"] = {
-						"/target [@focustarget, harm, nodead]", -- [1]
-						"/targetenemy [noharm, dead]", -- [2]
-						"/startattack", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["Trinket1"] = true,
-				}, -- [1]
-			},
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
+		["JMM_PR_DISC_ST"] = "d4tneaWyiVeQWBLKTrkHldURK68qvnBOCnbu3eP6xc13qIwhszNKQ9kA3e2pv)KuI(lsQFt0aHQmuf1GPmCOshuaCusj1XuKJRQ0cfqwQQclMelxIhka9uvwMq65iMOG0uvvnzPY0rDrsj5Qqf1ZKQ6DQkAJKs1wfiTzbvBhQiFwq8vKW0iLY3rsUojDyLgnPy8ckNuQYSu40s5EcXkfiETa1TvLZP8p1NYli0Pt98huhAVlGuF)PE08pV)fdemjVPX0i6O)yAmn6NxOq4RkgN6t5D4cOEHM6rdSwKh9fvKbfkKMuqY)uFk)t9P8IrlHjWxvqGa3QWlCjsLmCdcRrysDfE4Ufg)PHBqynctQDRaeGJGKpLLDBwsfuCJczPJMBNMgG1nC70SDsQCJoi6s9O5fJwctGVQGabUvacWrqYNYYUvXlgiyAughTUIxmqW0OmUFTBfGaCeK8PSSB3RXWWT71yy429AmmC7EnggUDA2ojvUrHS0rZT5Tj(0T71yy429AmmC7EnggUDVgdd3MvlHaUXAa3OOHcg6s9(5fJwc7wfs(uwU2TzqSceK6AlVy0syc8vfeiWTkEXabttBX9RDRaeGJGKpLLD7EnggUrVj6uarhu(0Tcqaocs(uw2T71yy42Pz7KufEdeDPEGZlgTe2TkK8PSCTBZGyfiipCa4)bGblbY)uFkVy0sy3QqYNYY1UfimPSZnTRwWp1JMxmAjSBvi5tz5A3ceuiqj4MiKKZdha(ZfGqY)uFkVyclX9TOI0TkKMviaSMieAZGyfiOo1JMxmAjmb(Qcce4wfEHlrQKHBqynctgUHKpLLRRWd3TW4pnCdcRryYWnK8PSCTBfGaCeK8PSSBUnJb7WnHkgwQ3pVy0syc8vfeiWTkEXabtJY4PA3kab4ii5tzz3C7EnggUnRwcbCJ1aUrrdfm0nCtOIH9PBv8IbcMgLXrRR4fdemnkJ7x7wbiahbjFkl729AmmC70SDsQCJczPJMBZBtmCtOIHLCEZsctFrfz(NCEZfG(IkY8p58ogWv7Qce3KI8o4Rki42ILCY5favwJSKxqwffO0a8cTSbV51djf51tpOutV3fqQ1ACwRU)EAPo9a8boYJ(kuxSEcgk4ei4MuKkjNCMa",
+		["JMM_PR_DISC_AOE"] = "d4ZufaqzWlvP0BPkBtrQoSK7sLopPIztkxtrPUPi6xsX3uPADq0ofP9Q0UrA)e)urj)vO43Kmqi0qLsdg1Wjv6GKQYrjvvDmvYXvblurflvOQftflxWdvuPNc1YuHEoIjQsXufHjlKPt5IqQ6QKQkpdcEhKkBursBvrInluA7ks5Zcv(QkY0uu03vrDDQQhRQrdjJNuLtcPmlrDAfUNIyLkk8AfvDBP69AtSPxlEgjtgtB8XCdA45gJ(Mf630JBIfNO0aQrw8v(kFmJq(kFLryX3aXw(A2METySUWJ2nB6Xzp9fNS(GAkqGmuuYMytV2eB61IB(Iye4GpqFqypeJv9(KSWGEdIrC9qu3ky6CLfg0BqmIRWbGa2Kx1Dkt4w1zii8jvicPWyudqlklmgvfPolCsGgTPhxCZxeJah8b6dc7zLgqnK3Bo66zLgqnK3BqWv4aqaBYR6oLjSW4(WGSW4(WGSW4(WGSWyuvK6SWNuHiKc3wdk68SsdOgY7nxUcJ7ddYcJ7ddYcJ7ddYc36hIde2qbcFA8ZdrBkclU5lIrGd(a9bH9Ev3PmxHdabSjVQ7uMWcJ7ddYc79QUtzzHrvHURWTaTOpKf27vDNYYcJQcDxHBbArFilCR6mee(KkeHu44ROrrFytN5IB(Iyc7HySQ3NKfg0BqmIRhI6wbtNRSWGEdIrCfUvDgccFsfIqkmg1a0I20zV4MVigbo4d0he2ZknGAiNzdcUchacytEv3PmHfg3hgKfo5Gg5a0iiGoHfoaeWM8QUtzclmUpmilmgvfPoh7aOrB60xCZxetyVx1DkllmQk0DfUfOf9Hn9(IB(Iye4GpqFqyVx1DkZv4aqaBYR6oLjSW4(WGSWEVQ7uwwyuvO7kClql6dzHBvNHGWNuHiKchFfnk6dzHr)0kACG2G0x8TGoXdAqrGnXMET4MViMWEVQ7uMRWZrtPIeEQ(bD20JlU5lIjS3R6oL5k8CGabcZpOXT2IVf0PnaeYMytVwCdXu62RpOe27rvukOnOXHSfOf9b3n94IB(Iye4GpqFqypeJv9(KSWGEdIrYc)QUtzUEiQBfmDUYcd6nigjl8R6oL5kCaiGn5vDNYew4wnOYct9102uewCZxeJah8b6dc7zLgqnK3BUCfoaeWM8QUtzclmUpmilCRFioqydfi8PXppeLfM6RPHoH9SsdOgY7nhD9SsdOgY7ni4kCaiGn5vDNYewyCFyqwymQksDw4tQqesHBRbnlm1xtBTf3QiwY6dQnXAlUnajRpO2eRTySb6ovF6BdfDXy4GpqTrPT2AlwF(gkvyXZOCCGWaq8MqnFTy0EfDXOLoLysIgEUXO)6h6XjqBwPj1x83U4Kf1V0qJAqyAa1gk66S2A7c",
+		["SAM_SHADOW"] = "dKtHcaWsveVfvTnk0mjk1Sb6Mev)II(gkYobzVk7M0(r6NQa9xvi9BcNgQgkOyWigouYbrbhwvhtLookQhdzPQqSyuOLd4EeL8uPwMOEovMiuQPsPMmO00LCBO4Ue5YcxxeBufkBvfQ2SkkBxfuFvfKzHs(mv14avJufvpJsgnvzAI0jjkohQ01qPopfmmuXRvbSovKE3zpO76Mb5hTpNbSp4HguE2RXoo7taRbDxB)GHwU1389MZ31NhGyTEDJvGKb7bLzdFT8hbioEa4WfQB2d6o7bDxBIEx5cMtcffucVkqEVQbiU6lrjaHlkzvpGFuucLyLY9MYIsUSt5WelkrtabhuETj6DfLWRcK3RAaIR(sucCoCZdYATj6DLlyojuuqj8ibgg)IfLOcK3RAaIR(susodpBKdlkXkn1YAqPRnrVROeEvG8EvdqC1xIsYz4zJCge71MO3vucVkqEVQbiU6lrjwzlM4oiJRnrVROeEvG8EvdqC1xIsUSt5W0AyeUs(JaeZE16UcSowIIkCHUggaCbaEzy9jHbyacNB2d6U2e9UIs4ptaG5uosus2kBKl8bLxBwpGFuHgymqj8QW7bWiXdB8WkniR1MO3vUG5KqrbLWJra7PpyjrjSHZLfLyLY9MUAnmaH8hbiM9Q1NegosagVlM9GURnrVROeEKadJFXsfiVx1aex9LOe2WnUA1Q1mKuEcG124yeLNbzNCGyTmiHUET8xtEqz0kaoCOfUqhJRwTba",
+		["SAM_DISC"] = "dKZHcaWsvv5TsY2iszMsinBI6MsWVuvUnfTtKSxLDlA)qEmQ(RQQACsjnqPsdvQyWqnCPkhukQtd0XqPJlHYcrilvkKfJuwoHhkf5PQSmvXZP0erOMkkMmrmDsxMQZJGNHuDDvPnkf0wLc1Mjs2UeIHjLywi6ZsQdlmna9nPQgnfgVeQoPQk3vIUga3JivVwk15Kc8Bqp2Xmk2DxZf(N4FxtJ6zm7yczpv7o2h6SpSp7i2LkEL1rXU7658FepQhasBxHGlGn2fwqyAhZOyhZOy39XdRIWvD7jheCbjcNqo0KwOKiCc5grMUmywxIWS9h1ZUpEyveUIdnPfkjcNqUrKPldM1LimDGaPtFu039XdRIWvCOjTqjr4eYnImDzWSUSQRuq(RLeH9IdAvljcNqJqysIWjuIhskR62toi4IseMT)OaU7Jhw16f71tUJWvjKBez6YGzDjclCRRsxdrTRimcdO1gqIWa7daylKimW(aa2YOaS7JhwfHR4qtAHsIWjKBez6YGzDjcdOva7yeGzBxzhr7yeGzBxFgr7AcAsl0r0Ut9En8n5kim31racfGkHD)5e6iCRDmJID3NgIAxr4QUsb5Vwne1UsIWgHWKeHtOepKuoQNDFAiQD1t3KacxLqJqysIWs8qs5OOV7ZQHqdvdE7P76aTAHGlGJz6UocVqWfWXmD3FoHg5YEy9XmD60Dn)QgqXogqtOAqOOVT9D)4WC3Ucr(gY)s1ffXtfeMJ20PBa",
 	}, -- [5]
 	{
-		["JMM_DK_BLOOD_ST"] = {
-			["Talents"] = "2,1,1,2,1,3,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 250,
-			["MacroVersions"] = {
-				{
-					"/castsequence reset=combat Marrowrend, Marrowrend, Death Strike", -- [1]
-					"/cast Death Strike", -- [2]
-					"/cast [@player, combat] Death and Decay", -- [3]
-					"/cast [combat] Blood Boil", -- [4]
-					"/cast Heart Strike", -- [5]
-					"/castsequence [combat] reset=combat Heart Strike, Consumption", -- [6]
-					"/cast [@player, combat] Death and Decay", -- [7]
-					"/castsequence [combat] reset=combat Blood Boil, Heart Strike, Heart Strike", -- [8]
-					"/castsequence reset=combat Marrowrend, Heart Strike, Blood Boil, Heart Strike", -- [9]
-					"/cast [@player, combat] Death and Decay", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [combat] Vampiric Blood", -- [1]
-						"/cast [combat] Dancing Rune Weapon", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_DK_BLOOD_ST"] = "da0Xdaals6xsXWiL0Xukltc9mjOPPevxJuITbvrFdQQmoOQQZrkW9ivmqsLoiPqlekEiPOMOeDrOk1gjfzKsfNuQ0kjLQxkbMjPGUPsANq8tPKgQuIJcvHLQe5PkMQs1vHQITkLQVcvLElu6UqYEr9xa1GfomLftIhRQjdWLr2Ssu(mPugTs40a9Ai1SPs3Mk2TK(nOHtQ64aYYv55u10jUUu12HQKVlLY5Hk7x08gVZiB8O91vGllaymAyRTwc8SZif5DE2nxQkEEkQUPUPwuDtTq1c5PKwM17kmYgpJE67wYif1Iw5z1(d2oDEqy1Z7mYgVZiB808Mx8eq9u9PmoYtIop0rXKmwT7GTDufGAgR2DW2oQcqnJsYKfzmYbIMyKI808MxYOKmzrgJCGOjgPqEAEZlzGvx9Ugo6uZ4HokMGkJsYKfzyvazusVHJrwopnV5LmW(qhftqLbgxieqgyGGUmIw4P5nVKrhYojJroq0eJGN808Mx8eq9u9PmW(qhftqLXrEs05HokMKrhYojJroq0KAgAgw99o6fqyLrWpEAEZlzGvx9Ugo6uZ4HokMGkJsYKfzyvazusVHJrWFEAEZlEcOEQ(ugyFOJIjOY4ipj68qhftYaJlecidmqqx1m6q2jzmYbIMuZOdzNKXihiAIr0aEAEZlEcOEQ(ugh5jrNh6OysgR2DW2oQcqnJoKDsgJCGOj1mW4cHaYade0vnJoKDsgJCGOjgztR808MxYaRU6DnC0PMXdDumbvgLKjlYWQaYOKEdhpTa9YQ9hK3zHNri9AQV(ciSYZqa1tvb0C5Pac3sKlzEI3zKnEAEZlzG9HokMGkdmUqiGm0u)HJrkYtZBEjdSp0rXeuzGHopDObRAJfEA5Ov7piVZcpfq4A5iVN3zKnEAEZlzG9HokMGkJ2nh9Gh4NbgxieaJuKNM38sgyFOJIjOYO0QpyvBzSuFLYaFjtpSYclSWJg7LfWJhTBkk0bs6wEgAJNUpSYtxK2bET7OzGXd8bVN9UTISQXLkGNvR2BUDRcD4fvfqyLvyHfMb",
 	}, -- [6]
 	{
-		["JMM_SH_RESTO_AOE"] = {
-			["Talents"] = "3,2,1,3,3,2,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Chain Heal", -- [2]
-					"/cast [@player, combat] Gift of the Queen", -- [3]
-					"/cast [@player, combat]  Healing Rain", -- [4]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Healing Stream Totem", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["SAM_ELEMENTAL"] = {
-			["Help"] = "A simple Elemental Macro",
-			["Talents"] = "2211121",
-			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 262,
-			["MacroVersions"] = {
-				{
-					"/castsequence [nopet:Fire Elemental] 198067", -- [1]
-					"/castsequence [nochanneling] reset=8  8042", -- [2]
-					"/castsequence [nochanneling] 188389, 188196, 188196, 188196", -- [3]
-					"/cast [combat] 51505", -- [4]
-					"/cast [nochanneling] Thunderstorn", -- [5]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-						"/petattack [@target,harm]", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Stormkeeper", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
-		["JMM_SH_RESTO_ST"] = {
-			["Talents"] = "3,2,1,3,3,2,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
-					"/castsequence [combat, mod:shift] reset=combat Flame Shock, Lava Burst, Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt", -- [2]
-					"/castsequence [@focus, exists, nodead][@Party1, exists, nodead][] Healing Wave, Healing Wave", -- [3]
-					"/cast [@player, combat] Healing Rain", -- [4]
-					"/cast [@player, combat] Gift of the Queen", -- [5]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Healing Stream Totem", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["SAM_ENHANCEMENT"] = {
-			["Talents"] = "2211121",
-			["Default"] = 1,
-			["Help"] = "Sample Elemental Macro",
-			["MacroVersions"] = {
-				{
-					"/cast Stormstrike", -- [1]
-					"/cast Lava Lash", -- [2]
-					"/cast Crash Lightning", -- [3]
-					"/cast Flametongue", -- [4]
-					"/cast Rockbiter", -- [5]
-					"/use 13", -- [6]
-					"/use 14", -- [7]
-					["KeyRelease"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/targetenemy [noharm][dead]", -- [1]
-					},
-				}, -- [1]
-			},
-			["SpecID"] = 262,
-			["Author"] = "Lloskka",
-			["ManualIntervention"] = false,
-		},
-		["JMM_SH_ELE_AOE"] = {
-			["Talents"] = "3,2,1,2,3,3,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
-			["MacroVersions"] = {
-				{
-					"/cast Stormkeeper", -- [1]
-					"/castsequence Chain Lightning, Chain Lightning, Chain Lightning, Flame Shock", -- [2]
-					"/cast [talent:5/3] Elemental Blast", -- [3]
-					"/castsequence Chain Lightning, Chain Lightning, Flame Shock", -- [4]
-					"/castsequence Chain Lightning, Chain Lightning, Chain Lightning, Earth Shock", -- [5]
-					"/castsequence Chain Lightning, [@player,combat] Earthquake", -- [6]
-					"/castsequence Chain Lightning, [@player,combat] Liquid Magma Totem", -- [7]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast Lava Burst", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/castsequence  reset=target  Flame Shock, null", -- [1]
-						"/castsequence  [talent:1/3] reset=combat  Totem Mastery, null", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_SH_ELE_ST"] = {
-			["Talents"] = "3,2,1,2,3,1,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
-			["MacroVersions"] = {
-				{
-					"/cast Stormkeeper", -- [1]
-					"/cast [talent:5/3] Elemental Blast", -- [2]
-					"/cast Lava Burst", -- [3]
-					"/castsequence Lightning Bolt, Lightning Bolt, Flame Shock", -- [4]
-					"/cast [talent:5/3] Elemental Blast", -- [5]
-					"/cast Lava Burst", -- [6]
-					"/castsequence Lightning Bolt, Lightning Bolt, Lightning Bolt, Earth Shock", -- [7]
-					"/cast [combat] Fire Elemental", -- [8]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast Lava Burst", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/castsequence  reset=target  Flame Shock, null", -- [1]
-						"/castsequence  [talent:1/3] reset=combat  Totem Mastery, null", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_SH_ENH_ST"] = {
-			["Talents"] = "3,1,1,2,2,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 263,
-			["MacroVersions"] = {
-				{
-					"/cast Rockbiter", -- [1]
-					"/cast Earthen Spike", -- [2]
-					"/castsequence  reset=9  Lightning Bolt", -- [3]
-					"/cast Flametongue", -- [4]
-					"/cast [combat] Crash Lightning", -- [5]
-					"/cast [combat] Feral Spirit", -- [6]
-					"/cast Stormstrike", -- [7]
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["KeyPress"] = {
-						"/cast [combat] Doom Winds", -- [1]
-					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
-					["PostMacro"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_SH_RESTO_AOE"] = "dKdMcaWsOI3sW2ifz2OYnvL(feUTk1LPANqAVGDt0(v8tOk)Lu1VrmqOyOsWGLA4OKdcv1rHOCmrCCiQwOkILsQSyvXYf1dvr6PkTmu45inrsHPIQMSinDkxeQ0vjf1ZqPUUeTrviBvfyZKsBxcXhLqAwQQPPc6WcJeI8ysgTkPXRI6KOO7sOtlPZdLwPkuFwL41sOgsaEanb2JFF1ViPxhUlpE6XhpCbugapS8bNlnkSS)m(jF2F2FgF2WQHRnk5manb2LLRyQbGYqthc7BOYKd8mTsKuGhqtaEanbweQGAtlGrlrvs)t7NRuJ(Nwss9ivuatHiByt(t7NRuJ(Nwss9ivuqCADvwwn1bugWIqfuBAbmAjQs6FA)CLA0)0ssQhPIcykezdBYFA)CLA0)0ssQhPIcItF61OkNgjp4au2WIqfuBAbmS4cSE(pTIC)eM40fTQ1MMODA7QpnYkDxcOhclcvqTPfWWIlW65)0kY9tyItpnsEWvLxMwxuLWwGqT3qLjapyWUMZ6OsPYQejSRJ8sxA1GdwCCSfYoLc8aAcSiOgH1DOYKPfuxdP05QYlIGbBHS)gQmb4bdwCCS6CopOoWdOjWIqfuBAbf5(jmXPrYdUQ8Y0RL94EAEI53akdyrOcQnTGIC)eM40NWriPtFuzglGYgweQGAtlOi3pHjo9jEM65IRYlGbgyWIFPDLKH9445XZvhJg5O4awMkIewMOhO)L5EQEKPzCxEM4H(IVoCG9nKLbhtP55I4sRsKWdyGba",
+		["SAM_ELEMENTAL"] = "dKdycaWsrPERi2gHmtqvZgOBcOFPq3Mi7eK9QA3sTFuEmQ(RiP(nPgOifdfuAWinCaoOOYHv6yKCCfyDuP0sPsXIbflxW9ej5PswMqEovnrrjtfHjtGMoLlsOonr9mrQUovSrrrBLkvTzrcBNkvohbnlrvttuyykQgPirJdrJwr(MiLojOYNPsUMIY5vqxg6Uc1RjGV6ehs9QYbm1IHxmqXqe5G)qrN4vwykwhq7qQxeli2M)vuKsPIuVsjcc4vog1llbaezuXGOe22cYOaxEq)QaGC4Y6qrIIEbC5bT7XGxw3(tCi1joK61iF9Mhh4Gnhz0Kwdan3MPCazuXGOe22cgZOkHKZfL2df9AKVEZJdCWMJmAsR5tB3iOC7kMrdOhTurYOmk58mIou6Vg5R384ahS5iJM0A(02nck3UIzufjz6KcZZOkssLqr5zufjPsOO8mQIKuju0HY41iF9gJMW1sWSwmJotnB(Sdn71iF9gJM0A(02nck3UIzuIjNwqm4nDOFbR2BaxEqFIBVkdbKPtZnzD)QWboyBYl4RSXHUbbX1JN4qQxJ81BmAcxlbZAXmAz6GKaicad3EbBabU8G(e3ELnoe2a69N4qQxJ2gCHg2O0qgnP1tBqkorqCfm(qrVgbG2A2YfGrtsJTbxOLFAdsX3UD7vohBshErilPTPHW7ia(coUUF9c42oliCTHb3HTjR7dZTB)a",
+		["JMM_SH_RESTO_ST"] = "d4tsdaWyIEPeL3sPETKOdl1mvrMguHzRQopbDtKYVuLUTICAk2js2lQDdz)I(juP(Rk43Ggis1qvHgSWWvGdcLYrLiCmvYXLewibwQkQfRsTCL6HQIQNcSmjLNJyIsKMkLmzf10jDrOuDvvr5YuDDfAJsuTvOs2SK02HQ8rOe9vOK(mHURegPQW6Gsy0qX4HQ6KsQEMc6AQI09ufXkHkAwkzBsenFXwm1fdWjnAhapoCg7alCFayXu1ylgy1FhPegmCvBDTgUgUQTgYGs9Q94xzQlgag4Y6LYu1kjoyaTwUH4Y3ederylM6ITyQlg8kBIMHn9Qq5izLHJVHOKvgi4S3Zf20p2Bv41kdhFdrjRmqWzVNlSlY4SzGAMDMQgdELnrjEfJos6zylHt3TUYycoJfemMQArgBN46tKWP7wZO8Fp5zaWaLvUY4uJxNHGXnrxzCYiIrrgKygcGFDLXjJigfzqIzia(1vgNmIyuKbjMHa4xxzCYiIrrgKygcGFLPgYGxztuIxXOJKEg20RcLJKvgo(gIswzGGZEpxyt)yVvHxRmC8neLSYabN9EUWUiJhE)niXmWAJNVY4H3FdsmdS245mfoyWRSjAg20h8BH(ELHeoD3Argp8(BqIzCUniM6Pm4v2endB6d(TqFVYqcNUBTidS0uvZawndfJNrjgDhXGJqIsRLBiBXkdaQpO8rKunqedaEfJosn9NbL5cpUDcHTyQlg8su4GPwUHzylX0iK)niXcwzWXTtRLBiBXkdkZfE2)EtC2IPUyWRSjAg2s40DRfz8W7VbjMbq3EpLHfu9jMQgdELnrZWwcNUBTidbFiCoJYh3czQHm4v2endBjC6U1Ime4BIVR0GezLvwza2gvmWndWzFF7BJtV0DxzZG6siIb1PW1bA1bp)qjEg2bw1XnfnSDUmgqRrJ9Vos9nEosnqeFZkRmda",
+		["SAM_ENHANCEMENT"] = "dmdTbaWsqP3cOEnKAMqYSvQBsf)cQUTuANi2Ry3eTFP6VQu8BQAOivdwHHJuoOu4yk54aWsbvTyqLLt4HGINIAzuPNRQjcctvftgOA6KUieDzkxhkBeeTvvQSzvkTDqQhROpdHdlzKaXZaOrRs(ga6KaYPrY1uPQZlfnnG0DbkBdKCw5eYkm3W5gKeqAqGbPdsYje3CcFQTj1pSR7ATCxHHWUTW2AiRWGyBAH5QL226dKBR1KAT7dNAk8HBGPxEryuB)JgDf2PMc)DM4P8YpNqw5eYkm(SETpy1lAFvqH2cXnm(SETpqvqx9bQ6VcbWW4Z61(agr9x9bkkexQKsIieqdJpRx7di3vRPEjcmlK7dJpRx7d49t0WrPMieOcJJ9wFSameaggh7T(ybAyyTMWBBRElNOHz1ObjMCQuEzy2aaMjvQAhgwRjDH9FoHScJRLaHPM0AB2hal9xLOfmGb3kWblAy6cZPMcFordt3)Qtnf(CIgnAyMMnbcIqCHYnStjXQnqs1eqBsLYldCrJMa",
+		["JMM_SH_ELE_AOE"] = "dWdSdaWsfK3QOABeOMPc9yKMnGlt6Mq4xc62kYNvPDcP9IA3sTFr)Kq0Fvv63QyGkOgQIIblz4QkoOQihfIQogcoUQQfsiTucKflGLRupuv6PGwgc9CIMOIstvjnzcstNYfvGRcrLNjqxhrBeISvcInRkkBNGY5vIMfqtdIItd1iHO0RjuJwO1riCsLWDvfUgbv3JaSscOdt13ufvZe4vgLadficeFHi73bJd((KihWOe5vgU6aABsggeKiibqIGbbdcsKHZQpZjbmgLadHFu6IzzuIcMidr409ri6wIpTKxzuc8kJsGHHuxAzbTZEsSQF0nJsKHHuxAs9NuBQM1B0XDwJ4B0ACFbZ6n64oRr8nAnUVGz9gDCN1i(gTg3xWSqcWN0SGXdvmJgKHHuxAzn3CaTnri8WGpYAaGoPT5azjkGlngfzyyi1LMu)j1MQz9gDCN1i(gTg3xWSEJoUZAeFJwJ7lywib4tAwW4HkMrfoddPU0K6pP2unR3OJ7SgX3O14(cM1B0XDwJ4B0ACFbZ6n64oRr8nAnUVGznW3wmly8qfZOcMHHuxAs9NuBQM1B0XDwJ4B0ACFbZA(WFa8L6gKEMc42JSg4Bl(t6Ivg95mmK6stQ)KAt1SEJoUZAeFJwJ7lywZh(dGVu3G0Zua3EK1i(Nel0Sq43jpR1JPtmCMJ0q409HxzJHqt)Geztn8Pziu)j12WoadhsxoZwLsELrjWWqQlnP(tQnvZkRTkvtaMVVQLvwib4tAwW4HkgmRMeaGrjYWqQlnP(tQnvZkR5MdOTjccHbFK1wLQja6zkGBzL16X0PSq4st3lbZQjbayJHZSveoDF4v2y4q6sbPaQlvELrjWWqQlTSgDH5zjk5wAmkrggsDPL1C6zkGBpYsuGZrOzHe5EjJgKHHuxAznNEMc42JSev3sDlg3x2yJng(ePfpBgkqpqaDJ1HND7IDgUGEAgUaviFrSa((f5rUbW1fIefXtcAigIWBshyrB6wyAB4tZbyJnMb",
+		["JMM_SH_ELE_ST"] = "d0JpdaWskLERczBqIEmHzQkDzsZMIdl6MQk)cvUTICEiv7uL2ly3OSFP(PQQ0FvOgNQkmqibdLsLblz4ufDqiLokKqhtfoUIYcf0sHKAXevlxOhQQkEQsltv8COMiLQMQcMSQkz6ixKiDvvvQNruUoQAJkQ2kKKnRQI2or40qmlkzAQQQEnvPrQQQCxQkJwfTokfNKQQplW1OkCpifRKiYVPY3iIA4agG7bSs67B8(VXsFLoEhG7dma7qAugHHvM1J1H1JLmRdRhyTx)zYBi4Ea76Pk8BpCFq5dSFPi6qLgXiogggG7bma3dy5ejM6AjxCYRQEQr4(alNiXuxJO0OmYgp4K5RlPgDszuA6k0KycUYGLtKyQR3uISRq(iMG7)HLtKycRZ4vMq76fj4KyiSGUcDgYQRxKGtIHWc6k0ziRUMBYjTR90j8cxpGLtKyQRruAugzJhCY81LuJoPmknDfAsmbxuclNiXuxVPezxH8rmbxjdlNiXewNXRmH21lsWjXqybDf6mKvxVibNedHf0vOZqwD9IeCsmewqxHodz1L0msNDTNoHx4(dy5ejM6AKWnjpjFDnhjQDj1OtkJsdS25W0xkIoyaiyxs9CoptqiogSRoJxzesAG1wfD7IkgddW9aworIjSoJxzcTRUIkwj0qzmqPU6AUjN0U2tNWRvxmEJbUpWYjsmH1z8ktOD11iknkJS5GtMVUIkwj0iCtYtQRUgCKo11xIjnIUvxmEJbiyTlQFPi6GbGG1wfDuRgnXkma3dy5ejM66nLi7kKpIj4(alNiXuxJeUj5j5RRqJZ9RUMZhrhUYGLtKyQRrc3K8K81vOgXA0lclaiGacw0YtNUiSskLlxJikkyFm9MW6x4yW6)IQXF(3)mgf)T0DW)FVFOf12c7xY4tJFgPrjugH4yGCGacaa",
+		["JMM_SH_ENH_ST"] = "d0drcaWsvrVLiTnHspgQzkK6YsMnPAwQQUPO6xK03eu19euStkTxLDtX(b(PGk)LO8BKgOGKHkv1GbnCrYbfIoQGshJuoUiyHQsTuIWIfy5eEOi0tPAzQkphXefPMkKMSqLPJ6IQsUQqWZerxxQSrPkBvizZcsTDIiNwkFvq4Zq0RjHrku15iIA0evhwLtcHPje6AcIoVQWkfkUlj62IYtBOZQnpM8CzE8YEzJxMJo73qNJE6LHjZt(R9R9)9)9R9NCE6k0xNopR2CpvHrKE2Vytop)WcAuLG0OgYqNvBOZQnxfFegaLGIve04sm73Cv8rya81jy5Lba9unf1SjNRIpctQe6kdUaqauuKIdJKbqam6gs5SPzqcGVP68SrCUk(ima2t)YkMAq2vZgY5Q4JWaOumnl4yLayIIJihaJUHuoBAgKZg7Cv8ryaukMMfCSsaSxjoDa0t1enE2WpxfFegaDMkYiSOPOM)SEirPxhPg6SAZvXhHbqPyAwWXkbW36uACayVoXJz)MRIpcdGsX0SGJvcGVlbPekAgKJN)SE0xueYqNvBUk(imakftZcowjaMMsZaWq0mXrgpVpLW5hwqh6459fv(Hf0HoEUZvQEDgm3OM5ELqxz42PpE88i7y5uX8yUGGs0QqLwCkU5iWuZCe2OKLJWtuwyJWlhfr4S5rkXZ55NP70ry4siPYWnQzbJhVb",
 	}, -- [7]
 	{
-		["JMM_MA_ARCANE_AOE"] = {
-			["Talents"] = "2,2,3,3,1,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
-			["MacroVersions"] = {
-				{
-					"/castsequence Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Barrage", -- [1]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_MA_ARCANE_ST"] = {
-			["Talents"] = "2,2,3,3,1,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
-			["MacroVersions"] = {
-				{
-					"/cast Prismatic Barrier", -- [1]
-					"/cast [combat] Mark of Aluneth", -- [2]
-					"/castsequence Arcane Blast, Arcane Blast, Arcane Blast, Arcane Blast, Arcane Barrage", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_MA_ARCANE_AOE"] = "dyd4baWsfQ3QOSnfOzdYnrPFre3wr1ovQ9kTBv2pj)Kq8xi1Vv1arrmuf0Gj1WPIdcQJIIQJruhxbSqfXsvIwmkSCOEiHYtf9yKEoQMOI0uryYqsnDGlsvDvijpJq66uPnsqTvcvBgfLTJI0Sq0NvixMYHfgnbA8ePtQKwgv50qCELWkjiVMaUlK4kxIULBkellAwy0WlfdE7Jgwe)U9krtIaYoaVPhPhPOKIskt6r61CQXSWfc0TCZ0XORt7EqVMSbf)IByoYF8s0TCj6wUPeAWbCBax7OMsdJPXzkTVuhONJ8hPsdJPXzkTVuhONJ8hPsdJPXzkTVuhONJ8hPsdJPXzkTVuhONJ8hPsdJPXzk9KaJJrwZHphWgu8xIcAMaZry3Jcq(RzAd4AhajGAo2wS0GSGBLOB5MsObhO0ZO)CgbafLEc0)OwPf2fVOBVMsObhO0ZO)CgbafLEIH5gwaKBubnhIn2GI)suqZX2IHyJZlr3YnLWbVZ8GIFLEgvW4odc5gHsbfuqtyxGGpUPqbdgggXyYuCiq0CL(xZ1T4OzxtXqZCu5NeRISzHxoUjBCUb06bmmtTdG8xzuqbTa",
+		["JMM_MA_ARCANE_ST"] = "dudfcaWsPsVLsSnGkZgWnrPFbKBJI2Pu2RYUrA)q9trv9xu43enqkOgkL0GrmCPIdcPJsb5yIYXPiwOiTuGYIvvTCvEOOkpvYYOupNWevLAQqmzGQMUWfPO6QuGEMuvxxeBKI0wPOSzkKTtbmlu1NLQCzQgTQOdt6KQk3vu50OY5vLSskuVwv4XGEzdzTSvgZYYGfLbky5H2mNrHSM9qwHOaoneRS5T57Z3NpJ3M3E1B3inbiwlBv1XHFVxdC2Ryv4jnZpbNKkgYAzdzTSvGGQiWeRhNGPgCqmjvVJZV1SxbcQIatSaLm)1ihMWQ3dmrAeMGcKq945A9xbcQIq4MK4uOJjOhuPoMKcOIGhtqpOsDmjfqfbpMGEqL6yskGkcEmb9Gk1XKuave8yc6bvQJjP6DApFLvPiyv4jhYIvv4DmnHcdojDv5MK40Gtbw11FbMd4QWhYAzRabvrGjwGsM)AKdtsbKsWJjMMCVwZEfiOkcmXcuY8xJCysQFc)EWr7TyL1Zzv4jhYIvD9xwpxigYAzRajczhMk8KyIf4tLsDaoAVClwSyfAs8uERmw))9JZn87tFOR(Gs6QVMzmy)Q8yyidAEH8LFJffSURyvAIc8rd)mGtdojD)lwSba",
 	}, -- [8]
 	{
-		["JMM_WK_DEMO_ST"] = {
-			["Talents"] = "3,1,2,1,1,2,2",
-			["Help"] = "",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["MacroVersions"] = {
-				{
-					"/castsequence reset=combat/15 Shadow Bolt, Call Dreadstalkers, Demonic Empowerment, Life Tap, Shadow Bolt", -- [1]
-					"/castsequence reset=combat/15 Shadow Bolt, Hand of Gul'dan, Demonic Empowerment, Shadow Bolt", -- [2]
-					"/castsequence [combat] reset=combat/15 Shadow Bolt, Summon Doomguard, Demonic Empowerment, Shadow Bolt", -- [3]
-					"/castsequence reset=combat/15 Shadow Bolt, Hand of Gul'dan, Call Dreadstalkers, Thal'kiel's Consumption, Shadow Bolt", -- [4]
-					"/castsequence reset=combat/15 Shadow Bolt, Shadow Bolt, Grimoire: Felguard, Demonic Empowerment, Shadow Bolt", -- [5]
-					"/castsequence [combat] reset=combat/15 Shadow Bolt, Command Demon", -- [6]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-						"/petautocastoff [group] Threatening Presence", -- [3]
-						"/petautocaston [nogroup] Threatening Presence", -- [4]
-					},
-				}, -- [1]
-			},
-			["SpecID"] = 266,
-			["ManualIntervention"] = false,
-		},
-		["JMM_WK_DEMO_AOE"] = {
-			["Default"] = 1,
-			["Talents"] = "3,1,2,1,1,2,2",
-			["Help"] = "",
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 266,
-			["MacroVersions"] = {
-				{
-					"/castsequence [combat] reset=combat/15 Demonwrath, Hand of Gul'dan, Demonic Empowerment, Demonwrath, Demonwrath, Life Tap", -- [1]
-					"/cast [combat] reset=combat/15 Grimoire: Felguard", -- [2]
-					"/cast [combat] reset=combat/15 Command Demon", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [mod:shift] Drain Life", -- [2]
-						"/castsequence reset=target Doom, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-						"/petautocastoff [group] Threatening Presence", -- [3]
-						"/petautocaston [nogroup] Threatening Presence", -- [4]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_WK_DESTRO_ST"] = {
-			["Talents"] = "1,1,?,2,1,1,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
-			["MacroVersions"] = {
-				{
-					"/castsequence reset=combat Immolate, Shadow Bolt, Shadow Bolt, Shadow Bolt", -- [1]
-					"/cast Chaos Bolt", -- [2]
-					"/cast Conflagrate", -- [3]
-					"/cast [combat] Dimensional Rift", -- [4]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Priority",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [nopet] Summon Doomguard", -- [2]
-						"/castsequence reset=target Immolate, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_WK_AFF_ST"] = {
-			["Talents"] = "3,1,2,1,1,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 265,
-			["MacroVersions"] = {
-				{
-					"/cast [mod:shift] Seed of Corruption", -- [1]
-					"/castsequence [combat] reset=combat Phantom Singularity, Unstable Affliction, Unstable Affliction", -- [2]
-					"/castsequence reset=combat/target  Drain Soul, Agony, Corruption, Unstable Affliction, Drain Soul, Agony, Corruption, Life Tap", -- [3]
-					"/castsequence [combat] reset=combat Reap Souls, Unstable Affliction, Unstable Affliction, Unstable Affliction", -- [4]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/castsequence reset=target/combat  Agony, Corruption, Unstable Affliction, Drain Soul, Null", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_WK_DESTRO_AOE"] = {
-			["Talents"] = "1,3,3,1,2,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
-			["MacroVersions"] = {
-				{
-					"/cast [@player] Rain of Fire", -- [1]
-					"/cast Conflagrate", -- [2]
-					"/cast [@player] Cataclysm", -- [3]
-					"/cast Channel Demonfire", -- [4]
-					"/cast Shadow Bolt", -- [5]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Priority",
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [nopet] Summon Imp", -- [2]
-						"/castsequence reset=target Immolate, null", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_WK_DEMO_ST"] = "d0JTeaWsOiVvPyBqHEmQMPOkDzKzRWZr5tkb)se3wr3tf1ofL9k1UbTFs)KOQ6Vqj(TWajQsdLOyWugUQYbjQkNMihtP64kjluvSuOuzXQQwoHhQe6PqwMsQ1jQktuLAQQstgQMovxKOYxHsvptfX1bAJqjTvIQyZkL2Uks9rOuMfGPjQIVRcJekQdlz0I0RjkDsvK8zrLRPsCEOGvkQQURs0nvjDV3VD2EJY)1Ryb7XewUL7Q8Jf0BNTUFB0BniOZA0ja7aRb2b2bwdSUryMgFnQr302cC4D2EJqFe)u3D2AmIXgjFGEAiAu(R)FsirY7TOKTA01Ilc5HemPaY63oBVF7S9gLWlMZOvGeKtQjig5N5X8V8K9lQHsl84qTNy4aQTyngQDlOcN51qwsWau7MMbuIRMCZV4Getc6aQLxPTKAV1hGAO0cpou7jgENTUrj8I5mAfib5KAcIr(zEm)lpz)IAO0cpou7jgoGAyUG4QfBvdBGJfWliGA30mGsC1KB(fhKysqhqnuAHhhQ9edVZoPrj8I5mAfib5KAB4X8V8LQjig5N5X8V8K9lQHsl84qTNy4aQHaNZaQ2DeZCGLahqTBAgqjUAYn)IdsmjOdOgkTWJd1EIH3z5Prj8I5mAfib5KAcIr(zEm)lpz)IAO0cpou7jgoGAyUG4QfBvdBGJfWliGAlwJHA3cQWzEnKLema1EtRXcYkrJfyQTyazGZpxkGaQHsl84qTNy4D2LgLWlMZOvGeKtQjig5N5X8V8K9lQHsl84qTNy4aQHsl84qTNy4aQHnH0mKeu(udR0ihyjWbu7MMbuIRMCZV4Getc6aQHsl84qTNy4DggBucVyoJwbsqoP2gEm)lFPAcIr(zEm)lpz)IAO0cpou7jgoGAlgZzbXv7MMbSrYem)AXfr)2EJqo9Hvqi3LcyJq0kqc6s1OryIWa2rdQyu)2z7nkHxmxTn8y(x(s1EgrGRgwbfyOZw3OeEXC12WJ5F5lv7HemsiRemxNDsJs(iVa9Gxmp2UvTn5eb43s1Etfu5eucMtnzeeJGCQZYtJs(iVa9GxmpGQTbg5eb43s1Etfu5eucMtnzeeJGCQ9gjJGUwCr0VT3imryqgbXy9BNT3OeMhFZIlc12WtliKgsWCl7S1nkHxmxTnZapFSuPT(s1UfLeuT8kTL6StAucVyoJwbsqoPMGyKF2lroYv7oIjGAqWXO92BVrxliynof0jXPjOlfW(V927ga",
+		["JMM_WK_DEMO_AOE"] = "d8ZjdaqzIdl6LqvERIABqjwgk1mHICpOsZwOonQCtvPFrr3wsFvbQDQQ2lYUb2Vs)uG8xf0VLAGkqgQIyWQmCf6GcOJQiXXOuhxbSqOIwkuQwSeTCipekPNc6XKSoOqtuctLsMSGmDQUiuvxLcPNHcDDu1gfO2kuuBMc2UIu(ifIzjKPPiPVJcgjukpNuJgLCxvXjfuFgfDnb48uOwjuWNuKQxdvyYMSOVnbXW77WbJ3Wc8FdAyGbHp9ztweeBs8ibjOvglaxtqgJSJyhzhzhXoInbledjFStFBcchfv4c6ZglyHGVPc1ywqAUgOjl6Btw03MGMQu7AzaEbOK9MvDTm9N9qIwCCvDTmDt7a2RqQnGbu6SI2dBji0ETH9mcF80dLGO9kKAd4u7HFDSzqqvb4r7vi1gWakDwr7vi1gWakDwr7HjodYEw5i9ztqtvQ99MvDTm9N9qIwCCvDTmDt7a2ZiiUAZHemUxWsmt(efI(msqtvQ99MvDTm9N9qIwCCvDTmDt7a2dRDTMGq7vi1gqWjT2FtfQjlYji0LXG5bkNRbeekdWlaNlJjiEIXyxILulKf9TjOPk1(EZQUwM(ZE4mU7q7fmpYy6ZMGMQu77nR6Az6p7HtbPfeo4amPpJe0Cu8K3BvQ92GH9MzIA(XN9SyHK0fahG5EtqIwakH(tLGMJIN8ERsT3G9MbntuZp(SNflKKUa4am3Bcs0cqjKtWji5nvOMSiNG4jgpbjAnzrFBcAQ9ESMkuV3SIvcasmhG5d9ztqtvQ99MRDimQzXzWF2RaLCG9WeNbH(msqtvQDTmaVauYEirloUEIyk(EfDxJ2dWhhto5KtWa5DwnIGyillfeNmOcuIJKGHvnGGH)yE4ByiwhofJIp0kCq)3aXoEe8nb8zCyGlOPjaNRbuj5Kte",
+		["JMM_WK_DESTRO_ST"] = "dSJBcaWsfP3srTnavpgvZwjhMQBcWVePVjkQ)jkXovQ9QA3KA)G(POk)Lc9BPgOOqdvHmyidxrCqrPoQOKogkoUc0cHQwkGSyGSCsEiuPNkSmG65inremvenzkY0jUOcYvff5YsUoLAJkGTkQ0MPaBNcQPjkywI4ZuIVdvCprfptuvJgH(kfKtQOUnuonkDEfQvQG6UusVgq5ZCYVzEmmaagn0uJegkibkpJb53Gp5dsFvAH(GjHjjljGtysysa)GqzGBVKVzEetk(mHVbd8m)aGZvDULIY2A6j)M5KFZ8iL7uHwdAxAEbrQIwso8gdKlq0mgwVCPsGOGOBQXbIW3ljbIcIUPghicFVKeiki6MACGi89s(g8JuUtficxIEtHi89s(o)hPCNkqeUT2GLBr5s9DgEKYDQarM5ngixScreyXknLT1(cIaI1a5XOMkaCUQp5LhHutgWwZf2w)yKITvSY4htRXavRYP1j)M5rk3PcezM3yGCXkeHF1TjiAaB14Vb)iL7ubImZBmqUyfIWxkAPagR2YLhJufaNR6tE5X0A8ivrPN8BMhPuPNG5CvdrM5eDTUwSAlw)g8JuUtfiYSUNuIvikSXWAnerOBml2UY035)iL7uHwdAxAEbrQIwsoIRSucenJH1lxQeisBVwxUC5r22cXw9yyheOsXwzKGYbM)yM36hZ7CncyoW1ywZ0qb5CEBazd00haCTTVM1sPmCPf2wFqxU8da",
+		["JMM_WK_AFF_ST"] = "dSZEdaWsuWBLcBJuLMjqvnBbpgQBIs(fqUTQYLPANKYEPSBv2VOFcuP)QQYVvmqesgkk0GLmCeCqHCuGkoMu1XbkleHQLsQQfdPLJQhQQQNcAzsjphPjkfnvPYKfknDIlcuLRIs9mHIRdyJikBLufBgITJqPdR0SuLPHq4EisxdHIVIqQrJO6UsPoPq16qi60KCEsLvIi8zu0RreT1BDMwVbjblw)iAg(frgz)GDMwlRZGDBWpHAWyE9VwV(x)R)fJbB6ilqqmTEdcj444nnTw6LymiRfZh94CQAoQ1zA9wNP1Bqq4Lkz14BILiPKRqK2zbDp2SgKS(pCoabrnNP1YGGWlvOoya(H9SAGNp0vANf3PUqkE(qxjlgjFpz(YcQoMaHLReDVSyFuzrdEwriibfwuZ9YI9rLfn4zfHGeuyrnNPfJbbHxQqDWa8d7zXDQlKINp0vajlNPlzLvt(QUSGdq4LveZ509Y6)W5aee1CVSyFuzrdEwriibfwuZ9YQjFvxwWbi8YkI5C6Ez9F4CacIAUxwGVcXZQBjyAeHbbHxQqDWa8d7z1apFOR0olUtDHu88HUsw67lHSGdqG(YI9rLfn4zfHGeuyrn3ll2hvw0GNvecsqHf1CVSyFuzrdEwriibfwuZzqghQWAX8X6mXGqXjqgWHf1Cge6Gb4NO2GbzW1PVh8L6wNP1Bqq4Lkz1apFOR0olIhMj2SidGRZ0Azqq4Lkz1apFOR0olI7CQZjP6yAIbzK7SwmFSotmidUog5oLADMwVbbrLHW3I5twnWKV35b1XSTP1YGGWlvOoya(H9S4o1fsLLZ0fq45dDLSYkI5C6Ez9F4CacIAUxwSpQSObpRieKGclQ5Ez1KVQll4aeEzPbecMyIjgmcqiF4gKelkQZvor1KVKCnyC8CgmUME(Xko8)pWHn4b7IdUASI0NbdYApGne)eNtS(jQ5mutmXm",
+		["JMM_WK_DESTRO_AOE"] = "dSZtcaWsvkVfI2gPepMWSvLll6MQOFrsFtssttsIDkXEv2nk7hPFcO(lQYVbnqGQHkPAWqnCvvheiDusjDms1XjLYcbILkfTysXYr8qPWtfwMk8CIMiQQPIktwLktNYfbKRQsvptk11LQ2iqzRssTzPsBxsW5vvMfaFwQ47sI60q6RKs1OLsomvNuLCBsCnjrUNKqRusXDHWRLu6PpUv0xuZ5jpTFJhFGcUMaZduGbALJXTGZFjZKl0b0gqBa6aoaCa4yb)SR3)Sv0xe)P4I)khAPQloDbbwDsKOqMCCROpUv0xOkCPrXib))5Fjbbf30rzumSlfdgkjx5yHQWLgf3aY6(8oe3YvAVqv4sJIrc()Z)scckUHBU49jvwPklufU0O4gTCglFum)ubY6IsYvQ0cvHlnkoA53bRmfdc8zlQdL2PliWXnBry5py9mHHczlQtqHeu7BXT8Rz(sxMJBf9fQcxAumsburJBiOyqEq4Dumy9KVvowOkCPrXifqfnUHGIbjjYKulkRZSf1j5PliWXnBXT8RojLYXTI(cvPb)vCbbsXifTCglFOSoiw5yHQWLgfJKb)tdbfh9kkqgfFP8Vs7fQcxAYuB9jtKumjLPvrZjDsJIVuuGp3saumR)9MnB2cq7TwqYIACnAscAcoFIxRV4sazlUkvZ78kAWtR3duWDbC5e0M3wC6SE)DXSKuHKzOq20mB2g",
 	}, -- [9]
 	{
-		["JMM_MK_BM_ST"] = {
-			["Talents"] = "2,1,1,3,1,1,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 268,
-			["MacroVersions"] = {
-				{
-					"/castsequence Keg Smash, Tiger Palm, Blackout Strike, Tiger Palm", -- [1]
-					"/castsequence [combat] reset=combat Rushing Jade Wind, Breath of Fire, Tiger Palm, Keg Smash", -- [2]
-					"/castsequence [combat] reset=combat Ironskin Brew, Tiger Palm, Blackout Strike", -- [3]
-					"/cast [@player, combat] Exploding Keg", -- [4]
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["StepFunction"] = "Sequential",
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_MK_WW_ST"] = {
-			["Talents"] = "3,2,3,3,1,2,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 269,
-			["MacroVersions"] = {
-				{
-					"/cast Tiger Palm", -- [1]
-					"/cast Rising Sun Kick", -- [2]
-					"/castsequence reset=combat Tiger Palm, Touch of Death", -- [3]
-					"/cast Strike of the Windlord", -- [4]
-					"/castsequence reset=combat Tiger Palm, Fists of Fury", -- [5]
-					"/cast Tiger Palm", -- [6]
-					"/cast [combat] Chi Wave", -- [7]
-					"/castsequence [combat] Fists of Fury, Rising Sun Kick, Blackout Kick", -- [8]
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-					},
-					["StepFunction"] = "Sequential",
-					["PostMacro"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_MK_BM_ST"] = "dSdRcaWsq6TuKTHO0Jrz2QQXrrLBsv9lvQBJWNPKDcQ9cTBQSFHFQqXFPk9BunqefdfidwYWPkoOkshvHuhJsDCvuleelLaTyfSCKEOcv9uLwgH8CIMifLPQktwLy6sDrvOUQcjptf46uyJeWwvrSzviBxHk3tf0xvimnkQ67ku6YKoSOrtqJxHOtIi3LqDAfDEvsRer1Sa8AGA0gFiSnUK7771hQxi(E3hclcF4(YV6AjUIaSbSboaWgWgqeUMPhLg)gHTXD9OmsMHWIiR5W1pzu(jkvo5oj(qyB8HW24EZszl1ZgQJPrbvTIAjsPqGOEtlLgfO8taefKFYaZn6O2MobRar9Mwknkq5NaHfH7nlLTupBOoMgLjgNyiBXrrvP2hY4edzhLGgsHtNvuKNx0OgX0DbikiunBHrXpkkbMufiQ30sPrbk)earbvTIAjsPqe(aCVzPSL6zd1X0OmX4edzlokQk1(qgNyi7Oir5oj4PlkiuDSar9Mwknkq5Naiki)KbMB0rTnDcwryZJ7nlLDuMiJNFEvParX4edzloQJhPNp)Y0zffu1cxO6vb1VMsfFiSnU3Su2rzIXjgYwCuq(C(LOeWGEfHfH7nlLDuMyCIHSfhfeLkvk4PZcBC3w9iGHJ1tUd3vpBOUEMFCHQxbrvPeFiSnU3YM7HizuEuMyctNt)tNLySXfev9tgLJpSXfex2(jJYXh2yJnUNA0c5uCjphgu6ujJz0eCIljg3Hlj4t86tAhV3rpQJ3hPXa7FQGqX1pDg5NKRv64uxp5oCaBSrea",
+		["JMM_MK_WW_ST"] = "dWtQcaWsK0BvPSnvIEmuxwy2O4UQuDtf6xuY3uq6EQOStfTxWUj1(f9tfu9xsQXPcYavb1qrIblz4KihufQJQc4yQsNtbXcvjSuiYIHWYj8qvKEQultbEoIjQkmvv1KHOMovxKevxLeLNrHUoK2is1wvrSzsY2vr1PjAwu0NrkFvv0Xvj9AuYOrPoSsNKeMMckxtfOZtbRufYTPu)gvdVWhMVqF04O6rQQF(uD)H5a4d9FzcTtG2O5atJMgnFnhyAe6hHQfLXH5l0TsbwXdyo4YHa94If8tcbrY1e4dZx4dZxOTWlXZ6lPfISOSm2WCa0w4L4zHKKi10YQr1zrvIzbtJqBHxItIROHghzjcs4NH52iwpRVKwiYIYYyBM1NJIzNfxvwpI1zdZHbTfEjEwTlKSIS4QYYzhz9uQrMHlqgMheAl8sCsCfn04ilrqc)mm3gX6z9L0crwuwgBZSOljojlUQSOJkmaZlH2cVepRVKwiYIYYydZHcTfEjEw3WCBeRFpRtzlZ65EEaZdbTfEjojUIgACK1nm3gX63ZIUK4KS4QYIoQWGzwijjsnTSAuDwuLywMzDbZIzXr9SOkXSGMAyaPGjwsaFy(cTfEjEw3WCBeRFpRly4CKZIoQWa4q3EOeDun2LCn0DCfn0UCzGMAyGIiie4dZxOTioxj7fl4zDdZE16GrQPDhCOPiIXfl4WhCOPWj(4IfC4do4Gd9XOoBUa6JweicHmo8dXYAHwbMRHwX8e1Jk6tvFaLP8(Ry4ZXJrIk0JRgDzuO9qCEODjxdiahCaa",
 	}, -- [10]
 	{
-		["SAM_GUARDIAN"] = {
-			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
-			["Talents"] = "2332213",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/targetenemy [noharm][dead]", -- [1]
-					"/cast Thrash", -- [2]
-					"/castsequence Ironfur, Ironfur", -- [3]
-					"/castsequence Swipe, Swipe, Swipe, Swipe, Moonfire", -- [4]
-					"/castsequence Ironfur, Ironfur", -- [5]
-					"/cast Mangle", -- [6]
-					"/castsequence Ironfur, Ironfur", -- [7]
-					"/cast Rage of the Sleeper", -- [8]
-					["Trinket1"] = true,
-					["KeyRelease"] = {
-					},
-					["StepFunction"] = "Priority",
-					["PostMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [@player, nostance:1] Bear Form", -- [1]
-						"/cast [mod:shift] Maul", -- [2]
-						"/cast [mod:ctrl] Frenzied Regeneration", -- [3]
-						"/cast [mod:alt] Wild Charge", -- [4]
-					},
-					["PreMacro"] = {
-					},
-					["Trinket2"] = true,
-				}, -- [1]
-			},
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 104,
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
-		["SAM_BALANCE"] = {
-			["Talents"] = "1323321",
-			["Default"] = 1,
-			["Author"] = "John Metz",
-			["SpecID"] = 102,
-			["MacroVersions"] = {
-				{
-					"/castsequence 8921, 93402, 190984, 190984, 190984, 190984, 190984", -- [1]
-					"/cast 78674", -- [2]
-					"/cast 202360", -- [3]
-					"/cast [mod:alt] 194153", -- [4]
-					"/cast [talent 5/3] 194223", -- [5]
-					["LoopLimit"] = "",
-					["PostMacro"] = {
-					},
-					["KeyPress"] = {
-					},
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-				}, -- [1]
-				{
-					"/castsequence [nomod] reset=combat  8921, 93402, 190984, 190984, 190984, 190984, 78674, 190984, 190984, 190984, 190984, 78674", -- [1]
-					"/cast 202360", -- [2]
-					"/cast [mod:alt] 194153", -- [3]
-					["PostMacro"] = {
-					},
-					["KeyPress"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [2]
-			},
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_GUARDIAN_ST"] = {
-			["Talents"] = "3,3,1,1,1,2,1",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 104,
-			["MacroVersions"] = {
-				{
-					"/cast [combat] Thrash", -- [1]
-					"/castsequence [combat] Swipe, Mangle, Swipe, Mangle, Moonfire", -- [2]
-					"/castsequence [combat] Ironfur, Frenzied Regeneration", -- [3]
-					"/cast [combat] Thrash", -- [4]
-					"/castsequence [combat] Mangle, Rage of the Sleeper", -- [5]
-					"/castsequence [combat] Mangle, Mangle, Mangle, Frenzied Regeneration", -- [6]
-					"/cast [combat] Thrash", -- [7]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast Mangle", -- [1]
-						"/cast [combat] Blood Fury", -- [2]
-						"/cast [combat] Berserking", -- [3]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:1] !Bear Form", -- [1]
-						"/castsequence  reset=target  Moonfire, null", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_BOOMKIN_ST"] = {
-			["Talents"] = "3,1,3,1,1,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
-			["MacroVersions"] = {
-				{
-					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
-					"/castsequence  reset=target/combat  Moonfire, null", -- [2]
-					"/cast New Moon", -- [3]
-					"/castsequence [combat] Starsurge, Solar Wrath, Lunar Strike, Solar Wrath", -- [4]
-					"/castsequence Lunar Strike, Solar Wrath, Starsurge, Solar Wrath, Lunar Strike, Starsurge", -- [5]
-					"/castsequence [combat] Solar Wrath, Lunar Strike, Solar Wrath, Moonfire", -- [6]
-					"/castsequence [combat] Solar Wrath, Starsurge, Lunar Strike, Solar Wrath", -- [7]
-					"/castsequence [combat] Starsurge, Solar Wrath, Solar Wrath, Sunfire", -- [8]
-					"/castsequence [combat] Solar Wrath, Lunar Strike, Starsurge, Moonfire", -- [9]
-					"/castsequence [combat] Lunar Strike, Solar Wrath, Lunar Strike", -- [10]
-					"/cast New Moon", -- [11]
-					"/cast Starsurge", -- [12]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Celestial Alignment", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_BATTLEREZ"] = {
-			["Helplink"] = "",
-			["Talents"] = "?,?,?,?,?,?,?",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus,dead,combat][@party1,dead,combat][@party2,dead,combat][@party3,dead,combat][@party4,dead,combat][@party5,dead,combat] Rebirth", -- [1]
-					"/cast [@focus,dead,nocombat][@party1,dead,nocombat][@party2,dead,nocombat][@party3,dead,nocombat][@party4,dead,nocombat][@party5,dead,nocombat] Revive", -- [2]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_FERAL_ST"] = {
-			["Helplink"] = "https://www.youtube.com/watch?v=IT31Rp7aIOU",
-			["Talents"] = "2,1,1,1,1,1,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
-			["MacroVersions"] = {
-				{
-					"/castsequence reset=combat  Shred, Rake, Shred, Shred, Ferocious Bite", -- [1]
-					"/castsequence [combat] reset=combat  Shred, Rake, Tiger's Fury", -- [2]
-					"/cast [combat] Ashamane's Frenzy", -- [3]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Berserk", -- [1]
-						"/console autounshift 0", -- [2]
-						"/cast [@player] Regrowth", -- [3]
-						"/console autounshift 1", -- [4]
-						"/cast [combat] Blood Fury", -- [5]
-						"/cast [combat] Berserking", -- [6]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:2] !Cat Form", -- [1]
-						"/cast [nostealth, nocombat] Prowl", -- [2]
-						"/castsequence [combat] reset=combat  Rake, Shred, Shred, Rip, nulll", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_RESTO_ST"] = {
-			["Talents"] = "2,1,1,1,3,2,2",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 105,
-			["MacroVersions"] = {
-				{
-					"/cast [@focus,exists][@Party1,exists] Cenarion Ward", -- [1]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Lifebloom, Regrowth, Rejuvenation, Wild Growth, Healing Touch", -- [2]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Regrowth, Healing Touch, Swiftmend", -- [3]
-					"/castsequence [@focus,exists][@Party1,exists] reset=15/combat Healing Touch, Regrowth, Rejuvenation, Ironbark", -- [4]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Blood Fury", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/stopmacro [channeling]", -- [1]
-						"/cast [talent:3/1, noform:5] !Treant Form; [talent:3/2, noform:4][talent:3/3, noform:4] !Treant Form", -- [2]
-						"/castsequence [@player] reset=combat  Efflorescence, null", -- [3]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DR_BOOMKIN_AOE"] = {
-			["Talents"] = "3,1,3,1,1,1,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
-			["MacroVersions"] = {
-				{
-					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
-					"/castsequence  reset=target/combat  Moonfire, null", -- [2]
-					"/cast New Moon", -- [3]
-					"/castsequence Lunar Strike, Solar Wrath, [@player] Starfall, Solar Wrath, Lunar Strike, [@player] Starfall", -- [4]
-					"/castsequence [combat] Solar Wrath, Lunar Strike, Solar Wrath, Moonfire", -- [5]
-					"/castsequence [combat] Solar Wrath, [@player] Starfall, Lunar Strike, Solar Wrath", -- [6]
-					"/castsequence [combat] Solar Wrath, Lunar Strike, [@player] Starfall, Moonfire", -- [7]
-					"/castsequence [combat] Lunar Strike, Solar Wrath, Lunar Strike", -- [8]
-					"/cast New Moon", -- [9]
-					"/cast [combat, @player] Starfall", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-						"/cast [combat] Celestial Alignment", -- [1]
-						"/cast [combat] Berserking", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:4] Moonkin Form", -- [1]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["SAM_FERAL"] = {
-			["Talents"] = "2,3,2,1,2,2,1",
-			["Default"] = 1,
-			["MacroVersions"] = {
-				{
-					"/cast Rake", -- [1]
-					"/cast [combat] Incarnation: King of the Jungle", -- [2]
-					"/cast [combat] Shred", -- [3]
-					"/cast [combat] Rip", -- [4]
-					"/cast [combat] Shred", -- [5]
-					"/cast [combat] Shred", -- [6]
-					"/cast [combat] Shred", -- [7]
-					"/cast [combat] Shred", -- [8]
-					"/cast [combat] Ferocious Bite", -- [9]
-					"/cast [combat] Rake", -- [10]
-					"/cast [combat] Shred", -- [11]
-					"/cast [combat] Shred", -- [12]
-					"/cast [combat] Shred", -- [13]
-					"/cast [combat] Shred", -- [14]
-					"/cast [combat] Ferocious Bite", -- [15]
-					"/cast [combat] Rake", -- [16]
-					"/cast [combat] Shred", -- [17]
-					"/cast [combat] Shred", -- [18]
-					"/cast [combat] Rip", -- [19]
-					"/cast [combat] Shred", -- [20]
-					"/cast [combat] Shred", -- [21]
-					"/cast [combat] Shred", -- [22]
-					"/cast [combat] Rake", -- [23]
-					"/cast [combat] Ferocious Bite", -- [24]
-					"/cast [combat] Shred", -- [25]
-					"/cast [combat] Shred", -- [26]
-					"/cast [combat] Shred", -- [27]
-					"/cast [combat] Shred", -- [28]
-					"/cast [combat] Shred", -- [29]
-					"/cast [combat] Ferocious Bite", -- [30]
-					"/cast [combat] Rip", -- [31]
-					"/cast [combat] Shred", -- [32]
-					"/cast [combat] Tiger's Fury", -- [33]
-					"/cast [combat] Feral Frenzy", -- [34]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyPress"] = {
-						"/cast [noform:2] Cat Form", -- [1]
-						"/cast [nostealth,nocombat] Prowl", -- [2]
-					},
-				}, -- [1]
-			},
-			["Author"] = "Ed",
-			["SpecID"] = 103,
-			["Icon"] = "",
-			["ManualIntervention"] = false,
-		},
+		["SAM_GUARDIAN"] = "d4ZddaGEKeVejQDbLKxtr5YOMjfvDyiZMGhtPBQK(ff(gfvUlP0obAVQ2nO9R40s8xOu53igisqdvsAWsnCO4GsIHbLIJPuDCKulKuyPsklgkrlNQhIK0tfTmI06qkMiPOPsutgqtxywkXvHsvpts11HQnIuzRib2mH2osK(iseFfkL(mf57iLgjsitdPQrdWBjvoPs55KCnKqDEsvJdkPUnrSnOe(7x(G7pZkRyhLG9vQP5wfWdk9Yp1Kfr4cXb3FkJeyyOEkTEDPs3R)KIybmpR6SsnDcOigtls8Pxr4cltt1WfMwK4ttNZqQuyGtxJnXq2rrHaxMgbboDfHyArIp9kHafloJvpRGhai(t5IesaqV5XnJFMyy7MMhChBO)5kY6ekGDvHavx(G7x(G7pncKBIdgYs0pToibaYLOvhqgbu7bL(0WIuX0YaCKcWbR)0WIuHIPgNHwE6nNafX9LP3Ccue3pi9pnSivOyQXzOLNoPTGHxMoPTGHxMoPTGHxMoPTGHxMELqGIfNpif)0WIuHIPgNHwE6nNafX9LP3Ccue3piw80WIuX0RiOjb(GM7PHfPcftnodT80BobkI7ltV5eOiUFqS(PHfPIPRHmXtteNoaWtNcmJH9NYEbAghsVgpPmRVglWifF5hpZGXqho0gfc8zvVq8sO)zvIkwrwNC5hpPmRVQZk1Lp4(tdlsftRJcXiG0Z(Y0qIkqqltZU2P1Gr(00rCjhu6tdlsftRtcbinkafXq70RiCHdw)PHfPIP1jHaKgB4cANMoNHuPWaNUgBIHSJIcbEq6FAyrQyADsiaPbjeANgBlcaNMQaqUj(XZQoVISo5YpEk7fOzCSFnE845MLaF(CfbXrcBWGDkLHrHapw(4Xpa",
+		["SAM_BALANCE"] = "dKJUcaGEiIEju4TqrBJumteLztQUjI8lj5BOQ2jc7vSBLA)G(lek)MQESedfvzWadhk1bHuDzfhdPJdvAHqiTuijlgI0YrLhcr4PsTmv65Kmriktfftgr10PCriG1bj6zO01LuBeIQTcbzZqG2oeIZdLmlvmnIonu1WOY5u1OHegNsojKu3Mu6Aqk3dcQvcHQ7cvCychAycbnDJojedrrNm0jqceie3WKMrOpBtLMYEzzV00iBqqrTUfcA6g7PGAKfcQ7Mg9AdfEU0iUhfBiG0yizAsIcNhHgofE)wfMqqdtiOPRkcLPgCRNDzGG1FPhi4zLU7bcOV7xYdeqF3VKhiG(UFjpqa9D)sEGa67(Lme30vfHYGa(ln8LHGnDvrOmi46USACHqMUQiugeGPwp5OuOB4ab0xsrJneOLUQiugeGPj0NTbbOvXIdeqF59YMMmVhBYWRfVLonpVYijkC(Welngdw84gLkmXs32GnYR3fdVFNUhCRNTHxONMh3qsu48HjwAmgSq1Opc1eMyXcXnmHGMUQiuMAWTE2LbcWC716jhhiGBuJHWfVwKkmiacw)LEGGNv6UhiG(UFjpqa9D)sEGa67(L8ab039l5bc4V0WxEGa67(L8ab039l5bcOV7xYdeqF3VKhiG)sdFziUPRkcLbbx3LvJleSPRkcLbbyQ1tokf6goqa9Lu0ytZZRmsIcNpmXsJXGfpUrPctS0ymyHQrFeQjmXsZJBijkC(WelDBd2iVExm8(D6EWTE2gEHESyPjj21cDuVTHdrMTH3VdsJflb",
+		["JMM_DR_GUARDIAN_ST"] = "d8JidaWyuwpKsVKsP3Qu2MsLCzKdt15PumBu50KYnH4xc8nij9xHQDQK9c2TQ2VKFcjYWGe1VjmqijgkQQgSudxH6GqrhfsWXOKJluwifYsPGflOLt0dvQspvLLPiwNsfnrfPPsQMmfQPl6IkvQRcf6zOQCDkAJkKTcPYMPuTDLQQpQuvMfunniv9DiPoKsfURIA0qPplKtIQ8CsUgKq3tPkwjKIxdfCBfmyb6WYco0GGeFQH47dJyAykpmxXpDynb0Ht35OpvWXhoF4w4w4w4tWTGBkz3n5syzb3nMy8Mcllug9WH4mPaDKuPjEfOdllqhwwWfWCvw9gtme65C16yLUclSMaxaZvPIIzspJQEJjgc9CU6d1AJj8Qr8pIJWR(qT2ycVAe)J4i8QreI3UMKGfFWfWCvQOyM0ZOQ3yIHqpNRMNu82nL4vpsspA1iJR2afrpj9ut8Wc9WfWCvw9gtme65C16yLUclSqr4cyUkvumt6zu1BmXqONZvJ4FehHxTbpIQwyV6elv9Xr0yscRDbxaZvPIIzspJQEJjgc9CUAe)J4i8Qr8pIJWRgX)iocV6rs6rRgzC1gOi6jPNAIhwOkCbmxLvVXedHEoxTowPRWch)cvI4mPa0HeUlPXJmFwQjE4okMj9PMZbNTKn8ljLc0HLfCbmxLvV9c7c5WoTMREhgrUS6rc5aSMaxaZvPIIzspJQUAjPOCpPlJOS6QreI3UMKWR(n54Geo(LeIZKcqhs4SLSXaXrUIaDyzbxaZvz1i(hXrWAcCbmxLvVXedHEoxTrCcHXvpYuAdS4dUaMRYQ3yIHqpNR2isQijg0(iiHes4W0mXkKWHgpmKKAeQmv6yWHJht8WXBHU4i8U9ghfW4UpDEO0cbtd2chI)MohVpj5(Pp1epecjKaa",
+		["JMM_DR_BOOMKIN_AOE"] = "d8theaqyKlt5Lcv9wv02uvvURQYmLOUhkvMTGtdQBQGFPq3wvmmukTta7LQDd1(j9tHu)ffzCOOQbQQYqvu1GjgUI4GcLoQIkDmv4COOyHcblvvvwSQ0YL6HcHEQsltcSouuzIcvMki9nuuA6IUOqKRQQQ6zsqxhOnkKyRcrTzqSDuk8yunlv6ZcfFxrfttiPVkrgnk51OWjvKEUKUgkfDEfLvIsv)gYXLq7houh4Wx2pmWuC)XueIo6H4NcWuSrhjhOahQVqPGHZQVfEpUfEpUh3JBH(gNbHadPdC47oX4tJZboyBb(oq8gfzRRWiC1H6ahouh4W3rovZQve0WCtfvARAj7sQJXYro65LsvuzbXqGB7QcgmeCGc8DKt1SAfbnm3urL2QwYUK6ySCKJEEPufvgqime42UQGbdbhOqFh5unvbWMJkdie2bIQVJCQMvRiOH5MkLbXuRYMnmd7QYIcuRsPMswxvo)njqZS(tLnPgcfcxvwuGAvk1uY6Qszqm1QSzdZWUQC(BsGMz9NkBsnekeCa203rovZQve0WCtLto65LYpvwuGAvk1uY6Qszqm1QSzdZWUQSOa1QuQPK1vLbecdbUnh4F(oYPAwTIGgMBQCYrpVu(PYIcuRsPMswxvo)njqZS(tLnPgcfcxvkdIPwLnByg2vLffOwLsnLSCaM13rovZQve0WCtLto65LYpvwuGAvk1uY6Qszqm1QSzdZWUQC(BsGMz9NkBsnekeUQmGqyiWT5amVVJCQMvRiOH5MkNC0ZlLFQugetTkB2WmSRklkqTkLAkzDvPmiMAv2SHzyoaZ47iNQPka2CuzaHWoWbB9DKt1uLto65LYRk)MeOzw)PYMudHcbFNhvZbI3ihQN(UPnjkGyEcJW(UwrqdNWuW34TzZ3wT6qDGdFh5unv5eJGG6hMlQFQmGqygWyvIcQF8035BBG4nYH6PVXBZ(ZcgvnhQdC47iNQPkNC0ZlLFQerly1eMcQeBaog8JHthOaFh5unv5KJEEP8tLiyD1AgW4y80tp9nwWKfQ9L907R1W2V4AIb57uoc77uGiZ0W0nImn3)hPf60ObgI9V49DGWGuykoTMnmCcJW(RNE6o",
+		["JMM_DR_BATTLEREZ"] = "dOJscaWsa6TG61cPMjLeZwPCtr1VekDBi(NsStk1ErTBb7xK6Ncb)ve9BfduLgQsLblcdxfhuPQJke1XeLJtjLfsjQLcKflXYP4Hus6PQAzskpNqtuKmvinzOMoPlcixviYLP66kPnkPQTkKSzkHTdOomYSKAAcvEmrJKsKNbGrlPYWOKQtcuNwsUMqX5jyLcvTwHq3fK5mgLTZ4p(88KPaL0Y7rrTcqGakISDngLFl5BNTQq08ZpkT5bvK)LEPx6LEPx6f(t5wqRBkBNX)FCj4uSDM1bG)CsAMOCJy1eezu2oJrz7m(JvsIA6eWxlg5QyJDc3YbPqke89qgviRXoHB5Guifc(EiJkuRXoHB5Guifc(EiJkaqJDc3YbPqke89qgviUg7eULdsHui47HmQqmn2jClhKcPqPtaYlvgTo2Ug)XkjrnDc4RfJCvSXoH7WihKcPqW3dzuHSg7eUdJCqkKcbFpKrfQ1yNWDyKdsHui47HmQaan2jChg5Guifc(EiJkexJDc3HroifsHGVhYOcX0yNWDyKdsHuO0ja5axbSZ)UruZjPzyuw5)v)u)AqQvtG)3T2Qh0kAJFaDHDgxuKrzL)DgpNKMHrzLFaDbq(MtIoJYkRSY)(vTUXWF8uP4Mk)MYqrt8dwob(bBhvYCWVvtg5ib0Jcoc257bbi)5uyL2ahu3aSh0QjWfwzLza",
+		["JMM_DR_BOOMKIN_ST"] = "d8ZHeaWyKUmPxQi5TsKTjrHxdjZujCpjLA2QQtdXnvs)ss(giv(lKYovL9kA3i2pXpvHAykcgNkKgOevzOGedMYWLuYbbjDujk1XuuhxcwOKQSuqklwLSCQEOKcpvQLbPADsuXevenvq15KOKPlCrqQ6QsuPNPi11vyJskARsQyZkrBxIIomQzPuttsL(UKQ6RG4UsOrRs9zq5KQGNd11KOQoVkeRurOBRI(nW5CcpFZzpX1v0MeAOvVJpEDQdp0A45d9eE2W5VscC2tVN3tVN3Z7590zpPUKh)iFZz31sPhMmFZta9SxzQdQJ6yeabNWZ3CcpFZzxrzCG1cdLqvXeZvSg1oyhMgvuW5fhIjwpilrCDlgz8)5d9SROmoWAHHsOQyI5kwJAhSdtJkk48IdXeBfailrCDlgz8)5B6SROmoe7P1xSvaGKV6MDfLXbwlmucvfRefCEXrrX6GD8WHPBXAWNDXG4CCVfBXGWUyD4iO0Tyn4ZUyqCoUZx5NDfLXbwlmucvfBXGWUyD4iO0Tyn4ZUyqCoU3I1b74Hdt3I1Gp7IbX54El2IbHDX6WrqPBX6GD8WHP5RmYUIY4aRfgkHQIvIcoV4OOyn4ZUyqCoU3ITyqyxSoCeu6wSg8zxmioh3BXwbaYsexZh0LDfLXbwlmucvfRefCEXrrXAWNDXG4CCVfRd2XdhMUfBXGWUyD4iO0Tyn4ZUyqCoUZ3rZUIY4aRfgkHQIvIcoV4OOyDWoE4W0Tyn4ZUyqCoU3I1Gp7IbX54ElwpilrCnFLv2vughyTWqjuvSsuW5fhffRbF2fdIZX9wSfdc7I1HJGs3I1b74Hdt3ITcaKLiUMV5jKDfLXbwlmucvfRefCEXrrXwmiSlwhockDlwd(SlgeNJ7Tylge2fRdhbLMV55SROmoe7P1xSvaGKVz0ZUIY4qSoyhpCyA2qbGJvM6GeEgz3HwRAoi0abqYU1cdLei8p7P0JafxX4eE(MZUIY4qSseWsGFwo1TOyRaabfcrSAc8ZmYgkUUYuhKWZi7P0Jan9Rmwt45Bo7kkJdXkrbNxCuuSAOFfhi8xmO(rGrovsKp0ZUIY4qSsuW5fhffREQJvhfcbwgzKr2qDe3ap7jYxxQJOL3KoJIZ(afqY(WRoOTEORbALD5c9n8dh)wHk0Mk7vMm4)bsOEzQKabqYRmYita",
+		["JMM_DR_RESTO_ST"] = "diuYdaqisIMLe)IsnmeQCmeTmk0ZefttsPRHqwNuL3HqP7rQyGi4GKKSqsk9qsbtKu0fLKSrsjFeHQgPKkNusSssHEPKQMjcf3Ku1oPKFssvdvu6OKeSuKQNs0ujXvjj0wjPYxjj1BfP7kI9k8xPQgmWHvSyq8yctMuQlJAZsLptrgns50sz1Ku8AjPMnsUTOA3q9BvgoPshhKA5qEUstNQRdQTlP47GKXtrDEky)Q6GmuclYqQr967Rj9(0RsQO((sLWYyOesLHIX(gsJfYczHSKPySymKAYDdmLhwKHuQllQOzyrsCefs9JaDQJrB7WBOewKHsyrgsBXS(dsj0Dc4TWMBRVjPeYoi3azHn3wFtEGgy8GAh(bQEqAhwgdPTywFzOHzSGFqkHUtaVf2CB9njLq2b5gilS526BYdq8YUoKezlUCiJ)aIP1XqOUlV8a6Sj0bLtR8a6SAGRHXJ3oC5bQUrP9diE0bLtR8G64HQHn9aLdwqlSYesBXS(YqdZyb)GucDNaElS526BskHSdYnqwyZT13KhG4LDDijYwC5qg)b0ztOdkNw5b1XdvdB6bkhSGw5bsOADEoJ1oSQnK2Iz9LHgMXc(bPe6ob8wyZT13KuczhKBGSWMBRVjpaXl76qsKT4YHm(dQJhQg20duoybTYdOZMqhuoTYdOZQbUggpE7WLhubDyidQ6qM9wx)iqxOeEiLoRRwWyH3oCiLm0Wm2BdviRNnKfX7gkHfziTx)0nFeO7bPcAdgZunSPKWYyiTfZ6pi1hkg79YytwEa(6ouEpIsEGkvq8G9hO1HYj2hK6dfJ9EzSnwEa(6ouEVAts9HIXEVm2zkpaFDhkVxTjpqLkiEW(d06q5HvMqAlM1xgAygl4hKsqxQXaJsEaIx21rC5qg)bpOQUoQdXRGXcU8ammfv4HmlI1pc0fkHhY6zd0zkEwouclYqAlM1FqQ4YHmEYdul1DA)aTGrgclJH0wmR)GuXLdz8KhOwgTmQ6g2u4HhEivfSt7qHuJdeimQXe0envpHSI4WHSIL66RVIud9vbvSkPsf1BPxv0RpK6hm8qvb7mQgg7Tdhqcp8ia",
+		["JMM_DR_FERAL_ST"] = "dm0wdaqiKs1NqQYSqYUqQ0ViQHHk4yuyzuuptfmnKs5AiLyBif5Bif16qQ4EeW)qkyGOI6GOQAHOQ8quPAIOkDruH2ifzKiL0jjOvIkYljsntKcDtIyNQ0prLYqjqhvuvwQk6Pknvr5QOsSvuj9waUlG2l0FvHgSuhwXIPIhJyYuQUmPnJQ4ZIQmAQ0PPQEnL0Sj0TPk7wKFRQHtjoorYYr55GMUW1bA7iv13fvopLY6fvv7xYObMHxdC5Kejh598OjoEYpnECZWRzmdxAvfTi6NSIRBewG0rwoxUC012dgGokDjVNCUjiU0a9fqy2bJtl08iKBCb3SrutbexZuguguguguguMXLxLNbumWRbURfLiKx8AWHd4kziSNRkd6)jiMHxdmdVg4ktgyavPa1erRMPqneG8EotuD1RltTtv95yvPQEDzQDQQxxMANQAtk7j(piSA(8dfVMXvMmWaQsbQjIwnaY75mbWQzkudbiVNZevx96Yu7uvFowvQQZ8Ztz0dwTjqMn8EaxzYaJQbqEpNjawn)q3XBsk9GvBIPP8BdxbFyiziShZWa3nulMatKW)t4UQuGAk8hrCLwTjitHqmdVg4ktgyunG0ZZZ8OJzGvt7CFIQn9mp8AgxzYaJQbKEyOJy4svD6jVNZeaRwq2NteVhWvMmWaQsbQjIwnaY75mbWQzkudbiVNZevx95yvPQEDzQDQQxxMANQ6tFluvNafffXaxbzQKHWEmddCLwTDQI6avmdVg4ktgyunaY75mbWQ5tzqLzfVMXvM8j4lQvpGXdMGU(8evZb8EaxzYaJQbWzlIJnLbS6tnp2NlCXlTHRm5tWxuREaJhmbD95jQ2aV0cUYKbgvdG8EotaSA(e)3E1Maz2WlnHRmzGr1aiVNZeaRMpLbvMv)uEyGbg4Ypy4(mC5044OmFLZ8YgRdUcjFcxHxUEuIWL7hZhx44MjKBxj8FknUsMe4ikmfkJ(Ak8)e6Gbgic",
+		["SAM_FERAL"] = "dWdifaGEve6LOaVvPETkPMPkeMTk4YqUPOWVKQVHc6We7Ku7fSBPy)unmvu9xvOYVv15qr1qvjmykdxu0brH60sPJHQoUku1cvjzPIQwSIwUipufIEQKLrsphQjQIKPkQmzsmDKlQIO7QKNHkDDuXgfL2Qkc2mksBxfkTnuiZsLQpJI47QqQ1PIupwy0O00uj6KQOmouuUMkLoVkfRufkUTcFsfsg4HCGMhQIXzCCzpzEgFeGwfYbvo5aQHWqPEN7D1783vVRENhQtHyQW5abAEOymhI9tqDsfOQmrXzNc08NZfQmKi9NakHB)gmKd08qoqZdvpem5wE5AeOvHQhcMCBh)yk0YTZAcj1iu73CA3yqBdtC7zQBelYTJHtdtoGanxO6HGj32XpMcTCRytifqFju9qWKB74htHwULVntqFlu9qWKB74htHwUvSjKcOzeu9qWKB74htHwUvSjKcOziu9qWKB74htHwUvSjKcOzgu9qWKB74htHwUvSjKcOzou9qWKB74htHwULfL(O95GD7QwcbA(ZHQhcMCBh)yk0YT8Y1iqZZdvpem52o(XuOLBfBcPaAEvO6HGj32XpMcTCRytifqZZfQEiyYTD8JPql3k2esb08xcvpem52o(XuOLBfBcPaA(BHQhcMCBh)yk0YTSO0hTphSBx1siqZZiO6HGj32XpMcTClVCnc08meQEiyYTD8JPql3k2esb08mdQEiyYTD8JPql3k2esb08mhQEiyYTD8JPql3Y3MjOvphQEiyYTD8JPql3k2esb0Q8q1dbtUTJFmfA5wXMqkGwvfQEiyYTD8JPql3k2esb0QCHQhcMCBh)yk0YT8Y1iqREju9qWKB74htHwULfL(O95GD7QwcbA1BHQhcMCBh)yk0YTInHuaTkJGQhcMCBh)yk0YTInHuaTkdHQhcMCBh)yk0YTInHuaTkZGQhcMCBh)yk0YTInHuaTkZHQhcMCBh)yk0YTInHuan3ZHQhcMCBh)yk0YTSO0hTphSBx1siqZLhQEiyYTD8JPql3Y3MjO5Qcvpem52o(XuOLBfBcPaAUCHQhcMCBh)yk0YTCTmbLokSBz5KUb0CVeQEiyYTD8JPql3YIsYb3YMqnN4nqDXJPmKi9qoGGQiuMz50eu73avHoEoOgQvoafdq3CrcHXqoqZdvpem52U5z6NgNwD52rkKBz)0a0Qq1dbtUTBEmHKde79Mp(XuOLBxK(J(aqqDrcLHePhYbeumaDtE0bKGrqoGaciOol(gOGkdPHJC4SgcLowud1(nWeiGaaa",
 	}, -- [11]
 	{
-		["JMM_DH_VENGEANCE_ST"] = {
-			["Talents"] = "3,2,2,2,2,3,3",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 581,
-			["MacroVersions"] = {
-				{
-					"/cast [combat] Immolation Aura", -- [1]
-					"/cast Fiery Brand", -- [2]
-					"/cast Soul Carver", -- [3]
-					"/cast [@player, combat] Sigil of Flame", -- [4]
-					"/cast Shear", -- [5]
-					"/cast [combat] Empower Wards", -- [6]
-					"/castsequence [@player, combat] Infernal Strike, Shear, Shear, Infernal Strike", -- [7]
-					"/cast [combat] Immolation Aura", -- [8]
-					"/cast Fracture", -- [9]
-					"/cast Fracture", -- [10]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-						"/cast [combat] Demon Spikes", -- [1]
-						"/cast [combat] Soul Barrier", -- [2]
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
-		["JMM_DH_HAVOC_ST"] = {
-			["Talents"] = "2,2,2,2,2,1,1",
-			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 577,
-			["MacroVersions"] = {
-				{
-					"/cast [nochanneling] Chaos Blades", -- [1]
-					"/cast [nochanneling] Felblade", -- [2]
-					"/cast [nochanneling, combat] Blade Dance", -- [3]
-					"/cast !Eye Beam", -- [4]
-					"/cast [nochanneling, combat] Fury of the Illidari", -- [5]
-					"/cast [nochanneling] Chaos Strike", -- [6]
-					"/cast [nochanneling] Throw Glaive", -- [7]
-					"/cast [nochanneling] Fel Eruption", -- [8]
-					["PostMacro"] = {
-					},
-					["StepFunction"] = "Sequential",
-					["KeyPress"] = {
-						"/cast [nochanneling] Blur", -- [1]
-						"/cast [nochanneling] Nemesis", -- [2]
-					},
-					["PreMacro"] = {
-					},
-					["KeyRelease"] = {
-					},
-				}, -- [1]
-			},
-			["Icon"] = "INV_MISC_QUESTIONMARK",
-			["ManualIntervention"] = false,
-		},
+		["JMM_DH_VENGEANCE_ST"] = "d8tVcaWyexwYlrQ6TiLTrLu3gjVwvQRPkYSH0Vr5MQQ(fj(gvsMgev7KQ2ly3sz)k(PufgMuLmovrnquHHIuzWknCuPdkvCuPk1XGW5KQIfQk0sLQQflklxLhsL4Puwgu65KAIIKPsstwvstx4IuPUQuv6zQkDDu1gfrBfv0MHiBhIYhLkPVkvkFwQeFxQunsPk6UqXOvvCyItkQMfvCAO68IWkvfCCvj(Ri1acqf8ia7H))0P6zAoD77Q7oExCN2ubpwqfmvbTAHgSVoyDW6G1bRZxNVGLQqs4rdWJamJBrYtb(NEgby)c5yCwNgN10Gk4raQGhbykerhZsJWOYKaZS5uumujWzTz7WFc4XcMcr0XSjXRlXSpEs7vW)fmfIOJzngp6SUihYQd8ihmfIOJzPXbxujrDoZsyuzsGzwdVl4OZYqA2KOcvb(NatHi6yw7tjh4DnykerhZsJWOYKaZSUP4Y6EDZ2n5EvdExbMcr0HUEHVAKAwACWfvsuNZSegvMeyMnVHuDnbDwlo83LZS2NsoNzTpLCoZM3qQUMGoRfh(7c8pdMcr0XS0imQmjWmBoffdvcCwB2o8Na((aMcr0XSjpHe8xbEe9cmfIOJztEcj4Vcm6y64xihduHamlkUj5BKaN1aZQx4RwGlOGrFLO)cTeDbQGhbykerhZsJWOYKaZSPkkwBwJl(7sdESGPqeDmlncJktcmZAmE0zFuUdVoiaJUR(fYXaviaJ(kbDxP1GkeqabyD4JpSdShKSS6WlosDYBbSCcRbwUNZ0)5MlP7DFDBQ59W)3PF6b7xA8cAElQdzvlWznidciaa",
+		["JMM_DH_HAVOC_ST"] = "d0dNcaWsKuVvk2MucpgXHPmoPumBs(SiDtf1VOsFdP4AsLANIAVGDtSFO(jsI)sf(nkdukrdfP0GHmCKQoisLJIK0XuIJlLKfQGwQuvTyuPLRkpuH6PswMs65KAIurtfvnzfy6QCruHRkvWLfUUs1gviBfv0MLQy7sv6Jsj1Sukttkv9DPcnsPQCxrmAv1ZKsLtIe3wrCAQ68ksRuQKdjLsVwQOHfGhYlq118SdN95Op64KkJDu8qEf4HI3uHCAOw3w3w3w3w3w2wGYz0JTRoiVavrFqO4eYDtdnqnBKhJZ4P9mrd8qEb4H8cuUetFyuJWiFtKq5L0emA83yAmAOYgeAiVcLlX0hg1imY3ejuEjnbJgfkUkBqa52bLlX0hg1imY3ejuEjDdJiSjCTlbJgQSbbg50esa52dLlX0hg1woMgy0WWMa5UHYLy6dJAeg5BIekVKUHre2eU2LGrJ2FtXiwpy09dmIIs5hyppKBbuUetFyuJWiFtKq5L0emA83yAmQUNVZaY0aLlX0hg1imY3ejuEjnbJ4)pwhXOwRmFVbKBduUetFyuJWiFtKq5L0emAuOWioE70FEMafTm9nBKhd4HdQ6c6hTlKZZeOQOv7HCEtbf1X0(dvy6a4HdkAFXSrEmGhoOOoMs7l0AGhYlq5sm9HrncJ8nrcLxstWOHQ9hKxHYLy6dJAeg5BIekVKMGr5ysO9A4GdoOOB)(ShuDzC5gpF0sNpRtdkkeMafLmNoMPuJDq1oWrXtHk5z66NAOMnz3uuKlE9gY5zcWfo4aaa",
 	}, -- [12]
 	[0] = {
 	},

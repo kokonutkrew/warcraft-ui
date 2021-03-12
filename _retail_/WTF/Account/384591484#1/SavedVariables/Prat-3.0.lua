@@ -7,37 +7,50 @@ Prat3DB = {
 		},
 		["Prat_PlayerNames"] = {
 		},
+		["Prat_Memory"] = {
+		},
 		["Prat_Frames"] = {
 			["profiles"] = {
 				["Default"] = {
 					["minchatwidthdefault"] = 296,
-					["maxchatwidthdefault"] = 608.0000610351563,
-					["maxchatheightdefault"] = 399.9999694824219,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.0000610351562,
 					["initialized"] = true,
 				},
 				["KokonutKrew"] = {
 					["minchatwidthdefault"] = 296,
-					["maxchatheightdefault"] = 399.9999694824219,
-					["maxchatwidthdefault"] = 608.0000610351563,
 					["initialized"] = true,
+					["maxchatheightdefault"] = 399.9999694824219,
+					["maxchatwidthdefault"] = 608.0000610351562,
 				},
 			},
 		},
 		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["tomcats"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+					},
+				},
+			},
 		},
 		["Prat_Editbox"] = {
 			["profiles"] = {
 				["Default"] = {
-					["attach"] = "LOCK",
-					["editY"] = 20.0007400512695,
-					["editX"] = -0.999978303909302,
 					["editW"] = 609.999917268753,
+					["attach"] = "LOCK",
+					["editX"] = -0.999978303909302,
+					["editY"] = 20.0007400512695,
 				},
 				["KokonutKrew"] = {
-					["editW"] = 609.999917268753,
 					["attach"] = "LOCK",
-					["editX"] = -0.999978303909302,
 					["editY"] = 20.0007400512695,
+					["editX"] = -0.999978303909302,
+					["editW"] = 609.999917268753,
 				},
 			},
 		},
@@ -45,25 +58,32 @@ Prat3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["duration"] = 1,
+					["textfade"] = {
+						["ChatFrame3"] = false,
+					},
 				},
 				["KokonutKrew"] = {
 					["duration"] = 1,
 				},
 			},
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_ChannelSticky"] = {
 		},
-		["Prat_KeyBindings"] = {
+		["Prat_UrlCopy"] = {
 		},
 		["Prat_Font"] = {
 		},
 		["Prat_Bubbles"] = {
 		},
-		["Prat_UrlCopy"] = {
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_Timestamps"] = {
 		},
 		["Prat_Scroll"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_Mentions"] = {
 		},
 		["Prat_Achievements"] = {
 			["profiles"] = {
@@ -75,7 +95,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Sounds"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -85,37 +105,37 @@ Prat3DB = {
 		},
 		["Prat_PopupMessage"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Paragraph"] = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_Paragraph"] = {
+		["Prat_History"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_Timestamps"] = {
+		["Prat_ChatLog"] = {
 		},
-		["Prat_Sounds"] = {
+		["Prat_Search"] = {
 		},
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Default"] = {
 					["showvoice"] = false,
-					["showMenu"] = false,
+					["scrollReminder"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
-					["scrollReminder"] = false,
-					["showminimize"] = false,
 					["showButtons"] = false,
+					["showminimize"] = false,
+					["showMenu"] = false,
 				},
 				["KokonutKrew"] = {
 					["showvoice"] = false,
-					["showminimize"] = false,
+					["showButtons"] = false,
 					["showchannel"] = false,
 					["showBnet"] = false,
-					["showButtons"] = false,
-					["showMenu"] = false,
 					["scrollReminder"] = false,
+					["showMenu"] = false,
+					["showminimize"] = false,
 				},
 			},
 		},
@@ -136,52 +156,59 @@ Prat3DB = {
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
 		["Samoansneaky - Tichondrius"] = "Default",
 		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanhunter - Emerald Dream"] = "Default",
 		["Samoantotems - Stormrage"] = "Default",
+		["Royders - Emerald Dream"] = "Default",
 		["Serepa - Tichondrius"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
 		["Samoanmystic - Emerald Dream"] = "Default",
+		["Dethwish - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Shgrshn - Tichondrius"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Kakattack - Stormrage"] = "KokonutKrew",
 		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Shgrshn - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Kalin - Ravenholdt"] = "Default",
 		["Samoanlegend - Emerald Dream"] = "Default",
-		["Kakattack - Stormrage"] = "KokonutKrew",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanwar - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Sounds"] = 2,
-				["Paragraph"] = 2,
-				["Alias"] = 2,
-				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
-				["ChatLog"] = 2,
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
+				["OriginalButtons"] = 2,
+				["Alias"] = 2,
 			},
 		},
 		["KokonutKrew"] = {
 			["modules"] = {
-				["Alias"] = 2,
-				["PopupMessage"] = 2,
-				["AltNames"] = 2,
 				["Sounds"] = 2,
-				["Paragraph"] = 2,
-				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
 				["ChatLog"] = 2,
+				["Paragraph"] = 2,
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
+				["Alias"] = 2,
+				["KeyBindings"] = 2,
 			},
 		},
 	},

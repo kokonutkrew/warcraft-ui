@@ -1,7 +1,6 @@
 
 local addon, ns = ...;
 local L = ns.L;
-local _SetSuperTrackedQuestID = SetSuperTrackedQuestID;
 local SaveBindings = SaveBindings or AttemptToSaveBindings
 local playerDot_textures = {
 	["blizz"]         = L["Blizzards player arrow"],
@@ -10,11 +9,6 @@ local playerDot_textures = {
 	["white"]         = L["White player dot"],
 	["black"]         = L["Black player dot"],
 	["hide"]          = L["Hide player arrow"],
-};
-local AreaBorderValues = { -- deprecated
-	["true"] = SHOW,
-	["false"] = HIDE,
-	["blizz"] = L["AreaBorderByClient"]
 };
 local TrackingValues = {
 	["true"] = SHOW,
@@ -31,8 +25,85 @@ local dbDefaults = {
 	time_show=true, time_server=true, time_local=true, time_radius = 0.48, time_bottom=false, time_color={1,0.82,0,0.7},
 	mouseoverinfo_color={1,0.82,0,0.7},
 	player_dot="blizz", background_alpha=0, holdKeyForMouseOn = "_none",
-	rotation=true, SuperTrackedQuest = true, showDummy = true, showDummyBg = true
+	rotation=true, SuperTrackedQuest = true, showDummy = true, showDummyBg = true,
+	QuestArrowInfoMsg = false,
+	healcircle_show=true,healcircle_color={0,.7,1,0.5},
 }
+local excludeFrames = {}
+local isAddOnsLoadedForOption = {
+	SuperTrackedQuest = {
+		addon="FarmHud_QuestArrow",
+		descLoaded=GREEN_FONT_COLOR_CODE..L.ExtraAddOnLoaded:format("FarmHud [QuestArrow]").."|r",
+		descNotLoaded=ORANGE_FONT_COLOR_CODE..L.ExtraAddOnNotLoaded:format("FarmHud [QuestArrow]").."|r"
+	}
+}
+
+local function printFrames(key,value)
+	if type(key)=="table" then
+		if not FarmHud:IsVisible() then
+			ns.print("FarmHud must be enabled before use this option");
+			return;
+		end
+
+		ns.print("Search for unwanted elements anchored on minimap...");
+		local count = 0;
+		local regions = {Minimap:GetRegions()};
+		for r=1, #regions do
+			print("GetRegions()"," - ",regions[i]:GetDebugName());
+			count = count + 1;
+		end
+
+		--ns.print("Search for unwanted frames anchored on minimap... (deep reverse search)");
+		for k,v in pairs(_G) do
+			if (not excludeFrames[key]) and (type(value)=="table") and (type(value[0])=="userdata") and (not (value:IsProtected() or value:IsForbidden())) then
+				if printFrames(k,v) then
+					count = count + 1;
+				end
+			end
+		end
+
+		--ns.print("Search for unwanted textures/fontstrings anchored on minimap...");
+		local childs = {Minimap:GetChildren()};
+		for i=1, #childs do
+			print("GetChildren()"," - ",childs[i]:GetDebugName());
+			count = count + 1;
+		end
+
+		if count>0 then
+			ns.print("Finished...");
+		else
+			ns.print("No elements found...");
+		end
+		return;
+	end
+
+	local secure, taint = issecurevariable(_G,k);
+	if secure then
+		return -- ignore elements from blizzard
+	end
+
+	for i=1, value:GetNumPoints() do
+		local _,parent = value:GetPoint(i);
+		if parent==Minimap then
+			print("pairs(_G)"," - ",value:GetDebugName());
+			return true;
+		end
+	end
+end
+
+local function checkAddOnLoaded(info)
+	local key,pKey = info[#info],info[#info-1];
+	if isAddOnsLoadedForOption[key] then
+		return not IsAddOnLoaded(isAddOnsLoadedForOption[key].addon);
+	elseif isAddOnsLoadedForOption[pKey] then
+		local isLoaded = IsAddOnLoaded(isAddOnsLoadedForOption[pKey].addon) and "Loaded" or "NotLoaded";
+		if isAddOnsLoadedForOption[pKey][key..isLoaded] then
+			return isAddOnsLoadedForOption[pKey][key..isLoaded];
+		elseif isAddOnsLoadedForOption[pKey][key] then
+			return isAddOnsLoadedForOption[pKey][key];
+		end
+	end
+end
 
 local function opt(info,value,...)
 	local key,reset = info[#info],info[#info]:gsub("reset","");
@@ -51,22 +122,6 @@ local function opt(info,value,...)
 				value = {value,...}; -- color table
 			end
 			FarmHudDB[key] = value;
-			if FarmHud:IsVisible() then
-				if key=="rotation" then
-					if ns.rotation=="0" then
-						SetCVar("rotateMinimap", value and "1" or "0", "ROTATE_MINIMAP");
-					end
-				elseif key=="SuperTrackedQuest" then
-					if value and ns.SuperTrackedQuestID~=0 then
-						_SetSuperTrackedQuestID(ns.SuperTrackedQuestID);
-					elseif not value then
-						ns.SuperTrackedQuestID = GetSuperTrackedQuestID() or 0;
-						_SetSuperTrackedQuestID(0);
-					end
-				elseif key=="hud_size" then
-					FarmHud:SetScales();
-				end
-			end
 		end
 		FarmHud:UpdateOptions(key);
 		return;
@@ -126,12 +181,8 @@ local options = {
 					name = L.AddOnLoaded, desc = L.AddOnLoadedDesc
 				},
 				rotation = {
-					type = "toggle", order = 3,
+					type = "toggle", order = 3, width="full",
 					name = L.Rotation, desc = L.RotationDesc
-				},
-				SuperTrackedQuest = { -- quest_arrow
-					type = "toggle", order = 4,
-					name = L.QuestArrow, desc = L.QuestArrowDesc
 				},
 				hud_scale = {
 					type = "range", order = 11,
@@ -151,7 +202,14 @@ local options = {
 				background_alpha = {
 					type = "range", order = 14,
 					name = L.BgTransparency, --desc = L.BgTransparencyDesc
-					min = 0.0, max = 1, step = 0.1, isPercent = true
+					min = 0.0, max = 1, step = 0.1, isPercent = true,
+					get = function()
+						return 1-FarmHudDB.background_alpha
+					end,
+					set = function(info,value)
+						FarmHudDB.background_alpha = 1-value;
+						FarmHud:UpdateOptions("background_alpha");
+					end
 				},
 				player_dot = {
 					type = "select", order = 15,
@@ -211,31 +269,77 @@ local options = {
 			}
 		},
 		----------------------------------------------
-		gathercircle = {
+		SuperTrackedQuest = {
 			type = "group", order = 1,
-			name = L.GatherCircle,
+			name = L.QuestArrow,
 			args = {
+				desc = {
+					type = "description", order=1, fontSize="medium",
+					name = checkAddOnLoaded,-- ({"SuperTrackedQuest","desc"}),
+				},
+				SuperTrackedQuest = {
+					type = "toggle", order = 2, width = "full",
+					name = L["QuestArrowHide"], --desc = L["QuestArrowHideDesc"],
+					disabled = checkAddOnLoaded
+				},
+				QuestArrowInfoMsg = {
+					type = "toggle", order = 3, width = "full",
+					name = L["QuestArrowInfoMsg"], desc = L["QuestArrowInfoMsgDesc"]
+				}
+			}
+		},
+		rangecircles = {
+			type = "group", order = 2,
+			name = L.RangeCircles,
+			args = {
+				-- gathercircle
+				gathercircle = {
+					type = "header", order = 10,
+					name = L.GatherCircle,
+				},
 				gathercircle_desc = {
-					type = "description", order = 0, fontSize = "medium",
+					type = "description", order = 11, fontSize = "medium",
 					name = L.GatherCircleDesc
 				},
 				gathercircle_show = {
-					type = "toggle", order = 1, width = "double",
+					type = "toggle", order = 12, width = "double",
 					name = L.GatherCircleShow, desc = L.GatherCircleShowDesc
 				},
 				gathercircle_color = {
-					type = "color", order = 2,
+					type = "color", order = 13,
 					name = COLOR, desc = L.GatherCircleColorDesc,
 					hasAlpha = true
 				},
 				gathercircle_resetcolor = {
-					type = "execute", order = 3,
+					type = "execute", order = 14,
 					name = L.ResetColor, --desc = L.ResetColorDesc
-				}
+				},
+				-- healcircle
+				healcircle = {
+					type = "header", order = 20,
+					name = L.HealCircle,
+				},
+				healcircle_desc = {
+					type = "description", order = 21, fontSize = "medium",
+					name = L.HealcircleDesc
+				},
+				healcircle_show = {
+					type = "toggle", order = 22, width = "double",
+					name = L.HealcircleShow, desc = L.HealcircleShowDesc
+				},
+				healcircle_color = {
+					type = "color", order = 23,
+					name = COLOR, desc = L.HealcircleColorDesc,
+					hasAlpha = true
+				},
+				healcircle_resetcolor = {
+					type = "execute", order = 24,
+					name = L.ResetColor, --desc = L.ResetColorDesc
+				},
 			}
 		},
 		cardinalpoints = {
-			type = "group", order = 2,
+			type = "group", order = 3,
 			name = L.CardinalPoints,
 			args = {
 				cardinalpoints_show = {
@@ -274,7 +378,7 @@ local options = {
 			}
 		},
 		coords = {
-			type = "group", order = 3,
+			type = "group", order = 4,
 			name = L.Coords,
 			args = {
 				coords_show = {
@@ -301,11 +405,11 @@ local options = {
 			}
 		},
 		time = {
-			type = "group", order = 4,
+			type = "group", order = 5,
 			name = L.Time,
 			args = {
 				time_show = {
-					type = "toggle", order = 1,
+					type = "toggle", order = 1, width = "full",
 					name = L.TimeShow, desc = L.TimeShowDesc
 				},
 				time_server = {
@@ -314,7 +418,7 @@ local options = {
 				},
 				time_local = {
 					type = "toggle", order = 3,
-					name = L.TimeLocal, desc = L.TimeLocalDdesc
+					name = L.TimeLocal, desc = L.TimeLocalDesc
 				},
 				time_radius = {
 					type = "range", order = 4,
@@ -336,7 +440,7 @@ local options = {
 			}
 		},
 		onscreenbuttons = {
-			type = "group", order = 5,
+			type = "group", order = 6,
 			name = L.OnScreen,
 			args = {
 				buttons_show = {
@@ -359,36 +463,8 @@ local options = {
 				}
 			}
 		},
-		areaborder = {  -- deprecated
-			type = "group", order = 6, hidden=ns.IsClassic,
-			name = "|cff888888"..L.AreaBorder.."|r",
-			args = {
-				info = {
-					type = "description", order = 0, fontSize = "medium",
-					name = "|cffff9900"..L["AreaBorderRemoved"].."|r"
-				},
-				areaborder_arch_header = {
-					type = "header", order = 10,
-					name = "|cff888888"..TRACKING.." > "..MINIMAP_TRACKING_DIGSITES.."|r",
-				},
-				areaborder_arch_show = {
-					type = "select", order = 11, width = "double", disabled=true,
-					name = L.AreaBorderOnHUD:format(PROFESSIONS_ARCHAEOLOGY),
-					values = AreaBorderValues
-				},
-				areaborder_quest_header = {
-					type = "header", order = 20,
-					name = "|cff888888"..TRACKING.." > "..MINIMAP_TRACKING_QUEST_POIS.."|r",
-				},
-				areaborder_quest_show = {
-					type = "select", order = 21, width = "double", disabled=true,
-					name = L.AreaBorderOnHUD:format(LOOT_JOURNAL_LEGENDARIES_SOURCE_QUEST),
-					values = AreaBorderValues
-				},
-			}
-		},
 		tracking = {
-			type = "group", order = 7,
+			type = "group", order = 8,
 			name = L.TrackingOptions,
 			get = optTracking, set = optTracking,
 			childGroups = "tab",
@@ -433,6 +509,21 @@ local options = {
 				},
 			}
 		},
+		debugging = {
+			type = "group", order = 100,
+			name = BINDING_HEADER_DEBUG,
+			args = {
+				info = {
+					type = "description", order = 1, fontSize = "med",
+					name = L["DebugOptInfo"]
+				},
+				frames = {
+					type = "execute", order = 2,
+					name = L["DebugOptFrames"],
+					func = printFrames
+				}
+			}
+		}
 	}
 };
 

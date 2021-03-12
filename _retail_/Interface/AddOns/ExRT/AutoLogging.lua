@@ -2,20 +2,21 @@ local GlobalAddonName, ExRT = ...
 
 local VExRT = nil
 
-local module = ExRT.mod:New("AutoLogging",ExRT.L.Logging,nil,true)
+local module = ExRT.mod:New("AutoLogging",ExRT.L.Logging)
 local ELib,L = ExRT.lib,ExRT.L
 
-module.db.minRaidMapID = 1520
-module.db.minPartyMapID = 1456
+module.db.minRaidMapID = 1861
+module.db.minPartyMapID = 1754
 
-module.db.mapsToLog = not ExRT.isClassic and {} or {
-	[249] = true,
+module.db.mapsToLog = {}
+module.db.mapsToLog_5ppl = {
+	[1594] = true,	--MOTHERLODE
 }
 
 function module.options:Load()
 	self:CreateTilte()
 
-	self.enableChk = ELib:Check(self,L.LoggingEnable,VExRT.Logging.enabled):Point(5,-30):OnClick(function(self) 
+	self.enableChk = ELib:Check(self,L.LoggingEnable,VExRT.Logging.enabled):Point(15,-30):AddColorState():OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.enabled = true
 			module:Enable()
@@ -25,11 +26,11 @@ function module.options:Load()
 		end
 	end)
 		
-	self.shtml1 = ELib:Text(self," -"..L.S_ZoneT24Eternal.."\n -"..L.S_ZoneT23Storms.."\n -"..L.S_ZoneT23Siege.."\n -"..L.S_ZoneT22Uldir.."\n -"..L.S_ZoneT19Nightmare.."\n -"..L.S_ZoneT19ToV.."\n -"..L.S_ZoneT19Suramar.."\n -"..L.S_ZoneT20ToS.."\n -"..L.S_ZoneT21A,12):Size(620,0):Point("TOP",0,-65):Top()
+	self.shtml1 = ELib:Text(self," -"..L.S_ZoneT26CastleNathria.."\n -"..L.S_ZoneT25Nyalotha.."\n -"..L.S_ZoneT24Eternal.."\n -"..L.S_ZoneT23Storms.."\n -"..L.S_ZoneT23Siege.."\n -"..L.S_ZoneT22Uldir,12):Size(620,0):Point("TOP",0,-65):Top()
 
 	self.shtml2 = ELib:Text(self,L.LoggingHelp1,12):Size(650,0):Point("TOP",self.shtml1,"BOTTOM",0,-15):Top()
 	
-	self.enable3ppScenario = ELib:Check(self,SCENARIOS,VExRT.Logging.enable3ppBFA):Point("TOP",self.shtml2,"BOTTOM",0,-15):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.enable3ppScenario = ELib:Check(self,SCENARIOS,VExRT.Logging.enable3ppBFA):Point("TOP",self.shtml2,"BOTTOM",0,-15):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.enable3ppBFA = true
 		else
@@ -37,7 +38,7 @@ function module.options:Load()
 		end
 	end)
 
-	self.enable5ppLegion = ELib:Check(self,DUNGEONS..": "..EXPANSION_NAME7.." ("..PLAYER_DIFFICULTY6..", "..PLAYER_DIFFICULTY6.."+)",VExRT.Logging.enable5ppLegion):Point("TOP",self.enable3ppScenario,"BOTTOM",0,-5):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.enable5ppLegion = ELib:Check(self,DUNGEONS..": "..(UnitLevel'player'>50 and EXPANSION_NAME8 or EXPANSION_NAME7).." ("..PLAYER_DIFFICULTY6..", "..PLAYER_DIFFICULTY6.."+)",VExRT.Logging.enable5ppLegion):Point("TOP",self.enable3ppScenario,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.enable5ppLegion = true
 		else
@@ -45,7 +46,7 @@ function module.options:Load()
 		end
 	end)
 	
-	self.raidMythic = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY6,not VExRT.Logging.disableMythic):Point("TOP",self.enable5ppLegion,"BOTTOM",0,-5):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.raidMythic = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY6,not VExRT.Logging.disableMythic):Point("TOP",self.enable5ppLegion,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.disableMythic = nil
 		else
@@ -53,7 +54,7 @@ function module.options:Load()
 		end
 	end)
 	
-	self.raidHeroic = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY2,not VExRT.Logging.disableHeroic):Point("TOP",self.raidMythic,"BOTTOM",0,-5):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.raidHeroic = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY2,not VExRT.Logging.disableHeroic):Point("TOP",self.raidMythic,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.disableHeroic = nil
 		else
@@ -61,7 +62,7 @@ function module.options:Load()
 		end
 	end)
 	
-	self.raidNormal = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY1,not VExRT.Logging.disableNormal):Point("TOP",self.raidHeroic,"BOTTOM",0,-5):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.raidNormal = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY1,not VExRT.Logging.disableNormal):Point("TOP",self.raidHeroic,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.disableNormal = nil
 		else
@@ -69,11 +70,19 @@ function module.options:Load()
 		end
 	end)
 	
-	self.raidLFR = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY3,VExRT.Logging.enableLFR):Point("TOP",self.raidNormal,"BOTTOM",0,-5):Point("LEFT",self,5,0):OnClick(function(self) 
+	self.raidLFR = ELib:Check(self,RAID..": "..PLAYER_DIFFICULTY3,VExRT.Logging.enableLFR):Point("TOP",self.raidNormal,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
 		if self:GetChecked() then
 			VExRT.Logging.enableLFR = true
 		else
 			VExRT.Logging.enableLFR = nil
+		end
+	end)
+
+	self.torghast = ELib:Check(self,GetDifficultyInfo and GetDifficultyInfo(167) or "Torghast",VExRT.Logging.enableTorghast):Point("TOP",self.raidLFR,"BOTTOM",0,-5):Point("LEFT",self,15,0):OnClick(function(self) 
+		if self:GetChecked() then
+			VExRT.Logging.enableTorghast = true
+		else
+			VExRT.Logging.enableTorghast = nil
 		end
 	end)
 
@@ -85,6 +94,7 @@ function module.options:Load()
 		self.raidHeroic:Hide()
 		self.raidNormal:Hide()
 		self.raidLFR:Hide()
+		self.torghast:Hide()
 	end
 end
 
@@ -129,7 +139,9 @@ local function GetCurrentMapForLogging()
 			return true 
 		elseif zoneType == 'raid' and (tonumber(mapID) and mapID >= module.db.minRaidMapID) and ((difficulty == 16 and not VExRT.Logging.disableMythic) or (difficulty == 15 and not VExRT.Logging.disableHeroic) or (difficulty == 14 and not VExRT.Logging.disableNormal) or (difficulty ~= 14 and difficulty ~= 15 and difficulty ~= 16)) then
 			return true
-		elseif VExRT.Logging.enable5ppLegion and (difficulty == 8 or difficulty == 23) and (tonumber(mapID) and mapID >= module.db.minPartyMapID) then
+		elseif VExRT.Logging.enable5ppLegion and (difficulty == 8 or difficulty == 23) and (tonumber(mapID) and (mapID >= module.db.minPartyMapID or module.db.mapsToLog_5ppl[mapID])) then
+			return true
+		elseif VExRT.Logging.enableTorghast and difficulty == 167 then
 			return true
 		elseif VExRT.Logging.enable3ppBFA and zoneType == 'scenario' and (maxPlayers or 0) > 1 and (tonumber(mapID) and mapID >= module.db.minPartyMapID) then
 			return true

@@ -12,30 +12,36 @@ LegionInvasionTimerDB = {
 		["Samoanbeast - Ravenholdt"] = "Default",
 		["Samoansneaky - Tichondrius"] = "Default",
 		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanhunter - Emerald Dream"] = "Default",
 		["Samoantotems - Stormrage"] = "Default",
 		["Wealthgaming - Emerald Dream"] = "Default",
 		["Serepa - Tichondrius"] = "Default",
+		["Dethwish - Emerald Dream"] = "Default",
+		["Samoanwar - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "KokonutKrew",
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoanmystic - Emerald Dream"] = "Default",
+		["Samoanmystic - Tichondrius"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
 		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Kakattack - Stormrage"] = "Default",
-		["Shgrshn - Tichondrius"] = "Default",
-		["Samoanrelic - Tichondrius"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
+		["Samoansaint - Stormrage"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
 		["Samoantitan - Emerald Dream"] = "Default",
-		["Samoanlegend - Emerald Dream"] = "Default",
+		["Shgrshn - Tichondrius"] = "Default",
 		["Kalin - Ravenholdt"] = "Default",
 		["Samoanrelic - Stormrage"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoanrouge - Emerald Dream"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Kakattack - Stormrage"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoantank - Emerald Dream"] = "Default",
-		["Samoansaint - Stormrage"] = "Default",
-		["Samoanmystic - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Royders - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -50,14 +56,14 @@ LegionInvasionTimerDB = {
 		},
 		["KokonutKrew"] = {
 			["mode"] = 3,
-			["lock"] = true,
 			["position"] = {
 				"BOTTOM", -- [1]
 				"BOTTOM", -- [2]
 				2.9999566078186, -- [3]
 				52.4999313354492, -- [4]
 			},
+			["lock"] = true,
 		},
 	},
 }
-LegionInvasionTime = 1566795633
+LegionInvasionTime = 1607155222

@@ -1,0 +1,26 @@
+VER 3 0100000000000004 "Healing Surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus=exists] healing surge
+/use healing surge
+END
+VER 3 0100000000000003 "Healing Wave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus=exists] healing wave
+/use healing wave
+END
+VER 3 0100000000000006 "Interupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus,exists,nodead] wind shear
+/cast wind shear
+END
+VER 3 0100000000000005 "Riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover] riptide
+/use healing riptide
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,52 @@
+
+OmniBarDB = {
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Default",
+		["Abenia - Grobbulus"] = "Default",
+		["Marshmellow - Grobbulus"] = "Default",
+		["Jnx - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["scenario"] = true,
+					["border"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["highlightFocus"] = false,
+					["center"] = true,
+					["locked"] = true,
+					["tooltips"] = true,
+					["arena"] = true,
+					["world"] = true,
+					["cooldownCount"] = true,
+					["highlightTarget"] = true,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.45,
+					["align"] = "CENTER",
+					["ratedBattleground"] = true,
+					["showUnused"] = false,
+					["adaptive"] = false,
+					["maxIcons"] = 500,
+					["swipeAlpha"] = 0.65,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "TOP",
+						["relativePoint"] = "TOP",
+						["yOfs"] = -208.882369995117,
+						["xOfs"] = 10.2716827392578,
+						["frameStrata"] = "MEDIUM",
+					},
+					["size"] = 40,
+					["padding"] = 2,
+					["growUpward"] = true,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

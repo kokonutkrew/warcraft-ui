@@ -4,6 +4,18 @@ H.H.T.D.
 *Change log*
 ------------
 
+**version 2.4.9.6 (2020-10-19):**
+
+- Adjust specialization spells list.
+
+- TOC to 90001
+
+
+**version 2.4.9.5 (2020-02-27):**
+
+- TOC to 80205
+
+
 **version 2.4.9.4 (2019-10-28):**
 
 - TOC to 80205

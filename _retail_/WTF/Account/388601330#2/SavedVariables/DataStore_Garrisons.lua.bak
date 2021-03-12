@@ -1,0 +1,25 @@
+
+DataStore_GarrisonsDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Sprinkles"] = {
+				["lastUpdate"] = 1604724015,
+			},
+			["Default.Emerald Dream.Gizelin"] = {
+				["lastUpdate"] = 1604773035,
+			},
+			["Default.Emerald Dream.Buhbels"] = {
+				["lastUpdate"] = 1605929783,
+			},
+			["Default.Emerald Dream.Cupkek"] = {
+				["lastUpdate"] = 1605815069,
+			},
+		},
+	},
+}

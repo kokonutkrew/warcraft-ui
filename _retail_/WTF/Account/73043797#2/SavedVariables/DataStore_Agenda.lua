@@ -5,44 +5,49 @@ DataStore_AgendaDB = {
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Marshmello - Tichondrius"] = "Marshmello - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Grapejelley - Emerald Dream"] = "Grapejelley - Emerald Dream",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2019-08-27",
+			["NextWeeklyReset"] = "2020-11-24",
 		},
 		["Characters"] = {
 			["Default.Emerald Dream.Samoantank"] = {
@@ -61,7 +66,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1545106385,
 			},
 			["Default.Emerald Dream.Tygrrlilly"] = {
-				["lastUpdate"] = 1566342023,
+				["lastUpdate"] = 1606609640,
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1566107047,
@@ -101,6 +106,9 @@ DataStore_AgendaDB = {
 			["Default.Tichondrius.Gfsdfgsd"] = {
 				["lastUpdate"] = 1548864605,
 			},
+			["Default.Stormrage.Tygrrlilly"] = {
+				["lastUpdate"] = 1604041730,
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472620,
 			},
@@ -124,16 +132,16 @@ DataStore_AgendaDB = {
 					["Kapahulu"] = {
 						["note"] = "",
 					},
-					["Råndôm"] = {
+					["Nossbigga"] = {
 						["note"] = "",
 					},
-					["Teamspirit"] = {
+					["Yotaforlife"] = {
 						["note"] = "",
 					},
 					["ßerzerk"] = {
 						["note"] = "",
 					},
-					["Yennk"] = {
+					["Froztt"] = {
 						["note"] = "",
 					},
 					["Deletemeeplz"] = {
@@ -145,16 +153,16 @@ DataStore_AgendaDB = {
 					["Fekzul"] = {
 						["note"] = "",
 					},
-					["Yoter"] = {
+					["Deydrellia"] = {
 						["note"] = "",
 					},
-					["Deydrellia"] = {
+					["Mingan"] = {
 						["note"] = "",
 					},
 					["Savedby"] = {
 						["note"] = "",
 					},
-					["Yoshïo"] = {
+					["Grenji"] = {
 						["note"] = "",
 					},
 					["Bauce"] = {
@@ -163,32 +171,38 @@ DataStore_AgendaDB = {
 					["Scottxyz"] = {
 						["note"] = "",
 					},
-					["Grenji"] = {
+					["Yoshïo"] = {
 						["note"] = "",
 					},
-					["Mingan"] = {
+					["Yoter"] = {
 						["note"] = "",
 					},
 					["Nossbig"] = {
 						["note"] = "",
 					},
-					["Froztt"] = {
+					["Yennk"] = {
 						["note"] = "",
 					},
 					["Veryholytaco"] = {
 						["note"] = "",
 					},
-					["Yotaforlife"] = {
+					["Teamspirit"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
+					["Råndôm"] = {
 						["note"] = "",
 					},
 				},
 				["lastUpdate"] = 1546816790,
 			},
+			["Default.Tichondrius.Marshmello"] = {
+				["lastUpdate"] = 1604040794,
+			},
 			["Default.Emerald Dream.Samoansensei"] = {
 				["lastUpdate"] = 1545023282,
+			},
+			["Default.Emerald Dream.Bunni"] = {
+				["lastUpdate"] = 1603378377,
 			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["Contacts"] = {
@@ -243,22 +257,22 @@ DataStore_AgendaDB = {
 					["Forsho"] = {
 						["note"] = "",
 					},
-					["Slappyz"] = {
-						["note"] = "",
-					},
-					["Yotaforlife"] = {
-						["note"] = "",
-					},
-					["Rebelx3A1261"] = {
+					["Megalomania"] = {
 						["note"] = "",
 					},
 					["LaieboC2AE2A"] = {
 						["note"] = "",
 					},
+					["Rebelx3A1261"] = {
+						["note"] = "",
+					},
+					["Yotaforlife"] = {
+						["note"] = "",
+					},
 					["Cryptt"] = {
 						["note"] = "",
 					},
-					["Yennk"] = {
+					["Scottxyz"] = {
 						["note"] = "",
 					},
 					["Issennas"] = {
@@ -270,61 +284,61 @@ DataStore_AgendaDB = {
 					["Kapahulu"] = {
 						["note"] = "",
 					},
-					["Tonica"] = {
-						["note"] = "",
-					},
-					["Spiitout"] = {
-						["note"] = "",
-					},
-					["Mollywhompin"] = {
-						["note"] = "",
-					},
-					["Yoshïo"] = {
-						["note"] = "",
-					},
-					["Silentreaper"] = {
-						["note"] = "",
-					},
-					["Abricalio"] = {
-						["note"] = "",
-					},
-					["Symbolik"] = {
-						["note"] = "",
-					},
-					["ShamanFBF83F"] = {
-						["note"] = "",
-					},
-					["ShamanFBF878"] = {
-						["note"] = "",
-					},
-					["Savedby"] = {
-						["note"] = "",
-					},
-					["Hagslayer"] = {
-						["note"] = "",
-					},
-					["Samoantank"] = {
-						["note"] = "",
-					},
-					["ßerzerk"] = {
+					["Pebox"] = {
 						["note"] = "",
 					},
 					["AlienmDD7619"] = {
 						["note"] = "",
 					},
-					["Pebox"] = {
+					["Mollywhompin"] = {
+						["note"] = "",
+					},
+					["ßerzerk"] = {
+						["note"] = "",
+					},
+					["Samoantank"] = {
+						["note"] = "",
+					},
+					["Hagslayer"] = {
+						["note"] = "",
+					},
+					["ShamanFBF878"] = {
+						["note"] = "",
+					},
+					["ShamanFBF83F"] = {
+						["note"] = "",
+					},
+					["Symbolik"] = {
+						["note"] = "",
+					},
+					["Savedby"] = {
+						["note"] = "",
+					},
+					["Abricalio"] = {
+						["note"] = "",
+					},
+					["Silentreaper"] = {
+						["note"] = "",
+					},
+					["Yoshïo"] = {
+						["note"] = "",
+					},
+					["Spiitout"] = {
+						["note"] = "",
+					},
+					["Tonica"] = {
 						["note"] = "",
 					},
 					["Adrial0FC740"] = {
 						["note"] = "",
 					},
-					["Scottxyz"] = {
+					["Yennk"] = {
 						["note"] = "",
 					},
 					["Veryholytaco"] = {
 						["note"] = "",
 					},
-					["Megalomania"] = {
+					["Slappyz"] = {
 						["note"] = "",
 					},
 					["Råndôm"] = {
@@ -341,12 +355,6 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Samoansage"] = {
 				["lastUpdate"] = 1544168008,
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743272,
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["Contacts"] = {
@@ -374,7 +382,7 @@ DataStore_AgendaDB = {
 					["Bankbeamz"] = {
 						["note"] = "",
 					},
-					["Nossbigga"] = {
+					["Frogz"] = {
 						["note"] = "",
 					},
 					["Rafidh"] = {
@@ -383,17 +391,29 @@ DataStore_AgendaDB = {
 					["Vinza"] = {
 						["note"] = "",
 					},
-					["Maikar"] = {
-						["note"] = "",
-					},
 					["Nossbig"] = {
 						["note"] = "",
 					},
-					["Frogz"] = {
+					["Maikar"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
 						["note"] = "",
 					},
 				},
 				["lastUpdate"] = 1552319660,
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
+			},
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920075,
+			},
+			["Default.Emerald Dream.Grapejellie"] = {
+				["lastUpdate"] = 1614853715,
 			},
 			["Default.Emerald Dream.Samoansage"] = {
 				["lastUpdate"] = 1545018699,
@@ -401,23 +421,23 @@ DataStore_AgendaDB = {
 			["Default.Emerald Dream.Samoaninja"] = {
 				["lastUpdate"] = 1545022454,
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
-			},
 			["Default.Tichondrius.Serepa"] = {
 				["lastUpdate"] = 1545730666,
+			},
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1566073399,
 			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920075,
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["lastUpdate"] = 1603381686,
 			},
 			["Default.Ravenholdt.Kalin"] = {
 				["lastUpdate"] = 1546208371,
 			},
-			["Default.Emerald Dream.Cherriebomb"] = {
-				["lastUpdate"] = 1566780911,
+			["Default.Emerald Dream.Grapejelley"] = {
+				["lastUpdate"] = 1603387632,
 			},
 		},
 	},

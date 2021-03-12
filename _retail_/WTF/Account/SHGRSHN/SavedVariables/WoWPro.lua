@@ -8,11 +8,20 @@ WoWProData = {
 		["Samoanbeast - Ravenholdt"] = {
 			["currentguide"] = "EmmLegionDruid",
 		},
+		["Samoanbeast - Emerald Dream"] = {
+			["currentguide"] = "LudoWowAnniversary",
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["currentguide"] = "JamScar5558",
+		},
+		["Samoanzero - Emerald Dream"] = {
+			["currentguide"] = "LinksMardum098099",
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["currentguide"] = "KurNShire0105",
+		},
 		["Samoanranger - Emerald Dream"] = {
 			["currentguide"] = "BitWes3540",
-		},
-		["Samoantank - Tichondrius"] = {
-			["currentguide"] = "LudoWowAnniversary",
 		},
 		["Samoanstrap - Tichondrius"] = {
 			["currentguide"] = "EmmVoldun",
@@ -22,6 +31,9 @@ WoWProData = {
 		},
 		["Samoansage - Tichondrius"] = {
 			["currentguide"] = "EmmVoldun",
+		},
+		["Samoantank - Tichondrius"] = {
+			["currentguide"] = "LudoWowAnniversary",
 		},
 		["Samoansmash - Emerald Dream"] = {
 			["currentguide"] = "JamScar5558",
@@ -349,39 +361,9 @@ WoWProData = {
 			},
 		},
 		["Log"] = {
-			"183155 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
-			"183155 |c7f0000ffWoWPro|r: Unit: Samoansavage, Realm: Emerald Dream, Class: Rogue, Race: Human, Faction: Alliance", -- [2]
-			"183207 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
-			"183207 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_CombatLog\") InitLockdown=false", -- [4]
-			"183211 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TradeSkillUI\") InitLockdown=false", -- [5]
-			"183211 |cffff7d0aWoWPro|r: ILE:PLAYER_ENTERING_WORLD(true, false) InitLockdown=false", -- [6]
-			"183211 |c7f0000ffWoWPro|r: Setting Timer PEW", -- [7]
-			"183214 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [8]
-			"183214 |cffff7d0aWoWPro|r: Handled: SPELLS_CHANGED() InitLockdown=true", -- [9]
-			"183214 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_AuctionUI\") InitLockdown=true", -- [10]
-			"183214 |cffff7d0aWoWPro|r: Handled: QUEST_LOG_UPDATE() InitLockdown=true", -- [11]
-			"183215 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [12]
-			"183216 |c7f0000ffWoWPro|r: WoWPro.LoadGuideReal(): starting guide cleanup:  nil", -- [13]
-			"183216 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [14]
-			"183216 |cffff7d0aWoWPro|r: Handled: ZONE_CHANGED_NEW_AREA() InitLockdown=false", -- [15]
-			"183217 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [16]
-			"183217 |c7f0000ffWoWPro|r: Signaled for UpdateGuide from WoWPro.AutoCompleteLoot", -- [17]
-			"183218 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"AAP-TBC-WotLK\") InitLockdown=false", -- [18]
-			"183403 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Felameer seems a little tipsy from the |cffffffff|Hitem:37905::::::::76:259::::::|h[Draenic Pale Ale]|h|r.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1878, nil, 0, false, false, false, false) InitLockdown=false", -- [19]
-			"183714 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are now Away: AFK\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1902, nil, 0, false, false, false, false) InitLockdown=false", -- [20]
-			"184605 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Cherriebomb has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1976, nil, 0, false, false, false, false) InitLockdown=false", -- [21]
-			"184606 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Samoanrouge has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1977, nil, 0, false, false, false, false) InitLockdown=false", -- [22]
-			"184845 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Mercis has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1989, nil, 0, false, false, false, false) InitLockdown=false", -- [23]
-			"184845 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Aeredyl has gone offline.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 1990, nil, 0, false, false, false, false) InitLockdown=false", -- [24]
-			"185427 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"Slowku seems a little tipsy from the |cffffffff|Hitem:107499::::::::76:259::::::|h[Mulled Alterac Brandy]|h|r.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 2034, nil, 0, false, false, false, false) InitLockdown=false", -- [25]
-			"185758 |cffff7d0aWoWPro|r: Handled: CHAT_MSG_SYSTEM(\"You are no longer Away.\", \"\", \"\", \"\", \"\", \"\", 0, 0, \"\", 0, 2055, nil, 0, false, false, false, false) InitLockdown=false", -- [26]
-			"185814 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [27]
-			"185816 |cffff7d0aWoWPro|r: Handled: GOSSIP_CLOSED() InitLockdown=false", -- [28]
-			"185816 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_GuildBankUI\") InitLockdown=false", -- [29]
-			"185852 |cffff7d0aWoWPro|r: Handled: ADDON_LOADED(\"Blizzard_TalentUI\") InitLockdown=false", -- [30]
-			"185956 |cffff7d0aWoWPro|r: Handled: PLAYER_TARGET_CHANGED() InitLockdown=false", -- [31]
-			"185958 |cffff7d0aWoWPro|r: ILE:PLAYER_LEAVING_WORLD() InitLockdown=false", -- [32]
-			"185958 |c7f0000ffWoWPro|r: Locking Down PLW", -- [33]
+			"020259 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.", -- [1]
+			"020259 |c7f0000ffWoWPro|r: Unit: Samoansavage, Realm: Emerald Dream, Class: Rogue, Race: Human, Faction: Alliance", -- [2]
+			"020316 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N", -- [3]
 		},
 		["Deltas"] = {
 			"Action=T|Step=Seeing Where Your Loyalties Lie|M0=77.56,43.97|M1=43.86,56.43|Error=35.93|QID=26629|Vers=8.0.1U|Guide=BitCap3035", -- [1]
@@ -1519,6 +1501,53 @@ WoWProData = {
 			"Action=T|Step=Too Close for Comfort|M0=53.78,64.67|M1=48.30,32.00|Error=33.13|QID=27013|Vers=8.0.1N|Guide=BitWes3540", -- [1133]
 			"Action=f|Step=The Menders' Stead|M0=53.78,64.67|M1=40.39,47.36|Error=21.88|QID=27197|Vers=8.0.1N|Guide=BitWes3540", -- [1134]
 			"Action=A|Step=Into the Woods|M0=53.78,64.67|M1=42.96,83.59|Error=21.79|QID=27683|Vers=8.0.1N|Guide=BitWes3540", -- [1135]
+			"Action=A|Step=Beating Them Back!|M0=33.55,53.00|M1=33.05,53.35|Error=0.61|QID=28763|Vers=8.0.1N|Guide=KurNShire0105", -- [1136]
+			"Action=A|Step=In Service Of The Lich King|M0=51.30,35.20|M1=51.31,35.08|Error=0.12|QID=12593|Vers=8.0.1N|Guide=JamScar5558", -- [1137]
+			"Action=T|Step=In Service Of The Lich King|M0=48.00,28.50|M1=47.76,29.30|Error=0.83|QID=12593|Vers=8.0.1N|Guide=JamScar5558", -- [1138]
+			"Action=A|Step=The Emblazoned Runeblade|M0=48.00,28.50|M1=47.75,29.37|Error=0.91|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [1139]
+			"Action=l|Step=Get a Battle-worn Sword|M0=48.00,28.50|M1=47.83,27.84|Error=0.68|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [1140]
+			"Action=C|Step=The Emblazoned Runeblade|M0=47.40,31.00|M1=47.41,31.17|Error=0.17|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [1141]
+			"Action=T|Step=The Emblazoned Runeblade|M0=48.00,28.50|M1=47.70,29.61|Error=1.15|QID=12619|Vers=8.0.1N|Guide=JamScar5558", -- [1142]
+			"Action=A|Step=Runeforging: Preparation For Battle|M0=51.09,36.23|M1=47.70,29.61|Error=7.44|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [1143]
+			"Action=C|Step=Runeforging: Preparation For Battle|M0=47.40,31.00|M1=47.43,31.21|Error=0.22|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [1144]
+			"Action=T|Step=Runeforging: Preparation For Battle|M0=48.00,28.50|M1=47.61,28.90|Error=0.56|QID=12842|Vers=8.0.1N|Guide=JamScar5558", -- [1145]
+			"Action=A|Step=The Endless Hunger|M0=48.00,28.50|M1=47.61,28.90|Error=0.56|QID=12848|Vers=8.0.1N|Guide=JamScar5558", -- [1146]
+			"Action=C|Step=The Endless Hunger|M0=48.88,29.75|M1=48.24,29.72|Error=0.64|QID=12848|Vers=8.0.1N|Guide=JamScar5558", -- [1147]
+			"Action=T|Step=The Endless Hunger|M0=48.00,28.50|M1=47.56,28.83|Error=0.55|QID=12848|Vers=8.0.1N|Guide=JamScar5558", -- [1148]
+			"Action=A|Step=The Eye Of Acherus|M0=48.00,28.50|M1=47.56,28.83|Error=0.55|QID=12636|Vers=8.0.1N|Guide=JamScar5558", -- [1149]
+			"Action=T|Step=The Eye Of Acherus|M0=51.30,35.20|M1=51.39,35.09|Error=0.14|QID=12636|Vers=8.0.1N|Guide=JamScar5558", -- [1150]
+			"Action=A|Step=Death Comes From On High|M0=51.09,36.23|M1=51.39,35.09|Error=1.17|QID=12641|Vers=8.0.1N|Guide=JamScar5558", -- [1151]
+			"Action=A|Step=The Invasion Begins|M0=22.09,55.82|M1=22.02,55.81|Error=0.07|QID=40077|Vers=8.0.1N|Guide=LinksMardum098099", -- [1152]
+			"Action=A|Step=Cry Havoc or Vengeance Will Be Mine!|M0=27.48,63.43|M1=22.02,55.81|Error=9.38|QID=39516^39515|Vers=8.0.1N|Guide=LinksMardum098099", -- [1153]
+			"Action=C|Step=The Invasion Begins|M0=27.48,63.43|M1=25.42,56.48|Error=7.25|QID=40077|Vers=8.0.1N|Guide=LinksMardum098099", -- [1154]
+			"Action=C|Step=The Invasion Begins|M0=28.67,62.91|M1=28.59,63.01|Error=0.13|QID=40077|Vers=8.0.1N|Guide=LinksMardum098099", -- [1155]
+			"Action=A|Step=The Invasion Begins|M0=28.59,63.06|M1=28.59,63.01|Error=0.05|QID=40077|Vers=8.0.1N|Guide=LinksMardum098099", -- [1156]
+			"Action=A|Step=Assault on Mardum|M0=28.59,63.06|M1=28.59,63.01|Error=0.05|QID=39279|Vers=8.0.1N|Guide=LinksMardum098099", -- [1157]
+			"Action=A|Step=Enter the Illidari: Ashtongue|M0=28.55,62.95|M1=28.59,63.01|Error=0.07|QID=40378|Vers=8.0.1N|Guide=LinksMardum098099", -- [1158]
+			"Action=C|Step=Enter the Illidari: Ashtongue|M0=31.57,61.91|M1=31.48,61.80|Error=0.14|QID=40378|Vers=8.0.1N|Guide=LinksMardum098099", -- [1159]
+			"Action=C|Step=Enter the Illidari: Ashtongue|M0=31.56,62.45|M1=31.51,62.29|Error=0.17|QID=40378|Vers=8.0.1N|Guide=LinksMardum098099", -- [1160]
+			"Action=C|Step=Enter the Illidari: Ashtongue|M0=32.09,69.65|M1=32.78,68.91|Error=1.01|QID=40378|Vers=8.0.1N|Guide=LinksMardum098099", -- [1161]
+			"Action=T|Step=Enter the Illidari: Ashtongue|M0=33.95,70.05|M1=33.90,70.00|Error=0.07|QID=40378|Vers=8.0.1N|Guide=LinksMardum098099", -- [1162]
+			"Action=h|Step=Mardum, the Shattered Abyss|M0=42.62,79.17|M1=33.90,70.00|Error=12.66|QID=40379|Vers=8.0.1N|Guide=LinksMardum098099", -- [1163]
+			"Action=A|Step=Eye On the Prize|M0=33.95,70.05|M1=33.90,70.00|Error=0.07|QID=39049|Vers=8.0.1N|Guide=LinksMardum098099", -- [1164]
+			"Action=A|Step=Set Them Free|M0=33.95,70.05|M1=33.90,70.00|Error=0.07|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1165]
+			"Action=A|Step=Enter the Illidari: Coilskar|M0=33.94,69.96|M1=33.90,70.00|Error=0.06|QID=40379|Vers=8.0.1N|Guide=LinksMardum098099", -- [1166]
+			"Action=C|Step=Set Them Free|M0=37.10,73.75|M1=36.57,73.54|Error=0.57|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1167]
+			"Action=C|Step=Set Them Free|M0=39.35,71.72|M1=39.42,71.53|Error=0.21|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1168]
+			"Action=C|Step=Set Them Free|M0=41.72,73.21|M1=41.76,73.12|Error=0.10|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1169]
+			"Action=C|Step=Enter the Illidari: Coilskar|M0=38.62,67.90|M1=43.43,72.62|Error=6.74|QID=40379|Vers=8.0.1N|Guide=LinksMardum098099", -- [1170]
+			"Action=C|Step=Enter the Illidari: Coilskar|M0=38.62,67.90|M1=43.74,72.21|Error=6.69|QID=40379|Vers=8.0.1N|Guide=LinksMardum098099", -- [1171]
+			"Action=K|Step=Inquisitor Baleful|M0=38.62,67.90|M1=42.69,79.30|Error=12.11|QID=39049|Vers=8.0.1N|Guide=LinksMardum098099", -- [1172]
+			"Action=C|Step=Set Them Free|M0=38.62,67.90|M1=38.53,67.98|Error=0.12|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1173]
+			"Action=C|Step=Set Them Free|M0=41.59,66.67|M1=41.44,66.56|Error=0.18|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1174]
+			"Action=T|Step=Set Them Free|M0=38.80,60.63|M1=38.82,60.70|Error=0.07|QID=38759|Vers=8.0.1N|Guide=LinksMardum098099", -- [1175]
+			"Action=T|Step=Eye On the Prize|M0=38.80,60.63|M1=38.82,60.70|Error=0.07|QID=39049|Vers=8.0.1N|Guide=LinksMardum098099", -- [1176]
+			"Action=T|Step=Enter the Illidari: Coilskar|M0=38.80,60.63|M1=38.82,60.70|Error=0.07|QID=40379|Vers=8.0.1N|Guide=LinksMardum098099", -- [1177]
+			"Action=A|Step=Meeting With the Queen|M0=38.80,60.64|M1=38.82,60.70|Error=0.06|QID=39050|Vers=8.0.1N|Guide=LinksMardum098099", -- [1178]
+			"Action=C|Step=Meeting With the Queen|M0=38.80,60.64|M1=38.79,60.53|Error=0.11|QID=39050|Vers=8.0.1N|Guide=LinksMardum098099", -- [1179]
+			"Action=T|Step=Meeting With the Queen|M0=38.80,60.64|M1=38.79,60.53|Error=0.11|QID=39050|Vers=8.0.1N|Guide=LinksMardum098099", -- [1180]
+			"Action=A|Step=Enter the Illidari: Shivarra|M0=38.80,60.64|M1=38.79,60.53|Error=0.11|QID=38765|Vers=8.0.1N|Guide=LinksMardum098099", -- [1181]
+			"Action=A|Step=Before We're Overrun|M0=38.80,60.64|M1=38.79,60.53|Error=0.11|QID=38766|Vers=8.0.1N|Guide=LinksMardum098099", -- [1182]
 		},
 		["Achievements"] = {
 			["Achievement"] = {
@@ -15367,14 +15396,23 @@ WoWProData = {
 		["RecklessCombat"] = false,
 	},
 	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanbeast - Ravenholdt"] = "Default",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Default",
+		["Adinbalo - Emerald Dream"] = "Default",
+		["Samoaninja - Emerald Dream"] = "Default",
+		["Samoanzero - Emerald Dream"] = "Default",
 		["Samoanmystic - Emerald Dream"] = "Default",
+		["Gentodnes - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Samoansneaky - Tichondrius"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Feerless - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
 		["Samoanlegend - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
-		["Samoansmash - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {

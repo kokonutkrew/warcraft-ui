@@ -2,38 +2,61 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Adinbalo - Emerald Dream"] = "Adinbalo - Emerald Dream",
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
+		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
+		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -44,11 +67,17 @@ DataStoreDB = {
 			["Default.Emerald Dream.The Booze Cruise"] = {
 				["faction"] = "Alliance",
 			},
+			["Default.Tichondrius.Wealth"] = {
+				["faction"] = "Horde",
+			},
 			["Default.Emerald Dream.KokonutKrew"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Wealth"] = {
-				["faction"] = "Horde",
+			["Default.Emerald Dream.Wealth"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Stormrage.Ruinnation"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Stormrage.Driven"] = {
 				["faction"] = "Alliance",
@@ -72,11 +101,13 @@ DataStoreDB = {
 			},
 			["Default.Stormrage.Samoansavage"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Driven",
+			},
+			["Default.Emerald Dream.Samoanruin"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Driven",
 			},
 			["Default.Ravenholdt.Samoanbeast"] = {
 				["faction"] = "Alliance",
@@ -91,15 +122,37 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Wealth",
 			},
+			["Default.Emerald Dream.Mf"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["faction"] = "Horde",
 			},
+			["Default.Emerald Dream.Haedshot"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Stormrage.Samoantotems"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Threadcraft"] = {
+				["guildName"] = "KokonutKrew",
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Wealth",
+			},
+			["Default.Emerald Dream.Samoansurge"] = {
+				["guildName"] = "KokonutKrew",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Dustcraft"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Emerald Dream.Samoansteel"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Emerald Dream.Wealthgaming"] = {
 				["faction"] = "Horde",
@@ -107,70 +160,116 @@ DataStoreDB = {
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Gfsdfgsd"] = {
-				["guildName"] = "Wealth",
-				["faction"] = "Horde",
-			},
-			["Default.Stormrage.Kakattack"] = {
-				["faction"] = "Horde",
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "KokonutKrew",
-			},
-			["Default.Tichondrius.Shgrshn"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Wealth",
-			},
-			["Default.Emerald Dream.Samoansensei"] = {
+			["Default.Emerald Dream.Tingerce"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Samoansavage"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Wealth",
-			},
-			["Default.Tichondrius.Samoanstrap"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Wealth",
-			},
-			["Default.Emerald Dream.Samoanmystic"] = {
+			["Default.Emerald Dream.Samoansmash"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Samoansage"] = {
-				["guildName"] = "Wealth",
-				["faction"] = "Horde",
+			["Default.Emerald Dream.Scootervin"] = {
+				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["guildName"] = "KokonutKrew",
+			["Default.Emerald Dream.Samoaninja"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Feerless"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["guildName"] = "Wealth",
 				["faction"] = "Horde",
 			},
+			["Default.Stormrage.Kakattack"] = {
+				["faction"] = "Horde",
+			},
 			["Default.Emerald Dream.Samoantitan"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Samoaninja"] = {
+			["Default.Stormrage.Samoansaint"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
+			["Default.Emerald Dream.Samoansavage"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Emerald Dream.Samoanzero"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Samoansensei"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Gentodnes"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Tichondrius.Samoansavage"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Wealth",
+			},
+			["Default.Emerald Dream.Brunderan"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Tichondrius.Samoanstrap"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Wealth",
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Tichondrius.Samoansage"] = {
+				["guildName"] = "Wealth",
+				["faction"] = "Horde",
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["guildName"] = "KokonutKrew",
+				["faction"] = "Alliance",
+			},
+			["Default.Tichondrius.Shgrshn"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Wealth",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["guildName"] = "KokonutKrew",
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Serepa"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Emerald Dream.Samoanrelic"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Emerald Dream.Samoansage"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Emerald Dream.Samoanreaper"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Craudy"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Vithun"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Tichondrius.Gfsdfgsd"] = {
+				["guildName"] = "Wealth",
+				["faction"] = "Horde",
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
+			},
+			["Default.Emerald Dream.Orecraft"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
 			},
 			["Default.Ravenholdt.Kalin"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Stormrage.Samoansaint"] = {
+			["Default.Emerald Dream.Forgecraft"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "KokonutKrew",
 			},
 		},
 		["ShortToLongRealmNames"] = {

@@ -1,0 +1,21 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["quests_tracked"] = {
+				["Player-162-0B2FC5DA"] = {
+				},
+			},
+			["player_names"] = {
+				["Player-162-0B2FC5DA"] = {
+					["class"] = "ROGUE",
+					["name"] = "Wealthkk",
+					["realm"] = "Emerald Dream",
+				},
+			},
+		},
+	},
+}

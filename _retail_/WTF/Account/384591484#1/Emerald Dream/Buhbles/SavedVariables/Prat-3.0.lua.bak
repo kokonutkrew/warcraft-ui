@@ -1,0 +1,3099 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame15"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:27]|h|r [W To] |cffd8d8d8[|r|Hplayer:Vendolias-EmeraldDream:20:WHISPER:VENDOLIAS-EMERALDDREAM|h|cffa9d271Vendolias|r|h|cffd8d8d8]|r: Hey Vendolias, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884994,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42221.188,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:36]|h|r [W From] |cffd8d8d8[|r|Hplayer:Vendolias-EmeraldDream:24:WHISPER:VENDOLIAS-EMERALDDREAM|h|cffa9d271Vendolias|r|h|cffd8d8d8]|r: cant do it",
+					["serverTime"] = 1606885003,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42229.97,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:37]|h|r [W From] |cffd8d8d8[|r|Hplayer:Vendolias-EmeraldDream:25:WHISPER:VENDOLIAS-EMERALDDREAM|h|cffa9d271Vendolias|r|h|cffd8d8d8]|r: lame name",
+					["serverTime"] = 1606885004,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						14, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42231.702,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:50]|h|r [W To] |cffd8d8d8[|r|Hplayer:Vendolias-EmeraldDream:29:WHISPER:VENDOLIAS-EMERALDDREAM|h|cffa9d271Vendolias|r|h|cffd8d8d8]|r: Lol ok no worries!",
+					["serverTime"] = 1606885017,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42244.188,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 58,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:22]|h|r |CFF69CCF0|cff3ec6eaKeukuan|r|r has gone offline.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884509,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:25]|h|r \"Wystan\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884512,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:26]|h|r \"Patienze\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884513,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:27]|h|r You have invited |cfffef367Zenethir|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884514,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:28]|h|r [W To] |cffd8d8d8[|r|Hplayer:Zenethir-EmeraldDream:179:WHISPER:ZENETHIR-EMERALDDREAM|h|cffd84e4e31|r:|cfffef367Zenethir|r|h|cffd8d8d8]|r: Hey |cfffef367Zenethir|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884515,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:29]|h|r |cfffef367Zenethir|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884516,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:30]|h|r \"Goimon\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884517,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:31]|h|r You have invited Balanceseal to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884518,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:32]|h|r You have invited |cffc59a6cRaerain|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884519,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r |cffc59a6cRaerain|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r [W To] |cffd8d8d8[|r|Hplayer:Balanceseal-EmeraldDream:185:WHISPER:BALANCESEAL-EMERALDDREAM|h|cfffefefeBalanceseal|r|h|cffd8d8d8]|r: Hey Balanceseal, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r |cffd8d8d8[|r|Hplayer:Balanceseal-EmeraldDream:186:WHISPER:BALANCESEAL-EMERALDDREAM|h|cfffefefeBalanceseal|r|h|cffd8d8d8]|r is Away:AFK",
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						16, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:34]|h|r You have invited |cffa9d271Krusix|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884521,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:34]|h|r [W To] |cffd8d8d8[|r|Hplayer:Raerain-EmeraldDream:188:WHISPER:RAERAIN-EMERALDDREAM|h|cffd84e4e38|r:|cffc59a6cRaerain|r|h|cffd8d8d8]|r: Hey |cffc59a6cRaerain|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884521,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:35]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krusix-EmeraldDream:189:WHISPER:KRUSIX-EMERALDDREAM|h|cffd84e4e31|r:|cffa9d271Krusix|r|h|cffd8d8d8]|r: Hey |cffa9d271Krusix|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884522,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:36]|h|r You have invited |cff8687edGnomebody|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884523,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:36]|h|r |cffa9d271Krusix|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884523,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:37]|h|r [W To] |cffd8d8d8[|r|Hplayer:Gnomebody-EmeraldDream:192:WHISPER:GNOMEBODY-EMERALDDREAM|h|cffd84e4e45|r:|cff8687edGnomebody|r|h|cffd8d8d8]|r: Hey |cff8687edGnomebody|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884524,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:39]|h|r |cff8687edGnomebody|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884526,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:46]|h|r Guild Message of the Day: \"Phase 1 - Gold Cap - Store herb and other consumables in raid tab || Freebies in the public tab for leveling || kokonutkrew.com\"",
+					["serverTime"] = 1606884941,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:00]|h|r Total time played: 0 |4day:days;, 0 |4hour:hours;, 26 |4minute:minutes;, 14 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884607,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:00]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 23 |4minute:minutes;, 18 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884607,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:27]|h|r You have invited Amva to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884634,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:28]|h|r You have invited Gratatatata to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884635,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:28]|h|r You have invited Hasalyn to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884635,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:29]|h|r Amva declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884636,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:29]|h|r You have invited Phaedrä to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884636,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r You have invited Antitallom to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r Antitallom declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r You have invited Faelax to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:32]|h|r Hasalyn declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884639,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:33]|h|r Faelax declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884640,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:35]|h|r Phaedrä declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884642,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:46]|h|r Gratatatata declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884653,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:51:27]|h|r |CFFC79C6EScumbagjay|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884694,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:08]|h|r You have invited Hadorbaud to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884855,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:09]|h|r You have invited ßönës to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884856,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:13]|h|r ßönës declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884860,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 1 |4minute:minutes;, 21 |4second:seconds;",
+					["timestamp"] = 42165.069,
+				}, -- [39]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 42165.069,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r Guild Message of the Day: \"Phase 1 - Gold Cap - Store herb and other consumables in raid tab || Freebies in the public tab for leveling || kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42164.876,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r Total time played: 0 |4day:days;, 0 |4hour:hours;, 31 |4minute:minutes;, 51 |4second:seconds;",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 28 |4minute:minutes;, 55 |4second:seconds;",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r |cffd8d8d8[|r|Hplayer:Shadowdream:1|h|cffd84e4e60|r:|cfffe7b09Shadowdream|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:18]|h|r You have invited Reinnbow to join your guild.",
+					["serverTime"] = 1606884983,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42212.517,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:18]|h|r Reinnbow declines your guild invitation.",
+					["serverTime"] = 1606884983,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42212.815,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:19]|h|r You have invited Narizé to join your guild.",
+					["serverTime"] = 1606884986,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42213.387,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:23]|h|r You have invited Hunterdemo to join your guild.",
+					["serverTime"] = 1606884990,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42217.891,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:24]|h|r You have invited Iñclover to join your guild.",
+					["serverTime"] = 1606884991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42218.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:25]|h|r You have invited Vendolias to join your guild.",
+					["serverTime"] = 1606884992,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42219.62,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:26]|h|r Narizé declines your guild invitation.",
+					["serverTime"] = 1606884993,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42220.506,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:27]|h|r You have invited Blysse to join your guild.",
+					["serverTime"] = 1606884994,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42221.188,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:34]|h|r Iñclover declines your guild invitation.",
+					["serverTime"] = 1606885001,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42228.499,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:40]|h|r Vendolias declines your guild invitation.",
+					["serverTime"] = 1606885007,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42234.302,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:47]|h|r |CFF9482C9|cff8687edJigoku|r|r has gone offline.",
+					["serverTime"] = 1606885014,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42240.985,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:24]|h|r Hunterdemo declines your guild invitation.",
+					["serverTime"] = 1606885051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42278.15,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:27]|h|r Blysse declines your guild invitation.",
+					["serverTime"] = 1606885054,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42281.534,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame12"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 2,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:20]|h|r [W To] |cffd8d8d8[|r|Hplayer:Narizé-EmeraldDream:12:WHISPER:NARIZÉ-EMERALDDREAM|h|cfffef367Narizé|r|h|cffd8d8d8]|r: Hey Narizé, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884987,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42214.66,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame16"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 2,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:28]|h|r [W To] |cffd8d8d8[|r|Hplayer:Blysse-EmeraldDream:22:WHISPER:BLYSSE-EMERALDDREAM|h|cfffefefeBlysse|r|h|cffd8d8d8]|r: Hey Blysse, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884995,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42222.631,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame14"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 6,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:26]|h|r [W To] |cffd8d8d8[|r|Hplayer:Iñclover-EmeraldDream:18:WHISPER:IÑCLOVER-EMERALDDREAM|h|cfffefefeIñclover|r|h|cffd8d8d8]|r: Hey Iñclover, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884993,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42220.248,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:40]|h|r [W From] |cffd8d8d8[|r|Hplayer:Iñclover-EmeraldDream:27:WHISPER:IÑCLOVER-EMERALDDREAM|h|cfffefefeIñclover|r|h|cffd8d8d8]|r: hi thx for |cffffff00|Hinvplr:Iñclover-EmeraldDream|h[inv]|h|r, this is an alt",
+					["serverTime"] = 1606885007,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						12, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42234.302,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:04]|h|r [W To] |cffd8d8d8[|r|Hplayer:Iñclover-EmeraldDream:30:WHISPER:IÑCLOVER-EMERALDDREAM|h|cfffefefeIñclover|r|h|cffd8d8d8]|r: No problem!",
+					["serverTime"] = 1606885031,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42258.678,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:09]|h|r [W To] |cffd8d8d8[|r|Hplayer:Iñclover-EmeraldDream:31:WHISPER:IÑCLOVER-EMERALDDREAM|h|cfffefefeIñclover|r|h|cffd8d8d8]|r: Who is your main?",
+					["serverTime"] = 1606885036,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42263.401,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:15]|h|r [W To] |cffd8d8d8[|r|Hplayer:Iñclover-EmeraldDream:32:WHISPER:IÑCLOVER-EMERALDDREAM|h|cfffefefeIñclover|r|h|cffd8d8d8]|r: Ill log it in the notes",
+					["serverTime"] = 1606885042,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42269.052,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame13"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:25]|h|r [W To] |cffd8d8d8[|r|Hplayer:Hunterdemo-EmeraldDream:15:WHISPER:HUNTERDEMO-EMERALDDREAM|h|cffa22fc8Hunterdemo|r|h|cffd8d8d8]|r: Hey Hunterdemo, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884992,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42219.162,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:25]|h|r |cffd8d8d8[|r|Hplayer:Hunterdemo-EmeraldDream:16:WHISPER:HUNTERDEMO-EMERALDDREAM|h|cffa22fc8Hunterdemo|r|h|cffd8d8d8]|r is Away:AFK",
+					["serverTime"] = 1606884992,
+					["r"] = 1,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						9, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42219.162,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame17"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:10]|h|r [W To] |cffd8d8d8[|r|Hplayer:ßönës-EmeraldDream:225:WHISPER:ßÖNËS-EMERALDDREAM|h|cfffe7b09ßönës|r|h|cffd8d8d8]|r: Hey ßönës, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 42084.531,
+					["serverTime"] = 1606884857,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+			["maxElements"] = 128,
+		},
+		["ChatFrame11"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 2,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:20]|h|r [W To] |cffd8d8d8[|r|Hplayer:Reinnbow-EmeraldDream:11:WHISPER:REINNBOW-EMERALDDREAM|h|cfffefefeReinnbow|r|h|cffd8d8d8]|r: Hey Reinnbow, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["serverTime"] = 1606884987,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42214.062,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 1,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 36,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:46]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884951,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:46]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884951,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:47]|h|r AAP Loaded",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884952,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:47]|h|r |cffd8d8d8[|r|Hplayer:Taquitos-EmeraldDream:2:GUILD|h|cffd84e4e53|r:|cfffefefeTaquitos|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14366:Player-162-0B30F684:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[The Necrotic Wake]|h|r |cff2080a0|Hgratsl:Taquitos:GUILD::14366|h[say grats]|h|r!",
+					["serverTime"] = 1606884952,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42181.888,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:48]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 42182.391,
+					["serverTime"] = 1606884953,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:50]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 42184.877,
+					["serverTime"] = 1606884955,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:55]|h|r 2020-12-1 10:55pm : |CFF9482C9Yufaras|r|r has Left the guild (LVL: 60)\n|cFFFFFFFFTime as Member: 8 days|r\n|CFFFFFFFFPublic Note: Joined: 2020-11-25|r",
+					["r"] = 0.5,
+					["serverTime"] = 1606884960,
+					["timestamp"] = 42188.996,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:18]|h|r You have invited Reinnbow to join your guild.",
+					["serverTime"] = 1606884983,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42212.517,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:18]|h|r Reinnbow declines your guild invitation.",
+					["serverTime"] = 1606884983,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42212.815,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:19]|h|r You have invited Narizé to join your guild.",
+					["serverTime"] = 1606884986,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42213.387,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:23]|h|r You have invited Hunterdemo to join your guild.",
+					["serverTime"] = 1606884990,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42217.891,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:24]|h|r 2020-12-1 10:55pm : |CFFFFFFFFTaquitos|r has Leveled to 54 (+1 level)",
+					["r"] = 0,
+					["serverTime"] = 1606884991,
+					["timestamp"] = 42218.701,
+					["g"] = 0.44,
+					["b"] = 0.87,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:24]|h|r You have invited Iñclover to join your guild.",
+					["serverTime"] = 1606884991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42218.719,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:25]|h|r You have invited Vendolias to join your guild.",
+					["serverTime"] = 1606884992,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42219.62,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:26]|h|r Narizé declines your guild invitation.",
+					["serverTime"] = 1606884993,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42220.506,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:27]|h|r You have invited Blysse to join your guild.",
+					["serverTime"] = 1606884994,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42221.188,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:34]|h|r Iñclover declines your guild invitation.",
+					["serverTime"] = 1606885001,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42228.499,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:40]|h|r Vendolias declines your guild invitation.",
+					["serverTime"] = 1606885007,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42234.302,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:56:47]|h|r |CFF9482C9|cff8687edJigoku|r|r has gone offline.",
+					["serverTime"] = 1606885014,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42240.985,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:24]|h|r Hunterdemo declines your guild invitation.",
+					["serverTime"] = 1606885051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42278.15,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:27]|h|r Blysse declines your guild invitation.",
+					["serverTime"] = 1606885054,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42281.534,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:34]|h|r |cff33ff99MaxDps|r: |cFFBCCF02Auto enable on combat!",
+					["timestamp"] = 42288.777,
+					["serverTime"] = 1606885061,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:34]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 42288.777,
+					["serverTime"] = 1606885061,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:34]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 42288.777,
+					["serverTime"] = 1606885061,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:35]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 42288.777,
+					["serverTime"] = 1606885062,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:35]|h|r |cff33ff99MaxDps|r: |cFFF0563DFailed to enable addon!",
+					["timestamp"] = 42288.777,
+					["serverTime"] = 1606885062,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:41]|h|r You receive loot: |cffffffff|Hitem:170549::::::::2:1450:::::::|h[First Aid Kit]|h|r.",
+					["serverTime"] = 1606885068,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42295.882,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:43]|h|r You loot 3 Copper",
+					["serverTime"] = 1606885070,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42297.71,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:44]|h|r |cff33ff99MaxDps|r: |cFFBCCF02Auto enable on combat!",
+					["timestamp"] = 42297.994,
+					["serverTime"] = 1606885071,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 42297.994,
+					["serverTime"] = 1606885071,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 42297.994,
+					["serverTime"] = 1606885071,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 42297.994,
+					["serverTime"] = 1606885071,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:44]|h|r |cff33ff99MaxDps|r: |cFFF0563DFailed to enable addon!",
+					["timestamp"] = 42297.994,
+					["serverTime"] = 1606885071,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:49]|h|r You receive loot: |cffffffff|Hitem:170549::::::::2:1450:::::::|h[First Aid Kit]|h|r.",
+					["serverTime"] = 1606885076,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42303.846,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:50]|h|r You loot 6 Copper",
+					["serverTime"] = 1606885077,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42304.419,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:57:51]|h|r You have been disconnected from Blizzard services.",
+					["serverTime"] = 1606885078,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42305.83,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:15]|h|r You have invited |cfffe7b09Ragnara|r to join your guild.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883002,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:17]|h|r You have invited |cfffe7b09Dorphricecia|r to join your guild.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883004,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:17]|h|r |cffa22fc8Valdana|r declines your guild invitation.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883004,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:23]|h|r You have invited |cfffe7b09Issabriany|r to join your guild.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883010,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:23:24]|h|r You have invited |cfffe7b09Murzarnbirt|r to join your guild.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883011,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:24:02]|h|r |cfffe7b09Ragnara|r declines your guild invitation.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883049,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:24:05]|h|r |CFF00FF96|cff00fe97Feihanu|r|r has gone offline.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883052,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:24:10]|h|r |cffd8d8d8[|r|Hplayer:Adomilenn-EmeraldDream:119:GUILD|h|cffd84e4e60|r:|cffc31d39Adomilenn|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:506:Player-162-0B328841:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[500 Quests Completed]|h|r |cff2080a0|Hgratsl:Adomilenn:GUILD::506|h[say grats]|h|r!",
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						15, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1606883057,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:23]|h|r Guild Message of the Day: \"Phase 1 - Gold Cap - Store herb and other consumables in raid tab || Freebies in the public tab for leveling || kokonutkrew.com\"",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884599,
+					["b"] = 0.250980406999588,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:38]|h|r Total time played: 0 |4day:days;, 0 |4hour:hours;, 21 |4minute:minutes;, 25 |4second:seconds;",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884285,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:38]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 18 |4minute:minutes;, 29 |4second:seconds;",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884285,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:48]|h|r |cffd8d8d8[|r|Hplayer:Lycanpope-EmeraldDream:150:GUILD|h|cffd84e4e60|r:|cfffefefeLycanpope|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14473:Player-162-0B1CA670:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[Fracture Chambers]|h|r |cff2080a0|Hgratsl:Lycanpope:GUILD::14473|h[say grats]|h|r!",
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.250980406999588,
+					["serverTime"] = 1606884295,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:06]|h|r You have invited Babysonic to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884373,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:06]|h|r Babysonic declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884373,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:07]|h|r You have invited Brahamde to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884374,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:08]|h|r \"Stryver\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884375,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:09]|h|r You have invited Ungrïm to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884376,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:10]|h|r \"Eamoren\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884377,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:10]|h|r \"Corven\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884377,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:10]|h|r You have invited Nuggies to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884377,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:12]|h|r \"Multibeast\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884379,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:12]|h|r Ungrïm declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884379,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:46:56]|h|r |cffd8d8d8[|r|Hplayer:Errebon:168|h|cffd84e4e49|r:|cffc31d39Errebon|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884423,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:08]|h|r Brahamde declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884435,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:11]|h|r Nuggies declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884438,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:37]|h|r |cffd8d8d8[|r|Hplayer:Rhastamasta:173|h|cffd84e4e48|r:|cff006fdcRhastamasta|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884464,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:11]|h|r |CFFC41F3BErrebon|r has gone offline.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884498,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:22]|h|r |CFF69CCF0|cff3ec6eaKeukuan|r|r has gone offline.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884509,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:25]|h|r \"Wystan\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884512,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:26]|h|r \"Patienze\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884513,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:27]|h|r You have invited |cfffef367Zenethir|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884514,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:28]|h|r [W To] |cffd8d8d8[|r|Hplayer:Zenethir-EmeraldDream:179:WHISPER:ZENETHIR-EMERALDDREAM|h|cffd84e4e31|r:|cfffef367Zenethir|r|h|cffd8d8d8]|r: Hey |cfffef367Zenethir|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884515,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:29]|h|r |cfffef367Zenethir|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884516,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:30]|h|r \"Goimon\" not found.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884517,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:31]|h|r You have invited Balanceseal to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884518,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:32]|h|r You have invited |cffc59a6cRaerain|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884519,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r |cffc59a6cRaerain|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r [W To] |cffd8d8d8[|r|Hplayer:Balanceseal-EmeraldDream:185:WHISPER:BALANCESEAL-EMERALDDREAM|h|cfffefefeBalanceseal|r|h|cffd8d8d8]|r: Hey Balanceseal, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:33]|h|r |cffd8d8d8[|r|Hplayer:Balanceseal-EmeraldDream:186:WHISPER:BALANCESEAL-EMERALDDREAM|h|cfffefefeBalanceseal|r|h|cffd8d8d8]|r is Away:AFK",
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						16, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884520,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:34]|h|r You have invited |cffa9d271Krusix|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884521,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:34]|h|r [W To] |cffd8d8d8[|r|Hplayer:Raerain-EmeraldDream:188:WHISPER:RAERAIN-EMERALDDREAM|h|cffd84e4e38|r:|cffc59a6cRaerain|r|h|cffd8d8d8]|r: Hey |cffc59a6cRaerain|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884521,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:35]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krusix-EmeraldDream:189:WHISPER:KRUSIX-EMERALDDREAM|h|cffd84e4e31|r:|cffa9d271Krusix|r|h|cffd8d8d8]|r: Hey |cffa9d271Krusix|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884522,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:36]|h|r You have invited |cff8687edGnomebody|r to join your guild.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884523,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:36]|h|r |cffa9d271Krusix|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884523,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:37]|h|r [W To] |cffd8d8d8[|r|Hplayer:Gnomebody-EmeraldDream:192:WHISPER:GNOMEBODY-EMERALDDREAM|h|cffd84e4e45|r:|cff8687edGnomebody|r|h|cffd8d8d8]|r: Hey |cff8687edGnomebody|r, |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r is filling core raid spots. Tanks and Heals preferred. Let me know if your interested <3",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1606884524,
+					["timestamp"] = 42165.069,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:39]|h|r |cff8687edGnomebody|r declines your guild invitation.",
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0,
+					["serverTime"] = 1606884526,
+					["timestamp"] = 42165.069,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:46]|h|r Guild Message of the Day: \"Phase 1 - Gold Cap - Store herb and other consumables in raid tab || Freebies in the public tab for leveling || kokonutkrew.com\"",
+					["serverTime"] = 1606884941,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 42165.069,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:59]|h|r |cffd8d8d8[|r|Hplayer:Jigoku-EmeraldDream:194:GUILD|h|cffd84e4e42|r:|cff8687edJigoku|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:8920:Player-162-0B32C2DB:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[Don't Let the Tala-door Hit You on the Way Out]|h|r |cff2080a0|Hgratsl:Jigoku:GUILD::8920|h[say grats]|h|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884606,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:49:59]|h|r |cffd8d8d8[|r|Hplayer:Jigoku-EmeraldDream:195:GUILD|h|cffd84e4e42|r:|cff8687edJigoku|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:9107:Player-162-0B32C2DB:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[Follow the Leader]|h|r |cff2080a0|Hgratsl:Jigoku:GUILD::9107|h[say grats]|h|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884606,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:00]|h|r Total time played: 0 |4day:days;, 0 |4hour:hours;, 26 |4minute:minutes;, 14 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884607,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:00]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 23 |4minute:minutes;, 18 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884607,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:13]|h|r |cffd8d8d8[|r|Hplayer:Yufaras-EmeraldDream:199:GUILD|h|cffd84e4e60|r:|cff8687edYufaras|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14627:Player-162-04B147B1:1:12:1:20:4294967295:4294967295:4294967295:4294967295|h[Choosing Your Purpose]|h|r |cff2080a0|Hgratsl:Yufaras:GUILD::14627|h[say grats]|h|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884620,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:27]|h|r You have invited Amva to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884634,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:28]|h|r You have invited Gratatatata to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884635,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:28]|h|r You have invited Hasalyn to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884635,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:29]|h|r Amva declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884636,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:29]|h|r You have invited Phaedrä to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884636,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r You have invited Antitallom to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r Antitallom declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:30]|h|r You have invited Faelax to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884637,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:32]|h|r Hasalyn declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884639,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:33]|h|r Faelax declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884640,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:35]|h|r Phaedrä declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884642,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:50:46]|h|r Gratatatata declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884653,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:51:27]|h|r |CFFC79C6EScumbagjay|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884694,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:08]|h|r You have invited Hadorbaud to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884855,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:09]|h|r You have invited ßönës to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884856,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:54:13]|h|r ßönës declines your guild invitation.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884860,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 1 |4minute:minutes;, 21 |4second:seconds;",
+					["timestamp"] = 42165.069,
+				}, -- [105]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 42165.069,
+				}, -- [106]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.0 |r(|cff9482C99.0 Shadowlands|r)  ",
+					["timestamp"] = 42136.902,
+				}, -- [107]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 42136.902,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [108]
+				{
+					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 42136.902,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:16]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
+					["timestamp"] = 42136.902,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r AutoFlood 1.2.3 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 42164.876,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r Fishing Buddy v1.12 loaded",
+					["timestamp"] = 42164.876,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 42164.876,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 42164.876,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:30]|h|r Guild Message of the Day: \"Phase 1 - Gold Cap - Store herb and other consumables in raid tab || Freebies in the public tab for leveling || kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42164.876,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:36]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 42165.069,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:36]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 42165.069,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:36]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884941,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:44]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884949,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:44]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884949,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:44]|h|r |TInterface/AddOns/TomCats/images/00013.blp:16:32:0:2:64:64:0:64:0:32|t|cff00ff00 A Message from TomCat's Tours:|r",
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884949,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:44]|h|r |TInterface/AddOns/TomCats/images/00013.blp:16:32:0:2:64:64:0:64:32:64|t|cffffff00 Curseforge will be completing their transition to Overwolf soon.  TomCat's Tours and other addon authors will be unable to provide addon updates through Curseforge from Nov. 30 and up to Dec. 3.  If you require support or updates, further information and live support available at TomCatsTours.com|r",
+					["timestamp"] = 42165.069,
+					["serverTime"] = 1606884949,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r Total time played: 0 |4day:days;, 0 |4hour:hours;, 31 |4minute:minutes;, 51 |4second:seconds;",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 28 |4minute:minutes;, 55 |4second:seconds;",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:45]|h|r |cffd8d8d8[|r|Hplayer:Shadowdream:1|h|cffd84e4e60|r:|cfffe7b09Shadowdream|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1606884950,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 42179.496,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:46]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Visions of N'Zoth|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884951,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:46]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Mechagon & Nazjatar|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884951,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:55:46]|h|r |cff33ff99DataStore_Mails|r: Samoanbatman (Emerald Dream) has expired (or about to expire) mails ",
+					["timestamp"] = 42179.496,
+					["serverTime"] = 1606884951,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

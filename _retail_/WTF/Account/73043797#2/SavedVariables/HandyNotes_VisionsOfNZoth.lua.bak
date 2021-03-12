@@ -1,0 +1,16 @@
+
+HandyNotes_VisionsOfNZothDB = {
+	["profileKeys"] = {
+		["Bunni - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Marshmello - Tichondrius"] = "Default",
+		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Grapejelley - Emerald Dream"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Tygrrlilly - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

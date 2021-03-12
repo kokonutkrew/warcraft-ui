@@ -78,6 +78,8 @@ VER 3 0000000000000032 "A11." "132293"
 END
 VER 3 0000000000000033 "A12." "132293"
 END
+VER 3 0000000000000037 "dPrintBags" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0000000000000005 "F1.TargetSelf" "135914"
 /focus
 /target player
@@ -91,6 +93,7 @@ VER 3 0000000000000006 "F3.Follow" "135914"
 /follow party2
 /assist party2
 /target party2
+/follow samoanslayer
 END
 VER 3 0000000000000007 "F4.Follow" "135914"
 /follow party3
@@ -118,6 +121,29 @@ VER 3 000000000000001D "FF11.??" "135914"
 END
 VER 3 000000000000001E "FF12.??" "135914"
 END
+VER 3 000000000000003B "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000035 "Trinket 13" "INV_MISC_QUESTIONMARK"
+/use 13
+END
+VER 3 0000000000000034 "Trinket 14" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 0000000000000039 "wDumpWater" "INV_MISC_QUESTIONMARK"
+#show Conjure Water
+/stand
+/run for bag = 0,3,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"Conjured Crystal Water") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
+END
+VER 3 0000000000000038 "wMageServices" "INV_MISC_QUESTIONMARK"
+#show Conjure Water
+/dance
+/stand
+/y Water & Portals
+END
+VER 3 0000000000000036 "wStand" "INV_MISC_QUESTIONMARK"
+#show Conjure Water
+/stand
+END
 VER 3 0000000000000024 "xAggroDistance" "136222"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
 END
@@ -141,6 +167,11 @@ VER 3 0000000000000022 "xFishing" "136222"
 /equipset [mod:alt] Max Fishing
 /castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
 /use [mod:shift] Worm Supreme
+END
+VER 3 000000000000003C "xFrostNova" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura ice block
+/use frost nova
 END
 VER 3 0000000000000013 "xGuildInvite" "135946"
 /ginvite

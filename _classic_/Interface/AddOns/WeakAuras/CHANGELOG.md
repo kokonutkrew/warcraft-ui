@@ -1,25 +1,26 @@
-# [2.18.2](https://github.com/WeakAuras/WeakAuras2/tree/2.18.2) (2020-08-11)
+# [3.1.2](https://github.com/WeakAuras/WeakAuras2/tree/3.1.2) (2020-11-22)
 
-[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/2.18.1...2.18.2)
+[Full Changelog](https://github.com/WeakAuras/WeakAuras2/compare/3.1.1...3.1.2)
 
 ## Highlights
 
- - Bug Fixes 
+ bug fixes 
 
 ## Commits
 
-InfusOnWoW (4):
+InfusOnWoW (9):
 
-- Fix cast bars not having fake timers
-- Fix setting of timed duration in custom trigger
-- Options: GetAll
-- Fix trigger options not appearing at all if the type is nil
+- Remove debug code
+- Models: Use more force in PreShowModels
+- Add a Class/Spec trigger
+- Duplicate Aura: Optimize this for big dynamic groups
+- Tweak Off-Screen Arrow
+- Options Thumbnails: Use fallback icon if set
+- Templates: Add Rupture Debuff to Sub Debuffs
+- Format Options: Keep the expand/collapse state separate
+- Information: Fix nil error with multi-selection
 
-Stanzilla (1):
+cont1nuity (1):
 
-- Update bug_report.md
-
-mrbuds (1):
-
-- re-enable model region for classic (#2379)
+- Adding support for Plater personal resource bar anchoring (#2614)
 

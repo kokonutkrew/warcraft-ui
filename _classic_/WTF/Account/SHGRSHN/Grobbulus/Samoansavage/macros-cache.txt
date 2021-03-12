@@ -1,0 +1,27 @@
+VER 3 0000000001000003 "01.RangedPull" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=2 !throw, null
+END
+VER 3 0000000001000004 "02.SingleTarget" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=target/combat/30 sinister strike
+END
+VER 3 0000000001000005 "12.Finisher" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=target/combat/30 eviscerate
+END
+VER 3 0000000001000002 "xPartyStart" "135914"
+/run ConvertToParty()
+/run InviteUnit("Jnx");
+/run InviteUnit("Mancub"); 
+/run InviteUnit("Buhbulz"); 
+/run InviteUnit("Laurenia");
+/ffa
+/changeactionbar 2
+END
+VER 3 0000000001000001 "xPickPocket" "INV_MISC_QUESTIONMARK"
+#showtooltip Pick Pocket
+/targetenemy [no harm][dead]
+/cast Pick Pocket
+/cleartarget
+END

@@ -1,0 +1,1226 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1601066616,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 15,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:14]|h|r Dwarven District is now your home.",
+					["serverTime"] = 1603377552,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167329.67,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:33]|h|r Quest accepted: Costumed Orphan Matron",
+					["serverTime"] = 1603377571,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167347.791,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:33]|h|r Quest accepted: A Season for Celebration",
+					["serverTime"] = 1603377571,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167347.963,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:40:17]|h|r Quest accepted: The Dark Portal",
+					["serverTime"] = 1603377615,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167392.39,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r The Call for Allies completed.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r Experience gained: 775.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r Received 2 Gold, 2 Silver, 20 Copper.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r You are now Neutral with KokonutKrew.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.334,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:34]|h|r Quest accepted: A Choice of Allies",
+					["serverTime"] = 1603377692,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.958,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:38]|h|r You don't meet the requirements for that quest.",
+					["serverTime"] = 1603377696,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167473.129,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:42:13]|h|r A Choice of Allies completed.",
+					["serverTime"] = 1603377731,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167508.073,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r A Season for Celebration completed.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Experience gained: 968.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Received 2 Gold, 2 Silver, 20 Copper.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Quest accepted: A Time to Gain",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.41,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 79,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:18]|h|r Guild Message of the Day: \"Reach out for gchat! PVP Guild Recruitment in full swing- invite your friends\"",
+					["serverTime"] = 1603377407,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 167179.117,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:25]|h|r Quest accepted: The Call for Allies",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328330,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:25]|h|r Total time played: 0 |4day:days;, 6 |4hour:hours;, 2 |4minute:minutes;, 47 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328330,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:25]|h|r Time played this level: 0 |4day:days;, 5 |4hour:hours;, 43 |4minute:minutes;, 16 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328330,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:45]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328349,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:45]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328349,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:59:45]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603328349,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "0 |4day:days;, 13 |4hour:hours;, 37 |4minute:minutes;, 38 |4second:seconds;",
+					["timestamp"] = 167179.117,
+				}, -- [8]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 167179.117,
+				}, -- [9]
+				{
+					["message"] = "|cffffff 0[FF] |rFollow Felankor v2.5.5a [60000] Loaded",
+					["r"] = 0,
+					["timestamp"] = 167117.888,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Options to display the Follow Felankor options dialog",
+					["r"] = 0,
+					["timestamp"] = 167117.888,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Help for help with using Follow Felankor",
+					["r"] = 0,
+					["timestamp"] = 167117.888,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A SLB 2 |r(|cff9482C99.0 Shadowlands|r)  ",
+					["timestamp"] = 167117.888,
+				}, -- [13]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 167117.888,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:16]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 167117.888,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:35]|h|r 083635 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.",
+					["timestamp"] = 167117.888,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:44]|h|r AutoFlood 1.2 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 167179.117,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:44]|h|r Fishing Buddy v1.11 Beta 1 loaded",
+					["timestamp"] = 167179.117,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:44]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 167179.117,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:44]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 167179.117,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:44]|h|r Guild Message of the Day: \"Reach out for gchat! PVP Guild Recruitment in full swing- invite your friends\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 167179.117,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:48]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 167179.117,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:49]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 167179.117,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:49]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 167179.117,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:49]|h|r 083649 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N",
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603377407,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:49]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603377407,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:52]|h|r |CFFFFD100GRM: Applying update patches... one moment.",
+					["timestamp"] = 167179.117,
+					["serverTime"] = 1603377410,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:55]|h|r Total time played: 0 |4day:days;, 6 |4hour:hours;, 3 |4minute:minutes;, 18 |4second:seconds;",
+					["serverTime"] = 1603377414,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 167190.417,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:55]|h|r Time played this level: 0 |4day:days;, 5 |4hour:hours;, 43 |4minute:minutes;, 47 |4second:seconds;",
+					["serverTime"] = 1603377414,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 167190.417,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:55]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377414,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:57]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377416,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:58]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377417,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:58]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377417,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:58]|h|r |cff33ff99MaxDps|r: |cFF1394CCRogue Outlaw",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377417,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:58]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 167190.417,
+					["serverTime"] = 1603377417,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:59]|h|r Auctioneer Fitch says: The person you described was just here and he tried to persuade me to list a crateful of arcane objects.",
+					["serverTime"] = 1603377418,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167193.832,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:59]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167193.832,
+					["serverTime"] = 1603377418,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:36:59]|h|r AAP Loaded",
+					["timestamp"] = 167193.832,
+					["serverTime"] = 1603377418,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:02]|h|r Auctioneer Fitch says: Naturally, I told him that we don't deal in stolen goods. This is the Stormwind auction house, not some smoke-filled, back alley swapmeet!",
+					["serverTime"] = 1603377421,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167196.873,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:08]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-6",
+					["timestamp"] = 167202.697,
+					["serverTime"] = 1603377427,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:17]|h|r |CFFFFD100GRM: Update Complete... 11 patches applied.",
+					["timestamp"] = 167212.024,
+					["serverTime"] = 1603377436,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:17]|h|r |CFFFFD100GRM Updated: v1.913",
+					["timestamp"] = 167212.024,
+					["serverTime"] = 1603377436,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:18]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167213.526,
+					["serverTime"] = 1603377437,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:37:51]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167245.981,
+					["serverTime"] = 1603377470,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:38:31]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167286.439,
+					["serverTime"] = 1603377509,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:14]|h|r Dwarven District is now your home.",
+					["serverTime"] = 1603377552,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167329.67,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:28]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167342.852,
+					["serverTime"] = 1603377566,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:29]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167344.137,
+					["serverTime"] = 1603377567,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:33]|h|r Quest accepted: Costumed Orphan Matron",
+					["serverTime"] = 1603377571,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167347.791,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:33]|h|r Quest accepted: A Season for Celebration",
+					["serverTime"] = 1603377571,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167347.963,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:53]|h|r Human Commoner says: What do you think of the mask?",
+					["serverTime"] = 1603377591,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167368.03,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:39:57]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167371.918,
+					["serverTime"] = 1603377595,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:40:17]|h|r AAP: Switched to The Iron Horde time.",
+					["timestamp"] = 167391.923,
+					["serverTime"] = 1603377615,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:40:17]|h|r Quest accepted: The Dark Portal",
+					["serverTime"] = 1603377615,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167392.39,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:40:17]|h|r Chromie says: If a scary orc offers you something to drink, you probably want to say no.",
+					["serverTime"] = 1603377615,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167392.657,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:07]|h|r Chromie says: If a scary orc offers you something to drink, you probably want to say no.",
+					["serverTime"] = 1603377665,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167441.861,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:32]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167467.356,
+					["serverTime"] = 1603377690,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r The Call for Allies completed.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r Experience gained: 775.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r Received 2 Gold, 2 Silver, 20 Copper.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r |cffd8d8d8[|r|Hplayer:Bunni-EmeraldDream:24:GUILD|h|cffd8bc3f45|r:|cfffef367Bunni|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:503:Player-162-0A49D8F4:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r |cffffffff(|rCompleted 10/22/20|cffffffff)|r |cff2080a0|Hgratsl:Bunni:GUILD::503|h[say grats]|h|r!",
+					["serverTime"] = 1603377691,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r |cffd8d8d8[|r|Hplayer:Bunni-EmeraldDream:25:ACHIEVEMENT|h|cffd8bc3f45|r:|cfffef367Bunni|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:503:Player-162-0A49D8F4:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r |cffffffff(|rCompleted 10/22/20|cffffffff)|r |cff2080a0|Hgratsl:Bunni:ACHIEVEMENT::503|h[say grats]|h|r!",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.034,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r Reputation with Guild increased by 137.",
+					["serverTime"] = 1603377691,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.334,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:33]|h|r You are now Neutral with KokonutKrew.",
+					["serverTime"] = 1603377691,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.334,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:34]|h|r Quest accepted: A Choice of Allies",
+					["serverTime"] = 1603377692,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167468.958,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:38]|h|r You don't meet the requirements for that quest.",
+					["serverTime"] = 1603377696,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167473.129,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:42:13]|h|r A Choice of Allies completed.",
+					["serverTime"] = 1603377731,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167508.073,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:42:13]|h|r Reputation with Guild increased by 138.",
+					["serverTime"] = 1603377731,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167508.097,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:42:30]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Sinister Strike(193315)",
+					["timestamp"] = 167525.103,
+					["serverTime"] = 1603377748,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:29]|h|r |cffd8d8d8[|r|Hplayer:Mysticka-EmeraldDream:45:ACHIEVEMENT|h|cff3ec6eaMysticka|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:890:Player-162-0B17788F:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Into the Wild Blue Yonder]|h|r |cffffffff(|rCompleted 1/09/20|cffffffff)|r |cff2080a0|Hgratsl:Mysticka:ACHIEVEMENT::890|h[say grats]|h|r!",
+					["serverTime"] = 1603377867,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						7, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167644.285,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:43]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Elwynn Forest]|h",
+					["serverTime"] = 1603377881,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167658.38,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:43]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1603377881,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167658.38,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:43]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Elwynn Forest]|h",
+					["serverTime"] = 1603377881,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167658.38,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r A Season for Celebration completed.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Experience gained: 968.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Received 2 Gold, 2 Silver, 20 Copper.",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.295,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Reputation with Guild increased by 137.",
+					["serverTime"] = 1603377890,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.335,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:44:52]|h|r Quest accepted: A Time to Gain",
+					["serverTime"] = 1603377890,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 167667.41,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:46:54]|h|r ACP: Disabled all addons (except ACP & protected)",
+					["timestamp"] = 167789.395,
+					["serverTime"] = 1603378012,
+				}, -- [79]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

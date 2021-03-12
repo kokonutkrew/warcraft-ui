@@ -1,0 +1,24 @@
+
+HandyNotes_VisionsOfNZothDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Adinbalo - Emerald Dream"] = "Default",
+		["Feerless - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Tingerce - Emerald Dream"] = "Default",
+		["Samoaninja - Emerald Dream"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Haedshot - Emerald Dream"] = "Default",
+		["Gentodnes - Emerald Dream"] = "Default",
+		["Samoansneaky - Tichondrius"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Autumnx - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

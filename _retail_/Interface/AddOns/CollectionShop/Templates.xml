@@ -4,7 +4,7 @@
 	<!-- ### AuctionFrameCollectionShop_ScrollFrameButtonTemplate ### -->
 	<Button name="AuctionFrameCollectionShop_ScrollFrameButtonTemplate" hidden="false" virtual="true">
 		<Size>
-			<AbsDimension x="733" y="30"/><!-- All elements combined w/offsets add up to 733 -->
+			<AbsDimension x="714" y="30"/><!-- All elements combined w/offsets add up to 714 -->
 		</Size>
 		<!-- Frames -->
 		<Frames>
@@ -24,7 +24,7 @@
 			<!-- [Name] -->
 			<Frame name="$parent_Name">
 				<Size>
-					<AbsDimension x="260" y="30"/>
+					<AbsDimension x="250" y="30"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="$parent_IconTexture" relativePoint="RIGHT">
@@ -78,7 +78,7 @@
 			<!-- [Item Price] w/Small Money Frame -->
 			<Frame name="$parent_ItemPrice">
 				<Size>
-					<AbsDimension x="186" y="30"/>
+					<AbsDimension x="177" y="30"/>
 				</Size>
 				<Anchors>
 					<Anchor point="LEFT" relativeTo="$parent_Category" relativePoint="RIGHT">
@@ -303,4 +303,79 @@
 		</HighlightTexture>
 	</Button>
 
+	<!-- ### AuctionSortButtonTemplate ### -->
+	<Button name="AuctionSortButtonTemplate" virtual="true">
+		<Layers>
+		<Layer level="BACKGROUND">
+			<Texture name="$parentLeft" file="Interface\FriendsFrame\WhoFrame-ColumnTabs">
+			<Size>
+				<AbsDimension x="5" y="19"/>
+			</Size>
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+			</Anchors>
+			<TexCoords left="0" right="0.078125" top="0" bottom="0.59375"/>
+			</Texture>
+			<Texture name="$parentRight" file="Interface\FriendsFrame\WhoFrame-ColumnTabs">
+			<Size>
+				<AbsDimension x="4" y="19"/>
+			</Size>
+			<Anchors>
+				<Anchor point="TOPRIGHT"/>
+			</Anchors>
+			<TexCoords left="0.90625" right="0.96875" top="0" bottom="0.59375"/>
+			</Texture>
+			<Texture name="$parentMiddle" file="Interface\FriendsFrame\WhoFrame-ColumnTabs">
+			<Size>
+				<AbsDimension x="10" y="19"/>
+			</Size>
+			<Anchors>
+				<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
+				<Anchor point="RIGHT" relativeTo="$parentRight" relativePoint="LEFT"/>
+			</Anchors>
+			<TexCoords left="0.078125" right="0.90625" top="0" bottom="0.59375"/>
+			</Texture>
+		</Layer>
+		</Layers>
+		<ButtonText name="$parentText">
+		<Anchors>
+			<Anchor point="LEFT">
+			<Offset>
+				<AbsDimension x="8" y="0"/>
+			</Offset>
+			</Anchor>
+		</Anchors>
+		</ButtonText>
+		<NormalFont style="GameFontHighlightSmall"/>
+		<NormalTexture name="$parentArrow" file="Interface\Buttons\UI-SortArrow" parentKey="Arrow">
+		<Size>
+			<AbsDimension x="9" y="8"/>
+		</Size>
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="$parentText" relativePoint="RIGHT">
+			<Offset>
+				<AbsDimension x="3" y="-2"/>
+			</Offset>
+			</Anchor>
+		</Anchors>
+		<TexCoords left="0" right="0.5625" top="0" bottom="1.0"/>
+		</NormalTexture>
+		<HighlightTexture file="Interface\PaperDollInfoFrame\UI-Character-Tab-Highlight" alphaMode="ADD">
+		<Size>
+			<AbsDimension x="5" y="24"/>
+		</Size>
+		<Anchors>
+			<Anchor point="LEFT">
+			<Offset>
+				<AbsDimension x="0" y="0"/>
+			</Offset>
+			</Anchor>
+			<Anchor point="RIGHT">
+			<Offset>
+				<AbsDimension x="4" y="0"/>
+			</Offset>
+			</Anchor>
+		</Anchors>
+		</HighlightTexture>
+	</Button>
 </Ui>

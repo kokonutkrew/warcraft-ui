@@ -721,6 +721,7 @@ L["Warlords Deck"] = "Baralho de Generais"
 L["Warn %d minutes before an event starts"] = "Avisar %d minutos antes que um evento comece"
 L["Warn when mail expires in less days than this value"] = "Avisar quando o correio expira após menos dias que este valor"
 L["Warrior Set"] = "Set de Guerreiro"
+L["War Campaign Missions"] = "Missões de Campanha de Guerra"
 L["Weapons"] = "Armas"
 L["Weaponsmith"] = "Forjador de armas"
 L["Week starts on Monday"] = "A semana começa na Segunda"
@@ -739,11 +740,11 @@ L["Wild Steelbloom"] = "Ácera-agreste"
 L["Wildvine"] = "Vinha Selvagem"
 L["Will be %sdeleted|r in"] = "Será %sapagado|r em"
 L["Will be %sreturned|r in"] = "Será %sdevolvido|r em"
-L["Will be learnable by "] = "Poderá ser aprendido por "
+L["Will be learnable by "] = "Poderá ser aprendido por"
 L["Windhawk Armor"] = "Armadura do Falcão do Vento"
 L["Winter Veil Gift"] = "Presente do Véu do Inverno"
 L["Wintersbite"] = "Invernália"
-L["WIPE_DATABASE"] = "Limpar Base de Dados ?\\nAviso: toda a informação será perdida!"
+L["WIPE_DATABASE"] = "Limpar Base de Dados?\nAviso: toda a informação será perdida!"
 L["World Drops"] = "Saques no Mundo"
 L["World PVP"] = "JxJ no Mundo"
 L["WoW Collector Edition"] = "WoW Edição de Colecionador"
@@ -760,3 +761,26 @@ L[ [=[Your confirmation will still be required any time someone requests your in
 L["Zelemar the Wrathful"] = "Zelemar o Irado"
 L["Zone"] = "Zona"
 
+L["will be returned upon expiry"] = "TRANSLATION MISSING"
+L["CLOSEST_RETURN_IN_PATTERN"] = "TRANSLATION MISSING %s" -- %s will be filled in by [# hours # minutes]
+L["CLOSEST_DELETION_IN_PATTERN"] = "TRANSLATION MISSING %s" -- ^
+L["MAIL_WILL_BE_DELETED_PATTERN"] = "|cFF00FF00%d|cFFFFFFFF will be |cFFFF0000deleted|cFFFFFFFF upon expiry"
+L["Mails found:"] = "TRANSLATION MISSING"
+
+-- Added for Grids_Tasks
+L["Task"] = "TRANSLATION NEEDED"
+L["Tasks"] = "TRANSLATION NEEDED"
+L["New"] = "TRANSLATION NEEDED"
+L["Task Type"] = "TRANSLATION NEEDED"
+
+-- Added for account sharing
+L["Available Content"] = "TRANSLATION NEEDED"
+L["Size"] = "TRANSLATION NEEDED"
+L["Request Content"] = "TRANSLATION NEEDED"
+L["Transfering item"] = "TRANSLATION NEEDED"
+L["Up-to-date"] = "TRANSLATION NEEDED"
+L["Entire Database"] = "TRANSLATION NEEDED"
+L["Ongoing"] = "TRANSLATION NEEDED"
+
+L["Show this guild's realm in the tooltip"] = "TRANSLATION NEEDED"
+L["Include this guild's gold on the Summary totals"] = "TRANSLATION NEEDED"

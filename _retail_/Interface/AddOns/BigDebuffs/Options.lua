@@ -15,7 +15,15 @@ if WOW_PROJECT_ID ~= WOW_PROJECT_CLASSIC then
                 BigDebuffs.db.profile[key].warningList[id] = value BigDebuffs:Refresh()
             end,
             name = name,
-            desc = L["Show this debuff if present while BigDebuffs are displayed"],
+            desc = function()
+                local s = Spell:CreateFromSpellID(id)
+                local spellDesc = s:GetSpellDescription() or ""
+                local extra =
+                "\n\n|cffffd700"..L["Spell ID"].."|r "..id..
+                "\n------------------\n"..
+                L["Show this debuff if present while BigDebuffs are displayed"]
+                return spellDesc..extra
+            end,
         }
     end
 end
@@ -26,8 +34,10 @@ local order = {
     cc = 3,
     buffs_defensive = 4,
     buffs_offensive = 5,
-    buffs_other = 6,
-    roots = 7,
+    debuffs_offensive = 6,
+    buffs_other = 7,
+    roots = 8,
+    buffs_speed_boost = 9,
 }
 local SpellNames = {}
 local SpellIcons = {}
@@ -44,7 +54,8 @@ for spellID, spell in pairs(BigDebuffs.Spells) do
         local raidFrames = spell.type == "cc" or
             spell.type == "roots" or
             spell.type == "special" or
-            spell.type == "interrupts"
+            spell.type == "interrupts" or
+            spell.type == "debuffs_offensive"
         Spells[spell.type].args[key] = {
             type = "group",
             get = function(info)
@@ -66,6 +77,12 @@ for spellID, spell in pairs(BigDebuffs.Spells) do
                 local icon = SpellIcons[spellID] or GetSpellTexture(spellID)
                 SpellIcons[spellID] = icon
                 return icon
+            end,
+            desc = function()
+                local s = Spell:CreateFromSpellID(spellID)
+                local spellDesc = s:GetSpellDescription() or ""
+                local extra = "\n\n|cffffd700"..L["Spell ID"].."|r "..spellID
+                return spellDesc..extra
             end,
             args = {
                 visibility = {
@@ -108,6 +125,13 @@ for spellID, spell in pairs(BigDebuffs.Spells) do
                             desc = L["Show this spell on the unit frames"],
                             width = "full",
                             order = 2
+                        },
+						nameplates = {
+                            type = "toggle",
+                            name = "Nameplates",
+                            desc = L["Show this spell on nameplates"],
+                            width = "full",
+                            order = 3
                         },
                     },
                 },
@@ -278,25 +302,32 @@ function BigDebuffs:SetupOptions()
                         desc = L["Redirects other debuffs to the BigDebuffs anchor"],
                         order = 3,
                     },
+                    showAllClassBuffs = {
+                        type = "toggle",
+                        width = "normal",
+                        name = L["Show All Class Buffs"],
+                        desc = L["Show all the buffs our class can apply"],
+                        order = 4,
+                    },
                     increaseBuffs = {
                         type = "toggle",
-                        width = "double",
+                        width = "normal",
                         name = L["Increase Maximum Buffs"],
                         desc = L["Sets the maximum buffs to 6"],
-                        order = 4,
+                        order = 5,
                     },
                     cooldownCount = {
                         type = "toggle",
                         width = "normal",
                         name = L["Cooldown Count"],
                         desc = L["Allow Blizzard and other addons to display countdown text on the icons"],
-                        order = 5,
+                        order = 6,
                     },
                     cooldownFont = {
                         type = "select",
                         name = L["Font"],
                         desc = L["Select font for cd timers"],
-                        order = 6,
+                        order = 7,
                         values = function()
                             local fonts, newFonts = LibSharedMedia:List("font"), {}
                             for k, v in pairs(fonts) do
@@ -312,7 +343,7 @@ function BigDebuffs:SetupOptions()
                         min = 1,
                         max = 30,
                         step = 1,
-                        order = 7,
+                        order = 8,
                     },
                     cooldownFontEffect = {
                         type = "select",
@@ -324,7 +355,7 @@ function BigDebuffs:SetupOptions()
                             ["THICKOUTLINE"] = "THICKOUTLINE",
                             [""] = "NONE",
                         },
-                        order = 7,
+                        order = 9,
                     },
                     maxDebuffs = {
                         type = "range",
@@ -419,6 +450,16 @@ function BigDebuffs:SetupOptions()
                                 step = 0.01,
                                 order = 5,
                             },
+                            debuffs_offensive = {
+                                type = "range",
+                                isPercent = true,
+                                name = L["Offensive Debuffs"],
+                                desc = L["Set the size of offensive debuffs"],
+                                min = 0,
+                                max = 1,
+                                step = 0.01,
+                                order = 7,
+                            },
                             default = {
                                 type = "range",
                                 isPercent = true,
@@ -427,7 +468,7 @@ function BigDebuffs:SetupOptions()
                                 min = 0,
                                 max = 1,
                                 step = 0.01,
-                                order = 7,
+                                order = 8,
                             },
                             pve = {
                                 type = "range",
@@ -447,7 +488,7 @@ function BigDebuffs:SetupOptions()
                                 min = 0,
                                 max = 1,
                                 step = 0.01,
-                                order = 8,
+                                order = 9,
                             },
                         },
                     },
@@ -819,24 +860,253 @@ function BigDebuffs:SetupOptions()
                                 desc = L["Show Offensive Buffs on the unit frames"],
                                 order = 6,
                             },
+                            debuffs_offensive = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["debuffs_offensive"],
+                                desc = L["Show Offensive Debuffs on the unit frames"],
+                                order = 7,
+                            },
                             buffs_other = {
                                 type = "toggle",
                                 width = "normal",
                                 name = L["buffs_other"],
                                 desc = L["Show Other Buffs on the unit frames"],
-                                order = 7,
+                                order = 8,
                             },
                             roots = {
                                 type = "toggle",
                                 width = "normal",
                                 name = L["roots"],
                                 desc = L["Show Roots on the unit frames"],
-                                order = 8,
+                                order = 9,
+                            },
+                            buffs_speed_boost = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["buffs_speed_boost"],
+                                desc = L["Show Speed Boosts on the unit frames"],
+                                order = 10,
                             },
                         },
                     },
                 }
             },
+			nameplates = {
+				type = "group",
+				disabled = function(info) return info[2] and not self.db.profile[info[1]].enabled end,
+                childGroups = "tab",
+                get = function(info) local name = info[#info] return self.db.profile.nameplates[name] end,
+                set = function(info, value)
+                    local name = info[#info]
+                    self.db.profile.nameplates[name] = value
+                    self:Refresh()
+                end,
+				args = {
+					enabled = {
+						type = "toggle",
+						disabled = false,
+						name = L["Enabled"],
+						order = 1,
+						desc = L["Enable BigDebuffs on the nameplates"],
+					},
+					enemy = {
+						type = "toggle",
+						name = "Enemy Nameplates",
+						order = 1,
+						desc = L["Enable BigDebuffs on enemy nameplates"],
+					},
+					friendly = {
+						type = "toggle",
+						name = "Friendly Nameplates",
+						order = 1,
+						desc = L["Enable BigDebuffs on friendly nameplates"],
+					},
+					npc = {
+						type = "toggle",
+						name = "NPC Nameplates",
+						order = 1,
+						width = "double",
+						desc = L["Enable BigDebuffs on non-player nameplates"],
+					},
+					cooldownCount = {
+                        type = "toggle",
+                        width = "normal",
+                        name = L["Cooldown Count"],
+                        desc = L["Allow Blizzard and other addons to display countdown text on the icons"],
+                        order = 2,
+                    },
+                    cooldownFont = {
+                        type = "select",
+                        name = L["Font"],
+                        desc = L["Select font for cd timers"],
+                        order = 3,
+                        values = function()
+                            local fonts, newFonts = LibSharedMedia:List("font"), {}
+                            for k, v in pairs(fonts) do
+                                newFonts[v] = v
+                            end
+                            return newFonts
+                        end,
+                    },
+                    cooldownFontSize = {
+                        type = "range",
+                        name = L["Font Size"],
+                        desc = L["Set the cd timers font size"],
+                        min = 1,
+                        max = 30,
+                        step = 1,
+                        order = 4,
+                    },
+                    cooldownFontEffect = {
+                        type = "select",
+                        name = L["Font Effect"],
+                        desc = L["Set the cd timers font effect"],
+                        values = {
+                            ["MONOCHROME"] = "MONOCHROME",
+                            ["OUTLINE"] = "OUTLINE",
+                            ["THICKOUTLINE"] = "THICKOUTLINE",
+                            [""] = "NONE",
+                        },
+                        order = 5,
+                    },
+                    tooltips = {
+                        type = "toggle",
+                        width = "full",
+                        name = L["Show Tooltips"],
+                        desc = L["Show spell information when mousing over the icon"],
+                        order = 6,
+                    },
+					spells = {
+                        order = 7,
+                        name = L["Spells"],
+                        type = "group",
+                        inline = true,
+                        args = {
+                            cc = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["cc"],
+                                desc = L["Show Crowd Control on nameplates"],
+                                order = 1,
+                            },
+                            immunities = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["immunities"],
+                                desc = L["Show Immunities on nameplates"],
+                                order = 2,
+                            },
+                            interrupts = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["interrupts"],
+                                desc = L["Show Interrupts on nameplates"],
+                                order = 3,
+                            },
+                            immunities_spells = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["immunities_spells"],
+                                desc = L["Show Spell Immunities on nameplates"],
+                                order = 4,
+                            },
+                            buffs_defensive = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["buffs_defensive"],
+                                desc = L["Show Defensive Buffs on nameplates"],
+                                order = 5,
+                            },
+                            buffs_offensive = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["buffs_offensive"],
+                                desc = L["Show Offensive Buffs on nameplates"],
+                                order = 6,
+                            },
+                            debuffs_offensive = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["debuffs_offensive"],
+                                desc = L["Show Offensive Debuffs on nameplates"],
+                                order = 7,
+                            },
+                            buffs_other = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["buffs_other"],
+                                desc = L["Show Other Buffs on nameplates"],
+                                order = 8,
+                            },
+                            roots = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["roots"],
+                                desc = L["Show Roots on nameplates"],
+                                order = 9,
+                            },
+                            buffs_speed_boost = {
+                                type = "toggle",
+                                width = "normal",
+                                name = L["buffs_speed_boost"],
+                                desc = L["Show Speed Boosts on nameplates"],
+                                order = 10,
+                            },
+                        },
+                    },
+					anchor = {
+						name = L["Anchor"],
+						desc = L["Anchor to attach the BigDebuffs frames"],
+						type = "select",
+						values = {
+							["RIGHT"] = L["RIGHT"],
+							["TOP"] = L["TOP"],
+							["BOTTOM"] = L["BOTTOM"],
+							["LEFT"] = L["LEFT"],
+						},
+						order = 10,
+					},
+					scale = {
+						name = L["Size"],
+						type = "group",
+						inline = true,
+						order = 11,
+						args = {
+							size = {
+								type = "range",
+								name = L["Size"],
+								desc = L["Set the size of the frame"],
+								min = 8,
+								max = 100,
+								step = 1,
+								order = 8,
+							},
+							x = {
+								type = "range",
+								name = L["X offset"],
+								desc = L["Set the X offset"],
+								min = -100,
+								max = 100,
+								step = 1,
+								order = 9,
+							},
+							y = {
+								type = "range",
+								name = L["Y offset"],
+								desc = L["Set the Y offset"],
+								min = -100,
+								max = 100,
+								step = 1,
+								order = 10,
+							},
+						},
+					},
+				},
+				name = L["Nameplates"],
+				desc = L["Enable BigDebuffs on the nameplates"],
+				order = 30,
+			},
             spells = {
                 name = L["Spells"],
                 type = "group",
@@ -1044,6 +1314,16 @@ function BigDebuffs:SetupOptions()
                 step = 1,
                 order = 15,
             },
+            debuffs_offensive = {
+                type = "range",
+                width = "double",
+                name = L["debuffs_offensive"],
+                desc = L["Higher priority spells will take precedence regardless of duration"],
+                min = 1,
+                max = 100,
+                step = 1,
+                order = 16,
+            },
             buffs_other = {
                 type = "range",
                 width = "double",
@@ -1052,7 +1332,7 @@ function BigDebuffs:SetupOptions()
                 min = 1,
                 max = 100,
                 step = 1,
-                order = 16,
+                order = 17,
             },
             roots = {
                 type = "range",
@@ -1062,7 +1342,17 @@ function BigDebuffs:SetupOptions()
                 min = 1,
                 max = 100,
                 step = 1,
-                order = 17,
+                order = 18,
+            },
+            buffs_speed_boost = {
+                type = "range",
+                width = "double",
+                name = L["buffs_speed_boost"],
+                desc = L["Higher priority spells will take precedence regardless of duration"],
+                min = 1,
+                max = 100,
+                step = 1,
+                order = 19,
             },
         },
     }

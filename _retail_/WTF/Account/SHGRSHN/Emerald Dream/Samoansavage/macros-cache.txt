@@ -1,0 +1,80 @@
+VER 3 010000000000000C "Backstab" "INV_MISC_QUESTIONMARK"
+#showtooltip Backstab
+/startattack
+/cast Backstab
+END
+VER 3 0100000000000005 "Blind Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [target=focus] blind
+/use [target=exists] blind
+END
+VER 3 0100000000000004 "Cancel Slice&D" "INV_MISC_QUESTIONMARK"
+#showtooltip Slice and Dice
+/cancelaura Slice and Dice
+/use flagellation
+END
+VER 3 0100000000000010 "Door of Shadows" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] door of shadows
+END
+VER 3 010000000000000E "Fast Cheapshot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use shadowstep
+/use cheapshot
+END
+VER 3 010000000000000A "Grappling Hook" "INV_MISC_QUESTIONMARK"
+#showtooltip grappling hook
+/use [@cursor] grappling hook
+END
+VER 3 0100000000000006 "Kick Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Kick
+/cast [target=focus] kick
+/cast [target=mouseover] Kick
+/use Kick
+END
+VER 3 0100000000000014 "KK_SUB_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_SUB_AOE RightButton; [button:3] KK_SUB_AOE MiddleButton; [button:4] KK_SUB_AOE Button4; [button:5] KK_SUB_AOE Button5; KK_SUB_AOE
+END
+VER 3 0100000000000013 "KK_SUB_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_SUB_ST RightButton; [button:3] KK_SUB_ST MiddleButton; [button:4] KK_SUB_ST Button4; [button:5] KK_SUB_ST Button5; KK_SUB_ST
+END
+VER 3 0100000000000009 "OUTLAW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] OUTLAW RightButton; [button:3] OUTLAW MiddleButton; [button:4] OUTLAW Button4; [button:5] OUTLAW Button5; OUTLAW
+END
+VER 3 0100000000000008 "Pickpocket" "INV_MISC_QUESTIONMARK"
+#showtooltip Pick Pocket
+/targetenemy [no harm][dead]
+/cast Pick Pocket
+/cleartarget
+END
+VER 3 010000000000000F "Sap/Pick" "INV_MISC_QUESTIONMARK"
+#showtooltip sap
+/targetenemy
+/cast Pick Pocket
+/cast [combat] Kidney Shot
+/cast Sap
+END
+VER 3 010000000000000B "Shadow Dance" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadowstrike
+/cast Symbols of Death
+/cast Shadow Blades
+END
+VER 3 0100000000000007 "Sub Kill Shot" "INV_MISC_QUESTIONMARK"
+/castsequence reset=10 Cold Blood(PvP Talent),Shadow Blades,Cheap Shot,Shadow Dance,Symbols of Death,Echoing Reprimand,Eviscerate,Marked for Death,Eviscerate,Cheap 
+END
+VER 3 010000000000000D "TricksOfTheTrade" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help] [@focus, help] [@targettarget, help] Tricks of the Trade
+/use tricks of the trade
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

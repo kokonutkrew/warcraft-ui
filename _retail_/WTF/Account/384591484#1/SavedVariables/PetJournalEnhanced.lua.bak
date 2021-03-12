@@ -5,9 +5,9 @@ PetJournalEnhancedDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Samoandruid - Stormrage"] = "Default",
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoandruid - Ravenholdt"] = "Default",
-		["Samoandruid - Tichondrius"] = "Default",
+		["Stronguard - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
 	},
 }

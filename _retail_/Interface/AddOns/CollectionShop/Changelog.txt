@@ -1,3 +1,39 @@
+**4.04**
+
+- Release date: 10/19/2020
+- Workaround added: Internal auction error following a game client AUCTION_HOUSE_BROWSE_FAILURE event that is a Blizzard bug was resetting CollectionShop after purchasing an auction.
+
+**4.03**
+
+- Release date: 10/14/2020
+- Minor compatibility fixes for new expansions API changes.
+- TOC updated for patch 9.0.1.
+
+**4.02**
+
+- Release date: 05/09/2020
+- Bug fixed: Closing the DressUpFrame using the X at the top was not resetting the Shop Filters panel as it should.
+
+**4.01**
+
+- Release date: 05/09/2020
+- Bug fixed: Battle Pet searches where a lower quality pet was cheapest but a higher quality was available was resulting in CollectionShop saying the auction was unavailable. This was because Blizzard's quality filters are somewhat broken for Battle Pets as the filter only works when selecting the highest quality the pet is available as. Workaround has been implemented.
+
+**4.0**
+
+- Release date: 05/08/2020
+- TOC updated for patch 8.3.0.
+- Live scan disabled temporarily until it can be made compatible with patch 8.3.0.
+- Blizzard's full Auction House scan can be used as often as every 20 min now instead 15 min.
+- Major compatibility fixes for patch 8.3.0.
+- UI adjusted to match new Auction House appearance.
+- New Crafted Gear added for latest patch.
+
+**3.12**
+
+- Release date: 12/21/2019
+- Compatibility fixes for TSM 4 API changes. Removed support for TSM 3.
+
 **3.11**
 
 - Release date: 10/12/2019

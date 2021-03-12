@@ -246,6 +246,7 @@ app.L = {
 		[-538] = "Interface\\Icons\\inv_box_01",									-- The Ahn'Qiraj War Effort
 		[-539] = "Interface\\Icons\\Inv_hammer_25",									-- The Scepter of the Shifting Sands
 		[-540] = "Interface\\Icons\\inv_stone_02",									-- The Scourge Invasion
+		[-541] = "Interface\\Icons\\spell_holiday_tow_spicecloud",					-- The Silithyst Must Flow
 		
 		[-6014] = "Interface\\Icons\\Spell_Arcane_PortalUnderCity",						-- Cities
 	};
@@ -320,6 +321,7 @@ app.L = {
 		[-538] = "The Ahn'Qiraj War Effort",
 		[-539] = "The Scepter of the Shifting Sands",
 		[-540] = "The Scourge Invasion",
+		[-541] = "The Silithyst Must Flow",
 -- Factions / Cities
 		[-6014] = BUG_CATEGORY4,													-- Cities
 		[-10066] = "Legendary",
@@ -350,9 +352,9 @@ app.L = {
 		[3972] = "Interface\\Icons\\inv_misc_head_human_01",
 		[4141] = "Interface\\Icons\\inv_misc_gear_08",
 		[5620] = "Interface\\Icons\\inv_misc_gem_diamond_02",
-		[6751] = "Interface\\Icons\\INV_Misc_Herb_Ragveil",
-		[6752] = "Interface\\Icons\\INV_Misc_Herb_AzsharasVeil_Stem",
-		[7510] = "Interface\\Icons\\INV_Misc_Herb_AzsharasVeil",
+		[6751] = "Interface\\Icons\\inv_misc_food_21",
+		[6752] = "Interface\\Icons\\inv_misc_herb_04",
+		[7510] = "Interface\\Icons\\inv_misc_herb_04",
 		[12564] = "Interface\\Icons\\inv_letter_17",
 		[15084] = "Interface\\Icons\\inv_misc_enggizmos_09",
 		[15085] = "Interface\\Icons\\inv_misc_enggizmos_09",
@@ -880,6 +882,10 @@ app.L = {
 		["Zul'Farrak"] = 219,
 		["Zul'Gurub"] = 337,
 	};
+	["ALT_ZONE_TEXT_TO_MAP_ID"] = {
+		["Ahn'Qiraj"] = 320,
+		["Gates of Ahn'Qiraj"] = 1451,
+	};
 
 	-- Unobtainable Listing
 	["UNOBTAINABLE_ITEM_TEXTURES"] = {
@@ -901,6 +907,8 @@ app.L = {
 		[1501] = {2, "|CFFAAFFAAThis was only available during the Ahn'Qiraj War Effort.|r", "AQ War Effort", nil, "\n \n|CFFFFAAAAIf the War Effort has been completed on your server, simply turn this off.|r" },
 		[1502] = {2, "|CFFAAFFAAThis was only available up until the Scarab Lords on your server have rung the gong.|r", "Gates Unopened", nil, "\n \n|CFFFFAAAAIf the Gates of Anh'Qiraj have been opened on your server, simply turn this off.|r" },
 		[1503] = {2, "|CFFAAFFAAThis was only available during the 10 Hour War after the Scarab Lord(s) bang the gong.|r", "10-Hour War", nil, "\n \n|CFFFFAAAAIf the Gates of Anh'Qiraj have been opened on your server, simply turn this off.|r" },
+		[1504] = {2, "|CFFAAFFAAThis was only available during the Silithyst Must Flow World PVP Event.|r", "Silithyst", nil, "\n \n|CFFFFAAAAIf the World PVP Event is available, simply turn this on.|r" },
+		[1505] = {2, "|CFFAAFFAAThis became available near the end of Phase 5 in order to provide Catch-Up Nature Resist gear for those still working on AQ40.|r", "Catch-Up", true, "\n \n|CFFFFAAAAIf the Catch-Up Gear is available, simply turn this on.|r" },
 		[16] = {2, "|CFFAAFFAAThis will not be available until Phase 6 of WoW Classic.|r", "Phase 6" },
 		
 		-- Seasonal Filters

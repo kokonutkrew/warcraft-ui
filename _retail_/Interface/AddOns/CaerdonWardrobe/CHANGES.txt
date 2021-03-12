@@ -1,13 +1,10 @@
-lightweight tag ac5123946ef0c72d1e34f64d5af5cc119369216a v2.3.5
+lightweight tag 58b231be14e1409c7e052945e053237ce4f221db v2.8.10
 Author:	Caerdon <caerdon@caerdon.games>
-Date:	Wed Aug 14 07:44:33 2019 -0600
+Date:	Thu Nov 26 12:35:00 2020 -0700
 
-commit ac5123946ef0c72d1e34f64d5af5cc119369216a
+commit 58b231be14e1409c7e052945e053237ce4f221db
 Author: Caerdon <caerdon@caerdon.games>
-Date:   Wed Aug 14 07:44:33 2019 -0600
+Date:   Thu Nov 26 12:35:00 2020 -0700
 
-    Fix for non-ElvUI users
-    
-    Sorry about that!  Also fixed a minor color change issue when learning
-    an item.
+    Show conduit upgrades
 

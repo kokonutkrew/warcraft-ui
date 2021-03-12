@@ -2,11 +2,15 @@
 WQTrackerDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanstrap - Tichondrius"] = "Default",
 		["Samoanbeast - Ravenholdt"] = "Default",
-		["Samoansage - Tichondrius"] = "Default",
-		["Samoansavage - Stormrage"] = "Default",
+		["Royders - Emerald Dream"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
+		["Dethwish - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
@@ -21,24 +25,55 @@ WQTrackerDB = {
 					["scale"] = 1,
 				},
 			},
+			["rarescan"] = {
+				["recently_killed"] = {
+					["Player-60-0A6E12EE"] = {
+					},
+					["Player-11-042FD3AD"] = {
+					},
+					["Player-60-0A6DF395"] = {
+					},
+				},
+				["name_cache"] = {
+					["Void Warden Valsuran"] = 127300,
+					["Commander Vecaya"] = 122911,
+					["Captain Faruq"] = 126869,
+					["Golrakahn"] = 124185,
+					["Vigilant Thanos"] = 126865,
+					["Varga"] = 126208,
+					["Houndmaster Kerrax"] = 127288,
+					["Shadowcaster Voruun"] = 122838,
+					["Lieutenant Xakaar"] = 126254,
+					["Umbra'jin"] = 122004,
+					["Chief Alchemist Munculus"] = 127376,
+				},
+			},
 			["TutorialPopupID"] = 5,
 			["is_BFA_version"] = true,
 			["quests_tracked"] = {
-				["Player-60-0A6DF395"] = {
-				},
 				["Player-162-09F14854"] = {
+				},
+				["Player-11-09ADBF6A"] = {
+				},
+				["Player-162-0B342118"] = {
+				},
+				["Player-11-042FD3AD"] = {
+				},
+				["Player-11-09AF1B98"] = {
+				},
+				["Player-162-0B3500F3"] = {
 				},
 				["Player-162-0A2F1F9A"] = {
 				},
 				["Player-60-0A6E12EE"] = {
 				},
-				["Player-11-042FD3AD"] = {
-				},
-				["Player-11-09ADBF6A"] = {
+				["Player-162-0B2AAD76"] = {
 				},
 				["Player-164-09CD1964"] = {
 				},
-				["Player-11-09AF1B98"] = {
+				["Player-162-0A49E245"] = {
+				},
+				["Player-60-0A6DF395"] = {
 				},
 			},
 			["quests_all_characters"] = {
@@ -163,14 +198,34 @@ WQTrackerDB = {
 				},
 			},
 			["player_names"] = {
-				["Player-60-0A6DF395"] = {
-					["class"] = "PALADIN",
-					["name"] = "Samoantitan",
-					["realm"] = "Stormrage",
-				},
 				["Player-162-09F14854"] = {
 					["class"] = "ROGUE",
 					["name"] = "Samoanslayer",
+					["realm"] = "Emerald Dream",
+				},
+				["Player-11-09ADBF6A"] = {
+					["class"] = "DRUID",
+					["name"] = "Samoansage",
+					["realm"] = "Tichondrius",
+				},
+				["Player-162-0B342118"] = {
+					["class"] = "DEATHKNIGHT",
+					["name"] = "Dethwish",
+					["realm"] = "Emerald Dream",
+				},
+				["Player-11-042FD3AD"] = {
+					["class"] = "PALADIN",
+					["name"] = "Samoantank",
+					["realm"] = "Tichondrius",
+				},
+				["Player-11-09AF1B98"] = {
+					["class"] = "HUNTER",
+					["name"] = "Samoanstrap",
+					["realm"] = "Tichondrius",
+				},
+				["Player-162-0B3500F3"] = {
+					["class"] = "MONK",
+					["name"] = "Buhbles",
 					["realm"] = "Emerald Dream",
 				},
 				["Player-162-0A2F1F9A"] = {
@@ -183,51 +238,27 @@ WQTrackerDB = {
 					["name"] = "Samoansavage",
 					["realm"] = "Stormrage",
 				},
-				["Player-11-042FD3AD"] = {
-					["class"] = "PALADIN",
-					["name"] = "Samoantank",
-					["realm"] = "Tichondrius",
-				},
-				["Player-11-09ADBF6A"] = {
-					["class"] = "DRUID",
-					["name"] = "Samoansage",
-					["realm"] = "Tichondrius",
+				["Player-162-0B2AAD76"] = {
+					["class"] = "ROGUE",
+					["name"] = "Royders",
+					["realm"] = "Emerald Dream",
 				},
 				["Player-164-09CD1964"] = {
 					["class"] = "DRUID",
 					["name"] = "Samoanbeast",
 					["realm"] = "Ravenholdt",
 				},
-				["Player-11-09AF1B98"] = {
-					["class"] = "HUNTER",
-					["name"] = "Samoanstrap",
-					["realm"] = "Tichondrius",
+				["Player-162-0A49E245"] = {
+					["class"] = "DEMONHUNTER",
+					["name"] = "Samoanbatman",
+					["realm"] = "Emerald Dream",
+				},
+				["Player-60-0A6DF395"] = {
+					["class"] = "PALADIN",
+					["name"] = "Samoantitan",
+					["realm"] = "Stormrage",
 				},
 			},
-			["rarescan"] = {
-				["recently_killed"] = {
-					["Player-60-0A6E12EE"] = {
-					},
-					["Player-11-042FD3AD"] = {
-					},
-					["Player-60-0A6DF395"] = {
-					},
-				},
-				["name_cache"] = {
-					["Void Warden Valsuran"] = 127300,
-					["Commander Vecaya"] = 122911,
-					["Captain Faruq"] = 126869,
-					["Golrakahn"] = 124185,
-					["Vigilant Thanos"] = 126865,
-					["Varga"] = 126208,
-					["Houndmaster Kerrax"] = 127288,
-					["Shadowcaster Voruun"] = 122838,
-					["Lieutenant Xakaar"] = 126254,
-					["Umbra'jin"] = 122004,
-					["Chief Alchemist Munculus"] = 127376,
-				},
-			},
-			["TutorialToggleButton"] = 2,
 			["history"] = {
 				["quest"] = {
 					["global"] = {
@@ -351,6 +382,7 @@ WQTrackerDB = {
 					},
 				},
 			},
+			["TutorialToggleButton"] = 2,
 		},
 	},
 }

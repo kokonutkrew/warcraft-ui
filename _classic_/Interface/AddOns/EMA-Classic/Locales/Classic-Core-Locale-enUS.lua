@@ -127,6 +127,7 @@ L["QUEST"] = "Quest"
 L["COMPLETION"] = "Completion"
 L["TRACKER"] = "Tracker"
 L["ISBOXER"] = "ISBoxer"
+L["MACRO"] = "Macro"
 
 --------------------------
 -- Pecoded String Formats
@@ -277,9 +278,14 @@ L["IN_GROUP"] = "In Group."
 L["FRIENDS_NOT_STRANGERS"] = "Friends Are Not Strangers"
 L["FRIENDS_NOT_STRANGERS_HELP"] = "Ingame Friends Not Stangers"
 L["OOOL"] = "Slaves Opt Out Of Loot"
-L["OOOL_HELP"] = "SLaves Will Pass On Rare Loot"
-
-
+L["OOOL_HELP"] = "Slaves Will Pass On Rare Loot"
+L["SET_FOCUS_MASTER"] = "Sets Focus To Master* "
+L["SET_MASTER_TARGET"] = "Sets Target To Master* "
+L["SET_MASTER_ASSIST"] = "Sets Assist To Master* "
+L["FAKE_KEY_BINDING"] = "* Needs to Press the key on all clones"
+L["BINDING_CLICK_TO_MOVE"] = "Toggle Click To Move"
+L["COMMANDLINE_CLICK_TO_MOVE"] = "Toggles Click To Move <Group> "
+L["COMMANDLINE_CLICK_TO_MOVE_HELP"] = "Toggles Click To Move By <Group>"
 --------------------------
 -- Message Locale
 L["DEFAULT_CHAT_WINDOW"] = "Default Chat Window"
@@ -564,6 +570,8 @@ L["FOLLOW_SET_MASTER"] = "Sets Follow By Name"
 L["FOLLOW_SET_MASTER_HELP"] = "Sets Follow By Name"
 L["TRAIN"] = "Makes All Characters Follow In A Train"
 L["FOLLOW_ME"] = "Follow Me"
+L["FOLLOW_STOP"] = "Follow Stop" 
+L["FOLLOW_STOP_HELP"] = "Sends A Command To The Minions To Stop Follow There Target"
 L["TRAIN_HELP"] = "Makes All Characters Follow In A Train Behind Each Other"
 L["FOLLOW_ME_HELP"] = "Follow Me <EMA Group>"
 L["SNW"] = "Snw"
@@ -988,4 +996,22 @@ L["LDBBAR_CONFIG_TEAM"] = "To Open Team Settings"
 L["LDBBAR_PUSH"] = "To Push All Settings"
 
 -----------------------
+-- Macro Local
+local ema_macro_tail = "_EMA_AUTO"
+L["MACRO_TAIL"] = ema_macro_tail -- Don't change this one, used to identify EMA macros
+
+L["MACRO_TITLE"] = "Duplicate Macros"
+L["SELECT_MACRO_TITLE"] = "Select macro to edit and clone" 
+L["LOAD_MACRO_BUTTON"] = "Load macros"
+L["LOAD_MACRO_BUTTON_HELP"] = "Get current character macros"
+L["MACRO_NAME_AREA"] = "Macro name"
+L["MACRO_BODY"] = "Macro content"
+L["DELETE_MACROS"] = "Delete ALL EMA macros"
+L["SEND_MACRO_ALL_CHARACTERS"] = "Send to all characters"
+L["SEND_MACRO"] = "Send to character"
+L["LOCAL_MACRO"] = "Local Macro ?"
+L["LOCAL_MACRO_HELP"] = "If not local, it's global"
+L["DELETE_MACROS_HELP"] = "It will delete all macros ending with " .. ema_macro_tail .. " on all your characters"
+
+
 -- X Locale

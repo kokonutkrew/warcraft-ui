@@ -1,15 +1,20 @@
 
 MBB_Exclude = {
+	"LibDBIcon10_Leatrix_Plus", -- [1]
+	"ItemRackMinimapFrame", -- [2]
+	"LibDBIcon10_FGI", -- [3]
+	"LibDBIcon10_BugSack", -- [4]
+	"LibDBIcon10_ExorsusRaidTools", -- [5]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 5,
-	["AltExpandDirection"] = 1,
+	["AltExpandDirection"] = 2,
 	["AttachToMinimap"] = 1,
-	["MaxButtonsPerLine"] = 3,
-	["DetachedButtonPos"] = "TOPLEFT",
+	["ExpandDirection"] = 1,
+	["MaxButtonsPerLine"] = 10,
 	["ButtonPos"] = {
-		98.6302108764649, -- [1]
-		-121.924476623535, -- [2]
+		-25.85953712463379, -- [1]
+		-73.49794006347656, -- [2]
 	},
-	["ExpandDirection"] = 4,
+	["DetachedButtonPos"] = "TOPLEFT",
 }

@@ -1,0 +1,36 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Scootervin - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Tingerce - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Orecraft - Emerald Dream"] = "Default",
+		["Craudy - Emerald Dream"] = "Default",
+		["Hfishsamoan - Ravenholdt"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Vithun - Emerald Dream"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Aheenan - Emerald Dream"] = "Default",
+		["Brunderan - Emerald Dream"] = "Default",
+		["Haedshot - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoanreaper - Emerald Dream"] = "Default",
+		["Samoansteel - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["icon_display_faerie_tales"] = false,
+			["icon_display_rares"] = false,
+			["icon_display_treasures"] = false,
+			["icon_display_pet_battles"] = false,
+		},
+	},
+}

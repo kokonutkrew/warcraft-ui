@@ -335,6 +335,31 @@ function addon:GetChatOptions()
                         end,
                     },
 
+                    mute = {
+                        type = "execute",
+                        name = "",
+                        desc = L._Commands(L, "bar", "c_muteDesc"),
+                        func = function(info)
+                            local _, _, barID, noToggle = strsplit(" ", info.input)
+
+                            if barID == "true" or barID == "false" then -- Track or untrack all bars
+                                self:SetMixedDBValues("char.bars", "muteAlerts", barID == "true" and true or false)
+                            elseif barID then
+                                barID = tonumber(barID)
+                                if not self:ValidateBar(barID) then -- Change only this bar
+                                    self:Print(L.GetErrorMessage("invalidBarID"))
+                                    return
+                                end
+
+                                self:SetDBValue("char.bars", "muteAlerts", not noToggle and "_toggle" or (noToggle == "true" and true or false), barID)
+                            else -- Toggle all bars
+                                self:SetMixedDBValues("char.bars", "muteAlerts", "_toggle")
+                            end
+
+                            self:Refresh()
+                        end,
+                    },
+
                     name = {
                         type = "execute",
                         name = "",
@@ -494,6 +519,31 @@ function addon:GetChatOptions()
                         end,
                     },
 
+                    track = {
+                        type = "execute",
+                        name = "",
+                        desc = L._Commands(L, "bar", "c_trackDesc"),
+                        func = function(info)
+                            local _, _, barID, noToggle = strsplit(" ", info.input)
+
+                            if barID == "true" or barID == "false" then -- Track or untrack all bars
+                                self:SetMixedDBValues("char.bars", "trackProgress", barID == "true" and true or false)
+                            elseif barID then
+                                barID = tonumber(barID)
+                                if not self:ValidateBar(barID) then -- Change only this bar
+                                    self:Print(L.GetErrorMessage("invalidBarID"))
+                                    return
+                                end
+
+                                self:SetDBValue("char.bars", "trackProgress", not noToggle and "_toggle" or (noToggle == "true" and true or false), barID)
+                            else -- Toggle all bars
+                                self:SetMixedDBValues("char.bars", "trackProgress", "_toggle")
+                            end
+
+                            self:Refresh()
+                        end,
+                    },
+
                     visibility = {
                         type = "execute",
                         name = "",
@@ -639,7 +689,7 @@ function addon:GetChatOptions()
                     reset = {
                         type = "execute",
                         name = "",
-                        desc = L._Commands(L, "profile", "c_resetProfileDesc"),
+                        desc = L._Commands(L, "profile", "c_resetDesc"),
                         func = function(info)
                             if UnitAffectingCombat("player") then
                                 addon:Print(L.CommandCombatError)
@@ -687,38 +737,62 @@ function addon:GetChatOptions()
                         name = "",
                         desc = L._Commands(L, "template", "c_loadDesc"),
                         func = function(info)
-                            local barID, isSpace = info.input:match("^[tT][eE][mM][pP][lL][aA][tT][eE]%s[lL][oO][aD][dD]%s(%d+)(.?)")
-                            local input = info.input:match("^[tT][eE][mM][pP][lL][aA][tT][eE]%s[lL][oO][aD][dD]%s%d+%s(.+)$")
+                            -- Split up the words and remove the commands
+                            local words = {strsplit(" ", info.input)}
+                            tremove(words, 2)
+                            tremove(words, 1)
 
-                            if not barID and not input then
-                                barID, isSpace = info.input:match("^[tT][pP][lL]%s[lL][oO][aD][dD]%s(%d+)(.?)")
-                                input = info.input:match("^[tT][pP][lL]%s[lL][oO][aD][dD]%s%d+%s(.+)$")
-                            end
+                            -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+                            -- Validate the barID
 
-                            -- Check if there character after barID is not a space
-                            if isSpace and isSpace:find("%S") then
-                                self:Print(L.GetErrorMessage("invalidBarID"))
-                                return
-                            end
-
+                            local barID = words[1]
                             barID = tonumber(barID)
 
                             if not self:ValidateBar(barID) then
                                 self:Print(L.GetErrorMessage("invalidBarID"))
                                 return
-                            elseif not input then
-                                self:Print(L.GetErrorMessage("missingTemplateName", input))
+                            end
+
+                            tremove(words, 1)
+
+                            -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+                            -- Validate includeData
+
+                            if not words[1] then
+                                self:Print(L.GetErrorMessage("invalidIncludeData"))
                                 return
                             end
 
-                            input = strupper(input)
+                            local includeData = words[1] == "true" and true or false
+                            tremove(words, 1)
 
-                            if not self.db.global.templates[input] then
-                                self:Print(L.GetErrorMessage("invalidTemplateName", input))
+                            -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+                            -- Validate saveOrder
+
+                            if not words[1] then
+                                self:Print(L.GetErrorMessage("invalidSaveOrder"))
                                 return
                             end
 
-                            self:LoadTemplate("user", barID, input)
+                            local saveOrder = words[1] == "true" and true or false
+                            tremove(words, 1)
+
+                            -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+                            -- Validate templateName
+
+                            if not words[1] then
+                                self:Print(L.GetErrorMessage("invalidTemplate"))
+                                return
+                            end
+
+                            local templateName = strupper(strjoin(" ", unpack(words)))
+
+                            if not self.db.global.templates[templateName] then
+                                self:Print(L.GetErrorMessage("invalidTemplateName", templateName))
+                                return
+                            end
+
+                            self:LoadTemplate("user", barID, templateName, includeData, saveOrder)
 
                             self:Refresh()
                         end,

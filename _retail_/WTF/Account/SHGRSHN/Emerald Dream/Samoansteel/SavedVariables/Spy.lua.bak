@@ -1,0 +1,31 @@
+
+SpyPerCharDB = {
+	["PlayerData"] = {
+		["Draazz"] = {
+			["mapID"] = 1536,
+			["guild"] = "Femboys of Draenor",
+			["zone"] = "Maldraxxus",
+			["loses"] = 1,
+			["class"] = "PALADIN",
+			["added"] = 1606942090,
+			["isEnemy"] = true,
+			["reason"] = {
+				["Attacked me at a quest giver"] = true,
+				["Attacked me for no reason"] = true,
+			},
+			["race"] = "Blood Elf",
+			["name"] = "Draazz",
+			["subZone"] = "Blighted Scar",
+			["mapY"] = 0.6,
+			["level"] = 55,
+			["mapX"] = 0.58,
+			["time"] = 1606943841,
+		},
+	},
+	["IgnoreData"] = {
+	},
+	["version"] = "1.1",
+	["KOSData"] = {
+		["Draazz"] = 1606942090,
+	},
+}

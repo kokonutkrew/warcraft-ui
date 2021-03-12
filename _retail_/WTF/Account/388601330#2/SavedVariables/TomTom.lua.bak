@@ -1,0 +1,50 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Default",
+		["Gizelin - Emerald Dream"] = "Default",
+		["Buhbels - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					5.999979019165039, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["profiles"] = {
+		["Sprinkles - Emerald Dream"] = {
+		},
+		["Gizelin - Emerald Dream"] = {
+		},
+		["Buhbels - Emerald Dream"] = {
+		},
+		["Cupkek - Emerald Dream"] = {
+		},
+	},
+}

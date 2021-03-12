@@ -1,4 +1,19 @@
 Changes
+v4.0.5:
+ - Back on curseforge release. Bump toc for shadowlands.
+
+v4.0.4:
+ - Fixes for Handynotes and better RU localization
+
+v4.0.3:
+ - Update for 9.0.
+
+v4.0.2:
+ - Add license. Fix version display.
+
+v4.0.1:
+ - Update for 8.3.
+ - Fix for Dugi and Tukui
 
 v4.0:
  - Update for 8.0.

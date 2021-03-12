@@ -1,0 +1,14 @@
+VER 3 0100000000000003 "Infernal Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] infernal strike
+END
+VER 3 0100000000000004 "Sigil of Misery" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] sigil of misery
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NT0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+NHer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]SamBar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

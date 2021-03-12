@@ -7,29 +7,29 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
-							["padding"] = 6,
 							["position"] = {
+								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 41.75,
 							},
+							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = -205,
 								["x"] = -231.499938964844,
 								["point"] = "CENTER",
-								["y"] = -205,
 							},
 						}, -- [2]
 						{
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
 							["padding"] = 5,
 						}, -- [3]
@@ -37,27 +37,27 @@ Bartender4DB = {
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
 							["padding"] = 5,
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 110,
 								["x"] = 3,
 								["point"] = "BOTTOM",
-								["y"] = 110,
 							},
 							["padding"] = 6,
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 110,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 110,
 							},
 							["padding"] = 6,
 						}, -- [6]
@@ -65,8 +65,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 			},
@@ -74,14 +75,14 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Marshmellow - Grobbulus"] = {
-					["version"] = 3,
-					["padding"] = -2,
 					["position"] = {
+						["y"] = 42,
 						["x"] = 33,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 42,
 					},
+					["version"] = 3,
+					["padding"] = -2,
 				},
 			},
 		},
@@ -89,12 +90,12 @@ Bartender4DB = {
 			["profiles"] = {
 				["Marshmellow - Grobbulus"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 54,
 						["x"] = -514,
 						["point"] = "BOTTOM",
-						["y"] = 54,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -102,24 +103,12 @@ Bartender4DB = {
 			["profiles"] = {
 				["Marshmellow - Grobbulus"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-						["y"] = 47,
 					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Marshmellow - Grobbulus"] = {
 					["version"] = 3,
-					["position"] = {
-						["x"] = 104.500122070313,
-						["point"] = "CENTER",
-						["y"] = 42.4999694824219,
-					},
 				},
 			},
 		},
@@ -128,9 +117,9 @@ Bartender4DB = {
 				["Marshmellow - Grobbulus"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 41,
 						["x"] = 296,
 						["point"] = "BOTTOM",
-						["y"] = 41,
 					},
 					["padding"] = 5,
 				},
@@ -139,12 +128,24 @@ Bartender4DB = {
 		["StanceBar"] = {
 			["profiles"] = {
 				["Marshmellow - Grobbulus"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = -15,
 						["x"] = -82.4999389648438,
 						["point"] = "CENTER",
-						["y"] = -15,
 					},
+					["version"] = 3,
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Marshmellow - Grobbulus"] = {
+					["position"] = {
+						["y"] = 42.4999694824219,
+						["x"] = 104.500122070313,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -153,9 +154,9 @@ Bartender4DB = {
 				["Marshmellow - Grobbulus"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 143,
 						["x"] = -460,
 						["point"] = "BOTTOM",
-						["y"] = 143,
 					},
 				},
 			},
@@ -164,12 +165,12 @@ Bartender4DB = {
 			["profiles"] = {
 				["Marshmellow - Grobbulus"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 61,
 						["x"] = -514,
 						["point"] = "BOTTOM",
-						["y"] = 61,
 					},
+					["version"] = 3,
 				},
 			},
 		},

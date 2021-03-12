@@ -126,12 +126,47 @@ function addon:SetObjectiveID(button, objectiveTable, suppressMsg)
     if not objectiveTable then
         button:SetObjectiveID()
     elseif objectiveTable.type == "item" then
-        button:SetObjectiveID(objectiveTable.type, objectiveTable.itemID, nil, objectiveTable, suppressMsg)
+        button:SetObjectiveID(objectiveTable.type, objectiveTable.itemID, {title = objectiveTable.title}, objectiveTable, suppressMsg)
     elseif objectiveTable.type == "currency" then
         button:SetObjectiveID(objectiveTable.type, objectiveTable.currencyID, nil, objectiveTable, suppressMsg)
     elseif objectiveTable.type == "mixedItems" or objectiveTable.type == "shoppingList" then
        button:SetObjectiveID(objectiveTable.type, objectiveTable.items, {title = objectiveTable.title, icon = objectiveTable.icon, objective = objectiveTable.objective}, objectiveTable, suppressMsg)
     end
+end
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+function FarmingBarButtonTemplateItemIDEditBox_OnEnterPressed(self, ...)
+    local objectiveID = tonumber(self:GetText())
+
+    if not objectiveID or objectiveID == "" then
+        self:SetText("")
+        self:ClearFocus()
+        self:Hide()
+        return
+    elseif self and self.type == "currency" and not C_CurrencyInfo.GetCurrencyInfo(objectiveID) then
+        addon:Print(L.GetErrorMessage("invalidCurrency", self:GetText()))
+
+        self:SetText("")
+        self:ClearFocus()
+        self:Hide()
+
+        return
+    elseif self and self.type == "item" and not GetItemInfo(objectiveID) then
+        addon:Print(L.GetErrorMessage("invalidItemID", objectiveID))
+
+        self:SetText("")
+        self:ClearFocus()
+        self:Hide()
+
+        return
+    end
+
+    self:GetParent():SetObjectiveID(self.type, objectiveID)
+
+    self:SetText("")
+    self:ClearFocus()
+    self:Hide()
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -245,41 +280,67 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
     function self:BAG_UPDATE()
         if not self.objective or not self.objective.type then return end
 
-        local objectiveTable = self:GetBar().db.objectives[self.id]
-        local objectiveName = (objectiveTable.type == "currency" and GetCurrencyInfo(objectiveTable.currencyID)) or (objectiveTable.type == "item" and select(2, GetItemInfo(objectiveTable.itemID))) or objectiveTable.title
-        local oldCount, newCount = self.count, self:GetCount()
-        local difference = newCount - oldCount
-        local alert, soundID
+        if not self:GetBar().db.muteAlerts then
+            local objectiveTable = self:GetBar().db.objectives[self.id]
+            local objectiveName = (objectiveTable.type == "currency" and (C_CurrencyInfo.GetCurrencyInfo(objectiveTable.currencyID) and C_CurrencyInfo.GetCurrencyInfo(objectiveTable.currencyID).name)) or (objectiveTable.type == "item" and select(2, GetItemInfo(objectiveTable.itemID))) or objectiveTable.title
+            local oldCount, newCount = self.count, self:GetCount()
+            local difference = newCount - oldCount
+            local alert, soundID, barAlert
 
-        -- If count is different, then update progress
-        if oldCount ~= newCount then
-            -- If there's an objective, compare it to the objective
-            if objectiveTable.objective then
-                alert = addon.db.global.alertFormats.hasObjective
-                soundID = (oldCount < objectiveTable.objective and newCount >= objectiveTable.objective) and "objectiveComplete" or (oldCount < newCount and "farmingProgress")
-            else
-                alert = addon.db.global.alertFormats.noObjective
-                soundID = oldCount < newCount and "farmingProgress"
+            -- If count is different, then update progress
+            if oldCount ~= newCount then
+                -- If there's an objective, compare it to the objective
+                if objectiveTable.objective then
+                    if self:GetBar().db.trackCompletedObjectives or (not self:GetBar().db.trackCompletedObjectives and ((oldCount < objectiveTable.objective) or (newCount < oldCount and newCount < objectiveTable.objective))) then
+                        alert = addon.db.global.alertFormats.hasObjective
+
+                        if oldCount < objectiveTable.objective and newCount >= objectiveTable.objective then
+                            soundID = "objectiveComplete"
+                            barAlert = "complete"
+                        else
+                            soundID = oldCount < newCount and "farmingProgress"
+                            -- Have to check if we lost an objective
+                            if oldCount >= objectiveTable.objective and newCount < objectiveTable.objective then
+                                barAlert = "lost"
+                            end
+                        end
+                    end
+                else
+                    alert = addon.db.global.alertFormats.noObjective
+                    soundID = oldCount < newCount and "farmingProgress"
+                end
             end
-        end
 
-        local alertInfo = {objective = objectiveTable.objective, objectiveName = objectiveName, oldCount = oldCount, newCount = newCount, difference = difference}
+            local alertInfo = {objectiveTitle = objectiveTable.type == "item" and objectiveTable.title, objective = objectiveTable.objective, objectiveName = objectiveName, oldCount = oldCount, newCount = newCount, difference = difference}
 
-        -- Play alerts
-        if addon.db.global.alerts.chat and alert then
-            addon:Print(addon:ParseAlert(alert, alertInfo))
-        end
-
-        if addon.db.global.alerts.screen and alert then
-            if not addon.CoroutineUpdater:IsVisible() then
-                UIErrorsFrame:AddMessage(addon:ParseAlert(alert, alertInfo), 1, 1, 1)
-            else
-                addon.CoroutineUpdater.alert:SetText(addon:ParseAlert(alert, alertInfo))
+            -- Play alerts
+            if addon.db.global.alerts.chat and alert then
+                addon:Print(_G[addon.db.global.alerts.chatFrame], addon:ParseAlert(alert, alertInfo))
             end
-        end
 
-        if addon.db.global.alerts.sound and soundID then
-            PlaySoundFile(LSM:Fetch("sound", addon.db.global.sounds[soundID]))
+            if addon.db.global.alerts.screen and alert then
+                if not addon.CoroutineUpdater:IsVisible() then
+                    UIErrorsFrame:AddMessage(addon:ParseAlert(alert, alertInfo), 1, 1, 1)
+                else
+                    addon.CoroutineUpdater.alert:SetText(addon:ParseAlert(alert, alertInfo))
+                end
+            end
+
+            if addon.db.global.alerts.sound and soundID then
+                PlaySoundFile(LSM:Fetch("sound", addon.db.global.sounds[soundID]))
+            end
+
+            if barAlert then
+                local progressCount, progressTotal = self:GetBar():GetProgress()
+
+                if barAlert == "complete" then
+                    progressCount = progressCount - 1
+                elseif barAlert == "lost" then
+                    progressCount = progressCount + 1
+                end
+
+                self:GetBar():AlertProgress(progressCount, progressTotal)
+            end
         end
 
         -- Update button
@@ -352,7 +413,7 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
         if objectiveTable.type == "item" then
             count = GetItemCount(objectiveTable.itemID, includeBank)
         elseif objectiveTable.type == "currency" then
-            count = select(2, GetCurrencyInfo(objectiveTable.currencyID))
+            count = C_CurrencyInfo.GetCurrencyInfo(objectiveTable.currencyID) and C_CurrencyInfo.GetCurrencyInfo(objectiveTable.currencyID).quantity
         elseif objectiveTable.type == "mixedItems" then
             count = 0
             for k, v in pairs(objectiveTable.items) do
@@ -360,12 +421,13 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
             end
         elseif objectiveTable.type == "shoppingList" then
             -- Find out how many times the objective has been completed
-            -- Starting at 1, since if we do 0, it'll always be 0
-            -- If the objective isn't complete, the math.min will take care of making it 0
-            local timesObjectiveCompleted = 1
+            -- Need to get the number of times each item's objective has been completed and then find the min amount between those
+            local timesComplete = {}
             for k, v in pairs(objectiveTable.items) do
-                timesObjectiveCompleted = math.min(timesObjectiveCompleted, math.floor(GetItemCount(k, includeBank) / v))
+                tinsert(timesComplete, math.floor(GetItemCount(k, includeBank) / v))
             end
+
+            local timesObjectiveCompleted = math.min(unpack(timesComplete))
 
             -- Get the actual count
             count = 0
@@ -419,6 +481,9 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
     function self:SetObjective(objective)
+        local oldObjective = addon.db.char.bars[self:GetBar().id].objectives[self.id].objective
+        local progressCount, progressTotal = self:GetBar():GetProgress()
+
         -- Set objective
         if objective and objective > 0 then
             addon.db.char.bars[self:GetBar().id].objectives[self.id].objective = objective
@@ -443,12 +508,20 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
                 return
             end, self.objective.itemID)
         elseif self.objective.type == "currency" then
-            addon:Print(L.FarmingObjectiveSet(objective, select(1, GetCurrencyInfo(self.objective.currencyID))))
+            addon:Print(L.FarmingObjectiveSet(objective, C_CurrencyInfo.GetCurrencyInfo(self.objective.currencyID) and C_CurrencyInfo.GetCurrencyInfo(self.objective.currencyID).name))
         else
             addon:Print(L.FarmingObjectiveSet(objective, self.objective.title))
         end
 
         self:UpdateObjectiveText()
+
+        -- We don't need to alert for mixed items or shopping lists because they always have objectives
+        local noChange = not oldObjective and (not objective or objective == 0)
+        noChange = noChange and noChange or (oldObjective and oldObjective == objective)
+
+        if self.objective.type == "mixedItems" or self.objective.type == "shoppingList" or noChange then return end
+
+        self:GetBar():AlertProgress(progressCount, progressTotal, objective and (self:GetCount() >= objective))
     end
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -470,6 +543,7 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
 
                 if objectiveType == "item" then
                     addon.db.char.bars[self:GetBar().id].objectives[self.id].itemID = objectiveID
+                    addon.db.char.bars[self:GetBar().id].objectives[self.id].title = objectiveFlags and objectiveFlags.title or ""
                     addon.db.char.bars[self:GetBar().id].objectives[self.id].includeBank = false
                 elseif objectiveType == "currency" then
                     addon.db.char.bars[self:GetBar().id].objectives[self.id].currencyID = objectiveID
@@ -495,9 +569,9 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
         -- Unregister events here since they either need cleared or updated based on which type is being tracked.
         self:UnregisterEvent("BAG_UPDATE")
         self:UnregisterEvent("BAG_UPDATE_COOLDOWN")
-        --[===[@retail@
+        --[====[@retail@
         self:UnregisterEvent("CURRENCY_DISPLAY_UPDATE")
-        --@end-retail@]===]
+        --@end-retail@]====]
 
         -- Apply visuals to self
         if not self.objective or not self.objective.type then
@@ -512,15 +586,15 @@ function FarmingBarButtonTemplate_OnLoad(self, ...)
                 -- Caching the item to make sure we have all the info.
                 U.CacheItem(self.objective.itemID, function(self) self.Icon:SetTexture(select(10, GetItemInfo(self.objective.itemID))) end, self)
             elseif objectiveType == "currency" then
-                self.Icon:SetTexture(select(3, GetCurrencyInfo(self.objective.currencyID)))
+                self.Icon:SetTexture(C_CurrencyInfo.GetCurrencyInfo(self.objective.currencyID) and C_CurrencyInfo.GetCurrencyInfo(self.objective.currencyID).iconFileID)
             else
                 self.Icon:SetTexture(self:GetBar().db.objectives[self.id].icon)
             end
 
             if objectiveType == "currency" then
-                --[===[@retail@
+                --[====[@retail@
                 self:RegisterEvent("CURRENCY_DISPLAY_UPDATE")
-                --@end-retail@]===]
+                --@end-retail@]====]
             else
                 self:RegisterEvent("BAG_UPDATE")
                 self:RegisterEvent("BAG_UPDATE_COOLDOWN")
@@ -725,7 +799,7 @@ function FarmingBarButtonTemplate_PostClick(self, mouseButton, ...)
 
     if not addon.button1 and cursorType == "item" then
         -- Assign cursor item to the button
-        self:SetObjectiveID("item", cursorID)
+        self:SetObjectiveID("item", cursorID, {title = false})
     elseif mouseButton == "RightButton" then
         if IsAltKeyDown() then
             if not addon.bankOpen or not self.objective or not self.objective.type or self.objective.type == "currency" then return end
@@ -758,6 +832,10 @@ function FarmingBarButtonTemplate_PostClick(self, mouseButton, ...)
                     addon:MoveItems(addon.bankIDs, self, true)
                 end
             end
+        elseif IsControlKeyDown() and IsShiftKeyDown() then
+            -- Quick add item
+            self.ItemIDEditBox.type = "item"
+            self.ItemIDEditBox:Show()
         elseif IsShiftKeyDown() then
             if not self.objective or not self.objective.type then return end
             -- Clear item off the button
@@ -769,6 +847,12 @@ function FarmingBarButtonTemplate_PostClick(self, mouseButton, ...)
             if self.objective.type ~= "item" then return end
             -- Using item
             if GetItemSpell(self.objective.itemID) then
+                if not GetCVar("autoLootDefault") and true and GetNumLootItems() > 0 then -- change true to db setting
+                    for i = 1, GetNumLootItems() do
+                        LootSlot(i)
+                    end
+                end
+
                 U.CacheItem(self.objective.itemID, function(objectiveID)
                     if self:GetAttribute("item") == string.format("item:%d", objectiveID) then
                         addon:Print(L.UsingItem(objectiveID))
@@ -779,6 +863,10 @@ function FarmingBarButtonTemplate_PostClick(self, mouseButton, ...)
     elseif mouseButton == "LeftButton" then
         if IsAltKeyDown() then
             if not self.objective or not self.objective.type or self.objective.type == "currency" then return end
+            local progressCount, progressTotal = self:GetBar():GetProgress()
+            local objective = self.objective.objective
+            local oldCount = self:GetCount()
+
             -- Toggle bank inclusion
             addon:SetDBValue("char.bars.objectives", "includeBank", "_toggle", self:GetBar().id, self.id)
 
@@ -787,6 +875,16 @@ function FarmingBarButtonTemplate_PostClick(self, mouseButton, ...)
             self:UpdateObjectiveText()
 
             addon:Print(L.IncludeBankChanged(self:GetBar().id, self.id, addon:GetDBValue("char.bars.objectives", "includeBank", self:GetBar().id, self.id)))
+
+            -- Check if objective has changed and update bar progress
+            self:GetBar():AlertProgress(progressCount, progressTotal, objective and (oldCount >= objective))
+        --[====[@retail@
+        elseif IsControlKeyDown() and IsShiftKeyDown() then
+            -- Quick add currency
+            self.ItemIDEditBox.type = "currency"
+            self.ItemIDEditBox:Show()
+
+        --@end-retail@]====]
         elseif IsControlKeyDown() then
             if not self.objective or not self.objective.type then
                 return
@@ -832,6 +930,15 @@ function FarmingBarButtonTemplate_PreClick(self, mouseButton, ...)
     if not UnitAffectingCombat("player") and (cursorID and cursorID ~= self.itemID) then
         self:SetAttribute("type", nil)
     end
+
+    -- Enable auto loot
+    if self:GetAttribute("item") and addon.db.global.autoLootItems then
+        local autoLootDefault = GetCVar("autoLootDefault")
+        SetCVar("autoLootDefault", 1)
+        C_Timer.After(0.5, function()
+            SetCVar("autoLootDefault", autoLootDefault)
+        end)
+    end
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -845,19 +952,9 @@ function addon:ParseAlert(alert, alertInfo)
     local progressColor = alertInfo.objective and (alertInfo.newCount >= alertInfo.objective and "|cff00ff00" or "|cffffcc00") or ""
 
     -- Replaces placeholders with data: colors come first so things like %c, %d, and %p don't get changed before colors can be evaluated
-    alert = alert:gsub("%%color%%", "|r"):gsub("%%diffColor%%", diffColor):gsub("%%progressColor%%", progressColor):gsub("%%c", alertInfo.newCount):gsub("%%C", alertInfo.oldCount):gsub("%%d", (alertInfo.difference > 0 and "+" or "") .. alertInfo.difference):gsub("%%n", alertInfo.objectiveName):gsub("%%o", alertInfo.objective or ""):gsub("%%O", objectiveReps):gsub("%%p", percent):gsub("%%r", remainder)
+    alert = alert:gsub("%%color%%", "|r"):gsub("%%diffColor%%", diffColor):gsub("%%progressColor%%", progressColor):gsub("%%c", alertInfo.newCount):gsub("%%C", alertInfo.oldCount):gsub("%%d", (alertInfo.difference > 0 and "+" or "") .. alertInfo.difference):gsub("%%n", alertInfo.objectiveName):gsub("%%o", alertInfo.objective or ""):gsub("%%O", objectiveReps):gsub("%%p", percent):gsub("%%r", remainder):gsub("%%t", alertInfo.objectiveTitle or "")
 
-    -- Loop checks for multiple if statements
-    while alert:find("if%%") do
-        -- Replacing the end of the first loop with something different so we can narrow it down to the shortest match
-        alert = alert:gsub("if%%", "!!", 1)
-
-        -- Storing condition,text,elseText in matches table
-        local matches = {alert:match("%%if%((.+),(.+),(.*)%)!!")}
-
-        -- Evalutes the if statement and makes the replacement
-        alert = alert:gsub("%%if%((.+),(.+),(.*)%)!!", assert(loadstring("return " .. matches[1]))() and matches[2] or matches[3])
-    end
+    alert = self:ParseIfStatement(alert)
 
     return alert
 end

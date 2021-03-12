@@ -8,7 +8,8 @@ VER 3 0000000001000001 "02.LightDamage" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /follow party1
 /assist party1
-/use frostbolt
+/castsequence reset=180 fire blast,berserking,cone of cold,frostbolt,frostbolt,fire blast,cone of cold,frostbolt,frostbolt,fire blast, cone of cold,frostbolt,frostbolt,fire blast,frostbolt,frostbolt
+/use 14
 END
 VER 3 0000000001000003 "03.Dots" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -47,9 +48,20 @@ VER 3 000000000100000A "Flamestrike" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@cursor] flamestrike
 END
+VER 3 000000000100000C "mageFrostbolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use frostbolt
+/use 13
+/use 14
+END
+VER 3 000000000100000D "trinkblizz" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+/use blizzard
+END
 VER 3 000000000100000B "xKite" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/castsequence reset=30 ice barrier, frost nova, blink, blink, blink, blink
+/castsequence reset=30 ice barrier, mana shield, mana shield, mana shield, mana shield, mana shield, mana shield, mana shield, mana shield, mana shield
 END
 VER 3 0000000001000006 "xPolymorph" "INV_MISC_QUESTIONMARK"
 #showtooltip polymorph

@@ -35,9 +35,9 @@ function addon:CreateObjectiveBuilder()
     groupDropdown:SetLayout("Flow")
 
     groupDropdown:SetGroupList({
-        --[===[@retail@
+        --[====[@retail@
         currency = L["Currency"],
-        --@end-retail@]===]
+        --@end-retail@]====]
         item = L["Item"],
         mixedItems = L["Mixed Items"],
         shoppingList = L["Shopping List"],
@@ -78,9 +78,9 @@ end
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 function addon:CreateObjectiveIconSelector()
-    --[===[@retail@
+    --[====[@retail@
     local InterfaceIcons = self:GetFileDataRetail()
-    --@end-retail@]===]
+    --@end-retail@]====]
 
     --@non-retail@
     local InterfaceIcons = self:GetFileDataClassic()
@@ -127,7 +127,11 @@ function addon:CreateObjectiveIconSelector()
     end)
 
     searchEditBox:SetCallback("OnEnterPressed", function(self)
-        self:ClearFocus()
+        if IsControlKeyDown() then
+            chooseButton:Click()
+        else
+            self:ClearFocus()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -154,7 +158,7 @@ function addon:CreateObjectiveIconSelector()
 	GetMacroIcons(iconsGroupScrollChild.icons)
     GetMacroItemIcons(iconsGroupScrollChild.icons)
 
-    sort(iconsGroupScrollChild.icons, function(a, b) return a > b end)
+    sort(iconsGroupScrollChild.icons, function(a, b) return tostring(a) > tostring(b) end)
 
     function iconsGroupScrollChild:LoadPage(page)
         local searchTxt = searchEditBox:GetText()
@@ -188,6 +192,10 @@ function addon:CreateObjectiveIconSelector()
                     previewLabel:SetImage(iconsGroupScrollChild.selectedIcon)
                     previewLabel:SetText(name)
                     container:SetStatusText(name)
+
+                    C_Timer.After(.01, function()
+                        searchEditBox:SetFocus()
+                    end)
                 end)
             end
         end
@@ -199,7 +207,7 @@ function addon:CreateObjectiveIconSelector()
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-    local firstButton = AceGUI:Create("Button")
+    firstButton = AceGUI:Create("Button")
     firstButton:SetRelativeWidth(1/4)
     firstButton:SetText(L["First"])
 
@@ -209,7 +217,7 @@ function addon:CreateObjectiveIconSelector()
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-    local prevButton = AceGUI:Create("Button")
+    prevButton = AceGUI:Create("Button")
     prevButton:SetRelativeWidth(1/4)
     prevButton:SetText(L["Previous"])
 
@@ -220,7 +228,7 @@ function addon:CreateObjectiveIconSelector()
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-    local nextButton = AceGUI:Create("Button")
+    nextButton = AceGUI:Create("Button")
     nextButton:SetRelativeWidth(1/4)
     nextButton:SetText(L["Next"])
 
@@ -231,7 +239,7 @@ function addon:CreateObjectiveIconSelector()
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-    local lastButton = AceGUI:Create("Button")
+    lastButton = AceGUI:Create("Button")
     lastButton:SetRelativeWidth(1/4)
     lastButton:SetText(L["Last"])
 
@@ -241,16 +249,18 @@ function addon:CreateObjectiveIconSelector()
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-    local chooseButton = AceGUI:Create("Button")
+    chooseButton = AceGUI:Create("Button")
     chooseButton:SetFullWidth(true)
     chooseButton:SetText(L["Choose"])
 
-    chooseButton:SetCallback("OnClick", function(self, _, key)
+    function chooseButton:Click(_, key)
         self.editbox:SetText(iconsGroupScrollChild.selectedIcon)
         container:Hide()
         self.quantity:SetFocus()
         self.quantity:HighlightText()
-    end)
+    end
+
+    chooseButton:SetCallback("OnClick", chooseButton.Click)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -286,7 +296,7 @@ end
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 function addon:DrawCurrencyGroup(parent)
-    local descriptionLabel, separator, previewLabel, currencyDropdown, currencyEditBox, updateButton, resetButton
+    local descriptionLabel, separator, previewLabel, currencyDropdown, currencyEditBox, objectiveEditBox, updateButton, resetButton
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -308,15 +318,21 @@ function addon:DrawCurrencyGroup(parent)
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
     currencyDropdown = AceGUI:Create("Dropdown")
-    currencyDropdown:SetWidth(200)
+    currencyDropdown:SetFullWidth(true)
     currencyDropdown:SetList(addon.currencies, addon.sortedCurrencies)
 
     currencyDropdown:SetCallback("OnValueChanged", function(self, _, key)
-        local currencyName, _, icon = GetCurrencyInfo(key)
+        local currencyName, icon
+        local currency = C_CurrencyInfo.GetCurrencyInfo(key)
+        currencyName = currency and currency.name
+        icon = currency and currency.iconFileID
 
         currencyEditBox:SetText(key)
         previewLabel:SetImage(icon)
         previewLabel:SetText(currencyName)
+
+        currencyEditBox:SetFocus()
+        currencyEditBox:HighlightText()
 
         parent:DoLayout()
     end)
@@ -328,7 +344,11 @@ function addon:DrawCurrencyGroup(parent)
     currencyEditBox:SetLabel(L["Currency ID"])
 
     currencyEditBox:SetCallback("OnTextChanged", function(self, _, text)
-        local currencyName, _, icon = GetCurrencyInfo(text)
+        local currencyName, icon
+        local currency = C_CurrencyInfo.GetCurrencyInfo(tonumber(text) or 0)
+
+        currencyName = currency and currency.name
+        icon = currency and currency.iconFileID
 
         if currencyName ~= "" then
             previewLabel:SetImage(icon)
@@ -342,8 +362,32 @@ function addon:DrawCurrencyGroup(parent)
     end)
 
     currencyEditBox:SetCallback("OnEnterPressed", function(self)
-        self:ClearFocus()
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif not IsShiftKeyDown() then
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
+        end
     end)
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+    objectiveEditBox = AceGUI:Create("EditBox")
+    objectiveEditBox:SetWidth(100)
+    objectiveEditBox:SetLabel(L["Objective"])
+    objectiveEditBox:SetMaxLetters(15)
+
+    objectiveEditBox:SetCallback("OnEnterPressed", function(self)
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif IsShiftKeyDown() then
+            currencyEditBox:SetFocus()
+            currencyEditBox:HighlightText()
+        else
+            self:ClearFocus()
+        end
+    end)
+
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -351,16 +395,32 @@ function addon:DrawCurrencyGroup(parent)
     updateButton:SetRelativeWidth(1/2)
     updateButton:SetText(L["Update Button"])
 
-    updateButton:SetCallback("OnClick", function(self)
-        local currencyID = currencyEditBox:GetText()
+    function updateButton:Click(self)
+        local currencyID = tonumber(currencyEditBox:GetText())
+        local objective = tonumber(objectiveEditBox:GetText()) or 0
+        objective = objective > 0 and objective or nil
+        local button = addon.ObjectiveBuilder.button
 
-        if GetCurrencyInfo(currencyID) == "" then
-            addon:Print(L.InvalidCurrency(currencyID))
+        if not currencyID or currencyID == "" or not C_CurrencyInfo.GetCurrencyInfo(currencyID) then
+            addon:Print(L.GetErrorMessage("invalidCurrency", currencyEditBox:GetText()))
         else
-            addon.ObjectiveBuilder.button:SetObjectiveID("currency", currencyID)
+            local oldObjective = button.objective and button.objective.objective
+            local progressCount, progressTotal = button:GetBar():GetProgress()
+
+            button:SetObjectiveID("currency", currencyID, nil, {type = "currency", currencyID = currencyID, objective = objective})
             addon.ObjectiveBuilder:Hide()
+
+            -- Alert bar progress
+            local noChange = not oldObjective and (not objective or objective == 0)
+            noChange = noChange and noChange or (oldObjective and oldObjective == objective)
+
+            if button.objective.type == "mixedItems" or button.objective.type == "shoppingList" or noChange then return end
+
+            button:GetBar():AlertProgress(progressCount, progressTotal, objective and (button:GetCount() >= objective))
         end
-    end)
+    end
+
+    updateButton:SetCallback("OnClick", updateButton.Click)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -377,12 +437,24 @@ function addon:DrawCurrencyGroup(parent)
 
     if self.ObjectiveBuilder.button.objective and self.ObjectiveBuilder.button.objective.type == "currency" then
         local currencyID = tonumber(self.ObjectiveBuilder.button.objective.currencyID)
-        local currencyName, _, icon = GetCurrencyInfo(currencyID)
+        local currencyName, icon
+        local currency = C_CurrencyInfo.GetCurrencyInfo(currencyID)
+        currencyName = currency and currency.name
+        icon = currency and currency.iconFileID
 
         currencyDropdown:SetValue(currencyID)
         currencyEditBox:SetText(currencyID)
+
+        -- Need to format the number as a string to prevent scientific notation
+        local objective = string.format("%.0f", tonumber(self.ObjectiveBuilder.button.objective.objective) or 0)
+        objective = objective == "0" and "" or objective
+        objectiveEditBox:SetText(objective)
+
         previewLabel:SetImage(icon)
         previewLabel:SetText(currencyName)
+
+        currencyEditBox:SetFocus()
+        currencyEditBox:HighlightText()
 
         parent:DoLayout()
     end
@@ -394,14 +466,17 @@ function addon:DrawCurrencyGroup(parent)
     parent:AddChild(previewLabel)
     parent:AddChild(currencyDropdown)
     parent:AddChild(currencyEditBox)
+    parent:AddChild(objectiveEditBox)
     parent:AddChild(updateButton)
     parent:AddChild(resetButton)
+
+    currencyEditBox:SetFocus()
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 function addon:DrawItemGroup(parent)
-    local descriptionLabel, separator, previewLabel, itemEditBox, updateButton, resetButton
+    local descriptionLabel, separator, previewLabel, itemEditBox, objectiveEditBox, titleEditBox, updateButton, resetButton
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -445,7 +520,48 @@ function addon:DrawItemGroup(parent)
     end)
 
     itemEditBox:SetCallback("OnEnterPressed", function(self)
-        self:ClearFocus()
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif not IsShiftKeyDown() then
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
+        end
+    end)
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+    objectiveEditBox = AceGUI:Create("EditBox")
+    objectiveEditBox:SetWidth(100)
+    objectiveEditBox:SetLabel(L["Objective"])
+    objectiveEditBox:SetMaxLetters(15)
+
+    objectiveEditBox:SetCallback("OnEnterPressed", function(self)
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif IsShiftKeyDown() then
+            itemEditBox:SetFocus()
+            itemEditBox:HighlightText()
+        else
+            titleEditBox:SetFocus()
+            titleEditBox:HighlightText()
+        end
+    end)
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+    titleEditBox = AceGUI:Create("EditBox")
+    titleEditBox:SetFullWidth(true)
+    titleEditBox:SetLabel(L["Title"])
+
+    titleEditBox:SetCallback("OnEnterPressed", function(self)
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif IsShiftKeyDown() then
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
+        else
+            self:ClearFocus()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -454,17 +570,33 @@ function addon:DrawItemGroup(parent)
     updateButton:SetRelativeWidth(1/2)
     updateButton:SetText(L["Update Button"])
 
-    updateButton:SetCallback("OnClick", function(self)
+    function updateButton:Click(self)
         local item = itemEditBox:GetText()
         local itemID = GetItemInfoInstant(item)
+        local objective = tonumber(objectiveEditBox:GetText())
+        local title = titleEditBox:GetText()
+        local button = addon.ObjectiveBuilder.button
 
         if itemID then
-            addon.ObjectiveBuilder.button:SetObjectiveID("item", itemID)
+            local oldObjective =  button.objective and button.objective.objective
+            local progressCount, progressTotal = button:GetBar():GetProgress()
+
+            button:SetObjectiveID("item", itemID, {title = title}, {type = "item", title = title, itemID = itemID, objective = objective, includeBank = false})
             addon.ObjectiveBuilder:Hide()
+
+            -- Alert bar progress
+            local noChange = not oldObjective and (not objective or objective == 0)
+            noChange = noChange and noChange or (oldObjective and oldObjective == objective)
+
+            if button.objective.type == "mixedItems" or button.objective.type == "shoppingList" or noChange then return end
+
+            button:GetBar():AlertProgress(progressCount, progressTotal, objective and (button:GetCount() >= objective))
         elseif item and item ~= 0 then
             addon:Print(L.GetErrorMessage("invalidItemID", item))
         end
-    end)
+    end
+
+    updateButton:SetCallback("OnClick", updateButton.Click)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -481,6 +613,17 @@ function addon:DrawItemGroup(parent)
 
     if self.ObjectiveBuilder.button.objective and self.ObjectiveBuilder.button.objective.type and self.ObjectiveBuilder.button.objective.type == "item" then
         itemEditBox:SetText(self.ObjectiveBuilder.button.objective.itemID)
+        titleEditBox:SetText(self.ObjectiveBuilder.button.objective.title)
+
+        -- Need to format the number as a string to prevent scientific notation
+        local objective = string.format("%.0f", tonumber(self.ObjectiveBuilder.button.objective.objective) or 0)
+        objective = objective == "0" and "" or objective
+        objectiveEditBox:SetText(objective)
+
+        itemEditBox:SetFocus()
+        itemEditBox:HighlightText()
+
+        -- Wait for the item to cache before updating the preview
         U.CacheItem(self.ObjectiveBuilder.button.objective.itemID, function(itemID)
             local itemName, _, _, _, _, _, _, _, _, icon = GetItemInfo(itemID)
             previewLabel:SetImage(icon)
@@ -494,8 +637,12 @@ function addon:DrawItemGroup(parent)
     parent:AddChild(separator)
     parent:AddChild(previewLabel)
     parent:AddChild(itemEditBox)
+    parent:AddChild(objectiveEditBox)
+    parent:AddChild(titleEditBox)
     parent:AddChild(updateButton)
     parent:AddChild(resetButton)
+
+    itemEditBox:SetFocus()
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -516,7 +663,10 @@ function addon:DrawMixedItemsGroup(parent)
     titleEditBox:SetLabel(L["Title"])
 
     titleEditBox:SetCallback("OnEnterPressed", function()
-        iconEditBox:SetFocus()
+        if not IsShiftKeyDown() then
+            iconEditBox:SetFocus()
+            iconEditBox:HighlightText()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -526,7 +676,15 @@ function addon:DrawMixedItemsGroup(parent)
     iconEditBox:SetLabel(L["Icon"])
 
     iconEditBox:SetCallback("OnEnterPressed", function()
-        objectiveEditBox:SetFocus()
+        if IsControlKeyDown() then
+            self.ObjectiveIconSelector:Load(iconEditBox, objectiveEditBox)
+        elseif IsShiftKeyDown() then
+            titleEditBox:SetFocus()
+            titleEditBox:HighlightText()
+        else
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
+        end
     end)
 
     iconChooseButton = AceGUI:Create("Button")
@@ -542,9 +700,16 @@ function addon:DrawMixedItemsGroup(parent)
     objectiveEditBox = AceGUI:Create("EditBox")
     objectiveEditBox:SetWidth(100)
     objectiveEditBox:SetLabel(L["Quantity"])
+    objectiveEditBox:SetMaxLetters(15)
 
     objectiveEditBox:SetCallback("OnEnterPressed", function()
-        addItemEditBox:SetFocus()
+        if IsShiftKeyDown() then
+            iconEditBox:SetFocus()
+            iconEditBox:HighlightText()
+        else
+            addItemEditBox:SetFocus()
+            addItemEditBox:HighlightText()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -554,19 +719,26 @@ function addon:DrawMixedItemsGroup(parent)
     addItemEditBox:SetLabel(L["Add Item"])
 
     addItemEditBox:SetCallback("OnEnterPressed", function(self, _, text)
-        local itemID = GetItemInfoInstant(text)
-
-        if itemID then
-            U.CacheItem(itemID, function(itemID)
-                if not tContains(itemGroupScrollChild.items, itemID) then
-                    tinsert(itemGroupScrollChild.items, itemID)
-                    itemGroupScrollChild:DrawContainer()
-                end
-                self:SetText()
-            end, itemID)
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif IsShiftKeyDown() then
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
         else
-            addon:Print(L.GetErrorMessage("invalidItemID", text))
-            self:HighlightText()
+            local itemID = GetItemInfoInstant(text)
+
+            if itemID then
+                U.CacheItem(itemID, function(itemID)
+                    if not tContains(itemGroupScrollChild.items, itemID) then
+                        tinsert(itemGroupScrollChild.items, itemID)
+                        itemGroupScrollChild:DrawContainer()
+                    end
+                    self:SetText()
+                end, itemID)
+            else
+                addon:Print(L.GetErrorMessage("invalidItemID", text))
+                self:HighlightText()
+            end
         end
     end)
 
@@ -624,7 +796,7 @@ function addon:DrawMixedItemsGroup(parent)
     updateButton:SetRelativeWidth(1/2)
     updateButton:SetText(L["Update Button"])
 
-    updateButton:SetCallback("OnClick", function(self)
+    function updateButton:Click(self)
         local title = titleEditBox:GetText()
         local icon = iconEditBox:GetText() ~= "" and iconEditBox:GetText() or 134400
         local objective = tonumber(objectiveEditBox:GetText()) or 0
@@ -639,7 +811,9 @@ function addon:DrawMixedItemsGroup(parent)
             addon.ObjectiveBuilder.button:SetObjectiveID("mixedItems", itemGroupScrollChild.items, {title = title, objective = objective, icon = icon})
             addon.ObjectiveBuilder:Hide()
         end
-    end)
+    end
+
+    updateButton:SetCallback("OnClick", updateButton.Click)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -667,6 +841,9 @@ function addon:DrawMixedItemsGroup(parent)
             end
         end
 
+        titleEditBox:SetFocus()
+        titleEditBox:HighlightText()
+
         itemGroupScrollChild:DrawContainer()
     end
 
@@ -682,6 +859,8 @@ function addon:DrawMixedItemsGroup(parent)
     parent:AddChild(itemGroupScrollFrame)
     parent:AddChild(updateButton)
     parent:AddChild(resetButton)
+
+    titleEditBox:SetFocus()
 end
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -701,7 +880,10 @@ function addon:DrawShoppingListGroup(parent)
     titleEditBox:SetLabel(L["Title"])
 
     titleEditBox:SetCallback("OnEnterPressed", function()
-        iconEditBox:SetFocus()
+        if not IsShiftKeyDown() then
+            iconEditBox:SetFocus()
+            iconEditBox:HighlightText()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -711,7 +893,15 @@ function addon:DrawShoppingListGroup(parent)
     iconEditBox:SetLabel(L["Icon"])
 
     iconEditBox:SetCallback("OnEnterPressed", function()
-        objectiveEditBox:SetFocus()
+        if IsControlKeyDown() then
+            self.ObjectiveIconSelector:Load(iconEditBox, objectiveEditBox)
+        elseif IsShiftKeyDown() then
+            titleEditBox:SetFocus()
+            titleEditBox:HighlightText()
+        else
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
+        end
     end)
 
     iconChooseButton = AceGUI:Create("Button")
@@ -727,10 +917,16 @@ function addon:DrawShoppingListGroup(parent)
     objectiveEditBox = AceGUI:Create("EditBox")
     objectiveEditBox:SetWidth(100)
     objectiveEditBox:SetLabel(L["Quantity"])
+    objectiveEditBox:SetMaxLetters(15)
 
     objectiveEditBox:SetCallback("OnEnterPressed", function()
-        addItemEditBox:SetFocus()
-        addItemEditBox:HighlightText()
+        if IsShiftKeyDown() then
+            iconEditBox:SetFocus()
+            iconEditBox:HighlightText()
+        else
+            addItemEditBox:SetFocus()
+            addItemEditBox:HighlightText()
+        end
     end)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -740,25 +936,32 @@ function addon:DrawShoppingListGroup(parent)
     addItemEditBox:SetLabel(L["Add Item"])
 
     addItemEditBox:SetCallback("OnEnterPressed", function(self, _, text)
-        local itemID = GetItemInfoInstant(text)
-
-        if itemID then
-            local quantity = tonumber(objectiveEditBox:GetText()) or 0
-
-            if quantity <= 0 then
-                addon:Print(L.GetErrorMessage("invalidObjectiveQuantity"))
-            else
-                U.CacheItem(itemID, function(itemID)
-                    itemGroupScrollChild.items[itemID] = quantity
-                    itemGroupScrollChild:DrawContainer()
-                    self:SetText()
-                    objectiveEditBox:SetText()
-                    objectiveEditBox:SetFocus()
-                end, itemID)
-            end
+        if IsControlKeyDown() then
+            updateButton:Click()
+        elseif IsShiftKeyDown() then
+            objectiveEditBox:SetFocus()
+            objectiveEditBox:HighlightText()
         else
-            addon:Print(L.GetErrorMessage("invalidItemID", text))
-            self:HighlightText()
+            local itemID = GetItemInfoInstant(text)
+
+            if itemID then
+                local quantity = tonumber(objectiveEditBox:GetText()) or 0
+
+                if quantity <= 0 then
+                    addon:Print(L.GetErrorMessage("invalidObjectiveQuantity"))
+                else
+                    U.CacheItem(itemID, function(itemID)
+                        itemGroupScrollChild.items[itemID] = quantity
+                        itemGroupScrollChild:DrawContainer()
+                        self:SetText()
+                        objectiveEditBox:SetText()
+                        objectiveEditBox:SetFocus()
+                    end, itemID)
+                end
+            else
+                addon:Print(L.GetErrorMessage("invalidItemID", text))
+                self:HighlightText()
+            end
         end
     end)
 
@@ -822,7 +1025,7 @@ function addon:DrawShoppingListGroup(parent)
     updateButton:SetRelativeWidth(1/2)
     updateButton:SetText(L["Update Button"])
 
-    updateButton:SetCallback("OnClick", function(self)
+    function updateButton:Click(self)
         local title = titleEditBox:GetText()
         local icon = iconEditBox:GetText() ~= "" and iconEditBox:GetText() or 134400
 
@@ -839,7 +1042,9 @@ function addon:DrawShoppingListGroup(parent)
             addon.ObjectiveBuilder.button:SetObjectiveID("shoppingList", itemGroupScrollChild.items, {title = title, objective = objective, icon = icon})
             addon.ObjectiveBuilder:Hide()
         end
-    end)
+    end
+
+    updateButton:SetCallback("OnClick", updateButton.Click)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
@@ -864,6 +1069,9 @@ function addon:DrawShoppingListGroup(parent)
             itemGroupScrollChild.items[k] = v
         end
 
+        titleEditBox:SetFocus()
+        titleEditBox:HighlightText()
+
         itemGroupScrollChild:DrawContainer()
     end
 
@@ -879,6 +1087,8 @@ function addon:DrawShoppingListGroup(parent)
     parent:AddChild(itemGroupScrollFrame)
     parent:AddChild(updateButton)
     parent:AddChild(resetButton)
+
+    titleEditBox:SetFocus()
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --

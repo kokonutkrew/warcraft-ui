@@ -32,7 +32,12 @@ local function GetEventExpiry(event)
 	if DataStore_Agenda then
 		gap = DataStore:GetClientServerTimeGap()
 	end
+    
+    if event.eventType == 2 then
+        return difftime(time(timeTable), time()) -- instance lockouts are based on local time
+    end
 	
+    -- TODO: test if any of the other events are based on local time vs server time
 	return difftime(time(timeTable), time() + gap)	-- in seconds
 end
 
@@ -43,6 +48,7 @@ local CALENDAR_LINE = 3
 local CONNECTMMO_LINE = 4
 local TIMER_LINE = 5
 local SHARED_CD_LINE = 6		-- this type is used for shared cooldowns (alchemy, etc..) among others.
+local EXPIRED_CALENDAR_LINE = 7
 
 local WARNING_TYPE_PROFESSION_CD = 1
 local WARNING_TYPE_DUNGEON_RESET = 2
@@ -56,6 +62,7 @@ local eventToWarningType = {
 	[CONNECTMMO_LINE] = WARNING_TYPE_CALENDAR_EVENT,
 	[TIMER_LINE] = WARNING_TYPE_ITEM_TIMER,
 	[SHARED_CD_LINE] = WARNING_TYPE_PROFESSION_CD,
+    [EXPIRED_CALENDAR_LINE] = WARNING_TYPE_CALENDAR_EVENT,
 }
 
 local eventTypes = {
@@ -75,19 +82,15 @@ local eventTypes = {
 	},
 	[INSTANCE_LINE] = {
 		GetReadyNowWarning = function(self, event)
-				local instance = strsplit("|", event.parentID)
-				return format(L["%s is now unlocked (%s on %s)"], instance, event.char, event.realm)
+				return format(L["%s is now unlocked (%s on %s)"], event.source, event.char, event.realm)
 			end,
 		GetReadySoonWarning = function(self, event, minutes)
-				local instance = strsplit("|", event.parentID)
-				return format(L["%s will be unlocked in %d minutes (%s on %s)"], instance, minutes, event.char, event.realm)
+				return format(L["%s will be unlocked in %d minutes (%s on %s)"], event.source, minutes, event.char, event.realm)
 			end,
 		GetInfo = function(self, event)
 				-- title gets the instance name, desc gets the raid id
-				local instanceName, raidID = strsplit("|", event.parentID)
 		
-				--	CALENDAR_EVENTNAME_FORMAT_RAID_LOCKOUT = "%s Unlocks"; -- %s = Raid Name
-				return instanceName, format("%s%s\nID: %s%s", colors.white,	format(CALENDAR_EVENTNAME_FORMAT_RAID_LOCKOUT, instanceName), colors.green, raidID)
+				return event.source, format("%s%s\nID: %s%s", colors.white,	format(CALENDAR_EVENTNAME_FORMAT_RAID_LOCKOUT, event.source), colors.green, event.parentID)
 			end,
 	},
 	[CALENDAR_LINE] = {
@@ -104,6 +107,38 @@ local eventTypes = {
 		GetInfo = function(self, event)
 				local character = DataStore:GetCharacter(event.char, event.realm)
 				local _, _, title, eventType, inviteStatus = DataStore:GetCalendarEventInfo(character, event.parentID)
+
+				inviteStatus = tonumber(inviteStatus)
+				
+				local desc
+				if type(inviteStatus) == "number" and (inviteStatus > 1) and (inviteStatus < 8) then
+					local StatusText = {
+						CALENDAR_STATUS_INVITED,		-- CALENDAR_INVITESTATUS_INVITED   = 1
+						CALENDAR_STATUS_ACCEPTED,		-- CALENDAR_INVITESTATUS_ACCEPTED  = 2
+						CALENDAR_STATUS_DECLINED,		-- CALENDAR_INVITESTATUS_DECLINED  = 3
+						CALENDAR_STATUS_CONFIRMED,		-- CALENDAR_INVITESTATUS_CONFIRMED = 4
+						CALENDAR_STATUS_OUT,				-- CALENDAR_INVITESTATUS_OUT       = 5
+						CALENDAR_STATUS_STANDBY,		-- CALENDAR_INVITESTATUS_STANDBY   = 6
+						CALENDAR_STATUS_SIGNEDUP,		-- CALENDAR_INVITESTATUS_SIGNEDUP     = 7
+						CALENDAR_STATUS_NOT_SIGNEDUP	-- CALENDAR_INVITESTATUS_NOT_SIGNEDUP = 8
+					}
+				
+					desc = format("%s: %s", STATUS, colors.white..StatusText[inviteStatus]) 
+				else 
+					desc = format("%s", STATUS) 
+				end
+		
+				return title, desc
+			end,
+	},
+	[EXPIRED_CALENDAR_LINE] = {
+		GetReadyNowWarning = function(self, event)
+			end,
+		GetReadySoonWarning = function(self, event, minutes)
+			end,
+		GetInfo = function(self, event)
+				local character = DataStore:GetCharacter(event.char, event.realm)
+				local _, _, title, eventType, inviteStatus = DataStore:GetExpiredCalendarEventInfo(character, event.parentID)
 
 				inviteStatus = tonumber(inviteStatus)
 				
@@ -181,6 +216,18 @@ local function AddEvent(eventType, eventDate, eventTime, char, realm, index, ext
 		source = externalTable})
 end
 
+local expiredEventList = {}
+local function AddExpiredEvent(eventType, eventDate, eventTime, char, realm, index, externalTable)
+	table.insert(expiredEventList, {
+		eventType = eventType, 
+		eventDate = eventDate, 
+		eventTime = eventTime, 
+		char = char,
+		realm = realm,
+		parentID = index,
+		source = externalTable})
+end
+
 local function SortEvents()
 	table.sort(eventList, function(a, b)
 		if (a.eventDate ~= b.eventDate) then			-- sort by date first ..
@@ -188,6 +235,16 @@ local function SortEvents()
 		elseif (a.eventTime ~= b.eventTime) then		-- .. then by hour
 			return a.eventTime < b.eventTime
 		elseif (a.char ~= b.char) then					-- .. then by alt
+			return a.char < b.char
+		end
+	end)
+    
+	table.sort(expiredEventList, function(a, b)
+		if (a.eventDate ~= b.eventDate) then
+			return a.eventDate < b.eventDate
+		elseif (a.eventTime ~= b.eventTime) then
+			return a.eventTime < b.eventTime
+		elseif (a.char ~= b.char) then
 			return a.char < b.char
 		end
 	end)
@@ -246,6 +303,10 @@ local function Warning_MsgBox_Handler(self, button)
 end
 
 local function ShowExpiryWarning(index, minutes)
+	if addon:GetOption("UI.Calendar.WarningsDisabled") then	-- warnings disabled ? do nothing
+		return
+	end
+    
 	local event = ns:Get(index)
 	local CalendarEvent = eventTypes[event.eventType]
 	
@@ -312,8 +373,28 @@ function ns:GetList()
 	return eventList
 end
 
+function ns:GetExpiredList()
+    return expiredEventList
+end
+
 function ns:GetInfo(index)
 	local event = ns:Get(index)		-- dereference event
+	if not event then return end
+	
+	local character = DataStore:GetCharacter(event.char, event.realm)
+	local char = DataStore:GetColoredCharacterName(character)
+	
+	if event.realm ~= GetRealmName() then	-- different realm ?
+		char = format("%s %s(%s)", char, colors.green, event.realm)
+	end
+	
+	local title, desc = eventTypes[event.eventType]:GetInfo(event)
+
+	return char, event.eventTime, title, desc
+end
+
+function ns:GetExpiredInfo(index)
+	local event = expiredEventList[index]
 	if not event then return end
 	
 	local character = DataStore:GetCharacter(event.char, event.realm)
@@ -338,20 +419,20 @@ function ns:GetDayCount(year, month, day)
 			count = count + 1
 		end
 	end
+    for k, v in pairs(expiredEventList) do
+        if v.eventDate == eventDate then
+            count = count + 1
+        end
+    end
 	return count
 end
 
 function ns:CheckExpiries(elapsed)
-	if addon:GetOption("UI.Calendar.WarningsEnabled") == false then	-- warnings disabled ? do nothing
-		return
-	end
-
 	-- called every 60 seconds
 	local hasEventExpired
 	
 	for k, v in pairs(eventList) do
 		local numMin = floor(GetEventExpiry(v) / 60)
-
 		if numMin > -1440 and numMin < 0 then		-- expiry older than 1 day is ignored
 			hasEventExpired = true		-- at least one event has expired
 		elseif numMin == 0 then
@@ -374,10 +455,6 @@ function ns:CheckExpiries(elapsed)
 	
 	if hasEventExpired then		-- if at least one event has expired, rebuild the list & Update
 		ClearExpiredEvents()
-		
-		-- should be removed, nothing to do here
-		-- nsEvents:BuildView()
-		-- Altoholic.Summary:Update()
 	end
 end
 
@@ -399,6 +476,7 @@ end
 function ns:BuildList()
 	eventList = eventList or {}
 	wipe(eventList)
+    wipe(expiredEventList)
 
 	local timeGap = DataStore:GetClientServerTimeGap() or 0
 	
@@ -440,9 +518,8 @@ function ns:BuildList()
 			local dungeons = DataStore:GetSavedInstances(character)
 			if dungeons then
 				for key, _ in pairs(dungeons) do
-					local reset, lastCheck = DataStore:GetSavedInstanceInfo(character, key)
-					local expires = reset + lastCheck + timeGap
-					AddEvent(INSTANCE_LINE, date("%Y-%m-%d",expires), date("%H:%M",expires), characterName, realm, key)
+					local name, expires = DataStore:GetSavedInstanceInfo(character, key)
+					AddEvent(INSTANCE_LINE, date("%Y-%m-%d",expires), date("%H:%M",expires), characterName, realm, key, name)
 				end
 			end
 			
@@ -450,9 +527,17 @@ function ns:BuildList()
 			local num = DataStore:GetNumCalendarEvents(character) or 0 
 			for i = 1, num do
 				local eventDate, eventTime = DataStore:GetCalendarEventInfo(character, i)
-				
+
 				-- TODO: do not add declined invitations
 				AddEvent(CALENDAR_LINE, eventDate, eventTime, characterName, realm, i)
+			end
+            
+            -- Expired Calendar Events
+            num = DataStore:GetNumExpiredCalendarEvents(character) or 0
+            for i = 1, num do
+				local eventDate, eventTime = DataStore:GetExpiredCalendarEventInfo(character, i)
+
+				AddExpiredEvent(EXPIRED_CALENDAR_LINE, eventDate, eventTime, characterName, realm, i)
 			end
 			
 			-- Other timers (like mysterious egg, etc..)

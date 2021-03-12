@@ -1,0 +1,13 @@
+
+sArena3DB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Default",
+		["Gizelin - Emerald Dream"] = "Default",
+		["Buhbels - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

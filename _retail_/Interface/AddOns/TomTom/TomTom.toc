@@ -1,13 +1,14 @@
-## Interface: 80205
-##classic ## Interface: 11302
+## Interface: 90002
+## classic ## Interface: 11306
 ## Title: TomTom
 ## Author: jnwhiteh
-## Version: v80205-1.0.8
+## Version: v90002-1.2.0
 ## License: All Rights Reserved
 ## Notes: Acts as your portable navigation assistant
 ## Notes-frFR: Agit comme un assistant de navigation portable
 ## Notes-zhCN:一个简单的导航助手。
 ## Notes-ruRU: Удобный портативный навигатор по игровой карте
+## Notes-deDE: Dient dir als portabler Navigationsassistent.
 ## Author: Cladhaire
 ## SavedVariables: TomTomDB, TomTomWaypoints, TomTomWaypointsM
 ## OptionalDeps: HereBeDragons-2.0
@@ -35,6 +36,7 @@ Localization.zhCN.lua
 Localization.ruRU.lua
 Localization.zhTW.lua
 Localization.koKR.lua
+Localization.ptBR.lua
 
 TomTom.lua
 TomTom_Waypoints.lua

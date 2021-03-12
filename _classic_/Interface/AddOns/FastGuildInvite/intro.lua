@@ -11,17 +11,27 @@ local L = {
 		support = "Ниже вы можете найти ссылки если вы хотите материально поддержать автора.",
 		laterButton = "Напомнить при обновлении аддона",
 		neverButton = "Больше не показывать",
+		
+		
 		updates = {
-			"Все данные поиска сохраняются между сессиями. Таким образом, когда вы возвращаетесь в игру, прогресс поиска и список найденных игроков будут сохранены.",
+			"В окно сканирования возвращена кнопка сброс. Она находится в правом нижнем углу, обозначена значком \"R\".",
+			"Добавлена дополнительная линия информации об игроке, длинные имя и реалм отображались не полностью.",
+			"Добавлена поддержка Raider.IO. При наведении мыши на информацию об игроке в подсказке отображается информация Raider.IO, если это возможно.",
 		},
+		
+		
 	},
 	enUS = {
 		head = "Thanks for helping make the addon better.",
 		support = "Below you can find links if you want to financially support the author.",
 		laterButton = "Remind me when updating addon",
 		neverButton = "Do not show again",
+		
+		
 		updates = {
-			"All search data is saved between sessions. So now, when you come back to the game, the search progress and the list of players found will be saved.",
+			"Reset button returned to scan window. It is located in the lower right corner, indicated by an \"R\".",
+			"Added additional line of information about the player, long name and realm were not fully displayed.",
+			"Added support for Raider.IO. When you hover the mouse over the player information, the tooltip displays the Raider.IO information, if possible.",
 		},
 	}
 }

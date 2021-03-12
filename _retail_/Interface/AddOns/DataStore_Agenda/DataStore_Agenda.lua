@@ -25,14 +25,35 @@ local AddonDB_Defaults = {
 				lastUpdate = nil,
 				Calendar = {},
 				Contacts = {},
-				DungeonIDs = {},		-- raid timers
+				DungeonIDs = {		-- raid timers
+                    ['*'] = { -- dungeon ID
+                        name = nil,
+                        resetTime = 0,
+                        extended = false,
+                        isRaid = false,
+                        numEncounters = 0,
+                        progress = 0,
+                        bosses = {     -- raid timers for individual bosses
+                            ['*'] = false, -- boss name
+                        },
+                    }
+                },
+
 				ItemCooldowns = {},	-- mysterious egg, disgusting jar, etc..
-				LFGDungeons = {},		-- info about LFG dungeons/raids
-				ChallengeMode = {},	-- info about mythic+
-								
-				Notes = {},
-				Tasks = {},
-				Mail = {},			-- This is for intenal mail only, unrelated to wow's
+				LFGDungeons = {		-- info about LFG dungeons/raids
+                    ['*'] = { -- dungeon ID
+                        resetTime = 0,
+                        count = 0,
+                        bosses = {
+                            ['*'] = false, -- boss name
+                        }
+                    }
+                },
+                WorldBosses = {
+                    ['*'] = 0, -- bossID (same as instanceID)
+                },
+                
+                expiredCalendar = {},
 			}
 		}
 	}
@@ -66,8 +87,8 @@ local function ScanContacts()
 
 	wipe(contacts)
 
-	for i = 1, GetNumFriends() do	-- only friends, not real id, as they're always visible
-	   local name, level, class, zone, isOnline, note = GetFriendInfo(i);
+	for i = 1, C_FriendList.GetNumFriends() do	-- only friends, not real id, as they're always visible
+	   local name, level, class, zone, isOnline, note = C_FriendList.GetFriendInfoByIndex(i);
 
 		if name then
 			contacts[name] = contacts[name] or {}
@@ -91,7 +112,9 @@ local function ScanDungeonIDs()
 	wipe(dungeons)
 
 	for i = 1, GetNumSavedInstances() do
-		local instanceName, instanceID, instanceReset, difficulty, _, extended, _, isRaid, maxPlayers, difficultyName = GetSavedInstanceInfo(i)
+        -- Update 2020/06/03: adding tracking of numEncounters and encounterProgress.
+        -- These were added to the game in patch 4.0.1, its about time we track them with this addon, too!
+		local instanceName, instanceID, instanceReset, difficulty, _, extended, _, isRaid, maxPlayers, difficultyName, numEncounters, encounterProgress = GetSavedInstanceInfo(i)
 
 		if instanceReset > 0 then		-- in 3.2, instances with reset = 0 are also listed (to support raid extensions)
 			extended = extended and 1 or 0
@@ -100,11 +123,43 @@ local function ScanDungeonIDs()
 			if difficulty > 1 then
 				instanceName = format("%s %s", instanceName, difficultyName)
 			end
-
-			local key = instanceName.. "|" .. instanceID
-			dungeons[key] = format("%s|%s|%s|%s", instanceReset, time(), extended, isRaid )
+ 
+			local dungeon = dungeons[instanceID]
+            dungeon.name = instanceName
+            dungeon.resetTime = (instanceReset + time())
+            dungeon.extended = extended
+            dungeon.isRaid = isRaid
+            dungeon.numEncounters = numEncounters
+            dungeon.progress = encounterProgress
+            
+            -- track all the bosses killed / left alive
+            for j = 1, numEncounters do
+                local bossName, _, isKilled = GetSavedInstanceEncounterInfo(i, j)
+                dungeon.bosses[bossName] = isKilled
+            end
 		end
 	end
+    
+    local worldBosses = addon.ThisCharacter.WorldBosses
+    wipe(worldBosses)
+    for i = 1, GetNumSavedWorldBosses() do
+        local instanceName, instanceID, instanceReset = GetSavedWorldBossInfo(i)
+
+		if instanceReset > 0 then
+			local dungeon = dungeons[instanceID]
+            dungeon.name = instanceName
+            dungeon.resetTime = (instanceReset + time())
+            dungeon.extended = 0
+            dungeon.isRaid = 1
+            dungeon.numEncounters = 1
+            dungeon.progress = 1
+            dungeon.bosses[instanceName] = true
+            
+            worldBosses[instanceID] = (instanceReset + time())
+		end
+	end
+    
+    addon:SendMessage("DATASTORE_DUNGEONS_SCANNED")
 end
 
 local function ScanLFGDungeon(dungeonID)
@@ -121,36 +176,40 @@ local function ScanLFGDungeon(dungeonID)
 	-- type 1 = instance, 2 = raid. We don't want the rest
 	if typeID > 2 then return end
 		
-	-- difficulty levels we don't need
-	--	0 = invalid (pvp 10v10 rated bg has this)
-	-- 1 = normal (no lock)
-	-- 8 = challenge
-	-- 12 = normal mode scenario
-	if (difficulty < 2) or (difficulty == 8) or (difficulty == 12) then return end
+	-- difficulty levels we need
+    -- 2 = heroic dungeon (daily reset)
+    -- 7 = LFR
+    local resetTime
+    if (difficulty == 2) then
+        resetTime = (GetQuestResetTime() + time()) -- TODO: confirm this is the same as LFG dungeon reset times
+    elseif (difficulty == 7) then 
+        resetTime = (C_DateAndTime.GetSecondsUntilWeeklyReset() + time())
+    else
+        return
+    end
 
 	-- how many did we kill in that instance ?
 	local numEncounters, numCompleted = GetLFGDungeonNumEncounters(dungeonID)
 	if not numCompleted or numCompleted == 0 then return end		-- no kills ? exit
 	
-	local dungeons = addon.ThisCharacter.LFGDungeons
-	local count = 0
-	local key
+	local dungeon = addon.ThisCharacter.LFGDungeons[dungeonID]
+	local killCount = 0
+    dungeon.resetTime = resetTime
 	
 	for i = 1, numEncounters do
 		local bossName, _, isKilled = GetLFGDungeonEncounterInfo(dungeonID, i)
 
-		key = format("%s.%s", dungeonID, bossName)
 		if isKilled then
-			dungeons[key] = true
-			count = count + 1
+			dungeon.bosses[bossName] = true
+			killCount = killCount + 1
 		else
-			dungeons[key] = nil
+			dungeons[bossName] = false
 		end
 	end
 
 	-- save how many we have killed in that dungeon
-	if count > 0 then
-		dungeons[format("%s.Count", dungeonID)] = count
+	if killCount > 0 then
+		dungeon.count = count
 	end
 end
 
@@ -158,16 +217,18 @@ local function ScanLFGDungeons()
 	local dungeons = addon.ThisCharacter.LFGDungeons
 	wipe(dungeons)
 	
-	for i = 1, 1000 do
+	for i = 1, 3000 do  -- watch this, increase it if LfgDungeons.db2 increases past 3000
 		ScanLFGDungeon(i)
 	end
+    
+    addon:SendMessage("DATASTORE_DUNGEONS_SCANNED")
 end
 
 local function ScanCalendar()
 	-- Save the current month
 	local CurDateInfo = C_Calendar.GetMonthInfo()
 	local currentMonth, currentYear = CurDateInfo.month, CurDateInfo.year
-	local DateInfo = C_Calendar.GetDate()
+	local DateInfo = C_DateAndTime.GetCurrentCalendarTime()
 	local thisMonth, thisDay, thisYear = DateInfo.month, DateInfo.monthDay, DateInfo.year
 	C_Calendar.SetAbsMonth(thisMonth, thisYear)
 
@@ -186,8 +247,9 @@ local function ScanCalendar()
 		for day = startDay, numDays do
 			for i = 1, C_Calendar.GetNumDayEvents(monthOffset, day) do		-- number of events that day ..
 				-- http://www.wowwiki.com/API_CalendarGetDayEvent
-				local title, hour, minute, calendarType, _, eventType, _, _, inviteStatus = C_Calendar.GetDayEvent(monthOffset, day, i)
-				
+                local info = C_Calendar.GetDayEvent(monthOffset, day, i)
+				local title, hour, minute, calendarType, eventType, inviteStatus = info.title, info.startTime.hour, info.startTime.minute, info.calendarType, info.eventType, info.inviteStatus 
+
 				-- 8.0 : for some events, the calendar type may be nil, filter them out
 				if calendarType and calendarType ~= "HOLIDAY" and calendarType ~= "RAID_LOCKOUT"
 					and calendarType ~= "RAID_RESET" and inviteStatus ~= CALENDAR_INVITESTATUS_INVITED
@@ -198,9 +260,9 @@ local function ScanCalendar()
 					local eventDate = format("%04d-%02d-%02d", year, month, day)
 					local eventTime = format("%02d:%02d", hour, minute)
 
-					-- Only add events older than "now"
+					-- Only add events newer than "now"
 					if eventDate > today or (eventDate == today and eventTime > now) then
-						table.insert(calendar, format("%s|%s|%s|%d|%d", eventDate, eventTime, title.title, eventType, inviteStatus ))
+						table.insert(calendar, format("%s|%s|%s|%d|%d", eventDate, eventTime, title, eventType, inviteStatus ))
 					end
 				end
 			end
@@ -212,23 +274,6 @@ local function ScanCalendar()
 
 	addon:SendMessage("DATASTORE_CALENDAR_SCANNED")
 end
-
-local function ScanChallengeModeMaps()
-	local challengeMode = addon.ThisCharacter.ChallengeMode
-	local maps = C_ChallengeMode.GetMapTable()
-
-	for _, dungeonID in pairs(maps) do
-		-- deprecated in 8.0
-   	-- local _, weeklyBestTime, weeklyBestLevel = C_ChallengeMode.GetMapPlayerStats(dungeonID)
-		
-		-- replaced by (but needs testing !)
-		-- local weeklyBestTime, weeklyBestLevel = C_MythicPlus.GetWeeklyBestForMap(dungeonID)
-
-		-- challengeMode.weeklyBestTime = weeklyBestTime
-		-- challengeMode.weeklyBestLevel = weeklyBestLevel
-	end
-end
-
 
 -- *** Event Handlers ***
 local function OnPlayerAlive()
@@ -243,6 +288,18 @@ local function OnUpdateInstanceInfo()
 	ScanDungeonIDs()
 end
 
+local pendingBossKillScan = false
+local function OnBossKill()
+    -- Delay the dungeon ID scan for 5 seconds after a boss kill, and only request it once
+    if not pendingBossKillScan then
+        pendingBossKillScan = true
+        C_Timer.After(5, function()
+            pendingBossKillScan = false
+            RequestRaidInfo()
+        end)
+    end
+end
+
 local function OnRaidInstanceWelcome()
 	RequestRaidInfo()
 end
@@ -250,10 +307,6 @@ end
 local function OnLFGUpdateRandomInfo()
 	ScanLFGDungeons()
 end
-
--- local function OnLFGLockInfoReceived()
-	-- DEFAULT_CHAT_FRAME:AddMessage("LFG_LOCK_INFO_RECEIVED")
--- end
 
 local function OnEncounterEnd(event, dungeonID, name, difficulty, raidSize, endStatus)
 	ScanLFGDungeon(dungeonID)
@@ -307,11 +360,6 @@ local function OnChatMsgLoot(event, arg)
 	end
 end
 
-local function OnChallengeModeMapsUpdate(event)
-	-- ScanChallengeModeMaps()
-end
-
-
 -- ** Mixins **
 
 --[[ clientServerTimeGap
@@ -327,17 +375,6 @@ local function _GetClientServerTimeGap()
 end
 
 -- * Contacts *
-local function _GetContacts(character)
-	return character.Contacts
-
-	--[[	Typical usage:
-
-		for name, _ in pairs(DataStore:GetContacts(character) do
-			myvar1, myvar2, .. = DataStore:GetContactInfo(character, name)
-		end
-	--]]
-end
-
 local function _GetContactInfo(character, key)
 	local contact = character.Contacts[key]
 	if type(contact) == "table" then
@@ -350,50 +387,65 @@ local function _GetSavedInstances(character)
 	return character.DungeonIDs
 
 	--[[	Typical usage:
-
-		for dungeonKey, _ in pairs(DataStore:GetSavedInstances(character) do
-			myvar1, myvar2, .. = DataStore:GetSavedInstanceInfo(character, dungeonKey)
+		for dungeonID, dungeon in pairs(DataStore:GetSavedInstances(character)) do
+			name, resetTime, lastCheck, isExtended, isRaid, numEncounters, encounterProgress, bosses = DataStore:GetSavedInstanceInfo(character, dungeonID)
 		end
 	--]]
 end
 
-local function _GetSavedInstanceInfo(character, key)
-	local instanceInfo = character.DungeonIDs[key]
+--[[
+    Changes made 12/November/2020:
+    Name is no longer in the key.
+    Name is now the first return value from this function
+    Reset is now the timestamp when the dungeon resets rather than the seconds remaining
+    The time of checking the dungeon IDs is no longer stored
+    Dungeon Bosses are no longer stored separately from Dungeons
+--]]
+local function _GetSavedInstanceInfo(character, dungeonID)
+	local instanceInfo = character.DungeonIDs[dungeonID]
 	if not instanceInfo then return end
 
 	local hasExpired
-	local reset, lastCheck, isExtended, isRaid = strsplit("|", instanceInfo)
+    local name = instanceInfo.name
+	local reset = instanceInfo.resetTime
+    local isExtended = instanceInfo.isExtended
+    local isRaid = instanceInfo.isRaid
+    local numEncounters = instanceInfo.numEncounters
+    local encounterProgress = instanceInfo.progress
 
-	return tonumber(reset), tonumber(lastCheck), (isExtended == "1") and true or nil, (isRaid == "1") and true or nil
+	return name, tonumber(reset), (isExtended == "1") and true or nil, (isRaid == "1") and true or nil, numEncounters or 0, encounterProgress or 0, instanceInfo.bosses
 end
 
-local function _HasSavedInstanceExpired(character, key)
-	local reset, lastCheck = _GetSavedInstanceInfo(character, key)
-	if not reset or not lastCheck then return end
+local function _HasSavedInstanceExpired(character, dungeonID)
+	local _, reset = _GetSavedInstanceInfo(character, dungeonID)
+	if not reset then return end
 
-	local hasExpired
-	local expiresIn = reset - (time() - lastCheck)
-
-	if expiresIn <= 0 then	-- has expired
-		hasExpired = true
-	end
+	local hasExpired = (time() > reset)
+	local expiresIn = (reset - time())
 
 	return hasExpired, expiresIn
 end
 
-local function _DeleteSavedInstance(character, key)
-	character.DungeonIDs[key] = nil
+local function _DeleteSavedInstance(character, dungeonID)
+	character.DungeonIDs[dungeonID] = nil
+end
+
+--[[
+   allows iterations like:
+    for bossID, resetTime in pairs(DataStore:GetSavedWorldBosses(character)) do
+    local bossName = DataStore:GetSavedInstanceInfo(character, bossID)
+--]]
+local function _GetSavedWorldBosses(character)
+    return character.WorldBosses
 end
 
 -- * LFG Dungeons *
 local function _IsBossAlreadyLooted(character, dungeonID, boss)
-	local key = format("%s.%s", dungeonID, boss)
-	return character.LFGDungeons[key]
+	return character.LFGDungeons[dungeonID].bosses[boss]
 end
 
 local function _GetLFGDungeonKillCount(character, dungeonID)
-	local key = format("%s.Count", dungeonID)
-	return character.LFGDungeons[key] or 0
+	return character.LFGDungeons[dungeonID].count or 0
 end
 
 -- * Calendar *
@@ -421,7 +473,23 @@ local function _HasCalendarEventExpired(character, index)
 end
 
 local function _DeleteCalendarEvent(character, index)
-	table.remove(character.Calendar, index)
+	local v = table.remove(character.Calendar, index)
+    table.insert(character.expiredCalendar, v)
+end
+
+local function _GetNumExpiredCalendarEvents(character)
+	return #character.expiredCalendar
+end
+
+local function _GetExpiredCalendarEventInfo(character, index)
+	local event = character.expiredCalendar[index]
+	if event then
+		return strsplit("|", event)		-- eventDate, eventTime, title, eventType, inviteStatus
+	end
+end
+
+local function _DeleteExpiredCalendarEvent(character, index)
+	local v = table.remove(character.expiredCalendar, index)
 end
 
 -- * Item Cooldowns *
@@ -451,12 +519,13 @@ local function _DeleteItemCooldown(character, index)
 end
 
 local timerHandle
-local timeTable = {}	-- to pass as an argument to time()	see http://lua-users.org/wiki/OsLibraryTutorial for details
 local lastServerMinute
 
 local function SetClientServerTimeGap()
 	-- this function is called every second until the server time changes (track minutes only)
-	local ServerHour, ServerMinute = GetGameTime()
+    --local serverTime = GetServerTime()
+	--local ServerHour, ServerMinute = date("%H", serverTime), date("%M", serverTime)
+    local ServerHour, ServerMinute = GetGameTime()
 
 	if not lastServerMinute then		-- ServerMinute not set ? this is the first pass, save it
 		lastServerMinute = ServerMinute
@@ -471,8 +540,9 @@ local function SetClientServerTimeGap()
 	lastServerMinute = nil	-- won't be needed anymore
 	timerHandle = nil
 
-	local DateInfo = C_Calendar.GetDate()
+	local DateInfo = C_DateAndTime.GetCurrentCalendarTime()
 	local ServerMonth, ServerDay, ServerYear = DateInfo.month, DateInfo.monthDay, DateInfo.year
+    local timeTable = {}	-- to pass as an argument to time()	see http://lua-users.org/wiki/OsLibraryTutorial for details
 	timeTable.year = ServerYear
 	timeTable.month = ServerMonth
 	timeTable.day = ServerDay
@@ -486,110 +556,37 @@ local function SetClientServerTimeGap()
 	addon:SendMessage("DATASTORE_CS_TIMEGAP_FOUND", clientServerTimeGap)
 end
 
-local function GetWeeklyResetDayByRegion(region)
-	local day = 2		-- default to US, 2 = Tuesday
-	
-	if region then
-		if region == "EU" then 
-			day = 3 
-		elseif region == "CN" or region == "KR" or region == "TW" then
-			day = 4
-		end
-	end
-	
-	return day
-end
-
-local function GetNextWeeklyReset(weeklyResetDay)
-	local year = tonumber(date("%Y"))
-	local month = tonumber(date("%m"))
-	local day = tonumber(date("%d"))
-	local todaysWeekDay = tonumber(date("%w"))
-	local numDays = 0		-- number of days to add
-	
-	-- how many days should we add to today's date ?
-	if todaysWeekDay < weeklyResetDay then					-- if it is Monday (1), and reset is on Wednesday (3)
-		numDays = weeklyResetDay - todaysWeekDay		-- .. then we add 2 days
-	elseif todaysWeekDay > weeklyResetDay then			-- if it is Friday (5), and reset is on Wednesday (3)
-		numDays = weeklyResetDay - todaysWeekDay + 7	-- .. then we add 5 days (3 - 5 + 7)
-	else
-		-- Same day : if the weekly reset period has passed, add 7 days, if not yet, than 0 days
-		numDays = (tonumber(date("%H")) > GetOption("WeeklyResetHour")) and 7 or 0
-	end
-	
-	-- if numDays == 0 then return end
-	if numDays == 0 then return date("%Y-%m-%d") end
-	
-	local newDay = day + numDays	-- 25th + 2 days = 27, or 28th + 10 days = 38 days (used to check days overflow in a month)
-
-	local daysPerMonth = { 31,28,31,30,31,30,31,31,30,31,30,31 }
-	if (year % 4 == 0) and (year % 100 ~= 0 or year % 400 == 0) then	-- is leap year ?
-		daysPerMonth[2] = 29
-	end	
-	
-	-- no overflow ? (25th + 2 days = 27, we stay in the same month)
-	if newDay <= daysPerMonth[month] then
-		return format("%04d-%02d-%02d", year, month, newDay)
-	end
-	
-	-- we have a "day" overflow, but still in the same year
-	if month <= 11 then
-		-- 27/03 + 10 days = 37 - 31 days in March, so 6/04
-		return format("%04d-%02d-%02d", year, month+1, newDay - daysPerMonth[month])
-	end
-	
-	-- at this point, we had a day overflow in December, so jump to next year
-	return format("%04d-%02d-%02d", year+1, 1, newDay - daysPerMonth[month])
-end
-
-local function InitializeWeeklyParameters()
-	local weeklyResetDay = GetWeeklyResetDayByRegion(GetCVar("portal"))
-	SetOption("WeeklyResetDay", weeklyResetDay)
-	SetOption("WeeklyResetHour", 6)			-- 6 am should be ok in most zones
-	SetOption("NextWeeklyReset", GetNextWeeklyReset(weeklyResetDay))
-end
-
 local function ClearExpiredDungeons()
-	-- WeeklyResetDay = nil,		-- weekday (0 = Sunday, 6 = Saturday)
-	-- WeeklyResetHour = nil,		-- 0 to 23
-	-- NextWeeklyReset = nil,
-	
-	local weeklyResetDay = GetOption("WeeklyResetDay")
-	
-	if not weeklyResetDay then			-- if the weekly reset day has not been set yet ..
-		InitializeWeeklyParameters()
-		return	-- initial pass, nothing to clear
-	end
-	
-	local nextReset = GetOption("NextWeeklyReset")
-	if not nextReset then		-- heal broken data
-		InitializeWeeklyParameters()
-		nextReset = GetOption("NextWeeklyReset") -- retry
-	end
-	
-	local today = date("%Y-%m-%d")
-
-	if (today < nextReset) then return end		-- not yet ? exit
-	if (today == nextReset) and (tonumber(date("%H")) < GetOption("WeeklyResetHour")) then return end
-	
-	-- at this point, we may reset
 	for key, character in pairs(addon.db.global.Characters) do
-		wipe(character.LFGDungeons)
+        for dungeonID, dungeon in pairs(character.DungeonIDs) do
+            if (type(dungeon) ~= "table") or (dungeon.resetTime < time()) then
+                character.DungeonIDs[dungeonID] = nil
+            end
+        end
+        
+        for dungeonID, dungeon in pairs(character.LFGDungeons) do
+            if (type(dungeon) ~= "table") or (dungeon.resetTime < time()) then
+                character.LFGDungeons[dungeonID] = nil
+            end
+        end
+        
+        for bossID, resetTime in pairs(character.WorldBosses) do
+            if (type(resetTime) ~= "number") or (resetTime < time()) then
+                character.WorldBosses[bossID] = nil
+            end
+        end
 	end
-	
-	-- finally, set the next reset day
-	SetOption("NextWeeklyReset", GetNextWeeklyReset(weeklyResetDay))
 end
 
 local PublicMethods = {
 	GetClientServerTimeGap = _GetClientServerTimeGap,
-	GetNumContacts = _GetNumContacts,
 	GetContactInfo = _GetContactInfo,
 
 	GetSavedInstances = _GetSavedInstances,
 	GetSavedInstanceInfo = _GetSavedInstanceInfo,
 	HasSavedInstanceExpired = _HasSavedInstanceExpired,
 	DeleteSavedInstance = _DeleteSavedInstance,
+    GetSavedWorldBosses = _GetSavedWorldBosses,
 
 	IsBossAlreadyLooted = _IsBossAlreadyLooted,
 	GetLFGDungeonKillCount = _GetLFGDungeonKillCount,
@@ -598,6 +595,10 @@ local PublicMethods = {
 	GetCalendarEventInfo = _GetCalendarEventInfo,
 	HasCalendarEventExpired = _HasCalendarEventExpired,
 	DeleteCalendarEvent = _DeleteCalendarEvent,
+    
+    GetNumExpiredCalendarEvents = _GetNumExpiredCalendarEvents,
+    GetExpiredCalendarEventInfo = _GetExpiredCalendarEventInfo,
+    DeleteExpiredCalendarEvent = _DeleteExpiredCalendarEvent,
 
 	GetNumItemCooldowns = _GetNumItemCooldowns,
 	GetItemCooldownInfo = _GetItemCooldownInfo,
@@ -609,7 +610,6 @@ function addon:OnInitialize()
 	addon.db = LibStub("AceDB-3.0"):New(addonName .. "DB", AddonDB_Defaults)
 
 	DataStore:RegisterModule(addonName, addon, PublicMethods)
-	DataStore:SetCharacterBasedMethod("GetNumContacts")
 	DataStore:SetCharacterBasedMethod("GetContactInfo")
 
 	DataStore:SetCharacterBasedMethod("GetSavedInstances")
@@ -618,16 +618,44 @@ function addon:OnInitialize()
 	DataStore:SetCharacterBasedMethod("DeleteSavedInstance")
 	DataStore:SetCharacterBasedMethod("IsBossAlreadyLooted")
 	DataStore:SetCharacterBasedMethod("GetLFGDungeonKillCount")
+    DataStore:SetCharacterBasedMethod("GetSavedWorldBosses")
 
 	DataStore:SetCharacterBasedMethod("GetNumCalendarEvents")
 	DataStore:SetCharacterBasedMethod("GetCalendarEventInfo")
 	DataStore:SetCharacterBasedMethod("HasCalendarEventExpired")
 	DataStore:SetCharacterBasedMethod("DeleteCalendarEvent")
+    
+    DataStore:SetCharacterBasedMethod("GetNumExpiredCalendarEvents")
+    DataStore:SetCharacterBasedMethod("GetExpiredCalendarEventInfo")
+    DataStore:SetCharacterBasedMethod("DeleteExpiredCalendarEvent")
 
 	DataStore:SetCharacterBasedMethod("GetNumItemCooldowns")
 	DataStore:SetCharacterBasedMethod("GetItemCooldownInfo")
 	DataStore:SetCharacterBasedMethod("HasItemCooldownExpired")
 	DataStore:SetCharacterBasedMethod("DeleteItemCooldown")
+    
+    -- temp code for patch released 21/nov/2020
+    -- can remove this after a couple of months
+    -- then if any users report an error with Events.lua just tell them to /reload
+	for key, character in pairs(addon.db.global.Characters) do
+        for dungeonID, dungeon in pairs(character.DungeonIDs) do
+            if (type(dungeon) ~= "table") then
+                character.DungeonIDs[dungeonID] = nil
+            end
+        end
+        
+        for dungeonID, dungeon in pairs(character.LFGDungeons) do
+            if (type(dungeon) ~= "table") then
+                character.LFGDungeons[dungeonID] = nil
+            end
+        end
+        
+        for bossID, resetTime in pairs(character.WorldBosses) do
+            if (type(resetTime) ~= "number") then
+                character.WorldBosses[bossID] = nil
+            end
+        end
+	end
 end
 
 function addon:OnEnable()
@@ -637,18 +665,17 @@ function addon:OnEnable()
 
 	-- Dungeon IDs
 	addon:RegisterEvent("UPDATE_INSTANCE_INFO", OnUpdateInstanceInfo)
+    addon:RegisterEvent("BOSS_KILL", OnBossKill)
 	addon:RegisterEvent("RAID_INSTANCE_WELCOME", OnRaidInstanceWelcome)
 	addon:RegisterEvent("LFG_UPDATE_RANDOM_INFO", OnLFGUpdateRandomInfo)
-	-- addon:RegisterEvent("LFG_LOCK_INFO_RECEIVED", OnLFGLockInfoReceived)
 	addon:RegisterEvent("ENCOUNTER_END", OnEncounterEnd)
 		
-	addon:RegisterEvent("CHAT_MSG_SYSTEM", OnChatMsgSystem)
-	addon:RegisterEvent("CHALLENGE_MODE_MAPS_UPDATE", OnChallengeModeMapsUpdate)
+	addon:RegisterEvent("CHAT_MSG_SYSTEM", OnChatMsgSystem)  
 
 	ClearExpiredDungeons()
 	
 	-- Calendar (only register after setting the current month)
-	local DateInfo = C_Calendar.GetDate()
+	local DateInfo = C_DateAndTime.GetCurrentCalendarTime()
 	local thisMonth,thisYear = DateInfo.month, DateInfo.year
 
 	C_Calendar.SetAbsMonth(thisMonth, thisYear)
@@ -664,6 +691,7 @@ function addon:OnDisable()
 	addon:UnregisterEvent("PLAYER_ALIVE")
 	addon:UnregisterEvent("FRIENDLIST_UPDATE")
 	addon:UnregisterEvent("UPDATE_INSTANCE_INFO")
+    addon:UnregisterEvent("BOSS_KILL")
 	addon:UnregisterEvent("RAID_INSTANCE_WELCOME")
 	addon:UnregisterEvent("CHAT_MSG_SYSTEM")
 	addon:UnregisterEvent("CALENDAR_UPDATE_EVENT_LIST")

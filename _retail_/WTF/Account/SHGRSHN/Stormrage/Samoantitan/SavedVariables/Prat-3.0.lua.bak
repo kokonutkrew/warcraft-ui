@@ -14,491 +14,1574 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
-			},
-			["ChatFrame2EditBox"] = {
+			["ChatFrame1EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
 			},
 		},
 	},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1567626456,
+	["time"] = 1601313556,
 	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:12:26]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T133015:14|tDarkmoon Tonk is now your active pet.",
+					["b"] = 0.6705882549285889,
+					["r"] = 0.9058824181556702,
+					["g"] = 0.8705883026123047,
+					["timestamp"] = 7637.980000000001,
+					["serverTime"] = 1605892360,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:12:26]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T2027955:14|tAbyssal Slitherling is now enemy active pet.",
+					["b"] = 0.6705882549285889,
+					["r"] = 0.9058824181556702,
+					["g"] = 0.8705883026123047,
+					["timestamp"] = 7638.735000000001,
+					["serverTime"] = 1605892360,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:12:33]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 1",
+					["b"] = 0.6705882549285889,
+					["r"] = 0.9058824181556702,
+					["g"] = 0.8705883026123047,
+					["timestamp"] = 7644.986,
+					["serverTime"] = 1605892367,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[10:12:33]|h|r |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T463570:14|t|cff4e96f7|HbattlePetAbil:118:988:215:221|h[Water Jet]|h|r dealt 235 damage to your |T133015:14|tDarkmoon Tonk.",
+					["b"] = 0.6705882549285889,
+					["r"] = 0.9058824181556702,
+					["g"] = 0.8705883026123047,
+					["timestamp"] = 7645.795,
+					["serverTime"] = 1605892367,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+			},
+			["headIndex"] = 4,
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 		["ChatFrame1"] = {
-			{
-				"|cff979797[13:40:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:26:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[13:40:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:27:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				4, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[13:40:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:28:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				6, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[13:41:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saiyarla-Stormrage:30:CHANNEL:2|h|cfff38bb9Saiyarla|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Keepers of the Alliance|r|cffffffff>|r 1/8M 8/8H EP is a semi-hardcore Mythic raiding guild & M+ Key pushers.  LF melee for Mythic raiding, tryouts are Thurs 8pm-11pm EST.  ~~  Super Active Guild  ~~  Casuals Welcome!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				8, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[13:41:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frostain-Stormrage:31:CHANNEL:2|h|cffa9d271Frostain|r|h|cffd8d8d8]|r: how about that new dave chappelle stand up... top !@#$ing notch ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				10, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[13:41:58]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:49:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				3, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[13:42:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:61:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[13:42:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lolilucifer-Stormrage:62:CHANNEL:2|h|cff8686ecLolilucifer|r|h|cffd8d8d8]|r: does anyone have a void shrouded sachel theyd be willing to give me, Dont have much gold but can definitely pay a bit if i need to!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				7, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[13:42:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:63:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[13:42:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ogh-Stormrage:64:CHANNEL:2|h|cff006fdcOgh|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00FIRMLY GRASP IT|r|cffffffff>|r 4/8M Tues / Wedn. 9pm - 12am Server is looking for dps, especially a monk. Chill, laid back raiding environment. Pst for more info", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				10, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[13:42:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:65:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52252::::::::1:64::11::::|h[Tabard of the Lightbringer]|h|r", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[13:42:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ferdlol-Stormrage:66:CHANNEL:2|h|cfffe7b09Ferdlol|r|h|cffd8d8d8]|r: WTS 2s rating get your conflict and strife essence, also doing freehold boosts (for gold only) PST", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				14, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[13:42:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:67:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:183:1:3:155:11:11:0000000000000000|h[Ethereal Soul-Trader]|h|r + |cff0070dd|Hbattlepet:168:1:3:155:10:13:0000000000000000|h[Rocket Chicken]|h|r", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[13:42:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:68:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[13:42:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blobbey-Stormrage:69:CHANNEL:2|h|cfffefefeBlobbey|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Heroes and Legends|r|cffffffff>|r 5/8M is selling Mythic Jaina Mount, pst for more info", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				16, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[13:42:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Drazzl-Stormrage:70:CHANNEL:2|h|cff00fe95Drazzl|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Fury|r|cffffffff>|r 9/9M BoD, 3/8M EP, 8/8H EP. Looking for Ranged DPS", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				18, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[13:43:01]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jamspriest-Stormrage:71:CHANNEL:2|h|cfffefefeJamspriest|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Blood Lotus|r|cffffffff>|r 8/8H 1/8M 930PM-1230AM Friday/Saturday is looking for raiders primarily more ranged and a dps with a heals offspec to continue to fill our roster as we look to make more progression in mythic EP. We also run M+ daily and PVP weekly pst for m", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				20, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[13:43:05]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:72:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[13:43:14]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:73:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				3, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[13:43:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:74:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[13:44:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:75:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[13:44:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saiyarla-Stormrage:76:CHANNEL:2|h|cfff38bb9Saiyarla|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Keepers of the Alliance|r|cffffffff>|r 1/8M 8/8H EP is a semi-hardcore Mythic raiding guild & M+ Key pushers.  LF melee for Mythic raiding, tryouts are Thurs 8pm-11pm EST.  ~~  Super Active Guild  ~~  Casuals Welcome!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				22, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[13:44:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:77:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				3, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[13:45:36]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jassapine-Stormrage:78:CHANNEL:2|h|cffa9d271Jassapine|r|h|cffd8d8d8]|r: is there a trial of style set for season 3?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				24, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[13:45:42]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ìzu-Stormrage:79:CHANNEL:2|h|cff3ec5e9Ìzu|r|h|cffd8d8d8]|r: nope", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				26, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[13:45:46]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Farafaucet-Stormrage:80:CHANNEL:2|h|cff006fdcFarafaucet|r|h|cffd8d8d8]|r: nah brah", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				28, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[13:45:48]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:81:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[13:45:50]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:82:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				3, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[13:45:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:83:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52252::::::::1:64::11::::|h[Tabard of the Lightbringer]|h|r", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[13:45:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saintorom-Stormrage:84:CHANNEL:2|h|cfff38bb9Saintorom|r|h|cffd8d8d8]|r: This is season 5 and no", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				30, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[13:45:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:85:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:183:1:3:155:11:11:0000000000000000|h[Ethereal Soul-Trader]|h|r + |cff0070dd|Hbattlepet:168:1:3:155:10:13:0000000000000000|h[Rocket Chicken]|h|r", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[13:45:55]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Farafaucet-Stormrage:86:CHANNEL:2|h|cff006fdcFarafaucet|r|h|cffd8d8d8]|r: the fan was for season 3", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				28, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[13:46:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jassapine-Stormrage:87:CHANNEL:2|h|cffa9d271Jassapine|r|h|cffd8d8d8]|r: .... :( sad panda", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				24, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[13:46:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Laruin-Stormrage:88:CHANNEL:2|h|cffa9d271Laruin|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Unbroken Alliance|r|cffffffff>|r large casual progressive w/ many members age 50+. N 7/8,H 1/8. Need off tank & fill-in tank/dps, heals (MW), ilvl 420+. Raid days T/W (Prog.) 8-10 pm & Sat/Sun (GM's choice) 8-10 pm. Keys & more. Others Welcomed.  PST info/|cffffff00|Hinvplr:Laruin-Stormrage|h[invite]|h|r!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				32, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[13:46:19]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:89:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[13:46:25]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:90:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[13:46:26]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jassapine-Stormrage:91:CHANNEL:2|h|cffa9d271Jassapine|r|h|cffd8d8d8]|r: wow, how lucky are we?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				24, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[13:46:26]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lewlock-Stormrage:92:CHANNEL:2|h|cff8686ecLewlock|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Profít|r|cffffffff>|r (3/8M EP) Well Organized, Long-Lasting and Strong Heroic/Mythic Guild LF Skilled Ranged DPS. Raids are Tuesday/Thursday from 8-11pm EST/Server.  PST for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				34, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[13:46:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:93:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[13:46:49]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:94:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:54068::::::::1:64::15::::|h[Wooly White Rhino]|h|r - |cffa335ee|Hitem:68008::::::::1:64::::::|h[Mottled Drake]|h|r - |cffa335ee|Hitem:93671::::::::1:64::::::|h[Ghastly Charger's Skull]|h|r", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[13:47:07]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Kirethelanna-Stormrage:95:CHANNEL:2|h|cfffef367Kirethelanna|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r The Eternal Palace (N/H) Run! Armor stacking for you! Mythic +10-17 run (In Timer) - Free Trader. Operation: Mechagon (Mount) - Fast run! - whisper for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				3, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[13:47:09]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dylanffs-Stormrage:96:CHANNEL:2|h|cff8686ecDylanffs|r|h|cffd8d8d8]|r: Atrophy (4/8M) (8/8H) is recruiting exceptional dps. We raid Thursday, Sunday, & Monday 7:30-10:30pm EST. Pst for more info!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				5, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[13:47:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:99:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome. ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[13:47:26]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saiyarla-Stormrage:100:CHANNEL:2|h|cfff38bb9Saiyarla|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Keepers of the Alliance|r|cffffffff>|r 1/8M 8/8H EP is a semi-hardcore Mythic raiding guild & M+ Key pushers.  LF melee for Mythic raiding, tryouts are Thurs 8pm-11pm EST.  ~~  Super Active Guild  ~~  Casuals Welcome!", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				22, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[13:47:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:101:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cff1eff00|Hitem:2105::::::::1:64::::::|h[Thug Shirt]|h|r Removed from Game", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[13:47:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:ßud-Stormrage:102:CHANNEL:2|h|cff3ec5e9ßud|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:1933::::::::1:64::::::|h[Staff of Conjuring]|h|r Removed from Game", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				12, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[13:47:36]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Urgfelstorm-Stormrage:103:CHANNEL:2|h|cff8686ecUrgfelstorm|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Reformed|r|cffffffff>|r 3/8M is looking for High DPS and Healers (min 430 Ilvl 60+ Neck) . Progression days are Wed/Thu 10pm to 1am est. Casuals are welcome.", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				68, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [47]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 25,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:04]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185705.158,
+					["serverTime"] = 1607712964,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185713.392,
+					["serverTime"] = 1607712972,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:15]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185715.748,
+					["serverTime"] = 1607712975,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:18]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185719.117,
+					["serverTime"] = 1607712978,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:20]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185721.528,
+					["serverTime"] = 1607712980,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:23]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185723.946,
+					["serverTime"] = 1607712983,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:25]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185726.525,
+					["serverTime"] = 1607712985,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Carltonbanks-Stormrage:1681:CHANNEL:2|h|cffc59a6cCarltonbanks|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:184804::::::::60:72:::::::|h[Ulfius' Calming Claymore]|h|r",
+					["serverTime"] = 1607712986,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185727.239,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:28]|h|r You leave the group.",
+					["serverTime"] = 1607712988,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185729.703,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:28]|h|r You are not in a guild.",
+					["serverTime"] = 1607712988,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185729.744,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:30]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185731.168,
+					["serverTime"] = 1607712990,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:34]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185734.979,
+					["serverTime"] = 1607712994,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:36]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185737.432,
+					["serverTime"] = 1607712996,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Carltonbanks-Stormrage:1684:CHANNEL:2|h|cffc59a6cCarltonbanks|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:184804::::::::60:72:::::::|h[Ulfius' Calming Claymore]|h|r",
+					["serverTime"] = 1607712998,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185739.153,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:40]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185741.172,
+					["serverTime"] = 1607713000,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Handsomehr-Stormrage:1685:CHANNEL:2|h|cffa9d271Handsomehr|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Starlight Boosting|r|cffffffff>|r WTS Normal and Heroic Castle Nathria // 10/10 clear and AOTC with personal loot only // Ran by top players // Pst for info // GOLD ONLY  <3",
+					["serverTime"] = 1607713002,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185743.424,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:42]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185743.619,
+					["serverTime"] = 1607713002,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:45]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185746.233,
+					["serverTime"] = 1607713005,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mangobanana-Stormrage:1686:CHANNEL:2|h|cff00fe97Mangobanana|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00S O L U T I O N|r|cffffffff>|r is looking for a balance druid for tonight's weekend raid 9-12pm Fri/Sat, pm me for more information - or an |cffffff00|Hinvplr:Mangobanana-Stormrage|h[invite]|h|r.",
+					["serverTime"] = 1607713007,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185747.785,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:47]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185748.29,
+					["serverTime"] = 1607713007,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:48]|h|r Quest accepted: Urgent Care",
+					["serverTime"] = 1607713008,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185749.038,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saskekah-Stormrage:1688:CHANNEL:2|h|cff00fe97Saskekah|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:184783::::::::60:269::23:4:6652:7194:1472:6646:1:28:749:::|h[Muirnne's Stormforged Signet]|h|r 100k, 50k cheaper than AH whisper",
+					["serverTime"] = 1607713019,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185760.61,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:57:10]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185771.332,
+					["serverTime"] = 1607713030,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:57:17]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185777.976,
+					["serverTime"] = 1607713037,
+				}, -- [24]
+				{
+					["message"] = "|cff979797[11:57:19]|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185780.01,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:51:54]|h|r Prince Erazmin says: We must now focus on rebuilding. But if you ever require our assistance, you need only request it.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712714,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:51:56]|h|r Operation: Mechagon - The Mechoriginator failed: Inventory is full.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712716,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:51:58]|h|r |Hplayer:Hietala:1505:TEXT_EMOTE:|h|cfffefefeHietala|r|h-BleedingHollow cheers!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712718,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						76, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:01]|h|r Gazlowe says: Huh, this partnership wasn't half bad. Reminds me how profitable working with you Alliance mooks can be.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712720,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r You gain 1700 experience.",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						78, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r You receive item: |cffa335ee|Hcurrency:1553:2500|h[Humming Azerite Heart]|h|r.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r |cffe6cc80|Hitem:158075::::::::51:66::11:4:6316:4932:4933:1540::::|h[Heart of Azeroth]|h|r gains 2,500 Artifact Power.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r Reputation with Rustbolt Resistance increased by 550.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						80, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r Operation: Mechagon - The Mechoriginator completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r Experience gained: 1700.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r Received 93 Gold, 60 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r You receive item: |cff0070dd|Hitem:169610::::::::51:66:::::::|h[S.P.A.R.E. Crate]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:02]|h|r |cffd8d8d8[|r|Hplayer:Samoantitan-Stormrage:1515:ACHIEVEMENT|h|cffd8bc3f51|r:|cfff38bb9Samoantitan|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:13553:Player-60-0A6DF395:1:12:11:20:4294967295:4294967295:4294967295:4294967295|h[The Mechagonian Threat]|h|r |cffffffff(|rCompleted 12/11/20|cffffffff)|r |cff2080a0|Hgratsl:Samoantitan:ACHIEVEMENT::13553|h[say grats]|h|r! |cffffd200|Hshareachieve:13553:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712721,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						72, -- [3]
+						82, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:08]|h|r Gila Crosswires says: Thanks to Tinkmaster Overspark's leadership, the threat of world annihilation was averted.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712727,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:14]|h|r Tinkmaster Overspark says: Oh! Don't forget to mention my technical prowess in dismantling those mechanical monstrosities!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712733,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:20]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Hietala-BleedingHollow:1518:PARTY|h|cffd84e4e60|r:|cfffefefeHietala|r-|cff3bc9c7Ble|r|h|cffd8d8d8]|r: take care!!!",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712739,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:21]|h|r Gila Crosswires says: Of course, sir!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712740,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:28]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Kyndelody-BleedingHollow:1520:PARTY|h|cffd84e4e60|r:|cff00fe97Kyndelody|r-|cff3bc9c7Ble|r|h|cffd8d8d8]|r: I have no desire to ever do that again",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712747,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:34]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Kyndelody-BleedingHollow:1521:PARTY|h|cffd84e4e60|r:|cff00fe97Kyndelody|r-|cff3bc9c7Ble|r|h|cffd8d8d8]|r: thanks",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712753,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:35]|h|r |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Hietala-BleedingHollow:1522:PARTY|h|cffd84e4e60|r:|cfffefefeHietala|r-|cff3bc9c7Ble|r|h|cffd8d8d8]|r: lmao",
+					["b"] = 1,
+					["r"] = 0.6666666865348816,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712754,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						14, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:41]|h|r Loot Specialization set to: Protection",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712760,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Mechagon]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Mechagon]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r |cffa5a5a5Hietala|r-BleedingHollow leaves the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r Dungeon Difficulty set to Normal.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r |cffa5a5a5Kyndelody|r-BleedingHollow leaves the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:52:46]|h|r Prince Erazmin says: The resistance is always in need of resources. You can aid us by locating mechanized chests across the island.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712765,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						54, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:15]|h|r Loot Specialization set to: Protection",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712794,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:17]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712796,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:17]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712796,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:17]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712796,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:17]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712796,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Goldingdayz-Stormrage:1534:CHANNEL:2|h|cfff38bb9Goldingdayz|r|h|cffd8d8d8]|r: [Guild: Mythic Coffee] is recruiting a restro shammy/warlock/DH for heroic and mythic progression. Raid times Thurs/Fri 6:30-9:30 pm est. Will also be doing lots of bgs/arena. Social and Casuals are welcome :).",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712799,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:26]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712805,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:26]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712805,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 44 |4second:seconds;",
+					["timestamp"] = 185585.061,
+				}, -- [62]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 185585.061,
+				}, -- [63]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.0 |r(|cff9482C99.0 Shadowlands|r)  ",
+					["timestamp"] = 185558.997,
+				}, -- [64]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 185558.997,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185558.997,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:53:46]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
+					["timestamp"] = 185558.997,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:03]|h|r AutoFlood 1.2.3 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 185584.592,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:03]|h|r Fishing Buddy v1.12 loaded",
+					["timestamp"] = 185584.592,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:03]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 185584.592,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:03]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 185584.592,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:09]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 185585.061,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:09]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 185585.061,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:09]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 185585.061,
+					["serverTime"] = 1607712849,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:15]|h|r Loot Specialization set to: Protection",
+					["serverTime"] = 1607712855,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185585.061,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:21]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1607712861,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185602.462,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:21]|h|r You are not in a guild.",
+					["serverTime"] = 1607712861,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185602.462,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:22]|h|r Total time played: 18 |4day:days;, 0 |4hour:hours;, 16 |4minute:minutes;, 48 |4second:seconds;",
+					["serverTime"] = 1607712862,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185603.746,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:22]|h|r Time played this level: 0 |4day:days;, 4 |4hour:hours;, 12 |4minute:minutes;, 22 |4second:seconds;",
+					["serverTime"] = 1607712862,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185603.746,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:23]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185603.746,
+					["serverTime"] = 1607712863,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:24]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Mechagon & Nazjatar|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 185603.746,
+					["serverTime"] = 1607712864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:24]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Visions of N'Zoth|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 185603.746,
+					["serverTime"] = 1607712864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:24]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 185603.746,
+					["serverTime"] = 1607712864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:26]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185606.547,
+					["serverTime"] = 1607712866,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:27]|h|r AAP Loaded",
+					["timestamp"] = 185606.547,
+					["serverTime"] = 1607712867,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:28]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185609.238,
+					["serverTime"] = 1607712868,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:31]|h|r Caretaker Kah-Sar says: Fatescribe, is it true that the Maw claims every newly arrived soul?",
+					["serverTime"] = 1607712871,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185611.964,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:34]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185615.187,
+					["serverTime"] = 1607712874,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:35]|h|r Fatescribe Roh-Tahl says: It would appear so. We must trust that this is the Purpose.",
+					["serverTime"] = 1607712875,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185616.279,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:36]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185617.691,
+					["serverTime"] = 1607712876,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:39]|h|r Caretaker Kah-Sar says: The Purpose is our way.",
+					["serverTime"] = 1607712879,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185620.235,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Klaufi-Stormrage:1639:CHANNEL:2|h|cfffef367Klaufi|r|h|cffd8d8d8]|r: Looking for a good guild",
+					["serverTime"] = 1607712881,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185622.695,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:42]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185623.5,
+					["serverTime"] = 1607712882,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:44]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185625.597,
+					["serverTime"] = 1607712884,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Frezny-Stormrage:1640:CHANNEL:2|h|cff006fdcFrezny|r|h|cffd8d8d8]|r: ^",
+					["serverTime"] = 1607712891,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185632.507,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Benington-Stormrage:1641:CHANNEL:2|h|cff006fdcBenington|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:184792::::::::60:263::1:3:6652:1472:6646:1:28:2044:::|h[Haru Kiemund's Sabatons]|h|r 90k, 10k less than AH",
+					["serverTime"] = 1607712891,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185632.507,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:54:54]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185635.467,
+					["serverTime"] = 1607712894,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Liltaps-Stormrage:1642:CHANNEL:2|h|cff00fe97Liltaps|r|h|cffd8d8d8]|r: WTS Normal and Heroic Raid // M+ keys (personal loot only this week) PST",
+					["serverTime"] = 1607712901,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185641.871,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:02]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185643.391,
+					["serverTime"] = 1607712902,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:03]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 185644.031,
+					["serverTime"] = 1607712903,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:05]|h|r You are now the group leader.",
+					["serverTime"] = 1607712905,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185646.028,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:05]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185646.047,
+					["serverTime"] = 1607712905,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:07]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185648.736,
+					["serverTime"] = 1607712907,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:13]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185653.871,
+					["serverTime"] = 1607712913,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:22]|h|r Loot Specialization set to: Protection",
+					["serverTime"] = 1607712922,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 185663.009,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:23]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185663.009,
+					["serverTime"] = 1607712923,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:23]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1607712923,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185664.533,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:23]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1607712923,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185664.533,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:23]|h|r You are not in a guild.",
+					["serverTime"] = 1607712923,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185664.533,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xithryl-Stormrage:1655:CHANNEL:2|h|cff006fdcXithryl|r|h|cffd8d8d8]|r: anyone got an INT  1h for sale?",
+					["serverTime"] = 1607712925,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185666.353,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:25]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185666.353,
+					["serverTime"] = 1607712925,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hikârí-Stormrage:1656:CHANNEL:2|h|cfffefefeHikârí|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:183008::::::::60:256:::::::|h[Supple Supplicant's Gloves]|h|r",
+					["serverTime"] = 1607712929,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185670.593,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:34]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185675.223,
+					["serverTime"] = 1607712934,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ozeus-Stormrage:1657:CHANNEL:2|h|cffa9d271Ozeus|r|h|cffd8d8d8]|r: If you're looking for a new home than The Dark Örder is looking for you. Join for raid night on our normal and heroic progression - Tues/Weds 8-10:30pm or join just to hang out. In need of a Havoc DH and DPS. We are one! The Dark Örder summons you...",
+					["serverTime"] = 1607712934,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185675.68,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mangobanana-Stormrage:1658:CHANNEL:2|h|cff00fe97Mangobanana|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00S O L U T I O N|r|cffffffff>|r is looking for a balance druid for tonight's weekend raid 9-12pm Fri/Sat, pm me for more information - or an |cffffff00|Hinvplr:Mangobanana-Stormrage|h[invite]|h|r.",
+					["serverTime"] = 1607712935,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185676.084,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:37]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185678.393,
+					["serverTime"] = 1607712937,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:40]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185680.975,
+					["serverTime"] = 1607712940,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:42]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185683.422,
+					["serverTime"] = 1607712942,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:45]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185686.59,
+					["serverTime"] = 1607712945,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:47]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185688.711,
+					["serverTime"] = 1607712947,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:50]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185690.774,
+					["serverTime"] = 1607712950,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:52]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185692.819,
+					["serverTime"] = 1607712952,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:54]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185694.994,
+					["serverTime"] = 1607712954,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185697.323,
+					["serverTime"] = 1607712956,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Twelvegáuge-Stormrage:1661:CHANNEL:2|h|cffa9d271Twelvegáuge|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Charismatic|r|cffffffff>|r New guild, returning players from previos high end raiding. Looking to get back into raiding after the !@#$ show called BFA. Raid will be Wed/Thur 9:30 server. Need heals/dps",
+					["serverTime"] = 1607712957,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185698.589,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:58]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185699.457,
+					["serverTime"] = 1607712958,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fëår-Stormrage:1663:CHANNEL:2|h|cff006fdcFëår|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-245307-60-100239549|h[Guild: Hindsight]|h|r Lookin to add to our awesome group of guildies who actually talk and engage! We will have groups for all! Raiders, PVP, Mythic+ etc! PST for raid times, or any questions!",
+					["serverTime"] = 1607712958,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 185699.506,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:56:01]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 185701.964,
+					["serverTime"] = 1607712961,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 	},
 }

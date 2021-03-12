@@ -1,0 +1,23 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["lastUpdate"] = 1605916098,
+				["Stats"] = {
+					["Ranged"] = "6-7|0|18|0|9.9999990463257",
+					["HealthMax"] = 133,
+					["Melee"] = "6-7|1.8000000715256|18|0|9.9999990463257|0",
+					["MaxPower"] = "3|100",
+					["Defense"] = "0|0|4.1221609115601|3|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "14|18|19|14|0",
+					["Spell"] = "14|14|0|9.9999990463257|0|0",
+				},
+			},
+		},
+	},
+}

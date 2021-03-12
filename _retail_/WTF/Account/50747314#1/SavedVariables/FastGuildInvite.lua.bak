@@ -1,0 +1,24 @@
+
+FGI_DB = {
+	["profileKeys"] = {
+		["Gl - Emerald Dream"] = "Default",
+		["Kokonutkiing - Emerald Dream"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
+		["Kokonutkween - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["introShow"] = false,
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

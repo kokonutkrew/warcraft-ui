@@ -1,0 +1,11 @@
+
+LegionInvasionTimerDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+LegionInvasionTime = nil

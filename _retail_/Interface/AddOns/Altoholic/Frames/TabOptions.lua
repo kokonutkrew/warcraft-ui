@@ -15,9 +15,8 @@ local addonList = {
 	"Altoholic_Grids",
 }
 
-local url1 = "http://wow.curse.com/downloads/wow-addons/details/altoholic.aspx"
-local url2 = "http://www.wowinterface.com/downloads/info8533-Altoholic.html"
-local url3 = "http://wow.curseforge.com/addons/altoholic/localization/"
+local url1 = "https://www.curseforge.com/wow/addons/altoholic-retail/"
+local url2 = "https://github.com/teelolws/Altoholic-Retail"
 
 local help = {
 	{	name = "General",
@@ -61,7 +60,7 @@ local help = {
 			"Do I have to open all professions manually?",
 		},
 		answers = {
-			"Yes. Some advanced features require that you open the tradeskill pane once per profession.",
+			"Not anymore, on the Retail version of Altoholic. They are scanned when you login. Classic users will need to open the professions individually.",
 		}
 	},
 	{	name = "Mails",
@@ -81,7 +80,7 @@ local help = {
 			"I found a bad translation, how can I help fixing it?",
 		},
 		answers = {
-			format("Use the CurseForge localization tool, at %s|r.", colors.green..url3),
+			format("Create an issue and say what language you can help with at: %s|r.", colors.green..url2),
 		}
 	},
 }	
@@ -95,10 +94,10 @@ local support = {
 			"I have multiple Lua errors at login, should I report them all?",
 		},
 		answers = {
-			"Both Curse and WoWInterface have a ticket section, I also read comments and respond as often as I materially can, so feel free to report in one of these places.",
+			format("%s%s", "Please use the Issue Tracker on Github: ", colors.green..url2),
 			format("%s\n\n%s\n%s\n%s\n%s\n%s\n", 
 				"A few things:",
-				colors.green.."1)|r Make sure you have the latest version of the add-on.\n",
+				colors.green.."1)|r Make sure you have the latest version of the add-on. Check for alpha builds on Github that address your issue.\n",
 				colors.green.."2)|r If you suspect a conflict with another add-on, try to reproduce the issue with only Altoholic enabled. As the add-on deals with a lot of things, a conflict is always possible.\n",
 				colors.green.."3)|r Make sure your issue has not been reported by someone else.\n",
 				colors.green.."4)|r Never, ever, report that 'it does not work', this is the most useless sentence in the world! Be specific about what does not work.\n",
@@ -120,93 +119,11 @@ local support = {
 
 -- this content will be subject to frequent changes, do not bother translating it !!
 local whatsnew = {
-	{	name = "8.2.001 Changes",
-		bulletedList = {
-			"Minor fixes.",
-			"Added new factions.",
-		},
-	},
-	{	name = "8.0.008 Changes",
-		bulletedList = {
-			"Added BfA factions. (Thanks AlexSUCF !!)",
-			"Added BfA currencies.",
-			"Added BfA emissary quests.",
-			"Some quest achievements for BfA were rearranged to better reflect a character's progress.",
-			"Fixed the percentage of rest xp for pandaren to now properly show 200% or 300% depending on the mode.",
-			"Reworked the way rest xp is displayed in the addon, there is now a tooltip giving more info about rest xp, including when an alt will be fully rested."
-		},
-	},
-	{	name = "8.0.007 Changes",
-		bulletedList = {
-			"Account Summary : Removed a test that prevented the herbalism & skinning tooltip from showing the proper per expansion information.",
-		},
-	},
-	{	name = "8.0.006 Changes",
-		bulletedList = {
-			"Restored the emissaries panel.",
-			"Fixed the 'All levels' filter in the account summary being limited to 110.",
-			"Added support for War Campaign Missions."
-		},
-	},
-	{	name = "8.0.005 Changes",
-		bulletedList = {
-			"Closed a lot of bugs from the Curse issues list, and implemented a lot of smaller fixes (thanks to all who contributed !).",
-			"Fixed guild bank counters being displayed in the tooltip for guild banks from other factions, when the options were set not to display them. (Thanks Leo!)",
-			"Reorganized several achievement categories (Thanks AlexSUCF !!)",
-			"Added Legion Fishing Masters reputations (Thanks AlexSUCF !!)",
-			"Search tab: Character level edit boxes now accept 3-digit values (Thanks AlexSUCF !!)",
-			"Fixed scanning of transmog sets (Thanks AlexSUCF !!)",
-			"Fixed several smaller issues (Thanks AlexSUCF !!)",
-			"DataStore_Agenda: fixed calendar scanning of events with an invalid 'calendar type'. This fixes the spam of events you were maybe getting at logon. Just open your calendar on the affected alts, and you will be fine.",
-			"Added support for paragon reputation levels (Thanks all4atlantis !!)",
-			"Fixed the auto-completion of alt's names on the same realm, this should fix the 'This character might be someone you don't know.' problem.",
-		},
-	},
-	{	name = "8.0.004 Changes",
-		bulletedList = {
-			"Fixed a Lua error when mousing over a recipe in the search panel. (Thanks KaraKaori !)",
-			"Archaelogy is back on its feet :)",
-			"Quick note about fishing: Fishing now seems to be seen as a series of recipes, like the other professions, even though there are no actual recipes.",
-			"This means you actually have to press the 'Fishing Skills' button in the profession UI to get its proper level.",
-			"Fixed the 'known by' tooltips, which did not properly left out 'unlearned' recipes.",
-			"Removed the last occurences of first aid in a few places.",
-			"Fixed a Lua error when visiting merchants selling recipes.",
-			"The amount of gold displayed in various places is now shown with a thousands' separator.",
-		},
-	},
-	{	name = "8.0.003 Changes",
-		bulletedList = {
-			"Slightly modified the 'totals' that appear at the bottom right so that it now fully belongs to the Summary tab.",
-			"Characters tab : the profession panel has been fully reworked.",
-			"Professions can now be filtered by categories, subcategories, color, inventory slot, learned/unlearned, and by their actual name.",
-			"Profession cooldowns should be ok, but I did not have enough material at hand for tangible testing. Please let me know if you notice anything weird.",
-			"Recipe tooltips like 'Could be learned by' etc.. should now be fully functioning again.",
-		},
-	},
-	{	name = "8.0.002 Changes",
-		bulletedList = {
-			"Fixed a Lua error in DataStore_Agenda.",
-			"Fixed DataStore_Containers not properly scanning some bank content.",
-			"Fixed DataStore_Agenda not properly scanning WotLK item cooldowns.",
-			"Fixed Item cooldowns breaking the agenda view.",
-			"Fixed the errors in the Agenda tab.",
-			"DataStore_Crafts: now properly scanning profession data, UI still being worked on.",
-			"Fixed several UI errors related to professions."
-		},
-	},
-	{	name = "8.0.001 Changes",
-		bulletedList = {
-			"Fixed a ton of Lua errors.",
-			"Summary tab : the artifact menu has been disabled, since no data can be retrieved anymore.",
-			"Summary tab : the first aid profession has been removed.",
-			"Note : Quests and professions are still being reworked."
-		},
-	},
-	{	name = "Earlier changes",
-		textLines = {
-			"Refer to |cFF00FF00changelog.txt",
-		},
-	},
+    { name = "Changes moved",
+        bulletedList = {
+            "The up-to-date changelog can now be found at: https://github.com/teelolws/Altoholic-Retail/commits/master",
+        },
+    },
 }
 
 function addon:GetOption(name)
@@ -221,9 +138,26 @@ function addon:SetOption(name, value)
 	end
 end
 
+local function UpdateRealmsOptionSelectivity()
+	local f = AltoholicTooltipOptions
+    local connectedEnabled = addon:GetOption("UI.Tooltip.ShowMergedRealmsCount")
+    
+    if not connectedEnabled then
+        -- disable the all realms button, and make sure its deselected too
+        addon:SetOption("UI.Tooltip.ShowAllRealmsCount", false)
+        f.ShowAllRealmsCount:SetChecked(false)
+        f.ShowAllRealmsCount:SetEnabled(false)
+        f.ShowAllRealmsCount.Text:SetTextColor(.5,.5,.5)
+    else
+        -- enable the all realms button, but don't change its selection
+        f.ShowAllRealmsCount:SetEnabled(true)
+        f.ShowAllRealmsCount.Text:SetTextColor(1,1,1)        
+    end
+end
+
 function addon:ToggleOption(frame, option)
 	local value
-	
+
 	if frame then
 		value = frame:GetChecked() and true or false
 	else
@@ -231,6 +165,75 @@ function addon:ToggleOption(frame, option)
 	end
 	
 	addon:SetOption(option, value)
+    
+    if (option == "UI.Tooltip.ShowMergedRealmsCount") or (option == "UI.Tooltip.ShowAllRealmsCount") then
+        UpdateRealmsOptionSelectivity()
+    end 
+end
+
+local HearthstoneListScrollFrame_Desc = {
+	NumLines = 6,
+	LineHeight = 18,
+	Frame = "AltoholicTooltipCounterOptions_ItemList",
+	GetSize = function()
+			local items = addon:GetOption("UI.Tooltip.HiddenHearthstones")
+            local size = 0
+            for _ in pairs(items) do
+                size = size + 1
+            end
+            return size 
+		end,
+	Update = function(self, offset, entry, desc)
+            local items = addon:GetOption("UI.Tooltip.HiddenHearthstones")
+            local orderedItems = {}
+            local size = 0
+            for k,v in pairs(items) do
+                size = size + 1
+                orderedItems[size] = k
+            end
+			for i=1, desc.NumLines do
+				local line = i + offset
+				if line <= size then
+					local item = Item:CreateFromItemID(orderedItems[line])
+                    if item:IsItemEmpty() then
+                        print("Altoholic: item ID " .. orderedItems[line] .. " doesn't exist. Removing.")
+                        items[orderedItems[line]] = nil
+                        addon:SetOption("UI.Tooltip.HiddenHearthstones", items)
+                        Altoholic:ScrollFrameUpdate(self)
+                        return
+                    end
+                    item:ContinueOnItemLoad(function()
+					   _G[ entry..i ]:SetText(item:GetItemName())
+                    end)
+					_G[ entry..i ]:Show()
+                    _G[ entry..i ].Left:Hide()
+                    _G[ entry..i ].Middle:Hide()
+                    _G[ entry..i ].Right:Hide()
+				else
+					_G[ entry..i ]:Hide()
+				end
+			end
+		end,
+}
+
+function addon.HiddenHearthstonesUpdate()
+	Altoholic:ScrollFrameUpdate(HearthstoneListScrollFrame_Desc)
+end
+
+function addon.AddItemToHiddenHearthstones(id)
+    id = tonumber(id)
+    local option = addon:GetOption("UI.Tooltip.HiddenHearthstones")
+    option[id] = true
+    addon:SetOption("UI.Tooltip.HiddenHearthstones", option)
+    addon.HiddenHearthstonesUpdate()
+end
+
+function addon.DeleteItemFromHiddenHearthstones(id)
+    id = tonumber(id)
+    local option = addon:GetOption("UI.Tooltip.HiddenHearthstones")
+    option[id] = nil
+    addon:SetOption("UI.Tooltip.HiddenHearthstones", option)
+    addon.HiddenHearthstonesUpdate()
 end
 
 function addon:SetupOptions()
@@ -239,15 +242,16 @@ function addon:SetupOptions()
 	DataStore:AddOptionCategory(AltoholicGeneralOptions, addonName)
 	LibStub("LibAboutPanel").new(addonName, addonName);
 	DataStore:AddOptionCategory(AltoholicHelp, HELP_LABEL, addonName)
-	DataStore:AddOptionCategory(AltoholicSupport, "Getting support", addonName)
-	DataStore:AddOptionCategory(AltoholicWhatsNew, "What's new?", addonName)
+	DataStore:AddOptionCategory(AltoholicSupport, L["Getting support"], addonName)
+	DataStore:AddOptionCategory(AltoholicWhatsNew, L["What's new?"], addonName)
 	DataStore:AddOptionCategory(AltoholicMemoryOptions, L["Memory used"], addonName)
 	DataStore:AddOptionCategory(AltoholicSearchOptions, SEARCH, addonName)
 	DataStore:AddOptionCategory(AltoholicMailOptions, MAIL_LABEL, addonName)
 	DataStore:AddOptionCategory(AltoholicMiscOptions, MISCELLANEOUS, addonName)
 	DataStore:AddOptionCategory(AltoholicAccountSharingOptions, L["Account Sharing"], addonName)
-	DataStore:AddOptionCategory(AltoholicSharedContent, "Shared Content", addonName)
+	DataStore:AddOptionCategory(AltoholicSharedContent, L["Shared Content"], addonName)
 	DataStore:AddOptionCategory(AltoholicTooltipOptions, L["Tooltip"], addonName)
+    DataStore:AddOptionCategory(AltoholicTooltipCounterOptions, L["Tooltip Counters"], addonName)
 	DataStore:AddOptionCategory(AltoholicCalendarOptions, L["Calendar"], addonName)
 
 	DataStore:SetupInfoPanel(help, AltoholicHelp_Text)
@@ -324,6 +328,7 @@ function addon:SetupOptions()
 	f.IncludeMailboxItems.Text:SetText(L["Include mailboxes"])
 	f.IncludeGuildBankItems.Text:SetText(L["Include guild bank(s)"])
 	f.IncludeKnownRecipes.Text:SetText(L["Include known recipes"])
+    f.IncludeAuctionHouseListings.Text:SetText("Include Auction House listings")
 	L["AutoQuery server |cFFFF0000(disconnection risk)"] = nil
 	L["Sort loots in descending order"] = nil
 	L["Include items without level requirement"] = nil
@@ -376,7 +381,7 @@ function addon:SetupOptions()
 	
 	
 	-- ** Shared Content **
-	AltoholicSharedContentText1:SetText(colors.white.."Shared Content")
+	AltoholicSharedContentText1:SetText(colors.white..L["Shared Content"])
 	AltoholicSharedContent_SharedContentInfoButton.tooltip = format("%s\n%s", 
 		colors.white.."Select the content that will be visible to players who send you",
 		"account sharing requests.")
@@ -388,11 +393,13 @@ function addon:SetupOptions()
 	f.ShowItemCount.Text:SetText(L["Show item count per character"])
 	f.ShowSimpleCount.Text:SetText(L["Show item count without details"])
 	f.ShowTotalItemCount.Text:SetText(L["Show total item count"])
+    f.ShowOnlyFirstGatheringItem.Text:SetText("Show only the primary resource from gathering nodes")
 	f.ShowKnownRecipes.Text:SetText(L["Show recipes already known/learnable by"])
 	f.ShowItemID.Text:SetText(L["Show item ID and item level"])
 	f.ShowGatheringNodesCount.Text:SetText(L["Show counters on gathering nodes"])
 	f.ShowCrossFactionCount.Text:SetText(L["Show counters for both factions"])
 	f.ShowMergedRealmsCount.Text:SetText(L["Show counters for connected realms"])
+    f.ShowAllRealmsCount.Text:SetText(L["Show counters for all realms"])
 	f.ShowAllAccountsCount.Text:SetText(L["Show counters for all accounts"])
 	f.ShowGuildBankCount.Text:SetText(L["Show guild bank count"])
 	f.IncludeGuildBankInTotal.Text:SetText(L["Include guild bank count in the total count"])
@@ -409,12 +416,19 @@ function addon:SetupOptions()
 	L["Show counters for both factions"] = nil
 	L["Show counters for all accounts"] = nil
 	L["Include guild bank count in the total count"] = nil
+    UpdateRealmsOptionSelectivity()
+
+    -- ** Tooltip Counters **
+    f = AltoholicTooltipCounterOptions
+    f.Text2:SetText("Enter Item ID")
+    f.HideHearthstoneCounters.Text:SetText("Hide counters for these items:")
+    addon.HiddenHearthstonesUpdate()
 	
 	-- ** Calendar **
 	f = AltoholicCalendarOptions
 	f.WeekStartsOnMonday.Text:SetText(L["Week starts on Monday"])
 	f.UseDialogBoxForWarnings.Text:SetText(L["Display warnings in a dialog box"])
-	f.WarningsEnabled.Text:SetText(L["Disable warnings"])
+	f.WarningsDisabled.Text:SetText(L["Disable warnings"])
 	L["Week starts on Monday"] = nil
 	L["Warn %d minutes before an event starts"] = nil
 	L["Display warnings in a dialog box"] = nil
@@ -458,6 +472,7 @@ function addon:RestoreOptionsToUI()
 	f.IncludeMailboxItems:SetChecked(O["UI.Tabs.Search.IncludeMailboxItems"])
 	f.IncludeGuildBankItems:SetChecked(O["UI.Tabs.Search.IncludeGuildBankItems"])
 	f.IncludeKnownRecipes:SetChecked(O["UI.Tabs.Search.IncludeKnownRecipes"])
+    f.IncludeAuctionHouseListings:SetChecked(O["UI.Tabs.Search.IncludeAuctionHouseListings"])
 
 	AltoholicSearchOptionsLootInfo:SetText(colors.green .. O.TotalLoots .. "|r " .. L["Loots"] .. " / " .. colors.green .. O.UnknownLoots .. "|r " .. L["Unknown"])
 	AltoholicSearchOptionsLootInfo:SetText(format("%s%s|r %s / %s%s|r %s", colors.green, O.TotalLoots, L["Loots"], colors.green, O.UnknownLoots, L["Unknown"]))
@@ -477,21 +492,26 @@ function addon:RestoreOptionsToUI()
 	f = AltoholicTooltipOptions
 	f.ShowItemSource:SetChecked(O["UI.Tooltip.ShowItemSource"])
 	f.ShowItemCount:SetChecked(O["UI.Tooltip.ShowItemCount"])
+    f.ShowOnlyFirstGatheringItem:SetChecked(O["UI.Tooltip.ShowOnlyFirstGatheringItem"])
 	f.ShowTotalItemCount:SetChecked(O["UI.Tooltip.ShowTotalItemCount"])
 	f.ShowKnownRecipes:SetChecked(O["UI.Tooltip.ShowKnownRecipes"])
 	f.ShowItemID:SetChecked(O["UI.Tooltip.ShowItemID"])
 	f.ShowGatheringNodesCount:SetChecked(O["UI.Tooltip.ShowGatheringNodesCount"])
 	f.ShowCrossFactionCount:SetChecked(O["UI.Tooltip.ShowCrossFactionCount"])
 	f.ShowMergedRealmsCount:SetChecked(O["UI.Tooltip.ShowMergedRealmsCount"])
+    f.ShowAllRealmsCount:SetChecked(O["UI.Tooltip.ShowAllRealmsCount"])
 	f.ShowAllAccountsCount:SetChecked(O["UI.Tooltip.ShowAllAccountsCount"])
 	f.ShowGuildBankCount:SetChecked(O["UI.Tooltip.ShowGuildBankCount"])
 	f.IncludeGuildBankInTotal:SetChecked(O["UI.Tooltip.IncludeGuildBankInTotal"])
 	f.ShowGuildBankCountPerTab:SetChecked(O["UI.Tooltip.ShowGuildBankCountPerTab"])
+    
+    f = AltoholicTooltipCounterOptions
+    f.HideHearthstoneCounters:SetChecked(O["UI.Tooltip.HideHearthstoneCounters"])
 	
 	f = AltoholicCalendarOptions
 	f.WeekStartsOnMonday:SetChecked(O["UI.Calendar.WeekStartsOnMonday"])
 	f.UseDialogBoxForWarnings:SetChecked(O["UI.Calendar.UseDialogBoxForWarnings"])
-	f.WarningsEnabled:SetChecked(O["UI.Calendar.WarningsEnabled"])
+	f.WarningsDisabled:SetChecked(O["UI.Calendar.WarningsDisabled"])
 end
 
 function addon:UpdateMyMemoryUsage()

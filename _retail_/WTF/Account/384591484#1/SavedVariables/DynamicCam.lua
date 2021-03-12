@@ -2,12 +2,17 @@
 DynamicCamDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
+		["YourCharName - YourServer"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Royders - Emerald Dream"] = "Default",
+		["Buhbles - Emerald Dream"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
 		["Samoanstrap - Tichondrius"] = "Default",
 		["Weqfqw - Alonsus"] = "Default",
 		["Samoansage - Tichondrius"] = "Default",
-		["Samoanbeast - Ravenholdt"] = "Default",
-		["YourCharName - YourServer"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Dethwish - Emerald Dream"] = "Default",
+		["Stronguard - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -21,12 +26,14 @@ DynamicCamDB = {
 			["defaultVersion"] = 1,
 			["version"] = 2,
 			["situations"] = {
+				["303"] = {
+				},
 				["033"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 39,
-						["zoomFitToggleNameplate"] = true,
-						["zoomFitContinous"] = true,
 						["zoomSetting"] = "fit",
+						["zoomFitContinous"] = true,
+						["zoomFitToggleNameplate"] = true,
 					},
 					["events"] = {
 						[5] = "ENCOUNTER_STOP",
@@ -43,20 +50,20 @@ DynamicCamDB = {
 					["name"] = "Dungeon (Combat, Boss)",
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomSetting"] = "fit",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "fit",
 					},
 				},
 				["006"] = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomFitUseCurAsMin"] = true,
-						["zoomFitSpeedMultiplier"] = 1.5,
 						["zoomMax"] = 8,
 						["zoomMin"] = 2,
 						["transitionTime"] = 1.5,
-						["zoomFitToggleNameplate"] = true,
 						["zoomSetting"] = "fit",
+						["zoomFitSpeedMultiplier"] = 1.5,
+						["zoomFitToggleNameplate"] = true,
 					},
 					["cameraCVars"] = {
 						["test_cameraHeadMovementStrength"] = 1,
@@ -66,39 +73,29 @@ DynamicCamDB = {
 				["302"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomValue"] = 7,
-						["zoomSetting"] = "set",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "set",
+						["zoomValue"] = 7,
 					},
 					["cameraCVars"] = {
 						["test_cameraDynamicPitch"] = 1,
 					},
 				},
-				["101"] = {
+				["031"] = {
+					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomValue"] = 12,
-						["rotateSpeed"] = 18.0000000000002,
-						["zoomSetting"] = "set",
-						["rotate"] = true,
 						["zoomFitToggleNameplate"] = true,
-					},
-					["cameraCVars"] = {
-						["test_cameraHeadMovementStrength"] = 2,
-						["test_cameraOverShoulder"] = 3.8,
-					},
-					["extras"] = {
-						["hideUI"] = true,
 					},
 				},
 				["002"] = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomFitToggleNameplate"] = true,
 						["transitionTime"] = 1.05,
-						["zoomSetting"] = "set",
 						["zoomValue"] = 3,
+						["zoomSetting"] = "set",
+						["zoomFitToggleNameplate"] = true,
 					},
 					["cameraCVars"] = {
 						["test_cameraDynamicPitchBaseFovPad"] = 0.11,
@@ -110,9 +107,9 @@ DynamicCamDB = {
 				["021"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomValue"] = 15,
-						["zoomSetting"] = "set",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "set",
+						["zoomValue"] = 15,
 					},
 					["name"] = "Dungeon (Outdoors)",
 					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\") and IsOutdoors();",
@@ -127,8 +124,8 @@ DynamicCamDB = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
 						["transitionTime"] = 1,
-						["zoomSetting"] = "out",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "out",
 					},
 				},
 				["102"] = {
@@ -152,14 +149,14 @@ DynamicCamDB = {
 				["200"] = {
 					["executeOnInit"] = "this.spells = {136508, 189838, 54406, 94719, 556, 168487, 168499, 171253, 50977, 8690, 222695, 171253, 224869, 53140, 3565, 32271, 193759, 3562, 3567, 33690, 35715, 32272, 49358, 176248, 3561, 49359, 3566, 88342, 88344, 3563, 132627, 132621, 176242, 192085, 192084, 216016};",
 					["cameraActions"] = {
-						["zoomSetting"] = "in",
 						["zoomMax"] = 20,
 						["rotate"] = true,
-						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "in",
 						["transitionTime"] = 10,
-						["zoomValue"] = 4,
+						["zoomFitToggleNameplate"] = true,
 						["yawDegrees"] = 360,
 						["rotateSetting"] = "degrees",
+						["zoomValue"] = 4,
 						["timeIsMax"] = false,
 					},
 					["executeOnEnter"] = "local _, _, _, _, startTime, endTime = UnitCastingInfo(\"player\");\nthis.transitionTime = ((endTime - startTime)/1000) - .25;",
@@ -177,9 +174,9 @@ DynamicCamDB = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomValue"] = 4,
-						["zoomSetting"] = "in",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "in",
+						["zoomValue"] = 4,
 					},
 				},
 				["060"] = {
@@ -189,14 +186,21 @@ DynamicCamDB = {
 						["zoomFitToggleNameplate"] = true,
 					},
 				},
-				["034"] = {
-					["enabled"] = false,
+				["101"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
+						["rotateSpeed"] = 18.0000000000002,
+						["zoomSetting"] = "set",
+						["rotate"] = true,
+						["zoomValue"] = 12,
 						["zoomFitToggleNameplate"] = true,
 					},
-					["events"] = {
-						[5] = "ENCOUNTER_STOP",
+					["cameraCVars"] = {
+						["test_cameraHeadMovementStrength"] = 2,
+						["test_cameraOverShoulder"] = 3.8,
+					},
+					["extras"] = {
+						["hideUI"] = true,
 					},
 				},
 				["201"] = {
@@ -222,10 +226,10 @@ DynamicCamDB = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomMax"] = 6,
-						["zoomFitToggleNameplate"] = true,
 						["transitionTime"] = 1,
-						["zoomSetting"] = "set",
 						["zoomValue"] = 6,
+						["zoomSetting"] = "set",
+						["zoomFitToggleNameplate"] = true,
 					},
 					["cameraCVars"] = {
 						["test_cameraHeadMovementStrength"] = 0,
@@ -254,11 +258,11 @@ DynamicCamDB = {
 				["004"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 10,
-						["zoomValue"] = 6.5,
 						["zoomMin"] = 6,
 						["transitionTime"] = 1,
-						["zoomSetting"] = "set",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "set",
+						["zoomValue"] = 6.5,
 					},
 					["cameraCVars"] = {
 						["test_cameraDynamicPitchBaseFovPad"] = 0.17,
@@ -273,17 +277,17 @@ DynamicCamDB = {
 					["executeOnInit"] = "this.frames = {\"GarrisonCapacitiveDisplayFrame\", \"BankFrame\", \"MerchantFrame\", \"GossipFrame\", \"ClassTrainerFrame\", \"QuestFrame\",}",
 					["cameraActions"] = {
 						["zoomFitUseCurAsMin"] = true,
-						["zoomFitIncrements"] = 0.5,
-						["rotateSetting"] = "degrees",
 						["zoomMax"] = 28.5,
 						["zoomMin"] = 0.5,
-						["zoomFitToggleNameplate"] = true,
-						["rotateBack"] = true,
-						["transitionTime"] = 0.5,
-						["zoomSetting"] = "range",
-						["zoomFitPosition"] = 90,
 						["rotate"] = true,
+						["rotateBack"] = true,
+						["zoomFitToggleNameplate"] = true,
+						["zoomFitIncrements"] = 0.5,
 						["zoomValue"] = 3.5,
+						["zoomFitPosition"] = 90,
+						["rotateSetting"] = "degrees",
+						["zoomSetting"] = "range",
+						["transitionTime"] = 0.5,
 					},
 					["cameraCVars"] = {
 						["test_cameraTargetFocusInteractEnable"] = 1,
@@ -306,7 +310,7 @@ DynamicCamDB = {
 						nil, -- [7]
 						"BANKFRAME_OPENED", -- [8]
 						"BANKFRAME_CLOSED", -- [9]
-						"MERCHANT_SHOW", -- [10]
+						nil, -- [10]
 						"MERCHANT_CLOSED", -- [11]
 						"TRAINER_SHOW", -- [12]
 						"TRAINER_CLOSED", -- [13]
@@ -318,9 +322,9 @@ DynamicCamDB = {
 				["020"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomValue"] = 15,
-						["zoomSetting"] = "set",
 						["zoomFitToggleNameplate"] = true,
+						["zoomSetting"] = "set",
+						["zoomValue"] = 15,
 					},
 					["name"] = "Dungeon",
 					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\");",
@@ -332,20 +336,23 @@ DynamicCamDB = {
 						["zoomFitToggleNameplate"] = true,
 					},
 				},
-				["031"] = {
+				["034"] = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomMax"] = 20,
 						["zoomFitToggleNameplate"] = true,
 					},
+					["events"] = {
+						[5] = "ENCOUNTER_STOP",
+					},
 				},
 				["005"] = {
 					["cameraActions"] = {
 						["zoomMax"] = 20,
-						["zoomFitToggleNameplate"] = true,
 						["transitionTime"] = 1.1,
-						["zoomSetting"] = "in",
 						["zoomValue"] = 3.5,
+						["zoomSetting"] = "in",
+						["zoomFitToggleNameplate"] = true,
 					},
 					["cameraCVars"] = {
 						["test_cameraHeadMovementStrength"] = 0.5,
@@ -382,9 +389,9 @@ DynamicCamDB = {
 			["version"] = 2,
 			["firstRun"] = false,
 			["reactiveZoom"] = {
+				["addIncrementsAlways"] = 0,
 				["addIncrements"] = 5,
 				["maxZoomTime"] = 2,
-				["addIncrementsAlways"] = 0,
 			},
 			["defaultVersion"] = 1,
 			["situations"] = {
@@ -442,21 +449,11 @@ DynamicCamDB = {
 						["test_cameraDynamicPitch"] = 1,
 					},
 				},
-				["101"] = {
+				["031"] = {
+					["enabled"] = false,
 					["cameraActions"] = {
-						["rotateSpeed"] = 18.0000000000002,
-						["zoomMax"] = 20,
 						["zoomFitToggleNameplate"] = true,
-						["rotate"] = true,
-						["zoomSetting"] = "set",
-						["zoomValue"] = 12,
-					},
-					["cameraCVars"] = {
-						["test_cameraHeadMovementStrength"] = 2,
-						["test_cameraOverShoulder"] = 3.8,
-					},
-					["extras"] = {
-						["hideUI"] = true,
+						["zoomMax"] = 20,
 					},
 				},
 				["002"] = {
@@ -475,15 +472,15 @@ DynamicCamDB = {
 					},
 				},
 				["201"] = {
+					["cameraActions"] = {
+						["zoomFitToggleNameplate"] = true,
+						["zoomMax"] = 20,
+					},
 					["condition"] = "for k,v in pairs(this.buffs) do \n    if (UnitBuff(\"player\", GetSpellInfo(v))) then\n        return true;\n    end\nend\nreturn false;",
 					["cameraCVars"] = {
 						["test_cameraDynamicPitch"] = 0,
 						["test_cameraHeadMovementStrength"] = 0,
 						["test_cameraOverShoulder"] = 0,
-					},
-					["cameraActions"] = {
-						["zoomFitToggleNameplate"] = true,
-						["zoomMax"] = 20,
 					},
 				},
 				["030"] = {
@@ -512,14 +509,14 @@ DynamicCamDB = {
 					},
 				},
 				["020"] = {
-					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\");",
-					["name"] = "Dungeon",
 					["cameraActions"] = {
 						["zoomFitToggleNameplate"] = true,
 						["zoomSetting"] = "set",
 						["zoomValue"] = 15,
 						["zoomMax"] = 20,
 					},
+					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\");",
+					["name"] = "Dungeon",
 				},
 				["301"] = {
 					["enabled"] = false,
@@ -537,35 +534,42 @@ DynamicCamDB = {
 						["zoomMax"] = 20,
 					},
 				},
-				["034"] = {
-					["enabled"] = false,
-					["cameraActions"] = {
-						["zoomFitToggleNameplate"] = true,
-						["zoomMax"] = 20,
+				["101"] = {
+					["extras"] = {
+						["hideUI"] = true,
 					},
-					["events"] = {
-						[5] = "ENCOUNTER_STOP",
+					["cameraActions"] = {
+						["rotateSpeed"] = 18.0000000000002,
+						["zoomMax"] = 20,
+						["zoomFitToggleNameplate"] = true,
+						["rotate"] = true,
+						["zoomSetting"] = "set",
+						["zoomValue"] = 12,
+					},
+					["cameraCVars"] = {
+						["test_cameraHeadMovementStrength"] = 2,
+						["test_cameraOverShoulder"] = 3.8,
 					},
 				},
 				["021"] = {
-					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\") and IsOutdoors();",
-					["name"] = "Dungeon (Outdoors)",
 					["cameraActions"] = {
 						["zoomFitToggleNameplate"] = true,
 						["zoomSetting"] = "set",
 						["zoomValue"] = 15,
 						["zoomMax"] = 20,
 					},
+					["condition"] = "local isInstance, instanceType = IsInInstance(); return (isInstance and instanceType == \"party\") and IsOutdoors();",
+					["name"] = "Dungeon (Outdoors)",
 				},
 				["004"] = {
 					["cameraActions"] = {
 						["timeIsMax"] = false,
+						["zoomFitToggleNameplate"] = true,
 						["zoomValue"] = 4.5,
-						["zoomMax"] = 10,
 						["zoomSetting"] = "set",
 						["zoomMin"] = 6,
 						["transitionTime"] = 1.05,
-						["zoomFitToggleNameplate"] = true,
+						["zoomMax"] = 10,
 					},
 					["cameraCVars"] = {
 						["test_cameraDynamicPitchBaseFovPad"] = 0.46,
@@ -632,15 +636,15 @@ DynamicCamDB = {
 						["zoomFitUseCurAsMin"] = true,
 						["zoomMax"] = 28.5,
 						["zoomMin"] = 0.5,
-						["zoomFitToggleNameplate"] = true,
+						["zoomValue"] = 3.5,
 						["rotateBack"] = true,
 						["yawDegrees"] = -40,
 						["zoomFitIncrements"] = 0.5,
 						["rotate"] = true,
-						["zoomSetting"] = "in",
+						["zoomFitToggleNameplate"] = true,
 						["zoomFitPosition"] = 90,
 						["rotateSetting"] = "degrees",
-						["zoomValue"] = 3.5,
+						["zoomSetting"] = "in",
 						["transitionTime"] = 0.5,
 					},
 					["executeOnInit"] = "this.frames = {\"GarrisonCapacitiveDisplayFrame\", \"BankFrame\", \"MerchantFrame\", \"GossipFrame\", \"ClassTrainerFrame\", \"QuestFrame\",}",
@@ -670,24 +674,30 @@ DynamicCamDB = {
 						["test_cameraHeadMovementStrength"] = 0,
 						["test_cameraOverShoulder"] = 0,
 					},
+					["condition"] = "for k,v in pairs(this.spells) do \n    if (UnitCastingInfo(\"player\") == GetSpellInfo(v)) then \n        return true;\n    end\nend\nreturn false;",
+					["executeOnInit"] = "this.spells = {136508, 189838, 54406, 94719, 556, 168487, 168499, 171253, 50977, 8690, 222695, 171253, 224869, 53140, 3565, 32271, 193759, 3562, 3567, 33690, 35715, 32272, 49358, 176248, 3561, 49359, 3566, 88342, 88344, 3563, 132627, 132621, 176242, 192085, 192084, 216016};",
 					["cameraActions"] = {
 						["zoomMax"] = 20,
 						["transitionTime"] = 10,
 						["timeIsMax"] = false,
 						["rotateSetting"] = "degrees",
-						["zoomValue"] = 4,
+						["zoomFitToggleNameplate"] = true,
 						["yawDegrees"] = 360,
 						["rotate"] = true,
-						["zoomFitToggleNameplate"] = true,
 						["zoomSetting"] = "in",
+						["zoomValue"] = 4,
 					},
-					["executeOnInit"] = "this.spells = {136508, 189838, 54406, 94719, 556, 168487, 168499, 171253, 50977, 8690, 222695, 171253, 224869, 53140, 3565, 32271, 193759, 3562, 3567, 33690, 35715, 32272, 49358, 176248, 3561, 49359, 3566, 88342, 88344, 3563, 132627, 132621, 176242, 192085, 192084, 216016};",
 					["extras"] = {
 						["hideUI"] = true,
 					},
-					["condition"] = "for k,v in pairs(this.spells) do \n    if (UnitCastingInfo(\"player\") == GetSpellInfo(v)) then \n        return true;\n    end\nend\nreturn false;",
 				},
 				["100"] = {
+					["cameraActions"] = {
+						["zoomFitToggleNameplate"] = true,
+						["transitionTime"] = 1,
+						["zoomSetting"] = "out",
+						["zoomMax"] = 20,
+					},
 					["condition"] = "return IsMounted();",
 					["cameraCVars"] = {
 						["test_cameraDynamicPitchBaseFovPad"] = 0.3,
@@ -697,18 +707,15 @@ DynamicCamDB = {
 						["test_cameraOverShoulder"] = 5,
 						["test_cameraDynamicPitchSmartPivotCutoffDist"] = 8.5,
 					},
-					["cameraActions"] = {
-						["zoomFitToggleNameplate"] = true,
-						["transitionTime"] = 1,
-						["zoomSetting"] = "out",
-						["zoomMax"] = 20,
-					},
 				},
-				["031"] = {
+				["034"] = {
 					["enabled"] = false,
 					["cameraActions"] = {
 						["zoomFitToggleNameplate"] = true,
 						["zoomMax"] = 20,
+					},
+					["events"] = {
+						[5] = "ENCOUNTER_STOP",
 					},
 				},
 				["005"] = {

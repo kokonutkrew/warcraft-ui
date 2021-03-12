@@ -6,146 +6,132 @@ SkadaPerCharDB = {
 			["auras"] = {
 			},
 			["ccbreaks"] = 0,
-			["time"] = 16,
+			["time"] = 12,
 			["interrupts"] = 0,
-			["endtime"] = 1545106205,
-			["gotboss"] = true,
+			["endtime"] = 1603396494,
 			["dispells"] = 0,
-			["damage"] = 1921272,
+			["damage"] = 237341,
 			["players"] = {
 				{
-					["last"] = 1545106204,
+					["last"] = 1603396493,
 					["healingabsorbed"] = 0,
 					["class"] = "DRUID",
 					["damaged"] = {
-						["Riverpaw Basher"] = 457483,
-						["Hogger"] = 259081,
-						["Riverpaw Slayer"] = 651066,
-						["Riverpaw Shaman"] = 163759,
-						["Riverpaw Looter"] = 389883,
+						["Murloc"] = 237341,
 					},
 					["dispells"] = 0,
 					["role"] = "TANK",
-					["time"] = 15,
+					["time"] = 8,
 					["interrupts"] = 0,
 					["ffdamagedonetargets"] = {
 					},
 					["ffdamagedonespells"] = {
 					},
-					["damage"] = 1921272,
+					["damage"] = 237341,
 					["damagespells"] = {
 						["Moonfire"] = {
-							["hitmin"] = 33803,
-							["criticalamount"] = 67601,
+							["hitmin"] = 47372,
+							["criticalamount"] = 189969,
 							["id"] = 164812,
-							["hitmax"] = 33803,
-							["hitamount"] = 33803,
-							["criticalmin"] = 67601,
-							["min"] = 33803,
-							["criticalmax"] = 67601,
-							["critical"] = 1,
+							["criticalmin"] = 94243,
+							["hitamount"] = 47372,
+							["critical"] = 2,
+							["min"] = 47372,
+							["criticalmax"] = 95726,
+							["hitmax"] = 47372,
 							["hit"] = 1,
 							["school"] = 64,
-							["max"] = 67601,
-							["totalhits"] = 2,
-							["damage"] = 101404,
-						},
-						["Swipe"] = {
-							["hitmin"] = 129956,
-							["criticalamount"] = 1039686,
-							["id"] = 213771,
-							["criticalmin"] = 259081,
-							["hitamount"] = 780182,
-							["critical"] = 4,
-							["min"] = 129956,
-							["criticalmax"] = 260762,
-							["hitmax"] = 130383,
-							["hit"] = 6,
-							["school"] = 1,
-							["max"] = 260762,
-							["totalhits"] = 10,
-							["damage"] = 1819868,
+							["max"] = 95726,
+							["totalhits"] = 3,
+							["damage"] = 237341,
 						},
 					},
 					["ffdamagedone"] = 0,
 					["healed"] = {
-						["Player-162-0A01D00D"] = {
-							["role"] = "DAMAGER",
-							["name"] = "Tygrrlilly-EmeraldDream",
-							["amount"] = 1689,
-							["class"] = "HUNTER",
-							["shielding"] = 0,
-						},
 					},
 					["power"] = {
-						{
-							["amount"] = 5,
-							["spells"] = {
-								[77758] = 5,
-							},
-						}, -- [1]
 					},
 					["id"] = "Player-60-0A6E12EE",
-					["first"] = 1545106189,
+					["first"] = 1603396485,
 					["damagetaken"] = 0,
 					["damagetakenspells"] = {
 					},
-					["maxhp"] = 75616,
+					["maxhp"] = 12740,
 					["overhealing"] = 0,
 					["name"] = "Samoansavage",
 					["healingspells"] = {
-						["Ysera's Gift"] = {
-							["shielding"] = 0,
-							["id"] = 145110,
-							["healing"] = 1689,
-							["min"] = 563,
-							["name"] = "Ysera's Gift",
-							["max"] = 563,
-							["critical"] = 0,
-							["absorbed"] = 0,
-							["overhealing"] = 0,
-							["hits"] = 3,
-						},
 					},
 					["shielding"] = 0,
-					["healing"] = 1689,
+					["healing"] = 0,
 					["auras"] = {
-						["Relic of the Makers"] = {
-							["school"] = 1,
-							["name"] = "Relic of the Makers",
-							["active"] = 0,
-							["id"] = 268520,
-							["auratype"] = "BUFF",
-							["uptime"] = 16,
-						},
-						["Gore"] = {
-							["school"] = 1,
-							["name"] = "Gore",
-							["active"] = 0,
-							["id"] = 93622,
-							["auratype"] = "BUFF",
-							["uptime"] = 15,
-						},
 						["Exposure"] = {
 							["school"] = 1,
 							["name"] = "Exposure",
 							["active"] = 0,
 							["id"] = 268547,
 							["auratype"] = "BUFF",
-							["uptime"] = 10,
+							["uptime"] = 7,
 						},
 					},
 					["ccbreaks"] = 0,
 				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Murloc"] = {
+					["players"] = {
+						["Samoansavage"] = {
+							["taken"] = 237341,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 237341,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 237341,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603396482,
+			["name"] = "Murloc (4)",
+			["mobname"] = "Murloc",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603396482,
+			["mobdone"] = 0,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["endtime"] = 1603396482,
+			["dispells"] = 0,
+			["damage"] = 487884,
+			["players"] = {
 				{
-					["last"] = 1545106203,
+					["last"] = 1603396476,
 					["healingabsorbed"] = 0,
-					["class"] = "HUNTER",
+					["class"] = "DRUID",
 					["damaged"] = {
 					},
 					["dispells"] = 0,
 					["role"] = "DAMAGER",
-					["time"] = 11,
+					["time"] = 2,
 					["interrupts"] = 0,
 					["ffdamagedonetargets"] = {
 					},
@@ -159,44 +145,29 @@ SkadaPerCharDB = {
 					},
 					["power"] = {
 					},
-					["id"] = "Player-162-0A01D00D",
-					["first"] = 1545106192,
-					["damagetaken"] = 3239,
+					["id"] = "Player-162-0A019C24",
+					["first"] = 1603396474,
+					["damagetaken"] = 364,
 					["damagetakenspells"] = {
-						["Lightning Bolt"] = {
-							["crushing"] = 0,
-							["id"] = 12167,
-							["min"] = 366,
-							["school"] = 8,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
-							["name"] = "Lightning Bolt",
-							["blocked"] = 0,
-							["totalhits"] = 3,
-							["resisted"] = 0,
-							["max"] = 393,
-							["damage"] = 1141,
-						},
 						["Attack"] = {
-							["crushing"] = 2,
+							["crushing"] = 0,
 							["id"] = 6603,
-							["min"] = 446,
+							["min"] = 85,
 							["school"] = 1,
 							["critical"] = 0,
 							["glancing"] = 0,
 							["absorbed"] = 0,
 							["name"] = "Attack",
 							["blocked"] = 0,
-							["totalhits"] = 3,
+							["totalhits"] = 4,
 							["resisted"] = 0,
-							["max"] = 829,
-							["damage"] = 2098,
+							["max"] = 109,
+							["damage"] = 364,
 						},
 					},
-					["maxhp"] = 792,
+					["maxhp"] = 371,
 					["overhealing"] = 0,
-					["name"] = "Tygrrlilly",
+					["name"] = "Grapejellie",
 					["healingspells"] = {
 					},
 					["shielding"] = 0,
@@ -204,11 +175,208 @@ SkadaPerCharDB = {
 					["auras"] = {
 					},
 					["ccbreaks"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
-					["last"] = 1545106193,
+					["last"] = 1603396481,
 					["healingabsorbed"] = 0,
-					["class"] = "HUNTER",
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Murloc Streamrunner"] = 96967,
+						["Murloc"] = 390917,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 7,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 487884,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 48837,
+							["criticalamount"] = 291785,
+							["id"] = 164812,
+							["criticalmin"] = 95386,
+							["hitamount"] = 196099,
+							["critical"] = 3,
+							["min"] = 48837,
+							["criticalmax"] = 99432,
+							["hitmax"] = 49165,
+							["hit"] = 4,
+							["school"] = 64,
+							["max"] = 99432,
+							["totalhits"] = 7,
+							["damage"] = 487884,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603396474,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12774,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Gore"] = {
+							["school"] = 1,
+							["name"] = "Gore",
+							["active"] = 0,
+							["id"] = 93622,
+							["auratype"] = "BUFF",
+							["uptime"] = 3,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Murloc Streamrunner"] = {
+					["players"] = {
+						["Grapejellie-EmeraldDream"] = {
+							["taken"] = 0,
+							["done"] = 85,
+							["role"] = "DAMAGER",
+							["class"] = "DRUID",
+						},
+						["Samoansavage"] = {
+							["taken"] = 96967,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 96967,
+					["done"] = 85,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Murloc"] = {
+					["players"] = {
+						["Grapejellie-EmeraldDream"] = {
+							["taken"] = 0,
+							["done"] = 279,
+							["role"] = "DAMAGER",
+							["class"] = "DRUID",
+						},
+						["Samoansavage"] = {
+							["taken"] = 390917,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 390917,
+					["done"] = 279,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 487884,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 364,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603396474,
+			["name"] = "Murloc (3)",
+			["mobname"] = "Murloc",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603396474,
+			["mobdone"] = 364,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 11,
+			["interrupts"] = 0,
+			["endtime"] = 1603396424,
+			["dispells"] = 0,
+			["damage"] = 212363,
+			["players"] = {
+				{
+					["last"] = 1603396423,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Murloc"] = 212363,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 9,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 212363,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 52251,
+							["criticalamount"] = 106904,
+							["id"] = 164812,
+							["criticalmin"] = 106904,
+							["hitamount"] = 105459,
+							["critical"] = 1,
+							["min"] = 52251,
+							["criticalmax"] = 106904,
+							["hitmax"] = 53208,
+							["hit"] = 2,
+							["school"] = 64,
+							["max"] = 106904,
+							["totalhits"] = 3,
+							["damage"] = 212363,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603396414,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12757,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1603396421,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
 					["damaged"] = {
 					},
 					["dispells"] = 0,
@@ -227,29 +395,29 @@ SkadaPerCharDB = {
 					},
 					["power"] = {
 					},
-					["id"] = "Player-162-0A0112EF",
-					["first"] = 1545106193,
-					["damagetaken"] = 1790,
+					["id"] = "Player-162-0A019C24",
+					["first"] = 1603396421,
+					["damagetaken"] = 122,
 					["damagetakenspells"] = {
 						["Attack"] = {
-							["crushing"] = 2,
+							["crushing"] = 0,
 							["id"] = 6603,
-							["min"] = 430,
+							["min"] = 122,
 							["school"] = 1,
 							["critical"] = 0,
 							["glancing"] = 0,
 							["absorbed"] = 0,
 							["name"] = "Attack",
 							["blocked"] = 0,
-							["totalhits"] = 3,
+							["totalhits"] = 1,
 							["resisted"] = 0,
-							["max"] = 754,
-							["damage"] = 1790,
+							["max"] = 122,
+							["damage"] = 122,
 						},
 					},
-					["maxhp"] = 738,
+					["maxhp"] = 371,
 					["overhealing"] = 0,
-					["name"] = "Samoanhunter",
+					["name"] = "Grapejellie",
 					["healingspells"] = {
 					},
 					["shielding"] = 0,
@@ -257,50 +425,218 @@ SkadaPerCharDB = {
 					["auras"] = {
 					},
 					["ccbreaks"] = 0,
-				}, -- [3]
+				}, -- [2]
 			},
 			["deaths"] = 0,
 			["mobs"] = {
-				["Riverpaw Basher"] = {
+				["Murloc"] = {
 					["players"] = {
-						["Tygrrlilly-EmeraldDream"] = {
+						["Grapejellie-EmeraldDream"] = {
 							["taken"] = 0,
-							["done"] = 2098,
+							["done"] = 122,
 							["role"] = "DAMAGER",
-							["class"] = "HUNTER",
+							["class"] = "DRUID",
 						},
 						["Samoansavage"] = {
-							["taken"] = 457483,
+							["taken"] = 212363,
 							["done"] = 0,
 							["role"] = "TANK",
 							["class"] = "DRUID",
-						},
-						["Samoanhunter-EmeraldDream"] = {
-							["taken"] = 0,
-							["done"] = 606,
-							["role"] = "DAMAGER",
-							["class"] = "HUNTER",
 						},
 					},
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 457483,
-					["done"] = 2704,
+					["taken"] = 212363,
+					["done"] = 122,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
-				["Riverpaw Shaman"] = {
+			},
+			["mobtaken"] = 212363,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 122,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603396413,
+			["name"] = "Murloc (2)",
+			["mobname"] = "Murloc",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603396413,
+			["mobdone"] = 122,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 9,
+			["interrupts"] = 0,
+			["endtime"] = 1603396413,
+			["dispells"] = 0,
+			["damage"] = 473515,
+			["players"] = {
+				{
+					["last"] = 1603396412,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Murloc"] = 473515,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 8,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 473515,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 51867,
+							["criticalamount"] = 107367,
+							["id"] = 164812,
+							["criticalmin"] = 107367,
+							["hitamount"] = 270453,
+							["critical"] = 1,
+							["min"] = 51867,
+							["criticalmax"] = 107367,
+							["hitmax"] = 58514,
+							["hit"] = 5,
+							["school"] = 64,
+							["max"] = 107367,
+							["totalhits"] = 6,
+							["damage"] = 377820,
+						},
+						["Attack"] = {
+							["hitmin"] = 95695,
+							["id"] = 6603,
+							["min"] = 95695,
+							["hitamount"] = 95695,
+							["hitmax"] = 95695,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 95695,
+							["totalhits"] = 1,
+							["damage"] = 95695,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603396404,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12740,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Gore"] = {
+							["school"] = 1,
+							["name"] = "Gore",
+							["active"] = 0,
+							["id"] = 93622,
+							["auratype"] = "BUFF",
+							["uptime"] = 4,
+						},
+						["Relic of the Makers"] = {
+							["school"] = 1,
+							["name"] = "Relic of the Makers",
+							["active"] = 0,
+							["id"] = 268520,
+							["auratype"] = "BUFF",
+							["uptime"] = 3,
+						},
+						["Exposure"] = {
+							["school"] = 1,
+							["name"] = "Exposure",
+							["active"] = 0,
+							["id"] = 268547,
+							["auratype"] = "BUFF",
+							["uptime"] = 9,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1603396408,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+					},
+					["dispells"] = 0,
+					["role"] = "DAMAGER",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-162-0A019C24",
+					["first"] = 1603396404,
+					["damagetaken"] = 679,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["min"] = 85,
+							["school"] = 1,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 7,
+							["resisted"] = 0,
+							["max"] = 109,
+							["damage"] = 679,
+						},
+					},
+					["maxhp"] = 371,
+					["overhealing"] = 0,
+					["name"] = "Grapejellie",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Murloc"] = {
 					["players"] = {
-						["Tygrrlilly-EmeraldDream"] = {
+						["Grapejellie-EmeraldDream"] = {
 							["taken"] = 0,
-							["done"] = 1141,
+							["done"] = 679,
 							["role"] = "DAMAGER",
-							["class"] = "HUNTER",
+							["class"] = "DRUID",
 						},
 						["Samoansavage"] = {
-							["taken"] = 163759,
+							["taken"] = 473515,
 							["done"] = 0,
 							["role"] = "TANK",
 							["class"] = "DRUID",
@@ -309,22 +645,97 @@ SkadaPerCharDB = {
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 163759,
-					["done"] = 1141,
+					["taken"] = 473515,
+					["done"] = 679,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
-				["Riverpaw Slayer"] = {
-					["players"] = {
-						["Samoanhunter-EmeraldDream"] = {
-							["taken"] = 0,
-							["done"] = 754,
-							["role"] = "DAMAGER",
-							["class"] = "HUNTER",
+			},
+			["mobtaken"] = 473515,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 679,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603396404,
+			["name"] = "Murloc",
+			["mobname"] = "Murloc",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603396404,
+			["mobdone"] = 679,
+		}, -- [4]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["endtime"] = 1603396280,
+			["dispells"] = 0,
+			["damage"] = 47394,
+			["players"] = {
+				{
+					["last"] = 1603396273,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Harvest Watcher"] = 47394,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 0,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 47394,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 47394,
+							["id"] = 164812,
+							["min"] = 47394,
+							["hitamount"] = 47394,
+							["hitmax"] = 47394,
+							["hit"] = 1,
+							["school"] = 64,
+							["max"] = 47394,
+							["totalhits"] = 1,
+							["damage"] = 47394,
 						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603396273,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12740,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Harvest Watcher"] = {
+					["players"] = {
 						["Samoansavage"] = {
-							["taken"] = 651066,
+							["taken"] = 47394,
 							["done"] = 0,
 							["role"] = "TANK",
 							["class"] = "DRUID",
@@ -333,40 +744,135 @@ SkadaPerCharDB = {
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 651066,
-					["done"] = 754,
-					["htaken"] = 0,
-					["hdonespell"] = {
-					},
-				},
-				["Hogger"] = {
-					["players"] = {
-						["Samoansavage"] = {
-							["taken"] = 259081,
-							["done"] = 0,
-							["role"] = "TANK",
-							["class"] = "DRUID",
-						},
-					},
-					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 259081,
+					["taken"] = 47394,
 					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
-				["Riverpaw Looter"] = {
-					["players"] = {
-						["Samoanhunter-EmeraldDream"] = {
-							["taken"] = 0,
-							["done"] = 430,
-							["role"] = "DAMAGER",
-							["class"] = "HUNTER",
+			},
+			["mobtaken"] = 47394,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603396272,
+			["name"] = "Harvest Watcher",
+			["mobname"] = "Harvest Watcher",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603396272,
+			["mobdone"] = 0,
+		}, -- [5]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 7,
+			["interrupts"] = 0,
+			["endtime"] = 1603396090,
+			["dispells"] = 0,
+			["damage"] = 280067,
+			["players"] = {
+				{
+					["last"] = 1603396088,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Thug"] = 280067,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 4,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 280067,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 47280,
+							["criticalamount"] = 98212,
+							["id"] = 164812,
+							["hitmax"] = 48437,
+							["hitamount"] = 95717,
+							["criticalmin"] = 98212,
+							["min"] = 47280,
+							["criticalmax"] = 98212,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 64,
+							["max"] = 98212,
+							["totalhits"] = 3,
+							["damage"] = 193929,
 						},
+						["Attack"] = {
+							["hitmin"] = 86138,
+							["id"] = 6603,
+							["min"] = 86138,
+							["hitamount"] = 86138,
+							["hitmax"] = 86138,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 86138,
+							["totalhits"] = 1,
+							["damage"] = 86138,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+						{
+							["amount"] = 25,
+							["spells"] = {
+								[17057] = 25,
+							},
+						}, -- [1]
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603396084,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 8376,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Gore"] = {
+							["school"] = 1,
+							["name"] = "Gore",
+							["active"] = 0,
+							["id"] = 93622,
+							["auratype"] = "BUFF",
+							["uptime"] = 3,
+						},
+						["Bear Form"] = {
+							["school"] = 1,
+							["name"] = "Bear Form",
+							["active"] = 0,
+							["id"] = 5487,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Thug"] = {
+					["players"] = {
 						["Samoansavage"] = {
-							["taken"] = 389883,
+							["taken"] = 280067,
 							["done"] = 0,
 							["role"] = "TANK",
 							["class"] = "DRUID",
@@ -375,683 +881,849 @@ SkadaPerCharDB = {
 					["hdone"] = 0,
 					["htakenspell"] = {
 					},
-					["taken"] = 389883,
-					["done"] = 430,
+					["taken"] = 280067,
+					["done"] = 0,
 					["htaken"] = 0,
 					["hdonespell"] = {
 					},
 				},
 			},
-			["mobtaken"] = 1921272,
+			["mobtaken"] = 280067,
 			["ffdamagedone"] = 0,
-			["healing"] = 1689,
-			["damagetaken"] = 5029,
+			["healing"] = 0,
+			["damagetaken"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
-			["starttime"] = 1545106189,
-			["name"] = "Hogger",
-			["mobname"] = "Hogger",
+			["starttime"] = 1603396083,
+			["name"] = "Thug",
+			["mobname"] = "Thug",
 			["power"] = {
-				5, -- [1]
+				25, -- [1]
 			},
 			["mobhdone"] = 0,
-			["last_action"] = 1545106189,
-			["mobdone"] = 5029,
-		}, -- [1]
+			["last_action"] = 1603396083,
+			["mobdone"] = 0,
+		}, -- [6]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 13,
+			["interrupts"] = 0,
+			["endtime"] = 1603395985,
+			["dispells"] = 0,
+			["damage"] = 154470,
+			["players"] = {
+				{
+					["last"] = 1603395979,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Kobold Digger"] = 154470,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 7,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 154470,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 48736,
+							["criticalamount"] = 105734,
+							["id"] = 164812,
+							["criticalmin"] = 105734,
+							["hitamount"] = 48736,
+							["critical"] = 1,
+							["min"] = 48736,
+							["criticalmax"] = 105734,
+							["hitmax"] = 48736,
+							["hit"] = 1,
+							["school"] = 64,
+							["max"] = 105734,
+							["totalhits"] = 2,
+							["damage"] = 154470,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603395972,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12774,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Exposure"] = {
+							["school"] = 1,
+							["name"] = "Exposure",
+							["active"] = 0,
+							["id"] = 268547,
+							["auratype"] = "BUFF",
+							["uptime"] = 13,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Kobold Digger"] = {
+					["players"] = {
+						["Samoansavage"] = {
+							["taken"] = 154470,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 154470,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 154470,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603395972,
+			["name"] = "Kobold Digger",
+			["mobname"] = "Kobold Digger",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603395972,
+			["mobdone"] = 0,
+		}, -- [7]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 9,
+			["interrupts"] = 0,
+			["endtime"] = 1603394599,
+			["dispells"] = 0,
+			["damage"] = 143511,
+			["players"] = {
+				{
+					["last"] = 1603394599,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Kobold Tunneler"] = 143511,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 9,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 143511,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 47317,
+							["criticalamount"] = 96194,
+							["id"] = 164812,
+							["hitmax"] = 47317,
+							["hitamount"] = 47317,
+							["criticalmin"] = 96194,
+							["min"] = 47317,
+							["criticalmax"] = 96194,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 64,
+							["max"] = 96194,
+							["totalhits"] = 2,
+							["damage"] = 143511,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603394590,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12757,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Gore"] = {
+							["school"] = 1,
+							["name"] = "Gore",
+							["active"] = 0,
+							["id"] = 93622,
+							["auratype"] = "BUFF",
+							["uptime"] = 8,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Kobold Tunneler"] = {
+					["players"] = {
+						["Samoansavage"] = {
+							["taken"] = 143511,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 143511,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 143511,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603394590,
+			["name"] = "Kobold Tunneler (3)",
+			["mobname"] = "Kobold Tunneler",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603394590,
+			["mobdone"] = 0,
+		}, -- [8]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 15,
+			["interrupts"] = 0,
+			["endtime"] = 1603394583,
+			["dispells"] = 0,
+			["damage"] = 434088,
+			["players"] = {
+				{
+					["last"] = 1603394582,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Kobold Miner"] = 385051,
+						["Kobold Tunneler"] = 49037,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 13,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 434088,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["hitmin"] = 47650,
+							["criticalamount"] = 288188,
+							["id"] = 164812,
+							["hitmax"] = 49213,
+							["hitamount"] = 145900,
+							["criticalmin"] = 94530,
+							["min"] = 47650,
+							["criticalmax"] = 99091,
+							["critical"] = 3,
+							["hit"] = 3,
+							["school"] = 64,
+							["max"] = 99091,
+							["totalhits"] = 6,
+							["damage"] = 434088,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603394569,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12757,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Gore"] = {
+							["school"] = 1,
+							["name"] = "Gore",
+							["active"] = 0,
+							["id"] = 93622,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+				{
+					["last"] = 1603394581,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+					},
+					["dispells"] = 0,
+					["role"] = "DAMAGER",
+					["time"] = 3,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-162-0A019C24",
+					["first"] = 1603394578,
+					["damagetaken"] = 225,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["min"] = 104,
+							["school"] = 1,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 121,
+							["damage"] = 225,
+						},
+					},
+					["maxhp"] = 308,
+					["overhealing"] = 0,
+					["name"] = "Grapejellie",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+					},
+					["ccbreaks"] = 0,
+				}, -- [2]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Kobold Miner"] = {
+					["players"] = {
+						["Grapejellie-EmeraldDream"] = {
+							["taken"] = 0,
+							["done"] = 225,
+							["role"] = "DAMAGER",
+							["class"] = "DRUID",
+						},
+						["Samoansavage"] = {
+							["taken"] = 385051,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 385051,
+					["done"] = 225,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Kobold Tunneler"] = {
+					["players"] = {
+						["Samoansavage"] = {
+							["taken"] = 49037,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 49037,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 434088,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 225,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603394568,
+			["name"] = "Kobold Miner (2)",
+			["mobname"] = "Kobold Miner",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603394568,
+			["mobdone"] = 225,
+		}, -- [9]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ccbreaks"] = 0,
+			["time"] = 8,
+			["interrupts"] = 0,
+			["endtime"] = 1603394554,
+			["dispells"] = 0,
+			["damage"] = 107116,
+			["players"] = {
+				{
+					["last"] = 1603394547,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Kobold Tunneler"] = 107116,
+					},
+					["dispells"] = 0,
+					["role"] = "TANK",
+					["time"] = 1,
+					["interrupts"] = 0,
+					["ffdamagedonetargets"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["damage"] = 107116,
+					["damagespells"] = {
+						["Moonfire"] = {
+							["criticalamount"] = 107116,
+							["id"] = 164812,
+							["min"] = 107116,
+							["criticalmax"] = 107116,
+							["critical"] = 1,
+							["criticalmin"] = 107116,
+							["school"] = 64,
+							["max"] = 107116,
+							["totalhits"] = 1,
+							["damage"] = 107116,
+						},
+					},
+					["ffdamagedone"] = 0,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-60-0A6E12EE",
+					["first"] = 1603394546,
+					["damagetaken"] = 0,
+					["damagetakenspells"] = {
+					},
+					["maxhp"] = 12757,
+					["overhealing"] = 0,
+					["name"] = "Samoansavage",
+					["healingspells"] = {
+					},
+					["shielding"] = 0,
+					["healing"] = 0,
+					["auras"] = {
+						["Relic of the Makers"] = {
+							["school"] = 1,
+							["name"] = "Relic of the Makers",
+							["active"] = 0,
+							["id"] = 268520,
+							["auratype"] = "BUFF",
+							["uptime"] = 8,
+						},
+					},
+					["ccbreaks"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Kobold Tunneler"] = {
+					["players"] = {
+						["Samoansavage"] = {
+							["taken"] = 107116,
+							["done"] = 0,
+							["role"] = "TANK",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 107116,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 107116,
+			["ffdamagedone"] = 0,
+			["healing"] = 0,
+			["damagetaken"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["starttime"] = 1603394546,
+			["name"] = "Kobold Tunneler (2)",
+			["mobname"] = "Kobold Tunneler",
+			["power"] = {
+			},
+			["mobhdone"] = 0,
+			["last_action"] = 1603394546,
+			["mobdone"] = 0,
+		}, -- [10]
 	},
 	["total"] = {
 		["healingabsorbed"] = 0,
 		["auras"] = {
 		},
 		["ccbreaks"] = 0,
-		["time"] = 16,
+		["time"] = 145,
 		["interrupts"] = 0,
-		["damage"] = 7655061,
+		["damage"] = 8861561,
 		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Relic of the Makers"] = {
+						["started"] = 1603394197,
+						["name"] = "Relic of the Makers",
+						["active"] = 11,
+						["id"] = 268520,
+						["uptime"] = 15,
+						["school"] = 1,
+						["auratype"] = "BUFF",
+					},
+					["Gore"] = {
+						["started"] = 1603393500,
+						["name"] = "Gore",
+						["active"] = 10,
+						["school"] = 1,
+						["uptime"] = 28,
+						["auratype"] = "BUFF",
+						["id"] = 93622,
+					},
+					["Bear Form"] = {
+						["school"] = 1,
+						["name"] = "Bear Form",
+						["active"] = 2,
+						["id"] = 5487,
+						["started"] = 1603394982,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["Champion of Azeroth"] = {
+						["started"] = 1603393475,
+						["uptime"] = 0,
+						["name"] = "Champion of Azeroth",
+						["active"] = 4,
+						["school"] = 1,
+						["auratype"] = "BUFF",
+						["id"] = 280713,
+					},
+					["Exposure"] = {
+						["id"] = 268547,
+						["uptime"] = 26,
+						["started"] = 1603393486,
+						["auratype"] = "BUFF",
+						["name"] = "Exposure",
+						["school"] = 1,
+						["active"] = 14,
+					},
+				},
+				["ffdamagedone"] = 0,
+				["overhealing"] = 0,
+				["interrupts"] = 0,
+				["class"] = "DRUID",
+				["dispells"] = 0,
+				["damage"] = 8861561,
+				["damagespells"] = {
+					["Moonfire"] = {
+						["hitmin"] = 43765,
+						["criticalamount"] = 3977850,
+						["id"] = 164812,
+						["damage"] = 8593666,
+						["totalhits"] = 132,
+						["max"] = 112810,
+						["min"] = 43765,
+						["criticalmax"] = 112810,
+						["hitmax"] = 58911,
+						["hit"] = 92,
+						["school"] = 64,
+						["critical"] = 40,
+						["criticalmin"] = 88330,
+						["hitamount"] = 4615816,
+					},
+					["Attack"] = {
+						["hitmin"] = 86062,
+						["id"] = 6603,
+						["min"] = 86062,
+						["hitamount"] = 267895,
+						["hitmax"] = 95695,
+						["hit"] = 3,
+						["school"] = 1,
+						["max"] = 95695,
+						["totalhits"] = 3,
+						["damage"] = 267895,
+					},
+				},
+				["role"] = "TANK",
+				["damagetaken"] = 0,
+				["shielding"] = 0,
+				["id"] = "Player-60-0A6E12EE",
+				["maxhp"] = 12740,
+				["time"] = 139,
+				["damagetakenspells"] = {
+				},
+				["ccbreaks"] = 0,
+				["healed"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["deathlog"] = {
+				},
+				["healing"] = 0,
+				["healingspells"] = {
+				},
+				["name"] = "Samoansavage",
+				["power"] = {
+					{
+						["amount"] = 75,
+						["spells"] = {
+							[17057] = 75,
+						},
+					}, -- [1]
+				},
+			}, -- [1]
 			{
 				["healingabsorbed"] = 0,
 				["class"] = "DRUID",
 				["damaged"] = {
 				},
 				["dispells"] = 0,
-				["role"] = "TANK",
-				["time"] = 32,
-				["interrupts"] = 0,
-				["ffdamagedonetargets"] = {
-				},
-				["ffdamagedonespells"] = {
-				},
-				["ffdamagedone"] = 0,
-				["damage"] = 7654131,
-				["damagespells"] = {
-					["Swipe"] = {
-						["hitmin"] = 113016,
-						["criticalamount"] = 1968816,
-						["id"] = 213771,
-						["criticalmin"] = 227040,
-						["hitamount"] = 1926922,
-						["critical"] = 8,
-						["min"] = 113016,
-						["criticalmax"] = 260762,
-						["hitmax"] = 130383,
-						["hit"] = 16,
-						["school"] = 1,
-						["max"] = 260762,
-						["totalhits"] = 24,
-						["damage"] = 3895738,
-					},
-					["Mangle"] = {
-						["hitmin"] = 165524,
-						["id"] = 33917,
-						["min"] = 165524,
-						["hitamount"] = 334623,
-						["hitmax"] = 169099,
-						["hit"] = 2,
-						["school"] = 1,
-						["max"] = 169099,
-						["totalhits"] = 2,
-						["damage"] = 334623,
-					},
-					["Thrash"] = {
-						["hitmin"] = 133766,
-						["criticalamount"] = 1087295,
-						["id"] = 77758,
-						["criticalmin"] = 266339,
-						["hitamount"] = 696268,
-						["critical"] = 4,
-						["min"] = 133766,
-						["criticalmax"] = 284591,
-						["hitmax"] = 142298,
-						["hit"] = 5,
-						["school"] = 1,
-						["max"] = 284591,
-						["totalhits"] = 9,
-						["damage"] = 1783563,
-					},
-					["Moonfire"] = {
-						["hitmin"] = 33803,
-						["criticalamount"] = 67601,
-						["id"] = 164812,
-						["hitmax"] = 33803,
-						["hitamount"] = 33803,
-						["criticalmin"] = 67601,
-						["min"] = 33803,
-						["criticalmax"] = 67601,
-						["critical"] = 1,
-						["hit"] = 1,
-						["school"] = 64,
-						["max"] = 67601,
-						["totalhits"] = 2,
-						["damage"] = 101404,
-					},
-					["Attack"] = {
-						["hitmin"] = 134139,
-						["criticalamount"] = 850744,
-						["id"] = 6603,
-						["criticalmin"] = 271921,
-						["hitamount"] = 688059,
-						["critical"] = 3,
-						["min"] = 134139,
-						["criticalmax"] = 298615,
-						["hitmax"] = 144995,
-						["hit"] = 5,
-						["school"] = 1,
-						["max"] = 298615,
-						["totalhits"] = 8,
-						["damage"] = 1538803,
-					},
-				},
-				["maxhp"] = 75330,
-				["healed"] = {
-					["Player-162-0A0112EF"] = {
-						["role"] = "DAMAGER",
-						["name"] = "Samoanhunter-EmeraldDream",
-						["amount"] = 638,
-						["class"] = "HUNTER",
-						["shielding"] = 0,
-					},
-					["Player-162-0A01D00D"] = {
-						["role"] = "DAMAGER",
-						["name"] = "Tygrrlilly-EmeraldDream",
-						["amount"] = 2357,
-						["class"] = "HUNTER",
-						["shielding"] = 0,
-					},
-				},
-				["power"] = {
-					{
-						["amount"] = 75,
-						["spells"] = {
-							[77758] = 55,
-							[33917] = 20,
-						},
-					}, -- [1]
-				},
-				["id"] = "Player-60-0A6E12EE",
-				["damagetaken"] = 0,
-				["damagetakenspells"] = {
-				},
-				["deathlog"] = {
-				},
-				["overhealing"] = 946,
-				["name"] = "Samoansavage",
-				["healingspells"] = {
-					["Ysera's Gift"] = {
-						["shielding"] = 0,
-						["id"] = 145110,
-						["healing"] = 2995,
-						["min"] = 75,
-						["name"] = "Ysera's Gift",
-						["max"] = 563,
-						["critical"] = 0,
-						["absorbed"] = 0,
-						["overhealing"] = 946,
-						["hits"] = 7,
-					},
-				},
-				["shielding"] = 0,
-				["healing"] = 2995,
-				["auras"] = {
-					["Champion of Azeroth"] = {
-						["school"] = 1,
-						["name"] = "Champion of Azeroth",
-						["active"] = 2,
-						["id"] = 280713,
-						["started"] = 1545105749,
-						["auratype"] = "BUFF",
-						["uptime"] = 0,
-					},
-					["Gore"] = {
-						["school"] = 1,
-						["name"] = "Gore",
-						["active"] = 5,
-						["id"] = 93622,
-						["started"] = 1545105749,
-						["auratype"] = "BUFF",
-						["uptime"] = 0,
-					},
-					["Relic of the Makers"] = {
-						["school"] = 1,
-						["name"] = "Relic of the Makers",
-						["active"] = 2,
-						["id"] = 268520,
-						["started"] = 1545106141,
-						["auratype"] = "BUFF",
-						["uptime"] = 0,
-					},
-					["Thrash"] = {
-						["uptime"] = 0,
-						["active"] = 0,
-						["auratype"] = "DEBUFF",
-						["school"] = 1,
-						["name"] = "Thrash",
-						["id"] = 192090,
-					},
-					["Exposure"] = {
-						["school"] = 1,
-						["name"] = "Exposure",
-						["active"] = 3,
-						["id"] = 268547,
-						["started"] = 1545105746,
-						["auratype"] = "BUFF",
-						["uptime"] = 0,
-					},
-				},
-				["ccbreaks"] = 0,
-			}, -- [1]
-			{
-				["healingabsorbed"] = 0,
-				["class"] = "HUNTER",
-				["damaged"] = {
-				},
-				["dispells"] = 0,
 				["role"] = "DAMAGER",
-				["time"] = 18,
+				["time"] = 11,
 				["interrupts"] = 0,
 				["ffdamagedonetargets"] = {
 				},
 				["ffdamagedonespells"] = {
 				},
 				["ffdamagedone"] = 0,
-				["damage"] = 628,
+				["damage"] = 0,
 				["damagespells"] = {
-					["Auto Shot"] = {
-						["criticalamount"] = 410,
-						["id"] = 75,
-						["min"] = 410,
-						["criticalmax"] = 410,
-						["critical"] = 1,
-						["criticalmin"] = 410,
-						["school"] = 1,
-						["max"] = 410,
-						["totalhits"] = 1,
-						["damage"] = 410,
-					},
-					["Cobra Shot"] = {
-						["criticalamount"] = 218,
-						["id"] = 193455,
-						["min"] = 218,
-						["criticalmax"] = 218,
-						["critical"] = 1,
-						["criticalmin"] = 218,
-						["school"] = 1,
-						["max"] = 218,
-						["totalhits"] = 1,
-						["damage"] = 218,
-					},
 				},
-				["maxhp"] = 792,
+				["maxhp"] = 308,
 				["healed"] = {
-					["Player-162-0A01D00D"] = {
-						["role"] = "DAMAGER",
-						["name"] = "Tygrrlilly-EmeraldDream",
-						["amount"] = 11,
-						["class"] = "HUNTER",
-						["shielding"] = 0,
-					},
 				},
 				["power"] = {
 				},
-				["id"] = "Player-162-0A01D00D",
-				["damagetaken"] = 4528,
+				["id"] = "Player-162-0A019C24",
+				["damagetaken"] = 1839,
 				["damagetakenspells"] = {
-					["Shoot"] = {
-						["crushing"] = 0,
-						["id"] = 15547,
-						["min"] = 180,
-						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Shoot",
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["max"] = 180,
-						["damage"] = 180,
-					},
-					["Rock Shards"] = {
-						["crushing"] = 0,
-						["id"] = 86771,
-						["min"] = 111,
-						["school"] = 8,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Rock Shards",
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["max"] = 111,
-						["damage"] = 111,
-					},
-					["Lightning Bolt"] = {
-						["crushing"] = 0,
-						["id"] = 12167,
-						["min"] = 366,
-						["school"] = 8,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Lightning Bolt",
-						["blocked"] = 0,
-						["totalhits"] = 3,
-						["resisted"] = 0,
-						["max"] = 393,
-						["damage"] = 1141,
-					},
 					["Attack"] = {
-						["crushing"] = 2,
+						["crushing"] = 0,
 						["id"] = 6603,
-						["min"] = 132,
+						["min"] = 85,
 						["school"] = 1,
-						["critical"] = 0,
+						["critical"] = 1,
 						["glancing"] = 0,
 						["absorbed"] = 0,
 						["name"] = "Attack",
 						["blocked"] = 0,
-						["totalhits"] = 6,
+						["totalhits"] = 17,
 						["resisted"] = 0,
-						["max"] = 829,
-						["damage"] = 3096,
+						["max"] = 207,
+						["damage"] = 1839,
 					},
 				},
 				["deathlog"] = {
 					{
-						["absorb"] = 0,
-						["hp"] = 769,
-						["amount"] = 11,
-						["ts"] = 1545106250.247,
-						["spellid"] = 143924,
-						["srcname"] = "Tygrrlilly-EmeraldDream",
+						["ts"] = 1603396475.291,
+						["amount"] = -85,
+						["hp"] = 143,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [1]
 					{
-						["ts"] = 1545106320.914,
-						["amount"] = -132,
-						["hp"] = 792,
+						["ts"] = 1603396476.658,
+						["amount"] = -109,
+						["hp"] = 136,
 						["spellid"] = 88163,
-						["srcname"] = "Petty Criminal",
+						["srcname"] = "Murloc",
 					}, -- [2]
 					{
-						["ts"] = 1545105786.772,
-						["amount"] = -393,
-						["hp"] = 703,
+						["ts"] = 1603394578.641,
+						["amount"] = -121,
+						["hp"] = 308,
 						["spellid"] = 88163,
-						["srcname"] = "Rowdy Troublemaker",
+						["srcname"] = "Kobold Miner",
 					}, -- [3]
 					{
-						["absorb"] = 0,
-						["amount"] = 209,
-						["hp"] = 792,
-						["ts"] = 1545106088.211,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
+						["ts"] = 1603394581.745,
+						["amount"] = -104,
+						["hp"] = 301,
+						["spellid"] = 88163,
+						["srcname"] = "Kobold Miner",
 					}, -- [4]
 					{
-						["ts"] = 1545106089.587,
-						["amount"] = -111,
-						["hp"] = 771,
-						["spellid"] = 86771,
-						["srcname"] = "Rumbling Earth",
+						["ts"] = 1603396403.835,
+						["amount"] = -109,
+						["hp"] = 333,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [5]
 					{
-						["ts"] = 1545106191.473,
-						["amount"] = -823,
-						["hp"] = 792,
+						["ts"] = 1603396404.09,
+						["amount"] = -97,
+						["hp"] = 324,
 						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Basher",
+						["srcname"] = "Murloc",
 					}, -- [6]
 					{
-						["absorb"] = 0,
-						["amount"] = 563,
-						["hp"] = 750,
-						["ts"] = 1545106193.198,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
+						["ts"] = 1603396404.618,
+						["amount"] = -97,
+						["hp"] = 316,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [7]
 					{
-						["ts"] = 1545106194.01,
-						["amount"] = -446,
-						["hp"] = 750,
+						["ts"] = 1603396404.896,
+						["amount"] = -109,
+						["hp"] = 308,
 						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Basher",
+						["srcname"] = "Murloc",
 					}, -- [8]
 					{
-						["ts"] = 1545106194.859,
-						["amount"] = -366,
-						["hp"] = 597,
-						["spellid"] = 12167,
-						["srcname"] = "Riverpaw Shaman",
+						["ts"] = 1603396406.114,
+						["amount"] = -97,
+						["hp"] = 299,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [9]
 					{
-						["ts"] = 1545106196.231,
-						["amount"] = -829,
-						["hp"] = 597,
+						["ts"] = 1603396406.525,
+						["amount"] = -85,
+						["hp"] = 291,
 						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Basher",
+						["srcname"] = "Murloc",
 					}, -- [10]
 					{
-						["absorb"] = 0,
-						["amount"] = 563,
-						["hp"] = 554,
-						["ts"] = 1545106198.179,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
+						["ts"] = 1603396408.621,
+						["amount"] = -85,
+						["hp"] = 284,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [11]
 					{
-						["ts"] = 1545106199.478,
-						["amount"] = -382,
-						["hp"] = 482,
-						["spellid"] = 12167,
-						["srcname"] = "Riverpaw Shaman",
+						["ts"] = 1603396421.18,
+						["amount"] = -122,
+						["hp"] = 344,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [12]
 					{
-						["ts"] = 1545106203.163,
-						["amount"] = -393,
-						["hp"] = 408,
-						["spellid"] = 12167,
-						["srcname"] = "Riverpaw Shaman",
+						["ts"] = 1603396431.077,
+						["amount"] = -207,
+						["hp"] = 371,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [13]
 					{
-						["absorb"] = 0,
-						["amount"] = 563,
-						["hp"] = 521,
-						["ts"] = 1545106203.195,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
+						["ts"] = 1603396474.707,
+						["amount"] = -85,
+						["hp"] = 157,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc",
 					}, -- [14]
 					{
-						["ts"] = 1545106250.161,
-						["amount"] = -180,
-						["hp"] = 758,
-						["spellid"] = 15547,
-						["srcname"] = "Riverpaw Poacher",
+						["ts"] = 1603396475.123,
+						["amount"] = -85,
+						["hp"] = 150,
+						["spellid"] = 88163,
+						["srcname"] = "Murloc Streamrunner",
 					}, -- [15]
 					["pos"] = 3,
 				},
 				["overhealing"] = 0,
-				["name"] = "Tygrrlilly",
-				["healingspells"] = {
-					["Leech"] = {
-						["shielding"] = 0,
-						["id"] = 143924,
-						["healing"] = 11,
-						["min"] = 11,
-						["name"] = "Leech",
-						["max"] = 11,
-						["critical"] = 0,
-						["absorbed"] = 0,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["shielding"] = 0,
-				["healing"] = 11,
-				["auras"] = {
-				},
-				["ccbreaks"] = 0,
-			}, -- [2]
-			{
-				["healingabsorbed"] = 0,
-				["class"] = "HUNTER",
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "DAMAGER",
-				["time"] = 1,
-				["interrupts"] = 0,
-				["ffdamagedonetargets"] = {
-				},
-				["ffdamagedonespells"] = {
-				},
-				["ffdamagedone"] = 0,
-				["damage"] = 302,
-				["damagespells"] = {
-					["Auto Shot"] = {
-						["hitmin"] = 198,
-						["id"] = 75,
-						["min"] = 198,
-						["hitamount"] = 198,
-						["hitmax"] = 198,
-						["hit"] = 1,
-						["school"] = 1,
-						["max"] = 198,
-						["totalhits"] = 1,
-						["damage"] = 198,
-					},
-					["Cobra Shot"] = {
-						["DODGE"] = 1,
-						["hitmin"] = 104,
-						["id"] = 193455,
-						["min"] = 104,
-						["hitamount"] = 104,
-						["hitmax"] = 104,
-						["hit"] = 1,
-						["school"] = 1,
-						["max"] = 104,
-						["totalhits"] = 2,
-						["damage"] = 104,
-					},
-				},
-				["maxhp"] = 738,
-				["healed"] = {
-				},
-				["power"] = {
-				},
-				["id"] = "Player-162-0A0112EF",
-				["damagetaken"] = 4227,
-				["damagetakenspells"] = {
-					["Rock Shards"] = {
-						["crushing"] = 0,
-						["id"] = 86771,
-						["min"] = 127,
-						["school"] = 8,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Rock Shards",
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["max"] = 127,
-						["damage"] = 127,
-					},
-					["Deadly Poison"] = {
-						["crushing"] = 0,
-						["id"] = 3583,
-						["min"] = 90,
-						["school"] = 8,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Deadly Poison",
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["max"] = 90,
-						["damage"] = 90,
-					},
-					["Attack"] = {
-						["crushing"] = 5,
-						["id"] = 6603,
-						["min"] = 377,
-						["school"] = 1,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-						["name"] = "Attack",
-						["blocked"] = 0,
-						["totalhits"] = 7,
-						["resisted"] = 0,
-						["max"] = 797,
-						["damage"] = 4010,
-					},
-				},
-				["deathlog"] = {
-					{
-						["absorb"] = 0,
-						["amount"] = 563,
-						["hp"] = 486,
-						["ts"] = 1545106003.185,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
-					}, -- [1]
-					{
-						["ts"] = 1545106003.22,
-						["amount"] = -653,
-						["hp"] = 486,
-						["spellid"] = 88163,
-						["srcname"] = "Shifty Thief",
-					}, -- [2]
-					{
-						["ts"] = 1545106003.22,
-						["amount"] = -393,
-						["hp"] = 486,
-						["spellid"] = 88163,
-						["srcname"] = "Vicious Thug",
-					}, -- [3]
-					{
-						["ts"] = 1545106003.22,
-						["amount"] = -797,
-						["hp"] = 486,
-						["spellid"] = 88163,
-						["srcname"] = "Rowdy Troublemaker",
-					}, -- [4]
-					{
-						["ts"] = 1545106003.703,
-						["amount"] = -377,
-						["hp"] = 139,
-						["spellid"] = 88163,
-						["srcname"] = "Shifty Thief",
-					}, -- [5]
-					{
-						["ts"] = 1545106004.722,
-						["amount"] = -90,
-						["hp"] = 51,
-						["spellid"] = 3583,
-						["srcname"] = "Shifty Thief",
-					}, -- [6]
-					{
-						["ts"] = 1545106089.587,
-						["amount"] = -127,
-						["hp"] = 714,
-						["spellid"] = 86771,
-						["srcname"] = "Rumbling Earth",
-					}, -- [7]
-					{
-						["absorb"] = 0,
-						["amount"] = 75,
-						["hp"] = 738,
-						["ts"] = 1545106093.19,
-						["spellid"] = 145110,
-						["srcname"] = "Samoansavage",
-					}, -- [8]
-					{
-						["ts"] = 1545106192.573,
-						["amount"] = -606,
-						["hp"] = 738,
-						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Basher",
-					}, -- [9]
-					{
-						["ts"] = 1545106192.573,
-						["amount"] = -754,
-						["hp"] = 738,
-						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Slayer",
-					}, -- [10]
-					{
-						["ts"] = 1545106193.101,
-						["amount"] = -430,
-						["hp"] = 482,
-						["spellid"] = 88163,
-						["srcname"] = "Riverpaw Looter",
-					}, -- [11]
-					["pos"] = 12,
-				},
-				["overhealing"] = 0,
-				["name"] = "Samoanhunter",
+				["name"] = "Grapejellie",
 				["healingspells"] = {
 				},
 				["shielding"] = 0,
 				["healing"] = 0,
 				["auras"] = {
+					["Spray Water"] = {
+						["school"] = 1,
+						["name"] = "Spray Water",
+						["active"] = 1,
+						["id"] = 80199,
+						["started"] = 1603393614,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
 				},
 				["ccbreaks"] = 0,
-			}, -- [3]
+			}, -- [2]
 		},
 		["deaths"] = 0,
 		["mobs"] = {
-			["Petty Criminal"] = {
+			["Blackrock Invader"] = {
 				["players"] = {
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 132,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
 					["Samoansavage"] = {
-						["taken"] = 1358289,
+						["taken"] = 1415239,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1060,34 +1732,16 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 1358289,
-				["done"] = 132,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Hogger"] = {
-				["players"] = {
-					["Samoansavage"] = {
-						["taken"] = 259081,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 259081,
+				["taken"] = 1415239,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Lord Overheat"] = {
+			["Riverpaw Gnoll"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 120894,
+						["taken"] = 249935,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1096,22 +1750,22 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 120894,
+				["taken"] = 249935,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Riverpaw Slayer"] = {
+			["Kobold Tunneler"] = {
 				["players"] = {
-					["Samoanhunter-EmeraldDream"] = {
+					["Grapejellie-EmeraldDream"] = {
 						["taken"] = 0,
-						["done"] = 754,
+						["done"] = 242,
 						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
+						["class"] = "DRUID",
 					},
 					["Samoansavage"] = {
-						["taken"] = 651066,
+						["taken"] = 764671,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1120,52 +1774,16 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 651066,
-				["done"] = 754,
+				["taken"] = 764671,
+				["done"] = 242,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Riverpaw Shaman"] = {
+			["West Plains Drifter"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 578777,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 1141,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 302,
-						["done"] = 0,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 579079,
-				["done"] = 1141,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Riverpaw Looter"] = {
-				["players"] = {
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 430,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoansavage"] = {
-						["taken"] = 661804,
+						["taken"] = 198449,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1174,148 +1792,34 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 661804,
-				["done"] = 430,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Shifty Thief"] = {
-				["players"] = {
-					["Samoansavage"] = {
-						["taken"] = 113016,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 1120,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 113016,
-				["done"] = 1120,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Searing Destroyer"] = {
-				["players"] = {
-					["Samoansavage"] = {
-						["taken"] = 476683,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 476683,
+				["taken"] = 198449,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Rumbling Earth"] = {
+			["Goblin Assassin"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 960111,
+						["taken"] = 341176,
 						["done"] = 0,
-						["role"] = "TANK",
 						["class"] = "DRUID",
-					},
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 111,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 127,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
+						["role"] = "TANK",
 					},
 				},
 				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 960111,
-				["done"] = 238,
-				["htaken"] = 0,
 				["hdonespell"] = {
 				},
-			},
-			["Riverpaw Basher"] = {
-				["players"] = {
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 2098,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoansavage"] = {
-						["taken"] = 457483,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 606,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
+				["taken"] = 341176,
 				["htakenspell"] = {
 				},
-				["taken"] = 457483,
-				["done"] = 2704,
 				["htaken"] = 0,
-				["hdonespell"] = {
-				},
+				["done"] = 0,
 			},
-			["Vicious Thug"] = {
+			["Murloc Raider"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 113016,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 393,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 113016,
-				["done"] = 393,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Riverpaw Poacher"] = {
-				["players"] = {
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 628,
-						["done"] = 180,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoansavage"] = {
-						["taken"] = 475050,
+						["taken"] = 146037,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1324,34 +1828,16 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 475678,
-				["done"] = 180,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Randolph Moloch"] = {
-				["players"] = {
-					["Samoansavage"] = {
-						["taken"] = 266342,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 266342,
+				["taken"] = 146037,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Slag Fury"] = {
+			["Thug"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 493379,
+						["taken"] = 280067,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1360,46 +1846,16 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 493379,
+				["taken"] = 280067,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
 			},
-			["Rowdy Troublemaker"] = {
+			["Kobold Digger"] = {
 				["players"] = {
 					["Samoansavage"] = {
-						["taken"] = 390094,
-						["done"] = 0,
-						["role"] = "TANK",
-						["class"] = "DRUID",
-					},
-					["Tygrrlilly-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 866,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-					["Samoanhunter-EmeraldDream"] = {
-						["taken"] = 0,
-						["done"] = 797,
-						["role"] = "DAMAGER",
-						["class"] = "HUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 390094,
-				["done"] = 1663,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Enraged Fire Elemental"] = {
-				["players"] = {
-					["Samoansavage"] = {
-						["taken"] = 279046,
+						["taken"] = 678610,
 						["done"] = 0,
 						["role"] = "TANK",
 						["class"] = "DRUID",
@@ -1408,27 +1864,373 @@ SkadaPerCharDB = {
 				["hdone"] = 0,
 				["htakenspell"] = {
 				},
-				["taken"] = 279046,
+				["taken"] = 678610,
 				["done"] = 0,
 				["htaken"] = 0,
 				["hdonespell"] = {
 				},
+			},
+			["Goldtooth"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 95417,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 95417,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Murloc Streamrunner"] = {
+				["players"] = {
+					["Grapejellie-EmeraldDream"] = {
+						["taken"] = 0,
+						["done"] = 85,
+						["role"] = "DAMAGER",
+						["class"] = "DRUID",
+					},
+					["Samoansavage"] = {
+						["taken"] = 96967,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 96967,
+				["done"] = 85,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Blackrock Spy"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 288774,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "TANK",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 288774,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Sand Crawler"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 48588,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 48588,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Vultros"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 48739,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 48739,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Harvest Watcher"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 298139,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 298139,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Homeless Stormwind Citizen"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 243150,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 243150,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Murloc"] = {
+				["players"] = {
+					["Grapejellie-EmeraldDream"] = {
+						["taken"] = 0,
+						["done"] = 1287,
+						["role"] = "DAMAGER",
+						["class"] = "DRUID",
+					},
+					["Samoansavage"] = {
+						["taken"] = 1655439,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1655439,
+				["done"] = 1287,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Stormwind Infantry"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Renew"] = {
+						["min"] = 32,
+						["crits"] = 0,
+						["max"] = 32,
+						["healing"] = 128,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+				["htaken"] = 128,
+				["done"] = 0,
+			},
+			["Young Goretusk"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 47818,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 47818,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Riverpaw Scout"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 111025,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 111025,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Brother Paxton"] = {
+				["players"] = {
+				},
+				["hdone"] = 128,
+				["hdonespell"] = {
+					["Renew"] = {
+						["min"] = 32,
+						["crits"] = 0,
+						["max"] = 32,
+						["healing"] = 128,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Murloc Coastrunner"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 96478,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 96478,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Murloc Minor Oracle"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 96972,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 96972,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kobold Miner"] = {
+				["players"] = {
+					["Grapejellie-EmeraldDream"] = {
+						["taken"] = 0,
+						["done"] = 225,
+						["role"] = "DAMAGER",
+						["class"] = "DRUID",
+					},
+					["Samoansavage"] = {
+						["taken"] = 491409,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 491409,
+				["done"] = 225,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Rockhide Boar"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 102117,
+						["done"] = 0,
+						["role"] = "TANK",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 102117,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Blackrock Worg"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 1017590,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "TANK",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1017590,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Deer"] = {
+				["players"] = {
+					["Samoansavage"] = {
+						["taken"] = 48755,
+						["done"] = 0,
+						["class"] = "DRUID",
+						["role"] = "TANK",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 48755,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
 			},
 		},
-		["mobtaken"] = 7655061,
+		["mobtaken"] = 8861561,
 		["ffdamagedone"] = 0,
-		["healing"] = 3006,
-		["damagetaken"] = 8755,
-		["overhealing"] = 946,
+		["healing"] = 0,
+		["damagetaken"] = 1839,
+		["overhealing"] = 0,
 		["power"] = {
 			75, -- [1]
 		},
 		["dispells"] = 0,
 		["name"] = "Total",
-		["starttime"] = 1544947267,
+		["starttime"] = 1603392719,
 		["shielding"] = 0,
-		["mobhdone"] = 0,
-		["last_action"] = 1544947267,
-		["mobdone"] = 8755,
+		["mobhdone"] = 128,
+		["last_action"] = 1603392719,
+		["mobdone"] = 1839,
 	},
 }

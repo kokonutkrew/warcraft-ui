@@ -1,20 +1,39 @@
 
 CoreProfileDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+	},
 	["global"] = {
 		["showStartupMessage2000"] = false,
-	},
-	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["showStartupMessage3000"] = false,
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
 			},
@@ -27,7 +46,16 @@ CoreProfileDB = {
 		["Samoanlock - Emerald Dream"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
 			},
+		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoantank - Tichondrius"] = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
@@ -36,61 +64,112 @@ CoreProfileDB = {
 				["showStartupMessage2000"] = false,
 			},
 		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
-		},
-		["Samoantitan - Stormrage"] = {
+		["Samoanhunter - Emerald Dream"] = {
 			["global"] = {
 				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
+			},
+		},
+		["Buhbles - Emerald Dream"] = {
+			["global"] = {
+				["showStartupMessage2000"] = false,
+				["showStartupMessage3000"] = false,
 			},
 		},
 	},
 }
 CommunicationsProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Stronguard - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
 		},
 		["KokonutKrew"] = {
 		},
 		["Samoanlock - Emerald Dream"] = {
 		},
+		["Royders - Emerald Dream"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+		},
+		["Samoanwar - Emerald Dream"] = {
+		},
+		["Dethwish - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
 		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 		},
 	},
 }
 TeamProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
@@ -108,14 +187,138 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["KokonutKrew"] = {
+		["Stronguard - Emerald Dream"] = {
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Kokonutkiing-EmeraldDream",
 			["global"] = {
 			},
 			["inviteAcceptGuild"] = true,
+			["inviteAcceptFriends"] = true,
 			["masterChangeClickToMove"] = true,
+			["inviteSetAllAssistant"] = true,
+			["newTeamList"] = {
+				["Mercis-EmeraldDream"] = {
+					{
+						["order"] = 5,
+						["class"] = "DRUID",
+						["name"] = "Mercis-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					{
+						["order"] = 3,
+						["class"] = "ROGUE",
+						["name"] = "Cherriebomb-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoantitan-Stormrage"] = {
+					{
+						["order"] = 6,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantitan-Stormrage",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					{
+						["order"] = 7,
+						["class"] = "DRUID",
+						["name"] = "Grapejellie-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					{
+						["order"] = 4,
+						["class"] = "ROGUE",
+						["name"] = "Aeredyl-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Stronguard-EmeraldDream"] = {
+					{
+						["order"] = 9,
+						["class"] = "PALADIN",
+						["name"] = "Stronguard-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					{
+						["order"] = 2,
+						["class"] = "ROGUE",
+						["name"] = "Samoanrouge-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					{
+						["order"] = 10,
+						["class"] = "WARLOCK",
+						["name"] = "Kokonutkiing-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "WARRIOR",
+						["name"] = "Samoanslayer-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					{
+						["order"] = 12,
+						["class"] = "PRIEST",
+						["name"] = "Samoanrelic-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					{
+						["order"] = 8,
+						["class"] = "WARLOCK",
+						["name"] = "Herbcraft-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Zaranti-EmeraldDream"] = {
+					{
+						["order"] = 11,
+						["class"] = "WARLOCK",
+						["name"] = "Zaranti-EmeraldDream",
+						["online"] = false,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoantitan - Stormrage"] = {
+			["master"] = "Samoantitan-Stormrage",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoantitan-Stormrage"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoantitan-Stormrage",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["KokonutKrew"] = {
 			["masterChangePromoteLeader"] = true,
 			["master"] = "Samoanslayer-EmeraldDream",
+			["global"] = {
+			},
+			["inviteAcceptGuild"] = true,
 			["inviteAcceptFriends"] = true,
+			["masterChangeClickToMove"] = true,
+			["inviteSetAllAssistant"] = true,
 			["newTeamList"] = {
 				["Mercis-EmeraldDream"] = {
 					{
@@ -158,7 +361,6 @@ TeamProfileDB = {
 					}, -- [1]
 				},
 			},
-			["inviteSetAllAssistant"] = true,
 		},
 		["Samoanlock - Emerald Dream"] = {
 			["master"] = "Samoanlock-EmeraldDream",
@@ -175,71 +377,22 @@ TeamProfileDB = {
 				},
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
-			["master"] = "Samoansavage-Tichondrius",
-			["newTeamList"] = {
-				["Samoansavage-Tichondrius"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoansavage-Tichondrius",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Samoanrouge - Emerald Dream"] = {
-			["master"] = "Samoanrouge-EmeraldDream",
+		["Royders - Emerald Dream"] = {
+			["master"] = "Royders-EmeraldDream",
 			["global"] = {
 			},
 			["newTeamList"] = {
-				["Samoanrouge-EmeraldDream"] = {
+				["Royders-EmeraldDream"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoanrouge-EmeraldDream",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["master"] = "Samoanranger-EmeraldDream",
-			["newTeamList"] = {
-				["Samoanranger-EmeraldDream"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoanranger-EmeraldDream",
-						["online"] = true,
-					}, -- [1]
-				},
-			},
-		},
-		["Gfsdfgsd - Tichondrius"] = {
-			["masterChangePromoteLeader"] = true,
-			["master"] = "Gfsdfgsd-Tichondrius",
-			["newTeamList"] = {
-				["Samoandruid-Tichondrius"] = {
-					{
-						["order"] = 2,
-						["class"] = "DRUID",
-						["name"] = "Samoandruid-Tichondrius",
-						["online"] = true,
-					}, -- [1]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Gfsdfgsd-Tichondrius",
+						["name"] = "Royders-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
 			},
 		},
 		["Samoantank - Tichondrius"] = {
-			["master"] = "Samoantank-Tichondrius",
 			["newTeamList"] = {
 				["Samoandrued-Tichondrius"] = {
 					{
@@ -265,14 +418,6 @@ TeamProfileDB = {
 						["online"] = false,
 					}, -- [1]
 				},
-				["Samoantank-Tichondrius"] = {
-					{
-						["order"] = 1,
-						["class"] = "UNKNOWN",
-						["name"] = "Samoantank-Tichondrius",
-						["online"] = true,
-					}, -- [1]
-				},
 				["Grapejellie-Tichondrius"] = {
 					{
 						["order"] = 5,
@@ -281,18 +426,150 @@ TeamProfileDB = {
 						["online"] = false,
 					}, -- [1]
 				},
-			},
-		},
-		["Samoantitan - Stormrage"] = {
-			["master"] = "Samoantitan-Stormrage",
-			["global"] = {
-			},
-			["newTeamList"] = {
-				["Samoantitan-Stormrage"] = {
+				["Samoantank-Tichondrius"] = {
 					{
 						["order"] = 1,
 						["class"] = "UNKNOWN",
-						["name"] = "Samoantitan-Stormrage",
+						["name"] = "Samoantank-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+			["master"] = "Samoantank-Tichondrius",
+		},
+		["Samoansavage - Tichondrius"] = {
+			["newTeamList"] = {
+				["Samoansavage-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoansavage-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+			["master"] = "Samoansavage-Tichondrius",
+		},
+		["Samoanrouge - Emerald Dream"] = {
+			["master"] = "Samoanrouge-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanrouge-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanrouge-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["master"] = "Samoanwar-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanwar-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanwar-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["master"] = "Dethwish-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Dethwish-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Dethwish-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+			["master"] = "Samoanbatman-EmeraldDream",
+			["newTeamList"] = {
+				["Samoanbatman-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanbatman-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["newTeamList"] = {
+				["Samoanranger-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanranger-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+			["master"] = "Samoanranger-EmeraldDream",
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["masterChangePromoteLeader"] = true,
+			["master"] = "Gfsdfgsd-Tichondrius",
+			["newTeamList"] = {
+				["Samoandruid-Tichondrius"] = {
+					{
+						["order"] = 2,
+						["class"] = "DRUID",
+						["name"] = "Samoandruid-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Gfsdfgsd-Tichondrius",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Samoanhunter - Emerald Dream"] = {
+			["master"] = "Samoanhunter-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Samoanhunter-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Samoanhunter-EmeraldDream",
+						["online"] = true,
+					}, -- [1]
+				},
+			},
+		},
+		["Buhbles - Emerald Dream"] = {
+			["master"] = "Buhbles-EmeraldDream",
+			["global"] = {
+			},
+			["newTeamList"] = {
+				["Buhbles-EmeraldDream"] = {
+					{
+						["order"] = 1,
+						["class"] = "UNKNOWN",
+						["name"] = "Buhbles-EmeraldDream",
 						["online"] = true,
 					}, -- [1]
 				},
@@ -302,14 +579,21 @@ TeamProfileDB = {
 }
 TagProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
@@ -321,6 +605,129 @@ TagProfileDB = {
 				["Samoantitan-Stormrage"] = {
 					"all", -- [1]
 					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["tagList"] = {
+				["Mercis-EmeraldDream"] = {
+					"all", -- [1]
+					"druid", -- [2]
+					"minion", -- [3]
+				},
+				["Cherriebomb-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Aeredyl-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Stronguard-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoanrouge-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"rogue", -- [3]
+				},
+				["Kokonutkiing-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoanslayer-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+					"warrior", -- [3]
+				},
+				["Samoanrelic-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Herbcraft-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Zaranti-EmeraldDream"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
+			["tagList"] = {
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantitan-Stormrage"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -418,6 +825,74 @@ TagProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["tagList"] = {
+				["Royders-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["tagList"] = {
+				["Samoandrued-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoandruid-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Gfsdfgsd-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Grapejellie-Tichondrius"] = {
+					"all", -- [1]
+					"minion", -- [2]
+				},
+				["Samoantank-Tichondrius"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+		},
 		["Samoansavage - Tichondrius"] = {
 			["tagList"] = {
 				["Samoansavage-Tichondrius"] = {
@@ -445,17 +920,98 @@ TagProfileDB = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoantitan-Stormrage"] = {
+				["Samoanrouge-EmeraldDream"] = {
 					"all", -- [1]
-					"master", -- [2]
+					"minion", -- [2]
 				},
 				["Samoanslayer-EmeraldDream"] = {
 					"all", -- [1]
 					"minion", -- [2]
 				},
-				["Samoanrouge-EmeraldDream"] = {
+				["Samoantitan-Stormrage"] = {
 					"all", -- [1]
-					"minion", -- [2]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanwar-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["tagList"] = {
+				["Dethwish-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
+				},
+			},
+			["groupList"] = {
+				"all", -- [1]
+				"deathknight", -- [2]
+				"demonhunter", -- [3]
+				"druid", -- [4]
+				"hunter", -- [5]
+				"mage", -- [6]
+				"master", -- [7]
+				"minion", -- [8]
+				"monk", -- [9]
+				"paladin", -- [10]
+				"priest", -- [11]
+				"rogue", -- [12]
+				"shaman", -- [13]
+				"warlock", -- [14]
+				"warrior", -- [15]
+			},
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["tagList"] = {
+				["Samoanbatman-EmeraldDream"] = {
+					"all", -- [1]
+					"master", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -536,27 +1092,11 @@ TagProfileDB = {
 				"warrior", -- [15]
 			},
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoandrued-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandruid-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoantank-Tichondrius"] = {
+				["Samoanhunter-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
-				},
-				["Grapejellie-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
 				},
 			},
 			["groupList"] = {
@@ -576,30 +1116,12 @@ TagProfileDB = {
 				"warlock", -- [14]
 				"warrior", -- [15]
 			},
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["tagList"] = {
-				["Samoantank-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandruid-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoantitan-Stormrage"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Grapejellie-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Samoandrued-Tichondrius"] = {
-					"all", -- [1]
-					"minion", -- [2]
-				},
-				["Gfsdfgsd-Tichondrius"] = {
+				["Buhbles-EmeraldDream"] = {
 					"all", -- [1]
 					"master", -- [2]
 				},
@@ -628,17 +1150,32 @@ TagProfileDB = {
 }
 MessageProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -650,9 +1187,27 @@ MessageProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -660,67 +1215,57 @@ MessageProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
 	},
 }
-CurrProfileDB = {
+InformationProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
-		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
-		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
-		["Samoanslayer - Emerald Dream"] = {
+		["Samoanwar - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
-			["currencyBackgroundStyle"] = "None",
+		["Stronguard - Emerald Dream"] = {
 			["global"] = {
 			},
-			["currencyFrameYOffset"] = 202.999313354492,
-			["currencyFramePoint"] = "BOTTOMRIGHT",
-			["currencyNameWidth"] = 68,
-			["currencyBorderStyle"] = "None",
-			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
-			["currGoldInGuildBank"] = true,
-			["currencyFrameXOffset"] = -127.99885559082,
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
 		["Samoanlock - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoanrouge - Emerald Dream"] = {
+		["Samoanhunter - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Gfsdfgsd - Tichondrius"] = {
-		},
-		["Samoantank - Tichondrius"] = {
-			["currencyBackgroundStyle"] = "None",
-			["currencyFrameYOffset"] = 202.999313354492,
-			["currencyFrameRelativePoint"] = "BOTTOMRIGHT",
-			["currencyFrameXOffset"] = -127.99885559082,
-			["currencyNameWidth"] = 68,
-			["currencyFramePoint"] = "BOTTOMRIGHT",
-			["currGoldInGuildBank"] = true,
-			["currencyBorderStyle"] = "None",
-		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -728,35 +1273,72 @@ CurrProfileDB = {
 }
 DisplayTeamProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
+		["Stronguard - Emerald Dream"] = {
 			["enableClique"] = true,
-			["showListTitle"] = false,
-			["teamListHorizontal"] = false,
-			["followStatusShowName"] = false,
 			["global"] = {
 			},
-			["followStatusWidth"] = 15,
+			["teamListHorizontal"] = false,
 			["teamListTitleHeight"] = 0,
 			["frameBackgroundColourA"] = 0,
+			["followStatusShowName"] = false,
+			["frameBorderColourA"] = 0,
+			["showListTitle"] = false,
+			["followStatusWidth"] = 15,
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["enableClique"] = true,
+			["global"] = {
+			},
+			["teamListHorizontal"] = false,
+			["teamListTitleHeight"] = 0,
+			["frameBackgroundColourA"] = 0,
+			["followStatusShowName"] = false,
+			["followStatusWidth"] = 15,
+			["showListTitle"] = false,
 			["frameBorderColourA"] = 0,
 		},
 		["Samoanlock - Emerald Dream"] = {
 			["global"] = {
 			},
+		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["enableClique"] = true,
+			["frameBorderColourA"] = 0,
+			["followStatusShowName"] = false,
+			["teamListTitleHeight"] = 0,
+			["followStatusWidth"] = 15,
+			["teamListHorizontal"] = false,
+			["showListTitle"] = false,
+			["frameBackgroundColourA"] = 0,
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
@@ -764,21 +1346,27 @@ DisplayTeamProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
-			["enableClique"] = true,
-			["frameBorderColourA"] = 0,
-			["followStatusShowName"] = false,
-			["showListTitle"] = false,
-			["teamListHorizontal"] = false,
-			["followStatusWidth"] = 15,
-			["teamListTitleHeight"] = 0,
-			["frameBackgroundColourA"] = 0,
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -786,17 +1374,33 @@ DisplayTeamProfileDB = {
 }
 FollowProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["autoFollowAfterCombat"] = true,
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -809,9 +1413,27 @@ FollowProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -819,9 +1441,11 @@ FollowProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -829,17 +1453,32 @@ FollowProfileDB = {
 }
 GuildProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -851,9 +1490,27 @@ GuildProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -861,9 +1518,11 @@ GuildProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -871,25 +1530,44 @@ GuildProfileDB = {
 }
 InteractionProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
+		["Stronguard - Emerald Dream"] = {
+			["changeTexiTime"] = 5,
 			["global"] = {
 			},
 			["dismountWithTeam"] = true,
+			["mountWithTeam"] = true,
+			["autoLoot"] = true,
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
 			["changeTexiTime"] = 5,
+			["global"] = {
+			},
+			["dismountWithTeam"] = true,
 			["autoLoot"] = true,
 			["mountWithTeam"] = true,
 		},
@@ -897,9 +1575,31 @@ InteractionProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+			["changeTexiTime"] = 5,
+			["dismountWithTeam"] = true,
+			["autoLoot"] = true,
+			["mountWithTeam"] = true,
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -908,13 +1608,11 @@ InteractionProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = {
 			["autoLoot"] = true,
 		},
-		["Samoantank - Tichondrius"] = {
-			["changeTexiTime"] = 5,
-			["dismountWithTeam"] = true,
-			["autoLoot"] = true,
-			["mountWithTeam"] = true,
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -922,20 +1620,24 @@ InteractionProfileDB = {
 }
 ItemUseProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
-			["itemUseTitleHeight"] = 2,
-			["global"] = {
-			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1018,9 +1720,195 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["backgroundStyle"] = "None",
+			["frameYOffset"] = 0,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "item:57954",
+					["kind"] = "item",
+				}, -- [1]
+				{
+					["action"] = "item:2589",
+					["kind"] = "item",
+				}, -- [2]
+				{
+					["action"] = "item:167070",
+					["kind"] = "item",
+				}, -- [3]
+				{
+					["action"] = "item:111956",
+					["kind"] = "item",
+				}, -- [4]
+				{
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["hideClearButton"] = true,
+			["itemUseTitleHeight"] = 2,
+			["autoAddQuestItemsToBar"] = true,
+			["borderStyle"] = "None",
+			["global"] = {
+			},
+			["frameRelativePoint"] = "BOTTOMLEFT",
+			["framePoint"] = "BOTTOMLEFT",
+			["numberOfItems"] = 20,
+			["itemUseScale"] = 0.68,
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+			["frameYOffset"] = 70.00000762939453,
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
 		},
 		["KokonutKrew"] = {
 			["backgroundStyle"] = "None",
+			["frameYOffset"] = 0,
 			["itemsAdvanced"] = {
 				{
 					["action"] = "item:57954",
@@ -1105,17 +1993,18 @@ ItemUseProfileDB = {
 			},
 			["hideClearButton"] = true,
 			["itemUseTitleHeight"] = 2,
-			["frameYOffset"] = 0,
-			["itemUseScale"] = 0.68,
-			["numberOfItems"] = 20,
-			["frameXOffset"] = -1.9998836517334,
-			["global"] = {
-			},
-			["autoAddQuestItemsToBar"] = true,
 			["autoAddSatchelsItemsToBar"] = true,
 			["borderStyle"] = "None",
+			["itemUseScale"] = 0.68,
+			["global"] = {
+			},
+			["frameXOffset"] = -1.9998836517334,
+			["numberOfItems"] = 20,
+			["autoAddQuestItemsToBar"] = true,
 		},
 		["Samoanlock - Emerald Dream"] = {
+			["global"] = {
+			},
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1199,350 +2088,93 @@ ItemUseProfileDB = {
 				}, -- [20]
 			},
 			["itemUseTitleHeight"] = 2,
+		},
+		["Royders - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
-		},
-		["Samoansavage - Tichondrius"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Samoanrouge - Emerald Dream"] = {
-			["global"] = {
-			},
-			["itemUseTitleHeight"] = 2,
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-		},
-		["Samoanranger - Emerald Dream"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
-		},
-		["Gfsdfgsd - Tichondrius"] = {
-			["itemsAdvanced"] = {
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [1]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [2]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [3]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [4]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [5]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [6]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [7]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [8]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [9]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [10]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [11]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [12]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [13]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [14]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [15]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [16]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [17]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [18]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [19]
-				{
-					["action"] = "empty",
-					["kind"] = "empty",
-				}, -- [20]
-			},
-			["itemUseTitleHeight"] = 2,
 		},
 		["Samoantank - Tichondrius"] = {
 			["backgroundStyle"] = "None",
@@ -1633,12 +2265,12 @@ ItemUseProfileDB = {
 			["itemUseTitleHeight"] = 2,
 			["autoAddSatchelsItemsToBar"] = true,
 			["borderStyle"] = "None",
-			["itemUseScale"] = 0.68,
-			["numberOfItems"] = 20,
-			["autoAddQuestItemsToBar"] = true,
 			["hideClearButton"] = true,
+			["autoAddQuestItemsToBar"] = true,
+			["numberOfItems"] = 20,
+			["itemUseScale"] = 0.68,
 		},
-		["Samoantitan - Stormrage"] = {
+		["Samoansavage - Tichondrius"] = {
 			["itemsAdvanced"] = {
 				{
 					["action"] = "empty",
@@ -1721,7 +2353,697 @@ ItemUseProfileDB = {
 					["kind"] = "empty",
 				}, -- [20]
 			},
-			["frameYOffset"] = 70.00000762939453,
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanrouge - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["global"] = {
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["showItemUse"] = false,
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+			["itemUseTitleHeight"] = 2,
+		},
+		["Samoanhunter - Emerald Dream"] = {
+			["itemUseTitleHeight"] = 2,
+			["global"] = {
+			},
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
+		},
+		["Buhbles - Emerald Dream"] = {
+			["itemsAdvanced"] = {
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [1]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [2]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [3]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [4]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [5]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [6]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [7]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [8]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [9]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [10]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [11]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [12]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [13]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [14]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [15]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [16]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [17]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [18]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [19]
+				{
+					["action"] = "empty",
+					["kind"] = "empty",
+				}, -- [20]
+			},
 			["itemUseTitleHeight"] = 2,
 			["global"] = {
 			},
@@ -1730,17 +3052,32 @@ ItemUseProfileDB = {
 }
 PurchaseProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -1752,9 +3089,27 @@ PurchaseProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1762,9 +3117,11 @@ PurchaseProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1772,35 +3129,64 @@ PurchaseProfileDB = {
 }
 QuestProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
+		["Stronguard - Emerald Dream"] = {
+			["acceptFromTeam"] = true,
+			["acceptFromParty"] = true,
+			["acceptFromFriends"] = true,
+			["masterAutoShareQuestOnAccept"] = true,
+			["onlyAcceptQuestsFrom"] = true,
+			["doNotAutoAccept"] = false,
 			["overrideQuestAutoSelectAndComplete"] = true,
 			["global"] = {
 			},
-			["acceptFromTeam"] = true,
-			["onlyAcceptQuestsFrom"] = true,
 			["acceptFromGuild"] = true,
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["acceptFromTeam"] = true,
+			["global"] = {
+			},
 			["acceptFromFriends"] = true,
 			["masterAutoShareQuestOnAccept"] = true,
+			["onlyAcceptQuestsFrom"] = true,
 			["doNotAutoAccept"] = false,
+			["overrideQuestAutoSelectAndComplete"] = true,
+			["acceptFromGuild"] = true,
 			["acceptFromParty"] = true,
 		},
 		["Samoanlock - Emerald Dream"] = {
 			["global"] = {
 			},
+		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
 		},
 		["Samoansavage - Tichondrius"] = {
 		},
@@ -1808,13 +3194,27 @@ QuestProfileDB = {
 			["global"] = {
 			},
 		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
 		["Samoanranger - Emerald Dream"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1822,44 +3222,60 @@ QuestProfileDB = {
 }
 QuestWatcherProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["KokonutKrew"] = {
-			["watcherFrameYOffset"] = 0,
-			["enableQuestWatcherOnMasterOnly"] = true,
+		["Stronguard - Emerald Dream"] = {
 			["watcherFrameWidth"] = 250,
-			["watcherFrameXOffset"] = -192.0001373291016,
+			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
 			["global"] = {
 			},
-			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
+			["enableQuestWatcherOnMasterOnly"] = true,
 			["watcherListLines"] = 50,
+			["watcherFrameYOffset"] = 0,
 			["watcherFramePoint"] = "BOTTOMRIGHT",
+			["watcherFrameXOffset"] = -192.0001373291016,
+		},
+		["Samoantitan - Stormrage"] = {
+			["global"] = {
+			},
+		},
+		["KokonutKrew"] = {
+			["watcherFrameWidth"] = 250,
+			["watcherFrameRelativePoint"] = "BOTTOMRIGHT",
+			["global"] = {
+			},
+			["watcherFrameXOffset"] = -192.0001373291016,
+			["watcherListLines"] = 50,
+			["watcherFrameYOffset"] = 0,
+			["watcherFramePoint"] = "BOTTOMRIGHT",
+			["enableQuestWatcherOnMasterOnly"] = true,
 		},
 		["Samoanlock - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
-		["Samoansavage - Tichondrius"] = {
-		},
-		["Samoanrouge - Emerald Dream"] = {
+		["Royders - Emerald Dream"] = {
 			["global"] = {
 			},
-		},
-		["Samoanranger - Emerald Dream"] = {
-		},
-		["Gfsdfgsd - Tichondrius"] = {
 		},
 		["Samoantank - Tichondrius"] = {
 			["watcherFrameWidth"] = 250,
@@ -1869,7 +3285,34 @@ QuestWatcherProfileDB = {
 			["watcherFramePoint"] = "BOTTOMRIGHT",
 			["watcherFrameXOffset"] = -262.000122070313,
 		},
-		["Samoantitan - Stormrage"] = {
+		["Samoansavage - Tichondrius"] = {
+		},
+		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+			["enableQuestWatcher"] = false,
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Gfsdfgsd - Tichondrius"] = {
+		},
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1877,17 +3320,32 @@ QuestWatcherProfileDB = {
 }
 SellProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -1899,9 +3357,27 @@ SellProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1909,9 +3385,11 @@ SellProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1919,17 +3397,32 @@ SellProfileDB = {
 }
 TalkProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -1941,9 +3434,27 @@ TalkProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1951,9 +3462,11 @@ TalkProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1961,17 +3474,33 @@ TalkProfileDB = {
 }
 ToonProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+			["autoAcceptSummonRequest"] = true,
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -1984,9 +3513,27 @@ ToonProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -1994,9 +3541,11 @@ ToonProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -2004,17 +3553,32 @@ ToonProfileDB = {
 }
 TradeProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -2026,9 +3590,27 @@ TradeProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -2036,9 +3618,11 @@ TradeProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -2046,17 +3630,32 @@ TradeProfileDB = {
 }
 MailProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
-		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantitan - Stormrage"] = {
 			["global"] = {
 			},
 		},
@@ -2068,9 +3667,27 @@ MailProfileDB = {
 			["global"] = {
 			},
 		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoantank - Tichondrius"] = {
+		},
 		["Samoansavage - Tichondrius"] = {
 		},
 		["Samoanrouge - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -2078,9 +3695,58 @@ MailProfileDB = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
 		},
-		["Samoantitan - Stormrage"] = {
+		["Buhbles - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+	},
+}
+BankProfileDB = {
+	["profileKeys"] = {
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanwar - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Stronguard - Emerald Dream"] = {
+			["global"] = {
+			},
+			["globalBankdList"] = false,
+		},
+		["Dethwish - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanlock - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanhunter - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+		},
+		["Buhbles - Emerald Dream"] = {
 			["global"] = {
 			},
 		},
@@ -2088,13 +3754,15 @@ MailProfileDB = {
 }
 ISBoxerProfileDB = {
 	["profileKeys"] = {
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
-		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
 		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
-		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Gfsdfgsd - Tichondrius"] = "KokonutKrew",
+		["Samoanrouge - Emerald Dream"] = "KokonutKrew",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -2120,12 +3788,22 @@ ISBoxerProfileDB = {
 			},
 			["isboxerTeamName"] = "",
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Royders - Emerald Dream"] = {
+			["global"] = {
+			},
 			["isboxerTeamName"] = "",
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["global"] = {
+			},
+			["isboxerTeamName"] = "",
+		},
+		["Samoantank - Tichondrius"] = {
 		},
 		["Gfsdfgsd - Tichondrius"] = {
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoanranger - Emerald Dream"] = {
+			["isboxerTeamName"] = "",
 		},
 		["Samoantitan - Stormrage"] = {
 			["global"] = {

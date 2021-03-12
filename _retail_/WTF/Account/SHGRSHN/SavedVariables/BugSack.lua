@@ -4,8 +4,8 @@ BugSackDB = {
 	["auto"] = false,
 	["soundMedia"] = "BugSack: Fatality",
 	["mute"] = true,
-	["chatframe"] = true,
+	["chatframe"] = false,
 }
 BugSackLDBIconDB = {
-	["minimapPos"] = 56.309747892501,
+	["minimapPos"] = 55.68491765366115,
 }

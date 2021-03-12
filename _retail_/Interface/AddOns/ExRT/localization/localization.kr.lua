@@ -220,6 +220,10 @@ L.RaidCheckMinFlaskExpNo = "안함"
 L.RaidCheckMinFlaskExpMin = "분"
 L.RaidCheckDisableInLFR = "공격대 찾기에서 끄기"
 
+L.RaidCheckReinforced = "보강 %("
+L.RaidCheckOilSharpen = "무게 증강 %("
+L.RaidCheckOilSharpen2 = "무게 증강 %("
+
 L.marksbarstart = "초기화"
 L.marksbardel = "삭제"
 L.marksbarrc = "준비"
@@ -914,7 +918,7 @@ L.Export = "내보내기"
 PH.ExportInfo = "* Excel이나 Google Docs에 사용하기 위해"
 L.S_Strata = "프레임 우선순위"
 
-L.senable = "사용"
+L.Enable = "사용"
 
 L.minimaptooltiplmp = "클릭 - 메인 창"
 L.minimaptooltiprmp = "오른쪽 클릭 - 메뉴 열기"

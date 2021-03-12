@@ -184,7 +184,7 @@ function FWF:ColorInfoString(info, name, count)
         local color = FL:GetThresholdHexColor(count, info.limit, info.limit / 5);
         name = name.." ("..count.."/"..info.limit..")"
         name = FL:Colorize(color, name);
-    elseif (not info.quest or IsUnitOnQuest(info.quest, "player")) then
+    elseif (not info.quest or C_QuestLog.IsUnitOnQuest("player", info.quest)) then
         name = FL:Green(name);
     else
         name = FL:Red(name);
@@ -738,7 +738,6 @@ end
 
 local function UpdateZoneLine()
     if ( GSB("WatchCurrentZone") ) then
-        local skill, mods, skillmax = FL:GetCurrentSkill();
         local zoneskill, _ = FL:GetFishingSkillLine(false, true);
         return zoneskill
     end
@@ -806,7 +805,7 @@ local function UpdateFishieEntry(info)
         local numbers = white.."(".."|r"..color1..amount;
 
         if ( dopercent ) then
-            local percent = format("%.1f", ( amount / totalAmount ) * 100);
+            local percent = string.format("%.1f", ( amount / totalAmount ) * 100);
             numbers = numbers.." : "..percent.."%";
         end
         if ( not currentonly and gotDiffs ) then
@@ -814,7 +813,7 @@ local function UpdateFishieEntry(info)
             amount = info.current or 0;
             local diffs = amount;
             if ( dopercent ) then
-                local percent = format("%.1f", ( amount / totalCurrent ) * 100);
+                local percent = string.format("%.1f", ( amount / totalCurrent ) * 100);
                 diffs = diffs.." : "..percent.."%";
             end
             numbers = numbers..color2..diffs.."|r";

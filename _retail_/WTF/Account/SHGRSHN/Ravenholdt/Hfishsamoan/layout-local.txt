@@ -1,4 +1,11 @@
 Version: 1
+Frame: GRM_RosterChangeLogFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 600
+H: 465
 Frame: PLH_LootedItemsFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -6,3 +13,10 @@ X: 1
 Y: -233
 W: 400
 H: 140
+Frame: AAP_LoadInOptionFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 1
+Y: 200
+W: 350
+H: 130

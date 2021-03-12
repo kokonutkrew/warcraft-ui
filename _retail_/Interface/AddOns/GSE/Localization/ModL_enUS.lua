@@ -253,7 +253,6 @@ L["A sequence collision has occured.  Extra versions of this macro have been loa
 L["GSE is out of date. You can download the newest version from https://www.curseforge.com/wow/addons/gse-gnome-sequencer-enhanced-advanced-macros."] = true
 L["Macro unable to be imported."] = true
 L["Macro Import Successful."]= true
-L["Gnome Sequencer: Import a Macro String."] = true
 L["GSE Macro"] = true
 L["Legacy GS/GSE1 Macro"] = true
 L["Macro Collection to Import."] = true
@@ -304,7 +303,6 @@ L["Help URL"] = true
 L["Copy this link and open it in a Browser."] = true
 L["This will display debug messages for the "] = true
 L[" Deleted Orphaned Macro "] = true
-
 --- GSE2.0.1-2.0.4
 L["Create buttons for Global Macros"] = true
 L["Global Macros are those that are valid for all classes.  GSE2 also imports unknown macros as Global.  This option will create a button for these macros so they can be called for any class.  Having all macros in this space is a performance loss hence having them saved with a the right specialisation is important."] = true
@@ -479,7 +477,6 @@ L["These lines are executed every time you click this macro.  They are evaluated
 L["These lines are executed before the lines in the Sequence Box.  If an Inner Loop Limit is not set, these are executed only once.  \nIf an Inner Loop Limit has been set these are executed after the Sequence has been looped through the number of times.  \nThe Sequence will then go on to the Post Macro if it exists then back to the PreMacro."] = true
 L["The main lines of the macro."] = true
 L["These lines are executed every time you click this macro.  They are evaluated by WOW after the line in the Sequence Box."] = true
-L["These lines are executed after the lines in the Sequence Box have been repeated Inner Loop Limit number of times.  If an Inner Loop Limit is not set, these are never executed as the sequence will never stop repeating.\nThe Sequence will then go on to the PreMacro if it exists then back to the Sequence."] = true
 L["Reset this macro when you exit combat."] = true
 L["These tick boxes have three settings for each slot.  Gold = Definately use this item. Blank = Do not use this item automatically.  Silver = Either use or not based on my default settings store in GSE's Options."] = true
 L["Delete this macro.  This is not able to be undone."] = true
@@ -518,3 +515,89 @@ L["Rank"] = true
 L["Clear Keybindings"] = true
 L["This function will remove the SHIFT+N, ALT+N and CTRL+N keybindings for this character.  Useful if [mod:shift] etc conditions don't work in game."] = true
 L["Clear Common Keybindings"] = true
+
+-- GSE 2.5.0
+L["MS Click Rate"] = true
+L["The milliseconds being used in key click delay."] = true
+L["Use External MS Timings"] = true
+L["Enable timing functions by using Click refresh speed as a pseudo timer."] = true
+L["Millisecond click settings"] = true
+
+-- 2.5.3
+L["Scenario"] = true
+
+-- 2.5.4
+L["GSE: Import a Macro String."] = true
+
+-- 2.5.5
+L["Version"] = true
+
+-- 2.5.9
+L["The version of this macro to use in Scenarios."] = true
+L["Scenario setting changed to Default."] = true
+
+-- 2.6.01
+L["Sequence Named %s was not specifically designed for this version of the game.  It may need adjustments."] = true
+L["Variables"] = true
+L["Add Variable"] = true
+L["Add a substitution variable for this macro.  This can either be a straight string swap or can be a function.  If a lua function the function needs to return a value."] = true
+L["Name"] = true
+L["Value"] = true
+L["Delete Variable"] = true
+L["Del"] = true
+L["Delete this variable from the sequence."] = true
+L["Default Editor Height"] = true
+L["How many pixels high should the Editor start at.  Defaults to 700"] = true
+L["Default Editor Width"] = true
+L["How many pixels wide should the Editor start at.  Defaults to 700"] = true
+
+--2.6.08
+L["WARNING ONLY"] = true
+
+-- 2.6.11
+L["Returns your current Global Cooldown value accounting for your haste if that stat is present."] = true
+L["Checks to see if you have a Heart of Azeroth equipped and if so will insert '/cast Heart Essence' into the macro.  If not your macro will skip this line."] = true
+L["System Variables"] = true
+L["Macro Variables"] = true
+
+-- 2.6.16
+L["Your sequence name was longer than 27 characters.  It has been shortened from %s to %s so that your macro will work."] = true
+
+-- 2.6.19
+L["Current GCD: %s"] = true
+L["Current GCD"] = true
+
+-- 2.6.20
+L["WeakAuras"] = true
+L["WeakAuras is a mod that watches for certain conditions and actions and they alerts the player to them occuring.  These are included for convenience and still need to be copied from here and imported to the WeakAuras mod via the command /wa."] = true
+L["Add WeakAura"] = true
+L["Delete WeakAura"] = true
+L["Delete this WeakAura from the sequence."] = true
+
+-- 2.6.21
+L["Load WeakAura"] = true
+L["Load or update this WeakAura into WeakAuras."] = true
+L["Actions"] = true
+L["WeakAuras was not found."] = true
+L["WeakAuras was not found.  Reported error was %s"] = true
+L["Auras included in GSE Macros"] = true
+
+--2.6.28
+L["The current result of variable |cff0000ff~~%s~~|r is |cFF00D1FF%s|r"] = true
+L["Test Variable"] = true
+L["Show the current value of this variable."] = true
+
+--2.6.33
+L["Show Current Spells"] = true
+L["GSE stores the base spell and asks WoW to use that ability.  WoW will then choose the current version of the spell.  This toggle switches between showing the Base Spell or the Current Spell."] = true
+
+--2.6.38
+L["GSE - %s's Macros"] = true
+L["Request Macro"] = true
+L["Request that the user sends you a copy of this macro."] = true
+L["Select a Sequence"] = true
+--2.6.39
+L["These lines are executed after the lines in the Sequence Box have been repeated Inner Loop Limit number of times.\nThe Sequence will then go on to the PreMacro if it exists then back to the Sequence."] = true
+L["This box is disabled as no Inner Loop Limit has been set.  It will never be called without it."] = true
+--2.6.44
+L["%sMACRO VALIDATION ERROR|r - PostMacro found with invalid LoopLimit.  PostMacro will not be saved for version %s"] = true

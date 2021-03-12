@@ -1,14 +1,15 @@
-[![Build Status](https://travis-ci.org/DeadlyBossMods/DeadlyBossMods.svg?branch=master)](https://travis-ci.org/DeadlyBossMods/DeadlyBossMods)
+[![Build Status](https://github.com/DeadlyBossMods/DeadlyBossMods/workflows/CI/badge.svg)](https://github.com/DeadlyBossMods/DeadlyBossMods/actions?workflow=CI)
 [![DeadlyBossMods on Discord](https://img.shields.io/badge/discord-DeadlyBossMods-738bd7.svg?style=flat)](https://discord.gg/DeadlyBossMods) 
 
 [![Patreon](https://media.forgecdn.net/attachments/76/25/patreon-medium-button.png)](https://www.patreon.com/deadlybossmods)
 
 # Deadly Boss Mods
-### [Supporter Benefits](https://www.deadlybossmods.com/forum/viewtopic.php?f=7&t=428#p1180)
-### [Some basic DBM setup/advanced features guides](https://www.deadlybossmods.com/forum/viewforum.php?f=7)
+### [Supporter Benefits](https://github.com/DeadlyBossMods/DeadlyBossMods/wiki/DBM-Supporter-Benefits-Info)
+### [Some basic DBM setup/advanced features guides](https://github.com/DeadlyBossMods/DeadlyBossMods/wiki)
 
 ## Old Content mods are split into multiple packages
 Older content is split into multiple addons to reduce mod update size. These are often far less updated as DBM Core packages and are better as optional extra packages. You can get them here:
+* [Battle for Azeroth Mods](https://www.curseforge.com/wow/addons/deadly-boss-mods-dbm-bfa)
 * [Legion Raid Mods](https://curseforge.com/wow/addons/deadly-boss-mods-dbm-legion)
 * [Warlords of Draenor Raid Mods](https://curseforge.com/wow/addons/deadly-boss-mods-wod)
 * [Mists of Pandaria Raid Mods](https://curseforge.com/wow/addons/deadly-boss-mods-mop)
@@ -19,32 +20,34 @@ Older content is split into multiple addons to reduce mod update size. These are
 
 ## Additional Mods
 * [Event Sound Pack](https://curseforge.com/wow/addons/deadly-boss-mods-dbm-event-sound-pack)
-* [SpellTimers](https://curseforge.com/wow/addons/dbm-spelltimers)
 * [DBM-Archeology](https://curseforge.com/wow/addons/dbm-archaeology)
 * [DBM-Challenges](https://curseforge.com/wow/addons/dbm-challenges)
 * [DBM-TimelessIsle](https://curseforge.com/wow/addons/dbm-timeless-isle)
 * [DBM-PvP](https://curseforge.com/wow/addons/dbm-pvp)
+<!--
+* [SpellTimers](https://curseforge.com/wow/addons/dbm-spelltimers)
+* [RaidLeadTools](https://curseforge.com/wow/addons/dbm-raidleadtools)
+-->
 
 ## Countdown Packs
 * [Countpack Overwatch](https://curseforge.com/wow/addons/deadly-boss-mods-dbm-overwatch-countdown-pack)
 * [Countpack HoTS](https://curseforge.com/wow/addons/deadly-boss-mods-dbm-heroes-of-the-storm-hots)
 
 ## Voice Packs
-
 * [Voicepack VEM (English TTS Female)](https://curseforge.com/wow/addons/dbm-voicepack-vem)
 * [Voicepack Yike (Chinese TTS Female)](https://curseforge.com/wow/addons/dbm-voicepack-yike)
 * [Voicepack German (German Male)](http://curseforge.com/wow/addons/dbm-voicepack-german)
-* [Voicepack Mununyu (Korean Recorded Female)](https://wow.curseforge.com/projects/dbm-voicepack-mununyu)
+* [Voicepack Mununyu (Korean Recorded Female)](https://www.curseforge.com/wow/addons/dbm-voicepack-mununyu)
 * [Voicepack Alyona (Russian TTS Female)](https://curseforge.com/wow/addons/dbm-voicepack-russian)
 * [Voicepack Italian (Italian TTS Female)](https://curseforge.com/wow/addons/dbm-voicepack-italian)
-* [Voicepack Spanish (Spain)](https://wow.curseforge.com/projects/dbm-voicepack-spanish-spain)
+* [Voicepack Spanish (Spain)](https://www.curseforge.com/wow/addons/dbm-voicepack-spanish-spain)
 * [Voicepack Arnold Schwarzenegger (English Recorded/Spliced)](https://curseforge.com/wow/addons/arnold-schwarzenegger-vem-dbm)
 * [Voicepack Draik (English Recorded/Spliced)](https://curseforge.com/wow/addons/dbm-vpdraik)
 * [Search for more](https://curseforge.com/wow/addons/search?search=dbm+voice)
 
 ## Getting too many updates of DBM per day?
-Multiple alpha versions can get pushed to Curse on an average day, these versions may contain important new features or bug fixes for the bleeding edge raid content... These versions are tagged as alpha, so they will not be downloaded by default. Set your Twitch client to update to alpha if you want these latest versions (but they may contain bugs, downloads tagged as "Beta" or "Release" are more stable and released less frequently)
-Right click on DBM itself in Twitch client addon list and set to preferred release type to control update frequency.
+Multiple alpha versions can get pushed to Curse on an average day, these versions may contain important new features or bug fixes for the bleeding edge raid content... These versions are tagged as alpha, so they will not be downloaded by default. Set your addon client to update to alpha if you want these latest versions (but they may contain bugs, downloads tagged as "Beta" or "Release" are more stable and released less frequently)
+Right click on DBM itself in addon client list and set to preferred release type to control update frequency.
 
 ## Features
 * Mods for raid, dungeon, special event and Brawlers Guild

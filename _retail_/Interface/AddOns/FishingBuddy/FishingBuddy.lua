@@ -109,7 +109,7 @@ local GeneralOptions = {
         ["tooltip"] = FBConstants.CONFIG_TRADESKILL_INFO,
         ["v"] = 1,
         ["default"] = true,
-    }
+    },
 };
 
 -- x87bliss has implemented IsFishWardenEnabled as a public function, so
@@ -362,8 +362,8 @@ local InvisibleOptions = {
     ["EnhanceSound_EnableSFX"] = {
         ["default"] = 1.0,
     },
-    ["EnhanceparticleDensity"] = {
-        ["default"] = 1.0,
+    ["EnhancegraphicsParticleDensity"] = {
+        ["default"] = 6.0,
     },
     ["MinimapButtonPosition"] = {
         ["default"] = FBConstants.DEFAULT_MINIMAP_POSITION,
@@ -410,48 +410,49 @@ EasyCastInit = function(option, button)
     end
 end
 
--- default FishingBuddy option handlers
-FishingBuddy.BaseGetSetting = function(setting)
-    if ( not FishingBuddy_Player or
-          not FishingBuddy_Player["Settings"] ) then
+local function GetTableSetting(table, setting)
+    if not table or not table["Settings"] then
         return;
     end
-    local val = FishingBuddy_Player["Settings"][setting];
+    local val = table["Settings"][setting];
     if ( val == nil and FishingBuddy.GetDefault ) then
         val = FishingBuddy.GetDefault(setting);
     end
     return val;
 end
 
-FishingBuddy.BaseSetSetting = function(setting, value)
-    if ( FishingBuddy_Player and setting ) then
+local function SetTableSetting(table, setting, value)
+    if ( table and setting ) then
         local val = nil;
         if ( FishingBuddy.GetDefault ) then
             val = FishingBuddy.GetDefault(setting);
         end
+        if not table["Settings"] then
+            table["Settings"] = {}
+        end
         if ( val == value ) then
-            FishingBuddy_Player["Settings"][setting] = nil;
+            table["Settings"][setting] = nil;
         else
-            FishingBuddy_Player["Settings"][setting] = value;
+            table["Settings"][setting] = value;
         end
     end
+end
+
+-- default FishingBuddy option handlers
+FishingBuddy.BaseGetSetting = function(setting)
+    return GetTableSetting(FishingBuddy_Player, setting);
+end
+
+FishingBuddy.BaseSetSetting = function(setting, value)
+    SetTableSetting(FishingBuddy_Player, setting, value)
 end
 
 FishingBuddy.GlobalGetSetting = function(setting)
-    if ( not FishingBuddy_Info or
-          not FishingBuddy_Info["Settings"] ) then
-        return;
-    end
-    return FishingBuddy_Info["Settings"][setting];
+    return GetTableSetting(FishingBuddy_Info, setting);
 end
 
 FishingBuddy.GlobalSetSetting = function(setting, value)
-    if ( FishingBuddy_Info and setting ) then
-        if (not FishingBuddy_Info["Settings"]) then
-            FishingBuddy_Info["Settings"] = {};
-        end
-        FishingBuddy_Info["Settings"][setting] = value;
-    end
+    SetTableSetting(FishingBuddy_Info, setting, value)
 end
 
 FishingBuddy.ByFishie = nil;
@@ -974,9 +975,9 @@ local function WF_OnMouseDown(...)
             end
             CentralCasting();
         end
-        if ( SavedWFOnMouseDown ) then
-            SavedWFOnMouseDown(...);
-        end
+    end
+    if ( SavedWFOnMouseDown ) then
+        SavedWFOnMouseDown(...);
     end
 end
 
@@ -1049,9 +1050,9 @@ local resetClickToMove = nil;
 local function StartFishingMode()
     if ( not FishingBuddy.StartedFishing ) then
         -- Disable Click-to-Move if we're fishing
-        if ( GetCVar("autointeract") == "1" ) then
+        if ( BlizzardOptionsPanel_GetCVarSafe("autoInteract") == 1 ) then
             resetClickToMove = true;
-            SetCVar("autointeract", "0");
+            BlizzardOptionsPanel_SetCVarSafe("autoInteract", 0);
         end
         FishingBuddy.EnhanceFishingSounds(true);
         handlerframe:Show();
@@ -1083,7 +1084,7 @@ local function StopFishingMode(logout)
     FishingBuddy.EnhanceFishingSounds(false, logout);
     if ( resetClickToMove ) then
         -- Re-enable Click-to-Move if we changed it
-        SetCVar("autointeract", "1");
+        BlizzardOptionsPanel_SetCVarSafe("autoInteract", 1);
         resetClickToMove = nil;
     end
 
@@ -1100,49 +1101,58 @@ local function FishingMode()
 end
 FishingBuddy.FishingMode = FishingMode;
 
+local function SetAutoPoleLocation(clear)
+    local a = autopoleframe
+    if clear then
+        autopoleframe:Hide();
+        ClearLastCastTime();
+        a.x, a.y, a.zone, a.instanceID = nil, nil, nil
+    else
+        a.x, a.y, a.zone, a.instanceID = FL:GetPlayerZoneCoords();
+    end
+end
+
 local function AutoPoleCheck(self, ...)
     if (not CheckCombat() ) then
         if ( not LastCastTime or ReadyForFishing() ) then
-            self:Hide();
-            ClearLastCastTime();
-            self.x, self.y, self.instanceID = nil, nil, nil
+            SetAutoPoleLocation(true)
             return;
         end
         local elapsed = (GetTime() - LastCastTime);
         if ( elapsed > FISHINGSPAN ) then
-            ClearLastCastTime();
-            self.x, self.y, self.instanceID = nil, nil, nil
+            SetAutoPoleLocation(true)
             StopFishingMode();
         elseif ( not FishingBuddy.StartedFishing ) then
             StartFishingMode();
-            self.x, self.y, self.instanceID = HBD:GetPlayerWorldPosition();
-        elseif (self.x) then
+            SetAutoPoleLocation()
+        elseif (self.zone) then
             if (self.moving) then
-                if not FishingBuddy.HaveRafts() then
-                    local x, y, instanceID = HBD:GetPlayerWorldPosition();
-                    local _, distance = HBD:GetWorldVector(instanceID, self.x, self.y, x, y);
-                    if instanceID ~= self.instanceID or distance > 10 then
-                        LastCastTime = GetTime() - FISHINGSPAN - 1
+                local distance = FL:GetDistanceTo(self.zone, self.x, self.y)
+                if distance then
+                    if distance > 50 or (not FishingBuddy.HaveRafts() and distance > 10) then
+                        SetAutoPoleLocation(true)
+                        StopFishingMode();
                     end
                 end
             elseif (self.stopped) then
-                self.x, self.y, self.instanceID = HBD:GetPlayerWorldPosition();
+                SetAutoPoleLocation()
                 self.stopped = nil;
             end
         end
     end
 end
 
-local function AutoPoleEvent(self, event, ...)
+local function AutoPoleEvent(self, event, arg1, arg2, arg3, arg4, arg5)
     self.moving = (event == "PLAYER_STARTED_MOVING")
     self.stopped = (event == "PLAYER_STOPPED_MOVING")
+    -- print(event, arg1, arg2, arg3, arg4, arg5)
 end
 
 autopoleframe:SetScript("OnEvent", AutoPoleEvent)
 autopoleframe:SetScript("OnUpdate", AutoPoleCheck);
 autopoleframe:RegisterEvent("PLAYER_STARTED_MOVING");
 autopoleframe:RegisterEvent("PLAYER_STOPPED_MOVING");
-
+-- autopoleframe:RegisterEvent("VEHICLE_ANGLE_UPDATE");
 
 FishingBuddy.IsSwitchClick = function(setting)
     if ( not setting ) then
@@ -1296,14 +1306,14 @@ FishingBuddy.EnhanceFishingSounds = function(doit, logout)
     if ( GSB("EnhanceFishingSounds") ) then
         if ( not efsv and doit ) then
             -- collect the current values
-            local mv = GetCVar("Sound_MasterVolume");
-            local mu = GetCVar("Sound_MusicVolume");
-            local av = GetCVar("Sound_AmbienceVolume");
-            local sv = GetCVar("Sound_SFXVolume");
-            local sb = GetCVar("Sound_EnableSoundWhenGameIsInBG");
-            local pd = GetCVar("particleDensity");
-            local eas = GetCVar("Sound_EnableAllSound");
-            local esfx = GetCVar("Sound_EnableSFX");
+            local mv = BlizzardOptionsPanel_GetCVarSafe("Sound_MasterVolume");
+            local mu = BlizzardOptionsPanel_GetCVarSafe("Sound_MusicVolume");
+            local av = BlizzardOptionsPanel_GetCVarSafe("Sound_AmbienceVolume");
+            local sv = BlizzardOptionsPanel_GetCVarSafe("Sound_SFXVolume");
+            local sb = BlizzardOptionsPanel_GetCVarSafe("Sound_EnableSoundWhenGameIsInBG");
+            local pd = BlizzardOptionsPanel_GetCVarSafe("graphicsParticleDensity");
+            local eas = BlizzardOptionsPanel_GetCVarSafe("Sound_EnableAllSound");
+            local esfx = BlizzardOptionsPanel_GetCVarSafe("Sound_EnableSFX");
 
             efsv = {};
             if (GSB("TurnOnSound")) then
@@ -1318,7 +1328,7 @@ FishingBuddy.EnhanceFishingSounds = function(doit, logout)
             efsv["Sound_EnableSoundWhenGameIsInBG"] = sb;
 
             if (GSB("EnhancePools")) then
-                efsv["particleDensity"] = pd;
+                efsv["graphicsParticleDensity"] = pd;
             end
 
             -- if we need to, turn 'em off!
@@ -1330,7 +1340,7 @@ FishingBuddy.EnhanceFishingSounds = function(doit, logout)
                 if (info and info.scale) then
                     value = value / 100.0;
                 end
-                SetCVar(setting, value);
+                BlizzardOptionsPanel_SetCVarSafe(setting, value);
             end
             return; -- fall through and reset everything otherwise
         end
@@ -1341,7 +1351,7 @@ FishingBuddy.EnhanceFishingSounds = function(doit, logout)
 
     if ( efsv ) then
         for setting, value in pairs(efsv) do
-            SetCVar(setting, tonumber(value));
+            BlizzardOptionsPanel_SetCVarSafe(setting, tonumber(value));
         end
         efsv = nil;
     end
@@ -1361,7 +1371,6 @@ FishingBuddy.OnEvent = function(self, event, ...)
 --		  line = line.." '"..select(idx,...).."'";
 --	  end
 --	  FishingBuddy.Debug(line);
-    local arg1 = ...;
 
 
     if ( event == "PLAYER_EQUIPMENT_CHANGED" or
@@ -1385,7 +1394,7 @@ FishingBuddy.OnEvent = function(self, event, ...)
     elseif ( event == "LOOT_OPENED" ) then
         local autoLoot = ...;
         local doautoloot = false;
-        if autoLoot or (autoLoot == nil and GetCVarBool("autoLootDefault") ~= IsModifiedClick("AUTOLOOTTOGGLE"))  then
+        if autoLoot or (autoLoot == nil and BlizzardOptionsPanel_GetCVarSafeBool("autoLootDefault") ~= IsModifiedClick("AUTOLOOTTOGGLE"))  then
             doautoloot = true
         else
             doautoloot = FishingBuddy.GetSettingBool("AutoLoot")
@@ -1442,7 +1451,7 @@ FishingBuddy.OnEvent = function(self, event, ...)
             end
         end
     elseif ( event == "VARIABLES_LOADED" ) then
-        local _, name = FL:GetFishingSkillInfo();
+        local _, name = FL:GetFishingSpellInfo();
         PLANS = FishingBuddy.FishingPlans;
         FishingBuddy.Initialize();
         PrepareVolumeSlider()
@@ -1450,7 +1459,7 @@ FishingBuddy.OnEvent = function(self, event, ...)
         FishingBuddy.AddSchoolFish();
 
         FishingBuddy.CreateFBMappedDropDown("FBEasyKeys", "EasyCastKeys", FBConstants.CONFIG_EASYCAST_ONOFF, FBConstants.Keys)
-        FishingBuddy.CreateFBMappedDropDown("FBMouseEvent", "MouseEvent", FBConstants.CONFIG_MOUSEEVENT_ONOFF, FBConstants.CastClick)
+        FishingBuddy.CreateFBMappedDropDown("FBMouseEvent", "MouseEvent", FBConstants.CONFIG_MOUSEEVENT_ONOFF, FBConstants.CastingKeyLabel)
 
         FishingBuddy.OptionsFrame.HandleOptions(name, "Interface\\Icons\\INV_Fishingpole_02", CastingOptions);
         FishingBuddy.OptionsFrame.HandleOptions(nil, nil, InvisibleOptions);
@@ -1498,6 +1507,9 @@ FishingBuddy.OnEvent = function(self, event, ...)
         if (handlerframe:IsShown()) then
             handlerframe:Hide();
         end
+    elseif ( event == "CURSOR_CHANGED" or event == "CURSOR_UPDATE") then
+        isDefault, newCursorType, oldCursorType = ...
+        FishingBuddy.Debug(event, isDefault, newCursorType, oldCursorType)
     end
     if FishingBuddy.Extravaganza then
         FishingBuddy.Extravaganza.IsTime(true);
@@ -1516,6 +1528,9 @@ FishingBuddy.OnLoad = function(self)
     -- we want to deal with fishing loot windows all the time
     self:RegisterEvent("LOOT_OPENED");
     self:RegisterEvent("LOOT_CLOSED");
+
+    self:RegisterEvent("CURSOR_CHANGED");
+    self:RegisterEvent("CURSOR_UPDATE");
 
     -- Handle item lock separately to reduce churn during world load
     -- self:RegisterEvent("ITEM_LOCK_CHANGED");

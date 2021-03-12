@@ -113,9 +113,9 @@ L["COLUMN_GARRISON_MISSIONS_DETAIL_3"] = "No ongoing missions"
  
 -- *** Tab Summary / Garrison Followers ***
  
-L["COLUMN_FOLLOWERS_LV100_TITLE"] = "Level 100 Followers"
-L["COLUMN_FOLLOWERS_LV100_TITLE_SHORT"] = "Lv 100"
-L["COLUMN_FOLLOWERS_LV100_SUBTITLE"] = "Level 100 vs Total Followers" 
+L["COLUMN_FOLLOWERS_LV40_TITLE"] = "Level 40 Followers"
+L["COLUMN_FOLLOWERS_LV40_TITLE_SHORT"] = "Lv 40"
+L["COLUMN_FOLLOWERS_LV40_SUBTITLE"] = "Level 40 vs Total Followers" 
 
 L["COLUMN_FOLLOWERS_RARITY_TITLE"] = "Followers' Rarity Level"
 L["COLUMN_FOLLOWERS_RARITY_TITLE_SHORT"] = "Rarity"
@@ -147,6 +147,20 @@ L["COLUMN_ARTIFACT_RESEARCH_TITLE_SHORT"] = "Next Research"
 L["COLUMN_ARTIFACT_RESEARCH_SUBTITLE"] = "Time until the next note is ready"
 L["COLUMN_ARTIFACT_RESEARCH_DETAIL_1"] = "At least one note is ready for pickup"
 L["COLUMN_ARTIFACT_RESEARCH_DETAIL_2"] = "All notes are ready for pickup"
+
+-- *** Tab Summary / Keystones ***
+
+L["COLUMN_CURRENT_KEYSTONE_NAME"] = "Current Mythic+ Keystone"
+L["COLUMN_CURRENT_KEYSTONE_NAME_SHORT"] = "Current"
+L["COLUMN_CURRENT_KEYSTONE_LEVEL"] = "Current Mythic+ Keystone Level"
+L["COLUMN_CURRENT_KEYSTONE_LEVEL_SHORT"] = "Level"
+
+L["COLUMN_HIGHEST_KEYSTONE_NAME"] = "Highest Mythic+ Keystone (this week)"
+L["COLUMN_HIGHEST_KEYSTONE_NAME_SHORT"] = "Highest"
+L["COLUMN_HIGHEST_KEYSTONE_LEVEL"] = "Highest Mythic+ Keystone Level (this week)"
+L["COLUMN_HIGHEST_KEYSTONE_LEVEL_SHORT"] = "Level"
+L["COLUMN_HIGHEST_KEYSTONE_TIME"] = "Highest Mythic+ Keystone Time"
+L["COLUMN_HIGHEST_KEYSTONE_TIME_SHORT"] = "Time"
 
 
 -- *************************

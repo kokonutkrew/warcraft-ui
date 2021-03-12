@@ -26,611 +26,1975 @@ Prat3CharDB = {
 	},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1544947783,
+	["time"] = 1601278253,
 	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 		["ChatFrame3"] = {
-			{
-				"|cff979797[01:01:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:108:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[01:01:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Icecoldhurya-Stormrage:109:CHANNEL:2|h|cff3fc6eaIcecoldhurya|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Death Jesters|r|cffffffff>|r (8/8M) one of the oldest raiding guilds in Warcraft, is selling 8/8 Heroic & Mythic Uldir! Individual/group bosses are available as well. Whisper for more information or scheduling!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				6, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[01:01:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Orbaifere-Stormrage:112:CHANNEL:2|h|cffa330c9Orbaifere|r|h|cffd8d8d8]|r: Looking for mature gamers for Mythic+, Raids, and PvP?  Looking to level with friends?  Join |cffffffff<|r|cff00ff00Keepers of the Alliance|r|cffffffff>|r for a laid back crew!!  Discord required!  Raids are Sat 7PM and Tue 7PM.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				12, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[01:01:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:113:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[01:02:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:114:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[01:02:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:115:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[01:02:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Meowpheus-Stormrage:116:CHANNEL:2|h|cffff7c0aMeowpheus|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Always Triggered|r|cffffffff>|r 8/8H 3/8M Wed/Thurs 8:30-11:30 pm server.  Preference on Mage, Lock, Boomkin, and DK. Also inviting casuals and ALL exceptional raiders.  PST alias so we can look up logs!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				14, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[01:03:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:117:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[01:03:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:118:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[01:04:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:119:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[01:04:14]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sillivina-Stormrage:120:CHANNEL:2|h|cff00ff96Sillivina|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Deaths Asylum|r|cffffffff>|r 18+ Mature Guild with a Prog Team [8/8N 5/8H]  Fri/Sat 9pm-12am Server Time, We have Guild Lottery & Discord! In need of an Optional Tank to fill our upcoming frequent gaps as a baby is on the way!! must have a 2nd spec, Pst for info", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				16, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[01:04:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:121:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[01:04:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:122:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[01:05:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:123:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[01:05:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:124:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[01:06:01]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:125:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield PST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[01:06:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:126:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[01:06:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Candsdruid-Stormrage:127:CHANNEL:2|h|cffff7c0aCandsdruid|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00SIGKILL|r|cffffffff>|r 5/8M LF Core bench players and Active members to Help push keys. Come join a fun active guild. We clear Heroic every sunday for Alts and lower experienced players. Come join! pst for invite!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				20, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[01:06:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kynlaîs-Stormrage:129:CHANNEL:2|h|cffa330c9Kynlaîs|r|h|cffd8d8d8]|r: SELLING |cffa335ee|Hitem:163943::::::::120:577::54:2:1472:4786:::|h[Neleimour's Patterned Leggings]|h|r 90k (lower than AH) PST!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				24, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[01:06:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:130:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[01:06:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aldoxin-Stormrage:131:CHANNEL:2|h|cfff48cbaAldoxin|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00MATURE CONTENT|r|cffffffff>|r is a large Cross-Realm Guild on 8 Servers w/ 3,000+ members, Raids, events, website. 18+. Whisper “LF Guild” for an invite.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				26, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[01:07:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blobbey-Stormrage:132:CHANNEL:2|h|cffffffffBlobbey|r|h|cffd8d8d8]|r:  |cffffffff<|r|cff00ff00Heroes and Legends|r|cffffffff>|r  4/8M, 8/8H  is currently looking for ranged DPS and healers interested in mythic progression for IMMEDIATE raid slots.  Raid times are Sunday/Monday/Wednesday 9-12 server (EST).  Mythic + players welcome.  Pst for more info.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				28, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[01:07:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:133:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[01:07:25]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:134:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield PST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[01:07:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:135:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[01:08:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:136:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[01:08:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:137:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[01:09:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:138:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[01:09:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:139:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [29]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 34,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lillost-Stormrage:2986:CHANNEL:2|h|cffc59a6cLillost|r|h|cffd8d8d8]|r: Wts |cff0070dd|Hitem:9422::::::::50:72:::::::|h[Maestro de rodeos de Forjatiniebla]|h|r",
+					["serverTime"] = 1603392679,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182473.04,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:41]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lillost-Stormrage:2987:CHANNEL:2|h|cffc59a6cLillost|r|h|cffd8d8d8]|r: Wts |cff0070dd|Hitem:9422::::::::50:72:::::::|h[Maestro de rodeos de Forjatiniebla]|h|r",
+					["serverTime"] = 1603392682,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182476.236,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maedicus-Stormrage:2988:CHANNEL:2|h|cfff38bb9Maedicus|r|h|cffd8d8d8]|r: Is it true retpallies are even worse now",
+					["serverTime"] = 1603392688,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182481.958,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Paendrag-Stormrage:2989:CHANNEL:2|h|cffc31d39Paendrag|r|h|cffd8d8d8]|r: no",
+					["serverTime"] = 1603392694,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182488.367,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shènzy-Stormrage:2990:CHANNEL:2|h|cffa9d271Shènzy|r|h|cffd8d8d8]|r: •WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3",
+					["serverTime"] = 1603392694,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182488.367,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:2994:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTS|cffffffff|Hitem:60838::::::::50:72:::::::|h[Mysterious Fortune Card]|h|rAH or Pst!",
+					["serverTime"] = 1603392708,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182502.387,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:2995:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTB|cffa335ee|Hitem:60844::::::::50:72:::::::|h[Fortune Card]|h|r50k  Finally make your father proud and bring home some bacon!",
+					["serverTime"] = 1603392708,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182502.387,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aquafeenuh-Stormrage:3012:CHANNEL:2|h|cffa22fc8Aquafeenuh|r|h|cffd8d8d8]|r: LF healer or tank que for HH, can return the favor!",
+					["serverTime"] = 1603392803,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182597.058,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shènzy-Stormrage:3013:CHANNEL:2|h|cffa9d271Shènzy|r|h|cffd8d8d8]|r: •WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3",
+					["serverTime"] = 1603392805,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182598.743,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3014:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: all I know is they are saying it's a legal requirement they launch it before the new year",
+					["serverTime"] = 1603392806,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182599.744,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ichizon-Stormrage:3015:CHANNEL:2|h|cff006fdcIchizon|r|h|cffd8d8d8]|r: no its not since theyre offering refunds now",
+					["serverTime"] = 1603392820,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182613.743,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mathame-Stormrage:3016:CHANNEL:2|h|cffc31d39Mathame|r|h|cffd8d8d8]|r: Anatomically Undergeared is recruiting! We are a social guild with a group of semi serious raiders with intentions of Raids and M+ in Shadowlands. Lets have some fun and build a great community!",
+					["serverTime"] = 1603392822,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182616.329,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danada-Stormrage:3017:CHANNEL:2|h|cfffefefeDanada|r|h|cffd8d8d8]|r: Thank you... I've just boosted a character to a 50 lvl and I don't know where to start... pretty stuck with this bad gear",
+					["serverTime"] = 1603392850,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182644.01,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ichizon-Stormrage:3018:CHANNEL:2|h|cff006fdcIchizon|r|h|cffd8d8d8]|r: once they started offering refunds that changes the requirements for launch dates",
+					["serverTime"] = 1603392851,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182645.578,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nuane-Stormrage:3019:CHANNEL:2|h|cfffe7b09Nuane|r|h|cffd8d8d8]|r: look in the launcher - theres an offer for game time that expires 12/13 - so that most likel;y means 12/13 or 12/14 is xpac",
+					["serverTime"] = 1603392866,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182660.254,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3020:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: Do mythic 0 dungeons, all the world quests, and kill the world bosses",
+					["serverTime"] = 1603392874,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182667.787,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:3021:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTS|cffffffff|Hitem:60838::::::::50:72:::::::|h[Mysterious Fortune Card]|h|rAH or Pst!",
+					["serverTime"] = 1603392877,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.354,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:3022:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTB|cffa335ee|Hitem:60844::::::::50:72:::::::|h[Fortune Card]|h|r50k  Finally make your father proud and bring home some bacon!",
+					["serverTime"] = 1603392877,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.354,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shènzy-Stormrage:3023:CHANNEL:2|h|cffa9d271Shènzy|r|h|cffd8d8d8]|r: •WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3",
+					["serverTime"] = 1603392878,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.848,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3024:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: and try to get into raids for gear",
+					["serverTime"] = 1603392880,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182674.343,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cryspin-Stormrage:3027:CHANNEL:2|h|cff3ec6eaCryspin|r|h|cffd8d8d8]|r: wont prepatch bring new gear",
+					["serverTime"] = 1603392892,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182686.134,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Muleka-Stormrage:3028:CHANNEL:2|h|cfff38bb9Muleka|r|h|cffd8d8d8]|r: WTS 0-5 masks vision carry. Full run. Cheap price, gold only! pst for more info. =)",
+					["serverTime"] = 1603392896,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182689.977,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Roxlee-Stormrage:3029:CHANNEL:2|h|cff8687edRoxlee|r|h|cffd8d8d8]|r: anyone wanna help me with |cffa335ee|Hkeystone:158923:369:3:9:0:0:0|h[Keystone: Operation: Mechagon - Junkyard (3)]|h|r?",
+					["serverTime"] = 1603392899,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182692.747,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danthos-Stormrage:3030:CHANNEL:2|h|cfff38bb9Danthos|r|h|cffd8d8d8]|r: yes, the prepatch event brings catchup gear",
+					["serverTime"] = 1603392904,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182698.136,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danada-Stormrage:3031:CHANNEL:2|h|cfffefefeDanada|r|h|cffd8d8d8]|r: Thank you for tips! Will do that",
+					["serverTime"] = 1603392905,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182699.104,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r You gain 280 experience.",
+					["serverTime"] = 1603393051,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:33]|h|r You receive item: |cffffffff|Hitem:65733::::::::49:104::::1:28:1476:::|h[Paxton's Prayer Book]|h|r.",
+					["serverTime"] = 1603393094,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182887.996,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:08]|h|r You loot 51 Silver, 9 Copper",
+					["serverTime"] = 1603393129,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182923.419,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:14]|h|r Grapejellie-EmeraldDream receives loot: |cff9d9d9d|Hitem:62328::::::::49:104:::::::|h[Shed Fur]|h|rx3.",
+					["serverTime"] = 1603393135,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182928.856,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:38]|h|r You loot 26 Silver, 57 Copper",
+					["serverTime"] = 1603393159,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182953.035,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:57]|h|r Grapejellie-EmeraldDream receives loot: |cffffffff|Hitem:56147::::::::49:104::::1:28:73:::|h[Fatcandle Bag]|h|r.",
+					["serverTime"] = 1603393178,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182971.783,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:13]|h|r You receive loot: |cffffffff|Hitem:56147::::::::49:104::::1:28:73:::|h[Fatcandle Bag]|h|r.",
+					["serverTime"] = 1603393194,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182988.057,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:14]|h|r You loot 19 Silver, 29 Copper",
+					["serverTime"] = 1603393195,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182989.141,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:20]|h|r You loot 25 Silver, 14 Copper",
+					["serverTime"] = 1603393201,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182995.699,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 		["ChatFrame1"] = {
-			{
-				"|cff979797[01:01:03]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoandruid-Ravenholdt:106|h|cffa5a5a5Samoandruid|r-|cffb46d3eRav|r|h|cffd8d8d8]|r has invited you to join a group.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[01:01:07]|r|c00000000|r Dungeon Difficulty set to Normal.", -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-				1, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[01:01:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:108:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[01:01:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Icecoldhurya-Stormrage:109:CHANNEL:2|h|cff3fc6eaIcecoldhurya|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Death Jesters|r|cffffffff>|r (8/8M) one of the oldest raiding guilds in Warcraft, is selling 8/8 Heroic & Mythic Uldir! Individual/group bosses are available as well. Whisper for more information or scheduling!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				6, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[01:01:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Orbaifere-Stormrage:112:CHANNEL:2|h|cffa330c9Orbaifere|r|h|cffd8d8d8]|r: Looking for mature gamers for Mythic+, Raids, and PvP?  Looking to level with friends?  Join |cffffffff<|r|cff00ff00Keepers of the Alliance|r|cffffffff>|r for a laid back crew!!  Discord required!  Raids are Sat 7PM and Tue 7PM.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				12, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[01:01:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:113:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[01:02:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:114:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[01:02:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:115:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[01:02:57]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Meowpheus-Stormrage:116:CHANNEL:2|h|cffff7c0aMeowpheus|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Always Triggered|r|cffffffff>|r 8/8H 3/8M Wed/Thurs 8:30-11:30 pm server.  Preference on Mage, Lock, Boomkin, and DK. Also inviting casuals and ALL exceptional raiders.  PST alias so we can look up logs!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				14, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[01:03:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:117:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[01:03:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:118:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[01:04:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:119:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[01:04:14]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sillivina-Stormrage:120:CHANNEL:2|h|cff00ff96Sillivina|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Deaths Asylum|r|cffffffff>|r 18+ Mature Guild with a Prog Team [8/8N 5/8H]  Fri/Sat 9pm-12am Server Time, We have Guild Lottery & Discord! In need of an Optional Tank to fill our upcoming frequent gaps as a baby is on the way!! must have a 2nd spec, Pst for info", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				16, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[01:04:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:121:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[01:04:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:122:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[01:05:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:123:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[01:05:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:124:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[01:06:01]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:125:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield PST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[01:06:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:126:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[01:06:15]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Candsdruid-Stormrage:127:CHANNEL:2|h|cffff7c0aCandsdruid|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00SIGKILL|r|cffffffff>|r 5/8M LF Core bench players and Active members to Help push keys. Come join a fun active guild. We clear Heroic every sunday for Alts and lower experienced players. Come join! pst for invite!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				20, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[01:06:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kynlaîs-Stormrage:129:CHANNEL:2|h|cffa330c9Kynlaîs|r|h|cffd8d8d8]|r: SELLING |cffa335ee|Hitem:163943::::::::120:577::54:2:1472:4786:::|h[Neleimour's Patterned Leggings]|h|r 90k (lower than AH) PST!", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				24, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[01:06:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:130:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[01:06:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aldoxin-Stormrage:131:CHANNEL:2|h|cfff48cbaAldoxin|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00MATURE CONTENT|r|cffffffff>|r is a large Cross-Realm Guild on 8 Servers w/ 3,000+ members, Raids, events, website. 18+. Whisper “LF Guild” for an invite.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				26, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[01:07:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blobbey-Stormrage:132:CHANNEL:2|h|cffffffffBlobbey|r|h|cffd8d8d8]|r:  |cffffffff<|r|cff00ff00Heroes and Legends|r|cffffffff>|r  4/8M, 8/8H  is currently looking for ranged DPS and healers interested in mythic progression for IMMEDIATE raid slots.  Raid times are Sunday/Monday/Wednesday 9-12 server (EST).  Mythic + players welcome.  Pst for more info.", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				28, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[01:07:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:133:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[01:07:25]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Larunxe-Stormrage:134:CHANNEL:2|h|cfffff468Larunxe|r|h|cffd8d8d8]|r: WTB mage port to stormshield PST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				18, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[01:07:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:135:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[01:08:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:136:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[01:08:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:137:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[01:09:13]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:138:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[01:09:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gnalaillene-Stormrage:139:CHANNEL:2|h|cff00ff96Gnalaillene|r|h|cffd8d8d8]|r: ◄WTS Mythic+10+11+12  Carry for the 380+ week reward/Heroic Uldir 8/8 Guarantee 5 items/FULL 370 gear/carry right now.Also Unlock All Glory ACH for Mount|cffffff00|Hachievement:12812:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Wartorn Hero]|h|rand|cffffff00|Hachievement:12806:Player-60-0BE14F18:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rPST", -- [1]
-				0.909803986549378, -- [2]
-				0.619607865810394, -- [3]
-				0.474509835243225, -- [4]
-				68, -- [5]
-				false, -- [6]
-				3, -- [7]
-				4, -- [8]
-			}, -- [31]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 31,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 182899.624,
+					["serverTime"] = 1603393105,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCDruid Guardian",
+					["timestamp"] = 182899.624,
+					["serverTime"] = 1603393105,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 182899.624,
+					["serverTime"] = 1603393105,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:48]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182903.444,
+					["serverTime"] = 1603393109,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:52]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182907.48,
+					["serverTime"] = 1603393113,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182910.737,
+					["serverTime"] = 1603393117,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:59]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182913.925,
+					["serverTime"] = 1603393120,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:02]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182917.212,
+					["serverTime"] = 1603393123,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:06]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182921.268,
+					["serverTime"] = 1603393127,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:08]|h|r You loot 51 Silver, 9 Copper",
+					["serverTime"] = 1603393129,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182923.419,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:12]|h|r Injured Stormwind Infantry says: You're Samoansavage! The hero that everyone has been talking about! Thank you!",
+					["serverTime"] = 1603393133,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182926.989,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:14]|h|r Grapejellie-EmeraldDream receives loot: |cff9d9d9d|Hitem:62328::::::::49:104:::::::|h[Shed Fur]|h|rx3.",
+					["serverTime"] = 1603393135,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182928.856,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:29]|h|r Injured Stormwind Infantry says: I... I'm ok! I'm ok!",
+					["serverTime"] = 1603393150,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182944.056,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:33]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq64|k:27:3055:BN_INLINE_TOAST_ALERT:0|h[|Kq64|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tPineapple)|h has come online.",
+					["serverTime"] = 1603393154,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182948.247,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:34]|h|r Goblin Assassin says: We'll kill anybody for the right price!",
+					["serverTime"] = 1603393155,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182949.581,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:36]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182950.799,
+					["serverTime"] = 1603393157,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:38]|h|r You loot 26 Silver, 57 Copper",
+					["serverTime"] = 1603393159,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182953.035,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:40]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182954.837,
+					["serverTime"] = 1603393161,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:48]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182962.962,
+					["serverTime"] = 1603393169,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:59:57]|h|r Grapejellie-EmeraldDream receives loot: |cffffffff|Hitem:56147::::::::49:104::::1:28:73:::|h[Fatcandle Bag]|h|r.",
+					["serverTime"] = 1603393178,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182971.783,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:13]|h|r You receive loot: |cffffffff|Hitem:56147::::::::49:104::::1:28:73:::|h[Fatcandle Bag]|h|r.",
+					["serverTime"] = 1603393194,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182988.057,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:14]|h|r You loot 19 Silver, 29 Copper",
+					["serverTime"] = 1603393195,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182989.141,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:20]|h|r You loot 25 Silver, 14 Copper",
+					["serverTime"] = 1603393201,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						40, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182995.699,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:26]|h|r Celestine of the Harvest yells: The Wickerman festivities will begin in ten minutes! Please join us just outside the gates of Stormwind City and celebrate Hallow's End!",
+					["serverTime"] = 1603393207,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						45, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 183001.59,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:28]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 183003.076,
+					["serverTime"] = 1603393209,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:31]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 183005.893,
+					["serverTime"] = 1603393212,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:35]|h|r Goblin Assassin says: We'll kill anybody for the right price!",
+					["serverTime"] = 1603393216,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 183010.398,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:36]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 183011.099,
+					["serverTime"] = 1603393217,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:42]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 183016.872,
+					["serverTime"] = 1603393223,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[13:00:46]|h|r Shade of the Horseman yells: Prepare yourselves, the bells have tolled! Shelter your weak, your young and your old! Each of you shall pay the final sum. Cry for mercy, the reckoning has come!",
+					["serverTime"] = 1603393227,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						45, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 183021.017,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 183039.731,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:53]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182488.516,
+					["serverTime"] = 1603392694,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182491.31,
+					["serverTime"] = 1603392697,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:59]|h|r You have invited Grapejellie-EmeraldDream to join your group.",
+					["serverTime"] = 1603392700,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182494.218,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:59]|h|r Dungeon Difficulty set to Mythic.",
+					["serverTime"] = 1603392700,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182494.238,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:51:59]|h|r |cFF33FF99Skada|r: All data has been reset.",
+					["timestamp"] = 182494.238,
+					["serverTime"] = 1603392700,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:01]|h|r Grapejellie-EmeraldDream joins the party.",
+					["serverTime"] = 1603392702,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182496.259,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:01]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182496.259,
+					["serverTime"] = 1603392702,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:01]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Your current spec is Tank. Your current loot choice is Damage.",
+					["r"] = 0.41,
+					["serverTime"] = 1603392702,
+					["timestamp"] = 182496.396,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:02]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182496.908,
+					["serverTime"] = 1603392703,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:2994:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTS|cffffffff|Hitem:60838::::::::50:72:::::::|h[Mysterious Fortune Card]|h|rAH or Pst!",
+					["serverTime"] = 1603392708,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182502.387,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:07]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:2995:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTB|cffa335ee|Hitem:60844::::::::50:72:::::::|h[Fortune Card]|h|r50k  Finally make your father proud and bring home some bacon!",
+					["serverTime"] = 1603392708,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182502.387,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:07]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+18, |cffe69f00-0",
+					["timestamp"] = 182502.408,
+					["serverTime"] = 1603392708,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:08]|h|r You have unlearned |cff71d5ff|Hspell:329042:0|h[Roar of the Protector]|h|r.",
+					["serverTime"] = 1603392709,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182503.524,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:08]|h|r You have learned a new ability: |cff71d5ff|Hspell:329042:0|h[Roar of the Protector]|h|r.",
+					["serverTime"] = 1603392709,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182503.524,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:09]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182503.973,
+					["serverTime"] = 1603392710,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:09]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182504.044,
+					["serverTime"] = 1603392710,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:25]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182520.068,
+					["serverTime"] = 1603392726,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:26]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182520.74,
+					["serverTime"] = 1603392727,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:38]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182533.137,
+					["serverTime"] = 1603392739,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:52:43]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182538.077,
+					["serverTime"] = 1603392744,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:02]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182556.994,
+					["serverTime"] = 1603392763,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:02]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182557.631,
+					["serverTime"] = 1603392763,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:04]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182559.166,
+					["serverTime"] = 1603392765,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:06]|h|r Stormwind Infantry says: I need a heal!",
+					["serverTime"] = 1603392767,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182561.622,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:21]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182576.402,
+					["serverTime"] = 1603392782,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:24]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182579.538,
+					["serverTime"] = 1603392785,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:29]|h|r You have unlearned |cff71d5ff|Hspell:329042:0|h[Roar of the Protector]|h|r.",
+					["serverTime"] = 1603392790,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182583.766,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:29]|h|r You have learned a new ability: |cff71d5ff|Hspell:329042:0|h[Roar of the Protector]|h|r.",
+					["serverTime"] = 1603392790,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182584.093,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:29]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182584.609,
+					["serverTime"] = 1603392790,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:31]|h|r Wigsd-LaughingSkull has defeated Shankzs-Sargeras in a duel",
+					["serverTime"] = 1603392792,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182586.196,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:41]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182596.157,
+					["serverTime"] = 1603392802,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aquafeenuh-Stormrage:3012:CHANNEL:2|h|cffa22fc8Aquafeenuh|r|h|cffd8d8d8]|r: LF healer or tank que for HH, can return the favor!",
+					["serverTime"] = 1603392803,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182597.058,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shènzy-Stormrage:3013:CHANNEL:2|h|cffa9d271Shènzy|r|h|cffd8d8d8]|r: •WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3",
+					["serverTime"] = 1603392805,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182598.743,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3014:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: all I know is they are saying it's a legal requirement they launch it before the new year",
+					["serverTime"] = 1603392806,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182599.744,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:53:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ichizon-Stormrage:3015:CHANNEL:2|h|cff006fdcIchizon|r|h|cffd8d8d8]|r: no its not since theyre offering refunds now",
+					["serverTime"] = 1603392820,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182613.743,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mathame-Stormrage:3016:CHANNEL:2|h|cffc31d39Mathame|r|h|cffd8d8d8]|r: Anatomically Undergeared is recruiting! We are a social guild with a group of semi serious raiders with intentions of Raids and M+ in Shadowlands. Lets have some fun and build a great community!",
+					["serverTime"] = 1603392822,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182616.329,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:14]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182628.793,
+					["serverTime"] = 1603392835,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danada-Stormrage:3017:CHANNEL:2|h|cfffefefeDanada|r|h|cffd8d8d8]|r: Thank you... I've just boosted a character to a 50 lvl and I don't know where to start... pretty stuck with this bad gear",
+					["serverTime"] = 1603392850,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182644.01,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ichizon-Stormrage:3018:CHANNEL:2|h|cff006fdcIchizon|r|h|cffd8d8d8]|r: once they started offering refunds that changes the requirements for launch dates",
+					["serverTime"] = 1603392851,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182645.578,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:35]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182650.484,
+					["serverTime"] = 1603392856,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nuane-Stormrage:3019:CHANNEL:2|h|cfffe7b09Nuane|r|h|cffd8d8d8]|r: look in the launcher - theres an offer for game time that expires 12/13 - so that most likel;y means 12/13 or 12/14 is xpac",
+					["serverTime"] = 1603392866,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182660.254,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3020:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: Do mythic 0 dungeons, all the world quests, and kill the world bosses",
+					["serverTime"] = 1603392874,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182667.787,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:55]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182670.121,
+					["serverTime"] = 1603392876,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:3021:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTS|cffffffff|Hitem:60838::::::::50:72:::::::|h[Mysterious Fortune Card]|h|rAH or Pst!",
+					["serverTime"] = 1603392877,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.354,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feminist-Stormrage:3022:CHANNEL:2|h|cffa9d271Feminist|r|h|cffd8d8d8]|r: WTB|cffa335ee|Hitem:60844::::::::50:72:::::::|h[Fortune Card]|h|r50k  Finally make your father proud and bring home some bacon!",
+					["serverTime"] = 1603392877,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.354,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shènzy-Stormrage:3023:CHANNEL:2|h|cffa9d271Shènzy|r|h|cffd8d8d8]|r: •WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3",
+					["serverTime"] = 1603392878,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182671.848,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:54:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mox-Stormrage:3024:CHANNEL:2|h|cfffefefeMox|r|h|cffd8d8d8]|r: and try to get into raids for gear",
+					["serverTime"] = 1603392880,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182674.343,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:04]|h|r You have unlearned |cff71d5ff|Hspell:329042:0|h[Roar of the Protector]|h|r.",
+					["serverTime"] = 1603392885,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182679.482,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:04]|h|r You have opted out of War Mode.",
+					["serverTime"] = 1603392885,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182679.482,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:04]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182679.666,
+					["serverTime"] = 1603392885,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:05]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182680.014,
+					["serverTime"] = 1603392886,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cryspin-Stormrage:3027:CHANNEL:2|h|cff3ec6eaCryspin|r|h|cffd8d8d8]|r: wont prepatch bring new gear",
+					["serverTime"] = 1603392892,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182686.134,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Muleka-Stormrage:3028:CHANNEL:2|h|cfff38bb9Muleka|r|h|cffd8d8d8]|r: WTS 0-5 masks vision carry. Full run. Cheap price, gold only! pst for more info. =)",
+					["serverTime"] = 1603392896,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182689.977,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:16]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182691.212,
+					["serverTime"] = 1603392897,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Roxlee-Stormrage:3029:CHANNEL:2|h|cff8687edRoxlee|r|h|cffd8d8d8]|r: anyone wanna help me with |cffa335ee|Hkeystone:158923:369:3:9:0:0:0|h[Keystone: Operation: Mechagon - Junkyard (3)]|h|r?",
+					["serverTime"] = 1603392899,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182692.747,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:18]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182693.548,
+					["serverTime"] = 1603392899,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danthos-Stormrage:3030:CHANNEL:2|h|cfff38bb9Danthos|r|h|cffd8d8d8]|r: yes, the prepatch event brings catchup gear",
+					["serverTime"] = 1603392904,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182698.136,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danada-Stormrage:3031:CHANNEL:2|h|cfffefefeDanada|r|h|cffd8d8d8]|r: Thank you for tips! Will do that",
+					["serverTime"] = 1603392905,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182699.104,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:42]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182717.174,
+					["serverTime"] = 1603392923,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:50]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182724.999,
+					["serverTime"] = 1603392931,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:55:57]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182732.661,
+					["serverTime"] = 1603392938,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:04]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182739.499,
+					["serverTime"] = 1603392945,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:08]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182742.798,
+					["serverTime"] = 1603392949,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:16]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182750.917,
+					["serverTime"] = 1603392957,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:23]|h|r Party Sync activated.",
+					["serverTime"] = 1603392964,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182758.541,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:35]|h|r You are already on that quest.",
+					["serverTime"] = 1603392976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182770.385,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:36]|h|r Quest accepted: Lions for Lambs",
+					["serverTime"] = 1603392977,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182770.734,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:56:43]|h|r You don't meet the requirements for that quest.",
+					["serverTime"] = 1603392984,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182778.074,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:03]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182797.947,
+					["serverTime"] = 1603393004,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:08]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182802.779,
+					["serverTime"] = 1603393009,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:10]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182805.181,
+					["serverTime"] = 1603393011,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182807.341,
+					["serverTime"] = 1603393013,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:14]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182809.678,
+					["serverTime"] = 1603393015,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:17]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182812.085,
+					["serverTime"] = 1603393018,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:21]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182816.167,
+					["serverTime"] = 1603393022,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:21]|h|r Blackrock Spy says: Orc KILL night elf!",
+					["serverTime"] = 1603393022,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182816.35,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:26]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182821.022,
+					["serverTime"] = 1603393027,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:28]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182823.074,
+					["serverTime"] = 1603393029,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:31]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182825.904,
+					["serverTime"] = 1603393032,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:35]|h|r |cff33ff99MaxDps|r: |cFFF0563DSpell not found on action bars: Moonfire(8921)",
+					["timestamp"] = 182829.854,
+					["serverTime"] = 1603393036,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r You gain 280 experience.",
+					["serverTime"] = 1603393051,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:288826:0|h[Stampeding Roar]|h|r.",
+					["serverTime"] = 1603393051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r |cff33ff99MaxDps|r: |cFF1394CCDisabling",
+					["timestamp"] = 182845.442,
+					["serverTime"] = 1603393051,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:49:LEVEL_UP_TYPE_CHARACTER|h[Level 49]|h|r!",
+					["serverTime"] = 1603393051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r Quest accepted: Join the Battle!",
+					["serverTime"] = 1603393051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:50]|h|r Replay Quest Removed: Lions for Lambs",
+					["serverTime"] = 1603393051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182845.442,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:51]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 182845.769,
+					["serverTime"] = 1603393052,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:51]|h|r Lions for Lambs completed.",
+					["serverTime"] = 1603393052,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.769,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:51]|h|r Experience gained: 280.",
+					["serverTime"] = 1603393052,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.769,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:57:51]|h|r Received 15 Silver.",
+					["serverTime"] = 1603393052,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182845.769,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:14]|h|r Join the Battle! completed.",
+					["serverTime"] = 1603393075,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182869.213,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:14]|h|r Replay Quest Removed: Join the Battle!",
+					["serverTime"] = 1603393075,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 182869.264,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:14]|h|r Quest accepted: They Sent Assassins",
+					["serverTime"] = 1603393075,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182869.541,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:33]|h|r You receive item: |cffffffff|Hitem:65733::::::::49:104::::1:28:1476:::|h[Paxton's Prayer Book]|h|r.",
+					["serverTime"] = 1603393094,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182887.996,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:33]|h|r Quest accepted: Fear No Evil",
+					["serverTime"] = 1603393094,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 182888.43,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:44]|h|r |cff33ff99MaxDps|r: |cFFBCCF02Auto enable on combat!",
+					["timestamp"] = 182899.624,
+					["serverTime"] = 1603393105,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[12:58:44]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 182899.624,
+					["serverTime"] = 1603393105,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 	},
 }

@@ -1,0 +1,1728 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 22,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r You have learned a new passive effect: |cff71d5ff|Hspell:320382:0|h[Demonic Wards]|h|r.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718851,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r Ship Salvage completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718851,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r Experience gained: 5437.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718851,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r Received 16 Gold, 98 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718851,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:07]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:43:LEVEL_UP_TYPE_CHARACTER|h[Level 43]|h|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718851,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:32]|h|r Pale Moonlight completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718876,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:32]|h|r Experience gained: 4125.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718876,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:32]|h|r Received 16 Gold, 98 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718876,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:38]|h|r Quest accepted: Build Your Barracks",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718882,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:14:56]|h|r Barracks blueprint learned.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718900,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:15:49]|h|r |cff0070dd|Hitem:122298::::::::43:581:::::::|h[Bodyguard Miniaturization Device]|h|r has been added to your Toy Box.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718953,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:16:08]|h|r Build Your Barracks completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718972,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:16:08]|h|r Experience gained: 5125.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718972,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:16:08]|h|r Received 33 Gold, 96 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718972,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:16:09]|h|r Quest accepted: Qiana Moonshadow",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718973,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:16:29]|h|r Quest accepted: A Timely Invitation",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 639453.392,
+					["serverTime"] = 1604718993,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 4 |4minute:minutes;, 16 |4second:seconds;",
+					["timestamp"] = 639453.392,
+				}, -- [17]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 639453.392,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:20:58]|h|r Total time played: 0 |4day:days;, 15 |4hour:hours;, 6 |4minute:minutes;, 15 |4second:seconds;",
+					["serverTime"] = 1604719262,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 639472.912,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:20:58]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 3 |4minute:minutes;, 4 |4second:seconds;",
+					["serverTime"] = 1604719262,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 639472.912,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:46]|h|r Mattam seems a little tipsy from the |cffffffff|Hitem:2723::::::::43:581:::::::|h[Bottle of Dalaran Noir]|h|r.",
+					["serverTime"] = 1604719910,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640121.736,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:13]|h|r Quest accepted: Tides of War",
+					["serverTime"] = 1604719937,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640148.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 126,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragemourne-EmeraldDream:173:CHANNEL:2|h|cffc31d39Ragemourne|r|h|cffd8d8d8]|r: My heresy senses are tingling.",
+					["serverTime"] = 1604719841,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						70, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640052.429,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:37]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640052.613,
+					["serverTime"] = 1604719841,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:41]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640056.79,
+					["serverTime"] = 1604719845,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:48]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640063.433,
+					["serverTime"] = 1604719852,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xaneesha-EmeraldDream:174:CHANNEL:2|h|cffc59a6cXaneesha|r|h|cffd8d8d8]|r: I just saw the other day that in South Korea's highways they put a bike path in the middle with solar panels on top to protect from the sun",
+					["serverTime"] = 1604719852,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640063.62,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:52]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640067.465,
+					["serverTime"] = 1604719856,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:54]|h|r Lisbeth Schneider says: Let me know if you need help finding anything, paladin.",
+					["serverTime"] = 1604719858,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640069.209,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xaneesha-EmeraldDream:176:CHANNEL:2|h|cffc59a6cXaneesha|r|h|cffd8d8d8]|r: I thought it was a brilliant idea tbh",
+					["serverTime"] = 1604719859,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640070.914,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aetreyu-EmeraldDream:177:CHANNEL:2|h|cfff38bb9Aetreyu|r|h|cffd8d8d8]|r: %^&* were a socialst party",
+					["serverTime"] = 1604719860,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640071.158,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640071.509,
+					["serverTime"] = 1604719860,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:57]|h|r |cffd8d8d8[|r|Hplayer:Mattam-EmeraldDream:178:ACHIEVEMENT|h|cfff38bb9Mattam|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:503:Player-162-0B2AA24F:1:11:6:20:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r |cffffffff(|rCompleted 1/07/20|cffffffff)|r |cff2080a0|Hgratsl:Mattam:ACHIEVEMENT::503|h[say grats]|h|r!",
+					["serverTime"] = 1604719861,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						76, -- [3]
+						95, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640072.9,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:59]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640074.729,
+					["serverTime"] = 1604719863,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:01]|h|r Rema Schneider says: Corbett, dear.  Harlan needs a load of knitted shirts and pants as soon as we can manage.",
+					["serverTime"] = 1604719865,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640076.886,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chirahadori-EmeraldDream:180:CHANNEL:2|h|cff8687edChirahadori|r|h|cffd8d8d8]|r: he said the words \"there are good people on both sides.\" One of those sides were literal seigheiling tiki torch carrying !@#$s!",
+					["serverTime"] = 1604719868,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640079.332,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:06]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640081.144,
+					["serverTime"] = 1604719870,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:08]|h|r Corbett Schneider says: My pleasure, sugar drop.  I'll be back soon...",
+					["serverTime"] = 1604719872,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640083.813,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:09]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640084.56,
+					["serverTime"] = 1604719873,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:15]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640089.997,
+					["serverTime"] = 1604719879,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Noback-EmeraldDream:182:CHANNEL:2|h|cff3ec6eaNoback|r|h|cffd8d8d8]|r: [WTS] HORRIFIC VISION FULL CLEAR FOR GOLD. 0-5 MASK. Whisp for more info",
+					["serverTime"] = 1604719880,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640091.579,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:20]|h|r Stormwind City Guard says: Monster!",
+					["serverTime"] = 1604719884,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640095.759,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:21]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Forestsprite-EmeraldDream:184:CHANNEL:2|h|cffc59a6cForestsprite|r|h|cffd8d8d8]|r: Find em and fill me in Rockwool! You know about my hardened hands from years and years of rubbing and striking hardened wood, for exercise.",
+					["serverTime"] = 1604719885,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640096.5650000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:22]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640097.072,
+					["serverTime"] = 1604719886,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:28]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640103.025,
+					["serverTime"] = 1604719892,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tweazr-EmeraldDream:185:CHANNEL:2|h|cff00fe97Tweazr|r|h|cffd8d8d8]|r: and his very next words were \"and I'm not talking about the white supremacists\"",
+					["serverTime"] = 1604719893,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640104.452,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:31]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640106.434,
+					["serverTime"] = 1604719895,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:35]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640110.517,
+					["serverTime"] = 1604719899,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:36]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arconmedon-EmeraldDream:186:CHANNEL:2|h|cfff38bb9Arconmedon|r|h|cffd8d8d8]|r: - BATTLE FOR NAZJATAR LIVE! - FIXED REWARDING CONQUEST 115 iLevel PVP GEAR! LISTED: RUIN BATTLE FOR NAZJATAR - Custom PVP Group Finder - Discord: |cffffffff|Hurl:https://discord.gg/ruin|h[https://discord.gg/ruin]|h|r - Honor - Conquest - MANAPEARLS FOR ALL -Achievements: |cffffffff|Hurl:https://twitch.tv/RuinTV|h[https://twitch.tv/RuinTV]|h|r",
+					["serverTime"] = 1604719900,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640111.105,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stephakanoni-EmeraldDream:187:CHANNEL:2|h|cffc59a6cStephakanoni|r|h|cffd8d8d8]|r: shiradori am i your %^&*! for the next 4 years?",
+					["serverTime"] = 1604719901,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640112.264,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:188:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: monster nolan ryan forearms as well",
+					["serverTime"] = 1604719902,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640112.971,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:38]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640112.993,
+					["serverTime"] = 1604719902,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xaneesha-EmeraldDream:189:CHANNEL:2|h|cffc59a6cXaneesha|r|h|cffd8d8d8]|r: How that raid on Org go earlier.",
+					["serverTime"] = 1604719902,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640113.17,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:41]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640116.172,
+					["serverTime"] = 1604719905,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:46]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640121.61,
+					["serverTime"] = 1604719910,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:46]|h|r Mattam seems a little tipsy from the |cffffffff|Hitem:2723::::::::43:581:::::::|h[Bottle of Dalaran Noir]|h|r.",
+					["serverTime"] = 1604719910,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640121.736,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:49]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640124.844,
+					["serverTime"] = 1604719913,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:52]|h|r Thomas Miller says: Freshly baked bread for sale!",
+					["serverTime"] = 1604719916,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640127.127,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:53]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640128.229,
+					["serverTime"] = 1604719917,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640131.18,
+					["serverTime"] = 1604719920,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aetreyu-EmeraldDream:192:CHANNEL:2|h|cfff38bb9Aetreyu|r|h|cffd8d8d8]|r: DOnt believe anyone who preface their  point with  \" literally\"",
+					["serverTime"] = 1604719921,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640132.184,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Össur-EmeraldDream:193:CHANNEL:2|h|cff8687edÖssur|r|h|cffd8d8d8]|r: anyone want |cff1eff00|Hitem:4088::::::::50:265:::2:6655:1678:2:28:28:9:30:::|h[Dreadblade of the Quickblade]|h|r 4g",
+					["serverTime"] = 1604719921,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640132.184,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chirahadori-EmeraldDream:194:CHANNEL:2|h|cff8687edChirahadori|r|h|cffd8d8d8]|r: Stepmom Karen, you were already my @#$%^, now kneel for black lives matter",
+					["serverTime"] = 1604719921,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640132.814,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:31:58]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640133.409,
+					["serverTime"] = 1604719922,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:00]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640135.5260000001,
+					["serverTime"] = 1604719924,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:03]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640138.132,
+					["serverTime"] = 1604719927,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:06]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640141.889,
+					["serverTime"] = 1604719930,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stephakanoni-EmeraldDream:195:CHANNEL:2|h|cffc59a6cStephakanoni|r|h|cffd8d8d8]|r: ./kneel",
+					["serverTime"] = 1604719935,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640146.728,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640146.984,
+					["serverTime"] = 1604719936,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:13]|h|r Quest accepted: Tides of War",
+					["serverTime"] = 1604719937,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						100, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640148.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:13]|h|r Anduin Wrynn says: Champion! An urgent War Council is underway. Your presence is requested in Stormwind Keep.",
+					["serverTime"] = 1604719937,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640148.409,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:14]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640149.117,
+					["serverTime"] = 1604719938,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:16]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640151.721,
+					["serverTime"] = 1604719940,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:19]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640154.756,
+					["serverTime"] = 1604719943,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:22]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640157.4890000001,
+					["serverTime"] = 1604719946,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Össur-EmeraldDream:198:CHANNEL:2|h|cff8687edÖssur|r|h|cffd8d8d8]|r: |cff1eff00|Hitem:14780::::::::50:265:::1:6655:2:28:28:9:30:::|h[Khan's Buckler]|h|r",
+					["serverTime"] = 1604719950,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640161.354,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:26]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640161.552,
+					["serverTime"] = 1604719950,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:30]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640165.598,
+					["serverTime"] = 1604719954,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:31]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chirahadori-EmeraldDream:199:CHANNEL:2|h|cff8687edChirahadori|r|h|cffd8d8d8]|r: *pats on the head* good, now you are just a little less racist",
+					["serverTime"] = 1604719955,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640166.7490000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:34]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640169.702,
+					["serverTime"] = 1604719958,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talamet-EmeraldDream:200:CHANNEL:2|h|cff8687edTalamet|r|h|cffd8d8d8]|r: i'll buckle your khan",
+					["serverTime"] = 1604719962,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640173.006,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:44]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640179.351,
+					["serverTime"] = 1604719968,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dadough-EmeraldDream:201:CHANNEL:2|h|cffd84e4e50|r:|cffc59a6cDadough|r|h|cffd8d8d8]|r: I love you all",
+					["serverTime"] = 1604719968,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						102, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640179.46,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:46]|h|r You receive item: |cff1eff00|Hitem:45574::::::::43:581::14::1:28:864:::|h[Stormwind Tabard]|h|r.",
+					["serverTime"] = 1604719970,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						104, -- [3]
+						105, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640181.341,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:47]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640182.513,
+					["serverTime"] = 1604719971,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:203:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: &*!@ you",
+					["serverTime"] = 1604719973,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640183.992,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:52]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640187.851,
+					["serverTime"] = 1604719976,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:205:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: <3",
+					["serverTime"] = 1604719978,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640189.6460000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:55]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640190.093,
+					["serverTime"] = 1604719979,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:57]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640192.324,
+					["serverTime"] = 1604719981,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:32:59]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640194.481,
+					["serverTime"] = 1604719983,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Noback-EmeraldDream:210:CHANNEL:2|h|cff3ec6eaNoback|r|h|cffd8d8d8]|r: [WTS] HORRIFIC VISION FULL CLEAR FOR GOLD. 0-5 MASK. Whisp for more info",
+					["serverTime"] = 1604719986,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640197.188,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:06]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640201.599,
+					["serverTime"] = 1604719990,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:09]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640204.73,
+					["serverTime"] = 1604719993,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640207.473,
+					["serverTime"] = 1604719996,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dogsoup-EmeraldDream:213:CHANNEL:2|h|cffc31d39Dogsoup|r|h|cffd8d8d8]|r: lol who needs it",
+					["serverTime"] = 1604719997,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						106, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640208.019,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:14]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640209.758,
+					["serverTime"] = 1604719998,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:19]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640214.05,
+					["serverTime"] = 1604720003,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:21]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640216.187,
+					["serverTime"] = 1604720005,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chirahadori-EmeraldDream:214:CHANNEL:2|h|cff8687edChirahadori|r|h|cffd8d8d8]|r: can someone tell Aetreyu i dont appreciate his racist whisper to me",
+					["serverTime"] = 1604720008,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640219.232,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:24]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640219.8200000001,
+					["serverTime"] = 1604720008,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:26]|h|r Baradin Guard yells: Victory in Tol Barad is ours! While the Horde offensive is crippled, we need your immediate efforts to gather resources and secure the island!",
+					["serverTime"] = 1604720010,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						108, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640221.697,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:28]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640223.176,
+					["serverTime"] = 1604720012,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:31]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640226.533,
+					["serverTime"] = 1604720015,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:37]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640232.598,
+					["serverTime"] = 1604720021,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:43]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640238.073,
+					["serverTime"] = 1604720027,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:46]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640241.464,
+					["serverTime"] = 1604720030,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tweazr-EmeraldDream:221:CHANNEL:2|h|cff00fe97Tweazr|r|h|cffd8d8d8]|r: I'm just glad people got out to vote in record numbers, hell some states had 100k+ more voters than they had elligible voters. Great time for our democracy",
+					["serverTime"] = 1604720031,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640242.4400000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:49]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640243.985,
+					["serverTime"] = 1604720033,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Talamet-EmeraldDream:222:CHANNEL:2|h|cff8687edTalamet|r|h|cffd8d8d8]|r: well, who names their toon after a femboi that rides dragon puppies?",
+					["serverTime"] = 1604720040,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640251.569,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:33:58]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640253.2760000001,
+					["serverTime"] = 1604720042,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:01]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640256.028,
+					["serverTime"] = 1604720045,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:223:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: Hmmm",
+					["serverTime"] = 1604720046,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640257.235,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:05]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640260.076,
+					["serverTime"] = 1604720049,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:08]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640263.461,
+					["serverTime"] = 1604720052,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Digsby-EmeraldDream:224:CHANNEL:2|h|cfff38bb9Digsby|r|h|cffd8d8d8]|r: a god",
+					["serverTime"] = 1604720055,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640266.1140000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640267.188,
+					["serverTime"] = 1604720056,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:17]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640272.716,
+					["serverTime"] = 1604720061,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:32]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640287.182,
+					["serverTime"] = 1604720076,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:34:37]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640292.904,
+					["serverTime"] = 1604720081,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:225:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: Come ride my never ending story",
+					["serverTime"] = 1604720107,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640318.661,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:07]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640322.2660000001,
+					["serverTime"] = 1604720111,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xaneesha-EmeraldDream:226:CHANNEL:2|h|cffc59a6cXaneesha|r|h|cffd8d8d8]|r: That was a good one",
+					["serverTime"] = 1604720119,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640330.405,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Madchops-EmeraldDream:227:CHANNEL:2|h|cffa9d271Madchops|r|h|cffd8d8d8]|r: nice",
+					["serverTime"] = 1604720122,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						110, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640333.905,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:30]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640345.011,
+					["serverTime"] = 1604720134,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:33]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640348.3250000001,
+					["serverTime"] = 1604720137,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Traak-EmeraldDream:228:CHANNEL:2|h|cff00fe97Traak|r|h|cffd8d8d8]|r: do u need to be a certain level to enable warmode?",
+					["serverTime"] = 1604720142,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640353.211,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Traak-EmeraldDream:229:CHANNEL:2|h|cff00fe97Traak|r|h|cffd8d8d8]|r: tryin to get them free talents",
+					["serverTime"] = 1604720146,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640357.475,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:44]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640359.519,
+					["serverTime"] = 1604720148,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:50]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640365.554,
+					["serverTime"] = 1604720154,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:50]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Madchops-EmeraldDream:230:CHANNEL:2|h|cffa9d271Madchops|r|h|cffd8d8d8]|r: i think level 20??",
+					["serverTime"] = 1604720154,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						110, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640365.877,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Isteponyou-EmeraldDream:231:CHANNEL:2|h|cff006fdcIsteponyou|r|h|cffd8d8d8]|r: 20",
+					["serverTime"] = 1604720156,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						114, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640367.8250000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:35:56]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640371.0480000001,
+					["serverTime"] = 1604720160,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:01]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640376.377,
+					["serverTime"] = 1604720165,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:04]|h|r Baradin Guard yells: Victory in Tol Barad is ours! While the Horde offensive is crippled, we need your immediate efforts to gather resources and secure the island!",
+					["serverTime"] = 1604720168,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						108, -- [3]
+						109, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640379.594,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:08]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640383.834,
+					["serverTime"] = 1604720172,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Traak-EmeraldDream:233:CHANNEL:2|h|cff00fe97Traak|r|h|cffd8d8d8]|r: dayum, the man keeping me down.",
+					["serverTime"] = 1604720174,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640385.868,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:13]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640388.542,
+					["serverTime"] = 1604720177,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:17]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640392.29,
+					["serverTime"] = 1604720181,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:20]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640395.841,
+					["serverTime"] = 1604720184,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:29]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:234:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: it takes all of 45 minutes tho",
+					["serverTime"] = 1604720193,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640403.979,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Traak-EmeraldDream:235:CHANNEL:2|h|cff00fe97Traak|r|h|cffd8d8d8]|r: im a gamer not a hacker",
+					["serverTime"] = 1604720204,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						112, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640415.554,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:49]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640424.112,
+					["serverTime"] = 1604720213,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:36:59]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640434.779,
+					["serverTime"] = 1604720223,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:37:24]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 640459.321,
+					["serverTime"] = 1604720248,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:37:24]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1604720248,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640459.523,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:37:24]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1604720248,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						116, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640459.523,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:37:24]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1604720248,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640459.523,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rockwool-EmeraldDream:171:CHANNEL:2|h|cff006fdcRockwool|r|h|cffd8d8d8]|r: where can i get some suck ball at?",
+					["serverTime"] = 1604719839,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640050.111,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:30:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Digsby-EmeraldDream:172:CHANNEL:2|h|cfff38bb9Digsby|r|h|cffd8d8d8]|r: facists come in many shapes and sizes",
+					["serverTime"] = 1604719839,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 640050.111,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

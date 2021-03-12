@@ -1,0 +1,30 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-11-24",
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Sprinkles"] = {
+				["lastUpdate"] = 1604724017,
+			},
+			["Default.Emerald Dream.Gizelin"] = {
+				["lastUpdate"] = 1604773037,
+			},
+			["Default.Emerald Dream.Buhbels"] = {
+				["lastUpdate"] = 1605929785,
+			},
+			["Default.Emerald Dream.Cupkek"] = {
+				["lastUpdate"] = 1605815087,
+			},
+		},
+	},
+}

@@ -13,13 +13,15 @@ JambaDisplayTeamProfileDB = {
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "KokonutKrew",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "KokonutKrew",
-		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
-		["Samoantitan - Emerald Dream"] = "KokonutKrew",
-		["Samoanranger - Emerald Dream"] = "KokonutKrew",
-		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "KokonutKrew",
+		["Samoantitan - Emerald Dream"] = "KokonutKrew",
+		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",
 		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
@@ -31,27 +33,27 @@ JambaDisplayTeamProfileDB = {
 		},
 		["KokonutKrew"] = {
 			["enableClique"] = true,
-			["frameYOffset"] = 363.64892578125,
-			["experienceStatusShowPercentage"] = false,
-			["followStatusWidth"] = 15,
-			["barsAreStackedVertically"] = false,
-			["showCharacterPortrait"] = false,
 			["showHealthStatus"] = false,
-			["showToolTipInfo"] = false,
-			["frameBorderColourA"] = 0,
-			["showTeamListOnMasterOnly"] = false,
-			["teamListScale"] = 0.63,
 			["teamListHorizontal"] = false,
-			["teamListTitleHeight"] = 0,
-			["showPowerStatus"] = false,
-			["frameBackgroundColourA"] = 0,
-			["statusBarTexture"] = "Minimalist",
 			["followStatusShowName"] = false,
-			["characterPortraitWidth"] = 30,
-			["experienceStatusWidth"] = 53,
-			["fontStyle"] = "ABF",
-			["fontSize"] = 9,
+			["frameYOffset"] = 363.64892578125,
+			["showCharacterPortrait"] = false,
+			["showToolTipInfo"] = false,
+			["showTeamListOnMasterOnly"] = false,
+			["experienceStatusShowPercentage"] = false,
+			["barsAreStackedVertically"] = false,
 			["charactersPerRow"] = 10,
+			["showPowerStatus"] = false,
+			["characterPortraitWidth"] = 30,
+			["fontSize"] = 9,
+			["followStatusWidth"] = 15,
+			["fontStyle"] = "ABF",
+			["teamListScale"] = 0.63,
+			["statusBarTexture"] = "Minimalist",
+			["teamListTitleHeight"] = 0,
+			["frameBackgroundColourA"] = 0,
+			["experienceStatusWidth"] = 53,
+			["frameBorderColourA"] = 0,
 		},
 		["Samoantank - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
@@ -83,28 +85,34 @@ JambaDisplayTeamProfileDB = {
 		["Samoanbeast - Ravenholdt"] = {
 			["teamListTitleHeight"] = 0,
 		},
+		["Samoanruin - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
 		["Samoansneaky - Tichondrius"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoanrelic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoansmash - Emerald Dream"] = {
+		["Samoanzero - Emerald Dream"] = {
+			["teamListTitleHeight"] = 0,
+		},
+		["Samoanmystic - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Default"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoanranger - Emerald Dream"] = {
+		["Samoansage - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoanspy - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoansage - Emerald Dream"] = {
+		["Samoanranger - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
-		["Samoanmystic - Emerald Dream"] = {
+		["Samoansmash - Emerald Dream"] = {
 			["teamListTitleHeight"] = 0,
 		},
 		["Samoantitan - Stormrage"] = {

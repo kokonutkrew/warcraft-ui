@@ -21,6 +21,20 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Stormrage-Tygrrlilly"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Grapejellie"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Emerald Dream-Samoantank"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -126,13 +140,6 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Wealthgaming"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
-		["system"] = "CHANNEL",
-	},
 	["Emerald Dream-Samoansensei"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -140,7 +147,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoanmystic"] = {
+	["Emerald Dream-Wealthgaming"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -168,7 +175,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Ravenholdt-Kalin"] = {
+	["Tichondrius-Samoanmystic"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -182,7 +189,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansage"] = {
+	["Stormrage-Kakattack"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -196,6 +203,13 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Ravenholdt-Kalin"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Tichondrius-Samoanstrap"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -203,14 +217,21 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Kakattack"] = {
+	["Tichondrius-Samoansage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansavage"] = {
+	["Tichondrius-Marshmello"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Bunni"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -218,6 +239,13 @@ AF_config = {
 		["system"] = "CHANNEL",
 	},
 	["Tichondrius-Samoanrelic"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Tichondrius-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -238,6 +266,13 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Emerald Dream-Cherriebomb"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Stormrage-Samoantitan"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -245,7 +280,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Cherriebomb"] = {
+	["Emerald Dream-Grapejelley"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",

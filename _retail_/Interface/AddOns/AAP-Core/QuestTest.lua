@@ -60,6 +60,9 @@ function AAP.Testa()
 	end
 end
 function AAP.ZoneQuestOrderList()
+	if (AAP1["Debug"]) then
+		print("Function: AAP.ZoneQuestOrderList()")
+	end
 	AAP.ZoneQuestOrder = CreateFrame("frame", "AAPQOrderList", UIParent)
 	AAP.ZoneQuestOrder:SetWidth(231)
 	AAP.ZoneQuestOrder:SetHeight(440)
@@ -71,11 +74,16 @@ function AAP.ZoneQuestOrderList()
 	AAP.ZoneQuestOrder.ZoneName:SetWidth(100)
 	AAP.ZoneQuestOrder.ZoneName:SetHeight(16)
 	AAP.ZoneQuestOrder.ZoneName:SetPoint("BOTTOM", AAP.ZoneQuestOrder, "TOP",0,0)
-	AAP.ZoneQuestOrder.ZoneName:SetBackdrop( { 
-		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-		edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-		tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-	});
+	--AAP.ZoneQuestOrder.ZoneName:SetBackdrop( { 
+	--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+	--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+	--});
+local t = AAP.ZoneQuestOrder.ZoneName:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder.ZoneName)
+AAP.ZoneQuestOrder.ZoneName.texture = t
+
 	AAP.ZoneQuestOrder.ZoneName:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" then
 			AAP.ZoneQuestOrder:StartMoving();
@@ -131,11 +139,16 @@ function AAP.ZoneQuestOrderList()
 		AAP.ZoneQuestOrder:Hide()
 		AAP.OptionsFrame.QorderListzCheckButton:SetChecked(false)
 	end)
-	AAP.ZoneQuestOrder:SetBackdrop( { 
-		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-		edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-		tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-	});
+	--AAP.ZoneQuestOrder:SetBackdrop( { 
+	--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+	--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+	--});
+local t = AAP.ZoneQuestOrder:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder)
+AAP.ZoneQuestOrder.texture = t
+
 	AAP.ZoneQuestOrder:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" then
 			AAP.ZoneQuestOrder:StartMoving();
@@ -169,11 +182,16 @@ function AAP.ZoneQuestOrderList()
 	AAP.ZoneQuestOrder["Current"]:SetWidth(25)
 	AAP.ZoneQuestOrder["Current"]:SetHeight(16)
 	AAP.ZoneQuestOrder["Current"]:SetPoint("RIGHT", AAP.ZoneQuestOrder, "LEFT",0,0)
-	AAP.ZoneQuestOrder["Current"]:SetBackdrop( { 
-		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-		edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-		tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-	});
+	--AAP.ZoneQuestOrder["Current"]:SetBackdrop( { 
+	--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+	--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+	--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+	--});
+local t = AAP.ZoneQuestOrder["Current"]:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder["Current"])
+AAP.ZoneQuestOrder["Current"].texture = t
+
 	AAP.ZoneQuestOrder["Current"]["FS"] = AAP.ZoneQuestOrder["Current"]:CreateFontString("AAPZoneQuestOrderFSCurrent","ARTWORK", "ChatFontNormal")
 	AAP.ZoneQuestOrder["Current"]["FS"]:SetParent(AAP.ZoneQuestOrder["Current"])
 	AAP.ZoneQuestOrder["Current"]["FS"]:SetPoint("CENTER",AAP.ZoneQuestOrder["Current"],"CENTER",1,0)
@@ -191,7 +209,6 @@ function AAP.ZoneQuestOrderList()
 	AAP.ZoneQuestOrder["Order1iDFS"] = {}
 	AAP.ZoneQuestOrder["OrderName"] = {}
 	AAP.ZoneQuestOrder["OrderNameFS"] = {}
-	AAP.PaintZoneOrderButtons()
 end
 function AAP.AddQuestOrderFrame(CLi)
 		CLPos = CLi * 16
@@ -199,11 +216,16 @@ function AAP.AddQuestOrderFrame(CLi)
 		AAP.ZoneQuestOrder[CLi]:SetWidth(25)
 		AAP.ZoneQuestOrder[CLi]:SetHeight(16)
 		AAP.ZoneQuestOrder[CLi]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",5,-((CLPos)-11))
-		AAP.ZoneQuestOrder[CLi]:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
+		--AAP.ZoneQuestOrder[CLi]:SetBackdrop( { 
+		--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+		--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+		--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+		--});
+local t = AAP.ZoneQuestOrder[CLi]:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder[CLi])
+AAP.ZoneQuestOrder[CLi].texture = t
+
 		AAP.ZoneQuestOrder[CLi]:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" then
 				AAP.ZoneQuestOrder:StartMoving();
@@ -248,11 +270,16 @@ function AAP.AddQuestOrderFrame(CLi)
 		AAP.ZoneQuestOrder["Order1"][CLi]:SetWidth(100)
 		AAP.ZoneQuestOrder["Order1"][CLi]:SetHeight(16)
 		AAP.ZoneQuestOrder["Order1"][CLi]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",32,-((CLPos)-11))
-		AAP.ZoneQuestOrder["Order1"][CLi]:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
+		--AAP.ZoneQuestOrder["Order1"][CLi]:SetBackdrop( { 
+		--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+		--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+		--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+		--});
+local t = AAP.ZoneQuestOrder["Order1"][CLi]:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder["Order1"][CLi])
+AAP.ZoneQuestOrder["Order1"][CLi].texture = t
+
 		AAP.ZoneQuestOrder["Order1"][CLi]:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" then
 				AAP.ZoneQuestOrder:StartMoving();
@@ -299,11 +326,16 @@ function AAP.AddQuestIdFrame(CLi)
 		AAP.ZoneQuestOrder["Order1iD"][CLi]:SetWidth(50)
 		AAP.ZoneQuestOrder["Order1iD"][CLi]:SetHeight(16)
 		AAP.ZoneQuestOrder["Order1iD"][CLi]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",65,-((CLPos)-11))
-		AAP.ZoneQuestOrder["Order1iD"][CLi]:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
+		--AAP.ZoneQuestOrder["Order1iD"][CLi]:SetBackdrop( { 
+		--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+		--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+		--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+		--});
+local t = AAP.ZoneQuestOrder["Order1iD"][CLi]:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder["Order1iD"][CLi])
+AAP.ZoneQuestOrder["Order1iD"][CLi].texture = t
+
 		AAP.ZoneQuestOrder["Order1iD"][CLi]:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" then
 				AAP.ZoneQuestOrder:StartMoving();
@@ -350,11 +382,16 @@ function AAP.AddQuestNameFrame(CLi)
 		AAP.ZoneQuestOrder["OrderName"][CLi]:SetWidth(50)
 		AAP.ZoneQuestOrder["OrderName"][CLi]:SetHeight(16)
 		AAP.ZoneQuestOrder["OrderName"][CLi]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",120,-((CLPos)-11))
-		AAP.ZoneQuestOrder["OrderName"][CLi]:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
+		--AAP.ZoneQuestOrder["OrderName"][CLi]:SetBackdrop( { 
+		--	bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
+		--	edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+		--	tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
+		--});
+local t = AAP.ZoneQuestOrder["OrderName"][CLi]:CreateTexture(nil,"BACKGROUND")
+t:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+t:SetAllPoints(AAP.ZoneQuestOrder["OrderName"][CLi])
+AAP.ZoneQuestOrder["OrderName"][CLi].texture = t
+
 		AAP.ZoneQuestOrder["OrderName"][CLi]:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" then
 				AAP.ZoneQuestOrder:StartMoving();
@@ -395,6 +432,9 @@ function AAP.AddQuestNameFrame(CLi)
 		AAP.ZoneQuestOrder["OrderNameFS"][CLi]:SetTextColor(1, 1, 0)
 end
 function AAP.UpdateZoneQuestOrderList(AAPmod)
+	if (AAP1["Debug"]) then
+		print("Function: AAP.UpdateZoneQuestOrderList()")
+	end
 	if (not AAPQuestNames) then
 		AAPQuestNames = {}
 	end
@@ -475,7 +515,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 						if (not AAP.ActiveQuests[theqid]) then
 							NrLeft = NrLeft + 1
 						end
-						if (IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid] or AAP.BreadCrumSkips[theqid]) then
+						if (C_QuestLog.IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid] or AAP.BreadCrumSkips[theqid]) then
 							Flagged = Flagged + 1
 						end
 					end
@@ -487,7 +527,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 							if (not AAP.ActiveQuests[theqid]) then
 								NrLeft2 = NrLeft2 + 1
 							end
-							if (IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid] or AAP.BreadCrumSkips[theqid]) then
+							if (C_QuestLog.IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid] or AAP.BreadCrumSkips[theqid]) then
 								Flagged2 = Flagged2 + 1
 							end
 						end
@@ -506,7 +546,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 							if (Pos > 26) then
 								break
 							end
-							if (IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid]) then
+							if (C_QuestLog.IsQuestFlaggedCompleted(theqid) or AAP.ActiveQuests[theqid]) then
 							else
 								SubQuestId = SubQuestId + 1
 								if (not AAP.ZoneQuestOrder["Order1iD"][SubQuestId]) then
@@ -551,7 +591,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 						for AAP_index2,AAP_value2 in pairs(AAP_value) do
 							Total = Total + 1
 							local qid = AAP_index.."-"..AAP_index2
-							if (IsQuestFlaggedCompleted(AAP_index) or ((UnitLevel("player") == 120) and AAP_BonusObj and AAP_BonusObj[AAP_index]) or AAP1[AAP.Realm][AAP.Name]["BonusSkips"][AAP_index]) then
+							if (C_QuestLog.IsQuestFlaggedCompleted(AAP_index) or ((UnitLevel("player") == 120) and AAP_BonusObj and AAP_BonusObj[AAP_index]) or AAP1[AAP.Realm][AAP.Name]["BonusSkips"][AAP_index]) then
 								Flagged = Flagged + 1
 							elseif (AAP.ActiveQuests[qid] and AAP.ActiveQuests[qid] == "C") then
 								Flagged = Flagged + 1
@@ -649,7 +689,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 						if (AAP.ActiveQuests[theqid]) then
 							NrLeft = NrLeft + 1
 						end
-						if (IsQuestFlaggedCompleted(theqid) or AAP.BreadCrumSkips[theqid]) then
+						if (C_QuestLog.IsQuestFlaggedCompleted(theqid) or AAP.BreadCrumSkips[theqid]) then
 							Flagged = Flagged + 1
 						end
 					end
@@ -699,7 +739,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["CRange"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Run to Waypoint")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["CRange"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["CRange"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -709,7 +749,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseDalaHS"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Use Dalaran HS")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseDalaHS"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseDalaHS"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -719,6 +759,12 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["DalaranToOgri"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Use Orgrimmar Portal")
+				end
+				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["PahonixMadeMe"]) then
+					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Train Riding")
+				end
+				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseGarrisonHS"]) then
+					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Use GarrisonHS")
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["ZonePick"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Pick Zone")
@@ -731,7 +777,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 					for AAP_index,AAP_value in pairs(IdList) do
 						for AAP_index2,AAP_value2 in pairs(AAP_value) do
 							Total = Total + 1
-							if (IsQuestFlaggedCompleted(AAP_index)) then
+							if (C_QuestLog.IsQuestFlaggedCompleted(AAP_index)) then
 								Flagged = Flagged + 1
 							end
 							local qid = AAP_index.."-"..AAP_index2
@@ -821,7 +867,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["DropQuest"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Quest Drop")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["DropQuest"]) or AAP.ActiveQuests[AAP.QuestStepList[AAP.ActiveMap][CCLi]["DropQuest"]]) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["DropQuest"]) or AAP.ActiveQuests[AAP.QuestStepList[AAP.ActiveMap][CCLi]["DropQuest"]]) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -832,7 +878,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["SetHS"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Set Hearthstone")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["SetHS"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["SetHS"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -842,7 +888,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseHS"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Use Hearthstone")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseHS"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseHS"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -850,9 +896,14 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(1, 0, 0)
 					end
 				end
+				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["ZoneDoneSave"]) then
+					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Route Completed")
+					AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(1, 0, 0)
+					AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(1, 0, 0)
+				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["GetFP"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Get Flightpath")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["GetFP"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["GetFP"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -862,7 +913,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseFlightPath"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Use Flightpath")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseFlightPath"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["UseFlightPath"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -872,7 +923,7 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["QaskPopup"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Ask for group quest")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["QaskPopup"]) or CurStep > CCLi) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["QaskPopup"]) or CurStep > CCLi) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
@@ -916,12 +967,44 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["Treasure"]) then
 					AAP.ZoneQuestOrder["FS2"][CLi]:SetText("Get Treasure")
-					if (IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["Treasure"])) then
+					if (C_QuestLog.IsQuestFlaggedCompleted(AAP.QuestStepList[AAP.ActiveMap][CCLi]["Treasure"])) then
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(0, 1, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(0, 1, 0)
 					else
 						AAP.ZoneQuestOrder["FS"][CLi]:SetTextColor(1, 0, 0)
 						AAP.ZoneQuestOrder["FS2"][CLi]:SetTextColor(1, 0, 0)
+					end
+					
+					local theqid = AAP.QuestStepList[AAP.ActiveMap][CCLi]["Treasure"]
+					SubQuestId = SubQuestId + 1
+					if (not AAP.ZoneQuestOrder["Order1iD"][SubQuestId]) then
+						AAP.AddQuestIdFrame(SubQuestId)
+					end
+					AAP.ZoneQuestOrder["Order1iDFS"][SubQuestId]:SetText(theqid)
+					AAP.ZoneQuestOrder["Order1iDFS"][SubQuestId]:SetTextColor(1, 1, 0)
+					Pos = Pos + 1
+					AAP.ZoneQuestOrder["Order1iD"][SubQuestId]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",65,-((16*Pos)-11))
+					AAP.ZoneQuestOrder["Order1iD"][SubQuestId]:Show()
+					if (AAPQuestNames[theqid] and AAPQuestNames[theqid] ~= 1) then
+						SubQuestName = SubQuestName + 1
+						if (not AAP.ZoneQuestOrder["OrderName"][SubQuestName]) then
+							AAP.AddQuestNameFrame(SubQuestName)
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",120,-((16*Pos)-11))
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:Show()
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetText(AAPQuestNames[theqid])
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetWidth(250)
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetWidth(AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:GetStringWidth()+10)
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:SetWidth(AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:GetStringWidth()+10)
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetTextColor(1, 1, 0)
+						else
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "TOPLEFT",120,-((16*Pos)-11))
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:Show()
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetText(AAPQuestNames[theqid])
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetWidth(250)
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetWidth(AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:GetStringWidth()+10)
+							AAP.ZoneQuestOrder["OrderName"][SubQuestName]:SetWidth(AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:GetStringWidth()+10)
+							AAP.ZoneQuestOrder["OrderNameFS"][SubQuestName]:SetTextColor(1, 1, 0)
+						end
 					end
 				end
 				if (AAP.QuestStepList[AAP.ActiveMap][CCLi]["ZoneDone"]) then
@@ -957,7 +1040,6 @@ function AAP.UpdateZoneQuestOrderList(AAPmod)
 			end
 		end
 	end
-	AAP.PaintZoneOrderButtons()
 end
 function AAP.MakeMapOrderIcons(IdZs)
 	AAP["MapZoneIcons"][IdZs] = CreateFrame("Frame",nil,UIParent)
@@ -1024,1066 +1106,6 @@ function AAP.MapOrderNumbers()
 		end
 	end
 end
-function AAP.PaintZoneOrderButtons()
-	if (not AAP.ZoneOrder) then
-		AAP.ZoneOrder = CreateFrame("frame", "AAPQOrderList", AAP.ZoneQuestOrder)
-		AAP.ZoneOrder:SetWidth(1)
-		AAP.ZoneOrder:SetHeight(1)
-		AAP.ZoneOrder:SetPoint("TOPLEFT", AAP.ZoneQuestOrder, "BOTTOMLEFT",0,0)
-		AAP.ZoneOrder:SetMovable(true)
-		AAP.ZoneOrder:EnableMouse(true)
-		AAP.ZoneOrder:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder:Hide()
-		AAP.ZoneOrder.Zone1 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Orgrimmar1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone1:SetWidth(60)
-		AAP.ZoneOrder.Zone1:SetHeight(16)
-		AAP.ZoneOrder.Zone1:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",5,-5)
-		AAP.ZoneOrder.Zone1:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone1:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone1:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone1:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone1.FS = AAP.ZoneOrder.Zone1:CreateFontString("AAP_ZoneOrder_lvl60_Orgrimmar1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone1.FS:SetParent(AAP.ZoneOrder.Zone1)
-		AAP.ZoneOrder.Zone1.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone1,"CENTER",0,0)
-		AAP.ZoneOrder.Zone1.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone1.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone1.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone1.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone1.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone1.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next1 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next1", AAP.ZoneOrder)
-		AAP.ZoneOrder.next1:SetWidth(16)
-		AAP.ZoneOrder.next1:SetHeight(16)
-		AAP.ZoneOrder.next1:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",64,-5)
-		AAP.ZoneOrder.next1:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next1:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next1:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next1.FS = AAP.ZoneOrder.next1:CreateFontString("AAP_ZoneOrder_lvl60_next1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next1.FS:SetParent(AAP.ZoneOrder.next1)
-		AAP.ZoneOrder.next1.FS:SetPoint("CENTER",AAP.ZoneOrder.next1,"CENTER",1,0)
-		AAP.ZoneOrder.next1.FS:SetWidth(16)
-		AAP.ZoneOrder.next1.FS:SetHeight(16)
-		AAP.ZoneOrder.next1.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next1.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next1.FS:SetText(">")
-		AAP.ZoneOrder.next1.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone2 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Azshara1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone2:SetWidth(60)
-		AAP.ZoneOrder.Zone2:SetHeight(16)
-		AAP.ZoneOrder.Zone2:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",78,-5)
-		AAP.ZoneOrder.Zone2:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone2:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone2:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone2:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone2.FS = AAP.ZoneOrder.Zone2:CreateFontString("AAP_ZoneOrder_lvl60_Azshara1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone2.FS:SetParent(AAP.ZoneOrder.Zone2)
-		AAP.ZoneOrder.Zone2.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone2,"CENTER",0,0)
-		AAP.ZoneOrder.Zone2.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone2.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone2.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone2.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone2.FS:SetText("Azshara")
-		AAP.ZoneOrder.Zone2.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next2 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next2", AAP.ZoneOrder)
-		AAP.ZoneOrder.next2:SetWidth(16)
-		AAP.ZoneOrder.next2:SetHeight(16)
-		AAP.ZoneOrder.next2:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",136,-5)
-		AAP.ZoneOrder.next2:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next2:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next2:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next2.FS = AAP.ZoneOrder.next2:CreateFontString("AAP_ZoneOrder_lvl60_next2_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next2.FS:SetParent(AAP.ZoneOrder.next2)
-		AAP.ZoneOrder.next2.FS:SetPoint("CENTER",AAP.ZoneOrder.next2,"CENTER",1,0)
-		AAP.ZoneOrder.next2.FS:SetWidth(16)
-		AAP.ZoneOrder.next2.FS:SetHeight(16)
-		AAP.ZoneOrder.next2.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next2.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next2.FS:SetText(">")
-		AAP.ZoneOrder.next2.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone3 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Orgrimmar2", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone3:SetWidth(60)
-		AAP.ZoneOrder.Zone3:SetHeight(16)
-		AAP.ZoneOrder.Zone3:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",151,-5)
-		AAP.ZoneOrder.Zone3:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone3:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone3:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone3:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone3.FS = AAP.ZoneOrder.Zone3:CreateFontString("AAP_ZoneOrder_lvl60_Orgrimmar2_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone3.FS:SetParent(AAP.ZoneOrder.Zone3)
-		AAP.ZoneOrder.Zone3.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone3,"CENTER",0,0)
-		AAP.ZoneOrder.Zone3.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone3.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone3.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone3.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone3.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone3.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next3 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next3", AAP.ZoneOrder)
-		AAP.ZoneOrder.next3:SetWidth(16)
-		AAP.ZoneOrder.next3:SetHeight(16)
-		AAP.ZoneOrder.next3:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",210,-5)
-		AAP.ZoneOrder.next3:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next3:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next3:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next3.FS = AAP.ZoneOrder.next3:CreateFontString("AAP_ZoneOrder_lvl60_next3_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next3.FS:SetParent(AAP.ZoneOrder.next3)
-		AAP.ZoneOrder.next3.FS:SetPoint("CENTER",AAP.ZoneOrder.next3,"CENTER",1,0)
-		AAP.ZoneOrder.next3.FS:SetWidth(16)
-		AAP.ZoneOrder.next3.FS:SetHeight(16)
-		AAP.ZoneOrder.next3.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next3.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next3.FS:SetText(">")
-		AAP.ZoneOrder.next3.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone4 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Undercity1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone4:SetWidth(60)
-		AAP.ZoneOrder.Zone4:SetHeight(16)
-		AAP.ZoneOrder.Zone4:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",5,-22)
-		AAP.ZoneOrder.Zone4:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone4:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone4:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone4:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone4.FS = AAP.ZoneOrder.Zone4:CreateFontString("AAP_ZoneOrder_lvl60_Undercity1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone4.FS:SetParent(AAP.ZoneOrder.Zone4)
-		AAP.ZoneOrder.Zone4.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone4,"CENTER",0,0)
-		AAP.ZoneOrder.Zone4.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone4.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone4.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone4.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone4.FS:SetText("Undercity")
-		AAP.ZoneOrder.Zone4.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next4 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next4", AAP.ZoneOrder)
-		AAP.ZoneOrder.next4:SetWidth(16)
-		AAP.ZoneOrder.next4:SetHeight(16)
-		AAP.ZoneOrder.next4:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",64,-22)
-		AAP.ZoneOrder.next4:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next4:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next4:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next4.FS = AAP.ZoneOrder.next4:CreateFontString("AAP_ZoneOrder_lvl60_next4_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next4.FS:SetParent(AAP.ZoneOrder.next4)
-		AAP.ZoneOrder.next4.FS:SetPoint("CENTER",AAP.ZoneOrder.next4,"CENTER",1,0)
-		AAP.ZoneOrder.next4.FS:SetWidth(16)
-		AAP.ZoneOrder.next4.FS:SetHeight(16)
-		AAP.ZoneOrder.next4.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next4.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next4.FS:SetText(">")
-		AAP.ZoneOrder.next4.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone5 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Tirisfal", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone5:SetWidth(60)
-		AAP.ZoneOrder.Zone5:SetHeight(16)
-		AAP.ZoneOrder.Zone5:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",78,-22)
-		AAP.ZoneOrder.Zone5:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone5:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone5:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone5:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone5.FS = AAP.ZoneOrder.Zone5:CreateFontString("AAP_ZoneOrder_lvl60_Tirisfal_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone5.FS:SetParent(AAP.ZoneOrder.Zone5)
-		AAP.ZoneOrder.Zone5.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone5,"CENTER",0,0)
-		AAP.ZoneOrder.Zone5.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone5.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone5.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone5.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone5.FS:SetText("Tirisfal")
-		AAP.ZoneOrder.Zone5.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next5 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next5", AAP.ZoneOrder)
-		AAP.ZoneOrder.next5:SetWidth(16)
-		AAP.ZoneOrder.next5:SetHeight(16)
-		AAP.ZoneOrder.next5:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",136,-22)
-		AAP.ZoneOrder.next5:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next5:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next5:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next5.FS = AAP.ZoneOrder.next5:CreateFontString("AAP_ZoneOrder_lvl60_next5_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next5.FS:SetParent(AAP.ZoneOrder.next5)
-		AAP.ZoneOrder.next5.FS:SetPoint("CENTER",AAP.ZoneOrder.next5,"CENTER",1,0)
-		AAP.ZoneOrder.next5.FS:SetWidth(16)
-		AAP.ZoneOrder.next5.FS:SetHeight(16)
-		AAP.ZoneOrder.next5.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next5.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next5.FS:SetText(">")
-		AAP.ZoneOrder.next5.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone6 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Silverpine1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone6:SetWidth(60)
-		AAP.ZoneOrder.Zone6:SetHeight(16)
-		AAP.ZoneOrder.Zone6:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",151,-22)
-		AAP.ZoneOrder.Zone6:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone6:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone6:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone6:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone6.FS = AAP.ZoneOrder.Zone6:CreateFontString("AAP_ZoneOrder_lvl60_Silverpine1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone6.FS:SetParent(AAP.ZoneOrder.Zone6)
-		AAP.ZoneOrder.Zone6.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone6,"CENTER",0,0)
-		AAP.ZoneOrder.Zone6.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone6.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone6.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone6.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone6.FS:SetText("Silverpine")
-		AAP.ZoneOrder.Zone6.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next6 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next6", AAP.ZoneOrder)
-		AAP.ZoneOrder.next6:SetWidth(16)
-		AAP.ZoneOrder.next6:SetHeight(16)
-		AAP.ZoneOrder.next6:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",210,-22)
-		AAP.ZoneOrder.next6:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next6:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next6:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next6.FS = AAP.ZoneOrder.next6:CreateFontString("AAP_ZoneOrder_lvl60_next6_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next6.FS:SetParent(AAP.ZoneOrder.next6)
-		AAP.ZoneOrder.next6.FS:SetPoint("CENTER",AAP.ZoneOrder.next6,"CENTER",1,0)
-		AAP.ZoneOrder.next6.FS:SetWidth(16)
-		AAP.ZoneOrder.next6.FS:SetHeight(16)
-		AAP.ZoneOrder.next6.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next6.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next6.FS:SetText(">")
-		AAP.ZoneOrder.next6.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone7 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Hillsbrad1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone7:SetWidth(60)
-		AAP.ZoneOrder.Zone7:SetHeight(16)
-		AAP.ZoneOrder.Zone7:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",5,-39)
-		AAP.ZoneOrder.Zone7:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone7:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone7:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone7:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone7.FS = AAP.ZoneOrder.Zone7:CreateFontString("AAP_ZoneOrder_lvl60_Hillsbrad1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone7.FS:SetParent(AAP.ZoneOrder.Zone7)
-		AAP.ZoneOrder.Zone7.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone7,"CENTER",0,0)
-		AAP.ZoneOrder.Zone7.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone7.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone7.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone7.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone7.FS:SetText("Hillsbrad")
-		AAP.ZoneOrder.Zone7.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next7 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next7", AAP.ZoneOrder)
-		AAP.ZoneOrder.next7:SetWidth(16)
-		AAP.ZoneOrder.next7:SetHeight(16)
-		AAP.ZoneOrder.next7:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",64,-39)
-		AAP.ZoneOrder.next7:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next7:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next7:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next7.FS = AAP.ZoneOrder.next7:CreateFontString("AAP_ZoneOrder_lvl60_next7_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next7.FS:SetParent(AAP.ZoneOrder.next7)
-		AAP.ZoneOrder.next7.FS:SetPoint("CENTER",AAP.ZoneOrder.next7,"CENTER",1,0)
-		AAP.ZoneOrder.next7.FS:SetWidth(16)
-		AAP.ZoneOrder.next7.FS:SetHeight(16)
-		AAP.ZoneOrder.next7.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next7.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next7.FS:SetText(">")
-		AAP.ZoneOrder.next7.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone8 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_Tirisfal2", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone8:SetWidth(60)
-		AAP.ZoneOrder.Zone8:SetHeight(16)
-		AAP.ZoneOrder.Zone8:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",78,-39)
-		AAP.ZoneOrder.Zone8:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone8:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone8:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone8:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone8.FS = AAP.ZoneOrder.Zone8:CreateFontString("AAP_ZoneOrder_lvl60_Tirisfal2_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone8.FS:SetParent(AAP.ZoneOrder.Zone8)
-		AAP.ZoneOrder.Zone8.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone8,"CENTER",0,0)
-		AAP.ZoneOrder.Zone8.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone8.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone8.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone8.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone8.FS:SetText("Tirisfal")
-		AAP.ZoneOrder.Zone8.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next8 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next8", AAP.ZoneOrder)
-		AAP.ZoneOrder.next8:SetWidth(16)
-		AAP.ZoneOrder.next8:SetHeight(16)
-		AAP.ZoneOrder.next8:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",136,-39)
-		AAP.ZoneOrder.next8:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next8:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next8:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next8.FS = AAP.ZoneOrder.next8:CreateFontString("AAP_ZoneOrder_lvl60_next8_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next8.FS:SetParent(AAP.ZoneOrder.next8)
-		AAP.ZoneOrder.next8.FS:SetPoint("CENTER",AAP.ZoneOrder.next8,"CENTER",1,0)
-		AAP.ZoneOrder.next8.FS:SetWidth(16)
-		AAP.ZoneOrder.next8.FS:SetHeight(16)
-		AAP.ZoneOrder.next8.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next8.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next8.FS:SetText(">")
-		AAP.ZoneOrder.next8.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone9 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_WPL1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone9:SetWidth(60)
-		AAP.ZoneOrder.Zone9:SetHeight(16)
-		AAP.ZoneOrder.Zone9:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",151,-39)
-		AAP.ZoneOrder.Zone9:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone9:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone9:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone9:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone9.FS = AAP.ZoneOrder.Zone9:CreateFontString("AAP_ZoneOrder_lvl60_WPL1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone9.FS:SetParent(AAP.ZoneOrder.Zone9)
-		AAP.ZoneOrder.Zone9.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone9,"CENTER",0,0)
-		AAP.ZoneOrder.Zone9.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone9.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone9.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone9.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone9.FS:SetText("WPL")
-		AAP.ZoneOrder.Zone9.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next9 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next9", AAP.ZoneOrder)
-		AAP.ZoneOrder.next9:SetWidth(16)
-		AAP.ZoneOrder.next9:SetHeight(16)
-		AAP.ZoneOrder.next9:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",210,-39)
-		AAP.ZoneOrder.next9:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next9:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next9:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next9.FS = AAP.ZoneOrder.next9:CreateFontString("AAP_ZoneOrder_lvl60_next9_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next9.FS:SetParent(AAP.ZoneOrder.next9)
-		AAP.ZoneOrder.next9.FS:SetPoint("CENTER",AAP.ZoneOrder.next9,"CENTER",1,0)
-		AAP.ZoneOrder.next9.FS:SetWidth(16)
-		AAP.ZoneOrder.next9.FS:SetHeight(16)
-		AAP.ZoneOrder.next9.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next9.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next9.FS:SetText(">")
-		AAP.ZoneOrder.next9.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone10 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_EPL1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone10:SetWidth(60)
-		AAP.ZoneOrder.Zone10:SetHeight(16)
-		AAP.ZoneOrder.Zone10:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",5,-56)
-		AAP.ZoneOrder.Zone10:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone10:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone10:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone10:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone10.FS = AAP.ZoneOrder.Zone10:CreateFontString("AAP_ZoneOrder_lvl60_EPL1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone10.FS:SetParent(AAP.ZoneOrder.Zone10)
-		AAP.ZoneOrder.Zone10.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone10,"CENTER",0,0)
-		AAP.ZoneOrder.Zone10.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone10.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone10.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone10.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone10.FS:SetText("EPL")
-		AAP.ZoneOrder.Zone10.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.next10 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_next10", AAP.ZoneOrder)
-		AAP.ZoneOrder.next10:SetWidth(16)
-		AAP.ZoneOrder.next10:SetHeight(16)
-		AAP.ZoneOrder.next10:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",64,-56)
-		AAP.ZoneOrder.next10:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.next10:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next10:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.next10.FS = AAP.ZoneOrder.next10:CreateFontString("AAP_ZoneOrder_lvl60_next10_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.next10.FS:SetParent(AAP.ZoneOrder.next10)
-		AAP.ZoneOrder.next10.FS:SetPoint("CENTER",AAP.ZoneOrder.next10,"CENTER",1,0)
-		AAP.ZoneOrder.next10.FS:SetWidth(16)
-		AAP.ZoneOrder.next10.FS:SetHeight(16)
-		AAP.ZoneOrder.next10.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.next10.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.next10.FS:SetText(">")
-		AAP.ZoneOrder.next10.FS:SetTextColor(1, 1, 0)
-		
-		AAP.ZoneOrder.Zone11 = CreateFrame("frame", "AAP_ZoneOrder_lvl60_STV1", AAP.ZoneOrder)
-		AAP.ZoneOrder.Zone11:SetWidth(60)
-		AAP.ZoneOrder.Zone11:SetHeight(16)
-		AAP.ZoneOrder.Zone11:SetPoint("TOPLEFT", AAP.ZoneOrder, "TOPLEFT",78,-56)
-		AAP.ZoneOrder.Zone11:SetBackdrop( { 
-			bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-			tile = true, tileSize = 10, edgeSize = 10, insets = { left = 2, right = 2, top = 2, bottom = 2 }
-		});
-		AAP.ZoneOrder.Zone11:SetScript("OnMouseDown", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StartMoving();
-				AAP.ZoneQuestOrder.isMoving = true;
-			end
-		end)
-		AAP.ZoneOrder.Zone11:SetScript("OnMouseUp", function(self, button)
-			if button == "LeftButton" then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone11:SetScript("OnHide", function(self)
-			if ( AAP.ZoneQuestOrder.isMoving ) then
-				AAP.ZoneQuestOrder:StopMovingOrSizing();
-				AAP.ZoneQuestOrder.isMoving = false;
-			end
-		end)
-		AAP.ZoneOrder.Zone11.FS = AAP.ZoneOrder.Zone11:CreateFontString("AAP_ZoneOrder_lvl60_STV1_FS","ARTWORK", "ChatFontNormal")
-		AAP.ZoneOrder.Zone11.FS:SetParent(AAP.ZoneOrder.Zone11)
-		AAP.ZoneOrder.Zone11.FS:SetPoint("CENTER",AAP.ZoneOrder.Zone11,"CENTER",0,0)
-		AAP.ZoneOrder.Zone11.FS:SetWidth(60)
-		AAP.ZoneOrder.Zone11.FS:SetHeight(16)
-		AAP.ZoneOrder.Zone11.FS:SetJustifyH("CENTER")
-		AAP.ZoneOrder.Zone11.FS:SetFontObject("GameFontNormalSmall")
-		AAP.ZoneOrder.Zone11.FS:SetText("North-STV")
-		AAP.ZoneOrder.Zone11.FS:SetTextColor(1, 1, 0)
-
-	end
-	AAP.ZoneOrder.next1:Hide()
-	AAP.ZoneOrder.next2:Hide()
-	AAP.ZoneOrder.next3:Hide()
-	AAP.ZoneOrder.next4:Hide()
-	AAP.ZoneOrder.next5:Hide()
-	AAP.ZoneOrder.next6:Hide()
-	AAP.ZoneOrder.next7:Hide()
-	AAP.ZoneOrder.next8:Hide()
-	AAP.ZoneOrder.next9:Hide()
-	AAP.ZoneOrder.next10:Hide()
-	AAP.ZoneOrder.Zone1:Hide()
-	AAP.ZoneOrder.Zone3:Hide()
-	AAP.ZoneOrder.Zone2:Hide()
-	AAP.ZoneOrder.Zone4:Hide()
-	AAP.ZoneOrder.Zone5:Hide()
-	AAP.ZoneOrder.Zone6:Hide()
-	AAP.ZoneOrder.Zone7:Hide()
-	AAP.ZoneOrder.Zone8:Hide()
-	AAP.ZoneOrder.Zone9:Hide()
-	AAP.ZoneOrder.Zone10:Hide()
-	AAP.ZoneOrder.Zone11:Hide()
-	if (AAP.Faction == "Horde" and AAP.Level < 60 and AAP.Level > 19) then
-		AAP.ZoneOrder.next1:Show()
-		AAP.ZoneOrder.next2:Show()
-		AAP.ZoneOrder.next3:Show()
-		AAP.ZoneOrder.next4:Show()
-		AAP.ZoneOrder.next5:Show()
-		AAP.ZoneOrder.next6:Show()
-		AAP.ZoneOrder.next7:Show()
-		AAP.ZoneOrder.next8:Show()
-		AAP.ZoneOrder.next9:Show()
-		AAP.ZoneOrder.next10:Show()
-		AAP.ZoneOrder.Zone1.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone2.FS:SetText("Azshara")
-		AAP.ZoneOrder.Zone3.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone4.FS:SetText("Undercity")
-		AAP.ZoneOrder.Zone5.FS:SetText("Tirisfal")
-		AAP.ZoneOrder.Zone6.FS:SetText("Silverpine")
-		AAP.ZoneOrder.Zone7.FS:SetText("Hillsbrad")
-		AAP.ZoneOrder.Zone8.FS:SetText("Tirisfal")
-		AAP.ZoneOrder.Zone9.FS:SetText("WPL")
-		AAP.ZoneOrder.Zone10.FS:SetText("EPL")
-		AAP.ZoneOrder.Zone11.FS:SetText("North-STV")
-		AAP.ZoneOrder.Zone1:Show()
-		AAP.ZoneOrder.Zone3:Show()
-		AAP.ZoneOrder.Zone2:Show()
-		AAP.ZoneOrder.Zone4:Show()
-		AAP.ZoneOrder.Zone5:Show()
-		AAP.ZoneOrder.Zone6:Show()
-		AAP.ZoneOrder.Zone7:Show()
-		AAP.ZoneOrder.Zone8:Show()
-		AAP.ZoneOrder.Zone9:Show()
-		AAP.ZoneOrder.Zone10:Show()
-		AAP.ZoneOrder.Zone11:Show()
-		AAP.ZoneOrder:SetWidth(231)
-		AAP.ZoneOrder:SetHeight(76)
-		if (AAP.ActiveQuests[14129] or IsQuestFlaggedCompleted(14129) == true) then
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(14407)) then
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26965)) then
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(0, 1, 0)
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(0, 1, 0)
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(1, 0, 0)
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(1, 0, 0)
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(27548) and IsQuestFlaggedCompleted(27547) and IsQuestFlaggedCompleted(27550)) then
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(28616)) then
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26930)) then
-			AAP.ZoneOrder.Zone8.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone8.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26955)) then
-			AAP.ZoneOrder.Zone9.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone9.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(27527)) then
-			AAP.ZoneOrder.Zone10.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone10.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26535)) then
-			AAP.ZoneOrder.Zone11.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone11.FS:SetTextColor(1, 0, 0)
-		end
-		AAP.ZoneOrder:Show()
-	end
-	if (AAP.Faction == "Horde" and AAP.Level < 80 and AAP.Level > 59) then
-		AAP.ZoneOrder.next1:Show()
-		AAP.ZoneOrder.next2:Show()
-		AAP.ZoneOrder.next3:Show()
-		AAP.ZoneOrder.next4:Show()
-		AAP.ZoneOrder.next5:Show()
-		AAP.ZoneOrder.next6:Show()
-		AAP.ZoneOrder.next7:Show()
-		AAP.ZoneOrder.Zone1.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone2.FS:SetText("Borean T.")
-		AAP.ZoneOrder.Zone3.FS:SetText("Dragonb.")
-		AAP.ZoneOrder.Zone4.FS:SetText("Grizzly H.")
-		AAP.ZoneOrder.Zone5.FS:SetText("Zul'Drak")
-		AAP.ZoneOrder.Zone6.FS:SetText("Orgrimmar")
-		AAP.ZoneOrder.Zone7.FS:SetText("Zangarm.")
-		AAP.ZoneOrder.Zone8.FS:SetText("Nagrand")
-		AAP.ZoneOrder.Zone1:Show()
-		AAP.ZoneOrder.Zone3:Show()
-		AAP.ZoneOrder.Zone2:Show()
-		AAP.ZoneOrder.Zone4:Show()
-		AAP.ZoneOrder.Zone5:Show()
-		AAP.ZoneOrder.Zone6:Show()
-		AAP.ZoneOrder.Zone7:Show()
-		AAP.ZoneOrder.Zone8:Show()
-		AAP.ZoneOrder:SetWidth(231)
-		AAP.ZoneOrder:SetHeight(59)
-		if (IsQuestFlaggedCompleted(32674)) then
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(11909) and IsQuestFlaggedCompleted(11907)) then
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12188)) then
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12802)) then
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12792)) then
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(9785) or AAP.ActiveQuests[9785]) then
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(10096)) then
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(9852)) then
-			AAP.ZoneOrder.Zone8.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone8.FS:SetTextColor(1, 0, 0)
-		end
-		AAP.ZoneOrder:Show()
-	end
-
-	if (AAP.Faction == "Alliance" and AAP.Level < 60 and AAP.Level > 19) then
-		AAP.ZoneOrder.next1:Show()
-		AAP.ZoneOrder.next2:Show()
-		AAP.ZoneOrder.next3:Show()
-		AAP.ZoneOrder.next4:Show()
-		AAP.ZoneOrder.next5:Show()
-		AAP.ZoneOrder.next6:Show()
-		AAP.ZoneOrder.Zone1.FS:SetText("Stormwind")
-		AAP.ZoneOrder.Zone2.FS:SetText("Redridge")
-		AAP.ZoneOrder.Zone3.FS:SetText("Duskwood")
-		AAP.ZoneOrder.Zone4.FS:SetText("North STV")
-		AAP.ZoneOrder.Zone5.FS:SetText("WPL")
-		AAP.ZoneOrder.Zone6.FS:SetText("LochMod.")
-		AAP.ZoneOrder.Zone7.FS:SetText("Wetlands")
-		AAP.ZoneOrder.Zone1:Show()
-		AAP.ZoneOrder.Zone3:Show()
-		AAP.ZoneOrder.Zone2:Show()
-		AAP.ZoneOrder.Zone4:Show()
-		AAP.ZoneOrder.Zone5:Show()
-		AAP.ZoneOrder.Zone6:Show()
-		AAP.ZoneOrder.Zone7:Show()
-		AAP.ZoneOrder:SetWidth(231)
-		AAP.ZoneOrder:SetHeight(59)
-		if (AAP.ActiveQuests[26504] or IsQuestFlaggedCompleted(26504) == true) then
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26726)) then
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26727)) then
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(28749) or AAP.ActiveQuests[28749]) then
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26955)) then
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(13659) and IsQuestFlaggedCompleted(13658) and IsQuestFlaggedCompleted(13657) and IsQuestFlaggedCompleted(13660)) then
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(26139)) then
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(1, 0, 0)
-		end
-		AAP.ZoneOrder:Show()
-	end
-	if (AAP.Faction == "Alliance" and AAP.Level < 80 and AAP.Level > 59) then
-		AAP.ZoneOrder.next1:Show()
-		AAP.ZoneOrder.next2:Show()
-		AAP.ZoneOrder.next3:Show()
-		AAP.ZoneOrder.next4:Show()
-		AAP.ZoneOrder.next5:Show()
-		AAP.ZoneOrder.next6:Show()
-		AAP.ZoneOrder.Zone1.FS:SetText("Stormwind")
-		AAP.ZoneOrder.Zone2.FS:SetText("Borean T.")
-		AAP.ZoneOrder.Zone3.FS:SetText("Dragonb.")
-		AAP.ZoneOrder.Zone4.FS:SetText("Grizzly H.")
-		AAP.ZoneOrder.Zone5.FS:SetText("Zul'Drak")
-		AAP.ZoneOrder.Zone6.FS:SetText("Stormwind")
-		AAP.ZoneOrder.Zone7.FS:SetText("Zangarm.")
-		AAP.ZoneOrder.Zone1:Show()
-		AAP.ZoneOrder.Zone3:Show()
-		AAP.ZoneOrder.Zone2:Show()
-		AAP.ZoneOrder.Zone4:Show()
-		AAP.ZoneOrder.Zone5:Show()
-		AAP.ZoneOrder.Zone6:Show()
-		AAP.ZoneOrder.Zone7:Show()
-		AAP.ZoneOrder:SetWidth(231)
-		AAP.ZoneOrder:SetHeight(59)
-		if (IsQuestFlaggedCompleted(32674)) then
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone1.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(11942)) then
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone2.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12511) or AAP.ActiveQuests[12511]) then
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone3.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12802)) then
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone4.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(12792)) then
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone5.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(9747)) then
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone6.FS:SetTextColor(1, 0, 0)
-		end
-		if (IsQuestFlaggedCompleted(9780)) then
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(0, 1, 0)
-		else
-			AAP.ZoneOrder.Zone7.FS:SetTextColor(1, 0, 0)
-		end
-		AAP.ZoneOrder:Show()
-	end
-
-	
-	
-	end
 
 AAP_QH_EventFrame = CreateFrame("Frame")
 AAP_QH_EventFrame:RegisterEvent ("QUEST_LOG_UPDATE")

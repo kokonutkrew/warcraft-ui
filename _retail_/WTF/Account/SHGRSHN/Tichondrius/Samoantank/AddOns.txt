@@ -217,3 +217,4 @@ Jamba-Trade: disabled
 ISBoxer: disabled
 GS-MultiboxMacros: disabled
 WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

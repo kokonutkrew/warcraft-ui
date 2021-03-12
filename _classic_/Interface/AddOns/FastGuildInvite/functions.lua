@@ -216,7 +216,16 @@ local function onListUpdate()
 	local list = addon.search.inviteList
 	
 	interface.chooseInvites.player:SetText(#list > 0 and format("%s%s %d %s %s|r", color[list[1].NoLocaleClass:upper()], list[1].name, list[1].lvl, list[1].class, list[1].race) or "")
-	inviteBtnText(format(L["Пригласить: %d"], #list))
+	interface.scanFrame.player:SetText(#list > 0 and format("%s%s %d %s|r", color[list[1].NoLocaleClass:upper()], list[1].name, list[1].lvl, list[1].class) or "")
+	if #list > 0 then
+		interface.scanFrame.player.data = {
+			name = list[1].name:find("%-") and list[1].name:match("(.*)%-") or list[1].name,
+			realm = list[1].name:find("%-") and list[1].name:match("%-(.*)") or GetNormalizedRealmName()
+		}
+	else
+		interface.scanFrame.player.data = {}
+	end
+	inviteBtnText(format("+(%d)", #list))
 end
 
 function fn:blacklistRemove(name)
@@ -266,7 +275,7 @@ frame:SetScript("OnEvent", function(_,_,msg)
 			if DB.realm.alreadySended[name] then
 				addon.searchInfo.invited()
 			end
-			C_Timer.After(1, function() fn:setNote(name) end)
+			C_Timer.After(5, function() fn:setNote(name) end)
 		end
 	end
 end)
@@ -274,7 +283,7 @@ end)
 function fn:initDB()
 	DB = addon.DB
 	debugDB = addon.debugDB
-	addon.search = DB.factionrealm.search and DB.factionrealm.search or addon.search
+	addon.search = (DB.global.saveSearch and DB.factionrealm.search) and DB.factionrealm.search or addon.search
 end
 
 function fn:setNote(name)
@@ -283,7 +292,7 @@ function fn:setNote(name)
 		name = name:match("([^-]+)-?")
 		for index=1, GetNumGuildMembers() do
 			local n, _, _, _, _, _, publicNote, officerNote = GetGuildRosterInfo(index)
-			if n:match("([^-]+)-?") == name then
+			if n and n:match("([^-]+)-?") == name then
 				if DB.global.setNote and DB.global.setNote ~= "" and CanEditPublicNote() and publicNote == "" then
 					-- GuildRosterSetPublicNote(index, date(DB.global.noteText))
 					GuildRosterSetPublicNote(index, date(fn:msgMod(DB.global.noteText, name)))
@@ -835,6 +844,7 @@ end
 
 local function searchWhoResultCallback(query, results)
 	local searchLvl = getSearchDeepLvl(query)
+	if DB.global.logs.on then print(("%s " .. L["Запрос: %s. Поиск вернул игроков: %d"]):format("|cffffff00<|r|cff16ABB5FGI|r|cffffff00>|r", query, #results)) end
 	if #results >= FGI_MAXWHORETURN and DB.realm.customWho then
 		if not DB.global.addonMSG then
 			print(format(L["Поиск вернул 50 или более результатов, рекомендуется изменить настройки поиска. Запрос: %s"], query))
@@ -858,8 +868,9 @@ local function searchWhoResultCallback(query, results)
 	if DB.global.queueNotify and #addon.search.inviteList > addon.search.oldCount then
 		FGI.animations.notification:Start(format(L["Игроков найдено: %d"], #addon.search.inviteList - addon.search.oldCount))
 	end
-	
-	DB.factionrealm.search = addon.search
+	if DB.global.saveSearch then
+		DB.factionrealm.search = addon.search
+	end
 	
 	local list = addon.search.inviteList
 	interface.scanFrame.progressBar:SetMinMax(0, #addon.search.whoQueryList)

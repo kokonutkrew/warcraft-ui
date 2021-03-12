@@ -12,7 +12,6 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 		},
 	},
-	["Version"] = 7,
 	["Icon"] = {
 		["ShowLearnableByOther"] = {
 			["Merchant"] = true,
@@ -31,9 +30,21 @@ CaerdonWardrobeConfig = {
 		},
 		["EnableAnimation"] = true,
 		["Position"] = "TOPLEFT",
+		["ShowQuestItems"] = true,
 		["ShowSellable"] = {
 			["BankAndBags"] = true,
 			["GuildBank"] = false,
 		},
+		["ShowOldExpansion"] = {
+			["Other"] = false,
+			["Auction"] = true,
+			["Unknown"] = false,
+			["Usable"] = false,
+			["Reagents"] = true,
+		},
+	},
+	["Version"] = 11,
+	["Debug"] = {
+		["Enabled"] = false,
 	},
 }

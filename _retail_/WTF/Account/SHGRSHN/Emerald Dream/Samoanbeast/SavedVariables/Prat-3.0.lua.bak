@@ -1,0 +1,617 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame15"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:16]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chkashaa-EmeraldDream:5617:WHISPER:CHKASHAA-EMERALDDREAM|h|cffd84e4e60|r:|cfffefefeChkashaa|r|h|cffd8d8d8]|r: Hey |cfffefefeChkashaa|r, have you settled on a main for Shadowlands? We could use your help over at |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r. Let me know if you're interested :D",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297564.364,
+					["serverTime"] = 1606626021,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						92, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+			["maxElements"] = 128,
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame12"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:09]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chulula-EmeraldDream:5608:WHISPER:CHULULA-EMERALDDREAM|h|cfff38bb9Chulula|r|h|cffd8d8d8]|r: Hey Chulula, have you settled on a main for Shadowlands? We could use your help over at |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r. Let me know if you're interested :D",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297557.264,
+					["serverTime"] = 1606626014,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						85, -- [3]
+						86, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+			["maxElements"] = 128,
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame13"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:09]|h|r [W To] |cffd8d8d8[|r|Hplayer:Windogi-EmeraldDream:5609:WHISPER:WINDOGI-EMERALDDREAM|h|cfff38bb9Windogi|r|h|cffd8d8d8]|r: Hey Windogi, have you settled on a main for Shadowlands? We could use your help over at |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r. Let me know if you're interested :D",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297557.866,
+					["serverTime"] = 1606626014,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:09]|h|r |cffd8d8d8[|r|Hplayer:Windogi-EmeraldDream:5610:WHISPER:WINDOGI-EMERALDDREAM|h|cfff38bb9Windogi|r|h|cffd8d8d8]|r is Away:AFK",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297557.866,
+					["serverTime"] = 1606626014,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						87, -- [3]
+						89, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+			},
+			["headIndex"] = 2,
+			["maxElements"] = 128,
+		},
+		["ChatFrame14"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:16]|h|r [W To] |cffd8d8d8[|r|Hplayer:Beatriss-EmeraldDream:5616:WHISPER:BEATRISS-EMERALDDREAM|h|cffd84e4e60|r:|cfffefefeBeatriss|r|h|cffd8d8d8]|r: Hey |cfffefefeBeatriss|r, have you settled on a main for Shadowlands? We could use your help over at |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r. Let me know if you're interested :D",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297564.364,
+					["serverTime"] = 1606626021,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						90, -- [3]
+						91, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+			["maxElements"] = 128,
+		},
+		["ChatFrame11"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:00:07]|h|r [W To] |cffd8d8d8[|r|Hplayer:Fráye-EmeraldDream:5604:WHISPER:FRÁYE-EMERALDDREAM|h|cff006fdcFráye|r|h|cffd8d8d8]|r: Hey Fráye, have you settled on a main for Shadowlands? We could use your help over at |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r. Let me know if you're interested :D",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 297556.039,
+					["serverTime"] = 1606626012,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						83, -- [3]
+						84, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+			["maxElements"] = 128,
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 40,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400538.346,
+				}, -- [1]
+				{
+					["message"] = "|cffffff 0[FF] |rFollow Felankor v2.5.5a [60000] Loaded",
+					["r"] = 0,
+					["timestamp"] = 400538.346,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Options to display the Follow Felankor options dialog",
+					["r"] = 0,
+					["timestamp"] = 400538.346,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Help for help with using Follow Felankor",
+					["r"] = 0,
+					["timestamp"] = 400538.346,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A SLB 3 |r(|cff9482C99.0 Shadowlands|r)  ",
+					["timestamp"] = 400538.346,
+				}, -- [5]
+				{
+					["message"] = "ISBoxer: ISBoxer Addon v1.1 Loaded.",
+					["r"] = 1,
+					["timestamp"] = 400538.346,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:42]|h|r |cFF00FF00[RareScanner]: |cFFFFFFFFloaded",
+					["timestamp"] = 400538.346,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:52]|h|r 1",
+					["timestamp"] = 400538.346,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:52]|h|r 2",
+					["timestamp"] = 400538.346,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:36:52]|h|r 023652 |c7fffff7fWoWPro|r: Log Reset from Addon Load, WoWPro Version 8.0.1N.",
+					["timestamp"] = 400538.346,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:02]|h|r AutoFlood 1.2.3 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 400573.357,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:02]|h|r Fishing Buddy v1.11 loaded",
+					["timestamp"] = 400573.357,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:02]|h|r ISBoxer: Loading Key Bindings...",
+					["r"] = 1,
+					["timestamp"] = 400573.357,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:02]|h|r ISBoxer: No WoW Macros loaded.",
+					["r"] = 1,
+					["timestamp"] = 400573.357,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:02]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400573.677,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:09]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 400573.677,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:09]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 400573.677,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:09]|h|r 023709 |c7fffff7fWoWPro|r: |cff33ff33Enabled|r: Version 8.0.1N",
+					["timestamp"] = 400573.677,
+					["serverTime"] = 1606729035,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:09]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 400573.677,
+					["serverTime"] = 1606729035,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r Total time played: 0 |4day:days;, 7 |4hour:hours;, 35 |4minute:minutes;, 35 |4second:seconds;",
+					["serverTime"] = 1606729045,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 400590.285,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 7 |4minute:minutes;, 17 |4second:seconds;",
+					["serverTime"] = 1606729045,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 400590.285,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400590.285,
+					["serverTime"] = 1606729045,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 400590.285,
+					["serverTime"] = 1606729045,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:19]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Visions of N'Zoth|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 400590.285,
+					["serverTime"] = 1606729045,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:21]|h|r |cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Mechagon & Nazjatar|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 400590.285,
+					["serverTime"] = 1606729047,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:21]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 400590.285,
+					["serverTime"] = 1606729047,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:23]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400594.437,
+					["serverTime"] = 1606729049,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:24]|h|r AAP Loaded",
+					["timestamp"] = 400594.437,
+					["serverTime"] = 1606729050,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:25]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400596.58,
+					["serverTime"] = 1606729051,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:44]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400615.83,
+					["serverTime"] = 1606729070,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:56]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 400627.806,
+					["serverTime"] = 1606729082,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:37:57]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400628.995,
+					["serverTime"] = 1606729083,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:00]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400631.331,
+					["serverTime"] = 1606729086,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:15]|h|r You create: |cff00ccff|Hitem:122361::::::::20:104:::1:5805::::|h[Swift Hand of Justice]|h|r.",
+					["serverTime"] = 1606729101,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 400646.385,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:16]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400647.584,
+					["serverTime"] = 1606729102,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:16]|h|r You create: |cff00ccff|Hitem:122361::::::::20:104:::1:5805::::|h[Swift Hand of Justice]|h|r.",
+					["serverTime"] = 1606729102,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 400647.788,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:20]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 400652.04,
+					["serverTime"] = 1606729106,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:39]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1606729125,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 400670.919,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:39]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1606729125,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 400670.919,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[02:38:39]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1606729125,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 400670.919,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,3 +1,8 @@
+VER 3 0000000000000052 "/tar" "132212"
+#showtooltip
+/target ursa
+/target legacki
+END
 VER 3 0000000000000009 "01.RangedPull" "132094"
 #showtooltip
 /follow party1
@@ -98,6 +103,9 @@ VER 3 0000000000000036 "AltD.Cure" "132094"
 END
 VER 3 0000000000000037 "AltU.Speed" "132094"
 END
+VER 3 0000000000000053 "debugIdentify" "136232"
+/run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
+END
 VER 3 0000000000000034 "eIronGrenades" "INV_MISC_QUESTIONMARK"
 #show dense dynamite
 /use [@cursor] dense dynamite
@@ -117,6 +125,7 @@ VER 3 0000000000000001 "F2.Follow" "135914"
 /follow party1
 /assist party1
 /target party1
+/follow tigerlilly
 END
 VER 3 0000000000000006 "F3.Follow" "135914"
 /follow party2
@@ -166,21 +175,81 @@ END
 VER 3 000000000000001E "FF12.??" "135914"
 /run for i=1,GetNumTradeSkills() do if GetTradeSkillInfo(i)=="Hexweave Cloth" then DoTradeSkill(i,(select(3,GetTradeSkillInfo(i)))) end end
 END
+VER 3 0000000000000055 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000054 "mSkull" "INV_MISC_QUESTIONMARK"
+/script SetRaidTarget("target", 8);
+/s Kill %T
+END
 VER 3 0000000000000038 "P.Fishing" "INV_MISC_QUESTIONMARK"
+#show fishing
 /run local l="Aquadynamic Fish Attract" if not GetWeaponEnchantInfo() and IsEquippedItemType("Fishing Poles") and GetItemCount(l)>0 then UseItemByName(l) end
 /equip [noworn:Fishing Poles] Fishing Pole
 /cast [worn:Fishing Poles] Fishing
 END
+VER 3 0000000000000050 "rougeAmbush" "INV_MISC_QUESTIONMARK"
+#showtooltip Ambush
+/cast Pick Pocket
+/cast Ambush
+END
+VER 3 000000000000004E "rougePickPocket" "INV_MISC_QUESTIONMARK"
+#showtooltip Pick Pocket
+/targetenemy [no harm][dead]
+/cast Pick Pocket
+/cleartarget
+END
+VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
+#showtooltip Sap
+/cast Sap
+/cast Pick Pocket
+END
+VER 3 0000000000000056 "test" "INV_MISC_QUESTIONMARK"
+/tway 22 66
+/tway 19 60
+/tway 14 64
+/tway 8 54
+/tway 7 50
+END
+VER 3 0000000000000048 "warBloodrage" "INV_MISC_QUESTIONMARK"
+#show bloodrage
+/castsequence reset=60 bloodrage, berserker rage, berserker rage
+END
 VER 3 000000000000003E "warBloodThirst" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/use bloodthirst
+/castsequence reset=combat/target/30 sunder armor, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst, bloodthirst bloodthirst
+/use 14
+END
+VER 3 0000000000000046 "warCooldown" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [form:1] retaliation
+/castsequence [form:2] shield wall
+/castsequence [form:3] recklessness
+END
+VER 3 0000000000000049 "warDeathWish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=180 death wish,blood fury,blood fury,blood fury,blood fury,blood fury,blood fury
+END
+VER 3 000000000000004D "warFuryRotation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence [form:3] reset=combat/target/6 bloodthirst, whirlwind, whirlwind, whirlwind
+/use berserker stance
 /use 14
 END
 VER 3 0000000000000044 "warIntercept" "INV_MISC_QUESTIONMARK"
 #show intercept
 /use [form:3] intercept
 /use berserker stance
+END
+VER 3 0000000000000047 "warMitigate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=45 demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout,battle stance,demoralizing shout
+END
+VER 3 000000000000004A "warMockingBlow" "INV_MISC_QUESTIONMARK"
+#show mocking blow
+/castsequence [form:1] reset=600 mocking blow, challenging shout, piercing howl, mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow,mocking blow
+/use battle stance
 END
 VER 3 000000000000003A "warRend" "INV_MISC_QUESTIONMARK"
 #show rend
@@ -189,10 +258,21 @@ VER 3 000000000000003A "warRend" "INV_MISC_QUESTIONMARK"
 /castsequence [form:2] rend
 /castsequence [form:3] battle stance
 END
+VER 3 0000000000000051 "warSlam" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Slam
+/stopcasting
+END
 VER 3 0000000000000045 "warSunder" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/startattack
 /use sunder armor
+/use 14
+END
+VER 3 000000000000004B "warThunderClap" "INV_MISC_QUESTIONMARK"
+#show thunder clap
+/use [form:1] thunder clap
+/use battle stance
 END
 VER 3 0000000000000024 "xAggroDistance" "136222"
 /run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
@@ -250,15 +330,35 @@ END
 VER 3 000000000000001F "xQuestDump" "136222"
 /run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
 END
+VER 3 0000000000000058 "xShoot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shoot Bow
+/cast Shoot Crossbow
+/cast Shoot Gun
+/cast Throw
+END
 VER 3 0000000000000035 "xSkinnyDipping" "136222"
 /script local t={1,3,5,6,7,8,9,10,16,17,18}; for k,v in pairs(t) do PickupInventoryItem(v); PutItemInBackpack(); end
+END
+VER 3 000000000000004C "xStopImpDoomDmg" "INV_MISC_QUESTIONMARK"
+/cancelaura Flee
 END
 VER 3 0000000000000016 "xTrashGreyItems" "136222"
 /run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,"ff9d9d9d") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end
 END
-VER 3 0000000000000043 "xUseHelmet 1" "INV_MISC_QUESTIONMARK"
-#showtooltip
+VER 3 0000000000000057 "xUseGearSet" "132097"
 /use 1
+/use 2
+/use 3
+/use 4
+/use 5
+/use 6
+/use 7
+/use 8
+/use 9
+/use 10
+/use 11
+/use 12
 END
 VER 3 0000000000000019 "xUseRing 11" "INV_MISC_QUESTIONMARK"
 #showtooltip

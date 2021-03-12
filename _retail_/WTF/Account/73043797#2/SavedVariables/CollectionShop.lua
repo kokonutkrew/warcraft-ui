@@ -14,8 +14,7 @@ COLLECTIONSHOP_SAVEDVARIABLES = {
 		["APPEARANCES"] = 0,
 		["RECIPES"] = 0,
 	},
-	["version"] = 3.08,
-	["autoselectAfterAuctionUnavailable"] = true,
+	["version"] = 4.04,
 	["modeFilters"] = {
 		["TOYS"] = {
 		},
@@ -28,4 +27,5 @@ COLLECTIONSHOP_SAVEDVARIABLES = {
 		["RECIPES"] = {
 		},
 	},
+	["autoselectAfterAuctionUnavailable"] = true,
 }

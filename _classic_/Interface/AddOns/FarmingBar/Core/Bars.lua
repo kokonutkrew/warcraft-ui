@@ -83,6 +83,44 @@ end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
+function addon:ParseBarAlert(alert, alertInfo)
+    local barIDName = L.GetBarIDString(alertInfo.id)
+    local barNameLong = string.format("%s%s", barIDName, alertInfo.desc ~= "" and string.format(" (%s)", alertInfo.desc) or "")
+    local barName = alertInfo.desc == "" and barIDName or alertInfo.desc
+
+    local percent = math.floor((alertInfo.count / alertInfo.total) * 100)
+    local remainder =  alertInfo.total - alertInfo.count
+
+    local progressColor = alertInfo.count == alertInfo.total and "|cff00ff00" or "|cffffcc00"
+
+    -- -- Replaces placeholders with data: colors come first so things like %c and %p don't get changed before colors can be evaluated
+    alert = alert:gsub("%%color%%", "|r"):gsub("%%progressColor%%", progressColor):gsub("%%b", barIDName):gsub("%%B", barNameLong):gsub("%%c", alertInfo.count):gsub("%%n", barName):gsub("%%p", percent):gsub("%%r", remainder):gsub("%%t", alertInfo.total)
+
+    alert = self:ParseIfStatement(alert)
+
+    return alert
+end
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+function addon:ParseIfStatement(alert)
+    -- Loop checks for multiple if statements
+    while alert:find("if%%") do
+        -- Replacing the end of the first loop with something different so we can narrow it down to the shortest match
+        alert = alert:gsub("if%%", "!!", 1)
+
+        -- Storing condition,text,elseText in matches table
+        local matches = {alert:match("%%if%((.+),(.+),(.*)%)!!")}
+
+        -- Evalutes the if statement and makes the replacement
+        alert = alert:gsub("%%if%((.+),(.+),(.*)%)!!", assert(loadstring("return " .. matches[1]))() and matches[2] or matches[3])
+    end
+
+    return alert
+end
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
 function FarmingBarBarTemplate_OnLoad(self, ...)
     self.anchor:RegisterForDrag("LeftButton")
     self.backdrop:SetFrameStrata("BACKGROUND")
@@ -101,6 +139,53 @@ function FarmingBarBarTemplate_OnLoad(self, ...)
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
+    function self:AlertProgress(oldCount, oldTotal, newObjectiveComplete)
+        if not self.db.trackProgress then return end
+
+        local barAlert = addon.db.global.alertFormats.barProgress
+        local progressCount, progressTotal = self:GetProgress()
+        local barDB = self.db
+        local barAlertInfo = {id = self.id, desc = barDB.desc, count = progressCount, total = progressTotal}
+
+        if addon.db.global.alerts.barChat then
+            addon:Print(_G[addon.db.global.alerts.chatFrame], addon:ParseBarAlert(barAlert, barAlertInfo))
+        end
+
+        if addon.db.global.alerts.barScreen then
+            if not addon.CoroutineUpdater:IsVisible() then
+                UIErrorsFrame:AddMessage(addon:ParseBarAlert(barAlert, barAlertInfo), 1, 1, 1)
+            else
+                addon.CoroutineUpdater.alert:SetText(addon:ParseBarAlert(barAlert, barAlertInfo))
+            end
+        end
+
+        if addon.db.global.alerts.barSound then
+            -- if objective is complete previously but an objective is removed, no sound
+            -- if objective is complete previously but an objective is added and not complete, no sound
+            -- if objective is previously incomplete and an objective is removed and the whole is still incomplete, no sound
+            -- if objective is previously incomplete and an objective is added and not complete, no sound
+
+            -- if objective is complete previously but an objective is added and complete (now currentlyComplete), alert complete
+            -- if objective is previously incomplete and an objective is removed and the whole is now complete, alert complete
+            -- if objective is previously incomplete but now whole is complete, alert complete
+
+            -- if objective is previously incomplete and an objective is added and complete but the whole is still incomplete, alert progress
+            -- if objective is previously incomplete and is still incomplete but the counts are diff, alert progress
+
+            local previouslyComplete = oldCount == oldTotal
+            local currentlyComplete = progressCount == progressTotal
+
+            local complete = (previouslyComplete and oldTotal < progressTotal and currentlyComplete) or (not previouslyComplete and oldTotal > progressTotal and currentlyComplete) or (not previouslyComplete and currentlyComplete)
+            local progress = (not previouslyComplete and oldTotal < progressTotal and newObjectiveComplete) or (not previouslyComplete and not currentlyComplete and oldCount < progressCount)
+            local soundID = (complete and "barComplete") or (progress and "barProgress")
+
+            -- local soundID =
+            PlaySoundFile(LSM:Fetch("sound", addon.db.global.sounds[soundID]))
+        end
+    end
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
     function self:Anchor()
         self:ClearAllPoints()
         self:SetPoint(U.unpack(self.db.position))
@@ -112,6 +197,22 @@ function FarmingBarBarTemplate_OnLoad(self, ...)
         for buttonID, objectiveTable in pairs(self.db.objectives) do
             self.buttons[buttonID]:SetObjectiveID()
         end
+    end
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+    function self:GetProgress()
+        local count = 0
+        local numObjectives = 0
+        for buttonID, objectiveTable in pairs(self.db.objectives) do
+            if objectiveTable.objective then
+                numObjectives = numObjectives + 1
+                if self.buttons[buttonID]:GetCount() >= objectiveTable.objective then
+                    count = count + 1
+                end
+            end
+        end
+        return count, numObjectives
     end
 
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -260,6 +361,11 @@ function FarmingBarBarTemplate_OnLoad(self, ...)
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
     function self:UpdateQuickButtons()
+        if UnitAffectingCombat("player") then
+            self:RegisterEvent("PLAYER_REGEN_ENABLED")
+            return
+        end
+
         if self.db.visibleButtons >= addon.maxButtons then
             self.anchor.quickRemove:Enable()
             self.anchor.quickAdd:Disable()
@@ -271,6 +377,15 @@ function FarmingBarBarTemplate_OnLoad(self, ...)
             self.anchor.quickRemove:Enable()
         end
     end
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+    self:SetScript("OnEvent", function(self, event)
+        if event == "PLAYER_REGEN_ENABLED" then
+            self:UnregisterEvent(event)
+            self:UpdateQuickButtons()
+        end
+    end)
 end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -327,9 +442,14 @@ function FarmingBarBarTemplateAnchor_OnClick(self, button, ...)
             addon:SetDBValue("char.bars", "movable", "_toggle", self:GetBar().id)
             addon:Refresh()
             addon:Print(L.BarMovableChanged(self:GetBar().id, addon:GetDBValue("char.bars", "movable", self:GetBar().id)))
-        elseif IsControlKeyDown() then
+        elseif IsAltKeyDown() then
             -- Open settings.
             addon:Open("settings")
+        elseif IsControlKeyDown() then
+            -- Toggle bar progress.
+            addon:SetDBValue("char.bars", "trackProgress", "_toggle", self:GetBar().id)
+            addon:Refresh()
+            addon:Print(L.BarTrackingChanged(self:GetBar().id, addon:GetDBValue("char.bars", "trackProgress", self:GetBar().id)))
         end
     elseif button == "RightButton" then
         if IsShiftKeyDown() then
@@ -410,9 +530,8 @@ end
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-function FarmingBarBarTemplateObjectiveEditBox_OnEnterPressed(self, ...)
+function FarmingBarBarTemplateButtonIDEditBox_OnEnterPressed(self, ...)
     local buttonID = tonumber(self:GetText()) > addon.maxButtons and addon.maxButtons or tonumber(self:GetText())
-    print(self:GetParent():GetParent())
     addon.ObjectiveBuilder:Load(self:GetParent():GetParent().buttons[buttonID])
 
     self:SetText("")

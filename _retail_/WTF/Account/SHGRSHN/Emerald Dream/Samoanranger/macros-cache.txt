@@ -2,3 +2,9 @@ VER 3 0100000000000001 "BMBFAST" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click [button:2] BMBFAST RightButton; [button:3] BMBFAST MiddleButton; [button:4] BMBFAST Button4; [button:5] BMBFAST Button5; BMBFAST
 END
+VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
+P1NT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
+NSam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -165,8 +165,35 @@ function addon:GetBarOptions(barID)
                         self:SetDBValue("char.bars", info, value, barID)
                     end,
                 },
-                direction = {
+                trackProgress = {
                     order = 7,
+                    type = "toggle",
+                    name = L["Track Progress"],
+                    desc = L._Bars("trackProgressDesc"),
+                    set = function(info, value)
+                        self:SetDBValue("char.bars", info, value, barID)
+                    end,
+                },
+                trackCompletedObjectives = {
+                    order = 8,
+                    type = "toggle",
+                    name = L["Track Completed Objectives"],
+                    desc = L._Bars("trackCompletedObjectivesToggleDesc"),
+                    set = function(info, value)
+                        self:SetDBValue("char.bars", info, value, barID)
+                    end,
+                },
+                muteAlerts = {
+                    order = 9,
+                    type = "toggle",
+                    name = L["Mute Alerts"],
+                    desc = L._Bars("muteDesc"),
+                    set = function(info, value)
+                        self:SetDBValue("char.bars", info, value, barID)
+                    end,
+                },
+                direction = {
+                    order = 10,
                     name = L["Bar Direction"],
                     desc = L._Bars("directionDesc"),
                     type = "select",
@@ -185,7 +212,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 rowDirection = {
-                    order = 8,
+                    order = 11,
                     name = L["Row/Column Direction"],
                     desc = L._Bars("rowDirectionDesc"),
                     type = "select",
@@ -205,7 +232,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 visibleButtons = {
-                    order = 9,
+                    order = 12,
                     type = "range",
                     name = L["Visible Buttons"],
                     desc = L._Bars("visibleButtonsDesc"),
@@ -219,7 +246,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 buttonsPerRow = {
-                    order = 10,
+                    order = 13,
                     type = "range",
                     name = L["Buttons Per Row/Column"],
                     desc = L._Bars("buttonsPerRowDesc"),
@@ -233,7 +260,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 buttonSize = {
-                    order = 11,
+                    order = 14,
                     type = "range",
                     name = L["Button Size"],
                     desc = L._Bars("buttonSizeDesc"),
@@ -247,7 +274,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 buttonPadding = {
-                    order = 12,
+                    order = 15,
                     type = "range",
                     name = L["Button Padding"],
                     desc = L._Bars("buttonPaddingDesc"),
@@ -260,7 +287,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 scale = {
-                    order = 13,
+                    order = 16,
                     type = "range",
                     name = L["Scale"],
                     desc = L._Bars("scaleDesc"),
@@ -272,7 +299,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 alpha = {
-                    order = 14,
+                    order = 17,
                     type = "range",
                     name = L["Alpha"],
                     desc = L._Bars("alphaDesc"),
@@ -284,7 +311,7 @@ function addon:GetBarOptions(barID)
                     end,
                 },
                 font = {
-                    order = 15,
+                    order = 18,
                     type = "group",
                     inline = true,
                     name = L["Font"],
@@ -485,7 +512,23 @@ function addon:GetBarOptions(barID)
                                 end
                                 return values
                             end,
-                            set = function(_, value) self:LoadTemplate("user", barID, value) end,
+                            set = function(info, value)
+                                if self.db.global.template.includeDataPrompt then
+                                    local dialog = StaticPopup_Show("FARMINGBAR_INCLUDE_TEMPLATE_DATA", value)
+                                    if dialog then
+                                        dialog.data = {barID, value}
+                                    end
+                                else
+                                    if self.db.global.template.saveOrderPrompt then
+                                        local dialog = StaticPopup_Show("FARMINGBAR_SAVE_TEMPLATE_ORDER", value)
+                                        if dialog then
+                                            dialog.data = {barID, value, self.db.global.template.includeData}
+                                        end
+                                    else
+                                        self:LoadTemplate("user", barID, value,  self.db.global.template.includeData, self.db.global.template.saveOrder)
+                                    end
+                                end
+                            end,
                             disabled = function() return U.tcount(self.db.global.templates) == 0 end,
                         },
                         deleteTemplateSelect = {
@@ -793,8 +836,33 @@ function addon:GetCommandsOptions()
                     },
                 },
 
-                name = {
+                mute = {
                     order = 10,
+                    type = "group",
+                    inline = true,
+                    name = "mute",
+                    args = {
+                        muteDesc = {
+                            order = 1,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_muteDesc"),
+                            fontSize = "medium",
+                        },
+                        muteArgsDesc = {
+                            order = 2,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_muteArgsDesc"),
+                        },
+                        muteExDesc = {
+                            order = 3,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_muteExDesc"),
+                        },
+                    },
+                },
+
+                name = {
+                    order = 11,
                     type = "group",
                     inline = true,
                     name = "name",
@@ -819,7 +887,7 @@ function addon:GetCommandsOptions()
                 },
 
                 padding = {
-                    order = 11,
+                    order = 12,
                     type = "group",
                     inline = true,
                     name = "padding",
@@ -849,7 +917,7 @@ function addon:GetCommandsOptions()
                 },
 
                 remove = {
-                    order = 12,
+                    order = 13,
                     type = "group",
                     inline = true,
                     name = "remove",
@@ -874,7 +942,7 @@ function addon:GetCommandsOptions()
                 },
 
                 scale = {
-                    order = 13,
+                    order = 14,
                     type = "group",
                     inline = true,
                     name = "scale",
@@ -904,7 +972,7 @@ function addon:GetCommandsOptions()
                 },
 
                 size = {
-                    order = 14,
+                    order = 15,
                     type = "group",
                     inline = true,
                     name = "size",
@@ -933,8 +1001,34 @@ function addon:GetCommandsOptions()
                     },
                 },
 
+                track = {
+                    order = 16,
+                    type = "group",
+                    inline = true,
+                    name = "track",
+                    args = {
+                        trackDesc = {
+                            order = 1,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_trackDesc"),
+                            fontSize = "medium",
+                        },
+                        trackArgsDesc = {
+                            order = 2,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_trackArgsDesc"),
+                        },
+                        trackExDesc = {
+                            order = 3,
+                            type = "description",
+                            name = L._Commands(L, "bar", "i_trackExDesc"),
+                        },
+                    },
+                },
+
+
                 visibility = {
-                    order = 15,
+                    order = 17,
                     type = "group",
                     inline = true,
                     name = "visibility",
@@ -1081,7 +1175,7 @@ function addon:GetCommandsOptions()
             name = "template/tpl",
             args = {
                 delete = {
-                    order = 3,
+                    order = 1,
                     type = "group",
                     inline = true,
                     name = "delete",
@@ -1106,7 +1200,7 @@ function addon:GetCommandsOptions()
                 },
 
                 load = {
-                    order = 3,
+                    order = 2,
                     type = "group",
                     inline = true,
                     name = "load",
@@ -1289,7 +1383,7 @@ function addon:GetBarsOptions()
             inline = true,
             name = L["Config: Bars"],
             get = function(info) return self:GetMixedDBValues("char.bars", info) end,
-            set = function(...) self:SetMixedDBValues("char.bars", ...) end,
+            set = function(info, value) self:SetMixedDBValues("char.bars", info, value or false) end,
             args = {
                 movable = {
                     order = 1,
@@ -1307,7 +1401,7 @@ function addon:GetBarsOptions()
                     desc = L._Bars("hiddenToggleDesc"),
                     tristate = true,
                     set = function(info, value)
-                        self:SetMixedDBValues("char.bars", info, value, function(bar)
+                        self:SetMixedDBValues("char.bars", info, value or false, function(bar)
                             bar:SetHidden()
                         end)
                     end,
@@ -1320,7 +1414,7 @@ function addon:GetBarsOptions()
                     desc = L._Bars("mouseoverToggleDesc"),
                     tristate = true,
                     set = function(info, value)
-                        self:SetMixedDBValues("char.bars", info, value, function(bar)
+                        self:SetMixedDBValues("char.bars", info, value or false, function(bar)
                             bar:SetMouseover()
                         end)
                     end,
@@ -1332,7 +1426,7 @@ function addon:GetBarsOptions()
                     desc = L._Bars("anchorMouseoverToggleDesc"),
                     tristate = true,
                     set = function(info, value)
-                        self:SetMixedDBValues("char.bars", info, value, function(bar)
+                        self:SetMixedDBValues("char.bars", info, value or false, function(bar)
                             bar:SetMouseover()
                         end)
                     end,
@@ -1343,12 +1437,30 @@ function addon:GetBarsOptions()
                     name = L["Show Empty Buttons"],
                     desc = L._Bars("showEmptiesDesc"),
                     tristate = true,
-                    set = function(info, value)
-                        self:SetMixedDBValues("char.bars", info, value)
-                    end,
+                },
+                trackProgress = {
+                    order = 6,
+                    type = "toggle",
+                    name = L["Track Progress"],
+                    desc = L._Bars("trackProgressDesc"),
+                    tristate = true,
+                },
+                trackCompletedObjectives = {
+                    order = 7,
+                    type = "toggle",
+                    name = L["Track Completed Objectives"],
+                    desc = L._Bars("trackCompletedObjectivesToggleDesc"),
+                    tristate = true,
+                },
+                muteAlerts = {
+                    order = 8,
+                    type = "toggle",
+                    name = L["Mute Alerts"],
+                    desc = L._Bars("muteDesc"),
+                    tristate = true,
                 },
                 direction = {
-                    order = 6,
+                    order = 9,
                     name = L["Bar Direction"],
                     desc = L._Bars("directionDesc"),
                     type = "select",
@@ -1368,7 +1480,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 rowDirection = {
-                    order = 7,
+                    order = 10,
                     name = L["Row/Column Direction"],
                     desc = L._Bars("rowDirectionDesc"),
                     type = "select",
@@ -1389,7 +1501,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 visibleButtons = {
-                    order = 8,
+                    order = 11,
                     type = "range",
                     name = L["Visible Buttons"],
                     desc = L._Bars("visibleButtonsDesc"),
@@ -1404,7 +1516,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 buttonsPerRow = {
-                    order = 9,
+                    order = 12,
                     type = "range",
                     name = L["Buttons Per Row/Column"],
                     desc = L._Bars("buttonsPerRowDesc"),
@@ -1419,7 +1531,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 buttonSize = {
-                    order = 10,
+                    order = 13,
                     type = "range",
                     name = L["Button Size"],
                     desc = L._Bars("buttonSizeDesc"),
@@ -1434,7 +1546,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 buttonPadding = {
-                    order = 11,
+                    order = 14,
                     type = "range",
                     name = L["Button Padding"],
                     desc = L._Bars("buttonPaddingDesc"),
@@ -1448,7 +1560,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 scale = {
-                    order = 12,
+                    order = 15,
                     type = "range",
                     name = L["Scale"],
                     desc = L._Bars("scaleDesc"),
@@ -1461,7 +1573,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 alpha = {
-                    order = 13,
+                    order = 16,
                     type = "range",
                     name = L["Alpha"],
                     desc = L._Bars("alphaDesc"),
@@ -1474,7 +1586,7 @@ function addon:GetBarsOptions()
                     end,
                 },
                 font = {
-                    order = 14,
+                    order = 17,
                     type = "group",
                     inline = true,
                     name = L["Font"],
@@ -1641,6 +1753,12 @@ function addon:GetHelpOptions()
             name = L["Alert Formats"],
             args = {},
         },
+        barAlertFormats = {
+            order = 2,
+            type = "group",
+            name = L["Bar Alert Formats"],
+            args = {},
+        },
         bars = {
             order = 3,
             type = "group",
@@ -1648,25 +1766,31 @@ function addon:GetHelpOptions()
             args = {},
         },
         buttons = {
-            order = 3,
+            order = 4,
             type = "group",
             name = L["Buttons"],
             args = {},
         },
         mixedItems = {
-            order = 4,
+            order = 5,
             type = "group",
             name = L["Mixed Items"],
             args = {},
         },
+        objectiveBuilder = {
+            order = 6,
+            type = "group",
+            name = L["Objective Builder"],
+            args = {},
+        },
         shoppingLists = {
-            order = 5,
+            order = 7,
             type = "group",
             name = L["Shopping Lists"],
             args = {},
         },
         templates = {
-            order = 5,
+            order = 8,
             type = "group",
             name = L["Templates"],
             args = {},
@@ -1702,8 +1826,236 @@ end
 
 function addon:GetSettingsOptions()
     local options = {
-        profileGroup = {
+        alertFormatsGroup = {
             order = 0,
+            type = "group",
+            name = L["Alert Formats"],
+            args = {
+                options = {
+                    order = 1,
+                    type = "group",
+                    name = L["Button Options"],
+                    inline = true,
+                    get = function(...) return self:GetDBValue("global.alertFormats", ...) end,
+                    set = function(...) return self:SetDBValue("global.alertFormats", ...) end,
+                    args = {
+                        objectivePreview = {
+                            order = 1,
+                            type = "range",
+                            name = L["Objective Preview"],
+                            desc = L._Settings("objectivePreviewRangeDesc"),
+                            min = 1,
+                            max = 5000,
+                            step = 1
+                        },
+                        newCountPreview = {
+                            order = 2,
+                            type = "range",
+                            name = L["New Count Preview"],
+                            desc = L._Settings("newCountPreviewRangeDesc"),
+                            min = 0,
+                            max = 5000,
+                            step = 1
+                        },
+                        oldCountPreview = {
+                            order = 3,
+                            type = "range",
+                            name = L["Old Count Preview"],
+                            desc = L._Settings("oldCountPreviewRangeDesc"),
+                            min = 0,
+                            max = 5000,
+                            step = 1
+                        },
+                    },
+                },
+
+                buttonAlerts = {
+                    order = 2,
+                    type = "group",
+                    name = L["Button Alerts"],
+                    inline = true,
+                    get = function(...) return self:GetDBValue("global.alertFormats", ...) end,
+                    set = function(...) return self:SetDBValue("global.alertFormats", ...) end,
+                    args = {
+                        hasObjective = {
+                            order = 1,
+                            type = "input",
+                            width = "full",
+                            name = L["Has Objective"],
+                            validate = function(info, value)
+                                local success, err = pcall(addon["ParseAlert"], addon, value, {objectiveTitle = "My Special Flower Objective", objective = self:GetDBValue("global.alertFormats", "objectivePreview"), objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
+                                return success or err
+                            end,
+                            desc = L._Settings("hasObjectiveInputDesc"),
+                        },
+                        hasObjectivePreview = {
+                            order = 2,
+                            type = "input",
+                            width = "full",
+                            name = L["Preview"],
+                            disabled = true,
+                            get = function(info, ...)
+                                if tonumber(self:GetDBValue("global.alertFormats", "newCountPreview")) == tonumber(self:GetDBValue("global.alertFormats", "oldCountPreview")) then return L.GetErrorMessage("invalidCountDifference") end
+
+                                local success, err = pcall(addon["ParseAlert"], addon, self:GetDBValue("global.alertFormats", "hasObjective"), {objectiveTitle = "My Special Flower Objective", objective = self:GetDBValue("global.alertFormats", "objectivePreview"), objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
+                                return err
+                            end,
+                        },
+                        resetHasObjective = {
+                            order = 3,
+                            type = "execute",
+                            name = L["Reset"],
+                            desc = L._Settings("resetHasObjectiveDesc"),
+                            confirm = function() return L._Settings("resetHasObjectiveConfirm") end,
+                            func = function()
+                                self:SetDBValue("global.alertFormats", "hasObjective", self.hasObjective)
+                            end,
+                        },
+                        noObjective = {
+                            order = 4,
+                            type = "input",
+                            width = "full",
+                            name = L["No Objective"],
+                            validate = function(info, value)
+                                local success, err = pcall(addon["ParseAlert"], addon, value, {objectiveTitle = "My Special Flower Objective", objective = false, objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
+                                return success or err
+                            end,
+                            desc = L._Settings("noObjectiveInputDesc"),
+                        },
+                        noObjectivePreview = {
+                            order = 5,
+                            type = "input",
+                            width = "full",
+                            name = L["Preview"],
+                            disabled = true,
+                            get = function(info, ...)
+                                if tonumber(self:GetDBValue("global.alertFormats", "newCountPreview")) == tonumber(self:GetDBValue("global.alertFormats", "oldCountPreview")) then return L.GetErrorMessage("invalidCountDifference") end
+
+                                local success, err = pcall(addon["ParseAlert"], addon, self:GetDBValue("global.alertFormats", "noObjective"), {objectiveTitle = "My Special Flower Objective", objective = false, objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
+                                return err
+                            end,
+                        },
+                        resetNoObjective = {
+                            order = 6,
+                            type = "execute",
+                            name = L["Reset"],
+                            desc = L._Settings("resetNoObjectiveDesc"),
+                            confirm = function() return L._Settings("resetNoObjectiveConfirm") end,
+                            func = function()
+                                self:SetDBValue("global.alertFormats", "noObjective", self.noObjective)
+                            end,
+                        },
+                    },
+                },
+
+                help = {
+                    order = 3,
+                    type = "execute",
+                    name = L["Help"] .. "!",
+                    desc = L._Settings("helpExecuteDesc"),
+                    func = function()
+                        ACD:SelectGroup(L.addonName, "help", "alertFormats")
+                    end,
+                },
+
+                barOptions = {
+                    order = 4,
+                    type = "group",
+                    name = L["Bar Options"],
+                    inline = true,
+                    get = function(...) return self:GetDBValue("global.alertFormats", ...) end,
+                    set = function(...) return self:SetDBValue("global.alertFormats", ...) end,
+                    args = {
+                        barCountPreview = {
+                            order = 1,
+                            type = "range",
+                            name = L["Progress Count"],
+                            desc = L._Settings("barCountPreviewRangeDesc"),
+                            min = 0,
+                            max = self.maxButtons,
+                            step = 1
+                        },
+                        barTotalPreview = {
+                            order = 2,
+                            type = "range",
+                            name = L["Progress Total"],
+                            desc = L._Settings("barTotalPreviewRangeDesc"),
+                            min = 1,
+                            max = self.maxButtons,
+                            step = 1
+                        },
+                        barTitlePreview = {
+                            order = 3,
+                            type = "toggle",
+                            name = L["Bar Has Name"],
+                            desc = L._Settings("barTitlePreviewToggleDesc"),
+                        },
+                    },
+                },
+
+                barAlerts = {
+                    order = 5,
+                    type = "group",
+                    name = L["Bar Alerts"],
+                    inline = true,
+                    get = function(...) return self:GetDBValue("global.alertFormats", ...) end,
+                    set = function(...) return self:SetDBValue("global.alertFormats", ...) end,
+                    args = {
+                        barProgress = {
+                            order = 1,
+                            type = "input",
+                            width = "full",
+                            name = L["Bar Progress"],
+                            validate = function(info, value)
+                                if tonumber(self:GetDBValue("global.alertFormats", "barCountPreview")) > tonumber(self:GetDBValue("global.alertFormats", "barTotalPreview")) then return L.GetErrorMessage("invalidProgressDifference") end
+
+                                local alertInfo = {id = 1, desc = L._Settings("sampleBarTitle"), count = self:GetDBValue("global.alertFormats", "barCountPreview"), total = self:GetDBValue("global.alertFormats", "barTotalPreview")}
+                                local success, err = pcall(addon["ParseBarAlert"], addon, self:GetDBValue("global.alertFormats", "barProgress"), alertInfo)
+                                return success or err
+                            end,
+                            desc = L._Settings("barProgressInputDesc"),
+                        },
+                        barProgressPreview = {
+                            order = 2,
+                            type = "input",
+                            width = "full",
+                            name = L["Preview"],
+                            disabled = true,
+                            get = function(info, ...)
+                                if tonumber(self:GetDBValue("global.alertFormats", "barCountPreview")) > tonumber(self:GetDBValue("global.alertFormats", "barTotalPreview")) then return L.GetErrorMessage("invalidProgressDifference") end
+
+                                local alertInfo = {id = 1, desc = self:GetDBValue("global.alertFormats", "barTitlePreview") and L._Settings("sampleBarTitle") or "", count = self:GetDBValue("global.alertFormats", "barCountPreview"), total = self:GetDBValue("global.alertFormats", "barTotalPreview")}
+                                local success, err = pcall(addon["ParseBarAlert"], addon, self:GetDBValue("global.alertFormats", "barProgress"), alertInfo)
+                                return err
+                            end,
+                        },
+                        resetBarProgress = {
+                            order = 3,
+                            type = "execute",
+                            name = L["Reset"],
+                            desc = L._Settings("resetBarProgressDesc"),
+                            confirm = function() return L._Settings("resetBarProgressConfirm") end,
+                            func = function()
+                                self:SetDBValue("global.alertFormats", "barProgress", self.barProgress)
+                            end,
+                        },
+                    },
+                },
+
+                barHelp = {
+                    order = 6,
+                    type = "execute",
+                    name = L["Help"] .. "!",
+                    desc = L._Settings("helpBarExecuteDesc"),
+                    func = function()
+                        ACD:SelectGroup(L.addonName, "help", "barAlertFormats")
+                    end,
+                },
+            },
+        },
+
+        profileGroup = {
+            order = 1,
             type = "group",
             name = L["Profile Settings"],
             args = {
@@ -1933,127 +2285,51 @@ function addon:GetSettingsOptions()
                     name = L["Sound"],
                     desc = L._Settings("soundToggleDesc"),
                 },
+                chatFrame = {
+                    order = 4,
+                    type = "select",
+                    name = L["Chat Frame"],
+                    desc = L._Settings("chatFrameSelectDesc"),
+                    values = function()
+                        local values = {}
+                        for i = 1, FCF_GetNumActiveChatFrames() do
+                            values["ChatFrame"..i] = _G["ChatFrame"..i.."Tab"]:GetText()
+                        end
+                        return values
+                    end,
+                },
             },
         },
 
-        alertFormatsGroup = {
+        barAlertsGroup = {
             order = 2,
             type = "group",
             inline = true,
-            name = L["Alert Formats"],
-            get = function(...) return self:GetDBValue("global.alertFormats", ...) end,
-            set = function(...) return self:SetDBValue("global.alertFormats", ...) end,
+            name = L["Bar Alerts"],
+            get = function(...) return self:GetDBValue("global.alerts", ...) end,
+            set = function(...) return self:SetDBValue("global.alerts", ...) end,
             args = {
-                objectivePreview = {
+                barChat = {
                     order = 1,
-                    type = "range",
-                    name = L["Objective Preview"],
-                    desc = L._Bars("objectivePreviewRangeDesc"),
-                    min = 1,
-                    max = 5000,
-                    step = 1
+                    type = "toggle",
+                    width = .85,
+                    name = L["Chat"],
+                    desc = L._Settings("barChatToggleDesc"),
                 },
-                newCountPreview = {
+                barScreen = {
                     order = 2,
-                    type = "range",
-                    name = L["New Count Preview"],
-                    desc = L._Bars("newCountPreviewRangeDesc"),
-                    min = 0,
-                    max = 5000,
-                    step = 1
+                    type = "toggle",
+                    width = .85,
+                    name = L["Screen"],
+                    desc = L._Settings("barScreenToggleDesc"),
                 },
-                oldCountPreview = {
+                barSound = {
                     order = 3,
-                    type = "range",
-                    name = L["Old Count Preview"],
-                    desc = L._Bars("oldCountPreviewRangeDesc"),
-                    min = 0,
-                    max = 5000,
-                    step = 1
+                    type = "toggle",
+                    width = .85,
+                    name = L["Sound"],
+                    desc = L._Settings("barSoundToggleDesc"),
                 },
-                hasObjective = {
-                    order = 4,
-                    type = "input",
-                    width = "full",
-                    name = L["Has Objective"],
-                    validate = function(info, value)
-                        local success, err = pcall(addon["ParseAlert"], addon, value, {objective = self:GetDBValue("global.alertFormats", "objectivePreview"), objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
-                        return success or err
-                    end,
-                    desc = L._Bars("hasObjectiveInputDesc"),
-                },
-                hasObjectivePreview = {
-                    order = 5,
-                    type = "input",
-                    width = "full",
-                    name = L["Preview"],
-                    disabled = true,
-                    get = function(info, ...)
-                        if tonumber(self:GetDBValue("global.alertFormats", "newCountPreview")) == tonumber(self:GetDBValue("global.alertFormats", "oldCountPreview")) then return L.GetErrorMessage("invalidCountDifference") end
-
-                        local success, err = pcall(addon["ParseAlert"], addon, self:GetDBValue("global.alertFormats", "hasObjective"), {objective = self:GetDBValue("global.alertFormats", "objectivePreview"), objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
-                        return err
-                    end,
-                },
-                resetHasObjective = {
-                    order = 6,
-                    type = "execute",
-                    name = L["Reset"],
-                    desc = L._Settings("resetHasObjectiveDesc"),
-                    confirm = function() return L._Settings("resetHasObjectiveConfirm") end,
-                    func = function()
-                        self:SetDBValue("global.alertFormats", "hasObjective", self.hasObjective)
-                    end,
-                },
-                noObjective = {
-                    order = 7,
-                    type = "input",
-                    width = "full",
-                    name = L["No Objective"],
-                    validate = function(info, value)
-                        local success, err = pcall(addon["ParseAlert"], addon, value, {objective = false, objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
-                        return success or err
-                    end,
-                    desc = L._Bars("noObjectiveInputDesc"),
-                },
-                noObjectivePreview = {
-                    order = 8,
-                    type = "input",
-                    width = "full",
-                    name = L["Preview"],
-                    disabled = true,
-                    get = function(info, ...)
-                        if tonumber(self:GetDBValue("global.alertFormats", "newCountPreview")) == tonumber(self:GetDBValue("global.alertFormats", "oldCountPreview")) then return L.GetErrorMessage("invalidCountDifference") end
-
-                        local success, err = pcall(addon["ParseAlert"], addon, self:GetDBValue("global.alertFormats", "noObjective"), {objective = false, objectiveName = "Zin'anthid", oldCount = self:GetDBValue("global.alertFormats", "oldCountPreview"), newCount = self:GetDBValue("global.alertFormats", "newCountPreview"), difference = (self:GetDBValue("global.alertFormats", "newCountPreview") - self:GetDBValue("global.alertFormats", "oldCountPreview"))})
-                        return err
-                    end,
-                },
-                resetNoObjective = {
-                    order = 9,
-                    type = "execute",
-                    name = L["Reset"],
-                    desc = L._Settings("resetNoObjectiveDesc"),
-                    confirm = function() return L._Settings("resetNoObjectiveConfirm") end,
-                    func = function()
-                        self:SetDBValue("global.alertFormats", "noObjective", self.noObjective)
-                    end,
-                },
-                spacer = {
-                    order = 10,
-                    type = "description",
-                    width = "full",
-                    name = "",
-                },
-                help = {
-                    order = 11,
-                    type = "execute",
-                    name = L["Help"] .. "!",
-                    desc = L._Settings("helpExecuteDesc"),
-                    func = function()
-                        addon:Open("help", "alertFormats")
-                    end,
-                }
             },
         },
 
@@ -2114,10 +2390,26 @@ function addon:GetSettingsOptions()
             inline = true,
             name = L["Sounds"],
             get = function(...) return self:GetDBValue("global.sounds", ...) end,
-            set = function(...) print(...); return self:SetDBValue("global.sounds", ...) end,
+            set = function(...) return self:SetDBValue("global.sounds", ...) end,
             args = {
-                farmingProgress = {
+                barProgress = {
                     order = 1,
+                    type = "select",
+                    name = L["Bar Progress"],
+                    desc =  L._Bars("barProgressDesc"),
+                    dialogControl = "LSM30_Sound",
+                    values = AceGUIWidgetLSMlists.sound,
+                },
+                barComplete = {
+                    order = 2,
+                    type = "select",
+                    name = L["Bar Complete"],
+                    desc =  L._Bars("barCompleteDesc"),
+                    dialogControl = "LSM30_Sound",
+                    values = AceGUIWidgetLSMlists.sound,
+                },
+                farmingProgress = {
+                    order = 3,
                     type = "select",
                     name = L["Farming Progress"],
                     desc =  L._Bars("farmingProgressDesc"),
@@ -2125,7 +2417,7 @@ function addon:GetSettingsOptions()
                     values = AceGUIWidgetLSMlists.sound,
                 },
                 objectiveCleared = {
-                    order = 2,
+                    order = 4,
                     type = "select",
                     name = L["Objective Cleared"],
                     desc =  L._Bars("objectiveClearedDesc"),
@@ -2133,7 +2425,7 @@ function addon:GetSettingsOptions()
                     values = AceGUIWidgetLSMlists.sound,
                 },
                 objectiveComplete = {
-                    order = 3,
+                    order = 5,
                     type = "select",
                     name = L["Objective Complete"],
                     desc =  L._Bars("objectiveCompleteDesc"),
@@ -2141,7 +2433,7 @@ function addon:GetSettingsOptions()
                     values = AceGUIWidgetLSMlists.sound,
                 },
                 objectiveSet = {
-                    order = 4,
+                    order = 6,
                     type = "select",
                     name = L["Objective Set"],
                     desc =  L._Bars("objectiveSetDesc"),
@@ -2151,8 +2443,47 @@ function addon:GetSettingsOptions()
             },
         },
 
-        tooltipsGroup = {
+        templatesGroup = {
             order = 5,
+            type = "group",
+            inline = true,
+            name = L["Templates"],
+            get = function(...) return self:GetDBValue("global.template", ...) end,
+            set = function(...) return self:SetDBValue("global.template", ...) end,
+            args = {
+                includeData = {
+                    order = 1,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Include Data"],
+                    desc = L._Settings("includeDataTemplatesDesc"),
+                },
+                includeDataPrompt = {
+                    order = 2,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Include Data Prompt"],
+                    desc = L._Settings("includeDataPromptTemplatesDesc"),
+                },
+                saveOrder = {
+                    order = 3,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Save Order"],
+                    desc = L._Settings("saveOrderTemplatesDesc"),
+                },
+                saveOrderPrompt = {
+                    order = 4,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Save Order Prompt"],
+                    desc = L._Settings("saveOrderPromptTemplatesDesc"),
+                },
+            },
+        },
+
+        tooltipsGroup = {
+            order = 6,
             type = "group",
             inline = true,
             name = L["Tooltips"],
@@ -2186,6 +2517,46 @@ function addon:GetSettingsOptions()
                     width = .85,
                     name = L["Button Tips"],
                     desc = L._Settings("buttonTipTooltipDesc"),
+                },
+                enableMod = {
+                    order = 5,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Enable Modifier"],
+                    desc = L._Settings("enableModTooltipDesc"),
+                },
+                mod = {
+                    order = 6,
+                    type = "select",
+                    style = "dropdown",
+                    name = L["Modifier"],
+                    desc = L._Settings("modTooltipDesc"),
+                    values = function()
+                        local values = {
+                            Alt = L["Alt"],
+                            Control = L["Control"],
+                            Shift = L["Shift"],
+                        }
+                        return values
+                    end,
+                },
+            },
+        },
+
+        otherGroup = {
+            order = 7,
+            type = "group",
+            inline = true,
+            name = L["Other"],
+            get = function(...) return self:GetDBValue("global", ...) end,
+            set = function(...) return self:SetDBValue("global", ...) end,
+            args = {
+                autoLootItems = {
+                    order = 1,
+                    type = "toggle",
+                    width = .85,
+                    name = L["Auto Loot Items"],
+                    desc = L._Settings("autoLootItemsOtherDesc"),
                 },
             },
         },

@@ -1,0 +1,11 @@
+
+PetJournalEnhancedDB = {
+	["namespaces"] = {
+		["Sorting"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kokonutkiing - Emerald Dream"] = "Default",
+		["Kokonutkween - Emerald Dream"] = "Default",
+	},
+}

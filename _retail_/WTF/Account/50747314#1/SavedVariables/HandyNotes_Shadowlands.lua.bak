@@ -1,0 +1,11 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Kokonutkiing - Emerald Dream"] = "Default",
+		["Kokonutkween - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

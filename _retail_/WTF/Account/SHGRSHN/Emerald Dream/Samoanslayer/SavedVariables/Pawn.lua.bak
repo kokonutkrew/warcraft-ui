@@ -1,93 +1,92 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0246,
+	["LastVersion"] = 2.0406,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122248,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122248::::::::76:259:::1:582:::|h[Stained Shadowcraft Cap]|h|r",
+			["ID"] = 122245,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122245::::::::14:72:::1:582::::|h[Polished Helm of Valor]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122668,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122668::::::::76:259:::1:582:::|h[Eternal Will of the Martyr]|h|r",
+			["ID"] = 122667,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122667::::::::14:72:::1:582::::|h[Eternal Emberfury Talisman]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122377,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122377::::::::76:259:::1:583:::|h[Lasting Feralheart Spaulders]|h|r",
+			["ID"] = 122355,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122355::::::::14:72:::1:582::::|h[Polished Spaulders of Valor]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122383,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122383::::::::76:259:::1:582:::|h[Stained Shadowcraft Tunic]|h|r",
+			["ID"] = 122381,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122381::::::::14:72:::1:582::::|h[Polished Breastplate of Valor]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112365,
-			["Level"] = 89,
-			["Link"] = "|cff0070dd|Hitem:112365::::::::76:259:512:1:2:4242:31:72:::|h[Winterfrost Leather Belt of the Fireflash]|h|r",
+			["ID"] = 6460,
+			["Level"] = 15,
+			["Link"] = "|cff0070dd|Hitem:6460::::::::12:73::1:1:4068:1:9:11:::|h[Cobrahn's Grasp]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122254,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122254::::::::76:259:::1:582:::|h[Stained Shadowcraft Pants]|h|r",
+			["ID"] = 122251,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122251::::::::14:72:::::::|h[Polished Legplates of Valor]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 28074,
-			["Level"] = 91,
-			["Link"] = "|cff0070dd|Hitem:28074::::::::76:259:512:11:1:3758:73:::|h[Studded Green Anklewraps]|h|r",
+			["ID"] = 151441,
+			["Level"] = 15,
+			["Link"] = "|cff0070dd|Hitem:151441::::::::12:73::1:1:3998:1:9:11:::|h[Aku'mai Worshipper's Greatboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 44339,
-			["Level"] = 95,
-			["Link"] = "|cff0070dd|Hitem:44339::::::::76:259:512:11:1:4133:75:::|h[Soaring Wristwraps]|h|r",
+			["ID"] = 5943,
+			["Level"] = 14,
+			["Link"] = "|cff0070dd|Hitem:5943::::::::12:73::1:1:4049:1:9:10:::|h[Rift Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 44364,
-			["Level"] = 79,
-			["Link"] = "|cff0070dd|Hitem:44364::::::::76:259:512:11:1:4113:68:::|h[Wraps of Quelled Bane]|h|r",
+			["ID"] = 151070,
+			["Level"] = 14,
+			["Link"] = "|cff0070dd|Hitem:151070::::::::12:73::1:1:4049:1:9:10:::|h[Gloves of the Greymane Wall]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 122529,
-			["Level"] = 95,
+			["ID"] = 128172,
+			["Level"] = 17,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff00ccff|Hitem:122529::::::::76:259:::1:3592:::|h[Dread Pirate Ring]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128172::::::::14:72:::1:582::::|h[Captain Sander's Returned Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 128173,
-			["Level"] = 95,
+			["ID"] = 122529,
+			["Level"] = 17,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128173::::::::76:259:::1:583:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122529::::::::14:72:::1:5805::::|h[Dread Pirate Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 128318,
-			["Level"] = 95,
+			["ID"] = 122361,
+			["Level"] = 17,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:128318::::::::76:259:::1:3592:::|h[Touch of the Void]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::14:72:::1:5805::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 95,
+			["Level"] = 16,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::76:259:::1:583:::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::13:72:::1:583::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 122261,
-			["Level"] = 95,
-			["Link"] = "|cff00ccff|Hitem:122261::::::::76:259:::1:582:::|h[Inherited Cape of the Black Baron]|h|r",
+			["ID"] = 122260,
+			["Level"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122260::::::::14:72:::1:583::::|h[Worn Stoneskin Gargoyle Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 122350,
-			["Level"] = 95,
+			["ID"] = 122385,
+			["Level"] = 17,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122350:4443:::::::76:259:::1:582:::|h[Balanced Heartseeker]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122385::::::::14:72:::1:5805::::|h[Venerable Mass of McGowan]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 122364,
-			["Level"] = 95,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122364:4443:::::::76:259:::1:582:::|h[Sharpened Scarlet Kris]|h|r",
+			["ID"] = 6599,
+			["Level"] = 19,
+			["Link"] = "|cff1eff00|Hitem:6599::::::::13:72::30:2:1694:3862:1:9:14:::|h[Battleforge Shield of the Fireflash]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = true,
@@ -99,3 +98,4 @@ PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

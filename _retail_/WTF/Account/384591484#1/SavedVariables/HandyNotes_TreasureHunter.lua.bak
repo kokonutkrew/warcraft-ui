@@ -1,0 +1,13 @@
+
+HandyNotes_TreasureHunterDB = {
+	["profileKeys"] = {
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanbatman - Emerald Dream"] = {
+		},
+		["Stronguard - Emerald Dream"] = {
+		},
+	},
+}

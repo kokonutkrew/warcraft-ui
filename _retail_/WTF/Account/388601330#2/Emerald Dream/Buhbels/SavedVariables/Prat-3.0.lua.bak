@@ -1,0 +1,2356 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame18"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+			},
+			["headIndex"] = 0,
+		},
+		["ChatFrame19"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:41:52]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:561:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: hey welcome!",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605922925,
+					["timestamp"] = 38204.634,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:42:13]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:564:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: how goes the leveling?",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605922946,
+					["timestamp"] = 38225.207,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:42:46]|h|r [W From] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:570:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r it's goin aight how's yours",
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						254, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605922979,
+					["timestamp"] = 38258.822,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:43:18]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:578:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Same! Have you figured out which class you want to main for Shadowlands?",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923011,
+					["timestamp"] = 38289.97,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:44:00]|h|r [W From] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:581:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: |CFFFF0000(M)|r i'm prob gonna do prot warrior or priest",
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						254, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923053,
+					["timestamp"] = 38332.683,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:45:04]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:587:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Both are good choices!",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923117,
+					["timestamp"] = 38396.857,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:45:47]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:591:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: We could use a solid tank in our raid team",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923160,
+					["timestamp"] = 38439.596,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:45:56]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:595:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: I myself will be healing on a different toon",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923169,
+					["timestamp"] = 38448.77,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:06]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:596:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Glad to have you in the guild",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923179,
+					["timestamp"] = 38458.048,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:24]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:599:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Be sure to check out |cffffffff|Hurl:kokonutkrew.com|h[kokonutkrew.com]|h|r for more info on our progression plan",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923197,
+					["timestamp"] = 38476.69,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:33]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:602:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Let me know if you need anything",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923206,
+					["timestamp"] = 38485.229,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:42]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:605:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: I'm going to go ahead and promote you to memeber",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923215,
+					["timestamp"] = 38494.555,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:46:50]|h|r [W To] |cffd8d8d8[|r|Hplayer:Chadtoll-EmeraldDream:607:WHISPER:CHADTOLL-EMERALDDREAM|h|cffd84e4e26|r:|cffc31d39Chadtoll|r|h|cffd8d8d8]|r: Feel free to invite friends",
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						254, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1605923223,
+					["timestamp"] = 38502.258,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
+				}, -- [13]
+			},
+			["headIndex"] = 13,
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 61,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chärismä-EmeraldDream:248:CHANNEL:2|h|cffc31d39Chärismä|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Aurastorm Legends|r|cffffffff>|r is a newly formed guild looking to expand it's roster and grow as a community while taking on all facets of play both new and old.  Join us while we tackle Shadowlands. PM for info!",
+					["serverTime"] = 1605930976,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46255.546,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:04]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930977,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46256.25,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:13]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605930986,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46265.121,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ómnos-EmeraldDream:252:CHANNEL:2|h|cffa9d271Ómnos|r|h|cffd8d8d8]|r: The Order has been around for almost a decade in various iterations. We focus on endgame PvP (arena, RBG, wPvP), and also partake semi-seriously in Raiding and Mythic+. With a long and storied history, we offer a wide array of activites.",
+					["serverTime"] = 1605930993,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46272.36,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:21]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605930994,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46273.663,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:30]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Wizard's Sanctum is under attack!|r",
+					["serverTime"] = 1605931003,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46281.998,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:56:41]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:259:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: dead people uwu",
+					["serverTime"] = 1605931014,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46293.565,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arithën-EmeraldDream:260:CHANNEL:2|h|cfff38bb9Arithën|r|h|cffd8d8d8]|r: lf5m for mythic nighthold run",
+					["serverTime"] = 1605931057,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46336.287,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:28]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605931061,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46340.754,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pipchi-EmeraldDream:262:CHANNEL:2|h|cff00fe97Pipchi|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Disciples of Paimon|r|cffffffff>|r is a newly formed, community-based, heroic raiding guild looking for new members! Our goal is to get AOTC and try out the new content in Shadowlands. Raid Time 6:30 - 8:30 CT. DM me for information.",
+					["serverTime"] = 1605931065,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46344.559,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zalraan-EmeraldDream:263:CHANNEL:2|h|cfff38bb9Zalraan|r|h|cffd8d8d8]|r: do you not get infected?",
+					["serverTime"] = 1605931077,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46356.179,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:46]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City is under attack!|r",
+					["serverTime"] = 1605931079,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46358.748,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:49]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Dwarven District is under attack!|r",
+					["serverTime"] = 1605931082,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46361.081,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:57:52]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605931085,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46364.181,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:02]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:267:CHANNEL:2|h|cffa9d271Horned|r|h|cffd8d8d8]|r: why the cemetry so %^&*ing far away if so many alliance die in the city *thinking face*",
+					["serverTime"] = 1605931095,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46374.582,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arithën-EmeraldDream:268:CHANNEL:2|h|cfff38bb9Arithën|r|h|cffd8d8d8]|r: message me if you want to join mythic nighthold run, starting in a few minutes",
+					["serverTime"] = 1605931103,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46382.305,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:23]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605931116,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46395.473,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:58]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:270:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: ALLIANCE SCUM",
+					["serverTime"] = 1605931151,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46429.951,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:59]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605931152,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46431.453,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:03]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:272:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: LET THIS CITY FALL TO THE HORDE",
+					["serverTime"] = 1605931156,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46435.854,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:07]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605931160,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46439.871,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:16]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City is under attack!|r",
+					["serverTime"] = 1605931169,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46448.807,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:28]|h|r Stormwind City Guard says: You disgust me.",
+					["serverTime"] = 1605931181,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46460.741,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:35]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:276:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: u a bih matt",
+					["serverTime"] = 1605931188,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46467.376,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:38]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:277:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: i fell for it",
+					["serverTime"] = 1605931191,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46470.01,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daggin-EmeraldDream:278:CHANNEL:2|h|cfffef367Daggin|r|h|cffd8d8d8]|r: Dimension Five is recruiting heroes to fend off the Horde in the exapnding world of Azeroth! Do you like fighting Horde and participating in the latest and greatest content? Send and inquiry and we'll be glad to talk! Rise with Five & For the Alliance",
+					["serverTime"] = 1605931221,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46500.312,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:08]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605931221,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46500.645,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ómnos-EmeraldDream:280:CHANNEL:2|h|cffa9d271Ómnos|r|h|cffd8d8d8]|r: The Order has been around for almost a decade in various iterations. We focus on endgame PvP (arena, RBG, wPvP), and also partake semi-seriously in Raiding and Mythic+. With a long and storied history, we offer a wide array of activites.",
+					["serverTime"] = 1605931227,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46506.012,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:22]|h|r Stormwind City Patroller says: You disgust me.",
+					["serverTime"] = 1605931235,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46514.245,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:22]|h|r Stormwind City Guard says: You disgust me.",
+					["serverTime"] = 1605931235,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46514.245,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:25]|h|r Stormwind City Guard says: My family was wiped out by the Scourge! MONSTER!",
+					["serverTime"] = 1605931238,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46517.545,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:25]|h|r Renato Gallina says: How dare you set foot in our city!",
+					["serverTime"] = 1605931238,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46517.745,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:26]|h|r Thomas Miller says: Looks like we're going to have ourselves an execution.",
+					["serverTime"] = 1605931239,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46517.945,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:29]|h|r Edna Mullby says: Monster!",
+					["serverTime"] = 1605931242,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46521.582,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pipchi-EmeraldDream:287:CHANNEL:2|h|cff00fe97Pipchi|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Disciples of Paimon|r|cffffffff>|r is a newly formed, community-based, heroic raiding guild looking for new members! Our goal is to get AOTC and try out the new content in Shadowlands. Raid Time 6:30 - 8:30 CT. DM me for information.",
+					["serverTime"] = 1605931248,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46527.716,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pupport-EmeraldDream:288:CHANNEL:2|h|cff3ec6eaPupport|r|h|cffd8d8d8]|r: what the heck is happening in SW right now",
+					["serverTime"] = 1605931252,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46531.849,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spiritoffury-EmeraldDream:289:CHANNEL:2|h|cff006fdcSpiritoffury|r|h|cffd8d8d8]|r: undead?",
+					["serverTime"] = 1605931259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46537.921,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pupport-EmeraldDream:290:CHANNEL:2|h|cff3ec6eaPupport|r|h|cffd8d8d8]|r: yeah",
+					["serverTime"] = 1605931266,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46545.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maulagras-EmeraldDream:291:CHANNEL:2|h|cfffe7b09Maulagras|r|h|cffd8d8d8]|r: undead and horde both",
+					["serverTime"] = 1605931276,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						85, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46555.13,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:13]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spiritoffury-EmeraldDream:292:CHANNEL:2|h|cff006fdcSpiritoffury|r|h|cffd8d8d8]|r: if you fight nathos you get infected",
+					["serverTime"] = 1605931286,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46565.33,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pupport-EmeraldDream:293:CHANNEL:2|h|cff3ec6eaPupport|r|h|cffd8d8d8]|r: but why",
+					["serverTime"] = 1605931310,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46589.696,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:01:55]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Old Town is under attack!|r",
+					["serverTime"] = 1605931328,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46607.64,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spiritoffury-EmeraldDream:295:CHANNEL:2|h|cff006fdcSpiritoffury|r|h|cffd8d8d8]|r: to !@#$ with people?",
+					["serverTime"] = 1605931334,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46613.442,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sallewysìns-EmeraldDream:298:CHANNEL:2|h|cffc31d39Sallewysìns|r|h|cffd8d8d8]|r: bruh dont kill the zombies",
+					["serverTime"] = 1605931354,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46633.509,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sallewysìns-EmeraldDream:299:CHANNEL:2|h|cffc31d39Sallewysìns|r|h|cffd8d8d8]|r: let stormwind get balls deep",
+					["serverTime"] = 1605931360,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46639.509,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pipchi-EmeraldDream:300:CHANNEL:2|h|cff00fe97Pipchi|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Disciples of Paimon|r|cffffffff>|r is a newly formed, community-based, heroic raiding guild looking for new members! Our goal is to get AOTC and try out the new content in Shadowlands. Raid Time 6:30 - 8:30 CT. DM me for information.",
+					["serverTime"] = 1605931361,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46639.976,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pupport-EmeraldDream:301:CHANNEL:2|h|cff3ec6eaPupport|r|h|cffd8d8d8]|r: oh ill go balls deep",
+					["serverTime"] = 1605931370,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46649.543,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:44]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605931377,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46656.009,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sallewysìns-EmeraldDream:303:CHANNEL:2|h|cffc31d39Sallewysìns|r|h|cffd8d8d8]|r: they keep killing the zombies they buzz kills",
+					["serverTime"] = 1605931390,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46669.276,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:02:59]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605931392,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46671.244,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:03:01]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605931394,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46673.84400000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:03:08]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Valley of Heroes is under attack!|r",
+					["serverTime"] = 1605931401,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46680.61,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:03:12]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind Keep is under attack!|r",
+					["serverTime"] = 1605931405,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46684.21,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:03:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragnaar-EmeraldDream:308:CHANNEL:2|h|cffc59a6cRagnaar|r|h|cffd8d8d8]|r: Horde inc",
+					["serverTime"] = 1605931409,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						89, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46688.577,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:03:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragnaar-EmeraldDream:309:CHANNEL:2|h|cffc59a6cRagnaar|r|h|cffd8d8d8]|r: valley of heroes",
+					["serverTime"] = 1605931412,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						89, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46691.777,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:04:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Invîctùs-EmeraldDream:310:CHANNEL:2|h|cfffe7b09Invîctùs|r|h|cffd8d8d8]|r: ->The Guard< - World PvP Guild - Currently recruiting all PvPers. We do guild run RBGS/Arenas/ and regular Battlegrounds, as well as run coordinated World PVP events. We do PVE as well. Come enlist in The Guard!",
+					["serverTime"] = 1605931473,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						91, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46751.923,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:04:20]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Mage Quarter is under attack!|r",
+					["serverTime"] = 1605931473,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46752.223,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:04:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jaynah-EmeraldDream:312:CHANNEL:2|h|cffc59a6cJaynah|r|h|cffd8d8d8]|r: honestly though guys, this pre patch has to be the worst",
+					["serverTime"] = 1605931481,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						93, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46760.623,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:04:42]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605931495,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46774.29,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:04:58]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1605931511,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46790.563,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:05:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daryndi-EmeraldDream:315:CHANNEL:2|h|cff00fe97Daryndi|r|h|cffd8d8d8]|r: yup people wanted it out before it was ready its what ya get when prograners work from home and not all together",
+					["serverTime"] = 1605931524,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						95, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46803.63,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:00]|h|r Kirsten Westmill says: Guards! Help me!",
+					["serverTime"] = 1605930313,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45592.898,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:03]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930316,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45595.08,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:45:12]|h|r Olivia Burnside says: Guards! Help me!",
+					["serverTime"] = 1605930325,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45604.723,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daggin-EmeraldDream:162:CHANNEL:2|h|cfffef367Daggin|r|h|cffd8d8d8]|r: Dimension Five is recruiting heroes to fend off the Horde in the exapnding world of Azeroth! Do you like fighting Horde and participating in the latest and greatest content? Send and inquiry and we'll be glad to talk! Rise with Five & For the Alliance",
+					["serverTime"] = 1605930379,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45658.764,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:34]|h|r Thomas Westmill says: Guards! Help me!",
+					["serverTime"] = 1605930407,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45686.858,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:43]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Cathedral Square is under attack!|r",
+					["serverTime"] = 1605930416,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45695.096,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:50]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City is under attack!|r",
+					["serverTime"] = 1605930423,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45701.966,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:59]|h|r Stormwind City Guard says: I can think of no champion more worthy to carry that hammer, Alunäria.",
+					["serverTime"] = 1605930432,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45711.11,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:20]|h|r Thomas Westmill attempts to run away in fear!",
+					["serverTime"] = 1605930453,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45732.503,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:29]|h|r Olivia Burnside says: Guards! Help me!",
+					["serverTime"] = 1605930462,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45741.185,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunira-EmeraldDream:169:CHANNEL:2|h|cfffe7b09Lunira|r|h|cffd8d8d8]|r: Are there any druids out there that can explain why travel form and mount form are two separate buttons now?",
+					["serverTime"] = 1605930486,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45765.393,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:10]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind Harbor is under attack!|r",
+					["serverTime"] = 1605930503,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45782.567,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:11]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930504,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45783.194,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:18]|h|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Metroboomkin-EmeraldDream:172:CHANNEL:1|h|cfffe7b09Metroboomkin|r|h|cffd8d8d8]|r: theyre not for me",
+					["serverTime"] = 1605930511,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						39, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45790.844,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:29]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City Cemetery is under attack!|r",
+					["serverTime"] = 1605930522,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45801.098,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:40]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:174:CHANNEL:3|h|cffa9d271Horned|r|h|cffd8d8d8]|r: im stinky",
+					["serverTime"] = 1605930533,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45812.008,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:48:46]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Lion's Rest is under attack!|r",
+					["serverTime"] = 1605930539,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45818.578,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:13]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Incindium-EmeraldDream:176:CHANNEL:2|h|cff3ec6eaIncindium|r|h|cffd8d8d8]|r: LOK TAR OGAR",
+					["serverTime"] = 1605930566,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45845.403,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bammiez-EmeraldDream:177:CHANNEL:2|h|cfffe7b09Bammiez|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-203035-162-41501311|h[Guild: Happy Hour]|h|r is back and looking for more for Shadowlands.  We are a casual raiding guild looking for heals/dps to fill out our raid/m+. We raid Tues and Sun 7-10 server.",
+					["serverTime"] = 1605930572,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45851.615,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:19]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Twobeerdave-EmeraldDream:178:CHANNEL:2|h|cfff38bb9Twobeerdave|r|h|cffd8d8d8]|r: get !@#$ed traitor",
+					["serverTime"] = 1605930572,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45851.615,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:179:CHANNEL:2|h|cffa9d271Horned|r|h|cffd8d8d8]|r: disgusting horde, get out",
+					["serverTime"] = 1605930574,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45853.206,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:23]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Incindium-EmeraldDream:180:CHANNEL:2|h|cff3ec6eaIncindium|r|h|cffd8d8d8]|r: THRALL 2024",
+					["serverTime"] = 1605930576,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45855.521,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:181:CHANNEL:2|h|cffa9d271Horned|r|h|cffd8d8d8]|r: alliance are scum too",
+					["serverTime"] = 1605930579,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45858.153,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:49:28]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605930581,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45860.388,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:10]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Tuttles-EmeraldDream:183:CHANNEL:2|h|cfffef367Tuttles|r|h|cffd8d8d8]|r: Report anyone using zombies for griefing which is against terms of service",
+					["serverTime"] = 1605930623,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45902.392,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:11]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind Keep is under attack!|r",
+					["serverTime"] = 1605930624,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45903.113,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:18]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Mage Quarter is under attack!|r",
+					["serverTime"] = 1605930631,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45910.283,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Veldirria-EmeraldDream:186:CHANNEL:2|h|cfffe7b09Veldirria|r|h|cffd8d8d8]|r: horde are too ez to kill",
+					["serverTime"] = 1605930641,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45920.129,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:31]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Elladmie-EmeraldDream:187:CHANNEL:3|h|cffa9d271Elladmie|r|h|cffd8d8d8]|r: wait what does it mean to grief?",
+					["serverTime"] = 1605930644,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45923.896,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:39]|h|r |cffd8d8d8[|r|Hplayer:Blodewedd-EmeraldDream:188:ACHIEVEMENT|h|cffc31d39Blodewedd|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:546:Player-162-0287D6DF:1:11:20:20:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!",
+					["serverTime"] = 1605930652,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						27, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45930.981,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:39]|h|r Kennystabs seems to be sobering up.",
+					["serverTime"] = 1605930652,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45931.519,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tavi-EmeraldDream:190:CHANNEL:2|h|cff8687edTavi|r|h|cffd8d8d8]|r: is |cffa335ee|Hitem:158371::::::::50:267::23:6:4779:4802:6516:6513:1498:4786::::|h[Seabreeze]|h|r better or worse than |cffa335ee|Hitem:168973::::::::50:267::35:7:6528:6578:6579:6566:6515:1514:4786::::|h[Neural Synapse Enhancer]|h|r for a warlock?",
+					["serverTime"] = 1605930652,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45931.692,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:42]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930655,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45934.773,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:50:57]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Elladmie-EmeraldDream:192:CHANNEL:3|h|cffa9d271Elladmie|r|h|cffd8d8d8]|r: thx 4 rez",
+					["serverTime"] = 1605930670,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45949.037,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:193:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: why do cows have bells?",
+					["serverTime"] = 1605930682,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45961.753,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:22]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Tuttles-EmeraldDream:194:CHANNEL:2|h|cfffef367Tuttles|r|h|cffd8d8d8]|r: to attract dudes",
+					["serverTime"] = 1605930695,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45974.508,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:195:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: cause their horns don't work!",
+					["serverTime"] = 1605930696,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45975.549,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shcoon-EmeraldDream:196:CHANNEL:2|h|cfffe7b09Shcoon|r|h|cffd8d8d8]|r: seabreeze",
+					["serverTime"] = 1605930697,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45976.335,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:32]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Incindium-EmeraldDream:197:CHANNEL:2|h|cff3ec6eaIncindium|r|h|cffd8d8d8]|r: OH",
+					["serverTime"] = 1605930705,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45984.906,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:39]|h|r |Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Incindium-EmeraldDream:198:CHANNEL:2|h|cff3ec6eaIncindium|r|h|cffd8d8d8]|r: I THOUGHT YOU SAID Balls and i was so confused",
+					["serverTime"] = 1605930712,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 45991.222,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:51:59]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605930732,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46011.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:04]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Lion's Rest is under attack!|r",
+					["serverTime"] = 1605930737,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46016.019,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nesslecj-EmeraldDream:201:CHANNEL:2|h|cfffe7b09Nesslecj|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Eternal Storm|r|cffffffff>|r is now recruiting! We are a mixture of veteran and new players coming together to prepare for Shadowlands and its raids that will come with it! We intend to be chill, and social we have an active discord to hang out in!",
+					["serverTime"] = 1605930744,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46023.253,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:20]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930753,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46032.642,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:37]|h|r [Y] |cffd8d8d8[|r|Hplayer:Horned-EmeraldDream:203:YELL|h|cffa9d271Horned|r|h|cffd8d8d8]|r: INFECT ME UWU",
+					["serverTime"] = 1605930770,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						65, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46049.248,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:45]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City Cemetery is under attack!|r",
+					["serverTime"] = 1605930778,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46056.938,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:205:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: what do you call a bear with no teeth?",
+					["serverTime"] = 1605930778,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46057.705,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:51]|h|r |CFFFFF569|cfffef367Bunni|r|r has gone offline.",
+					["serverTime"] = 1605930784,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46063.359,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tavi-EmeraldDream:207:CHANNEL:2|h|cff8687edTavi|r|h|cffd8d8d8]|r: a gummy bear?",
+					["serverTime"] = 1605930788,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46067.743,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:208:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: a gummy bear!",
+					["serverTime"] = 1605930790,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46069.109,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:52:57]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Mage Quarter is under attack!|r",
+					["serverTime"] = 1605930790,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46069.409,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:09]|h|r |Hchannel:channel:3|h[3] |h |cffffff00The Canals is under attack!|r",
+					["serverTime"] = 1605930802,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46081.809,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shamoon-EmeraldDream:211:CHANNEL:2|h|cff006fdcShamoon|r|h|cffd8d8d8]|r: if you are at a gay bar id call it a good time",
+					["serverTime"] = 1605930813,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46092.043,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Diewhenever-EmeraldDream:212:CHANNEL:2|h|cfffef367Diewhenever|r|h|cffd8d8d8]|r: thats what i use to call my 95 year old girlfriend too",
+					["serverTime"] = 1605930813,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46092.809,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:213:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: why did the scarecrow get promoted?",
+					["serverTime"] = 1605930827,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46106.743,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:35]|h|r |cffd8d8d8[|r|Hplayer:Taintid-EmeraldDream:214:GUILD|h|cffd84e4e40|r:|cfffefefeTaintid|r|h|cffd8d8d8]|r|CFFFF0000(M)|r  has earned the achievement |cffffff00|Hachievement:6757:Player-162-0B2B474D:1:11:20:20:4294967295:4294967295:4294967295:4294967295|h[Temple of the Jade Serpent]|h|r!",
+					["serverTime"] = 1605930828,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46106.943,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tapatioman-EmeraldDream:215:CHANNEL:2|h|cffa9d271Tapatioman|r|h|cffd8d8d8]|r: she was outstanding in her field!",
+					["serverTime"] = 1605930842,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46121.01,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:53:53]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind Lake is under attack!|r",
+					["serverTime"] = 1605930846,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46125.643,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Diewhenever-EmeraldDream:217:CHANNEL:2|h|cfffef367Diewhenever|r|h|cffd8d8d8]|r: wow. that one embarassed me",
+					["serverTime"] = 1605930854,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46133.143,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tavi-EmeraldDream:222:CHANNEL:2|h|cff8687edTavi|r|h|cffd8d8d8]|r: How do druids get so many dates on Tinder?",
+					["serverTime"] = 1605930877,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46156.378,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pipchi-EmeraldDream:224:CHANNEL:2|h|cff00fe97Pipchi|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Disciples of Paimon|r|cffffffff>|r is a newly formed, community-based, heroic raiding guild looking for new members! Our goal is to get AOTC and try out the new content in Shadowlands. Raid Time 6:30 - 8:30 CT. DM me for information.",
+					["serverTime"] = 1605930881,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46160.011,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Synnathaal-EmeraldDream:227:CHANNEL:2|h|cff00fe97Synnathaal|r|h|cffd8d8d8]|r: horde on SW roofs ganking",
+					["serverTime"] = 1605930892,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46171.449,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:42]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Trade District is under attack!|r",
+					["serverTime"] = 1605930895,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46174.116,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:54:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daggin-EmeraldDream:230:CHANNEL:2|h|cfffef367Daggin|r|h|cffd8d8d8]|r: Dimension Five is recruiting heroes to fend off the Horde in the exapnding world of Azeroth! Do you like fighting Horde and participating in the latest and greatest content? Send and inquiry and we'll be glad to talk! Rise with Five & For the Alliance",
+					["serverTime"] = 1605930897,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46176.726,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:55:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Arithën-EmeraldDream:240:CHANNEL:2|h|cfff38bb9Arithën|r|h|cffd8d8d8]|r: starting a mythic nighthold group if anyone wants to join",
+					["serverTime"] = 1605930925,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46204.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:55:13]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Wizard's Sanctum is under attack!|r",
+					["serverTime"] = 1605930926,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46205.68300000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:55:41]|h|r |Hchannel:channel:3|h[3] |h |cffffff00Stormwind City is under attack!|r",
+					["serverTime"] = 1605930954,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 46233.403,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

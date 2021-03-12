@@ -52,7 +52,7 @@ sArenaMixin.auraList = tInvert({
     132168, -- Shockwave (Stun)
     20549,  -- War Stomp (Stun)
     199085, -- Warpath (Stun)
-    204437, -- Lightning Lasso (Stun)
+    305485, -- Lightning Lasso (Stun)
     64044,  -- Psychic Horror (Stun)
     255723, -- Bull Rush (Stun)
     202346, -- Double Barrel (Stun)
@@ -67,7 +67,6 @@ sArenaMixin.auraList = tInvert({
 
 
     33786,  -- Cyclone (Disorient)
-    209753, -- Cyclone Balance Talent (Disorient)
     5246,   -- Intimidating Shout (Disorient)
     8122,   -- Psychic Scream (Disorient)
     2094,   -- Blind (Disorient)
@@ -79,6 +78,8 @@ sArenaMixin.auraList = tInvert({
     198909, -- Song of Chi-ji (Disorient)
     202274, -- Incendiary Brew (Disorient)
     118699, -- Fear (Disorient)
+    1513,   -- Scare Beast (Disorient)
+    10326,  -- Turn Evil (Disorient)
     6358,   -- Seduction (Disorient)
     261589, -- Seduction 2 (Disorient)
     115268, -- Mesmerize (Shivarra) (Disorient)
@@ -166,7 +167,7 @@ sArenaMixin.auraList = tInvert({
 
     -- Anti CCs
     23920,  -- Spell Reflection
-    216890, -- Spell Reflection (Honor Talent)
+    330279, -- Overwatch
     213610, -- Priest: Holy Ward
     213602, -- Priest: Greater Fade
     212295, -- Warlock: Nether Ward
@@ -186,6 +187,8 @@ sArenaMixin.auraList = tInvert({
     217824, -- Shield of Virtue
     43523,  -- Unstable Affliction Silence 1
     196364, -- Unstable Affliction Silence 2
+
+    323673, -- Mindgames
 
     -- Disarms
     236077, -- Disarm
@@ -224,18 +227,18 @@ sArenaMixin.auraList = tInvert({
     51271,  -- Death Knight: Pillar of Frost
     47568,  -- Death Knight: Empower Rune Weapon
     207289, -- Death Knight: Unholy Frenzy
-    211048, -- Demon Hunter: Chaos Blades
     162264, -- Demon Hunter: Metamorphosis
     194223, -- Druid: Celestial Alignment
     102560, -- Druid: Incarnation: Chosen of Elune
     102543, -- Druid: Incarnation: King of the Jungle
     19574,  -- Hunter: Bestial Wrath
     266779, -- Hunter: Coordinated Assault
-    193526, -- Hunter: Trueshot
+    288613, -- Hunter: Trueshot
+    260402, -- Hunter: Double Tap
     12042,  -- Mage: Arcane Power
     190319, -- Mage: Combustion
     198144, -- Mage: Ice Form
-    12472,  -- Mage: Icy Veins
+    -- 12472,  -- Mage: Icy Veins
     80353,  -- Mage: Time Warp
     152173, -- Monk: Serenity
     137639, -- Monk: Storm, Earth, and Fire
@@ -243,7 +246,7 @@ sArenaMixin.auraList = tInvert({
     152262, -- Paladin: Seraphim
     231895, -- Paladin: Crusade
     197871, -- Priest: Dark Archangel
-    10060,  -- Priest: Power Infusion
+    -- 10060,  -- Priest: Power Infusion
     194249, -- Priest: Voidform
     13750,  -- Rogue: Adrenaline Rush
     121471, -- Rogue: Shadow Blades
@@ -257,7 +260,6 @@ sArenaMixin.auraList = tInvert({
     204366, -- Shaman: Thundercharge
     113858, -- Warlock: Dark Soul: Instability
     113860, -- Warlock: Dark Soul: Misery
-    267218, -- Warlock: Nether Portal
     107574, -- Warrior: Avatar
     227847, -- Warrior: Bladestorm (Arms)
     260708, -- Warrior: Sweeping Strikes
@@ -273,13 +275,15 @@ sArenaMixin.auraList = tInvert({
     212800, -- Demon Hunter: Blur
     188499, -- Demon Hunter: Blade Dance
     209426, -- Demon Hunter: Darkness
-    236696, -- Druid: Thorns
     102342, -- Druid: Ironbark
     22812,  -- Druid: Barkskin
     61336,  -- Druid: Survival Instincts
     117679, -- Druid: Incarnation: Tree of Life
+    236696, -- Druid: Thorns
     53480,  -- Hunter: Roar of Sacrifice
     198111, -- Mage: Temporal Shield
+    342246, -- Mage: Alter Time (Arcane)
+    110909, -- Mage: Alter Time (Fire, Frost)
     125174, -- Monk: Touch of Karma
     116849, -- Monk: Life Cocoon
     120954, -- Monk: Fortifying Brew
@@ -301,6 +305,7 @@ sArenaMixin.auraList = tInvert({
     197862, -- Priest: Archangel
     47536,  -- Priest: Rapture
     271466, -- Priest: Luminous Barrier
+    207736, -- Rogue: Shadowy Duel
     5277,   -- Rogue: Evasion
     199754, -- Rogue: Riposte
     108271, -- Shaman: Astral Shift
@@ -318,11 +323,14 @@ sArenaMixin.auraList = tInvert({
 
     -- Miscellaneous
     199450, -- Ultimate Sacrifice
+    320224, -- Podtender
+    327140, -- Forgeborne
     188501, -- Spectral Sight
+    305395, -- Blessing of Freedom (Unbound Freedom)
     1044,   -- Blessing of Freedom
     41425,  -- Hypothermia
     66,     -- Invisibility fade effect
     96243,  -- Invisibility invis effect?
     110960, -- Greater Invisibility
     198158, -- Mass Invisibility
-});
+})

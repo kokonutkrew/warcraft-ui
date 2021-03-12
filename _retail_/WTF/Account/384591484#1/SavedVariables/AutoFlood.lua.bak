@@ -7,6 +7,20 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Emerald Dream-Dethwish"] = {
+		["message"] = "AutoFlood 1.2.3",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Samoanbatman"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Tichondrius-Shgrshn"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -21,6 +35,13 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Emerald Dream-Buhbles"] = {
+		["message"] = "AutoFlood 1.2.3",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Emerald Dream-Samoantank"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
@@ -29,6 +50,13 @@ AF_config = {
 		["system"] = "CHANNEL",
 	},
 	["Emerald Dream-Samoanspy"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Royders"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -119,7 +147,21 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
+	["Emerald Dream-Samoanwar"] = {
+		["message"] = "AutoFlood 1.2.3",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
 	["Emerald Dream-Wealthgaming"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Emerald Dream-Samoanranger"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -133,7 +175,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Gfsdfgsd"] = {
+	["Emerald Dream-Samoansensei"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -154,14 +196,14 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Stormrage-Samoantitan"] = {
+	["Tichondrius-Samoansneaky"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansneaky"] = {
+	["Emerald Dream-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -175,7 +217,7 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoanrelic"] = {
+	["Tichondrius-Samoansavage"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -217,14 +259,28 @@ AF_config = {
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Tichondrius-Samoansavage"] = {
+	["Tichondrius-Samoanrelic"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
 		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
-	["Emerald Dream-Samoansavage"] = {
+	["Emerald Dream-Samoanhunter"] = {
+		["message"] = "AutoFlood 1.2.3",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Tichondrius-Gfsdfgsd"] = {
+		["message"] = "AutoFlood 1.2",
+		["channel"] = "1",
+		["idChannel"] = "1",
+		["rate"] = 60,
+		["system"] = "CHANNEL",
+	},
+	["Stormrage-Samoantitan"] = {
 		["message"] = "AutoFlood 1.2",
 		["channel"] = "1",
 		["idChannel"] = "1",
@@ -236,20 +292,6 @@ AF_config = {
 		["channel"] = "2",
 		["idChannel"] = "2",
 		["rate"] = 1000,
-		["system"] = "CHANNEL",
-	},
-	["Emerald Dream-Samoanranger"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
-		["system"] = "CHANNEL",
-	},
-	["Emerald Dream-Samoansensei"] = {
-		["message"] = "AutoFlood 1.2",
-		["channel"] = "1",
-		["idChannel"] = "1",
-		["rate"] = 60,
 		["system"] = "CHANNEL",
 	},
 }

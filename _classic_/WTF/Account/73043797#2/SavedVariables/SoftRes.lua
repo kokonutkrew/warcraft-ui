@@ -2,14 +2,14 @@
 SoftResList = {
 	["players"] = {
 	},
+	["shitRolls"] = {
+	},
 	["onHold"] = {
 	},
 	["drops"] = {
 	},
 	["date"] = "20-08-25 15:32:00",
 	["removedPlayers"] = {
-	},
-	["shitRolls"] = {
 	},
 	["time"] = 1598391120,
 	["waitingForItems"] = {
@@ -116,13 +116,13 @@ SoftResConfig = {
 		["redCross"] = "|TInterface\\RaidFrame\\ReadyCheck-NotReady:10:10:0:0|t",
 		["readyCheck"] = "|TInterface\\RaidFrame\\ReadyCheck-Ready:10:10:0:0|t",
 		["skull"] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_8:10:10:0:0|t",
+		["questionMark"] = "|TInterface\\RaidFrame\\ReadyCheck-Waiting:10:10:0:0|t",
 		["softResBag"] = "|TInterface\\Store\\category-icon-bag:30:30:-5:0|t",
-		["noLoot"] = "|TInterface\\COMMON\\icon-noloot:10:10:0:0|t",
 		["loot"] = "|TInterface\\GroupFrame\\UI-Group-MasterLooter:10:10:0:0|t",
 		["indicatorRed"] = "|TInterface\\COMMON\\Indicator-Red:10:10:0:0|t",
 		["cancel"] = "|TInterface\\Buttons\\UI-GroupLoot-Pass-Up:14:14:0:0|t",
 		["quest"] = "|TInterface\\GossipFrame\\AvailableQuestIcon:10:10:0:0|t",
-		["questionMark"] = "|TInterface\\RaidFrame\\ReadyCheck-Waiting:10:10:0:0|t",
+		["noLoot"] = "|TInterface\\COMMON\\icon-noloot:10:10:0:0|t",
 		["indicatorGreen"] = "|TInterface\\COMMON\\Indicator-Green:10:10:0:0|t",
 	},
 	["dropDecay"] = {

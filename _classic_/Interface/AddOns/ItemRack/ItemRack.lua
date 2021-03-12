@@ -2,7 +2,7 @@ ItemRack = {}
 
 local _
 
-ItemRack.Version = "3.46"
+ItemRack.Version = "3.52"
 
 ItemRackUser = {
 	Sets = {}, -- user's sets
@@ -152,6 +152,17 @@ end
 
 ItemRack.EventHandlers = {}
 ItemRack.ExternalEventHandlers = {}
+
+do
+	local Masque = LibStub("Masque", true) or (LibMasque and LibMasque("Button"))
+	if Masque then
+		ItemRack.MasqueGroups = {}
+		ItemRack.MasqueGroups[1] = Masque:Group("ItemRack", "On screen panels")
+		ItemRack.MasqueGroups[2] = Masque:Group("ItemRack", "On screen menus")
+		ItemRack.MasqueGroups[3] = Masque:Group("ItemRack", "Character info menus")
+		ItemRack.MasqueGroups[4] = Masque:Group("ItemRack", "Map icon menu")
+	end
+end
 
 function ItemRack.OnEvent(self,event,...)
 	ItemRack.EventHandlers[event](self,event,...)
@@ -929,7 +940,7 @@ end
 -- id = 0-19 for inventory slots, or 20 for set, or nil for last defined slot/set menu (ItemRack.menuOpen)
 -- before calling ItemRack.BuildMenu, you should call ItemRack.DockWindows
 -- if menuInclude, then also include the worn item(s) in the menu
-function ItemRack.BuildMenu(id,menuInclude)
+function ItemRack.BuildMenu(id,menuInclude,masqueGroup)
 	if id then
 		ItemRack.menuOpen = id
 		ItemRack.menuInclude = menuInclude
@@ -1021,6 +1032,17 @@ function ItemRack.BuildMenu(id,menuInclude)
 			button = ItemRack.CreateMenuButton(i,ItemRack.Menu[i]) or ItemRackButtonMenu
 			button:SetPoint("TOPLEFT",ItemRackMenuFrame,ItemRack.menuDock,xpos,ypos)
 			button:SetFrameLevel(ItemRackMenuFrame:GetFrameLevel()+1)
+
+			if ItemRack.MasqueGroups then
+				for _, group in pairs(ItemRack.MasqueGroups) do
+					group:RemoveButton(button)
+				end
+
+				if ItemRack.MasqueGroups[masqueGroup] then
+					ItemRack.MasqueGroups[masqueGroup]:AddButton(button)
+				end
+			end
+
 			if ItemRack.menuOrient=="VERTICAL" then
 				xpos = xpos + ItemRack.DockInfo[ItemRack.currentDock].xdir*40
 				col = col + 1
@@ -1685,7 +1707,7 @@ function ItemRack.DockMenuToCharacterSheet(self)
 			end
 			ItemRack.DockWindows("TOPLEFT",self,"TOPRIGHT","HORIZONTAL")
 		end
-		ItemRack.BuildMenu(slot)
+		ItemRack.BuildMenu(slot, nil, 3)
 	end
 end
 
@@ -1740,7 +1762,7 @@ function ItemRack.MinimapOnClick(self,button)
 			else
 				ItemRack.DockWindows("BOTTOMRIGHT",ItemRackMinimapFrame,"TOPRIGHT","VERTICAL")
 			end
-			ItemRack.BuildMenu(20)
+			ItemRack.BuildMenu(20, nil, 4)
 		end
 	else
 		ItemRack.ToggleOptions(self)
@@ -1888,26 +1910,31 @@ end
 --[[ Key bindings ]]
 
 function ItemRack.SetSetBindings()
-	local buttonName,button
-	for i in pairs(ItemRackUser.Sets) do
-		if ItemRackUser.Sets[i].key then
-			buttonName = "ItemRack"..UnitName("player")..GetRealmName()..i
-			button = _G[buttonName] or CreateFrame("Button",buttonName,nil,"SecureActionButtonTemplate")
-			button:SetAttribute("type","macro")
-			local macrotext = "/script ItemRack.RunSetBinding(\""..i.."\")\n"
-			for slot = 16, 18 do
-				if ItemRackUser.Sets[i].equip[slot] then
-					local name,_,_,_,_,_,_,_,_,_ = GetItemInfo("item:"..ItemRackUser.Sets[i].equip[slot])
-					if name then
-						macrotext = macrotext .. "/equipslot [combat]" .. slot .. " " .. name .. "\n";
+	local inLockdown = InCombatLockdown()
+	if not inLockdown then
+		local buttonName,button
+		for i in pairs(ItemRackUser.Sets) do
+			if ItemRackUser.Sets[i].key then
+				buttonName = "ItemRack"..UnitName("player")..GetRealmName()..i
+				button = _G[buttonName] or CreateFrame("Button",buttonName,nil,"SecureActionButtonTemplate")
+				button:SetAttribute("type","macro")
+				local macrotext = "/script ItemRack.RunSetBinding(\""..i.."\")\n"
+				for slot = 16, 18 do
+					if ItemRackUser.Sets[i].equip[slot] then
+						local name,_,_,_,_,_,_,_,_,_ = GetItemInfo("item:"..ItemRackUser.Sets[i].equip[slot])
+						if name then
+							macrotext = macrotext .. "/equipslot [combat]" .. slot .. " " .. name .. "\n";
+						end
 					end
 				end
+				button:SetAttribute("macrotext",macrotext)
+				SetBindingClick(ItemRackUser.Sets[i].key,buttonName)
 			end
-			button:SetAttribute("macrotext",macrotext)
-			SetBindingClick(ItemRackUser.Sets[i].key,buttonName)
 		end
+		AttemptToSaveBindings(GetCurrentBindingSet())
+	else
+		ItemRack.Print("Cannot save hotkeys in combat, please try again out of combat!")
 	end
-	AttemptToSaveBindings(GetCurrentBindingSet())
 end
 
 function ItemRack.RunSetBinding(setname)

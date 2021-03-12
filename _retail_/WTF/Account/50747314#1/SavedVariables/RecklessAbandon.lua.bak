@@ -1,0 +1,19 @@
+
+RecklessAbandonDB = {
+	["profileKeys"] = {
+		["Gl - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+RecklessAbandonPrivateDB = {
+	["profileKeys"] = {
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+	},
+	["profiles"] = {
+		["Gl - Emerald Dream"] = {
+		},
+	},
+}

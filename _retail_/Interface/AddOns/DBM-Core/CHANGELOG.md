@@ -1,22 +1,34 @@
 # Deadly Boss Mods Core
 
-## [8.2.30](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/8.2.30) (2019-12-05)
-[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/8.2.29...8.2.30)
+## [9.0.22](https://github.com/DeadlyBossMods/DeadlyBossMods/tree/9.0.22) (2021-03-09)
+[Full Changelog](https://github.com/DeadlyBossMods/DeadlyBossMods/compare/9.0.21...9.0.22) [Previous Releases](https://github.com/DeadlyBossMods/DeadlyBossMods/releases)
 
-- Mythic Xanesh update ahead of testing  
-- Mythic Ra-den update  
-- Improved IsValidWarning function used by virtually all trash mods to have additional checks, reducing it's chance to fail if it can't find targetting info for affecting combat checks.  
-    Updated Mechagon trash mod with next round of trash warnings. This time, all the notable trash warnings before 2nd boss.  
-- Nyalotha zhCN (#92)  
-    * Create localization.cn.lua  
-    * zhCN  
-- Begin work on Mechagon trash mod. This mod was low priority among other things because the zone had no M+ mode. However, with 8.3 raid work wrapped up, and mechagon getting upgrade to M+ eligable zone in 8.3, work on this dungeon is now resuming. This first update contains notable trash warnings before first boss. I'll continue pushing additional notable trash warnings in coming days/weeks up to release of 8.3 to ensure mod is ready for M+  
-- Forgot option text  
-- Changed feeding frenzy tank warnings on Behemoth from 18 stacks to 12 stacks for first warning, and changed throttle from once per 5 seconds to once per 4. This should make swap warning a little more in line with people still in progression vs being aimed at people who have fight on farm.  
-- A bit more work is needed, but I'm done for night and pushing some of the work from fridays testing  
-- fix  
-- Hivemind fixes, should be a done mod now for most part  
+- Fixed a bug where AddMsg would fail to read chatframe setting when AddMsg is called by a mod and not core. Self would inherit the wrong parent.  
+    bump version  
+- TOC Bump  
+- Disabled Xira's ability, per hottfixes  
+- no changes, just removed obsolete comment  
+- Added user request, dreadbindings in sanguine depths  
+- restore backup method for volatile ejection, CLEU not consistent  
+- went over cap, revert this  
+- Fix typo  
+- Fixes to last to actually do what was intended  
+- Allow CreatePizzaTimer object to be called with "whisper" arg by external modders using function to unicast timers. Also allows DBM to accept pizza timers sent this way via whisper sync handler.  
+- Update koKR (#518)  
+- Missed some schedules  
+- Save cpu on hungering destroyer by using new hotfixed events and no longer rely on cpu heavier spell\_damage and scheduling  
+    Also moved volatile to combat log events so it no longer relies on victims running boss mods for them to get marked  
+- Fix Lua exception (#517)  
+    Bad table entry, reported by user :)  
+- Clear paused status on a bar when :Start or :Stop is called on a timer object. Start should always clear previous status of timer.  
+- Add new test condition  
+- Update README.md  
+- Update README.md  
 - Forgot these  
-- hivemind hotfix, fix spellod look up and use normal mode timers on mythic  
-- Restore basher tentacle timer/warning with updated journal ID  
-- Fix invalid spellids/hournal Ids for now, dirty fix, will find new ids later  
+- tiny bit of post tier cleanup  
+- Fix  
+- updated timer recovery to send paused bar status. This will fix a bug where a user reloading bars they think are "stuck" won't ACTUALLY break them for real when recovery gets them back.  
+    Changed sync handler for it to avoid out of date syncs also messing it up that don't have paused status.  
+- tweak last  
+- Maybe this will fix bar errors. bar frame names will now generate unique integer EVERY SINGLE COMMIT. Shouldn't break DBMs bar handling but should make it an utter NIGHTMARE for anyone trying to modify them. Hate having to ruin 3rd party skinning like this, but if it's breaking DBM it has to come to a stop.  
+- bump alpha  

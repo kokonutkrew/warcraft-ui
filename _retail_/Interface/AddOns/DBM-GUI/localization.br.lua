@@ -1,8 +1,8 @@
 ﻿if GetLocale() ~= "ptBR" then return end
 
-if not DBM_GUI_Translations then DBM_GUI_Translations = {} end
+if not DBM_GUI_L then DBM_GUI_L = {} end
 
-local L = DBM_GUI_Translations
+local L = DBM_GUI_L
 
 L.MainFrame = "Deadly Boss Mods"
 
@@ -26,13 +26,13 @@ L.BossModLoad_now 			= [[Esse módulo não está carregado.
 Ele será carregado quando você entrar na instância.
 Você também pode clicar no botão para carregar o módulo manualmente.]]
 
-L.PosX						= 'Posição X'
-L.PosY						= 'Posição Y'
+L.PosX						= "Posição X"
+L.PosY						= "Posição Y"
 
-L.MoveMe 					= 'Mova-me'
-L.Button_OK 				= 'OK'
-L.Button_Cancel 			= 'Cancelar'
-L.Button_LoadMod 			= 'Carregar AddOn'
+L.MoveMe 					= "Mova-me"
+L.Button_OK 				= "OK"
+L.Button_Cancel 			= "Cancelar"
+L.Button_LoadMod 			= "Carregar AddOn"
 L.Mod_Enabled				= "Habilitar módulo"
 L.Mod_Reset					= "Carregar opções padrão"
 L.Reset 					= "Resetar"
@@ -91,10 +91,6 @@ L.WarningIconRight 			= "Mostrar ícone do lado direito."
 L.WarningIconChat 			= "Mostrar ícones no chat"
 
 -- estavam faltando as linhas abaixo
-L.Warn_FontType				= "Escolha fonte"
-L.Warn_FontStyle			= "Bandeira de fonte (flags)"
-L.Warn_FontShadow			= "Sombra da fonte"
-L.Warn_FontSize				= "Tamanho da fonte: %d"
 L.Warn_Duration				= "duração do aviso: %0.1f seg"
 L.None						= "nada"
 L.Outline					= "Contorno"
@@ -120,20 +116,18 @@ L.CombatMessages			= "Opções de mensagens de combate"
 L.ShowEngageMessage 		= "Exibir mensagens ao iniciar combate no quadro de chat"
 L.ShowDefeatMessage 		= "Exibir mensagens ao vencer chefes no quadro de chat"
 L.ShowGuildMessages 		= "Exibir mensagens de puxada/vitória/derrota no quadro de chat"
-L.WhisperMessages			= "Opções de mensagens de sussurro"
+L.Area_WhisperMessages		= "Opções de mensagens de sussurro"
 L.AutoRespond 				= "Responder automaticamente a sussurros durante a luta"
 L.WhisperStats 				= "Incluir estatísticas de derrotas/vitórias nas respostas a sussurros"
 
 -- Tab: Barsetup
-L.BarSetup   				= "Configurações da barra"
+L.TabCategory_Timers		= "Configurações da barra"
 L.BarTexture 				= "Textura da barra"
 L.BarStyle					= "Estilo da barra"
 L.BarDBM					= "DBM"
 L.BarSimple					= "Simple (sem animação)"
 L.BarStartColor				= "Cor inicial"
 L.BarEndColor 				= "Cor final"
-L.Bar_Font					= "Fonte utilizada na barra"
-L.Bar_FontSize				= "Tamanho da fonte"
 L.Bar_Height				= "Altura da barra: %d"
 L.Slider_BarOffSetX 		= "Deslocamento X: %d"
 L.Slider_BarOffSetY 		= "Deslocamento Y: %d"
@@ -149,35 +143,23 @@ L.ExpandUpwards				= "Expandir para cima"
 L.FillUpBars				= "Barras enchem"
 L.ClickThrough				= "Desabilitar eventos de mouse (permite clicar através das barras)"
 L.Bar_Decimal				= "Exibir porcentagens abaixo do temporizador: %d"
-L.Bar_DBMOnly				= "As opções abaixo só funcionam com o estilo de barra \"DBM\" ."
 L.Bar_EnlargeTime			= "Barras aumentam abaixo deste tempo: %d"
-L.Bar_EnlargePercent		= "Barras aumentam abaixo desta porcentagem: %0.1f%%"
 L.BarSpark					= "Barra faísca"
 L.BarFlash					= "Barra pisca quando estiver para expirar"
 L.BarSort					= "selecionar pelo tempo restante"
 
 
 -- Tab: Spec Warn Frame
-L.Panel_SpecWarnFrame		= "Avisos Especiais"
+L.Panel_SpecWarnFrame		= "Avisos Raid Especiais"
 L.Area_SpecWarn				= "Opções de Avisos Especiais"
 L.ShowSWarningsInChat 		= "Exibir avisos especiais no quadro de chat"
-L.SpecWarn_FlashFrame		= "Brilhar tela em avisos especiais"
 L.SpecWarn_FlashFrameRepeat	= "Repetir %d vezes (se habilitado)"
-L.SpecWarn_Font				= "Fonte utilizada para avisos especiais"
-L.SpecWarn_FontSize			= "Tamanho da fonte"
-L.SpecWarn_FontColor		= "Cor da fonte"
-L.SpecWarn_FontType			= "Selecionar fonte"
 L.SpecWarn_FlashRepeat		= "Repetir piscada"
 L.SpecWarn_FlashColor		= "Cor pisca"
 L.SpecWarn_FlashDur			= "Duração da piscada: %0.1f"
 L.SpecWarn_FlashAlpha		= "Alfa da piscada: %0.1f"
 L.SpecWarn_DemoButton		= "Mostrar exemplo"
-L.SpecWarn_MoveMe			= "Definir posição"
 L.SpecWarn_ResetMe			= "Redefinir padrões"
-L.SpecialWarnSound			= "Definir som para aviso especial afetando você ou sua função na raid"
-L.SpecialWarnSound2			= "Definir som para aviso especial afetando todos na raid"
-L.SpecialWarnSound3			= "Definir som para aviso especial MUITO IMPORTANTE"
-L.SpecialWarnSound4			= "Definir som para aviso especial se sair correndo"
 
 -- Tab: Spoken Alerts Frame
 L.Panel_SpokenAlerts		= "Avisos falados"
@@ -197,8 +179,8 @@ L.SpecWarn_AlwaysVoice		= "Sempre tocar todos os avisos falados (Substitui opç�
 
 
 -- Tab: Global Filter
-L.Panel_SpamFilter			= "DBM Desligamentos globais & filtros"
-L.Area_SpamFilter_Outgoing	= "DBM opções de desligamentos globais & filtros"
+L.Panel_SpamFilter			= "Desligamentos globais & filtros"
+
 L.SpamBlockNoShowAnnounce	= "Não exibir anúncios ou tocar avisos sonoros"
 L.SpamBlockNoSetIcon		= "Não marcar jogadores com ícones"
 L.SpamBlockNoRangeFrame		= "Não exibir quadro de distancia"
@@ -206,7 +188,7 @@ L.SpamBlockNoInfoFrame		= "Não exibir quadro de informação"
 L.SpamBlockNoHudMap			= "Não mostrar mapas HudMap (heads up display Map)"
 L.SpamBlockNoCountdowns		= "Não tocar sons de contagem regressiva"
 L.SpamBlockNoIconRestore	= "Não guardar estado dos ícones e restaura-los ao fim do combate"
-L.SpamBlockNoRangeRestore	= "Não restaurar o quadro de distancia para o estado anterior ( show/hide ) quando a mod pedir hide'"
+L.SpamBlockNoRangeRestore	= "Não restaurar o quadro de distancia para o estado anterior ( show/hide ) quando a mod pedir 'hide'"
 
 
 -- Tab: Spam Filter
@@ -257,8 +239,7 @@ L.AutologBosses				= "Gravar automaticamente o relatório de encontro com os che
 L.AdvancedAutologBosses		= "Gravar automaticamente o encontro com o chefe utilizando o Transcritor"
 L.LogOnlyNonTrivial			= "Só gravar encontros com chefes de raid (exclui Localizador de Raids/Grupos/Cenários)"
 L.Area_3rdParty				= "opções de add0ns de terceiros"
-L.ShowBBOnCombatStart		= "Fazer checagem de Buff com Big Brother no início do combate"
-L.BigBrotherAnnounceToRaid	= "Anunciar resultados do Big Brother para a raid"
+--L.oRA3AnnounceConsumables	= "Announce oRA3 consumables check on combat start"
 L.Area_Invite				= "Opções de convite"
 L.AutoAcceptFriendInvite	= "Aceitar convites de amigos automaticamente"
 L.AutoAcceptGuildInvite		= "Aceitar convites de membros da guilda automaticamente"
@@ -287,4 +268,10 @@ L.SelectModProfileDelete	= "apaga as opções da mod de"
 
 
 -- Misc
+L.FontType					= "Escolha fonte"
+L.FontStyle					= "Bandeira de fonte (flags)"
+L.FontColor					= "Cor da fonte"
+L.FontShadow				= "Sombra da fonte"
+L.FontSize					= "Tamanho da fonte: %d"
+
 L.FontHeight	= 16

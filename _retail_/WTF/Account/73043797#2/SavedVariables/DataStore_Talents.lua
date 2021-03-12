@@ -5,37 +5,42 @@ DataStore_TalentsDB = {
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Marshmello - Tichondrius"] = "Marshmello - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Grapejelley - Emerald Dream"] = "Grapejelley - Emerald Dream",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -76,7 +81,7 @@ DataStore_TalentsDB = {
 				["Class"] = "DRUID",
 			},
 			["Default.Emerald Dream.Tygrrlilly"] = {
-				["lastUpdate"] = 1566342023,
+				["lastUpdate"] = 1606612487,
 				["Specializations"] = {
 					0, -- [1]
 				},
@@ -88,6 +93,13 @@ DataStore_TalentsDB = {
 					0, -- [1]
 				},
 				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Tichondrius.Samoansaint"] = {
+				["lastUpdate"] = 1546209432,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "PRIEST",
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1566107046,
@@ -125,12 +137,26 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Tichondrius.Samoansaint"] = {
-				["lastUpdate"] = 1546209432,
+			["Default.Emerald Dream.Bunni"] = {
+				["lastUpdate"] = 1603378471,
 				["Specializations"] = {
-					[3] = 0,
+					[2] = 0,
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "ROGUE",
+			},
+			["Default.Tichondrius.Samoansavage"] = {
+				["lastUpdate"] = 1547637963,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1545018699,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "SHAMAN",
 			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167314,
@@ -156,19 +182,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DRUID",
 			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1545018699,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "SHAMAN",
-			},
 			["Default.Emerald Dream.Cherriebomb"] = {
 				["lastUpdate"] = 1566780911,
 				["Specializations"] = {
 					1, -- [1]
 				},
 				["Class"] = "ROGUE",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1563743272,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "HUNTER",
 			},
 			["Default.Stormrage.Samoansaint"] = {
 				["lastUpdate"] = 1545013962,
@@ -184,19 +210,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
-			["Default.Tichondrius.Samoansavage"] = {
-				["lastUpdate"] = 1547637963,
+			["Default.Emerald Dream.Grapejellie"] = {
+				["lastUpdate"] = 1614853687,
 				["Specializations"] = {
-					0, -- [1]
+					[2] = 0,
 				},
-				["Class"] = "WARRIOR",
+				["Class"] = "DRUID",
 			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1547416006,
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
 				["Specializations"] = {
 					[3] = 0,
 				},
-				["Class"] = "MAGE",
+				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Emerald Dream.Samoaninja"] = {
 				["lastUpdate"] = 1545022453,
@@ -226,19 +252,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DEMONHUNTER",
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
+			["Default.Tichondrius.Marshmello"] = {
+				["lastUpdate"] = 1604040788,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1547416006,
 				["Specializations"] = {
 					[3] = 0,
 				},
-				["Class"] = "DEATHKNIGHT",
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1563743272,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "HUNTER",
+				["Class"] = "MAGE",
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,
@@ -256,37 +282,42 @@ DataStore_TalentsRefDB = {
 		["Samoansensei - Emerald Dream"] = "Samoansensei - Emerald Dream",
 		["Samoaninja - Emerald Dream"] = "Samoaninja - Emerald Dream",
 		["Samoansavage - Tichondrius"] = "Samoansavage - Tichondrius",
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Tygrrlilly - Stormrage"] = "Tygrrlilly - Stormrage",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
 		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Marshmello - Tichondrius"] = "Marshmello - Tichondrius",
 		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Grapejelley - Emerald Dream"] = "Grapejelley - Emerald Dream",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -378,7 +409,24 @@ DataStore_TalentsRefDB = {
 						22329, -- [3]
 					},
 				}, -- [1]
-				[3] = {
+				{
+					["id"] = 257,
+					["talents"] = {
+						22312, -- [1]
+						19753, -- [2]
+						19754, -- [3]
+						22325, -- [4]
+						22326, -- [5]
+						19758, -- [6]
+						22487, -- [7]
+						22095, -- [8]
+						22562, -- [9]
+						21750, -- [10]
+						21977, -- [11]
+						19761, -- [12]
+					},
+				}, -- [2]
+				{
 					["id"] = 258,
 					["talents"] = {
 						22328, -- [1]
@@ -403,9 +451,171 @@ DataStore_TalentsRefDB = {
 						21978, -- [20]
 						21979, -- [21]
 					},
+				}, -- [3]
+			},
+			["Version"] = 36372,
+		},
+		["ROGUE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 259,
+					["talents"] = {
+						22337, -- [1]
+						22338, -- [2]
+						22339, -- [3]
+					},
+				}, -- [1]
+				{
+					["id"] = 260,
+					["talents"] = {
+						22118, -- [1]
+						22119, -- [2]
+						22120, -- [3]
+						23470, -- [4]
+						19237, -- [5]
+						19238, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22121, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						23077, -- [13]
+						22114, -- [14]
+						22115, -- [15]
+						21990, -- [16]
+						23128, -- [17]
+						19250, -- [18]
+					},
+				}, -- [2]
+			},
+			["Version"] = 36322,
+		},
+		["WARLOCK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 265,
+					["talents"] = {
+						22039, -- [1]
+						23140, -- [2]
+						23141, -- [3]
+					},
+				}, -- [1]
+			},
+			["Version"] = 28768,
+		},
+		["DEMONHUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 577,
+				}, -- [1]
+			},
+			["Version"] = 31478,
+		},
+		["HUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 253,
+					["talents"] = {
+						22291, -- [1]
+						22280, -- [2]
+						22282, -- [3]
+					},
+				}, -- [1]
+			},
+			["Version"] = 36753,
+		},
+		["DRUID"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 102,
+					["talents"] = {
+						22385, -- [1]
+						22386, -- [2]
+						22387, -- [3]
+					},
+				}, -- [1]
+				{
+					["id"] = 103,
+					["talents"] = {
+						22363, -- [1]
+						22364, -- [2]
+						22365, -- [3]
+					},
+				}, -- [2]
+				{
+					["id"] = 104,
+					["talents"] = {
+						22419, -- [1]
+						22418, -- [2]
+						22420, -- [3]
+						19283, -- [4]
+						22916, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22156, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21709, -- [13]
+						21707, -- [14]
+						22388, -- [15]
+						22423, -- [16]
+						21713, -- [17]
+						22390, -- [18]
+						22426, -- [19]
+						22427, -- [20]
+						22425, -- [21]
+					},
+				}, -- [3]
+				{
+					["id"] = 105,
+					["talents"] = {
+						18569, -- [1]
+						18574, -- [2]
+						18572, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22366, -- [7]
+						22367, -- [8]
+						22160, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21710, -- [13]
+						21705, -- [14]
+						22421, -- [15]
+						21716, -- [16]
+						18585, -- [17]
+						22422, -- [18]
+						22403, -- [19]
+						21651, -- [20]
+						22404, -- [21]
+					},
+				}, -- [4]
+			},
+			["Version"] = 37474,
+		},
+		["MONK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				[3] = {
+					["id"] = 269,
+					["talents"] = {
+						23106, -- [1]
+						19820, -- [2]
+						20185, -- [3]
+					},
 				},
 			},
-			["Version"] = 28833,
+			["Version"] = 28768,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -462,195 +672,6 @@ DataStore_TalentsRefDB = {
 						22645, -- [21]
 					},
 				},
-			},
-			["Version"] = 31478,
-		},
-		["WARLOCK"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 265,
-					["talents"] = {
-						22039, -- [1]
-						23140, -- [2]
-						23141, -- [3]
-					},
-				}, -- [1]
-			},
-			["Version"] = 28768,
-		},
-		["DEMONHUNTER"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 577,
-				}, -- [1]
-			},
-			["Version"] = 31478,
-		},
-		["HUNTER"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 253,
-					["talents"] = {
-						22291, -- [1]
-						22280, -- [2]
-						22282, -- [3]
-						22500, -- [4]
-						22266, -- [5]
-						22290, -- [6]
-						19347, -- [7]
-						19348, -- [8]
-						23100, -- [9]
-					},
-				}, -- [1]
-			},
-			["Version"] = 31478,
-		},
-		["DRUID"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 102,
-					["talents"] = {
-						22385, -- [1]
-						22386, -- [2]
-						22387, -- [3]
-					},
-				}, -- [1]
-				{
-					["id"] = 103,
-					["talents"] = {
-						22363, -- [1]
-						22364, -- [2]
-						22365, -- [3]
-						19283, -- [4]
-						18570, -- [5]
-						18571, -- [6]
-						22163, -- [7]
-						22158, -- [8]
-						22159, -- [9]
-						21778, -- [10]
-						18576, -- [11]
-						18577, -- [12]
-						21708, -- [13]
-						18579, -- [14]
-						21704, -- [15]
-						21714, -- [16]
-						21711, -- [17]
-						22370, -- [18]
-						21646, -- [19]
-						21649, -- [20]
-						21653, -- [21]
-					},
-				}, -- [2]
-				{
-					["id"] = 104,
-					["talents"] = {
-						22419, -- [1]
-						22418, -- [2]
-						22420, -- [3]
-						19283, -- [4]
-						22916, -- [5]
-						18571, -- [6]
-						22163, -- [7]
-						22156, -- [8]
-						22159, -- [9]
-						21778, -- [10]
-						18576, -- [11]
-						18577, -- [12]
-						21709, -- [13]
-						21707, -- [14]
-						22388, -- [15]
-						22423, -- [16]
-						21713, -- [17]
-						22390, -- [18]
-						22426, -- [19]
-						22427, -- [20]
-						22425, -- [21]
-					},
-				}, -- [3]
-				{
-					["id"] = 105,
-					["talents"] = {
-						18569, -- [1]
-						18574, -- [2]
-						18572, -- [3]
-						19283, -- [4]
-						18570, -- [5]
-						18571, -- [6]
-						22366, -- [7]
-						22367, -- [8]
-						22160, -- [9]
-						21778, -- [10]
-						18576, -- [11]
-						18577, -- [12]
-						21710, -- [13]
-						21705, -- [14]
-						22421, -- [15]
-						21716, -- [16]
-						18585, -- [17]
-						22422, -- [18]
-						22403, -- [19]
-						21651, -- [20]
-						22404, -- [21]
-					},
-				}, -- [4]
-			},
-			["Version"] = 29139,
-		},
-		["MONK"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				[3] = {
-					["id"] = 269,
-					["talents"] = {
-						23106, -- [1]
-						19820, -- [2]
-						20185, -- [3]
-					},
-				},
-			},
-			["Version"] = 28768,
-		},
-		["ROGUE"] = {
-			["Locale"] = "enUS",
-			["Specializations"] = {
-				{
-					["id"] = 259,
-					["talents"] = {
-						22337, -- [1]
-						22338, -- [2]
-						22339, -- [3]
-					},
-				}, -- [1]
-				{
-					["id"] = 260,
-					["talents"] = {
-						22118, -- [1]
-						22119, -- [2]
-						22120, -- [3]
-						19236, -- [4]
-						19237, -- [5]
-						19238, -- [6]
-						19239, -- [7]
-						19240, -- [8]
-						19241, -- [9]
-						22121, -- [10]
-						22122, -- [11]
-						22123, -- [12]
-						23077, -- [13]
-						22114, -- [14]
-						22115, -- [15]
-						21990, -- [16]
-						23128, -- [17]
-						19250, -- [18]
-						22125, -- [19]
-						23075, -- [20]
-						23175, -- [21]
-					},
-				}, -- [2]
 			},
 			["Version"] = 31478,
 		},

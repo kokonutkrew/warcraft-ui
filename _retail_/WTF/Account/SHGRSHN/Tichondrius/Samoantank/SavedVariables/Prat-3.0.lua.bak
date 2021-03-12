@@ -26,1011 +26,1895 @@ Prat3CharDB = {
 	},
 }
 Prat3HighCPUPerCharDB = {
-	["time"] = 1566350284,
+	["time"] = 1601148802,
 	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 		["ChatFrame6"] = {
-			{
-				"|cff979797[19:12:15]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Kälmäh-Tichondrius:2157:CHANNEL:4|h|cffa9d271Kälmäh|r|h|cffd8d8d8]|r: hyundai", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				25, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[19:12:15]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2158:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: roflmfao", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[19:12:20]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2160:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: they are good at off roading thats it", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[19:12:37]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2162:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: i dont doubt that lock has handled a lot of blwn %^&*!@#s", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[19:12:37]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lockblocka-Tichondrius:2163:CHANNEL:4|h|cff8686ecLockblocka|r|h|cffd8d8d8]|r: honda transmissions are garbo too", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[19:12:40]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Warcrows-Tichondrius:2167:CHANNEL:4|h|cffa22fc8Warcrows|r|h|cffd8d8d8]|r: i have two phones", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[19:12:47]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2168:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: why would you buy from company that needed a gov't bailout?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[19:12:49]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Warcrows-Tichondrius:2169:CHANNEL:4|h|cffa22fc8Warcrows|r|h|cffd8d8d8]|r: two honda phones*", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[19:13:02]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2172:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: right shin which is why i buy ford", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[19:13:20]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2177:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: not really the reason but they didnt need a bailout", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[19:13:32]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2180:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: fords are for gayboys", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[19:13:38]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2181:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: whoa good one", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[19:13:40]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Warcrows-Tichondrius:2183:CHANNEL:4|h|cffa22fc8Warcrows|r|h|cffd8d8d8]|r: Ford numba won", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[19:13:51]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2185:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: he didnt buy a ford, he earned it passively", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[19:13:52]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2187:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: Aren't ford's engines garbage?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[19:13:55]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2189:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: Ford is good for the regular joe blow", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[19:13:55]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2190:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: LOL", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[19:13:57]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lockblocka-Tichondrius:2191:CHANNEL:4|h|cff8686ecLockblocka|r|h|cffd8d8d8]|r: I worked at Ford, never saw so much good credit at any other brand, just saying", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[19:14:18]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Machôman-Tichondrius:2195:CHANNEL:4|h|cffc59a6cMachôman|r|h|cffd8d8d8]|r: Ford was the first Truck", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				55, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[19:14:19]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2196:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: ford makes some of the most relible engines.. i dunno wtf youre talking about", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[19:14:28]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lockblocka-Tichondrius:2199:CHANNEL:4|h|cff8686ecLockblocka|r|h|cffd8d8d8]|r: chevy buyers, poor credit, hyundai buyers, poor credit, kia buyers, poor credit", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[19:14:32]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Teirako-Tichondrius:2200:CHANNEL:4|h|cfffe7b09Teirako|r|h|cffd8d8d8]|r: uh what", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				59, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[19:14:38]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2202:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: Best car that has ever been on this planet period", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[19:14:47]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2204:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: Is not a ford", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[19:14:48]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2205:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: is the beetle", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[19:14:48]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Warcrows-Tichondrius:2206:CHANNEL:4|h|cffa22fc8Warcrows|r|h|cffd8d8d8]|r: honda drivers -_-", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[19:14:51]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2207:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: i6 and 5.0 are bulletproof", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[19:14:55]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2209:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: chevy lost like 70% of value once you drive em off the lot", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[19:15:03]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Fiendforkush-Tichondrius:2210:CHANNEL:4|h|cfff38bb9Fiendforkush|r|h|cffd8d8d8]|r: VW beetle was the best car ever made on this planet tough as $%^&", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				23, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[19:15:05]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gohzer-Tichondrius:2213:CHANNEL:4|h|cfffefefeGohzer|r|h|cffd8d8d8]|r: 351w too", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				39, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[19:15:05]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2214:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: shin you're thinking of BMW lol", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[19:15:09]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lockblocka-Tichondrius:2216:CHANNEL:4|h|cff8686ecLockblocka|r|h|cffd8d8d8]|r: MAHK makes the best chevy commercials", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[19:15:13]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2218:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: I used to drive a ford escape, but i drove into a bus and now its toasted", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[19:15:14]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Machôman-Tichondrius:2219:CHANNEL:4|h|cffc59a6cMachôman|r|h|cffd8d8d8]|r: If it wasn't for Ford everyone would still be driving disel ", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				55, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[19:15:33]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:2222:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: Ford's are only good because they hold value", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				47, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[19:15:38]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2223:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: bus was fine though", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[19:15:40]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2225:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: I mean chevy cares are cookie cutters. and I hate their damn real ppl commercials so much. and those *!@#ty JD power awards that are clearly bought", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[19:15:46]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2226:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: cars&", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[19:16:03]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Machôman-Tichondrius:2228:CHANNEL:4|h|cffc59a6cMachôman|r|h|cffd8d8d8]|r: Chevy's uses Ford Engines", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				55, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[19:16:17]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lockblocka-Tichondrius:2230:CHANNEL:4|h|cff8686ecLockblocka|r|h|cffd8d8d8]|r: Toyota's first tundra was with a Chevy block", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				9, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[19:16:18]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gladdened-Tichondrius:2231:CHANNEL:4|h|cfff38bb9Gladdened|r|h|cffd8d8d8]|r: i has a chev, it goes vroom", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[19:16:49]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gladdened-Tichondrius:2237:CHANNEL:4|h|cfff38bb9Gladdened|r|h|cffd8d8d8]|r: i go zoom", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[19:17:00]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gladdened-Tichondrius:2240:CHANNEL:4|h|cfff38bb9Gladdened|r|h|cffd8d8d8]|r: SKKRRRRRRRRRRRTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[19:17:03]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2241:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: all the way to your special needs school", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[19:17:03]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2242:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: gross zoomer", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[19:17:27]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gladdened-Tichondrius:2247:CHANNEL:4|h|cfff38bb9Gladdened|r|h|cffd8d8d8]|r: ahahha to my special needs aniline press", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[19:17:35]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Ruina-Tichondrius:2249:CHANNEL:4|h|cfff38bb9Ruina|r|h|cffd8d8d8]|r: gladdened, how can you be unvacinated and autistic at the same time", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				31, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[19:17:49]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Gladdened-Tichondrius:2255:CHANNEL:4|h|cfff38bb9Gladdened|r|h|cffd8d8d8]|r: im a flexologist you know hoe, cause.. i did get vaxed", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				65, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[19:17:49]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Warcrows-Tichondrius:2256:CHANNEL:4|h|cffa22fc8Warcrows|r|h|cffd8d8d8]|r: wtb chevy Prius", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				2, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[19:17:58]|r|c00000000|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Shinseer-Tichondrius:2260:CHANNEL:4|h|cff006fdcShinseer|r|h|cffd8d8d8]|r: you mean a volt?", -- [1]
-				1, -- [2]
-				0.7529412508010864, -- [3]
-				0.7529412508010864, -- [4]
-				70, -- [5]
-				false, -- [6]
-				1, -- [7]
-				35, -- [8]
-			}, -- [50]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 28,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171772.506,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:44]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Oshawa-Tichondrius:681:CHANNEL:4|h|cfffe7b09Oshawa|r|h|cffd8d8d8]|r: k prove it",
+					["serverTime"] = 1603382017,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171799.459,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:47]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:682:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: i made 22k last year",
+					["serverTime"] = 1603382020,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171801.757,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:48]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:683:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: But you don't know me bucko",
+					["serverTime"] = 1603382021,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171803.63,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:52]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Oshawa-Tichondrius:684:CHANNEL:4|h|cfffe7b09Oshawa|r|h|cffd8d8d8]|r: sry im just so triggered",
+					["serverTime"] = 1603382025,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171807.106,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:58]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:687:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: I have 5 million gold step back",
+					["serverTime"] = 1603382031,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171813.101,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:23]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Narasha-Tichondrius:693:CHANNEL:4|h|cffc59a6cNarasha|r|h|cffd8d8d8]|r: we could bring back duels to the front of org for fun, but they don't mean anything otherwise.",
+					["serverTime"] = 1603382056,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171838.574,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:29]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:694:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: I'm quakin in my uncanny treads",
+					["serverTime"] = 1603382062,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171844.614,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:697:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: mu uncles dad works at blizzard",
+					["serverTime"] = 1603382075,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171857.078,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Héadass-Tichondrius:704:CHANNEL:4|h|cfffefefeHéadass|r|h|cffd8d8d8]|r: He thinks he has uncanny treads, boy you can't afford more than aspirant treads",
+					["serverTime"] = 1603382101,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171882.806,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:17]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Okinawa-Tichondrius:707:CHANNEL:4|h|cff3ec6eaOkinawa|r|h|cffd8d8d8]|r: my uncle drinks beer and beats his wife",
+					["serverTime"] = 1603382110,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171892.6,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:22]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:710:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: nice",
+					["serverTime"] = 1603382115,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171897.539,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:711:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: she prob asked for it",
+					["serverTime"] = 1603382121,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171903.129,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:46]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:715:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: my uncle is in prison, lol",
+					["serverTime"] = 1603382139,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171921.466,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:58]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:722:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: can confirm I #$%^ed him",
+					["serverTime"] = 1603382151,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171932.995,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:23]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:729:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: he got 15 years for selling fireworks....",
+					["serverTime"] = 1603382176,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171957.872,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:27]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:730:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: fireworks",
+					["serverTime"] = 1603382180,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171962.21,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:31]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:731:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: bout to fire work his &*!",
+					["serverTime"] = 1603382184,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171966.532,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:33]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:732:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: FIRE @#$%ING WORKS",
+					["serverTime"] = 1603382186,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171968.568,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:38]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Oshawa-Tichondrius:735:CHANNEL:4|h|cfffe7b09Oshawa|r|h|cffd8d8d8]|r: Sounds about american",
+					["serverTime"] = 1603382191,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171973.006,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:11]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mailstrom-Tichondrius:743:CHANNEL:4|h|cff006fdcMailstrom|r|h|cffd8d8d8]|r: 5 years for rape 15 for fireworks... american for sure",
+					["serverTime"] = 1603382224,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172006.109,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:25]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:752:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: look at these !@#$ing canadians",
+					["serverTime"] = 1603382238,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172019.908,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:30]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:754:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: stinky %^& flag burners",
+					["serverTime"] = 1603382243,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172025.514,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Felmadness-Tichondrius:757:CHANNEL:4|h|cfffefefeFelmadness|r|h|cffd8d8d8]|r: all you *!@#$es hating on america. playing an american game on american servers can suck ma D",
+					["serverTime"] = 1603382255,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172037.41,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:47]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Felmadness-Tichondrius:759:CHANNEL:4|h|cfffefefeFelmadness|r|h|cffd8d8d8]|r: MAGA",
+					["serverTime"] = 1603382260,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172041.965,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:07]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:764:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: Grave Infestation band from (Canada)",
+					["serverTime"] = 1603382280,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172062.138,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Plagueth-Tichondrius:765:CHANNEL:4|h|cff8687edPlagueth|r|h|cffd8d8d8]|r: amazing",
+					["serverTime"] = 1603382283,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172065.324,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:13]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Liltoolie-Tichondrius:767:CHANNEL:4|h|cffa9d271Liltoolie|r|h|cffd8d8d8]|r: fel bout to get real american up in your colon",
+					["serverTime"] = 1603382286,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172067.894,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 2,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r Total time played: 87 |4day:days;, 19 |4hour:hours;, 19 |4minute:minutes;, 25 |4second:seconds;",
+					["serverTime"] = 1603382000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171781.939,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r Time played this level: 0 |4day:days;, 13 |4hour:hours;, 39 |4minute:minutes;, 55 |4second:seconds;",
+					["serverTime"] = 1603382000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171781.939,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 		["ChatFrame1"] = {
-			{
-				"|cff979797[19:12:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gkevarzak-Tichondrius:2161:CHANNEL:2|h|cff006fdcGkevarzak|r|h|cffd8d8d8]|r: ◄WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-11-0B81E960:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:262::::::|h[Azshari Bloatray]|h|r/carry  right now.PST◄", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				29, -- [8]
-			}, -- [1]
-			{
-				"|cff979797[19:12:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Iceddk-Tichondrius:2164:CHANNEL:2|h|cffc31d39Iceddk|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Wheelchair Warriorz|r|cffffffff>|r  3/8M 8/8H is a new Raiding/Mythic+ Guild  recruiting more active Mythic ready Raiders to further progress mythic (425+) . Raid times are Tues/Thurs 9-12 ST  OR any M+ Players  PST for more info or |cffffff00|Hinvplr:Iceddk-Tichondrius|h[Invite]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				33, -- [8]
-			}, -- [2]
-			{
-				"|cff979797[19:12:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2165:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [3]
-			{
-				"|cff979797[19:12:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2170:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [4]
-			{
-				"|cff979797[19:12:59]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Eganikisu-Tichondrius:2171:GUILD|h|cffd84e4e120|r:|cfff38bb9Eganikisu|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:8969:Player-11-07F9039A:1:8:20:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Operator Thogar]|h|r |cff2080a0|Hgratsl:Eganikisu:GUILD::8969|h[say grats]|h|r!", -- [1]
-				0.250980406999588, -- [2]
-				1, -- [3]
-				0.250980406999588, -- [4]
-				65, -- [5]
-				false, -- [6]
-				37, -- [7]
-				38, -- [8]
-			}, -- [5]
-			{
-				"|cff979797[19:13:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2174:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [6]
-			{
-				"|cff979797[19:13:12]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mythanriel-Tichondrius:2175:CHANNEL:2|h|cff3ec5e9Mythanriel|r|h|cffd8d8d8]|r: The Gallywix Community || WTS Azshara's Eternal Palace Heroic < Friday-Monday Starting 8/23! Also Selling M+10-15 boosts || Islands Carry || Freehold || PVP carry || Mechagon Normal and Hardmode w/ mount GOLD ONLY", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				41, -- [8]
-			}, -- [7]
-			{
-				"|cff979797[19:13:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flyarmy-Tichondrius:2176:CHANNEL:2|h|cff00fe95Flyarmy|r|h|cffd8d8d8]|r: Do mythic+ 11 and beyond only give 440 for the weekly?", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				43, -- [8]
-			}, -- [8]
-			{
-				"|cff979797[19:13:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dellister-Tichondrius:2178:CHANNEL:2|h|cffa9d271Dellister|r|h|cffd8d8d8]|r: Mature, casual raiding guild |cffffffff<|r|cff00ff00Window Liquors|r|cffffffff>|r 8/8 Heroic LFM primarily melee DPS for Mythic Progression. Raid nights Tuesday 8-10 and Sunday 7-10 EST.  PST for info and conversation.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				45, -- [8]
-			}, -- [9]
-			{
-				"|cff979797[19:13:23]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xekia-Tichondrius:2179:CHANNEL:2|h|cfffe7b09Xekia|r|h|cffd8d8d8]|r: Free Mythic+ Carries! level 6-10! Go to |cffffffff|Hurl:twitch.tv/h0th34d1223|h[twitch.tv/h0th34d1223]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				19, -- [8]
-			}, -- [10]
-			{
-				"|cff979797[19:13:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2182:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [11]
-			{
-				"|cff979797[19:13:45]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dárkblack-Tichondrius:2184:CHANNEL:2|h|cfffe7b09Dárkblack|r|h|cffd8d8d8]|r: whats the best haste gem", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				49, -- [8]
-			}, -- [12]
-			{
-				"|cff979797[19:13:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gkevarzak-Tichondrius:2186:CHANNEL:2|h|cff006fdcGkevarzak|r|h|cffd8d8d8]|r: ◄WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-11-0B81E960:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:262::::::|h[Azshari Bloatray]|h|r/carry  right now.PST◄", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				29, -- [8]
-			}, -- [13]
-			{
-				"|cff979797[19:13:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2188:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [14]
-			{
-				"|cff979797[19:14:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ardrin-Tichondrius:2192:CHANNEL:2|h|cfffefefeArdrin|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:154696::::::::120:256::::::|h[Embroidered Deep Sea Bag]|h|r ", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				51, -- [8]
-			}, -- [15]
-			{
-				"|cff979797[19:14:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Optixqt-Tichondrius:2193:CHANNEL:2|h|cfffe7b09Optixqt|r|h|cffd8d8d8]|r: WTS +7-15 keys for weekly chest(EASY 430+/Armor stacking/17k Titan residuum) & N/H Mechagon/Speed leveling ! ALL TRADEABLE LOOT GOES TO YOU GUARANTEED. Skilled boosters 2.8k+ PST if you are interested! (GOLD ONLY) !", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				53, -- [8]
-			}, -- [16]
-			{
-				"|cff979797[19:14:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2194:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [17]
-			{
-				"|cff979797[19:14:24]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bacari-Tichondrius:2197:CHANNEL:2|h|cffa9d271Bacari|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52252::::::::120:253::11::::|h[Tabard of the Lightbringer]|h|rPST", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				57, -- [8]
-			}, -- [18]
-			{
-				"|cff979797[19:14:26]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xekia-Tichondrius:2198:CHANNEL:2|h|cfffe7b09Xekia|r|h|cffd8d8d8]|r: Free Mythic+ Carries! level 6-10! Go to |cffffffff|Hurl:twitch.tv/h0th34d1223|h[twitch.tv/h0th34d1223]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				19, -- [8]
-			}, -- [19]
-			{
-				"|cff979797[19:14:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2203:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [20]
-			{
-				"|cff979797[19:14:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2208:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [21]
-			{
-				"|cff979797[19:15:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Khaddyy-Tichondrius:2212:CHANNEL:2|h|cffc59a6cKhaddyy|r|h|cffd8d8d8]|r: freehold leveling still a thing", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				61, -- [8]
-			}, -- [22]
-			{
-				"|cff979797[19:15:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2215:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [23]
-			{
-				"|cff979797[19:15:11]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gkevarzak-Tichondrius:2217:CHANNEL:2|h|cff006fdcGkevarzak|r|h|cffd8d8d8]|r: ◄WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-11-0B81E960:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:262::::::|h[Azshari Bloatray]|h|r/carry  right now.PST◄", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				29, -- [8]
-			}, -- [24]
-			{
-				"|cff979797[19:15:16]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xekia-Tichondrius:2220:CHANNEL:2|h|cfffe7b09Xekia|r|h|cffd8d8d8]|r: Free Mythic+ Carries! level 6-10! Go to |cffffffff|Hurl:twitch.tv/h0th34d1223|h[twitch.tv/h0th34d1223]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				19, -- [8]
-			}, -- [25]
-			{
-				"|cff979797[19:15:33]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Samoantank-Tichondrius:2221:LOOT|h|cffd8bc3f115|r:|cfff38bb9Samoantank|r|h|cffd8d8d8]|rYou receive item: |cff00ccff|Hitem:168416::::::::115:70::::::|h[Anglers' Water Striders]|h|r.", -- [1]
-				0, -- [2]
-				0.6666666865348816, -- [3]
-				0, -- [4]
-				28, -- [5]
-				false, -- [6]
-				63, -- [7]
-				64, -- [8]
-			}, -- [26]
-			{
-				"|cff979797[19:15:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2224:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [27]
-			{
-				"|cff979797[19:15:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2227:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [28]
-			{
-				"|cff979797[19:16:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2229:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [29]
-			{
-				"|cff979797[19:16:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gkevarzak-Tichondrius:2232:CHANNEL:2|h|cff006fdcGkevarzak|r|h|cffd8d8d8]|r: ◄WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-11-0B81E960:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:262::::::|h[Azshari Bloatray]|h|r/carry  right now.PST◄", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				29, -- [8]
-			}, -- [30]
-			{
-				"|cff979797[19:16:31]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Eganikisu-Tichondrius:2233:GUILD|h|cffd84e4e120|r:|cfff38bb9Eganikisu|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:8980:Player-11-07F9039A:1:8:20:19:4294967295:4294967295:4294967295:4294967295|h[Stamp Stamp Revolution]|h|r |cff2080a0|Hgratsl:Eganikisu:GUILD::8980|h[say grats]|h|r!", -- [1]
-				0.250980406999588, -- [2]
-				1, -- [3]
-				0.250980406999588, -- [4]
-				65, -- [5]
-				false, -- [6]
-				37, -- [7]
-				38, -- [8]
-			}, -- [31]
-			{
-				"|cff979797[19:16:31]|r|c00000000|r |cffd8d8d8[|r|Hplayer:Eganikisu-Tichondrius:2234:GUILD|h|cffd84e4e120|r:|cfff38bb9Eganikisu|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:8968:Player-11-07F9039A:1:8:20:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hans'gar and Franzok]|h|r |cff2080a0|Hgratsl:Eganikisu:GUILD::8968|h[say grats]|h|r!", -- [1]
-				0.250980406999588, -- [2]
-				1, -- [3]
-				0.250980406999588, -- [4]
-				65, -- [5]
-				false, -- [6]
-				37, -- [7]
-				38, -- [8]
-			}, -- [32]
-			{
-				"|cff979797[19:16:36]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kretheddamah-Tichondrius:2235:CHANNEL:2|h|cffa9d271Kretheddamah|r|h|cffd8d8d8]|r:  WTS ****|cffffffff<|r|cff00ff00<Herioc 8 /8 Full run inv now>><<H EP Geared 430(13 slots) //+3+5+7 pieces guarantee Run>|r|cffffffff>|r start now!!!---Guarantee 430+trinket// azerite //weapon ----", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				67, -- [8]
-			}, -- [33]
-			{
-				"|cff979797[19:16:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2236:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [34]
-			{
-				"|cff979797[19:16:52]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mythanriel-Tichondrius:2238:CHANNEL:2|h|cff3ec5e9Mythanriel|r|h|cffd8d8d8]|r: The Gallywix Community || WTS Azshara's Eternal Palace Heroic < Friday-Monday Starting 8/23! Also Selling M+10-15 boosts || Islands Carry || Freehold || PVP carry || Mechagon Normal and Hardmode w/ mount GOLD ONLY", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				41, -- [8]
-			}, -- [35]
-			{
-				"|cff979797[19:16:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2239:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [36]
-			{
-				"|cff979797[19:17:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Floomkin-Tichondrius:2243:CHANNEL:2|h|cfffe7b09Floomkin|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Clap Back|r|cffffffff>|r  3/8M 8/8H (2-Day raiding guild) LF Ranged DPS for our core mythic progression. Raid times; Tues & Thurs 11pm-2am (EST). Apply on our DISCORD; |cffffffff|Hurl:https://discord.gg/h5Cw9yp|h[https://discord.gg/h5Cw9yp]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				69, -- [8]
-			}, -- [37]
-			{
-				"|cff979797[19:17:05]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xekia-Tichondrius:2244:CHANNEL:2|h|cfffe7b09Xekia|r|h|cffd8d8d8]|r: Free Mythic+ Carries! level 6-10! Go to |cffffffff|Hurl:twitch.tv/h0th34d1223|h[twitch.tv/h0th34d1223]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				19, -- [8]
-			}, -- [38]
-			{
-				"|cff979797[19:17:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2245:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [39]
-			{
-				"|cff979797[19:17:10]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jeevann-Tichondrius:2246:CHANNEL:2|h|cfffef367Jeevann|r|h|cffd8d8d8]|r: Selling M10 Keys w Experienced Mythic Raiders! Get yours now PM for more info", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				71, -- [8]
-			}, -- [40]
-			{
-				"|cff979797[19:17:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Glimmerdaddy-Tichondrius:2248:CHANNEL:2|h|cfff38bb9Glimmerdaddy|r|h|cffd8d8d8]|r: WTS M+ 7-15s + heroic Eternal Palace full clears with armor stacks of your choice. Also selling Mechagon full clear and Hardmode Mechagon + Island Expeditions. Pst for pricing", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				73, -- [8]
-			}, -- [41]
-			{
-				"|cff979797[19:17:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ardrin-Tichondrius:2250:CHANNEL:2|h|cfffefefeArdrin|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:154696::::::::120:256::::::|h[Embroidered Deep Sea Bag]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				51, -- [8]
-			}, -- [42]
-			{
-				"|cff979797[19:17:38]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Oharroo-Tichondrius:2251:CHANNEL:2|h|cfffe7b09Oharroo|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Bibleblack|r|cffffffff>|r 5/8M is recruiting more 1.3k+ M+ runners to push 15+ keys. Have keys running 24/7. Pm for more info!", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				7, -- [8]
-			}, -- [43]
-			{
-				"|cff979797[19:17:42]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Optixqt-Tichondrius:2252:CHANNEL:2|h|cfffe7b09Optixqt|r|h|cffd8d8d8]|r: WTS +7-15 keys for weekly chest(EASY 430+/Armor stacking/17k Titan residuum) & N/H Mechagon/Speed leveling ! ALL TRADEABLE LOOT GOES TO YOU GUARANTEED. Skilled boosters 2.8k+ PST if you are interested! (GOLD ONLY) !", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				53, -- [8]
-			}, -- [44]
-			{
-				"|cff979797[19:17:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xvo-Tichondrius:2253:CHANNEL:2|h|cff3ec5e9Xvo|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:30733::::::::120:64::::::|h[Hope Ender]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				75, -- [8]
-			}, -- [45]
-			{
-				"|cff979797[19:17:45]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Xvo-Tichondrius:2254:CHANNEL:2|h|cff3ec5e9Xvo|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:30733::::::::120:64::::::|h[Hope Ender]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				75, -- [8]
-			}, -- [46]
-			{
-				"|cff979797[19:17:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gkevarzak-Tichondrius:2257:CHANNEL:2|h|cff006fdcGkevarzak|r|h|cffd8d8d8]|r: ◄WTS Heroic Eternal Palace 8/8 PL,FULL 430 Gear/ Mythic+10 Carry for 440 week reward and and 17K[titan   residuum]/ normal/hard Mechagon 8/8/Also Unlock All Glory ACH|cffffff00|Hachievement:13687:Player-11-0B81E960:0:0:0:-1:0:0:0:0|h[Glory of the Eternal Raider]|h|rfor mount|cffa335ee|Hitem:167171::::::::1:262::::::|h[Azshari Bloatray]|h|r/carry  right now.PST◄", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				29, -- [8]
-			}, -- [47]
-			{
-				"|cff979797[19:17:52]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunarfáng-Tichondrius:2258:CHANNEL:2|h|cfffe7b09Lunarfáng|r|h|cffd8d8d8]|r: LF tank |cffa335ee|Hkeystone:158923:246:10:10:8:14:119|h[Keystone: Tol Dagor (10)]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				77, -- [8]
-			}, -- [48]
-			{
-				"|cff979797[19:17:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dsadasdasdkl-Tichondrius:2259:CHANNEL:2|h|cfffefefeDsadasdasdkl|r|h|cffd8d8d8]|r: [WTS] Eternal Palace Today! Mechagon Megadungeon! Mythic+ from +5 to +15. Get your 415-430+ ilvl gear. Visit WoWHunt/Com for all the details.", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				15, -- [8]
-			}, -- [49]
-			{
-				"|cff979797[19:18:04]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ghuunkiller-Tichondrius:2261:CHANNEL:2|h|cff3ec5e9Ghuunkiller|r|h|cffd8d8d8]|r: WTS heroic EP run 8 bosses w peronal loot for 650k gold(have tradeloot option) come and get 430++ loot and |cffffff00|Hachievement:13784:Player-11-0B553ADF:1:7:24:19:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Queen Azshara]|h|r |cff2080a0|Hgratsl:Ghuunkiller:CHANNEL:2:13784|h[say grats]|h|r", -- [1]
-				0.9098039865493774, -- [2]
-				0.6196078658103943, -- [3]
-				0.4745098352432251, -- [4]
-				68, -- [5]
-				false, -- [6]
-				4, -- [7]
-				79, -- [8]
-			}, -- [50]
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 112,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171755.887,
+				}, -- [1]
+				{
+					["message"] = "|cffffff 0[FF] |rFollow Felankor v2.5.5a [60000] Loaded",
+					["r"] = 0,
+					["timestamp"] = 171755.887,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Options to display the Follow Felankor options dialog",
+					["r"] = 0,
+					["timestamp"] = 171755.887,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cffffff 0[FF] |rType /ff_Help for help with using Follow Felankor",
+					["r"] = 0,
+					["timestamp"] = 171755.887,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171772.506,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r AutoFlood 1.2 loaded. Type /floodhelp for help.",
+					["r"] = 1,
+					["timestamp"] = 171772.506,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:17]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171772.506,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:22]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 171772.662,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:22]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitialized",
+					["timestamp"] = 171772.662,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:22]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 171772.662,
+					["serverTime"] = 1603381995,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:26]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171781.044,
+					["serverTime"] = 1603381999,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 171781.939,
+					["serverTime"] = 1603382000,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r Total time played: 87 |4day:days;, 19 |4hour:hours;, 19 |4minute:minutes;, 25 |4second:seconds;",
+					["serverTime"] = 1603382000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171781.939,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:27]|h|r Time played this level: 0 |4day:days;, 13 |4hour:hours;, 39 |4minute:minutes;, 55 |4second:seconds;",
+					["serverTime"] = 1603382000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 171781.939,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:30]|h|r |cff33ff99DataStore_Mails|r: Samoanbeast (Ravenholdt) has expired (or about to expire) mails ",
+					["timestamp"] = 171782.128,
+					["serverTime"] = 1603382003,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:30]|h|r |cff33ff99MaxDps|r: |cFF1394CCInitializing rotations",
+					["timestamp"] = 171782.128,
+					["serverTime"] = 1603382003,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:30]|h|r |cff33ff99MaxDps|r: |cFF1394CCCustom Rotations Loaded!",
+					["timestamp"] = 171782.128,
+					["serverTime"] = 1603382003,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:30]|h|r |cff33ff99MaxDps|r: |cFF1394CCPaladin Retribution",
+					["timestamp"] = 171782.128,
+					["serverTime"] = 1603382003,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:30]|h|r |cff33ff99MaxDps|r: |cFF1394CCFinished Loading class module",
+					["timestamp"] = 171782.128,
+					["serverTime"] = 1603382003,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:32]|h|r AAP Loaded",
+					["timestamp"] = 171785.201,
+					["serverTime"] = 1603382005,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:32]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171787.459,
+					["serverTime"] = 1603382005,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:39]|h|r 21 Oct '20 11:54pm : |CFFC79C6EEmerice|r|r has Left the guild (LVL: 100)",
+					["r"] = 0.5,
+					["serverTime"] = 1603382012,
+					["timestamp"] = 171794.311,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:39]|h|r 22 Oct '20 08:54am : |CFFC79C6ERolinthunda|r is no longer in the Guild! (LVL: 110) |CFFFF0000(Player no longer on Server)",
+					["r"] = 0.5,
+					["serverTime"] = 1603382012,
+					["timestamp"] = 171794.311,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:40]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171795.188,
+					["serverTime"] = 1603382013,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Scarypleb-Tichondrius:679:CHANNEL:2|h|cff8687edScarypleb|r|h|cffd8d8d8]|r: mages will blow your !@# up",
+					["serverTime"] = 1603382015,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171796.716,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:43]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:680:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: oh like can actually mage??",
+					["serverTime"] = 1603382016,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171798.093,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:45]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171799.907,
+					["serverTime"] = 1603382018,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:49]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171804.659,
+					["serverTime"] = 1603382022,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:53]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171807.894,
+					["serverTime"] = 1603382026,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moonflo-Tichondrius:685:CHANNEL:2|h|cfff38bb9Moonflo|r|h|cffd8d8d8]|r: that sounds painful",
+					["serverTime"] = 1603382026,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171807.938,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:55]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171809.918,
+					["serverTime"] = 1603382028,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moosestafa-Tichondrius:686:CHANNEL:2|h|cfffe7b09Moosestafa|r|h|cffd8d8d8]|r: lets bring the duels back to org front gate. Make dueling in front of org great again",
+					["serverTime"] = 1603382028,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171810.468,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:53:58]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171813.073,
+					["serverTime"] = 1603382031,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Toxicfk-Tichondrius:688:CHANNEL:2|h|cff8687edToxicfk|r|h|cffd8d8d8]|r: why do you expect to beat glad mages when u urself are 1900 max?",
+					["serverTime"] = 1603382033,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171815.022,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:00]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171815.54,
+					["serverTime"] = 1603382033,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tianquan-Tichondrius:689:CHANNEL:2|h|cff00fe97Tianquan|r|h|cffd8d8d8]|r: bad pve mages are dime a dozen. glad mages $%^& on me. and dont even wipe.",
+					["serverTime"] = 1603382036,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171818.672,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:04]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171819.032,
+					["serverTime"] = 1603382037,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:09]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171824.02,
+					["serverTime"] = 1603382042,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:11]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+7, |cffe69f00-0",
+					["timestamp"] = 171826.529,
+					["serverTime"] = 1603382044,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:12]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171827.674,
+					["serverTime"] = 1603382045,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Torok-Tichondrius:690:CHANNEL:2|h|cff006fdcTorok|r|h|cffd8d8d8]|r: go stand there and be the first one to start it",
+					["serverTime"] = 1603382048,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171829.837,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:18]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aszedia-Tichondrius:691:CHANNEL:2|h|cffa22fc8Aszedia|r|h|cffd8d8d8]|r: WTS> M+15-20 ||With Stack: 95k|| Key & Armor Stack: 109K|| WTS> Visions Runs 0-5 mask 65k w/objts || WTS>LVL BOOST SERVICE 10-50 .:·HUOKAN·:.",
+					["serverTime"] = 1603382051,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171833.523,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:18]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171833.622,
+					["serverTime"] = 1603382051,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tianquan-Tichondrius:692:CHANNEL:2|h|cff00fe97Tianquan|r|h|cffd8d8d8]|r: cuz i can beat glad rogues on my rogue. so why not glad mages on my monk?",
+					["serverTime"] = 1603382056,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171838.34,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:25]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171839.842,
+					["serverTime"] = 1603382058,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Scarypleb-Tichondrius:695:CHANNEL:2|h|cff8687edScarypleb|r|h|cffd8d8d8]|r: 5k per win? omw",
+					["serverTime"] = 1603382067,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171849.186,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:34]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171849.269,
+					["serverTime"] = 1603382067,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:40]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:696:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: If glad mages are the ones beating you, and youre not glad, its not the class thats the issue",
+					["serverTime"] = 1603382073,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171854.725,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Toxicfk-Tichondrius:698:CHANNEL:2|h|cff8687edToxicfk|r|h|cffd8d8d8]|r: so use ur knowledge of how u do it as a rogue, and apply it to WW",
+					["serverTime"] = 1603382079,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171861.432,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moonflo-Tichondrius:699:CHANNEL:2|h|cfff38bb9Moonflo|r|h|cffd8d8d8]|r: all ik is Biden is gonna win by a lan slice",
+					["serverTime"] = 1603382082,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171864.286,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:700:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: hm learning new things today",
+					["serverTime"] = 1603382088,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171870.225,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:54:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cyacal-Tichondrius:701:CHANNEL:2|h|cff3ec6eaCyacal|r|h|cffd8d8d8]|r: youd hope",
+					["serverTime"] = 1603382089,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171871.61,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cheeseepoofs-Tichondrius:702:CHANNEL:2|h|cfff38bb9Cheeseepoofs|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Narnians Gone Wild|r|cffffffff>|r A new guild looking to recruit active players for Shadowlands. We plan on clearing raids, running M+, and doing PVP. 18+ community! Relaxed enviorment. Mythic Exp Raid Leader. Need Everything",
+					["serverTime"] = 1603382093,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171875.648,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:04]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171879.502,
+					["serverTime"] = 1603382097,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wilhuok-Tichondrius:703:CHANNEL:2|h|cfffef367Wilhuok|r|h|cffd8d8d8]|r: WTS M+15 just for >>89k|cffffffff<|r|cff00ff00< also -|r|cffffffff>|r ArmorStack 95k -> Specific key 105k -> Armor & Key 109k! ||  Visions 0-5 Masks || Jaina Mount >335k|cffffffff<|r|cff00ff00 || Level Boost 10-50 ||  GOLD ONLY! |r|cffffffff>|r>Huokan Community<<",
+					["serverTime"] = 1603382098,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171879.936,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thicknight-Tichondrius:705:CHANNEL:2|h|cffc31d39Thicknight|r|h|cffd8d8d8]|r: Politics in my trade chat!? not on my watch",
+					["serverTime"] = 1603382107,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171889.096,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Livelocklove-Tichondrius:706:CHANNEL:2|h|cff8687edLivelocklove|r|h|cffd8d8d8]|r: guys i poo poo when i wanted to pee pee, what do?",
+					["serverTime"] = 1603382108,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171890.398,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thicknight-Tichondrius:708:CHANNEL:2|h|cffc31d39Thicknight|r|h|cffd8d8d8]|r: Did someone say |cffff8000|Hitem:19019:3370:::::::50:250:::::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r",
+					["serverTime"] = 1603382113,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171894.87,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dìabløh-Tichondrius:709:CHANNEL:2|h|cff006fdcDìabløh|r|h|cffd8d8d8]|r: lmao trumps gonna win bro the dnc loves to raw dog themselves in the *!@ every year with their noms",
+					["serverTime"] = 1603382113,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171895.353,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Unoblitz-Tichondrius:712:CHANNEL:2|h|cffc59a6cUnoblitz|r|h|cffd8d8d8]|r: wipe and try again",
+					["serverTime"] = 1603382125,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171907.033,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:35]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171909.736,
+					["serverTime"] = 1603382128,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:713:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: SYLVANAS IS SO HOT",
+					["serverTime"] = 1603382128,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171909.936,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moonflo-Tichondrius:714:CHANNEL:2|h|cfff38bb9Moonflo|r|h|cffd8d8d8]|r: nooooo Bernie is gonna be the next Sylvana",
+					["serverTime"] = 1603382135,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171917.378,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Deâthwinter-Tichondrius:716:CHANNEL:2|h|cffa22fc8Deâthwinter|r|h|cffd8d8d8]|r: WTS 0-5 mask selling 350+ times carried  0 mask clear=15k gold 4mask= 40k gold  5mask=60k gold quest page and 100-125 ilvl item reward very cheap!!  right now!!",
+					["serverTime"] = 1603382140,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171921.716,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:47]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq38|k:23:717:BN_INLINE_TOAST_ALERT:0|h[|Kq38|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tJoseph)|h has come online.",
+					["serverTime"] = 1603382140,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171921.716,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dìabløh-Tichondrius:718:CHANNEL:2|h|cff006fdcDìabløh|r|h|cffd8d8d8]|r: biden has the mental capacity of most toasters now a days",
+					["serverTime"] = 1603382147,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171929.558,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Salezmon-Tichondrius:719:CHANNEL:2|h|cff006fdcSalezmon|r|h|cffd8d8d8]|r: >Huokan Community|cffffffff<|r|cff00ff00 WTS M+15 Base 89k w/Armor Stack 95k WTS M+15-20 || Specific Keys 105k || Multi-run discounts || WTS Mecha Mount || Visions 0-5 Mask. Pst for more info |r|cffffffff>|rGOLD ONLY<",
+					["serverTime"] = 1603382148,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171930.609,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Genö-Tichondrius:720:CHANNEL:2|h|cffc59a6cGenö|r|h|cffd8d8d8]|r: sylvannas 202",
+					["serverTime"] = 1603382149,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171930.843,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thicknight-Tichondrius:721:CHANNEL:2|h|cffc31d39Thicknight|r|h|cffd8d8d8]|r: I mean sylv doesnt have a dumptruck but I'd certainly hit it with a brick",
+					["serverTime"] = 1603382149,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171931.109,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:55:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tyrañt-Tichondrius:723:CHANNEL:2|h|cffc31d39Tyrañt|r|h|cffd8d8d8]|r: Yo how tf do i get to argus again?",
+					["serverTime"] = 1603382151,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171933.228,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tyrañt-Tichondrius:724:CHANNEL:2|h|cffc31d39Tyrañt|r|h|cffd8d8d8]|r: Anyone?",
+					["serverTime"] = 1603382153,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171934.914,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:725:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: idk who that is i only know sylvanas my goddess",
+					["serverTime"] = 1603382156,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171937.75,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:05]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171939.969,
+					["serverTime"] = 1603382158,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Drboomcannon-Tichondrius:726:CHANNEL:2|h|cfffe7b09Drboomcannon|r|h|cffd8d8d8]|r: gyts u think im noob",
+					["serverTime"] = 1603382161,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171942.806,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Leaf-Tichondrius:727:CHANNEL:2|h|cfffe7b09Leaf|r|h|cffd8d8d8]|r: Thanos snap 2020, we could use it...prove me wrong",
+					["serverTime"] = 1603382173,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171955.003,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:728:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: Shes literally evil, guys. Its not even speculation anymore",
+					["serverTime"] = 1603382173,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171955.637,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cheeseepoofs-Tichondrius:733:CHANNEL:2|h|cfff38bb9Cheeseepoofs|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Narnians Gone Wild|r|cffffffff>|r A new guild looking to recruit active players for Shadowlands. We plan on clearing raids, running M+, and doing PVP. 18+ community! Relaxed enviorment. Mythic Exp Raid Leader. Need Everything",
+					["serverTime"] = 1603382187,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171969.385,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:35]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 171970.219,
+					["serverTime"] = 1603382188,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tyrañt-Tichondrius:734:CHANNEL:2|h|cffc31d39Tyrañt|r|h|cffd8d8d8]|r: Thank youu",
+					["serverTime"] = 1603382188,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171970.42,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Virology-Tichondrius:736:CHANNEL:2|h|cffa22fc8Virology|r|h|cffd8d8d8]|r: do we get pay if we prove u wrong",
+					["serverTime"] = 1603382191,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171973.24,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shadowzar-Tichondrius:737:CHANNEL:2|h|cfffefefeShadowzar|r|h|cffd8d8d8]|r: nothing wrong with eeeevil",
+					["serverTime"] = 1603382192,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171973.74,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:43]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ariealle-Tichondrius:738:CHANNEL:2|h|cff3ec6eaAriealle|r|h|cffd8d8d8]|r: we love evil",
+					["serverTime"] = 1603382196,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171977.744,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Leaf-Tichondrius:739:CHANNEL:2|h|cfffe7b09Leaf|r|h|cffd8d8d8]|r: paid in gum",
+					["serverTime"] = 1603382204,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171986.004,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:52]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Geniroh-Tichondrius:740:CHANNEL:2|h|cffc31d39Geniroh|r|h|cffd8d8d8]|r: yeah i thought the horde was evil",
+					["serverTime"] = 1603382205,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171986.788,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:56:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moosestafa-Tichondrius:741:CHANNEL:2|h|cfffe7b09Moosestafa|r|h|cffd8d8d8]|r: mages though now have all kinds of slow your ^&* down now crap. I can see monks crapping on mages as we run all over the place, or baddie mages that just stand there getting rolled by any melee class",
+					["serverTime"] = 1603382209,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 171991.009,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:05]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 172000.47,
+					["serverTime"] = 1603382218,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rhardok-Tichondrius:742:CHANNEL:2|h|cff006fdcRhardok|r|h|cffd8d8d8]|r: horde isnt evil",
+					["serverTime"] = 1603382219,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172000.703,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ravenbreeze-Tichondrius:744:CHANNEL:2|h|cfffe7b09Ravenbreeze|r|h|cffd8d8d8]|r: WTS|cffa335ee|Hitem:90655::::::::45:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r23K GOLD",
+					["serverTime"] = 1603382224,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172006.343,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cheeseepoofs-Tichondrius:745:CHANNEL:2|h|cfff38bb9Cheeseepoofs|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Narnians Gone Wild|r|cffffffff>|r A new guild looking to recruit active players for Shadowlands. We plan on clearing raids, running M+, and doing PVP. 18+ community! Relaxed enviorment. Mythic Exp Raid Leader. Need Everything",
+					["serverTime"] = 1603382225,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172006.826,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Claymorea-Tichondrius:746:CHANNEL:2|h|cffc59a6cClaymorea|r|h|cffd8d8d8]|r: warrior, DK, or DH for shadowlands?",
+					["serverTime"] = 1603382225,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172007.06,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:12]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mymage-Tichondrius:747:CHANNEL:2|h|cff3ec6eaMymage|r|h|cffd8d8d8]|r: the jedi are evil",
+					["serverTime"] = 1603382225,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172007.611,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Replicabank-Tichondrius:748:CHANNEL:2|h|cffc31d39Replicabank|r|h|cffd8d8d8]|r: WTS full Replica Sorcerers set, 8/8 pieces! |cffa335ee|Hitem:78198::::::::26:252::14:::::|h[Replica Sorcerer's Crown]|h|r|cffa335ee|Hitem:78200::::::::26:252::14:::::|h[Replica Sorcerer's Robes]|h|r|cff0070dd|Hitem:78201::::::::26:252::14:::::|h[Replica Sorcerer's Mantle]|h|r|cff0070dd|Hitem:78199::::::::26:252::14:::::|h[Replica Sorcerer's Leggings]|h|r|cffa335ee|Hitem:78196::::::::26:252::14:::::|h[Replica Sorcerer's Boots]|h|r",
+					["serverTime"] = 1603382227,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172009.346,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:749:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: The horde isnt evil, Sylv literally murdered her own people to feed to the maw to get power",
+					["serverTime"] = 1603382230,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172012.683,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ravenbreeze-Tichondrius:750:CHANNEL:2|h|cfffe7b09Ravenbreeze|r|h|cffd8d8d8]|r: WTS|cffa335ee|Hitem:90655::::::::45:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r23K GOLD",
+					["serverTime"] = 1603382233,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172014.869,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:23]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Scarypleb-Tichondrius:751:CHANNEL:2|h|cff8687edScarypleb|r|h|cffd8d8d8]|r: does horseman drop trinks?",
+					["serverTime"] = 1603382236,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172018.056,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tianquan-Tichondrius:753:CHANNEL:2|h|cff00fe97Tianquan|r|h|cffd8d8d8]|r: glad mages are hard to beat.",
+					["serverTime"] = 1603382243,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172024.813,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:34]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shadowzar-Tichondrius:755:CHANNEL:2|h|cfffefefeShadowzar|r|h|cffd8d8d8]|r: the horde isnt evil.. sylv is",
+					["serverTime"] = 1603382247,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172028.951,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:35]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 172030.519,
+					["serverTime"] = 1603382248,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Warlördgandi-Tichondrius:756:CHANNEL:2|h|cffc59a6cWarlördgandi|r|h|cffd8d8d8]|r: i mean who wouldnt though i'd feed you guys to the maw irl to get more power just in this game lmao...yet alone power irl",
+					["serverTime"] = 1603382252,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172034.607,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:758:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: Glad anything is supposed to be difficult. Theyre the high tier players.",
+					["serverTime"] = 1603382259,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172041.448,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:48]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vesper-Tichondrius:760:CHANNEL:2|h|cff3ec6eaVesper|r|h|cffd8d8d8]|r: anyone wanna tank m+ dungeons starting with AD?",
+					["serverTime"] = 1603382261,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172043.634,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shadowzar-Tichondrius:761:CHANNEL:2|h|cfffefefeShadowzar|r|h|cffd8d8d8]|r: what the horde stands for isnt evil lol evil people keep gettin power",
+					["serverTime"] = 1603382262,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172043.968,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:57:49]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cheeseepoofs-Tichondrius:762:CHANNEL:2|h|cfff38bb9Cheeseepoofs|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Narnians Gone Wild|r|cffffffff>|r A new guild looking to recruit active players for Shadowlands. We plan on clearing raids, running M+, and doing PVP. 18+ community! Relaxed enviorment. Mythic Exp Raid Leader. Need Everything",
+					["serverTime"] = 1603382262,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172044.502,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:01]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:763:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: higher**",
+					["serverTime"] = 1603382274,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172056.081,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:02]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 172057.266,
+					["serverTime"] = 1603382275,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:06]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 172060.769,
+					["serverTime"] = 1603382279,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:10]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Moosestafa-Tichondrius:766:CHANNEL:2|h|cfffe7b09Moosestafa|r|h|cffd8d8d8]|r: evil is just perspective",
+					["serverTime"] = 1603382283,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172065.324,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tianquan-Tichondrius:768:CHANNEL:2|h|cff00fe97Tianquan|r|h|cffd8d8d8]|r: like... usually its you eat a frost nova, so you tigers lust to break it. immediately eat a slow, so maybe serpent kick to clear it... then get blink poly'd on.",
+					["serverTime"] = 1603382290,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172072.599,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkonthird-Tichondrius:769:CHANNEL:2|h|cffc31d39Idkonthird|r|h|cffd8d8d8]|r: Nope. Theres 100% just straight up evil things.",
+					["serverTime"] = 1603382293,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172075.302,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ravenbreeze-Tichondrius:770:CHANNEL:2|h|cfffe7b09Ravenbreeze|r|h|cffd8d8d8]|r: WTS|cffa335ee|Hitem:90655::::::::45:102:::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r23K GOLD",
+					["serverTime"] = 1603382297,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172078.839,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Claudio-Tichondrius:771:CHANNEL:2|h|cffc31d39Claudio|r|h|cffd8d8d8]|r: Rank One DK 3284 exp Selling arena achieves in pre patch pm for details",
+					["serverTime"] = 1603382298,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						85, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 172080.208,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:58:29]|h|r |cff259054BugSack:|r There's a bug in your soup!",
+					["timestamp"] = 172084.383,
+					["serverTime"] = 1603382302,
+				}, -- [112]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 	},
 }

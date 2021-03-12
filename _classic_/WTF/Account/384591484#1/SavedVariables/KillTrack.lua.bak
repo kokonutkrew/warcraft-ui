@@ -1,0 +1,379 @@
+
+KILLTRACK = {
+	["TOOLTIP"] = true,
+	["COUNT_GROUP"] = false,
+	["SHOW_EXP"] = false,
+	["BROKER"] = {
+		["MINIMAP"] = {
+			["hide"] = true,
+		},
+		["SHORT_TEXT"] = false,
+	},
+	["PRINTNEW"] = false,
+	["MOBS"] = {
+		[7044] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Black Drake",
+		},
+		[5839] = {
+			["AchievCount"] = 0,
+			["Kills"] = 2,
+			["Name"] = "Dark Iron Geologist",
+			["Exp"] = 200,
+		},
+		[7046] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Searscale Drake",
+		},
+		[5840] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dark Iron Steamsmith",
+		},
+		[8442] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Shadowsilk Poacher",
+		},
+		[1032] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Black Ooze",
+		},
+		[5843] = {
+			["AchievCount"] = 0,
+			["Kills"] = 5,
+			["Name"] = "Slave Worker",
+			["Exp"] = 320,
+		},
+		[5844] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dark Iron Slaver",
+		},
+		[2716] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dustbelcher Wyrmhunter",
+		},
+		[5846] = {
+			["AchievCount"] = 0,
+			["Kills"] = 3,
+			["Name"] = "Dark Iron Taskmaster",
+			["Exp"] = 320,
+		},
+		[2717] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dustbelcher Mauler",
+		},
+		[2368] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Daggerspine Shorestalker",
+		},
+		[2559] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Highland Strider",
+		},
+		[2718] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dustbelcher Shaman",
+		},
+		[1034] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dragonmaw Raider",
+		},
+		[2719] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dustbelcher Lord",
+			["Exp"] = 48,
+		},
+		[2561] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Highland Fleshstalker",
+		},
+		[2720] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Dustbelcher Ogre Mage",
+			["Exp"] = 48,
+		},
+		[5853] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Tempered War Golem",
+		},
+		[5854] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Heavy War Golem",
+			["Exp"] = 132,
+		},
+		[5855] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Magma Elemental",
+			["Exp"] = 132,
+		},
+		[5856] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Glassweb Spider",
+		},
+		[5857] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Searing Lava Spider",
+		},
+		[1417] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Young Wetlands Crocolisk",
+		},
+		[5860] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Twilight Dark Shaman",
+			["Exp"] = 154,
+		},
+		[5861] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Twilight Fire Guard",
+			["Exp"] = 262,
+		},
+		[1164] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Stonesplinter Bonesnapper",
+		},
+		[2725] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Scalding Whelp",
+		},
+		[2757] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Blacklash",
+		},
+		[8996] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Voidwalker Minion",
+		},
+		[2726] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Scorched Guardian",
+			["Exp"] = 114,
+		},
+		[1768] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Vile Fin Tidehunter",
+		},
+		[2727] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Crag Coyote",
+		},
+		[2505] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Saltwater Snapjaw",
+		},
+		[2791] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Enraged Rock Elemental",
+		},
+		[3300] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Adder",
+		},
+		[1420] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Toad",
+		},
+		[2729] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Elder Crag Coyote",
+		},
+		[2349] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Giant Moss Creeper",
+		},
+		[9778] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Flamekin Torcher",
+		},
+		[16383] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Flameshocker",
+		},
+		[2732] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Ridge Huntress",
+		},
+		[16394] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Pallid Horror",
+		},
+		[1073] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Ashlan Stonesmirk",
+		},
+		[1009] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Mosshide Mistweaver",
+		},
+		[2830] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Buzzard",
+		},
+		[2735] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Lesser Rock Elemental",
+		},
+		[2356] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Elder Gray Bear",
+		},
+		[1075] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Rhag Garmason",
+		},
+		[16438] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Skeletal Trooper",
+		},
+		[1010] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Mosshide Fenrunner",
+		},
+		[2734] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Ridge Stalker Patriarch",
+		},
+		[9691] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Venomtip Scorpid",
+			["Exp"] = 224,
+		},
+		[16380] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Bone Witch",
+		},
+		[7025] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Blackrock Soldier",
+		},
+		[16298] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Spectral Soldier",
+		},
+		[1548] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Cursed Darkhound",
+		},
+		[2590] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Syndicate Conjuror",
+		},
+		[5833] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Margol the Rager",
+		},
+		[7040] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Black Dragonspawn",
+			["Exp"] = 412,
+		},
+		[9318] = {
+			["AchievCount"] = 0,
+			["Kills"] = 2,
+			["Name"] = "Incendosaur",
+			["Exp"] = 400,
+		},
+		[7041] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Black Wyrmkin",
+			["Exp"] = 448,
+		},
+		[1008] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Mosshide Mongrel",
+		},
+		[1554] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Vampiric Duskbat",
+		},
+		[2351] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Gray Bear",
+		},
+		[5850] = {
+			["AchievCount"] = 0,
+			["Kills"] = 1,
+			["Name"] = "Blazing Elemental",
+			["Exp"] = 280,
+		},
+		[92] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Rock Elemental",
+		},
+		[1767] = {
+			["AchievCount"] = 0,
+			["Kills"] = 0,
+			["Name"] = "Vile Fin Shredder",
+		},
+	},
+	["DISABLE_RAIDS"] = false,
+	["ACHIEV_THRESHOLD"] = 1000,
+	["DISABLE_DUNGEONS"] = false,
+	["IMMEDIATE"] = {
+		["THRESHOLD"] = 0,
+		["POSITION"] = {
+		},
+	},
+	["PRINTKILLS"] = false,
+}

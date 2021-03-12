@@ -1,0 +1,112 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["auras"] = {
+		},
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 0,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DEMONHUNTER",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["ccbreaks"] = 0,
+				["auras"] = {
+				},
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["power"] = {
+				},
+				["id"] = "Player-162-0A49E245",
+				["maxhp"] = 2196,
+				["shielding"] = 0,
+				["damagetakenspells"] = {
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["damage"] = 142,
+						["max"] = 142,
+						["name"] = "Attack",
+						["min"] = 142,
+						["totalhits"] = 1,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 1,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["healingspells"] = {
+				},
+				["name"] = "Samoanbatman",
+				["ffdamagedonetargets"] = {
+				},
+				["overhealing"] = 0,
+				["deathlog"] = {
+					{
+						["ts"] = 1604718789.941,
+						["amount"] = -142,
+						["srcname"] = "Cursed Wolf",
+						["hp"] = 1847,
+						["spellid"] = 88163,
+					}, -- [1]
+					["pos"] = 2,
+				},
+				["damagetaken"] = 142,
+				["ffdamagedone"] = 0,
+				["ffdamagedonespells"] = {
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Cursed Wolf"] = {
+				["players"] = {
+					["Samoanbatman"] = {
+						["taken"] = 0,
+						["done"] = 142,
+						["class"] = "DEMONHUNTER",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 142,
+			},
+		},
+		["mobtaken"] = 0,
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["damagetaken"] = 142,
+		["overhealing"] = 0,
+		["power"] = {
+		},
+		["dispells"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1604718789,
+		["shielding"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1604718789,
+		["mobdone"] = 142,
+	},
+}

@@ -2,42 +2,28 @@
 WeakAurasSaved = {
 	["dynamicIconCache"] = {
 	},
-	["editor_theme"] = "Monokai",
-	["login_squelch_time"] = 10,
-	["registered"] = {
-	},
 	["displays"] = {
 		["KK-Wake of Ashes"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
+			["iconSource"] = -1,
 			["authorOptions"] = {
 			},
-			["glowThickness"] = 1,
+			["yOffset"] = -237.000061035156,
+			["anchorPoint"] = "CENTER",
+			["cooldownSwipe"] = true,
+			["customTextUpdate"] = "update",
+			["cooldownEdge"] = false,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = true,
 				},
+				["init"] = {
+				},
 				["finish"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
 					["do_sound"] = false,
 				},
-				["init"] = {
-				},
 			},
-			["yOffset"] = -237.000061035156,
-			["anchorPoint"] = "CENTER",
-			["glowLength"] = 10,
-			["cooldownSwipe"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["customTextUpdate"] = "update",
-			["cooldownEdge"] = false,
-			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -49,20 +35,20 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["unevent"] = "auto",
-						["names"] = {
-						},
-						["buffShowOn"] = "showOnActive",
+						["use_genericShowOn"] = true,
+						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Cooldown Progress (Spell)",
-						["subeventPrefix"] = "SPELL",
+						["spellName"] = 255937,
 						["realSpellName"] = "Wake of Ashes",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["spellName"] = 255937,
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
-						["use_genericShowOn"] = true,
+						["subeventPrefix"] = "SPELL",
+						["buffShowOn"] = "showOnActive",
 						["duration"] = "1",
+						["names"] = {
+						},
+						["use_unit"] = true,
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showOnReady",
@@ -70,41 +56,89 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["glow"] = true,
-			["internalVersion"] = 16,
+			["internalVersion"] = 40,
 			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
 				},
 				["main"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
 				},
 			},
-			["text1Enabled"] = true,
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = -2.99993896484375,
-			["text1Containment"] = "INSIDE",
-			["glowColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["stickyDuration"] = false,
+			["subRegions"] = {
+				{
+					["text_shadowXOffset"] = 0,
+					["text_text_format_s_format"] = "none",
+					["text_text"] = "%s",
+					["text_shadowColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["text_selfPoint"] = "AUTO",
+					["text_automaticWidth"] = "Auto",
+					["text_fixedWidth"] = 64,
+					["anchorYOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["type"] = "subtext",
+					["text_color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["text_font"] = "Friz Quadrata TT",
+					["text_shadowYOffset"] = 0,
+					["text_wordWrap"] = "WordWrap",
+					["text_visible"] = true,
+					["text_anchorPoint"] = "INNER_BOTTOMRIGHT",
+					["text_fontSize"] = 12,
+					["anchorXOffset"] = 0,
+					["text_fontType"] = "OUTLINE",
+				}, -- [1]
+				{
+					["glowFrequency"] = 0.25,
+					["type"] = "subglow",
+					["glowXOffset"] = 0,
+					["glowType"] = "buttonOverlay",
+					["glowLength"] = 10,
+					["glowYOffset"] = 0,
+					["glowColor"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["useGlowColor"] = false,
+					["glow"] = true,
+					["glowScale"] = 1,
+					["glowThickness"] = 1,
+					["glowLines"] = 8,
+					["glowBorder"] = false,
+				}, -- [2]
 			},
-			["text1Point"] = "BOTTOMRIGHT",
-			["desaturate"] = false,
-			["text2FontFlags"] = "OUTLINE",
 			["height"] = 64.0000152587891,
-			["glowYOffset"] = 0,
 			["load"] = {
 				["talent"] = {
 					["single"] = 12,
+					["multi"] = {
+					},
 				},
 				["class"] = {
 					["single"] = "PALADIN",
@@ -125,59 +159,53 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Enabled"] = false,
-			["glowFrequency"] = 0.25,
-			["alpha"] = 1,
-			["text2Containment"] = "INSIDE",
-			["glowType"] = "buttonOverlay",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
-			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "icon",
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["text2FontSize"] = 24,
-			["text2"] = "%p",
-			["text1"] = "%s",
-			["text2Color"] = {
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["selfPoint"] = "CENTER",
+			["icon"] = true,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useglowColor"] = false,
 			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["auto"] = true,
-			["glowScale"] = 1,
-			["id"] = "KK-Wake of Ashes",
-			["glowLines"] = 8,
 			["frameStrata"] = 1,
+			["id"] = "KK-Wake of Ashes",
+			["uid"] = "7An0cpxpn4o",
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["width"] = 64.0000839233399,
-			["glowXOffset"] = 0,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["glowBorder"] = false,
+			["xOffset"] = -2.99993896484375,
 		},
 	},
-	["frame"] = {
-		["xOffset"] = -10.9998779296875,
-		["width"] = 875.000061035156,
-		["height"] = 515,
-		["yOffset"] = -143.499694824219,
-	},
+	["login_squelch_time"] = 10,
+	["lastArchiveClear"] = 1603327879,
 	["minimap"] = {
 		["minimapPos"] = 126.869819244542,
 		["hide"] = false,
 	},
+	["lastUpgrade"] = 1605997356,
+	["dbVersion"] = 40,
+	["clearOldHistory"] = 30,
+	["registered"] = {
+	},
+	["frame"] = {
+		["xOffset"] = -10.9998779296875,
+		["yOffset"] = -143.499694824219,
+		["height"] = 515,
+		["width"] = 875.000061035156,
+	},
+	["editor_theme"] = "Monokai",
 }

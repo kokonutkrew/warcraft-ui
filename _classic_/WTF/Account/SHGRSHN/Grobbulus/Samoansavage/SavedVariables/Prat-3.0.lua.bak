@@ -1,0 +1,454 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 30,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:36:26]|h|r Guild Message of the Day: WARRIORS GET REEL OR NAXX LOOT BAN <<< - If you recruit a player & they make core bank will give you 1 black lotus",
+					["serverTime"] = 1606029602,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 75934.211,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:36:27]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:29:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tTigerlilly)|h has come online.",
+					["serverTime"] = 1606029602,
+					["r"] = 0.509803950786591,
+					["b"] = 1,
+					["timestamp"] = 75934.211,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 0.772549092769623,
+				}, -- [2]
+				{
+					["message"] = "0 days, 0 hours, 0 minutes, 0 seconds",
+					["timestamp"] = 75934.211,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 75934.211,
+				}, -- [4]
+				{
+					["message"] = "|cff0bda51GreenWall:|r v1.11.2+classic loaded.",
+					["timestamp"] = 75919.197,
+				}, -- [5]
+				{
+					["message"] = "|cff33ff99HonorSpy|r: |cffAAAAAAversion: 1.7.7, bugs & features: github.com/kakysha/honorspy|r\n|cff209f9b|r",
+					["timestamp"] = 75919.197,
+				}, -- [6]
+				{
+					["message"] = "|cff00FF00[KillTrack]|r AddOn Loaded!",
+					["timestamp"] = 75919.197,
+				}, -- [7]
+				{
+					["message"] = "Maekor Overpower Alert loaded.",
+					["timestamp"] = 75919.197,
+				}, -- [8]
+				{
+					["message"] = "|cffff0000NaxxChatAlarm geladen.|r Für Optionen /naxx oder /nca aufrufen.",
+					["timestamp"] = 75919.197,
+				}, -- [9]
+				{
+					["message"] = "NeatMinimap v1.07.00 by MooreaTv: type /nmm for command list/help.",
+					["timestamp"] = 75919.197,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:40]|h|r Guild Message of the Day: WARRIORS GET REEL OR NAXX LOOT BAN <<< - If you recruit a player & they make core bank will give you 1 black lotus",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 75933.726,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cffffff7fWowhead Looter|r loaded (11304)",
+					["timestamp"] = 75934.211,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cff33ff99Gnosis|r: Gnosis v4.79 (r240) loaded (enabled)",
+					["timestamp"] = 75934.211,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cff33ff99Gnosis|r: disabled blizzard castbar (see gui options)",
+					["timestamp"] = 75934.211,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cff33ff99Gnosis|r: disabled default mirror castbar (see gui options)",
+					["timestamp"] = 75934.211,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cff33ff99Gnosis|r: disabled blizzard pet/vehicle castbar (see gui options)",
+					["timestamp"] = 75934.211,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:47]|h|r |cff33ff99H.H.T.D.|r: enabled! Type /HHTDG to open its option panel",
+					["timestamp"] = 75934.211,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cff00c8ffGRM: |cffffffffA new version of Guild Roster Manager is Available! |cffff0044Please Upgrade!",
+					["r"] = 1,
+					["serverTime"] = 1606029605,
+					["timestamp"] = 75943.67,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cff00c8ffGRM: |cffffffffA new version of Guild Roster Manager is Available! |cffff0044Please Upgrade!",
+					["r"] = 1,
+					["serverTime"] = 1606029605,
+					["timestamp"] = 75943.67,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cff00c8ffGRM: |cffffffffA new version of Guild Roster Manager is Available! |cffff0044Please Upgrade!",
+					["r"] = 1,
+					["serverTime"] = 1606029605,
+					["timestamp"] = 75943.789,
+					["g"] = 0.84,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hRend: 1 hour 24 minutes. (1:44am)|h",
+					["timestamp"] = 75944.218,
+					["serverTime"] = 1606029605,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hOnyxia: 17 minutes 13 seconds. (12:37am)|h",
+					["timestamp"] = 75944.218,
+					["serverTime"] = 1606029605,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:50]|h|r |cffff6900|HNWBCustomLink:buffs|h[WorldBuffs]|h|r |cffffff00|HNWBCustomLink:timers|hNefarian: 41 minutes 18 seconds. (1:01am)|h",
+					["timestamp"] = 75944.218,
+					["serverTime"] = 1606029605,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:52]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Km72|k:25:3592:BN_INLINE_TOAST_ALERT:0|h[|Km72|k]|h has gone offline.",
+					["serverTime"] = 1606029607,
+					["r"] = 0.509803950786591,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75945.441,
+					["g"] = 0.772549092769623,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:19:56]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Km72|k:25:3612:BN_INLINE_TOAST_ALERT:0|h[|Km72|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tMrMcNasty)|h has come online.",
+					["serverTime"] = 1606029611,
+					["r"] = 0.509803950786591,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75950.164,
+					["g"] = 0.772549092769623,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:20:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Jelalar:3631:CHANNEL:4|h|cff3fc6eaJelalar|r|h|cffd8d8d8]|r: WTS ZG Boost, duo @25g 1/2 Last Spot , 11 Pack Mobs lvl 51-59",
+					["serverTime"] = 1606029623,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75961.463,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:20:13]|h|r You receive item: |cffffffff|Hitem:4338::::::::35:::::::|h[Mageweave Cloth]|h|rx13.",
+					["serverTime"] = 1606029628,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75966.566,
+					["g"] = 0.666666686534882,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:20:26]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Kunyon:3633:CHANNEL:4|h|cff3fc6eaKunyon|r|h|cffd8d8d8]|r: WTS ZG RUN XP BOOSTER+  DUO 25G TRIO 19G FROM LVL 50-59  and Carry",
+					["serverTime"] = 1606029641,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						3, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75979.515,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:20:31]|h|r |cffffd839TSM|r: Sending |cffffffff|Hitem:4338::::::::35:::::::|h[Mageweave Cloth]|h|rx13 to Kk",
+					["timestamp"] = 75984.343,
+					["serverTime"] = 1606029646,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:20:31]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Chunhonam:3634:CHANNEL:4|h|cfffff468Chunhonam|r|h|cffd8d8d8]|r: LF3M UBRS - t0.5 boss summon - need 2 tank and 1 healer",
+					["serverTime"] = 1606029646,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 75985.095,
+					["g"] = 0.752941250801086,
+					["b"] = 0.752941250801086,
+				}, -- [30]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["XPMax"] = 250,
+				["played"] = 6,
+				["playedThisLevel"] = 6,
+				["isResting"] = false,
+				["lastUpdate"] = 1605916186,
+				["class"] = "Rogue",
+				["race"] = "Human",
+				["level"] = 1,
+				["XP"] = 0,
+				["realm"] = "Emerald Dream",
+				["RestXP"] = 0,
+				["money"] = 0,
+				["gender"] = 2,
+				["subZone"] = "The North Sea",
+				["zone"] = "Exile's Reach",
+				["name"] = "Wealthkk",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["englishClass"] = "ROGUE",
+				["lastLogoutTimestamp"] = 1605916186,
+				["hearthstone"] = "The North Sea",
+			},
+		},
+	},
+}

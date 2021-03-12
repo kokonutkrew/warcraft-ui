@@ -1,40 +1,37 @@
 
 ChatAlarm = {
 	["b"] = {
-		0, -- [1]
+		0.956862745098039, -- [1]
 		0, -- [2]
 	},
 	["g"] = {
-		0, -- [1]
+		0.945098039215686, -- [1]
 		1, -- [2]
 	},
-	["txtAutoChat"] = "",
-	["DDBoxTemplateSearch"] = 1,
+	["txtAutoChat"] = "Any buffs soon? ZG Heart/Ony/Nef Head?",
+	["DDBoxTemplateSearch"] = 28,
 	["chkBtnActive"] = true,
-	["chkBtnTrade"] = false,
+	["chkBtnTrade"] = true,
 	["chkBtnPostGuild"] = false,
-	["chkBtnGuild"] = false,
-	["ver"] = 1.331,
-	["DDBoxDelay"] = 1,
+	["chkBtnGuild"] = true,
+	["chkBtnTooltip"] = true,
+	["DDBoxDelay"] = 7,
 	["chkBtnLFG"] = true,
-	["Merge"] = {
-		"<ini> group search for <player>", -- [1]
-		"<player> search group for <ini>", -- [2]
-	},
-	["chkBtnSearchTank"] = false,
+	["chkBtnSearchLFG"] = true,
+	["txtSeperate"] = "/",
 	["r"] = {
 		1, -- [1]
 		0, -- [2]
 	},
-	["txtSeperate"] = "/",
 	["chkBtnAntiSpam"] = true,
-	["chkBtnPlayerColor"] = true,
-	["chkBtnSound"] = true,
-	["chkBtnSearchLFM"] = false,
-	["chkBtnGeneral"] = false,
 	["chkBtnSearchDD"] = true,
+	["chkBtnSearchLFM"] = false,
 	["chkBtnSearchHeal"] = false,
-	["chkBtnWithPlayer"] = false,
+	["ver"] = 1.331,
+	["chkBtnGeneral"] = true,
+	["chkBtnSound"] = true,
+	["chkBtnPlayerColor"] = true,
+	["chkBtnWithPlayer"] = true,
 	["TemplateWords"] = {
 		{
 			"lfg+rf", -- [1]
@@ -114,10 +111,10 @@ ChatAlarm = {
 			"SM-Arm", -- [5]
 		}, -- [11]
 		{
-			"lfg+Cath", -- [1]
-			"lfm+Cath", -- [2]
-			"sm+Cath", -- [3]
-			"Cath", -- [4]
+			"buff", -- [1]
+			"head", -- [2]
+			"boost", -- [3]
+			"gdkp", -- [4]
 			"SM-Cath", -- [5]
 		}, -- [12]
 		{
@@ -166,7 +163,7 @@ ChatAlarm = {
 			"lfg+lbrs", -- [1]
 			"lfm+lbrs", -- [2]
 			"lbrs", -- [3]
-			"", -- [4]
+			"brd", -- [4]
 			"LBRS", -- [5]
 		}, -- [19]
 		{
@@ -181,7 +178,7 @@ ChatAlarm = {
 			"Dire Maul", -- [2]
 			"dm+e", -- [3]
 			"DM", -- [4]
-			"DM Eeast", -- [5]
+			"DM East", -- [5]
 		}, -- [21]
 		{
 			"lfg+dm", -- [1]
@@ -219,30 +216,33 @@ ChatAlarm = {
 			"Strat undead", -- [5]
 		}, -- [26]
 		{
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"custom A", -- [5]
-			"", -- [6]
+			"marsh", -- [1]
+			"food", -- [2]
+			"water", -- [3]
+			"gdkp-lfg", -- [4]
+			"Mage Services", -- [5]
+			"WTS Portals / Food & Water - @AH Entrance Org", -- [6]
 		}, -- [27]
 		{
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"custom B", -- [5]
-			"", -- [6]
+			"buff-dmt", -- [1]
+			"buff-dmn", -- [2]
+			"buff-dire maul", -- [3]
+			"boof", -- [4]
+			"Buffs", -- [5]
+			"Any buffs soon? ZG Heart/Ony/Nef Head?", -- [6]
 		}, -- [28]
 		{
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"custom C", -- [5]
-			"", -- [6]
+			"gdkp", -- [1]
+			"buff", -- [2]
+			"marshmellow", -- [3]
+			"sum", -- [4]
+			"GDKP", -- [5]
+			"LFG AQ/ZG GDKP", -- [6]
 		}, -- [29]
 	},
-	["chkBtnSearchLFG"] = true,
-	["chkBtnTooltip"] = true,
+	["chkBtnSearchTank"] = false,
+	["Merge"] = {
+		"<ini> group search for <player>", -- [1]
+		"<player> search group for <ini>", -- [2]
+	},
 }

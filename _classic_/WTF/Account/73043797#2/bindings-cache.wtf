@@ -71,3 +71,7 @@ bind CTRL-SHIFT-9 RAIDTARGETNONE
 bind CTRL-SHIFT-I INFORMANT_POPUPDOWN
 bind CTRL-UP PITCHUP
 bind CTRL-DOWN PITCHDOWN
+bind CTRL-D CLICK ItemRackMarshmellowGrobbulusDamage:LeftButton
+bind CTRL-F CLICK ItemRackMarshmellowGrobbulusFrost Resist:LeftButton
+bind \ TOGGLERUN
+bind J TOGGLEGUILDTAB

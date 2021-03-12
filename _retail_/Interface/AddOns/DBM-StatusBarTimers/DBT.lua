@@ -36,13 +36,10 @@
 --    * Noncommercial. You may not use this work for commercial purposes.
 --    * Share Alike. If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
 
-
 ---------------
 --  Globals  --
 ---------------
 DBT = {}
-DBT_PersistentOptions = {}
-
 
 --------------
 --  Locals  --
@@ -53,7 +50,6 @@ local unusedBarObjects = setmetatable({}, {__mode = "kv"})
 local updateClickThrough
 local options
 local setupHandlers
-local applyFailed = false
 local barIsAnimating = false
 local function stringFromTimer(t)
 	if t <= DBM.Bars:GetOption("TDecimal") then
@@ -65,24 +61,23 @@ local function stringFromTimer(t)
 	end
 end
 
-local ipairs, pairs, next, type = ipairs, pairs, next, type
+local pairs, next, type = pairs, next, type
 local tinsert = table.insert
 local GetTime = GetTime
 
 --Hard code STANDARD_TEXT_FONT since skinning mods like to taint it (or worse, set it to nil, wtf?)
-local standardFont = STANDARD_TEXT_FONT
-if (LOCALE_koKR) then
+local standardFont
+if LOCALE_koKR then
 	standardFont = "Fonts\\2002.TTF"
-elseif (LOCALE_zhCN) then
+elseif LOCALE_zhCN then
 	standardFont = "Fonts\\ARKai_T.ttf"
-elseif (LOCALE_zhTW) then
+elseif LOCALE_zhTW then
 	standardFont = "Fonts\\blei00d.TTF"
-elseif (LOCALE_ruRU) then
+elseif LOCALE_ruRU then
 	standardFont = "Fonts\\FRIZQT___CYR.TTF"
 else
 	standardFont = "Fonts\\FRIZQT__.TTF"
 end
-
 
 -----------------------
 --  Default Options  --
@@ -112,9 +107,9 @@ options = {
 		type = "boolean",
 		default = false,
 	},
-	Flash = {
+	FlashBar = {
 		type = "boolean",
-		default = true,
+		default = false,
 	},
 	Spark = {
 		type = "boolean",
@@ -127,6 +122,10 @@ options = {
 	ColorByType = {
 		type = "boolean",
 		default = true,
+	},
+	NoBarFade = {
+		type = "boolean",
+		default = false,
 	},
 	InlineIcons = {
 		type = "boolean",
@@ -435,10 +434,6 @@ options = {
 		type = "number",
 		default = 11,
 	},
-	EnlargeBarsPercent = {
-		type = "number",
-		default = 0.125,
-	},
 	FillUpBars = {
 		type = "boolean",
 		default = true,
@@ -453,7 +448,7 @@ options = {
 	},
 	Font = {
 		type = "string",
-		default = standardFont,
+		default = "standardFont",
 	},
 	FontFlag = {
 		type = "string",
@@ -465,7 +460,7 @@ options = {
 	},
 	Template = {
 		type = "string",
-		default = "DBTBarTemplate"
+		default = "DBMDefaultSkinTimerTemplate"
 	},
 	Skin = {
 		type = "string",
@@ -480,6 +475,10 @@ options = {
 		default = true,
 	},
 	FadeBars = {
+		type = "boolean",
+		default = true,
+	},
+	StripCDText = {
 		type = "boolean",
 		default = true,
 	},
@@ -636,29 +635,19 @@ do
 	end
 
 	function DBT:LoadOptions(id)
-		--init
+		-- init
 		if not DBT_AllPersistentOptions then DBT_AllPersistentOptions = {} end
 		if not DBT_AllPersistentOptions[_G["DBM_UsedProfile"]] then DBT_AllPersistentOptions[_G["DBM_UsedProfile"]] = {} end
-		--migrate old options
-		if DBT_PersistentOptions and DBT_PersistentOptions[id] and not DBT_AllPersistentOptions[_G["DBM_UsedProfile"]][id] then
-			DBT_AllPersistentOptions[_G["DBM_UsedProfile"]][id] = DBT_PersistentOptions[id]
-		end
 		DBT_AllPersistentOptions[_G["DBM_UsedProfile"]][id] = DBT_AllPersistentOptions[_G["DBM_UsedProfile"]][id] or {}
 		self.options = setmetatable(DBT_AllPersistentOptions[_G["DBM_UsedProfile"]][id], optionMT)
 		self:Rearrange()
 		DBM:Schedule(2, delaySkinCheck, self)
-		if not self.options.Font then--Fix font if it's nil
-			self.options.Font = standardFont
+		--Fix font if it's nil or set to any of standard font values
+		if not self.options.Font or (self.options.Font == "Fonts\\2002.TTF" or self.options.Font == "Fonts\\ARKai_T.ttf" or self.options.Font == "Fonts\\blei00d.TTF" or self.options.Font == "Fonts\\FRIZQT___CYR.TTF" or self.options.Font == "Fonts\\FRIZQT__.TTF") then
+			self.options.Font = "standardFont"
 		end
-		--Repair options from texture conversions
-		if self.options.Texture == "Interface\\AddOns\\DBM-DefaultSkin\\textures\\default.tga" then
-			self.options.Texture = "Interface\\AddOns\\DBM-DefaultSkin\\textures\\default.blp"
-		elseif self.options.Texture == "Interface\\AddOns\\DBM-DefaultSkin\\textures\\smooth.tga" then
-			self.options.Texture = "Interface\\AddOns\\DBM-DefaultSkin\\textures\\smooth.blp"
-		elseif self.options.Texture == "Interface\\AddOns\\DBM-DefaultSkin\\textures\\glaze.tga" then
-			self.options.Texture = "Interface\\AddOns\\DBM-DefaultSkin\\textures\\glaze.blp"
-		elseif self.options.Texture == "Interface\\AddOns\\DBM-DefaultSkin\\textures\\otravi.tga" then
-			self.options.Texture = "Interface\\AddOns\\DBM-DefaultSkin\\textures\\otravi.blp"
+		if self.options.Template == "DBTBarTemplate" then -- Kill internal default template
+			self.options.Template = "DBMDefaultSkinTimerTemplate"
 		end
 	end
 
@@ -728,7 +717,6 @@ function DBT:GetDefaultOption(option)
 	return self.defaultOptions[option]
 end
 
-
 -----------------------
 --  Bar Constructor  --
 -----------------------
@@ -740,7 +728,7 @@ do
 			frame = unusedBars[#unusedBars]
 			unusedBars[#unusedBars] = nil
 		else
-			frame = CreateFrame("Frame", "DBT_Bar_"..fCounter, self.mainAnchor, self.options.Template)
+			frame = CreateFrame("Frame", "DBT_"..fCounter, self.mainAnchor, self.options.Template)
 			setupHandlers(frame)
 			fCounter = fCounter + 1
 		end
@@ -750,7 +738,7 @@ do
 	local mt = {__index = barPrototype}
 
 	function DBT:CreateBar(timer, id, icon, huge, small, color, isDummy, colorType, inlineIcon, keep, fade, countdown, countdownMax)
-		if timer <= 0 then return end
+		if not timer or type(timer) == "string" or timer <= 0 then return end
 		if (self.numBars or 0) >= 15 and not isDummy then return end
 		--Most efficient place to block it, nil colorType instead of checking option every update
 		if not self.options.ColorByType then colorType = nil end
@@ -758,6 +746,7 @@ do
 		if newBar then -- update an existing bar
 			newBar.lastUpdate = GetTime()
 			newBar.huge = huge or nil
+			newBar.paused = nil
 			newBar:SetTimer(timer) -- this can kill the timer and the timer methods don't like dead timers
 			if newBar.dead then return end
 			newBar:SetElapsed(0) -- same
@@ -813,14 +802,11 @@ do
 			end
 			newFrame.obj = newBar
 			self.numBars = (self.numBars or 0) + 1
-			local enlargeTime = self.options.BarStyle ~= "NoAnim" and self.options.EnlargeBarTime or 11
+			local enlargeTime = self.options.EnlargeBarTime or 11
 			local importantBar = colorType and colorType == 7 and self:GetOption("Bar7ForceLarge")
 			if (importantBar or (timer <= enlargeTime or huge)) and self:GetOption("HugeBarsEnabled") then -- start enlarged
 				newBar.enlarged = true
 				newBar.huge = true
-				if huge then
-					self.enlargeHack = true
-				end
 				self.hugeBars:Append(newBar)
 			else
 				newBar.huge = nil
@@ -849,10 +835,10 @@ do
 		self.flashing = nil
 		_G[self.frame:GetName().."BarSpark"]:SetAlpha(1)
 	end
-	function DBT:CreateDummyBar(colorType, inlineIcon)
+	function DBT:CreateDummyBar(colorType, inlineIcon, text)
 		dummyBars = dummyBars + 1
 		local dummy = self:CreateBar(25, "dummy"..dummyBars, 136116, nil, true, nil, true, colorType, inlineIcon)--"Interface\\Icons\\Spell_Nature_WispSplode"
-		dummy:SetText("Dummy", inlineIcon)
+		dummy:SetText(text or "Dummy", inlineIcon)
 		dummy:Cancel()
 		self.bars[dummy] = true
 		unusedBars[#unusedBars] = nil
@@ -891,6 +877,7 @@ end
 function DBT:CancelBar(id)
 	for bar in self:GetBarIterator() do
 		if id == bar.id then
+			bar.paused = nil
 			bar:Cancel()
 			return true
 		end
@@ -926,12 +913,17 @@ function barPrototype:SetTimer(timer)
 	self:Update(0)
 end
 
-function barPrototype:ResetAnimations()
-	self:RemoveFromList()
-	self.enlarged = nil
-	self.moving = nil
-	self.owner.smallBars:Append(self)
-	self:ApplyStyle()
+function barPrototype:ResetAnimations(makeBig)
+	self:RemoveFromList()--Remove bar completely
+	self.moving = nil--Reset moving status
+	if self.owner:GetOption("HugeBarsEnabled") and makeBig then--Make bar big
+		self.enlarged = true
+		self.owner.hugeBars:Append(self)
+	else--Or make bar small
+		self.enlarged = nil
+		self.owner.smallBars:Append(self)
+	end
+	self:ApplyStyle()--Apply changes
 end
 
 function barPrototype:Pause()
@@ -939,9 +931,7 @@ function barPrototype:Pause()
 	self.ftimer = nil
 	self:Update(0)
 	self.paused = true
-	if self.moving == "enlarge" then
-		self:ResetAnimations()
-	end
+	self:ResetAnimations()--Force move paused bars to small bars
 end
 
 function barPrototype:Resume()
@@ -950,15 +940,23 @@ end
 
 function barPrototype:SetElapsed(elapsed)
 	self.timer = self.totalTime - elapsed
-	local enlargeTime = self.owner.options.BarStyle ~= "NoAnim" and self.owner.options.EnlargeBarTime or 11
-	local enlargePer = self.owner.options.BarStyle ~= "NoAnim" and self.owner.options.EnlargeBarsPercent or 0
-	if (self.enlarged or self.moving == "enlarge") and not (self.timer <= enlargeTime or (self.timer/self.totalTime) <= enlargePer) then
+	local enlargeTime = self.owner.options.EnlargeBarTime or 11
+	--Bar was large, or moving (animating from the small to large bar anchor) at time this was called
+	--Force reset animation and move it back to the small anchor since time was added to bar
+	if (self.enlarged or self.moving == "enlarge") and not (self.timer <= enlargeTime) then
 		self:ResetAnimations()
-		DBM:Debug("ResetAnimations firing for a a bar :Update() call", 2)
-	elseif self.owner.options.Sort and self.moving ~= "enlarge" then
+		DBM:Debug("ResetAnimations firing with a value of "..elapsed.." for a bar :Update() call that is shrinking a bar", 2)
+	--Bar was small, or moving from small to large when time was removed
+	--Also force reset animation but this time move it from small anchor into large one
+	elseif (not self.enlarged or self.moving == "enlarge") and (self.timer <= enlargeTime) then
+		self:ResetAnimations(true)
+		DBM:Debug("ResetAnimations firing with a value of "..elapsed.." for a bar :Update() call that is enlarging a bar", 2)
+	--Not even I'm 100% sure what this part is, tied to bar sorting obviouosly but what's this actually do?
+	elseif self.owner.options.Sort and self.moving ~= "enlarge" and self.moving ~= "move" then
 		local group = self.enlarged and self.owner.hugeBars or self.owner.smallBars
 		group:Remove(self)
 		group:Append(self)
+		DBM:Debug("ResetAnimations firing with a value of "..elapsed.." for a bar :Update() call that is sorting bars", 3)
 	end
 	self:Update(0)
 end
@@ -966,7 +964,7 @@ end
 function barPrototype:SetText(text, inlineIcon)
 	if not self.owner.options.InlineIcons then inlineIcon = nil end
 	--Force change color type 7 yo custom inlineIcon
-	local forcedIcon = (self.colorType and self.colorType == 7 and self.owner.options.Bar7CustomInline) and DBM_CORE_IMPORTANT_ICON or inlineIcon or ""
+	local forcedIcon = (self.colorType and self.colorType == 7 and self.owner.options.Bar7CustomInline) and DBM_CORE_L.IMPORTANT_ICON or inlineIcon or ""
 	_G[self.frame:GetName().."BarName"]:SetText(forcedIcon..text)
 end
 
@@ -997,6 +995,15 @@ end
 ------------------
 --  Bar Update  --
 ------------------
+local colorVariables = {
+	[1] = "A",--Add
+	[2] = "AE",--AoE
+	[3] = "D",--Debuff/Targeted attack
+	[4] = "I",--Interrupt
+	[5] = "R",--Role
+	[6] = "P",--Phase
+	[7] = "UI",--User
+}
 function barPrototype:Update(elapsed)
 	local frame = self.frame
 	local frame_name = frame:GetName()
@@ -1005,58 +1012,44 @@ function barPrototype:Update(elapsed)
 	local spark = _G[frame_name.."BarSpark"]
 	local timer = _G[frame_name.."BarTimer"]
 	local obj = self.owner
-	local barOptions = obj.options
-	local currentStyle = barOptions.BarStyle
-	local sparkEnabled = currentStyle ~= "NoAnim" and barOptions.Spark
-	local isMoving = self.moving
-	local isFadingIn = self.fadingIn
-	local isEnlarged = self.enlarged
-	local fillUpBars = isEnlarged and barOptions.FillUpLargeBars or not isEnlarged and barOptions.FillUpBars
-	local ExpandUpwards = isEnlarged and barOptions.ExpandUpwardsLarge or not isEnlarged and barOptions.ExpandUpwards
-	self.timer = self.timer - elapsed
+	local paused = self.paused
+	self.timer = self.timer - (paused and 0 or elapsed)
 	local timerValue = self.timer
 	local totaltimeValue = self.totalTime
+	local barOptions = obj.options
+	local currentStyle = barOptions.BarStyle
+	local sparkEnabled = barOptions.Spark
+	local isMoving = self.moving
+	local isFadingIn = self.fadingIn
 	local colorCount = self.colorType
-	local enlargeHack = self.enlargeHack or false
+	local enlargeHack = (self.dummyEnlarge or colorCount == 7 and barOptions.Bar7ForceLarge) and true or false
+	local enlargeTime = barOptions.EnlargeBarTime or 11
+	local isEnlarged = self.enlarged and not paused
+	local fillUpBars = isEnlarged and barOptions.FillUpLargeBars or not isEnlarged and barOptions.FillUpBars
+	local ExpandUpwards = isEnlarged and barOptions.ExpandUpwardsLarge or not isEnlarged and barOptions.ExpandUpwards
 	if barOptions.DynamicColor and not self.color then
 		local r, g, b
 		if colorCount and colorCount >= 1 then
-			if colorCount == 1 then--Add
-				r = barOptions.StartColorAR  + (barOptions.EndColorAR - barOptions.StartColorAR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorAG  + (barOptions.EndColorAG - barOptions.StartColorAG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorAB  + (barOptions.EndColorAB - barOptions.StartColorAB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 2 then--AOE
-				r = barOptions.StartColorAER  + (barOptions.EndColorAER - barOptions.StartColorAER) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorAEG  + (barOptions.EndColorAEG - barOptions.StartColorAEG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorAEB  + (barOptions.EndColorAEB - barOptions.StartColorAEB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 3 then--Debuff
-				r = barOptions.StartColorDR  + (barOptions.EndColorDR - barOptions.StartColorDR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorDG  + (barOptions.EndColorDG - barOptions.StartColorDG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorDB  + (barOptions.EndColorDB - barOptions.StartColorDB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 4 then--Interrupt
-				r = barOptions.StartColorIR  + (barOptions.EndColorIR - barOptions.StartColorIR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorIG  + (barOptions.EndColorIG - barOptions.StartColorIG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorIB  + (barOptions.EndColorIB - barOptions.StartColorIB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 5 then--Role
-				r = barOptions.StartColorRR  + (barOptions.EndColorRR - barOptions.StartColorRR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorRG  + (barOptions.EndColorRG - barOptions.StartColorRG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorRB  + (barOptions.EndColorRB - barOptions.StartColorRB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 6 then--Phase
-				r = barOptions.StartColorPR  + (barOptions.EndColorPR - barOptions.StartColorPR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorPG  + (barOptions.EndColorPG - barOptions.StartColorPG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorPB  + (barOptions.EndColorPB - barOptions.StartColorPB) * (1 - timerValue/totaltimeValue)
-			elseif colorCount == 7 then--Important
-				if barOptions.Bar7ForceLarge then
-					enlargeHack = true
-				end
-				r = barOptions.StartColorUIR  + (barOptions.EndColorUIR - barOptions.StartColorUIR) * (1 - timerValue/totaltimeValue)
-				g = barOptions.StartColorUIG  + (barOptions.EndColorUIG - barOptions.StartColorUIG) * (1 - timerValue/totaltimeValue)
-				b = barOptions.StartColorUIB  + (barOptions.EndColorUIB - barOptions.StartColorUIB) * (1 - timerValue/totaltimeValue)
+			local colorVar = colorVariables[colorCount]
+			if barOptions.NoBarFade then
+				r = isEnlarged and barOptions["EndColor"..colorVar.."R"] or barOptions["StartColor"..colorVar.."R"]
+				g = isEnlarged and barOptions["EndColor"..colorVar.."G"] or barOptions["StartColor"..colorVar.."G"]
+				b = isEnlarged and barOptions["EndColor"..colorVar.."B"] or barOptions["StartColor"..colorVar.."B"]
+			else
+				r = barOptions["StartColor"..colorVar.."R"] + (barOptions["EndColor"..colorVar.."R"] - barOptions["StartColor"..colorVar.."R"]) * (1 - timerValue/totaltimeValue)
+				g = barOptions["StartColor"..colorVar.."G"] + (barOptions["EndColor"..colorVar.."G"] - barOptions["StartColor"..colorVar.."G"]) * (1 - timerValue/totaltimeValue)
+				b = barOptions["StartColor"..colorVar.."B"] + (barOptions["EndColor"..colorVar.."B"] - barOptions["StartColor"..colorVar.."B"]) * (1 - timerValue/totaltimeValue)
 			end
 		else
-			r = barOptions.StartColorR  + (barOptions.EndColorR - barOptions.StartColorR) * (1 - timerValue/totaltimeValue)
-			g = barOptions.StartColorG  + (barOptions.EndColorG - barOptions.StartColorG) * (1 - timerValue/totaltimeValue)
-			b = barOptions.StartColorB  + (barOptions.EndColorB - barOptions.StartColorB) * (1 - timerValue/totaltimeValue)
+			if barOptions.NoBarFade then
+				r = isEnlarged and barOptions.EndColorR or barOptions.StartColorR
+				g = isEnlarged and barOptions.EndColorG or barOptions.StartColorG
+				b = isEnlarged and barOptions.EndColorB or barOptions.StartColorB
+			else
+				r = barOptions.StartColorR  + (barOptions.EndColorR - barOptions.StartColorR) * (1 - timerValue/totaltimeValue)
+				g = barOptions.StartColorG  + (barOptions.EndColorG - barOptions.StartColorG) * (1 - timerValue/totaltimeValue)
+				b = barOptions.StartColorB  + (barOptions.EndColorB - barOptions.StartColorB) * (1 - timerValue/totaltimeValue)
+			end
 		end
 		bar:SetStatusBarColor(r, g, b)
 		if sparkEnabled then
@@ -1068,13 +1061,15 @@ function barPrototype:Update(elapsed)
 	else
 		if fillUpBars then
 			if currentStyle == "NoAnim" and isEnlarged and not enlargeHack then
-				bar:SetValue(1 - timerValue/(totaltimeValue < 11 and totaltimeValue or 11))
+				--Simple/NoAnim Bar mimics BW in creating a new bar on large bar anchor instead of just moving the small bar
+				bar:SetValue(1 - timerValue/(totaltimeValue < enlargeTime and totaltimeValue or enlargeTime))
 			else
 				bar:SetValue(1 - timerValue/totaltimeValue)
 			end
 		else
 			if currentStyle == "NoAnim" and isEnlarged and not enlargeHack then
-				bar:SetValue(timerValue/(totaltimeValue < 11 and totaltimeValue or 11))
+				--Simple/NoAnim Bar mimics BW in creating a new bar on large bar anchor instead of just moving the small bar
+				bar:SetValue(timerValue/(totaltimeValue < enlargeTime and totaltimeValue or enlargeTime))
 			else
 				bar:SetValue(timerValue/totaltimeValue)
 			end
@@ -1089,7 +1084,7 @@ function barPrototype:Update(elapsed)
 	elseif isFadingIn then
 		self.fadingIn = nil
 	end
-	if timerValue <= 7.75 and not self.flashing and barOptions.Flash and currentStyle ~= "NoAnim" then
+	if timerValue <= 7.75 and not self.flashing and barOptions.FlashBar and not paused then
 		self.flashing = true
 		self.ftimer = 0
 	elseif self.flashing and timerValue > 7.75 then
@@ -1161,9 +1156,7 @@ function barPrototype:Update(elapsed)
 		obj.hugeBars:Append(self)
 		self:ApplyStyle()
 	end
-	local enlargeTime = currentStyle ~= "NoAnim" and barOptions.EnlargeBarTime or 11
-	local enlargePer = currentStyle ~= "NoAnim" and barOptions.EnlargeBarsPercent or 0
-	if (timerValue <= enlargeTime or (timerValue/totaltimeValue) <= enlargePer) and not self.small and not isEnlarged and isMoving ~= "enlarge" and obj:GetOption("HugeBarsEnabled") then
+	if not paused and (timerValue <= enlargeTime) and not self.small and not isEnlarged and isMoving ~= "enlarge" and obj:GetOption("HugeBarsEnabled") then
 		self:RemoveFromList()
 		self:Enlarge()
 	end
@@ -1185,27 +1178,35 @@ function DBT:SavePosition()
 end
 
 do
+	local oldInfoFrameLocked, oldRangeFrameLocked
+
 	local function moveEnd(self)
 		updateClickThrough(self, self:GetOption("ClickThrough"))
 		self.movable = false
+		DBM.Options.InfoFrameLocked = oldInfoFrameLocked
 		DBM.InfoFrame:Hide()
+		DBM.Options.RangeFrameLocked = oldRangeFrameLocked
 		DBM.RangeCheck:Hide(true)
 	end
 
 	function DBT:ShowMovableBar(small, large)
 		if small or small == nil then
 			local bar1 = self:CreateBar(20, "Move1", 136116, nil, true)
-			bar1:SetText(DBM_CORE_MOVABLE_BAR)
+			bar1:SetText(DBM_CORE_L.MOVABLE_BAR)
 		end
 		if large or large == nil then
 			local bar2 = self:CreateBar(20, "Move2", 136116, true)
-			bar2:SetText(DBM_CORE_MOVABLE_BAR)
+			bar2:SetText(DBM_CORE_L.MOVABLE_BAR)
 		end
 		updateClickThrough(self, false)
 		self.movable = true
 		DBM:Unschedule(moveEnd, self)
 		DBM:Schedule(20, moveEnd, self)
+		oldInfoFrameLocked = DBM.Options.InfoFrameLocked
+		DBM.Options.InfoFrameLocked = false
 		DBM.InfoFrame:Show(5, "test")
+		oldRangeFrameLocked = DBM.Options.RangeFrameLocked
+		DBM.Options.RangeFrameLocked = false
 		DBM.RangeCheck:Show(nil, nil, true)
 	end
 end
@@ -1256,7 +1257,7 @@ function barPrototype:ApplyStyle()
 	local name = _G[frame_name.."BarName"]
 	local timer = _G[frame_name.."BarTimer"]
 	local barOptions = self.owner.options
-	local sparkEnabled = barOptions.BarStyle ~= "NoAnim" and barOptions.Spark
+	local sparkEnabled = barOptions.Spark
 	local enlarged = self.enlarged
 	texture:SetTexture(barOptions.Texture)
 	if self.color then
@@ -1330,7 +1331,8 @@ function barPrototype:ApplyStyle()
 	end
 	texture:SetAlpha(1)
 	bar:SetAlpha(1)
-	local barFont, barFontSize, barFontFlag = barOptions.Font, barOptions.FontSize, barOptions.FontFlag
+	local barFont = barOptions.Font == "standardFont" and standardFont or barOptions.Font
+	local barFontSize, barFontFlag = barOptions.FontSize, barOptions.FontFlag
 	name:SetFont(barFont, barFontSize, barFontFlag)
 	name:SetPoint("LEFT", bar, "LEFT", 3, 0)
 	timer:SetFont(barFont, barFontSize, barFontFlag)
@@ -1443,8 +1445,8 @@ do
 			if #skinTextures ~= #skinTextureNames then
 				geterrorhandler()(id .. ": toc file defines " .. #skinTextures .. " textures but " .. #skinTextureNames .. " names for textures")
 			else
-				for i = 1, #skinTextures do
-					textures[skinTextureNames[i]:trim()] = skinTextures[i]:trim()
+				for j = 1, #skinTextures do
+					textures[skinTextureNames[j]:trim()] = skinTextures[j]:trim()
 				end
 			end
 			local skinFonts = { strsplit(",", GetAddOnMetadata(i, "X-DBM-Timer-Skin-Fonts") or "") }
@@ -1452,8 +1454,8 @@ do
 			if #skinFonts ~= #skinFontNames then
 				geterrorhandler()(id .. ": toc file defines " .. #skinFonts .. " fonts but " .. #skinFontNames .. " names for fonts")
 			else
-				for i = 1, #skinFonts do
-					fonts[skinFontNames[i]:trim()] = skinFonts[i]:trim()
+				for j = 1, #skinFonts do
+					fonts[skinFontNames[j]:trim()] = skinFonts[j]:trim()
 				end
 			end
 
@@ -1484,12 +1486,12 @@ function barPrototype:Announce()
 	end
 	local text = tostring(_G[self.frame:GetName().."BarName"]:GetText())
 	text = text:gsub("|T.-|t", "")
-	msg = msg or ("%s  %d:%02d"):format(text, math.floor(self.timer / 60), self.timer % 60)
+	msg = msg or ("%s %d:%02d"):format(text, math.floor(self.timer / 60), self.timer % 60)
 	local chatWindow = ChatEdit_GetActiveWindow()
 	if chatWindow then
 		chatWindow:Insert(msg)
 	else
-		SendChatMessage(msg, (IsInGroup(LE_PARTY_CATEGORY_INSTANCE) and "INSTANCE_CHAT") or (IsInRaid() and "RAID") or "PARTY")
+		SendChatMessage(msg, (IsInGroup(2) and "INSTANCE_CHAT") or (IsInRaid() and "RAID") or "PARTY")
 	end
 end
 
@@ -1515,7 +1517,7 @@ function barPrototype:SetPosition()
 end
 
 function barPrototype:MoveToNextPosition()
-	if self.moving == "enlarge" then return end
+	if self.moving == "enlarge" or not self.frame then return end
 	local newAnchor = (self.prev and self.prev.frame) or (self.enlarged and self.owner.secAnchor) or self.owner.mainAnchor
 	local oldX = self.frame:GetRight() - self.frame:GetWidth()/2
 	local oldY = self.frame:GetTop()
@@ -1605,7 +1607,7 @@ do
 		if self.obj then
 			self.obj.curTime = GetTime()
 			self.obj.delta = self.obj.curTime - self.obj.lastUpdate
-			if barIsAnimating and self.obj.delta >= 0.02 or self.obj.delta >= 0.04 then
+			if barIsAnimating and self.obj.delta >= 0.01 or self.obj.delta >= 0.04 then
 				self.obj.lastUpdate = self.obj.curTime
 				self.obj:Update(self.obj.delta)
 			end

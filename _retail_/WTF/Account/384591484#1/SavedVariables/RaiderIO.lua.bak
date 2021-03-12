@@ -1,6 +1,9 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "us-Samoanslayer-emerald-dream"
+RaiderIO_LastCharacter = "us-Samoanbatman-emerald-dream"
 RaiderIO_MissingCharacters = {
+	["us-Cenaduriel-emerald-dream"] = true,
+	["us-Forthebored-emerald-dream"] = true,
 }
+RaiderIO_CachedRuns = nil

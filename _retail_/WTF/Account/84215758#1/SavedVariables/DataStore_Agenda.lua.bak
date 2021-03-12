@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2020-11-24",
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Wealthkk"] = {
+				["lastUpdate"] = 1605916096,
+			},
+		},
+	},
+}

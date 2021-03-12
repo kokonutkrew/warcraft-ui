@@ -27,16 +27,53 @@ local handleInstanceChangeEvent = function()
         VGT.Log(VGT.LOG_LEVEL.INFO, "Started logging for %s, goodluck!", dungeonName)
         VGT.CORE_FRAME:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
       else
-        VGT.Log(
-          VGT.LOG_LEVEL.DEBUG,
-          "Entered %s(%s) but it is not a tracked dungeon.",
-          (dungeonName or "?"),
-          (instanceID or "?")
-        )
+        VGT.Log(VGT.LOG_LEVEL.DEBUG, "Entered %s(%s) but it is not a tracked dungeon.", (dungeonName or "?"), (instanceID or "?"))
       end
     end
   else
     VGT.CORE_FRAME:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
+  end
+end
+
+local handleTargetChangeEvent = function()
+  if (UnitClassification("target") == "worldboss") then
+    local unitType, _, _, _, _, unitID = strsplit("-", cUID)
+    local bossData = VGT.bosses[unitID]
+    if (unitType == "creature" and bossData and VGT.CheckGroupForGuildies()) then
+      if (not VGT_LOTTERY_DB) then
+        VGT_LOTTERY_DB = {}
+      end
+
+      if (guildName) then
+        if (VGT_LOTTERY_DB[guildName]) then
+          VGT_LOTTERY_DB[guildName] = {}
+        end
+
+        local player = UnitName("player")
+        if (not VGT_LOTTERY_DB[guildName][player]) then
+          VGT_LOTTERY_DB[guildName][player] = {}
+        end
+
+         if (not VGT_LOTTERY_DB[guildName][player].WORLDBOSS) then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS = {}
+        end
+
+        local bossName = bossData[1]
+        if (bossName == "Azuregos") then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Azuregos = GetServerTime()
+        elseif (bossName == "Lord Kazzak") then
+           VGT_LOTTERY_DB[guildName][player].WORLDBOSS.LordKazzak = GetServerTime()
+        elseif (bossName == "Ysondre") then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Ysondre = GetServerTime()
+        elseif (bossName == "Lethon") then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Lethon = GetServerTime()
+        elseif (bossName == "Ermeriss") then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Ermeriss = GetServerTime()
+        elseif (bossName == "Taerar") then
+          VGT_LOTTERY_DB[guildName][player].WORLDBOSS.Taerar = GetServerTime()
+        end
+      end
+    end
   end
 end
 
@@ -73,11 +110,15 @@ local function onEvent(_, event)
       if (not rostered and event == "GUILD_ROSTER_UPDATE") then
         if (IsInGuild()) then
           VGT.EP_Initialize()
+          VGT.Lottery_Initialize()
           rostered = true
         end
       end
       if (event == "COMBAT_LOG_EVENT_UNFILTERED") then
         VGT.HandleCombatLogEvent()
+      end
+      if (event == "PLAYER_TARGET_CHANGED") then
+        handleTargetChangeEvent()
       end
     end
   end

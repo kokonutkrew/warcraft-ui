@@ -1,0 +1,44 @@
+VER 3 0000000000000001 "!Accept" "237111"
+/script AcceptGroup();
+/script AcceptQuest();
+/script AcceptTrade();
+/script RetrieveCorpse();
+/script RepopMe();
+--Quest Oriented
+/run SelectGossipAvailableQuest(1)
+/run AcceptQuest()
+/run ConfirmAcceptQuest()
+/run CompleteQuest()
+/run GetQuestReward(1)
+END
+VER 3 0000000000000002 "!Follow" "237112"
+/target focus 
+/follow 
+/assist 
+/stopcasting 
+END
+VER 3 0000000000000003 "@Combat" "237110"
+/cast [target=focus, nodead, harm] Rejuvenation()
+/cast [target=focustarget, nodead, harm] Moonfire()
+/cast [target=focus, nodead, harm] Rejuvenation()
+END
+VER 3 0000000000000009 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000007 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END
+VER 3 0000000000000006 "DumpQuests" "INV_MISC_QUESTIONMARK"
+/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end
+END
+VER 3 0000000000000005 "Grant" "ABILITY_ROGUE_IMROVEDRECUPERATE"
+/script GrantLevel("Target");
+END
+VER 3 0000000000000008 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000004 "Wand" "INV_STAFF_18.BLP"
+/assist focus 
+/cast [harm] shoot; 
+END

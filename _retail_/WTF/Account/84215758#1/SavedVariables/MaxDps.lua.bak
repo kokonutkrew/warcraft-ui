@@ -1,0 +1,10 @@
+
+MaxDpsOptions = {
+	["profileKeys"] = {
+		["Wealthkk - Emerald Dream"] = "Wealthkk - Emerald Dream",
+	},
+	["global"] = {
+		["customRotations"] = {
+		},
+	},
+}

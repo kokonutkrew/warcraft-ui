@@ -9,33 +9,40 @@ DataStore_TalentsDB = {
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -75,12 +82,197 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DRUID",
 			},
+			["Default.Emerald Dream.Samoanhunter"] = {
+				["lastUpdate"] = 1607153703,
+				["Specializations"] = {
+					2, -- [1]
+				},
+				["Class"] = "HUNTER",
+			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472618,
 				["Specializations"] = {
 					0, -- [1]
 				},
 				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Emerald Dream.Samoanbatman"] = {
+				["lastUpdate"] = 1615550506,
+				["Specializations"] = {
+					14043, -- [1]
+					6826, -- [2]
+				},
+				["AzeriteEssences"] = {
+					["Breath of the Dying"] = {
+						["valid"] = false,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = false,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Nullification Dynamo"] = {
+						["valid"] = true,
+						["name"] = "Nullification Dynamo",
+						["ID"] = 13,
+						["icon"] = 3015741,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["icon"] = 3015743,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = false,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Sphere of Suppression"] = {
+						["valid"] = true,
+						["name"] = "Sphere of Suppression",
+						["ID"] = 3,
+						["icon"] = 2065602,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = false,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["icon"] = 2967102,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Purification Protocol"] = {
+						["valid"] = false,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["icon"] = 2967103,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["icon"] = 3015740,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["icon"] = 2967109,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["icon"] = 2967104,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["icon"] = 3193845,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = true,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["icon"] = 3193847,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = true,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["icon"] = 3193846,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Anima of Life and Death"] = {
+						["valid"] = true,
+						["name"] = "Anima of Life and Death",
+						["ID"] = 7,
+						["icon"] = 2967105,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Azeroth's Undying Gift"] = {
+						["valid"] = true,
+						["name"] = "Azeroth's Undying Gift",
+						["ID"] = 2,
+						["icon"] = 2967107,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Aegis of the Deep"] = {
+						["valid"] = true,
+						["name"] = "Aegis of the Deep",
+						["ID"] = 25,
+						["icon"] = 2967110,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "DEMONHUNTER",
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1566107046,
@@ -118,21 +310,142 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Tichondrius.Samoansaint"] = {
-				["lastUpdate"] = 1546209432,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "PRIEST",
-			},
 			["Default.Emerald Dream.Samoanlock"] = {
-				["lastUpdate"] = 1566359584,
+				["lastUpdate"] = 1606883420,
 				["Specializations"] = {
-					5461, -- [1]
+					1755, -- [1]
 					6631, -- [2]
 					0, -- [3]
 				},
+				["AzeriteEssences"] = {
+					["Purification Protocol"] = {
+						["valid"] = true,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["unlocked"] = false,
+						["icon"] = 2967103,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["unlocked"] = false,
+						["icon"] = 1830317,
+						["rank"] = 0,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["unlocked"] = false,
+						["icon"] = 3015740,
+						["rank"] = 0,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["unlocked"] = false,
+						["icon"] = 2967109,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = false,
+						["icon"] = 2967104,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = false,
+						["icon"] = 3193845,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["unlocked"] = false,
+						["icon"] = 3015743,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = true,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = false,
+						["icon"] = 2967113,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["unlocked"] = false,
+						["icon"] = 3015742,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["unlocked"] = false,
+						["icon"] = 2967111,
+						["rank"] = 0,
+					},
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["unlocked"] = false,
+						["icon"] = 3193844,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["unlocked"] = false,
+						["icon"] = 3193843,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = true,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["unlocked"] = false,
+						["icon"] = 2967102,
+						["rank"] = 0,
+					},
+				},
 				["Class"] = "WARLOCK",
+			},
+			["Default.Emerald Dream.Stronguard"] = {
+				["lastUpdate"] = 1608734460,
+				["Specializations"] = {
+					[3] = 9,
+				},
+				["Class"] = "PALADIN",
+			},
+			["Default.Tichondrius.Samoansavage"] = {
+				["lastUpdate"] = 1547637963,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "WARRIOR",
 			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167314,
@@ -186,19 +499,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
-			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1552319660,
-				["Specializations"] = {
-					[3] = 5850,
-				},
-				["Class"] = "PALADIN",
-			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1547416006,
 				["Specializations"] = {
 					[3] = 0,
 				},
 				["Class"] = "MAGE",
+			},
+			["Default.Emerald Dream.Samoansmash"] = {
+				["lastUpdate"] = 1545149763,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Emerald Dream.Samoaninja"] = {
 				["lastUpdate"] = 1545022453,
@@ -214,12 +527,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
+			["Default.Tichondrius.Samoantank"] = {
+				["lastUpdate"] = 1552319660,
 				["Specializations"] = {
-					[3] = 0,
+					[3] = 5850,
 				},
-				["Class"] = "DEATHKNIGHT",
+				["Class"] = "PALADIN",
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1566073363,
@@ -235,12 +548,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Tichondrius.Samoansavage"] = {
-				["lastUpdate"] = 1547637963,
+			["Default.Tichondrius.Samoansaint"] = {
+				["lastUpdate"] = 1546209432,
 				["Specializations"] = {
-					0, -- [1]
+					[3] = 0,
 				},
-				["Class"] = "WARRIOR",
+				["Class"] = "PRIEST",
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,
@@ -262,33 +575,40 @@ DataStore_TalentsRefDB = {
 		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Stronguard - Emerald Dream"] = "Stronguard - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Samoanhunter - Emerald Dream"] = "Samoanhunter - Emerald Dream",
 		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
 		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Dethwish - Emerald Dream"] = "Dethwish - Emerald Dream",
+		["Samoanwar - Emerald Dream"] = "Samoanwar - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
-		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
-		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Buhbles - Emerald Dream"] = "Buhbles - Emerald Dream",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
-		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
 		["Samoanrouge - Emerald Dream"] = "Samoanrouge - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
-		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Royders - Emerald Dream"] = "Royders - Emerald Dream",
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -409,61 +729,43 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28833,
 		},
-		["PALADIN"] = {
+		["ROGUE"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
-				[3] = {
-					["id"] = 70,
+				{
+					["id"] = 259,
 					["talents"] = {
-						22590, -- [1]
-						22557, -- [2]
-						22175, -- [3]
-						22319, -- [4]
-						22592, -- [5]
-						22593, -- [6]
-						22896, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22375, -- [10]
-						22182, -- [11]
-						22183, -- [12]
-						22595, -- [13]
-						22185, -- [14]
-						22186, -- [15]
-						23167, -- [16]
-						22483, -- [17]
-						23086, -- [18]
-						22591, -- [19]
-						22215, -- [20]
-						22634, -- [21]
+						22337, -- [1]
+						22338, -- [2]
+						22339, -- [3]
 					},
-				},
-				[2] = {
-					["id"] = 66,
+				}, -- [1]
+				{
+					["id"] = 260,
 					["talents"] = {
-						22428, -- [1]
-						22558, -- [2]
-						22430, -- [3]
-						22431, -- [4]
-						22604, -- [5]
-						22594, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22433, -- [10]
-						22434, -- [11]
-						22435, -- [12]
-						22705, -- [13]
-						21795, -- [14]
-						17601, -- [15]
-						22189, -- [16]
-						22438, -- [17]
-						23087, -- [18]
-						21201, -- [19]
-						21202, -- [20]
-						22645, -- [21]
+						22118, -- [1]
+						22119, -- [2]
+						22120, -- [3]
+						19236, -- [4]
+						19237, -- [5]
+						19238, -- [6]
+						19239, -- [7]
+						19240, -- [8]
+						19241, -- [9]
+						22121, -- [10]
+						22122, -- [11]
+						22123, -- [12]
+						23077, -- [13]
+						22114, -- [14]
+						22115, -- [15]
+						21990, -- [16]
+						23128, -- [17]
+						19250, -- [18]
+						22125, -- [19]
+						23075, -- [20]
+						23175, -- [21]
 					},
-				},
+				}, -- [2]
 			},
 			["Version"] = 31478,
 		},
@@ -487,13 +789,10 @@ DataStore_TalentsRefDB = {
 						22046, -- [12]
 						22047, -- [13]
 						19291, -- [14]
-						19288, -- [15]
+						23465, -- [15]
 						23139, -- [16]
 						23159, -- [17]
 						19295, -- [18]
-						19284, -- [19]
-						19281, -- [20]
-						19293, -- [21]
 					},
 				}, -- [1]
 				{
@@ -549,16 +848,65 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 31478,
+			["Version"] = 36753,
 		},
 		["DEMONHUNTER"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
 					["id"] = 577,
+					["talents"] = {
+						21854, -- [1]
+						22493, -- [2]
+						22416, -- [3]
+						21857, -- [4]
+						22765, -- [5]
+						22799, -- [6]
+						22909, -- [7]
+						22494, -- [8]
+						21862, -- [9]
+						21863, -- [10]
+						21864, -- [11]
+						21865, -- [12]
+						21866, -- [13]
+						21867, -- [14]
+						21868, -- [15]
+						21869, -- [16]
+						21870, -- [17]
+						22767, -- [18]
+						21900, -- [19]
+						21901, -- [20]
+						22547, -- [21]
+					},
 				}, -- [1]
+				{
+					["id"] = 581,
+					["talents"] = {
+						22502, -- [1]
+						22503, -- [2]
+						22504, -- [3]
+						22505, -- [4]
+						22766, -- [5]
+						22507, -- [6]
+						22324, -- [7]
+						22541, -- [8]
+						22540, -- [9]
+						22508, -- [10]
+						22509, -- [11]
+						22770, -- [12]
+						22546, -- [13]
+						22510, -- [14]
+						22511, -- [15]
+						22512, -- [16]
+						22513, -- [17]
+						22768, -- [18]
+						22543, -- [19]
+						23464, -- [20]
+						21902, -- [21]
+					},
+				}, -- [2]
 			},
-			["Version"] = 31478,
+			["Version"] = 37899,
 		},
 		["HUNTER"] = {
 			["Locale"] = "enUS",
@@ -569,16 +917,10 @@ DataStore_TalentsRefDB = {
 						22291, -- [1]
 						22280, -- [2]
 						22282, -- [3]
-						22500, -- [4]
-						22266, -- [5]
-						22290, -- [6]
-						19347, -- [7]
-						19348, -- [8]
-						23100, -- [9]
 					},
 				}, -- [1]
 			},
-			["Version"] = 30993,
+			["Version"] = 36753,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -686,45 +1028,51 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 28768,
 		},
-		["ROGUE"] = {
+		["PALADIN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
-				{
-					["id"] = 259,
+				[3] = {
+					["id"] = 70,
 					["talents"] = {
-						22337, -- [1]
-						22338, -- [2]
-						22339, -- [3]
+						22590, -- [1]
+						22557, -- [2]
+						23467, -- [3]
+						22319, -- [4]
+						22592, -- [5]
+						23466, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
 					},
-				}, -- [1]
-				{
-					["id"] = 260,
+				},
+				[2] = {
+					["id"] = 66,
 					["talents"] = {
-						22118, -- [1]
-						22119, -- [2]
-						22120, -- [3]
-						19236, -- [4]
-						19237, -- [5]
-						19238, -- [6]
-						19239, -- [7]
-						19240, -- [8]
-						19241, -- [9]
-						22121, -- [10]
-						22122, -- [11]
-						22123, -- [12]
-						23077, -- [13]
-						22114, -- [14]
-						22115, -- [15]
-						21990, -- [16]
-						23128, -- [17]
-						19250, -- [18]
-						22125, -- [19]
-						23075, -- [20]
-						23175, -- [21]
+						22428, -- [1]
+						22558, -- [2]
+						22430, -- [3]
+						22431, -- [4]
+						22604, -- [5]
+						22594, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22433, -- [10]
+						22434, -- [11]
+						22435, -- [12]
+						22705, -- [13]
+						21795, -- [14]
+						17601, -- [15]
+						22189, -- [16]
+						22438, -- [17]
+						23087, -- [18]
+						21201, -- [19]
+						21202, -- [20]
+						22645, -- [21]
 					},
-				}, -- [2]
+				},
 			},
-			["Version"] = 31478,
+			["Version"] = 36949,
 		},
 	},
 }

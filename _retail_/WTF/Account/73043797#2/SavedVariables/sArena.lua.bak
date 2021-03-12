@@ -2,13 +2,18 @@
 sArena3DB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoanrelic - Emerald Dream"] = "Default",
-		["Samoantank - Tichondrius"] = "Default",
-		["Cherriebomb - Emerald Dream"] = "Default",
 		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Tygrrlilly - Stormrage"] = "Default",
+		["Grapejelley - Emerald Dream"] = "Default",
+		["Bunni - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
 		["Samoanranger - Emerald Dream"] = "Default",
-		["Gfsdfgsd - Tichondrius"] = "Default",
 		["Samoansavage - Tichondrius"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Marshmello - Tichondrius"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Gfsdfgsd - Tichondrius"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {

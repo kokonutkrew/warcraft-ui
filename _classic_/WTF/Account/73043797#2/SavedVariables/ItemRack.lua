@@ -6,17 +6,18 @@ ItemRackSettings = {
 	["Notify"] = "ON",
 	["HideTradables"] = "OFF",
 	["AllowHidden"] = "ON",
+	["AllowEmpty"] = "ON",
 	["NotifyChatAlso"] = "OFF",
-	["DisableAltClick"] = "OFF",
+	["MinimapTooltip"] = "ON",
 	["MenuOnShift"] = "OFF",
 	["TrinketMenuMode"] = "OFF",
 	["EventsVersion"] = 17,
 	["HidePetBattle"] = "ON",
 	["CharacterSheetMenus"] = "ON",
-	["TooltipFollow"] = "OFF",
-	["MinimapTooltip"] = "ON",
+	["DisableAltClick"] = "OFF",
+	["IconPos"] = -37.8636462658052,
 	["MenuOnRight"] = "OFF",
-	["AllowEmpty"] = "ON",
+	["TooltipFollow"] = "OFF",
 	["NotifyThirty"] = "OFF",
 	["ShowHotKeys"] = "OFF",
 	["ShowTooltips"] = "ON",
@@ -41,8 +42,14 @@ ItemRackItems = {
 	["11122"] = {
 		["keep"] = 1,
 	},
+	["19950"] = {
+		["priority"] = 1,
+	},
 	["19812"] = {
 		["keep"] = 1,
+	},
+	["22268"] = {
+		["priority"] = 1,
 	},
 }
 ItemRackEvents = {

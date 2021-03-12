@@ -1,0 +1,9 @@
+
+FieldGuideOptions = {
+	["showTalents"] = true,
+	["showKnownSpells"] = true,
+	["minimapTable"] = {
+		["minimapPos"] = 85.7606608695946,
+	},
+	["showEnemySpells"] = false,
+}

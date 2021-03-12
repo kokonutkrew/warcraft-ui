@@ -1,10 +1,22 @@
 
 dbOHC = {
 	["char"] = {
+		["Samoantank - Tichondrius"] = {
+			["firstun"] = false,
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["firstun"] = false,
+		},
+		["Samoaninja - Emerald Dream"] = {
+			["firstun"] = false,
+		},
+		["Samoanslayer - Emerald Dream"] = {
+			["firstun"] = false,
+		},
 		["Samoansavage - Stormrage"] = {
 			["firstun"] = false,
 		},
-		["Samoantank - Tichondrius"] = {
+		["Samoansavage - Emerald Dream"] = {
 			["firstun"] = false,
 		},
 		["Samoanrelic - Tichondrius"] = {
@@ -23,8 +35,12 @@ dbOHC = {
 		["firstrun"] = false,
 	},
 	["profileKeys"] = {
-		["Samoansavage - Stormrage"] = "Default",
 		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoaninja - Emerald Dream"] = "Default",
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoanrelic - Tichondrius"] = "Default",
 		["Samoantitan - Stormrage"] = "Default",
 	},

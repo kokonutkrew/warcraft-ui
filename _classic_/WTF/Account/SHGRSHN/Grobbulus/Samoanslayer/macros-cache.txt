@@ -18,7 +18,7 @@ VER 3 0000000001000003 "03.Dots" "INV_MISC_QUESTIONMARK"
 /use 13
 END
 VER 3 0000000001000010 "04.AoeDamageNew" "INV_MISC_QUESTIONMARK"
-#show whirlwind
+#showtooltip
 /startattack
 /castsequence [form:3] reset=combat/target/30 whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind, whirlwind
 /use berserker stance
@@ -31,7 +31,7 @@ VER 3 000000000100000D "04.AoeRotation" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000004 "05.BattleBuffs" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/castsequence reset=30 blood fury, battle shout, demoralizing shout, battle stance, thunder clap, demoralizing shout, battle stance, thunder clap, demoralizing shout, battle stance, thunder clap
+/castsequence reset=120 battle shout,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage,berserker rage
 END
 VER 3 0000000001000005 "07.HotsSetTarget" "INV_MISC_QUESTIONMARK"
 #show sweeping strikes
@@ -64,7 +64,7 @@ END
 VER 3 0000000001000009 "xCharge" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /castsequence [form:3,combat] berserker stance, intercept
-/castsequence [form:1] reset=combat/target/30 charge, thunder clap
+/castsequence [form:1] reset=combat/target/30 charge, battle shout, thunder clap, demoralizing shout
 /use battle stance
 END
 VER 3 0000000001000011 "xInterupt" "INV_MISC_QUESTIONMARK"
@@ -72,11 +72,6 @@ VER 3 0000000001000011 "xInterupt" "INV_MISC_QUESTIONMARK"
 /castsequence [form:1] reset=target shield bash
 /castsequence [form:2] shield bash
 /castsequence [form:3] pummel
-END
-VER 3 0000000001000006 "xMockingBlow" "INV_MISC_QUESTIONMARK"
-#show mocking blow
-/use [form:1] mocking blow
-/use battle stance
 END
 VER 3 000000000100000A "xOverpower" "INV_MISC_QUESTIONMARK"
 #show Overpower
@@ -87,6 +82,8 @@ VER 3 000000000100000B "xRevenge" "INV_MISC_QUESTIONMARK"
 #show Revenge
 /use [form:2] revenge
 /use defensive stance
+/equipslot 17 drillborer disk
+/equipslot 16 doom's edge
 END
 VER 3 0000000001000013 "xSlow" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -33,6 +33,9 @@ Known Bugs:
 		
 CHANGELOG:
 
+20201117 - 2.25
+    Fix issue of PLH not prompting when items can be traded.  Thank you to RubioTwitch for identifying the fix!!
+	
 20181214 - 2.19
     8.1 version update
 	
@@ -668,6 +671,7 @@ end
 --[[ FUNCTIONS TO CHECK IF ITEM IS EQUIPPABLE ]]--
 
 local function IsTrinketUsable(item, role)
+	--[[
 	local itemLink = select(2, GetItemInfo(item))
 	local itemID = string.match(itemLink, 'item:(%d+):')
 
@@ -678,6 +682,8 @@ local function IsTrinketUsable(item, role)
 	else
 		return false
 	end
+	]]--
+	return true		-- trinkets are technically usable by any role; if a healer wants to use a dps trinket, a dps wants to use a tank trinket, or whatever, that's fine
 end
 
 -- Returns false if the character cannot use the item.
@@ -2013,7 +2019,7 @@ end
 --   4. item does not have azerite armor slots
 local function ShouldBeEvaluated(fullItemInfo)
 	return fullItemInfo[FII_IS_EQUIPPABLE]
-		and (fullItemInfo[FII_QUALITY] == LE_ITEM_QUALITY_RARE or fullItemInfo[FII_QUALITY] == LE_ITEM_QUALITY_EPIC)
+		and (fullItemInfo[FII_QUALITY] == Enum.ItemQuality.Rare or fullItemInfo[FII_QUALITY] == Enum.ItemQuality.Epic)
 		and (fullItemInfo[FII_BIND_TYPE] == LE_ITEM_BIND_ON_ACQUIRE or (fullItemInfo[FII_BIND_TYPE] == LE_ITEM_BIND_ON_EQUIP and not PLH_PREFS[PLH_PREFS_NEVER_OFFER_BOE]))
 --		and (not fullItemInfo[FII_IS_AZERITE_ITEM])
 end		

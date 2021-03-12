@@ -86,6 +86,11 @@ Bobbers[147308] = { -- Ilyssia of the Waters, 120266
 	spell = 240800,
 	toy = 1,
 };
+Bobbers[180993] = { -- Forgotten Angler's Rod
+	["enUS"] = "Bat Visage",
+	spell = 335484,
+	toy = 1,
+};
 
 local NUM_BOBBERS = FL:tablecount(Bobbers);
 
@@ -237,7 +242,7 @@ BobberEvents["VARIABLES_LOADED"] = function(started)
 	tinsert(simple, { ["name"] = BigBobbers[136377][CurLoc], ["setting"] = BigBobbers[136377].setting, ["value"] = true, ["bool"] = true });
 	local complex = BobberMenuOptions()
 	local scrollmenu = FSF:CreateScrollMenu(MENUNAME, APPLY, simple, complex)
-	local _, name = FL:GetFishingSkillInfo();
+	local _, name = FL:GetFishingSpellInfo();
 	FishingBuddy.OptionsFrame.HandleOptions(name, "Interface\\Icons\\INV_Fishingpole_02", BobberOptions);
 	local oversize = {}
 	oversize[BigBobbers[136377].setting] = { ["default"] = false }

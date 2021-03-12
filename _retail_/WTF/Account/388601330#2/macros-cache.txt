@@ -1,0 +1,14 @@
+VER 3 0000000000000003 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Re-Sizer v9.0.1
+END
+VER 3 0000000000000005 "F2.Follow" "INV_MISC_QUESTIONMARK"
+/follow party1
+/assist party1
+END
+VER 3 0000000000000002 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000004 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END

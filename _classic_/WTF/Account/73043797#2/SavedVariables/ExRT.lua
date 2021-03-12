@@ -22,13 +22,127 @@ VExRT = {
 		["OptionsFormatting"] = true,
 	},
 	["ProfileKeys"] = {
+		["Jnx-Grobbulus"] = "default",
+		["Abenia-Grobbulus"] = "default",
+		["Tigerlilly-Grobbulus"] = "default",
+		["Dd-Grobbulus"] = "default",
 		["Marshmellow-Grobbulus"] = "default",
 	},
 	["Encounter"] = {
 		["names"] = {
+			[663] = "Lucifron",
+			[664] = "Magmadar",
+			[665] = "Gehennas",
+			[666] = "Garr",
+			[1084] = "Onyxia",
+			[667] = "Shazzrah",
+			[668] = "Baron Geddon",
+			[790] = "Gahz'ranka",
+			[793] = "Hakkar",
+			[792] = "Jin'do the Hexxer",
+			[670] = "Golemagg the Incinerator",
+			[789] = "High Priest Thekal",
+			[671] = "Majordomo Executus",
+			[718] = "Kurinnaxx",
+			[672] = "Ragnaros",
+			[719] = "General Rajaxx",
+			[785] = "High Priestess Jeklik",
+			[720] = "Moam",
+			[787] = "Bloodlord Mandokir",
+			[721] = "Buru the Gorger",
+			[722] = "Ayamiss the Hunter",
+			[784] = "High Priest Venoxis",
+			[788] = "Edge of Madness",
+			[723] = "Ossirian the Unscarred",
+			[791] = "High Priestess Arlokk",
+			[786] = "High Priestess Mar'li",
+			[669] = "Sulfuron Harbinger",
 		},
 		["list"] = {
 			["Marshmellow"] = {
+				"^663^9^1601080721^70^1^40^52.65^", -- [1]
+				"^664^9^1601081084^89^1^40^54.08^", -- [2]
+				"^665^9^1601081950^57^1^40^55.34^", -- [3]
+				"^666^9^1601082585^64^1^40^55.12^", -- [4]
+				"^668^9^1601083390^84^1^40^56.14^Deprex", -- [5]
+				"^667^9^1601083751^52^1^40^56.71^Seiyaorb", -- [6]
+				"^669^9^1601084796^112^1^40^57.44^Farticus", -- [7]
+				"^670^9^1601085187^86^1^40^57.61^Cheezepuff", -- [8]
+				"^671^9^1601085763^130^1^40^57.83^Gucciyames", -- [9]
+				"^672^9^1601086429^154^1^40^57.63^Dondalee", -- [10]
+				"^1084^9^1601441866^252^1^40^50.78^Osuvox", -- [11]
+				"^1084^9^1602194525^260^1^40^39.03^Wrenzily", -- [12]
+				"^663^9^1602361710^59^1^40^44.96^", -- [13]
+				"^664^9^1602362039^73^1^40^50.42^", -- [14]
+				"^665^9^1602362694^55^1^40^47.11^", -- [15]
+				"^666^9^1602363103^88^1^40^48.93^Carnage", -- [16]
+				"^668^9^1602363771^79^1^40^53.20^Namelis", -- [17]
+				"^667^9^1602364211^60^1^40^53.79^Namelis", -- [18]
+				"^669^9^1602365014^115^1^40^56.52^Bundor", -- [19]
+				"^670^9^1602365397^86^1^40^55.08^", -- [20]
+				"^671^9^1602365712^169^0^40^55.13^Addorix", -- [21]
+				"^671^9^1602366258^117^1^40^56.10^Shamatt", -- [22]
+				"^672^9^1602366859^122^1^40^56.40^Vex", -- [23]
+				"^663^9^1604174720^53^1^40^28.20^", -- [24]
+				"^664^9^1604174972^76^1^40^36.11^", -- [25]
+				"^665^9^1604175514^56^1^40^41.02^", -- [26]
+				"^666^9^1604175982^73^1^40^49.79^Pigly", -- [27]
+				"^668^9^1604176510^76^1^40^50.36^", -- [28]
+				"^667^9^1604176887^59^1^40^50.61^Marshmellow", -- [29]
+				"^669^9^1604177555^85^1^40^52.70^", -- [30]
+				"^670^9^1604177874^93^1^40^53.86^", -- [31]
+				"^671^9^1604178192^121^1^40^51.65^Simayí", -- [32]
+				"^672^9^1604178732^166^1^40^51.65^Rahkahn", -- [33]
+				"^1084^9^1604255945^435^1^40^32.20^Piastol", -- [34]
+				"^718^148^1604295072^49^1^20^47.94^", -- [35]
+				"^719^148^1604295212^375^1^20^47.80^", -- [36]
+				"^720^148^1604295856^39^1^20^52.66^", -- [37]
+				"^723^148^1604296270^108^1^20^54.52^", -- [38]
+				"^722^148^1604296682^95^1^20^57.16^", -- [39]
+				"^721^148^1604297147^141^1^20^58.09^", -- [40]
+				"^1084^9^1604879962^76^0^40^48.81^Optimized", -- [41]
+				"^1084^9^1604880491^0^0^40^49.79^Oswali", -- [42]
+				"^1084^9^1604881316^330^1^40^51.13^Chainsiayer", -- [43]
+				"^663^9^1604983985^66^1^40^50.93^Sleepterror", -- [44]
+				"^664^9^1604984380^79^1^40^48.93^", -- [45]
+				"^665^9^1604985190^71^1^40^54.04^Feigr", -- [46]
+				"^668^9^1604987014^87^1^40^51.63^Ursulan", -- [47]
+				"^666^9^1604987672^123^1^40^54.96^Romle", -- [48]
+				"^667^9^1604988403^52^1^40^57.21^Ursulan", -- [49]
+				"^669^9^1604989429^87^1^40^58.93^", -- [50]
+				"^670^9^1604989855^104^1^40^58.41^Virtú", -- [51]
+				"^671^9^1604990337^170^1^40^60.20^Hugobosz", -- [52]
+				"^672^9^1604991451^171^1^40^60.08^Jiri", -- [53]
+				"^1084^9^1605221205^190^1^40^37.70^Suria", -- [54]
+				"^785^148^1605287414^68^1^20^55.05^", -- [55]
+				"^784^148^1605287682^50^1^20^55.28^", -- [56]
+				"^786^148^1605287995^72^1^20^56.68^", -- [57]
+				"^787^148^1605288663^106^1^20^63.02^", -- [58]
+				"^788^148^1605289175^54^1^20^63.17^", -- [59]
+				"^789^148^1605289403^134^1^20^63.22^", -- [60]
+				"^791^148^1605289874^113^1^20^63.20^", -- [61]
+				"^792^148^1605290380^81^1^20^62.98^", -- [62]
+				"^793^148^1605290927^119^0^20^62.79^Erlzzul", -- [63]
+				"^793^148^1605291190^252^1^20^62.79^Otano", -- [64]
+				"^785^148^1605667074^72^1^20^60.51^", -- [65]
+				"^784^148^1605667358^58^1^20^61.50^", -- [66]
+				"^786^148^1605667717^68^1^20^60.52^", -- [67]
+				"^787^148^1605668271^109^1^20^61.51^Viduus", -- [68]
+				"^789^148^1605668705^145^1^20^59.35^", -- [69]
+				"^791^148^1605669281^109^1^20^61.14^", -- [70]
+				"^790^148^1605669829^68^1^20^61.22^Drecksar", -- [71]
+				"^792^148^1605670344^66^1^20^61.00^", -- [72]
+				"^793^148^1605670967^162^1^20^60.98^Elzwar", -- [73]
+				"^792^148^1605856040^149^0^20^49.88^Betterthnu", -- [74]
+				"^792^148^1605856482^73^1^20^52.70^", -- [75]
+			},
+			["Dd"] = {
+			},
+			["Abenia"] = {
+			},
+			["Jnx"] = {
+			},
+			["Tigerlilly"] = {
 			},
 		},
 	},
@@ -37,15 +151,489 @@ VExRT = {
 		},
 	},
 	["ExCD2"] = {
-		["default_userDuration"] = {
-		},
 		["gnGUIDs"] = {
+			["Consumed"] = 0,
+			["Caeser"] = 0,
+			["Bananamon"] = 0,
+			["Angharrad"] = 0,
+			["Vexshara"] = 0,
+			["Prayers"] = 0,
+			["Aluhya"] = 0,
+			["Kuotamun"] = 0,
+			["Shawdolyn"] = 0,
+			["Merlick"] = 0,
+			["Changg"] = 0,
+			["Azash"] = 0,
+			["Gloomey"] = 0,
+			["Armos"] = 0,
+			["Kelush"] = 0,
+			["Vultoro"] = 0,
+			["Amígo"] = 0,
+			["Grandmomma"] = 0,
+			["Taladon"] = 0,
+			["Nerthos"] = 0,
+			["Bankguin"] = 0,
+			["Ephea"] = 0,
+			["Drolyag"] = 0,
+			["Kabbal"] = 0,
+			["Ichabodd"] = 0,
+			["Kurthos"] = 0,
+			["Bryl"] = 0,
+			["Porkbelly"] = 0,
+			["Carnage"] = 0,
+			["Bundor"] = 0,
+			["Imawolf"] = 0,
+			["Totemtug"] = 0,
+			["Heavyhoof"] = 0,
+			["Erathaman"] = 0,
+			["Apocvault"] = 0,
+			["Betterthnu"] = 0,
+			["Feigr"] = 0,
+			["Rawls"] = 0,
+			["Dinkùs"] = 0,
+			["Defthandz"] = 0,
+			["Vex"] = 0,
+			["Suria"] = 0,
+			["Daggles"] = 0,
+			["Ósiris"] = 0,
+			["Stackbab"] = 0,
+			["Worstfears"] = 0,
+			["Venthar"] = 0,
+			["Neildiamond"] = 0,
+			["Izhya"] = 0,
+			["Lustforce"] = 0,
+			["Lurtzolas"] = 0,
+			["Hydrogorithm"] = 0,
+			["Carapace"] = 0,
+			["Mazuzam"] = 0,
+			["Yumzug"] = 0,
+			["Hiatea"] = 0,
+			["Cashes"] = 0,
+			["Lêgba"] = 0,
+			["Theboomer"] = 0,
+			["Nazuk"] = 0,
+			["Charmeleon"] = 0,
+			["Whilson"] = 0,
+			["Sansanthalar"] = 0,
+			["Flyingten"] = 0,
+			["Sleepterror"] = 0,
+			["Qthi"] = 0,
+			["Optimized"] = 0,
+			["Stuñ"] = 0,
+			["Gulizzaka"] = 0,
+			["Nimpo"] = 0,
+			["Resetclicks"] = 0,
+			["Losó"] = 0,
+			["Drhypd"] = 0,
+			["Darkmom"] = 0,
+			["Luscia"] = 0,
+			["Ski"] = 0,
+			["Nohand"] = 0,
+			["Dbx"] = 0,
+			["Ihatemydad"] = 0,
+			["Vetó"] = 0,
+			["Dewbie"] = 0,
+			["Porngis"] = 0,
+			["Marvincito"] = 0,
+			["Qqmoreqt"] = 0,
+			["Sorib"] = 0,
+			["Scooties"] = 0,
+			["Segray"] = 0,
+			["Necropyrus"] = 0,
+			["Emeyin"] = 0,
+			["Molz"] = 0,
+			["Kringlebury"] = 0,
+			["Darunor"] = 0,
+			["Cindol"] = 0,
+			["Alef"] = 0,
+			["Naryth"] = 0,
+			["Yikesforever"] = 0,
+			["Axeforyou"] = 0,
+			["Moodraxxus"] = 0,
+			["Methaf"] = 0,
+			["Simayi"] = 0,
+			["Peebslam"] = 0,
+			["Arant"] = 0,
+			["Zephyr"] = 0,
+			["Dromar"] = 0,
+			["Gumix"] = 0,
+			["Sauromoon"] = 0,
+			["Raikiri"] = 0,
+			["Seabreeze"] = 0,
+			["Ariy"] = 0,
+			["Corbas"] = 0,
+			["Gunuku"] = 0,
+			["Innersky"] = 0,
+			["Lluviaoscura"] = 0,
+			["Drecksar"] = 0,
+			["Shinó"] = 0,
+			["Cynothoglys"] = 0,
+			["Adelah"] = 0,
+			["Kathele"] = 0,
+			["Kijo"] = 0,
+			["Ursulan"] = 0,
+			["Abortme"] = 0,
+			["Snaccy"] = 0,
+			["Figgs"] = 0,
+			["Treetronk"] = 0,
+			["Samoanslayer"] = 0,
+			["Sinstabby"] = 0,
+			["Westerner"] = 0,
+			["Frostaoe"] = 0,
+			["Samoanmystic"] = 0,
+			["Cremaster"] = 0,
+			["Rari"] = 0,
+			["Burner"] = 0,
+			["Kaykes"] = 0,
+			["Chainsiayer"] = 0,
+			["Xferz"] = 0,
+			["Magictrick"] = 0,
+			["Fembott"] = 0,
+			["Ainsworth"] = 0,
+			["Ahtnamas"] = 0,
+			["Impw"] = 0,
+			["Graverobert"] = 0,
+			["Spleens"] = 0,
+			["Kallavan"] = 0,
+			["Llse"] = 0,
+			["Willondra"] = 0,
+			["Tephea"] = 0,
+			["Bernies"] = 0,
+			["Shaughman"] = 0,
+			["Six"] = 0,
+			["Stormclout"] = 0,
+			["Bana"] = 0,
+			["Garkaya"] = 0,
+			["Silithyst"] = 0,
+			["Virtú"] = 0,
+			["Seblakbones"] = 0,
+			["Poog"] = 0,
+			["Zeenjanda"] = 0,
+			["Tigerlilly"] = 0,
+			["Ant"] = 0,
+			["Waffleduck"] = 0,
+			["Rahkahn"] = 0,
+			["Virtuouswom"] = 0,
+			["Klyy"] = 0,
+			["Emaciadead"] = 0,
+			["Mourningwoôd"] = 0,
+			["Hogpeuf"] = 0,
+			["Exilo"] = 0,
+			["Yomps"] = 0,
+			["Holydee"] = 0,
+			["Vexflex"] = 0,
+			["Hobley"] = 0,
+			["Sr"] = 0,
+			["Lootgòblin"] = 0,
+			["Bernacleboy"] = 0,
+			["Gna"] = 0,
+			["Samoanranger"] = 0,
+			["Joleena"] = 0,
+			["Foelan"] = 0,
+			["Walstreetbnk"] = 0,
+			["Rugga"] = 0,
+			["Tkbanktwo"] = 0,
+			["Glaister"] = 0,
+			["Hoggs"] = 0,
+			["Kushhy"] = 0,
+			["Jeanshorts"] = 0,
+			["Yfel"] = 0,
+			["Blitzwing"] = 0,
+			["Holyhoochie"] = 0,
+			["Punkfiona"] = 0,
+			["Showmedaway"] = 0,
+			["Veyzah"] = 0,
+			["Mierko"] = 0,
+			["Zelhunt"] = 0,
+			["Koraun"] = 0,
+			["Orgos"] = 0,
+			["Silhouetted"] = 0,
+			["Rucifel"] = 0,
+			["Bakuragh"] = 0,
+			["Dethklok"] = 0,
+			["Extraherb"] = 0,
+			["Simayí"] = 0,
+			["Totician"] = 0,
+			["Samoanlegend"] = 0,
+			["Locopotion"] = 0,
+			["Kittarria"] = 0,
+			["Xivana"] = 0,
 			["Marshmellow"] = 0,
+			["Hollowman"] = 0,
+			["Mat"] = 0,
+			["Otano"] = 0,
+			["Sisfer"] = 0,
+			["Maozelong"] = 0,
+			["Blackstabeth"] = 0,
+			["Minnax"] = 0,
+			["Minnaxe"] = 0,
+			["Goeh"] = 0,
+			["Crustydave"] = 0,
+			["Borgz"] = 0,
+			["Shriggsed"] = 0,
+			["Udenra"] = 0,
+			["Shmack"] = 0,
+			["Aesthodox"] = 0,
+			["Valmenel"] = 0,
+			["Sprem"] = 0,
+			["Rudo"] = 0,
+			["Gardasummon"] = 0,
+			["Tarmakil"] = 0,
+			["Dewcer"] = 0,
+			["Brewtilde"] = 0,
+			["Sagittaron"] = 0,
+			["Crossjon"] = 0,
+			["Grumperz"] = 0,
+			["Unkluk"] = 0,
+			["Shaqtus"] = 0,
+			["Exnihlio"] = 0,
+			["Jork"] = 0,
+			["Gunji"] = 0,
+			["Pewzor"] = 0,
+			["Crashes"] = 0,
+			["Ithiqua"] = 0,
+			["Thulko"] = 0,
+			["Beefstik"] = 0,
+			["Furásoke"] = 0,
+			["Dark"] = 0,
+			["Elidonn"] = 0,
+			["Debeer"] = 0,
+			["Tawanna"] = 0,
+			["Fantanill"] = 0,
+			["Dentalnips"] = 0,
+			["Crucified"] = 0,
+			["Vaypor"] = 0,
+			["Samoanrelic"] = 0,
+			["Hugobosz"] = 0,
+			["Cowabunnga"] = 0,
+			["Icechill"] = 0,
+			["Psilocybine"] = 0,
+			["Scarlet"] = 0,
+			["Cithri"] = 0,
+			["Romle"] = 0,
+			["Vipersting"] = 0,
+			["Cattniss"] = 0,
+			["Sorakaq"] = 0,
+			["Ratazzak"] = 0,
+			["Afflickme"] = 0,
+			["Grimmhide"] = 0,
+			["Bungalo"] = 0,
+			["Magii"] = 0,
+			["Ss"] = 0,
+			["Telasobo"] = 0,
+			["Moch"] = 0,
+			["Boople"] = 0,
+			["Smuggz"] = 0,
+			["Ximabanana"] = 0,
+			["Soupysoup"] = 0,
+			["Sadrelia"] = 0,
+			["Rotus"] = 0,
+			["Kidduh"] = 0,
+			["Dew"] = 0,
+			["Gloryx"] = 0,
+			["Slapper"] = 0,
+			["Methylase"] = 0,
+			["Aery"] = 0,
+			["Moeherbs"] = 0,
+			["Kantank"] = 0,
+			["Uwugodxx"] = 0,
+			["Vanuni"] = 0,
+			["Sama"] = 0,
+			["Shieldmaiden"] = 0,
+			["Malkov"] = 0,
+			["Samoansavage"] = 0,
+			["Zenjarra"] = 0,
+			["Noname"] = 0,
+			["Chear"] = 0,
+			["Ashanty"] = 0,
+			["Juggling"] = 0,
+			["Pigly"] = 0,
+			["Yammhit"] = 0,
+			["Bankofsol"] = 0,
+			["Maclin"] = 0,
+			["Evelanie"] = 0,
+			["Hestrix"] = 0,
+			["Badrat"] = 0,
+			["Greygooser"] = 0,
+			["Spaceballs"] = 0,
+			["Axesent"] = 0,
+			["Cozmos"] = 0,
+			["Crazybull"] = 0,
+			["Bencheeto"] = 0,
+			["Tidwell"] = 0,
+			["Lmc"] = 0,
+			["Elssha"] = 0,
+			["Hellafunky"] = 0,
+			["Dadde"] = 0,
+			["Cekertirex"] = 0,
+			["Callmewhy"] = 0,
+			["Hearthos"] = 0,
+			["Naiv"] = 0,
+			["Nicorette"] = 0,
+			["Samoanbeast"] = 0,
+			["Mediumráre"] = 0,
+			["Swanjohnson"] = 0,
+			["Kayxo"] = 0,
+			["Gulizz"] = 0,
+			["Striky"] = 0,
+			["Khanboom"] = 0,
+			["Viduus"] = 0,
+			["Zokk"] = 0,
+			["Ponslur"] = 0,
+			["Earta"] = 0,
+			["Hanginghaze"] = 0,
+			["Dibocal"] = 0,
+			["Freezerpop"] = 0,
+			["Mandos"] = 0,
+			["Odiodiodiodi"] = 0,
+			["Dertlok"] = 0,
+			["Shamatt"] = 0,
+			["Sukutammarah"] = 0,
+			["Pustulio"] = 0,
+			["Dimplesama"] = 0,
+			["Ramshot"] = 0,
+			["Unchain"] = 0,
+			["Shamakhan"] = 0,
+			["Kyeokon"] = 0,
+			["Wowcow"] = 0,
+			["Seiyaorb"] = 0,
+			["Sacrosancte"] = 0,
+			["Feep"] = 0,
+			["Thoda"] = 0,
+			["Cathoria"] = 0,
+			["Xerxesxv"] = 0,
+			["Shockbroker"] = 0,
+			["Wrenzily"] = 0,
+			["Lovegravy"] = 0,
+			["Rpbank"] = 0,
+			["Mfg"] = 0,
+			["Vexxan"] = 0,
+			["Datfakadavid"] = 0,
+			["Iava"] = 0,
+			["Vulcer"] = 0,
+			["Dd"] = 0,
+			["Knaruk"] = 0,
+			["Pancakesmon"] = 0,
+			["Commission"] = 0,
+			["Golberg"] = 0,
+			["Hemet"] = 0,
+			["Pakaash"] = 0,
+			["Smogg"] = 0,
+			["Hypdleviosuh"] = 0,
+			["Kokoza"] = 0,
+			["Valdemar"] = 0,
+			["Xtronkshot"] = 0,
+			["Peepeemoopoo"] = 0,
+			["Samoansage"] = 0,
+			["Piastol"] = 0,
+			["Deserted"] = 0,
+			["Cobybeef"] = 0,
+			["Jheef"] = 0,
+			["Shadestalker"] = 0,
+			["Quåke"] = 0,
+			["Howcow"] = 0,
+			["Armahs"] = 0,
+			["Kk"] = 0,
+			["Versackina"] = 0,
+			["Yüki"] = 0,
+			["Rommius"] = 0,
+			["Pasqueal"] = 0,
+			["Nakaia"] = 0,
+			["Howlgorithm"] = 0,
+			["Neogothic"] = 0,
+			["Juggeernaut"] = 0,
+			["Anreith"] = 0,
+			["Wechuge"] = 0,
+			["Pseudo"] = 0,
+			["Mogra"] = 0,
+			["Jiri"] = 0,
+			["Cclocker"] = 0,
+			["Tankypost"] = 0,
+			["Grakkums"] = 0,
+			["Dumperz"] = 0,
+			["Kathan"] = 0,
+			["Indignant"] = 0,
+			["Criticalkush"] = 0,
+			["Snafu"] = 0,
+			["Abinazee"] = 0,
+			["Elzwar"] = 0,
+			["Inegma"] = 0,
+			["Zuginator"] = 0,
+			["Tengu"] = 0,
+			["Kiwifox"] = 0,
+			["Tommywhtclaw"] = 0,
+			["Jnx"] = 0,
+			["Naví"] = 0,
+			["Rageoholic"] = 0,
+			["Gnomesquish"] = 0,
+			["Derine"] = 0,
+			["Fuark"] = 0,
+			["Dalannar"] = 0,
+			["Froggzilla"] = 0,
+			["Robe"] = 0,
+			["Tunafingers"] = 0,
+			["Vexclickdmn"] = 0,
+			["Arakain"] = 0,
+			["Cryptonics"] = 0,
+			["Klinterella"] = 0,
+			["Ynrohlila"] = 0,
+			["Franciscus"] = 0,
+			["Kazh"] = 0,
+			["Bulshift"] = 0,
+			["Armageden"] = 0,
+			["Cashês"] = 0,
+			["Milkerfeller"] = 0,
+			["Shanithe"] = 0,
+			["Desre"] = 0,
+			["Shonuf"] = 0,
+			["Drmo"] = 0,
+			["Nattyice"] = 0,
+			["Addorix"] = 0,
+			["Blargg"] = 0,
+			["Quibank"] = 0,
+			["Kurthburn"] = 0,
+			["Donfelipe"] = 0,
+			["Cutelilgirl"] = 0,
+			["Cowlack"] = 0,
+			["Darnell"] = 0,
+			["Thines"] = 0,
+			["Accidentally"] = 0,
+			["Gaunz"] = 0,
+			["Biscuitlady"] = 0,
+			["Kayla"] = 0,
+			["Zeakgu"] = 0,
+			["Maikephone"] = 0,
+			["Slagros"] = 0,
+			["Cloudstrider"] = 0,
+			["Karvur"] = 0,
+			["Oswali"] = 0,
+			["Bratasena"] = 0,
+			["Nandi"] = 0,
+			["Abenia"] = 0,
+			["Hotsoda"] = 0,
+			["Bagofmeat"] = 0,
+			["Nitrana"] = 0,
+			["Chuck"] = 0,
+			["Hallebuj"] = 0,
+			["Sentai"] = 0,
+			["Namelis"] = 0,
+			["Drakso"] = 0,
+			["Ezellohar"] = 0,
+			["Zombiee"] = 0,
+			["Ginjojo"] = 0,
+			["Ize"] = 0,
+			["Evilangels"] = 0,
+			["Goskina"] = 0,
+			["Kaskey"] = 0,
+			["Erlzzul"] = 0,
+			["Vixvi"] = 0,
+			["Feetsies"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
 		},
-		["default_userCD"] = {
+		["upd4380"] = true,
+		["userDB"] = {
 		},
 		["Save"] = {
 		},
@@ -212,14 +800,333 @@ VExRT = {
 		},
 		["CDE"] = {
 		},
-		["userDB"] = {
+		["OptFav"] = {
 		},
 	},
 	["Attendance"] = {
 		["enabled"] = 2,
 		["data"] = {
+			{
+				"ACarnage", -- [1]
+				"AJuggeernaut", -- [2]
+				"ABundor", -- [3]
+				"CBagofmeat", -- [4]
+				"GShamakhan", -- [5]
+				"DBlackstabeth", -- [6]
+				"GKhanboom", -- [7]
+				"CKushhy", -- [8]
+				"AScooties", -- [9]
+				"KDarunor", -- [10]
+				"GIava", -- [11]
+				"DVindictis", -- [12]
+				"DShinó", -- [13]
+				"CNoname", -- [14]
+				"DGlaister", -- [15]
+				"GKuotamun", -- [16]
+				"CLêgba", -- [17]
+				"DChear", -- [18]
+				"DScarlet", -- [19]
+				"ARomle", -- [20]
+				"IPigly", -- [21]
+				"IRahkahn", -- [22]
+				"ISadrelia", -- [23]
+				"HCekertirex", -- [24]
+				"HAery", -- [25]
+				"HMarshmellow", -- [26]
+				"HSimayi", -- [27]
+				"HSìmayi", -- [28]
+				"HSimayí", -- [29]
+				"HFrostaoe", -- [30]
+				"EKayla", -- [31]
+				"KSauromoon", -- [32]
+				"ESilhouetted", -- [33]
+				"CSlapper", -- [34]
+				"GWesterner", -- [35]
+				"EBryl", -- [36]
+				"KWowcow", -- [37]
+				"KHowcow", -- [38]
+				"ENohand", -- [39]
+				"EFurásoke", -- [40]
+				["c"] = "Marshmellow-Grobbulus",
+				["k"] = true,
+				["d"] = 9,
+				["eN"] = "Lucifron",
+				["t"] = 1604174773,
+				["g"] = 40,
+				["eI"] = 663,
+			}, -- [1]
+			{
+				"GBencheeto", -- [1]
+				"APiastol", -- [2]
+				"AYonk", -- [3]
+				"DNeogothic", -- [4]
+				"CGolberg", -- [5]
+				"HInnersky", -- [6]
+				"ISeblakbones", -- [7]
+				"HHydrogorithm", -- [8]
+				"HKiwifox", -- [9]
+				"ISmogg", -- [10]
+				"EDeathlife", -- [11]
+				"GCaeser", -- [12]
+				"KCowlack", -- [13]
+				"EPonslur", -- [14]
+				"ERawls", -- [15]
+				"ATheremedy", -- [16]
+				"AYumzug", -- [17]
+				"CClothkiller", -- [18]
+				"KTaladon", -- [19]
+				"DSuria", -- [20]
+				"CMoodraxxus", -- [21]
+				"HMarshmellow", -- [22]
+				"EQuibank", -- [23]
+				"EHolyhoochie", -- [24]
+				"IRummgrogmead", -- [25]
+				"CPorngis", -- [26]
+				["eN"] = "Onyxia",
+				["k"] = true,
+				["t"] = 1604256380,
+				["eI"] = 1084,
+				["d"] = 9,
+				["g"] = 40,
+				["c"] = "Marshmellow-Grobbulus",
+			}, -- [2]
+			{
+				"GImawolf", -- [1]
+				"KAmígo", -- [2]
+				"AQuåke", -- [3]
+				"AArmos", -- [4]
+				"AImpw", -- [5]
+				"AAbortme", -- [6]
+				"GZeakgu", -- [7]
+				"AGloryx", -- [8]
+				"APeebslam", -- [9]
+				"AVetó", -- [10]
+				"GSeabreeze", -- [11]
+				"KKittarria", -- [12]
+				"KTreetronk", -- [13]
+				"EFlyingten", -- [14]
+				"IJoleena", -- [15]
+				"HLmc", -- [16]
+				"CFuark", -- [17]
+				"HKijo", -- [18]
+				"HMarshmellow", -- [19]
+				"HKallavan", -- [20]
+				["k"] = true,
+				["c"] = "Marshmellow-Grobbulus",
+				["d"] = 148,
+				["eI"] = 718,
+				["t"] = 1604295121,
+				["g"] = 20,
+				["eN"] = "Kurinnaxx",
+			}, -- [3]
+			{
+				"AVetó", -- [1]
+				"CPorkbelly", -- [2]
+				"GKuotamun", -- [3]
+				"AXistior", -- [4]
+				"DRaikiri", -- [5]
+				"AOswali", -- [6]
+				"AYumzug", -- [7]
+				"HLosó", -- [8]
+				"CZephyr", -- [9]
+				"GAshanty", -- [10]
+				"HMarshmellow", -- [11]
+				"GShawdolyn", -- [12]
+				"HWillondra", -- [13]
+				"HChainsiayer", -- [14]
+				"ISorib", -- [15]
+				"KCloudstrider", -- [16]
+				"ISegray", -- [17]
+				"GZokk", -- [18]
+				"GOptimized", -- [19]
+				"GGoskina", -- [20]
+				"HFreezerpop", -- [21]
+				"ISmogg", -- [22]
+				"AEmeyin", -- [23]
+				"GPunkfiona", -- [24]
+				"EBrewtilde", -- [25]
+				"GBorgz", -- [26]
+				["eN"] = "Onyxia",
+				["c"] = "Marshmellow-Grobbulus",
+				["t"] = 1604881646,
+				["eI"] = 1084,
+				["d"] = 9,
+				["g"] = 40,
+				["k"] = true,
+			}, -- [4]
+			{
+				"AVirtú", -- [1]
+				"CGulizz", -- [2]
+				"ARomle", -- [3]
+				"ITeevult", -- [4]
+				"GSmuggz", -- [5]
+				"GOptimized", -- [6]
+				"AOdiodiodiodi", -- [7]
+				"ABungalo", -- [8]
+				"DKathele", -- [9]
+				"DCallmewhy", -- [10]
+				"AFeigr", -- [11]
+				"DSleepterror", -- [12]
+				"AHugobosz", -- [13]
+				"DSinstabby", -- [14]
+				"GMethylase", -- [15]
+				"HGrandmomma", -- [16]
+				"ISlagros", -- [17]
+				"HFrostaoe", -- [18]
+				"HJuggling", -- [19]
+				"KCarapace", -- [20]
+				"HMarshmellow", -- [21]
+				"CMaclin", -- [22]
+				"HKurora", -- [23]
+				"CNoname", -- [24]
+				"HRatazzak", -- [25]
+				"HCremaster", -- [26]
+				"IAfflickme", -- [27]
+				"CMogra", -- [28]
+				"CDewcer", -- [29]
+				nil, -- [30]
+				"EBeefstik", -- [31]
+				"EJiri", -- [32]
+				"EUrsulan", -- [33]
+				"KCobybeef", -- [34]
+				["k"] = true,
+				["c"] = "Marshmellow-Grobbulus",
+				["d"] = 9,
+				["eI"] = 663,
+				["t"] = 1604984051,
+				["g"] = 40,
+				["eN"] = "Lucifron",
+			}, -- [5]
+			{
+				"AFatedxd", -- [1]
+				"AXerxesxv", -- [2]
+				"GNazuk", -- [3]
+				"KXimabanana", -- [4]
+				"DSuria", -- [5]
+				"DBurner", -- [6]
+				"DSindeady", -- [7]
+				"GShamzamit", -- [8]
+				"DBiffco", -- [9]
+				"AAxeident", -- [10]
+				"DDrakso", -- [11]
+				"CMoch", -- [12]
+				"KPsilocybine", -- [13]
+				"CFuark", -- [14]
+				"DBernies", -- [15]
+				"HMerlick", -- [16]
+				"KRatshot", -- [17]
+				"KCathoria", -- [18]
+				"KImacat", -- [19]
+				"IKaskey", -- [20]
+				"IHowlgorithm", -- [21]
+				"IAfflickme", -- [22]
+				"KCarapace", -- [23]
+				"HFeetsies", -- [24]
+				"HMarshmellow", -- [25]
+				"EKlinterella", -- [26]
+				"CXtronkshot", -- [27]
+				"ISorib", -- [28]
+				["eN"] = "Onyxia",
+				["k"] = true,
+				["t"] = 1605221395,
+				["eI"] = 1084,
+				["d"] = 9,
+				["g"] = 40,
+				["c"] = "Marshmellow-Grobbulus",
+			}, -- [6]
+			{
+				"AQqmoreqt", -- [1]
+				"GExnihlio", -- [2]
+				"AMaozelong", -- [3]
+				"CPorngis", -- [4]
+				"KHellafunky", -- [5]
+				"ADromar", -- [6]
+				"GExilo", -- [7]
+				"KBulshift", -- [8]
+				"AOtano", -- [9]
+				"AHotsoda", -- [10]
+				"EHolyhoochie", -- [11]
+				"ILluviaoscura", -- [12]
+				"KBernacleboy", -- [13]
+				"GHollowman", -- [14]
+				"HMarshmellow", -- [15]
+				"HBratasena", -- [16]
+				"HBakuragh", -- [17]
+				"HGumix", -- [18]
+				"HErlzzul", -- [19]
+				"HMagii", -- [20]
+				["eI"] = 785,
+				["k"] = true,
+				["t"] = 1605287482,
+				["eN"] = "High Priestess Jeklik",
+				["d"] = 148,
+				["g"] = 20,
+				["c"] = "Marshmellow-Grobbulus",
+			}, -- [7]
+			{
+				"ACarnage", -- [1]
+				"DShanithe", -- [2]
+				"KCashes", -- [3]
+				"KSilithyst", -- [4]
+				"GStuñ", -- [5]
+				"GShaughman", -- [6]
+				"AElzwar", -- [7]
+				"ATankypost", -- [8]
+				"AViduus", -- [9]
+				"CSansanthalar", -- [10]
+				"HMolz", -- [11]
+				"IZombiee", -- [12]
+				"IRari", -- [13]
+				"GDrecksar", -- [14]
+				nil, -- [15]
+				"GVultoro", -- [16]
+				"HMarshmellow", -- [17]
+				"KDaggles", -- [18]
+				"IPigly", -- [19]
+				"EGna", -- [20]
+				["c"] = "Marshmellow-Grobbulus",
+				["k"] = true,
+				["d"] = 148,
+				["eI"] = 785,
+				["t"] = 1605667146,
+				["g"] = 20,
+				["eN"] = "High Priestess Jeklik",
+			}, -- [8]
+			{
+				"GBetterthnu", -- [1]
+				"AGoeh", -- [2]
+				"AKantank", -- [3]
+				"AZuginator", -- [4]
+				"CGulizzaka", -- [5]
+				"GMierko", -- [6]
+				"CMoodraxxus", -- [7]
+				"DZmick", -- [8]
+				"DUnchain", -- [9]
+				"ARageoholic", -- [10]
+				"HMarshmellow", -- [11]
+				"HHestrix", -- [12]
+				"IDethklok", -- [13]
+				"KLazyoak", -- [14]
+				"EBellgarath", -- [15]
+				"ETriixiie", -- [16]
+				"IRari", -- [17]
+				"KNaiv", -- [18]
+				"HNecropyrus", -- [19]
+				"HNimpo", -- [20]
+				["eI"] = 792,
+				["k"] = true,
+				["t"] = 1605856555,
+				["eN"] = "Jin'do the Hexxer",
+				["d"] = 148,
+				["g"] = 20,
+				["c"] = "Marshmellow-Grobbulus",
+			}, -- [9]
 		},
 		["alts"] = {
+		},
+	},
+	["Inspect"] = {
+		["Soulbinds"] = {
 		},
 	},
 	["InspectViewer"] = {
@@ -230,10 +1137,28 @@ VExRT = {
 		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
+		},
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
+	},
 	["Addon"] = {
+		["Version"] = 4390,
+		["PreVersion"] = 4390,
+		["IconMiniMapTop"] = -77.3351965131963,
+		["IconMiniMapLeft"] = -20.4760196392099,
 		["Timer"] = 0.1,
-		["Version"] = 4160,
-		["PreVersion"] = 0,
+		["Scale"] = 1,
 	},
 	["Timers"] = {
 		["specTimes"] = {
@@ -282,7 +1207,8 @@ VExRT = {
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
+		["fightsNum"] = 15,
+		["enabled"] = true,
 		["optionsPositionsDist"] = true,
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
@@ -291,20 +1217,9 @@ VExRT = {
 	["Profile"] = "default",
 	["LootLink"] = {
 	},
-	["InviteTool"] = {
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 2,
-		["Ranks"] = {
-			true, -- [1]
+	["RaidGroups"] = {
+		["profiles"] = {
 		},
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
 	},
 	["WhoPulled"] = {
 	},
@@ -330,9 +1245,12 @@ VExRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
+		["FlaskExp"] = 1,
 		["BuffsCheck"] = true,
 		["ReadyCheckFrame"] = true,
 		["ReadyCheckFrameTimerFade"] = 4,
-		["FlaskExp"] = 1,
+		["RCW_Mini"] = true,
+		["ReadyCheckLeft"] = 879.358032226562,
+		["ReadyCheckTop"] = 577.895141601563,
 	},
 }

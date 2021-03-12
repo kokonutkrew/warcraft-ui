@@ -1,100 +1,96 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0246,
+	["LastVersion"] = 2.0401,
+	["LastPlayerFullName"] = "Cherriebomb-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 160634,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160634::::::::120:70::5:3:4823:1492:4786:::|h[Gridrunner Galea]|h|r",
+			["ID"] = 122248,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::11:259:::::::|h[Stained Shadowcraft Cap]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 158075,
-			["Level"] = 377,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:70::11:4:4936:4929:4930:1524:::|h[Heart of Azeroth]|h|r",
+			["ID"] = 122668,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::11:259:::::::|h[Eternal Will of the Martyr]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 159439,
-			["Level"] = 385,
-			["Link"] = "|cffa335ee|Hitem:159439::::::::120:70::35:3:5063:1557:4786:::|h[C'thraxxi Binders Pauldrons]|h|r",
+			["ID"] = 122358,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::11:259:::::::|h[Stained Shadowcraft Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 160636,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160636::::::::120:70::5:3:4823:1492:4786:::|h[Chestguard of Virulent Mutagens]|h|r",
+			["ID"] = 122383,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::11:259:::::::|h[Stained Shadowcraft Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 160638,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160638::::::::120:70::5:3:4799:1492:4786:::|h[Decontaminator's Greatbelt]|h|r",
+			["ID"] = 6911,
+			["Level"] = 15,
+			["Link"] = "|cff0070dd|Hitem:6911::::::::11:259::1:1:3998:1:9:11:::|h[Moss Cinch]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 160639,
-			["Level"] = 380,
-			["Link"] = "|cffa335ee|Hitem:160639::::::::120:70::5:3:4799:1502:4783:::|h[Greaves of Unending Vigil]|h|r",
+			["ID"] = 122254,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122254::::::::11:259:::::::|h[Stained Shadowcraft Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 160640,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160640::::::::120:70::5:4:4799:42:1492:4786:::|h[Warboots of Absolute Eradication]|h|r",
+			["ID"] = 151438,
+			["Level"] = 15,
+			["Link"] = "|cff0070dd|Hitem:151438::::::::11:259::1:1:3998:1:9:11:::|h[Hungering Deepwater Treads]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 160637,
-			["Level"] = 385,
-			["Link"] = "|cffa335ee|Hitem:160637::::::::120:70::6:3:4800:1507:4786:::|h[Crimson Colossus Armguards]|h|r",
+			["ID"] = 51962,
+			["Level"] = 14,
+			["Link"] = "|cff0070dd|Hitem:51962::::::::11:259::17:2:1691:4244:1:9:10:::|h[Vigorous Bracers of the Fireflash]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 160635,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160635::::::::120:70::5:3:4799:1492:4786:::|h[Waste Disposal Crushers]|h|r",
+			["ID"] = 888,
+			["Level"] = 15,
+			["Link"] = "|cff0070dd|Hitem:888::::::::11:259::1:1:3998:1:9:11:::|h[Naga Battle Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 160646,
-			["Level"] = 370,
+			["ID"] = 122529,
+			["Level"] = 14,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:160646::::::::120:70::5:3:4799:1492:4786:::|h[Band of Certain Annihilation]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122529::::::::11:259:::1:3592::::|h[Dread Pirate Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 160647,
-			["Level"] = 370,
+			["ID"] = 1156,
+			["Level"] = 14,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:160647:5943:::::::120:70::5:3:4799:1492:4786:::|h[Ring of the Infinite Void]|h|r",
+			["Link"] = "|cff0070dd|Hitem:1156::::::::11:259::1:1:4005:1:9:10:::|h[Lavishly Jeweled Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 160654,
-			["Level"] = 385,
+			["ID"] = 122362,
+			["Level"] = 14,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:160654::::::::120:70::5:3:4799:1507:4784:::|h[Vanquished Tendril of G'huun]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::11:259:::::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 160655,
-			["Level"] = 380,
+			["ID"] = 122361,
+			["Level"] = 14,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:160655::::::::120:70::5:3:4799:1502:4783:::|h[Syringe of Bloodborne Infirmity]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::11:259:::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 160643,
-			["Level"] = 375,
-			["Link"] = "|cffa335ee|Hitem:160643::::::::120:70::5:3:4799:1497:4783:::|h[Fetid Horror's Tanglecloak]|h|r",
+			["ID"] = 122261,
+			["Level"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::11:259:::1:582::::|h[Inherited Cape of the Black Baron]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 160679,
-			["Level"] = 370,
-			["Link"] = "|cffa335ee|Hitem:160679:5963:::::::120:70::5:3:4799:1492:4786:::|h[Khor, Hammer of the Corrupted]|h|r",
-		}, -- [16]
-		{
 			["ID"] = 122364,
-			["Level"] = 28,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122364::::::::24:259::::::|h[Sharpened Scarlet Kris]|h|r",
-		}, -- [17]
+			["Level"] = 14,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122364::::::::11:259:::::::|h[Sharpened Scarlet Kris]|h|r",
+		}, -- [16]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Cherriebomb-Emerald Dream",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",
 	["LastAdded"] = 1,
 }
+PawnClassicScaleProviderOptions = nil

@@ -1,3 +1,90 @@
+9.0.2v1.30 - 2020/11/19
+
+* [#250](https://gitlab.com/toreltwiddler/CanIMogIt/issues/250) Updated TOC, removed nolib due to Curseforge bug.
+
+*****
+
+9.0.1v1.29 - 2020/11/08
+
+* [#248](https://gitlab.com/toreltwiddler/CanIMogIt/issues/248) Fix another nil error from TSM.
+
+*****
+
+9.0.1v1.28 - 2020/10/24
+
+* [#248](https://gitlab.com/toreltwiddler/CanIMogIt/issues/248) Fix error when TSM consumes Auctionator.
+* [#249](https://gitlab.com/toreltwiddler/CanIMogIt/issues/249) Fixed C stack overflow with Auctionator.
+* [CF #245](https://www.curseforge.com/wow/addons/can-i-mog-it/issues/245) Strip embeds.xml for nolib.
+
+*****
+
+9.0.1v1.27 - 2020/10/14
+
+* [#247](https://gitlab.com/toreltwiddler/CanIMogIt/issues/247) Fix LiteBag error.
+
+*****
+
+9.0.1v1.26 - 2020/10/13
+
+9.0 update, bugfixes, cargBags Nivaya support, and Auctionator shopping list support!
+
+![cargBags Nivaya support!](https://i.imgur.com/ou3ZdAt.png "cargBags Nivaya support!")
+
+![Auctionator Shopping List support!](https://i.imgur.com/aJHUqzq.png "Auctionator Shopping List support!")
+
+* [#46](https://gitlab.com/toreltwiddler/CanIMogIt/issues/46) cargBags Nivaya support thanks to wcogan!
+* [#135](https://gitlab.com/toreltwiddler/CanIMogIt/issues/135) Fixed bug when attempting to clean old DB items. No more phantom negative database prints!
+* [#162](https://gitlab.com/toreltwiddler/CanIMogIt/issues/162) Updated transmog level restrictions logic for 9.0.
+* [#197](https://gitlab.com/toreltwiddler/CanIMogIt/issues/197) Fixed non-item quest rewards showing icon.
+* [#226](https://gitlab.com/toreltwiddler/CanIMogIt/issues/226),  [#227](https://gitlab.com/toreltwiddler/CanIMogIt/issues/227), [#237](https://gitlab.com/toreltwiddler/CanIMogIt/issues/237), [#238](https://gitlab.com/toreltwiddler/CanIMogIt/issues/238) Tested tooltips and overlays to ensure they are working as expected on 9.0 including supported addons except for AdiBags.
+* [#228](https://gitlab.com/toreltwiddler/CanIMogIt/issues/228) Reworked Quest overlay for 9.0 changes.
+* [#232](https://gitlab.com/toreltwiddler/CanIMogIt/issues/232) Updated TOC for 9.0.1 and add checkmark texture after name.
+* [#233](https://gitlab.com/toreltwiddler/CanIMogIt/issues/233) Fixed overlay not displaying on new Quest Rewards frames.
+* [#234](https://gitlab.com/toreltwiddler/CanIMogIt/issues/234) Fixed pairs error going through portal.
+* [#236](https://gitlab.com/toreltwiddler/CanIMogIt/issues/236) Fixed `MAX_CONTAINER_ITEMS` being removed by Blizzard.
+* [#240](https://gitlab.com/toreltwiddler/CanIMogIt/issues/240) Added support for Auctionator's Shopping List.
+* [#241](https://gitlab.com/toreltwiddler/CanIMogIt/issues/241) Limited length of red text on tooltip.
+* [#246](https://gitlab.com/toreltwiddler/CanIMogIt/issues/246) Added support for Bagnon Guild Bank and Void Storage.
+* [CF #240](https://www.curseforge.com/wow/addons/can-i-mog-it/issues/240) & [Commit 39935715](https://gitlab.com/toreltwiddler/CanIMogIt/-/commit/3993571563d954213f4f958db8b6bfeb1052099d) Change localization L to non-global.
+* [PR #5](https://github.com/TorelTwiddler/CanIMogIt/pull/5) Merge pull request from Resike with small fix for database.
+
+*****
+
+8.3.0v1.25 Release - 2020/02/12
+
+* [#221](https://gitlab.com/toreltwiddler/CanIMogIt/issues/221) Fix another error due to TSM eating AH window.
+
+*****
+
+8.3.0v1.24 Release - 2020/02/10
+
+* [#221](https://gitlab.com/toreltwiddler/CanIMogIt/issues/221) Fix error due to TSM eating auction house window.
+
+*****
+
+8.3.0v1.23 Release - 2020/02/09
+
+Auction House overlay is back!
+
+![Auction House overlay is back!](https://i.imgur.com/Yz6L7Uy.png "Auction House overlay is back!")
+
+* [#211](https://gitlab.com/toreltwiddler/CanIMogIt/issues/211) New Auction House is supported.
+* [#220](https://gitlab.com/toreltwiddler/CanIMogIt/issues/220) If you see a ? icon in the AH, press Search again and it will go away, there is a Blizzard bug on first searches sometimes.
+
+*****
+
+8.3.0v1.22 Release - 2020/01/14
+
+* [#211](https://gitlab.com/toreltwiddler/CanIMogIt/issues/211) Removed old Auction House code, new Auction House code coming soon.
+
+*****
+
+8.2.5v1.21 Release - 2019/12/23
+
+* [#215](https://gitlab.com/toreltwiddler/CanIMogIt/issues/215) Fixed Bagnon Plugin errors after Bagnon update.
+
+*****
+
 8.2.5v1.20 Release - 2019/11/12
 
 * [#214](https://gitlab.com/toreltwiddler/CanIMogIt/issues/214) Fixed options showing up outside of settings window.

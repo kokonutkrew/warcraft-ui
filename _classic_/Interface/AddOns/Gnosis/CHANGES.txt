@@ -1,0 +1,7 @@
+changeset:   239:c68a9387fc54
+tag:         v4.79-classic
+user:        elchefe12345
+date:        Sun Oct 25 01:23:49 2020 +0200
+summary:     pulling in latest revisions of LibClassicDurations and LibClassicCasterino instead of latest tag;
+
+

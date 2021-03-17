@@ -15,6 +15,7 @@ GatherMate_SharingDB = {
 		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
@@ -67,6 +68,8 @@ GatherMate_SharingDB = {
 		["Samoanrelic - Emerald Dream"] = {
 		},
 		["Haedshot - Emerald Dream"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
 		},
 		["Dustcraft - Emerald Dream"] = {
 		},

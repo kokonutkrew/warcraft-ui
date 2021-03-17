@@ -15,67 +15,67 @@ DataStore_KeystonesDB = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
 			["NextWeeklyReset"] = "2020-12-08",
-			["NextResetTimestamp"] = 1615301999,
+			["NextResetTimestamp"] = 1616511599,
 		},
 		["Characters"] = {
 			["Default.Emerald Dream.Stronguard"] = {
 				["lastUpdate"] = 1608733915,
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
-				["lastUpdate"] = 1615043892,
+				["lastUpdate"] = 1615964963,
 				["WeeklyActivities"] = {
-					[25] = {
+					[35] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[37] = {
 						["level"] = -1,
 						["exampleRewards"] = {
 							"", -- [1]
 							"", -- [2]
 						},
 					},
-					[26] = {
+					[39] = {
 						["level"] = -1,
 						["exampleRewards"] = {
 							"", -- [1]
 							"", -- [2]
 						},
 					},
-					[27] = {
+					[41] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[34] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[36] = {
+						["exampleRewards"] = {
+							"", -- [1]
+							"", -- [2]
+						},
+					},
+					[38] = {
 						["level"] = -1,
 						["exampleRewards"] = {
 							"", -- [1]
 							"", -- [2]
 						},
 					},
-					[29] = {
+					[40] = {
 						["exampleRewards"] = {
 							"", -- [1]
 							"", -- [2]
 						},
 					},
-					[30] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[31] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[21] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[22] = {
-						["exampleRewards"] = {
-							"", -- [1]
-							"", -- [2]
-						},
-					},
-					[23] = {
+					[42] = {
 						["exampleRewards"] = {
 							"", -- [1]
 							"", -- [2]

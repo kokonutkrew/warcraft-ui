@@ -12,11 +12,12 @@ BigDebuffsDB = {
 		["Samoansage - Emerald Dream"] = "Default",
 		["Samoanranger - Emerald Dream"] = "Default",
 		["Orecraft - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
 		["Forgecraft - Emerald Dream"] = "Default",
-		["Mf - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
 		["Dustcraft - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
-		["Samoansurge - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

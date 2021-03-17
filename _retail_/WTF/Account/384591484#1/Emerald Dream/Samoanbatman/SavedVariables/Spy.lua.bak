@@ -1,9 +1,5 @@
 
 SpyPerCharDB = {
-	["KOSData"] = {
-	},
-	["IgnoreData"] = {
-	},
 	["PlayerData"] = {
 		["Duchella"] = {
 			["mapID"] = 619,
@@ -19,20 +15,20 @@ SpyPerCharDB = {
 			["race"] = "Blood Elf",
 			["name"] = "Duchella",
 		},
-		["Forthebored"] = {
-			["mapID"] = 1701,
-			["guild"] = "Dark Order",
-			["zone"] = "Ardenweald",
-			["mapY"] = 0.36,
-			["class"] = "WARLOCK",
+		["Fredsmonk"] = {
+			["mapID"] = 1670,
+			["guild"] = "Dishonored",
+			["zone"] = "Oribos",
+			["mapY"] = 0.37,
+			["class"] = "MONK",
 			["isEnemy"] = true,
-			["race"] = "Blood Elf",
+			["race"] = "Vulpera",
 			["isGuess"] = false,
-			["subZone"] = "Heart of the Forest",
-			["mapX"] = 0.34,
+			["subZone"] = "Hall of Shapes",
+			["mapX"] = 0.39,
 			["level"] = 60,
-			["time"] = 1615044685,
-			["name"] = "Forthebored",
+			["time"] = 1614854159,
+			["name"] = "Fredsmonk",
 		},
 		["Scottgg"] = {
 			["mapID"] = 1670,
@@ -64,21 +60,6 @@ SpyPerCharDB = {
 			["time"] = 1614853494,
 			["name"] = "Lianthlil",
 		},
-		["Fredsmonk"] = {
-			["mapID"] = 1670,
-			["guild"] = "Dishonored",
-			["zone"] = "Oribos",
-			["mapY"] = 0.37,
-			["class"] = "MONK",
-			["isEnemy"] = true,
-			["race"] = "Vulpera",
-			["isGuess"] = false,
-			["subZone"] = "Hall of Shapes",
-			["mapX"] = 0.39,
-			["level"] = 60,
-			["time"] = 1614854159,
-			["name"] = "Fredsmonk",
-		},
 		["Komi"] = {
 			["mapID"] = 831,
 			["zone"] = "Krokuun",
@@ -92,6 +73,25 @@ SpyPerCharDB = {
 			["race"] = "Vulpera",
 			["name"] = "Komi",
 		},
+		["Forthebored"] = {
+			["mapID"] = 1701,
+			["guild"] = "Dark Order",
+			["zone"] = "Ardenweald",
+			["mapY"] = 0.36,
+			["class"] = "WARLOCK",
+			["isEnemy"] = true,
+			["race"] = "Blood Elf",
+			["isGuess"] = false,
+			["subZone"] = "Heart of the Forest",
+			["mapX"] = 0.34,
+			["level"] = 60,
+			["time"] = 1615044685,
+			["name"] = "Forthebored",
+		},
+	},
+	["IgnoreData"] = {
 	},
 	["version"] = "1.1",
+	["KOSData"] = {
+	},
 }

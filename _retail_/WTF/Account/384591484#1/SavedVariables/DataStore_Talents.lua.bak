@@ -97,7 +97,7 @@ DataStore_TalentsDB = {
 				["Class"] = "HUNTER",
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
-				["lastUpdate"] = 1615044049,
+				["lastUpdate"] = 1615964963,
 				["Specializations"] = {
 					14043, -- [1]
 					6826, -- [2]
@@ -310,19 +310,19 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Emerald Dream.Stronguard"] = {
-				["lastUpdate"] = 1608734460,
-				["Specializations"] = {
-					[3] = 9,
-				},
-				["Class"] = "PALADIN",
-			},
 			["Default.Tichondrius.Samoansaint"] = {
 				["lastUpdate"] = 1546209432,
 				["Specializations"] = {
 					[3] = 0,
 				},
 				["Class"] = "PRIEST",
+			},
+			["Default.Emerald Dream.Stronguard"] = {
+				["lastUpdate"] = 1608734460,
+				["Specializations"] = {
+					[3] = 9,
+				},
+				["Class"] = "PALADIN",
 			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["lastUpdate"] = 1547637963,
@@ -912,7 +912,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [2]
 			},
-			["Version"] = 37474,
+			["Version"] = 37899,
 		},
 		["HUNTER"] = {
 			["Locale"] = "enUS",

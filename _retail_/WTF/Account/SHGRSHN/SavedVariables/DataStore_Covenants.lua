@@ -14,17 +14,18 @@ DataStore_CovenantsDB = {
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
 		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
 		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
 		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
-		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
@@ -36,7 +37,7 @@ DataStore_CovenantsDB = {
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1615437742,
+				["lastUpdate"] = 1615983778,
 				["AnimaCurrency"] = {
 					["maxDisplayable"] = 0,
 				},
@@ -439,7 +440,7 @@ DataStore_CovenantsDB = {
 						},
 					},
 					["skoldushall"] = {
-						["nextReset"] = 1614697199,
+						["nextReset"] = 1616511599,
 						["name"] = "Skoldus Hall",
 						["levels"] = {
 							{
@@ -517,37 +518,85 @@ DataStore_CovenantsDB = {
 						},
 					},
 					["fracturechambers"] = {
-						["nextReset"] = 1614092399,
+						["nextReset"] = 1616511599,
 						["name"] = "Fracture Chambers",
 						["levels"] = {
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 120,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [1]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 220,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [2]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 305,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [3]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 375,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [4]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 435,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [5]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 485,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [6]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 530,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [7]
 							{
-								["status"] = 3,
+								["rewards"] = {
+									{
+										["id"] = 1828,
+										["quantity"] = 570,
+										["rewardType"] = 1,
+									}, -- [1]
+								},
 							}, -- [8]
 						},
 					},
 				},
-				["lastUpdate"] = 1615587543,
+				["lastUpdate"] = 1615972652,
 				["ConduitReinforceProgress"] = 8,
 				["ConduitOriginPosition"] = {
 					["y"] = 0.4300369024276733,
@@ -567,7 +616,7 @@ DataStore_CovenantsDB = {
 				},
 				["ActiveSoulbindID"] = 8,
 				["AnimaCurrency"] = {
-					["count"] = 2726,
+					["count"] = 3075,
 				},
 				["ConduitCollection"] = {
 					[232] = {
@@ -749,8 +798,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 3,
@@ -765,8 +814,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 3,
@@ -781,11 +830,11 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
-						["state"] = 2,
+						["state"] = 1,
 						["talentID"] = 1260,
 						["description"] = "Channel Anima to the Shrouded Asylum, allowing access to mighty Venthyr enhancements.",
 						["normalizedPosition"] = {
@@ -797,8 +846,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 3,
@@ -813,8 +862,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 3,
@@ -829,8 +878,8 @@ DataStore_CovenantsDB = {
 					{
 						["costs"] = {
 							{
-								["currencyID"] = 1813,
 								["quantity"] = 25,
+								["currencyID"] = 1813,
 							}, -- [1]
 						},
 						["state"] = 3,
@@ -884,6 +933,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1139,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "The potential power of the anima reservoir remains untapped for now.",
+							["talentAvailability"] = 5,
+							["name"] = "Final Capacity",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 2000,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -895,19 +957,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "The potential power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 5,
-							["name"] = "Final Capacity",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 2000,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -924,6 +973,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1138,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "The potential power of the anima reservoir remains untapped for now.",
+							["talentAvailability"] = 5,
+							["name"] = "Growing Power",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 1000,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -935,19 +997,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "The potential power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 5,
-							["name"] = "Growing Power",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 1000,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -964,6 +1013,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1137,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "The potential power of the anima reservoir remains untapped for now.",
+							["talentAvailability"] = 0,
+							["name"] = "Expanding Potential",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 1000,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -975,19 +1037,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "The potential power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 0,
-							["name"] = "Expanding Potential",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 1000,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [3]
 					},
@@ -1014,6 +1063,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 1,
 							["id"] = 1068,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Allows you to channel anima to the Crypt of the Forgotten and Wanecrypt Hill, granting access to a special treasure and an enemy champion.",
+							["talentAvailability"] = 7,
+							["name"] = "Flowing Tendrils",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1025,19 +1087,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Allows you to channel anima to the Crypt of the Forgotten and Wanecrypt Hill, granting access to a special treasure and an enemy champion.",
-							["talentAvailability"] = 7,
-							["name"] = "Flowing Tendrils",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1063,6 +1112,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 1,
 							["id"] = 1069,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Allows you to channel anima to the Court of Harvesters and Pridefall Hamlet, granting access to a new World Quest and new Daily Quests.",
+							["talentAvailability"] = 7,
+							["name"] = "Streaming Threads",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1074,19 +1136,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Allows you to channel anima to the Court of Harvesters and Pridefall Hamlet, granting access to a new World Quest and new Daily Quests.",
-							["talentAvailability"] = 7,
-							["name"] = "Streaming Threads",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -1112,6 +1161,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 1,
 							["id"] = 1070,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Allows you to channel anima to the Shrouded Asylum and Dominance Keep, granting access to Venthyr enhancements and an elite foe.",
+							["talentAvailability"] = 7,
+							["name"] = "Flowing Power",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1123,19 +1185,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Allows you to channel anima to the Shrouded Asylum and Dominance Keep, granting access to Venthyr enhancements and an elite foe.",
-							["talentAvailability"] = 7,
-							["name"] = "Flowing Power",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [3]
 					},
@@ -1163,6 +1212,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1049,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Your mastery of Mirrors will be complete.\r\n\r\nThis final restoration effort will restore the mirrors in The Feeders' Thicket and Dominance Keep.\r\n\r\nNow at full power the network provides you the ability to find and repair damaged mirrors across Revendreth. Venturing through these special mirrors can lead to new discoveries, and even unique rewards you can only access through these mirrors.\r\n\r\nAdds a portal to Oribos within Sinfall.",
+							["talentAvailability"] = 8,
+							["name"] = "Mirror's Edge",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1174,19 +1236,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Your mastery of Mirrors will be complete.\r\n\r\nThis final restoration effort will restore the mirrors in The Feeders' Thicket and Dominance Keep.\r\n\r\nNow at full power the network provides you the ability to find and repair damaged mirrors across Revendreth. Venturing through these special mirrors can lead to new discoveries, and even unique rewards you can only access through these mirrors.\r\n\r\nAdds a portal to Oribos within Sinfall.",
-							["talentAvailability"] = 8,
-							["name"] = "Mirror's Edge",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1212,6 +1261,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1048,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Restore additional power to the Mirror Network. Doing so opens up more locations to expand your influence across Revendreth.\r\n\r\nDiverting this additional anima to the network will restore mirrors in The Halls of Atonement and The Banewood.",
+							["talentAvailability"] = 8,
+							["name"] = "Looking Glass",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1223,19 +1285,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Restore additional power to the Mirror Network. Doing so opens up more locations to expand your influence across Revendreth.\r\n\r\nDiverting this additional anima to the network will restore mirrors in The Halls of Atonement and The Banewood.",
-							["talentAvailability"] = 8,
-							["name"] = "Looking Glass",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -1260,6 +1309,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1047,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "This mysterious network of ancient mirrors can allow the user to move between various points across Revendreth.\r\n\r\nBy reactivating the network, you initially restore mirrors in The Eternal Terrace and Pridefall Hamlet.",
+							["talentAvailability"] = 0,
+							["name"] = "Mirror, Mirror",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1271,19 +1333,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "This mysterious network of ancient mirrors can allow the user to move between various points across Revendreth.\r\n\r\nBy reactivating the network, you initially restore mirrors in The Eternal Terrace and Pridefall Hamlet.",
-							["talentAvailability"] = 0,
-							["name"] = "Mirror, Mirror",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [3]
 					},
@@ -1310,6 +1359,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 1,
 							["id"] = 1080,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Grants access to Adventures and their rewards.",
+							["talentAvailability"] = 7,
+							["name"] = "Tactical Insight",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1321,19 +1383,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Grants access to Adventures and their rewards.",
-							["talentAvailability"] = 7,
-							["name"] = "Tactical Insight",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1359,31 +1408,31 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1081,
-							["ability"] = {
-								["temporary"] = false,
-								["description"] = "Increases the rate at which adventurers heal by 25%.",
-								["id"] = 1274,
-								["isSpecialization"] = false,
-								["name"] = "Forward Planning",
-								["isEmptySlot"] = false,
-								["counters"] = {
-								},
-								["category"] = "Increased Healing Rate",
-								["icon"] = 237451,
-								["isTrait"] = false,
-							},
-							["description"] = "Increases the rate at which companions naturally heal by 25%.",
-							["talentAvailability"] = 3,
-							["name"] = "Deserved Feast",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["socketInfo"] = {
 								["misc1"] = 0,
 								["socketType"] = 0,
 								["socketSubtype"] = 0,
 								["misc0"] = 0,
+							},
+							["description"] = "Increases the rate at which companions naturally heal by 25%.",
+							["talentAvailability"] = 3,
+							["name"] = "Deserved Feast",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["ability"] = {
+								["temporary"] = false,
+								["description"] = "Increases the rate at which adventurers heal by 25%.",
+								["id"] = 1274,
+								["isEmptySlot"] = false,
+								["name"] = "Forward Planning",
+								["isSpecialization"] = false,
+								["counters"] = {
+								},
+								["category"] = "Increased Healing Rate",
+								["icon"] = 237451,
+								["isTrait"] = false,
 							},
 						}, -- [2]
 						{
@@ -1409,31 +1458,31 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1082,
-							["ability"] = {
-								["temporary"] = false,
-								["description"] = "Reduces the travel time on an adventure by 25%.",
-								["id"] = 1273,
-								["isSpecialization"] = false,
-								["name"] = "Strategic Genius",
-								["isEmptySlot"] = false,
-								["counters"] = {
-								},
-								["category"] = "Reduced Travel Time",
-								["icon"] = 237451,
-								["isTrait"] = false,
-							},
-							["description"] = "Decreases the time an adventure takes to complete by 25%.",
-							["talentAvailability"] = 8,
-							["name"] = "Superior Efficiency",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["socketInfo"] = {
 								["misc1"] = 0,
 								["socketType"] = 0,
 								["socketSubtype"] = 0,
 								["misc0"] = 0,
+							},
+							["description"] = "Decreases the time an adventure takes to complete by 25%.",
+							["talentAvailability"] = 8,
+							["name"] = "Superior Efficiency",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["ability"] = {
+								["temporary"] = false,
+								["description"] = "Reduces the travel time on an adventure by 25%.",
+								["id"] = 1273,
+								["isEmptySlot"] = false,
+								["name"] = "Strategic Genius",
+								["isSpecialization"] = false,
+								["counters"] = {
+								},
+								["category"] = "Reduced Travel Time",
+								["icon"] = 237451,
+								["isTrait"] = false,
 							},
 						}, -- [3]
 					},
@@ -1461,6 +1510,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1115,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "The Ember Court reaches its full potential, and the weekly parties are now the talk of all the realms.\r\n\r\nYou are now able to hire five specialist staff who will help you foster the perfect atmosphere in each and every Ember Court event. This gives you the best opportunity yet to earn the best rewards your guests have to offer!",
+							["talentAvailability"] = 8,
+							["name"] = "The Professionals",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1472,19 +1534,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "The Ember Court reaches its full potential, and the weekly parties are now the talk of all the realms.\r\n\r\nYou are now able to hire five specialist staff who will help you foster the perfect atmosphere in each and every Ember Court event. This gives you the best opportunity yet to earn the best rewards your guests have to offer!",
-							["talentAvailability"] = 8,
-							["name"] = "The Professionals",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1510,6 +1559,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1114,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Increase the capacity for guests within the Ember Court.\r\n\r\nNow you can expand the guest list, allowing you to invite a third guest to each Ember Court. Increasing your options for earning unique rewards from your guests.",
+							["talentAvailability"] = 8,
+							["name"] = "Court Influencer",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1521,19 +1583,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Increase the capacity for guests within the Ember Court.\r\n\r\nNow you can expand the guest list, allowing you to invite a third guest to each Ember Court. Increasing your options for earning unique rewards from your guests.",
-							["talentAvailability"] = 8,
-							["name"] = "Court Influencer",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -1559,6 +1608,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1112,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "This infusion of anima continues to build upon the Ember Courts growing reputation. \r\n\r\nAttract the attention of even the most discerning guests, allowing you to invite a fourth guest to each Ember Court. This expands further your opportunities for earning the respect of your guests.",
+							["talentAvailability"] = 8,
+							["name"] = "Discerning Taste",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1570,19 +1632,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "This infusion of anima continues to build upon the Ember Courts growing reputation. \r\n\r\nAttract the attention of even the most discerning guests, allowing you to invite a fourth guest to each Ember Court. This expands further your opportunities for earning the respect of your guests.",
-							["talentAvailability"] = 8,
-							["name"] = "Discerning Taste",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [3]
 						{
@@ -1607,6 +1656,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1111,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Re-establish the Ember Court, and start on a journey to restore it to its former glory. \r\n\r\nHelp Theotar build this new court that will expand the influence of the Venthyr covenant across Revendreth and beyond.",
+							["talentAvailability"] = 0,
+							["name"] = "A New Court",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1618,19 +1680,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Re-establish the Ember Court, and start on a journey to restore it to its former glory. \r\n\r\nHelp Theotar build this new court that will expand the influence of the Venthyr covenant across Revendreth and beyond.",
-							["talentAvailability"] = 0,
-							["name"] = "A New Court",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [4]
 						{
@@ -1656,6 +1705,19 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1113,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
+							["description"] = "Infuse more anima into the restoration of the Ember Court.\r\n\r\nYou will now be able to create a dredger butler to assist you in hosting the Ember Court.",
+							["talentAvailability"] = 8,
+							["name"] = "Homegrown Help",
+							["startTime"] = 0,
+							["timeRemaining"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1667,19 +1729,6 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
-							},
-							["description"] = "Infuse more anima into the restoration of the Ember Court.\r\n\r\nYou will now be able to create a dredger butler to assist you in hosting the Ember Court.",
-							["talentAvailability"] = 8,
-							["name"] = "Homegrown Help",
-							["timeRemaining"] = 0,
-							["startTime"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
 							},
 						}, -- [5]
 					},
@@ -1715,18 +1764,100 @@ DataStore_CovenantsDB = {
 			},
 			["Default.Emerald Dream.Herbcraft"] = {
 				["CovenantID"] = 3,
-				["lastUpdate"] = 1615553941,
+				["lastUpdate"] = 1615979368,
 				["SoulCurrenciesTotals"] = {
-					[1810] = 4,
+					[1810] = 9,
+				},
+				["InstalledConduits"] = {
+					[850] = 220,
+					[1010] = 168,
 				},
 				["ActiveSoulbindID"] = 1,
 				["AnimaCurrency"] = {
-					["count"] = 1425,
+					["count"] = 2086,
+				},
+				["ConduitCollection"] = {
+					[168] = {
+						["conduitID"] = 168,
+						["conduitItemLevel"] = 145,
+						["conduitSpecSetID"] = 167,
+						["conduitItemID"] = 182466,
+						["conduitRank"] = 1,
+					},
+					[162] = {
+						["conduitID"] = 162,
+						["conduitItemLevel"] = 145,
+						["conduitItemID"] = 182460,
+						["conduitSpecSetID"] = 167,
+						["conduitType"] = 2,
+						["conduitRank"] = 1,
+					},
+					[208] = {
+						["conduitSpecName"] = "Destruction",
+						["conduitItemID"] = 182754,
+						["conduitItemLevel"] = 145,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 38,
+						["conduitID"] = 208,
+						["conduitRank"] = 1,
+					},
+					[171] = {
+						["conduitID"] = 171,
+						["conduitItemLevel"] = 145,
+						["conduitSpecSetID"] = 167,
+						["conduitItemID"] = 182470,
+						["conduitRank"] = 1,
+					},
+					[204] = {
+						["conduitSpecName"] = "Demonology",
+						["conduitItemID"] = 182748,
+						["conduitItemLevel"] = 171,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 39,
+						["conduitID"] = 204,
+						["conduitRank"] = 3,
+					},
+					[174] = {
+						["conduitSpecName"] = "Affliction",
+						["conduitItemID"] = 182478,
+						["conduitItemLevel"] = 145,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 37,
+						["conduitID"] = 174,
+						["conduitRank"] = 1,
+					},
+					[212] = {
+						["conduitSpecName"] = "Destruction",
+						["conduitItemID"] = 182769,
+						["conduitItemLevel"] = 171,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 38,
+						["conduitID"] = 212,
+						["conduitRank"] = 3,
+					},
+					[220] = {
+						["conduitID"] = 220,
+						["conduitItemLevel"] = 145,
+						["conduitItemID"] = 182964,
+						["conduitSpecSetID"] = 167,
+						["conduitType"] = 1,
+						["conduitRank"] = 1,
+						["covenantID"] = 3,
+					},
+					[205] = {
+						["conduitSpecName"] = "Demonology",
+						["conduitItemID"] = 182750,
+						["conduitItemLevel"] = 171,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 39,
+						["conduitID"] = 205,
+						["conduitRank"] = 3,
+					},
 				},
 				["SoulCurrencies"] = {
 					1810, -- [1]
 				},
-				["RenownLevel"] = 9,
+				["RenownLevel"] = 12,
 				["CurrentTalentTreeID"] = 328,
 				["CovenantFeatures"] = {
 					{
@@ -1774,19 +1905,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1071,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Allows you to channel anima to Glitterfall Basin and Dreamsong Fen, granting access to a special treasure and an enemy champion.",
-							["talentAvailability"] = 0,
-							["name"] = "Flowing Tendrils",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1798,6 +1916,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Allows you to channel anima to Glitterfall Basin and Dreamsong Fen, granting access to a special treasure and an enemy champion.",
+							["talentAvailability"] = 0,
+							["name"] = "Flowing Tendrils",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1823,19 +1954,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1072,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Allows you to channel anima to Tirna Vaal and the Hibernal Hollow, granting access to a new World Quest and new Daily Quests.",
-							["talentAvailability"] = 8,
-							["name"] = "Streaming Threads",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1847,6 +1965,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Allows you to channel anima to Tirna Vaal and the Hibernal Hollow, granting access to a new World Quest and new Daily Quests.",
+							["talentAvailability"] = 8,
+							["name"] = "Streaming Threads",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -1872,19 +2003,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1073,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Allows you to channel anima to Claw's Edge and Tirna Scithe, granting access to Night Fae enhancements and an elite foe.",
-							["talentAvailability"] = 8,
-							["name"] = "Flowing Power",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1896,6 +2014,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Allows you to channel anima to Claw's Edge and Tirna Scithe, granting access to Night Fae enhancements and an elite foe.",
+							["talentAvailability"] = 8,
+							["name"] = "Flowing Power",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [3]
 					},
@@ -1922,19 +2053,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1086,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Restore the Queen's Conservatory, a sacred garden where you can nurture the wildseeds of powerful lost souls and prepare them for rebirth.",
-							["talentAvailability"] = 3,
-							["name"] = "First Planting",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1946,6 +2064,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Restore the Queen's Conservatory, a sacred garden where you can nurture the wildseeds of powerful lost souls and prepare them for rebirth.",
+							["talentAvailability"] = 0,
+							["name"] = "First Planting",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -1971,19 +2102,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1089,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Grants you access to additional wildseed and catalyst plots. \r\n\r\nYou can now use the wildseed that has three possible catalyst connections. Increasing your potential for earning unique rewards.\r\n\r\nEmbark on a quest to find a rare spirit who can draw spirit animals to reside in your garden.",
-							["talentAvailability"] = 8,
-							["name"] = "Flourishing Beds",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -1995,6 +2113,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Grants you access to additional wildseed and catalyst plots. \r\n\r\nYou can now use the wildseed that has three possible catalyst connections. Increasing your potential for earning unique rewards.\r\n\r\nEmbark on a quest to find a rare spirit who can draw spirit animals to reside in your garden.",
+							["talentAvailability"] = 8,
+							["name"] = "Flourishing Beds",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -2020,19 +2151,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1090,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Restore the Conservatory to its former glory.\r\n\r\nThis final infusion of anima to the Conservatory activates the final wildseed plot.\r\n\r\nThat Wildseed can benefit from four possible catalyst links. This allows you to maximize your opportunites for unique rewards.",
-							["talentAvailability"] = 8,
-							["name"] = "Final Forms",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2044,6 +2162,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Restore the Conservatory to its former glory.\r\n\r\nThis final infusion of anima to the Conservatory activates the final wildseed plot.\r\n\r\nThat Wildseed can benefit from four possible catalyst links. This allows you to maximize your opportunites for unique rewards.",
+							["talentAvailability"] = 8,
+							["name"] = "Final Forms",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [3]
 						{
@@ -2069,19 +2200,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1087,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Grants you access to catalyst plots, and activates an additional wildseed. \r\n\r\nConservator Aoni will now offer daily catalyst quests.\r\n\r\nYou can also seek out a powerful, rare, and unusual spirit that may be able to aid your efforts in the Conservatory.",
-							["talentAvailability"] = 8,
-							["name"] = "Initial Growth",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2093,6 +2211,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Grants you access to catalyst plots, and activates an additional wildseed. \r\n\r\nConservator Aoni will now offer daily catalyst quests.\r\n\r\nYou can also seek out a powerful, rare, and unusual spirit that may be able to aid your efforts in the Conservatory.",
+							["talentAvailability"] = 8,
+							["name"] = "Initial Growth",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [4]
 						{
@@ -2118,19 +2249,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1088,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "This additional infusion of anima activates additional wildseed and catalyst plots to expand your growing potential.\r\n\r\nFind another rare spirit who can lead you on a journey of enlightenment across Azeroth and beyond.",
-							["talentAvailability"] = 8,
-							["name"] = "Nurtured Souls",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2142,6 +2260,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "This additional infusion of anima activates additional wildseed and catalyst plots to expand your growing potential.\r\n\r\nFind another rare spirit who can lead you on a journey of enlightenment across Azeroth and beyond.",
+							["talentAvailability"] = 8,
+							["name"] = "Nurtured Souls",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [5]
 					},
@@ -2168,19 +2299,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1053,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Activates the mysterious mushroom network that connects sites across Ardenweald. \r\n\r\nYou can travel between the Heart of the Forest, and Forest's Edge, The Stalks, or Stillglade.",
-							["talentAvailability"] = 0,
-							["name"] = "Nurtured Roots",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2192,6 +2310,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Activates the mysterious mushroom network that connects sites across Ardenweald. \r\n\r\nYou can travel between the Heart of the Forest, and Forest's Edge, The Stalks, or Stillglade.",
+							["talentAvailability"] = 0,
+							["name"] = "Nurtured Roots",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -2217,19 +2348,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1054,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "The tendrils of the wondrous mushroom network grow further, restoring access to the Banks of Life, the Elder Stand, and Gormhive. \r\n\r\nDiscover the hidden underground caverns that can only be accessed through the network. \r\n\r\nImprove your reputation with Marasmius to earn unique rewards for your efforts aiding the growth of the network.",
-							["talentAvailability"] = 8,
-							["name"] = "Fun with Fungi",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2241,6 +2359,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "The tendrils of the wondrous mushroom network grow further, restoring access to the Banks of Life, the Elder Stand, and Gormhive. \r\n\r\nDiscover the hidden underground caverns that can only be accessed through the network. \r\n\r\nImprove your reputation with Marasmius to earn unique rewards for your efforts aiding the growth of the network.",
+							["talentAvailability"] = 8,
+							["name"] = "Fun with Fungi",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -2266,19 +2397,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1055,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "The mushroom network rediscovers its full potential, restoring the connections to the Crumbled Ridge, Eventide Grove, and Tirna Scithe \r\n\r\nAllows you access to the mysterious islands that can be found at the very edges of the realm. \r\n\r\nProvides more opportunities to work towards gaining an exalted reputation with Marasmius to earn his rarest gifts!\r\n\r\nAdds a portal to Oribos within the Heart of the Forest.",
-							["talentAvailability"] = 8,
-							["name"] = "Blossoming Network",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2291,18 +2409,31 @@ DataStore_CovenantsDB = {
 								["icon"] = 0,
 								["isTrait"] = false,
 							},
+							["description"] = "The mushroom network rediscovers its full potential, restoring the connections to the Crumbled Ridge, Eventide Grove, and Tirna Scithe \r\n\r\nAllows you access to the mysterious islands that can be found at the very edges of the realm. \r\n\r\nProvides more opportunities to work towards gaining an exalted reputation with Marasmius to earn his rarest gifts!\r\n\r\nAdds a portal to Oribos within the Heart of the Forest.",
+							["talentAvailability"] = 8,
+							["name"] = "Blossoming Network",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
 						}, -- [3]
 					},
 					[315] = {
 						{
-							["isBeingResearched"] = true,
+							["isBeingResearched"] = false,
 							["talentMaxRank"] = 1,
 							["perkSpellID"] = 0,
 							["researchDuration"] = 3600,
 							["tier"] = 0,
-							["selected"] = false,
+							["selected"] = true,
 							["icon"] = 3675495,
-							["researched"] = false,
+							["researched"] = true,
 							["type"] = 0,
 							["researchCurrencyCosts"] = {
 								{
@@ -2314,21 +2445,8 @@ DataStore_CovenantsDB = {
 									["currencyQuantity"] = 1,
 								}, -- [2]
 							},
-							["talentRank"] = 0,
+							["talentRank"] = 1,
 							["id"] = 1074,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Grants access to Adventures and their rewards.",
-							["talentAvailability"] = 2,
-							["name"] = "Tactical Insight",
-							["startTime"] = 1615553831,
-							["timeRemaining"] = 3445,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2340,6 +2458,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "Grants access to Adventures and their rewards.",
+							["talentAvailability"] = 7,
+							["name"] = "Tactical Insight",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -2365,31 +2496,31 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1075,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Increases the rate at which companions naturally heal by 25%.",
-							["talentAvailability"] = 8,
-							["name"] = "Grovetender's Gift",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "Increases the rate at which adventurers heal by 25%.",
 								["id"] = 1274,
-								["isEmptySlot"] = false,
-								["name"] = "Forward Planning",
 								["isSpecialization"] = false,
+								["name"] = "Forward Planning",
+								["isEmptySlot"] = false,
 								["counters"] = {
 								},
 								["category"] = "Increased Healing Rate",
 								["icon"] = 237451,
 								["isTrait"] = false,
+							},
+							["description"] = "Increases the rate at which companions naturally heal by 25%.",
+							["talentAvailability"] = 3,
+							["name"] = "Grovetender's Gift",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -2415,31 +2546,31 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1076,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "Decreases the time an adventure takes to complete by 25%.",
-							["talentAvailability"] = 8,
-							["name"] = "Hidden Pathways",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 0,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "Reduces the travel time on an adventure by 25%.",
 								["id"] = 1273,
-								["isEmptySlot"] = false,
-								["name"] = "Strategic Genius",
 								["isSpecialization"] = false,
+								["name"] = "Strategic Genius",
+								["isEmptySlot"] = false,
 								["counters"] = {
 								},
 								["category"] = "Reduced Travel Time",
 								["icon"] = 237451,
 								["isTrait"] = false,
+							},
+							["description"] = "Decreases the time an adventure takes to complete by 25%.",
+							["talentAvailability"] = 8,
+							["name"] = "Hidden Pathways",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 0,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [3]
 					},
@@ -2458,20 +2589,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1145,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["playerConditionReason"] = "Requires Renown 19",
-							["description"] = "The possible power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 6,
-							["name"] = "Final Capacity",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 2000,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2483,6 +2600,20 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["playerConditionReason"] = "Requires Renown 19",
+							["description"] = "The possible power of the anima reservoir remains untapped for now.",
+							["timeRemaining"] = 0,
+							["name"] = "Final Capacity",
+							["startTime"] = 0,
+							["talentAvailability"] = 6,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 2000,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [1]
 						{
@@ -2499,20 +2630,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1144,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["playerConditionReason"] = "Requires Renown 11",
-							["description"] = "The possible power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 6,
-							["name"] = "Growing Power",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 1000,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2524,6 +2641,19 @@ DataStore_CovenantsDB = {
 								["isSpecialization"] = false,
 								["icon"] = 0,
 								["isTrait"] = false,
+							},
+							["description"] = "The possible power of the anima reservoir remains untapped for now.",
+							["talentAvailability"] = 5,
+							["name"] = "Growing Power",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 1000,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
 							},
 						}, -- [2]
 						{
@@ -2540,19 +2670,6 @@ DataStore_CovenantsDB = {
 							},
 							["talentRank"] = 0,
 							["id"] = 1143,
-							["socketInfo"] = {
-								["misc1"] = 0,
-								["socketType"] = 0,
-								["socketSubtype"] = 0,
-								["misc0"] = 0,
-							},
-							["description"] = "The possible power of the anima reservoir remains untapped for now.",
-							["talentAvailability"] = 0,
-							["name"] = "Expanding Potential",
-							["startTime"] = 0,
-							["timeRemaining"] = 0,
-							["uiOrder"] = 0,
-							["researchGoldCost"] = 100,
 							["ability"] = {
 								["temporary"] = false,
 								["description"] = "",
@@ -2565,55 +2682,22 @@ DataStore_CovenantsDB = {
 								["icon"] = 0,
 								["isTrait"] = false,
 							},
+							["description"] = "The possible power of the anima reservoir remains untapped for now.",
+							["talentAvailability"] = 0,
+							["name"] = "Expanding Potential",
+							["timeRemaining"] = 0,
+							["startTime"] = 0,
+							["uiOrder"] = 0,
+							["researchGoldCost"] = 100,
+							["socketInfo"] = {
+								["misc1"] = 0,
+								["socketType"] = 0,
+								["socketSubtype"] = 0,
+								["misc0"] = 0,
+							},
 						}, -- [3]
 					},
 				},
-			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1612174879,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 10000,
-				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615545250,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 0,
-				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1608226340,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 10000,
-				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["lastUpdate"] = 1615507545,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 0,
-				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["lastUpdate"] = 1607745382,
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["lastUpdate"] = 1608674996,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 10000,
-				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Vithun"] = {
-				["lastUpdate"] = 1608206177,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 10000,
-				},
-				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Samoansage"] = {
 				["CovenantID"] = 4,
@@ -3091,7 +3175,7 @@ DataStore_CovenantsDB = {
 						},
 					},
 				},
-				["lastUpdate"] = 1615588135,
+				["lastUpdate"] = 1615933300,
 				["SoulCurrenciesTotals"] = {
 					[1810] = 58,
 				},
@@ -3102,30 +3186,30 @@ DataStore_CovenantsDB = {
 					[1135] = 104,
 					[1128] = 93,
 					[1170] = 93,
-					[1122] = 118,
-					[1133] = 95,
 					[1167] = 94,
+					[1133] = 95,
+					[1122] = 118,
 				},
 				["ActiveSoulbindID"] = 5,
 				["AnimaCurrency"] = {
-					["count"] = 2006,
+					["count"] = 1892,
 				},
 				["ConduitCollection"] = {
 					[118] = {
-						["conduitID"] = 118,
-						["conduitType"] = 1,
-						["conduitItemLevel"] = 184,
-						["conduitItemID"] = 182143,
-						["conduitSpecSetID"] = 4,
 						["conduitSpecName"] = "Restoration",
+						["conduitItemID"] = 182143,
+						["conduitItemLevel"] = 184,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 4,
+						["conduitID"] = 118,
 						["conduitRank"] = 4,
 					},
 					[92] = {
 						["conduitID"] = 92,
 						["conduitItemLevel"] = 200,
-						["conduitType"] = 2,
-						["conduitSpecSetID"] = 13,
 						["conduitItemID"] = 182105,
+						["conduitSpecSetID"] = 13,
+						["conduitType"] = 2,
 						["conduitRank"] = 5,
 					},
 					[96] = {
@@ -3138,27 +3222,27 @@ DataStore_CovenantsDB = {
 					[147] = {
 						["conduitID"] = 147,
 						["conduitItemLevel"] = 145,
-						["conduitType"] = 1,
-						["conduitSpecSetID"] = 13,
 						["conduitItemID"] = 182346,
+						["conduitSpecSetID"] = 13,
+						["conduitType"] = 1,
 						["conduitRank"] = 1,
 						["covenantID"] = 4,
 					},
 					[104] = {
-						["conduitID"] = 104,
-						["conduitType"] = 1,
-						["conduitItemLevel"] = 171,
-						["conduitItemID"] = 182128,
-						["conduitSpecSetID"] = 11,
 						["conduitSpecName"] = "Elemental",
+						["conduitItemID"] = 182128,
+						["conduitItemLevel"] = 171,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 11,
+						["conduitID"] = 104,
 						["conduitRank"] = 3,
 					},
 					[93] = {
 						["conduitID"] = 93,
 						["conduitItemLevel"] = 200,
-						["conduitType"] = 2,
-						["conduitSpecSetID"] = 13,
 						["conduitItemID"] = 182106,
+						["conduitSpecSetID"] = 13,
+						["conduitType"] = 2,
 						["conduitRank"] = 5,
 					},
 					[97] = {
@@ -3169,49 +3253,49 @@ DataStore_CovenantsDB = {
 						["conduitRank"] = 5,
 					},
 					[109] = {
-						["conduitID"] = 109,
-						["conduitType"] = 1,
-						["conduitItemLevel"] = 213,
-						["conduitItemID"] = 182134,
-						["conduitSpecSetID"] = 12,
 						["conduitSpecName"] = "Enhancement",
+						["conduitItemID"] = 182134,
+						["conduitItemLevel"] = 213,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 12,
+						["conduitID"] = 109,
 						["conduitRank"] = 6,
 					},
 					[103] = {
-						["conduitID"] = 103,
-						["conduitType"] = 1,
-						["conduitItemLevel"] = 200,
-						["conduitItemID"] = 182127,
-						["conduitSpecSetID"] = 11,
 						["conduitSpecName"] = "Elemental",
+						["conduitItemID"] = 182127,
+						["conduitItemLevel"] = 200,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 11,
+						["conduitID"] = 103,
 						["conduitRank"] = 5,
 					},
 					[95] = {
 						["conduitID"] = 95,
-						["conduitItemLevel"] = 184,
+						["conduitItemLevel"] = 200,
 						["conduitSpecSetID"] = 13,
 						["conduitItemID"] = 182108,
-						["conduitRank"] = 4,
+						["conduitRank"] = 5,
 					},
 					[94] = {
 						["conduitID"] = 94,
 						["conduitItemLevel"] = 171,
-						["conduitType"] = 2,
-						["conduitSpecSetID"] = 13,
 						["conduitItemID"] = 182107,
+						["conduitSpecSetID"] = 13,
+						["conduitType"] = 2,
 						["conduitRank"] = 3,
 					},
 					[119] = {
-						["conduitID"] = 119,
-						["conduitType"] = 1,
-						["conduitItemLevel"] = 171,
-						["conduitItemID"] = 182145,
-						["conduitSpecSetID"] = 4,
 						["conduitSpecName"] = "Restoration",
+						["conduitItemID"] = 182145,
+						["conduitItemLevel"] = 171,
+						["conduitType"] = 1,
+						["conduitSpecSetID"] = 4,
+						["conduitID"] = 119,
 						["conduitRank"] = 3,
 					},
 				},
-				["RenownLevel"] = 39,
+				["RenownLevel"] = 40,
 				["TalentTreeTalents"] = {
 					[318] = {
 						{
@@ -4029,6 +4113,62 @@ DataStore_CovenantsDB = {
 					},
 				},
 			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1612174879,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Mf"] = {
+				["lastUpdate"] = 1615984455,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 0,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1608226340,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614988457,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["lastUpdate"] = 1615983479,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 0,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Vithun"] = {
+				["lastUpdate"] = 1608206177,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Brunderan"] = {
+				["lastUpdate"] = 1608674996,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 10000,
+				},
+				["RenownLevel"] = 1,
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1615971102,
+				["AnimaCurrency"] = {
+					["maxDisplayable"] = 0,
+				},
+				["RenownLevel"] = 1,
+			},
 			["Default.Emerald Dream.Craudy"] = {
 				["lastUpdate"] = 1608199955,
 				["AnimaCurrency"] = {
@@ -4043,11 +4183,8 @@ DataStore_CovenantsDB = {
 				},
 				["RenownLevel"] = 1,
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614988457,
-				["AnimaCurrency"] = {
-					["maxDisplayable"] = 10000,
-				},
+			["Default.Emerald Dream.Haedshot"] = {
+				["lastUpdate"] = 1607745382,
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
@@ -4058,14 +4195,14 @@ DataStore_CovenantsDB = {
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Orecraft"] = {
-				["lastUpdate"] = 1615548468,
+				["lastUpdate"] = 1615982147,
 				["AnimaCurrency"] = {
 					["maxDisplayable"] = 0,
 				},
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615505742,
+				["lastUpdate"] = 1615971950,
 				["AnimaCurrency"] = {
 					["maxDisplayable"] = 0,
 				},

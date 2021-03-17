@@ -15,14 +15,14 @@ DataStore_KeystonesDB = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
 			["NextWeeklyReset"] = "2020-12-08",
-			["NextResetTimestamp"] = 1615906799,
+			["NextResetTimestamp"] = 1616511599,
 		},
 		["Characters"] = {
 			["Default.Emerald Dream.Stronguard"] = {
 				["lastUpdate"] = 1608733915,
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
-				["lastUpdate"] = 1615545644,
+				["lastUpdate"] = 1615967531,
 				["WeeklyActivities"] = {
 					[35] = {
 						["exampleRewards"] = {

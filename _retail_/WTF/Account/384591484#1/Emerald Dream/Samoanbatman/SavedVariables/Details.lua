@@ -63,12 +63,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16285.007915,
-							["damage_taken"] = 4742.007915,
+							["last_dps"] = 1496.233729792092,
 							["delay"] = 1611779042,
 							["dps_started"] = false,
 							["end_time"] = 1611779053,
 							["classe"] = "DEMONHUNTER",
-							["last_dps"] = 1496.233729792092,
+							["damage_taken"] = 4742.007915,
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
@@ -77,16 +77,15 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1611779042,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1611779052,
 							["serial"] = "Player-162-0A49E245",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
 							["totalabsorbed"] = 0.004944,
-							["spec"] = 265,
 							["damage_from"] = {
 								["Environment (Falling)"] = true,
 							},
@@ -94,32 +93,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
+							["aID"] = "162-0B3AFCB9",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004944,
-							["aID"] = "162-0B3AFCB9",
+							["serial"] = "Player-162-0B3AFCB9",
 							["dps_started"] = false,
 							["total"] = 0.004944,
 							["classe"] = "WARLOCK",
-							["serial"] = "Player-162-0B3AFCB9",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Herbcraft",
+							["spec"] = 265,
+							["grupo"] = true,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["damage_taken"] = 1760.004944,
 							["start_time"] = 0,
 							["delay"] = 0,
-							["last_event"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2600,
@@ -131,9 +131,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "125439",
-							["damage_taken"] = 1959.006261,
 							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006261,
@@ -141,7 +142,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.006261,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["damage_taken"] = 1959.006261,
 							["nome"] = "Flickering Argunite",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -153,11 +154,10 @@ _detalhes_database = {
 							["end_time"] = 1611779053,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1611779053,
 							["serial"] = "Creature-0-4229-1669-2009-125439-000111C508",
-							["classe"] = "UNKNOW",
+							["aID"] = "125439",
 						}, -- [3]
 						{
 							["flag_original"] = 2600,
@@ -169,9 +169,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "124905",
-							["damage_taken"] = 7238.00519,
 							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00519,
@@ -179,7 +180,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 0.00519,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["damage_taken"] = 7238.00519,
 							["nome"] = "Rubble",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -191,11 +192,10 @@ _detalhes_database = {
 							["end_time"] = 1611779053,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1611779053,
 							["serial"] = "Creature-0-4229-1669-2009-124905-000111C504",
-							["classe"] = "UNKNOW",
+							["aID"] = "124905",
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -208,15 +208,15 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["end_time"] = 1611779053,
-							["friendlyfire_total"] = 0,
+							["damage_taken"] = 7088.002613000001,
 							["aID"] = "121534",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002613,
 							["monster"] = true,
 							["fight_component"] = true,
-							["total"] = 0.002613,
+							["end_time"] = 1611779053,
 							["friendlyfire"] = {
 							},
 							["tipo"] = 1,
@@ -226,15 +226,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 7088.002613000001,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["on_hold"] = false,
+							["total"] = 0.002613,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1611779053,
 							["serial"] = "Creature-0-4229-1669-2009-121534-000311C504",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [5]
 					},
 				}, -- [1]
@@ -250,33 +250,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["healing_from"] = {
-							},
+							["healing_taken"] = 0.003529,
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["healing_from"] = {
 							},
-							["healing_taken"] = 0.003529,
+							["aID"] = "162-0A49E245",
 							["totalover"] = 0.003529,
 							["total_without_pet"] = 0.003529,
 							["totalover_without_pet"] = 0.003529,
 							["start_time"] = 0,
-							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 							["total"] = 0.003529,
 							["heal_enemy_amt"] = 0,
-							["classe"] = "DEMONHUNTER",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
 							["nome"] = "Samoanbatman",
 							["targets_absorbs"] = {
 							},
 							["grupo"] = true,
-							["spec"] = 581,
+							["serial"] = "Player-162-0A49E245",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Player-162-0A49E245",
+							["spec"] = 581,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
@@ -292,33 +292,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["healing_from"] = {
-							},
+							["healing_taken"] = 0.004726,
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["healing_from"] = {
 							},
-							["healing_taken"] = 0.004726,
+							["aID"] = "162-0B4FF4C7",
 							["totalover"] = 0.004726,
 							["total_without_pet"] = 0.004726,
 							["totalover_without_pet"] = 0.004726,
 							["start_time"] = 0,
-							["aID"] = "162-0B4FF4C7",
+							["classe"] = "WARLOCK",
 							["total"] = 0.004726,
 							["heal_enemy_amt"] = 0,
-							["classe"] = "WARLOCK",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
 							["nome"] = "Gl",
 							["targets_absorbs"] = {
 							},
 							["grupo"] = true,
-							["spec"] = 266,
+							["serial"] = "Player-162-0B4FF4C7",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Player-162-0B4FF4C7",
+							["spec"] = 266,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
@@ -358,7 +358,7 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "DEMONHUNTER",
+							["aID"] = "162-0A49E245",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[93795] = {
@@ -409,18 +409,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 11,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
-							["last_event"] = 1611779053,
-							["nome"] = "Samoanbatman",
 							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["last_event"] = 1611779053,
+							["debuff_uptime_targets"] = {
+							},
 							["buff_uptime"] = 44,
 							["serial"] = "Player-162-0A49E245",
-							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -444,10 +444,10 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					16284.84537000012, -- [1]
-					-0.5242900000011381, -- [2]
+					16284.83883800012, -- [1]
+					-0.5446400000000722, -- [2]
 					{
-						-0.04908300000000665, -- [1]
+						-0.05371700000000665, -- [1]
 						[0] = -0.03728900000000001,
 						["alternatepower"] = 0,
 						[6] = -0.003593999999992548,
@@ -993,25 +993,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Samoanbatman"] = 16285.007915,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "13:24:02",
 				["end_time"] = 435885.806,
 				["combat_id"] = 31,
 				["frags"] = {
@@ -1048,7 +1030,25 @@ _detalhes_database = {
 				["start_time"] = 435874.922,
 				["TimeData"] = {
 				},
-				["data_inicio"] = "13:24:02",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Samoanbatman"] = 16285.007915,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 			}, -- [1]
 			{
 				{
@@ -1066,15 +1066,15 @@ _detalhes_database = {
 							["delay"] = 1611779016,
 							["pets"] = {
 							},
-							["total"] = 6.008372,
-							["aID"] = "123109",
+							["damage_taken"] = 0.008372,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6.008372,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611779031,
+							["total"] = 6.008372,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Seething Harbinger",
@@ -1111,16 +1111,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.008372,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611779031,
 							["custom"] = 0,
 							["last_event"] = 1611779016,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611779030,
 							["serial"] = "Creature-0-4229-1669-2009-123109-000491C505",
-							["friendlyfire_total"] = 0,
+							["aID"] = "123109",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -1138,15 +1138,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "162-0A49E245",
 							["classe"] = "DEMONHUNTER",
+							["aID"] = "162-0A49E245",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001948,
-							["damage_taken"] = 6.001948,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["end_time"] = 1611779031,
-							["on_hold"] = false,
+							["total"] = 0.001948,
+							["damage_taken"] = 6.001948,
 							["tipo"] = 1,
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
@@ -1155,11 +1156,10 @@ _detalhes_database = {
 							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1611779031,
 							["serial"] = "Player-162-0A49E245",
-							["total"] = 0.001948,
+							["end_time"] = 1611779031,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1186,15 +1186,15 @@ _detalhes_database = {
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
-							["buff_uptime"] = 60,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[131347] = 3,
 							},
-							["aID"] = "162-0A49E245",
+							["buff_uptime"] = 60,
+							["pets"] = {
+							},
 							["last_event"] = 1611779031,
-							["tipo"] = 4,
+							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -1256,7 +1256,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-162-0A49E245",
-							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1335,6 +1335,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:23:36",
+				["end_time"] = 435864.036,
+				["combat_id"] = 30,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -1354,9 +1357,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435864.036,
-				["combat_id"] = 30,
-				["data_inicio"] = "13:23:36",
 				["overall_added"] = true,
 				["frags"] = {
 					["Felsiege Infernal"] = 1,
@@ -1394,12 +1394,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2468.002444,
-							["damage_taken"] = 0.002444,
+							["last_dps"] = 19744.019552,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611779004,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 19744.019552,
+							["damage_taken"] = 0.002444,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1440,11 +1440,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611779003,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611779003,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2600,
@@ -1456,16 +1456,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["end_time"] = 1611779004,
 							["friendlyfire_total"] = 0,
+							["total"] = 0.004811,
+							["aID"] = "125387",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004811,
 							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 0.004811,
 							["fight_component"] = true,
+							["end_time"] = 1611779004,
+							["dps_started"] = false,
 							["damage_taken"] = 2468.004811,
 							["nome"] = "Unstable Felshard",
 							["spells"] = {
@@ -1482,7 +1482,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1611779004,
 							["serial"] = "Creature-0-4229-1669-2009-125387-000211C507",
-							["aID"] = "125387",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1627,25 +1627,7 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Samoanbatman"] = 2468.002444,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "13:23:23",
 				["end_time"] = 435836.972,
 				["combat_id"] = 29,
 				["frags"] = {
@@ -1681,7 +1663,25 @@ _detalhes_database = {
 				["start_time"] = 435836.122,
 				["TimeData"] = {
 				},
-				["data_inicio"] = "13:23:23",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Samoanbatman"] = 2468.002444,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 			}, -- [3]
 			{
 				{
@@ -1706,12 +1706,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38420.008966,
-							["damage_taken"] = 12.008966,
+							["last_dps"] = 9178.215233186735,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778978,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 9178.215233186735,
+							["damage_taken"] = 12.008966,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1865,11 +1865,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778974,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778974,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -1883,15 +1883,15 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["total"] = 12.006718,
-							["aID"] = "123241",
+							["damage_taken"] = 15813.006718,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12.006718,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778978,
+							["total"] = 12.006718,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Felforge Salvager",
@@ -1930,16 +1930,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 15813.006718,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778978,
 							["custom"] = 0,
 							["last_event"] = 1611778977,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778975,
 							["serial"] = "Creature-0-4229-1669-2009-123241-000011CB9B",
-							["friendlyfire_total"] = 0,
+							["aID"] = "123241",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -1952,17 +1952,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 22607.00547,
-							["classe"] = "UNKNOW",
+							["total"] = 0.00547,
 							["friendlyfire_total"] = 0,
+							["aID"] = "123247",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00547,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778978,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 22607.00547,
 							["tipo"] = 1,
 							["nome"] = "Quartermaster Aikras",
 							["spells"] = {
@@ -1970,15 +1969,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.00547,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778978,
 							["serial"] = "Creature-0-4229-1669-2009-123247-000011CB9B",
-							["aID"] = "123247",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -2013,8 +2013,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778977,
 							["tipo"] = 3,
+							["last_event"] = 1611778977,
 							["alternatepower"] = 0.007225,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -2213,6 +2213,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:22:55",
+				["end_time"] = 435811.961,
+				["combat_id"] = 28,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2232,9 +2235,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435811.961,
-				["combat_id"] = 28,
-				["data_inicio"] = "13:22:55",
 				["overall_added"] = true,
 				["frags"] = {
 					["Felforge Salvager"] = 3,
@@ -2276,12 +2276,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 53181.008071,
-							["damage_taken"] = 177.008071,
+							["last_dps"] = 1709.835323634223,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778966,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 1709.835323634223,
+							["damage_taken"] = 177.008071,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2436,11 +2436,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778935,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778935,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -2452,18 +2452,19 @@ _detalhes_database = {
 							},
 							["spellicon"] = 132108,
 							["end_time"] = 1611778974,
-							["fight_component"] = true,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 94.002512,
 							["pets"] = {
 							},
-							["damage_taken"] = 0.002512,
-							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
 							["total"] = 94.002512,
 							["delay"] = 0,
-							["aID"] = "",
+							["classe"] = "UNKNOW",
 							["nome"] = "[*] Unstable Concoctions",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2498,17 +2499,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["monster"] = true,
+							["damage_taken"] = 0.002512,
+							["dps_started"] = false,
 							["last_event"] = 1611778969,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["last_dps"] = 0,
+							["on_hold"] = false,
 							["start_time"] = 1611778963,
 							["serial"] = "",
-							["on_hold"] = false,
+							["last_dps"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -2522,15 +2522,15 @@ _detalhes_database = {
 							["delay"] = 1611778950,
 							["pets"] = {
 							},
-							["total"] = 60.002869,
-							["aID"] = "127942",
+							["damage_taken"] = 47275.002869,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 60.002869,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778966,
+							["total"] = 60.002869,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Felforge Salvager",
@@ -2595,16 +2595,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 47275.002869,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778966,
 							["custom"] = 0,
 							["last_event"] = 1611778965,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778947,
 							["serial"] = "Creature-0-4229-1669-2009-127942-000091C505",
-							["friendlyfire_total"] = 0,
+							["aID"] = "127942",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -2618,15 +2618,15 @@ _detalhes_database = {
 							["delay"] = 1611778949,
 							["pets"] = {
 							},
-							["total"] = 23.003948,
-							["aID"] = "123110",
+							["damage_taken"] = 5906.003948,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23.003948,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778966,
+							["total"] = 23.003948,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Shadowbound Defiler",
@@ -2664,16 +2664,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 5906.003948,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778966,
 							["custom"] = 0,
 							["last_event"] = 1611778949,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778965,
 							["serial"] = "Creature-0-4229-1669-2009-123110-000511C504",
-							["friendlyfire_total"] = 0,
+							["aID"] = "123110",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -2708,8 +2708,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778965,
 							["tipo"] = 3,
+							["last_event"] = 1611778965,
 							["alternatepower"] = 0.00825,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -2824,17 +2824,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["aID"] = "123241",
+							["last_event"] = 0,
 							["nome"] = "Felforge Salvager",
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[251164] = 3,
 							},
+							["pets"] = {
+							},
 							["fight_component"] = true,
-							["classe"] = "UNKNOW",
 							["tipo"] = 4,
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["aID"] = "123241",
 							["serial"] = "Creature-0-4229-1669-2009-123241-000111CB74",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -2916,6 +2916,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:22:15",
+				["end_time"] = 435799.407,
+				["combat_id"] = 27,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -2935,9 +2938,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435799.407,
-				["combat_id"] = 27,
-				["data_inicio"] = "13:22:15",
 				["tempo_start"] = 1611778935,
 				["spells_cast_timeline"] = {
 				},
@@ -3063,12 +3063,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5776.001732,
-							["damage_taken"] = 0.001732,
+							["last_dps"] = 19513.51936664536,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778934,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 19513.51936664536,
+							["damage_taken"] = 0.001732,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3137,11 +3137,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778933,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778933,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3154,17 +3154,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 5776.004441,
-							["classe"] = "UNKNOW",
+							["total"] = 0.004441,
 							["friendlyfire_total"] = 0,
+							["aID"] = "127942",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004441,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778934,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 5776.004441,
 							["tipo"] = 1,
 							["nome"] = "Felforge Salvager",
 							["spells"] = {
@@ -3201,15 +3200,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.004441,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1611778933,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778934,
 							["serial"] = "Creature-0-4229-1669-2009-127942-000191C505",
-							["aID"] = "127942",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3244,8 +3244,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778933,
 							["tipo"] = 3,
+							["last_event"] = 1611778933,
 							["alternatepower"] = 0.008543,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -3264,15 +3264,15 @@ _detalhes_database = {
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
-							["buff_uptime"] = 4,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[162243] = 1,
 							},
-							["aID"] = "162-0A49E245",
+							["buff_uptime"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1611778934,
-							["tipo"] = 4,
+							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[93795] = {
@@ -3323,7 +3323,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-162-0A49E245",
-							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3403,6 +3403,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:22:13",
+				["end_time"] = 435767.088,
+				["combat_id"] = 26,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -3422,9 +3425,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435767.088,
-				["combat_id"] = 26,
-				["data_inicio"] = "13:22:13",
 				["tempo_start"] = 1611778933,
 				["spells_cast_timeline"] = {
 				},
@@ -3458,15 +3458,15 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["total"] = 12.002415,
-							["aID"] = "127942",
+							["damage_taken"] = 4588.002415,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12.002415,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778931,
+							["total"] = 12.002415,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Felforge Salvager",
@@ -3504,16 +3504,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 4588.002415,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778931,
 							["custom"] = 0,
 							["last_event"] = 1611778929,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778927,
 							["serial"] = "Creature-0-4229-1669-2009-127942-000111C505",
-							["friendlyfire_total"] = 0,
+							["aID"] = "127942",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -3592,12 +3592,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4588.001969,
-							["damage_taken"] = 12.001969,
+							["last_dps"] = 1296.045753941163,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 4588.001969,
 							["friendlyfire_total"] = 0,
-							["last_dps"] = 1296.045753941163,
+							["damage_taken"] = 12.001969,
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
@@ -3606,11 +3606,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778929,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778929,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3645,8 +3645,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778929,
 							["tipo"] = 3,
+							["last_event"] = 1611778929,
 							["alternatepower"] = 0.002331,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -3822,6 +3822,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:22:07",
+				["end_time"] = 435764.671,
+				["combat_id"] = 25,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -3841,9 +3844,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435764.671,
-				["combat_id"] = 25,
-				["data_inicio"] = "13:22:07",
 				["overall_added"] = true,
 				["frags"] = {
 					["Felforge Salvager"] = 1,
@@ -3882,12 +3882,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001006,
-							["damage_taken"] = 0.001006,
+							["last_dps"] = 20986.21383178691,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778855,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 20986.21383178691,
+							["damage_taken"] = 0.001006,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3900,11 +3900,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778854,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778854,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3916,15 +3916,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3043.006896,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778855,
+							["total"] = 3043.006896,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -3970,7 +3970,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778854,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 3043.006896,
+							["end_time"] = 1611778855,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -3983,17 +3983,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 3043.00386,
-							["classe"] = "UNKNOW",
+							["total"] = 0.00386,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00386,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778855,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 3043.00386,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -4001,15 +4000,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.00386,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778855,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000091CB14",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4170,7 +4170,7 @@ _detalhes_database = {
 				["data_inicio"] = "13:20:55",
 				["end_time"] = 435688.435,
 				["combat_counter"] = 29,
-				["instance_type"] = "none",
+				["combat_id"] = 24,
 				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
@@ -4180,7 +4180,8 @@ _detalhes_database = {
 					["Frenzied Plaguewing"] = 1,
 				},
 				["data_fim"] = "13:20:56",
-				["contra"] = "Frenzied Plaguewing",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["PhaseData"] = {
@@ -4203,9 +4204,8 @@ _detalhes_database = {
 					},
 				},
 				["start_time"] = 435687.431,
-				["TimeData"] = {
-				},
-				["combat_id"] = 24,
+				["contra"] = "Frenzied Plaguewing",
+				["instance_type"] = "none",
 			}, -- [8]
 			{
 				{
@@ -4229,12 +4229,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002298,
-							["damage_taken"] = 0.002298,
+							["last_dps"] = 15983.39907333384,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778852,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 15983.39907333384,
+							["damage_taken"] = 0.002298,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4247,11 +4247,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778851,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778851,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4263,15 +4263,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8663.004929,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778852,
+							["total"] = 8663.004929,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -4317,7 +4317,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778851,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 8663.004929,
+							["end_time"] = 1611778852,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -4330,17 +4330,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 8663.00146,
-							["classe"] = "UNKNOW",
+							["total"] = 0.00146,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00146,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778852,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 8663.00146,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -4374,15 +4373,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.00146,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778852,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000011CAF3",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4469,17 +4469,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["aID"] = "122833",
+							["last_event"] = 0,
 							["nome"] = "Frenzied Plaguewing",
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[241547] = 2,
 							},
+							["pets"] = {
+							},
 							["fight_component"] = true,
-							["classe"] = "UNKNOW",
 							["tipo"] = 4,
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["aID"] = "122833",
 							["serial"] = "Creature-0-4229-1669-2009-122833-000091CB1B",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -4528,12 +4528,6 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "13:20:52",
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -4553,6 +4547,12 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["frags_need_refresh"] = true,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:20:52",
 				["end_time"] = 435685.733,
 				["TimeData"] = {
 				},
@@ -4617,12 +4617,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006954,
-							["damage_taken"] = 0.006954,
+							["last_dps"] = 27370.06954,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778851,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 27370.06954,
+							["damage_taken"] = 0.006954,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4635,11 +4635,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778850,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778850,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4651,15 +4651,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2737.006186,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778851,
+							["total"] = 2737.006186,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -4705,7 +4705,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778850,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 2737.006186,
+							["end_time"] = 1611778851,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -4718,17 +4718,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 2737.004195,
-							["classe"] = "UNKNOW",
+							["total"] = 0.004195,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004195,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778851,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 2737.004195,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -4736,15 +4735,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.004195,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778851,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000011CB14",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4874,12 +4874,6 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "13:20:50",
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -4899,6 +4893,12 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["frags_need_refresh"] = true,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:20:50",
 				["end_time"] = 435684.111,
 				["TimeData"] = {
 				},
@@ -4963,12 +4963,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008603,
-							["damage_taken"] = 0.008603,
+							["last_dps"] = 15940.72279668091,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778849,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 15940.72279668091,
+							["damage_taken"] = 0.008603,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4981,11 +4981,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778848,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778848,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4997,15 +4997,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12099.008611,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778849,
+							["total"] = 12099.008611,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -5051,7 +5051,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778848,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 12099.008611,
+							["end_time"] = 1611778849,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -5064,17 +5064,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 12099.002508,
-							["classe"] = "UNKNOW",
+							["total"] = 0.002508,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002508,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778849,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 12099.002508,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -5108,15 +5107,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.002508,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778849,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000091CB11",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5203,17 +5203,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["aID"] = "122833",
+							["last_event"] = 0,
 							["nome"] = "Frenzied Plaguewing",
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[241547] = 3,
 							},
+							["pets"] = {
+							},
 							["fight_component"] = true,
-							["classe"] = "UNKNOW",
 							["tipo"] = 4,
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["aID"] = "122833",
 							["serial"] = "Creature-0-4229-1669-2009-122833-000091CB05",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -5262,12 +5262,6 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "13:20:49",
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -5287,6 +5281,12 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["frags_need_refresh"] = true,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:20:49",
 				["end_time"] = 435682.384,
 				["TimeData"] = {
 				},
@@ -5351,12 +5351,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006899,
-							["damage_taken"] = 0.006899,
+							["last_dps"] = 31160.06899,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778847,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 31160.06899,
+							["damage_taken"] = 0.006899,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5369,11 +5369,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778846,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778846,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5385,15 +5385,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3116.00655,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778847,
+							["total"] = 3116.00655,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -5439,7 +5439,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778846,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 3116.00655,
+							["end_time"] = 1611778847,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -5452,17 +5452,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 3116.004558,
-							["classe"] = "UNKNOW",
+							["total"] = 0.004558,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004558,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778847,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 3116.004558,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -5470,15 +5469,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.004558,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778847,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000011CAF8",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5608,12 +5608,6 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "13:20:47",
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -5633,6 +5627,12 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["frags_need_refresh"] = true,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:20:47",
 				["end_time"] = 435680.794,
 				["TimeData"] = {
 				},
@@ -5697,12 +5697,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004816,
-							["damage_taken"] = 0.004816,
+							["last_dps"] = 11123.18940286102,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778845,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 11123.18940286102,
+							["damage_taken"] = 0.004816,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5715,11 +5715,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778838,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778838,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5731,15 +5731,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 1,
 							["aID"] = "",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 53725.006189,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1611778845,
+							["total"] = 53725.006189,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "Samoanbatman",
 							["nome"] = "Lightforged Battery <Samoanbatman>",
@@ -5785,7 +5785,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1611778838,
 							["serial"] = "Vehicle-0-4229-1669-2009-122789-000011CB18",
-							["total"] = 53725.006189,
+							["end_time"] = 1611778845,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -5798,17 +5798,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 53725.007037,
-							["classe"] = "UNKNOW",
+							["total"] = 0.007037,
 							["friendlyfire_total"] = 0,
+							["aID"] = "122833",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007037,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778845,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 53725.007037,
 							["tipo"] = 1,
 							["nome"] = "Frenzied Plaguewing",
 							["spells"] = {
@@ -5842,15 +5841,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.007037,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778845,
 							["serial"] = "Creature-0-4229-1669-2009-122833-000191CB02",
-							["aID"] = "122833",
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -5937,17 +5937,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["aID"] = "122833",
+							["last_event"] = 0,
 							["nome"] = "Frenzied Plaguewing",
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[241547] = 17,
 							},
+							["pets"] = {
+							},
 							["fight_component"] = true,
-							["classe"] = "UNKNOW",
 							["tipo"] = 4,
-							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["aID"] = "122833",
 							["serial"] = "Creature-0-4229-1669-2009-122833-000091CB07",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -6029,6 +6029,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:20:39",
+				["end_time"] = 435678.242,
+				["combat_id"] = 19,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6048,9 +6051,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435678.242,
-				["combat_id"] = 19,
-				["data_inicio"] = "13:20:39",
 				["tempo_start"] = 1611778838,
 				["spells_cast_timeline"] = {
 				},
@@ -6083,15 +6083,15 @@ _detalhes_database = {
 							["delay"] = 1611778810,
 							["pets"] = {
 							},
-							["total"] = 6.006871,
-							["aID"] = "123109",
+							["damage_taken"] = 0.006871,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6.006871,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778824,
+							["total"] = 6.006871,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Seething Harbinger",
@@ -6128,16 +6128,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.006871,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778824,
 							["custom"] = 0,
 							["last_event"] = 1611778810,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778823,
 							["serial"] = "Creature-0-4229-1669-2009-123109-000091C505",
-							["friendlyfire_total"] = 0,
+							["aID"] = "123109",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -6155,15 +6155,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "162-0A49E245",
 							["classe"] = "DEMONHUNTER",
+							["aID"] = "162-0A49E245",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005124,
-							["damage_taken"] = 6.005124,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["end_time"] = 1611778824,
-							["on_hold"] = false,
+							["total"] = 0.005124,
+							["damage_taken"] = 6.005124,
 							["tipo"] = 1,
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
@@ -6172,11 +6173,10 @@ _detalhes_database = {
 							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1611778824,
 							["serial"] = "Player-162-0A49E245",
-							["total"] = 0.005124,
+							["end_time"] = 1611778824,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6203,15 +6203,15 @@ _detalhes_database = {
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
-							["buff_uptime"] = 56,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[131347] = 1,
 							},
-							["aID"] = "162-0A49E245",
+							["buff_uptime"] = 56,
+							["pets"] = {
+							},
 							["last_event"] = 1611778824,
-							["tipo"] = 4,
+							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
@@ -6273,7 +6273,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-162-0A49E245",
-							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6352,6 +6352,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:20:10",
+				["end_time"] = 435658.021,
+				["combat_id"] = 18,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6371,9 +6374,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435658.021,
-				["combat_id"] = 18,
-				["data_inicio"] = "13:20:10",
 				["overall_added"] = true,
 				["frags"] = {
 				},
@@ -6410,12 +6410,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2160.006059,
-							["damage_taken"] = 0.006059,
+							["last_dps"] = 17419.40370010834,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778787,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 17419.40370010834,
+							["damage_taken"] = 0.006059,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6456,11 +6456,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778787,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778787,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6473,17 +6473,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 2160.006303,
-							["classe"] = "UNKNOW",
+							["total"] = 0.006303,
 							["friendlyfire_total"] = 0,
+							["aID"] = "123110",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006303,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778787,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 2160.006303,
 							["tipo"] = 1,
 							["nome"] = "Shadowbound Defiler",
 							["spells"] = {
@@ -6491,15 +6490,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.006303,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778787,
 							["serial"] = "Creature-0-4229-1669-2009-123110-000391C505",
-							["aID"] = "123110",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6662,6 +6662,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:19:47",
+				["end_time"] = 435620.446,
+				["combat_id"] = 17,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6681,9 +6684,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435620.446,
-				["combat_id"] = 17,
-				["data_inicio"] = "13:19:47",
 				["tempo_start"] = 1611778787,
 				["spells_cast_timeline"] = {
 				},
@@ -6721,12 +6721,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7858.005418000001,
-							["damage_taken"] = 0.005418,
+							["last_dps"] = 78580.05418,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778734,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 78580.05418,
+							["damage_taken"] = 0.005418,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6795,11 +6795,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778733,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778733,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6812,17 +6812,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 7858.001212,
-							["classe"] = "UNKNOW",
+							["total"] = 0.001212,
 							["friendlyfire_total"] = 0,
+							["aID"] = "123110",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001212,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778734,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 7858.001212,
 							["tipo"] = 1,
 							["nome"] = "Shadowbound Defiler",
 							["spells"] = {
@@ -6917,15 +6916,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.001212,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1611778785,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778734,
 							["serial"] = "Creature-0-4229-1669-2009-123110-000411C505",
-							["aID"] = "123110",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6960,8 +6960,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778787,
 							["tipo"] = 3,
+							["last_event"] = 1611778787,
 							["alternatepower"] = 0.003861,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -7116,6 +7116,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:18:54",
+				["end_time"] = 435567.1,
+				["combat_id"] = 16,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7135,9 +7138,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435567.1,
-				["combat_id"] = 16,
-				["data_inicio"] = "13:18:54",
 				["tempo_start"] = 1611778733,
 				["spells_cast_timeline"] = {
 				},
@@ -7176,12 +7176,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3326.007042,
-							["damage_taken"] = 13.007042,
+							["last_dps"] = 4086.003737035288,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778723,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 4086.003737035288,
+							["damage_taken"] = 13.007042,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7222,11 +7222,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778722,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778722,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7239,17 +7239,16 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["damage_taken"] = 3326.0079,
-							["classe"] = "UNKNOW",
+							["total"] = 0.0079,
 							["friendlyfire_total"] = 0,
+							["aID"] = "123109",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.0079,
 							["fight_component"] = true,
 							["monster"] = true,
 							["end_time"] = 1611778723,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 3326.0079,
 							["tipo"] = 1,
 							["nome"] = "Seething Harbinger",
 							["spells"] = {
@@ -7257,15 +7256,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["total"] = 0.0079,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["last_dps"] = 0,
 							["start_time"] = 1611778723,
 							["serial"] = "Creature-0-4229-1669-2009-123109-000B91C504",
-							["aID"] = "123109",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7300,8 +7300,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778733,
 							["tipo"] = 3,
+							["last_event"] = 1611778733,
 							["alternatepower"] = 0.005262,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -7456,6 +7456,9 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "13:18:43",
+				["end_time"] = 435556.645,
+				["combat_id"] = 15,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7475,9 +7478,6 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 435556.645,
-				["combat_id"] = 15,
-				["data_inicio"] = "13:18:43",
 				["tempo_start"] = 1611778722,
 				["spells_cast_timeline"] = {
 				},
@@ -7593,12 +7593,12 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7431.001258,
-							["damage_taken"] = 10.001258,
+							["last_dps"] = 2953.498115258495,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1611778719,
 							["aID"] = "162-0A49E245",
-							["last_dps"] = 2953.498115258495,
+							["damage_taken"] = 10.001258,
 							["nome"] = "Samoanbatman",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7667,11 +7667,11 @@ _detalhes_database = {
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1611778716,
-							["serial"] = "Player-162-0A49E245",
 							["friendlyfire"] = {
 							},
+							["start_time"] = 1611778716,
+							["serial"] = "Player-162-0A49E245",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7685,15 +7685,15 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["total"] = 10.005861,
-							["aID"] = "123109",
+							["damage_taken"] = 7431.005861,
 							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10.005861,
 							["fight_component"] = true,
 							["monster"] = true,
-							["end_time"] = 1611778719,
+							["total"] = 10.005861,
 							["on_hold"] = false,
 							["tipo"] = 1,
 							["nome"] = "Seething Harbinger",
@@ -7732,16 +7732,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 7431.005861,
+							["last_dps"] = 0,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["end_time"] = 1611778719,
 							["custom"] = 0,
 							["last_event"] = 1611778718,
-							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1611778716,
 							["serial"] = "Creature-0-4229-1669-2009-123109-000D91C505",
-							["friendlyfire_total"] = 0,
+							["aID"] = "123109",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7776,8 +7776,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 577,
 							["aID"] = "162-0A49E245",
-							["last_event"] = 1611778718,
 							["tipo"] = 3,
+							["last_event"] = 1611778718,
 							["alternatepower"] = 0.001628,
 							["flag_original"] = 1297,
 							["serial"] = "Player-162-0A49E245",
@@ -7796,15 +7796,15 @@ _detalhes_database = {
 							["nome"] = "Samoanbatman",
 							["spec"] = 577,
 							["grupo"] = true,
-							["buff_uptime"] = 12,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[162243] = 2,
 							},
-							["aID"] = "162-0A49E245",
+							["buff_uptime"] = 12,
+							["pets"] = {
+							},
 							["last_event"] = 1611778719,
-							["tipo"] = 4,
+							["aID"] = "162-0A49E245",
+							["classe"] = "DEMONHUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[93795] = {
@@ -7855,7 +7855,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-162-0A49E245",
-							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7916,9 +7916,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "13:18:36",
-				["end_time"] = 435552.598,
-				["combat_id"] = 14,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -7938,6 +7935,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 435552.598,
+				["combat_id"] = 14,
+				["data_inicio"] = "13:18:36",
 				["tempo_start"] = 1611778716,
 				["spells_cast_timeline"] = {
 				},
@@ -8003,24 +8003,6 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["cached_talents"] = {
-		["Player-3725-0A524116"] = {
-			22385, -- [1]
-			18571, -- [2]
-			22159, -- [3]
-			18577, -- [4]
-			18580, -- [5]
-			22389, -- [6]
-			21648, -- [7]
-		},
-		["Player-162-0B3AFCB9"] = {
-			22039, -- [1]
-			21180, -- [2]
-			19285, -- [3]
-			19292, -- [4]
-			19291, -- [5]
-			23159, -- [6]
-			19284, -- [7]
-		},
 		["Player-162-0A49E245"] = {
 			22503, -- [1]
 			22766, -- [2]
@@ -8029,24 +8011,6 @@ _detalhes_database = {
 			22510, -- [5]
 			22513, -- [6]
 			22543, -- [7]
-		},
-		["Player-3725-0BF1787B"] = {
-			22119, -- [1]
-			23470, -- [2]
-			19240, -- [3]
-			22122, -- [4]
-			22115, -- [5]
-			23128, -- [6]
-			23075, -- [7]
-		},
-		["Player-75-09794542"] = {
-			22460, -- [1]
-			22443, -- [2]
-			22444, -- [3]
-			22452, -- [4]
-			22446, -- [5]
-			23176, -- [6]
-			21634, -- [7]
 		},
 	},
 	["last_instance_id"] = 2290,
@@ -8132,7 +8096,27 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["use_spark"] = true,
 			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -8144,27 +8128,7 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = 4.57763671875e-05,
-			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -8176,7 +8140,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -8185,7 +8149,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -8257,6 +8221,12 @@ _detalhes_database = {
 			},
 		},
 	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "17",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -8268,18 +8238,12 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
-	["last_day"] = "12",
 	["nick_tag_cache"] = {
-		["nextreset"] = 1615912783,
+		["nextreset"] = 1617260931,
 		["last_version"] = 14,
 	},
 	["character_data"] = {
-		["logons"] = 10,
+		["logons"] = 12,
 	},
 	["combat_id"] = 31,
 	["savedStyles"] = {
@@ -8329,21 +8293,1170 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.005969,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Felforge Salvager"] = 0,
+						["Unstable Felshard"] = 0,
+						["Quartermaster Aikras"] = 0,
+						["Flickering Argunite"] = 0,
+						["Rubble"] = 0,
+						["Soulripper Warfiend"] = 0,
+						["Frenzied Plaguewing"] = 0,
+						["Seething Harbinger"] = 0,
+						["Shadowbound Defiler"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.005969,
+					["aID"] = "162-0A49E245",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.005969,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Quartermaster Aikras"] = 0,
+									["Felforge Salvager"] = 0,
+									["Seething Harbinger"] = 0,
+									["Shadowbound Defiler"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[258883] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Felforge Salvager"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 258883,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[199552] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Felforge Salvager"] = 0,
+									["Quartermaster Aikras"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 199552,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[162243] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Quartermaster Aikras"] = 0,
+									["Felforge Salvager"] = 0,
+									["Seething Harbinger"] = 0,
+									["Shadowbound Defiler"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 162243,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[199547] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Quartermaster Aikras"] = 0,
+									["Felforge Salvager"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 199547,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[248149] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Unstable Felshard"] = 0,
+									["Soulripper Warfiend"] = 0,
+									["Flickering Argunite"] = 0,
+									["Rubble"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 248149,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[337819] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Felforge Salvager"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 337819,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[198030] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Felforge Salvager"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 198030,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Samoanbatman",
+					["spec"] = 577,
+					["grupo"] = true,
+					["classe"] = "DEMONHUNTER",
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1615964928,
+					["serial"] = "Player-162-0A49E245",
+					["total"] = 0.005969,
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.002102,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.002102,
+					["aID"] = "162-0B3AFCB9",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002102,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["dps_started"] = false,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Herbcraft",
+					["spec"] = 265,
+					["grupo"] = true,
+					["classe"] = "WARLOCK",
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1615964928,
+					["serial"] = "Player-162-0B3AFCB9",
+					["total"] = 0.002102,
+				}, -- [2]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.005127,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "125439",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.005127,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1615964931,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.005127,
+					["nome"] = "Flickering Argunite",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.005127,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-125439-000111C508",
+					["classe"] = "UNKNOW",
+				}, -- [3]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.0023,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "124905",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.0023,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1615964931,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.0023,
+					["nome"] = "Rubble",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.0023,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-124905-000111C504",
+					["classe"] = "UNKNOW",
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.001507,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.001507,
+					["aID"] = "121534",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.001507,
+					["total"] = 0.001507,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Soulripper Warfiend",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-121534-000311C504",
+					["fight_component"] = true,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.008419,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Samoanbatman"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.008419,
+					["aID"] = "123109",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.008419,
+					["total"] = 0.008419,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Seething Harbinger",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-123109-000491C505",
+					["fight_component"] = true,
+				}, -- [6]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.001904,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "125387",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.001904,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1615964931,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.001904,
+					["nome"] = "Unstable Felshard",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.001904,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-125387-000211C507",
+					["classe"] = "UNKNOW",
+				}, -- [7]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.008763,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Samoanbatman"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.008763,
+					["aID"] = "123241",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.008763,
+					["total"] = 0.008763,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Felforge Salvager",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[251164] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 251164,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-123241-000011CB9B",
+					["fight_component"] = true,
+				}, -- [8]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.003161,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.003161,
+					["aID"] = "123247",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.003161,
+					["total"] = 0.003161,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Quartermaster Aikras",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-123247-000011CB9B",
+					["fight_component"] = true,
+				}, -- [9]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.004512,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Samoanbatman"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["total"] = 0.004512,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.004512,
+					["monster"] = true,
+					["fight_component"] = true,
+					["end_time"] = 1615964931,
+					["damage_taken"] = 0.004512,
+					["tipo"] = 1,
+					["nome"] = "[*] Unstable Concoctions",
+					["spells"] = {
+						["_ActorTable"] = {
+							[251163] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 251163,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["friendlyfire_total"] = 0,
+					["aID"] = "",
+					["on_hold"] = false,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1615964928,
+					["serial"] = "",
+					["dps_started"] = false,
+				}, -- [10]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.006787,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Samoanbatman"] = 0,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.006787,
+					["aID"] = "123110",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.006787,
+					["total"] = 0.006787,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Shadowbound Defiler",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[251028] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 251028,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[251031] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Samoanbatman"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 251031,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-123110-000511C504",
+					["fight_component"] = true,
+				}, -- [11]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.002313,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["dps_started"] = false,
+					["damage_taken"] = 0.002313,
+					["aID"] = "122833",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002313,
+					["total"] = 0.002313,
+					["monster"] = true,
+					["end_time"] = 1615964931,
+					["last_dps"] = 0,
+					["tipo"] = 1,
+					["nome"] = "Frenzied Plaguewing",
+					["spells"] = {
+						["_ActorTable"] = {
+							[241547] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 241547,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "UNKNOW",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1615964928,
+					["serial"] = "Creature-0-4229-1669-2009-122833-000091CB14",
+					["fight_component"] = true,
+				}, -- [12]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.003229,
+					["total_without_pet"] = 0.003229,
+					["total"] = 0.003229,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-162-0A49E245",
+					["totalabsorb"] = 0.003229,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.003229,
+					["healing_taken"] = 0.003229,
+					["end_time"] = 1615964931,
+					["spec"] = 581,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Samoanbatman",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["classe"] = "DEMONHUNTER",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.003229,
+					["start_time"] = 1615964928,
+					["delay"] = 0,
+					["aID"] = "162-0A49E245",
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.005507,
+					["total_without_pet"] = 0.005507,
+					["total"] = 0.005507,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-162-0B4FF4C7",
+					["totalabsorb"] = 0.005507,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.005507,
+					["healing_taken"] = 0.005507,
+					["end_time"] = 1615964931,
+					["spec"] = 266,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Gl",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["last_event"] = 0,
+					["classe"] = "WARLOCK",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["totaldenied"] = 0.005507,
+					["start_time"] = 1615964928,
+					["delay"] = 0,
+					["aID"] = "162-0B4FF4C7",
+				}, -- [2]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 0.006374,
+					["resource"] = 620.080574,
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["powertype"] = 1,
+					["classe"] = "DEMONHUNTER",
+					["passiveover"] = 0.006374,
+					["resource_type"] = 17,
+					["totalover"] = 0.006374,
+					["nome"] = "Samoanbatman",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 7,
+					},
+					["grupo"] = true,
+					["aID"] = "162-0A49E245",
+					["last_event"] = 0,
+					["alternatepower"] = 0.006374,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 577,
+					["serial"] = "Player-162-0A49E245",
+					["total"] = 0.006374,
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[248149] = {
+								["id"] = 248149,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1490] = {
+								["id"] = 1490,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[258883] = {
+								["id"] = 258883,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 0,
+					["classe"] = "DEMONHUNTER",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[269083] = {
+								["id"] = 269083,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188499] = {
+								["id"] = 188499,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[198013] = {
+								["id"] = 198013,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[227723] = {
+								["id"] = 227723,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[93795] = {
+								["id"] = 93795,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186403] = {
+								["id"] = 186403,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[131347] = {
+								["id"] = 131347,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 577,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[162794] = 0,
+						[188499] = 0,
+						[162243] = 0,
+						[131347] = 0,
+						[185123] = 0,
+					},
+					["aID"] = "162-0A49E245",
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["pets"] = {
+					},
+					["nome"] = "Samoanbatman",
+					["serial"] = "Player-162-0A49E245",
+					["debuff_uptime_targets"] = {
+					},
+				}, -- [1]
+				{
+					["monster"] = true,
+					["flag_original"] = 68168,
+					["nome"] = "Felforge Salvager",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[251164] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "123241",
+					["serial"] = "Creature-0-4229-1669-2009-123241-000111CB74",
+					["pets"] = {
+					},
+				}, -- [2]
+				{
+					["monster"] = true,
+					["flag_original"] = 2632,
+					["nome"] = "Frenzied Plaguewing",
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[241547] = 0,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "122833",
+					["serial"] = "Creature-0-4229-1669-2009-122833-000091CB1B",
+					["pets"] = {
+					},
+				}, -- [3]
 			},
 		}, -- [4]
 		{
@@ -8361,8 +9474,10 @@ _detalhes_database = {
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 44,
+		["spells_cast_timeline"] = {
+		},
 		["totals"] = {
-			0, -- [1]
+			-0.012953, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -8374,10 +9489,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -8392,8 +9507,6 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["spells_cast_timeline"] = {
-		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -8407,23 +9520,25 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
+		["cleu_timeline"] = {
 		},
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 		["start_time"] = 0,
 		["TimeData"] = {
@@ -8437,17 +9552,17 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
-			},
-			["damage_section"] = {
 			},
 			["damage"] = {
 			},
 		},
 	},
-	["combat_counter"] = 44,
+	["combat_counter"] = 46,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -8472,5 +9587,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-162-0A49E245"] = 581,
 	},
 }

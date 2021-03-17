@@ -1,5 +1,8 @@
 
 SpyPerCharDB = {
+	["version"] = "1.1",
+	["IgnoreData"] = {
+	},
 	["KOSData"] = {
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
@@ -8,8 +11,6 @@ SpyPerCharDB = {
 		["Kaijinn"] = 1611979218,
 		["Herpexio"] = 1608326277,
 	},
-	["IgnoreData"] = {
-	},
 	["PlayerData"] = {
 		["Meddling"] = {
 			["mapID"] = 1670,
@@ -17,6 +18,7 @@ SpyPerCharDB = {
 			["zone"] = "Oribos",
 			["loses"] = 1,
 			["class"] = "ROGUE",
+			["added"] = 1608587648,
 			["isEnemy"] = true,
 			["race"] = "Orc",
 			["time"] = 1609266347,
@@ -32,15 +34,16 @@ SpyPerCharDB = {
 			["zone"] = "Revendreth",
 			["loses"] = 2,
 			["class"] = "DRUID",
+			["added"] = 1608326279,
 			["isEnemy"] = true,
-			["subZone"] = "Briar Gate",
+			["name"] = "Whackers",
 			["race"] = "Troll",
-			["time"] = 1608947713,
+			["subZone"] = "Briar Gate",
 			["mapY"] = 0.53,
 			["mapX"] = 0.56,
 			["level"] = 60,
 			["wins"] = 3,
-			["name"] = "Whackers",
+			["time"] = 1608947713,
 		},
 		["Draazz"] = {
 			["mapID"] = 1536,
@@ -48,6 +51,7 @@ SpyPerCharDB = {
 			["zone"] = "Maldraxxus",
 			["loses"] = 1,
 			["class"] = "PALADIN",
+			["added"] = 1606942090,
 			["isEnemy"] = true,
 			["reason"] = {
 				["Attacked me at a quest giver"] = true,
@@ -67,6 +71,7 @@ SpyPerCharDB = {
 			["zone"] = "Stormwind City",
 			["loses"] = 1,
 			["class"] = "MAGE",
+			["added"] = 1614298422,
 			["isEnemy"] = true,
 			["reason"] = {
 				["Enter your own reason..."] = "Griefing AFK in Stormwind",
@@ -85,6 +90,7 @@ SpyPerCharDB = {
 			["zone"] = "Bastion",
 			["loses"] = 1,
 			["class"] = "MAGE",
+			["added"] = 1611979218,
 			["isEnemy"] = true,
 			["race"] = "Blood Elf",
 			["time"] = 1611979213,
@@ -100,6 +106,7 @@ SpyPerCharDB = {
 			["zone"] = "Oribos",
 			["loses"] = 4,
 			["class"] = "DEATHKNIGHT",
+			["added"] = 1608326277,
 			["isEnemy"] = true,
 			["race"] = "Blood Elf",
 			["time"] = 1609892097,
@@ -110,5 +117,4 @@ SpyPerCharDB = {
 			["name"] = "Herpexio",
 		},
 	},
-	["version"] = "1.1",
 }

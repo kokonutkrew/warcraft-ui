@@ -1,10 +1,5 @@
 
 SpyPerCharDB = {
-	["version"] = "1.1",
-	["IgnoreData"] = {
-	},
-	["KOSData"] = {
-	},
 	["PlayerData"] = {
 		["Albedø-Thrall"] = {
 			["mapID"] = 627,
@@ -14,11 +9,16 @@ SpyPerCharDB = {
 			["isEnemy"] = true,
 			["race"] = "Blood Elf",
 			["name"] = "Albedø-Thrall",
-			["subZone"] = "Dalaran",
-			["mapX"] = 0.5,
-			["level"] = 59,
-			["isGuess"] = false,
 			["time"] = 1615536157,
+			["isGuess"] = false,
+			["level"] = 59,
+			["mapX"] = 0.5,
+			["subZone"] = "Dalaran",
 		},
+	},
+	["IgnoreData"] = {
+	},
+	["version"] = "1.1",
+	["KOSData"] = {
 	},
 }

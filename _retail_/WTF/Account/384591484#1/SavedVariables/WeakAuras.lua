@@ -134,14 +134,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
 				["use_talent"] = true,
 				["use_class"] = true,
 				["use_spellknown"] = true,
 				["zoneIds"] = "",
+				["spec"] = {
+					["multi"] = {
+					},
+				},
 				["use_combat"] = true,
 				["spellknown"] = 255937,
 				["size"] = {
@@ -166,7 +166,7 @@ WeakAurasSaved = {
 			["xOffset"] = -2.99993896484375,
 			["selfPoint"] = "CENTER",
 			["desaturate"] = false,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0,
 			["auto"] = true,
 			["frameStrata"] = 1,
 			["id"] = "KK-Wake of Ashes",
@@ -177,7 +177,7 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = true,
-			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
 			["information"] = {

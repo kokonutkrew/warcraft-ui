@@ -28,8 +28,8 @@ FishingBuddy_Info = {
 			[111651] = 10,
 		},
 	},
-	["Version"] = 19500,
 	["FishInfo2"] = 0,
+	["Version"] = 19500,
 	["KnownZones"] = {
 		[539] = "Eventide Landing",
 		[582] = "Herbcraft's Garrison",
@@ -42,9 +42,9 @@ FishingBuddy_Info = {
 	},
 	["ImppDBLoaded"] = 0,
 	["Fishies"] = {
-		[111672] = {
-			["enUS"] = "Enormous Sea Scorpion",
-			["texture"] = 970817,
+		[111658] = {
+			["enUS"] = "Small Sea Scorpion",
+			["texture"] = 970815,
 			["quality"] = 1,
 		},
 		[110292] = {
@@ -57,9 +57,9 @@ FishingBuddy_Info = {
 			["texture"] = 970846,
 			["quality"] = 1,
 		},
-		[111658] = {
-			["enUS"] = "Small Sea Scorpion",
-			["texture"] = 970815,
+		[111651] = {
+			["enUS"] = "Small Fat Sleeper",
+			["texture"] = 970821,
 			["quality"] = 1,
 		},
 		[110290] = {
@@ -79,9 +79,9 @@ FishingBuddy_Info = {
 			["quest"] = true,
 			["texture"] = 133912,
 		},
-		[111651] = {
-			["enUS"] = "Small Fat Sleeper",
-			["texture"] = 970821,
+		[111672] = {
+			["enUS"] = "Enormous Sea Scorpion",
+			["texture"] = 970817,
 			["quality"] = 1,
 		},
 	},

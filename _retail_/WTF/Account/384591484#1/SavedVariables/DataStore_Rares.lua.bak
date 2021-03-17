@@ -12,14 +12,14 @@ DataStore_RaresDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Emerald Dream.Samoanhunter"] = {
-				["lastUpdate"] = 1607153717,
+			["Default.Emerald Dream.Samoanlock"] = {
+				["lastUpdate"] = 1606883663,
 			},
 			["Default.Emerald Dream.Samoanwar"] = {
 				["lastUpdate"] = 1606844404,
 			},
-			["Default.Emerald Dream.Stronguard"] = {
-				["lastUpdate"] = 1608735079,
+			["Default.Emerald Dream.Samoanhunter"] = {
+				["lastUpdate"] = 1607153717,
 			},
 			["Default.Emerald Dream.Dethwish"] = {
 				["lastUpdate"] = 1607160173,
@@ -30,41 +30,41 @@ DataStore_RaresDB = {
 			["Default.Emerald Dream.Royders"] = {
 				["lastUpdate"] = 1604720947,
 			},
-			["Default.Emerald Dream.Samoanlock"] = {
-				["lastUpdate"] = 1606883663,
+			["Default.Emerald Dream.Stronguard"] = {
+				["lastUpdate"] = 1608735079,
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
 				["Rares"] = {
 					[99792] = {
-						["resetTime"] = 85292,
+						["resetTime"] = 28219,
 						["name"] = "Elfbane",
 					},
 					[109054] = {
-						["resetTime"] = 85292,
+						["resetTime"] = 28219,
 						["name"] = "Shal'an",
 					},
 					[110577] = {
-						["resetTime"] = 85292,
+						["resetTime"] = 28219,
 						["name"] = "Oreth the Vile",
 					},
 					[111197] = {
-						["resetTime"] = 85292,
+						["resetTime"] = 28219,
 						["name"] = "Anax",
 					},
 					[103223] = {
-						["resetTime"] = 85292,
+						["resetTime"] = 28219,
 						["name"] = "Hertha Grimdottir",
 					},
 				},
 				["RareKillsCounter"] = {
-					[99792] = 7,
-					[109054] = 7,
-					[110577] = 7,
-					[111197] = 7,
+					[99792] = 9,
+					[109054] = 9,
+					[110577] = 9,
+					[111197] = 9,
 					[126946] = 1,
-					[103223] = 7,
+					[103223] = 9,
 				},
-				["lastUpdate"] = 1615043907,
+				["lastUpdate"] = 1615964980,
 			},
 		},
 	},

@@ -12,8 +12,8 @@ ChatterDB = {
 						[0] = false,
 						[7] = false,
 						[8] = false,
-						[9] = false,
 						[5] = false,
+						[9] = false,
 						[6] = false,
 					},
 				},
@@ -295,9 +295,9 @@ ChatterDB = {
 							["g"] = 0.4705882668495178,
 							["b"] = 0.03921568766236305,
 						},
-						["MONEY"] = {
+						["FILTERED"] = {
 							["r"] = 1,
-							["g"] = 1,
+							["g"] = 0,
 							["b"] = 0,
 						},
 						["TEXT_EMOTE"] = {
@@ -395,10 +395,10 @@ ChatterDB = {
 							["g"] = 0.4980392456054688,
 							["b"] = 0,
 						},
-						["ACHIEVEMENT"] = {
+						["ARENA_POINTS"] = {
 							["r"] = 1,
 							["g"] = 1,
-							["b"] = 0,
+							["b"] = 1,
 						},
 						["General"] = {
 							["r"] = 1,
@@ -485,10 +485,10 @@ ChatterDB = {
 							["g"] = 0.784313797950745,
 							["b"] = 1,
 						},
-						["ARENA_POINTS"] = {
+						["ACHIEVEMENT"] = {
 							["r"] = 1,
 							["g"] = 1,
-							["b"] = 1,
+							["b"] = 0,
 						},
 						["Instance"] = {
 							["r"] = 1,
@@ -525,9 +525,9 @@ ChatterDB = {
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
-						["FILTERED"] = {
+						["MONEY"] = {
 							["r"] = 1,
-							["g"] = 0,
+							["g"] = 1,
 							["b"] = 0,
 						},
 						["PET_BATTLE_COMBAT_LOG"] = {
@@ -606,38 +606,38 @@ ChatterDB = {
 			["realm"] = {
 				["Emerald Dream"] = {
 					["history"] = {
-						"/invite Samoanrelic", -- [1]
-						"/ema config", -- [2]
-						"/invite Samoantitan-stormrage", -- [3]
-						"/aap", -- [4]
-						"/ginvite samoanranger", -- [5]
-						"/ginvite samoansage", -- [6]
-						"/ema", -- [7]
-						"/ema config", -- [8]
-						"/ginvite samoanrelic", -- [9]
-						"/ginvite samoanruin", -- [10]
-						"/ginvite samoanmystic", -- [11]
-						"/ginvite samoanlegend", -- [12]
-						"/ginvite dustcraft", -- [13]
-						"/ginvite orecraft", -- [14]
-						"/ginvite threadcraft", -- [15]
-						"/reload", -- [16]
-						"/s can you help me summon my friend", -- [17]
-						"/cw Güra hello", -- [18]
-						"/cw Güra can you help me summon my buddy here to dalaran", -- [19]
-						"/cw Güra ty", -- [20]
-						"/cw Güra awe man", -- [21]
-						"/cw Güra ok", -- [22]
-						"/cw Güra ya I thought there was one here too", -- [23]
-						"/cw Durilgrim can you help us summon", -- [24]
-						"/p maybe this guy will help us", -- [25]
-						"/p thanks mate", -- [26]
-						"/p Ive got a buddy", -- [27]
-						"/p yall rock!", -- [28]
-						"/p haha all good", -- [29]
-						"/p looks like he made it in", -- [30]
-						"/p much apreciated", -- [31]
-						"/p you too", -- [32]
+						"/ema config", -- [1]
+						"/invite Samoantitan-stormrage", -- [2]
+						"/aap", -- [3]
+						"/ginvite samoanranger", -- [4]
+						"/ginvite samoansage", -- [5]
+						"/ema", -- [6]
+						"/ema config", -- [7]
+						"/ginvite samoanrelic", -- [8]
+						"/ginvite samoanruin", -- [9]
+						"/ginvite samoanmystic", -- [10]
+						"/ginvite samoanlegend", -- [11]
+						"/ginvite dustcraft", -- [12]
+						"/ginvite orecraft", -- [13]
+						"/ginvite threadcraft", -- [14]
+						"/reload", -- [15]
+						"/s can you help me summon my friend", -- [16]
+						"/cw Güra hello", -- [17]
+						"/cw Güra can you help me summon my buddy here to dalaran", -- [18]
+						"/cw Güra ty", -- [19]
+						"/cw Güra awe man", -- [20]
+						"/cw Güra ok", -- [21]
+						"/cw Güra ya I thought there was one here too", -- [22]
+						"/cw Durilgrim can you help us summon", -- [23]
+						"/p maybe this guy will help us", -- [24]
+						"/p thanks mate", -- [25]
+						"/p Ive got a buddy", -- [26]
+						"/p yall rock!", -- [27]
+						"/p haha all good", -- [28]
+						"/p looks like he made it in", -- [29]
+						"/p much apreciated", -- [30]
+						"/p you too", -- [31]
+						"/ginvite farmcraft", -- [32]
 					},
 				},
 				["Stormrage"] = {

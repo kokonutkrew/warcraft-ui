@@ -25,6 +25,7 @@ VWQL = {
 	},
 	["Ignore"] = {
 	},
+	["VERSION"] = 100,
 	["Ckpanda-EmeraldDream"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -33,7 +34,6 @@ VWQL = {
 		},
 		["VERSION"] = 97,
 	},
-	["VERSION"] = 99,
 	["Sort"] = 5,
 	["Dethwish-EmeraldDream"] = {
 		["Filter"] = 63,
@@ -57,7 +57,7 @@ VWQL = {
 		},
 		["Quests"] = {
 		},
-		["VERSION"] = 99,
+		["VERSION"] = 100,
 	},
 	["Stronguard-EmeraldDream"] = {
 		["VERSION"] = 97,

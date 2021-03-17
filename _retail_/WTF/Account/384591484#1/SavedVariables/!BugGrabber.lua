@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 427,
+	["session"] = 429,
 	["errors"] = {
 		{
 			["message"] = "Interface\\FrameXML\\StaticPopup.lua:4460: bad argument #2 to 'SetFormattedText' (string expected, got nil)",
@@ -486,22 +486,22 @@ BugGrabberDB = {
 			["time"] = "2021/01/27 12:54:20",
 			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n}\n(*temporary) = \"WORLD_MAP_UPDATE\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `RegisterEvent'\n[string \"@Interface\\AddOns\\RareSpawnOverlay\\RareSpawnOverlay-7.0.00000.lua\"]:108: in main chunk",
-			["session"] = 427,
-			["counter"] = 9,
+			["session"] = 429,
+			["counter"] = 11,
 		}, -- [65]
 		{
 			["message"] = "(null)",
 			["time"] = "2021/01/27 12:55:00",
-			["session"] = 427,
-			["counter"] = 27,
+			["session"] = 429,
+			["counter"] = 33,
 		}, -- [66]
 		{
 			["message"] = "Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:250: attempt to call global 'GetCurrentMapContinent' (a nil value)",
 			["time"] = "2021/01/27 12:56:31",
 			["locals"] = "self = <table> {\n WorldMapAvailable = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:21\n CreateWorldMapOverlayFrame = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:120\n CreateCheckButton = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:163\n SetUpdated = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:234\n BattlefieldMapAvailable = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:25\n BattlefieldMinimapOverlayFrames = <table> {\n }\n MapLegendCheckButtons = <table> {\n }\n MapFrames = <table> {\n }\n IsUpdated = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:249\n ClearUpdated = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:241\n UpdateWorldMap = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:110\n SetupFrames = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:16\n UpdateBattlefieldMapFrame = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:153\n UpdateWorldMapFrame = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:134\n CreateBattlefieldMapOverlayFrame = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:139\n ShowOverlay = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:57\n UpdateMapLegendCheckButton = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:214\n HandleCheckButtonClick = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:206\n CreateMapLegendCheckButton = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:158\n WorldMapFrame_Show_Hook = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:29\n ClearFrames = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:41\n WorldMapFrame_Hide_Hook = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:36\n HideOverlay = <function> defined @Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua:105\n}\n(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetCurrentMapContinent' (a nil value)\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua\"]:250: in function `IsUpdated'\n[string \"@Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua\"]:59: in function `ShowOverlay'\n[string \"@Interface\\AddOns\\RareSpawnOverlay\\RSO-MapManager.lua\"]:32: in function `WorldMapFrame_Show_Hook'\n[string \"@Interface\\AddOns\\RareSpawnOverlay\\RareSpawnOverlay-7.0.00000.lua\"]:95: in function <...terface\\AddOns\\RareSpawnOverlay\\RareSpawnOverlay.lua:95>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2910: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2810: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2623: in function <Interface\\FrameXML\\UIParent.lua:2619>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3468: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\QuestLogOwnerMixin.lua\"]:103: in function `SetDisplayState'\n[string \"@Interface\\FrameXML\\QuestLogOwnerMixin.lua\"]:41: in function `HandleUserActionToggleSelf'\n[string \"@Interface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua\"]:440: in function <...rface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua:439>\n[string \"=[C]\"]: in function `ToggleWorldMap'\n[string \"TOGGLEWORLDMAP\"]:1: in function <[string \"TOGGLEWORLDMAP\"]:1>",
-			["session"] = 427,
-			["counter"] = 18,
+			["session"] = 429,
+			["counter"] = 22,
 		}, -- [67]
 	},
 }

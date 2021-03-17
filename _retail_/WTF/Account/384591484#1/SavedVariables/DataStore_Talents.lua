@@ -97,7 +97,7 @@ DataStore_TalentsDB = {
 				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
-				["lastUpdate"] = 1615550506,
+				["lastUpdate"] = 1615968169,
 				["Specializations"] = {
 					14043, -- [1]
 					6826, -- [2]
@@ -433,12 +433,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "WARLOCK",
 			},
-			["Default.Emerald Dream.Stronguard"] = {
-				["lastUpdate"] = 1608734460,
+			["Default.Tichondrius.Samoansaint"] = {
+				["lastUpdate"] = 1546209432,
 				["Specializations"] = {
-					[3] = 9,
+					[3] = 0,
 				},
-				["Class"] = "PALADIN",
+				["Class"] = "PRIEST",
 			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["lastUpdate"] = 1547637963,
@@ -548,12 +548,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Tichondrius.Samoansaint"] = {
-				["lastUpdate"] = 1546209432,
+			["Default.Emerald Dream.Stronguard"] = {
+				["lastUpdate"] = 1608734460,
 				["Specializations"] = {
-					[3] = 0,
+					[3] = 9,
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "PALADIN",
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,

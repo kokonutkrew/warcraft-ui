@@ -12,33 +12,34 @@ DataStore_TalentsDB = {
 		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
-		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
 		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
-		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
 		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
-		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
@@ -48,21 +49,21 @@ DataStore_TalentsDB = {
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
-		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1615437742,
+				["lastUpdate"] = 1615983779,
 				["Specializations"] = {
 					0, -- [1]
 					1, -- [2]
@@ -587,7 +588,7 @@ DataStore_TalentsDB = {
 				["Class"] = "PRIEST",
 			},
 			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615588136,
+				["lastUpdate"] = 1615933300,
 				["Specializations"] = {
 					13654, -- [1]
 					0, -- [2]
@@ -601,6 +602,13 @@ DataStore_TalentsDB = {
 					[3] = 0,
 				},
 				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1615971102,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DRUID",
 			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["lastUpdate"] = 1603382397,
@@ -745,7 +753,7 @@ DataStore_TalentsDB = {
 				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615587529,
+				["lastUpdate"] = 1615972652,
 				["Specializations"] = {
 					6811, -- [1]
 					10662, -- [2]
@@ -800,13 +808,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "MONK",
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614988457,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
 				["Specializations"] = {
 					0, -- [1]
-					7845, -- [2]
 				},
-				["Class"] = "HUNTER",
+				["Class"] = "PRIEST",
 			},
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1603396867,
@@ -1041,26 +1048,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DRUID",
 			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "PRIEST",
-			},
-			["Default.Stormrage.Samoantotems"] = {
-				["lastUpdate"] = 1544635459,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "SHAMAN",
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022453,
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1547416006,
 				["Specializations"] = {
 					[3] = 0,
 				},
-				["Class"] = "MONK",
+				["Class"] = "MAGE",
 			},
 			["Default.Emerald Dream.Samoanbeast"] = {
 				["lastUpdate"] = 1615371211,
@@ -1070,6 +1063,13 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DRUID",
 			},
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1545022453,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MONK",
+			},
 			["Default.Emerald Dream.Samoanruin"] = {
 				["lastUpdate"] = 1611778005,
 				["Specializations"] = {
@@ -1077,6 +1077,13 @@ DataStore_TalentsDB = {
 					[2] = 0,
 				},
 				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Stormrage.Samoantotems"] = {
+				["lastUpdate"] = 1544635459,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "SHAMAN",
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777527,
@@ -1087,23 +1094,24 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PRIEST",
 			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1547416006,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MAGE",
-			},
 			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615553775,
+				["lastUpdate"] = 1615979368,
 				["Specializations"] = {
 					6825, -- [1]
 					0, -- [2]
 				},
 				["Class"] = "WARLOCK",
 			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614988457,
+				["Specializations"] = {
+					0, -- [1]
+					7845, -- [2]
+				},
+				["Class"] = "HUNTER",
+			},
 			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615505742,
+				["lastUpdate"] = 1615971953,
 				["Specializations"] = {
 					0, -- [1]
 				},
@@ -1125,33 +1133,34 @@ DataStore_TalentsRefDB = {
 		["Gentodnes - Emerald Dream"] = "Gentodnes - Emerald Dream",
 		["Hfishsamoan - Ravenholdt"] = "Hfishsamoan - Ravenholdt",
 		["Samoanspy - Emerald Dream"] = "Samoanspy - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
 		["Samoanbeast - Ravenholdt"] = "Samoanbeast - Ravenholdt",
 		["Vithun - Emerald Dream"] = "Vithun - Emerald Dream",
-		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
-		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
-		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Aheenan - Emerald Dream"] = "Aheenan - Emerald Dream",
-		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
 		["Scootervin - Emerald Dream"] = "Scootervin - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
-		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
-		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoanzero - Emerald Dream"] = "Samoanzero - Emerald Dream",
 		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
-		["Samoantotems - Stormrage"] = "Samoantotems - Stormrage",
+		["Samoansaint - Stormrage"] = "Samoansaint - Stormrage",
 		["Wealthgaming - Emerald Dream"] = "Wealthgaming - Emerald Dream",
-		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
 		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
-		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
+		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
 		["Samoanmystic - Tichondrius"] = "Samoanmystic - Tichondrius",
 		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
 		["Samoanstrap - Tichondrius"] = "Samoanstrap - Tichondrius",
-		["Samoanreaper - Emerald Dream"] = "Samoanreaper - Emerald Dream",
+		["Craudy - Emerald Dream"] = "Craudy - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Gfsdfgsd - Tichondrius"] = "Gfsdfgsd - Tichondrius",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
@@ -1161,15 +1170,15 @@ DataStore_TalentsRefDB = {
 		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
 		["Shgrshn - Tichondrius"] = "Shgrshn - Tichondrius",
 		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
-		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Kakattack - Stormrage"] = "Kakattack - Stormrage",
 		["Brunderan - Emerald Dream"] = "Brunderan - Emerald Dream",
 		["Kalin - Ravenholdt"] = "Kalin - Ravenholdt",
 		["Samoansteel - Emerald Dream"] = "Samoansteel - Emerald Dream",
-		["Serepa - Tichondrius"] = "Serepa - Tichondrius",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Autumnx - Emerald Dream"] = "Autumnx - Emerald Dream",
-		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 	["global"] = {
@@ -1235,7 +1244,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 37864,
+			["Version"] = 37899,
 		},
 		["SHAMAN"] = {
 			["Locale"] = "enUS",
@@ -1341,7 +1350,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 37893,
+			["Version"] = 37899,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -1567,18 +1576,6 @@ DataStore_TalentsRefDB = {
 						22385, -- [1]
 						22386, -- [2]
 						22387, -- [3]
-						19283, -- [4]
-						18570, -- [5]
-						18571, -- [6]
-						22155, -- [7]
-						22157, -- [8]
-						22159, -- [9]
-						21778, -- [10]
-						18576, -- [11]
-						18577, -- [12]
-						18580, -- [13]
-						21706, -- [14]
-						21702, -- [15]
 					},
 				}, -- [1]
 				{
@@ -1648,7 +1645,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [4]
 			},
-			["Version"] = 37864,
+			["Version"] = 37899,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",

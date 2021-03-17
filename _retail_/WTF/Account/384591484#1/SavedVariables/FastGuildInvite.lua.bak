@@ -14,27 +14,23 @@ FGI_DB = {
 			["search"] = {
 				["tempSendedInvites"] = {
 					["Andrindea"] = true,
-					["Heamian"] = true,
 					["Lethalas"] = true,
-					["Milkslammer"] = true,
-					["Littänia"] = true,
-					["Chard"] = true,
 					["Commit"] = true,
-					["Eugeliel"] = true,
+					["Milkslammer"] = true,
 					["Testingonef"] = true,
+					["Chard"] = true,
 					["Berdine"] = true,
+					["Puffnman"] = true,
 					["Merlinduvk"] = true,
-					["Ràrity"] = true,
-					["Liannaria"] = true,
 					["Wyrmfoe"] = true,
+					["Liannaria"] = true,
 					["Vanorius"] = true,
 					["Ievity"] = true,
-					["Shogun"] = true,
 					["Phonyx"] = true,
 					["Liinda"] = true,
+					["Shogun"] = true,
 					["Jeargen"] = true,
 					["Nimblybimbly"] = true,
-					["Puffnman"] = true,
 					["Chanja"] = true,
 					["Capriestsüñ"] = true,
 					["Nutrabullet"] = true,
@@ -56,215 +52,187 @@ FGI_DB = {
 				["timeShift"] = 0,
 				["inviteList"] = {
 					{
-						["race"] = "Draenei",
-						["name"] = "Ràrity",
-						["lvl"] = 50,
-						["class"] = "Shaman",
-						["NoLocaleClass"] = "SHAMAN",
-					}, -- [1]
-					{
-						["race"] = "Night Elf",
-						["name"] = "Littänia",
-						["lvl"] = 50,
-						["class"] = "Druid",
-						["NoLocaleClass"] = "DRUID",
-					}, -- [2]
-					{
-						["race"] = "Worgen",
-						["name"] = "Eugeliel",
-						["lvl"] = 50,
-						["class"] = "Druid",
-						["NoLocaleClass"] = "DRUID",
-					}, -- [3]
-					{
-						["race"] = "Dwarf",
-						["name"] = "Heamian",
-						["lvl"] = 50,
-						["class"] = "Paladin",
-						["NoLocaleClass"] = "PALADIN",
-					}, -- [4]
-					{
 						["race"] = "Gnome",
 						["name"] = "Commit",
 						["lvl"] = 48,
 						["class"] = "Mage",
 						["NoLocaleClass"] = "MAGE",
-					}, -- [5]
+					}, -- [1]
 					{
 						["race"] = "Night Elf",
 						["name"] = "Andrindea",
 						["lvl"] = 50,
 						["class"] = "Death Knight",
 						["NoLocaleClass"] = "DEATHKNIGHT",
-					}, -- [6]
+					}, -- [2]
 					{
 						["race"] = "Human",
 						["name"] = "Chanja",
 						["lvl"] = 51,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [7]
+					}, -- [3]
 					{
 						["race"] = "Gnome",
 						["name"] = "Maliphek",
 						["lvl"] = 51,
 						["class"] = "Mage",
 						["NoLocaleClass"] = "MAGE",
-					}, -- [8]
+					}, -- [4]
 					{
 						["race"] = "Human",
 						["name"] = "Lethalas",
 						["lvl"] = 51,
 						["class"] = "Paladin",
 						["NoLocaleClass"] = "PALADIN",
-					}, -- [9]
+					}, -- [5]
 					{
 						["race"] = "Pandaren",
 						["name"] = "Liinda",
 						["lvl"] = 50,
 						["class"] = "Monk",
 						["NoLocaleClass"] = "MONK",
-					}, -- [10]
+					}, -- [6]
 					{
 						["race"] = "Human",
 						["name"] = "Jeargen",
 						["lvl"] = 48,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [11]
+					}, -- [7]
 					{
 						["race"] = "Worgen",
 						["name"] = "Testingonef",
 						["lvl"] = 48,
 						["class"] = "Druid",
 						["NoLocaleClass"] = "DRUID",
-					}, -- [12]
+					}, -- [8]
 					{
 						["race"] = "Human",
 						["name"] = "Milkslammer",
 						["lvl"] = 50,
 						["class"] = "Paladin",
 						["NoLocaleClass"] = "PALADIN",
-					}, -- [13]
+					}, -- [9]
 					{
 						["race"] = "Void Elf",
 						["name"] = "Nutrabullet",
 						["lvl"] = 52,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [14]
+					}, -- [10]
 					{
 						["race"] = "Void Elf",
 						["name"] = "Chard",
 						["lvl"] = 50,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [15]
+					}, -- [11]
 					{
 						["race"] = "Human",
 						["name"] = "Phonyx",
 						["lvl"] = 50,
 						["class"] = "Paladin",
 						["NoLocaleClass"] = "PALADIN",
-					}, -- [16]
+					}, -- [12]
 					{
 						["race"] = "Void Elf",
 						["name"] = "Capriestsüñ",
 						["lvl"] = 50,
 						["class"] = "Priest",
 						["NoLocaleClass"] = "PRIEST",
-					}, -- [17]
+					}, -- [13]
 					{
 						["race"] = "Human",
 						["name"] = "Ievity",
 						["lvl"] = 50,
 						["class"] = "Warrior",
 						["NoLocaleClass"] = "WARRIOR",
-					}, -- [18]
+					}, -- [14]
 					{
 						["race"] = "Night Elf",
 						["name"] = "Nimblybimbly",
 						["lvl"] = 50,
 						["class"] = "Druid",
 						["NoLocaleClass"] = "DRUID",
-					}, -- [19]
+					}, -- [15]
 					{
 						["race"] = "Night Elf",
 						["name"] = "Vanorius",
 						["lvl"] = 50,
 						["class"] = "Druid",
 						["NoLocaleClass"] = "DRUID",
-					}, -- [20]
+					}, -- [16]
 					{
 						["race"] = "Human",
 						["name"] = "Solvaryn",
 						["lvl"] = 50,
 						["class"] = "Monk",
 						["NoLocaleClass"] = "MONK",
-					}, -- [21]
+					}, -- [17]
 					{
 						["race"] = "Void Elf",
 						["name"] = "Liannaria",
 						["lvl"] = 50,
 						["class"] = "Warrior",
 						["NoLocaleClass"] = "WARRIOR",
-					}, -- [22]
+					}, -- [18]
 					{
 						["race"] = "Human",
 						["name"] = "Merlinduvk",
 						["lvl"] = 50,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [23]
+					}, -- [19]
 					{
 						["race"] = "Night Elf",
 						["name"] = "Berdine",
 						["lvl"] = 50,
 						["class"] = "Druid",
 						["NoLocaleClass"] = "DRUID",
-					}, -- [24]
+					}, -- [20]
 					{
 						["race"] = "Night Elf",
 						["name"] = "Moonshaft",
 						["lvl"] = 51,
 						["class"] = "Druid",
 						["NoLocaleClass"] = "DRUID",
-					}, -- [25]
+					}, -- [21]
 					{
 						["race"] = "Human",
 						["name"] = "Shogun",
 						["lvl"] = 51,
 						["class"] = "Warrior",
 						["NoLocaleClass"] = "WARRIOR",
-					}, -- [26]
+					}, -- [22]
 					{
 						["race"] = "Kul Tiran",
 						["name"] = "Puffnman",
 						["lvl"] = 52,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [27]
+					}, -- [23]
 					{
 						["race"] = "Worgen",
 						["name"] = "Wyrmfoe",
 						["lvl"] = 52,
 						["class"] = "Hunter",
 						["NoLocaleClass"] = "HUNTER",
-					}, -- [28]
+					}, -- [24]
 					{
 						["race"] = "Human",
 						["name"] = "Arcanós",
 						["lvl"] = 52,
 						["class"] = "Paladin",
 						["NoLocaleClass"] = "PALADIN",
-					}, -- [29]
+					}, -- [25]
 					{
 						["race"] = "Void Elf",
 						["name"] = "Lunairyfaye",
 						["lvl"] = 51,
 						["class"] = "Mage",
 						["NoLocaleClass"] = "MAGE",
-					}, -- [30]
+					}, -- [26]
 				},
 				["oldCount"] = 40,
 			},
@@ -292,11 +260,14 @@ FGI_DB = {
 	},
 	["realm"] = {
 		["Emerald Dream"] = {
+			["leave"] = {
+				["Klapers"] = true,
+			},
 			["blackList"] = {
 				["Gratatatata"] = "no reason",
 			},
-			["leave"] = {
-				["Klapers"] = true,
+			["alreadySended"] = {
+				["Mf"] = 1615575600,
 			},
 		},
 	},

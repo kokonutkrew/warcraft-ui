@@ -3,7 +3,11 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Samoanbatman-emerald-dream"
 RaiderIO_MissingCharacters = {
-	["us-Cenaduriel-emerald-dream"] = true,
-	["us-Forthebored-emerald-dream"] = true,
+	["us-Heliodus-emerald-dream"] = true,
+	["us-Smokey-emerald-dream"] = true,
+	["us-Kentgaming-emerald-dream"] = true,
+	["us-Aálni-emerald-dream"] = true,
+	["us-Nirame-emerald-dream"] = true,
+	["us-Lichtstrahl-emerald-dream"] = true,
 }
 RaiderIO_CachedRuns = nil

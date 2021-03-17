@@ -10,8 +10,8 @@ OneRing_Config = {
 			["Bindings"] = {
 				["CommonTrades"] = "ALT-T",
 				["TrinketSlots"] = "SHIFT-5",
-				["CapsLock"] = "CAPSLOCK",
 				["KKPeriod"] = ".",
+				["CapsLock"] = "CAPSLOCK",
 			},
 		},
 	},

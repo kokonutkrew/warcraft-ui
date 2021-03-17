@@ -23,29 +23,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARRIOR",
-							["last_dps"] = 2.510514373636049,
+							["spec"] = 1446,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 62.004684,
-							["last_event"] = 1615545096,
+							["on_hold"] = false,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 62.004684,
 							["aID"] = "162-0B4FF2E7",
-							["damage_taken"] = 57.004684,
+							["last_dps"] = 2.510514373636049,
 							["nome"] = "Mf",
-							["spec"] = 1446,
-							["grupo"] = true,
-							["end_time"] = 1615545102,
-							["on_hold"] = false,
-							["custom"] = 0,
-							["colocacao"] = 1,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1615545077,
-							["serial"] = "Player-162-0B4FF2E7",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -107,6 +96,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1615545102,
+							["last_event"] = 1615545096,
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["damage_taken"] = 57.004684,
+							["start_time"] = 1615545077,
+							["serial"] = "Player-162-0B4FF2E7",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -119,8 +119,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 62.00340900000001,
 							["aID"] = "157051",
 							["raid_targets"] = {
 							},
@@ -129,7 +129,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 2.003409,
 							["end_time"] = 1615545102,
-							["damage_taken"] = 62.00340900000001,
+							["on_hold"] = false,
 							["nome"] = "Private Cole",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -165,7 +165,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["dps_started"] = false,
 							["custom"] = 0,
@@ -218,8 +218,8 @@ _detalhes_database = {
 							["grupo"] = true,
 							["totalover"] = 0.005603,
 							["flag_original"] = 1297,
-							["tipo"] = 3,
 							["last_event"] = 1615545089,
+							["tipo"] = 3,
 							["aID"] = "162-0B4FF2E7",
 							["alternatepower"] = 0.005603,
 							["serial"] = "Player-162-0B4FF2E7",
@@ -288,14 +288,14 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					63.991807, -- [1]
-					-0.005982, -- [2]
+					63.97558400000032, -- [1]
+					-0.07267200000000573, -- [2]
 					{
-						5.998904, -- [1]
-						[0] = 0,
+						5.992964, -- [1]
+						[0] = -0.005808,
 						["alternatepower"] = 0,
 						[6] = 0,
-						[3] = 0,
+						[3] = -0.001184,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
@@ -474,22 +474,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARRIOR",
-							["last_dps"] = 3.745552836899716,
+							["spec"] = 1446,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 60.007502,
-							["last_event"] = 1615545055,
+							["damage_taken"] = 0.007502,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1615545061,
 							["aID"] = "162-0B4FF2E7",
-							["damage_taken"] = 0.007502,
+							["last_dps"] = 3.745552836899716,
 							["nome"] = "Mf",
-							["spec"] = 1446,
-							["grupo"] = true,
-							["total"] = 60.007502,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -551,13 +547,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 60.007502,
+							["last_event"] = 1615545055,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1615545039,
 							["serial"] = "Player-162-0B4FF2E7",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -569,16 +569,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.001337,
 							["classe"] = "UNKNOW",
+							["end_time"] = 1615545061,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001337,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.001337,
 							["fight_component"] = true,
-							["end_time"] = 1615545061,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 60.001337,
 							["nome"] = "Combat Dummy",
 							["spells"] = {
@@ -586,7 +586,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "160737",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -595,7 +595,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1615545061,
 							["serial"] = "Creature-0-3138-2175-1775-160737-00004B1B71",
-							["dps_started"] = false,
+							["aID"] = "160737",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -875,7 +875,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -884,7 +884,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
@@ -929,31 +929,16 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_size"] = 10,
-			["arrow_anchor_y"] = 0,
-			["use_spark"] = true,
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -965,7 +950,22 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["y"] = 4.57763671875e-05,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -991,7 +991,7 @@ _detalhes_database = {
 			["food_tier3"] = true,
 		},
 	},
-	["last_day"] = "12",
+	["last_day"] = "17",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -1013,7 +1013,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["character_data"] = {
-		["logons"] = 2,
+		["logons"] = 8,
 	},
 	["combat_id"] = 2,
 	["savedStyles"] = {
@@ -1184,7 +1184,7 @@ _detalhes_database = {
 					},
 					["on_hold"] = false,
 					["damage_taken"] = 2.014968,
-					["friendlyfire_total"] = 0,
+					["aID"] = "162-0B4FF2E7",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 122.014968,
@@ -1264,7 +1264,7 @@ _detalhes_database = {
 					},
 					["start_time"] = 1615545012,
 					["serial"] = "Player-162-0B4FF2E7",
-					["aID"] = "162-0B4FF2E7",
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68136,
@@ -1276,10 +1276,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
+					["damage_taken"] = 60.002405,
 					["last_dps"] = 0,
-					["friendlyfire"] = {
-					},
-					["aID"] = "160737",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002405,
@@ -1287,7 +1286,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1615545062,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 60.002405,
+					["on_hold"] = false,
 					["nome"] = "Combat Dummy",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -1299,10 +1298,11 @@ _detalhes_database = {
 					["total"] = 0.002405,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1615545059,
 					["serial"] = "Creature-0-3138-2175-1775-160737-00004B1B71",
-					["classe"] = "UNKNOW",
+					["aID"] = "160737",
 				}, -- [2]
 				{
 					["flag_original"] = 68136,
@@ -1315,10 +1315,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
+					["damage_taken"] = 62.01043800000001,
 					["last_dps"] = 0,
-					["friendlyfire"] = {
-					},
-					["aID"] = "157051",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2.010438,
@@ -1326,7 +1325,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1615545102,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 62.01043800000001,
+					["on_hold"] = false,
 					["nome"] = "Private Cole",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -1366,10 +1365,11 @@ _detalhes_database = {
 					["total"] = 2.010438,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1615545086,
 					["serial"] = "Creature-0-3138-2175-1775-157051-00004B42EF",
-					["classe"] = "UNKNOW",
+					["aID"] = "157051",
 				}, -- [3]
 			},
 		}, -- [1]
@@ -1383,7 +1383,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 6.009033,
-					["resource"] = 0.014636,
+					["resource"] = 0.04825399999999999,
 					["targets"] = {
 						["Mf"] = 0,
 					},
@@ -1411,8 +1411,8 @@ _detalhes_database = {
 					["grupo"] = true,
 					["spec"] = 1446,
 					["aID"] = "162-0B4FF2E7",
-					["last_event"] = 0,
 					["tipo"] = 3,
+					["last_event"] = 0,
 					["alternatepower"] = 0.009033,
 					["flag_original"] = 1297,
 					["serial"] = "Player-162-0B4FF2E7",
@@ -1429,15 +1429,15 @@ _detalhes_database = {
 					["nome"] = "Mf",
 					["spec"] = 1446,
 					["grupo"] = true,
-					["spell_cast"] = {
-						[1464] = 10,
+					["pets"] = {
 					},
 					["classe"] = "WARRIOR",
 					["last_event"] = 0,
-					["pets"] = {
-					},
-					["serial"] = "Player-162-0B4FF2E7",
 					["tipo"] = 4,
+					["serial"] = "Player-162-0B4FF2E7",
+					["spell_cast"] = {
+						[1464] = 10,
+					},
 				}, -- [1]
 				{
 					["fight_component"] = true,
@@ -1466,10 +1466,22 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
-		["cleu_timeline"] = {
+		["segments_added"] = {
+			{
+				["elapsed"] = 24.69800000003306,
+				["type"] = 0,
+				["name"] = "Private Cole",
+				["clock"] = "03:31:17",
+			}, -- [1]
+			{
+				["elapsed"] = 22.27500000002328,
+				["type"] = 0,
+				["name"] = "Combat Dummy",
+				["clock"] = "03:30:39",
+			}, -- [2]
 		},
 		["tempo_start"] = 1615545039,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
@@ -1506,6 +1518,8 @@ _detalhes_database = {
 		},
 		["data_inicio"] = "03:30:39",
 		["end_time"] = 391499.247,
+		["last_events_tables"] = {
+		},
 		["totals_grupo"] = {
 			122.012186, -- [1]
 			0, -- [2]
@@ -1542,20 +1556,6 @@ _detalhes_database = {
 			["damage_section"] = {
 			},
 		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 24.69800000003306,
-				["type"] = 0,
-				["name"] = "Private Cole",
-				["clock"] = "03:31:17",
-			}, -- [1]
-			{
-				["elapsed"] = 22.27500000002328,
-				["type"] = 0,
-				["name"] = "Combat Dummy",
-				["clock"] = "03:30:39",
-			}, -- [2]
-		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
@@ -1578,7 +1578,7 @@ _detalhes_database = {
 	},
 	["cached_talents"] = {
 	},
-	["combat_counter"] = 6,
+	["combat_counter"] = 12,
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -1599,6 +1599,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-162-0B4FF486"] = 1446,
+		["Player-162-0B4FF486"] = 72,
 	},
 }

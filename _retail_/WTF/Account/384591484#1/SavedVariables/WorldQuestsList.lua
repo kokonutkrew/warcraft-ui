@@ -43,14 +43,7 @@ VWQL = {
 		["Filter"] = 63,
 	},
 	["Sort"] = 5,
-	["Ckpanda-EmeraldDream"] = {
-		["VERSION"] = 97,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
+	["VERSION"] = 100,
 	["Buhbles-EmeraldDream"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -67,6 +60,13 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["VERSION"] = 100,
+	["Ckpanda-EmeraldDream"] = {
+		["VERSION"] = 97,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
 	["HideLegion"] = true,
 }

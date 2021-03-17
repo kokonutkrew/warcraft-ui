@@ -22,7 +22,7 @@ WeakAurasSaved = {
 						["use_showgcd"] = true,
 						["use_trackcharge"] = false,
 						["debuffType"] = "HELPFUL",
-						["type"] = "status",
+						["type"] = "spell",
 						["unevent"] = "auto",
 						["buffShowOn"] = "showOnActive",
 						["spellName"] = 255937,
@@ -45,7 +45,7 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["internalVersion"] = 40,
+			["internalVersion"] = 44,
 			["keepAspectRatio"] = false,
 			["animation"] = {
 				["start"] = {
@@ -137,16 +137,17 @@ WeakAurasSaved = {
 				["use_talent"] = true,
 				["use_class"] = true,
 				["use_spellknown"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
 				["spec"] = {
 					["multi"] = {
 					},
 				},
 				["use_combat"] = true,
 				["spellknown"] = 255937,
-				["size"] = {
-					["multi"] = {
-					},
-				},
+				["zoneIds"] = "",
 			},
 			["regionType"] = "icon",
 			["information"] = {
@@ -160,8 +161,8 @@ WeakAurasSaved = {
 			},
 			["selfPoint"] = "CENTER",
 			["xOffset"] = -2.99993896484375,
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0,
+			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["alpha"] = 1,
 			["id"] = "KK-Wake of Ashes",
@@ -195,8 +196,8 @@ WeakAurasSaved = {
 		["minimapPos"] = 126.869819244542,
 		["hide"] = false,
 	},
-	["lastUpgrade"] = 1606844392,
-	["dbVersion"] = 40,
+	["lastUpgrade"] = 1615545641,
+	["dbVersion"] = 44,
 	["login_squelch_time"] = 10,
 	["registered"] = {
 	},

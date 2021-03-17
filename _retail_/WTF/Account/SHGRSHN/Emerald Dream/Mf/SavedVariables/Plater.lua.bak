@@ -8,11 +8,12 @@ PlaterDBChr = {
 	["buffsBanned"] = {
 	},
 	["first_run3"] = {
+		["Player-162-0B4FF486"] = true,
 		["Player-162-0B4FF2E7"] = true,
 	},
-	["resources_on_target"] = false,
 	["minimap"] = {
 	},
+	["resources_on_target"] = false,
 	["debuffsBanned"] = {
 	},
 	["spellRangeCheckRangeEnemy"] = {

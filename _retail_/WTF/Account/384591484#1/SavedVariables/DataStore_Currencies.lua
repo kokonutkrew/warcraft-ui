@@ -47,6 +47,62 @@ DataStore_CurrenciesDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Emerald Dream.Stronguard"] = {
+				["CurrencyInfo"] = {
+					[1560] = "8-0-0-0",
+					[824] = "886-0-0-10000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 1,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 4,
+						["count"] = 8,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 20,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 886,
+					}, -- [4]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1608734460,
+			},
+			["Default.Emerald Dream.Samoanwar"] = {
+				["lastUpdate"] = 1606844397,
+				["Conquest"] = 0,
+			},
 			["Default.Emerald Dream.Samoanlock"] = {
 				["CurrencyInfo"] = {
 					[824] = "538-0-0-10000",
@@ -99,14 +155,6 @@ DataStore_CurrenciesDB = {
 						["count"] = 538,
 					}, -- [8]
 				},
-			},
-			["Default.Emerald Dream.Samoanwar"] = {
-				["lastUpdate"] = 1606844397,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Samoanhunter"] = {
-				["lastUpdate"] = 1607153703,
-				["Conquest"] = 0,
 			},
 			["Default.Emerald Dream.Royders"] = {
 				["Conquest"] = 0,
@@ -164,57 +212,9 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1607159619,
 				["Conquest"] = 0,
 			},
-			["Default.Emerald Dream.Stronguard"] = {
-				["CurrencyInfo"] = {
-					[1560] = "8-0-0-0",
-					[824] = "886-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 8,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 886,
-					}, -- [4]
-				},
+			["Default.Emerald Dream.Samoanhunter"] = {
+				["lastUpdate"] = 1607153703,
 				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1608734460,
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
 				["CurrencyInfo"] = {
@@ -222,15 +222,15 @@ DataStore_CurrenciesDB = {
 					[1220] = "1706-0-0-0",
 					[824] = "1834-0-0-10000",
 					[1813] = "777-0-0-35000",
+					[1191] = "50-0-0-5750",
 					[515] = "21-0-0-0",
-					[1191] = "50-0-0-5000",
 					[1828] = "120-0-0-8000",
-					[1560] = "8-0-0-0",
-					[1533] = "5-0-0-0",
-					[1792] = "997-0-0-15000",
-					[1166] = "200-0-0-0",
 					[1155] = "300-0-0-300",
+					[1533] = "5-0-0-0",
 					[1342] = "25-0-0-1000",
+					[1166] = "200-0-0-0",
+					[1560] = "8-0-0-0",
+					[1792] = "997-0-0-15000",
 					[1508] = "10-0-0-2000",
 					[1820] = "85-0-0-100",
 				},
@@ -347,7 +347,7 @@ DataStore_CurrenciesDB = {
 					}, -- [22]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1615550506,
+				["lastUpdate"] = 1615967531,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -442,41 +442,41 @@ DataStore_CurrenciesDB = {
 				["Timeless Coin"] = 38,
 				["Essence of Corrupted Deathwing"] = 41,
 				["Stygia"] = 51,
-				["Soul Ash"] = 50,
+				["Illustrious Jewelcrafter's Token"] = 44,
 				["Cataclysm"] = 40,
 				["Reservoir Anima"] = 49,
-				["Illustrious Jewelcrafter's Token"] = 44,
-				["Lingering Soul Fragment"] = 35,
 				["Mote of Darkness"] = 42,
+				["Lingering Soul Fragment"] = 35,
+				["Echoes of Battle"] = 34,
 				["Battle for Azeroth"] = 1,
 				["Ironpaw Token"] = 30,
-				["Echoes of Battle"] = 34,
 				["Seal of Tempered Fate"] = 26,
-				["Wrath of the Lich King"] = 27,
+				["Seafarer's Dubloon"] = 2,
+				["Legion"] = 5,
 				["Seal of Broken Fate"] = 8,
-				["Garrison Resources"] = 22,
+				["Shadowlands"] = 47,
 				["Lesser Charm of Good Fortune"] = 37,
-				["Infused Ruby"] = 48,
+				["Curious Coin"] = 15,
 				["Seal of Wartorn Fate"] = 3,
 				["Artifact Fragment"] = 24,
-				["Legion"] = 5,
-				["Shadowlands"] = 47,
 				["Warlords of Draenor"] = 20,
-				["Player vs. Player"] = 31,
+				["Wrath of the Lich King"] = 27,
 				["Timewarped Badge"] = 12,
+				["Player vs. Player"] = 31,
+				["7th Legion Service Medal"] = 29,
 				["Wakening Essence"] = 10,
 				["Oil"] = 23,
 				["Mists of Pandaria"] = 36,
 				["Honor"] = 46,
 				["Epicurean's Award"] = 43,
 				["Timeworn Artifact"] = 9,
-				["7th Legion Service Medal"] = 29,
+				["Soul Ash"] = 50,
 				["Miscellaneous"] = 13,
-				["Seafarer's Dubloon"] = 2,
+				["Infused Ruby"] = 48,
 				["Apexis Crystal"] = 21,
 				["Darkmoon Prize Ticket"] = 14,
+				["Garrison Resources"] = 22,
 				["Dalaran Jewelcrafter's Token"] = 45,
-				["Curious Coin"] = 15,
 				["Warforged Seal"] = 39,
 				["Champion's Seal"] = 28,
 				["Legionfall War Supplies"] = 16,

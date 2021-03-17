@@ -53,9 +53,9 @@ RematchSettings = {
 		},
 		["Collected"] = {
 		},
-		["Similar"] = {
-		},
 		["Sources"] = {
+		},
+		["Similar"] = {
 		},
 		["Breed"] = {
 		},

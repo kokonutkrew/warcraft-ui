@@ -1,9 +1,8 @@
 
 SpyPerCharDB = {
-	["version"] = "1.1",
-	["IgnoreData"] = {
-	},
 	["KOSData"] = {
+	},
+	["IgnoreData"] = {
 	},
 	["PlayerData"] = {
 		["Duchella"] = {
@@ -20,18 +19,20 @@ SpyPerCharDB = {
 			["subZone"] = "Wizard's Sanctum",
 			["time"] = 1608543184,
 		},
-		["Komi"] = {
-			["mapID"] = 831,
-			["zone"] = "Krokuun",
-			["mapY"] = 0.24,
-			["class"] = "ROGUE",
+		["Forthebored"] = {
+			["mapID"] = 1701,
+			["guild"] = "Dark Order",
+			["zone"] = "Ardenweald",
+			["mapY"] = 0.36,
+			["class"] = "WARLOCK",
 			["isEnemy"] = true,
-			["mapX"] = 0.39,
-			["isGuess"] = true,
-			["name"] = "Komi",
-			["race"] = "Vulpera",
-			["time"] = 1611780856,
-			["subZone"] = "The Vindicaar",
+			["race"] = "Blood Elf",
+			["isGuess"] = false,
+			["name"] = "Forthebored",
+			["time"] = 1615044685,
+			["level"] = 60,
+			["mapX"] = 0.34,
+			["subZone"] = "Heart of the Forest",
 		},
 		["Scottgg"] = {
 			["mapID"] = 1670,
@@ -63,21 +64,6 @@ SpyPerCharDB = {
 			["mapX"] = 0.39,
 			["subZone"] = "Hall of Shapes",
 		},
-		["Forthebored"] = {
-			["mapID"] = 1701,
-			["guild"] = "Dark Order",
-			["zone"] = "Ardenweald",
-			["mapY"] = 0.36,
-			["class"] = "WARLOCK",
-			["isEnemy"] = true,
-			["race"] = "Blood Elf",
-			["isGuess"] = false,
-			["name"] = "Forthebored",
-			["time"] = 1615044685,
-			["level"] = 60,
-			["mapX"] = 0.34,
-			["subZone"] = "Heart of the Forest",
-		},
 		["Fredsmonk"] = {
 			["mapID"] = 1670,
 			["guild"] = "Dishonored",
@@ -93,5 +79,19 @@ SpyPerCharDB = {
 			["mapX"] = 0.39,
 			["subZone"] = "Hall of Shapes",
 		},
+		["Komi"] = {
+			["mapID"] = 831,
+			["zone"] = "Krokuun",
+			["mapY"] = 0.24,
+			["class"] = "ROGUE",
+			["isEnemy"] = true,
+			["mapX"] = 0.39,
+			["isGuess"] = true,
+			["name"] = "Komi",
+			["race"] = "Vulpera",
+			["time"] = 1611780856,
+			["subZone"] = "The Vindicaar",
+		},
 	},
+	["version"] = "1.1",
 }

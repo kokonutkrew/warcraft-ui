@@ -15,6 +15,7 @@ DataStore_RaresDB = {
 		["Feerless - Emerald Dream"] = "Feerless - Emerald Dream",
 		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
 		["Haedshot - Emerald Dream"] = "Haedshot - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
 		["Tingerce - Emerald Dream"] = "Tingerce - Emerald Dream",
@@ -39,34 +40,17 @@ DataStore_RaresDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Emerald Dream.Tingerce"] = {
-				["lastUpdate"] = 1607744698,
-			},
 			["Default.Emerald Dream.Samoanslayer"] = {
-				["lastUpdate"] = 1615437743,
-			},
-			["Default.Emerald Dream.Samoanreaper"] = {
-				["lastUpdate"] = 1608195618,
+				["lastUpdate"] = 1615983799,
 			},
 			["Default.Emerald Dream.Dustcraft"] = {
 				["lastUpdate"] = 1615448219,
 			},
-			["Default.Stormrage.Samoansavage"] = {
-				["lastUpdate"] = 1603396805,
+			["Default.Tichondrius.Samoantank"] = {
+				["lastUpdate"] = 1603443864,
 			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615587967,
-				["RareKillsCounter"] = {
-					[171189] = 1,
-					[160721] = 1,
-					[163460] = 1,
-				},
-			},
-			["Default.Emerald Dream.Samoanruin"] = {
-				["lastUpdate"] = 1611778012,
-			},
-			["Default.Emerald Dream.Feerless"] = {
-				["lastUpdate"] = 1606633373,
+			["Default.Emerald Dream.Samoanreaper"] = {
+				["lastUpdate"] = 1608195618,
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1608540698,
@@ -98,14 +82,14 @@ DataStore_RaresDB = {
 					[133155] = 3,
 					[136346] = 3,
 					[126621] = 3,
-					[137824] = 3,
+					[127844] = 3,
 					[133531] = 3,
 					[127939] = 3,
 					[127820] = 3,
-					[136189] = 3,
-					[134760] = 3,
-					[127844] = 3,
 					[130138] = 3,
+					[134760] = 3,
+					[137824] = 3,
+					[136189] = 3,
 					[127651] = 3,
 					[124185] = 3,
 					[139285] = 3,
@@ -127,39 +111,39 @@ DataStore_RaresDB = {
 					[140938] = 3,
 					[135852] = 3,
 					[138938] = 3,
-					[127290] = 3,
-					[132319] = 3,
-					[125250] = 3,
 					[136335] = 3,
-					[139145] = 3,
-					[121242] = 3,
 					[128965] = 3,
-					[128973] = 3,
+					[125250] = 3,
+					[127290] = 3,
+					[139145] = 3,
 					[135796] = 3,
+					[132319] = 3,
+					[128973] = 3,
 					[136304] = 3,
-					[139321] = 3,
+					[121242] = 3,
+					[141226] = 3,
 					[136336] = 3,
 					[133812] = 3,
 					[139289] = 3,
-					[129950] = 3,
-					[141226] = 3,
+					[128426] = 3,
+					[139321] = 3,
 					[134638] = 3,
 					[139988] = 3,
-					[128426] = 3,
+					[129950] = 3,
 					[139385] = 3,
 					[138866] = 3,
 					[139290] = 3,
 					[128553] = 3,
-					[128974] = 3,
-					[137529] = 3,
-					[134782] = 3,
+					[139322] = 3,
 					[129411] = 3,
+					[134782] = 3,
+					[137529] = 3,
 					[136338] = 3,
 					[131984] = 3,
 					[132179] = 3,
-					[132068] = 3,
 					[131687] = 3,
-					[139322] = 3,
+					[132068] = 3,
+					[128974] = 3,
 					[129181] = 3,
 					[139280] = 3,
 					[122004] = 3,
@@ -177,51 +161,68 @@ DataStore_RaresDB = {
 					[132086] = 3,
 					[132182] = 3,
 					[139298] = 3,
-					[130079] = 3,
 					[132007] = 3,
+					[130079] = 3,
 				},
 			},
 			["Default.Emerald Dream.Samoansurge"] = {
 				["lastUpdate"] = 1615415037,
 			},
-			["Default.Emerald Dream.Samoanbeast"] = {
-				["lastUpdate"] = 1615371212,
-			},
-			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1603443864,
-			},
 			["Default.Emerald Dream.Samoansteel"] = {
 				["lastUpdate"] = 1608195932,
 			},
-			["Default.Emerald Dream.Vithun"] = {
-				["lastUpdate"] = 1608206291,
-			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["lastUpdate"] = 1608363120,
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1603441273,
+			["Default.Emerald Dream.Mf"] = {
+				["lastUpdate"] = 1615984464,
 			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1608226350,
 			},
+			["Default.Emerald Dream.Haedshot"] = {
+				["lastUpdate"] = 1607745889,
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1615971138,
+			},
+			["Default.Tichondrius.Samoansneaky"] = {
+				["lastUpdate"] = 1603382413,
+			},
+			["Default.Emerald Dream.Tingerce"] = {
+				["lastUpdate"] = 1607744698,
+			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1615972710,
+				["RareKillsCounter"] = {
+					[171189] = 1,
+					[160721] = 1,
+					[163460] = 1,
+				},
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["lastUpdate"] = 1615371212,
+			},
+			["Default.Emerald Dream.Samoanruin"] = {
+				["lastUpdate"] = 1611778012,
+			},
+			["Default.Stormrage.Samoansavage"] = {
+				["lastUpdate"] = 1603396805,
+			},
 			["Default.Emerald Dream.Brunderan"] = {
 				["lastUpdate"] = 1608675001,
 			},
-			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615546299,
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615588184,
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1615980475,
 				["RareKillsCounter"] = {
 					[160721] = 1,
 				},
 			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["lastUpdate"] = 1615507632,
+			["Default.Ravenholdt.Samoanbeast"] = {
+				["lastUpdate"] = 1608225703,
 			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["lastUpdate"] = 1607745889,
+			["Default.Emerald Dream.Scootervin"] = {
+				["lastUpdate"] = 1608363120,
+			},
+			["Default.Emerald Dream.Gentodnes"] = {
+				["lastUpdate"] = 1606633462,
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1614989529,
@@ -229,8 +230,14 @@ DataStore_RaresDB = {
 					[171189] = 1,
 				},
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633462,
+			["Default.Emerald Dream.Samoaninja"] = {
+				["lastUpdate"] = 1603441273,
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1615933351,
+				["RareKillsCounter"] = {
+					[160721] = 1,
+				},
 			},
 			["Default.Emerald Dream.Samoanmystic"] = {
 				["lastUpdate"] = 1612175292,
@@ -238,26 +245,23 @@ DataStore_RaresDB = {
 			["Default.Emerald Dream.Craudy"] = {
 				["lastUpdate"] = 1608200452,
 			},
-			["Default.Tichondrius.Samoansneaky"] = {
-				["lastUpdate"] = 1603382413,
+			["Default.Emerald Dream.Vithun"] = {
+				["lastUpdate"] = 1608206291,
 			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615554497,
-				["RareKillsCounter"] = {
-					[160721] = 1,
-				},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["lastUpdate"] = 1615983480,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777532,
 			},
 			["Default.Emerald Dream.Orecraft"] = {
-				["lastUpdate"] = 1615548516,
+				["lastUpdate"] = 1615982158,
 			},
-			["Default.Ravenholdt.Samoanbeast"] = {
-				["lastUpdate"] = 1608225703,
+			["Default.Emerald Dream.Feerless"] = {
+				["lastUpdate"] = 1606633373,
 			},
 			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615505786,
+				["lastUpdate"] = 1615972200,
 			},
 		},
 	},

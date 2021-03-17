@@ -15,15 +15,15 @@ DataStore_CovenantsDB = {
 				["lastUpdate"] = 1606844395,
 				["RenownLevel"] = 1,
 			},
+			["Default.Emerald Dream.Samoanhunter"] = {
+				["lastUpdate"] = 1607153702,
+				["RenownLevel"] = 1,
+			},
 			["Default.Emerald Dream.Stronguard"] = {
 				["lastUpdate"] = 1608734460,
 				["AnimaCurrency"] = {
 					["maxDisplayable"] = 10000,
 				},
-				["RenownLevel"] = 1,
-			},
-			["Default.Emerald Dream.Samoanlock"] = {
-				["lastUpdate"] = 1606883417,
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Buhbles"] = {
@@ -34,13 +34,13 @@ DataStore_CovenantsDB = {
 				["lastUpdate"] = 1607159739,
 				["RenownLevel"] = 1,
 			},
-			["Default.Emerald Dream.Samoanhunter"] = {
-				["lastUpdate"] = 1607153702,
+			["Default.Emerald Dream.Samoanlock"] = {
+				["lastUpdate"] = 1606883417,
 				["RenownLevel"] = 1,
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
 				["CovenantID"] = 3,
-				["lastUpdate"] = 1615550506,
+				["lastUpdate"] = 1615967529,
 				["InstalledConduits"] = {
 					[850] = 281,
 					[1009] = 132,
@@ -52,26 +52,26 @@ DataStore_CovenantsDB = {
 				["ConduitCollection"] = {
 					[281] = {
 						["conduitID"] = 281,
-						["conduitType"] = 1,
 						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 183463,
+						["conduitType"] = 1,
 						["conduitSpecSetID"] = 8,
-						["covenantID"] = 3,
+						["conduitItemID"] = 183463,
 						["conduitRank"] = 1,
+						["covenantID"] = 3,
 					},
 					[134] = {
 						["conduitID"] = 134,
 						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 182324,
 						["conduitSpecSetID"] = 8,
+						["conduitItemID"] = 182324,
 						["conduitRank"] = 1,
 					},
 					[132] = {
 						["conduitID"] = 132,
-						["conduitType"] = 2,
 						["conduitItemLevel"] = 145,
-						["conduitItemID"] = 182317,
+						["conduitType"] = 2,
 						["conduitSpecSetID"] = 8,
+						["conduitItemID"] = 182317,
 						["conduitRank"] = 1,
 					},
 				},

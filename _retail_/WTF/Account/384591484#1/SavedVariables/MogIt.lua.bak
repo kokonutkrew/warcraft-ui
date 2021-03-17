@@ -81,8 +81,8 @@ MogItDB = {
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
 				["Shield"] = "Shields",
-				["Staff"] = "Staves",
 				["Feet"] = "Feet",
+				["Staff"] = "Staves",
 				["Chest"] = "Chest",
 				["Crossbow"] = "Crossbows",
 				["Gun"] = "Guns",
@@ -132,7 +132,7 @@ MogItDB = {
 }
 MogItWishlist = {
 	["global"] = {
-		["version"] = 90002,
+		["version"] = 90005,
 	},
 	["profileKeys"] = {
 		["Samoansmash - Emerald Dream"] = "Samoansmash - Emerald Dream",

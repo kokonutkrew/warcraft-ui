@@ -63,6 +63,7 @@ FarmHudDB = {
 	["tracking^1863940"] = "client",
 	["SuperTrackedQuest"] = true,
 	["areaborder_arch_alpha"] = 1,
+	["tracking^4025144"] = "client",
 	["tracking^524051"] = "client",
 	["healcircle_color"] = {
 		0, -- [1]

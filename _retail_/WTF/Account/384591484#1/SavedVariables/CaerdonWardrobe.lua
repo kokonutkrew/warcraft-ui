@@ -12,9 +12,6 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 		},
 	},
-	["Debug"] = {
-		["Enabled"] = false,
-	},
 	["Icon"] = {
 		["ShowLearnableByOther"] = {
 			["Merchant"] = true,
@@ -47,4 +44,7 @@ CaerdonWardrobeConfig = {
 		},
 	},
 	["Version"] = 11,
+	["Debug"] = {
+		["Enabled"] = false,
+	},
 }

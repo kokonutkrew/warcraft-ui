@@ -8,16 +8,17 @@ AltoholicDB = {
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
 		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
 		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
-		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
 		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
-		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
 	},
 	["global"] = {
 		["options"] = {
 			["UI.Sharing.Ongoing.NumTargets"] = 0,
-			["UI.Mail.LastExpiryWarning"] = 1615576672,
+			["UI.Mail.LastExpiryWarning"] = 1615980570,
 		},
 	},
 }

@@ -44,7 +44,7 @@ FishingBuddy_Info = {
 			}, -- [1]
 		},
 	},
-	["FishInfo2"] = 0,
+	["Version"] = 19500,
 	["KnownZones"] = {
 		[539] = "Eventide Landing",
 		[582] = "Herbcraft's Garrison",
@@ -57,10 +57,10 @@ FishingBuddy_Info = {
 	},
 	["ImppDBLoaded"] = 0,
 	["Fishies"] = {
-		[111658] = {
-			["enUS"] = "Small Sea Scorpion",
+		[111651] = {
+			["enUS"] = "Small Fat Sleeper",
 			["quality"] = 1,
-			["texture"] = 970815,
+			["texture"] = 970821,
 		},
 		[110292] = {
 			["enUS"] = "Sea Scorpion Bait",
@@ -72,10 +72,10 @@ FishingBuddy_Info = {
 			["quality"] = 1,
 			["texture"] = 970846,
 		},
-		[111651] = {
-			["enUS"] = "Small Fat Sleeper",
+		[111672] = {
+			["enUS"] = "Enormous Sea Scorpion",
 			["quality"] = 1,
-			["texture"] = 970821,
+			["texture"] = 970817,
 		},
 		[110290] = {
 			["enUS"] = "Blind Lake Sturgeon Bait",
@@ -94,11 +94,11 @@ FishingBuddy_Info = {
 			["quest"] = true,
 			["quality"] = 1,
 		},
-		[111672] = {
-			["enUS"] = "Enormous Sea Scorpion",
+		[111658] = {
+			["enUS"] = "Small Sea Scorpion",
 			["quality"] = 1,
-			["texture"] = 970817,
+			["texture"] = 970815,
 		},
 	},
-	["Version"] = 19500,
+	["FishInfo2"] = 0,
 }

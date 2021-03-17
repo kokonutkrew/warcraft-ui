@@ -1,12 +1,12 @@
 
 RareSpawnOverlayOptions = {
 	["Enabled"] = true,
-	["Alpha"] = 0.5,
 	["Version"] = 3.2,
+	["ShowBattlefieldMapOverlays"] = true,
 	["ShowWorldMapOverlays"] = true,
-	["ShowWorldMapLegend"] = true,
+	["ShowOnMiniMap"] = true,
 	["MobVisibility"] = {
 	},
-	["ShowOnMiniMap"] = true,
-	["ShowBattlefieldMapOverlays"] = true,
+	["ShowWorldMapLegend"] = true,
+	["Alpha"] = 0.5,
 }

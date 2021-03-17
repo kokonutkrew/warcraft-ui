@@ -15,6 +15,7 @@ sArena3DB = {
 		["Feerless - Emerald Dream"] = "Default",
 		["Samoanrelic - Emerald Dream"] = "Default",
 		["Haedshot - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
 		["Dustcraft - Emerald Dream"] = "Default",
 		["Samoanbeast - Emerald Dream"] = "Default",
 		["Tingerce - Emerald Dream"] = "Default",

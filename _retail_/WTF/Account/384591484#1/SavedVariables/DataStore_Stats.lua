@@ -139,7 +139,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoanbatman"] = {
-				["lastUpdate"] = 1615550507,
+				["lastUpdate"] = 1615967538,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|20.39999961853",
 					["HealthMax"] = 38160,

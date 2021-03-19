@@ -9,6 +9,7 @@ BigDebuffsDB = {
 		["Threadcraft - Emerald Dream"] = "Default",
 		["Samoanbeast - Emerald Dream"] = "Default",
 		["Herbcraft - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 		["Samoanranger - Emerald Dream"] = "Default",
 		["Orecraft - Emerald Dream"] = "Default",
@@ -17,7 +18,7 @@ BigDebuffsDB = {
 		["Samoansurge - Emerald Dream"] = "Default",
 		["Dustcraft - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
-		["Mf - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

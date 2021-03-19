@@ -13,8 +13,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612499654,
-				["date"] = "21:34 04/02/21",
 				["elapsed"] = 587.7210000000196,
+				["date"] = "21:34 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						2422636, -- [1]
@@ -52,7 +52,7 @@ DetailsDataStorage = {
 				["time"] = 1610506083,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610506087,
-				["elapsed"] = 408.2989999998827,
+				["date"] = "19:48 12/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1957675, -- [1]
@@ -60,7 +60,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:48 12/01/21",
+				["elapsed"] = 408.2989999998827,
 				["damage"] = {
 					["Ummgrumm"] = {
 						714639, -- [1]
@@ -82,8 +82,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612036237,
-				["date"] = "12:50 30/01/21",
 				["elapsed"] = 350.3689999999988,
+				["date"] = "12:50 30/01/21",
 				["healing"] = {
 				},
 				["servertime"] = 1612036238,
@@ -108,8 +108,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612490003,
-				["date"] = "18:53 04/02/21",
 				["elapsed"] = 272.1920000000391,
+				["date"] = "18:53 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1302427, -- [1]
@@ -149,8 +149,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613094952,
-				["date"] = "18:55 11/02/21",
 				["elapsed"] = 276.3730000000014,
+				["date"] = "18:55 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1718087, -- [1]
@@ -192,8 +192,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612495540,
-				["date"] = "20:25 04/02/21",
 				["elapsed"] = 395.8729999999632,
+				["date"] = "20:25 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1392396, -- [1]
@@ -235,8 +235,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612494537,
-				["date"] = "20:08 04/02/21",
 				["elapsed"] = 312.8790000000154,
+				["date"] = "20:08 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1635257, -- [1]
@@ -276,8 +276,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613102395,
-				["date"] = "20:59 11/02/21",
 				["elapsed"] = 325.854000000003,
+				["date"] = "20:59 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1691062, -- [1]
@@ -315,10 +315,10 @@ DetailsDataStorage = {
 				["time"] = 1608688521,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608688524,
-				["elapsed"] = 455.7210000000196,
+				["date"] = "18:55 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "18:55 22/12/20",
+				["elapsed"] = 455.7210000000196,
 				["damage"] = {
 					["Jiinna"] = {
 						338273, -- [1]
@@ -335,8 +335,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610216396,
-				["date"] = "11:19 09/01/21",
 				["elapsed"] = 496.9270000000252,
+				["date"] = "11:19 09/01/21",
 				["healing"] = {
 					["Kharolok"] = {
 						1192855, -- [1]
@@ -372,7 +372,7 @@ DetailsDataStorage = {
 				["time"] = 1610504680,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610504684,
-				["elapsed"] = 477.25,
+				["date"] = "19:24 12/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1594960, -- [1]
@@ -380,7 +380,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:24 12/01/21",
+				["elapsed"] = 477.25,
 				["damage"] = {
 					["Ummgrumm"] = {
 						500556, -- [1]
@@ -402,8 +402,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612032382,
-				["date"] = "11:46 30/01/21",
 				["elapsed"] = 334.5990000000002,
+				["date"] = "11:46 30/01/21",
 				["healing"] = {
 				},
 				["servertime"] = 1612032383,
@@ -428,8 +428,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612488970,
-				["date"] = "18:36 04/02/21",
 				["elapsed"] = 237.1269999999786,
+				["date"] = "18:36 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						954696, -- [1]
@@ -469,8 +469,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613093804,
-				["date"] = "18:36 11/02/21",
 				["elapsed"] = 314.2920000000013,
+				["date"] = "18:36 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1464113, -- [1]
@@ -512,8 +512,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612491964,
-				["date"] = "19:26 04/02/21",
 				["elapsed"] = 271.00900000002,
+				["date"] = "19:26 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1409357, -- [1]
@@ -553,8 +553,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613098450,
-				["date"] = "19:54 11/02/21",
 				["elapsed"] = 343.3270000000011,
+				["date"] = "19:54 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						2108230, -- [1]
@@ -596,8 +596,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612497741,
-				["date"] = "21:02 04/02/21",
 				["elapsed"] = 332.9830000000075,
+				["date"] = "21:02 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1782395, -- [1]
@@ -636,8 +636,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612490823,
-				["date"] = "19:07 04/02/21",
 				["elapsed"] = 254.7789999999804,
+				["date"] = "19:07 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1523281, -- [1]
@@ -677,8 +677,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613096225,
-				["date"] = "19:17 11/02/21",
 				["elapsed"] = 253.9379999999983,
+				["date"] = "19:17 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1765243, -- [1]
@@ -720,8 +720,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612493679,
-				["date"] = "19:54 04/02/21",
 				["elapsed"] = 377.6259999999893,
+				["date"] = "19:54 04/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						2106051, -- [1]
@@ -761,8 +761,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1613100094,
-				["date"] = "20:21 11/02/21",
 				["elapsed"] = 384.5430000000015,
+				["date"] = "20:21 11/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						2273861, -- [1]
@@ -807,8 +807,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1608407088,
-				["date"] = "12:44 19/12/20",
 				["elapsed"] = 584.6350000000002,
+				["date"] = "12:44 19/12/20",
 				["healing"] = {
 				},
 				["servertime"] = 1608407088,
@@ -843,8 +843,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1609303184,
-				["elapsed"] = 591.0899999999965,
 				["date"] = "21:39 29/12/20",
+				["elapsed"] = 591.0899999999965,
 				["healing"] = {
 					["Kharolok"] = {
 						1627605, -- [1]
@@ -889,8 +889,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610074463,
-				["elapsed"] = 633.3329999999842,
 				["date"] = "19:54 07/01/21",
+				["elapsed"] = 633.3329999999842,
 				["healing"] = {
 					["Kharolok"] = {
 						2128455, -- [1]
@@ -925,8 +925,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610686305,
-				["elapsed"] = 518.7479999999996,
 				["date"] = "21:51 14/01/21",
+				["elapsed"] = 518.7479999999996,
 				["healing"] = {
 				},
 				["servertime"] = 1610686305,
@@ -956,8 +956,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611719631,
-				["elapsed"] = 396.0339999999851,
 				["date"] = "20:53 26/01/21",
+				["elapsed"] = 396.0339999999851,
 				["healing"] = {
 					["Kharolok"] = {
 						1115035, -- [1]
@@ -998,7 +998,7 @@ DetailsDataStorage = {
 				["time"] = 1612321151,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612321154,
-				["elapsed"] = 387.5169999999926,
+				["date"] = "19:59 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						2149045, -- [1]
@@ -1006,7 +1006,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:59 02/02/21",
+				["elapsed"] = 387.5169999999926,
 				["damage"] = {
 					["Draciel"] = {
 						220036, -- [1]
@@ -1044,7 +1044,7 @@ DetailsDataStorage = {
 				["time"] = 1612927221,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612927232,
-				["date"] = "20:20 09/02/21",
+				["elapsed"] = 296.4779999999992,
 				["healing"] = {
 					["Clevyct"] = {
 						1512804, -- [1]
@@ -1057,7 +1057,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 296.4779999999992,
+				["date"] = "20:20 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						1021365, -- [1]
@@ -1096,8 +1096,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1607568730,
-				["elapsed"] = 651.4860000000044,
 				["date"] = "19:52 09/12/20",
+				["elapsed"] = 651.4860000000044,
 				["healing"] = {
 					["Clevyct"] = {
 						1740648, -- [1]
@@ -1148,7 +1148,7 @@ DetailsDataStorage = {
 				["time"] = 1608087554,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608087558,
-				["date"] = "19:59 15/12/20",
+				["elapsed"] = 425.1229999999996,
 				["healing"] = {
 					["Kharolok"] = {
 						959956, -- [1]
@@ -1156,7 +1156,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 425.1229999999996,
+				["date"] = "19:59 15/12/20",
 				["damage"] = {
 					["Burrtrand"] = {
 						1483328, -- [1]
@@ -1204,10 +1204,10 @@ DetailsDataStorage = {
 				["time"] = 1608694338,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608694341,
-				["elapsed"] = 351.7710000000079,
+				["date"] = "20:32 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "20:32 22/12/20",
+				["elapsed"] = 351.7710000000079,
 				["damage"] = {
 					["Burrtrand"] = {
 						1051652, -- [1]
@@ -1230,7 +1230,7 @@ DetailsDataStorage = {
 				["time"] = 1609294612,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609294616,
-				["elapsed"] = 308.1150000000016,
+				["date"] = "19:16 29/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						874850, -- [1]
@@ -1238,7 +1238,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:16 29/12/20",
+				["elapsed"] = 308.1150000000016,
 				["damage"] = {
 					["Burrtrand"] = {
 						997977, -- [1]
@@ -1270,8 +1270,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1609899856,
-				["date"] = "19:24 05/01/21",
 				["elapsed"] = 365.9550000000745,
+				["date"] = "19:24 05/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1470711, -- [1]
@@ -1301,8 +1301,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610677449,
-				["elapsed"] = 338.6719999999987,
 				["date"] = "19:24 14/01/21",
+				["elapsed"] = 338.6719999999987,
 				["healing"] = {
 					["Clevyct"] = {
 						1171970, -- [1]
@@ -1342,8 +1342,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611713977,
-				["elapsed"] = 298.9030000000494,
 				["date"] = "19:19 26/01/21",
+				["elapsed"] = 298.9030000000494,
 				["healing"] = {
 					["Dominal"] = {
 						855094, -- [1]
@@ -1389,7 +1389,7 @@ DetailsDataStorage = {
 				["time"] = 1612318190,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612318193,
-				["elapsed"] = 323.6030000000028,
+				["date"] = "19:09 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1354407, -- [1]
@@ -1397,7 +1397,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:09 02/02/21",
+				["elapsed"] = 323.6030000000028,
 				["damage"] = {
 					["Draciel"] = {
 						458341, -- [1]
@@ -1430,7 +1430,7 @@ DetailsDataStorage = {
 				["time"] = 1612923167,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612923178,
-				["date"] = "19:12 09/02/21",
+				["elapsed"] = 326.2459999999992,
 				["healing"] = {
 					["Clevii"] = {
 						743443, -- [1]
@@ -1443,7 +1443,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 326.2459999999992,
+				["date"] = "19:12 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						1447942, -- [1]
@@ -1483,10 +1483,10 @@ DetailsDataStorage = {
 				["time"] = 1610823735,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610823738,
-				["date"] = "12:02 16/01/21",
+				["elapsed"] = 518.9870000000228,
 				["healing"] = {
 				},
-				["elapsed"] = 518.9870000000228,
+				["date"] = "12:02 16/01/21",
 				["damage"] = {
 					["Ummgrumm"] = {
 						618842, -- [1]
@@ -1508,8 +1508,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611724955,
-				["elapsed"] = 623.7159999999567,
 				["date"] = "22:22 26/01/21",
+				["elapsed"] = 623.7159999999567,
 				["healing"] = {
 					["Kharolok"] = {
 						2749804, -- [1]
@@ -1544,8 +1544,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612323550,
-				["elapsed"] = 412.3709999999846,
 				["date"] = "20:39 02/02/21",
+				["elapsed"] = 412.3709999999846,
 				["healing"] = {
 					["Clevyct"] = {
 						1545000, -- [1]
@@ -1591,7 +1591,7 @@ DetailsDataStorage = {
 				["time"] = 1612929134,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612929145,
-				["date"] = "20:52 09/02/21",
+				["elapsed"] = 505.7720000000008,
 				["healing"] = {
 					["Clevyct"] = {
 						2073520, -- [1]
@@ -1604,7 +1604,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 505.7720000000008,
+				["date"] = "20:52 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						202363, -- [1]
@@ -1643,8 +1643,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1608410499,
-				["date"] = "13:41 19/12/20",
 				["elapsed"] = 424.8190000000013,
+				["date"] = "13:41 19/12/20",
 				["healing"] = {
 				},
 				["servertime"] = 1608410499,
@@ -1680,10 +1680,10 @@ DetailsDataStorage = {
 				["time"] = 1608702596,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608702599,
-				["elapsed"] = 367.8829999999725,
+				["date"] = "22:49 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "22:49 22/12/20",
+				["elapsed"] = 367.8829999999725,
 				["damage"] = {
 					["Burrtrand"] = {
 						802690, -- [1]
@@ -1706,7 +1706,7 @@ DetailsDataStorage = {
 				["time"] = 1609299804,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609299808,
-				["elapsed"] = 357.9400000000023,
+				["date"] = "20:43 29/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						1404068, -- [1]
@@ -1714,7 +1714,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "20:43 29/12/20",
+				["elapsed"] = 357.9400000000023,
 				["damage"] = {
 					["Burrtrand"] = {
 						777552, -- [1]
@@ -1752,10 +1752,10 @@ DetailsDataStorage = {
 				["time"] = 1609908174,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609908177,
-				["elapsed"] = 466.8000000000466,
+				["date"] = "21:42 05/01/21",
 				["healing"] = {
 				},
-				["date"] = "21:42 05/01/21",
+				["elapsed"] = 466.8000000000466,
 				["damage"] = {
 					["Verridian"] = {
 						998753, -- [1]
@@ -1787,8 +1787,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610687967,
-				["elapsed"] = 354.8929999999964,
 				["date"] = "22:19 14/01/21",
+				["elapsed"] = 354.8929999999964,
 				["healing"] = {
 				},
 				["servertime"] = 1610687967,
@@ -1818,8 +1818,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611720552,
-				["elapsed"] = 331.8910000000033,
 				["date"] = "21:09 26/01/21",
+				["elapsed"] = 331.8910000000033,
 				["healing"] = {
 					["Kharolok"] = {
 						889293, -- [1]
@@ -1860,7 +1860,7 @@ DetailsDataStorage = {
 				["time"] = 1612321907,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612321910,
-				["elapsed"] = 300.1030000000028,
+				["date"] = "20:11 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1434617, -- [1]
@@ -1868,7 +1868,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "20:11 02/02/21",
+				["elapsed"] = 300.1030000000028,
 				["damage"] = {
 					["Draciel"] = {
 						319728, -- [1]
@@ -1906,7 +1906,7 @@ DetailsDataStorage = {
 				["time"] = 1612928033,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612928044,
-				["date"] = "20:33 09/02/21",
+				["elapsed"] = 364.2620000000024,
 				["healing"] = {
 					["Clevyct"] = {
 						1063764, -- [1]
@@ -1919,7 +1919,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 364.2620000000024,
+				["date"] = "20:33 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						1403486, -- [1]
@@ -1959,7 +1959,7 @@ DetailsDataStorage = {
 				["time"] = 1607483546,
 				["guild"] = "Test Guild",
 				["servertime"] = 1607483561,
-				["elapsed"] = 509.9900000001071,
+				["date"] = "20:12 08/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						1543250, -- [1]
@@ -1977,7 +1977,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "20:12 08/12/20",
+				["elapsed"] = 509.9900000001071,
 				["damage"] = {
 					["Meridean"] = {
 						786658, -- [1]
@@ -1989,30 +1989,30 @@ DetailsDataStorage = {
 						183.9375, -- [2]
 						6, -- [3]
 					},
-					["Feihanu"] = {
-						680082, -- [1]
-						175.875, -- [2]
-						10, -- [3]
-					},
 					["Ummgrumm"] = {
 						393970, -- [1]
 						177.875, -- [2]
 						1, -- [3]
 					},
-					["Döminüs"] = {
-						321808, -- [1]
-						166.5, -- [2]
-						6, -- [3]
+					["Feihanu"] = {
+						680082, -- [1]
+						175.875, -- [2]
+						10, -- [3]
+					},
+					["Samoansavage"] = {
+						492149, -- [1]
+						170.5, -- [2]
+						4, -- [3]
 					},
 					["Tyleruno"] = {
 						636119, -- [1]
 						184.3125, -- [2]
 						4, -- [3]
 					},
-					["Samoansavage"] = {
-						492149, -- [1]
-						170.5, -- [2]
-						4, -- [3]
+					["Döminüs"] = {
+						321808, -- [1]
+						166.5, -- [2]
+						6, -- [3]
 					},
 				},
 			}, -- [1]
@@ -2020,7 +2020,7 @@ DetailsDataStorage = {
 				["time"] = 1608085368,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608085372,
-				["date"] = "19:22 15/12/20",
+				["elapsed"] = 467.8260000000009,
 				["healing"] = {
 					["Clevyct"] = {
 						1428864, -- [1]
@@ -2033,7 +2033,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 467.8260000000009,
+				["date"] = "19:22 15/12/20",
 				["damage"] = {
 					["Burrtrand"] = {
 						557935, -- [1]
@@ -2070,8 +2070,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1608403411,
-				["date"] = "11:43 19/12/20",
 				["elapsed"] = 397.4359999999997,
+				["date"] = "11:43 19/12/20",
 				["healing"] = {
 				},
 				["servertime"] = 1608403411,
@@ -2107,10 +2107,10 @@ DetailsDataStorage = {
 				["time"] = 1608693457,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608693460,
-				["elapsed"] = 347.3270000000484,
+				["date"] = "20:17 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "20:17 22/12/20",
+				["elapsed"] = 347.3270000000484,
 				["damage"] = {
 					["Burrtrand"] = {
 						581020, -- [1]
@@ -2133,7 +2133,7 @@ DetailsDataStorage = {
 				["time"] = 1609293801,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609293805,
-				["elapsed"] = 346.7690000000002,
+				["date"] = "19:03 29/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						1034081, -- [1]
@@ -2141,7 +2141,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:03 29/12/20",
+				["elapsed"] = 346.7690000000002,
 				["damage"] = {
 					["Burrtrand"] = {
 						621713, -- [1]
@@ -2173,8 +2173,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1609898996,
-				["date"] = "19:09 05/01/21",
 				["elapsed"] = 323.954000000027,
+				["date"] = "19:09 05/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1069882, -- [1]
@@ -2204,8 +2204,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610676247,
-				["elapsed"] = 312.3910000000033,
 				["date"] = "19:04 14/01/21",
+				["elapsed"] = 312.3910000000033,
 				["healing"] = {
 					["Clevyct"] = {
 						858883, -- [1]
@@ -2245,8 +2245,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611712687,
-				["elapsed"] = 347.8470000000089,
 				["date"] = "18:58 26/01/21",
+				["elapsed"] = 347.8470000000089,
 				["healing"] = {
 					["Dominal"] = {
 						909416, -- [1]
@@ -2292,7 +2292,7 @@ DetailsDataStorage = {
 				["time"] = 1612317631,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612317634,
-				["elapsed"] = 240.0439999999944,
+				["date"] = "19:00 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						964487, -- [1]
@@ -2300,7 +2300,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:00 02/02/21",
+				["elapsed"] = 240.0439999999944,
 				["damage"] = {
 					["Draciel"] = {
 						333120, -- [1]
@@ -2333,7 +2333,7 @@ DetailsDataStorage = {
 				["time"] = 1612922353,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612922364,
-				["date"] = "18:59 09/02/21",
+				["elapsed"] = 315.155999999999,
 				["healing"] = {
 					["Clevii"] = {
 						518599, -- [1]
@@ -2346,7 +2346,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 315.155999999999,
+				["date"] = "18:59 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						773380, -- [1]
@@ -2386,10 +2386,10 @@ DetailsDataStorage = {
 				["time"] = 1607806715,
 				["guild"] = "Test Guild",
 				["servertime"] = 1607806715,
-				["elapsed"] = 357.5519999999669,
+				["date"] = "13:58 12/12/20",
 				["healing"] = {
 				},
-				["date"] = "13:58 12/12/20",
+				["elapsed"] = 357.5519999999669,
 				["damage"] = {
 					["Jiinna"] = {
 						475735, -- [1]
@@ -2422,7 +2422,7 @@ DetailsDataStorage = {
 				["time"] = 1608097053,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608097057,
-				["date"] = "22:37 15/12/20",
+				["elapsed"] = 371.2789999999986,
 				["healing"] = {
 					["Kharolok"] = {
 						1198426, -- [1]
@@ -2430,7 +2430,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 371.2789999999986,
+				["date"] = "22:37 15/12/20",
 				["damage"] = {
 					["Burrtrand"] = {
 						717872, -- [1]
@@ -2463,10 +2463,10 @@ DetailsDataStorage = {
 				["time"] = 1608698490,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608698493,
-				["elapsed"] = 361.6350000000093,
+				["date"] = "21:41 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "21:41 22/12/20",
+				["elapsed"] = 361.6350000000093,
 				["damage"] = {
 					["Burrtrand"] = {
 						871111, -- [1]
@@ -2489,7 +2489,7 @@ DetailsDataStorage = {
 				["time"] = 1609296927,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609296931,
-				["elapsed"] = 343.1750000000029,
+				["date"] = "19:55 29/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						1383057, -- [1]
@@ -2497,7 +2497,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:55 29/12/20",
+				["elapsed"] = 343.1750000000029,
 				["damage"] = {
 					["Burrtrand"] = {
 						780971, -- [1]
@@ -2529,8 +2529,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1609903815,
-				["date"] = "20:30 05/01/21",
 				["elapsed"] = 369.0690000000177,
+				["date"] = "20:30 05/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1823646, -- [1]
@@ -2565,8 +2565,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610681388,
-				["elapsed"] = 325.0229999999938,
 				["date"] = "20:29 14/01/21",
+				["elapsed"] = 325.0229999999938,
 				["healing"] = {
 					["Clevyct"] = {
 						1527325, -- [1]
@@ -2606,8 +2606,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611715789,
-				["elapsed"] = 307.5029999999679,
 				["date"] = "19:49 26/01/21",
+				["elapsed"] = 307.5029999999679,
 				["healing"] = {
 					["Dominal"] = {
 						1034431, -- [1]
@@ -2658,7 +2658,7 @@ DetailsDataStorage = {
 				["time"] = 1612319785,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612319788,
-				["elapsed"] = 253.5119999999879,
+				["date"] = "19:36 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1499991, -- [1]
@@ -2666,7 +2666,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:36 02/02/21",
+				["elapsed"] = 253.5119999999879,
 				["damage"] = {
 					["Draciel"] = {
 						408860, -- [1]
@@ -2704,7 +2704,7 @@ DetailsDataStorage = {
 				["time"] = 1612925476,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612925487,
-				["date"] = "19:51 09/02/21",
+				["elapsed"] = 288.9500000000007,
 				["healing"] = {
 					["Clevyct"] = {
 						1227405, -- [1]
@@ -2717,7 +2717,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 288.9500000000007,
+				["date"] = "19:51 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						1290933, -- [1]
@@ -2757,10 +2757,10 @@ DetailsDataStorage = {
 				["time"] = 1610826542,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610826545,
-				["date"] = "12:49 16/01/21",
+				["elapsed"] = 260.9750000000058,
 				["healing"] = {
 				},
-				["elapsed"] = 260.9750000000058,
+				["date"] = "12:49 16/01/21",
 				["damage"] = {
 					["Ummgrumm"] = {
 						429029, -- [1]
@@ -2783,7 +2783,7 @@ DetailsDataStorage = {
 				["time"] = 1611887945,
 				["guild"] = "Test Guild",
 				["servertime"] = 1611887950,
-				["date"] = "19:39 28/01/21",
+				["elapsed"] = 314.5780000000959,
 				["healing"] = {
 					["Clevyct"] = {
 						1758479, -- [1]
@@ -2796,7 +2796,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 314.5780000000959,
+				["date"] = "19:39 28/01/21",
 				["damage"] = {
 					["Whitewalkerr"] = {
 						511381, -- [1]
@@ -2833,8 +2833,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612324235,
-				["elapsed"] = 287.661999999953,
 				["date"] = "20:50 02/02/21",
+				["elapsed"] = 287.661999999953,
 				["healing"] = {
 					["Clevyct"] = {
 						1535501, -- [1]
@@ -2880,7 +2880,7 @@ DetailsDataStorage = {
 				["time"] = 1612930177,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612930188,
-				["date"] = "21:09 09/02/21",
+				["elapsed"] = 312.7989999999991,
 				["healing"] = {
 					["Clevyct"] = {
 						1399344, -- [1]
@@ -2893,7 +2893,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 312.7989999999991,
+				["date"] = "21:09 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						33013, -- [1]
@@ -2933,10 +2933,10 @@ DetailsDataStorage = {
 				["time"] = 1610835778,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610835781,
-				["date"] = "15:22 16/01/21",
+				["elapsed"] = 590.1299999999756,
 				["healing"] = {
 				},
-				["elapsed"] = 590.1299999999756,
+				["date"] = "15:22 16/01/21",
 				["damage"] = {
 					["Gimilt"] = {
 						1485583, -- [1]
@@ -2954,7 +2954,7 @@ DetailsDataStorage = {
 				["time"] = 1611894098,
 				["guild"] = "Test Guild",
 				["servertime"] = 1611894103,
-				["date"] = "21:21 28/01/21",
+				["elapsed"] = 598.8719999999739,
 				["healing"] = {
 					["Clevyct"] = {
 						2635249, -- [1]
@@ -2967,7 +2967,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 598.8719999999739,
+				["date"] = "21:21 28/01/21",
 				["damage"] = {
 					["Amónd"] = {
 						1421793, -- [1]
@@ -2999,8 +2999,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612326001,
-				["elapsed"] = 568.7420000000275,
 				["date"] = "21:20 02/02/21",
+				["elapsed"] = 568.7420000000275,
 				["healing"] = {
 					["Clevyct"] = {
 						2778325, -- [1]
@@ -3046,25 +3046,25 @@ DetailsDataStorage = {
 				["time"] = 1612933800,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612933811,
-				["date"] = "22:10 09/02/21",
+				["elapsed"] = 674.7890000000007,
 				["healing"] = {
 				},
-				["elapsed"] = 674.7890000000007,
+				["date"] = "22:10 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						265167, -- [1]
 						206.4, -- [2]
 						3, -- [3]
 					},
-					["Amónd"] = {
-						1047964, -- [1]
-						209.25, -- [2]
-						3, -- [3]
-					},
 					["Spirittcrane"] = {
 						1203446, -- [1]
 						208.6875, -- [2]
 						10, -- [3]
+					},
+					["Amónd"] = {
+						1047964, -- [1]
+						209.25, -- [2]
+						3, -- [3]
 					},
 					["Ummgrumm"] = {
 						2120755, -- [1]
@@ -3094,10 +3094,10 @@ DetailsDataStorage = {
 				["time"] = 1607576670,
 				["guild"] = "Test Guild",
 				["servertime"] = 1607576685,
-				["date"] = "22:04 09/12/20",
+				["elapsed"] = 575.5849999999991,
 				["healing"] = {
 				},
-				["elapsed"] = 575.5849999999991,
+				["date"] = "22:04 09/12/20",
 				["damage"] = {
 					["Burrtrand"] = {
 						581377, -- [1]
@@ -3135,7 +3135,7 @@ DetailsDataStorage = {
 				["time"] = 1608090088,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608090092,
-				["date"] = "20:41 15/12/20",
+				["elapsed"] = 384.6629999999968,
 				["healing"] = {
 					["Kharolok"] = {
 						930362, -- [1]
@@ -3143,7 +3143,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 384.6629999999968,
+				["date"] = "20:41 15/12/20",
 				["damage"] = {
 					["Burrtrand"] = {
 						670701, -- [1]
@@ -3191,10 +3191,10 @@ DetailsDataStorage = {
 				["time"] = 1608696185,
 				["guild"] = "Test Guild",
 				["servertime"] = 1608696188,
-				["elapsed"] = 356.564000000013,
+				["date"] = "21:03 22/12/20",
 				["healing"] = {
 				},
-				["date"] = "21:03 22/12/20",
+				["elapsed"] = 356.564000000013,
 				["damage"] = {
 					["Burrtrand"] = {
 						579976, -- [1]
@@ -3217,7 +3217,7 @@ DetailsDataStorage = {
 				["time"] = 1609295717,
 				["guild"] = "Test Guild",
 				["servertime"] = 1609295721,
-				["elapsed"] = 409.1909999999989,
+				["date"] = "19:35 29/12/20",
 				["healing"] = {
 					["Clevyct"] = {
 						1470968, -- [1]
@@ -3225,7 +3225,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:35 29/12/20",
+				["elapsed"] = 409.1909999999989,
 				["damage"] = {
 					["Burrtrand"] = {
 						894198, -- [1]
@@ -3257,8 +3257,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1609900778,
-				["date"] = "19:39 05/01/21",
 				["elapsed"] = 376.9969999999739,
+				["date"] = "19:39 05/01/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1467045, -- [1]
@@ -3288,8 +3288,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1610678868,
-				["elapsed"] = 327.8719999999958,
 				["date"] = "19:47 14/01/21",
+				["elapsed"] = 327.8719999999958,
 				["healing"] = {
 					["Clevyct"] = {
 						1388628, -- [1]
@@ -3329,8 +3329,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1611714999,
-				["elapsed"] = 355.3850000000093,
 				["date"] = "19:36 26/01/21",
+				["elapsed"] = 355.3850000000093,
 				["healing"] = {
 					["Dominal"] = {
 						383125, -- [1]
@@ -3381,7 +3381,7 @@ DetailsDataStorage = {
 				["time"] = 1612318880,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612318883,
-				["elapsed"] = 256.8090000000084,
+				["date"] = "19:21 02/02/21",
 				["healing"] = {
 					["Clevyct"] = {
 						1315738, -- [1]
@@ -3389,7 +3389,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "19:21 02/02/21",
+				["elapsed"] = 256.8090000000084,
 				["damage"] = {
 					["Draciel"] = {
 						441561, -- [1]
@@ -3422,7 +3422,7 @@ DetailsDataStorage = {
 				["time"] = 1612924175,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612924186,
-				["date"] = "19:29 09/02/21",
+				["elapsed"] = 314.5679999999993,
 				["healing"] = {
 					["Clevii"] = {
 						761529, -- [1]
@@ -3435,7 +3435,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 314.5679999999993,
+				["date"] = "19:29 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						288177, -- [1]
@@ -3475,10 +3475,10 @@ DetailsDataStorage = {
 				["time"] = 1610827919,
 				["guild"] = "Test Guild",
 				["servertime"] = 1610827922,
-				["date"] = "13:11 16/01/21",
+				["elapsed"] = 406.8770000000077,
 				["healing"] = {
 				},
-				["elapsed"] = 406.8770000000077,
+				["date"] = "13:11 16/01/21",
 				["damage"] = {
 					["Ummgrumm"] = {
 						660503, -- [1]
@@ -3501,7 +3501,7 @@ DetailsDataStorage = {
 				["time"] = 1611889846,
 				["guild"] = "Test Guild",
 				["servertime"] = 1611889851,
-				["date"] = "20:10 28/01/21",
+				["elapsed"] = 448.5460000000894,
 				["healing"] = {
 					["Clevyct"] = {
 						1705241, -- [1]
@@ -3514,7 +3514,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 448.5460000000894,
+				["date"] = "20:10 28/01/21",
 				["damage"] = {
 					["Whitewalkerr"] = {
 						600757, -- [1]
@@ -3551,8 +3551,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Test Guild",
 				["time"] = 1612325150,
-				["elapsed"] = 428.9469999999856,
 				["date"] = "21:05 02/02/21",
+				["elapsed"] = 428.9469999999856,
 				["healing"] = {
 					["Clevyct"] = {
 						1703466, -- [1]
@@ -3598,7 +3598,7 @@ DetailsDataStorage = {
 				["time"] = 1612931091,
 				["guild"] = "Test Guild",
 				["servertime"] = 1612931102,
-				["date"] = "21:24 09/02/21",
+				["elapsed"] = 376.7150000000002,
 				["healing"] = {
 					["Clevyct"] = {
 						1459931, -- [1]
@@ -3611,7 +3611,7 @@ DetailsDataStorage = {
 						10, -- [3]
 					},
 				},
-				["elapsed"] = 376.7150000000002,
+				["date"] = "21:24 09/02/21",
 				["damage"] = {
 					["Endelva"] = {
 						1340622, -- [1]
@@ -3648,6 +3648,8 @@ DetailsDataStorage = {
 		},
 	},
 	[16] = {
+		[2405] = {
+		},
 	},
 	["totalkills"] = {
 		[2402] = {
@@ -3659,8 +3661,8 @@ DetailsDataStorage = {
 				["dps_best"] = 2404.340312282875,
 				["dps_best_raid"] = 35269.67805241185,
 				["time_fasterkill_when"] = 1610074463,
-				["dps_best_raid_when"] = 1609303184,
 				["dps_best_when"] = 1612927221,
+				["dps_best_raid_when"] = 1609303184,
 			},
 			[15] = {
 				["time_incombat"] = 2340.462000000047,
@@ -3668,9 +3670,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 6,
 				["dps_best"] = 2646.245853468931,
-				["dps_best_when"] = 1613701561,
-				["time_fasterkill_when"] = 1615353735,
 				["dps_best_raid_when"] = 1613100094,
+				["time_fasterkill_when"] = 1615353735,
+				["dps_best_when"] = 1613701561,
 				["dps_best_raid"] = 65026.79284241269,
 			},
 		},
@@ -3683,18 +3685,18 @@ DetailsDataStorage = {
 				["dps_best"] = 3737.501275538509,
 				["dps_best_raid"] = 61177.59566055006,
 				["time_fasterkill_when"] = 1607568730,
-				["dps_best_raid_when"] = 1608087554,
 				["dps_best_when"] = 1612923167,
+				["dps_best_raid_when"] = 1608087554,
 			},
 			[15] = {
-				["time_incombat"] = 2416.158999999988,
+				["time_incombat"] = 2699.650999999988,
 				["time_fasterkill"] = 408.2989999998827,
 				["wipes"] = 16,
-				["kills"] = 8,
+				["kills"] = 9,
 				["dps_best"] = 4066.613266976358,
-				["dps_best_when"] = 1613699200,
-				["time_fasterkill_when"] = 1610506083,
 				["dps_best_raid_when"] = 1613094952,
+				["time_fasterkill_when"] = 1610506083,
+				["dps_best_when"] = 1613699200,
 				["dps_best_raid"] = 79312.47863038382,
 			},
 		},
@@ -3705,9 +3707,9 @@ DetailsDataStorage = {
 				["wipes"] = 26,
 				["kills"] = 4,
 				["dps_best"] = 2353.123546801717,
-				["dps_best_when"] = 1612929134,
-				["time_fasterkill_when"] = 1611724955,
 				["dps_best_raid_when"] = 1612323550,
+				["time_fasterkill_when"] = 1611724955,
+				["dps_best_when"] = 1612929134,
 				["dps_best_raid"] = 27337.91658482391,
 			},
 			[15] = {
@@ -3716,9 +3718,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 4,
 				["dps_best"] = 1948.318598338643,
-				["dps_best_when"] = 1613703757,
-				["time_fasterkill_when"] = 1615354962,
 				["dps_best_raid_when"] = 1612495540,
+				["time_fasterkill_when"] = 1615354962,
+				["dps_best_when"] = 1613703757,
 				["dps_best_raid"] = 44910.05701323821,
 			},
 		},
@@ -3729,10 +3731,21 @@ DetailsDataStorage = {
 				["wipes"] = 7,
 				["kills"] = 8,
 				["dps_best"] = 3200.237931470166,
-				["dps_best_when"] = 1612321907,
-				["time_fasterkill_when"] = 1609908174,
 				["dps_best_raid_when"] = 1609299804,
+				["time_fasterkill_when"] = 1609908174,
+				["dps_best_when"] = 1612321907,
 				["dps_best_raid"] = 34166.86874895212,
+			},
+			[16] = {
+				["time_incombat"] = 0,
+				["time_fasterkill"] = 0,
+				["wipes"] = 2,
+				["kills"] = 0,
+				["dps_best"] = 0,
+				["dps_best_raid_when"] = 0,
+				["time_fasterkill_when"] = 0,
+				["dps_best_when"] = 0,
+				["dps_best_raid"] = 0,
 			},
 			[15] = {
 				["time_incombat"] = 2464.127000000012,
@@ -3742,8 +3755,8 @@ DetailsDataStorage = {
 				["dps_best"] = 2859.527179519738,
 				["dps_best_raid"] = 52759.34927912452,
 				["time_fasterkill_when"] = 1615352667,
-				["dps_best_raid_when"] = 1613102395,
 				["dps_best_when"] = 1612494537,
+				["dps_best_raid_when"] = 1613102395,
 			},
 		},
 		[2398] = {
@@ -3755,19 +3768,19 @@ DetailsDataStorage = {
 				["dps_best"] = 2838.858743838696,
 				["dps_best_raid"] = 27336.58740946891,
 				["time_fasterkill_when"] = 1607483546,
-				["dps_best_raid_when"] = 1614561439,
 				["dps_best_when"] = 1612317631,
+				["dps_best_raid_when"] = 1614561439,
 			},
 			[15] = {
-				["time_incombat"] = 3325.667000000044,
+				["time_incombat"] = 3554.196000000044,
 				["time_fasterkill"] = 496.9270000000252,
 				["wipes"] = 8,
-				["kills"] = 10,
+				["kills"] = 11,
 				["dps_best"] = 3043.513626988436,
 				["dps_best_raid"] = 46471.96228181943,
 				["time_fasterkill_when"] = 1610216396,
-				["dps_best_raid_when"] = 1612488970,
 				["dps_best_when"] = 1613698517,
+				["dps_best_raid_when"] = 1612488970,
 			},
 		},
 		[2406] = {
@@ -3779,8 +3792,8 @@ DetailsDataStorage = {
 				["dps_best"] = 3663.088954345531,
 				["dps_best_raid"] = 40290.897547773,
 				["time_fasterkill_when"] = 1614568446,
-				["dps_best_when"] = 1612319785,
 				["dps_best_raid_when"] = 1607806715,
+				["dps_best_when"] = 1612319785,
 			},
 			[15] = {
 				["time_incombat"] = 1882.075000000038,
@@ -3788,9 +3801,9 @@ DetailsDataStorage = {
 				["wipes"] = 5,
 				["kills"] = 6,
 				["dps_best"] = 3355.545418144537,
-				["dps_best_when"] = 1612491964,
-				["time_fasterkill_when"] = 1615351010,
 				["dps_best_raid_when"] = 1612491964,
+				["time_fasterkill_when"] = 1615351010,
+				["dps_best_when"] = 1612491964,
 				["dps_best_raid"] = 64087.26647454039,
 			},
 			[17] = {
@@ -3799,9 +3812,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 286.1504529923151,
-				["dps_best_raid_when"] = 1614078135,
-				["time_fasterkill_when"] = 1614078135,
 				["dps_best_when"] = 1614078135,
+				["time_fasterkill_when"] = 1614078135,
+				["dps_best_raid_when"] = 1614078135,
 				["dps_best_raid"] = 33284.56665318753,
 			},
 		},
@@ -3814,18 +3827,18 @@ DetailsDataStorage = {
 				["dps_best"] = 3326.268811866963,
 				["dps_best_raid"] = 51486.29029597004,
 				["time_fasterkill_when"] = 1611887945,
-				["dps_best_when"] = 1610826542,
 				["dps_best_raid_when"] = 1614137504,
+				["dps_best_when"] = 1610826542,
 			},
 			[15] = {
 				["time_incombat"] = 1295.373999999996,
 				["time_fasterkill"] = 337.2329999999784,
-				["wipes"] = 24,
+				["wipes"] = 28,
 				["kills"] = 4,
 				["dps_best"] = 2996.461125824629,
-				["dps_best_when"] = 1614310605,
-				["time_fasterkill_when"] = 1615358824,
 				["dps_best_raid_when"] = 1615358824,
+				["time_fasterkill_when"] = 1615358824,
+				["dps_best_when"] = 1614310605,
 				["dps_best_raid"] = 59823.03036773179,
 			},
 		},
@@ -3838,19 +3851,19 @@ DetailsDataStorage = {
 				["dps_best"] = 2718.074841875013,
 				["dps_best_raid"] = 41236.38984975999,
 				["time_fasterkill_when"] = 1612933800,
-				["dps_best_when"] = 1612933800,
 				["dps_best_raid_when"] = 1614139861,
+				["dps_best_when"] = 1612933800,
 			},
 			[15] = {
 				["time_incombat"] = 0,
 				["time_fasterkill"] = 0,
-				["wipes"] = 20,
+				["wipes"] = 41,
 				["kills"] = 0,
 				["dps_best"] = 0,
 				["dps_best_raid"] = 0,
 				["time_fasterkill_when"] = 0,
-				["dps_best_raid_when"] = 0,
 				["dps_best_when"] = 0,
+				["dps_best_raid_when"] = 0,
 			},
 			[17] = {
 				["time_incombat"] = 534.143,
@@ -3858,9 +3871,9 @@ DetailsDataStorage = {
 				["wipes"] = 3,
 				["kills"] = 1,
 				["dps_best"] = 346.0215832670277,
-				["dps_best_raid_when"] = 1614076815,
-				["time_fasterkill_when"] = 1614076815,
 				["dps_best_when"] = 1614076815,
+				["time_fasterkill_when"] = 1614076815,
+				["dps_best_raid_when"] = 1614076815,
 				["dps_best_raid"] = 34421.12318236876,
 			},
 		},
@@ -3873,19 +3886,19 @@ DetailsDataStorage = {
 				["dps_best"] = 3277.552603611916,
 				["dps_best_raid"] = 30479.53803524642,
 				["time_fasterkill_when"] = 1607576670,
-				["dps_best_when"] = 1612318880,
 				["dps_best_raid_when"] = 1608696185,
+				["dps_best_when"] = 1612318880,
 			},
 			[15] = {
 				["time_incombat"] = 1644.082999999989,
 				["time_fasterkill"] = 336.6359999999986,
-				["wipes"] = 19,
+				["wipes"] = 21,
 				["kills"] = 6,
 				["dps_best"] = 3357.043858382778,
 				["dps_best_raid"] = 60393.89536028521,
 				["time_fasterkill_when"] = 1615350284,
-				["dps_best_raid_when"] = 1613096225,
 				["dps_best_when"] = 1613096225,
+				["dps_best_raid_when"] = 1613096225,
 			},
 		},
 		[2417] = {
@@ -3897,19 +3910,19 @@ DetailsDataStorage = {
 				["dps_best"] = 2984.566594911271,
 				["dps_best_raid"] = 42850.67955489113,
 				["time_fasterkill_when"] = 1611889846,
-				["dps_best_when"] = 1612931091,
 				["dps_best_raid_when"] = 1614138819,
+				["dps_best_when"] = 1612931091,
 			},
 			[15] = {
-				["time_incombat"] = 1142.200000000041,
-				["time_fasterkill"] = 587.7210000000196,
-				["wipes"] = 17,
-				["kills"] = 2,
+				["time_incombat"] = 1742.060000000042,
+				["time_fasterkill"] = 599.8600000000006,
+				["wipes"] = 21,
+				["kills"] = 3,
 				["dps_best"] = 1996.842042654526,
 				["dps_best_raid"] = 45959.44120516562,
-				["time_fasterkill_when"] = 1612499654,
-				["dps_best_raid_when"] = 1615360961,
+				["time_fasterkill_when"] = 1616117806,
 				["dps_best_when"] = 1612499654,
+				["dps_best_raid_when"] = 1615360961,
 			},
 		},
 	},

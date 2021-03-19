@@ -67,9 +67,6 @@ DataStore_AgendaDB = {
 			["NextWeeklyReset"] = "2020-12-01",
 		},
 		["Characters"] = {
-			["Default.Emerald Dream.Samoantank"] = {
-				["lastUpdate"] = 1545020846,
-			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1615983786,
 				["expiredCalendar"] = {
@@ -90,7 +87,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1611778009,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1608540693,
+				["lastUpdate"] = 1616145454,
 			},
 			["Default.Ravenholdt.Samoanbeast"] = {
 				["lastUpdate"] = 1608225671,
@@ -98,20 +95,20 @@ DataStore_AgendaDB = {
 			["Default.Tichondrius.Samoanmystic"] = {
 				["lastUpdate"] = 1546812752,
 			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544902629,
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920075,
 			},
 			["Default.Tichondrius.Samoansaint"] = {
 				["lastUpdate"] = 1546209469,
 			},
 			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615984462,
+				["lastUpdate"] = 1616044649,
 			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1608226347,
 			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["lastUpdate"] = 1607745382,
+			["Default.Emerald Dream.Forgecraft"] = {
+				["lastUpdate"] = 1615983479,
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
@@ -119,67 +116,20 @@ DataStore_AgendaDB = {
 			["Default.Emerald Dream.Farmcraft"] = {
 				["lastUpdate"] = 1615971102,
 			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["lastUpdate"] = 1615983479,
-			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["lastUpdate"] = 1603382403,
-			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1615414303,
-			},
-			["Default.Emerald Dream.Dustcraft"] = {
-				["lastUpdate"] = 1615448216,
-			},
-			["Default.Emerald Dream.Samoansteel"] = {
-				["lastUpdate"] = 1608195930,
-			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["Contacts"] = {
-					["Drumu"] = {
-						["note"] = "",
-					},
-				},
-				["lastUpdate"] = 1540622531,
 			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,
 			},
-			["Default.Emerald Dream.Tingerce"] = {
-				["lastUpdate"] = 1607744571,
-			},
 			["Default.Tichondrius.Gfsdfgsd"] = {
 				["lastUpdate"] = 1548864605,
-			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["lastUpdate"] = 1608363116,
-			},
-			["Default.Emerald Dream.Craudy"] = {
-				["lastUpdate"] = 1608199955,
-			},
-			["Default.Emerald Dream.Samoanreaper"] = {
-				["lastUpdate"] = 1608195230,
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615933300,
-				["expiredCalendar"] = {
-					"2021-02-20|18:30|Normal Raid|0|8", -- [1]
-					"2021-02-23|19:30|Skip Raid|0|8", -- [2]
-					"2021-02-25|19:30|CT Heroic Raid|0|8", -- [3]
-					"2021-03-07|18:30|Normal Raid|0|8", -- [4]
-				},
 			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472620,
 			},
-			["Default.Tichondrius.Serepa"] = {
-				["lastUpdate"] = 1545730666,
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614988457,
-			},
 			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615972662,
+				["lastUpdate"] = 1616105455,
 				["expiredCalendar"] = {
 					"2020-12-08|19:30|Pug Raid|0|4", -- [1]
 					"2020-12-09|19:30|Boss: Huntsman Altimor|0|4", -- [2]
@@ -211,92 +161,6 @@ DataStore_AgendaDB = {
 			},
 			["Default.Emerald Dream.Samoanbeast"] = {
 				["lastUpdate"] = 1615371211,
-			},
-			["Default.Tichondrius.Shgrshn"] = {
-				["Contacts"] = {
-					["SaturnD117E8"] = {
-						["note"] = "",
-					},
-					["Forsho"] = {
-						["note"] = "",
-					},
-					["LaieboC2AE2A"] = {
-						["note"] = "",
-					},
-					["Cryptt"] = {
-						["note"] = "",
-					},
-					["Kapahulu"] = {
-						["note"] = "",
-					},
-					["Råndôm"] = {
-						["note"] = "",
-					},
-					["Teamspirit"] = {
-						["note"] = "",
-					},
-					["ßerzerk"] = {
-						["note"] = "",
-					},
-					["Yennk"] = {
-						["note"] = "",
-					},
-					["Deletemeeplz"] = {
-						["note"] = "",
-					},
-					["Nightm5C36D6"] = {
-						["note"] = "",
-					},
-					["Fekzul"] = {
-						["note"] = "",
-					},
-					["Bauce"] = {
-						["note"] = "",
-					},
-					["Mingan"] = {
-						["note"] = "",
-					},
-					["Savedby"] = {
-						["note"] = "",
-					},
-					["Yoshïo"] = {
-						["note"] = "",
-					},
-					["Yoter"] = {
-						["note"] = "",
-					},
-					["Scottxyz"] = {
-						["note"] = "",
-					},
-					["Grenji"] = {
-						["note"] = "",
-					},
-					["Deydrellia"] = {
-						["note"] = "",
-					},
-					["Nossbig"] = {
-						["note"] = "",
-					},
-					["Froztt"] = {
-						["note"] = "",
-					},
-					["Veryholytaco"] = {
-						["note"] = "",
-					},
-					["Yotaforlife"] = {
-						["note"] = "",
-					},
-					["Nossbigga"] = {
-						["note"] = "",
-					},
-				},
-				["lastUpdate"] = 1546816790,
-			},
-			["Default.Emerald Dream.Samoansensei"] = {
-				["lastUpdate"] = 1545023282,
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615979368,
 			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["Contacts"] = {
@@ -441,44 +305,151 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1547638065,
 			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1612174196,
-			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167314,
 			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["lastUpdate"] = 1608674996,
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1612174196,
 			},
 			["Default.Tichondrius.Samoansage"] = {
 				["lastUpdate"] = 1544168008,
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633460,
-			},
-			["Default.Emerald Dream.Samoanzero"] = {
-				["lastUpdate"] = 1601276466,
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
-			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920075,
+			["Default.Emerald Dream.Samoansurge"] = {
+				["lastUpdate"] = 1615414303,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1603443858,
 			},
-			["Default.Emerald Dream.Feerless"] = {
-				["lastUpdate"] = 1606633349,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
 			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1603441152,
+			["Default.Emerald Dream.Samoanzero"] = {
+				["lastUpdate"] = 1601276466,
 			},
-			["Default.Emerald Dream.Vithun"] = {
-				["lastUpdate"] = 1608206177,
+			["Default.Emerald Dream.Samoansage"] = {
+				["DungeonIDs"] = {
+					[393489501] = {
+						["name"] = "Castle Nathria Heroic",
+						["resetTime"] = 1616511601,
+						["numEncounters"] = 10,
+						["bosses"] = {
+							["Shriekwing"] = true,
+							["Huntsman Altimor"] = true,
+							["Stone Legion Generals"] = true,
+						},
+						["progress"] = 3,
+						["extended"] = 0,
+						["isRaid"] = 1,
+					},
+					[418351496] = {
+						["name"] = "Castle Nathria Mythic",
+						["resetTime"] = 1616511601,
+						["numEncounters"] = 10,
+						["bosses"] = {
+							["Shriekwing"] = true,
+							["Huntsman Altimor"] = true,
+						},
+						["progress"] = 2,
+						["extended"] = 0,
+						["isRaid"] = 1,
+					},
+				},
+				["lastUpdate"] = 1616143261,
+				["expiredCalendar"] = {
+					"2021-02-20|18:30|Normal Raid|0|8", -- [1]
+					"2021-02-23|19:30|Skip Raid|0|8", -- [2]
+					"2021-02-25|19:30|CT Heroic Raid|0|8", -- [3]
+					"2021-03-07|18:30|Normal Raid|0|8", -- [4]
+				},
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614988457,
+			},
+			["Default.Tichondrius.Shgrshn"] = {
+				["Contacts"] = {
+					["SaturnD117E8"] = {
+						["note"] = "",
+					},
+					["Forsho"] = {
+						["note"] = "",
+					},
+					["LaieboC2AE2A"] = {
+						["note"] = "",
+					},
+					["Cryptt"] = {
+						["note"] = "",
+					},
+					["Kapahulu"] = {
+						["note"] = "",
+					},
+					["Råndôm"] = {
+						["note"] = "",
+					},
+					["Teamspirit"] = {
+						["note"] = "",
+					},
+					["ßerzerk"] = {
+						["note"] = "",
+					},
+					["Yennk"] = {
+						["note"] = "",
+					},
+					["Deletemeeplz"] = {
+						["note"] = "",
+					},
+					["Nightm5C36D6"] = {
+						["note"] = "",
+					},
+					["Fekzul"] = {
+						["note"] = "",
+					},
+					["Bauce"] = {
+						["note"] = "",
+					},
+					["Mingan"] = {
+						["note"] = "",
+					},
+					["Savedby"] = {
+						["note"] = "",
+					},
+					["Yoshïo"] = {
+						["note"] = "",
+					},
+					["Yoter"] = {
+						["note"] = "",
+					},
+					["Scottxyz"] = {
+						["note"] = "",
+					},
+					["Grenji"] = {
+						["note"] = "",
+					},
+					["Deydrellia"] = {
+						["note"] = "",
+					},
+					["Nossbig"] = {
+						["note"] = "",
+					},
+					["Froztt"] = {
+						["note"] = "",
+					},
+					["Veryholytaco"] = {
+						["note"] = "",
+					},
+					["Yotaforlife"] = {
+						["note"] = "",
+					},
+					["Nossbigga"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1546816790,
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1616046899,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777532,
@@ -490,7 +461,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1546208371,
 			},
 			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615971958,
+				["lastUpdate"] = 1616067496,
 			},
 		},
 	},

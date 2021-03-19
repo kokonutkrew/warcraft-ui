@@ -1,3 +1,11 @@
+### 1.4.10 (2021-03-11 10:42:40 +0100) ###
+(https://github.com/Mpstark/DynamicCam/compare/1.4.9...1.4.10)
+Some more teleportation spell IDs.
+
+### 1.4.9 (2021-03-10 09:52:26 +0100) ###
+(https://github.com/Mpstark/DynamicCam/compare/1.4.8...1.4.9)
+TOC file bump to 9.0.5.
+
 ### 1.4.8 (2020-12-07 01:08:32 +0100) ###
 (https://github.com/Mpstark/DynamicCam/compare/1.4.7...1.4.8)
 Added dynamic pitch description to situation specific settings.

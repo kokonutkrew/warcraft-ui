@@ -69,14 +69,14 @@ FGI_DB = {
 					"60-60 r-\"Lightforged Draenei\"", -- [25]
 					"60-60 r-\"Dark Iron Dwarf\"", -- [26]
 				},
-				["progress"] = 13,
+				["progress"] = 19,
 				["timeShift"] = 0,
 				["inviteList"] = {
 				},
 				["oldCount"] = 0,
 			},
 			["messageList"] = {
-				"Hey NAME, do you have any Shadowland's professions maxxed? GUILDLINK is looking for crafters as we prepare for new content. Let me know if you're interested!", -- [1]
+				"Hey NAME, do you have any Shadowland's professions maxxed? In addition to raid, our crafters work together to net their own profits. GUILDLINK Let me know if you're interested!", -- [1]
 			},
 		},
 	},
@@ -167,11 +167,6 @@ FGI_DB = {
 				["Lòrdano"] = true,
 				["Synuid"] = true,
 			},
-			["alreadySended"] = {
-				["Undyinglove"] = 1615402800,
-				["Salam"] = 1615402800,
-				["Thesla"] = 1615402800,
-			},
 			["blackList"] = {
 				["Heckers"] = "Rude",
 				["Greendigits"] = "Not interested",
@@ -194,6 +189,15 @@ FGI_DB = {
 				["Ziolas"] = "DNC",
 			},
 			["enableFilters"] = true,
+			["alreadySended"] = {
+				["Invitepls"] = 1616004000,
+				["Yosoyhuevos"] = 1616004000,
+				["Phendark"] = 1616004000,
+				["Taiond"] = 1616004000,
+				["Zelwren"] = 1616004000,
+				["Decrepiti"] = 1616004000,
+				["Kuramå"] = 1616004000,
+			},
 		},
 	},
 }

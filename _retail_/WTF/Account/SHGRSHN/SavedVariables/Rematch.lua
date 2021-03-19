@@ -77,13 +77,13 @@ RematchSettings = {
 	["loadedTeam"] = 173372,
 	["PetCardYPos"] = 828.9999389648438,
 	["SelectedTab"] = 2,
-	["FavoriteFilters"] = {
+	["LevelingQueue"] = {
 	},
 	["Sort"] = {
 		["Order"] = 2,
 		["FavoritesFirst"] = true,
 	},
-	["JournalPanel"] = 1,
+	["AllowHiddenPetsDefaulted"] = true,
 	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
@@ -181,8 +181,8 @@ RematchSettings = {
 	["QueueSanctuary"] = {
 	},
 	["CornerPos"] = "BOTTOMLEFT",
-	["AllowHiddenPetsDefaulted"] = true,
-	["LevelingQueue"] = {
+	["JournalPanel"] = 1,
+	["FavoriteFilters"] = {
 	},
 	["UseTypeBar"] = true,
 	["CustomScaleValue"] = 100,

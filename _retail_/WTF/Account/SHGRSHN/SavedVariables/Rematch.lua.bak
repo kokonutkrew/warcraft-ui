@@ -74,17 +74,17 @@ RematchSettings = {
 	},
 	["QueueSortOrder"] = 1,
 	["XPos"] = 675,
-	["FavoriteFilters"] = {
+	["LevelingQueue"] = {
 	},
 	["PetCardYPos"] = 828.9999389648438,
 	["CustomScaleValue"] = 100,
-	["LevelingQueue"] = {
+	["FavoriteFilters"] = {
 	},
 	["Sort"] = {
 		["Order"] = 2,
 		["FavoritesFirst"] = true,
 	},
-	["JournalPanel"] = 1,
+	["AllowHiddenPetsDefaulted"] = true,
 	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
@@ -129,7 +129,7 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
-	["AllowHiddenPetsDefaulted"] = true,
+	["JournalPanel"] = 1,
 	["PetCardXPos"] = 1446,
 	["SpecialSlots"] = {
 	},

@@ -62,13 +62,26 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Tichondrius.Gfsdfgsd"] = {
+				["lastUpdate"] = 1547741452,
+				["lastVisitDate"] = "2019/01/17 09:10",
+			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1615437801,
 				["lastVisitDate"] = "2019/03/11 09:08",
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1607258111,
+				["lastUpdate"] = 1616147260,
 				["lastVisitDate"] = "2018/12/15 19:09",
+			},
+			["Default.Emerald Dream.Samoansurge"] = {
+				["lastUpdate"] = 1612197596,
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["lastUpdate"] = 1606608466,
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1615979314,
 			},
 			["Default.Emerald Dream.Mf"] = {
 				["lastUpdate"] = 1615984524,
@@ -173,32 +186,19 @@ DataStore_AuctionsDB = {
 				},
 			},
 			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615363641,
-			},
-			["Default.Emerald Dream.Farmcraft"] = {
-				["lastUpdate"] = 1615970938,
-			},
-			["Default.Tichondrius.Gfsdfgsd"] = {
-				["lastUpdate"] = 1547741452,
-				["lastVisitDate"] = "2019/01/17 09:10",
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615488053,
-			},
-			["Default.Emerald Dream.Samoanbeast"] = {
-				["lastUpdate"] = 1606608466,
-			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1612197596,
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615979314,
+				["lastUpdate"] = 1616115777,
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1614984283,
 			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1615970938,
+			},
 			["Default.Emerald Dream.Forgecraft"] = {
 				["lastUpdate"] = 1615983608,
+			},
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1615488053,
 			},
 		},
 	},

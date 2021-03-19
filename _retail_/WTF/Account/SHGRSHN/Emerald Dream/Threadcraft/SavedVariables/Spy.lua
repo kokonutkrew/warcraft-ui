@@ -1,5 +1,16 @@
 
 SpyPerCharDB = {
+	["version"] = "1.1",
+	["IgnoreData"] = {
+	},
+	["KOSData"] = {
+		["Meddling"] = 1608587648,
+		["Whackers"] = 1608326279,
+		["Herpexio"] = 1608326277,
+		["Karthi"] = 1614298422,
+		["Kaijinn"] = 1611979218,
+		["Draazz"] = 1606942090,
+	},
 	["PlayerData"] = {
 		["Meddling"] = {
 			["mapID"] = 1670,
@@ -25,14 +36,14 @@ SpyPerCharDB = {
 			["class"] = "DRUID",
 			["added"] = 1608326279,
 			["isEnemy"] = true,
-			["time"] = 1608947713,
-			["race"] = "Troll",
 			["name"] = "Whackers",
+			["race"] = "Troll",
+			["subZone"] = "Briar Gate",
 			["mapY"] = 0.53,
 			["mapX"] = 0.56,
 			["level"] = 60,
 			["wins"] = 3,
-			["subZone"] = "Briar Gate",
+			["time"] = 1608947713,
 		},
 		["Herpexio"] = {
 			["mapID"] = 1670,
@@ -62,12 +73,12 @@ SpyPerCharDB = {
 				["Enter your own reason..."] = "Griefing AFK in Stormwind",
 			},
 			["race"] = "Blood Elf",
-			["name"] = "Karthi",
+			["time"] = 1614298412,
 			["subZone"] = "Trade District",
 			["mapY"] = 0.73,
 			["level"] = 60,
 			["mapX"] = 0.62,
-			["time"] = 1614298412,
+			["name"] = "Karthi",
 		},
 		["Kaijinn"] = {
 			["mapID"] = 1533,
@@ -98,23 +109,12 @@ SpyPerCharDB = {
 				["Attacked me for no reason"] = true,
 			},
 			["race"] = "Blood Elf",
-			["name"] = "Draazz",
+			["time"] = 1606943841,
 			["subZone"] = "Blighted Scar",
 			["mapY"] = 0.6,
 			["level"] = 55,
 			["mapX"] = 0.58,
-			["time"] = 1606943841,
+			["name"] = "Draazz",
 		},
-	},
-	["IgnoreData"] = {
-	},
-	["version"] = "1.1",
-	["KOSData"] = {
-		["Meddling"] = 1608587648,
-		["Whackers"] = 1608326279,
-		["Herpexio"] = 1608326277,
-		["Karthi"] = 1614298422,
-		["Kaijinn"] = 1611979218,
-		["Draazz"] = 1606942090,
 	},
 }

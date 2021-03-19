@@ -6,8 +6,6 @@ GSELegacyLibraryBackup = {
 		["JMM_WR_PROT_ST"] = {
 			["Talents"] = "1,2,2,3,3,1,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 73,
 			["MacroVersions"] = {
 				{
 					"/cast Devastate", -- [1]
@@ -37,6 +35,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 73,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -47,7 +47,6 @@ GSELegacyLibraryBackup = {
 			["Talents"] = "2233211",
 			["Help"] = "Single target rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
-			["SpecID"] = 70,
 			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
@@ -64,9 +63,9 @@ GSELegacyLibraryBackup = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
+					["StepFunction"] = "Sequential",
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
 					["KeyRelease"] = {
 					},
 					["Trinket2"] = true,
@@ -77,13 +76,12 @@ GSELegacyLibraryBackup = {
 					["Trinket1"] = true,
 				}, -- [1]
 			},
+			["SpecID"] = 70,
 			["ManualIntervention"] = true,
 		},
 		["HOLY_ST"] = {
 			["Talents"] = "1,2,2,1,2,3,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 65,
 			["MacroVersions"] = {
 				{
 					"/cast Judgment", -- [1]
@@ -106,14 +104,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 65,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_PA_PROT_ST"] = {
 			["Talents"] = "2,1,3,3,1,2,1",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 66,
 			["MacroVersions"] = {
 				{
 					"/castsequence  reset=combat  Shield of the Righteous, Consecration, Consecration", -- [1]
@@ -134,14 +132,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 66,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_PA_RET_AOE"] = {
 			["Talents"] = "3,1,3,3,2,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
 			["MacroVersions"] = {
 				{
 					"/cast Crusader Strike", -- [1]
@@ -165,14 +163,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 70,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_PA_RET_ST"] = {
 			["Talents"] = "3,1,3,3,2,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 70,
 			["MacroVersions"] = {
 				{
 					"/cast Crusader Strike", -- [1]
@@ -196,6 +194,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 70,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -204,6 +204,8 @@ GSELegacyLibraryBackup = {
 			["Talents"] = "2233211",
 			["Help"] = "Area of effect rotation for retribution paladins in Battle for Azeroth",
 			["Default"] = 1,
+			["SpecID"] = 70,
+			["Author"] = "Samoantitan@Stormrage",
 			["MacroVersions"] = {
 				{
 					"/use Avenging Wrath", -- [1]
@@ -220,9 +222,9 @@ GSELegacyLibraryBackup = {
 					["Neck"] = true,
 					["Belt"] = true,
 					["Ring1"] = true,
+					["StepFunction"] = "Sequential",
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
 					["KeyRelease"] = {
 					},
 					["Trinket2"] = true,
@@ -234,8 +236,6 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
-			["SpecID"] = 70,
-			["Author"] = "Samoantitan@Stormrage",
 			["ManualIntervention"] = true,
 		},
 	}, -- [2]
@@ -243,8 +243,6 @@ GSELegacyLibraryBackup = {
 		["JMM_HU_BM_AOE"] = {
 			["Talents"] = "3,1,1,2,3,3,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
@@ -271,14 +269,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_HU_BM_ST"] = {
 			["Talents"] = "3,1,1,2,3,3,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet][@pet,dead] Revive Pet", -- [1]
@@ -305,6 +303,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -414,8 +414,6 @@ GSELegacyLibraryBackup = {
 		["JMM_HU_BM_FARM"] = {
 			["Talents"] = "3,1,1,3,3,?,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 253,
 			["MacroVersions"] = {
 				{
 					"/cast [nopet] Call Pet 2", -- [1]
@@ -444,6 +442,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 253,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -452,8 +452,6 @@ GSELegacyLibraryBackup = {
 		["JMM_RO_OUTLAW_ST"] = {
 			["Talents"] = "1,1,1,1,3,2,1",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Adrenaline Rush", -- [1]
@@ -478,12 +476,15 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 260,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_OUTLAW"] = {
 			["Talents"] = "2222231",
 			["Default"] = 1,
+			["Author"] = "TimothyLuke",
 			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
@@ -513,13 +514,13 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_SUB"] = {
 			["Talents"] = "3113213",
 			["Default"] = 1,
+			["Author"] = "Cymiryc",
 			["SpecID"] = 261,
 			["MacroVersions"] = {
 				{
@@ -544,7 +545,6 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "Cymiryc",
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -552,6 +552,7 @@ GSELegacyLibraryBackup = {
 			["Default"] = 1,
 			["Talents"] = "2222212",
 			["Help"] = "Sample Assination Macro",
+			["Author"] = "TimothyLuke",
 			["SpecID"] = 259,
 			["MacroVersions"] = {
 				{
@@ -575,15 +576,12 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
-			["Author"] = "TimothyLuke",
 			["Icon"] = "Ability_Rogue_DeadlyBrew",
 			["ManualIntervention"] = false,
 		},
 		["JMM_RO_OUTLAW_AOE"] = {
 			["Talents"] = "1,1,1,1,3,2,1",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 260,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Adrenaline Rush", -- [1]
@@ -608,6 +606,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 260,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -616,8 +616,6 @@ GSELegacyLibraryBackup = {
 		["JMM_PR_DISC_ST"] = {
 			["Talents"] = "1,1,2,3,1,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
 					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
@@ -641,14 +639,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 256,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_PR_DISC_AOE"] = {
 			["Talents"] = "1,1,2,3,1,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
 					"/castsequence [@focus, exists][@party1, exists] reset=combat Power Word: Shield, Shadow Mend", -- [1]
@@ -674,6 +672,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 256,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -681,8 +681,6 @@ GSELegacyLibraryBackup = {
 			["Help"] = "",
 			["Talents"] = "1211221",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 258,
 			["MacroVersions"] = {
 				{
 					"/castsequence [nochanneling] reset=target  34914, 15407, null", -- [1]
@@ -706,14 +704,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 258,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["SAM_DISC"] = {
 			["Talents"] = "1231212",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 256,
 			["MacroVersions"] = {
 				{
 					"/cast [@player, nocombat, nochanneling] 17", -- [1]
@@ -721,10 +719,10 @@ GSELegacyLibraryBackup = {
 					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
 					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
 					"/cast [combat, nochanneling] 585", -- [5]
-					["Combat"] = true,
-					["StepFunction"] = "Priority",
 					["KeyRelease"] = {
 					},
+					["StepFunction"] = "Priority",
+					["Trinket1"] = true,
 					["Trinket2"] = true,
 					["PostMacro"] = {
 					},
@@ -735,9 +733,11 @@ GSELegacyLibraryBackup = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket1"] = true,
+					["Combat"] = true,
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 256,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -746,8 +746,6 @@ GSELegacyLibraryBackup = {
 		["JMM_DK_BLOOD_ST"] = {
 			["Talents"] = "2,1,1,2,1,3,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 250,
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat Marrowrend, Marrowrend, Death Strike", -- [1]
@@ -775,6 +773,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 250,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -783,8 +783,6 @@ GSELegacyLibraryBackup = {
 		["JMM_SH_RESTO_AOE"] = {
 			["Talents"] = "3,2,1,3,3,2,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
@@ -806,6 +804,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 264,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -813,8 +813,6 @@ GSELegacyLibraryBackup = {
 			["Help"] = "A simple Elemental Macro",
 			["Talents"] = "2211121",
 			["Default"] = 1,
-			["Author"] = "TimothyLuke",
-			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/castsequence [nopet:Fire Elemental] 198067", -- [1]
@@ -836,14 +834,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 262,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_RESTO_ST"] = {
 			["Talents"] = "3,2,1,3,3,2,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 264,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus, exists, nodead][@Party1, exists, nodead][] Riptide", -- [1]
@@ -866,6 +864,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 264,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -873,6 +873,8 @@ GSELegacyLibraryBackup = {
 			["Talents"] = "2211121",
 			["Default"] = 1,
 			["Help"] = "Sample Elemental Macro",
+			["SpecID"] = 262,
+			["Author"] = "Lloskka",
 			["MacroVersions"] = {
 				{
 					"/cast Stormstrike", -- [1]
@@ -894,15 +896,11 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
-			["SpecID"] = 262,
-			["Author"] = "Lloskka",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_ELE_AOE"] = {
 			["Talents"] = "3,2,1,2,3,3,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/cast Stormkeeper", -- [1]
@@ -928,14 +926,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 262,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_ELE_ST"] = {
 			["Talents"] = "3,2,1,2,3,1,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 262,
 			["MacroVersions"] = {
 				{
 					"/cast Stormkeeper", -- [1]
@@ -962,14 +960,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 262,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_SH_ENH_ST"] = {
 			["Talents"] = "3,1,1,2,2,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 263,
 			["MacroVersions"] = {
 				{
 					"/cast Rockbiter", -- [1]
@@ -993,6 +991,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 263,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1001,8 +1001,6 @@ GSELegacyLibraryBackup = {
 		["JMM_MA_ARCANE_AOE"] = {
 			["Talents"] = "2,2,3,3,1,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
 			["MacroVersions"] = {
 				{
 					"/castsequence Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Explosion, Arcane Barrage", -- [1]
@@ -1020,14 +1018,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 62,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_MA_ARCANE_ST"] = {
 			["Talents"] = "2,2,3,3,1,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 62,
 			["MacroVersions"] = {
 				{
 					"/cast Prismatic Barrier", -- [1]
@@ -1047,6 +1045,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 62,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1056,7 +1056,6 @@ GSELegacyLibraryBackup = {
 			["Talents"] = "3,1,2,1,1,2,2",
 			["Help"] = "",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat/15 Shadow Bolt, Call Dreadstalkers, Demonic Empowerment, Life Tap, Shadow Bolt", -- [1]
@@ -1084,14 +1083,13 @@ GSELegacyLibraryBackup = {
 				}, -- [1]
 			},
 			["SpecID"] = 266,
+			["Author"] = "Jabberie@Draka",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DEMO_AOE"] = {
 			["Default"] = 1,
 			["Talents"] = "3,1,2,1,1,2,2",
 			["Help"] = "",
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 266,
 			["MacroVersions"] = {
 				{
 					"/castsequence [combat] reset=combat/15 Demonwrath, Hand of Gul'dan, Demonic Empowerment, Demonwrath, Demonwrath, Life Tap", -- [1]
@@ -1115,14 +1113,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 266,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DESTRO_ST"] = {
 			["Talents"] = "1,1,?,2,1,1,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat Immolate, Shadow Bolt, Shadow Bolt, Shadow Bolt", -- [1]
@@ -1145,14 +1143,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 267,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_AFF_ST"] = {
 			["Talents"] = "3,1,2,1,1,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 265,
 			["MacroVersions"] = {
 				{
 					"/cast [mod:shift] Seed of Corruption", -- [1]
@@ -1174,14 +1172,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 265,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_WK_DESTRO_AOE"] = {
 			["Talents"] = "1,3,3,1,2,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 267,
 			["MacroVersions"] = {
 				{
 					"/cast [@player] Rain of Fire", -- [1]
@@ -1205,6 +1203,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 267,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1213,8 +1213,6 @@ GSELegacyLibraryBackup = {
 		["JMM_MK_BM_ST"] = {
 			["Talents"] = "2,1,1,3,1,1,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 268,
 			["MacroVersions"] = {
 				{
 					"/castsequence Keg Smash, Tiger Palm, Blackout Strike, Tiger Palm", -- [1]
@@ -1235,14 +1233,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 268,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_MK_WW_ST"] = {
 			["Talents"] = "3,2,3,3,1,2,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 269,
 			["MacroVersions"] = {
 				{
 					"/cast Tiger Palm", -- [1]
@@ -1266,6 +1264,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 269,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1275,6 +1275,7 @@ GSELegacyLibraryBackup = {
 			["Help"] = "Press Shift for Maul, Ctrl for Frenzied Regeneration, and Alt for Moonfire.",
 			["Talents"] = "2332213",
 			["Default"] = 1,
+			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/targetenemy [noharm][dead]", -- [1]
@@ -1285,10 +1286,10 @@ GSELegacyLibraryBackup = {
 					"/cast Mangle", -- [6]
 					"/castsequence Ironfur, Ironfur", -- [7]
 					"/cast Rage of the Sleeper", -- [8]
-					["Trinket1"] = true,
 					["KeyRelease"] = {
 					},
-					["StepFunction"] = "Priority",
+					["Trinket1"] = true,
+					["Trinket2"] = true,
 					["PostMacro"] = {
 					},
 					["KeyPress"] = {
@@ -1299,11 +1300,10 @@ GSELegacyLibraryBackup = {
 					},
 					["PreMacro"] = {
 					},
-					["Trinket2"] = true,
+					["StepFunction"] = "Priority",
 				}, -- [1]
 			},
 			["Author"] = "TimothyLuke",
-			["SpecID"] = 104,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -1350,8 +1350,6 @@ GSELegacyLibraryBackup = {
 		["JMM_DR_GUARDIAN_ST"] = {
 			["Talents"] = "3,3,1,1,1,2,1",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 104,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Thrash", -- [1]
@@ -1377,14 +1375,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 104,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DR_BOOMKIN_ST"] = {
 			["Talents"] = "3,1,3,1,1,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
 					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
@@ -1413,6 +1411,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 102,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1420,8 +1420,6 @@ GSELegacyLibraryBackup = {
 			["Helplink"] = "",
 			["Talents"] = "?,?,?,?,?,?,?",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus,dead,combat][@party1,dead,combat][@party2,dead,combat][@party3,dead,combat][@party4,dead,combat][@party5,dead,combat] Rebirth", -- [1]
@@ -1437,6 +1435,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 103,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
@@ -1444,8 +1444,6 @@ GSELegacyLibraryBackup = {
 			["Helplink"] = "https://www.youtube.com/watch?v=IT31Rp7aIOU",
 			["Talents"] = "2,1,1,1,1,1,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/castsequence reset=combat  Shred, Rake, Shred, Shred, Ferocious Bite", -- [1]
@@ -1471,14 +1469,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 103,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DR_RESTO_ST"] = {
 			["Talents"] = "2,1,1,1,3,2,2",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 105,
 			["MacroVersions"] = {
 				{
 					"/cast [@focus,exists][@Party1,exists] Cenarion Ward", -- [1]
@@ -1501,14 +1499,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 105,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DR_BOOMKIN_AOE"] = {
 			["Talents"] = "3,1,3,1,1,1,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 102,
 			["MacroVersions"] = {
 				{
 					"/castsequence  reset=target/combat  Sunfire, null", -- [1]
@@ -1535,12 +1533,15 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 102,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["SAM_FERAL"] = {
 			["Talents"] = "2,3,2,1,2,2,1",
 			["Default"] = 1,
+			["SpecID"] = 103,
 			["MacroVersions"] = {
 				{
 					"/cast Rake", -- [1]
@@ -1591,7 +1592,6 @@ GSELegacyLibraryBackup = {
 				}, -- [1]
 			},
 			["Author"] = "Ed",
-			["SpecID"] = 103,
 			["Icon"] = "",
 			["ManualIntervention"] = false,
 		},
@@ -1600,8 +1600,6 @@ GSELegacyLibraryBackup = {
 		["JMM_DH_VENGEANCE_ST"] = {
 			["Talents"] = "3,2,2,2,2,3,3",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 581,
 			["MacroVersions"] = {
 				{
 					"/cast [combat] Immolation Aura", -- [1]
@@ -1627,14 +1625,14 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 581,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},
 		["JMM_DH_HAVOC_ST"] = {
 			["Talents"] = "2,2,2,2,2,1,1",
 			["Default"] = 1,
-			["Author"] = "Jabberie@Draka",
-			["SpecID"] = 577,
 			["MacroVersions"] = {
 				{
 					"/cast [nochanneling] Chaos Blades", -- [1]
@@ -1658,6 +1656,8 @@ GSELegacyLibraryBackup = {
 					},
 				}, -- [1]
 			},
+			["Author"] = "Jabberie@Draka",
+			["SpecID"] = 577,
 			["Icon"] = "INV_MISC_QUESTIONMARK",
 			["ManualIntervention"] = false,
 		},

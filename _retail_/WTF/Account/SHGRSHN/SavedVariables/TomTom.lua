@@ -79,9 +79,6 @@ TomTomDB = {
 			["poi"] = {
 				["enable"] = false,
 			},
-			["block"] = {
-				["enable"] = false,
-			},
 			["general"] = {
 				["confirmremoveall"] = false,
 			},
@@ -93,6 +90,9 @@ TomTomDB = {
 					5.00003719329834, -- [4]
 					-216.0000305175781, -- [5]
 				},
+			},
+			["block"] = {
+				["enable"] = false,
 			},
 		},
 	},
@@ -178,10 +178,18 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/wm",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,

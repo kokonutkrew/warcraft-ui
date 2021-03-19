@@ -224,9 +224,6 @@ DataStore_PetsDB = {
 			},
 		},
 		["Characters"] = {
-			["Default.Emerald Dream.Samoantank"] = {
-				["lastUpdate"] = 1545020846,
-			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1615983814,
 				["CRITTER"] = {
@@ -257,7 +254,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1611778005,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1608540693,
+				["lastUpdate"] = 1616145454,
 				["CRITTER"] = {
 					36031, -- [1]
 					230443, -- [2]
@@ -281,8 +278,8 @@ DataStore_PetsDB = {
 			["Default.Tichondrius.Samoanmystic"] = {
 				["lastUpdate"] = 1546812753,
 			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544902629,
+			["Default.Emerald Dream.Samoantitan"] = {
+				["lastUpdate"] = 1544920046,
 			},
 			["Default.Tichondrius.Samoansaint"] = {
 				["lastUpdate"] = 1546209126,
@@ -291,22 +288,19 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615984458,
+				["lastUpdate"] = 1616044530,
 			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1608226344,
 			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["lastUpdate"] = 1607745382,
+			["Default.Emerald Dream.Forgecraft"] = {
+				["lastUpdate"] = 1615983479,
 			},
 			["Default.Stormrage.Samoantotems"] = {
 				["lastUpdate"] = 1544635459,
 			},
 			["Default.Emerald Dream.Farmcraft"] = {
 				["lastUpdate"] = 1615971102,
-			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["lastUpdate"] = 1615983479,
 			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["lastUpdate"] = 1603382398,
@@ -318,69 +312,17 @@ DataStore_PetsDB = {
 					273839, -- [5]
 				},
 			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1615414303,
-			},
-			["Default.Emerald Dream.Dustcraft"] = {
-				["lastUpdate"] = 1615448212,
-			},
-			["Default.Emerald Dream.Samoansteel"] = {
-				["lastUpdate"] = 1608195928,
-			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622532,
-			},
 			["Default.Emerald Dream.Samoanlegend"] = {
 				["lastUpdate"] = 1545148651,
-			},
-			["Default.Emerald Dream.Tingerce"] = {
-				["lastUpdate"] = 1607744541,
 			},
 			["Default.Tichondrius.Gfsdfgsd"] = {
 				["lastUpdate"] = 1548864606,
 			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["lastUpdate"] = 1608363113,
-			},
-			["Default.Emerald Dream.Craudy"] = {
-				["lastUpdate"] = 1608199955,
-			},
-			["Default.Emerald Dream.Samoanreaper"] = {
-				["lastUpdate"] = 1608195597,
-			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615933300,
-				["CRITTER"] = {
-					341292, -- [1]
-					339677, -- [2]
-					92397, -- [3]
-					92395, -- [4]
-					341635, -- [5]
-					312833, -- [6]
-					285843, -- [7]
-					341493, -- [8]
-				},
-			},
 			["Default.Stormrage.Kakattack"] = {
 				["lastUpdate"] = 1544472652,
 			},
-			["Default.Tichondrius.Serepa"] = {
-				["lastUpdate"] = 1545730666,
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614988457,
-				["CRITTER"] = {
-					173547, -- [1]
-					92397, -- [2]
-					92395, -- [3]
-					170270, -- [4]
-					177215, -- [5]
-					312833, -- [6]
-					170283, -- [7]
-				},
-			},
 			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615972657,
+				["lastUpdate"] = 1616105451,
 				["CRITTER"] = {
 					221684, -- [1]
 					339677, -- [2]
@@ -406,62 +348,6 @@ DataStore_PetsDB = {
 			["Default.Emerald Dream.Samoanbeast"] = {
 				["lastUpdate"] = 1615371211,
 			},
-			["Default.Tichondrius.Shgrshn"] = {
-				["lastUpdate"] = 1546816792,
-				["CRITTER"] = {
-					10713, -- [1]
-					10685, -- [2]
-					135261, -- [3]
-					36031, -- [4]
-					78683, -- [5]
-					10709, -- [6]
-					35239, -- [7]
-					65358, -- [8]
-					61351, -- [9]
-					69452, -- [10]
-					135259, -- [11]
-					100684, -- [12]
-					10717, -- [13]
-					103544, -- [14]
-					93838, -- [15]
-					122748, -- [16]
-					36027, -- [17]
-					92396, -- [18]
-					135258, -- [19]
-					170270, -- [20]
-					155838, -- [21]
-					188084, -- [22]
-					35156, -- [23]
-					4055, -- [24]
-					55068, -- [25]
-					67417, -- [26]
-					69002, -- [27]
-					27570, -- [28]
-					70613, -- [29]
-					35909, -- [30]
-					103588, -- [31]
-					10684, -- [32]
-					10677, -- [33]
-					42609, -- [34]
-					62561, -- [35]
-					164212, -- [36]
-					10688, -- [37]
-					61349, -- [38]
-					26541, -- [39]
-					39709, -- [40]
-				},
-			},
-			["Default.Emerald Dream.Samoansensei"] = {
-				["lastUpdate"] = 1545023282,
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615979368,
-				["CRITTER"] = {
-					92397, -- [1]
-					92395, -- [2]
-					339999, -- [3]
-				},
-			},
 			["Default.Tichondrius.Samoansavage"] = {
 				["lastUpdate"] = 1547637902,
 				["CRITTER"] = {
@@ -473,17 +359,14 @@ DataStore_PetsDB = {
 					170282, -- [6]
 				},
 			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1612175054,
-			},
 			["Default.Tichondrius.Samoanstrap"] = {
 				["lastUpdate"] = 1544167317,
 				["CRITTER"] = {
 					169695, -- [1]
 				},
 			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["lastUpdate"] = 1608674996,
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1612175054,
 			},
 			["Default.Tichondrius.Samoansage"] = {
 				["lastUpdate"] = 1544168013,
@@ -511,17 +394,8 @@ DataStore_PetsDB = {
 					221907, -- [21]
 				},
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633456,
-			},
-			["Default.Emerald Dream.Samoanzero"] = {
-				["lastUpdate"] = 1601276462,
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013963,
-			},
-			["Default.Emerald Dream.Samoantitan"] = {
-				["lastUpdate"] = 1544920046,
+			["Default.Emerald Dream.Samoansurge"] = {
+				["lastUpdate"] = 1615414303,
 			},
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1603443858,
@@ -602,17 +476,92 @@ DataStore_PetsDB = {
 					26529, -- [74]
 				},
 			},
-			["Default.Emerald Dream.Feerless"] = {
-				["lastUpdate"] = 1606633346,
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013963,
 			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1603441150,
+			["Default.Emerald Dream.Samoanzero"] = {
+				["lastUpdate"] = 1601276462,
 			},
-			["Default.Emerald Dream.Vithun"] = {
-				["lastUpdate"] = 1608206177,
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1616143261,
+				["CRITTER"] = {
+					341292, -- [1]
+					339677, -- [2]
+					92397, -- [3]
+					92395, -- [4]
+					341635, -- [5]
+					312833, -- [6]
+					285843, -- [7]
+					341493, -- [8]
+				},
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
+			["Default.Tichondrius.Serepa"] = {
+				["lastUpdate"] = 1545730666,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614988457,
+				["CRITTER"] = {
+					173547, -- [1]
+					92397, -- [2]
+					92395, -- [3]
+					170270, -- [4]
+					177215, -- [5]
+					312833, -- [6]
+					170283, -- [7]
+				},
+			},
+			["Default.Tichondrius.Shgrshn"] = {
+				["lastUpdate"] = 1546816792,
+				["CRITTER"] = {
+					10713, -- [1]
+					10685, -- [2]
+					135261, -- [3]
+					36031, -- [4]
+					78683, -- [5]
+					10709, -- [6]
+					35239, -- [7]
+					65358, -- [8]
+					61351, -- [9]
+					69452, -- [10]
+					135259, -- [11]
+					100684, -- [12]
+					10717, -- [13]
+					103544, -- [14]
+					93838, -- [15]
+					122748, -- [16]
+					36027, -- [17]
+					92396, -- [18]
+					135258, -- [19]
+					170270, -- [20]
+					155838, -- [21]
+					188084, -- [22]
+					35156, -- [23]
+					4055, -- [24]
+					55068, -- [25]
+					67417, -- [26]
+					69002, -- [27]
+					27570, -- [28]
+					70613, -- [29]
+					35909, -- [30]
+					103588, -- [31]
+					10684, -- [32]
+					10677, -- [33]
+					42609, -- [34]
+					62561, -- [35]
+					164212, -- [36]
+					10688, -- [37]
+					61349, -- [38]
+					26541, -- [39]
+					39709, -- [40]
+				},
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1616046899,
+				["CRITTER"] = {
+					92397, -- [1]
+					92395, -- [2]
+					339999, -- [3]
+				},
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777530,
@@ -624,7 +573,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1546207293,
 			},
 			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615971961,
+				["lastUpdate"] = 1616067496,
 			},
 		},
 	},

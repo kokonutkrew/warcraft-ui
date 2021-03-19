@@ -1,8 +1,5 @@
 
 SpyPerCharDB = {
-	["version"] = "1.1",
-	["IgnoreData"] = {
-	},
 	["KOSData"] = {
 		["Meddling"] = 1608587648,
 		["Whackers"] = 1608326279,
@@ -10,6 +7,8 @@ SpyPerCharDB = {
 		["Draazz"] = 1606942090,
 		["Kaijinn"] = 1611979218,
 		["Karthi"] = 1614298422,
+	},
+	["IgnoreData"] = {
 	},
 	["PlayerData"] = {
 		["Meddling"] = {
@@ -36,14 +35,14 @@ SpyPerCharDB = {
 			["class"] = "DRUID",
 			["added"] = 1608326279,
 			["isEnemy"] = true,
-			["name"] = "Whackers",
-			["race"] = "Troll",
 			["subZone"] = "Briar Gate",
+			["race"] = "Troll",
+			["time"] = 1608947713,
 			["wins"] = 3,
 			["mapX"] = 0.56,
 			["level"] = 60,
 			["mapY"] = 0.53,
-			["time"] = 1608947713,
+			["name"] = "Whackers",
 		},
 		["Herpexio"] = {
 			["mapID"] = 1670,
@@ -69,9 +68,9 @@ SpyPerCharDB = {
 			["class"] = "PALADIN",
 			["added"] = 1606942090,
 			["isEnemy"] = true,
-			["name"] = "Draazz",
-			["race"] = "Blood Elf",
 			["time"] = 1606943841,
+			["race"] = "Blood Elf",
+			["name"] = "Draazz",
 			["mapX"] = 0.58,
 			["mapY"] = 0.6,
 			["level"] = 55,
@@ -105,9 +104,9 @@ SpyPerCharDB = {
 			["class"] = "MAGE",
 			["added"] = 1614298422,
 			["isEnemy"] = true,
-			["name"] = "Karthi",
-			["race"] = "Blood Elf",
 			["time"] = 1614298412,
+			["race"] = "Blood Elf",
+			["name"] = "Karthi",
 			["mapX"] = 0.62,
 			["mapY"] = 0.73,
 			["level"] = 60,
@@ -117,4 +116,5 @@ SpyPerCharDB = {
 			},
 		},
 	},
+	["version"] = "1.1",
 }

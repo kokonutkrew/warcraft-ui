@@ -66,6 +66,8 @@ VER 3 00000000000000CB "a-06 Star" "252269"
 END
 VER 3 00000000000000AE "a-07 Drink" "132807"
 /oom
+/use conjured mana lollipop
+/use conjured mana brownie
 /use conjured mana bun
 /use conjured mana pie
 END

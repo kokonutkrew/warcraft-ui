@@ -563,50 +563,20 @@ ChatterDB = {
 				},
 				["KokonutKrew"] = {
 					["colors"] = {
-						["Officer"] = {
-							["r"] = 0.250980406999588,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.250980406999588,
-						},
-						["Guild"] = {
-							["r"] = 0.250980406999588,
-							["g"] = 1,
-							["b"] = 0.250980406999588,
-						},
 						["General"] = {
 							["r"] = 1,
 							["g"] = 0.7529412508010864,
 							["b"] = 0.7529412508010864,
 						},
-						["Instance Leader"] = {
-							["r"] = 1,
-							["g"] = 0.2823529541492462,
-							["b"] = 0.03529411926865578,
-						},
-						["Instance"] = {
-							["r"] = 1,
-							["g"] = 0.4980392456054688,
-							["b"] = 0,
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.9647059440612793,
 						},
 						["Raid Leader"] = {
 							["r"] = 1,
 							["g"] = 0.2823529541492462,
 							["b"] = 0.03529411926865578,
-						},
-						["Trade"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.7529412508010864,
-						},
-						["Yell"] = {
-							["r"] = 1,
-							["g"] = 0.250980406999588,
-							["b"] = 0.250980406999588,
-						},
-						["LocalDefense"] = {
-							["r"] = 1,
-							["g"] = 0.7529412508010864,
-							["b"] = 0.7529412508010864,
 						},
 						["Party"] = {
 							["r"] = 0.6666666865348816,
@@ -618,30 +588,65 @@ ChatterDB = {
 							["g"] = 0.501960813999176,
 							["b"] = 1,
 						},
-						["Say"] = {
+						["Raid"] = {
 							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
+							["g"] = 0.4980392456054688,
+							["b"] = 0,
+						},
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.2823529541492462,
+							["b"] = 0,
 						},
 						["Party Leader"] = {
 							["r"] = 0.4627451300621033,
 							["g"] = 0.7843137979507446,
 							["b"] = 1,
 						},
-						["Raid"] = {
+						["Instance"] = {
 							["r"] = 1,
 							["g"] = 0.4980392456054688,
 							["b"] = 0,
 						},
-						["Real ID Whisper"] = {
-							["r"] = 0,
-							["g"] = 1,
-							["b"] = 0.9647059440612793,
+						["Yell"] = {
+							["r"] = 1,
+							["g"] = 0.250980406999588,
+							["b"] = 0.250980406999588,
 						},
-						["Raid Warning"] = {
+						["LocalDefense"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Community:382256951:1"] = {
+							["b"] = 0.7490196228027344,
+							["g"] = 0.7490196228027344,
+							["r"] = 1,
+						},
+						["Say"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["Trade"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
+						},
+						["Instance Leader"] = {
 							["r"] = 1,
 							["g"] = 0.2823529541492462,
-							["b"] = 0,
+							["b"] = 0.03529411926865578,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.250980406999588,
 						},
 					},
 				},
@@ -717,38 +722,43 @@ ChatterDB = {
 			["realm"] = {
 				["Emerald Dream"] = {
 					["history"] = {
-						"/p I got a quest out here |cffffff00|Hworldmap:1543:5651:7309|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-						"/p Never got done lol", -- [2]
-						"/p Im at jailer 4 as well", -- [3]
-						"/p I used cypher", -- [4]
-						"/p Its all good we should try again", -- [5]
-						"/p Lets go get our soul ash from torgast done", -- [6]
-						"/p we can summon krimz", -- [7]
-						"/p Im at stone", -- [8]
-						"/p you can both tank if you like lol", -- [9]
-						"/p lets just 3 man", -- [10]
-						"/p only if you didnt have a rouge who pulled half the instance all the time", -- [11]
-						"/p your doing a great job", -- [12]
-						"/p btw I can see anima", -- [13]
-						"/p nice work guys", -- [14]
-						"/p Yes it was good", -- [15]
-						"/p ty", -- [16]
-						"/p |cffa335ee|Hitem:184652::::::::60:261::14::1:28:2098:::|h[Phantasmic Infuser]|h|r", -- [17]
-						"/p omw to stone", -- [18]
-						"/p jump", -- [19]
-						"/p jump", -- [20]
-						"/s jump", -- [21]
-						"/s keep jumping lol", -- [22]
-						"/s lol", -- [23]
-						"/reload", -- [24]
-						"/tsm destroy", -- [25]
+						"/raid BREZ", -- [1]
+						"/cw Douglhas-Quel'Thalas brez", -- [2]
+						"/cw Douglhas-Quel'Thalas That was on me I died P1", -- [3]
+						"/cw Douglhas-Quel'Thalas Got caught crossed on lazers", -- [4]
+						"/cw Sacerdotemis-Quel'Thalas Thanks for the run", -- [5]
+						"/raid how many attempts so far?", -- [6]
+						"/raid Ill take 2nd pillar", -- [7]
+						"/raid can we reset trash?", -- [8]
+						"/raid zone out and reset?", -- [9]
+						"/raid can I get assist", -- [10]
+						"/cw Ibeatdatass-Proudmoore you got lead bro", -- [11]
+						"/cw Ibeatdatass-Proudmoore reset it pls", -- [12]
+						"/cw Ibeatdatass-Proudmoore ok", -- [13]
+						"/cw Ibeatdatass-Proudmoore can I get in voice with you guys so I can learn how", -- [14]
+						"/cw Ibeatdatass-Proudmoore r", -- [15]
+						"/p r", -- [16]
+						"/p I", -- [17]
+						"/p It wasnt me", -- [18]
+						"/addonusage", -- [19]
+						"/vuhdo options", -- [20]
+						"/vuhdo options", -- [21]
+						"/vuhdo", -- [22]
+						"/vuhdo options", -- [23]
+						"/vuhdo options", -- [24]
+						"/addonusage", -- [25]
 						"/vuhdo options", -- [26]
-						"/chatter", -- [27]
-						"/vuhdo options", -- [28]
-						"/chatter", -- [29]
-						"/chatter", -- [30]
-						"/chatter", -- [31]
-						"/vuhdo options", -- [32]
+						"/i ill heal you", -- [27]
+						"/i stay close to our gy", -- [28]
+						"/i tank meet me", -- [29]
+						"/i for hand off", -- [30]
+						"/rw get to the fight", -- [31]
+						"/rw our base", -- [32]
+					},
+				},
+				["Stormrage"] = {
+					["history"] = {
+						"/chatter", -- [1]
 					},
 				},
 			},
@@ -765,19 +775,20 @@ ChatterDB = {
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "KokonutKrew",
 		["Samoanbeast - Emerald Dream"] = "Default",
 		["Herbcraft - Emerald Dream"] = "KokonutKrew",
-		["Forgecraft - Emerald Dream"] = "KokonutKrew",
+		["Farmcraft - Emerald Dream"] = "KokonutKrew",
 		["Samoansage - Emerald Dream"] = "KokonutKrew",
 		["Samoanranger - Emerald Dream"] = "Default",
 		["Orecraft - Emerald Dream"] = "Default",
 		["Mf - Emerald Dream"] = "KokonutKrew",
-		["Farmcraft - Emerald Dream"] = "KokonutKrew",
+		["Forgecraft - Emerald Dream"] = "KokonutKrew",
 		["Samoanrelic - Stormrage"] = "Default",
 		["Dustcraft - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "KokonutKrew",
-		["Samoansurge - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
 		["Default"] = {

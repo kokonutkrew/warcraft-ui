@@ -103,61 +103,20 @@ DataStore_CurrenciesDB = {
 				["Conquest"] = 0,
 				["lastUpdate"] = 1615983779,
 			},
-			["Default.Emerald Dream.Dustcraft"] = {
-				["CurrencyInfo"] = {
-					[824] = "130-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 130,
-					}, -- [2]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1615448208,
-			},
 			["Default.Stormrage.Samoansavage"] = {
 				["CurrencyInfo"] = {
-					[1710] = "0-0-0-0",
+					[1560] = "39-0-0-0",
 					[1220] = "1975-0-0-0",
 					[1149] = "150-0-0-5000",
 					[1273] = "0-0-0-6",
-					[1275] = "19-0-0-0",
+					[1155] = "53-0-0-300",
 					[515] = "5-0-0-0",
 					[823] = "40-0-0-0",
-					[1155] = "53-0-0-300",
+					[1275] = "19-0-0-0",
 					[1533] = "255-0-0-0",
 					[1342] = "45-0-0-1000",
 					[1166] = "535-0-0-0",
-					[1560] = "39-0-0-0",
+					[1710] = "0-0-0-0",
 					[1226] = "12450-0-0-0",
 					[1508] = "295-0-0-2000",
 					[824] = "1879-0-0-10000",
@@ -310,7 +269,7 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Stormrage.Samoantitan"] = {
 				["CurrencyInfo"] = {
-					[1602] = "0-0-0-1100",
+					[1602] = "0-0-0-8250",
 					[1580] = "0-0-0-5",
 					[824] = "32-0-0-10000",
 					[1273] = "1-0-0-6",
@@ -423,7 +382,7 @@ DataStore_CurrenciesDB = {
 					}, -- [19]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1608540693,
+				["lastUpdate"] = 1616145454,
 				["Archeology"] = {
 					131, -- [1]
 					12, -- [2]
@@ -505,448 +464,6 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1608225671,
 			},
-			["Default.Emerald Dream.Samoansteel"] = {
-				["CurrencyInfo"] = {
-					[824] = "105-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 105,
-					}, -- [2]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1608195926,
-			},
-			["Default.Emerald Dream.Mf"] = {
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1615984455,
-				["Conquest"] = 0,
-			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1608226344,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1607745382,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Farmcraft"] = {
-				["CurrencyInfo"] = {
-					[824] = "124-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 124,
-					}, -- [2]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1615971102,
-			},
-			["Default.Tichondrius.Samoansneaky"] = {
-				["CurrencyInfo"] = {
-					[1220] = "6560-0-0-0",
-					[1149] = "75-0-0-5000",
-					[1273] = "2-0-0-6",
-					[515] = "4-0-0-0",
-					[1101] = "25-0-0-100000",
-					[824] = "5025-0-0-10000",
-					[1533] = "36-0-0-0",
-					[1342] = "25-0-0-1000",
-					[1166] = "200-0-0-0",
-					[1560] = "118-0-0-0",
-					[944] = "4-0-0-1000",
-					[1226] = "2132-0-0-0",
-					[823] = "87-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 118,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 11,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 12,
-						["count"] = 200,
-					}, -- [4]
-					{
-						["isHeader"] = true,
-						["index"] = 13,
-						["count"] = 0,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 14,
-						["count"] = 4,
-					}, -- [6]
-					{
-						["isHeader"] = true,
-						["index"] = 5,
-						["count"] = 0,
-					}, -- [7]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 25,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 17,
-						["count"] = 2132,
-					}, -- [9]
-					{
-						["isHeader"] = false,
-						["index"] = 7,
-						["count"] = 6560,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 8,
-						["count"] = 2,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 18,
-						["count"] = 75,
-					}, -- [12]
-					{
-						["isHeader"] = false,
-						["index"] = 10,
-						["count"] = 36,
-					}, -- [13]
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [14]
-					{
-						["isHeader"] = false,
-						["index"] = 21,
-						["count"] = 87,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 24,
-						["count"] = 4,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 5025,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 25,
-					}, -- [18]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1603382397,
-			},
-			["Default.Emerald Dream.Tingerce"] = {
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1607744538,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["CurrencyInfo"] = {
-					[1820] = "100-0-0-100",
-					[1792] = "8929-0-0-15000",
-					[944] = "0-0-0-1000",
-					[1828] = "2815-0-0-8000",
-					[1767] = "3441-0-0-0",
-					[824] = "2326-0-0-10000",
-					[515] = "19-0-0-0",
-					[1220] = "410-0-0-0",
-					[1191] = "240-0-0-5750",
-					[1533] = "5-0-0-0",
-					[1813] = "3075-0-0-35000",
-					[1101] = "60-0-0-100000",
-					[738] = "5-0-0-0",
-					[1166] = "1092-0-0-0",
-					[1816] = "658-0-0-0",
-					[1602] = "515-0-0-8250",
-					[1885] = "139-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 52,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 57,
-						["count"] = 139,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 55,
-						["count"] = 100,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 3075,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 58,
-						["count"] = 658,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 56,
-						["count"] = 2815,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 54,
-						["count"] = 3441,
-					}, -- [7]
-					{
-						["isHeader"] = false,
-						["index"] = 59,
-						["count"] = 240,
-					}, -- [8]
-					{
-						["isHeader"] = true,
-						["index"] = 11,
-						["count"] = 0,
-					}, -- [9]
-					{
-						["isHeader"] = false,
-						["index"] = 12,
-						["count"] = 1092,
-					}, -- [10]
-					{
-						["isHeader"] = true,
-						["index"] = 13,
-						["count"] = 0,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 14,
-						["count"] = 19,
-					}, -- [12]
-					{
-						["isHeader"] = true,
-						["index"] = 31,
-						["count"] = 0,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 515,
-					}, -- [14]
-					{
-						["isHeader"] = false,
-						["index"] = 51,
-						["count"] = 8929,
-					}, -- [15]
-					{
-						["isHeader"] = true,
-						["index"] = 5,
-						["count"] = 0,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 7,
-						["count"] = 410,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 10,
-						["count"] = 5,
-					}, -- [18]
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [19]
-					{
-						["isHeader"] = false,
-						["index"] = 24,
-						["count"] = 0,
-					}, -- [20]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 2326,
-					}, -- [21]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 60,
-					}, -- [22]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [23]
-					{
-						["isHeader"] = false,
-						["index"] = 37,
-						["count"] = 5,
-					}, -- [24]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1615972652,
-			},
 			["Default.Emerald Dream.Samoanbeast"] = {
 				["CurrencyInfo"] = {
 					[824] = "1349-0-0-10000",
@@ -1008,10 +525,6 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 				["lastUpdate"] = 1615371211,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Samoanreaper"] = {
-				["lastUpdate"] = 1608195226,
 				["Conquest"] = 0,
 			},
 			["Default.Tichondrius.Samoantank"] = {
@@ -1275,47 +788,6 @@ DataStore_CurrenciesDB = {
 					}, -- [40]
 				},
 			},
-			["Default.Emerald Dream.Feerless"] = {
-				["CurrencyInfo"] = {
-					[1166] = "200-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 11,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 12,
-						["count"] = 200,
-					}, -- [2]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1606633345,
-				["Conquest"] = 0,
-			},
 			["Default.Emerald Dream.Samoanmystic"] = {
 				["CurrencyInfo"] = {
 					[515] = "5-0-0-0",
@@ -1368,19 +840,55 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1612174229,
 				["Conquest"] = 0,
 			},
-			["Default.Emerald Dream.Samoansage"] = {
+			["Default.Emerald Dream.Mf"] = {
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1616044529,
+				["Conquest"] = 0,
+			},
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1608226344,
+				["Conquest"] = 0,
+			},
+			["Default.Emerald Dream.Samoansavage"] = {
 				["CurrencyInfo"] = {
-					[1767] = "2953-0-0-0",
-					[1820] = "56-0-0-100",
-					[824] = "3303-0-0-10000",
-					[1828] = "890-0-0-8000",
-					[515] = "5-0-0-0",
-					[1792] = "100-0-0-15000",
-					[1166] = "770-0-0-0",
-					[1191] = "120-0-0-5750",
-					[1813] = "1892-0-0-35000",
-					[1602] = "891-0-0-8250",
+					[1820] = "100-0-0-100",
+					[1792] = "8929-0-0-15000",
 					[944] = "0-0-0-1000",
+					[1828] = "2815-0-0-8000",
+					[1767] = "3441-0-0-0",
+					[824] = "2326-0-0-10000",
+					[515] = "19-0-0-0",
+					[1220] = "410-0-0-0",
+					[1191] = "240-0-0-5750",
+					[1533] = "5-0-0-0",
+					[1813] = "3075-0-0-35000",
+					[1101] = "60-0-0-100000",
+					[738] = "5-0-0-0",
+					[1166] = "1092-0-0-0",
+					[1816] = "658-0-0-0",
+					[1602] = "515-0-0-8250",
+					[1885] = "139-0-0-0",
 				},
 				["Currencies"] = {
 					{
@@ -1390,82 +898,174 @@ DataStore_CurrenciesDB = {
 					}, -- [1]
 					{
 						["isHeader"] = false,
-						["index"] = 55,
-						["count"] = 56,
+						["index"] = 57,
+						["count"] = 139,
 					}, -- [2]
 					{
 						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 1892,
+						["index"] = 55,
+						["count"] = 100,
 					}, -- [3]
 					{
 						["isHeader"] = false,
-						["index"] = 56,
-						["count"] = 890,
+						["index"] = 53,
+						["count"] = 3075,
 					}, -- [4]
 					{
 						["isHeader"] = false,
-						["index"] = 54,
-						["count"] = 2953,
+						["index"] = 58,
+						["count"] = 658,
 					}, -- [5]
 					{
 						["isHeader"] = false,
-						["index"] = 59,
-						["count"] = 120,
+						["index"] = 56,
+						["count"] = 2815,
 					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 54,
+						["count"] = 3441,
+					}, -- [7]
+					{
+						["isHeader"] = false,
+						["index"] = 59,
+						["count"] = 240,
+					}, -- [8]
 					{
 						["isHeader"] = true,
 						["index"] = 11,
 						["count"] = 0,
-					}, -- [7]
+					}, -- [9]
 					{
 						["isHeader"] = false,
 						["index"] = 12,
-						["count"] = 770,
-					}, -- [8]
+						["count"] = 1092,
+					}, -- [10]
 					{
 						["isHeader"] = true,
 						["index"] = 13,
 						["count"] = 0,
-					}, -- [9]
+					}, -- [11]
 					{
 						["isHeader"] = false,
 						["index"] = 14,
-						["count"] = 5,
-					}, -- [10]
+						["count"] = 19,
+					}, -- [12]
 					{
 						["isHeader"] = true,
 						["index"] = 31,
 						["count"] = 0,
-					}, -- [11]
+					}, -- [13]
 					{
 						["isHeader"] = false,
 						["index"] = 50,
-						["count"] = 891,
-					}, -- [12]
+						["count"] = 515,
+					}, -- [14]
 					{
 						["isHeader"] = false,
 						["index"] = 51,
-						["count"] = 100,
-					}, -- [13]
+						["count"] = 8929,
+					}, -- [15]
+					{
+						["isHeader"] = true,
+						["index"] = 5,
+						["count"] = 0,
+					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 7,
+						["count"] = 410,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 10,
+						["count"] = 5,
+					}, -- [18]
 					{
 						["isHeader"] = true,
 						["index"] = 20,
 						["count"] = 0,
-					}, -- [14]
+					}, -- [19]
 					{
 						["isHeader"] = false,
 						["index"] = 24,
 						["count"] = 0,
-					}, -- [15]
+					}, -- [20]
 					{
 						["isHeader"] = false,
 						["index"] = 22,
-						["count"] = 3303,
-					}, -- [16]
+						["count"] = 2326,
+					}, -- [21]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 60,
+					}, -- [22]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [23]
+					{
+						["isHeader"] = false,
+						["index"] = 37,
+						["count"] = 5,
+					}, -- [24]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1615933300,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1616105449,
+			},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["CurrencyInfo"] = {
+					[515] = "5-0-0-0",
+					[824] = "271-0-0-10000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 20,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 271,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 13,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 14,
+						["count"] = 5,
+					}, -- [4]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1615983479,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -1489,11 +1089,130 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 			},
-			["Default.Emerald Dream.Samoansurge"] = {
+			["Default.Emerald Dream.Herbcraft"] = {
 				["CurrencyInfo"] = {
+					[1767] = "147-0-0-0",
+					[1816] = "411-0-0-0",
+					[1820] = "100-0-0-100",
+					[824] = "870-0-0-10000",
+					[1813] = "2066-0-0-35000",
 					[515] = "5-0-0-0",
-					[1792] = "132-0-0-15000",
-					[824] = "2171-0-0-10000",
+					[1885] = "2-0-0-0",
+					[1792] = "12-0-0-15000",
+					[1155] = "5-0-0-300",
+					[1191] = "205-0-0-5750",
+					[823] = "6-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 57,
+						["count"] = 2,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 55,
+						["count"] = 100,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 2066,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 58,
+						["count"] = 411,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 54,
+						["count"] = 147,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 59,
+						["count"] = 205,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 13,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 14,
+						["count"] = 5,
+					}, -- [9]
+					{
+						["isHeader"] = true,
+						["index"] = 31,
+						["count"] = 0,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 51,
+						["count"] = 12,
+					}, -- [11]
+					{
+						["isHeader"] = true,
+						["index"] = 5,
+						["count"] = 0,
+					}, -- [12]
+					{
+						["isHeader"] = false,
+						["index"] = 6,
+						["count"] = 5,
+					}, -- [13]
+					{
+						["isHeader"] = true,
+						["index"] = 20,
+						["count"] = 0,
+					}, -- [14]
+					{
+						["isHeader"] = false,
+						["index"] = 21,
+						["count"] = 6,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 870,
+					}, -- [16]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					50, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1616046955,
+				["Conquest"] = 0,
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["CurrencyInfo"] = {
+					[824] = "124-0-0-10000",
 				},
 				["Currencies"] = {
 					{
@@ -1504,28 +1223,8 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 22,
-						["count"] = 2171,
+						["count"] = 124,
 					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 13,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 14,
-						["count"] = 5,
-					}, -- [4]
-					{
-						["isHeader"] = true,
-						["index"] = 31,
-						["count"] = 0,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 51,
-						["count"] = 132,
-					}, -- [6]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -1550,7 +1249,7 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1615414303,
+				["lastUpdate"] = 1615971102,
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["CurrencyInfo"] = {
@@ -1626,234 +1325,87 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1614988457,
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633456,
-				["Conquest"] = 0,
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
+			["Default.Tichondrius.Samoansneaky"] = {
 				["CurrencyInfo"] = {
-					[824] = "152-0-0-10000",
+					[1220] = "6560-0-0-0",
+					[1149] = "75-0-0-5000",
+					[1273] = "2-0-0-6",
+					[515] = "4-0-0-0",
+					[1101] = "25-0-0-100000",
+					[824] = "5025-0-0-10000",
+					[1533] = "36-0-0-0",
+					[1342] = "25-0-0-1000",
+					[1166] = "200-0-0-0",
+					[1560] = "118-0-0-0",
+					[944] = "4-0-0-1000",
+					[1226] = "2132-0-0-0",
+					[823] = "87-0-0-0",
 				},
 				["Currencies"] = {
 					{
 						["isHeader"] = true,
-						["index"] = 20,
+						["index"] = 1,
 						["count"] = 0,
 					}, -- [1]
 					{
 						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 152,
+						["index"] = 4,
+						["count"] = 118,
 					}, -- [2]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1603441148,
-			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["Conquest"] = 0,
-				["lastUpdate"] = 1608363113,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["Conquest"] = 0,
-				["lastUpdate"] = 1608674996,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Emerald Dream.Craudy"] = {
-				["Conquest"] = 0,
-				["lastUpdate"] = 1608199955,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Emerald Dream.Vithun"] = {
-				["Conquest"] = 0,
-				["lastUpdate"] = 1608206177,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["CurrencyInfo"] = {
-					[1767] = "147-0-0-0",
-					[1816] = "411-0-0-0",
-					[1820] = "100-0-0-100",
-					[824] = "870-0-0-10000",
-					[1813] = "2086-0-0-35000",
-					[515] = "5-0-0-0",
-					[1885] = "2-0-0-0",
-					[1792] = "12-0-0-15000",
-					[1155] = "5-0-0-300",
-					[1191] = "155-0-0-5750",
-					[823] = "6-0-0-0",
-				},
-				["Currencies"] = {
 					{
 						["isHeader"] = true,
-						["index"] = 52,
+						["index"] = 11,
 						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 57,
-						["count"] = 2,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 55,
-						["count"] = 100,
 					}, -- [3]
 					{
 						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 2086,
+						["index"] = 12,
+						["count"] = 200,
 					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 58,
-						["count"] = 411,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 54,
-						["count"] = 147,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 59,
-						["count"] = 155,
-					}, -- [7]
 					{
 						["isHeader"] = true,
 						["index"] = 13,
 						["count"] = 0,
-					}, -- [8]
+					}, -- [5]
 					{
 						["isHeader"] = false,
 						["index"] = 14,
-						["count"] = 5,
-					}, -- [9]
-					{
-						["isHeader"] = true,
-						["index"] = 31,
-						["count"] = 0,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 51,
-						["count"] = 12,
-					}, -- [11]
+						["count"] = 4,
+					}, -- [6]
 					{
 						["isHeader"] = true,
 						["index"] = 5,
 						["count"] = 0,
+					}, -- [7]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 25,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 17,
+						["count"] = 2132,
+					}, -- [9]
+					{
+						["isHeader"] = false,
+						["index"] = 7,
+						["count"] = 6560,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 8,
+						["count"] = 2,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 18,
+						["count"] = 75,
 					}, -- [12]
 					{
 						["isHeader"] = false,
-						["index"] = 6,
-						["count"] = 5,
+						["index"] = 10,
+						["count"] = 36,
 					}, -- [13]
 					{
 						["isHeader"] = true,
@@ -1863,13 +1415,64 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 21,
-						["count"] = 6,
+						["count"] = 87,
 					}, -- [15]
 					{
 						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 870,
+						["index"] = 24,
+						["count"] = 4,
 					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 5025,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 25,
+					}, -- [18]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1603382397,
+			},
+			["Default.Emerald Dream.Samoansurge"] = {
+				["CurrencyInfo"] = {
+					[515] = "5-0-0-0",
+					[1792] = "132-0-0-15000",
+					[824] = "2171-0-0-10000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 20,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 2171,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 13,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 14,
+						["count"] = 5,
+					}, -- [4]
+					{
+						["isHeader"] = true,
+						["index"] = 31,
+						["count"] = 0,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 51,
+						["count"] = 132,
+					}, -- [6]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -1878,7 +1481,7 @@ DataStore_CurrenciesDB = {
 					0, -- [4]
 					0, -- [5]
 					0, -- [6]
-					50, -- [7]
+					0, -- [7]
 					0, -- [8]
 					0, -- [9]
 					0, -- [10]
@@ -1893,8 +1496,8 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1615979368,
 				["Conquest"] = 0,
+				["lastUpdate"] = 1615414303,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["CurrencyInfo"] = {
@@ -2000,9 +1603,130 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["CurrencyInfo"] = {
+					[1767] = "3203-0-0-0",
+					[1820] = "56-0-0-100",
+					[824] = "3303-0-0-10000",
+					[1828] = "890-0-0-8000",
+					[515] = "5-0-0-0",
+					[1792] = "4873-0-0-15000",
+					[1166] = "770-0-0-0",
+					[1191] = "120-0-0-5750",
+					[1813] = "1758-0-0-35000",
+					[1602] = "552-0-0-8250",
+					[944] = "0-0-0-1000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 55,
+						["count"] = 56,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 1758,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 56,
+						["count"] = 890,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 54,
+						["count"] = 3203,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 59,
+						["count"] = 120,
+					}, -- [6]
+					{
+						["isHeader"] = true,
+						["index"] = 11,
+						["count"] = 0,
+					}, -- [7]
+					{
+						["isHeader"] = false,
+						["index"] = 12,
+						["count"] = 770,
+					}, -- [8]
+					{
+						["isHeader"] = true,
+						["index"] = 13,
+						["count"] = 0,
+					}, -- [9]
+					{
+						["isHeader"] = false,
+						["index"] = 14,
+						["count"] = 5,
+					}, -- [10]
+					{
+						["isHeader"] = true,
+						["index"] = 31,
+						["count"] = 0,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 552,
+					}, -- [12]
+					{
+						["isHeader"] = false,
+						["index"] = 51,
+						["count"] = 4873,
+					}, -- [13]
+					{
+						["isHeader"] = true,
+						["index"] = 20,
+						["count"] = 0,
+					}, -- [14]
+					{
+						["isHeader"] = false,
+						["index"] = 24,
+						["count"] = 0,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 3303,
+					}, -- [16]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1616143965,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
 			["Default.Emerald Dream.Threadcraft"] = {
 				["CurrencyInfo"] = {
-					[824] = "370-0-0-10000",
+					[824] = "1120-0-0-10000",
 					[515] = "5-0-0-0",
 				},
 				["Currencies"] = {
@@ -2014,7 +1738,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 22,
-						["count"] = 370,
+						["count"] = 1120,
 					}, -- [2]
 					{
 						["isHeader"] = true,
@@ -2035,7 +1759,7 @@ DataStore_CurrenciesDB = {
 					0, -- [4]
 					0, -- [5]
 					0, -- [6]
-					0, -- [7]
+					7, -- [7]
 					0, -- [8]
 					0, -- [9]
 					0, -- [10]
@@ -2050,59 +1774,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1615971953,
-			},
-			["Default.Emerald Dream.Forgecraft"] = {
-				["CurrencyInfo"] = {
-					[515] = "5-0-0-0",
-					[824] = "271-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 20,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 271,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 13,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 14,
-						["count"] = 5,
-					}, -- [4]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1615983479,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
+				["lastUpdate"] = 1616067496,
 			},
 		},
 		["Reference"] = {

@@ -6,6 +6,7 @@ cosFixDB = {
 		},
 		["Samoansavage - Emerald Dream"] = {
 			["lastModelId"] = 1011653,
+			["lastActiveMount"] = 522,
 		},
 		["Samoansavage - Stormrage"] = {
 			["lastModelId"] = 917116,

@@ -2,6 +2,8 @@
 ElvDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Global)",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew (Global)",
+		["Samoansavage - Stormrage"] = "KokonutKrew (Global)",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -10,6 +12,10 @@ ElvDB = {
 	["class"] = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "WARRIOR",
+			["Samoansavage"] = "ROGUE",
+		},
+		["Stormrage"] = {
+			["Samoansavage"] = "DRUID",
 		},
 	},
 	["profiles"] = {
@@ -27,7 +33,7 @@ ElvDB = {
 				},
 			},
 			["general"] = {
-				["autoTrackReputation"] = true,
+				["interruptAnnounce"] = "EMOTE",
 				["backdropfadecolor"] = {
 					["a"] = 0.800000011920929,
 					["b"] = 0.05882352941176471,
@@ -36,9 +42,9 @@ ElvDB = {
 				},
 				["valuecolor"] = {
 					["a"] = 1,
-					["b"] = 0.427450031042099,
-					["g"] = 0.6078417897224426,
-					["r"] = 0.7764688730239868,
+					["b"] = 0.4078422486782074,
+					["g"] = 0.9568606615066528,
+					["r"] = 0.9999977946281433,
 				},
 				["font"] = "Expressway",
 				["fontSize"] = 14,
@@ -49,7 +55,7 @@ ElvDB = {
 				},
 				["bottomPanel"] = false,
 				["objectiveFrameHeight"] = 400,
-				["interruptAnnounce"] = "EMOTE",
+				["autoTrackReputation"] = true,
 				["totems"] = {
 					["spacing"] = 8,
 					["size"] = 50,
@@ -109,71 +115,7 @@ ElvDB = {
 			},
 			["dbConverted"] = 12.23,
 			["layoutSet"] = "healer",
-			["RightChatPanelFaded"] = true,
-			["movers"] = {
-				["ElvAB_8"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,332",
-				["ThreatBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-47,78",
-				["PetAB"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
-				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,202,373",
-				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,4",
-				["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-6",
-				["BuffsMover"] = "TOPRIGHT,MMHolder,TOPLEFT,-7,0",
-				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-3",
-				["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUF_Focus,BOTTOMLEFT,0,-1",
-				["MirrorTimer3Mover"] = "TOP,MirrorTimer2,BOTTOM,0,0",
-				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-150,300",
-				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-104",
-				["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,150,300",
-				["SocialMenuMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,140",
-				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,490,4",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,RightChatPanel,BOTTOMRIGHT,0,27",
-				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,243",
-				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,60",
-				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-30",
-				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
-				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,264",
-				["PowerBarContainerMover"] = "CENTER,ElvUIParent,TOP,0,-76",
-				["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUF_Pet,BOTTOMLEFT,0,-1",
-				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
-				["ElvUIBankMover"] = "BOTTOMLEFT,LeftChatPanel,BOTTOMLEFT,0,27",
-				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,43",
-				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,100",
-				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,140",
-				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-82",
-				["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
-				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,-1,-120",
-				["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
-				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
-				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,-1,191",
-				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
-				["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
-				["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
-				["ElvAB_4"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
-				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-243",
-				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-37",
-				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-1,139",
-				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-279,4",
-				["VehicleLeaveButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,300",
-				["ElvAB_9"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,366",
-				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
-				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-163,-325",
-				["MirrorTimer2Mover"] = "TOP,MirrorTimer1,BOTTOM,0,0",
-				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
-				["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
-				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-2,-251",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,97",
-				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,400",
-				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
-				["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,100",
-				["ElvAB_7"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,298",
-				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-47,104",
-				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-1,-19",
-				["DebuffsMover"] = "BOTTOMRIGHT,MMHolder,BOTTOMLEFT,-7,0",
-				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-249",
-			},
+			["layoutSetting"] = "healer",
 			["convertPages"] = true,
 			["tooltip"] = {
 				["fontSize"] = 14,
@@ -188,22 +130,69 @@ ElvDB = {
 				["font"] = "Expressway",
 				["smallTextFontSize"] = 14,
 			},
-			["chat"] = {
-				["tabSelectorColor"] = {
-					["b"] = 0.427450031042099,
-					["g"] = 0.6078417897224426,
-					["r"] = 0.7764688730239868,
-				},
-				["socialQueueMessages"] = true,
-				["panelWidth"] = 472,
-				["panelHeight"] = 236,
-				["panelBackdrop"] = "HIDEBOTH",
-				["timeStampFormat"] = "%H:%M ",
-				["fontSize"] = 14,
-				["tabFontSize"] = 14,
-				["tabFont"] = "Expressway",
-				["font"] = "Expressway",
-				["copyChatLines"] = true,
+			["movers"] = {
+				["ElvAB_8"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,332",
+				["ThreatBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
+				["PetAB"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
+				["ElvUF_RaidMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,202,373",
+				["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,0",
+				["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-6",
+				["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-198,-5",
+				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-3",
+				["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUF_Focus,BOTTOMLEFT,0,-1",
+				["MirrorTimer3Mover"] = "TOP,MirrorTimer2,BOTTOM,0,0",
+				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-150,300",
+				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-104",
+				["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,150,300",
+				["SocialMenuMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,RightChatPanel,BOTTOMRIGHT,0,27",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,100",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,140",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,243",
+				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,60",
+				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-30",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
+				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,264",
+				["PowerBarContainerMover"] = "CENTER,ElvUIParent,TOP,0,-76",
+				["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUF_Pet,BOTTOMLEFT,0,-1",
+				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+				["ElvUIBankMover"] = "BOTTOMLEFT,LeftChatPanel,BOTTOMLEFT,0,27",
+				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,43",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,140",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,100",
+				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-82",
+				["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
+				["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+				["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
+				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-72,-253",
+				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,-1,191",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+				["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-68,-190",
+				["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
+				["ElvAB_4"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
+				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-279,4",
+				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-37",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-1,139",
+				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-86,-306",
+				["VehicleLeaveButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,300",
+				["ElvAB_9"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,366",
+				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
+				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-127,-332",
+				["MirrorTimer2Mover"] = "TOP,MirrorTimer1,BOTTOM,0,0",
+				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
+				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,-1,-120",
+				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-85,-319",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,97",
+				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,400",
+				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
+				["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,490,4",
+				["ElvAB_7"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,298",
+				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
+				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-1,-19",
+				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-198,-175",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-249",
 			},
 			["unitframe"] = {
 				["font"] = "Expressway",
@@ -220,26 +209,6 @@ ElvDB = {
 							["height"] = 14,
 						},
 						["disableTargetGlow"] = false,
-					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["maxDuration"] = 300,
-						},
-						["castbar"] = {
-							["width"] = 246,
-						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
-						},
 					},
 					["player"] = {
 						["debuffs"] = {
@@ -274,6 +243,26 @@ ElvDB = {
 							["insideInfoPanel"] = false,
 							["width"] = 405,
 							["height"] = 40,
+						},
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["maxDuration"] = 300,
+						},
+						["castbar"] = {
+							["width"] = 246,
+						},
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
 						},
 					},
 					["raid40"] = {
@@ -511,7 +500,24 @@ ElvDB = {
 					},
 				},
 			},
-			["layoutSetting"] = "healer",
+			["chat"] = {
+				["tabFontOutline"] = "OUTLINE",
+				["tabSelectorColor"] = {
+					["b"] = 0.4078422486782074,
+					["g"] = 0.9568606615066528,
+					["r"] = 0.9999977946281433,
+				},
+				["socialQueueMessages"] = true,
+				["panelWidth"] = 472,
+				["panelHeight"] = 236,
+				["panelBackdrop"] = "HIDEBOTH",
+				["timeStampFormat"] = "%H:%M ",
+				["fontSize"] = 14,
+				["tabFont"] = "Arial Narrow",
+				["font"] = "Arial Narrow",
+				["copyChatLines"] = true,
+				["inactivityTimer"] = 30,
+			},
 		},
 	},
 	["LuaErrorDisabledAddOns"] = {
@@ -530,43 +536,101 @@ ElvDB = {
 			},
 		},
 		["general"] = {
+			["AceGUI"] = {
+				["height"] = 647.41,
+				["width"] = 951.7,
+			},
 			["allowDistributor"] = true,
 			["UIScale"] = 0.6,
 		},
+		["ignoreIncompatible"] = true,
 		["datatexts"] = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						nil, -- [8]
 						{
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [1]
+						}, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						nil, -- [12]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [13]
+						nil, -- [14]
+						nil, -- [15]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [16]
+						[19] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[23] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
 					},
 				},
 			},
 		},
+		["profileCopy"] = {
+			["selected"] = "KokonutKrew (Global)",
+		},
 	},
 	["gold"] = {
 		["Emerald Dream"] = {
-			["Samoanslayer"] = 24943791,
+			["Samoanslayer"] = 24943663,
+			["Samoansavage"] = 102548549,
+		},
+		["Stormrage"] = {
+			["Samoansavage"] = 123964735,
 		},
 	},
 	["faction"] = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "Alliance",
+			["Samoansavage"] = "Alliance",
+		},
+		["Stormrage"] = {
+			["Samoansavage"] = "Alliance",
 		},
 	},
 	["serverID"] = {
 		[162] = {
 			["Emerald Dream"] = true,
 		},
+		[60] = {
+			["Stormrage"] = true,
+		},
 	},
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Private)",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew (Private)",
+		["Samoansavage - Stormrage"] = "KokonutKrew (Private)",
 	},
 	["profiles"] = {
 		["KokonutKrew (Private)"] = {
@@ -584,15 +648,22 @@ ElvPrivateDB = {
 					["boss"] = false,
 					["focus"] = false,
 					["target"] = false,
-					["arena"] = false,
-					["party"] = false,
 					["raid"] = false,
+					["party"] = false,
+					["arena"] = false,
 				},
 			},
 			["actionbar"] = {
 				["enable"] = false,
 			},
 			["theme"] = "class",
+			["install_complete"] = 12.23,
+		},
+		["Samoansavage - Emerald Dream"] = {
+			["theme"] = "class",
+			["install_complete"] = 12.23,
+		},
+		["Samoansavage - Stormrage"] = {
 			["install_complete"] = 12.23,
 		},
 	},

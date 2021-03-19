@@ -1,0 +1,14 @@
+!BugGrabber: disabled
+CameraOverShoulderFix: disabled
+MinimapButtonFrame: disabled
+MinimapButtonFrame_SkinPack: disabled
+ACU: disabled
+Bartender4: disabled
+BugSack: disabled
+DynamicCam: disabled
+Immersion: disabled
+Leatrix_Maps: disabled
+Leatrix_Plus: disabled
+MBB: disabled
+ElvUI: disabled
+ElvUI_OptionsUI: disabled

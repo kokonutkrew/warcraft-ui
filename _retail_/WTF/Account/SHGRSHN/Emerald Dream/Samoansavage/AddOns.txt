@@ -20,3 +20,5 @@ Leatrix_Plus: enabled
 MBB: enabled
 ElvUI: enabled
 ElvUI_OptionsUI: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

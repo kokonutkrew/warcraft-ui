@@ -11,16 +11,16 @@ ElvCharacterDB = {
 		"/g when you feel confident Ill throw you in on the Sunday raids", -- [8]
 		"/dynamiccam", -- [9]
 		"/reload", -- [10]
-		"/bartender", -- [11]
-		"/s ec", -- [12]
-		"/ec", -- [13]
-		"/g haha awesome mate!", -- [14]
-		"/g We need more enchanted reagents", -- [15]
-		"/g If you ever forget, its listed on the website", -- [16]
-		"/g http://kokonutkrew.com", -- [17]
-		"/g Hey honust", -- [18]
-		"/g Im headed on for my run", -- [19]
-		"/g Ill catch you when I get back", -- [20]
+		"/s ec", -- [11]
+		"/g haha awesome mate!", -- [12]
+		"/g We need more enchanted reagents", -- [13]
+		"/g If you ever forget, its listed on the website", -- [14]
+		"/g http://kokonutkrew.com", -- [15]
+		"/g Hey honust", -- [16]
+		"/g Im headed on for my run", -- [17]
+		"/g Ill catch you when I get back", -- [18]
+		"/ec", -- [19]
+		"/bartender", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1475,5 +1475,27 @@ ElvCharacterDB = {
 			[51] = 1616187659,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
+			"Biowolf-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biowolf-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-162-0B40B5B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Biowolf|r",
+			[51] = 1616192607,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [67]
 	},
 }

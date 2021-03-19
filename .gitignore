@@ -12,7 +12,9 @@
 # ＫＯＫＯＮＵＴＫＲＥＷ
 ################################################################################
 
-#!\#kokonutkrew/**
+!\#kokonutkrew/**
+\#kokonutkrew/bgnotifier
+\#kokonutkrew/raider.io
 
 ################################################################################
 # Retail
@@ -20,6 +22,7 @@
 
 # Recursively track the interface directory
 !_retail_/Interface/**
+_retail_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 
 # Track Config files
 !_retail_/WTF/*.wtf
@@ -45,6 +48,7 @@
 
 # Recursively track the interface directory
 !_classic_/Interface/**
+_classic_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 
 # Track Config files
 !_classic_/WTF/*.wtf

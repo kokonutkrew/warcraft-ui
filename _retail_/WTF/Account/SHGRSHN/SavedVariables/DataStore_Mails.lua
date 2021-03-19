@@ -66,33 +66,144 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1615983799,
 				["lastVisitDate"] = "2021/03/17 06:23",
 			},
-			["Default.Emerald Dream.Dustcraft"] = {
-				["lastUpdate"] = 1615448380,
-				["lastVisitDate"] = "2021/03/11 00:39",
-			},
-			["Default.Tichondrius.Samoantank"] = {
-				["lastUpdate"] = 1601148807,
-				["lastVisitDate"] = "2020/09/26 13:33",
-			},
 			["Default.Stormrage.Samoantitan"] = {
 				["lastUpdate"] = 1607713002,
 				["lastVisitDate"] = "2020/12/11 11:56",
 			},
-			["Default.Ravenholdt.Samoanbeast"] = {
-				["lastUpdate"] = 1608225646,
-				["lastVisitDate"] = "2020/12/17 10:20",
+			["Default.Emerald Dream.Threadcraft"] = {
+				["lastUpdate"] = 1616068325,
+				["lastVisitDate"] = "2021/03/18 05:52",
 			},
 			["Default.Emerald Dream.Samoantitan"] = {
 				["lastUpdate"] = 1544674735,
 				["lastVisitDate"] = "2018/12/12 21:18",
 			},
 			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615984587,
-				["lastVisitDate"] = "2021/03/17 06:36",
+				["lastUpdate"] = 1616044686,
+				["Mails"] = {
+					{
+						["sender"] = "Herbcraft",
+						["subject"] = "TSM Mailing: Excess Gold",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 27512546,
+						["text"] = "",
+						["lastCheck"] = 1616049300,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106445,
+						["link"] = "|cff1eff00|Hitem:106445::::::::36:62:::2:6654:199:2:28:1766:9:22:::|h[Anchorite Sandals of the Harmonious]|h|r",
+						["count"] = 1,
+						["icon"] = 937855,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 81974,
+						["link"] = "|cff1eff00|Hitem:81974::::::::36:62:::2:6654:1688:2:28:1754:9:32:::|h[Silent Waistband of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 647864,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106491,
+						["link"] = "|cff1eff00|Hitem:106491::::::::36:62:::2:6654:61:2:28:1766:9:26:::|h[Shardback Girdle of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 947373,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 81975,
+						["link"] = "|cff1eff00|Hitem:81975::::::::36:62:::2:6654:1701:2:28:1754:9:30:::|h[Silent Shoulders of the Feverflare]|h|r",
+						["count"] = 1,
+						["icon"] = 647906,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 82071,
+						["link"] = "|cff1eff00|Hitem:82071::::::::36:62:::2:6654:1692:2:28:1754:9:32:::|h[Brick Legplates of the Fireflash]|h|r",
+						["count"] = 1,
+						["icon"] = 648031,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 81988,
+						["link"] = "|cff1eff00|Hitem:81988::::::::36:62:::2:6654:1684:2:28:1754:9:31:::|h[Saurok Vest of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 648020,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106451,
+						["link"] = "|cff1eff00|Hitem:106451::::::::36:62:::2:6654:56:2:28:63:9:33:::|h[Gronnling Greaves of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 929915,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106499,
+						["link"] = "|cff1eff00|Hitem:106499::::::::36:62:::2:6654:55:2:28:65:9:23:::|h[Steamscar Boots of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 940655,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 116497,
+						["link"] = "|cff1eff00|Hitem:116497::::::::36:62:::3:6655:127:550:2:28:63:9:33:::|h[Vinewrapped Knuckles of the Feverflare]|h|r",
+						["count"] = 1,
+						["icon"] = 929536,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106473,
+						["link"] = "|cff1eff00|Hitem:106473::::::::36:62:::2:6654:95:2:28:1766:9:22:::|h[Iyun Cord of the Quickblade]|h|r",
+						["count"] = 1,
+						["icon"] = 937854,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [11]
+					{
+						["sender"] = "Threadcraft",
+						["itemID"] = 106410,
+						["link"] = "|cff1eff00|Hitem:106410::::::::36:62:::2:6654:48:2:28:63:9:33:::|h[Lunarglow Leggings of the Peerless]|h|r",
+						["count"] = 1,
+						["icon"] = 937861,
+						["lastCheck"] = 1616068317,
+						["daysLeft"] = 30,
+					}, -- [12]
+					{
+						["sender"] = "Threadcraft",
+						["subject"] = "TSM Mailing: Excess Gold",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 17576632,
+						["text"] = "",
+						["lastCheck"] = 1616068322,
+						["daysLeft"] = 30,
+					}, -- [13]
+				},
+				["lastVisitDate"] = "2021/03/17 23:18",
 			},
-			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615930045,
-				["lastVisitDate"] = "2021/03/16 15:27",
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1608226356,
+				["lastVisitDate"] = "2020/12/17 10:32",
 			},
 			["Default.Emerald Dream.Forgecraft"] = {
 				["lastUpdate"] = 1615983671,
@@ -106,22 +217,6 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1603382480,
 				["lastVisitDate"] = "2020/10/22 10:01",
 			},
-			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615972321,
-				["lastVisitDate"] = "2021/03/17 03:12",
-			},
-			["Default.Emerald Dream.Wealthgaming"] = {
-				["lastUpdate"] = 1540622665,
-				["lastVisitDate"] = "2018/10/27 00:44",
-			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1615410208,
-				["lastVisitDate"] = "2021/03/10 14:03",
-			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["lastUpdate"] = 1608202930,
-				["lastVisitDate"] = "2020/12/17 04:02",
-			},
 			["Default.Emerald Dream.Samoansavage"] = {
 				["lastUpdate"] = 1615973137,
 				["lastVisitDate"] = "2021/03/17 03:25",
@@ -134,41 +229,29 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1544167701,
 				["lastVisitDate"] = "2018/12/07 00:28",
 			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["lastUpdate"] = 1608675019,
-				["lastVisitDate"] = "2020/12/22 15:10",
-			},
 			["Default.Stormrage.Samoansaint"] = {
 				["lastUpdate"] = 1544810667,
 				["lastVisitDate"] = "2018/12/14 11:04",
 			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1608226356,
-				["lastVisitDate"] = "2020/12/17 10:32",
+			["Default.Tichondrius.Samoantank"] = {
+				["lastUpdate"] = 1601148807,
+				["lastVisitDate"] = "2020/09/26 13:33",
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633479,
-				["lastVisitDate"] = "2020/11/29 00:04",
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614845394,
+				["lastVisitDate"] = "2021/03/04 01:09",
 			},
-			["Default.Emerald Dream.Feerless"] = {
-				["lastUpdate"] = 1606633378,
-				["lastVisitDate"] = "2020/11/29 00:02",
-			},
-			["Default.Emerald Dream.Samoansteel"] = {
-				["lastUpdate"] = 1608193136,
-				["lastVisitDate"] = "2020/12/17 01:18",
-			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544900579,
-				["lastVisitDate"] = "2018/12/15 12:02",
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1603440159,
-				["lastVisitDate"] = "2020/10/23 02:02",
+			["Default.Ravenholdt.Samoanbeast"] = {
+				["lastUpdate"] = 1608225646,
+				["lastVisitDate"] = "2020/12/17 10:20",
 			},
 			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615980502,
-				["lastVisitDate"] = "2021/03/17 05:28",
+				["lastUpdate"] = 1616049304,
+				["lastVisitDate"] = "2021/03/18 00:35",
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1616115792,
+				["lastVisitDate"] = "2021/03/18 19:03",
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1606810091,
@@ -197,9 +280,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1615440164,
 				["lastVisitDate"] = "2021/03/10 22:22",
 			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614845394,
-				["lastVisitDate"] = "2021/03/04 01:09",
+			["Default.Emerald Dream.Samoansurge"] = {
+				["lastUpdate"] = 1615410208,
+				["lastVisitDate"] = "2021/03/10 14:03",
 			},
 		},
 	},

@@ -74,16 +74,14 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	[161624] = {
+	[160699] = {
 		["isAzeriteArmor"] = false,
-		[360] = {
-			["Dread Gladiator's Plate Girdle"] = {
+		[370] = {
+			["Barricade of Purifying Resolve"] = {
 				{
-					"5065", -- [1]
-					"4802", -- [2]
-					"5128", -- [3]
-					"1552", -- [4]
-					"4783", -- [5]
+					"4799", -- [1]
+					"1492", -- [2]
+					"4786", -- [3]
 				}, -- [1]
 			},
 		},
@@ -100,14 +98,16 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	[160634] = {
-		["isAzeriteArmor"] = true,
-		[370] = {
-			["Gridrunner Galea"] = {
+	[161624] = {
+		["isAzeriteArmor"] = false,
+		[360] = {
+			["Dread Gladiator's Plate Girdle"] = {
 				{
-					"4823", -- [1]
-					"1492", -- [2]
-					"4786", -- [3]
+					"5065", -- [1]
+					"4802", -- [2]
+					"5128", -- [3]
+					"1552", -- [4]
+					"4783", -- [5]
 				}, -- [1]
 			},
 		},
@@ -124,6 +124,7 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
+	["addonVersion"] = 24,
 	[161676] = {
 		["isAzeriteArmor"] = false,
 		[365] = {
@@ -137,13 +138,12 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	["addonVersion"] = 24,
-	[160699] = {
-		["isAzeriteArmor"] = false,
+	[160634] = {
+		["isAzeriteArmor"] = true,
 		[370] = {
-			["Barricade of Purifying Resolve"] = {
+			["Gridrunner Galea"] = {
 				{
-					"4799", -- [1]
+					"4823", -- [1]
 					"1492", -- [2]
 					"4786", -- [3]
 				}, -- [1]

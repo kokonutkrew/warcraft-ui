@@ -1204,14 +1204,13 @@ function WeakAuras.IsPaused()
 end
 
 function Private.Pause()
-  -- Forcibly hide all displays, and clear all trigger information (it will be restored on .Resume() due to forced events)
-  for id, region in pairs(regions) do
-    region.region:Collapse(); -- ticket 366
-  end
-
-  for id, cloneList in pairs(clones) do
-    for cloneId, clone in pairs(cloneList) do
-      clone:Collapse();
+  for id, states in pairs(triggerState) do
+    local changed
+    for triggernum in ipairs(states) do
+      changed = Private.SetAllStatesHidden(id, triggernum) or changed
+    end
+    if changed then
+      Private.UpdatedTriggerState(id)
     end
   end
 
@@ -3817,7 +3816,7 @@ end
 
 local function startStopTimers(id, cloneId, triggernum, state)
   if (state.show) then
-    if (state.autoHide and state.duration and state.duration > 0) then -- autohide, update timer
+    if (state.autoHide and state.duration and state.duration > 0 and not state.paused) then -- autohide, update timer
       timers[id] = timers[id] or {};
       timers[id][triggernum] = timers[id][triggernum] or {};
       timers[id][triggernum][cloneId] = timers[id][triggernum][cloneId] or {};

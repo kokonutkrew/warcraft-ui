@@ -6872,7 +6872,7 @@ MogIt_OneHandedDB = {
 		},
 		[40449] = {
 			[105213] = {
-				["classes"] = 1657,
+				["classes"] = 1659,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -9719,12 +9719,12 @@ MogIt_OneHandedDB = {
 		},
 		[38989] = {
 			[101223] = {
-				["classes"] = 1609,
+				["classes"] = 1611,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[101224] = {
-				["classes"] = 1609,
+				["classes"] = 1611,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -10336,12 +10336,12 @@ MogIt_OneHandedDB = {
 		},
 		[38991] = {
 			[101517] = {
-				["classes"] = 1609,
+				["classes"] = 1611,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[101518] = {
-				["classes"] = 1609,
+				["classes"] = 1611,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -11207,7 +11207,7 @@ MogIt_OneHandedDB = {
 		},
 		[39850] = {
 			[105211] = {
-				["classes"] = 1657,
+				["classes"] = 1659,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -11513,12 +11513,12 @@ MogIt_OneHandedDB = {
 		},
 		[40528] = {
 			[105174] = {
-				["classes"] = 1657,
+				["classes"] = 1659,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[105196] = {
-				["classes"] = 1657,
+				["classes"] = 1659,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -16835,7 +16835,7 @@ MogIt_OneHandedDB = {
 		},
 		[39365] = {
 			[102750] = {
-				["classes"] = 585,
+				["classes"] = 587,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -19755,7 +19755,7 @@ MogIt_OneHandedDB = {
 		},
 		[40522] = {
 			[105193] = {
-				["classes"] = 2669,
+				["classes"] = 2671,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -21927,7 +21927,7 @@ MogIt_OneHandedDB = {
 		},
 		[40734] = {
 			[105175] = {
-				["classes"] = 2669,
+				["classes"] = 2671,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -22134,7 +22134,7 @@ MogIt_OneHandedDB = {
 		},
 		[39367] = {
 			[102749] = {
-				["classes"] = 585,
+				["classes"] = 587,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -24602,12 +24602,12 @@ MogIt_OneHandedDB = {
 		},
 		[38980] = {
 			[101225] = {
-				["classes"] = 905,
+				["classes"] = 907,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[103158] = {
-				["classes"] = 905,
+				["classes"] = 907,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -27864,12 +27864,12 @@ MogIt_OneHandedDB = {
 		},
 		[38982] = {
 			[101519] = {
-				["classes"] = 905,
+				["classes"] = 907,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[103160] = {
-				["classes"] = 905,
+				["classes"] = 907,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -28564,7 +28564,7 @@ MogIt_OneHandedDB = {
 		},
 		[40721] = {
 			[105176] = {
-				["classes"] = 2989,
+				["classes"] = 2991,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -30489,7 +30489,7 @@ MogIt_OneHandedDB = {
 		},
 		[39830] = {
 			[105215] = {
-				["classes"] = 2989,
+				["classes"] = 2991,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -30501,7 +30501,7 @@ MogIt_OneHandedDB = {
 		},
 		[39862] = {
 			[105219] = {
-				["classes"] = 2989,
+				["classes"] = 2991,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -31443,7 +31443,7 @@ MogIt_OneHandedDB = {
 		},
 		[39832] = {
 			[105217] = {
-				["classes"] = 2989,
+				["classes"] = 2991,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},

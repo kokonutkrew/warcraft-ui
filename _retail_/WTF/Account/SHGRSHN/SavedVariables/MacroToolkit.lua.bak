@@ -8,6 +8,7 @@ MacroToolkitDB = {
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "profile",
+		["Forgecraft - Emerald Dream"] = "profile",
 		["Threadcraft - Emerald Dream"] = "profile",
 		["Samoanbeast - Emerald Dream"] = "profile",
 		["Herbcraft - Emerald Dream"] = "profile",
@@ -20,7 +21,7 @@ MacroToolkitDB = {
 		["Samoanrelic - Stormrage"] = "profile",
 		["Dustcraft - Emerald Dream"] = "profile",
 		["Samoansavage - Emerald Dream"] = "profile",
-		["Forgecraft - Emerald Dream"] = "profile",
+		["Samoantitan - Stormrage"] = "profile",
 	},
 	["global"] = {
 		["ebackups"] = {

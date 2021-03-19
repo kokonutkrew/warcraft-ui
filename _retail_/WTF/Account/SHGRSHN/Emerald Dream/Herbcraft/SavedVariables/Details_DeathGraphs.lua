@@ -25,12 +25,12 @@ DeathGraphsDBDeaths = {
 		["id"] = "1849-16",
 		["player_db"] = {
 			["Herbcraft"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Herbcraft",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Herbcraft",
+				["class"] = "WARLOCK",
 			},
 		},
 		["diff"] = 16,
@@ -64,7 +64,6 @@ DeathGraphsDBEndurance = {
 			["Herbcraft"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -72,6 +71,7 @@ DeathGraphsDBEndurance = {
 						"Arcanoslash |cFFFF3333203|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
 		},
 		["diff"] = 16,
@@ -84,6 +84,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 16940,
 				["timeofdeath"] = 194.3680000000022,
 				["name"] = "Herbcraft",
+				["time"] = 1614406164.36,
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 14s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -478,9 +481,6 @@ DeathGraphsDBCurrent = {
 						"Herbcraft", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 14s",
-				["time"] = 1614406164.36,
 			}, -- [1]
 		},
 		["bossname"] = "Skorpyron",

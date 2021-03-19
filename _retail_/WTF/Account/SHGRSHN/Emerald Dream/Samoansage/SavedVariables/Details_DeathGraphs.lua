@@ -6,245 +6,436 @@ DeathGraphsDBDeaths = {
 		["name"] = "Sludgefist",
 		["id"] = "2399-15",
 		["player_db"] = {
-			["Hyungmindad-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Hyungmindad-Frostmourne",
-				["class"] = "DEMONHUNTER",
-			},
-			["Metasabre-Bladefist"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Metasabre-Bladefist",
+			["Throvin-GrizzlyHills"] = {
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Throvin-GrizzlyHills",
 			},
 			["Azztta-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 				["name"] = "Azztta-Frostmourne",
-				["class"] = "MONK",
-			},
-			["Rightnut-Kel'Thuzad"] = {
 				["overall"] = {
 				},
+			},
+			["Berrexion-Aegwynn"] = {
 				["deaths"] = {
 				},
-				["name"] = "Rightnut-Kel'Thuzad",
-				["class"] = "PALADIN",
-			},
-			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
-				["class"] = "SHAMAN",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
+				["name"] = "Berrexion-Aegwynn",
 			},
-			["Bodhidarman-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Bodhidarman-Frostmourne",
-				["class"] = "MONK",
-			},
-			["Ravendare-Proudmoore"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ravendare-Proudmoore",
-				["class"] = "HUNTER",
-			},
-			["Akelia-Kael'thas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Akelia-Kael'thas",
+			["Zoharis-Gallywix"] = {
 				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zoharis-Gallywix",
+			},
+			["Kaladin-ScarletCrusade"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaladin-ScarletCrusade",
 			},
 			["Picklehammer-Proudmoore"] = {
-				["name"] = "Picklehammer-Proudmoore",
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Picklehammer-Proudmoore",
+			},
+			["Girthygimli-Frostmourne"] = {
 				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Girthygimli-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Ryuudin-Gallywix"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ryuudin-Gallywix",
+			},
+			["Omik-ArgentDawn"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Omik-ArgentDawn",
+			},
+			["Mickaela-TolBarad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Mickaela-TolBarad",
+				["overall"] = {
+				},
+			},
+			["Allbadthing-Azgalor"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Allbadthing-Azgalor",
+				["overall"] = {
+				},
+			},
+			["Hopest-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Hopest-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Cheechnchong-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Cheechnchong-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Meathands-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Meathands-Tichondrius",
+			},
+			["Måelstrom-Proudmoore"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Måelstrom-Proudmoore",
+			},
+			["Rejuvanate-Caelestrasz"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rejuvanate-Caelestrasz",
+			},
+			["Ssimoes-Gallywix"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ssimoes-Gallywix",
+			},
+			["Pumpedupkixx-Alleria"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Pumpedupkixx-Alleria",
+				["overall"] = {
+				},
+			},
+			["Duckphat-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Duckphat-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Mystry-Hakkar"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mystry-Hakkar",
+			},
+			["Foreseer-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Foreseer-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Ghorleo-Nagrand"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ghorleo-Nagrand",
+			},
+			["Exne-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Exne-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Snakpak-Proudmoore"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Snakpak-Proudmoore",
+			},
+			["Donasocorro-Gallywix"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Donasocorro-Gallywix",
+			},
+			["Tayzonday-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Tayzonday-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Shingao-Stormrage"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shingao-Stormrage",
+			},
+			["Yukalt-Frostmourne"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Yukalt-Frostmourne",
+			},
+			["Hyungmindad-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Hyungmindad-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Christinaix-Gallywix"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Christinaix-Gallywix",
+			},
+			["Metasabre-Bladefist"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Metasabre-Bladefist",
+				["overall"] = {
+				},
+			},
+			["Malcyna-EarthenRing"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Malcyna-EarthenRing",
+			},
+			["Lexxsteele-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Lexxsteele-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Shamagon-Proudmoore"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
+			},
+			["Prøpel-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Prøpel-Sargeras",
+				["overall"] = {
 				},
 			},
 			["Azirria-Trollbane"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
 				["name"] = "Azirria-Trollbane",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
-			["Tayzonday-Frostmourne"] = {
-				["overall"] = {
-				},
+			["Garobber-Eitrigg"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["name"] = "Tayzonday-Frostmourne",
-				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["name"] = "Garobber-Eitrigg",
 			},
-			["Lexxsteele-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lexxsteele-Frostmourne",
-				["class"] = "DEMONHUNTER",
-			},
-			["Cigr-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Cigr-Frostmourne",
+			["Grëy-Hakkar"] = {
 				["class"] = "HUNTER",
-			},
-			["Exne-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Exne-Frostmourne",
-				["class"] = "MAGE",
-			},
-			["Mickaela-TolBarad"] = {
 				["overall"] = {
 				},
+				["name"] = "Grëy-Hakkar",
+			},
+			["Ettezil-Ragnaros"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["name"] = "Mickaela-TolBarad",
+				["overall"] = {
+				},
+				["name"] = "Ettezil-Ragnaros",
+			},
+			["Disbastic-Lightbringer"] = {
 				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Disbastic-Lightbringer",
 			},
 			["Deimosh-Quel'Thalas"] = {
-				["name"] = "Deimosh-Quel'Thalas",
 				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Deimosh-Quel'Thalas",
+			},
+			["Archedemus-Frostmourne"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Archedemus-Frostmourne",
+			},
+			["Frmkk-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Frmkk-Quel'Thalas",
+				["overall"] = {
 				},
 			},
-			["Sirphantom-Sargeras"] = {
-				["overall"] = {
-				},
+			["Mysticaim-Sargeras"] = {
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["name"] = "Sirphantom-Sargeras",
-				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["name"] = "Mysticaim-Sargeras",
 			},
-			["Hopest-Frostmourne"] = {
-				["overall"] = {
-				},
+			["Astholfo-Gallywix"] = {
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["name"] = "Hopest-Frostmourne",
-				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["name"] = "Astholfo-Gallywix",
 			},
 			["Ázeal-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Ázeal-Frostmourne",
 				["class"] = "PRIEST",
-			},
-			["Zerenaloo-Daggerspine"] = {
+				["name"] = "Ázeal-Frostmourne",
 				["overall"] = {
 				},
+			},
+			["Ronnielock-Dalaran"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["name"] = "Zerenaloo-Daggerspine",
-				["class"] = "HUNTER",
-			},
-			["Foreseer-Frostmourne"] = {
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Foreseer-Frostmourne",
-				["class"] = "HUNTER",
-			},
-			["Drbrad-Stormrage"] = {
-				["name"] = "Drbrad-Stormrage",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Ronnielock-Dalaran",
 			},
 			["Samoansage"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Samoansage",
 				["class"] = "SHAMAN",
-			},
-			["Gadlyn-Proudmoore"] = {
-				["name"] = "Gadlyn-Proudmoore",
-				["class"] = "HUNTER",
+				["name"] = "Samoansage",
 				["overall"] = {
-				},
-				["deaths"] = {
 				},
 			},
 			["Akukaos-Eonar"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Akukaos-Eonar",
 				["class"] = "SHAMAN",
+				["name"] = "Akukaos-Eonar",
+				["overall"] = {
+				},
 			},
 			["Darkody-Stormrage"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Darkody-Stormrage",
 				["class"] = "DEATHKNIGHT",
-			},
-			["Prøpel-Sargeras"] = {
+				["name"] = "Darkody-Stormrage",
 				["overall"] = {
 				},
+			},
+			["Høneyß-Tichondrius"] = {
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["name"] = "Prøpel-Sargeras",
-				["class"] = "MONK",
+				["overall"] = {
+				},
+				["name"] = "Høneyß-Tichondrius",
 			},
 			["Ærilon-Proudmoore"] = {
-				["name"] = "Ærilon-Proudmoore",
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Ærilon-Proudmoore",
+			},
+			["Rightnut-Kel'Thuzad"] = {
 				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Rightnut-Kel'Thuzad",
+				["overall"] = {
 				},
 			},
-			["Orangecircle-Frostmourne"] = {
-				["overall"] = {
-				},
+			["Cigr-Frostmourne"] = {
 				["deaths"] = {
 				},
-				["name"] = "Orangecircle-Frostmourne",
-				["class"] = "SHAMAN",
-			},
-			["Pumpedupkixx-Alleria"] = {
+				["class"] = "HUNTER",
+				["name"] = "Cigr-Frostmourne",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Pumpedupkixx-Alleria",
-				["class"] = "DEATHKNIGHT",
 			},
 			["Dennislyland-Kel'Thuzad"] = {
 				["deaths"] = {
@@ -253,237 +444,237 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Dennislyland-Kel'Thuzad",
 			},
-			["Måelstrom-Proudmoore"] = {
-				["name"] = "Måelstrom-Proudmoore",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
+			["Homiebro-Kel'Thuzad"] = {
 				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Homiebro-Kel'Thuzad",
+				["overall"] = {
 				},
 			},
-			["Silvazoldyck-Frostmourne"] = {
-				["overall"] = {
-				},
+			["Inscrïbed-Proudmoore"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["name"] = "Silvazoldyck-Frostmourne",
-				["class"] = "MONK",
+				["overall"] = {
+				},
+				["name"] = "Inscrïbed-Proudmoore",
 			},
-			["Valuent-Terenas"] = {
-				["overall"] = {
-				},
+			["Orangecircle-Frostmourne"] = {
 				["deaths"] = {
 				},
-				["name"] = "Valuent-Terenas",
-				["class"] = "PRIEST",
+				["class"] = "SHAMAN",
+				["name"] = "Orangecircle-Frostmourne",
+				["overall"] = {
+				},
 			},
 			["Critia-Maelstrom"] = {
-				["name"] = "Critia-Maelstrom",
 				["class"] = "PRIEST",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Critia-Maelstrom",
 			},
 			["Mongoline-Windrunner"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Mongoline-Windrunner",
 				["class"] = "WARLOCK",
+				["name"] = "Mongoline-Windrunner",
+				["overall"] = {
+				},
 			},
 			["Biggums-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Biggums-Frostmourne",
 				["class"] = "SHAMAN",
-			},
-			["Frmkk-Quel'Thalas"] = {
+				["name"] = "Biggums-Frostmourne",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Frmkk-Quel'Thalas",
-				["class"] = "DEMONHUNTER",
-			},
-			["Zelse-Proudmoore"] = {
-				["name"] = "Zelse-Proudmoore",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Metacognize-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Metacognize-Frostmourne",
-				["class"] = "MONK",
-			},
-			["Wârwôlf-Anvilmar"] = {
-				["name"] = "Wârwôlf-Anvilmar",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Allbadthing-Azgalor"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Allbadthing-Azgalor",
-				["class"] = "MAGE",
 			},
 			["Memedreamer-Kel'Thuzad"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 				["name"] = "Memedreamer-Kel'Thuzad",
-				["class"] = "HUNTER",
-			},
-			["Duckphat-Proudmoore"] = {
 				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Duckphat-Proudmoore",
-				["class"] = "ROGUE",
-			},
-			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["name"] = "Chaoticdeath-Sargeras",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rejuvanate-Caelestrasz"] = {
-				["name"] = "Rejuvanate-Caelestrasz",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Homiebro-Kel'Thuzad"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Homiebro-Kel'Thuzad",
-				["class"] = "DRUID",
-			},
-			["Shingao-Stormrage"] = {
-				["name"] = "Shingao-Stormrage",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Girthygimli-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Girthygimli-Frostmourne",
-				["class"] = "SHAMAN",
-			},
-			["Høneyß-Tichondrius"] = {
-				["name"] = "Høneyß-Tichondrius",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cheechnchong-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Cheechnchong-Stormrage",
-				["class"] = "PRIEST",
-			},
-			["Slnkthegreat-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Slnkthegreat-Stormrage",
-				["class"] = "DRUID",
-			},
-			["Ghorleo-Nagrand"] = {
-				["name"] = "Ghorleo-Nagrand",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sunbb-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sunbb-Frostmourne",
-				["class"] = "SHAMAN",
-			},
-			["Snakpak-Proudmoore"] = {
-				["name"] = "Snakpak-Proudmoore",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Oakinon-Proudmoore"] = {
-				["name"] = "Oakinon-Proudmoore",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Drkladykikyo-Anvilmar"] = {
-				["name"] = "Drkladykikyo-Anvilmar",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
 				},
 			},
 			["Shamnok-Stormrage"] = {
-				["name"] = "Shamnok-Stormrage",
 				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Shamnok-Stormrage",
+			},
+			["Metacognize-Frostmourne"] = {
 				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Metacognize-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Akelia-Kael'thas"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Akelia-Kael'thas",
+				["overall"] = {
 				},
 			},
 			["Syldinaris-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Syldinaris-Frostmourne",
 				["class"] = "HUNTER",
+				["name"] = "Syldinaris-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Drkladykikyo-Anvilmar"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Drkladykikyo-Anvilmar",
+			},
+			["Zelse-Proudmoore"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zelse-Proudmoore",
+			},
+			["Charismá-Proudmoore"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
+			},
+			["Silvazoldyck-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Silvazoldyck-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Oakinon-Proudmoore"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oakinon-Proudmoore",
+			},
+			["Zerenaloo-Daggerspine"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Zerenaloo-Daggerspine",
+				["overall"] = {
+				},
+			},
+			["Sunbb-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Sunbb-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Sirphantom-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Sirphantom-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Drbrad-Stormrage"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Drbrad-Stormrage",
+			},
+			["Bodhidarman-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Bodhidarman-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Slnkthegreat-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Slnkthegreat-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Rubinhud-Gallywix"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rubinhud-Gallywix",
+			},
+			["Gadlyn-Proudmoore"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gadlyn-Proudmoore",
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chaoticdeath-Sargeras",
+			},
+			["Valuent-Terenas"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Valuent-Terenas",
+				["overall"] = {
+				},
+			},
+			["Sonatahunt-Stormrage"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sonatahunt-Stormrage",
+			},
+			["Ravendare-Proudmoore"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Ravendare-Proudmoore",
+				["overall"] = {
+				},
+			},
+			["Wârwôlf-Anvilmar"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wârwôlf-Anvilmar",
 			},
 		},
 		["diff"] = 15,
@@ -495,60 +686,60 @@ DeathGraphsDBDeaths = {
 		["id"] = "2412-15",
 		["player_db"] = {
 			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
 			},
 			["Drbrad-Stormrage"] = {
-				["name"] = "Drbrad-Stormrage",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Ærilon-Proudmoore"] = {
-				["name"] = "Ærilon-Proudmoore",
-				["class"] = "PALADIN",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-			},
-			["Picklehammer-Proudmoore"] = {
-				["name"] = "Picklehammer-Proudmoore",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Oakinon-Proudmoore"] = {
-				["name"] = "Oakinon-Proudmoore",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Critia-Maelstrom"] = {
-				["name"] = "Critia-Maelstrom",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Drbrad-Stormrage",
 			},
 			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
+			},
+			["Picklehammer-Proudmoore"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Picklehammer-Proudmoore",
+			},
+			["Oakinon-Proudmoore"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oakinon-Proudmoore",
+			},
+			["Critia-Maelstrom"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Critia-Maelstrom",
+			},
+			["Ærilon-Proudmoore"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ærilon-Proudmoore",
 			},
 		},
 		["diff"] = 15,
@@ -560,159 +751,168 @@ DeathGraphsDBDeaths = {
 		["id"] = "2406-14",
 		["player_db"] = {
 			["Geekylock-Gurubashi"] = {
-				["name"] = "Geekylock-Gurubashi",
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Geekylock-Gurubashi",
 			},
 			["Fereldor-Skywall"] = {
-				["name"] = "Fereldor-Skywall",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Fereldor-Skywall",
 			},
 			["Krimmzon"] = {
-				["name"] = "Krimmzon",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Krimmzon",
 			},
 			["Süspêct-Blade'sEdge"] = {
-				["name"] = "Süspêct-Blade'sEdge",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Süspêct-Blade'sEdge",
 			},
 			["Jiinna"] = {
-				["name"] = "Jiinna",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Jiinna",
 			},
 			["Shinimaguinf-Agamaggan"] = {
-				["name"] = "Shinimaguinf-Agamaggan",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shinimaguinf-Agamaggan",
 			},
 			["Barbiekiller-Sargeras"] = {
-				["name"] = "Barbiekiller-Sargeras",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Barbiekiller-Sargeras",
 			},
 			["Bairdran-Dawnbringer"] = {
-				["name"] = "Bairdran-Dawnbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Bairdran-Dawnbringer",
 			},
 			["Tomatoa-Lightbringer"] = {
-				["name"] = "Tomatoa-Lightbringer",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Tomatoa-Lightbringer",
 			},
 			["Särias-Proudmoore"] = {
-				["name"] = "Särias-Proudmoore",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Särias-Proudmoore",
 			},
 			["Ezslick-Proudmoore"] = {
-				["name"] = "Ezslick-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ezslick-Proudmoore",
 			},
 			["Ownre"] = {
-				["name"] = "Ownre",
 				["class"] = "ROGUE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ownre",
 			},
 			["Honustustere"] = {
-				["name"] = "Honustustere",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Kyralise"] = {
-				["name"] = "Kyralise",
-				["class"] = "DRUID",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nehva-Stormrage"] = {
-				["name"] = "Nehva-Stormrage",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Camothebest-Dalaran"] = {
-				["name"] = "Camothebest-Dalaran",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Honustustere",
 			},
 			["Palannegros-Nemesis"] = {
-				["name"] = "Palannegros-Nemesis",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Palannegros-Nemesis",
+			},
+			["Samoansage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
+			},
+			["Camothebest-Dalaran"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Camothebest-Dalaran",
+			},
+			["Octavialorn-Kael'thas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Nehva-Stormrage"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nehva-Stormrage",
+			},
+			["Kyralise"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kyralise",
 			},
 		},
 		["diff"] = 14,
+	},
+	["2405-16"] = {
+		["hash"] = "2405-16",
+		["type"] = "deaths",
+		["name"] = "Artificer Xy'mox",
+		["id"] = "2405-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
 	},
 	["2417-14"] = {
 		["hash"] = "2417-14",
@@ -721,28 +921,28 @@ DeathGraphsDBDeaths = {
 		["id"] = "2417-14",
 		["player_db"] = {
 			["Honustustere"] = {
-				["name"] = "Honustustere",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Honustustere",
 			},
 			["Spiritthawk"] = {
-				["name"] = "Spiritthawk",
 				["class"] = "PRIEST",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Spiritthawk",
 			},
 			["Kaatinga-Nemesis"] = {
-				["name"] = "Kaatinga-Nemesis",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Kaatinga-Nemesis",
 			},
 		},
 		["diff"] = 14,
@@ -754,92 +954,92 @@ DeathGraphsDBDeaths = {
 		["id"] = "2402-15",
 		["player_db"] = {
 			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
 			},
 			["Chaoticdeath-Sargeras"] = {
-				["name"] = "Chaoticdeath-Sargeras",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Chaoticdeath-Sargeras",
 			},
 			["Måelstrom-Proudmoore"] = {
-				["name"] = "Måelstrom-Proudmoore",
 				["class"] = "ROGUE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Måelstrom-Proudmoore",
 			},
 			["Kaleii-Gorgonnash"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Kaleii-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
 			},
 			["Drbrad-Stormrage"] = {
-				["name"] = "Drbrad-Stormrage",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Drbrad-Stormrage",
 			},
 			["Gadlyn-Proudmoore"] = {
-				["name"] = "Gadlyn-Proudmoore",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Gadlyn-Proudmoore",
 			},
 			["Samoansage"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
 			},
 			["Oakinon-Proudmoore"] = {
-				["name"] = "Oakinon-Proudmoore",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Oakinon-Proudmoore",
 			},
 			["Shingao-Stormrage"] = {
-				["name"] = "Shingao-Stormrage",
 				["class"] = "MONK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shingao-Stormrage",
 			},
 			["Ærilon-Proudmoore"] = {
-				["name"] = "Ærilon-Proudmoore",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ærilon-Proudmoore",
 			},
 		},
 		["diff"] = 15,
@@ -850,9 +1050,25 @@ DeathGraphsDBDeaths = {
 		["name"] = "Huntsman Altimor",
 		["id"] = "2418-15",
 		["player_db"] = {
+			["Mephì-Sargeras"] = {
+				["name"] = "Mephì-Sargeras",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
 			["Oakinon-Proudmoore"] = {
-				["name"] = "Oakinon-Proudmoore",
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oakinon-Proudmoore",
+			},
+			["Dawnbreather-Stormrage"] = {
+				["name"] = "Dawnbreather-Stormrage",
+				["class"] = "MAGE",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -868,76 +1084,76 @@ DeathGraphsDBDeaths = {
 		["id"] = "2383-14",
 		["player_db"] = {
 			["Tomatoa-Lightbringer"] = {
-				["name"] = "Tomatoa-Lightbringer",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Tomatoa-Lightbringer",
 			},
 			["Palannegros-Nemesis"] = {
-				["name"] = "Palannegros-Nemesis",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Palannegros-Nemesis",
 			},
 			["Ezslick-Proudmoore"] = {
-				["name"] = "Ezslick-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ezslick-Proudmoore",
 			},
 			["Krimmzon"] = {
-				["name"] = "Krimmzon",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Krimmzon",
 			},
 			["Süspêct-Blade'sEdge"] = {
-				["name"] = "Süspêct-Blade'sEdge",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Süspêct-Blade'sEdge",
 			},
 			["Samoansage"] = {
-				["name"] = "Samoansage",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
 			},
 			["Barbiekiller-Sargeras"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
 				["name"] = "Barbiekiller-Sargeras",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Fereldor-Skywall"] = {
-				["name"] = "Fereldor-Skywall",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Nehva-Stormrage"] = {
-				["name"] = "Nehva-Stormrage",
 				["class"] = "WARRIOR",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Nehva-Stormrage",
+			},
+			["Fereldor-Skywall"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fereldor-Skywall",
 			},
 		},
 		["diff"] = 14,
@@ -949,92 +1165,92 @@ DeathGraphsDBDeaths = {
 		["id"] = "2406-15",
 		["player_db"] = {
 			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
 			},
 			["Aequs-AlteracMountains"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Aequs-AlteracMountains",
+				["class"] = "PALADIN",
 			},
 			["Mømentum-AlteracMountains"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Mømentum-AlteracMountains",
+				["class"] = "PRIEST",
 			},
 			["Kaleii-Gorgonnash"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Kaleii-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Drbrad-Stormrage"] = {
-				["name"] = "Drbrad-Stormrage",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Drbrad-Stormrage",
 			},
 			["Dontnerfme-Dalaran"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Dontnerfme-Dalaran",
+				["class"] = "WARRIOR",
 			},
 			["Samoansage"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
 			},
 			["Zhor-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Zhor-Proudmoore",
-			},
-			["Dárwynn-Proudmoore"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dárwynn-Proudmoore",
+				["class"] = "WARLOCK",
 			},
 			["Krakmagic-Aman'Thul"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Krakmagic-Aman'Thul",
+				["class"] = "MAGE",
 			},
-			["Carius-Balnazzar"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
+			["Dárwynn-Proudmoore"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Dárwynn-Proudmoore",
+				["class"] = "PALADIN",
+			},
+			["Carius-Balnazzar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 				["name"] = "Carius-Balnazzar",
+				["class"] = "DRUID",
 			},
 		},
 		["diff"] = 15,
@@ -1046,243 +1262,243 @@ DeathGraphsDBDeaths = {
 		["id"] = "2399-14",
 		["player_db"] = {
 			["Draciel"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
 				["name"] = "Draciel",
+				["class"] = "DRUID",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Tunasat-Thunderlord"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
 				["name"] = "Tunasat-Thunderlord",
+				["class"] = "MAGE",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Spiritthorse"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
 				["name"] = "Spiritthorse",
+				["class"] = "PALADIN",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Hoyce-Quel'dorei"] = {
-				["name"] = "Hoyce-Quel'dorei",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Hoyce-Quel'dorei",
 			},
 			["Lovelighter-Trollbane"] = {
-				["name"] = "Lovelighter-Trollbane",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Lovelighter-Trollbane",
 			},
 			["Krimmzon"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
 				["name"] = "Krimmzon",
+				["class"] = "PALADIN",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Wildprophêt"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
 				["name"] = "Wildprophêt",
+				["class"] = "MONK",
 				["overall"] = {
 				},
-			},
-			["Luchadore"] = {
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Luchadore",
-				["overall"] = {
-				},
 			},
-			["Kaedwyn-ShadowCouncil"] = {
-				["deaths"] = {
-				},
+			["Vanddar-EarthenRing"] = {
+				["name"] = "Vanddar-EarthenRing",
 				["class"] = "DRUID",
-				["name"] = "Kaedwyn-ShadowCouncil",
-				["overall"] = {
-				},
-			},
-			["Wîca-Alleria"] = {
-				["name"] = "Wîca-Alleria",
-				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
-				},
-			},
-			["Wiskbiscuit-EarthenRing"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Wiskbiscuit-EarthenRing",
-				["overall"] = {
-				},
-			},
-			["Reath"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Reath",
-				["overall"] = {
 				},
 			},
 			["Notocas-Garithos"] = {
-				["name"] = "Notocas-Garithos",
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Noegrus-ShadowCouncil"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Noegrus-ShadowCouncil",
 				["overall"] = {
 				},
+				["name"] = "Notocas-Garithos",
 			},
-			["Faganjohnson-Sargeras"] = {
-				["name"] = "Faganjohnson-Sargeras",
+			["Wîca-Alleria"] = {
 				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wîca-Alleria",
+			},
+			["Wiskbiscuit-EarthenRing"] = {
+				["name"] = "Wiskbiscuit-EarthenRing",
+				["class"] = "MAGE",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
-			["Samoansage"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Samoansage",
-				["overall"] = {
-				},
-			},
-			["Asho-Stormrage"] = {
-				["name"] = "Asho-Stormrage",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Inoquen-Stormrage"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Inoquen-Stormrage",
-				["overall"] = {
-				},
-			},
-			["Raquaza-Gorefiend"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Raquaza-Gorefiend",
-				["overall"] = {
-				},
-			},
-			["Ravannastorm"] = {
-				["name"] = "Ravannastorm",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bearxen-Kel'Thuzad"] = {
-				["name"] = "Bearxen-Kel'Thuzad",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jbprimero-Feathermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Jbprimero-Feathermoon",
-				["overall"] = {
-				},
-			},
-			["Ownre"] = {
-				["name"] = "Ownre",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Honustustere"] = {
-				["deaths"] = {
-				},
+			["Reath"] = {
+				["name"] = "Reath",
 				["class"] = "DEATHKNIGHT",
-				["name"] = "Honustustere",
-				["overall"] = {
-				},
-			},
-			["Spiritthawk"] = {
-				["name"] = "Spiritthawk",
-				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
-			["Kendräk-Gallywix"] = {
-				["name"] = "Kendräk-Gallywix",
+			["Kaedwyn-ShadowCouncil"] = {
+				["name"] = "Kaedwyn-ShadowCouncil",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Aerithrea-Eldre'Thalas"] = {
-				["name"] = "Aerithrea-Eldre'Thalas",
-				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
 			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
 				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Faganjohnson-Sargeras"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Faganjohnson-Sargeras",
+			},
+			["Kendräk-Gallywix"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kendräk-Gallywix",
+			},
+			["Asho-Stormrage"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asho-Stormrage",
+			},
+			["Inoquen-Stormrage"] = {
+				["name"] = "Inoquen-Stormrage",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Raquaza-Gorefiend"] = {
+				["name"] = "Raquaza-Gorefiend",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ravannastorm"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ravannastorm",
+			},
+			["Bearxen-Kel'Thuzad"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bearxen-Kel'Thuzad",
+			},
+			["Jbprimero-Feathermoon"] = {
+				["name"] = "Jbprimero-Feathermoon",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ownre"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ownre",
+			},
+			["Honustustere"] = {
+				["name"] = "Honustustere",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Spiritthawk"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Spiritthawk",
+			},
+			["Samoansage"] = {
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aerithrea-Eldre'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Aerithrea-Eldre'Thalas",
+			},
+			["Noegrus-ShadowCouncil"] = {
+				["name"] = "Noegrus-ShadowCouncil",
+				["class"] = "DRUID",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
 			["Weldmentz"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
 				["name"] = "Weldmentz",
+				["class"] = "MONK",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
-			["Vanddar-EarthenRing"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Vanddar-EarthenRing",
+			["Luchadore"] = {
+				["name"] = "Luchadore",
+				["class"] = "MAGE",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 		},
@@ -1294,109 +1510,109 @@ DeathGraphsDBDeaths = {
 		["name"] = "Shriekwing",
 		["id"] = "2398-14",
 		["player_db"] = {
-			["Deliel-Frostmourne"] = {
-				["name"] = "Deliel-Frostmourne",
+			["Uglas-Dath'Remar"] = {
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Plagueman-Stormrage"] = {
-				["name"] = "Plagueman-Stormrage",
-				["class"] = "WARLOCK",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
+				["name"] = "Uglas-Dath'Remar",
 			},
 			["Hoyce-Quel'dorei"] = {
-				["name"] = "Hoyce-Quel'dorei",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Kurodachi-Frostmourne"] = {
-				["name"] = "Kurodachi-Frostmourne",
-				["class"] = "PRIEST",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-			},
-			["Asho-Stormrage"] = {
-				["name"] = "Asho-Stormrage",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Draedk-Frostmourne"] = {
-				["name"] = "Draedk-Frostmourne",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Honustustere"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Honustustere",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aerithrea-Eldre'Thalas"] = {
-				["name"] = "Aerithrea-Eldre'Thalas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Barbiekiller-Sargeras"] = {
-				["name"] = "Barbiekiller-Sargeras",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Hoyce-Quel'dorei",
 			},
 			["Rainey-Frostmourne"] = {
-				["name"] = "Rainey-Frostmourne",
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Rainey-Frostmourne",
+			},
+			["Kurodachi-Frostmourne"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kurodachi-Frostmourne",
+			},
+			["Asho-Stormrage"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asho-Stormrage",
+			},
+			["Draedk-Frostmourne"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Draedk-Frostmourne",
+			},
+			["Honustustere"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Honustustere",
+				["overall"] = {
 				},
 			},
-			["Uglas-Dath'Remar"] = {
-				["name"] = "Uglas-Dath'Remar",
+			["Aerithrea-Eldre'Thalas"] = {
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Aerithrea-Eldre'Thalas",
+			},
+			["Samoansage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
+			},
+			["Barbiekiller-Sargeras"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Barbiekiller-Sargeras",
+			},
+			["Octavialorn-Kael'thas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Plagueman-Stormrage"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Plagueman-Stormrage",
+			},
+			["Deliel-Frostmourne"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Deliel-Frostmourne",
 			},
 		},
 		["diff"] = 14,
@@ -1407,125 +1623,301 @@ DeathGraphsDBDeaths = {
 		["name"] = "Stone Legion Generals",
 		["id"] = "2417-15",
 		["player_db"] = {
-			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
+			["Arper-Quel'Thalas"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["name"] = "Chaoticdeath-Sargeras",
-				["class"] = "DEATHKNIGHT",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-			},
-			["Måelstrom-Proudmoore"] = {
-				["name"] = "Måelstrom-Proudmoore",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Arper-Quel'Thalas",
 			},
 			["Chawnkytrog-Stormrage"] = {
-				["name"] = "Chawnkytrog-Stormrage",
 				["class"] = "MONK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Rejuvanate-Caelestrasz"] = {
-				["name"] = "Rejuvanate-Caelestrasz",
-				["class"] = "DRUID",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-			},
-			["Critia-Maelstrom"] = {
-				["name"] = "Critia-Maelstrom",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
+				["name"] = "Chawnkytrog-Stormrage",
 			},
 			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
 			},
-			["Shingao-Stormrage"] = {
-				["name"] = "Shingao-Stormrage",
-				["class"] = "MONK",
-				["overall"] = {
-				},
+			["Rhaenýs-Greymane"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Rhaenýs-Greymane",
 			},
-			["Ghorleo-Nagrand"] = {
-				["name"] = "Ghorleo-Nagrand",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
+			["Arislynn-Tanaris"] = {
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Arislynn-Tanaris",
 			},
-			["Høneyß-Tichondrius"] = {
-				["name"] = "Høneyß-Tichondrius",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
+			["Turgon-Greymane"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Turgon-Greymane",
+			},
+			["Lokeitos-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lokeitos-Quel'Thalas",
+			},
+			["Sílfanas-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sílfanas-Quel'Thalas",
 			},
 			["Samoansage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
 				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
-			["Mephetran-Moonrunner"] = {
-				["name"] = "Mephetran-Moonrunner",
+			["Zeddzicus-Greymane"] = {
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Jakeakuma-Kael'thas"] = {
-				["name"] = "Jakeakuma-Kael'thas",
-				["class"] = "WARLOCK",
 				["overall"] = {
 				},
+				["name"] = "Zeddzicus-Greymane",
+			},
+			["Malthanor-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Malthanor-Quel'Thalas",
 			},
-			["Shamnok-Stormrage"] = {
-				["name"] = "Shamnok-Stormrage",
+			["Måelstrom-Proudmoore"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Måelstrom-Proudmoore",
+			},
+			["Rejuvanate-Caelestrasz"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rejuvanate-Caelestrasz",
+			},
+			["Critia-Maelstrom"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Critia-Maelstrom",
+			},
+			["Immakin-Tanaris"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Immakin-Tanaris",
+			},
+			["Semiazos-Greymane"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Semiazos-Greymane",
+			},
+			["Cimmaraya-Tanaris"] = {
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Cimmaraya-Tanaris",
+			},
+			["Leivatron-Quel'Thalas"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Leivatron-Quel'Thalas",
+			},
+			["Charismá-Proudmoore"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
+			},
+			["Legoki-Quel'Thalas"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Legoki-Quel'Thalas",
 			},
 			["Zelse-Proudmoore"] = {
-				["name"] = "Zelse-Proudmoore",
 				["class"] = "WARRIOR",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Zelse-Proudmoore",
+			},
+			["Nollaumesse-Dalaran"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nollaumesse-Dalaran",
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chaoticdeath-Sargeras",
+			},
+			["Hýde-Greymane"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hýde-Greymane",
+			},
+			["Mephetran-Moonrunner"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mephetran-Moonrunner",
+			},
+			["Rãzor-Quel'Thalas"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rãzor-Quel'Thalas",
+			},
+			["Gílgamesh-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gílgamesh-Quel'Thalas",
+			},
+			["Høneyß-Tichondrius"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Høneyß-Tichondrius",
+			},
+			["Taxal-Greymane"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Taxal-Greymane",
+			},
+			["Remonic-Tanaris"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Remonic-Tanaris",
+			},
+			["Ghorleo-Nagrand"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ghorleo-Nagrand",
+			},
+			["Adolin-Greymane"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Adolin-Greymane",
+			},
+			["Jakeakuma-Kael'thas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jakeakuma-Kael'thas",
+			},
+			["Cesarhunter-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cesarhunter-Quel'Thalas",
+			},
+			["Dunkelzhan-Greymane"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dunkelzhan-Greymane",
+			},
+			["Shingao-Stormrage"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shingao-Stormrage",
+			},
+			["Shamnok-Stormrage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shamnok-Stormrage",
 			},
 		},
 		["diff"] = 15,
@@ -1537,116 +1929,156 @@ DeathGraphsDBDeaths = {
 		["id"] = "2402-14",
 		["player_db"] = {
 			["Geekylock-Gurubashi"] = {
-				["name"] = "Geekylock-Gurubashi",
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Geekylock-Gurubashi",
 			},
 			["Fereldor-Skywall"] = {
-				["name"] = "Fereldor-Skywall",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Fereldor-Skywall",
 			},
 			["Krimmzon"] = {
-				["name"] = "Krimmzon",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Krimmzon",
 			},
 			["Süspêct-Blade'sEdge"] = {
-				["name"] = "Süspêct-Blade'sEdge",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Süspêct-Blade'sEdge",
 			},
 			["Jiinna"] = {
-				["name"] = "Jiinna",
 				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Jiinna",
 			},
 			["Shinimaguinf-Agamaggan"] = {
-				["name"] = "Shinimaguinf-Agamaggan",
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shinimaguinf-Agamaggan",
 			},
 			["Barbiekiller-Sargeras"] = {
-				["name"] = "Barbiekiller-Sargeras",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Barbiekiller-Sargeras",
 			},
 			["Bairdran-Dawnbringer"] = {
-				["name"] = "Bairdran-Dawnbringer",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Bairdran-Dawnbringer",
 			},
 			["Bissell-Dunemaul"] = {
-				["name"] = "Bissell-Dunemaul",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Bissell-Dunemaul",
 			},
 			["Brokiller-Tichondrius"] = {
-				["name"] = "Brokiller-Tichondrius",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Brokiller-Tichondrius",
 			},
 			["Serrennitty-Proudmoore"] = {
-				["name"] = "Serrennitty-Proudmoore",
 				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Serrennitty-Proudmoore",
 			},
 			["Verx-Gorefiend"] = {
-				["name"] = "Verx-Gorefiend",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Verx-Gorefiend",
 			},
 			["Ezslick-Proudmoore"] = {
-				["name"] = "Ezslick-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ezslick-Proudmoore",
 			},
 			["Ownre"] = {
-				["name"] = "Ownre",
 				["class"] = "ROGUE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ownre",
+			},
+			["Zavakas-Lightbringer"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zavakas-Lightbringer",
+			},
+			["Samoansage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
+			},
+			["Kvamalock-Zuluhed"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kvamalock-Zuluhed",
+			},
+			["Octavialorn-Kael'thas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Särias-Proudmoore"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Särias-Proudmoore",
 			},
 			["Palannegros-Nemesis"] = {
 				["deaths"] = {
@@ -1655,281 +2087,265 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Palannegros-Nemesis",
 			},
-			["Samoansage"] = {
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Särias-Proudmoore"] = {
-				["name"] = "Särias-Proudmoore",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kvamalock-Zuluhed"] = {
-				["name"] = "Kvamalock-Zuluhed",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zavakas-Lightbringer"] = {
-				["name"] = "Zavakas-Lightbringer",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 		},
 		["diff"] = 14,
 	},
-	["2418-14"] = {
-		["hash"] = "2418-14",
+	["2407-15"] = {
+		["hash"] = "2407-15",
 		["type"] = "deaths",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-14",
+		["name"] = "Sire Denathrius",
+		["id"] = "2407-15",
 		["player_db"] = {
-			["Atiarana-Caelestrasz"] = {
-				["name"] = "Atiarana-Caelestrasz",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Luzkansama-Frostmourne"] = {
-				["name"] = "Luzkansama-Frostmourne",
+			["Blackmit-Quel'Thalas"] = {
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Laruke-Frostmourne"] = {
-				["name"] = "Laruke-Frostmourne",
-				["class"] = "DRUID",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
+				["name"] = "Blackmit-Quel'Thalas",
 			},
-			["Rainey-Frostmourne"] = {
-				["name"] = "Rainey-Frostmourne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kurodachi-Frostmourne"] = {
-				["name"] = "Kurodachi-Frostmourne",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Krimmzon"] = {
-				["name"] = "Krimmzon",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Føcus-Uldum"] = {
-				["name"] = "Føcus-Uldum",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nytehuntress-Frostmourne"] = {
-				["name"] = "Nytehuntress-Frostmourne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jiinna"] = {
-				["name"] = "Jiinna",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Zanamii-Drakkari"] = {
-				["name"] = "Zanamii-Drakkari",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Barbiekiller-Sargeras"] = {
-				["name"] = "Barbiekiller-Sargeras",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Khalemit-Frostmourne"] = {
-				["name"] = "Khalemit-Frostmourne",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Deliel-Frostmourne"] = {
-				["name"] = "Deliel-Frostmourne",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Apengxx-Frostmourne"] = {
-				["name"] = "Apengxx-Frostmourne",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lardalys-Frostmourne"] = {
-				["name"] = "Lardalys-Frostmourne",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Silack-Frostmourne"] = {
-				["name"] = "Silack-Frostmourne",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Särias-Proudmoore"] = {
-				["name"] = "Särias-Proudmoore",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Estoppella-Aman'Thul"] = {
-				["name"] = "Estoppella-Aman'Thul",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nehva-Stormrage"] = {
-				["name"] = "Nehva-Stormrage",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Draedk-Frostmourne"] = {
-				["name"] = "Draedk-Frostmourne",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Coomboom-Proudmoore"] = {
-				["name"] = "Coomboom-Proudmoore",
+			["Calmcapybara-Proudmoore"] = {
 				["class"] = "MAGE",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Calmcapybara-Proudmoore",
 			},
-			["Kyralise"] = {
-				["name"] = "Kyralise",
+			["Khronix-Nagrand"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Khronix-Nagrand",
+			},
+			["Skjolvar-Frostmourne"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Skjolvar-Frostmourne",
+			},
+			["Ferocitron-Cenarius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ferocitron-Cenarius",
+			},
+			["Socsierra-Daggerspine"] = {
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Socsierra-Daggerspine",
 			},
-			["Ownre"] = {
-				["name"] = "Ownre",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
+			["Gílgamesh-Quel'Thalas"] = {
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Gílgamesh-Quel'Thalas",
+			},
+			["Wizewon-Stormrage"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Wizewon-Stormrage",
+			},
+			["Sacerdotemis-Quel'Thalas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sacerdotemis-Quel'Thalas",
+			},
+			["Rãzor-Quel'Thalas"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rãzor-Quel'Thalas",
+			},
+			["Cesarpaladin-Quel'Thalas"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cesarpaladin-Quel'Thalas",
+			},
+			["Zorritasucia-Ragnaros"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zorritasucia-Ragnaros",
+			},
+			["Nalgaso-Thunderlord"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nalgaso-Thunderlord",
+			},
+			["Yulisse-Drakkari"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Yulisse-Drakkari",
+			},
+			["Fatalshotz-Sargeras"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fatalshotz-Sargeras",
+			},
+			["Douglhashunt-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Douglhashunt-Quel'Thalas",
+			},
+			["Trustfundkid-Frostmourne"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trustfundkid-Frostmourne",
+			},
+			["Sílfanas-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sílfanas-Quel'Thalas",
+			},
+			["Rahi-Quel'Thalas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rahi-Quel'Thalas",
+			},
+			["Thandlius-Quel'Thalas"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thandlius-Quel'Thalas",
+			},
+			["Douglhas-Quel'Thalas"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Douglhas-Quel'Thalas",
+			},
+			["Edathas-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Edathas-Quel'Thalas",
+			},
+			["Lolloyd-Sargeras"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lolloyd-Sargeras",
+			},
+			["Malthanor-Quel'Thalas"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Malthanor-Quel'Thalas",
+			},
+			["Taarzaan-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Taarzaan-Quel'Thalas",
+			},
+			["Mohunter-Alexstrasza"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mohunter-Alexstrasza",
 			},
 			["Samoansage"] = {
-				["name"] = "Samoansage",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
 			},
-			["Süspêct-Blade'sEdge"] = {
-				["name"] = "Süspêct-Blade'sEdge",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
+			["Legoki-Quel'Thalas"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Legoki-Quel'Thalas",
 			},
-			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
+			["Delfox-Proudmoore"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Delfox-Proudmoore",
 			},
-			["Fereldor-Skywall"] = {
-				["name"] = "Fereldor-Skywall",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
+			["Calisten-Proudmoore"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Calisten-Proudmoore",
 			},
-			["Camothebest-Dalaran"] = {
-				["name"] = "Camothebest-Dalaran",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
+			["Dezs-Dath'Remar"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Dezs-Dath'Remar",
 			},
 		},
-		["diff"] = 14,
+		["diff"] = 15,
 	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
@@ -1938,108 +2354,108 @@ DeathGraphsDBDeaths = {
 		["id"] = "2398-15",
 		["player_db"] = {
 			["Shamonay-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Shamonay-Frostmourne",
 				["class"] = "PRIEST",
+				["name"] = "Shamonay-Frostmourne",
+				["overall"] = {
+				},
 			},
 			["Mickaela-TolBarad"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Mickaela-TolBarad",
 				["class"] = "PRIEST",
+				["name"] = "Mickaela-TolBarad",
+				["overall"] = {
+				},
 			},
 			["Uwantcrayonz-Nagrand"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Uwantcrayonz-Nagrand",
 				["class"] = "DEMONHUNTER",
+				["name"] = "Uwantcrayonz-Nagrand",
+				["overall"] = {
+				},
 			},
 			["Orangecircle-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Orangecircle-Frostmourne",
 				["class"] = "SHAMAN",
+				["name"] = "Orangecircle-Frostmourne",
+				["overall"] = {
+				},
 			},
 			["Shamagon-Proudmoore"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 				["name"] = "Shamagon-Proudmoore",
+				["class"] = "SHAMAN",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Biggums-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Biggums-Frostmourne",
 				["class"] = "SHAMAN",
+				["name"] = "Biggums-Frostmourne",
+				["overall"] = {
+				},
 			},
 			["Twopenguins-Frostmourne"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Twopenguins-Frostmourne",
 				["class"] = "DRUID",
-			},
-			["Drbrad-Stormrage"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Drbrad-Stormrage",
+				["name"] = "Twopenguins-Frostmourne",
 				["overall"] = {
 				},
 			},
 			["Prøpel-Sargeras"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Prøpel-Sargeras",
 				["class"] = "MONK",
-			},
-			["Tayzonday-Frostmourne"] = {
+				["name"] = "Prøpel-Sargeras",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Tayzonday-Frostmourne",
-				["class"] = "DEMONHUNTER",
 			},
-			["Oakinon-Proudmoore"] = {
+			["Samoansage"] = {
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-				["name"] = "Oakinon-Proudmoore",
+				["class"] = "SHAMAN",
+				["name"] = "Samoansage",
 				["overall"] = {
 				},
 			},
 			["Dennislyland-Kel'Thuzad"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Dennislyland-Kel'Thuzad",
 				["class"] = "PALADIN",
+				["name"] = "Dennislyland-Kel'Thuzad",
+				["overall"] = {
+				},
 			},
-			["Samoansage"] = {
+			["Oakinon-Proudmoore"] = {
+				["name"] = "Oakinon-Proudmoore",
+				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
+			},
+			["Tayzonday-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Tayzonday-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Drbrad-Stormrage"] = {
+				["name"] = "Drbrad-Stormrage",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 		},
 		["diff"] = 15,
@@ -2051,180 +2467,180 @@ DeathGraphsDBDeaths = {
 		["id"] = "2405-15",
 		["player_db"] = {
 			["Aequs-AlteracMountains"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Aequs-AlteracMountains",
+				["class"] = "PALADIN",
 			},
 			["Pressurecook-Sargeras"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Pressurecook-Sargeras",
+				["class"] = "MAGE",
 			},
 			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
 			},
 			["Professorpwn-Gorgonnash"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Professorpwn-Gorgonnash",
+				["class"] = "WARRIOR",
 			},
 			["Zhor-Proudmoore"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Zhor-Proudmoore",
+				["class"] = "WARLOCK",
 			},
 			["Zelse-Proudmoore"] = {
-				["name"] = "Zelse-Proudmoore",
 				["class"] = "WARRIOR",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Zelse-Proudmoore",
 			},
 			["Charismá-Proudmoore"] = {
-				["name"] = "Charismá-Proudmoore",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Charismá-Proudmoore",
 			},
 			["Stélthknight-Barthilas"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Stélthknight-Barthilas",
-			},
-			["Kaleii-Gorgonnash"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kaleii-Gorgonnash",
-			},
-			["Samoansage"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Samoansage",
+				["class"] = "PALADIN",
 			},
 			["Mømentum-AlteracMountains"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Mømentum-AlteracMountains",
-			},
-			["Aneisa-Undermine"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aneisa-Undermine",
-			},
-			["Dárwynn-Proudmoore"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dárwynn-Proudmoore",
-			},
-			["Deckycain-Stormrage"] = {
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Deckycain-Stormrage",
-			},
-			["Gnapee-Balnazzar"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Gnapee-Balnazzar",
-			},
-			["Drbrad-Stormrage"] = {
-				["name"] = "Drbrad-Stormrage",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Dontnerfme-Dalaran"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dontnerfme-Dalaran",
 			},
 			["Snakpak-Proudmoore"] = {
-				["name"] = "Snakpak-Proudmoore",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Snakpak-Proudmoore",
 			},
-			["Floodie-Shandris"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
+			["Kaleii-Gorgonnash"] = {
 				["overall"] = {
 				},
-				["name"] = "Floodie-Shandris",
+				["deaths"] = {
+				},
+				["name"] = "Kaleii-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
 			},
-			["Oakinon-Proudmoore"] = {
-				["name"] = "Oakinon-Proudmoore",
-				["class"] = "HUNTER",
+			["Aneisa-Undermine"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Aneisa-Undermine",
+				["class"] = "HUNTER",
 			},
 			["Gadlyn-Proudmoore"] = {
-				["name"] = "Gadlyn-Proudmoore",
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gadlyn-Proudmoore",
+			},
+			["Deckycain-Stormrage"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Deckycain-Stormrage",
+				["class"] = "PRIEST",
+			},
+			["Gnapee-Balnazzar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gnapee-Balnazzar",
+				["class"] = "MONK",
+			},
+			["Drbrad-Stormrage"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Drbrad-Stormrage",
+			},
+			["Dontnerfme-Dalaran"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dontnerfme-Dalaran",
+				["class"] = "WARRIOR",
+			},
+			["Dárwynn-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dárwynn-Proudmoore",
+				["class"] = "PALADIN",
+			},
+			["Floodie-Shandris"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Floodie-Shandris",
+				["class"] = "HUNTER",
+			},
+			["Oakinon-Proudmoore"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Oakinon-Proudmoore",
+			},
+			["Samoansage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
 			},
 			["Carius-Balnazzar"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
 				["name"] = "Carius-Balnazzar",
+				["class"] = "DRUID",
 			},
 		},
 		["diff"] = 15,
@@ -2236,260 +2652,108 @@ DeathGraphsDBDeaths = {
 		["id"] = "2407-14",
 		["player_db"] = {
 			["Bearxen-Kel'Thuzad"] = {
-				["name"] = "Bearxen-Kel'Thuzad",
 				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Bearxen-Kel'Thuzad",
 			},
 			["Krimmzon"] = {
-				["name"] = "Krimmzon",
 				["class"] = "PALADIN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Krimmzon",
 			},
 			["Helregrinn-Velen"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Helregrinn-Velen",
+				["class"] = "PALADIN",
 			},
 			["Wolfshioh-Quel'Thalas"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Wolfshioh-Quel'Thalas",
+				["class"] = "WARRIOR",
 			},
 			["Paph-Stormrage"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Paph-Stormrage",
+				["class"] = "DEMONHUNTER",
 			},
 			["Mikehanchø-Sargeras"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Mikehanchø-Sargeras",
+				["class"] = "MAGE",
 			},
 			["Mâttyboomer-Stormrage"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Mâttyboomer-Stormrage",
+				["class"] = "DRUID",
 			},
 			["Sheidheda-Dragonblight"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Sheidheda-Dragonblight",
+				["class"] = "HUNTER",
 			},
 			["Sindra-Frostmourne"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Sindra-Frostmourne",
+				["class"] = "WARRIOR",
 			},
 			["Elantu-MoonGuard"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Elantu-MoonGuard",
+				["class"] = "PRIEST",
 			},
 			["Renethol-Stormrage"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Renethol-Stormrage",
+				["class"] = "PALADIN",
 			},
 			["Ignius-Alleria"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Ignius-Alleria",
+				["class"] = "WARLOCK",
 			},
 			["Twilightftw-Scilla"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Twilightftw-Scilla",
-			},
-			["Alorielyre-Proudmoore"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alorielyre-Proudmoore",
-			},
-			["Keyaleroin-Kel'Thuzad"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Keyaleroin-Kel'Thuzad",
-			},
-			["Pogies-Dalaran"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Pogies-Dalaran",
-			},
-			["Notocas-Garithos"] = {
-				["name"] = "Notocas-Garithos",
 				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Samoansage",
-			},
-			["Spiritthawk"] = {
-				["name"] = "Spiritthawk",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Toasterbath-Khaz'goroth"] = {
-				["name"] = "Toasterbath-Khaz'goroth",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kaatinga-Nemesis"] = {
-				["name"] = "Kaatinga-Nemesis",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mchamm-Frostmourne"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mchamm-Frostmourne",
-			},
-			["Maverik-BurningLegion"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Maverik-BurningLegion",
-			},
-			["Ravannastorm"] = {
-				["name"] = "Ravannastorm",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tørtilla-MoonGuard"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Tørtilla-MoonGuard",
-			},
-			["Analilia-Quel'Thalas"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Analilia-Quel'Thalas",
-			},
-			["Ownre"] = {
-				["name"] = "Ownre",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Honustustere"] = {
-				["name"] = "Honustustere",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Asho-Stormrage"] = {
-				["name"] = "Asho-Stormrage",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Qoraa-Hyjal"] = {
-				["name"] = "Qoraa-Hyjal",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Aerithrea-Eldre'Thalas"] = {
-				["name"] = "Aerithrea-Eldre'Thalas",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["name"] = "Octavialorn-Kael'thas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 			},
 			["Boommcgurt-Kel'Thuzad"] = {
 				["deaths"] = {
@@ -2498,13 +2762,165 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Boommcgurt-Kel'Thuzad",
 			},
-			["Sloane-Ghostlands"] = {
-				["name"] = "Sloane-Ghostlands",
-				["class"] = "DRUID",
+			["Octavialorn-Kael'thas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Pogies-Dalaran"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Pogies-Dalaran",
+				["class"] = "PRIEST",
+			},
+			["Notocas-Garithos"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Notocas-Garithos",
+			},
+			["Samoansage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
+			},
+			["Spiritthawk"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Spiritthawk",
+			},
+			["Asho-Stormrage"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Asho-Stormrage",
+			},
+			["Kaatinga-Nemesis"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kaatinga-Nemesis",
+			},
+			["Mchamm-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mchamm-Frostmourne",
+				["class"] = "WARRIOR",
+			},
+			["Maverik-BurningLegion"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Maverik-BurningLegion",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Ravannastorm"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ravannastorm",
+			},
+			["Tørtilla-MoonGuard"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tørtilla-MoonGuard",
+				["class"] = "PALADIN",
+			},
+			["Analilia-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Analilia-Quel'Thalas",
+				["class"] = "SHAMAN",
+			},
+			["Ownre"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ownre",
+			},
+			["Honustustere"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Honustustere",
+			},
+			["Toasterbath-Khaz'goroth"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Toasterbath-Khaz'goroth",
+			},
+			["Qoraa-Hyjal"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Qoraa-Hyjal",
+			},
+			["Aerithrea-Eldre'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Aerithrea-Eldre'Thalas",
+			},
+			["Keyaleroin-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Keyaleroin-Kel'Thuzad",
+				["class"] = "HUNTER",
+			},
+			["Alorielyre-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Alorielyre-Proudmoore",
+				["class"] = "DRUID",
+			},
+			["Sloane-Ghostlands"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sloane-Ghostlands",
 			},
 		},
 		["diff"] = 14,
@@ -2515,117 +2931,428 @@ DeathGraphsDBDeaths = {
 		["name"] = "Hungering Destroyer",
 		["id"] = "2383-15",
 		["player_db"] = {
-			["Bonappetite-KulTiras"] = {
-				["class"] = "HUNTER",
+			["Namini-Goldrinn"] = {
+				["name"] = "Namini-Goldrinn",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
+			},
+			["Notcreativee-Sargeras"] = {
+				["name"] = "Notcreativee-Sargeras",
+				["class"] = "MAGE",
 				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bham-Stormrage"] = {
+				["name"] = "Bham-Stormrage",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bonappetite-KulTiras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Bonappetite-KulTiras",
+				["class"] = "HUNTER",
 			},
 			["Itsdolomite-Proudmoore"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Itsdolomite-Proudmoore",
+				["class"] = "WARRIOR",
+			},
+			["Itadori-Mannoroth"] = {
+				["name"] = "Itadori-Mannoroth",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Dawnbreather-Stormrage"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dawnbreather-Stormrage",
 			},
 			["Irksumm"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Irksumm",
+				["class"] = "HUNTER",
 			},
 			["Conífera-Quel'Thalas"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Conífera-Quel'Thalas",
+				["class"] = "SHAMAN",
 			},
 			["Voidstress-Proudmoore"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 				["name"] = "Voidstress-Proudmoore",
+				["class"] = "MAGE",
 			},
-			["Ulyon-GrizzlyHills"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
+			["Severain-Bladefist"] = {
 				["overall"] = {
 				},
-				["name"] = "Ulyon-GrizzlyHills",
-			},
-			["Leris-KulTiras"] = {
+				["deaths"] = {
+				},
+				["name"] = "Severain-Bladefist",
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Leris-KulTiras",
 			},
-			["Odinsxshield-Bladefist"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Odinsxshield-Bladefist",
-			},
-			["Dreinara-Bladefist"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dreinara-Bladefist",
-			},
-			["Gnapee-Balnazzar"] = {
+			["Shingao-Stormrage"] = {
 				["class"] = "MONK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Gnapee-Balnazzar",
+				["name"] = "Shingao-Stormrage",
 			},
-			["Picklehammer-Proudmoore"] = {
-				["name"] = "Picklehammer-Proudmoore",
-				["class"] = "PALADIN",
+			["Guro-Alexstrasza"] = {
+				["name"] = "Guro-Alexstrasza",
+				["class"] = "DEATHKNIGHT",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+			},
+			["Amaius-Alexstrasza"] = {
+				["name"] = "Amaius-Alexstrasza",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mythrebrac-Alleria"] = {
+				["name"] = "Mythrebrac-Alleria",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Samoansage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
 			},
 			["Shamagon-Proudmoore"] = {
-				["name"] = "Shamagon-Proudmoore",
 				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shamagon-Proudmoore",
+			},
+			["Mephì-Sargeras"] = {
+				["name"] = "Mephì-Sargeras",
+				["class"] = "MAGE",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
+			},
+			["Leris-KulTiras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Leris-KulTiras",
+				["class"] = "DRUID",
+			},
+			["Odinsxshield-Bladefist"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Odinsxshield-Bladefist",
+				["class"] = "PALADIN",
+			},
+			["Picklehammer-Proudmoore"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Picklehammer-Proudmoore",
+			},
+			["Gnapee-Balnazzar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gnapee-Balnazzar",
+				["class"] = "MONK",
+			},
+			["Dreinara-Bladefist"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dreinara-Bladefist",
+				["class"] = "PRIEST",
+			},
+			["Ulyon-GrizzlyHills"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ulyon-GrizzlyHills",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Gadlyn-Proudmoore"] = {
-				["name"] = "Gadlyn-Proudmoore",
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gadlyn-Proudmoore",
+			},
+			["Warchyld-Bladefist"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Warchyld-Bladefist",
+				["class"] = "ROGUE",
+			},
+			["Brixlixdix-Blackrock"] = {
+				["name"] = "Brixlixdix-Blackrock",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
 			},
-			["Warchyld-Bladefist"] = {
-				["class"] = "ROGUE",
+			["Bringinlight-Velen"] = {
+				["name"] = "Bringinlight-Velen",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Syvek-Ragnaros"] = {
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Warchyld-Bladefist",
+				["name"] = "Syvek-Ragnaros",
+			},
+		},
+		["diff"] = 15,
+	},
+	["2418-14"] = {
+		["hash"] = "2418-14",
+		["type"] = "deaths",
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-14",
+		["player_db"] = {
+			["Atiarana-Caelestrasz"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Atiarana-Caelestrasz",
+			},
+			["Luzkansama-Frostmourne"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Luzkansama-Frostmourne",
+			},
+			["Laruke-Frostmourne"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Laruke-Frostmourne",
+			},
+			["Rainey-Frostmourne"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rainey-Frostmourne",
+			},
+			["Kurodachi-Frostmourne"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kurodachi-Frostmourne",
+			},
+			["Krimmzon"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Krimmzon",
+			},
+			["Føcus-Uldum"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Føcus-Uldum",
+			},
+			["Nytehuntress-Frostmourne"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nytehuntress-Frostmourne",
+			},
+			["Jiinna"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jiinna",
+			},
+			["Zanamii-Drakkari"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zanamii-Drakkari",
+			},
+			["Barbiekiller-Sargeras"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Barbiekiller-Sargeras",
+			},
+			["Khalemit-Frostmourne"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Khalemit-Frostmourne",
+			},
+			["Deliel-Frostmourne"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Deliel-Frostmourne",
+			},
+			["Apengxx-Frostmourne"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Apengxx-Frostmourne",
+			},
+			["Lardalys-Frostmourne"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lardalys-Frostmourne",
+			},
+			["Camothebest-Dalaran"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Camothebest-Dalaran",
+			},
+			["Särias-Proudmoore"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Särias-Proudmoore",
+			},
+			["Estoppella-Aman'Thul"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Estoppella-Aman'Thul",
+			},
+			["Fereldor-Skywall"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fereldor-Skywall",
+			},
+			["Coomboom-Proudmoore"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Coomboom-Proudmoore",
+			},
+			["Draedk-Frostmourne"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Draedk-Frostmourne",
+			},
+			["Kyralise"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kyralise",
+			},
+			["Süspêct-Blade'sEdge"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Süspêct-Blade'sEdge",
 			},
 			["Samoansage"] = {
 				["class"] = "SHAMAN",
@@ -2635,33 +3362,40 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Samoansage",
 			},
-			["Shingao-Stormrage"] = {
-				["name"] = "Shingao-Stormrage",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Severain-Bladefist"] = {
-				["class"] = "DRUID",
+			["Ownre"] = {
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Severain-Bladefist",
+				["name"] = "Ownre",
+			},
+			["Octavialorn-Kael'thas"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Octavialorn-Kael'thas",
+			},
+			["Nehva-Stormrage"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nehva-Stormrage",
+			},
+			["Silack-Frostmourne"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Silack-Frostmourne",
 			},
 		},
-		["diff"] = 15,
-	},
-	["2407-15"] = {
-		["hash"] = "2407-15",
-		["type"] = "deaths",
-		["name"] = "Sire Denathrius",
-		["id"] = "2407-15",
-		["player_db"] = {
-		},
-		["diff"] = 15,
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -2671,44 +3405,83 @@ DeathGraphsDBEndurance = {
 		["name"] = "Sludgefist",
 		["id"] = "2399-15",
 		["player_db"] = {
+			["Throvin-GrizzlyHills"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						218.2880000000005, -- [2]
+						"Crumbling Foundation |cFFFF3333298|r", -- [3]
+					}, -- [1]
+				},
+			},
 			["Chawnkytrog-Stormrage"] = {
 				["encounters"] = 7,
 				["points"] = 700,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Rightnut-Kel'Thuzad"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Zoharis-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
 			},
 			["Irônhead-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 7,
 				["points"] = 700,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Girthygimli-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+			},
+			["Ryuudin-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Omik-ArgentDawn"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						3, -- [1]
+						234.6219999999994, -- [2]
+						"Destructive Stomp |cFFFF333360,469|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Mickaela-TolBarad"] = {
 				["encounters"] = 4,
 				["points"] = 390,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -2716,25 +3489,25 @@ DeathGraphsDBEndurance = {
 						"Stonequake (DoT) |cFFFF3333654|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
 			["Allbadthing-Azgalor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Hopest-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Bodhidarman-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 180,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -2747,18 +3520,30 @@ DeathGraphsDBEndurance = {
 						"Destructive Stomp |cFFFF333363,671|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "MONK",
+			},
+			["Meathands-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						181.2829999999995, -- [2]
+						"Shattering Chain |cFFFF333398,045|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 7,
 				["points"] = 700,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Valuent-Terenas"] = {
 				["encounters"] = 4,
 				["points"] = 390,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -2766,11 +3551,18 @@ DeathGraphsDBEndurance = {
 						"Crumbling Foundation |cFFFF3333209|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
+			},
+			["Ssimoes-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 			},
 			["Pumpedupkixx-Alleria"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -2778,11 +3570,11 @@ DeathGraphsDBEndurance = {
 						"Destructive Stomp |cFFFF333360,545|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Duckphat-Proudmoore"] = {
 				["encounters"] = 4,
 				["points"] = 380,
+				["class"] = "ROGUE",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -2795,46 +3587,108 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333106,786|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "ROGUE",
 			},
 			["Hesj-Gallywix"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+			},
+			["Cheechnchong-Stormrage"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						32.86299999999756, -- [2]
+						"Chain Link |cFFFF3333842|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Deimosh-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						3, -- [1]
+						10.46099999998114, -- [2]
+						"Shattering Chain |cFFFF3333118,176|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Grëy-Hakkar"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 			},
 			["Foreseer-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+			},
+			["Jhacobo-Darkspear"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Kaladin-ScarletCrusade"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						4, -- [1]
+						184.4939999999988, -- [2]
+						"Giant Fists |cFFFF333321,918|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Ghorleo-Nagrand"] = {
 				["encounters"] = 7,
 				["points"] = 700,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Exne-Frostmourne"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Snakpak-Proudmoore"] = {
 				["encounters"] = 7,
 				["points"] = 700,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Donasocorro-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						10.55899999999929, -- [2]
+						"Shattering Chain |cFFFF333375,745|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Tayzonday-Frostmourne"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -2847,11 +3701,11 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333101,996|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 7,
 				["points"] = 670,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -2869,18 +3723,32 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333396,989|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "MONK",
+			},
+			["Yukalt-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
 			},
 			["Kataredelsia-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Christinaix-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
 			},
 			["Metasabre-Bladefist"] = {
 				["encounters"] = 4,
 				["points"] = 390,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -2888,25 +3756,49 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333384,956|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Mephetran-Moonrunner"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Lexxsteele-Frostmourne"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+			},
+			["Malcyna-EarthenRing"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						247.2580000000016, -- [2]
+						"Shattering Chain |cFFFF333364,936|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ettezil-Ragnaros"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						3, -- [1]
+						247.2580000000016, -- [2]
+						"Shattering Chain |cFFFF333367,517|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 7,
 				["points"] = 680,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -2919,18 +3811,60 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333394,478|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "SHAMAN",
+			},
+			["Berrexion-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						10.55899999999929, -- [2]
+						"Shattering Chain |cFFFF3333108,471|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mysticaim-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Inscrïbed-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						10.55899999999929, -- [2]
+						"Shattering Chain |cFFFF333387,621|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Akelia-Kael'thas"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						1.680999999982305, -- [2]
+						"Melee |cFFFF333326,074|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Azirria-Trollbane"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						6, -- [1]
@@ -2938,11 +3872,68 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333102,071|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+			},
+			["Garobber-Eitrigg"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Mystry-Hakkar"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						126.0049999999974, -- [2]
+						"Shattering Chain |cFFFF333395,607|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ronnielock-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Astholfo-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Oakinon-Proudmoore"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						24.85999999998603, -- [2]
+						"Shattering Chain |cFFFF333396,266|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Disbastic-Lightbringer"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						126.0049999999974, -- [2]
+						"Shattering Chain |cFFFF333395,528|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Sirphantom-Sargeras"] = {
 				["encounters"] = 4,
 				["points"] = 370,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -2960,56 +3951,68 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333386,465|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "PALADIN",
 			},
-			["Sunbb-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Archedemus-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
-			["Ravendare-Proudmoore"] = {
+			["Wârwôlf-Anvilmar"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 			},
-			["Cheechnchong-Stormrage"] = {
-				["encounters"] = 4,
-				["points"] = 390,
+			["Shamnok-Stormrage"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
-						2, -- [1]
-						32.86299999999756, -- [2]
-						"Chain Link |cFFFF3333842|r", -- [3]
+						5, -- [1]
+						119.4070000000065, -- [2]
+						"Destructive Stomp |cFFFF333352,475|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
+			},
+			["Hyungmindad-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 380,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						38.46400000000722, -- [2]
+						"Shattering Chain |cFFFF3333104,226|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						90.74499999999534, -- [2]
+						"Shattering Chain |cFFFF3333104,226|r", -- [3]
+					}, -- [2]
+				},
 			},
 			["Ázeal-Frostmourne"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["deaths"] = {
-				},
 				["class"] = "PRIEST",
-			},
-			["Zerenaloo-Daggerspine"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["deaths"] = {
-					{
-						5, -- [1]
-						131.4770000000135, -- [2]
-						"Destructive Impact |cFFFF333320,214|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "HUNTER",
+			},
+			["Calidoria-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 			},
 			["Samoansage"] = {
-				["encounters"] = 15,
-				["points"] = 1480,
+				["encounters"] = 19,
+				["points"] = 1880,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3022,18 +4025,18 @@ DeathGraphsDBEndurance = {
 						"Stonequake (DoT) |cFFFF3333631|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Calidoria-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Akukaos-Eonar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Darkody-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -3041,18 +4044,18 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333385,150|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Måd-Uldaman"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Ærilon-Proudmoore"] = {
 				["encounters"] = 6,
 				["points"] = 580,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3065,273 +4068,11 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333382,120|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "PALADIN",
-			},
-			["Gadlyn-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						179.3999999999942, -- [2]
-						"Shattering Chain |cFFFF333394,256|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Oakinon-Proudmoore"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						1, -- [1]
-						24.85999999998603, -- [2]
-						"Shattering Chain |cFFFF333396,266|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Dennislyland-Kel'Thuzad"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Homiebro-Kel'Thuzad"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Memedreamer-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Orangecircle-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Critia-Maelstrom"] = {
-				["encounters"] = 7,
-				["points"] = 680,
-				["deaths"] = {
-					{
-						3, -- [1]
-						10.56099999998696, -- [2]
-						"Shattering Chain |cFFFF3333116,494|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						96.23099999999977, -- [2]
-						"Shattering Chain |cFFFF3333120,096|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "PRIEST",
-			},
-			["Mongoline-Windrunner"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Biggums-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Frmkk-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["deaths"] = {
-					{
-						5, -- [1]
-						125.8999999999942, -- [2]
-						"Shattering Chain |cFFFF333399,982|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						4.048999999999069, -- [2]
-						"Giant Fists |cFFFF333327,532|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["January-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Metacognize-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Høneyß-Tichondrius"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Cigr-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Rejuvanate-Caelestrasz"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Zelse-Proudmoore"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Charismá-Proudmoore"] = {
-				["encounters"] = 7,
-				["points"] = 700,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["deaths"] = {
-					{
-						1, -- [1]
-						1.680999999982305, -- [2]
-						"Melee |cFFFF333326,074|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Deimosh-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						10.46099999998114, -- [2]
-						"Shattering Chain |cFFFF3333118,176|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Syldinaris-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Silvazoldyck-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["deaths"] = {
-					{
-						1, -- [1]
-						10.92700000002515, -- [2]
-						"Shattering Chain |cFFFF3333101,845|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						235.9370000000345, -- [2]
-						"Destructive Stomp |cFFFF333369,732|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "MONK",
-			},
-			["Prøpel-Sargeras"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Thisforpride-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Drbrad-Stormrage"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						4, -- [1]
-						108.8249999999825, -- [2]
-						"Colossal Roar |cFFFF333313,457|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						109.4429999999993, -- [2]
-						"Shattering Chain |cFFFF3333111,512|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "MAGE",
-			},
-			["Slnkthegreat-Stormrage"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["deaths"] = {
-					{
-						5, -- [1]
-						47.35899999999674, -- [2]
-						"Shattering Chain |cFFFF333379,446|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Drkladykikyo-Anvilmar"] = {
-				["encounters"] = 4,
-				["points"] = 370,
-				["deaths"] = {
-					{
-						4, -- [1]
-						96.23099999999977, -- [2]
-						"Crumbling Foundation |cFFFF3333270|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						109.4429999999993, -- [2]
-						"Colossal Roar |cFFFF33339,579|r", -- [3]
-					}, -- [2]
-					{
-						6, -- [1]
-						179.6150000000198, -- [2]
-						"Crumbling Foundation |cFFFF3333446|r", -- [3]
-					}, -- [3]
-				},
-				["class"] = "PRIEST",
 			},
 			["Azztta-Frostmourne"] = {
 				["encounters"] = 5,
 				["points"] = 470,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3349,57 +4090,298 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333102,320|r", -- [3]
 					}, -- [3]
 				},
+			},
+			["Drkladykikyo-Anvilmar"] = {
+				["encounters"] = 4,
+				["points"] = 370,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						4, -- [1]
+						96.23099999999977, -- [2]
+						"Crumbling Foundation |cFFFF3333270|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						109.4429999999993, -- [2]
+						"Colossal Roar |cFFFF33339,579|r", -- [3]
+					}, -- [2]
+					{
+						6, -- [1]
+						179.6150000000198, -- [2]
+						"Crumbling Foundation |cFFFF3333446|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Dennislyland-Kel'Thuzad"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Homiebro-Kel'Thuzad"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Frmkk-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						5, -- [1]
+						125.8999999999942, -- [2]
+						"Shattering Chain |cFFFF333399,982|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						4.048999999999069, -- [2]
+						"Giant Fists |cFFFF333327,532|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Orangecircle-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Critia-Maelstrom"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						10.56099999998696, -- [2]
+						"Shattering Chain |cFFFF3333116,494|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						96.23099999999977, -- [2]
+						"Shattering Chain |cFFFF3333120,096|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Mongoline-Windrunner"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Biggums-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Memedreamer-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Drbrad-Stormrage"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						4, -- [1]
+						108.8249999999825, -- [2]
+						"Colossal Roar |cFFFF333313,457|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						109.4429999999993, -- [2]
+						"Shattering Chain |cFFFF3333111,512|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Metacognize-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Høneyß-Tichondrius"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Prøpel-Sargeras"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mischieff-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Zelse-Proudmoore"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Charismá-Proudmoore"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Silvazoldyck-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						10.92700000002515, -- [2]
+						"Shattering Chain |cFFFF3333101,845|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						235.9370000000345, -- [2]
+						"Destructive Stomp |cFFFF333369,732|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Syldinaris-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Limlock-Onyxia"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Rejuvanate-Caelestrasz"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Cigr-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Thisforpride-Frostmourne"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["January-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Slnkthegreat-Stormrage"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						5, -- [1]
+						47.35899999999674, -- [2]
+						"Shattering Chain |cFFFF333379,446|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rubinhud-Gallywix"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gadlyn-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						179.3999999999942, -- [2]
+						"Shattering Chain |cFFFF333394,256|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Jakeakuma-Kael'thas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 			},
-			["Akukaos-Eonar"] = {
+			["Zerenaloo-Daggerspine"] = {
 				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Hyungmindad-Frostmourne"] = {
-				["encounters"] = 4,
-				["points"] = 380,
-				["deaths"] = {
-					{
-						3, -- [1]
-						38.46400000000722, -- [2]
-						"Shattering Chain |cFFFF3333104,226|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						90.74499999999534, -- [2]
-						"Shattering Chain |cFFFF3333104,226|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Shamnok-Stormrage"] = {
-				["encounters"] = 7,
-				["points"] = 690,
+				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						5, -- [1]
-						119.4070000000065, -- [2]
-						"Destructive Stomp |cFFFF333352,475|r", -- [3]
+						131.4770000000135, -- [2]
+						"Destructive Impact |cFFFF333320,214|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Wârwôlf-Anvilmar"] = {
+			["Sonatahunt-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						181.2829999999995, -- [2]
+						"Shattering Chain |cFFFF333394,815|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ravendare-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+			},
+			["Sunbb-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
 			},
 		},
 		["diff"] = 15,
@@ -3413,69 +4395,70 @@ DeathGraphsDBEndurance = {
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Frannaie-MoonGuard"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Zelse-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Trogdortb-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Chaoticdeath-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3483,46 +4466,32 @@ DeathGraphsDBEndurance = {
 						"Waltz of Blood |cFFFF333310,041|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
-			["Shingao-Stormrage"] = {
+			["Shamnok-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Høneyß-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Ghorleo-Nagrand"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
-			},
-			["Gadlyn-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3530,46 +4499,60 @@ DeathGraphsDBEndurance = {
 						"Dark Recital |cFFFF333310,253|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
+			},
+			["Gadlyn-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ghorleo-Nagrand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
 			},
 			["Samoansage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Snakpak-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Måd-Uldaman"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Oakinon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
-			["Shamnok-Stormrage"] = {
+			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Ærilon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3577,7 +4560,6 @@ DeathGraphsDBEndurance = {
 						"Dark Recital |cFFFF333311,774|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 		},
 		["diff"] = 15,
@@ -3591,6 +4573,7 @@ DeathGraphsDBEndurance = {
 			["Geekylock-Gurubashi"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -3598,11 +4581,11 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF33335,675|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARLOCK",
 			},
 			["Fereldor-Skywall"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -3615,11 +4598,11 @@ DeathGraphsDBEndurance = {
 						"Lingering Anima (DoT) |cFFFF33335,063|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "HUNTER",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -3627,11 +4610,11 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333317,085|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Süspêct-Blade'sEdge"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -3639,25 +4622,25 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333318,995|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Jiinna"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Shinimaguinf-Agamaggan"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Barbiekiller-Sargeras"] = {
 				["encounters"] = 5,
 				["points"] = 480,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3670,11 +4653,11 @@ DeathGraphsDBEndurance = {
 						"Loose Anima (DoT) |cFFFF33331,686|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "HUNTER",
 			},
 			["Bairdran-Dawnbringer"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -3682,25 +4665,25 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF33333,789|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Edgeasaures-Barthilas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DEMONHUNTER",
-			},
-			["Palannegros-Nemesis"] = {
-				["encounters"] = 5,
-				["points"] = 500,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Mctanky-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
 			},
 			["Tomatoa-Lightbringer"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3708,11 +4691,11 @@ DeathGraphsDBEndurance = {
 						"Loose Anima |cFFFF3333263|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Nehva-Stormrage"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3720,23 +4703,18 @@ DeathGraphsDBEndurance = {
 						"Indemnification (DoT) |cFFFF33334,359|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARRIOR",
 			},
-			["Ownre"] = {
+			["Serrennitty-Proudmoore"] = {
 				["encounters"] = 5,
-				["points"] = 490,
+				["points"] = 500,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
-					{
-						2, -- [1]
-						232.8889999999956, -- [2]
-						"Loose Anima (DoT) |cFFFF33331,593|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "ROGUE",
 			},
 			["Ezslick-Proudmoore"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3744,11 +4722,25 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33334,984|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+			},
+			["Kyralise"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Miauriaa-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
 			},
 			["Honustustere"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -3756,32 +4748,18 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333318,761|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Miauriaa-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Kyralise"] = {
+			["Särias-Proudmoore"] = {
 				["encounters"] = 5,
 				["points"] = 500,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Camothebest-Dalaran"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Samoansage"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -3789,18 +4767,18 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333310,287|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Särias-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+			["Camothebest-Dalaran"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 5,
 				["points"] = 490,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -3808,24 +4786,37 @@ DeathGraphsDBEndurance = {
 						"Loose Anima (DoT) |cFFFF3333933|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
-			["Serrennitty-Proudmoore"] = {
+			["Ownre"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						232.8889999999956, -- [2]
+						"Loose Anima (DoT) |cFFFF33331,593|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Palannegros-Nemesis"] = {
 				["encounters"] = 5,
 				["points"] = 500,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Mctanky-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
 			},
 		},
 		["diff"] = 14,
+	},
+	["2405-16"] = {
+		["hash"] = "2405-16",
+		["type"] = "endurance",
+		["name"] = "Artificer Xy'mox",
+		["id"] = "2405-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
 	},
 	["2417-14"] = {
 		["hash"] = "2417-14",
@@ -3836,102 +4827,98 @@ DeathGraphsDBEndurance = {
 			["Bearxen-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Aztreya-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Hoyce-Quel'dorei"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Lovelighter-Trollbane"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Wîca-Alleria"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Asho-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Notocas-Garithos"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Faganjohnson-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Ravannastorm"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Kaatinga-Nemesis"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["deaths"] = {
-					{
-						1, -- [1]
-						345.7420000000002, -- [2]
-						"Seismic Upheaval |cFFFF33333,851|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Samoansage"] = {
+			["Toasterbath-Khaz'goroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+			},
+			["Qoraa-Hyjal"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Ownre"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Honustustere"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3939,11 +4926,11 @@ DeathGraphsDBEndurance = {
 						"Shattering Shockwave |cFFFF33333,348|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Spiritthawk"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -3951,42 +4938,46 @@ DeathGraphsDBEndurance = {
 						"Echoing Annihilation |cFFFF333351,941|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
-			["Qoraa-Hyjal"] = {
+			["Samoansage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Aerithrea-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
-			["Toasterbath-Khaz'goroth"] = {
+			["Kaatinga-Nemesis"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
+					{
+						1, -- [1]
+						345.7420000000002, -- [2]
+						"Seismic Upheaval |cFFFF33333,851|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
 			["Sloane-Ghostlands"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 		},
 		["diff"] = 14,
@@ -4000,20 +4991,21 @@ DeathGraphsDBEndurance = {
 			["Aequs-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["Pressurecook-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4021,61 +5013,59 @@ DeathGraphsDBEndurance = {
 						"Concussive Smash |cFFFF33335,736|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Floodie-Shandris"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Sinfullways-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Aneisa-Undermine"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Gnapee-Balnazzar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Samoansage"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -4083,66 +5073,68 @@ DeathGraphsDBEndurance = {
 						"Lingering Embers (DoT) |cFFFF33331,389|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "SHAMAN",
 			},
 			["Razîel-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Carius-Balnazzar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Professorpwn-Gorgonnash"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Zhor-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Zelse-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4150,63 +5142,83 @@ DeathGraphsDBEndurance = {
 						"Crimson Flurry |cFFFF3333980|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Stélthknight-Barthilas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Éitak-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Lycanthat-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Mømentum-AlteracMountains"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Høneyß-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Bloodshrike-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Sathellia-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
-			["Gadlyn-Proudmoore"] = {
+			["Kaleii-Gorgonnash"] = {
 				["encounters"] = 1,
 				["points"] = 90,
 				["deaths"] = {
 					{
-						1, -- [1]
-						130.4220000000205, -- [2]
-						"Ember Blast |cFFFF333399,277|r", -- [3]
+						2, -- [1]
+						312.3470000000089, -- [2]
+						"Ember Blast |cFFFF333347,061|r", -- [3]
 					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Lycanthat-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Mømentum-AlteracMountains"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Høneyß-Tichondrius"] = {
+			["Snakpak-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Bloodshrike-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Sathellia-Stormrage"] = {
+			["Dárwynn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -4216,55 +5228,34 @@ DeathGraphsDBEndurance = {
 			["Ærilon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Dárwynn-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "PALADIN",
 				["deaths"] = {
-				},
-			},
-			["Snakpak-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Kaleii-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						2, -- [1]
-						312.3470000000089, -- [2]
-						"Ember Blast |cFFFF333347,061|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Oakinon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Éitak-Proudmoore"] = {
+			["Gadlyn-Proudmoore"] = {
 				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
+				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
+					{
+						1, -- [1]
+						130.4220000000205, -- [2]
+						"Ember Blast |cFFFF333399,277|r", -- [3]
+					}, -- [1]
 				},
 			},
 		},
@@ -4279,102 +5270,163 @@ DeathGraphsDBEndurance = {
 			["Aequs-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+			},
+			["Amaius-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Notcreativee-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
 			},
 			["Pressurecook-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+			},
+			["Syvek-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Guro-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Floodie-Shandris"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Aneisa-Undermine"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Gnapee-Balnazzar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Dontnerfme-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Samoansage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
+				["encounters"] = 3,
+				["points"] = 300,
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Dreadedpunk-Arthas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Razîel-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Carius-Balnazzar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Éitak-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Namini-Goldrinn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Oakinon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						257.1149999999907, -- [2]
+						"Sinseeker (DoT) |cFFFF33334,317|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Måelstrom-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Bham-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
@@ -4384,46 +5436,147 @@ DeathGraphsDBEndurance = {
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mythrebrac-Alleria"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Itadori-Mannoroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
 			},
+			["Dawnbreather-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						246.8760000000002, -- [2]
+						"Sinseeker (DoT) |cFFFF33334,382|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
 			["Professorpwn-Gorgonnash"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARRIOR",
+			},
+			["Gadlyn-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
 			["Zhor-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+			},
+			["Snakpak-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Mephì-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						204.9430000000002, -- [2]
+						"Deathly Roar |cFFFF33334,552|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
 			},
 			["Zelse-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Stélthknight-Barthilas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Solfondor-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Mømentum-AlteracMountains"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Kaleii-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Ærilon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Høneyß-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Sathellia-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
@@ -4433,55 +5586,6 @@ DeathGraphsDBEndurance = {
 			["Dallaana-Nagrand"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Kaleii-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Mømentum-AlteracMountains"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Høneyß-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ærilon-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Sathellia-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Dárwynn-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "PALADIN",
 				["deaths"] = {
 				},
@@ -4489,49 +5593,44 @@ DeathGraphsDBEndurance = {
 			["Krakmagic-Aman'Thul"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
 			},
-			["Snakpak-Proudmoore"] = {
+			["Dárwynn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "PALADIN",
 			},
-			["Gadlyn-Proudmoore"] = {
+			["Blanc-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "PRIEST",
 			},
-			["Oakinon-Proudmoore"] = {
+			["Brixlixdix-Blackrock"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						257.1149999999907, -- [2]
-						"Sinseeker (DoT) |cFFFF33334,317|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "HUNTER",
+				["class"] = "PRIEST",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Éitak-Proudmoore"] = {
+			["Bringinlight-Velen"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 		},
 		["diff"] = 15,
@@ -4545,13 +5644,14 @@ DeathGraphsDBEndurance = {
 			["Geekylock-Gurubashi"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Fereldor-Skywall"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4559,107 +5659,102 @@ DeathGraphsDBEndurance = {
 						"Volatile Ejection |cFFFF333329,986|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Süspêct-Blade'sEdge"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Jiinna"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Shinimaguinf-Agamaggan"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Barbiekiller-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Edgeasaures-Barthilas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Tomatoa-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Nehva-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Ezslick-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
-			["Honustustere"] = {
+			["Serrennitty-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Ownre"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Kyralise"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Palannegros-Nemesis"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["deaths"] = {
-					{
-						1, -- [1]
-						90.85800000000745, -- [2]
-						"Volatile Ejection |cFFFF333331,447|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "PALADIN",
+			},
+			["Särias-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Samoansage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4667,35 +5762,39 @@ DeathGraphsDBEndurance = {
 						"Volatile Ejection |cFFFF333329,936|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Camothebest-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "MAGE",
-			},
-			["Särias-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Serrennitty-Proudmoore"] = {
+			["Palannegros-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						90.85800000000745, -- [2]
+						"Volatile Ejection |cFFFF333331,447|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Honustustere"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 		},
 		["diff"] = 14,
@@ -4709,7 +5808,6 @@ DeathGraphsDBEndurance = {
 			["Aequs-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4717,59 +5815,61 @@ DeathGraphsDBEndurance = {
 						"Loose Anima |cFFFF3333381|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PALADIN",
 			},
 			["Pressurecook-Sargeras"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Floodie-Shandris"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Aneisa-Undermine"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Gnapee-Balnazzar"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4777,40 +5877,38 @@ DeathGraphsDBEndurance = {
 						"Unleashed Volatility |cFFFF333320,122|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
 			["Dontnerfme-Dalaran"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Gadlyn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Dreadedpunk-Arthas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Razîel-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Carius-Balnazzar"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4818,52 +5916,54 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333314,921|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Professorpwn-Gorgonnash"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Zhor-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Zelse-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4871,25 +5971,17 @@ DeathGraphsDBEndurance = {
 						"Unleashed Volatility |cFFFF333319,547|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Stélthknight-Barthilas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
-			["Dallaana-Nagrand"] = {
+			["Chaoticdeath-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Kaleii-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
@@ -4897,7 +5989,6 @@ DeathGraphsDBEndurance = {
 			["Mømentum-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -4905,46 +5996,53 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333325,649|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
+			},
+			["Kaleii-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Éitak-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Høneyß-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "DRUID",
-			},
-			["Ærilon-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Samoansage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
 			},
 			["Sathellia-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
-			["Dárwynn-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
+			["Snakpak-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
 			["Krakmagic-Aman'Thul"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -4952,41 +6050,42 @@ DeathGraphsDBEndurance = {
 						"Loose Anima |cFFFF33331,107|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MAGE",
 			},
-			["Snakpak-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Dárwynn-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "PALADIN",
 			},
-			["Samoansage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "SHAMAN",
+			["Ærilon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
 			["Oakinon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Chaoticdeath-Sargeras"] = {
+			["Dallaana-Nagrand"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 		},
 		["diff"] = 15,
@@ -5000,34 +6099,35 @@ DeathGraphsDBEndurance = {
 			["Luchadore"] = {
 				["encounters"] = 6,
 				["points"] = 600,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Tunasat-Thunderlord"] = {
 				["encounters"] = 6,
 				["points"] = 600,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Bearxen-Kel'Thuzad"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Aztreya-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Hoyce-Quel'dorei"] = {
 				["encounters"] = 3,
 				["points"] = 270,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5045,19 +6145,17 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333386,389|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "PALADIN",
 			},
 			["Lovelighter-Trollbane"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 10,
 				["points"] = 920,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5095,17 +6193,19 @@ DeathGraphsDBEndurance = {
 						"Destructive Stomp |cFFFF333338,748|r", -- [3]
 					}, -- [7]
 				},
+				["class"] = "PALADIN",
 			},
 			["Wîca-Alleria"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Asho-Stormrage"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5113,12 +6213,10 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333397,713|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Reath"] = {
 				["encounters"] = 6,
 				["points"] = 560,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5141,25 +6239,25 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333386,996|r", -- [3]
 					}, -- [4]
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Kaedwyn-ShadowCouncil"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Kirron-AeriePeak"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Inoquen-Stormrage"] = {
 				["encounters"] = 6,
 				["points"] = 590,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -5167,17 +6265,19 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333384,967|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Jbprimero-Feathermoon"] = {
 				["encounters"] = 6,
 				["points"] = 600,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Spiritthawk"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -5185,19 +6285,17 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333111,509|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
 			["Samoansage"] = {
 				["encounters"] = 9,
 				["points"] = 900,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Weldmentz"] = {
 				["encounters"] = 6,
 				["points"] = 580,
-				["class"] = "MONK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -5210,59 +6308,61 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33336,254|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "MONK",
 			},
 			["Draciel"] = {
 				["encounters"] = 6,
 				["points"] = 600,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Plagueman-Stormrage"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Toasterbath-Khaz'goroth"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Kaatinga-Nemesis"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Notocas-Garithos"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
-			["Noegrus-ShadowCouncil"] = {
+			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
 			["Wiskbiscuit-EarthenRing"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Faganjohnson-Sargeras"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -5270,19 +6370,17 @@ DeathGraphsDBEndurance = {
 						"Stonequake (DoT) |cFFFF3333571|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
-			["Wildprophêt"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "MONK",
+			["Firemages-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
 			["Spiritthorse"] = {
 				["encounters"] = 6,
 				["points"] = 590,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						6, -- [1]
@@ -5290,11 +6388,11 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF333389,052|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PALADIN",
 			},
 			["Raquaza-Gorefiend"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -5302,25 +6400,25 @@ DeathGraphsDBEndurance = {
 						"Destructive Impact |cFFFF333314,877|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Ravannastorm"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Kendräk-Gallywix"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Vanddar-EarthenRing"] = {
 				["encounters"] = 2,
 				["points"] = 180,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5333,10 +6431,12 @@ DeathGraphsDBEndurance = {
 						"Destructive Stomp |cFFFF333352,336|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "DRUID",
 			},
 			["Ownre"] = {
 				["encounters"] = 3,
 				["points"] = 270,
+				["class"] = "ROGUE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5354,56 +6454,55 @@ DeathGraphsDBEndurance = {
 						"Shattering Chain |cFFFF3333105,988|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "ROGUE",
 			},
 			["Honustustere"] = {
 				["encounters"] = 9,
 				["points"] = 900,
+				["deaths"] = {
+				},
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 			},
-			["Firemages-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Wildprophêt"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "MONK",
 			},
 			["Qoraa-Hyjal"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Aerithrea-Eldre'Thalas"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Octavialorn-Kael'thas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Guavajelly-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
-			["Sloane-Ghostlands"] = {
+			["Noegrus-ShadowCouncil"] = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["deaths"] = {
 				},
 				["class"] = "DRUID",
+			},
+			["Guavajelly-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Sloane-Ghostlands"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 		},
 		["diff"] = 14,
@@ -5417,34 +6516,35 @@ DeathGraphsDBEndurance = {
 			["Atiarana-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Luchadore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Tunasat-Thunderlord"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Spiritthorse"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Rainey-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5452,128 +6552,123 @@ DeathGraphsDBEndurance = {
 						"Murder Prey |cFFFF333384,113|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Føcus-Uldum"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "MONK",
-			},
-			["Uglas-Dath'Remar"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["deaths"] = {
-					{
-						1, -- [1]
-						148.9830000000002, -- [2]
-						"Earsplitting Shriek |cFFFF333310,460|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "HUNTER",
+			},
+			["Sloane-Ghostlands"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Wîca-Alleria"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Wiskbiscuit-EarthenRing"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Reath"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Laruke-Frostmourne"] = {
+			["Vanddar-EarthenRing"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Deliel-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Apengxx-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Lardalys-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Asho-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Inoquen-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Särias-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Estoppella-Aman'Thul"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "PALADIN",
-			},
-			["Uler-Shu'halo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Jbprimero-Feathermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+			},
+			["Uler-Shu'halo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 			},
 			["Draedk-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5581,79 +6676,74 @@ DeathGraphsDBEndurance = {
 						"Murder Prey |cFFFF333378,316|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Spiritthawk"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Wàrßladés-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Kendräk-Gallywix"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Wàrßladés-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
 			},
 			["Ñíxx-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Luzkansama-Frostmourne"] = {
+			["Bearxen-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Weldmentz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "MONK",
-			},
-			["Honustustere"] = {
-				["encounters"] = 3,
-				["points"] = 290,
 				["deaths"] = {
-					{
-						1, -- [1]
-						245.0199999999895, -- [2]
-						"Wave of Blood |cFFFF33331,569|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
+			},
+			["Kyralise"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Silack-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Draciel"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Hoyce-Quel'dorei"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5661,32 +6751,18 @@ DeathGraphsDBEndurance = {
 						"Murder Prey |cFFFF333373,401|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Fereldor-Skywall"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Pennelo-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-			},
-			["Firemages-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
 			},
 			["Kurodachi-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5694,46 +6770,60 @@ DeathGraphsDBEndurance = {
 						"Earsplitting Shriek |cFFFF33332,155|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
+			},
+			["Pennelo-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Dashingheals-Whisperwind"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
 			},
 			["Raquaza-Gorefiend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
-			["Plagueman-Stormrage"] = {
+			["Firemages-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Nytehuntress-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Palannegros-Nemesis"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Zanamii-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Barbiekiller-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5741,116 +6831,121 @@ DeathGraphsDBEndurance = {
 						"Sanguine Ichor |cFFFF33333,267|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Faganjohnson-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Khalemit-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Geekylock-Gurubashi"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-			},
-			["Camothebest-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Süspêct-Blade'sEdge"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
 			},
 			["Amilyia-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+			},
+			["Süspêct-Blade'sEdge"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Camothebest-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Geekylock-Gurubashi"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 			},
 			["Notocas-Garithos"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Serrennitty-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Ravannastorm"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Wildprophêt"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Dashingheals-Whisperwind"] = {
+			["Plagueman-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Ownre"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["deaths"] = {
-				},
 				["class"] = "ROGUE",
-			},
-			["Kyralise"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
+			},
+			["Honustustere"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						245.0199999999895, -- [2]
+						"Wave of Blood |cFFFF33331,569|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Luzkansama-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "DRUID",
-			},
-			["Bearxen-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
-			["Samoansage"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Spiritthawk"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Aerithrea-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -5858,28 +6953,32 @@ DeathGraphsDBEndurance = {
 						"Earsplitting Shriek |cFFFF333310,601|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "MAGE",
-			},
-			["Vanddar-EarthenRing"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Sloane-Ghostlands"] = {
+			["Laruke-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Uglas-Dath'Remar"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						148.9830000000002, -- [2]
+						"Earsplitting Shriek |cFFFF333310,460|r", -- [3]
+					}, -- [1]
+				},
 			},
 		},
 		["diff"] = 14,
@@ -5890,16 +6989,235 @@ DeathGraphsDBEndurance = {
 		["name"] = "Stone Legion Generals",
 		["id"] = "2417-15",
 		["player_db"] = {
-			["Chawnkytrog-Stormrage"] = {
+			["Hýde-Greymane"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
+			},
+			["Mephetran-Moonrunner"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Shamagon-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						92.68599999998696, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33339,918|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rhaenýs-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						87.30500000000029, -- [2]
+						"Wicked Blast |cFFFF333315,077|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						54.34600000000137, -- [2]
+						"Wicked Blast |cFFFF333315,077|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Sacerdotemis-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Arislynn-Tanaris"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Picklehammer-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Azirria-Trollbane"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lokeitos-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						303.5450000000001, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33332,766|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Arodore-WyrmrestAccord"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Obsessedwith-Tanaris"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Sílfanas-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Thandlius-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Leivatron-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Malthanor-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						350.5570000000007, -- [2]
+						"Echoing Annihilation |cFFFF333368,378|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 8,
+				["points"] = 780,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						287.3710000000137, -- [2]
+						"Seismic Upheaval |cFFFF333311,146|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						322.1839999999993, -- [2]
+						"Echoing Annihilation |cFFFF333383,941|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Calidoria-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Legoki-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Zelse-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						3, -- [1]
+						413.9710000000196, -- [2]
+						"Echoing Annihilation |cFFFF333314,366|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Arper-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Blackmit-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Taarzaan-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Cesarhunter-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Måelstrom-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Rãzor-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						5, -- [1]
+						351.985999999999, -- [2]
+						"Echoing Annihilation |cFFFF333385,227|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						428.1840000000011, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33335,855|r", -- [3]
+					}, -- [2]
+				},
 			},
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -5907,11 +7225,11 @@ DeathGraphsDBEndurance = {
 						"Echoing Annihilation |cFFFF333382,115|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 3,
 				["points"] = 280,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -5924,56 +7242,96 @@ DeathGraphsDBEndurance = {
 						"Wicked Blast |cFFFF333314,588|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "PRIEST",
 			},
-			["Shamagon-Proudmoore"] = {
+			["Immakin-Tanaris"] = {
 				["encounters"] = 3,
-				["points"] = 290,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Semiazos-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
-						92.68599999998696, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33339,918|r", -- [3]
+						87.45100000000093, -- [2]
+						"Wicked Blast |cFFFF333312,192|r", -- [3]
 					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Picklehammer-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Azirria-Trollbane"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Zelse-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
 					{
 						3, -- [1]
-						413.9710000000196, -- [2]
-						"Echoing Annihilation |cFFFF333314,366|r", -- [3]
+						54.34600000000137, -- [2]
+						"Wicked Blast |cFFFF333312,192|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Gílgamesh-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						5, -- [1]
+						209.6999999999989, -- [2]
+						"Pulverizing Meteor |cFFFF333310,212|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARRIOR",
+			},
+			["Cimmaraya-Tanaris"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Douglhashunt-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Dunkelzhan-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Zeddzicus-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Tommydemonic-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Wârwôlf-Anvilmar"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Chaoticdeath-Sargeras"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -5981,58 +7339,75 @@ DeathGraphsDBEndurance = {
 						"Echoing Annihilation |cFFFF333381,532|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Wârwôlf-Anvilmar"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Shingao-Stormrage"] = {
+			["Turgon-Greymane"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
-						1, -- [1]
-						91.7609999999986, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33339,387|r", -- [3]
+						2, -- [1]
+						127.0169999999998, -- [2]
+						"Cluster Bombardment |cFFFF333316,527|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MONK",
-			},
-			["Mephetran-Moonrunner"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Høneyß-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
 			},
 			["Snakpak-Proudmoore"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Jakeakuma-Kael'thas"] = {
+			["Chawnkytrog-Stormrage"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
+			},
+			["Nollaumesse-Dalaran"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						124.6650000000009, -- [2]
+						"Cluster Bombardment |cFFFF333315,558|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Høneyß-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Taxal-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						54.34600000000137, -- [2]
+						"Wicked Blast |cFFFF333314,783|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Remonic-Tanaris"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
 			},
 			["Ghorleo-Nagrand"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6040,54 +7415,63 @@ DeathGraphsDBEndurance = {
 						"Crystalline Burst |cFFFF33338,708|r", -- [3]
 					}, -- [1]
 				},
+			},
+			["Adolin-Greymane"] = {
+				["encounters"] = 3,
+				["points"] = 280,
 				["class"] = "WARRIOR",
-			},
-			["Måelstrom-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Samoansage"] = {
-				["encounters"] = 3,
-				["points"] = 290,
 				["deaths"] = {
 					{
-						3, -- [1]
-						287.3710000000137, -- [2]
-						"Seismic Upheaval |cFFFF333311,146|r", -- [3]
+						1, -- [1]
+						87.45100000000093, -- [2]
+						"Wicked Blast |cFFFF333313,618|r", -- [3]
 					}, -- [1]
+					{
+						2, -- [1]
+						131.6000000000004, -- [2]
+						"Melee |cFFFF333337,180|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Calidoria-Tichondrius"] = {
+			["Jakeakuma-Kael'thas"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+			},
+			["Typescript-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Drkladykikyo-Anvilmar"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+			},
+			["Shingao-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						91.7609999999986, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33339,387|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Shamnok-Stormrage"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["deaths"] = {
-				},
 				["class"] = "SHAMAN",
-			},
-			["Arodore-WyrmrestAccord"] = {
-				["encounters"] = 3,
-				["points"] = 300,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 		},
 		["diff"] = 15,
@@ -6101,13 +7485,14 @@ DeathGraphsDBEndurance = {
 			["Geekylock-Gurubashi"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Fereldor-Skywall"] = {
 				["encounters"] = 4,
 				["points"] = 370,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6125,32 +7510,32 @@ DeathGraphsDBEndurance = {
 						"Ember Blast |cFFFF333327,007|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "HUNTER",
 			},
 			["Batlerattle-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Süspêct-Blade'sEdge"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Jiinna"] = {
 				["encounters"] = 4,
 				["points"] = 390,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -6158,18 +7543,18 @@ DeathGraphsDBEndurance = {
 						"Smoldering Plumage |cFFFF33333,935|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Shinimaguinf-Agamaggan"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Barbiekiller-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6177,18 +7562,18 @@ DeathGraphsDBEndurance = {
 						"Ember Blast |cFFFF333313,815|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Bairdran-Dawnbringer"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Bissell-Dunemaul"] = {
 				["encounters"] = 4,
 				["points"] = 380,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -6201,44 +7586,25 @@ DeathGraphsDBEndurance = {
 						"Smoldering Remnants (DoT) |cFFFF33335,776|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "HUNTER",
 			},
-			["Särias-Proudmoore"] = {
-				["encounters"] = 4,
-				["points"] = 400,
+			["Zavakas-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Brokiller-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Palannegros-Nemesis"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						107.2460000000137, -- [2]
-						"Ember Blast |cFFFF333387,480|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Jarridin-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Serrennitty-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -6246,11 +7612,30 @@ DeathGraphsDBEndurance = {
 						"Ember Blast |cFFFF333335,020|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+			},
+			["Jarridin-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Palannegros-Nemesis"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						107.2460000000137, -- [2]
+						"Ember Blast |cFFFF333387,480|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Verx-Gorefiend"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -6258,46 +7643,39 @@ DeathGraphsDBEndurance = {
 						"Ember Blast |cFFFF333382,081|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
 			["Ezslick-Proudmoore"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["deaths"] = {
-				},
 				["class"] = "SHAMAN",
-			},
-			["Kyralise"] = {
-				["encounters"] = 4,
-				["points"] = 400,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Mizira-Whisperwind"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
 			},
 			["Ownre"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Honustustere"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["deaths"] = {
-				},
 				["class"] = "DEATHKNIGHT",
-			},
-			["Samoansage"] = {
-				["encounters"] = 4,
-				["points"] = 400,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Kvamalock-Zuluhed"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -6305,18 +7683,25 @@ DeathGraphsDBEndurance = {
 						"Smoldering Remnants (DoT) |cFFFF33338,061|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARLOCK",
 			},
-			["Mizira-Whisperwind"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+			["Samoansage"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Kyralise"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 4,
 				["points"] = 390,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6324,477 +7709,584 @@ DeathGraphsDBEndurance = {
 						"Smoldering Remnants (DoT) |cFFFF33336,027|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
 			["Tomatoa-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Zavakas-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
+			},
+			["Särias-Proudmoore"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 		},
 		["diff"] = 14,
 	},
-	["2418-14"] = {
-		["hash"] = "2418-14",
+	["2407-15"] = {
+		["hash"] = "2407-15",
 		["type"] = "endurance",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-14",
+		["name"] = "Sire Denathrius",
+		["id"] = "2407-15",
 		["player_db"] = {
-			["Atiarana-Caelestrasz"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+			["Yulisse-Drakkari"] = {
+				["encounters"] = 7,
+				["points"] = 700,
+				["class"] = "MAGE",
 				["deaths"] = {
-					{
-						3, -- [1]
-						190.5910000000004, -- [2]
-						"Deathly Roar |cFFFF33337,019|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Geekylock-Gurubashi"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
+			["Lilvaro-Frostmourne"] = {
+				["encounters"] = 6,
+				["points"] = 600,
 				["class"] = "WARLOCK",
-			},
-			["Stickspriest-Hydraxis"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
-			["Laruke-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						190.5910000000004, -- [2]
-						"Deathly Roar |cFFFF33337,001|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Rainey-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						146.3889999999956, -- [2]
-						"Deathly Roar |cFFFF33337,030|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Toiletduck-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Krimmzon"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Føcus-Uldum"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						187.9569999999949, -- [2]
-						"Sinseeker |cFFFF333310,557|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MONK",
-			},
-			["Jiinna"] = {
+			["Wizewon-Stormrage"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
+			},
+			["Trustfundkid-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						13, -- [1]
+						263.9759999999988, -- [2]
+						"Massacre |cFFFF333343,122|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rãzor-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1960,
 				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						32.58200000000215, -- [2]
+						"Cleansing Pain |cFFFF333312,785|r", -- [3]
+					}, -- [1]
+					{
+						9, -- [1]
+						262.8119999999981, -- [2]
+						"Massacre |cFFFF333344,029|r", -- [3]
+					}, -- [2]
+					{
+						10, -- [1]
+						178.7170000000006, -- [2]
+						"Carnage (DoT) |cFFFF3333704|r", -- [3]
+					}, -- [3]
+					{
+						13, -- [1]
+						73.99299999999857, -- [2]
+						"Painful Memories |cFFFF3333811|r", -- [3]
+					}, -- [4]
+				},
 			},
-			["Kar-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Cesarpaladin-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1940,
 				["class"] = "PALADIN",
 				["deaths"] = {
-				},
-			},
-			["Deliel-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						243.0620000000054, -- [2]
-						"Deathly Roar |cFFFF33334,525|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Apengxx-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Lardalys-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Särias-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						193.0039999999863, -- [2]
-						"Deathly Roar |cFFFF33337,048|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Estoppella-Aman'Thul"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Ezslick-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Draedk-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["deaths"] = {
-					{
-						1, -- [1]
-						243.0620000000054, -- [2]
-						"Deathly Roar |cFFFF33336,696|r", -- [3]
-					}, -- [1]
 					{
 						2, -- [1]
-						156.5599999999977, -- [2]
-						"Sinseeker (DoT) |cFFFF33333,348|r", -- [3]
+						98.16300000000047, -- [2]
+						"Painful Memories |cFFFF33331,275|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						73.78099999999904, -- [2]
+						"Painful Memories |cFFFF33331,130|r", -- [3]
+					}, -- [2]
+					{
+						8, -- [1]
+						290.5370000000003, -- [2]
+						"Rancor (DoT) |cFFFF33333,524|r", -- [3]
+					}, -- [3]
+					{
+						14, -- [1]
+						313.6879999999983, -- [2]
+						"Hand of Destruction |cFFFF333319,804|r", -- [3]
+					}, -- [4]
+					{
+						18, -- [1]
+						74.06999999999971, -- [2]
+						"Night Hunter |cFFFF333326,280|r", -- [3]
+					}, -- [5]
+					{
+						20, -- [1]
+						86.1810000000005, -- [2]
+						"Blood Price |cFFFF33332,244|r", -- [3]
+					}, -- [6]
+				},
+			},
+			["Sílfanas-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1940,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						232.3430000000008, -- [2]
+						"Impale |cFFFF333314,250|r", -- [3]
+					}, -- [1]
+					{
+						11, -- [1]
+						216.6929999999993, -- [2]
+						"Massacre |cFFFF333343,513|r", -- [3]
+					}, -- [2]
+					{
+						12, -- [1]
+						216.0879999999997, -- [2]
+						"Massacre |cFFFF333343,512|r", -- [3]
+					}, -- [3]
+					{
+						16, -- [1]
+						44.02299999999741, -- [2]
+						"Painful Memories |cFFFF3333624|r", -- [3]
+					}, -- [4]
+					{
+						17, -- [1]
+						135.9749999999985, -- [2]
+						"Fall of the Unworthy |cFFFF33332,163,960|r", -- [3]
+					}, -- [5]
+					{
+						21, -- [1]
+						257.2510000000002, -- [2]
+						"Impale |cFFFF333321,101|r", -- [3]
+					}, -- [6]
+				},
+			},
+			["Thandlius-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1970,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						4, -- [1]
+						232.1610000000001, -- [2]
+						"Melee |cFFFF333321,768|r", -- [3]
+					}, -- [1]
+					{
+						9, -- [1]
+						262.7219999999979, -- [2]
+						"Massacre |cFFFF333365,099|r", -- [3]
+					}, -- [2]
+					{
+						19, -- [1]
+						199.7900000000009, -- [2]
+						"Inevitable |cFFFF33339,741|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Endolax-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Edathas-Quel'Thalas"] = {
+				["encounters"] = 10,
+				["points"] = 980,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						14, -- [1]
+						313.0679999999993, -- [2]
+						"Smoldering Ire |cFFFF333318,530|r", -- [3]
+					}, -- [1]
+					{
+						16, -- [1]
+						180.739999999998, -- [2]
+						"Crimson Chorus (DoT) |cFFFF33331,739|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Wàrßladés-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Samoansage"] = {
-				["encounters"] = 7,
-				["points"] = 690,
+				["encounters"] = 20,
+				["points"] = 1950,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						2, -- [1]
-						144.25, -- [2]
-						"Deathly Roar |cFFFF33333,041|r", -- [3]
+						96.08599999999933, -- [2]
+						"Painful Memories |cFFFF33331,165|r", -- [3]
 					}, -- [1]
+					{
+						10, -- [1]
+						220.8130000000019, -- [2]
+						"Carnage (DoT) |cFFFF3333656|r", -- [3]
+					}, -- [2]
+					{
+						14, -- [1]
+						313.6879999999983, -- [2]
+						"Hand of Destruction |cFFFF333316,102|r", -- [3]
+					}, -- [3]
+					{
+						16, -- [1]
+						102.0099999999984, -- [2]
+						"Night Hunter |cFFFF333327,545|r", -- [3]
+					}, -- [4]
+					{
+						20, -- [1]
+						86.1810000000005, -- [2]
+						"Blood Price |cFFFF33332,016|r", -- [3]
+					}, -- [5]
 				},
-				["class"] = "SHAMAN",
 			},
-			["Ñíxx-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Legoki-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 2000,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Wildthingy-Hydraxis"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Blackmit-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 2000,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Calmcapybara-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Silack-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iciana-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Fereldor-Skywall"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						193.0039999999863, -- [2]
-						"Deathly Roar |cFFFF33337,036|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Reinya-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Monnagann-Skywall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Dashingheals-Whisperwind"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Luky-Nemesis"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Pennelo-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Nytehuntress-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						243.0620000000054, -- [2]
-						"Deathly Roar |cFFFF33336,741|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Kynta-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Zanamii-Drakkari"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Barbiekiller-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						190.2169999999751, -- [2]
-						"Sinseeker |cFFFF333310,349|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Nehva-Stormrage"] = {
+			["Delfox-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						144.3520000000135, -- [2]
-						"Sinseeker (DoT) |cFFFF33333,221|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Khalemit-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Kyralise"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Pashrort-Hydraxis"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ownre"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Morphs-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Tomatoa-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Serrennitty-Proudmoore"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Camothebest-Dalaran"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Lailinn-Skywall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Southernbell-AzjolNerub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "PRIEST",
 				["deaths"] = {
+					{
+						5, -- [1]
+						142.8240000000005, -- [2]
+						"Blood Price |cFFFF33333,028|r", -- [3]
+					}, -- [1]
 				},
 			},
-			["Coomboom-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Honustustere"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Palannegros-Nemesis"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Süspêct-Blade'sEdge"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
+			["Gílgamesh-Quel'Thalas"] = {
+				["encounters"] = 5,
+				["points"] = 480,
 				["class"] = "HUNTER",
-			},
-			["Luzkansama-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Octavialorn-Kael'thas"] = {
-				["encounters"] = 2,
-				["points"] = 180,
 				["deaths"] = {
 					{
-						2, -- [1]
-						191.2259999999951, -- [2]
-						"Sinseeker (DoT) |cFFFF33333,166|r", -- [3]
+						1, -- [1]
+						73.71399999999994, -- [2]
+						"Insatiable Hunger |cFFFF333342,742|r", -- [3]
 					}, -- [1]
 					{
 						3, -- [1]
-						141.8930000000109, -- [2]
-						"Sinseeker (DoT) |cFFFF33333,166|r", -- [3]
+						73.78099999999904, -- [2]
+						"Painful Memories |cFFFF33331,058|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "MAGE",
 			},
-			["Kurodachi-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+			["Calisten-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						5, -- [1]
+						142.8240000000005, -- [2]
+						"Blood Price |cFFFF33332,909|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Nalgaso-Thunderlord"] = {
+				["encounters"] = 6,
+				["points"] = 590,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						17, -- [1]
+						135.8719999999994, -- [2]
+						"Fall of the Unworthy |cFFFF33331,622,738|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Douglhashunt-Quel'Thalas"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						4, -- [1]
+						224.780999999999, -- [2]
+						"Hand of Destruction |cFFFF333344,117|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						27.72499999999855, -- [2]
+						"Blood Price |cFFFF33332,522|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Khronix-Nagrand"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Adotsol-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Derpthrash-Eonar"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Malthanor-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1950,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						180.6840000000011, -- [2]
+						"Crimson Chorus (DoT) |cFFFF33331,430|r", -- [3]
+					}, -- [1]
+					{
+						11, -- [1]
+						229.6159999999982, -- [2]
+						"Impale |cFFFF333332,503|r", -- [3]
+					}, -- [2]
+					{
+						12, -- [1]
+						212.6599999999999, -- [2]
+						"Massacre |cFFFF333333,528|r", -- [3]
+					}, -- [3]
+					{
+						13, -- [1]
+						215.4310000000005, -- [2]
+						"Massacre |cFFFF333334,678|r", -- [3]
+					}, -- [4]
+					{
+						15, -- [1]
+						223.7419999999984, -- [2]
+						"Hand of Destruction |cFFFF33331,908|r", -- [3]
+					}, -- [5]
+				},
+			},
+			["Rahi-Quel'Thalas"] = {
+				["encounters"] = 15,
+				["points"] = 1500,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Mohunter-Alexstrasza"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						6, -- [1]
+						85.92000000000189, -- [2]
+						"Blood Price |cFFFF33332,779|r", -- [3]
+					}, -- [1]
+					{
+						8, -- [1]
+						288.612000000001, -- [2]
+						"Impale |cFFFF333314,389|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Skjolvar-Frostmourne"] = {
+				["encounters"] = 6,
+				["points"] = 600,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Zorritasucia-Ragnaros"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						18, -- [1]
+						295.0790000000015, -- [2]
+						"Fatal Finesse |cFFFF33331,724|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Stonktrader-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Socsierra-Daggerspine"] = {
+				["encounters"] = 5,
+				["points"] = 470,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						19, -- [1]
+						74.2599999999984, -- [2]
+						"Insatiable Hunger |cFFFF333356,445|r", -- [3]
+					}, -- [1]
+					{
+						19, -- [1]
+						196.8389999999999, -- [2]
+						"Hand of Destruction |cFFFF333343,956|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Taarzaan-Quel'Thalas"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						2, -- [1]
-						153.4689999999973, -- [2]
-						"Sinseeker (DoT) |cFFFF33333,231|r", -- [3]
+						85.0779999999977, -- [2]
+						"Blood Price |cFFFF33333,294|r", -- [3]
 					}, -- [1]
+					{
+						3, -- [1]
+						27.61099999999715, -- [2]
+						"Blood Price |cFFFF33332,764|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "PRIEST",
 			},
-			["Edgeasaures-Barthilas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Ferocitron-Cenarius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+			},
+			["Lolloyd-Sargeras"] = {
+				["encounters"] = 14,
+				["points"] = 1390,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						17, -- [1]
+						135.7510000000002, -- [2]
+						"Fall of the Unworthy |cFFFF33332,251,819|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sacerdotemis-Quel'Thalas"] = {
+				["encounters"] = 20,
+				["points"] = 1900,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						43.90600000000268, -- [2]
+						"Insatiable Hunger |cFFFF333338,808|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						142.8240000000005, -- [2]
+						"Blood Price |cFFFF33332,870|r", -- [3]
+					}, -- [2]
+					{
+						8, -- [1]
+						102.0709999999999, -- [2]
+						"Night Hunter |cFFFF33335,414|r", -- [3]
+					}, -- [3]
+					{
+						9, -- [1]
+						174.8109999999979, -- [2]
+						"Impale |cFFFF333315,996|r", -- [3]
+					}, -- [4]
+					{
+						10, -- [1]
+						264.4360000000015, -- [2]
+						"Crimson Chorus (DoT) |cFFFF33331,679|r", -- [3]
+					}, -- [5]
+					{
+						11, -- [1]
+						213.4259999999995, -- [2]
+						"Crimson Chorus (DoT) |cFFFF3333839|r", -- [3]
+					}, -- [6]
+					{
+						12, -- [1]
+						216.0590000000011, -- [2]
+						"Crimson Chorus (DoT) |cFFFF3333839|r", -- [3]
+					}, -- [7]
+					{
+						15, -- [1]
+						380.8410000000004, -- [2]
+						"Fatal Finesse |cFFFF33333,322|r", -- [3]
+					}, -- [8]
+					{
+						20, -- [1]
+						86.1810000000005, -- [2]
+						"Blood Price |cFFFF33332,051|r", -- [3]
+					}, -- [9]
+					{
+						21, -- [1]
+						43.91400000000067, -- [2]
+						"Night Hunter |cFFFF33334,922|r", -- [3]
+					}, -- [10]
+				},
+			},
+			["Fatalshotz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Douglhas-Quel'Thalas"] = {
+				["encounters"] = 13,
+				["points"] = 1280,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						18, -- [1]
+						286.4850000000006, -- [2]
+						"Indignation (DoT) |cFFFF333310,644|r", -- [3]
+					}, -- [1]
+					{
+						21, -- [1]
+						154.1490000000013, -- [2]
+						"Fall of the Unworthy |cFFFF33332,580,894|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Dezs-Dath'Remar"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						15, -- [1]
+						263.1959999999999, -- [2]
+						"Massacre |cFFFF333344,375|r", -- [3]
+					}, -- [1]
+				},
 			},
 		},
-		["diff"] = 14,
+		["diff"] = 15,
 	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
@@ -6805,21 +8297,34 @@ DeathGraphsDBEndurance = {
 			["Shäzam-Nagrand"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+			},
+			["Solfondor-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Amaius-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Rightnut-Kel'Thuzad"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6827,24 +8332,47 @@ DeathGraphsDBEndurance = {
 						"Echoing Sonar |cFFFF33339,977|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "SHAMAN",
+			},
+			["Vellythra-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Syvek-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Akelia-Kael'thas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+			},
+			["Guro-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Mickaela-TolBarad"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -6852,26 +8380,24 @@ DeathGraphsDBEndurance = {
 						"Descent |cFFFF33339,626|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Getalife-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6879,10 +8405,19 @@ DeathGraphsDBEndurance = {
 						"Sanguine Ichor (DoT) |cFFFF33334,312|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MAGE",
+			},
+			["Moge-Duskwood"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Samoansage"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6890,25 +8425,39 @@ DeathGraphsDBEndurance = {
 						"Sanguine Ichor (DoT) |cFFFF33334,178|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+			},
+			["Bringinlight-Velen"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Ærilon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PALADIN",
+			},
+			["Homiebro-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
 			["Shamonay-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Dennislyland-Kel'Thuzad"] = {
 				["encounters"] = 3,
 				["points"] = 270,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -6921,39 +8470,53 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333318,001|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "PALADIN",
 			},
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
+			},
+			["Bham-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Orangecircle-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 			},
-			["Biggums-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Mythrebrac-Alleria"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "DEMONHUNTER",
+			},
+			["Itadori-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Twopenguins-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -6961,121 +8524,17 @@ DeathGraphsDBEndurance = {
 						"Sanguine Ichor (DoT) |cFFFF33334,306|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
+			},
+			["Blanc-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Sleeping-Gorefiend"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Rejuvanate-Caelestrasz"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Zelse-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Charismá-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Uwantcrayonz-Nagrand"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Brokiller-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Tayzonday-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Ditht-Khaz'goroth"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Dallaana-Nagrand"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Slnkthegreat-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Sathellia-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Prøpel-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						152.6040000000066, -- [2]
-						"Melee |cFFFF333315,243|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MONK",
-			},
-			["Duckphat-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Snakpak-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Gadlyn-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
@@ -7083,7 +8542,6 @@ DeathGraphsDBEndurance = {
 			["Oakinon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7091,20 +8549,145 @@ DeathGraphsDBEndurance = {
 						"Earsplitting Shriek |cFFFF33332,878|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "HUNTER",
+			},
+			["Gadlyn-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Rejuvanate-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Zelse-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Charismá-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Duckphat-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Uwantcrayonz-Nagrand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Prøpel-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						152.6040000000066, -- [2]
+						"Melee |cFFFF333315,243|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Slnkthegreat-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Ditht-Khaz'goroth"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Dallaana-Nagrand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Sathellia-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Tayzonday-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Brokiller-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Snakpak-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Mephì-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Brixlixdix-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
-			["Homiebro-Kel'Thuzad"] = {
+			["Biggums-Frostmourne"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 		},
 		["diff"] = 15,
@@ -7118,7 +8701,6 @@ DeathGraphsDBEndurance = {
 			["Aequs-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7126,32 +8708,32 @@ DeathGraphsDBEndurance = {
 						"Annihilate |cFFFF3333152,255|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PALADIN",
 			},
 			["Pressurecook-Sargeras"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Shamagon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 			},
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Floodie-Shandris"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7159,39 +8741,39 @@ DeathGraphsDBEndurance = {
 						"Annihilate |cFFFF3333132,152|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Harwynn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Aneisa-Undermine"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Gnapee-Balnazzar"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Dontnerfme-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7199,25 +8781,25 @@ DeathGraphsDBEndurance = {
 						"Extinction |cFFFF333351,847|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["Samoansage"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Razîel-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Carius-Balnazzar"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7225,32 +8807,32 @@ DeathGraphsDBEndurance = {
 						"Extinction |cFFFF333346,155|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Måelstrom-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Rejuvanate-Caelestrasz"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Critia-Maelstrom"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Professorpwn-Gorgonnash"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7258,24 +8840,26 @@ DeathGraphsDBEndurance = {
 						"Extinction |cFFFF333357,926|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["Zhor-Proudmoore"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Deimosh-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Éitak-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "PRIEST",
 			},
 			["Zelse-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7283,11 +8867,11 @@ DeathGraphsDBEndurance = {
 						"Extinction |cFFFF333329,216|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARRIOR",
 			},
 			["Charismá-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7295,25 +8879,17 @@ DeathGraphsDBEndurance = {
 						"Withering Touch (DoT) |cFFFF33336,036|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
 			},
 			["Stélthknight-Barthilas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["Chaoticdeath-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Kaleii-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
@@ -7321,28 +8897,34 @@ DeathGraphsDBEndurance = {
 			["Mømentum-AlteracMountains"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
-			["Ærilon-Proudmoore"] = {
+			["Kaleii-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Dallaana-Nagrand"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Høneyß-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Deckycain-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7350,24 +8932,26 @@ DeathGraphsDBEndurance = {
 						"Annihilate |cFFFF3333133,123|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Sathellia-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
-			["Dárwynn-Proudmoore"] = {
+			["Snakpak-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
 			["Gadlyn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7375,40 +8959,39 @@ DeathGraphsDBEndurance = {
 						"Extinction |cFFFF333356,291|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
-			["Snakpak-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Dallaana-Nagrand"] = {
+			["Dárwynn-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PALADIN",
 			},
+			["Ærilon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
 			["Oakinon-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
-			["Éitak-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
+			["Deimosh-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -7424,27 +9007,28 @@ DeathGraphsDBEndurance = {
 			["Bearxen-Kel'Thuzad"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Aztreya-Kel'Thuzad"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Lovelighter-Trollbane"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Krimmzon"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7452,12 +9036,10 @@ DeathGraphsDBEndurance = {
 						"Fall of the Unworthy |cFFFF33331,726,061|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Helregrinn-Velen"] = {
 				["encounters"] = 5,
 				["points"] = 480,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -7470,18 +9052,18 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333327,082|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "PALADIN",
 			},
 			["Wîca-Alleria"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Wolfshioh-Quel'Thalas"] = {
 				["encounters"] = 5,
 				["points"] = 490,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7489,11 +9071,11 @@ DeathGraphsDBEndurance = {
 						"Blood Price |cFFFF33331,758|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
 			},
 			["Paph-Stormrage"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -7501,25 +9083,25 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333313,651|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Demonpappy-Khaz'goroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Mikehanchø-Sargeras"] = {
 				["encounters"] = 5,
 				["points"] = 500,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Mâttyboomer-Stormrage"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						4, -- [1]
@@ -7527,32 +9109,32 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF333316,464|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Iknowaguy-Dawnbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Maverik-BurningLegion"] = {
 				["encounters"] = 5,
 				["points"] = 500,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Sindra-Frostmourne"] = {
 				["encounters"] = 5,
 				["points"] = 500,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Elantu-MoonGuard"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7560,18 +9142,18 @@ DeathGraphsDBEndurance = {
 						"Desolation (DoT) |cFFFF33333,375|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Renethol-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["Ignius-Alleria"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -7579,11 +9161,11 @@ DeathGraphsDBEndurance = {
 						"Crimson Chorus (DoT) |cFFFF33331,716|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
 			["Samoansage"] = {
 				["encounters"] = 7,
 				["points"] = 680,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7596,60 +9178,143 @@ DeathGraphsDBEndurance = {
 						"Desolation (DoT) |cFFFF33333,244|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "SHAMAN",
 			},
-			["Alorielyre-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Keyaleroin-Kel'Thuzad"] = {
+			["Kaatinga-Nemesis"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "HUNTER",
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 			},
-			["Notocas-Garithos"] = {
+			["Octavialorn-Kael'thas"] = {
 				["encounters"] = 2,
-				["points"] = 200,
+				["points"] = 190,
+				["class"] = "MAGE",
 				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Pogies-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
+					{
+						1, -- [1]
+						122.1190000000006, -- [2]
+						"Desolation (DoT) |cFFFF33333,393|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Faganjohnson-Sargeras"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Pogies-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Ivank-Deathwing"] = {
-				["encounters"] = 5,
-				["points"] = 500,
+			["Notocas-Garithos"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
+			["Ivank-Deathwing"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
 			["Spiritthawk"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Toasterbath-Khaz'goroth"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						108.3870000000006, -- [2]
+						"Painful Memories |cFFFF3333507|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Mchamm-Frostmourne"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Twilightftw-Scilla"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Asho-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ravannastorm"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Tørtilla-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						65.24499999999534, -- [2]
+						"Melee |cFFFF33339,920|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Analilia-Quel'Thalas"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "SHAMAN",
+			},
+			["Ownre"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						27.98700000000099, -- [2]
+						"Blood Price |cFFFF33331,063|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Honustustere"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
 			},
 			["Sheidheda-Dragonblight"] = {
 				["encounters"] = 3,
 				["points"] = 280,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7662,88 +9327,12 @@ DeathGraphsDBEndurance = {
 						"Crimson Chorus (DoT) |cFFFF33331,609|r", -- [3]
 					}, -- [2]
 				},
-			},
-			["Mchamm-Frostmourne"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Twilightftw-Scilla"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Asho-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
 				["class"] = "HUNTER",
-			},
-			["Ravannastorm"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Tørtilla-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						65.24499999999534, -- [2]
-						"Melee |cFFFF33339,920|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Analilia-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Ownre"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						27.98700000000099, -- [2]
-						"Blood Price |cFFFF33331,063|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "ROGUE",
-			},
-			["Honustustere"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Toasterbath-Khaz'goroth"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						108.3870000000006, -- [2]
-						"Painful Memories |cFFFF3333507|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
 			},
 			["Qoraa-Hyjal"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -7751,37 +9340,32 @@ DeathGraphsDBEndurance = {
 						"Painful Memories |cFFFF3333529|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 			["Aerithrea-Eldre'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Keyaleroin-Kel'Thuzad"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Octavialorn-Kael'thas"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						122.1190000000006, -- [2]
-						"Desolation (DoT) |cFFFF33333,393|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Kaatinga-Nemesis"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Alorielyre-Proudmoore"] = {
+				["encounters"] = 5,
+				["points"] = 500,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "DRUID",
 			},
 			["Sloane-Ghostlands"] = {
 				["encounters"] = 2,
 				["points"] = 190,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7789,7 +9373,6 @@ DeathGraphsDBEndurance = {
 						"Blood Price |cFFFF33331,156|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 		},
 		["diff"] = 14,
@@ -7803,27 +9386,74 @@ DeathGraphsDBEndurance = {
 			["Aequs-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+			},
+			["Amaius-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Notcreativee-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
 			},
 			["Pressurecook-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
+			},
+			["Leris-KulTiras"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						83.01299999997718, -- [2]
+						"Volatile Ejection |cFFFF333339,572|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
 			},
 			["Éitak-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+			},
+			["Severain-Bladefist"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Syvek-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Irksumm"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Oakinon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
@@ -7831,6 +9461,7 @@ DeathGraphsDBEndurance = {
 			["Picklehammer-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7838,101 +9469,52 @@ DeathGraphsDBEndurance = {
 						"Volatile Ejection |cFFFF333344,321|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
-			},
-			["Floodie-Shandris"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
 			},
 			["Deimosh-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Aneisa-Undermine"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
-			["Odinsxshield-Bladefist"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Gnapee-Balnazzar"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						4, -- [1]
-						205.5580000000191, -- [2]
-						"Volatile Ejection |cFFFF333343,248|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Drbrad-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Dontnerfme-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Dreadedpunk-Arthas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Carius-Balnazzar"] = {
+			["Snakpak-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
+			["Guro-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Razîel-AlteracMountains"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
-			["Dallaana-Nagrand"] = {
+			["Floodie-Shandris"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "HUNTER",
+			},
+			["Carius-Balnazzar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
 			},
 			["Dreinara-Bladefist"] = {
 				["encounters"] = 3,
 				["points"] = 280,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -7945,185 +9527,32 @@ DeathGraphsDBEndurance = {
 						"Volatile Ejection |cFFFF33338,649|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "PRIEST",
 			},
-			["Ærilon-Proudmoore"] = {
+			["Mephì-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "MAGE",
 			},
-			["Gadlyn-Proudmoore"] = {
+			["Aneisa-Undermine"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Måelstrom-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Odinsxshield-Bladefist"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
-			},
-			["Dárwynn-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Rejuvanate-Caelestrasz"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Critia-Maelstrom"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Itsdolomite-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						2, -- [1]
-						101.0229999999865, -- [2]
-						"Melee |cFFFF333313,568|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Voidstress-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						87.01299999997718, -- [2]
-						"Gluttonous Miasma |cFFFF33332,914|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Zhor-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Professorpwn-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Conífera-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Severain-Bladefist"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Shamagon-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						1.796000000002096, -- [2]
-						"Melee |cFFFF333324,505|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Stélthknight-Barthilas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Zelse-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Charismá-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Chaoticdeath-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Ulyon-GrizzlyHills"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						7.049999999988359, -- [2]
-						"Overwhelm |cFFFF333324,037|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kaleii-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Mømentum-AlteracMountains"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Calarìa-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Høneyß-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
 			},
 			["Bonappetite-KulTiras"] = {
 				["encounters"] = 3,
 				["points"] = 280,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -8136,39 +9565,318 @@ DeathGraphsDBEndurance = {
 						"Gluttonous Miasma |cFFFF33333,101|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "HUNTER",
 			},
-			["Sathellia-Stormrage"] = {
+			["Gnapee-Balnazzar"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
 				["deaths"] = {
+					{
+						4, -- [1]
+						205.5580000000191, -- [2]
+						"Volatile Ejection |cFFFF333343,248|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "PALADIN",
+				["class"] = "MONK",
 			},
-			["Neolaina-Proudmoore"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Krakmagic-Aman'Thul"] = {
+			["Drbrad-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Snakpak-Proudmoore"] = {
+			["Dontnerfme-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
+			},
+			["Samoansage"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Dreadedpunk-Arthas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Gadlyn-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bringinlight-Velen"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						3, -- [1]
+						13.98599999999988, -- [2]
+						"Volatile Ejection |cFFFF33339,276|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Dallaana-Nagrand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Måelstrom-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Kaleii-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Ulyon-GrizzlyHills"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						7.049999999988359, -- [2]
+						"Overwhelm |cFFFF333324,037|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Blanc-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Bham-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						73.09299999999985, -- [2]
+						"Gluttonous Miasma |cFFFF33332,797|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["Rejuvanate-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Critia-Maelstrom"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mythrebrac-Alleria"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["deaths"] = {
+					{
+						2, -- [1]
+						71.53799999999956, -- [2]
+						"Gluttonous Miasma |cFFFF33332,338|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						25.10800000000018, -- [2]
+						"Desolate |cFFFF33338,416|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Itadori-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						121.0990000000002, -- [2]
+						"Gluttonous Miasma |cFFFF33333,005|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Dawnbreather-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						3, -- [1]
+						50.00500000000011, -- [2]
+						"Volatile Ejection |cFFFF333334,619|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Professorpwn-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Conífera-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Voidstress-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						87.01299999997718, -- [2]
+						"Gluttonous Miasma |cFFFF33332,914|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Itsdolomite-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						101.0229999999865, -- [2]
+						"Melee |cFFFF333313,568|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Stélthknight-Barthilas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Zelse-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Charismá-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Chaoticdeath-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Shamagon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						1.796000000002096, -- [2]
+						"Melee |cFFFF333324,505|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Zhor-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mømentum-AlteracMountains"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Calarìa-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Høneyß-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Ærilon-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Sathellia-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Neolaina-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Krakmagic-Aman'Thul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Dárwynn-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
 			},
 			["Warchyld-Bladefist"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "ROGUE",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -8176,17 +9884,19 @@ DeathGraphsDBEndurance = {
 						"Consume |cFFFF33332,484|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "ROGUE",
 			},
-			["Oakinon-Proudmoore"] = {
+			["Brixlixdix-Blackrock"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "PRIEST",
 			},
 			["Shingao-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -8194,1231 +9904,1272 @@ DeathGraphsDBEndurance = {
 						"Gluttonous Miasma |cFFFF33332,703|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MONK",
 			},
-			["Leris-KulTiras"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DRUID",
+			["Namini-Goldrinn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						2, -- [1]
-						83.01299999997718, -- [2]
-						"Volatile Ejection |cFFFF333339,572|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "SHAMAN",
 			},
 		},
 		["diff"] = 15,
 	},
-	["2407-15"] = {
-		["hash"] = "2407-15",
+	["2418-14"] = {
+		["hash"] = "2418-14",
 		["type"] = "endurance",
-		["name"] = "Sire Denathrius",
-		["id"] = "2407-15",
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-14",
 		["player_db"] = {
+			["Atiarana-Caelestrasz"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						190.5910000000004, -- [2]
+						"Deathly Roar |cFFFF33337,019|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Geekylock-Gurubashi"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Stickspriest-Hydraxis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Laruke-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						190.5910000000004, -- [2]
+						"Deathly Roar |cFFFF33337,001|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rainey-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						146.3889999999956, -- [2]
+						"Deathly Roar |cFFFF33337,030|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Toiletduck-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Krimmzon"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Føcus-Uldum"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						3, -- [1]
+						187.9569999999949, -- [2]
+						"Sinseeker |cFFFF333310,557|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jiinna"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Kar-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Deliel-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						243.0620000000054, -- [2]
+						"Deathly Roar |cFFFF33334,525|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Apengxx-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Lardalys-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Särias-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						193.0039999999863, -- [2]
+						"Deathly Roar |cFFFF33337,048|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Estoppella-Aman'Thul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Ezslick-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Draedk-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						243.0620000000054, -- [2]
+						"Deathly Roar |cFFFF33336,696|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						156.5599999999977, -- [2]
+						"Sinseeker (DoT) |cFFFF33333,348|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Wàrßladés-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						144.25, -- [2]
+						"Deathly Roar |cFFFF33333,041|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ñíxx-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Wildthingy-Hydraxis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Silack-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Edgeasaures-Barthilas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Fereldor-Skywall"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						193.0039999999863, -- [2]
+						"Deathly Roar |cFFFF33337,036|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Dashingheals-Whisperwind"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Octavialorn-Kael'thas"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						191.2259999999951, -- [2]
+						"Sinseeker (DoT) |cFFFF33333,166|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						141.8930000000109, -- [2]
+						"Sinseeker (DoT) |cFFFF33333,166|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Kurodachi-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						153.4689999999973, -- [2]
+						"Sinseeker (DoT) |cFFFF33333,231|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Luzkansama-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Pennelo-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Nytehuntress-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						243.0620000000054, -- [2]
+						"Deathly Roar |cFFFF33336,741|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Süspêct-Blade'sEdge"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Zanamii-Drakkari"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Barbiekiller-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						190.2169999999751, -- [2]
+						"Sinseeker |cFFFF333310,349|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Serrennitty-Proudmoore"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Khalemit-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Honustustere"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Pashrort-Hydraxis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Coomboom-Proudmoore"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Morphs-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Tomatoa-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Palannegros-Nemesis"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Southernbell-AzjolNerub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Lailinn-Skywall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Camothebest-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Ownre"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Kyralise"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Nehva-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						2, -- [1]
+						144.3520000000135, -- [2]
+						"Sinseeker (DoT) |cFFFF33333,221|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kynta-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Luky-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Monnagann-Skywall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Reinya-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Iciana-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
 		},
-		["diff"] = 15,
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 33000,
-				["timeofdeath"] = 287.3710000000137,
-				["name"] = "Samoansage",
-				["time"] = 1615360693.736,
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 47s",
+				["maxhealth"] = 33714,
+				["timeofdeath"] = 181.2829999999995,
+				["name"] = "Meathands-Tichondrius",
 				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1615360710.507, -- [4]
-						0, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						197997, -- [2]
-						879, -- [3]
-						1615360662.94, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360663.526, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360663.646, -- [4]
-						34640, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						73921, -- [2]
-						500, -- [3]
-						1615360665.159, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360665.553, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						81269, -- [2]
-						446, -- [3]
-						1615360672.968, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						243241, -- [2]
-						766, -- [3]
-						1615360673.886, -- [4]
-						34640, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						207386, -- [2]
-						150, -- [3]
-						1615360674.967, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						73921, -- [2]
-						476, -- [3]
-						1615360675.137, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						197997, -- [2]
-						974, -- [3]
-						1615360676.853, -- [4]
-						34640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						73921, -- [2]
-						475, -- [3]
-						1615360676.919, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						87, -- [3]
-						1615360676.919, -- [4]
-						34640, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360676.98, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						207386, -- [2]
-						298, -- [3]
-						1615360678.986, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						87, -- [3]
-						1615360679.972, -- [4]
-						34640, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						73921, -- [2]
-						967, -- [3]
-						1615360682.256, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						73921, -- [2]
-						580, -- [3]
-						1615360682.32, -- [4]
-						34640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						73921, -- [2]
-						491, -- [3]
-						1615360683.974, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						197997, -- [2]
-						885, -- [3]
-						1615360686.081, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						73921, -- [2]
-						557, -- [3]
-						1615360687.875, -- [4]
-						34640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360691.715, -- [4]
-						34640, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						333, -- [3]
-						1615360692.408, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						322, -- [3]
-						1615360693.214, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						201633, -- [2]
-						589, -- [3]
-						1615360693.736, -- [4]
-						34640, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11147, -- [3]
-						1615360693.736, -- [4]
-						24082, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						589, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						201633, -- [2]
-						589, -- [3]
-						1615360693.736, -- [4]
-						24082, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11147, -- [3]
-						1615360693.736, -- [4]
-						13524, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						589, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						201633, -- [2]
-						589, -- [3]
-						1615360693.736, -- [4]
-						13524, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11147, -- [3]
-						1615360693.736, -- [4]
-						2966, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						589, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						201633, -- [2]
-						589, -- [3]
-						1615360693.736, -- [4]
-						2966, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1236, -- [3]
-						1615360693.736, -- [4]
-						4202, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11146, -- [3]
-						1615360693.736, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						589, -- [7]
-						8, -- [8]
-						false, -- [9]
-						7591, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Samoansage", -- [6]
-					}, -- [34]
-				},
-			}, -- [1]
-			{
-				["maxhealth"] = 35180,
-				["timeofdeath"] = 307.064000000013,
-				["name"] = "Critia-Maelstrom",
-				["time"] = 1615360713.429,
-				["class"] = "PRIEST",
-				["timestring"] = "5m 7s",
-				["events"] = {
-					{
-						false, -- [1]
-						48438, -- [2]
-						621, -- [3]
-						1615360694.073, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						298, -- [3]
-						1615360694.889, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						302, -- [3]
-						1615360695.646, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						290, -- [3]
-						1615360696.461, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						48438, -- [2]
-						278, -- [3]
-						1615360697.313, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						48438, -- [2]
-						265, -- [3]
-						1615360698.11, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						48438, -- [2]
-						304, -- [3]
-						1615360698.621, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						4, -- [1]
-						343895, -- [2]
-						1, -- [3]
-						1615360700.382, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						4, -- [1]
-						343895, -- [2]
-						2, -- [3]
-						1615360701.344, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						343895, -- [2]
-						3, -- [3]
-						1615360702.352, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						343895, -- [2]
-						4, -- [3]
-						1615360703.353, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						4, -- [1]
-						343895, -- [2]
-						5, -- [3]
-						1615360704.381, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						343895, -- [2]
-						6, -- [3]
-						1615360705.377, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						17, -- [2]
-						2635, -- [3]
-						1615360705.727, -- [4]
-						36940, -- [5]
-						"Critia-Maelstrom", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						339728, -- [2]
-						17279, -- [3]
-						1615360705.727, -- [4]
-						22296, -- [5]
-						"General Grashaal", -- [6]
-						2635, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						17, -- [2]
-						0, -- [3]
-						1615360705.727, -- [4]
-						22296, -- [5]
-						"Critia-Maelstrom", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						204883, -- [2]
-						739, -- [3]
-						1615360706.002, -- [4]
-						23035, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						343895, -- [2]
-						7, -- [3]
-						1615360706.372, -- [4]
-						23035, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						81269, -- [2]
-						132, -- [3]
-						1615360707.327, -- [4]
-						23167, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						343895, -- [2]
-						8, -- [3]
-						1615360707.374, -- [4]
-						23167, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						34914, -- [2]
-						114, -- [3]
-						1615360707.559, -- [4]
-						23281, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						84, -- [3]
-						1615360709.004, -- [4]
-						23365, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						207386, -- [2]
-						30, -- [3]
-						1615360709.312, -- [4]
-						23395, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						34914, -- [2]
-						57, -- [3]
-						1615360710.017, -- [4]
-						23452, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						145110, -- [2]
-						1172, -- [3]
-						1615360711.018, -- [4]
-						24624, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						207386, -- [2]
-						299, -- [3]
-						1615360711.32, -- [4]
-						24923, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						84, -- [3]
-						1615360712.044, -- [4]
-						25007, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						333913, -- [2]
-						1, -- [3]
-						1615360713.216, -- [4]
-						25007, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						333716, -- [2]
-						14588, -- [3]
-						1615360713.216, -- [4]
-						10419, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360713.319, -- [4]
-						10568, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						333913, -- [2]
-						2, -- [3]
-						1615360713.429, -- [4]
-						10568, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						333716, -- [2]
-						14588, -- [3]
-						1615360713.429, -- [4]
-						1, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						4020, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						47585, -- [2]
-						1, -- [3]
-						1615360595.729, -- [4]
-						0, -- [5]
-						"Critia-Maelstrom", -- [6]
-					}, -- [33]
-				},
-			}, -- [2]
-			{
-				["maxhealth"] = 36940,
-				["timeofdeath"] = 413.9710000000196,
-				["name"] = "Zelse-Proudmoore",
-				["time"] = 1615360820.336,
-				["class"] = "WARRIOR",
-				["timestring"] = "6m 53s",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1615360862.663, -- [4]
-						0, -- [5]
-						"Snakpak-Proudmoore", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						234946, -- [2]
-						1360, -- [3]
-						1615360810.656, -- [4]
-						25468, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						339693, -- [2]
-						8635, -- [3]
-						1615360810.855, -- [4]
-						16833, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						4, -- [1]
-						339693, -- [2]
-						1, -- [3]
-						1615360810.855, -- [4]
-						16833, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						207386, -- [2]
-						154, -- [3]
-						1615360811.117, -- [4]
-						16987, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						81269, -- [2]
-						504, -- [3]
-						1615360811.631, -- [4]
-						17491, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						774, -- [2]
-						1248, -- [3]
-						1615360811.826, -- [4]
-						18739, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77489, -- [2]
-						343, -- [3]
-						1615360811.905, -- [4]
-						19082, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						81269, -- [2]
-						513, -- [3]
-						1615360813.112, -- [4]
-						19595, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360813.112, -- [4]
-						19750, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						61295, -- [2]
-						4017, -- [3]
-						1615360813.627, -- [4]
-						23767, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						339728, -- [2]
-						13828, -- [3]
-						1615360813.86, -- [4]
-						9939, -- [5]
-						"General Grashaal", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						774, -- [2]
-						1248, -- [3]
-						1615360814.273, -- [4]
-						11187, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						342, -- [3]
-						1615360814.883, -- [4]
-						11529, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						225311, -- [2]
-						2874, -- [3]
-						1615360815.033, -- [4]
-						14403, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360815.123, -- [4]
-						14558, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						774, -- [2]
-						624, -- [3]
-						1615360815.301, -- [4]
-						15182, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						61295, -- [2]
-						455, -- [3]
-						1615360816.297, -- [4]
-						15637, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						344502, -- [2]
-						1, -- [3]
-						1615360816.56, -- [4]
-						15637, -- [5]
-						"[*] Unstable Footing", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						774, -- [2]
-						624, -- [3]
-						1615360816.705, -- [4]
-						16261, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360817.103, -- [4]
-						16416, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1468, -- [3]
-						1615360817.551, -- [4]
-						14948, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						343, -- [3]
-						1615360817.911, -- [4]
-						15291, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1469, -- [3]
-						1615360818.575, -- [4]
-						13822, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						61295, -- [2]
-						483, -- [3]
-						1615360818.974, -- [4]
-						14305, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						207386, -- [2]
-						310, -- [3]
-						1615360819.1, -- [4]
-						14615, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						774, -- [2]
-						572, -- [3]
-						1615360819.133, -- [4]
-						15187, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						336137, -- [2]
-						5842, -- [3]
-						1615360820.025, -- [4]
-						9345, -- [5]
-						"Prince Renathal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						25914, -- [2]
-						2994, -- [3]
-						1615360820.113, -- [4]
-						12339, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						157503, -- [2]
-						9, -- [3]
-						1615360820.336, -- [4]
-						12348, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						344655, -- [2]
-						1, -- [3]
-						1615360820.336, -- [4]
-						12348, -- [5]
-						"Reverberating Eruption Stalker", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
 					{
 						false, -- [1]
 						337824, -- [2]
-						598, -- [3]
-						1615360820.336, -- [4]
-						12348, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						820, -- [3]
+						1616133187.03, -- [4]
+						33714, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						335779, -- [2]
+						879, -- [3]
+						1616133187.03, -- [4]
+						33655, -- [5]
+						"[*] Chain Link", -- [6]
+						820, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						334, -- [3]
+						1616133187.268, -- [4]
+						33714, -- [5]
+						"Meathands-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						447, -- [3]
+						1616133187.516, -- [4]
+						33267, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						335473, -- [2]
+						4931, -- [3]
+						1616133187.68, -- [4]
+						28336, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						312, -- [3]
+						1616133188.478, -- [4]
+						28648, -- [5]
+						"Meathands-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						201633, -- [2]
+						448, -- [3]
+						1616133188.515, -- [4]
+						28648, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						448, -- [3]
+						1616133188.515, -- [4]
+						28648, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133189.056, -- [4]
+						30079, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						335779, -- [2]
+						879, -- [3]
+						1616133189.056, -- [4]
+						29818, -- [5]
+						"[*] Chain Link", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						61295, -- [2]
+						506, -- [3]
+						1616133189.29, -- [4]
+						30324, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						201633, -- [2]
+						447, -- [3]
+						1616133189.504, -- [4]
+						30324, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						332444, -- [2]
+						447, -- [3]
+						1616133189.504, -- [4]
+						30324, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						68, -- [3]
+						1616133189.681, -- [4]
+						30392, -- [5]
+						"Meathands-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1102, -- [3]
+						1616133189.855, -- [4]
+						31494, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133189.976, -- [4]
+						31494, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133190.459, -- [4]
+						29994, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335361, -- [2]
+						670, -- [3]
+						1616133190.459, -- [4]
+						29942, -- [5]
+						"[*] Stonequake", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						201633, -- [2]
+						447, -- [3]
+						1616133190.53, -- [4]
+						29942, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						332444, -- [2]
+						447, -- [3]
+						1616133190.53, -- [4]
+						29942, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133190.966, -- [4]
+						29942, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						335361, -- [2]
+						670, -- [3]
+						1616133190.966, -- [4]
+						29890, -- [5]
+						"[*] Stonequake", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.049, -- [4]
+						29890, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						335779, -- [2]
+						878, -- [3]
+						1616133191.049, -- [4]
+						29630, -- [5]
+						"[*] Chain Link", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						61295, -- [2]
+						347, -- [3]
+						1616133191.183, -- [4]
+						29977, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.267, -- [4]
+						29977, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						332698, -- [2]
+						12254, -- [3]
+						1616133191.267, -- [4]
+						18341, -- [5]
+						"Sludgefist", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						67, -- [3]
+						1616133191.327, -- [4]
+						18408, -- [5]
+						"Meathands-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						335361, -- [2]
+						671, -- [3]
+						1616133191.477, -- [4]
+						17737, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						332444, -- [2]
+						447, -- [3]
+						1616133191.533, -- [4]
+						17290, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616133191.837, -- [4]
+						17290, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						335295, -- [2]
+						98045, -- [3]
+						1616133191.878, -- [4]
+						1, -- [5]
+						"[*] Shattering Chain", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						80755, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						109304, -- [2]
+						1, -- [3]
+						1616133180.898, -- [4]
+						0, -- [5]
+						"Meathands-Tichondrius", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "3m 1s",
+				["time"] = 1616133191.878,
+			}, -- [1]
+			{
+				["maxhealth"] = 39760,
+				["timeofdeath"] = 181.2829999999995,
+				["name"] = "Sonatahunt-Stormrage",
+				["events"] = {
+					{
+						2, -- [1]
+						20484, -- [2]
+						1, -- [3]
+						1616133223.966, -- [4]
+						0, -- [5]
+						"Jhacobo-Darkspear", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						61295, -- [2]
+						609, -- [3]
+						1616133187.618, -- [4]
+						28185, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						335473, -- [2]
+						4683, -- [3]
+						1616133187.68, -- [4]
+						23502, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						201633, -- [2]
+						433, -- [3]
+						1616133188.553, -- [4]
+						23502, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						332444, -- [2]
+						433, -- [3]
+						1616133188.553, -- [4]
+						23502, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133189.056, -- [4]
+						24677, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						335779, -- [2]
+						872, -- [3]
+						1616133189.056, -- [4]
+						24423, -- [5]
+						"[*] Chain Link", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						201633, -- [2]
+						433, -- [3]
+						1616133189.578, -- [4]
+						24423, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						433, -- [3]
+						1616133189.578, -- [4]
+						24423, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133190.173, -- [4]
+						24423, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						61295, -- [2]
+						552, -- [3]
+						1616133190.324, -- [4]
+						24975, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133190.577, -- [4]
+						24975, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						332572, -- [2]
+						10820, -- [3]
+						1616133190.577, -- [4]
+						14773, -- [5]
+						"[*] Falling Rubble", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						4, -- [1]
+						332572, -- [2]
+						1, -- [3]
+						1616133190.577, -- [4]
+						14773, -- [5]
+						"[*] Falling Rubble", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						201633, -- [2]
+						433, -- [3]
+						1616133190.577, -- [4]
+						14773, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						332444, -- [2]
+						433, -- [3]
+						1616133190.577, -- [4]
+						14773, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133190.695, -- [4]
+						14773, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335361, -- [2]
+						649, -- [3]
+						1616133190.695, -- [4]
+						14742, -- [5]
+						"[*] Stonequake", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4406, -- [3]
+						1616133191.006, -- [4]
+						19148, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.049, -- [4]
+						19148, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335779, -- [2]
+						872, -- [3]
+						1616133191.049, -- [4]
+						18894, -- [5]
+						"[*] Chain Link", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.183, -- [4]
+						18894, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						335361, -- [2]
+						648, -- [3]
+						1616133191.183, -- [4]
+						18864, -- [5]
+						"[*] Stonequake", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.267, -- [4]
+						18864, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						332698, -- [2]
+						11938, -- [3]
+						1616133191.267, -- [4]
+						7544, -- [5]
+						"Sludgefist", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						345364, -- [2]
+						889, -- [3]
+						1616133191.327, -- [4]
+						8433, -- [5]
+						"Sonatahunt-Stormrage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						201633, -- [2]
+						433, -- [3]
+						1616133191.566, -- [4]
+						8433, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						332444, -- [2]
+						433, -- [3]
+						1616133191.566, -- [4]
+						8433, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.672, -- [4]
+						8433, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						335361, -- [2]
+						649, -- [3]
+						1616133191.672, -- [4]
+						8402, -- [5]
+						"[*] Stonequake", -- [6]
+						618, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616133191.837, -- [4]
+						8402, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						201633, -- [2]
+						618, -- [3]
+						1616133191.878, -- [4]
+						8000, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [32]
 					{
 						true, -- [1]
-						344721, -- [2]
-						14366, -- [3]
-						1615360820.336, -- [4]
+						335295, -- [2]
+						94815, -- [3]
+						1616133191.878, -- [4]
 						1, -- [5]
-						"[*] Echoing Annihilation", -- [6]
-						598, -- [7]
-						8, -- [8]
+						"[*] Shattering Chain", -- [6]
+						618, -- [7]
+						1, -- [8]
 						false, -- [9]
-						1420, -- [10]
+						86197, -- [10]
 					}, -- [33]
 					{
 						3, -- [1]
@@ -9426,2591 +11177,237 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Zelse-Proudmoore", -- [6]
+						"Sonatahunt-Stormrage", -- [6]
 					}, -- [34]
 				},
-			}, -- [3]
+				["class"] = "HUNTER",
+				["timestring"] = "3m 1s",
+				["time"] = 1616133191.878,
+			}, -- [2]
 			{
-				["maxhealth"] = 35840,
-				["timeofdeath"] = 443.4280000000144,
-				["name"] = "Shamagon-Proudmoore",
-				["time"] = 1615360849.793,
-				["class"] = "SHAMAN",
-				["timestring"] = "7m 23s",
+				["maxhealth"] = 34800,
+				["timeofdeath"] = 184.4939999999988,
+				["name"] = "Kaladin-ScarletCrusade",
 				["events"] = {
 					{
-						false, -- [1]
-						114942, -- [2]
-						679, -- [3]
-						1615360841.117, -- [4]
-						37640, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						325983, -- [2]
-						2104, -- [3]
-						1615360841.461, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						61295, -- [2]
-						403, -- [3]
-						1615360841.461, -- [4]
-						37640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3306, -- [3]
-						1615360841.73, -- [4]
-						34334, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						73921, -- [2]
-						502, -- [3]
-						1615360842.075, -- [4]
-						34836, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						774, -- [2]
-						572, -- [3]
-						1615360842.129, -- [4]
-						35408, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						114942, -- [2]
-						678, -- [3]
-						1615360842.487, -- [4]
-						36086, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						364, -- [3]
-						1615360843.554, -- [4]
-						36450, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3307, -- [3]
-						1615360843.762, -- [4]
-						33143, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						114942, -- [2]
-						1419, -- [3]
-						1615360843.822, -- [4]
-						34562, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						774, -- [2]
-						572, -- [3]
-						1615360844.032, -- [4]
-						35134, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						197997, -- [2]
-						6280, -- [3]
-						1615360844.486, -- [4]
-						37640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						114942, -- [2]
-						687, -- [3]
-						1615360845.185, -- [4]
-						37640, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						61295, -- [2]
-						358, -- [3]
-						1615360845.57, -- [4]
-						37640, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3306, -- [3]
-						1615360845.787, -- [4]
-						34334, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						774, -- [2]
-						572, -- [3]
-						1615360845.854, -- [4]
-						34906, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						325983, -- [2]
-						2201, -- [3]
-						1615360846.517, -- [4]
-						37107, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						114942, -- [2]
-						572, -- [3]
-						1615360846.584, -- [4]
-						37640, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						333913, -- [2]
-						2, -- [3]
-						1615360846.764, -- [4]
-						37640, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						333716, -- [2]
-						13810, -- [3]
-						1615360846.764, -- [4]
-						23830, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						333913, -- [2]
-						3, -- [3]
-						1615360846.764, -- [4]
-						23830, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						333716, -- [2]
-						13810, -- [3]
-						1615360846.764, -- [4]
-						10020, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						61295, -- [2]
-						950, -- [3]
-						1615360847.635, -- [4]
-						10970, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						774, -- [2]
-						573, -- [3]
-						1615360847.748, -- [4]
-						11543, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						333913, -- [2]
-						9919, -- [3]
-						1615360847.748, -- [4]
-						1624, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						73921, -- [2]
-						604, -- [3]
-						1615360847.867, -- [4]
-						2228, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						114942, -- [2]
-						795, -- [3]
-						1615360847.95, -- [4]
-						3023, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						114942, -- [2]
-						800, -- [3]
-						1615360849.295, -- [4]
-						3823, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						774, -- [2]
-						601, -- [3]
-						1615360849.64, -- [4]
-						4424, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						61295, -- [2]
-						499, -- [3]
-						1615360849.703, -- [4]
-						4923, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						774, -- [2]
-						14, -- [3]
-						1615360849.703, -- [4]
-						4937, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						333913, -- [2]
-						9918, -- [3]
-						1615360849.793, -- [4]
-						1, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						4981, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						108271, -- [2]
+						2, -- [1]
+						95750, -- [2]
 						1, -- [3]
-						1615360699.262, -- [4]
+						1616133223.459, -- [4]
 						0, -- [5]
-						"Shamagon-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 36940,
-				["timeofdeath"] = 547.2510000000184,
-				["name"] = "Zelse-Proudmoore",
-				["time"] = 1615360953.616,
-				["class"] = "WARRIOR",
-				["timestring"] = "9m 7s",
-				["events"] = {
-					{
-						false, -- [1]
-						207386, -- [2]
-						154, -- [3]
-						1615360944.274, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						61295, -- [2]
-						443, -- [3]
-						1615360944.574, -- [4]
-						36940, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						77489, -- [2]
-						641, -- [3]
-						1615360944.663, -- [4]
-						36940, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						301, -- [3]
-						1615360944.708, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						48438, -- [2]
-						288, -- [3]
-						1615360945.491, -- [4]
-						36940, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						234946, -- [2]
-						2159, -- [3]
-						1615360945.601, -- [4]
-						36940, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						197997, -- [2]
-						776, -- [3]
-						1615360945.739, -- [4]
-						36940, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						4, -- [1]
-						333913, -- [2]
-						1, -- [3]
-						1615360945.916, -- [4]
-						36940, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						333716, -- [2]
-						14799, -- [3]
-						1615360945.916, -- [4]
-						22141, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360946.264, -- [4]
-						22296, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						252, -- [3]
-						1615360946.315, -- [4]
-						22548, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						61295, -- [2]
-						401, -- [3]
-						1615360946.62, -- [4]
-						22949, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						143924, -- [2]
-						49, -- [3]
-						1615360946.682, -- [4]
-						22998, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						290, -- [3]
-						1615360946.791, -- [4]
-						23288, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						234946, -- [2]
-						2148, -- [3]
-						1615360946.791, -- [4]
-						25436, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						225311, -- [2]
-						2455, -- [3]
-						1615360947.56, -- [4]
-						27891, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						753, -- [3]
-						1615360947.637, -- [4]
-						28644, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						87, -- [3]
-						1615360947.899, -- [4]
-						28731, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3333, -- [3]
-						1615360947.899, -- [4]
-						25398, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						143924, -- [2]
-						81, -- [3]
-						1615360949.132, -- [4]
-						25479, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3332, -- [3]
-						1615360949.924, -- [4]
-						22147, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						121, -- [3]
-						1615360950.287, -- [4]
-						22268, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						753, -- [3]
-						1615360950.673, -- [4]
-						23021, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1109, -- [3]
-						1615360951.147, -- [4]
-						24130, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						197997, -- [2]
-						2921, -- [3]
-						1615360951.453, -- [4]
-						27051, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360951.511, -- [4]
-						27051, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						160, -- [3]
-						1615360951.511, -- [4]
-						27211, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3333, -- [3]
-						1615360951.915, -- [4]
-						23878, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						97, -- [3]
-						1615360952.733, -- [4]
-						23975, -- [5]
-						"Zelse-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11838, -- [3]
-						1615360953.502, -- [4]
-						12137, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11838, -- [3]
-						1615360953.552, -- [4]
-						299, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11838, -- [3]
-						1615360953.552, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						11539, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Zelse-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [5]
-			{
-				["maxhealth"] = 35900,
-				["timeofdeath"] = 547.2510000000184,
-				["name"] = "Charismá-Proudmoore",
-				["time"] = 1615360953.616,
-				["class"] = "SHAMAN",
-				["timestring"] = "9m 7s",
-				["events"] = {
-					{
-						false, -- [1]
-						73921, -- [2]
-						279, -- [3]
-						1615360938.059, -- [4]
-						26148, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						81269, -- [2]
-						440, -- [3]
-						1615360938.593, -- [4]
-						26588, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						382, -- [3]
-						1615360940.626, -- [4]
-						26970, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						207386, -- [2]
-						326, -- [3]
-						1615360940.626, -- [4]
-						27296, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						225311, -- [2]
-						2306, -- [3]
-						1615360940.977, -- [4]
-						29602, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						48438, -- [2]
-						369, -- [3]
-						1615360941.421, -- [4]
-						29971, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						4, -- [1]
-						333377, -- [2]
-						1, -- [3]
-						1615360941.81, -- [4]
-						29971, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						355, -- [3]
-						1615360942.26, -- [4]
-						30326, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360942.587, -- [4]
-						30481, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						48438, -- [2]
-						652, -- [3]
-						1615360943.05, -- [4]
-						31133, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						81269, -- [2]
-						72, -- [3]
-						1615360943.745, -- [4]
-						31205, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						314, -- [3]
-						1615360943.856, -- [4]
-						31519, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						207386, -- [2]
-						310, -- [3]
-						1615360944.614, -- [4]
-						31829, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						301, -- [3]
-						1615360944.708, -- [4]
-						32130, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						288, -- [3]
-						1615360945.491, -- [4]
-						32418, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						197997, -- [2]
-						6477, -- [3]
-						1615360945.829, -- [4]
-						37700, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						276, -- [3]
-						1615360946.315, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360946.62, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						48438, -- [2]
-						158, -- [3]
-						1615360946.791, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						333913, -- [2]
-						1, -- [3]
-						1615360947.956, -- [4]
-						37700, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						333716, -- [2]
-						11869, -- [3]
-						1615360947.956, -- [4]
-						25831, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360948.656, -- [4]
-						25973, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						333913, -- [2]
-						2675, -- [3]
-						1615360949.974, -- [4]
-						23298, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						207386, -- [2]
-						143, -- [3]
-						1615360950.605, -- [4]
-						23441, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1109, -- [3]
-						1615360951.147, -- [4]
-						24550, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						145110, -- [2]
-						1172, -- [3]
-						1615360951.269, -- [4]
-						25722, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360951.511, -- [4]
-						25722, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						197997, -- [2]
-						2804, -- [3]
-						1615360951.62, -- [4]
-						28526, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3343, -- [3]
-						1615360951.967, -- [4]
-						25183, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360953.502, -- [4]
-						13901, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11529, -- [3]
-						1615360953.502, -- [4]
-						2372, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360953.552, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						8910, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Charismá-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [6]
-			{
-				["maxhealth"] = 35840,
-				["timeofdeath"] = 547.2510000000184,
-				["name"] = "Shamagon-Proudmoore",
-				["time"] = 1615360953.616,
-				["class"] = "SHAMAN",
-				["timestring"] = "9m 7s",
-				["events"] = {
-					{
-						false, -- [1]
-						81269, -- [2]
-						431, -- [3]
-						1615360938.593, -- [4]
-						24598, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						61295, -- [2]
-						528, -- [3]
-						1615360939.088, -- [4]
-						25126, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						61295, -- [2]
-						528, -- [3]
-						1615360940.462, -- [4]
-						25654, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						382, -- [3]
-						1615360940.626, -- [4]
-						26036, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						207386, -- [2]
-						163, -- [3]
-						1615360940.626, -- [4]
-						26199, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						225311, -- [2]
-						2445, -- [3]
-						1615360940.977, -- [4]
-						28644, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						48438, -- [2]
-						369, -- [3]
-						1615360941.421, -- [4]
-						29013, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1024, -- [3]
-						1615360941.871, -- [4]
-						30037, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						355, -- [3]
-						1615360942.26, -- [4]
-						30392, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						207386, -- [2]
-						155, -- [3]
-						1615360942.63, -- [4]
-						30547, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						326, -- [3]
-						1615360943.05, -- [4]
-						30873, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						61295, -- [2]
-						494, -- [3]
-						1615360943.104, -- [4]
-						31367, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						81269, -- [2]
-						74, -- [3]
-						1615360943.745, -- [4]
-						31441, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						314, -- [3]
-						1615360943.856, -- [4]
-						31755, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						207386, -- [2]
-						310, -- [3]
-						1615360944.614, -- [4]
-						32065, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						61295, -- [2]
-						460, -- [3]
-						1615360944.614, -- [4]
-						32525, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						601, -- [3]
-						1615360944.708, -- [4]
-						33126, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						61295, -- [2]
-						352, -- [3]
-						1615360945.176, -- [4]
-						33478, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						197997, -- [2]
-						3243, -- [3]
-						1615360945.442, -- [4]
-						35840, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						48438, -- [2]
-						288, -- [3]
-						1615360945.491, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						61295, -- [2]
-						228, -- [3]
-						1615360946.041, -- [4]
-						35840, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						48438, -- [2]
-						275, -- [3]
-						1615360946.315, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						207386, -- [2]
-						310, -- [3]
-						1615360946.62, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						158, -- [3]
-						1615360946.791, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360948.656, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360950.605, -- [4]
-						35840, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360951.511, -- [4]
-						35840, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						197997, -- [2]
-						623, -- [3]
-						1615360951.674, -- [4]
-						35840, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11158, -- [3]
-						1615360953.502, -- [4]
-						24682, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11158, -- [3]
-						1615360953.502, -- [4]
-						13524, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11158, -- [3]
-						1615360953.502, -- [4]
-						2366, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11158, -- [3]
-						1615360953.552, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						8792, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1615360699.262, -- [4]
-						0, -- [5]
-						"Shamagon-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [7]
-			{
-				["maxhealth"] = 37980,
-				["timeofdeath"] = 550.2330000000075,
-				["name"] = "Høneyß-Tichondrius",
-				["time"] = 1615360956.598,
-				["class"] = "DRUID",
-				["timestring"] = "9m 10s",
-				["events"] = {
-					{
-						false, -- [1]
-						145109, -- [2]
-						1196, -- [3]
-						1615360941.982, -- [4]
-						32097, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						"Archedemus-Frostmourne", -- [6]
 					}, -- [1]
 					{
 						false, -- [1]
 						143924, -- [2]
-						43, -- [3]
-						1615360942.201, -- [4]
-						32140, -- [5]
-						"Høneyß-Tichondrius", -- [6]
+						102, -- [3]
+						1616133182.813, -- [4]
+						33479, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						77489, -- [2]
-						225, -- [3]
-						1615360942.315, -- [4]
-						32365, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						863, -- [3]
+						1616133183.045, -- [4]
+						32616, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
-						false, -- [1]
-						143924, -- [2]
-						62, -- [3]
-						1615360943.46, -- [4]
-						32427, -- [5]
-						"Høneyß-Tichondrius", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						392, -- [3]
+						1616133183.601, -- [4]
+						32224, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
+						1, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
-					{
-						false, -- [1]
-						774, -- [2]
-						2167, -- [3]
-						1615360944.068, -- [4]
-						34594, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						48, -- [3]
-						1615360944.663, -- [4]
-						34642, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
 					{
 						false, -- [1]
 						143924, -- [2]
 						18, -- [3]
-						1615360945.872, -- [4]
-						34660, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						774, -- [2]
-						2167, -- [3]
-						1615360946.791, -- [4]
-						36827, -- [5]
-						"Høneyß-Tichondrius", -- [6]
+						1616133184.009, -- [4]
+						32242, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1197, -- [3]
-						1615360947.009, -- [4]
-						38024, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						43, -- [3]
-						1615360947.098, -- [4]
-						38067, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						333913, -- [2]
-						1, -- [3]
-						1615360947.265, -- [4]
-						38067, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						333716, -- [2]
-						13976, -- [3]
-						1615360947.265, -- [4]
-						24091, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						342309, -- [2]
-						1994, -- [3]
-						1615360947.32, -- [4]
-						26085, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						60, -- [3]
-						1615360948.295, -- [4]
-						26145, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3322, -- [3]
-						1615360949.27, -- [4]
-						22823, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						774, -- [2]
-						1084, -- [3]
-						1615360949.42, -- [4]
-						23907, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						27, -- [3]
-						1615360949.527, -- [4]
-						23934, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5, -- [3]
-						1615360950.737, -- [4]
-						23939, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1109, -- [3]
-						1615360951.147, -- [4]
-						25048, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3323, -- [3]
-						1615360951.269, -- [4]
-						21725, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360951.511, -- [4]
-						21725, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						47, -- [3]
-						1615360951.915, -- [4]
-						21772, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1196, -- [3]
-						1615360952.06, -- [4]
-						22968, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						774, -- [2]
-						1084, -- [3]
-						1615360952.129, -- [4]
-						24052, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						35, -- [3]
-						1615360953.149, -- [4]
-						24087, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3322, -- [3]
-						1615360953.298, -- [4]
-						20765, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						774, -- [2]
-						665, -- [3]
-						1615360953.748, -- [4]
-						21430, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						24, -- [3]
-						1615360954.405, -- [4]
-						21454, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						333913, -- [2]
-						3322, -- [3]
-						1615360955.31, -- [4]
-						18132, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11068, -- [3]
-						1615360955.578, -- [4]
-						7064, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						143924, -- [2]
-						49, -- [3]
-						1615360955.657, -- [4]
-						7113, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						339693, -- [2]
-						8316, -- [3]
-						1615360956.528, -- [4]
-						1, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						1203, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1615360850.673, -- [4]
-						0, -- [5]
-						"Høneyß-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [8]
-			{
-				["maxhealth"] = 46640,
-				["timeofdeath"] = 551.2419999999984,
-				["name"] = "Chawnkytrog-Stormrage",
-				["time"] = 1615360957.607,
-				["class"] = "MONK",
-				["timestring"] = "9m 11s",
-				["events"] = {
-					{
-						true, -- [1]
-						124255, -- [2]
-						1111, -- [3]
-						1615360954.346, -- [4]
-						27588, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						339690, -- [2]
-						1673, -- [3]
-						1615360954.514, -- [4]
-						25915, -- [5]
-						"General Grashaal", -- [6]
-						496, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						8936, -- [2]
-						403, -- [3]
-						1615360954.57, -- [4]
-						26318, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						487, -- [3]
-						1615360954.605, -- [4]
-						26805, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						325983, -- [2]
-						2255, -- [3]
-						1615360954.637, -- [4]
-						29060, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [5]
 					{
-						false, -- [1]
-						33763, -- [2]
-						363, -- [3]
-						1615360954.676, -- [4]
-						29423, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
 						true, -- [1]
-						124255, -- [2]
-						1080, -- [3]
-						1615360954.862, -- [4]
-						28343, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
+						332444, -- [2]
+						392, -- [3]
+						1616133184.576, -- [4]
+						31850, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						343881, -- [2]
-						2510, -- [3]
-						1615360954.973, -- [4]
-						25833, -- [5]
-						"General Kaal", -- [6]
-						744, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						124255, -- [2]
-						1063, -- [3]
-						1615360955.346, -- [4]
-						24770, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						33763, -- [2]
-						364, -- [3]
-						1615360955.465, -- [4]
-						25134, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						339690, -- [2]
-						1672, -- [3]
-						1615360955.578, -- [4]
-						23462, -- [5]
-						"General Grashaal", -- [6]
-						496, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						124255, -- [2]
-						1035, -- [3]
-						1615360955.853, -- [4]
-						22427, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						343881, -- [2]
-						2510, -- [3]
-						1615360955.952, -- [4]
-						19917, -- [5]
-						"General Kaal", -- [6]
-						744, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						774, -- [2]
-						811, -- [3]
-						1615360956.15, -- [4]
-						20728, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						216521, -- [2]
-						218, -- [3]
-						1615360956.201, -- [4]
-						20946, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						8936, -- [2]
-						335, -- [3]
-						1615360956.201, -- [4]
-						21281, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						216521, -- [2]
-						104, -- [3]
-						1615360956.241, -- [4]
-						21385, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						196608, -- [2]
-						159, -- [3]
-						1615360956.241, -- [4]
-						21544, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						216521, -- [2]
-						197, -- [3]
-						1615360956.304, -- [4]
-						21741, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						33763, -- [2]
-						303, -- [3]
-						1615360956.304, -- [4]
-						22044, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						124255, -- [2]
-						1021, -- [3]
-						1615360956.343, -- [4]
-						21023, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						339690, -- [2]
-						2091, -- [3]
-						1615360956.528, -- [4]
-						18932, -- [5]
-						"General Grashaal", -- [6]
-						620, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						339693, -- [2]
-						1, -- [3]
-						1615360956.528, -- [4]
-						18932, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						339693, -- [2]
-						6172, -- [3]
-						1615360956.528, -- [4]
-						12760, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						1984, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						124255, -- [2]
-						1100, -- [3]
-						1615360956.887, -- [4]
-						11660, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						216521, -- [2]
-						394, -- [3]
-						1615360957.093, -- [4]
-						12054, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						33763, -- [2]
-						606, -- [3]
-						1615360957.093, -- [4]
-						12660, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						61295, -- [2]
-						500, -- [3]
-						1615360957.31, -- [4]
-						13160, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						2395, -- [3]
-						1615360957.31, -- [4]
-						15555, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						124255, -- [2]
-						1100, -- [3]
-						1615360957.367, -- [4]
-						14455, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						8262, -- [3]
-						1615360957.51, -- [4]
-						6193, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						2593, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						8262, -- [3]
-						1615360957.549, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						2593, -- [7]
-						8, -- [8]
-						false, -- [9]
-						2069, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						115203, -- [2]
-						1, -- [3]
-						1615360868.345, -- [4]
-						0, -- [5]
-						"Chawnkytrog-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [9]
-			{
-				["maxhealth"] = 37260,
-				["timeofdeath"] = 552.4670000000042,
-				["name"] = "Ghorleo-Nagrand",
-				["time"] = 1615360958.832,
-				["class"] = "WARRIOR",
-				["timestring"] = "9m 12s",
-				["events"] = {
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360932.655, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						61295, -- [2]
-						581, -- [3]
-						1615360933.75, -- [4]
-						39120, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						81269, -- [2]
-						436, -- [3]
-						1615360933.86, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						929, -- [3]
-						1615360934.014, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						300, -- [3]
-						1615360935.176, -- [4]
-						39120, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360935.919, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
-						false, -- [1]
-						61295, -- [2]
-						465, -- [3]
-						1615360936.65, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						862, -- [3]
+						1616133185.068, -- [4]
+						30988, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						207386, -- [2]
-						299, -- [3]
-						1615360937.876, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						143924, -- [2]
+						58, -- [3]
+						1616133185.214, -- [4]
+						31046, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
-						false, -- [1]
-						61295, -- [2]
-						465, -- [3]
-						1615360939.293, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						391, -- [3]
+						1616133185.572, -- [4]
+						30655, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						207386, -- [2]
-						150, -- [3]
-						1615360939.901, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						143924, -- [2]
+						33, -- [3]
+						1616133186.442, -- [4]
+						30688, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						61295, -- [2]
-						465, -- [3]
-						1615360941.933, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						391, -- [3]
+						1616133186.591, -- [4]
+						30297, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
-						false, -- [1]
-						81269, -- [2]
-						417, -- [3]
-						1615360943.513, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						862, -- [3]
+						1616133187.059, -- [4]
+						29435, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
 					{
-						false, -- [1]
-						61295, -- [2]
-						443, -- [3]
-						1615360944.614, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						391, -- [3]
+						1616133187.618, -- [4]
+						29044, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
 						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360945.538, -- [4]
-						39120, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						143924, -- [2]
+						136, -- [3]
+						1616133187.68, -- [4]
+						29180, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [14]
 					{
-						false, -- [1]
-						197997, -- [2]
-						1552, -- [3]
-						1615360945.695, -- [4]
-						39120, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						392, -- [3]
+						1616133188.622, -- [4]
+						28788, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						4, -- [1]
-						333913, -- [2]
-						1, -- [3]
-						1615360945.916, -- [4]
-						39120, -- [5]
-						"General Kaal", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						143924, -- [2]
+						129, -- [3]
+						1616133188.853, -- [4]
+						28917, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [16]
 					{
-						false, -- [1]
-						317497, -- [2]
-						1781, -- [3]
-						1615360945.916, -- [4]
-						39120, -- [5]
-						"Ghorleo-Nagrand", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						335779, -- [2]
+						863, -- [3]
+						1616133189.056, -- [4]
+						28054, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
 						true, -- [1]
-						333716, -- [2]
-						14636, -- [3]
-						1615360945.916, -- [4]
-						26265, -- [5]
-						"General Kaal", -- [6]
-						1781, -- [7]
-						32, -- [8]
+						332444, -- [2]
+						392, -- [3]
+						1616133189.63, -- [4]
+						27662, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						61295, -- [2]
-						782, -- [3]
-						1615360946.682, -- [4]
-						27047, -- [5]
-						"Samoansage", -- [6]
+						19750, -- [2]
+						7354, -- [3]
+						1616133190.077, -- [4]
+						35016, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -12018,59 +11415,59 @@ DeathGraphsDBCurrent = {
 					}, -- [19]
 					{
 						false, -- [1]
-						207386, -- [2]
-						143, -- [3]
-						1615360947.51, -- [4]
-						27190, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						143924, -- [2]
+						25, -- [3]
+						1616133190.077, -- [4]
+						35041, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						false, -- [1]
-						225311, -- [2]
-						2435, -- [3]
-						1615360947.56, -- [4]
-						29625, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						391, -- [3]
+						1616133190.624, -- [4]
+						34650, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [21]
 					{
 						true, -- [1]
-						333913, -- [2]
-						3395, -- [3]
-						1615360947.899, -- [4]
-						26230, -- [5]
-						"General Kaal", -- [6]
+						335779, -- [2]
+						863, -- [3]
+						1616133191.049, -- [4]
+						33787, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
 						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
-						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1615360949.527, -- [4]
-						26372, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332698, -- [2]
+						12200, -- [3]
+						1616133191.267, -- [4]
+						21587, -- [5]
+						"Sludgefist", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
 						true, -- [1]
-						333913, -- [2]
-						3395, -- [3]
-						1615360949.924, -- [4]
-						22977, -- [5]
-						"General Kaal", -- [6]
+						332444, -- [2]
+						391, -- [3]
+						1616133191.636, -- [4]
+						21196, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
 						false, -- [9]
@@ -12078,2957 +11475,1839 @@ DeathGraphsDBCurrent = {
 					}, -- [24]
 					{
 						false, -- [1]
-						157503, -- [2]
-						1109, -- [3]
-						1615360951.147, -- [4]
-						24086, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						143924, -- [2]
+						17, -- [3]
+						1616133191.71, -- [4]
+						21213, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [25]
 					{
-						false, -- [1]
-						197997, -- [2]
-						2978, -- [3]
-						1615360951.511, -- [4]
-						27064, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360951.511, -- [4]
-						27064, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
 						true, -- [1]
-						333913, -- [2]
-						3395, -- [3]
-						1615360951.915, -- [4]
-						23669, -- [5]
-						"General Kaal", -- [6]
+						332444, -- [2]
+						391, -- [3]
+						1616133192.632, -- [4]
+						19810, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						335779, -- [2]
+						863, -- [3]
+						1616133193.042, -- [4]
+						18947, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						107, -- [3]
+						1616133193.328, -- [4]
+						19054, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
 						true, -- [1]
-						333913, -- [2]
-						3395, -- [3]
-						1615360953.943, -- [4]
-						20274, -- [5]
-						"General Kaal", -- [6]
+						332444, -- [2]
+						392, -- [3]
+						1616133193.628, -- [4]
+						18662, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
-						true, -- [1]
-						333913, -- [2]
-						3394, -- [3]
-						1615360955.952, -- [4]
-						16880, -- [5]
-						"General Kaal", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						18, -- [3]
+						1616133194.567, -- [4]
+						18680, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						true, -- [1]
-						333913, -- [2]
-						3394, -- [3]
-						1615360957.955, -- [4]
-						13486, -- [5]
-						"General Kaal", -- [6]
+						false, -- [1]
+						183811, -- [2]
+						201, -- [3]
+						1616133194.638, -- [4]
+						18881, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						339728, -- [2]
-						223120, -- [3]
-						1615360958.832, -- [4]
-						1, -- [5]
-						"General Grashaal", -- [6]
+						332444, -- [2]
+						392, -- [3]
+						1616133194.638, -- [4]
+						18489, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
-						209634, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
-						3, -- [1]
-						118038, -- [2]
-						1, -- [3]
-						1615360851.094, -- [4]
-						0, -- [5]
-						"Ghorleo-Nagrand", -- [6]
+						true, -- [1]
+						335298, -- [2]
+						21918, -- [3]
+						1616133195.05, -- [4]
+						1, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						3429, -- [10]
 					}, -- [33]
-				},
-			}, -- [10]
-		},
-		["bossname"] = "Stone Legion Generals",
-		["bossicon"] = {
-			0, -- [1]
-			1, -- [2]
-			0, -- [3]
-			1, -- [4]
-			3753156, -- [5]
-		},
-		["date"] = 207351.553,
-		["timeelapsed"] = 554.4790000000212,
-	}, -- [1]
-	{
-		["deaths"] = {
-			{
-				["maxhealth"] = 35180,
-				["timeofdeath"] = 229.4850000000151,
-				["name"] = "Critia-Maelstrom",
-				["time"] = 1615360036.728,
-				["class"] = "PRIEST",
-				["timestring"] = "3m 49s",
-				["events"] = {
-					{
-						false, -- [1]
-						61295, -- [2]
-						319, -- [3]
-						1615360010.407, -- [4]
-						26562, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1521, -- [3]
-						1615360010.488, -- [4]
-						28083, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						81269, -- [2]
-						419, -- [3]
-						1615360010.599, -- [4]
-						28502, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						34914, -- [2]
-						275, -- [3]
-						1615360011.382, -- [4]
-						28777, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						73921, -- [2]
-						567, -- [3]
-						1615360012.304, -- [4]
-						29344, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						207386, -- [2]
-						143, -- [3]
-						1615360012.623, -- [4]
-						29487, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1406, -- [3]
-						1615360012.988, -- [4]
-						30893, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						34914, -- [2]
-						509, -- [3]
-						1615360013.852, -- [4]
-						31402, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1267, -- [3]
-						1615360014.516, -- [4]
-						32669, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360014.666, -- [4]
-						32818, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						157503, -- [2]
-						624, -- [3]
-						1615360015.141, -- [4]
-						33442, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1406, -- [3]
-						1615360015.414, -- [4]
-						34848, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						34914, -- [2]
-						242, -- [3]
-						1615360016.348, -- [4]
-						35090, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						335467, -- [2]
-						292, -- [3]
-						1615360016.475, -- [4]
-						35382, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						207386, -- [2]
-						149, -- [3]
-						1615360016.623, -- [4]
-						35531, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						197997, -- [2]
-						1840, -- [3]
-						1615360016.974, -- [4]
-						36940, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						343086, -- [2]
-						1172, -- [3]
-						1615360030.173, -- [4]
-						35768, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						204883, -- [2]
-						2064, -- [3]
-						1615360030.246, -- [4]
-						36940, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						343895, -- [2]
-						1, -- [3]
-						1615360030.979, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						343895, -- [2]
-						2, -- [3]
-						1615360031.968, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						343895, -- [2]
-						3, -- [3]
-						1615360032.912, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						245, -- [3]
-						1615360033.301, -- [4]
-						36940, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						4, -- [1]
-						343895, -- [2]
-						4, -- [3]
-						1615360033.948, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360034.684, -- [4]
-						36940, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						4, -- [1]
-						343895, -- [2]
-						5, -- [3]
-						1615360034.901, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						335467, -- [2]
-						394, -- [3]
-						1615360035.767, -- [4]
-						36940, -- [5]
-						"Critia-Maelstrom", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						343895, -- [2]
-						6, -- [3]
-						1615360035.915, -- [4]
-						36940, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						77489, -- [2]
-						245, -- [3]
-						1615360036.294, -- [4]
-						36940, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11669, -- [3]
-						1615360036.671, -- [4]
-						25271, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11669, -- [3]
-						1615360036.671, -- [4]
-						13602, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						12039, -- [3]
-						1615360036.671, -- [4]
-						1563, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11669, -- [3]
-						1615360036.728, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						10106, -- [10]
-					}, -- [32]
 					{
 						3, -- [1]
 						0, -- [2]
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Critia-Maelstrom", -- [6]
-					}, -- [33]
+						"Kaladin-ScarletCrusade", -- [6]
+					}, -- [34]
 				},
-			}, -- [1]
+				["class"] = "PALADIN",
+				["timestring"] = "3m 4s",
+				["time"] = 1616133195.089,
+			}, -- [3]
 			{
-				["maxhealth"] = 36680,
-				["timeofdeath"] = 260.1290000000154,
-				["name"] = "Chaoticdeath-Sargeras",
-				["time"] = 1615360067.372,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "4m 20s",
+				["maxhealth"] = 37740,
+				["timeofdeath"] = 286.1869999999981,
+				["name"] = "Omik-ArgentDawn",
 				["events"] = {
 					{
 						false, -- [1]
-						48438, -- [2]
-						408, -- [3]
-						1615360059.672, -- [4]
-						29706, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						8936, -- [2]
+						194, -- [3]
+						1616133289.853, -- [4]
+						20766, -- [5]
+						"Jhacobo-Darkspear", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						73921, -- [2]
-						497, -- [3]
-						1615360059.672, -- [4]
-						30203, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						706, -- [3]
+						1616133290.103, -- [4]
+						20060, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						48438, -- [2]
-						393, -- [3]
-						1615360060.49, -- [4]
-						30596, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						529, -- [3]
+						1616133290.285, -- [4]
+						19531, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						207386, -- [2]
-						180, -- [3]
-						1615360060.904, -- [4]
-						30776, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						61295, -- [2]
+						579, -- [3]
+						1616133290.501, -- [4]
+						20110, -- [5]
+						"Limlock-Onyxia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						48438, -- [2]
-						378, -- [3]
-						1615360061.293, -- [4]
-						31154, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						530, -- [3]
+						1616133290.769, -- [4]
+						19580, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						73921, -- [2]
-						484, -- [3]
-						1615360061.455, -- [4]
-						31638, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
+						337824, -- [2]
+						587, -- [3]
+						1616133291.132, -- [4]
+						19580, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [6]
 					{
-						false, -- [1]
-						774, -- [2]
-						1449, -- [3]
-						1615360061.599, -- [4]
-						33087, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						332444, -- [2]
+						707, -- [3]
+						1616133291.132, -- [4]
+						19460, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						587, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
-						false, -- [1]
-						81269, -- [2]
-						588, -- [3]
-						1615360061.782, -- [4]
-						33675, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						530, -- [3]
+						1616133291.293, -- [4]
+						18930, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360061.827, -- [4]
-						33675, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
-						true, -- [7]
+						8936, -- [2]
+						189, -- [3]
+						1616133291.375, -- [4]
+						19119, -- [5]
+						"Jhacobo-Darkspear", -- [6]
+						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [9]
 					{
 						true, -- [1]
-						339728, -- [2]
-						12310, -- [3]
-						1615360061.827, -- [4]
-						21986, -- [5]
-						"General Grashaal", -- [6]
-						621, -- [7]
-						8, -- [8]
+						335361, -- [2]
+						530, -- [3]
+						1616133291.769, -- [4]
+						18589, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						48438, -- [2]
-						727, -- [3]
-						1615360062.114, -- [4]
-						22713, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						707, -- [3]
+						1616133292.122, -- [4]
+						17882, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						207386, -- [2]
-						179, -- [3]
-						1615360062.903, -- [4]
-						22892, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						698, -- [3]
-						1615360062.962, -- [4]
-						23590, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						61295, -- [2]
+						388, -- [3]
+						1616133292.282, -- [4]
+						18270, -- [5]
+						"Limlock-Onyxia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						335361, -- [2]
+						530, -- [3]
+						1616133292.282, -- [4]
+						17740, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [13]
 					{
-						false, -- [1]
-						73921, -- [2]
-						514, -- [3]
-						1615360063.212, -- [4]
-						24104, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						529, -- [3]
+						1616133292.78, -- [4]
+						17211, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						61295, -- [2]
-						4885, -- [3]
-						1615360063.286, -- [4]
-						28989, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						48438, -- [2]
-						335, -- [3]
-						1615360063.733, -- [4]
-						29324, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						8936, -- [2]
+						165, -- [3]
+						1616133292.879, -- [4]
+						17376, -- [5]
+						"Jhacobo-Darkspear", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						157503, -- [2]
+						3124, -- [3]
+						1616133293.041, -- [4]
+						20500, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [16]
 					{
-						false, -- [1]
-						774, -- [2]
-						1448, -- [3]
-						1615360064.085, -- [4]
-						30772, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						707, -- [3]
+						1616133293.138, -- [4]
+						19793, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [17]
 					{
-						false, -- [1]
-						48438, -- [2]
-						639, -- [3]
-						1615360064.594, -- [4]
-						31411, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						529, -- [3]
+						1616133293.273, -- [4]
+						19264, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [18]
 					{
-						false, -- [1]
-						207386, -- [2]
-						180, -- [3]
-						1615360064.907, -- [4]
-						31591, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616133293.785, -- [4]
+						18660, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
-						false, -- [1]
-						157503, -- [2]
-						1100, -- [3]
-						1615360064.989, -- [4]
-						32691, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						807, -- [3]
+						1616133294.147, -- [4]
+						17853, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						false, -- [1]
-						48438, -- [2]
-						183, -- [3]
-						1615360065.064, -- [4]
-						32874, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616133294.287, -- [4]
+						17249, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
-						4, -- [1]
-						344502, -- [2]
-						1, -- [3]
-						1615360065.064, -- [4]
-						32874, -- [5]
-						"[*] Unstable Footing", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						8936, -- [2]
+						164, -- [3]
+						1616133294.354, -- [4]
+						17413, -- [5]
+						"Jhacobo-Darkspear", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						61295, -- [2]
-						485, -- [3]
-						1615360065.933, -- [4]
-						33359, -- [5]
-						"Samoansage", -- [6]
+						225311, -- [2]
+						2044, -- [3]
+						1616133294.604, -- [4]
+						19457, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [23]
 					{
-						false, -- [1]
-						207203, -- [2]
-						323, -- [3]
-						1615360066.049, -- [4]
-						33359, -- [5]
-						"Chaoticdeath-Sargeras", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616133294.766, -- [4]
+						18853, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
 						true, -- [1]
-						344502, -- [2]
-						1453, -- [3]
-						1615360066.049, -- [4]
-						32229, -- [5]
-						"[*] Unstable Footing", -- [6]
-						323, -- [7]
-						8, -- [8]
+						332444, -- [2]
+						807, -- [3]
+						1616133295.137, -- [4]
+						18046, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616133295.28, -- [4]
+						17442, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
 						false, -- [1]
-						774, -- [2]
-						669, -- [3]
-						1615360066.506, -- [4]
-						32898, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						8936, -- [2]
+						164, -- [3]
+						1616133295.74, -- [4]
+						17606, -- [5]
+						"Jhacobo-Darkspear", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						207386, -- [2]
-						158, -- [3]
-						1615360066.914, -- [4]
-						33056, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
 					}, -- [27]
 					{
 						true, -- [1]
-						344502, -- [2]
-						1452, -- [3]
-						1615360067.082, -- [4]
-						31604, -- [5]
-						"[*] Unstable Footing", -- [6]
+						335361, -- [2]
+						604, -- [3]
+						1616133295.775, -- [4]
+						17002, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
-						4, -- [1]
-						344655, -- [2]
-						1, -- [3]
-						1615360067.289, -- [4]
-						31604, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						332444, -- [2]
+						806, -- [3]
+						1616133296.153, -- [4]
+						16196, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [29]
 					{
 						true, -- [1]
-						344500, -- [2]
-						13589, -- [3]
-						1615360067.289, -- [4]
-						18015, -- [5]
-						"General Grashaal", -- [6]
+						335361, -- [2]
+						604, -- [3]
+						1616133296.284, -- [4]
+						15592, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						4, -- [1]
-						344655, -- [2]
-						2, -- [3]
-						1615360067.372, -- [4]
-						18015, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						332698, -- [2]
+						15440, -- [3]
+						1616133296.385, -- [4]
+						152, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						344721, -- [2]
-						81532, -- [3]
-						1615360067.372, -- [4]
+						335361, -- [2]
+						604, -- [3]
+						1616133296.782, -- [4]
 						1, -- [5]
-						"[*] Echoing Annihilation", -- [6]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
-						63517, -- [10]
+						452, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
 						48792, -- [2]
 						1, -- [3]
-						1615359835.494, -- [4]
+						1616133206.171, -- [4]
 						0, -- [5]
-						"Chaoticdeath-Sargeras", -- [6]
+						"Omik-ArgentDawn", -- [6]
 					}, -- [33]
 				},
-			}, -- [2]
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "4m 46s",
+				["time"] = 1616133296.782,
+			}, -- [4]
 			{
-				["maxhealth"] = 37200,
-				["timeofdeath"] = 260.1290000000154,
-				["name"] = "Rejuvanate-Caelestrasz",
-				["time"] = 1615360067.372,
-				["class"] = "DRUID",
-				["timestring"] = "4m 20s",
+				["maxhealth"] = 36680,
+				["timeofdeath"] = 333.0459999999985,
+				["name"] = "Archedemus-Frostmourne",
 				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1615360148.631, -- [4]
-						0, -- [5]
-						"Snakpak-Proudmoore", -- [6]
-					}, -- [1]
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1615360085.146, -- [4]
-						0, -- [5]
-						"Snakpak-Proudmoore", -- [6]
-					}, -- [2]
-					{
-						4, -- [1]
-						343895, -- [2]
-						6, -- [3]
-						1615360035.915, -- [4]
-						39060, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						238, -- [3]
-						1615360036.294, -- [4]
-						39060, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						774, -- [2]
-						584, -- [3]
-						1615360036.848, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						774, -- [2]
-						584, -- [3]
-						1615360039.268, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						4, -- [1]
-						344502, -- [2]
-						1, -- [3]
-						1615360040.419, -- [4]
-						39060, -- [5]
-						"[*] Unstable Footing", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1415, -- [3]
-						1615360041.418, -- [4]
-						37645, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						774, -- [2]
-						573, -- [3]
-						1615360041.711, -- [4]
-						38218, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						774, -- [2]
-						624, -- [3]
-						1615360044.182, -- [4]
-						38842, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						774, -- [2]
-						82, -- [3]
-						1615360044.502, -- [4]
-						38924, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						668, -- [3]
-						1615360044.616, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						322, -- [3]
-						1615360045.409, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						310, -- [3]
-						1615360046.227, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						299, -- [3]
-						1615360047.068, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						48438, -- [2]
-						287, -- [3]
-						1615360047.876, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						276, -- [3]
-						1615360048.666, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						48438, -- [2]
-						264, -- [3]
-						1615360049.516, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						48438, -- [2]
-						253, -- [3]
-						1615360050.326, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						48438, -- [2]
-						145, -- [3]
-						1615360050.815, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						344502, -- [2]
-						1, -- [3]
-						1615360063.429, -- [4]
-						39060, -- [5]
-						"[*] Unstable Footing", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1399, -- [3]
-						1615360064.441, -- [4]
-						37661, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1100, -- [3]
-						1615360064.989, -- [4]
-						38761, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1172, -- [3]
-						1615360065.309, -- [4]
-						39060, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1399, -- [3]
-						1615360065.452, -- [4]
-						37661, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						344502, -- [2]
-						1399, -- [3]
-						1615360066.436, -- [4]
-						36262, -- [5]
-						"[*] Unstable Footing", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						344655, -- [2]
-						1, -- [3]
-						1615360067.289, -- [4]
-						36262, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						344500, -- [2]
-						13686, -- [3]
-						1615360067.289, -- [4]
-						22576, -- [5]
-						"General Grashaal", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						344655, -- [2]
-						2, -- [3]
-						1615360067.372, -- [4]
-						22576, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						344721, -- [2]
-						82115, -- [3]
-						1615360067.372, -- [4]
-						1, -- [5]
-						"[*] Echoing Annihilation", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						59539, -- [10]
-					}, -- [30]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1615360009.753, -- [4]
-						0, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-					}, -- [31]
-				},
-			}, -- [3]
-			{
-				["maxhealth"] = 35900,
-				["timeofdeath"] = 269.6620000000112,
-				["name"] = "Charismá-Proudmoore",
-				["time"] = 1615360076.905,
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 29s",
-				["events"] = {
-					{
-						false, -- [1]
-						207386, -- [2]
-						145, -- [3]
-						1615360054.381, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						73921, -- [2]
-						879, -- [3]
-						1615360056.154, -- [4]
-						37700, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						207386, -- [2]
-						145, -- [3]
-						1615360056.439, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						81269, -- [2]
-						452, -- [3]
-						1615360056.889, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						207386, -- [2]
-						152, -- [3]
-						1615360058.895, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						207386, -- [2]
-						152, -- [3]
-						1615360060.904, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360061.827, -- [4]
-						37700, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						true, -- [1]
-						339728, -- [2]
-						12776, -- [3]
-						1615360061.827, -- [4]
-						25545, -- [5]
-						"General Grashaal", -- [6]
-						621, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						207386, -- [2]
-						305, -- [3]
-						1615360062.903, -- [4]
-						25850, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						73921, -- [2]
-						515, -- [3]
-						1615360063.212, -- [4]
-						26365, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						204883, -- [2]
-						1860, -- [3]
-						1615360063.286, -- [4]
-						28225, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						81269, -- [2]
-						443, -- [3]
-						1615360063.429, -- [4]
-						28668, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
 					{
 						false, -- [1]
 						25914, -- [2]
-						10629, -- [3]
-						1615360064.085, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						8641, -- [3]
+						1616133339.418, -- [4]
+						36415, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [13]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						61295, -- [2]
+						408, -- [3]
+						1616133339.716, -- [4]
+						36823, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
 					{
 						false, -- [1]
 						325983, -- [2]
-						2512, -- [3]
-						1615360064.907, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						207386, -- [2]
-						153, -- [3]
-						1615360065.452, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						2136, -- [3]
+						1616133339.906, -- [4]
+						38959, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [15]
+					}, -- [3]
 					{
 						false, -- [1]
-						77489, -- [2]
-						221, -- [3]
-						1615360066.336, -- [4]
-						37700, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						207386, -- [2]
-						135, -- [3]
-						1615360067.428, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						325983, -- [2]
-						1266, -- [3]
-						1615360067.819, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						77489, -- [2]
-						221, -- [3]
-						1615360069.332, -- [4]
-						37700, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						207386, -- [2]
-						135, -- [3]
-						1615360069.456, -- [4]
-						37700, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360069.909, -- [4]
-						37700, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
+						77220, -- [2]
+						55, -- [3]
+						1616133340.415, -- [4]
+						38959, -- [5]
+						"Archedemus-Frostmourne", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [21]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						108366, -- [2]
+						179, -- [3]
+						1616133340.415, -- [4]
+						38959, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
 					{
 						false, -- [1]
 						337824, -- [2]
-						1329, -- [3]
-						1615360069.909, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						810, -- [3]
+						1616133340.415, -- [4]
+						38959, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [22]
+						-1, -- [10]
+					}, -- [6]
 					{
 						true, -- [1]
-						343086, -- [2]
-						1950, -- [3]
-						1615360069.909, -- [4]
-						37700, -- [5]
-						"General Kaal", -- [6]
+						332444, -- [2]
+						1044, -- [3]
+						1616133340.415, -- [4]
+						38959, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [23]
+					}, -- [7]
 					{
 						false, -- [1]
-						197997, -- [2]
-						1045, -- [3]
-						1615360070.153, -- [4]
-						37700, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						0, -- [3]
+						1616133340.415, -- [4]
+						38959, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [24]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77220, -- [2]
+						73, -- [3]
+						1616133340.846, -- [4]
+						38959, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						337824, -- [2]
+						812, -- [3]
+						1616133340.846, -- [4]
+						38959, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						335779, -- [2]
+						885, -- [3]
+						1616133340.846, -- [4]
+						38959, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
 					{
 						false, -- [1]
 						73921, -- [2]
-						1196, -- [3]
-						1615360070.565, -- [4]
-						37700, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						1041, -- [3]
+						1616133341.175, -- [4]
+						40000, -- [5]
+						"Limlock-Onyxia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						77220, -- [2]
+						69, -- [3]
+						1616133341.383, -- [4]
+						40000, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						108366, -- [2]
+						65, -- [3]
+						1616133341.383, -- [4]
+						40000, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						337824, -- [2]
+						106, -- [3]
+						1616133341.383, -- [4]
+						40000, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616133341.383, -- [4]
+						39196, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						240, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616133341.383, -- [4]
+						39196, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1858, -- [3]
+						1616133342.052, -- [4]
+						41054, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						61295, -- [2]
+						391, -- [3]
+						1616133342.385, -- [4]
+						41445, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						77220, -- [2]
+						63, -- [3]
+						1616133342.416, -- [4]
+						41445, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						108366, -- [2]
+						118, -- [3]
+						1616133342.416, -- [4]
+						41445, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616133342.416, -- [4]
+						40582, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						181, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616133342.416, -- [4]
+						40582, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77220, -- [2]
+						62, -- [3]
+						1616133342.843, -- [4]
+						40582, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						335779, -- [2]
+						885, -- [3]
+						1616133342.843, -- [4]
+						39759, -- [5]
+						"[*] Chain Link", -- [6]
+						62, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1005, -- [3]
+						1616133342.991, -- [4]
+						40764, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						77220, -- [2]
+						76, -- [3]
+						1616133343.425, -- [4]
+						40764, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						108366, -- [2]
+						103, -- [3]
+						1616133343.425, -- [4]
+						40764, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616133343.425, -- [4]
+						39899, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						179, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616133343.425, -- [4]
+						39899, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						77220, -- [2]
+						7665, -- [3]
+						1616133343.641, -- [4]
+						39899, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332318, -- [2]
+						91787, -- [3]
+						1616133343.641, -- [4]
+						1, -- [5]
+						"Sludgefist", -- [6]
+						7665, -- [7]
+						1, -- [8]
+						false, -- [9]
+						44223, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1616133301.37, -- [4]
+						0, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "5m 33s",
+				["time"] = 1616133343.641,
+			}, -- [5]
+			{
+				["maxhealth"] = 39760,
+				["timeofdeath"] = 339.0439999999981,
+				["name"] = "Sonatahunt-Stormrage",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						865, -- [3]
+						1616133339.541, -- [4]
+						16352, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						1, -- [1]
+						281195, -- [2]
+						1, -- [3]
+						1616133340.454, -- [4]
+						16352, -- [5]
+						"Sonatahunt-Stormrage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						332444, -- [2]
+						693, -- [3]
+						1616133340.529, -- [4]
+						15659, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						335779, -- [2]
+						697, -- [3]
+						1616133340.846, -- [4]
+						14962, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						73921, -- [2]
+						685, -- [3]
+						1616133341.175, -- [4]
+						15647, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						197997, -- [2]
+						7331, -- [3]
+						1616133341.46, -- [4]
+						22978, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						332444, -- [2]
+						693, -- [3]
+						1616133341.562, -- [4]
+						22285, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						692, -- [3]
+						1616133342.567, -- [4]
+						21593, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						335779, -- [2]
+						698, -- [3]
+						1616133342.843, -- [4]
+						20895, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						73921, -- [2]
+						650, -- [3]
+						1616133342.991, -- [4]
+						21545, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						692, -- [3]
+						1616133343.58, -- [4]
+						20853, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						157503, -- [2]
+						1769, -- [3]
+						1616133344.327, -- [4]
+						22622, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						332444, -- [2]
+						693, -- [3]
+						1616133344.564, -- [4]
+						21929, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						73921, -- [2]
+						641, -- [3]
+						1616133344.801, -- [4]
+						22570, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						335779, -- [2]
+						697, -- [3]
+						1616133344.831, -- [4]
+						21873, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						332444, -- [2]
+						693, -- [3]
+						1616133345.582, -- [4]
+						21180, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332572, -- [2]
+						8656, -- [3]
+						1616133346.131, -- [4]
+						12524, -- [5]
+						"[*] Falling Rubble", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						4, -- [1]
+						332572, -- [2]
+						1, -- [3]
+						1616133346.131, -- [4]
+						12524, -- [5]
+						"[*] Falling Rubble", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						332444, -- [2]
+						866, -- [3]
+						1616133346.573, -- [4]
+						11658, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1425, -- [3]
+						1616133346.602, -- [4]
+						13083, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335779, -- [2]
+						871, -- [3]
+						1616133346.862, -- [4]
+						12212, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133347.248, -- [4]
+						12212, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						73921, -- [2]
+						384, -- [3]
+						1616133347.571, -- [4]
+						12596, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						332444, -- [2]
+						866, -- [3]
+						1616133347.613, -- [4]
+						11730, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						335361, -- [2]
+						648, -- [3]
+						1616133347.726, -- [4]
+						11082, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						335361, -- [2]
+						648, -- [3]
+						1616133348.236, -- [4]
+						10434, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						183811, -- [2]
+						326, -- [3]
+						1616133348.426, -- [4]
+						10760, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						183811, -- [2]
+						339, -- [3]
+						1616133348.514, -- [4]
+						11099, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						332444, -- [2]
+						866, -- [3]
+						1616133348.577, -- [4]
+						10233, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						335361, -- [2]
+						648, -- [3]
+						1616133348.742, -- [4]
+						9585, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						335779, -- [2]
+						872, -- [3]
+						1616133348.86, -- [4]
+						8713, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332444, -- [2]
+						866, -- [3]
+						1616133349.6, -- [4]
+						1, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						865, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						281195, -- [2]
+						1, -- [3]
+						1616133340.454, -- [4]
+						0, -- [5]
+						"Sonatahunt-Stormrage", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "5m 39s",
+				["time"] = 1616133349.639,
+			}, -- [6]
+			{
+				["maxhealth"] = 52660,
+				["timeofdeath"] = 342.4869999999974,
+				["name"] = "Throvin-GrizzlyHills",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						650, -- [3]
+						1616133346.232, -- [4]
+						31488, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						73921, -- [2]
+						639, -- [3]
+						1616133346.602, -- [4]
+						32127, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						332444, -- [2]
+						649, -- [3]
+						1616133347.21, -- [4]
+						31478, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133347.248, -- [4]
+						31478, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						73921, -- [2]
+						345, -- [3]
+						1616133347.571, -- [4]
+						31823, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						335361, -- [2]
+						487, -- [3]
+						1616133347.726, -- [4]
+						31336, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						332444, -- [2]
+						649, -- [3]
+						1616133348.21, -- [4]
+						30687, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						335361, -- [2]
+						486, -- [3]
+						1616133348.236, -- [4]
+						30201, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						343, -- [3]
+						1616133348.301, -- [4]
+						30544, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						335361, -- [2]
+						422, -- [3]
+						1616133348.742, -- [4]
+						30122, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						53652, -- [2]
+						3792, -- [3]
+						1616133348.982, -- [4]
+						33914, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						332444, -- [2]
+						564, -- [3]
+						1616133349.232, -- [4]
+						33350, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						335361, -- [2]
+						422, -- [3]
+						1616133349.232, -- [4]
+						32928, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
 					{
 						false, -- [1]
 						325983, -- [2]
 						951, -- [3]
-						1615360073.727, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						1616133349.291, -- [4]
+						33879, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						53652, -- [2]
+						493, -- [3]
+						1616133349.291, -- [4]
+						34372, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						53652, -- [2]
+						452, -- [3]
+						1616133349.291, -- [4]
+						34824, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						53652, -- [2]
+						225, -- [3]
+						1616133349.291, -- [4]
+						35049, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						53652, -- [2]
+						486, -- [3]
+						1616133349.291, -- [4]
+						35535, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						53652, -- [2]
+						223, -- [3]
+						1616133349.291, -- [4]
+						35758, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						335361, -- [2]
+						422, -- [3]
+						1616133349.725, -- [4]
+						22066, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335361, -- [2]
+						423, -- [3]
+						1616133350.233, -- [4]
+						21643, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332444, -- [2]
+						564, -- [3]
+						1616133350.233, -- [4]
+						21079, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						332444, -- [2]
+						650, -- [3]
+						1616133351.243, -- [4]
+						20429, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183811, -- [2]
+						400, -- [3]
+						1616133351.531, -- [4]
+						20829, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133351.814, -- [4]
+						20829, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						183811, -- [2]
+						390, -- [3]
+						1616133352.19, -- [4]
+						21219, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360074.827, -- [4]
-						37700, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						337824, -- [2]
+						650, -- [3]
+						1616133352.241, -- [4]
+						21219, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [27]
+					{
+						true, -- [1]
+						332444, -- [2]
+						650, -- [3]
+						1616133352.241, -- [4]
+						21219, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
 					{
 						false, -- [1]
 						337824, -- [2]
-						2125, -- [3]
-						1615360076.825, -- [4]
-						37700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360076.825, -- [4]
-						28543, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						2125, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360076.825, -- [4]
-						17261, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360076.825, -- [4]
-						5979, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11282, -- [3]
-						1615360076.825, -- [4]
-						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						5303, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Charismá-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 33000,
-				["timeofdeath"] = 269.6620000000112,
-				["name"] = "Samoansage",
-				["time"] = 1615360076.905,
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 29s",
-				["events"] = {
-					{
-						false, -- [1]
-						207386, -- [2]
-						290, -- [3]
-						1615360056.35, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						81269, -- [2]
-						439, -- [3]
-						1615360056.889, -- [4]
-						34640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						321444, -- [2]
-						379, -- [3]
-						1615360058.811, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360058.811, -- [4]
-						34640, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						339693, -- [2]
-						8409, -- [3]
-						1615360058.811, -- [4]
-						27231, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						1000, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						4, -- [1]
-						339693, -- [2]
-						1, -- [3]
-						1615360058.811, -- [4]
-						27231, -- [5]
-						"[*] Crystalline Burst", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						207386, -- [2]
-						152, -- [3]
-						1615360058.895, -- [4]
-						27383, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						73921, -- [2]
 						487, -- [3]
-						1615360059.672, -- [4]
-						27870, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						207386, -- [2]
-						153, -- [3]
-						1615360060.904, -- [4]
-						28023, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						73921, -- [2]
-						476, -- [3]
-						1615360061.455, -- [4]
-						28499, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						25914, -- [2]
-						3464, -- [3]
-						1615360061.599, -- [4]
-						31963, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360061.827, -- [4]
-						31963, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
+						1616133352.318, -- [4]
+						21219, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [12]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						335361, -- [2]
+						487, -- [3]
+						1616133352.318, -- [4]
+						21219, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
 					{
 						false, -- [1]
 						337824, -- [2]
-						692, -- [3]
-						1615360061.827, -- [4]
-						31963, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
+						671, -- [3]
+						1616133353.054, -- [4]
+						21219, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						true, -- [7]
 						0, -- [8]
-					}, -- [13]
-					{
-						true, -- [1]
-						339728, -- [2]
-						12673, -- [3]
-						1615360061.827, -- [4]
-						20603, -- [5]
-						"General Grashaal", -- [6]
-						1313, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						207386, -- [2]
-						152, -- [3]
-						1615360062.903, -- [4]
-						20755, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						325983, -- [2]
-						2451, -- [3]
-						1615360064.907, -- [4]
-						23206, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1100, -- [3]
-						1615360064.989, -- [4]
-						24306, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						145110, -- [2]
-						2141, -- [3]
-						1615360065.26, -- [4]
-						26447, -- [5]
-						"Snakpak-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						73921, -- [2]
-						313, -- [3]
-						1615360066.124, -- [4]
-						26760, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						73921, -- [2]
-						573, -- [3]
-						1615360066.859, -- [4]
-						27333, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						325983, -- [2]
-						1299, -- [3]
-						1615360067.819, -- [4]
-						28632, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						73921, -- [2]
-						590, -- [3]
-						1615360068.74, -- [4]
-						29222, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						197997, -- [2]
-						4489, -- [3]
-						1615360069.725, -- [4]
-						33711, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						73921, -- [2]
-						1186, -- [3]
-						1615360070.565, -- [4]
-						34640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						325983, -- [2]
-						1917, -- [3]
-						1615360073.727, -- [4]
-						34640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						73921, -- [2]
-						581, -- [3]
-						1615360074.267, -- [4]
-						34640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360074.827, -- [4]
-						34640, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						321444, -- [2]
-						379, -- [3]
-						1615360076.825, -- [4]
-						34640, -- [5]
-						"Samoansage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360076.825, -- [4]
-						23827, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						379, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360076.825, -- [4]
-						12635, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360076.825, -- [4]
-						1443, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360076.825, -- [4]
+						339067, -- [2]
+						101530, -- [3]
+						1616133353.082, -- [4]
 						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						"Sludgefist", -- [6]
+						671, -- [7]
+						1, -- [8]
 						false, -- [9]
-						9749, -- [10]
+						79640, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						31850, -- [2]
+						1, -- [3]
+						1616133316.964, -- [4]
 						0, -- [5]
-						"Samoansage", -- [6]
+						"Throvin-GrizzlyHills", -- [6]
 					}, -- [33]
 				},
-			}, -- [5]
-			{
-				["maxhealth"] = 35840,
-				["timeofdeath"] = 283.4900000000198,
-				["name"] = "Shamagon-Proudmoore",
-				["time"] = 1615360090.733,
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 43s",
-				["events"] = {
-					{
-						false, -- [1]
-						48438, -- [2]
-						321, -- [3]
-						1615360061.293, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						201633, -- [2]
-						621, -- [3]
-						1615360061.827, -- [4]
-						37640, -- [5]
-						"Earthen Wall Totem <Shamnok-Stormrage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						339728, -- [2]
-						7581, -- [3]
-						1615360061.827, -- [4]
-						30680, -- [5]
-						"General Grashaal", -- [6]
-						621, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						616, -- [3]
-						1615360062.114, -- [4]
-						31296, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						225311, -- [2]
-						2254, -- [3]
-						1615360062.829, -- [4]
-						33550, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						48438, -- [2]
-						296, -- [3]
-						1615360062.962, -- [4]
-						33846, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						204883, -- [2]
-						1852, -- [3]
-						1615360063.286, -- [4]
-						35698, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						81269, -- [2]
-						1003, -- [3]
-						1615360063.429, -- [4]
-						36701, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						309, -- [3]
-						1615360063.733, -- [4]
-						37010, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						25914, -- [2]
-						5212, -- [3]
-						1615360064.085, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						591, -- [3]
-						1615360064.594, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						325983, -- [2]
-						1310, -- [3]
-						1615360064.907, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						339, -- [3]
-						1615360065.064, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						207386, -- [2]
-						152, -- [3]
-						1615360065.452, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77489, -- [2]
-						220, -- [3]
-						1615360066.336, -- [4]
-						37640, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						207386, -- [2]
-						271, -- [3]
-						1615360067.428, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						325983, -- [2]
-						2580, -- [3]
-						1615360067.819, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						77489, -- [2]
-						220, -- [3]
-						1615360069.332, -- [4]
-						37640, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						207386, -- [2]
-						135, -- [3]
-						1615360069.456, -- [4]
-						37640, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						197997, -- [2]
-						1061, -- [3]
-						1615360070.245, -- [4]
-						37640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						73921, -- [2]
-						563, -- [3]
-						1615360070.565, -- [4]
-						37640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						73921, -- [2]
-						591, -- [3]
-						1615360072.401, -- [4]
-						37640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						325983, -- [2]
-						952, -- [3]
-						1615360073.727, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						73921, -- [2]
-						565, -- [3]
-						1615360074.267, -- [4]
-						37640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360074.827, -- [4]
-						37640, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						73921, -- [2]
-						231, -- [3]
-						1615360076.905, -- [4]
-						37640, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						325983, -- [2]
-						856, -- [3]
-						1615360079.556, -- [4]
-						45168, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						73921, -- [2]
-						1056, -- [3]
-						1615360086.791, -- [4]
-						45168, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						325983, -- [2]
-						864, -- [3]
-						1615360088.06, -- [4]
-						37640, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						343086, -- [2]
-						1938, -- [3]
-						1615360089.996, -- [4]
-						35702, -- [5]
-						"General Kaal", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						73921, -- [2]
-						1142, -- [3]
-						1615360090.474, -- [4]
-						36844, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						38518, -- [3]
-						1615360090.671, -- [4]
-						36844, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1674, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1615360060.694, -- [4]
-						0, -- [5]
-						"Shamagon-Proudmoore", -- [6]
-					}, -- [33]
-				},
-			}, -- [6]
-			{
-				["maxhealth"] = 36860,
-				["timeofdeath"] = 308.6700000000128,
-				["name"] = "Shamnok-Stormrage",
-				["time"] = 1615360115.913,
-				["class"] = "SHAMAN",
-				["timestring"] = "5m 8s",
-				["events"] = {
-					{
-						false, -- [1]
-						234946, -- [2]
-						2347, -- [3]
-						1615360102.591, -- [4]
-						42580, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360102.809, -- [4]
-						42580, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						114942, -- [2]
-						1325, -- [3]
-						1615360102.809, -- [4]
-						42580, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1187, -- [3]
-						1615360103.409, -- [4]
-						42580, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						114942, -- [2]
-						549, -- [3]
-						1615360104.617, -- [4]
-						42580, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						325983, -- [2]
-						855, -- [3]
-						1615360105.407, -- [4]
-						38700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						114942, -- [2]
-						556, -- [3]
-						1615360106.39, -- [4]
-						38700, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1187, -- [3]
-						1615360106.39, -- [4]
-						38700, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						114942, -- [2]
-						562, -- [3]
-						1615360108.123, -- [4]
-						38700, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1186, -- [3]
-						1615360109.42, -- [4]
-						38700, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						114942, -- [2]
-						1091, -- [3]
-						1615360109.942, -- [4]
-						38700, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						114942, -- [2]
-						431, -- [3]
-						1615360111.282, -- [4]
-						38700, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						321444, -- [2]
-						402, -- [3]
-						1615360111.872, -- [4]
-						38700, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						337824, -- [2]
-						1267, -- [3]
-						1615360111.872, -- [4]
-						38700, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						342733, -- [2]
-						15717, -- [3]
-						1615360111.872, -- [4]
-						24652, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						1669, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						342735, -- [2]
-						1, -- [3]
-						1615360111.872, -- [4]
-						24652, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360112.405, -- [4]
-						21058, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						40, -- [3]
-						1615360112.491, -- [4]
-						21098, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360112.885, -- [4]
-						17504, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						325983, -- [2]
-						1726, -- [3]
-						1615360113.287, -- [4]
-						19230, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360113.373, -- [4]
-						15636, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						340159, -- [2]
-						343, -- [3]
-						1615360113.914, -- [4]
-						15636, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360113.914, -- [4]
-						12385, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						343, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						340159, -- [2]
-						359, -- [3]
-						1615360114.392, -- [4]
-						12385, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360114.392, -- [4]
-						9150, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						359, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						340159, -- [2]
-						359, -- [3]
-						1615360114.895, -- [4]
-						9150, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3593, -- [3]
-						1615360114.895, -- [4]
-						5916, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						359, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						79, -- [3]
-						1615360115.304, -- [4]
-						5995, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						340159, -- [2]
-						359, -- [3]
-						1615360115.411, -- [4]
-						5995, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360115.411, -- [4]
-						2760, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						359, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						340159, -- [2]
-						359, -- [3]
-						1615360115.913, -- [4]
-						3037, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						342740, -- [2]
-						3594, -- [3]
-						1615360115.913, -- [4]
-						1, -- [5]
-						"Stone Legion Goliath <General Grashaal>", -- [6]
-						359, -- [7]
-						1, -- [8]
-						false, -- [9]
-						198, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Shamnok-Stormrage", -- [6]
-					}, -- [33]
-				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 42s",
+				["time"] = 1616133353.082,
 			}, -- [7]
 			{
-				["maxhealth"] = 45006,
-				["timeofdeath"] = 324.2020000000193,
-				["name"] = "Jakeakuma-Kael'thas",
-				["time"] = 1615360131.445,
-				["class"] = "WARLOCK",
-				["timestring"] = "5m 24s",
+				["maxhealth"] = 36480,
+				["timeofdeath"] = 348.5419999999976,
+				["name"] = "Garobber-Eitrigg",
 				["events"] = {
 					{
 						false, -- [1]
-						340542, -- [2]
-						2505, -- [3]
-						1615360118.917, -- [4]
-						23689, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						202147, -- [2]
+						3620, -- [3]
+						1616133346.827, -- [4]
+						47956, -- [5]
+						"Garobber-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1615360118.971, -- [4]
-						23700, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133346.862, -- [4]
+						47166, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						108447, -- [2]
-						83, -- [3]
-						1615360119.694, -- [4]
-						23783, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616133347.102, -- [4]
+						47166, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [3]
 					{
-						false, -- [1]
-						108447, -- [2]
-						59, -- [3]
-						1615360120.681, -- [4]
-						23842, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						709, -- [3]
+						1616133347.435, -- [4]
+						46457, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						48438, -- [2]
-						385, -- [3]
-						1615360121.517, -- [4]
-						24227, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335361, -- [2]
+						531, -- [3]
+						1616133347.613, -- [4]
+						43712, -- [5]
+						"[*] Stonequake", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
-						false, -- [1]
-						320751, -- [2]
-						10807, -- [3]
-						1615360121.636, -- [4]
-						35034, -- [5]
-						"Charismá-Proudmoore", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						709, -- [3]
+						1616133348.426, -- [4]
+						43003, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
-						false, -- [1]
-						108447, -- [2]
-						59, -- [3]
-						1615360121.676, -- [4]
-						35093, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133348.86, -- [4]
+						42213, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
-						false, -- [1]
-						108396, -- [2]
-						9449, -- [3]
-						1615360121.933, -- [4]
-						44542, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						708, -- [3]
+						1616133349.472, -- [4]
+						32313, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1615360122.232, -- [4]
-						44553, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						183811, -- [2]
+						184, -- [3]
+						1616133349.789, -- [4]
+						32497, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -15036,429 +13315,449 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						48438, -- [2]
-						373, -- [3]
-						1615360122.232, -- [4]
-						44926, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						108447, -- [2]
-						73, -- [3]
-						1615360122.665, -- [4]
-						44999, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						183811, -- [2]
+						182, -- [3]
+						1616133349.977, -- [4]
+						32679, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						708, -- [3]
+						1616133350.43, -- [4]
+						31971, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [11]
 					{
-						false, -- [1]
-						48438, -- [2]
-						361, -- [3]
-						1615360122.969, -- [4]
-						45360, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133350.839, -- [4]
+						31181, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
 					{
-						false, -- [1]
-						108447, -- [2]
-						149, -- [3]
-						1615360123.712, -- [4]
-						45509, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						708, -- [3]
+						1616133351.447, -- [4]
+						30473, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
-						false, -- [1]
-						48438, -- [2]
-						304, -- [3]
-						1615360123.712, -- [4]
-						45813, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						708, -- [3]
+						1616133352.464, -- [4]
+						29765, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [14]
 					{
-						false, -- [1]
-						48438, -- [2]
-						586, -- [3]
-						1615360124.465, -- [4]
-						46399, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133352.833, -- [4]
+						28975, -- [5]
+						"[*] Chain Link", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						false, -- [1]
-						108447, -- [2]
-						100, -- [3]
-						1615360124.7, -- [4]
-						46499, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						708, -- [3]
+						1616133353.46, -- [4]
+						28267, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						48438, -- [2]
-						566, -- [3]
-						1615360125.198, -- [4]
-						47065, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						202147, -- [2]
+						2753, -- [3]
+						1616133353.64, -- [4]
+						31020, -- [5]
+						"Garobber-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [17]
 					{
 						false, -- [1]
-						108447, -- [2]
-						81, -- [3]
-						1615360125.723, -- [4]
-						47146, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						183811, -- [2]
+						406, -- [3]
+						1616133353.713, -- [4]
+						31426, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
-						false, -- [1]
-						48438, -- [2]
-						273, -- [3]
-						1615360125.931, -- [4]
-						47248, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						709, -- [3]
+						1616133354.46, -- [4]
+						30717, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						197997, -- [2]
-						844, -- [3]
-						1615360126.339, -- [4]
-						47248, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						524, -- [3]
-						1615360126.647, -- [4]
-						47248, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						202147, -- [2]
+						2753, -- [3]
+						1616133354.634, -- [4]
+						33470, -- [5]
+						"Garobber-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133354.852, -- [4]
+						32680, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [21]
 					{
-						4, -- [1]
-						343895, -- [2]
-						1, -- [3]
-						1615360127.267, -- [4]
-						47248, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						332444, -- [2]
+						709, -- [3]
+						1616133355.493, -- [4]
+						31971, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						48438, -- [2]
-						216, -- [3]
-						1615360127.432, -- [4]
-						47248, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						202147, -- [2]
+						2754, -- [3]
+						1616133355.632, -- [4]
+						34725, -- [5]
+						"Garobber-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						48438, -- [2]
-						113, -- [3]
-						1615360127.78, -- [4]
-						47248, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						183811, -- [2]
+						397, -- [3]
+						1616133355.702, -- [4]
+						35122, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [24]
 					{
-						4, -- [1]
-						343895, -- [2]
-						2, -- [3]
-						1615360128.256, -- [4]
-						47248, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						332969, -- [2]
+						18434, -- [3]
+						1616133355.976, -- [4]
+						16688, -- [5]
+						"[*] Destructive Impact", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [25]
 					{
 						4, -- [1]
-						343895, -- [2]
-						3, -- [3]
-						1615360129.253, -- [4]
-						47248, -- [5]
-						"Stone Legion Goliath", -- [6]
+						332197, -- [2]
+						1, -- [3]
+						1616133356.035, -- [4]
+						16688, -- [5]
+						"[*] Collapsing Foundation", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [26]
 					{
-						4, -- [1]
-						343895, -- [2]
-						4, -- [3]
-						1615360130.256, -- [4]
-						47248, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						330945, -- [2]
+						1824, -- [3]
+						1616133356.27, -- [4]
+						18512, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [27]
 					{
-						4, -- [1]
-						343895, -- [2]
-						5, -- [3]
-						1615360131.234, -- [4]
-						47248, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133356.854, -- [4]
+						17722, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [28]
 					{
-						4, -- [1]
-						344655, -- [2]
-						2, -- [3]
-						1615360131.386, -- [4]
-						47248, -- [5]
-						"Reverberating Eruption Stalker", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						332241, -- [2]
+						7080, -- [3]
+						1616133357.044, -- [4]
+						10642, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [29]
 					{
-						false, -- [1]
-						201633, -- [2]
-						529, -- [3]
-						1615360131.386, -- [4]
-						47248, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						332241, -- [2]
+						7080, -- [3]
+						1616133358.054, -- [4]
+						3562, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						false, -- [1]
-						108366, -- [2]
-						4761, -- [3]
-						1615360131.386, -- [4]
-						47248, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133358.846, -- [4]
+						2950, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						344500, -- [2]
-						87830, -- [3]
-						1615360131.445, -- [4]
+						332241, -- [2]
+						7079, -- [3]
+						1616133359.081, -- [4]
 						1, -- [5]
-						"General Grashaal", -- [6]
-						21798, -- [7]
-						8, -- [8]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						18784, -- [10]
+						4129, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						118038, -- [2]
+						1, -- [3]
+						1616133282.637, -- [4]
 						0, -- [5]
-						"Jakeakuma-Kael'thas", -- [6]
+						"Garobber-Eitrigg", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "5m 48s",
+				["time"] = 1616133359.137,
 			}, -- [8]
 			{
-				["maxhealth"] = 37200,
-				["timeofdeath"] = 324.2020000000193,
-				["name"] = "Rejuvanate-Caelestrasz",
-				["time"] = 1615360131.445,
-				["class"] = "DRUID",
-				["timestring"] = "5m 24s",
+				["maxhealth"] = 33640,
+				["timeofdeath"] = 348.5419999999976,
+				["name"] = "Samoansage",
 				["events"] = {
 					{
-						false, -- [1]
-						61295, -- [2]
-						6913, -- [3]
-						1615360108.933, -- [4]
-						37200, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						332444, -- [2]
+						847, -- [3]
+						1616133350.395, -- [4]
+						16791, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						669, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						61295, -- [2]
-						461, -- [3]
-						1615360109.381, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						8004, -- [2]
+						4957, -- [3]
+						1616133351.121, -- [4]
+						21748, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						774, -- [2]
-						545, -- [3]
-						1615360109.635, -- [4]
-						37200, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						321442, -- [2]
+						379, -- [3]
+						1616133351.121, -- [4]
+						22127, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [3]
 					{
-						false, -- [1]
-						332526, -- [2]
-						2589, -- [3]
-						1615360109.708, -- [4]
-						37200, -- [5]
-						"Kyrian Goliath <Chawnkytrog-Stormrage>", -- [6]
+						true, -- [1]
+						98021, -- [2]
+						1054, -- [3]
+						1616133351.403, -- [4]
+						21073, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						114942, -- [2]
-						557, -- [3]
-						1615360109.942, -- [4]
-						37200, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
 						true, -- [1]
-						343086, -- [2]
-						2108, -- [3]
-						1615360110.625, -- [4]
-						35092, -- [5]
-						"General Kaal", -- [6]
+						332444, -- [2]
+						847, -- [3]
+						1616133351.447, -- [4]
+						20226, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
 						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [6]
+					}, -- [5]
 					{
 						false, -- [1]
-						114942, -- [2]
-						856, -- [3]
-						1615360111.282, -- [4]
-						35948, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
+						98021, -- [2]
+						424, -- [3]
+						1616133352.398, -- [4]
+						20650, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						332444, -- [2]
+						762, -- [3]
+						1616133352.426, -- [4]
+						19888, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						61295, -- [2]
-						745, -- [3]
-						1615360111.622, -- [4]
-						36693, -- [5]
-						"Samoansage", -- [6]
+						98021, -- [2]
+						1948, -- [3]
+						1616133353.401, -- [4]
+						21836, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
-						false, -- [1]
-						774, -- [2]
-						556, -- [3]
-						1615360112.105, -- [4]
-						37200, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						762, -- [3]
+						1616133353.429, -- [4]
+						21074, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						61295, -- [2]
-						461, -- [3]
-						1615360112.164, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						98021, -- [2]
+						469, -- [3]
+						1616133354.397, -- [4]
+						21543, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [10]
 					{
-						false, -- [1]
-						61295, -- [2]
-						829, -- [3]
-						1615360114.283, -- [4]
-						37200, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						762, -- [3]
+						1616133354.427, -- [4]
+						20781, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						774, -- [2]
-						557, -- [3]
-						1615360114.568, -- [4]
-						37200, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						1064, -- [2]
+						3948, -- [3]
+						1616133355.119, -- [4]
+						24729, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						774, -- [2]
-						47, -- [3]
-						1615360114.771, -- [4]
-						37200, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						61295, -- [2]
+						3625, -- [3]
+						1616133355.119, -- [4]
+						28354, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -15466,599 +13765,4700 @@ DeathGraphsDBCurrent = {
 					}, -- [13]
 					{
 						false, -- [1]
-						61295, -- [2]
-						897, -- [3]
-						1615360114.895, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						61295, -- [2]
-						415, -- [3]
-						1615360116.928, -- [4]
-						37200, -- [5]
+						321442, -- [2]
+						379, -- [3]
+						1616133355.119, -- [4]
+						28733, -- [5]
 						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
-					}, -- [15]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
 					{
 						false, -- [1]
-						61295, -- [2]
-						383, -- [3]
-						1615360117.675, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						8004, -- [2]
+						4874, -- [3]
+						1616133355.338, -- [4]
+						33607, -- [5]
+						"Limlock-Onyxia", -- [6]
 						nil, -- [7]
 						0, -- [8]
-					}, -- [16]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
 					{
 						true, -- [1]
-						343086, -- [2]
-						1432, -- [3]
-						1615360118.378, -- [4]
-						35768, -- [5]
-						"General Kaal", -- [6]
+						98021, -- [2]
+						8785, -- [3]
+						1616133355.405, -- [4]
+						24822, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						337824, -- [2]
+						762, -- [3]
+						1616133355.45, -- [4]
+						24822, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
-						false, -- [1]
-						340542, -- [2]
-						2505, -- [3]
-						1615360118.917, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						true, -- [1]
+						332444, -- [2]
+						762, -- [3]
+						1616133355.45, -- [4]
+						24822, -- [5]
+						"[*] Crumbling Foundation", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						61295, -- [2]
-						196, -- [3]
-						1615360119.075, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						143924, -- [2]
+						117, -- [3]
+						1616133355.45, -- [4]
+						24939, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						61295, -- [2]
-						367, -- [3]
-						1615360119.59, -- [4]
-						37200, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						61295, -- [2]
-						699, -- [3]
-						1615360122.232, -- [4]
-						37200, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
+						337824, -- [2]
+						754, -- [3]
+						1616133355.976, -- [4]
+						24939, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						332969, -- [2]
+						17452, -- [3]
+						1616133355.976, -- [4]
+						8241, -- [5]
+						"[*] Destructive Impact", -- [6]
+						754, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [21]
 					{
-						false, -- [1]
-						61295, -- [2]
-						350, -- [3]
-						1615360124.892, -- [4]
-						37200, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						332197, -- [2]
+						1, -- [3]
+						1616133356.035, -- [4]
+						8241, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						197997, -- [2]
-						818, -- [3]
-						1615360126.119, -- [4]
-						37200, -- [5]
-						"Shamnok-Stormrage", -- [6]
+						98021, -- [2]
+						4157, -- [3]
+						1616133356.422, -- [4]
+						12398, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						61295, -- [2]
-						268, -- [3]
-						1615360126.959, -- [4]
-						37200, -- [5]
+						25914, -- [2]
+						7908, -- [3]
+						1616133356.658, -- [4]
+						20306, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						61, -- [3]
+						1616133356.658, -- [4]
+						20367, -- [5]
 						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
-					}, -- [24]
-					{
-						4, -- [1]
-						343895, -- [2]
-						1, -- [3]
-						1615360127.267, -- [4]
-						37200, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [25]
-					{
-						4, -- [1]
-						343895, -- [2]
-						2, -- [3]
-						1615360128.256, -- [4]
-						37200, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						343895, -- [2]
-						3, -- [3]
-						1615360129.253, -- [4]
-						37200, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						343895, -- [2]
-						4, -- [3]
-						1615360130.256, -- [4]
-						37200, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						343895, -- [2]
-						5, -- [3]
-						1615360131.234, -- [4]
-						37200, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						344655, -- [2]
-						2, -- [3]
-						1615360131.386, -- [4]
-						37200, -- [5]
-						"Reverberating Eruption Stalker", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						201633, -- [2]
-						529, -- [3]
-						1615360131.386, -- [4]
-						37200, -- [5]
-						"Earthen Wall Totem <Samoansage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						344500, -- [2]
-						83033, -- [3]
-						1615360131.386, -- [4]
-						1, -- [5]
-						"General Grashaal", -- [6]
-						529, -- [7]
-						8, -- [8]
-						false, -- [9]
-						45304, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1615360009.753, -- [4]
-						0, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-					}, -- [33]
-				},
-			}, -- [9]
-			{
-				["maxhealth"] = 33000,
-				["timeofdeath"] = 330.7360000000044,
-				["name"] = "Samoansage",
-				["time"] = 1615360137.979,
-				["class"] = "SHAMAN",
-				["timestring"] = "5m 30s",
-				["events"] = {
 					{
 						false, -- [1]
 						325983, -- [2]
-						1135, -- [3]
-						1615360117.635, -- [4]
-						12969, -- [5]
-						"Picklehammer-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						340542, -- [2]
-						2505, -- [3]
-						1615360118.917, -- [4]
-						15474, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						385, -- [3]
-						1615360121.517, -- [4]
-						15859, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						320751, -- [2]
-						21088, -- [3]
-						1615360121.636, -- [4]
-						33000, -- [5]
-						"Charismá-Proudmoore", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						48438, -- [2]
-						373, -- [3]
-						1615360122.232, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						48438, -- [2]
-						362, -- [3]
-						1615360122.969, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						48438, -- [2]
-						303, -- [3]
-						1615360123.712, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						293, -- [3]
-						1615360124.465, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						283, -- [3]
-						1615360125.198, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						48438, -- [2]
-						272, -- [3]
-						1615360125.931, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						197997, -- [2]
-						813, -- [3]
-						1615360126.613, -- [4]
-						33000, -- [5]
-						"Shamnok-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						262, -- [3]
-						1615360126.647, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						4, -- [1]
-						343895, -- [2]
-						1, -- [3]
-						1615360127.267, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						215, -- [3]
-						1615360127.432, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						114, -- [3]
-						1615360127.78, -- [4]
-						33000, -- [5]
-						"Rejuvanate-Caelestrasz", -- [6]
+						1933, -- [3]
+						1616133356.99, -- [4]
+						22300, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						343895, -- [2]
-						2, -- [3]
-						1615360128.256, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						343895, -- [2]
-						3, -- [3]
-						1615360129.253, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						343895, -- [2]
-						4, -- [3]
-						1615360130.256, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						343895, -- [2]
-						5, -- [3]
-						1615360131.234, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						34861, -- [2]
-						4465, -- [3]
-						1615360131.574, -- [4]
-						33000, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						4, -- [1]
-						343895, -- [2]
-						6, -- [3]
-						1615360132.249, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						343895, -- [2]
-						7, -- [3]
-						1615360133.263, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						343895, -- [2]
-						8, -- [3]
-						1615360134.28, -- [4]
-						33000, -- [5]
-						"Stone Legion Goliath", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						73921, -- [2]
-						85, -- [3]
-						1615360134.407, -- [4]
-						33000, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						77489, -- [2]
-						531, -- [3]
-						1615360134.631, -- [4]
-						33000, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						4, -- [1]
-						334498, -- [2]
-						1, -- [3]
-						1615360135.958, -- [4]
-						33000, -- [5]
-						"General Grashaal", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						77489, -- [2]
-						531, -- [3]
-						1615360137.629, -- [4]
-						33000, -- [5]
-						"Drkladykikyo-Anvilmar", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						false, -- [1]
-						73921, -- [2]
-						427, -- [3]
-						1615360137.934, -- [4]
-						33000, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						321444, -- [2]
-						75, -- [3]
-						1615360137.979, -- [4]
-						33000, -- [5]
-						"Samoansage", -- [6]
+						337824, -- [2]
+						1581, -- [3]
+						1616133357.044, -- [4]
+						22300, -- [5]
+						"Yukalt-Frostmourne", -- [6]
 						true, -- [7]
 						0, -- [8]
-					}, -- [29]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
 					{
 						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360137.979, -- [4]
-						21883, -- [5]
-						"[*] Seismic Upheaval", -- [6]
-						75, -- [7]
+						332241, -- [2]
+						7611, -- [3]
+						1616133357.044, -- [4]
+						16270, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						1581, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						98021, -- [2]
+						5407, -- [3]
+						1616133357.417, -- [4]
+						10863, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
 						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						61295, -- [2]
+						935, -- [3]
+						1616133357.815, -- [4]
+						11798, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
 						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360137.979, -- [4]
-						10691, -- [5]
-						"[*] Seismic Upheaval", -- [6]
+						332241, -- [2]
+						8458, -- [3]
+						1616133358.054, -- [4]
+						3340, -- [5]
+						"[*] Collapsing Foundation", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						334500, -- [2]
-						11192, -- [3]
-						1615360137.979, -- [4]
+						332241, -- [2]
+						8457, -- [3]
+						1616133359.081, -- [4]
 						1, -- [5]
-						"[*] Seismic Upheaval", -- [6]
+						"[*] Collapsing Foundation", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						1, -- [8]
 						false, -- [9]
-						501, -- [10]
+						5117, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
 						108271, -- [2]
 						1, -- [3]
-						1615360100.283, -- [4]
+						1616133291.536, -- [4]
 						0, -- [5]
 						"Samoansage", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "5m 48s",
+				["time"] = 1616133359.137,
+			}, -- [9]
+			{
+				["maxhealth"] = 44368,
+				["timeofdeath"] = 348.5419999999976,
+				["name"] = "Grëy-Hakkar",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						884, -- [3]
+						1616133350.289, -- [4]
+						30496, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						183811, -- [2]
+						168, -- [3]
+						1616133350.483, -- [4]
+						30664, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						183811, -- [2]
+						167, -- [3]
+						1616133350.839, -- [4]
+						30831, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						335779, -- [2]
+						878, -- [3]
+						1616133350.839, -- [4]
+						29953, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						332444, -- [2]
+						885, -- [3]
+						1616133351.283, -- [4]
+						29068, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						98021, -- [2]
+						1062, -- [3]
+						1616133351.403, -- [4]
+						30130, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						183811, -- [2]
+						183, -- [3]
+						1616133351.702, -- [4]
+						30313, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						797, -- [3]
+						1616133352.28, -- [4]
+						29516, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						335779, -- [2]
+						790, -- [3]
+						1616133352.833, -- [4]
+						28726, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						368, -- [3]
+						1616133352.976, -- [4]
+						29094, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						366, -- [3]
+						1616133353.082, -- [4]
+						29460, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						332444, -- [2]
+						796, -- [3]
+						1616133353.282, -- [4]
+						28664, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						98021, -- [2]
+						2558, -- [3]
+						1616133353.401, -- [4]
+						31222, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						337824, -- [2]
+						796, -- [3]
+						1616133354.316, -- [4]
+						30950, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						332444, -- [2]
+						796, -- [3]
+						1616133354.316, -- [4]
+						30950, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						98021, -- [2]
+						405, -- [3]
+						1616133354.397, -- [4]
+						30545, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						337824, -- [2]
+						737, -- [3]
+						1616133354.852, -- [4]
+						30545, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335779, -- [2]
+						791, -- [3]
+						1616133354.852, -- [4]
+						30491, -- [5]
+						"[*] Chain Link", -- [6]
+						737, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						1064, -- [2]
+						3936, -- [3]
+						1616133355.119, -- [4]
+						34427, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						332444, -- [2]
+						797, -- [3]
+						1616133355.294, -- [4]
+						33630, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						98021, -- [2]
+						1564, -- [3]
+						1616133355.405, -- [4]
+						35194, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332969, -- [2]
+						18059, -- [3]
+						1616133355.976, -- [4]
+						17135, -- [5]
+						"[*] Destructive Impact", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						332197, -- [2]
+						1, -- [3]
+						1616133356.035, -- [4]
+						17135, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						98021, -- [2]
+						451, -- [3]
+						1616133356.422, -- [4]
+						17578, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4272, -- [3]
+						1616133356.467, -- [4]
+						21850, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						335779, -- [2]
+						791, -- [3]
+						1616133356.854, -- [4]
+						21059, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1830, -- [3]
+						1616133356.99, -- [4]
+						22889, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						332241, -- [2]
+						7956, -- [3]
+						1616133357.044, -- [4]
+						14933, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						98021, -- [2]
+						468, -- [3]
+						1616133357.417, -- [4]
+						15401, -- [5]
+						"Spirit Link Totem <Samoansage>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						332241, -- [2]
+						8841, -- [3]
+						1616133358.054, -- [4]
+						6560, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						335779, -- [2]
+						879, -- [3]
+						1616133358.846, -- [4]
+						5681, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332241, -- [2]
+						8841, -- [3]
+						1616133359.137, -- [4]
+						1, -- [5]
+						"[*] Collapsing Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						3160, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						109304, -- [2]
+						1, -- [3]
+						1616133269.68, -- [4]
+						0, -- [5]
+						"Grëy-Hakkar", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "5m 48s",
+				["time"] = 1616133359.137,
 			}, -- [10]
 		},
-		["bossname"] = "Stone Legion Generals",
+		["bossname"] = "Sludgefist",
 		["bossicon"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
-			3753156, -- [5]
+			3752191, -- [5]
 		},
-		["date"] = 206658.952,
-		["timeelapsed"] = 461,
+		["date"] = 31472.246,
+		["timeelapsed"] = 363.1169999999984,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 37740,
+				["timeofdeath"] = 234.6219999999994,
+				["name"] = "Omik-ArgentDawn",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						605, -- [3]
+						1616132622.543, -- [4]
+						19340, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						323385, -- [2]
+						604, -- [3]
+						1616132622.719, -- [4]
+						19340, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132622.719, -- [4]
+						19340, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						323385, -- [2]
+						604, -- [3]
+						1616132623.228, -- [4]
+						19340, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132623.228, -- [4]
+						19340, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						323385, -- [2]
+						605, -- [3]
+						1616132623.533, -- [4]
+						19340, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						332444, -- [2]
+						605, -- [3]
+						1616132623.533, -- [4]
+						19340, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						157503, -- [2]
+						542, -- [3]
+						1616132623.715, -- [4]
+						19882, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						323385, -- [2]
+						604, -- [3]
+						1616132623.715, -- [4]
+						19882, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132623.715, -- [4]
+						19882, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						323385, -- [2]
+						604, -- [3]
+						1616132624.218, -- [4]
+						19882, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132624.218, -- [4]
+						19882, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						323385, -- [2]
+						887, -- [3]
+						1616132624.251, -- [4]
+						19882, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						335779, -- [2]
+						887, -- [3]
+						1616132624.251, -- [4]
+						19882, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						323385, -- [2]
+						604, -- [3]
+						1616132624.534, -- [4]
+						19882, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						332444, -- [2]
+						604, -- [3]
+						1616132624.534, -- [4]
+						19882, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						323385, -- [2]
+						73, -- [3]
+						1616132624.737, -- [4]
+						19882, -- [5]
+						"Omik-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132624.737, -- [4]
+						19351, -- [5]
+						"[*] Stonequake", -- [6]
+						73, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132625.232, -- [4]
+						18747, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						332444, -- [2]
+						604, -- [3]
+						1616132625.544, -- [4]
+						18143, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132625.703, -- [4]
+						17539, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132626.2, -- [4]
+						16935, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						335779, -- [2]
+						888, -- [3]
+						1616132626.272, -- [4]
+						16047, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						332444, -- [2]
+						605, -- [3]
+						1616132626.57, -- [4]
+						15442, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132626.695, -- [4]
+						14838, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						335361, -- [2]
+						604, -- [3]
+						1616132627.192, -- [4]
+						14234, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						61295, -- [2]
+						5641, -- [3]
+						1616132627.273, -- [4]
+						19875, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						332444, -- [2]
+						605, -- [3]
+						1616132627.578, -- [4]
+						19270, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						197997, -- [2]
+						1993, -- [3]
+						1616132628.019, -- [4]
+						21263, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						335779, -- [2]
+						888, -- [3]
+						1616132628.242, -- [4]
+						20375, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						332444, -- [2]
+						605, -- [3]
+						1616132628.558, -- [4]
+						19770, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332318, -- [2]
+						60469, -- [3]
+						1616132628.653, -- [4]
+						1, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						40699, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						48792, -- [2]
+						1, -- [3]
+						1616132563.402, -- [4]
+						0, -- [5]
+						"Omik-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "3m 54s",
+				["time"] = 1616132628.653,
+			}, -- [1]
+			{
+				["maxhealth"] = 36441,
+				["timeofdeath"] = 247.2580000000016,
+				["name"] = "Malcyna-EarthenRing",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						555, -- [3]
+						1616132631.584, -- [4]
+						35120, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						335779, -- [2]
+						834, -- [3]
+						1616132632.26, -- [4]
+						34286, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						332444, -- [2]
+						556, -- [3]
+						1616132632.601, -- [4]
+						33730, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						555, -- [3]
+						1616132633.614, -- [4]
+						33175, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						145109, -- [2]
+						1148, -- [3]
+						1616132633.926, -- [4]
+						34323, -- [5]
+						"Malcyna-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						73921, -- [2]
+						471, -- [3]
+						1616132633.966, -- [4]
+						34794, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						183811, -- [2]
+						151, -- [3]
+						1616132634.199, -- [4]
+						34945, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						335779, -- [2]
+						834, -- [3]
+						1616132634.247, -- [4]
+						34111, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						555, -- [3]
+						1616132634.602, -- [4]
+						33556, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1073, -- [3]
+						1616132634.855, -- [4]
+						34629, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						556, -- [3]
+						1616132635.609, -- [4]
+						34073, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						73921, -- [2]
+						484, -- [3]
+						1616132635.752, -- [4]
+						34557, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						335779, -- [2]
+						834, -- [3]
+						1616132636.258, -- [4]
+						33723, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						332444, -- [2]
+						556, -- [3]
+						1616132636.596, -- [4]
+						33167, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						73921, -- [2]
+						534, -- [3]
+						1616132636.65, -- [4]
+						33701, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						73921, -- [2]
+						502, -- [3]
+						1616132637.551, -- [4]
+						34203, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						556, -- [3]
+						1616132637.646, -- [4]
+						33647, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335779, -- [2]
+						833, -- [3]
+						1616132638.256, -- [4]
+						32814, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						332444, -- [2]
+						556, -- [3]
+						1616132638.608, -- [4]
+						32258, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						1, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1616132638.727, -- [4]
+						32258, -- [5]
+						"Malcyna-EarthenRing", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335473, -- [2]
+						4398, -- [3]
+						1616132638.918, -- [4]
+						27860, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						145109, -- [2]
+						1148, -- [3]
+						1616132638.971, -- [4]
+						29008, -- [5]
+						"Malcyna-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						201633, -- [2]
+						445, -- [3]
+						1616132639.64, -- [4]
+						29008, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						332444, -- [2]
+						445, -- [3]
+						1616132639.64, -- [4]
+						29008, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						201633, -- [2]
+						563, -- [3]
+						1616132640.257, -- [4]
+						30458, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						335779, -- [2]
+						668, -- [3]
+						1616132640.257, -- [4]
+						30353, -- [5]
+						"[*] Chain Link", -- [6]
+						563, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						201633, -- [2]
+						444, -- [3]
+						1616132640.624, -- [4]
+						30353, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						332444, -- [2]
+						444, -- [3]
+						1616132640.624, -- [4]
+						30353, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132641.094, -- [4]
+						30353, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616132641.243, -- [4]
+						28907, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						201633, -- [2]
+						563, -- [3]
+						1616132641.243, -- [4]
+						28907, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						335295, -- [2]
+						64936, -- [3]
+						1616132641.289, -- [4]
+						1, -- [5]
+						"[*] Shattering Chain", -- [6]
+						563, -- [7]
+						1, -- [8]
+						false, -- [9]
+						35466, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1616132638.727, -- [4]
+						0, -- [5]
+						"Malcyna-EarthenRing", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 7s",
+				["time"] = 1616132641.289,
+			}, -- [2]
+			{
+				["maxhealth"] = 39820,
+				["timeofdeath"] = 247.2580000000016,
+				["name"] = "Ettezil-Ragnaros",
+				["events"] = {
+					{
+						1, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1616132636.88, -- [4]
+						23757, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						55, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77220, -- [2]
+						23, -- [3]
+						1616132637.595, -- [4]
+						23757, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						108366, -- [2]
+						80, -- [3]
+						1616132637.595, -- [4]
+						23757, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						462, -- [3]
+						1616132637.595, -- [4]
+						23398, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						103, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132637.595, -- [4]
+						23398, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						73921, -- [2]
+						355, -- [3]
+						1616132637.646, -- [4]
+						23753, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						77220, -- [2]
+						26, -- [3]
+						1616132638.256, -- [4]
+						23753, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						335779, -- [2]
+						526, -- [3]
+						1616132638.256, -- [4]
+						23253, -- [5]
+						"[*] Chain Link", -- [6]
+						26, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77220, -- [2]
+						31, -- [3]
+						1616132638.608, -- [4]
+						23253, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						108366, -- [2]
+						432, -- [3]
+						1616132638.608, -- [4]
+						23253, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						463, -- [3]
+						1616132638.608, -- [4]
+						23253, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77220, -- [2]
+						252, -- [3]
+						1616132638.918, -- [4]
+						23253, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						108366, -- [2]
+						306, -- [3]
+						1616132638.918, -- [4]
+						23253, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						335473, -- [2]
+						3437, -- [3]
+						1616132638.918, -- [4]
+						20374, -- [5]
+						"Sludgefist", -- [6]
+						558, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132638.918, -- [4]
+						20374, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77220, -- [2]
+						26, -- [3]
+						1616132639.592, -- [4]
+						20374, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						108366, -- [2]
+						162, -- [3]
+						1616132639.592, -- [4]
+						20374, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						201633, -- [2]
+						274, -- [3]
+						1616132639.592, -- [4]
+						20374, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						332444, -- [2]
+						462, -- [3]
+						1616132639.592, -- [4]
+						20374, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132639.592, -- [4]
+						20374, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77220, -- [2]
+						36, -- [3]
+						1616132640.257, -- [4]
+						21392, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						201633, -- [2]
+						490, -- [3]
+						1616132640.257, -- [4]
+						21392, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						335779, -- [2]
+						526, -- [3]
+						1616132640.257, -- [4]
+						21392, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77220, -- [2]
+						30, -- [3]
+						1616132640.577, -- [4]
+						21392, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						108366, -- [2]
+						129, -- [3]
+						1616132640.577, -- [4]
+						21392, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						201633, -- [2]
+						303, -- [3]
+						1616132640.577, -- [4]
+						21392, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						332444, -- [2]
+						462, -- [3]
+						1616132640.577, -- [4]
+						21392, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132640.577, -- [4]
+						21392, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616132641.243, -- [4]
+						21392, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						77220, -- [2]
+						5686, -- [3]
+						1616132641.243, -- [4]
+						21392, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						201633, -- [2]
+						563, -- [3]
+						1616132641.243, -- [4]
+						21392, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						335295, -- [2]
+						67517, -- [3]
+						1616132641.243, -- [4]
+						1, -- [5]
+						"[*] Shattering Chain", -- [6]
+						6249, -- [7]
+						1, -- [8]
+						false, -- [9]
+						39876, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1616132636.88, -- [4]
+						0, -- [5]
+						"Ettezil-Ragnaros", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "4m 7s",
+				["time"] = 1616132641.289,
+			}, -- [3]
+			{
+				["maxhealth"] = 40420,
+				["timeofdeath"] = 249.6660000000011,
+				["name"] = "Grëy-Hakkar",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132625.588, -- [4]
+						23920, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132626.57, -- [4]
+						23257, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						197997, -- [2]
+						1909, -- [3]
+						1616132626.839, -- [4]
+						25157, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132627.578, -- [4]
+						24494, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						73921, -- [2]
+						618, -- [3]
+						1616132627.655, -- [4]
+						25112, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132628.609, -- [4]
+						24192, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132629.598, -- [4]
+						23528, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						157503, -- [2]
+						1934, -- [3]
+						1616132629.924, -- [4]
+						25462, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132630.59, -- [4]
+						24799, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132631.584, -- [4]
+						24136, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132632.601, -- [4]
+						23473, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						73921, -- [2]
+						631, -- [3]
+						1616132633.048, -- [4]
+						24104, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						152, -- [3]
+						1616132633.412, -- [4]
+						24256, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						183811, -- [2]
+						156, -- [3]
+						1616132633.412, -- [4]
+						24412, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132633.614, -- [4]
+						23749, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						73921, -- [2]
+						551, -- [3]
+						1616132633.966, -- [4]
+						24300, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132634.602, -- [4]
+						23636, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132635.609, -- [4]
+						22973, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						573, -- [3]
+						1616132635.752, -- [4]
+						23546, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132636.596, -- [4]
+						22883, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1122, -- [3]
+						1616132637.551, -- [4]
+						24005, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132637.646, -- [4]
+						23341, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132638.667, -- [4]
+						22678, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						335473, -- [2]
+						5137, -- [3]
+						1616132638.918, -- [4]
+						17541, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						201633, -- [2]
+						563, -- [3]
+						1616132639.64, -- [4]
+						17541, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132639.64, -- [4]
+						17440, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						563, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						201633, -- [2]
+						563, -- [3]
+						1616132640.624, -- [4]
+						18311, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132640.624, -- [4]
+						18211, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						563, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132641.65, -- [4]
+						16680, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						332444, -- [2]
+						664, -- [3]
+						1616132642.648, -- [4]
+						15999, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						332698, -- [2]
+						15665, -- [3]
+						1616132643.579, -- [4]
+						334, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332444, -- [2]
+						663, -- [3]
+						1616132643.64, -- [4]
+						1, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						329, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						109304, -- [2]
+						1, -- [3]
+						1616132579.224, -- [4]
+						0, -- [5]
+						"Grëy-Hakkar", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "4m 9s",
+				["time"] = 1616132643.697,
+			}, -- [4]
+			{
+				["maxhealth"] = 34220,
+				["timeofdeath"] = 320.1059999999998,
+				["name"] = "Mysticaim-Sargeras",
+				["events"] = {
+					{
+						true, -- [1]
+						332444, -- [2]
+						998, -- [3]
+						1616132705.961, -- [4]
+						16584, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132706.965, -- [4]
+						15710, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						73921, -- [2]
+						676, -- [3]
+						1616132707.285, -- [4]
+						16386, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						25914, -- [2]
+						7646, -- [3]
+						1616132707.553, -- [4]
+						24032, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						337824, -- [2]
+						743, -- [3]
+						1616132708.081, -- [4]
+						24032, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						335779, -- [2]
+						743, -- [3]
+						1616132708.081, -- [4]
+						24032, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						325983, -- [2]
+						948, -- [3]
+						1616132708.081, -- [4]
+						24980, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						337824, -- [2]
+						786, -- [3]
+						1616132708.081, -- [4]
+						24980, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132708.081, -- [4]
+						24892, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						786, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132709.009, -- [4]
+						24018, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						73921, -- [2]
+						606, -- [3]
+						1616132709.096, -- [4]
+						24624, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						335779, -- [2]
+						743, -- [3]
+						1616132709.804, -- [4]
+						23881, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132709.999, -- [4]
+						23007, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						335473, -- [2]
+						6710, -- [3]
+						1616132710.446, -- [4]
+						16297, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132710.816, -- [4]
+						16297, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						201633, -- [2]
+						597, -- [3]
+						1616132710.988, -- [4]
+						16297, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132710.988, -- [4]
+						16020, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						597, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						201633, -- [2]
+						597, -- [3]
+						1616132711.32, -- [4]
+						16020, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						335361, -- [2]
+						655, -- [3]
+						1616132711.32, -- [4]
+						15962, -- [5]
+						"[*] Stonequake", -- [6]
+						597, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						201633, -- [2]
+						597, -- [3]
+						1616132711.8, -- [4]
+						16760, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						335779, -- [2]
+						742, -- [3]
+						1616132711.8, -- [4]
+						16615, -- [5]
+						"[*] Chain Link", -- [6]
+						597, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						335361, -- [2]
+						655, -- [3]
+						1616132711.852, -- [4]
+						15960, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						332444, -- [2]
+						875, -- [3]
+						1616132711.999, -- [4]
+						15085, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						335361, -- [2]
+						655, -- [3]
+						1616132712.316, -- [4]
+						14430, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						157503, -- [2]
+						1527, -- [3]
+						1616132712.85, -- [4]
+						15957, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132713.049, -- [4]
+						15083, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						73921, -- [2]
+						368, -- [3]
+						1616132713.667, -- [4]
+						14691, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						337824, -- [2]
+						742, -- [3]
+						1616132713.816, -- [4]
+						14691, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						335779, -- [2]
+						742, -- [3]
+						1616132713.816, -- [4]
+						14691, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						337824, -- [2]
+						787, -- [3]
+						1616132714.034, -- [4]
+						14691, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						332444, -- [2]
+						874, -- [3]
+						1616132714.034, -- [4]
+						14604, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						787, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332698, -- [2]
+						15438, -- [3]
+						1616132714.137, -- [4]
+						1, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						834, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Mysticaim-Sargeras", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "5m 20s",
+				["time"] = 1616132714.137,
+			}, -- [5]
+			{
+				["maxhealth"] = 34800,
+				["timeofdeath"] = 320.8300000000018,
+				["name"] = "Kaladin-ScarletCrusade",
+				["events"] = {
+					{
+						false, -- [1]
+						1064, -- [2]
+						2047, -- [3]
+						1616132709.999, -- [4]
+						34859, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						332444, -- [2]
+						687, -- [3]
+						1616132709.999, -- [4]
+						34172, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						58, -- [3]
+						1616132710.066, -- [4]
+						34230, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						687, -- [3]
+						1616132710.988, -- [4]
+						33543, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						188, -- [3]
+						1616132711.32, -- [4]
+						33731, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						81751, -- [2]
+						134, -- [3]
+						1616132711.681, -- [4]
+						33865, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						335779, -- [2]
+						756, -- [3]
+						1616132711.852, -- [4]
+						33109, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						687, -- [3]
+						1616132711.999, -- [4]
+						32422, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						387, -- [3]
+						1616132712.414, -- [4]
+						32809, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						423, -- [3]
+						1616132712.481, -- [4]
+						33232, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						59, -- [3]
+						1616132712.525, -- [4]
+						33291, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132712.525, -- [4]
+						33291, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						157503, -- [2]
+						1527, -- [3]
+						1616132712.85, -- [4]
+						34818, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						335361, -- [2]
+						514, -- [3]
+						1616132713.049, -- [4]
+						34304, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						332444, -- [2]
+						687, -- [3]
+						1616132713.049, -- [4]
+						33617, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						94472, -- [2]
+						283, -- [3]
+						1616132713.44, -- [4]
+						33900, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						201633, -- [2]
+						515, -- [3]
+						1616132713.533, -- [4]
+						32285, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						335361, -- [2]
+						515, -- [3]
+						1616132713.533, -- [4]
+						32285, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						205, -- [3]
+						1616132713.667, -- [4]
+						32490, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						23, -- [3]
+						1616132713.715, -- [4]
+						32513, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						201633, -- [2]
+						597, -- [3]
+						1616132713.816, -- [4]
+						32513, -- [5]
+						"Earthen Wall Totem <Samoansage>", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						337824, -- [2]
+						159, -- [3]
+						1616132713.816, -- [4]
+						32513, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						335779, -- [2]
+						756, -- [3]
+						1616132713.816, -- [4]
+						32513, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						337824, -- [2]
+						514, -- [3]
+						1616132714.034, -- [4]
+						32513, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						335361, -- [2]
+						514, -- [3]
+						1616132714.034, -- [4]
+						32513, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						337824, -- [2]
+						687, -- [3]
+						1616132714.034, -- [4]
+						32513, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						332444, -- [2]
+						687, -- [3]
+						1616132714.034, -- [4]
+						32513, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						337824, -- [2]
+						352, -- [3]
+						1616132714.137, -- [4]
+						32513, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						332698, -- [2]
+						15338, -- [3]
+						1616132714.137, -- [4]
+						17527, -- [5]
+						"Sludgefist", -- [6]
+						352, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132714.608, -- [4]
+						17527, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616132714.817, -- [4]
+						17527, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						335295, -- [2]
+						85825, -- [3]
+						1616132714.817, -- [4]
+						1, -- [5]
+						"[*] Shattering Chain", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						68298, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1616132621.765, -- [4]
+						0, -- [5]
+						"Kaladin-ScarletCrusade", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 20s",
+				["time"] = 1616132714.861,
+			}, -- [6]
+			{
+				["maxhealth"] = 34680,
+				["timeofdeath"] = 320.8300000000018,
+				["name"] = "Yukalt-Frostmourne",
+				["events"] = {
+					{
+						2, -- [1]
+						20484, -- [2]
+						1, -- [3]
+						1616132725.555, -- [4]
+						0, -- [5]
+						"Jhacobo-Darkspear", -- [6]
+					}, -- [1]
+					{
+						true, -- [1]
+						335361, -- [2]
+						429, -- [3]
+						1616132710.879, -- [4]
+						36400, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						338788, -- [2]
+						100, -- [3]
+						1616132711.044, -- [4]
+						36400, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						332444, -- [2]
+						572, -- [3]
+						1616132711.044, -- [4]
+						35928, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						100, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						335361, -- [2]
+						428, -- [3]
+						1616132711.378, -- [4]
+						35500, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						312, -- [3]
+						1616132711.729, -- [4]
+						35812, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						335779, -- [2]
+						732, -- [3]
+						1616132711.8, -- [4]
+						35080, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						335361, -- [2]
+						429, -- [3]
+						1616132711.929, -- [4]
+						34651, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						572, -- [3]
+						1616132712.043, -- [4]
+						34079, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						335361, -- [2]
+						429, -- [3]
+						1616132712.371, -- [4]
+						33650, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						157503, -- [2]
+						1527, -- [3]
+						1616132712.85, -- [4]
+						35177, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						338788, -- [2]
+						428, -- [3]
+						1616132712.932, -- [4]
+						35177, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						335361, -- [2]
+						428, -- [3]
+						1616132712.932, -- [4]
+						35177, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						1101, -- [3]
+						1616132712.932, -- [4]
+						36278, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						183811, -- [2]
+						409, -- [3]
+						1616132712.989, -- [4]
+						36400, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						338788, -- [2]
+						572, -- [3]
+						1616132713.049, -- [4]
+						36400, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						572, -- [3]
+						1616132713.049, -- [4]
+						36400, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						338788, -- [2]
+						429, -- [3]
+						1616132713.392, -- [4]
+						36400, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						335361, -- [2]
+						429, -- [3]
+						1616132713.392, -- [4]
+						36400, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						338788, -- [2]
+						2566, -- [3]
+						1616132713.44, -- [4]
+						36400, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						332572, -- [2]
+						7148, -- [3]
+						1616132713.44, -- [4]
+						31818, -- [5]
+						"[*] Falling Rubble", -- [6]
+						2566, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						332572, -- [2]
+						1, -- [3]
+						1616132713.44, -- [4]
+						31818, -- [5]
+						"[*] Falling Rubble", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						335779, -- [2]
+						733, -- [3]
+						1616132713.816, -- [4]
+						31085, -- [5]
+						"[*] Chain Link", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						337824, -- [2]
+						429, -- [3]
+						1616132713.876, -- [4]
+						31085, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						335361, -- [2]
+						429, -- [3]
+						1616132713.876, -- [4]
+						31085, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						337824, -- [2]
+						653, -- [3]
+						1616132714.034, -- [4]
+						31085, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						332444, -- [2]
+						653, -- [3]
+						1616132714.034, -- [4]
+						31085, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						337824, -- [2]
+						613, -- [3]
+						1616132714.137, -- [4]
+						31085, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						332698, -- [2]
+						15228, -- [3]
+						1616132714.137, -- [4]
+						16470, -- [5]
+						"Sludgefist", -- [6]
+						613, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						143924, -- [2]
+						173, -- [3]
+						1616132714.137, -- [4]
+						16643, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						335361, -- [2]
+						489, -- [3]
+						1616132714.361, -- [4]
+						16154, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						4, -- [1]
+						335295, -- [2]
+						1, -- [3]
+						1616132714.817, -- [4]
+						16154, -- [5]
+						"[*] Shattering Chain", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [32]
+					{
+						true, -- [1]
+						335295, -- [2]
+						71479, -- [3]
+						1616132714.817, -- [4]
+						1, -- [5]
+						"[*] Shattering Chain", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						55325, -- [10]
+					}, -- [33]
+					{
+						3, -- [1]
+						498, -- [2]
+						1, -- [3]
+						1616132661.331, -- [4]
+						0, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+					}, -- [34]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 20s",
+				["time"] = 1616132714.861,
+			}, -- [7]
+			{
+				["maxhealth"] = 36680,
+				["timeofdeath"] = 325.9470000000001,
+				["name"] = "Archedemus-Frostmourne",
+				["events"] = {
+					{
+						false, -- [1]
+						77220, -- [2]
+						56, -- [3]
+						1616132715.627, -- [4]
+						4734, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						335361, -- [2]
+						782, -- [3]
+						1616132715.627, -- [4]
+						4008, -- [5]
+						"[*] Stonequake", -- [6]
+						56, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77220, -- [2]
+						44, -- [3]
+						1616132715.796, -- [4]
+						4008, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						108366, -- [2]
+						45, -- [3]
+						1616132715.796, -- [4]
+						4008, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						335779, -- [2]
+						885, -- [3]
+						1616132715.796, -- [4]
+						3212, -- [5]
+						"[*] Chain Link", -- [6]
+						89, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132715.796, -- [4]
+						3212, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						77220, -- [2]
+						63, -- [3]
+						1616132715.929, -- [4]
+						3212, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616132715.929, -- [4]
+						2231, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						63, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132716.096, -- [4]
+						2231, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						77220, -- [2]
+						85, -- [3]
+						1616132716.936, -- [4]
+						2231, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						108366, -- [2]
+						68, -- [3]
+						1616132716.936, -- [4]
+						2231, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616132716.936, -- [4]
+						1340, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						153, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132716.936, -- [4]
+						1340, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						61295, -- [2]
+						759, -- [3]
+						1616132716.993, -- [4]
+						2099, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77220, -- [2]
+						57, -- [3]
+						1616132717.807, -- [4]
+						2099, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						108366, -- [2]
+						46, -- [3]
+						1616132717.807, -- [4]
+						2099, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						335779, -- [2]
+						884, -- [3]
+						1616132717.807, -- [4]
+						1318, -- [5]
+						"[*] Chain Link", -- [6]
+						103, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132717.807, -- [4]
+						1318, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77220, -- [2]
+						84, -- [3]
+						1616132717.921, -- [4]
+						1318, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616132717.921, -- [4]
+						358, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						84, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1050, -- [3]
+						1616132718.831, -- [4]
+						1408, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77220, -- [2]
+						69, -- [3]
+						1616132718.946, -- [4]
+						1408, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						108366, -- [2]
+						24, -- [3]
+						1616132718.946, -- [4]
+						1408, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616132718.946, -- [4]
+						457, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						93, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132718.946, -- [4]
+						457, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						824, -- [3]
+						1616132719.041, -- [4]
+						1281, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						77220, -- [2]
+						46, -- [3]
+						1616132719.797, -- [4]
+						1281, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						108366, -- [2]
+						18, -- [3]
+						1616132719.797, -- [4]
+						1281, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						335779, -- [2]
+						884, -- [3]
+						1616132719.797, -- [4]
+						461, -- [5]
+						"[*] Chain Link", -- [6]
+						64, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1616132719.797, -- [4]
+						461, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						77220, -- [2]
+						46, -- [3]
+						1616132719.948, -- [4]
+						461, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1044, -- [3]
+						1616132719.978, -- [4]
+						1, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						46, -- [7]
+						1, -- [8]
+						false, -- [9]
+						537, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						104773, -- [2]
+						1, -- [3]
+						1616132580.691, -- [4]
+						0, -- [5]
+						"Archedemus-Frostmourne", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "5m 25s",
+				["time"] = 1616132719.978,
+			}, -- [8]
+			{
+				["maxhealth"] = 35128,
+				["timeofdeath"] = 330.6100000000006,
+				["name"] = "Mystry-Hakkar",
+				["events"] = {
+					{
+						true, -- [1]
+						332698, -- [2]
+						15655, -- [3]
+						1616132714.137, -- [4]
+						4530, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						183811, -- [2]
+						404, -- [3]
+						1616132714.502, -- [4]
+						4934, -- [5]
+						"Yukalt-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						37, -- [3]
+						1616132714.544, -- [4]
+						4971, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132714.574, -- [4]
+						4971, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132715.053, -- [4]
+						4098, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						335361, -- [2]
+						654, -- [3]
+						1616132715.108, -- [4]
+						3444, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						61295, -- [2]
+						658, -- [3]
+						1616132715.278, -- [4]
+						4102, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						335361, -- [2]
+						654, -- [3]
+						1616132715.577, -- [4]
+						3448, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132716.056, -- [4]
+						2575, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						143924, -- [2]
+						27, -- [3]
+						1616132716.538, -- [4]
+						2602, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132717.045, -- [4]
+						1729, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1616132717.768, -- [4]
+						1736, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						671, -- [3]
+						1616132717.987, -- [4]
+						2407, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132718.051, -- [4]
+						1534, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						20, -- [3]
+						1616132718.979, -- [4]
+						1554, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1617, -- [3]
+						1616132719.041, -- [4]
+						3171, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132719.076, -- [4]
+						2298, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132720.061, -- [4]
+						1425, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						52, -- [3]
+						1616132720.196, -- [4]
+						1477, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						61295, -- [2]
+						673, -- [3]
+						1616132720.683, -- [4]
+						2150, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						73921, -- [2]
+						794, -- [3]
+						1616132720.841, -- [4]
+						2944, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132721.084, -- [4]
+						2071, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						54, -- [3]
+						1616132721.42, -- [4]
+						2125, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132722.087, -- [4]
+						1252, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						31, -- [3]
+						1616132722.65, -- [4]
+						1283, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						927, -- [3]
+						1616132722.65, -- [4]
+						2210, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132723.069, -- [4]
+						1337, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1554, -- [3]
+						1616132723.391, -- [4]
+						2891, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						143924, -- [2]
+						67, -- [3]
+						1616132723.845, -- [4]
+						2958, -- [5]
+						"Mystry-Hakkar", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						332444, -- [2]
+						873, -- [3]
+						1616132724.083, -- [4]
+						2085, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						73921, -- [2]
+						912, -- [3]
+						1616132724.45, -- [4]
+						2997, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332318, -- [2]
+						78553, -- [3]
+						1616132724.605, -- [4]
+						1, -- [5]
+						"Sludgefist", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						75556, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						281195, -- [2]
+						1, -- [3]
+						1616132637.815, -- [4]
+						0, -- [5]
+						"Mystry-Hakkar", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "5m 30s",
+				["time"] = 1616132724.641,
+			}, -- [9]
+			{
+				["maxhealth"] = 32720,
+				["timeofdeath"] = 333.1320000000014,
+				["name"] = "Disbastic-Lightbringer",
+				["events"] = {
+					{
+						false, -- [1]
+						47750, -- [2]
+						2069, -- [3]
+						1616132717.396, -- [4]
+						11095, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						332444, -- [2]
+						872, -- [3]
+						1616132718.051, -- [4]
+						10223, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1616132718.577, -- [4]
+						10230, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						61295, -- [2]
+						477, -- [3]
+						1616132718.831, -- [4]
+						10707, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						73921, -- [2]
+						731, -- [3]
+						1616132719.041, -- [4]
+						11438, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1027, -- [3]
+						1616132719.076, -- [4]
+						10411, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1616132719.797, -- [4]
+						10418, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132720.061, -- [4]
+						9392, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						73921, -- [2]
+						731, -- [3]
+						1616132720.841, -- [4]
+						10123, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						143924, -- [2]
+						8, -- [3]
+						1616132721.01, -- [4]
+						10131, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132721.084, -- [4]
+						9105, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						61295, -- [2]
+						5689, -- [3]
+						1616132721.537, -- [4]
+						14794, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132722.087, -- [4]
+						13768, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						102, -- [3]
+						1616132722.219, -- [4]
+						13870, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1027, -- [3]
+						1616132723.069, -- [4]
+						12843, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1616132723.421, -- [4]
+						12850, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132724.083, -- [4]
+						11824, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						61295, -- [2]
+						616, -- [3]
+						1616132724.238, -- [4]
+						12440, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						808, -- [3]
+						1616132724.45, -- [4]
+						13248, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1616132724.641, -- [4]
+						13255, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						157503, -- [2]
+						2048, -- [3]
+						1616132725.035, -- [4]
+						15303, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132725.083, -- [4]
+						14277, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						335361, -- [2]
+						1, -- [3]
+						1616132725.653, -- [4]
+						14277, -- [5]
+						"[*] Stonequake", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						143924, -- [2]
+						16, -- [3]
+						1616132725.875, -- [4]
+						14293, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132726.071, -- [4]
+						13267, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						335361, -- [2]
+						769, -- [3]
+						1616132726.16, -- [4]
+						12498, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						73921, -- [2]
+						783, -- [3]
+						1616132726.241, -- [4]
+						13281, -- [5]
+						"Limlock-Onyxia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						61295, -- [2]
+						637, -- [3]
+						1616132726.394, -- [4]
+						13918, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						335361, -- [2]
+						769, -- [3]
+						1616132726.657, -- [4]
+						13149, -- [5]
+						"[*] Stonequake", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						143924, -- [2]
+						75, -- [3]
+						1616132727.072, -- [4]
+						13224, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						332444, -- [2]
+						1026, -- [3]
+						1616132727.099, -- [4]
+						12198, -- [5]
+						"[*] Crumbling Foundation", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						332572, -- [2]
+						12824, -- [3]
+						1616132727.128, -- [4]
+						1, -- [5]
+						"[*] Falling Rubble", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						626, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Disbastic-Lightbringer", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "5m 33s",
+				["time"] = 1616132727.163,
+			}, -- [10]
+		},
+		["bossname"] = "Sludgefist",
+		["bossicon"] = {
+			0, -- [1]
+			1, -- [2]
+			0, -- [3]
+			1, -- [4]
+			3752191, -- [5]
+		},
+		["date"] = 30849.578,
+		["timeelapsed"] = 356.9540000000015,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -16106,6 +18506,10 @@ DeathGraphsDBGraph = {
 				1614689485, -- [2]
 				1615356719, -- [3]
 				1615356719, -- [4]
+				1616116273, -- [5]
+				1616116273, -- [6]
+				1616116273, -- [7]
+				1616116273, -- [8]
 			},
 			[47] = {
 				1614691566, -- [1]
@@ -16125,6 +18529,9 @@ DeathGraphsDBGraph = {
 			},
 			[94] = {
 				1614859326, -- [1]
+			},
+			[218] = {
+				1616131921, -- [1]
 			},
 			[250] = {
 				1614690027, -- [1]
@@ -16150,6 +18557,9 @@ DeathGraphsDBGraph = {
 			[130] = {
 				1615357627, -- [1]
 			},
+			[320] = {
+				1616132751, -- [1]
+			},
 			[131] = {
 				1614690619, -- [1]
 				1614691566, -- [2]
@@ -16157,17 +18567,46 @@ DeathGraphsDBGraph = {
 			[322] = {
 				1615358824, -- [1]
 			},
+			[234] = {
+				1616132751, -- [1]
+			},
 			[227] = {
 				1614860258, -- [1]
+			},
+			[32] = {
+				1614858132, -- [1]
+				1614858132, -- [2]
 			},
 			[58] = {
 				1614859326, -- [1]
 			},
+			[184] = {
+				1616133374, -- [1]
+			},
+			[229] = {
+				1616131921, -- [1]
+			},
 			[198] = {
 				1615356719, -- [1]
 			},
+			[249] = {
+				1616132751, -- [1]
+			},
 			[199] = {
 				1614858132, -- [1]
+			},
+			[247] = {
+				1616132751, -- [1]
+				1616132751, -- [2]
+			},
+			[333] = {
+				1616133374, -- [1]
+			},
+			[15] = {
+				1616116273, -- [1]
+			},
+			[232] = {
+				1616131921, -- [1]
 			},
 			[22] = {
 				1615355894, -- [1]
@@ -16178,13 +18617,16 @@ DeathGraphsDBGraph = {
 			[118] = {
 				1614858132, -- [1]
 			},
+			[126] = {
+				1616131921, -- [1]
+				1616131921, -- [2]
+			},
 			[235] = {
 				1614690027, -- [1]
 				1614690027, -- [2]
 			},
-			[24] = {
-				1615355894, -- [1]
-				1615355894, -- [2]
+			[324] = {
+				1615358824, -- [1]
 			},
 			[119] = {
 				1615357627, -- [1]
@@ -16198,36 +18640,38 @@ DeathGraphsDBGraph = {
 				1614858542, -- [2]
 				1614858542, -- [3]
 			},
-			[273] = {
-				1614691566, -- [1]
-			},
-			[248] = {
-				1614859326, -- [1]
-				1614859326, -- [2]
-			},
-			[32] = {
-				1614858132, -- [1]
-				1614858132, -- [2]
-			},
-			[176] = {
-				1614689485, -- [1]
-				1614689485, -- [2]
-			},
-			[31] = {
-				1615355894, -- [1]
+			[181] = {
+				1615357627, -- [1]
+				1616133374, -- [2]
+				1616133374, -- [3]
 			},
 			[96] = {
 				1615357241, -- [1]
 				1615357241, -- [2]
 			},
-			[181] = {
-				1615357627, -- [1]
+			[31] = {
+				1615355894, -- [1]
+			},
+			[176] = {
+				1614689485, -- [1]
+				1614689485, -- [2]
+			},
+			[286] = {
+				1616133374, -- [1]
+			},
+			[248] = {
+				1614859326, -- [1]
+				1614859326, -- [2]
+			},
+			[273] = {
+				1614691566, -- [1]
 			},
 			[90] = {
 				1614859326, -- [1]
 			},
-			[324] = {
-				1615358824, -- [1]
+			[24] = {
+				1615355894, -- [1]
+				1615355894, -- [2]
 			},
 		},
 		["spells"] = {
@@ -16290,14 +18734,14 @@ DeathGraphsDBGraph = {
 				1614566477, -- [1]
 				1614566477, -- [2]
 			},
-			[276] = {
-				1614567233, -- [1]
+			[314] = {
+				1614568446, -- [1]
 			},
 			[219] = {
 				1614567927, -- [1]
 			},
-			[314] = {
-				1614568446, -- [1]
+			[192] = {
+				1614565976, -- [1]
 			},
 			[239] = {
 				1614566477, -- [1]
@@ -16322,8 +18766,8 @@ DeathGraphsDBGraph = {
 			[315] = {
 				1614567233, -- [1]
 			},
-			[192] = {
-				1614565976, -- [1]
+			[276] = {
+				1614567233, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16339,10 +18783,10 @@ DeathGraphsDBGraph = {
 			[297] = {
 				1615168087, -- [1]
 			},
-			[345] = {
+			[357] = {
 				1615168087, -- [1]
 			},
-			[357] = {
+			[345] = {
 				1615168087, -- [1]
 			},
 		},
@@ -16380,8 +18824,14 @@ DeathGraphsDBGraph = {
 	},
 	["2418-15"] = {
 		["deaths"] = {
+			[204] = {
+				1616107267, -- [1]
+			},
 			[257] = {
 				1615349570, -- [1]
+			},
+			[246] = {
+				1616107267, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16418,21 +18868,21 @@ DeathGraphsDBGraph = {
 			[270] = {
 				1614738665, -- [1]
 			},
-			[237] = {
-				1614739127, -- [1]
-			},
-			[234] = {
-				1614738665, -- [1]
-			},
-			[230] = {
-				1614738665, -- [1]
-			},
 			[69] = {
 				1615351010, -- [1]
 				1615351010, -- [2]
 			},
 			[268] = {
 				1614738665, -- [1]
+			},
+			[230] = {
+				1614738665, -- [1]
+			},
+			[234] = {
+				1614738665, -- [1]
+			},
+			[237] = {
+				1614739127, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16454,47 +18904,50 @@ DeathGraphsDBGraph = {
 			[182] = {
 				1615166094, -- [1]
 			},
-			[111] = {
-				1615166504, -- [1]
+			[228] = {
+				1615166954, -- [1]
+				1615166954, -- [2]
 			},
-			[21] = {
-				1614133025, -- [1]
-				1615166094, -- [2]
-				1615166094, -- [3]
+			[20] = {
+				1615166954, -- [1]
+				1615166954, -- [2]
 			},
 			[167] = {
 				1614133025, -- [1]
 			},
-			[297] = {
+			[199] = {
 				1614133951, -- [1]
 			},
 			[10] = {
 				1615166504, -- [1]
 				1615166504, -- [2]
 			},
-			[20] = {
-				1615166954, -- [1]
-				1615166954, -- [2]
+			[107] = {
+				1614135632, -- [1]
+				1614135632, -- [2]
+				1615166504, -- [3]
+				1615166504, -- [4]
 			},
 			[152] = {
 				1614133025, -- [1]
 			},
-			[41] = {
-				1614135632, -- [1]
-				1614135632, -- [2]
+			[21] = {
+				1614133025, -- [1]
+				1615166094, -- [2]
+				1615166094, -- [3]
 			},
-			[28] = {
-				1614135142, -- [1]
-				1614135142, -- [2]
+			[108] = {
+				1615166954, -- [1]
 			},
 			[22] = {
 				1614133951, -- [1]
 			},
-			[199] = {
+			[297] = {
 				1614133951, -- [1]
 			},
-			[92] = {
-				1614135632, -- [1]
+			[179] = {
+				1615166094, -- [1]
+				1615166094, -- [2]
 			},
 			[121] = {
 				1614133025, -- [1]
@@ -16507,8 +18960,9 @@ DeathGraphsDBGraph = {
 				1614133344, -- [1]
 				1614134603, -- [2]
 			},
-			[259] = {
-				1614133951, -- [1]
+			[109] = {
+				1614134603, -- [1]
+				1614134603, -- [2]
 			},
 			[130] = {
 				1614134603, -- [1]
@@ -16520,30 +18974,26 @@ DeathGraphsDBGraph = {
 				1614135142, -- [1]
 				1614135142, -- [2]
 			},
-			[109] = {
-				1614134603, -- [1]
-				1614134603, -- [2]
+			[259] = {
+				1614133951, -- [1]
 			},
-			[179] = {
-				1615166094, -- [1]
-				1615166094, -- [2]
+			[92] = {
+				1614135632, -- [1]
 			},
-			[108] = {
-				1615166954, -- [1]
+			[28] = {
+				1614135142, -- [1]
+				1614135142, -- [2]
 			},
 			[56] = {
 				1614133344, -- [1]
 				1614133344, -- [2]
 			},
-			[107] = {
+			[111] = {
+				1615166504, -- [1]
+			},
+			[41] = {
 				1614135632, -- [1]
 				1614135632, -- [2]
-				1615166504, -- [3]
-				1615166504, -- [4]
-			},
-			[228] = {
-				1615166954, -- [1]
-				1615166954, -- [2]
 			},
 		},
 		["spells"] = {
@@ -16575,14 +19025,14 @@ DeathGraphsDBGraph = {
 			[53] = {
 				1615165114, -- [1]
 			},
-			[122] = {
-				1614154382, -- [1]
+			[210] = {
+				1615165114, -- [1]
 			},
 			[151] = {
 				1615165114, -- [1]
 			},
-			[210] = {
-				1615165114, -- [1]
+			[122] = {
+				1614154382, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16592,15 +19042,44 @@ DeathGraphsDBGraph = {
 	},
 	["2417-15"] = {
 		["deaths"] = {
-			[260] = {
-				1615360269, -- [1]
-				1615360269, -- [2]
-			},
 			[131] = {
 				1615359667, -- [1]
+				1616114812, -- [2]
 			},
-			[229] = {
-				1615360269, -- [1]
+			[135] = {
+				1615359667, -- [1]
+			},
+			[87] = {
+				1616114351, -- [1]
+				1616114351, -- [2]
+				1616114351, -- [3]
+				1616114351, -- [4]
+			},
+			[91] = {
+				1615359667, -- [1]
+			},
+			[124] = {
+				1616114812, -- [1]
+			},
+			[287] = {
+				1615360961, -- [1]
+			},
+			[136] = {
+				1615359667, -- [1]
+			},
+			[103] = {
+				1616114351, -- [1]
+			},
+			[443] = {
+				1615360961, -- [1]
+			},
+			[428] = {
+				1616117114, -- [1]
+				1616117114, -- [2]
+				1616117806, -- [3]
+			},
+			[444] = {
+				1616117806, -- [1]
 			},
 			[413] = {
 				1615360961, -- [1]
@@ -16608,30 +19087,54 @@ DeathGraphsDBGraph = {
 			[547] = {
 				1615360961, -- [1]
 			},
-			[269] = {
-				1615360269, -- [1]
-				1615360269, -- [2]
+			[172] = {
+				1616114812, -- [1]
+				1616114812, -- [2]
 			},
-			[135] = {
-				1615359667, -- [1]
+			[430] = {
+				1616117806, -- [1]
 			},
 			[92] = {
 				1615359667, -- [1]
 			},
-			[136] = {
-				1615359667, -- [1]
+			[350] = {
+				1616117806, -- [1]
 			},
-			[91] = {
-				1615359667, -- [1]
+			[127] = {
+				1616114812, -- [1]
 			},
-			[287] = {
-				1615360961, -- [1]
+			[303] = {
+				1616117806, -- [1]
+			},
+			[260] = {
+				1615360269, -- [1]
+				1615360269, -- [2]
+			},
+			[351] = {
+				1616117114, -- [1]
 			},
 			[307] = {
 				1615360961, -- [1]
 			},
-			[443] = {
-				1615360961, -- [1]
+			[54] = {
+				1616115302, -- [1]
+				1616115302, -- [2]
+				1616115302, -- [3]
+				1616115302, -- [4]
+				1616115302, -- [5]
+			},
+			[322] = {
+				1616117114, -- [1]
+			},
+			[269] = {
+				1615360269, -- [1]
+				1615360269, -- [2]
+			},
+			[209] = {
+				1616117114, -- [1]
+			},
+			[229] = {
+				1615360269, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16703,6 +19206,236 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
+	["2407-15"] = {
+		["deaths"] = {
+			[27] = {
+				1616119996, -- [1]
+				1616122579, -- [2]
+			},
+			[180] = {
+				1616122579, -- [1]
+				1616129113, -- [2]
+			},
+			[212] = {
+				1616126007, -- [1]
+			},
+			[295] = {
+				1616129833, -- [1]
+			},
+			[213] = {
+				1616125572, -- [1]
+			},
+			[423] = {
+				1616128450, -- [1]
+			},
+			[298] = {
+				1616129833, -- [1]
+				1616129833, -- [2]
+			},
+			[299] = {
+				1616122579, -- [1]
+			},
+			[215] = {
+				1616126529, -- [1]
+				1616129113, -- [2]
+			},
+			[216] = {
+				1616125572, -- [1]
+				1616126007, -- [2]
+				1616126007, -- [3]
+				1616129113, -- [4]
+			},
+			[199] = {
+				1616130225, -- [1]
+			},
+			[154] = {
+				1616131014, -- [1]
+			},
+			[321] = {
+				1616131014, -- [1]
+			},
+			[306] = {
+				1616123839, -- [1]
+			},
+			[32] = {
+				1616119344, -- [1]
+			},
+			[308] = {
+				1616125136, -- [1]
+				1616125136, -- [2]
+			},
+			[219] = {
+				1616130225, -- [1]
+				1616130225, -- [2]
+			},
+			[220] = {
+				1616125136, -- [1]
+			},
+			[252] = {
+				1616125572, -- [1]
+			},
+			[312] = {
+				1616126529, -- [1]
+			},
+			[96] = {
+				1616119649, -- [1]
+			},
+			[314] = {
+				1616123839, -- [1]
+			},
+			[410] = {
+				1616128450, -- [1]
+			},
+			[223] = {
+				1616128450, -- [1]
+			},
+			[380] = {
+				1616128450, -- [1]
+			},
+			[224] = {
+				1616120696, -- [1]
+			},
+			[319] = {
+				1616126007, -- [1]
+			},
+			[257] = {
+				1616131014, -- [1]
+			},
+			[98] = {
+				1616119649, -- [1]
+				1616119649, -- [2]
+			},
+			[322] = {
+				1616131014, -- [1]
+			},
+			[323] = {
+				1616124713, -- [1]
+			},
+			[196] = {
+				1616130225, -- [1]
+			},
+			[262] = {
+				1616120696, -- [1]
+				1616124713, -- [2]
+				1616124713, -- [3]
+			},
+			[263] = {
+				1616126007, -- [1]
+				1616126529, -- [2]
+				1616128450, -- [3]
+			},
+			[264] = {
+				1616124713, -- [1]
+				1616125136, -- [2]
+			},
+			[229] = {
+				1616125572, -- [1]
+			},
+			[100] = {
+				1616119649, -- [1]
+			},
+			[266] = {
+				1616120696, -- [1]
+			},
+			[136] = {
+				1616129399, -- [1]
+			},
+			[43] = {
+				1616119344, -- [1]
+				1616131014, -- [2]
+			},
+			[135] = {
+				1616129399, -- [1]
+				1616129399, -- [2]
+				1616129399, -- [3]
+				1616129399, -- [4]
+			},
+			[232] = {
+				1616120696, -- [1]
+				1616120696, -- [2]
+			},
+			[311] = {
+				1616126529, -- [1]
+			},
+			[86] = {
+				1616130560, -- [1]
+				1616130560, -- [2]
+				1616130560, -- [3]
+				1616130560, -- [4]
+				1616130560, -- [5]
+			},
+			[102] = {
+				1616123839, -- [1]
+				1616129113, -- [2]
+			},
+			[356] = {
+				1616127382, -- [1]
+			},
+			[313] = {
+				1616127382, -- [1]
+				1616127382, -- [2]
+				1616127382, -- [3]
+				1616127382, -- [4]
+			},
+			[44] = {
+				1616129113, -- [1]
+			},
+			[265] = {
+				1616125572, -- [1]
+			},
+			[85] = {
+				1616119344, -- [1]
+				1616119649, -- [2]
+				1616122579, -- [3]
+			},
+			[142] = {
+				1616121058, -- [1]
+				1616121058, -- [2]
+				1616121058, -- [3]
+				1616121058, -- [4]
+			},
+			[174] = {
+				1616124713, -- [1]
+			},
+			[290] = {
+				1616123839, -- [1]
+			},
+			[131] = {
+				1616119344, -- [1]
+			},
+			[73] = {
+				1616119344, -- [1]
+				1616119996, -- [2]
+				1616119996, -- [3]
+				1616119996, -- [4]
+				1616126529, -- [5]
+			},
+			[74] = {
+				1616119996, -- [1]
+				1616129833, -- [2]
+				1616130225, -- [3]
+			},
+			[286] = {
+				1616129833, -- [1]
+			},
+			[177] = {
+				1616121058, -- [1]
+			},
+			[288] = {
+				1616123839, -- [1]
+			},
+			[178] = {
+				1616125136, -- [1]
+			},
+			[260] = {
+				1616122579, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["2398-15"] = {
 		["deaths"] = {
 			[103] = {
@@ -16720,8 +19453,8 @@ DeathGraphsDBGraph = {
 			[47] = {
 				1614856429, -- [1]
 			},
-			[62] = {
-				1615348716, -- [1]
+			[243] = {
+				1614856839, -- [1]
 			},
 			[287] = {
 				1615348716, -- [1]
@@ -16733,8 +19466,8 @@ DeathGraphsDBGraph = {
 			[75] = {
 				1614856429, -- [1]
 			},
-			[243] = {
-				1614856839, -- [1]
+			[62] = {
+				1615348716, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16742,59 +19475,40 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["2418-14"] = {
+	["2405-15"] = {
 		["deaths"] = {
-			[153] = {
-				1614155558, -- [1]
+			[213] = {
+				1614740751, -- [1]
+				1614740751, -- [2]
 			},
-			[146] = {
-				1614155558, -- [1]
+			[244] = {
+				1614740751, -- [1]
+				1614740751, -- [2]
 			},
-			[162] = {
-				1614155558, -- [1]
-				1614155558, -- [2]
+			[170] = {
+				1614740751, -- [1]
 			},
-			[193] = {
-				1614155908, -- [1]
-				1614562099, -- [2]
-				1614562099, -- [3]
-				1614562099, -- [4]
-				1614562099, -- [5]
-				1614563039, -- [6]
+			[201] = {
+				1614741573, -- [1]
+				1614741573, -- [2]
 			},
-			[156] = {
-				1614155558, -- [1]
+			[299] = {
+				1615352667, -- [1]
 			},
-			[247] = {
-				1614155023, -- [1]
-				1614155023, -- [2]
+			[166] = {
+				1615352667, -- [1]
 			},
-			[243] = {
-				1614155023, -- [1]
-				1614155023, -- [2]
-				1614155023, -- [3]
+			[129] = {
+				1615352667, -- [1]
+				1615352667, -- [2]
 			},
-			[191] = {
-				1614563039, -- [1]
+			[302] = {
+				1615352667, -- [1]
 			},
-			[187] = {
-				1614155908, -- [1]
-			},
-			[204] = {
-				1614563039, -- [1]
-			},
-			[144] = {
-				1614563039, -- [1]
-				1614563039, -- [2]
-			},
-			[190] = {
-				1614155908, -- [1]
-				1614155908, -- [2]
-				1614155908, -- [3]
-				1614562099, -- [4]
-			},
-			[141] = {
-				1614563909, -- [1]
+			[257] = {
+				1614741573, -- [1]
+				1614741573, -- [2]
+				1614741573, -- [3]
 			},
 		},
 		["spells"] = {
@@ -16857,11 +19571,11 @@ DeathGraphsDBGraph = {
 			[27] = {
 				1615168773, -- [1]
 			},
-			[65] = {
-				1614582077, -- [1]
-			},
 			[108] = {
 				1615169489, -- [1]
+			},
+			[243] = {
+				1614584143, -- [1]
 			},
 			[185] = {
 				1614582430, -- [1]
@@ -16871,8 +19585,8 @@ DeathGraphsDBGraph = {
 				1614583410, -- [1]
 				1614583410, -- [2]
 			},
-			[243] = {
-				1614584143, -- [1]
+			[65] = {
+				1614582077, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16885,40 +19599,25 @@ DeathGraphsDBGraph = {
 			{
 				1615350284, -- [1]
 			}, -- [1]
-			[107] = {
+			[83] = {
 				1614735979, -- [1]
 			},
-			[7] = {
-				1614735426, -- [1]
+			[87] = {
+				1614735979, -- [1]
 			},
 			[205] = {
 				1614736664, -- [1]
 				1614736664, -- [2]
 				1614738016, -- [3]
 			},
-			[264] = {
-				1614735979, -- [1]
-			},
-			[12] = {
-				1615350284, -- [1]
-			},
 			[101] = {
 				1614735979, -- [1]
 			},
-			[86] = {
-				1614735426, -- [1]
+			[72] = {
+				1616108289, -- [1]
 			},
 			[241] = {
 				1614736664, -- [1]
-			},
-			[94] = {
-				1614736664, -- [1]
-			},
-			[83] = {
-				1614735979, -- [1]
-			},
-			[87] = {
-				1614735979, -- [1]
 			},
 			[40] = {
 				1615350284, -- [1]
@@ -16926,13 +19625,56 @@ DeathGraphsDBGraph = {
 			[42] = {
 				1614736664, -- [1]
 			},
+			[164] = {
+				1616107970, -- [1]
+			},
+			[86] = {
+				1614735426, -- [1]
+			},
+			[264] = {
+				1614735979, -- [1]
+			},
 			[145] = {
 				1615350284, -- [1]
+			},
+			[12] = {
+				1615350284, -- [1]
+			},
+			[94] = {
+				1614736664, -- [1]
+			},
+			[25] = {
+				1616108289, -- [1]
+			},
+			[13] = {
+				1616108289, -- [1]
+			},
+			[170] = {
+				1616107970, -- [1]
+			},
+			[71] = {
+				1616107970, -- [1]
+			},
+			[7] = {
+				1614735426, -- [1]
+			},
+			[73] = {
+				1616107970, -- [1]
+			},
+			[121] = {
+				1616107970, -- [1]
+			},
+			[110] = {
+				1616108289, -- [1]
 			},
 			[50] = {
 				1614735426, -- [1]
 				1614735426, -- [2]
 				1614735426, -- [3]
+				1616108289, -- [4]
+			},
+			[107] = {
+				1614735979, -- [1]
 			},
 		},
 		["spells"] = {
@@ -16940,40 +19682,59 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["2405-15"] = {
+	["2418-14"] = {
 		["deaths"] = {
-			[213] = {
-				1614740751, -- [1]
-				1614740751, -- [2]
+			[153] = {
+				1614155558, -- [1]
 			},
-			[244] = {
-				1614740751, -- [1]
-				1614740751, -- [2]
+			[146] = {
+				1614155558, -- [1]
 			},
-			[170] = {
-				1614740751, -- [1]
+			[162] = {
+				1614155558, -- [1]
+				1614155558, -- [2]
 			},
-			[201] = {
-				1614741573, -- [1]
-				1614741573, -- [2]
+			[193] = {
+				1614155908, -- [1]
+				1614562099, -- [2]
+				1614562099, -- [3]
+				1614562099, -- [4]
+				1614562099, -- [5]
+				1614563039, -- [6]
 			},
-			[299] = {
-				1615352667, -- [1]
+			[156] = {
+				1614155558, -- [1]
 			},
-			[166] = {
-				1615352667, -- [1]
+			[247] = {
+				1614155023, -- [1]
+				1614155023, -- [2]
 			},
-			[129] = {
-				1615352667, -- [1]
-				1615352667, -- [2]
+			[141] = {
+				1614563909, -- [1]
 			},
-			[257] = {
-				1614741573, -- [1]
-				1614741573, -- [2]
-				1614741573, -- [3]
+			[191] = {
+				1614563039, -- [1]
 			},
-			[302] = {
-				1615352667, -- [1]
+			[204] = {
+				1614563039, -- [1]
+			},
+			[144] = {
+				1614563039, -- [1]
+				1614563039, -- [2]
+			},
+			[187] = {
+				1614155908, -- [1]
+			},
+			[190] = {
+				1614155908, -- [1]
+				1614155908, -- [2]
+				1614155908, -- [3]
+				1614562099, -- [4]
+			},
+			[243] = {
+				1614155023, -- [1]
+				1614155023, -- [2]
+				1614155023, -- [3]
 			},
 		},
 		["spells"] = {

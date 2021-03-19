@@ -4207,6 +4207,9 @@ GatherMate2MineDB = {
 		[2644648700] = 201,
 		[2331245800] = 202,
 	},
+	[371] = {
+		[5383802800] = 241,
+	},
 }
 GatherMate2FishDB = {
 	[540] = {
@@ -4264,6 +4267,9 @@ GatherMate2TreasureDB = {
 	},
 }
 GatherMate2ArchaeologyDB = {
+	[539] = {
+		[3087336300] = 615,
+	},
 }
 GatherMate2LoggingDB = {
 }

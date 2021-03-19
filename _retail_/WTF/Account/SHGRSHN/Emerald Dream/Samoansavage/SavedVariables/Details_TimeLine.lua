@@ -489,34 +489,45 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			[328365] = {
+			[325245] = {
 				{
-					83.98999999999069, -- [1]
-					"Venomous Sniper", -- [2]
-					328365, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Defender of Many Eyes", -- [5]
-				}, -- [1]
-			},
-			[328533] = {
-				{
-					83.98999999999069, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
+					9.716000000014901, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					83.98999999999069, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
+					33.70699999999488, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					83.98999999999069, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
+					57.21399999997811, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
+				{
+					77.88000000000466, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[332313] = {
+				{
+					19.02100000000792, -- [1]
+					"Domina Venomblade", -- [2]
+					332313, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					55.53800000000047, -- [1]
+					"Domina Venomblade", -- [2]
+					332313, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 			[325552] = {
 				{
@@ -548,31 +559,14 @@ DetailsTimeLineDB = {
 					"Honustustere", -- [5]
 				}, -- [4]
 			},
-			[325245] = {
+			[328365] = {
 				{
-					9.716000000014901, -- [1]
-					"Domina Venomblade", -- [2]
-					325245, -- [3]
+					83.98999999999069, -- [1]
+					"Venomous Sniper", -- [2]
+					328365, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Defender of Many Eyes", -- [5]
 				}, -- [1]
-				{
-					33.70699999999488, -- [1]
-					"Domina Venomblade", -- [2]
-					325245, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					57.21399999997811, -- [1]
-					"Domina Venomblade", -- [2]
-					325245, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					77.88000000000466, -- [1]
-					"Domina Venomblade", -- [2]
-					325245, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 			[325395] = {
 				{
@@ -930,19 +924,25 @@ DetailsTimeLineDB = {
 					"Honustustere", -- [5]
 				}, -- [6]
 			},
-			[332313] = {
+			[328533] = {
 				{
-					19.02100000000792, -- [1]
-					"Domina Venomblade", -- [2]
-					332313, -- [3]
+					83.98999999999069, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					55.53800000000047, -- [1]
-					"Domina Venomblade", -- [2]
-					332313, -- [3]
+					83.98999999999069, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					83.98999999999069, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
 			},
 		}, -- [2]
 		{
@@ -3006,22 +3006,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[319941] = {
-				{
-					27.53000000002794, -- [1]
-					"Echelon", -- [2]
-					319941, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[319733] = {
-				{
-					11.69900000002235, -- [1]
-					"Echelon", -- [2]
-					319733, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[328124] = {
 				{
 					11.69900000002235, -- [1]
@@ -3041,6 +3025,22 @@ DetailsTimeLineDB = {
 					328124, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
+			},
+			[319733] = {
+				{
+					11.69900000002235, -- [1]
+					"Echelon", -- [2]
+					319733, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[319941] = {
+				{
+					27.53000000002794, -- [1]
+					"Echelon", -- [2]
+					319941, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [12]
 		{
@@ -3244,12 +3244,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Dagonra-Lothar"] = {
@@ -3785,6 +3780,16 @@ DetailsTimeLineDB = {
 					["source"] = "Doctor Ickus",
 					["active"] = false,
 				},
+				[330069] = {
+					64.51799999998184, -- [1]
+					69.5339999999851, -- [2]
+					170.4230000000098, -- [3]
+					170.4230000000098, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Concentrated Plague",
+					["active"] = false,
+				},
 				[322410] = {
 					76.20100000000093, -- [1]
 					94.5679999999702, -- [2]
@@ -3797,16 +3802,6 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Congealed Slime",
-					["active"] = false,
-				},
-				[330069] = {
-					64.51799999998184, -- [1]
-					69.5339999999851, -- [2]
-					170.4230000000098, -- [3]
-					170.4230000000098, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Concentrated Plague",
 					["active"] = false,
 				},
 				[328180] = {
@@ -4022,7 +4017,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["BossSpellCast"] = {
 		{
 			["Margrave Stradama"] = {
@@ -4941,6 +4941,64 @@ DetailsTimeLineDB = {
 					"Dagonra-Lothar", -- [5]
 				}, -- [2]
 			},
+			["Venomfang"] = {
+				{
+					170.4230000000098, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					170.4230000000098, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					170.4230000000098, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					170.4230000000098, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			["Erupting Ooze"] = {
+				{
+					47.20000000001164, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					95.42200000002049, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					106.6130000000121, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					138.1439999999711, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					160.560999999987, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
 			["Venomous Sniper"] = {
 				{
 					170.4230000000098, -- [1]
@@ -5048,211 +5106,49 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			["Venomfang"] = {
+			["Plaguebinder"] = {
 				{
-					170.4230000000098, -- [1]
-					"Venomfang", -- [2]
-					328343, -- [3]
+					5.066999999980908, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [1]
 				{
-					170.4230000000098, -- [1]
-					"Venomfang", -- [2]
-					328343, -- [3]
+					7.473999999987427, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [2]
 				{
-					170.4230000000098, -- [1]
-					"Venomfang", -- [2]
-					328343, -- [3]
+					9.920999999972992, -- [1]
+					"Plaguebinder", -- [2]
+					328180, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [3]
 				{
-					170.4230000000098, -- [1]
-					"Venomfang", -- [2]
-					328343, -- [3]
+					14.80800000001909, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			["Erupting Ooze"] = {
-				{
-					47.20000000001164, -- [1]
-					"Erupting Ooze", -- [2]
-					341443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					95.42200000002049, -- [1]
-					"Erupting Ooze", -- [2]
-					341443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					106.6130000000121, -- [1]
-					"Erupting Ooze", -- [2]
-					341443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					138.1439999999711, -- [1]
-					"Erupting Ooze", -- [2]
-					341443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [4]
 				{
-					160.560999999987, -- [1]
-					"Erupting Ooze", -- [2]
-					341443, -- [3]
+					17.22899999999208, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-			},
-			["Congealed Slime"] = {
-				{
-					76.02100000000792, -- [1]
-					"Congealed Slime", -- [2]
-					321935, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					76.16899999999441, -- [1]
-					"Congealed Slime", -- [2]
-					322410, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					96.68799999996554, -- [1]
-					"Congealed Slime", -- [2]
-					321935, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					96.84600000001956, -- [1]
-					"Congealed Slime", -- [2]
-					322410, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					130.2789999999804, -- [1]
-					"Congealed Slime", -- [2]
-					333737, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [5]
 				{
-					145.3709999999846, -- [1]
-					"Congealed Slime", -- [2]
-					321935, -- [3]
+					19.67699999996694, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
 				}, -- [6]
-				{
-					145.4720000000089, -- [1]
-					"Congealed Slime", -- [2]
-					322410, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					166.0540000000037, -- [1]
-					"Congealed Slime", -- [2]
-					321935, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					166.2229999999981, -- [1]
-					"Congealed Slime", -- [2]
-					322410, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-			},
-			["Defender of Many Eyes"] = {
-				{
-					170.4230000000098, -- [1]
-					"Defender of Many Eyes", -- [2]
-					336451, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					170.4230000000098, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					170.4230000000098, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					170.4230000000098, -- [1]
-					"Defender of Many Eyes", -- [2]
-					328533, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			["Blighted Spinebreaker"] = {
-				{
-					6.577999999979511, -- [1]
-					"Blighted Spinebreaker", -- [2]
-					318949, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					9.413000000000466, -- [1]
-					"Blighted Spinebreaker", -- [2]
-					320517, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					23.63199999998324, -- [1]
-					"Blighted Spinebreaker", -- [2]
-					318949, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			["Slithering Ooze"] = {
-				{
-					30.94000000000233, -- [1]
-					"Slithering Ooze", -- [2]
-					320103, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					30.94000000000233, -- [1]
-					"Slithering Ooze", -- [2]
-					320103, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					30.9660000000149, -- [1]
-					"Slithering Ooze", -- [2]
-					320103, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					30.9660000000149, -- [1]
-					"Slithering Ooze", -- [2]
-					320103, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					31.00599999999395, -- [1]
-					"Slithering Ooze", -- [2]
-					320103, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-			},
-			["Unknown"] = {
-				{
-					29.4649999999674, -- [1]
-					"Unknown", -- [2]
-					341443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					65.85599999997066, -- [1]
-					"Unknown", -- [2]
-					333737, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
 			["Doctor Ickus"] = {
 				{
@@ -5396,49 +5292,153 @@ DetailsTimeLineDB = {
 					"Honustustere", -- [5]
 				}, -- [22]
 			},
-			["Plaguebinder"] = {
+			["Blighted Spinebreaker"] = {
 				{
-					5.066999999980908, -- [1]
-					"Plaguebinder", -- [2]
-					328094, -- [3]
+					6.577999999979511, -- [1]
+					"Blighted Spinebreaker", -- [2]
+					318949, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
 				}, -- [1]
 				{
-					7.473999999987427, -- [1]
-					"Plaguebinder", -- [2]
-					328094, -- [3]
+					9.413000000000466, -- [1]
+					"Blighted Spinebreaker", -- [2]
+					320517, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
 				}, -- [2]
 				{
-					9.920999999972992, -- [1]
-					"Plaguebinder", -- [2]
-					328180, -- [3]
+					23.63199999998324, -- [1]
+					"Blighted Spinebreaker", -- [2]
+					318949, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
+				}, -- [3]
+			},
+			["Slithering Ooze"] = {
+				{
+					30.94000000000233, -- [1]
+					"Slithering Ooze", -- [2]
+					320103, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					30.94000000000233, -- [1]
+					"Slithering Ooze", -- [2]
+					320103, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					30.9660000000149, -- [1]
+					"Slithering Ooze", -- [2]
+					320103, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					14.80800000001909, -- [1]
-					"Plaguebinder", -- [2]
-					328094, -- [3]
+					30.9660000000149, -- [1]
+					"Slithering Ooze", -- [2]
+					320103, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
 				}, -- [4]
 				{
-					17.22899999999208, -- [1]
-					"Plaguebinder", -- [2]
-					328094, -- [3]
+					31.00599999999395, -- [1]
+					"Slithering Ooze", -- [2]
+					320103, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
+				}, -- [5]
+			},
+			["Unknown"] = {
+				{
+					29.4649999999674, -- [1]
+					"Unknown", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					65.85599999997066, -- [1]
+					"Unknown", -- [2]
+					333737, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			["Defender of Many Eyes"] = {
+				{
+					170.4230000000098, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					170.4230000000098, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					170.4230000000098, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					170.4230000000098, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			["Congealed Slime"] = {
+				{
+					76.02100000000792, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					76.16899999999441, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					96.68799999996554, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					96.84600000001956, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					130.2789999999804, -- [1]
+					"Congealed Slime", -- [2]
+					333737, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					19.67699999996694, -- [1]
-					"Plaguebinder", -- [2]
-					328094, -- [3]
+					145.3709999999846, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Honustustere", -- [5]
 				}, -- [6]
+				{
+					145.4720000000089, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					166.0540000000037, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					166.2229999999981, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
 			},
 		}, -- [3]
 		{

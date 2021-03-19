@@ -65,6 +65,8 @@ MogItDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["y"] = 29.49993515014648,
+			["x"] = 137.0001525878906,
 			["previewProps"] = {
 				{
 					["y"] = 55.0001106262207,
@@ -74,8 +76,6 @@ MogItDB = {
 					["x"] = 222.500122070313,
 				}, -- [1]
 			},
-			["gridHeight"] = 907.000244140625,
-			["x"] = 137.0001525878906,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -107,14 +107,13 @@ MogItDB = {
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
 			},
+			["gridHeight"] = 907.000244140625,
+			["gridWidth"] = 1266.00073242188,
 			["minimap"] = {
 				["minimapPos"] = 176.478610615402,
 			},
-			["gridWidth"] = 1266.00073242188,
-			["y"] = 29.49993515014648,
 		},
 		["KokonutKrew"] = {
-			["y"] = 0,
 			["x"] = 0,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
@@ -142,6 +141,7 @@ MogItDB = {
 			["minimap"] = {
 				["minimapPos"] = 326.188785177687,
 			},
+			["y"] = 0,
 		},
 	},
 }

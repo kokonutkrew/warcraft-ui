@@ -38,6 +38,9 @@ That said, some things to consider when looking at the numbers:
 * CPU usage per addon is taken from the in-game API and does not represent the whole story. It's possible for an addon to get some of its work blamed on another if libraries are involved, or it may get a lot of work to go unnoticed. Use these numbers as a guide only.
 * Remember to turn off CPU monitoring when you're done testing!
 
+03/13/2021 version 3.0.7
+- toc update for 9.0.5
+
 10/13/2020 version 3.0.6
 - toc update for 9.0
 

@@ -43,183 +43,590 @@ DataStore_RaresDB = {
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1615983799,
 			},
-			["Default.Emerald Dream.Dustcraft"] = {
-				["lastUpdate"] = 1615448219,
-			},
 			["Default.Tichondrius.Samoantank"] = {
 				["lastUpdate"] = 1603443864,
 			},
-			["Default.Emerald Dream.Samoanreaper"] = {
-				["lastUpdate"] = 1608195618,
+			["Default.Emerald Dream.Samoanruin"] = {
+				["lastUpdate"] = 1611778012,
 			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1608540698,
+				["lastUpdate"] = 1616144619,
 				["RareKillsCounter"] = {
-					[139135] = 3,
-					[131404] = 3,
-					[142088] = 3,
-					[141088] = 3,
-					[134897] = 3,
-					[130143] = 3,
-					[131389] = 3,
-					[137025] = 3,
-					[124722] = 3,
-					[126635] = 3,
-					[135565] = 3,
-					[129961] = 3,
-					[128699] = 3,
-					[139328] = 3,
-					[139233] = 3,
-					[134296] = 3,
-					[125453] = 3,
-					[141059] = 3,
-					[134106] = 3,
-					[129803] = 3,
-					[129954] = 3,
-					[129343] = 3,
-					[136393] = 3,
-					[139235] = 3,
-					[133155] = 3,
-					[136346] = 3,
-					[126621] = 3,
-					[132007] = 3,
-					[130079] = 3,
-					[127939] = 3,
-					[127820] = 3,
-					[139298] = 3,
-					[134760] = 3,
-					[137824] = 3,
-					[136189] = 3,
-					[132182] = 3,
-					[124185] = 3,
-					[139285] = 3,
-					[132086] = 3,
-					[134745] = 3,
-					[139968] = 3,
-					[136428] = 3,
-					[141029] = 3,
-					[134298] = 3,
-					[134571] = 3,
-					[133190] = 3,
-					[130508] = 3,
-					[127333] = 3,
-					[124548] = 3,
-					[131476] = 3,
-					[132127] = 3,
-					[130401] = 3,
-					[140938] = 3,
-					[127877] = 3,
-					[134706] = 3,
-					[138938] = 3,
-					[139287] = 3,
-					[137183] = 3,
-					[125250] = 3,
-					[127290] = 3,
-					[139145] = 3,
-					[134884] = 3,
-					[132319] = 3,
-					[128973] = 3,
-					[139205] = 3,
-					[121242] = 3,
-					[122004] = 3,
-					[136336] = 3,
-					[133812] = 3,
-					[139289] = 3,
-					[139280] = 3,
-					[139321] = 3,
-					[134638] = 3,
-					[139988] = 3,
-					[129950] = 3,
-					[139385] = 3,
-					[138866] = 3,
-					[139290] = 3,
-					[139322] = 3,
-					[128974] = 3,
-					[131687] = 3,
-					[134782] = 3,
-					[132068] = 3,
-					[136338] = 3,
-					[131984] = 3,
-					[132179] = 3,
-					[137529] = 3,
-					[129411] = 3,
-					[128553] = 3,
-					[129181] = 3,
-					[128426] = 3,
-					[141226] = 3,
-					[136304] = 3,
-					[135796] = 3,
-					[128965] = 3,
-					[136335] = 3,
-					[135852] = 3,
-					[132244] = 3,
-					[134295] = 3,
-					[141039] = 3,
-					[127129] = 3,
-					[134213] = 3,
-					[138675] = 3,
-					[133356] = 3,
-					[127651] = 3,
-					[130138] = 3,
-					[133531] = 3,
-					[127844] = 3,
+					[139135] = 4,
+					[131404] = 4,
+					[142088] = 4,
+					[141088] = 4,
+					[134897] = 4,
+					[130143] = 4,
+					[131389] = 4,
+					[137025] = 4,
+					[124722] = 4,
+					[126635] = 4,
+					[135565] = 4,
+					[129961] = 4,
+					[128699] = 4,
+					[139328] = 4,
+					[139233] = 4,
+					[134296] = 4,
+					[125453] = 4,
+					[141059] = 4,
+					[134106] = 4,
+					[129803] = 4,
+					[129954] = 4,
+					[129343] = 4,
+					[136393] = 4,
+					[139235] = 4,
+					[133155] = 4,
+					[136346] = 4,
+					[126621] = 4,
+					[132007] = 4,
+					[130079] = 4,
+					[127939] = 4,
+					[127820] = 4,
+					[139298] = 4,
+					[134760] = 4,
+					[137824] = 4,
+					[136189] = 4,
+					[132182] = 4,
+					[124185] = 4,
+					[139285] = 4,
+					[132086] = 4,
+					[134745] = 4,
+					[139968] = 4,
+					[136428] = 4,
+					[141029] = 4,
+					[134298] = 4,
+					[134571] = 4,
+					[133190] = 4,
+					[130508] = 4,
+					[127333] = 4,
+					[124548] = 4,
+					[131476] = 4,
+					[132127] = 4,
+					[130401] = 4,
+					[140938] = 4,
+					[127877] = 4,
+					[134706] = 4,
+					[138938] = 4,
+					[139287] = 4,
+					[137183] = 4,
+					[125250] = 4,
+					[127290] = 4,
+					[139145] = 4,
+					[134884] = 4,
+					[132319] = 4,
+					[128973] = 4,
+					[139205] = 4,
+					[121242] = 4,
+					[122004] = 4,
+					[136336] = 4,
+					[133812] = 4,
+					[139289] = 4,
+					[139280] = 4,
+					[139321] = 4,
+					[134638] = 4,
+					[139988] = 4,
+					[129950] = 4,
+					[139385] = 4,
+					[138866] = 4,
+					[139290] = 4,
+					[139322] = 4,
+					[128974] = 4,
+					[131687] = 4,
+					[134782] = 4,
+					[132068] = 4,
+					[136338] = 4,
+					[131984] = 4,
+					[132179] = 4,
+					[137529] = 4,
+					[129411] = 4,
+					[128553] = 4,
+					[129181] = 4,
+					[128426] = 4,
+					[141226] = 4,
+					[136304] = 4,
+					[135796] = 4,
+					[128965] = 4,
+					[136335] = 4,
+					[135852] = 4,
+					[132244] = 4,
+					[134295] = 4,
+					[141039] = 4,
+					[127129] = 4,
+					[134213] = 4,
+					[138675] = 4,
+					[133356] = 4,
+					[127651] = 4,
+					[130138] = 4,
+					[133531] = 4,
+					[127844] = 4,
+				},
+				["Rares"] = {
+					[139135] = {
+						["resetTime"] = 21380,
+						["name"] = "Squirgle of the Depths",
+					},
+					[131404] = {
+						["resetTime"] = 21380,
+						["name"] = "Foreman Scripps",
+					},
+					[142088] = {
+						["resetTime"] = 21380,
+						["name"] = "Whirlwing",
+					},
+					[141088] = {
+						["resetTime"] = 21380,
+						["name"] = "Squall",
+					},
+					[134897] = {
+						["resetTime"] = 21380,
+						["name"] = "Dagrus the Scorned",
+					},
+					[130143] = {
+						["resetTime"] = 21380,
+						["name"] = "Balethorn",
+					},
+					[131389] = {
+						["resetTime"] = 21380,
+						["name"] = "Teres",
+					},
+					[137025] = {
+						["resetTime"] = 21380,
+						["name"] = "Broodmother",
+					},
+					[124722] = {
+						["resetTime"] = 21380,
+						["name"] = "Commodore Calhoun",
+					},
+					[126635] = {
+						["resetTime"] = 21380,
+						["name"] = "Blood Priest Xak'lar",
+					},
+					[135565] = {
+						["resetTime"] = 21380,
+						["name"] = "Urn of Agussu",
+					},
+					[129961] = {
+						["resetTime"] = 21380,
+						["name"] = "Atal'zul Gotaka",
+					},
+					[128699] = {
+						["resetTime"] = 21380,
+						["name"] = "Bloodbulge",
+					},
+					[139328] = {
+						["resetTime"] = 21380,
+						["name"] = "Sabertron",
+					},
+					[139233] = {
+						["resetTime"] = 21380,
+						["name"] = "Gulliver",
+					},
+					[134296] = {
+						["resetTime"] = 21380,
+						["name"] = "Chag's Challenge",
+					},
+					[125453] = {
+						["resetTime"] = 21380,
+						["name"] = "Quillrat Matriarch",
+					},
+					[141059] = {
+						["resetTime"] = 21380,
+						["name"] = "Grimscowl the Harebrained",
+					},
+					[134106] = {
+						["resetTime"] = 21380,
+						["name"] = "Lumbergrasp Sentinel",
+					},
+					[129803] = {
+						["resetTime"] = 21380,
+						["name"] = "Whiplash",
+					},
+					[129954] = {
+						["resetTime"] = 21380,
+						["name"] = "Gahz'ralka",
+					},
+					[129343] = {
+						["resetTime"] = 21380,
+						["name"] = "Avatar of Xolotal",
+					},
+					[136393] = {
+						["resetTime"] = 21380,
+						["name"] = "Bloodwing Bonepicker",
+					},
+					[139235] = {
+						["resetTime"] = 21380,
+						["name"] = "Tort Jaw",
+					},
+					[133155] = {
+						["resetTime"] = 21380,
+						["name"] = "G'Naat",
+					},
+					[136346] = {
+						["resetTime"] = 21380,
+						["name"] = "Captain Stef 'Marrow' Quin",
+					},
+					[126621] = {
+						["resetTime"] = 21380,
+						["name"] = "Bonesquall",
+					},
+					[139321] = {
+						["resetTime"] = 21380,
+						["name"] = "Braedan Whitewall",
+					},
+					[137824] = {
+						["resetTime"] = 21380,
+						["name"] = "Arclight",
+					},
+					[127939] = {
+						["resetTime"] = 21380,
+						["name"] = "Torraske the Eternal",
+					},
+					[127820] = {
+						["resetTime"] = 21380,
+						["name"] = "Scout Skrasniss",
+					},
+					[135796] = {
+						["resetTime"] = 21380,
+						["name"] = "Captain Leadfist",
+					},
+					[134760] = {
+						["resetTime"] = 21380,
+						["name"] = "Darkspeaker Jo'la",
+					},
+					[127844] = {
+						["resetTime"] = 21380,
+						["name"] = "Gluttonous Yeti",
+					},
+					[136189] = {
+						["resetTime"] = 21380,
+						["name"] = "The Lichen King",
+					},
+					[134706] = {
+						["resetTime"] = 21380,
+						["name"] = "Deathcap",
+					},
+					[124185] = {
+						["resetTime"] = 21380,
+						["name"] = "Golrakahn",
+					},
+					[139285] = {
+						["resetTime"] = 21380,
+						["name"] = "Shiverscale the Toxic",
+					},
+					[132319] = {
+						["resetTime"] = 21380,
+						["name"] = "Bilefang Mother",
+					},
+					[134745] = {
+						["resetTime"] = 21380,
+						["name"] = "Skycarver Krakit",
+					},
+					[139968] = {
+						["resetTime"] = 21380,
+						["name"] = "Corrupted Tideskipper",
+					},
+					[136428] = {
+						["resetTime"] = 21380,
+						["name"] = "Dark Chronicler",
+					},
+					[130138] = {
+						["resetTime"] = 21380,
+						["name"] = "Nevermore",
+					},
+					[129950] = {
+						["resetTime"] = 21380,
+						["name"] = "Talon",
+					},
+					[134571] = {
+						["resetTime"] = 21380,
+						["name"] = "Skycaller Teskris",
+					},
+					[133190] = {
+						["resetTime"] = 21380,
+						["name"] = "Daggerjaw",
+					},
+					[127651] = {
+						["resetTime"] = 21380,
+						["name"] = "Vicemaul",
+					},
+					[139322] = {
+						["resetTime"] = 21380,
+						["name"] = "Whitney 'Steelclaw' Ramsay",
+					},
+					[138866] = {
+						["resetTime"] = 21380,
+						["name"] = "Fungi Trio",
+					},
+					[131476] = {
+						["resetTime"] = 21380,
+						["name"] = "Zayoos",
+					},
+					[132127] = {
+						["resetTime"] = 21380,
+						["name"] = "Foxhollow Skyterror",
+					},
+					[130401] = {
+						["resetTime"] = 21380,
+						["name"] = "Vathikur",
+					},
+					[138675] = {
+						["resetTime"] = 21380,
+						["name"] = "Gorged Boar",
+					},
+					[140938] = {
+						["resetTime"] = 21380,
+						["name"] = "Croaker",
+					},
+					[137529] = {
+						["resetTime"] = 21380,
+						["name"] = "Arvon the Betrayed",
+					},
+					[138938] = {
+						["resetTime"] = 21380,
+						["name"] = "Seabreaker Skoloth",
+					},
+					[141029] = {
+						["resetTime"] = 21380,
+						["name"] = "Kickers",
+					},
+					[127129] = {
+						["resetTime"] = 21380,
+						["name"] = "Grozgore",
+					},
+					[125250] = {
+						["resetTime"] = 21380,
+						["name"] = "Ancient Jawbreaker",
+					},
+					[127290] = {
+						["resetTime"] = 21380,
+						["name"] = "Saurolisk Tamer Mugg",
+					},
+					[139145] = {
+						["resetTime"] = 21380,
+						["name"] = "Blackthorne",
+					},
+					[127877] = {
+						["resetTime"] = 21380,
+						["name"] = "Longfang & Henry Breakwater",
+					},
+					[128965] = {
+						["resetTime"] = 21380,
+						["name"] = "Uroku the Bound",
+					},
+					[128973] = {
+						["resetTime"] = 21380,
+						["name"] = "Whargarble the Ill-Tempered",
+					},
+					[127333] = {
+						["resetTime"] = 21380,
+						["name"] = "Barbthorn Queen",
+					},
+					[121242] = {
+						["resetTime"] = 21380,
+						["name"] = "Glompmaw",
+					},
+					[124548] = {
+						["resetTime"] = 21380,
+						["name"] = "Betsy",
+					},
+					[136336] = {
+						["resetTime"] = 21380,
+						["name"] = "Scorpox",
+					},
+					[133812] = {
+						["resetTime"] = 21380,
+						["name"] = "Zanxib",
+					},
+					[139289] = {
+						["resetTime"] = 21380,
+						["name"] = "Tentulos the Drifter",
+					},
+					[129411] = {
+						["resetTime"] = 21380,
+						["name"] = "Zunashi the Exile",
+					},
+					[141226] = {
+						["resetTime"] = 21380,
+						["name"] = "Haegol the Hammer",
+					},
+					[134638] = {
+						["resetTime"] = 21380,
+						["name"] = "Warlord Zothix",
+					},
+					[139988] = {
+						["resetTime"] = 21380,
+						["name"] = "Sandfang",
+					},
+					[128426] = {
+						["resetTime"] = 21380,
+						["name"] = "Gutrip",
+					},
+					[139385] = {
+						["resetTime"] = 21380,
+						["name"] = "Deepfang",
+					},
+					[136304] = {
+						["resetTime"] = 21380,
+						["name"] = "Songstress Nahjeen",
+					},
+					[139290] = {
+						["resetTime"] = 21380,
+						["name"] = "Maison the Portable",
+					},
+					[135852] = {
+						["resetTime"] = 21380,
+						["name"] = "Ak'tar",
+					},
+					[128974] = {
+						["resetTime"] = 21380,
+						["name"] = "Queen Tzxi'kik",
+					},
+					[136335] = {
+						["resetTime"] = 21380,
+						["name"] = "Enraged Krolusk",
+					},
+					[134782] = {
+						["resetTime"] = 21380,
+						["name"] = "Murderbeak",
+					},
+					[128553] = {
+						["resetTime"] = 21380,
+						["name"] = "Azer'tor",
+					},
+					[136338] = {
+						["resetTime"] = 21380,
+						["name"] = "Sirokar",
+					},
+					[131984] = {
+						["resetTime"] = 21380,
+						["name"] = "Twin-hearted Construct",
+					},
+					[132179] = {
+						["resetTime"] = 21380,
+						["name"] = "Raging Swell",
+					},
+					[132068] = {
+						["resetTime"] = 21380,
+						["name"] = "Bashmu",
+					},
+					[133356] = {
+						["resetTime"] = 21380,
+						["name"] = "Tempestria",
+					},
+					[139280] = {
+						["resetTime"] = 21380,
+						["name"] = "Sythian the Swift",
+					},
+					[129181] = {
+						["resetTime"] = 21380,
+						["name"] = "Barman Bill",
+					},
+					[122004] = {
+						["resetTime"] = 21380,
+						["name"] = "Umbra'jin",
+					},
+					[139205] = {
+						["resetTime"] = 21380,
+						["name"] = "P4-N73R4",
+					},
+					[134884] = {
+						["resetTime"] = 21380,
+						["name"] = "Ragna",
+					},
+					[137183] = {
+						["resetTime"] = 21380,
+						["name"] = "Imperiled Merchants",
+					},
+					[139287] = {
+						["resetTime"] = 21380,
+						["name"] = "Sawtooth",
+					},
+					[133531] = {
+						["resetTime"] = 21380,
+						["name"] = "Xu'ba",
+					},
+					[134295] = {
+						["resetTime"] = 21380,
+						["name"] = "Lost Scroll",
+					},
+					[132244] = {
+						["resetTime"] = 21380,
+						["name"] = "Kiboku",
+					},
+					[130508] = {
+						["resetTime"] = 21380,
+						["name"] = "Broodmother Razora",
+					},
+					[141039] = {
+						["resetTime"] = 21380,
+						["name"] = "Ice Sickle",
+					},
+					[134298] = {
+						["resetTime"] = 21380,
+						["name"] = "Azerite-Infused Elemental",
+					},
+					[134213] = {
+						["resetTime"] = 21380,
+						["name"] = "Executioner Blackwell",
+					},
+					[132182] = {
+						["resetTime"] = 21380,
+						["name"] = "Auditor Dolp",
+					},
+					[132086] = {
+						["resetTime"] = 21380,
+						["name"] = "Black-Eyed Bart",
+					},
+					[131687] = {
+						["resetTime"] = 21380,
+						["name"] = "Tambano",
+					},
+					[139298] = {
+						["resetTime"] = 21380,
+						["name"] = "Pinku'shon",
+					},
+					[130079] = {
+						["resetTime"] = 21380,
+						["name"] = "Wagga Snarltusk",
+					},
+					[132007] = {
+						["resetTime"] = 21380,
+						["name"] = "Galestorm",
+					},
 				},
 			},
 			["Default.Emerald Dream.Samoansurge"] = {
 				["lastUpdate"] = 1615415037,
 			},
-			["Default.Emerald Dream.Samoansteel"] = {
-				["lastUpdate"] = 1608195932,
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["lastUpdate"] = 1615371212,
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1616049137,
+				["RareKillsCounter"] = {
+					[160721] = 1,
+				},
 			},
 			["Default.Emerald Dream.Mf"] = {
-				["lastUpdate"] = 1615980574,
+				["lastUpdate"] = 1616044535,
 			},
 			["Default.Ravenholdt.Hfishsamoan"] = {
 				["lastUpdate"] = 1608226350,
 			},
-			["Default.Emerald Dream.Haedshot"] = {
-				["lastUpdate"] = 1607745889,
-			},
-			["Default.Emerald Dream.Farmcraft"] = {
-				["lastUpdate"] = 1615971138,
-			},
-			["Default.Tichondrius.Samoansneaky"] = {
-				["lastUpdate"] = 1603382413,
-			},
-			["Default.Emerald Dream.Tingerce"] = {
-				["lastUpdate"] = 1607744698,
-			},
 			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615972710,
+				["lastUpdate"] = 1616105490,
 				["RareKillsCounter"] = {
 					[171189] = 1,
 					[160721] = 1,
 					[163460] = 1,
 				},
 			},
-			["Default.Emerald Dream.Samoanbeast"] = {
-				["lastUpdate"] = 1615371212,
-			},
-			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615972200,
-			},
-			["Default.Emerald Dream.Feerless"] = {
-				["lastUpdate"] = 1606633373,
-			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615980475,
-				["RareKillsCounter"] = {
-					[160721] = 1,
-				},
-			},
-			["Default.Emerald Dream.Brunderan"] = {
-				["lastUpdate"] = 1608675001,
-			},
-			["Default.Ravenholdt.Samoanbeast"] = {
-				["lastUpdate"] = 1608225703,
-			},
 			["Default.Emerald Dream.Forgecraft"] = {
 				["lastUpdate"] = 1615983480,
+			},
+			["Default.Emerald Dream.Threadcraft"] = {
+				["lastUpdate"] = 1616067929,
 			},
 			["Default.Emerald Dream.Samoanranger"] = {
 				["lastUpdate"] = 1614989529,
@@ -227,29 +634,20 @@ DataStore_RaresDB = {
 					[171189] = 1,
 				},
 			},
-			["Default.Emerald Dream.Gentodnes"] = {
-				["lastUpdate"] = 1606633462,
-			},
-			["Default.Emerald Dream.Craudy"] = {
-				["lastUpdate"] = 1608200452,
-			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1612175292,
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1615971138,
 			},
 			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615933351,
+				["lastUpdate"] = 1616144107,
 				["RareKillsCounter"] = {
 					[160721] = 1,
 				},
 			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1603441273,
+			["Default.Tichondrius.Samoansneaky"] = {
+				["lastUpdate"] = 1603382413,
 			},
-			["Default.Emerald Dream.Vithun"] = {
-				["lastUpdate"] = 1608206291,
-			},
-			["Default.Emerald Dream.Scootervin"] = {
-				["lastUpdate"] = 1608363120,
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1612175292,
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777532,
@@ -257,11 +655,11 @@ DataStore_RaresDB = {
 			["Default.Emerald Dream.Orecraft"] = {
 				["lastUpdate"] = 1615982158,
 			},
+			["Default.Ravenholdt.Samoanbeast"] = {
+				["lastUpdate"] = 1608225703,
+			},
 			["Default.Stormrage.Samoansavage"] = {
 				["lastUpdate"] = 1603396805,
-			},
-			["Default.Emerald Dream.Samoanruin"] = {
-				["lastUpdate"] = 1611778012,
 			},
 		},
 	},

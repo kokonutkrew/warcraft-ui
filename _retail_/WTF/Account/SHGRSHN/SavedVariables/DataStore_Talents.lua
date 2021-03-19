@@ -62,6 +62,13 @@ DataStore_TalentsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Tichondrius.Gfsdfgsd"] = {
+				["lastUpdate"] = 1548864604,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DRUID",
+			},
 			["Default.Emerald Dream.Samoanslayer"] = {
 				["lastUpdate"] = 1615983779,
 				["Specializations"] = {
@@ -318,6 +325,239 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PALADIN",
 			},
+			["Default.Stormrage.Samoansavage"] = {
+				["lastUpdate"] = 1603396867,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["AzeriteEssences"] = {
+					["Breath of the Dying"] = {
+						["valid"] = false,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["unlocked"] = false,
+						["icon"] = 3193844,
+						["rank"] = 0,
+					},
+					["The Well of Existence"] = {
+						["valid"] = false,
+						["name"] = "The Well of Existence",
+						["ID"] = 19,
+						["unlocked"] = false,
+						["icon"] = 516796,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = false,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["unlocked"] = false,
+						["icon"] = 3193843,
+						["rank"] = 0,
+					},
+					["Life-Binder's Invocation"] = {
+						["valid"] = false,
+						["name"] = "Life-Binder's Invocation",
+						["ID"] = 20,
+						["unlocked"] = false,
+						["icon"] = 2967106,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["unlocked"] = false,
+						["icon"] = 3015742,
+						["rank"] = 0,
+					},
+					["Nullification Dynamo"] = {
+						["valid"] = true,
+						["name"] = "Nullification Dynamo",
+						["ID"] = 13,
+						["unlocked"] = false,
+						["icon"] = 3015741,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["unlocked"] = false,
+						["icon"] = 3015743,
+						["rank"] = 0,
+					},
+					["The Ever-Rising Tide"] = {
+						["valid"] = false,
+						["name"] = "The Ever-Rising Tide",
+						["ID"] = 17,
+						["unlocked"] = false,
+						["icon"] = 2967108,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = false,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["unlocked"] = false,
+						["icon"] = 2967111,
+						["rank"] = 0,
+					},
+					["Spirit of Preservation"] = {
+						["valid"] = false,
+						["name"] = "Spirit of Preservation",
+						["ID"] = 24,
+						["unlocked"] = false,
+						["icon"] = 2967101,
+						["rank"] = 0,
+					},
+					["Sphere of Suppression"] = {
+						["valid"] = true,
+						["name"] = "Sphere of Suppression",
+						["ID"] = 3,
+						["unlocked"] = false,
+						["icon"] = 2065602,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = false,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["unlocked"] = false,
+						["icon"] = 2967102,
+						["rank"] = 0,
+					},
+					["Purification Protocol"] = {
+						["valid"] = false,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["unlocked"] = false,
+						["icon"] = 2967103,
+						["rank"] = 0,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = true,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["unlocked"] = false,
+						["icon"] = 3193846,
+						["rank"] = 0,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["unlocked"] = false,
+						["icon"] = 3015740,
+						["rank"] = 0,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["unlocked"] = false,
+						["icon"] = 2967109,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = false,
+						["icon"] = 3193845,
+						["rank"] = 0,
+					},
+					["Anima of Life and Death"] = {
+						["valid"] = true,
+						["name"] = "Anima of Life and Death",
+						["ID"] = 7,
+						["unlocked"] = false,
+						["icon"] = 2967105,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["unlocked"] = false,
+						["icon"] = 1830317,
+						["rank"] = 0,
+					},
+					["Artifice of Time"] = {
+						["valid"] = false,
+						["name"] = "Artifice of Time",
+						["ID"] = 18,
+						["unlocked"] = false,
+						["icon"] = 2967112,
+						["rank"] = 0,
+					},
+					["Vitality Conduit"] = {
+						["valid"] = false,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
+						["unlocked"] = false,
+						["icon"] = 2967100,
+						["rank"] = 0,
+					},
+					["Unwavering Ward"] = {
+						["valid"] = false,
+						["name"] = "Unwavering Ward",
+						["ID"] = 16,
+						["unlocked"] = false,
+						["icon"] = 3193842,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = false,
+						["icon"] = 2967113,
+						["rank"] = 0,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = true,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["unlocked"] = false,
+						["icon"] = 3193847,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = false,
+						["icon"] = 2967104,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Azeroth's Undying Gift"] = {
+						["valid"] = true,
+						["name"] = "Azeroth's Undying Gift",
+						["ID"] = 2,
+						["unlocked"] = false,
+						["icon"] = 2967107,
+						["rank"] = 0,
+					},
+					["Aegis of the Deep"] = {
+						["valid"] = true,
+						["name"] = "Aegis of the Deep",
+						["ID"] = 25,
+						["unlocked"] = false,
+						["icon"] = 2967110,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "DRUID",
+			},
 			["Default.Emerald Dream.Samoanzero"] = {
 				["lastUpdate"] = 1601276460,
 				["Specializations"] = {
@@ -325,8 +565,17 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DEMONHUNTER",
 			},
+			["Default.Emerald Dream.Samoansurge"] = {
+				["lastUpdate"] = 1615414303,
+				["Specializations"] = {
+					31, -- [1]
+					0, -- [2]
+					31, -- [3]
+				},
+				["Class"] = "MONK",
+			},
 			["Default.Stormrage.Samoantitan"] = {
-				["lastUpdate"] = 1608540693,
+				["lastUpdate"] = 1616145454,
 				["Specializations"] = {
 					[3] = 7513,
 					[2] = 6519,
@@ -566,6 +815,13 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DRUID",
 			},
+			["Default.Tichondrius.Shgrshn"] = {
+				["lastUpdate"] = 1546816799,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MAGE",
+			},
 			["Default.Tichondrius.Samoanmystic"] = {
 				["lastUpdate"] = 1546812752,
 				["Specializations"] = {
@@ -573,12 +829,13 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "MAGE",
 			},
-			["Default.Emerald Dream.Samoanspy"] = {
-				["lastUpdate"] = 1544902629,
+			["Default.Emerald Dream.Samoanruin"] = {
+				["lastUpdate"] = 1611778005,
 				["Specializations"] = {
-					0, -- [1]
+					[3] = 0,
+					[2] = 0,
 				},
-				["Class"] = "ROGUE",
+				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Tichondrius.Samoansaint"] = {
 				["lastUpdate"] = 1546209432,
@@ -587,8 +844,46 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PRIEST",
 			},
+			["Default.Tichondrius.Samoansavage"] = {
+				["lastUpdate"] = 1547637963,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Ravenholdt.Hfishsamoan"] = {
+				["lastUpdate"] = 1547416006,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MAGE",
+			},
+			["Default.Tichondrius.Samoanstrap"] = {
+				["lastUpdate"] = 1544167314,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "HUNTER",
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1545148803,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MAGE",
+			},
+			["Default.Tichondrius.Samoansage"] = {
+				["lastUpdate"] = 1544168214,
+				["Specializations"] = {
+					0, -- [1]
+					10846, -- [2]
+					nil, -- [3]
+					0, -- [4]
+				},
+				["Class"] = "DRUID",
+			},
 			["Default.Emerald Dream.Samoansage"] = {
-				["lastUpdate"] = 1615933300,
+				["lastUpdate"] = 1616143261,
 				["Specializations"] = {
 					13654, -- [1]
 					0, -- [2]
@@ -596,12 +891,35 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
-			["Default.Emerald Dream.Samoansmash"] = {
-				["lastUpdate"] = 1545149763,
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["lastUpdate"] = 1615371211,
 				["Specializations"] = {
-					[3] = 0,
+					0, -- [1]
+					[3] = 55,
 				},
-				["Class"] = "DEATHKNIGHT",
+				["Class"] = "DRUID",
+			},
+			["Default.Stormrage.Samoansaint"] = {
+				["lastUpdate"] = 1545013962,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Stormrage.Samoantotems"] = {
+				["lastUpdate"] = 1544635459,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1616048218,
+				["Specializations"] = {
+					6825, -- [1]
+					0, -- [2]
+				},
+				["Class"] = "WARLOCK",
 			},
 			["Default.Emerald Dream.Farmcraft"] = {
 				["lastUpdate"] = 1615971102,
@@ -609,6 +927,14 @@ DataStore_TalentsDB = {
 					0, -- [1]
 				},
 				["Class"] = "DRUID",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1614988457,
+				["Specializations"] = {
+					0, -- [1]
+					7845, -- [2]
+				},
+				["Class"] = "HUNTER",
 			},
 			["Default.Tichondrius.Samoansneaky"] = {
 				["lastUpdate"] = 1603382397,
@@ -731,359 +1057,12 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Emerald Dream.Samoanlegend"] = {
-				["lastUpdate"] = 1545148651,
+			["Default.Emerald Dream.Threadcraft"] = {
+				["lastUpdate"] = 1616067496,
 				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "WARLOCK",
-			},
-			["Default.Tichondrius.Gfsdfgsd"] = {
-				["lastUpdate"] = 1548864604,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Stormrage.Kakattack"] = {
-				["lastUpdate"] = 1544472618,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "DEATHKNIGHT",
-			},
-			["Default.Emerald Dream.Samoansavage"] = {
-				["lastUpdate"] = 1615972652,
-				["Specializations"] = {
-					6811, -- [1]
-					10662, -- [2]
-					8109, -- [3]
-				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Tichondrius.Shgrshn"] = {
-				["lastUpdate"] = 1546816799,
-				["Specializations"] = {
-					[3] = 0,
+					10, -- [1]
 				},
 				["Class"] = "MAGE",
-			},
-			["Default.Tichondrius.Samoansavage"] = {
-				["lastUpdate"] = 1547637963,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "WARRIOR",
-			},
-			["Default.Tichondrius.Samoanstrap"] = {
-				["lastUpdate"] = 1544167314,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "HUNTER",
-			},
-			["Default.Emerald Dream.Samoanmystic"] = {
-				["lastUpdate"] = 1545148803,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MAGE",
-			},
-			["Default.Tichondrius.Samoansage"] = {
-				["lastUpdate"] = 1544168214,
-				["Specializations"] = {
-					0, -- [1]
-					10846, -- [2]
-					nil, -- [3]
-					0, -- [4]
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Emerald Dream.Samoansurge"] = {
-				["lastUpdate"] = 1615414303,
-				["Specializations"] = {
-					31, -- [1]
-					0, -- [2]
-					31, -- [3]
-				},
-				["Class"] = "MONK",
-			},
-			["Default.Stormrage.Samoansaint"] = {
-				["lastUpdate"] = 1545013962,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "PRIEST",
-			},
-			["Default.Stormrage.Samoansavage"] = {
-				["lastUpdate"] = 1603396867,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["AzeriteEssences"] = {
-					["Breath of the Dying"] = {
-						["valid"] = false,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = false,
-						["icon"] = 3193844,
-						["rank"] = 0,
-					},
-					["The Well of Existence"] = {
-						["valid"] = false,
-						["name"] = "The Well of Existence",
-						["ID"] = 19,
-						["unlocked"] = false,
-						["icon"] = 516796,
-						["rank"] = 0,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = false,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["unlocked"] = false,
-						["icon"] = 3193843,
-						["rank"] = 0,
-					},
-					["Life-Binder's Invocation"] = {
-						["valid"] = false,
-						["name"] = "Life-Binder's Invocation",
-						["ID"] = 20,
-						["unlocked"] = false,
-						["icon"] = 2967106,
-						["rank"] = 0,
-					},
-					["Conflict and Strife"] = {
-						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
-					},
-					["Nullification Dynamo"] = {
-						["valid"] = true,
-						["name"] = "Nullification Dynamo",
-						["ID"] = 13,
-						["unlocked"] = false,
-						["icon"] = 3015741,
-						["rank"] = 0,
-					},
-					["Vision of Perfection"] = {
-						["valid"] = true,
-						["name"] = "Vision of Perfection",
-						["ID"] = 22,
-						["unlocked"] = false,
-						["icon"] = 3015743,
-						["rank"] = 0,
-					},
-					["The Ever-Rising Tide"] = {
-						["valid"] = false,
-						["name"] = "The Ever-Rising Tide",
-						["ID"] = 17,
-						["unlocked"] = false,
-						["icon"] = 2967108,
-						["rank"] = 0,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = false,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["unlocked"] = false,
-						["icon"] = 2967111,
-						["rank"] = 0,
-					},
-					["Spirit of Preservation"] = {
-						["valid"] = false,
-						["name"] = "Spirit of Preservation",
-						["ID"] = 24,
-						["unlocked"] = false,
-						["icon"] = 2967101,
-						["rank"] = 0,
-					},
-					["Sphere of Suppression"] = {
-						["valid"] = true,
-						["name"] = "Sphere of Suppression",
-						["ID"] = 3,
-						["unlocked"] = false,
-						["icon"] = 2065602,
-						["rank"] = 0,
-					},
-					["The Unbound Force"] = {
-						["valid"] = false,
-						["name"] = "The Unbound Force",
-						["ID"] = 28,
-						["unlocked"] = false,
-						["icon"] = 2967102,
-						["rank"] = 0,
-					},
-					["Purification Protocol"] = {
-						["valid"] = false,
-						["name"] = "Purification Protocol",
-						["ID"] = 6,
-						["unlocked"] = false,
-						["icon"] = 2967103,
-						["rank"] = 0,
-					},
-					["Strength of the Warden"] = {
-						["valid"] = true,
-						["name"] = "Strength of the Warden",
-						["ID"] = 34,
-						["unlocked"] = false,
-						["icon"] = 3193846,
-						["rank"] = 0,
-					},
-					["The Crucible of Flame"] = {
-						["valid"] = true,
-						["name"] = "The Crucible of Flame",
-						["ID"] = 12,
-						["unlocked"] = false,
-						["icon"] = 3015740,
-						["rank"] = 0,
-					},
-					["Ripple in Space"] = {
-						["valid"] = true,
-						["name"] = "Ripple in Space",
-						["ID"] = 15,
-						["unlocked"] = false,
-						["icon"] = 2967109,
-						["rank"] = 0,
-					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = false,
-						["icon"] = 3193845,
-						["rank"] = 0,
-					},
-					["Anima of Life and Death"] = {
-						["valid"] = true,
-						["name"] = "Anima of Life and Death",
-						["ID"] = 7,
-						["unlocked"] = false,
-						["icon"] = 2967105,
-						["rank"] = 0,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["unlocked"] = false,
-						["icon"] = 1830317,
-						["rank"] = 0,
-					},
-					["Artifice of Time"] = {
-						["valid"] = false,
-						["name"] = "Artifice of Time",
-						["ID"] = 18,
-						["unlocked"] = false,
-						["icon"] = 2967112,
-						["rank"] = 0,
-					},
-					["Vitality Conduit"] = {
-						["valid"] = false,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
-						["unlocked"] = false,
-						["icon"] = 2967100,
-						["rank"] = 0,
-					},
-					["Unwavering Ward"] = {
-						["valid"] = false,
-						["name"] = "Unwavering Ward",
-						["ID"] = 16,
-						["unlocked"] = false,
-						["icon"] = 3193842,
-						["rank"] = 0,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = true,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["unlocked"] = false,
-						["icon"] = 3193847,
-						["rank"] = 0,
-					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["unlocked"] = false,
-						["icon"] = 2967104,
-						["rank"] = 0,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Azeroth's Undying Gift"] = {
-						["valid"] = true,
-						["name"] = "Azeroth's Undying Gift",
-						["ID"] = 2,
-						["unlocked"] = false,
-						["icon"] = 2967107,
-						["rank"] = 0,
-					},
-					["Aegis of the Deep"] = {
-						["valid"] = true,
-						["name"] = "Aegis of the Deep",
-						["ID"] = 25,
-						["unlocked"] = false,
-						["icon"] = 2967110,
-						["rank"] = 0,
-					},
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Ravenholdt.Hfishsamoan"] = {
-				["lastUpdate"] = 1547416006,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MAGE",
-			},
-			["Default.Emerald Dream.Samoanbeast"] = {
-				["lastUpdate"] = 1615371211,
-				["Specializations"] = {
-					0, -- [1]
-					[3] = 55,
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Emerald Dream.Samoaninja"] = {
-				["lastUpdate"] = 1545022453,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MONK",
-			},
-			["Default.Emerald Dream.Samoanruin"] = {
-				["lastUpdate"] = 1611778005,
-				["Specializations"] = {
-					[3] = 0,
-					[2] = 0,
-				},
-				["Class"] = "DEATHKNIGHT",
-			},
-			["Default.Stormrage.Samoantotems"] = {
-				["lastUpdate"] = 1544635459,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "SHAMAN",
 			},
 			["Default.Emerald Dream.Samoanrelic"] = {
 				["lastUpdate"] = 1611777527,
@@ -1094,28 +1073,28 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "PRIEST",
 			},
-			["Default.Emerald Dream.Herbcraft"] = {
-				["lastUpdate"] = 1615979368,
+			["Default.Emerald Dream.Samoansavage"] = {
+				["lastUpdate"] = 1616105449,
 				["Specializations"] = {
-					6825, -- [1]
-					0, -- [2]
+					6811, -- [1]
+					10662, -- [2]
+					8109, -- [3]
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Stormrage.Kakattack"] = {
+				["lastUpdate"] = 1544472618,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Emerald Dream.Samoanlegend"] = {
+				["lastUpdate"] = 1545148651,
+				["Specializations"] = {
+					0, -- [1]
 				},
 				["Class"] = "WARLOCK",
-			},
-			["Default.Emerald Dream.Samoanranger"] = {
-				["lastUpdate"] = 1614988457,
-				["Specializations"] = {
-					0, -- [1]
-					7845, -- [2]
-				},
-				["Class"] = "HUNTER",
-			},
-			["Default.Emerald Dream.Threadcraft"] = {
-				["lastUpdate"] = 1615971953,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "MAGE",
 			},
 		},
 	},
@@ -1328,7 +1307,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 37899,
+			["Version"] = 37988,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -1339,6 +1318,15 @@ DataStore_TalentsRefDB = {
 						22458, -- [1]
 						22461, -- [2]
 						22464, -- [3]
+						23072, -- [4]
+						22443, -- [5]
+						16025, -- [6]
+						22444, -- [7]
+						22445, -- [8]
+						22447, -- [9]
+						22453, -- [10]
+						22467, -- [11]
+						22470, -- [12]
 					},
 				}, -- [1]
 				[3] = {
@@ -1447,7 +1435,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 36949,
+			["Version"] = 37988,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",

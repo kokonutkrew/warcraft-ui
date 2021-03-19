@@ -1,2 +1,0 @@
-
-JambaExtrasProfileDB = nil

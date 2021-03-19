@@ -1,2 +1,0 @@
-
-VP_MissionReports = nil

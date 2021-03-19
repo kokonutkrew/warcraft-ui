@@ -1,2 +1,0 @@
-
-WQTrackerDBChr = nil

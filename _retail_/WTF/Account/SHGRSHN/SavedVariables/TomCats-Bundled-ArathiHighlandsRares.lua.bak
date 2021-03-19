@@ -1,2 +1,0 @@
-
-TomCatsArathi_Account = nil

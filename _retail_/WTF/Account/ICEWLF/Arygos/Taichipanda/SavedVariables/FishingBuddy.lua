@@ -1,2 +1,0 @@
-
-FishingBuddy_Player = nil

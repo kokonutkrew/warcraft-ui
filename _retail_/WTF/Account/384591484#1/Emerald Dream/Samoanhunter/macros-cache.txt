@@ -1,4 +1,0 @@
-VER 3 0100000000000001 "BMBFAST" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/click [button:2] BMBFAST RightButton; [button:3] BMBFAST MiddleButton; [button:4] BMBFAST Button4; [button:5] BMBFAST Button5; BMBFAST
-END

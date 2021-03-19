@@ -1,12 +1,16 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g Ill be afk on a few phonecalls", -- [1]
-		"/g RIP gold", -- [2]
-		"/cw Ownre-EmeraldDream Just saw your message- and no worries", -- [3]
-		"/cw Ownre-EmeraldDream Legendaries are a huge resource investment", -- [4]
-		"/cw Ownre-EmeraldDream But if you listen", -- [5]
-		"/cw Ownre-EmeraldDream He explains how it can be profitable the whole way up", -- [6]
+		"/cw Ownre-EmeraldDream He explains how it can be profitable the whole way up", -- [1]
+		"/cw Ownre-EmeraldDream But if you listen", -- [2]
+		"/g RIP gold", -- [3]
+		"/g Ill be afk on a few phonecalls", -- [4]
+		"/cw Ownre-EmeraldDream Just saw your message- and no worries", -- [5]
+		"/cw Ownre-EmeraldDream Legendaries are a huge resource investment", -- [6]
+		"/g I thought it only went up to 75?!", -- [7]
+		"/g Not bad at all!", -- [8]
+		"/immersion", -- [9]
+		"/g whats the average sale rate on the velleum?", -- [10]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -779,5 +783,269 @@ ElvCharacterDB = {
 			[51] = 1616180049,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [35]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14328:Player-162-0B48E156:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Professional Shadowlands Master]|h|r!", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamsnatcher-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616180321,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [36]
+		{
+			"alright 115 enchanting done", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616180373,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [37]
+		{
+			"I thought it only went up to 75?!", -- [1]
+			"Samoanslayer-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-162-0A2F1F9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cSamoanslayer|r",
+			[51] = 1616180397,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [38]
+		{
+			"nope shadowlands enchanting 115", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616176826,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [39]
+		{
+			"grats", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616176836,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"cost me 22k total", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616176838,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"Not bad at all!", -- [1]
+			"Samoanslayer-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-162-0A2F1F9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cSamoanslayer|r",
+			[51] = 1616176848,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"but now i have a buttload of enchant son vellums to sell", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616176854,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [43]
+		{
+			"anyone need a vellum of something?", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			20, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616180483,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [44]
+		{
+			"sry... sure dont", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			21, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616180538,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [45]
+		{
+			"not bad once all thesse vellum sell i basically break even.. maybe lose 3-4k... ill tkae it", -- [1]
+			"Hamsnatcher-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			69, -- [11]
+			"Player-162-0B48E156", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hamsnatcher|r",
+			[51] = 1616181071,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [46]
+		{
+			"whats the average sale rate on the velleum?", -- [1]
+			"Samoanslayer-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-162-0A2F1F9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cSamoanslayer|r",
+			[51] = 1616181143,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
 	},
 }

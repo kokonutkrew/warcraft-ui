@@ -3,6 +3,10 @@ ElvCharacterDB = {
 	["ChatEditHistory"] = {
 		"/g Ill be afk on a few phonecalls", -- [1]
 		"/g RIP gold", -- [2]
+		"/cw Ownre-EmeraldDream Just saw your message- and no worries", -- [3]
+		"/cw Ownre-EmeraldDream Legendaries are a huge resource investment", -- [4]
+		"/cw Ownre-EmeraldDream But if you listen", -- [5]
+		"/cw Ownre-EmeraldDream He explains how it can be profitable the whole way up", -- [6]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -665,5 +669,115 @@ ElvCharacterDB = {
 			[51] = 1616178809,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
+		{
+			"Sam, don't know if you saw my reply to your weblink suggestion since you logged when I sent it in g-chat. thx again", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ownre-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616179454,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [31]
+		{
+			"Just saw your message- and no worries", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ownre-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616180021,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [32]
+		{
+			"Legendaries are a huge resource investment", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ownre-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616180031,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [33]
+		{
+			"But if you listen", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ownre-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616180038,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [34]
+		{
+			"He explains how it can be profitable the whole way up", -- [1]
+			"Ownre-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ownre-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-162-0B3CB319", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Ownre|r",
+			[51] = 1616180049,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [35]
 	},
 }

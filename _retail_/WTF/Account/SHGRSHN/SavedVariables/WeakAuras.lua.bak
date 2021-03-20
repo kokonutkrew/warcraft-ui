@@ -12,8 +12,8 @@ WeakAurasSaved = {
 	},
 	["lastUpgrade"] = 1616192689,
 	["dbVersion"] = 44,
+	["login_squelch_time"] = 10,
 	["registered"] = {
 	},
-	["login_squelch_time"] = 10,
 	["editor_theme"] = "Monokai",
 }

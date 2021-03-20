@@ -2,8 +2,9 @@
 ElvDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Global)",
-		["Samoansavage - Emerald Dream"] = "KokonutKrew (Global)",
 		["Samoansavage - Stormrage"] = "KokonutKrew (Global)",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew (Global)",
+		["Samoansage - Emerald Dream"] = "KokonutKrew (Global)",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -13,6 +14,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "WARRIOR",
 			["Samoansavage"] = "ROGUE",
+			["Samoansage"] = "SHAMAN",
 		},
 		["Stormrage"] = {
 			["Samoansavage"] = "DRUID",
@@ -54,9 +56,9 @@ ElvDB = {
 				},
 				["valuecolor"] = {
 					["a"] = 1,
-					["b"] = 0.4078422486782074,
-					["g"] = 0.9568606615066528,
-					["r"] = 0.9999977946281433,
+					["b"] = 0.8666647672653198,
+					["g"] = 0.4392147064208984,
+					["r"] = 0,
 				},
 				["font"] = "Expressway",
 				["fontSize"] = 14,
@@ -163,8 +165,8 @@ ElvDB = {
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,243",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,60",
 				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-30",
+				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
 				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,264",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,97",
 				["PowerBarContainerMover"] = "CENTER,ElvUIParent,TOP,0,-76",
 				["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUF_Pet,BOTTOMLEFT,0,-1",
 				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
@@ -194,7 +196,7 @@ ElvDB = {
 				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
 				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,-1,-120",
 				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-85,-319",
-				["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,97",
 				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,400",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
 				["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
@@ -514,9 +516,9 @@ ElvDB = {
 			["chat"] = {
 				["tabFontOutline"] = "OUTLINE",
 				["tabSelectorColor"] = {
-					["b"] = 0.4078422486782074,
-					["g"] = 0.9568606615066528,
-					["r"] = 0.9999977946281433,
+					["b"] = 0.8666647672653198,
+					["g"] = 0.4392147064208984,
+					["r"] = 0,
 				},
 				["panelWidth"] = 472,
 				["panelHeight"] = 236,
@@ -528,6 +530,25 @@ ElvDB = {
 				["inactivityTimer"] = 30,
 				["font"] = "Arial Narrow",
 				["copyChatLines"] = true,
+			},
+		},
+		["Default"] = {
+			["convertPages"] = true,
+			["dbConverted"] = 12.23,
+			["actionbar"] = {
+				["bar6"] = {
+					["enabled"] = true,
+					["buttonsPerRow"] = 6,
+					["buttons"] = 6,
+				},
+				["microbar"] = {
+					["buttons"] = 11,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+					["buttonsPerRow"] = 12,
+					["buttons"] = 12,
+				},
 			},
 		},
 	},
@@ -559,44 +580,31 @@ ElvDB = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						nil, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						{
+						[7] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [9]
-						nil, -- [10]
-						nil, -- [11]
-						nil, -- [12]
-						{
+						},
+						[11] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [13]
-						nil, -- [14]
-						nil, -- [15]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [16]
-						[19] = {
+						},
+						[14] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
 						[23] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[19] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
@@ -614,6 +622,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = 24943663,
 			["Samoansavage"] = 102548549,
+			["Samoansage"] = 113442582,
 		},
 		["Stormrage"] = {
 			["Samoansavage"] = 123964735,
@@ -623,6 +632,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "Alliance",
 			["Samoansavage"] = "Alliance",
+			["Samoansage"] = "Alliance",
 		},
 		["Stormrage"] = {
 			["Samoansavage"] = "Alliance",
@@ -640,8 +650,9 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Private)",
-		["Samoansavage - Emerald Dream"] = "KokonutKrew (Private)",
 		["Samoansavage - Stormrage"] = "KokonutKrew (Private)",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew (Private)",
+		["Samoansage - Emerald Dream"] = "KokonutKrew (Private)",
 	},
 	["profiles"] = {
 		["KokonutKrew (Private)"] = {
@@ -670,11 +681,14 @@ ElvPrivateDB = {
 			["theme"] = "class",
 			["install_complete"] = 12.23,
 		},
+		["Samoansavage - Stormrage"] = {
+			["install_complete"] = 12.23,
+		},
 		["Samoansavage - Emerald Dream"] = {
 			["theme"] = "class",
 			["install_complete"] = 12.23,
 		},
-		["Samoansavage - Stormrage"] = {
+		["Samoansage - Emerald Dream"] = {
 			["install_complete"] = 12.23,
 		},
 	},

@@ -11,7 +11,7 @@ ElvUI_CustomTweaks: disabled
 ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
 ACU: enabled
-Bartender4: enabled
+Bartender4: disabled
 BugSack: enabled
 DynamicCam: enabled
 Immersion: enabled

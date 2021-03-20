@@ -2,8 +2,9 @@
 AddonCpuUsageDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

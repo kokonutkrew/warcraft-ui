@@ -12,7 +12,7 @@ CameraOverShoulderFix: enabled
 MinimapButtonFrame: enabled
 MinimapButtonFrame_SkinPack: enabled
 ACU: enabled
-Bartender4: enabled
+Bartender4: disabled
 BugSack: enabled
 DynamicCam: enabled
 Immersion: enabled

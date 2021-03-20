@@ -3,8 +3,31 @@ DynamicCamDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
 		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+		["Samoansage - Emerald Dream"] = "KokonutKrew",
 	},
 	["profiles"] = {
+		["Default"] = {
+			["situations"] = {
+				["303"] = {
+				},
+				["302"] = {
+				},
+				["006"] = {
+				},
+				["060"] = {
+				},
+				["201"] = {
+				},
+				["100"] = {
+				},
+				["033"] = {
+				},
+				["023"] = {
+				},
+			},
+			["version"] = 2,
+			["firstRun"] = false,
+		},
 		["KokonutKrew"] = {
 			["advanced"] = true,
 			["version"] = 2,
@@ -173,8 +196,22 @@ DynamicCamDB = {
 						["test_cameraTargetFocusEnemyEnable"] = 0,
 					},
 				},
-				["031"] = {
-					["enabled"] = false,
+				["101"] = {
+					["cameraActions"] = {
+						["rotateSpeed"] = 10,
+						["zoomSetting"] = "set",
+						["rotate"] = true,
+						["zoomValue"] = 12,
+					},
+					["cameraCVars"] = {
+						["test_cameraOverShoulder"] = 3.8,
+						["test_cameraTargetFocusInteractEnable"] = 0,
+						["test_cameraHeadMovementStrength"] = 2,
+						["test_cameraTargetFocusEnemyEnable"] = 0,
+					},
+					["extras"] = {
+						["hideUI"] = true,
+					},
 				},
 				["201"] = {
 					["cameraCVars"] = {
@@ -283,25 +320,11 @@ DynamicCamDB = {
 					},
 					["priority"] = 120,
 				},
-				["034"] = {
+				["031"] = {
 					["enabled"] = false,
 				},
-				["101"] = {
-					["cameraActions"] = {
-						["rotateSpeed"] = 10,
-						["zoomSetting"] = "set",
-						["rotate"] = true,
-						["zoomValue"] = 12,
-					},
-					["cameraCVars"] = {
-						["test_cameraOverShoulder"] = 3.8,
-						["test_cameraTargetFocusInteractEnable"] = 0,
-						["test_cameraHeadMovementStrength"] = 2,
-						["test_cameraTargetFocusEnemyEnable"] = 0,
-					},
-					["extras"] = {
-						["hideUI"] = true,
-					},
+				["034"] = {
+					["enabled"] = false,
 				},
 			},
 			["defaultCvars"] = {

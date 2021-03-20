@@ -1,6 +1,7 @@
 
 Rematch_TSMPetValuesDB = {
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
 	},

@@ -17,5 +17,13 @@ VWQL = {
 	},
 	["Sort"] = 5,
 	["VERSION"] = 100,
+	["Samoanslayer-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
 	["HideLegion"] = true,
 }

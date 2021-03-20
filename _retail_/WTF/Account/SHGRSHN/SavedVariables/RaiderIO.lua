@@ -33,12 +33,7 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Samoansage-emerald-dream"
 RaiderIO_MissingCharacters = {
-	["us-Mucho-emerald-dream"] = true,
-	["us-Onarok-emerald-dream"] = true,
-	["us-Yrlenazo-emerald-dream"] = true,
-	["us-Hazir-emerald-dream"] = true,
-	["us-Kalihoff-emerald-dream"] = true,
-	["us-Tawxik-emerald-dream"] = true,
-	["us-Yeryale-emerald-dream"] = true,
+	["us-Nîghtangel-emerald-dream"] = true,
+	["us-Dankcancer-emerald-dream"] = true,
 }
 RaiderIO_CachedRuns = nil

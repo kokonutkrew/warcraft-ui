@@ -3,6 +3,8 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
+				["Samoanslayer"] = {
+				},
 				["Samoansavage"] = {
 				},
 				["Samoansage"] = {
@@ -17,10 +19,22 @@ SpyDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
 	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
 		["Samoansavage - Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,

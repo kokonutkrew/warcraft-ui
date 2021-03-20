@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoansage - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
 	["profiles"] = {
@@ -21,20 +22,20 @@ Details_StreamerDB = {
 			["minimap"] = {
 				["minimapPos"] = 160,
 				["radius"] = 160,
-				["hide"] = false,
+				["hide"] = true,
 			},
-			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["author"] = "Details! Team",
+			["y"] = -4.57763671875e-05,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
 			},
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
@@ -45,9 +46,9 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -3.0517578125e-05,
 				["x"] = -6.103515625e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
@@ -56,22 +57,22 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
 			["font_size"] = 10,
 			["x"] = -6.103515625e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["use_spark"] = true,
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 }

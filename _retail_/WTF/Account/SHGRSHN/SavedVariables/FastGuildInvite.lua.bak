@@ -1,11 +1,11 @@
 
 FGI_DB = {
+	["global"] = {
+		["introShow"] = false,
+	},
 	["profileKeys"] = {
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
-	},
-	["global"] = {
-		["introShow"] = false,
 	},
 }
 FGI_DEBUG = {

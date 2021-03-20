@@ -1,0 +1,27 @@
+## Interface: 80200
+
+## Title: RCLootCouncil - EPGP
+## Version: 2.3.0
+## X-TestVersion:
+
+## Author: Safetee
+## Notes: An unofficial RCLootCouncil module with full EPGP support and customization.
+## Notes-zhCN: 对RCLootCouncil添加EPGP支持与自定义功能的非官方模块.
+## Notes-zhTW: 對RCLootCouncil添加EPGP支持與自定義功能的非官方模塊.
+## Dependencies: RCLootCouncil, EPGP
+## X-Embeds: LibGroupInSpecT-1.1
+## OptionalDeps: RCLootCouncil_ExtraUtilities, RCLootCouncil_GroupGear, LibGroupInSpecT-1.1
+
+## X-Category: Guild
+## X-License: GNU Lesser General Public License version 3 (LGPLv3)
+## X-Website: https://www.curseforge.com/wow/addons/rclootcouncil-epgp/
+## X-Github: https://github.com/SafeteeWoW/RCLootCouncil_EPGP
+## X-Curse_Project-ID: 269161
+
+Libs\embeds.xml
+Locale\Locales.xml
+
+core.lua
+
+Modules\Modules.xml
+Util\Util.xml

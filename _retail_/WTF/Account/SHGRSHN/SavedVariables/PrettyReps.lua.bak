@@ -1,5 +1,18 @@
 
 PrettyRepsDB = {
+	["Options"] = {
+		["Enabled"] = true,
+		["ParagonIconsRewardOnly"] = true,
+		["GroupTotals"] = true,
+		["HideUnobtainableGroup"] = false,
+		["HideInactiveGroup"] = false,
+		["ShowParagonIcons"] = true,
+		["UseUnobtainableGroup"] = true,
+		["ShowNameOnHover"] = false,
+		["HideOppositeFaction"] = true,
+		["ShowParagonBars"] = true,
+		["ShowGuild"] = true,
+	},
 	["Structure"] = {
 		{
 			["hasBonusRepGain"] = false,
@@ -2055,12 +2068,12 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 169,
-					["colorIndex"] = 4,
+					["hasRep"] = false,
 					["isChild"] = true,
 					["name"] = "Steamwheedle Cartel",
-					["hasRep"] = false,
-					["atWarWith"] = false,
 					["earnedValue"] = 2679,
+					["colorIndex"] = 4,
+					["atWarWith"] = false,
 					["topValue"] = 3000,
 				}, -- [20]
 			},
@@ -2080,19 +2093,6 @@ PrettyRepsDB = {
 			["playerName"] = "Samoansage",
 			["topValue"] = 3000,
 		}, -- [8]
-	},
-	["Options"] = {
-		["Enabled"] = true,
-		["ParagonIconsRewardOnly"] = true,
-		["GroupTotals"] = true,
-		["HideUnobtainableGroup"] = false,
-		["HideInactiveGroup"] = false,
-		["ShowParagonIcons"] = true,
-		["UseUnobtainableGroup"] = true,
-		["ShowNameOnHover"] = false,
-		["HideOppositeFaction"] = true,
-		["ShowParagonBars"] = true,
-		["ShowGuild"] = true,
 	},
 	["Headers"] = {
 		["Unobtainable"] = false,

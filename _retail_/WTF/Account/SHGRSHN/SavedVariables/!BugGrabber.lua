@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 34,
 	["lastSanitation"] = 3,
-	["session"] = 33,
 	["errors"] = {
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Clique' tried to call the protected function 'ArenaEnemyFrames:ClearAllPoints()'.",

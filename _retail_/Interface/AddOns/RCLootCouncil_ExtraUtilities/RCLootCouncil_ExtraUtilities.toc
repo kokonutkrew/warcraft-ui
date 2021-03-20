@@ -1,0 +1,16 @@
+## Author: Potdisc
+## Notes: An RCLootCouncil module for more advanced utilities.
+## Title: RCLootCouncil - Extra Utilities
+## Version: 1.0.1
+## Interface: 90005
+## Dependencies: RCLootCouncil
+## X-Curse-Project-ID: 257427
+
+Locale\Locales.xml
+Libs\LibItemUpgradeInfo-1.0\Core.lua
+
+Classes\Cache.lua
+
+votingUtils.lua
+options.lua
+InspectHandler.lua

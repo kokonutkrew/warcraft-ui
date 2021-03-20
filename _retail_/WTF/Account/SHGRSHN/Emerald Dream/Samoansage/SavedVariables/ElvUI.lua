@@ -1,278 +1,20 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/gse", -- [1]
-		"/reload", -- [2]
-		"/ec", -- [3]
-		"/bartender", -- [4]
-		"/clique", -- [5]
-		"/afk", -- [6]
+		"/afk", -- [1]
+		"/clique", -- [2]
+		"/reload", -- [3]
+		"/gse", -- [4]
+		"/bartender", -- [5]
+		"/dbm", -- [6]
+		"/wave", -- [7]
+		"/s I completely rebuilt my ui today lol", -- [8]
+		"/s Trying to finish up the last little bits", -- [9]
+		"/s Looks really good", -- [10]
+		"/deathnote", -- [11]
+		"/ec", -- [12]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"2", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-5-0B723B86", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616201785,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"Feeding Time fading in 1", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			565, -- [11]
-			"Player-4-033E7915", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616201785,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"Feeding Time fading in 1", -- [1]
-			"Mallòw-Stormrage", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			566, -- [11]
-			"Player-60-0E1C37F8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616201786,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"1", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			567, -- [11]
-			"Player-5-0B723B86", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616201786,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"Attack {skull}", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Samoansage-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			574, -- [11]
-			"Player-162-0A01C9F2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616201822,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"Attack {skull}", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Samoansage-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-162-0A01C9F2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616201825,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"Impale (1) on Akadeath", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			577, -- [11]
-			"Player-5-0B723B86", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616201829,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"{rt2}Impale 2", -- [1]
-			"Sloppymage-Sargeras", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Sloppymage-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			579, -- [11]
-			"Player-76-0B50E517", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSloppymage-Sargeras|r",
-			[51] = 1616201830,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"tanks?", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Riktux-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			581, -- [11]
-			"Player-76-0B25BB6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616201830,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"really?", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Riktux-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			585, -- [11]
-			"Player-76-0B25BB6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616201832,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"really?", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Riktux-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			587, -- [11]
-			"Player-76-0B25BB6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616201836,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"{rt2}Impale 2", -- [1]
-			"Tonkatoyz-Dath'Remar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tonkatoyz-Dath'Remar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			592, -- [11]
-			"Player-3726-0A1A0AF1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
-			[51] = 1616201856,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
 		{
 			"{rt3}Empalar 3", -- [1]
 			"Sahrah-Stormrage", -- [2]
@@ -294,7 +36,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sahrah-Stormrage|r",
 			[51] = 1616201856,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [1]
 		{
 			"lol your telling me", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -316,7 +58,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616201866,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [14]
+		}, -- [2]
 		{
 			"these tanks", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -338,7 +80,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616201883,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [15]
+		}, -- [3]
 		{
 			"{rt3}Impale 3", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -360,7 +102,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616201883,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [4]
 		{
 			"wont let me in gonnaa leave", -- [1]
 			"Shockygirl-Terokkar", -- [2]
@@ -382,7 +124,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edShockygirl-Terokkar|r",
 			[51] = 1616201900,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [5]
 		{
 			"these tanks are SHIIIIIITE", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -404,7 +146,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616201902,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [6]
 		{
 			"{rt2}Impale 2", -- [1]
 			"Ahnika-Kilrogg", -- [2]
@@ -426,7 +168,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAhnika-Kilrogg|r",
 			[51] = 1616201906,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [7]
 		{
 			"{rt3}Empalar 3", -- [1]
 			"Sahrah-Stormrage", -- [2]
@@ -448,7 +190,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sahrah-Stormrage|r",
 			[51] = 1616201906,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [8]
 		{
 			"its lfr bebe", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -470,7 +212,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616201924,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
+		}, -- [9]
 		{
 			"{rt1}Impale 1", -- [1]
 			"Erissail-Aman'Thul", -- [2]
@@ -492,7 +234,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Erissail-Aman'Thul|r",
 			[51] = 1616201937,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [10]
 		{
 			"{rt3}Impale 3", -- [1]
 			"Syndrial-Windrunner", -- [2]
@@ -514,7 +256,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Syndrial-Windrunner|r",
 			[51] = 1616201938,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [11]
 		{
 			"sooo whats everyone doing", -- [1]
 			"Krimmzon-EmeraldDream", -- [2]
@@ -536,7 +278,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Krimmzon|r",
 			[51] = 1616201949,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [12]
 		{
 			"brez", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -558,7 +300,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616201951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [13]
 		{
 			"{rt1}Impale 1", -- [1]
 			"Ahnika-Kilrogg", -- [2]
@@ -580,7 +322,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAhnika-Kilrogg|r",
 			[51] = 1616201955,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [14]
 		{
 			"\"its lfr bebe\" proceeds to die in LFR. lol", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -602,7 +344,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616201988,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [15]
 		{
 			"{rt1}3", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -624,7 +366,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202005,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [16]
 		{
 			"{rt1}2", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -646,7 +388,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202007,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [17]
 		{
 			"{rt1}1", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -668,7 +410,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202008,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [18]
 		{
 			"bring the damn boss", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -690,7 +432,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202013,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [19]
 		{
 			"to the adds", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -712,7 +454,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202014,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [20]
 		{
 			"BASIC TANKING", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -734,7 +476,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202017,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [21]
 		{
 			"BRING THE BOSS", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -756,7 +498,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202025,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [22]
 		{
 			"TO THE ADDS", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -778,7 +520,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202027,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [23]
 		{
 			"{rt1}Fatal Finesse 1", -- [1]
 			"Mallòw-Stormrage", -- [2]
@@ -800,7 +542,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallòw-Stormrage|r",
 			[51] = 1616202027,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [24]
 		{
 			"{rt1}3", -- [1]
 			"Mallòw-Stormrage", -- [2]
@@ -822,7 +564,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallòw-Stormrage|r",
 			[51] = 1616202029,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [25]
 		{
 			"{rt1}2", -- [1]
 			"Mallòw-Stormrage", -- [2]
@@ -844,7 +586,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallòw-Stormrage|r",
 			[51] = 1616202030,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [26]
 		{
 			"{rt1}1", -- [1]
 			"Mallòw-Stormrage", -- [2]
@@ -866,7 +608,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallòw-Stormrage|r",
 			[51] = 1616202031,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [27]
 		{
 			"hero?", -- [1]
 			"Mallòw-Stormrage", -- [2]
@@ -888,7 +630,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMallòw-Stormrage|r",
 			[51] = 1616202032,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [28]
 		{
 			"golf clap for the tanks", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -910,7 +652,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202036,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [29]
 		{
 			"poor baby hunter mad", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -932,7 +674,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616202052,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
+		}, -- [30]
 		{
 			"{rt1}Fatal Finesse 1", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -954,7 +696,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202052,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [31]
 		{
 			"{rt1}3", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -976,7 +718,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202054,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [32]
 		{
 			"{rt1}2", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -998,7 +740,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202055,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [33]
 		{
 			"{rt1}1", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -1020,7 +762,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202056,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [34]
 		{
 			"{rt3}Fatal Finesse 3", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1042,7 +784,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [35]
 		{
 			"{rt2}Fatal Finesse 2", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -1064,7 +806,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [36]
 		{
 			"{rt1}3", -- [1]
 			"Ahnika-Kilrogg", -- [2]
@@ -1086,7 +828,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAhnika-Kilrogg|r",
 			[51] = 1616202083,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [37]
 		{
 			"{rt3}3", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1108,7 +850,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202083,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [38]
 		{
 			"{rt2}3", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -1130,7 +872,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202083,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [39]
 		{
 			"{rt1}2", -- [1]
 			"Ahnika-Kilrogg", -- [2]
@@ -1152,7 +894,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAhnika-Kilrogg|r",
 			[51] = 1616202084,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [40]
 		{
 			"{rt3}2", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1174,7 +916,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202084,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [41]
 		{
 			"{rt2}2", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -1196,7 +938,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202084,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [42]
 		{
 			"{rt1}1", -- [1]
 			"Ahnika-Kilrogg", -- [2]
@@ -1218,7 +960,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAhnika-Kilrogg|r",
 			[51] = 1616202085,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [43]
 		{
 			"{rt3}1", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1240,7 +982,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202085,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [44]
 		{
 			"{rt2}1", -- [1]
 			"Dornack-Runetotem", -- [2]
@@ -1262,7 +1004,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDornack-Runetotem|r",
 			[51] = 1616202085,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [45]
 		{
 			"Fatal Finesse (1{rt1}) on Akadeath", -- [1]
 			"Akadeath-Proudmoore", -- [2]
@@ -1284,7 +1026,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Akadeath-Proudmoore|r",
 			[51] = 1616202103,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [46]
 		{
 			"{rt2}Fatal Finesse 2", -- [1]
 			"Evodpaos-Proudmoore", -- [2]
@@ -1306,7 +1048,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
 			[51] = 1616202103,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [47]
 		{
 			"{rt3}Fatal Finesse 3", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1328,7 +1070,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202103,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [48]
 		{
 			"{rt1} 3", -- [1]
 			"Akadeath-Proudmoore", -- [2]
@@ -1350,7 +1092,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Akadeath-Proudmoore|r",
 			[51] = 1616202105,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [49]
 		{
 			"{rt2}3", -- [1]
 			"Evodpaos-Proudmoore", -- [2]
@@ -1372,7 +1114,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
 			[51] = 1616202105,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [50]
 		{
 			"{rt3}3", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1394,7 +1136,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202105,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [51]
 		{
 			"{rt1} 2", -- [1]
 			"Akadeath-Proudmoore", -- [2]
@@ -1416,7 +1158,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Akadeath-Proudmoore|r",
 			[51] = 1616202106,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [52]
 		{
 			"{rt2}2", -- [1]
 			"Evodpaos-Proudmoore", -- [2]
@@ -1438,7 +1180,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
 			[51] = 1616202106,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [53]
 		{
 			"{rt3}2", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1460,7 +1202,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202106,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [54]
 		{
 			"{rt1} 1", -- [1]
 			"Akadeath-Proudmoore", -- [2]
@@ -1482,7 +1224,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Akadeath-Proudmoore|r",
 			[51] = 1616202107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [55]
 		{
 			"{rt3}1", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1504,7 +1246,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202107,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [56]
 		{
 			"{rt2}Fatal Finesse 2", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1526,7 +1268,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [57]
 		{
 			"{rt1}Fatal Finesse 1", -- [1]
 			"Bigbowski-Kel'Thuzad", -- [2]
@@ -1548,7 +1290,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
 			[51] = 1616202137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [58]
 		{
 			"{rt3}Fatal Finesse 3", -- [1]
 			"Thunderlily-Dawnbringer", -- [2]
@@ -1570,7 +1312,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaThunderlily-Dawnbringer|r",
 			[51] = 1616202137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [59]
 		{
 			"{rt2}3", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1592,7 +1334,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202139,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [60]
 		{
 			"{rt1}3", -- [1]
 			"Bigbowski-Kel'Thuzad", -- [2]
@@ -1614,7 +1356,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
 			[51] = 1616202139,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [61]
 		{
 			"{rt3}2", -- [1]
 			"Thunderlily-Dawnbringer", -- [2]
@@ -1636,7 +1378,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaThunderlily-Dawnbringer|r",
 			[51] = 1616202140,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [62]
 		{
 			"{rt1}2", -- [1]
 			"Bigbowski-Kel'Thuzad", -- [2]
@@ -1658,7 +1400,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
 			[51] = 1616202140,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [63]
 		{
 			"{rt2}1", -- [1]
 			"Zypheria-Alexstrasza", -- [2]
@@ -1680,7 +1422,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
 			[51] = 1616202141,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [64]
 		{
 			"{rt1}1", -- [1]
 			"Bigbowski-Kel'Thuzad", -- [2]
@@ -1702,7 +1444,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
 			[51] = 1616202141,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [65]
 		{
 			"{rt2}Fatal Finesse 2", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1724,7 +1466,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [66]
 		{
 			"{rt1}Fatal Finesse 1", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -1746,7 +1488,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [67]
 		{
 			"{rt3}Fatal Finesse 3", -- [1]
 			"Tonkatoyz-Dath'Remar", -- [2]
@@ -1768,7 +1510,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
 			[51] = 1616202159,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [68]
 		{
 			"{rt2}3", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1790,7 +1532,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202161,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [69]
 		{
 			"{rt1}3", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -1812,7 +1554,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202161,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [70]
 		{
 			"{rt3}3", -- [1]
 			"Tonkatoyz-Dath'Remar", -- [2]
@@ -1834,7 +1576,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
 			[51] = 1616202161,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [71]
 		{
 			"{rt2}2", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1856,7 +1598,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202162,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [72]
 		{
 			"{rt1}2", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -1878,7 +1620,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202162,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [73]
 		{
 			"{rt3}2", -- [1]
 			"Tonkatoyz-Dath'Remar", -- [2]
@@ -1900,7 +1642,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
 			[51] = 1616202162,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [74]
 		{
 			"{rt1}1", -- [1]
 			"Saggasmom-SteamwheedleCartel", -- [2]
@@ -1922,7 +1664,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
 			[51] = 1616202163,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [75]
 		{
 			"{rt2}1", -- [1]
 			"Deuss-Stormrage", -- [2]
@@ -1944,7 +1686,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDeuss-Stormrage|r",
 			[51] = 1616202163,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [76]
 		{
 			"{rt3}1", -- [1]
 			"Tonkatoyz-Dath'Remar", -- [2]
@@ -1966,7 +1708,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
 			[51] = 1616202163,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [77]
 		{
 			"we did the thing", -- [1]
 			"Theyden-Garona", -- [2]
@@ -1988,7 +1730,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTheyden-Garona|r",
 			[51] = 1616202190,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [78]
 		{
 			"\"its LFR\" bebe, dies TWO TIMES", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -2010,7 +1752,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [79]
 		{
 			"yikes", -- [1]
 			"Riktux-Sargeras", -- [2]
@@ -2032,7 +1774,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Riktux-Sargeras|r",
 			[51] = 1616202198,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [80]
 		{
 			"rez plz", -- [1]
 			"Leeløø-Mal'Ganis", -- [2]
@@ -2054,7 +1796,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Leeløø-Mal'Ganis|r",
 			[51] = 1616202205,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [81]
 		{
 			"lol i had 36 stacks of the buff dingle berry", -- [1]
 			"Papabearboi-Windrunner", -- [2]
@@ -2076,7 +1818,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
 			[51] = 1616202207,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [94]
+		}, -- [82]
 		{
 			"Hey was |cffa335ee|Hitem:183036::::::::60:264::83:5:7186:6652:7193:1459:6646:1:28:750:::|h[Most Regal Signet of Sire Denathrius]|h|r an upgrade for you?", -- [1]
 			"Erissail-Aman'Thul", -- [2]
@@ -2098,7 +1840,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Erissail-Aman'Thul|r",
 			[51] = 1616202256,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [95]
+		}, -- [83]
 		{
 			"Is it rational to believe in the scientific consensus?", -- [1]
 			"Vashishta-EmeraldDream", -- [2]
@@ -2120,7 +1862,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVashishta|r",
 			[51] = 1616202782,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [84]
 		{
 			"sometimes maybe", -- [1]
 			"Dokora-EmeraldDream", -- [2]
@@ -2142,7 +1884,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDokora|r",
 			[51] = 1616203059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [85]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10829:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Arcing Aqueducts]|h|r!", -- [1]
 			"Biowolf-EmeraldDream", -- [2]
@@ -2164,7 +1906,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Biowolf|r",
 			[51] = 1616203222,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10742:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Gluten Free]|h|r!", -- [1]
 			"Biowolf-EmeraldDream", -- [2]
@@ -2186,6 +1928,270 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Biowolf|r",
 			[51] = 1616203222,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [87]
+		{
+			"Is it rational to believe in the scientific consensus?", -- [1]
+			"Vashishta-EmeraldDream", -- [2]
+			"", -- [3]
+			"4. LookingForGroup", -- [4]
+			"Vashishta-EmeraldDream", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			889, -- [11]
+			"Player-162-0B50DDB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaVashishta|r",
+			[51] = 1616204215,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"maybe", -- [1]
+			"Cheesypooffs-EmeraldDream", -- [2]
+			"", -- [3]
+			"4. LookingForGroup", -- [4]
+			"Cheesypooffs-EmeraldDream", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			890, -- [11]
+			"Player-162-0B502724", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeCheesypooffs|r",
+			[51] = 1616204234,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"hi", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			897, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616204496,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"about as much you sitting and spamming in wow all day", -- [1]
+			"Enmortalis-EmeraldDream", -- [2]
+			"", -- [3]
+			"4. LookingForGroup", -- [4]
+			"Enmortalis-EmeraldDream", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			900, -- [11]
+			"Player-162-0A1556FC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Enmortalis|r",
+			[51] = 1616204533,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"lol", -- [1]
+			"Vashishta-EmeraldDream", -- [2]
+			"", -- [3]
+			"4. LookingForGroup", -- [4]
+			"Vashishta-EmeraldDream", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			901, -- [11]
+			"Player-162-0B50DDB6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaVashishta|r",
+			[51] = 1616204567,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"I beleve most of the stuff for today is done", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			903, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616204606,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"lol found you sam", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			908, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616204859,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"I completely rebuilt my ui today lol", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoansage-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			915, -- [11]
+			"Player-162-0A01C9F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616205032,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Trying to finish up the last little bits", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoansage-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			916, -- [11]
+			"Player-162-0A01C9F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616205040,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"cool", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Honustustere-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			917, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616205040,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Looks really good", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoansage-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			918, -- [11]
+			"Player-162-0A01C9F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616205046,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"oo I got lucky with this que", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			935, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616205753,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }

@@ -1,6 +1,16 @@
 
 CliqueDB = nil
 CliqueDB3 = {
+	["char"] = {
+		["Samoansage - Emerald Dream"] = {
+			["spec1_profileKey"] = "Samoansage - Emerald Dream",
+			["fastooc"] = false,
+			["downclick"] = false,
+			["spec3_profileKey"] = "Samoansage - Emerald Dream",
+			["spec2_profileKey"] = "Samoansage - Emerald Dream",
+			["specswap"] = false,
+		},
+	},
 	["profileKeys"] = {
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
@@ -8,10 +18,10 @@ CliqueDB3 = {
 		["Samoansage - Emerald Dream"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

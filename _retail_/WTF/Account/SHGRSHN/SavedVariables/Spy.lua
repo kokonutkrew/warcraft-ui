@@ -3,9 +3,9 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
-				["Samoansage"] = {
-				},
 				["Samoansavage"] = {
+				},
+				["Samoansage"] = {
 				},
 			},
 		},

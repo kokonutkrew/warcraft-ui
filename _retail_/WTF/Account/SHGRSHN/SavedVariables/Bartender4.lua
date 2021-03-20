@@ -3,16 +3,6 @@ Bartender4DB = {
 	["namespaces"] = {
 		["StatusTrackingBar"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
-					["enabled"] = true,
-					["position"] = {
-						["y"] = 52,
-						["x"] = -256,
-						["point"] = "BOTTOM",
-						["scale"] = 0.6299999952316284,
-					},
-					["version"] = 3,
-				},
 				["Samoansage - Emerald Dream"] = {
 					["enabled"] = true,
 					["version"] = 3,
@@ -23,10 +13,86 @@ Bartender4DB = {
 						["y"] = 62,
 					},
 				},
+				["KokonutKrew"] = {
+					["enabled"] = true,
+					["position"] = {
+						["y"] = 52,
+						["x"] = -256,
+						["point"] = "BOTTOM",
+						["scale"] = 0.6299999952316284,
+					},
+					["version"] = 3,
+				},
 			},
 		},
 		["ActionBars"] = {
 			["profiles"] = {
+				["Samoansage - Emerald Dream"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4998474121094,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["KokonutKrew"] = {
 					["actionbars"] = {
 						{
@@ -155,86 +221,12 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4998474121094,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
-					["position"] = {
-						["y"] = 287,
-						["x"] = -63.5001220703125,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
 				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -243,20 +235,18 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["KokonutKrew"] = {
+					["position"] = {
+						["y"] = 287,
+						["x"] = -63.5001220703125,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
-					["enabled"] = false,
-					["position"] = {
-						["y"] = 41.99993692040334,
-						["x"] = -198.8001324925172,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
-					},
-					["version"] = 3,
-				},
 				["Samoansage - Emerald Dream"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -267,10 +257,28 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["KokonutKrew"] = {
+					["enabled"] = false,
+					["position"] = {
+						["y"] = 41.99993692040334,
+						["x"] = -198.8001324925172,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
+				["Samoansage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
 				["KokonutKrew"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -280,18 +288,19 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Samoansage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+				["Samoansage - Emerald Dream"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["KokonutKrew"] = {
 					["enabled"] = true,
 					["artLayout"] = "ONEBAR",
@@ -302,19 +311,18 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Samoansage - Emerald Dream"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+				["Samoansage - Emerald Dream"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
 				["KokonutKrew"] = {
 					["enabled"] = false,
 					["position"] = {
@@ -324,26 +332,10 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Samoansage - Emerald Dream"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 164,
-						["x"] = -164,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -352,18 +344,18 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["KokonutKrew"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 164,
+						["x"] = -164,
+						["point"] = "BOTTOM",
+					},
+				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
-				["KokonutKrew"] = {
-					["position"] = {
-						["y"] = 42.49990844726563,
-						["x"] = 104.499755859375,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
-				},
 				["Samoansage - Emerald Dream"] = {
 					["version"] = 3,
 					["position"] = {
@@ -371,6 +363,14 @@ Bartender4DB = {
 						["x"] = 104.5,
 						["point"] = "CENTER",
 					},
+				},
+				["KokonutKrew"] = {
+					["position"] = {
+						["y"] = 42.49990844726563,
+						["x"] = 104.499755859375,
+						["point"] = "CENTER",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -382,14 +382,14 @@ Bartender4DB = {
 		["Samoansage - Emerald Dream"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["KokonutKrew"] = {
-			["focuscastmodifier"] = false,
-			["snapping"] = false,
-			["outofrange"] = "hotkey",
-		},
 		["Samoansage - Emerald Dream"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["KokonutKrew"] = {
+			["focuscastmodifier"] = false,
+			["snapping"] = false,
 			["outofrange"] = "hotkey",
 		},
 	},

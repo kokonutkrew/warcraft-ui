@@ -3,9 +3,9 @@ SpyDB = {
 	["kosData"] = {
 		["Emerald Dream"] = {
 			["Alliance"] = {
-				["Samoansavage"] = {
-				},
 				["Samoansage"] = {
+				},
+				["Samoansavage"] = {
 				},
 			},
 		},
@@ -34,6 +34,14 @@ SpyDB = {
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Samoansage - Emerald Dream"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 147.0000152587891,
+					["x"] = 1640.742065429688,
+					["w"] = 160.0001068115234,
+					["h"] = 147.0000152587891,
+				},
+			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {

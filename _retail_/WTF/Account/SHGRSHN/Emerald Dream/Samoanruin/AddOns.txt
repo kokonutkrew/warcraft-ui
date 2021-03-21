@@ -2,7 +2,7 @@
 CameraOverShoulderFix: disabled
 MinimapButtonFrame: disabled
 MinimapButtonFrame_SkinPack: disabled
-ACU: disabled
+ACU: enabled
 Bartender4: disabled
 BugSack: disabled
 DynamicCam: disabled
@@ -12,3 +12,6 @@ Leatrix_Plus: disabled
 MBB: disabled
 ElvUI: disabled
 ElvUI_OptionsUI: disabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled

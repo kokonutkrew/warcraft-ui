@@ -3,6 +3,7 @@ RCGroupGearDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

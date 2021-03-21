@@ -1,136 +1,96 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/bartender", -- [1]
-		"/details", -- [2]
-		"/afk", -- [3]
-		"/wave", -- [4]
-		"/reload", -- [5]
-		"/dbm", -- [6]
-		"/script Details:OpenPlugin ('Encounter Breakdown')", -- [7]
-		"/deathnote", -- [8]
-		"/s I completely rebuilt my ui today lol", -- [9]
-		"/s Trying to finish up the last little bits", -- [10]
-		"/clique", -- [11]
-		"/gse", -- [12]
-		"/s Looks really good", -- [13]
-		"/immersion", -- [14]
-		"/tsm", -- [15]
-		"/ec", -- [16]
+		"/cw Killyor-EmeraldDream 630*", -- [1]
+		"/cw Corogan-EmeraldDream How did you like the buff warriors just got?", -- [2]
+		"/cw Corogan-EmeraldDream Easier to keep threat?", -- [3]
+		"/cw Corogan-EmeraldDream Ya that Leggo seems awesome", -- [4]
+		"/cw Corogan-EmeraldDream Never tried it yet", -- [5]
+		"/cw Corogan-EmeraldDream but seems op", -- [6]
+		"/cw Corogan-EmeraldDream Sweet as mate, well ima send you an invite", -- [7]
+		"/cw Corogan-EmeraldDream Get to 60 asap!", -- [8]
+		"/cw Corogan-EmeraldDream Yes now you dont charge in and die immeediately with no rage", -- [9]
+		"/cw Corogan-EmeraldDream Welcome aboard!", -- [10]
+		"/cw Corogan-EmeraldDream Be sure to check out our progression plan posted at kokonutkrew.com", -- [11]
+		"/cw Corogan-EmeraldDream Np! Happy leveling", -- [12]
+		"/cw Corogan-EmeraldDream Ill be working on a few alts later", -- [13]
+		"/cw Corogan-EmeraldDream If you wanna party sync", -- [14]
+		"/cw Corogan-EmeraldDream Finish the covenant sanctum quests and do normal bgs", -- [15]
+		"/cw Corogan-EmeraldDream I hit i197 in 2 days after hitting 60", -- [16]
+		"/cw Corogan-EmeraldDream Then spamy mythic keystones", -- [17]
+		"/clique", -- [18]
+		"/rc lootcouncil", -- [19]
+		"/rc council", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"{rt2}Impale 2", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			612, -- [11]
-			"Player-4-033E7915", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616201906,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"{rt3}Empalar 3", -- [1]
-			"Sahrah-Stormrage", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Sahrah-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			615, -- [11]
-			"Player-60-0DFFACB8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Sahrah-Stormrage|r",
-			[51] = 1616201906,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"its lfr bebe", -- [1]
-			"Papabearboi-Windrunner", -- [2]
+			"hero*", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papabearboi-Windrunner", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			619, -- [11]
-			"Player-113-0A524546", -- [12]
+			102, -- [11]
+			"Player-162-0A01C9F2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
-			[51] = 1616201924,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616353652,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [1]
+		{
+			"Pallys can do the same", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			103, -- [11]
+			"Player-162-0A01C9F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616353665,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"bubble ftw!", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			104, -- [11]
+			"Player-162-0A01C9F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616353669,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [3]
 		{
-			"{rt1}Impale 1", -- [1]
-			"Erissail-Aman'Thul", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Erissail-Aman'Thul", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			622, -- [11]
-			"Player-3726-0BB81E2B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Erissail-Aman'Thul|r",
-			[51] = 1616201937,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"{rt3}Impale 3", -- [1]
-			"Syndrial-Windrunner", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Syndrial-Windrunner", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			626, -- [11]
-			"Player-113-0A658630", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Syndrial-Windrunner|r",
-			[51] = 1616201938,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"sooo whats everyone doing", -- [1]
+			"i need to do 2 more mythics to cap bank thingy but man i need a break lol", -- [1]
 			"Krimmzon-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -140,7 +100,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			630, -- [11]
+			105, -- [11]
 			"Player-162-096F3B6F", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -148,2054 +108,2098 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff38bb9Krimmzon|r",
-			[51] = 1616201949,
+			[51] = 1616353676,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [4]
+		{
+			"fraid i gtg now, need to clean the house before my parents come home", -- [1]
+			"Honustustere-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-162-09CE598E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Honustustere|r",
+			[51] = 1616353688,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [5]
+		{
+			"good do work", -- [1]
+			"Krimmzon-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"Player-162-096F3B6F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Krimmzon|r",
+			[51] = 1616353696,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [6]
 		{
-			"brez", -- [1]
-			"Papabearboi-Windrunner", -- [2]
+			"lol", -- [1]
+			"Krimmzon-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papabearboi-Windrunner", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			632, -- [11]
-			"Player-113-0A524546", -- [12]
+			109, -- [11]
+			"Player-162-096F3B6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
-			[51] = 1616201951,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfff38bb9Krimmzon|r",
+			[51] = 1616353698,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [7]
 		{
-			"{rt1}Impale 1", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
+			"bye bye", -- [1]
+			"Krimmzon-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			633, -- [11]
-			"Player-4-033E7915", -- [12]
+			110, -- [11]
+			"Player-162-096F3B6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616201955,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Krimmzon|r",
+			[51] = 1616353700,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [8]
 		{
-			"\"its lfr bebe\" proceeds to die in LFR. lol", -- [1]
-			"Riktux-Sargeras", -- [2]
+			"Cya!", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			646, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			111, -- [11]
+			"Player-162-0A01C9F2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616201988,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616353701,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [9]
 		{
-			"{rt1}3", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"okay im going afk i got to stand and thing", -- [1]
+			"Krimmzon-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			653, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			112, -- [11]
+			"Player-162-096F3B6F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202005,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Krimmzon|r",
+			[51] = 1616353729,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [10]
 		{
-			"{rt1}2", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"haha alright catch ya later", -- [1]
+			"Samoansage-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			654, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			113, -- [11]
+			"Player-162-0A01C9F2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202007,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcSamoansage|r",
+			[51] = 1616353741,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"{rt1}1", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-162-0B40B5B9:1:3:21:21:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
+			"Biowolf-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"Biowolf-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			655, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			124, -- [11]
+			"Player-162-0B40B5B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202008,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Biowolf|r",
+			[51] = 1616354079,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [12]
 		{
-			"bring the damn boss", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Mysiaa we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Mysiaa-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Mysiaa-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			656, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			125, -- [11]
+			"Player-162-0A69576E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202013,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Mysiaa|r",
+			[51] = 1616354099,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [13]
 		{
-			"to the adds", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Minarik we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Minarik-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Minarik-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			657, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			126, -- [11]
+			"Player-162-0B488090", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202014,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcMinarik|r",
+			[51] = 1616354111,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [14]
 		{
-			"BASIC TANKING", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Eilonwÿ we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Eilonwÿ-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Eilonwÿ-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			658, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			127, -- [11]
+			"Player-162-0B511699", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202017,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaEilonwÿ|r",
+			[51] = 1616354112,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [15]
 		{
-			"BRING THE BOSS", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Jonystardron we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Jonystardron-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Jonystardron-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			659, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			128, -- [11]
+			"Player-162-0B519004", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202025,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edJonystardron|r",
+			[51] = 1616354112,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [16]
 		{
-			"TO THE ADDS", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Baravar we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Baravar-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Baravar-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			660, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			129, -- [11]
+			"Player-162-0B5133C3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202027,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeBaravar|r",
+			[51] = 1616354112,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [17]
 		{
-			"{rt1}Fatal Finesse 1", -- [1]
-			"Mallòw-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Killyor we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			661, -- [11]
-			"Player-60-0E1C37F8", -- [12]
+			130, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616202027,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354112,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [18]
 		{
-			"{rt1}3", -- [1]
-			"Mallòw-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Khettle we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Khettle-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
+			"Khettle-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			665, -- [11]
-			"Player-60-0E1C37F8", -- [12]
+			131, -- [11]
+			"Player-162-097AE5A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616202029,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Khettle|r",
+			[51] = 1616354126,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [19]
 		{
-			"{rt1}2", -- [1]
-			"Mallòw-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Coockiew we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Coockiew-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
+			"Coockiew-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			666, -- [11]
-			"Player-60-0E1C37F8", -- [12]
+			132, -- [11]
+			"Player-162-0B50B90E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616202030,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Coockiew|r",
+			[51] = 1616354126,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [20]
 		{
-			"{rt1}1", -- [1]
-			"Mallòw-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Wbaldomer we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Wbaldomer-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
+			"Wbaldomer-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			667, -- [11]
-			"Player-60-0E1C37F8", -- [12]
+			133, -- [11]
+			"Player-162-0B50B90B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616202031,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Wbaldomer|r",
+			[51] = 1616354126,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [21]
 		{
-			"hero?", -- [1]
-			"Mallòw-Stormrage", -- [2]
+			"Hey Ispyn we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Ispyn-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mallòw-Stormrage", -- [5]
+			"Ispyn-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			668, -- [11]
-			"Player-60-0E1C37F8", -- [12]
+			134, -- [11]
+			"Player-162-0A13E6D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMallòw-Stormrage|r",
-			[51] = 1616202032,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cfffef367Ispyn|r",
+			[51] = 1616354127,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [22]
 		{
-			"golf clap for the tanks", -- [1]
-			"Riktux-Sargeras", -- [2]
-			"Common", -- [3]
+			"Hey Piedras we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Piedras-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Piedras-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			670, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			135, -- [11]
+			"Player-162-09F3CE2B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202036,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcPiedras|r",
+			[51] = 1616354127,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [23]
 		{
-			"poor baby hunter mad", -- [1]
-			"Papabearboi-Windrunner", -- [2]
+			"Hey Jaarrol we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Jaarrol-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papabearboi-Windrunner", -- [5]
+			"Jaarrol-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			672, -- [11]
-			"Player-113-0A524546", -- [12]
+			136, -- [11]
+			"Player-162-0B4F0773", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
-			[51] = 1616202052,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc59a6cJaarrol|r",
+			[51] = 1616354127,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [24]
 		{
-			"{rt1}Fatal Finesse 1", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Ruqayyah we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Ruqayyah-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Ruqayyah-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			673, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			137, -- [11]
+			"Player-162-09A70E70", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202052,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edRuqayyah|r",
+			[51] = 1616354127,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [25]
 		{
-			"{rt1}3", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Saelila we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Saelila-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Saelila-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			677, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			138, -- [11]
+			"Player-162-0942031B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202054,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa22fc8Saelila|r",
+			[51] = 1616354127,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [26]
 		{
-			"{rt1}2", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Luvpoozy we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Luvpoozy-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Luvpoozy-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			678, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			139, -- [11]
+			"Player-162-0B4EE3C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202055,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cLuvpoozy|r",
+			[51] = 1616354128,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [27]
 		{
-			"{rt1}1", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Zurrenea we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Zurrenea-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Zurrenea-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			680, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			140, -- [11]
+			"Player-162-04DE407B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202056,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Zurrenea|r",
+			[51] = 1616354137,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [28]
 		{
-			"{rt3}Fatal Finesse 3", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"Hey Vineleaf we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Vineleaf-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Vineleaf-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			684, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			141, -- [11]
+			"Player-162-0B30A04D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202081,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Vineleaf|r",
+			[51] = 1616354138,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [29]
 		{
-			"{rt2}Fatal Finesse 2", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"Hey Kenherbi we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Kenherbi-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"Kenherbi-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			685, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			142, -- [11]
+			"Player-162-0B4C7F8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202081,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeKenherbi|r",
+			[51] = 1616354143,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [30]
 		{
-			"{rt1}3", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
+			"Hey Killernat we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Killernat-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
+			"Killernat-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			689, -- [11]
-			"Player-4-033E7915", -- [12]
+			143, -- [11]
+			"Player-162-0B47D00B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616202083,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Killernat|r",
+			[51] = 1616354143,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [31]
 		{
-			"{rt3}3", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"Hey Zyrlo we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Zyrlo-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Zyrlo-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			690, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			144, -- [11]
+			"Player-162-0B513D5A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202083,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Zyrlo|r",
+			[51] = 1616354144,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [32]
 		{
-			"{rt2}3", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"Hey Dhise we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Dhise-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"Dhise-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			691, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			146, -- [11]
+			"Player-162-0B3E41EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202083,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Dhise|r",
+			[51] = 1616354144,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [33]
 		{
-			"{rt1}2", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
+			"Hey Kalmodon we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Kalmodon-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
+			"Kalmodon-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			692, -- [11]
-			"Player-4-033E7915", -- [12]
+			147, -- [11]
+			"Player-162-09770F46", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616202084,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Kalmodon|r",
+			[51] = 1616354156,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [34]
 		{
-			"{rt3}2", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"Hey Blgriptide we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Blgriptide-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Blgriptide-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			693, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			148, -- [11]
+			"Player-162-0A6341FF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202084,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc31d39Blgriptide|r",
+			[51] = 1616354156,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [35]
 		{
-			"{rt2}2", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"Hey Pennellope we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Pennellope-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"Pennellope-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			694, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			149, -- [11]
+			"Player-162-0B50B7AC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202084,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Pennellope|r",
+			[51] = 1616354157,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [36]
 		{
-			"{rt1}1", -- [1]
-			"Ahnika-Kilrogg", -- [2]
-			"Common", -- [3]
+			"Hey Shmoon we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Shmoon-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Ahnika-Kilrogg", -- [5]
+			"Shmoon-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			695, -- [11]
-			"Player-4-033E7915", -- [12]
+			150, -- [11]
+			"Player-162-0A79788A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcAhnika-Kilrogg|r",
-			[51] = 1616202085,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Shmoon|r",
+			[51] = 1616354157,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [37]
 		{
-			"{rt3}1", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"Hey Dros we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Dros-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Dros-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			696, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			151, -- [11]
+			"Player-162-0B4DBB50", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202085,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Dros|r",
+			[51] = 1616354157,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [38]
 		{
-			"{rt2}1", -- [1]
-			"Dornack-Runetotem", -- [2]
-			"Common", -- [3]
+			"Hey Grashoppa we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Grashoppa-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Dornack-Runetotem", -- [5]
+			"Grashoppa-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			697, -- [11]
-			"Player-151-02F41FE9", -- [12]
+			152, -- [11]
+			"Player-162-0B49CDF4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDornack-Runetotem|r",
-			[51] = 1616202085,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Grashoppa|r",
+			[51] = 1616354158,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [39]
 		{
-			"Fatal Finesse (1{rt1}) on Akadeath", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Hey Zarraela we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Zarraela-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
+			"Zarraela-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			698, -- [11]
-			"Player-5-0B723B86", -- [12]
+			153, -- [11]
+			"Player-162-0B50CDF2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616202103,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaZarraela|r",
+			[51] = 1616354158,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [40]
 		{
-			"{rt2}Fatal Finesse 2", -- [1]
-			"Evodpaos-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Hey Thorvaldyr we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Thorvaldyr-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Evodpaos-Proudmoore", -- [5]
+			"Thorvaldyr-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			699, -- [11]
-			"Player-5-0DECC53A", -- [12]
+			154, -- [11]
+			"Player-162-06AE6F5C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
-			[51] = 1616202103,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cThorvaldyr|r",
+			[51] = 1616354158,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [41]
 		{
-			"{rt3}Fatal Finesse 3", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Dazedthree we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Dazedthree-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Dazedthree-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			700, -- [11]
-			"Player-60-064AA383", -- [12]
+			155, -- [11]
+			"Player-162-08D0A338", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202103,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3ec6eaDazedthree|r",
+			[51] = 1616354159,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [42]
 		{
-			"{rt1} 3", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Not a tank or a healer, but thanks anyway.", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			704, -- [11]
-			"Player-5-0B723B86", -- [12]
+			156, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616202105,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354159,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [43]
 		{
-			"{rt2}3", -- [1]
-			"Evodpaos-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Is the rouge your main?", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Evodpaos-Proudmoore", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			705, -- [11]
-			"Player-5-0DECC53A", -- [12]
+			161, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
-			[51] = 1616202105,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354176,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [44]
 		{
-			"{rt3}3", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Yes", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			706, -- [11]
-			"Player-60-064AA383", -- [12]
+			162, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202105,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354185,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [45]
 		{
-			"{rt1} 2", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Right on, Ill be leveling an alt soon", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			707, -- [11]
-			"Player-5-0B723B86", -- [12]
+			163, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616202106,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354196,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [46]
 		{
-			"{rt2}2", -- [1]
-			"Evodpaos-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Perhaps we can party sync", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Evodpaos-Proudmoore", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			708, -- [11]
-			"Player-5-0DECC53A", -- [12]
+			164, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeEvodpaos-Proudmoore|r",
-			[51] = 1616202106,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354203,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [47]
 		{
-			"{rt3}2", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Ill send you an invite", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			709, -- [11]
-			"Player-60-064AA383", -- [12]
+			165, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202106,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354230,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [48]
 		{
-			"{rt1} 1", -- [1]
-			"Akadeath-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Welcome aboard!", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Akadeath-Proudmoore", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			710, -- [11]
-			"Player-5-0B723B86", -- [12]
+			171, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Akadeath-Proudmoore|r",
-			[51] = 1616202107,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354251,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [49]
 		{
-			"{rt3}1", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Are you new to wow", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			711, -- [11]
-			"Player-60-064AA383", -- [12]
+			172, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202107,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354259,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [50]
 		{
-			"{rt2}Fatal Finesse 2", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"or returning from hiatus", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			715, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			173, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202137,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354269,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [51]
 		{
-			"{rt1}Fatal Finesse 1", -- [1]
-			"Bigbowski-Kel'Thuzad", -- [2]
-			"Common", -- [3]
+			"Gonna break for lunch now. Thanks for the invite.", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bigbowski-Kel'Thuzad", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			716, -- [11]
-			"Player-3693-0A287C12", -- [12]
+			174, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
-			[51] = 1616202137,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354280,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [52]
 		{
-			"{rt3}Fatal Finesse 3", -- [1]
-			"Thunderlily-Dawnbringer", -- [2]
-			"Common", -- [3]
+			"ok well glad to have you here", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Thunderlily-Dawnbringer", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			717, -- [11]
-			"Player-160-0B50330F", -- [12]
+			175, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaThunderlily-Dawnbringer|r",
-			[51] = 1616202137,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354290,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [53]
 		{
-			"{rt2}3", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"enjoy your lunch", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			721, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			176, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202139,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354294,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [54]
 		{
-			"{rt1}3", -- [1]
-			"Bigbowski-Kel'Thuzad", -- [2]
-			"Common", -- [3]
+			"Been playing Classic for a year or two", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bigbowski-Kel'Thuzad", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			722, -- [11]
-			"Player-3693-0A287C12", -- [12]
+			177, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
-			[51] = 1616202139,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354300,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [55]
 		{
-			"{rt3}2", -- [1]
-			"Thunderlily-Dawnbringer", -- [2]
-			"Common", -- [3]
+			"Well welcome back to retail", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Thunderlily-Dawnbringer", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			723, -- [11]
-			"Player-160-0B50330F", -- [12]
+			178, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaThunderlily-Dawnbringer|r",
-			[51] = 1616202140,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354311,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [56]
 		{
-			"{rt1}2", -- [1]
-			"Bigbowski-Kel'Thuzad", -- [2]
-			"Common", -- [3]
+			"Were you clearing naxx?", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bigbowski-Kel'Thuzad", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			724, -- [11]
-			"Player-3693-0A287C12", -- [12]
+			179, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
-			[51] = 1616202140,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354318,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [57]
 		{
-			"{rt2}1", -- [1]
-			"Zypheria-Alexstrasza", -- [2]
-			"Common", -- [3]
+			"cool, thanks! when do you guys usually raid?", -- [1]
+			"Kenherbi-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Zypheria-Alexstrasza", -- [5]
+			"Kenherbi-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			725, -- [11]
-			"Player-1070-07F0AAFC", -- [12]
+			180, -- [11]
+			"Player-162-0B4C7F8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Zypheria-Alexstrasza|r",
-			[51] = 1616202141,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeKenherbi|r",
+			[51] = 1616354321,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [58]
 		{
-			"{rt1}1", -- [1]
-			"Bigbowski-Kel'Thuzad", -- [2]
-			"Common", -- [3]
+			"Today actually", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Bigbowski-Kel'Thuzad", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			726, -- [11]
-			"Player-3693-0A287C12", -- [12]
+			181, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cBigbowski-Kel'Thuzad|r",
-			[51] = 1616202141,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354329,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [59]
 		{
-			"{rt2}Fatal Finesse 2", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"530 ST", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			729, -- [11]
-			"Player-60-064AA383", -- [12]
+			182, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202159,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354338,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [60]
 		{
-			"{rt1}Fatal Finesse 1", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"630*", -- [1]
+			"Killyor-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Killyor-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			730, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			184, -- [11]
+			"Player-162-0B50B81F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202159,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Killyor|r",
+			[51] = 1616354345,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [61]
 		{
-			"{rt3}Fatal Finesse 3", -- [1]
-			"Tonkatoyz-Dath'Remar", -- [2]
-			"Common", -- [3]
+			"Hey Renova we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Renova-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Tonkatoyz-Dath'Remar", -- [5]
+			"Renova-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			731, -- [11]
-			"Player-3726-0A1A0AF1", -- [12]
+			185, -- [11]
+			"Player-162-0A23B096", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
-			[51] = 1616202159,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Renova|r",
+			[51] = 1616354368,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [62]
 		{
-			"{rt2}3", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Heie we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Heie-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Heie-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			735, -- [11]
-			"Player-60-064AA383", -- [12]
+			187, -- [11]
+			"Player-162-09DD4593", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202161,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Heie|r",
+			[51] = 1616354368,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [63]
 		{
-			"{rt1}3", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Jacorlon we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Jacorlon-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Jacorlon-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			736, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			188, -- [11]
+			"Player-162-0B500593", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202161,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcJacorlon|r",
+			[51] = 1616354368,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [64]
 		{
-			"{rt3}3", -- [1]
-			"Tonkatoyz-Dath'Remar", -- [2]
-			"Common", -- [3]
+			"Hey Simplean we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Simplean-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Tonkatoyz-Dath'Remar", -- [5]
+			"Simplean-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			737, -- [11]
-			"Player-3726-0A1A0AF1", -- [12]
+			189, -- [11]
+			"Player-162-0B51474D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
-			[51] = 1616202161,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Simplean|r",
+			[51] = 1616354379,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [65]
 		{
-			"{rt2}2", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Solow we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Solow-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Solow-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			738, -- [11]
-			"Player-60-064AA383", -- [12]
+			192, -- [11]
+			"Player-162-0B513D38", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202162,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa22fc8Solow|r",
+			[51] = 1616354589,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [66]
 		{
-			"{rt1}2", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Corogan we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			739, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			193, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202162,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354866,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [67]
 		{
-			"{rt3}2", -- [1]
-			"Tonkatoyz-Dath'Remar", -- [2]
-			"Common", -- [3]
+			"Hey Anderson we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Anderson-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Tonkatoyz-Dath'Remar", -- [5]
+			"Anderson-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			740, -- [11]
-			"Player-3726-0A1A0AF1", -- [12]
+			194, -- [11]
+			"Player-162-0B3C343B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
-			[51] = 1616202162,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Anderson|r",
+			[51] = 1616354866,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [68]
 		{
-			"{rt1}1", -- [1]
-			"Saggasmom-SteamwheedleCartel", -- [2]
-			"Common", -- [3]
+			"Hey Silencious we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Silencious-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Saggasmom-SteamwheedleCartel", -- [5]
+			"Silencious-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			741, -- [11]
-			"Player-1071-0B45BA3F", -- [12]
+			195, -- [11]
+			"Player-162-097924E4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSaggasmom-SteamwheedleCartel|r",
-			[51] = 1616202163,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Silencious|r",
+			[51] = 1616354872,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [69]
 		{
-			"{rt2}1", -- [1]
-			"Deuss-Stormrage", -- [2]
-			"Common", -- [3]
+			"Hey Arksong we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Arksong-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Deuss-Stormrage", -- [5]
+			"Arksong-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			742, -- [11]
-			"Player-60-064AA383", -- [12]
+			196, -- [11]
+			"Player-162-0A4E6BE8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeuss-Stormrage|r",
-			[51] = 1616202163,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Arksong|r",
+			[51] = 1616354872,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [70]
 		{
-			"{rt3}1", -- [1]
-			"Tonkatoyz-Dath'Remar", -- [2]
-			"Common", -- [3]
+			"Hey Updo we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Updo-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Tonkatoyz-Dath'Remar", -- [5]
+			"Updo-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			743, -- [11]
-			"Player-3726-0A1A0AF1", -- [12]
+			197, -- [11]
+			"Player-162-0B464741", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edTonkatoyz-Dath'Remar|r",
-			[51] = 1616202163,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Updo|r",
+			[51] = 1616354878,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [71]
 		{
-			"we did the thing", -- [1]
-			"Theyden-Garona", -- [2]
+			"Well luck for you im prot :P", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theyden-Garona", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			751, -- [11]
-			"Player-104-0B5F1AF9", -- [12]
+			198, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cTheyden-Garona|r",
-			[51] = 1616202190,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354907,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [72]
 		{
-			"\"its LFR\" bebe, dies TWO TIMES", -- [1]
-			"Riktux-Sargeras", -- [2]
+			"How did you like the buff warriors just got?", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			753, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			199, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202192,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354922,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [73]
 		{
-			"yikes", -- [1]
-			"Riktux-Sargeras", -- [2]
+			"Easier to keep threat?", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Riktux-Sargeras", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			755, -- [11]
-			"Player-76-0B25BB6F", -- [12]
+			200, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Riktux-Sargeras|r",
-			[51] = 1616202198,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354931,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [74]
 		{
-			"rez plz", -- [1]
-			"Leeløø-Mal'Ganis", -- [2]
+			"Well the dmg isnt even what I was most excited about. The rework of the Legendary \"Reprisal\"", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Leeløø-Mal'Ganis", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			758, -- [11]
-			"Player-3684-0A68789F", -- [12]
+			205, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Leeløø-Mal'Ganis|r",
-			[51] = 1616202205,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354971,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [75]
 		{
-			"lol i had 36 stacks of the buff dingle berry", -- [1]
-			"Papabearboi-Windrunner", -- [2]
+			"So nice", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papabearboi-Windrunner", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			759, -- [11]
-			"Player-113-0A524546", -- [12]
+			206, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Papabearboi-Windrunner|r",
-			[51] = 1616202207,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354973,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [76]
 		{
-			"Hey was |cffa335ee|Hitem:183036::::::::60:264::83:5:7186:6652:7193:1459:6646:1:28:750:::|h[Most Regal Signet of Sire Denathrius]|h|r an upgrade for you?", -- [1]
-			"Erissail-Aman'Thul", -- [2]
-			"Common", -- [3]
+			"Dmg is just icing on cake", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Erissail-Aman'Thul", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			807, -- [11]
-			"Player-3726-0BB81E2B", -- [12]
+			207, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Erissail-Aman'Thul|r",
-			[51] = 1616202256,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354978,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [77]
 		{
-			"Is it rational to believe in the scientific consensus?", -- [1]
-			"Vashishta-EmeraldDream", -- [2]
+			"Ya that Leggo seems awesome", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Vashishta-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			821, -- [11]
-			"Player-162-0B50DDB6", -- [12]
+			208, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaVashishta|r",
-			[51] = 1616202782,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354985,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [78]
 		{
-			"sometimes maybe", -- [1]
-			"Dokora-EmeraldDream", -- [2]
+			"Never tried it yet", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Dokora-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			855, -- [11]
-			"Player-162-0A577DC2", -- [12]
+			209, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edDokora|r",
-			[51] = 1616203059,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354990,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [79]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10829:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Arcing Aqueducts]|h|r!", -- [1]
-			"Biowolf-EmeraldDream", -- [2]
+			"But I am night fae anyways so my AoE burst/dmg is not a problem.", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biowolf-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			879, -- [11]
-			"Player-162-0B40B5B9", -- [12]
+			210, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Biowolf|r",
-			[51] = 1616203222,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354993,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [80]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10742:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Gluten Free]|h|r!", -- [1]
-			"Biowolf-EmeraldDream", -- [2]
+			"but seems op", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biowolf-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			880, -- [11]
-			"Player-162-0B40B5B9", -- [12]
+			211, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Biowolf|r",
-			[51] = 1616203222,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616354997,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [81]
 		{
-			"Is it rational to believe in the scientific consensus?", -- [1]
-			"Vashishta-EmeraldDream", -- [2]
+			"Sweet as mate, well ima send you an invite", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Vashishta-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			889, -- [11]
-			"Player-162-0B50DDB6", -- [12]
+			212, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaVashishta|r",
-			[51] = 1616204215,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355010,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [82]
 		{
-			"maybe", -- [1]
-			"Cheesypooffs-EmeraldDream", -- [2]
+			"Get to 60 asap!", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Cheesypooffs-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			890, -- [11]
-			"Player-162-0B502724", -- [12]
+			213, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeCheesypooffs|r",
-			[51] = 1616204234,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355015,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [83]
 		{
-			"hi", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
+			"Well now everyime you charge OR inntervene you get 4 seconds of shield block, a revenge proc and 20 rage", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			897, -- [11]
-			"Player-162-09CE598E", -- [12]
+			218, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616204496,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355018,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [84]
 		{
-			"about as much you sitting and spamming in wow all day", -- [1]
-			"Enmortalis-EmeraldDream", -- [2]
+			"Yes now you dont charge in and die immeediately with no rage", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Enmortalis-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			900, -- [11]
-			"Player-162-0A1556FC", -- [12]
+			219, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Enmortalis|r",
-			[51] = 1616204533,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355038,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [85]
 		{
-			"lol", -- [1]
-			"Vashishta-EmeraldDream", -- [2]
+			"Welcome aboard!", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Vashishta-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			901, -- [11]
-			"Player-162-0B50DDB6", -- [12]
+			225, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaVashishta|r",
-			[51] = 1616204567,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355050,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [86]
 		{
-			"I beleve most of the stuff for today is done", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
+			"Be sure to check out our progression plan posted at kokonutkrew.com", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			903, -- [11]
-			"Player-162-09CE598E", -- [12]
+			226, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616204606,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355084,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [87]
 		{
-			"lol found you sam", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
+			"Will do.", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			908, -- [11]
-			"Player-162-09CE598E", -- [12]
+			227, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616204859,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355094,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [88]
 		{
-			"I completely rebuilt my ui today lol", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
-			"Common", -- [3]
+			"and thanks :)", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Samoansage-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			915, -- [11]
-			"Player-162-0A01C9F2", -- [12]
+			228, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616205032,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355097,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [89]
 		{
-			"Trying to finish up the last little bits", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
-			"Common", -- [3]
+			"Np! Happy leveling", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Samoansage-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			916, -- [11]
-			"Player-162-0A01C9F2", -- [12]
+			229, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616205040,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355106,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [90]
 		{
-			"cool", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
-			"Common", -- [3]
+			"Ill be working on a few alts later", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Honustustere-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			917, -- [11]
-			"Player-162-09CE598E", -- [12]
+			230, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616205040,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355111,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [91]
 		{
-			"Looks really good", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
-			"Common", -- [3]
+			"If you wanna party sync", -- [1]
+			"Corogan-EmeraldDream", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Samoansage-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			918, -- [11]
-			"Player-162-0A01C9F2", -- [12]
+			231, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616205046,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355115,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [92]
 		{
-			"oo I got lucky with this que", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
+			"Sounds good", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			935, -- [11]
-			"Player-162-09CE598E", -- [12]
+			232, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616205753,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355120,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14306:Player-162-0B3CB319:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Explore Revendreth]|h|r!", -- [1]
-			"Ownre-EmeraldDream", -- [2]
+			"Just trying to get my ilvl up so i can spam dungeons", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ownre-EmeraldDream", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2, -- [11]
-			"Player-162-0B3CB319", -- [12]
+			237, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Ownre|r",
-			[51] = 1616209390,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355130,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [94]
 		{
-			"anyone need bags", -- [1]
-			"Dhogun-EmeraldDream", -- [2]
+			"Finish the covenant sanctum quests and do normal bgs", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
-			"4. LookingForGroup", -- [4]
-			"Dhogun-EmeraldDream", -- [5]
+			"", -- [4]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			10, -- [11]
-			"Player-162-0B209EA1", -- [12]
+			238, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edDhogun|r",
-			[51] = 1616209898,
-			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355155,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [95]
 		{
-			"Hey mate Im just popping on and off lol", -- [1]
-			"Samoansage-EmeraldDream", -- [2]
+			"I hit i197 in 2 days after hitting 60", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			40, -- [11]
-			"Player-162-0A01C9F2", -- [12]
+			239, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSamoansage|r",
-			[51] = 1616211137,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355171,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [96]
 		{
-			"ok", -- [1]
-			"Honustustere-EmeraldDream", -- [2]
+			"Then spamy mythic keystones", -- [1]
+			"Corogan-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Corogan-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			41, -- [11]
-			"Player-162-09CE598E", -- [12]
+			240, -- [11]
+			"Player-162-09D778DB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Honustustere|r",
-			[51] = 1616211163,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cCorogan|r",
+			[51] = 1616355180,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-162-0B3CB319:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
-			"Ownre-EmeraldDream", -- [2]
+			"Hey Torvrik we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Torvrik-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ownre-EmeraldDream", -- [5]
+			"Torvrik-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			64, -- [11]
-			"Player-162-0B3CB319", -- [12]
+			241, -- [11]
+			"Player-162-0991A251", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Ownre|r",
-			[51] = 1616213739,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffefefeTorvrik|r",
+			[51] = 1616355216,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [98]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14334:Player-162-0B40B5B9:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r!", -- [1]
-			"Biowolf-EmeraldDream", -- [2]
+			"Hey Namys we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out |cffffd100|HclubFinder:ClubFinder-1-238095-162-67326423|h[Guild: KokonutKrew]|h|r", -- [1]
+			"Namys-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Biowolf-EmeraldDream", -- [5]
+			"Namys-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			67, -- [11]
-			"Player-162-0B40B5B9", -- [12]
+			242, -- [11]
+			"Player-162-0B3ADC74", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Biowolf|r",
-			[51] = 1616214181,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Namys|r",
+			[51] = 1616355216,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [99]
 	},
 }

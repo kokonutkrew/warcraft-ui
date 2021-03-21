@@ -47,13 +47,13 @@ RematchSettings = {
 		},
 		["Script"] = {
 		},
-		["Types"] = {
+		["Moveset"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
-		["Similar"] = {
+		["Strong"] = {
 		},
 		["Sources"] = {
 		},
@@ -61,18 +61,18 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Strong"] = {
+		["Similar"] = {
 		},
-		["Level"] = {
+		["Collected"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Moveset"] = {
+		["Types"] = {
 		},
 	},
 	["ExpandedOptHeaders"] = {
 	},
-	["CustomScaleValue"] = 100,
+	["SelectedTab"] = 1,
 	["LevelingQueue"] = {
 	},
 	["SpecialSlots"] = {
@@ -83,13 +83,13 @@ RematchSettings = {
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
 	},
-	["ElvUIToastDefaulted"] = true,
-	["CornerPos"] = "BOTTOMLEFT",
-	["JournalPanel"] = 1,
 	["QueueSanctuary"] = {
 	},
+	["CornerPos"] = "BOTTOMLEFT",
+	["JournalPanel"] = 1,
+	["ElvUIToastDefaulted"] = true,
 	["YPos"] = 338,
-	["SelectedTab"] = 1,
+	["CustomScaleValue"] = 100,
 	["PetNotes"] = {
 	},
 }

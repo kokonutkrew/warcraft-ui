@@ -4,6 +4,11 @@ cosFixDB = {
 		["Samoanslayer - Emerald Dream"] = {
 			["lastModelId"] = 1011653,
 		},
+		["Threadcraft - Emerald Dream"] = {
+			["lastModelId"] = 1890765,
+			["isOnTaxi"] = false,
+			["lastActiveMount"] = 522,
+		},
 		["Samoansavage - Stormrage"] = {
 			["lastModelId"] = 917116,
 		},
@@ -17,6 +22,7 @@ cosFixDB = {
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
 		["Samoansavage - Stormrage"] = "Default",
 		["Samoansavage - Emerald Dream"] = "Default",
 		["Samoansage - Emerald Dream"] = "Default",

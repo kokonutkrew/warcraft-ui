@@ -2,32 +2,11 @@
 DynamicCamDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew",
-		["Samoansavage - Emerald Dream"] = "KokonutKrew",
 		["Samoansage - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+		["Threadcraft - Emerald Dream"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Default"] = {
-			["situations"] = {
-				["303"] = {
-				},
-				["302"] = {
-				},
-				["006"] = {
-				},
-				["060"] = {
-				},
-				["201"] = {
-				},
-				["100"] = {
-				},
-				["033"] = {
-				},
-				["023"] = {
-				},
-			},
-			["version"] = 2,
-			["firstRun"] = false,
-		},
 		["KokonutKrew"] = {
 			["advanced"] = true,
 			["version"] = 2,
@@ -94,24 +73,14 @@ DynamicCamDB = {
 				["033"] = {
 					["enabled"] = false,
 				},
-				["005"] = {
-					["cameraActions"] = {
-						["transitionTime"] = 1.1,
-						["zoomSetting"] = "in",
-						["zoomValue"] = 4,
-					},
-					["cameraCVars"] = {
-						["test_cameraOverShoulder"] = 1.2,
-						["test_cameraTargetFocusInteractEnable"] = 0,
-						["test_cameraHeadMovementStrength"] = 0.2,
-						["test_cameraTargetFocusEnemyEnable"] = 0,
-					},
+				["060"] = {
+					["enabled"] = false,
 				},
 				["002"] = {
 					["cameraActions"] = {
 						["transitionTime"] = 1.05,
 						["zoomSetting"] = "set",
-						["zoomValue"] = 3.5,
+						["zoomValue"] = 7,
 					},
 					["cameraCVars"] = {
 						["test_cameraDynamicPitchBaseFovPad"] = 0.11,
@@ -193,10 +162,20 @@ DynamicCamDB = {
 				["301"] = {
 					["enabled"] = false,
 				},
-				["060"] = {
-					["enabled"] = false,
+				["005"] = {
+					["cameraActions"] = {
+						["transitionTime"] = 1.1,
+						["zoomSetting"] = "in",
+						["zoomValue"] = 4,
+					},
+					["cameraCVars"] = {
+						["test_cameraOverShoulder"] = 1.2,
+						["test_cameraTargetFocusInteractEnable"] = 0,
+						["test_cameraHeadMovementStrength"] = 0.2,
+						["test_cameraTargetFocusEnemyEnable"] = 0,
+					},
 				},
-				["034"] = {
+				["031"] = {
 					["enabled"] = false,
 				},
 				["201"] = {
@@ -306,6 +285,9 @@ DynamicCamDB = {
 					},
 					["priority"] = 120,
 				},
+				["034"] = {
+					["enabled"] = false,
+				},
 				["101"] = {
 					["cameraActions"] = {
 						["rotateSpeed"] = 10,
@@ -322,9 +304,6 @@ DynamicCamDB = {
 					["extras"] = {
 						["hideUI"] = true,
 					},
-				},
-				["031"] = {
-					["enabled"] = false,
 				},
 			},
 			["defaultCvars"] = {

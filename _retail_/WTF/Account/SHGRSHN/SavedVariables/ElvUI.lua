@@ -2,6 +2,7 @@
 ElvDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Global)",
+		["Threadcraft - Emerald Dream"] = "KokonutKrew (Global)",
 		["Samoansavage - Stormrage"] = "KokonutKrew (Global)",
 		["Samoansavage - Emerald Dream"] = "KokonutKrew (Global)",
 		["Samoansage - Emerald Dream"] = "KokonutKrew (Global)",
@@ -14,6 +15,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "WARRIOR",
 			["Samoansavage"] = "ROGUE",
+			["Threadcraft"] = "MAGE",
 			["Samoansage"] = "SHAMAN",
 		},
 		["Stormrage"] = {
@@ -138,15 +140,15 @@ ElvDB = {
 				["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-6",
 				["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-198,-5",
 				["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUF_Focus,BOTTOMLEFT,0,-1",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,100",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,490,4",
 				["MirrorTimer3Mover"] = "TOP,MirrorTimer2,BOTTOM,0,0",
 				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,-150,300",
 				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-104",
 				["ZoneAbility"] = "BOTTOM,ElvUIParent,BOTTOM,150,300",
 				["SocialMenuMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
 				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,140",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,490,4",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,RightChatPanel,BOTTOMRIGHT,0,27",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,100",
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,243",
 				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-30",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,60",
@@ -156,37 +158,37 @@ ElvDB = {
 				["PowerBarContainerMover"] = "CENTER,ElvUIParent,TOP,0,-76",
 				["ElvUF_PetCastbarMover"] = "TOPLEFT,ElvUF_Pet,BOTTOMLEFT,0,-1",
 				["VehicleSeatMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
-				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,-1,-120",
+				["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
 				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,43",
 				["ShiftAB"] = "BOTTOM,ElvUIParent,BOTTOM,0,58",
-				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,100",
+				["ElvUIBankMover"] = "BOTTOMLEFT,LeftChatPanel,BOTTOMLEFT,0,27",
 				["MirrorTimer2Mover"] = "TOP,MirrorTimer1,BOTTOM,0,0",
 				["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,507",
-				["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
+				["LevelUpBossBannerMover"] = "TOP,ElvUIParent,TOP,-1,-120",
 				["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,140",
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,-1,191",
 				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
 				["BelowMinimapContainerMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-68,-190",
-				["ElvAB_4"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
 				["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,373",
+				["ElvAB_4"] = "RIGHT,ElvUIParent,RIGHT,-4,0",
 				["ElvAB_9"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,366",
 				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-37",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,-1,139",
-				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-279,4",
-				["VehicleLeaveButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,300",
 				["ReputationBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-86,-306",
+				["VehicleLeaveButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,300",
+				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-279,4",
 				["DurabilityFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,141,-4",
 				["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-127,-332",
 				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-86,-253",
 				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,250,-82",
-				["ElvUIBankMover"] = "BOTTOMLEFT,LeftChatPanel,BOTTOMLEFT,0,27",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,100",
 				["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-85,-319",
 				["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,264",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-342,472",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-187",
 				["BossHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,RIGHT,-106,-166",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,RightChatPanel,BOTTOMRIGHT,0,27",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-342,140",
 				["ElvAB_7"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,298",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,269",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-1,-19",
@@ -198,15 +200,18 @@ ElvDB = {
 				["fontSize"] = 14,
 				["headerFontSize"] = 14,
 				["cursorAnchor"] = true,
+				["cursorAnchorType"] = "ANCHOR_CURSOR_RIGHT",
+				["cursorAnchorX"] = 128,
 				["healthBar"] = {
 					["font"] = "Expressway",
 					["fontOutline"] = "NONE",
 					["height"] = 12,
 					["fontSize"] = 12,
 				},
+				["alwaysShowRealm"] = true,
 				["textFontSize"] = 14,
 				["font"] = "Expressway",
-				["alwaysShowRealm"] = true,
+				["cursorAnchorY"] = -128,
 				["smallTextFontSize"] = 14,
 			},
 			["layoutSetting"] = "healer",
@@ -244,39 +249,24 @@ ElvDB = {
 							["yOffset"] = 0,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["debuffs"] = {
-							["attachTo"] = "BUFFS",
-						},
-						["healPrediction"] = {
-							["showOverAbsorbs"] = false,
-						},
-						["disableMouseoverGlow"] = true,
-						["height"] = 82,
-						["buffs"] = {
-							["enable"] = true,
-							["attachTo"] = "FRAME",
-						},
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["aurabar"] = {
-							["enable"] = false,
-						},
-						["power"] = {
-							["attachTextTo"] = "InfoPanel",
-							["height"] = 22,
-						},
-						["health"] = {
-							["attachTextTo"] = "InfoPanel",
-						},
-						["classbar"] = {
-							["height"] = 14,
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["maxDuration"] = 300,
 						},
 						["castbar"] = {
-							["insideInfoPanel"] = false,
-							["width"] = 405,
-							["height"] = 40,
+							["width"] = 246,
+						},
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
 						},
 					},
 					["raid40"] = {
@@ -358,24 +348,39 @@ ElvDB = {
 						},
 						["width"] = 231,
 					},
-					["boss"] = {
+					["player"] = {
 						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["maxDuration"] = 300,
+							["attachTo"] = "BUFFS",
+						},
+						["healPrediction"] = {
+							["showOverAbsorbs"] = false,
+						},
+						["disableMouseoverGlow"] = true,
+						["height"] = 82,
+						["buffs"] = {
+							["enable"] = true,
+							["attachTo"] = "FRAME",
+						},
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["height"] = 22,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+						},
+						["classbar"] = {
+							["height"] = 14,
 						},
 						["castbar"] = {
-							["width"] = 246,
-						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
+							["insideInfoPanel"] = false,
+							["width"] = 405,
+							["height"] = 40,
 						},
 					},
 				},
@@ -569,6 +574,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = "Alliance",
 			["Samoansavage"] = "Alliance",
+			["Threadcraft"] = "Alliance",
 			["Samoansage"] = "Alliance",
 		},
 		["Stormrage"] = {
@@ -579,6 +585,7 @@ ElvDB = {
 		["Emerald Dream"] = {
 			["Samoanslayer"] = 24943663,
 			["Samoansavage"] = 102548549,
+			["Threadcraft"] = 2639733,
 			["Samoansage"] = 113442582,
 		},
 		["Stormrage"] = {
@@ -653,11 +660,18 @@ ElvDB = {
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "KokonutKrew (Private)",
+		["Threadcraft - Emerald Dream"] = "KokonutKrew (Private)",
 		["Samoansavage - Stormrage"] = "KokonutKrew (Private)",
 		["Samoansavage - Emerald Dream"] = "KokonutKrew (Private)",
 		["Samoansage - Emerald Dream"] = "KokonutKrew (Private)",
 	},
 	["profiles"] = {
+		["Threadcraft - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Samoansavage - Stormrage"] = {
+			["install_complete"] = 12.23,
+		},
 		["KokonutKrew (Private)"] = {
 			["general"] = {
 				["minimap"] = {
@@ -670,10 +684,10 @@ ElvPrivateDB = {
 				["enable"] = false,
 				["disabledBlizzardFrames"] = {
 					["player"] = false,
-					["arena"] = false,
+					["raid"] = false,
 					["focus"] = false,
 					["target"] = false,
-					["raid"] = false,
+					["arena"] = false,
 					["party"] = false,
 					["boss"] = false,
 				},
@@ -682,9 +696,6 @@ ElvPrivateDB = {
 				["enable"] = false,
 			},
 			["theme"] = "class",
-			["install_complete"] = 12.23,
-		},
-		["Samoansavage - Stormrage"] = {
 			["install_complete"] = 12.23,
 		},
 		["Samoansavage - Emerald Dream"] = {

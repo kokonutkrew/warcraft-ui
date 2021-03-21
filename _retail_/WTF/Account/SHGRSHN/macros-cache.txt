@@ -66,6 +66,7 @@ VER 3 00000000000000CB "a-06 Star" "252269"
 END
 VER 3 00000000000000AE "a-07 Drink" "132807"
 /oom
+/use conjured mana strudel
 /use conjured mana lollipop
 /use conjured mana brownie
 /use conjured mana bun
@@ -240,6 +241,9 @@ VER 3 00000000000000BC "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMSniperBtn
 /click TSMCraftingBtn
 /click TSMAuctioningBtn
+END
+VER 3 00000000000000D0 "uiClique" "INV_MISC_QUESTIONMARK"
+/clique
 END
 VER 3 000000000000005B "uRing11" "133385"
 #showtooltip

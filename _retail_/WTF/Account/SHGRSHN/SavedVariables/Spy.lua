@@ -7,6 +7,8 @@ SpyDB = {
 				},
 				["Samoansavage"] = {
 				},
+				["Threadcraft"] = {
+				},
 				["Samoansage"] = {
 				},
 			},
@@ -20,6 +22,7 @@ SpyDB = {
 	},
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
@@ -34,6 +37,26 @@ SpyDB = {
 				},
 			},
 			["AppendUnitKoSCheck"] = true,
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 308.8518676757813,
+					["x"] = 1559.907470703125,
+					["w"] = 198.9999237060547,
+					["h"] = 35.00000762939453,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+			["MainWindowVis"] = false,
 		},
 		["Samoansavage - Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,

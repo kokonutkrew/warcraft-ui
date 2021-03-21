@@ -1,5 +1,18 @@
 
 PrettyRepsDB = {
+	["Options"] = {
+		["Enabled"] = true,
+		["ParagonIconsRewardOnly"] = true,
+		["GroupTotals"] = true,
+		["HideUnobtainableGroup"] = false,
+		["HideInactiveGroup"] = false,
+		["ShowParagonIcons"] = true,
+		["UseUnobtainableGroup"] = true,
+		["ShowNameOnHover"] = false,
+		["HideOppositeFaction"] = true,
+		["ShowParagonBars"] = true,
+		["ShowGuild"] = true,
+	},
 	["Structure"] = {
 		{
 			["hasBonusRepGain"] = false,
@@ -271,27 +284,27 @@ PrettyRepsDB = {
 					["hasEncountered"] = true,
 					["description"] = "Under the leadership of five powerful exarchs, the draenei of Draenor have prospered in a savage world.",
 					["isExpansion"] = false,
-					["bottomValue"] = 3000,
+					["bottomValue"] = 9000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
-					["standingID"] = 5,
+					["standingID"] = 6,
 					["internalIndex"] = 15,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["atWarWith"] = false,
 					["isWatched"] = false,
-					["colorIndex"] = 5,
+					["colorIndex"] = 6,
 					["isAlliance"] = true,
 					["canToggleAtWar"] = false,
-					["factionStandingtext"] = "Friendly",
+					["factionStandingtext"] = "Honored",
 					["isActive"] = true,
 					["factionID"] = 1731,
 					["isChild"] = true,
 					["isMaxed"] = false,
 					["name"] = "Council of Exarchs",
-					["earnedValue"] = 7400,
+					["earnedValue"] = 12025,
 					["hasRep"] = false,
-					["playerName"] = "Samoanslayer",
-					["topValue"] = 9000,
+					["playerName"] = "Threadcraft",
+					["topValue"] = 21000,
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -313,9 +326,9 @@ PrettyRepsDB = {
 					["hasRep"] = false,
 					["name"] = "Hand of the Prophet",
 					["isAlliance"] = true,
-					["isChild"] = true,
-					["earnedValue"] = 4650,
 					["topValue"] = 9000,
+					["earnedValue"] = 4650,
+					["isChild"] = true,
 				}, -- [3]
 				{
 					["factionID"] = 1445,
@@ -464,8 +477,8 @@ PrettyRepsDB = {
 					["name"] = "Golden Lotus",
 					["hasRep"] = false,
 					["earnedValue"] = 242,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [3]
 				{
 					["factionID"] = 1387,
@@ -502,8 +515,8 @@ PrettyRepsDB = {
 					["name"] = "Order of the Cloud Serpent",
 					["hasRep"] = false,
 					["earnedValue"] = 3000,
-					["isChild"] = true,
 					["topValue"] = 9000,
+					["isChild"] = true,
 				}, -- [7]
 				{
 					["hasBonusRepGain"] = false,
@@ -694,8 +707,8 @@ PrettyRepsDB = {
 					["name"] = "Avengers of Hyjal",
 					["hasRep"] = false,
 					["earnedValue"] = 2800,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [1]
 				{
 					["factionID"] = 1177,
@@ -727,8 +740,8 @@ PrettyRepsDB = {
 					["name"] = "Guardians of Hyjal",
 					["hasRep"] = false,
 					["earnedValue"] = 0,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [4]
 				{
 					["factionID"] = 1178,
@@ -824,31 +837,31 @@ PrettyRepsDB = {
 					["name"] = "Argent Crusade",
 					["hasRep"] = false,
 					["earnedValue"] = 0,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [1]
 				{
 					["hasBonusRepGain"] = false,
 					["description"] = "The mages and archmages running the city of Dalaran.  Faced with the rising threats of the Blue Dragonflight and the Scourge, they've transported their city to the heart of Northrend.",
 					["isExpansion"] = false,
-					["bottomValue"] = 0,
+					["bottomValue"] = 3000,
 					["isLayoutChild"] = false,
 					["isHeader"] = false,
-					["standingID"] = 4,
+					["standingID"] = 5,
 					["isMaxed"] = false,
 					["atWarWith"] = false,
 					["isWatched"] = false,
-					["colorIndex"] = 4,
-					["playerName"] = "Samoansavage",
-					["factionStandingtext"] = "Neutral",
+					["colorIndex"] = 5,
+					["playerName"] = "Threadcraft",
+					["factionStandingtext"] = "Friendly",
 					["isActive"] = true,
 					["factionID"] = 1090,
 					["parent"] = nil --[[ skipped recursive table ]],
 					["name"] = "Kirin Tor",
 					["hasRep"] = false,
-					["earnedValue"] = 715,
+					["earnedValue"] = 3000,
 					["isChild"] = true,
-					["topValue"] = 3000,
+					["topValue"] = 9000,
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -904,8 +917,8 @@ PrettyRepsDB = {
 					["name"] = "The Sons of Hodir",
 					["hasRep"] = false,
 					["earnedValue"] = -40960,
-					["isChild"] = true,
 					["topValue"] = -6000,
+					["isChild"] = true,
 				}, -- [6]
 				{
 					["hasBonusRepGain"] = false,
@@ -927,8 +940,8 @@ PrettyRepsDB = {
 					["name"] = "The Wyrmrest Accord",
 					["hasRep"] = false,
 					["earnedValue"] = 2002,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [7]
 				{
 					["hasBonusRepGain"] = false,
@@ -964,8 +977,8 @@ PrettyRepsDB = {
 							["name"] = "Explorers' League",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
-							["isChild"] = true,
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
@@ -987,8 +1000,8 @@ PrettyRepsDB = {
 							["name"] = "The Frostborn",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
-							["isChild"] = true,
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [2]
 						{
 							["hasBonusRepGain"] = false,
@@ -1010,8 +1023,8 @@ PrettyRepsDB = {
 							["name"] = "The Silver Covenant",
 							["hasRep"] = false,
 							["earnedValue"] = 375,
-							["isChild"] = true,
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -1147,8 +1160,8 @@ PrettyRepsDB = {
 					["name"] = "Cenarion Expedition",
 					["hasRep"] = false,
 					["earnedValue"] = 2741,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [2]
 				{
 					["hasBonusRepGain"] = false,
@@ -1170,9 +1183,9 @@ PrettyRepsDB = {
 					["hasRep"] = false,
 					["name"] = "Honor Hold",
 					["isAlliance"] = true,
-					["isChild"] = true,
-					["earnedValue"] = 11463,
 					["topValue"] = 21000,
+					["earnedValue"] = 11463,
+					["isChild"] = true,
 				}, -- [3]
 				{
 					["hasBonusRepGain"] = false,
@@ -1233,8 +1246,8 @@ PrettyRepsDB = {
 					["name"] = "Sporeggar",
 					["hasRep"] = false,
 					["earnedValue"] = 1681,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [8]
 				{
 					["hasBonusRepGain"] = false,
@@ -1256,8 +1269,8 @@ PrettyRepsDB = {
 					["name"] = "The Consortium",
 					["hasRep"] = false,
 					["earnedValue"] = 1753,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [9]
 				{
 					["factionID"] = 941,
@@ -1366,8 +1379,8 @@ PrettyRepsDB = {
 					["name"] = "Bloodsail Buccaneers",
 					["hasRep"] = false,
 					["earnedValue"] = -11050,
-					["isChild"] = true,
 					["topValue"] = -6000,
+					["isChild"] = true,
 				}, -- [2]
 				{
 					["name"] = "Brood of Nozdormu",
@@ -1393,8 +1406,8 @@ PrettyRepsDB = {
 					["name"] = "Cenarion Circle",
 					["hasRep"] = false,
 					["earnedValue"] = 165,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [4]
 				{
 					["hasBonusRepGain"] = false,
@@ -1446,8 +1459,8 @@ PrettyRepsDB = {
 					["name"] = "Hydraxian Waterlords",
 					["hasRep"] = false,
 					["earnedValue"] = 60,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [7]
 				{
 					["name"] = "Magram Clan Centaur",
@@ -1487,8 +1500,8 @@ PrettyRepsDB = {
 					["name"] = "Thorium Brotherhood",
 					["hasRep"] = false,
 					["earnedValue"] = 5324,
-					["isChild"] = true,
 					["topValue"] = 9000,
+					["isChild"] = true,
 				}, -- [12]
 				{
 					["name"] = "Timbermaw Hold",
@@ -1541,8 +1554,8 @@ PrettyRepsDB = {
 					["name"] = "Zandalar Tribe",
 					["hasRep"] = false,
 					["earnedValue"] = 0,
-					["isChild"] = true,
 					["topValue"] = 3000,
+					["isChild"] = true,
 				}, -- [15]
 				{
 					["hasBonusRepGain"] = false,
@@ -1975,8 +1988,8 @@ PrettyRepsDB = {
 							["name"] = "Booty Bay",
 							["hasRep"] = false,
 							["earnedValue"] = 4858,
-							["isChild"] = true,
 							["topValue"] = 9000,
+							["isChild"] = true,
 						}, -- [1]
 						{
 							["hasBonusRepGain"] = false,
@@ -2021,8 +2034,8 @@ PrettyRepsDB = {
 							["name"] = "Gadgetzan",
 							["hasRep"] = false,
 							["earnedValue"] = 2679,
-							["isChild"] = true,
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [3]
 						{
 							["hasBonusRepGain"] = false,
@@ -2044,8 +2057,8 @@ PrettyRepsDB = {
 							["name"] = "Ratchet",
 							["hasRep"] = false,
 							["earnedValue"] = 2679,
-							["isChild"] = true,
 							["topValue"] = 3000,
+							["isChild"] = true,
 						}, -- [4]
 					},
 					["parent"] = nil --[[ skipped recursive table ]],
@@ -2055,13 +2068,13 @@ PrettyRepsDB = {
 					["factionStandingtext"] = "Neutral",
 					["isActive"] = true,
 					["factionID"] = 169,
-					["atWarWith"] = false,
-					["isChild"] = true,
-					["name"] = "Steamwheedle Cartel",
 					["hasRep"] = false,
-					["earnedValue"] = 2679,
-					["colorIndex"] = 4,
 					["topValue"] = 3000,
+					["name"] = "Steamwheedle Cartel",
+					["earnedValue"] = 2679,
+					["atWarWith"] = false,
+					["colorIndex"] = 4,
+					["isChild"] = true,
 				}, -- [20]
 			},
 			["isExpansion"] = true,
@@ -2080,19 +2093,6 @@ PrettyRepsDB = {
 			["playerName"] = "Samoansage",
 			["topValue"] = 3000,
 		}, -- [8]
-	},
-	["Options"] = {
-		["Enabled"] = true,
-		["ParagonIconsRewardOnly"] = true,
-		["GroupTotals"] = true,
-		["HideUnobtainableGroup"] = false,
-		["HideInactiveGroup"] = false,
-		["ShowParagonIcons"] = true,
-		["UseUnobtainableGroup"] = true,
-		["ShowNameOnHover"] = false,
-		["HideOppositeFaction"] = true,
-		["ShowParagonBars"] = true,
-		["ShowGuild"] = true,
 	},
 	["Headers"] = {
 		["Unobtainable"] = false,

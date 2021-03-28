@@ -31,7 +31,7 @@ RaiderIO_Config = {
 	["showScoreModifier"] = false,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Samoansage-emerald-dream"
+RaiderIO_LastCharacter = "us-Samoansavage-emerald-dream"
 RaiderIO_MissingCharacters = {
 }
 RaiderIO_CachedRuns = nil

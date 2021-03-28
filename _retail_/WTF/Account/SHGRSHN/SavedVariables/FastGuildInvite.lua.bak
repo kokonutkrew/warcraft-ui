@@ -1,5 +1,51 @@
 
 FGI_DB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Emerald Dream"] = {
+			["search"] = {
+				["state"] = "stop",
+				["tempSendedInvites"] = {
+				},
+				["whoQueryList"] = {
+					"1-30", -- [1]
+					"31-45", -- [2]
+					"46-52", -- [3]
+					"53-56", -- [4]
+					"57-58", -- [5]
+					"59-59", -- [6]
+					"60-60 r-\"Draenei\"", -- [7]
+					"60-60 r-\"Night Elf\"", -- [8]
+					"60-60 r-\"Kul Tiran\"", -- [9]
+					"60-60 r-\"Gnome\"", -- [10]
+					"60-60 r-\"Dwarf\"", -- [11]
+					"60-60 r-\"Mechagnome\"", -- [12]
+					"60-60 r-\"Worgen\"", -- [13]
+					"60-60 r-\"Void Elf\"", -- [14]
+					"60-60 r-\"Pandaren\"", -- [15]
+					"60-60 r-\"Human\"", -- [16]
+					"60-60 r-\"Lightforged Draenei\"", -- [17]
+					"60-60 r-\"Dark Iron Dwarf\"", -- [18]
+				},
+				["progress"] = 14,
+				["timeShift"] = 0,
+				["inviteList"] = {
+				},
+				["oldCount"] = 0,
+			},
+			["messageList"] = {
+				"Hey NAME we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out GUILDLINK", -- [1]
+			},
+		},
+	},
 	["global"] = {
 		["scanFrame"] = {
 			["yOfs"] = -227.5555267333984,
@@ -20,37 +66,6 @@ FGI_DB = {
 		["inviteType"] = 3,
 		["introShow"] = false,
 	},
-	["factionrealm"] = {
-		["Alliance - Emerald Dream"] = {
-			["search"] = {
-				["state"] = "stop",
-				["tempSendedInvites"] = {
-				},
-				["whoQueryList"] = {
-					"1-30", -- [1]
-					"31-45", -- [2]
-					"46-52", -- [3]
-					"53-56", -- [4]
-					"57-58", -- [5]
-					"59-60", -- [6]
-				},
-				["progress"] = 5,
-				["timeShift"] = 0,
-				["inviteList"] = {
-				},
-				["oldCount"] = 0,
-			},
-			["messageList"] = {
-				"Hey NAME we're looking for Tanks/Heals to fill core raid slots for Heroic Castle Nathria. We're 9/10H and pushing for Mythic. Check us out GUILDLINK", -- [1]
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoansage - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
-		["Threadcraft - Emerald Dream"] = "Default",
-	},
 	["realm"] = {
 		["Emerald Dream"] = {
 			["blackList"] = {
@@ -58,110 +73,38 @@ FGI_DB = {
 				["Fynn"] = "no reason",
 			},
 			["alreadySended"] = {
-				["Feosol"] = 1616176800,
-				["Belmarolla-EmeraldDream"] = 1616176800,
-				["Eilonwÿ"] = 1616349600,
-				["Endar"] = 1616176800,
-				["Fabienna-EmeraldDream"] = 1616176800,
-				["Mellark"] = 1616176800,
-				["Ispyn"] = 1616349600,
-				["Lomblern"] = 1616176800,
-				["Eliolan"] = 1616176800,
-				["Killyor-EmeraldDream"] = 1616349600,
-				["Minarik"] = 1616349600,
-				["Squeege"] = 1616176800,
-				["Ragethorn"] = 1616176800,
-				["Locka"] = 1616176800,
-				["Pennellope"] = 1616349600,
-				["Borkcullis"] = 1616176800,
-				["Saraì"] = 1616176800,
-				["Makigoy"] = 1616176800,
-				["Recyclõps"] = 1616176800,
-				["Zarraela"] = 1616349600,
-				["Anasine"] = 1616176800,
-				["Namys"] = 1616349600,
-				["Vytil"] = 1616176800,
-				["Torvrik"] = 1616349600,
-				["Airitreya"] = 1616176800,
-				["Fluorino"] = 1616176800,
-				["Killernat"] = 1616349600,
-				["Lålå"] = 1616176800,
-				["Sharasynn"] = 1616176800,
-				["Ashmire"] = 1616176800,
-				["Spanner"] = 1616176800,
-				["Blgriptide"] = 1616349600,
-				["Emboss"] = 1616176800,
-				["Sonia"] = 1616176800,
-				["Ohnoway"] = 1616176800,
-				["Connorkane"] = 1616176800,
-				["Saelila"] = 1616349600,
-				["Baravar"] = 1616349600,
-				["Helura"] = 1616176800,
-				["Heie"] = 1616349600,
-				["Schalala"] = 1616176800,
-				["Rachels-EmeraldDream"] = 1616176800,
-				["Pykle"] = 1616176800,
-				["Dros"] = 1616349600,
-				["Sucie"] = 1616176800,
-				["Bearshaker"] = 1616176800,
-				["Høllywood"] = 1616176800,
-				["Shrimpey"] = 1616176800,
-				["Shmoon"] = 1616349600,
-				["Dazedthree"] = 1616349600,
-				["Jonystardron"] = 1616349600,
-				["Silencious"] = 1616349600,
-				["Fabienna"] = 1616176800,
-				["Ruqayyah"] = 1616349600,
-				["Kalmodon"] = 1616349600,
-				["Momoargyle"] = 1616176800,
-				["Fynn"] = 1616176800,
-				["Zurrenea"] = 1616349600,
-				["Grimcroft"] = 1616176800,
-				["Birakaz"] = 1616176800,
-				["Ratkingz"] = 1616176800,
-				["Apøcalypse"] = 1616176800,
-				["Erthal"] = 1616176800,
-				["Thoriuum"] = 1616176800,
-				["Zyrlo"] = 1616349600,
-				["Updo"] = 1616349600,
-				["Caylek"] = 1616176800,
-				["Svallen"] = 1616176800,
-				["Soggyceareal"] = 1616176800,
-				["Xangerve"] = 1616176800,
-				["Solow"] = 1616349600,
-				["Mysiaa"] = 1616349600,
-				["Dhise"] = 1616349600,
-				["Dalelin"] = 1616176800,
-				["Tularrana"] = 1616176800,
-				["Khettle"] = 1616349600,
-				["Zawz"] = 1616176800,
-				["Wbaldomer"] = 1616349600,
-				["Piedras"] = 1616349600,
-				["Coockiew"] = 1616349600,
-				["Corogan"] = 1616349600,
-				["Simplean"] = 1616349600,
-				["Yewosogr"] = 1616176800,
-				["Fatbatman"] = 1616176800,
-				["Belmarolla"] = 1616176800,
-				["Killyor"] = 1616349600,
-				["Jacorlon"] = 1616349600,
-				["Keidalten"] = 1616176800,
-				["Vineleaf"] = 1616349600,
-				["Anderson"] = 1616349600,
-				["Flammarion"] = 1616176800,
-				["Ckamay"] = 1616176800,
-				["Kenherbi"] = 1616349600,
-				["Luvpoozy"] = 1616349600,
-				["Renova"] = 1616349600,
-				["Grashoppa"] = 1616349600,
-				["Thorvaldyr"] = 1616349600,
-				["Rachels"] = 1616176800,
-				["Jaarrol"] = 1616349600,
-				["Chenchen"] = 1616176800,
-				["Arksong"] = 1616349600,
-				["Corogan-EmeraldDream"] = 1616349600,
-				["Streets"] = 1616176800,
-				["Thehexed"] = 1616176800,
+				["Trillist"] = 1616695200,
+				["Demonâtrix"] = 1616781600,
+				["Xhavius"] = 1616781600,
+				["Auranarra"] = 1616695200,
+				["Shogue"] = 1616695200,
+				["Hallucinant"] = 1616781600,
+				["Tarynn"] = 1616695200,
+				["Mariennia-EmeraldDream"] = 1616695200,
+				["Mikewho"] = 1616695200,
+				["Shiik"] = 1616695200,
+				["Bödat"] = 1616695200,
+				["Tenshe"] = 1616781600,
+				["Eviandiir"] = 1616781600,
+				["Nöctìs"] = 1616695200,
+				["Loresta"] = 1616781600,
+				["Errâ"] = 1616695200,
+				["Ramzii"] = 1616695200,
+				["Gunderthol"] = 1616695200,
+				["Sararlathana"] = 1616781600,
+				["Thoughtseize"] = 1616781600,
+				["Tagliatélle"] = 1616781600,
+				["Throrim"] = 1616781600,
+				["Grandmamama"] = 1616781600,
+				["Migoryn"] = 1616781600,
+				["Coramir"] = 1616695200,
+				["Rachels"] = 1616781600,
+				["Banubran"] = 1616695200,
+				["Lechuzox"] = 1616781600,
+				["Menapaws"] = 1616781600,
+				["Rothar"] = 1616695200,
+				["Savorybits"] = 1616695200,
+				["Eviandiir-EmeraldDream"] = 1616781600,
 			},
 		},
 	},
@@ -169,9 +112,12 @@ FGI_DB = {
 FGI_DEBUG = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
 	["global"] = {
 		{

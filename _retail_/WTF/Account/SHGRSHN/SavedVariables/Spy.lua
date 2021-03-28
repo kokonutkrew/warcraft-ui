@@ -5,11 +5,21 @@ SpyDB = {
 			["Alliance"] = {
 				["Samoanslayer"] = {
 				},
-				["Samoansavage"] = {
-				},
 				["Threadcraft"] = {
 				},
 				["Samoansage"] = {
+				},
+				["Samoansavage"] = {
+				},
+				["Samoanranger"] = {
+				},
+				["Mf"] = {
+				},
+			},
+		},
+		["Stormrage"] = {
+			["Alliance"] = {
+				["Samoantitan"] = {
 				},
 			},
 		},
@@ -19,48 +29,20 @@ SpyDB = {
 			["Alliance"] = {
 			},
 		},
+		["Stormrage"] = {
+			["Alliance"] = {
+			},
+		},
 	},
 	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
-		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Emerald Dream",
 		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "KokonutKrew",
 	},
 	["profiles"] = {
-		["Samoanslayer - Emerald Dream"] = {
+		["Emerald Dream"] = {
 			["AppendUnitNameCheck"] = true,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["AppendUnitKoSCheck"] = true,
-		},
-		["Threadcraft - Emerald Dream"] = {
-			["AppendUnitNameCheck"] = true,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 308.8518676757813,
-					["x"] = 1559.907470703125,
-					["w"] = 198.9999237060547,
-					["h"] = 35.00000762939453,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["AppendUnitKoSCheck"] = true,
-			["MainWindowVis"] = false,
-		},
-		["Samoansavage - Emerald Dream"] = {
-			["AppendUnitNameCheck"] = true,
-			["MainWindowVis"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -71,14 +53,18 @@ SpyDB = {
 			["AppendUnitKoSCheck"] = true,
 		},
 		["Samoansage - Emerald Dream"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 147.0000152587891,
-					["x"] = 1640.742065429688,
-					["w"] = 160.0001068115234,
-					["h"] = 147.0000152587891,
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
 				},
 			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoansavage - Emerald Dream"] = {
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -89,6 +75,33 @@ SpyDB = {
 			["AppendUnitNameCheck"] = true,
 			["MainWindowVis"] = false,
 			["AppendUnitKoSCheck"] = true,
+		},
+		["KokonutKrew"] = {
+			["InvertSpy"] = true,
+			["MainWindow"] = {
+				["AlphaBG"] = 0.9,
+				["Alpha"] = 0.6,
+				["Position"] = {
+					["y"] = 0,
+					["x"] = 1639.555297851563,
+					["w"] = 159.9999542236328,
+					["h"] = 34.00002288818359,
+				},
+			},
+			["PurgeData"] = "OneDay",
+			["AppendUnitNameCheck"] = true,
+			["Font"] = "Arial Narrow",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+			["Locked"] = true,
+			["DisplayListData"] = "NameGuild",
+			["MainWindowVis"] = false,
 		},
 	},
 }

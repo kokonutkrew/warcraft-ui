@@ -1,5 +1,9 @@
 
 SpyPerCharDB = {
+	["KOSData"] = {
+	},
+	["IgnoreData"] = {
+	},
 	["PlayerData"] = {
 		["Bounga"] = {
 			["mapID"] = 542,
@@ -9,16 +13,12 @@ SpyPerCharDB = {
 			["isEnemy"] = true,
 			["mapX"] = 0.46,
 			["isGuess"] = true,
-			["time"] = 1616287800,
-			["subZone"] = "Veil Terokk",
-			["level"] = 10,
-			["race"] = "Orc",
 			["name"] = "Bounga",
+			["race"] = "Orc",
+			["level"] = 10,
+			["subZone"] = "Veil Terokk",
+			["time"] = 1616287800,
 		},
 	},
-	["IgnoreData"] = {
-	},
 	["version"] = "1.1",
-	["KOSData"] = {
-	},
 }

@@ -1,0 +1,21 @@
+
+MacroToolkitDB = {
+	["profileKeys"] = {
+		["Samoanranger - Emerald Dream"] = "profile",
+		["Mf - Emerald Dream"] = "profile",
+		["Samoantitan - Stormrage"] = "profile",
+		["Threadcraft - Emerald Dream"] = "profile",
+		["Samoansavage - Emerald Dream"] = "profile",
+		["Samoansage - Emerald Dream"] = "profile",
+	},
+	["global"] = {
+		["ebackups"] = {
+		},
+		["backups"] = {
+		},
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

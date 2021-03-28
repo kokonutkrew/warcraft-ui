@@ -31,10 +31,8 @@ RaiderIO_Config = {
 	["showRaiderIOProfile"] = true,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Samoansage-emerald-dream"
+RaiderIO_LastCharacter = "us-Samoansavage-emerald-dream"
 RaiderIO_MissingCharacters = {
-	["us-Gimilt-emerald-dream"] = true,
-	["us-Samoanbatman-emerald-dream"] = true,
-	["us-Herbcraft-emerald-dream"] = true,
+	["us-Vellanore-emerald-dream"] = true,
 }
 RaiderIO_CachedRuns = nil

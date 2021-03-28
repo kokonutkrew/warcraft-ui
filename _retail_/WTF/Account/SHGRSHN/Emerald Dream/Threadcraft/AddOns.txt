@@ -87,6 +87,9 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
-AAP-Core: disabled
-AAP-EasternKingdoms: disabled
-AAP-Shadowlands: disabled
+AAP-Core: enabled
+AAP-EasternKingdoms: enabled
+AAP-Shadowlands: enabled
+MacroToolkit: enabled
+MacroToolkitIcons: enabled
+Myslot: enabled

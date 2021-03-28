@@ -2,16 +2,28 @@
 DeathNoteDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
 	},
 	["profiles"] = {
 		["Samoanslayer - Emerald Dream"] = {
 		},
-		["Samoansage - Emerald Dream"] = {
-			["searchbox_text"] = "",
+		["Samoantitan - Stormrage"] = {
 		},
 		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+			["searchbox_text"] = "",
 		},
 	},
 }

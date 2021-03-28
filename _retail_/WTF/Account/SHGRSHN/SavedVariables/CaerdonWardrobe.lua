@@ -12,21 +12,24 @@ CaerdonWardrobeConfig = {
 			["GuildBank"] = true,
 		},
 	},
+	["Debug"] = {
+		["Enabled"] = false,
+	},
 	["Icon"] = {
 		["ShowLearnableByOther"] = {
 			["Merchant"] = true,
 			["GuildBank"] = true,
 			["BankAndBags"] = true,
 			["EncounterJournal"] = true,
-			["Auction"] = true,
 			["SameLookDifferentItem"] = false,
+			["Auction"] = true,
 		},
 		["ShowLearnable"] = {
 			["Auction"] = true,
 			["GuildBank"] = true,
 			["SameLookDifferentItem"] = false,
-			["Merchant"] = true,
 			["BankAndBags"] = true,
+			["Merchant"] = true,
 		},
 		["EnableAnimation"] = true,
 		["Position"] = "TOPLEFT",
@@ -44,7 +47,4 @@ CaerdonWardrobeConfig = {
 		},
 	},
 	["Version"] = 11,
-	["Debug"] = {
-		["Enabled"] = false,
-	},
 }

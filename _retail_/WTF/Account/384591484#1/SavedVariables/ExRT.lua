@@ -72,6 +72,7 @@ VExRT = {
 	["ExCD2"] = {
 		["gnGUIDs"] = {
 			["Samoanbatman"] = 581,
+			["Hoodnaga-Sargeras"] = 269,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -265,23 +266,10 @@ VExRT = {
 		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["LootHistory"] = {
-		["instanceNames"] = {
-		},
-		["bossNames"] = {
-		},
-		["list"] = {
-		},
-	},
 	["Profiles"] = {
 	},
 	["BattleRes"] = {
 		["Strata"] = "HIGH",
-	},
-	["Addon"] = {
-		["Timer"] = 0.1,
-		["Version"] = 4500,
-		["PreVersion"] = 0,
 	},
 	["Note"] = {
 		["BlackNames"] = {
@@ -302,6 +290,11 @@ VExRT = {
 		},
 		["OptionsFormatting"] = true,
 	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["Version"] = 4500,
+		["PreVersion"] = 4500,
+	},
 	["WhoPulled"] = {
 	},
 	["BossWatcher"] = {
@@ -310,6 +303,14 @@ VExRT = {
 		["optionsPositionsDist"] = true,
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
+		},
+	},
+	["LootHistory"] = {
+		["instanceNames"] = {
+		},
+		["bossNames"] = {
+		},
+		["list"] = {
 		},
 	},
 	["Profile"] = "default",

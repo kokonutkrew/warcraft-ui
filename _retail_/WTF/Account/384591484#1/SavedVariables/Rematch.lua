@@ -53,9 +53,9 @@ RematchSettings = {
 		},
 		["Collected"] = {
 		},
-		["Sources"] = {
-		},
 		["Similar"] = {
+		},
+		["Sources"] = {
 		},
 		["Breed"] = {
 		},
@@ -72,9 +72,9 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
+	["CustomScaleValue"] = 100,
 	["LevelingQueue"] = {
 	},
-	["JournalPanel"] = 1,
 	["SpecialSlots"] = {
 	},
 	["ExpandedTargetHeaders"] = {
@@ -85,7 +85,7 @@ RematchSettings = {
 	},
 	["ElvUIToastDefaulted"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
-	["CustomScaleValue"] = 100,
+	["JournalPanel"] = 1,
 	["QueueSanctuary"] = {
 	},
 	["YPos"] = 297.9999694824219,

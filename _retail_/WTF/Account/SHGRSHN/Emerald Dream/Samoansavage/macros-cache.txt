@@ -32,6 +32,22 @@ VER 3 0100000000000006 "Kick Focus" "INV_MISC_QUESTIONMARK"
 /cast [target=mouseover] Kick
 /use Kick
 END
+VER 3 0100000000000014 "KK_OUTLAW_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_OUTLAW_AOE RightButton; [button:3] KK_OUTLAW_AOE MiddleButton; [button:4] KK_OUTLAW_AOE Button4; [button:5] KK_OUTLAW_AOE Button5; KK_OUTLAW_AOE
+END
+VER 3 0100000000000013 "KK_OUTLAW_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_OUTLAW_ST RightButton; [button:3] KK_OUTLAW_ST MiddleButton; [button:4] KK_OUTLAW_ST Button4; [button:5] KK_OUTLAW_ST Button5; KK_OUTLAW_ST
+END
+VER 3 0100000000000012 "KK_SUB_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_SUB_AOE RightButton; [button:3] KK_SUB_AOE MiddleButton; [button:4] KK_SUB_AOE Button4; [button:5] KK_SUB_AOE Button5; KK_SUB_AOE
+END
+VER 3 0100000000000011 "KK_SUB_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KK_SUB_ST RightButton; [button:3] KK_SUB_ST MiddleButton; [button:4] KK_SUB_ST Button4; [button:5] KK_SUB_ST Button5; KK_SUB_ST
+END
 VER 3 0100000000000008 "Pickpocket" "INV_MISC_QUESTIONMARK"
 #showtooltip Pick Pocket
 /targetenemy [no harm][dead]

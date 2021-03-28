@@ -14,23 +14,23 @@ ElvDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["convertPages"] = true,
 			["dbConverted"] = 12.23,
 			["actionbar"] = {
 				["bar6"] = {
 					["enabled"] = true,
-					["buttonsPerRow"] = 6,
 					["buttons"] = 6,
+					["buttonsPerRow"] = 6,
 				},
 				["microbar"] = {
 					["buttons"] = 11,
 				},
 				["bar5"] = {
 					["enabled"] = false,
-					["buttonsPerRow"] = 12,
 					["buttons"] = 12,
+					["buttonsPerRow"] = 12,
 				},
 			},
+			["convertPages"] = true,
 		},
 	},
 	["LuaErrorDisabledAddOns"] = {
@@ -47,7 +47,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Emerald Dream"] = {
-			["Samoanbatman"] = 13195441,
+			["Samoanbatman"] = 13187256,
 		},
 	},
 	["global"] = {
@@ -64,6 +64,44 @@ ElvDB = {
 			},
 		},
 		["ignoreIncompatible"] = true,
+		["datatexts"] = {
+			["settings"] = {
+				["Currencies"] = {
+					["tooltipData"] = {
+						[7] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[11] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[13] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[15] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[21] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+					},
+				},
+			},
+		},
 	},
 }
 ElvPrivateDB = {

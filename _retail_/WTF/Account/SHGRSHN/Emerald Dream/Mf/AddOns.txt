@@ -15,3 +15,6 @@ ElvUI_OptionsUI: disabled
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+OPie_Classic: disabled

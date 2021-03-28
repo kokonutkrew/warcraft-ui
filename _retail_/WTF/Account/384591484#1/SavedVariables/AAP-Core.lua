@@ -3,11 +3,13 @@ AAP1 = {
 	["EmeraldDream"] = {
 		["Samoanbatman"] = {
 			["FirstLoadz"] = 1,
+			["A619"] = 1,
+			["QuestCounter"] = 809,
 			["A84"] = 1,
-			["QuestCounter2"] = 807,
+			["QuestCounter2"] = 809,
 			["A13"] = 1,
-			["QuestCounter"] = 807,
-			["WantedQuestList"] = {
+			["LoaPick"] = 0,
+			["SkippedBonusObj"] = {
 			},
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -37,27 +39,27 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
-				["Partyleft"] = 768,
 				["ShowQList"] = 1,
-				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
-				["MiniMapBlobAlpha"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["alpha"] = 1,
+				["MiniMapBlobAlpha"] = 1,
+				["Partyleft"] = 768,
 				["AutoHandInChoice"] = 0,
 				["top"] = -215.9999755859375,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Scale"] = 0.71,
+				["ShowMapBlobs"] = 1,
 				["QuestButtons"] = 1,
 				["AutoShareQ"] = 0,
-				["Hcamptop"] = -215.9999755859375,
 				["DisableHeirloomWarning"] = 0,
 			},
 			["BonusSkips"] = {
 			},
-			["SkippedBonusObj"] = {
+			["WantedQuestList"] = {
 			},
-			["LoaPick"] = 0,
+			["A627"] = 1,
 			["AAP_DoWarCampaign"] = 0,
 			["QlineSkip"] = {
 			},
@@ -67,27 +69,39 @@ AAP1 = {
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
-	[32175] = "Darkmoon Pet Battle!",
 	[54180] = "Quest",
-	[29438] = "He Shoots, He Scores!",
-	[57661] = "Silk Shortage",
-	[40329] = "Battle Pet Tamers: Warlords",
-	[61984] = "Replenish the Reservoir",
-	[48639] = "Army of the Light",
-	[42233] = "Highmountain Tribes",
-	[60057] = "Necrotic Wake: A Paragon's Plight",
-	[61099] = "The Search for Baine",
-	[60267] = "Prison of the Forgotten",
-	[42170] = "The Dreamweavers",
+	[32175] = "Darkmoon Pet Battle!",
 	[29463] = "It's Hammer Time",
-	[36471] = "A New Darkmoon Challenger!",
 	[29433] = "Test Your Strength",
+	[61099] = "The Search for Baine",
+	[48639] = "Army of the Light",
+	[57661] = "Silk Shortage",
+	[48641] = "Armies of Legionfall",
+	[60267] = "Prison of the Forgotten",
+	[29438] = "He Shoots, He Scores!",
+	[42422] = "The Wardens",
+	[42420] = "Court of Farondis",
+	[60057] = "Necrotic Wake: A Paragon's Plight",
+	[42170] = "The Dreamweavers",
+	[42233] = "Highmountain Tribes",
+	[42234] = "The Valarjar",
+	[61331] = "Return Lost Souls",
+	[60061] = "Tough as Silk",
+	[36471] = "A New Darkmoon Challenger!",
+	[61984] = "Replenish the Reservoir",
+	[40329] = "Battle Pet Tamers: Warlords",
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
 	["FPs"] = {
 		["Alliance"] = {
 			[13] = {
+				["Samoanbatman-EmeraldDream"] = {
+					["Conts"] = {
+					},
+				},
+			},
+			[619] = {
 				["Samoanbatman-EmeraldDream"] = {
 					["Conts"] = {
 					},

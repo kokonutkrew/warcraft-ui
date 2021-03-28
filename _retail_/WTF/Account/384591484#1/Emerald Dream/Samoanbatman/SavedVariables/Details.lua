@@ -53,10 +53,10 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["useclasscolors"] = false,
+			["showamount"] = false,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["showamount"] = false,
+			["useclasscolors"] = false,
 			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
@@ -155,35 +155,19 @@ _detalhes_database = {
 			},
 			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["point"] = "CENTER",
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["y"] = -4.57763671875e-05,
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["row_height"] = 20,
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -191,19 +175,41 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 6.103515625e-05,
 				["x"] = -6.103515625e-05,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.57763671875e-05,
+			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["arrow_anchor_y"] = 0,
-			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["use_spark"] = true,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
 		},
 	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "26",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -215,12 +221,6 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
-	["last_day"] = "21",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -232,16 +232,43 @@ _detalhes_database = {
 	["combat_id"] = 0,
 	["savedStyles"] = {
 	},
-	["combat_counter"] = 12,
+	["combat_counter"] = 16,
 	["cached_talents"] = {
-		["Player-162-0A49E245"] = {
-			22503, -- [1]
-			22766, -- [2]
-			22541, -- [3]
-			22509, -- [4]
-			22510, -- [5]
-			22513, -- [6]
-			22543, -- [7]
+		["Player-64-035D7E44"] = {
+			22329, -- [1]
+			22315, -- [2]
+			22094, -- [3]
+			19761, -- [4]
+			22330, -- [5]
+			22161, -- [6]
+			21184, -- [7]
+		},
+		["Player-86-08D3C6B5"] = {
+			19823, -- [1]
+			19818, -- [2]
+			22167, -- [3]
+			19995, -- [4]
+			20173, -- [5]
+			22101, -- [6]
+			22170, -- [7]
+		},
+		["Player-61-0DF2EFC6"] = {
+			23106, -- [1]
+			19302, -- [2]
+			19771, -- [3]
+			23364, -- [4]
+			20173, -- [5]
+			22093, -- [6]
+			22105, -- [7]
+		},
+		["Player-5-0DE91256"] = {
+			22025, -- [1]
+			22029, -- [2]
+			22518, -- [3]
+			22526, -- [4]
+			22528, -- [5]
+			22534, -- [6]
+			22030, -- [7]
 		},
 		["Player-162-0A01C9F2"] = {
 			19262, -- [1]
@@ -251,6 +278,96 @@ _detalhes_database = {
 			19269, -- [5]
 			21968, -- [6]
 			21199, -- [7]
+		},
+		["Player-1428-0A186599"] = {
+			23106, -- [1]
+			19302, -- [2]
+			22099, -- [3]
+			19995, -- [4]
+			20175, -- [5]
+			20184, -- [6]
+			22106, -- [7]
+		},
+		["Player-1175-0E34E159"] = {
+			22460, -- [1]
+			22443, -- [2]
+			22447, -- [3]
+			22466, -- [4]
+			22448, -- [5]
+			23176, -- [6]
+			21632, -- [7]
+		},
+		["Player-1136-086C2161"] = {
+			22385, -- [1]
+			18571, -- [2]
+			22159, -- [3]
+			18577, -- [4]
+			21706, -- [5]
+			22389, -- [6]
+			21648, -- [7]
+		},
+		["Player-3725-0A7B702B"] = {
+			22633, -- [1]
+			19676, -- [2]
+			22379, -- [3]
+			22627, -- [4]
+			19140, -- [5]
+			22400, -- [6]
+			22405, -- [7]
+		},
+		["Player-162-0A49E245"] = {
+			22503, -- [1]
+			22766, -- [2]
+			22541, -- [3]
+			22509, -- [4]
+			22510, -- [5]
+			22513, -- [6]
+			22543, -- [7]
+		},
+		["Player-3208-0C0332F6"] = {
+			23140, -- [1]
+			22089, -- [2]
+			19280, -- [3]
+			19292, -- [4]
+			19291, -- [5]
+			19295, -- [6]
+			19293, -- [7]
+		},
+		["Player-60-0DDFE9B3"] = {
+			17565, -- [1]
+			17577, -- [2]
+			22179, -- [3]
+			17593, -- [4]
+			17599, -- [5]
+			23191, -- [6]
+			21201, -- [7]
+		},
+		["Player-3208-0C0E0B24"] = {
+			23138, -- [1]
+			22045, -- [2]
+			19285, -- [3]
+			23160, -- [4]
+			19291, -- [5]
+			21717, -- [6]
+			22479, -- [7]
+		},
+		["Player-76-0A585D21"] = {
+			20185, -- [1]
+			19302, -- [2]
+			19771, -- [3]
+			19995, -- [4]
+			20173, -- [5]
+			22102, -- [6]
+			22105, -- [7]
+		},
+		["Player-3725-0BF0D3A7"] = {
+			22462, -- [1]
+			22443, -- [2]
+			22447, -- [3]
+			22450, -- [4]
+			22904, -- [5]
+			23362, -- [6]
+			21631, -- [7]
 		},
 	},
 	["announce_deaths"] = {
@@ -295,6 +412,8 @@ _detalhes_database = {
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 11,
+		["spells_cast_timeline"] = {
+		},
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -308,10 +427,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -326,8 +445,6 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["spells_cast_timeline"] = {
-		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -341,23 +458,25 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
+		["cleu_timeline"] = {
 		},
 		["CombatSkillCache"] = {
 		},
-		["cleu_timeline"] = {
+		["cleu_events"] = {
+			["n"] = 1,
 		},
 		["start_time"] = 0,
 		["TimeData"] = {
@@ -369,11 +488,11 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
-			},
-			["damage_section"] = {
 			},
 			["damage"] = {
 			},
@@ -415,7 +534,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 1,
+		["logons"] = 3,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -434,6 +553,5 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-162-0A49E245"] = 581,
-		["Player-162-0A01C9F2"] = 264,
 	},
 }

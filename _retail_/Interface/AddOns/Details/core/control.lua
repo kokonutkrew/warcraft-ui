@@ -422,6 +422,7 @@
 			Details.tabela_vigente.IsBeingCreated = nil
 	
 			Details:SendEvent ("COMBAT_PLAYER_ENTER", nil, Details.tabela_vigente, Details.encounter_table and Details.encounter_table.id)
+
 			if (Details.tabela_vigente.is_boss) then
 				--> the encounter was found through encounter_start event
 				Details:SendEvent ("COMBAT_BOSS_FOUND", nil, Details.tabela_vigente.is_boss.index, Details.tabela_vigente.is_boss.name)
@@ -454,9 +455,7 @@
 		end
 		
 		function Details:EndCombat()
-			if (Details.in_combat) then
-				Details:SairDoCombate()
-			end
+			return Details:SairDoCombate()
 		end
 		
 		-- ~end ~leave
@@ -480,15 +479,6 @@
 			
 			Details.leaving_combat = true
 			Details.last_combat_time = _tempo
-			
-			--deprecated (combat are now added immediatelly since there's no script run too long)
-			--if (Details.schedule_remove_overall and not from_encounter_end and not InCombatLockdown()) then
-			--	if (Details.debug) then
-			--		Details:Msg ("(debug) found schedule overall data deletion.")
-			--	end
-			--	Details.schedule_remove_overall = false
-			--	Details.tabela_historico:resetar_overall()
-			--end
 			
 			Details:CatchRaidBuffUptime ("BUFF_UPTIME_OUT")
 			Details:CatchRaidDebuffUptime ("DEBUFF_UPTIME_OUT")
@@ -698,7 +688,7 @@
 						Details.last_encounter = Details.tabela_vigente.is_boss.name
 
 						if (Details.pre_pot_used) then
-							Details.last_combat_pre_pot_used = table_deepcopy (Details.pre_pot_used)
+							Details.last_combat_pre_pot_used = Details.CopyTable (Details.pre_pot_used)
 						end
 						
 						if (Details.pre_pot_used and Details.announce_prepots.enabled) then
@@ -927,21 +917,21 @@
 		function Details:GetPlayersInArena()
 			local aliados = GetNumGroupMembers() -- LE_PARTY_CATEGORY_HOME
 			for i = 1, aliados-1 do
-				local role = UnitGroupRolesAssigned ("party" .. i)
-				if (role ~= "NONE") then
+				local role = UnitGroupRolesAssigned and UnitGroupRolesAssigned("party" .. i) or "DAMAGER"
+				if (role ~= "NONE" and UnitExists("party" .. i)) then
 					local name = GetUnitName ("party" .. i, true)
 					Details.arena_table [name] = {role = role}
 				end
 			end
 			
-			local role = UnitGroupRolesAssigned ("player")
+			local role = UnitGroupRolesAssigned and UnitGroupRolesAssigned("player") or "DAMAGER"
 			if (role ~= "NONE") then
 				local name = GetUnitName ("player", true)
 				Details.arena_table [name] = {role = role}
 			end
 
 			--enemies
-			local enemiesAmount = GetNumArenaOpponentSpecs()
+			local enemiesAmount = GetNumArenaOpponentSpecs and GetNumArenaOpponentSpecs() or 5
 			table.wipe(_detalhes.arena_enemies)
 
 			for i = 1, enemiesAmount do
@@ -951,7 +941,19 @@
 				end
 			end
 		end
-		
+
+		--attempt to get the arena unitId for an actor
+		function Details:GuessArenaEnemyUnitId(unitName)
+			for i = 1, 5 do
+				local unitId = "arena" .. i
+				local enemyName = _G.GetUnitName(unitId, true)
+				if (enemyName == unitName) then
+					_detalhes.arena_enemies[enemyName] = unitId
+					return unitId
+				end
+			end
+		end
+
 		local string_arena_enemyteam_damage = [[
 			local combat = Details:GetCombat ("current")
 			local total = 0
@@ -1005,7 +1007,6 @@
 		]]
 		
 		function Details:CreateArenaSegment()
-		
 			Details:GetPlayersInArena()
 		
 			Details.arena_begun = true
@@ -1028,26 +1029,25 @@
 			--> sinaliza que esse combate � arena
 			Details.tabela_vigente.arena = true
 			Details.tabela_vigente.is_arena = {name = Details.zone_name, zone = Details.zone_name, mapid = Details.zone_id}
-		
-			Details:SendEvent ("COMBAT_ARENA_START")
+
+			Details:SendEvent("COMBAT_ARENA_START")
 		end
 		
-		function Details:StartArenaSegment (...)
+		function Details:StartArenaSegment(...)
 			if (Details.debug) then
-				Details:Msg ("(debug) starting a new arena segment.")
+				Details:Msg("(debug) starting a new arena segment.")
 			end
-			
-			local timerType, timeSeconds, totalTime = select (1, ...)
-			
+
+			local _, timeSeconds = select(1, ...)
+
 			if (Details.start_arena) then
-				Details:CancelTimer (Details.start_arena, true)
+				Details:CancelTimer(Details.start_arena, true)
 			end
-			Details.start_arena = Details:ScheduleTimer ("CreateArenaSegment", timeSeconds)
+			Details.start_arena = Details:ScheduleTimer("CreateArenaSegment", timeSeconds)
 			Details:GetPlayersInArena()
 		end
 
 		function Details:EnteredInArena()
-
 			if (Details.debug) then
 				Details:Msg ("(debug) the player EnteredInArena().")
 			end
@@ -1058,7 +1058,6 @@
 		end
 		
 		function Details:LeftArena()
-		
 			if (Details.debug) then
 				Details:Msg ("(debug) player LeftArena().")
 			end
@@ -1083,6 +1082,7 @@
 			[220893] = {class = "ROGUE", spec = 261, maxPercent = 0.075, container = 1, commID = "MISSDATA_ROGUE_SOULRIP"},
 			--[11366] = {class = "MAGE", spec = 63, maxPercent = 0.9, container = 1, commID = "MISSDATA_ROGUE_SOULRIP"},
 		}
+		
 		function Details:CanSendMissData()
 			if (not IsInRaid() and not IsInGroup()) then
 				return
@@ -1514,7 +1514,7 @@
 				instancia._postponing_current = nil
 				instancia.showing = Details.tabela_vigente
 				instancia:ResetaGump()
-				Details.gump:Fade (instancia, "in", nil, "barras")
+				Details.FadeHandler.Fader (instancia, "in", nil, "barras")
 			end
 		end
 		
@@ -1729,7 +1729,7 @@
 				if (instancia.v_barras) then
 					--print ("mostrando", instancia.rows_showing, instancia.rows_created)
 					for barra_numero = instancia.rows_showing+1, instancia.rows_created do
-						Details.gump:Fade (instancia.barras[barra_numero], "in")
+						Details.FadeHandler.Fader (instancia.barras[barra_numero], "in")
 					end
 					instancia.v_barras = false
 					
@@ -1851,39 +1851,45 @@
 --> core
 
 	function Details:AutoEraseConfirm()
-	
+
 		local panel = _G.DetailsEraseDataConfirmation
 		if (not panel) then
-			
-			panel = CreateFrame ("frame", "DetailsEraseDataConfirmation", UIParent, "BackdropTemplate")
-			panel:SetSize (400, 85)
-			panel:SetBackdrop ({bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
+			panel = CreateFrame("frame", "DetailsEraseDataConfirmation", UIParent, "BackdropTemplate")
+			panel:SetSize(400, 85)
+			panel:SetBackdrop({bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
 			edgeFile = [[Interface\AddOns\Details\images\border_2]], edgeSize = 12})
-			panel:SetPoint ("center", UIParent)
-			panel:SetBackdropColor (0, 0, 0, 0.4)
-			
-			panel:SetScript ("OnMouseDown", function (self, button)
+			panel:SetPoint("center", UIParent)
+			panel:SetBackdropColor(0, 0, 0, 0.4)
+
+			DetailsFramework:ApplyStandardBackdrop(panel)
+
+			panel:SetScript("OnMouseDown", function (self, button)
 				if (button == "RightButton") then
 					panel:Hide()
 				end
 			end)
-			
-			--local icon = Details.gump:CreateImage (panel, [[Interface\AddOns\Details\images\logotipo]], 512*0.4, 256*0.4)
-			--icon:SetPoint ("bottomleft", panel, "topleft", -10, -11)
-			
+
+			--[=[
+				create 3 options
+				- overall data only
+				- current data only
+				- both
+
+			--=]=]
+
 			local text = Details.gump:CreateLabel (panel, Loc ["STRING_OPTIONS_CONFIRM_ERASE"], nil, nil, "GameFontNormal")
 			text:SetPoint ("center", panel, "center")
 			text:SetPoint ("top", panel, "top", 0, -10)
-			
+
 			local no = Details.gump:CreateButton (panel, function() panel:Hide() end, 90, 20, Loc ["STRING_NO"])
 			no:SetPoint ("bottomleft", panel, "bottomleft", 30, 10)
 			no:InstallCustomTexture (nil, nil, nil, nil, true)
-			
+
 			local yes = Details.gump:CreateButton (panel, function() panel:Hide(); Details.tabela_historico:resetar() end, 90, 20, Loc ["STRING_YES"])
 			yes:SetPoint ("bottomright", panel, "bottomright", -30, 10)
 			yes:InstallCustomTexture (nil, nil, nil, nil, true)
 		end
-		
+
 		panel:Show()
 	end
 

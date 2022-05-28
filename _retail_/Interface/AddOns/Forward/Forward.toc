@@ -1,0 +1,7 @@
+## Interface: 70000
+## Notes: Toggle auto run using an ActionBook action.
+## Version: 1.1
+## Author: foxlit
+## X-Website: https://www.townlong-yak.com/forward/
+## OptionalDeps: OPie, M6, Blizzard_MovePad
+Forward.xml

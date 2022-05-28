@@ -34,6 +34,7 @@ L["Bartender4 was written by Nevcairiel of EU-Antonidas. He will accept cookies 
 L["Blizzard Art"] = "暴雪美術風格"
 L["Blizzard Art Bar"] = "暴雪美術風格的動作條"
 L["Blizzard interface"] = "暴雪介面"
+L["Both"] = "兩者"
 L["Button %s"] = "按鈕%s"
 L["Button Grid"] = "空按鈕"
 L["Button Lock"] = "按鈕鎖定"

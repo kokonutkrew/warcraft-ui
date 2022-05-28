@@ -1,4 +1,4 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsCorrectVersion() or not WeakAuras.IsLibsOK() then return end
 
 local Type, Version = "WeakAurasTwoColumnDropdown", 3
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
@@ -132,6 +132,19 @@ local methods = {
 
     firstDropdown:SetCallback("OnValueChanged", OnFirstDropdownValueChanged)
     secondDropDown:SetCallback("OnValueChanged", OnSecondDropdownValueChanged)
+
+    local function FireOnEnter(self, event)
+      widget:Fire("OnEnter")
+    end
+
+    local function FireOnLeave(self, event)
+      widget:Fire("OnLeave")
+    end
+
+    firstDropdown:SetCallback("OnEnter", FireOnEnter)
+    firstDropdown:SetCallback("OnLeave", FireOnLeave)
+    secondDropDown:SetCallback("OnEnter", FireOnEnter)
+    secondDropDown:SetCallback("OnLeave", FireOnLeave)
   end,
   ["OnRelease"] = function(self)
   end,

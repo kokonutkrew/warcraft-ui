@@ -1,9 +1,9 @@
-## Interface: 90002
+## Interface: 90100
 ## Title: Rematch - TSM Pet Values
 ## Notes: Add TSM market values ​​to the Rematch pet list
 ## Notes-deDE: Ergänzt die Haustierliste von Rematch um TSM-Marktwerte
 ## Author: Expelliarm5s
-## Version: 1.1.20
+## Version: 1.1.23
 ## Dependencies:
 ## SavedVariables: Rematch_TSMPetValuesDB
 

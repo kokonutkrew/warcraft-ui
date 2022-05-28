@@ -1,0 +1,459 @@
+
+MegaMacroConfig = nil
+MegaMacroGlobalData = {
+	["Macros"] = {
+		{
+			["Id"] = 1,
+			["Code"] = "/cast shoot\n/cast taunt\n/cast attack\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 1,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "01. Ranged Pull",
+		}, -- [1]
+		{
+			["Id"] = 2,
+			["Code"] = "/follow party1\n/assist party1\n/use garrote\n/use sinister strike\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 2,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "2. Damage",
+		}, -- [2]
+		{
+			["Id"] = 3,
+			["Code"] = "/cast charge\n/cast overpower\n/cast attack\n/cast thunder clap\n/cast heroic strike\n/cast sunder armor\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 3,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "2. Damage",
+		}, -- [3]
+		{
+			["Id"] = 4,
+			["Code"] = "/cast bloodrage\n/cast rend\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 4,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "3. Dots",
+		}, -- [4]
+		{
+			["Id"] = 5,
+			["Code"] = "/cast bloodrage\n/cast sunder armor\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 5,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "4. Light Damage",
+		}, -- [5]
+		{
+			["Id"] = 6,
+			["Code"] = "/cast bloodrage\n/cast battle shout \n/cast blood fury\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 6,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "5. Battle Buffs",
+		}, -- [6]
+		{
+			["Id"] = 7,
+			["Code"] = "/use Major Healthstone\n/use Greater Healthstone\n/use Healthstone\n/use Major Healing Potion\n/use Greater Healing Potion\n/use Healing Potion\n/use Furbolg Medicine Pouch\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 7,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "8.s Self Heal",
+		}, -- [7]
+		{
+			["Id"] = 20,
+			["Code"] = "#showtooltip\n/use Re-Sizer v9.0.1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 20,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "AAP_MACRO",
+		}, -- [8]
+		{
+			["Id"] = 21,
+			["Code"] = "/run DEFAULT_CHAT_FRAME:AddMessage(\"\\124cffffff00\\124Hachievement:11195:\"..string.gsub(UnitGUID(\"player\"), '0x', '')..\":1:3:17:17:4294967295:4294967295:4294967295:4294967295\\124h[Ahead of the Curve: Gul'dan]\\124h\\124r\")\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 21,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "AOTC Legion HC",
+		}, -- [9]
+		{
+			["Id"] = 22,
+			["Code"] = "/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{\"\",\"Tab\"}do local f=_G[\"ChatFrame\"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 22,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "ChatHide",
+		}, -- [10]
+		{
+			["Id"] = 23,
+			["Code"] = "/chicken\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 23,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Cluck",
+		}, -- [11]
+		{
+			["Id"] = 24,
+			["Code"] = "/run local q,x,_,a,b = GetAchievementCriteriaInfo,0 for i=1,11 do _,_,_,a,b = q(11152,i) x=a end local _,_,_,c,d = q(11153,1) local _,_,_,e,f = q(11154,1) print(\"Dungeons: \"..x..\"/\"..b) print(\"WQs: \"..c..\"/\"..d) print(\"Kills: \"..e..\"/\"..f)\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 24,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Death",
+		}, -- [12]
+		{
+			["Id"] = 25,
+			["Code"] = "/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format(\"Unhittable: %.2f%%  Avoidance: %.2f%%  Defense %+.0f rating\",b+d+p+5+a,d+p+5+a,r-689))\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 25,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Distance Aggro",
+		}, -- [13]
+		{
+			["Id"] = 26,
+			["Code"] = "#showtooltip\n/click ExtraActionButton1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 26,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "ExtraAction 1",
+		}, -- [14]
+		{
+			["Id"] = 27,
+			["Code"] = "/follow party1\n/assist party1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 27,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "F2.Follow",
+		}, -- [15]
+		{
+			["Id"] = 28,
+			["Code"] = "/follow party1\n/assist party1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 28,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "F2.Follow",
+		}, -- [16]
+		{
+			["Id"] = 29,
+			["Code"] = "/castsequence [nomod] Fishing\n/equipset [mod:alt] Max Fishing\n/castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear\n/use [mod:shift] Worm Supreme\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 29,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Fish Bait",
+		}, -- [17]
+		{
+			["Id"] = 30,
+			["Code"] = "/focus\n/target player\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 30,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow Party 0",
+		}, -- [18]
+		{
+			["Id"] = 31,
+			["Code"] = "/follow party1\n/assist party1\n/target party1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 31,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow Party1",
+		}, -- [19]
+		{
+			["Id"] = 32,
+			["Code"] = "/follow party2\n/assist party2\n/target party2\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 32,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow Party2",
+		}, -- [20]
+		{
+			["Id"] = 33,
+			["Code"] = "/follow party3\n/assist party3\n/target party3\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 33,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow Party3",
+		}, -- [21]
+		{
+			["Id"] = 34,
+			["Code"] = "/follow party4\n/assist party4\n/target party4\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 34,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow Party4",
+		}, -- [22]
+		{
+			["Id"] = 35,
+			["Code"] = "/follow Samoanbeast\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 35,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Follow S4",
+		}, -- [23]
+		{
+			["Id"] = 36,
+			["Code"] = "/run GuildFrame_Toggle()\n/run GuildFrame_TabClicked ( GuildFrameTab2 )\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 36,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "GRM_Roster",
+		}, -- [24]
+		{
+			["Id"] = 37,
+			["Code"] = "",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 37,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "GRM_Tool",
+		}, -- [25]
+		{
+			["Id"] = 38,
+			["Code"] = "--/run GuildManager:InviteAction()\n/flood on\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 38,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Invite",
+		}, -- [26]
+		{
+			["Id"] = 39,
+			["Code"] = "/run InviteUnit(\"Tigerlilly\");\n/run InviteUnit(\"Mancub\"); \n/run InviteUnit(\"Foxxer\"); \n/run InviteUnit(\"Kickbrass\"); \n/ffa\n/changeactionbar 2\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 39,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Invite",
+		}, -- [27]
+		{
+			["Id"] = 40,
+			["Code"] = "/leave party\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 40,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "LeaveParty",
+		}, -- [28]
+		{
+			["Id"] = 42,
+			["Code"] = "/run SendChatMessage(\"\\124cffffff00\\124Hachievement:5353:\"..string.gsub(UnitGUID(\"player\"), '0x', '')..\":1:3:26:17:4294967295:4294967295:4294967295:4294967295\\124h[Champion]\\124h\\124r, 2k exp, have voice\", WHISPER, nil, \"Kurropt-Dragonmaw\")\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 42,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "PVP Champion Ach",
+		}, -- [29]
+		{
+			["Id"] = 41,
+			["Code"] = "/tsm tasklist\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 41,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Professions",
+		}, -- [30]
+		{
+			["Id"] = 43,
+			["Code"] = "/run for i=1,GetNumQuestLogEntries() do SelectQuestLogEntry(i); SetAbandonQuest(); AbandonQuest(); end\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 43,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "QuestDump",
+		}, -- [31]
+		{
+			["Id"] = 44,
+			["Code"] = "Power leveling in exchange for RAF link. Your account must be less than 30days old\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 44,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "RAF Spam",
+		}, -- [32]
+		{
+			["Id"] = 46,
+			["Code"] = "/run ConvertToRaid()\n/master Samoantank\n/threshold epic\n/raid Pls be patient as we fill, grab pots, food, runes, and repair. Read group desc.\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 46,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "RStart",
+		}, -- [33]
+		{
+			["Id"] = 45,
+			["Code"] = "#showtooltip\n/use 11\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 45,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Ring1",
+		}, -- [34]
+		{
+			["Id"] = 47,
+			["Code"] = "/way The Jade Forest  52 17 \n/way Townlong Steppes 36 88 \n/way Krasarang Wilds 39 66\n/way Kun-Lai Summit 75 62\n/way Dread Wastes 47 60\n/npcscan add 69769 Zandalari Warbringer\n/npcscan add 69841 Zandalari Warbringer\n/npcscan add 69842 Zandalari Warbringer\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 47,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "SearchDinoMount",
+		}, -- [35]
+		{
+			["Id"] = 48,
+			["Code"] = "",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 48,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Shield",
+		}, -- [36]
+		{
+			["Id"] = 50,
+			["Code"] = "/click TSMCancelAuctionBtn\n/click TSMShoppingBuyoutBtn\n/click TSMSniperBtn\n/click TSMAuctioningBtn\n/click TSMCraftingBtn\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 50,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "TSMMacro",
+		}, -- [37]
+		{
+			["Id"] = 49,
+			["Code"] = "/run for bag = 0,4,1 do for slot = 1, 32, 1 do local name = GetContainerItemLink(bag,slot); if name and string.find(name,\"ff9d9d9d\") then PickupContainerItem(bag,slot); DeleteCursorItem(); end; end; end\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 49,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Trash Gray",
+		}, -- [38]
+		{
+			["Id"] = 51,
+			["Code"] = "#showtooltip\n/use [mod:ctrl] Grand Expedition Yak\n/use [mod:shift] Crimson Water Strider\n/use Sky Golem\n/use [noflyable][mod:alt] Grand Black War Mammoth\n/use [mod:alt] Obsidian Nightwing\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 51,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "Utility Mount",
+		}, -- [39]
+		{
+			["Id"] = 8,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button1\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 8,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-01 Skull",
+		}, -- [40]
+		{
+			["Id"] = 9,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button3\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 9,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-02 Square",
+		}, -- [41]
+		{
+			["Id"] = 10,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button9\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 10,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-03 Remove All",
+		}, -- [42]
+		{
+			["Id"] = 11,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button6\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 11,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-04 Diamond",
+		}, -- [43]
+		{
+			["Id"] = 12,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button8\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 12,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-05 Star",
+		}, -- [44]
+		{
+			["Id"] = 13,
+			["Code"] = "/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton\n/click DropDownList1Button5\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 13,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-06 Triangle",
+		}, -- [45]
+		{
+			["Id"] = 14,
+			["Code"] = "/oom\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 14,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-07 Drink",
+		}, -- [46]
+		{
+			["Id"] = 15,
+			["Code"] = "",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 15,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-08 Self Heal",
+		}, -- [47]
+		{
+			["Id"] = 16,
+			["Code"] = "/run SetRaidTarget(\"player\", 7)\n/healme\n/run SetRaidTarget(\"player\", 7)\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 16,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-09 Heal Me",
+		}, -- [48]
+		{
+			["Id"] = 17,
+			["Code"] = "/run SetRaidTarget(\"mouseover\", 8)\n/attacktarget\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 17,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-10 Skull",
+		}, -- [49]
+		{
+			["Id"] = 18,
+			["Code"] = "/run SetRaidTarget(\"mouseover\", 8)\n/incoming\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 18,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-11 Spot Target",
+		}, -- [50]
+		{
+			["Id"] = 19,
+			["Code"] = "/run SetRaidTarget(\"mouseover\", 8)\n/roar\n/spit\n/sigh\n/golfclap\n/laugh\n/guffaw\n/rofl\n/pity\n/violin\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 19,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "a-12 Mock",
+		}, -- [51]
+		{
+			["Id"] = 52,
+			["Code"] = "#show item:19019\n/script DEFAULT_CHAT_FRAME:AddMessage(\"\\124cffff8000\\124Hitem:19019:0:0:0:0:0:0:0:0\\124h[Thunderfury, Blessed Blade of the Windseeker]\\124h\\124r\");\n",
+			["Scope"] = "gg",
+			["ScopedIndex"] = 52,
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "xThndrfury",
+		}, -- [52]
+	},
+	["Activated"] = true,
+	["Classes"] = {
+		["Druid"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				["Feral"] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+		["Warlock"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				[""] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+		["Monk"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				[""] = {
+					["Macros"] = {
+					},
+				},
+				["Brewmaster"] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+	},
+}

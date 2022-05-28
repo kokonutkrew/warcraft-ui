@@ -1,6 +1,6 @@
-# GSE2: Gnome Sequencer Enhanced
+# GSE: Advanced Macro Compiler
 
-## [2.6.51](https://github.com/TimothyLuke/GnomeSequencer-Enhanced/tree/2.6.51) (2021-03-11)
-[Full Changelog](https://github.com/TimothyLuke/GnomeSequencer-Enhanced/compare/2.6.50...2.6.51) [Previous Releases](https://github.com/TimothyLuke/GnomeSequencer-Enhanced/releases)
+## [3.0.72](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/tree/3.0.72) (2022-05-23)
+[Full Changelog](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/compare/3.0.71...3.0.72) [Previous Releases](https://github.com/TimothyLuke/GSE-Advanced-Macro-Compiler/releases)
 
-- #807 Mave variable box multi line.  
+- #1125 Change Editor Layout for small screens.  

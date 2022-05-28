@@ -1,11 +1,12 @@
 local mod	= DBM:NewMod(2430, "DBM-Shadowlands", nil, 1192)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20210127154738")
+mod:SetRevision("20211125075428")
 mod:SetCreatureID(167524)
 mod:SetEncounterID(2411)
 mod:SetUsedIcons(8)
 mod:SetReCombatTime(20)
+mod:EnableWBEngageSync()--Enable syncing engage in outdoors
 --mod:SetMinSyncRevision(11969)
 
 mod:RegisterCombat("combat")
@@ -34,12 +35,12 @@ local specWarnLysoniasCall					= mod:NewSpecialWarningYou(339278, nil, nil, nil,
 local specWarnChargedAnimaBlast				= mod:NewSpecialWarningMoveAway(327262, nil, nil, nil, 3, 2)
 local specWarnChargedAnimaBlastNear			= mod:NewSpecialWarningClose(327262, nil, nil, nil, 3, 2)
 
-local timerVentAnimaCD						= mod:NewAITimer(11.6, 327256, nil, nil, nil, 2, nil, DBM_CORE_L.HEALER_ICON)
+local timerVentAnimaCD						= mod:NewAITimer(11.6, 327256, nil, nil, nil, 2, nil, DBM_COMMON_L.HEALER_ICON)
 local timerUnleashedAnimaCD					= mod:NewAITimer(82.0, 327274, nil, nil, nil, 3)
 local timerRechargeAnima					= mod:NewBuffActiveTimer(30, 327274, nil, nil, nil, 6)
-local timerMarkofPenitenceCD				= mod:NewAITimer(82.0, 327255, nil, "Tank", nil, 5, nil, DBM_CORE_L.TANK_ICON)
+local timerMarkofPenitenceCD				= mod:NewAITimer(82.0, 327255, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
 local timerLysoniasCallCD					= mod:NewAITimer(82.0, 339278, nil, nil, nil, 3)
-local timerChargedAnimaBlastCD				= mod:NewAITimer(82.0, 327262, nil, nil, nil, 2, nil, DBM_CORE_L.DEADLY_ICON, nil, 1, 5)
+local timerChargedAnimaBlastCD				= mod:NewAITimer(82.0, 327262, nil, nil, nil, 2, nil, DBM_COMMON_L.DEADLY_ICON, nil, 1, 5)
 
 mod:AddRangeFrameOption(10, 327262)--TODO, update range if it's too big or too small
 mod:AddSetIconOption("SetIconOnAnimaBlast", 327262, true, false, {8})
@@ -67,6 +68,7 @@ function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 327274 then
 		specWarnUnleashedAnima:Show()
+		specWarnUnleashedAnima:Play("watchstep")
 		timerUnleashedAnimaCD:Start()
 	elseif spellId == 327280 then--Recharge Anima
 		timerVentAnimaCD:Stop()

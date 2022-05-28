@@ -1,0 +1,15 @@
+VER 3 0100000000000004 "covAbility" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Impending Catastrophe
+/cast Decimating Bolt
+/cast Soul Rot
+/cast Scouring Tithe
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Impending Catastrophe" or G"Decimating Bolt" or G"Soul Rot"or G"Scouring Tithe")
+END
+VER 3 0100000000000005 "Survey" "INV_MISC_QUESTIONMARK"
+/cancel
+END
+VER 3 0100000000000003 "Talent 3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nomounted, talent:3/2] burning rush; [nomounted, talent:3/3] dark pact
+END

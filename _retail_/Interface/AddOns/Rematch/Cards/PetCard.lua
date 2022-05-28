@@ -5,6 +5,19 @@ local settings, roster
 
 card.statButtons = {} -- frame pool of RematchPetCardStatTemplate buttons
 
+-- texCoords into Interface\GLUES\AccountUpgrade\AccountUpgradeBanners for each expansionID
+local expansionCoords = {
+    [0] = {0,0.1953125,0.5546875,0.9453125}, -- classic
+    [1] = {0.1953125,0.390625,0.5546875,0.9453125}, -- burning crusade
+    [2] = {0.1982421875,0.3935546875,0,0.390625}, -- wrath of the lich king
+    [3] = {0,0.1953125,0,0.390625}, -- cataclysm
+    [4] = {0.59375,0.7890625,0.53125,0.921875}, -- mists of pandaria
+    [5] = {0.791015625,0.986328125,0,0.390625}, -- warlords of draenor
+    [6] = {0.3955078125,0.5908203125,0.53125,0.921875}, -- legion
+    [7] = {0.3955078125,0.5908203125,0,0.390625}, -- battle for azeroth
+    [8] = {0.5927734375,0.7880859375,0,0.390625}, -- shadowlands
+}
+
 rematch:InitModule(function()
 	rematch.PetCard = card
 	settings = RematchSettings
@@ -173,6 +186,14 @@ function rematch:ShowPetCard(parent,petID,force)
 	info.LevelLabel:SetShown(showLevel)
 	info.Level:SetShown(showLevel)
 
+    -- update background if pet has an expansion
+    if petInfo.isObtainable and petInfo.expansionID and expansionCoords[petInfo.expansionID] then
+        info.ExpansionBackground:SetTexCoord(unpack(expansionCoords[petInfo.expansionID]))
+        info.ExpansionBackground:Show()
+    else
+        info.ExpansionBackground:Hide()
+    end
+
 	-- bottom of middle card info
 	local ybottom = 6
 	-- xp bar for pets that can battle under level 25
@@ -280,10 +301,9 @@ function rematch:ShowPetCard(parent,petID,force)
 
 	-- revoked or can't summon get top billing
 	if petInfo.isRevoked then
-		card:AddStat(L["\124cffff0000Revoked"],"Interface\\Buttons\\UI-GroupLoot-Pass-Down",0,1,0,1,L["Revoked"],L["This pet has been revoked, which means Blizzard withdrew your ability to use this pet.\n\nThis commonly happens when a pets no longer meet a condition for ownership, such as the Core Hound Pup requiring an authenticator attached to the account."])
-	end
-	if not petInfo.isSummonable and petInfo.owned then
-		card:AddStat(L["Can't Summon"],"Interface\\Buttons\\UI-GroupLoot-Pass-Down",0,1,0,1,L["Can't Summon"],L["This pet can't be summoned.\n\nA common reason is a faction restriction, such as the opposing faction's version of the Moonkin Hatchling."])
+		card:AddStat(L["\124cffff0000Revoked"],"Interface\\Buttons\\UI-GroupLoot-Pass-Down",0,1,0,1,L["Revoked"],L["This pet has been revoked, which means Blizzard withdrew your ability to use this pet.\n\nThis commonly happens when a pet no longer meets a condition for ownership, such as the Core Hound Pup requiring an authenticator attached to the account."])
+	elseif not petInfo.isSummonable and petInfo.owned then
+		card:AddStat(petInfo.summonShortError,"Interface\\Buttons\\UI-GroupLoot-Pass-Down",0,1,0,1,L["Can't Summon"],petInfo.summonErrorText or L["This pet can't be summoned."])
 	end
 
 	-- actual stats here

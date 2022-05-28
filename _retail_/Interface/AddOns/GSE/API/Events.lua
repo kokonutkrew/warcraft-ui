@@ -6,12 +6,11 @@ local currentclassDisplayName, currentenglishclass, currentclassId = UnitClass("
 local L = GSE.L
 local Statics = GSE.Static
 
-local GCD, GCD_Update_Timer
+local GCD
 
 --- This function is used to debug a sequence and trace its execution.
 function GSE.TraceSequence(button, step, task)
-    if GSE.UnsavedOptions.DebugSequenceExecution then
-        -- Note to self: Do I care if it's a loop sequence?
+    if GSE.UnsavedOptions.DebugSequenceExecution and not GSE.isEmpty(task) then
         local spell = task
         local csindex, csitem, csspell = QueryCastSequence(task)
         if not GSE.isEmpty(csitem) then
@@ -33,12 +32,12 @@ function GSE.TraceSequence(button, step, task)
         else
             manaOutput = GSEOptions.CommandColour .. "Resources Available" .. Statics.StringReset
         end
-        local castingspell, castspellid
+        local castingspell
 
         if GSE.GameMode == 1 then
-            castingspell, _, _, _, _, _, castspellid, _ = CastingInfo()
+            castingspell, _, _, _, _, _, _, _ = CastingInfo()
         else
-            castingspell, _, _, _, _, _, castspellid, _ = UnitCastingInfo("player")
+            castingspell, _, _, _, _, _, _, _ = UnitCastingInfo("player")
         end
         if not GSE.isEmpty(castingspell) then
             CastingOutput = GSEOptions.UNKNOWN .. "Casting " .. castingspell .. Statics.StringReset
@@ -49,8 +48,44 @@ function GSE.TraceSequence(button, step, task)
         if GCD then
             GCDOutput = GSEOptions.UNKNOWN .. "GCD In Cooldown" .. Statics.StringReset
         end
-        GSE.PrintDebugMessage(button .. "," .. step .. "," .. (spell and spell or "nil") .. (csindex and " from castsequence " .. (csspell and csspell or csitem) .." (item " .. csindex .. " in castsequence.) " or "") .. "," .. usableOutput .. "," ..
-                                  manaOutput .. "," .. GCDOutput .. "," .. CastingOutput, Statics.SequenceDebug)
+
+        local fullBlock = ""
+
+        if GSEOptions.showFullBlockDebug then
+            fullBlock =
+                "\n" ..
+                GSE.SequencesExec[button][step] ..
+                    GSEOptions.EmphasisColour ..
+                        "\n============================================================================================\n" ..
+                            Statics.StringReset
+        end
+        GSE.PrintDebugMessage(
+            table.concat(
+                {
+                    GSEOptions.AuthorColour,
+                    button,
+                    Statics.StringReset,
+                    ",",
+                    step,
+                    ",",
+                    (spell and spell or "nil"),
+                    (csindex and
+                        " from castsequence " ..
+                            (csspell and csspell or csitem) .. " (item " .. csindex .. " in castsequence.) " or
+                        ""),
+                    ",",
+                    usableOutput,
+                    ",",
+                    manaOutput,
+                    ",",
+                    GCDOutput,
+                    ",",
+                    CastingOutput,
+                    fullBlock
+                }
+            ),
+            Statics.SequenceDebug
+        )
     end
 end
 
@@ -66,8 +101,7 @@ function GSE:UNIT_FACTION()
 end
 
 function GSE:ZONE_CHANGED_NEW_AREA()
-    local name, type, difficulty, difficultyName, maxPlayers, playerDifficulty, isDynamicInstance, mapID,
-        instanceGroupSize = GetInstanceInfo()
+    local _, type, difficulty, _, _, _, _, _, _ = GetInstanceInfo()
     if type == "pvp" then
         GSE.PVPFlag = true
     else
@@ -120,12 +154,33 @@ function GSE:ZONE_CHANGED_NEW_AREA()
         GSE.inScenario = false
     end
 
-
-    GSE.PrintDebugMessage("PVP: " .. tostring(GSE.PVPFlag) .. " inMythic: " .. tostring(GSE.inMythic) .. " inRaid: " ..
-                              tostring(GSE.inRaid) .. " inDungeon " .. tostring(GSE.inDungeon) .. " inHeroic " ..
-                              tostring(GSE.inHeroic) .. " inArena " .. tostring(GSE.inArena) .. " inTimeWalking " ..
-                              tostring(GSE.inTimeWalking) .. " inMythicPlus " .. tostring(GSE.inMythicPlus) ..
-                              " inScenario " .. tostring(GSE.inScenario), Statics.DebugModules["API"])
+    GSE.PrintDebugMessage(
+        table.concat(
+            {
+                "PVP: ",
+                tostring(GSE.PVPFlag),
+                " inMythic: ",
+                tostring(GSE.inMythic),
+                " inRaid: ",
+                tostring(GSE.inRaid),
+                " inDungeon ",
+                tostring(GSE.inDungeon),
+                " inHeroic ",
+                tostring(GSE.inHeroic),
+                " inArena ",
+                tostring(GSE.inArena),
+                " inTimeWalking ",
+                tostring(GSE.inTimeWalking),
+                " inMythicPlus ",
+                tostring(GSE.inMythicPlus),
+                " inScenario ",
+                tostring(GSE.inScenario)
+            }
+        ),
+        Statics.DebugModules["API"]
+    )
+    -- Force Reload of all Sequences
+    GSE.UnsavedOptions.ReloadQueued = nil
     GSE.ReloadSequences()
 end
 
@@ -133,10 +188,11 @@ function GSE:PLAYER_ENTERING_WORLD()
     GSE.PerformOneOffEvents()
     GSE.PrintAvailable = true
     GSE.PerformPrint()
+    GSE.currentZone = GetRealZoneText()
+    GSE:ZONE_CHANGED_NEW_AREA()
 end
 
 function GSE:ADDON_LOADED(event, addon)
-
     GSE.LoadStorage(GSE.Library)
 
     if GSE.isEmpty(GSE.Library[GSE.GetCurrentClassID()]) then
@@ -146,32 +202,8 @@ function GSE:ADDON_LOADED(event, addon)
         GSE.Library[0] = {}
     end
 
-    local counter = 0
-
-    for k, v in pairs(GSE.Library[GSE.GetCurrentClassID()]) do
-        counter = counter + 1
-        for i, j in ipairs(v.MacroVersions) do
-            GSE.Library[GSE.GetCurrentClassID()][k].MacroVersions[tonumber(i)] = GSE.UnEscapeSequence(j)
-        end
-    end
-    if not GSE.isEmpty(GSE.Library[0]) then
-        for k, v in pairs(GSE.Library[0]) do
-            counter = counter + 1
-            for i, j in ipairs(v.MacroVersions) do
-                GSE.Library[0][k].MacroVersions[tonumber(i)] = GSE.UnEscapeSequence(j)
-            end
-        end
-    end
-    if counter <= 0 then
-        if GSEOptions.PromptSample then
-            if table.getn(Statics.SampleMacros) > 0 then
-                StaticPopup_Show("GSE-SampleMacroDialog")
-            end
-        end
-    end
     GSE.PrintDebugMessage("I am loaded")
 
-    GSE:ZONE_CHANGED_NEW_AREA()
     GSE:SendMessage(Statics.CoreLoadedMessage)
 
     -- Register the Sample Macros
@@ -181,12 +213,21 @@ function GSE:ADDON_LOADED(event, addon)
 
     GSE:RegisterMessage(Statics.ReloadMessage, "processReload")
 
+    table.insert(seqnames, "GSE2 Macros")
+    GSE.RegisterAddon("GSE2Library", GSE.VersionString, seqnames)
+
+    GSE:RegisterMessage(Statics.ReloadMessage, "processReload")
+
     LibStub("AceConfig-3.0"):RegisterOptionsTable("GSE", GSE.GetOptionsTable(), {"gseo"})
     if addon == GNOME then
-        LibStub("AceConfigDialog-3.0"):AddToBlizOptions("GSE", "|cffff0000GSE:|r Gnome Sequencer Enhanced")
+        LibStub("AceConfigDialog-3.0"):AddToBlizOptions("GSE", "|cffff0000GSE:|r Advanced Macro Compiler")
         if not GSEOptions.HideLoginMessage then
-            GSE.Print(GSEOptions.AuthorColour .. L["GnomeSequencer-Enhanced loaded.|r  Type "] ..
-                          GSEOptions.CommandColour .. L["/gs help|r to get started."], GNOME)
+            GSE.Print(
+                GSEOptions.AuthorColour ..
+                    L["GSE: Advanced Macro Compiler loaded.|r  Type "] ..
+                        GSEOptions.CommandColour .. L["/gse help|r to get started."],
+                GNOME
+            )
         end
     end
 
@@ -225,17 +266,20 @@ function GSE:ADDON_LOADED(event, addon)
         GSEOptions.MacroResetModifiers["Alt"] = GSEOptions.MacroResetModifiers["AnyAlt"]
         GSEOptions.MacroResetModifiers["AnyAlt"] = nil
     end
-
 end
 
 function GSE:UNIT_SPELLCAST_SUCCEEDED(event, unit, action)
+    -- UPDATE for GSE3
     if unit == "player" then
         local _, GCD_Timer = GetSpellCooldown(61304)
         GCD = true
-        GCD_Update_Timer = C_Timer.After(GCD_Timer, function()
-            GCD = nil;
-            GSE.PrintDebugMessage("GCD OFF")
-        end)
+        C_Timer.After(
+            GCD_Timer,
+            function()
+                GCD = nil
+                GSE.PrintDebugMessage("GCD OFF")
+            end
+        )
         GSE.PrintDebugMessage("GCD Delay:" .. " " .. GCD_Timer)
         GSE.CurrentGCD = GCD_Timer
 
@@ -245,21 +289,20 @@ function GSE:UNIT_SPELLCAST_SUCCEEDED(event, unit, action)
         if not GSE.isEmpty(fskilltype) then
             if GSE.RecorderActive then
                 GSE.GUIRecordFrame.RecordSequenceBox:SetText(
-                    GSE.GUIRecordFrame.RecordSequenceBox:GetText() .. "/cast " .. spell .. "\n")
+                    GSE.GUIRecordFrame.RecordSequenceBox:GetText() .. "/cast " .. spell .. "\n"
+                )
             end
         end
     end
 end
 
 function GSE:PLAYER_REGEN_ENABLED(unit, event, addon)
-    GSE:UnregisterEvent('PLAYER_REGEN_ENABLED')
-    if GSEOptions.resetOOC then
+    GSE:UnregisterEvent("PLAYER_REGEN_ENABLED")
+    if GSE.GetResetOOC() then
         GSE.ResetButtons()
     end
-    GSE:RegisterEvent('PLAYER_REGEN_ENABLED')
+    GSE:RegisterEvent("PLAYER_REGEN_ENABLED")
 end
-
-local IgnoreMacroUpdates = false
 
 function GSE:PLAYER_LOGOUT()
     GSE.PrepareLogout()
@@ -273,61 +316,132 @@ function GSE:PLAYER_LEVEL_UP()
     GSE.ReloadSequences()
 end
 
+function GSE:CHARACTER_POINTS_CHANGED()
+    GSE.ReloadSequences()
+end
+
+function GSE:SPELLS_CHANGED()
+    GSE.ReloadSequences()
+end
+
+function GSE:ACTIVE_TALENT_GROUP_CHANGED()
+    GSE.ReloadSequences()
+end
+
+function GSE:PLAYER_PVP_TALENT_UPDATE()
+    GSE.ReloadSequences()
+end
+
 function GSE:GROUP_ROSTER_UPDATE(...)
     -- Serialisation stuff
     GSE.sendVersionCheck()
-    for k, v in pairs(GSE.UnsavedOptions["PartyUsers"]) do
+    for k, _ in pairs(GSE.UnsavedOptions["PartyUsers"]) do
         if not (UnitInParty(k) or UnitInRaid(k)) then
             -- Take them out of the list
             GSE.UnsavedOptions["PartyUsers"][k] = nil
         end
-
+    end
+    local channel
+    if IsInRaid() then
+        channel =
+            (not IsInRaid(LE_PARTY_CATEGORY_HOME) and IsInRaid(LE_PARTY_CATEGORY_INSTANCE)) and "INSTANCE_CHAT" or
+            "RAID"
+    else
+        channel =
+            (not IsInGroup(LE_PARTY_CATEGORY_HOME) and IsInGroup(LE_PARTY_CATEGORY_INSTANCE)) and "INSTANCE_CHAT" or
+            "PARTY"
+    end
+    if #GSE.UnsavedOptions["PartyUsers"] > 1 then
+        GSE.SendSpellCache(channel)
     end
     -- Group Team stuff
     GSE:ZONE_CHANGED_NEW_AREA()
 end
 
+function GSE:GUILD_ROSTER_UPDATE(...)
+    -- Serialisation stuff
+    GSE.sendVersionCheck("GUILD")
+end
+
 GSE:RegisterEvent("GROUP_ROSTER_UPDATE")
-GSE:RegisterEvent('PLAYER_LOGOUT')
-GSE:RegisterEvent('PLAYER_ENTERING_WORLD')
-GSE:RegisterEvent('PLAYER_REGEN_ENABLED')
-GSE:RegisterEvent('ADDON_LOADED')
-GSE:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED')
+GSE:RegisterEvent("PLAYER_LOGOUT")
+GSE:RegisterEvent("PLAYER_ENTERING_WORLD")
+GSE:RegisterEvent("PLAYER_REGEN_ENABLED")
+GSE:RegisterEvent("ADDON_LOADED")
+GSE:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
 GSE:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 GSE:RegisterEvent("UNIT_FACTION")
 GSE:RegisterEvent("PLAYER_LEVEL_UP")
+GSE:RegisterEvent("GUILD_ROSTER_UPDATE")
+
 if GSE.GameMode > 8 then
     GSE:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
+    GSE:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED")
+    GSE:RegisterEvent("PLAYER_PVP_TALENT_UPDATE")
+end
+
+if GSE.GameMode <= 3 then
+    GSE:RegisterEvent("CHARACTER_POINTS_CHANGED")
+    GSE:RegisterEvent("SPELLS_CHANGED")
 end
 
 local function PrintGnomeHelp()
     GSE.Print(L["GnomeSequencer was originally written by semlar of wowinterface.com."], GNOME)
     GSE.Print(
-        L["GSE is a complete rewrite of that addon that allows you create a sequence of macros to be executed at the push of a button."],
-        GNOME)
+        L[
+            "GSE is a complete rewrite of that addon that allows you create a sequence of macros to be executed at the push of a button."
+        ],
+        GNOME
+    )
     GSE.Print(
-        L["Like a /castsequence macro, it cycles through a series of commands when the button is pushed. However, unlike castsequence, it uses macro text for the commands instead of spells, and it advances every time the button is pushed instead of stopping when it can't cast something."],
-        GNOME)
+        L[
+            "Like a /castsequence macro, it cycles through a series of commands when the button is pushed. However, unlike castsequence, it uses macro text for the commands instead of spells, and it advances every time the button is pushed instead of stopping when it can't cast something."
+        ],
+        GNOME
+    )
     GSE.Print(
-        L["This version has been modified by TimothyLuke to make the power of GnomeSequencer avaialble to people who are not comfortable with lua programming."],
-        GNOME)
-    GSE.Print(L["To get started "] .. GSEOptions.CommandColour ..
-                  L["/gs|r will list any macros available to your spec.  This will also add any macros available for your current spec to the macro interface."],
-        GNOME)
-    GSE.Print(L["The command "] .. GSEOptions.CommandColour ..
-                  L["/gs showspec|r will show your current Specialisation and the SPECID needed to tag any existing macros."],
-        GNOME)
-    GSE.Print(L["The command "] .. GSEOptions.CommandColour ..
-                  L["/gs cleanorphans|r will loop through your macros and delete any left over GS-E macros that no longer have a sequence to match them."],
-        GNOME)
-    GSE.Print(L["The command "] .. GSEOptions.CommandColour ..
-                  L["/gs checkmacrosforerrors|r will loop through your macros and check for corrupt macro versions.  This will then show how to correct these issues."],
-        GNOME)
+        L[
+            "This version has been modified by TimothyLuke to make the power of GnomeSequencer avaialble to people who are not comfortable with lua programming."
+        ],
+        GNOME
+    )
+    GSE.Print(
+        L["To get started "] ..
+            GSEOptions.CommandColour ..
+                L[
+                    "/gse|r will list any macros available to your spec.  This will also add any macros available for your current spec to the macro interface."
+                ],
+        GNOME
+    )
+    GSE.Print(
+        L["The command "] ..
+            GSEOptions.CommandColour ..
+                L[
+                    "/gse showspec|r will show your current Specialisation and the SPECID needed to tag any existing macros."
+                ],
+        GNOME
+    )
+    GSE.Print(
+        L["The command "] ..
+            GSEOptions.CommandColour ..
+                L[
+                    "/gse cleanorphans|r will loop through your macros and delete any left over GSE macros that no longer have a sequence to match them."
+                ],
+        GNOME
+    )
+    GSE.Print(
+        L["The command "] ..
+            GSEOptions.CommandColour ..
+                L[
+                    "/gse checkmacrosforerrors|r will loop through your macros and check for corrupt macro versions.  This will then show how to correct these issues."
+                ],
+        GNOME
+    )
 end
 
-GSE:RegisterChatCommand("gsse", "GSSlash")
 GSE:RegisterChatCommand("gs", "GSSlash")
 GSE:RegisterChatCommand("gse", "GSSlash")
+GSE:RegisterChatCommand("gsse", "GSSlash")
 
 -- Functions
 --- Handle slash commands
@@ -339,25 +453,20 @@ function GSE:GSSlash(input)
     local command = string.lower(input)
     if command == "showspec" then
         if GSE.GameMode == 1 then
-            GSE.Print(L["Your ClassID is "] .. currentclassId .. ' ' .. Statics.SpecIDList[currentclassId], GNOME)
+            GSE.Print(L["Your ClassID is "] .. currentclassId .. " " .. Statics.SpecIDList[currentclassId], GNOME)
         else
             local currentSpec = GetSpecialization()
             local currentSpecID = currentSpec and select(1, GetSpecializationInfo(currentSpec)) or "None"
             local _, specname, specdescription, specicon, _, specrole, specclass =
                 GetSpecializationInfoByID(currentSpecID)
-            GSE.Print(L["Your current Specialisation is "] .. currentSpecID .. ':' .. specname ..
-                          L["  The Alternative ClassID is "] .. currentclassId, GNOME)
+            GSE.Print(
+                L["Your current Specialisation is "] ..
+                    currentSpecID .. ":" .. specname .. L["  The Alternative ClassID is "] .. currentclassId,
+                GNOME
+            )
         end
     elseif command == "help" then
         PrintGnomeHelp()
-    elseif command == "gse3" then
-        local seqName = params[2]
-        if not GSE.isEmpty(seqName) then
-            local classID = params[3] and params[3] or GSE.GetCurrentClassID()
-            print(classID)
-            _G["GSE3"].TextBox:SetText(GSE.Dump(GSE.ConvertGSE2(GSE.Library[classID][seqName], seqName)))
-            _G["GSE3"]:Show()
-        end
     elseif command == "cleanorphans" or command == "clean" then
         GSE.CleanOrphanSequences()
     elseif command == "forceclean" then
@@ -366,23 +475,15 @@ function GSE:GSSlash(input)
     elseif command == "showdebugoutput" then
         StaticPopup_Show("GS-DebugOutput")
     elseif command == "record" then
+        GSE.CheckGUI()
         if GSE.UnsavedOptions["GUI"] then
             GSE.GUIRecordFrame:Show()
-        else
-            GSE.printNoGui()
         end
     elseif command == "debug" then
+        GSE.CheckGUI()
         if GSE.UnsavedOptions["GUI"] then
             GSE.GUIShowDebugWindow()
-        else
-            GSE.printNoGui()
         end
-
-    elseif command == "compilemissingspells" then
-        GSE.Print("Compiling Language Table errors.  If the game hangs please be patient.")
-        GSE.ReportUnfoundSpells()
-        GSE.Print(
-            "Language Spells compiled.  Please exit the game and obtain the values from WTF/AccountName/SavedVariables/GSE.lua")
     elseif command == "resetoptions" then
         GSE.SetDefaultOptions()
         GSE.Print(L["Options have been reset to defaults."])
@@ -395,13 +496,10 @@ function GSE:GSSlash(input)
     elseif command == "checkmacrosforerrors" then
         GSE.ScanMacrosForErrors()
     elseif command == "compressstring" then
+        GSE.CheckGUI()
         if GSE.UnsavedOptions["GUI"] then
             GSE.GUICompressFrame:Show()
-        else
-            GSE.printNoGui()
         end
-    elseif command == 'testlink' then
-        print("|cFFFFFF00|Hgarrmission:GSE:foo|h[Some Clickable Message]|h|r")
     elseif command == "dumpmacro" then
         GSE_C[params[2]] = {}
         GSE_C[params[2]].name = params[2]
@@ -409,21 +507,22 @@ function GSE:GSSlash(input)
         GSE_C[params[2]].button = _G[params[2]]
     elseif command == "recompilesequences" then
         GSE.ReloadSequences()
-    elseif command == "reloadLegacyStorage" then
-        GSE.ImportLegacyStorage(GSELegacyLibraryBackup)
+    elseif string.lower(command) == "clearoocqueue" then
+        GSE.OOCQueue = {}
     else
+        GSE.CheckGUI()
         if GSE.UnsavedOptions["GUI"] then
             GSE.GUIShowViewer()
-        else
-            GSE.printNoGui()
         end
-
     end
 end
 
 function GSE:processReload(action, arg)
     if arg == "Samples" then
         GSE.LoadSampleMacros(GSE.GetCurrentClassID())
+    end
+    if arg == "GSE2Library" then
+        GSE.UpdateGSE2LibrarytoGSE3()
     end
 end
 
@@ -433,7 +532,7 @@ end
 
 --- Start the OOC Queue Timer
 function GSE.StartOOCTimer()
-    GSE.OOCTimer = GSE:ScheduleRepeatingTimer("ProcessOOCQueue", 1)
+    GSE.OOCTimer = GSE:ScheduleRepeatingTimer("ProcessOOCQueue", 8)
 end
 
 --- Stop the OOC Queue Timer
@@ -443,6 +542,11 @@ function GSE.StopOOCTimer()
 end
 
 function GSE:ProcessOOCQueue()
+    -- check ZONE_CHANGED_NEW_AREA issues
+    if GSE.currentZone ~= GetRealZoneText() then
+        GSE:ZONE_CHANGED_NEW_AREA()
+        GSE.currentZone = GetRealZoneText()
+    end
     for k, v in ipairs(GSE.OOCQueue) do
         if not InCombatLockdown() then
             if v.action == "UpdateSequence" then
@@ -454,13 +558,13 @@ function GSE:ProcessOOCQueue()
                     GSE.AddSequenceToCollection(v.sequencename, v.sequence, v.classid)
                 else
                     GSE.ReplaceMacro(v.classid, v.sequencename, v.sequence)
+                    GSE.UpdateSequence(v.sequencename, v.sequence.Macros[GSE.GetActiveSequenceVersion(v.sequencename)])
                 end
                 if v.checkmacro then
                     GSE.CheckMacroCreated(v.sequencename, v.checkmacro)
                 end
-                GSE.UpdateSequence(v.sequencename,
-                    v.sequence.MacroVersions[GSE.GetActiveSequenceVersion(v.sequencename)])
             elseif v.action == "openviewer" then
+                GSE.CheckGUI()
                 GSE.GUIShowViewer()
             elseif v.action == "CheckMacroCreated" then
                 GSE.OOCCheckMacroCreated(v.sequencename, v.create)
@@ -489,13 +593,17 @@ function GSE.prepareTooltipOOCLine(tooltip, OOCEvent, row, oockey)
     elseif OOCEvent.action == "CheckMacroCreated" then
         tooltip:SetCell(row, 3, OOCEvent.sequencename, "RIGHT", 1)
     end
-    tooltip:SetLineScript(row, "OnMouseUp", function()
-        GSE.OOCQueue[oockey] = nil
-    end)
+    tooltip:SetLineScript(
+        row,
+        "OnMouseUp",
+        function()
+            table.remove(GSE.OOCQueue, oockey)
+        end
+    )
 end
 
 function GSE.CheckOOCQueueStatus()
-    local output = ""
+    local output
     if GSE.isEmpty(GSE.OOCTimer) then
         output = GSEOptions.UNKNOWN .. L["Paused"] .. Statics.StringReset
     else
@@ -516,12 +624,21 @@ function GSE.ToggleOOCQueue()
     end
 end
 
--- process chatlinks
-hooksecurefunc("SetItemRef", function(link)
-	local linkType, addon, param1 = strsplit(":", link)
-	if linkType == "garrmission" and addon == "GSE" then
-		if param1 == "foo" then
-			print(link)
-		end
-	end
-end)
+function GSE.CheckGUI()
+    local loaded, reason = LoadAddOn("GSE_GUI")
+    if not loaded then
+        if reason == "DISABLED" then
+            GSE.PrintDebugMessage("GSE GUI Disabled", "GSE_GUI")
+            GSE.Print(
+                L["The GUI has not been loaded.  Please activate this plugin amongst WoW's addons to use the GSE GUI."]
+            )
+        elseif reason == "MISSING" then
+            GSE.Print(L["The GUI is missing.  Please ensure that your GSE install is complete."])
+        elseif reason == "CORRUPT" then
+            GSE.Print(L["The GUI is corrupt.  Please ensure that your GSE install is complete."])
+        elseif reason == "INTERFACE_VERSION" then
+            GSE.Print(L["The GUI needs updating.  Please ensure that your GSE install is complete."])
+        end
+    end
+    return loaded
+end

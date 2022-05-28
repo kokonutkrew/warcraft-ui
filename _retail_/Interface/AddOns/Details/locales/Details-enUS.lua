@@ -407,6 +407,11 @@ L["STRING_OPTIONS_3D_UANCHOR"] = "Upper 3D Model:"
 L["STRING_OPTIONS_3D_UENABLED_DESC"] = "Enabled or Disable the usage of a 3d model frame above the bars."
 L["STRING_OPTIONS_3D_USELECT_DESC"] = "Choose which model will be used on the upper model bar."
 L["STRING_OPTIONS_ADVANCED"] = "Advanced"
+L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS"] = "Aligned Text Columns"
+L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_DESC"] = "Disable brackets and separators and align bars texts in vertical columns"
+L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET"] = "Text %d Offset"
+L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET_DESC"] = "Offset from right border"
+L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_WARNING"] = "is enabled, separators and brackets aren't used"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Auto Hide:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Use On All Characters"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "The same profile is used on all characters. You may override this on any character by just selecting another existing profile."
@@ -692,10 +697,12 @@ L["STRING_OPTIONS_ED_DESC"] = [=[|cFFFFFF00Manually|r: the user needs to click o
 L["STRING_OPTIONS_ED1"] = "Manually"
 L["STRING_OPTIONS_ED2"] = "Prompt"
 L["STRING_OPTIONS_ED3"] = "Auto"
+L["STRING_OPTIONS_EDIT_CUSTOM_TEXT"] = "Edit Custom Text"
 L["STRING_OPTIONS_EDITIMAGE"] = "Edit Image"
 L["STRING_OPTIONS_EDITINSTANCE"] = "Editing Window:"
 L["STRING_OPTIONS_ERASECHARTDATA"] = "Erase Charts"
 L["STRING_OPTIONS_ERASECHARTDATA_DESC"] = "During logout, all combat data gathered to create charts is erased."
+L["STRING_OPTIONS_EXPORT_PROFILE"] = "Export Profile"
 L["STRING_OPTIONS_EXTERNALS_TITLE"] = "Externals Widgets"
 L["STRING_OPTIONS_EXTERNALS_TITLE2"] = "These options control the behavior of many foreign widgets."
 L["STRING_OPTIONS_GENERAL"] = "General Settings"
@@ -727,6 +734,9 @@ L["STRING_OPTIONS_ILVL_TRACKER_DESC"] = [=[When enabled and out of combat, the a
 
 If disabled, it still reads item level from queries of other addons or when you manually inspect another player.]=]
 L["STRING_OPTIONS_ILVL_TRACKER_TEXT"] = "Enabled"
+L["STRING_OPTIONS_IMPORT_PROFILE"] = "Import Profile"
+L["STRING_OPTIONS_IMPORT_PROFILE_NAME"] = "Insert a Name for the New Profile"
+L["STRING_OPTIONS_IMPORT_PROFILE_PASTE"] = "Details! Import Profile (paste string)"
 L["STRING_OPTIONS_INSTANCE_ALPHA2"] = "Background Color"
 L["STRING_OPTIONS_INSTANCE_ALPHA2_DESC"] = "This option lets you change the color of the window background."
 L["STRING_OPTIONS_INSTANCE_BACKDROP"] = "Background Texture"
@@ -848,6 +858,7 @@ L["STRING_OPTIONS_NICKNAME_DESC"] = [=[Set a nickname for you.
 Nicknames are sent to guild members and Details! uses it instead of your character name.]=]
 L["STRING_OPTIONS_OPEN_ROWTEXT_EDITOR"] = "Row Text Editor"
 L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Open Text Editor"
+L["STRING_OPTIONS_OPENBROKER"] = "Open Broker Text Editor"
 L["STRING_OPTIONS_OVERALL_ALL"] = "All Segments"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "All segments are added to overall data."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Overall Data:"
@@ -1493,7 +1504,7 @@ L["STRING_RIGHTCLICK_CLOSE_SHORT"] = "Right click to close."
 L["STRING_RIGHTCLICK_TYPEVALUE"] = "right click to type the value"
 L["STRING_SCORE_BEST"] = "you scored |cFFFFFF00%s|r, this is your best score, congratulations!"
 L["STRING_SCORE_NOTBEST"] = "you scored |cFFFFFF00%s|r, your best score is |cFFFFFF00%s|r on %s with %d item level."
-L["STRING_SCRIPTS_TITLE"] = "Left options menu, this was called \"Custom Displays\" in the past"
+L["STRING_SCRIPTS_TITLE"] = "Scripts"
 L["STRING_SEE_BELOW"] = "see below"
 L["STRING_SEGMENT"] = "Segment"
 L["STRING_SEGMENT_EMPTY"] = "this segment is empty"
@@ -1579,11 +1590,17 @@ L["STRING_UNLOCK"] = [=[Ungroup windows
  in this button]=]
 L["STRING_UNLOCK_WINDOW"] = "unlock"
 L["STRING_UPTADING"] = "updating"
-L["STRING_VERSION_AVAILABLE"] = "a new version is available, download it from Twitch App or Curse website."
+L["STRING_VERSION_AVAILABLE"] = "a new version is available, download it from Curse Forge app or website."
 L["STRING_VERSION_UPDATE"] = "new version: what's changed? click here"
 L["STRING_VOIDZONE_TOOLTIP"] = "Damage and Time"
-L["STRING_WAITPLUGIN"] = [=[waiting for
-plugins]=]
+L["STRING_WAITPLUGIN"] = [=[  Plugin not Available, Please Check:
+
+- Esc > Addons > if is enabled there.
+- Plugins page in Details! options.
+- Plugin opened in another window.
+- Plugin in use in a closed window.
+
+]=]
 L["STRING_WAVE"] = "wave"
 L["STRING_WELCOME_1"] = [=[|cFFFFFFFFWelcome to Details! Quick Setup Wizard|r
 

@@ -125,7 +125,22 @@
 	function combate:GetDeaths()
 		return self.last_events_tables
 	end
-	
+
+	function combate:GetPlayerDeaths(deadPlayerName)
+		local allDeaths = self:GetDeaths()
+		local deaths = {}
+
+		for i = 1, #allDeaths do
+			local thisDeath = allDeaths[i]
+			local thisPlayerName = thisDeath[3]
+			if (deadPlayerName == thisPlayerName) then
+				deaths[#deaths+1] = thisDeath
+			end
+		end
+
+		return deaths
+	end
+
 	function combate:GetCombatId()
 		return self.combat_id
 	end
@@ -337,7 +352,7 @@
 	local tremove = _G.tremove
 
 	--delete an actor from the combat ~delete ~erase ~remove
-	function combate:DeleteActor(attribute, actorName, removeDamageTaken)
+	function combate:DeleteActor(attribute, actorName, removeDamageTaken, cannotRemap)
 		local container = self[attribute]
 		if (container) then
 
@@ -411,7 +426,10 @@
 				tremove(container._ActorTable, index)
 
 				--remap
-				container:Remap()
+				if (not cannotRemap) then
+					container:Remap()
+				end
+				return true
 			end
 		end
 	end

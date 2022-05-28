@@ -1,0 +1,16 @@
+﻿## Interface: 90200
+## Title: GladiatorlosSA
+## Notes: PvP Sound Alerter
+## Author: xGrit
+## SavedVariables: GladiatorlosSADB
+## Version: 3.14.1
+
+embeds.xml
+Locales\locales.xml
+
+GladiatorlosSA2.lua
+spelllist.lua
+options.lua
+
+ClassicEra\options_TBC.lua
+ClassicEra\spelllist_TBC.lua

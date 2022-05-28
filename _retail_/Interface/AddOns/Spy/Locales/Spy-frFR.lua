@@ -12,7 +12,9 @@ L["Profiles"] = "Profils"
 L["About"] = "Info"
 L["SpyDescription1"] = [[
 SPY est un addon qui vous avertit de la présence de joueurs ennemis à proximité. Ce sont quelques-unes des principales caractéristiques.
+
 ]]
+
 L["SpyDescription2"] = [[
 |cffffd000Liste des ennemis à proximité|cffffffff
 Affiche les joueurs ennemis qui ont été détectés à proximité. Les joueurs sont retirés de la liste s'ils n'ont pas été détectés après un certain temps.
@@ -24,10 +26,11 @@ Affiche tous les ennemis qui ont été détectés au cours de la dernière heure
 Les joueurs qui sont ajoutés à la liste d'ignorés ne seront pas signalés par Spy. Vous pouvez ajouter et supprimer des joueurs de cette liste en utilisant le menu déroulant du bouton ou en maintenant la touche Ctrl enfoncée tout en cliquant sur le bouton.
 
 |cffffd000Liste des Tuer à vue|cffffffff
-Les joueurs de votre liste \"Tuer à vue\" déclenchent une alarme lorsqu'ils sont détectés. Vous pouvez ajouter et supprimer des joueurs de cette liste en utilisant le menu déroulant du bouton ou en maintenant la touche Maj enfoncée tout en cliquant sur le bouton.
+Les joueurs de votre liste \"Tuer à vue\" déclenchent une alarme lorsqu'ils sont détectés. Vous pouvez ajouter et supprimer des joueurs de cette liste en utilisant le menu déroulant du bouton ou en maintenant la touche Maj enfoncée tout en cliquant sur le bouton. Le menu déroulant peut également être utilisé pour définir les raisons pour lesquelles vous avez ajouté quelqu'un à la liste "Tuer à vue". Si vous voulez entrer un raison spécifique qui n'est pas dans la liste, utilisez le bouton "Entrez votre propre raison ..." dans la liste "Autre".
 
-Le menu déroulant peut également être utilisé pour définir les raisons pour lesquelles vous avez ajouté quelqu'un à la liste "Tuer à vue". Si vous voulez entrer un raison spécifique qui n'est pas dans la liste, utilisez le bouton "Entrez votre propre raison ..." dans la liste "Autre".
+]]
 
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons. 
 
@@ -72,6 +75,8 @@ L["Silithus"] = "Silithus"
 L["Chamber of Heart"] = "Chambre du Cœur"
 L["Hall of Ancient Paths"] = "Hall des Voies antiques"
 L["Sanctum of the Sages"] = "Sanctum des Sages"
+L["Rustbolt"] = "Mécarouille"
+L["Oribos"] = "Oribos"
 
 -- Display
 L["DisplayOptions"] = "Affichage"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "N'affiche que les ennemis détectés dans 
 -- Data Management
 L["DataOptions"] = "Gestion des données"
 L["DataOptionsDescription"] = [[
+
 Options sur la façon dont Spy maintient et recueille les données.
 ]]
 L["PurgeData"] = "Purger les données des joueurs ennemis non détectés après:"
@@ -286,6 +292,7 @@ L["Time"] = "Temps"
 L["List"] = "Liste"
 L["Filter"] = "filtre"
 L["Show Only"] = "Afficher seulement"
+L["Realm"] = "Realm"
 L["KOS"] = "TAV"
 L["Won/Lost"] = "Victoire/Défaite"
 L["Reason"] = "Raison"	 

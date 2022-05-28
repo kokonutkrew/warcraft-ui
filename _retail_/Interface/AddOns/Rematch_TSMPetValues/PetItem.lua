@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- PetItem.lua - Pet Item Functions
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 
@@ -35,26 +35,17 @@ function PetItem:Login()
 	----------------------------------------------------------------------------------------------------
 	-- TSM API Compatibility Layer
 
-	if TSMAPI and TSMAPI.ValidateCustomPrice then
-		PetItem:DebugPrintf("  found TSM3 and use TSMAPI.ValidateCustomPrice for addon.ValidateCustomPrice")
-		addon.ValidateCustomPrice = function(...) return TSMAPI:ValidateCustomPrice(...) end
-	elseif TSM_API and TSM_API.IsCustomPriceValid then
+	if TSM_API and TSM_API.IsCustomPriceValid then
 		PetItem:DebugPrintf("  found TSM4 and use TSM_API.IsCustomPriceValid for addon.ValidateCustomPrice")
 		addon.ValidateCustomPrice = TSM_API.IsCustomPriceValid
 	end
 
-	if TSMAPI and TSMAPI.GetCustomPriceValue then
-		PetItem:DebugPrintf("  found TSM3 and use TSMAPI.GetCustomPriceValue for addon.GetCustomPriceValue")
-		addon.GetCustomPriceValue = function(...) return TSMAPI:GetCustomPriceValue(...) end
-	elseif TSM_API and TSM_API.GetCustomPriceValue then
+	if TSM_API and TSM_API.GetCustomPriceValue then
 		PetItem:DebugPrintf("  found TSM4 and use TSM_API.GetCustomPriceValue for addon.GetCustomPriceValue")
 		addon.GetCustomPriceValue = TSM_API.GetCustomPriceValue
 	end
 
-	if TSMAPI and TSMAPI.MoneyToString then
-		PetItem:DebugPrintf("  found TSM3 and use TSMAPI.MoneyToString for addon.MoneyToString")
-		addon.MoneyToString = function(...) return TSMAPI:MoneyToString(...) end
-	elseif TSM_API and TSM_API.FormatMoneyString then
+	if TSM_API and TSM_API.FormatMoneyString then
 		PetItem:DebugPrintf("  found TSM4 and use TSM_API.FormatMoneyString for addon.MoneyToString")
 		addon.MoneyToString = function(...)
 			local v = TSM_API.FormatMoneyString(...)

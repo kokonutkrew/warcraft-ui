@@ -23,6 +23,7 @@ end
     ~16 - custom spells
     ~17 - charts data
     ~18 - mythic dungeon
+    ~19 - search results
 --]]
 
 
@@ -335,11 +336,12 @@ do
                 name = Loc ["STRING_OPTIONS_ED"],
                 desc = Loc ["STRING_OPTIONS_ED_DESC"],
             },
+
             {--auto erase trash segments
                 type = "toggle",
-                get = function() return _detalhes.overall_clear_logout end,
+                get = function() return _detalhes.trash_auto_remove end,
                 set = function (self, fixedparam, value)
-                    _detalhes:SetOverallResetOptions(nil, nil, value)
+                    _detalhes.trash_auto_remove = value
                     afterUpdate()
                 end,
                 name = Loc ["STRING_OPTIONS_CLEANUP"],
@@ -559,6 +561,8 @@ do
                 desc = Loc ["STRING_OPTIONS_WC_BOOKMARK_DESC"],
             },
 
+            {type = "blank"},
+
             {--click through
                 type = "toggle",
                 get = function() return currentInstance.clickthrough_window end,
@@ -581,6 +585,32 @@ do
             },
 
             {type = "blank"},
+
+            {type = "label", get = function() return "Immersion" end, text_template = subSectionTitleTextTemplate}, --localize-me
+            {--show pets when solo
+                type = "toggle",
+                get = function() return Details.immersion_pets_on_solo_play end,
+                set = function (self, fixedparam, value)
+                    Details.immersion_pets_on_solo_play = value
+                    afterUpdate()
+                end,
+                name = "Show pets when solo", --localize-me
+                desc = "Show pets when solo",
+            },
+
+            {--always show players even on stardard mode
+                type = "toggle",
+                get = function() return _detalhes.all_players_are_group end,
+                set = function (self, fixedparam, value)
+                    _detalhes.all_players_are_group = value
+                    afterUpdate()
+                end,
+                name = Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS"],
+                desc = Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"],
+            },
+
+
+            {type = "breakline"},
             {type = "label", get = function() return Loc ["STRING_OPTIONS_SOCIAL"] end, text_template = subSectionTitleTextTemplate},
             {--nickname
                 type = "textentry",
@@ -630,32 +660,38 @@ do
             },
 
             {type = "blank"},
+            {type = "label", get = function() return "Your Self" end, text_template = subSectionTitleTextTemplate},
 
-            {type = "label", get = function() return "Immersion" end, text_template = subSectionTitleTextTemplate}, --localize-me
-            {--show pets when solo
+            {--player bar color toggle
                 type = "toggle",
-                get = function() return Details.immersion_pets_on_solo_play end,
+                get = function() return Details.use_self_color end,
                 set = function (self, fixedparam, value)
-                    Details.immersion_pets_on_solo_play = value
+                    Details.use_self_color = value
                     afterUpdate()
                 end,
-                name = "Show pets when solo", --localize-me
-                desc = "Show pets when solo",
+                name = "Use Different Color for You",
+                desc = "Use a different color on your own bar",
             },
 
-            {--always show players even on stardard mode
-                type = "toggle",
-                get = function() return _detalhes.all_players_are_group end,
-                set = function (self, fixedparam, value)
-                    _detalhes.all_players_are_group = value
+			{--player bar color
+				type = "color",
+                get = function()
+                    local r, g, b = unpack(Details.class_colors.SELF)
+                    return {r, g, b, 1}
+				end,
+				set = function (self, r, g, b, a)
+                    Details.class_colors.SELF[1] = r
+                    Details.class_colors.SELF[2] = g
+                    Details.class_colors.SELF[3] = b
                     afterUpdate()
-                end,
-                name = Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS"],
-                desc = Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"],
+				end,
+				name = "Your Bar Color",
+				desc = "Your Bar Color",
             },
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize+20, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -710,7 +746,7 @@ do
                 for key, value in pairs (currentInstance) do
                     if (_detalhes.instance_defaults[key] ~= nil) then
                         if (type (value) == "table") then
-                            savedObject[key] = table_deepcopy(value)
+                            savedObject[key] = Details.CopyTable(value)
                         else
                             savedObject[key] = value
                         end
@@ -737,7 +773,7 @@ do
                 for key, value in pairs (skinObject) do
                     if (key ~= "skin" and not _detalhes.instance_skin_ignored_values[key]) then
                         if (type (value) == "table") then
-                            instance[key] = table_deepcopy (value)
+                            instance[key] = Details.CopyTable (value)
                         else
                             instance[key] = value
                         end
@@ -1009,6 +1045,7 @@ do
             },
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -1327,6 +1364,39 @@ do
                 desc = Loc ["STRING_OPTIONS_BAR_COLORBYCLASS_DESC"],
             },
 
+            {type = "blank"},
+            {type = "label", get = function() return "Arena Team Color" end, text_template = subSectionTitleTextTemplate},
+			{--team 1 color
+                type = "color",
+                get = function()
+                    local r, g, b = unpack(Details.class_colors.ARENA_GREEN)
+                    return {r, g, b, 1}
+                end,
+                set = function (self, r, g, b, a)
+                    Details.class_colors.ARENA_GREEN[1] = r
+                    Details.class_colors.ARENA_GREEN[2] = g
+                    Details.class_colors.ARENA_GREEN[3] = b
+                    afterUpdate()
+                end,
+                name = Loc ["STRING_COLOR"],
+                desc = "Arena team color",
+            },
+			{--team 2 color
+                type = "color",
+                get = function()
+                    local r, g, b = unpack(Details.class_colors.ARENA_YELLOW)
+                    return {r, g, b, 1}
+                end,
+                set = function (self, r, g, b, a)
+                    Details.class_colors.ARENA_YELLOW[1] = r
+                    Details.class_colors.ARENA_YELLOW[2] = g
+                    Details.class_colors.ARENA_YELLOW[3] = b
+                    afterUpdate()
+                end,
+                name = Loc ["STRING_COLOR"],
+                desc = "Arena team color",
+            },
+
             {type = "breakline"},
             {type = "label", get = function() return Loc ["STRING_OPTIONS_TEXT_ROWICONS_ANCHOR"] end, text_template = subSectionTitleTextTemplate},
 
@@ -1431,7 +1501,7 @@ do
             },
 
             {type = "blank"},
-            {type = "label", get = function() return "Inline Text (need better name)" end, text_template = subSectionTitleTextTemplate}, --localize-me
+            {type = "label", get = function() return Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS"] end, text_template = subSectionTitleTextTemplate},
 
             {--inline text enabled
                 type = "toggle",
@@ -1443,7 +1513,7 @@ do
                     afterUpdate()
                 end,
                 name = Loc ["STRING_ENABLED"],
-                desc = "Vertically align texts in the right side as a vertical line.",
+                desc = Loc ["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_DESC"],
             },
 
             {--lineText2 (left, usuali is the 'done' amount)
@@ -1457,8 +1527,8 @@ do
                 min = 0,
                 max = 125,
                 step = 1,
-                name = "Text 1 Position",
-                desc = "Text 1 Position",
+                name = string.format(Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET"], 1),
+                desc = Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET_DESC"],
             },
 
             {--lineText3 (in the middle)
@@ -1472,8 +1542,8 @@ do
                 min = 0,
                 max = 75,
                 step = 1,
-                name = "Text 2 Position",
-                desc = "Text 2 Position",
+                name = string.format(Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET"], 2),
+                desc = Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET_DESC"],
             },
 
             {--lineText4 (closest to the right)
@@ -1487,8 +1557,8 @@ do
                 min = 0,
                 max = 50,
                 step = 1,
-                name = "Text 3 Position",
-                desc = "Text 3 Position",
+                name = string.format(Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET"], 3),
+                desc = Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET_DESC"],
             },
 
             {type = "blank"},
@@ -1530,7 +1600,8 @@ do
             },
         }
 
-        DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
+        sectionFrame.sectionOptions = sectionOptions
+        DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize+20, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
     tinsert(Details.optionsSection, buildSection)
@@ -1612,7 +1683,7 @@ do
         local sectionOptions = {
             {type = "label", get = function() return Loc ["STRING_OPTIONS_GENERAL_ANCHOR"] end, text_template = subSectionTitleTextTemplate},
 
-			{--text color
+			{--text color 1
                 type = "color",
                 get = function()
                     local r, g, b = unpack(currentInstance.row_info.fixed_text_color)
@@ -1625,7 +1696,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_FIXEDCOLOR"],
                 desc = Loc ["STRING_OPTIONS_TEXT_FIXEDCOLOR_DESC"],
             },
-            {--text size
+            {--text size 2 
                 type = "range",
                 get = function() return currentInstance.row_info.font_size end,
                 set = function (self, fixedparam, value)
@@ -1638,7 +1709,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_SIZE"],
                 desc = Loc ["STRING_OPTIONS_TEXT_SIZE_DESC"],
             },
-            {--text font
+            {--text font 3
                 type = "select",
                 get = function() return currentInstance.row_info.font_face end,
                 values = function()
@@ -1647,7 +1718,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_FONT"],
                 desc = Loc ["STRING_OPTIONS_TEXT_FONT_DESC"],
             },
-            {--percent type
+            {--percent type 4
                 type = "select",
                 get = function() return currentInstance.row_info.percent_type end,
                 values = function()
@@ -1658,11 +1729,11 @@ do
             },
             
 
-            {type = "blank"},
-            --left text options
+            {type = "blank"}, --5
+            --left text options 6
             {type = "label", get = function() return Loc ["STRING_OPTIONS_TEXT_LEFT_ANCHOR"] end, text_template = subSectionTitleTextTemplate},
 
-            {--use class colors
+            {--use class colors 7
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_class_colors end,
                 set = function (self, fixedparam, value)
@@ -1672,7 +1743,7 @@ do
                 name = Loc ["STRING_OPTIONS_BAR_COLORBYCLASS"],
                 desc = Loc ["STRING_OPTIONS_TEXT_LCLASSCOLOR_DESC"],
             },
-            {--outline
+            {--outline 8
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_outline end,
                 set = function (self, fixedparam, value)
@@ -1682,7 +1753,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_LOUTILINE"],
                 desc = Loc ["STRING_OPTIONS_TEXT_LOUTILINE_DESC"],
             },
-            {--outline small
+            {--outline small 9
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_outline_small end,
                 set = function (self, fixedparam, value)
@@ -1692,7 +1763,7 @@ do
                 name = "Outline", --localize-me
                 desc = "Text Outline",
             },
-			{--outline small color
+			{--outline small color 10
                 type = "color",
                 get = function()
                     local r, g, b = unpack(currentInstance.row_info.textL_outline_small_color)
@@ -1705,7 +1776,7 @@ do
                 name = "Outline Color",
                 desc = "Outline Color",
             },
-            {--position number
+            {--position number 11
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_show_number end,
                 set = function (self, fixedparam, value)
@@ -1715,7 +1786,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_LPOSITION"],
                 desc = Loc ["STRING_OPTIONS_TEXT_LPOSITION_DESC"],
             },
-            {--translit text
+            {--translit text 12
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_translit_text end,
                 set = function (self, fixedparam, value)
@@ -1726,9 +1797,9 @@ do
                 desc = Loc ["STRING_OPTIONS_TEXT_LTRANSLIT_DESC"],
             },
 
-            {type = "blank"},
+            {type = "blank"}, --13
 
-            {--custom left text
+            {--custom left text 14
                 type = "toggle",
                 get = function() return currentInstance.row_info.textL_enable_custom_text end,
                 set = function (self, fixedparam, value)
@@ -1738,7 +1809,7 @@ do
                 name = Loc ["STRING_OPTIONS_BARLEFTTEXTCUSTOM"],
                 desc = Loc ["STRING_OPTIONS_BARLEFTTEXTCUSTOM_DESC"],
             },
-            {--open custom text editor
+            {--open custom text editor 15
                 type = "execute",
                 func = function(self)
                     local callback = function(text)
@@ -1751,15 +1822,15 @@ do
                 end,
                 icontexture = [[Interface\GLUES\LOGIN\Glues-CheckBox-Check]],
                 --icontexcoords = {160/512, 179/512, 142/512, 162/512},
-                name = "Edit Custom Text", --localize-me
+                name = Loc ["STRING_OPTIONS_EDIT_CUSTOM_TEXT"],
                 desc = Loc ["STRING_OPTIONS_OPEN_ROWTEXT_EDITOR"],
             },
 
-            {type = "breakline"},
-            --right text options
+            {type = "breakline"}, --16
+            --right text options 17
             {type = "label", get = function() return Loc ["STRING_OPTIONS_TEXT_RIGHT_ANCHOR"] end, text_template = subSectionTitleTextTemplate},
 
-            {--use class colors
+            {--use class colors 18
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_class_colors end,
                 set = function (self, fixedparam, value)
@@ -1769,7 +1840,7 @@ do
                 name = Loc ["STRING_OPTIONS_BAR_COLORBYCLASS"],
                 desc = Loc ["STRING_OPTIONS_TEXT_LCLASSCOLOR_DESC"],
             },
-            {--outline
+            {--outline 19
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_outline end,
                 set = function (self, fixedparam, value)
@@ -1779,7 +1850,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_LOUTILINE"],
                 desc = Loc ["STRING_OPTIONS_TEXT_LOUTILINE_DESC"],
             },
-            {--outline small
+            {--outline small 20
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_outline_small end,
                 set = function (self, fixedparam, value)
@@ -1789,7 +1860,7 @@ do
                 name = "Outline", --localize-me
                 desc = "Text Outline",
             },
-			{--outline small color
+			{--outline small color 21
                 type = "color",
                 get = function()
                     local r, g, b = unpack(currentInstance.row_info.textR_outline_small_color)
@@ -1803,9 +1874,9 @@ do
                 desc = "Outline Color",
             },
 
-            {type = "blank"},
+            {type = "blank"}, --22
 
-            {--show total
+            {--show total --23
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_show_data[1] end,
                 set = function (self, fixedparam, value)
@@ -1815,7 +1886,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_SHOW_TOTAL"],
                 desc = Loc ["STRING_OPTIONS_TEXT_SHOW_TOTAL_DESC"],
             },
-            {--show per second
+            {--show per second 24
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_show_data[2] end,
                 set = function (self, fixedparam, value)
@@ -1825,7 +1896,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_SHOW_PS"],
                 desc = Loc ["STRING_OPTIONS_TEXT_SHOW_PS_DESC"],
             },
-            {--show percent
+            {--show percent 25
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_show_data[3] end,
                 set = function (self, fixedparam, value)
@@ -1836,9 +1907,9 @@ do
                 desc = Loc ["STRING_OPTIONS_TEXT_SHOW_PERCENT_DESC"],
             },
 
-            {type = "blank"},
+            {type = "blank"}, --26
 
-            {--separator
+            {--separator 27
                 type = "select",
                 get = function() return currentInstance.row_info.textR_separator end,
                 values = function()
@@ -1847,7 +1918,7 @@ do
                 name = Loc ["STRING_OPTIONS_TEXT_SHOW_SEPARATOR"],
                 desc = Loc ["STRING_OPTIONS_TEXT_SHOW_SEPARATOR_DESC"],
             },
-            {--brackets
+            {--brackets 28
                 type = "select",
                 get = function() return currentInstance.row_info.textR_bracket end,
                 values = function()
@@ -1857,9 +1928,11 @@ do
                 desc = Loc ["STRING_OPTIONS_TEXT_SHOW_BRACKET_DESC"],
             },
 
-            {type = "blank"},
+            {type = "label", get = function() return Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS"] .. " (".. Loc["STRING_OPTIONSMENU_ROWSETTINGS"] ..")\n" .. Loc["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_WARNING"] end, text_template = subSectionTitleTextTemplate}, --29
 
-            {--custom right text
+            {type = "blank"}, --30
+
+            {--custom right text 31
                 type = "toggle",
                 get = function() return currentInstance.row_info.textR_enable_custom_text end,
                 set = function (self, fixedparam, value)
@@ -1869,7 +1942,7 @@ do
                 name = Loc ["STRING_OPTIONS_BARLEFTTEXTCUSTOM"],
                 desc = Loc ["STRING_OPTIONS_BARLEFTTEXTCUSTOM_DESC"],
             },
-            {--open custom text editor
+            {--open custom text editor 32
                 type = "execute",
                 func = function(self)
                     local callback = function(text)
@@ -1882,12 +1955,31 @@ do
                 end,
                 icontexture = [[Interface\GLUES\LOGIN\Glues-CheckBox-Check]],
                 --icontexcoords = {160/512, 179/512, 142/512, 162/512},
-                name = "Edit Custom Text", --localize-me
+                name = Loc ["STRING_OPTIONS_EDIT_CUSTOM_TEXT"],
                 desc = Loc ["STRING_OPTIONS_OPEN_ROWTEXT_EDITOR"],
             },
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
+
+        local separatorOption = sectionFrame.widget_list[23]
+        local bracketOption = sectionFrame.widget_list[24]
+        local warningLabel = sectionFrame.widget_list[25]
+        Details.options.textSeparatorOption = separatorOption
+        Details.options.textbracketOption = bracketOption
+
+        sectionFrame:SetScript("OnShow", function()
+            if (currentInstance.use_multi_fontstrings) then
+                separatorOption:Disable()
+                bracketOption:Disable()
+                warningLabel:Show()
+            else
+                separatorOption:Enable()
+                bracketOption:Enable()
+                warningLabel:Hide()
+            end
+        end)
     end
 
     tinsert(Details.optionsSection, buildSection)
@@ -2344,6 +2436,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -2641,6 +2734,7 @@ do
             },
             
         }
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -2753,6 +2847,8 @@ do
             },
 
         }
+
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
 
         do --> micro displays
@@ -3385,6 +3481,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -3552,10 +3649,11 @@ do
                         _detalhes:ShowImportWindow (str, nil, "Details! Export Profile")
                     end
                 end,
-                name = "Export Profile", --localize-me
+                name = Loc["STRING_OPTIONS_EXPORT_PROFILE"],
                 icontexture = [[Interface\Buttons\UI-GuildButton-MOTD-Up]],
                 icontexcoords = {1, 0, 0, 1},
             },
+
             {--import profile
                 type = "execute",
                 func = function(self)
@@ -3565,12 +3663,12 @@ do
                         end
                         
                         --prompt text panel returns what the user inserted in the text field in the first argument
-                        DF:ShowTextPromptPanel("Insert a Name for the New Profile:", function (newProfileName) --localize-me
+                        DF:ShowTextPromptPanel(Loc["STRING_OPTIONS_IMPORT_PROFILE_NAME"] .. ":", function (newProfileName)
                             Details:ImportProfile (profileString, newProfileName)
                         end)
-                    end, "Details! Import Profile (paste string)") --localize-me
+                    end, Loc["STRING_OPTIONS_IMPORT_PROFILE_PASTE"])
                 end,
-                name = "Import Profile", --localize-me
+                name = Loc["STRING_OPTIONS_IMPORT_PROFILE"],
                 icontexture = [[Interface\BUTTONS\UI-GuildButton-OfficerNote-Up]],
                 icontexcoords = {0, 1, 0, 1},
             },
@@ -3623,6 +3721,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -3998,6 +4097,7 @@ do
             
         }
         
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
         refreshToggleAnchor()
     end
@@ -4102,7 +4202,7 @@ do
                 end,
                 icontexture = [[Interface\HELPFRAME\OpenTicketIcon]],
                 icontexcoords = {.1, .9, .1, .9},
-                name = "Open Broker Text Editor", --localize-me
+                name = Loc ["STRING_OPTIONS_OPENBROKER"],
                 desc = Loc ["STRING_OPTIONS_OPEN_ROWTEXT_EDITOR"],
             },
 
@@ -4145,6 +4245,7 @@ do
             },
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -4548,6 +4649,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
 
         sectionFrame:SetScript("OnShow", function()
@@ -4878,6 +4980,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(autoSwitchFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
 
 
@@ -5457,6 +5560,7 @@ do --raid tools
             },
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -5695,6 +5799,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX + 350, startY - 20 - 200, heightSize + 300, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -5855,6 +5960,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -6274,6 +6380,7 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -6359,6 +6466,21 @@ do
 
         }
 
+        sectionFrame.sectionOptions = sectionOptions
+        DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
+    end
+
+    tinsert(Details.optionsSection, buildSection)
+end
+
+-- ~19 - search results
+do
+    local buildSection = function(sectionFrame)
+
+        local sectionOptions = {
+
+        }
+
         DF:BuildMenu(sectionFrame, sectionOptions, startX, startY-20, heightSize, true, options_text_template, options_dropdown_template, options_switch_template, true, options_slider_template, options_button_template)
     end
 
@@ -6380,3 +6502,4 @@ do
     tinsert(Details.optionsSection, buildSection)
 end
 --]]
+

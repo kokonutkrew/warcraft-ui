@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="OverWolf.Client.Launcher.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+    </sectionGroup>
+    <section name="RemoteControllersSection" type="Overwolf.RemoteController.Config.RemoteControllerConfigurationSection, Overwolf.RemoteController"/>
+  </configSections>
+  <RemoteControllersSection>
+    <Controllers>
+      <remote Name="Logitech" Url="ws://localhost/Overwolf" PortMin="45654" PortMax="45664"/>
+      <remote Name="MSI" Url="ws://localhost/MSI" PortMin="45000" PortMax="45010"/>
+    </Controllers>
+  </RemoteControllersSection>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+			<probing privatePath="Locales;0.176.87.27;0.176.87.27\Locales"/>
+    </assemblyBinding>
+    <enforceFIPSPolicy enabled="false"/>
+    <AppContextSwitchOverrides value="Switch.System.Windows.Interop.MouseInput.OptOutOfMoveToChromedWindowFix=true; Switch.System.Windows.Interop.MouseInput.DoNotOptOutOfMoveToChromedWindowFix=true" />
+  </runtime>
+  <startup useLegacyV2RuntimeActivationPolicy="True">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+  </startup>
+  <appSettings>
+    <add key="LocalizedPerfCounter" value="true"/>
+  </appSettings>
+  <system.net>
+    <settings>
+      <httpWebRequest useUnsafeHeaderParsing="true"/>
+    </settings>
+  </system.net>
+</configuration>

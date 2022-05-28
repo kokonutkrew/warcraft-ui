@@ -1,0 +1,16 @@
+.window-controls-group {
+  margin-left: auto;
+  display: flex; }
+  .window-controls-group button {
+    --size: 30px; }
+
+.window-control {
+  color: #797399;
+  background-color: transparent; }
+  .window-control:hover {
+    color: #958FB2;
+    background-color: #332E4D; }
+
+.window-control-close:hover {
+  color: #F4F2FF;
+  background-color: #E6004C; }

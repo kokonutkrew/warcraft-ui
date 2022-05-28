@@ -70,6 +70,7 @@ local function makebind(key)
     local entry = {}
     entry.key = key
     entry.type = "menu"
+    entry.unit = "player"
     entry.menu = function()
         CLIQUE_TEST_TRIGGERED = key
     end

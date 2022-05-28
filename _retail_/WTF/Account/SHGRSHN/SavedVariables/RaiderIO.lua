@@ -1,38 +1,43 @@
 
 RaiderIO_Config = {
 	["useEnglishAbbreviations"] = false,
+	["previouslyEnabledLogging"] = true,
 	["enableKeystoneTooltips"] = true,
+	["hidePersonalRaiderIOProfile"] = false,
 	["disableScoreColors"] = false,
 	["showMainBestScore"] = true,
 	["allowClientToControlCombatLog"] = true,
-	["enableWhoTooltips"] = true,
-	["showScoreModifier"] = false,
-	["enableCombatLogTracking"] = false,
 	["showSimpleScoreColors"] = false,
 	["enableWhoMessages"] = true,
-	["showMainsScore"] = true,
+	["enableCombatLogTracking"] = false,
+	["showRaiderIOProfile"] = true,
+	["showScoreModifier"] = false,
+	["enableLFGTooltips"] = true,
 	["inverseProfileModifier"] = false,
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
-	["hidePersonalRaiderIOProfile"] = false,
-	["mplusHeadlineMode"] = 2,
-	["enableLFGTooltips"] = true,
-	["enableFriendsTooltips"] = true,
 	["showRoleIcons"] = true,
+	["mplusHeadlineMode"] = 2,
+	["showMainsScore"] = true,
+	["enableFriendsTooltips"] = true,
+	["enableUnitTooltips"] = true,
 	["positionProfileAuto"] = true,
 	["showRaidEncountersInProfile"] = true,
 	["showDropDownCopyURL"] = true,
 	["showAverageScore"] = true,
 	["enableProfileModifier"] = true,
 	["enableClientEnhancements"] = true,
-	["enableUnitTooltips"] = true,
+	["displayWeeklyGuildBest"] = false,
 	["lockProfile"] = false,
 	["showScoreInCombat"] = true,
-	["showRaiderIOProfile"] = true,
+	["enableWhoTooltips"] = true,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "us-Samoansavage-emerald-dream"
+RaiderIO_LastCharacter = "us-Samoanbeast-emerald-dream"
 RaiderIO_MissingCharacters = {
-	["us-Vellanore-emerald-dream"] = true,
+}
+RaiderIO_MissingServers = {
 }
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

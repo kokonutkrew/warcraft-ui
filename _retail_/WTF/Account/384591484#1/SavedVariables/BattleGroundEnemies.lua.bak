@@ -1,0 +1,12 @@
+
+BattleGroundEnemiesDB = {
+	["profileKeys"] = {
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastReadVersion"] = "9.2.0.11",
+		},
+	},
+}

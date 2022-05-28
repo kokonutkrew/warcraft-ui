@@ -6,18 +6,15 @@ local L = GSE.L
 
 local onpause = false
 
-DebugFrame = AceGUI:Create("Frame")
+local DebugFrame = AceGUI:Create("Frame")
 GSE.GUIDebugFrame = DebugFrame
 DebugFrame.DebugOutputTextbox = AceGUI:Create("MultiLineEditBox")
 GSE.GUIDebugFrame.DebugEnableViewButton = AceGUI:Create("Button")
 GSE.GUIDebugFrame.DebugPauseViewButton = AceGUI:Create("Button")
-
-
-
-function GSE.GUIShowDebugWindow()
-  DebugFrame:Show()
-end
-
+DebugFrame.Height = (GSEOptions.debugHeight and GSEOptions.debugHeight or 500)
+DebugFrame.Width = (GSEOptions.debugWidth and GSEOptions.debugWidth or 700)
+DebugFrame:SetWidth(DebugFrame.Width)
+DebugFrame:SetHeight(DebugFrame.Height)
 
 function GSE.GUIUpdateOutput()
   GSE.GUIDebugFrame.DebugOutputTextbox:SetText(GSE.GUIDebugFrame.DebugOutputTextbox:GetText() .. GSE.DebugOutput)
@@ -61,9 +58,8 @@ DebugFrame:SetCallback("OnClose", function(widget) DebugFrame:Hide()  end)
 DebugFrame:SetLayout("List")
 DebugFrame:Hide()
 
-
 GSE.GUIDebugFrame.DebugOutputTextbox:SetLabel(L["Output"])
-GSE.GUIDebugFrame.DebugOutputTextbox:SetNumLines(25)
+GSE.GUIDebugFrame.DebugOutputTextbox:SetNumLines(math.floor(DebugFrame.Height / 18))
 GSE.GUIDebugFrame.DebugOutputTextbox:DisableButton(true)
 GSE.GUIDebugFrame.DebugOutputTextbox:SetFullWidth(true)
 DebugFrame:AddChild(GSE.GUIDebugFrame.DebugOutputTextbox)
@@ -71,7 +67,6 @@ DebugFrame:AddChild(GSE.GUIDebugFrame.DebugOutputTextbox)
 local buttonGroup = AceGUI:Create("SimpleGroup")
 buttonGroup:SetFullWidth(true)
 buttonGroup:SetLayout("Flow")
-
 
 GSE.GUIDebugFrame.DebugEnableViewButton:SetWidth(150)
 GSE.GUIDebugFrame.DebugEnableViewButton:SetCallback("OnClick", function() GSE.GUIEnableDebugView() end)
@@ -103,3 +98,29 @@ GSE.GUIDebugFrame.DebugOptionsViewButton:SetCallback("OnClick", function() GSE.O
 buttonGroup:AddChild(GSE.GUIDebugFrame.DebugOptionsViewButton)
 
 DebugFrame:AddChild(buttonGroup)
+
+
+DebugFrame.frame:SetScript("OnSizeChanged", function(self, width, height)
+    DebugFrame.Height = height
+    DebugFrame.Width = width
+    if DebugFrame.Height > GetScreenHeight() then
+            DebugFrame.Height = GetScreenHeight() - 10
+            DebugFrame:SetHeight(DebugFrame.Height)
+    end
+    if DebugFrame.Height < 500 then
+            DebugFrame.Height = 500
+            DebugFrame:SetHeight(DebugFrame.Height)
+    end
+    if DebugFrame.Width < 700 then
+            DebugFrame.Width = 700
+            DebugFrame:SetWidth(DebugFrame.Width)
+    end
+    GSEOptions.debugHeight = DebugFrame.Height
+    GSEOptions.debugWidth = DebugFrame.Width
+    GSE.GUIDebugFrame.DebugOutputTextbox:SetNumLines( math.floor(height / 18))
+    GSE.GUIShowDebugWindow()
+end)
+
+function GSE.GUIShowDebugWindow()
+  DebugFrame:Show()
+end

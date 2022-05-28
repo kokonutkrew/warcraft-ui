@@ -1,0 +1,29 @@
+
+MegaMacroConfig = nil
+MegaMacroGlobalData = {
+	["Macros"] = {
+	},
+	["Activated"] = false,
+	["Classes"] = {
+		["Paladin"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				["Retribution"] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+		["Druid"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				["Feral"] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+	},
+}

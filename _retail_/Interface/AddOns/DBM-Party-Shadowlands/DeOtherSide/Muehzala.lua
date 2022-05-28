@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2410, "DBM-Party-Shadowlands", 7, 1188)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20210123235530")
+mod:SetRevision("20211125075428")
 mod:SetCreatureID(169769)
 mod:SetEncounterID(2396)
 
@@ -45,9 +45,9 @@ local specWarnDeathgate				= mod:NewSpecialWarningMoveTo(324698, nil, nil, nil, 
 
 --Stage 1: The Master of Death
 local timerMasterofDeathCD			= mod:NewCDTimer(32.8, 325258, nil, nil, nil, 3)
-local timerCosmicArtificeCD			= mod:NewCDCountTimer(19.5, 325725, nil, nil, nil, 3, nil, DBM_CORE_L.MAGIC_ICON)
-local timerSoulcrusherCD			= mod:NewCDCountTimer(17.8, 327646, nil, "Tank|Healer", nil, 5, nil, DBM_CORE_L.TANK_ICON)
-local timerShatterRealityCD			= mod:NewCDTimer(25.3, 326171, nil, nil, nil, 2, nil, DBM_CORE_L.DEADLY_ICON)
+local timerCosmicArtificeCD			= mod:NewCDCountTimer(19.5, 325725, nil, nil, nil, 3, nil, DBM_COMMON_L.MAGIC_ICON)
+local timerSoulcrusherCD			= mod:NewCDCountTimer(17.8, 327646, nil, "Tank|Healer", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
+local timerShatterRealityCD			= mod:NewCDTimer(25.3, 326171, nil, nil, nil, 2, nil, DBM_COMMON_L.DEADLY_ICON)
 --Stage 2: Shattered Reality
 local timerCoalescing				= mod:NewCastTimer(25, 334970, nil, nil, nil, 6)
 
@@ -60,7 +60,7 @@ function mod:OnCombatStart(delay)
 	self.vb.soulCount = 0
 	timerCosmicArtificeCD:Start(3.7-delay, 1)--SUCCESS
 	timerSoulcrusherCD:Start(5.9-delay, 1)
-	timerMasterofDeathCD:Start(9.5-delay)
+	timerMasterofDeathCD:Start(9.3-delay)
 	timerShatterRealityCD:Start(60)
 end
 
@@ -131,8 +131,8 @@ function mod:SPELL_AURA_REMOVED(args)
 		self.vb.cosmicCount = 0
 		self.vb.soulCount = 0
 		timerCoalescing:Stop()
+		timerCosmicArtificeCD:Start(11.1, 1)--11-19 (maybe a case of pause/resume from previous stage?)
 		timerMasterofDeathCD:Start(15.6)
-		timerCosmicArtificeCD:Start(19.6, 1)
 		timerSoulcrusherCD:Start(21.8, 1)
 		timerShatterRealityCD:Start(76.4)
 	end

@@ -2,6 +2,10 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Summoness - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Monksee - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Grapejellie - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cherriebomb - Emerald Dream",
 	},
 	["profiles"] = {
 		["Cherriebomb - Emerald Dream"] = {

@@ -29,10 +29,10 @@ GRML = {};
 GRM_G = {}; 
 
 -- Addon Details:
-GRM_G.Version = "9.0R1.928";
-GRM_G.PatchDay = 1615275346;             -- In Epoch Time
-GRM_G.PatchDayString = "1615275346";     -- 2 Versions saves on conversion computational costs... just keep one stored in memory. Extremely minor gains, but very useful if syncing thousands of pieces of data in large guilds.
-GRM_G.Patch = "9.0.5";
+GRM_G.Version = "R1.9297";
+GRM_G.PatchDay = 1645595649;             -- In Epoch Time
+GRM_G.PatchDayString = "1645595649";     -- 2 Versions saves on conversion computational costs... just keep one stored in memory. Extremely minor gains, but very useful if syncing thousands of pieces of data in large guilds.
+GRM_G.Patch = "9.2.0";
 GRM_G.LvlCap = GetMaxPlayerLevel();
 GRM_G.BuildVersion = select ( 4 , GetBuildInfo() ); -- Technically the build level or the patch version as an integer.
 
@@ -1089,7 +1089,7 @@ end
 -- What it Deos:    Initializes chat coloring controls for classic
 -- Purpose:         Quality of life control
 GRM.SetClassChatColoring = function()
-    if GRM_G.BuildVersion < 20000 then
+    if GRM_G.BuildVersion < 23000 then
         local num = 0;
         
         if not GRM_AddonSettings_Save[GRM_G.F][GRM_G.addonUser].colorizeClassicRosterNames then
@@ -5623,7 +5623,7 @@ end
 -- Purpose:         To enable class coloring in Classic, which is a very useful feature
 GRM.UpdateMemberDetailNameClassColor = function()
     
-    if GRM_G.BuildVersion < 20000 and GRM_AddonSettings_Save[GRM_G.F][GRM_G.addonUser].colorizeClassicRosterNames then
+    if GRM_G.BuildVersion < 23000 and GRM_AddonSettings_Save[GRM_G.F][GRM_G.addonUser].colorizeClassicRosterNames then
         local class = select ( 11 , GetGuildRosterInfo ( GRM_G.RosterSelection ) );
         local colors = GRM.GetClassColorRGB ( class , false );
 
@@ -13643,7 +13643,7 @@ GRM.CheckPlayerChanges = function ( roster )
                                     -- Update metaframe
                                     if GRM_UI.GRM_MemberDetailroster ~= nil and GRM_UI.GRM_MemberDetailroster:IsVisible() and GRM_G.currentName == roster[x].name then
                                         if roster[x].note == "" then
-                                            if ( CanEditPublicNote() or GRM_G.currentName == GRM_G.addonUser ) then
+                                            if ( CanEditPublicNote() or ( GRM_G.BuildVersion >= 80000 and GRM_G.currentName == GRM_G.addonUser ) ) then
                                                 GRM_UI.GRM_MemberDetailroster[x].GRM_noteFontString1:SetText ( GRM.L ( "Click here to set a Public Note" ) );
                                             else
                                                 GRM_UI.GRM_MemberDetailroster[x].GRM_noteFontString1:SetText ( GRM.L ( "Unable to Edit Public Note at Rank" ) );
@@ -19506,7 +19506,7 @@ GRM.KickPromoteOrJoinPlayer = function ( _ , msg , text , clubMemberID )
                     GRM_G.changeHappenedExitScan = true;
                     GRM.GuildRoster();
 
-                    if FriendsFrame and not FriendsFrame:IsVisible() then
+                    if not GRM_G.inCombat and FriendsFrame and not FriendsFrame:IsVisible() then
                         FriendsFrame:Show();
                         FriendsFrameCloseButton:Click();
                     end
@@ -19884,7 +19884,7 @@ GRM.PopulateMemberDetails = function( handle , memberInfo )
                     finalNote = player.note;
                 end
                 GRM_UI.GRM_MemberDetailMetaData.GRM_noteFontString1:SetText ( finalNote );
-                if CanEditPublicNote() or handle == GRM_G.addonUser then
+                if ( CanEditPublicNote() or ( GRM_G.BuildVersion >= 80000 and handle == GRM_G.addonUser ) ) then
                     if finalNote ~= GRM.L ( "Click here to set a Public Note" ) then
                         GRM_UI.GRM_MemberDetailMetaData.GRM_PlayerNoteEditBox:SetText( finalNote );
                     else
@@ -26115,7 +26115,8 @@ Initialization:SetScript ( "OnEvent" , GRM.ActivateAddon );
     -- Mass demote to lowest rank
     -- /run local n,r,t,m,p,d,s=GetNumGuildMembers(),GuildControlGetNumRanks()-1,"","D";DeleteMacro(m);for i=1,n do p,_,d=GetGuildRosterInfo(i);if d~=r and d~=0 then s="/gdemote "..p.."\n"; if #t+#s<256 then t=t..s;end;end;end;CreateMacro(m,"inv_misc_key_04",t)
 
-
+-- Export all mains to note:
+-- /run local m,n,x;for i=1,GRM.GetNumGuildies() do n,_,_,_,_,_,x=GetGuildRosterInfo(i);m=GRM.GetPlayerMain(n);if m and m~=n then x=x.." ["..GRM.SlimName(m).."]";if #x<=31 then GuildRosterSetPublicNote(i,x) else print("No room: "..n);end;end;end;
 
 
 

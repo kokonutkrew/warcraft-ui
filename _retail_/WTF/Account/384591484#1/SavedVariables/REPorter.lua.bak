@@ -1,0 +1,11 @@
+
+REPorterSettings = {
+	["profileKeys"] = {
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -58,12 +58,10 @@ end
 function Groups.RebuildDatabase()
 	wipe(private.groupListCache)
 
-	-- convert ignoreRandomEnchants to ignoreItemVariations
+	-- clear ignoreRandomEnchants and ignoreItemVariations
 	for _, info in pairs(TSM.db.profile.userData.groups) do
-		if info.ignoreRandomEnchants ~= nil then
-			info.ignoreItemVariations = info.ignoreRandomEnchants
-			info.ignoreRandomEnchants = nil
-		end
+		info.ignoreItemVariations = nil
+		info.ignoreRandomEnchants = nil
 	end
 
 	for groupPath, groupInfo in pairs(TSM.db.profile.userData.groups) do
@@ -104,7 +102,7 @@ function Groups.RebuildDatabase()
 							tremove(operations, i)
 						end
 					end
-				elseif key ~= "ignoreItemVariations" then
+				else
 					-- invalid key
 					Log.Err("Removing invalid groupInfo key (%s): %s", groupPath, tostring(key))
 					groupInfo[key] = nil
@@ -213,6 +211,10 @@ function Groups.Create(groupPath)
 	private.RebuildDB()
 end
 
+function Groups.RebuildDB()
+	private.RebuildDB()
+end
+
 function Groups.Move(groupPath, newGroupPath)
 	assert(not TSM.db.profile.userData.groups[newGroupPath], "Target group already exists")
 	assert(groupPath ~= TSM.CONST.ROOT_GROUP_PATH, "Can't move root group")
@@ -296,8 +298,8 @@ function Groups.Delete(groupPath)
 	query:Release()
 	private.itemStringMap:SetCallbacksPaused(true)
 	for itemString in private.itemStringMap:Iterator() do
-		if updateMapItems[itemString] or updateMapItems[ItemString.GetBaseFast(itemString)] then
-			-- either this item itself was removed from a group, or the base item was - in either case trigger an update
+		if updateMapItems[itemString] or updateMapItems[ItemString.GetBaseFast(itemString)] or updateMapItems[ItemString.ToLevel(itemString)] then
+			-- either this item itself was removed from a group, or the base/level item was - in either case trigger an update
 			private.itemStringMap:ValueChanged(itemString)
 		end
 	end
@@ -347,6 +349,13 @@ function Groups.SetItemGroup(itemString, groupPath)
 					private.itemStringMap:ValueChanged(mapItemString)
 				end
 			end
+		elseif itemString == ItemString.ToLevel(itemString) then
+			-- this is a level item string, so need to also update all other items whose level item is equal to this item
+			for mapItemString in private.itemStringMap:Iterator() do
+				if ItemString.ToLevel(mapItemString) == itemString then
+					private.itemStringMap:ValueChanged(mapItemString)
+				end
+			end
 		end
 		private.itemStringMap:SetCallbacksPaused(false)
 	end
@@ -383,7 +392,7 @@ function Groups.BulkCreateFromImport(groupName, items, groups, groupOperations, 
 end
 
 function Groups.GetPathByItem(itemString)
-	itemString = TSM.Groups.TranslateItemString(itemString)
+	itemString = Groups.TranslateItemString(itemString)
 	assert(itemString)
 	local groupPath = private.itemDB:GetUniqueRowField("itemString", itemString, "groupPath") or TSM.CONST.ROOT_GROUP_PATH
 	assert(TSM.db.profile.userData.groups[groupPath])
@@ -441,7 +450,7 @@ function Groups.SortGroupList(list)
 	Table.Sort(list, private.GroupSortFunction)
 end
 
-function Groups.SetOperationOverride(groupPath, moduleName, override)
+function Groups.SetOperationOverride(groupPath, moduleName, override, skipRebuild)
 	assert(TSM.db.profile.userData.groups[groupPath])
 	assert(groupPath ~= TSM.CONST.ROOT_GROUP_PATH)
 	if override == (TSM.db.profile.userData.groups[groupPath][moduleName].override and true or false) then
@@ -457,7 +466,9 @@ function Groups.SetOperationOverride(groupPath, moduleName, override)
 		TSM.db.profile.userData.groups[groupPath][moduleName].override = true
 		private.UpdateChildGroupOperations(groupPath, moduleName)
 	end
-	private.RebuildDB()
+	if not skipRebuild then
+		private.RebuildDB()
+	end
 end
 
 function Groups.HasOperationOverride(groupPath, moduleName)
@@ -468,21 +479,25 @@ function Groups.OperationIterator(groupPath, moduleName)
 	return ipairs(TSM.db.profile.userData.groups[groupPath][moduleName])
 end
 
-function Groups.AppendOperation(groupPath, moduleName, operationName)
+function Groups.AppendOperation(groupPath, moduleName, operationName, skipRebuild)
 	assert(TSM.Operations.Exists(moduleName, operationName))
 	local groupOperations = TSM.db.profile.userData.groups[groupPath][moduleName]
 	assert(groupOperations.override and #groupOperations < TSM.Operations.GetMaxNumber(moduleName))
 	tinsert(groupOperations, operationName)
 	private.UpdateChildGroupOperations(groupPath, moduleName)
-	private.RebuildDB()
+	if not skipRebuild then
+		private.RebuildDB()
+	end
 end
 
-function Groups.RemoveOperation(groupPath, moduleName, operationIndex)
+function Groups.RemoveOperation(groupPath, moduleName, operationIndex, skipRebuild)
 	local groupOperations = TSM.db.profile.userData.groups[groupPath][moduleName]
 	assert(groupOperations.override and groupOperations[operationIndex])
 	tremove(groupOperations, operationIndex)
 	private.UpdateChildGroupOperations(groupPath, moduleName)
-	private.RebuildDB()
+	if not skipRebuild then
+		private.RebuildDB()
+	end
 end
 
 function Groups.RemoveOperationByName(groupPath, moduleName, operationName)
@@ -499,7 +514,6 @@ function Groups.RemoveOperationFromAllGroups(moduleName, operationName)
 	for _, groupPath in Groups.GroupIterator() do
 		Table.RemoveByValue(TSM.db.profile.userData.groups[groupPath][moduleName], operationName)
 	end
-	private.RebuildDB()
 end
 
 function Groups.SwapOperation(groupPath, moduleName, fromIndex, toIndex)
@@ -530,34 +544,13 @@ function private.RebuildDB()
 	for groupPath in pairs(TSM.db.profile.userData.groups) do
 		local orderStr = gsub(groupPath, TSM.CONST.GROUP_SEP, "\001")
 		orderStr = strlower(orderStr)
-		local hasAuctioningOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Auctioning", groupPath) do
-			hasAuctioningOperation = true
-		end
-		local hasCraftingOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Crafting", groupPath) do
-			hasCraftingOperation = true
-		end
-		local hasMailingOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Mailing", groupPath) do
-			hasMailingOperation = true
-		end
-		local hasShoppingOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Shopping", groupPath) do
-			hasShoppingOperation = true
-		end
-		local hasSniperOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Sniper", groupPath) do
-			hasSniperOperation = true
-		end
-		local hasVendoringOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Vendoring", groupPath) do
-			hasVendoringOperation = true
-		end
-		local hasWarehousingOperation = false
-		for _ in TSM.Operations.GroupOperationIterator("Warehousing", groupPath) do
-			hasWarehousingOperation = true
-		end
+		local hasAuctioningOperation = TSM.Operations.GroupHasAnyOperation("Auctioning", groupPath)
+		local hasCraftingOperation = TSM.Operations.GroupHasAnyOperation("Crafting", groupPath)
+		local hasMailingOperation = TSM.Operations.GroupHasAnyOperation("Mailing", groupPath)
+		local hasShoppingOperation = TSM.Operations.GroupHasAnyOperation("Shopping", groupPath)
+		local hasSniperOperation = TSM.Operations.GroupHasAnyOperation("Sniper", groupPath)
+		local hasVendoringOperation = TSM.Operations.GroupHasAnyOperation("Vendoring", groupPath)
+		local hasWarehousingOperation = TSM.Operations.GroupHasAnyOperation("Warehousing", groupPath)
 		private.db:BulkInsertNewRow(groupPath, orderStr, hasAuctioningOperation, hasCraftingOperation, hasMailingOperation, hasShoppingOperation, hasSniperOperation, hasVendoringOperation, hasWarehousingOperation)
 	end
 	private.db:BulkInsertEnd()
@@ -612,12 +605,24 @@ end
 
 do
 	private.itemStringMap = SmartMap.New("string", "string", function(itemString)
+		-- check if the specific itemString is in a group
 		if Groups.IsItemInGroup(itemString) then
-			-- this item is in a group, so just return it
 			return itemString
 		end
+
+		-- check if the level itemString is in a group
+		local levelItemString = ItemString.ToLevel(itemString)
+		if Groups.IsItemInGroup(levelItemString) then
+			return levelItemString
+		end
+
+		-- check if the base itemString is in a group
 		local baseItemString = ItemString.GetBaseFast(itemString)
-		-- return the base item if it's in a group; otherwise return the original item
-		return Groups.IsItemInGroup(baseItemString) and baseItemString or itemString
+		if Groups.IsItemInGroup(baseItemString) then
+			return baseItemString
+		end
+
+		-- return the original itemString
+		return itemString
 	end)
 end

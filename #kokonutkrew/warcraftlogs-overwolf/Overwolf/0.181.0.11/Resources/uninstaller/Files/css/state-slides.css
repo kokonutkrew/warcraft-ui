@@ -1,0 +1,76 @@
+.state-slides {
+  flex: auto;
+  display: flex;
+  overflow: hidden; }
+  .state-slides li {
+    min-width: 0;
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 24px 32px;
+    opacity: 0;
+    transform: translateX(var(--translateX));
+    transition: opacity .15s; }
+  .state-slides li.active {
+    opacity: 1; }
+
+.app-list {
+  flex: auto;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column; }
+  .app-list form {
+    display: flex;
+    flex-direction: column; }
+
+.uninstall-apps-section {
+  overflow: auto;
+  height: 240px; }
+
+.state-progress {
+  font-size: 16px;
+  align-items: center;
+  justify-content: center; }
+  .state-progress p {
+    color: #F4F2FF;
+    font-size: 16px; }
+
+.progress-bar {
+  margin-top: 24px;
+  height: 1px;
+  width: auto;
+  align-self: stretch;
+  background-color: #332E4D; }
+
+.progress-bar::-webkit-progress-bar {
+  background-color: inherit; }
+
+.progress-bar::-webkit-progress-value {
+  background-color: #E6004C;
+  transition: .5s; }
+
+.state-finish-main {
+  text-align: center;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .state-finish-main h1 {
+    font-size: 20px;
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    line-height: 150%; }
+  .state-finish-main h2 {
+    font-size: 16px;
+    margin-top: 36px;
+    color: #958FB2;
+    line-height: 150%; }
+  .state-finish-main i {
+    --size: 160px;
+    margin-top: 32px; }
+
+.state-finish .app-footer {
+  justify-content: space-between; }

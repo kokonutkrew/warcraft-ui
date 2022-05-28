@@ -1,0 +1,2421 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/p 8% after", -- [1]
+				"/p release", -- [2]
+				"/p and kill trash", -- [3]
+				"/p go back to begining", -- [4]
+				"/p will need 8% more after we kill last boss", -- [5]
+				"/p after this pack", -- [6]
+				"/p skipping this section right?", -- [7]
+				"/p just release", -- [8]
+				"/p dc?", -- [9]
+				"/p im in discord with him", -- [10]
+				"/p nice we have a rouge for skips", -- [11]
+				"/g hey honust", -- [12]
+				"/p there we go", -- [13]
+				"/p https://discord.gg/8pzaeYs7", -- [14]
+				"/p wrong discord link lol", -- [15]
+				"/p https://discord.gg/fYd7jR45", -- [16]
+				"/p hopping in discord", -- [17]
+				"hello", -- [18]
+				"/p the ill que us", -- [19]
+				"/p I got a buddy logging on right now", -- [20]
+				"/p hello", -- [21]
+				"/s reset", -- [22]
+				"/s just wipe", -- [23]
+				"/s release if you can", -- [24]
+				"/s harder than a boss", -- [25]
+				"/p dont release if your dieing here", -- [26]
+				"/p i have soulstone", -- [27]
+				"/s /bartender", -- [28]
+				"/s /details options", -- [29]
+				"/p /details", -- [30]
+				"/p stack on green for orbs", -- [31]
+				"/p orbs at front on green", -- [32]
+				"/p fr with tank", -- [33]
+				"/p stright to boss", -- [34]
+				"/p just release", -- [35]
+				"/p sry", -- [36]
+				"/p that laxative finally kicked in", -- [37]
+				"/p phew", -- [38]
+				"/p thanks for the key", -- [39]
+				"/p ring anyone?", -- [40]
+				"/p cookie love", -- [41]
+				"/p stack", -- [42]
+				"/p just release", -- [43]
+				"/p grab that warlock", -- [44]
+				"/s anyone?", -- [45]
+				"/s dagger?", -- [46]
+				"/s banish big slimes?", -- [47]
+				"/s wo skipping", -- [48]
+				"/s wo", -- [49]
+				"/s /reload", -- [50]
+				"/p haste and urha", -- [51]
+				"/p relics before boss", -- [52]
+				"/p its all good", -- [53]
+				"/p np", -- [54]
+				"/p release", -- [55]
+				"/p everyone help grab orbs", -- [56]
+				"/p release", -- [57]
+				"/p focus add", -- [58]
+				"/p avoid dmg", -- [59]
+				"/p all right at the start", -- [60]
+				"/p 13 deaths", -- [61]
+				"/p focus that add", -- [62]
+				"/p ty", -- [63]
+				"/p k rdy", -- [64]
+				"/p I forgot to repair", -- [65]
+				"/p w8", -- [66]
+				"/p ya thats probably a good idea", -- [67]
+				"/p we should probably save hero for the second boss", -- [68]
+				"/g cool lets do it", -- [69]
+				"/g just got back from a campout", -- [70]
+				"/g doing good", -- [71]
+				"/g I was actually having fun running arenas the other day", -- [72]
+				"/g who you doing 2s with?", -- [73]
+				"/g oh nice", -- [74]
+				"/p 1 for summon me pls", -- [75]
+				"/p talking in discord", -- [76]
+				"/p ya we are adjusting now", -- [77]
+				"/g Discord?", -- [78]
+				"/g sure", -- [79]
+				"/g hmm well lemme see if I can get him on for a run", -- [80]
+				"/g how high you farming", -- [81]
+				"/g I want to start running mekis pally through mythic+", -- [82]
+				"/g thats awesome", -- [83]
+				"/g whoa srs;y?", -- [84]
+				"/g |cffa335ee|Hitem:188923::::::::60:264::35:7:7772:8116:6652:7579:7359:8151:1498::::::|h[Theurgic Starspeaker's Howl]|h|r", -- [85]
+				"/g hello!", -- [86]
+				"/s /ginvite kkdelete", -- [87]
+				"/p orbs on green", -- [88]
+				"/p fr with tank", -- [89]
+				"/p death penalty too", -- [90]
+				"/p come back", -- [91]
+				"/p all good", -- [92]
+				"/s ok", -- [93]
+				"/s ss", -- [94]
+				"/s release", -- [95]
+				"/s /dbm pull 10", -- [96]
+				"/s lets go urh", -- [97]
+				"/s ty for food and cookies", -- [98]
+				"/p cc big slimes pls", -- [99]
+				"/p banish slimes", -- [100]
+				"/p lock rocks pls", -- [101]
+				"/p no invis", -- [102]
+				"/p /dbm pull 10", -- [103]
+				"/p welcome", -- [104]
+				"/g hello", -- [105]
+				"/p hard swap rouge", -- [106]
+				"/p the shammy", -- [107]
+				"/p focus their heals", -- [108]
+				"/p /dbm pull 10", -- [109]
+				"/p we have cc for the pack after the tree guy here at the start", -- [110]
+				"/p nice easy run guys", -- [111]
+				"/p any nf here?", -- [112]
+				"/p hello", -- [113]
+				"/cw Tigerclaw-Ner'zhul boomy or feral", -- [114]
+				"/p 4pc much?", -- [115]
+				"/p lies", -- [116]
+				"/p hero", -- [117]
+				"/p /dbm pull 10", -- [118]
+				"/p we can do 17", -- [119]
+				"/p sure", -- [120]
+				"/p we tried", -- [121]
+				"/p sry all", -- [122]
+				"/p dang welp", -- [123]
+				"/p wipe it", -- [124]
+				"/p /dbm pull 10", -- [125]
+				"/p jus kill em all", -- [126]
+				"/p no invs pots", -- [127]
+				"/p nice clean run bois", -- [128]
+				"/p at stone wm off", -- [129]
+				"/p is the dk 4pc broken for dps too? blood spec is crazy", -- [130]
+				"/p welcome guys", -- [131]
+				"/p nice work all'", -- [132]
+				"/p nobody died!", -- [133]
+				"/p easy!", -- [134]
+				"/p range stack green for 2nd boss", -- [135]
+				"/p yell orange blue purple", -- [136]
+				"/p /dbm pull 10", -- [137]
+				"/p at least I think I have the addon lol", -- [138]
+				"/p ill call out symbols on 1st boss", -- [139]
+				"/p right, but gets really messy if peeps not used to it", -- [140]
+				"/p no pots", -- [141]
+				"/p nah", -- [142]
+				"/p nice smooth run guys", -- [143]
+				"/p summons inc", -- [144]
+				"/p welcome welcome", -- [145]
+				"/p hmm the dh for magic dmg?", -- [146]
+				"/p welcome guys", -- [147]
+				"/g hopping on discord", -- [148]
+				"/g hello", -- [149]
+				"/s /wave", -- [150]
+				"/s /cls", -- [151]
+				"/s /clsall", -- [152]
+				"/s /cls", -- [153]
+				"/s /prat", -- [154]
+				"/s /join general", -- [155]
+				"/s /details options", -- [156]
+				"/s /details", -- [157]
+				"/s /wa", -- [158]
+				"/s /mdt", -- [159]
+				"/s /prat", -- [160]
+				"/s /wa", -- [161]
+				"/s /rach", -- [162]
+				"/cw Kyzarusty-Frostmourne /reload", -- [163]
+				"/cw Kyzarusty-Frostmourne 4pc venthyr", -- [164]
+				"/p ty", -- [165]
+				"/p lol", -- [166]
+				"/p sry caps", -- [167]
+				"/p NOT SURE", -- [168]
+				"/p YEE", -- [169]
+				"/p understood", -- [170]
+				"/p omw", -- [171]
+				"/p soa right?", -- [172]
+				"/p k back", -- [173]
+				"/p hello", -- [174]
+				"/p gn all", -- [175]
+				"/p tyvm", -- [176]
+				"/p may I grab a port to oribos pls", -- [177]
+				"/p easy- nobody died!", -- [178]
+				"/p nice work guys", -- [179]
+				"/p more help with balls", -- [180]
+				"/s release", -- [181]
+				"/s sure", -- [182]
+				"/s repair", -- [183]
+				"/p and I did help dps", -- [184]
+				"/p yes we were both low going in", -- [185]
+				"/p stack orbs at front on green", -- [186]
+				"/p fl with tank", -- [187]
+				"/p sry for the rough start", -- [188]
+				"/p yee", -- [189]
+				"/p dot hurts", -- [190]
+				"/p bed for me after this I think...", -- [191]
+				"/p release", -- [192]
+				"/p fuck me", -- [193]
+				"/p aggro", -- [194]
+				"/p yee", -- [195]
+				"/p depends if tank goes left or right", -- [196]
+				"/p good I dont have to hero lol", -- [197]
+				"/p nice work", -- [198]
+				"/p stack", -- [199]
+				"/p pull all to boss", -- [200]
+				"/p /dbm pull 5", -- [201]
+				"/p need 1 more at summon stone wmoff", -- [202]
+				"/p welcome", -- [203]
+				"/p hello", -- [204]
+				"/p cya", -- [205]
+				"/p ty ty", -- [206]
+				"/p if I had time Id continue", -- [207]
+				"/p nicely done bois", -- [208]
+				"/p take the bat", -- [209]
+				"/p % on trash", -- [210]
+				"/p nuts", -- [211]
+				"/p /dbm pull 10", -- [212]
+				"/p omw wm off", -- [213]
+				"/p welcome", -- [214]
+				"/g rdy for mythics?", -- [215]
+				"/g hello", -- [216]
+				"/g Ill be back in like 30 mins", -- [217]
+				"/g I gotta help my cousin with somehting sry man", -- [218]
+				"/i they will try to bubble our pally", -- [219]
+				"/g ah, Ill run mythics after with ya", -- [220]
+				"/g yo whats up!", -- [221]
+				"/s /reload", -- [222]
+				"/s /wa", -- [223]
+				"/s /pvpsound", -- [224]
+				"/s /reload", -- [225]
+				"/s /script Details:OpenPlugin ('Encounter Breakdown')", -- [226]
+				"/s /spy config", -- [227]
+				"/s /spy", -- [228]
+				"/s /script Details:OpenPlugin ('Encounter Breakdown')", -- [229]
+				"/s /details spells", -- [230]
+				"/s /details", -- [231]
+				"/s /omnibar", -- [232]
+				"/s /reload", -- [233]
+				"/s /omnibar", -- [234]
+				"/s /sarena", -- [235]
+				"/s /reload", -- [236]
+				"/p /dance", -- [237]
+				"/p yee", -- [238]
+				"/p release", -- [239]
+				"/p I waited for BR if it looked like we would need it", -- [240]
+				"/p rez pls", -- [241]
+				"/p lust or save?", -- [242]
+				"/p ok", -- [243]
+				"/raid ^", -- [244]
+				"/raid can Ill need another summon", -- [245]
+				"/raid ah, sry need to chang cov", -- [246]
+				"/raid hello", -- [247]
+				"/s inv", -- [248]
+				"/p alright man well thatnks for the matches", -- [249]
+				"/p yee", -- [250]
+				"/p good point", -- [251]
+				"/p I over extended as well trying to finish the shammy", -- [252]
+				"/p Also you had me los'd there", -- [253]
+				"/p was your portal on cooldown?", -- [254]
+				"/p but aparently I was just los you", -- [255]
+				"/p i felt like I could kite his dmg", -- [256]
+				"/p i did see the fear", -- [257]
+				"/p k", -- [258]
+				"/p f DHs", -- [259]
+				"/p k", -- [260]
+				"/p ok", -- [261]
+				"/p got it", -- [262]
+				"/p k", -- [263]
+				"/p hex dh", -- [264]
+				"/p 20% increase in cc", -- [265]
+				"/p ya that trinket forsure", -- [266]
+				"/p break cc", -- [267]
+				"/p whats the best race for lock pvp", -- [268]
+				"/p i see", -- [269]
+				"/p aiight", -- [270]
+				"/p k", -- [271]
+				"/p aiight", -- [272]
+				"/p ok", -- [273]
+				"/p Kinda had me on panic heals with the burst though", -- [274]
+				"/p I was hexing the priest there", -- [275]
+				"/p k", -- [276]
+				"/p ty", -- [277]
+				"/p cookies", -- [278]
+				"/p matching is going to try and screw us", -- [279]
+				"/p i srsly dont know", -- [280]
+				"/p lol", -- [281]
+				"/p gotcha", -- [282]
+				"/p just didnt there", -- [283]
+				"/p I usually do use it", -- [284]
+				"/p No I didnt", -- [285]
+				"/p ya I got it", -- [286]
+				"/p boomy and fire lol", -- [287]
+				"/p this the same comp?", -- [288]
+				"/p my comp froze and I thought I dc'd llol", -- [289]
+				"/p gees", -- [290]
+				"/p eventually I ran outta mana first", -- [291]
+				"/p game of attrition", -- [292]
+				"/p dh so slippery", -- [293]
+				"/p ya tough comp", -- [294]
+				"/p bursty", -- [295]
+				"/p insane health regen", -- [296]
+				"/p probably necrolord", -- [297]
+				"/p the rouge?", -- [298]
+				"/p nice work", -- [299]
+				"/p expecting the stunlock", -- [300]
+				"/p in trouble once the coolies run out", -- [301]
+				"/p shammies great for burst healing", -- [302]
+				"/p try to get the war to over extend", -- [303]
+				"/p bait the charge", -- [304]
+				"/p yee", -- [305]
+				"/p lets go one more", -- [306]
+				"/p bad luck", -- [307]
+				"/p bubble time", -- [308]
+				"/p Ive been thinking about switching to my lock", -- [309]
+				"/p op in fact", -- [310]
+				"/p locks are tanky this patch", -- [311]
+				"/p 2k", -- [312]
+				"/p all goods thanks for the invite", -- [313]
+				"/p aiight", -- [314]
+				"/p was he party lead", -- [315]
+				"/p hello guys", -- [316]
+				"/p I typically summon my elemental then hide my stun totem with it", -- [317]
+				"/p what name plates you guys use?", -- [318]
+				"/p hopefully dinners not burnt", -- [319]
+				"/p r", -- [320]
+				"/p no prob", -- [321]
+				"/p he mentioned needing a sec", -- [322]
+				"/p food out of the oven?", -- [323]
+				"/p that stun though", -- [324]
+				"/p lol", -- [325]
+				"/p nice work", -- [326]
+				"/p druids are so slippery", -- [327]
+				"/p coolio", -- [328]
+				"/p primary target?", -- [329]
+				"/p ya waitin for a buddy to do some L16 torghast", -- [330]
+				"/p hey guys", -- [331]
+				"/s /ampvp", -- [332]
+				"/s /reload", -- [333]
+				"/s /ampvp", -- [334]
+				"/g aiight laters", -- [335]
+				"/g we can run you through a mythic+ if you like", -- [336]
+				"/g bout mid way through", -- [337]
+				"/g but she'll be back soon", -- [338]
+				"/g not really, we're both trying to finish up our MBAs", -- [339]
+				"/g sweet", -- [340]
+				"/g hows rocko and those guys", -- [341]
+				"/g you pulled good dps on your hunter", -- [342]
+				"/g ya I remember", -- [343]
+				"/g do you pvp?", -- [344]
+				"/g they took a nerf but are still decent", -- [345]
+				"/g warlocks were op for a bit", -- [346]
+				"/g awesome she can play with my wife lol", -- [347]
+				"/g monstrous heals", -- [348]
+				"/g yee", -- [349]
+				"/g soon", -- [350]
+				"/g ok well we can run you through a +10 probably", -- [351]
+				"/g we're running a +15 key after this if you want to join", -- [352]
+				"/g great man trying not to die in torghast right now", -- [353]
+				"/g yo whatup amond", -- [354]
+				"/g yee", -- [355]
+				"/g /dance", -- [356]
+				"/g /wave", -- [357]
+				"/g shall we continue?", -- [358]
+				"/g welcome back", -- [359]
+				"ok sounds good", -- [360]
+				"haha, lemme know if your down for 2s, a little rougher on the weekends it seems", -- [361]
+				"nice, windfury proces ftw", -- [362]
+				"what spec is your shammy?", -- [363]
+				"/g cya", -- [364]
+				"/g ok np", -- [365]
+				"/g bonus knowloed", -- [366]
+				"/g phew it didnt", -- [367]
+				"/g hope my xmog does spawn", -- [368]
+				"/g 100 anima short lol", -- [369]
+				"/g probably cause my death", -- [370]
+				"/g close lol", -- [371]
+				"/g ive got 549", -- [372]
+				"/g I dont know what that was", -- [373]
+				"/g big pull", -- [374]
+				"/g 500 each", -- [375]
+				"/g my ad", -- [376]
+				"/g I see him", -- [377]
+				"/g was there a guy to save?", -- [378]
+				"/g Ill just be super careful", -- [379]
+				"/g I thought I dc'd", -- [380]
+				"/g my whole screen froze for lik 15 secs", -- [381]
+				"/g should we restart?", -- [382]
+				"/g and died", -- [383]
+				"/g I lagged", -- [384]
+				"/g shoot", -- [385]
+				"/g just hate getting knocked off platforms lol", -- [386]
+				"/g coldhart is usually pretty short", -- [387]
+				"/g feels sad though lol", -- [388]
+				"/g once your over like 10ilvls", -- [389]
+				"/g ya probably", -- [390]
+				"/g sweet lets do it", -- [391]
+				"/g and only 2 wings open each week", -- [392]
+				"/g theres and anchievement to track it", -- [393]
+				"/g but after that we just need to +16 whatever wing that we havent before", -- [394]
+				"/g ya I know we have to unlock it first", -- [395]
+				"/g I think the achieve should be easy for you and me", -- [396]
+				"/g I say we go knock out our +16 Torghast", -- [397]
+				"/g I dont see any Halondrus groups going", -- [398]
+				"/g 1 week didnt feel worth it", -- [399]
+				"/g ya a patch is a decent time to have a dungeon up", -- [400]
+				"/g and takes the heat offf of developing new dungeon content lol", -- [401]
+				"/g Thats cool", -- [402]
+				"/g Ah I see", -- [403]
+				"/g How so?", -- [404]
+				"/g I still need H Halondrus", -- [405]
+				"/g just planning out how to spend my conquest", -- [406]
+				"/g Right on, Ive actually been PVPing and having alot of fun lol", -- [407]
+				"/g I finished up all my mythic+ for the week how about you?", -- [408]
+				"/g nice!", -- [409]
+				"/g hey honust hows it going", -- [410]
+				"/i LM gone", -- [411]
+				"/i we lost lumber mill", -- [412]
+				"/i ghosted", -- [413]
+				"/i dmg sucks in this group", -- [414]
+				"/i we should kill their healer", -- [415]
+				"/i so yaaaaa", -- [416]
+				"/s /reload", -- [417]
+				"/p cookies", -- [418]
+				"/p orbs on green", -- [419]
+				"/p rezzomg", -- [420]
+				"/p release", -- [421]
+				"/p I am rezzing", -- [422]
+				"/p why release", -- [423]
+				"/p I can rez", -- [424]
+				"/p dpmt re;ease", -- [425]
+				"/p k", -- [426]
+				"/p ok save lust then?", -- [427]
+				"thanks for the matches mate", -- [428]
+				"bit", -- [429]
+				"but Ill be back on in a ibt", -- [430]
+				"I gotta go for a run", -- [431]
+				"ouch lol", -- [432]
+				"k", -- [433]
+				"so we were both spectating", -- [434]
+				"mind controled me", -- [435]
+				"wrong choice", -- [436]
+				"priest forced a 1v1", -- [437]
+				"lol", -- [438]
+				"hard swaps", -- [439]
+				"ya", -- [440]
+				"los", -- [441]
+				"hmm", -- [442]
+				"fight on right", -- [443]
+				"nah", -- [444]
+				"late comer?", -- [445]
+				"jbaited him to the pillar", -- [446]
+				"something about warriors, they always gotta charge in lol", -- [447]
+				"nice lol", -- [448]
+				"yee", -- [449]
+				"los the hunter", -- [450]
+				"back", -- [451]
+				"that dk wont die", -- [452]
+				"yee", -- [453]
+				"haha I hear ya", -- [454]
+				"I should have tried to split", -- [455]
+				"alot of aoe their", -- [456]
+				"it be like this sometimes", -- [457]
+				"no worries", -- [458]
+				"ok ill focus too", -- [459]
+				"true", -- [460]
+				"fury heals more than arms", -- [461]
+				"getting tougher matchups now", -- [462]
+				"can you mount me in arena?", -- [463]
+				"yup", -- [464]
+				"ya Ill stay closer to you", -- [465]
+				"i was too far away my bad", -- [466]
+				"k", -- [467]
+				"i bet they didnt apreaciate that lol", -- [468]
+				"force bubble force bubble kil", -- [469]
+				"that seemed broken", -- [470]
+				"the warrior was running away", -- [471]
+				"srsly", -- [472]
+				"and delete lol", -- [473]
+				"hard swap", -- [474]
+				"that frost mage bursth though", -- [475]
+				"is there a macro condition for arena?", -- [476]
+				"do you use macros", -- [477]
+				"ya I know right", -- [478]
+				"there we go lol", -- [479]
+				"sry i broke cc", -- [480]
+				"whats the focus target?", -- [481]
+				"all good", -- [482]
+				"and hide my stun", -- [483]
+				"Ill use golem this time", -- [484]
+				"same", -- [485]
+				"big burst comps today", -- [486]
+				"kk", -- [487]
+				"ya they had me cc'd back to back almost the entire match", -- [488]
+				"man they wwere good", -- [489]
+				"/wa", -- [490]
+				"lets do it", -- [491]
+				"/wa", -- [492]
+				"ok np", -- [493]
+				"alright man ready whenever", -- [494]
+				"/p nice work guys", -- [495]
+				"/p nicely done", -- [496]
+				"/p you sure you dont want lust on this boss", -- [497]
+				"/p ya 2nd boss sucks", -- [498]
+				"/p but we had enough dps", -- [499]
+				"/p i saw call for lust", -- [500]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 7,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 758720.7270000001,
+					["serverTime"] = 1653186890,
+					["r"] = 1,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1653190118,
+					["timestamp"] = 758720.7270000001,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 758720.7270000001,
+					["serverTime"] = 1653236753,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1653251230,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 758720.7270000001,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 758720.7270000001,
+				}, -- [5]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 758720.7270000001,
+				}, -- [6]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 758666.204,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T894222:14|tSky-Bo is now your active pet.",
+					["serverTime"] = 1647487808,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334467.511,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135794:14|tFel Flame is now enemy active pet.",
+					["serverTime"] = 1647487809,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334468.265,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 1",
+					["serverTime"] = 1647487814,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334473.651,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:178:988:164:173|h[Immolate]|h|r dealt 165 damage to your |T894222:14|tSky-Bo (Strong).",
+					["serverTime"] = 1647487816,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334474.909,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
+					["serverTime"] = 1647487816,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334474.909,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r healed 30 damage from your |T894222:14|tSky-Bo.",
+					["serverTime"] = 1647487818,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334477.443,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r applied |T618979:14|t|cff4e96f7|HbattlePetAbil:244:30:10:13|h[Mechanical]|h|r to your |T894222:14|tSky-Bo.",
+					["serverTime"] = 1647487818,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334477.695,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:178:988:164:173|h[Immolate]|h|r applied |T135817:14|t|cff4e96f7|HbattlePetAbil:177:988:164:173|h[Immolate]|h|r to your |T894222:14|tSky-Bo.",
+					["serverTime"] = 1647487820,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334478.953,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:177:988:164:173|h[Immolate]|h|r dealt 69 damage to your |T894222:14|tSky-Bo (Strong).",
+					["serverTime"] = 1647487821,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334479.999,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
+					["serverTime"] = 1647487821,
+					["r"] = 0.9058824181556702,
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 334479.999,
+					["g"] = 0.8705883026123047,
+					["b"] = 0.6705882549285889,
+				}, -- [10]
+			},
+			["headIndex"] = 10,
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 126,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:231:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r Embalming Ichor on |cff00ff00Samoansage|r",
+					["serverTime"] = 1653253914,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761406.561,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T1373906:12:12|t |cffff8000Meat Hook on |r|cff006fdcRickmazing*|r|cffff8000|r |T1373906:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253914,
+					["timestamp"] = 761406.8640000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [S] |cffd8d8d8[|r|Hplayer:Rickmazing-Durotan:232:SAY|h|cffd8bc3f60|r:|cff006fdcRickmazing|r-Durotan|h|cffd8d8d8]|r Meat Hook on |cffa5a5a5Rickmazing|r",
+					["serverTime"] = 1653253914,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761407.132,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [S] |cffd8d8d8[|r|Hplayer:Rickmazing-Durotan:233:SAY|h|cffd8bc3f60|r:|cff006fdcRickmazing|r-Durotan|h|cffd8d8d8]|r 3",
+					["serverTime"] = 1653253915,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761407.781,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h Surgeon Stitchflesh yells: I must preserve your parts for later!",
+					["serverTime"] = 1653253915,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761408.371,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [S] |cffd8d8d8[|r|Hplayer:Rickmazing-Durotan:235:SAY|h|cffd8bc3f60|r:|cff006fdcRickmazing|r-Durotan|h|cffd8d8d8]|r 2",
+					["serverTime"] = 1653253916,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761408.96,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [S] |cffd8d8d8[|r|Hplayer:Rickmazing-Durotan:236:SAY|h|cffd8bc3f60|r:|cff006fdcRickmazing|r-Durotan|h|cffd8d8d8]|r 1",
+					["serverTime"] = 1653253917,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761409.926,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T1373906:12:12|t |cffff8000Meat Hook on |r|cffff8000Surgeon Stitchflesh|r|cffff8000|r |T1373906:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253922,
+					["timestamp"] = 761414.7660000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: Imbecile! I'm the one who made you!",
+					["serverTime"] = 1653253922,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761414.876,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T237517:12:12|t |cffff1a1aCasting Mutilate: 1.5 sec|r |T237517:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253924,
+					["timestamp"] = 761416.983,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffa5a5a5Rickmazing|r has died.",
+					["serverTime"] = 1653253925,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761417.5430000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1373906:12:12|t Meat Hook - move to Boss |T1373906:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653253933,
+					["timestamp"] = 761425.49,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |TINTERFACE\\ICONS\\inv_misc_hook_01.blp:20|t Stitchflesh's Creation targets you with |cFFFF0404|Hspell:322681|h[Meat Hook]|h|r!",
+					["serverTime"] = 1653253933,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						44, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761425.584,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:240:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r Meat Hook on |cff00ff00Samoansage|r",
+					["serverTime"] = 1653253933,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761425.787,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:241:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 3",
+					["serverTime"] = 1653253934,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761426.714,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:242:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 2",
+					["serverTime"] = 1653253935,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761427.7270000001,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:243:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 1",
+					["serverTime"] = 1653253936,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761428.676,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Rickmazing-Durotan:244:SAY|h|cffd8bc3f60|r:|cff006fdcRickmazing|r-Durotan|h|cffd8d8d8]|r Morbid Fixation on |cffa5a5a5Rickmazing|r",
+					["serverTime"] = 1653253936,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761429.334,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: Stout and strong, a prime candidate for infantry!",
+					["serverTime"] = 1653253938,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761431.357,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T237517:12:12|t |cffff1a1aCasting Mutilate: 1.5 sec|r |T237517:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253942,
+					["timestamp"] = 761435.171,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:246:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cffa5a5a5Rickmazing|r-Durotan got hit by |cff71d5ff|Hspell:320366:0|h[Embalming Ichor]|h|r for 24.6k (36%).",
+					["serverTime"] = 1653253943,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761436.204,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: Have you no respect for craftsmanship?!",
+					["serverTime"] = 1653253944,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761436.875,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T132307:12:12|t |cffff8000Casting Escape: 0.0 sec|r |T132307:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253952,
+					["timestamp"] = 761444.911,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: My constructs can handle you on their own.",
+					["serverTime"] = 1653253952,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761445.037,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T2492254:12:12|t |cfff2f200Awaken Creation|r |T2492254:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253953,
+					["timestamp"] = 761446.126,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: Another exquisite creation!",
+					["serverTime"] = 1653253955,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761448.332,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: I'll have you in stitches!",
+					["serverTime"] = 1653253955,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761448.332,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T1001622:12:12|t |cffff8000Embalming Ichor on |r|cffc31d39Honustustere|r|cffff8000|r |T1001622:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253964,
+					["timestamp"] = 761456.503,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:251:SAY|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r Embalming Ichor on |cffc31d39Honustustere|r",
+					["serverTime"] = 1653253964,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761456.799,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T237517:12:12|t |cffff1a1aCasting Mutilate: 1.5 sec|r |T237517:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253964,
+					["timestamp"] = 761457.066,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: I must preserve your parts for later!",
+					["serverTime"] = 1653253966,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761458.491,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T1373906:12:12|t |cffff8000Meat Hook on |r|cfffef367Krine*|r|cffff8000|r |T1373906:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253969,
+					["timestamp"] = 761461.921,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Krine-Khadgar:253:SAY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r Meat Hook on |cffa5a5a5Krine|r",
+					["serverTime"] = 1653253969,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761462.197,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Krine-Khadgar:254:SAY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r 3",
+					["serverTime"] = 1653253970,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761463.162,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Krine-Khadgar:255:SAY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r 2",
+					["serverTime"] = 1653253971,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761464.134,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [S] |cffd8d8d8[|r|Hplayer:Krine-Khadgar:256:SAY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r 1",
+					["serverTime"] = 1653253972,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761465.263,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:257:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cffa5a5a5Krine|r-Khadgar got hit by |cff71d5ff|Hspell:320366:0|h[Embalming Ichor]|h|r for 22.9k (41%).",
+					["serverTime"] = 1653253974,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761467.2170000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T1373906:12:12|t |cffff8000Meat Hook on |r|cffff8000Surgeon Stitchflesh|r|cffff8000|r |T1373906:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253977,
+					["timestamp"] = 761470.03,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h Surgeon Stitchflesh yells: Imbecile! I'm the one who made you!",
+					["serverTime"] = 1653253977,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761470.238,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T237517:12:12|t |cffff1a1aCasting Mutilate: 1.5 sec|r |T237517:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253980,
+					["timestamp"] = 761472.8470000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r |cffffb200[Special Warning]  |T236271:12:12|t Embalming Ichor damage - move away |T236271:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653253980,
+					["timestamp"] = 761473.17,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:259:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cffa5a5a5Krine|r-Khadgar got hit by |cff71d5ff|Hspell:320366:0|h[Embalming Ichor]|h|r for 22.9k (41%).",
+					["serverTime"] = 1653253980,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761473.17,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h Surgeon Stitchflesh yells: My greatest... was yet... to come....",
+					["serverTime"] = 1653253986,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761478.564,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Mythic+ (15) - Surgeon Stitchflesh down after 1 |4minute:minutes; and 22.21 |4second:seconds;! This is a new record! (Old record was 1 |4minute:minutes; and 42.57 |4second:seconds;). You have 16 total victories.",
+					["r"] = 0.41,
+					["serverTime"] = 1653253986,
+					["timestamp"] = 761479.38,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Abyssdark-Mok'Nathal:261:PARTY|h|cffd8bc3f60|r:|cff8687edAbyssdark|r-Mok'Nathal|h|cffd8d8d8]|r Use kyrian after boss.",
+					["serverTime"] = 1653253997,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761490.291,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:262:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 8% after",
+					["serverTime"] = 1653254000,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761493.311,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Mythic+ (15) - Nalthor the Rimebinder engaged. Good luck and have fun! :)",
+					["r"] = 0.41,
+					["serverTime"] = 1653254004,
+					["timestamp"] = 761497.019,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffffff00MRT|r Who Pulled: |cffc31d39Honustustere",
+					["timestamp"] = 761497.019,
+					["serverTime"] = 1653254004,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h Nalthor the Rimebinder yells: Bastion shall be laid to waste!",
+					["serverTime"] = 1653254004,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761497.121,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?* |cFFFFBB00Boss First Target|r: Honustustere    ",
+					["timestamp"] = 761497.525,
+					["serverTime"] = 1653254005,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h [S] |cffd8d8d8[|r|Hplayer:Abyssdark-Mok'Nathal:265:SAY|h|cffd8bc3f60|r:|cff8687edAbyssdark|r-Mok'Nathal|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds on |cffa5a5a5Abyssdark|r",
+					["serverTime"] = 1653254013,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761506.136,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T135834:12:12|t |cffff8000Frozen Binds on |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|r|cff8687edAbyssdark*|r|cffff8000|r |T135834:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254013,
+					["timestamp"] = 761506.243,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254016,
+					["timestamp"] = 761509.3200000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254021,
+					["timestamp"] = 761514.113,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h Nalthor the Rimebinder yells: [Demonic] Aman shi archim lok modas ",
+					["serverTime"] = 1653254021,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761514.215,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:267:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cffc31d39Honustustere|r got hit by |cff71d5ff|Hspell:320784:0|h[Comet Storm]|h|r for 38.0k (31%).",
+					["serverTime"] = 1653254029,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761521.8960000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h Nalthor the Rimebinder yells: [Demonic] X rikk shi rakkas il shi ",
+					["serverTime"] = 1653254032,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761525.2710000001,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T2576087:12:12|t |cffff8000Dark Exile on |r|cfffef367Krine*|r|cffff8000|r |T2576087:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254034,
+					["timestamp"] = 761527.18,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T135834:12:12|t Frozen Binds on you |T135834:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254039,
+					["timestamp"] = 761531.93,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:270:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds on |cff00ff00Samoansage|r",
+					["serverTime"] = 1653254039,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761532.223,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254042,
+					["timestamp"] = 761534.783,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254047,
+					["timestamp"] = 761539.6290000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h Nalthor the Rimebinder yells: [Demonic] Aman shi archim lok modas ",
+					["serverTime"] = 1653254047,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761539.848,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:272:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds",
+					["serverTime"] = 1653254048,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761541.262,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:273:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds",
+					["serverTime"] = 1653254049,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761542.2490000001,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:274:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds",
+					["serverTime"] = 1653254050,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761543.267,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cff71d5ff|Hdeath:5|h[You died.]|h",
+					["serverTime"] = 1653254051,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761544.231,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h Nalthor the Rimebinder yells: [Demonic] Rikk x tichar rakkas ",
+					["serverTime"] = 1653254051,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761544.387,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:278:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cff00ff00Samoansage|r got hit by |cff71d5ff|Hspell:320784:0|h[Comet Storm]|h|r for 112.9k (167%).",
+					["serverTime"] = 1653254054,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761547.392,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T135834:12:12|t |cffff8000Frozen Binds on |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|r|cff8687edAbyssdark*|r|cffff8000|r |T135834:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254065,
+					["timestamp"] = 761557.9450000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254067,
+					["timestamp"] = 761560.275,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h Nalthor the Rimebinder yells: I have had enough of you!",
+					["serverTime"] = 1653254068,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761560.498,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T2576087:12:12|t |cffff8000Dark Exile on |r|cff006fdcRickmazing*|r|cffff8000|r |T2576087:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254070,
+					["timestamp"] = 761562.455,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254072,
+					["timestamp"] = 761565.153,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h Nalthor the Rimebinder yells: None can escape the storm.",
+					["serverTime"] = 1653254072,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761565.3520000001,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [S] |cffd8d8d8[|r|Hplayer:Krine-Khadgar:283:SAY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds on |cffa5a5a5Krine|r",
+					["serverTime"] = 1653254090,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761583.191,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T135834:12:12|t |cffff8000Frozen Binds on |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|r|cfffef367Krine*|r|cffff8000|r |T135834:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254091,
+					["timestamp"] = 761583.4670000001,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254093,
+					["timestamp"] = 761585.774,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254097,
+					["timestamp"] = 761589.451,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h Nalthor the Rimebinder yells: None can escape the storm.",
+					["serverTime"] = 1653254097,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761589.66,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h Nalthor the Rimebinder yells: I have had enough of you!",
+					["serverTime"] = 1653254103,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761595.737,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T2576087:12:12|t |cffff8000Dark Exile on |r|cff8687edAbyssdark*|r|cffff8000|r |T2576087:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254105,
+					["timestamp"] = 761598.111,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T135834:12:12|t Frozen Binds on you |T135834:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254114,
+					["timestamp"] = 761607.252,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:287:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds on |cff00ff00Samoansage|r",
+					["serverTime"] = 1653254115,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761607.655,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254117,
+					["timestamp"] = 761610.118,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254122,
+					["timestamp"] = 761614.964,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h Nalthor the Rimebinder yells: None can escape the storm.",
+					["serverTime"] = 1653254122,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761615.187,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:289:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r |cffffffff<|r|cff00ff00EH|r|cffffffff>|r |cffa5a5a5Krine|r-Khadgar got hit by |cff71d5ff|Hspell:320784:0|h[Comet Storm]|h|r for 35.3k (63%).",
+					["serverTime"] = 1653254132,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761625.281,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T135834:12:12|t Frozen Binds on you |T135834:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254140,
+					["timestamp"] = 761632.792,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h [S] |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:291:SAY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_8:0|t|cffd8d8d8]|r Frozen Binds on |cff00ff00Samoansage|r",
+					["serverTime"] = 1653254140,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761633.12,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r  |T236224:12:12|t |cffff1a1aIcebound Aegis on |r|cffff1a1aNalthor the Rimebinder|r|cffff1a1a|r |T236224:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653254143,
+					["timestamp"] = 761635.628,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200Nalthor the Rimebinder|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1033907:12:12|t Comet Storm - dodge attack |T1033907:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653254148,
+					["timestamp"] = 761640.481,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h Nalthor the Rimebinder yells: None can escape the storm.",
+					["serverTime"] = 1653254148,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761640.718,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h Nalthor the Rimebinder yells: A fleeting victory... against a fraction of our forces...",
+					["serverTime"] = 1653254155,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						31, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761647.654,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Mythic+ (15) - Nalthor the Rimebinder down after 2 |4minute:minutes; and 30.39 |4second:seconds;! This is a new record! (Old record was 4 |4minute:minutes; and 14.12 |4second:seconds;). You have 16 total victories.",
+					["r"] = 0.41,
+					["serverTime"] = 1653254155,
+					["timestamp"] = 761648.416,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:294:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r [WA RM+]: We still need 8.48 %",
+					["serverTime"] = 1653254156,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761648.607,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h The Necrotic Wake (Level 15) completed in 32:16 (3 |4min:min; 44 |4sec:sec; left).",
+					["serverTime"] = 1653254220,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 761712.6020000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h Rating increased for |cffffd100Honustustere|r, |cffffd100Krine|r! Bonus Valor earned.",
+					["serverTime"] = 1653254220,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 761712.6020000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |cffd8d8d8[|r|Hplayer:Krine-Khadgar:298:ACHIEVEMENT|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:11162:Player-52-0CCE9D0B:1:5:22:22:4294967295:4294967295:4294967295:4294967295|h[Keystone Master]|h|r |cffffffff(|rCompleted 7/02/21|cffffffff)|r |cff2080a0|Hgratsl:Krine:ACHIEVEMENT::11162|h[say grats]|h|r!",
+					["serverTime"] = 1653254220,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						46, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.738,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:299:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r Thank you for travelling with ElitismHelper. Amount of failure damage:",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.738,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [100]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:300:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 1. |cffa5a5a5Abyssdark|r-Mok'Nathal 149.1k",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.738,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [101]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:301:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 2. |cffa5a5a5Krine|r-Khadgar 354.9k",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.738,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:302:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 3. |cffa5a5a5Rickmazing|r-Durotan 411.7k",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.943,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:303:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 4. |cff00ff00Samoansage|r 423.0k",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.943,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:304:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r 5. |cffc31d39Honustustere|r 776.2k",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761712.943,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:305:PARTY|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r [The Necrotic Wake] cleared in 32 minutes, 55 seconds [14:44]-[15:17]",
+					["serverTime"] = 1653254220,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761713.355,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h You receive currency: |cffa335ee|Hcurrency:1191:0|h[Valor]|h|rx135",
+					["serverTime"] = 1653254220,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						48, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761713.4280000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h You receive currency: |cffa335ee|Hcurrency:1947:0|h[Bonus Valor]|h|rx65",
+					["serverTime"] = 1653254220,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						48, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761713.4280000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Krine-Khadgar:308:PARTY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r thanks for the carryu",
+					["serverTime"] = 1653254232,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						12, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761725.251,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Krine-Khadgar:309:PARTY|h|cffd8bc3f60|r:|cfffef367Krine|r-Khadgar|h|cffd8d8d8]|r trash at this toon",
+					["serverTime"] = 1653254241,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						12, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761733.49,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Abyssdark-Mok'Nathal:310:PARTY|h|cffd8bc3f60|r:|cff8687edAbyssdark|r-Mok'Nathal|h|cffd8d8d8]|r ty all for the run.",
+					["serverTime"] = 1653254250,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761743.017,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h Honustustere receives loot: |cffa335ee|Hitem:178780::::::::60:264::33:5:7823:7359:6652:1576:6646:1:28:1279:::::|h[Rimebinder's Runeblade]|h|r.",
+					["serverTime"] = 1653254291,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						27, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761784.084,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Abyssdark-Mok'Nathal:313:PARTY|h|cffd8bc3f60|r:|cff8687edAbyssdark|r-Mok'Nathal|h|cffd8d8d8]|r |cfff38bb9gl|r in your vaults.",
+					["serverTime"] = 1653254297,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761790.159,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h You receive loot: |cff0070dd|Hitem:184768::::::::60:264:::::::::|h[Censer of Dried Gracepetals]|h|rx4",
+					["serverTime"] = 1653254299,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						27, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761791.873,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h You receive currency: |cffff8000|Hcurrency:2009:0|h[Cosmic Flux]|h|rx100",
+					["serverTime"] = 1653254300,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						48, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761792.753,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h You loot 53 Gold, 12 Silver, 16 Copper",
+					["serverTime"] = 1653254300,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						51, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761792.877,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h Krine-Khadgar receives loot: |cffa335ee|Hitem:183512::::::::60:264::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Planned Execution]|h|r.",
+					["serverTime"] = 1653254303,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						27, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761796.3790000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h Krine-Khadgar receives loot: |cffa335ee|Hitem:183505::::::::60:264::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Maim, Mangle]|h|r.",
+					["serverTime"] = 1653254304,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						27, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761796.498,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h |Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:319:PARTY|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r anyone|cffa335ee|Hitem:178780::::::::60:250::33:5:7823:7359:6652:1576:6646:1:28:1279:::::|h[Rimebinder's Runeblade]|h|r?",
+					["serverTime"] = 1653254306,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						12, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761798.943,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h Rickmazing-Durotan receives loot: |cffa335ee|Hitem:178736::::::::60:264::16:6:7795:7359:6652:7578:1576:6646:1:28:1279:::::|h[Stitchflesh's Misplaced Signet]|h|r.",
+					["serverTime"] = 1653254311,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						27, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761803.895,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h |cffa5a5a5Abyssdark|r-Mok'Nathal leaves the party.",
+					["serverTime"] = 1653254334,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761826.758,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |cffa5a5a5Krine|r-Khadgar leaves the party.",
+					["serverTime"] = 1653254342,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761834.483,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h You are now the group leader.",
+					["serverTime"] = 1653254342,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761834.626,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |cffd8d8d8[|r|Hplayer:Ashh:324|h|cff8b8b8b41|r:|cff3ec6eaAshh|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1653254348,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761840.58,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq66|k:105:325:BN_INLINE_TOAST_ALERT:0|h[|Kq66|k] (|TInterface\\ChatFrame\\UI-ChatIcon-WOW:14:14:0:0|tAshh)|h has come online.",
+					["serverTime"] = 1653254349,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761842.2880000001,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |cffa5a5a5Rickmazing|r-Durotan leaves the party.",
+					["serverTime"] = 1653254357,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 761849.468,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r  |T237517:12:12|t |cffff1a1aCasting Mutilate: 1.5 sec|r |T237517:12:12|t ",
+					["r"] = 0.41,
+					["serverTime"] = 1653253910,
+					["timestamp"] = 761403.21,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h |cffff7d0a<|r|cffffd200Surgeon Stitchflesh|r|cffff7d0a>|r |cffffb200[Special Warning]  |T1001622:12:12|t Embalming Ichor - move away from others |T1001622:12:12|t |r",
+					["r"] = 0.41,
+					["serverTime"] = 1653253913,
+					["timestamp"] = 761406.366,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

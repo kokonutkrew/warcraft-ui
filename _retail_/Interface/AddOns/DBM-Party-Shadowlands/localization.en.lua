@@ -83,7 +83,7 @@ L:SetGeneralLocalization({
 L= DBM:GetModLocalization(2405)
 
 L:SetWarningLocalization({
-	specWarnParasiticInfester		= "Parasitic Infester on YOU",
+	warnInfestor					= "Parasitic Infestor on %s",
 	specWarnParasiticInfesterKick	= "Parasitic Infester - Interrupt!"
 })
 
@@ -92,7 +92,7 @@ L:SetTimerLocalization{
 }
 
 L:SetOptionLocalization({
-	specWarnParasiticInfester		= "Show special warning when you are affected by Parasitic Infester",
+	warnInfestor					= "Announce Parasitic Infestor targets",
 	specWarnParasiticInfesterKick	= "Show special warning to interrupt Parasitic Infester",
 	timerParasiticInfesterCD		= "Show timer for Parasitic Infester",
 	yellParasiticInfester			= "Yell when you are affected by Parasitic Infester"
@@ -283,4 +283,56 @@ L = DBM:GetModLocalization("SanguineDepthsTrash")
 
 L:SetGeneralLocalization({
 	name =	"Sanguine Depths Trash"
+})
+
+-----------------------
+-- <<<Tazavesh, the Veiled Market (1194J/2441M)>>> --
+-----------------------
+-----------------------
+-- Zo'phex the Sentinel --
+-----------------------
+--L= DBM:GetModLocalization(2437)
+
+-----------------------
+-- The Menagerie --
+-----------------------
+--L= DBM:GetModLocalization(2454)
+
+-----------------------
+-- Mailroom Mayhem --
+-----------------------
+--L= DBM:GetModLocalization(2436)
+
+-----------------------
+-- Au'myza's Oasis --
+-----------------------
+--L= DBM:GetModLocalization(2452)
+
+-----------------------
+-- So'azmi --
+-----------------------
+--L= DBM:GetModLocalization(2451)
+
+-----------------------
+-- Hylbrande --
+-----------------------
+--L= DBM:GetModLocalization(2448)
+
+-----------------------
+-- Timecap'n Hooktail --
+-----------------------
+--L= DBM:GetModLocalization(2449)
+
+-----------------------
+-- So'leah --
+-----------------------
+--L= DBM:GetModLocalization(2455)
+
+---------
+--Trash--
+---------
+L = DBM:GetModLocalization("TazaveshTrash")
+
+L:SetGeneralLocalization({
+	name =	"Tazavesh Trash"
 })

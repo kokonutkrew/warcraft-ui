@@ -3,8 +3,8 @@
 ------------------------------------------------------------------------------
 -- PriceSource_TSM.lua - TSM Price Sources
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI

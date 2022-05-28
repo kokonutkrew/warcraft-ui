@@ -84,7 +84,7 @@ L:SetGeneralLocalization({
 L= DBM:GetModLocalization(2405)
 
 L:SetWarningLocalization({
-	specWarnParasiticInfester	= "당신에게 기생 감염충",
+	warnInfestor			= "%s에게 기생 감염충",
 	specWarnParasiticInfesterKick	= "기생 감염충 - 차단!"
 })
 
@@ -93,7 +93,7 @@ L:SetTimerLocalization{
 }
 
 L:SetOptionLocalization({
-	specWarnParasiticInfester	= "당신이 기생 감염충 대상이면 특수 알림 보기",
+	warnInfestor			= "기생 감염충 대상 알림",
 	specWarnParasiticInfesterKick	= "기생 감염충을 차단해야 할 때 특수 경고 보기",
 	timerParasiticInfesterCD	= "기생 감염충 타이머 바 보기",
 	yellParasiticInfester		= "기생 감염충 대상일 때 말풍선으로 알리기"
@@ -284,4 +284,56 @@ L = DBM:GetModLocalization("SanguineDepthsTrash")
 
 L:SetGeneralLocalization({
 	name =	"핏빛 심연 일반몹"
+})
+
+-----------------------
+-- <<<Tazavesh, the Veiled Market (1194J/2441M)>>> --
+-----------------------
+-----------------------
+-- Zo'phex the Sentinel --
+-----------------------
+--L= DBM:GetModLocalization(2437)
+
+-----------------------
+-- The Menagerie --
+-----------------------
+--L= DBM:GetModLocalization(2454)
+
+-----------------------
+-- Mailroom Mayhem --
+-----------------------
+--L= DBM:GetModLocalization(2436)
+
+-----------------------
+-- Au'myza's Oasis --
+-----------------------
+--L= DBM:GetModLocalization(2452)
+
+-----------------------
+-- So'azmi --
+-----------------------
+--L= DBM:GetModLocalization(2451)
+
+-----------------------
+-- Hylbrande --
+-----------------------
+--L= DBM:GetModLocalization(2448)
+
+-----------------------
+-- Timecap'n Hooktail --
+-----------------------
+--L= DBM:GetModLocalization(2449)
+
+-----------------------
+-- So'leah --
+-----------------------
+--L= DBM:GetModLocalization(2455)
+
+---------
+--Trash--
+---------
+L = DBM:GetModLocalization("TazaveshTrash")
+
+L:SetGeneralLocalization({
+	name =	"타자베쉬 일반몹"
 })

@@ -1,0 +1,57 @@
+VER 3 0100000000000001 ".FormBear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [noform:1]bear form; [spec:3.form:1]survival instincts; [nospec:3,form:1]barkskin;
+END
+VER 3 010000000000000A ".FormCat" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [stealth,spec:2]rake;[stealth,talent:3/2]rake;[stealth]shred;[nostealth,nocombat,stance:2]prowl;[nostance:2]cat form; [nostealth,combat]shadowmeld
+END
+VER 3 010000000000000E ".FormMoonkin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform [noform:1]
+/use [spec:1]moonkin form
+END
+VER 3 0100000000000002 ".FormTravel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift]fishing; [form:3] cat form; travel form
+END
+VER 3 010000000000000C ".Key3 Dots" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence rake, moonfire
+END
+VER 3 010000000000000D ".KeyAltUp Cure" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use target
+END
+VER 3 0100000000000006 ".KeyE Talent 3" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nospec:1,talent:3/1] Typhoon; [spec:1,talent:3/1][spec:3/4,talent:3/2] Maim; [spec:1/2,talent:3/2][spec:4,talent:3/3] Incapacitating Roar; [nospec:4,talent:3/3] Ursol's Vortex
+END
+VER 3 0100000000000004 ".KeyQ Spec Spell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:1] solar beam; [spec:2] skull bash; [spec:3] skull bash; [spec:4] ursol's vortex
+END
+VER 3 010000000000000B ".KeyScroll Speed" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/userandom dash, wild charge, stampeding roar, soul shape, darkflight, bull rush, 
+END
+VER 3 0100000000000003 "KillSwitch" "INV_Misc_QuestionMark"
+#showtooltip
+/userandom tiger's fury, berserk, 13
+END
+VER 3 0100000000000005 "Talent 2" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:2/1] Tiger Dash; [talent:2/2] Renewal; [talent:2/3] Wild Charge
+END
+VER 3 0100000000000007 "Talent 4" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:4/1] Mighty Bash; [talent:4/2] Mass Entanglement; [talent:4/3] Heart of the Wild
+END
+VER 3 0100000000000008 "Talent 6" "INV_Misc_QuestionMark"
+#showtooltip
+/use [talent:6/1] scent of blood; [talent:6/2] brutal slash; [talent:6/3] primal wrath
+END
+VER 3 0100000000000009 "Trinkets" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence 13, 14
+END

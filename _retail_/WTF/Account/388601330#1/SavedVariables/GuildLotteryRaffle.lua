@@ -1,0 +1,691 @@
+
+glrHistory = {
+	["TransferData"] = {
+	},
+	["MultiGuildStatus"] = {
+		["Flours-EmeraldDream"] = false,
+		["Plumn-EmeraldDream"] = false,
+		["Buhbels-EmeraldDream"] = false,
+		["Sparkkles-EmeraldDream"] = false,
+		["Munnki-EmeraldDream"] = false,
+	},
+	["GuildStatus"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+			["KokonutKrew"] = false,
+		},
+	},
+	["CrossFaction"] = {
+		["Flours-EmeraldDream"] = false,
+		["Plumn-EmeraldDream"] = false,
+		["Buhbels-EmeraldDream"] = false,
+		["Sparkkles-EmeraldDream"] = false,
+		["Munnki-EmeraldDream"] = false,
+	},
+	["Names"] = {
+		"Munnki-EmeraldDream", -- [1]
+		"Plumn-EmeraldDream", -- [2]
+		"Buhbels-EmeraldDream", -- [3]
+		"Flours-EmeraldDream", -- [4]
+		"Sparkkles-EmeraldDream", -- [5]
+	},
+	["Updated"] = 1653709640,
+	["BulkDebug"] = {
+		["Flours-EmeraldDream"] = {
+		},
+		["Plumn-EmeraldDream"] = {
+		},
+		["Buhbels-EmeraldDream"] = {
+		},
+		["Sparkkles-EmeraldDream"] = {
+		},
+		["Munnki-EmeraldDream"] = {
+		},
+	},
+	["Settings"] = {
+		["Lottery"] = {
+			["Mail"] = {
+				"Lottery", -- [1]
+				"Guild Lottery", -- [2]
+			},
+			["Commands"] = {
+				"lottery", -- [1]
+			},
+		},
+		["LastDebugUpdate"] = {
+			["Flours-EmeraldDream"] = "05/27/2022 - 00:28.38",
+			["Plumn-EmeraldDream"] = "05/13/2022 - 03:16.31",
+			["Buhbels-EmeraldDream"] = "05/14/2022 - 15:48.26",
+			["Sparkkles-EmeraldDream"] = "05/27/2022 - 21:49.20",
+			["Munnki-EmeraldDream"] = "05/09/2022 - 22:31.38",
+		},
+		["Raffle"] = {
+			["Mail"] = {
+				"Raffle", -- [1]
+				"Guild Raffle", -- [2]
+			},
+			["Commands"] = {
+				"raffle", -- [1]
+			},
+		},
+	},
+	["PlayerFaction"] = {
+		["Flours-EmeraldDream"] = "Horde",
+		["Plumn-EmeraldDream"] = "Alliance",
+		["Buhbels-EmeraldDream"] = "Alliance",
+		["Sparkkles-EmeraldDream"] = "Alliance",
+		["Munnki-EmeraldDream"] = "Alliance",
+	},
+	["GuildFaction"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+			["Munnki-EmeraldDream"] = "KokonutKrew",
+			["Buhbels-EmeraldDream"] = "KokonutKrew",
+		},
+	},
+	["Debug"] = {
+		["Flours-EmeraldDream"] = {
+			"05/24/2022 - 00:21.56 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"05/24/2022 - 00:21.56 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"05/24/2022 - 00:21.56 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"05/24/2022 - 00:22.24 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"05/24/2022 - 00:22.24 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"05/24/2022 - 00:22.24 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"05/24/2022 - 00:22.24 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"05/24/2022 - 00:22.24 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"05/24/2022 - 00:22.24 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"05/24/2022 - 00:22.24 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"05/24/2022 - 00:22.51 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"05/24/2022 - 00:22.54 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"05/24/2022 - 00:44.39 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"05/24/2022 - 00:44.39 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+			"05/26/2022 - 23:21.52 - RETAIL - -------------------------------------------------------------------------------------", -- [15]
+			"05/26/2022 - 23:21.52 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [16]
+			"05/26/2022 - 23:21.52 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [17]
+			"05/26/2022 - 23:22.09 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [18]
+			"05/26/2022 - 23:22.09 - RETAIL - Initialize() - Preforming Initialize Function", -- [19]
+			"05/26/2022 - 23:22.09 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [20]
+			"05/26/2022 - 23:22.09 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [21]
+			"05/26/2022 - 23:22.09 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [22]
+			"05/26/2022 - 23:22.09 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [23]
+			"05/26/2022 - 23:22.09 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [24]
+			"05/26/2022 - 23:22.36 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [25]
+			"05/26/2022 - 23:22.41 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [26]
+			"05/27/2022 - 00:28.38 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [27]
+			"05/27/2022 - 00:28.38 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [28]
+		},
+		["Plumn-EmeraldDream"] = {
+			"05/13/2022 - 03:14.35 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"05/13/2022 - 03:14.35 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"05/13/2022 - 03:14.35 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"05/13/2022 - 03:15.02 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"05/13/2022 - 03:15.02 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"05/13/2022 - 03:15.02 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"05/13/2022 - 03:15.02 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"05/13/2022 - 03:15.02 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"05/13/2022 - 03:15.02 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"05/13/2022 - 03:15.02 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"05/13/2022 - 03:15.25 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"05/13/2022 - 03:15.28 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"05/13/2022 - 03:16.31 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"05/13/2022 - 03:16.31 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+		},
+		["Buhbels-EmeraldDream"] = {
+			"05/13/2022 - 03:22.33 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"05/13/2022 - 03:22.33 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"05/13/2022 - 03:22.33 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"05/13/2022 - 03:22.57 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"05/13/2022 - 03:22.57 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"05/13/2022 - 03:22.57 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"05/13/2022 - 03:22.57 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"05/13/2022 - 03:22.57 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"05/13/2022 - 03:22.57 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"05/13/2022 - 03:22.57 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"05/13/2022 - 03:23.25 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"05/13/2022 - 03:23.27 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"05/13/2022 - 04:30.30 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"05/13/2022 - 04:30.30 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+			"05/13/2022 - 12:13.50 - RETAIL - -------------------------------------------------------------------------------------", -- [15]
+			"05/13/2022 - 12:13.50 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [16]
+			"05/13/2022 - 12:13.50 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [17]
+			"05/13/2022 - 12:14.07 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [18]
+			"05/13/2022 - 12:14.07 - RETAIL - Initialize() - Preforming Initialize Function", -- [19]
+			"05/13/2022 - 12:14.07 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [20]
+			"05/13/2022 - 12:14.07 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [21]
+			"05/13/2022 - 12:14.07 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [22]
+			"05/13/2022 - 12:14.07 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [23]
+			"05/13/2022 - 12:14.07 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [24]
+			"05/13/2022 - 12:14.31 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [25]
+			"05/13/2022 - 12:14.35 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [26]
+			"05/13/2022 - 16:09.18 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [27]
+			"05/13/2022 - 16:09.18 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [28]
+			"05/14/2022 - 13:39.17 - RETAIL - -------------------------------------------------------------------------------------", -- [29]
+			"05/14/2022 - 13:39.17 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [30]
+			"05/14/2022 - 13:39.17 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [31]
+			"05/14/2022 - 13:39.39 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [32]
+			"05/14/2022 - 13:39.39 - RETAIL - Initialize() - Preforming Initialize Function", -- [33]
+			"05/14/2022 - 13:39.39 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [34]
+			"05/14/2022 - 13:39.39 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [35]
+			"05/14/2022 - 13:39.39 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [36]
+			"05/14/2022 - 13:39.39 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [37]
+			"05/14/2022 - 13:39.39 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [38]
+			"05/14/2022 - 13:40.05 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [39]
+			"05/14/2022 - 13:40.11 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [40]
+			"05/14/2022 - 13:56.49 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [41]
+			"05/14/2022 - 13:56.49 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [42]
+			"05/14/2022 - 15:11.37 - RETAIL - -------------------------------------------------------------------------------------", -- [43]
+			"05/14/2022 - 15:11.37 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [44]
+			"05/14/2022 - 15:11.37 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [45]
+			"05/14/2022 - 15:11.55 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [46]
+			"05/14/2022 - 15:11.55 - RETAIL - Initialize() - Preforming Initialize Function", -- [47]
+			"05/14/2022 - 15:11.55 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [48]
+			"05/14/2022 - 15:11.55 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [49]
+			"05/14/2022 - 15:11.55 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [50]
+			"05/14/2022 - 15:11.55 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [51]
+			"05/14/2022 - 15:11.55 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [52]
+			"05/14/2022 - 15:12.22 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [53]
+			"05/14/2022 - 15:12.23 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [54]
+			"05/14/2022 - 15:48.26 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [55]
+			"05/14/2022 - 15:48.26 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [56]
+		},
+		["Sparkkles-EmeraldDream"] = {
+			"05/27/2022 - 15:14.44 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"05/27/2022 - 15:14.44 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"05/27/2022 - 15:14.44 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"05/27/2022 - 15:15.10 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"05/27/2022 - 15:15.10 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"05/27/2022 - 15:15.10 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"05/27/2022 - 15:15.10 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"05/27/2022 - 15:15.10 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"05/27/2022 - 15:15.10 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"05/27/2022 - 15:15.10 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"05/27/2022 - 15:15.36 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"05/27/2022 - 15:15.40 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"05/27/2022 - 17:21.26 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"05/27/2022 - 17:21.26 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+			"05/27/2022 - 18:52.07 - RETAIL - -------------------------------------------------------------------------------------", -- [15]
+			"05/27/2022 - 18:52.07 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [16]
+			"05/27/2022 - 18:52.07 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [17]
+			"05/27/2022 - 18:52.27 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [18]
+			"05/27/2022 - 18:52.27 - RETAIL - Initialize() - Preforming Initialize Function", -- [19]
+			"05/27/2022 - 18:52.27 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [20]
+			"05/27/2022 - 18:52.27 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [21]
+			"05/27/2022 - 18:52.27 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [22]
+			"05/27/2022 - 18:52.27 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [23]
+			"05/27/2022 - 18:52.27 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [24]
+			"05/27/2022 - 18:52.52 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [25]
+			"05/27/2022 - 18:52.56 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [26]
+			"05/27/2022 - 19:01.48 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [27]
+			"05/27/2022 - 19:01.48 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [28]
+			"05/27/2022 - 19:02.24 - RETAIL - -------------------------------------------------------------------------------------", -- [29]
+			"05/27/2022 - 19:02.24 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [30]
+			"05/27/2022 - 19:02.24 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [31]
+			"05/27/2022 - 19:02.39 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [32]
+			"05/27/2022 - 19:02.39 - RETAIL - Initialize() - Preforming Initialize Function", -- [33]
+			"05/27/2022 - 19:02.39 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [34]
+			"05/27/2022 - 19:02.39 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [35]
+			"05/27/2022 - 19:02.39 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [36]
+			"05/27/2022 - 19:02.39 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [37]
+			"05/27/2022 - 19:02.39 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [38]
+			"05/27/2022 - 19:03.03 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [39]
+			"05/27/2022 - 19:03.07 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [40]
+			"05/27/2022 - 19:03.58 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [41]
+			"05/27/2022 - 19:03.58 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [42]
+			"05/27/2022 - 21:47.22 - RETAIL - -------------------------------------------------------------------------------------", -- [43]
+			"05/27/2022 - 21:47.22 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [44]
+			"05/27/2022 - 21:47.22 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [45]
+			"05/27/2022 - 21:47.39 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [46]
+			"05/27/2022 - 21:47.39 - RETAIL - Initialize() - Preforming Initialize Function", -- [47]
+			"05/27/2022 - 21:47.39 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [48]
+			"05/27/2022 - 21:47.39 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [49]
+			"05/27/2022 - 21:47.39 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [50]
+			"05/27/2022 - 21:47.39 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [51]
+			"05/27/2022 - 21:47.39 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [52]
+			"05/27/2022 - 21:48.01 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [53]
+			"05/27/2022 - 21:48.05 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [54]
+			"05/27/2022 - 21:49.20 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [55]
+			"05/27/2022 - 21:49.20 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [56]
+		},
+		["Munnki-EmeraldDream"] = {
+			"05/09/2022 - 00:52.06 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"05/09/2022 - 00:52.06 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"05/09/2022 - 00:52.06 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"05/09/2022 - 00:52.33 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"05/09/2022 - 00:52.33 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"05/09/2022 - 00:52.33 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"05/09/2022 - 00:52.33 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"05/09/2022 - 00:52.33 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"05/09/2022 - 00:52.33 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"05/09/2022 - 00:52.33 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"05/09/2022 - 00:53.06 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"05/09/2022 - 00:53.12 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"05/09/2022 - 02:51.09 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"05/09/2022 - 02:51.09 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+			"05/09/2022 - 17:16.45 - RETAIL - -------------------------------------------------------------------------------------", -- [15]
+			"05/09/2022 - 17:16.45 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [16]
+			"05/09/2022 - 17:16.45 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [17]
+			"05/09/2022 - 17:17.06 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [18]
+			"05/09/2022 - 17:17.06 - RETAIL - Initialize() - Preforming Initialize Function", -- [19]
+			"05/09/2022 - 17:17.06 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [20]
+			"05/09/2022 - 17:17.06 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [21]
+			"05/09/2022 - 17:17.06 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [22]
+			"05/09/2022 - 17:17.06 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [23]
+			"05/09/2022 - 17:17.06 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [24]
+			"05/09/2022 - 17:17.31 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [25]
+			"05/09/2022 - 17:17.37 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [26]
+			"05/09/2022 - 19:15.59 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [27]
+			"05/09/2022 - 19:15.59 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [28]
+			"05/09/2022 - 19:54.20 - RETAIL - -------------------------------------------------------------------------------------", -- [29]
+			"05/09/2022 - 19:54.20 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [30]
+			"05/09/2022 - 19:54.20 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [31]
+			"05/09/2022 - 19:54.38 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [32]
+			"05/09/2022 - 19:54.38 - RETAIL - Initialize() - Preforming Initialize Function", -- [33]
+			"05/09/2022 - 19:54.38 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [34]
+			"05/09/2022 - 19:54.38 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [35]
+			"05/09/2022 - 19:54.38 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [36]
+			"05/09/2022 - 19:54.38 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [37]
+			"05/09/2022 - 19:54.38 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [38]
+			"05/09/2022 - 19:55.02 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [39]
+			"05/09/2022 - 19:55.05 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [40]
+			"05/09/2022 - 22:31.38 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [41]
+			"05/09/2022 - 22:31.38 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [42]
+		},
+	},
+	["GuildRoster"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["TransferAvailable"] = {
+		["Lottery"] = {
+			["Flours-EmeraldDream"] = false,
+			["Plumn-EmeraldDream"] = false,
+			["Buhbels-EmeraldDream"] = false,
+			["Sparkkles-EmeraldDream"] = false,
+			["Munnki-EmeraldDream"] = false,
+		},
+		["Raffle"] = {
+			["Flours-EmeraldDream"] = false,
+			["Plumn-EmeraldDream"] = false,
+			["Buhbels-EmeraldDream"] = false,
+			["Sparkkles-EmeraldDream"] = false,
+			["Munnki-EmeraldDream"] = false,
+		},
+	},
+	["ActiveEvents"] = {
+		["Flours-EmeraldDream"] = false,
+		["Plumn-EmeraldDream"] = false,
+		["Buhbels-EmeraldDream"] = false,
+		["Sparkkles-EmeraldDream"] = false,
+		["Munnki-EmeraldDream"] = false,
+	},
+	["Version"] = "3.1.25",
+	["DrawState"] = {
+		["Horde"] = {
+			["Flours-EmeraldDream"] = false,
+		},
+		["Alliance"] = {
+			["Munnki-EmeraldDream"] = false,
+			["Plumn-EmeraldDream"] = false,
+			["Buhbels-EmeraldDream"] = false,
+			["Sparkkles-EmeraldDream"] = false,
+		},
+	},
+	["Profile"] = {
+		["Lottery"] = {
+			["Flours-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Plumn-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["TicketPrice"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["StartingGold"] = "0",
+			},
+			["Buhbels-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Sparkkles-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Munnki-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+		},
+		["Messages"] = {
+			["Lottery"] = {
+				["Flours-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Plumn-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Buhbels-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Sparkkles-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Munnki-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+			},
+			["Both"] = {
+				["Flours-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Plumn-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Buhbels-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Sparkkles-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Munnki-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+			},
+			["Raffle"] = {
+				["Flours-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Plumn-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Buhbels-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Sparkkles-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Munnki-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+			},
+		},
+		["Raffle"] = {
+			["Flours-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Plumn-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Buhbels-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Sparkkles-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Munnki-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+		},
+	},
+	["CharacterGuilds"] = {
+		["Munnki-EmeraldDream"] = "KokonutKrew",
+		["Buhbels-EmeraldDream"] = "KokonutKrew",
+	},
+	["LastUpdated"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["Whispers"] = {
+		["Flours-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Plumn-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Buhbels-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Sparkkles-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Munnki-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+	},
+	["PlayerClass"] = {
+		["Horde"] = {
+			["Flours-EmeraldDream"] = "DRUID",
+		},
+		["Alliance"] = {
+			["Munnki-EmeraldDream"] = "MONK",
+			["Plumn-EmeraldDream"] = "DEATHKNIGHT",
+			["Buhbels-EmeraldDream"] = "PRIEST",
+			["Sparkkles-EmeraldDream"] = "MAGE",
+		},
+	},
+	["GuildRanks"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+			["KokonutKrew"] = {
+				"Officer", -- [1]
+				"Officer", -- [2]
+				"Crafter", -- [3]
+				"-", -- [4]
+				"Officer", -- [5]
+				"Officer", -- [6]
+				"Veteran", -- [7]
+				"Crafter", -- [8]
+				"Member", -- [9]
+				"Unranked", -- [10]
+			},
+		},
+	},
+	["lang"] = "enUS",
+	["TransferStatus"] = {
+		["Lottery"] = {
+			["Flours-EmeraldDream"] = false,
+			["Plumn-EmeraldDream"] = false,
+			["Buhbels-EmeraldDream"] = false,
+			["Sparkkles-EmeraldDream"] = false,
+			["Munnki-EmeraldDream"] = false,
+		},
+		["Raffle"] = {
+			["Flours-EmeraldDream"] = false,
+			["Plumn-EmeraldDream"] = false,
+			["Buhbels-EmeraldDream"] = false,
+			["Sparkkles-EmeraldDream"] = false,
+			["Munnki-EmeraldDream"] = false,
+		},
+	},
+}
+guildData = {
+}

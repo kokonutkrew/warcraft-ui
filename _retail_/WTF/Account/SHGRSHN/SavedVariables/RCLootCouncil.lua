@@ -4,2165 +4,2359 @@ RCLootCouncilDB = {
 		["ExtraUtilities"] = {
 		},
 	},
-	["profileKeys"] = {
-		["Samoanslayer - Emerald Dream"] = "Default",
-		["Samoansage - Emerald Dream"] = "KokonutKrew",
-		["Threadcraft - Emerald Dream"] = "Default",
-		["Samoanranger - Emerald Dream"] = "Default",
-		["Mf - Emerald Dream"] = "Default",
-		["Samoansavage - Emerald Dream"] = "Default",
-		["Samoantitan - Stormrage"] = "Default",
-	},
 	["global"] = {
 		["log"] = {
-			"<19:25:28><DEBUG>	 Event: LOOT_READY true", -- [1]
-			"<19:25:28><DEBUG>	 Event: LOOT_READY true", -- [2]
-			"<19:26:01><DEBUG>	 Event: LOOT_READY true", -- [3]
-			"<19:26:02><DEBUG>	 Event: LOOT_READY true", -- [4]
-			"<19:26:07><DEBUG>	 Event: LOOT_READY true", -- [5]
-			"<19:26:07><DEBUG>	 Event: LOOT_READY true", -- [6]
-			"<19:26:22><DEBUG>	 Event: LOOT_READY true", -- [7]
-			"<19:26:22><DEBUG>	 Event: LOOT_READY true", -- [8]
-			"<19:27:07><DEBUG>	 Event: LOOT_READY true", -- [9]
-			"<19:27:07><DEBUG>	 Event: LOOT_READY true", -- [10]
-			"<19:27:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [11]
-			"<19:27:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [12]
-			"<19:27:39><DEBUG>	 Event: LOOT_READY true", -- [13]
-			"<19:27:40><DEBUG>	 Event: LOOT_READY true", -- [14]
-			"<19:27:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [15]
-			"<19:27:55><DEBUG>	 Event: LOOT_READY true", -- [16]
-			"<19:27:55><DEBUG>	 Event: LOOT_READY true", -- [17]
-			"<19:27:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [18]
-			"<19:28:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [19]
-			"<19:28:21>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [20]
-			"<19:28:21><DEBUG>	 Event: LOOT_READY true", -- [21]
-			"<19:28:22><DEBUG>	 Event: LOOT_READY true", -- [22]
-			"<19:28:39>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [23]
-			"<19:28:43><DEBUG>	 Event: LOOT_READY true", -- [24]
-			"<19:28:43><DEBUG>	 Event: LOOT_READY true", -- [25]
-			"<19:29:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [26]
-			"<19:29:06><DEBUG>	 Event: LOOT_READY true", -- [27]
-			"<19:29:06><DEBUG>	 Event: LOOT_READY true", -- [28]
-			"<19:29:12><DEBUG>	 Event: LOOT_READY true", -- [29]
-			"<19:29:12><DEBUG>	 Event: LOOT_READY true", -- [30]
-			"<19:29:44>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [31]
-			"<19:29:48><DEBUG>	 Event: LOOT_READY true", -- [32]
-			"<19:29:48><DEBUG>	 Event: LOOT_READY true", -- [33]
-			"<19:29:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [34]
-			"<19:30:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [35]
-			"<19:30:27><DEBUG>	 Event: LOOT_READY true", -- [36]
-			"<19:30:27><DEBUG>	 Event: LOOT_READY true", -- [37]
-			"<19:30:43><DEBUG>	 Event: LOOT_READY true", -- [38]
-			"<19:30:43><DEBUG>	 Event: LOOT_READY true", -- [39]
-			"<19:31:22>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [40]
-			"<19:31:26><DEBUG>	 Event: LOOT_READY true", -- [41]
-			"<19:31:26><DEBUG>	 Event: LOOT_READY true", -- [42]
-			"<19:31:56><DEBUG>	 Event: LOOT_READY true", -- [43]
-			"<19:31:56><DEBUG>	 Event: LOOT_READY true", -- [44]
-			"<19:31:56>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [45]
-			"<19:31:58><DEBUG>	 Event: LOOT_READY true", -- [46]
-			"<19:31:58><DEBUG>	 Event: LOOT_READY true", -- [47]
-			"<19:32:14><DEBUG>	 Event: LOOT_READY true", -- [48]
-			"<19:32:15><DEBUG>	 Event: LOOT_READY true", -- [49]
-			"<19:32:30><DEBUG>	 Event: LOOT_READY true", -- [50]
-			"<19:32:30><DEBUG>	 Event: LOOT_READY true", -- [51]
-			"<19:32:35>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [52]
-			"<19:32:44><DEBUG>	 Event: LOOT_READY true", -- [53]
-			"<19:32:44><DEBUG>	 Event: LOOT_READY true", -- [54]
-			"<19:32:49><DEBUG>	 Event: LOOT_READY true", -- [55]
-			"<19:32:49><DEBUG>	 Event: LOOT_READY true", -- [56]
-			"<19:33:19>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [57]
-			"<19:33:48><DEBUG>	 Event: LOOT_READY true", -- [58]
-			"<19:33:49><DEBUG>	 Event: LOOT_READY true", -- [59]
-			"<19:33:59><DEBUG>	 Event: LOOT_READY true", -- [60]
-			"<19:33:59><DEBUG>	 Event: LOOT_READY true", -- [61]
-			"<19:34:36><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [62]
-			"<19:34:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [63]
-			"<19:34:39><DEBUG>	 GetML()", -- [64]
-			"<19:34:39><INFO>	 Stop handling loot", -- [65]
-			"<19:34:39>[ML]<INFO>	 Disabled", -- [66]
-			"<19:34:40><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [67]
-			"<19:34:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [68]
-			"<19:34:42><DEBUG>	 GetML()", -- [69]
-			"<19:34:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [70]
-			"<19:34:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [71]
-			"<19:35:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [72]
-			"<19:35:52><DEBUG>	 Event: LOOT_READY true", -- [73]
-			"<19:35:52><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0 1 Creature-0-3133-2290-20463-165111-00015D3A1E 1", -- [74]
-			"<19:35:52><DEBUG>	 Event: LOOT_READY true", -- [75]
-			"<19:35:52><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0 2 Creature-0-3133-2290-20463-165111-00025D3A1E 1 Creature-0-3133-2290-20463-165111-00015D3A1E 1", -- [76]
-			"<19:35:52><DEBUG>	 Event: LOOT_READY true", -- [77]
-			"<19:35:52><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0 2 Creature-0-3133-2290-20463-165111-00025D3A1E 1 Creature-0-3133-2290-20463-165111-00015D3A1E 1", -- [78]
-			"<19:35:53><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0", -- [79]
-			"<19:35:53><DEBUG>	 Event: LOOT_CLOSED", -- [80]
-			"<19:35:53><DEBUG>	 Event: LOOT_CLOSED", -- [81]
-			"<19:35:53><Comm>	 ^1^Sl^T^N1^S165111^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [82]
-			"<19:35:53><Comm>	 ^1^Sl^T^N1^S165111^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [83]
-			"<19:36:37><DEBUG>	 Event: LOOT_READY true", -- [84]
-			"<19:36:37><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164920-0000DD3A1F 48701", -- [85]
-			"<19:36:38><DEBUG>	 Event: LOOT_READY true", -- [86]
-			"<19:36:38><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164920-0000DD3A1F 48701", -- [87]
-			"<19:36:38><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [88]
-			"<19:36:38><DEBUG>	 Event: LOOT_CLOSED", -- [89]
-			"<19:36:38><DEBUG>	 Event: LOOT_CLOSED", -- [90]
-			"<19:36:38><Comm>	 ^1^Sl^T^N1^S164920^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [91]
-			"<19:36:38><Comm>	 ^1^Sl^T^N1^S164920^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [92]
-			"<19:37:32><DEBUG>	 Event: LOOT_READY true", -- [93]
-			"<19:37:32><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0 1 Creature-0-3133-2290-20463-164926-00005D3A1E 1", -- [94]
-			"<19:37:32><DEBUG>	 Event: LOOT_READY true", -- [95]
-			"<19:37:32><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0 1 Creature-0-3133-2290-20463-164926-00005D3A1E 1", -- [96]
-			"<19:37:32><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:173871::::::::57:254:::::::|h[Harrowed Ichor]|h|r 0", -- [97]
-			"<19:37:32><DEBUG>	 Event: LOOT_CLOSED", -- [98]
-			"<19:37:32><DEBUG>	 Event: LOOT_CLOSED", -- [99]
-			"<19:37:33><Comm>	 ^1^Sl^T^N1^S164926^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [100]
-			"<19:37:33><Comm>	 ^1^Sl^T^N1^S164926^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [101]
-			"<19:38:12><DEBUG>	 Event: LOOT_READY true", -- [102]
-			"<19:38:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164920-00015D3A1F 14724", -- [103]
-			"<19:38:12><DEBUG>	 Event: LOOT_READY true", -- [104]
-			"<19:38:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164920-00015D3A1F 14724", -- [105]
-			"<19:38:12><DEBUG>	 Event: LOOT_READY true", -- [106]
-			"<19:38:12><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164920-00015D3A1F 14724", -- [107]
-			"<19:38:13><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [108]
-			"<19:38:13><DEBUG>	 Event: LOOT_CLOSED", -- [109]
-			"<19:38:13><DEBUG>	 Event: LOOT_CLOSED", -- [110]
-			"<19:38:13><Comm>	 ^1^Sl^T^N1^S164920^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [111]
-			"<19:38:13><Comm>	 ^1^Sl^T^N1^S164920^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [112]
-			"<19:38:57><DEBUG>	 Event: LOOT_READY true", -- [113]
-			"<19:38:57><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173874::::::::57:254:::::::|h[Twisted Sediment]|h|r 0 1 Creature-0-3133-2290-20463-164926-00005D3A20 1", -- [114]
-			"<19:38:57><DEBUG>	 Event: LOOT_READY true", -- [115]
-			"<19:38:57><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:173874::::::::57:254:::::::|h[Twisted Sediment]|h|r 0 1 Creature-0-3133-2290-20463-164926-00005D3A20 1", -- [116]
-			"<19:38:58><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:173874::::::::57:254:::::::|h[Twisted Sediment]|h|r 0", -- [117]
-			"<19:38:58><DEBUG>	 Event: LOOT_CLOSED", -- [118]
-			"<19:38:58><DEBUG>	 Event: LOOT_CLOSED", -- [119]
-			"<19:38:58><Comm>	 ^1^Sl^T^N1^S164926^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [120]
-			"<19:38:58><Comm>	 ^1^Sl^T^N1^S164926^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [121]
-			"<19:39:05><DEBUG>	 Event: ENCOUNTER_START 2397 Ingra Maloch 1 5", -- [122]
-			"<19:39:05><INFO>	 UpdatePlayersData()", -- [123]
-			"<19:40:49><DEBUG>	 Event: ENCOUNTER_END 2397 Ingra Maloch 1 5 1", -- [124]
-			"<19:40:51><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2397 178694 |cff0070dd|Hitem:178694::::::::57:254::17:4:7217:6771:6652:7194:2:28:747:9:55:::|h[Wrathbark Greathelm]|h|r 1 Renulf-Nemesis DEATHKNIGHT", -- [125]
-			"<19:40:53><DEBUG>	 Event: LOOT_READY true", -- [126]
-			"<19:40:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164567-00005D3A1E 65256", -- [127]
-			"<19:40:53><DEBUG>	 Event: LOOT_READY true", -- [128]
-			"<19:40:53><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164567-00005D3A1E 65256", -- [129]
-			"<19:40:53><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [130]
-			"<19:40:53><DEBUG>	 Event: LOOT_CLOSED", -- [131]
-			"<19:40:53><DEBUG>	 Event: LOOT_CLOSED", -- [132]
-			"<19:40:54><Comm>	 ^1^Sl^T^N1^S164567^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [133]
-			"<19:40:54><Comm>	 ^1^Sl^T^N1^S164567^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [134]
-			"<19:44:01><DEBUG>	 Event: LOOT_READY true", -- [135]
-			"<19:44:01><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-163058-00015D3A1F 41429", -- [136]
-			"<19:44:02><DEBUG>	 Event: LOOT_READY true", -- [137]
-			"<19:44:02><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-163058-00015D3A1F 41429", -- [138]
-			"<19:44:02><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [139]
-			"<19:44:02><DEBUG>	 Event: LOOT_CLOSED", -- [140]
-			"<19:44:02><DEBUG>	 Event: LOOT_CLOSED", -- [141]
-			"<19:44:03><Comm>	 ^1^Sl^T^N1^S163058^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [142]
-			"<19:44:03><Comm>	 ^1^Sl^T^N1^S163058^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [143]
-			"<19:47:23><DEBUG>	 Event: ENCOUNTER_START 2392 Mistcaller 1 5", -- [144]
-			"<19:47:23><INFO>	 UpdatePlayersData()", -- [145]
-			"<19:49:00><DEBUG>	 Event: ENCOUNTER_END 2392 Mistcaller 1 5 1", -- [146]
-			"<19:49:02><DEBUG>	 Event: LOOT_READY true", -- [147]
-			"<19:49:02><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164501-00005D3A1E 60967", -- [148]
-			"<19:49:02><DEBUG>	 Event: LOOT_READY true", -- [149]
-			"<19:49:02><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164501-00005D3A1E 60967", -- [150]
-			"<19:49:02><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [151]
-			"<19:49:02><DEBUG>	 Event: LOOT_CLOSED", -- [152]
-			"<19:49:02><DEBUG>	 Event: LOOT_CLOSED", -- [153]
-			"<19:49:03><Comm>	 ^1^Sl^T^N1^S164501^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [154]
-			"<19:49:03><Comm>	 ^1^Sl^T^N1^S164501^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [155]
-			"<19:49:05><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2392 178707 |cff0070dd|Hitem:178707::::::::58:254::17:4:7217:6771:6652:7193:2:28:747:9:55:::|h[Trailspinner Pendant]|h|r 1 Haisë-Stormrage DRUID", -- [156]
-			"<19:50:08><DEBUG>	 Event: LOOT_READY true", -- [157]
-			"<19:50:08><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 1 Creature-0-3133-2290-20463-167113-0003DD3D8D 1", -- [158]
-			"<19:50:09><DEBUG>	 Event: LOOT_READY true", -- [159]
-			"<19:50:09><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 1 Creature-0-3133-2290-20463-167113-0003DD3D8D 1", -- [160]
-			"<19:50:09><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0", -- [161]
-			"<19:50:09><DEBUG>	 Event: LOOT_CLOSED", -- [162]
-			"<19:50:09><DEBUG>	 Event: LOOT_CLOSED", -- [163]
-			"<19:50:10><Comm>	 ^1^Sl^T^N1^S167113^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [164]
-			"<19:50:10><Comm>	 ^1^Sl^T^N1^S167113^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [165]
-			"<19:51:47><DEBUG>	 Event: LOOT_READY true", -- [166]
-			"<19:51:47><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 3 Creature-0-3133-2290-20463-167116-0005DD3D8D 1 Creature-0-3133-2290-20463-167117-000B5D3D8D 1 Creature-0-3133-2290-20463-167117-00095D3D8D 1", -- [167]
-			"<19:51:47><DEBUG>	 Event: LOOT_READY true", -- [168]
-			"<19:51:47><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 3 Creature-0-3133-2290-20463-167116-0005DD3D8D 1 Creature-0-3133-2290-20463-167117-000B5D3D8D 1 Creature-0-3133-2290-20463-167117-00095D3D8D 1", -- [169]
-			"<19:51:47><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0", -- [170]
-			"<19:51:48><DEBUG>	 Event: LOOT_CLOSED", -- [171]
-			"<19:51:48><DEBUG>	 Event: LOOT_CLOSED", -- [172]
-			"<19:51:48><Comm>	 ^1^Sl^T^N1^S167116^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [173]
-			"<19:51:48><Comm>	 ^1^Sl^T^N1^S167116^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [174]
-			"<19:53:05><DEBUG>	 Event: LOOT_CLOSED", -- [175]
-			"<19:53:05><DEBUG>	 Event: LOOT_READY true", -- [176]
-			"<19:53:05><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176089::::::::58:254:::::::|h[Treesnap Mandible]|h|r 0 1 Creature-0-3133-2290-20463-172312-0001DD3D8D 1", -- [177]
-			"<19:53:05><DEBUG>	 Adding to self.lootSlotInfo 4 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 2 Creature-0-3133-2290-20463-167113-00015D3D8D 1 Creature-0-3133-2290-20463-167117-0003DD3D8D 1", -- [178]
-			"<19:53:05><Comm>	 ^1^Sl^T^N1^S167116^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [179]
-			"<19:53:05><DEBUG>	 Event: LOOT_READY true", -- [180]
-			"<19:53:05><DEBUG>	 Adding to self.lootSlotInfo 1 |cff9d9d9d|Hitem:176089::::::::58:254:::::::|h[Treesnap Mandible]|h|r 0 1 Creature-0-3133-2290-20463-172312-0001DD3D8D 1", -- [181]
-			"<19:53:05><DEBUG>	 Adding to self.lootSlotInfo 4 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0 2 Creature-0-3133-2290-20463-167113-00015D3D8D 1 Creature-0-3133-2290-20463-167117-0003DD3D8D 1", -- [182]
-			"<19:53:05><DEBUG>	 OnLootSlotCleared() 1 |cff9d9d9d|Hitem:176089::::::::58:254:::::::|h[Treesnap Mandible]|h|r 0", -- [183]
-			"<19:53:05><DEBUG>	 Event: LOOT_CLOSED", -- [184]
-			"<19:53:05><DEBUG>	 OnLootSlotCleared() 4 |cff9d9d9d|Hitem:176087::::::::58:254:::::::|h[Gorm Chitin]|h|r 0", -- [185]
-			"<19:53:05><DEBUG>	 Event: LOOT_CLOSED", -- [186]
-			"<19:53:06><Comm>	 ^1^Sl^T^N1^S167113^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [187]
-			"<19:53:53><DEBUG>	 Event: ENCOUNTER_START 2393 Tred'ova 1 5", -- [188]
-			"<19:53:53><INFO>	 UpdatePlayersData()", -- [189]
-			"<19:55:11><DEBUG>	 Event: ENCOUNTER_END 2393 Tred'ova 1 5 1", -- [190]
-			"<19:55:12><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2393 178701 |cff0070dd|Hitem:178701::::::::58:254::17:3:7217:6771:6652:2:28:747:9:55:::|h[Gormshell Greaves]|h|r 1 Renulf-Nemesis DEATHKNIGHT", -- [191]
-			"<19:55:15><DEBUG>	 Event: LOOT_READY true", -- [192]
-			"<19:55:15><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164517-00005D3A1E 131838", -- [193]
-			"<19:55:15><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::|h[Hiveswarm Bracers]|h|r 3 1 Creature-0-3133-2290-20463-164517-00005D3A1E 1", -- [194]
-			"<19:55:15><DEBUG>	 Event: LOOT_READY true", -- [195]
-			"<19:55:15><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3133-2290-20463-164517-00005D3A1E 131838", -- [196]
-			"<19:55:15><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::|h[Hiveswarm Bracers]|h|r 3 1 Creature-0-3133-2290-20463-164517-00005D3A1E 1", -- [197]
-			"<19:55:15><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [198]
-			"<19:55:16><DEBUG>	 OnLootSlotCleared() 2 |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::|h[Hiveswarm Bracers]|h|r 3", -- [199]
-			"<19:55:16><DEBUG>	 Event: LOOT_CLOSED", -- [200]
-			"<19:55:16><DEBUG>	 Event: LOOT_CLOSED", -- [201]
-			"<19:55:16><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2393 178703 |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:2:28:747:9:58:::|h[Hiveswarm Bracers]|h|r 1 Samoanranger HUNTER", -- [202]
-			"<19:55:16><Comm>	 ^1^Sl^T^N1^S164517^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [203]
-			"<19:55:16><Comm>	 ^1^Sl^T^N1^S164517^t^^ INSTANCE_CHAT Samoanranger-EmeraldDream", -- [204]
-			"<19:55:18><DEBUG>	 Storage:New |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::|h[Hiveswarm Bracers]|h|r temp", -- [205]
-			"<19:55:18><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::||h[Hiveswarm Bracers]||h||r 5", -- [206]
-			"<19:55:18><DEBUG>	 Found: nil nil nil", -- [207]
-			"<19:55:19><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::||h[Hiveswarm Bracers]||h||r 5", -- [208]
-			"<19:55:19><DEBUG>	 Found: nil nil nil", -- [209]
-			"<19:55:20><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::||h[Hiveswarm Bracers]||h||r 5", -- [210]
-			"<19:55:20><DEBUG>	 Found: nil nil nil", -- [211]
-			"<19:55:21><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::||h[Hiveswarm Bracers]||h||r 5", -- [212]
-			"<19:55:21><DEBUG>	 Found: nil nil nil", -- [213]
-			"<19:55:21><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:178703::::::::58:254::17:4:7217:6771:6652:7193:1:28:747:::|h[Hiveswarm Bracers]|h|r not found in bags", -- [214]
-			"<19:55:21><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [215]
-			"<19:55:23><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2393 178712 |cff0070dd|Hitem:178712::::::::58:254::17:3:7217:6771:6652:2:28:747:9:56:::|h[Acidslough Bulwark]|h|r 1 Kulla-Bonechewer SHAMAN", -- [216]
-			"<19:55:23><DEBUG>	 GetML()", -- [217]
-			"<19:55:29><DEBUG>	 Event: GROUP_LEFT 2 Party-3017-1-0000435CA9B9", -- [218]
-			"<19:55:29><DEBUG>	 GetML()", -- [219]
-			"<19:55:29><DEBUG>	 Resetting council as we have a new ML!", -- [220]
-			"<19:55:29><INFO>	 MasterLooter =  Samoanranger-EmeraldDream", -- [221]
-			"<19:55:29>[ML]<DEBUG>	 UpdateGroupCouncil Samoanranger-EmeraldDream", -- [222]
-			"<19:55:29>[ML]<DEBUG>	 NewML Samoanranger-EmeraldDream", -- [223]
-			"<19:55:29>[ML]<DEBUG>	 UpdateMLdb", -- [224]
-			"<19:55:29><INFO>	 OnMLDBReceived", -- [225]
-			"<19:55:30><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoanranger-EmeraldDream", -- [226]
-			"<19:55:30><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoanranger-EmeraldDream", -- [227]
-			"<19:55:30><Comm>	 ^1^Sxrealm^T^N1^SSamoanranger-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SOfficer^N6^N0^N7^N115.625^N8^N254^t^^ PARTY Samoanranger-EmeraldDream", -- [228]
-			"<19:55:31>[ML]<DEBUG>	 UpdateGroupCouncil Samoanranger-EmeraldDream", -- [229]
-			"<19:55:38><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01CDAD^B^t^t^^ PARTY Samoanranger-EmeraldDream", -- [230]
-			"<19:55:38><DEBUG>	 isCouncil true", -- [231]
-			"<19:55:38><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [232]
-			"<19:55:41><DEBUG>	 GetML()", -- [233]
-			"<19:55:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [234]
-			"<19:55:44><DEBUG>	 Timer MLdb_check passed", -- [235]
-			"<19:56:13><DEBUG>	 Event: LOOT_READY true", -- [236]
-			"<19:56:13><DEBUG>	 Event: LOOT_READY true", -- [237]
-			"<19:56:22>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [238]
-			"<19:56:23><DEBUG>	 Event: LOOT_READY true", -- [239]
-			"<19:56:23><DEBUG>	 Event: LOOT_READY true", -- [240]
-			"<19:57:22><INFO>	 Logged In", -- [241]
-			"<19:57:22>[ML]<INFO>	 Init", -- [242]
-			"<19:57:22><INFO>	 RCLootCouncil TradeUI enabled", -- [243]
-			"<19:57:40><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [244]
-			"<19:57:40><DEBUG>	 ActivateSkin bfa", -- [245]
-			"<19:57:44><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [246]
-			"<19:57:44><INFO>	 UpdatePlayersData()", -- [247]
-			"<19:57:46><DEBUG>	 GetPlayersGuildRank()", -- [248]
-			"<19:57:46><DEBUG>	 GetPlayersGuildRank()", -- [249]
-			"<19:57:46><DEBUG>	 Found Guild Rank: Officer", -- [250]
-			"<19:57:47>[EU]<INFO>	 Enabled 1.0.1", -- [251]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  pawn table: 00000279653EB890", -- [252]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  legendaries table: 00000279653EB840", -- [253]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  sockets table: 00000279653EB8E0", -- [254]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  spec table: 00000279653EB930", -- [255]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  bonus table: 00000279653EB980", -- [256]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  guildNotes table: 00000279653EB7F0", -- [257]
-			"<19:57:47>[EU]<DEBUG>	 Doing col  covenant table: 00000279653EB7A0", -- [258]
-			"<19:57:47>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [259]
-			"<19:57:47>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [260]
-			"<19:57:47><DEBUG>	 GetML()", -- [261]
-			"<19:57:47><DEBUG>	 Storage:New |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r temp restored table: 000002796531B4A0", -- [262]
-			"<19:57:47><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::||h[Legionnaire's Bloodstained Sabatons]||h||r 5", -- [263]
-			"<19:57:47><DEBUG>	 Found: nil nil nil", -- [264]
-			"<19:57:47><WARNING>	 ItemStorage, db item no longer in bags |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r", -- [265]
-			"<19:57:47><DEBUG>	 Storage:RemoveItem |cffa335ee|Hitem:182990::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Legionnaire's Bloodstained Sabatons]|h|r", -- [266]
-			"<20:04:30><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [267]
-			"<20:04:32><DEBUG>	 GetML()", -- [268]
-			"<20:04:32><DEBUG>	 Resetting council as we have a new ML!", -- [269]
-			"<20:04:32><INFO>	 MasterLooter =  Leminous-Gorgonnash", -- [270]
-			"<20:04:47><DEBUG>	 Timer MLdb_check passed", -- [271]
-			"<20:04:47><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^SMLdb_request^t^^ RAID Samoansage-EmeraldDream", -- [272]
-			"<20:04:47><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^Scouncil_request^t^^ RAID Samoansage-EmeraldDream", -- [273]
-			"<20:20:34><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 391165 1 0", -- [274]
-			"<20:20:35><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [275]
-			"<20:20:36><DEBUG>	 GetML()", -- [276]
-			"<20:30:47><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 183035 |cffa335ee|Hitem:183035::::::::60:264::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r 1 Killershammy-Gorgonnash SHAMAN", -- [277]
-			"<20:31:32><Comm>	 ^1^Sl^T^N1^S174842^t^^ RAID Plaguedzombi-Frostmourne", -- [278]
-			"<20:32:52><DEBUG>	 Event: LOOT_READY true", -- [279]
-			"<20:32:52><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-173189-00005D443D 35373 Creature-0-3779-2296-21637-174842-0005DD443D 46084", -- [280]
-			"<20:32:52><DEBUG>	 Ignoring |cffffffff|Hcurrency:1820:1|h[Infused Ruby]|h|r as it's a currency", -- [281]
-			"<20:32:52><DEBUG>	 Event: LOOT_READY true", -- [282]
-			"<20:32:52><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-173189-00005D443D 35373 Creature-0-3779-2296-21637-174842-0005DD443D 46084", -- [283]
-			"<20:32:52><DEBUG>	 Ignoring |cffffffff|Hcurrency:1820:1|h[Infused Ruby]|h|r as it's a currency", -- [284]
-			"<20:32:52><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [285]
-			"<20:32:53><DEBUG>	 Event: LOOT_CLOSED", -- [286]
-			"<20:32:53><DEBUG>	 Event: LOOT_CLOSED", -- [287]
-			"<20:32:53><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Samoansage-EmeraldDream", -- [288]
-			"<20:32:53><Comm>	 ^1^Sl^T^N1^S173189^t^^ RAID Samoansage-EmeraldDream", -- [289]
-			"<20:34:03><DEBUG>	 Event: ENCOUNTER_START 2412 The Council of Blood 15 16", -- [290]
-			"<20:34:03><INFO>	 UpdatePlayersData()", -- [291]
-			"<20:34:49><DEBUG>	 Event: ENCOUNTER_END 2412 The Council of Blood 15 16 0", -- [292]
-			"<20:38:49><DEBUG>	 Event: ENCOUNTER_START 2412 The Council of Blood 15 16", -- [293]
-			"<20:38:49><INFO>	 UpdatePlayersData()", -- [294]
-			"<20:38:58><ERROR>	 [ADDON_ACTION_BLOCKED] AddOn 'RCLootCouncil' tried to call the protected function 'SetTargetClampingInsets()'.", -- [295]
-			"<20:38:58><DEBUG>	 MasterLooter Leminous-Gorgonnash", -- [296]
-			"<20:38:58><DEBUG>	 LootMethod personalloot", -- [297]
-			"<20:38:58><DEBUG>	 HandleLoot false", -- [298]
-			"<20:38:58><DEBUG>	 IsCouncil false", -- [299]
-			"<20:38:58><DEBUG>	 CurrentInstanceName Castle Nathria-Heroic", -- [300]
-			"<20:47:15><DEBUG>	 Event: ENCOUNTER_END 2412 The Council of Blood 15 16 1", -- [301]
-			"<20:47:18><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 183030 |cffa335ee|Hitem:183030::::::::60:264::5:4:7188:42:1485:6646:1:28:752:::|h[Enchanted Toe-Tappers]|h|r 1 Aabbie-Gorgonnash DRUID", -- [302]
-			"<20:47:20><Comm>	 ^1^Sl^T^N1^S166969^t^^ RAID Plaguedzombi-Frostmourne", -- [303]
-			"<20:47:20><Comm>	 ^1^Sl^T^N1^S166969^t^^ RAID Plaguedzombi-Frostmourne", -- [304]
-			"<20:47:22><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 184024 |cffa335ee|Hitem:184024::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Macabre Sheet Music]|h|r 1 Cheri-Thunderlord DRUID", -- [305]
-			"<20:47:22><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 183466 |cffa335ee|Hitem:183466::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Innate Resolve]|h|r 1 Cheri-Thunderlord DRUID", -- [306]
-			"<20:47:45><DEBUG>	 Event: LOOT_READY true", -- [307]
-			"<20:47:45><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-166969-00005D4868 740273", -- [308]
-			"<20:47:45><DEBUG>	 Event: LOOT_READY true", -- [309]
-			"<20:47:45><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-166969-00005D4868 740273", -- [310]
-			"<20:47:46><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [311]
-			"<20:47:46><DEBUG>	 Event: LOOT_CLOSED", -- [312]
-			"<20:47:46><DEBUG>	 Event: LOOT_CLOSED", -- [313]
-			"<20:47:46><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 184286 |cff0070dd|Hitem:184286::::::::60:264:::::::|h[Extinguished Soul Anima]|h|r 3 Samoansage SHAMAN", -- [314]
-			"<20:47:46><Comm>	 ^1^Sl^T^N1^S166969^t^^ RAID Samoansage-EmeraldDream", -- [315]
-			"<20:47:46><Comm>	 ^1^Sl^T^N1^S166969^t^^ RAID Samoansage-EmeraldDream", -- [316]
-			"<20:47:50><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 183466 |cffa335ee|Hitem:183466::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Innate Resolve]|h|r 1 Ysrå-MoonGuard DRUID", -- [317]
-			"<20:48:00><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2412 184024 |cffa335ee|Hitem:184024::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Macabre Sheet Music]|h|r 1 Bunnix-Thunderlord HUNTER", -- [318]
-			"<20:52:51><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 15", -- [319]
-			"<20:52:51><INFO>	 UpdatePlayersData()", -- [320]
-			"<20:54:01><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 15 0", -- [321]
-			"<20:55:53><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 15", -- [322]
-			"<20:55:53><INFO>	 UpdatePlayersData()", -- [323]
-			"<21:01:54><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 15 0", -- [324]
-			"<21:03:28><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 15", -- [325]
-			"<21:03:28><INFO>	 UpdatePlayersData()", -- [326]
-			"<21:04:58><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 15 0", -- [327]
-			"<21:06:24><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 15", -- [328]
-			"<21:06:24><INFO>	 UpdatePlayersData()", -- [329]
-			"<21:12:27><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 15 0", -- [330]
-			"<21:14:16><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 12", -- [331]
-			"<21:14:16><INFO>	 UpdatePlayersData()", -- [332]
-			"<21:15:00><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 12 0", -- [333]
-			"<21:18:08><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 11", -- [334]
-			"<21:18:08><INFO>	 UpdatePlayersData()", -- [335]
-			"<21:22:54><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 11 0", -- [336]
-			"<21:26:01><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 11", -- [337]
-			"<21:26:01><INFO>	 UpdatePlayersData()", -- [338]
-			"<21:30:14><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 11 0", -- [339]
-			"<21:32:33><DEBUG>	 Event: ENCOUNTER_START 2399 Sludgefist 15 11", -- [340]
-			"<21:32:33><INFO>	 UpdatePlayersData()", -- [341]
-			"<21:37:34><DEBUG>	 Event: ENCOUNTER_END 2399 Sludgefist 15 11 1", -- [342]
-			"<21:37:38><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 183233 |cffff8000|Hitem:183233::::::::60:264::5::1:28:752:::|h[Memory of the Frenzyband]|h|r 1 Leminous-Gorgonnash DRUID", -- [343]
-			"<21:37:38><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 183484 |cffa335ee|Hitem:183484::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Unchecked Aggression]|h|r 1 Leminous-Gorgonnash DRUID", -- [344]
-			"<21:37:38><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 183022 |cffa335ee|Hitem:183022::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Impossibly Oversized Mitts]|h|r 1 Auxp-Kel'Thuzad PRIEST", -- [345]
-			"<21:37:41><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 182340 |cffa335ee|Hitem:182340::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Fel Celerity]|h|r 1 Rohran-Nordrassil WARLOCK", -- [346]
-			"<21:37:41><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 182984 |cffa335ee|Hitem:182984::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Colossal Plate Gauntlets]|h|r 1 Deez-Gorgonnash DEATHKNIGHT", -- [347]
-			"<21:37:42><DEBUG>	 Event: LOOT_READY true", -- [348]
-			"<21:37:42><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-164407-00005D5565 730461", -- [349]
-			"<21:37:42><DEBUG>	 Event: LOOT_READY true", -- [350]
-			"<21:37:42><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-164407-00005D5565 730461", -- [351]
-			"<21:37:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [352]
-			"<21:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [353]
-			"<21:37:43><DEBUG>	 Event: LOOT_CLOSED", -- [354]
-			"<21:37:43><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2399 184286 |cff0070dd|Hitem:184286::::::::60:264:::::::|h[Extinguished Soul Anima]|h|r 3 Samoansage SHAMAN", -- [355]
-			"<21:37:43><Comm>	 ^1^Sl^T^N1^S164407^t^^ RAID Samoansage-EmeraldDream", -- [356]
-			"<21:37:43><Comm>	 ^1^Sl^T^N1^S164407^t^^ RAID Samoansage-EmeraldDream", -- [357]
-			"<21:38:53><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^SMLdb_request^t^^ RAID Palyndrome-Gorgonnash", -- [358]
-			"<21:38:53><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^Scouncil_request^t^^ RAID Palyndrome-Gorgonnash", -- [359]
-			"<21:43:27><DEBUG>	 Event: LOOT_READY true", -- [360]
-			"<21:43:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-173280-00005D574C 5502", -- [361]
-			"<21:43:27><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:178131::::::::60:264:::::::|h[Whetstone Talon File]|h|r 0 1 Creature-0-3779-2296-21637-173280-00005D574C 1", -- [362]
-			"<21:43:27><DEBUG>	 Event: LOOT_READY true", -- [363]
-			"<21:43:27><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3779-2296-21637-173280-00005D574C 5502", -- [364]
-			"<21:43:27><DEBUG>	 Adding to self.lootSlotInfo 2 |cff9d9d9d|Hitem:178131::::::::60:264:::::::|h[Whetstone Talon File]|h|r 0 1 Creature-0-3779-2296-21637-173280-00005D574C 1", -- [365]
-			"<21:43:28><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [366]
-			"<21:43:28><DEBUG>	 OnLootSlotCleared() 2 |cff9d9d9d|Hitem:178131::::::::60:264:::::::|h[Whetstone Talon File]|h|r 0", -- [367]
-			"<21:43:28><DEBUG>	 Event: LOOT_CLOSED", -- [368]
-			"<21:43:28><DEBUG>	 Event: LOOT_CLOSED", -- [369]
-			"<21:43:28><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Samoansage-EmeraldDream", -- [370]
-			"<21:43:28><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Samoansage-EmeraldDream", -- [371]
-			"<21:47:43><INFO>	 Logged In", -- [372]
-			"<21:47:43>[ML]<INFO>	 Init", -- [373]
-			"<21:47:43><INFO>	 RCLootCouncil TradeUI enabled", -- [374]
-			"<21:47:56><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [375]
-			"<21:47:56><DEBUG>	 ActivateSkin bfa", -- [376]
-			"<21:48:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [377]
-			"<21:48:00><INFO>	 UpdatePlayersData()", -- [378]
-			"<21:48:00>[EU]<INFO>	 Enabled 1.0.1", -- [379]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  pawn table: 0000029A65D4A040", -- [380]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  legendaries table: 0000029A65D49FF0", -- [381]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  sockets table: 0000029A65D4A090", -- [382]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  spec table: 0000029A65D4A0E0", -- [383]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  bonus table: 0000029A65D4A130", -- [384]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  guildNotes table: 0000029A65D49FA0", -- [385]
-			"<21:48:00>[EU]<DEBUG>	 Doing col  covenant table: 0000029A65D49F50", -- [386]
-			"<21:48:00>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [387]
-			"<21:48:00>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [388]
-			"<21:48:02><DEBUG>	 GetPlayersGuildRank()", -- [389]
-			"<21:48:03><DEBUG>	 GetPlayersGuildRank()", -- [390]
-			"<21:48:03><DEBUG>	 Found Guild Rank: Officer", -- [391]
-			"<21:48:03><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [392]
-			"<21:48:04><DEBUG>	 GetRaidRosterInfo returned nil in UpdateCandidatesInGroup", -- [393]
-			"<21:48:04><DEBUG>	 GetML()", -- [394]
-			"<21:48:04><DEBUG>	 Unknown ML", -- [395]
-			"<21:48:05><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^SMLdb_request^t^^ RAID Palyndrome-Gorgonnash", -- [396]
-			"<21:48:05><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^Scouncil_request^t^^ RAID Palyndrome-Gorgonnash", -- [397]
-			"<21:48:06><DEBUG>	 GetML()", -- [398]
-			"<21:48:06><DEBUG>	 Resetting council as we have a new ML!", -- [399]
-			"<21:48:06><INFO>	 MasterLooter =  Leminous-Gorgonnash", -- [400]
-			"<21:48:06><DEBUG>	 GetML()", -- [401]
-			"<21:48:20><DEBUG>	 Timer MLdb_check passed", -- [402]
-			"<21:48:20><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^SMLdb_request^t^^ RAID Samoansage-EmeraldDream", -- [403]
-			"<21:48:20><Comm>	 ^1^Sxrealm^T^N1^SLeminous-Gorgonnash^N2^Scouncil_request^t^^ RAID Samoansage-EmeraldDream", -- [404]
-			"<21:48:57><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 12", -- [405]
-			"<21:48:57><INFO>	 UpdatePlayersData()", -- [406]
-			"<21:56:04><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 12 0", -- [407]
-			"<21:58:11><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [408]
-			"<21:58:11><INFO>	 UpdatePlayersData()", -- [409]
-			"<22:00:56><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [410]
-			"<22:03:46><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 12", -- [411]
-			"<22:03:46><INFO>	 UpdatePlayersData()", -- [412]
-			"<22:07:52><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 12 0", -- [413]
-			"<22:09:27><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 12", -- [414]
-			"<22:09:27><INFO>	 UpdatePlayersData()", -- [415]
-			"<22:15:26><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 12 0", -- [416]
-			"<22:16:44><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 12", -- [417]
-			"<22:16:44><INFO>	 UpdatePlayersData()", -- [418]
-			"<22:19:29><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 12 0", -- [419]
-			"<22:21:12><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 12", -- [420]
-			"<22:21:12><INFO>	 UpdatePlayersData()", -- [421]
-			"<22:28:42><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 12 0", -- [422]
-			"<22:32:07><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [423]
-			"<22:32:07><INFO>	 UpdatePlayersData()", -- [424]
-			"<22:34:01><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [425]
-			"<22:36:11><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [426]
-			"<22:36:11><INFO>	 UpdatePlayersData()", -- [427]
-			"<22:37:53><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [428]
-			"<22:39:18><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [429]
-			"<22:39:18><INFO>	 UpdatePlayersData()", -- [430]
-			"<22:42:40><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [431]
-			"<22:44:38><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [432]
-			"<22:44:38><INFO>	 UpdatePlayersData()", -- [433]
-			"<22:47:34><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [434]
-			"<22:48:55><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [435]
-			"<22:48:55><INFO>	 UpdatePlayersData()", -- [436]
-			"<22:52:34><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [437]
-			"<22:53:55><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [438]
-			"<22:53:55><INFO>	 UpdatePlayersData()", -- [439]
-			"<22:58:47><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 13 0", -- [440]
-			"<23:00:19><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 13", -- [441]
-			"<23:00:19><INFO>	 UpdatePlayersData()", -- [442]
-			"<23:06:04><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 10 0", -- [443]
-			"<23:14:28><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [444]
-			"<23:14:30><DEBUG>	 GetML()", -- [445]
-			"<23:14:30><DEBUG>	 Resetting council as we have a new ML!", -- [446]
-			"<23:14:30><INFO>	 MasterLooter =  Samoansage-EmeraldDream", -- [447]
-			"<23:14:30>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [448]
-			"<23:14:30>[ML]<DEBUG>	 NewML Samoansage-EmeraldDream", -- [449]
-			"<23:14:30>[ML]<DEBUG>	 UpdateMLdb", -- [450]
-			"<23:14:30><INFO>	 OnMLDBReceived", -- [451]
-			"<23:14:30><Comm>	 ^1^SplayerInfoRequest^T^t^^ RAID Samoansage-EmeraldDream", -- [452]
-			"<23:14:30><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [453]
-			"<23:14:30><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N208^N8^N264^t^^ RAID Samoansage-EmeraldDream", -- [454]
-			"<23:14:30><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SLegend^N6^N0^N7^N202.875^N8^N65^t^^ RAID Palyndrome-Gorgonnash", -- [455]
-			"<23:14:30><Data.Player>	 CreatePlayer Player-71-0AF4F557", -- [456]
-			"<23:14:32>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [457]
-			"<23:14:32><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [458]
-			"<23:14:32><DEBUG>	 isCouncil true", -- [459]
-			"<23:14:32><DEBUG>	 GetLootDBStatistics()", -- [460]
-			"<23:14:32><DEBUG>	 GetGuildRankNum()", -- [461]
-			"<23:14:32><INFO>	 RCVotingFrame enabled", -- [462]
-			"<23:14:45><DEBUG>	 Timer MLdb_check passed", -- [463]
-			"<11:40:22><INFO>	 Logged In", -- [464]
-			"<11:40:22>[ML]<INFO>	 Init", -- [465]
-			"<11:40:22><INFO>	 RCLootCouncil TradeUI enabled", -- [466]
-			"<11:40:43><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [467]
-			"<11:40:43><DEBUG>	 ActivateSkin bfa", -- [468]
-			"<11:40:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [469]
-			"<11:40:47><INFO>	 UpdatePlayersData()", -- [470]
-			"<11:40:53><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 335946 1 0", -- [471]
-			"<11:40:55>[EU]<INFO>	 Enabled 1.0.1", -- [472]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  pawn table: 000001C562AEAA80", -- [473]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  legendaries table: 000001C562AEAA30", -- [474]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  sockets table: 000001C562AEAAD0", -- [475]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  spec table: 000001C562AEAB20", -- [476]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  bonus table: 000001C562AEAB70", -- [477]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  guildNotes table: 000001C562AEA9E0", -- [478]
-			"<11:40:55>[EU]<DEBUG>	 Doing col  covenant table: 000001C562AEA990", -- [479]
-			"<11:40:55>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [480]
-			"<11:40:55>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [481]
-			"<11:40:57><DEBUG>	 GetPlayersGuildRank()", -- [482]
-			"<11:40:57><DEBUG>	 Found Guild Rank: Officer", -- [483]
-			"<11:40:58><DEBUG>	 GetML()", -- [484]
-			"<11:42:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [485]
-			"<11:42:32><DEBUG>	 GetML()", -- [486]
-			"<11:46:47><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [487]
-			"<11:46:49><DEBUG>	 GetML()", -- [488]
-			"<11:46:49><DEBUG>	 Resetting council as we have a new ML!", -- [489]
-			"<11:46:49><INFO>	 MasterLooter =  Samoansage-EmeraldDream", -- [490]
-			"<11:46:49>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [491]
-			"<11:46:49>[ML]<DEBUG>	 NewML Samoansage-EmeraldDream", -- [492]
-			"<11:46:49>[ML]<DEBUG>	 UpdateMLdb", -- [493]
-			"<11:46:49><INFO>	 OnMLDBReceived", -- [494]
-			"<11:46:49><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoansage-EmeraldDream", -- [495]
-			"<11:46:49><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [496]
-			"<11:46:50><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N208^N8^N264^t^^ PARTY Samoansage-EmeraldDream", -- [497]
-			"<11:46:51>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [498]
-			"<11:46:51><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [499]
-			"<11:46:51><DEBUG>	 isCouncil true", -- [500]
-			"<11:46:51><DEBUG>	 GetLootDBStatistics()", -- [501]
-			"<11:46:51><DEBUG>	 GetGuildRankNum()", -- [502]
-			"<11:46:51><INFO>	 RCVotingFrame enabled", -- [503]
-			"<11:47:04><DEBUG>	 Timer MLdb_check passed", -- [504]
-			"<11:47:08><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Samoanbatman-EmeraldDream", -- [505]
-			"<11:47:08><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Samoanbatman-EmeraldDream", -- [506]
-			"<11:47:08>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [507]
-			"<11:47:08><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [508]
-			"<11:47:08><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [509]
-			"<11:47:08><DEBUG>	 isCouncil true", -- [510]
-			"<11:47:30><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 335549 1 0", -- [511]
-			"<11:47:31><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [512]
-			"<11:47:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [513]
-			"<11:47:32><DEBUG>	 GetML()", -- [514]
-			"<11:47:34><INFO>	 Player confirmed usage", -- [515]
-			"<11:47:34><INFO>	 Start handling loot", -- [516]
-			"<11:47:34><Comm>	 ^1^SStartHandleLoot^T^t^^ RAID Samoansage-EmeraldDream", -- [517]
-			"<11:49:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [518]
-			"<11:52:04>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14717:Player-61-0DF2EFC6:1:3:24:21:4294967295:4294967295:4294967295:4294967295|h[Château Nathria : mode héroïque]|h|r Mëmorius-Zul'jin   Mëmorius-Zul'jin  0 0  0 34 Player-61-0DF2EFC6 0 false false false false", -- [519]
-			"<11:52:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [520]
-			"<11:52:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [521]
-			"<11:52:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [522]
-			"<11:52:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [523]
-			"<11:53:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [524]
-			"<11:54:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [525]
-			"<11:55:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [526]
-			"<11:56:19>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-5-0DDA362D:1:2:22:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Crunchystep-Proudmoore   Crunchystep-Proudmoore  0 0  0 55 Player-5-0DDA362D 0 false false false false", -- [527]
-			"<11:56:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [528]
-			"<11:56:32>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-60-0BFA21DB:1:2:25:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Roosterbob-Stormrage   Roosterbob-Stormrage  0 0  0 57 Player-60-0BFA21DB 0 false false false false", -- [529]
-			"<11:56:44>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER i have done the fights before Bigstanks-Gorgonnash   Bigstanks-Gorgonnash  0 0  0 61 Player-71-0E433511 0 false false false false", -- [530]
-			"<11:56:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [531]
-			"<11:57:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [532]
-			"<11:57:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [533]
-			"<11:57:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [534]
-			"<11:57:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [535]
-			"<11:58:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [536]
-			"<11:58:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [537]
-			"<11:58:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [538]
-			"<11:58:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [539]
-			"<11:58:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [540]
-			"<11:58:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [541]
-			"<11:58:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [542]
-			"<11:58:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [543]
-			"<11:58:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [544]
-			"<11:59:03><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Misstea-Skywall", -- [545]
-			"<11:59:03><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Misstea-Skywall", -- [546]
-			"<11:59:03>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [547]
-			"<11:59:04><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [548]
-			"<11:59:04><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [549]
-			"<11:59:04><DEBUG>	 isCouncil true", -- [550]
-			"<11:59:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [551]
-			"<11:59:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [552]
-			"<11:59:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [553]
-			"<11:59:32><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [554]
-			"<11:59:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [555]
-			"<11:59:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [556]
-			"<11:59:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [557]
-			"<11:59:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [558]
-			"<11:59:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [559]
-			"<11:59:51>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14356:Player-3725-0A7B702B:1:2:18:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Shriekwing]|h|r|cffffff00|Hachievement:14717:Player-3725-0A7B702B:1:2:16:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r Uae-Frostmourne   Uae-Frostmourne  0 0  0 75 Player-3725-0A7B702B 0 false false false false", -- [560]
-			"<11:59:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [561]
-			"<11:59:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [562]
-			"<12:00:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [563]
-			"<12:00:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [564]
-			"<12:00:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [565]
-			"<12:00:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [566]
-			"<12:00:24><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [567]
-			"<12:00:30>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14358:Player-5-0DE91256:1:3:23:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hungering Destroyer]|h|r Fhaust-Proudmoore   Fhaust-Proudmoore  0 0  0 79 Player-5-0DE91256 0 false false false false", -- [568]
-			"<12:00:34><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [569]
-			"<12:00:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [570]
-			"<12:00:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [571]
-			"<12:00:49>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-0A585D21:1:3:17:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Hoodnaga-Sargeras   Hoodnaga-Sargeras  0 0  0 81 Player-76-0A585D21 0 false false false false", -- [572]
-			"<12:00:52><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Fhaust-Proudmoore", -- [573]
-			"<12:00:52><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Fhaust-Proudmoore", -- [574]
-			"<12:00:52>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [575]
-			"<12:00:52><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [576]
-			"<12:00:52><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [577]
-			"<12:00:52><DEBUG>	 isCouncil true", -- [578]
-			"<12:00:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [579]
-			"<12:00:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [580]
-			"<12:01:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [581]
-			"<12:01:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [582]
-			"<12:01:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [583]
-			"<12:01:15>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER no worries Hoodnaga-Sargeras   Hoodnaga-Sargeras  0 0  0 85 Player-76-0A585D21 0 false false false false", -- [584]
-			"<12:01:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [585]
-			"<12:01:24><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [586]
-			"<12:01:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [587]
-			"<12:01:40><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [588]
-			"<12:01:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [589]
-			"<12:01:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [590]
-			"<12:02:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [591]
-			"<12:02:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [592]
-			"<12:02:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [593]
-			"<12:02:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [594]
-			"<12:02:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [595]
-			"<12:02:27><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [596]
-			"<12:02:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [597]
-			"<12:02:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [598]
-			"<12:02:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [599]
-			"<12:02:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [600]
-			"<12:02:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [601]
-			"<12:02:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [602]
-			"<12:02:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [603]
-			"<12:03:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [604]
-			"<12:03:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [605]
-			"<12:03:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [606]
-			"<12:03:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [607]
-			"<12:03:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [608]
-			"<12:03:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [609]
-			"<12:03:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [610]
-			"<12:03:32><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [611]
-			"<12:03:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [612]
-			"<12:03:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [613]
-			"<12:03:48>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-1185-0DF2B2C2:1:2:16:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Xiethmonk-Sen'jin   Xiethmonk-Sen'jin  0 0  0 96 Player-1185-0DF2B2C2 0 false false false false", -- [614]
-			"<12:03:50><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [615]
-			"<12:03:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [616]
-			"<12:04:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [617]
-			"<12:04:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [618]
-			"<12:04:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [619]
-			"<12:04:29><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [620]
-			"<12:04:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [621]
-			"<12:04:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [622]
-			"<12:04:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [623]
-			"<12:05:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [624]
-			"<12:05:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [625]
-			"<12:05:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [626]
-			"<12:05:21><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Hotfordan-Sargeras", -- [627]
-			"<12:05:21><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Hotfordan-Sargeras", -- [628]
-			"<12:05:21>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [629]
-			"<12:05:21><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [630]
-			"<12:05:21><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [631]
-			"<12:05:21><DEBUG>	 isCouncil true", -- [632]
-			"<12:05:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [633]
-			"<12:05:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [634]
-			"<12:05:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [635]
-			"<12:05:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [636]
-			"<12:05:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [637]
-			"<12:06:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [638]
-			"<12:06:01>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER yeah Dorginho-Gallywix   Dorginho-Gallywix  0 0  0 111 Player-3234-0B33A5A1 0 false false false false", -- [639]
-			"<12:06:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [640]
-			"<12:06:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [641]
-			"<12:06:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [642]
-			"<12:06:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [643]
-			"<12:06:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [644]
-			"<12:06:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [645]
-			"<12:06:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [646]
-			"<12:06:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [647]
-			"<12:07:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [648]
-			"<12:07:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [649]
-			"<12:07:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [650]
-			"<12:08:01><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [651]
-			"<12:08:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [652]
-			"<12:08:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [653]
-			"<12:08:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [654]
-			"<12:08:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [655]
-			"<12:08:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [656]
-			"<12:08:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [657]
-			"<12:08:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [658]
-			"<12:08:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [659]
-			"<12:08:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [660]
-			"<12:08:41><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Aráxia-Ragnaros", -- [661]
-			"<12:08:41><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Aráxia-Ragnaros", -- [662]
-			"<12:08:41>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [663]
-			"<12:08:41><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [664]
-			"<12:08:41><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [665]
-			"<12:08:41><DEBUG>	 isCouncil true", -- [666]
-			"<12:08:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [667]
-			"<12:08:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [668]
-			"<12:08:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [669]
-			"<12:08:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [670]
-			"<12:08:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [671]
-			"<12:09:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [672]
-			"<12:09:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [673]
-			"<12:09:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [674]
-			"<12:09:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [675]
-			"<12:09:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [676]
-			"<12:09:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [677]
-			"<12:09:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [678]
-			"<12:09:29><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Lenningrad-Frostmourne", -- [679]
-			"<12:09:29><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Lenningrad-Frostmourne", -- [680]
-			"<12:09:29>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [681]
-			"<12:09:29><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [682]
-			"<12:09:29><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [683]
-			"<12:09:29><DEBUG>	 isCouncil true", -- [684]
-			"<12:09:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [685]
-			"<12:09:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [686]
-			"<12:09:45>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14717:Player-63-0984DC63:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r Bronhash-Ysera   Bronhash-Ysera  0 0  0 166 Player-63-0984DC63 0 false false false false", -- [687]
-			"<12:10:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [688]
-			"<12:10:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [689]
-			"<12:10:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [690]
-			"<12:10:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [691]
-			"<12:10:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [692]
-			"<12:10:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [693]
-			"<12:10:29><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [694]
-			"<12:10:32>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14715:Player-76-0B472F9E:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Castle Nathria]|h|r Snizzie-Sargeras   Snizzie-Sargeras  0 0  0 176 Player-76-0B472F9E 0 false false false false", -- [695]
-			"<12:10:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [696]
-			"<12:10:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [697]
-			"<12:10:50><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [698]
-			"<12:11:16>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [699]
-			"<12:11:20><DEBUG>	 Event: LOOT_READY true", -- [700]
-			"<12:11:20><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4215-2296-21130-173280-0000DE1E92 21325", -- [701]
-			"<12:11:21><DEBUG>	 Event: LOOT_READY true", -- [702]
-			"<12:11:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4215-2296-21130-173280-0000DE1E92 21325", -- [703]
-			"<12:11:21><DEBUG>	 Event: LOOT_CLOSED", -- [704]
-			"<12:11:21><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Samoansage-EmeraldDream", -- [705]
-			"<12:11:53>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-0910E7EF:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Stylíst-Sargeras   Stylíst-Sargeras  0 0  0 211 Player-76-0910E7EF 0 false false false false", -- [706]
-			"<12:12:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [707]
-			"<12:12:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [708]
-			"<12:12:59>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [709]
-			"<12:13:11><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Fhaust-Proudmoore", -- [710]
-			"<12:13:11><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Misstea-Skywall", -- [711]
-			"<12:13:11><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Misstea-Skywall", -- [712]
-			"<12:13:13><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 24", -- [713]
-			"<12:13:13><INFO>	 UpdatePlayersData()", -- [714]
-			"<12:13:23><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 24 0", -- [715]
-			"<12:13:23>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [716]
-			"<12:15:38>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-52-0CCD2BC6:1:3:8:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Abelladanger-Exodar   Abelladanger-Exodar  0 0  0 233 Player-52-0CCD2BC6 0 false false false false", -- [717]
-			"<12:16:04>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14717:Player-118-07DF9DA9:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r Béhémoth-Feathermoon   Béhémoth-Feathermoon  0 0  0 237 Player-118-07DF9DA9 0 false false false false", -- [718]
-			"<12:17:31>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-60-0E6C59CA:1:3:13:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Viøletfairy-Stormrage   Viøletfairy-Stormrage  0 0  0 283 Player-60-0E6C59CA 0 false false false false", -- [719]
-			"<12:18:04><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 24", -- [720]
-			"<12:18:04><INFO>	 UpdatePlayersData()", -- [721]
-			"<12:20:47>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [722]
-			"<12:22:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [723]
-			"<12:25:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [724]
-			"<12:26:07><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 22 0", -- [725]
-			"<12:28:03><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 22", -- [726]
-			"<12:28:03><INFO>	 UpdatePlayersData()", -- [727]
-			"<12:28:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [728]
-			"<12:29:22>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER aotc Andeilea-MoonGuard   Andeilea-MoonGuard  0 0  0 576 Player-3675-07427B7B 0 false false false false", -- [729]
-			"<12:29:37>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-3675-07427B7B:1:3:2:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Andeilea-MoonGuard   Andeilea-MoonGuard  0 0  0 584 Player-3675-07427B7B 0 false false false false", -- [730]
-			"<12:30:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [731]
-			"<12:30:48>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [732]
-			"<12:31:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [733]
-			"<12:31:08><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 22 0", -- [734]
-			"<12:31:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [735]
-			"<12:31:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [736]
-			"<12:31:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [737]
-			"<12:31:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [738]
-			"<12:31:47>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER 2/10M xp |cffffff00|Hachievement:14460:Player-3208-0D025DB0:1:3:16:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Valiriom-Nemesis   Valiriom-Nemesis  0 0  0 646 Player-3208-0D025DB0 0 false false false false", -- [739]
-			"<12:33:46><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 21", -- [740]
-			"<12:33:46><INFO>	 UpdatePlayersData()", -- [741]
-			"<12:35:46>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-0910E7EF:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Stylíst-Sargeras   Stylíst-Sargeras  0 0  0 734 Player-76-0910E7EF 0 false false false false", -- [742]
-			"<12:39:59>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [743]
-			"<12:40:36><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 21 0", -- [744]
-			"<12:41:43>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-05DE0CC0:1:2:7:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Ciitrus-Sargeras   Ciitrus-Sargeras  0 0  0 892 Player-76-05DE0CC0 0 false false false false", -- [745]
-			"<12:42:34>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-47-08441302:1:3:11:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Dalaeirn-Eitrigg   Dalaeirn-Eitrigg  0 0  0 897 Player-47-08441302 0 false false false false", -- [746]
-			"<12:45:27><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 18", -- [747]
-			"<12:45:27><INFO>	 UpdatePlayersData()", -- [748]
-			"<12:46:01>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [749]
-			"<12:46:15><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 18 0", -- [750]
-			"<12:46:16>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-60-0E0C8A6A:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Glizzygamer-Stormrage   Glizzygamer-Stormrage  0 0  0 948 Player-60-0E0C8A6A 0 false false false false", -- [751]
-			"<12:47:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [752]
-			"<12:47:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [753]
-			"<12:47:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [754]
-			"<12:47:40>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-05DE0CC0:1:2:7:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Ciitrus-Sargeras   Ciitrus-Sargeras  0 0  0 968 Player-76-05DE0CC0 0 false false false false", -- [755]
-			"<12:47:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [756]
-			"<12:48:49><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 19", -- [757]
-			"<12:48:49><INFO>	 UpdatePlayersData()", -- [758]
-			"<12:51:32>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14362:Player-3725-0BE454EA:1:2:22:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Council of Blood]|h|r Threebuttons-Frostmourne   Threebuttons-Frostmourne  0 0  0 1074 Player-3725-0BE454EA 0 false false false false", -- [759]
-			"<12:55:17>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-1070-0CF45C7E:1:2:27:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Guro-Alexstrasza   Guro-Alexstrasza  0 0  0 1219 Player-1070-0CF45C7E 0 false false false false", -- [760]
-			"<12:57:17><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 19 1", -- [761]
-			"<12:57:19>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [762]
-			"<12:57:19><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Hotfordan-Sargeras", -- [763]
-			"<12:57:19><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Hotfordan-Sargeras", -- [764]
-			"<12:57:22><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 182998 |cffa335ee|Hitem:182998::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Robes of the Cursed Commando]|h|r 1 Larsenn-Nemesis WARLOCK", -- [765]
-			"<12:57:22><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 181508 |cffa335ee|Hitem:181508::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Fortifying Ingredients]|h|r 1 Misstea-Skywall MONK", -- [766]
-			"<12:57:23><DEBUG>	 Event: LOOT_READY true", -- [767]
-			"<12:57:23><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Vehicle-0-4215-2296-21130-168112-00005E2C16 756462", -- [768]
-			"<12:57:23><DEBUG>	 Event: LOOT_READY true", -- [769]
-			"<12:57:23><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Vehicle-0-4215-2296-21130-168112-00005E2C16 756462", -- [770]
-			"<12:57:23><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Fhaust-Proudmoore", -- [771]
-			"<12:57:23><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Fhaust-Proudmoore", -- [772]
-			"<12:57:23><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [773]
-			"<12:57:23><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Aráxia-Ragnaros", -- [774]
-			"<12:57:23><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Aráxia-Ragnaros", -- [775]
-			"<12:57:23><DEBUG>	 Event: LOOT_CLOSED", -- [776]
-			"<12:57:23><DEBUG>	 Event: LOOT_CLOSED", -- [777]
-			"<12:57:23><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 184286 |cff0070dd|Hitem:184286::::::::60:264:::::::|h[Extinguished Soul Anima]|h|r 5 Samoansage SHAMAN", -- [778]
-			"<12:57:24><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Samoansage-EmeraldDream", -- [779]
-			"<12:57:24><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Samoansage-EmeraldDream", -- [780]
-			"<12:57:25><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Misstea-Skywall", -- [781]
-			"<12:57:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183895 |cffa335ee|Hitem:183895::::::::60:264::84:3:7188:1485:6646:1:28:752:::|h[Apogee Anima Bead]|h|r 1 Tustus-Ragnaros PRIEST", -- [782]
-			"<12:57:27><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183076 |cffa335ee|Hitem:183076::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Diabolic Bloodstone]|h|r 1 Sertraline-Nemesis WARLOCK", -- [783]
-			"<12:57:30><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Misstea-Skywall", -- [784]
-			"<12:57:30><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Misstea-Skywall", -- [785]
-			"<12:57:31><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183032 |cffa335ee|Hitem:183032::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Crest of the Legionnaire General]|h|r 1 Otoro-Bronzebeard HUNTER", -- [786]
-			"<12:57:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183469 |cffa335ee|Hitem:183469::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Front of the Pack]|h|r 1 Dorginho-Gallywix DRUID", -- [787]
-			"<12:57:32><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 184027 |cffa335ee|Hitem:184027::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Stone Legion Heraldry]|h|r 1 Roosterbob-Stormrage DEATHKNIGHT", -- [788]
-			"<12:57:34><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 182608 |cffa335ee|Hitem:182608::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Virtuous Command]|h|r 1 Pyräe-Stormrage PALADIN", -- [789]
-			"<12:57:39>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-76-05DE0CC0:1:2:7:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Ciitrus-Sargeras   Ciitrus-Sargeras  0 0  0 1318 Player-76-05DE0CC0 0 false false false false", -- [790]
-			"<12:58:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [791]
-			"<12:58:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [792]
-			"<12:58:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [793]
-			"<12:58:15>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14717:Player-63-0984DC63:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Castle Nathria]|h|r Bronhash-Ysera   Bronhash-Ysera  0 0  0 1331 Player-63-0984DC63 0 false false false false", -- [794]
-			"<13:00:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [795]
-			"<13:01:38><INFO>	 Logged In", -- [796]
-			"<13:01:38>[ML]<INFO>	 Init", -- [797]
-			"<13:01:38><INFO>	 RCLootCouncil TradeUI enabled", -- [798]
-			"<13:01:54><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [799]
-			"<13:01:54><DEBUG>	 ActivateSkin bfa", -- [800]
-			"<13:01:58><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [801]
-			"<13:01:58><INFO>	 UpdatePlayersData()", -- [802]
-			"<13:01:59><DEBUG>	 GetPlayersGuildRank()", -- [803]
-			"<13:01:59><DEBUG>	 Found Guild Rank: Officer", -- [804]
-			"<13:01:59>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [805]
-			"<13:01:59>[EU]<INFO>	 Enabled 1.0.1", -- [806]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  pawn table: 000001C531C48390", -- [807]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  legendaries table: 000001C531C48340", -- [808]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  sockets table: 000001C531C483E0", -- [809]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  spec table: 000001C531C48430", -- [810]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  bonus table: 000001C531C48480", -- [811]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  guildNotes table: 000001C531C482F0", -- [812]
-			"<13:01:59>[EU]<DEBUG>	 Doing col  covenant table: 000001C531C482A0", -- [813]
-			"<13:01:59>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [814]
-			"<13:01:59><DEBUG>	 GetML()", -- [815]
-			"<13:01:59><DEBUG>	 Resetting council as we have a new ML!", -- [816]
-			"<13:01:59><INFO>	 MasterLooter =  Samoansage-EmeraldDream", -- [817]
-			"<13:01:59>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [818]
-			"<13:01:59>[ML]<DEBUG>	 NewML Samoansage-EmeraldDream", -- [819]
-			"<13:01:59>[ML]<DEBUG>	 UpdateMLdb", -- [820]
-			"<13:01:59><INFO>	 OnMLDBReceived", -- [821]
-			"<13:02:01>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-3725-0984843A:1:3:22:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Cyromars-Frostmourne   Cyromars-Frostmourne  0 0  0 1359 Player-3725-0984843A 0 false false false false", -- [822]
-			"<13:02:01><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoansage-EmeraldDream", -- [823]
-			"<13:02:01><Comm>	 ^1^SplayerInfoRequest^T^t^^ RAID Samoansage-EmeraldDream", -- [824]
-			"<13:02:01><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [825]
-			"<13:02:01><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^STANK^N4^SAlt^N5^B^N6^N25^N7^N218.5^N8^N581^t^^ RAID Hotfordan-Sargeras", -- [826]
-			"<13:02:01><Data.Player>	 CreatePlayer Player-76-0A4F0D47", -- [827]
-			"<13:02:01><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer~`Alt^N5^B^N6^N8^N7^N210.8125^N8^N270^t^^ RAID Misstea-Skywall", -- [828]
-			"<13:02:01><Data.Player>	 CreatePlayer Player-86-08D3C6B5", -- [829]
-			"<13:02:02>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [830]
-			"<13:02:02><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N208^N8^N264^t^^ RAID Samoansage-EmeraldDream", -- [831]
-			"<13:02:02><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [832]
-			"<13:02:02><DEBUG>	 isCouncil true", -- [833]
-			"<13:02:02><DEBUG>	 GetLootDBStatistics()", -- [834]
-			"<13:02:02><DEBUG>	 GetGuildRankNum()", -- [835]
-			"<13:02:02><INFO>	 RCVotingFrame enabled", -- [836]
-			"<13:02:04><INFO>	 Player confirmed usage", -- [837]
-			"<13:02:04><INFO>	 Start handling loot", -- [838]
-			"<13:02:04><Comm>	 ^1^SStartHandleLoot^T^t^^ RAID Samoansage-EmeraldDream", -- [839]
-			"<13:02:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [840]
-			"<13:02:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [841]
-			"<13:02:14><DEBUG>	 Timer MLdb_check passed", -- [842]
-			"<13:02:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [843]
-			"<13:02:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [844]
-			"<13:02:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [845]
-			"<13:02:24><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [846]
-			"<13:02:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [847]
-			"<13:02:39><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SMLdb_request^t^^ RAID Tàiden-Sargeras", -- [848]
-			"<13:02:39><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^Scouncil_request^t^^ RAID Tàiden-Sargeras", -- [849]
-			"<13:02:39>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [850]
-			"<13:02:39><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [851]
-			"<13:02:39><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ RAID Samoansage-EmeraldDream", -- [852]
-			"<13:02:39><DEBUG>	 isCouncil true", -- [853]
-			"<13:02:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [854]
-			"<13:03:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [855]
-			"<13:03:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [856]
-			"<13:03:46>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER k Thicknwarm-EmeraldDream   Thicknwarm-EmeraldDream  0 0  0 1376 Player-162-0B191C74 0 false false false false", -- [857]
-			"<13:03:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [858]
-			"<13:03:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [859]
-			"<13:04:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [860]
-			"<13:04:13>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER |cffffff00|Hachievement:14460:Player-162-0B191C74:1:2:4:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r Thicknwarm-EmeraldDream   Thicknwarm-EmeraldDream  0 0  0 1382 Player-162-0B191C74 0 false false false false", -- [861]
-			"<13:04:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [862]
-			"<13:04:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [863]
-			"<13:04:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [864]
-			"<13:04:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [865]
-			"<13:05:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [866]
-			"<13:05:11><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [867]
-			"<13:05:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [868]
-			"<13:05:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [869]
-			"<13:05:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [870]
-			"<13:05:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [871]
-			"<13:05:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [872]
-			"<13:05:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [873]
-			"<13:05:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [874]
-			"<13:06:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [875]
-			"<13:06:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [876]
-			"<13:06:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [877]
-			"<13:06:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [878]
-			"<13:06:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [879]
-			"<13:06:24><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [880]
-			"<13:06:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [881]
-			"<13:06:40><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [882]
-			"<13:06:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [883]
-			"<13:06:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [884]
-			"<13:07:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [885]
-			"<13:07:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [886]
-			"<13:07:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [887]
-			"<13:07:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [888]
-			"<13:07:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [889]
-			"<13:07:34><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [890]
-			"<13:07:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [891]
-			"<13:07:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [892]
-			"<13:07:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [893]
-			"<13:08:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [894]
-			"<13:09:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [895]
-			"<13:09:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [896]
-			"<13:09:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [897]
-			"<13:11:22>[ML]<DEBUG>	 ML event CHAT_MSG_WHISPER I'll AM first blood price you slt second? Cealy-Stormrage   Cealy-Stormrage  0 0  0 1444 Player-60-0E6CE05C 0 false false false false", -- [898]
-			"<13:14:53><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [899]
-			"<13:14:53><INFO>	 UpdatePlayersData()", -- [900]
-			"<13:16:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [901]
-			"<13:16:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [902]
-			"<13:16:37><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [903]
-			"<13:16:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [904]
-			"<13:18:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [905]
-			"<13:18:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [906]
-			"<13:18:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [907]
-			"<13:18:29><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [908]
-			"<13:18:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [909]
-			"<13:18:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [910]
-			"<13:19:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [911]
-			"<13:19:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [912]
-			"<13:19:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [913]
-			"<13:19:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [914]
-			"<13:19:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [915]
-			"<13:19:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [916]
-			"<13:19:55><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002A0209E6", -- [917]
-			"<13:19:55><DEBUG>	 GetML()", -- [918]
-			"<13:19:55><INFO>	 Stop handling loot", -- [919]
-			"<13:19:55>[ML]<INFO>	 Disabled", -- [920]
-			"<13:19:55><Comm>	 ^1^SStopHandleLoot^T^t^^ WHISPER Samoansage-EmeraldDream", -- [921]
-			"<13:21:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [922]
-			"<13:21:15><DEBUG>	 GetML()", -- [923]
-			"<13:21:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [924]
-			"<17:15:19><INFO>	 Logged In", -- [925]
-			"<17:15:19>[ML]<INFO>	 Init", -- [926]
-			"<17:15:19><INFO>	 RCLootCouncil TradeUI enabled", -- [927]
-			"<17:15:43><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [928]
-			"<17:15:43><DEBUG>	 ActivateSkin bfa", -- [929]
-			"<17:15:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [930]
-			"<17:15:47><INFO>	 UpdatePlayersData()", -- [931]
-			"<17:15:48><DEBUG>	 GetPlayersGuildRank()", -- [932]
-			"<17:15:48><DEBUG>	 Found Guild Rank: Crafter", -- [933]
-			"<17:15:57>[EU]<INFO>	 Enabled 1.0.1", -- [934]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  pawn table: 000002646649C260", -- [935]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  legendaries table: 000002646649C210", -- [936]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  sockets table: 000002646649C2B0", -- [937]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  spec table: 000002646649C300", -- [938]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  bonus table: 000002646649C350", -- [939]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  guildNotes table: 000002646649C1C0", -- [940]
-			"<17:15:57>[EU]<DEBUG>	 Doing col  covenant table: 000002646649C170", -- [941]
-			"<17:15:57>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [942]
-			"<17:15:57>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [943]
-			"<17:15:57><DEBUG>	 GetML()", -- [944]
-			"<17:15:59><DEBUG>	 Event: LOOT_READY true", -- [945]
-			"<17:15:59><DEBUG>	 Event: LOOT_READY true", -- [946]
-			"<17:15:59><DEBUG>	 Event: LOOT_READY true", -- [947]
-			"<11:51:07><INFO>	 Logged In", -- [948]
-			"<11:51:07>[ML]<INFO>	 Init", -- [949]
-			"<11:51:07><INFO>	 RCLootCouncil TradeUI enabled", -- [950]
-			"<11:51:30><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [951]
-			"<11:51:30><DEBUG>	 ActivateSkin bfa", -- [952]
-			"<11:51:35><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [953]
-			"<11:51:35><INFO>	 UpdatePlayersData()", -- [954]
-			"<11:51:35><DEBUG>	 GetPlayersGuildRank()", -- [955]
-			"<11:51:35><DEBUG>	 GetPlayersGuildRank()", -- [956]
-			"<11:51:35><DEBUG>	 Found Guild Rank: Crafter", -- [957]
-			"<11:51:45>[EU]<INFO>	 Enabled 1.0.1", -- [958]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  pawn table: 000001CE601EC410", -- [959]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  legendaries table: 000001CE601EC3C0", -- [960]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  sockets table: 000001CE601EC460", -- [961]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  spec table: 000001CE601EC4B0", -- [962]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  bonus table: 000001CE601EC500", -- [963]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  guildNotes table: 000001CE601EC370", -- [964]
-			"<11:51:45>[EU]<DEBUG>	 Doing col  covenant table: 000001CE601EC320", -- [965]
-			"<11:51:45>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [966]
-			"<11:51:45>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [967]
-			"<11:51:45><DEBUG>	 GetML()", -- [968]
-			"<11:52:20><DEBUG>	 Event: LOOT_READY true", -- [969]
-			"<11:52:20><DEBUG>	 Event: LOOT_READY true", -- [970]
-			"<11:52:33><DEBUG>	 Event: LOOT_READY true", -- [971]
-			"<11:52:33><DEBUG>	 Event: LOOT_READY true", -- [972]
-			"<11:52:42><DEBUG>	 Event: LOOT_READY true", -- [973]
-			"<11:52:42><DEBUG>	 Event: LOOT_READY true", -- [974]
-			"<11:53:34><DEBUG>	 Event: LOOT_READY true", -- [975]
-			"<11:53:34><DEBUG>	 Event: LOOT_READY true", -- [976]
-			"<11:54:32><DEBUG>	 Event: LOOT_READY true", -- [977]
-			"<11:54:32><DEBUG>	 Event: LOOT_READY true", -- [978]
-			"<11:54:45><DEBUG>	 Event: LOOT_READY true", -- [979]
-			"<11:54:45><DEBUG>	 Event: LOOT_READY true", -- [980]
-			"<11:55:02><DEBUG>	 Event: LOOT_READY true", -- [981]
-			"<11:55:03><DEBUG>	 Event: LOOT_READY true", -- [982]
-			"<11:56:44><DEBUG>	 Event: LOOT_READY true", -- [983]
-			"<11:56:44><DEBUG>	 Event: LOOT_READY true", -- [984]
-			"<20:42:32><INFO>	 Logged In", -- [985]
-			"<20:42:32>[ML]<INFO>	 Init", -- [986]
-			"<20:42:32><INFO>	 RCLootCouncil TradeUI enabled", -- [987]
-			"<20:42:57><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [988]
-			"<20:42:57><DEBUG>	 ActivateSkin bfa", -- [989]
-			"<20:43:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [990]
-			"<20:43:01><INFO>	 UpdatePlayersData()", -- [991]
-			"<20:43:02><DEBUG>	 GetPlayersGuildRank()", -- [992]
-			"<20:43:02><DEBUG>	 GetPlayersGuildRank()", -- [993]
-			"<20:43:02><DEBUG>	 Found Guild Rank: Officer", -- [994]
-			"<20:43:03>[EU]<INFO>	 Enabled 1.0.1", -- [995]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  pawn table: 000001B6C2266BF0", -- [996]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  legendaries table: 000001B6C2266BA0", -- [997]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  sockets table: 000001B6C2266C40", -- [998]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  spec table: 000001B6C2266C90", -- [999]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  bonus table: 000001B6C2266CE0", -- [1000]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B6C2266B50", -- [1001]
-			"<20:43:03>[EU]<DEBUG>	 Doing col  covenant table: 000001B6C2266B00", -- [1002]
-			"<20:43:03>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1003]
-			"<20:43:03>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1004]
-			"<20:43:03><DEBUG>	 GetML()", -- [1005]
-			"<20:45:54><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1006]
-			"<20:45:56><DEBUG>	 GetML()", -- [1007]
-			"<20:45:56><Data.Player>	 CreatePlayer Player-60-0AEA2C42", -- [1008]
-			"<20:45:56><DEBUG>	 Resetting council as we have a new ML!", -- [1009]
-			"<20:45:56><INFO>	 MasterLooter =  Fjolnïr-Stormrage", -- [1010]
-			"<20:46:03><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 216836 1 0", -- [1011]
-			"<20:46:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1012]
-			"<20:46:05><DEBUG>	 GetML()", -- [1013]
-			"<20:46:11><DEBUG>	 Timer MLdb_check passed", -- [1014]
-			"<20:46:11><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^SMLdb_request^t^^ RAID Samoansage-EmeraldDream", -- [1015]
-			"<20:46:11><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^Scouncil_request^t^^ RAID Samoansage-EmeraldDream", -- [1016]
-			"<20:47:15><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^SMLdb_request^t^^ RAID Windowpane-Stormrage", -- [1017]
-			"<20:47:15><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^Scouncil_request^t^^ RAID Windowpane-Stormrage", -- [1018]
-			"<20:50:09><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Windowpane-Stormrage", -- [1019]
-			"<20:50:09><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Windowpane-Stormrage", -- [1020]
-			"<20:53:09><DEBUG>	 Event: LOOT_READY true", -- [1021]
-			"<20:53:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4216-2296-20088-173276-0000DFEBA2 21338", -- [1022]
-			"<20:53:09><DEBUG>	 Event: LOOT_READY true", -- [1023]
-			"<20:53:09><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4216-2296-20088-173276-0000DFEBA2 21338", -- [1024]
-			"<20:53:09><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1025]
-			"<20:53:09><DEBUG>	 Event: LOOT_CLOSED", -- [1026]
-			"<20:53:09><DEBUG>	 Event: LOOT_CLOSED", -- [1027]
-			"<20:53:10><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Samoansage-EmeraldDream", -- [1028]
-			"<20:53:10><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Samoansage-EmeraldDream", -- [1029]
-			"<20:53:13><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Windowpane-Stormrage", -- [1030]
-			"<20:53:13><Comm>	 ^1^Sl^T^N1^S173280^t^^ RAID Windowpane-Stormrage", -- [1031]
-			"<20:54:11><Comm>	 ^1^Sl^T^N1^S173276^t^^ RAID Ggmaterial-Frostmourne", -- [1032]
-			"<20:59:08><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 20", -- [1033]
-			"<20:59:08><INFO>	 UpdatePlayersData()", -- [1034]
-			"<21:01:49><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 20 0", -- [1035]
-			"<21:09:39><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 20", -- [1036]
-			"<21:09:39><INFO>	 UpdatePlayersData()", -- [1037]
-			"<21:14:03><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 20 0", -- [1038]
-			"<21:15:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1039]
-			"<21:15:59><DEBUG>	 GetML()", -- [1040]
-			"<21:16:21><DEBUG>	 Event: RAID_INSTANCE_WELCOME Castle Nathria (Heroic) 215018 1 0", -- [1041]
-			"<21:16:22><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1042]
-			"<21:16:23><DEBUG>	 GetML()", -- [1043]
-			"<21:18:42><DEBUG>	 Event: ENCOUNTER_START 2417 Stone Legion Generals 15 18", -- [1044]
-			"<21:18:42><INFO>	 UpdatePlayersData()", -- [1045]
-			"<21:26:23><DEBUG>	 Event: ENCOUNTER_END 2417 Stone Legion Generals 15 18 1", -- [1046]
-			"<21:26:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 184027 |cffa335ee|Hitem:184027::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Stone Legion Heraldry]|h|r 1 Stuubz-Stormrage DEATHKNIGHT", -- [1047]
-			"<21:26:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 182133 |cffa335ee|Hitem:182133::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Insatiable Appetite]|h|r 1 Stuubz-Stormrage DEATHKNIGHT", -- [1048]
-			"<21:26:31><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 182608 |cffa335ee|Hitem:182608::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Virtuous Command]|h|r 1 Xanadeau-Stormrage PALADIN", -- [1049]
-			"<21:26:33><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183894 |cffa335ee|Hitem:183894::::::::60:264::84:3:7188:1485:6646:1:28:752:::|h[Thaumaturgic Anima Bead]|h|r 1 Windowpane-Stormrage WARLOCK", -- [1050]
-			"<21:26:34><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Windowpane-Stormrage", -- [1051]
-			"<21:26:34><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Windowpane-Stormrage", -- [1052]
-			"<21:26:37><Comm>	 ^1^Stradable^T^N1^S|cffa335ee|Hitem:183894::::::::60:265::84:3:7188:1485:6646:1:28:752:::|h[Thaumaturgic~`Anima~`Bead]|h|r^N2^S168112^t^^ RAID Windowpane-Stormrage", -- [1053]
-			"<21:26:40><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183223 |cffff8000|Hitem:183223::::::::60:264::5::1:28:752:::|h[Memory of the Circle of Life and Death]|h|r 1 Lanowenn-Stormrage DRUID", -- [1054]
-			"<21:26:40><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183469 |cffa335ee|Hitem:183469::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Front of the Pack]|h|r 1 Lanowenn-Stormrage DRUID", -- [1055]
-			"<21:26:40><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183488 |cffa335ee|Hitem:183488::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Unstoppable Growth]|h|r 1 Lanowenn-Stormrage DRUID", -- [1056]
-			"<21:26:42><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 180842 |cffa335ee|Hitem:180842::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Stalwart Guardian]|h|r 1 Ptitcul-Zul'jin WARRIOR", -- [1057]
-			"<21:26:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183488 |cffa335ee|Hitem:183488::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Unstoppable Growth]|h|r 1 Ggmaterial-Frostmourne DRUID", -- [1058]
-			"<21:26:44><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2417 183002 |cffa335ee|Hitem:183002::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Ceremonial Parade Legguards]|h|r 1 Kalcainos-Stormrage DEATHKNIGHT", -- [1059]
-			"<21:26:44><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Deadup-Frostmourne", -- [1060]
-			"<21:26:44><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Deadup-Frostmourne", -- [1061]
-			"<21:26:45><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Ggmaterial-Frostmourne", -- [1062]
-			"<21:26:45><Comm>	 ^1^Sl^T^N1^S168112^t^^ RAID Ggmaterial-Frostmourne", -- [1063]
-			"<21:28:23><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^SMLdb_request^t^^ RAID Ggmaterial-Frostmourne", -- [1064]
-			"<21:28:23><Comm>	 ^1^Sxrealm^T^N1^SFjolnïr-Stormrage^N2^Scouncil_request^t^^ RAID Ggmaterial-Frostmourne", -- [1065]
-			"<21:34:39><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 16", -- [1066]
-			"<21:34:39><INFO>	 UpdatePlayersData()", -- [1067]
-			"<21:36:48><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 16 0", -- [1068]
-			"<21:38:28><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 16", -- [1069]
-			"<21:38:28><INFO>	 UpdatePlayersData()", -- [1070]
-			"<21:41:16><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 16 0", -- [1071]
-			"<21:42:55><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 16", -- [1072]
-			"<21:42:55><INFO>	 UpdatePlayersData()", -- [1073]
-			"<21:47:36><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 16 0", -- [1074]
-			"<21:50:13><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1075]
-			"<21:50:13><INFO>	 UpdatePlayersData()", -- [1076]
-			"<21:56:09><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1077]
-			"<21:58:03><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1078]
-			"<21:58:03><INFO>	 UpdatePlayersData()", -- [1079]
-			"<22:03:48><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1080]
-			"<22:04:17><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1081]
-			"<22:04:19><DEBUG>	 GetML()", -- [1082]
-			"<22:04:19><Data.Player>	 CreatePlayer Player-60-0AE8B1C0", -- [1083]
-			"<22:04:19><DEBUG>	 Resetting council as we have a new ML!", -- [1084]
-			"<22:04:19><INFO>	 MasterLooter =  Lykenlova-Stormrage", -- [1085]
-			"<22:04:34><DEBUG>	 Timer MLdb_check passed", -- [1086]
-			"<22:04:34><Comm>	 ^1^Sxrealm^T^N1^SLykenlova-Stormrage^N2^SMLdb_request^t^^ RAID Samoansage-EmeraldDream", -- [1087]
-			"<22:04:34><Comm>	 ^1^Sxrealm^T^N1^SLykenlova-Stormrage^N2^Scouncil_request^t^^ RAID Samoansage-EmeraldDream", -- [1088]
-			"<22:04:34><Comm>	 ^1^Sxrealm^T^N1^SLykenlova-Stormrage^N2^SMLdb_request^t^^ RAID Windowpane-Stormrage", -- [1089]
-			"<22:04:34><Comm>	 ^1^Sxrealm^T^N1^SLykenlova-Stormrage^N2^Scouncil_request^t^^ RAID Windowpane-Stormrage", -- [1090]
-			"<22:10:57><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1091]
-			"<22:10:57><INFO>	 UpdatePlayersData()", -- [1092]
-			"<22:16:46><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1093]
-			"<22:18:00><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1094]
-			"<22:18:00><INFO>	 UpdatePlayersData()", -- [1095]
-			"<22:25:51><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1096]
-			"<22:27:40><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 13", -- [1097]
-			"<22:27:40><INFO>	 UpdatePlayersData()", -- [1098]
-			"<22:35:21><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 13 0", -- [1099]
-			"<22:38:14><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1100]
-			"<22:38:14><INFO>	 UpdatePlayersData()", -- [1101]
-			"<22:45:57><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1102]
-			"<22:47:52><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1103]
-			"<22:47:52><INFO>	 UpdatePlayersData()", -- [1104]
-			"<22:53:53><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1105]
-			"<22:55:43><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 14", -- [1106]
-			"<22:55:43><INFO>	 UpdatePlayersData()", -- [1107]
-			"<23:00:55><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 14 0", -- [1108]
-			"<23:02:41><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 13", -- [1109]
-			"<23:02:41><INFO>	 UpdatePlayersData()", -- [1110]
-			"<23:08:13><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 13 0", -- [1111]
-			"<23:09:52><DEBUG>	 Event: ENCOUNTER_START 2407 Sire Denathrius 15 13", -- [1112]
-			"<23:09:52><INFO>	 UpdatePlayersData()", -- [1113]
-			"<23:17:34><DEBUG>	 Event: ENCOUNTER_END 2407 Sire Denathrius 15 13 1", -- [1114]
-			"<23:18:20><DEBUG>	 Event: LOOT_READY true", -- [1115]
-			"<23:18:20><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4216-2296-20088-167406-0000600F5B 739448", -- [1116]
-			"<23:18:21><DEBUG>	 Event: LOOT_READY true", -- [1117]
-			"<23:18:21><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-4216-2296-20088-167406-0000600F5B 739448", -- [1118]
-			"<23:18:21><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [1119]
-			"<23:18:21><DEBUG>	 Event: LOOT_CLOSED", -- [1120]
-			"<23:18:21><DEBUG>	 Event: LOOT_CLOSED", -- [1121]
-			"<23:18:21><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 184286 |cff0070dd|Hitem:184286::::::::60:264:::::::|h[Extinguished Soul Anima]|h|r 5 Samoansage SHAMAN", -- [1122]
-			"<23:18:21><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Samoansage-EmeraldDream", -- [1123]
-			"<23:18:21><Comm>	 ^1^Sl^T^N1^S167406^t^^ RAID Samoansage-EmeraldDream", -- [1124]
-			"<23:18:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 184028 |cffa335ee|Hitem:184028::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Cabalist's Hymnal]|h|r 1 Lykenlova-Stormrage DRUID", -- [1125]
-			"<23:18:35><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 182129 |cffa335ee|Hitem:182129::::::::60:264::5:2:1540:7245:2:28:752:37:6:::|h[Fae Fermata]|h|r 1 Xiuyettanya-Stormrage PRIEST", -- [1126]
-			"<23:18:40><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 2407 183003 |cffa335ee|Hitem:183003::::::::60:264::84:4:7188:6652:1485:6646:1:28:752:::|h[Pauldrons of Fatal Finality]|h|r 1 Vexahllia-Stormrage HUNTER", -- [1127]
-			"<23:21:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1128]
-			"<23:21:04><DEBUG>	 GetML()", -- [1129]
-			"<23:22:12><DEBUG>	 TradeUI: Traded item(s) to Vexahllia-Stormrage", -- [1130]
-			"<23:22:12><DEBUG>	 TradeUI:Show() nil", -- [1131]
-			"<23:22:12><DEBUG>	 TradeUI:Hide()", -- [1132]
-			"<23:26:51><DEBUG>	 Event: GROUP_LEFT 1 Party-60-1-00003C2D1228", -- [1133]
-			"<23:26:51><DEBUG>	 GetML()", -- [1134]
-			"<23:33:00><INFO>	 Logged In", -- [1135]
-			"<23:33:00>[ML]<INFO>	 Init", -- [1136]
-			"<23:33:00><INFO>	 RCLootCouncil TradeUI enabled", -- [1137]
-			"<23:33:19><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [1138]
-			"<23:33:19><DEBUG>	 ActivateSkin bfa", -- [1139]
-			"<23:33:23><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1140]
-			"<23:33:23><INFO>	 UpdatePlayersData()", -- [1141]
-			"<23:33:25><DEBUG>	 GetPlayersGuildRank()", -- [1142]
-			"<23:33:25><DEBUG>	 Found Guild Rank: Officer", -- [1143]
-			"<23:33:27>[EU]<INFO>	 Enabled 1.0.1", -- [1144]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  pawn table: 000001B79DFC7AA0", -- [1145]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  legendaries table: 000001B79DFC7A00", -- [1146]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  sockets table: 000001B79DFC7A50", -- [1147]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  spec table: 000001B79DFC7AF0", -- [1148]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  bonus table: 000001B79DFC7B90", -- [1149]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B79DFC79B0", -- [1150]
-			"<23:33:27>[EU]<DEBUG>	 Doing col  covenant table: 000001B79DFC7960", -- [1151]
-			"<23:33:27>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1152]
-			"<23:33:27>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1153]
-			"<23:33:27><DEBUG>	 GetML()", -- [1154]
-			"<23:34:09><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1155]
-			"<23:34:11><DEBUG>	 GetML()", -- [1156]
-			"<23:36:05><DEBUG>	 Event: LOOT_READY true", -- [1157]
-			"<23:36:05><DEBUG>	 Event: LOOT_READY true", -- [1158]
-			"<23:39:15><INFO>	 Logged In", -- [1159]
-			"<23:39:15>[ML]<INFO>	 Init", -- [1160]
-			"<23:39:15><INFO>	 RCLootCouncil TradeUI enabled", -- [1161]
-			"<23:39:35><Data.Player>	 CreatePlayer Player-60-0A6DF395", -- [1162]
-			"<23:39:35><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1163]
-			"<23:39:35><DEBUG>	 ActivateSkin bfa", -- [1164]
-			"<23:39:42><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1165]
-			"<23:39:42><INFO>	 UpdatePlayersData()", -- [1166]
-			"<23:39:53>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1167]
-			"<23:39:53>[EU]<INFO>	 Enabled 1.0.1", -- [1168]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  pawn table: 000001B725571320", -- [1169]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  legendaries table: 000001B7255712D0", -- [1170]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  sockets table: 000001B725571370", -- [1171]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  spec table: 000001B7255713C0", -- [1172]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  bonus table: 000001B725571410", -- [1173]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B725571280", -- [1174]
-			"<23:39:53>[EU]<DEBUG>	 Doing col  covenant table: 000001B725571230", -- [1175]
-			"<23:39:53>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1176]
-			"<23:39:53><DEBUG>	 GetML()", -- [1177]
-			"<23:48:43><INFO>	 Logged In", -- [1178]
-			"<23:48:43>[ML]<INFO>	 Init", -- [1179]
-			"<23:48:43><INFO>	 RCLootCouncil TradeUI enabled", -- [1180]
-			"<23:48:56><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1181]
-			"<23:48:56><DEBUG>	 ActivateSkin bfa", -- [1182]
-			"<23:49:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1183]
-			"<23:49:01><INFO>	 UpdatePlayersData()", -- [1184]
-			"<23:49:01>[EU]<INFO>	 Enabled 1.0.1", -- [1185]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  pawn table: 000001B6B2F5C7E0", -- [1186]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  legendaries table: 000001B6B2F5C790", -- [1187]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  sockets table: 000001B6B2F5C830", -- [1188]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  spec table: 000001B6B2F5C880", -- [1189]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  bonus table: 000001B6B2F5C8D0", -- [1190]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B6B2F5C740", -- [1191]
-			"<23:49:01>[EU]<DEBUG>	 Doing col  covenant table: 000001B6B2F5C6F0", -- [1192]
-			"<23:49:01>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1193]
-			"<23:49:01>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1194]
-			"<23:49:02><DEBUG>	 GetML()", -- [1195]
-			"<23:49:38><INFO>	 Logged In", -- [1196]
-			"<23:49:38>[ML]<INFO>	 Init", -- [1197]
-			"<23:49:38><INFO>	 RCLootCouncil TradeUI enabled", -- [1198]
-			"<23:49:53><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1199]
-			"<23:49:53><DEBUG>	 ActivateSkin bfa", -- [1200]
-			"<23:49:59><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1201]
-			"<23:49:59><INFO>	 UpdatePlayersData()", -- [1202]
-			"<23:50:01>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1203]
-			"<23:50:01>[EU]<INFO>	 Enabled 1.0.1", -- [1204]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  pawn table: 000001B723800F90", -- [1205]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  legendaries table: 000001B723800F40", -- [1206]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  sockets table: 000001B723800FE0", -- [1207]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  spec table: 000001B723801030", -- [1208]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  bonus table: 000001B723801080", -- [1209]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B723800EF0", -- [1210]
-			"<23:50:01>[EU]<DEBUG>	 Doing col  covenant table: 000001B723800EA0", -- [1211]
-			"<23:50:01>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1212]
-			"<23:50:01><DEBUG>	 GetML()", -- [1213]
-			"<23:58:37><DEBUG>	 GetPlayersGuildRank()", -- [1214]
-			"<23:58:37><DEBUG>	 GetPlayersGuildRank()", -- [1215]
-			"<23:58:37><DEBUG>	 GetPlayersGuildRank()", -- [1216]
-			"<23:58:37><DEBUG>	 GetPlayersGuildRank()", -- [1217]
-			"<23:58:37><DEBUG>	 Found Guild Rank: Initiate", -- [1218]
-			"<00:08:46><INFO>	 Logged In", -- [1219]
-			"<00:08:46>[ML]<INFO>	 Init", -- [1220]
-			"<00:08:46><INFO>	 RCLootCouncil TradeUI enabled", -- [1221]
-			"<00:09:07><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [1222]
-			"<00:09:07><DEBUG>	 ActivateSkin bfa", -- [1223]
-			"<00:09:12><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1224]
-			"<00:09:12><INFO>	 UpdatePlayersData()", -- [1225]
-			"<00:09:12><DEBUG>	 GetPlayersGuildRank()", -- [1226]
-			"<00:09:12><DEBUG>	 GetPlayersGuildRank()", -- [1227]
-			"<00:09:12><DEBUG>	 Found Guild Rank: Crafter", -- [1228]
-			"<00:09:14>[EU]<INFO>	 Enabled 1.0.1", -- [1229]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  pawn table: 000001B6C3355580", -- [1230]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  legendaries table: 000001B6C3355530", -- [1231]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  sockets table: 000001B6C33555D0", -- [1232]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  spec table: 000001B6C3355620", -- [1233]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  bonus table: 000001B6C3355670", -- [1234]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B6C33554E0", -- [1235]
-			"<00:09:14>[EU]<DEBUG>	 Doing col  covenant table: 000001B6C3355490", -- [1236]
-			"<00:09:14>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1237]
-			"<00:09:14>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1238]
-			"<00:09:14><DEBUG>	 GetML()", -- [1239]
-			"<00:09:54><DEBUG>	 Event: LOOT_READY true", -- [1240]
-			"<00:09:54><DEBUG>	 Event: LOOT_READY true", -- [1241]
-			"<00:10:32><DEBUG>	 Event: LOOT_READY true", -- [1242]
-			"<00:10:32><DEBUG>	 Event: LOOT_READY true", -- [1243]
-			"<00:11:06><DEBUG>	 Event: LOOT_READY true", -- [1244]
-			"<00:11:06><DEBUG>	 Event: LOOT_READY true", -- [1245]
-			"<00:11:16><DEBUG>	 Event: LOOT_READY true", -- [1246]
-			"<00:11:16><DEBUG>	 Event: LOOT_READY true", -- [1247]
-			"<00:11:41><DEBUG>	 Event: LOOT_READY true", -- [1248]
-			"<00:11:41><DEBUG>	 Event: LOOT_READY true", -- [1249]
-			"<00:12:05><DEBUG>	 Event: LOOT_READY true", -- [1250]
-			"<00:12:05><DEBUG>	 Event: LOOT_READY true", -- [1251]
-			"<00:13:04><DEBUG>	 Event: LOOT_READY true", -- [1252]
-			"<00:13:05><DEBUG>	 Event: LOOT_READY true", -- [1253]
-			"<00:13:29><DEBUG>	 Event: LOOT_READY true", -- [1254]
-			"<00:13:29><DEBUG>	 Event: LOOT_READY true", -- [1255]
-			"<00:13:39><DEBUG>	 Event: LOOT_READY true", -- [1256]
-			"<00:13:39><DEBUG>	 Event: LOOT_READY true", -- [1257]
-			"<00:13:52><DEBUG>	 Event: LOOT_READY true", -- [1258]
-			"<00:13:53><DEBUG>	 Event: LOOT_READY true", -- [1259]
-			"<00:14:11><DEBUG>	 Event: LOOT_READY true", -- [1260]
-			"<00:14:11><DEBUG>	 Event: LOOT_READY true", -- [1261]
-			"<00:15:44><DEBUG>	 Event: LOOT_READY true", -- [1262]
-			"<00:15:44><DEBUG>	 Event: LOOT_READY true", -- [1263]
-			"<00:16:48><DEBUG>	 Event: LOOT_READY true", -- [1264]
-			"<00:16:49><DEBUG>	 Event: LOOT_READY true", -- [1265]
-			"<00:16:49><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 116887 |cff0070dd|Hitem:116887::::::::39:62:::1:6691:2:28:67:9:39:::|h[Rooby Roo's Ruby Rollar]|h|r 1 Threadcraft MAGE", -- [1266]
-			"<00:17:15><DEBUG>	 Event: LOOT_READY true", -- [1267]
-			"<00:17:15><DEBUG>	 Event: LOOT_READY true", -- [1268]
-			"<00:17:18><DEBUG>	 Event: LOOT_READY true", -- [1269]
-			"<00:17:19><DEBUG>	 Event: LOOT_READY true", -- [1270]
-			"<00:17:23><DEBUG>	 Event: LOOT_READY true", -- [1271]
-			"<00:17:23><DEBUG>	 Event: LOOT_READY true", -- [1272]
-			"<00:18:32><DEBUG>	 Event: LOOT_READY true", -- [1273]
-			"<00:18:32><DEBUG>	 Event: LOOT_READY true", -- [1274]
-			"<00:18:33><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 116837 |cff0070dd|Hitem:116837::::::::39:62:::1:6691:2:28:1768:9:39:::|h[Spooky Scythe]|h|r 1 Threadcraft MAGE", -- [1275]
-			"<00:18:51><DEBUG>	 Event: LOOT_READY true", -- [1276]
-			"<00:18:51><DEBUG>	 Event: LOOT_READY true", -- [1277]
-			"<00:18:56><DEBUG>	 Event: LOOT_READY true", -- [1278]
-			"<00:18:57><DEBUG>	 Event: LOOT_READY true", -- [1279]
-			"<00:19:01><DEBUG>	 Event: LOOT_READY true", -- [1280]
-			"<00:19:02><DEBUG>	 Event: LOOT_READY true", -- [1281]
-			"<00:19:03><DEBUG>	 Event: LOOT_READY true", -- [1282]
-			"<00:19:04><DEBUG>	 Event: LOOT_READY true", -- [1283]
-			"<00:19:06><DEBUG>	 Event: LOOT_READY true", -- [1284]
-			"<00:19:06><DEBUG>	 Event: LOOT_READY true", -- [1285]
-			"<00:19:15><DEBUG>	 Event: LOOT_READY true", -- [1286]
-			"<00:19:15><DEBUG>	 Event: LOOT_READY true", -- [1287]
-			"<00:19:18><DEBUG>	 Event: LOOT_READY true", -- [1288]
-			"<00:19:18><DEBUG>	 Event: LOOT_READY true", -- [1289]
-			"<00:19:24><DEBUG>	 Event: LOOT_READY true", -- [1290]
-			"<00:19:24><DEBUG>	 Event: LOOT_READY true", -- [1291]
-			"<00:19:37><DEBUG>	 Event: LOOT_READY true", -- [1292]
-			"<00:19:37><DEBUG>	 Event: LOOT_READY true", -- [1293]
-			"<00:19:51><DEBUG>	 Event: LOOT_READY true", -- [1294]
-			"<00:19:51><DEBUG>	 Event: LOOT_READY true", -- [1295]
-			"<00:20:25><DEBUG>	 Event: LOOT_READY true", -- [1296]
-			"<00:20:26><DEBUG>	 Event: LOOT_READY true", -- [1297]
-			"<00:20:41><DEBUG>	 Event: LOOT_READY true", -- [1298]
-			"<00:20:41><DEBUG>	 Event: LOOT_READY true", -- [1299]
-			"<00:23:00><DEBUG>	 Event: LOOT_READY true", -- [1300]
-			"<00:23:01><DEBUG>	 Event: LOOT_READY true", -- [1301]
-			"<00:23:48><DEBUG>	 Event: LOOT_READY true", -- [1302]
-			"<00:23:48><DEBUG>	 Event: LOOT_READY true", -- [1303]
-			"<00:24:48><INFO>	 Logged In", -- [1304]
-			"<00:24:48>[ML]<INFO>	 Init", -- [1305]
-			"<00:24:48><INFO>	 RCLootCouncil TradeUI enabled", -- [1306]
-			"<00:25:03><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [1307]
-			"<00:25:03><DEBUG>	 ActivateSkin bfa", -- [1308]
-			"<00:25:08><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1309]
-			"<00:25:08><INFO>	 UpdatePlayersData()", -- [1310]
-			"<00:25:09><DEBUG>	 GetPlayersGuildRank()", -- [1311]
-			"<00:25:09><DEBUG>	 Found Guild Rank: Crafter", -- [1312]
-			"<00:25:09>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1313]
-			"<00:25:09>[EU]<INFO>	 Enabled 1.0.1", -- [1314]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  pawn table: 000001B6C22C9360", -- [1315]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  legendaries table: 000001B6C22C9270", -- [1316]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  sockets table: 000001B6C22C93B0", -- [1317]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  spec table: 000001B6C22C9400", -- [1318]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  bonus table: 000001B6C22C9450", -- [1319]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B6C22C9220", -- [1320]
-			"<00:25:09>[EU]<DEBUG>	 Doing col  covenant table: 000001B6C22C91D0", -- [1321]
-			"<00:25:09>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1322]
-			"<00:25:09><DEBUG>	 GetML()", -- [1323]
-			"<00:25:11><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Threadcraft-EmeraldDream", -- [1324]
-			"<00:27:55><DEBUG>	 Event: LOOT_READY true", -- [1325]
-			"<00:27:55><DEBUG>	 Event: LOOT_READY true", -- [1326]
-			"<00:28:33><DEBUG>	 Event: LOOT_READY true", -- [1327]
-			"<00:28:33><DEBUG>	 Event: LOOT_READY true", -- [1328]
-			"<00:28:45><DEBUG>	 Event: LOOT_READY true", -- [1329]
-			"<00:28:45><DEBUG>	 Event: LOOT_READY true", -- [1330]
-			"<00:29:02><DEBUG>	 Event: LOOT_READY true", -- [1331]
-			"<00:29:02><DEBUG>	 Event: LOOT_READY true", -- [1332]
-			"<00:35:11><DEBUG>	 Event: LOOT_READY true", -- [1333]
-			"<00:35:11><DEBUG>	 Event: LOOT_READY true", -- [1334]
-			"<00:35:28><DEBUG>	 Event: LOOT_READY true", -- [1335]
-			"<00:35:28><DEBUG>	 Event: LOOT_READY true", -- [1336]
-			"<00:38:00><DEBUG>	 Event: LOOT_READY true", -- [1337]
-			"<00:38:00><DEBUG>	 Event: LOOT_READY true", -- [1338]
-			"<00:42:57><DEBUG>	 Event: LOOT_READY true", -- [1339]
-			"<00:42:57><DEBUG>	 Event: LOOT_READY true", -- [1340]
-			"<00:53:40><DEBUG>	 Event: LOOT_READY true", -- [1341]
-			"<00:53:40><DEBUG>	 Event: LOOT_READY true", -- [1342]
-			"<00:58:43><DEBUG>	 Event: LOOT_READY true", -- [1343]
-			"<00:58:43><DEBUG>	 Event: LOOT_READY true", -- [1344]
-			"<01:01:05><DEBUG>	 Event: LOOT_READY true", -- [1345]
-			"<01:01:05><DEBUG>	 Event: LOOT_READY true", -- [1346]
-			"<01:03:40><DEBUG>	 Event: LOOT_READY true", -- [1347]
-			"<01:03:40><DEBUG>	 Event: LOOT_READY true", -- [1348]
-			"<01:06:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1349]
-			"<01:06:02><DEBUG>	 GetML()", -- [1350]
-			"<01:11:32><INFO>	 Logged In", -- [1351]
-			"<01:11:32>[ML]<INFO>	 Init", -- [1352]
-			"<01:11:32><INFO>	 RCLootCouncil TradeUI enabled", -- [1353]
-			"<01:11:52><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [1354]
-			"<01:11:52><DEBUG>	 ActivateSkin bfa", -- [1355]
-			"<01:11:57><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1356]
-			"<01:11:57><INFO>	 UpdatePlayersData()", -- [1357]
-			"<01:12:00><DEBUG>	 GetPlayersGuildRank()", -- [1358]
-			"<01:12:00><DEBUG>	 GetPlayersGuildRank()", -- [1359]
-			"<01:12:00><DEBUG>	 Found Guild Rank: Crafter", -- [1360]
-			"<01:12:01>[EU]<INFO>	 Enabled 1.0.1", -- [1361]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  pawn table: 000001B6C79CF960", -- [1362]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  legendaries table: 000001B6C79CF190", -- [1363]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  sockets table: 000001B6C79CF910", -- [1364]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  spec table: 000001B6C79CF370", -- [1365]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  bonus table: 000001B6C79CF3C0", -- [1366]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  guildNotes table: 000001B6C79CF140", -- [1367]
-			"<01:12:01>[EU]<DEBUG>	 Doing col  covenant table: 000001B6C79CF0F0", -- [1368]
-			"<01:12:01>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1369]
-			"<01:12:01>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1370]
-			"<01:12:01><DEBUG>	 GetML()", -- [1371]
-			"<01:35:04><INFO>	 Logged In", -- [1372]
-			"<01:35:04>[ML]<INFO>	 Init", -- [1373]
-			"<01:35:04><INFO>	 RCLootCouncil TradeUI enabled", -- [1374]
-			"<01:35:23><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1375]
-			"<01:35:23><DEBUG>	 ActivateSkin bfa", -- [1376]
-			"<01:35:29><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1377]
-			"<01:35:29><INFO>	 UpdatePlayersData()", -- [1378]
-			"<01:35:29><DEBUG>	 GetPlayersGuildRank()", -- [1379]
-			"<01:35:29><DEBUG>	 Found Guild Rank: Initiate", -- [1380]
-			"<01:35:34>[EU]<INFO>	 Enabled 1.0.1", -- [1381]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  pawn table: 0000017AE196D510", -- [1382]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  legendaries table: 0000017AE196D4C0", -- [1383]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  sockets table: 0000017AE196D560", -- [1384]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  spec table: 0000017AE196D5B0", -- [1385]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  bonus table: 0000017AE196D600", -- [1386]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  guildNotes table: 0000017AE196D470", -- [1387]
-			"<01:35:34>[EU]<DEBUG>	 Doing col  covenant table: 0000017AE196D420", -- [1388]
-			"<01:35:34>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1389]
-			"<01:35:34>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1390]
-			"<01:35:35><DEBUG>	 GetML()", -- [1391]
-			"<01:35:53><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1392]
-			"<01:36:01><DEBUG>	 GetML()", -- [1393]
-			"<01:36:01><DEBUG>	 Resetting council as we have a new ML!", -- [1394]
-			"<01:36:01><INFO>	 MasterLooter =  Samoanbatman-EmeraldDream", -- [1395]
-			"<01:36:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1396]
-			"<01:36:07><DEBUG>	 GetML()", -- [1397]
-			"<01:36:16><DEBUG>	 Timer MLdb_check passed", -- [1398]
-			"<01:36:17><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoantitan-Stormrage", -- [1399]
-			"<01:36:17><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoantitan-Stormrage", -- [1400]
-			"<01:40:23><INFO>	 Logged In", -- [1401]
-			"<01:40:23>[ML]<INFO>	 Init", -- [1402]
-			"<01:40:23><INFO>	 RCLootCouncil TradeUI enabled", -- [1403]
-			"<01:40:56><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1404]
-			"<01:40:56><DEBUG>	 ActivateSkin bfa", -- [1405]
-			"<01:41:04><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1406]
-			"<01:41:04><INFO>	 UpdatePlayersData()", -- [1407]
-			"<01:41:22><DEBUG>	 GetPlayersGuildRank()", -- [1408]
-			"<01:41:22><DEBUG>	 Found Guild Rank: Initiate", -- [1409]
-			"<01:41:23><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1410]
-			"<01:41:23>[EU]<INFO>	 Enabled 1.0.1", -- [1411]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  pawn table: 0000017AB138D8B0", -- [1412]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  legendaries table: 0000017AB138D860", -- [1413]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  sockets table: 0000017AB138D900", -- [1414]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  spec table: 0000017AB138D950", -- [1415]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  bonus table: 0000017AB138D9A0", -- [1416]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  guildNotes table: 0000017AB138D810", -- [1417]
-			"<01:41:23>[EU]<DEBUG>	 Doing col  covenant table: 0000017AB138D7C0", -- [1418]
-			"<01:41:23>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1419]
-			"<01:41:23>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1420]
-			"<01:41:23><DEBUG>	 GetML()", -- [1421]
-			"<01:41:23><DEBUG>	 Resetting council as we have a new ML!", -- [1422]
-			"<01:41:23><INFO>	 MasterLooter =  Samoanbatman-EmeraldDream", -- [1423]
-			"<01:41:26><DEBUG>	 GetML()", -- [1424]
-			"<01:41:38><DEBUG>	 Timer MLdb_check passed", -- [1425]
-			"<01:41:38><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoantitan-Stormrage", -- [1426]
-			"<01:41:38><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoantitan-Stormrage", -- [1427]
-			"<01:45:38><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1428]
-			"<01:45:42><DEBUG>	 GetML()", -- [1429]
-			"<01:46:46><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1430]
-			"<01:46:49><DEBUG>	 GetML()", -- [1431]
-			"<01:48:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1432]
-			"<01:48:51><DEBUG>	 GetML()", -- [1433]
-			"<01:50:25><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002A0745F7", -- [1434]
-			"<01:50:25><DEBUG>	 GetML()", -- [1435]
-			"<01:52:57><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1436]
-			"<01:52:59><DEBUG>	 GetML()", -- [1437]
-			"<01:52:59><DEBUG>	 Resetting council as we have a new ML!", -- [1438]
-			"<01:52:59><INFO>	 MasterLooter =  Samoanbatman-EmeraldDream", -- [1439]
-			"<01:53:14><DEBUG>	 Timer MLdb_check passed", -- [1440]
-			"<01:53:14><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoantitan-Stormrage", -- [1441]
-			"<01:53:14><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoantitan-Stormrage", -- [1442]
-			"<01:57:22><DEBUG>	 Event: LOOT_READY true", -- [1443]
-			"<01:57:22><DEBUG>	 Event: LOOT_READY true", -- [1444]
-			"<01:57:23><DEBUG>	 Event: LOOT_READY true", -- [1445]
-			"<01:57:46><DEBUG>	 Event: LOOT_READY true", -- [1446]
-			"<01:57:46><DEBUG>	 Event: LOOT_READY true", -- [1447]
-			"<01:58:09><DEBUG>	 Event: LOOT_READY true", -- [1448]
-			"<01:58:09><DEBUG>	 Event: LOOT_READY true", -- [1449]
-			"<01:58:48><DEBUG>	 Event: LOOT_READY true", -- [1450]
-			"<01:58:48><DEBUG>	 Event: LOOT_READY true", -- [1451]
-			"<02:06:39><DEBUG>	 Event: LOOT_READY true", -- [1452]
-			"<02:06:39><DEBUG>	 Event: LOOT_READY true", -- [1453]
-			"<02:08:11><DEBUG>	 Event: LOOT_READY true", -- [1454]
-			"<02:08:11><DEBUG>	 Event: LOOT_READY true", -- [1455]
-			"<02:10:03><DEBUG>	 Event: LOOT_READY true", -- [1456]
-			"<02:10:03><DEBUG>	 Event: LOOT_READY true", -- [1457]
-			"<02:11:11><DEBUG>	 Event: LOOT_READY true", -- [1458]
-			"<02:11:12><DEBUG>	 Event: LOOT_READY true", -- [1459]
-			"<02:17:41><DEBUG>	 Event: LOOT_READY true", -- [1460]
-			"<02:17:42><DEBUG>	 Event: LOOT_READY true", -- [1461]
-			"<02:18:12><DEBUG>	 Event: LOOT_READY true", -- [1462]
-			"<02:18:12><DEBUG>	 Event: LOOT_READY true", -- [1463]
-			"<02:18:32><DEBUG>	 Event: LOOT_READY true", -- [1464]
-			"<02:18:32><DEBUG>	 Event: LOOT_READY true", -- [1465]
-			"<02:18:40><DEBUG>	 Event: LOOT_READY true", -- [1466]
-			"<02:18:40><DEBUG>	 Event: LOOT_READY true", -- [1467]
-			"<02:18:48><DEBUG>	 Event: LOOT_READY true", -- [1468]
-			"<02:18:48><DEBUG>	 Event: LOOT_READY true", -- [1469]
-			"<02:18:57><DEBUG>	 Event: LOOT_READY true", -- [1470]
-			"<02:18:57><DEBUG>	 Event: LOOT_READY true", -- [1471]
-			"<02:19:01><DEBUG>	 Event: LOOT_READY true", -- [1472]
-			"<02:19:02><DEBUG>	 Event: LOOT_READY true", -- [1473]
-			"<02:19:17><DEBUG>	 Event: LOOT_READY true", -- [1474]
-			"<02:19:18><DEBUG>	 Event: LOOT_READY true", -- [1475]
-			"<02:19:28><DEBUG>	 Event: LOOT_READY true", -- [1476]
-			"<02:19:29><DEBUG>	 Event: LOOT_READY true", -- [1477]
-			"<02:19:38><DEBUG>	 Event: LOOT_READY true", -- [1478]
-			"<02:19:38><DEBUG>	 Event: LOOT_READY true", -- [1479]
-			"<02:19:46><DEBUG>	 Event: LOOT_READY true", -- [1480]
-			"<02:19:46><DEBUG>	 Event: LOOT_READY true", -- [1481]
-			"<02:22:33><DEBUG>	 Event: LOOT_READY true", -- [1482]
-			"<02:22:33><DEBUG>	 Event: LOOT_READY true", -- [1483]
-			"<02:22:43><DEBUG>	 Event: LOOT_READY true", -- [1484]
-			"<02:22:43><DEBUG>	 Event: LOOT_READY true", -- [1485]
-			"<02:23:50><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002A074826", -- [1486]
-			"<02:23:50><DEBUG>	 GetML()", -- [1487]
-			"<02:24:19><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1488]
-			"<02:24:21><DEBUG>	 GetML()", -- [1489]
-			"<02:24:21><DEBUG>	 Resetting council as we have a new ML!", -- [1490]
-			"<02:24:21><INFO>	 MasterLooter =  Samoanbatman-EmeraldDream", -- [1491]
-			"<02:24:36><DEBUG>	 Timer MLdb_check passed", -- [1492]
-			"<02:24:37><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoantitan-Stormrage", -- [1493]
-			"<02:24:37><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoantitan-Stormrage", -- [1494]
-			"<02:25:36><DEBUG>	 Event: LOOT_READY true", -- [1495]
-			"<02:25:36><DEBUG>	 Event: LOOT_READY true", -- [1496]
-			"<02:27:13><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002A074F8C", -- [1497]
-			"<02:27:13><DEBUG>	 GetML()", -- [1498]
-			"<02:27:18><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1499]
-			"<02:27:20><DEBUG>	 GetML()", -- [1500]
-			"<02:27:20><DEBUG>	 Resetting council as we have a new ML!", -- [1501]
-			"<02:27:20><INFO>	 MasterLooter =  Samoantitan-Stormrage", -- [1502]
-			"<02:27:20>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1503]
-			"<02:27:20>[ML]<DEBUG>	 NewML Samoantitan-Stormrage", -- [1504]
-			"<02:27:20>[ML]<DEBUG>	 UpdateMLdb", -- [1505]
-			"<02:27:20><INFO>	 OnMLDBReceived", -- [1506]
-			"<02:27:20><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoantitan-Stormrage", -- [1507]
-			"<02:27:20><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1508]
-			"<02:27:20><Comm>	 ^1^Sxrealm^T^N1^SSamoantitan-Stormrage^N2^SpI^N3^STANK^N4^SInitiate^N6^N0^N7^N79.5^N8^N66^t^^ PARTY Samoantitan-Stormrage", -- [1509]
-			"<02:27:22>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1510]
-			"<02:27:22><Comm>	 ^1^Scouncil^T^N1^T^S60-0A6DF395^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1511]
-			"<02:27:22><DEBUG>	 isCouncil true", -- [1512]
-			"<02:27:22><DEBUG>	 GetLootDBStatistics()", -- [1513]
-			"<02:27:22><DEBUG>	 GetGuildRankNum()", -- [1514]
-			"<02:27:22><INFO>	 RCVotingFrame enabled", -- [1515]
-			"<02:27:35><DEBUG>	 Timer MLdb_check passed", -- [1516]
-			"<02:30:22><DEBUG>	 Event: LOOT_READY true", -- [1517]
-			"<02:30:23><DEBUG>	 Event: LOOT_READY true", -- [1518]
-			"<02:30:26><DEBUG>	 Event: LOOT_READY true", -- [1519]
-			"<02:30:27><DEBUG>	 Event: LOOT_READY true", -- [1520]
-			"<02:30:30><DEBUG>	 Event: LOOT_READY true", -- [1521]
-			"<02:30:30><DEBUG>	 Event: LOOT_READY true", -- [1522]
-			"<02:31:45><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1523]
-			"<02:32:46><INFO>	 Logged In", -- [1524]
-			"<02:32:46>[ML]<INFO>	 Init", -- [1525]
-			"<02:32:46><INFO>	 RCLootCouncil TradeUI enabled", -- [1526]
-			"<02:33:05><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1527]
-			"<02:33:05><DEBUG>	 ActivateSkin bfa", -- [1528]
-			"<02:33:10><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1529]
-			"<02:33:10><INFO>	 UpdatePlayersData()", -- [1530]
-			"<02:33:11><DEBUG>	 GetPlayersGuildRank()", -- [1531]
-			"<02:33:11><DEBUG>	 Found Guild Rank: Initiate", -- [1532]
-			"<02:33:12><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1533]
-			"<02:33:15>[EU]<INFO>	 Enabled 1.0.1", -- [1534]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  pawn table: 000001AF5FC664E0", -- [1535]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  legendaries table: 000001AF5FC66490", -- [1536]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  sockets table: 000001AF5FC66530", -- [1537]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  spec table: 000001AF5FC66580", -- [1538]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  bonus table: 000001AF5FC665D0", -- [1539]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  guildNotes table: 000001AF5FC66440", -- [1540]
-			"<02:33:15>[EU]<DEBUG>	 Doing col  covenant table: 000001AF5FC663F0", -- [1541]
-			"<02:33:15>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1542]
-			"<02:33:15>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1543]
-			"<02:33:16><DEBUG>	 GetML()", -- [1544]
-			"<02:33:16><DEBUG>	 Resetting council as we have a new ML!", -- [1545]
-			"<02:33:16><INFO>	 MasterLooter =  Samoantitan-Stormrage", -- [1546]
-			"<02:33:16>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1547]
-			"<02:33:16>[ML]<DEBUG>	 NewML Samoantitan-Stormrage", -- [1548]
-			"<02:33:16>[ML]<DEBUG>	 UpdateMLdb", -- [1549]
-			"<02:33:16><INFO>	 OnMLDBReceived", -- [1550]
-			"<02:33:18><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoantitan-Stormrage", -- [1551]
-			"<02:33:18><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1552]
-			"<02:33:19>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1553]
-			"<02:33:19><DEBUG>	 GetML()", -- [1554]
-			"<02:33:20><Comm>	 ^1^Sxrealm^T^N1^SSamoantitan-Stormrage^N2^SpI^N3^STANK^N4^SInitiate^N6^N0^N7^N79.5^N8^N66^t^^ PARTY Samoantitan-Stormrage", -- [1555]
-			"<02:33:20><Comm>	 ^1^Scouncil^T^N1^T^S60-0A6DF395^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1556]
-			"<02:33:20><DEBUG>	 isCouncil true", -- [1557]
-			"<02:33:20><DEBUG>	 GetLootDBStatistics()", -- [1558]
-			"<02:33:20><DEBUG>	 GetGuildRankNum()", -- [1559]
-			"<02:33:20><INFO>	 RCVotingFrame enabled", -- [1560]
-			"<02:33:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1561]
-			"<02:33:27><DEBUG>	 Timer MLdb_check passed", -- [1562]
-			"<02:34:47>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1563]
-			"<02:34:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1564]
-			"<02:35:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1565]
-			"<02:35:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1566]
-			"<02:35:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1567]
-			"<02:35:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1568]
-			"<02:36:25><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1569]
-			"<02:37:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1570]
-			"<02:37:41>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1571]
-			"<02:39:54><INFO>	 Logged In", -- [1572]
-			"<02:39:54>[ML]<INFO>	 Init", -- [1573]
-			"<02:39:54><INFO>	 RCLootCouncil TradeUI enabled", -- [1574]
-			"<02:40:08><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1575]
-			"<02:40:08><DEBUG>	 ActivateSkin bfa", -- [1576]
-			"<02:40:13><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1577]
-			"<02:40:13><INFO>	 UpdatePlayersData()", -- [1578]
-			"<02:40:14><DEBUG>	 GetPlayersGuildRank()", -- [1579]
-			"<02:40:14><DEBUG>	 Found Guild Rank: Initiate", -- [1580]
-			"<02:40:14>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1581]
-			"<02:40:14>[EU]<INFO>	 Enabled 1.0.1", -- [1582]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  pawn table: 000001AF6AF08FC0", -- [1583]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  legendaries table: 000001AF6AF08F70", -- [1584]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  sockets table: 000001AF6AF09010", -- [1585]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  spec table: 000001AF6AF09060", -- [1586]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  bonus table: 000001AF6AF090B0", -- [1587]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  guildNotes table: 000001AF6AF08F20", -- [1588]
-			"<02:40:14>[EU]<DEBUG>	 Doing col  covenant table: 000001AF6AF08ED0", -- [1589]
-			"<02:40:14>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1590]
-			"<02:40:14><DEBUG>	 GetML()", -- [1591]
-			"<02:40:14><DEBUG>	 Resetting council as we have a new ML!", -- [1592]
-			"<02:40:14><INFO>	 MasterLooter =  Samoantitan-Stormrage", -- [1593]
-			"<02:40:14>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1594]
-			"<02:40:14>[ML]<DEBUG>	 NewML Samoantitan-Stormrage", -- [1595]
-			"<02:40:14>[ML]<DEBUG>	 UpdateMLdb", -- [1596]
-			"<02:40:14><INFO>	 OnMLDBReceived", -- [1597]
-			"<02:40:17><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoantitan-Stormrage", -- [1598]
-			"<02:40:17><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoantitan-Stormrage", -- [1599]
-			"<02:40:17><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1600]
-			"<02:40:17>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1601]
-			"<02:40:18><Comm>	 ^1^Sxrealm^T^N1^SSamoantitan-Stormrage^N2^SpI^N3^STANK^N4^SInitiate^N6^N0^N7^N79.5^N8^N66^t^^ PARTY Samoantitan-Stormrage", -- [1602]
-			"<02:40:18><Comm>	 ^1^Scouncil^T^N1^T^S60-0A6DF395^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1603]
-			"<02:40:18><DEBUG>	 isCouncil true", -- [1604]
-			"<02:40:18><DEBUG>	 GetLootDBStatistics()", -- [1605]
-			"<02:40:18><DEBUG>	 GetGuildRankNum()", -- [1606]
-			"<02:40:18><INFO>	 RCVotingFrame enabled", -- [1607]
-			"<02:40:29><DEBUG>	 Timer MLdb_check passed", -- [1608]
-			"<02:40:42><INFO>	 Logged In", -- [1609]
-			"<02:40:42>[ML]<INFO>	 Init", -- [1610]
-			"<02:40:42><INFO>	 RCLootCouncil TradeUI enabled", -- [1611]
-			"<02:40:55><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [1612]
-			"<02:40:55><DEBUG>	 ActivateSkin bfa", -- [1613]
-			"<02:41:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1614]
-			"<02:41:01><INFO>	 UpdatePlayersData()", -- [1615]
-			"<02:41:02><DEBUG>	 GetPlayersGuildRank()", -- [1616]
-			"<02:41:02><DEBUG>	 Found Guild Rank: Initiate", -- [1617]
-			"<02:41:02>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1618]
-			"<02:41:02>[EU]<INFO>	 Enabled 1.0.1", -- [1619]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  pawn table: 000001AF6113C940", -- [1620]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  legendaries table: 000001AF6113C8F0", -- [1621]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  sockets table: 000001AF6113C990", -- [1622]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  spec table: 000001AF6113C9E0", -- [1623]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  bonus table: 000001AF6113CA30", -- [1624]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  guildNotes table: 000001AF6113C8A0", -- [1625]
-			"<02:41:02>[EU]<DEBUG>	 Doing col  covenant table: 000001AF6113C850", -- [1626]
-			"<02:41:02>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1627]
-			"<02:41:02><DEBUG>	 GetML()", -- [1628]
-			"<02:41:02><DEBUG>	 Resetting council as we have a new ML!", -- [1629]
-			"<02:41:02><INFO>	 MasterLooter =  Samoantitan-Stormrage", -- [1630]
-			"<02:41:02>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1631]
-			"<02:41:02>[ML]<DEBUG>	 NewML Samoantitan-Stormrage", -- [1632]
-			"<02:41:02>[ML]<DEBUG>	 UpdateMLdb", -- [1633]
-			"<02:41:02><INFO>	 OnMLDBReceived", -- [1634]
-			"<02:41:04><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoantitan-Stormrage", -- [1635]
-			"<02:41:04><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoantitan-Stormrage", -- [1636]
-			"<02:41:04><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1637]
-			"<02:41:04>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [1638]
-			"<02:41:05><Comm>	 ^1^Sxrealm^T^N1^SSamoantitan-Stormrage^N2^SpI^N3^STANK^N4^SInitiate^N6^N0^N7^N79.5^N8^N66^t^^ PARTY Samoantitan-Stormrage", -- [1639]
-			"<02:41:05><Comm>	 ^1^Scouncil^T^N1^T^S60-0A6DF395^B^t^t^^ PARTY Samoantitan-Stormrage", -- [1640]
-			"<02:41:05><DEBUG>	 isCouncil true", -- [1641]
-			"<02:41:05><DEBUG>	 GetLootDBStatistics()", -- [1642]
-			"<02:41:05><DEBUG>	 GetGuildRankNum()", -- [1643]
-			"<02:41:05><INFO>	 RCVotingFrame enabled", -- [1644]
-			"<02:41:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1645]
-			"<02:41:17><DEBUG>	 Timer MLdb_check passed", -- [1646]
-			"<02:41:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1647]
-			"<02:41:50><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1648]
-			"<02:41:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1649]
-			"<02:41:52><DEBUG>	 GetML()", -- [1650]
-			"<02:41:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1651]
-			"<02:50:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1652]
-			"<02:50:19><DEBUG>	 GetML()", -- [1653]
-			"<02:50:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1654]
-			"<02:50:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1655]
-			"<02:51:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1656]
-			"<02:52:12><DEBUG>	 Event: GROUP_LEFT 1 Party-60-1-00003C2E274A", -- [1657]
-			"<02:52:12><DEBUG>	 GetML()", -- [1658]
-			"<02:52:12><INFO>	 Stop handling loot", -- [1659]
-			"<02:52:12>[ML]<INFO>	 Disabled", -- [1660]
-			"<02:52:12><Comm>	 ^1^SStopHandleLoot^T^t^^ WHISPER Samoantitan-Stormrage", -- [1661]
-			"<02:53:56><INFO>	 Logged In", -- [1662]
-			"<02:53:56>[ML]<INFO>	 Init", -- [1663]
-			"<02:53:56><INFO>	 RCLootCouncil TradeUI enabled", -- [1664]
-			"<02:54:18><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [1665]
-			"<02:54:18><DEBUG>	 ActivateSkin bfa", -- [1666]
-			"<02:54:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1667]
-			"<02:54:24><INFO>	 UpdatePlayersData()", -- [1668]
-			"<02:54:24><DEBUG>	 GetPlayersGuildRank()", -- [1669]
-			"<02:54:24><DEBUG>	 GetPlayersGuildRank()", -- [1670]
-			"<02:54:24><DEBUG>	 Found Guild Rank: Crafter", -- [1671]
-			"<02:54:26>[EU]<INFO>	 Enabled 1.0.1", -- [1672]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  pawn table: 000001AF2E4F1630", -- [1673]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  legendaries table: 000001AF2E4F15E0", -- [1674]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  sockets table: 000001AF2E4F1680", -- [1675]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  spec table: 000001AF2E4F16D0", -- [1676]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  bonus table: 000001AF2E4F1810", -- [1677]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  guildNotes table: 000001AF2E4F1590", -- [1678]
-			"<02:54:26>[EU]<DEBUG>	 Doing col  covenant table: 000001AF2E4F1540", -- [1679]
-			"<02:54:26>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1680]
-			"<02:54:26>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1681]
-			"<02:54:26><DEBUG>	 GetML()", -- [1682]
-			"<02:54:35><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1683]
-			"<02:54:37><DEBUG>	 GetML()", -- [1684]
-			"<02:54:37><DEBUG>	 Resetting council as we have a new ML!", -- [1685]
-			"<02:54:37><INFO>	 MasterLooter =  Threadcraft-EmeraldDream", -- [1686]
-			"<02:54:37>[ML]<DEBUG>	 UpdateGroupCouncil Threadcraft-EmeraldDream", -- [1687]
-			"<02:54:37>[ML]<DEBUG>	 NewML Threadcraft-EmeraldDream", -- [1688]
-			"<02:54:37>[ML]<DEBUG>	 UpdateMLdb", -- [1689]
-			"<02:54:37><INFO>	 OnMLDBReceived", -- [1690]
-			"<02:54:37><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Threadcraft-EmeraldDream", -- [1691]
-			"<02:54:37><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Threadcraft-EmeraldDream", -- [1692]
-			"<02:54:37><Comm>	 ^1^Sxrealm^T^N1^SThreadcraft-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SCrafter^N6^N0^N7^N42.0625^N8^N62^t^^ PARTY Threadcraft-EmeraldDream", -- [1693]
-			"<02:54:39>[ML]<DEBUG>	 UpdateGroupCouncil Threadcraft-EmeraldDream", -- [1694]
-			"<02:54:39><Comm>	 ^1^Scouncil^T^N1^T^S162-0B4FDB3C^B^t^t^^ PARTY Threadcraft-EmeraldDream", -- [1695]
-			"<02:54:39><DEBUG>	 isCouncil true", -- [1696]
-			"<02:54:39><DEBUG>	 GetLootDBStatistics()", -- [1697]
-			"<02:54:39><DEBUG>	 GetGuildRankNum()", -- [1698]
-			"<02:54:39><INFO>	 RCVotingFrame enabled", -- [1699]
-			"<02:54:52><DEBUG>	 Timer MLdb_check passed", -- [1700]
-			"<02:55:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1701]
-			"<02:55:50><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1702]
-			"<02:56:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1703]
-			"<02:57:29><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1704]
-			"<02:58:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1705]
-			"<02:58:56><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1706]
-			"<02:58:57><DEBUG>	 GetML()", -- [1707]
-			"<02:58:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1708]
-			"<03:02:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1709]
-			"<03:03:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1710]
-			"<03:04:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1711]
-			"<03:09:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1712]
-			"<03:09:18><DEBUG>	 GetML()", -- [1713]
-			"<03:09:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1714]
-			"<03:09:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1715]
-			"<03:09:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1716]
-			"<03:09:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1717]
-			"<03:09:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1718]
-			"<03:10:14>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1719]
-			"<03:10:29>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1720]
-			"<03:10:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1721]
-			"<03:10:47>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1722]
-			"<03:11:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1723]
-			"<03:11:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1724]
-			"<03:11:49>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1725]
-			"<03:12:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1726]
-			"<03:12:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1727]
-			"<03:14:04>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1728]
-			"<03:14:07><DEBUG>	 Event: LOOT_READY true", -- [1729]
-			"<03:14:07><DEBUG>	 Event: LOOT_READY true", -- [1730]
-			"<03:14:17><DEBUG>	 Event: LOOT_READY true", -- [1731]
-			"<03:14:17><DEBUG>	 Event: LOOT_READY true", -- [1732]
-			"<03:14:25>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1733]
-			"<03:14:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1734]
-			"<03:14:35><DEBUG>	 Event: LOOT_READY true", -- [1735]
-			"<03:14:35><DEBUG>	 Event: LOOT_READY true", -- [1736]
-			"<03:14:35><DEBUG>	 Event: LOOT_READY true", -- [1737]
-			"<03:14:35><DEBUG>	 Event: LOOT_READY true", -- [1738]
-			"<03:14:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1739]
-			"<03:14:59>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1740]
-			"<03:15:00><DEBUG>	 Event: LOOT_READY true", -- [1741]
-			"<03:15:00><DEBUG>	 Event: LOOT_READY true", -- [1742]
-			"<03:15:00><DEBUG>	 Event: LOOT_READY true", -- [1743]
-			"<03:15:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1744]
-			"<03:15:12><DEBUG>	 Event: LOOT_READY true", -- [1745]
-			"<03:15:12><DEBUG>	 Event: LOOT_READY true", -- [1746]
-			"<03:15:39><DEBUG>	 Event: LOOT_READY true", -- [1747]
-			"<03:15:39><DEBUG>	 Event: LOOT_READY true", -- [1748]
-			"<03:15:55>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1749]
-			"<03:15:57><DEBUG>	 Event: LOOT_READY true", -- [1750]
-			"<03:15:57><DEBUG>	 Event: LOOT_READY true", -- [1751]
-			"<03:15:58><DEBUG>	 Event: LOOT_READY true", -- [1752]
-			"<03:15:58><DEBUG>	 Event: LOOT_READY true", -- [1753]
-			"<03:16:08><DEBUG>	 Event: LOOT_READY true", -- [1754]
-			"<03:16:08><DEBUG>	 Event: LOOT_READY true", -- [1755]
-			"<03:16:20><DEBUG>	 Event: LOOT_READY true", -- [1756]
-			"<03:16:21><DEBUG>	 Event: LOOT_READY true", -- [1757]
-			"<03:16:31>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1758]
-			"<03:16:31><DEBUG>	 Event: LOOT_READY true", -- [1759]
-			"<03:16:32><DEBUG>	 Event: LOOT_READY true", -- [1760]
-			"<03:17:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1761]
-			"<03:17:08><DEBUG>	 Event: LOOT_READY true", -- [1762]
-			"<03:17:08><DEBUG>	 Event: LOOT_READY true", -- [1763]
-			"<03:17:18><DEBUG>	 Event: LOOT_READY true", -- [1764]
-			"<03:17:19><DEBUG>	 Event: LOOT_READY true", -- [1765]
-			"<03:17:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1766]
-			"<03:17:57><DEBUG>	 Event: LOOT_READY true", -- [1767]
-			"<03:17:57><DEBUG>	 Event: LOOT_READY true", -- [1768]
-			"<03:17:57><DEBUG>	 Event: LOOT_READY true", -- [1769]
-			"<03:17:57><DEBUG>	 Event: LOOT_READY true", -- [1770]
-			"<03:18:00><DEBUG>	 Event: LOOT_READY true", -- [1771]
-			"<03:18:00><DEBUG>	 Event: LOOT_READY true", -- [1772]
-			"<03:19:24>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1773]
-			"<03:19:24><DEBUG>	 Event: LOOT_READY true", -- [1774]
-			"<03:19:24><DEBUG>	 Event: LOOT_READY true", -- [1775]
-			"<03:19:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1776]
-			"<03:20:03>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1777]
-			"<03:20:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1778]
-			"<03:20:32><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1779]
-			"<03:20:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1780]
-			"<03:20:42><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1781]
-			"<03:21:55><DEBUG>	 Event: LOOT_READY true", -- [1782]
-			"<03:21:56><DEBUG>	 Event: LOOT_READY true", -- [1783]
-			"<03:22:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1784]
-			"<03:22:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1785]
-			"<03:22:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1786]
-			"<03:22:29>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1787]
-			"<03:22:55>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1788]
-			"<03:23:06>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1789]
-			"<03:23:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1790]
-			"<03:23:44><DEBUG>	 Event: LOOT_READY true", -- [1791]
-			"<03:23:44><DEBUG>	 Event: LOOT_READY true", -- [1792]
-			"<03:25:17>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1793]
-			"<03:25:20><DEBUG>	 Event: LOOT_READY true", -- [1794]
-			"<03:25:21><DEBUG>	 Event: LOOT_READY true", -- [1795]
-			"<03:25:24><DEBUG>	 Event: LOOT_READY true", -- [1796]
-			"<03:25:24><DEBUG>	 Event: LOOT_READY true", -- [1797]
-			"<03:31:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1798]
-			"<03:31:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1799]
-			"<03:31:35><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1800]
-			"<03:31:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1801]
-			"<03:31:36><DEBUG>	 GetML()", -- [1802]
-			"<12:24:38><INFO>	 Logged In", -- [1803]
-			"<12:24:38>[ML]<INFO>	 Init", -- [1804]
-			"<12:24:38><INFO>	 RCLootCouncil TradeUI enabled", -- [1805]
-			"<12:25:01><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [1806]
-			"<12:25:01><DEBUG>	 ActivateSkin bfa", -- [1807]
-			"<12:25:06><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1808]
-			"<12:25:06><INFO>	 UpdatePlayersData()", -- [1809]
-			"<12:25:06><DEBUG>	 GetPlayersGuildRank()", -- [1810]
-			"<12:25:06><DEBUG>	 Found Guild Rank: Crafter", -- [1811]
-			"<12:25:08>[EU]<INFO>	 Enabled 1.0.1", -- [1812]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  pawn table: 0000021B6332D970", -- [1813]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  legendaries table: 0000021B6332D920", -- [1814]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  sockets table: 0000021B6332D9C0", -- [1815]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  spec table: 0000021B6332DA10", -- [1816]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  bonus table: 0000021B6332DA60", -- [1817]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021B6332D8D0", -- [1818]
-			"<12:25:08>[EU]<DEBUG>	 Doing col  covenant table: 0000021B6332D880", -- [1819]
-			"<12:25:08>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1820]
-			"<12:25:08>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1821]
-			"<12:25:08><DEBUG>	 GetML()", -- [1822]
-			"<12:25:52><INFO>	 Logged In", -- [1823]
-			"<12:25:52>[ML]<INFO>	 Init", -- [1824]
-			"<12:25:52><INFO>	 RCLootCouncil TradeUI enabled", -- [1825]
-			"<12:27:08><INFO>	 Logged In", -- [1826]
-			"<12:27:08>[ML]<INFO>	 Init", -- [1827]
-			"<12:27:08><INFO>	 RCLootCouncil TradeUI enabled", -- [1828]
-			"<12:27:29><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [1829]
-			"<12:27:29><DEBUG>	 ActivateSkin bfa", -- [1830]
-			"<12:27:33><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1831]
-			"<12:27:33><INFO>	 UpdatePlayersData()", -- [1832]
-			"<12:27:33><DEBUG>	 GetPlayersGuildRank()", -- [1833]
-			"<12:27:33><DEBUG>	 Found Guild Rank: Officer", -- [1834]
-			"<12:27:36>[EU]<INFO>	 Enabled 1.0.1", -- [1835]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  pawn table: 0000027A4A41E070", -- [1836]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  legendaries table: 0000027A4A41E020", -- [1837]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  sockets table: 0000027A4A41E0C0", -- [1838]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  spec table: 0000027A4A41E110", -- [1839]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  bonus table: 0000027A4A41E200", -- [1840]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027A4A41DFD0", -- [1841]
-			"<12:27:36>[EU]<DEBUG>	 Doing col  covenant table: 0000027A4A41DF80", -- [1842]
-			"<12:27:36>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1843]
-			"<12:27:36>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1844]
-			"<12:27:36><DEBUG>	 GetML()", -- [1845]
-			"<12:31:01><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1846]
-			"<12:31:02><DEBUG>	 GetML()", -- [1847]
-			"<12:31:02><DEBUG>	 Resetting council as we have a new ML!", -- [1848]
-			"<12:31:02><INFO>	 MasterLooter =  Samoanbatman-EmeraldDream", -- [1849]
-			"<12:31:17><DEBUG>	 Timer MLdb_check passed", -- [1850]
-			"<12:31:18><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoansage-EmeraldDream", -- [1851]
-			"<12:31:18><Comm>	 ^1^Sxrealm^T^N1^SSamoanbatman-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoansage-EmeraldDream", -- [1852]
-			"<12:35:12><INFO>	 Logged In", -- [1853]
-			"<12:35:12>[ML]<INFO>	 Init", -- [1854]
-			"<12:35:12><INFO>	 RCLootCouncil TradeUI enabled", -- [1855]
-			"<12:35:38><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1856]
-			"<12:35:38><DEBUG>	 ActivateSkin bfa", -- [1857]
-			"<12:35:44><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1858]
-			"<12:35:44><INFO>	 UpdatePlayersData()", -- [1859]
-			"<12:35:45><DEBUG>	 GetPlayersGuildRank()", -- [1860]
-			"<12:35:45><DEBUG>	 GetPlayersGuildRank()", -- [1861]
-			"<12:35:45><DEBUG>	 Found Guild Rank: Officer", -- [1862]
-			"<12:35:47>[EU]<INFO>	 Enabled 1.0.1", -- [1863]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  pawn table: 0000027A38BA4750", -- [1864]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  legendaries table: 0000027A38BA4700", -- [1865]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  sockets table: 0000027A38BA47A0", -- [1866]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  spec table: 0000027A38BA47F0", -- [1867]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  bonus table: 0000027A38BA4840", -- [1868]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027A38BA46B0", -- [1869]
-			"<12:35:47>[EU]<DEBUG>	 Doing col  covenant table: 0000027A38BA4660", -- [1870]
-			"<12:35:47>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1871]
-			"<12:35:47>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1872]
-			"<12:35:48><DEBUG>	 GetML()", -- [1873]
-			"<12:41:21><INFO>	 Logged In", -- [1874]
-			"<12:41:21>[ML]<INFO>	 Init", -- [1875]
-			"<12:41:21><INFO>	 RCLootCouncil TradeUI enabled", -- [1876]
-			"<12:41:43><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1877]
-			"<12:41:43><DEBUG>	 ActivateSkin bfa", -- [1878]
-			"<12:41:48><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1879]
-			"<12:41:48><INFO>	 UpdatePlayersData()", -- [1880]
-			"<12:41:52><DEBUG>	 GetPlayersGuildRank()", -- [1881]
-			"<12:41:52><DEBUG>	 GetPlayersGuildRank()", -- [1882]
-			"<12:41:52><DEBUG>	 GetPlayersGuildRank()", -- [1883]
-			"<12:41:52><DEBUG>	 Found Guild Rank: Officer", -- [1884]
-			"<12:41:53>[EU]<INFO>	 Enabled 1.0.1", -- [1885]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  pawn table: 0000027A6FE58440", -- [1886]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  legendaries table: 0000027A6FE583F0", -- [1887]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  sockets table: 0000027A6FE58490", -- [1888]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  spec table: 0000027A6FE584E0", -- [1889]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  bonus table: 0000027A6FE585D0", -- [1890]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027A6FE583A0", -- [1891]
-			"<12:41:53>[EU]<DEBUG>	 Doing col  covenant table: 0000027A6FE58350", -- [1892]
-			"<12:41:53>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1893]
-			"<12:41:53>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1894]
-			"<12:41:54><DEBUG>	 GetML()", -- [1895]
-			"<12:53:00><INFO>	 Logged In", -- [1896]
-			"<12:53:00>[ML]<INFO>	 Init", -- [1897]
-			"<12:53:00><INFO>	 RCLootCouncil TradeUI enabled", -- [1898]
-			"<12:53:12><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1899]
-			"<12:53:12><DEBUG>	 ActivateSkin bfa", -- [1900]
-			"<12:53:17><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1901]
-			"<12:53:17><INFO>	 UpdatePlayersData()", -- [1902]
-			"<12:53:17><DEBUG>	 GetPlayersGuildRank()", -- [1903]
-			"<12:53:17><DEBUG>	 Found Guild Rank: Officer", -- [1904]
-			"<12:53:17>[EU]<INFO>	 Enabled 1.0.1", -- [1905]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  pawn table: 0000027AA3E59510", -- [1906]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  legendaries table: 0000027AA3E59470", -- [1907]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  sockets table: 0000027AA3E595B0", -- [1908]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  spec table: 0000027AA3E59600", -- [1909]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  bonus table: 0000027AA3E59650", -- [1910]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027AA3E59380", -- [1911]
-			"<12:53:17>[EU]<DEBUG>	 Doing col  covenant table: 0000027AA3E592E0", -- [1912]
-			"<12:53:17>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1913]
-			"<12:53:17>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1914]
-			"<12:53:17><DEBUG>	 GetML()", -- [1915]
-			"<12:53:19><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoansavage-EmeraldDream", -- [1916]
-			"<12:54:25><INFO>	 Logged In", -- [1917]
-			"<12:54:25>[ML]<INFO>	 Init", -- [1918]
-			"<12:54:25><INFO>	 RCLootCouncil TradeUI enabled", -- [1919]
-			"<12:54:45><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1920]
-			"<12:54:45><DEBUG>	 ActivateSkin bfa", -- [1921]
-			"<12:54:50><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1922]
-			"<12:54:50><INFO>	 UpdatePlayersData()", -- [1923]
-			"<12:54:54><DEBUG>	 GetPlayersGuildRank()", -- [1924]
-			"<12:54:54><DEBUG>	 GetPlayersGuildRank()", -- [1925]
-			"<12:54:54><DEBUG>	 Found Guild Rank: Officer", -- [1926]
-			"<12:54:55>[EU]<INFO>	 Enabled 1.0.1", -- [1927]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  pawn table: 0000027A2AC82070", -- [1928]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  legendaries table: 0000027A2AC81FD0", -- [1929]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  sockets table: 0000027A2AC820C0", -- [1930]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  spec table: 0000027A2AC82160", -- [1931]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  bonus table: 0000027A2AC821B0", -- [1932]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027A2AC81F80", -- [1933]
-			"<12:54:55>[EU]<DEBUG>	 Doing col  covenant table: 0000027A2AC81EE0", -- [1934]
-			"<12:54:55>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1935]
-			"<12:54:55>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1936]
-			"<12:54:56><DEBUG>	 GetML()", -- [1937]
-			"<12:55:46><INFO>	 Logged In", -- [1938]
-			"<12:55:46>[ML]<INFO>	 Init", -- [1939]
-			"<12:55:46><INFO>	 RCLootCouncil TradeUI enabled", -- [1940]
-			"<12:55:58><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1941]
-			"<12:55:58><DEBUG>	 ActivateSkin bfa", -- [1942]
-			"<12:56:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1943]
-			"<12:56:03><INFO>	 UpdatePlayersData()", -- [1944]
-			"<12:56:04><DEBUG>	 GetPlayersGuildRank()", -- [1945]
-			"<12:56:04><DEBUG>	 Found Guild Rank: Officer", -- [1946]
-			"<12:56:04>[EU]<INFO>	 Enabled 1.0.1", -- [1947]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  pawn table: 0000027A4161A7C0", -- [1948]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  legendaries table: 0000027A4161A720", -- [1949]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  sockets table: 0000027A4161A810", -- [1950]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  spec table: 0000027A4161A860", -- [1951]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  bonus table: 0000027A4161A8B0", -- [1952]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  guildNotes table: 0000027A4161A770", -- [1953]
-			"<12:56:04>[EU]<DEBUG>	 Doing col  covenant table: 0000027A4161A6D0", -- [1954]
-			"<12:56:04>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1955]
-			"<12:56:04>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1956]
-			"<12:56:04><DEBUG>	 GetML()", -- [1957]
-			"<12:56:06><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoansavage-EmeraldDream", -- [1958]
-			"<13:03:20><INFO>	 Logged In", -- [1959]
-			"<13:03:20>[ML]<INFO>	 Init", -- [1960]
-			"<13:03:20><INFO>	 RCLootCouncil TradeUI enabled", -- [1961]
-			"<13:03:40><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1962]
-			"<13:03:40><DEBUG>	 ActivateSkin bfa", -- [1963]
-			"<13:03:45><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1964]
-			"<13:03:45><INFO>	 UpdatePlayersData()", -- [1965]
-			"<13:03:45><DEBUG>	 GetPlayersGuildRank()", -- [1966]
-			"<13:03:45><DEBUG>	 GetPlayersGuildRank()", -- [1967]
-			"<13:03:45><DEBUG>	 Found Guild Rank: Officer", -- [1968]
-			"<13:03:48>[EU]<INFO>	 Enabled 1.0.1", -- [1969]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  pawn table: 00000131E0886340", -- [1970]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  legendaries table: 00000131E08862F0", -- [1971]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  sockets table: 00000131E08863E0", -- [1972]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  spec table: 00000131E0886430", -- [1973]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  bonus table: 00000131E0886480", -- [1974]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  guildNotes table: 00000131E08862A0", -- [1975]
-			"<13:03:48>[EU]<DEBUG>	 Doing col  covenant table: 00000131E0886200", -- [1976]
-			"<13:03:48>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1977]
-			"<13:03:48>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1978]
-			"<13:03:49><DEBUG>	 GetML()", -- [1979]
-			"<13:06:05><INFO>	 Logged In", -- [1980]
-			"<13:06:05>[ML]<INFO>	 Init", -- [1981]
-			"<13:06:05><INFO>	 RCLootCouncil TradeUI enabled", -- [1982]
-			"<13:06:18><INFO>	 Samoansavage-EmeraldDream 3.1.5 nil", -- [1983]
-			"<13:06:18><DEBUG>	 ActivateSkin bfa", -- [1984]
-			"<13:06:23><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1985]
-			"<13:06:23><INFO>	 UpdatePlayersData()", -- [1986]
-			"<13:06:24><DEBUG>	 GetPlayersGuildRank()", -- [1987]
-			"<13:06:24><DEBUG>	 Found Guild Rank: Officer", -- [1988]
-			"<13:06:24>[EU]<INFO>	 Enabled 1.0.1", -- [1989]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  pawn table: 00000131B69C1EF0", -- [1990]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  legendaries table: 00000131B69C1E50", -- [1991]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  sockets table: 00000131B69C1F40", -- [1992]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  spec table: 00000131B69C2030", -- [1993]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  bonus table: 00000131B69C1FE0", -- [1994]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  guildNotes table: 00000131B69C1EA0", -- [1995]
-			"<13:06:24>[EU]<DEBUG>	 Doing col  covenant table: 00000131B69C1DB0", -- [1996]
-			"<13:06:24>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1997]
-			"<13:06:24>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1998]
-			"<13:06:25><DEBUG>	 GetML()", -- [1999]
-			"<13:06:26><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Samoansavage-EmeraldDream", -- [2000]
+			"<14:21:09><DEBUG>	 Resetting council as we have a new ML!", -- [1]
+			"<14:21:09><INFO>	 MasterLooter =  Mathwaffle-Suramar", -- [2]
+			"<14:21:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [3]
+			"<14:21:18><DEBUG>	 Timer MLdb_check passed", -- [4]
+			"<14:21:24><DEBUG>	 Timer MLdb_check passed", -- [5]
+			"<14:22:16><INFO>	 Logged In", -- [6]
+			"<14:22:16>[ML]<INFO>	 Init", -- [7]
+			"<14:22:16><INFO>	 RCLootCouncil TradeUI enabled", -- [8]
+			"<14:22:36><INFO>	 Samoanbeast-EmeraldDream 3.1.5 nil", -- [9]
+			"<14:22:36><DEBUG>	 ActivateSkin bfa", -- [10]
+			"<14:22:41><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [11]
+			"<14:22:41><INFO>	 UpdatePlayersData()", -- [12]
+			"<14:22:41><DEBUG>	 GetPlayersGuildRank()", -- [13]
+			"<14:22:42><DEBUG>	 GetPlayersGuildRank()", -- [14]
+			"<14:22:42><DEBUG>	 Found Guild Rank: Officer", -- [15]
+			"<14:22:43>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [16]
+			"<14:22:43>[EU]<INFO>	 Enabled 1.0.1", -- [17]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  pawn table: 00000219ADCC2C50", -- [18]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  legendaries table: 00000219ADCC24D0", -- [19]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  sockets table: 00000219ADCC2CA0", -- [20]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  spec table: 00000219ADCC2CF0", -- [21]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  bonus table: 00000219ADCC2D40", -- [22]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219ADCC2480", -- [23]
+			"<14:22:43>[EU]<DEBUG>	 Doing col  covenant table: 00000219ADCC23E0", -- [24]
+			"<14:22:43>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [25]
+			"<14:22:44><DEBUG>	 GetML()", -- [26]
+			"<14:22:49><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [27]
+			"<14:22:51><DEBUG>	 GetML()", -- [28]
+			"<14:22:51><DEBUG>	 Resetting council as we have a new ML!", -- [29]
+			"<14:22:51><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [30]
+			"<14:23:06><DEBUG>	 Timer MLdb_check passed", -- [31]
+			"<14:23:06><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoanbeast-EmeraldDream", -- [32]
+			"<14:23:06><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoanbeast-EmeraldDream", -- [33]
+			"<14:23:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [34]
+			"<14:23:29><DEBUG>	 GetML()", -- [35]
+			"<14:38:50><INFO>	 Logged In", -- [36]
+			"<14:38:50>[ML]<INFO>	 Init", -- [37]
+			"<14:38:50><INFO>	 RCLootCouncil TradeUI enabled", -- [38]
+			"<14:39:14><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [39]
+			"<14:39:14><DEBUG>	 ActivateSkin bfa", -- [40]
+			"<14:39:19><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [41]
+			"<14:39:19><INFO>	 UpdatePlayersData()", -- [42]
+			"<14:39:20><DEBUG>	 GetPlayersGuildRank()", -- [43]
+			"<14:39:20><DEBUG>	 GetPlayersGuildRank()", -- [44]
+			"<14:39:20><DEBUG>	 Found Guild Rank: Officer", -- [45]
+			"<14:39:22>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [46]
+			"<14:39:22>[EU]<INFO>	 Enabled 1.0.1", -- [47]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  pawn table: 0000021AB50ED8A0", -- [48]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  legendaries table: 0000021AB50ED850", -- [49]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  sockets table: 0000021AB50ED990", -- [50]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  spec table: 0000021AB50EDA30", -- [51]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  bonus table: 0000021AB50EDA80", -- [52]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021AB50ED6C0", -- [53]
+			"<14:39:22>[EU]<DEBUG>	 Doing col  covenant table: 0000021AB50ED710", -- [54]
+			"<14:39:22>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [55]
+			"<14:39:23><DEBUG>	 GetML()", -- [56]
+			"<14:39:23><DEBUG>	 Storage:New |cffa335ee|Hitem:178783::::::::60:264::16:5:7365:7359:6652:1508:6646:1:28:1279:::|h[Siphoning Phylactery Shard]|h|r temp restored table: 00000219B61707D0", -- [57]
+			"<14:39:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178783::::::::60:264::16:5:7365:7359:6652:1508:6646:1:28:1279:::||h[Siphoning Phylactery Shard]||h||r 5", -- [58]
+			"<14:39:23><DEBUG>	 Found item at 4 17", -- [59]
+			"<14:39:23><DEBUG>	 Found: 4 17 0", -- [60]
+			"<14:39:23><DEBUG>	 Storage:New |cffa335ee|Hitem:178745::::::::60:264::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Striders of Restless Malice]|h|r temp restored table: 00000219B6171860", -- [61]
+			"<14:39:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178745::::::::60:264::16:5:7367:7359:6652:1514:6646:1:28:1279:::||h[Striders of Restless Malice]||h||r 5", -- [62]
+			"<14:39:23><DEBUG>	 Found item at 4 24", -- [63]
+			"<14:39:23><DEBUG>	 Found: 4 24 0", -- [64]
+			"<14:39:23><DEBUG>	 Storage:New |cffa335ee|Hitem:179355::::::::60:264::33:6:7382:7359:6652:7194:1517:6646:1:28:1279:::|h[Death God's Signet]|h|r temp restored table: 00000219B6176AE0", -- [65]
+			"<14:39:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:179355::::::::60:264::33:6:7382:7359:6652:7194:1517:6646:1:28:1279:::||h[Death God's Signet]||h||r 5", -- [66]
+			"<14:39:23><DEBUG>	 Found item at 4 22", -- [67]
+			"<14:39:23><DEBUG>	 Found: 4 22 0", -- [68]
+			"<14:39:23><DEBUG>	 Storage:New |cffa335ee|Hitem:178870::::::::60:264::33:6:7381:7359:6652:7193:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r temp restored table: 00000219B6175780", -- [69]
+			"<14:39:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178870::::::::60:264::33:6:7381:7359:6652:7193:1514:6646:1:28:1279:::||h[Ritual Bone Band]||h||r 5", -- [70]
+			"<14:39:23><DEBUG>	 Found item at 4 21", -- [71]
+			"<14:39:23><DEBUG>	 Found: 4 21 0", -- [72]
+			"<14:39:23><DEBUG>	 Storage:New |cffa335ee|Hitem:180123::::::::60:264::33:5:7383:7359:6652:1521:6646:1:28:1279:::|h[Drape of Twisted Loyalties]|h|r temp restored table: 00000219B6175820", -- [73]
+			"<14:39:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:180123::::::::60:264::33:5:7383:7359:6652:1521:6646:1:28:1279:::||h[Drape of Twisted Loyalties]||h||r 5", -- [74]
+			"<14:39:23><DEBUG>	 Found item at 4 15", -- [75]
+			"<14:39:23><DEBUG>	 Found: 4 15 0", -- [76]
+			"<14:39:46><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [77]
+			"<14:39:48><DEBUG>	 GetML()", -- [78]
+			"<14:39:48><DEBUG>	 Resetting council as we have a new ML!", -- [79]
+			"<14:39:48><INFO>	 MasterLooter =  Samoansage-EmeraldDream", -- [80]
+			"<14:39:48>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [81]
+			"<14:39:48>[ML]<DEBUG>	 NewML Samoansage-EmeraldDream", -- [82]
+			"<14:39:48>[ML]<DEBUG>	 UpdateMLdb", -- [83]
+			"<14:39:48><INFO>	 OnMLDBReceived", -- [84]
+			"<14:39:48><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoansage-EmeraldDream", -- [85]
+			"<14:39:48><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [86]
+			"<14:39:48><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N216.375^N8^N264^t^^ PARTY Samoansage-EmeraldDream", -- [87]
+			"<14:39:50>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [88]
+			"<14:39:50><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [89]
+			"<14:39:50><DEBUG>	 isCouncil true", -- [90]
+			"<14:39:50><DEBUG>	 GetLootDBStatistics()", -- [91]
+			"<14:39:50><DEBUG>	 GetGuildRankNum()", -- [92]
+			"<14:39:50><INFO>	 RCVotingFrame enabled", -- [93]
+			"<14:39:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [94]
+			"<14:40:03><DEBUG>	 Timer MLdb_check passed", -- [95]
+			"<14:41:52><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002AAF43DD", -- [96]
+			"<14:41:52><DEBUG>	 GetML()", -- [97]
+			"<14:41:52><INFO>	 Stop handling loot", -- [98]
+			"<14:41:52>[ML]<INFO>	 Disabled", -- [99]
+			"<14:41:52><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [100]
+			"<14:41:52><Comm>	 ^1^SStopHandleLoot^T^t^^ WHISPER Samoansage-EmeraldDream", -- [101]
+			"<14:41:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [102]
+			"<14:41:54><DEBUG>	 GetML()", -- [103]
+			"<14:41:54><Data.Player>	 CreatePlayer Player-1428-096AE226", -- [104]
+			"<14:41:54><DEBUG>	 Resetting council as we have a new ML!", -- [105]
+			"<14:41:54><INFO>	 MasterLooter =  Lucanog-Quel'Thalas", -- [106]
+			"<14:42:09><DEBUG>	 Timer MLdb_check passed", -- [107]
+			"<14:42:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [108]
+			"<14:43:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [109]
+			"<14:43:03><DEBUG>	 GetML()", -- [110]
+			"<14:43:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [111]
+			"<14:43:27><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [112]
+			"<14:43:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [113]
+			"<14:43:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [114]
+			"<14:44:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [115]
+			"<14:44:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [116]
+			"<14:44:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [117]
+			"<14:44:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [118]
+			"<14:44:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [119]
+			"<14:45:10><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [120]
+			"<14:45:12><DEBUG>	 GetML()", -- [121]
+			"<14:45:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [122]
+			"<14:45:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [123]
+			"<14:45:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [124]
+			"<14:45:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [125]
+			"<14:45:26><DEBUG>	 GetML()", -- [126]
+			"<14:45:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [127]
+			"<14:45:40><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [128]
+			"<14:45:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [129]
+			"<14:46:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [130]
+			"<14:46:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [131]
+			"<14:46:38><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [132]
+			"<14:46:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [133]
+			"<14:47:06><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [134]
+			"<14:47:08><DEBUG>	 GetML()", -- [135]
+			"<14:47:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [136]
+			"<14:47:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [137]
+			"<14:47:26><DEBUG>	 GetML()", -- [138]
+			"<14:47:27><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [139]
+			"<14:47:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [140]
+			"<14:47:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [141]
+			"<14:47:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [142]
+			"<14:47:54><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [143]
+			"<14:47:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [144]
+			"<14:48:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [145]
+			"<14:48:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [146]
+			"<14:48:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [147]
+			"<14:48:14><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [148]
+			"<14:48:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [149]
+			"<14:48:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [150]
+			"<14:48:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [151]
+			"<14:48:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [152]
+			"<14:48:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [153]
+			"<14:48:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [154]
+			"<14:49:10><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [155]
+			"<14:49:15><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [156]
+			"<14:49:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [157]
+			"<14:49:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [158]
+			"<14:49:33><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [159]
+			"<14:49:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [160]
+			"<14:49:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [161]
+			"<14:50:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [162]
+			"<14:50:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [163]
+			"<14:50:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [164]
+			"<14:50:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [165]
+			"<14:50:26><DEBUG>	 GetML()", -- [166]
+			"<14:50:52><DEBUG>	 Event: RAID_INSTANCE_WELCOME Theater of Pain (Mythic) 151747 0 0", -- [167]
+			"<14:50:53><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [168]
+			"<14:50:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [169]
+			"<14:50:55><DEBUG>	 GetML()", -- [170]
+			"<14:50:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [171]
+			"<14:50:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [172]
+			"<14:51:01><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [173]
+			"<14:54:16><DEBUG>	 Event: ENCOUNTER_START 2391 An Affront of Challengers 8 5", -- [174]
+			"<14:54:16><INFO>	 UpdatePlayersData()", -- [175]
+			"<14:57:31><DEBUG>	 Event: ENCOUNTER_END 2391 An Affront of Challengers 8 5 1", -- [176]
+			"<15:04:46><DEBUG>	 Event: ENCOUNTER_START 2366 Xav the Unfallen 8 5", -- [177]
+			"<15:04:46><INFO>	 UpdatePlayersData()", -- [178]
+			"<15:06:53><DEBUG>	 Event: ENCOUNTER_END 2366 Xav the Unfallen 8 5 1", -- [179]
+			"<15:16:36><DEBUG>	 Event: ENCOUNTER_START 2364 Kul'tharok 8 5", -- [180]
+			"<15:16:36><INFO>	 UpdatePlayersData()", -- [181]
+			"<15:17:51><DEBUG>	 Event: ENCOUNTER_END 2364 Kul'tharok 8 5 0", -- [182]
+			"<15:18:19><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [183]
+			"<15:18:21><DEBUG>	 GetML()", -- [184]
+			"<15:18:21><DEBUG>	 Resetting council as we have a new ML!", -- [185]
+			"<15:18:21><INFO>	 MasterLooter =  Samoansage-EmeraldDream", -- [186]
+			"<15:18:21>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [187]
+			"<15:18:21>[ML]<DEBUG>	 NewML Samoansage-EmeraldDream", -- [188]
+			"<15:18:21>[ML]<DEBUG>	 UpdateMLdb", -- [189]
+			"<15:18:21><INFO>	 OnMLDBReceived", -- [190]
+			"<15:18:21><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoansage-EmeraldDream", -- [191]
+			"<15:18:21><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [192]
+			"<15:18:21><Comm>	 ^1^Sxrealm^T^N1^SSamoansage-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N216.375^N8^N264^t^^ PARTY Samoansage-EmeraldDream", -- [193]
+			"<15:18:23>[ML]<DEBUG>	 UpdateGroupCouncil Samoansage-EmeraldDream", -- [194]
+			"<15:18:23><Comm>	 ^1^Scouncil^T^N1^T^S162-0A01C9F2^B^t^t^^ PARTY Samoansage-EmeraldDream", -- [195]
+			"<15:18:23><DEBUG>	 isCouncil true", -- [196]
+			"<15:18:36><DEBUG>	 Timer MLdb_check passed", -- [197]
+			"<15:19:16><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [198]
+			"<15:19:19><DEBUG>	 GetML()", -- [199]
+			"<15:19:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [200]
+			"<15:19:26><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [201]
+			"<15:22:47><INFO>	 Logged In", -- [202]
+			"<15:22:47>[ML]<INFO>	 Init", -- [203]
+			"<15:22:47><INFO>	 RCLootCouncil TradeUI enabled", -- [204]
+			"<15:23:06><INFO>	 Samoanbeast-EmeraldDream 3.1.5 nil", -- [205]
+			"<15:23:06><DEBUG>	 ActivateSkin bfa", -- [206]
+			"<15:23:11><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [207]
+			"<15:23:11><INFO>	 UpdatePlayersData()", -- [208]
+			"<15:23:12><DEBUG>	 GetPlayersGuildRank()", -- [209]
+			"<15:23:12><DEBUG>	 Found Guild Rank: Officer", -- [210]
+			"<15:23:14>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [211]
+			"<15:23:14>[EU]<INFO>	 Enabled 1.0.1", -- [212]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  pawn table: 00000219ADB88C20", -- [213]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  legendaries table: 00000219ADB88BD0", -- [214]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  sockets table: 00000219ADB88C70", -- [215]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  spec table: 00000219ADB88CC0", -- [216]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  bonus table: 00000219ADB88D10", -- [217]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219ADB88B80", -- [218]
+			"<15:23:14>[EU]<DEBUG>	 Doing col  covenant table: 00000219ADB88B30", -- [219]
+			"<15:23:14>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [220]
+			"<15:23:15><DEBUG>	 GetML()", -- [221]
+			"<15:27:34><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [222]
+			"<15:27:36><DEBUG>	 GetML()", -- [223]
+			"<15:27:36><DEBUG>	 Resetting council as we have a new ML!", -- [224]
+			"<15:27:36><INFO>	 MasterLooter =  Samoanbeast-EmeraldDream", -- [225]
+			"<15:27:36>[ML]<DEBUG>	 UpdateGroupCouncil Samoanbeast-EmeraldDream", -- [226]
+			"<15:27:36>[ML]<DEBUG>	 NewML Samoanbeast-EmeraldDream", -- [227]
+			"<15:27:36>[ML]<DEBUG>	 UpdateMLdb", -- [228]
+			"<15:27:36><INFO>	 OnMLDBReceived", -- [229]
+			"<15:27:36><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoanbeast-EmeraldDream", -- [230]
+			"<15:27:36><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoanbeast-EmeraldDream", -- [231]
+			"<15:27:36><Comm>	 ^1^Sxrealm^T^N1^SSamoanbeast-EmeraldDream^N2^SpI^N3^STANK^N4^SOfficer^N6^N0^N7^N122.5625^N8^N104^t^^ PARTY Samoanbeast-EmeraldDream", -- [232]
+			"<15:27:38>[ML]<DEBUG>	 UpdateGroupCouncil Samoanbeast-EmeraldDream", -- [233]
+			"<15:27:38><Comm>	 ^1^Scouncil^T^N1^T^S162-0B166179^B^t^t^^ PARTY Samoanbeast-EmeraldDream", -- [234]
+			"<15:27:38><DEBUG>	 isCouncil true", -- [235]
+			"<15:27:38><DEBUG>	 GetLootDBStatistics()", -- [236]
+			"<15:27:38><DEBUG>	 GetGuildRankNum()", -- [237]
+			"<15:27:38><INFO>	 RCVotingFrame enabled", -- [238]
+			"<15:27:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [239]
+			"<15:27:52><DEBUG>	 Timer MLdb_check passed", -- [240]
+			"<15:27:54><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [241]
+			"<15:27:56><DEBUG>	 GetML()", -- [242]
+			"<15:27:58><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [243]
+			"<15:28:02><Comm>	 ^1^Sxrealm^T^N1^SSamoanbeast-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoanbatman-EmeraldDream", -- [244]
+			"<15:28:02><Comm>	 ^1^Sxrealm^T^N1^SSamoanbeast-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoanbatman-EmeraldDream", -- [245]
+			"<15:28:02>[ML]<DEBUG>	 UpdateGroupCouncil Samoanbeast-EmeraldDream", -- [246]
+			"<15:28:03><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoanbeast-EmeraldDream", -- [247]
+			"<15:28:03><Comm>	 ^1^Scouncil^T^N1^T^S162-0B166179^B^t^t^^ PARTY Samoanbeast-EmeraldDream", -- [248]
+			"<15:28:03><DEBUG>	 isCouncil true", -- [249]
+			"<15:28:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [250]
+			"<15:28:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [251]
+			"<15:28:53><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [252]
+			"<15:30:20><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [253]
+			"<15:30:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [254]
+			"<15:31:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [255]
+			"<15:32:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [256]
+			"<15:33:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [257]
+			"<15:33:30><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [258]
+			"<15:33:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [259]
+			"<15:33:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [260]
+			"<15:34:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [261]
+			"<15:34:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [262]
+			"<15:35:11><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [263]
+			"<15:35:30><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [264]
+			"<15:35:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [265]
+			"<15:35:40><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [266]
+			"<15:35:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [267]
+			"<15:36:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [268]
+			"<15:37:54><Comm>	 ^1^Sl^T^N1^S75964^t^^ PARTY Samoanbatman-EmeraldDream", -- [269]
+			"<15:37:54><Comm>	 ^1^Sl^T^N1^S75964^t^^ PARTY Samoanbatman-EmeraldDream", -- [270]
+			"<15:38:35><DEBUG>	 Event: RAID_INSTANCE_WELCOME Skyreach (Mythic) 148884 0 0", -- [271]
+			"<15:38:36><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [272]
+			"<15:38:36><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [273]
+			"<15:38:37><DEBUG>	 GetML()", -- [274]
+			"<15:38:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [275]
+			"<15:39:31><DEBUG>	 Event: ENCOUNTER_START 1699 Araknath 23 5", -- [276]
+			"<15:39:31><INFO>	 UpdatePlayersData()", -- [277]
+			"<15:39:32><DEBUG>	 Event: ENCOUNTER_END 1699 Araknath 23 5 1", -- [278]
+			"<15:39:35><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1699 110031 |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:2:28:1190:9:40:::|h[Spire of the Furious Construct]|h|r 1 Samoanbatman DEMONHUNTER", -- [279]
+			"<15:39:36><Comm>	 ^1^Sl^T^N1^S76141^t^^ PARTY Samoanbatman-EmeraldDream", -- [280]
+			"<15:39:36><Comm>	 ^1^Sl^T^N1^S76141^t^^ PARTY Samoanbatman-EmeraldDream", -- [281]
+			"<15:39:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [282]
+			"<15:39:52><DEBUG>	 TradeUI: Traded item(s) to Samoanbatman-EmeraldDream", -- [283]
+			"<15:39:52><DEBUG>	 TradeUI:Show() nil", -- [284]
+			"<15:39:52><DEBUG>	 TradeUI:Hide()", -- [285]
+			"<15:39:57><DEBUG>	 Event: LOOT_READY true", -- [286]
+			"<15:39:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3782-1209-31129-76141-00004FB50B 88546", -- [287]
+			"<15:39:57><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Spire of the Furious Construct]|h|r 4 1 Creature-0-3782-1209-31129-76141-00004FB50B 1", -- [288]
+			"<15:39:57><DEBUG>	 Event: LOOT_READY true", -- [289]
+			"<15:39:57><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3782-1209-31129-76141-00004FB50B 88546", -- [290]
+			"<15:39:57><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Spire of the Furious Construct]|h|r 4 1 Creature-0-3782-1209-31129-76141-00004FB50B 1", -- [291]
+			"<15:39:58><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [292]
+			"<15:39:58><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Spire of the Furious Construct]|h|r 4", -- [293]
+			"<15:39:58><DEBUG>	 Event: LOOT_CLOSED", -- [294]
+			"<15:39:58><DEBUG>	 Event: LOOT_CLOSED", -- [295]
+			"<15:39:58><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1699 110031 |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:2:28:1190:9:40:::|h[Spire of the Furious Construct]|h|r 1 Samoanbeast DRUID", -- [296]
+			"<15:39:58><Comm>	 ^1^Sl^T^N1^S76141^t^^ PARTY Samoanbeast-EmeraldDream", -- [297]
+			"<15:39:58><Comm>	 ^1^Sl^T^N1^S76141^t^^ PARTY Samoanbeast-EmeraldDream", -- [298]
+			"<15:40:00><DEBUG>	 Storage:New |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Spire of the Furious Construct]|h|r temp", -- [299]
+			"<15:40:00><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Spire of the Furious Construct]||h||r 5", -- [300]
+			"<15:40:00><DEBUG>	 Found: nil nil nil", -- [301]
+			"<15:40:01><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Spire of the Furious Construct]||h||r 5", -- [302]
+			"<15:40:01><DEBUG>	 Found: nil nil nil", -- [303]
+			"<15:40:02><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Spire of the Furious Construct]||h||r 5", -- [304]
+			"<15:40:02><DEBUG>	 Found: nil nil nil", -- [305]
+			"<15:40:03><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Spire of the Furious Construct]||h||r 5", -- [306]
+			"<15:40:03><DEBUG>	 Found: nil nil nil", -- [307]
+			"<15:40:03><ERROR>	 UpdateAndSendRecentTradableItem: |cffa335ee|Hitem:110031::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Spire of the Furious Construct]|h|r not found in bags", -- [308]
+			"<15:40:43><DEBUG>	 Event: ENCOUNTER_START 1700 Rukhran 23 5", -- [309]
+			"<15:40:43><INFO>	 UpdatePlayersData()", -- [310]
+			"<15:40:45><DEBUG>	 Event: ENCOUNTER_END 1700 Rukhran 23 5 1", -- [311]
+			"<15:40:52><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1700 109870 |cffa335ee|Hitem:109870::::::::60:104::23:2:4204:6652:2:28:274:9:40:::|h[Crystalbinder Wristguards]|h|r 1 Samoanbatman DEMONHUNTER", -- [312]
+			"<15:40:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1700 110006 |cffa335ee|Hitem:110006::::::::60:104::23:2:4204:6652:2:28:274:9:40:::|h[Rukhran's Quill]|h|r 1 Samoanbatman DEMONHUNTER", -- [313]
+			"<15:40:53><Comm>	 ^1^Sl^T^N1^S234165^t^^ PARTY Samoanbatman-EmeraldDream", -- [314]
+			"<15:40:53><Comm>	 ^1^Sl^T^N1^S234165^t^^ PARTY Samoanbatman-EmeraldDream", -- [315]
+			"<15:41:21><Comm>	 ^1^Sl^T^N1^S79093^t^^ PARTY Samoanbatman-EmeraldDream", -- [316]
+			"<15:41:21><Comm>	 ^1^Sl^T^N1^S79093^t^^ PARTY Samoanbatman-EmeraldDream", -- [317]
+			"<15:43:12><DEBUG>	 Event: ENCOUNTER_START 1701 High Sage Viryx 23 5", -- [318]
+			"<15:43:12><INFO>	 UpdatePlayersData()", -- [319]
+			"<15:43:14><DEBUG>	 Event: ENCOUNTER_END 1701 High Sage Viryx 23 5 1", -- [320]
+			"<15:43:17><DEBUG>	 Event: LOOT_READY true", -- [321]
+			"<15:43:17><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3782-1209-31129-76266-00004FB483 220127", -- [322]
+			"<15:43:17><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Viryx's Indomitable Bulwark]|h|r 4 1 Creature-0-3782-1209-31129-76266-00004FB483 1", -- [323]
+			"<15:43:17><DEBUG>	 Event: LOOT_READY true", -- [324]
+			"<15:43:17><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3782-1209-31129-76266-00004FB483 220127", -- [325]
+			"<15:43:17><DEBUG>	 Adding to self.lootSlotInfo 2 |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Viryx's Indomitable Bulwark]|h|r 4 1 Creature-0-3782-1209-31129-76266-00004FB483 1", -- [326]
+			"<15:43:18><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [327]
+			"<15:43:18><DEBUG>	 OnLootSlotCleared() 2 |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Viryx's Indomitable Bulwark]|h|r 4", -- [328]
+			"<15:43:18><DEBUG>	 Event: LOOT_CLOSED", -- [329]
+			"<15:43:18><DEBUG>	 Event: LOOT_CLOSED", -- [330]
+			"<15:43:18><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1701 110034 |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:2:28:1190:9:40:::|h[Viryx's Indomitable Bulwark]|h|r 1 Samoanbeast DRUID", -- [331]
+			"<15:43:18><Comm>	 ^1^Sl^T^N1^S76266^t^^ PARTY Samoanbeast-EmeraldDream", -- [332]
+			"<15:43:18><Comm>	 ^1^Sl^T^N1^S76266^t^^ PARTY Samoanbeast-EmeraldDream", -- [333]
+			"<15:43:20><DEBUG>	 Storage:New |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Viryx's Indomitable Bulwark]|h|r temp", -- [334]
+			"<15:43:20><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Viryx's Indomitable Bulwark]||h||r 5", -- [335]
+			"<15:43:20><DEBUG>	 Found: nil nil nil", -- [336]
+			"<15:43:21><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Viryx's Indomitable Bulwark]||h||r 5", -- [337]
+			"<15:43:21><DEBUG>	 Found: nil nil nil", -- [338]
+			"<15:43:21>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [339]
+			"<15:43:22><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Viryx's Indomitable Bulwark]||h||r 5", -- [340]
+			"<15:43:22><DEBUG>	 Found: nil nil nil", -- [341]
+			"<15:43:23><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::||h[Viryx's Indomitable Bulwark]||h||r 5", -- [342]
+			"<15:43:23><DEBUG>	 Found: nil nil nil", -- [343]
+			"<15:43:23><ERROR>	 UpdateAndSendRecentTradableItem: |cffa335ee|Hitem:110034::::::::60:104::23:2:4204:6652:1:28:1190:::|h[Viryx's Indomitable Bulwark]|h|r not found in bags", -- [344]
+			"<15:43:25><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1701 110033 |cffa335ee|Hitem:110033::::::::60:104::23:2:4204:6652:2:28:1190:9:40:::|h[Arcanic of the High Sage]|h|r 1 Samoanbatman DEMONHUNTER", -- [345]
+			"<15:43:26><Comm>	 ^1^Sl^T^N1^S76266^t^^ PARTY Samoanbatman-EmeraldDream", -- [346]
+			"<15:43:26><Comm>	 ^1^Sl^T^N1^S76266^t^^ PARTY Samoanbatman-EmeraldDream", -- [347]
+			"<15:43:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [348]
+			"<15:43:42><DEBUG>	 TradeUI: Traded item(s) to Samoanbatman-EmeraldDream", -- [349]
+			"<15:43:42><DEBUG>	 TradeUI:Hide()", -- [350]
+			"<15:45:16><Comm>	 ^1^Sl^T^N1^S280883^t^^ PARTY Samoanbatman-EmeraldDream", -- [351]
+			"<15:45:16><Comm>	 ^1^Sl^T^N1^S280883^t^^ PARTY Samoanbatman-EmeraldDream", -- [352]
+			"<15:46:09><DEBUG>	 Event: LOOT_READY true", -- [353]
+			"<15:46:09><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156727::::::::60:104::23::1:28:464:::|h[Green Crystal Monocle]|h|r 1 1 GameObject-0-3782-1209-31129-280883-00004FB6C0 1", -- [354]
+			"<15:46:10><DEBUG>	 Event: LOOT_READY true", -- [355]
+			"<15:46:10><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156727::::::::60:104::23::1:28:464:::|h[Green Crystal Monocle]|h|r 1 1 GameObject-0-3782-1209-31129-280883-00004FB6C0 1", -- [356]
+			"<15:46:10><DEBUG>	 OnLootSlotCleared() 1 |cffffffff|Hitem:156727::::::::60:104::23::1:28:464:::|h[Green Crystal Monocle]|h|r 1", -- [357]
+			"<15:46:10><DEBUG>	 Event: LOOT_CLOSED", -- [358]
+			"<15:46:10><DEBUG>	 Event: LOOT_CLOSED", -- [359]
+			"<15:46:10><Comm>	 ^1^Sl^T^N1^S280883^t^^ PARTY Samoanbeast-EmeraldDream", -- [360]
+			"<15:46:10><Comm>	 ^1^Sl^T^N1^S280883^t^^ PARTY Samoanbeast-EmeraldDream", -- [361]
+			"<15:47:09><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [362]
+			"<15:47:11><DEBUG>	 GetML()", -- [363]
+			"<15:47:12><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [364]
+			"<15:49:11><INFO>	 Logged In", -- [365]
+			"<15:49:11>[ML]<INFO>	 Init", -- [366]
+			"<15:49:11><INFO>	 RCLootCouncil TradeUI enabled", -- [367]
+			"<15:49:33><INFO>	 Samoantitan-Stormrage 3.1.5 nil", -- [368]
+			"<15:49:33><DEBUG>	 ActivateSkin bfa", -- [369]
+			"<15:49:41><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [370]
+			"<15:49:41><INFO>	 UpdatePlayersData()", -- [371]
+			"<15:49:41><DEBUG>	 GetPlayersGuildRank()", -- [372]
+			"<15:49:41><DEBUG>	 GetPlayersGuildRank()", -- [373]
+			"<15:49:41><DEBUG>	 Found Guild Rank: Mazda", -- [374]
+			"<15:49:47>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [375]
+			"<15:49:47>[EU]<INFO>	 Enabled 1.0.1", -- [376]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  pawn table: 00000219B6431540", -- [377]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  legendaries table: 00000219B64314F0", -- [378]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  sockets table: 00000219B6431590", -- [379]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  spec table: 00000219B64315E0", -- [380]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  bonus table: 00000219B6431630", -- [381]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219B64314A0", -- [382]
+			"<15:49:47>[EU]<DEBUG>	 Doing col  covenant table: 00000219B6431450", -- [383]
+			"<15:49:47>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [384]
+			"<15:49:47><DEBUG>	 GetML()", -- [385]
+			"<15:50:19><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [386]
+			"<15:50:21><DEBUG>	 GetML()", -- [387]
+			"<15:50:21><DEBUG>	 Resetting council as we have a new ML!", -- [388]
+			"<15:50:21><INFO>	 MasterLooter =  Samoantitan-Stormrage", -- [389]
+			"<15:50:21>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [390]
+			"<15:50:21>[ML]<DEBUG>	 NewML Samoantitan-Stormrage", -- [391]
+			"<15:50:21>[ML]<DEBUG>	 UpdateMLdb", -- [392]
+			"<15:50:21><INFO>	 OnMLDBReceived", -- [393]
+			"<15:50:21><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Samoantitan-Stormrage", -- [394]
+			"<15:50:21><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Samoantitan-Stormrage", -- [395]
+			"<15:50:21><Comm>	 ^1^Sxrealm^T^N1^SSamoantitan-Stormrage^N2^SpI^N3^STANK^N4^SMazda^N6^N0^N7^N99.25^N8^N66^t^^ PARTY Samoantitan-Stormrage", -- [396]
+			"<15:50:23>[ML]<DEBUG>	 UpdateGroupCouncil Samoantitan-Stormrage", -- [397]
+			"<15:50:23><Comm>	 ^1^Scouncil^T^N1^T^S60-0A6DF395^B^t^t^^ PARTY Samoantitan-Stormrage", -- [398]
+			"<15:50:23><DEBUG>	 isCouncil true", -- [399]
+			"<15:50:23><DEBUG>	 GetLootDBStatistics()", -- [400]
+			"<15:50:23><DEBUG>	 GetGuildRankNum()", -- [401]
+			"<15:50:23><INFO>	 RCVotingFrame enabled", -- [402]
+			"<15:50:36><DEBUG>	 Timer MLdb_check passed", -- [403]
+			"<15:54:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [404]
+			"<15:54:08><DEBUG>	 Event: LOOT_READY true", -- [405]
+			"<15:54:09><DEBUG>	 Event: LOOT_READY true", -- [406]
+			"<15:54:56><DEBUG>	 Event: LOOT_READY true", -- [407]
+			"<15:54:57><DEBUG>	 Event: LOOT_READY true", -- [408]
+			"<15:54:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [409]
+			"<15:59:21>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [410]
+			"<15:59:32><DEBUG>	 Event: LOOT_READY true", -- [411]
+			"<15:59:32><DEBUG>	 Event: LOOT_READY true", -- [412]
+			"<15:59:33>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [413]
+			"<15:59:39><DEBUG>	 Event: LOOT_READY true", -- [414]
+			"<15:59:40><DEBUG>	 Event: LOOT_READY true", -- [415]
+			"<16:00:23><DEBUG>	 Event: LOOT_READY true", -- [416]
+			"<16:00:23><DEBUG>	 Event: LOOT_READY true", -- [417]
+			"<16:00:40>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [418]
+			"<16:00:41><DEBUG>	 Event: LOOT_READY true", -- [419]
+			"<16:00:41><DEBUG>	 Event: LOOT_READY true", -- [420]
+			"<16:00:57><DEBUG>	 Event: LOOT_READY true", -- [421]
+			"<16:00:57><DEBUG>	 Event: LOOT_READY true", -- [422]
+			"<16:01:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [423]
+			"<16:01:40><DEBUG>	 Event: LOOT_READY true", -- [424]
+			"<16:01:40><DEBUG>	 Event: LOOT_READY true", -- [425]
+			"<16:02:47>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [426]
+			"<16:02:52><DEBUG>	 Event: LOOT_READY true", -- [427]
+			"<16:02:52><DEBUG>	 Event: LOOT_READY true", -- [428]
+			"<16:04:06>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [429]
+			"<16:04:31>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [430]
+			"<16:07:46>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [431]
+			"<16:07:50><DEBUG>	 Event: LOOT_READY true", -- [432]
+			"<16:07:51><DEBUG>	 Event: LOOT_READY true", -- [433]
+			"<16:08:09><DEBUG>	 Event: LOOT_READY true", -- [434]
+			"<16:08:09><DEBUG>	 Event: LOOT_READY true", -- [435]
+			"<16:08:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [436]
+			"<16:08:14><DEBUG>	 Event: LOOT_READY true", -- [437]
+			"<16:08:14><DEBUG>	 Event: LOOT_READY true", -- [438]
+			"<16:08:25><DEBUG>	 Event: LOOT_READY true", -- [439]
+			"<16:08:26><DEBUG>	 Event: LOOT_READY true", -- [440]
+			"<16:08:42><DEBUG>	 Event: LOOT_READY true", -- [441]
+			"<16:08:42><DEBUG>	 Event: LOOT_READY true", -- [442]
+			"<16:09:16>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [443]
+			"<16:09:16><DEBUG>	 Event: LOOT_READY true", -- [444]
+			"<16:09:16><DEBUG>	 Event: LOOT_READY true", -- [445]
+			"<16:13:29>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [446]
+			"<16:14:24>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [447]
+			"<16:14:51>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [448]
+			"<16:14:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [449]
+			"<16:21:22><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Xiuy-Stormrage", -- [450]
+			"<16:22:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [451]
+			"<16:22:34><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [452]
+			"<16:23:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [453]
+			"<16:25:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [454]
+			"<16:25:30><DEBUG>	 GetML()", -- [455]
+			"<16:25:32><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [456]
+			"<16:46:33><INFO>	 Logged In", -- [457]
+			"<16:46:33>[ML]<INFO>	 Init", -- [458]
+			"<16:46:33><INFO>	 RCLootCouncil TradeUI enabled", -- [459]
+			"<16:47:02><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [460]
+			"<16:47:02><DEBUG>	 ActivateSkin bfa", -- [461]
+			"<16:47:07><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [462]
+			"<16:47:07><INFO>	 UpdatePlayersData()", -- [463]
+			"<16:47:08><DEBUG>	 GetPlayersGuildRank()", -- [464]
+			"<16:47:08><DEBUG>	 GetPlayersGuildRank()", -- [465]
+			"<16:47:08><DEBUG>	 Found Guild Rank: Crafter", -- [466]
+			"<16:47:10>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [467]
+			"<16:47:10>[EU]<INFO>	 Enabled 1.0.1", -- [468]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  pawn table: 00000219B64095A0", -- [469]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  legendaries table: 00000219B6409500", -- [470]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  sockets table: 00000219B64095F0", -- [471]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  spec table: 00000219B6409640", -- [472]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  bonus table: 00000219B6409690", -- [473]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219B64094B0", -- [474]
+			"<16:47:10>[EU]<DEBUG>	 Doing col  covenant table: 00000219B6409370", -- [475]
+			"<16:47:10>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [476]
+			"<16:47:10><DEBUG>	 GetML()", -- [477]
+			"<16:58:34><INFO>	 Logged In", -- [478]
+			"<16:58:34>[ML]<INFO>	 Init", -- [479]
+			"<16:58:34><INFO>	 RCLootCouncil TradeUI enabled", -- [480]
+			"<16:58:49><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [481]
+			"<16:58:49><DEBUG>	 ActivateSkin bfa", -- [482]
+			"<16:58:54><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [483]
+			"<16:58:54><INFO>	 UpdatePlayersData()", -- [484]
+			"<16:58:59><DEBUG>	 GetPlayersGuildRank()", -- [485]
+			"<16:58:59><DEBUG>	 Found Guild Rank: Crafter", -- [486]
+			"<16:58:59>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [487]
+			"<16:58:59>[EU]<INFO>	 Enabled 1.0.1", -- [488]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  pawn table: 0000021A27CE6E30", -- [489]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  legendaries table: 0000021A27CE6DE0", -- [490]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  sockets table: 0000021A27CE6E80", -- [491]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  spec table: 0000021A27CE6ED0", -- [492]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  bonus table: 0000021A27CE6F20", -- [493]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021A27CE6D90", -- [494]
+			"<16:58:59>[EU]<DEBUG>	 Doing col  covenant table: 0000021A27CE6D40", -- [495]
+			"<16:58:59>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [496]
+			"<16:59:00><DEBUG>	 GetML()", -- [497]
+			"<16:59:01><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Threadcraft-EmeraldDream", -- [498]
+			"<17:02:47><INFO>	 Logged In", -- [499]
+			"<17:02:47>[ML]<INFO>	 Init", -- [500]
+			"<17:02:47><INFO>	 RCLootCouncil TradeUI enabled", -- [501]
+			"<17:03:02><INFO>	 Threadcraft-EmeraldDream 3.1.5 nil", -- [502]
+			"<17:03:02><DEBUG>	 ActivateSkin bfa", -- [503]
+			"<17:03:08><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [504]
+			"<17:03:08><INFO>	 UpdatePlayersData()", -- [505]
+			"<17:03:12><DEBUG>	 GetPlayersGuildRank()", -- [506]
+			"<17:03:12><DEBUG>	 Found Guild Rank: Crafter", -- [507]
+			"<17:03:13>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [508]
+			"<17:03:13>[EU]<INFO>	 Enabled 1.0.1", -- [509]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  pawn table: 00000219BE4506C0", -- [510]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  legendaries table: 00000219BE450670", -- [511]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  sockets table: 00000219BE450710", -- [512]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  spec table: 00000219BE450760", -- [513]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  bonus table: 00000219BE4507B0", -- [514]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219BE4505D0", -- [515]
+			"<17:03:13>[EU]<DEBUG>	 Doing col  covenant table: 00000219BE450580", -- [516]
+			"<17:03:13>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [517]
+			"<17:03:13><DEBUG>	 GetML()", -- [518]
+			"<17:03:14><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Threadcraft-EmeraldDream", -- [519]
+			"<17:08:49><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [520]
+			"<17:08:51><DEBUG>	 GetML()", -- [521]
+			"<17:09:35><DEBUG>	 Event: LOOT_READY true", -- [522]
+			"<17:09:35><DEBUG>	 Event: LOOT_READY true", -- [523]
+			"<17:09:39><DEBUG>	 Event: LOOT_READY true", -- [524]
+			"<17:09:40><DEBUG>	 Event: LOOT_READY true", -- [525]
+			"<17:09:44><DEBUG>	 Event: LOOT_READY true", -- [526]
+			"<17:09:44><DEBUG>	 Event: LOOT_READY true", -- [527]
+			"<17:09:50><DEBUG>	 Event: LOOT_READY true", -- [528]
+			"<17:09:50><DEBUG>	 Event: LOOT_READY true", -- [529]
+			"<17:12:15><DEBUG>	 Event: LOOT_READY true", -- [530]
+			"<17:12:16><DEBUG>	 Event: LOOT_READY true", -- [531]
+			"<17:12:23><DEBUG>	 Event: LOOT_READY true", -- [532]
+			"<17:12:23><DEBUG>	 Event: LOOT_READY true", -- [533]
+			"<17:12:28><DEBUG>	 Event: LOOT_READY true", -- [534]
+			"<17:12:28><DEBUG>	 Event: LOOT_READY true", -- [535]
+			"<17:12:34><DEBUG>	 Event: LOOT_READY true", -- [536]
+			"<17:12:34><DEBUG>	 Event: LOOT_READY true", -- [537]
+			"<17:12:39><DEBUG>	 Event: LOOT_READY true", -- [538]
+			"<17:12:39><DEBUG>	 Event: LOOT_READY true", -- [539]
+			"<17:12:45><DEBUG>	 Event: LOOT_READY true", -- [540]
+			"<17:12:46><DEBUG>	 Event: LOOT_READY true", -- [541]
+			"<17:12:49><DEBUG>	 Event: LOOT_READY true", -- [542]
+			"<17:12:50><DEBUG>	 Event: LOOT_READY true", -- [543]
+			"<17:12:53><DEBUG>	 Event: LOOT_READY true", -- [544]
+			"<17:12:54><DEBUG>	 Event: LOOT_READY true", -- [545]
+			"<17:13:47><DEBUG>	 Event: LOOT_READY true", -- [546]
+			"<17:13:48><DEBUG>	 Event: LOOT_READY true", -- [547]
+			"<17:13:53><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [548]
+			"<17:13:55><DEBUG>	 GetML()", -- [549]
+			"<17:13:55><DEBUG>	 Resetting council as we have a new ML!", -- [550]
+			"<17:13:55><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [551]
+			"<17:13:55><DEBUG>	 Event: LOOT_READY true", -- [552]
+			"<17:13:55><DEBUG>	 Event: LOOT_READY true", -- [553]
+			"<17:13:58><DEBUG>	 Event: LOOT_READY true", -- [554]
+			"<17:13:58><DEBUG>	 Event: LOOT_READY true", -- [555]
+			"<17:14:10><DEBUG>	 Timer MLdb_check passed", -- [556]
+			"<17:14:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Threadcraft-EmeraldDream", -- [557]
+			"<17:14:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Threadcraft-EmeraldDream", -- [558]
+			"<17:14:20><DEBUG>	 Event: LOOT_READY true", -- [559]
+			"<17:14:21><DEBUG>	 Event: LOOT_READY true", -- [560]
+			"<17:14:24><DEBUG>	 Event: LOOT_READY true", -- [561]
+			"<17:14:25><DEBUG>	 Event: LOOT_READY true", -- [562]
+			"<17:14:29><DEBUG>	 Event: LOOT_READY true", -- [563]
+			"<17:14:29><DEBUG>	 Event: LOOT_READY true", -- [564]
+			"<17:15:06><DEBUG>	 Event: LOOT_READY true", -- [565]
+			"<17:15:06><DEBUG>	 Event: LOOT_READY true", -- [566]
+			"<17:15:11><DEBUG>	 Event: LOOT_READY true", -- [567]
+			"<17:15:12><DEBUG>	 Event: LOOT_READY true", -- [568]
+			"<17:15:15><DEBUG>	 Event: LOOT_READY true", -- [569]
+			"<17:15:15><DEBUG>	 Event: LOOT_READY true", -- [570]
+			"<17:16:56><DEBUG>	 Event: LOOT_READY true", -- [571]
+			"<17:16:56><DEBUG>	 Event: LOOT_READY true", -- [572]
+			"<17:17:16><DEBUG>	 Event: LOOT_READY true", -- [573]
+			"<17:17:16><DEBUG>	 Event: LOOT_READY true", -- [574]
+			"<17:17:37><DEBUG>	 Event: LOOT_READY true", -- [575]
+			"<17:17:37><DEBUG>	 Event: LOOT_READY true", -- [576]
+			"<17:17:39><DEBUG>	 Event: LOOT_READY true", -- [577]
+			"<17:17:40><DEBUG>	 Event: LOOT_READY true", -- [578]
+			"<17:17:45><DEBUG>	 Event: LOOT_READY true", -- [579]
+			"<17:17:45><DEBUG>	 Event: LOOT_READY true", -- [580]
+			"<17:17:53><DEBUG>	 Event: LOOT_READY true", -- [581]
+			"<17:17:53><DEBUG>	 Event: LOOT_READY true", -- [582]
+			"<17:17:57><DEBUG>	 Event: LOOT_READY true", -- [583]
+			"<17:17:57><DEBUG>	 Event: LOOT_READY true", -- [584]
+			"<17:18:01><DEBUG>	 Event: LOOT_READY true", -- [585]
+			"<17:18:01><DEBUG>	 Event: LOOT_READY true", -- [586]
+			"<17:18:22><DEBUG>	 Event: LOOT_READY true", -- [587]
+			"<17:18:22><DEBUG>	 Event: LOOT_READY true", -- [588]
+			"<17:18:31><DEBUG>	 Event: LOOT_READY true", -- [589]
+			"<17:18:31><DEBUG>	 Event: LOOT_READY true", -- [590]
+			"<17:30:06><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [591]
+			"<17:30:09><DEBUG>	 GetML()", -- [592]
+			"<17:31:13><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [593]
+			"<17:31:16><DEBUG>	 GetML()", -- [594]
+			"<17:32:28><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [595]
+			"<17:32:31><DEBUG>	 GetML()", -- [596]
+			"<17:52:05><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [597]
+			"<17:52:05><DEBUG>	 TradeUI:Show() nil", -- [598]
+			"<17:52:05><DEBUG>	 TradeUI:Hide()", -- [599]
+			"<18:32:12><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [600]
+			"<18:32:15><DEBUG>	 GetML()", -- [601]
+			"<18:33:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [602]
+			"<18:33:16><DEBUG>	 GetML()", -- [603]
+			"<18:45:33><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoanlock-EmeraldDream", -- [604]
+			"<18:45:33><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoanlock-EmeraldDream", -- [605]
+			"<18:46:56><DEBUG>	 Event: RAID_INSTANCE_WELCOME Halls of Origination (Heroic) 51183 0 0", -- [606]
+			"<18:46:57><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [607]
+			"<18:47:00><DEBUG>	 GetML()", -- [608]
+			"<18:47:35><DEBUG>	 Event: ENCOUNTER_START 1080 Temple Guardian Anhuur 2 5", -- [609]
+			"<18:47:35><INFO>	 UpdatePlayersData()", -- [610]
+			"<18:47:35><DEBUG>	 Event: ENCOUNTER_END 1080 Temple Guardian Anhuur 2 5 1", -- [611]
+			"<18:47:42><DEBUG>	 Event: LOOT_READY true", -- [612]
+			"<18:47:42><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-48139-00014FE026 18239 Creature-0-3020-644-8837-48141-00024FE026 9477", -- [613]
+			"<18:47:42><DEBUG>	 Adding to self.lootSlotInfo 2 |cff1eff00|Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::|h[Dandred Waistband of the Peerless]|h|r 2 1 Creature-0-3020-644-8837-48141-00024FE026 1", -- [614]
+			"<18:47:42><DEBUG>	 Event: LOOT_READY true", -- [615]
+			"<18:47:42><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-48139-00014FE026 18239 Creature-0-3020-644-8837-48141-00024FE026 9477", -- [616]
+			"<18:47:42><DEBUG>	 Adding to self.lootSlotInfo 2 |cff1eff00|Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::|h[Dandred Waistband of the Peerless]|h|r 2 1 Creature-0-3020-644-8837-48141-00024FE026 1", -- [617]
+			"<18:47:43><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [618]
+			"<18:47:43><DEBUG>	 OnLootSlotCleared() 2 |cff1eff00|Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::|h[Dandred Waistband of the Peerless]|h|r 2", -- [619]
+			"<18:47:43><DEBUG>	 Event: LOOT_CLOSED", -- [620]
+			"<18:47:43><DEBUG>	 Event: LOOT_CLOSED", -- [621]
+			"<18:47:43><Comm>	 ^1^Sl^T^N1^S48141^t^^ PARTY Threadcraft-EmeraldDream", -- [622]
+			"<18:47:43><Comm>	 ^1^Sl^T^N1^S48141^t^^ PARTY Threadcraft-EmeraldDream", -- [623]
+			"<18:47:45><DEBUG>	 Storage:New |cff1eff00|Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::|h[Dandred Waistband of the Peerless]|h|r temp", -- [624]
+			"<18:47:45><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::||h[Dandred Waistband of the Peerless]||h||r 5", -- [625]
+			"<18:47:45><DEBUG>	 Found: nil nil nil", -- [626]
+			"<18:47:46><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::||h[Dandred Waistband of the Peerless]||h||r 5", -- [627]
+			"<18:47:46><DEBUG>	 Found: nil nil nil", -- [628]
+			"<18:47:47><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::||h[Dandred Waistband of the Peerless]||h||r 5", -- [629]
+			"<18:47:47><DEBUG>	 Found: nil nil nil", -- [630]
+			"<18:47:48><DEBUG>	 Storage: searching for item: ||cff1eff00||Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::||h[Dandred Waistband of the Peerless]||h||r 5", -- [631]
+			"<18:47:48><DEBUG>	 Found: nil nil nil", -- [632]
+			"<18:47:48><ERROR>	 UpdateAndSendRecentTradableItem: |cff1eff00|Hitem:55700::::::::60:63::2:2:6654:1688:1:28:1117:::|h[Dandred Waistband of the Peerless]|h|r not found in bags", -- [633]
+			"<18:48:10><DEBUG>	 Event: LOOT_READY true", -- [634]
+			"<18:48:10><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-39425-00004FE026 85222", -- [635]
+			"<18:48:10><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::|h[Anhuur's Hymnal]|h|r 3 1 Creature-0-3020-644-8837-39425-00004FE026 1", -- [636]
+			"<18:48:11><DEBUG>	 Event: LOOT_READY true", -- [637]
+			"<18:48:11><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-39425-00004FE026 85222", -- [638]
+			"<18:48:11><DEBUG>	 Adding to self.lootSlotInfo 2 |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::|h[Anhuur's Hymnal]|h|r 3 1 Creature-0-3020-644-8837-39425-00004FE026 1", -- [639]
+			"<18:48:11><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [640]
+			"<18:48:11><DEBUG>	 OnLootSlotCleared() 2 |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::|h[Anhuur's Hymnal]|h|r 3", -- [641]
+			"<18:48:11><DEBUG>	 Event: LOOT_CLOSED", -- [642]
+			"<18:48:11><DEBUG>	 Event: LOOT_CLOSED", -- [643]
+			"<18:48:11><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 1080 56407 |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:2:28:1117:9:35:::|h[Anhuur's Hymnal]|h|r 1 Threadcraft MAGE", -- [644]
+			"<18:48:11><Comm>	 ^1^Sl^T^N1^S39425^t^^ PARTY Threadcraft-EmeraldDream", -- [645]
+			"<18:48:11><Comm>	 ^1^Sl^T^N1^S39425^t^^ PARTY Threadcraft-EmeraldDream", -- [646]
+			"<18:48:13><DEBUG>	 Storage:New |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::|h[Anhuur's Hymnal]|h|r temp", -- [647]
+			"<18:48:13><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::||h[Anhuur's Hymnal]||h||r 5", -- [648]
+			"<18:48:13><DEBUG>	 Found: nil nil nil", -- [649]
+			"<18:48:14><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::||h[Anhuur's Hymnal]||h||r 5", -- [650]
+			"<18:48:14><DEBUG>	 Found: nil nil nil", -- [651]
+			"<18:48:15><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::||h[Anhuur's Hymnal]||h||r 5", -- [652]
+			"<18:48:15><DEBUG>	 Found: nil nil nil", -- [653]
+			"<18:48:16><DEBUG>	 Storage: searching for item: ||cff0070dd||Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::||h[Anhuur's Hymnal]||h||r 5", -- [654]
+			"<18:48:16><DEBUG>	 Found: nil nil nil", -- [655]
+			"<18:48:16><ERROR>	 UpdateAndSendRecentTradableItem: |cff0070dd|Hitem:56407::::::::60:63::2:1:4198:1:28:1117:::|h[Anhuur's Hymnal]|h|r not found in bags", -- [656]
+			"<18:48:16><Comm>	 ^1^Sl^T^N1^S39425^t^^ PARTY Samoanlock-EmeraldDream", -- [657]
+			"<18:48:16><Comm>	 ^1^Sl^T^N1^S39425^t^^ PARTY Samoanlock-EmeraldDream", -- [658]
+			"<18:48:34><DEBUG>	 Event: LOOT_READY true", -- [659]
+			"<18:48:34><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-48141-00004FE19E 17839", -- [660]
+			"<18:48:34><DEBUG>	 Event: LOOT_READY true", -- [661]
+			"<18:48:34><DEBUG>	 Adding to self.lootSlotInfo 1 nil 1 0 Creature-0-3020-644-8837-48141-00004FE19E 17839", -- [662]
+			"<18:48:35><DEBUG>	 OnLootSlotCleared() 1 nil 1", -- [663]
+			"<18:48:35><DEBUG>	 Event: LOOT_CLOSED", -- [664]
+			"<18:48:35><DEBUG>	 Event: LOOT_CLOSED", -- [665]
+			"<18:48:35><Comm>	 ^1^Sl^T^N1^S48141^t^^ PARTY Threadcraft-EmeraldDream", -- [666]
+			"<18:48:35><Comm>	 ^1^Sl^T^N1^S48141^t^^ PARTY Threadcraft-EmeraldDream", -- [667]
+			"<19:17:30><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Cupkek-EmeraldDream", -- [668]
+			"<19:17:30><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Cupkek-EmeraldDream", -- [669]
+			"<19:17:39><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [670]
+			"<19:17:41><DEBUG>	 GetML()", -- [671]
+			"<19:17:41><DEBUG>	 Resetting council as we have a new ML!", -- [672]
+			"<19:17:41><INFO>	 MasterLooter =  Threadcraft-EmeraldDream", -- [673]
+			"<19:17:41>[ML]<DEBUG>	 UpdateGroupCouncil Threadcraft-EmeraldDream", -- [674]
+			"<19:17:41>[ML]<DEBUG>	 NewML Threadcraft-EmeraldDream", -- [675]
+			"<19:17:41>[ML]<DEBUG>	 UpdateMLdb", -- [676]
+			"<19:17:41><INFO>	 OnMLDBReceived", -- [677]
+			"<19:17:41><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Threadcraft-EmeraldDream", -- [678]
+			"<19:17:41><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Threadcraft-EmeraldDream", -- [679]
+			"<19:17:42><Comm>	 ^1^Sxrealm^T^N1^SThreadcraft-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SMember^N6^N0^N7^N63.0625^N8^N266^t^^ PARTY Samoanlock-EmeraldDream", -- [680]
+			"<19:17:42><Data.Player>	 CreatePlayer Player-162-0A0114B2", -- [681]
+			"<19:17:42><Comm>	 ^1^Sxrealm^T^N1^SThreadcraft-EmeraldDream^N2^SpI^N3^SHEALER^N4^SOfficer^N6^N0^N7^N8.4375^N8^N105^t^^ PARTY Cupkek-EmeraldDream", -- [682]
+			"<19:17:42><Data.Player>	 CreatePlayer Player-162-0B2ABFFC", -- [683]
+			"<19:17:42><Comm>	 ^1^Sxrealm^T^N1^SThreadcraft-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SCrafter^N6^N0^N7^N143.5625^N8^N63^t^^ PARTY Threadcraft-EmeraldDream", -- [684]
+			"<19:17:43>[ML]<DEBUG>	 UpdateGroupCouncil Threadcraft-EmeraldDream", -- [685]
+			"<19:17:43><Comm>	 ^1^Scouncil^T^N1^T^S162-0B4FDB3C^B^t^t^^ PARTY Threadcraft-EmeraldDream", -- [686]
+			"<19:17:43><DEBUG>	 isCouncil true", -- [687]
+			"<19:17:43><DEBUG>	 GetLootDBStatistics()", -- [688]
+			"<19:17:43><DEBUG>	 GetGuildRankNum()", -- [689]
+			"<19:17:43><INFO>	 RCVotingFrame enabled", -- [690]
+			"<19:17:56><DEBUG>	 Timer MLdb_check passed", -- [691]
+			"<19:17:57><Comm>	 ^1^Sxrealm^T^N1^SThreadcraft-EmeraldDream^N2^SMLdb_request^t^^ PARTY Cupkek-EmeraldDream", -- [692]
+			"<19:17:57><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Threadcraft-EmeraldDream", -- [693]
+			"<19:28:30><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [694]
+			"<19:28:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [695]
+			"<20:10:45><DEBUG>	 Event: LOOT_READY true", -- [696]
+			"<20:10:45><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:63::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [697]
+			"<20:10:46><DEBUG>	 Event: LOOT_READY true", -- [698]
+			"<20:10:46><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:63::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [699]
+			"<20:10:46><DEBUG>	 OnLootSlotCleared() 1 |cffffffff|Hitem:156726::::::::60:63::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1", -- [700]
+			"<20:10:46><DEBUG>	 Event: LOOT_CLOSED", -- [701]
+			"<20:10:46><DEBUG>	 Event: LOOT_CLOSED", -- [702]
+			"<20:10:46><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Threadcraft-EmeraldDream", -- [703]
+			"<20:10:46><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Threadcraft-EmeraldDream", -- [704]
+			"<20:15:47><Comm>	 ^1^Sl^T^N1^S48139^t^^ PARTY Samoanlock-EmeraldDream", -- [705]
+			"<20:15:47><Comm>	 ^1^Sl^T^N1^S48139^t^^ PARTY Samoanlock-EmeraldDream", -- [706]
+			"<20:16:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [707]
+			"<20:16:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [708]
+			"<20:16:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [709]
+			"<20:17:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [710]
+			"<20:17:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [711]
+			"<20:17:45><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [712]
+			"<20:17:50><DEBUG>	 GetML()", -- [713]
+			"<20:17:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [714]
+			"<20:18:53><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Samoanlock-EmeraldDream", -- [715]
+			"<20:18:53><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Samoanlock-EmeraldDream", -- [716]
+			"<20:19:21><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [717]
+			"<20:20:11><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [718]
+			"<20:20:13><DEBUG>	 GetML()", -- [719]
+			"<20:20:13><INFO>	 Stop handling loot", -- [720]
+			"<20:20:13>[ML]<INFO>	 Disabled", -- [721]
+			"<20:20:13><DEBUG>	 Resetting council as we have a new ML!", -- [722]
+			"<20:20:13><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [723]
+			"<20:20:13><Comm>	 ^1^SStopHandleLoot^T^t^^ PARTY Threadcraft-EmeraldDream", -- [724]
+			"<20:20:28><DEBUG>	 Timer MLdb_check passed", -- [725]
+			"<20:21:17><INFO>	 Logged In", -- [726]
+			"<20:21:17>[ML]<INFO>	 Init", -- [727]
+			"<20:21:17><INFO>	 RCLootCouncil TradeUI enabled", -- [728]
+			"<20:21:45><INFO>	 Samoansage-EmeraldDream 3.1.5 nil", -- [729]
+			"<20:21:45><DEBUG>	 ActivateSkin bfa", -- [730]
+			"<20:21:52><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [731]
+			"<20:21:52><INFO>	 UpdatePlayersData()", -- [732]
+			"<20:21:53>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [733]
+			"<20:21:53>[EU]<INFO>	 Enabled 1.0.1", -- [734]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  pawn table: 0000021B05390B90", -- [735]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  legendaries table: 0000021B05390B40", -- [736]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  sockets table: 0000021B05390BE0", -- [737]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  spec table: 0000021B05390C80", -- [738]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  bonus table: 0000021B05390D20", -- [739]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021B05390AA0", -- [740]
+			"<20:21:53>[EU]<DEBUG>	 Doing col  covenant table: 0000021B05390A00", -- [741]
+			"<20:21:53>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [742]
+			"<20:21:56><DEBUG>	 GetPlayersGuildRank()", -- [743]
+			"<20:21:56><DEBUG>	 Found Guild Rank: Officer", -- [744]
+			"<20:21:59><DEBUG>	 GetML()", -- [745]
+			"<20:21:59><DEBUG>	 Storage:New |cffa335ee|Hitem:178783::::::::60:264::16:5:7365:7359:6652:1508:6646:1:28:1279:::|h[Siphoning Phylactery Shard]|h|r temp restored table: 000002192F6AF390", -- [746]
+			"<20:21:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178783::::::::60:264::16:5:7365:7359:6652:1508:6646:1:28:1279:::||h[Siphoning Phylactery Shard]||h||r 5", -- [747]
+			"<20:21:59><DEBUG>	 Found item at 4 17", -- [748]
+			"<20:21:59><DEBUG>	 Found: 4 17 0", -- [749]
+			"<20:21:59><DEBUG>	 Storage:New |cffa335ee|Hitem:178745::::::::60:264::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Striders of Restless Malice]|h|r temp restored table: 000002192F6AF930", -- [750]
+			"<20:21:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178745::::::::60:264::16:5:7367:7359:6652:1514:6646:1:28:1279:::||h[Striders of Restless Malice]||h||r 5", -- [751]
+			"<20:21:59><DEBUG>	 Found item at 4 24", -- [752]
+			"<20:21:59><DEBUG>	 Found: 4 24 0", -- [753]
+			"<20:21:59><DEBUG>	 Storage:New |cffa335ee|Hitem:179355::::::::60:264::33:6:7382:7359:6652:7194:1517:6646:1:28:1279:::|h[Death God's Signet]|h|r temp restored table: 000002192F6AFA20", -- [754]
+			"<20:21:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:179355::::::::60:264::33:6:7382:7359:6652:7194:1517:6646:1:28:1279:::||h[Death God's Signet]||h||r 5", -- [755]
+			"<20:21:59><DEBUG>	 Found item at 4 22", -- [756]
+			"<20:21:59><DEBUG>	 Found: 4 22 0", -- [757]
+			"<20:21:59><DEBUG>	 Storage:New |cffa335ee|Hitem:178870::::::::60:264::33:6:7381:7359:6652:7193:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r temp restored table: 000002192F6AFAC0", -- [758]
+			"<20:21:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:178870::::::::60:264::33:6:7381:7359:6652:7193:1514:6646:1:28:1279:::||h[Ritual Bone Band]||h||r 5", -- [759]
+			"<20:21:59><DEBUG>	 Found item at 4 21", -- [760]
+			"<20:21:59><DEBUG>	 Found: 4 21 0", -- [761]
+			"<20:21:59><DEBUG>	 Storage:New |cffa335ee|Hitem:180123::::::::60:264::33:5:7383:7359:6652:1521:6646:1:28:1279:::|h[Drape of Twisted Loyalties]|h|r temp restored table: 000002192F6B0380", -- [762]
+			"<20:21:59><DEBUG>	 Storage: searching for item: ||cffa335ee||Hitem:180123::::::::60:264::33:5:7383:7359:6652:1521:6646:1:28:1279:::||h[Drape of Twisted Loyalties]||h||r 5", -- [763]
+			"<20:21:59><DEBUG>	 Found item at 4 15", -- [764]
+			"<20:21:59><DEBUG>	 Found: 4 15 0", -- [765]
+			"<20:22:08><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [766]
+			"<20:22:09><DEBUG>	 GetML()", -- [767]
+			"<20:22:09><DEBUG>	 Resetting council as we have a new ML!", -- [768]
+			"<20:22:09><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [769]
+			"<20:22:24><DEBUG>	 Timer MLdb_check passed", -- [770]
+			"<20:22:25><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Samoansage-EmeraldDream", -- [771]
+			"<20:22:25><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Samoansage-EmeraldDream", -- [772]
+			"<20:22:50><DEBUG>	 Event: RAID_INSTANCE_WELCOME Halls of Origination (Heroic) 45429 0 0", -- [773]
+			"<20:22:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [774]
+			"<20:22:55><DEBUG>	 GetML()", -- [775]
+			"<20:23:08><DEBUG>	 Event: LOOT_READY true", -- [776]
+			"<20:23:08><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:264::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [777]
+			"<20:23:08><DEBUG>	 Event: LOOT_READY true", -- [778]
+			"<20:23:08><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:264::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [779]
+			"<20:23:09><DEBUG>	 OnLootSlotCleared() 1 |cffffffff|Hitem:156726::::::::60:264::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1", -- [780]
+			"<20:23:09><DEBUG>	 Event: LOOT_CLOSED", -- [781]
+			"<20:23:09><DEBUG>	 Event: LOOT_CLOSED", -- [782]
+			"<20:23:09><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Samoansage-EmeraldDream", -- [783]
+			"<20:23:09><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Samoansage-EmeraldDream", -- [784]
+			"<20:23:39><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [785]
+			"<20:23:39><DEBUG>	 Storage:RemoveItem |cffffffff|Hitem:27944::::::::60:264::14::1:28:870:::|h[Talisman of True Treasure Tracking]|h|r", -- [786]
+			"<20:23:39><ERROR>	 Couldn't remove item nil nil", -- [787]
+			"<20:23:39><DEBUG>	 TradeUI:Show() nil", -- [788]
+			"<20:23:39><DEBUG>	 TradeUI:Hide()", -- [789]
+			"<20:24:39><INFO>	 Logged In", -- [790]
+			"<20:24:39>[ML]<INFO>	 Init", -- [791]
+			"<20:24:39><INFO>	 RCLootCouncil TradeUI enabled", -- [792]
+			"<20:25:19><INFO>	 Forgecraft-EmeraldDream 3.1.5 nil", -- [793]
+			"<20:25:19><DEBUG>	 ActivateSkin bfa", -- [794]
+			"<20:25:26><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [795]
+			"<20:25:26><INFO>	 UpdatePlayersData()", -- [796]
+			"<20:25:28>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [797]
+			"<20:25:28>[EU]<INFO>	 Enabled 1.0.1", -- [798]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  pawn table: 00000219AFD4F980", -- [799]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  legendaries table: 00000219AFD4F930", -- [800]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  sockets table: 00000219AFD4F9D0", -- [801]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  spec table: 00000219AFD4FA70", -- [802]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  bonus table: 00000219AFD4FAC0", -- [803]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  guildNotes table: 00000219AFD4F8E0", -- [804]
+			"<20:25:28>[EU]<DEBUG>	 Doing col  covenant table: 00000219AFD4F890", -- [805]
+			"<20:25:28>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [806]
+			"<20:25:37><DEBUG>	 GetPlayersGuildRank()", -- [807]
+			"<20:25:37><DEBUG>	 GetPlayersGuildRank()", -- [808]
+			"<20:25:37><DEBUG>	 Found Guild Rank: Crafter", -- [809]
+			"<20:25:40><DEBUG>	 GetML()", -- [810]
+			"<20:25:53><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [811]
+			"<20:25:54><DEBUG>	 GetML()", -- [812]
+			"<20:25:54><DEBUG>	 Resetting council as we have a new ML!", -- [813]
+			"<20:25:54><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [814]
+			"<20:26:09><DEBUG>	 Timer MLdb_check passed", -- [815]
+			"<20:26:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Forgecraft-EmeraldDream", -- [816]
+			"<20:26:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Forgecraft-EmeraldDream", -- [817]
+			"<20:26:25><DEBUG>	 Event: RAID_INSTANCE_WELCOME Halls of Origination (Heroic) 45214 0 0", -- [818]
+			"<20:26:26><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [819]
+			"<20:26:31><DEBUG>	 GetML()", -- [820]
+			"<20:28:28><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [821]
+			"<20:28:28><DEBUG>	 TradeUI:Show() nil", -- [822]
+			"<20:28:28><DEBUG>	 TradeUI:Hide()", -- [823]
+			"<20:28:34><DEBUG>	 Event: LOOT_READY true", -- [824]
+			"<20:28:34><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:266::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [825]
+			"<20:28:35><DEBUG>	 Event: LOOT_READY true", -- [826]
+			"<20:28:35><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::60:266::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [827]
+			"<20:28:35><DEBUG>	 OnLootSlotCleared() 1 |cffffffff|Hitem:156726::::::::60:266::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1", -- [828]
+			"<20:28:35><DEBUG>	 Event: LOOT_CLOSED", -- [829]
+			"<20:28:35><DEBUG>	 Event: LOOT_CLOSED", -- [830]
+			"<20:28:35><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Forgecraft-EmeraldDream", -- [831]
+			"<20:28:35><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Forgecraft-EmeraldDream", -- [832]
+			"<20:28:42><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [833]
+			"<20:28:42><DEBUG>	 Storage:RemoveItem |cffffffff|Hitem:27944::::::::60:266::14::1:28:870:::|h[Talisman of True Treasure Tracking]|h|r", -- [834]
+			"<20:28:42><ERROR>	 Couldn't remove item nil nil", -- [835]
+			"<20:28:42><DEBUG>	 TradeUI:Hide()", -- [836]
+			"<20:29:05><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [837]
+			"<20:29:11><DEBUG>	 GetML()", -- [838]
+			"<20:29:48><INFO>	 Logged In", -- [839]
+			"<20:29:48>[ML]<INFO>	 Init", -- [840]
+			"<20:29:48><INFO>	 RCLootCouncil TradeUI enabled", -- [841]
+			"<20:30:19><INFO>	 Orecraft-EmeraldDream 3.1.5 nil", -- [842]
+			"<20:30:19><DEBUG>	 ActivateSkin bfa", -- [843]
+			"<20:30:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [844]
+			"<20:30:27><INFO>	 UpdatePlayersData()", -- [845]
+			"<20:30:28>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [846]
+			"<20:30:28>[EU]<INFO>	 Enabled 1.0.1", -- [847]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  pawn table: 0000021AE87DD770", -- [848]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  legendaries table: 0000021AE87DD540", -- [849]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  sockets table: 0000021AE87DD7C0", -- [850]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  spec table: 0000021AE87DD810", -- [851]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  bonus table: 0000021AE87DD860", -- [852]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021AE87DD4F0", -- [853]
+			"<20:30:28>[EU]<DEBUG>	 Doing col  covenant table: 0000021AE87DD4A0", -- [854]
+			"<20:30:28>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [855]
+			"<20:30:30><DEBUG>	 GetPlayersGuildRank()", -- [856]
+			"<20:30:31><DEBUG>	 GetPlayersGuildRank()", -- [857]
+			"<20:30:31><DEBUG>	 Found Guild Rank: Crafter", -- [858]
+			"<20:30:33><DEBUG>	 GetML()", -- [859]
+			"<20:30:53><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [860]
+			"<20:30:54><DEBUG>	 GetML()", -- [861]
+			"<20:30:54><DEBUG>	 Resetting council as we have a new ML!", -- [862]
+			"<20:30:54><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [863]
+			"<20:31:09><DEBUG>	 Timer MLdb_check passed", -- [864]
+			"<20:31:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Orecraft-EmeraldDream", -- [865]
+			"<20:31:10><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Orecraft-EmeraldDream", -- [866]
+			"<20:31:21><DEBUG>	 Event: RAID_INSTANCE_WELCOME Halls of Origination (Heroic) 44918 0 0", -- [867]
+			"<20:31:22><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [868]
+			"<20:31:26><DEBUG>	 GetML()", -- [869]
+			"<20:31:46><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [870]
+			"<20:31:46><DEBUG>	 TradeUI:Show() nil", -- [871]
+			"<20:31:46><DEBUG>	 TradeUI:Hide()", -- [872]
+			"<20:31:54><DEBUG>	 Event: LOOT_READY true", -- [873]
+			"<20:31:54><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::53:267::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [874]
+			"<20:31:55><DEBUG>	 Event: LOOT_READY true", -- [875]
+			"<20:31:55><DEBUG>	 Adding to self.lootSlotInfo 1 |cffffffff|Hitem:156726::::::::53:267::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1 1 GameObject-0-3020-644-8837-280886-00004FF0AA 1", -- [876]
+			"<20:31:55><DEBUG>	 OnLootSlotCleared() 1 |cffffffff|Hitem:156726::::::::53:267::2::1:28:464:::|h[Yellow Crystal Monocle]|h|r 1", -- [877]
+			"<20:31:55><DEBUG>	 Event: LOOT_CLOSED", -- [878]
+			"<20:31:55><DEBUG>	 Event: LOOT_CLOSED", -- [879]
+			"<20:31:55><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Orecraft-EmeraldDream", -- [880]
+			"<20:31:55><Comm>	 ^1^Sl^T^N1^S280886^t^^ PARTY Orecraft-EmeraldDream", -- [881]
+			"<20:32:04><DEBUG>	 TradeUI: Traded item(s) to Honustustere-EmeraldDream", -- [882]
+			"<20:32:04><DEBUG>	 Storage:RemoveItem |cffffffff|Hitem:27944::::::::53:267::14::1:28:870:::|h[Talisman of True Treasure Tracking]|h|r", -- [883]
+			"<20:32:04><ERROR>	 Couldn't remove item nil nil", -- [884]
+			"<20:32:04><DEBUG>	 TradeUI:Hide()", -- [885]
+			"<20:32:24><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [886]
+			"<20:32:29><DEBUG>	 GetML()", -- [887]
+			"<21:38:54><INFO>	 Logged In", -- [888]
+			"<21:38:54>[ML]<INFO>	 Init", -- [889]
+			"<21:38:54><INFO>	 RCLootCouncil TradeUI enabled", -- [890]
+			"<21:39:13><INFO>	 Orecraft-EmeraldDream 3.1.5 nil", -- [891]
+			"<21:39:13><DEBUG>	 ActivateSkin bfa", -- [892]
+			"<21:39:20><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [893]
+			"<21:39:20><INFO>	 UpdatePlayersData()", -- [894]
+			"<21:39:30><DEBUG>	 GetPlayersGuildRank()", -- [895]
+			"<21:39:30><DEBUG>	 Found Guild Rank: Crafter", -- [896]
+			"<21:39:30>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [897]
+			"<21:39:30>[EU]<INFO>	 Enabled 1.0.1", -- [898]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  pawn table: 0000021A4AE28AE0", -- [899]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  legendaries table: 0000021A4AE28A90", -- [900]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  sockets table: 0000021A4AE28B30", -- [901]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  spec table: 0000021A4AE28BD0", -- [902]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  bonus table: 0000021A4AE28C20", -- [903]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021A4AE289F0", -- [904]
+			"<21:39:30>[EU]<DEBUG>	 Doing col  covenant table: 0000021A4AE289A0", -- [905]
+			"<21:39:30>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [906]
+			"<21:39:30><DEBUG>	 GetML()", -- [907]
+			"<21:39:30><DEBUG>	 Resetting council as we have a new ML!", -- [908]
+			"<21:39:30><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [909]
+			"<21:39:32><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Orecraft-EmeraldDream", -- [910]
+			"<21:39:44><DEBUG>	 Timer MLdb_check passed", -- [911]
+			"<21:39:44><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Orecraft-EmeraldDream", -- [912]
+			"<21:39:44><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Orecraft-EmeraldDream", -- [913]
+			"<21:42:38><DEBUG>	 Event: LOOT_READY true", -- [914]
+			"<21:42:38><DEBUG>	 Event: LOOT_READY true", -- [915]
+			"<21:42:38><DEBUG>	 Event: LOOT_READY true", -- [916]
+			"<21:46:16><DEBUG>	 Event: LOOT_READY true", -- [917]
+			"<21:46:17><DEBUG>	 Event: LOOT_READY true", -- [918]
+			"<21:48:52><DEBUG>	 Event: LOOT_READY true", -- [919]
+			"<21:48:52><DEBUG>	 Event: LOOT_READY true", -- [920]
+			"<21:51:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [921]
+			"<21:51:20><DEBUG>	 GetML()", -- [922]
+			"<21:53:03><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [923]
+			"<21:53:05><DEBUG>	 GetML()", -- [924]
+			"<21:53:39><INFO>	 Logged In", -- [925]
+			"<21:53:39>[ML]<INFO>	 Init", -- [926]
+			"<21:53:39><INFO>	 RCLootCouncil TradeUI enabled", -- [927]
+			"<21:53:55><INFO>	 Orecraft-EmeraldDream 3.1.5 nil", -- [928]
+			"<21:53:55><DEBUG>	 ActivateSkin bfa", -- [929]
+			"<21:54:00><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [930]
+			"<21:54:00><INFO>	 UpdatePlayersData()", -- [931]
+			"<21:54:05><DEBUG>	 GetPlayersGuildRank()", -- [932]
+			"<21:54:05><DEBUG>	 Found Guild Rank: Crafter", -- [933]
+			"<21:54:05>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [934]
+			"<21:54:05>[EU]<INFO>	 Enabled 1.0.1", -- [935]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  pawn table: 0000021A713C6DE0", -- [936]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  legendaries table: 0000021A713C6E30", -- [937]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  sockets table: 0000021A713C6ED0", -- [938]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  spec table: 0000021A713C6F70", -- [939]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  bonus table: 0000021A713C6F20", -- [940]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  guildNotes table: 0000021A713C6D40", -- [941]
+			"<21:54:05>[EU]<DEBUG>	 Doing col  covenant table: 0000021A713C6D90", -- [942]
+			"<21:54:05>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [943]
+			"<21:54:06><DEBUG>	 GetML()", -- [944]
+			"<21:54:06><DEBUG>	 Resetting council as we have a new ML!", -- [945]
+			"<21:54:06><INFO>	 MasterLooter =  Honustustere-EmeraldDream", -- [946]
+			"<21:54:07><Comm>	 ^1^Sv^T^N1^S3.1.5^t^^ GUILD Orecraft-EmeraldDream", -- [947]
+			"<21:54:20><DEBUG>	 Timer MLdb_check passed", -- [948]
+			"<21:54:20><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^SMLdb_request^t^^ PARTY Orecraft-EmeraldDream", -- [949]
+			"<21:54:20><Comm>	 ^1^Sxrealm^T^N1^SHonustustere-EmeraldDream^N2^Scouncil_request^t^^ PARTY Orecraft-EmeraldDream", -- [950]
+			"<21:56:41><DEBUG>	 Event: LOOT_READY true", -- [951]
+			"<21:56:41><DEBUG>	 Event: LOOT_READY true", -- [952]
+			"<21:57:10><DEBUG>	 Event: LOOT_READY true", -- [953]
+			"<21:57:10><DEBUG>	 Event: LOOT_READY true", -- [954]
+			"<22:19:10><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [955]
+			"<22:19:12><DEBUG>	 GetML()", -- [956]
+			"<22:19:12><DEBUG>	 Resetting council as we have a new ML!", -- [957]
+			"<22:19:12><INFO>	 MasterLooter =  Orecraft-EmeraldDream", -- [958]
+			"<22:19:12>[ML]<DEBUG>	 UpdateGroupCouncil Orecraft-EmeraldDream", -- [959]
+			"<22:19:12>[ML]<DEBUG>	 NewML Orecraft-EmeraldDream", -- [960]
+			"<22:19:12>[ML]<DEBUG>	 UpdateMLdb", -- [961]
+			"<22:19:12><INFO>	 OnMLDBReceived", -- [962]
+			"<22:19:12><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Orecraft-EmeraldDream", -- [963]
+			"<22:19:12><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Orecraft-EmeraldDream", -- [964]
+			"<22:19:13><Comm>	 ^1^Sxrealm^T^N1^SOrecraft-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SCrafter^N6^N0^N7^N83.5^N8^N267^t^^ PARTY Orecraft-EmeraldDream", -- [965]
+			"<22:19:14>[ML]<DEBUG>	 UpdateGroupCouncil Orecraft-EmeraldDream", -- [966]
+			"<22:19:14><Comm>	 ^1^Scouncil^T^N1^T^S162-0B3AFCC7^B^t^t^^ PARTY Orecraft-EmeraldDream", -- [967]
+			"<22:19:14><DEBUG>	 isCouncil true", -- [968]
+			"<22:19:14><DEBUG>	 GetLootDBStatistics()", -- [969]
+			"<22:19:14><DEBUG>	 GetGuildRankNum()", -- [970]
+			"<22:19:14><INFO>	 RCVotingFrame enabled", -- [971]
+			"<22:19:27><DEBUG>	 Timer MLdb_check passed", -- [972]
+			"<22:21:04><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [973]
+			"<22:21:06><DEBUG>	 GetML()", -- [974]
+			"<22:21:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [975]
+			"<22:21:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [976]
+			"<22:21:43><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [977]
+			"<22:21:46><DEBUG>	 GetML()", -- [978]
+			"<22:21:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [979]
+			"<22:23:00><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [980]
+			"<22:23:03><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [981]
+			"<22:23:04><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [982]
+			"<22:23:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [983]
+			"<22:24:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [984]
+			"<22:26:18><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [985]
+			"<22:26:54>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [986]
+			"<22:26:55><DEBUG>	 Event: LOOT_READY true", -- [987]
+			"<22:26:55><DEBUG>	 Event: LOOT_READY true", -- [988]
+			"<22:27:40>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [989]
+			"<22:27:43><DEBUG>	 Event: LOOT_READY true", -- [990]
+			"<22:27:43><DEBUG>	 Event: LOOT_READY true", -- [991]
+			"<22:28:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [992]
+			"<22:28:16><DEBUG>	 Event: LOOT_READY true", -- [993]
+			"<22:28:16><DEBUG>	 Event: LOOT_READY true", -- [994]
+			"<22:28:31><DEBUG>	 Event: LOOT_READY true", -- [995]
+			"<22:28:31><DEBUG>	 Event: LOOT_READY true", -- [996]
+			"<22:29:00><DEBUG>	 Event: LOOT_READY true", -- [997]
+			"<22:29:00><DEBUG>	 Event: LOOT_READY true", -- [998]
+			"<22:29:16><DEBUG>	 Event: LOOT_READY true", -- [999]
+			"<22:29:16><DEBUG>	 Event: LOOT_READY true", -- [1000]
+			"<22:29:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1001]
+			"<22:30:20>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1002]
+			"<22:30:20><DEBUG>	 Event: LOOT_READY true", -- [1003]
+			"<22:30:21><DEBUG>	 Event: LOOT_READY true", -- [1004]
+			"<22:30:23><DEBUG>	 Event: LOOT_READY true", -- [1005]
+			"<22:30:24><DEBUG>	 Event: LOOT_READY true", -- [1006]
+			"<22:30:28>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1007]
+			"<22:30:29><DEBUG>	 Event: LOOT_READY true", -- [1008]
+			"<22:30:30><DEBUG>	 Event: LOOT_READY true", -- [1009]
+			"<22:30:46>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1010]
+			"<22:30:46><DEBUG>	 Event: LOOT_READY true", -- [1011]
+			"<22:30:46><DEBUG>	 Event: LOOT_READY true", -- [1012]
+			"<22:30:55>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1013]
+			"<22:31:26><DEBUG>	 Event: LOOT_READY true", -- [1014]
+			"<22:31:27><DEBUG>	 Event: LOOT_READY true", -- [1015]
+			"<22:31:27>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1016]
+			"<22:31:40><DEBUG>	 Event: LOOT_READY true", -- [1017]
+			"<22:31:40>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1018]
+			"<22:31:40><DEBUG>	 Event: LOOT_READY true", -- [1019]
+			"<22:32:16><DEBUG>	 Event: LOOT_READY true", -- [1020]
+			"<22:32:16><DEBUG>	 Event: LOOT_READY true", -- [1021]
+			"<22:32:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1022]
+			"<22:32:24><DEBUG>	 Event: LOOT_READY true", -- [1023]
+			"<22:32:25><DEBUG>	 Event: LOOT_READY true", -- [1024]
+			"<22:32:29><DEBUG>	 Event: LOOT_READY true", -- [1025]
+			"<22:32:30><DEBUG>	 Event: LOOT_READY true", -- [1026]
+			"<22:32:40><DEBUG>	 Event: LOOT_READY true", -- [1027]
+			"<22:32:40><DEBUG>	 Event: LOOT_READY true", -- [1028]
+			"<22:32:43><DEBUG>	 Event: LOOT_READY true", -- [1029]
+			"<22:32:43><DEBUG>	 Event: LOOT_READY true", -- [1030]
+			"<22:32:49><DEBUG>	 Event: LOOT_READY true", -- [1031]
+			"<22:32:49><DEBUG>	 Event: LOOT_READY true", -- [1032]
+			"<22:33:24><DEBUG>	 Event: LOOT_READY true", -- [1033]
+			"<22:33:25><DEBUG>	 Event: LOOT_READY true", -- [1034]
+			"<22:33:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1035]
+			"<22:33:32>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1036]
+			"<22:34:14>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1037]
+			"<22:35:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1038]
+			"<22:35:17><DEBUG>	 Event: LOOT_READY true", -- [1039]
+			"<22:35:18><DEBUG>	 Event: LOOT_READY true", -- [1040]
+			"<22:36:32><DEBUG>	 Event: LOOT_READY true", -- [1041]
+			"<22:36:32><DEBUG>	 Event: LOOT_READY true", -- [1042]
+			"<22:37:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1043]
+			"<22:37:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1044]
+			"<22:37:13><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1045]
+			"<22:39:46>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1046]
+			"<22:39:47><DEBUG>	 Event: LOOT_READY true", -- [1047]
+			"<22:39:47><DEBUG>	 Event: LOOT_READY true", -- [1048]
+			"<22:40:16><DEBUG>	 Event: LOOT_READY true", -- [1049]
+			"<22:40:16><DEBUG>	 Event: LOOT_READY true", -- [1050]
+			"<22:40:20>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1051]
+			"<22:40:51><DEBUG>	 Event: LOOT_READY true", -- [1052]
+			"<22:40:51><DEBUG>	 Event: LOOT_READY true", -- [1053]
+			"<22:40:53>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1054]
+			"<22:40:57><DEBUG>	 Event: LOOT_READY true", -- [1055]
+			"<22:40:57><DEBUG>	 Event: LOOT_READY true", -- [1056]
+			"<22:41:00><DEBUG>	 Event: LOOT_READY true", -- [1057]
+			"<22:41:00><DEBUG>	 Event: LOOT_READY true", -- [1058]
+			"<22:41:12><DEBUG>	 Event: LOOT_READY true", -- [1059]
+			"<22:41:12><DEBUG>	 Event: LOOT_READY true", -- [1060]
+			"<22:41:59><DEBUG>	 Event: LOOT_READY true", -- [1061]
+			"<22:42:00><DEBUG>	 Event: LOOT_READY true", -- [1062]
+			"<22:42:15><DEBUG>	 Event: LOOT_READY true", -- [1063]
+			"<22:42:15><DEBUG>	 Event: LOOT_READY true", -- [1064]
+			"<22:43:17>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1065]
+			"<22:43:18><DEBUG>	 Event: LOOT_READY true", -- [1066]
+			"<22:43:18><DEBUG>	 Event: LOOT_READY true", -- [1067]
+			"<22:45:01><DEBUG>	 Event: LOOT_READY true", -- [1068]
+			"<22:45:01><DEBUG>	 Event: LOOT_READY true", -- [1069]
+			"<22:45:04>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1070]
+			"<22:46:05><DEBUG>	 TradeUI: Traded item(s) to Badsmell-EmeraldDream", -- [1071]
+			"<22:46:05><DEBUG>	 TradeUI:Show() nil", -- [1072]
+			"<22:46:05><DEBUG>	 TradeUI:Hide()", -- [1073]
+			"<22:47:10>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1074]
+			"<22:47:11><DEBUG>	 Event: LOOT_READY true", -- [1075]
+			"<22:47:11><DEBUG>	 Event: LOOT_READY true", -- [1076]
+			"<22:47:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1077]
+			"<22:47:28><DEBUG>	 Event: LOOT_READY true", -- [1078]
+			"<22:47:28><DEBUG>	 Event: LOOT_READY true", -- [1079]
+			"<22:47:32><DEBUG>	 Event: LOOT_READY true", -- [1080]
+			"<22:47:33><DEBUG>	 Event: LOOT_READY true", -- [1081]
+			"<22:47:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1082]
+			"<22:48:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1083]
+			"<22:48:08><DEBUG>	 Event: LOOT_READY true", -- [1084]
+			"<22:48:09><DEBUG>	 Event: LOOT_READY true", -- [1085]
+			"<22:49:22><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1086]
+			"<22:49:42>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1087]
+			"<22:50:16>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1088]
+			"<22:50:30><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1089]
+			"<22:50:52>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1090]
+			"<22:50:57><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1091]
+			"<22:51:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1092]
+			"<22:51:24>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1093]
+			"<22:52:04><DEBUG>	 Event: LOOT_READY true", -- [1094]
+			"<22:52:04><DEBUG>	 Event: LOOT_READY true", -- [1095]
+			"<22:52:08>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1096]
+			"<22:52:10><DEBUG>	 Event: LOOT_READY true", -- [1097]
+			"<22:52:10><DEBUG>	 Event: LOOT_READY true", -- [1098]
+			"<22:52:16><DEBUG>	 Event: LOOT_READY true", -- [1099]
+			"<22:52:17><DEBUG>	 Event: LOOT_READY true", -- [1100]
+			"<22:52:28><DEBUG>	 Event: LOOT_READY true", -- [1101]
+			"<22:52:28><DEBUG>	 Event: LOOT_READY true", -- [1102]
+			"<22:52:47><DEBUG>	 Event: LOOT_READY true", -- [1103]
+			"<22:52:48><DEBUG>	 Event: LOOT_READY true", -- [1104]
+			"<22:53:09>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1105]
+			"<22:54:25><DEBUG>	 Event: LOOT_READY true", -- [1106]
+			"<22:54:26><DEBUG>	 Event: LOOT_READY true", -- [1107]
+			"<22:54:44><DEBUG>	 Event: LOOT_READY true", -- [1108]
+			"<22:54:44><DEBUG>	 Event: LOOT_READY true", -- [1109]
+			"<22:55:40>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1110]
+			"<22:56:29><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1111]
+			"<22:56:45><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1112]
+			"<22:57:01><DEBUG>	 Event: LOOT_READY true", -- [1113]
+			"<22:57:01><DEBUG>	 Event: LOOT_READY true", -- [1114]
+			"<22:58:31><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1115]
+			"<22:59:04>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1116]
+			"<23:00:22>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1117]
+			"<23:00:25><DEBUG>	 Event: LOOT_READY true", -- [1118]
+			"<23:00:26><DEBUG>	 Event: LOOT_READY true", -- [1119]
+			"<23:01:10>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1120]
+			"<23:01:11><DEBUG>	 Event: LOOT_READY true", -- [1121]
+			"<23:01:11><DEBUG>	 Event: LOOT_READY true", -- [1122]
+			"<23:01:42>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1123]
+			"<23:01:48><DEBUG>	 Event: LOOT_READY true", -- [1124]
+			"<23:01:48><DEBUG>	 Event: LOOT_READY true", -- [1125]
+			"<23:02:06><DEBUG>	 Event: LOOT_READY true", -- [1126]
+			"<23:02:06><DEBUG>	 Event: LOOT_READY true", -- [1127]
+			"<23:02:20><DEBUG>	 Event: LOOT_READY true", -- [1128]
+			"<23:02:20><DEBUG>	 Event: LOOT_READY true", -- [1129]
+			"<23:02:33><DEBUG>	 Event: LOOT_READY true", -- [1130]
+			"<23:02:34><DEBUG>	 Event: LOOT_READY true", -- [1131]
+			"<23:03:04><DEBUG>	 Event: LOOT_READY true", -- [1132]
+			"<23:03:04><DEBUG>	 Event: LOOT_READY true", -- [1133]
+			"<23:03:14>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1134]
+			"<23:03:17><DEBUG>	 Event: LOOT_READY true", -- [1135]
+			"<23:03:17><DEBUG>	 Event: LOOT_READY true", -- [1136]
+			"<23:03:22><DEBUG>	 Event: LOOT_READY true", -- [1137]
+			"<23:03:22><DEBUG>	 Event: LOOT_READY true", -- [1138]
+			"<23:04:13>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1139]
+			"<23:05:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1140]
+			"<23:05:14><DEBUG>	 Event: LOOT_READY true", -- [1141]
+			"<23:05:14><DEBUG>	 Event: LOOT_READY true", -- [1142]
+			"<23:10:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1143]
+			"<23:10:16><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1144]
+			"<23:10:17><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1145]
+			"<23:10:46><DEBUG>	 Event: GROUP_LEFT 1 Party-162-1-00002AAF89B0", -- [1146]
+			"<23:10:46><DEBUG>	 GetML()", -- [1147]
+			"<23:10:46><INFO>	 Stop handling loot", -- [1148]
+			"<23:10:46>[ML]<INFO>	 Disabled", -- [1149]
+			"<23:10:46><Comm>	 ^1^SStopHandleLoot^T^t^^ WHISPER Orecraft-EmeraldDream", -- [1150]
+			"<23:11:17><DEBUG>	 Event: LOOT_READY true", -- [1151]
+			"<23:11:17><DEBUG>	 Event: LOOT_READY true", -- [1152]
+			"<23:25:39><DEBUG>	 Event: PARTY_LEADER_CHANGED", -- [1153]
+			"<23:25:41><DEBUG>	 GetML()", -- [1154]
+			"<23:25:41><DEBUG>	 Resetting council as we have a new ML!", -- [1155]
+			"<23:25:41><INFO>	 MasterLooter =  Orecraft-EmeraldDream", -- [1156]
+			"<23:25:41>[ML]<DEBUG>	 UpdateGroupCouncil Orecraft-EmeraldDream", -- [1157]
+			"<23:25:41>[ML]<DEBUG>	 NewML Orecraft-EmeraldDream", -- [1158]
+			"<23:25:41>[ML]<DEBUG>	 UpdateMLdb", -- [1159]
+			"<23:25:41><INFO>	 OnMLDBReceived", -- [1160]
+			"<23:25:41><Comm>	 ^1^SplayerInfoRequest^T^t^^ PARTY Orecraft-EmeraldDream", -- [1161]
+			"<23:25:41><Comm>	 ^1^Smldb^T^N1^T^S|8^T^S|14^T^S|5^N3^t^t^S|12^N60^S|11^T^S|14^T^t^t^S|1^B^S|5^N3^S|2^B^t^t^^ PARTY Orecraft-EmeraldDream", -- [1162]
+			"<23:25:41><Comm>	 ^1^Sxrealm^T^N1^SOrecraft-EmeraldDream^N2^SpI^N3^SDAMAGER^N4^SCrafter^N6^N0^N7^N87.3125^N8^N267^t^^ PARTY Orecraft-EmeraldDream", -- [1163]
+			"<23:25:43>[ML]<DEBUG>	 UpdateGroupCouncil Orecraft-EmeraldDream", -- [1164]
+			"<23:25:43><Comm>	 ^1^Scouncil^T^N1^T^S162-0B3AFCC7^B^t^t^^ PARTY Orecraft-EmeraldDream", -- [1165]
+			"<23:25:43><DEBUG>	 isCouncil true", -- [1166]
+			"<23:25:43><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1167]
+			"<23:25:52><DEBUG>	 Event: LOOT_READY true", -- [1168]
+			"<23:25:53><DEBUG>	 Event: LOOT_READY true", -- [1169]
+			"<23:25:56><DEBUG>	 Timer MLdb_check passed", -- [1170]
+			"<23:27:01><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1171]
+			"<23:27:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1172]
+			"<23:28:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1173]
+			"<23:29:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1174]
+			"<23:29:38><DEBUG>	 Event: LOOT_READY true", -- [1175]
+			"<23:29:38><DEBUG>	 Event: LOOT_READY true", -- [1176]
+			"<23:30:28>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1177]
+			"<23:30:33><DEBUG>	 Event: LOOT_READY true", -- [1178]
+			"<23:30:33><DEBUG>	 Event: LOOT_READY true", -- [1179]
+			"<23:30:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1180]
+			"<23:31:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1181]
+			"<23:32:55><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1182]
+			"<23:33:47><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1183]
+			"<23:34:38>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1184]
+			"<23:35:07><DEBUG>	 Event: LOOT_READY true", -- [1185]
+			"<23:35:07><DEBUG>	 Event: LOOT_READY true", -- [1186]
+			"<23:36:18><DEBUG>	 Event: LOOT_READY true", -- [1187]
+			"<23:36:18><DEBUG>	 Event: LOOT_READY true", -- [1188]
+			"<23:36:27>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1189]
+			"<23:36:27><DEBUG>	 Event: LOOT_READY true", -- [1190]
+			"<23:36:27><DEBUG>	 Event: LOOT_READY true", -- [1191]
+			"<23:36:37><DEBUG>	 Event: LOOT_READY true", -- [1192]
+			"<23:36:38><DEBUG>	 Event: LOOT_READY true", -- [1193]
+			"<23:37:49><DEBUG>	 Event: LOOT_READY true", -- [1194]
+			"<23:37:49><DEBUG>	 Event: LOOT_READY true", -- [1195]
+			"<23:38:41><DEBUG>	 Event: LOOT_READY true", -- [1196]
+			"<23:38:41><DEBUG>	 Event: LOOT_READY true", -- [1197]
+			"<23:39:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1198]
+			"<23:40:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1199]
+			"<23:40:15><DEBUG>	 Event: LOOT_READY true", -- [1200]
+			"<23:40:15><DEBUG>	 Event: LOOT_READY true", -- [1201]
+			"<23:41:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1202]
+			"<23:43:44>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1203]
+			"<23:43:44><DEBUG>	 Event: LOOT_READY true", -- [1204]
+			"<23:43:45><DEBUG>	 Event: LOOT_READY true", -- [1205]
+			"<23:45:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1206]
+			"<23:48:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1207]
+			"<23:48:03><DEBUG>	 Event: LOOT_READY true", -- [1208]
+			"<23:48:03><DEBUG>	 Event: LOOT_READY true", -- [1209]
+			"<23:48:06><DEBUG>	 Event: LOOT_READY true", -- [1210]
+			"<23:48:07><DEBUG>	 Event: LOOT_READY true", -- [1211]
+			"<23:48:41>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1212]
+			"<23:48:42><DEBUG>	 Event: LOOT_READY true", -- [1213]
+			"<23:48:42><DEBUG>	 Event: LOOT_READY true", -- [1214]
+			"<23:48:52><DEBUG>	 Event: LOOT_READY true", -- [1215]
+			"<23:48:52><DEBUG>	 Event: LOOT_READY true", -- [1216]
+			"<23:49:24><DEBUG>	 Event: LOOT_READY true", -- [1217]
+			"<23:49:25>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1218]
+			"<23:49:25><DEBUG>	 Event: LOOT_READY true", -- [1219]
+			"<23:50:00>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1220]
+			"<23:50:09><DEBUG>	 Event: LOOT_READY true", -- [1221]
+			"<23:50:09><DEBUG>	 Event: LOOT_READY true", -- [1222]
+			"<23:50:13><DEBUG>	 Event: LOOT_READY true", -- [1223]
+			"<23:50:13><DEBUG>	 Event: LOOT_READY true", -- [1224]
+			"<23:50:49>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1225]
+			"<23:50:52><DEBUG>	 Event: LOOT_READY true", -- [1226]
+			"<23:50:52><DEBUG>	 Event: LOOT_READY true", -- [1227]
+			"<23:51:39>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1228]
+			"<23:51:42><DEBUG>	 Event: LOOT_READY true", -- [1229]
+			"<23:51:42><DEBUG>	 Event: LOOT_READY true", -- [1230]
+			"<23:51:43><DEBUG>	 Event: LOOT_READY true", -- [1231]
+			"<23:51:43><DEBUG>	 Event: LOOT_READY true", -- [1232]
+			"<23:51:48><DEBUG>	 Event: LOOT_READY true", -- [1233]
+			"<23:51:48><DEBUG>	 Event: LOOT_READY true", -- [1234]
+			"<23:52:39><DEBUG>	 Event: LOOT_READY true", -- [1235]
+			"<23:52:40><DEBUG>	 Event: LOOT_READY true", -- [1236]
+			"<23:52:45><DEBUG>	 Event: LOOT_READY true", -- [1237]
+			"<23:52:45><DEBUG>	 Event: LOOT_READY true", -- [1238]
+			"<23:52:48>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1239]
+			"<23:52:49><DEBUG>	 Event: LOOT_READY true", -- [1240]
+			"<23:52:49><DEBUG>	 Event: LOOT_READY true", -- [1241]
+			"<23:53:16>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1242]
+			"<23:53:17><DEBUG>	 Event: LOOT_READY true", -- [1243]
+			"<23:53:18><DEBUG>	 Event: LOOT_READY true", -- [1244]
+			"<23:54:06><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1245]
+			"<23:54:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1246]
+			"<23:56:24>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1247]
+			"<23:57:36>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1248]
+			"<23:58:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1249]
+			"<23:58:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1250]
+			"<23:58:35><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1251]
+			"<23:58:39><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1252]
+			"<00:01:40><DEBUG>	 Event: LOOT_READY true", -- [1253]
+			"<00:01:41><DEBUG>	 Event: LOOT_READY true", -- [1254]
+			"<00:01:58><DEBUG>	 Event: LOOT_READY true", -- [1255]
+			"<00:01:59><DEBUG>	 Event: LOOT_READY true", -- [1256]
+			"<00:02:14><DEBUG>	 Event: LOOT_READY true", -- [1257]
+			"<00:02:15><DEBUG>	 Event: LOOT_READY true", -- [1258]
+			"<00:03:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1259]
+			"<00:05:42>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1260]
+			"<00:10:20><DEBUG>	 Event: LOOT_READY true", -- [1261]
+			"<00:10:20><DEBUG>	 Event: LOOT_READY true", -- [1262]
+			"<00:10:27>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1263]
+			"<00:10:28><DEBUG>	 Event: LOOT_READY true", -- [1264]
+			"<00:10:28><DEBUG>	 Event: LOOT_READY true", -- [1265]
+			"<00:10:47>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1266]
+			"<00:11:00>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1267]
+			"<00:11:00><DEBUG>	 Event: LOOT_READY true", -- [1268]
+			"<00:11:01><DEBUG>	 Event: LOOT_READY true", -- [1269]
+			"<00:11:25><DEBUG>	 Event: LOOT_READY true", -- [1270]
+			"<00:11:25><DEBUG>	 Event: LOOT_READY true", -- [1271]
+			"<00:11:33>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1272]
+			"<00:11:34><DEBUG>	 Event: LOOT_READY true", -- [1273]
+			"<00:11:34><DEBUG>	 Event: LOOT_READY true", -- [1274]
+			"<00:12:48><DEBUG>	 Event: LOOT_READY true", -- [1275]
+			"<00:12:49><DEBUG>	 Event: LOOT_READY true", -- [1276]
+			"<00:12:58>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1277]
+			"<00:13:01><DEBUG>	 Event: LOOT_READY true", -- [1278]
+			"<00:13:01><DEBUG>	 Event: LOOT_READY true", -- [1279]
+			"<00:19:00><DEBUG>	 Event: LOOT_READY true", -- [1280]
+			"<00:19:01><DEBUG>	 Event: LOOT_READY true", -- [1281]
+			"<00:19:35>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1282]
+			"<00:19:36><DEBUG>	 Event: LOOT_READY true", -- [1283]
+			"<00:19:36><DEBUG>	 Event: LOOT_READY true", -- [1284]
+			"<00:19:36><DEBUG>	 Event: LOOT_READY true", -- [1285]
+			"<00:20:07>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1286]
+			"<00:20:12><DEBUG>	 Event: LOOT_READY true", -- [1287]
+			"<00:20:12><DEBUG>	 Event: LOOT_READY true", -- [1288]
+			"<00:20:37><DEBUG>	 Event: LOOT_READY true", -- [1289]
+			"<00:20:37><DEBUG>	 Event: LOOT_READY true", -- [1290]
+			"<00:20:46>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1291]
+			"<00:20:50><DEBUG>	 Event: LOOT_READY true", -- [1292]
+			"<00:20:50><DEBUG>	 Event: LOOT_READY true", -- [1293]
+			"<00:20:58><DEBUG>	 Event: LOOT_READY true", -- [1294]
+			"<00:20:58><DEBUG>	 Event: LOOT_READY true", -- [1295]
+			"<00:21:36>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1296]
+			"<00:21:37><DEBUG>	 Event: LOOT_READY true", -- [1297]
+			"<00:21:37><DEBUG>	 Event: LOOT_READY true", -- [1298]
+			"<00:23:51><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1299]
+			"<00:23:52><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1300]
+			"<00:24:30><DEBUG>	 Event: LOOT_READY true", -- [1301]
+			"<00:24:30><DEBUG>	 Event: LOOT_READY true", -- [1302]
+			"<00:24:39><DEBUG>	 Event: LOOT_READY true", -- [1303]
+			"<00:24:39>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1304]
+			"<00:24:39><DEBUG>	 Event: LOOT_READY true", -- [1305]
+			"<00:25:42>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1306]
+			"<00:25:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1307]
+			"<00:27:06>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1308]
+			"<00:27:45><DEBUG>	 Event: LOOT_READY true", -- [1309]
+			"<00:27:45><DEBUG>	 Event: LOOT_READY true", -- [1310]
+			"<00:27:48>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1311]
+			"<00:27:49><DEBUG>	 Event: LOOT_READY true", -- [1312]
+			"<00:27:49><DEBUG>	 Event: LOOT_READY true", -- [1313]
+			"<00:28:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1314]
+			"<00:28:08><DEBUG>	 Event: LOOT_READY true", -- [1315]
+			"<00:28:08><DEBUG>	 Event: LOOT_READY true", -- [1316]
+			"<00:29:47><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1317]
+			"<00:29:49><DEBUG>	 GetML()", -- [1318]
+			"<00:29:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1319]
+			"<00:30:56><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1320]
+			"<00:31:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1321]
+			"<00:31:39>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1322]
+			"<00:32:10>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1323]
+			"<00:32:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1324]
+			"<00:32:54>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1325]
+			"<00:33:01><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1326]
+			"<00:33:03>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1327]
+			"<00:33:04><DEBUG>	 GetML()", -- [1328]
+			"<00:33:05><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1329]
+			"<00:34:14>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1330]
+			"<00:35:04>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1331]
+			"<00:35:05><DEBUG>	 Event: LOOT_READY true", -- [1332]
+			"<00:35:05><DEBUG>	 Event: LOOT_READY true", -- [1333]
+			"<00:35:37><DEBUG>	 Event: LOOT_READY true", -- [1334]
+			"<00:35:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1335]
+			"<00:35:37><DEBUG>	 Event: LOOT_READY true", -- [1336]
+			"<00:36:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1337]
+			"<00:36:18><DEBUG>	 Event: LOOT_READY true", -- [1338]
+			"<00:36:18><DEBUG>	 Event: LOOT_READY true", -- [1339]
+			"<00:37:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1340]
+			"<00:37:31><DEBUG>	 Event: LOOT_READY true", -- [1341]
+			"<00:37:32><DEBUG>	 Event: LOOT_READY true", -- [1342]
+			"<00:38:04>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1343]
+			"<00:39:10>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1344]
+			"<00:40:55>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1345]
+			"<00:41:00><DEBUG>	 Event: LOOT_READY true", -- [1346]
+			"<00:41:01><DEBUG>	 Event: LOOT_READY true", -- [1347]
+			"<00:41:26><DEBUG>	 Event: LOOT_READY true", -- [1348]
+			"<00:41:26><DEBUG>	 Event: LOOT_READY true", -- [1349]
+			"<00:43:01>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1350]
+			"<00:43:02><DEBUG>	 Event: LOOT_READY true", -- [1351]
+			"<00:43:02><DEBUG>	 Event: LOOT_READY true", -- [1352]
+			"<00:44:09><DEBUG>	 Event: LOOT_READY true", -- [1353]
+			"<00:44:09>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1354]
+			"<00:44:09><DEBUG>	 Event: LOOT_READY true", -- [1355]
+			"<00:46:17>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1356]
+			"<00:46:18><DEBUG>	 Event: LOOT_READY true", -- [1357]
+			"<00:46:18><DEBUG>	 Event: LOOT_READY true", -- [1358]
+			"<00:47:48>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1359]
+			"<00:49:49>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1360]
+			"<00:49:53><DEBUG>	 Event: ENCOUNTER_LOOT_RECEIVED 0 171833 |cff0070dd|Hitem:171833::::::::54:267:::::::|h[Elethium Ore]|h|r 1 Badsmell DEMONHUNTER", -- [1361]
+			"<00:51:44><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1362]
+			"<00:52:41><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1363]
+			"<00:53:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1364]
+			"<00:53:19><DEBUG>	 Event: LOOT_READY true", -- [1365]
+			"<00:53:19><DEBUG>	 Event: LOOT_READY true", -- [1366]
+			"<00:54:09>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1367]
+			"<00:54:49><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1368]
+			"<00:54:59><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1369]
+			"<00:55:27><DEBUG>	 Event: LOOT_READY true", -- [1370]
+			"<00:55:27><DEBUG>	 Event: LOOT_READY true", -- [1371]
+			"<00:55:34>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1372]
+			"<00:55:44><DEBUG>	 Event: LOOT_READY true", -- [1373]
+			"<00:55:45><DEBUG>	 Event: LOOT_READY true", -- [1374]
+			"<00:56:28>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1375]
+			"<00:57:21><DEBUG>	 Event: LOOT_READY true", -- [1376]
+			"<00:57:22><DEBUG>	 Event: LOOT_READY true", -- [1377]
+			"<00:57:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1378]
+			"<00:57:51>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1379]
+			"<00:57:51><DEBUG>	 Event: LOOT_READY true", -- [1380]
+			"<00:57:52><DEBUG>	 Event: LOOT_READY true", -- [1381]
+			"<00:57:57><DEBUG>	 Event: LOOT_READY true", -- [1382]
+			"<00:57:57><DEBUG>	 Event: LOOT_READY true", -- [1383]
+			"<00:58:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1384]
+			"<00:59:14><DEBUG>	 Event: LOOT_READY true", -- [1385]
+			"<00:59:14><DEBUG>	 Event: LOOT_READY true", -- [1386]
+			"<00:59:34><DEBUG>	 Event: LOOT_READY true", -- [1387]
+			"<00:59:34><DEBUG>	 Event: LOOT_READY true", -- [1388]
+			"<00:59:49>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1389]
+			"<00:59:50><DEBUG>	 Event: LOOT_READY true", -- [1390]
+			"<00:59:50><DEBUG>	 Event: LOOT_READY true", -- [1391]
+			"<01:00:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1392]
+			"<01:00:13><DEBUG>	 Event: LOOT_READY true", -- [1393]
+			"<01:00:13><DEBUG>	 Event: LOOT_READY true", -- [1394]
+			"<01:00:51>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1395]
+			"<01:00:52><DEBUG>	 Event: LOOT_READY true", -- [1396]
+			"<01:00:52><DEBUG>	 Event: LOOT_READY true", -- [1397]
+			"<01:00:59><DEBUG>	 Event: LOOT_READY true", -- [1398]
+			"<01:00:59><DEBUG>	 Event: LOOT_READY true", -- [1399]
+			"<01:01:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1400]
+			"<01:01:16><DEBUG>	 Event: LOOT_READY true", -- [1401]
+			"<01:01:16><DEBUG>	 Event: LOOT_READY true", -- [1402]
+			"<01:01:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1403]
+			"<01:01:38><DEBUG>	 Event: LOOT_READY true", -- [1404]
+			"<01:01:38><DEBUG>	 Event: LOOT_READY true", -- [1405]
+			"<01:02:20>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1406]
+			"<01:02:27>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1407]
+			"<01:02:29><DEBUG>	 Event: LOOT_READY true", -- [1408]
+			"<01:02:29><DEBUG>	 Event: LOOT_READY true", -- [1409]
+			"<01:02:34><DEBUG>	 Event: LOOT_READY true", -- [1410]
+			"<01:02:34><DEBUG>	 Event: LOOT_READY true", -- [1411]
+			"<01:03:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1412]
+			"<01:04:08><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1413]
+			"<01:04:28><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1414]
+			"<01:05:19><DEBUG>	 Event: LOOT_READY true", -- [1415]
+			"<01:05:19><DEBUG>	 Event: LOOT_READY true", -- [1416]
+			"<01:06:38><DEBUG>	 Event: LOOT_READY true", -- [1417]
+			"<01:06:39>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1418]
+			"<01:06:39><DEBUG>	 Event: LOOT_READY true", -- [1419]
+			"<01:07:36>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1420]
+			"<01:07:37><DEBUG>	 Event: LOOT_READY true", -- [1421]
+			"<01:07:38><DEBUG>	 Event: LOOT_READY true", -- [1422]
+			"<01:07:43><DEBUG>	 Event: LOOT_READY true", -- [1423]
+			"<01:07:43><DEBUG>	 Event: LOOT_READY true", -- [1424]
+			"<01:07:53>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1425]
+			"<01:07:54><DEBUG>	 Event: LOOT_READY true", -- [1426]
+			"<01:07:54><DEBUG>	 Event: LOOT_READY true", -- [1427]
+			"<01:07:59><DEBUG>	 Event: LOOT_READY true", -- [1428]
+			"<01:08:00><DEBUG>	 Event: LOOT_READY true", -- [1429]
+			"<01:08:08><DEBUG>	 Event: LOOT_READY true", -- [1430]
+			"<01:08:08><DEBUG>	 Event: LOOT_READY true", -- [1431]
+			"<01:08:14><DEBUG>	 Event: LOOT_READY true", -- [1432]
+			"<01:08:14><DEBUG>	 Event: LOOT_READY true", -- [1433]
+			"<01:08:21><DEBUG>	 Event: LOOT_READY true", -- [1434]
+			"<01:08:21><DEBUG>	 Event: LOOT_READY true", -- [1435]
+			"<01:08:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1436]
+			"<01:08:26><DEBUG>	 Event: LOOT_READY true", -- [1437]
+			"<01:08:26><DEBUG>	 Event: LOOT_READY true", -- [1438]
+			"<01:08:50>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1439]
+			"<01:08:53><DEBUG>	 Event: LOOT_READY true", -- [1440]
+			"<01:08:53><DEBUG>	 Event: LOOT_READY true", -- [1441]
+			"<01:09:16>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1442]
+			"<01:09:26>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1443]
+			"<01:09:26><DEBUG>	 Event: LOOT_READY true", -- [1444]
+			"<01:09:27><DEBUG>	 Event: LOOT_READY true", -- [1445]
+			"<01:09:48>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1446]
+			"<01:10:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1447]
+			"<01:10:33>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1448]
+			"<01:10:35><DEBUG>	 Event: LOOT_READY true", -- [1449]
+			"<01:10:35><DEBUG>	 Event: LOOT_READY true", -- [1450]
+			"<01:10:37><DEBUG>	 Event: LOOT_READY true", -- [1451]
+			"<01:10:37><DEBUG>	 Event: LOOT_READY true", -- [1452]
+			"<01:10:44><DEBUG>	 Event: LOOT_READY true", -- [1453]
+			"<01:10:44><DEBUG>	 Event: LOOT_READY true", -- [1454]
+			"<01:11:02>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1455]
+			"<01:11:11>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1456]
+			"<01:11:28><DEBUG>	 Event: LOOT_READY true", -- [1457]
+			"<01:11:29><DEBUG>	 Event: LOOT_READY true", -- [1458]
+			"<01:11:30>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1459]
+			"<01:11:32><DEBUG>	 Event: LOOT_READY true", -- [1460]
+			"<01:11:32><DEBUG>	 Event: LOOT_READY true", -- [1461]
+			"<01:11:44>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1462]
+			"<01:11:48><DEBUG>	 Event: LOOT_READY true", -- [1463]
+			"<01:11:48><DEBUG>	 Event: LOOT_READY true", -- [1464]
+			"<01:12:03>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1465]
+			"<01:12:05><DEBUG>	 Event: LOOT_READY true", -- [1466]
+			"<01:12:06><DEBUG>	 Event: LOOT_READY true", -- [1467]
+			"<01:12:18>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1468]
+			"<01:12:20><DEBUG>	 Event: LOOT_READY true", -- [1469]
+			"<01:12:20><DEBUG>	 Event: LOOT_READY true", -- [1470]
+			"<01:12:33>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1471]
+			"<01:12:34><DEBUG>	 Event: LOOT_READY true", -- [1472]
+			"<01:12:34><DEBUG>	 Event: LOOT_READY true", -- [1473]
+			"<01:12:54><DEBUG>	 Event: LOOT_READY true", -- [1474]
+			"<01:12:55><DEBUG>	 Event: LOOT_READY true", -- [1475]
+			"<01:12:57><DEBUG>	 Event: LOOT_READY true", -- [1476]
+			"<01:12:58><DEBUG>	 Event: LOOT_READY true", -- [1477]
+			"<01:13:44><DEBUG>	 Event: LOOT_READY true", -- [1478]
+			"<01:13:44><DEBUG>	 Event: LOOT_READY true", -- [1479]
+			"<01:14:29>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1480]
+			"<01:14:33><DEBUG>	 Event: LOOT_READY true", -- [1481]
+			"<01:14:33><DEBUG>	 Event: LOOT_READY true", -- [1482]
+			"<01:14:33><DEBUG>	 Event: LOOT_READY true", -- [1483]
+			"<01:14:33><DEBUG>	 Event: LOOT_READY true", -- [1484]
+			"<01:14:33><DEBUG>	 Event: LOOT_READY true", -- [1485]
+			"<01:22:36>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1486]
+			"<01:24:59>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1487]
+			"<01:28:15>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1488]
+			"<01:29:09>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1489]
+			"<01:29:56>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1490]
+			"<01:30:22>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1491]
+			"<01:36:57>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1492]
+			"<01:36:59><DEBUG>	 Event: LOOT_READY true", -- [1493]
+			"<01:36:59><DEBUG>	 Event: LOOT_READY true", -- [1494]
+			"<01:37:13>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1495]
+			"<01:37:44>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1496]
+			"<01:37:50><DEBUG>	 Event: LOOT_READY true", -- [1497]
+			"<01:37:51><DEBUG>	 Event: LOOT_READY true", -- [1498]
+			"<01:38:43>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1499]
+			"<01:39:29>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1500]
+			"<01:40:05>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1501]
+			"<01:40:06><DEBUG>	 Event: LOOT_READY true", -- [1502]
+			"<01:40:06><DEBUG>	 Event: LOOT_READY true", -- [1503]
+			"<01:42:32><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1504]
+			"<01:43:02><DEBUG>	 Event: LOOT_READY true", -- [1505]
+			"<01:43:02><DEBUG>	 Event: LOOT_READY true", -- [1506]
+			"<01:43:09><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1507]
+			"<01:43:24><DEBUG>	 Event: LOOT_READY true", -- [1508]
+			"<01:43:25><DEBUG>	 Event: LOOT_READY true", -- [1509]
+			"<01:43:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1510]
+			"<01:43:38><DEBUG>	 Event: LOOT_READY true", -- [1511]
+			"<01:43:38><DEBUG>	 Event: LOOT_READY true", -- [1512]
+			"<01:44:17>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1513]
+			"<01:45:00>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1514]
+			"<01:45:37>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1515]
+			"<01:45:39><DEBUG>	 Event: LOOT_READY true", -- [1516]
+			"<01:45:40><DEBUG>	 Event: LOOT_READY true", -- [1517]
+			"<01:46:36><DEBUG>	 Event: LOOT_READY true", -- [1518]
+			"<01:46:36><DEBUG>	 Event: LOOT_READY true", -- [1519]
+			"<01:46:53>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1520]
+			"<01:46:58><DEBUG>	 Event: LOOT_READY true", -- [1521]
+			"<01:46:59><DEBUG>	 Event: LOOT_READY true", -- [1522]
+			"<01:47:54><DEBUG>	 Event: LOOT_READY true", -- [1523]
+			"<01:47:54>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1524]
+			"<01:47:54><DEBUG>	 Event: LOOT_READY true", -- [1525]
+			"<01:49:06>[ML]<DEBUG>	 ML event PLAYER_REGEN_ENABLED", -- [1526]
+			"<01:49:07><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1527]
+			"<01:49:19><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1528]
+			"<01:52:37><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1529]
+			"<01:52:48><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1530]
+			"<01:53:40><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1531]
+			"<01:53:46><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1532]
+			"<01:54:02><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1533]
+			"<01:55:18><DEBUG>	 Event: PLAYER_ENTERING_WORLD false false", -- [1534]
+			"<01:55:21><DEBUG>	 GetML()", -- [1535]
+			"<01:55:23><DEBUG>	 VotingFrame:Update() without lootTable!!", -- [1536]
+			"<01:46:34><INFO>	 Logged In", -- [1537]
+			"<01:46:34>[ML]<INFO>	 Init", -- [1538]
+			"<01:46:34><INFO>	 RCLootCouncil TradeUI enabled", -- [1539]
+			"<01:46:59><Data.Player>	 CreatePlayer Player-162-0B5D9755", -- [1540]
+			"<01:46:59><INFO>	 Samoanghost-EmeraldDream 3.1.5 nil", -- [1541]
+			"<01:46:59><DEBUG>	 ActivateSkin bfa", -- [1542]
+			"<01:47:05><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1543]
+			"<01:47:05><INFO>	 UpdatePlayersData()", -- [1544]
+			"<01:51:26><INFO>	 Logged In", -- [1545]
+			"<01:51:26>[ML]<INFO>	 Init", -- [1546]
+			"<01:51:26><INFO>	 RCLootCouncil TradeUI enabled", -- [1547]
+			"<01:51:46><INFO>	 Samoanghost-EmeraldDream 3.1.5 nil", -- [1548]
+			"<01:51:46><DEBUG>	 ActivateSkin bfa", -- [1549]
+			"<01:51:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1550]
+			"<01:51:51><INFO>	 UpdatePlayersData()", -- [1551]
+			"<02:38:17><INFO>	 Logged In", -- [1552]
+			"<02:38:17>[ML]<INFO>	 Init", -- [1553]
+			"<02:38:17><INFO>	 RCLootCouncil TradeUI enabled", -- [1554]
+			"<02:38:37><INFO>	 Samoanrelic-Stormrage 3.1.5 nil", -- [1555]
+			"<02:38:37><DEBUG>	 ActivateSkin bfa", -- [1556]
+			"<02:38:43><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1557]
+			"<02:38:43><INFO>	 UpdatePlayersData()", -- [1558]
+			"<02:38:43><DEBUG>	 GetPlayersGuildRank()", -- [1559]
+			"<02:38:43><DEBUG>	 Found Guild Rank: High Council", -- [1560]
+			"<02:38:45>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1561]
+			"<02:38:45>[EU]<INFO>	 Enabled 1.0.1", -- [1562]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  pawn table: 00000190A9E77E40", -- [1563]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  legendaries table: 00000190A9E77DF0", -- [1564]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  sockets table: 00000190A9E77E90", -- [1565]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  spec table: 00000190A9E77F30", -- [1566]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  bonus table: 00000190A9E77F80", -- [1567]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  guildNotes table: 00000190A9E77D50", -- [1568]
+			"<02:38:45>[EU]<DEBUG>	 Doing col  covenant table: 00000190A9E77D00", -- [1569]
+			"<02:38:45>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1570]
+			"<02:38:46><DEBUG>	 GetML()", -- [1571]
+			"<02:56:54><INFO>	 Logged In", -- [1572]
+			"<02:56:54>[ML]<INFO>	 Init", -- [1573]
+			"<02:56:54><INFO>	 RCLootCouncil TradeUI enabled", -- [1574]
+			"<02:57:09><Data.Player>	 CreatePlayer Player-162-0B5D9797", -- [1575]
+			"<02:57:09><INFO>	 Samoanghost-EmeraldDream 3.1.5 nil", -- [1576]
+			"<02:57:09><DEBUG>	 ActivateSkin bfa", -- [1577]
+			"<02:57:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1578]
+			"<02:57:14><INFO>	 UpdatePlayersData()", -- [1579]
+			"<02:58:10>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1580]
+			"<02:58:10>[EU]<INFO>	 Enabled 1.0.1", -- [1581]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  pawn table: 00000190D06B9580", -- [1582]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  legendaries table: 00000190D06B92B0", -- [1583]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  sockets table: 00000190D06B9620", -- [1584]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  spec table: 00000190D06B9800", -- [1585]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  bonus table: 00000190D06B9850", -- [1586]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  guildNotes table: 00000190D06B9260", -- [1587]
+			"<02:58:10>[EU]<DEBUG>	 Doing col  covenant table: 00000190D06B8FE0", -- [1588]
+			"<02:58:10>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1589]
+			"<02:58:11><DEBUG>	 GetML()", -- [1590]
+			"<02:59:23><INFO>	 Logged In", -- [1591]
+			"<02:59:23>[ML]<INFO>	 Init", -- [1592]
+			"<02:59:23><INFO>	 RCLootCouncil TradeUI enabled", -- [1593]
+			"<02:59:37><INFO>	 Samoanghost-EmeraldDream 3.1.5 nil", -- [1594]
+			"<02:59:37><DEBUG>	 ActivateSkin bfa", -- [1595]
+			"<02:59:43><DEBUG>	 Event: PLAYER_ENTERING_WORLD false true", -- [1596]
+			"<02:59:43><INFO>	 UpdatePlayersData()", -- [1597]
+			"<02:59:51>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1598]
+			"<02:59:51>[EU]<INFO>	 Enabled 1.0.1", -- [1599]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  pawn table: 00000190DB010350", -- [1600]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  legendaries table: 00000190DB0103A0", -- [1601]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  sockets table: 00000190DB010440", -- [1602]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  spec table: 00000190DB0103F0", -- [1603]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  bonus table: 00000190DB010AD0", -- [1604]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  guildNotes table: 00000190DB010300", -- [1605]
+			"<02:59:51>[EU]<DEBUG>	 Doing col  covenant table: 00000190DB0102B0", -- [1606]
+			"<02:59:51>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1607]
+			"<02:59:51><DEBUG>	 GetML()", -- [1608]
+			"<13:59:37><INFO>	 Logged In", -- [1609]
+			"<13:59:37>[ML]<INFO>	 Init", -- [1610]
+			"<13:59:37><INFO>	 RCLootCouncil TradeUI enabled", -- [1611]
+			"<14:00:09><Data.Player>	 CreatePlayer Player-3725-0BF9E511", -- [1612]
+			"<14:00:09><INFO>	 Samoanghost-Frostmourne 3.1.5 nil", -- [1613]
+			"<14:00:09><DEBUG>	 ActivateSkin bfa", -- [1614]
+			"<14:00:15><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1615]
+			"<14:00:15><INFO>	 UpdatePlayersData()", -- [1616]
+			"<14:00:43>[GG]<INFO>	 GroupGear 2.0.1 enabled", -- [1617]
+			"<14:00:43>[EU]<INFO>	 Enabled 1.0.1", -- [1618]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  pawn table: 000001FFCF82B2C0", -- [1619]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  legendaries table: 000001FFCF82A5F0", -- [1620]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  sockets table: 000001FFCF82B310", -- [1621]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  spec table: 000001FFCF82B360", -- [1622]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  bonus table: 000001FFCF82B3B0", -- [1623]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  guildNotes table: 000001FFCF82A5A0", -- [1624]
+			"<14:00:43>[EU]<DEBUG>	 Doing col  covenant table: 000001FFCF82A050", -- [1625]
+			"<14:00:43>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1626]
+			"<14:00:44><DEBUG>	 GetML()", -- [1627]
+			"<21:10:04><INFO>	 Logged In", -- [1628]
+			"<21:10:04>[ML]<INFO>	 Init", -- [1629]
+			"<21:10:04><INFO>	 RCLootCouncil TradeUI enabled", -- [1630]
+			"<21:10:37><Data.Player>	 CreatePlayer Player-60-0A6E12EE", -- [1631]
+			"<21:10:37><INFO>	 Samoansavage-Stormrage 3.2.0 nil", -- [1632]
+			"<21:10:37><DEBUG>	 ActivateSkin bfa", -- [1633]
+			"<21:10:51><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1634]
+			"<21:10:51><INFO>	 UpdatePlayersData()", -- [1635]
+			"<21:10:51><INFO>	 Player relog...", -- [1636]
+			"<21:11:01>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1637]
+			"<21:11:01>[EU]<INFO>	 Enabled 1.1.0", -- [1638]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  pawn table: 000002AD4E4008A0", -- [1639]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  legendaries table: 000002AD4E4008F0", -- [1640]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  sockets table: 000002AD4E400AD0", -- [1641]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  spec table: 000002AD4E400B20", -- [1642]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  bonus table: 000002AD4E400B70", -- [1643]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  guildNotes table: 000002AD4E400800", -- [1644]
+			"<21:11:01>[EU]<DEBUG>	 Doing col  covenant table: 000002AD4E400850", -- [1645]
+			"<21:11:01>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1646]
+			"<21:11:02><DEBUG>	 GetML()", -- [1647]
+			"<21:13:54><INFO>	 Logged In", -- [1648]
+			"<21:13:54>[ML]<INFO>	 Init", -- [1649]
+			"<21:13:54><INFO>	 RCLootCouncil TradeUI enabled", -- [1650]
+			"<21:14:24><INFO>	 Samoanrelic-Stormrage 3.2.0 nil", -- [1651]
+			"<21:14:24><DEBUG>	 ActivateSkin bfa", -- [1652]
+			"<21:14:35><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1653]
+			"<21:14:35><INFO>	 UpdatePlayersData()", -- [1654]
+			"<21:14:35><INFO>	 Player relog...", -- [1655]
+			"<21:14:41><DEBUG>	 GetPlayersGuildRank()", -- [1656]
+			"<21:14:41><DEBUG>	 Found Guild Rank: High Council", -- [1657]
+			"<21:14:42>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1658]
+			"<21:14:42>[EU]<INFO>	 Enabled 1.1.0", -- [1659]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  pawn table: 000002AD4A4284D0", -- [1660]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  legendaries table: 000002AD4A428480", -- [1661]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  sockets table: 000002AD4A428520", -- [1662]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  spec table: 000002AD4A428570", -- [1663]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  bonus table: 000002AD4A4285C0", -- [1664]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  guildNotes table: 000002AD4A428430", -- [1665]
+			"<21:14:42>[EU]<DEBUG>	 Doing col  covenant table: 000002AD4A4283E0", -- [1666]
+			"<21:14:42>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1667]
+			"<21:14:43><DEBUG>	 GetML()", -- [1668]
+			"<21:17:52><INFO>	 Logged In", -- [1669]
+			"<21:17:52>[ML]<INFO>	 Init", -- [1670]
+			"<21:17:52><INFO>	 RCLootCouncil TradeUI enabled", -- [1671]
+			"<21:18:26><INFO>	 Samoantitan-Stormrage 3.2.0 nil", -- [1672]
+			"<21:18:26><DEBUG>	 ActivateSkin bfa", -- [1673]
+			"<21:18:39><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1674]
+			"<21:18:39><INFO>	 UpdatePlayersData()", -- [1675]
+			"<21:18:39><INFO>	 Player relog...", -- [1676]
+			"<21:18:45><DEBUG>	 GetPlayersGuildRank()", -- [1677]
+			"<21:18:45><DEBUG>	 GetPlayersGuildRank()", -- [1678]
+			"<21:18:45><DEBUG>	 Found Guild Rank: Mazda", -- [1679]
+			"<21:18:51>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1680]
+			"<21:18:51>[EU]<INFO>	 Enabled 1.1.0", -- [1681]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  pawn table: 000002AD737BB870", -- [1682]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  legendaries table: 000002AD737BB820", -- [1683]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  sockets table: 000002AD737BB8C0", -- [1684]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  spec table: 000002AD737BB910", -- [1685]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  bonus table: 000002AD737BB960", -- [1686]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  guildNotes table: 000002AD737BB7D0", -- [1687]
+			"<21:18:51>[EU]<DEBUG>	 Doing col  covenant table: 000002AD737BB780", -- [1688]
+			"<21:18:51>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1689]
+			"<21:18:52><DEBUG>	 GetML()", -- [1690]
+			"<21:52:44><INFO>	 Logged In", -- [1691]
+			"<21:52:44>[ML]<INFO>	 Init", -- [1692]
+			"<21:52:44><INFO>	 RCLootCouncil TradeUI enabled", -- [1693]
+			"<21:53:16><Data.Player>	 CreatePlayer Player-162-0B608CB0", -- [1694]
+			"<21:53:16><INFO>	 Fedieb-EmeraldDream 3.2.0 nil", -- [1695]
+			"<21:53:16><DEBUG>	 ActivateSkin bfa", -- [1696]
+			"<21:53:29><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1697]
+			"<21:53:29><INFO>	 UpdatePlayersData()", -- [1698]
+			"<21:53:29><INFO>	 Player relog...", -- [1699]
+			"<21:53:35>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1700]
+			"<21:53:35>[EU]<INFO>	 Enabled 1.1.0", -- [1701]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  pawn table: 000001F20825C8C0", -- [1702]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  legendaries table: 000001F20825C910", -- [1703]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  sockets table: 000001F20825CA00", -- [1704]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  spec table: 000001F20825CB40", -- [1705]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  bonus table: 000001F20825CA50", -- [1706]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  guildNotes table: 000001F20825C960", -- [1707]
+			"<21:53:35>[EU]<DEBUG>	 Doing col  covenant table: 000001F20825C9B0", -- [1708]
+			"<21:53:35>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1709]
+			"<21:53:36><DEBUG>	 GetML()", -- [1710]
+			"<15:28:43><INFO>	 Logged In", -- [1711]
+			"<15:28:43>[ML]<INFO>	 Init", -- [1712]
+			"<15:28:43><INFO>	 RCLootCouncil TradeUI enabled", -- [1713]
+			"<15:29:17><INFO>	 Dustcraft-EmeraldDream 3.2.0 nil", -- [1714]
+			"<15:29:17><DEBUG>	 ActivateSkin bfa", -- [1715]
+			"<15:29:27><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1716]
+			"<15:29:27><INFO>	 UpdatePlayersData()", -- [1717]
+			"<15:29:27><INFO>	 Player relog...", -- [1718]
+			"<15:30:16>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1719]
+			"<15:30:16>[EU]<INFO>	 Enabled 1.1.0", -- [1720]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  pawn table: 000001E138231D90", -- [1721]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  legendaries table: 000001E138231CA0", -- [1722]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  sockets table: 000001E138231D40", -- [1723]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  spec table: 000001E138232420", -- [1724]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  bonus table: 000001E138232470", -- [1725]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  guildNotes table: 000001E138231CF0", -- [1726]
+			"<15:30:16>[EU]<DEBUG>	 Doing col  covenant table: 000001E138231700", -- [1727]
+			"<15:30:16>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1728]
+			"<15:30:22><DEBUG>	 GetPlayersGuildRank()", -- [1729]
+			"<15:30:22><DEBUG>	 GetPlayersGuildRank()", -- [1730]
+			"<15:30:22><DEBUG>	 Found Guild Rank: Crafter", -- [1731]
+			"<15:30:24><DEBUG>	 GetML()", -- [1732]
+			"<16:04:34><INFO>	 Logged In", -- [1733]
+			"<16:04:34>[ML]<INFO>	 Init", -- [1734]
+			"<16:04:34><INFO>	 RCLootCouncil TradeUI enabled", -- [1735]
+			"<16:05:06><INFO>	 Dustcraft-EmeraldDream 3.2.0 nil", -- [1736]
+			"<16:05:06><DEBUG>	 ActivateSkin bfa", -- [1737]
+			"<16:05:14><DEBUG>	 Event: PLAYER_ENTERING_WORLD true false", -- [1738]
+			"<16:05:14><INFO>	 UpdatePlayersData()", -- [1739]
+			"<16:05:14><INFO>	 Player relog...", -- [1740]
+			"<16:06:04>[GG]<INFO>	 GroupGear 2.1.0 enabled", -- [1741]
+			"<16:06:04>[EU]<INFO>	 Enabled 1.1.0", -- [1742]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  pawn table: 000001E2673116A0", -- [1743]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  legendaries table: 000001E267311650", -- [1744]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  sockets table: 000001E2673116F0", -- [1745]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  spec table: 000001E267312AA0", -- [1746]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  bonus table: 000001E267312AF0", -- [1747]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  guildNotes table: 000001E267311600", -- [1748]
+			"<16:06:04>[EU]<DEBUG>	 Doing col  covenant table: 000001E2673115B0", -- [1749]
+			"<16:06:04>[EU]<DEBUG>	 EU:UpdateGuildInfo", -- [1750]
+			"<16:06:10><DEBUG>	 GetPlayersGuildRank()", -- [1751]
+			"<16:06:10><DEBUG>	 Found Guild Rank: Crafter", -- [1752]
+			"<16:06:12><DEBUG>	 GetML()", -- [1753]
+			"03/13/22", -- [1754]
+			"<23:48:54> <INFO>		Logged In", -- [1755]
+			"<23:48:54> [ML]<INFO>		Init", -- [1756]
+			"<23:48:54> <INFO>		RCLootCouncil	TradeUI enabled", -- [1757]
+			"05/02/22", -- [1758]
+			"<14:25:35> <INFO>		Logged In", -- [1759]
+			"<14:25:35> [ML]<INFO>		Init", -- [1760]
+			"<14:25:35> <INFO>		RCLootCouncil	TradeUI enabled", -- [1761]
+			"<14:25:51> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Samoantank-Tichondrius	Player-11-042FD3AD", -- [1762]
+			"<14:25:51> <INFO>		Samoantank-Tichondrius	3.3.0	nil", -- [1763]
+			"<14:25:51> <DEBUG>		ActivateSkin	bfa", -- [1764]
+			"<14:26:04> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1765]
+			"<14:26:04> <INFO>		UpdatePlayersData()", -- [1766]
+			"<14:26:04> <INFO>		Player relog...", -- [1767]
+			"<14:26:06> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1768]
+			"<14:26:06> [EU]<INFO>		Enabled	1.1.1", -- [1769]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	pawn	table: 000002AB3E363590", -- [1770]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	legendaries	table: 000002AB3E363540", -- [1771]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	sockets	table: 000002AB3E3635E0", -- [1772]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	spec	table: 000002AB3E363630", -- [1773]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	bonus	table: 000002AB3E363680", -- [1774]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	guildNotes	table: 000002AB3E3634F0", -- [1775]
+			"<14:26:06> [EU]<DEBUG>		Doing col 	covenant	table: 000002AB3E3634A0", -- [1776]
+			"<14:26:06> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1777]
+			"<14:26:16> <DEBUG>		GetPlayersGuildRank()", -- [1778]
+			"<14:26:16> <DEBUG>		Found Guild Rank: Lead", -- [1779]
+			"<14:26:23> <DEBUG>		GetML()", -- [1780]
+			"05/07/22", -- [1781]
+			"<13:51:46> <INFO>		Logged In", -- [1782]
+			"<13:51:46> [ML]<INFO>		Init", -- [1783]
+			"<13:51:46> <INFO>		RCLootCouncil	TradeUI enabled", -- [1784]
+			"<13:52:07> <Data.Player>		CreatePlayer	Player-162-0B799051", -- [1785]
+			"<13:52:07> <INFO>		Unknown	3.3.0	nil", -- [1786]
+			"<13:52:07> <DEBUG>		ActivateSkin	bfa", -- [1787]
+			"<13:52:23> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1788]
+			"<13:52:23> <INFO>		UpdatePlayersData()", -- [1789]
+			"<13:52:23> <INFO>		Player relog...", -- [1790]
+			"<13:52:24> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1791]
+			"<13:52:24> [EU]<INFO>		Enabled	1.1.1", -- [1792]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	pawn	table: 00000256B4B56680", -- [1793]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	legendaries	table: 00000256B4B565E0", -- [1794]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	sockets	table: 00000256B4B566D0", -- [1795]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	spec	table: 00000256B4B56720", -- [1796]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	bonus	table: 00000256B4B56770", -- [1797]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	guildNotes	table: 00000256B4B56590", -- [1798]
+			"<13:52:24> [EU]<DEBUG>		Doing col 	covenant	table: 00000256B4B564A0", -- [1799]
+			"<13:52:24> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1800]
+			"<13:52:25> <DEBUG>		GetML()", -- [1801]
+			"<13:53:20> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [1802]
+			"<13:53:21> <DEBUG>		GetML()", -- [1803]
+			"<13:53:21> <Data.Player>		CreatePlayer	Player-162-0B799051", -- [1804]
+			"<13:53:21> <DEBUG>		Resetting council as we have a new ML!", -- [1805]
+			"<13:53:21> <INFO>		MasterLooter = 	Bantoruskk-EmeraldDream", -- [1806]
+			"<13:53:21> <ERROR>		RCLootCouncil\\ml_core.lua:1273: Not a valid 'Player' object", -- [1807]
+			"<13:53:21> <DEBUG>		MasterLooter	Bantoruskk-EmeraldDream", -- [1808]
+			"<13:53:21> <DEBUG>		LootMethod	personalloot", -- [1809]
+			"<13:53:21> <DEBUG>		HandleLoot	false", -- [1810]
+			"<13:53:21> <DEBUG>		IsCouncil	false", -- [1811]
+			"<13:53:21> <DEBUG>		CurrentInstanceName	Kalimdor", -- [1812]
+			"<13:53:21> [ML]<DEBUG>		NewML	Bantoruskk-EmeraldDream", -- [1813]
+			"<13:53:21> [ML]<INFO>		Disabled", -- [1814]
+			"<13:53:21> <ERROR>		RCLootCouncil\\ml_core.lua:62: bad argument #1 to 'ipairs' (table expected, got nil)", -- [1815]
+			"<13:53:21> <DEBUG>		MasterLooter	Bantoruskk-EmeraldDream", -- [1816]
+			"<13:53:21> <DEBUG>		LootMethod	personalloot", -- [1817]
+			"<13:53:21> <DEBUG>		HandleLoot	false", -- [1818]
+			"<13:53:21> <DEBUG>		IsCouncil	false", -- [1819]
+			"<13:53:21> <DEBUG>		CurrentInstanceName	Kalimdor", -- [1820]
+			"<13:53:36> <DEBUG>		Timer MLdb_check passed", -- [1821]
+			"<13:53:36> <Comm>		^1^Sxrealm^T^N1^SBantoruskk-EmeraldDream^N2^SMLdb_request^t^^	PARTY	Bantoruskk-EmeraldDream", -- [1822]
+			"<13:53:37> <Comm>		^1^Sxrealm^T^N1^SBantoruskk-EmeraldDream^N2^Scouncil_request^t^^	PARTY	Bantoruskk-EmeraldDream", -- [1823]
+			"<13:55:07> <Comm>		^1^Sxrealm^T^N1^SBantoruskk-EmeraldDream^N2^SMLdb_request^t^^	PARTY	Antoruskk-EmeraldDream", -- [1824]
+			"<13:55:07> <Comm>		^1^Sxrealm^T^N1^SBantoruskk-EmeraldDream^N2^Scouncil_request^t^^	PARTY	Antoruskk-EmeraldDream", -- [1825]
+			"05/17/22", -- [1826]
+			"<19:58:02> <INFO>		Logged In", -- [1827]
+			"<19:58:02> [ML]<INFO>		Init", -- [1828]
+			"<19:58:02> <INFO>		RCLootCouncil	TradeUI enabled", -- [1829]
+			"<19:58:18> <Data.Player>		CreatePlayer	Player-64-0EB724B6", -- [1830]
+			"<19:58:18> <INFO>		Unknown	3.3.0	nil", -- [1831]
+			"<19:58:18> <DEBUG>		ActivateSkin	bfa", -- [1832]
+			"<19:58:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1833]
+			"<19:58:31> <INFO>		UpdatePlayersData()", -- [1834]
+			"<19:58:31> <INFO>		Player relog...", -- [1835]
+			"<19:58:32> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1836]
+			"<19:58:32> [EU]<INFO>		Enabled	1.1.1", -- [1837]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	pawn	table: 00000215379631F0", -- [1838]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	legendaries	table: 00000215379631A0", -- [1839]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	sockets	table: 0000021537963240", -- [1840]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	spec	table: 0000021537963290", -- [1841]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	bonus	table: 00000215379632E0", -- [1842]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	guildNotes	table: 0000021537963060", -- [1843]
+			"<19:58:32> [EU]<DEBUG>		Doing col 	covenant	table: 0000021537963010", -- [1844]
+			"<19:58:32> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1845]
+			"<19:58:33> <DEBUG>		GetML()", -- [1846]
+			"<20:01:08> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1847]
+			"<20:01:08> <INFO>		UpdatePlayersData()", -- [1848]
+			"<20:01:09> <DEBUG>		GetML()", -- [1849]
+			"05/17/22", -- [1850]
+			"<20:09:50> <INFO>		Logged In", -- [1851]
+			"<20:09:50> [ML]<INFO>		Init", -- [1852]
+			"<20:09:50> <INFO>		RCLootCouncil	TradeUI enabled", -- [1853]
+			"<20:10:05> <Data.Player>		CreatePlayer	Player-64-0EB72515", -- [1854]
+			"<20:10:05> <INFO>		Unknown	3.3.0	nil", -- [1855]
+			"<20:10:05> <DEBUG>		ActivateSkin	bfa", -- [1856]
+			"<20:10:19> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1857]
+			"<20:10:19> <INFO>		UpdatePlayersData()", -- [1858]
+			"<20:10:19> <INFO>		Player relog...", -- [1859]
+			"<20:10:21> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1860]
+			"<20:10:21> [EU]<INFO>		Enabled	1.1.1", -- [1861]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	pawn	table: 00000215CCA707B0", -- [1862]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	legendaries	table: 00000215CCA70760", -- [1863]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	sockets	table: 00000215CCA70800", -- [1864]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	spec	table: 00000215CCA70850", -- [1865]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	bonus	table: 00000215CCA708A0", -- [1866]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	guildNotes	table: 00000215CCA70710", -- [1867]
+			"<20:10:21> [EU]<DEBUG>		Doing col 	covenant	table: 00000215CCA706C0", -- [1868]
+			"<20:10:21> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1869]
+			"<20:10:21> <DEBUG>		GetML()", -- [1870]
+			"<20:12:30> <DEBUG>		Event:	LOOT_READY	false", -- [1871]
+			"<20:12:44> <DEBUG>		Event:	LOOT_READY	false", -- [1872]
+			"<20:12:53> <DEBUG>		Event:	LOOT_READY	false", -- [1873]
+			"<20:13:04> <DEBUG>		Event:	LOOT_READY	false", -- [1874]
+			"<20:13:19> <DEBUG>		Event:	LOOT_READY	false", -- [1875]
+			"<20:13:30> <DEBUG>		Event:	LOOT_READY	false", -- [1876]
+			"<20:13:40> <DEBUG>		Event:	LOOT_READY	false", -- [1877]
+			"<20:14:10> <DEBUG>		Event:	LOOT_READY	false", -- [1878]
+			"<20:15:32> <DEBUG>		Event:	LOOT_READY	false", -- [1879]
+			"<20:15:48> <DEBUG>		Event:	LOOT_READY	false", -- [1880]
+			"05/17/22", -- [1881]
+			"<21:20:09> <INFO>		Logged In", -- [1882]
+			"<21:20:09> [ML]<INFO>		Init", -- [1883]
+			"<21:20:09> <INFO>		RCLootCouncil	TradeUI enabled", -- [1884]
+			"<21:20:23> <Data.Player>		CreatePlayer	Player-64-0EB72515", -- [1885]
+			"<21:20:23> <INFO>		Kk-Bloodhoof	3.3.0	nil", -- [1886]
+			"<21:20:23> <DEBUG>		ActivateSkin	bfa", -- [1887]
+			"<21:20:35> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1888]
+			"<21:20:35> <INFO>		UpdatePlayersData()", -- [1889]
+			"<21:20:35> <INFO>		Player relog...", -- [1890]
+			"<21:20:37> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1891]
+			"<21:20:37> [EU]<INFO>		Enabled	1.1.1", -- [1892]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	pawn	table: 00000215D12B9780", -- [1893]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	legendaries	table: 00000215D12B9730", -- [1894]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	sockets	table: 00000215D12B97D0", -- [1895]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	spec	table: 00000215D12B9820", -- [1896]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	bonus	table: 00000215D12B9870", -- [1897]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	guildNotes	table: 00000215D12B96E0", -- [1898]
+			"<21:20:37> [EU]<DEBUG>		Doing col 	covenant	table: 00000215D12B9690", -- [1899]
+			"<21:20:37> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1900]
+			"<21:20:37> <DEBUG>		GetML()", -- [1901]
+			"05/17/22", -- [1902]
+			"<21:55:31> <INFO>		Logged In", -- [1903]
+			"<21:55:31> [ML]<INFO>		Init", -- [1904]
+			"<21:55:31> <INFO>		RCLootCouncil	TradeUI enabled", -- [1905]
+			"<21:55:49> <INFO>		Samoantank-Tichondrius	3.3.0	nil", -- [1906]
+			"<21:55:49> <DEBUG>		ActivateSkin	bfa", -- [1907]
+			"<21:56:04> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1908]
+			"<21:56:04> <INFO>		UpdatePlayersData()", -- [1909]
+			"<21:56:04> <INFO>		Player relog...", -- [1910]
+			"<21:56:06> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1911]
+			"<21:56:06> [EU]<INFO>		Enabled	1.1.1", -- [1912]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	pawn	table: 00000215C80EFDA0", -- [1913]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	legendaries	table: 00000215C80EFD50", -- [1914]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	sockets	table: 00000215C80EFDF0", -- [1915]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	spec	table: 00000215C80EFE40", -- [1916]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	bonus	table: 00000215C80EFE90", -- [1917]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	guildNotes	table: 00000215C80EFD00", -- [1918]
+			"<21:56:06> [EU]<DEBUG>		Doing col 	covenant	table: 00000215C80EFCB0", -- [1919]
+			"<21:56:06> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1920]
+			"<21:56:17> <DEBUG>		GetPlayersGuildRank()", -- [1921]
+			"<21:56:17> <DEBUG>		Found Guild Rank: Lead", -- [1922]
+			"<21:56:24> <DEBUG>		GetML()", -- [1923]
+			"05/17/22", -- [1924]
+			"<22:13:08> <INFO>		Logged In", -- [1925]
+			"<22:13:08> [ML]<INFO>		Init", -- [1926]
+			"<22:13:08> <INFO>		RCLootCouncil	TradeUI enabled", -- [1927]
+			"<22:13:26> <Data.Player>		UpdateCachedPlayer - couldn't get PlayerInfoByGUID	Bantoruskk-EmeraldDream	Player-162-0B799051", -- [1928]
+			"<22:13:26> <INFO>		Bantoruskk-EmeraldDream	3.3.0	nil", -- [1929]
+			"<22:13:26> <DEBUG>		ActivateSkin	bfa", -- [1930]
+			"<22:13:42> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1931]
+			"<22:13:42> <INFO>		UpdatePlayersData()", -- [1932]
+			"<22:13:42> <INFO>		Player relog...", -- [1933]
+			"<22:13:45> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1934]
+			"<22:13:45> [EU]<INFO>		Enabled	1.1.1", -- [1935]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	pawn	table: 00000215D1C8D8F0", -- [1936]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	legendaries	table: 00000215D1C8D8A0", -- [1937]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	sockets	table: 00000215D1C8D940", -- [1938]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	spec	table: 00000215D1C8D990", -- [1939]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	bonus	table: 00000215D1C8D9E0", -- [1940]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	guildNotes	table: 00000215D1C8D850", -- [1941]
+			"<22:13:45> [EU]<DEBUG>		Doing col 	covenant	table: 00000215D1C8D800", -- [1942]
+			"<22:13:45> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1943]
+			"<22:13:45> <DEBUG>		GetML()", -- [1944]
+			"05/20/22", -- [1945]
+			"<12:00:53> <INFO>		Logged In", -- [1946]
+			"<12:00:53> [ML]<INFO>		Init", -- [1947]
+			"<12:00:53> <INFO>		RCLootCouncil	TradeUI enabled", -- [1948]
+			"<12:01:17> <Data.Player>		CreatePlayer	Player-11-09ADBF6A", -- [1949]
+			"<12:01:17> <INFO>		Unknown	3.3.0	nil", -- [1950]
+			"<12:01:17> <DEBUG>		ActivateSkin	bfa", -- [1951]
+			"<12:01:31> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1952]
+			"<12:01:31> <INFO>		UpdatePlayersData()", -- [1953]
+			"<12:01:31> <INFO>		Player relog...", -- [1954]
+			"<12:01:32> <DEBUG>		GetPlayersGuildRank()", -- [1955]
+			"<12:01:32> <DEBUG>		GetPlayersGuildRank()", -- [1956]
+			"<12:01:32> <DEBUG>		Found Guild Rank: Lead", -- [1957]
+			"<12:01:35> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1958]
+			"<12:01:35> [EU]<INFO>		Enabled	1.1.1", -- [1959]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	pawn	table: 000001FBD6828CE0", -- [1960]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	legendaries	table: 000001FBD6828C90", -- [1961]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	sockets	table: 000001FBD6828D30", -- [1962]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	spec	table: 000001FBD6828D80", -- [1963]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	bonus	table: 000001FBD6828DD0", -- [1964]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	guildNotes	table: 000001FBD6828C40", -- [1965]
+			"<12:01:35> [EU]<DEBUG>		Doing col 	covenant	table: 000001FBD6828BF0", -- [1966]
+			"<12:01:35> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1967]
+			"<12:01:36> <DEBUG>		GetML()", -- [1968]
+			"<12:03:26> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1969]
+			"<12:03:26> <INFO>		UpdatePlayersData()", -- [1970]
+			"<12:03:29> <DEBUG>		GetML()", -- [1971]
+			"<12:04:07> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1972]
+			"<12:04:07> <INFO>		UpdatePlayersData()", -- [1973]
+			"<12:04:10> <DEBUG>		GetML()", -- [1974]
+			"05/24/22", -- [1975]
+			"<01:01:32> <INFO>		Logged In", -- [1976]
+			"<01:01:32> [ML]<INFO>		Init", -- [1977]
+			"<01:01:32> <INFO>		RCLootCouncil	TradeUI enabled", -- [1978]
+			"<01:01:48> <Data.Player>		CreatePlayer	Player-162-0B7B20EE", -- [1979]
+			"<01:01:48> <INFO>		Unknown	3.3.0	nil", -- [1980]
+			"<01:01:48> <DEBUG>		ActivateSkin	bfa", -- [1981]
+			"<01:02:02> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [1982]
+			"<01:02:02> <INFO>		UpdatePlayersData()", -- [1983]
+			"<01:02:02> <INFO>		Player relog...", -- [1984]
+			"<01:02:03> <DEBUG>		Event:	LOOT_CLOSED", -- [1985]
+			"<01:02:04> [GG]<INFO>		GroupGear	2.1.1	enabled", -- [1986]
+			"<01:02:04> [EU]<INFO>		Enabled	1.1.1", -- [1987]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	pawn	table: 0000020967821280", -- [1988]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	legendaries	table: 00000209678211E0", -- [1989]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	sockets	table: 00000209678212D0", -- [1990]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	spec	table: 0000020967821320", -- [1991]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	bonus	table: 00000209678213C0", -- [1992]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	guildNotes	table: 0000020967821140", -- [1993]
+			"<01:02:04> [EU]<DEBUG>		Doing col 	covenant	table: 00000209678210F0", -- [1994]
+			"<01:02:04> [EU]<DEBUG>		EU:UpdateGuildInfo", -- [1995]
+			"<01:02:15> <DEBUG>		Event:	LOOT_CLOSED", -- [1996]
+			"<01:02:16> <DEBUG>		GetML()", -- [1997]
+			"<01:10:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [1998]
+			"<01:10:10> <INFO>		UpdatePlayersData()", -- [1999]
+			"<01:10:11> <DEBUG>		GetML()", -- [2000]
 		},
+		["oldVersion"] = "3.2.0",
+		["regionID"] = 1,
+		["locale"] = "enUS",
+		["version"] = "3.3.0",
 		["cache"] = {
 			["player"] = {
-				["Player-86-08D3C6B5"] = {
-					["ilvl"] = 210.8125,
-					["guid"] = "Player-86-08D3C6B5",
-					["class"] = "MONK",
-					["realm"] = "Skywall",
-					["role"] = "HEALER",
-					["cache_time"] = 1616785322,
-					["name"] = "Misstea-Skywall",
-					["specID"] = 270,
-					["enchanter"] = true,
-					["enchantingLvl"] = 8,
-					["rank"] = "Officer Alt",
-				},
-				["Player-162-0B4FDB3C"] = {
-					["role"] = "DAMAGER",
-					["name"] = "Threadcraft-EmeraldDream",
-					["guid"] = "Player-162-0B4FDB3C",
-					["realm"] = "",
-					["class"] = "MAGE",
-					["cache_time"] = 1616955901,
-					["rank"] = "Crafter",
-				},
-				["Player-162-0A49E245"] = {
-					["role"] = "TANK",
-					["name"] = "Samoanbatman-EmeraldDream",
-					["guid"] = "Player-162-0A49E245",
-					["realm"] = "",
+				["Player-162-096F3C39"] = {
+					["name"] = "Shadonra-EmeraldDream",
+					["guid"] = "Player-162-096F3C39",
 					["class"] = "DEMONHUNTER",
-					["cache_time"] = 1616956261,
-					["rank"] = "Member",
-				},
-				["Player-162-096F3B6F"] = {
-					["name"] = "Krimmzon-EmeraldDream",
-					["guid"] = "Player-162-096F3B6F",
-					["class"] = "PALADIN",
-					["cache_time"] = 1616381059,
+					["cache_time"] = 1618507529,
 					["realm"] = "",
 				},
-				["Player-71-0AF4F557"] = {
-					["role"] = "HEALER",
-					["name"] = "Palyndrome-Gorgonnash",
-					["guid"] = "Player-71-0AF4F557",
-					["realm"] = "Gorgonnash",
-					["class"] = "PALADIN",
-					["cache_time"] = 1616735670,
-					["rank"] = "Legend",
+				["Player-162-09F14854"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoansavage-EmeraldDream",
+					["guid"] = "Player-162-09F14854",
+					["rank"] = "Officer",
+					["class"] = "ROGUE",
+					["cache_time"] = 1624179337,
+					["realm"] = "",
 				},
-				["Player-71-0B1F70FA"] = {
-					["name"] = "Leminous-Gorgonnash",
-					["guid"] = "Player-71-0B1F70FA",
+				["Player-1428-096AE226"] = {
+					["name"] = "Lucanog-Quel'Thalas",
+					["guid"] = "Player-1428-096AE226",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624222221,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-3694-0A6F7326"] = {
+					["name"] = "Mazikén-Lightbringer",
+					["guid"] = "Player-3694-0A6F7326",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1619025599,
+					["realm"] = "Lightbringer",
+				},
+				["Player-3683-0CE5E4F0"] = {
+					["name"] = "Latesw-Dalaran",
+					["guid"] = "Player-3683-0CE5E4F0",
+					["class"] = "ROGUE",
+					["cache_time"] = 1618037366,
+					["realm"] = "Dalaran",
+				},
+				["Player-77-0C429716"] = {
+					["name"] = "Mathrus-Thunderlord",
+					["guid"] = "Player-77-0C429716",
 					["class"] = "DRUID",
-					["cache_time"] = 1616730487,
-					["realm"] = "Gorgonnash",
+					["cache_time"] = 1620229063,
+					["realm"] = "Thunderlord",
 				},
-				["Player-60-0AEA2C42"] = {
-					["name"] = "Fjolnïr-Stormrage",
-					["guid"] = "Player-60-0AEA2C42",
-					["class"] = "PALADIN",
-					["cache_time"] = 1616901382,
+				["Player-1136-08544FB6"] = {
+					["name"] = "Shiftynipps-Bonechewer",
+					["guid"] = "Player-1136-08544FB6",
+					["class"] = "DRUID",
+					["cache_time"] = 1618711200,
+					["realm"] = "Bonechewer",
+				},
+				["Player-162-0B475A64"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoansurge-EmeraldDream",
+					["guid"] = "Player-162-0B475A64",
+					["realm"] = "",
+					["class"] = "MONK",
+					["cache_time"] = 1618785353,
+					["rank"] = "Officer",
+				},
+				["Player-3725-0BF80CC0"] = {
+					["name"] = "Theshag-Frostmourne",
+					["guid"] = "Player-3725-0BF80CC0",
+					["class"] = "MAGE",
+					["cache_time"] = 1624095116,
+					["realm"] = "Frostmourne",
+				},
+				["Player-1428-0CD34543"] = {
+					["name"] = "Daenari-Quel'Thalas",
+					["guid"] = "Player-1428-0CD34543",
+					["class"] = "DRUID",
+					["cache_time"] = 1624098381,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-3208-09E3A418"] = {
+					["name"] = "Corte-Nemesis",
+					["guid"] = "Player-3208-09E3A418",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1617957441,
+					["realm"] = "Nemesis",
+				},
+				["Player-60-07002F11"] = {
+					["name"] = "Aevdan-Stormrage",
+					["guid"] = "Player-60-07002F11",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1618698711,
 					["realm"] = "Stormrage",
 				},
-				["Player-76-0B4A5E5C"] = {
-					["role"] = "DAMAGER",
-					["name"] = "Rendwren-Sargeras",
-					["guid"] = "Player-76-0B4A5E5C",
-					["realm"] = "Sargeras",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1616381538,
-					["rank"] = "Raider",
+				["Player-162-0B608CB0"] = {
+					["name"] = "Fedieb-EmeraldDream",
+					["guid"] = "Player-162-0B608CB0",
+					["class"] = "MONK",
+					["cache_time"] = 1626407595,
+					["realm"] = "Emerald Dream",
 				},
-				["Player-162-095DD3E1"] = {
-					["name"] = "Mayrii-EmeraldDream",
-					["guid"] = "Player-162-095DD3E1",
-					["class"] = "MAGE",
-					["cache_time"] = 1616718054,
+				["Player-96-0D902580"] = {
+					["name"] = "Lynette-Gul'dan",
+					["guid"] = "Player-96-0D902580",
+					["class"] = "DRUID",
+					["cache_time"] = 1624041502,
+					["realm"] = "Gul'dan",
+				},
+				["Player-162-0B2ABFFC"] = {
+					["role"] = "HEALER",
+					["name"] = "Cupkek-EmeraldDream",
+					["guid"] = "Player-162-0B2ABFFC",
+					["rank"] = "Officer",
+					["class"] = "DRUID",
+					["cache_time"] = 1624238251,
 					["realm"] = "",
 				},
-				["Player-60-0E0F5483"] = {
-					["role"] = "DAMAGER",
-					["name"] = "Jaxxkungfu-Stormrage",
-					["guid"] = "Player-60-0E0F5483",
-					["rank"] = "Recruit",
-					["class"] = "MONK",
-					["cache_time"] = 1616381537,
+				["Player-78-0E751DCF"] = {
+					["name"] = "Tái-Magtheridon",
+					["guid"] = "Player-78-0E751DCF",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1621552092,
+					["realm"] = "Magtheridon",
+				},
+				["Player-60-0E7884E4"] = {
+					["name"] = "Lucindá-Stormrage",
+					["guid"] = "Player-60-0E7884E4",
+					["class"] = "MAGE",
+					["cache_time"] = 1623154854,
+					["realm"] = "Stormrage",
+				},
+				["Player-3675-0A1E8A66"] = {
+					["name"] = "Yamze-MoonGuard",
+					["guid"] = "Player-3675-0A1E8A66",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1616970030,
+					["realm"] = "MoonGuard",
+				},
+				["Player-162-0B363F25"] = {
+					["name"] = "Traap-EmeraldDream",
+					["guid"] = "Player-162-0B363F25",
+					["class"] = "HUNTER",
+					["cache_time"] = 1619902702,
+					["realm"] = "",
+				},
+				["Player-162-0B5386B2"] = {
+					["role"] = "TANK",
+					["name"] = "Samoantitan-EmeraldDream",
+					["guid"] = "Player-162-0B5386B2",
+					["realm"] = "",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618854489,
+					["rank"] = "Unguilded",
+				},
+				["Player-127-0A30714C"] = {
+					["name"] = "Holzy-Stormscale",
+					["guid"] = "Player-127-0A30714C",
+					["class"] = "HUNTER",
+					["cache_time"] = 1624219247,
+					["realm"] = "Stormscale",
+				},
+				["Player-60-0E6D3155"] = {
+					["name"] = "Srchinguita-Stormrage",
+					["guid"] = "Player-60-0E6D3155",
+					["class"] = "HUNTER",
+					["cache_time"] = 1617339114,
 					["realm"] = "Stormrage",
 				},
 				["Player-162-0B4FF486"] = {
 					["name"] = "Mf-EmeraldDream",
 					["guid"] = "Player-162-0B4FF486",
 					["class"] = "WARRIOR",
-					["cache_time"] = 1616717088,
+					["cache_time"] = 1617953827,
 					["realm"] = "",
 				},
-				["Player-71-0AB1CF50"] = {
-					["name"] = "Thomara-Gorgonnash",
-					["guid"] = "Player-71-0AB1CF50",
-					["class"] = "DEATHKNIGHT",
-					["cache_time"] = 1616563886,
-					["realm"] = "Gorgonnash",
-				},
-				["Player-76-0A4F0D47"] = {
-					["ilvl"] = 218.5,
-					["guid"] = "Player-76-0A4F0D47",
+				["Player-3675-0A17B956"] = {
+					["name"] = "Raiwynn-MoonGuard",
+					["guid"] = "Player-3675-0A17B956",
 					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1623649212,
+					["realm"] = "MoonGuard",
+				},
+				["Player-162-0B2AB657"] = {
+					["name"] = "Buhbels-EmeraldDream",
+					["guid"] = "Player-162-0B2AB657",
+					["class"] = "PRIEST",
+					["cache_time"] = 1617650972,
+					["realm"] = "",
+				},
+				["Player-162-0B55304F"] = {
+					["name"] = "Ashh-EmeraldDream",
+					["guid"] = "Player-162-0B55304F",
+					["class"] = "MAGE",
+					["cache_time"] = 1619760637,
+					["realm"] = "",
+				},
+				["Player-76-0B0EF497"] = {
+					["name"] = "Jinxnova-Sargeras",
+					["guid"] = "Player-76-0B0EF497",
+					["class"] = "PRIEST",
+					["cache_time"] = 1618710372,
 					["realm"] = "Sargeras",
-					["role"] = "TANK",
-					["cache_time"] = 1616785322,
-					["name"] = "Hotfordan-Sargeras",
-					["specID"] = 581,
-					["enchanter"] = true,
-					["enchantingLvl"] = 25,
-					["rank"] = "Alt",
 				},
-				["Player-162-0A2F1F9A"] = {
-					["name"] = "Samoanslayer-EmeraldDream",
-					["guid"] = "Player-162-0A2F1F9A",
-					["class"] = "WARRIOR",
-					["cache_time"] = 1616204387,
-					["realm"] = "",
+				["Player-61-0E5446ED"] = {
+					["name"] = "Mermelada-Zul'jin",
+					["guid"] = "Player-61-0E5446ED",
+					["class"] = "MONK",
+					["cache_time"] = 1624042359,
+					["realm"] = "Zul'jin",
 				},
-				["Player-162-0A01CDAD"] = {
-					["role"] = "DAMAGER",
-					["name"] = "Samoanranger-EmeraldDream",
-					["guid"] = "Player-162-0A01CDAD",
-					["realm"] = "",
-					["class"] = "HUNTER",
-					["cache_time"] = 1616723742,
-					["rank"] = "Officer",
-				},
-				["Player-162-09F14854"] = {
-					["role"] = "DAMAGER",
-					["name"] = "Samoansavage-EmeraldDream",
-					["guid"] = "Player-162-09F14854",
-					["realm"] = "",
+				["Player-76-0B51DF0D"] = {
+					["name"] = "Effortx-Sargeras",
+					["guid"] = "Player-76-0B51DF0D",
 					["class"] = "ROGUE",
-					["cache_time"] = 1616958377,
-					["rank"] = "Officer",
+					["cache_time"] = 1623111779,
+					["realm"] = "Sargeras",
 				},
-				["Player-162-0A01C9F2"] = {
-					["role"] = "HEALER",
-					["name"] = "Samoansage-EmeraldDream",
-					["guid"] = "Player-162-0A01C9F2",
-					["rank"] = "Officer",
+				["Player-162-0B1D2D83"] = {
+					["name"] = "Noldertrick-EmeraldDream",
+					["guid"] = "Player-162-0B1D2D83",
+					["class"] = "PALADIN",
+					["cache_time"] = 1619900240,
+					["realm"] = "",
+				},
+				["Player-3721-0BF39916"] = {
+					["name"] = "Kyrix-Nagrand",
+					["guid"] = "Player-3721-0BF39916",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618992051,
+					["realm"] = "Nagrand",
+				},
+				["Player-162-0B36400D"] = {
+					["name"] = "Vennom-EmeraldDream",
+					["guid"] = "Player-162-0B36400D",
+					["class"] = "ROGUE",
+					["cache_time"] = 1618049125,
+					["realm"] = "",
+				},
+				["Player-162-0A0A84C1"] = {
+					["name"] = "Wizzledorf-EmeraldDream",
+					["guid"] = "Player-162-0A0A84C1",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1622608454,
+					["realm"] = "",
+				},
+				["Player-1190-01A8A1CA"] = {
+					["name"] = "Atani-Baelgun",
+					["guid"] = "Player-1190-01A8A1CA",
+					["class"] = "PALADIN",
+					["cache_time"] = 1622575945,
+					["realm"] = "Baelgun",
+				},
+				["Player-162-0A0114B2"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanlock-EmeraldDream",
+					["guid"] = "Player-162-0A0114B2",
+					["rank"] = "Member",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1624238251,
+					["realm"] = "",
+				},
+				["Player-1175-0D8C24F8"] = {
+					["name"] = "Mujae-Gnomeregan",
+					["guid"] = "Player-1175-0D8C24F8",
+					["class"] = "DRUID",
+					["cache_time"] = 1622640726,
+					["realm"] = "Gnomeregan",
+				},
+				["Player-3721-092B5A7C"] = {
+					["name"] = "Gavriel-Nagrand",
+					["guid"] = "Player-3721-092B5A7C",
+					["class"] = "HUNTER",
+					["cache_time"] = 1622796776,
+					["realm"] = "Nagrand",
+				},
+				["Player-1428-0CE9FA44"] = {
+					["name"] = "Josesilver-Quel'Thalas",
+					["guid"] = "Player-1428-0CE9FA44",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1620229173,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-1428-0CDDB916"] = {
+					["name"] = "Darekh-Quel'Thalas",
+					["guid"] = "Player-1428-0CDDB916",
+					["class"] = "HUNTER",
+					["cache_time"] = 1620698166,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-162-0B5B7767"] = {
+					["name"] = "Krrash-EmeraldDream",
+					["guid"] = "Player-162-0B5B7767",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623871755,
+					["realm"] = "",
+				},
+				["Player-3725-0B2A27D9"] = {
+					["name"] = "Viviän-Frostmourne",
+					["guid"] = "Player-3725-0B2A27D9",
+					["class"] = "MONK",
+					["cache_time"] = 1623649103,
+					["realm"] = "Frostmourne",
+				},
+				["Player-3683-09E2584A"] = {
+					["name"] = "Missmadzin-Dalaran",
+					["guid"] = "Player-3683-09E2584A",
 					["class"] = "SHAMAN",
-					["cache_time"] = 1616956049,
+					["cache_time"] = 1617957568,
+					["realm"] = "Dalaran",
+				},
+				["Player-60-0E6B2AEC"] = {
+					["name"] = "Badunibrow-Stormrage",
+					["guid"] = "Player-60-0E6B2AEC",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1618982613,
+					["realm"] = "Stormrage",
+				},
+				["Player-121-03D9AD05"] = {
+					["name"] = "Kelfis-AzjolNerub",
+					["guid"] = "Player-121-03D9AD05",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1622640705,
+					["realm"] = "AzjolNerub",
+				},
+				["Player-11-042FD3AD"] = {
+					["name"] = "Samoantank-Tichondrius",
+					["guid"] = "Player-11-042FD3AD",
+					["class"] = "PALADIN",
+					["cache_time"] = 1652846150,
+					["realm"] = "Tichondrius",
+				},
+				["Player-57-0D0CE6C1"] = {
+					["name"] = "Durrotar-Illidan",
+					["guid"] = "Player-57-0D0CE6C1",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1617054889,
+					["realm"] = "Illidan",
+				},
+				["Player-162-0B53AC9C"] = {
+					["name"] = "Snukkle-EmeraldDream",
+					["guid"] = "Player-162-0B53AC9C",
+					["class"] = "MONK",
+					["cache_time"] = 1617594600,
+					["realm"] = "",
+				},
+				["Player-162-0B54793C"] = {
+					["name"] = "Badsmell-EmeraldDream",
+					["guid"] = "Player-162-0B54793C",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1623447085,
 					["realm"] = "",
 				},
 				["Player-60-0AE8B1C0"] = {
@@ -2172,31 +2366,1083 @@ RCLootCouncilDB = {
 					["cache_time"] = 1616908863,
 					["realm"] = "Stormrage",
 				},
+				["Player-162-0B554FA1"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Xb-EmeraldDream",
+					["guid"] = "Player-162-0B554FA1",
+					["rank"] = "Unguilded",
+					["class"] = "MONK",
+					["cache_time"] = 1618723173,
+					["realm"] = "",
+				},
+				["Player-162-0B2AB9ED"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanrelic-EmeraldDream",
+					["guid"] = "Player-162-0B2AB9ED",
+					["realm"] = "",
+					["class"] = "PRIEST",
+					["cache_time"] = 1619846723,
+					["rank"] = "Officer",
+				},
+				["Player-5-0DE0C56D"] = {
+					["name"] = "Xaniir-Proudmoore",
+					["guid"] = "Player-5-0DE0C56D",
+					["class"] = "PRIEST",
+					["cache_time"] = 1624035632,
+					["realm"] = "Proudmoore",
+				},
+				["Player-162-0B4FCB3C"] = {
+					["ilvl"] = 55.125,
+					["guid"] = "Player-162-0B4FCB3C",
+					["class"] = "DRUID",
+					["rank"] = "Crafter",
+					["role"] = "DAMAGER",
+					["cache_time"] = 1627855506,
+					["name"] = "Dustcraft-EmeraldDream",
+					["enchanter"] = true,
+					["specID"] = 102,
+					["enchantingLvl"] = 1,
+					["realm"] = "Emerald Dream",
+				},
+				["Player-3725-07E2B700"] = {
+					["name"] = "Câzicthule-Frostmourne",
+					["guid"] = "Player-3725-07E2B700",
+					["class"] = "HUNTER",
+					["cache_time"] = 1618973586,
+					["realm"] = "Frostmourne",
+				},
+				["Player-1428-09FC5ED3"] = {
+					["name"] = "Fenarus-Quel'Thalas",
+					["guid"] = "Player-1428-09FC5ED3",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1621550088,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-1428-0CD9681A"] = {
+					["name"] = "Rodgóo-Quel'Thalas",
+					["guid"] = "Player-1428-0CD9681A",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1617055645,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-86-09CD220E"] = {
+					["name"] = "Anadrol-Shadowsong",
+					["guid"] = "Player-86-09CD220E",
+					["class"] = "PRIEST",
+					["cache_time"] = 1620229066,
+					["realm"] = "Shadowsong",
+				},
+				["Player-5-0DEBC925"] = {
+					["name"] = "Fallom-Proudmoore",
+					["guid"] = "Player-5-0DEBC925",
+					["class"] = "MONK",
+					["cache_time"] = 1624041786,
+					["realm"] = "Proudmoore",
+				},
+				["Player-3683-0BB9536D"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Beastflint-Dalaran",
+					["guid"] = "Player-3683-0BB9536D",
+					["rank"] = "Raiders",
+					["class"] = "HUNTER",
+					["cache_time"] = 1617581414,
+					["realm"] = "Dalaran",
+				},
+				["Player-5-0B80C467"] = {
+					["name"] = "Bigonionn-Proudmoore",
+					["guid"] = "Player-5-0B80C467",
+					["class"] = "DRUID",
+					["cache_time"] = 1624035672,
+					["realm"] = "Proudmoore",
+				},
+				["Player-58-0CEB420B"] = {
+					["name"] = "Cheerycheery-Stormreaver",
+					["guid"] = "Player-58-0CEB420B",
+					["class"] = "MAGE",
+					["cache_time"] = 1621889576,
+					["realm"] = "Stormreaver",
+				},
+				["Player-162-0B53C1E6"] = {
+					["name"] = "Cukie-EmeraldDream",
+					["guid"] = "Player-162-0B53C1E6",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1617609955,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-3694-09013DB3"] = {
+					["role"] = "TANK",
+					["name"] = "Gopokeurself-Lightbringer",
+					["guid"] = "Player-3694-09013DB3",
+					["rank"] = "Raider Alt",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1617587813,
+					["realm"] = "Lightbringer",
+				},
+				["Player-77-0E5C4EA6"] = {
+					["name"] = "Rocoo-Destromath",
+					["guid"] = "Player-77-0E5C4EA6",
+					["class"] = "ROGUE",
+					["cache_time"] = 1617957275,
+					["realm"] = "Destromath",
+				},
+				["Player-60-0E68DE72"] = {
+					["name"] = "Edalsteer-Stormrage",
+					["guid"] = "Player-60-0E68DE72",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623093467,
+					["realm"] = "Stormrage",
+				},
+				["Player-3726-0B0018E2"] = {
+					["name"] = "Skyleboo-Dath'Remar",
+					["guid"] = "Player-3726-0B0018E2",
+					["class"] = "DRUID",
+					["cache_time"] = 1617957386,
+					["realm"] = "Dath'Remar",
+				},
+				["Player-60-0E6D23A3"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Mashallad-Stormrage",
+					["guid"] = "Player-60-0E6D23A3",
+					["rank"] = "Council Alt",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1617581415,
+					["realm"] = "Stormrage",
+				},
+				["Player-162-0B166179"] = {
+					["role"] = "TANK",
+					["name"] = "Samoanbeast-EmeraldDream",
+					["guid"] = "Player-162-0B166179",
+					["rank"] = "Officer",
+					["class"] = "DRUID",
+					["cache_time"] = 1624225593,
+					["realm"] = "",
+				},
+				["Player-5-0E03737A"] = {
+					["name"] = "Venâ-Proudmoore",
+					["guid"] = "Player-5-0E03737A",
+					["class"] = "ROGUE",
+					["cache_time"] = 1617957727,
+					["realm"] = "Proudmoore",
+				},
+				["Player-162-0B5A2CA6"] = {
+					["name"] = "Samoansentry-EmeraldDream",
+					["guid"] = "Player-162-0B5A2CA6",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1621640264,
+					["realm"] = "",
+				},
+				["Player-5-0E0832C7"] = {
+					["name"] = "Bludrites-Proudmoore",
+					["guid"] = "Player-5-0E0832C7",
+					["class"] = "PRIEST",
+					["cache_time"] = 1622016909,
+					["realm"] = "Proudmoore",
+				},
+				["Player-162-0A16C5A8"] = {
+					["name"] = "Mariennia-EmeraldDream",
+					["guid"] = "Player-162-0A16C5A8",
+					["class"] = "DRUID",
+					["cache_time"] = 1622796794,
+					["realm"] = "",
+				},
+				["Player-162-0B5BCB93"] = {
+					["name"] = "Amordrillis-EmeraldDream",
+					["guid"] = "Player-162-0B5BCB93",
+					["class"] = "HUNTER",
+					["cache_time"] = 1623208019,
+					["realm"] = "",
+				},
+				["Player-1070-039F4D9D"] = {
+					["name"] = "Destinata-Alexstrasza",
+					["guid"] = "Player-1070-039F4D9D",
+					["class"] = "PRIEST",
+					["cache_time"] = 1623183174,
+					["realm"] = "Alexstrasza",
+				},
+				["Player-157-0903ACAD"] = {
+					["name"] = "Xefestus-ShatteredHand",
+					["guid"] = "Player-157-0903ACAD",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1624135741,
+					["realm"] = "ShatteredHand",
+				},
+				["Player-162-0A49E245"] = {
+					["role"] = "TANK",
+					["name"] = "Samoanbatman-EmeraldDream",
+					["guid"] = "Player-162-0A49E245",
+					["rank"] = "Member",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1623807248,
+					["realm"] = "",
+				},
+				["Player-162-0B799051"] = {
+					["name"] = "Bantoruskk-EmeraldDream",
+					["guid"] = "Player-162-0B799051",
+					["class"] = "ROGUE",
+					["cache_time"] = 1651953234,
+					["realm"] = "",
+				},
+				["Player-162-0B16499E"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanruin-EmeraldDream",
+					["guid"] = "Player-162-0B16499E",
+					["realm"] = "",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1623876203,
+					["rank"] = "Officer",
+				},
+				["Player-60-0AEA2C42"] = {
+					["name"] = "Fjolnïr-Stormrage",
+					["guid"] = "Player-60-0AEA2C42",
+					["class"] = "PALADIN",
+					["cache_time"] = 1616901382,
+					["realm"] = "Stormrage",
+				},
+				["Player-162-0B5D9755"] = {
+					["name"] = "Samoanghost-EmeraldDream",
+					["guid"] = "Player-162-0B5D9755",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1624607456,
+					["realm"] = "",
+				},
+				["Player-63-08CE7DA6"] = {
+					["name"] = "Karou-Ysera",
+					["guid"] = "Player-63-08CE7DA6",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1621571915,
+					["realm"] = "Ysera",
+				},
+				["Player-71-0A79C070"] = {
+					["name"] = "Aabbie-Gorgonnash",
+					["guid"] = "Player-71-0A79C070",
+					["class"] = "DRUID",
+					["cache_time"] = 1617167849,
+					["realm"] = "Gorgonnash",
+				},
+				["Player-162-0A6C6DE1"] = {
+					["name"] = "Dominao-EmeraldDream",
+					["guid"] = "Player-162-0A6C6DE1",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1618118467,
+					["realm"] = "",
+				},
+				["Player-1175-0B85E9CD"] = {
+					["name"] = "Belzenlok-Trollbane",
+					["guid"] = "Player-1175-0B85E9CD",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1623446873,
+					["realm"] = "Trollbane",
+				},
+				["Player-86-09EBAC5C"] = {
+					["name"] = "Daanea-Terenas",
+					["guid"] = "Player-86-09EBAC5C",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1622640712,
+					["realm"] = "Terenas",
+				},
+				["Player-3208-081738B9"] = {
+					["name"] = "Subsideo-Nemesis",
+					["guid"] = "Player-3208-081738B9",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624136605,
+					["realm"] = "Nemesis",
+				},
+				["Player-162-0B5386AD"] = {
+					["name"] = "Knuckels-EmeraldDream",
+					["guid"] = "Player-162-0B5386AD",
+					["class"] = "MONK",
+					["cache_time"] = 1617479219,
+					["realm"] = "",
+				},
+				["Player-1428-0D955F75"] = {
+					["name"] = "Kataed-Quel'Thalas",
+					["guid"] = "Player-1428-0D955F75",
+					["class"] = "HUNTER",
+					["cache_time"] = 1617054892,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-106-0623F8D4"] = {
+					["name"] = "Nyder-Fizzcrank",
+					["guid"] = "Player-106-0623F8D4",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624037034,
+					["realm"] = "Fizzcrank",
+				},
+				["Player-162-0B54C57D"] = {
+					["name"] = "Alixs-EmeraldDream",
+					["guid"] = "Player-162-0B54C57D",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1618258462,
+					["realm"] = "",
+				},
+				["Player-162-0B337F26"] = {
+					["name"] = "Stronguard-EmeraldDream",
+					["guid"] = "Player-162-0B337F26",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618045231,
+					["realm"] = "",
+				},
+				["Player-99-0D13BD8F"] = {
+					["name"] = "Tatula-Llane",
+					["guid"] = "Player-99-0D13BD8F",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1621106859,
+					["realm"] = "Llane",
+				},
 				["Player-60-0A6DF395"] = {
 					["role"] = "TANK",
 					["name"] = "Samoantitan-Stormrage",
 					["guid"] = "Player-60-0A6DF395",
-					["realm"] = "",
+					["rank"] = "Mazda",
 					["class"] = "PALADIN",
-					["cache_time"] = 1616921418,
-					["rank"] = "Initiate",
+					["cache_time"] = 1626059904,
+					["realm"] = "Stormrage",
+				},
+				["Player-76-0A4F0D47"] = {
+					["ilvl"] = 218.5,
+					["guid"] = "Player-76-0A4F0D47",
+					["class"] = "DEMONHUNTER",
+					["rank"] = "Alt",
+					["role"] = "TANK",
+					["cache_time"] = 1616785322,
+					["name"] = "Hotfordan-Sargeras",
+					["enchanter"] = true,
+					["specID"] = 581,
+					["enchantingLvl"] = 25,
+					["realm"] = "Sargeras",
+				},
+				["Player-77-0D8C7834"] = {
+					["name"] = "Jeava-Mannoroth",
+					["guid"] = "Player-77-0D8C7834",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1620229170,
+					["realm"] = "Mannoroth",
+				},
+				["Player-3725-0BF9E511"] = {
+					["name"] = "Samoanghost-Frostmourne",
+					["guid"] = "Player-3725-0BF9E511",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1624651208,
+					["realm"] = "",
+				},
+				["Player-162-0B5D9797"] = {
+					["name"] = "Samoanghost-EmeraldDream",
+					["guid"] = "Player-162-0B5D9797",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1624611516,
+					["realm"] = "",
+				},
+				["Player-1175-0D89E6D0"] = {
+					["name"] = "ìt-Moonrunner",
+					["guid"] = "Player-1175-0D89E6D0",
+					["class"] = "PALADIN",
+					["cache_time"] = 1622640730,
+					["realm"] = "Moonrunner",
+				},
+				["Player-1171-09128A72"] = {
+					["name"] = "Alarikh-WyrmrestAccord",
+					["guid"] = "Player-1171-09128A72",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1623183236,
+					["realm"] = "WyrmrestAccord",
+				},
+				["Player-162-0B52B67B"] = {
+					["name"] = "Roment-EmeraldDream",
+					["guid"] = "Player-162-0B52B67B",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1617610153,
+					["realm"] = "",
+				},
+				["Player-1185-0E07FEE8"] = {
+					["name"] = "Ufa-Stonemaul",
+					["guid"] = "Player-1185-0E07FEE8",
+					["class"] = "HUNTER",
+					["cache_time"] = 1624105979,
+					["realm"] = "Stonemaul",
+				},
+				["Player-3683-0BA589D0"] = {
+					["name"] = "Chickenbûtt-Dalaran",
+					["guid"] = "Player-3683-0BA589D0",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1618681678,
+					["realm"] = "Dalaran",
+				},
+				["Player-121-060EB4C2"] = {
+					["name"] = "Lucário-KhazModan",
+					["guid"] = "Player-121-060EB4C2",
+					["class"] = "PALADIN",
+					["cache_time"] = 1624220433,
+					["realm"] = "KhazModan",
+				},
+				["Player-86-002DFD6C"] = {
+					["name"] = "Aylett-Silvermoon",
+					["guid"] = "Player-86-002DFD6C",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623153224,
+					["realm"] = "Silvermoon",
+				},
+				["Player-3693-0AA95462"] = {
+					["name"] = "Kwiink-Kel'Thuzad",
+					["guid"] = "Player-3693-0AA95462",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1620117171,
+					["realm"] = "Kel'Thuzad",
+				},
+				["Player-1136-08EEA3F2"] = {
+					["name"] = "Valkyree-Hakkar",
+					["guid"] = "Player-1136-08EEA3F2",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1623183147,
+					["realm"] = "Hakkar",
+				},
+				["Player-60-0E62460F"] = {
+					["name"] = "Chodysseus-Stormrage",
+					["guid"] = "Player-60-0E62460F",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1616970608,
+					["realm"] = "Stormrage",
+				},
+				["Player-71-0B1F70FA"] = {
+					["name"] = "Leminous-Gorgonnash",
+					["guid"] = "Player-71-0B1F70FA",
+					["class"] = "DRUID",
+					["cache_time"] = 1617157156,
+					["realm"] = "Gorgonnash",
+				},
+				["Player-117-0A244708"] = {
+					["name"] = "Lîgmå-Shandris",
+					["guid"] = "Player-117-0A244708",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623090025,
+					["realm"] = "Shandris",
+				},
+				["Player-1427-09B51B66"] = {
+					["name"] = "Naturh-Ragnaros",
+					["guid"] = "Player-1427-09B51B66",
+					["class"] = "DRUID",
+					["cache_time"] = 1622870362,
+					["realm"] = "Ragnaros",
+				},
+				["Player-76-0B59E40C"] = {
+					["name"] = "Varing-Sargeras",
+					["guid"] = "Player-76-0B59E40C",
+					["class"] = "MAGE",
+					["cache_time"] = 1622795212,
+					["realm"] = "Sargeras",
+				},
+				["Player-3723-0B08D92F"] = {
+					["name"] = "Miestro-Barthilas",
+					["guid"] = "Player-3723-0B08D92F",
+					["class"] = "PALADIN",
+					["cache_time"] = 1622630398,
+					["realm"] = "Barthilas",
+				},
+				["Player-3723-0BF82B27"] = {
+					["name"] = "Braathens-Barthilas",
+					["guid"] = "Player-3723-0BF82B27",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1622631488,
+					["realm"] = "Barthilas",
+				},
+				["Player-11-09C87760"] = {
+					["name"] = "Samoaninja-Tichondrius",
+					["guid"] = "Player-11-09C87760",
+					["class"] = "MONK",
+					["cache_time"] = 1618860350,
+					["realm"] = "",
+				},
+				["Player-162-095DD3E1"] = {
+					["name"] = "Mayrii-EmeraldDream",
+					["guid"] = "Player-162-095DD3E1",
+					["class"] = "MAGE",
+					["cache_time"] = 1618503083,
+					["realm"] = "",
+				},
+				["Player-3683-0A34CAA9"] = {
+					["name"] = "Hanarrek-Dalaran",
+					["guid"] = "Player-3683-0A34CAA9",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624094895,
+					["realm"] = "Dalaran",
+				},
+				["Player-3694-091BD3FB"] = {
+					["name"] = "Bunsofstëel-Lightbringer",
+					["guid"] = "Player-3694-091BD3FB",
+					["class"] = "MAGE",
+					["cache_time"] = 1623091412,
+					["realm"] = "Lightbringer",
+				},
+				["Player-76-0A7E6362"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Souldk-Sargeras",
+					["guid"] = "Player-76-0A7E6362",
+					["rank"] = "Raider",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1617587812,
+					["realm"] = "Sargeras",
+				},
+				["Player-127-091DE1B0"] = {
+					["name"] = "Hípstér-Vashj",
+					["guid"] = "Player-127-091DE1B0",
+					["class"] = "HUNTER",
+					["cache_time"] = 1623183101,
+					["realm"] = "Vashj",
+				},
+				["Player-3693-0887102C"] = {
+					["name"] = "Imbigboned-Kel'Thuzad",
+					["guid"] = "Player-3693-0887102C",
+					["class"] = "DRUID",
+					["cache_time"] = 1620657947,
+					["realm"] = "Kel'Thuzad",
+				},
+				["Player-162-0A7AC269"] = {
+					["name"] = "Ashtodorn-EmeraldDream",
+					["guid"] = "Player-162-0A7AC269",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1620268123,
+					["realm"] = "",
+				},
+				["Player-162-0B553AD5"] = {
+					["name"] = "Gl-EmeraldDream",
+					["guid"] = "Player-162-0B553AD5",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618610977,
+					["realm"] = "",
+				},
+				["Player-1425-0D05CB6B"] = {
+					["name"] = "Govis-Drakkari",
+					["guid"] = "Player-1425-0D05CB6B",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1617339672,
+					["realm"] = "Drakkari",
+				},
+				["Player-162-0B53D79B"] = {
+					["name"] = "Goset-EmeraldDream",
+					["guid"] = "Player-162-0B53D79B",
+					["class"] = "ROGUE",
+					["cache_time"] = 1617608076,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-71-0AB1CF50"] = {
+					["name"] = "Thomara-Gorgonnash",
+					["guid"] = "Player-71-0AB1CF50",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1616563886,
+					["realm"] = "Gorgonnash",
+				},
+				["Player-1428-069AED34"] = {
+					["name"] = "Morginn-Quel'Thalas",
+					["guid"] = "Player-1428-069AED34",
+					["class"] = "PALADIN",
+					["cache_time"] = 1624098974,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-86-08D3C6B5"] = {
+					["ilvl"] = 210.8125,
+					["guid"] = "Player-86-08D3C6B5",
+					["class"] = "MONK",
+					["rank"] = "Officer Alt",
+					["role"] = "HEALER",
+					["cache_time"] = 1616785322,
+					["name"] = "Misstea-Skywall",
+					["enchanter"] = true,
+					["specID"] = 270,
+					["enchantingLvl"] = 8,
+					["realm"] = "Skywall",
+				},
+				["Player-115-05941F01"] = {
+					["name"] = "Authority-EchoIsles",
+					["guid"] = "Player-115-05941F01",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618176282,
+					["realm"] = "EchoIsles",
+				},
+				["Player-3726-0BB7DB6B"] = {
+					["name"] = "Puffinpriest-Aman'Thul",
+					["guid"] = "Player-3726-0BB7DB6B",
+					["class"] = "PRIEST",
+					["cache_time"] = 1622795445,
+					["realm"] = "Aman'Thul",
+				},
+				["Player-3693-097EF0D4"] = {
+					["name"] = "Maarb-Kel'Thuzad",
+					["guid"] = "Player-3693-097EF0D4",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1622641810,
+					["realm"] = "Kel'Thuzad",
+				},
+				["Player-162-0B4FDB3C"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Threadcraft-EmeraldDream",
+					["guid"] = "Player-162-0B4FDB3C",
+					["rank"] = "Crafter",
+					["class"] = "MAGE",
+					["cache_time"] = 1624241855,
+					["realm"] = "",
+				},
+				["Player-3234-0C9BB091"] = {
+					["name"] = "Bernardox-Gallywix",
+					["guid"] = "Player-3234-0C9BB091",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618973831,
+					["realm"] = "Gallywix",
+				},
+				["Player-3683-09BEA02A"] = {
+					["name"] = "Belrythe-Dalaran",
+					["guid"] = "Player-3683-09BEA02A",
+					["class"] = "MAGE",
+					["cache_time"] = 1624072574,
+					["realm"] = "Dalaran",
+				},
+				["Player-162-0B562995"] = {
+					["name"] = "Kkdev-EmeraldDream",
+					["guid"] = "Player-162-0B562995",
+					["class"] = "MAGE",
+					["cache_time"] = 1619052897,
+					["realm"] = "",
+				},
+				["Player-64-0EB72515"] = {
+					["name"] = "Kk-Bloodhoof",
+					["guid"] = "Player-64-0EB72515",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1652844024,
+					["realm"] = "",
+				},
+				["Player-162-0B3AFCC7"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Orecraft-EmeraldDream",
+					["guid"] = "Player-162-0B3AFCC7",
+					["realm"] = "",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1624262083,
+					["rank"] = "Crafter",
+				},
+				["Player-3693-0834C560"] = {
+					["name"] = "Bolrakk-Kel'Thuzad",
+					["guid"] = "Player-3693-0834C560",
+					["class"] = "HUNTER",
+					["cache_time"] = 1619805431,
+					["realm"] = "Kel'Thuzad",
+				},
+				["Player-1175-0DE77A89"] = {
+					["name"] = "Auchentoshan-Trollbane",
+					["guid"] = "Player-1175-0DE77A89",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1621884305,
+					["realm"] = "Trollbane",
+				},
+				["Player-71-0AF4F557"] = {
+					["role"] = "HEALER",
+					["name"] = "Palyndrome-Gorgonnash",
+					["guid"] = "Player-71-0AF4F557",
+					["rank"] = "Legend",
+					["class"] = "PALADIN",
+					["cache_time"] = 1616735670,
+					["realm"] = "Gorgonnash",
+				},
+				["Player-76-09DF3232"] = {
+					["name"] = "Dinkky-Sargeras",
+					["guid"] = "Player-76-09DF3232",
+					["class"] = "DRUID",
+					["cache_time"] = 1618711155,
+					["realm"] = "Sargeras",
+				},
+				["Player-106-0CCB25F7"] = {
+					["name"] = "Ardvinna-Aggramar",
+					["guid"] = "Player-106-0CCB25F7",
+					["class"] = "PRIEST",
+					["cache_time"] = 1617331309,
+					["realm"] = "Aggramar",
+				},
+				["Player-162-0B4B7375"] = {
+					["name"] = "Varayline-EmeraldDream",
+					["guid"] = "Player-162-0B4B7375",
+					["class"] = "HUNTER",
+					["cache_time"] = 1618843046,
+					["realm"] = "",
+				},
+				["Player-5-0DE19FFA"] = {
+					["name"] = "Spunkbeard-Proudmoore",
+					["guid"] = "Player-5-0DE19FFA",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1623183414,
+					["realm"] = "Proudmoore",
+				},
+				["Player-76-0B4A5E5C"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Rendwren-Sargeras",
+					["guid"] = "Player-76-0B4A5E5C",
+					["rank"] = "Raider",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1616381538,
+					["realm"] = "Sargeras",
+				},
+				["Player-3725-0B3D897F"] = {
+					["name"] = "Coastalrota-Dreadmaul",
+					["guid"] = "Player-3725-0B3D897F",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1620229126,
+					["realm"] = "Dreadmaul",
+				},
+				["Player-1136-0821075B"] = {
+					["name"] = "Totempower-Aegwynn",
+					["guid"] = "Player-1136-0821075B",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1624107179,
+					["realm"] = "Aegwynn",
+				},
+				["Player-1426-0AFAAB6A"] = {
+					["name"] = "Krackenkhaos-AeriePeak",
+					["guid"] = "Player-1426-0AFAAB6A",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1624136788,
+					["realm"] = "AeriePeak",
+				},
+				["Player-3675-0A2DE504"] = {
+					["name"] = "Aleîstêr-MoonGuard",
+					["guid"] = "Player-3675-0A2DE504",
+					["class"] = "MAGE",
+					["cache_time"] = 1623649214,
+					["realm"] = "MoonGuard",
+				},
+				["Player-3234-0AE31122"] = {
+					["name"] = "Judomaster-Gallywix",
+					["guid"] = "Player-3234-0AE31122",
+					["class"] = "MONK",
+					["cache_time"] = 1624132981,
+					["realm"] = "Gallywix",
+				},
+				["Player-5-0E0336BB"] = {
+					["name"] = "Annahied-Proudmoore",
+					["guid"] = "Player-5-0E0336BB",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1618994195,
+					["realm"] = "Proudmoore",
+				},
+				["Player-162-0B3AFCB9"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Herbcraft-EmeraldDream",
+					["guid"] = "Player-162-0B3AFCB9",
+					["realm"] = "",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1618243295,
+					["rank"] = "Crafter",
+				},
+				["Player-3694-08D6246A"] = {
+					["name"] = "Bigboomer-Lightbringer",
+					["guid"] = "Player-3694-08D6246A",
+					["class"] = "DRUID",
+					["cache_time"] = 1624220199,
+					["realm"] = "Lightbringer",
+				},
+				["Player-60-0B99D1DD"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanrelic-Stormrage",
+					["guid"] = "Player-60-0B99D1DD",
+					["rank"] = "High Council",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1626059662,
+					["realm"] = "Stormrage",
+				},
+				["Player-1428-06A72B72"] = {
+					["name"] = "Galandir-Quel'Thalas",
+					["guid"] = "Player-1428-06A72B72",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1624135659,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-162-0B4BAB4B"] = {
+					["name"] = "Kittylikr-EmeraldDream",
+					["guid"] = "Player-162-0B4BAB4B",
+					["class"] = "PALADIN",
+					["cache_time"] = 1619026620,
+					["realm"] = "",
+				},
+				["Player-76-03840FD2"] = {
+					["name"] = "Blackzeros-Sargeras",
+					["guid"] = "Player-76-03840FD2",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1620090658,
+					["realm"] = "Sargeras",
+				},
+				["Player-162-0B4FCB0C"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Forgecraft-EmeraldDream",
+					["guid"] = "Player-162-0B4FCB0C",
+					["realm"] = "",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1624242303,
+					["rank"] = "Crafter",
+				},
+				["Player-3683-0C7645B5"] = {
+					["name"] = "Userdemon-Dalaran",
+					["guid"] = "Player-3683-0C7645B5",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1622796772,
+					["realm"] = "Dalaran",
+				},
+				["Player-113-029F6932"] = {
+					["name"] = "Mathwaffle-Suramar",
+					["guid"] = "Player-113-029F6932",
+					["class"] = "PALADIN",
+					["cache_time"] = 1624220437,
+					["realm"] = "Suramar",
+				},
+				["Player-77-0BE30D57"] = {
+					["name"] = "Glasscannon-Destromath",
+					["guid"] = "Player-77-0BE30D57",
+					["class"] = "MAGE",
+					["cache_time"] = 1622640583,
+					["realm"] = "Destromath",
+				},
+				["Player-162-09CE598E"] = {
+					["name"] = "Honustustere-EmeraldDream",
+					["guid"] = "Player-162-09CE598E",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1624247624,
+					["realm"] = "",
+				},
+				["Player-1427-0A39BA31"] = {
+					["name"] = "Ttumbo-Ragnaros",
+					["guid"] = "Player-1427-0A39BA31",
+					["class"] = "ROGUE",
+					["cache_time"] = 1624100278,
+					["realm"] = "Ragnaros",
+				},
+				["Player-1428-0CE5C4DE"] = {
+					["name"] = "Ehido-Quel'Thalas",
+					["guid"] = "Player-1428-0CE5C4DE",
+					["class"] = "ROGUE",
+					["cache_time"] = 1618178820,
+					["realm"] = "Quel'Thalas",
+				},
+				["Player-5-0A53D440"] = {
+					["name"] = "Talwae-Proudmoore",
+					["guid"] = "Player-5-0A53D440",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1621107144,
+					["realm"] = "Proudmoore",
+				},
+				["Player-11-0BCE40B7"] = {
+					["name"] = "Uncleghost-Tichondrius",
+					["guid"] = "Player-11-0BCE40B7",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624104299,
+					["realm"] = "Tichondrius",
+				},
+				["Player-60-0E0F5483"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Jaxxkungfu-Stormrage",
+					["guid"] = "Player-60-0E0F5483",
+					["realm"] = "Stormrage",
+					["class"] = "MONK",
+					["cache_time"] = 1616381537,
+					["rank"] = "Recruit",
+				},
+				["Player-11-09CD1ABA"] = {
+					["name"] = "Cocoaheals-Tichondrius",
+					["guid"] = "Player-11-09CD1ABA",
+					["class"] = "DRUID",
+					["cache_time"] = 1621239985,
+					["realm"] = "Tichondrius",
+				},
+				["Player-1151-08E0EE8A"] = {
+					["name"] = "Mindsculptor-Rexxar",
+					["guid"] = "Player-1151-08E0EE8A",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1620090149,
+					["realm"] = "Rexxar",
+				},
+				["Player-1425-0AD08B56"] = {
+					["name"] = "Aurélien-Drakkari",
+					["guid"] = "Player-1425-0AD08B56",
+					["class"] = "DEATHKNIGHT",
+					["cache_time"] = 1624098939,
+					["realm"] = "Drakkari",
+				},
+				["Player-162-0A2F1F9A"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanslayer-EmeraldDream",
+					["guid"] = "Player-162-0A2F1F9A",
+					["rank"] = "Officer",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623805869,
+					["realm"] = "",
+				},
+				["Player-60-0BD74957"] = {
+					["name"] = "Pimlii-Stormrage",
+					["guid"] = "Player-60-0BD74957",
+					["class"] = "HUNTER",
+					["cache_time"] = 1624035499,
+					["realm"] = "Stormrage",
+				},
+				["Player-5-0BDC0B9F"] = {
+					["name"] = "Osyx-Proudmoore",
+					["guid"] = "Player-5-0BDC0B9F",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1617957735,
+					["realm"] = "Proudmoore",
+				},
+				["Player-1175-0B8A01EF"] = {
+					["name"] = "Tonygunk-Trollbane",
+					["guid"] = "Player-1175-0B8A01EF",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1623446864,
+					["realm"] = "Trollbane",
+				},
+				["Player-60-0A6E12EE"] = {
+					["name"] = "Samoansavage-Stormrage",
+					["guid"] = "Player-60-0A6E12EE",
+					["class"] = "DRUID",
+					["cache_time"] = 1626059436,
+					["realm"] = "Stormrage",
+				},
+				["Player-3207-081C9EC0"] = {
+					["name"] = "Riely-Goldrinn",
+					["guid"] = "Player-3207-081C9EC0",
+					["class"] = "DRUID",
+					["cache_time"] = 1623155984,
+					["realm"] = "Goldrinn",
+				},
+				["Player-121-06125227"] = {
+					["name"] = "Ruprekt-KhazModan",
+					["guid"] = "Player-121-06125227",
+					["class"] = "PALADIN",
+					["cache_time"] = 1621238306,
+					["realm"] = "KhazModan",
+				},
+				["Player-3725-0442E978"] = {
+					["name"] = "Cny-Frostmourne",
+					["guid"] = "Player-3725-0442E978",
+					["class"] = "PRIEST",
+					["cache_time"] = 1620228376,
+					["realm"] = "Frostmourne",
+				},
+				["Player-60-0E7C8BFE"] = {
+					["name"] = "Juztiz-Stormrage",
+					["guid"] = "Player-60-0E7C8BFE",
+					["class"] = "PALADIN",
+					["cache_time"] = 1624035684,
+					["realm"] = "Stormrage",
+				},
+				["Player-162-0A01C9F2"] = {
+					["role"] = "HEALER",
+					["name"] = "Samoansage-EmeraldDream",
+					["guid"] = "Player-162-0A01C9F2",
+					["realm"] = "",
+					["class"] = "SHAMAN",
+					["cache_time"] = 1624242089,
+					["rank"] = "Officer",
+				},
+				["Player-3683-0C0DC7F8"] = {
+					["name"] = "Tarllyne-Dalaran",
+					["guid"] = "Player-3683-0C0DC7F8",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1624093234,
+					["realm"] = "Dalaran",
+				},
+				["Player-1426-0D9647CA"] = {
+					["name"] = "Kithros-AeriePeak",
+					["guid"] = "Player-1426-0D9647CA",
+					["class"] = "MAGE",
+					["cache_time"] = 1622796689,
+					["realm"] = "AeriePeak",
+				},
+				["Player-162-0A01CDBD"] = {
+					["name"] = "Samoantitan-EmeraldDream",
+					["guid"] = "Player-162-0A01CDBD",
+					["class"] = "PALADIN",
+					["cache_time"] = 1617435957,
+					["realm"] = "",
+				},
+				["Player-77-0E6E140A"] = {
+					["name"] = "Yoto-Nazjatar",
+					["guid"] = "Player-77-0E6E140A",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1620229073,
+					["realm"] = "Nazjatar",
+				},
+				["Player-3725-0BDED3CD"] = {
+					["name"] = "Drener-Frostmourne",
+					["guid"] = "Player-3725-0BDED3CD",
+					["class"] = "PRIEST",
+					["cache_time"] = 1617957397,
+					["realm"] = "Frostmourne",
+				},
+				["Player-162-0A01CDAD"] = {
+					["role"] = "DAMAGER",
+					["name"] = "Samoanranger-EmeraldDream",
+					["guid"] = "Player-162-0A01CDAD",
+					["rank"] = "Officer",
+					["class"] = "HUNTER",
+					["cache_time"] = 1621665813,
+					["realm"] = "",
+				},
+				["Player-96-0C02F583"] = {
+					["name"] = "Zenogias-Scilla",
+					["guid"] = "Player-96-0C02F583",
+					["class"] = "DEMONHUNTER",
+					["cache_time"] = 1621238709,
+					["realm"] = "Scilla",
+				},
+				["Player-60-0E56A13E"] = {
+					["name"] = "Mindagolds-Stormrage",
+					["guid"] = "Player-60-0E56A13E",
+					["class"] = "DRUID",
+					["cache_time"] = 1617957767,
+					["realm"] = "Stormrage",
+				},
+				["Player-162-096F3B6F"] = {
+					["name"] = "Krimmzon-EmeraldDream",
+					["guid"] = "Player-162-096F3B6F",
+					["class"] = "PALADIN",
+					["cache_time"] = 1618362390,
+					["realm"] = "",
+				},
+				["Player-162-0B3641AC"] = {
+					["name"] = "Ashh-EmeraldDream",
+					["guid"] = "Player-162-0B3641AC",
+					["class"] = "MAGE",
+					["cache_time"] = 1618123265,
+					["realm"] = "",
 				},
 			},
 		},
-		["locale"] = "enUS",
-		["version"] = "3.1.5",
-		["regionID"] = 1,
-		["errors"] = {
-			{
-				["stack"] = {
-					"[string \"@Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:305: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:244>\n...\n", -- [1]
-					"[string \"@Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:119: in function `OnNamePlateAdded'\n...\n", -- [2]
-				},
-				["msg"] = "[ADDON_ACTION_BLOCKED] AddOn 'RCLootCouncil' tried to call the protected function 'SetTargetClampingInsets()'.",
-				["time"] = 1616726338,
-				["count"] = 1,
-			}, -- [1]
-		},
+	},
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Fedieb - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Buycraft - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Orecraft - Emerald Dream"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
+		["Dustcraft - Emerald Dream"] = "Default",
+		["Ishaesh - Emerald Dream"] = "Default",
+		["Samoanghost - Frostmourne"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Forgecraft - Emerald Dream"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoansavage - Emerald Dream"] = "Default",
+		["Kkdev - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Kk - Bloodhoof"] = "Default",
+		["Samoansage - Emerald Dream"] = "KokonutKrew",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Gl - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Samoansentry - Emerald Dream"] = "Default",
+		["Samoaninja - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
+		["Xb - Emerald Dream"] = "Default",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Samoanghost - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -2253,6 +3499,53 @@ RCLootCouncilDB = {
 				["RCVotingFrame"] = {
 					["moreInfo"] = false,
 				},
+			},
+			["itemStorage"] = {
+				{
+					["inBags"] = true,
+					["type"] = "temp",
+					["link"] = "|cffa335ee|Hitem:178783::::::::60:264::16:5:7365:7359:6652:1508:6646:1:28:1279:::|h[Siphoning Phylactery Shard]|h|r",
+					["time_remaining"] = 7140,
+					["time_added"] = 1618797306,
+					["args"] = {
+					},
+				}, -- [1]
+				{
+					["inBags"] = true,
+					["type"] = "temp",
+					["link"] = "|cffa335ee|Hitem:178745::::::::60:264::16:5:7367:7359:6652:1514:6646:1:28:1279:::|h[Striders of Restless Malice]|h|r",
+					["time_remaining"] = 7140,
+					["time_added"] = 1624094918,
+					["args"] = {
+					},
+				}, -- [2]
+				{
+					["inBags"] = true,
+					["type"] = "temp",
+					["link"] = "|cffa335ee|Hitem:179355::::::::60:264::33:6:7382:7359:6652:7194:1517:6646:1:28:1279:::|h[Death God's Signet]|h|r",
+					["time_remaining"] = 7140,
+					["time_added"] = 1624098354,
+					["args"] = {
+					},
+				}, -- [3]
+				{
+					["inBags"] = true,
+					["type"] = "temp",
+					["link"] = "|cffa335ee|Hitem:178870::::::::60:264::33:6:7381:7359:6652:7193:1514:6646:1:28:1279:::|h[Ritual Bone Band]|h|r",
+					["time_remaining"] = 7140,
+					["time_added"] = 1624102148,
+					["args"] = {
+					},
+				}, -- [4]
+				{
+					["inBags"] = true,
+					["type"] = "temp",
+					["link"] = "|cffa335ee|Hitem:180123::::::::60:264::33:5:7383:7359:6652:1521:6646:1:28:1279:::|h[Drape of Twisted Loyalties]|h|r",
+					["time_remaining"] = 7140,
+					["time_added"] = 1624135598,
+					["args"] = {
+					},
+				}, -- [5]
 			},
 			["UI"] = {
 				["tradeui"] = {
@@ -2343,11 +3636,37 @@ RCLootCouncilDB = {
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
 		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
-		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
 		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
-		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
-		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Buycraft - Emerald Dream"] = "Buycraft - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Ishaesh - Emerald Dream"] = "Ishaesh - Emerald Dream",
+		["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
 		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Kk - Bloodhoof"] = "Kk - Bloodhoof",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoansentry - Emerald Dream"] = "Samoansentry - Emerald Dream",
+		["Samoaninja - Tichondrius"] = "Samoaninja - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
 		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
 	},
 }

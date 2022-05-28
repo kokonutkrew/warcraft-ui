@@ -1,0 +1,60 @@
+
+OmniBarDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Bubbels - Emerald Dream"] = "Default",
+		["Stronguard - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Traap - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["scenario"] = true,
+					["tooltips"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["border"] = true,
+					["center"] = false,
+					["locked"] = false,
+					["swipeAlpha"] = 0.65,
+					["arena"] = true,
+					["growUpward"] = true,
+					["size"] = 40,
+					["cooldownCount"] = true,
+					["highlightTarget"] = true,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.45,
+					["align"] = "CENTER",
+					["highlightFocus"] = false,
+					["padding"] = 2,
+					["adaptive"] = false,
+					["maxIcons"] = 32,
+					["ratedBattleground"] = true,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "RIGHT",
+						["relativePoint"] = "RIGHT",
+						["yOfs"] = -88.19978332519531,
+						["xOfs"] = 0,
+						["frameStrata"] = "MEDIUM",
+					},
+					["world"] = true,
+					["showUnused"] = false,
+					["trackUnit"] = "ENEMY",
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

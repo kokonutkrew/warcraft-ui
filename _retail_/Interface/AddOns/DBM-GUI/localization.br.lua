@@ -1,4 +1,4 @@
-﻿if GetLocale() ~= "ptBR" then return end
+if GetLocale() ~= "ptBR" then return end
 
 if not DBM_GUI_L then DBM_GUI_L = {} end
 
@@ -11,15 +11,8 @@ L.TranslationBy 			= "GlitterStorm @ Azralon"
 L.OTabBosses	= "Chefes"
 L.OTabOptions	= "Opções"
 
-L.TabCategory_Options	 	= "Opções Gerais"
-L.TabCategory_WOD	 		= "Warlords of Draenor"
-L.TabCategory_MOP	 		= "Mists of Pandaria"
-L.TabCategory_CATA	 		= "Cataclysm"
-L.TabCategory_WOTLK 		= "Wrath of the Lich King"
-L.TabCategory_BC 			= "The Burning Crusade"
-L.TabCategory_CLASSIC		= "Wow Vanilla"
-L.TabCategory_PVP 			= "PVP"
-L.TabCategory_OTHER    		= "Outros módulos"
+L.TabCategory_Options		= "Opções Gerais"
+L.TabCategory_OTHER			= "Outros módulos"
 
 L.BossModLoaded 			= "%s estatísticas"
 L.BossModLoad_now 			= [[Esse módulo não está carregado.
@@ -37,7 +30,7 @@ L.Mod_Enabled				= "Habilitar módulo"
 L.Mod_Reset					= "Carregar opções padrão"
 L.Reset 					= "Resetar"
 
-L.Enable  					= "Habilitar"
+L.Enable					= "Habilitar"
 L.Disable					= "Desabilitar"
 
 L.NoSound					= "Sem som"
@@ -100,9 +93,9 @@ L.MonochromeThickOutline	= "Espessura do contorno Monocromático"
 L.RaidWarnSound				= "toque som no aviso de raid"
 
 -- não existem no en.lua
-L.RaidWarnMessage 			= "Obrigado por utilizar o Deadly Boss Mods"   -- não existe no en.lua
-L.BarWhileMove 				= "Aviso de Raid móvel"   -- não existe no en.lua
-L.RaidWarnSound				= "Tocar som junto com o aviso na raid"    -- não existe no en.lua
+L.RaidWarnMessage 			= "Obrigado por utilizar o Deadly Boss Mods" -- não existe no en.lua
+L.BarWhileMove 				= "Aviso de Raid móvel" -- não existe no en.lua
+L.RaidWarnSound				= "Tocar som junto com o aviso na raid" -- não existe no en.lua
 
 
 

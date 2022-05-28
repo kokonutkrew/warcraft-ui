@@ -45,7 +45,7 @@ local button = setupbutton or self]],
 }
 
 -- Check a test
-function check(result, test, atype)
+local function check(result, test, atype)
 	local pass = true
 	local pre, rest = result:sub(1, #prelude[atype]), result:sub(#prelude[atype]+1, -1)
 	local expected = tostring(test[atype])
@@ -73,7 +73,7 @@ local test_mt = {__index = function(t,k)
 	return ""
 end}
 
-function addtest(test)
+local function addtest(test)
 	setmetatable(test, test_mt)
 	tests[#tests+1] = test
 end
@@ -468,7 +468,7 @@ button:SetAttribute("spell2", nil)]],
 for idx, test in ipairs(tests) do
 	io.stdout:write("[" .. test.name .. "]")
 	addon.bindings = test.bindings
-	function GetActiveSpecGroup()
+	_G["GetActiveSpecGroup"] = function()
 		return test.talentGroup and test.talentGroup or 1
 	end
 

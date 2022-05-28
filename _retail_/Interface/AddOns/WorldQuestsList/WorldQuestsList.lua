@@ -1,4 +1,4 @@
-local VERSION = 100
+local VERSION = 104
 
 --[[
 Special icons for rares, pvp or pet battle quests in list
@@ -307,6 +307,14 @@ Minor fixes
 
 9.0.5 update
 Added warmode bonus for shadowlands quests
+
+Wago update
+
+9.1.5 update
+
+Bugfixes
+
+9.2 update
 ]]
 
 local GlobalAddonName, WQLdb = ...
@@ -1643,7 +1651,7 @@ do
 		end
 	end
 	local hookVignetteFunc = function(self,button)
-		if self.vignetteInfo and self.vignetteInfo.atlasName == "VignetteLoot" then
+		if self.vignetteInfo and (self.vignetteInfo.atlasName == "VignetteLoot" or self.vignetteInfo.atlasName == "VignetteLootElite") then
 			local mapID = self:GetMap():GetMapID()
 			local x,y = self:GetPosition()
 			if x and y then
@@ -2098,6 +2106,10 @@ do
 		[1851] = 2456,
 		[1852] = 2451,
 		[1853] = 2447,
+
+		[1907] = 2470,
+
+		[1982] = 2478,
 	}
 	local fg_list = {
 		[2164] = "Both",
@@ -2119,6 +2131,8 @@ do
 		[2410] = "Both",
 		[2413] = "Both",
 		[2407] = "Both",
+
+		[2478] = "Both",
 	}
 	function WorldQuestList:IsFactionCurrency(currencyID)
 		if list[currencyID or 0] then
@@ -3312,7 +3326,7 @@ do
 	list[#list+1] = {text = LOCALE.gear,			func = SetFilter,	arg1 = 1,					checkable = true,				}
 	list[#list+1] = {text = LE.ARTIFACT_POWER,		func = SetFilter,	arg1 = 2,					checkable = true,	shownFunc = LEGION	}
 	list[#list+1] = {text = LE.AZERITE,			func = SetFilterType,	arg1 = "azerite",				checkable = true,	shownFunc = NOT_LEGION	}
-	list[#list+1] = {text = ANIMA,				func = SetFilterType,	arg1 = "anima",					checkable = true,	shownFunc = SL		}
+	list[#list+1] = {text = WORLD_QUEST_REWARD_FILTERS_ANIMA,func = SetFilterType,	arg1 = "anima",					checkable = true,	shownFunc = SL		}
 	list[#list+1] = {text = LE.ORDER_RESOURCES_NAME_LEGION,	func = SetFilter,	arg1 = 3,					checkable = true,	shownFunc = LEGION	}
 	list[#list+1] = {text = LE.ORDER_RESOURCES_NAME_BFA,	func = SetFilterType,	arg1 = "bfa_orderres",				checkable = true,	shownFunc = NOT_LEGION	}
 	list[#list+1] = {text = LOCALE.blood,			func = SetFilter,	arg1 = 4,					checkable = true,	shownFunc = LEGION	}
@@ -3346,7 +3360,7 @@ do
 	list[#list+1] = {text = LOCALE.bountyIgnoreFilter,		func = SetIgnoreFilter,	arg1 = "bountyIgnoreFilter",		checkable = true,				}
 	list[#list+1] = {text = LE.ARTIFACT_POWER,			func = SetIgnoreFilter,	arg1 = "apIgnoreFilter",		checkable = true,	shownFunc = LEGION	}
 	list[#list+1] = {text = LE.AZERITE,				func = SetIgnoreFilter,	arg1 = "azeriteIgnoreFilter",		checkable = true,	shownFunc = NOT_LEGION	}
-	list[#list+1] = {text = ANIMA,					func = SetIgnoreFilter,	arg1 = "animaIgnoreFilter",		checkable = true,	shownFunc = SL		}
+	list[#list+1] = {text = WORLD_QUEST_REWARD_FILTERS_ANIMA,	func = SetIgnoreFilter,	arg1 = "animaIgnoreFilter",		checkable = true,	shownFunc = SL		}
 	list[#list+1] = {text = GetCurrencyInfo(1721),			func = SetIgnoreFilter,	arg1 = "manapearlIgnoreFilter",		checkable = true,	shownFunc = NOT_LEGION	}
 	list[#list+1] = {text = LOCALE.honorIgnoreFilter,		func = SetIgnoreFilter,	arg1 = "honorIgnoreFilter",		checkable = true,				}
 	list[#list+1] = {text = SHOW_PET_BATTLES_ON_MAP_TEXT,		func = SetIgnoreFilter,	arg1 = "petIgnoreFilter",		checkable = true,				}
@@ -3375,6 +3389,8 @@ do
 	list[#list+1] = {text = GetFaction(2410),	func = SetIgnoreFilter,	arg1 = "faction2410IgnoreFilter",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2410) and SL() end	}
 	list[#list+1] = {text = GetFaction(2413),	func = SetIgnoreFilter,	arg1 = "faction2413IgnoreFilter",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2413) and SL() end	}
 	list[#list+1] = {text = GetFaction(2407),	func = SetIgnoreFilter,	arg1 = "faction2407IgnoreFilter",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2407) and SL() end	}
+
+	list[#list+1] = {text = GetFaction(2478),	func = SetIgnoreFilter,	arg1 = "faction2478IgnoreFilter",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2478) and SL() end	}
 
 	list[#list+1] = {text = CLOSE,			func = function() ELib.ScrollDropDown.Close() end,		padding = 16,	}
 
@@ -3946,6 +3962,8 @@ do
 		{text = GetFaction(2410),	func = SetHighlighFaction,	arg1 = "faction2410Highlight",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2410) and SL() end	},
 		{text = GetFaction(2413),	func = SetHighlighFaction,	arg1 = "faction2413Highlight",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2413) and SL() end	},
 		{text = GetFaction(2407),	func = SetHighlighFaction,	arg1 = "faction2407Highlight",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2407) and SL() end	},
+
+		{text = GetFaction(2478),	func = SetHighlighFaction,	arg1 = "faction2478Highlight",	checkable = true,	shownFunc = function() return WorldQuestList:IsFactionAvailable(2478) and SL() end	},
 	}
 
 	list[#list+1] = {
@@ -5760,6 +5778,14 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 				info.x,info.y = nil
 			end
 		end
+		if (mapAreaID == 1550) then
+			local oppositeMapQuests = C_TaskQuest.GetQuestsForPlayerByMapID(1970)
+			for _,info in pairs(oppositeMapQuests or WorldQuestList.NULLTable) do
+				taskInfo[#taskInfo+1] = info
+				info.dX,info.dY,info.dMap = info.x,info.y,1355
+				info.x,info.y = 0.86, 0.80
+			end
+		end
 	end
 
 	if mapAreaID == 905 then	--Argus
@@ -6383,7 +6409,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 									end
 								elseif text and text:find(LE.ITEM_BIND_ON_EQUIP) and j<=4 then
 									isBoeItem = true
-								elseif text and text:find(ANIMA.."|r$") then
+								elseif text and text:find(WORLD_QUEST_REWARD_FILTERS_ANIMA.."|r$") then
 									isAnimaItem = true
 								elseif text and isAnimaItem and text:find("^"..LE.ITEM_SPELL_TRIGGER_ONUSE) then
 									local num = text:gsub("(%d+)[ %.,]+(%d+)","%1%2"):match("%d+")
@@ -6421,7 +6447,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 							RewardListColor[#RewardListStrings] = LE.BAG_ITEM_QUALITY_COLORS[6]
 							RewardListType[#RewardListStrings] = (VWQL.SortPrio.anima or defSortPrio.anima)
 
-							RewardListStrings[#RewardListStrings] = numItems .. " ".. ANIMA
+							RewardListStrings[#RewardListStrings] = numItems .. " ".. WORLD_QUEST_REWARD_FILTERS_ANIMA
 							RewardListSort[#RewardListStrings] = (numItems or 0) + (itemID / 1000000)
 						end
 
@@ -6519,6 +6545,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 							money = money * WAR_MODE_BONUS
 							money = money - money % 100
 						end
+						money = money - money % 100 --remove copper
 						RewardListStrings[#RewardListStrings+1] = GetCoinTextureString(money)
 						RewardListSort[#RewardListStrings] = money
 						RewardListType[#RewardListStrings] = (VWQL.SortPrio.gold or defSortPrio.gold)
@@ -6746,7 +6773,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 			for i=1,#result do
 				local info = result[i].info
 				if info and info.questId and info.x and not result[i].showAsRegQuest then
-					if (O.generalMapType == 3 and VWQL.ArgusMap) or (mapAreaID == 619 and info.x == 0.87 and info.y == 0.165) or ((mapAreaID == 875 or mapAreaID == 876) and info.x == 0.87 and info.y == 0.12) then
+					if (O.generalMapType == 3 and VWQL.ArgusMap) or (mapAreaID == 619 and info.x == 0.87 and info.y == 0.165) or ((mapAreaID == 875 or mapAreaID == 876) and info.x == 0.87 and info.y == 0.12) or (mapAreaID == 1550 and info.x == 0.86 and info.y == 0.80) then
 						info = WorldQuestList:GetRadiantWQPosition(info,result)
 					end
 					pinsToRemove[info.questId] = nil
@@ -7039,7 +7066,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 	end
 
 	if WorldQuestList:IsShadowlandsZone(mapAreaID) then
-		WorldQuestList.footer.ap:SetText(ANIMA..": "..totalAnima)
+		WorldQuestList.footer.ap:SetText(WORLD_QUEST_REWARD_FILTERS_ANIMA..": "..totalAnima)
 		WorldQuestList.footer.OR:SetText("")
 	elseif WorldQuestList:IsLegionZone(mapAreaID) then
 		local name,_,icon = GetCurrencyInfo(1533)
@@ -7563,7 +7590,7 @@ WorldQuestList.SortPriorWindow:SetScript("OnShow", function(self)
 
 		local list = {
 			{"bounty_cache","8.3 Chest",133572},
-			{"anima",ANIMA,613397},
+			{"anima",WORLD_QUEST_REWARD_FILTERS_ANIMA,613397},
 			{"azerite",C_CurrencyInfo.GetBasicCurrencyInfo(1553).name,C_CurrencyInfo.GetCurrencyContainerInfo(1553, 3000).icon},
 			{"curr1560","|T"..C_CurrencyInfo.GetBasicCurrencyInfo(1560).icon..":18|t "..C_CurrencyInfo.GetBasicCurrencyInfo(1560).name.." / ".."|T"..C_CurrencyInfo.GetBasicCurrencyInfo(1220).icon..":18|t "..C_CurrencyInfo.GetBasicCurrencyInfo(1220).name},	--War Resources
 			{"curr1508",C_CurrencyInfo.GetBasicCurrencyInfo(1508).name,C_CurrencyInfo.GetBasicCurrencyInfo(1508).icon},	--Veiled Argunite
@@ -7873,6 +7900,7 @@ WorldQuestList.TreasureData = WQLdb.TreasureData or {}
 
 --- LFG features
 
+
 local QuestCreationBox = CreateFrame("Button","WQL_QuestCreationBox",UIParent)
 QuestCreationBox:SetSize(350,120)
 QuestCreationBox:SetPoint("CENTER",0,250)
@@ -7951,7 +7979,7 @@ QuestCreationBox.PartyFind:SetPoint("BOTTOM",0,5)
 QuestCreationBox.PartyFind:SetScript("OnClick",function(self,button)
 	QuestCreationBox:Hide()
 	if C_LFGList.CanCreateQuestGroup(self.questID) then
-		LFGListUtil_FindQuestGroup(self.questID)
+		LFGListUtil_FindQuestGroup(self.questID, true)	--taint error
 	elseif button == "RightButton" then
 		WorldQuestList.LFG_StartQuest(self.questID)
 	else
@@ -8004,7 +8032,7 @@ local defPointsSearch
 local minIlvlReq = UnitLevel'player' >= 60 and 120 or 50
 
 function WQL_LFG_StartQuest(questID)
-	if GroupFinderFrame:IsVisible() or C_LFGList.GetActiveEntryInfo() then
+	if GroupFinderFrame:IsShown() or C_LFGList.GetActiveEntryInfo() then
 		return
 	end
 
@@ -8031,7 +8059,7 @@ function WQL_LFG_StartQuest(questID)
 		LFGListFrame_SetActivePanel(LFGListFrame.EntryCreation:GetParent(), LFGListFrame.EntryCreation)
 		autoCreate = true
 	else
-		LFGListEntryCreation_Show(LFGListFrame.EntryCreation, LFGListFrame.baseFilters, 1, 0)
+		--LFGListEntryCreation_Show(LFGListFrame.EntryCreation, LFGListFrame.baseFilters, 1, 0)
 	end
 
 	local activityID, categoryID, filters, questName = LFGListUtil_GetQuestCategoryData(questID)
@@ -8039,7 +8067,7 @@ function WQL_LFG_StartQuest(questID)
 		LFGListEntryCreation_Select(LFGListFrame.EntryCreation, filters, categoryID, nil, activityID)
 	end
 
-	if not defPoints then
+	if not defPoints and false then
 		defPoints = {
 			[edit] = {edit:GetPoint()},
 		}
@@ -8054,7 +8082,8 @@ function WQL_LFG_StartQuest(questID)
 			local autoAccept = true
 			local privateGroup = false
 
-			LFGListEntryCreation_ListGroupInternal(LFGListFrame.EntryCreation, LFGListFrame.EntryCreation.selectedActivity, itemLevel, honorLevel, autoAccept, privateGroup)
+			LFGListEntryCreation_ListGroupInternal(LFGListFrame.EntryCreation, LFGListFrame.EntryCreation.selectedActivity, itemLevel, autoAccept, privateGroup, questID, 0, 0, 0)
+			--C_LFGList.CreateListing(activityID, itemLevel, honorLevel, autoAccept, privateGroup, questID)
 
 			edit:ClearAllPoints()
 			edit:SetPoint(unpack(defPoints[edit]))
@@ -8222,7 +8251,7 @@ function WQL_LFG_Search(questID)
 		LFGListFrame_SetActivePanel(panel:GetParent(), searchPanel)
 		autoSearch = true
 	else
-		LFGListCategorySelection_StartFindGroup(panel)
+		LFGListCategorySelection_StartFindGroup(panel, QuestCreationBox.questID)
 	end
 
 	QuestCreationBox:Show()
@@ -8452,9 +8481,9 @@ QuestCreationBox:RegisterEvent("PARTY_LEADER_CHANGED")
 QuestCreationBox:RegisterEvent("GROUP_ROSTER_UPDATE")
 QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 	if event == "LFG_LIST_SEARCH_RESULTS_RECEIVED" then
-		if LFGListFrameSearchPanelStartGroup:IsShown() then
-			LFGListFrameSearchPanelStartGroup:Hide()
-		end
+		--if LFGListFrameSearchPanelStartGroup:IsShown() then
+		--	LFGListFrameSearchPanelStartGroup:Hide()
+		--end
 		local total,results = C_LFGList.GetSearchResults()
 		if total == 0 and searchQuestID and (VWQL and not VWQL.DisableLFG) then
 			isAfterSearch = true
@@ -8467,8 +8496,8 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 			local searchQ = LFGListFrame.SearchPanel.SearchBox:GetText()
 			searchQ = tonumber(searchQ)
 			if searchQ and searchQ > 10000 and searchQ < 1000000 then
-				LFGListFrameSearchPanelStartGroup.questID = searchQ
-				LFGListFrameSearchPanelStartGroup:Show()
+		--		LFGListFrameSearchPanelStartGroup.questID = searchQ
+		--		LFGListFrameSearchPanelStartGroup:Show()
 			end
 		end
 
@@ -8494,7 +8523,7 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 					return
 				end
 			end
-			StaticPopup_Hide("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
+			--StaticPopup_Hide("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
 
 			if not data.autoAccept and
 				(  GetNumGroupMembers(LE_PARTY_CATEGORY_HOME) + C_LFGList.GetNumInvitedApplicantMembers() + C_LFGList.GetNumPendingApplicantMembers() <= 5  )
@@ -8549,7 +8578,7 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		if (C_LFGList.GetActiveEntryInfo() or LFGListFrame.SearchPanel.SearchBox:GetText()==tostring(arg1)) and 
 			QuestUtils_IsQuestWorldQuest(arg1) and 
 			CheckQuestPassPopup(arg1) and 
-			(not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1) or (QuestCreationBox.type == 4 and QuestCreationBox.questID == arg1)) and 
+			(not QuestCreationBox:IsShown() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1) or (QuestCreationBox.type == 4 and QuestCreationBox.questID == arg1)) and 
 			(GetNumGroupMembers() or 0) > 1 
 		then
 			local data = C_LFGList.GetActiveEntryInfo()
@@ -8580,8 +8609,11 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		if not VWQL or VWQL.DisableLFG or not arg1 or C_LFGList.GetActiveEntryInfo() or VWQL.DisableLFG_Popup or (GetNumGroupMembers() or 0) > 1 then
 			return
 		end
+		--if true then	--disabled at all
+		--	return
+		--end
 		if QuestUtils_IsQuestWorldQuest(arg1) and 					--is WQ
-			(not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4)) and	--popup if not busy
+			(not QuestCreationBox:IsShown() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4)) and	--popup if not busy
 			 CheckQuestPassPopup(arg1) 						--wq pass filters
 		 then
 			QuestCreationBox.Text1:SetText("WQL|n"..(C_TaskQuest.GetQuestInfoByQuestID(arg1) or ""))
@@ -8603,11 +8635,11 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		if WorldQuestList.ObjectiveTracker_Update_hook then
 			WorldQuestList.ObjectiveTracker_Update_hook(2)
 		end
-		if QuestCreationBox:IsVisible() and QuestCreationBox.type == 3 and QuestCreationBox.questID == arg1 then
+		if QuestCreationBox:IsShown() and QuestCreationBox.type == 3 and QuestCreationBox.questID == arg1 then
 			QuestCreationBox:Hide()
 		end
 	elseif event == "GROUP_ROSTER_UPDATE" then
-		if GetNumGroupMembers() == 0 and QuestCreationBox:IsVisible() and QuestCreationBox.type == 2 and not C_LFGList.GetActiveEntryInfo() then
+		if GetNumGroupMembers() == 0 and QuestCreationBox:IsShown() and QuestCreationBox.type == 2 and not C_LFGList.GetActiveEntryInfo() then
 			QuestCreationBox:Hide()
 		end
 	end
@@ -8642,6 +8674,7 @@ do
 		end
 	end)
 end
+
 
 local objectiveTrackerButtons = {}
 WorldQuestList.LFG_objectiveTrackerButtons = objectiveTrackerButtons
@@ -9169,7 +9202,7 @@ do
 								for j=2, inspectScantip:NumLines() do
 									local tooltipLine = _G[GlobalAddonName.."WorldQuestListInspectScanningTooltipTextLeft"..j]
 									local text = tooltipLine:GetText()
-									if text and text:find(ANIMA.."|r$") then
+									if text and text:find(WORLD_QUEST_REWARD_FILTERS_ANIMA.."|r$") then
 										isAnima = 1
 									elseif text and isAnima and text:find("^"..LE.ITEM_SPELL_TRIGGER_ONUSE) then
 										local num = text:gsub("(%d+)[ %.,]+(%d+)","%1%2"):match("%d+")

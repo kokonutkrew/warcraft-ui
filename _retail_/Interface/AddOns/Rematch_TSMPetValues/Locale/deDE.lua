@@ -3,9 +3,9 @@
 --------------------------------------------------------------------------------------------
 -- Locale/enUS.lua - Strings for enUS
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: max line length 350
 

@@ -1,0 +1,94 @@
+
+SimulationCraftDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Kkranger - Emerald Dream"] = "Kkranger - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Adeadmineskk - Emerald Dream"] = "Adeadmineskk - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Sermaxim - Emerald Dream"] = "Sermaxim - Emerald Dream",
+		["Kokonutkiing - Emerald Dream"] = "Kokonutkiing - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Tygrrlilly - Emerald Dream"] = "Tygrrlilly - Emerald Dream",
+		["Azushina - Emerald Dream"] = "Azushina - Emerald Dream",
+		["Antoruskk - Emerald Dream"] = "Antoruskk - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Anightholdkk - Emerald Dream"] = "Anightholdkk - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+		["Niniconys - Emerald Dream"] = "Niniconys - Emerald Dream",
+		["Urorincar - Emerald Dream"] = "Urorincar - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Mp - Emerald Dream"] = "Mp - Emerald Dream",
+		["Plvl - Emerald Dream"] = "Plvl - Emerald Dream",
+		["Kkmystic - Emerald Dream"] = "Kkmystic - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+		},
+		["Samoanbeast - Emerald Dream"] = {
+		},
+		["Kkranger - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+		},
+		["Orecraft - Emerald Dream"] = {
+		},
+		["Adeadmineskk - Emerald Dream"] = {
+		},
+		["Forgecraft - Emerald Dream"] = {
+		},
+		["Sermaxim - Emerald Dream"] = {
+		},
+		["Kokonutkiing - Emerald Dream"] = {
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Tygrrlilly - Emerald Dream"] = {
+		},
+		["Azushina - Emerald Dream"] = {
+		},
+		["Antoruskk - Emerald Dream"] = {
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Farmcraft - Emerald Dream"] = {
+		},
+		["Samoansurge - Emerald Dream"] = {
+		},
+		["Herbcraft - Emerald Dream"] = {
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Anightholdkk - Emerald Dream"] = {
+		},
+		["Kokonutkween - Emerald Dream"] = {
+		},
+		["Niniconys - Emerald Dream"] = {
+		},
+		["Urorincar - Emerald Dream"] = {
+		},
+		["Mf - Emerald Dream"] = {
+		},
+		["Mp - Emerald Dream"] = {
+		},
+		["Plvl - Emerald Dream"] = {
+		},
+		["Kkmystic - Emerald Dream"] = {
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+	},
+}

@@ -12,7 +12,9 @@ L["Profiles"] = "Perfis"
 L["About"] = "Info"
 L["SpyDescription1"] = [[
 Spy é um addon que vai alerta-lo da presença de jogadores inimigos nas proximidades. Estas são algumas das principais características.
+
 ]]
+
 L["SpyDescription2"] = [[
 |cffffd000Lista de Proximidades|cffffffff
 A lista de Proximidades mostra qualquer inimigo detectado nas proximidades. Jogadores são removidos da lista se não forem mais detectados após um certo período de tempo.
@@ -24,10 +26,11 @@ Exibe todos os inimigos detectados em uma hora.
 Jogadores que são adicionados à lista de Ignorados não serão reportados pelo Spy. Você pode adicionar ou remover jogadores dessa lista usando o menu de contexto ou segurando Ctrl enquanto clicando no botão.
 
 |cffffd000Lista Negra|cffffffff
-Jogadores que são adicionados à Lista Negra são reportados pelo Spy através de um alarme sonoro.  Você pode adicionar ou remover jogadores dessa lista usando o menu de contexto ou segurando Shift enquanto clica no botão.
+Jogadores que são adicionados à Lista Negra são reportados pelo Spy através de um alarme sonoro.  Você pode adicionar ou remover jogadores dessa lista usando o menu de contexto ou segurando Shift enquanto clica no botão. O menu de contexto também permite que você justifique as razões que o levou a colocar determinada pessoa na Lista Negra. Se quiser colocar uma motivo especifico que não tenha na lista, em seguida, use "Digite seu próprio motivo..." em Outra lista.
 
-O menu de contexto também permite que você justifique as razões que o levou a colocar determinada pessoa na Lista Negra. Se quiser colocar uma motivo especifico que não tenha na lista, em seguida, use "Digite seu próprio motivo..." em Outra lista.
+]]
 
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons. 
 
@@ -72,6 +75,8 @@ L["Silithus"] = "Silithus"
 L["Chamber of Heart"] = "Câmara do Coração"
 L["Hall of Ancient Paths"] = "Salão dos Antigos Caminhos"
 L["Sanctum of the Sages"] = "Sacrário dos Sábios"
+L["Rustbolt"] = "Ferrúgia"
+L["Oribos"] = "Oribos"
 
 -- Display
 L["DisplayOptions"] = "Exibição"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "Mostrar no mapa somente inimigos que estej
 -- Data Management
 L["DataOptions"] = "Gerenciamento de Dados"
 L["DataOptionsDescription"] = [[
+
 Opções sobre como o Spy mantém e reúne dados.
 ]]
 L["PurgeData"] = "Limpar dados de inimigos não detectados após:"
@@ -286,6 +292,7 @@ L["Time"] = "Tempo"
 L["List"] = "Lista"	
 L["Filter"] = "Filtro"
 L["Show Only"] = "Spenas Mostrar"
+L["Realm"] = "Realm"
 L["KOS"] = "Lista Negra"
 L["Won/Lost"] = "Ganhou/Perdeu"
 L["Reason"] = "Motivo"

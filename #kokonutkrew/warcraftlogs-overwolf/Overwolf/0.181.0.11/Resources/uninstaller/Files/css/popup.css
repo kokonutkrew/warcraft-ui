@@ -1,0 +1,53 @@
+.overlay-popup {
+  opacity: 1;
+  transition: .3s opacity;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .overlay-popup h2 {
+    font-size: 18px;
+    margin-bottom: 16px; }
+  .overlay-popup p {
+    font-size: 16px;
+    line-height: 150%; }
+  .overlay-popup:not(.active) {
+    pointer-events: none;
+    opacity: 0; }
+  .overlay-popup .overlay-popup__overlay {
+    background: rgba(13, 10, 26, 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .overlay-popup .overlay-popup__popup {
+    background: #201C33;
+    border: 1px solid #332E4D;
+    position: relative;
+    width: 408px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column; }
+    .overlay-popup .overlay-popup__popup .window-control-close {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .overlay-popup .overlay-popup__popup .overlay-popup__popup__buttons {
+      margin-top: 24px;
+      margin-left: auto;
+      display: flex; }
+      .overlay-popup .overlay-popup__popup .overlay-popup__popup__buttons > * + * {
+        margin-left: 12px; }
+    .overlay-popup .overlay-popup__popup > h2 {
+      display: flex;
+      align-items: center;
+      line-height: 100%; }
+      .overlay-popup .overlay-popup__popup > h2 > img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px; }

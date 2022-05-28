@@ -1,0 +1,30 @@
+
+MegaMacroCharacterData = {
+	["Macros"] = {
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 121,
+			["Code"] = "P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]\n",
+			["Scope"] = "ch",
+			["Class"] = "Druid",
+			["ScopedIndex"] = 1,
+			["DisplayName"] = "VuhDoDCShieldData",
+		}, -- [1]
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 122,
+			["Code"] = "N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gra[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]\n",
+			["Scope"] = "ch",
+			["Class"] = "Druid",
+			["ScopedIndex"] = 2,
+			["DisplayName"] = "VuhDoDCShieldNames",
+		}, -- [2]
+	},
+	["Specializations"] = {
+		["Feral"] = {
+			["Macros"] = {
+			},
+		},
+	},
+	["Activated"] = true,
+}

@@ -1,0 +1,2 @@
+
+kkdb = nil

@@ -10,7 +10,8 @@
 		f 		T - Full version check reply. Only when open.
 ]]
 --- @type RCLootCouncil
-local _, addon = ...
+--- @type RCLootCouncil
+local addon = select(2, ...)
 local RCVersionCheck = addon:NewModule("VersionCheck", "AceTimer-3.0", "AceHook-3.0", "AceEvent-3.0", "AceBucket-3.0")
 local ST = LibStub("ScrollingTable")
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
@@ -257,14 +258,14 @@ end
 
 function RCVersionCheck:UpdateTotals()
     local total = #self.frame.rows
-    local tVersions = AccumulateIf(self.frame.rows, function(row)
-        return row.tVersion
+    local tVersions = AccumulateOp(self.frame.rows, function(row)
+        return row.tVersion and 1 or 0
     end)
-    local outdated = AccumulateIf(self.frame.rows, function(row)
-        return addon:VersionCompare(row.version, highestVersion)
+    local outdated = AccumulateOp(self.frame.rows, function(row)
+        return addon:VersionCompare(row.version, highestVersion) and 1 or 0
     end)
-    local normal = AccumulateIf(self.frame.rows, function(row)
-        return row.version == highestVersion
+    local normal = AccumulateOp(self.frame.rows, function(row)
+        return row.version == highestVersion and 1 or 0
     end)
     local text = TT:Acquire(
         colors.yellow:WrapTextInColorCode(tVersions),

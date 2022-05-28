@@ -1,0 +1,14 @@
+{
+  "type": "BuiltIn",
+  "meta": {
+    "name": "FacebookChat",
+    "dock_button_title": "Facebook Chat",
+    "version": "1.0.0.0",
+    "minimum-overwolf-version": "0.77.3.0",
+    "author": "Overwolf",
+    "icon": "Icon.png",
+    "launcher_icon": "Icon.ico",
+    "splash_image":"Splash.png",
+    "description": "Facebook Chat"
+  }
+}

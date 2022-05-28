@@ -1,0 +1,20 @@
+AllTheThings: disabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled
+Bartender4: enabled
+GRA: disabled
+FastGuildInvite: enabled
+[KK] Guild: disabled
+[KK] FGI: disabled
+[KK] GRA: disabled
+[KK] Guild Test: disabled
+WhereToGather: enabled
+Train-All: enabled
+TomTom: enabled
+ItemTooltipProfessionIcons: enabled
+ElitismHelper: enabled
+Details_TargetCaller: enabled
+CanIMogIt: enabled
+BuyEmAll: enabled
+BattlePetBreedID: enabled

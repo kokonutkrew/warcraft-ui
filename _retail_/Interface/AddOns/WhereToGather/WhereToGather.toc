@@ -1,0 +1,19 @@
+﻿## Interface: 90002
+## Title: Where To Gather
+## Notes: Adds a tooltip to crafting materials to let you know where you can gather them.
+## Author: Jack Thallon (Spiokra, Hellscream EU)
+## Version: 0.9
+
+WhereToGatherHerbs.lua
+WhereToGatherMetals.lua
+WhereToGatherLeather.lua
+WhereToGatherEnchanting.lua
+WhereToGatherCloth.lua
+WhereToGatherAlchemy.lua
+WhereToGatherElemental.lua
+WhereToGatherInscription.lua
+WhereToGatherFish.lua
+WhereToGatherMeats.lua
+WhereToGatherGems.lua
+WhereToGatherOther.lua
+WhereToGather.lua

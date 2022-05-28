@@ -1,0 +1,63 @@
+
+MountsJournalDB = {
+	["defProfile"] = {
+		["mountsWeight"] = {
+		},
+		["zoneMounts"] = {
+		},
+		["fly"] = {
+		},
+		["petForMount"] = {
+		},
+		["ground"] = {
+		},
+		["swimming"] = {
+		},
+	},
+	["mountTags"] = {
+	},
+	["mountAnimations"] = {
+	},
+	["mountsProfiles"] = {
+	},
+	["help"] = {
+	},
+	["filters"] = {
+	},
+	["config"] = {
+		["mountDescriptionToggle"] = true,
+		["arrowButtonsBrowse"] = true,
+		["modifier"] = "ALT",
+		["useRepairFlyableDurability"] = 31,
+		["macrosConfig"] = {
+			["DEATHKNIGHT"] = {
+			},
+			["WARRIOR"] = {
+			},
+			["ROGUE"] = {
+			},
+			["MAGE"] = {
+			},
+			["PRIEST"] = {
+			},
+			["PALADIN"] = {
+			},
+			["WARLOCK"] = {
+			},
+			["DEMONHUNTER"] = {
+			},
+			["SHAMAN"] = {
+			},
+			["DRUID"] = {
+			},
+			["MONK"] = {
+			},
+			["HUNTER"] = {
+			},
+		},
+		["useRepairMountsDurability"] = 41,
+	},
+	["defFilters"] = {
+	},
+	["lastAddonVersion"] = "v9.2.2",
+}

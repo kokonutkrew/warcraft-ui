@@ -1,0 +1,40 @@
+
+SpyPerCharDB = {
+	["version"] = "1.1",
+	["IgnoreData"] = {
+	},
+	["KOSData"] = {
+	},
+	["PlayerData"] = {
+		["Zác"] = {
+			["mapID"] = 1670,
+			["guild"] = "Pack Inc",
+			["zone"] = "Oribos",
+			["mapY"] = 0.52,
+			["class"] = "ROGUE",
+			["isEnemy"] = true,
+			["race"] = "Blood Elf",
+			["isGuess"] = false,
+			["name"] = "Zác",
+			["time"] = 1621486469,
+			["level"] = 60,
+			["mapX"] = 0.44,
+			["subZone"] = "Ring of Fates",
+		},
+		["Ysette"] = {
+			["mapID"] = 1670,
+			["guild"] = "Constant Karma",
+			["zone"] = "Oribos",
+			["mapY"] = 0.52,
+			["class"] = "PRIEST",
+			["isEnemy"] = true,
+			["race"] = "Nightborne",
+			["isGuess"] = false,
+			["name"] = "Ysette",
+			["time"] = 1621486487,
+			["level"] = 60,
+			["mapX"] = 0.44,
+			["subZone"] = "Ring of Fates",
+		},
+	},
+}

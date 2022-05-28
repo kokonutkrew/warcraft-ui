@@ -326,35 +326,40 @@
 				end
 				return table1 [4] < table2 [4]
 			end
-			
---[[exported]]	function Details:GetBarColor (actor)
+
+--[[exported]]	function Details:GetBarColor(actor)
 				actor = actor or self
+
 				if (actor.monster) then
-					return _unpack (Details.class_colors.ENEMY)
-					
+					return _unpack(Details.class_colors.ENEMY)
+
+				elseif (actor.customColor) then
+					return _unpack(actor.customColor)
+
+				elseif (actor.spellicon) then
+					return 0.729, 0.917, 1
+
 				elseif (actor.owner) then
-					return _unpack (Details.class_colors [actor.owner.classe or "UNKNOW"])
+					return _unpack(Details.class_colors[actor.owner.classe or "UNKNOW"])
 
 				elseif (actor.arena_team and Details.color_by_arena_team) then
 					if (actor.arena_team == 0) then
-						return _unpack (Details.class_colors.ARENA_GREEN)
+						return _unpack(Details.class_colors.ARENA_GREEN)
 					else
-						return _unpack (Details.class_colors.ARENA_YELLOW)
+						return _unpack(Details.class_colors.ARENA_YELLOW)
 					end
-				--elseif (actor.enemy and not actor.arena_enemy) then
-				--	return 0.94117, 0.1, 0.1, 1
+
 				else
 					if (not is_player_class [actor.classe] and actor.flag_original and _bit_band (actor.flag_original, 0x00000020) ~= 0) then --> neutral
-						return _unpack (Details.class_colors.NEUTRAL)
+						return _unpack(Details.class_colors.NEUTRAL)
 					elseif (actor.color) then
 						return _unpack(actor.color)
 					else
-						return _unpack (Details.class_colors [actor.classe or "UNKNOW"])
+						return _unpack(Details.class_colors [actor.classe or "UNKNOW"])
 					end
-					
 				end
 			end
-			
+
 --[[exported]]	function Details:GetSpellLink (spellid)
 				if (_type (spellid) ~= "number") then
 					return spellid
@@ -915,41 +920,41 @@
 		return Details:Reportar (report_table, {_no_current = true, _no_inverse = true, _custom = true})
 	end
 	
-	function atributo_damage:AtualizarBySpell (tabela, whichRowLine, colocacao, instancia)
+	function atributo_damage:AtualizarBySpell (tabela, whichRowLine, colocacao, instance)
 		tabela ["byspell"] = true --> marca que esta tabela � uma tabela de frags, usado no controla na hora de montar o tooltip
-		local thisLine = instancia.barras [whichRowLine] --> pega a refer�ncia da barra na janela
-		
+		local thisLine = instance.barras [whichRowLine] --> pega a refer�ncia da barra na janela
+
 		if (not thisLine) then
-			print ("DEBUG: problema com <instancia.thisLine> "..whichRowLine .. " " .. colocacao)
+			print ("DEBUG: problema com <instance.thisLine> "..whichRowLine .. " " .. colocacao)
 			return
 		end
-		
+
 		thisLine.minha_tabela = tabela
-		
+
 		local spellname, _, spellicon = _GetSpellInfo (tabela [1])
-		
+
 		tabela.nome = spellname --> evita dar erro ao redimencionar a janela
 		tabela.minha_barra = whichRowLine
 		thisLine.colocacao = colocacao
-		
+
 		if (not _getmetatable (tabela)) then 
 			_setmetatable (tabela, {__call = RefreshBarraBySpell}) 
 			tabela._custom = true
 		end
 
-		local total = instancia.showing.totals.by_spell
+		local total = instance.showing.totals.by_spell
 		local porcentagem
-		
-		if (instancia.row_info.percent_type == 1) then
-			porcentagem = _cstr ("%.1f", tabela [2] / total * 100)
-		elseif (instancia.row_info.percent_type == 2) then
-			porcentagem = _cstr ("%.1f", tabela [2] / instancia.top * 100)
-		end
-		
-		thisLine.lineText1:SetText (colocacao .. ". " .. spellname)
 
-		local bars_show_data = instancia.row_info.textR_show_data
-		
+		if (instance.row_info.percent_type == 1) then
+			porcentagem = _cstr ("%.1f", tabela [2] / total * 100)
+		elseif (instance.row_info.percent_type == 2) then
+			porcentagem = _cstr ("%.1f", tabela [2] / instance.top * 100)
+		end
+
+		thisLine.lineText1:SetText(colocacao .. ". " .. spellname)
+
+		local bars_show_data = instance.row_info.textR_show_data
+
 		local spell_damage = tabela [2] -- spell_damage passar por uma ToK function, precisa ser number
 		if (not bars_show_data [1]) then
 			spell_damage = tabela [2] --damage taken by spell n�o tem PS, ent�o � obrigado a passar o dano total
@@ -960,10 +965,10 @@
 			porcentagem = porcentagem .. "%"
 		end
 
-		local bars_brackets = instancia:GetBarBracket()
+		local bars_brackets = instance:GetBarBracket()
 		--
-		if (instancia.use_multi_fontstrings) then
-			Details:SetTextsOnLine(thisLine, "", (spell_damage and SelectedToKFunction (_, spell_damage) or ""), porcentagem)
+		if (instance.use_multi_fontstrings) then
+			instance:SetTextsOnLine(thisLine, "", (spell_damage and SelectedToKFunction (_, spell_damage) or ""), porcentagem)
 		else
 			thisLine.lineText4:SetText ((spell_damage and SelectedToKFunction (_, spell_damage) or "") .. bars_brackets[1] .. porcentagem .. bars_brackets[2])
 		end
@@ -978,14 +983,14 @@
 		if (colocacao == 1) then
 			thisLine:SetValue (100)
 		else
-			thisLine:SetValue (tabela [2] / instancia.top * 100)
+			thisLine:SetValue (tabela [2] / instance.top * 100)
 		end
 		
 		if (thisLine.hidden or thisLine.fading_in or thisLine.faded) then
-			gump:Fade (thisLine, "out")
+			Details.FadeHandler.Fader (thisLine, "out")
 		end
 		
-		if (instancia.row_info.texture_class_colors) then
+		if (instance.row_info.texture_class_colors) then
 			if (tabela [3] > 1) then
 				local r, g, b = Details:GetSpellSchoolColor (tabela [3])
 				thisLine.textura:SetVertexColor (r, g, b)
@@ -1152,7 +1157,7 @@
 		
 		--
 		if (instancia.use_multi_fontstrings) then
-			Details:SetTextsOnLine(thisLine, "", total_frags, porcentagem)
+			instancia:SetTextsOnLine(thisLine, "", total_frags, porcentagem)
 		else
 			thisLine.lineText4:SetText (total_frags .. bars_brackets[1] .. porcentagem .. bars_brackets[2])
 		end
@@ -1169,7 +1174,7 @@
 		thisLine.lineText4:SetTextColor (1, 1, 1, 1)		
 		
 		if (thisLine.hidden or thisLine.fading_in or thisLine.faded) then
-			gump:Fade (thisLine, "out")
+			Details.FadeHandler.Fader (thisLine, "out")
 		end
 
 		Details:SetBarColors (thisLine, instancia, _unpack (Details.class_colors [tabela [3]]))
@@ -1571,7 +1576,7 @@
 			thisLine.lineText4:SetText (_string_replace (instancia.row_info.textR_custom_text, formated_damage, formated_dps, porcentagem, self, instancia.showing, instancia, rightText))
 		else
 			if (instancia.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
+				instancia:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
 			else
 				thisLine.lineText4:SetText (rightText)
 			end
@@ -1586,7 +1591,7 @@
 		thisLine:SetValue (100)
 		
 		if (thisLine.hidden or thisLine.fading_in or thisLine.faded) then
-			gump:Fade (thisLine, "out")
+			Details.FadeHandler.Fader (thisLine, "out")
 		end
 		
 		local _, _, icon = GetSpellInfo (self.damage_spellid)
@@ -2026,14 +2031,29 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 		return Details:EndRefresh (instancia, total, tabela_do_combate, showing) --> retorna a tabela que precisa ganhar o refresh
 		
 	else
-	
-		if (keyName == "enemies") then 
-		
-			--amount, total = Details:ContainerSortEnemies (conteudo, amount, "total")
+	--/run Details:Dump(Details:GetCurrentCombat():GetActor(1, "Injured Steelspine 1"))
+		if (keyName == "enemies") then
 			amount, total = Details:ContainerSortEnemies (conteudo, amount, "damage_taken")
-			--keyName = "enemies"
-			--> grava o total
-			instancia.top = conteudo[1][keyName]
+
+			--remove actors with zero damage taken
+			local newAmount = 0
+			for i = 1, #conteudo do
+				if (conteudo[i].damage_taken < 1) then
+					newAmount = i-1
+					break
+				end
+			end
+
+			--if all units shown are enemies and all have damage taken, check if newAmount is zero and #conteudo has value bigger than 0
+			if (newAmount == 0 and #conteudo > 0) then
+				amount = amount
+			else
+				amount = newAmount
+			end
+
+			--keyName = "damage_taken"
+			--result of the first actor
+			instancia.top = conteudo[1] and conteudo[1][keyName]
 			
 		elseif (modo == modo_ALL) then --> mostrando ALL
 		
@@ -2136,7 +2156,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 		if (forcar) then
 			if (instancia.modo == 2) then --> group
 				for i = 1, instancia.rows_fit_in_window  do
-					gump:Fade (instancia.barras [i], "in", 0.3)
+					Details.FadeHandler.Fader (instancia.barras [i], "in", Details.fade_speed)
 				end
 			end
 		end
@@ -2241,7 +2261,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 			row1.icone_classe:SetTexture (instancia.total_bar.icon)
 			row1.icone_classe:SetTexCoord (0.0625, 0.9375, 0.0625, 0.9375)
 			
-			gump:Fade (row1, "out")
+			Details.FadeHandler.Fader (row1, "out")
 			totalBarIsShown = true
 			
 			if (following and myPos and myPos > instancia.rows_fit_in_window and instancia.barraS[2] < myPos) then
@@ -2313,7 +2333,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 			row1.icone_classe:SetTexture (instancia.total_bar.icon)
 			row1.icone_classe:SetTexCoord (0.0625, 0.9375, 0.0625, 0.9375)
 			
-			gump:Fade (row1, "out")
+			Details.FadeHandler.Fader (row1, "out")
 			totalBarIsShown = true
 			
 			if (following and myPos and myPos > instancia.rows_fit_in_window and instancia.barraS[2] < myPos) then
@@ -2370,7 +2390,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 	if (forcar) then
 		if (instancia.modo == 2) then --> group
 			for i = whichRowLine, instancia.rows_fit_in_window  do
-				gump:Fade (instancia.barras [i], "in", 0.3)
+				Details.FadeHandler.Fader (instancia.barras [i], "in", Details.fade_speed)
 			end
 		end
 	end
@@ -2385,9 +2405,19 @@ local actor_class_color_r, actor_class_color_g, actor_class_color_b
 -- ~texts
 function Details:SetTextsOnLine(thisLine, valueText, perSecondText, percentText)
 	--set defaults
+	local instance = self
 	valueText = valueText or ""
 	perSecondText = perSecondText or ""
 	percentText = percentText or ""
+
+	--check if the instance is showing total, dps and percent
+	local instanceSettings = instance.row_info
+	if (not instanceSettings.textR_show_data[3]) then --percent text disabled on options panel
+		local attributeId = instance:GetDisplay()
+		if (attributeId ~= 5) then --not custom
+			percentText = ""
+		end
+	end
 
 	--parse information
 	if (percentText ~= "") then --has percent text
@@ -2499,7 +2529,7 @@ function atributo_damage:RefreshLine (instance, lineContainer, whichRowLine, ran
 			thisLine.lineText4:SetText(_string_replace (instance.row_info.textR_custom_text, formated_damage, formated_dps, porcentagem, self, instance.showing, instance, rightText))
 		else
 			if (instance.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
+				instance:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
 			else
 				thisLine.lineText4:SetText(rightText)
 			end
@@ -2563,7 +2593,8 @@ function atributo_damage:RefreshLine (instance, lineContainer, whichRowLine, ran
 			thisLine.lineText4:SetText (_string_replace (instance.row_info.textR_custom_text, formated_dps, formated_damage, porcentagem, self, instance.showing, instance, rightText))
 		else
 			if (instance.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
+				--instance:SetTextsOnLine(thisLine, formated_damage, formated_dps, porcentagem)
+				instance:SetTextsOnLine(thisLine, rightText)
 			else
 				thisLine.lineText4:SetText(rightText)
 			end
@@ -2596,7 +2627,7 @@ function atributo_damage:RefreshLine (instance, lineContainer, whichRowLine, ran
 			thisLine.lineText4:SetText (_string_replace (instance.row_info.textR_custom_text, formated_damage_taken, formated_dtps, porcentagem, self, instance.showing, instance, rightText))
 		else
 			if (instance.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, formated_damage_taken, formated_dtps, porcentagem)
+				instance:SetTextsOnLine(thisLine, formated_damage_taken, formated_dtps, porcentagem)
 			else
 				thisLine.lineText4:SetText(rightText)
 			end
@@ -2622,7 +2653,7 @@ function atributo_damage:RefreshLine (instance, lineContainer, whichRowLine, ran
 			thisLine.lineText4:SetText (_string_replace (instance.row_info.textR_custom_text, formated_friendly_fire, "", porcentagem, self, instance.showing, instance, rightText))
 		else
 			if (instance.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, "", formated_friendly_fire, porcentagem)
+				instance:SetTextsOnLine(thisLine, "", formated_friendly_fire, porcentagem)
 			else
 				thisLine.lineText4:SetText(rightText)
 			end
@@ -2654,7 +2685,7 @@ function atributo_damage:RefreshLine (instance, lineContainer, whichRowLine, ran
 			thisLine.lineText4:SetText (_string_replace (instance.row_info.textR_custom_text, formated_damage_taken, formated_dtps, porcentagem, self, instance.showing, instance, rightText))
 		else
 			if (instance.use_multi_fontstrings) then
-				Details:SetTextsOnLine(thisLine, formated_damage_taken, formated_dtps, porcentagem)
+				instance:SetTextsOnLine(thisLine, formated_damage_taken, formated_dtps, porcentagem)
 			else
 				thisLine.lineText4:SetText(rightText)
 			end
@@ -2689,7 +2720,7 @@ end
 			thisLine:SetValue (100)
 			
 			if (thisLine.hidden or thisLine.fading_in or thisLine.faded) then
-				gump:Fade (thisLine, "out")
+				Details.FadeHandler.Fader (thisLine, "out")
 			end
 			
 			return self:RefreshBarra (thisLine, instance)
@@ -2707,7 +2738,7 @@ end
 				thisLine.animacao_ignorar = true
 			end
 			
-			gump:Fade (thisLine, "out")
+			Details.FadeHandler.Fader (thisLine, "out")
 
 			return self:RefreshBarra (thisLine, instance)
 		else
@@ -2821,29 +2852,30 @@ local InBarIconPadding = 6
 	set_text_size (bar, instance)
 end
 
---[[ exported]] function Details:SetBarColors (bar, instance, r, g, b, a)
+--[[ exported]] function Details:SetBarColors(bar, instance, r, g, b, a)
 
 	a = a or 1
 	
 	if (instance.row_info.texture_class_colors) then
 		if (instance.bars_inverted) then
-			bar.right_to_left_texture:SetVertexColor (r, g, b, a)
+			bar.right_to_left_texture:SetVertexColor(r, g, b, a)
 		else
-			bar.textura:SetVertexColor (r, g, b, a)
+			bar.textura:SetVertexColor(r, g, b, a)
 		end
 	end
 	
 	if (instance.row_info.texture_background_class_color) then
-		bar.background:SetVertexColor (r, g, b, a)
+		bar.background:SetVertexColor(r, g, b, a)
 	end
 	
 	if (instance.row_info.textL_class_colors) then
-		bar.lineText1:SetTextColor (r, g, b, a)
+		bar.lineText1:SetTextColor(r, g, b, a)
 	end
+
 	if (instance.row_info.textR_class_colors) then
-		bar.lineText2:SetTextColor (r, g, b, a)
-		bar.lineText3:SetTextColor (r, g, b, a)
-		bar.lineText4:SetTextColor (r, g, b, a)
+		bar.lineText2:SetTextColor(r, g, b, a)
+		bar.lineText3:SetTextColor(r, g, b, a)
+		bar.lineText4:SetTextColor(r, g, b, a)
 	end
 	
 end 
@@ -2864,7 +2896,6 @@ end
 	elseif (self.spellicon) then
 		texture:SetTexture (self.spellicon)
 		texture:SetTexCoord (0.078125, 0.921875, 0.078125, 0.921875)
-		texture:SetVertexColor (1, 1, 1)
 		
 	elseif (classe == "UNKNOW") then
 		texture:SetTexture ([[Interface\AddOns\Details\images\classes_plus]])
@@ -2934,11 +2965,11 @@ end
 	end
 
 	--> icon
-	self:SetClassIcon (thisLine.icone_classe, instance, class)
+	self:SetClassIcon(thisLine.icone_classe, instance, class)
 	--> texture color
-	self:SetBarColors (thisLine, instance, actor_class_color_r, actor_class_color_g, actor_class_color_b)
+	self:SetBarColors(thisLine, instance, actor_class_color_r, actor_class_color_g, actor_class_color_b)
 	--> left text
-	self:SetBarLeftText (thisLine, instance, enemy, arena_enemy, arena_ally, UsingCustomLeftText)
+	self:SetBarLeftText(thisLine, instance, enemy, arena_enemy, arena_ally, UsingCustomLeftText)
 	
 end
 
@@ -3065,7 +3096,7 @@ function atributo_damage:ToolTip_DamageDone (instancia, numero, barra, keydown)
 				Details:AddTooltipHeaderStatusbar (r, g, b, barAlha)
 			end
 			
-			local topAbility = ActorSkillsSortTable [1] and ActorSkillsSortTable [1][2] or 0
+			local topAbility = ActorSkillsSortTable [1] and ActorSkillsSortTable [1][2] or 0.0001
 			
 			if (#ActorSkillsSortTable > 0) then
 				for i = 1, _math_min (tooltip_max_abilities, #ActorSkillsSortTable) do
@@ -5286,6 +5317,8 @@ end
 					shadow.end_time = time()
 				end
 
+			shadow.displayName = actor.displayName or actor.nome
+
 			shadow.boss_fight_component = actor.boss_fight_component or shadow.boss_fight_component
 			shadow.fight_component = actor.fight_component or shadow.fight_component
 			shadow.grupo = actor.grupo or shadow.grupo
@@ -5410,6 +5443,94 @@ function atributo_damage:ColetarLixo (lastevent)
 	return Details:ColetarLixo (class_type, lastevent)
 end
 
+
+--actor 1 is who will receive the sum from actor2
+function Details.SumDamageActors(actor1, actor2, actorContainer)
+	--general
+	actor1.total = actor1.total + actor2.total
+	actor1.damage_taken = actor1.damage_taken + actor2.damage_taken
+	actor1.totalabsorbed = actor1.totalabsorbed + actor2.totalabsorbed
+	actor1.total_without_pet = actor1.total_without_pet + actor2.total_without_pet
+	actor1.friendlyfire_total = actor1.friendlyfire_total + actor2.friendlyfire_total
+
+	--damage taken from
+	for actorName in pairs(actor2.damage_from) do
+		actor1.damage_from[actorName] = true
+
+		--add the damage done to actor2 into the damage done to target1
+		if (actorContainer) then
+			--get the actor that caused the damage on actor2
+			local actorObject = actorContainer:GetActor(actorName)
+			if (actorObject) then
+				local damageToActor2 = (actorObject.targets[actor2.nome]) or 0
+				actorObject.targets[actor1.nome] = (actorObject.targets[actor1.nome] or 0) + damageToActor2
+			end
+		end
+	end
+
+	--targets
+	for actorName, damageDone in pairs(actor2.targets) do
+		actor1.targets[actorName] = (actor1.targets[actorName] or 0) + damageDone
+	end
+
+	--pets
+	for i = 1, #actor2.pets do
+		DetailsFramework.table.addunique(actor1.pets, actor2.pets[i])
+	end
+
+	--raid targets
+	for raidTargetFlag, damageDone in pairs(actor2.raid_targets) do
+		actor1.raid_targets[raidTargetFlag] = (actor1.raid_targets[raidTargetFlag] or 0) + damageDone
+	end
+
+	--friendly fire
+	for actorName, ffTable in pairs(actor2.friendlyfire) do
+		actor1.friendlyfire[actorName] = actor1.friendlyfire[actorName] or actor1:CreateFFTable(actorName)
+		actor1.friendlyfire[actorName].total = actor1.friendlyfire[actorName].total + ffTable.total
+
+		for spellId, damageDone in pairs(ffTable.spells) do
+			actor1.friendlyfire[actorName].spells[spellId] = (actor1.friendlyfire[actorName].spells[spellId] or 0) + damageDone
+		end
+	end
+
+	--spells
+	local ignoredKeys = {
+		id = true,
+		spellschool =  true,
+	}
+
+	local actor1Spells = actor1.spells
+	for spellId, spellTable in pairs(actor2.spells._ActorTable) do
+
+		local actor1Spell = actor1Spells:GetOrCreateSpell(spellId, true, "DAMAGE_DONE")
+
+		--genetal spell attributes
+		for key, value in pairs(spellTable) do
+			if (type(value) == "number") then
+				if (not ignoredKeys[key]) then
+					if (key == "n_min" or key == "c_min") then
+						if (actor1Spell[key] > value) then
+							actor1Spell[key] = value
+						end
+					elseif (key == "n_max" or key == "c_max") then
+						if (actor1Spell[key] < value) then
+							actor1Spell[key] = value
+						end
+					else
+						actor1Spell[key] = actor1Spell[key] + value
+					end
+				end
+			end
+		end
+
+		--spell targets
+		for targetName, damageDone in pairs(spellTable) do
+			actor1Spell.targets[targetName] = (actor1Spell.targets[targetName] or 0) + damageDone
+		end
+	end
+end
+
+
 atributo_damage.__add = function (tabela1, tabela2)
 
 	--> tempo decorrido
@@ -5463,7 +5584,7 @@ atributo_damage.__add = function (tabela1, tabela2)
 
 			--> soma os alvos
 			for target_name, amount in _pairs (habilidade.targets) do 	
-				habilidade_tabela1.targets = (habilidade_tabela1.targets [target_name] or 0) + amount
+				habilidade_tabela1.targets[target_name] = (habilidade_tabela1.targets [target_name] or 0) + amount
 			end
 
 			--> soma os extras

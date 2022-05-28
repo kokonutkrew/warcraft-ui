@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- Rematch_TSMPetValues.lua - Main addon file
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 
@@ -99,7 +99,6 @@ end
 -- called by AceAddon on PLAYER_LOGIN
 function addon:OnEnable()
 	addon:DebugPrintf("OnEnable()")
-	-- print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r")
 
 	addon:DebugPrintf("Calling Login() in all modules")
 	for modle in pairs(addon.modules) do
@@ -118,7 +117,8 @@ function addon:OnEnable()
 	end
 
 	if addon.isEnabled then
-		print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r:" .. L[" hooked into Rematch"])
+		addon:Printf("|cFF33FF99(" .. addon.METADATA.VERSION .. ")|r: " ..
+			L[" hooked into Rematch"])
 
 		-- new default price source with 0.1.3
 		if addon.db.global.fRun == nil or addon.db.global.fRun ~= addon.METADATA.VERSION then
@@ -130,7 +130,8 @@ function addon:OnEnable()
 			end
 		end
 	else
-		print("|cFF33FF99" .. addonName .. " (" .. addon.METADATA.VERSION .. ")|r: " .. "|cffff8888" .. L[" NOT hooked into Rematch"] .. "|r")
+		addon:Printf("|cFF33FF99(" .. addon.METADATA.VERSION .. ")|r: " ..
+			"|cffff8888" .. L[" NOT hooked into Rematch"] .. "|r")
 	end
 
 	addon.sectimer = C_Timer.NewTicker(addon.timerSec, function() addon:SecTimer() end)

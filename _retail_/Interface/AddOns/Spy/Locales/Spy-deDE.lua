@@ -12,7 +12,9 @@ L["Profiles"] = "Profile"
 L["About"] = "Info"
 L["SpyDescription1"] = [[
 Spy ist ein Addon, das Sie über das Vorhandensein von, in der Nähe befindlichen, feindlichen Spielern benachrichtigt. Dies sind einige der Hauptmerkmale
+
 ]]
+
 L["SpyDescription2"] = [[
 |cffffd000In der Nähe-Liste|cffffffff
 Die "In der Nähe"-Liste zeigt alle feindlichen Spieler, die in der Nähe entdeckt wurden.  Spieler, die für eine gewisse Zeit nicht erkannt wurden, werden aus der Liste entfernt.
@@ -24,10 +26,11 @@ Zeigt alle Feinde, die in der letzten Stunde erkannt wurden.
 Spieler, die der Ignorierliste hinzugefügt werden, werden nicht vom Spy gemeldet. Mithilfe des Dropdown-Menüs der Schaltfläche oder Halten der STRG-Taste beim Klicken auf die Schaltfläche können Sie Spieler zu der Liste hinzufügen oder entfernen.
 
 |cffffd000Bei Sichtkontakt zu Töten-Liste|cffffffff
-Wird ein Spieler der "Bei Sichtkontakt zu Töten"-Liste erkannt, erklingt ein Alarm. Mithilfe des Dropdown-Menüs der Schaltfläche oder Halten der STRG-Taste beim Klicken auf die Schaltfläche können Sie Spieler zu der Liste hinzufügen oder entfernen.
+Wird ein Spieler der "Bei Sichtkontakt zu Töten"-Liste erkannt, erklingt ein Alarm. Mithilfe des Dropdown-Menüs der Schaltfläche oder Halten der STRG-Taste beim Klicken auf die Schaltfläche können Sie Spieler zu der Liste hinzufügen oder entfernen. Ausserdem können Sie mithilfe des Dropdown-Menüs die Gründe hinterlegen, warum Sie jemanden zu der "Bei Sichtkontakt zu Töten"-Liste hinzugefügt haben. Möchten Sie einen nicht in der Liste hinterlegten Grund eingeben, verwenden Sie "Geben Sie Ihren eigenen Grund..." in der anderen Liste.
 
-Ausserdem können Sie mithilfe des Dropdown-Menüs die Gründe hinterlegen, warum Sie jemanden zu der "Bei Sichtkontakt zu Töten"-Liste hinzugefügt haben. Möchten Sie einen nicht in der Liste hinterlegten Grund eingeben, verwenden Sie "Geben Sie Ihren eigenen Grund..." in der anderen Liste.
+]]
 
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons.
 
@@ -72,6 +75,8 @@ L["Silithus"] = "Silithus"
 L["Chamber of Heart"] = "Die Herzkammer"
 L["Hall of Ancient Paths"] = "Halle der Uralten Pfade"
 L["Sanctum of the Sages"] = "Das Sanktum der Weisen"
+L["Rustbolt"] = "Rostbolzen"
+L["Oribos"] = "Oribos"
 
 -- Display
 L["DisplayOptions"] = "Anzeigen"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "Zeigt nur die entdeckten Feinde auf der Ka
 -- Data Management
 L["DataOptions"] = "Datenmanagement"
 L["DataOptionsDescription"] = [[
+
 Optionen, wie Spy Daten verwaltet und sammelt.
 ]]
 L["PurgeData"] = "Eliminiert unentdeckte feindliche Spieler-Daten nach:"
@@ -286,6 +292,7 @@ L["Time"] = "Zeit"
 L["List"] = "Liste"	
 L["Filter"] = "Filter"
 L["Show Only"] = "Zeige nur"
+L["Realm"] = "Realm"
 L["Won/Lost"] = "Gewonnen/Verloren"
 L["KOS"] = "KOS"
 L["Reason"] = "Grund"	

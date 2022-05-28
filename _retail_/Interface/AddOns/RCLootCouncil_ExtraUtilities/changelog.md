@@ -1,3 +1,15 @@
+# 1.1.1
+
+## Changes
+
+Updated for patch 9.1.5.
+
+# 1.1.0
+
+## Changes
+
+Updated for patch 9.1 and RCLootCouncil v3.2
+
 # 1.0.1
 
 ## Changes 

@@ -1,0 +1,20 @@
+
+FGI_DB = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Snukkle - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["introShow"] = false,
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
+		["Snukkle - Emerald Dream"] = "Snukkle - Emerald Dream",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

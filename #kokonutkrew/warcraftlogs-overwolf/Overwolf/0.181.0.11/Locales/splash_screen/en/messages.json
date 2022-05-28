@@ -1,0 +1,34 @@
+﻿{
+  "missing_dot_net_title": {
+    "description": "Messagebox title for not having .NET framework installed",
+    "message": "Overwolf - System Update Required"
+  },
+  "missing_dot_net_message_click_to_install": {
+    "description": "When .NET framework is missing and we have the installation ready, we show this message allowing the user to automatically launch the .NET installation",
+    "message": "Overwolf requires Microsoft .NET 4.8 installed in order \n to run. Click OK to update your system, and relaunch\n Overwolf once the update is complete."
+  },
+  "missing_dot_net_message_click_to_download": {
+    "description": "When .NET framework is missing but we do not have the installation ready, we show this message allowing the user to open the download page in his default browser",
+    "message": "Overwolf requires Microsoft .NET 4.8 installed in order \n to run. Click OK to open the Microsoft download page,\n and relaunch Overwolf once the update is complete."
+  },
+  "status_first_launch": {
+    "description": "Status line (on the bottom of the splash screen) shown only during the first time the user launches Overwolf",
+    "message": "Preparing for first launch..."
+  },
+  "status_overwolf_launching": {
+    "description": "Status line shown when launching Overwolf (after it has been launched for the first time)",
+    "message": "Launching..."
+  },
+  "status_extension_launching": {
+    "description": "Status line shown when launching an extension (after Overwolf has been launched for the first time)",
+    "message": "Launching app on Overwolf..."
+  },
+  "client_error_title": {
+    "description": "The title of the error shown when failing to launch Overwolf client (due to a corrupted installation or other unknown reason)",
+    "message": "Ahh... we're sorry."
+  },
+  "client_error_message": {
+    "description": "The message of the error shown when failing to launch Overwolf client (use \n for enters)",
+    "message": "This Overwolf version is broken beyond repair.\nPlease download and install our latest version\nto fix this.\n\n(Oh, and this conversation never happened)"
+  }
+}

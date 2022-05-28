@@ -1,8 +1,8 @@
-CovenantMissionHelper, CMH = ...
+local CovenantMissionHelper, CMH = ...
 local hooksecurefunc = _G["hooksecurefunc"]
-
-MissionHelper = CreateFrame("Frame", "MissionHelper", UIParent)
-MissionHelper.isLoaded = false
+local MissionHelper = MissionHelper
+local L = MissionHelper.L
+local CurrentTypeID = 1813
 
 local function registerHook()
     -- open/close mission
@@ -34,7 +34,6 @@ function MissionHelper:ADDON_LOADED(event, addon)
 end
 
 function MissionHelper:hookShowMission(...)
-    --print('hook show mission')
     local missionPage = CovenantMissionFrame:GetMissionPage()
     local missionInfo = missionPage.missionInfo
     MissionHelperFrame:clearFrames()
@@ -56,6 +55,7 @@ local function setBoard(isCalcRandom)
 end
 
 function MissionHelper:simulateFight(isCalcRandom)
+    MissionHelperFrame:clearFrames()
     if isCalcRandom == nil then isCalcRandom = true end
 
     local board = setBoard(isCalcRandom)
@@ -71,12 +71,12 @@ function MissionHelper:simulateFight(isCalcRandom)
     --]]
 end
 
-function MissionHelper:findBestDisposition()
+function MissionHelper:findBestDisposition(criteriaFunctionID)
     local missionPage = CovenantMissionFrame:GetMissionPage()
     local metaBoard = CMH.MetaBoard:new(missionPage, false)
 
     MissionHelper:clearBoard(missionPage)
-    MissionHelperFrame.board = metaBoard:findBestDisposition()
+    MissionHelperFrame.board = metaBoard:findBestDisposition(criteriaFunctionID)
 
     for _, unit in pairs(MissionHelperFrame.board.units) do
         if unit.boardIndex < 5 then
@@ -85,8 +85,6 @@ function MissionHelper:findBestDisposition()
             CovenantMissionFrame:AssignFollowerToMission(missionPage.Board:GetFrameByBoardIndex(unit.boardIndex), followerInfo)
         end
     end
-
-    MissionHelper:showResult(MissionHelperFrame.board)
 end
 
 function MissionHelper:showResult(board)
@@ -95,7 +93,7 @@ function MissionHelper:showResult(board)
     local combat_log = false and CMH.Board.HiddenCombatLog or CMH.Board.CombatLog
 
     MissionHelperFrame:setResultHeader(board:constructResultString())
-    MissionHelperFrame:setResultInfo(board:getMyTeam())
+    MissionHelperFrame:setResultInfo(board:getResultInfo())
     for _, text in ipairs(combat_log) do MissionHelperFrame:AddCombatLogMessage(text) end
     MissionHelperFrame:AddCombatLogMessage(board:constructResultString())
 
@@ -122,16 +120,16 @@ end
 function MissionHelper:hookShowRewardScreen(...)
     --print('hook show reward screen')
     local board = MissionHelperFrame.board
-    if board.hasRandomSpells then
-        return
-    end
+    --if board.hasRandomSpells then
+    --    return
+    --end
 
     board.blizzardLog = _G["CovenantMissionFrame"].MissionComplete.autoCombatResult.combatLog
     -- TODO: fix it
     -- my events log cleared somewhere. run it another time to compare blizz and my log
     --board:simulate()
     --board.CombatLogEvents = CMH.Board.CombatLogEvents
-    board.compareLogs = MissionHelper:compareLogs(board.CombatLogEvents, board.blizzardLog)
+    --board.compareLogs = MissionHelper:compareLogs(board.CombatLogEvents, board.blizzardLog)
 end
 
 function MissionHelper:clearBoard(missionPage)
@@ -148,6 +146,7 @@ function MissionHelper:hookCloseMission(...)
     --print('hook close mission')
     MissionHelperFrame:clearFrames()
     MissionHelperFrame:Hide()
+    collectgarbage("collect")
     return ...
 end
 
@@ -157,9 +156,9 @@ function MissionHelper:addBaseXPToRewards(rewards)
     local baseXPReward = {
         icon = 894556,
         followerXP = self.info.xp,
-        title = 'Base XP',
-        tooltip = '+' .. self.info.xp .. ' XP\n+'
-                .. string.format("%3d", self.info.xp / (self.info.durationSeconds / 3600)) ..'XP/hour',
+        title = L['Base XP'],
+        tooltip = '+' .. self.info.xp .. ' ' .. L['XP'] ..
+                '\n+' .. string.format("%3d", self.info.xp / (self.info.durationSeconds / 3600)) .. L['XP/hour'],
     }
 
     local Reward = self.Rewards[#rewards + 1]
@@ -177,9 +176,9 @@ function MissionHelper:addXPPerHour(followerTypeID)
     if type(self) ~= 'table' then return end
 
     for _, mission in pairs(self) do
-        if mission.rewards[1].followerXP then
-            mission.rewards[1].tooltip = mission.rewards[1].tooltip .. '\n' ..
-                    '+' .. string.format("%3d", mission.rewards[1].followerXP / (mission.durationSeconds / 3600)) ..'XP/hour'
+        if mission.costCurrencyTypesID == CurrentTypeID and mission.rewards[1] and mission.rewards[1].followerXP then
+            mission.rewards[1].tooltip = mission.rewards[1].tooltip ..
+                    '\n+' .. string.format("%3d", mission.rewards[1].followerXP / (mission.durationSeconds / 3600)) .. L['XP/hour']
         end
     end
 end
@@ -193,9 +192,13 @@ MissionHelper:SetScript("OnEvent", MissionHelper.ADDON_LOADED)
 
 function CMH:log(msg)
     table.insert(CMH.Board.CombatLog, msg)
-    table.insert(CMH.Board.HiddenCombatLog, msg)
+    if CMH.isDebug then
+        table.insert(CMH.Board.HiddenCombatLog, msg)
+    end
 end
 
 function CMH:debug_log(msg)
-    table.insert(CMH.Board.HiddenCombatLog, msg)
+    if CMH.isDebug then
+        table.insert(CMH.Board.HiddenCombatLog, msg)
+    end
 end

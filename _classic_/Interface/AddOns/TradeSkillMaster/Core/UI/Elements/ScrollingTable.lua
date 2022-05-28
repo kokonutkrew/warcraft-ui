@@ -284,7 +284,6 @@ function ScrollingTable.SetSelection(self, selection, noDraw)
 	elseif selection and self._selectionValidator and not self:_selectionValidator(selection) then
 		return self
 	end
-	self:_IgnoreLastDataUpdate()
 	self._selection = selection
 	self:_JumpToData(selection)
 	if not noDraw then
@@ -420,7 +419,7 @@ function ScrollingTable.Draw(self)
 
 	local scrollDiff = dataOffset - (self._prevDataOffset or dataOffset)
 	self._prevDataOffset = dataOffset
-	if scrollDiff ~= 0 then
+	if numVisibleRows > 0 and scrollDiff ~= 0 then
 		-- Shuffle the rows around to accomplish the scrolling so that the data only changes
 		-- for the minimal number of rows, which allows for better optimization
 		for _ = 1, abs(scrollDiff) do

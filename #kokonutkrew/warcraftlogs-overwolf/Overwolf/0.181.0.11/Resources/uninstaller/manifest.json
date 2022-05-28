@@ -1,0 +1,23 @@
+{
+  "manifest_version":1,
+  "type":"WebApp",
+  "meta":{
+    "name":"Uninstall window",
+    "version":"173.0.1",
+    "minimum-overwolf-version":"0.77.10",
+    "author":"Overwolf",
+    "description":"Uninstaller window"
+  },
+  "data": {
+    "startup_file": "files/index.html",
+    "error_page_file": "files/error.html",
+    "externally_connectable":{
+      "matches":[
+        "http://*.overwolf.com",
+        "https://*.google-analytics.com",
+        "http://www.google-analytics.com"
+
+      ]
+    }
+  }
+}

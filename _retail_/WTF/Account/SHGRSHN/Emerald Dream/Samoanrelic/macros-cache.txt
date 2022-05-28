@@ -1,0 +1,25 @@
+VER 3 0100000000000005 "Dispersion" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/cast Dispersion
+/cancelaura Dispersion
+END
+VER 3 0100000000000001 "NEW_SEQUENCE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] NEW_SEQUENCE RightButton; [button:3] NEW_SEQUENCE MiddleButton; [button:4] NEW_SEQUENCE Button4; [button:5] NEW_SEQUENCE Button5; NEW_SEQUENCE
+END
+VER 3 0100000000000008 "Pain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [channeling:Mind Sear,talent:3/3] Searing Nightmare; Shadow Word: Pain
+END
+VER 3 0100000000000007 "Pain: Mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [channeling:Mind Sear,talent:3/3] Searing Nightmare; [@mouseover,harm,nodead] [] Shadow Word: Pain; Shadow Word: Pain
+END
+VER 3 0100000000000006 "Shadow Crash" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Crash
+/cast [@cursor] Shadow Crash
+END
+VER 3 0100000000000004 "Talent 6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/1] Damnation; [talent:6/3] Void Torrent;
+END

@@ -1,5 +1,5 @@
-## Interface: 90005
-## Version: 1.4.10
+## Interface: 90200
+## Version: 1.4.13
 ## Title: DynamicCam
 ## Author: mpstark, LudiusMaximus
 ## Notes: A more dynamic camera.

@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- LDB.lua
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 
@@ -41,11 +41,13 @@ function LDB:Login()
 		text = LDB:GetLDBText(),
 		icon = "Interface\\Icons\\Spell_Magic_PolymorphChicken",
 		OnClick = function(_, button)
+			LDB:DebugPrintf("OK~Click LDB")
 			if button == "RightButton" then
 				InterfaceOptionsFrame_OpenToCategory(GetAddOnMetadata(addonName, "Title"))
 			end
 		end,
 		OnEnter = function(this)
+			LDB:DebugPrintf("OK~Enter LDB")
 			local tooltip = LibQTip:Acquire(addon)
 			tooltip:SmartAnchorTo(this)
 			tooltip:SetAutoHideDelay(0.1, this)
@@ -67,18 +69,15 @@ function LDB:GetLDBText(status, showAddonName)
 end
 
 function LDB:Update()
-	if not private.LDB then return end
+	if not LibQTip:IsAcquired(addon) or not private.LDB then
+		return
+	end
 
-		-- Header
+	-- Header
 	if addon.isEnabled then
 		private.LDB.text = LDB:GetLDBText(L["ON"])
 	else
 		private.LDB.text = LDB:GetLDBText(L["OFF"])
-	end
-
-
-	if not LibQTip:IsAcquired(addon) then
-		return
 	end
 
 	-- Tooltip

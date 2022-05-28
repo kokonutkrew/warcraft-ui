@@ -1,4 +1,4 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsCorrectVersion() or not WeakAuras.IsLibsOK() then return end
 local AddonName, OptionsPrivate = ...
 
 -- Lua APIs
@@ -66,9 +66,10 @@ local function ConstructIconPicker(frame)
       for name, icons in pairs(spellCache.Get()) do
         if(name:lower():find(subname, 1, true)) then
           if icons.spells then
-            for spellId, icon in pairs(icons.spells) do
-              if (not usedIcons[icon]) then
-                AddButton(name, icon)
+            for spell, icon in icons.spells:gmatch("(%d+)=(%d+)") do
+              local iconId = tonumber(icon)
+              if (not usedIcons[iconId]) then
+                AddButton(name, iconId)
                 num = num + 1;
                 if(num >= 500) then
                   break;
@@ -76,9 +77,10 @@ local function ConstructIconPicker(frame)
               end
             end
           elseif icons.achievements then
-            for _, icon in pairs(icons.achievements) do
-              if (not usedIcons[icon]) then
-                AddButton(name, icon)
+            for _, icon in icons.achievements:gmatch("(%d+)=(%d+)") do
+              local iconId = tonumber(icon)
+              if (not usedIcons[iconId]) then
+                AddButton(name, iconId)
                 num = num + 1;
                 if(num >= 500) then
                   break;
@@ -121,21 +123,18 @@ local function ConstructIconPicker(frame)
 
   function group.Pick(self, texturePath)
     local valueToPath = OptionsPrivate.Private.ValueToPath
-    if(not self.groupIcon and self.baseObject.controlledChildren) then
-      for index, childId in pairs(self.baseObject.controlledChildren) do
-        local childData = WeakAuras.GetData(childId);
-        if(childData) then
-          valueToPath(childData, self.paths[childId], texturePath)
-          WeakAuras.Add(childData)
-          WeakAuras.ClearAndUpdateOptions(childData.id)
-          WeakAuras.UpdateThumbnail(childData);
-        end
-      end
-    else
+    if self.groupIcon then
       valueToPath(self.baseObject, self.paths[self.baseObject.id], texturePath)
       WeakAuras.Add(self.baseObject)
       WeakAuras.ClearAndUpdateOptions(self.baseObject.id)
       WeakAuras.UpdateThumbnail(self.baseObject)
+    else
+      for child in OptionsPrivate.Private.TraverseLeafsOrAura(self.baseObject) do
+        valueToPath(child, self.paths[child.id], texturePath)
+        WeakAuras.Add(child)
+        WeakAuras.ClearAndUpdateOptions(child.id)
+        WeakAuras.UpdateThumbnail(child);
+      end
     end
     local success = icon:SetTexture(texturePath) and texturePath;
     if(success) then
@@ -150,18 +149,17 @@ local function ConstructIconPicker(frame)
     self.baseObject = baseObject
     self.paths = paths
     self.groupIcon = groupIcon
-    if(not groupIcon and baseObject.controlledChildren) then
-      self.givenPath = {};
-      for index, childId in pairs(baseObject.controlledChildren) do
-        local childData = WeakAuras.GetData(childId);
-        if(childData) then
-          local value = valueFromPath(childData, paths[childId])
-          self.givenPath[childId] = value;
-        end
-      end
-    else
+    if groupIcon then
       local value = valueFromPath(self.baseObject, paths[self.baseObject.id])
       self.givenPath = value
+    else
+      self.givenPath = {};
+      for child in OptionsPrivate.Private.TraverseLeafsOrAura(baseObject) do
+        if(child) then
+          local value = valueFromPath(child, paths[child.id])
+          self.givenPath[child.id] = value or "";
+        end
+      end
     end
     -- group:Pick(self.givenPath);
     frame.window = "icon";
@@ -177,24 +175,22 @@ local function ConstructIconPicker(frame)
 
   function group.CancelClose()
     local valueToPath = OptionsPrivate.Private.ValueToPath
-    if(not group.groupIcon and group.baseObject.controlledChildren) then
-      for index, childId in pairs(group.baseObject.controlledChildren) do
-        local childData = WeakAuras.GetData(childId);
-        if(childData) then
-          if (group.givenPath[childId]) then
-            valueToPath(childData, group.paths[childId], group.givenPath[childId])
-            WeakAuras.Add(childData);
-            WeakAuras.ClearAndUpdateOptions(childData.id)
-            WeakAuras.UpdateThumbnail(childData);
-          end
-        end
-      end
-    else
+    if group.groupIcon then
       valueToPath(group.baseObject, group.paths[group.baseObject.id], group.givenPath)
       WeakAuras.Add(group.baseObject)
       WeakAuras.ClearAndUpdateOptions(group.baseObject.id)
       WeakAuras.UpdateThumbnail(group.baseObject)
+    else
+      for child in OptionsPrivate.Private.TraverseLeafsOrAura(group.baseObject) do
+        if (group.givenPath[child.id]) then
+          valueToPath(child, group.paths[child.id], group.givenPath[child.id])
+          WeakAuras.Add(child);
+          WeakAuras.ClearAndUpdateOptions(child.id)
+          WeakAuras.UpdateThumbnail(child);
+        end
+      end
     end
+
     group.Close();
   end
 

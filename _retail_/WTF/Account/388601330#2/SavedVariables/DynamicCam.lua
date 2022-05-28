@@ -1,0 +1,34 @@
+
+DynamicCamDB = {
+	["profileKeys"] = {
+		["Blushh - Emerald Dream"] = "Default",
+		["Pehtal - Emerald Dream"] = "Default",
+		["Sprinkles - Emerald Dream"] = "Default",
+		["Kkimport - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["situations"] = {
+				["303"] = {
+				},
+				["023"] = {
+				},
+				["006"] = {
+				},
+				["302"] = {
+				},
+				["201"] = {
+				},
+				["100"] = {
+				},
+				["060"] = {
+				},
+				["033"] = {
+				},
+			},
+			["version"] = 2,
+			["firstRun"] = false,
+		},
+	},
+}

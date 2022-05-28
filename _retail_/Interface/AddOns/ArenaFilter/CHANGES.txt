@@ -1,0 +1,16 @@
+tag ede6e7eb50ee6e070dc06840b501342ce247d301 v1.1.0
+Author:	Andrew Duthie <andrew@andrewduthie.com>
+Date:	Tue Mar 15 20:33:18 2022 -0400
+
+commit 3a20595b847bf655c781f6899843f88a301b454e
+Author: Andrew Duthie <andrew@andrewduthie.com>
+Date:   Tue Mar 15 20:32:40 2022 -0400
+
+    Optimize addon load to avoid unnecessary work
+
+commit 92fce86434da0b8e2c0df93600a47c2123651864
+Author: Andrew Duthie <andrew@andrewduthie.com>
+Date:   Tue Mar 15 20:27:14 2022 -0400
+
+    Update TOC for Patch 9.2
+

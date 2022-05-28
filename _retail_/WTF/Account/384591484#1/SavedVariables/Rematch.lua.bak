@@ -34,12 +34,14 @@ RematchSettings = {
 		["FavoritesFirst"] = true,
 	},
 	["AllowHiddenPetsDefaulted"] = true,
+	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
 			"General", -- [1]
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
+	["JournalUsed"] = true,
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -55,13 +57,13 @@ RematchSettings = {
 		},
 		["Strong"] = {
 		},
-		["Sources"] = {
+		["Similar"] = {
 		},
 		["Breed"] = {
 		},
 		["Rarity"] = {
 		},
-		["Similar"] = {
+		["Sources"] = {
 		},
 		["Collected"] = {
 		},
@@ -72,9 +74,9 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
-	["SelectedTab"] = 1,
 	["LevelingQueue"] = {
 	},
+	["SelectedTab"] = 1,
 	["SpecialSlots"] = {
 	},
 	["ExpandedTargetHeaders"] = {

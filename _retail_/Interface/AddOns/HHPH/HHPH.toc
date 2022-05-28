@@ -1,0 +1,6 @@
+## Interface: 90001
+## Title: Hivemind HoO Puzzle Helper
+## Author: ykiigor
+## Version: 3
+## SavedVariables: VHHPH
+core.lua

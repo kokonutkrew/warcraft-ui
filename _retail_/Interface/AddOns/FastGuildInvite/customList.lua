@@ -3,12 +3,9 @@ local fn = addon.functions
 local L = FGI:GetLocale()
 local settings = L.settings
 local size = settings.size
-local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
-local fontSize = fn.fontSize
 
 local CustomList
 
@@ -50,6 +47,17 @@ frame.frame:HookScript("OnClick", function()
 end)
 CustomList:AddChild(frame)
 
+CustomList.strict = GUI:Create("TCheckBox")
+local frame = CustomList.strict
+frame:SetWidth(size.customListBtn)
+frame:SetLabel(L["Строго"])
+frame:SetTooltip(L["Не углублять поиск если вернулось 50 игроков"])
+frame:SetPoint("TOPRIGHT", CustomList.list.frame, "BOTTOMRIGHT", 0, 0)
+frame.frame:HookScript("OnClick", function()
+	DB.realm.strictCustom = CustomList.strict:GetValue()
+end)
+CustomList:AddChild(frame)
+
 CustomList.saveButton = GUI:Create("Button")
 local frame = CustomList.saveButton
 frame:SetText(L["Сохранить"])
@@ -82,4 +90,5 @@ frame:SetScript('OnEvent', function()
 	end
 	
 	CustomList.customList:SetValue(DB.realm.customWho or false)
+	CustomList.strict:SetValue(DB.realm.strictCustom or false)
 end)

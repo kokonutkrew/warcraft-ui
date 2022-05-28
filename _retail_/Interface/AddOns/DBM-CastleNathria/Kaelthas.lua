@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2422, "DBM-CastleNathria", nil, 1190)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20210224082525")
+mod:SetRevision("20220202090223")
 mod:SetCreatureID(165759)
 mod:SetEncounterID(2402)
 mod:DisableIEEUCombatDetection()--kael gets stuck on boss frames well after encounter has ended, therefor must not re-engage boss off this bug
@@ -18,23 +18,14 @@ mod:RegisterEventsInCombat(
 	"SPELL_CAST_START 325877 329509 329518 328885 325440 325506 333002 326455 337865",
 	"SPELL_CAST_SUCCESS 326583 325665 181113",
 	"SPELL_SUMMON 329565 326075",
-	"SPELL_AURA_APPLIED 326456 328659 341254 328731 325442 333145 326078 332871 326583 328479 323402 337859 335581 343026 341473",
+	"SPELL_AURA_APPLIED 326456 328659 341254 328731 325442 333145 326078 332871 326583 328479 323402 337859 335581 343026 341473 325873",
 	"SPELL_AURA_APPLIED_DOSE 326456 325442 326078",
-	"SPELL_AURA_REMOVED 328731 326078 328479 323402 337859 343026",
+	"SPELL_AURA_REMOVED 328731 326078 328479 323402 337859 343026 325873",
 	"SPELL_PERIODIC_DAMAGE 328579",
 	"SPELL_PERIODIC_MISSED 328579",
 	"UNIT_DIED"
---	"UNIT_SPELLCAST_SUCCEEDED boss1"
 )
 
---TODO, Switch Ember Blast to UnitTargetScanner for max scan speed/efficiency, if shade has boss unit ID and isn't already targetting victim when cast starts
---TODO, adjust ember blast warning to reduce number told to soak it if it's not conventional to just tell everyone but the tanks to do it
---TODO, essence tracking of energy for Cultists?
---TODO, dispel warnings for Vulgar brand (333002) based on difficulty (magic non mythic, curse mythic)?
---TODO, improved infoframe with https://shadowlands.wowhead.com/spell=339251/drained-soul tracking
---TODO, auto mark essence spawns?
---TODO, Keep an eye on add spawns, if blizzard leaves 3 of the add types missing from combat log, scheduling will have to be added
---TODO, add nameplate aura for assassins fixate/attack?
 --[[
 (ability.id = 325877 or ability.id = 329509 or ability.id = 329518 or ability.id = 328885) and type = "begincast"
  or ability.id = 181113 or ability.id = 323402 or target.id = 168973 and type = "death" or (ability.id = 343026 or ability.id = 337859) and (type = "applydebuff" or type = "removedebuff" or type = "applybuff" or type = "removebuff")
@@ -47,31 +38,19 @@ mod:RegisterEventsInCombat(
 
  or ability.id = 328659 or ability.id == 341254 or ability.id = 328731 and (type = "applybuff" or type = "removebuff")
 --]]
+--High Torturor Darithos
+mod:AddTimerLine(DBM:EJ_GetSectionInfo(22089))
+local specWarnGreaterCastigation				= mod:NewSpecialWarningMoveAway(328885, nil, nil, nil, 1, 2)
+
+local timerGreaterCastigationCD					= mod:NewNextTimer(15.8, 328885, nil, nil, nil, 3)
+
+mod:AddRangeFrameOption(6, 328885)
 --Shade of Kael'thas
+mod:AddTimerLine(DBM:EJ_GetSectionInfo(21966))
 local warnFeiryStrike							= mod:NewCastAnnounce(326455, 2, nil, nil, "Melee")
 local warnBurningRemnants						= mod:NewStackAnnounce(326456, 2, nil, "Tank")
 local warnEmberBlast							= mod:NewTargetNoFilterAnnounce(325877, 4)
---local warnBlazingSurge							= mod:NewSpellAnnounce(329509, 3)--Use if target scanning ever works for this
---Adds
-----Rockbound Vanquisher
-local warnVanquisher							= mod:NewCountAnnounce("ej21954", 2, 325440)
-local warnVanquished							= mod:NewStackAnnounce(325442, 2, nil, "Tank")
-local warnConcussiveSmash						= mod:NewCountAnnounce(325506, 3)
-----Assassin
-local warnAssassin								= mod:NewCountAnnounce("ej21993", 2, 326583)
-local warnReturnToStone							= mod:NewTargetNoFilterAnnounce(333145, 4, nil, "-Healer")
-local warnCrimsonFury							= mod:NewTargetAnnounce(341473, 3)
---Vile Occultist
-local warnVileOccultists						= mod:NewCountAnnounce("ej21952", 2, 329565)
-local warnSummonEssenceFont						= mod:NewSpellAnnounce(329565, 2, nil, "Healer")
---Soul Infusor
-local warnSoulInfusion							= mod:NewSpellAnnounce(325665, 4)
-local warnInfusersOrb							= mod:NewCountAnnounce(326075, 1, nil, "Healer")
---Phoenix
-local warnRebornPhoenix							= mod:NewSpellAnnounce("ej22090", 2, 328659)
-local warnEyeOnTarget							= mod:NewTargetAnnounce(328479, 2)
 
---Shade of Kael'thas
 local specWarnShadeSpawned						= mod:NewSpecialWarningSwitch("ej21966", nil, nil, nil, 1, 2)
 local specWarnFeiryStrike						= mod:NewSpecialWarningSpell(326455, false, nil, nil, 1, 2)
 local specWarnBurningRemnants					= mod:NewSpecialWarningStack(326456, nil, 3, nil, nil, 1, 6)
@@ -81,65 +60,78 @@ local yellEmberBlast							= mod:NewYell(325877, nil, nil, nil, "YELL")
 local yellEmberBlastFades						= mod:NewFadesYell(325877, nil, nil, nil, "YELL")
 local specWarnBlazingSurge						= mod:NewSpecialWarningDodge(329509, nil, nil, nil, 2, 2)
 --local yellBlazingSurge							= mod:NewYell(329509)
-local specWarnGTFO								= mod:NewSpecialWarningGTFO(328579, nil, nil, nil, 1, 8)
-----Kael
 local specWarnUnleashedPyroclasm				= mod:NewSpecialWarningInterrupt(337865, nil, nil, nil, 1, 2)
---High Torturor Darithos
-local specWarnGreaterCastigation				= mod:NewSpecialWarningMoveAway(328885, nil, nil, nil, 1, 2)
---Adds
-----Rockbound Vanquisher
-local specWarnVanquished						= mod:NewSpecialWarningStack(325442, nil, 3, nil, nil, 1, 6)
-local specWarnVanquishedTaunt					= mod:NewSpecialWarningTaunt(325442, nil, nil, nil, 1, 2)
---Assassin
-local specWarnCrimsonFury						= mod:NewSpecialWarningMoveAway(341473, nil, nil, nil, 1, 2)
-local yellCrimsonFury							= mod:NewYell(341473)
---Vile Occultist
-local specWarnVulgarBrand						= mod:NewSpecialWarningInterrupt(333002, "HasInterrupt", nil, nil, 1, 2)
---Phoenix
-local specWarnEyeOnTarget						= mod:NewSpecialWarningYou(328479, nil, nil, nil, 1, 2)
-local yellEyeOnTarget							= mod:NewYell(328479, nil, false)
+local specWarnGTFO								= mod:NewSpecialWarningGTFO(328579, nil, nil, nil, 1, 8)
 
---Shade of Kael'thas
-mod:AddTimerLine(DBM:EJ_GetSectionInfo(21966))
-local timerFieryStrikeCD						= mod:NewCDTimer(8.5, 326455, nil, "Tank", nil, 5, nil, DBM_CORE_L.TANK_ICON)
-local timerEmberBlastCD							= mod:NewCDTimer(20.6, 325877, nil, nil, nil, 3)--20 again? or is it just 24 on mythic and 20 on heroic
+local timerFieryStrikeCD						= mod:NewCDTimer(8.5, 326455, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
+local timerEmberBlastCD							= mod:NewCDTimer(20.4, 325877, nil, nil, nil, 3)--20 again? or is it just 24 on mythic and 20 on heroic
 local timerBlazingSurgeCD						= mod:NewCDTimer(19.4, 329509, nil, nil, nil, 3)
-local timerCloakofFlamesCD						= mod:NewNextCountTimer(30, 337859, nil, nil, nil, 5, nil, DBM_CORE_L.MYTHIC_ICON)
---local timerRebornPhoenixCD					= mod:NewCDTimer(44.3, "ej22090", nil, nil, nil, 1, 328659, DBM_CORE_L.DAMAGE_ICON)--Cast only once whole fight and not timer based
---High Torturor Darithos
-mod:AddTimerLine(DBM:EJ_GetSectionInfo(22089))
-local timerGreaterCastigationCD					= mod:NewNextTimer(15.8, 328885, nil, nil, nil, 3)
+local timerCloakofFlamesCD						= mod:NewNextCountTimer(30, 337859, nil, nil, nil, 5, nil, DBM_COMMON_L.MYTHIC_ICON)
+--local berserkTimer							= mod:NewBerserkTimer(600)
+
+mod:AddInfoFrameOption(326078, true)--343026
+mod:AddSetIconOption("SetIconOnEmberBlast", 325877, true, false, {1})
 --Adds
 ----Rockbound Vanquisher
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(21954))
-local timerVanquisherCD							= mod:NewCDCountTimer(80, "ej21954", nil, nil, nil, 1, 325440, DBM_CORE_L.DAMAGE_ICON)
-local timerVanquishingStrikeCD					= mod:NewCDTimer(6.1, 325440, nil, "Tank", nil, 5, nil, DBM_CORE_L.TANK_ICON)
+local warnVanquisher							= mod:NewCountAnnounce("ej21954", 2, 325440)
+local warnVanquished							= mod:NewStackAnnounce(325442, 2, nil, "Tank")
+local warnConcussiveSmash						= mod:NewCountAnnounce(325506, 3)
+
+local specWarnVanquished						= mod:NewSpecialWarningStack(325442, nil, 3, nil, nil, 1, 6)
+local specWarnVanquishedTaunt					= mod:NewSpecialWarningTaunt(325442, nil, nil, nil, 1, 2)
+
+local timerVanquisherCD							= mod:NewCDCountTimer(80, "ej21954", nil, nil, nil, 1, 325440, DBM_COMMON_L.DAMAGE_ICON)
+local timerVanquishingStrikeCD					= mod:NewCDTimer(6.1, 325440, nil, "Tank", nil, 5, nil, DBM_COMMON_L.TANK_ICON)
 local timerConcussiveSmashCD					= mod:NewCDCountTimer(19.5, 325506, nil, nil, nil, 5)--Next in between casts, but initial cast can be delayed by a lot
 ----Bleakwing Assassin
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(21993))
-local timerBleakwingAssassinCD					= mod:NewCDCountTimer(80, "ej21993", nil, nil, nil, 1, 326583, DBM_CORE_L.DAMAGE_ICON)
---local timerCrimsonFuryCD						= mod:NewCDTimer(44.3, 341473, nil, false, nil, 3, nil, DBM_CORE_L.BLEED_ICON)--Too many to track via normal bars, this needs nameplate bars/icon
+local warnAssassin								= mod:NewCountAnnounce("ej21993", 2, 326583)
+local warnReturnToStone							= mod:NewTargetNoFilterAnnounce(333145, 4, nil, "-Healer")
+local warnCrimsonFury							= mod:NewTargetAnnounce(341473, 3)
+
+local specWarnCrimsonFury						= mod:NewSpecialWarningMoveAway(341473, nil, nil, nil, 1, 2)
+local yellCrimsonFury							= mod:NewYell(341473)
+
+local timerBleakwingAssassinCD					= mod:NewCDCountTimer(80, "ej21993", nil, nil, nil, 1, 326583, DBM_COMMON_L.DAMAGE_ICON)
+--local timerCrimsonFuryCD						= mod:NewCDTimer(44.3, 341473, nil, false, nil, 3, nil, DBM_COMMON_L.BLEED_ICON)--Too many to track via normal bars, this needs nameplate bars/icon
 ----Vile Occultist
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(21952))
-local timerVileOccultistCD						= mod:NewCDCountTimer(10, "ej21952", nil, nil, nil, 1, 329565, DBM_CORE_L.DAMAGE_ICON)
+local warnVileOccultists						= mod:NewCountAnnounce("ej21952", 2, 329565)
+local warnSummonEssenceFont						= mod:NewSpellAnnounce(329565, 2, nil, "Healer")
+
+local specWarnVulgarBrand						= mod:NewSpecialWarningInterrupt(333002, "HasInterrupt", nil, nil, 1, 2)
+
+local timerVileOccultistCD						= mod:NewCDCountTimer(10, "ej21952", nil, nil, nil, 1, 329565, DBM_COMMON_L.DAMAGE_ICON)
 --local timerVulgarBrandCD						= mod:NewCDTimer(44.3, 333002, nil, nil, nil, 3)--TODO, give it a relative icon based on difficulty (Magic/Curse)
 ----Soul Infuser
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(21953))
-local timerSoulInfuserCD						= mod:NewCDCountTimer(10, "ej21953", nil, nil, nil, 1, 325665, DBM_CORE_L.DAMAGE_ICON)
+local warnSoulInfusion							= mod:NewSpellAnnounce(325665, 4)
+local warnInfusersOrb							= mod:NewCountAnnounce(326075, 1, nil, "Healer")
+
+local timerSoulInfuserCD						= mod:NewCDCountTimer(10, "ej21953", nil, nil, nil, 1, 325665, DBM_COMMON_L.DAMAGE_ICON)
 ----Pestering Fiend
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(22082))
-local timerPesteringFiendCD						= mod:NewCDCountTimer(70, "ej22082", nil, nil, nil, 1, 328254, DBM_CORE_L.DAMAGE_ICON)
+local timerPesteringFiendCD						= mod:NewCDCountTimer(70, "ej22082", nil, nil, nil, 1, 328254, DBM_COMMON_L.DAMAGE_ICON)
 ----Reborn Phoenix
 mod:AddTimerLine(DBM:EJ_GetSectionInfo(22090))
+local warnRebornPhoenix							= mod:NewSpellAnnounce("ej22090", 2, 328659)
+local warnEyeOnTarget							= mod:NewTargetAnnounce(328479, 2)
+
+local specWarnEyeOnTarget						= mod:NewSpecialWarningYou(328479, nil, nil, nil, 1, 2)
+local yellEyeOnTarget							= mod:NewYell(328479, nil, false)
+
 local timerPhoenixRespawn						= mod:NewCastTimer(20, 328731, nil, nil, nil, 1)
 
---local berserkTimer							= mod:NewBerserkTimer(600)
-
-mod:AddRangeFrameOption(6, 328885)
-mod:AddInfoFrameOption(326078, true)--343026
-mod:AddSetIconOption("SetIconOnEmberBlast", 325877, true, false, {1})
 mod:AddSetIconOption("SetIconOnBirdo", 328731, true, true, {2, 3, 4, 5})
 mod:AddNamePlateOption("NPAuraOnPhoenixFixate", 328479)
+
+--Mostly for testing, these are not meant to be used as they aren't actual groupings
+--mod:GroupSpells("ej21954", 325442, 325506, 325440)--Rockbound Vanquisher spells
+--mod:GroupSpells("ej21993", 333145, 341473)--Bleakwing Assassin spells
+--mod:GroupSpells("ej21952", 329565, 333002)--Vile Occultist spells
+--mod:GroupSpells("ej21953", 325665, 326075)--Soul Infuser spells
+--mod:GroupSpells("ej22090", 328479, 328731)--Phoenix spells
 
 mod.vb.addMode = 0--No adds spawning, 1-Adds Spawning from Darithos Tables, 2-Adds spawning from Shade table
 mod.vb.addCount = 0
@@ -217,7 +209,7 @@ local addTimers = {
 			--Vile Occultist
 			[165763] = {58, 150},
 			--Soul Infuser
-			[165762] = {128, 70},
+			[165762] = {108, 70},
 			--Pestering Fiend
 			[168700] = {28, 60, 40, 40},
 			--Rockbound Vanquisher
@@ -267,7 +259,7 @@ local addTimers = {
 			--Vile Occultist
 			[165763] = {40, 140},
 			--Soul Infuser
-			[165762] = {110, 80},--80 iffy, could be 70 or 75
+			[165762] = {103, 80},--80 iffy, could be 70 or 75
 			--Pestering Fiend
 			[168700] = {20, 60, 40, 40},
 			--Rockbound Vanquisher
@@ -311,25 +303,6 @@ local addTimers = {
 		},
 	},
 }
-
-function mod:EmberBlastTarget(targetname, uId, bossuid, scanningTime)
-	if not targetname then return end
-	local debuffTimer = self:IsLFR() and 5 or 3
-	if targetname == UnitName("player") then
-		specWarnEmberBlast:Show(DBM_CORE_L.ALLIES)
-		specWarnEmberBlast:Play("gathershare")
-		yellEmberBlast:Yell()
-		yellEmberBlastFades:Countdown(debuffTimer-scanningTime)
-	elseif self.Options.SpecWarn325877moveto then
-		specWarnEmberBlast:Show(targetname)
-		specWarnEmberBlast:Play("gathershare")
-	else
-		warnEmberBlast:Show(targetname)
-	end
-	if self.Options.SetIconOnEmberBlast then
-		self:SetIcon(targetname, 1, debuffTimer-scanningTime+1)--So icon clears 1-3 second after blast
-	end
-end
 
 local updateInfoFrame
 do
@@ -390,6 +363,7 @@ local function expectedInfuser(self)
 end
 
 function mod:OnCombatStart(delay)
+	self:SetStage(1)
 	self.vb.addMode = 0
 	self.vb.addCount = 0
 	self.vb.healerOrbCount = 0
@@ -491,12 +465,10 @@ function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 325877 then
 		timerEmberBlastCD:Start(self:IsMythic() and 24.4 or 20.6)--Verify mythic still 24
-		self:BossTargetScanner(args.sourceGUID, "EmberBlastTarget", 0.2, 13)--Scans for 2.6 of 5.0 second cast, will adjust later
 	elseif spellId == 329509 or spellId == 329518 then
 		specWarnBlazingSurge:Show()
 		specWarnBlazingSurge:Play("shockwave")
 		timerBlazingSurgeCD:Start()
-		--self:BossTargetScanner(args.sourceGUID, "BlazingSurgeTarget", 0.1, 12)
 	elseif spellId == 328885 then
 		timerGreaterCastigationCD:Start()
 	elseif spellId == 325440 then
@@ -607,7 +579,12 @@ function mod:SPELL_AURA_APPLIED(args)
 					specWarnBurningRemnants:Show(amount)
 					specWarnBurningRemnants:Play("stackhigh")
 				else
-					if not UnitIsDeadOrGhost("player") and not DBM:UnitDebuff("player", spellId) then
+					local _, _, _, _, _, expireTime = DBM:UnitDebuff("player", spellId)
+					local remaining
+					if expireTime then
+						remaining = expireTime-GetTime()
+					end
+					if (not remaining or remaining and remaining < 8.5) and not UnitIsDeadOrGhost("player") then
 						specWarnBurningRemnantsTaunt:Show(args.destName)
 						specWarnBurningRemnantsTaunt:Play("tauntboss")
 					else
@@ -648,7 +625,7 @@ function mod:SPELL_AURA_APPLIED(args)
 			for i = 1, #birdoTracker do
 				if i == 9 then return end--More birds than we have icons
 				if birdoTracker[i] == args.destGUID then
-					self:ScanForMobs(args.destGUID, 2, i+1, 1, 0.2, 10, "SetIconOnBirdo")
+					self:ScanForMobs(args.destGUID, 2, i+1, 1, nil, 10, "SetIconOnBirdo")
 					break
 				end
 			end
@@ -688,6 +665,7 @@ function mod:SPELL_AURA_APPLIED(args)
 			end
 		end
 	elseif spellId == 323402 and self:AntiSpam(3, 7) then--Reflection of Guilt (Shade Coming out)
+		self:SetStage(2)
 		self.vb.shadeActive = true
 		self.vb.cloakCount = 0
 		timerSoulInfuserCD:Stop()
@@ -722,6 +700,21 @@ function mod:SPELL_AURA_APPLIED(args)
 				timerVileOccultistCD:Start(timer, self.vb.occultistCount+1)
 			end
 		end
+	elseif spellId == 325873 then
+		if args:IsPlayer() then
+			specWarnEmberBlast:Show(DBM_COMMON_L.ALLIES)
+			specWarnEmberBlast:Play("gathershare")
+			yellEmberBlast:Yell()
+			yellEmberBlastFades:Countdown(self:IsLFR() and 5 or 3)
+		elseif self.Options.SpecWarn325877moveto then
+			specWarnEmberBlast:Show(args.destName)
+			specWarnEmberBlast:Play("gathershare")
+		else
+			warnEmberBlast:Show(args.destName)
+		end
+		if self.Options.SetIconOnEmberBlast then
+			self:SetIcon(args.destName, 1)
+		end
 	end
 end
 mod.SPELL_AURA_APPLIED_DOSE = mod.SPELL_AURA_APPLIED
@@ -737,6 +730,7 @@ function mod:SPELL_AURA_REMOVED(args)
 			DBM.Nameplate:Hide(true, args.sourceGUID, spellId)
 		end
 	elseif spellId == 323402 then--Reflection of Guilt (Shade Leaving)
+		self:SetStage(1)
 		self.vb.shadeActive = false
 		self.vb.addMode = 2
 		self.vb.assassinCount = 0
@@ -783,8 +777,8 @@ function mod:SPELL_AURA_REMOVED(args)
 			timerPesteringFiendCD:Start(20, 1)
 			timerVileOccultistCD:Start(40, 1)
 			self:Schedule(60, expectedVile, self)
-			timerSoulInfuserCD:Start(110, 1)
-			self:Schedule(120, expectedInfuser, self)
+			timerSoulInfuserCD:Start(103, 1)
+			self:Schedule(113, expectedInfuser, self)
 		end
 	elseif spellId == 337859 or spellId == 343026 then
 		self.vb.cloakActive = false
@@ -799,6 +793,13 @@ function mod:SPELL_AURA_REMOVED(args)
 			else
 				DBM.InfoFrame:Hide()
 			end
+		end
+	elseif spellId == 325873 then
+		if args:IsPlayer() then
+			yellEmberBlastFades:Cancel()
+		end
+		if self.Options.SetIconOnEmberBlast then
+			self:SetIcon(args.destName, 0)
 		end
 	end
 end
@@ -850,8 +851,8 @@ function mod:UNIT_DIED(args)
 				timerPesteringFiendCD:Start(28, 1)
 				timerVileOccultistCD:Start(48, 1)
 				self:Schedule(68, expectedVile, self)
-				timerSoulInfuserCD:Start(128, 1)
-				self:Schedule(138, expectedInfuser, self)
+				timerSoulInfuserCD:Start(108, 1)
+				self:Schedule(118, expectedInfuser, self)
 			end
 		end
 	elseif cid == 165764 then--Rockbound Vanquisher
@@ -873,9 +874,9 @@ function mod:SPELL_PERIODIC_DAMAGE(_, _, _, _, destGUID, _, _, _, spellId, spell
 end
 mod.SPELL_PERIODIC_MISSED = mod.SPELL_PERIODIC_DAMAGE
 
-function mod:OnSync(msg, guid)
+function mod:OnSync(msg, guid, sender)
 	if not self:IsInCombat() then return end
-	if msg == "Spawn" and guid then
+	if msg == "Spawn" and sender then
 		local cid = self:GetCIDFromGUID(guid)
 		if self:AntiSpam(8, cid) then
 			if cid == 165764 then--Rockbound Vanquisher
@@ -919,18 +920,7 @@ function mod:OnSync(msg, guid)
 				if timer and timer > 5 then
 					timerPesteringFiendCD:Start(timer, self.vb.fiendCount+1)
 				end
---			elseif cid == 168962 then--Reborn Phoenix
-
 			end
 		end
 	end
 end
-
---[[
---https://shadowlands.wowhead.com/spell=336658/reborn-phoenix-exit
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
-	if spellId == 336658 then
-
-	end
-end
---]]

@@ -75,8 +75,8 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
-	["JournalUsed"] = true,
 	["JournalPanel"] = 1,
+	["CustomScaleValue"] = 100,
 	["SpecialSlots"] = {
 	},
 	["ExpandedTargetHeaders"] = {
@@ -87,7 +87,7 @@ RematchSettings = {
 	},
 	["ElvUIToastDefaulted"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
-	["CustomScaleValue"] = 100,
+	["JournalUsed"] = true,
 	["QueueSanctuary"] = {
 	},
 	["YPos"] = 297.9999694824219,

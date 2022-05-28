@@ -129,134 +129,110 @@ DeathGraphsDBDeaths = {
 		},
 		["diff"] = 15,
 	},
-	["2399-14"] = {
-		["hash"] = "2399-14",
+	["2412-15"] = {
+		["hash"] = "2412-15",
 		["type"] = "deaths",
-		["name"] = "Sludgefist",
-		["id"] = "2399-14",
+		["name"] = "The Council of Blood",
+		["id"] = "2412-15",
 		["player_db"] = {
-			["Raenya-Winterhoof"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Raenya-Winterhoof",
+			["Deez-Gorgonnash"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Deez-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Aabbie-Gorgonnash"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 				["name"] = "Aabbie-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Plaguedzombi-Frostmourne"] = {
 				["overall"] = {
 				},
-			},
-			["Frenventer-Stormrage"] = {
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-				["name"] = "Frenventer-Stormrage",
+				["name"] = "Plaguedzombi-Frostmourne",
+				["class"] = "DRUID",
+			},
+			["Whisker-Norgannon"] = {
 				["overall"] = {
 				},
-			},
-			["Valvet-Tanaris"] = {
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-				["name"] = "Valvet-Tanaris",
-				["overall"] = {
-				},
-			},
-			["Honustustere"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Honustustere",
-				["overall"] = {
-				},
-			},
-			["Genericwar-MoonGuard"] = {
-				["deaths"] = {
-				},
+				["name"] = "Whisker-Norgannon",
 				["class"] = "WARRIOR",
-				["name"] = "Genericwar-MoonGuard",
+			},
+			["Rohran-Nordrassil"] = {
 				["overall"] = {
 				},
-			},
-			["Krimmzon"] = {
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
-				["name"] = "Krimmzon",
+				["name"] = "Rohran-Nordrassil",
+				["class"] = "WARLOCK",
+			},
+			["Joclyn-Gorgonnash"] = {
 				["overall"] = {
 				},
-			},
-			["Ownre"] = {
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
-				["name"] = "Ownre",
-				["overall"] = {
-				},
-			},
-			["Jaxxkungfu-Stormrage"] = {
-				["deaths"] = {
-				},
+				["name"] = "Joclyn-Gorgonnash",
 				["class"] = "MONK",
-				["name"] = "Jaxxkungfu-Stormrage",
+			},
+			["Bunnix-Thunderlord"] = {
 				["overall"] = {
 				},
-			},
-			["Rayyn-Stormrage"] = {
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Rayyn-Stormrage",
-				["overall"] = {
-				},
+				["name"] = "Bunnix-Thunderlord",
+				["class"] = "HUNTER",
 			},
 			["Samoansage"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 				["name"] = "Samoansage",
-				["overall"] = {
-				},
-			},
-			["Diedara-Stormrage"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Diedara-Stormrage",
-				["overall"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Octavialorn-Kael'thas",
-				["overall"] = {
-				},
-			},
-			["Jammerz-Maelstrom"] = {
-				["deaths"] = {
-				},
 				["class"] = "SHAMAN",
-				["name"] = "Jammerz-Maelstrom",
+			},
+			["Thomara-Gorgonnash"] = {
 				["overall"] = {
 				},
-			},
-			["Arrethrix-Maelstrom"] = {
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-				["name"] = "Arrethrix-Maelstrom",
+				["name"] = "Thomara-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Killershammy-Gorgonnash"] = {
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Killershammy-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Leminous-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Venalis-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Venalis-Gorgonnash",
+				["class"] = "MAGE",
 			},
 		},
-		["diff"] = 14,
+		["diff"] = 15,
 	},
 	["2417-14"] = {
 		["hash"] = "2417-14",
@@ -361,233 +337,168 @@ DeathGraphsDBDeaths = {
 		["name"] = "Sun King's Salvation",
 		["id"] = "2402-15",
 		["player_db"] = {
+			["Deez-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Deez-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Aquitar-EarthenRing"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Aquitar-EarthenRing",
+				["overall"] = {
+				},
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Palyndrome-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Popple-Baelgun"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Popple-Baelgun",
+				["overall"] = {
+				},
+			},
+			["Rohran-Nordrassil"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Rohran-Nordrassil",
+				["overall"] = {
+				},
+			},
+			["Joclyn-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Joclyn-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Killershammy-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Killershammy-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Karith-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Karith-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Lycosapien-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Lycosapien-Sargeras",
+				["overall"] = {
+				},
+			},
+			["Leminous-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Leminous-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Auxp-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
 		},
 		["diff"] = 15,
 	},
-	["2407-15"] = {
-		["hash"] = "2407-15",
+	["1785-16"] = {
+		["hash"] = "1785-16",
 		["type"] = "deaths",
-		["name"] = "Sire Denathrius",
-		["id"] = "2407-15",
+		["name"] = "Iron Reaver",
+		["id"] = "1785-16",
 		["player_db"] = {
-			["Dorginho-Gallywix"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dorginho-Gallywix",
-			},
-			["Thicknwarm"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Thicknwarm",
-			},
-			["Xanadeau-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Xanadeau-Stormrage",
-				["class"] = "PALADIN",
-			},
-			["Lanowenn-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lanowenn-Stormrage",
-				["class"] = "DRUID",
-			},
-			["Inzifu-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Inzifu-Stormrage",
-				["class"] = "MONK",
-			},
-			["Vexahllia-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Vexahllia-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Xiuyettanya-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Xiuyettanya-Stormrage",
-				["class"] = "PRIEST",
-			},
-			["Cealy-Stormrage"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Cealy-Stormrage",
-			},
-			["Ptitcul-Zul'jin"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ptitcul-Zul'jin",
-				["class"] = "WARRIOR",
-			},
-			["Tustus-Ragnaros"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Tustus-Ragnaros",
-			},
-			["Fjolnïr-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Fjolnïr-Stormrage",
-				["class"] = "PALADIN",
-			},
-			["Sertraline-Nemesis"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sertraline-Nemesis",
-			},
-			["Lykenlova-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lykenlova-Stormrage",
-				["class"] = "DRUID",
-			},
-			["Frøggert-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Frøggert-Stormrage",
-				["class"] = "SHAMAN",
-			},
-			["Ariyka-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ariyka-Stormrage",
-				["class"] = "SHAMAN",
-			},
-			["Pyräe-Stormrage"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Pyräe-Stormrage",
-			},
-			["Azblink-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Azblink-Stormrage",
-				["class"] = "MAGE",
-			},
-			["Mëmorius-Zul'jin"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mëmorius-Zul'jin",
-			},
-			["Stuubz-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Stuubz-Stormrage",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Meepins-ScarletCrusade"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meepins-ScarletCrusade",
-				["class"] = "MAGE",
-			},
-			["Fenrisson-Darrowmere"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Fenrisson-Darrowmere",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Windowpane-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Windowpane-Stormrage",
-				["class"] = "WARLOCK",
-			},
-			["Samoansage"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Samoansage",
-			},
-			["Kalcainos-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kalcainos-Stormrage",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Otoro-Bronzebeard"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Otoro-Bronzebeard",
-			},
-			["Silentbeast-Aggramar"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Silentbeast-Aggramar",
-				["class"] = "HUNTER",
-			},
-			["Makzilla-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Makzilla-Stormrage",
-				["class"] = "HUNTER",
-			},
 		},
-		["diff"] = 15,
+		["diff"] = 16,
+	},
+	["609-14"] = {
+		["hash"] = "609-14",
+		["type"] = "deaths",
+		["name"] = "Illidan Stormrage",
+		["id"] = "609-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1695-16"] = {
+		["hash"] = "1695-16",
+		["type"] = "deaths",
+		["name"] = "The Iron Maidens",
+		["id"] = "1695-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1786-16"] = {
+		["hash"] = "1786-16",
+		["type"] = "deaths",
+		["name"] = "Kilrogg Deadeye",
+		["id"] = "1786-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1693-16"] = {
+		["hash"] = "1693-16",
+		["type"] = "deaths",
+		["name"] = "Hans'gar & Franzok",
+		["id"] = "1693-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1794-16"] = {
+		["hash"] = "1794-16",
+		["type"] = "deaths",
+		["name"] = "Socrethar the Eternal",
+		["id"] = "1794-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1691-16"] = {
+		["hash"] = "1691-16",
+		["type"] = "deaths",
+		["name"] = "Gruul",
+		["id"] = "1691-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1704-16"] = {
+		["hash"] = "1704-16",
+		["type"] = "deaths",
+		["name"] = "Blackhand",
+		["id"] = "1704-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
 	},
 	["2417-15"] = {
 		["hash"] = "2417-15",
@@ -1004,224 +915,6 @@ DeathGraphsDBDeaths = {
 		},
 		["diff"] = 15,
 	},
-	["2418-15"] = {
-		["hash"] = "2418-15",
-		["type"] = "deaths",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-15",
-		["player_db"] = {
-			["Venalis-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Venalis-Gorgonnash",
-				["class"] = "MAGE",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aabbie-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Craftyhunt-Aegwynn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Craftyhunt-Aegwynn",
-				["class"] = "HUNTER",
-			},
-			["Ysrå-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ysrå-MoonGuard",
-				["class"] = "DRUID",
-			},
-			["Auxdr-Kel'Thuzad"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Auxdr-Kel'Thuzad",
-				["class"] = "DRUID",
-			},
-			["Rohran-Nordrassil"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Rohran-Nordrassil",
-				["class"] = "WARLOCK",
-			},
-			["Samoansage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-			},
-			["Lunasy-Proudmoore"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lunasy-Proudmoore",
-				["class"] = "PALADIN",
-			},
-			["Calmor-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Calmor-Gorgonnash",
-				["class"] = "SHAMAN",
-			},
-			["Thomara-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Thomara-Gorgonnash",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Killershammy-Gorgonnash",
-				["class"] = "SHAMAN",
-			},
-			["Leminous-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Leminous-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Deez-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Deez-Gorgonnash",
-				["class"] = "DEATHKNIGHT",
-			},
-		},
-		["diff"] = 15,
-	},
-	["2406-15"] = {
-		["hash"] = "2406-15",
-		["type"] = "deaths",
-		["name"] = "Lady Inerva Darkvein",
-		["id"] = "2406-15",
-		["player_db"] = {
-			["Venalis-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Venalis-Gorgonnash",
-				["class"] = "MAGE",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aabbie-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Palyndrome-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Palyndrome-Gorgonnash",
-				["class"] = "PALADIN",
-			},
-			["Ysrå-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ysrå-MoonGuard",
-				["class"] = "DRUID",
-			},
-			["Reaperchill-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Reaperchill-Stormrage",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Joclyn-Gorgonnash",
-				["class"] = "MONK",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Killershammy-Gorgonnash",
-				["class"] = "SHAMAN",
-			},
-			["Yummi-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Yummi-Frostmourne",
-				["class"] = "SHAMAN",
-			},
-			["Frotobaggins-Whisperwind"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Frotobaggins-Whisperwind",
-				["class"] = "HUNTER",
-			},
-			["Lycosapien-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lycosapien-Sargeras",
-				["class"] = "WARLOCK",
-			},
-			["Leminous-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Leminous-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Sayjani-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sayjani-Stormrage",
-				["class"] = "DEATHKNIGHT",
-			},
-		},
-		["diff"] = 15,
-	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
 		["type"] = "deaths",
@@ -1255,110 +948,14 @@ DeathGraphsDBDeaths = {
 		},
 		["diff"] = 15,
 	},
-	["2405-15"] = {
-		["hash"] = "2405-15",
+	["1778-16"] = {
+		["hash"] = "1778-16",
 		["type"] = "deaths",
-		["name"] = "Artificer Xy'mox",
-		["id"] = "2405-15",
+		["name"] = "Hellfire Assault",
+		["id"] = "1778-16",
 		["player_db"] = {
-			["Reaperchill-Stormrage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Reaperchill-Stormrage",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aabbie-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Ysrå-MoonGuard"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ysrå-MoonGuard",
-				["class"] = "DRUID",
-			},
-			["Frotobaggins-Whisperwind"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Frotobaggins-Whisperwind",
-				["class"] = "HUNTER",
-			},
-			["Rohran-Nordrassil"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Rohran-Nordrassil",
-				["class"] = "WARLOCK",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Joclyn-Gorgonnash",
-				["class"] = "MONK",
-			},
-			["Samoansage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-			},
-			["Calmor-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Calmor-Gorgonnash",
-				["class"] = "SHAMAN",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Killershammy-Gorgonnash",
-				["class"] = "SHAMAN",
-			},
-			["Lycosapien-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lycosapien-Sargeras",
-				["class"] = "WARLOCK",
-			},
-			["Leminous-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Leminous-Gorgonnash",
-				["class"] = "DRUID",
-			},
-			["Venalis-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Venalis-Gorgonnash",
-				["class"] = "MAGE",
-			},
 		},
-		["diff"] = 15,
+		["diff"] = 16,
 	},
 	["2407-14"] = {
 		["hash"] = "2407-14",
@@ -1487,30 +1084,6 @@ DeathGraphsDBDeaths = {
 				["name"] = "Venalis-Gorgonnash",
 				["class"] = "MAGE",
 			},
-			["Joclyn-Gorgonnash"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Joclyn-Gorgonnash",
-				["class"] = "MONK",
-			},
-			["Lycosapien-Sargeras"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lycosapien-Sargeras",
-				["class"] = "WARLOCK",
-			},
-			["Samoansage"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Samoansage",
-				["class"] = "SHAMAN",
-			},
 			["Palyndrome-Gorgonnash"] = {
 				["overall"] = {
 				},
@@ -1519,13 +1092,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Palyndrome-Gorgonnash",
 				["class"] = "PALADIN",
 			},
-			["Killershammy-Gorgonnash"] = {
+			["Joclyn-Gorgonnash"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Killershammy-Gorgonnash",
-				["class"] = "SHAMAN",
+				["name"] = "Joclyn-Gorgonnash",
+				["class"] = "MONK",
 			},
 			["Frotobaggins-Whisperwind"] = {
 				["overall"] = {
@@ -1535,6 +1108,14 @@ DeathGraphsDBDeaths = {
 				["name"] = "Frotobaggins-Whisperwind",
 				["class"] = "HUNTER",
 			},
+			["Samoansage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
+			},
 			["Deez-Gorgonnash"] = {
 				["overall"] = {
 				},
@@ -1542,55 +1123,223 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Deez-Gorgonnash",
 				["class"] = "DEATHKNIGHT",
+			},
+			["Lycosapien-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lycosapien-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killershammy-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Aaralynn-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Aaralynn-Gorgonnash",
+				["overall"] = {
+				},
 			},
 		},
 		["diff"] = 15,
 	},
-	["2412-15"] = {
-		["hash"] = "2412-15",
+	["1784-16"] = {
+		["hash"] = "1784-16",
 		["type"] = "deaths",
-		["name"] = "The Council of Blood",
-		["id"] = "2412-15",
+		["name"] = "Tyrant Velhari",
+		["id"] = "1784-16",
 		["player_db"] = {
-			["Deez-Gorgonnash"] = {
+		},
+		["diff"] = 16,
+	},
+	["1788-16"] = {
+		["hash"] = "1788-16",
+		["type"] = "deaths",
+		["name"] = "Shadow-Lord Iskar",
+		["id"] = "1788-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["608-14"] = {
+		["hash"] = "608-14",
+		["type"] = "deaths",
+		["name"] = "The Illidari Council",
+		["id"] = "608-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1696-16"] = {
+		["hash"] = "1696-16",
+		["type"] = "deaths",
+		["name"] = "Oregorger the Devourer",
+		["id"] = "1696-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["607-14"] = {
+		["hash"] = "607-14",
+		["type"] = "deaths",
+		["name"] = "Mother Shahraz",
+		["id"] = "607-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1783-16"] = {
+		["hash"] = "1783-16",
+		["type"] = "deaths",
+		["name"] = "Gorefiend",
+		["id"] = "1783-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["605-14"] = {
+		["hash"] = "605-14",
+		["type"] = "deaths",
+		["name"] = "Gurtogg Bloodboil",
+		["id"] = "605-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["606-14"] = {
+		["hash"] = "606-14",
+		["type"] = "deaths",
+		["name"] = "Reliquary of Souls",
+		["id"] = "606-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["2406-15"] = {
+		["hash"] = "2406-15",
+		["type"] = "deaths",
+		["name"] = "Lady Inerva Darkvein",
+		["id"] = "2406-15",
+		["player_db"] = {
+			["Frotobaggins-Whisperwind"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Deez-Gorgonnash",
-				["class"] = "DEATHKNIGHT",
+				["name"] = "Frotobaggins-Whisperwind",
+				["class"] = "HUNTER",
 			},
-			["Aabbie-Gorgonnash"] = {
+			["Aquitar-EarthenRing"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Aquitar-EarthenRing",
+				["overall"] = {
+				},
+			},
+			["Ysrå-MoonGuard"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Aabbie-Gorgonnash",
+				["name"] = "Ysrå-MoonGuard",
 				["class"] = "DRUID",
-			},
-			["Plaguedzombi-Frostmourne"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Plaguedzombi-Frostmourne",
-				["class"] = "DRUID",
-			},
-			["Whisker-Norgannon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Whisker-Norgannon",
-				["class"] = "WARRIOR",
 			},
 			["Rohran-Nordrassil"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Rohran-Nordrassil",
+				["overall"] = {
+				},
+			},
+			["Calmor-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Calmor-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Yummi-Frostmourne"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Rohran-Nordrassil",
-				["class"] = "WARLOCK",
+				["name"] = "Yummi-Frostmourne",
+				["class"] = "SHAMAN",
+			},
+			["Reaperchill-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Reaperchill-Stormrage",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Auxp-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Dreamit-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Sayjani-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sayjani-Stormrage",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Palyndrome-Gorgonnash",
+				["class"] = "PALADIN",
+			},
+			["Deez-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Deez-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Popple-Baelgun"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Popple-Baelgun",
+				["overall"] = {
+				},
+			},
+			["Venalis-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Venalis-Gorgonnash",
+				["class"] = "MAGE",
 			},
 			["Joclyn-Gorgonnash"] = {
 				["overall"] = {
@@ -1600,13 +1349,593 @@ DeathGraphsDBDeaths = {
 				["name"] = "Joclyn-Gorgonnash",
 				["class"] = "MONK",
 			},
-			["Bunnix-Thunderlord"] = {
+			["Aabbie-Gorgonnash"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Bunnix-Thunderlord",
+				["name"] = "Aabbie-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Samoansage"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Samoansage",
+				["overall"] = {
+				},
+			},
+			["Lycosapien-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lycosapien-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killershammy-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Leminous-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Aaralynn-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Aaralynn-Gorgonnash",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["603-14"] = {
+		["hash"] = "603-14",
+		["type"] = "deaths",
+		["name"] = "Shade of Akama",
+		["id"] = "603-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["601-14"] = {
+		["hash"] = "601-14",
+		["type"] = "deaths",
+		["name"] = "High Warlord Naj'entus",
+		["id"] = "601-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["2399-14"] = {
+		["hash"] = "2399-14",
+		["type"] = "deaths",
+		["name"] = "Sludgefist",
+		["id"] = "2399-14",
+		["player_db"] = {
+			["Raenya-Winterhoof"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Raenya-Winterhoof",
+				["overall"] = {
+				},
+			},
+			["Aabbie-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Aabbie-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Frenventer-Stormrage"] = {
+				["deaths"] = {
+				},
 				["class"] = "HUNTER",
+				["name"] = "Frenventer-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Valvet-Tanaris"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Valvet-Tanaris",
+				["overall"] = {
+				},
+			},
+			["Honustustere"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Honustustere",
+				["overall"] = {
+				},
+			},
+			["Genericwar-MoonGuard"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Genericwar-MoonGuard",
+				["overall"] = {
+				},
+			},
+			["Krimmzon"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Krimmzon",
+				["overall"] = {
+				},
+			},
+			["Ownre"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Ownre",
+				["overall"] = {
+				},
+			},
+			["Jaxxkungfu-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Jaxxkungfu-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Rayyn-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Rayyn-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Samoansage"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Samoansage",
+				["overall"] = {
+				},
+			},
+			["Diedara-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Diedara-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Octavialorn-Kael'thas"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Octavialorn-Kael'thas",
+				["overall"] = {
+				},
+			},
+			["Jammerz-Maelstrom"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Jammerz-Maelstrom",
+				["overall"] = {
+				},
+			},
+			["Arrethrix-Maelstrom"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Arrethrix-Maelstrom",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["1689-16"] = {
+		["hash"] = "1689-16",
+		["type"] = "deaths",
+		["name"] = "Flamebender Ka'graz",
+		["id"] = "1689-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1795-16"] = {
+		["hash"] = "1795-16",
+		["type"] = "deaths",
+		["name"] = "Mannoroth",
+		["id"] = "1795-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["2407-15"] = {
+		["hash"] = "2407-15",
+		["type"] = "deaths",
+		["name"] = "Sire Denathrius",
+		["id"] = "2407-15",
+		["player_db"] = {
+			["Dorginho-Gallywix"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dorginho-Gallywix",
+			},
+			["Thicknwarm"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thicknwarm",
+			},
+			["Xanadeau-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Xanadeau-Stormrage",
+				["class"] = "PALADIN",
+			},
+			["Lanowenn-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lanowenn-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Inzifu-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Inzifu-Stormrage",
+				["class"] = "MONK",
+			},
+			["Vexahllia-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vexahllia-Stormrage",
+				["class"] = "HUNTER",
+			},
+			["Xiuyettanya-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Xiuyettanya-Stormrage",
+				["class"] = "PRIEST",
+			},
+			["Cealy-Stormrage"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cealy-Stormrage",
+			},
+			["Ptitcul-Zul'jin"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ptitcul-Zul'jin",
+				["class"] = "WARRIOR",
+			},
+			["Tustus-Ragnaros"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Tustus-Ragnaros",
+			},
+			["Fjolnïr-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fjolnïr-Stormrage",
+				["class"] = "PALADIN",
+			},
+			["Sertraline-Nemesis"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sertraline-Nemesis",
+			},
+			["Lykenlova-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lykenlova-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Frøggert-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Frøggert-Stormrage",
+				["class"] = "SHAMAN",
+			},
+			["Ariyka-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ariyka-Stormrage",
+				["class"] = "SHAMAN",
+			},
+			["Pyräe-Stormrage"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Pyräe-Stormrage",
+			},
+			["Azblink-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azblink-Stormrage",
+				["class"] = "MAGE",
+			},
+			["Mëmorius-Zul'jin"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mëmorius-Zul'jin",
+			},
+			["Stuubz-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Stuubz-Stormrage",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Meepins-ScarletCrusade"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meepins-ScarletCrusade",
+				["class"] = "MAGE",
+			},
+			["Fenrisson-Darrowmere"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Fenrisson-Darrowmere",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Windowpane-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Windowpane-Stormrage",
+				["class"] = "WARLOCK",
+			},
+			["Samoansage"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Samoansage",
+			},
+			["Kalcainos-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kalcainos-Stormrage",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Otoro-Bronzebeard"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Otoro-Bronzebeard",
+			},
+			["Silentbeast-Aggramar"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Silentbeast-Aggramar",
+				["class"] = "HUNTER",
+			},
+			["Makzilla-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Makzilla-Stormrage",
+				["class"] = "HUNTER",
+			},
+		},
+		["diff"] = 15,
+	},
+	["1777-16"] = {
+		["hash"] = "1777-16",
+		["type"] = "deaths",
+		["name"] = "Fel Lord Zakuun",
+		["id"] = "1777-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1787-16"] = {
+		["hash"] = "1787-16",
+		["type"] = "deaths",
+		["name"] = "Kormrok",
+		["id"] = "1787-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1694-16"] = {
+		["hash"] = "1694-16",
+		["type"] = "deaths",
+		["name"] = "Beastlord Darmac",
+		["id"] = "1694-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1692-16"] = {
+		["hash"] = "1692-16",
+		["type"] = "deaths",
+		["name"] = "Operator Thogar",
+		["id"] = "1692-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1799-16"] = {
+		["hash"] = "1799-16",
+		["type"] = "deaths",
+		["name"] = "Archimonde",
+		["id"] = "1799-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["2418-15"] = {
+		["hash"] = "2418-15",
+		["type"] = "deaths",
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-15",
+		["player_db"] = {
+			["Deez-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Deez-Gorgonnash",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Ysrå-MoonGuard"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ysrå-MoonGuard",
+				["class"] = "DRUID",
+			},
+			["Auxdr-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Auxdr-Kel'Thuzad",
+				["class"] = "DRUID",
+			},
+			["Rohran-Nordrassil"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rohran-Nordrassil",
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Calmor-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Karith-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Karith-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Aabbie-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Aabbie-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Dreamit-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Craftyhunt-Aegwynn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Craftyhunt-Aegwynn",
+				["class"] = "HUNTER",
+			},
+			["Popple-Baelgun"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Popple-Baelgun",
+				["overall"] = {
+				},
+			},
+			["Venalis-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Venalis-Gorgonnash",
+				["class"] = "MAGE",
+			},
+			["Lunasy-Proudmoore"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lunasy-Proudmoore",
+				["class"] = "PALADIN",
 			},
 			["Samoansage"] = {
 				["overall"] = {
@@ -1640,6 +1969,59 @@ DeathGraphsDBDeaths = {
 				["name"] = "Leminous-Gorgonnash",
 				["class"] = "DRUID",
 			},
+			["Aaralynn-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Aaralynn-Gorgonnash",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["1798-16"] = {
+		["hash"] = "1798-16",
+		["type"] = "deaths",
+		["name"] = "Hellfire High Council",
+		["id"] = "1798-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1800-16"] = {
+		["hash"] = "1800-16",
+		["type"] = "deaths",
+		["name"] = "Xhul'horac",
+		["id"] = "1800-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1713-16"] = {
+		["hash"] = "1713-16",
+		["type"] = "deaths",
+		["name"] = "Kromog, Legend of the Mountain",
+		["id"] = "1713-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1690-16"] = {
+		["hash"] = "1690-16",
+		["type"] = "deaths",
+		["name"] = "Blast Furnace",
+		["id"] = "1690-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["2405-15"] = {
+		["hash"] = "2405-15",
+		["type"] = "deaths",
+		["name"] = "Artificer Xy'mox",
+		["id"] = "2405-15",
+		["player_db"] = {
 			["Venalis-Gorgonnash"] = {
 				["overall"] = {
 				},
@@ -1647,6 +2029,150 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Venalis-Gorgonnash",
 				["class"] = "MAGE",
+			},
+			["Aquitar-EarthenRing"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Aquitar-EarthenRing",
+				["overall"] = {
+				},
+			},
+			["Ysrå-MoonGuard"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ysrå-MoonGuard",
+				["class"] = "DRUID",
+			},
+			["Rohran-Nordrassil"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rohran-Nordrassil",
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Calmor-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Lycosapien-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lycosapien-Sargeras",
+				["class"] = "WARLOCK",
+			},
+			["Reaperchill-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Reaperchill-Stormrage",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Aabbie-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Dreamit-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Palyndrome-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Popple-Baelgun"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Popple-Baelgun",
+				["overall"] = {
+				},
+			},
+			["Deez-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Deez-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Joclyn-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Joclyn-Gorgonnash",
+				["class"] = "MONK",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Auxp-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Samoansage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Samoansage",
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Thomara-Gorgonnash",
+				["overall"] = {
+				},
+			},
+			["Killershammy-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Killershammy-Gorgonnash",
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Leminous-Gorgonnash",
+				["class"] = "DRUID",
+			},
+			["Frotobaggins-Whisperwind"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Frotobaggins-Whisperwind",
+				["class"] = "HUNTER",
 			},
 		},
 		["diff"] = 15,
@@ -1877,6 +2403,2147 @@ DeathGraphsDBEndurance = {
 		},
 		["diff"] = 15,
 	},
+	["2412-15"] = {
+		["hash"] = "2412-15",
+		["type"] = "endurance",
+		["name"] = "The Council of Blood",
+		["id"] = "2412-15",
+		["player_db"] = {
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						14.8979999999865, -- [2]
+						"Melee |cFFFF333310,512|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						225.5540000000037, -- [2]
+						"Evasive Lunge |cFFFF333342,297|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Cheri-Thunderlord"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Plaguedzombi-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						1.35899999999674, -- [2]
+						"Melee |cFFFF333320,606|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Samoansage"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["deaths"] = {
+					{
+						1, -- [1]
+						17.13899999999558, -- [2]
+						"Dreadbolt Volley |cFFFF33331,608|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						85.59400000001187, -- [2]
+						"Wrong Moves (DoT) |cFFFF33337,559|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Bunnix-Thunderlord"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						28.23500000001513, -- [2]
+						"Dark Recital |cFFFF333312,360|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Whisker-Norgannon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Nekrotok-Thunderlord"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+		},
+		["diff"] = 15,
+	},
+	["2417-14"] = {
+		["hash"] = "2417-14",
+		["type"] = "endurance",
+		["name"] = "Stone Legion Generals",
+		["id"] = "2417-14",
+		["player_db"] = {
+			["Anthaden-Suramar"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						289.4770000000135, -- [2]
+						"Pulverizing Meteor |cFFFF333330,473|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Krimmzon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Rayyn-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						199.1760000000359, -- [2]
+						"Seismic Upheaval |cFFFF33336,361|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kidchaor-Goldrinn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Eirii-Nordrassil"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lilbratt-Suramar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Frenventer-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Genericwar-MoonGuard"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						2, -- [1]
+						219.3420000000042, -- [2]
+						"Pulverizing Meteor |cFFFF333380,959|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ravenlynn-WyrmrestAccord"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Honustustere"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						3, -- [1]
+						362.7800000000279, -- [2]
+						"", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kookster-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Crue-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Octavialorn-Kael'thas"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						31.19099999999162, -- [2]
+						"Pulverizing Meteor |cFFFF333366,132|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jaxxkungfu-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Arrethrix-Maelstrom"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						3, -- [1]
+						318.3369999999995, -- [2]
+						"Heart Hemorrhage (DoT) |cFFFF33333,247|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["2402-15"] = {
+		["hash"] = "2402-15",
+		["type"] = "endurance",
+		["name"] = "Sun King's Salvation",
+		["id"] = "2402-15",
+		["player_db"] = {
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Aquitar-EarthenRing"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sayjani-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Karith-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						243.7119999999995, -- [2]
+						"Melee |cFFFF33336,530|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lycosapien-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Reaperchill-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						89.06499999999505, -- [2]
+						"Scornful Blast |cFFFF33335,527|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Popple-Baelgun"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						87.80999999999767, -- [2]
+						"Burning Remnants (DoT) |cFFFF33331,741|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						3.171000000002096, -- [2]
+						"Melee |cFFFF33336,523|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Frotobaggins-Whisperwind"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Samoansage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						1, -- [1]
+						90.14099999999598, -- [2]
+						"Ember Blast |cFFFF333316,951|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+		},
+		["diff"] = 15,
+	},
+	["1785-16"] = {
+		["hash"] = "1785-16",
+		["type"] = "endurance",
+		["name"] = "Iron Reaver",
+		["id"] = "1785-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["609-14"] = {
+		["hash"] = "609-14",
+		["type"] = "endurance",
+		["name"] = "Illidan Stormrage",
+		["id"] = "609-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1695-16"] = {
+		["hash"] = "1695-16",
+		["type"] = "endurance",
+		["name"] = "The Iron Maidens",
+		["id"] = "1695-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1786-16"] = {
+		["hash"] = "1786-16",
+		["type"] = "endurance",
+		["name"] = "Kilrogg Deadeye",
+		["id"] = "1786-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1693-16"] = {
+		["hash"] = "1693-16",
+		["type"] = "endurance",
+		["name"] = "Hans'gar & Franzok",
+		["id"] = "1693-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1794-16"] = {
+		["hash"] = "1794-16",
+		["type"] = "endurance",
+		["name"] = "Socrethar the Eternal",
+		["id"] = "1794-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1691-16"] = {
+		["hash"] = "1691-16",
+		["type"] = "endurance",
+		["name"] = "Gruul",
+		["id"] = "1691-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1704-16"] = {
+		["hash"] = "1704-16",
+		["type"] = "endurance",
+		["name"] = "Blackhand",
+		["id"] = "1704-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["2417-15"] = {
+		["hash"] = "2417-15",
+		["type"] = "endurance",
+		["name"] = "Stone Legion Generals",
+		["id"] = "2417-15",
+		["player_db"] = {
+			["Heavensgräce-Proudmoore"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1280,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						5, -- [1]
+						171.804999999993, -- [2]
+						"Cluster Bombardment |cFFFF333315,088|r", -- [3]
+					}, -- [1]
+					{
+						11, -- [1]
+						185.6840000000084, -- [2]
+						"Environment (Falling) |cFFFF333334,324|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Larsenn-Nemesis"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Lanowenn-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1250,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						369.4280000000144, -- [2]
+						"Cluster Bombardment |cFFFF333315,944|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						29.33999999999651, -- [2]
+						"Crystalline Burst |cFFFF33338,713|r", -- [3]
+					}, -- [2]
+					{
+						9, -- [1]
+						89.85899999999674, -- [2]
+						"Wicked Blast |cFFFF333314,497|r", -- [3]
+					}, -- [3]
+					{
+						11, -- [1]
+						184.9689999999828, -- [2]
+						"Melee |cFFFF333329,417|r", -- [3]
+					}, -- [4]
+					{
+						12, -- [1]
+						150.0819999999949, -- [2]
+						"Wicked Blast |cFFFF333314,497|r", -- [3]
+					}, -- [5]
+				},
+			},
+			["Xiuyettanya-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Bieri-Trollbane"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Ggmaterial-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Tustus-Ragnaros"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Lycosapien-Sargeras"] = {
+				["encounters"] = 12,
+				["points"] = 1170,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						4, -- [1]
+						147.5210000000079, -- [2]
+						"Cluster Bombardment |cFFFF333315,668|r", -- [3]
+					}, -- [1]
+					{
+						8, -- [1]
+						250.0179999999818, -- [2]
+						"Seismic Upheaval |cFFFF333311,394|r", -- [3]
+					}, -- [2]
+					{
+						14, -- [1]
+						216.1080000000075, -- [2]
+						"Wicked Blast |cFFFF333314,322|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Hotfordan-Sargeras"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Nekrotok-Thunderlord"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Lenningrad-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lykenlova-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["encounters"] = 13,
+				["points"] = 1280,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						7, -- [1]
+						83.23600000000442, -- [2]
+						"Pulverizing Meteor |cFFFF333316,721|r", -- [3]
+					}, -- [1]
+					{
+						14, -- [1]
+						94.15200000000186, -- [2]
+						"Ravenous Swipe |cFFFF33333,179|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Ariyka-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						23, -- [1]
+						204.2869999999966, -- [2]
+						"Seismic Upheaval |cFFFF333310,213|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lifestyle-Bloodhoof"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["deaths"] = {
+					{
+						17, -- [1]
+						134.56, -- [2]
+						"Pulverizing Meteor |cFFFF333312,066|r", -- [3]
+					}, -- [1]
+					{
+						21, -- [1]
+						129.1799999999994, -- [2]
+						"Crystalize |cFFFF33332,869|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "PRIEST",
+			},
+			["Silentbeast-Aggramar"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Mëmorius-Zul'jin"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["deaths"] = {
+					{
+						18, -- [1]
+						152.355, -- [2]
+						"Wicked Blast |cFFFF333313,144|r", -- [3]
+					}, -- [1]
+					{
+						20, -- [1]
+						22.42100000000028, -- [2]
+						"Wicked Blast |cFFFF333313,034|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "MONK",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1280,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						7, -- [1]
+						141.5290000000096, -- [2]
+						"", -- [3]
+					}, -- [1]
+					{
+						14, -- [1]
+						243.8500000000058, -- [2]
+						"", -- [3]
+					}, -- [2]
+				},
+			},
+			["Insub-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Droninlee-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						17, -- [1]
+						151.27, -- [2]
+						"Wicked Laceration (DoT) |cFFFF333310,553|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Hotdreams-Kel'Thuzad"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						11, -- [1]
+						184.7639999999956, -- [2]
+						"Wicked Blast |cFFFF333313,578|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 21,
+				["points"] = 2050,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						3, -- [1]
+						230.9360000000161, -- [2]
+						"Seismic Upheaval |cFFFF333311,156|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						205.2969999999914, -- [2]
+						"Shattering Shockwave |cFFFF33336,324|r", -- [3]
+					}, -- [2]
+					{
+						8, -- [1]
+						328.9629999999888, -- [2]
+						"Ravenous Swipe |cFFFF33333,590|r", -- [3]
+					}, -- [3]
+					{
+						9, -- [1]
+						89.41599999999744, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33334,422|r", -- [3]
+					}, -- [4]
+					{
+						13, -- [1]
+						183.4709999999905, -- [2]
+						"Wicked Blast |cFFFF333313,947|r", -- [3]
+					}, -- [5]
+				},
+			},
+			["Pyräe-Stormrage"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						19, -- [1]
+						278.4060000000004, -- [2]
+						"Echoing Annihilation |cFFFF333369,606|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Otoro-Bronzebeard"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						19, -- [1]
+						256.7160000000004, -- [2]
+						"Seismic Upheaval |cFFFF333311,898|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Ryyven-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1290,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						9, -- [1]
+						82.52499999999418, -- [2]
+						"Pulverizing Meteor |cFFFF33339,839|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kalcainos-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1250,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						5, -- [1]
+						216.804999999993, -- [2]
+						"Melee |cFFFF333339,797|r", -- [3]
+					}, -- [1]
+					{
+						6, -- [1]
+						312.4459999999963, -- [2]
+						"Echoing Annihilation |cFFFF333368,342|r", -- [3]
+					}, -- [2]
+					{
+						10, -- [1]
+						79.03300000002491, -- [2]
+						"Crystalize |cFFFF33332,492|r", -- [3]
+					}, -- [3]
+					{
+						12, -- [1]
+						150.0819999999949, -- [2]
+						"Wicked Blast |cFFFF333314,239|r", -- [3]
+					}, -- [4]
+					{
+						13, -- [1]
+						183.5999999999767, -- [2]
+						"Wicked Blast |cFFFF333314,240|r", -- [3]
+					}, -- [5]
+				},
+			},
+			["Dorginho-Gallywix"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						21, -- [1]
+						271.174, -- [2]
+						"Seismic Upheaval |cFFFF333310,791|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Fenrisson-Darrowmere"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Xanadeau-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["deaths"] = {
+					{
+						21, -- [1]
+						66.38700000000244, -- [2]
+						"Wicked Laceration (DoT) |cFFFF333310,983|r", -- [3]
+					}, -- [1]
+					{
+						22, -- [1]
+						83.33099999999104, -- [2]
+						"Melee |cFFFF333353,075|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "PALADIN",
+			},
+			["Vexahllia-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						23, -- [1]
+						189.1139999999869, -- [2]
+						"Melee |cFFFF333395,185|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 13,
+				["points"] = 1290,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						15, -- [1]
+						272.6479999999865, -- [2]
+						"Reverberating Eruption |cFFFF333386,833|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Deadup-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Amelolanna-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						22, -- [1]
+						31.84299999999348, -- [2]
+						"Ravenous Swipe |cFFFF33332,006|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Chinguilo-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Eklu-MoonGuard"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Ptitcul-Zul'jin"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						21, -- [1]
+						56.34500000000116, -- [2]
+						"Wicked Laceration (DoT) |cFFFF333311,451|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Roosterbob-Stormrage"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["deaths"] = {
+					{
+						18, -- [1]
+						152.1130000000003, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33336,973|r", -- [3]
+					}, -- [1]
+					{
+						19, -- [1]
+						151.8900000000003, -- [2]
+						"Wicked Blast |cFFFF333315,030|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Waliant-Frostmourne"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						21, -- [1]
+						233.134, -- [2]
+						"Melee |cFFFF333344,110|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Imlustnbois-Sargeras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Skofmjod-MoonGuard"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Staladenar-Daggerspine"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Azasal-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						21, -- [1]
+						56.34500000000116, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33339,077|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1280,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						8, -- [1]
+						333.3799999999756, -- [2]
+						"Melee |cFFFF333335,918|r", -- [3]
+					}, -- [1]
+					{
+						13, -- [1]
+						134.5929999999935, -- [2]
+						"Pulverizing Meteor |cFFFF333315,070|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Windowpane-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Sertraline-Nemesis"] = {
+				["encounters"] = 5,
+				["points"] = 500,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Lucyhartfila-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Hoodnaga-Sargeras"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Stuubz-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["deaths"] = {
+					{
+						22, -- [1]
+						123.226999999999, -- [2]
+						"", -- [3]
+					}, -- [1]
+					{
+						23, -- [1]
+						212.2779999999912, -- [2]
+						"Seismic Upheaval |cFFFF333311,780|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Fjolnïr-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Fhaust-Proudmoore"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						20, -- [1]
+						22.42100000000028, -- [2]
+						"Wicked Blast |cFFFF333314,533|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 13,
+				["points"] = 1260,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						3, -- [1]
+						373.1050000000105, -- [2]
+						"Ravenous Swipe |cFFFF33333,732|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						134.3730000000214, -- [2]
+						"Pulverizing Meteor |cFFFF333312,931|r", -- [3]
+					}, -- [2]
+					{
+						7, -- [1]
+						145.0610000000161, -- [2]
+						"", -- [3]
+					}, -- [3]
+					{
+						10, -- [1]
+						91.28700000001118, -- [2]
+						"Environment (Falling) |cFFFF333327,505|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Jardian-Thunderlord"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Aráxia-Ragnaros"] = {
+				["encounters"] = 5,
+				["points"] = 490,
+				["deaths"] = {
+					{
+						18, -- [1]
+						126.1470000000004, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33336,539|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 14,
+				["points"] = 1330,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						4, -- [1]
+						135.1690000000235, -- [2]
+						"Ravenous Swipe |cFFFF33331,971|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						178.6879999999946, -- [2]
+						"Wicked Laceration (DoT) |cFFFF33334,842|r", -- [3]
+					}, -- [2]
+					{
+						10, -- [1]
+						82.05999999999767, -- [2]
+						"Pulverizing Meteor |cFFFF33339,261|r", -- [3]
+					}, -- [3]
+					{
+						12, -- [1]
+						150.0819999999949, -- [2]
+						"Wicked Blast |cFFFF333314,079|r", -- [3]
+					}, -- [4]
+					{
+						15, -- [1]
+						93.50199999997858, -- [2]
+						"Ravenous Swipe |cFFFF33333,661|r", -- [3]
+					}, -- [5]
+					{
+						15, -- [1]
+						136.1119999999937, -- [2]
+						"Melee |cFFFF333317,684|r", -- [3]
+					}, -- [6]
+				},
+			},
+			["Meepins-ScarletCrusade"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Misstea-Skywall"] = {
+				["encounters"] = 5,
+				["points"] = 480,
+				["deaths"] = {
+					{
+						17, -- [1]
+						152.1030000000001, -- [2]
+						"Wicked Laceration (DoT) |cFFFF333310,695|r", -- [3]
+					}, -- [1]
+					{
+						20, -- [1]
+						22.42100000000028, -- [2]
+						"Wicked Blast |cFFFF333314,468|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "MONK",
+			},
+		},
+		["diff"] = 15,
+	},
+	["2398-15"] = {
+		["hash"] = "2398-15",
+		["type"] = "endurance",
+		["name"] = "Shriekwing",
+		["id"] = "2398-15",
+		["player_db"] = {
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Auxdr-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Lunasy-Proudmoore"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Samoansage"] = {
+				["encounters"] = 3,
+				["points"] = 270,
+				["deaths"] = {
+					{
+						1, -- [1]
+						197.7170000000006, -- [2]
+						"Sanguine Ichor (DoT) |cFFFF33334,167|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						205.211000000003, -- [2]
+						"Earsplitting Shriek |cFFFF333314,233|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						47.45600000000195, -- [2]
+						"Wave of Blood |cFFFF33332,112|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Aaralynn-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["1778-16"] = {
+		["hash"] = "1778-16",
+		["type"] = "endurance",
+		["name"] = "Hellfire Assault",
+		["id"] = "1778-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["2407-14"] = {
+		["hash"] = "2407-14",
+		["type"] = "endurance",
+		["name"] = "Sire Denathrius",
+		["id"] = "2407-14",
+		["player_db"] = {
+			["Anthaden-Suramar"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Slands-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Walcon-Suramar"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						185.783000000054, -- [2]
+						"Desolation (DoT) |cFFFF33332,779|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Gathna-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Krimmzon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Zøm-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						157.0300000000279, -- [2]
+						"Blood Price |cFFFF33331,726|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Eirii-Nordrassil"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lilbratt-Suramar"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Frenventer-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Ravenlynn-WyrmrestAccord"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Jaxxkungfu-Stormrage"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Samoansage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						155.6889999999548, -- [2]
+						"Cleansing Pain |cFFFF333343,538|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Crue-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Octavialorn-Kael'thas"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						184.4259999999777, -- [2]
+						"Desolation (DoT) |cFFFF33333,393|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						45.19000000000233, -- [2]
+						"Feeding Time |cFFFF333312,163|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Honustustere"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Arrethrix-Maelstrom"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						106.4379999999655, -- [2]
+						"Feeding Time |cFFFF333317,015|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["2383-15"] = {
+		["hash"] = "2383-15",
+		["type"] = "endurance",
+		["name"] = "Hungering Destroyer",
+		["id"] = "2383-15",
+		["player_db"] = {
+			["Frotobaggins-Whisperwind"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Sayjani-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Auxdr-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Yummi-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Lycosapien-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Popple-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["deaths"] = {
+					{
+						1, -- [1]
+						49.75600000000122, -- [2]
+						"Volatile Ejection |cFFFF333339,495|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						265.9310000000005, -- [2]
+						"Expunge |cFFFF33339,256|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "MAGE",
+			},
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						13.73800000000119, -- [2]
+						"Volatile Ejection |cFFFF333342,170|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MONK",
+			},
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Samoansage"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						13.73800000000119, -- [2]
+						"Volatile Ejection |cFFFF333341,032|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Aaralynn-Gorgonnash"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						169.8960000000006, -- [2]
+						"Expunge |cFFFF33339,048|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["1784-16"] = {
+		["hash"] = "1784-16",
+		["type"] = "endurance",
+		["name"] = "Tyrant Velhari",
+		["id"] = "1784-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1788-16"] = {
+		["hash"] = "1788-16",
+		["type"] = "endurance",
+		["name"] = "Shadow-Lord Iskar",
+		["id"] = "1788-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["608-14"] = {
+		["hash"] = "608-14",
+		["type"] = "endurance",
+		["name"] = "The Illidari Council",
+		["id"] = "608-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1696-16"] = {
+		["hash"] = "1696-16",
+		["type"] = "endurance",
+		["name"] = "Oregorger the Devourer",
+		["id"] = "1696-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["607-14"] = {
+		["hash"] = "607-14",
+		["type"] = "endurance",
+		["name"] = "Mother Shahraz",
+		["id"] = "607-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["1783-16"] = {
+		["hash"] = "1783-16",
+		["type"] = "endurance",
+		["name"] = "Gorefiend",
+		["id"] = "1783-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["605-14"] = {
+		["hash"] = "605-14",
+		["type"] = "endurance",
+		["name"] = "Gurtogg Bloodboil",
+		["id"] = "605-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["606-14"] = {
+		["hash"] = "606-14",
+		["type"] = "endurance",
+		["name"] = "Reliquary of Souls",
+		["id"] = "606-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["2406-15"] = {
+		["hash"] = "2406-15",
+		["type"] = "endurance",
+		["name"] = "Lady Inerva Darkvein",
+		["id"] = "2406-15",
+		["player_db"] = {
+			["Frotobaggins-Whisperwind"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						1, -- [1]
+						159.518, -- [2]
+						"Unleashed Volatility |cFFFF333319,744|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Aquitar-EarthenRing"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						6, -- [1]
+						197.9929999999986, -- [2]
+						"Anima Web (DoT) |cFFFF333315,751|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						1, -- [1]
+						158.9609999999993, -- [2]
+						"Container Breach |cFFFF333311,480|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Rohran-Nordrassil"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Calmor-Gorgonnash"] = {
+				["encounters"] = 9,
+				["points"] = 900,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lycosapien-Sargeras"] = {
+				["encounters"] = 11,
+				["points"] = 1060,
+				["deaths"] = {
+					{
+						2, -- [1]
+						267.9219999999987, -- [2]
+						"Anima Web (DoT) |cFFFF333324,778|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						143.9229999999989, -- [2]
+						"Anima Web (DoT) |cFFFF333324,626|r", -- [3]
+					}, -- [2]
+					{
+						5, -- [1]
+						232.9279999999999, -- [2]
+						"Anima Web (DoT) |cFFFF333312,313|r", -- [3]
+					}, -- [3]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["deaths"] = {
+					{
+						1, -- [1]
+						154.8729999999996, -- [2]
+						"Anima Web (DoT) |cFFFF33337,458|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Reaperchill-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Aabbie-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 8,
+				["points"] = 760,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						148.487000000001, -- [2]
+						"Anima Web (DoT) |cFFFF333312,022|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						151.9069999999992, -- [2]
+						"", -- [3]
+					}, -- [2]
+					{
+						2, -- [1]
+						164.4069999999992, -- [2]
+						"", -- [3]
+					}, -- [3]
+				},
+			},
+			["Yummi-Frostmourne"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						2, -- [1]
+						239.3659999999982, -- [2]
+						"", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Palyndrome-Gorgonnash"] = {
+				["encounters"] = 8,
+				["points"] = 800,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Auxp-Kel'Thuzad"] = {
+				["encounters"] = 7,
+				["points"] = 690,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						6, -- [1]
+						293.0499999999993, -- [2]
+						"Fragments of Shadow |cFFFF333322,837|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Popple-Baelgun"] = {
+				["encounters"] = 7,
+				["points"] = 670,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						3, -- [1]
+						142.6000000000022, -- [2]
+						"Lingering Anima (DoT) |cFFFF33337,148|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						146.5570000000007, -- [2]
+						"Anima Web (DoT) |cFFFF333324,959|r", -- [3]
+					}, -- [2]
+					{
+						6, -- [1]
+						203.7220000000016, -- [2]
+						"Anima Web (DoT) |cFFFF333315,149|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Venalis-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["deaths"] = {
+					{
+						1, -- [1]
+						158.9609999999993, -- [2]
+						"Container Breach |cFFFF333311,800|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Sayjani-Stormrage"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						2, -- [1]
+						269.6749999999993, -- [2]
+						"Health Exchange |cFFFF33333,548|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Samoansage"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["deaths"] = {
+					{
+						3, -- [1]
+						140.1530000000021, -- [2]
+						"Anima Web (DoT) |cFFFF333316,780|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 1000,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Killershammy-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 990,
+				["deaths"] = {
+					{
+						4, -- [1]
+						149.0959999999977, -- [2]
+						"Anima Web (DoT) |cFFFF333313,604|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Leminous-Gorgonnash"] = {
+				["encounters"] = 10,
+				["points"] = 970,
+				["deaths"] = {
+					{
+						1, -- [1]
+						212.5239999999976, -- [2]
+						"Bottled Anima |cFFFF33339,171|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						141.1110000000008, -- [2]
+						"Anima Web (DoT) |cFFFF333319,716|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						144.7949999999983, -- [2]
+						"Anima Web (DoT) |cFFFF333312,322|r", -- [3]
+					}, -- [3]
+				},
+				["class"] = "DRUID",
+			},
+			["Aaralynn-Gorgonnash"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						144.6359999999986, -- [2]
+						"Anima Web (DoT) |cFFFF333324,477|r", -- [3]
+					}, -- [1]
+					{
+						5, -- [1]
+						230.1539999999986, -- [2]
+						"Loose Anima (DoT) |cFFFF33331,081|r", -- [3]
+					}, -- [2]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["603-14"] = {
+		["hash"] = "603-14",
+		["type"] = "endurance",
+		["name"] = "Shade of Akama",
+		["id"] = "603-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["601-14"] = {
+		["hash"] = "601-14",
+		["type"] = "endurance",
+		["name"] = "High Warlord Naj'entus",
+		["id"] = "601-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
 	["2399-14"] = {
 		["hash"] = "2399-14",
 		["type"] = "endurance",
@@ -2079,284 +4746,23 @@ DeathGraphsDBEndurance = {
 		},
 		["diff"] = 14,
 	},
-	["2417-14"] = {
-		["hash"] = "2417-14",
+	["1689-16"] = {
+		["hash"] = "1689-16",
 		["type"] = "endurance",
-		["name"] = "Stone Legion Generals",
-		["id"] = "2417-14",
+		["name"] = "Flamebender Ka'graz",
+		["id"] = "1689-16",
 		["player_db"] = {
-			["Anthaden-Suramar"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						3, -- [1]
-						289.4770000000135, -- [2]
-						"Pulverizing Meteor |cFFFF333330,473|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Krimmzon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Rayyn-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						199.1760000000359, -- [2]
-						"Seismic Upheaval |cFFFF33336,361|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kidchaor-Goldrinn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Eirii-Nordrassil"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Lilbratt-Suramar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Frenventer-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Genericwar-MoonGuard"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						2, -- [1]
-						219.3420000000042, -- [2]
-						"Pulverizing Meteor |cFFFF333380,959|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ravenlynn-WyrmrestAccord"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Honustustere"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						3, -- [1]
-						362.7800000000279, -- [2]
-						"", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kookster-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Crue-Antonidas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						31.19099999999162, -- [2]
-						"Pulverizing Meteor |cFFFF333366,132|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Jaxxkungfu-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Arrethrix-Maelstrom"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						3, -- [1]
-						318.3369999999995, -- [2]
-						"Heart Hemorrhage (DoT) |cFFFF33333,247|r", -- [3]
-					}, -- [1]
-				},
-			},
 		},
-		["diff"] = 14,
+		["diff"] = 16,
 	},
-	["2402-15"] = {
-		["hash"] = "2402-15",
+	["1795-16"] = {
+		["hash"] = "1795-16",
 		["type"] = "endurance",
-		["name"] = "Sun King's Salvation",
-		["id"] = "2402-15",
+		["name"] = "Mannoroth",
+		["id"] = "1795-16",
 		["player_db"] = {
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Reaperchill-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Palyndrome-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Sayjani-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Samoansage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Calmor-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Lycosapien-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Frotobaggins-Whisperwind"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
 		},
-		["diff"] = 15,
+		["diff"] = 16,
 	},
 	["2407-15"] = {
 		["hash"] = "2407-15",
@@ -2794,748 +5200,50 @@ DeathGraphsDBEndurance = {
 		},
 		["diff"] = 15,
 	},
-	["2417-15"] = {
-		["hash"] = "2417-15",
+	["1777-16"] = {
+		["hash"] = "1777-16",
 		["type"] = "endurance",
-		["name"] = "Stone Legion Generals",
-		["id"] = "2417-15",
+		["name"] = "Fel Lord Zakuun",
+		["id"] = "1777-16",
 		["player_db"] = {
-			["Heavensgräce-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1280,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						5, -- [1]
-						171.804999999993, -- [2]
-						"Cluster Bombardment |cFFFF333315,088|r", -- [3]
-					}, -- [1]
-					{
-						11, -- [1]
-						185.6840000000084, -- [2]
-						"Environment (Falling) |cFFFF333334,324|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Larsenn-Nemesis"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Lanowenn-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Palyndrome-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1250,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						369.4280000000144, -- [2]
-						"Cluster Bombardment |cFFFF333315,944|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						29.33999999999651, -- [2]
-						"Crystalline Burst |cFFFF33338,713|r", -- [3]
-					}, -- [2]
-					{
-						9, -- [1]
-						89.85899999999674, -- [2]
-						"Wicked Blast |cFFFF333314,497|r", -- [3]
-					}, -- [3]
-					{
-						11, -- [1]
-						184.9689999999828, -- [2]
-						"Melee |cFFFF333329,417|r", -- [3]
-					}, -- [4]
-					{
-						12, -- [1]
-						150.0819999999949, -- [2]
-						"Wicked Blast |cFFFF333314,497|r", -- [3]
-					}, -- [5]
-				},
-			},
-			["Xiuyettanya-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Bieri-Trollbane"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Ggmaterial-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Tustus-Ragnaros"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Lycosapien-Sargeras"] = {
-				["encounters"] = 12,
-				["points"] = 1170,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						4, -- [1]
-						147.5210000000079, -- [2]
-						"Cluster Bombardment |cFFFF333315,668|r", -- [3]
-					}, -- [1]
-					{
-						8, -- [1]
-						250.0179999999818, -- [2]
-						"Seismic Upheaval |cFFFF333311,394|r", -- [3]
-					}, -- [2]
-					{
-						14, -- [1]
-						216.1080000000075, -- [2]
-						"Wicked Blast |cFFFF333314,322|r", -- [3]
-					}, -- [3]
-				},
-			},
-			["Hotfordan-Sargeras"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Nekrotok-Thunderlord"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Lenningrad-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lykenlova-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Auxp-Kel'Thuzad"] = {
-				["encounters"] = 13,
-				["points"] = 1280,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						7, -- [1]
-						83.23600000000442, -- [2]
-						"Pulverizing Meteor |cFFFF333316,721|r", -- [3]
-					}, -- [1]
-					{
-						14, -- [1]
-						94.15200000000186, -- [2]
-						"Ravenous Swipe |cFFFF33333,179|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Ariyka-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						23, -- [1]
-						204.2869999999966, -- [2]
-						"Seismic Upheaval |cFFFF333310,213|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lifestyle-Bloodhoof"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						17, -- [1]
-						134.56, -- [2]
-						"Pulverizing Meteor |cFFFF333312,066|r", -- [3]
-					}, -- [1]
-					{
-						21, -- [1]
-						129.1799999999994, -- [2]
-						"Crystalize |cFFFF33332,869|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "PRIEST",
-			},
-			["Silentbeast-Aggramar"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Mëmorius-Zul'jin"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						18, -- [1]
-						152.355, -- [2]
-						"Wicked Blast |cFFFF333313,144|r", -- [3]
-					}, -- [1]
-					{
-						20, -- [1]
-						22.42100000000028, -- [2]
-						"Wicked Blast |cFFFF333313,034|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "MONK",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1280,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						7, -- [1]
-						141.5290000000096, -- [2]
-						"", -- [3]
-					}, -- [1]
-					{
-						14, -- [1]
-						243.8500000000058, -- [2]
-						"", -- [3]
-					}, -- [2]
-				},
-			},
-			["Insub-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Droninlee-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						17, -- [1]
-						151.27, -- [2]
-						"Wicked Laceration (DoT) |cFFFF333310,553|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Hotdreams-Kel'Thuzad"] = {
-				["encounters"] = 7,
-				["points"] = 690,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						11, -- [1]
-						184.7639999999956, -- [2]
-						"Wicked Blast |cFFFF333313,578|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Samoansage"] = {
-				["encounters"] = 21,
-				["points"] = 2050,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						230.9360000000161, -- [2]
-						"Seismic Upheaval |cFFFF333311,156|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						205.2969999999914, -- [2]
-						"Shattering Shockwave |cFFFF33336,324|r", -- [3]
-					}, -- [2]
-					{
-						8, -- [1]
-						328.9629999999888, -- [2]
-						"Ravenous Swipe |cFFFF33333,590|r", -- [3]
-					}, -- [3]
-					{
-						9, -- [1]
-						89.41599999999744, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33334,422|r", -- [3]
-					}, -- [4]
-					{
-						13, -- [1]
-						183.4709999999905, -- [2]
-						"Wicked Blast |cFFFF333313,947|r", -- [3]
-					}, -- [5]
-				},
-			},
-			["Pyräe-Stormrage"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						19, -- [1]
-						278.4060000000004, -- [2]
-						"Echoing Annihilation |cFFFF333369,606|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Otoro-Bronzebeard"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						19, -- [1]
-						256.7160000000004, -- [2]
-						"Seismic Upheaval |cFFFF333311,898|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Ryyven-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1290,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						9, -- [1]
-						82.52499999999418, -- [2]
-						"Pulverizing Meteor |cFFFF33339,839|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kalcainos-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1250,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						5, -- [1]
-						216.804999999993, -- [2]
-						"Melee |cFFFF333339,797|r", -- [3]
-					}, -- [1]
-					{
-						6, -- [1]
-						312.4459999999963, -- [2]
-						"Echoing Annihilation |cFFFF333368,342|r", -- [3]
-					}, -- [2]
-					{
-						10, -- [1]
-						79.03300000002491, -- [2]
-						"Crystalize |cFFFF33332,492|r", -- [3]
-					}, -- [3]
-					{
-						12, -- [1]
-						150.0819999999949, -- [2]
-						"Wicked Blast |cFFFF333314,239|r", -- [3]
-					}, -- [4]
-					{
-						13, -- [1]
-						183.5999999999767, -- [2]
-						"Wicked Blast |cFFFF333314,240|r", -- [3]
-					}, -- [5]
-				},
-			},
-			["Dorginho-Gallywix"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						21, -- [1]
-						271.174, -- [2]
-						"Seismic Upheaval |cFFFF333310,791|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Fenrisson-Darrowmere"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Vexahllia-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						23, -- [1]
-						189.1139999999869, -- [2]
-						"Melee |cFFFF333395,185|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 13,
-				["points"] = 1290,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						15, -- [1]
-						272.6479999999865, -- [2]
-						"Reverberating Eruption |cFFFF333386,833|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Xanadeau-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["deaths"] = {
-					{
-						21, -- [1]
-						66.38700000000244, -- [2]
-						"Wicked Laceration (DoT) |cFFFF333310,983|r", -- [3]
-					}, -- [1]
-					{
-						22, -- [1]
-						83.33099999999104, -- [2]
-						"Melee |cFFFF333353,075|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "PALADIN",
-			},
-			["Deadup-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Amelolanna-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						22, -- [1]
-						31.84299999999348, -- [2]
-						"Ravenous Swipe |cFFFF33332,006|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Chinguilo-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Eklu-MoonGuard"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ptitcul-Zul'jin"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						21, -- [1]
-						56.34500000000116, -- [2]
-						"Wicked Laceration (DoT) |cFFFF333311,451|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-			["Roosterbob-Stormrage"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						18, -- [1]
-						152.1130000000003, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33336,973|r", -- [3]
-					}, -- [1]
-					{
-						19, -- [1]
-						151.8900000000003, -- [2]
-						"Wicked Blast |cFFFF333315,030|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Waliant-Frostmourne"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						21, -- [1]
-						233.134, -- [2]
-						"Melee |cFFFF333344,110|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Imlustnbois-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Skofmjod-MoonGuard"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Staladenar-Daggerspine"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azasal-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						21, -- [1]
-						56.34500000000116, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33339,077|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1280,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						8, -- [1]
-						333.3799999999756, -- [2]
-						"Melee |cFFFF333335,918|r", -- [3]
-					}, -- [1]
-					{
-						13, -- [1]
-						134.5929999999935, -- [2]
-						"Pulverizing Meteor |cFFFF333315,070|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Windowpane-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Sertraline-Nemesis"] = {
-				["encounters"] = 5,
-				["points"] = 500,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Lucyhartfila-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Hoodnaga-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Stuubz-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["deaths"] = {
-					{
-						22, -- [1]
-						123.226999999999, -- [2]
-						"", -- [3]
-					}, -- [1]
-					{
-						23, -- [1]
-						212.2779999999912, -- [2]
-						"Seismic Upheaval |cFFFF333311,780|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Fjolnïr-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Fhaust-Proudmoore"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						20, -- [1]
-						22.42100000000028, -- [2]
-						"Wicked Blast |cFFFF333314,533|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 13,
-				["points"] = 1260,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						3, -- [1]
-						373.1050000000105, -- [2]
-						"Ravenous Swipe |cFFFF33333,732|r", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						134.3730000000214, -- [2]
-						"Pulverizing Meteor |cFFFF333312,931|r", -- [3]
-					}, -- [2]
-					{
-						7, -- [1]
-						145.0610000000161, -- [2]
-						"", -- [3]
-					}, -- [3]
-					{
-						10, -- [1]
-						91.28700000001118, -- [2]
-						"Environment (Falling) |cFFFF333327,505|r", -- [3]
-					}, -- [4]
-				},
-			},
-			["Jardian-Thunderlord"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Aráxia-Ragnaros"] = {
-				["encounters"] = 5,
-				["points"] = 490,
-				["deaths"] = {
-					{
-						18, -- [1]
-						126.1470000000004, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33336,539|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 14,
-				["points"] = 1330,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						4, -- [1]
-						135.1690000000235, -- [2]
-						"Ravenous Swipe |cFFFF33331,971|r", -- [3]
-					}, -- [1]
-					{
-						5, -- [1]
-						178.6879999999946, -- [2]
-						"Wicked Laceration (DoT) |cFFFF33334,842|r", -- [3]
-					}, -- [2]
-					{
-						10, -- [1]
-						82.05999999999767, -- [2]
-						"Pulverizing Meteor |cFFFF33339,261|r", -- [3]
-					}, -- [3]
-					{
-						12, -- [1]
-						150.0819999999949, -- [2]
-						"Wicked Blast |cFFFF333314,079|r", -- [3]
-					}, -- [4]
-					{
-						15, -- [1]
-						93.50199999997858, -- [2]
-						"Ravenous Swipe |cFFFF33333,661|r", -- [3]
-					}, -- [5]
-					{
-						15, -- [1]
-						136.1119999999937, -- [2]
-						"Melee |cFFFF333317,684|r", -- [3]
-					}, -- [6]
-				},
-			},
-			["Meepins-ScarletCrusade"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Misstea-Skywall"] = {
-				["encounters"] = 5,
-				["points"] = 480,
-				["deaths"] = {
-					{
-						17, -- [1]
-						152.1030000000001, -- [2]
-						"Wicked Laceration (DoT) |cFFFF333310,695|r", -- [3]
-					}, -- [1]
-					{
-						20, -- [1]
-						22.42100000000028, -- [2]
-						"Wicked Blast |cFFFF333314,468|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "MONK",
-			},
 		},
-		["diff"] = 15,
+		["diff"] = 16,
+	},
+	["1787-16"] = {
+		["hash"] = "1787-16",
+		["type"] = "endurance",
+		["name"] = "Kormrok",
+		["id"] = "1787-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1694-16"] = {
+		["hash"] = "1694-16",
+		["type"] = "endurance",
+		["name"] = "Beastlord Darmac",
+		["id"] = "1694-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1692-16"] = {
+		["hash"] = "1692-16",
+		["type"] = "endurance",
+		["name"] = "Operator Thogar",
+		["id"] = "1692-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1799-16"] = {
+		["hash"] = "1799-16",
+		["type"] = "endurance",
+		["name"] = "Archimonde",
+		["id"] = "1799-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
 	},
 	["2418-15"] = {
 		["hash"] = "2418-15",
@@ -3544,8 +5252,8 @@ DeathGraphsDBEndurance = {
 		["id"] = "2418-15",
 		["player_db"] = {
 			["Venalis-Gorgonnash"] = {
-				["encounters"] = 9,
-				["points"] = 830,
+				["encounters"] = 10,
+				["points"] = 920,
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3577,6 +5285,11 @@ DeathGraphsDBEndurance = {
 						247.6260000000002, -- [2]
 						"Shattering Stone |cFFFF33334,561|r", -- [3]
 					}, -- [6]
+					{
+						2, -- [1]
+						122.9430000000029, -- [2]
+						"Spreadshot |cFFFF333318,828|r", -- [3]
+					}, -- [7]
 				},
 				["class"] = "MAGE",
 			},
@@ -3588,15 +5301,20 @@ DeathGraphsDBEndurance = {
 				["class"] = "DRUID",
 			},
 			["Auxdr-Kel'Thuzad"] = {
-				["encounters"] = 8,
-				["points"] = 800,
+				["encounters"] = 12,
+				["points"] = 1190,
 				["deaths"] = {
+					{
+						4, -- [1]
+						208.5380000000005, -- [2]
+						"Shattering Stone |cFFFF33333,851|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "DRUID",
 			},
 			["Rohran-Nordrassil"] = {
-				["encounters"] = 8,
-				["points"] = 780,
+				["encounters"] = 12,
+				["points"] = 1180,
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3612,8 +5330,8 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 			["Calmor-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 790,
+				["encounters"] = 12,
+				["points"] = 1190,
 				["deaths"] = {
 					{
 						6, -- [1]
@@ -3623,9 +5341,33 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
+			["Karith-Gorgonnash"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						4, -- [1]
+						218.1860000000015, -- [2]
+						"Deathly Roar |cFFFF33339,458|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 12,
+				["points"] = 1190,
+				["deaths"] = {
+					{
+						5, -- [1]
+						243.6840000000011, -- [2]
+						"Sinseeker (DoT) |cFFFF33334,387|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 770,
+				["encounters"] = 13,
+				["points"] = 1240,
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -3642,8 +5384,32 @@ DeathGraphsDBEndurance = {
 						166.5999999999985, -- [2]
 						"Deathly Roar |cFFFF33334,106|r", -- [3]
 					}, -- [3]
+					{
+						2, -- [1]
+						110.6540000000023, -- [2]
+						"Shoot |cFFFF333327,413|r", -- [3]
+					}, -- [4]
+					{
+						2, -- [1]
+						128.1160000000018, -- [2]
+						"Shoot |cFFFF333327,205|r", -- [3]
+					}, -- [5]
 				},
 				["class"] = "DRUID",
+			},
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Loisette-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
 			},
 			["Craftyhunt-Aegwynn"] = {
 				["encounters"] = 6,
@@ -3669,12 +5435,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 800,
+			["Popple-Baelgun"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Palyndrome-Gorgonnash"] = {
 				["encounters"] = 1,
@@ -3708,27 +5474,32 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 			["Samoansage"] = {
-				["encounters"] = 8,
-				["points"] = 790,
+				["encounters"] = 12,
+				["points"] = 1180,
 				["deaths"] = {
 					{
 						8, -- [1]
 						240.3830000000016, -- [2]
 						"Deathly Roar |cFFFF33334,313|r", -- [3]
 					}, -- [1]
+					{
+						3, -- [1]
+						189.9089999999997, -- [2]
+						"Deathly Roar |cFFFF33338,363|r", -- [3]
+					}, -- [2]
 				},
 				["class"] = "SHAMAN",
 			},
 			["Thomara-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 800,
+				["encounters"] = 12,
+				["points"] = 1200,
 				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
 			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 780,
+				["encounters"] = 12,
+				["points"] = 1160,
 				["deaths"] = {
 					{
 						5, -- [1]
@@ -3740,12 +5511,22 @@ DeathGraphsDBEndurance = {
 						166.5999999999985, -- [2]
 						"Deathly Roar |cFFFF33334,353|r", -- [3]
 					}, -- [2]
+					{
+						4, -- [1]
+						218.2800000000025, -- [2]
+						"Deathly Roar |cFFFF33338,476|r", -- [3]
+					}, -- [3]
+					{
+						5, -- [1]
+						243.6840000000011, -- [2]
+						"Sinseeker (DoT) |cFFFF33334,238|r", -- [3]
+					}, -- [4]
 				},
 				["class"] = "SHAMAN",
 			},
 			["Leminous-Gorgonnash"] = {
-				["encounters"] = 8,
-				["points"] = 780,
+				["encounters"] = 12,
+				["points"] = 1170,
 				["deaths"] = {
 					{
 						7, -- [1]
@@ -3757,277 +5538,69 @@ DeathGraphsDBEndurance = {
 						248.6209999999992, -- [2]
 						"Shattering Stone |cFFFF33334,446|r", -- [3]
 					}, -- [2]
+					{
+						3, -- [1]
+						177.9170000000013, -- [2]
+						"Deathly Roar |cFFFF33338,598|r", -- [3]
+					}, -- [3]
 				},
 				["class"] = "DRUID",
 			},
-			["Loisette-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-		},
-		["diff"] = 15,
-	},
-	["2406-15"] = {
-		["hash"] = "2406-15",
-		["type"] = "endurance",
-		["name"] = "Lady Inerva Darkvein",
-		["id"] = "2406-15",
-		["player_db"] = {
-			["Frotobaggins-Whisperwind"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						159.518, -- [2]
-						"Unleashed Volatility |cFFFF333319,744|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						1, -- [1]
-						158.9609999999993, -- [2]
-						"Container Breach |cFFFF333311,480|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Calmor-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lycosapien-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						267.9219999999987, -- [2]
-						"Anima Web (DoT) |cFFFF333324,778|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Reaperchill-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Palyndrome-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
+			["Aaralynn-Gorgonnash"] = {
+				["encounters"] = 4,
+				["points"] = 380,
 				["class"] = "PALADIN",
-			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 290,
 				["deaths"] = {
 					{
-						1, -- [1]
-						158.9609999999993, -- [2]
-						"Container Breach |cFFFF333311,800|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Sayjani-Stormrage"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						269.6749999999993, -- [2]
-						"Health Exchange |cFFFF33333,548|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Samoansage"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Yummi-Frostmourne"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						239.3659999999982, -- [2]
-						"", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-		},
-		["diff"] = 15,
-	},
-	["2398-15"] = {
-		["hash"] = "2398-15",
-		["type"] = "endurance",
-		["name"] = "Shriekwing",
-		["id"] = "2398-15",
-		["player_db"] = {
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Auxdr-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Samoansage"] = {
-				["encounters"] = 2,
-				["points"] = 170,
-				["deaths"] = {
-					{
-						1, -- [1]
-						197.7170000000006, -- [2]
-						"Sanguine Ichor (DoT) |cFFFF33334,167|r", -- [3]
+						3, -- [1]
+						177.9170000000013, -- [2]
+						"Deathly Roar |cFFFF33336,912|r", -- [3]
 					}, -- [1]
 					{
-						1, -- [1]
-						205.211000000003, -- [2]
-						"Earsplitting Shriek |cFFFF333314,233|r", -- [3]
+						5, -- [1]
+						236.1800000000003, -- [2]
+						"Spreadshot |cFFFF33339,504|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "SHAMAN",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						47.45600000000195, -- [2]
-						"Wave of Blood |cFFFF33332,112|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Lunasy-Proudmoore"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
 			},
 		},
 		["diff"] = 15,
+	},
+	["1798-16"] = {
+		["hash"] = "1798-16",
+		["type"] = "endurance",
+		["name"] = "Hellfire High Council",
+		["id"] = "1798-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1800-16"] = {
+		["hash"] = "1800-16",
+		["type"] = "endurance",
+		["name"] = "Xhul'horac",
+		["id"] = "1800-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1713-16"] = {
+		["hash"] = "1713-16",
+		["type"] = "endurance",
+		["name"] = "Kromog, Legend of the Mountain",
+		["id"] = "1713-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
+	},
+	["1690-16"] = {
+		["hash"] = "1690-16",
+		["type"] = "endurance",
+		["name"] = "Blast Furnace",
+		["id"] = "1690-16",
+		["player_db"] = {
+		},
+		["diff"] = 16,
 	},
 	["2405-15"] = {
 		["hash"] = "2405-15",
@@ -4036,8 +5609,8 @@ DeathGraphsDBEndurance = {
 		["id"] = "2405-15",
 		["player_db"] = {
 			["Venalis-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -4047,65 +5620,22 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Frotobaggins-Whisperwind"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						162.6340000000055, -- [2]
-						"Withering Touch (DoT) |cFFFF33336,001|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 280,
+			["Aquitar-EarthenRing"] = {
+				["encounters"] = 4,
+				["points"] = 380,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
-						239.6130000000048, -- [2]
-						"Annihilate |cFFFF3333132,770|r", -- [3]
+						208.4620000000068, -- [2]
+						"Annihilate |cFFFF3333147,595|r", -- [3]
 					}, -- [1]
 					{
 						4, -- [1]
-						128.9979999999996, -- [2]
-						"Extinction |cFFFF333352,605|r", -- [3]
+						260.25, -- [2]
+						"Annihilate |cFFFF3333147,596|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DRUID",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						4, -- [1]
-						104.1579999999958, -- [2]
-						"Stasis Trap (DoT) |cFFFF33335,738|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						2, -- [1]
-						137.1130000000048, -- [2]
-						"Extinction |cFFFF333345,975|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Palyndrome-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
 			},
 			["Sayjani-Stormrage"] = {
 				["encounters"] = 3,
@@ -4114,38 +5644,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
 			["Rohran-Nordrassil"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Samoansage"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
 					{
 						4, -- [1]
-						158.7199999999939, -- [2]
-						"Hyperlight Spark |cFFFF33337,112|r", -- [3]
+						111.252999999997, -- [2]
+						"Extinction |cFFFF333357,888|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+				["class"] = "WARLOCK",
 			},
 			["Calmor-Gorgonnash"] = {
 				["encounters"] = 3,
@@ -4154,31 +5663,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
 			["Lycosapien-Sargeras"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+				["encounters"] = 7,
+				["points"] = 700,
 				["deaths"] = {
 				},
 				["class"] = "WARLOCK",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["deaths"] = {
-					{
-						3, -- [1]
-						131.5980000000054, -- [2]
-						"Glyph of Destruction |cFFFF333314,925|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
 			},
 			["Reaperchill-Stormrage"] = {
 				["encounters"] = 3,
@@ -4192,450 +5682,176 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-		},
-		["diff"] = 15,
-	},
-	["2407-14"] = {
-		["hash"] = "2407-14",
-		["type"] = "endurance",
-		["name"] = "Sire Denathrius",
-		["id"] = "2407-14",
-		["player_db"] = {
-			["Anthaden-Suramar"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Slands-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Walcon-Suramar"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						185.783000000054, -- [2]
-						"Desolation (DoT) |cFFFF33332,779|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Gathna-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Krimmzon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Zøm-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						2, -- [1]
-						157.0300000000279, -- [2]
-						"Blood Price |cFFFF33331,726|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Eirii-Nordrassil"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Lilbratt-Suramar"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Frenventer-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
 			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 7,
+				["points"] = 660,
+				["deaths"] = {
+					{
+						2, -- [1]
+						239.6130000000048, -- [2]
+						"Annihilate |cFFFF3333132,770|r", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						128.9979999999996, -- [2]
+						"Extinction |cFFFF333352,605|r", -- [3]
+					}, -- [2]
+					{
+						1, -- [1]
+						186.3570000000036, -- [2]
+						"Melee |cFFFF333333,090|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						199.4850000000006, -- [2]
+						"Annihilate |cFFFF3333120,340|r", -- [3]
+					}, -- [4]
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
-			["Ravenlynn-WyrmrestAccord"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Jaxxkungfu-Stormrage"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Samoansage"] = {
-				["encounters"] = 2,
-				["points"] = 190,
+			["Dreamit-Kel'Thuzad"] = {
+				["encounters"] = 4,
+				["points"] = 400,
 				["class"] = "SHAMAN",
 				["deaths"] = {
-					{
-						1, -- [1]
-						155.6889999999548, -- [2]
-						"Cleansing Pain |cFFFF333343,538|r", -- [3]
-					}, -- [1]
 				},
-			},
-			["Crue-Antonidas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Octavialorn-Kael'thas"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						184.4259999999777, -- [2]
-						"Desolation (DoT) |cFFFF33333,393|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						45.19000000000233, -- [2]
-						"Feeding Time |cFFFF333312,163|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Honustustere"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Arrethrix-Maelstrom"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						106.4379999999655, -- [2]
-						"Feeding Time |cFFFF333317,015|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["diff"] = 14,
-	},
-	["2383-15"] = {
-		["hash"] = "2383-15",
-		["type"] = "endurance",
-		["name"] = "Hungering Destroyer",
-		["id"] = "2383-15",
-		["player_db"] = {
-			["Frotobaggins-Whisperwind"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Lycosapien-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
 			},
 			["Palyndrome-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 7,
+				["points"] = 700,
 				["deaths"] = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Sayjani-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+			["Auxp-Kel'Thuzad"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
-						1, -- [1]
-						13.73800000000119, -- [2]
-						"Volatile Ejection |cFFFF333342,170|r", -- [3]
+						3, -- [1]
+						164.7029999999941, -- [2]
+						"Extinction |cFFFF333356,351|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MONK",
 			},
-			["Samoansage"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+			["Popple-Baelgun"] = {
+				["encounters"] = 4,
+				["points"] = 400,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Frotobaggins-Whisperwind"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["deaths"] = {
 					{
-						1, -- [1]
-						13.73800000000119, -- [2]
-						"Volatile Ejection |cFFFF333341,032|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Calmor-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Yummi-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Leminous-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						49.75600000000122, -- [2]
-						"Volatile Ejection |cFFFF333339,495|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-		},
-		["diff"] = 15,
-	},
-	["2412-15"] = {
-		["hash"] = "2412-15",
-		["type"] = "endurance",
-		["name"] = "The Council of Blood",
-		["id"] = "2412-15",
-		["player_db"] = {
-			["Venalis-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Deez-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						14.8979999999865, -- [2]
-						"Melee |cFFFF333310,512|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Aabbie-Gorgonnash"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						2, -- [1]
-						225.5540000000037, -- [2]
-						"Evasive Lunge |cFFFF333342,297|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Cheri-Thunderlord"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Plaguedzombi-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						1.35899999999674, -- [2]
-						"Melee |cFFFF333320,606|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Samoansage"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["deaths"] = {
-					{
-						1, -- [1]
-						17.13899999999558, -- [2]
-						"Dreadbolt Volley |cFFFF33331,608|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						85.59400000001187, -- [2]
-						"Wrong Moves (DoT) |cFFFF33337,559|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Ysrå-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Thomara-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Rohran-Nordrassil"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Joclyn-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Bunnix-Thunderlord"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						2, -- [1]
-						28.23500000001513, -- [2]
-						"Dark Recital |cFFFF333312,360|r", -- [3]
+						3, -- [1]
+						162.6340000000055, -- [2]
+						"Withering Touch (DoT) |cFFFF33336,001|r", -- [3]
 					}, -- [1]
 				},
 				["class"] = "HUNTER",
 			},
-			["Whisker-Norgannon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Joclyn-Gorgonnash"] = {
+				["encounters"] = 7,
+				["points"] = 680,
 				["deaths"] = {
+					{
+						1, -- [1]
+						156.5580000000045, -- [2]
+						"Extinction |cFFFF333357,695|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						111.086000000003, -- [2]
+						"Extinction |cFFFF333357,695|r", -- [3]
+					}, -- [2]
 				},
-				["class"] = "WARRIOR",
+				["class"] = "MONK",
 			},
-			["Nekrotok-Thunderlord"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Ysrå-MoonGuard"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						4, -- [1]
+						104.1579999999958, -- [2]
+						"Stasis Trap (DoT) |cFFFF33335,738|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DRUID",
+			},
+			["Samoansage"] = {
+				["encounters"] = 7,
+				["points"] = 680,
+				["deaths"] = {
+					{
+						4, -- [1]
+						158.7199999999939, -- [2]
+						"Hyperlight Spark |cFFFF33337,112|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						199.4850000000006, -- [2]
+						"Annihilate |cFFFF3333125,454|r", -- [3]
+					}, -- [2]
+				},
+				["class"] = "SHAMAN",
+			},
+			["Thomara-Gorgonnash"] = {
+				["encounters"] = 7,
+				["points"] = 700,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Killershammy-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 7,
+				["points"] = 690,
 				["deaths"] = {
+					{
+						2, -- [1]
+						137.1130000000048, -- [2]
+						"Extinction |cFFFF333345,975|r", -- [3]
+					}, -- [1]
 				},
 				["class"] = "SHAMAN",
 			},
 			["Leminous-Gorgonnash"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 7,
+				["points"] = 670,
 				["deaths"] = {
+					{
+						3, -- [1]
+						131.5980000000054, -- [2]
+						"Glyph of Destruction |cFFFF333314,925|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						168.734000000004, -- [2]
+						"Withering Touch (DoT) |cFFFF33335,802|r", -- [3]
+					}, -- [2]
+					{
+						4, -- [1]
+						260.25, -- [2]
+						"Annihilate |cFFFF3333143,304|r", -- [3]
+					}, -- [3]
 				},
 				["class"] = "DRUID",
 			},
-			["Auxp-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Deez-Gorgonnash"] = {
+				["encounters"] = 5,
+				["points"] = 490,
 				["deaths"] = {
+					{
+						2, -- [1]
+						120.3110000000015, -- [2]
+						"Withering Touch (DoT) |cFFFF33335,081|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "PRIEST",
+				["class"] = "DEATHKNIGHT",
 			},
 		},
 		["diff"] = 15,
@@ -4645,924 +5861,251 @@ DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 39733,
-				["timeofdeath"] = 279.9909999999945,
-				["name"] = "Makzilla-Stormrage",
-				["time"] = 1616908472.476,
-				["class"] = "HUNTER",
-				["timestring"] = "4m 39s",
+				["maxhealth"] = 36720,
+				["timeofdeath"] = 3.171000000002096,
+				["name"] = "Popple-Baelgun",
 				["events"] = {
 					{
 						2, -- [1]
-						20484, -- [2]
+						95750, -- [2]
 						1, -- [3]
-						1616908491.784, -- [4]
+						1617167455.542, -- [4]
 						0, -- [5]
-						"Lykenlova-Stormrage", -- [6]
+						"Rohran-Nordrassil", -- [6]
 					}, -- [1]
 					{
-						false, -- [1]
-						77489, -- [2]
-						842, -- [3]
-						1616908455.939, -- [4]
-						31389, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						1, -- [2]
+						6334, -- [3]
+						1617167427.749, -- [4]
+						38560, -- [5]
+						"Bleakwing Assassin", -- [6]
+						2510, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						157503, -- [2]
-						2139, -- [3]
-						1616908456.192, -- [4]
-						33528, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
+						337470, -- [2]
+						2510, -- [3]
+						1617167427.784, -- [4]
+						38560, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						true, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						143924, -- [2]
-						29, -- [3]
-						1616908456.966, -- [4]
-						33557, -- [5]
-						"Makzilla-Stormrage", -- [6]
+						145110, -- [2]
+						2015, -- [3]
+						1617167427.874, -- [4]
+						36751, -- [5]
+						"Aabbie-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						157503, -- [2]
-						2279, -- [3]
-						1616908457.371, -- [4]
-						35836, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						1, -- [2]
+						15401, -- [3]
+						1617167428.251, -- [4]
+						36751, -- [5]
+						"High Torturer Darithos", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
 						true, -- [1]
-						329785, -- [2]
-						1806, -- [3]
-						1616908457.464, -- [4]
-						34030, -- [5]
-						"Crimson Cabalist", -- [6]
+						1, -- [2]
+						4848, -- [3]
+						1617167428.451, -- [4]
+						21350, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
+						true, -- [1]
+						1, -- [2]
+						2391, -- [3]
+						1617167428.77, -- [4]
+						16502, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						1, -- [2]
+						2720, -- [3]
+						1617167428.958, -- [4]
+						14111, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						1, -- [2]
+						5471, -- [3]
+						1617167429.763, -- [4]
+						11391, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
 						false, -- [1]
-						143924, -- [2]
-						54, -- [3]
-						1616908458.178, -- [4]
-						34084, -- [5]
-						"Makzilla-Stormrage", -- [6]
+						119611, -- [2]
+						358, -- [3]
+						1617167430.185, -- [4]
+						6278, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						259760, -- [2]
+						17, -- [3]
+						1617167430.185, -- [4]
+						6295, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						1, -- [2]
+						6523, -- [3]
+						1617167430.471, -- [4]
+						6295, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						228, -- [10]
+					}, -- [12]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Popple-Baelgun", -- [6]
+					}, -- [13]
+				},
+				["class"] = "WARRIOR",
+				["timestring"] = "0m 3s",
+				["time"] = 1617167430.501,
+			}, -- [1]
+			{
+				["maxhealth"] = 36200,
+				["timeofdeath"] = 243.7119999999995,
+				["name"] = "Karith-Gorgonnash",
+				["events"] = {
+					{
+						false, -- [1]
+						204883, -- [2]
+						1965, -- [3]
+						1617167656.878, -- [4]
+						20793, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [7]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						637, -- [3]
+						1617167657.235, -- [4]
+						21430, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						341475, -- [2]
+						828, -- [3]
+						1617167657.388, -- [4]
+						20602, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
 					{
 						false, -- [1]
 						143924, -- [2]
 						150, -- [3]
-						1616908459.398, -- [4]
-						34234, -- [5]
-						"Makzilla-Stormrage", -- [6]
+						1617167658.446, -- [4]
+						20752, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908459.462, -- [4]
-						32429, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						72, -- [3]
-						1616908460.592, -- [4]
-						32501, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908461.451, -- [4]
-						30696, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21, -- [3]
-						1616908461.803, -- [4]
-						30717, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						2060, -- [2]
-						6987, -- [3]
-						1616908461.868, -- [4]
-						37704, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1616908463.022, -- [4]
-						37715, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908463.466, -- [4]
-						35910, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						143924, -- [2]
-						68, -- [3]
-						1616908464.238, -- [4]
-						35978, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						234946, -- [2]
-						2333, -- [3]
-						1616908464.588, -- [4]
-						38311, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						77489, -- [2]
-						876, -- [3]
-						1616908464.874, -- [4]
-						39187, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						197997, -- [2]
-						2784, -- [3]
-						1616908464.992, -- [4]
-						41300, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1806, -- [3]
-						1616908465.486, -- [4]
-						39494, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						28, -- [3]
-						1616908466.675, -- [4]
-						39522, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908467.488, -- [4]
-						37717, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						877, -- [3]
-						1616908467.876, -- [4]
-						38594, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						143924, -- [2]
-						24, -- [3]
-						1616908467.876, -- [4]
-						38618, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						68, -- [3]
-						1616908469.098, -- [4]
-						38686, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908469.488, -- [4]
-						36881, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						12, -- [3]
-						1616908470.332, -- [4]
-						36893, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						335873, -- [2]
-						1, -- [3]
-						1616908470.664, -- [4]
-						36893, -- [5]
-						"Remornia", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						335873, -- [2]
-						1, -- [3]
-						1616908470.664, -- [4]
-						36893, -- [5]
-						"Remornia", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						77489, -- [2]
-						877, -- [3]
-						1616908470.872, -- [4]
-						37770, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1805, -- [3]
-						1616908471.472, -- [4]
-						35965, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5, -- [3]
-						1616908471.926, -- [4]
-						36329, -- [5]
-						"Makzilla-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						330627, -- [2]
-						36929, -- [3]
-						1616908472.476, -- [4]
-						1, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						600, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						109304, -- [2]
-						1, -- [3]
-						1616908327.664, -- [4]
-						0, -- [5]
-						"Makzilla-Stormrage", -- [6]
-					}, -- [34]
-				},
-			}, -- [1]
-			{
-				["maxhealth"] = 36660,
-				["timeofdeath"] = 422.9660000000004,
-				["name"] = "Lanowenn-Stormrage",
-				["time"] = 1616908615.451,
-				["class"] = "DRUID",
-				["timestring"] = "7m 2s",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1616908621.795, -- [4]
-						0, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						139, -- [2]
-						690, -- [3]
-						1616908605.447, -- [4]
-						19259, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						33110, -- [2]
-						1339, -- [3]
-						1616908605.447, -- [4]
-						20598, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						4, -- [1]
-						332794, -- [2]
-						1, -- [3]
-						1616908606.398, -- [4]
-						20598, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [4]
 					{
-						true, -- [1]
-						332797, -- [2]
-						1435, -- [3]
-						1616908606.426, -- [4]
-						19163, -- [5]
-						"Sire Denathrius", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						14, -- [3]
+						1617167659.642, -- [4]
+						20766, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
 						77489, -- [2]
-						1192, -- [3]
-						1616908607.143, -- [4]
-						20355, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						314, -- [3]
+						1617167659.9, -- [4]
+						21080, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
-					{
-						false, -- [1]
-						139, -- [2]
-						1379, -- [3]
-						1616908607.322, -- [4]
-						21734, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						114942, -- [2]
-						846, -- [3]
-						1616908607.41, -- [4]
-						22580, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1435, -- [3]
-						1616908607.451, -- [4]
-						21145, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1435, -- [3]
-						1616908608.419, -- [4]
-						19710, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1155, -- [3]
-						1616908608.624, -- [4]
-						20865, -- [5]
-						"Lanowenn-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						204883, -- [2]
-						2185, -- [3]
-						1616908608.624, -- [4]
-						23050, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						114942, -- [2]
-						840, -- [3]
-						1616908609.054, -- [4]
-						23890, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1435, -- [3]
-						1616908609.44, -- [4]
-						22455, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						139, -- [2]
-						657, -- [3]
-						1616908609.812, -- [4]
-						23112, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1001, -- [3]
-						1616908610.134, -- [4]
-						24113, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1793, -- [3]
-						1616908610.418, -- [4]
-						22320, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						114942, -- [2]
-						839, -- [3]
-						1616908610.801, -- [4]
-						23159, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						332797, -- [2]
-						13431, -- [3]
-						1616908611.398, -- [4]
-						9728, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						332797, -- [2]
-						2, -- [3]
-						1616908611.398, -- [4]
-						9728, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						332797, -- [2]
-						3587, -- [3]
-						1616908611.431, -- [4]
-						6141, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
 					{
 						false, -- [1]
 						139, -- [2]
 						1314, -- [3]
-						1616908612.314, -- [4]
-						7455, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						1617167659.9, -- [4]
+						22394, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						332797, -- [2]
-						3587, -- [3]
-						1616908612.448, -- [4]
-						3868, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						114942, -- [2]
-						1024, -- [3]
-						1616908612.536, -- [4]
-						4892, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						336007, -- [2]
-						2387, -- [3]
-						1616908613.079, -- [4]
-						4754, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1001, -- [3]
-						1616908613.123, -- [4]
-						5755, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						332797, -- [2]
-						3587, -- [3]
-						1616908613.419, -- [4]
-						2168, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1686, -- [3]
-						1616908613.639, -- [4]
-						3854, -- [5]
-						"Lanowenn-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						114942, -- [2]
-						1066, -- [3]
-						1616908614.273, -- [4]
-						4920, -- [5]
-						"Healing Tide Totem <Samoansage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						332797, -- [2]
-						3587, -- [3]
-						1616908614.424, -- [4]
-						1333, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						139, -- [2]
-						1314, -- [3]
-						1616908614.83, -- [4]
-						2647, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						201633, -- [2]
-						624, -- [3]
-						1616908615.418, -- [4]
-						2647, -- [5]
-						"Earthen Wall Totem <Ariyka-Stormrage>", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						332797, -- [2]
-						3587, -- [3]
-						1616908615.451, -- [4]
-						1, -- [5]
-						"Sire Denathrius", -- [6]
-						624, -- [7]
-						32, -- [8]
-						false, -- [9]
-						316, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1616908597.564, -- [4]
-						0, -- [5]
-						"Lanowenn-Stormrage", -- [6]
-					}, -- [34]
-				},
-			}, -- [2]
-			{
-				["maxhealth"] = 36720,
-				["timeofdeath"] = 438.7799999999988,
-				["name"] = "Azblink-Stormrage",
-				["time"] = 1616908631.265,
-				["class"] = "MAGE",
-				["timestring"] = "7m 18s",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						16, -- [3]
-						1616908624.117, -- [4]
-						24204, -- [5]
-						"Azblink-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						98021, -- [2]
-						516, -- [3]
-						1616908624.142, -- [4]
-						24720, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						52042, -- [2]
-						1120, -- [3]
-						1616908624.317, -- [4]
-						25840, -- [5]
-						"Healing Stream Totem <Frøggert-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						64844, -- [2]
-						1306, -- [3]
-						1616908624.88, -- [4]
-						27146, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						77489, -- [2]
-						482, -- [3]
-						1616908625.06, -- [4]
-						27628, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						98021, -- [2]
-						416, -- [3]
-						1616908625.146, -- [4]
-						28044, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						98, -- [3]
-						1616908625.308, -- [4]
-						28142, -- [5]
-						"Azblink-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						139, -- [2]
-						736, -- [3]
-						1616908626.064, -- [4]
-						28878, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						265202, -- [2]
+						2254, -- [3]
+						1617167659.924, -- [4]
+						24648, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5570,11 +6113,11 @@ DeathGraphsDBCurrent = {
 					}, -- [8]
 					{
 						false, -- [1]
-						98021, -- [2]
-						703, -- [3]
-						1616908626.149, -- [4]
-						29581, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
+						143924, -- [2]
+						1896, -- [3]
+						1617167660.845, -- [4]
+						26544, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5582,821 +6125,223 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						64844, -- [2]
-						1356, -- [3]
-						1616908626.213, -- [4]
-						30937, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						139, -- [2]
+						626, -- [3]
+						1617167662.067, -- [4]
+						27170, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
 						143924, -- [2]
-						17, -- [3]
-						1616908626.541, -- [4]
-						30954, -- [5]
-						"Azblink-Stormrage", -- [6]
+						112, -- [3]
+						1617167662.103, -- [4]
+						27282, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
-						true, -- [1]
-						98021, -- [2]
-						39, -- [3]
-						1616908627.142, -- [4]
-						30915, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						344, -- [3]
+						1617167662.89, -- [4]
+						27626, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						669, -- [3]
+						1617167663.306, -- [4]
+						28295, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						139, -- [2]
+						626, -- [3]
+						1617167664.228, -- [4]
+						28921, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						461, -- [3]
+						1617167664.522, -- [4]
+						29382, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						105, -- [3]
+						1617167665.743, -- [4]
+						29487, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						344, -- [3]
+						1617167665.875, -- [4]
+						29831, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						139, -- [2]
+						626, -- [3]
+						1617167666.368, -- [4]
+						30457, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						786, -- [3]
+						1617167666.958, -- [4]
+						31243, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						49, -- [3]
+						1617167668.165, -- [4]
+						32854, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						139, -- [2]
+						626, -- [3]
+						1617167668.525, -- [4]
+						33480, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77489, -- [2]
+						345, -- [3]
+						1617167668.886, -- [4]
+						33825, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						748, -- [3]
+						1617167669.41, -- [4]
+						32962, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						1, -- [2]
+						36764, -- [3]
+						1617167670.448, -- [4]
+						32962, -- [5]
+						"Shade of Kael'thas", -- [6]
+						5267, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						337470, -- [2]
+						2630, -- [3]
+						1617167670.448, -- [4]
+						32962, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						337470, -- [2]
+						2637, -- [3]
+						1617167670.448, -- [4]
+						32962, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						330945, -- [2]
+						2172, -- [3]
+						1617167670.48, -- [4]
+						3637, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
 					{
 						false, -- [1]
 						33110, -- [2]
-						1433, -- [3]
-						1616908627.174, -- [4]
-						32348, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						64844, -- [2]
-						1419, -- [3]
-						1616908627.566, -- [4]
-						33767, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						138, -- [3]
-						1616908627.758, -- [4]
-						33905, -- [5]
-						"Azblink-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						61295, -- [2]
-						4889, -- [3]
-						1616908627.91, -- [4]
-						38560, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						717, -- [3]
-						1616908628.068, -- [4]
-						38560, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						139, -- [2]
-						788, -- [3]
-						1616908628.068, -- [4]
-						38560, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						332626, -- [2]
-						6237, -- [3]
-						1616908628.124, -- [4]
-						32323, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						98021, -- [2]
-						3032, -- [3]
-						1616908628.169, -- [4]
-						29291, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908628.818, -- [4]
-						29291, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						332734, -- [2]
-						10263, -- [3]
-						1616908628.818, -- [4]
-						19028, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						24, -- [3]
-						1616908628.981, -- [4]
-						19052, -- [5]
-						"Azblink-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						139, -- [2]
-						788, -- [3]
-						1616908630.069, -- [4]
-						19840, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1616908630.192, -- [4]
-						19859, -- [5]
-						"Azblink-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						61295, -- [2]
-						620, -- [3]
-						1616908630.527, -- [4]
-						20479, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908631.045, -- [4]
-						20479, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						332734, -- [2]
-						10580, -- [3]
-						1616908631.045, -- [4]
-						9899, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908631.045, -- [4]
-						9899, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908631.045, -- [4]
-						9899, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908631.045, -- [4]
-						9899, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						77489, -- [2]
-						717, -- [3]
-						1616908631.068, -- [4]
-						10616, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						45438, -- [2]
-						1, -- [3]
-						1616908492.009, -- [4]
-						0, -- [5]
-						"Azblink-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [3]
-			{
-				["maxhealth"] = 37760,
-				["timeofdeath"] = 439.8469999999943,
-				["name"] = "Lanowenn-Stormrage",
-				["time"] = 1616908632.332,
-				["class"] = "DRUID",
-				["timestring"] = "7m 19s",
-				["events"] = {
-					{
-						true, -- [1]
-						98021, -- [2]
-						13289, -- [3]
-						1616908624.142, -- [4]
-						23738, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						64844, -- [2]
-						1259, -- [3]
-						1616908624.88, -- [4]
-						24997, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						98021, -- [2]
-						1932, -- [3]
-						1616908625.146, -- [4]
-						26929, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						98021, -- [2]
-						1476, -- [3]
-						1616908626.149, -- [4]
-						28405, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						64844, -- [2]
-						1292, -- [3]
-						1616908626.213, -- [4]
-						29697, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						64844, -- [2]
-						1348, -- [3]
-						1616908627.566, -- [4]
-						31338, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						367, -- [3]
-						1616908627.91, -- [4]
-						31705, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						true, -- [1]
-						332626, -- [2]
-						6447, -- [3]
-						1616908628.124, -- [4]
-						25258, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						98021, -- [2]
-						3147, -- [3]
-						1616908628.169, -- [4]
-						28405, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1122, -- [3]
-						1616908628.648, -- [4]
-						29527, -- [5]
-						"Lanowenn-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						77489, -- [2]
-						367, -- [3]
-						1616908630.906, -- [4]
-						30183, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908632.121, -- [4]
-						30183, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908632.121, -- [4]
-						30183, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						332734, -- [2]
-						8022, -- [3]
-						1616908632.121, -- [4]
-						22161, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908632.121, -- [4]
-						22161, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						327992, -- [2]
-						1, -- [3]
-						1616908632.121, -- [4]
-						22161, -- [5]
-						"Sinister Reflection", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1616908597.564, -- [4]
-						0, -- [5]
-						"Lanowenn-Stormrage", -- [6]
-					}, -- [17]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 41000,
-				["timeofdeath"] = 453.7279999999882,
-				["name"] = "Xiuyettanya-Stormrage",
-				["time"] = 1616908646.213,
-				["class"] = "PRIEST",
-				["timestring"] = "7m 33s",
-				["events"] = {
-					{
-						false, -- [1]
-						64844, -- [2]
-						1441, -- [3]
-						1616908627.527, -- [4]
-						33032, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						52042, -- [2]
-						1252, -- [3]
-						1616908627.816, -- [4]
-						34284, -- [5]
-						"Healing Stream Totem <Frøggert-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						332626, -- [2]
-						6390, -- [3]
-						1616908628.124, -- [4]
-						27894, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						98021, -- [2]
-						3251, -- [3]
-						1616908628.169, -- [4]
-						31145, -- [5]
-						"Spirit Link Totem <Ariyka-Stormrage>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						654, -- [3]
-						1616908628.169, -- [4]
-						31799, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1600, -- [3]
-						1616908628.428, -- [4]
-						30199, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						32409, -- [2]
-						4165, -- [3]
-						1616908629.054, -- [4]
-						26034, -- [5]
-						"[*] Shadow Word: Death", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						692, -- [3]
-						1616908629.138, -- [4]
-						26726, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1194, -- [3]
-						1616908629.165, -- [4]
-						27920, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						70, -- [3]
-						1616908629.38, -- [4]
-						27990, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1778, -- [3]
-						1616908629.412, -- [4]
-						26212, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1778, -- [3]
-						1616908630.421, -- [4]
-						24434, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						61295, -- [2]
-						12508, -- [3]
-						1616908630.58, -- [4]
-						36942, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						93, -- [3]
-						1616908630.58, -- [4]
-						37035, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						2061, -- [2]
-						7803, -- [3]
-						1616908630.619, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						332797, -- [2]
-						1778, -- [3]
-						1616908631.413, -- [4]
-						39222, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						177, -- [3]
-						1616908631.793, -- [4]
-						39399, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						204883, -- [2]
-						2526, -- [3]
-						1616908632.084, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1767, -- [3]
-						1616908632.163, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						61295, -- [2]
-						648, -- [3]
-						1616908633.381, -- [4]
-						41000, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1767, -- [3]
-						1616908635.159, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						234946, -- [2]
-						2149, -- [3]
-						1616908635.725, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						61295, -- [2]
-						623, -- [3]
-						1616908636.177, -- [4]
-						41000, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						234946, -- [2]
-						2459, -- [3]
-						1616908637.954, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1023, -- [3]
-						1616908638.165, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1246, -- [3]
-						1616908638.968, -- [4]
-						41000, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1023, -- [3]
-						1616908641.166, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1247, -- [3]
-						1616908641.769, -- [4]
-						41000, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						1195, -- [3]
+						1617167670.48, -- [4]
+						4832, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6404,11 +6349,11 @@ DeathGraphsDBCurrent = {
 					}, -- [28]
 					{
 						false, -- [1]
-						77489, -- [2]
-						1023, -- [3]
-						1616908644.153, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						143924, -- [2]
+						41, -- [3]
+						1617167670.619, -- [4]
+						4873, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6416,39 +6361,37 @@ DeathGraphsDBCurrent = {
 					}, -- [29]
 					{
 						false, -- [1]
-						61295, -- [2]
-						989, -- [3]
-						1616908644.571, -- [4]
-						41000, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						139, -- [2]
+						626, -- [3]
+						1617167670.706, -- [4]
+						5499, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [30]
 					{
 						false, -- [1]
-						321444, -- [2]
-						363, -- [3]
-						1616908645.325, -- [4]
-						41000, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						true, -- [7]
+						343737, -- [2]
+						558, -- [3]
+						1617167670.706, -- [4]
+						6057, -- [5]
+						"Yu'lon <Joclyn-Gorgonnash>", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						336007, -- [2]
-						2367, -- [3]
-						1616908645.325, -- [4]
-						38996, -- [5]
-						"Sire Denathrius", -- [6]
-						363, -- [7]
-						32, -- [8]
+						1, -- [2]
+						6530, -- [3]
+						1617167671.007, -- [4]
+						6057, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						473, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -6456,2721 +6399,1173 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						"Karith-Gorgonnash", -- [6]
 					}, -- [33]
 				},
-			}, -- [5]
+				["class"] = "PRIEST",
+				["timestring"] = "4m 3s",
+				["time"] = 1617167671.042,
+			}, -- [2]
 		},
-		["bossname"] = "Sire Denathrius",
+		["bossname"] = "Sun King's Salvation",
 		["bossicon"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
-			3752159, -- [5]
+			3753157, -- [5]
 		},
-		["date"] = 128405.053,
-		["timeelapsed"] = 462.028999999995,
+		["date"] = 35849.388,
+		["timeelapsed"] = 284.5849999999991,
 	}, -- [1]
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 42960,
-				["timeofdeath"] = 237.7400000000052,
-				["name"] = "Stuubz-Stormrage",
-				["time"] = 1616907999.326,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "3m 57s",
+				["maxhealth"] = 36720,
+				["timeofdeath"] = 87.80999999999767,
+				["name"] = "Popple-Baelgun",
 				["events"] = {
+					{
+						false, -- [1]
+						259760, -- [2]
+						18, -- [3]
+						1617167259.347, -- [4]
+						35940, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						119611, -- [2]
+						217, -- [3]
+						1617167260.385, -- [4]
+						36157, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						259760, -- [2]
+						11, -- [3]
+						1617167260.385, -- [4]
+						36168, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						117313, -- [2]
+						1157, -- [3]
+						1617167262.011, -- [4]
+						37325, -- [5]
+						"Popple-Baelgun", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						145110, -- [2]
+						1056, -- [3]
+						1617167263.831, -- [4]
+						38381, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						324202, -- [2]
+						188, -- [3]
+						1617167267.295, -- [4]
+						38560, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						325506, -- [2]
+						5070, -- [3]
+						1617167271.486, -- [4]
+						33490, -- [5]
+						"Rockbound Vanquisher", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						141, -- [3]
+						1617167271.577, -- [4]
+						33631, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						145, -- [3]
+						1617167271.577, -- [4]
+						33776, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						143, -- [3]
+						1617167275.523, -- [4]
+						35607, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						145, -- [3]
+						1617167275.523, -- [4]
+						35752, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						341254, -- [2]
+						5190, -- [3]
+						1617167276.61, -- [4]
+						28859, -- [5]
+						"Reborn Phoenix", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						4, -- [1]
+						341473, -- [2]
+						1, -- [3]
+						1617167277.362, -- [4]
+						28859, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						117313, -- [2]
+						1157, -- [3]
+						1617167277.48, -- [4]
+						30016, -- [5]
+						"Popple-Baelgun", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						true, -- [1]
+						325590, -- [2]
+						6613, -- [3]
+						1617167279.252, -- [4]
+						24903, -- [5]
+						"Vile Occultist", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						326455, -- [2]
+						6643, -- [3]
+						1617167279.287, -- [4]
+						18260, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						326456, -- [2]
+						1, -- [3]
+						1617167279.343, -- [4]
+						18260, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						147, -- [3]
+						1617167279.547, -- [4]
+						18407, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						144, -- [3]
+						1617167279.547, -- [4]
+						18551, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						330945, -- [2]
+						810, -- [3]
+						1617167279.803, -- [4]
+						19361, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1741, -- [3]
+						1617167280.336, -- [4]
+						17620, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1741, -- [3]
+						1617167281.31, -- [4]
+						15879, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4117, -- [3]
+						1617167281.37, -- [4]
+						11762, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167281.37, -- [4]
+						11762, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1742, -- [3]
+						1617167282.341, -- [4]
+						9459, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						341475, -- [2]
+						987, -- [3]
+						1617167282.341, -- [4]
+						8472, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4118, -- [3]
+						1617167282.611, -- [4]
+						4354, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.611, -- [4]
+						4354, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4118, -- [3]
+						1617167282.858, -- [4]
+						236, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.858, -- [4]
+						236, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						157503, -- [2]
+						38, -- [3]
+						1617167283.319, -- [4]
+						274, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1741, -- [3]
+						1617167283.319, -- [4]
+						1, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						1467, -- [10]
+					}, -- [32]
 					{
 						3, -- [1]
 						0, -- [2]
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Stuubz-Stormrage", -- [6]
-					}, -- [1]
+						"Popple-Baelgun", -- [6]
+					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "1m 27s",
+				["time"] = 1617167283.384,
 			}, -- [1]
 			{
-				["maxhealth"] = 50234,
-				["timeofdeath"] = 269.1009999999951,
-				["name"] = "Lykenlova-Stormrage",
-				["time"] = 1616908030.687,
-				["class"] = "DRUID",
-				["timestring"] = "4m 29s",
+				["maxhealth"] = 36500,
+				["timeofdeath"] = 89.06499999999505,
+				["name"] = "Auxp-Kel'Thuzad",
 				["events"] = {
 					{
-						2, -- [1]
-						61999, -- [2]
-						1, -- [3]
-						1616908046.44, -- [4]
-						0, -- [5]
-						"Kalcainos-Stormrage", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						321442, -- [2]
-						401, -- [3]
-						1616908024.672, -- [4]
-						30961, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						227034, -- [2]
-						43, -- [3]
-						1616908024.672, -- [4]
-						31004, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						145109, -- [2]
-						2409, -- [3]
-						1616908024.841, -- [4]
-						33413, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
 						false, -- [1]
 						143924, -- [2]
-						136, -- [3]
-						1616908025.623, -- [4]
-						33549, -- [5]
-						"Lykenlova-Stormrage", -- [6]
+						77, -- [3]
+						1617167278.987, -- [4]
+						35517, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3528, -- [3]
-						1616908025.99, -- [4]
-						30021, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						51, -- [3]
-						1616908026.827, -- [4]
-						30072, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77472, -- [2]
-						20718, -- [3]
-						1616908027.671, -- [4]
-						50790, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						227034, -- [2]
-						2246, -- [3]
-						1616908027.705, -- [4]
-						53036, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1176, -- [3]
-						1616908028.017, -- [4]
-						51860, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						23, -- [3]
-						1616908028.045, -- [4]
-						51883, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						345689, -- [2]
-						1150, -- [3]
-						1616908028.577, -- [4]
-						53033, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						227034, -- [2]
-						125, -- [3]
-						1616908028.577, -- [4]
-						53158, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						321442, -- [2]
-						402, -- [3]
-						1616908028.749, -- [4]
-						53560, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						227034, -- [2]
-						44, -- [3]
-						1616908028.749, -- [4]
-						53604, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						345689, -- [2]
-						1150, -- [3]
-						1616908028.772, -- [4]
-						54754, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						345689, -- [2]
-						1151, -- [3]
-						1616908028.772, -- [4]
-						55905, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						227034, -- [2]
-						125, -- [3]
-						1616908028.796, -- [4]
-						56030, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						227034, -- [2]
-						125, -- [3]
-						1616908028.796, -- [4]
-						56155, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						345689, -- [2]
-						2300, -- [3]
-						1616908028.991, -- [4]
-						58455, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						227034, -- [2]
-						249, -- [3]
-						1616908028.991, -- [4]
-						58704, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						345689, -- [2]
-						1151, -- [3]
-						1616908029.195, -- [4]
-						59855, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						227034, -- [2]
-						125, -- [3]
-						1616908029.22, -- [4]
-						59980, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1616908029.266, -- [4]
-						60011, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						145109, -- [2]
-						2409, -- [3]
-						1616908029.828, -- [4]
-						62420, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						329785, -- [2]
-						1176, -- [3]
-						1616908030.002, -- [4]
-						61244, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						203953, -- [2]
-						117, -- [3]
-						1616908030.408, -- [4]
-						61244, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						330137, -- [2]
-						58801, -- [3]
-						1616908030.408, -- [4]
-						2560, -- [5]
-						"Remornia", -- [6]
-						117, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						329906, -- [2]
-						1, -- [3]
-						1616908030.408, -- [4]
-						2560, -- [5]
-						"Remornia", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						2, -- [3]
-						1616908030.466, -- [4]
-						2562, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						203953, -- [2]
-						117, -- [3]
-						1616908030.687, -- [4]
-						2562, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						344916, -- [2]
-						26523, -- [3]
-						1616908030.687, -- [4]
-						2562, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						330137, -- [2]
-						58801, -- [3]
-						1616908030.687, -- [4]
-						1, -- [5]
-						"Remornia", -- [6]
-						26640, -- [7]
-						32, -- [8]
-						false, -- [9]
-						29599, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1616908001.923, -- [4]
-						0, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-					}, -- [34]
-				},
-			}, -- [2]
-			{
-				["maxhealth"] = 39860,
-				["timeofdeath"] = 289.4679999999935,
-				["name"] = "Frøggert-Stormrage",
-				["time"] = 1616908051.054,
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 49s",
-				["events"] = {
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Frøggert-Stormrage", -- [6]
-					}, -- [1]
-				},
-			}, -- [3]
-			{
-				["maxhealth"] = 36720,
-				["timeofdeath"] = 309.2890000000043,
-				["name"] = "Azblink-Stormrage",
-				["time"] = 1616908070.875,
-				["class"] = "MAGE",
-				["timestring"] = "5m 9s",
-				["events"] = {
-					{
-						true, -- [1]
-						329906, -- [2]
-						725, -- [3]
-						1616908055.104, -- [4]
-						38560, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						235313, -- [2]
-						724, -- [3]
-						1616908056.097, -- [4]
-						38560, -- [5]
-						"Azblink-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						326455, -- [2]
+						5748, -- [3]
+						1617167279.287, -- [4]
+						29769, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						true, -- [1]
-						329906, -- [2]
-						724, -- [3]
-						1616908056.097, -- [4]
-						38560, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
+						4, -- [1]
+						326456, -- [2]
+						1, -- [3]
+						1617167279.343, -- [4]
+						29769, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						61295, -- [2]
-						824, -- [3]
-						1616908056.163, -- [4]
-						38560, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						235313, -- [2]
-						703, -- [3]
-						1616908057.101, -- [4]
-						38560, -- [5]
-						"Azblink-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						329906, -- [2]
-						703, -- [3]
-						1616908057.101, -- [4]
-						38560, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						235313, -- [2]
-						702, -- [3]
-						1616908058.109, -- [4]
-						38560, -- [5]
-						"Azblink-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						329906, -- [2]
-						702, -- [3]
-						1616908058.109, -- [4]
-						38560, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						61295, -- [2]
-						412, -- [3]
-						1616908058.975, -- [4]
-						38560, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						235313, -- [2]
-						703, -- [3]
-						1616908059.102, -- [4]
-						38560, -- [5]
-						"Azblink-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						329906, -- [2]
-						703, -- [3]
-						1616908059.102, -- [4]
-						38560, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						235313, -- [2]
-						674, -- [3]
-						1616908060.103, -- [4]
-						38560, -- [5]
-						"Azblink-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						329906, -- [2]
-						703, -- [3]
-						1616908060.103, -- [4]
-						38531, -- [5]
-						"Remornia", -- [6]
-						674, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						329906, -- [2]
-						724, -- [3]
-						1616908061.087, -- [4]
-						37807, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908061.087, -- [4]
-						37807, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						61295, -- [2]
-						435, -- [3]
-						1616908061.756, -- [4]
-						38242, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						329906, -- [2]
-						725, -- [3]
-						1616908062.116, -- [4]
-						37517, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						329906, -- [2]
-						725, -- [3]
-						1616908063.098, -- [4]
-						36792, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3586, -- [3]
-						1616908063.098, -- [4]
-						33206, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						157503, -- [2]
-						247, -- [3]
-						1616908063.93, -- [4]
-						33453, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						329906, -- [2]
-						725, -- [3]
-						1616908064.109, -- [4]
-						32728, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						61295, -- [2]
-						476, -- [3]
-						1616908064.558, -- [4]
-						33204, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						329906, -- [2]
-						725, -- [3]
-						1616908065.104, -- [4]
-						32479, -- [5]
-						"Remornia", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3586, -- [3]
-						1616908065.104, -- [4]
-						28893, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3586, -- [3]
-						1616908067.123, -- [4]
-						25307, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						61295, -- [2]
-						536, -- [3]
-						1616908067.338, -- [4]
-						25843, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1023, -- [3]
-						1616908070.144, -- [4]
-						26866, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908070.724, -- [4]
-						26866, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						332734, -- [2]
-						10621, -- [3]
-						1616908070.724, -- [4]
-						16245, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908070.724, -- [4]
-						16245, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						329785, -- [2]
-						8, -- [3]
-						1616908070.724, -- [4]
-						16245, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						4, -- [1]
-						329785, -- [2]
-						12, -- [3]
-						1616908070.724, -- [4]
-						16245, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Azblink-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 94385,
-				["timeofdeath"] = 309.3619999999937,
-				["name"] = "Lykenlova-Stormrage",
-				["time"] = 1616908070.948,
-				["class"] = "DRUID",
-				["timestring"] = "5m 9s",
-				["events"] = {
-					{
-						false, -- [1]
-						227034, -- [2]
-						173, -- [3]
-						1616908060.922, -- [4]
-						87085, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908061.404, -- [4]
-						87085, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						198, -- [3]
-						1616908061.626, -- [4]
-						87283, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1226, -- [3]
-						1616908061.828, -- [4]
-						88509, -- [5]
-						"Samoansage", -- [6]
+						34914, -- [2]
+						264, -- [3]
+						1617167280.022, -- [4]
+						30033, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [4]
-					{
-						false, -- [1]
-						227034, -- [2]
-						207, -- [3]
-						1616908061.88, -- [4]
-						88716, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						15, -- [3]
-						1616908062.821, -- [4]
-						88731, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						329785, -- [2]
-						2205, -- [3]
-						1616908063.39, -- [4]
-						86526, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						157503, -- [2]
-						247, -- [3]
-						1616908063.93, -- [4]
-						86773, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						227034, -- [2]
-						42, -- [3]
-						1616908064.013, -- [4]
-						86815, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						177, -- [3]
-						1616908064.044, -- [4]
-						86992, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						61295, -- [2]
-						614, -- [3]
-						1616908064.413, -- [4]
-						87606, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						227034, -- [2]
-						104, -- [3]
-						1616908064.441, -- [4]
-						87710, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						145109, -- [2]
-						2831, -- [3]
-						1616908064.879, -- [4]
-						90541, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						26, -- [3]
-						1616908065.255, -- [4]
-						90567, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						22842, -- [2]
-						9125, -- [3]
-						1616908065.341, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3149, -- [3]
-						1616908065.391, -- [4]
-						91236, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						22842, -- [2]
-						9125, -- [3]
-						1616908066.341, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						61295, -- [2]
-						582, -- [3]
-						1616908067.019, -- [4]
-						94385, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						227034, -- [2]
-						99, -- [3]
-						1616908067.019, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						22842, -- [2]
-						9125, -- [3]
-						1616908067.358, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3149, -- [3]
-						1616908067.414, -- [4]
-						91236, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						93, -- [3]
-						1616908067.691, -- [4]
-						91329, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						22842, -- [2]
-						9125, -- [3]
-						1616908068.377, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						61295, -- [2]
-						468, -- [3]
-						1616908069.461, -- [4]
-						94385, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						false, -- [1]
-						227034, -- [2]
-						79, -- [3]
-						1616908069.461, -- [4]
-						94385, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908070.724, -- [4]
-						94385, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						332734, -- [2]
-						4356, -- [3]
-						1616908070.724, -- [4]
-						90029, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						1, -- [2]
-						16767, -- [3]
-						1616908070.762, -- [4]
-						90029, -- [5]
-						"Sire Denathrius", -- [6]
-						129, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						203953, -- [2]
-						129, -- [3]
-						1616908070.762, -- [4]
-						90029, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						4, -- [1]
-						332585, -- [2]
-						1, -- [3]
-						1616908070.789, -- [4]
-						73391, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						379, -- [2]
-						921, -- [3]
-						1616908070.789, -- [4]
-						74312, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						false, -- [1]
-						227034, -- [2]
-						156, -- [3]
-						1616908070.828, -- [4]
-						74468, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [32]
-					{
-						3, -- [1]
-						22812, -- [2]
-						1, -- [3]
-						1616908053.352, -- [4]
-						0, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [5]
-			{
-				["maxhealth"] = 38640,
-				["timeofdeath"] = 312.5589999999938,
-				["name"] = "Ariyka-Stormrage",
-				["time"] = 1616908074.145,
-				["class"] = "SHAMAN",
-				["timestring"] = "5m 12s",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						52, -- [3]
-						1616908064.837, -- [4]
-						29786, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3562, -- [3]
-						1616908065.23, -- [4]
-						26224, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						8936, -- [2]
-						251, -- [3]
-						1616908065.414, -- [4]
-						26475, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						556, -- [3]
-						1616908065.465, -- [4]
-						27031, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						18, -- [3]
-						1616908066.066, -- [4]
-						27049, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3562, -- [3]
-						1616908067.242, -- [4]
-						23487, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						23, -- [3]
-						1616908067.291, -- [4]
-						23510, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						8936, -- [2]
-						252, -- [3]
-						1616908067.315, -- [4]
-						23762, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						8936, -- [2]
-						94, -- [3]
-						1616908068.005, -- [4]
-						23856, -- [5]
-						"Lykenlova-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1149, -- [3]
-						1616908068.272, -- [4]
-						25005, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						57, -- [3]
-						1616908068.511, -- [4]
-						25062, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3563, -- [3]
-						1616908069.244, -- [4]
-						19230, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						33110, -- [2]
-						1235, -- [3]
-						1616908069.267, -- [4]
-						20465, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						321442, -- [2]
-						361, -- [3]
-						1616908069.755, -- [4]
-						20826, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						677, -- [3]
-						1616908070.121, -- [4]
-						21503, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						61295, -- [2]
-						554, -- [3]
-						1616908071.083, -- [4]
-						22057, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						321442, -- [2]
-						361, -- [3]
-						1616908071.083, -- [4]
-						22418, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908071.272, -- [4]
-						22418, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908071.272, -- [4]
-						22418, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						143924, -- [2]
-						237, -- [3]
-						1616908071.33, -- [4]
-						22655, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						321442, -- [2]
-						144, -- [3]
-						1616908072.196, -- [4]
-						22799, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						174, -- [3]
-						1616908072.287, -- [4]
-						22973, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						12, -- [3]
-						1616908072.529, -- [4]
-						22985, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						61295, -- [2]
-						517, -- [3]
-						1616908073.219, -- [4]
-						23502, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1616908073.76, -- [4]
-						23521, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908073.959, -- [4]
-						23521, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						340159, -- [2]
-						17, -- [3]
-						1616908073.959, -- [4]
-						23521, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						332734, -- [2]
-						7466, -- [3]
-						1616908073.959, -- [4]
-						16072, -- [5]
-						"Sire Denathrius", -- [6]
-						17, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						139, -- [2]
-						657, -- [3]
-						1616908073.993, -- [4]
-						16729, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						33110, -- [2]
-						1224, -- [3]
-						1616908073.993, -- [4]
-						17953, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908074.092, -- [4]
-						17953, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908074.092, -- [4]
-						17953, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						114052, -- [2]
-						1, -- [3]
-						1616907847.904, -- [4]
-						0, -- [5]
-						"Ariyka-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [6]
-			{
-				["maxhealth"] = 39520,
-				["timeofdeath"] = 317.1849999999977,
-				["name"] = "Inzifu-Stormrage",
-				["time"] = 1616908078.771,
-				["class"] = "MONK",
-				["timestring"] = "5m 17s",
-				["events"] = {
-					{
-						false, -- [1]
-						61295, -- [2]
-						438, -- [3]
-						1616908056.19, -- [4]
-						38273, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						61295, -- [2]
-						457, -- [3]
-						1616908056.673, -- [4]
-						38730, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						77489, -- [2]
-						190, -- [3]
-						1616908058.131, -- [4]
-						38920, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						431, -- [3]
-						1616908058.975, -- [4]
-						39351, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						452, -- [3]
-						1616908059.253, -- [4]
-						39803, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908061.302, -- [4]
-						39803, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						61295, -- [2]
-						441, -- [3]
-						1616908061.775, -- [4]
-						40244, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						447, -- [3]
-						1616908061.88, -- [4]
-						40691, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						329785, -- [2]
-						4999, -- [3]
-						1616908063.292, -- [4]
-						35692, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						335873, -- [2]
-						1, -- [3]
-						1616908063.437, -- [4]
-						35692, -- [5]
-						"Remornia", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						157503, -- [2]
-						248, -- [3]
-						1616908063.93, -- [4]
-						35940, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						61295, -- [2]
-						468, -- [3]
-						1616908064.441, -- [4]
-						36408, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						61295, -- [2]
-						467, -- [3]
-						1616908064.58, -- [4]
-						36875, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						329785, -- [2]
-						4999, -- [3]
-						1616908065.309, -- [4]
-						31876, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						61295, -- [2]
-						446, -- [3]
-						1616908067.041, -- [4]
-						32322, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						329785, -- [2]
-						4999, -- [3]
-						1616908067.315, -- [4]
-						27323, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						61295, -- [2]
-						536, -- [3]
-						1616908067.376, -- [4]
-						27859, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						329785, -- [2]
-						5153, -- [3]
-						1616908069.322, -- [4]
-						22706, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						61295, -- [2]
-						985, -- [3]
-						1616908069.497, -- [4]
-						23691, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						1064, -- [2]
-						7211, -- [3]
-						1616908069.755, -- [4]
-						30902, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						61295, -- [2]
-						490, -- [3]
-						1616908070.172, -- [4]
-						31392, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908070.338, -- [4]
-						31392, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908071.357, -- [4]
-						31392, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						61295, -- [2]
-						84, -- [3]
-						1616908071.385, -- [4]
-						31476, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						329785, -- [2]
-						5051, -- [3]
-						1616908072.345, -- [4]
-						26425, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						329785, -- [2]
-						4999, -- [3]
-						1616908074.338, -- [4]
-						21426, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3332, -- [3]
-						1616908076.35, -- [4]
-						18094, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						332626, -- [2]
-						8332, -- [3]
-						1616908078.17, -- [4]
-						9762, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3332, -- [3]
-						1616908078.364, -- [4]
-						6430, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						332794, -- [2]
-						1, -- [3]
-						1616908078.731, -- [4]
-						6430, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908078.771, -- [4]
-						6430, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						332734, -- [2]
-						9233, -- [3]
-						1616908078.771, -- [4]
-						1, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						2803, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Inzifu-Stormrage", -- [6]
-					}, -- [33]
-				},
-			}, -- [7]
-			{
-				["maxhealth"] = 38700,
-				["timeofdeath"] = 317.1849999999977,
-				["name"] = "Fenrisson-Darrowmere",
-				["time"] = 1616908078.771,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "5m 17s",
-				["events"] = {
-					{
-						true, -- [1]
-						329785, -- [2]
-						905, -- [3]
-						1616908048.704, -- [4]
-						38830, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						77489, -- [2]
-						752, -- [3]
-						1616908049.018, -- [4]
-						39582, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						329785, -- [2]
-						905, -- [3]
-						1616908050.718, -- [4]
-						38677, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						752, -- [3]
-						1616908052.01, -- [4]
-						39429, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						329785, -- [2]
-						905, -- [3]
-						1616908052.745, -- [4]
-						38524, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						33110, -- [2]
-						1334, -- [3]
-						1616908052.745, -- [4]
-						39858, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						188, -- [3]
-						1616908055.783, -- [4]
-						40046, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77489, -- [2]
-						188, -- [3]
-						1616908058.765, -- [4]
-						40234, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908060.892, -- [4]
-						40234, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3618, -- [3]
-						1616908062.88, -- [4]
-						36616, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						157503, -- [2]
-						248, -- [3]
-						1616908063.93, -- [4]
-						36864, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3617, -- [3]
-						1616908064.879, -- [4]
-						33247, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3618, -- [3]
-						1616908066.881, -- [4]
-						29629, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						4, -- [1]
-						335873, -- [2]
-						1, -- [3]
-						1616908067.816, -- [4]
-						29629, -- [5]
-						"Remornia", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3618, -- [3]
-						1616908068.881, -- [4]
-						26011, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908070.909, -- [4]
-						26011, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908070.909, -- [4]
-						26011, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3618, -- [3]
-						1616908072.925, -- [4]
-						22393, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3617, -- [3]
-						1616908074.935, -- [4]
-						18776, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						53365, -- [2]
-						975, -- [3]
-						1616908075.144, -- [4]
-						19751, -- [5]
-						"Fenrisson-Darrowmere", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3618, -- [3]
-						1616908076.946, -- [4]
-						16133, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						332626, -- [2]
-						9044, -- [3]
-						1616908078.17, -- [4]
-						7089, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						332734, -- [2]
-						1, -- [3]
-						1616908078.731, -- [4]
-						7089, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						332734, -- [2]
-						8249, -- [3]
-						1616908078.731, -- [4]
-						1, -- [5]
-						"Sire Denathrius", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1160, -- [10]
-					}, -- [24]
-					{
-						3, -- [1]
-						48707, -- [2]
-						1, -- [3]
-						1616908029.76, -- [4]
-						0, -- [5]
-						"Fenrisson-Darrowmere", -- [6]
-					}, -- [25]
-				},
-			}, -- [8]
-			{
-				["maxhealth"] = 41413,
-				["timeofdeath"] = 318.4029999999912,
-				["name"] = "Vexahllia-Stormrage",
-				["time"] = 1616908079.989,
-				["class"] = "HUNTER",
-				["timestring"] = "5m 18s",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1616908062.009, -- [4]
-						26369, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3575, -- [3]
-						1616908062.863, -- [4]
-						22794, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						157503, -- [2]
-						247, -- [3]
-						1616908063.93, -- [4]
-						23266, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						40, -- [3]
-						1616908064.044, -- [4]
-						23306, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3575, -- [3]
-						1616908064.856, -- [4]
-						19731, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						13, -- [3]
-						1616908066.462, -- [4]
-						19937, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3574, -- [3]
-						1616908066.881, -- [4]
-						16363, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						33110, -- [2]
-						1308, -- [3]
-						1616908066.908, -- [4]
-						17671, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1616908067.691, -- [4]
-						17690, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3574, -- [3]
-						1616908068.881, -- [4]
-						14116, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						29, -- [3]
-						1616908068.902, -- [4]
-						14145, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						1064, -- [2]
-						5764, -- [3]
-						1616908069.755, -- [4]
-						19909, -- [5]
-						"Ariyka-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						185, -- [3]
-						1616908069.914, -- [4]
-						20094, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						10, -- [3]
-						1616908070.121, -- [4]
-						20104, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						4, -- [1]
-						329785, -- [2]
-						1, -- [3]
-						1616908070.909, -- [4]
-						20104, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908070.909, -- [4]
-						20104, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						9, -- [3]
-						1616908071.733, -- [4]
-						20113, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3575, -- [3]
-						1616908072.925, -- [4]
-						16538, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						77489, -- [2]
-						185, -- [3]
-						1616908072.925, -- [4]
-						16723, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						143924, -- [2]
-						25, -- [3]
-						1616908072.947, -- [4]
-						16748, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						3, -- [3]
-						1616908074.58, -- [4]
-						16751, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						329785, -- [2]
-						3575, -- [3]
-						1616908074.909, -- [4]
-						13176, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
 					{
 						false, -- [1]
 						143924, -- [2]
 						16, -- [3]
-						1616908075.79, -- [4]
-						13192, -- [5]
-						"Vexahllia-Stormrage", -- [6]
+						1617167280.221, -- [4]
+						30049, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [23]
+					}, -- [5]
 					{
 						true, -- [1]
-						329785, -- [2]
-						3574, -- [3]
-						1616908076.921, -- [4]
-						9618, -- [5]
-						"Crimson Cabalist", -- [6]
+						326456, -- [2]
+						1471, -- [3]
+						1617167280.336, -- [4]
+						28578, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1471, -- [3]
+						1617167281.31, -- [4]
+						27107, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4537, -- [3]
+						1617167281.37, -- [4]
+						22570, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167281.37, -- [4]
+						22570, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						143924, -- [2]
+						6, -- [3]
+						1617167281.44, -- [4]
+						22576, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						34914, -- [2]
+						264, -- [3]
+						1617167282.078, -- [4]
+						22840, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						335467, -- [2]
+						1709, -- [3]
+						1617167282.293, -- [4]
+						24549, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						325590, -- [2]
+						5528, -- [3]
+						1617167282.341, -- [4]
+						17851, -- [5]
+						"Vile Occultist", -- [6]
 						nil, -- [7]
 						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1471, -- [3]
+						1617167282.341, -- [4]
+						16380, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						341475, -- [2]
+						834, -- [3]
+						1617167282.341, -- [4]
+						15546, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4537, -- [3]
+						1617167282.611, -- [4]
+						11009, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.658, -- [4]
+						11009, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						104, -- [3]
+						1617167282.658, -- [4]
+						11113, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						647, -- [3]
+						1617167283.234, -- [4]
+						11760, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						157503, -- [2]
+						37, -- [3]
+						1617167283.319, -- [4]
+						11797, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1471, -- [3]
+						1617167283.319, -- [4]
+						10326, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						341475, -- [2]
+						834, -- [3]
+						1617167283.384, -- [4]
+						9492, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						341475, -- [2]
+						834, -- [3]
+						1617167283.661, -- [4]
+						8658, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						143924, -- [2]
+						68, -- [3]
+						1617167283.859, -- [4]
+						8726, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
 						false, -- [1]
-						143924, -- [2]
-						12, -- [3]
-						1616908077.009, -- [4]
-						9630, -- [5]
-						"Vexahllia-Stormrage", -- [6]
+						34914, -- [2]
+						290, -- [3]
+						1617167283.982, -- [4]
+						9016, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [25]
 					{
 						true, -- [1]
-						332626, -- [2]
-						7889, -- [3]
-						1616908078.17, -- [4]
-						1741, -- [5]
-						"Sire Denathrius", -- [6]
+						341475, -- [2]
+						4537, -- [3]
+						1617167284.123, -- [4]
+						4479, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
-						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1616908078.234, -- [4]
-						1752, -- [5]
-						"Vexahllia-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
 						4, -- [1]
-						329785, -- [2]
+						341475, -- [2]
 						1, -- [3]
-						1616908078.7, -- [4]
-						1769, -- [5]
-						"Crimson Cabalist", -- [6]
+						1617167284.164, -- [4]
+						4479, -- [5]
+						"Bleakwing Assassin", -- [6]
 						false, -- [7]
 						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						34914, -- [2]
+						528, -- [3]
+						1617167284.164, -- [4]
+						5007, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [28]
 					{
-						4, -- [1]
-						335875, -- [2]
-						1, -- [3]
-						1616908078.7, -- [4]
-						1769, -- [5]
-						"Crimson Cabalist", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						326456, -- [2]
+						1470, -- [3]
+						1617167284.328, -- [4]
+						3537, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [29]
 					{
 						false, -- [1]
-						143924, -- [2]
-						11, -- [3]
-						1616908079.429, -- [4]
-						1780, -- [5]
-						"Vexahllia-Stormrage", -- [6]
+						335467, -- [2]
+						710, -- [3]
+						1617167284.328, -- [4]
+						4247, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
+						true, -- [1]
+						341475, -- [2]
+						833, -- [3]
+						1617167284.364, -- [4]
+						3414, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						325590, -- [2]
+						5527, -- [3]
+						1617167284.639, -- [4]
+						1, -- [5]
+						"Vile Occultist", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						2113, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "1m 29s",
+				["time"] = 1617167284.639,
+			}, -- [2]
+			{
+				["maxhealth"] = 36360,
+				["timeofdeath"] = 90.14099999999598,
+				["name"] = "Killershammy-Gorgonnash",
+				["events"] = {
+					{
+						false, -- [1]
+						291843, -- [2]
+						53, -- [3]
+						1617167280.66, -- [4]
+						31132, -- [5]
+						"Killershammy-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						325590, -- [2]
+						6436, -- [3]
+						1617167281.175, -- [4]
+						24696, -- [5]
+						"Vile Occultist", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1695, -- [3]
+						1617167281.31, -- [4]
+						23001, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4675, -- [3]
+						1617167281.37, -- [4]
+						18326, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
 						4, -- [1]
-						332734, -- [2]
+						341475, -- [2]
 						1, -- [3]
-						1616908079.961, -- [4]
-						1780, -- [5]
-						"Sire Denathrius", -- [6]
+						1617167281.37, -- [4]
+						18326, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						330945, -- [2]
+						4009, -- [3]
+						1617167281.37, -- [4]
+						22335, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1695, -- [3]
+						1617167282.341, -- [4]
+						19576, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						341475, -- [2]
+						961, -- [3]
+						1617167282.341, -- [4]
+						18615, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4676, -- [3]
+						1617167282.611, -- [4]
+						13939, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.611, -- [4]
+						13939, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						291843, -- [2]
+						191, -- [3]
+						1617167282.703, -- [4]
+						14130, -- [5]
+						"Killershammy-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167283.15, -- [4]
+						14778, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						157503, -- [2]
+						37, -- [3]
+						1617167283.319, -- [4]
+						14815, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1695, -- [3]
+						1617167283.319, -- [4]
+						13120, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						341475, -- [2]
+						961, -- [3]
+						1617167283.384, -- [4]
+						12159, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						351, -- [3]
+						1617167283.384, -- [4]
+						12510, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						true, -- [1]
+						341475, -- [2]
+						960, -- [3]
+						1617167283.622, -- [4]
+						11550, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						162530, -- [2]
+						367, -- [3]
+						1617167283.661, -- [4]
+						11917, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4676, -- [3]
+						1617167284.164, -- [4]
+						7241, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167284.164, -- [4]
+						7241, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1695, -- [3]
+						1617167284.294, -- [4]
+						5546, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						341475, -- [2]
+						960, -- [3]
+						1617167284.364, -- [4]
+						4586, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						341475, -- [2]
+						961, -- [3]
+						1617167284.639, -- [4]
+						3625, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						291843, -- [2]
+						206, -- [3]
+						1617167284.733, -- [4]
+						3831, -- [5]
+						"Killershammy-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						162530, -- [2]
+						181, -- [3]
+						1617167284.941, -- [4]
+						4012, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						684, -- [3]
+						1617167285.004, -- [4]
+						4696, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1695, -- [3]
+						1617167285.343, -- [4]
+						3001, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						341475, -- [2]
+						961, -- [3]
+						1617167285.343, -- [4]
+						2040, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						197997, -- [2]
+						2692, -- [3]
+						1617167285.518, -- [4]
+						4732, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [29]
+					{
+						true, -- [1]
+						341475, -- [2]
+						961, -- [3]
+						1617167285.636, -- [4]
+						3771, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						326430, -- [2]
+						1, -- [3]
+						1617167285.67, -- [4]
+						3771, -- [5]
+						"Shade of Kael'thas", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
@@ -9178,232 +7573,1008 @@ DeathGraphsDBCurrent = {
 					}, -- [31]
 					{
 						true, -- [1]
-						332734, -- [2]
-						8458, -- [3]
-						1616908079.961, -- [4]
+						325877, -- [2]
+						16951, -- [3]
+						1617167285.67, -- [4]
 						1, -- [5]
-						"Sire Denathrius", -- [6]
+						"Shade of Kael'thas", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						4, -- [8]
 						false, -- [9]
-						6678, -- [10]
+						13180, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						186265, -- [2]
-						1, -- [3]
-						1616907777.478, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Vexahllia-Stormrage", -- [6]
+						"Killershammy-Gorgonnash", -- [6]
 					}, -- [33]
 				},
-			}, -- [9]
-			{
-				["maxhealth"] = 34200,
-				["timeofdeath"] = 322.1989999999933,
-				["name"] = "Samoansage",
-				["time"] = 1616908083.785,
 				["class"] = "SHAMAN",
-				["timestring"] = "5m 22s",
+				["timestring"] = "1m 30s",
+				["time"] = 1617167285.715,
+			}, -- [3]
+			{
+				["maxhealth"] = 33855,
+				["timeofdeath"] = 90.14099999999598,
+				["name"] = "Leminous-Gorgonnash",
 				["events"] = {
 					{
-						false, -- [1]
-						61295, -- [2]
-						421, -- [3]
-						1616908072.925, -- [4]
-						35920, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						326456, -- [2]
+						1, -- [3]
+						1617167279.343, -- [4]
+						27240, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						321444, -- [2]
-						391, -- [3]
-						1616908073.139, -- [4]
-						35920, -- [5]
-						"Samoansage", -- [6]
-						true, -- [7]
+						143924, -- [2]
+						83, -- [3]
+						1617167279.39, -- [4]
+						27323, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [2]
 					{
 						true, -- [1]
-						329785, -- [2]
-						3390, -- [3]
-						1616908073.139, -- [4]
-						32921, -- [5]
-						"Crimson Cabalist", -- [6]
-						391, -- [7]
-						32, -- [8]
+						326456, -- [2]
+						1719, -- [3]
+						1617167280.336, -- [4]
+						25604, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
 						143924, -- [2]
-						5, -- [3]
-						1616908073.76, -- [4]
-						32926, -- [5]
-						"Samoansage", -- [6]
+						110, -- [3]
+						1617167280.622, -- [4]
+						25714, -- [5]
+						"Leminous-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						61295, -- [2]
-						218, -- [3]
-						1616908074.854, -- [4]
-						33144, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						326456, -- [2]
+						1720, -- [3]
+						1617167281.31, -- [4]
+						23994, -- [5]
+						"Shade of Kael'thas", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908074.978, -- [4]
-						33145, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						341475, -- [2]
+						4275, -- [3]
+						1617167281.37, -- [4]
+						19719, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167281.37, -- [4]
+						19719, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
 						false, -- [1]
-						61295, -- [2]
-						159, -- [3]
-						1616908074.978, -- [4]
-						33304, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						143924, -- [2]
+						131, -- [3]
+						1617167281.832, -- [4]
+						19850, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1720, -- [3]
+						1617167282.341, -- [4]
+						17184, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167282.341, -- [4]
+						16209, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4275, -- [3]
+						1617167282.611, -- [4]
+						11934, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.658, -- [4]
+						11934, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						22842, -- [2]
+						3140, -- [3]
+						1617167282.658, -- [4]
+						15074, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						135, -- [3]
+						1617167283.056, -- [4]
+						15209, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						157503, -- [2]
+						38, -- [3]
+						1617167283.319, -- [4]
+						15247, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1719, -- [3]
+						1617167283.319, -- [4]
+						13528, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167283.384, -- [4]
+						12553, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167283.661, -- [4]
+						11578, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						22842, -- [2]
+						3140, -- [3]
+						1617167283.661, -- [4]
+						14718, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						145109, -- [2]
+						1067, -- [3]
+						1617167283.859, -- [4]
+						15785, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						238, -- [3]
+						1617167284.252, -- [4]
+						16023, -- [5]
+						"Leminous-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [7]
+					}, -- [21]
 					{
 						true, -- [1]
-						329785, -- [2]
-						3389, -- [3]
-						1616908075.17, -- [4]
-						29915, -- [5]
-						"Crimson Cabalist", -- [6]
+						326456, -- [2]
+						1719, -- [3]
+						1617167284.328, -- [4]
+						14304, -- [5]
+						"Shade of Kael'thas", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [8]
+					}, -- [22]
+					{
+						true, -- [1]
+						341475, -- [2]
+						974, -- [3]
+						1617167284.364, -- [4]
+						13330, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167284.639, -- [4]
+						12355, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						22842, -- [2]
+						3140, -- [3]
+						1617167284.681, -- [4]
+						15495, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1720, -- [3]
+						1617167285.296, -- [4]
+						13775, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						341475, -- [2]
+						974, -- [3]
+						1617167285.343, -- [4]
+						12801, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
 					{
 						false, -- [1]
 						143924, -- [2]
+						107, -- [3]
+						1617167285.518, -- [4]
+						12908, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167285.636, -- [4]
+						11933, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						1, -- [1]
+						22812, -- [2]
 						1, -- [3]
-						1616908076.592, -- [4]
-						29916, -- [5]
-						"Samoansage", -- [6]
+						1617167285.67, -- [4]
+						11933, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						326430, -- [2]
+						1, -- [3]
+						1617167285.67, -- [4]
+						11933, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						325877, -- [2]
+						17197, -- [3]
+						1617167285.67, -- [4]
+						1, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						5264, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1617167285.67, -- [4]
+						0, -- [5]
+						"Leminous-Gorgonnash", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "1m 30s",
+				["time"] = 1617167285.715,
+			}, -- [4]
+			{
+				["maxhealth"] = 36940,
+				["timeofdeath"] = 90.14099999999598,
+				["name"] = "Aquitar-EarthenRing",
+				["events"] = {
+					{
+						true, -- [1]
+						341475, -- [2]
+						5645, -- [3]
+						1617167281.37, -- [4]
+						24669, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167281.37, -- [4]
+						24669, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						335467, -- [2]
+						323, -- [3]
+						1617167281.577, -- [4]
+						24992, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						34914, -- [2]
+						509, -- [3]
+						1617167281.646, -- [4]
+						25501, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						119611, -- [2]
+						358, -- [3]
+						1617167282.149, -- [4]
+						25859, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1789, -- [3]
+						1617167282.341, -- [4]
+						22838, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						341475, -- [2]
+						1014, -- [3]
+						1617167282.341, -- [4]
+						21824, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						4, -- [1]
+						325873, -- [2]
+						1, -- [3]
+						1617167282.658, -- [4]
+						21824, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						335467, -- [2]
+						915, -- [3]
+						1617167282.825, -- [4]
+						22739, -- [5]
+						"Aquitar-EarthenRing", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
+						true, -- [1]
+						341475, -- [2]
+						5646, -- [3]
+						1617167282.858, -- [4]
+						17093, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.858, -- [4]
+						17093, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
 						false, -- [1]
-						61295, -- [2]
-						226, -- [3]
-						1616908076.808, -- [4]
-						30142, -- [5]
+						73921, -- [2]
+						619, -- [3]
+						1617167283.234, -- [4]
+						17712, -- [5]
 						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						157503, -- [2]
+						38, -- [3]
+						1617167283.319, -- [4]
+						17750, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1789, -- [3]
+						1617167283.319, -- [4]
+						15961, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						341475, -- [2]
+						1014, -- [3]
+						1617167283.384, -- [4]
+						14947, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						34914, -- [2]
+						294, -- [3]
+						1617167283.563, -- [4]
+						15241, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						119611, -- [2]
+						358, -- [3]
+						1617167283.859, -- [4]
+						15599, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						34914, -- [2]
+						325, -- [3]
+						1617167284.079, -- [4]
+						15924, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						341475, -- [2]
+						5646, -- [3]
+						1617167284.123, -- [4]
+						10278, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167284.164, -- [4]
+						10278, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						162530, -- [2]
+						189, -- [3]
+						1617167284.294, -- [4]
+						10467, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1789, -- [3]
+						1617167284.328, -- [4]
+						8678, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						341475, -- [2]
+						1014, -- [3]
+						1617167284.364, -- [4]
+						7664, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						73921, -- [2]
+						676, -- [3]
+						1617167285.004, -- [4]
+						8340, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						34914, -- [2]
+						209, -- [3]
+						1617167285.121, -- [4]
+						8549, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						true, -- [1]
+						341475, -- [2]
+						1014, -- [3]
+						1617167285.159, -- [4]
+						7535, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						335467, -- [2]
+						922, -- [3]
+						1617167285.296, -- [4]
+						8457, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1789, -- [3]
+						1617167285.296, -- [4]
+						6668, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						1014, -- [3]
+						1617167285.343, -- [4]
+						5654, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						119611, -- [2]
+						717, -- [3]
+						1617167285.604, -- [4]
+						6371, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						326430, -- [2]
+						1, -- [3]
+						1617167285.67, -- [4]
+						6371, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						325877, -- [2]
+						17890, -- [3]
+						1617167285.715, -- [4]
+						1, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						11519, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Aquitar-EarthenRing", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "1m 30s",
+				["time"] = 1617167285.715,
+			}, -- [5]
+			{
+				["maxhealth"] = 31600,
+				["timeofdeath"] = 92.75200000000041,
+				["name"] = "Palyndrome-Gorgonnash",
+				["events"] = {
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.858, -- [4]
+						15605, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						157503, -- [2]
+						38, -- [3]
+						1617167283.319, -- [4]
+						15643, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1391, -- [3]
+						1617167283.319, -- [4]
+						14252, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						341475, -- [2]
+						788, -- [3]
+						1617167283.384, -- [4]
+						13464, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						341475, -- [2]
+						789, -- [3]
+						1617167283.622, -- [4]
+						12675, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						341475, -- [2]
+						3082, -- [3]
+						1617167284.164, -- [4]
+						9593, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167284.164, -- [4]
+						9593, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						162530, -- [2]
+						182, -- [3]
+						1617167284.294, -- [4]
+						9775, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						15290, -- [2]
+						1626, -- [3]
+						1617167284.294, -- [4]
+						11401, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1391, -- [3]
+						1617167284.294, -- [4]
+						10010, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
 						true, -- [1]
-						329785, -- [2]
-						3389, -- [3]
-						1616908077.17, -- [4]
-						26753, -- [5]
-						"Crimson Cabalist", -- [6]
+						341475, -- [2]
+						789, -- [3]
+						1617167284.364, -- [4]
+						9221, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
-						false, -- [1]
-						61295, -- [2]
-						356, -- [3]
-						1616908077.778, -- [4]
-						27109, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						true, -- [1]
+						341475, -- [2]
+						789, -- [3]
+						1617167284.639, -- [4]
+						8432, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
 					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908077.81, -- [4]
-						27110, -- [5]
-						"Samoansage", -- [6]
+						true, -- [1]
+						326456, -- [2]
+						1392, -- [3]
+						1617167285.296, -- [4]
+						7040, -- [5]
+						"Shade of Kael'thas", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [13]
 					{
 						true, -- [1]
-						332626, -- [2]
-						8474, -- [3]
-						1616908078.17, -- [4]
-						18636, -- [5]
-						"Sire Denathrius", -- [6]
+						341475, -- [2]
+						789, -- [3]
+						1617167285.343, -- [4]
+						6251, -- [5]
+						"Bleakwing Assassin", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
-						4, -- [1]
-						332794, -- [2]
-						1, -- [3]
-						1616908078.731, -- [4]
-						18636, -- [5]
-						"Sire Denathrius", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
 						false, -- [1]
-						61295, -- [2]
-						256, -- [3]
-						1616908078.771, -- [4]
-						18892, -- [5]
-						"Samoansage", -- [6]
+						162530, -- [2]
+						182, -- [3]
+						1617167285.604, -- [4]
+						6433, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
+					}, -- [15]
+					{
+						true, -- [1]
+						341475, -- [2]
+						789, -- [3]
+						1617167285.636, -- [4]
+						5644, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908079.003, -- [4]
-						18893, -- [5]
+						197997, -- [2]
+						2637, -- [3]
+						1617167285.838, -- [4]
+						8281, -- [5]
 						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -9411,36 +8582,36 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [17]
 					{
-						true, -- [1]
-						329785, -- [2]
-						3389, -- [3]
-						1616908079.171, -- [4]
-						15504, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
 						false, -- [1]
-						33110, -- [2]
-						500, -- [3]
-						1616908079.208, -- [4]
-						16004, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						162530, -- [2]
+						182, -- [3]
+						1617167286.206, -- [4]
+						8463, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1740, -- [3]
+						1617167286.311, -- [4]
+						6723, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908080.23, -- [4]
-						16005, -- [5]
-						"Samoansage", -- [6]
+						139, -- [2]
+						648, -- [3]
+						1617167286.357, -- [4]
+						7371, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -9448,22 +8619,416 @@ DeathGraphsDBCurrent = {
 					}, -- [20]
 					{
 						false, -- [1]
-						61295, -- [2]
-						210, -- [3]
-						1616908080.578, -- [4]
-						16215, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						265202, -- [2]
+						2018, -- [3]
+						1617167286.357, -- [4]
+						9389, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
+						true, -- [1]
+						341475, -- [2]
+						986, -- [3]
+						1617167286.357, -- [4]
+						8403, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
 						false, -- [1]
-						61295, -- [2]
-						250, -- [3]
-						1616908080.688, -- [4]
-						16465, -- [5]
+						33110, -- [2]
+						1811, -- [3]
+						1617167286.415, -- [4]
+						10214, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						341475, -- [2]
+						986, -- [3]
+						1617167286.624, -- [4]
+						9228, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						33110, -- [2]
+						1254, -- [3]
+						1617167286.672, -- [4]
+						10482, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1739, -- [3]
+						1617167287.292, -- [4]
+						8743, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						341475, -- [2]
+						986, -- [3]
+						1617167287.334, -- [4]
+						7757, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						162530, -- [2]
+						189, -- [3]
+						1617167287.527, -- [4]
+						7946, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						986, -- [3]
+						1617167287.62, -- [4]
+						6960, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						162530, -- [2]
+						183, -- [3]
+						1617167288.184, -- [4]
+						7143, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						325590, -- [2]
+						6604, -- [3]
+						1617167288.223, -- [4]
+						539, -- [5]
+						"Vile Occultist", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1739, -- [3]
+						1617167288.326, -- [4]
+						1, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						1200, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						498, -- [2]
+						1, -- [3]
+						1617167278.3, -- [4]
+						0, -- [5]
+						"Palyndrome-Gorgonnash", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "1m 32s",
+				["time"] = 1617167288.326,
+			}, -- [6]
+			{
+				["maxhealth"] = 39440,
+				["timeofdeath"] = 95.78899999999703,
+				["name"] = "Rohran-Nordrassil",
+				["events"] = {
+					{
+						true, -- [1]
+						326456, -- [2]
+						1737, -- [3]
+						1617167288.326, -- [4]
+						10931, -- [5]
+						"Shade of Kael'thas", -- [6]
+						736, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77220, -- [2]
+						66, -- [3]
+						1617167288.38, -- [4]
+						10931, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167288.38, -- [4]
+						10013, -- [5]
+						"Bleakwing Assassin", -- [6]
+						66, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1288, -- [3]
+						1617167288.544, -- [4]
+						11301, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						77220, -- [2]
+						100, -- [3]
+						1617167288.613, -- [4]
+						11301, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						true, -- [1]
+						341475, -- [2]
+						985, -- [3]
+						1617167288.613, -- [4]
+						10416, -- [5]
+						"Bleakwing Assassin", -- [6]
+						100, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						162530, -- [2]
+						183, -- [3]
+						1617167288.812, -- [4]
+						10599, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						139, -- [2]
+						1296, -- [3]
+						1617167289.157, -- [4]
+						11895, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77220, -- [2]
+						168, -- [3]
+						1617167289.325, -- [4]
+						11895, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						108366, -- [2]
+						372, -- [3]
+						1617167289.325, -- [4]
+						11895, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1737, -- [3]
+						1617167289.325, -- [4]
+						10698, -- [5]
+						"Shade of Kael'thas", -- [6]
+						540, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77220, -- [2]
+						102, -- [3]
+						1617167289.367, -- [4]
+						10698, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						341475, -- [2]
+						985, -- [3]
+						1617167289.367, -- [4]
+						9815, -- [5]
+						"Bleakwing Assassin", -- [6]
+						102, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1198, -- [3]
+						1617167289.414, -- [4]
+						11013, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						162530, -- [2]
+						182, -- [3]
+						1617167289.455, -- [4]
+						11195, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77220, -- [2]
+						58, -- [3]
+						1617167289.629, -- [4]
+						11195, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167289.629, -- [4]
+						10269, -- [5]
+						"Bleakwing Assassin", -- [6]
+						58, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						162530, -- [2]
+						180, -- [3]
+						1617167290.105, -- [4]
+						10449, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77220, -- [2]
+						152, -- [3]
+						1617167290.323, -- [4]
+						10449, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						108366, -- [2]
+						412, -- [3]
+						1617167290.323, -- [4]
+						10449, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1736, -- [3]
+						1617167290.323, -- [4]
+						9277, -- [5]
+						"Shade of Kael'thas", -- [6]
+						564, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1295, -- [3]
+						1617167290.323, -- [4]
+						10572, -- [5]
 						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -9471,96 +9036,490 @@ DeathGraphsDBCurrent = {
 						-1, -- [10]
 					}, -- [22]
 					{
-						true, -- [1]
-						329785, -- [2]
-						3389, -- [3]
-						1616908081.177, -- [4]
-						13076, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						77220, -- [2]
+						64, -- [3]
+						1617167290.373, -- [4]
+						10572, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [23]
 					{
-						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908081.859, -- [4]
-						13077, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						341475, -- [2]
+						985, -- [3]
+						1617167290.373, -- [4]
+						9651, -- [5]
+						"Bleakwing Assassin", -- [6]
+						64, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [24]
 					{
 						false, -- [1]
-						77489, -- [2]
-						70, -- [3]
-						1616908082.202, -- [4]
-						13147, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
+						77220, -- [2]
+						92, -- [3]
+						1617167290.637, -- [4]
+						9651, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
-						false, -- [1]
-						61295, -- [2]
-						515, -- [3]
-						1616908082.631, -- [4]
-						13662, -- [5]
-						"Samoansage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						341475, -- [2]
+						985, -- [3]
+						1617167290.637, -- [4]
+						8758, -- [5]
+						"Bleakwing Assassin", -- [6]
+						92, -- [7]
+						1, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						143924, -- [2]
-						1, -- [3]
-						1616908083.048, -- [4]
-						13663, -- [5]
-						"Samoansage", -- [6]
+						162530, -- [2]
+						184, -- [3]
+						1617167290.732, -- [4]
+						8942, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						true, -- [1]
-						329785, -- [2]
-						3389, -- [3]
-						1616908083.174, -- [4]
-						10274, -- [5]
-						"Crimson Cabalist", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						false, -- [1]
+						77220, -- [2]
+						609, -- [3]
+						1617167290.954, -- [4]
+						8942, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
 					}, -- [28]
 					{
-						false, -- [1]
-						139, -- [2]
-						263, -- [3]
-						1616908083.21, -- [4]
-						10537, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						325506, -- [2]
+						8233, -- [3]
+						1617167290.954, -- [4]
+						1318, -- [5]
+						"Rockbound Vanquisher", -- [6]
+						609, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
 						false, -- [1]
+						77220, -- [2]
+						111, -- [3]
+						1617167291.317, -- [4]
+						1318, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						108366, -- [2]
+						257, -- [3]
+						1617167291.317, -- [4]
+						1318, -- [5]
+						"Rohran-Nordrassil", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1737, -- [3]
+						1617167291.363, -- [4]
+						1, -- [5]
+						"Shade of Kael'thas", -- [6]
+						368, -- [7]
+						4, -- [8]
+						false, -- [9]
+						51, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Rohran-Nordrassil", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 35s",
+				["time"] = 1617167291.363,
+			}, -- [7]
+			{
+				["maxhealth"] = 37520,
+				["timeofdeath"] = 99.24699999999575,
+				["name"] = "Lycosapien-Sargeras",
+				["events"] = {
+					{
+						false, -- [1]
+						77220, -- [2]
+						67, -- [3]
+						1617167291.363, -- [4]
+						10082, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						108366, -- [2]
+						360, -- [3]
+						1617167291.363, -- [4]
+						10082, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167291.363, -- [4]
+						9525, -- [5]
+						"Bleakwing Assassin", -- [6]
+						427, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167291.411, -- [4]
+						10173, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
 						33110, -- [2]
-						497, -- [3]
-						1616908083.21, -- [4]
-						11034, -- [5]
-						"Xiuyettanya-Stormrage", -- [6]
+						1232, -- [3]
+						1617167291.411, -- [4]
+						11405, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						162530, -- [2]
+						372, -- [3]
+						1617167291.411, -- [4]
+						11777, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						77220, -- [2]
+						98, -- [3]
+						1617167291.654, -- [4]
+						11777, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167291.654, -- [4]
+						10891, -- [5]
+						"Bleakwing Assassin", -- [6]
+						98, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167291.956, -- [4]
+						11539, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						77220, -- [2]
+						71, -- [3]
+						1617167292.35, -- [4]
+						11539, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						108366, -- [2]
+						258, -- [3]
+						1617167292.35, -- [4]
+						11539, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167292.35, -- [4]
+						10884, -- [5]
+						"Bleakwing Assassin", -- [6]
+						329, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						204883, -- [2]
+						4275, -- [3]
+						1617167292.542, -- [4]
+						15159, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77220, -- [2]
+						81, -- [3]
+						1617167292.635, -- [4]
+						15159, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167292.635, -- [4]
+						14256, -- [5]
+						"Bleakwing Assassin", -- [6]
+						81, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77220, -- [2]
+						54, -- [3]
+						1617167293.338, -- [4]
+						14256, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						108366, -- [2]
+						111, -- [3]
+						1617167293.338, -- [4]
+						14256, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167293.338, -- [4]
+						13437, -- [5]
+						"Bleakwing Assassin", -- [6]
+						165, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						812, -- [3]
+						1617167293.4, -- [4]
+						14249, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						77220, -- [2]
+						55, -- [3]
+						1617167293.621, -- [4]
+						14249, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167293.621, -- [4]
+						13320, -- [5]
+						"Bleakwing Assassin", -- [6]
+						55, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						77220, -- [2]
+						311, -- [3]
+						1617167294.143, -- [4]
+						13320, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						341254, -- [2]
+						5424, -- [3]
+						1617167294.143, -- [4]
+						8207, -- [5]
+						"Reborn Phoenix", -- [6]
+						311, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77220, -- [2]
+						387, -- [3]
+						1617167294.3, -- [4]
+						8207, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						108366, -- [2]
+						215, -- [3]
+						1617167294.3, -- [4]
+						8207, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						true, -- [1]
+						341475, -- [2]
+						5500, -- [3]
+						1617167294.3, -- [4]
+						3309, -- [5]
+						"Bleakwing Assassin", -- [6]
+						602, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167294.3, -- [4]
+						3309, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						77220, -- [2]
+						75, -- [3]
+						1617167294.617, -- [4]
+						3309, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						984, -- [3]
+						1617167294.617, -- [4]
+						2400, -- [5]
+						"Bleakwing Assassin", -- [6]
+						75, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167294.757, -- [4]
+						3048, -- [5]
+						"Karith-Gorgonnash", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -9568,49 +9527,836 @@ DeathGraphsDBCurrent = {
 					}, -- [30]
 					{
 						false, -- [1]
-						61295, -- [2]
-						451, -- [3]
-						1616908083.366, -- [4]
-						11485, -- [5]
-						"Ariyka-Stormrage", -- [6]
+						77220, -- [2]
+						406, -- [3]
+						1617167294.821, -- [4]
+						3048, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						341475, -- [2]
+						5500, -- [3]
+						1617167294.821, -- [4]
+						1, -- [5]
+						"Bleakwing Assassin", -- [6]
+						406, -- [7]
+						1, -- [8]
+						false, -- [9]
+						2046, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Lycosapien-Sargeras", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 39s",
+				["time"] = 1617167294.821,
+			}, -- [8]
+			{
+				["maxhealth"] = 38740,
+				["timeofdeath"] = 100.1449999999968,
+				["name"] = "Deez-Gorgonnash",
+				["events"] = {
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167281.37, -- [4]
+						22162, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						165, -- [3]
+						1617167282.25, -- [4]
+						22327, -- [5]
+						"Deez-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1721, -- [3]
+						1617167282.341, -- [4]
+						19542, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						341475, -- [2]
+						975, -- [3]
+						1617167282.341, -- [4]
+						18567, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4019, -- [3]
+						1617167282.611, -- [4]
+						14548, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167282.658, -- [4]
+						14548, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167282.703, -- [4]
+						15196, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						33110, -- [2]
+						1109, -- [3]
+						1617167282.703, -- [4]
+						16305, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						73921, -- [2]
+						613, -- [3]
+						1617167283.234, -- [4]
+						16918, -- [5]
+						"Samoansage", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [31]
+					}, -- [9]
+					{
+						false, -- [1]
+						157503, -- [2]
+						38, -- [3]
+						1617167283.319, -- [4]
+						16956, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
 					{
 						true, -- [1]
-						332797, -- [2]
-						12711, -- [3]
-						1616908083.741, -- [4]
-						1, -- [5]
-						"Sire Denathrius", -- [6]
+						326456, -- [2]
+						1721, -- [3]
+						1617167283.319, -- [4]
+						15235, -- [5]
+						"Shade of Kael'thas", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						4, -- [8]
 						false, -- [9]
-						1226, -- [10]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167283.384, -- [4]
+						14259, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						32, -- [3]
+						1617167283.457, -- [4]
+						14291, -- [5]
+						"Deez-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167283.661, -- [4]
+						13315, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						15290, -- [2]
+						1448, -- [3]
+						1617167283.785, -- [4]
+						14763, -- [5]
+						"Auxp-Kel'Thuzad", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						true, -- [1]
+						341475, -- [2]
+						4021, -- [3]
+						1617167284.123, -- [4]
+						10742, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						341475, -- [2]
+						1, -- [3]
+						1617167284.164, -- [4]
+						10742, -- [5]
+						"Bleakwing Assassin", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						162530, -- [2]
+						361, -- [3]
+						1617167284.294, -- [4]
+						11103, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1722, -- [3]
+						1617167284.328, -- [4]
+						9381, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167284.364, -- [4]
+						8405, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167284.639, -- [4]
+						7429, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						143924, -- [2]
+						50, -- [3]
+						1617167284.681, -- [4]
+						7479, -- [5]
+						"Deez-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						162530, -- [2]
+						188, -- [3]
+						1617167284.941, -- [4]
+						7667, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						73921, -- [2]
+						672, -- [3]
+						1617167285.004, -- [4]
+						8339, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						true, -- [1]
+						326456, -- [2]
+						1722, -- [3]
+						1617167285.296, -- [4]
+						6617, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167285.343, -- [4]
+						5641, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167285.472, -- [4]
+						6289, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						162530, -- [2]
+						189, -- [3]
+						1617167285.604, -- [4]
+						6478, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						true, -- [1]
+						341475, -- [2]
+						976, -- [3]
+						1617167285.636, -- [4]
+						5502, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						326430, -- [2]
+						1, -- [3]
+						1617167285.67, -- [4]
+						5502, -- [5]
+						"Shade of Kael'thas", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						325877, -- [2]
+						16152, -- [3]
+						1617167285.67, -- [4]
+						5502, -- [5]
+						"Shade of Kael'thas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						77489, -- [2]
+						177, -- [3]
+						1617167285.715, -- [4]
+						40680, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1616908029.499, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Samoansage", -- [6]
+						"Deez-Gorgonnash", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "1m 40s",
+				["time"] = 1617167295.719,
+			}, -- [9]
+			{
+				["maxhealth"] = 32320,
+				["timeofdeath"] = 100.7549999999974,
+				["name"] = "Joclyn-Gorgonnash",
+				["events"] = {
+					{
+						false, -- [1]
+						73921, -- [2]
+						633, -- [3]
+						1617167290.323, -- [4]
+						14018, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167290.373, -- [4]
+						13036, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167290.637, -- [4]
+						12054, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						162530, -- [2]
+						187, -- [3]
+						1617167290.732, -- [4]
+						12241, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						62, -- [3]
+						1617167290.76, -- [4]
+						12303, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						325506, -- [2]
+						7508, -- [3]
+						1617167290.954, -- [4]
+						4795, -- [5]
+						"Rockbound Vanquisher", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						4, -- [1]
+						328479, -- [2]
+						1, -- [3]
+						1617167291.002, -- [4]
+						4795, -- [5]
+						"Reborn Phoenix", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167291.363, -- [4]
+						3813, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						33110, -- [2]
+						1266, -- [3]
+						1617167291.411, -- [4]
+						5079, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						162530, -- [2]
+						181, -- [3]
+						1617167291.411, -- [4]
+						5260, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167291.654, -- [4]
+						4278, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						61295, -- [2]
+						707, -- [3]
+						1617167291.895, -- [4]
+						4985, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						139, -- [2]
+						1296, -- [3]
+						1617167291.956, -- [4]
+						6281, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						119, -- [3]
+						1617167291.956, -- [4]
+						6400, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						73921, -- [2]
+						661, -- [3]
+						1617167292.074, -- [4]
+						7061, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167292.35, -- [4]
+						6079, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						588, -- [3]
+						1617167292.406, -- [4]
+						6667, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						204883, -- [2]
+						2138, -- [3]
+						1617167292.542, -- [4]
+						8805, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167292.635, -- [4]
+						7823, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						6, -- [3]
+						1617167293.174, -- [4]
+						7829, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167293.338, -- [4]
+						6847, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167293.621, -- [4]
+						5865, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1617167294.399, -- [4]
+						5872, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1392, -- [3]
+						1617167294.564, -- [4]
+						7264, -- [5]
+						"Samoansage", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						341475, -- [2]
+						982, -- [3]
+						1617167294.617, -- [4]
+						6282, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						139, -- [2]
+						648, -- [3]
+						1617167294.757, -- [4]
+						6930, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						77489, -- [2]
+						620, -- [3]
+						1617167295.398, -- [4]
+						7550, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						6, -- [3]
+						1617167295.62, -- [4]
+						7556, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						325590, -- [2]
+						6511, -- [3]
+						1617167295.781, -- [4]
+						1045, -- [5]
+						"Vile Occultist", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						33110, -- [2]
+						1234, -- [3]
+						1617167295.808, -- [4]
+						2279, -- [5]
+						"Karith-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [30]
+					{
+						false, -- [1]
+						191894, -- [2]
+						1263, -- [3]
+						1617167295.971, -- [4]
+						3542, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						341475, -- [2]
+						5005, -- [3]
+						1617167296.329, -- [4]
+						1, -- [5]
+						"Bleakwing Assassin", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						1463, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Joclyn-Gorgonnash", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MONK",
+				["timestring"] = "1m 40s",
+				["time"] = 1617167296.329,
 			}, -- [10]
 		},
-		["bossname"] = "Sire Denathrius",
+		["bossname"] = "Sun King's Salvation",
 		["bossicon"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
-			3752159, -- [5]
+			3753157, -- [5]
 		},
-		["date"] = 127844.566,
-		["timeelapsed"] = 332.4020000000019,
+		["date"] = 35444.318,
+		["timeelapsed"] = 111.4499999999971,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -9786,6 +10532,31 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
+	["2402-15"] = {
+		["deaths"] = {
+			[87] = {
+				1617167306, -- [1]
+			},
+			[89] = {
+				1617167306, -- [1]
+			},
+			[3] = {
+				1617167711, -- [1]
+			},
+			[90] = {
+				1617167306, -- [1]
+				1617167306, -- [2]
+				1617167306, -- [3]
+			},
+			[243] = {
+				1617167711, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["2407-15"] = {
 		["deaths"] = {
 			[106] = {
@@ -9858,14 +10629,14 @@ DeathGraphsDBGraph = {
 			[416] = {
 				1616906756, -- [1]
 			},
+			[381] = {
+				1616905551, -- [1]
+			},
 			[264] = {
 				1616906756, -- [1]
 			},
 			[168] = {
 				1616903256, -- [1]
-			},
-			[381] = {
-				1616905551, -- [1]
 			},
 			[453] = {
 				1616908654, -- [1]
@@ -10225,50 +10996,8 @@ DeathGraphsDBGraph = {
 	},
 	["2418-15"] = {
 		["deaths"] = {
-			[162] = {
-				1616554458, -- [1]
-			},
-			[166] = {
-				1616555947, -- [1]
-				1616555947, -- [2]
-			},
-			[209] = {
-				1616555573, -- [1]
-			},
-			[155] = {
-				1616555198, -- [1]
-				1616555198, -- [2]
-			},
-			[252] = {
-				1616556879, -- [1]
-			},
-			[101] = {
-				1616555198, -- [1]
-			},
-			[233] = {
-				1616556361, -- [1]
-			},
-			[105] = {
-				1616555198, -- [1]
-			},
-			[183] = {
-				1616554458, -- [1]
-				1616554458, -- [2]
-			},
-			[248] = {
-				1616556879, -- [1]
-			},
-			[189] = {
-				1616555573, -- [1]
-			},
-			[178] = {
-				1616554458, -- [1]
-			},
-			[234] = {
-				1616556361, -- [1]
-			},
-			[207] = {
-				1616554873, -- [1]
+			[122] = {
+				1617158121, -- [1]
 			},
 			[211] = {
 				1616554873, -- [1]
@@ -10276,41 +11005,125 @@ DeathGraphsDBGraph = {
 				1616554873, -- [3]
 				1616554873, -- [4]
 			},
-			[153] = {
-				1616555198, -- [1]
-			},
-			[240] = {
-				1616556361, -- [1]
-				1616556879, -- [2]
-			},
-			[254] = {
-				1616556879, -- [1]
-			},
-			[227] = {
-				1616556361, -- [1]
-			},
-			[208] = {
-				1616555573, -- [1]
-				1616555573, -- [2]
-			},
-			[176] = {
-				1616555947, -- [1]
-			},
-			[177] = {
-				1616554458, -- [1]
+			[243] = {
+				1617159393, -- [1]
+				1617159393, -- [2]
 			},
 			[181] = {
 				1616555947, -- [1]
 				1616555947, -- [2]
 			},
+			[298] = {
+				1617159393, -- [1]
+			},
+			[183] = {
+				1616554458, -- [1]
+				1616554458, -- [2]
+			},
 			[247] = {
+				1616556879, -- [1]
+			},
+			[153] = {
+				1616555198, -- [1]
+			},
+			[248] = {
+				1616556879, -- [1]
+			},
+			[110] = {
+				1617158121, -- [1]
+			},
+			[252] = {
+				1616556879, -- [1]
+			},
+			[190] = {
+				1617158548, -- [1]
+				1617158548, -- [2]
+			},
+			[254] = {
 				1616556879, -- [1]
 			},
 			[57] = {
 				1616555573, -- [1]
 			},
+			[162] = {
+				1616554458, -- [1]
+			},
+			[132] = {
+				1617158121, -- [1]
+			},
+			[227] = {
+				1616556361, -- [1]
+			},
+			[133] = {
+				1617158121, -- [1]
+			},
 			[228] = {
 				1616556361, -- [1]
+			},
+			[166] = {
+				1616555947, -- [1]
+				1616555947, -- [2]
+			},
+			[101] = {
+				1616555198, -- [1]
+			},
+			[233] = {
+				1616556361, -- [1]
+			},
+			[234] = {
+				1616556361, -- [1]
+			},
+			[218] = {
+				1617158955, -- [1]
+				1617158955, -- [2]
+				1617158955, -- [3]
+				1617158955, -- [4]
+			},
+			[128] = {
+				1617158121, -- [1]
+			},
+			[236] = {
+				1617159393, -- [1]
+			},
+			[105] = {
+				1616555198, -- [1]
+			},
+			[177] = {
+				1616554458, -- [1]
+				1617158548, -- [2]
+				1617158548, -- [3]
+			},
+			[208] = {
+				1616555573, -- [1]
+				1616555573, -- [2]
+				1617158955, -- [3]
+			},
+			[155] = {
+				1616555198, -- [1]
+				1616555198, -- [2]
+			},
+			[207] = {
+				1616554873, -- [1]
+			},
+			[176] = {
+				1616555947, -- [1]
+			},
+			[286] = {
+				1617159393, -- [1]
+			},
+			[240] = {
+				1616556361, -- [1]
+				1616556879, -- [2]
+			},
+			[209] = {
+				1616555573, -- [1]
+			},
+			[178] = {
+				1616554458, -- [1]
+			},
+			[189] = {
+				1616555573, -- [1]
+				1617158548, -- [2]
 			},
 		},
 		["spells"] = {
@@ -10320,29 +11133,105 @@ DeathGraphsDBGraph = {
 	},
 	["2406-15"] = {
 		["deaths"] = {
-			[269] = {
+			[285] = {
 				1616559912, -- [1]
 			},
-			[158] = {
-				1616559504, -- [1]
-				1616559504, -- [2]
+			[228] = {
+				1617161567, -- [1]
 			},
-			[239] = {
-				1616559912, -- [1]
+			[232] = {
+				1617162763, -- [1]
+			},
+			[143] = {
+				1617162763, -- [1]
+			},
+			[317] = {
+				1617163372, -- [1]
+			},
+			[151] = {
+				1617161567, -- [1]
 			},
 			[159] = {
 				1616559504, -- [1]
 				1616559504, -- [2]
 				1616559504, -- [3]
+				1617161930, -- [4]
+				1617161930, -- [5]
 			},
-			[267] = {
-				1616559912, -- [1]
+			[229] = {
+				1617161143, -- [1]
+			},
+			[140] = {
+				1617161930, -- [1]
+			},
+			[144] = {
+				1617161567, -- [1]
+				1617162323, -- [2]
+			},
+			[148] = {
+				1617161143, -- [1]
+			},
+			[316] = {
+				1617163372, -- [1]
+			},
+			[203] = {
+				1617163372, -- [1]
 			},
 			[281] = {
 				1616559912, -- [1]
 			},
-			[285] = {
+			[164] = {
+				1617161567, -- [1]
+			},
+			[230] = {
+				1617162763, -- [1]
+			},
+			[141] = {
+				1617161930, -- [1]
+			},
+			[269] = {
 				1616559912, -- [1]
+			},
+			[149] = {
+				1617162323, -- [1]
+			},
+			[267] = {
+				1616559912, -- [1]
+			},
+			[261] = {
+				1617162763, -- [1]
+			},
+			[146] = {
+				1617162323, -- [1]
+			},
+			[150] = {
+				1617162323, -- [1]
+			},
+			[197] = {
+				1617163372, -- [1]
+			},
+			[142] = {
+				1617161930, -- [1]
+			},
+			[239] = {
+				1616559912, -- [1]
+				1617161567, -- [2]
+				1617162763, -- [3]
+			},
+			[212] = {
+				1617161143, -- [1]
+				1617161143, -- [2]
+			},
+			[154] = {
+				1617161143, -- [1]
+				1617162323, -- [2]
+			},
+			[158] = {
+				1616559504, -- [1]
+				1616559504, -- [2]
+			},
+			[293] = {
+				1617163372, -- [1]
 			},
 		},
 		["spells"] = {
@@ -10375,17 +11264,73 @@ DeathGraphsDBGraph = {
 	},
 	["2405-15"] = {
 		["deaths"] = {
-			[131] = {
-				1616563138, -- [1]
-			},
 			[162] = {
 				1616563138, -- [1]
 			},
-			[104] = {
+			[135] = {
+				1616563138, -- [1]
+			},
+			[120] = {
+				1617165897, -- [1]
+			},
+			[209] = {
+				1617166322, -- [1]
+			},
+			[186] = {
+				1617165175, -- [1]
+			},
+			[190] = {
+				1617165175, -- [1]
+				1617165175, -- [2]
+			},
+			[264] = {
+				1617165897, -- [1]
+			},
+			[311] = {
+				1617166817, -- [1]
+			},
+			[156] = {
+				1617165175, -- [1]
+			},
+			[137] = {
+				1616562543, -- [1]
+			},
+			[164] = {
+				1617166322, -- [1]
+			},
+			[266] = {
+				1617166817, -- [1]
+			},
+			[168] = {
+				1617165175, -- [1]
+			},
+			[313] = {
 				1616563738, -- [1]
+				1616563738, -- [2]
+			},
+			[199] = {
+				1617166322, -- [1]
+				1617166322, -- [2]
+			},
+			[131] = {
+				1616563138, -- [1]
+			},
+			[219] = {
+				1617166322, -- [1]
 			},
 			[223] = {
 				1616563138, -- [1]
+			},
+			[260] = {
+				1617166817, -- [1]
+				1617166817, -- [2]
+			},
+			[208] = {
+				1617165897, -- [1]
+				1617165897, -- [2]
+			},
+			[104] = {
+				1616563738, -- [1]
 			},
 			[239] = {
 				1616562543, -- [1]
@@ -10393,24 +11338,18 @@ DeathGraphsDBGraph = {
 				1616562543, -- [3]
 				1616562543, -- [4]
 			},
-			[313] = {
-				1616563738, -- [1]
-				1616563738, -- [2]
-			},
-			[135] = {
-				1616563138, -- [1]
+			[111] = {
+				1617165897, -- [1]
+				1617166817, -- [2]
 			},
 			[128] = {
 				1616563738, -- [1]
 			},
-			[137] = {
-				1616562543, -- [1]
+			[158] = {
+				1616563738, -- [1]
 			},
 			[221] = {
 				1616563138, -- [1]
-			},
-			[158] = {
-				1616563738, -- [1]
 			},
 		},
 		["spells"] = {
@@ -10452,17 +11391,23 @@ DeathGraphsDBGraph = {
 	},
 	["2383-15"] = {
 		["deaths"] = {
-			[49] = {
-				1616558917, -- [1]
-			},
 			[13] = {
 				1616558917, -- [1]
 				1616558917, -- [2]
+			},
+			[169] = {
+				1617160398, -- [1]
+			},
+			[265] = {
+				1617160398, -- [1]
 			},
 			[301] = {
 				1616558917, -- [1]
 			},
 			[95] = {
+				1616558917, -- [1]
+			},
+			[49] = {
 				1616558917, -- [1]
 			},
 		},

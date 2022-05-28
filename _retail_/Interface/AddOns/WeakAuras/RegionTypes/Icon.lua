@@ -1,4 +1,4 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsCorrectVersion() or not WeakAuras.IsLibsOK() then return end
 local AddonName, Private = ...
 
 local SharedMedia = LibStub("LibSharedMedia-3.0");
@@ -31,7 +31,7 @@ local default = {
   cooldownTextDisabled = false,
   cooldownSwipe = true,
   cooldownEdge = false,
-  subRegions = {}
+  useCooldownModRate = true
 };
 
 WeakAuras.regionPrototype.AddAlphaToDefault(default);
@@ -180,6 +180,7 @@ local function create(parent, data)
   local font = "GameFontHighlight";
 
   local region = CreateFrame("FRAME", nil, parent);
+  region.regionType = "icon"
   region:SetMovable(true);
   region:SetResizable(true);
   region:SetMinResize(1, 1);
@@ -250,9 +251,6 @@ local function create(parent, data)
   cooldown:SetDrawBling(false)
   cooldown.SetDrawSwipeOrg = cooldown.SetDrawSwipe
   cooldown.SetDrawSwipe = function() end
-
-  region.values = {};
-
 
   local SetFrameLevel = region.SetFrameLevel;
 
@@ -476,7 +474,9 @@ local function modify(parent, region, data)
     if (cooldown.expirationTime and cooldown.duration and cooldown:IsShown()) then
       -- WORKAROUND SetReverse not applying until next frame
       cooldown:SetCooldown(0, 0);
-      cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration, cooldown.duration);
+      cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration,
+                           cooldown.duration,
+                           cooldown.useCooldownModRate and cooldown.modRate);
     end
   end
 
@@ -500,11 +500,14 @@ local function modify(parent, region, data)
 
   cooldown.expirationTime = nil;
   cooldown.duration = nil;
+  cooldown.modRate = nil
+  cooldown.useCooldownModRate = data.useCooldownModRate
   cooldown:Hide()
   if(data.cooldown) then
     function region:SetValue(value, total)
       cooldown.value = value
       cooldown.total = total
+      cooldown.modRate = nil
       if (value >= 0 and value <= total) then
         cooldown:Show()
         cooldown:SetCooldown(GetTime() - (total - value), total)
@@ -513,15 +516,17 @@ local function modify(parent, region, data)
       end
     end
 
-    function region:SetTime(duration, expirationTime)
+    function region:SetTime(duration, expirationTime, modRate)
       if (duration > 0 and expirationTime > GetTime()) then
         cooldown:Show();
         cooldown.expirationTime = expirationTime;
         cooldown.duration = duration;
-        cooldown:SetCooldown(expirationTime - duration, duration);
+        cooldown.modRate = modRate;
+        cooldown:SetCooldown(expirationTime - duration, duration, cooldown.useCooldownModRate and modRate);
       else
         cooldown.expirationTime = expirationTime;
         cooldown.duration = duration;
+        cooldown.modRate = modRate;
         cooldown:Hide();
       end
     end
@@ -529,7 +534,7 @@ local function modify(parent, region, data)
     function region:PreShow()
       if (cooldown.duration and cooldown.duration > 0.01) then
         cooldown:Show();
-        cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration, cooldown.duration);
+        cooldown:SetCooldown(cooldown.expirationTime - cooldown.duration, cooldown.duration, cooldown.useCooldownModRate and cooldown.modRate);
         cooldown:Resume()
       end
     end
@@ -541,14 +546,14 @@ local function modify(parent, region, data)
         if state.paused == true then
           if not region.paused then
             region:Pause()
-            cooldown:Pause()
           end
+          cooldown:Pause()
           expirationTime = GetTime() + (state.remaining or 0)
         else
           if region.paused then
             region:Resume()
-            cooldown:Resume()
           end
+          cooldown:Resume()
           expirationTime = state.expirationTime and state.expirationTime > 0 and state.expirationTime or math.huge;
         end
 
@@ -570,7 +575,7 @@ local function modify(parent, region, data)
           max = duration
         end
 
-        region:SetTime(max - adjustMin, expirationTime - adjustMin, state.inverse);
+        region:SetTime(max - adjustMin, expirationTime - adjustMin, state.modRate);
       elseif state.progressType == "static" then
         local value = state.value or 0;
         local total = state.total or 0;
@@ -615,4 +620,8 @@ local function modify(parent, region, data)
   region:SetHeight(region:GetHeight())
 end
 
-WeakAuras.RegisterRegionType("icon", create, modify, default, GetProperties)
+local function validate(data)
+  Private.EnforceSubregionExists(data, "subbackground")
+end
+
+WeakAuras.RegisterRegionType("icon", create, modify, default, GetProperties, validate)

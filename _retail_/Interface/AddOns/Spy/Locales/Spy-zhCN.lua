@@ -12,7 +12,9 @@ L["Profiles"] = "Profiles 配置文件"
 L["About"] = "信息"
 L["SpyDescription1"] = [[
 Spy 侦测敌方玩家 插件可以提醒您附近有敌对玩家出现。
+
 ]]
+
 L["SpyDescription2"] = [[
 |cffffd000附近列表|cffffffff
 附近列表会显示已经被侦测到的任何敌方玩家。 在非战斗状态下，点击列表姓名可快速选定目标。 如果在一定时间内未再次侦测到的玩家会被从列表中移除。
@@ -24,10 +26,11 @@ L["SpyDescription2"] = [[
 被加入忽略列表的敌对玩家将不会在列表中显示。你可以通过鼠标右键菜单或按住Ctrl点击从列表中添加或删除敌对玩家。
  
 |cffffd000KOS即视击杀列表|cffffffff
-在该列表中的敌对玩家一旦被侦测会出警报。您可以通过鼠标右键菜单或按住Shift点击从列表中添加或删除敌对玩家。
- 
-右键菜单也可以添加将某人加入此列表的原因。如果你希望添加不在列表中的说明，可以通过其他列表“自行输入原因...”。
+在该列表中的敌对玩家一旦被侦测会出警报。您可以通过鼠标右键菜单或按住Shift点击从列表中添加或删除敌对玩家。 右键菜单也可以添加将某人加入此列表的原因。如果你希望添加不在列表中的说明，可以通过其他列表“自行输入原因...”。
 
+]]
+
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons. 
 
@@ -72,6 +75,8 @@ L["Silithus"] = "希利苏斯"
 L["Chamber of Heart"] = "心之秘室"
 L["Hall of Ancient Paths"] = "远古通路大厅"
 L["Sanctum of the Sages"] = "贤者圣殿"
+L["Rustbolt"] = "锈栓镇"
+L["Oribos"] = "奥利波斯"
  
 -- Display
 L["DisplayOptions"] = "显示"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "只显示和自己在相同大陆中的侦
  -- Data Management
 L["DataOptions"] = "数据管理选项"
 L["DataOptionsDescription"] = [[
+
 关于 Spy 如何维护和收集数据的选项。
 ]]
 L["PurgeData"] = "多久后删除未被侦测的敌对玩家信息:"
@@ -286,6 +292,7 @@ L["Time"] = "时间"
 L["List"] = "列表"
 L["Filter"] = "过滤"
 L["Show Only"] = "仅显示"
+L["Realm"] = "Realm"
 L["KOS"] = "KOS即视击杀"
 L["Won/Lost"] = "胜/负"
 L["Reason"] = "原因"   

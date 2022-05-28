@@ -6,15 +6,11 @@ local size = settings.size
 local color = addon.color
 local interface = addon.interface
 local GUI = LibStub("AceGUI-3.0")
-local FastGuildInvite = addon.lib
 local DB
 local fontSize = fn.fontSize
 local debug = fn.debug
-
 local auto_decline = {}
 addon.msgQueue = {}
-
-local testnew = true
 
 local function Button_OnClick_NoSound(frame, ...)
 	GUI:ClearFocus()
@@ -40,16 +36,16 @@ local function playerHaveInvite(msg)
 	
 	place = strfind(ERR_GUILD_PLAYER_NOT_FOUND_S,"%s",1,true)
 	if (place) then
-		n = strsub(msg,place)
-		name = strsub(n,1,(strfind(n,"%s") or 2)-2)
+		local n = strsub(msg,place)
+		local name = strsub(n,1,(strfind(n,"%s") or 2)-2)
 		if format(ERR_GUILD_PLAYER_NOT_FOUND_S,name) == msg then
 			return "not_found", name
 		end
 	else
 		place = strfind(ERR_CHAT_PLAYER_NOT_FOUND_S,"%s",1,true)
 		if (place) then
-			n = strsub(msg,place)
-			name = strsub(n,1,(strfind(n,"%s") or 2)-2)
+			local n = strsub(msg,place)
+			local name = strsub(n,1,(strfind(n,"%s") or 2)-2)
 			if format(ERR_CHAT_PLAYER_NOT_FOUND_S,name) == msg then
 				return "not_found", name
 			end
@@ -58,8 +54,8 @@ local function playerHaveInvite(msg)
 	
 	place = strfind(ERR_GUILD_DECLINE_AUTO_S,"%s",1,true)
 	if (place) then
-		n = strsub(msg,place)
-		name = strsub(n,1,(strfind(n,"%s") or 2)-1)
+		local n = strsub(msg,place)
+		local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
 		if format(ERR_GUILD_DECLINE_AUTO_S,name) == msg then
 			return "auto_decline", name
 		end
@@ -67,14 +63,14 @@ local function playerHaveInvite(msg)
 	
 	place = strfind(ERR_GUILD_DECLINE_S ,"%s",1,true)
 	if (place) then
-		n = strsub(msg,place)
-		name = strsub(n,1,(strfind(n,"%s") or 2)-1)
+		local n = strsub(msg,place)
+		local name = strsub(n,1,(strfind(n,"%s") or 2)-1)
 		if format(ERR_GUILD_DECLINE_S ,name) == msg then
 			return "decline", name
 		end
 	end
 	
-	return "unregistered_event", name
+	return "unregistered_event"
 end
 
 
@@ -189,20 +185,12 @@ scanFrame:AddChild(frame)
 
 
 local function SetProgress(self, cur)
-	local function modTime(time)
-		--[[if time<60 then return time end
-		local min, sec = math.floor(time/60), math.fmod(time, 60)
-		sec = sec<10 and "0"..sec or sec
-		return format("%u:%s", min, sec)]]
-		return SecondsToTime(time)
-	end
 	cur = (cur or 70) - self.progressTexture.min
 	-- local max = self.progressTexture.max - self.progressTexture.min
 	local max = self.progressTexture.max
 	local percent = math.round(math.progress(max, cur))/100
 	self.progressTexture:SetWidth((self.frame:GetWidth()-10)*percent)
 	
-	-- local time = modTime(math.round(max - cur))
 	local time = math.round(max - cur)
 	-- self.statustext:SetText(self.statustext.placeholder:format(math.floor(percent*100), (max - cur)<=0 and "<1" or time))
 	self.statustext:SetText(self.statustext.placeholder:format(math.floor(percent*100), cur, max))
@@ -220,10 +208,11 @@ scanFrame:AddChild(frame)
 
 
 
-scanFrame.invite = GUI:Create("Button")
+scanFrame.invite = GUI:Create("TButton")
 local frame = scanFrame.invite
 frame:SetHeight(40)
 frame:SetWidth(60)
+frame:SetTooltip(L["Пригласить"])
 frame:SetText("+(0)")
 btnText(frame)
 frame:SetCallback("OnClick", function(self)
@@ -245,8 +234,10 @@ frame:SetScript("OnEvent", function(_,_,msg)
 	elseif type == "auto_decline" then
 		debug(format(ERR_GUILD_DECLINE_AUTO_S, name), color.yellow)
 		auto_decline[name] = true
+		fn.history:onDeclineAuto();
 	elseif type == "decline" then
 		debug(format(ERR_GUILD_DECLINE_S, name), color.yellow)
+		fn.history:onDecline();
 		if DB.global.inviteType == 4 then
 			-- local msg = fn:getRndMsg()
 			C_Timer.After(1, function() if addon.msgQueue[name] then fn:sendWhisper(name); addon.msgQueue[name] = nil end end)
@@ -335,8 +326,9 @@ scanFrame:AddChild(frame)
 
 
 
-scanFrame.decline = GUI:Create("Button")
+scanFrame.decline = GUI:Create("TButton")
 local frame = scanFrame.decline
+frame:SetTooltip(L["Не отправлять приглашение"])
 frame:SetText("-")
 btnText(frame)
 frame:SetWidth(40)
@@ -348,10 +340,11 @@ frame.frame:SetScript("OnClick", Button_OnClick_NoSound)
 frame:SetPoint("LEFT", scanFrame.pausePlay.frame, "RIGHT", 2, 0)
 scanFrame:AddChild(frame)
 
-scanFrame.reset = GUI:Create("Button")
+scanFrame.reset = GUI:Create("TButton")
 local frame = scanFrame.reset
 frame:SetWidth(16)
 frame:SetHeight(16)
+frame:SetTooltip(L["Сбросить поиск"])
 frame:SetText("R")
 frame:SetPoint("CENTER", scanFrame.frame, "BOTTOMRIGHT", -8, 8)
 frame:SetCallback("OnClick", function() interface.confirmClearFrame:Show() end)

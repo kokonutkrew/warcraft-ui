@@ -1,0 +1,643 @@
+
+DetailsTimeLineDB = {
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_end"] = "18:16:39",
+			["date_start"] = "18:16:39",
+			["name"] = "Keli'dan the Breaker",
+			["total_time"] = 35.16300000000047,
+		}, -- [1]
+		{
+			["date_end"] = "18:15:06",
+			["date_start"] = "18:15:06",
+			["name"] = "Broggok",
+			["total_time"] = 20.53900000000431,
+		}, -- [2]
+		{
+			["date_end"] = "18:13:30",
+			["date_start"] = "18:13:30",
+			["name"] = "The Maker",
+			["total_time"] = 0.1,
+		}, -- [3]
+		{
+			["date_end"] = "18:08:53",
+			["date_start"] = "18:08:53",
+			["name"] = "Keli'dan the Breaker",
+			["total_time"] = 10.62399999999616,
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["IndividualSpells"] = {
+		{
+			[33111] = {
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+		}, -- [1]
+		{
+			[33111] = {
+				{
+					20.53900000000431, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.53900000000431, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			[40062] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Technician", -- [2]
+					40062, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			[33111] = {
+				{
+					10.62399999999616, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					10.62399999999616, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [5]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [6]
+		{
+			[12739] = {
+				{
+					0.819999999992433, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					12739, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xb", -- [5]
+				}, -- [1]
+			},
+		}, -- [7]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [8]
+		{
+		}, -- [9]
+		{
+			[33111] = {
+				{
+					4.57499999999709, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					4.57499999999709, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					4.57499999999709, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					4.57499999999709, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [10]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [11]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[31900] = {
+				{
+					0.1, -- [1]
+					"Nascent Fel Orc", -- [2]
+					31900, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [12]
+		{
+		}, -- [13]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[18072] = {
+				{
+					0.1, -- [1]
+					"Felguard Brute", -- [2]
+					18072, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
+				}, -- [1]
+			},
+		}, -- [14]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [15]
+		{
+			[33111] = {
+				{
+					0.5460000000020955, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.5460000000020955, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					0.5460000000020955, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					0.5460000000020955, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[18072] = {
+				{
+					0.5460000000020955, -- [1]
+					"Felguard Annihilator", -- [2]
+					18072, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xb", -- [5]
+				}, -- [1]
+			},
+		}, -- [16]
+		{
+			[33111] = {
+				{
+					0.4710000000050059, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.4710000000050059, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[18072] = {
+				{
+					0.4710000000050059, -- [1]
+					"Felguard Brute", -- [2]
+					18072, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
+				}, -- [1]
+			},
+		}, -- [17]
+		{
+			[33111] = {
+				{
+					2.915999999997439, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [18]
+		{
+			[33111] = {
+				{
+					1.349999999991269, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.349999999991269, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					1.349999999991269, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					1.349999999991269, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[18072] = {
+				{
+					1.349999999991269, -- [1]
+					"Felguard Annihilator", -- [2]
+					18072, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xb", -- [5]
+				}, -- [1]
+			},
+		}, -- [19]
+		{
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [20]
+		{
+		}, -- [21]
+		{
+			[17228] = {
+				{
+					0.80899999999383, -- [1]
+					"Keli'dan the Breaker", -- [2]
+					17228, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[33111] = {
+				{
+					1.964000000007218, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.964000000007218, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					1.964000000007218, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [22]
+		{
+			[18072] = {
+				{
+					0.1, -- [1]
+					"Felguard Brute", -- [2]
+					18072, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Honustustere", -- [5]
+				}, -- [1]
+			},
+			[30991] = {
+				{
+					0.1, -- [1]
+					"Laughing Skull Rogue", -- [2]
+					30991, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[33111] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					0.1, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [23]
+		{
+		}, -- [24]
+	},
+	["useicons"] = true,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["debuff_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["BossSpellCast"] = {
+		{
+			["Shadowmoon Warlock"] = {
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					35.16300000000047, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+		}, -- [1]
+		{
+			["Shadowmoon Warlock"] = {
+				{
+					20.53900000000431, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.53900000000431, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["Shadowmoon Technician"] = {
+				{
+					0.1, -- [1]
+					"Shadowmoon Technician", -- [2]
+					40062, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Shadowmoon Warlock"] = {
+				{
+					10.62399999999616, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					10.62399999999616, -- [1]
+					"Shadowmoon Warlock", -- [2]
+					33111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [4]
+	},
+}

@@ -1,4 +1,4 @@
-﻿-- Last update by GlitterStorm @ Azralon on Feb,28th,2015
+-- Last update by GlitterStorm @ Azralon on Feb,28th,2015
 if GetLocale() ~= "ptBR" then return end
 if not DBM_CORE_L then DBM_CORE_L = {} end
 
@@ -23,7 +23,7 @@ L.LOOT_SPEC_REMINDER				= "A sua especialização atual é %s. A sua escolha atu
 
 L.BIGWIGS_ICON_CONFLICT				= "DBM detectou que você tem ícones habilitados tanto no BigWigs quanto no DBM. Por favor desabilite um dos dois para evitar conflitos com o líder da raid"
 
-L.MOD_AVAILABLE						= "%s esta disponível para este conteúdo. Esta disponível em |HDBM:forums|h|cff3588ffdeadlybossmods.com|r. Está mensagem só será exibida uma vez."
+L.MOD_AVAILABLE						= "%s esta disponível para este conteúdo. Esta disponível em |Hgarrmission:DBM:forums|h|cff3588ffdeadlybossmods.com|r. Está mensagem só será exibida uma vez."
 
 L.COMBAT_STARTED					= "%s na mira. Boa sorte e divirta-se! :)"
 
@@ -77,6 +77,7 @@ L.MOD_DEFAULT_LOADED				= "Foram carregadas opções padrão para esta luta."
 
 L.WORLDBOSS_ENGAGED					= "%s foi possivelmente puxado no seu reino %s por cento de vida. (Enviado por %s)"
 L.WORLDBOSS_DEFEATED				= "%s foi possivelmente derrotado no seu reino (Enviado por %s)."
+L.WORLDBUFF_STARTED					= "%s buff começou em seu reino para a facção da %s (Enviado por %s)."
 
 L.TIMER_FORMAT_SECS					= "%.2f |4segundo:segundos;"
 L.TIMER_FORMAT_MINS					= "%d |4minuto:minutos;"
@@ -145,7 +146,7 @@ L.UPDATEREMINDER_NOTAGAIN			= "Exibir pop-up quando houver uma nova versão disp
 
 L.MOVABLE_BAR						= "Arraste-me!"
 
-L.PIZZA_SYNC_INFO					= "|Hplayer:%1$s|h[%1$s]|h te enviou um cronógrafo do DBM: '%2$s'\n|HDBM:cancel:%2$s:nil|h|cff3588ff[Cancelar esse cronógrafo]|r|h  |HDBM:ignore:%2$s:%1$s|h|cff3588ff[Ignorar cronógrafos de %1$s]|r|h"
+L.PIZZA_SYNC_INFO					= "|Hplayer:%1$s|h[%1$s]|h te enviou um cronógrafo do DBM: '%2$s'\n|Hgarrmission:DBM:cancel:%2$s:nil|h|cff3588ff[Cancelar esse cronógrafo]|r|h  |Hgarrmission:DBM:ignore:%2$s:%1$s|h|cff3588ff[Ignorar cronógrafos de %1$s]|r|h"
 L.PIZZA_CONFIRM_IGNORE				= "Você tem certeza de que realmente deseja ignorar cronógrafos de %s até o fim desta sessão?"
 L.PIZZA_ERROR_USAGE					= "Uso: /dbm [broadcast] timer <tempo> <texto>"
 
@@ -190,8 +191,7 @@ L.SLASHCMD_HELP2					= {
 	"/dbm version: Realiza uma checagem de versão de toda a raid. (ou: ver).",
 	"/dbm version2: Realiza uma checagem de versão de toda a raid e sussurra para avisando os membros que estão desatualizados (alias: ver2).",
 	"/dbm break <min>: Inicia um cronógrafo de intervalo de <min> minutos. Dá a todos os integrantes da raid um cronógrafo de intervalo (requer status de líder/guia).",
-	"/dbm pull <seg>: Dispara um cronógrafo para iniciar a luta em <seg> segundos. Dá a todos os integrantes da raid um cronógrafo para iniciar a luta (requer status de líder/guia).",
-	"/dbm lockout: Pergunta a todos os membros da raid, por seus vínculos de raid (ou: lockouts, ids) (requer status de líder/guia).."
+	"/dbm pull <seg>: Dispara um cronógrafo para iniciar a luta em <seg> segundos. Dá a todos os integrantes da raid um cronógrafo para iniciar a luta (requer status de líder/guia)."
 }
 --Translate all of these
 L.TIMER_USAGE						= {
@@ -206,13 +206,6 @@ L.ERROR_NO_PERMISSION				= "Você não tem as permissões necessárias para faze
 
 L.ALLIANCE							= "Aliança"
 L.HORDE								= "Horda"
-
-L.UNKNOWN							= "desconhecido"
-L.LEFT								= "Esquerda"
-L.RIGHT								= "Direita"
-L.BACK								= "Atrás"
-L.FRONT								= "A frente"
-L.INTERMISSION						= "Intermissão"--No blizz global for this, and will probably be used in most end tier fights with intermission phases
 
 L.BREAK_START						= "Intervalo começando agora -- você tem %s!"
 L.BREAK_MIN							= "Intervalo encerra-se em %s minuto(s)!"
@@ -255,7 +248,7 @@ L.AUTO_TIMER_OPTIONS.achievement	= "Exibir cronógrafo para %s"
 L.AUTO_ANNOUNCE_TEXTS.target		= "%s em >%%s<"
 L.AUTO_ANNOUNCE_TEXTS.targetcount	= "%s (%%s) em >%%s<"
 L.AUTO_ANNOUNCE_TEXTS.spell			= "%s"
-L.AUTO_ANNOUNCE_TEXTS.adds			= "%s restantes: %%d"
+L.AUTO_ANNOUNCE_TEXTS.addsleft		= "%s restantes: %%d"
 L.AUTO_ANNOUNCE_TEXTS.cast			= "Lançando %s: %.1f seg"
 L.AUTO_ANNOUNCE_TEXTS.soon			= "%s em breve"
 L.AUTO_ANNOUNCE_TEXTS.prewarn		= "%s em %s"
@@ -268,7 +261,7 @@ local prewarnOption					= "Exibir aviso antecipado para $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.target		= "Anunciar alvos de $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.targetcount	= "Anunciar alvos de $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.spell		= "Exibir aviso para $spell:%s"
-L.AUTO_ANNOUNCE_OPTIONS.adds		= "Announce how many $spell:%s remain"
+L.AUTO_ANNOUNCE_OPTIONS.addsleft	= "Announce how many $spell:%s remain"
 L.AUTO_ANNOUNCE_OPTIONS.cast		= "Exibir aviso quando $spell:%s está sendo lançado"
 L.AUTO_ANNOUNCE_OPTIONS.soon		= prewarnOption
 L.AUTO_ANNOUNCE_OPTIONS.prewarn		= prewarnOption
@@ -312,8 +305,8 @@ L.AUTO_SPEC_WARN_TEXTS.switch		= "%s - mude de alvo"
 L.AUTO_SPEC_WARN_TEXTS.switchcount	= "%s - mude de alvo (%%s)"
 
 
-L.AUTO_ICONS_OPTION_TEXT			= "Colocar ícones nos alvos de $spell:%s"
-L.AUTO_ICONS_OPTION_TEXT2			= "Set icons on $spell:%s"
+L.AUTO_ICONS_OPTION_TARGETS			= "Colocar ícones nos alvos de $spell:%s"
+L.AUTO_ICONS_OPTION_NPCS			= "Set icons on $spell:%s"
 L.AUTO_YELL_OPTION_TEXT.yell		= "Gritar quando você é afetado por $spell:%s"
 L.AUTO_YELL_ANNOUNCE_TEXT.yell		= "%s em " .. UnitName("player") .. "!"
 
@@ -335,18 +328,30 @@ L.ARROW_ERROR_USAGE					= {
 }
 
 L.SPEED_KILL_TIMER_TEXT				= "Vitória em tempo recorde"
+L.SPEED_CLEAR_TIMER_TEXT			= "Limpeza mais rápida"
+L.COMBAT_RES_TIMER_TEXT				= "Próxima recarga CR"
+L.TIMER_RESPAWN						= "%s Respawn"
 
-L.REQ_INSTANCE_ID_PERMISSION		= "%s solicitou suas IDs de instância e progresso atuais.\nVocê deseja enviar essa informação para %s? Ele(a) poderá requisitar essa informação durante a sessão atual (i. e. até que você reconecte)."
-L.ERROR_NO_RAID						= "Você precisa estar em um grupo de raide para utilizar essa funcionalidade."
-L.INSTANCE_INFO_REQUESTED			= "Enviadas requisições de vínculos de raid para o grupo.\nPor favor, note que a permissão dos usuários será solicitada antes de os dados serem enviados para você, portanto pode levar um minuto para que você receba todas as respostas."
-L.INSTANCE_INFO_STATUS_UPDATE		= "Recebidas respostas de %d jogadores de um total de %d usuários do DBM: %d enviaram os dados, %d negaram a solicitação. Esperando mais %d segundos pelas respostas restantes..."
-L.INSTANCE_INFO_ALL_RESPONSES		= "Recebidas respostas de tosos os membros da raid"
-L.INSTANCE_INFO_DETAIL_DEBUG		= "Sender: %s ResultType: %s InstanceName: %s InstanceID: %s Difficulty: %d Size: %d Progress: %s"
-L.INSTANCE_INFO_DETAIL_HEADER		= "%s, dificuldade %s:"
-L.INSTANCE_INFO_DETAIL_INSTANCE		= "    ID %s, progresso %d: %s"
-L.INSTANCE_INFO_DETAIL_INSTANCE2	= "    progresso %d: %s"
-L.INSTANCE_INFO_STATS_DENIED		= "Negou a solicitação: %s"
-L.INSTANCE_INFO_STATS_AWAY			= "Ausente: %s"
-L.INSTANCE_INFO_STATS_NO_RESPONSE	= "Não possui uma versão recente do DBM instalada: %s"
-L.INSTANCE_INFO_RESULTS				= "Resultados da busca por  IDs de raid. Note que instâncias podem aparecer mais de uma vez, se houver jogadores com clientes de WoW em outra língua."
-L.INSTANCE_INFO_SHOW_RESULTS		= "Jogadores que ainda não responderam: %s\n|HDBM:showRaidIdResults|h|cff3588ff[Exibir resultados agora]|r|h"
+L.LAG_CHECKING						= "Verificando a latência da raide..."
+L.LAG_HEADER						= L.DEADLY_BOSS_MODS .. " - Resultados de latência"
+L.LAG_ENTRY							= "%s: Latência mundial [%d ms] / Latência em casa [%d ms]"
+L.LAG_FOOTER						= "Sem resposta: %s"
+
+L.DUR_CHECKING						= "Verificando a durabilidade da raide..."
+L.DUR_HEADER						= L.DEADLY_BOSS_MODS .. " - Resultados de durabilidade"
+L.DUR_ENTRY							= "%s: Durabilidade [%d percent] / quebrada [%s]"
+L.LAG_FOOTER						= "Sem resposta: %s"
+
+--LDB
+L.LDB_TOOLTIP_HELP1					= "Clique para abrir " .. L.DBM
+L.LDB_TOOLTIP_HELP2					= "Alt-clique para alternar o modo silencioso"
+L.SILENTMODE_IS						= "Modo silencioso é "
+
+L.WORLD_BUFFS.hordeOny		= "Povo da Horda, cidadãos de Orgrimmar, venham! Vamos homenagear uma heroína da Horda"
+L.WORLD_BUFFS.allianceOny	= "Cidadãos e aliados de Ventobravo, no dia de hoje, fez-se história."
+L.WORLD_BUFFS.hordeNef		= "NEFARIAN ESTÁ MORTO! Povo de Orgrimmar"
+L.WORLD_BUFFS.allianceNef	= "Cidadãos da Aliança, o Senhor da Rocha Negra foi derrubado!"
+L.WORLD_BUFFS.zgHeart		= "Agora só falta um passo para nos livrarmos do Esfolador de Almas"
+L.WORLD_BUFFS.zgHeartBooty	= "O Deus Sanguinário, o Esfolador de Almas, foi derrotado! Acabaram-se os nossos temores!"
+L.WORLD_BUFFS.zgHeartYojamba	= "Iniciem o ritual, meus servos. Temos que banir o coração de Hakkar de volta para o vórtice!"
+L.WORLD_BUFFS.rendHead		= "O falso Chefe Guerreiro, Laceral Mão Negra, caiu!"

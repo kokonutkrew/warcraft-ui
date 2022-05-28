@@ -1,9 +1,10 @@
 local addon = FGI
 
 addon.lib = LibStub("AceAddon-3.0"):NewAddon("FastGuildInvite")
+addon.lib.WagoAnalytics = LibStub("WagoAnalytics"):Register("kRNLQ46o")
 LibStub("AceEvent-3.0"):Embed(addon.lib)
 local GUI = LibStub("AceGUI-3.0")
-GUI:RegisterLayout("NIL", function(content, children)  end)
+GUI:RegisterLayout("NIL", function()  end)
 
 addon.DB = {}
 addon.ruReg = "[%aабвгдеёжзийклмнопрстуфхцчшщъьыэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЫЭЮЯ'%s]"
@@ -15,6 +16,7 @@ addon.playerInfo = {
 	faction = UnitFactionGroup('player') == "Horde" and 2 or 1
 }
 addon.version = GetAddOnMetadata('FastGuildInvite', 'Version')
+addon.gversion = GetAddOnMetadata('FastGuildInvite', 'X-Interface')
 addon.versionN = tonumber(GetAddOnMetadata('FastGuildInvite', 'Version')) or 0
 addon.whoQueryList = {}
 addon.color = {

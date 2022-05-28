@@ -1,0 +1,13 @@
+Mute Premade Groups Alerts
+==========================
+
+Mutes the sound that plays for new applicants.
+
+
+The eye's glow effect still plays.
+
+
+Useful if you want to play with sound effects on, but don't want to be bothered by the group finder's alerts.
+
+
+There are no options for this AddOn.

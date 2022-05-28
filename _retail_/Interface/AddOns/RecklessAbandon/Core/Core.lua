@@ -50,9 +50,19 @@ E.wowpatch, E.wowbuild = GetBuildInfo()
 E.wowbuild = tonumber(E.wowbuild)
 E.isMacClient = IsMacClient()
 E.IsRetail = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
+E.isClassic = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
+E.isBCC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC or 5
+E.validVersion = WOW_PROJECT_BURNING_CRUSADE_CLASSIC
 E.screenwidth, E.screenheight = GetPhysicalScreenSize()
 E.resolution = format("%dx%d", E.screenwidth, E.screenheight)
+E.wowVersionMatrix = {
+	[WOW_PROJECT_MAINLINE] = "Retail",
+	[WOW_PROJECT_CLASSIC] = "Classic Era",
+	[WOW_PROJECT_BURNING_CRUSADE_CLASSIC or 5] = "Burning Crusade Classic"
+}
 
+local abandonTooltipFormat = "|cFFFFFAB8%s|r\n\n|cFFFFF569%s|r\n|cFFB5FFEB%s|r"
+local groupAbandonTooltipFormat = "|cFFFFFAB8%s|r\n\n|cFFFFF569%s|r"
 local questGroupsByName = {}
 -- TODO: We might want to create custom textures for each type
 local questButtonPool = CreateFramePool("Button", QuestMapFrame.QuestsFrame, "RECKLESS_ABANDON_BUTTON")
@@ -77,11 +87,11 @@ local QuestTitleFromID =
 )
 
 StaticPopupDialogs["RECKLESS_ABANDON_GROUP_CONFIRMATION"] = {
-	text = L["Are you sure you want to abandon all quests in %s? This cannot be undone."],
+	text = L["Are you sure you want to abandon all quests in |cFFF2E699%s|r?\n\n|cFFFF6B6BThis cannot be undone.|r"],
 	button1 = L["Yes"],
 	button2 = L["No"],
 	OnAccept = function(self, quests)
-		E:AbandonQuests(quests)
+		E:AbandonZoneQuests(quests)
 	end,
 	timeout = 0,
 	whileDead = true,
@@ -90,11 +100,11 @@ StaticPopupDialogs["RECKLESS_ABANDON_GROUP_CONFIRMATION"] = {
 }
 
 StaticPopupDialogs["RECKLESS_ABANDON_CONFIRMATION"] = {
-	text = L["Are you sure you want to abandon %s?. This cannot be undone."],
+	text = L["Are you sure you want to abandon |cFFF2E699%s|r?\n\n|cFFFF6B6BThis cannot be undone.|r"],
 	button1 = L["Yes"],
 	button2 = L["No"],
 	OnAccept = function(self, data)
-		E:AbandonQuest(data.questId)
+		E:AbandonQuest(data.questId, true)
 	end,
 	timeout = 0,
 	whileDead = true,
@@ -103,11 +113,24 @@ StaticPopupDialogs["RECKLESS_ABANDON_CONFIRMATION"] = {
 }
 
 StaticPopupDialogs["RECKLESS_ABANDON_ALL_CONFIRMATION"] = {
-	text = L["Are you sure you want to abandon all of the quests in your questlog? This cannot be undone."],
+	text = L["Are you sure you want to abandon all of the quests in your questlog?\n\n|cFFFF6B6BThis cannot be undone.|r"],
 	button1 = L["Yes"],
 	button2 = L["No"],
 	OnAccept = function(self, data)
 		E:AbandonAllQuests()
+	end,
+	timeout = 0,
+	whileDead = true,
+	hideOnEscape = true,
+	preferredIndex = 3
+}
+
+StaticPopupDialogs["RECKLESS_QUALIFIER_ABANDON_CONFIRMATION"] = {
+	text = L["Are you sure you want to abandon the following %s quests?\n\n|cFFF2E699%s|r\n\n|cFFFF6B6BThis cannot be undone.|r"],
+	button1 = L["Yes"],
+	button2 = L["No"],
+	OnAccept = function(self, data)
+		E:AbandonQuests(data.questIds)
 	end,
 	timeout = 0,
 	whileDead = true,
@@ -123,7 +146,7 @@ end
 
 local function RenderAbandonButton(parent, offset, questId, excluded, title, tooltip)
 	title = title or parent:GetText()
-	tooltip = tooltip or title .. "\n\n" .. L["Left Click: Abandon quest"] .. "\n" .. (excluded and L["Right Click: Include quest in group abandons"] or L["Right Click: Exclude quest from group abandons"])
+	tooltip = tooltip or format(abandonTooltipFormat, title, L["Left Click: Abandon quest"], (excluded and L["Right Click: Include quest in group abandons"] or L["Right Click: Exclude quest from group abandons"]))
 
 	local button = questButtonPool:Acquire()
 	local texture = button:GetNormalTexture()
@@ -148,7 +171,7 @@ end
 
 local function RenderGroupAbandonButton(parent, offset, title, tooltip, key)
 	title = title or parent:GetText()
-	tooltip = tooltip or format(L["Left Click: Abandon all '%s' quests"], title)
+	tooltip = tooltip or format(groupAbandonTooltipFormat, title, L["Left Click: Abandon all quests"], title)
 	key = key or getKey(title)
 
 	if questGroupsByName[key] then
@@ -172,13 +195,13 @@ local function ShowAbandonButtons()
 	questButtonPool:ReleaseAll()
 	groupButtonPool:ReleaseAll()
 
-	if (E.db.general.campaignQuests.showAbandonButton) then
+	if E.db.general.campaignQuests.showAbandonButton then
 		for header in QuestScrollFrame.campaignHeaderFramePool:EnumerateActive() do
 			RenderGroupAbandonButton(header.LoreButton, -25, header.Text:GetText())
 		end
 	end
 
-	if (E.db.general.covenantCallings.showAbandonButton) then
+	if E.db.general.covenantCallings.showAbandonButton then
 		for calling in QuestScrollFrame.covenantCallingsHeaderFramePool:EnumerateActive() do
 			local info = C_QuestLog.GetInfo(calling.questLogIndex)
 			if info then
@@ -189,13 +212,13 @@ local function ShowAbandonButtons()
 		end
 	end
 
-	if (E.db.general.zoneQuests.showAbandonButton) then
+	if E.db.general.zoneQuests.showAbandonButton then
 		for header in QuestScrollFrame.headerFramePool:EnumerateActive() do
 			RenderGroupAbandonButton(header, QuestScrollFrame:GetWidth() - 25)
 		end
 	end
 
-	if (E.db.general.individualQuests.showAbandonButton) then
+	if E.db.general.individualQuests.showAbandonButton then
 		for quest in QuestScrollFrame.titleFramePool:EnumerateActive() do
 			local questId = quest.questID
 			local text = quest.Text:GetText()
@@ -211,8 +234,9 @@ local function HideAbandonButtons()
 end
 
 function onButtonEnter(self)
-	GameTooltip:SetOwner(self)
+	GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
 	GameTooltip:SetText(self.tooltip)
+	GameTooltip.NineSlice:SetBorderColor(255, 255, 255)
 	GameTooltip:Show()
 end
 
@@ -230,7 +254,7 @@ function onAbandonButtonClick(self, button)
 				}
 			end
 		else
-			E:AbandonQuest(self.questId)
+			E:AbandonQuest(self.questId, true)
 		end
 	elseif button == "RightButton" then
 		local texture = self:GetNormalTexture()
@@ -239,11 +263,11 @@ function onAbandonButtonClick(self, button)
 		if excluded then
 			E:IncludeQuest(self.questId)
 			texture:SetVertexColor(1, 1, 1, 1)
-			self.tooltip = self.title .. "\n\n" .. L["Left Click: Abandon quest"] .. "\n" .. L["Right Click: Exclude quest from group abandons"]
+			self.tooltip = format(abandonTooltipFormat, self.title, L["Left Click: Abandon quest"], L["Right Click: Exclude quest from group abandons"])
 		else
 			E:ExcludeQuest(self.questId)
 			texture:SetVertexColor(0.5, 0.5, 1, 0.7)
-			self.tooltip = self.title .. "\n\n" .. L["Left Click: Abandon quest"] .. "\n" .. L["Right Click: Include quest in group abandons"]
+			self.tooltip = format(abandonTooltipFormat, self.title, L["Left Click: Abandon quest"], L["Right Click: Include quest in group abandons"])
 		end
 
 		self:SetNormalTexture(texture)
@@ -258,7 +282,7 @@ function onGroupAbandonButtonClick(self, button)
 				dialog.data = self.key
 			end
 		else
-			E:AbandonQuests(self.key)
+			E:AbandonZoneQuests(self.key)
 		end
 	end
 end
@@ -281,10 +305,34 @@ function E:Print(...)
 	print(strjoin("", E.title, ": ", ...))
 end
 
+function E:Critical(...)
+	print(strjoin("", E.title, format("|cFFFF6B6B: %s|r", ...)))
+end
+
+-- TODO Investigate having multiple debug levels
 function E:Debug(...)
-	if (self.db.debugging.debugLogging) then
+	if self.db.debugging.debugLogging then
 		print(strjoin("", format(L["|cffffcc00%s Debug:|r"], E.title), " ", ...))
 	end
+end
+
+function E:UpdatePlayerLevel(level)
+	self:Debug(format("%s leveled up (%d -> %d)!", E.myname, E.mylevel, level))
+	E.mylevel = level
+end
+
+function E:GetAvailableQualifiers()
+	local qualifiers = {
+		[L["daily"]] = L["Matches all daily quests."],
+		[L["weekly"]] = L["Matches all weekly quests."],
+		[L["green"]] = L["Matches all green quests."],
+		[L["yellow"]] = L["Matches all yellow quests."],
+		[L["orange"]] = L["Matches all orange quests."],
+		[L["red"]] = L["Matches all red quests."],
+		[L["gray"]] = L["Matches all gray quests."]
+	}
+
+	return qualifiers
 end
 
 function E:GenerateQuestTable()
@@ -303,7 +351,7 @@ function E:GenerateQuestTable()
 
 	for i = 1, C_QuestLog.GetNumQuestLogEntries() do
 		local info = C_QuestLog.GetInfo(i)
-		if info.isHeader then
+		if info.isHeader then -- ! caused an issue, info undefined
 			currentGroup = {
 				title = info.title,
 				hidden = true,
@@ -316,8 +364,8 @@ function E:GenerateQuestTable()
 		end
 	end
 
-	self:Debug(self:Dump(questGroupsByName))
-	self:Debug(self:Dump(self.private.exclusions.excludedQuests))
+	self:Debug("Quest Table: " .. self:Dump(questGroupsByName))
+	self:Debug("Excluded Quests: " .. self:Dump(self.private.exclusions.excludedQuests))
 end
 
 function E:AbandonAllQuests()
@@ -325,24 +373,16 @@ function E:AbandonAllQuests()
 		local info = C_QuestLog.GetInfo(i)
 		local questId = info.questID
 
-		if (not info.isHeader) then
-			if (not self.private.exclusions.excludedQuests[questId]) then
-				self:AbandonQuest(questId)
-			else
-				self:Print(format(L["Skipping %s since it is excluded from group abandons"], GetQuestLink(questId)))
-			end
+		if not info.isHeader and not info.isHidden then
+			self:AbandonQuest(questID)
 		end
 	end
 end
 
-function E:AbandonQuests(key)
+function E:AbandonZoneQuests(key)
 	local group = questGroupsByName[key] or {}
 	for questId, _ in pairs(group.quests or {}) do
-		if (not self.private.exclusions.excludedQuests[questId]) then
-			self:AbandonQuest(questId)
-		else
-			self:Print(format(L["Skipping %s since it is excluded from group abandons"], GetQuestLink(questId)))
-		end
+		self:AbandonQuest(questId)
 	end
 
 	if self:IsEmpty(group.quests) then
@@ -350,18 +390,28 @@ function E:AbandonQuests(key)
 	end
 end
 
-function E:AbandonQuest(questId)
-	if C_QuestLog.CanAbandonQuest(questId) then
-		C_QuestLog.SetSelectedQuest(questId)
-		C_QuestLog.SetAbandonQuest()
-		C_QuestLog.AbandonQuest()
-		self:Print(format(L["|cFFFFFF00Abandoned quest %s|r"], GetQuestLink(questId)))
+function E:AbandonQuests(questIds)
+	for _, questId in ipairs(questIds) do
+		self:AbandonQuest(questId)
+	end
+end
 
-		if E.private.exclusions.autoPrune and self:IsExcluded(questId) then
-			self:PruneQuestExclusion(questId)
+function E:AbandonQuest(questId, exclusionBypass)
+	if exclusionBypass or not self.private.exclusions.excludedQuests[questId] then
+		if C_QuestLog.CanAbandonQuest(questId) then
+			C_QuestLog.SetSelectedQuest(questId)
+			C_QuestLog.SetAbandonQuest()
+			C_QuestLog.AbandonQuest()
+			self:Print(format(L["|cFFFFFF00Abandoned quest %s|r"], GetQuestLink(questId)))
+
+			if E.private.exclusions.autoPrune and self:IsExcluded(questId) then
+				self:PruneQuestExclusion(questId)
+			end
+		else
+			self:Print(format(L["|cFFFFFF00You can't abandon %s|r"], GetQuestLink(questId)))
 		end
 	else
-		self:Print(format(L["|cFFFFFF00You can't abandon %s|r"], GetQuestLink(questId)))
+		self:Print(format(L["Skipping %s since it is excluded from group abandons"], GetQuestLink(questId)))
 	end
 end
 
@@ -390,9 +440,9 @@ function E:CanQuestGroupAbandon(quests)
 end
 
 function E:PruneQuestExclusion(questId)
-	local title = E.private.exclusions.excludedQuests[questId]
-	E.private.exclusions.excludedQuests[questId] = nil
+	local title = E.private.exclusions.excludedQuests[tonumber(questId)]
 	self:Print(format(L["Pruning '%s' from the exclusion list"], title))
+	E.private.exclusions.excludedQuests[tonumber(questId)] = nil
 end
 
 function E:ClearQuestExclusions()
@@ -417,6 +467,38 @@ function E:PruneQuestExclusions()
 	end
 
 	self:Print(format(L["Pruned %s |4orphan:orphans;!"], count))
+end
+
+----------------------------------------------------------------
+----------------------- Commands -------------------------------
+----------------------------------------------------------------
+
+function E:CliToggleDebugging()
+	self.db.debugging.debugLogging = not self.db.debugging.debugLogging
+	self:Print(self.db.debugging.debugLogging and L["Debugging is now on."] or L["Debugging is now off."])
+end
+
+function E:CliListAllQuests()
+	if self.db.commands.listAll then
+		self:Print("-------------------------------------------")
+		self:Print(L["|cFFFF9C00<Zone Header>|r"])
+		self:Print(L["    |cFFF2E699<Title>|r - |cFFB5FFEB<QuestID>|r"])
+		self:Print("-------------------------------------------")
+		for i = 1, C_QuestLog.GetNumQuestLogEntries() do
+			local info = C_QuestLog.GetInfo(i)
+			-- * Some quest headers still exist in your quest log, but have no children and are not hidden
+			-- * These are usually event quests that trigger when entering the zone
+			-- * These will still be printed, but without any quests underneath them
+			-- * It might be possible to filter these out by checking for two consecutive headers
+			if not info.isHidden then
+				if info.isHeader then
+					self:Print("|cFFFF9C00" .. info.title .. "|r")
+				else
+					self:Print("    |cFFF2E699" .. info.title .. "|r" .. " - " .. "|cFFB5FFEB" .. info.questID .. "|r")
+				end
+			end
+		end
+	end
 end
 
 function E:CliAbandonAllQuests()
@@ -448,6 +530,58 @@ function E:CliAbandonQuestById(questId)
 			end
 		else
 			self:Print(format(L["Unable to abandon quest, '%s' is not recognized. Either the quest is not in your quest log, or you may have entered the wrong id."], questId))
+		end
+	else
+		self:Print(L["Abandoning quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r"])
+	end
+end
+
+function E:CliAbandonByQualifier(qualifier)
+	local qualifiers = self:GetAvailableQualifiers()
+
+	self:Debug(format(L["Abandon invoked with qualifier '%s'"], qualifier))
+	self:Debug(format(L["Available Qualifiers:%s"], self:Tabulate(qualifiers, " %s")))
+
+	if self.db.commands.abandonByQualifier then
+		local questIds = {}
+		local questTitles = {}
+		for i = 1, C_QuestLog.GetNumQuestLogEntries() do
+			local info = C_QuestLog.GetInfo(i)
+
+			if not info.isHeader and not info.isHidden then
+				local levelDiff = info.level - E.mylevel
+				local color
+				if levelDiff >= 5 then
+					color = L["red"]
+				elseif levelDiff >= 3 then
+					color = L["orange"]
+				elseif levelDiff >= -2 then
+					color = L["yellow"]
+				elseif -levelDiff <= UnitQuestTrivialLevelRange("player") then
+					color = L["green"]
+				else
+					color = L["gray"]
+				end
+
+				local isDaily = qualifier == L["daily"] and info.frequency == 1
+				local isWeekly = qualifier == L["weekly"] and info.frequency == 2
+
+				if (qualifier == color or isDaily or isWeekly) and qualifiers[qualifier] ~= nil then
+					tinsert(questIds, info.questID)
+					tinsert(questTitles, info.title)
+				end
+			end
+		end
+
+		if #questIds > 0 then
+			local dialog = StaticPopup_Show("RECKLESS_QUALIFIER_ABANDON_CONFIRMATION", qualifier, table.concat(questTitles, "\n"))
+			if dialog then
+				dialog.data = {
+					questIds = questIds
+				}
+			end
+		else
+			self:Print(format(L["|cFF808080There are no quests that match the qualifier '%s'.|r"], qualifier))
 		end
 	else
 		self:Print(L["Abandoning quests from the command line is currently |cFFFF6B6Bdisabled|r. You can enable it in the configuration settings |cff888888/reckless config|r"])
@@ -491,6 +625,10 @@ end
 function E:PrintWelcomeMessage()
 	if self.db.general.loginMessage then
 		self:Print(format(L["You are running |cFFB5FFEBv%s|r. Type |cff888888/reckless config|r to configure settings."], E.version))
+	end
+
+	if not WOW_PROJECT_ID == E.validVersion then
+		self:Critical(format(L["You have installed a version of this addon intended for |cFFFFFAB8%s|r, however you are currently playing |cFFFFFAB8%s|r. You may encounter serious issues with this setup. Please install the proper version from Github, CurseForge, or WoWInterface, and restart the game."], E.wowVersionMatrix[E.validVersion], E.wowVersionMatrix[WOW_PROJECT_ID]))
 	end
 end
 

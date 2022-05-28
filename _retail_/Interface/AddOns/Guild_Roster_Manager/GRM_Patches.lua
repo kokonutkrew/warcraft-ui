@@ -895,10 +895,10 @@ GRM_Patch.SettingsCheck = function ( numericV , count , patch )
         end
     end
 
-    if numericV < 1.928 and baseValue < 1.928 then
+    if numericV < 1.929 and baseValue < 1.929 then
         GRM_Patch.ModifyMemberData ( GRM_Patch.fixAltGroups , true , false , true );
 
-        if loopCheck ( 1.928 ) then
+        if loopCheck ( 1.929 ) then
             return;
         end
     end
@@ -5345,21 +5345,24 @@ end
 -- What it Does:    Changes the safeList from a strictly boolean value, for kicks, and adds an array so individual settings can be made for each of the macro tool types
 -- Purpose:         Expand customizability and flexibility for players with the macro tool settings and use
 GRM_Patch.UpdateSafeListValue = function ( player )
-    local currentValue;
+    local currentValue = false;
+    local count = 0;
 
-    if type( player.safeList ) == "boolean" then
-        currentValue = player.safeList;
-    elseif type ( player.safeList.kick[1] ) == "boolean" then
-        currentValue = player.safeList.kick[1]
-    else
-        currentValue = false;
+    if player.safeList then
+        if type ( player.safeList ) == "boolean" then
+            currentValue = player.safeList;
+        elseif player.safeList.kick and player.safeList.kick[1] ~= nil and type ( player.safeList.kick[1] ) == "boolean" then
+            currentValue = player.safeList.kick[1]
+        else
+            currentValue = false;
+        end
     end
 
     player.safeList = {};
     player.safeList.kick = { currentValue , false , 0 , 0 };    -- IsEnabled , isExpireEnabled, how many days, EpochTimeOfExpiration
     player.safeList.promote = { false , false , 0 , 0 };
     player.safeList.demote = { false , false , 0 , 0 };
-
+    
     return player;
 end
 

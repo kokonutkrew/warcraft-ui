@@ -12,7 +12,9 @@ L["Profiles"] = "Profiles"
 L["About"] = "Info"
 L["SpyDescription1"] = [[
 Spy is an addon that will alert you to the presence of nearby enemy players. These are some of the main features.
+
 ]]
+
 L["SpyDescription2"] = [[
 |cffffd000Nearby list|cffffffff
 Displays enemy players that have been detected nearby. Players are removed from the list if they have not been detected after a period of time.
@@ -24,10 +26,11 @@ Displays all enemies that have been detected in the last hour.
 Players that are added to the Ignore list will not be reported by Spy. You can add and remove players to/from this list by using the button's drop down menu or by holding the Control key while clicking the button.
 
 |cffffd000Kill On Sight list|cffffffff
-Players on your Kill On Sight list cause an alarm to sound when detected. You can add and remove players to/from this list by using the button's drop down menu or by holding the Shift key while clicking the button.
+Players on your Kill On Sight list cause an alarm to sound when detected. You can add and remove players to/from this list by using the button's drop down menu or by holding the Shift key while clicking the button. The drop down menu can also be used to set the reasons why you have added someone to the Kill On Sight list. If you want to enter a specific reason that is not in the list, then use the "Enter your own reason..." in the Other list.
 
-The drop down menu can also be used to set the reasons why you have added someone to the Kill On Sight list. If you want to enter a specific reason that is not in the list, then use the "Enter your own reason..." in the Other list.
+]]
 
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons. 
 
@@ -72,6 +75,8 @@ L["Silithus"] = "Silitus"
 L["Chamber of Heart"] = "Sala del Cuore"
 L["Hall of Ancient Paths"] = "Sala dei Percorsi Antichi"
 L["Sanctum of the Sages"] = "Santuario dei Saggi"
+L["Rustbolt"] = "Bullonaccio"
+L["Oribos"] = "Oribos"
 
 -- Display
 L["DisplayOptions"] = "Display"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "Only displays detected enemies on the map 
 -- Data Management
 L["DataOptions"] = "Data Management"
 L["DataOptionsDescription"] = [[
+
 Options on how Spy maintains and gathers data.
 ]]
 L["PurgeData"] = "Purge undetected enemy player data after:"
@@ -286,6 +292,7 @@ L["Time"] = "Time"
 L["List"] = "List"
 L["Filter"] = "Filter"
 L["Show Only"] = "Show Only"
+L["Realm"] = "Realm"
 L["KOS"] = "KOS"
 L["Won/Lost"] = "Won/Lost"
 L["Reason"] = "Reason"	 

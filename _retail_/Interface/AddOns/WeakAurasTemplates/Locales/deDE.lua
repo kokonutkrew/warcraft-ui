@@ -1,14 +1,13 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsCorrectVersion() or not WeakAuras.IsLibsOK() then return end
 
-if not(GetLocale() == "deDE") then
+if GetLocale() ~= "deDE" then
   return
 end
 
 local L = WeakAuras.L
 
 -- WeakAuras/Templates
-	--[[Translation missing --]]
-	L[" Debuff"] = " Debuff"
+	L[" Debuff"] = "Schwächungzauber"
 	--[[Translation missing --]]
 	L["<70% Mana"] = "<70% Mana"
 	--[[Translation missing --]]
@@ -18,10 +17,8 @@ local L = WeakAuras.L
 	L["Add Triggers"] = "Auslöser hinzufügen"
 	L["Always Active"] = "Immer aktiv"
 	L["Always Show"] = "Immer anzeigen"
-	--[[Translation missing --]]
-	L["Always show the aura, highlight it if debuffed."] = "Always show the aura, highlight it if debuffed."
-	--[[Translation missing --]]
-	L["Always show the aura, turns grey if on cooldown."] = "Always show the aura, turns grey if on cooldown."
+	L["Always show the aura, highlight it if debuffed."] = "Zeige immer die Aura, hebe sie hervor, wenn sie geschwächt ist."
+	L["Always show the aura, turns grey if on cooldown."] = "Aura immer anzeigen, wird Grau wenn es auf Abkühlen steht."
 	--[[Translation missing --]]
 	L["Always show the aura, turns grey if the debuff not active."] = "Always show the aura, turns grey if the debuff not active."
 	--[[Translation missing --]]
@@ -62,8 +59,7 @@ local L = WeakAuras.L
 	L["Bloodlust/Heroism"] = "Kampfrausch/Heldentum"
 	--[[Translation missing --]]
 	L["Bonded Buff"] = "Bonded Buff"
-	--[[Translation missing --]]
-	L["Buff"] = "Buff"
+	L["Buff"] = "Stärkungszauber"
 	L["buff"] = "buff"
 	--[[Translation missing --]]
 	L["Buff on Other"] = "Buff on Other"
@@ -90,19 +86,18 @@ local L = WeakAuras.L
 	--[[Translation missing --]]
 	L["Cooldown Tracking"] = "Cooldown Tracking"
 	L["Create Auras"] = "Auren erstellen"
-	--[[Translation missing --]]
-	L["Debuff"] = "Debuff"
-	--[[Translation missing --]]
-	L["debuff"] = "debuff"
+	L["Debuff"] = "Schwächungszauber"
+	L["debuff"] = "Schwächungszauber"
 	L["Debuffs"] = "Debuffs"
 	--[[Translation missing --]]
 	L["Empowered Buff"] = "Empowered Buff"
-	--[[Translation missing --]]
-	L["Fire"] = "Fire"
+	L["Fire"] = "Feuer"
 	--[[Translation missing --]]
 	L["Frost"] = "Frost"
 	L["General"] = "Allgemein"
 	L["Health"] = "Gesundheit"
+	--[[Translation missing --]]
+	L["Highlight while action is queued."] = "Highlight while action is queued."
 	--[[Translation missing --]]
 	L["Highlight while active, red when out of range."] = "Highlight while active, red when out of range."
 	--[[Translation missing --]]
@@ -119,6 +114,8 @@ local L = WeakAuras.L
 	L["Highlight while spell is active."] = "Highlight while spell is active."
 	--[[Translation missing --]]
 	L["Hold CTRL to create multiple auras at once"] = "Hold CTRL to create multiple auras at once"
+	--[[Translation missing --]]
+	L["Initial Buff"] = "Initial Buff"
 	L["Keeps existing triggers intact"] = "Verändert existierende Auslöser nicht"
 	--[[Translation missing --]]
 	L["Legendaries"] = "Legendaries"
@@ -145,6 +142,8 @@ local L = WeakAuras.L
 	L["Other cooldown"] = "Other cooldown"
 	L["Pet alive"] = "Begleiter am Leben"
 	L["Pet Behavior"] = "Begleiterverhalten"
+	--[[Translation missing --]]
+	L["Preparation"] = "Preparation"
 	L["PvP Talents"] = "PvP-Talente"
 	L["Replace all existing triggers"] = "Ersetzt alle vorhandenen Auslöser "
 	L["Replace Triggers"] = "Auslöser ersetzen"
@@ -152,8 +151,12 @@ local L = WeakAuras.L
 	L["Resources and Shapeshift Form"] = "Ressourcen und Gestaltwandlungsform"
 	--[[Translation missing --]]
 	L["Rogue cooldown"] = "Rogue cooldown"
+	--[[Translation missing --]]
+	L["Root"] = "Root"
 	L["Runes"] = "Runen"
 	L["Shapeshift Form"] = "Gestaltwandlungsform"
+	--[[Translation missing --]]
+	L["Shards Of Domination"] = "Shards Of Domination"
 	--[[Translation missing --]]
 	L["Show Always, Glow on Missing"] = "Show Always, Glow on Missing"
 	--[[Translation missing --]]
@@ -164,6 +167,8 @@ local L = WeakAuras.L
 	L["Show Charges with Range Tracking"] = "Show Charges with Range Tracking"
 	--[[Translation missing --]]
 	L["Show Charges with Usable Check"] = "Show Charges with Usable Check"
+	--[[Translation missing --]]
+	L["Show Cooldown and Action Queued"] = "Show Cooldown and Action Queued"
 	--[[Translation missing --]]
 	L["Show Cooldown and Buff"] = "Show Cooldown and Buff"
 	--[[Translation missing --]]
@@ -213,6 +218,8 @@ local L = WeakAuras.L
 	L["Slow"] = "Slow"
 	--[[Translation missing --]]
 	L["slow debuff"] = "slow debuff"
+	--[[Translation missing --]]
+	L["Sprint"] = "Sprint"
 	L["Stance"] = "Haltung"
 	--[[Translation missing --]]
 	L["stun debuff"] = "stun debuff"

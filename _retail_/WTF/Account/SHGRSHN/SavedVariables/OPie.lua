@@ -1,19 +1,24 @@
 
 OneRing_Config = {
-	["CharProfiles"] = {
-		["Emerald Dream-Samoansage-3"] = "KokonutKrew",
+	["CenterActions"] = {
+		["OPieAutoQuest"] = "OPieBundleQuest132120",
 	},
-	["_GameVersion"] = "9.0.5",
-	["_OPieVersion"] = "Xe 2a (3.104)",
+	["CharProfiles"] = {
+		["Emerald Dream-Herbcraft"] = "default",
+		["Emerald Dream-Samoansage-3"] = "KokonutKrew",
+		["Emerald Dream-Herbcraft-3"] = "KokonutKrew",
+	},
+	["_GameVersion"] = "9.2.0",
+	["_OPieVersion"] = "Xe 6 (3.106)",
 	["ProfileStorage"] = {
 		["default"] = {
 		},
 		["KokonutKrew"] = {
-			["CenterAction"] = true,
 			["RingAtMouse"] = true,
 			["Bindings"] = {
-				["KKOPie"] = "CTRL-SHIFT-SPACE",
+				["KKOpie2"] = "CTRL-SHIFT-SPACE",
 			},
+			["CenterAction"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -28,8 +33,8 @@ OneRing_Config = {
 					["id"] = 125439,
 				}, -- [2]
 				{
-					["id"] = 265225,
 					["sliceToken"] = "ABuel7WdE2wr",
+					["id"] = 265225,
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuel7WdE2we",
@@ -79,6 +84,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuel7WdE2X",
 				}, -- [13]
 				["name"] = "KK_OPie",
+				["save"] = true,
+			},
+			["KKOpie2"] = {
+				{
+					"forward.autorun", -- [1]
+					["sliceToken"] = "ABuex8IpXDe",
+				}, -- [1]
+				["name"] = "KK_Opie_2",
+				["onOpen"] = 1,
+				["hotkey"] = "CTRL-SHIFT-SPACE",
 				["save"] = true,
 			},
 			["OPieFlagStore"] = {

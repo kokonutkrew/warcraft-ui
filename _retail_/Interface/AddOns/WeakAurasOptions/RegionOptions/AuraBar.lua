@@ -1,4 +1,4 @@
-if not WeakAuras.IsCorrectVersion() then return end
+if not WeakAuras.IsCorrectVersion() or not WeakAuras.IsLibsOK() then return end
 local AddonName, OptionsPrivate = ...
 
 local SharedMedia = LibStub("LibSharedMedia-3.0");
@@ -184,12 +184,8 @@ local function createOptions(id, data)
       func = function()
         local path = {"displayIcon"}
         local paths = {}
-        if data.controlledChildren then
-          for i, childId in pairs(data.controlledChildren) do
-            paths[childId] = path
-          end
-        else
-          paths[data.id] = path
+        for child in OptionsPrivate.Private.TraverseLeafsOrAura(data) do
+          paths[child.id] = path
         end
         OptionsPrivate.OpenIconPicker(data, paths)
       end,
@@ -399,12 +395,32 @@ local function createOptions(id, data)
     }
     local index = 0.01
     for id, display in ipairs(overlayInfo) do
+      options["overlaytexture" .. id] = {
+        type = "select",
+        dialogControl = "LSM30_Statusbar",
+        width = WeakAuras.doubleWidth,
+        name = string.format(L["%s Texture"], display),
+        values = AceGUIWidgetLSMlists.statusbar,
+        order = 58.1 + index,
+        set = function(info, texture)
+          if (not data.overlaysTexture) then
+            data.overlaysTexture = {};
+          end
+          data.overlaysTexture[id] = texture;
+          WeakAuras.Add(data);
+        end,
+        get = function()
+          if data.overlaysTexture and data.overlaysTexture[id] then
+            return data.overlaysTexture[id]
+          end
+        end
+      }
       options["overlaycolor" .. id] = {
         type = "color",
         width = WeakAuras.normalWidth,
         name = string.format(L["%s Color"], display),
         hasAlpha = true,
-        order = 58 + index,
+        order = 58.2 + index,
         get = function()
           if (data.overlays and data.overlays[id]) then
             return unpack(data.overlays[id]);
@@ -426,7 +442,7 @@ local function createOptions(id, data)
       type = "toggle",
       width = WeakAuras.normalWidth,
       name = L["Clip Overlays"],
-      order = 58 + index;
+      order = 58.3 + index;
     }
 
   end
@@ -781,27 +797,5 @@ local function GetAnchors(data)
   return anchorPoints;
 end
 
-local function subCreateOptions(parentData, data, index, subIndex)
-  local order = 9
-  local options = {
-    __title = L["Foreground"],
-    __order = 1,
-    __up = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, OptionsPrivate.MoveSubRegionUp, index, "aurabar_bar")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
-    __down = function()
-      if (OptionsPrivate.Private.ApplyToDataOrChildData(parentData, OptionsPrivate.MoveSubRegionDown, index, "aurabar_bar")) then
-        WeakAuras.ClearAndUpdateOptions(parentData.id)
-      end
-    end,
-    __notcollapsable = true
-  }
-  return options
-end
-
 -- Register new region type options with WeakAuras
 WeakAuras.RegisterRegionOptions("aurabar", createOptions, createIcon, L["Progress Bar"], createThumbnail, modifyThumbnail, L["Shows a progress bar with name, timer, and icon"], templates, GetAnchors);
-
-WeakAuras.RegisterSubRegionOptions("aurabar_bar", subCreateOptions, L["Foreground"]);

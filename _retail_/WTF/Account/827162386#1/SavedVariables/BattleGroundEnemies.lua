@@ -1,0 +1,13 @@
+
+BattleGroundEnemiesDB = {
+	["profileKeys"] = {
+		["Saifuu - Emerald Dream"] = "Default",
+		["Moostasche - Emerald Dream"] = "Default",
+		["Waekk - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastReadVersion"] = "9.2.0.11",
+		},
+	},
+}

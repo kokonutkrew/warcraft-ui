@@ -85,7 +85,6 @@ function GSE.SetDefaultOptions()
     GSEOptions.autoCreateMacroStubsGlobal = false
     GSEOptions.resetOOC = true
     GSEOptions.DefaultDisabledMacroIcon = "Interface\\Icons\\INV_MISC_BOOK_08"
-    GSEOptions.AddInPacks = {}
     GSEOptions.CreateGlobalButtons = false
     GSEOptions.HideLoginMessage = false
     GSEOptions.DebugPrintModConditionsOnKeyPress = false
@@ -96,7 +95,7 @@ function GSE.SetDefaultOptions()
     GSEOptions.UseWLMExportFormat = true
     GSEOptions.PromptSample = true
     GSEOptions.useExternalMSTimings = true
-    GSEOptions.msClickRate = 100
+    GSEOptions.msClickRate = 250
     GSEOptions.showMiniMap = {
         hide = true
     }

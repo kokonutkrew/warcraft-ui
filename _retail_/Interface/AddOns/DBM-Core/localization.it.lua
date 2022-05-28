@@ -103,7 +103,6 @@ L.NOTESHAREERRORALREADYOPEN	= "Impossibile aprire il collegamento a una nota con
 L.ALLMOD_DEFAULT_LOADED		= "Le opzioni predefinite delle mod di quest'istanza sono state caricate."
 L.ALLMOD_STATS_RESETED		= "Le statistiche della mod sono state resettate."
 L.MOD_DEFAULT_LOADED			= "Le opzioni predefinite del combattimento sono state caricate."
-L.SOUNDKIT_MIGRATION			= "Uno o più avvisi/avvisi speciali sonori sono stati ripristinati a causa di incompatibilità con la patch 8.2 e successive. DBM supporta solo file sonori nella cartella addons o ID SoundKit per riprodurre contenuti multimediali"
 
 L.WORLDBOSS_ENGAGED			= "%s è stato probabilmente ingaggiato sul reame con il %s di vita. (Inviato da %s)"
 L.WORLDBOSS_DEFEATED			= "%s è stato probabilmente sconfitto sul reame (Inviato da %s)."
@@ -161,7 +160,7 @@ L.VERSIONCHECK_ENTRY_TWO		= "%s: %s (%s) e %s (%s)" -- Due Boss mods
 L.VERSIONCHECK_ENTRY_NO_DBM	= "%s: DBM non installato"
 L.VERSIONCHECK_FOOTER		= "%d giocatori hanno Deadly Boss Mods"
 L.VERSIONCHECK_OUTDATED		= "I seguenti %d giocatore/i hanno una versione obsoleta delle boss mod: %s"
-L.YOUR_VERSION_OUTDATED      = "La tua versione di Deadly Boss Mods è obsoleta. Visita http://www.deadlybossmods.com per ottenere l'ultima versione."
+L.YOUR_VERSION_OUTDATED		= "La tua versione di Deadly Boss Mods è obsoleta. Visita http://www.deadlybossmods.com per ottenere l'ultima versione."
 L.VOICE_PACK_OUTDATED		= "Il pacchetto vocale selezionato non contiene alcuni suoni supportati da DBM. Alcuni avvisi sonori verranno eseguiti con i suoni predefiniti. Scarica una nuova versione del pacchetto vocale o contatta l'autore per un aggiornamento contenente l'audio mancante"
 L.VOICE_MISSING				= "Hai selezionato un pacchetto vocale DBM non trovato. Se è un errore, assicurati che il pacchetto vocale sia correttamente installato e abilitato negli addon."
 L.VOICE_DISABLED				= "Hai almeno un pacchetto vocale DBM installato ma nessuno abilitato. Se desideri usare un pacchetto vocale, assicurati che sia selezionato in 'Avvisi Parlati', altrimenti disinstalla i pacchetti vocali inutilizzati per nascondere questo messaggio"
@@ -182,11 +181,10 @@ L.DPMCORE						= "AVVISO: Deadly PvP mods è discontinuato e incompatibile con q
 L.DBMLDB							= "AVVISO: DBM-LDB è ora incluso in DBM-Core. Anche se non dannoso, è consigliabile rimuovere 'DBM-LDB' dalla cartella addon"
 L.UPDATE_REQUIRES_RELAUNCH		= "AVVISO: Questo aggiornamento DBM non funzionerà correttamente a meno di un riavvio del gioco. Questo aggiornamento contiene nuovi file o modifiche al file .toc che non possono essere caricate con ReloadUI. Potresti avere malfunzionamenti o errori se continui senza riavviare."
 L.OUT_OF_DATE_NAG				= "La versione di Deadly Boss Mods è obsoleta. E' consigliabile aggiornare per questo combattimento in modo da non perdere importanti avvisi, temporizzatori o urlare al resto del raid cose importanti."
-L.RETAIL_ONLY					= "AVVISO: Questa versione di DBM è da utilizzare con l'ultima versione retail di World of Warcraft. Disinstallala e installa quella per WoW Classic."
 
 L.MOVABLE_BAR				= "Trascinami!"
 
-L.PIZZA_SYNC_INFO					= "|Hplayer:%1$s|h[%1$s]|h ti ha mandato un Timer DBM: '%2$s'\n|HDBM:cancella:%2$s:nil|h|cff3588ff[Cancella questo Timer]|r|h  |HDBM:ignora:%2$s:%1$s|h|cff3588ff[Ignora timer da %1$s]|r|h"
+L.PIZZA_SYNC_INFO					= "|Hplayer:%1$s|h[%1$s]|h ti ha mandato un Timer DBM: '%2$s'\n|Hgarrmission:DBM:cancella:%2$s:nil|h|cff3588ff[Cancella questo Timer]|r|h |Hgarrmission:DBM:ignora:%2$s:%1$s|h|cff3588ff[Ignora timer da %1$s]|r|h"
 --L.PIZZA_SYNC_INFO					= "|Hplayer:%1$s|h[%1$s]|h ti ha inviato un temporizzatore DBM"
 L.PIZZA_CONFIRM_IGNORE			= "Sei sicuro di voler ignorare i Timer DMB da %s per questa sessione?"
 L.PIZZA_ERROR_USAGE				= "Uso: /dbm [broadcast] timer <time> <text>"
@@ -246,7 +244,6 @@ L.SLASHCMD_HELP2				= {
 	"/dbm break <min>: Avvia un temporizzatore per pause di <min> minuti all'incursione (richiede assist. alias: break).",
 	"/dbm version: Verifica la versione delle boss mod (alias: ver).",
 	"/dbm version2: Verifica la versione delle boss mod e invia un messaggio a quelli con versioni obsolete(alias: ver2).",
-	"/dbm lockout: Richiede ai membri dell'incursione lo stato delle istanze (aliases: lockouts, ids) (richiede assist).",
 	"/dbm lag: Esegue il controllo di latenza sull'incursione.",
 	"/dbm durability: Esegue il controllo stato equip sull'incursione."
 }
@@ -260,44 +257,6 @@ L.TIMER_USAGE	= {
 }
 
 L.ERROR_NO_PERMISSION				= "Non hai i permessi per eseguire questo comando."
-
---Common Locals
-L.NEXT							= "Avanti %s"
-L.COOLDOWN						= "%s CD"
-L.UNKNOWN					= "sconosciuto" -- UNKNOWN which is "Unknown" (does u vs U matter?)
-L.LEFT						= "Sinistra"
-L.RIGHT						= "Destra"
-L.BOTH						= "Entrambi"
-L.BACK						= "Indietro"--BACK
-L.SIDE						= "Lato"
-L.TOP						= "Cima"
-L.BOTTOM						= "Fondo"
-L.MIDDLE						= "Mezzo"
-L.FRONT						= "Fronte"
-L.EAST						= "Est"
-L.WEST						= "Ovest"
-L.NORTH						= "Nord"
-L.SOUTH						= "Sud"
-L.INTERMISSION				= "Interfase" -- No blizz global for this, and will probably be used in most end tier fights with intermission phases
-L.ORB						= "Sfera"
-L.CHEST							= "Cassa" -- As in Treasure 'Chest'. Not Chest as in body part.
-L.NO_DEBUFF						= "No %s"--For use in places like info frame where you put "Not Spellname"
-L.ALLY							= "Alleato" -- Such as "Move to Ally"
-L.ADD								= "Add" -- A fight Add as in "boss spawned extra adds"
-L.ADDS							= "Adds"
-L.BIG_ADD							= "Add Grande"
-L.BOSS							= "Boss"
-L.ROOM_EDGE					= "Bordo Stanza"
-L.FAR_AWAY					= "Lontano"
-L.BREAK_LOS					= "Interrompi LOS"
-L.RESTORE_LOS				= "Ripristina/Mantieni LOS"
-L.SAFE						= "Sicuro"
-L.NOTSAFE					= "Non Sicuro"
-L.SHIELD					= "Scudo"
-L.INCOMING					= "%s in Arrivo"
-L.BOSSTOGETHER				= "Bosses Together"
-L.BOSSAPART					= "Bosses Apart"
---Common Locals end
 
 L.BREAK_USAGE				= "Il temporizzatore della pausa non può durare più di 60 minuti. Assicurati di aver inserito il tempo in minuti e non in secondi."
 L.BREAK_START				= "Inizia la pausa -- hai %s! (Iniziata da %s)"
@@ -327,7 +286,7 @@ L.AUTO_ANNOUNCE_TEXTS.spell			= "%s"
 L.AUTO_ANNOUNCE_TEXTS.ends 			= "%s terminato"
 L.AUTO_ANNOUNCE_TEXTS.endtarget		= "%s terminato: >%%s<"
 L.AUTO_ANNOUNCE_TEXTS.fades			= "%s svanito"
-L.AUTO_ANNOUNCE_TEXTS.adds			= "%s rimanenti: %%d"
+L.AUTO_ANNOUNCE_TEXTS.addsleft		= "%s rimanenti: %%d"
 L.AUTO_ANNOUNCE_TEXTS.cast			= "Castando %s: %.1f s"
 L.AUTO_ANNOUNCE_TEXTS.soon			= "%s a breve"
 L.AUTO_ANNOUNCE_TEXTS.sooncount		= "%s (%%s) a breve"
@@ -350,7 +309,7 @@ L.AUTO_ANNOUNCE_OPTIONS.spell		= "Mostra avvisi per $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.ends			= "Mostra avviso al termine di $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.endtarget	= "Mostra avviso al termine di $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.fades		= "Mostra avviso allo svanire di $spell:%s"
-L.AUTO_ANNOUNCE_OPTIONS.adds			= "Annuncia la quantità di $spell:%s rimanenti"
+L.AUTO_ANNOUNCE_OPTIONS.addsleft		= "Annuncia la quantità di $spell:%s rimanenti"
 L.AUTO_ANNOUNCE_OPTIONS.cast			= "Mostra avviso al cast di $spell:%s"
 L.AUTO_ANNOUNCE_OPTIONS.soon			= prewarnOption
 L.AUTO_ANNOUNCE_OPTIONS.sooncount	= prewarnOption
@@ -465,7 +424,7 @@ L.AUTO_TIMER_TEXTS.active		= "%s terminato" -- Buff/Debuff/Eventi su boss
 L.AUTO_TIMER_TEXTS.fades			= "%s svanito" -- Buff/Debuff su giocatori
 L.AUTO_TIMER_TEXTS.ai			= "%s IA"
 L.AUTO_TIMER_TEXTS.cd			= "%s CD"
-L.AUTO_TIMER_TEXTS.cdcount		= "%s CD (%%s)"
+L.AUTO_TIMER_TEXTS.cdcount		= "%s (%%s) CD"
 L.AUTO_TIMER_TEXTS.cdsource		= "%s CD: >%%s<"
 L.AUTO_TIMER_TEXTS.cdspecial		= "CD Speciale"
 L.AUTO_TIMER_TEXTS.next			= "Prossimo %s"
@@ -503,8 +462,8 @@ L.AUTO_TIMER_OPTIONS.roleplay	= "Mostra temporizzatore durata gioco di ruolo"
 -- L.AUTO_TIMER_OPTIONS - FINE
 
 
-L.AUTO_ICONS_OPTION_TEXT			= "Imposta icone sui bersagli di $spell:%s"
-L.AUTO_ICONS_OPTION_TEXT2		= "Imposta icone su $spell:%s"
+L.AUTO_ICONS_OPTION_TARGETS			= "Imposta icone sui bersagli di $spell:%s"
+L.AUTO_ICONS_OPTION_NPCS		= "Imposta icone su $spell:%s"
 L.AUTO_ARROW_OPTION_TEXT			= "Mostra la Freccia DBM per muoversi verso i bersagli affetti da $spell:%s"
 L.AUTO_ARROW_OPTION_TEXT2		= "Mostra la Freccia DBM per scansarsi dai bersagli affetti da $spell:%s"
 L.AUTO_ARROW_OPTION_TEXT3		= "Mostra la Freccia DBM per muoversi verso località specifiche per $spell:%s"
@@ -581,24 +540,6 @@ L.SPEED_CLEAR_TIMER_TEXT	= "Migliore Clear"
 L.COMBAT_RES_TIMER_TEXT	= "Prossima Carica CR"
 L.TIMER_RESPAWN		= "Respawn %s"
 
-
-L.REQ_INSTANCE_ID_PERMISSION		= "%s ha richiesto di vedere l'ID e il progress della tua incursione.\nVuoi inviare questa informazione a %s? Potrà richiederti quest'informazione per tutta questa sessione (finche' non rilogghi)."
-L.ERROR_NO_RAID					= "Devi essere in un Incursione per usare questa funzione."
-L.INSTANCE_INFO_REQUESTED			= "Manda la richiesta di informazioni sul lock del gruppo di Incursione.\nVerrà chiesto a tutti il permesso di inviare questa informazione, quindi potrebbero passare alcuni secondi."
-L.INSTANCE_INFO_STATUS_UPDATE		= "Ricevute le risposte di %d giocatori of %d utenti DBM : %d Dati inviati, %d richieste negate. Attendo qualche secondo per le altre %d risposte..."
-L.INSTANCE_INFO_ALL_RESPONSES		= "Ricevute le risposte da tutti."
-L.INSTANCE_INFO_DETAIL_DEBUG		= "Mittente: %s Tipo di Risultato: %s Nome Incursione: %s ID: %s Difficulta': %d Dimensione: %d Progress: %s"
-L.INSTANCE_INFO_DETAIL_HEADER		= "%s, difficoltà %s:"
-L.INSTANCE_INFO_DETAIL_INSTANCE	= "    ID %s, progresso %d: %s"
-L.INSTANCE_INFO_DETAIL_INSTANCE2	= "    progresso %d: %s"
-L.INSTANCE_INFO_NOLOCKOUT			= "Non sono presenti informazioni sull'incursione nel tuo gruppo incursione."
-L.INSTANCE_INFO_STATS_DENIED		= "Hanno rifiutato la richiesta: %s"
-L.INSTANCE_INFO_STATS_AWAY		= "In pausa: %s"
-L.INSTANCE_INFO_STATS_NO_RESPONSE	= "Nessuna versione di DBM installata: %s"
-L.INSTANCE_INFO_RESULTS			= "Risultati della Scansione ID di Incursione. Guarda che le istanze potrebbero essere riportate piu' volte se ci sono dei client di gioco localizzati nella tua incursione."
-L.INSTANCE_INFO_SHOW_RESULTS		= "Players yet to respond: %s\n|HDBM:showRaidIdResults|h|cff3588ff[Show results now]|r|h"
---L.INSTANCE_INFO_SHOW_RESULTS		= "Giocatori in attesa di risposta: %s"
-
 L.LAG_CHECKING				= "Analisi Latenza incursione..."
 L.LAG_HEADER					= "Deadly Boss Mods - Risultati Latenza"
 L.LAG_ENTRY					= "%s: Mondo [%d ms] / Locale [%d ms]"
@@ -609,46 +550,6 @@ L.DUR_HEADER					= "Deadly Boss Mods - Risultati Stato Equipaggiamento"
 L.DUR_ENTRY					= "%s: Durata [%d percento] / Equip rotto [%s]"
 L.LAG_FOOTER					= "Nessuna Risposta: %s"
 
---Role Icons
--- L.TANK_ICON			= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:6:21:7:27|t"
--- L.DAMAGE_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:39:55:7:27|t"
--- L.HEALER_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:70:86:7:27|t"
-
--- L.TANK_ICON_SMALL	= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:12:12:0:0:255:66:6:21:7:27|t"
--- L.DAMAGE_ICON_SMALL	= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:12:12:0:0:255:66:39:55:7:27|t"
--- L.HEALER_ICON_SMALL	= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:12:12:0:0:255:66:70:86:7:27|t"
---Importance Icons
--- L.HEROIC_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:22:22:0:0:255:66:102:118:7:27|t"
--- L.DEADLY_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:22:22:0:0:255:66:133:153:7:27|t"
--- L.IMPORTANT_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:168:182:7:27|t"
--- L.MYTHIC_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:22:22:0:0:255:66:133:153:40:58|t"
-
--- L.HEROIC_ICON_SMALL	= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:14:14:0:0:255:66:102:118:7:27|t"
--- L.DEADLY_ICON_SMALL	= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:14:14:0:0:255:66:133:153:7:27|t"
--- L.IMPORTANT_ICON_SMALL= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:12:12:0:0:255:66:168:182:7:27|t"
---Type Icons
--- L.INTERRUPT_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:198:214:7:27|t"
--- L.MAGIC_ICON			= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:229:247:7:27|t"
--- L.CURSE_ICON			= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:6:21:40:58|t"
--- L.POISON_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:39:55:40:58|t"
--- L.DISEASE_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:70:86:40:58|t"
--- L.ENRAGE_ICON		= "|TInterface\\EncounterJournal\\UI-EJ-Icons.blp:20:20:0:0:255:66:102:118:40:58|t"
-
 --LDB
 L.LDB_TOOLTIP_HELP1	= "Click SX per aprire DBM"
 L.LDB_TOOLTIP_HELP2	= "Click DX per aprire la configurazione"
-
-L.LDB_LOAD_MODS		= "Carica i Moduli Boss"
-
--- L.LDB_CAT_BFA			= EXPANSION_NAME7
--- L.LDB_CAT_LEG			= EXPANSION_NAME6
--- L.LDB_CAT_WOD			= EXPANSION_NAME5
--- L.LDB_CAT_MOP			= EXPANSION_NAME4
--- L.LDB_CAT_CATA		= EXPANSION_NAME3
--- L.LDB_CAT_WOTLK		= EXPANSION_NAME2
--- L.LDB_CAT_BC			= EXPANSION_NAME1
--- L.LDB_CAT_CLASSIC 	= EXPANSION_NAME0
-L.LDB_CAT_OTHER		= "Altre Boss Mod"
-
-L.LDB_CAT_GENERAL		= "Generale"
-L.LDB_ENABLE_BOSS_MOD	= "Abilita Boss Mod"

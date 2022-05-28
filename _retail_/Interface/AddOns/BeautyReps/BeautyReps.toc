@@ -1,0 +1,11 @@
+## Interface: 90001
+## Title: Beauty Reps
+## Author: birdfriender
+## Version: 1.06
+## Notes: Display account-wide reputations on any character.
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: BeautyRepsDB
+
+data.lua
+core.lua

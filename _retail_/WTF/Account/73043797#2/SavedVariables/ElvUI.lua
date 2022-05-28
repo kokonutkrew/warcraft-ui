@@ -1,7 +1,9 @@
 
 ElvDB = {
 	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
 		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -9,28 +11,30 @@ ElvDB = {
 	},
 	["class"] = {
 		["Emerald Dream"] = {
+			["Cukie"] = "WARRIOR",
 			["Cherriebomb"] = "ROGUE",
+			["Grapejellie"] = "DRUID",
 		},
 	},
 	["profiles"] = {
 		["Default"] = {
-			["convertPages"] = true,
 			["dbConverted"] = 12.23,
 			["actionbar"] = {
 				["bar6"] = {
 					["enabled"] = true,
-					["buttonsPerRow"] = 6,
 					["buttons"] = 6,
+					["buttonsPerRow"] = 6,
 				},
 				["microbar"] = {
 					["buttons"] = 11,
 				},
 				["bar5"] = {
 					["enabled"] = false,
-					["buttonsPerRow"] = 12,
 					["buttons"] = 12,
+					["buttonsPerRow"] = 12,
 				},
 			},
+			["convertPages"] = true,
 		},
 	},
 	["LuaErrorDisabledAddOns"] = {
@@ -42,12 +46,16 @@ ElvDB = {
 	},
 	["faction"] = {
 		["Emerald Dream"] = {
+			["Cukie"] = "Alliance",
 			["Cherriebomb"] = "Alliance",
+			["Grapejellie"] = "Alliance",
 		},
 	},
 	["gold"] = {
 		["Emerald Dream"] = {
+			["Cukie"] = 205,
 			["Cherriebomb"] = 3202607,
+			["Grapejellie"] = 540748,
 		},
 	},
 	["global"] = {
@@ -82,10 +90,18 @@ ElvDB = {
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Grapejellie - Emerald Dream",
 		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
 	},
 	["profiles"] = {
+		["Grapejellie - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
 		["Cherriebomb - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Cukie - Emerald Dream"] = {
 			["install_complete"] = 12.23,
 		},
 	},

@@ -2,7 +2,8 @@
 -- @author Potdisc
 -- Create Date : 5/24/2012 6:24:55 PM
 ---@type RCLootCouncil
-local _,addon = ...
+--- @type RCLootCouncil
+local addon = select(2, ...)
 local L = LibStub("AceLocale-3.0"):GetLocale("RCLootCouncil")
 ---@type Data.Player
 local Player = addon.Require "Data.Player"
@@ -1205,7 +1206,7 @@ function addon:OptionsTable()
 										name = L["Auto Award to"],
 										type = "group",
 										inline = true,
-										hidden = function() return not db.autoAward end,
+										hidden = function() return not db.autoAward or #db.autoAwardTo == 0 end,
 										args = createAutoAwardPrioList(db.autoAwardTo)
 									},
 								},
@@ -1277,7 +1278,7 @@ function addon:OptionsTable()
 										name = L["Auto Award to"],
 										type = "group",
 										inline = true,
-										hidden = function() return not db.autoAwardBoE end,
+										hidden = function() return not db.autoAwardBoE or #db.autoAwardTo == 0 end,
 										args = createAutoAwardPrioList(db.autoAwardBoETo)
 									},
 								}

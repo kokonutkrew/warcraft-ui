@@ -41,11 +41,12 @@ local AceAddOn, AceAddonMinor = _G.LibStub("AceAddon-3.0")
 local CallbackHandler = _G.LibStub("CallbackHandler-1.0")
 
 local AddOnName, Engine = ...
-local E = AceAddOn:NewAddon(AddOnName, "AceConsole-3.0", "AceEvent-3.0")
+local E = AceAddOn:NewAddon(AddOnName, "AceConsole-3.0", "AceEvent-3.0", "AceTimer-3.0", "AceBucket-3.0")
 E.DF = {profile = {}, global = {}} -- Defaults
 E.privateVars = {profile = {}} -- Defaults
 E.Options = {type = "group", args = {}}
 E.callbacks = E.callbacks or CallbackHandler:New(E)
+E.locale = GetLocale()
 
 Engine[1] = E
 Engine[2] = {}
@@ -55,9 +56,8 @@ Engine[5] = E.DF.global
 _G.RecklessAbandon = Engine
 
 do
-	local locale = GetLocale()
 	local convert = {enGB = "enUS", esES = "esMX", itIT = "enUS"}
-	local gameLocale = convert[locale] or locale or "enUS"
+	local gameLocale = convert[E.locale] or E.locale or "enUS"
 
 	function E:GetLocale()
 		return gameLocale
@@ -117,7 +117,8 @@ function E:OnInitialize()
 	end
 
 	self:RegisterEvent("PLAYER_ENTERING_WORLD")
-	self:RegisterEvent("QUEST_LOG_UPDATE")
+	self:RegisterBucketEvent("QUEST_LOG_UPDATE", 1, "QUEST_LOG_UPDATE")
+	self:RegisterEvent("PLAYER_LEVEL_UP")
 	self:RegisterChatCommand("reckless", "ChatCommand")
 
 	self.loadedtime = GetTime()
@@ -141,18 +142,28 @@ LoadUI:SetScript(
 function E:ChatCommand(input)
 	-- /reckless cmd args
 	local _, _, cmd, args = string.find(input, "%s?(%w+)%s?(.*)")
+	local qualifiers = E:GetAvailableQualifiers()
 
+	-- TODO localize commands
 	if cmd == "config" and args == "" then
 		E:ToggleOptionsUI()
+	elseif cmd == "list" and args == "all" then
+		E:CliListAllQuests()
 	elseif cmd == "abandon" and args == "all" then
 		E:CliAbandonAllQuests()
-	elseif cmd == "abandon" and tonumber(args) then
+	elseif cmd == "abandon" and tonumber(args) ~= nil then
 		E:CliAbandonQuestById(args)
+	elseif cmd == "abandon" and qualifiers[args] ~= nil then
+		E:CliAbandonByQualifier(args)
 	elseif cmd == "exclude" and tonumber(args) then
 		E:CliExcludeQuestById(args)
 	elseif cmd == "include" and tonumber(args) then
 		E:CliIncludeQuestById(args)
+	elseif cmd == "debug" then
+		E:CliToggleDebugging()
 	end
+
+	E:RefreshGUI()
 end
 
 function E:PLAYER_ENTERING_WORLD(event, ...)
@@ -162,4 +173,8 @@ end
 
 function E:QUEST_LOG_UPDATE()
 	E:GenerateQuestTable()
+end
+
+function E:PLAYER_LEVEL_UP(_, arg2, ...)
+	E:UpdatePlayerLevel(arg2)
 end

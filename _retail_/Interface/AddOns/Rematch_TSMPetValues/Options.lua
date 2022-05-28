@@ -3,9 +3,9 @@
 ------------------------------------------------------------------------------
 -- Options.lua - Hook for Rematch
 --
--- Author: Expelliarm5s / October 2020 / All Rights Reserved
+-- Author: Expelliarm5s / November 2021 / All Rights Reserved
 --
--- Version 1.1.20
+-- Version 1.1.23
 ------------------------------------------------------------------------------
 -- luacheck: ignore 212 globals DLAPI
 -- luacheck: globals AceGUIWidgetLSMlists, max line length 320, ignore 212
@@ -19,7 +19,9 @@ local LSM = LibStub("LibSharedMedia-3.0")
 -- local WidgetLists = AceGUIWidgetLSMlists
 --------------------------------------------------------------------------------------------------------
 
---  Options
+------------------------------------------------------------------------------
+-- Settings
+
 Options.defaults = {
 	profile = {
 	},
@@ -41,6 +43,9 @@ function Options:DebugPrintf(...)
 		end
 	end
 end
+
+------------------------------------------------------------------------------
+-- Addon Loading / Player Login/Logout
 
 function Options:Login()
 	Options:DebugPrintf("Options:Login()")
@@ -110,20 +115,24 @@ end
 
 function Options.GetOptions(uiType, uiName, appName)
 	if appName == addonName then
+
+		local wowV, wowP = GetBuildInfo()
+		local wowVersion = "|nGame: WoW, Flavor: " .. (addon.isClassic and "Classic" or "Retail") .. ", Version: " .. wowV .. ", Build: " .. wowP
+
 		local options = {
 			type = "group",
 			name = addon.METADATA.NAME .. " (" .. addon.METADATA.VERSION .. ")",
 			args = {
-				desc1 = {
+				desc1a = {
 					type = "description",
 					order = 0,
 					name = "|cff99ccff-: by " .. GetAddOnMetadata(addonName, "Author") .. " :-|r|n|n" .. GetAddOnMetadata(addonName, "Notes"),
 					fontSize = "medium",
 				},
-				desc1a = {
+				desc1b = {
 					type = "description",
-					order = 0.05,
-					name = "",
+					order = 0.01,
+					name = wowVersion,
 				},
 				g1 = {
 					type = "group",
@@ -272,6 +281,7 @@ function Options.GetOptions(uiType, uiName, appName)
 				},
 			},
 		}
+
 		return options
 	end
 end

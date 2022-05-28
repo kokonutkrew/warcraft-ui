@@ -1,0 +1,11 @@
+tag v1.2
+5e28603d0c4b60177a2ebff281cec495d71dff89
+LuaKT <luaktt@gmail.com>
+2015-07-04 19:12:21 +0100
+
+Tag v1.2
+
+
+--------------------
+
+No changelog

@@ -1,0 +1,7 @@
+## Interface: 90200
+## Title: PVP Tooltips: Shadowlands
+## Notes: PvP tooltip changes
+## Author: Armsperson
+## Version: 3.1.0
+
+PVPTooltipsSL.lua

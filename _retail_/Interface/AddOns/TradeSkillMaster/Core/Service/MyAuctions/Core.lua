@@ -46,8 +46,10 @@ function MyAuctions.OnInitialize()
 
 	Event.Register("AUCTION_HOUSE_SHOW", private.AuctionHouseShowEventHandler)
 	Event.Register("AUCTION_HOUSE_CLOSED", private.AuctionHouseHideEventHandler)
-	Event.Register("CHAT_MSG_SYSTEM", private.ChatMsgSystemEventHandler)
-	Event.Register("UI_ERROR_MESSAGE", private.UIErrorMessageEventHandler)
+	if TSM.IsWowClassic() then
+		Event.Register("CHAT_MSG_SYSTEM", private.ChatMsgSystemEventHandler)
+		Event.Register("UI_ERROR_MESSAGE", private.UIErrorMessageEventHandler)
+	end
 	AuctionTracking.RegisterCallback(private.OnAuctionsUpdated)
 end
 
@@ -55,7 +57,7 @@ function MyAuctions.CreateQuery()
 	local query = AuctionTracking.CreateQuery()
 		:LeftJoin(private.pendingDB, "index")
 		:InnerJoin(ItemInfo.GetDBForJoin(), "itemString")
-		:VirtualField("group", "string", private.AuctionsGetGroupText, "itemString")
+		:VirtualField("group", "string", TSM.Groups.GetPathByItem, "itemString", "")
 	if TSM.IsWowClassic() then
 		query:OrderBy("index", false)
 	else
@@ -147,7 +149,7 @@ function private.AuctionHouseHideEventHandler()
 end
 
 function private.ChatMsgSystemEventHandler(_, msg)
-	if msg == ERR_AUCTION_REMOVED and #private.pendingHashes > 0 and TSM.IsWowClassic() then
+	if msg == ERR_AUCTION_REMOVED and #private.pendingHashes > 0 then
 		local hash = tremove(private.pendingHashes, 1)
 		assert(hash)
 		Log.Info("Confirmed (hash=%d)", hash)
@@ -155,7 +157,7 @@ function private.ChatMsgSystemEventHandler(_, msg)
 end
 
 function private.UIErrorMessageEventHandler(_, _, msg)
-	if (msg == ERR_ITEM_NOT_FOUND or msg == ERR_NOT_ENOUGH_MONEY) and #private.pendingHashes > 0 and TSM.IsWowClassic() then
+	if (msg == ERR_ITEM_NOT_FOUND or msg == ERR_NOT_ENOUGH_MONEY) and #private.pendingHashes > 0 then
 		local hash = tremove(private.pendingHashes, 1)
 		assert(hash)
 		Log.Info("Failed to cancel (hash=%d)", hash)
@@ -186,14 +188,6 @@ function private.GetNumRowsByHash(hash)
 	return private.pendingDB:NewQuery()
 		:Equal("hash", hash)
 		:CountAndRelease()
-end
-
-function private.AuctionsGetGroupText(itemString)
-	local groupPath = TSM.Groups.GetPathByItem(itemString)
-	if not groupPath then
-		return ""
-	end
-	return groupPath
 end
 
 function private.OnAuctionsUpdated()

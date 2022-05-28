@@ -271,7 +271,7 @@ end
 -- @tparam Element frame The element to show in a dialog
 -- @param context The context to set on the dialog frame
 function ApplicationFrame.ShowDialogFrame(self, frame, context)
-	local dialogFrame = UIElements.New("Frame", "_dialog_"..random())
+	local dialogFrame = UIElements.New("Frame", "_dialog_"..random(1, 1000000))
 		:SetRelativeLevel(DIALOG_RELATIVE_LEVEL * (#self._dialogStack + 1))
 		:SetBackgroundColor(Color.GetFullBlack():GetOpacity(DIALOG_OPACITY_PCT))
 		:AddAnchor("TOPLEFT")
@@ -443,7 +443,7 @@ function ApplicationFrame._SavePositionAndSize(self, wasScaling)
 	if wasScaling then
 		-- the anchor is in our old frame's scale, so convert the parent measurements to our old scale and then the resuslt to our new scale
 		local scaleAdjustment = width / self._contextTable.width
-		local frameLeftOffset = frame:GetLeft()  - parentFrame:GetLeft() / self._contextTable.scale
+		local frameLeftOffset = frame:GetLeft() - parentFrame:GetLeft() / self._contextTable.scale
 		self._contextTable.centerX = (frameLeftOffset - (parentFrame:GetWidth() / self._contextTable.scale - width) / 2) / scaleAdjustment
 		local frameBottomOffset = frame:GetBottom() - parentFrame:GetBottom() / self._contextTable.scale
 		self._contextTable.centerY = (frameBottomOffset - (parentFrame:GetHeight() / self._contextTable.scale - height) / 2) / scaleAdjustment
@@ -651,7 +651,11 @@ end
 
 function private.GetAppStatusTooltip()
 	local tooltipLines = TempTable.Acquire()
-	tinsert(tooltipLines, format(L["TSM Desktop App Status (%s)"], TSM.GetRegion().."-"..GetRealmName()))
+	local regionRealmName = TSM.GetRegion().."-"..GetRealmName()
+	if TSM.IsWowClassic() then
+		regionRealmName = regionRealmName.."-"..UnitFactionGroup("player")
+	end
+	tinsert(tooltipLines, format(L["TSM Desktop App Status (%s)"], regionRealmName))
 
 	local appUpdateAge = time() - TSM.GetAppUpdateTime()
 	if appUpdateAge < SECONDS_PER_HOUR then

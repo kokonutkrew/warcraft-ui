@@ -10,8 +10,8 @@
 local _, TSM = ...
 local Theme = TSM.Init("Util.Theme")
 local FontPaths = TSM.Include("Data.FontPaths")
-local Table = TSM.Include("Util.Table")
 local Color = TSM.Include("Util.Color")
+local Table = TSM.Include("Util.Table")
 local FontObject = TSM.Include("Util.FontObject")
 local private = {
 	callbacks = {},
@@ -22,12 +22,18 @@ local private = {
 	currentFontSet = nil,
 }
 local THEME_COLOR_KEYS = {
-	FRAME_BG = true,
-	PRIMARY_BG = true,
-	PRIMARY_BG_ALT = true,
-	ACTIVE_BG = true,
-	ACTIVE_BG_ALT = true,
+	"PRIMARY_BG",
+	"PRIMARY_BG_ALT",
+	"FRAME_BG",
+	"ACTIVE_BG",
+	"ACTIVE_BG_ALT",
 }
+local VALID_THEME_COLOR_KEYS = {}
+do
+	for _, key in ipairs(THEME_COLOR_KEYS) do
+		VALID_THEME_COLOR_KEYS[key] = true
+	end
+end
 local STATIC_COLORS = {
 	INDICATOR = Color.NewFromHex("#ffd839"),
 	INDICATOR_ALT = Color.NewFromHex("#79a2ff"),
@@ -43,6 +49,9 @@ local FEEDBACK_COLORS = {
 	GREEN = Color.NewFromHex("#4ff720"),
 	BLUE = Color.NewFromHex("#2076f7"),
 	ORANGE = Color.NewFromHex("#f77a20"),
+}
+local STANDARD_COLORS = {
+	YELLOW = Color.NewFromHex("#ffff00"),
 }
 local BLIZZARD_COLOR = Color.NewFromHex("#00b4ff")
 local GROUP_COLORS = {
@@ -165,7 +174,7 @@ end
 -- @tparam table colorSet The colors which make up the color set (with keys specified in `THEME_COLOR_KEYS`)
 function Theme.RegisterColorSet(key, name, colorSet)
 	assert(not private.colorSets[key])
-	for k in pairs(THEME_COLOR_KEYS) do
+	for _, k in ipairs(THEME_COLOR_KEYS) do
 		assert(Color.IsInstance(colorSet[k]))
 	end
 	private.names[key] = name
@@ -185,21 +194,37 @@ function Theme.SetActiveColorSet(key)
 	end
 end
 
-function Theme.GetThemeName(key)
-	return private.names[key]
+--- Replaces a specific color within a theme (for user-generated themes)
+-- @tparam string colorSetKey The key of the color set to change
+-- @tparam string colorKey The key of the color to change
+-- @tparam number r The new red value (0-255)
+-- @tparam number g The new green value (0-255)
+-- @tparam number b The new blue value (0-255)
+function Theme.UpdateColor(colorSetKey, colorKey, r, g, b)
+	local colorSet = private.colorSets[colorSetKey]
+	assert(VALID_THEME_COLOR_KEYS[colorKey] and colorSet)
+	local color = colorSet[colorKey]
+	assert(color)
+	color:SetRGBA(r, g, b, 255)
+	if colorSet == private.currentColorSet then
+		for _, callback in ipairs(private.callbacks) do
+			callback()
+		end
+	end
 end
 
 --- Gets the color object from the current active color set.
 -- @tparam string key The key of the color to get
+-- @tparam[opt=nil] string colorSet The key of the color set to get the color for (defaults to the active color set)
 -- @treturn Color The color object
-function Theme.GetColor(key, themeKey)
+function Theme.GetColor(key, colorSetKey)
 	local colorKey, tintPct, opacityPct = strmatch(key, "^([A-Z_]+)([%-%+]?[0-9A-Z_]*)%%?([0-9A-Z_]*)$")
 	tintPct = tonumber(tintPct) or (tintPct ~= "" and tintPct or nil)
 	opacityPct = tonumber(opacityPct) or (opacityPct ~= "" and opacityPct or nil)
 	assert(colorKey)
 	local color = nil
-	if THEME_COLOR_KEYS[colorKey] then
-		color = themeKey and private.colorSets[themeKey][colorKey] or private.currentColorSet[colorKey]
+	if VALID_THEME_COLOR_KEYS[colorKey] then
+		color = colorSetKey and private.colorSets[colorSetKey][colorKey] or private.currentColorSet[colorKey]
 	else
 		color = STATIC_COLORS[colorKey]
 	end
@@ -218,6 +243,13 @@ end
 -- @treturn Color The color object
 function Theme.GetFeedbackColor(key)
 	return FEEDBACK_COLORS[key]
+end
+
+--- Gets the color object for a given color key.
+-- @tparam string key The key of the color to get
+-- @treturn Color The color object
+function Theme.GetStandardColor(key)
+	return STANDARD_COLORS[key]
 end
 
 --- Gets the color object for Blizzard GMs.
@@ -285,6 +317,10 @@ end
 -- @treturn number The scrollbar width
 function Theme.GetMouseWheelScrollAmount()
 	return CONSTANTS.MOUSE_WHEEL_SCROLL_AMOUNT
+end
+
+function Theme.ThemeColorKeyIterator()
+	return ipairs(THEME_COLOR_KEYS)
 end
 
 

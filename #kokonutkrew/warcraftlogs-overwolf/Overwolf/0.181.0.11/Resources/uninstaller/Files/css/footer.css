@@ -1,0 +1,22 @@
+.uninstalled-apps-status {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  flex: 0 0 72px;
+  border-top: 1px solid #332E4D; }
+  .uninstalled-apps-status i {
+    margin-right: 12px;
+    --size: 24px; }
+
+.app-footer {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  padding-top: 24px;
+  border-top: 1px solid #332E4D; }
+  .app-footer > * + * {
+    position: relative;
+    margin-left: 12px; }

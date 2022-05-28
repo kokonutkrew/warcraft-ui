@@ -51,7 +51,7 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 		if (not value) then
 			return _table.statusbar:GetValue()
 		else
-			_table.div:SetPoint ("left", _table.statusbar, "left", value * (_table.statusbar:GetWidth()/100) - 18, 0)
+			_table.spark:SetPoint ("left", _table.statusbar, "left", value * (_table.statusbar:GetWidth()/100) - 18, 0)
 			return _table.statusbar:SetValue (value)
 		end
 	end
@@ -60,12 +60,12 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 		if (_type (v1) == "table") then
 			local v = v1.statusbar:GetValue()
 			v = v + v2
-			v1.div:SetPoint ("left", v1.statusbar, "left", value * (v1.statusbar:GetWidth()/100) - 18, 0)
+			v1.spark:SetPoint ("left", v1.statusbar, "left", value * (v1.statusbar:GetWidth()/100) - 18, 0)
 			v1.statusbar:SetValue (v)
 		else
 			local v = v2.statusbar:GetValue()
 			v = v + v1
-			v2.div:SetPoint ("left", v2.statusbar, "left", value * (v2.statusbar:GetWidth()/100) - 18, 0)
+			v2.spark:SetPoint ("left", v2.statusbar, "left", value * (v2.statusbar:GetWidth()/100) - 18, 0)
 			v2.statusbar:SetValue (v)
 		end
 	end
@@ -74,12 +74,12 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 		if (_type (v1) == "table") then
 			local v = v1.statusbar:GetValue()
 			v = v - v2
-			v1.div:SetPoint ("left", v1.statusbar, "left", value * (v1.statusbar:GetWidth()/100) - 18, 0)
+			v1.spark:SetPoint ("left", v1.statusbar, "left", value * (v1.statusbar:GetWidth()/100) - 18, 0)
 			v1.statusbar:SetValue (v)
 		else
 			local v = v2.statusbar:GetValue()
 			v = v - v1
-			v2.div:SetPoint ("left", v2.statusbar, "left", value * (v2.statusbar:GetWidth()/100) - 18, 0)
+			v2.spark:SetPoint ("left", v2.statusbar, "left", value * (v2.statusbar:GetWidth()/100) - 18, 0)
 			v2.statusbar:SetValue (v)
 		end
 	end
@@ -117,7 +117,7 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	end
 	--> right color
 	local gmember_rcolor = function (_object)
-		return _object.background.original_colors
+		return _object.rightTexture.original_colors
 	end
 	--> left color
 	local gmember_lcolor = function (_object)
@@ -218,7 +218,7 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	--> statusbar value
 	local smember_value = function (_object, _value)
 		_object.statusbar:SetValue (_value)
-		return _object.div:SetPoint ("left", _object.statusbar, "left", _value * (_object.statusbar:GetWidth()/100) - 18, 0)
+		return _object.spark:SetPoint ("left", _object.statusbar, "left", _value * (_object.statusbar:GetWidth()/100) - 18, 0)
 	end
 	--> right text
 	local smember_rtext = function (_object, _value)
@@ -231,8 +231,8 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	--> right color
 	local smember_rcolor = function (_object, _value)
 		local _value1, _value2, _value3, _value4 = DF:ParseColors (_value)
-		_object.background.original_colors = {_value1, _value2, _value3, _value4}
-		return _object.background:SetVertexColor (_value1, _value2, _value3, _value4)
+		_object.rightTexture.original_colors = {_value1, _value2, _value3, _value4}
+		return _object.rightTexture:SetVertexColor (_value1, _value2, _value3, _value4)
 	end
 	--> left color
 	local smember_lcolor = function (_object, _value)
@@ -273,14 +273,14 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 		if (type (_value) == "table") then
 			local _value1, _value2 = _unpack (_value)
 			_object.texture:SetTexture (_value1)
-			_object.background:SetTexture (_value1)
+			_object.rightTexture:SetTexture (_value1)
 			if (_value2) then
 				_object.texture:SetTexCoord (_unpack (_value2))
-				_object.background:SetTexCoord (_unpack (_value2))
+				_object.rightTexture:SetTexCoord (_unpack (_value2))
 			end
 		else
 			_object.texture:SetTexture (_value)
-			_object.background:SetTexture (_value)
+			_object.rightTexture:SetTexture (_value)
 		end
 		return
 	end
@@ -349,7 +349,7 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 			return
 		end
 		self.statusbar:SetValue (value)
-		self.div:SetPoint ("left", self.statusbar, "left", value * (self.statusbar:GetWidth()/100) - 18, 0)
+		self.spark:SetPoint ("left", self.statusbar, "left", value * (self.statusbar:GetWidth()/100) - 18, 0)
 	end
 	
 -- setpoint
@@ -374,8 +374,12 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	
 -- texture
 	function SplitBarMetaFunctions:SetTexture (texture)
-		self.background:SetTexture (texture)
+		self.rightTexture:SetTexture (texture)
 		self.texture:SetTexture (texture)
+	end
+
+	function SplitBarMetaFunctions:SetBackgroundTexture(texture)
+		self.background:SetTexture(texture)
 	end
 	
 -- texts
@@ -394,8 +398,22 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	end
 	function SplitBarMetaFunctions:SetRightColor (r, g, b, a)
 		r, g, b, a = DF:ParseColors (r, g, b, a)
+		self.rightTexture:SetVertexColor (r, g, b, a)
+		self.rightTexture.original_colors = {r, g, b, a}
+	end
+
+	function SplitBarMetaFunctions:SetBackgroundColor (r, g, b, a)
+		r, g, b, a = DF:ParseColors (r, g, b, a)
 		self.background:SetVertexColor (r, g, b, a)
 		self.background.original_colors = {r, g, b, a}
+	end
+
+	function SplitBarMetaFunctions:GetLeftColor()
+		return self.texture:GetVertexColor()
+	end
+
+	function SplitBarMetaFunctions:GetRightColor()
+		return self.rightTexture:GetVertexColor()
 	end
 	
 -- icons
@@ -440,9 +458,6 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	end
 
 -- frame stratas
-	function SplitBarMetaFunctions:SetFrameStrata()
-		return self.statusbar:GetFrameStrata()
-	end
 	function SplitBarMetaFunctions:SetFrameStrata (strata)
 		if (_type (strata) == "table") then
 			self.statusbar:SetFrameStrata (strata:GetFrameStrata())
@@ -451,16 +466,108 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 		end
 	end
 
+-- animation
+	--> animation with acceleration ~animation ~healthbaranimation
+	local animateLeftWithAccel = function(self, deltaTime)
+		local currentPercent = DetailsFramework:GetRangePercent(self.targetValue, self.startValue, self.currentValue)
+		currentPercent = abs(currentPercent - 1)
+		currentPercent = min(0.9, currentPercent)
+		currentPercent = max(0.5, currentPercent)
+
+		local animationMultiplier = math.sin(currentPercent * math.pi)
+		local valueChange = self.step * (deltaTime * animationMultiplier)
+		self.currentValue = self.currentValue - valueChange
+
+		local barWidth = self:GetWidth()
+		self.statusbar:SetValue(self.currentValue)
+		self.rightTexture:SetWidth(barWidth - barWidth*self.currentValue)
+
+		if (self.currentValue - 0.001 <= self.targetValue) then
+			self:SetValue(self.targetValue)
+			self.currentValue = self.targetValue
+			if (not self.SparkAlwaysShow) then
+				self.spark:Hide()
+			end
+			self.widget:SetScript("OnUpdate", nil)
+			return
+		end
+
+		self.spark:SetPoint("center", self.widget, "left", self.currentValue * barWidth, 0)
+		self.spark:Show()
+	end
+
+	local animateRightWithAccel = function(self, deltaTime)
+		--get the animation elapsed percent
+		local currentPercent = DetailsFramework:GetRangePercent(self.startValue, self.targetValue, self.currentValue)
+		currentPercent = min(0.9, currentPercent) --slow down the animation but avoid very slow
+		currentPercent = max(0.5, currentPercent) --default: 0.1, using 0.5 makes the animation start fast and go slow
+
+		--get the sine value and scale time with it
+		local animationMultiplier = math.sin(currentPercent * math.pi)
+		local valueChange = self.step * (deltaTime * animationMultiplier)
+		self.currentValue = self.currentValue + valueChange
+
+		local barWidth = self:GetWidth()
+		self.statusbar:SetValue(self.currentValue)
+		local rightTextureSize = barWidth - barWidth*self.currentValue
+		self.rightTexture:SetWidth(rightTextureSize)
+
+		if (self.currentValue + 0.001 >= self.targetValue) then
+			self:SetValue(self.targetValue)
+			self.currentValue = self.targetValue
+			if (not self.SparkAlwaysShow) then
+				self.spark:Hide()
+			end
+			self.widget:SetScript("OnUpdate", nil)
+			return
+		end
+
+		self.spark:SetPoint("center", self.widget, "left", self.currentValue * barWidth, 0)
+		self.spark:Show()
+	end
+
+	local onUpdate = function(self, deltaTime)
+		self = self.MyObject
+		--select the animation function
+			--target is always equal to current
+		if (self.targetValue > self.currentValue) then
+			animateRightWithAccel(self, deltaTime)
+		else
+			animateLeftWithAccel(self, deltaTime)
+		end
+	end
+
+	function SplitBarMetaFunctions:EnableAnimations()
+		return
+	end
+
+	function SplitBarMetaFunctions:DisableAnimations()
+		self.widget:SetScript("OnUpdate", nil)
+	end
+
+	function SplitBarMetaFunctions:SetValueWithAnimation(value)
+		if (self.widget:GetScript("OnUpdate") == nil) then
+			self.widget:SetScript("OnUpdate", onUpdate)
+			self.widget:SetMinMaxValues(0, 1)
+			self.spark:ClearAllPoints()
+			self.spark:SetHeight(self:GetHeight() * 2.6)
+			self.spark:SetAlpha(0.4)
+		end
+		self.startValue = self.currentValue
+		self.step = abs(value - self.currentValue)
+		self.targetValue = value
+		self.rightTexture:Show()
+	end
+
 ------------------------------------------------------------------------------------------------------------
 --> scripts
+
 	local OnEnter = function (frame)
 		local capsule = frame.MyObject
 		local kill = capsule:RunHooksForWidget ("OnEnter", frame, capsule)
 		if (kill) then
 			return
 		end
-
-		frame.MyObject.div:SetPoint ("left", frame, "left", frame:GetValue() * (frame:GetWidth()/100) - 18, 0)
 		
 		if (frame.MyObject.have_tooltip) then
 			GameCooltip2:Reset()
@@ -526,7 +633,8 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 	end
 	
 	local OnSizeChanged = function (statusbar)
-		statusbar.MyObject.div:SetPoint ("left", statusbar, "left", statusbar:GetValue() * (statusbar:GetWidth()/100) - 18, 0)
+		statusbar.MyObject.spark:SetPoint ("left", statusbar, "left", statusbar:GetValue() * (statusbar:GetWidth()/100) - 18, 0)
+		statusbar.MyObject.rightTexture:SetWidth(statusbar:GetWidth() - statusbar.MyObject.texture:GetWidth())
 	end
 
 ------------------------------------------------------------------------------------------------------------
@@ -534,27 +642,41 @@ local SplitBarMetaFunctions = _G[DF.GlobalWidgetControlNames ["split_bar"]]
 
 function DetailsFrameworkSplitlBar_OnCreate (self)
 	self.texture.original_colors = {1, 1, 1, 1}
-	self.background.original_colors = {.5, .5, .5, 1}
+	self.rightTexture.original_colors = {.5, .5, .5, 1}
 	self.spark:SetPoint ("left", self, "left", self:GetValue() * (self:GetWidth()/100) - 18, 0)
 	return true
 end
 
-function DF:CreateSplitBar (parent, parent, w, h, member, name)
-	return DF:NewSplitBar (parent, container, name, member, w, h)
+function DF:CreateSplitBar(parent, width, height, member, name)
+	return DF:NewSplitBar(parent, nil, name, member, width, height)
 end
 
 local build_statusbar = function (self)
+
 	self:SetSize (300, 14)
 	
 	self.background = self:CreateTexture ("$parent_StatusBarBackground", "BACKGROUND")
-	self.background:SetAllPoints()
+	self.background:SetPoint("topright", self, "topright")
+	self.background:SetPoint("bottomright", self, "bottomright")
+	self.background:SetPoint("topleft", self, "topleft")
+	self.background:SetPoint("bottomleft", self, "bottomleft")
 	self.background:SetTexture ([[Interface\PaperDollInfoFrame\UI-Character-Skills-Bar]])
-	self.background:SetVertexColor (.5, .5, .5, 1)
+	self.background:SetVertexColor (.3, .3, .3, 1)
 	
-	self.texture = self:CreateTexture ("$parent_StatusBarTexture", "ARTWORK")
+	--this is the left texture and it grows to the right, it is embed within the bar by SetStatusBarTexture
+	self.texture = self:CreateTexture ("$parent_StatusBarTexture", "ARTWORK", nil, 1)
 	self.texture:Hide()
 	self.texture:SetSize (300, 14)
 	self.texture:SetTexture ([[Interface\PaperDollInfoFrame\UI-Character-Skills-Bar]])
+
+	--this is the right texture and its size is the bar:GetWidth() - self.texture:GetWidth()
+	self.rightTexture = self:CreateTexture ("$parent_StatusBarTextureRight", "ARTWORK", nil, 2)
+	self.rightTexture:Hide()
+	self.rightTexture:SetSize (300, 14)
+	self.rightTexture:SetTexture ([[Interface\PaperDollInfoFrame\UI-Character-Skills-Bar]])
+	self.rightTexture:SetPoint("topright", self, "topright")
+	self.rightTexture:SetPoint("bottomright", self, "bottomright")
+	self.rightTexture:SetVertexColor(1, 0, 0)
 	
 	self.lefticon = self:CreateTexture ("$parent_IconLeft", "OVERLAY")
 	self.lefticon:SetSize (14, 14)
@@ -622,10 +744,12 @@ function DF:NewSplitBar (parent, container, name, member, w, h)
 		--> misc
 		SplitBarObject.locked = false
 		SplitBarObject.container = container
+		SplitBarObject.currentValue = 0.5
 	
 	--> create widgets
-		SplitBarObject.statusbar = CreateFrame ("statusbar", name, parent)
+		SplitBarObject.statusbar = CreateFrame ("statusbar", name, parent, "BackdropTemplate")
 		build_statusbar (SplitBarObject.statusbar)
+		SplitBarObject.spark = SplitBarObject.statusbar.spark
 		SplitBarObject.widget = SplitBarObject.statusbar
 		
 		if (not APISplitBarFunctions) then
@@ -641,8 +765,9 @@ function DF:NewSplitBar (parent, container, name, member, w, h)
 			end
 		end
 		
-		SplitBarObject.statusbar:SetHeight (h or 200)
-		SplitBarObject.statusbar:SetWidth (w or 14)
+		SplitBarObject.statusbar:SetHeight(h or 200)
+		SplitBarObject.statusbar:SetWidth(w or 14)
+		SplitBarObject.statusbar:SetValue(0.5)
 		
 		SplitBarObject.statusbar.MyObject = SplitBarObject
 		
@@ -654,9 +779,7 @@ function DF:NewSplitBar (parent, container, name, member, w, h)
 		
 		SplitBarObject.background = _G [name .. "_StatusBarBackground"]
 		SplitBarObject.texture = _G [name .. "_StatusBarTexture"]
-		
-		SplitBarObject.div = _G [name .. "_Spark"]
-
+		SplitBarObject.rightTexture = _G [name .. "_StatusBarTextureRight"]
 	
 	--> hooks
 	SplitBarObject.HookList = {

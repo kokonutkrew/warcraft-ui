@@ -1,19 +1,26 @@
 -- GLOBALS: GSE
-GSE = LibStub("AceAddon-3.0"):NewAddon("GSE", "AceConsole-3.0", "AceEvent-3.0", "AceComm-3.0", "AceSerializer-3.0",
-          "AceTimer-3.0")
+GSE =
+    LibStub("AceAddon-3.0"):NewAddon(
+    "GSE",
+    "AceConsole-3.0",
+    "AceEvent-3.0",
+    "AceComm-3.0",
+    "AceSerializer-3.0",
+    "AceTimer-3.0"
+)
 GSE.L = LibStub("AceLocale-3.0"):GetLocale("GSE")
 GSE.Static = {}
 
-GSE.VersionString = GetAddOnMetadata("GSE", "Version");
+GSE.VersionString = GetAddOnMetadata("GSE", "Version")
 
 --[==[@debug@
 if GSE.VersionString:find("version") then
-    GSE.VersionString = "2.6.48-development"
+    GSE.VersionString = "3.0.64-development"
 end
 --@end-debug@]==]
 
 GSE.MediaPath = "Interface\\Addons\\GSE\\Media"
-
+GSE.Pause = {}
 GSE.OutputQueue = {}
 GSE.DebugOutput = ""
 GSE.SequenceDebugOutput = ""
@@ -25,34 +32,39 @@ local GNOME = "GSE"
 -- Initialisation Functions
 --- Checks for nil or empty variables.
 function GSE.isEmpty(s)
-    return s == nil or s == ''
+    return s == nil or s == ""
 end
 
 --- Split a string into an array based on the delimiter specified.
 function GSE.split(source, delimiters)
     local elements = {}
-    local pattern = '([^' .. delimiters .. ']+)'
-    string.gsub(source, pattern, function(value)
-        elements[#elements + 1] = value;
-    end);
+    local pattern = "([^" .. delimiters .. "]+)"
+    local _ =
+        string.gsub(
+        source,
+        pattern,
+        function(value)
+            elements[#elements + 1] = value
+        end
+    )
     return elements
 end
 
 local gameversion, build, date, tocversion = GetBuildInfo()
-local majorVersion = GSE.split(gameversion, '.')
+local majorVersion = GSE.split(gameversion, ".")
 
 GSE.GameMode = tonumber(majorVersion[1])
 
 --- This function takes a version String and returns a version number.
 function GSE.ParseVersion(version)
     -- If it contains alpha or beta replace with the current version.  This will prevent notifying about test builds.
-    if string.match(version, 'alpha') or string.match(version, 'beta') then
+    if string.match(version, "alpha") or string.match(version, "beta") then
         version = GSE.VersionString
     end
     local parts = GSE.split(version, "-")
     local numbers = GSE.split(parts[1], ".")
-    local returnVal = 0
-    if GSE.isEmpty(number) and type(version) == "number" then
+    local returnVal
+    if GSE.isEmpty(numbers) and type(version) == "number" then
         returnVal = version
     else
         if table.getn(numbers) > 1 then
@@ -113,19 +125,17 @@ function GSE.PrintDebugMessage(message, module)
         module = "GS-Core"
     end
     if module == Statics.SequenceDebug then
-        determinationOutputDestination(message,
-            GSEOptions.CommandColour .. GNOME .. ':|r ' .. GSEOptions.AuthorColour .. L["<SEQUENCEDEBUG> |r "])
-    elseif GSEOptions.debug and module ~= GSStaticSequenceDebug and GSEOptions.DebugModules[module] == true then
         determinationOutputDestination(
-            GSEOptions.CommandColour .. (GSE.isEmpty(module) and GNOME or module) .. ':|r ' .. GSEOptions.AuthorColour ..
-                L["<DEBUG> |r "] .. message)
+            message,
+            GSEOptions.CommandColour .. GNOME .. ":|r " .. GSEOptions.AuthorColour .. L["<SEQUENCEDEBUG> |r "]
+        )
+    elseif GSEOptions.debug and module ~= Statics.SequenceDebug and GSEOptions.DebugModules[module] == true then
+        determinationOutputDestination(
+            GSEOptions.CommandColour ..
+                (GSE.isEmpty(module) and GNOME or module) ..
+                    ":|r " .. GSEOptions.AuthorColour .. L["<DEBUG> |r "] .. message
+        )
     end
-end
-
---- Prints that no GUI is available and needs to be loaded in the plugin window.
-function GSE.printNoGui()
-    GSE.Print(L["The GUI has not been loaded.  Please activate this plugin amongst WoW's addons to use the GSE GUI."],
-        "GSE GUI")
 end
 
 GSE.CurrentGCD = 1.5

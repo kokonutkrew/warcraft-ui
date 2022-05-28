@@ -1,0 +1,100 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Cukie - Emerald Dream"] = "Default",
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Emerald Dream"] = {
+			["Cherriebomb"] = "ROGUE",
+			["Cukie"] = "WARRIOR",
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["dbConverted"] = 12.23,
+			["actionbar"] = {
+				["bar6"] = {
+					["enabled"] = true,
+					["buttons"] = 6,
+					["buttonsPerRow"] = 6,
+				},
+				["microbar"] = {
+					["buttons"] = 11,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+					["buttons"] = 12,
+					["buttonsPerRow"] = 12,
+				},
+			},
+			["convertPages"] = true,
+		},
+	},
+	["LuaErrorDisabledAddOns"] = {
+	},
+	["global"] = {
+		["nameplate"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+				},
+				["ElvUI_Explosives"] = {
+				},
+				["ElvUI_Target"] = {
+				},
+				["ElvUI_Boss"] = {
+				},
+			},
+		},
+		["ignoreIncompatible"] = true,
+		["datatexts"] = {
+			["settings"] = {
+				["Currencies"] = {
+					["tooltipData"] = {
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [1]
+					},
+				},
+			},
+		},
+	},
+	["gold"] = {
+		["Emerald Dream"] = {
+			["Cherriebomb"] = 3202607,
+			["Cukie"] = 205,
+		},
+	},
+	["faction"] = {
+		["Emerald Dream"] = {
+			["Cherriebomb"] = "Alliance",
+			["Cukie"] = "Alliance",
+		},
+	},
+	["serverID"] = {
+		[162] = {
+			["Emerald Dream"] = true,
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+		["Cukie - Emerald Dream"] = "Cukie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Cherriebomb - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Cukie - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+	},
+}

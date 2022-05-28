@@ -1,5 +1,5 @@
-## v4.10.32 Changes
+## v4.11.29 Changes
 
-* Fixed error some users were getting when opening the Dashboard
+* Fixed an issue where row text weren't always updated properly in some edge cases
 
-[Known Issues](http://support.tradeskillmaster.com/display/KB/TSM4+Currently+Known+Issues)
+[Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

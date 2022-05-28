@@ -1,0 +1,1374 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/s /dance", -- [1]
+				"/g Helpin kids with homework and such", -- [2]
+				"/g Alright man, I'll be back in a bit", -- [3]
+				"/g is there a mount for it?", -- [4]
+				"/g lemme check", -- [5]
+				"/g lol", -- [6]
+				"/g Right?", -- [7]
+				"/s /gra !graaudit", -- [8]
+				"/s /gra help", -- [9]
+				"/s /GRA", -- [10]
+				"/s /spy config", -- [11]
+				"/p thanks for the run", -- [12]
+				"/p ggs", -- [13]
+				"/p dog aggro", -- [14]
+				"/p coming in hot", -- [15]
+				"/p dog lol", -- [16]
+				"/p chest open", -- [17]
+				"/p lol", -- [18]
+				"/p only fair right?", -- [19]
+				"/p k", -- [20]
+				"/p gotcha", -- [21]
+				"/p huh?", -- [22]
+				"/p sry was typing", -- [23]
+				"/p dammit", -- [24]
+				"/p need my cloak?", -- [25]
+				"/p ok", -- [26]
+				"/p just waiting for vanish cooldown", -- [27]
+				"/p this could be bad", -- [28]
+				"/p combat?", -- [29]
+				"/p and not have him follow me", -- [30]
+				"/p that way I can stealth", -- [31]
+				"/p you should grab him", -- [32]
+				"/p nice work next", -- [33]
+				"/p sry about that", -- [34]
+				"/p same", -- [35]
+				"/p Alright lets do this", -- [36]
+				"/p A healer would be nice but we can probably just go duo", -- [37]
+				"/p Cool", -- [38]
+				"/p you need both sides?", -- [39]
+				"/p hello", -- [40]
+				"/s wanna duo?", -- [41]
+				"/s /spy reset", -- [42]
+				"/s /spy rest", -- [43]
+				"/s /spy stats", -- [44]
+				"/s /spy", -- [45]
+				"/s /spy test", -- [46]
+				"/s /spy show", -- [47]
+				"/s /spy stats", -- [48]
+				"/s /spy", -- [49]
+				"/s /spy kos", -- [50]
+				"/s /wa", -- [51]
+				"/s /details config", -- [52]
+				"/s /reload", -- [53]
+				"/s /details options", -- [54]
+				"/s /details show", -- [55]
+				"/s /details", -- [56]
+				"/s /spy config", -- [57]
+				"/cw Tesgouch-EmeraldDream The struggle is real mate", -- [58]
+				"/s /reckless config", -- [59]
+				"/s /ec", -- [60]
+				"/s /reload", -- [61]
+				"/s /prat", -- [62]
+				"/g but I wonder how long it will stay that way", -- [63]
+				"/g Not really game breaking", -- [64]
+				"/g Do you see Samoansurge logged on currently?", -- [65]
+				"/g If you look in the guild roster", -- [66]
+				"/g hey honust- I think Ive got a ui issue", -- [67]
+				"/s /prat", -- [68]
+				"/s /clear", -- [69]
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 97,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[01:46]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have 1 friend |4request:requests;.",
+					["serverTime"] = 1618498465,
+					["r"] = 0.5098039507865906,
+					["b"] = 1,
+					["timestamp"] = 82105.357,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 0.7725490927696228,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[01:46]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429602,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[01:46]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Manasboi-EmeraldDream:32:CHANNEL:2|h|cfffef367Manasboi|r|h|cffd8d8d8]|r: 30% trolling :O",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429613,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[01:46]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Bastra-EmeraldDream:33:CHANNEL:2|h|cfffef367Bastra|r|h|cffd8d8d8]|r: Heya, I havent played in a very long time. How do I get the the nightelf place?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429613,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[01:46]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Manasboi-EmeraldDream:34:CHANNEL:2|h|cfffef367Manasboi|r|h|cffd8d8d8]|r: that's a lot idk if I want to be on this server anymore",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429618,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[01:47]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Ashander-EmeraldDream:35:CHANNEL:2|h|cff00fe97Ashander|r|h|cffd8d8d8]|r: not enough trolling?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429631,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[01:47]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:88:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tNoonzio94)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429668,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[01:47]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:37:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: I think the only thing out of proportion for this server's the ratio of my sales advertisments lol",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429671,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[01:48]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:38:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: Should 80% politics, 19% trolling, 1% me",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429686,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[01:48]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:39:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r kinda wish bosses gave more rep",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429708,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[01:49]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:40:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r Yes I hear ya!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429756,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[01:49]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:41:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429758,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[01:49]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:42:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r That avowed is really a grind",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429764,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[01:49]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:43:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:183008::::::::16:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Supple Supplicant's Gloves]|h|r|cffa335ee|Hitem:163574::::::::16:102:::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r |cffa335ee|Hitem:23534::::::::16:102:::::::|h[Storm Helm]|h|r PST",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429779,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[01:49]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:44:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r least I only need it to revered",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429797,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:36:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tKoroner)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429804,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						8, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:46:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r right?",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429806,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:47:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r Right?",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429809,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:48:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r lol",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429812,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:49:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r lemme check",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429816,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h Discreet Facilitator says: Opulence, I am happy to report that everything goes according to plan.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429831,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h Opulence Ba'hare says: Welcome news, but I expect no less.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429836,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h Emissary Ba'solo says: We may yet profit from these endeavors.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429838,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h Opulence Ba'hare says: When I profit, we all profit. Each according to their station.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429841,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[01:50]|h Discreet Facilitator says: Of course, Opulence.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429845,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:55:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r also almost done with |cffffff00|Hachievement:14276:Player-162-09CE598E:0:0:0:-1:511:0:0:0|h[It's Always Sinny in Revendreth]|h|r |cff2080a0|Hgratsl:Honustustere:GUILD::14276|h[say grats]|h|r",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429869,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Tulyare-EmeraldDream:56:CHANNEL:2|h|cfffefefeTulyare|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-291121-162-84548429|h[Guild: The Midnight Sun]|h|r is a new guild, aiming to focus on Raids and M+. We are currently building our raid roster for 3 days per week  Need DPS and raid CDs, Pm if you are interested.",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429890,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:57:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r is there a mount for it?",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429897,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h Attendant Scribe says: Can these strangers truly traverse the Maw? Have mortal beings ever wielded such power?",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429900,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h Attendant Scribe says: We cannot deny that they escaped the Maw. This must be part of the Purpose.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429905,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:60:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r not that ive seen",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429905,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[01:51]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:61:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r saddly",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429910,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[01:52]|h Caretaker Kah-Syne says: Take these observations to the Fatescribe.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429941,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[01:52]|h Attendant Functionary says: Yes, Caretaker. At once.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429944,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[01:52]|h Caretaker Kah-Syne says: The Purpose is our way.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429947,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[01:52]|h Attendant Functionary says: Our way is the Purpose.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618429949,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h Emissary Ba'solo says: Opulence, this Arbiter that the attendants serve so fervently. Have you ever seen her carry out her supposed Purpose?",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430076,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Velsalestoo-EmeraldDream:97:CHANNEL:2|h|cff3ec6eaVelsalestoo|r|h|cffd8d8d8]|r: <3 Vel <3 Phoenix Community || Selling M+0 - M+20s!  Also WTS Heroic 10/10 Castle Nathria (AoTC only available as well) Ask about achievement runs too! - GOLD ONLY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430077,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h Opulence Ba'hare says: They allow no witnesses to that process. And they would probably banish us from Oribos for even asking.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430082,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h Emissary Ba'solo says: But are they not the most powerful beings in the Shadowlands? You always say there is profit in power.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430089,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h Opulence Ba'hare says: For your sake, Ba'solo, see that you do not.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430095,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:101:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r Alright man, I'll be back in a bit",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430096,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h |CFFFF7D0ADocantel |CFFFF0000(M)|r|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430098,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[01:54]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:103:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r ok",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430100,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[01:55]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Samoansavage-EmeraldDream:104:GUILD|h|cffd8bc3f60|r:|cfffef367Samoansavage|r|h|cffd8d8d8]|r Helpin kids with homework and such",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430105,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[01:55]|h |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:105:GUILD|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r ok",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430112,
+					["extraData"] = {
+						5, -- [1]
+						false, -- [2]
+						12, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[01:55]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430115,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[01:55]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430115,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[01:55]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618430115,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						29, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "0 |4day:days;, 18 |4hour:hours;, 59 |4minute:minutes;, 10 |4second:seconds;",
+					["timestamp"] = 82105.357,
+				}, -- [50]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 82105.357,
+				}, -- [51]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 82068.673,
+				}, -- [52]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 82068.673,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 82068.673,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have 1 friend |4request:requests;.",
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 82105.357,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 82105.357,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 82105.357,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 82105.357,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 82105.357,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 82105.357,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 82105.357,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618498465,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618498465,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffaeaeDetails!:|r use '/details me' macro to open the player breakdown for you!    ",
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618498465,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1618498468,
+					["timestamp"] = 82105.357,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618498471,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 82105.357,
+					["serverTime"] = 1618498471,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Caretaker Kah-Syne says: Take these observations to the Fatescribe.",
+					["serverTime"] = 1618498478,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82120.84700000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Attendant Functionary says: Yes, Caretaker. At once.",
+					["serverTime"] = 1618498481,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82127.363,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Caretaker Kah-Syne says: The Purpose is our way.",
+					["serverTime"] = 1618498481,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82127.363,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Guild Message of the Day: \"Post keystones in #game-chat on discord! Covenant Sanctum gear upgrades till i197. Mythic+ Keystones till +9. Save Valor Points to upgrade i210-220. Heroic CN i213-220. Mythic CN @ i230. More at kokonutkrew.com\"",
+					["serverTime"] = 1618498483,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 82127.363,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h Attendant Functionary says: Our way is the Purpose.",
+					["serverTime"] = 1618498484,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82129.782,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h [1. Raid] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1618498484,
+					["timestamp"] = 82129.782,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h [2. Mythic] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1618498484,
+					["timestamp"] = 82129.782,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[08:54]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 82135.833,
+					["serverTime"] = 1618498489,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[08:55]|h |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 82161.694,
+					["serverTime"] = 1618498515,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[08:55]|h You have invited |cff3ec6eaMayrii|r to join your group.",
+					["serverTime"] = 1618498526,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82172.952,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[08:55]|h Dungeon Difficulty set to Mythic.",
+					["serverTime"] = 1618498527,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82172.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[08:55]|h |cff3ec6eaMayrii|r joins the party.",
+					["serverTime"] = 1618498530,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82176.221,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h Attendant Scribe says: The brokers seem to be forging bonds with the mortals.",
+					["serverTime"] = 1618498574,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82220.028,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h Attendant Scribe says: They do. That should not surprise you. Their curiosity drives their acquisition of knowledge. They serve their part in the Purpose.",
+					["serverTime"] = 1618498577,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82223.697,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h Attendant Scribe says: Do you ever wonder what they plan to do with that knowledge?",
+					["serverTime"] = 1618498585,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82231.249,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h Attendant Scribe says: There are mysteries within the Purpose. You know this. The brokers have always operated in those spaces between.",
+					["serverTime"] = 1618498589,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82235.251,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h |Hchannel:channel:1|h[1. General] |hChanged Channel: |Hchannel:CHANNEL:1|h[1. General - The Maw]|h",
+					["serverTime"] = 1618498605,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82251.473,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1618498605,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82251.473,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[08:56]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Maw]|h",
+					["serverTime"] = 1618498605,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82251.473,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[08:57]|h Quest accepted: Forces of Perdition",
+					["serverTime"] = 1618498627,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82273.399,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[08:57]|h Quest accepted: Misery Business",
+					["serverTime"] = 1618498628,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82274.204,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[08:57]|h Quest accepted: The Jailer's Share",
+					["serverTime"] = 1618498629,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82275.02500000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[09:00]|h Daily quests are now reset!",
+					["serverTime"] = 1618498801,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82447.175,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[09:04]|h You are now Away: AFK",
+					["serverTime"] = 1618499047,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82693.303,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[09:07]|h |cffd8d8d8[|r|Hplayer:Mayrii-EmeraldDream:158:GUILD|h|cffd8bc3f60|r:|cff3ec6eaMayrii|r|h|cffd8d8d8]|r|CFFFF0000(M)|r(|CFFF58CBAKrimmzon|r):  has earned the achievement |cffffff00|Hachievement:14754:Player-162-095DD3E1:1:4:15:21:4294967295:4294967295:4294967295:4294967295|h[The Forgotten One]|h|r |cff2080a0|Hgratsl:Mayrii:GUILD::14754|h[say grats]|h|r!",
+					["serverTime"] = 1618499242,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82888.183,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[09:08]|h |CFFFF7D0AFydre|r has gone offline.",
+					["serverTime"] = 1618499334,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 82980.482,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[09:11]|h You are no longer Away.",
+					["serverTime"] = 1618499467,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 83113.205,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[09:11]|h You dance with Mayrii.",
+					["serverTime"] = 1618499475,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 83121.444,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[09:11]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - The Maw]|h",
+					["serverTime"] = 1618499492,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 83138.759,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[09:11]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Maw]|h",
+					["serverTime"] = 1618499492,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 83138.759,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,12 @@
+
+MacroToolkitDB = {
+	["profileKeys"] = {
+		["Saifuu - Emerald Dream"] = "profile",
+		["Waekk - Emerald Dream"] = "profile",
+		["Moostasche - Emerald Dream"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

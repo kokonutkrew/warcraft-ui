@@ -1,6 +1,9 @@
 
 ElvDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
 		["Samoanbatman - Emerald Dream"] = "Default",
 	},
 	["namespaces"] = {
@@ -10,6 +13,9 @@ ElvDB = {
 	["class"] = {
 		["Emerald Dream"] = {
 			["Samoanbatman"] = "DEMONHUNTER",
+			["Samoanlock"] = "WARLOCK",
+			["Ashh"] = "MAGE",
+			["Sonikk"] = "MONK",
 		},
 	},
 	["profiles"] = {
@@ -35,6 +41,27 @@ ElvDB = {
 	},
 	["LuaErrorDisabledAddOns"] = {
 	},
+	["serverID"] = {
+		[162] = {
+			["Emerald Dream"] = true,
+		},
+	},
+	["faction"] = {
+		["Emerald Dream"] = {
+			["Samoanbatman"] = "Alliance",
+			["Samoanlock"] = "Alliance",
+			["Ashh"] = "Alliance",
+			["Sonikk"] = "Alliance",
+		},
+	},
+	["gold"] = {
+		["Emerald Dream"] = {
+			["Samoanbatman"] = 6152177,
+			["Samoanlock"] = 290809,
+			["Ashh"] = 4182552,
+			["Sonikk"] = 110000,
+		},
+	},
 	["global"] = {
 		["nameplate"] = {
 			["filters"] = {
@@ -53,19 +80,25 @@ ElvDB = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						[7] = {
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [1]
+						[3] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[5] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
 						[11] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						},
-						[13] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
@@ -88,27 +121,24 @@ ElvDB = {
 			},
 		},
 	},
-	["gold"] = {
-		["Emerald Dream"] = {
-			["Samoanbatman"] = 13187256,
-		},
-	},
-	["faction"] = {
-		["Emerald Dream"] = {
-			["Samoanbatman"] = "Alliance",
-		},
-	},
-	["serverID"] = {
-		[162] = {
-			["Emerald Dream"] = true,
-		},
-	},
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
 		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
 	},
 	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Sonikk - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Ashh - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
 		["Samoanbatman - Emerald Dream"] = {
 			["install_complete"] = 12.23,
 		},

@@ -1,13 +1,14 @@
 
 GSEOptions = {
+	["Update3023"] = true,
 	["use2"] = false,
 	["showGSEUsers"] = false,
 	["editorHeight"] = 700,
 	["filterList"] = {
-		["All"] = false,
-		["Spec"] = true,
-		["Global"] = true,
 		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
 	},
 	["use11"] = false,
 	["debug"] = false,
@@ -27,12 +28,12 @@ GSEOptions = {
 		["LeftControl"] = false,
 		["LeftButton"] = false,
 		["LeftAlt"] = false,
-		["AnyMod"] = false,
-		["RightButton"] = false,
-		["Shift"] = false,
-		["Button5"] = false,
 		["RightShift"] = false,
+		["RightButton"] = false,
+		["AnyMod"] = false,
+		["Button5"] = false,
 		["LeftShift"] = false,
+		["Shift"] = false,
 		["Control"] = false,
 		["RightControl"] = false,
 		["MiddleButton"] = false,
@@ -58,41 +59,43 @@ GSEOptions = {
 	["sendDebugOutputToChatWindow"] = false,
 	["DisabledSequences"] = {
 	},
+	["DefaultImportAction"] = "MERGE",
+	["menuHeight"] = 500,
 	["sendDebugOutputToDebugOutput"] = false,
-	["Update2633"] = true,
-	["Update2601"] = true,
-	["Update2415"] = true,
-	["STRING"] = "|cff888888",
 	["CreateGlobalButtons"] = false,
 	["Update2305"] = true,
-	["Updated801"] = true,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["STRING"] = "|cff888888",
+	["useExternalMSTimings"] = true,
+	["clearUIErrors"] = false,
+	["autoCreateMacroStubsGlobal"] = false,
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
-	["STANDARDFUNCS"] = "|cff55ddcc",
-	["autoCreateMacroStubsClass"] = true,
+	["Update2601"] = true,
+	["editorWidth"] = 700,
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
 		["Storage"] = false,
-		["Versions"] = false,
 		["Editor"] = false,
+		["Versions"] = false,
 		["API"] = false,
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
-	["INDENT"] = "|cffccaa88",
-	["COMMENT"] = "|cff55cc55",
-	["DefaultImportAction"] = "MERGE",
-	["editorWidth"] = 500,
-	["UseVerboseExportFormat"] = false,
-	["useExternalMSTimings"] = true,
-	["RealtimeParse"] = false,
-	["use6"] = false,
-	["PromptSample"] = true,
-	["UNKNOWN"] = "|cffff6666",
+	["Update2415"] = true,
+	["autoCreateMacroStubsClass"] = true,
 	["AuthorColour"] = "|cFF00D1FF",
-	["showGSEoocqueue"] = true,
+	["PromptSample"] = true,
+	["UseVerboseExportFormat"] = false,
+	["UNKNOWN"] = "|cffff6666",
+	["Update2633"] = true,
+	["RealtimeParse"] = false,
 	["AddInPacks"] = {
+		["GSE2Library"] = {
+			["Name"] = "GSE2Library",
+			["Version"] = "3.0.61",
+		},
 		["Samples"] = {
 			["Name"] = "Samples",
 			["Version"] = "2.6.51",
@@ -101,15 +104,18 @@ GSEOptions = {
 			},
 		},
 	},
-	["clearUIErrors"] = false,
-	["use12"] = false,
-	["autoCreateMacroStubsGlobal"] = false,
-	["NormalColour"] = "|cFFFFFFFF",
-	["ActiveSequenceVersions"] = {
-	},
-	["saveAllMacrosLocal"] = true,
-	["setDefaultIconQuestionMark"] = true,
+	["Updated801"] = true,
 	["overflowPersonalMacros"] = false,
+	["INDENT"] = "|cffccaa88",
+	["COMMENT"] = "|cff55cc55",
+	["NormalColour"] = "|cFFFFFFFF",
+	["use12"] = false,
+	["saveAllMacrosLocal"] = true,
+	["Update3000"] = true,
+	["showGSEoocqueue"] = true,
+	["menuWidth"] = 700,
+	["setDefaultIconQuestionMark"] = true,
+	["use6"] = false,
 	["KEYWORD"] = "|cff88bbdd",
 }
 GSELibrary = nil
@@ -139,5 +145,37 @@ GSEStorage = {
 	{
 	}, -- [12]
 	[0] = {
+	},
+}
+GSE3Storage = {
+	{
+	}, -- [1]
+	{
+	}, -- [2]
+	{
+	}, -- [3]
+	{
+	}, -- [4]
+	{
+	}, -- [5]
+	{
+	}, -- [6]
+	{
+	}, -- [7]
+	{
+	}, -- [8]
+	{
+	}, -- [9]
+	{
+	}, -- [10]
+	{
+	}, -- [11]
+	{
+	}, -- [12]
+	[0] = {
+	},
+}
+GSESpellCache = {
+	["enUS"] = {
 	},
 }

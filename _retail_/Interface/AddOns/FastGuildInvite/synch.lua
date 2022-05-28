@@ -1,4 +1,4 @@
-local addon = FGI
+--[[ local addon = FGI
 local fn = addon.functions
 local L = FGI:GetLocale()
 local settings = L.settings
@@ -131,7 +131,7 @@ function frame.Success(self, text)
 	self:SetText(format("%s%s|r",color.green, text))
 end
 
-
+local confirmSending;
 
 interface.confirmSending = GUI:Create("ClearFrame")
 confirmSending = interface.confirmSending
@@ -197,3 +197,4 @@ frame:RegisterEvent('PLAYER_LOGIN')
 frame:SetScript('OnEvent', function()
 	DB = addon.DB
 end)
+ ]]

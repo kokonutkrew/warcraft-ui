@@ -1,0 +1,12 @@
+
+RCGroupGearDB = {
+	["profileKeys"] = {
+		["Saifuu - Emerald Dream"] = "Default",
+		["Waekk - Emerald Dream"] = "Default",
+		["Moostasche - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

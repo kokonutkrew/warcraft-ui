@@ -1,690 +1,9 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
+		"/ig disable", -- [1]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"i got everythaanng on the low", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616354852,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"the stats are not lying when they said half the players left shadowlands damnn this is dead", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			61, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616354893,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"chill jesus", -- [1]
-			"Keegunz-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keegunz-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-162-08554AFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcKeegunz|r",
-			[51] = 1616354912,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"ill ressurect the server ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616354924,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"i got this", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616354926,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"make our water wine please", -- [1]
-			"Keegunz-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keegunz-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			65, -- [11]
-			"Player-162-08554AFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcKeegunz|r",
-			[51] = 1616354937,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"its a horde heavy server lol", -- [1]
-			"Arksong-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Arksong-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			66, -- [11]
-			"Player-162-0A4E6BE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Arksong|r",
-			[51] = 1616354937,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"free wine for guild members only?", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			67, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616354956,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-269944-162-81985428|h[Guild: Timeless]|h|rjsut fking join o.O", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			68, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355018,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"[ TIMELESS ] Experienced players recruiting other experienced players who are interested in high end RAID [ 9/10H ] /MYTHICS+ KEYS [ +15 ]  and PVP/ RBG'S. ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			69, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355026,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"tired of a dead guild when you log on ? [ TIMELESS ] Experienced players recruiting other experienced players who are interested in high end RAID [ 9/10H ] /MYTHICS+ KEYS [ +15 ]  and PVP/ RBG'S. ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355162,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"Tired of noob not soaking there orbs in p3 , me too join [ TIMELESS ] Experienced players recruiting other experienced players who are interested in high end RAID [ 9/10H ] /MYTHICS+ KEYS [ +15 ]  and PVP/ RBG'S. ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355267,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Weekend Deals LIVE || WTS || M+10 - M+14s Discounted (Bundle and save on armor stacking) || KSM Discounted || 2x Torghast Layer Clears Discounted || 10/10 Heroic Castle Nathria or AOTC only DISCOUNTED || GOLD ONLY", -- [1]
-			"Ginan-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ginan-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			76, -- [11]
-			"Player-162-0A7EC593", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGinan|r",
-			[51] = 1616355302,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"Hey get out of here with youre sales ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355324,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"this is jesus's time", -- [1]
-			"Keegunz-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keegunz-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			78, -- [11]
-			"Player-162-08554AFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcKeegunz|r",
-			[51] = 1616355340,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"this is a guild recruitement  channel noob ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			79, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355352,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"[ TIMELESS ] Experienced players recruiting other experienced players who are interested in high end RAID [ 9/10H ] /MYTHICS+ KEYS [ +15 ]  and PVP/ RBG'S. ", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			80, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355364,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Ok server trully dead im out see ya earth good lucj", -- [1]
-			"Jësus-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jësus-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			81, -- [11]
-			"Player-162-0B364951", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJësus|r",
-			[51] = 1616355404,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"ok", -- [1]
-			"Trapjkmissed-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trapjkmissed-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			82, -- [11]
-			"Player-162-0B50CA8A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Trapjkmissed|r",
-			[51] = 1616355437,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"im back btch [ TIMELESS ] Experienced players recruiting other experienced players who are interested in high end RAID [ 9/10H ] /MYTHICS+ KEYS [ +15 ]  and PVP/ RBG'S. ", -- [1]
-			"Lïghtforged-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lïghtforged-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			83, -- [11]
-			"Player-162-0B36495A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Lïghtforged|r",
-			[51] = 1616355491,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"wts |cff0070dd|Hbattlepet:2707:1:3:161:12:10:0000000000000000:0|h[Budding Algan]|h|r", -- [1]
-			"Delyric-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Delyric-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"Player-162-0B5191F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDelyric|r",
-			[51] = 1616355540,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"Weekend Deals LIVE || WTS || M+10 - M+14s Discounted (Bundle and save on armor stacking) || KSM Discounted || 2x Torghast Layer Clears Discounted || 10/10 Heroic Castle Nathria or AOTC only DISCOUNTED || GOLD ONLY", -- [1]
-			"Ginan-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ginan-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			86, -- [11]
-			"Player-162-0A7EC593", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGinan|r",
-			[51] = 1616355614,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"|cffffd100|HclubFinder:ClubFinder-1-255361-162-82157428|h[Guild: Missing]|h|r Currently AOTC, recruiting for our mythic raid on wed/thurs 6-9 PM ST, looking for Rshaman, Hunter, Dh, warlock and a boomkin! PM for more info!", -- [1]
-			"Codoi-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Codoi-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-162-0B4F4DF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Codoi|r",
-			[51] = 1616355950,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<Questionable Morals> is an active casual PvP/PvE guild in search of more mouths to feed. We engage in Mythic+, RBGs, BGs,  Casual Raiding, and much more! We're also looking for more social members to add to our ranks. New players are welcome too :)", -- [1]
-			"Iraar-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Iraar-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			93, -- [11]
-			"Player-162-0B4CA087", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIraar|r",
-			[51] = 1616356487,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"can someone link that cat pet from the maldraxus conenant pls", -- [1]
-			"Bunions-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bunions-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			94, -- [11]
-			"Player-162-0B2BEC90", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cBunions|r",
-			[51] = 1616356504,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"are you talking about the slime one?", -- [1]
-			"Cellinheim-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cellinheim-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			95, -- [11]
-			"Player-162-092FFB45", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Cellinheim|r",
-			[51] = 1616356549,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"Weekend Deals LIVE || WTS || M+10 - M+14s Discounted (Bundle and save on armor stacking) || KSM Discounted || 2x Torghast Layer Clears Discounted || 10/10 Heroic Castle Nathria or AOTC only DISCOUNTED || GOLD ONLY", -- [1]
-			"Ginan-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ginan-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			98, -- [11]
-			"Player-162-0A7EC593", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cGinan|r",
-			[51] = 1616356642,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"WTS |cffa335ee|Hitem:183017::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r|cffa335ee|Hitem:183031::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r pst", -- [1]
-			"Kynly-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kynly-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-162-09DCA670", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Kynly|r",
-			[51] = 1616485089,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"hellllllllllllllllllllooooooooooooooooooooooooooooooooooooooooooooooooooooooooo", -- [1]
-			"Cbtkickballs-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cbtkickballs-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-162-0B40C488", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Cbtkickballs|r",
-			[51] = 1616485462,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"Hi", -- [1]
-			"Justila-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Justila-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-162-0B51510A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Justila|r",
-			[51] = 1616485470,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"xxxxxxxxx", -- [1]
-			"Daello-EmeraldDream", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Daello-EmeraldDream", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-162-0B3E9128", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Daello|r",
-			[51] = 1616485478,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
 		{
 			"any guilds recruiting", -- [1]
 			"Cbtkickballs-EmeraldDream", -- [2]
@@ -706,7 +25,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cbtkickballs|r",
 			[51] = 1616485490,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [1]
 		{
 			"WTS |cffa335ee|Hitem:183017::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Acolyte's Velvet Bindings]|h|r|cffa335ee|Hitem:183031::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Soldier's Stoneband Wristguards]|h|r pst", -- [1]
 			"Kynly-EmeraldDream", -- [2]
@@ -728,7 +47,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Kynly|r",
 			[51] = 1616485682,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [2]
 		{
 			"why does some trash have a skull ? |cff9d9d9d|Hitem:168793::::::::60:267:::::::|h[Bottle of Homemade Wine]|h|r", -- [1]
 			"Össur-EmeraldDream", -- [2]
@@ -750,7 +69,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edÖssur|r",
 			[51] = 1616486073,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [3]
 		{
 			"Trash has a skull? I don't understand", -- [1]
 			"Michaelcorps-EmeraldDream", -- [2]
@@ -772,7 +91,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMichaelcorps|r",
 			[51] = 1616486115,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [4]
 		{
 			"idk this is the second time i seen this", -- [1]
 			"Össur-EmeraldDream", -- [2]
@@ -794,7 +113,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edÖssur|r",
 			[51] = 1616486131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [5]
 		{
 			"Trubbish", -- [1]
 			"Daerolar-EmeraldDream", -- [2]
@@ -816,7 +135,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Daerolar|r",
 			[51] = 1616486147,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [6]
 		{
 			"it probly means its worth extra gold, but ive never seen it, then again i quit for 2months", -- [1]
 			"Minxlet-EmeraldDream", -- [2]
@@ -838,7 +157,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMinxlet|r",
 			[51] = 1616486153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [7]
 		{
 			"I mean, linking the item ... it doesn't have a skull in the tool tip?", -- [1]
 			"Michaelcorps-EmeraldDream", -- [2]
@@ -860,7 +179,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMichaelcorps|r",
 			[51] = 1616486153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12046:Player-162-096F3B6F:1:3:26:21:4294967295:4294967295:4294967295:4294967295|h[Remember the Titans]|h|r!", -- [1]
 			"Krimmzon-EmeraldDream", -- [2]
@@ -882,7 +201,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Krimmzon|r",
 			[51] = 1616784564,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-162-096F3B6F:1:3:26:21:4294967295:4294967295:4294967295:4294967295|h[Hope's End]|h|r!", -- [1]
 			"Krimmzon-EmeraldDream", -- [2]
@@ -904,7 +223,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Krimmzon|r",
 			[51] = 1616784564,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [10]
 		{
 			"Welcome", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -926,7 +245,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784746,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [42]
+		}, -- [11]
 		{
 			"Please be patient as we fill", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -948,7 +267,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784751,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [43]
+		}, -- [12]
 		{
 			"hello", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -970,7 +289,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784752,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [44]
+		}, -- [13]
 		{
 			"sur", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -992,7 +311,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784764,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [45]
+		}, -- [14]
 		{
 			"Looking to build a solid group", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1014,7 +333,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784771,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [46]
+		}, -- [15]
 		{
 			"147 ilvl?", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1036,7 +355,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784786,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
+		}, -- [16]
 		{
 			"the tank?", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1058,7 +377,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784790,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
+		}, -- [17]
 		{
 			"We have a tank logging in", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1080,7 +399,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784810,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [49]
+		}, -- [18]
 		{
 			"is it a carry group?", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1102,7 +421,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784822,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [50]
+		}, -- [19]
 		{
 			"Samoa is bringing me some supplies from AH", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1124,7 +443,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784827,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [51]
+		}, -- [20]
 		{
 			"ok ok", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1146,7 +465,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616784834,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [52]
+		}, -- [21]
 		{
 			"Sit tight as we fill", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1168,7 +487,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784850,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [53]
+		}, -- [22]
 		{
 			"Ill link discord when we are almost full", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1190,7 +509,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784865,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [54]
+		}, -- [23]
 		{
 			"dudes whiskey neat", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1212,7 +531,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616784881,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [24]
 		{
 			"Like no other Heroic Sire groups going right now", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1234,7 +553,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784891,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [56]
+		}, -- [25]
 		{
 			"hi", -- [1]
 			"Staladenar-Daggerspine", -- [2]
@@ -1256,7 +575,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Staladenar-Daggerspine|r",
 			[51] = 1616784904,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
+		}, -- [26]
 		{
 			"Welcome Staladenar", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1278,7 +597,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616784915,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [58]
+		}, -- [27]
 		{
 			"thanks", -- [1]
 			"Staladenar-Daggerspine", -- [2]
@@ -1300,7 +619,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Staladenar-Daggerspine|r",
 			[51] = 1616784965,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [59]
+		}, -- [28]
 		{
 			"seriosly no one likes whiskey neaat?", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1322,7 +641,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616784975,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [29]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-285733-162-66474423|h[Guild: Conclave Of Cool]|h|r Is looking to expand our Raid and RBG teams. We are 9/10H CN, run RBGs weekly, push  M+keys, and have 5+ events every week so there is something for everyone. PST!", -- [1]
 			"Misstress-EmeraldDream", -- [2]
@@ -1344,7 +663,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Misstress|r",
 			[51] = 1616784990,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [30]
 		{
 			"What kind of whiskey?", -- [1]
 			"Haroldzoid-EmeraldDream", -- [2]
@@ -1366,7 +685,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Haroldzoid|r",
 			[51] = 1616784991,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [31]
 		{
 			"Jack Daniels of course", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1388,7 +707,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [32]
 		{
 			"JD is so !@#$ing overrated", -- [1]
 			"Riddal-EmeraldDream", -- [2]
@@ -1410,7 +729,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Riddal|r",
 			[51] = 1616785037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [33]
 		{
 			"reloading addons", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1432,7 +751,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616785046,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [34]
 		{
 			"why bro?", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1454,7 +773,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785047,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [35]
 		{
 			"brb quickly", -- [1]
 			"Mëmorius-Zul'jin", -- [2]
@@ -1476,7 +795,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mëmorius-Zul'jin|r",
 			[51] = 1616785053,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [67]
+		}, -- [36]
 		{
 			"hello", -- [1]
 			"Droninlee-Proudmoore", -- [2]
@@ -1498,7 +817,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDroninlee-Proudmoore|r",
 			[51] = 1616785066,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [68]
+		}, -- [37]
 		{
 			"Welcome", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1520,7 +839,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616785076,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [69]
+		}, -- [38]
 		{
 			"Please be patient as we fill", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1542,7 +861,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616785082,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [70]
+		}, -- [39]
 		{
 			"people always espouse \"oh fuuuuuuck i love JD\" like a bunch of coomers and honestly?? ", -- [1]
 			"Riddal-EmeraldDream", -- [2]
@@ -1564,7 +883,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Riddal|r",
 			[51] = 1616785090,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [40]
 		{
 			"its like average at best", -- [1]
 			"Riddal-EmeraldDream", -- [2]
@@ -1586,7 +905,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Riddal|r",
 			[51] = 1616785095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [41]
 		{
 			"brb", -- [1]
 			"Staladenar-Daggerspine", -- [2]
@@ -1608,7 +927,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Staladenar-Daggerspine|r",
 			[51] = 1616785095,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [73]
+		}, -- [42]
 		{
 			"ok Boomer", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1630,7 +949,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [43]
 		{
 			"lol", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1652,7 +971,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785112,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [44]
 		{
 			"guildies or just throw together  i don't care either way just cerious???", -- [1]
 			"Droninlee-Proudmoore", -- [2]
@@ -1674,7 +993,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDroninlee-Proudmoore|r",
 			[51] = 1616785121,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [76]
+		}, -- [45]
 		{
 			"only people I know that like JD /are/ boomers ", -- [1]
 			"Riddal-EmeraldDream", -- [2]
@@ -1696,7 +1015,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Riddal|r",
 			[51] = 1616785132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [46]
 		{
 			"Np figure take min too build", -- [1]
 			"Droninlee-Proudmoore", -- [2]
@@ -1718,7 +1037,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDroninlee-Proudmoore|r",
 			[51] = 1616785133,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [78]
+		}, -- [47]
 		{
 			"ever had peanut buttter whiskey? ", -- [1]
 			"Argoane-EmeraldDream", -- [2]
@@ -1740,7 +1059,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaArgoane|r",
 			[51] = 1616785135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [48]
 		{
 			"I didnt see any other Sire group on at the moment", -- [1]
 			"Samoansage-EmeraldDream", -- [2]
@@ -1762,7 +1081,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSamoansage|r",
 			[51] = 1616785151,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [80]
+		}, -- [49]
 		{
 			"whisky tango bro", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1784,7 +1103,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616788792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [50]
 		{
 			"not boomer", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1806,7 +1125,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785200,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [51]
 		{
 			"aint no way yall are saying boomer still", -- [1]
 			"Fatknight-EmeraldDream", -- [2]
@@ -1828,7 +1147,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Fatknight|r",
 			[51] = 1616785206,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [52]
 		{
 			"Only 1  i saw they starting beginingly just like you what i saw  named  Sire all caps", -- [1]
 			"Droninlee-Proudmoore", -- [2]
@@ -1850,7 +1169,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDroninlee-Proudmoore|r",
 			[51] = 1616785208,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [84]
+		}, -- [53]
 		{
 			"What's wrong with saying Boomer?", -- [1]
 			"Hallucinant-EmeraldDream", -- [2]
@@ -1872,7 +1191,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hallucinant|r",
 			[51] = 1616785220,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [54]
 		{
 			"I just said whiskey tango bro", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1894,7 +1213,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785228,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [55]
 		{
 			"correction", -- [1]
 			"Fatknight-EmeraldDream", -- [2]
@@ -1916,7 +1235,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Fatknight|r",
 			[51] = 1616785229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [56]
 		{
 			"ok boomer", -- [1]
 			"Fatknight-EmeraldDream", -- [2]
@@ -1938,7 +1257,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Fatknight|r",
 			[51] = 1616785238,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [57]
 		{
 			"boomer alert", -- [1]
 			"Riddal-EmeraldDream", -- [2]
@@ -1960,7 +1279,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Riddal|r",
 			[51] = 1616785238,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [58]
 		{
 			"how is whiskey tango boomer?", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -1982,7 +1301,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [59]
 		{
 			"BOOM! gotcha lmao", -- [1]
 			"Lightbeardd-EmeraldDream", -- [2]
@@ -2004,7 +1323,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Lightbeardd|r",
 			[51] = 1616785270,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [60]
 		{
 			"its not that weird, people have been talking about generational generalizations since like the early 2000s. I doubt itll be outdated any time soon given how often its used", -- [1]
 			"Argoane-EmeraldDream", -- [2]
@@ -2026,7 +1345,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaArgoane|r",
 			[51] = 1616785286,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [61]
 		{
 			"game ded have fun in nathria for another 4 months", -- [1]
 			"Enthiogen-EmeraldDream", -- [2]
@@ -2048,7 +1367,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Enthiogen|r",
 			[51] = 1616785291,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [62]
 		{
 			"dude whisky tango foxtrot", -- [1]
 			"Cardibb-EmeraldDream", -- [2]
@@ -2070,7 +1389,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cardibb|r",
 			[51] = 1616785306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [63]
 		{
 			"if you dont self identify as a boomer, then it's not offensive to you anymore", -- [1]
 			"Pringlescan-EmeraldDream", -- [2]
@@ -2092,7 +1411,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPringlescan|r",
 			[51] = 1616785306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [64]
 		{
 			"yesterday i wiped like 40 times on sire cuz my tanks couldnt stay alive ¬¬", -- [1]
 			"Sertraline-Nemesis", -- [2]
@@ -2114,7 +1433,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSertraline-Nemesis|r",
 			[51] = 1616785342,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [96]
+		}, -- [65]
 		{
 			"i was like: get me out of here plzz", -- [1]
 			"Sertraline-Nemesis", -- [2]
@@ -2136,7 +1455,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSertraline-Nemesis|r",
 			[51] = 1616785352,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [97]
+		}, -- [66]
 		{
 			"dont get to confident", -- [1]
 			"Roosterbob-Stormrage", -- [2]
@@ -2158,7 +1477,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Roosterbob-Stormrage|r",
 			[51] = 1616785372,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [98]
+		}, -- [67]
 		{
 			"o.o", -- [1]
 			"Sertraline-Nemesis", -- [2]
@@ -2180,6 +1499,688 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSertraline-Nemesis|r",
 			[51] = 1616785396,
 			[50] = "CHAT_MSG_RAID",
+		}, -- [68]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1178:Player-162-0A49E245:1:5:8:21:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
+			"Samoanbatman-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Samoanbatman-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-162-0A49E245", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Samoanbatman|r",
+			[51] = 1620528745,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [69]
+		{
+			"a lvl 60 in the lower pvp brackets had  the audacity to say he was carrying. We lost and on top of that if anything he needed to be carrying his own 60 bracket", -- [1]
+			"Tickimeg-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tickimeg-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-162-0A677CC7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTickimeg|r",
+			[51] = 1621489429,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9100:Player-162-0A49E245:1:5:19:21:4294967295:4294967295:4294967295:4294967295|h[More Plots]|h|r!", -- [1]
+			"Samoanbatman-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Samoanbatman-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-162-0A49E245", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Samoanbatman|r",
+			[51] = 1621489472,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"the thing i liked most about classic was the gear gap wasnt significally better like the mc stuff was still good even when bwl came out ", -- [1]
+			"Naturewisp-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Naturewisp-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"Player-162-09A6E852", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Naturewisp|r",
+			[51] = 1621489538,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"they gotta make !@#$ viable throughout the whole thing in my opinion ", -- [1]
+			"Naturewisp-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Naturewisp-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"Player-162-09A6E852", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Naturewisp|r",
+			[51] = 1621489594,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9101:Player-162-0A49E245:1:5:19:21:4294967295:4294967295:4294967295:4294967295|h[Even More Plots]|h|r!", -- [1]
+			"Samoanbatman-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Samoanbatman-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-162-0A49E245", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Samoanbatman|r",
+			[51] = 1621489625,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [74]
+		{
+			"What does the acronym OCE stand for??", -- [1]
+			"Mathalord-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mathalord-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-162-0B2B1320", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMathalord|r",
+			[51] = 1622631917,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"T.T", -- [1]
+			"Mathalord-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mathalord-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-162-0B2B1320", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMathalord|r",
+			[51] = 1622631919,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"Oceanic servers?", -- [1]
+			"Nirshka-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nirshka-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"Player-162-0A00E474", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNirshka|r",
+			[51] = 1622631935,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"occupational !@#$ eater", -- [1]
+			"Arkidan-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arkidan-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-162-09C2FBFE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Arkidan|r",
+			[51] = 1622631942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"hmmm that makes sense", -- [1]
+			"Mathalord-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mathalord-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-162-0B2B1320", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMathalord|r",
+			[51] = 1622631946,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:238:Player-162-0B4FDB3C:1:6:2:21:4294967295:4294967295:4294967295:4294967295|h[An Honorable Kill]|h|r!", -- [1]
+			"Threadcraft-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Threadcraft-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-162-0B4FDB3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaThreadcraft|r",
+			[51] = 1622633129,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1259:Player-162-0B4FDB3C:1:6:2:21:4294967295:4294967295:4294967295:4294967295|h[Not So Fast]|h|r!", -- [1]
+			"Threadcraft-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Threadcraft-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-162-0B4FDB3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaThreadcraft|r",
+			[51] = 1622633501,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:229:Player-162-0B4FDB3C:1:6:2:21:4294967295:4294967295:4294967295:4294967295|h[The Grim Reaper]|h|r!", -- [1]
+			"Threadcraft-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Threadcraft-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-162-0B4FDB3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaThreadcraft|r",
+			[51] = 1622633792,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [82]
+		{
+			"what's the META for hunter in shadowlands?", -- [1]
+			"Aelydia-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aelydia-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-162-0A2A51EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Aelydia|r",
+			[51] = 1622633963,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:166:Player-162-0B4FDB3C:1:6:2:21:4294967295:4294967295:4294967295:4294967295|h[Warsong Gulch Victory]|h|r!", -- [1]
+			"Threadcraft-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Threadcraft-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-162-0B4FDB3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaThreadcraft|r",
+			[51] = 1622633993,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"WTS |cff0070dd|Hbattlepet:2117:1:3:149:14:10:0000000000000000:79783|h[Fel Lasher]|h|r|cff0070dd|Hbattlepet:2963:1:3:159:12:10:0000000000000000:99921|h[Mu'dud]|h|r", -- [1]
+			"Wethven-EmeraldDream", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wethven-EmeraldDream", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-162-09C23628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Wethven|r",
+			[51] = 1623708853,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			86, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1623709139,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"|cffffff00Stormwind City is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			87, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1623709151,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"[Spy] Player detected: Dusksurge-Uldaman <Scalebalancers> - Level 60 Blood Elf Demon Hunter - Zin-Azshari, Nazjatar (73,32)", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709439,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"2 or more hordes capping", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709487,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"2 of us on it too", -- [1]
+			"Sliverest-Stormrage", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Sliverest-Stormrage", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-60-0E7AF3E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Sliverest-Stormrage|r",
+			[51] = 1623709497,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"k", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709503,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"hunter/druid/brewmaster capping on horde side for sure", -- [1]
+			"Sliverest-Stormrage", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Sliverest-Stormrage", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-60-0E7AF3E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Sliverest-Stormrage|r",
+			[51] = 1623709516,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"[Spy] Player detected: Bagelrino-Illidan <Rewind> - Level 60 Orc Hunter - Lemor'athra Spire, Nazjatar (78,49)", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			121, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709519,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"40,460 hp hunter", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"1. General - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Nazjatar", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709536,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"one rouge is capping", -- [1]
+			"Orhganik-Stormrage", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Orhganik-Stormrage", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-60-077EA5D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Orhganik-Stormrage|r",
+			[51] = 1623709537,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"[Spy] Kill On Sight player detected: Namcoo-Arthas <God Kings> - Level 60 Pandaren Monk - Lemor'athra Spire, Nazjatar (78,50)", -- [1]
+			"Khayven-Executus", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Khayven-Executus", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-155-067CF843", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Khayven-Executus|r",
+			[51] = 1623709544,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Which point are you at DK and druid?", -- [1]
+			"Enigmagic-Stormrage", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Enigmagic-Stormrage", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			130, -- [11]
+			"Player-60-0A397C74", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaEnigmagic-Stormrage|r",
+			[51] = 1623709649,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"or are you participating?", -- [1]
+			"Enigmagic-Stormrage", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Enigmagic-Stormrage", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-60-0A397C74", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaEnigmagic-Stormrage|r",
+			[51] = 1623709702,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"invite me ", -- [1]
+			"Orhganik-Stormrage", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Nazjatar", -- [4]
+			"Orhganik-Stormrage", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Nazjatar", -- [9]
+			0, -- [10]
+			135, -- [11]
+			"Player-60-077EA5D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Orhganik-Stormrage|r",
+			[51] = 1623709732,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

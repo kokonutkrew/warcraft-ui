@@ -12,6 +12,7 @@ L["Profiles"] = "設定檔"
 L["About"] = "信息"
 L["SpyDescription1"] = [[
 Spy 是一個可以警告你附近有敵方玩家出沒的插件。這些是一些主要功能。
+
 ]]
 L["SpyDescription2"] = [[
 |cffffd000附近清單|cffffffff
@@ -24,10 +25,12 @@ L["SpyDescription2"] = [[
 Spy 不會顯示被加入到忽略清單中的玩家。透過滑鼠右鍵選單，或是按住 CTRL 鍵點擊名字將玩家加入清單和移除。
 
 |cffffd000即殺清單|cffffffff
-偵測到在即殺清單清單中的玩家時會發出警告。透過滑鼠右鍵選單，或是按住 SHIFT 鍵點擊名字將玩家加入清單和移除。
-
+偵測到在即殺清單清單中的玩家時會發出警告。透過滑鼠右鍵選單，或是按住 SHIFT 鍵點擊名字將玩家加入清單和移除。 
 滑鼠右鍵選單也可以設定將某人加入到即殺清單的原因。如果你想要輸入不在清單中的原因，請在其他清單中使用 "自行輸入原因..."。
 
+]]
+
+L["SpyDescription3"] = [[
 |cffffd000Statistics Window|cffffffff
 The Statistics Window contains a list of all enemy encounters which can be sorted by name, level, guild, wins, losses and the last time an enemy was detected. It also provides the ability to search for a specific enemy by name or guild and has filters to show only enemies that are marked as Kill on Sight, with a Win/Loss or entered Reasons. 
 
@@ -72,6 +75,8 @@ L["Silithus"] = "希利蘇斯"
 L["Chamber of Heart"] = "心之室"
 L["Hall of Ancient Paths"] = "远古通路大厅"
 L["Sanctum of the Sages"] = "賢者聖所"
+L["Rustbolt"] = "锈栓镇"
+L["Oribos"] = "奥利波斯"
 
 -- Display
 L["DisplayOptions"] = "顯示"
@@ -224,6 +229,7 @@ L["LimitSameContinentDescription"] = "只顯示同一塊大陸中偵測到的敵
 -- Data Management
 L["DataOptions"] = "資料維護"
 L["DataOptionsDescription"] = [[
+
 關於 Spy 如何維護和收集數據的選項。
 ]]
 L["PurgeData"] = "清除多久後未偵測到的敵方玩家:"
@@ -286,6 +292,7 @@ L["Time"] = "時間"
 L["List"] = "清單"
 L["Filter"] = "過濾"	
 L["Show Only"] = "只顯示"
+L["Realm"] = "Realm"
 L["KOS"] = "即殺"
 L["Won/Lost"] = "勝/敗"
 L["Reason"] = "原因"	  

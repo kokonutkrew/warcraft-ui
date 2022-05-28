@@ -37,7 +37,7 @@ function _detalhes:CreateProfile (name)
 		end
 		
 	--> copy the default table
-		local new_profile = table_deepcopy (_detalhes.default_profile)
+		local new_profile = Details.CopyTable (_detalhes.default_profile)
 		new_profile.instances = {}
 	
 	--> add to global container
@@ -126,7 +126,7 @@ function _detalhes:SetProfileCProp (name, cprop, value)
 	
 	if (profile) then
 		if (type (value) == "table") then
-			rawset (profile, cprop, table_deepcopy (value))
+			rawset (profile, cprop, Details.CopyTable (value))
 		else
 			rawset (profile, cprop, value)
 		end
@@ -171,7 +171,7 @@ function _detalhes:ResetProfile (profile_name)
 		local instance = _detalhes:GetInstance (1)
 		local exported = instance:ExportSkin()
 		exported.__was_opened = instance:IsEnabled()
-		exported.__pos = table_deepcopy (instance:GetPosition())
+		exported.__pos = Details.CopyTable (instance:GetPosition())
 		exported.__locked = instance.isLocked
 		exported.__snap = {}
 		exported.__snapH = false
@@ -203,8 +203,8 @@ function _detalhes:CreatePanicWarning()
 	_detalhes.instance_load_failed:SetPoint ("topright", UIParent, "topright", 0, -250)
 end
 
-local safe_load = function (func, param1, param2)
-	local okey, errortext = pcall (func, param1, param2)
+local safe_load = function (func, param1, ...)
+	local okey, errortext = pcall (func, param1, ...)
 	if (not okey) then
 		if (not _detalhes.instance_load_failed) then
 			_detalhes:CreatePanicWarning()
@@ -239,7 +239,7 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 			--> the entire key doesn't exist
 			if (profile [key] == nil) then
 				if (type (value) == "table") then
-					profile [key] = table_deepcopy (_detalhes.default_profile [key])
+					profile [key] = Details.CopyTable (_detalhes.default_profile [key])
 				else
 					profile [key] = value
 				end
@@ -257,10 +257,10 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 
 			if (type (value) == "table") then
 				if (key == "class_specs_coords") then
-					value = table_deepcopy (_detalhes.default_profile.class_specs_coords)
+					value = Details.CopyTable (_detalhes.default_profile.class_specs_coords)
 				end
 			
-				local ctable = table_deepcopy (value)
+				local ctable = Details.CopyTable (value)
 				_detalhes [key] = ctable
 			else
 				_detalhes [key] = value
@@ -341,7 +341,7 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 				--> copy skin
 				for key, value in pairs (skin) do
 					if (type (value) == "table") then
-						instance [key] = table_deepcopy (value)
+						instance [key] = Details.CopyTable (value)
 					else
 						instance [key] = value
 					end
@@ -359,7 +359,7 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 				--> load data saved for this character only
 				instance:LoadLocalInstanceConfig()
 				if (skin.__was_opened) then
-					if (not safe_load (_detalhes.AtivarInstancia, instance)) then
+					if (not safe_load (_detalhes.AtivarInstancia, instance, nil, true)) then
 						return
 					end
 				else
@@ -374,7 +374,7 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 				if (_detalhes.profile_save_pos) then
 					--print ("is profile save pos", skin.__pos.normal.x, skin.__pos.normal.y)
 					if (skin.__pos) then
-						instance.posicao = table_deepcopy (skin.__pos)
+						instance.posicao = Details.CopyTable (skin.__pos)
 					else
 						if (not instance.posicao) then
 							print ("|cFFFF2222Details!: Position for a window wasn't found! Moving it to the center of the screen.|r\nType '/details exitlog' to check for errors.")
@@ -386,7 +386,7 @@ function _detalhes:ApplyProfile (profile_name, nosave, is_copy)
 					end
 
 					instance.isLocked = skin.__locked
-					instance.snap = table_deepcopy (skin.__snap) or {}
+					instance.snap = Details.CopyTable (skin.__snap) or {}
 					instance.horizontalSnap = skin.__snapH
 					instance.verticalSnap = skin.__snapV
 				else
@@ -528,13 +528,12 @@ function _detalhes:SaveProfile (saveas)
 		local profile = _detalhes:GetProfile (profile_name, true)
 
 	--> save default keys
-
 		for key, _ in pairs (_detalhes.default_profile) do 
 		
 			local current_value = _detalhes [key]
 
 			if (type (current_value) == "table") then
-				local ctable = table_deepcopy (current_value)
+				local ctable = Details.CopyTable (current_value)
 				profile [key] = ctable
 			else
 				profile [key] = current_value
@@ -548,9 +547,9 @@ function _detalhes:SaveProfile (saveas)
 			for index, instance in ipairs (_detalhes.tabela_instancias) do
 				local exported = instance:ExportSkin()
 				exported.__was_opened = instance:IsEnabled()
-				exported.__pos = table_deepcopy (instance:GetPosition())
+				exported.__pos = Details.CopyTable (instance:GetPosition())
 				exported.__locked = instance.isLocked
-				exported.__snap = table_deepcopy (instance.snap)
+				exported.__snap = Details.CopyTable (instance.snap)
 				exported.__snapH = instance.horizontalSnap
 				exported.__snapV = instance.verticalSnap
 				profile.instances [index] = exported
@@ -821,9 +820,9 @@ local default_profile = {
 				0.23, -- [3]
 			},
 			["ARENA_GREEN"] = {
-				0.4, -- [1]
-				1, -- [2]
-				0.4, -- [3]
+				0.686, -- [1]
+				0.372, -- [2]
+				0.905, -- [3]
 			},
 			["ARENA_YELLOW"] = {
 				1, -- [1]
@@ -835,13 +834,29 @@ local default_profile = {
 				1, -- [2]
 				0, -- [3]
 			},
+			["SELF"] = {
+				0.89019, -- [1]
+				0.32156, -- [2]
+				0.89019, -- [3]
+			},
 		},
+
+		death_log_colors = {
+			damage = "red",
+			heal = "green",
+			friendlyfire = "darkorange",
+			cooldown = "yellow",
+			debuff = "purple",
+		},
+
+	fade_speed = 0.15,
+	use_self_color = false,
 
 	--> minimap
 		minimap = {hide = false, radius = 160, minimapPos = 220, onclick_what_todo = 1, text_type = 1, text_format = 3},
 		data_broker_text = "",
 		
-	--> horcorner
+	--> hotcorner
 		hotcorner_topleft = {hide = false},
 		
 	--> PvP
@@ -924,7 +939,7 @@ local default_profile = {
 		memory_ram = 64,
 		remove_realm_from_name = true,
 		trash_concatenate = false,
-		trash_auto_remove = true,
+		trash_auto_remove = false,
 		world_combat_is_trash = false,
 		
 	--> death log
@@ -970,6 +985,7 @@ local default_profile = {
 		overall_flag = 0x10,
 		overall_clear_newboss = true,
 		overall_clear_newchallenge = true,
+		overall_clear_newtorghast = true,
 		overall_clear_logout = false,
 		data_cleanup_logout = false,
 		close_shields = false,
@@ -1117,6 +1133,17 @@ local default_player_data = {
 			},
 			show_options = false,
 			current_cooldowns = {},
+			framme_locked = false,
+			filters = {
+				["defensive-raid"] = false,
+				["defensive-target"] = false,
+				["defensive-personal"] = false,
+				["ofensive"] = true,
+				["utility"] = false,
+			},
+			width = 120,
+			height = 18,
+			lines_per_column = 12,
 		},
 
 	--> force all fonts to have this outline
@@ -1125,6 +1152,7 @@ local default_player_data = {
 	--> current combat number
 		cached_specs = {},
 		cached_talents = {},
+		cached_roles = {},
 	
 		last_day = date ("%d"),
 	
@@ -1208,7 +1236,7 @@ local default_player_data = {
 		},
 		
 	--> death panel buttons
-		on_death_menu = true,
+		on_death_menu = false,
 }
 
 _detalhes.default_player_data = default_player_data
@@ -1247,6 +1275,13 @@ local default_global_data = {
 			["14"] = false,
 		},
 		current_exp_raid_encounters = {},
+		installed_skins_cache = {},
+
+	--> all switch settings (panel shown when right click the title bar)
+		all_switch_config = {
+			scale = 1,
+			font_size = 10,
+		},
 		
 	--> profile by spec
 		profile_by_spec = {},
@@ -1419,7 +1454,7 @@ function _detalhes:SaveProfileSpecial()
 			local current_value = _detalhes_database [key] or _detalhes_global [key] or _detalhes.default_player_data [key] or _detalhes.default_global_data [key]
 
 			if (type (current_value) == "table") then
-				local ctable = table_deepcopy (current_value)
+				local ctable = Details.CopyTable (current_value)
 				profile [key] = ctable
 			else
 				profile [key] = current_value
@@ -1474,7 +1509,7 @@ end
 function _detalhes:RestoreState_CurrentMythicDungeonRun()
 
 	--no need to check for mythic+ if the user is playing on classic wow
-	if (DetailsFramework.IsClassicWow()) then
+	if (DetailsFramework.IsTimewalkWoW()) then
 		return
 	end
 

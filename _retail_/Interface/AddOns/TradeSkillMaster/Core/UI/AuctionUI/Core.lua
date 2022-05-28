@@ -10,6 +10,7 @@ local L = TSM.Include("Locale").GetTable()
 local Delay = TSM.Include("Util.Delay")
 local Event = TSM.Include("Util.Event")
 local Log = TSM.Include("Util.Log")
+local Money = TSM.Include("Util.Money")
 local ScriptWrapper = TSM.Include("Util.ScriptWrapper")
 local Settings = TSM.Include("Service.Settings")
 local ItemLinked = TSM.Include("Service.ItemLinked")
@@ -111,6 +112,56 @@ function AuctionUI.IsVisible()
 	return private.frame and true or false
 end
 
+function AuctionUI.ParseBid(value)
+	local wasRawNumber = tonumber(value) and true or false
+	value = Money.FromString(value) or tonumber(value)
+	if not value then
+		return nil, L["The price must contain g/s/c labels. For example '1g 2s' means 1 gold and 2 silver."]
+	end
+	if not TSM.IsWowClassic() and value % COPPER_PER_SILVER ~= 0 then
+		if wasRawNumber then
+			return nil, L["The price must contain g/s/c labels. For example '1g 2s' means 1 gold and 2 silver."]
+		else
+			return nil, L["The AH does not support specifying a copper value (only gold and silver)."]
+		end
+	end
+	if value <= 0 then
+		return nil, L["The value must be greater than 0."]
+	end
+	if value > MAXIMUM_BID_PRICE then
+		return nil, L["The value was greater than the maximum allowed auction house price."]
+	end
+	return value
+end
+
+function AuctionUI.ParseBuyout(value, isCommodity)
+	local wasRawNumber = tonumber(value) and true or false
+	value = Money.FromString(value) or tonumber(value)
+	if not value then
+		return nil, L["The price must contain g/s/c labels. For example '1g 2s' means 1 gold and 2 silver."]
+	end
+	if not TSM.IsWowClassic() and value % COPPER_PER_SILVER ~= 0 then
+		if wasRawNumber then
+			return nil, L["The price must contain g/s/c labels. For example '1g 2s' means 1 gold and 2 silver."]
+		else
+			return nil, L["The AH does not support specifying a copper value (only gold and silver)."]
+		end
+	end
+	if isCommodity then
+		if value <= 0 then
+			return nil, L["The value must be greater than 0."]
+		end
+	else
+		if value < 0 then
+			return nil, L["The value must be greater than or equal of 0."]
+		end
+	end
+	if value > MAXIMUM_BID_PRICE then
+		return nil, L["The value was greater than the maximum allowed auction house price."]
+	end
+	return value
+end
+
 
 
 -- ============================================================================
@@ -144,6 +195,14 @@ function private.AuctionFrameInit()
 		PanelTemplates_SetNumTabs(private.defaultFrame, tabId)
 		PanelTemplates_EnableTab(private.defaultFrame, tabId)
 		ScriptWrapper.Set(tab, "OnClick", private.TSMTabOnClick)
+		if not TSM.IsWowClassic() then
+			AuctionHouseFrame:HookScript("OnShow", function(self)
+				self:UnregisterEvent("AUCTION_HOUSE_AUCTION_CREATED")
+				self:UnregisterEvent("AUCTION_HOUSE_SHOW_NOTIFICATION")
+				self:UnregisterEvent("AUCTION_HOUSE_SHOW_FORMATTED_NOTIFICATION")
+				self:UnregisterEvent("AUCTION_HOUSE_SHOW_COMMODITY_WON_NOTIFICATION")
+			end)
+		end
 	end
 	if private.settings.showDefault then
 		UIParent_OnEvent(UIParent, "AUCTION_HOUSE_SHOW")

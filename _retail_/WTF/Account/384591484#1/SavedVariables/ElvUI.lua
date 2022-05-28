@@ -1,7 +1,10 @@
 
 ElvDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
 		["Samoanbatman - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -9,7 +12,10 @@ ElvDB = {
 	},
 	["class"] = {
 		["Emerald Dream"] = {
+			["Samoanlock"] = "WARLOCK",
 			["Samoanbatman"] = "DEMONHUNTER",
+			["Ashh"] = "MAGE",
+			["Sonikk"] = "MONK",
 		},
 	},
 	["profiles"] = {
@@ -35,58 +41,37 @@ ElvDB = {
 	},
 	["LuaErrorDisabledAddOns"] = {
 	},
-	["serverID"] = {
-		[162] = {
-			["Emerald Dream"] = true,
-		},
-	},
-	["faction"] = {
-		["Emerald Dream"] = {
-			["Samoanbatman"] = "Alliance",
-		},
-	},
-	["gold"] = {
-		["Emerald Dream"] = {
-			["Samoanbatman"] = 13187256,
-		},
-	},
 	["global"] = {
-		["nameplate"] = {
-			["filters"] = {
-				["ElvUI_NonTarget"] = {
-				},
-				["ElvUI_Explosives"] = {
-				},
-				["ElvUI_Target"] = {
-				},
-				["ElvUI_Boss"] = {
-				},
-			},
-		},
 		["ignoreIncompatible"] = true,
 		["datatexts"] = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						[7] = {
+						{
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						},
+						}, -- [1]
 						[11] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[13] = {
+						[15] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[15] = {
+						[3] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+						[5] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
@@ -103,13 +88,46 @@ ElvDB = {
 			},
 		},
 	},
+	["gold"] = {
+		["Emerald Dream"] = {
+			["Samoanlock"] = 290809,
+			["Samoanbatman"] = 6152177,
+			["Ashh"] = 4182552,
+			["Sonikk"] = 110000,
+		},
+	},
+	["faction"] = {
+		["Emerald Dream"] = {
+			["Samoanlock"] = "Alliance",
+			["Samoanbatman"] = "Alliance",
+			["Ashh"] = "Alliance",
+			["Sonikk"] = "Alliance",
+		},
+	},
+	["serverID"] = {
+		[162] = {
+			["Emerald Dream"] = true,
+		},
+	},
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
 		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
 	},
 	["profiles"] = {
+		["Samoanlock - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Sonikk - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
 		["Samoanbatman - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+		["Ashh - Emerald Dream"] = {
 			["install_complete"] = 12.23,
 		},
 	},

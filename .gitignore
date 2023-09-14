@@ -69,6 +69,32 @@ _classic_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 !_classic_/WTF/Account/*/*/*/bindings-cache.wtf
 
 ################################################################################
+# Classic Era
+################################################################################
+
+# Recursively track the interface directory
+!_classic_era_/Interface/**
+_classic_era_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
+
+# Track Config files
+!_classic_era_/WTF/*.wtf
+
+# Track addon data
+!_classic_era_/WTF/Account/**/SavedVariables/**
+!_classic_era_/WTF/Account/**/**/**/SavedVariables/**
+
+# Whenever settings are downloaded from the server,
+# the old settings are saved in <file>.old. Log out, 
+# move them back into place and they'll be uploaded to
+# Blizzard servers.
+
+# Track settings that require an upload to Blizzard servers
+!_classic_era_/WTF/Account/*/*.txt
+!_classic_era_/WTF/Account/*/*.wtf
+!_classic_era_/WTF/Account/*/*/*/*.txt
+!_classic_era_/WTF/Account/*/*/*/bindings-cache.wtf
+
+################################################################################
 # Specific ignore cases
 ################################################################################
 *.DS_Store

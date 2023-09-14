@@ -13,11 +13,11 @@
 ################################################################################
 
 !\#kokonutkrew/**
-\#kokonutkrew/bgnotifier
-\#kokonutkrew/overwolf
-\#kokonutkrew/raider.io
-\#kokonutkrew/tsm
-\#kokonutkrew/wowhead/Wowhead_Client.exe
+\#kokonutkrew/bgnotifier/**
+\#kokonutkrew/overwolf/**
+\#kokonutkrew/raider.io/**
+\#kokonutkrew/tsm/**
+\#kokonutkrew/wowhead/**
 
 
 ################################################################################
@@ -26,6 +26,8 @@
 
 # Recursively track the interface directory
 !_retail_/Interface/**
+_retail_/Interface/AddOns/TheUndermineJournal/MarketData-EU.lua
+_retail_/Interface/AddOns/TheUndermineJournal/MarketData-US.lua
 _retail_/Interface/AddOns/TradeSkillMaster_AppHelper/AppData.lua
 
 # Track Config files

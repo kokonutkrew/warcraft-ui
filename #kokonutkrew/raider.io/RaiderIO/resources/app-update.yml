@@ -1,0 +1,7 @@
+owner: RaiderIO
+repo: raiderio-client-builds
+provider: github
+private: false
+updaterCacheDirName: raiderio-client-updater
+publisherName:
+  - Ludicrous Speed LLC

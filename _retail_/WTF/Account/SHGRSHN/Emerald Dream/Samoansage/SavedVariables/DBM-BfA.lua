@@ -1,2 +1,0 @@
-
-DBMAzerothBfA_SavedStats = nil

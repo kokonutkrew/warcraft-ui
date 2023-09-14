@@ -1,2 +1,0 @@
-
-RefluxDB = nil

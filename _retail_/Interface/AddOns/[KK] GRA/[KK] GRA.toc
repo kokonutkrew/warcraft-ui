@@ -1,8 +1,0 @@
-## Interface: 90005
-## Title: [KK] GRA
-## Notes: Guild Taxes
-## SavedVariablesPerCharacter: GRATaxDue, GRATaxToDate, GRATaxPercentage, GRAQuietMode
-## Version: 1.9
-## Author: Stark Springs & KnuffelpandaTV
-GRA.lua
-GRA.xml

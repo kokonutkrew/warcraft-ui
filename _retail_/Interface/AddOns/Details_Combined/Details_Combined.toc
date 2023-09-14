@@ -1,7 +1,0 @@
-## Interface: 80100
-## Title: Details Combined (plugin)
-## Notes: Plugin for Details
-## SavedVariablesPerCharacter: 
-## RequiredDeps: Details
-
-Details_Combined.lua

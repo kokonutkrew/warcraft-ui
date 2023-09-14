@@ -1,4 +1,0 @@
-VER 3 0100000000000003 "Black Ox" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@cursor] summon black ox statue
-END

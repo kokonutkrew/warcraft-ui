@@ -1,8 +1,8 @@
 # Ignore all
-*
+/*
 
 # Except for advanced tracking rules
-!*/
+#!*/
 
 # Track specific files
 !.gitignore
@@ -14,8 +14,11 @@
 
 !\#kokonutkrew/**
 \#kokonutkrew/bgnotifier
+\#kokonutkrew/overwolf
 \#kokonutkrew/raider.io
+\#kokonutkrew/tsm
 \#kokonutkrew/wowhead/Wowhead_Client.exe
+
 
 ################################################################################
 # Retail

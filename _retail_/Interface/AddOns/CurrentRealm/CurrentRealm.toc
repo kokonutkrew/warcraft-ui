@@ -1,6 +1,0 @@
-## Interface: 90002
-## Title: |cffEEE4AECurrent Realm|r
-## Version: 1.0.7
-## Notes: |cff58C6FADisplays current and connected realms on login and command.|r|n|n|cff8D8D8DSlash command: /currentrealm, /crealm|r
-
-CurrentRealm.lua

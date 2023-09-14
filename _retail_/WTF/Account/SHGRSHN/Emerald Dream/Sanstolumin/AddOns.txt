@@ -1,3 +1,0 @@
-Myslot: enabled
-[KK] FGI: disabled
-CanIMogIt: enabled

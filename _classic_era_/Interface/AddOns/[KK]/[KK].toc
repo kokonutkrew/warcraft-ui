@@ -73,5 +73,3 @@ Main.lua
 SlashCommands.lua
 ui\Options.lua
 ui\HelloWorld.lua
-
-testoi

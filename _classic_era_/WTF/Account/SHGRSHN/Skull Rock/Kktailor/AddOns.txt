@@ -49,7 +49,7 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 EMA-Classic: disabled
 FarmingBar: disabled
-FieldGuide: disabled
+FieldGuide: enabled
 GatherMate2: disabled
 GatherMate2_Data: disabled
 GatherNotify: disabled

@@ -3,6 +3,8 @@ RXPCData = {
 	["completedWaypoints"] = {
 		[61] = {
 		},
+		["tip"] = {
+		},
 		[62] = {
 		},
 	},
@@ -477,10 +479,10 @@ RXPCData = {
 		[834] = "Winds in the Desert",
 		[761] = "Swoop Hunting",
 		[748] = "Poison Water",
-		[786] = "Thwarting Kolkar Aggression",
+		[756] = "Thunderhorn Totem",
 		[812] = "Need for a Cure",
 		[784] = "Vanquish the Betrayers",
-		[756] = "Thunderhorn Totem",
+		[786] = "Thwarting Kolkar Aggression",
 		[806] = "Dark Storms",
 	},
 	["currentGuideName"] = "06-10 Durotar",
@@ -588,8 +590,8 @@ RXPCTrackingData = {
 						["Mulgore"] = {
 							[752] = 85,
 							[3091] = 40,
-							[753] = 250,
 							[747] = 170,
+							[753] = 250,
 						},
 					},
 				}, -- [2]
@@ -884,8 +886,8 @@ RXPCTrackingData = {
 					["deaths"] = 0,
 					["mobs"] = {
 						["Durotar"] = {
-							["xp"] = 2420,
-							["count"] = 22,
+							["xp"] = 4086,
+							["count"] = 32,
 						},
 					},
 					["timestamp"] = {
@@ -897,6 +899,16 @@ RXPCTrackingData = {
 							["year"] = 2023,
 							["hour"] = 17,
 							["minute"] = 21,
+						},
+						["finished"] = 32880,
+						["dateFinished"] = {
+							["monthDay"] = 15,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 38,
+							["year"] = 2023,
+							["hour"] = 7,
+							["weekday"] = 6,
 						},
 						["started"] = 24374,
 					},
@@ -910,6 +922,26 @@ RXPCTrackingData = {
 						},
 					},
 				}, -- [9]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 15,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 38,
+							["year"] = 2023,
+							["hour"] = 7,
+							["weekday"] = 6,
+						},
+						["started"] = 32881,
+					},
+					["quests"] = {
+					},
+				}, -- [10]
 			},
 		},
 	},
@@ -927,20 +959,20 @@ RXPCComms = {
 					["xp"] = 30,
 				},
 				["Failgasm"] = {
-					["level"] = 12,
+					["class"] = "HUNTER",
 					["lastSeen"] = 31232.3,
 					["xpPercentage"] = 87,
-					["class"] = "HUNTER",
-					["timePlayed"] = 0,
 					["isRxp"] = true,
+					["timePlayed"] = 0,
+					["level"] = 12,
 				},
 				["Popkkorn"] = {
-					["isRxp"] = true,
+					["level"] = 2,
 					["lastSeen"] = 136192.225,
 					["xpPercentage"] = 60,
-					["level"] = 2,
-					["timePlayed"] = 451.4159999999974,
 					["class"] = "HUNTER",
+					["timePlayed"] = 451.4159999999974,
+					["isRxp"] = true,
 				},
 				["Cupkek"] = {
 					["timePlayed"] = 1358.05799999999,
@@ -948,37 +980,37 @@ RXPCComms = {
 					["xp"] = 28,
 				},
 				["Fangz"] = {
-					["level"] = 9,
 					["class"] = "HUNTER",
+					["level"] = 9,
 					["lastSeen"] = 195857.66,
-					["timePlayed"] = 7250.018000000011,
+					["xpPercentage"] = 40,
 					["isRxp"] = true,
 					["xp"] = 28,
-					["xpPercentage"] = 40,
+					["timePlayed"] = 7250.018000000011,
 				},
 				["Cupcakess"] = {
-					["isRxp"] = true,
+					["level"] = 7,
 					["lastSeen"] = 195857.894,
 					["xpPercentage"] = 69,
-					["level"] = 7,
-					["timePlayed"] = 5905.944000000018,
 					["class"] = "HUNTER",
+					["timePlayed"] = 5905.944000000018,
+					["isRxp"] = true,
 				},
 				["Sscedew"] = {
-					["class"] = "HUNTER",
+					["isRxp"] = true,
 					["lastSeen"] = 190866.845,
 					["xpPercentage"] = 45,
-					["isRxp"] = true,
-					["timePlayed"] = 884.5210000000079,
 					["level"] = 2,
+					["timePlayed"] = 884.5210000000079,
+					["class"] = "HUNTER",
 				},
 				["Ribbeye"] = {
-					["level"] = 7,
+					["class"] = "DRUID",
 					["lastSeen"] = 289568.456,
 					["xpPercentage"] = 2,
-					["class"] = "DRUID",
-					["timePlayed"] = 105.1500000000233,
 					["isRxp"] = true,
+					["timePlayed"] = 105.1500000000233,
+					["level"] = 7,
 				},
 				["Vgb"] = {
 					["timePlayed"] = 1358.05799999999,
@@ -986,12 +1018,12 @@ RXPCComms = {
 					["xp"] = 28,
 				},
 				["Qfweqgweqgew"] = {
-					["isRxp"] = true,
+					["level"] = 4,
 					["lastSeen"] = 195858.094,
 					["xpPercentage"] = 15,
-					["level"] = 4,
-					["timePlayed"] = 3011.027999999991,
 					["class"] = "WARRIOR",
+					["timePlayed"] = 3011.027999999991,
+					["isRxp"] = true,
 				},
 				["Watervendor"] = {
 					["timePlayed"] = 337.9239999999991,

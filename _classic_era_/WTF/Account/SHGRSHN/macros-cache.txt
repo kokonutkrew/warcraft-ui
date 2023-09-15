@@ -2,10 +2,6 @@ VER 3 000000000000006C "/1 Guild" "134400"
 /1 The <[O.o]><[KK]> Crafting Guild! Active. Non-toxic. Discord community!
 /s The <[O.o]><[KK]> Crafting Guild! Active. Non-toxic. Discord community!
 END
-VER 3 000000000000005D "/d reload" "134400"
-#show hearthstone
-/reload
-END
 VER 3 0000000000000068 "/fgi invite" "134400"
 /fgi nextSearch
 /fgi invite
@@ -14,6 +10,11 @@ VER 3 000000000000005A "/ginvite" "133461"
 /fgi nextSearch
 /wave
 /ginvite
+END
+VER 3 0000000000000013 "/GuildInvite" "135946"
+/run SendChatMessage("Ahoy! Say, ye need'n a guild?","WHISPER",nil,UnitName("target"))
+/ginvite
+/wave
 END
 VER 3 0000000000000052 "/tar" "132212"
 #showtooltip
@@ -120,6 +121,10 @@ VER 3 0000000000000036 "AltD.Cure" "132094"
 END
 VER 3 0000000000000037 "AltU.Speed" "132094"
 END
+VER 3 000000000000005D "debug reload" "134414"
+#show hearthstone
+/reload
+END
 VER 3 0000000000000053 "debugIdentify" "136232"
 /run local f = GetMouseFocus(); if f then DEFAULT_CHAT_FRAME:AddMessage(f:GetName()) end
 END
@@ -212,6 +217,10 @@ VER 3 000000000000005F "hun2" "134400"
 /startattack
 /cast Mongoose Bite
 END
+VER 3 000000000000006E "hun4" "134400"
+#showtooltip
+/use arcane shot
+END
 VER 3 0000000000000060 "hunCC" "134400"
 #showtooltip Freezing Trap
 /stopattack
@@ -224,6 +233,9 @@ VER 3 0000000000000061 "hunE" "134400"
 #showtooltip Scatter Shot
 /petpassive
 /cast Scatter Shot
+END
+VER 3 000000000000006F "hunEagleEye" "134400"
+/cast !eagle eye
 END
 VER 3 000000000000005E "hunPetAttack" "134400"
 #showtooltip
@@ -295,18 +307,10 @@ VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
 /cast Pick Pocket
 END
 VER 3 000000000000006B "RXPTargeting" "132150"
-/targetexact Mangletooth
-/targetlasttarget [dead]
+//RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000059 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
-END
-VER 3 0000000000000056 "test" "INV_MISC_QUESTIONMARK"
-/tway 22 66
-/tway 19 60
-/tway 14 64
-/tway 8 54
-/tway 7 50
 END
 VER 3 0000000000000048 "warBloodrage" "INV_MISC_QUESTIONMARK"
 #show bloodrage
@@ -401,14 +405,6 @@ VER 3 0000000000000022 "xFishing" "136222"
 /equipset [mod:alt] Max Fishing
 /castsequence [mod:ctrl] Anglers Fishing Raft, Sharpened Tuskarr Spear, Sharpened Tuskarr Spear
 /use [mod:shift] Worm Supreme
-END
-VER 3 0000000000000013 "xGuildInvite" "135946"
-/run SendChatMessage("Ahoy! Say, ye need'n a guild?","WHISPER",nil,UnitName("target"))
-/ginvite
-/wave
-END
-VER 3 0000000000000014 "xGuildWhisper" "135946"
-/run SendChatMessage("Ahoy! Say, ye need'n a guild?","WHISPER",nil,UnitName("target"))
 END
 VER 3 0000000000000027 "xHideChat" "136222"
 /run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end

@@ -30,7 +30,7 @@ AdiBags-BOEOverlay: disabled
 AdiBags-ClassicItemLevel: disabled
 AdiBags-ItemRackSets: disabled
 AdiBags_Config: disabled
-AllTheThings: disabled
+AllTheThings: enabled
 AtlasLootClassic_Maps: disabled
 AtlasLootClassic_Options: disabled
 AtlasLootClassic_Collections: disabled

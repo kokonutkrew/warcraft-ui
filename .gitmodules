@@ -1,8 +1,0 @@
-[submodule "_classic_/Interface/AddOns/[update]/DBM-Classic"]
-	path = _classic_/Interface/AddOns/[update]/DBM-Classic
-	url = https://github.com/DeadlyBossMods/DBM-Classic.git
-	branch = master
-[submodule "#kokonutkrew/scripts"]
-	path = "#kokonutkrew/scripts"
-	url = https://github.com/kokonutkrew/scripts.git
-	branch = master

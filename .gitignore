@@ -5,8 +5,8 @@
 !*/
 
 # Track specific files
-!.gitignore
-!.gitmodules
+!/.gitignore
+!/.gitmodules
 
 ################################################################################
 # ＫＯＫＯＮＵＴＫＲＥＷ
@@ -25,7 +25,7 @@
 ################################################################################
 
 # Track specific addons
-#!_retail_/Interface/AddOns/[KK]
+!_retail_/Interface/AddOns/[KK]
 
 # Track Config files
 !_retail_/WTF/*.wtf
@@ -50,7 +50,7 @@
 ################################################################################
 
 # Track specific addons
-#!_classic_/Interface/AddOns/[KK]
+!_classic_/Interface/AddOns/[KK]
 
 # Track Config files
 !_classic_/WTF/*.wtf
@@ -75,7 +75,7 @@
 ################################################################################
 
 # Track specific addons
-#!_classic_era_/Interface/AddOns/[KK]
+!_classic_era_/Interface/AddOns/[KK]
 
 # Track Config files
 !_classic_era_/WTF/*.wtf
@@ -94,9 +94,3 @@
 !_classic_era_/WTF/Account/*/*.wtf
 !_classic_era_/WTF/Account/*/*/*/*.txt
 !_classic_era_/WTF/Account/*/*/*/bindings-cache.wtf
-
-################################################################################
-# Specific ignore cases
-################################################################################
-*.DS_Store
-**/build/**

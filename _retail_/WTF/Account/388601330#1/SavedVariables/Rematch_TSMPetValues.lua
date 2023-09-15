@@ -1,0 +1,16 @@
+
+Rematch_TSMPetValuesDB = {
+	["profileKeys"] = {
+		["Flours - Emerald Dream"] = "Default",
+		["Buhbels - Emerald Dream"] = "Default",
+		["Munnki - Emerald Dream"] = "Default",
+		["Plumn - Emerald Dream"] = "Default",
+		["Sparkkles - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["Rematch_PetList1"] = true,
+		["Rematch_PetList2"] = true,
+		["Rematch_Sorting"] = true,
+	},
+}

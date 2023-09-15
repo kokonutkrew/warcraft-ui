@@ -1,0 +1,25 @@
+VER 3 0000000000000006 "ControllerDisabl" "136139"
+/console GamePadEnable 0
+END
+VER 3 0000000000000005 "ControllerEnable" "136138"
+/console GamePadEnable 1
+END
+VER 3 0000000000000003 "Craft" "136031"
+/click TSMDestroyBtn LeftButton 1
+/click TSMCraftingBtn LeftButton 1
+/tsm destroy
+/run AutoLootMailItem(1)
+END
+VER 3 0000000000000002 "FGI" "135936"
+END
+VER 3 0000000000000004 "GRM" "237560"
+/grm
+/grm promote
+END
+VER 3 0000000000000001 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000007 "Reload" "134331"
+/reload
+END

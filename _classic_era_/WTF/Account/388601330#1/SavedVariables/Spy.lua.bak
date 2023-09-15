@@ -1,0 +1,94 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Skull Rock"] = {
+			["Horde"] = {
+				["Kkundercity"] = {
+				},
+				["Øø"] = {
+				},
+				["Bannhammer"] = {
+				},
+				["Kkorgrimmar"] = {
+				},
+				["Kkbrill"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Skull Rock"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kkbrill - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kkundercity - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Øø - Skull Rock"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Bannhammer - Skull Rock"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

@@ -1,0 +1,16 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cupkek"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

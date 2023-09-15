@@ -1,0 +1,983 @@
+
+RecklessAbandonDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Fedieb - Emerald Dream"] = "Default",
+		["Threadcraft - Emerald Dream"] = "Default",
+		["Buycraft - Emerald Dream"] = "Default",
+		["Samoansurge - Emerald Dream"] = "Default",
+		["Orecraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansaint - Tichondrius"] = "Default",
+		["Samoandrake - Emerald Dream"] = "Default",
+		["Samoantotems - Tichondrius"] = "Default",
+		["Forgecraft - Area 52"] = "Default",
+		["Herbcraft - Emerald Dream"] = "Default",
+		["Samoansneaky - Tichondrius"] = "Default",
+		["Samoanrelic - Emerald Dream"] = "Default",
+		["Threadcrafts - Emerald Dream"] = "Default",
+		["Farmcraft - Emerald Dream"] = "Default",
+		["Dustcraft - Emerald Dream"] = "Default",
+		["Ishaesh - Emerald Dream"] = "Default",
+		["Xb - Emerald Dream"] = "Default",
+		["Kkdev - Emerald Dream"] = "Default",
+		["Kk - Bloodhoof"] = "Default",
+		["Samoanghost - Frostmourne"] = "Default",
+		["Shadowcraft - Emerald Dream"] = "Default",
+		["Samoanbeast - Emerald Dream"] = "Default",
+		["Ikkl - Emerald Dream"] = "Default",
+		["Samoanrelic - Stormrage"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
+		["Samoanlegend - Emerald Dream"] = "Default",
+		["Forgecraft - Emerald Dream"] = "KokonutKrew",
+		["Samoansavage - Stormrage"] = "Default",
+		["Samoanmystic - Emerald Dream"] = "Default",
+		["Samoansavage - Emerald Dream"] = "KokonutKrew",
+		["Agenolm - Emerald Dream"] = "Default",
+		["Samoanrelic - Tichondrius"] = "Default",
+		["Samoantank - Tichondrius"] = "Default",
+		["Samoanranger - Emerald Dream"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Samoanruin - Emerald Dream"] = "Default",
+		["Forgecraft - Illidan"] = "Default",
+		["Gl - Emerald Dream"] = "Default",
+		["Samoansentry - Emerald Dream"] = "Default",
+		["Samoaninja - Tichondrius"] = "Default",
+		["Samoantank - Emerald Dream"] = "Default",
+		["Mf - Emerald Dream"] = "Default",
+		["Samoantitan - Emerald Dream"] = "Default",
+		["Samoansage - Emerald Dream"] = "Default",
+		["Samoanghost - Emerald Dream"] = "Default",
+		["Gearcraft - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["commands"] = {
+				["generic"] = {
+					["generic"] = {
+					},
+				},
+			},
+			["general"] = {
+				["confirmGroup"] = false,
+				["loginMessage"] = false,
+			},
+		},
+		["KokonutKrew"] = {
+			["commands"] = {
+				["generic"] = {
+					["generic"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RecklessAbandonPrivateDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Fedieb - Emerald Dream"] = "Fedieb - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Buycraft - Emerald Dream"] = "Buycraft - Emerald Dream",
+		["Samoansurge - Emerald Dream"] = "Samoansurge - Emerald Dream",
+		["Orecraft - Emerald Dream"] = "Orecraft - Emerald Dream",
+		["Samoansaint - Tichondrius"] = "Samoansaint - Tichondrius",
+		["Samoandrake - Emerald Dream"] = "Samoandrake - Emerald Dream",
+		["Samoantotems - Tichondrius"] = "Samoantotems - Tichondrius",
+		["Forgecraft - Area 52"] = "Forgecraft - Area 52",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoansneaky - Tichondrius"] = "Samoansneaky - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Threadcrafts - Emerald Dream"] = "Threadcrafts - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Ishaesh - Emerald Dream"] = "Ishaesh - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Kkdev - Emerald Dream"] = "Kkdev - Emerald Dream",
+		["Kk - Bloodhoof"] = "Kk - Bloodhoof",
+		["Samoanghost - Frostmourne"] = "Samoanghost - Frostmourne",
+		["Shadowcraft - Emerald Dream"] = "Shadowcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoanrelic - Stormrage"] = "Samoanrelic - Stormrage",
+		["Samoansage - Tichondrius"] = "Samoansage - Tichondrius",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Samoansavage - Stormrage"] = "Samoansavage - Stormrage",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Samoansavage - Emerald Dream"] = "Samoansavage - Emerald Dream",
+		["Agenolm - Emerald Dream"] = "Agenolm - Emerald Dream",
+		["Samoanrelic - Tichondrius"] = "Samoanrelic - Tichondrius",
+		["Samoantank - Tichondrius"] = "Samoantank - Tichondrius",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoantitan - Stormrage"] = "Samoantitan - Stormrage",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Forgecraft - Illidan"] = "Forgecraft - Illidan",
+		["Gl - Emerald Dream"] = "Gl - Emerald Dream",
+		["Samoansentry - Emerald Dream"] = "Samoansentry - Emerald Dream",
+		["Samoaninja - Tichondrius"] = "Samoaninja - Tichondrius",
+		["Samoantank - Emerald Dream"] = "Samoantank - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoantitan - Emerald Dream"] = "Samoantitan - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Samoanghost - Emerald Dream"] = "Samoanghost - Emerald Dream",
+		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+	},
+	["profiles"] = {
+		["Samoanslayer - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[71227] = {
+						["title"] = "Aerial Challenges",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Fedieb - Emerald Dream"] = {
+		},
+		["Threadcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[70033] = {
+						["title"] = "Artisan's Supply: Pioneer's Leather Boots",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[72735] = {
+						["title"] = "Still Into Perfume",
+						["source"] = 1,
+					},
+					[70351] = {
+						["title"] = "Garden Party",
+						["source"] = 1,
+					},
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+					[70883] = {
+						["title"] = "A Hand in Cultivation",
+						["source"] = 1,
+					},
+					[72189] = {
+						["title"] = "Garden Variety",
+						["source"] = 1,
+					},
+					[66997] = {
+						["title"] = "Nursery Direction",
+						["source"] = 1,
+					},
+					[66879] = {
+						["title"] = "Hornstrider Havoc",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Buycraft - Emerald Dream"] = {
+		},
+		["Samoansurge - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[70444] = {
+						["title"] = "The Fields of Ferocity",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[66239] = {
+						["title"] = "Spreading Decay",
+						["source"] = 1,
+					},
+					[65837] = {
+						["title"] = "Trouble In The Pines",
+						["source"] = 1,
+					},
+					[70930] = {
+						["title"] = "All Tea, No Shadeleaf",
+						["source"] = 1,
+					},
+					[66671] = {
+						["title"] = "Path to Nowhere",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Orecraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[64557] = {
+						["title"] = "In Darkness, Found",
+						["source"] = 1,
+					},
+					[58665] = {
+						["title"] = "Rebellious Souls",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoansaint - Tichondrius"] = {
+		},
+		["Samoandrake - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoantotems - Tichondrius"] = {
+		},
+		["Forgecraft - Area 52"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Herbcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[36239] = {
+						["title"] = "A Mysterious Satchel",
+						["source"] = 1,
+					},
+					[72735] = {
+						["title"] = "Still Into Perfume",
+						["source"] = 1,
+					},
+					[70837] = {
+						["title"] = "Follow the Clues",
+						["source"] = 1,
+					},
+					[39422] = {
+						["title"] = "Shipyard Report",
+						["source"] = 1,
+					},
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+					[66230] = {
+						["title"] = "A Sketchy Request",
+						["source"] = 1,
+					},
+					[72293] = {
+						["title"] = "Adventuring in the Dragon Isles",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[70883] = {
+						["title"] = "A Hand in Cultivation",
+						["source"] = 1,
+					},
+					[71093] = {
+						["title"] = "Legacy of Tyr: Secrets of the Past",
+						["source"] = 1,
+					},
+					[66100] = {
+						["title"] = "Supplying in Weight",
+						["source"] = 1,
+					},
+					[66472] = {
+						["title"] = "Primal List",
+						["source"] = 1,
+					},
+					[70650] = {
+						["title"] = "In Tyr's Footsteps: The Waking Shores",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoansneaky - Tichondrius"] = {
+		},
+		["Samoanrelic - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[38257] = {
+						["title"] = "We Need a Shipwright",
+						["source"] = 1,
+					},
+					[13819] = {
+						["title"] = "Heroic: All Is Well That Ends Well",
+						["source"] = 1,
+					},
+					[34778] = {
+						["title"] = "Migrant Workers",
+						["source"] = 1,
+					},
+					[29446] = {
+						["title"] = "A Wondrous Weapon",
+						["source"] = 1,
+					},
+					[58787] = {
+						["title"] = "Trial of Ascension",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+					[72773] = {
+						["title"] = "Learning Ingenuity",
+						["source"] = 1,
+					},
+					[37183] = {
+						["title"] = "The Critical Path",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Threadcrafts - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Farmcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[54938] = {
+						["title"] = "A Brother's Help",
+						["source"] = 1,
+					},
+					[29446] = {
+						["title"] = "A Wondrous Weapon",
+						["source"] = 1,
+					},
+					[54100] = {
+						["title"] = "A Way Out",
+						["source"] = 1,
+					},
+					[31363] = {
+						["title"] = "Lighting the Way",
+						["source"] = 1,
+					},
+					[56374] = {
+						["title"] = "A Titanic Problem",
+						["source"] = 1,
+					},
+					[51432] = {
+						["title"] = "An Unusual Mentor",
+						["source"] = 1,
+					},
+					[31364] = {
+						["title"] = "That's a Big Bug!",
+						["source"] = 1,
+					},
+					[55390] = {
+						["title"] = "In Darkness, I Dream",
+						["source"] = 1,
+					},
+					[65435] = {
+						["title"] = "The Dragon Isles Await",
+						["source"] = 1,
+					},
+					[55519] = {
+						["title"] = "A Fresh Trauma",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Dustcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[38257] = {
+						["title"] = "We Need a Shipwright",
+						["source"] = 1,
+					},
+					[29839] = {
+						["title"] = "One of a Kind",
+						["source"] = 1,
+					},
+					[13375] = {
+						["title"] = "The Heroic Key to the Focusing Iris",
+						["source"] = 1,
+					},
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+					[29834] = {
+						["title"] = "Gal'darah Must Pay",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[29844] = {
+						["title"] = "For Posterity",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Ishaesh - Emerald Dream"] = {
+		},
+		["Xb - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[29539] = {
+						["title"] = "Heart of Rage",
+						["source"] = 1,
+					},
+					[29538] = {
+						["title"] = "Make Them Bleed",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Kkdev - Emerald Dream"] = {
+		},
+		["Kk - Bloodhoof"] = {
+		},
+		["Samoanghost - Frostmourne"] = {
+		},
+		["Shadowcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[65686] = {
+						["title"] = "To the Azure Span",
+						["source"] = 1,
+					},
+					[72267] = {
+						["title"] = "Ohn'ahran Plains",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoanbeast - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65504] = {
+						["title"] = "Dragonhawk Soul",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[65436] = {
+						["title"] = "The Dragon Isles Await",
+						["source"] = 1,
+					},
+					[38257] = {
+						["title"] = "We Need a Shipwright",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Ikkl - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[35342] = {
+						["title"] = "The Mysterious Flask",
+						["source"] = 1,
+					},
+					[36286] = {
+						["title"] = "Transponder 047-B",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoanrelic - Stormrage"] = {
+		},
+		["Samoansage - Tichondrius"] = {
+		},
+		["Samoanlegend - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65425] = {
+						["title"] = "Whatever You Sayaad",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Forgecraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65779] = {
+						["title"] = "Into the Plains",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[72735] = {
+						["title"] = "Still Into Perfume",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+					[70930] = {
+						["title"] = "All Tea, No Shadeleaf",
+						["source"] = 1,
+					},
+					[65425] = {
+						["title"] = "Whatever You Sayaad",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoansavage - Stormrage"] = {
+		},
+		["Samoanmystic - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoansavage - Emerald Dream"] = {
+		},
+		["Agenolm - Emerald Dream"] = {
+		},
+		["Samoanrelic - Tichondrius"] = {
+		},
+		["Samoantank - Tichondrius"] = {
+		},
+		["Samoanranger - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[57245] = {
+						["title"] = "Ani-Matter Animator",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoantitan - Stormrage"] = {
+		},
+		["Bantoruskk - Emerald Dream"] = {
+		},
+		["Samoanruin - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65026] = {
+						["title"] = "Owl Soul",
+						["source"] = 1,
+					},
+					[29443] = {
+						["title"] = "A Curious Crystal",
+						["source"] = 1,
+					},
+					[29552] = {
+						["title"] = "Critical Condition",
+						["source"] = 1,
+					},
+					[29451] = {
+						["title"] = "The Master Strategist",
+						["source"] = 1,
+					},
+					[29444] = {
+						["title"] = "An Exotic Egg",
+						["source"] = 1,
+					},
+					[31739] = {
+						["title"] = "Priorities!",
+						["source"] = 1,
+					},
+					[31738] = {
+						["title"] = "Pillaging Peons",
+						["source"] = 1,
+					},
+					[65436] = {
+						["title"] = "The Dragon Isles Await",
+						["source"] = 1,
+					},
+					[61475] = {
+						["title"] = "The Heart of the Forest",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Forgecraft - Illidan"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[25152] = {
+						["title"] = "Your Place In The World",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Gl - Emerald Dream"] = {
+		},
+		["Samoansentry - Emerald Dream"] = {
+		},
+		["Samoaninja - Tichondrius"] = {
+		},
+		["Samoantank - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65435] = {
+						["title"] = "The Dragon Isles Await",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Mf - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[62567] = {
+						["title"] = "Adventurers Wanted: Chromie's Call",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoantitan - Emerald Dream"] = {
+		},
+		["Samoansage - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[70650] = {
+						["title"] = "In Tyr's Footsteps: The Waking Shores",
+						["source"] = 1,
+					},
+					[65795] = {
+						["title"] = "Next Steppes",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[71093] = {
+						["title"] = "Legacy of Tyr: Secrets of the Past",
+						["source"] = 1,
+					},
+					[70930] = {
+						["title"] = "All Tea, No Shadeleaf",
+						["source"] = 1,
+					},
+					[72190] = {
+						["title"] = "Reservoir Reservations",
+						["source"] = 1,
+					},
+					[70883] = {
+						["title"] = "A Hand in Cultivation",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoanghost - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Gearcraft - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[29445] = {
+						["title"] = "An Intriguing Grimoire",
+						["source"] = 1,
+					},
+					[71219] = {
+						["title"] = "The Wayward Waywatcher",
+						["source"] = 1,
+					},
+					[72735] = {
+						["title"] = "Still Into Perfume",
+						["source"] = 1,
+					},
+					[36286] = {
+						["title"] = "Transponder 047-B",
+						["source"] = 1,
+					},
+					[71239] = {
+						["title"] = "Lost to the Skies",
+						["source"] = 1,
+					},
+					[66997] = {
+						["title"] = "Nursery Direction",
+						["source"] = 1,
+					},
+					[64557] = {
+						["title"] = "In Darkness, Found",
+						["source"] = 1,
+					},
+					[66879] = {
+						["title"] = "Hornstrider Havoc",
+						["source"] = 1,
+					},
+					[58665] = {
+						["title"] = "Rebellious Souls",
+						["source"] = 1,
+					},
+					[40519] = {
+						["title"] = "Legion: The Legion Returns",
+						["source"] = 1,
+					},
+					[72067] = {
+						["title"] = "Relaxation Time!",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+	},
+}

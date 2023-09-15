@@ -1,0 +1,39 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kkbrill - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Kkundercity - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Øø - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+		["Bannhammer - Skull Rock"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+}

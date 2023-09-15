@@ -1,0 +1,14 @@
+VER 3 0100000000000003 "Infernal Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] infernal strike
+END
+VER 3 0100000000000001 "Infernal Strikes" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000002 "Metamorphosis" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] metamorphosis
+END
+VER 3 0100000000000004 "Sigil of Flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@cursor] Sigil of Flame
+END

@@ -1,0 +1,92 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Emerald Dream"] = {
+			["Cupkek"] = "DRUID",
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["convertPages"] = true,
+			["dbConverted"] = 12.23,
+			["actionbar"] = {
+				["bar6"] = {
+					["enabled"] = true,
+					["buttonsPerRow"] = 6,
+					["buttons"] = 6,
+				},
+				["microbar"] = {
+					["buttons"] = 11,
+				},
+				["bar5"] = {
+					["enabled"] = false,
+					["buttonsPerRow"] = 12,
+					["buttons"] = 12,
+				},
+			},
+		},
+	},
+	["LuaErrorDisabledAddOns"] = {
+	},
+	["serverID"] = {
+		[162] = {
+			["Emerald Dream"] = true,
+		},
+	},
+	["faction"] = {
+		["Emerald Dream"] = {
+			["Cupkek"] = "Alliance",
+		},
+	},
+	["gold"] = {
+		["Emerald Dream"] = {
+			["Cupkek"] = 416215,
+		},
+	},
+	["global"] = {
+		["nameplate"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+				},
+				["ElvUI_Explosives"] = {
+				},
+				["ElvUI_Target"] = {
+				},
+				["ElvUI_Boss"] = {
+				},
+			},
+		},
+		["ignoreIncompatible"] = true,
+		["datatexts"] = {
+			["settings"] = {
+				["Currencies"] = {
+					["tooltipData"] = {
+						[3] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						},
+					},
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["profiles"] = {
+		["Cupkek - Emerald Dream"] = {
+			["install_complete"] = 12.23,
+		},
+	},
+}

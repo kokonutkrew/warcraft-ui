@@ -1,0 +1,13 @@
+
+VoiceOverDB = {
+	["profileKeys"] = {
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkundercity - Skull Rock"] = {
+		},
+		["Øø - Skull Rock"] = {
+		},
+	},
+}

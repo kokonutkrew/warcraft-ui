@@ -1,0 +1,9 @@
+FastGuildInvite: disabled
+CanIMogIt: enabled
+BuyEmAll: disabled
+EasyDeleteConfirm: enabled
+Immersion: enabled
+Leatrix_Maps: enabled
+Leatrix_Plus: enabled
+Myslot: enabled
+MoveAnything: disabled

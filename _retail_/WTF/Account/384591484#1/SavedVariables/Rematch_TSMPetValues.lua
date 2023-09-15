@@ -1,0 +1,19 @@
+
+Rematch_TSMPetValuesDB = {
+	["profileKeys"] = {
+		["Kkdelete - Emerald Dream"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+		["Bubbels - Emerald Dream"] = "Default",
+		["Clawes - Emerald Dream"] = "Default",
+		["Wratheane - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Bladerest - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["Rematch_PetList1"] = true,
+		["Rematch_PetList2"] = true,
+		["Rematch_Sorting"] = true,
+	},
+}

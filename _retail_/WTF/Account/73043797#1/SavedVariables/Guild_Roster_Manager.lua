@@ -1,0 +1,1215 @@
+
+GRM_PlayersThatLeftHistory_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_GuildMemberHistory_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_CalendarAddQue_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_LogReport_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_AddonSettings_Save = {
+	["A"] = {
+		["Bunni-EmeraldDream"] = {
+			["includeTag"] = true,
+			["toChat"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["banned"] = true,
+				["recommend"] = true,
+				["left"] = true,
+				["eventAnnounce"] = true,
+				["officerNote"] = true,
+				["nameChange"] = true,
+				["customNote"] = true,
+				["joined"] = true,
+			},
+			["scanEnabled"] = true,
+			["noteSetEnabled"] = true,
+			["exportAllRanks"] = true,
+			["customPos"] = false,
+			["globalDateFormat"] = 1,
+			["syncRank"] = 2,
+			["allAltRequirement"] = true,
+			["minimapPos"] = 345,
+			["selectedLang"] = 1,
+			["reportInactiveReturn"] = true,
+			["syncRankCustom"] = 2,
+			["customTags"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["syncCustomNote"] = true,
+			["AnnounceBdayOnLogin"] = true,
+			["syncEnabled"] = true,
+			["colorizeClassicRosterNames"] = true,
+			["syncChatEnabled"] = true,
+			["tooltipSize"] = 0.9,
+			["twentyFourHrScale"] = false,
+			["viewGuildRep"] = true,
+			["showTooltip"] = true,
+			["syncBDays"] = true,
+			["colorizeNames"] = true,
+			["exportFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+			},
+			["mainTagIndex"] = 2,
+			["syncSettings"] = true,
+			["ignoreDeadNames"] = false,
+			["addTimestampToNote"] = false,
+			["onlyShowIncomplete"] = false,
+			["logColor"] = {
+				{
+					0.5, -- [1]
+					1, -- [2]
+					0, -- [3]
+				}, -- [1]
+				{
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				}, -- [2]
+				{
+					0, -- [1]
+					1, -- [2]
+					0.87, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					0.914, -- [2]
+					0, -- [3]
+				}, -- [4]
+				{
+					0.91, -- [1]
+					0.388, -- [2]
+					0.047, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					0.6, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					0.094, -- [2]
+					0.93, -- [3]
+				}, -- [7]
+				{
+					0.24, -- [1]
+					0.69, -- [2]
+					0.49, -- [3]
+				}, -- [8]
+				{
+					0.9, -- [1]
+					0.82, -- [2]
+					0.62, -- [3]
+				}, -- [9]
+				{
+					0.64, -- [1]
+					0.102, -- [2]
+					0.102, -- [3]
+				}, -- [10]
+				{
+					0, -- [1]
+					0.8, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					0.5, -- [1]
+					0.5, -- [2]
+					0.5, -- [3]
+				}, -- [12]
+				{
+					0.65, -- [1]
+					0.19, -- [2]
+					1, -- [3]
+				}, -- [13]
+				{
+					1, -- [1]
+					0, -- [2]
+					0, -- [3]
+				}, -- [14]
+			},
+			["JDAuditToolFilter"] = false,
+			["removedMacroRules"] = {
+				["promoteRules"] = {
+				},
+				["kickRules"] = {
+				},
+				["demoteRules"] = {
+				},
+			},
+			["minimapCustomPos"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["scanDelay"] = 30,
+			["CoreWindowPos"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["promoteRules"] = {
+			},
+			["onlyAnnounceForMain"] = true,
+			["GIModule"] = {
+				["InteractDistanceIndicator"] = true,
+				["tradeIndicatorColorConnectedRealm"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["tradeIndicatorColorAny"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["enabled"] = true,
+			},
+			["macroToolCoordinates"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["autoIntervalDays"] = 7,
+			["allowAutoBackups"] = true,
+			["useMainTag"] = true,
+			["addNotesToLeft"] = true,
+			["includeBirthdaysInAudit"] = false,
+			["unknownIsComplete"] = true,
+			["demoteOnlineOnly"] = false,
+			["showLineNumbers"] = true,
+			["dateFormat"] = 1,
+			["macroSyncDemoteEnabled"] = true,
+			["showMouseoverRetail"] = true,
+			["demoteRules"] = {
+			},
+			["promoteOnlineOnly"] = false,
+			["calendarAnnouncements"] = true,
+			["levelReportMin"] = 10,
+			["reportChannel"] = {
+			},
+			["version"] = "R1.954",
+			["macroSyncPromoteEnabled"] = true,
+			["ignoreFilter"] = false,
+			["macroSyncKickEnabled"] = true,
+			["kickRules"] = {
+			},
+			["columnHeaders"] = false,
+			["fontModifier"] = 0,
+			["logFontSize"] = 0,
+			["levelFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["exportDelimiter"] = {
+				true, -- [1]
+				";", -- [2]
+			},
+			["autoFocusSearch"] = false,
+			["useFullName"] = false,
+			["disableMacroToolLogSpam"] = false,
+			["useFade"] = false,
+			["UIScaling"] = {
+				1, -- [1]
+				1.33, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["minimapRad"] = 78,
+			["onlyViewIfChanges"] = true,
+			["showBDay"] = true,
+			["viewOnLoad"] = true,
+			["syncDelay"] = 60,
+			["selectedFont"] = 1,
+			["showBorders"] = true,
+			["toLog"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["banned"] = true,
+				["recommend"] = true,
+				["left"] = true,
+				["eventAnnounce"] = true,
+				["officerNote"] = true,
+				["nameChange"] = true,
+				["customNote"] = true,
+				["joined"] = true,
+			},
+			["joinDateDestination"] = 1,
+			["allowEventsToCalendar"] = true,
+			["showMainName"] = true,
+			["eventAdvanceDays"] = 14,
+			["autoTriggerSync"] = true,
+			["syncCompatibilityMsg"] = false,
+			["recordLevelUp"] = true,
+			["syncBanList"] = true,
+			["inactiveHours"] = 336,
+			["shiftClickRemove"] = true,
+			["minimapEnabled"] = true,
+			["mainTagColor"] = {
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 1,
+			},
+			["syncRankBanList"] = 0,
+			["showMouseoverOld"] = true,
+			["defaultTabSelection"] = {
+				false, -- [1]
+				1, -- [2]
+			},
+		},
+		["Luvley-EmeraldDream"] = {
+			["includeTag"] = true,
+			["toChat"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["left"] = true,
+				["recommend"] = true,
+				["eventAnnounce"] = true,
+				["banned"] = true,
+				["officerNote"] = true,
+				["nameChange"] = true,
+				["customNote"] = true,
+				["joined"] = true,
+			},
+			["scanEnabled"] = true,
+			["noteSetEnabled"] = true,
+			["exportAllRanks"] = true,
+			["customPos"] = false,
+			["globalDateFormat"] = 1,
+			["syncRank"] = 2,
+			["allAltRequirement"] = true,
+			["minimapPos"] = 345,
+			["selectedLang"] = 1,
+			["reportInactiveReturn"] = true,
+			["syncRankCustom"] = 2,
+			["customTags"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["syncCustomNote"] = true,
+			["AnnounceBdayOnLogin"] = true,
+			["syncEnabled"] = true,
+			["colorizeClassicRosterNames"] = true,
+			["syncChatEnabled"] = true,
+			["tooltipSize"] = 0.9,
+			["twentyFourHrScale"] = false,
+			["viewGuildRep"] = true,
+			["showTooltip"] = true,
+			["syncBDays"] = true,
+			["colorizeNames"] = true,
+			["exportFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+			},
+			["mainTagIndex"] = 2,
+			["syncSettings"] = true,
+			["ignoreDeadNames"] = false,
+			["addTimestampToNote"] = false,
+			["onlyShowIncomplete"] = false,
+			["logColor"] = {
+				{
+					0.5, -- [1]
+					1, -- [2]
+					0, -- [3]
+				}, -- [1]
+				{
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				}, -- [2]
+				{
+					0, -- [1]
+					1, -- [2]
+					0.87, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					0.914, -- [2]
+					0, -- [3]
+				}, -- [4]
+				{
+					0.91, -- [1]
+					0.388, -- [2]
+					0.047, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					0.6, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					0.094, -- [2]
+					0.93, -- [3]
+				}, -- [7]
+				{
+					0.24, -- [1]
+					0.69, -- [2]
+					0.49, -- [3]
+				}, -- [8]
+				{
+					0.9, -- [1]
+					0.82, -- [2]
+					0.62, -- [3]
+				}, -- [9]
+				{
+					0.64, -- [1]
+					0.102, -- [2]
+					0.102, -- [3]
+				}, -- [10]
+				{
+					0, -- [1]
+					0.8, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					0.5, -- [1]
+					0.5, -- [2]
+					0.5, -- [3]
+				}, -- [12]
+				{
+					0.65, -- [1]
+					0.19, -- [2]
+					1, -- [3]
+				}, -- [13]
+				{
+					1, -- [1]
+					0, -- [2]
+					0, -- [3]
+				}, -- [14]
+			},
+			["JDAuditToolFilter"] = false,
+			["removedMacroRules"] = {
+				["promoteRules"] = {
+				},
+				["kickRules"] = {
+				},
+				["demoteRules"] = {
+				},
+			},
+			["minimapCustomPos"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["scanDelay"] = 30,
+			["CoreWindowPos"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["promoteRules"] = {
+			},
+			["onlyAnnounceForMain"] = true,
+			["GIModule"] = {
+				["InteractDistanceIndicator"] = true,
+				["tradeIndicatorColorAny"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["tradeIndicatorColorConnectedRealm"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["enabled"] = true,
+			},
+			["macroToolCoordinates"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["autoIntervalDays"] = 7,
+			["includeBirthdaysInAudit"] = false,
+			["useMainTag"] = true,
+			["addNotesToLeft"] = true,
+			["minimapEnabled"] = true,
+			["unknownIsComplete"] = true,
+			["macroSyncDemoteEnabled"] = true,
+			["showLineNumbers"] = true,
+			["dateFormat"] = 1,
+			["syncBanList"] = true,
+			["showMouseoverRetail"] = true,
+			["demoteRules"] = {
+			},
+			["levelReportMin"] = 10,
+			["calendarAnnouncements"] = true,
+			["promoteOnlineOnly"] = false,
+			["reportChannel"] = {
+			},
+			["version"] = "R1.954",
+			["macroSyncPromoteEnabled"] = true,
+			["ignoreFilter"] = false,
+			["macroSyncKickEnabled"] = true,
+			["fontModifier"] = 0,
+			["exportDelimiter"] = {
+				true, -- [1]
+				";", -- [2]
+			},
+			["recordLevelUp"] = true,
+			["logFontSize"] = 0,
+			["levelFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["autoFocusSearch"] = false,
+			["useFade"] = false,
+			["selectedFont"] = 1,
+			["disableMacroToolLogSpam"] = false,
+			["UIScaling"] = {
+				1, -- [1]
+				1.33, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["onlyViewIfChanges"] = true,
+			["showMouseoverOld"] = true,
+			["columnHeaders"] = false,
+			["showBDay"] = true,
+			["viewOnLoad"] = true,
+			["minimapRad"] = 78,
+			["syncDelay"] = 60,
+			["showBorders"] = true,
+			["toLog"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["left"] = true,
+				["recommend"] = true,
+				["eventAnnounce"] = true,
+				["banned"] = true,
+				["officerNote"] = true,
+				["nameChange"] = true,
+				["customNote"] = true,
+				["joined"] = true,
+			},
+			["useFullName"] = false,
+			["joinDateDestination"] = 1,
+			["showMainName"] = true,
+			["allowEventsToCalendar"] = true,
+			["kickRules"] = {
+			},
+			["syncCompatibilityMsg"] = false,
+			["eventAdvanceDays"] = 14,
+			["autoTriggerSync"] = true,
+			["inactiveHours"] = 336,
+			["shiftClickRemove"] = true,
+			["demoteOnlineOnly"] = false,
+			["mainTagColor"] = {
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 1,
+			},
+			["syncRankBanList"] = 0,
+			["allowAutoBackups"] = true,
+			["defaultTabSelection"] = {
+				false, -- [1]
+				1, -- [2]
+			},
+		},
+		["Brisannie-EmeraldDream"] = {
+			["includeTag"] = true,
+			["toChat"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["joined"] = true,
+				["recommend"] = true,
+				["customNote"] = true,
+				["nameChange"] = true,
+				["officerNote"] = true,
+				["banned"] = true,
+				["eventAnnounce"] = true,
+				["left"] = true,
+			},
+			["scanEnabled"] = true,
+			["noteSetEnabled"] = true,
+			["exportAllRanks"] = true,
+			["customPos"] = false,
+			["globalDateFormat"] = 1,
+			["syncRank"] = 2,
+			["allAltRequirement"] = true,
+			["minimapPos"] = 345,
+			["selectedLang"] = 1,
+			["reportInactiveReturn"] = true,
+			["syncRankCustom"] = 2,
+			["customTags"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["syncCustomNote"] = true,
+			["AnnounceBdayOnLogin"] = true,
+			["syncEnabled"] = true,
+			["colorizeClassicRosterNames"] = true,
+			["syncChatEnabled"] = true,
+			["tooltipSize"] = 0.9,
+			["twentyFourHrScale"] = false,
+			["viewGuildRep"] = true,
+			["showTooltip"] = true,
+			["syncBDays"] = true,
+			["colorizeNames"] = true,
+			["exportFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+			},
+			["mainTagIndex"] = 2,
+			["syncSettings"] = true,
+			["ignoreDeadNames"] = false,
+			["addTimestampToNote"] = false,
+			["onlyShowIncomplete"] = false,
+			["logColor"] = {
+				{
+					0.5, -- [1]
+					1, -- [2]
+					0, -- [3]
+				}, -- [1]
+				{
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				}, -- [2]
+				{
+					0, -- [1]
+					1, -- [2]
+					0.87, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					0.914, -- [2]
+					0, -- [3]
+				}, -- [4]
+				{
+					0.91, -- [1]
+					0.388, -- [2]
+					0.047, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					0.6, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					0.094, -- [2]
+					0.93, -- [3]
+				}, -- [7]
+				{
+					0.24, -- [1]
+					0.69, -- [2]
+					0.49, -- [3]
+				}, -- [8]
+				{
+					0.9, -- [1]
+					0.82, -- [2]
+					0.62, -- [3]
+				}, -- [9]
+				{
+					0.64, -- [1]
+					0.102, -- [2]
+					0.102, -- [3]
+				}, -- [10]
+				{
+					0, -- [1]
+					0.8, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					0.5, -- [1]
+					0.5, -- [2]
+					0.5, -- [3]
+				}, -- [12]
+				{
+					0.65, -- [1]
+					0.19, -- [2]
+					1, -- [3]
+				}, -- [13]
+				{
+					1, -- [1]
+					0, -- [2]
+					0, -- [3]
+				}, -- [14]
+			},
+			["JDAuditToolFilter"] = false,
+			["removedMacroRules"] = {
+				["promoteRules"] = {
+				},
+				["kickRules"] = {
+				},
+				["demoteRules"] = {
+				},
+			},
+			["minimapCustomPos"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["scanDelay"] = 30,
+			["CoreWindowPos"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["promoteRules"] = {
+			},
+			["onlyAnnounceForMain"] = true,
+			["GIModule"] = {
+				["InteractDistanceIndicator"] = true,
+				["enabled"] = true,
+				["tradeIndicatorColorAny"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["tradeIndicatorColorConnectedRealm"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+			},
+			["macroToolCoordinates"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["allowAutoBackups"] = true,
+			["includeBirthdaysInAudit"] = false,
+			["useMainTag"] = true,
+			["addNotesToLeft"] = true,
+			["minimapEnabled"] = true,
+			["demoteOnlineOnly"] = false,
+			["macroSyncDemoteEnabled"] = true,
+			["showLineNumbers"] = true,
+			["dateFormat"] = 1,
+			["syncBanList"] = true,
+			["showMouseoverRetail"] = true,
+			["autoTriggerSync"] = true,
+			["eventAdvanceDays"] = 14,
+			["calendarAnnouncements"] = true,
+			["levelReportMin"] = 10,
+			["reportChannel"] = {
+			},
+			["version"] = "R1.954",
+			["syncCompatibilityMsg"] = false,
+			["kickRules"] = {
+			},
+			["allowEventsToCalendar"] = true,
+			["exportDelimiter"] = {
+				true, -- [1]
+				";", -- [2]
+			},
+			["joinDateDestination"] = 1,
+			["fontModifier"] = 0,
+			["logFontSize"] = 0,
+			["levelFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["useFullName"] = false,
+			["useFade"] = false,
+			["selectedFont"] = 1,
+			["disableMacroToolLogSpam"] = false,
+			["syncDelay"] = 60,
+			["minimapRad"] = 78,
+			["showMouseoverOld"] = true,
+			["onlyViewIfChanges"] = true,
+			["viewOnLoad"] = true,
+			["showBDay"] = true,
+			["columnHeaders"] = false,
+			["UIScaling"] = {
+				1, -- [1]
+				1.33, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["showBorders"] = true,
+			["toLog"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["joined"] = true,
+				["recommend"] = true,
+				["customNote"] = true,
+				["nameChange"] = true,
+				["officerNote"] = true,
+				["banned"] = true,
+				["eventAnnounce"] = true,
+				["left"] = true,
+			},
+			["autoFocusSearch"] = false,
+			["recordLevelUp"] = true,
+			["showMainName"] = true,
+			["macroSyncKickEnabled"] = true,
+			["ignoreFilter"] = false,
+			["macroSyncPromoteEnabled"] = true,
+			["promoteOnlineOnly"] = false,
+			["demoteRules"] = {
+			},
+			["inactiveHours"] = 336,
+			["shiftClickRemove"] = true,
+			["unknownIsComplete"] = true,
+			["mainTagColor"] = {
+				["r"] = 1,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["syncRankBanList"] = 0,
+			["autoIntervalDays"] = 7,
+			["defaultTabSelection"] = {
+				false, -- [1]
+				1, -- [2]
+			},
+		},
+		["Mygallexi-EmeraldDream"] = {
+			["includeTag"] = true,
+			["toChat"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["joined"] = true,
+				["recommend"] = true,
+				["customNote"] = true,
+				["nameChange"] = true,
+				["officerNote"] = true,
+				["banned"] = true,
+				["eventAnnounce"] = true,
+				["left"] = true,
+			},
+			["scanEnabled"] = true,
+			["noteSetEnabled"] = true,
+			["exportAllRanks"] = true,
+			["customPos"] = false,
+			["globalDateFormat"] = 1,
+			["syncRank"] = 2,
+			["allAltRequirement"] = true,
+			["minimapPos"] = 345,
+			["selectedLang"] = 1,
+			["reportInactiveReturn"] = true,
+			["syncRankCustom"] = 2,
+			["customTags"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["syncCustomNote"] = true,
+			["AnnounceBdayOnLogin"] = true,
+			["syncEnabled"] = true,
+			["colorizeClassicRosterNames"] = true,
+			["syncChatEnabled"] = true,
+			["tooltipSize"] = 0.9,
+			["twentyFourHrScale"] = false,
+			["viewGuildRep"] = true,
+			["showTooltip"] = true,
+			["syncBDays"] = true,
+			["colorizeNames"] = true,
+			["exportFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+			},
+			["mainTagIndex"] = 2,
+			["syncSettings"] = true,
+			["ignoreDeadNames"] = false,
+			["addTimestampToNote"] = false,
+			["onlyShowIncomplete"] = false,
+			["logColor"] = {
+				{
+					0.5, -- [1]
+					1, -- [2]
+					0, -- [3]
+				}, -- [1]
+				{
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				}, -- [2]
+				{
+					0, -- [1]
+					1, -- [2]
+					0.87, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					0.914, -- [2]
+					0, -- [3]
+				}, -- [4]
+				{
+					0.91, -- [1]
+					0.388, -- [2]
+					0.047, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					0.6, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					0.094, -- [2]
+					0.93, -- [3]
+				}, -- [7]
+				{
+					0.24, -- [1]
+					0.69, -- [2]
+					0.49, -- [3]
+				}, -- [8]
+				{
+					0.9, -- [1]
+					0.82, -- [2]
+					0.62, -- [3]
+				}, -- [9]
+				{
+					0.64, -- [1]
+					0.102, -- [2]
+					0.102, -- [3]
+				}, -- [10]
+				{
+					0, -- [1]
+					0.8, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					0.5, -- [1]
+					0.5, -- [2]
+					0.5, -- [3]
+				}, -- [12]
+				{
+					0.65, -- [1]
+					0.19, -- [2]
+					1, -- [3]
+				}, -- [13]
+				{
+					1, -- [1]
+					0, -- [2]
+					0, -- [3]
+				}, -- [14]
+			},
+			["JDAuditToolFilter"] = false,
+			["removedMacroRules"] = {
+				["promoteRules"] = {
+				},
+				["kickRules"] = {
+				},
+				["demoteRules"] = {
+				},
+			},
+			["minimapCustomPos"] = {
+				"", -- [1]
+				"", -- [2]
+			},
+			["scanDelay"] = 30,
+			["CoreWindowPos"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["promoteRules"] = {
+			},
+			["onlyAnnounceForMain"] = true,
+			["GIModule"] = {
+				["InteractDistanceIndicator"] = true,
+				["enabled"] = true,
+				["tradeIndicatorColorConnectedRealm"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+				["tradeIndicatorColorAny"] = {
+					0, -- [1]
+					0.97, -- [2]
+					0.97, -- [3]
+				},
+			},
+			["macroToolCoordinates"] = {
+				"", -- [1]
+				"", -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["showMouseoverOld"] = true,
+			["allowAutoBackups"] = true,
+			["useMainTag"] = true,
+			["addNotesToLeft"] = true,
+			["includeBirthdaysInAudit"] = false,
+			["minimapEnabled"] = true,
+			["demoteOnlineOnly"] = false,
+			["showLineNumbers"] = true,
+			["dateFormat"] = 1,
+			["macroSyncDemoteEnabled"] = true,
+			["showMouseoverRetail"] = true,
+			["syncBanList"] = true,
+			["recordLevelUp"] = true,
+			["calendarAnnouncements"] = true,
+			["promoteOnlineOnly"] = false,
+			["reportChannel"] = {
+			},
+			["version"] = "R1.954",
+			["syncCompatibilityMsg"] = false,
+			["autoTriggerSync"] = true,
+			["eventAdvanceDays"] = 14,
+			["kickRules"] = {
+			},
+			["allowEventsToCalendar"] = true,
+			["fontModifier"] = 0,
+			["logFontSize"] = 0,
+			["levelFilters"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["joinDateDestination"] = 1,
+			["useFullName"] = false,
+			["useFade"] = false,
+			["disableMacroToolLogSpam"] = false,
+			["selectedFont"] = 1,
+			["syncDelay"] = 60,
+			["minimapRad"] = 78,
+			["columnHeaders"] = false,
+			["viewOnLoad"] = true,
+			["showBDay"] = true,
+			["onlyViewIfChanges"] = true,
+			["UIScaling"] = {
+				1, -- [1]
+				1.33, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["showBorders"] = true,
+			["toLog"] = {
+				["note"] = true,
+				["leveled"] = true,
+				["demotion"] = true,
+				["inactiveReturn"] = true,
+				["promotion"] = true,
+				["rankRename"] = true,
+				["joined"] = true,
+				["recommend"] = true,
+				["customNote"] = true,
+				["nameChange"] = true,
+				["officerNote"] = true,
+				["banned"] = true,
+				["eventAnnounce"] = true,
+				["left"] = true,
+			},
+			["autoFocusSearch"] = false,
+			["exportDelimiter"] = {
+				true, -- [1]
+				";", -- [2]
+			},
+			["showMainName"] = true,
+			["macroSyncKickEnabled"] = true,
+			["ignoreFilter"] = false,
+			["macroSyncPromoteEnabled"] = true,
+			["levelReportMin"] = 10,
+			["demoteRules"] = {
+			},
+			["inactiveHours"] = 336,
+			["shiftClickRemove"] = true,
+			["unknownIsComplete"] = true,
+			["mainTagColor"] = {
+				["r"] = 1,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["syncRankBanList"] = 0,
+			["autoIntervalDays"] = 7,
+			["defaultTabSelection"] = {
+				false, -- [1]
+				1, -- [2]
+			},
+		},
+	},
+	["H"] = {
+	},
+}
+GRM_PlayerListOfAlts_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_FullBackup_Save = nil
+GRM_GuildDataBackup_Save = {
+	["A"] = {
+	},
+	["H"] = {
+	},
+}
+GRM_Misc = {
+	["Bunni-EmeraldDream"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+	},
+	["Luvley-EmeraldDream"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+	},
+	["Brisannie-EmeraldDream"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+	},
+	["Mygallexi-EmeraldDream"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+	},
+}
+GRM_Alts = {
+}
+GRM_DailyAnnounce = {
+	["date"] = "20230311",
+}

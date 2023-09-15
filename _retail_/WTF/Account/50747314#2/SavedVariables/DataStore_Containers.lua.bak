@@ -1,0 +1,90 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Bnightholdkk"] = {
+				["lastUpdate"] = 1673255166,
+				["numFreeBagSlots"] = 19,
+				["numBagSlots"] = 20,
+				["Containers"] = {
+					["Bag0"] = {
+						["size"] = 20,
+						["ids"] = {
+							6948, -- [1]
+						},
+						["freeslots"] = 19,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::1:1450::75:::::::|h[Hearthstone]|h|r", -- [1]
+						},
+					},
+				},
+			},
+			["Default.Emerald Dream.Aerielle"] = {
+				["lastUpdate"] = 1672603979,
+				["numBagSlots"] = 30,
+				["numFreeBagSlots"] = 27,
+				["Containers"] = {
+					["Bag0"] = {
+						["freeslots"] = 17,
+						["ids"] = {
+							6948, -- [1]
+							157022, -- [2]
+							157758, -- [3]
+						},
+						["size"] = 20,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::10:266::75:::::::|h[Hearthstone]|h|r", -- [1]
+							"|cffffffff|Hitem:157022::::::::10:266::11::1:28:863:::::|h[Letter from King Anduin Wrynn]|h|r", -- [2]
+							"|cff0070dd|Hitem:157758::::::::10:266::11::1:28:863:::::|h[Ren'dorei Tabard]|h|r", -- [3]
+						},
+					},
+					["Bag1"] = {
+						["rarity"] = 1,
+						["link"] = "|cffffffff|Hitem:157787::::::::10:266:::::::::|h[Large Red Sack]|h|r",
+						["freeslots"] = 10,
+						["icon"] = 133643,
+						["size"] = 10,
+					},
+				},
+			},
+			["Default.Emerald Dream.Sphinx"] = {
+				["lastUpdate"] = 1674307860,
+				["numBagSlots"] = 20,
+				["numFreeBagSlots"] = 20,
+				["Containers"] = {
+					["Bag0"] = {
+						["freeslots"] = 20,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 20,
+					},
+				},
+			},
+			["Default.Emerald Dream.Bantoruskk"] = {
+				["lastUpdate"] = 1673287445,
+				["numFreeBagSlots"] = 19,
+				["numBagSlots"] = 20,
+				["Containers"] = {
+					["Bag0"] = {
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::1:1451::75:::::::|h[Hearthstone]|h|r", -- [1]
+						},
+						["ids"] = {
+							6948, -- [1]
+						},
+						["size"] = 20,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["freeslots"] = 19,
+					},
+				},
+			},
+		},
+	},
+}

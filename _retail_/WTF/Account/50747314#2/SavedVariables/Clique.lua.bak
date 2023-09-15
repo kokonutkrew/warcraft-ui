@@ -1,0 +1,99 @@
+
+CliqueDB = nil
+CliqueDB3 = {
+	["char"] = {
+		["Sphinx - Emerald Dream"] = {
+			["spec1_profileKey"] = "Sphinx - Emerald Dream",
+			["fastooc"] = false,
+			["downclick"] = false,
+			["spec4_profileKey"] = "Sphinx - Emerald Dream",
+			["spec3_profileKey"] = "Sphinx - Emerald Dream",
+			["spec2_profileKey"] = "Sphinx - Emerald Dream",
+			["specswap"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bnightholdkk - Emerald Dream"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Bantoruskk - Emerald Dream"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Sphinx - Emerald Dream"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Aerielle - Emerald Dream"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+	},
+}

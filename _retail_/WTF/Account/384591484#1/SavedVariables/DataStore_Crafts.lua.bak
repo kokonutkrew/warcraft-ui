@@ -1,0 +1,18 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["lastUpdate"] = 1678586268,
+			},
+		},
+	},
+}
+DataStore_CraftsRefDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+}

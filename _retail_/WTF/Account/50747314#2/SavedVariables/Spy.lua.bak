@@ -1,0 +1,79 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Emerald Dream"] = {
+			["Alliance"] = {
+				["Bnightholdkk"] = {
+				},
+				["Bantoruskk"] = {
+				},
+				["Sphinx"] = {
+				},
+				["Aerielle"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Emerald Dream"] = {
+			["Alliance"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bnightholdkk - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Bantoruskk - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Sphinx - Emerald Dream"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Aerielle - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

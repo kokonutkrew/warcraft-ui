@@ -1,0 +1,15 @@
+Version: 1
+Frame: TomTomCrazyArrow
+FrameLevel: 1
+Anchor: CENTER
+X: 4
+Y: 214
+W: 56
+H: 42
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 1
+Y: -233
+W: 400
+H: 140

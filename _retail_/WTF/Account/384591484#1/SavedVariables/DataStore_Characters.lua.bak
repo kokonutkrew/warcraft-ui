@@ -1,0 +1,34 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["XPMax"] = 194815,
+				["played"] = 6806,
+				["playedThisLevel"] = 3726,
+				["isResting"] = true,
+				["lastUpdate"] = 1678586328,
+				["class"] = "Evoker",
+				["race"] = "Dracthyr",
+				["subZone"] = "Valley of Heroes",
+				["level"] = 60,
+				["XP"] = 50016,
+				["zone"] = "Stormwind City",
+				["RestXP"] = 0,
+				["money"] = 1156377,
+				["gender"] = 2,
+				["classID"] = 13,
+				["bindLocation"] = "The Forbidden Reach",
+				["englishClass"] = "EVOKER",
+				["name"] = "Wratheane",
+				["faction"] = "Alliance",
+				["englishRace"] = "Dracthyr",
+				["localizedFaction"] = "Alliance",
+				["lastLogoutTimestamp"] = 1678586328,
+			},
+		},
+	},
+}

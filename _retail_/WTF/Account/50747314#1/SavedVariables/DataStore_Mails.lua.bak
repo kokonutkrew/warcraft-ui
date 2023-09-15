@@ -1,0 +1,573 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Antoruskk - Emerald Dream"] = "Antoruskk - Emerald Dream",
+		["Seawings - Emerald Dream"] = "Seawings - Emerald Dream",
+		["Plvl - Emerald Dream"] = "Plvl - Emerald Dream",
+		["Anightholdkk - Emerald Dream"] = "Anightholdkk - Emerald Dream",
+		["Kyliegurl - Emerald Dream"] = "Kyliegurl - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Kyliegurl"] = {
+				["Mails"] = {
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconium Blacksmith's Hammer",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 1.271574020385742,
+					}, -- [1]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconium Blacksmith's Hammer",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 1.271689772605896,
+					}, -- [2]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconium Blacksmith's Hammer",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 1.271793961524963,
+					}, -- [3]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Qingian",
+						["subject"] = "Ty",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Hello, Merry Christmas & New Year\nSite Promotion\nDec 20 --- Jan 7  All Game 10% Bonus\n\nHello, MMORPGGOLD.COM is a professional website selling WoW Dragonflight  gold and professional power leveling.\nWe provide:\n* Cheap price\n* 24 * 7 hours service\n* Delivery 15-30 min\n* 100% Secure transaction\n* 5% extra gold as bonus automatically\n\nPlease contact the live chat for more help.\n        WWW.MMORPGGOLD.COM",
+						["icon"] = 134327,
+						["daysLeft"] = 4.126296520233154,
+					}, -- [4]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Enchanting",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.702962875366211,
+					}, -- [5]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Enchanting",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.705104351043701,
+					}, -- [6]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Tailoring",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.706655025482178,
+					}, -- [7]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Tailoring",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.706782341003418,
+					}, -- [8]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 15.25983810424805,
+					}, -- [9]
+					{
+						["returned"] = false,
+						["sender"] = "Artisan's Consortium",
+						["itemID"] = 198185,
+						["link"] = "|cffffffff|Hitem:198185::::::::62:258::::2:38:3:40:586:::::|h[Handful of Serevite Bolts |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+						["lastCheck"] = 1674538921,
+						["count"] = 3,
+						["icon"] = 4548876,
+						["daysLeft"] = 15.25983810424805,
+					}, -- [10]
+					{
+						["returned"] = false,
+						["sender"] = "Artisan's Consortium",
+						["itemID"] = 198185,
+						["link"] = "|cffffffff|Hitem:198185::::::::62:258::::2:38:3:40:586:::::|h[Handful of Serevite Bolts |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+						["lastCheck"] = 1674538921,
+						["count"] = 3,
+						["icon"] = 4548876,
+						["daysLeft"] = 15.25993061065674,
+					}, -- [11]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 15.25993061065674,
+					}, -- [12]
+					{
+						["returned"] = false,
+						["sender"] = "Artisan's Consortium",
+						["itemID"] = 198185,
+						["link"] = "|cffffffff|Hitem:198185::::::::62:258::::2:38:3:40:586:::::|h[Handful of Serevite Bolts |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+						["lastCheck"] = 1674538921,
+						["count"] = 2,
+						["icon"] = 4548876,
+						["daysLeft"] = 16.78134346008301,
+					}, -- [13]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.78134346008301,
+					}, -- [14]
+					{
+						["returned"] = false,
+						["sender"] = "Artisan's Consortium",
+						["itemID"] = 198185,
+						["link"] = "|cffffffff|Hitem:198185::::::::62:258::::2:38:3:40:586:::::|h[Handful of Serevite Bolts |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+						["lastCheck"] = 1674538921,
+						["count"] = 3,
+						["icon"] = 4548876,
+						["daysLeft"] = 16.78149223327637,
+					}, -- [15]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.78149223327637,
+					}, -- [16]
+					{
+						["lastCheck"] = 1674538921,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.78160858154297,
+					}, -- [17]
+					{
+						["returned"] = false,
+						["sender"] = "Artisan's Consortium",
+						["itemID"] = 198185,
+						["link"] = "|cffffffff|Hitem:198185::::::::62:258::::2:38:3:40:586:::::|h[Handful of Serevite Bolts |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r",
+						["lastCheck"] = 1674538921,
+						["count"] = 3,
+						["icon"] = 4548876,
+						["daysLeft"] = 16.78160858154297,
+					}, -- [18]
+				},
+			},
+			["Default.Emerald Dream.Seawings"] = {
+				["lastUpdate"] = 1672386955,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Enchanting",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.519305467605591,
+					}, -- [1]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Enchanting",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.519803285598755,
+					}, -- [2]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Tailoring",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.521018505096436,
+					}, -- [3]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconic Treatise on Tailoring",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.521516084671021,
+					}, -- [4]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Draconium Needle Set",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.817638874053955,
+					}, -- [5]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Wildercloth Enchanter's Hat",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.85130786895752,
+					}, -- [6]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Wildercloth Tailor's Coat",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 3.851481437683106,
+					}, -- [7]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Expired: Chromatic Focus",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.009814739227295,
+					}, -- [8]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Expired: Spring-Loaded Draconium Fabric Cutters",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 4.010104179382324,
+					}, -- [9]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Duanyong",
+						["subject"] = "Ty",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Hello, Merry Christmas & New Year\nSite Promotion\nDec 20 --- Jan 7  All Game 10% Bonus\n\nHello, MMORPGGOLD.COM is a professional website selling WoW Dragonflight  gold and professional power leveling.\nWe provide:\n* Cheap price\n* 24 * 7 hours service\n* Delivery 15-30 min\n* 100% Secure transaction\n* 5% extra gold as bonus automatically\n\nPlease contact the live chat for more help.\n        WWW.MMORPGGOLD.COM",
+						["icon"] = 134327,
+						["daysLeft"] = 5.891273021697998,
+					}, -- [10]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Chantjian",
+						["subject"] = "happy new year",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Hello, Merry Christmas & New Year\nSite Promotion\nDec 20 --- Jan 7  All Game 10% Bonus\n\nHello, MMORPGGOLD.COM is a professional website selling WoW Dragonflight  gold and professional power leveling.\nWe provide:\n* Cheap price\n* 24 * 7 hours service\n* Delivery 15-30 min\n* 100% Secure transaction\n* 5% extra gold as bonus automatically\n\nPlease contact the live chat for more help.\n        WWW.MMORPGGOLD.COM",
+						["icon"] = 134327,
+						["daysLeft"] = 11.85939788818359,
+					}, -- [11]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Explorer's Plate Bracers",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.04965209960938,
+					}, -- [12]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Explorer's Plate Bracers",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.04982566833496,
+					}, -- [13]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Explorer's Plate Bracers",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.04993057250977,
+					}, -- [14]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.0506706237793,
+					}, -- [15]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.0507755279541,
+					}, -- [16]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Sturdy Expedition Shovel",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.05700302124023,
+					}, -- [17]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Sturdy Expedition Shovel",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.05710601806641,
+					}, -- [18]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Sturdy Expedition Shovel",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.05722236633301,
+					}, -- [19]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Shimmering Clasp",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.05790519714356,
+					}, -- [20]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Shimmering Clasp",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.05804443359375,
+					}, -- [21]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06150436401367,
+					}, -- [22]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06160926818848,
+					}, -- [23]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06171226501465,
+					}, -- [24]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Resilient Smock",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06240653991699,
+					}, -- [25]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Resilient Smock",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.0625,
+					}, -- [26]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Resilient Smock",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06256866455078,
+					}, -- [27]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06591415405273,
+					}, -- [28]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06600761413574,
+					}, -- [29]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.06608772277832,
+					}, -- [30]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.07107543945313,
+					}, -- [31]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.07116889953613,
+					}, -- [32]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Handful of Serevite Bolts",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 16.07127380371094,
+					}, -- [33]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Daijangsh",
+						["subject"] = "happy new year",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Hello, MMORPGGOLD.COM is a professional website selling WoW Dragonflight  gold and professional power leveling.\nWe provide:\n* Cheap price\n* 24 * 7 hours service\n* Delivery 15-30 min\n* 100% Secure transaction\n* 5% extra gold as bonus automatically\n\nPlease contact the live chat for more help.\n        WWW.MMORPGGOLD.COM",
+						["icon"] = 134327,
+						["daysLeft"] = 21.19804382324219,
+					}, -- [34]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 28.84316062927246,
+					}, -- [35]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 28.84326362609863,
+					}, -- [36]
+					{
+						["lastCheck"] = 1674641354,
+						["sender"] = "Artisan's Consortium",
+						["subject"] = "Order Filled: Surveyor's Cloth Bands",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 28.84339141845703,
+					}, -- [37]
+				},
+			},
+		},
+	},
+}

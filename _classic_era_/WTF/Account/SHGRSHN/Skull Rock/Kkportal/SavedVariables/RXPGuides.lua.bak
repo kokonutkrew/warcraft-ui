@@ -1,0 +1,384 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[6] = {
+		},
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 6,
+	["questObjectivesCache"] = {
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[790] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Sarkoth's Mangled Claw: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[792] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Vile Familiar slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6395] = {
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Samuel's Remains Buried: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4641] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4402] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Cactus Apple: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[380] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 6,
+				["text"] = "Young Night Web Spider slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Night Web Spider slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[3902] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenged Goods: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5441] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[376] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenger Paw: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Duskbat Wing: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[3901] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Rattlecage Skeleton slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[363] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[364] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Mindless Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Wretched Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[0] = 13,
+	},
+	["currentGuideGroup"] = "RestedXP Horde 1-22",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[788] = "Cutting Teeth",
+		[790] = "Sarkoth",
+		[792] = "Vile Familiars",
+		[4402] = "Galgar's Cactus Apple Surprise",
+		[789] = "Sting of the Scorpid",
+		[5441] = "Lazy Peons",
+		[376] = "The Damned",
+		[3902] = "Scavenging Deathknell",
+		[364] = "The Mindless Ones",
+		[3901] = "Rattling the Rattlecages",
+	},
+	["currentGuideName"] = "01-06 Tirisfal Glades",
+	["stepSkip"] = {
+		true, -- [1]
+		true, -- [2]
+		nil, -- [3]
+		true, -- [4]
+		true, -- [5]
+	},
+	["currentStepId"] = 256773511,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkportal - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 361,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 382,
+							["count"] = 7,
+						},
+						["Tirisfal Glades"] = {
+							["xp"] = 75,
+							["count"] = 2,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 22,
+							["minute"] = 45,
+						},
+						["finished"] = 731,
+						["dateFinished"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 9,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4641] = 40,
+						},
+						["Tirisfal Glades"] = {
+							[363] = 40,
+						},
+					},
+				}, -- [1]
+				{
+					["groupExperience"] = 713,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 503,
+							["count"] = 27,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 9,
+						},
+						["finished"] = 1605,
+						["dateFinished"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 24,
+						},
+						["started"] = 732,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[364] = 170,
+							[3098] = 40,
+						},
+					},
+				}, -- [2]
+				{
+					["groupExperience"] = 1026,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 286,
+							["count"] = 15,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 24,
+						},
+						["finished"] = 2231,
+						["dateFinished"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 34,
+						},
+						["started"] = 1606,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[3901] = 250,
+							[3902] = 320,
+							[376] = 170,
+						},
+					},
+				}, -- [3]
+				{
+					["groupExperience"] = 442,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Tirisfal Glades"] = {
+							["xp"] = 442,
+							["count"] = 23,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 13,
+							["minute"] = 34,
+						},
+						["started"] = 2232,
+					},
+					["quests"] = {
+					},
+				}, -- [4]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Kkportal - Skull Rock"] = "Kkportal - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkportal - Skull Rock"] = {
+			["players"] = {
+				["Bubels"] = {
+					["class"] = "PRIEST",
+					["lastSeen"] = 22568.439,
+					["xpPercentage"] = 66,
+					["isRxp"] = true,
+					["timePlayed"] = 133.5689999999995,
+					["level"] = 1,
+				},
+				["Failgasm"] = {
+					["level"] = 12,
+					["class"] = "HUNTER",
+					["lastSeen"] = 32656.714,
+					["timePlayed"] = 117.0800000000018,
+					["isRxp"] = true,
+					["xp"] = 40,
+					["xpPercentage"] = 91,
+				},
+				["Bvss"] = {
+					["class"] = "WARRIOR",
+					["lastSeen"] = 25294.896,
+					["xpPercentage"] = 5,
+					["isRxp"] = true,
+					["timePlayed"] = 1922.541999999998,
+					["level"] = 4,
+				},
+				["Scrapes"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 25822.361,
+					["xpPercentage"] = 74,
+					["isRxp"] = true,
+					["timePlayed"] = 1829.665999999997,
+					["level"] = 3,
+				},
+				["Marshmello"] = {
+					["class"] = "WARLOCK",
+					["lastSeen"] = 25585.915,
+					["xpPercentage"] = 65,
+					["isRxp"] = true,
+					["timePlayed"] = 1829.665999999997,
+					["level"] = 3,
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

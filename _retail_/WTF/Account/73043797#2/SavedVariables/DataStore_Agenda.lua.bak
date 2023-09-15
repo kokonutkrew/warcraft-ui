@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2023-02-07",
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["lastUpdate"] = 1675387739,
+			},
+		},
+	},
+}

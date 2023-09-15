@@ -1,0 +1,100 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0537,
+	["LastPlayerFullName"] = "Buhbels-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 27488,
+			["Level"] = 30,
+			["Link"] = "|cff0070dd|Hitem:27488::::::::25:257::1:1:6710:2:9:24:28:1887:::::|h[Mage-Collar of the Firestorm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 108904,
+			["Level"] = 39,
+			["Link"] = "|cffa335ee|Hitem:108904::::::::32:257:::2:6691:6703:2:28:63:9:32:::::|h[Fingers of the Void]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 27738,
+			["Level"] = 32,
+			["Link"] = "|cff0070dd|Hitem:27738::::::::30:257::1:1:6710:2:28:1895:9:27:::::|h[Incanter's Pauldrons]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122384,
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::32:257:::::::::|h[Tattered Dreadmist Robe]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 175200,
+			["Level"] = 10,
+			["Link"] = "|cff1eff00|Hitem:175200::::::::25:257::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Cloth Cord]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 24083,
+			["Level"] = 23,
+			["Link"] = "|cff0070dd|Hitem:24083::::::::25:257::1:1:6710:2:9:18:28:220:::::|h[Lifegiver Britches]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 82254,
+			["Level"] = 37,
+			["Link"] = "|cff1eff00|Hitem:82254::::::::30:257:::2:6654:1707:2:9:35:28:1035:::::|h[Waterfall Sandals of the Aurora]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 29240,
+			["Level"] = 36,
+			["Link"] = "|cff0070dd|Hitem:29240::::::::30:257::1:1:6710:2:28:1890:9:30:::::|h[Bands of Negation]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 109845,
+			["Level"] = 33,
+			["Link"] = "|cff0070dd|Hitem:109845::::::::28:258::1:3:6710:40:6652:2:28:1850:9:28:::::|h[Frost-Touched Gloves]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 51991,
+			["Level"] = 31,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:51991::::::::25:257::1:2:4244:1706:2:9:25:28:1694:::::|h[Turbulent Signet of the Aurora]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 51991,
+			["Level"] = 31,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff0070dd|Hitem:51991::::::::25:258::1:2:4244:1706:2:9:25:28:1694:::::|h[Turbulent Signet of the Aurora]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 37,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::32:257:::::::::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122362,
+			["Level"] = 37,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122362::::::::32:257:::::::::|h[Discerning Eye of the Beast]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 109927,
+			["Level"] = 34,
+			["Link"] = "|cff0070dd|Hitem:109927::::::::29:258::1:2:6710:6652:2:28:269:9:29:::::|h[Mistwoven Windcloak]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122354,
+			["Level"] = 37,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122354::::::::32:257:::::::::|h[Devout Aurastone Hammer]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122390,
+			["Level"] = 37,
+			["Link"] = "|cff00ccff|Hitem:122390::::::::32:257:::::::::|h[Musty Tome of the Lost]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PRIEST",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

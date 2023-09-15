@@ -1,0 +1,26 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Grobbulus"] = {
+			["Horde"] = {
+				["Kk"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Grobbulus"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Kk - Grobbulus",
+	},
+	["profiles"] = {
+		["Kk - Grobbulus"] = {
+			["AppendUnitNameCheck"] = true,
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

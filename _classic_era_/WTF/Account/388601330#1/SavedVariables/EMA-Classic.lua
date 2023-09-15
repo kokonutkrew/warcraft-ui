@@ -1,0 +1,42 @@
+
+CoreProfileDB = nil
+CommunicationsProfileDB = {
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+		},
+		["Kkbrill - Skull Rock"] = {
+		},
+		["Øø - Skull Rock"] = {
+		},
+		["Kkundercity - Skull Rock"] = {
+		},
+		["Bannhammer - Skull Rock"] = {
+		},
+	},
+}
+TeamProfileDB = nil
+TagProfileDB = nil
+MessageProfileDB = nil
+CurrProfileDB = nil
+DisplayTeamProfileDB = nil
+FollowProfileDB = nil
+GuildProfileDB = nil
+InteractionProfileDB = nil
+ItemUseProfileDB = nil
+PurchaseProfileDB = nil
+QuestProfileDB = nil
+QuestWatcherProfileDB = nil
+SellProfileDB = nil
+TalkProfileDB = nil
+BankProfileDB = nil
+ToonProfileDB = nil
+TradeProfileDB = nil
+MailProfileDB = nil
+ISBoxerProfileDB = nil

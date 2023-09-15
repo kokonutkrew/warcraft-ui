@@ -1,0 +1,357 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Samoanslayer"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1674279448,
+				["Specializations"] = {
+					[3] = 0,
+					[2] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Protection",
+				["Class"] = "WARRIOR",
+			},
+			["Default.Emerald Dream.Dustcraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673751147,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["activeSpecIndex"] = 2,
+				["activeSpecName"] = "Feral",
+				["Class"] = "DRUID",
+			},
+			["Default.Emerald Dream.Samoanruin"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1674537645,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Blood",
+				["Class"] = "DEATHKNIGHT",
+			},
+			["Default.Emerald Dream.Ikkl"] = {
+				["Class"] = "DRUID",
+				["lastUpdate"] = 1674288466,
+			},
+			["Default.Emerald Dream.Threadcraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1676370037,
+				["Specializations"] = {
+					0, -- [1]
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Arcane",
+				["Class"] = "MAGE",
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1673506534,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Guardian",
+				["Class"] = "DRUID",
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1674286821,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Arcane",
+				["Class"] = "MAGE",
+			},
+			["Default.Emerald Dream.Mf"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1672689251,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Protection",
+				["Class"] = "WARRIOR",
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1676505299,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Elemental",
+				["Class"] = "SHAMAN",
+			},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1676506587,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["activeSpecIndex"] = 2,
+				["activeSpecName"] = "Demonology",
+				["Class"] = "WARLOCK",
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1672689001,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Guardian",
+				["Class"] = "DRUID",
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1676372228,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["activeSpecIndex"] = 2,
+				["activeSpecName"] = "Demonology",
+				["Class"] = "WARLOCK",
+			},
+			["Default.Tichondrius.Farmcraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1685506348,
+				["Specializations"] = {
+					[5] = 0,
+				},
+				["activeSpecIndex"] = 5,
+				["activeSpecName"] = "",
+				["Class"] = "DRUID",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1675397929,
+				["Specializations"] = {
+					[2] = 0,
+				},
+				["activeSpecIndex"] = 2,
+				["activeSpecName"] = "Marksmanship",
+				["Class"] = "HUNTER",
+			},
+			["Default.Emerald Dream.Gearcraft"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673260117,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Destruction",
+				["Class"] = "WARLOCK",
+			},
+			["Default.Emerald Dream.Xb"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1674270451,
+				["Specializations"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Brewmaster",
+				["Class"] = "MONK",
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673750687,
+				["Specializations"] = {
+					[2] = 0,
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Shadow",
+				["Class"] = "PRIEST",
+			},
+			["Default.Emerald Dream.Samoanlegend"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673502362,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Affliction",
+				["Class"] = "WARLOCK",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Farmcraft - Tichondrius"] = "Farmcraft - Tichondrius",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+	},
+	["global"] = {
+		["HUNTER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 253,
+				}, -- [1]
+				{
+					["id"] = 254,
+				}, -- [2]
+				{
+					["id"] = 255,
+				}, -- [3]
+			},
+			["Version"] = 47936,
+		},
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 71,
+				}, -- [1]
+				{
+					["id"] = 72,
+				}, -- [2]
+				{
+					["id"] = 73,
+				}, -- [3]
+			},
+			["Version"] = 47631,
+		},
+		["SHAMAN"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 262,
+				}, -- [1]
+				{
+					["id"] = 263,
+				}, -- [2]
+				{
+					["id"] = 264,
+				}, -- [3]
+			},
+			["Version"] = 48069,
+		},
+		["MAGE"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 62,
+				}, -- [1]
+				{
+					["id"] = 63,
+				}, -- [2]
+				{
+					["id"] = 64,
+				}, -- [3]
+			},
+			["Version"] = 48069,
+		},
+		["PRIEST"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 256,
+				}, -- [1]
+				{
+					["id"] = 257,
+				}, -- [2]
+				{
+					["id"] = 258,
+				}, -- [3]
+			},
+			["Version"] = 47213,
+		},
+		["WARLOCK"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 265,
+				}, -- [1]
+				{
+					["id"] = 266,
+				}, -- [2]
+				{
+					["id"] = 267,
+				}, -- [3]
+			},
+			["Version"] = 48069,
+		},
+		["DRUID"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 102,
+				}, -- [1]
+				{
+					["id"] = 103,
+				}, -- [2]
+				{
+					["id"] = 104,
+				}, -- [3]
+				{
+					["id"] = 105,
+				}, -- [4]
+			},
+			["Version"] = 49801,
+		},
+		["MONK"] = {
+			["Locale"] = "enUS",
+			["Version"] = 47631,
+		},
+		["DEATHKNIGHT"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 250,
+				}, -- [1]
+				{
+					["id"] = 251,
+				}, -- [2]
+				{
+					["id"] = 252,
+				}, -- [3]
+			},
+			["Version"] = 47631,
+		},
+	},
+}

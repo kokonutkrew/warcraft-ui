@@ -1,0 +1,45 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["MoneyFrame"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Junk"] = {
+		},
+		["Soulbound"] = {
+		},
+		["DataSource"] = {
+		},
+		["CurrencyFrame"] = {
+		},
+		["ItemSets"] = {
+		},
+		["TSMPrice"] = {
+		},
+		["Equipment"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Saifuu - Emerald Dream"] = "Default",
+		["Waekk - Emerald Dream"] = "Default",
+		["Moostasche - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

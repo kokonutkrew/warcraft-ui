@@ -1,0 +1,177 @@
+
+wlTime = 1664343578
+wlVersion = 20502
+wlUploaded = 0
+wlStats = "4^1^0^0^0^0^enUS^45772"
+wlExportData = ""
+wlRealmList = {
+	["US"] = 1,
+}
+wlAuction = {
+}
+wlEvent = {
+}
+wlItemSuffix = {
+}
+wlObject = {
+	["mail^195554^dummy"] = {
+		["0^Orgrimmar"] = {
+			[1454] = {
+				{
+					["y"] = 661,
+					["x"] = 536,
+					["dl"] = 1454,
+					["n"] = 2,
+				}, -- [1]
+				["n"] = 1,
+			},
+		},
+	},
+}
+wlProfile = {
+	["Kk^Grobbulus"] = {
+		["race"] = "Orc",
+		["faction"] = "Horde",
+		["class"] = "WARRIOR",
+		["sex"] = 2,
+		["n"] = 1,
+	},
+}
+wlProfileData = {
+	["Kk^Grobbulus"] = {
+		["talents"] = "",
+		["version"] = 1,
+		["guid"] = "Player-4647-00F00C38",
+		["skills"] = {
+			["Defense"] = 1,
+			["Language: Orcish"] = 300,
+			["Swords"] = 1,
+			["Unarmed"] = 1,
+			["Axes"] = 1,
+			["Two-Handed Swords"] = 1,
+			["Two-Handed Axes"] = 1,
+		},
+		["class"] = 1,
+		["factions"] = {
+			[530] = 3100,
+			[68] = 500,
+			[81] = 3100,
+			[76] = 4000,
+			[911] = 400,
+		},
+		["equipment"] = {
+			[20] = "item:1685::::::::1:::::::::",
+			[7] = "item:120::::::::1:::::::::",
+			[8] = "item:121::::::::1:::::::::",
+			[23] = "item:10051::::::::1:::::::::",
+			[22] = "item:10051::::::::1:::::::::",
+			[4] = "item:2105::::::::1:::::::::",
+			[16] = "item:12282::::::::1:::::::::",
+			[21] = "item:1725::::::::1:::::::::",
+		},
+		["locale"] = "enUS",
+		["race"] = 2,
+		["name"] = "Kk",
+		["sex"] = 2,
+		["level"] = 1,
+		["timestamp"] = 1664343578,
+		["quests"] = {
+		},
+		["realm"] = "Grobbulus",
+	},
+}
+wlUnit = {
+	["3296"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["1^Horde^5"] = 1664343605398,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[75] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 705,
+									["x"] = 498,
+									["dl"] = 1454,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 15953,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["faction"] = "Orgrimmar",
+	},
+	["173758"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					[22888] = 2,
+				},
+			},
+		},
+	},
+	["8724"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["1^Horde^5"] = 1664343700164,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["gossip"] = {
+			["auctioneer"] = 1,
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[50] = {
+					["loc"] = {
+						["Orgrimmar"] = {
+							[1454] = {
+								{
+									["y"] = 648,
+									["x"] = 554,
+									["dl"] = 1454,
+									["n"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 6645,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["faction"] = "Orgrimmar",
+	},
+	["10540"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					[42138] = 1,
+				},
+			},
+		},
+	},
+}
+wlItemDurability = {
+}
+wlItemBonuses = {
+}
+wlTradeSkillDifficulty = {
+}

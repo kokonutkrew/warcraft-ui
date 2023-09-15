@@ -1,0 +1,48 @@
+
+MegaMacroCharacterData = {
+	["Macros"] = {
+		{
+			["Scope"] = "ch",
+			["ScopedIndex"] = 1,
+			["Code"] = "#showtooltip\n/click [button:2] JMM_WK_DEMO_AOE RightButton; [button:3] JMM_WK_DEMO_AOE MiddleButton; [button:4] JMM_WK_DEMO_AOE Button4; [button:5] JMM_WK_DEMO_AOE Button5; JMM_WK_DEMO_AOE\n",
+			["Id"] = 121,
+			["Class"] = "Warlock",
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "JMM_WK_DEMO_AOE",
+		}, -- [1]
+		{
+			["Scope"] = "ch",
+			["ScopedIndex"] = 2,
+			["Code"] = "#showtooltip\n/click [button:2] JMM_WK_DEMO_ST RightButton; [button:3] JMM_WK_DEMO_ST MiddleButton; [button:4] JMM_WK_DEMO_ST Button4; [button:5] JMM_WK_DEMO_ST Button5; JMM_WK_DEMO_ST\n",
+			["Id"] = 122,
+			["Class"] = "Warlock",
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "JMM_WK_DEMO_ST",
+		}, -- [2]
+		{
+			["Scope"] = "ch",
+			["ScopedIndex"] = 3,
+			["Code"] = "P1LR1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__\n",
+			["Id"] = 123,
+			["Class"] = "Warlock",
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "VuhDoDCShieldData",
+		}, -- [3]
+		{
+			["Scope"] = "ch",
+			["ScopedIndex"] = 4,
+			["Code"] = "NHerMay[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Kra\n",
+			["Id"] = 124,
+			["Class"] = "Warlock",
+			["StaticTexture"] = 134400,
+			["DisplayName"] = "VuhDoDCShieldNames",
+		}, -- [4]
+	},
+	["Specializations"] = {
+		["Destruction"] = {
+			["Macros"] = {
+			},
+		},
+	},
+	["Activated"] = true,
+}

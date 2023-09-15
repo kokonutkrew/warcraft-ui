@@ -1,0 +1,50 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Bunni - Emerald Dream"] = "Default",
+		["Luvley - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPRIGHT", -- [1]
+					nil, -- [2]
+					"TOPRIGHT", -- [3]
+					-67.00023651123047, -- [4]
+					-250.0000305175781, -- [5]
+				},
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
+		["Luvley - Emerald Dream"] = "Luvley - Emerald Dream",
+		["Brisannie - Emerald Dream"] = "Brisannie - Emerald Dream",
+		["Mygallexi - Emerald Dream"] = "Mygallexi - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bunni - Emerald Dream"] = {
+		},
+		["Luvley - Emerald Dream"] = {
+		},
+		["Brisannie - Emerald Dream"] = {
+		},
+		["Mygallexi - Emerald Dream"] = {
+		},
+	},
+}

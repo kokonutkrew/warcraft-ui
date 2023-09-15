@@ -1,0 +1,100 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Emerald Dream.KK"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Samoanslayer"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Dustcraft"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Samoanruin"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Ikkl"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Threadcraft"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Mf"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["guildName"] = "Kokonut Krew",
+				["faction"] = "Horde",
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Gearcraft"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Xb"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+			["Default.Emerald Dream.Samoanlegend"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "KK",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

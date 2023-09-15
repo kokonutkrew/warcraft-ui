@@ -1,0 +1,23 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bnightholdkk - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+		["Bantoruskk - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+		["Sphinx - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+		["Aerielle - Emerald Dream"] = {
+			["loaded"] = true,
+		},
+	},
+}

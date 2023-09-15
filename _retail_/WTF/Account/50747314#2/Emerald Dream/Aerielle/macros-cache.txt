@@ -1,0 +1,20 @@
+VER 3 0100000000000001 "Shadow Bolt" "134400"
+#showtooltip
+/use [@pet,dead] summon voidwalker
+/petattack
+/use shadow bolt
+/use bubble wand
+END
+VER 3 0100000000000002 "Test" "134400"
+#showtooltip
+/use [@pet,nodead] Command Demon
+/stopmacro [@pet,nodead]
+/use Fel Domination
+/use [pet:felguard]Summon Felguard;[pet:succubus]Summon Succubus;[pet:felhunter]Summon Felhunter;[pet:Voidwalker]Summon Voidwalker;[pet:imp]Summon Imp
+END
+VER 3 0100000000000003 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000004 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Aer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,3 @@
+
+MogIt_ArtifactDB = {
+}

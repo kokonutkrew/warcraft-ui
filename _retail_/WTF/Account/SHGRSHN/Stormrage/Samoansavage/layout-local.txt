@@ -1,0 +1,15 @@
+Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200
+Frame: RT
+FrameLevel: 1
+Anchor: BOTTOM
+X: -348
+Y: 166
+W: 298
+H: 24

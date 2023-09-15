@@ -1,0 +1,65 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["numFreeBagSlots"] = 42,
+				["lastUpdate"] = 1675387739,
+				["numBagSlots"] = 46,
+				["Containers"] = {
+					["Bag4"] = {
+						["rarity"] = 1,
+						["ids"] = {
+							6948, -- [1]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::11:259:::::::::|h[Hearthstone]|h|r", -- [1]
+						},
+						["link"] = "|cffffffff|Hitem:57251::::::::11:259:::::::::|h[\"Collecting\" Bag]|h|r",
+						["icon"] = 133644,
+						["size"] = 8,
+						["freeslots"] = 7,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							140192, -- [1]
+							nil, -- [2]
+							171177, -- [3]
+							133558, -- [4]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:140192::::::::11:259::11::1:28:1705:::::|h[Dalaran Hearthstone]|h|r", -- [1]
+							nil, -- [2]
+							"|cffffffff|Hitem:171177::::::::11:259:::::::::|h[Invitation from the Timewalkers]|h|r", -- [3]
+							"|cffffffff|Hitem:133558::::::::11:259::11::1:28:1705:::::|h[Sealed Letter]|h|r", -- [4]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["freeslots"] = 13,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:57247::::::::11:259:::::::::|h[]|h|r",
+						["icon"] = 133639,
+						["size"] = 6,
+						["freeslots"] = 6,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:1470::::::::11:259:::::::::|h[]|h|r",
+						["icon"] = 133626,
+						["size"] = 10,
+						["freeslots"] = 10,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:5571::::::::11:259:::::::::|h[]|h|r",
+						["icon"] = 133635,
+						["size"] = 6,
+						["freeslots"] = 6,
+					},
+				},
+			},
+		},
+	},
+}

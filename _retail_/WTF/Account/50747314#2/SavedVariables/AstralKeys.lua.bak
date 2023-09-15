@@ -1,0 +1,241 @@
+
+AstralKeys = {
+	{
+		["source"] = "guild",
+		["weekly_best"] = 19,
+		["class"] = "WARRIOR",
+		["key_level"] = 16,
+		["unit"] = "Samoanslayer-EmeraldDream",
+		["dungeon_id"] = 402,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 5,
+	}, -- [1]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 0,
+		["class"] = "PALADIN",
+		["key_level"] = 10,
+		["unit"] = "Fromheaven-EmeraldDream",
+		["dungeon_id"] = 402,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 3,
+	}, -- [2]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 0,
+		["class"] = "WARRIOR",
+		["key_level"] = 4,
+		["unit"] = "Lisahayse-EmeraldDream",
+		["dungeon_id"] = 402,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 8,
+	}, -- [3]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 0,
+		["class"] = "MONK",
+		["key_level"] = 21,
+		["unit"] = "Jastrow-EmeraldDream",
+		["dungeon_id"] = 165,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 4,
+	}, -- [4]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 0,
+		["class"] = "SHAMAN",
+		["key_level"] = 3,
+		["unit"] = "Newclear-EmeraldDream",
+		["dungeon_id"] = 165,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 1,
+	}, -- [5]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 0,
+		["class"] = "DRUID",
+		["key_level"] = 8,
+		["unit"] = "Hotpawqt-EmeraldDream",
+		["dungeon_id"] = 210,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 1,
+	}, -- [6]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 13,
+		["class"] = "PRIEST",
+		["key_level"] = 13,
+		["unit"] = "Tohosmai-EmeraldDream",
+		["dungeon_id"] = 200,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 535565,
+	}, -- [7]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 15,
+		["class"] = "DEMONHUNTER",
+		["key_level"] = 13,
+		["unit"] = "Ashmorn-EmeraldDream",
+		["dungeon_id"] = 402,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 4,
+	}, -- [8]
+	{
+		["source"] = "guild",
+		["weekly_best"] = 7,
+		["class"] = "WARRIOR",
+		["key_level"] = 8,
+		["unit"] = "Exéqt-EmeraldDream",
+		["dungeon_id"] = 210,
+		["week"] = 291,
+		["faction"] = 0,
+		["time_stamp"] = 3,
+	}, -- [9]
+}
+AstralCharacters = {
+}
+AstralKeysSettings = {
+	["wipedOldTables"] = true,
+	["general"] = {
+		["show_minimap_button"] = {
+			["isEnabled"] = true,
+		},
+		["init_time"] = 1676991600,
+		["expanded_tooltip"] = {
+			["isEnabled"] = true,
+		},
+		["report_on_message"] = {
+			["raid"] = false,
+			["party"] = true,
+			["no_key"] = false,
+			["guild"] = false,
+		},
+		["show_tooltip_key"] = {
+			["isEnabled"] = true,
+		},
+		["announce_party"] = {
+			["isEnabled"] = true,
+		},
+		["announce_guild"] = {
+			["isEnabled"] = false,
+		},
+	},
+	["frame"] = {
+		["rank_filter"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+			true, -- [5]
+			true, -- [6]
+			true, -- [7]
+			true, -- [8]
+			true, -- [9]
+			true, -- [10]
+		},
+		["current_list"] = "GUILD",
+		["isCollapsed"] = {
+			["isEnabled"] = false,
+		},
+		["orientation"] = 1,
+		["mingle_offline"] = {
+			["isEnabled"] = false,
+		},
+		["sorth_method"] = "character_name",
+		["show_offline"] = {
+			["isEnabled"] = true,
+		},
+	},
+	["new_settings_config"] = true,
+	["friendOptions"] = {
+		["friend_sync"] = {
+			["isEnabled"] = true,
+		},
+		["show_other_faction"] = {
+			["isEnabled"] = true,
+		},
+	},
+}
+AstralMinimap = {
+	["profileKeys"] = {
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+		["Mmkk - Emerald Dream"] = "Mmkk - Emerald Dream",
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+	},
+	["profiles"] = {
+		["Aerielle - Emerald Dream"] = {
+			["minimap"] = {
+				["minimapPos"] = 257.3073426706372,
+			},
+		},
+		["Mmkk - Emerald Dream"] = {
+		},
+		["Bnightholdkk - Emerald Dream"] = {
+		},
+		["Bantoruskk - Emerald Dream"] = {
+		},
+		["Sphinx - Emerald Dream"] = {
+		},
+	},
+}
+AstralAffixes = {
+	["season_affix"] = 132,
+	["season_start_week"] = 285,
+}
+AstralLists = {
+	{
+		["name"] = "GUILD",
+		["units"] = {
+			["Hotpawqt-EmeraldDream"] = true,
+			["Ashmorn-EmeraldDream"] = true,
+			["Lisahayse-EmeraldDream"] = true,
+			["Diovehtotni-EmeraldDream"] = true,
+			["Newclear-EmeraldDream"] = true,
+			["Exéqt-EmeraldDream"] = true,
+			["Vinks-EmeraldDream"] = true,
+			["Saifravis-EmeraldDream"] = true,
+			["Threadcraft-EmeraldDream"] = true,
+			["Meridean-EmeraldDream"] = true,
+			["Fromheaven-EmeraldDream"] = true,
+			["Forgecraft-EmeraldDream"] = true,
+			["Samoanslayer-EmeraldDream"] = true,
+			["Shanksìnatra-EmeraldDream"] = true,
+			["Mtvcribs-EmeraldDream"] = true,
+			["Jastrow-EmeraldDream"] = true,
+			["Tohosmai-EmeraldDream"] = true,
+		},
+	}, -- [1]
+	{
+		["name"] = "FRIENDS",
+		["units"] = {
+			["Frostysblind-Exodar"] = "Frosty#14110",
+			["Ishdruid-Zul'jin"] = "SkylerTime#1362",
+			["Pikapewtie-Stormrage"] = "Ticklemepink#1892",
+			["Ishhunter-Illidan"] = "SkylerTime#1362",
+			["Mohrda-Area52"] = "Shambles#1608",
+			["Ishhunter-Zul'jin"] = "SkylerTime#1362",
+			["Noogy-Tichondrius"] = "Sleepypie#1817",
+			["Angelhawk-Area52"] = "LokTarOgar#11419",
+			["Nôrsk-Zul'jin"] = "Brolk#1336",
+			["Ishdk-Zul'jin"] = "SkylerTime#1362",
+			["Slinkz-Tichondrius"] = "Sleepypie#1817",
+			["Jimmyjonez-Stormrage"] = "Ticklemepink#1892",
+			["Frostylovesu-Exodar"] = "Frosty#14110",
+			["Frostysmashu-Exodar"] = "Frosty#14110",
+			["Suekisueki-Undermine"] = "Sueki#1883",
+			["Warkhan-Whisperwind"] = "Kroxx#1651",
+			["Sleepypie-Tichondrius"] = "Sleepypie#1817",
+		},
+	}, -- [2]
+}
+AstralUnits = nil

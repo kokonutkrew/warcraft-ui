@@ -1,0 +1,29 @@
+
+TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+	["global"] = {
+		["scripts"] = {
+			["AllInOne"] = {
+			},
+			["FirstEnemy"] = {
+			},
+			["Base"] = {
+			},
+			["Rematch"] = {
+			},
+		},
+		["version"] = "v1.5",
+	},
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["pluginOrders"] = {
+				"Rematch", -- [1]
+				"Base", -- [2]
+				"FirstEnemy", -- [3]
+				"AllInOne", -- [4]
+			},
+		},
+	},
+}

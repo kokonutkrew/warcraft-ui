@@ -1,0 +1,19 @@
+
+FarmingBarDB = {
+	["char"] = {
+		["Kk - Grobbulus"] = {
+			["bars"] = {
+				{
+					["enabled"] = true,
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

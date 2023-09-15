@@ -1,0 +1,266 @@
+
+TDDB_DEVTOOLS = {
+	["errors"] = {
+		{
+			["count"] = 25,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [1]
+		{
+			["count"] = 25,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [2]
+		{
+			["count"] = 25,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [3]
+		{
+			["count"] = 25,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [4]
+		{
+			["count"] = 25,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [5]
+		{
+			["count"] = 25,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [6]
+		{
+			["count"] = 25,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [7]
+		{
+			["count"] = 25,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [8]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/libs/GUI.lua:1 (null)",
+		}, -- [9]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/summary.lua:1 (null)",
+		}, -- [10]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/zhTW.lua:1 (null)",
+		}, -- [11]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/zhCN.lua:1 (null)",
+		}, -- [12]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/koKR.lua:1 (null)",
+		}, -- [13]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/itIT.lua:1 (null)",
+		}, -- [14]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/ptBR.lua:1 (null)",
+		}, -- [15]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/esMX.lua:1 (null)",
+		}, -- [16]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/esES.lua:1 (null)",
+		}, -- [17]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/frFR.lua:1 (null)",
+		}, -- [18]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/deDE.lua:1 (null)",
+		}, -- [19]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/enUS.lua:1 (null)",
+		}, -- [20]
+		{
+			["count"] = 7,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/[KK]/locale/ruRU.lua:1 (null)",
+		}, -- [21]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/libs/GUI.lua:1 (null)",
+		}, -- [22]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/summary.lua:1 (null)",
+		}, -- [23]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/zhTW.lua:1 (null)",
+		}, -- [24]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/zhCN.lua:1 (null)",
+		}, -- [25]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/koKR.lua:1 (null)",
+		}, -- [26]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/itIT.lua:1 (null)",
+		}, -- [27]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/ptBR.lua:1 (null)",
+		}, -- [28]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/esMX.lua:1 (null)",
+		}, -- [29]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/esES.lua:1 (null)",
+		}, -- [30]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/frFR.lua:1 (null)",
+		}, -- [31]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/deDE.lua:1 (null)",
+		}, -- [32]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/enUS.lua:1 (null)",
+		}, -- [33]
+		{
+			["count"] = 7,
+			["err"] = "Interface/AddOns/[KK]/locale/ruRU.lua:1 (null)",
+		}, -- [34]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/ruRU.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/ruRU.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/ruRU.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/ruRU.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [35]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/enUS.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/enUS.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/enUS.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/enUS.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [36]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/deDE.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/deDE.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/deDE.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/deDE.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [37]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/frFR.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/frFR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/frFR.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/frFR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [38]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/esES.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/esES.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/esES.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/esES.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [39]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/esMX.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/esMX.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/esMX.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/esMX.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [40]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/ptBR.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/ptBR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/ptBR.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/ptBR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [41]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/itIT.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/itIT.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/itIT.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/itIT.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [42]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/koKR.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/koKR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/koKR.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/koKR.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [43]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/zhCN.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/zhCN.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/zhCN.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/zhCN.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [44]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/zhTW.lua|r|cffffffff:|r|cffff00ff1|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/zhTW.lua:1: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/zhTW.lua\"]:1: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/zhTW.lua:1: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [45]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/locale/summary.lua|r|cffffffff:|r|cffff00ff22|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/locale/summary.lua:22: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/locale/summary.lua\"]:22: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/locale/summary.lua:22: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [46]
+		{
+			["path"] = "|cff00ffffInterface/AddOns/[KK]/libs/GUI.lua|r|cffffffff:|r|cffff00ff11|r",
+			["count"] = 7,
+			["time"] = 1673405001,
+			["err"] = "Interface/AddOns/[KK]/libs/GUI.lua:11: attempt to index global 'FGI' (a nil value)",
+			["stack"] = "[string \"@Interface/AddOns/[KK]/libs/GUI.lua\"]:11: in main chunk\n",
+			["full"] = "Interface/AddOns/[KK]/libs/GUI.lua:11: attempt to index global 'FGI' (a nil value)",
+			["formatted"] = "attempt to index global 'FGI' (a nil value)",
+		}, -- [47]
+		{
+			["count"] = 1,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
+		}, -- [48]
+		{
+			["count"] = 1,
+			["err"] = "Interface/AddOns/tdFamilyFamiliar/Addon.lua:1 (null)",
+		}, -- [49]
+	},
+}

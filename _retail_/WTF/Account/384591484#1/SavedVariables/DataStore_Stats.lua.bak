@@ -1,0 +1,23 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|15.171250343323",
+					["HealthMax"] = 41340,
+					["Melee"] = "301-336|3.1070001125336|307|0|15.171250343323|0",
+					["MaxPower"] = "0|10000",
+					["Defense"] = "0|0|3|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "197|307|2067|1623|0",
+					["Spell"] = "1623|1802|0|15.171250343323|525|1600",
+				},
+				["lastUpdate"] = 1678586281,
+			},
+		},
+	},
+}

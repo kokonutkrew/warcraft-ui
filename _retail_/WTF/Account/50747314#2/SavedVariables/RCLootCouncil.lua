@@ -1,0 +1,337 @@
+
+RCLootCouncilDB = {
+	["namespaces"] = {
+		["ExtraUtilities"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Aerielle - Emerald Dream"] = "Default",
+		["Mmkk - Emerald Dream"] = "Default",
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["log"] = {
+			"01/01/23", -- [1]
+			"<13:08:49> <INFO>		Logged In", -- [2]
+			"<13:08:49> <INFO>[ML]		Init", -- [3]
+			"<13:08:49> <INFO>		RCLootCouncil	TradeUI enabled", -- [4]
+			"<13:08:55> <Data.Player>		CreatePlayer	Player-162-0B98F028", -- [5]
+			"<13:08:55> <INFO>		Unknown	3.6.5	nil", -- [6]
+			"<13:08:55> <DEBUG>		ActivateSkin	bfa", -- [7]
+			"<13:09:10> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [8]
+			"<13:09:10> <INFO>		UpdatePlayersData()", -- [9]
+			"<13:09:10> <INFO>		Player relog...", -- [10]
+			"<13:09:15> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [11]
+			"<13:09:15> <INFO>[EU]		Enabled	1.1.1", -- [12]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	pawn	table: 000002D5576ABBA0", -- [13]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	legendaries	table: 000002D5576AB830", -- [14]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	sockets	table: 000002D5576ABB50", -- [15]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	spec	table: 000002D5576ABD80", -- [16]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	bonus	table: 000002D5576ABBF0", -- [17]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	guildNotes	table: 000002D5576ABB00", -- [18]
+			"<13:09:15> <DEBUG>[EU]		Doing col 	covenant	table: 000002D5576AA6B0", -- [19]
+			"<13:09:15> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [20]
+			"<13:09:15> <DEBUG>		GetML()", -- [21]
+			"<13:12:50> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [22]
+			"<13:12:50> <INFO>		UpdatePlayersData()", -- [23]
+			"<13:12:51> <DEBUG>		GetML()", -- [24]
+			"01/09/23", -- [25]
+			"<02:02:39> <INFO>		Logged In", -- [26]
+			"<02:02:39> <INFO>[ML]		Init", -- [27]
+			"<02:02:40> <INFO>		RCLootCouncil	TradeUI enabled", -- [28]
+			"<02:02:50> <Data.Player>		CreatePlayer	Player-162-0B9A0ED9", -- [29]
+			"<02:02:50> <INFO>		Unknown	3.6.7	nil", -- [30]
+			"<02:02:50> <DEBUG>		ActivateSkin	bfa", -- [31]
+			"<02:03:00> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [32]
+			"<02:03:00> <INFO>		UpdatePlayersData()", -- [33]
+			"<02:03:00> <INFO>		Player relog...", -- [34]
+			"<02:03:08> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [35]
+			"<02:03:08> <INFO>[EU]		Enabled	1.1.1", -- [36]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	pawn	table: 00000152D50DA1F0", -- [37]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	legendaries	table: 00000152D50DA1A0", -- [38]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	sockets	table: 00000152D50DA3D0", -- [39]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	spec	table: 00000152D50DA380", -- [40]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	bonus	table: 00000152D50DA330", -- [41]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	guildNotes	table: 00000152D50DA150", -- [42]
+			"<02:03:08> <DEBUG>[EU]		Doing col 	covenant	table: 00000152D50DA100", -- [43]
+			"<02:03:08> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [44]
+			"<02:03:08> <DEBUG>		GetML()", -- [45]
+			"01/09/23", -- [46]
+			"<02:05:46> <INFO>		Logged In", -- [47]
+			"<02:05:46> <INFO>[ML]		Init", -- [48]
+			"<02:05:46> <INFO>		RCLootCouncil	TradeUI enabled", -- [49]
+			"<02:05:53> <Data.Player>		CreatePlayer	Player-162-0B9A0ED9", -- [50]
+			"<02:05:53> <INFO>		Bnightholdkk-EmeraldDream	3.6.7	nil", -- [51]
+			"<02:05:53> <DEBUG>		ActivateSkin	bfa", -- [52]
+			"<02:06:01> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [53]
+			"<02:06:01> <INFO>		UpdatePlayersData()", -- [54]
+			"<02:06:01> <INFO>		Player relog...", -- [55]
+			"<02:06:08> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [56]
+			"<02:06:08> <INFO>[EU]		Enabled	1.1.1", -- [57]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	pawn	table: 00000152B8BC2BF0", -- [58]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	legendaries	table: 00000152B8BC2BA0", -- [59]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	sockets	table: 00000152B8BC2C40", -- [60]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	spec	table: 00000152B8BC2C90", -- [61]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	bonus	table: 00000152B8BC2CE0", -- [62]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	guildNotes	table: 00000152B8BC2B50", -- [63]
+			"<02:06:08> <DEBUG>[EU]		Doing col 	covenant	table: 00000152B8BC2B00", -- [64]
+			"<02:06:08> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [65]
+			"<02:06:08> <DEBUG>		GetML()", -- [66]
+			"01/09/23", -- [67]
+			"<11:02:18> <INFO>		Logged In", -- [68]
+			"<11:02:18> <INFO>[ML]		Init", -- [69]
+			"<11:02:18> <INFO>		RCLootCouncil	TradeUI enabled", -- [70]
+			"<11:02:28> <Data.Player>		CreatePlayer	Player-162-0B9A1235", -- [71]
+			"<11:02:28> <INFO>		Unknown	3.6.7	nil", -- [72]
+			"<11:02:28> <DEBUG>		ActivateSkin	bfa", -- [73]
+			"<11:02:37> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [74]
+			"<11:02:37> <INFO>		UpdatePlayersData()", -- [75]
+			"<11:02:37> <INFO>		Player relog...", -- [76]
+			"<11:02:46> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [77]
+			"<11:02:46> <INFO>[EU]		Enabled	1.1.1", -- [78]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	pawn	table: 00000294A3FC3740", -- [79]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	legendaries	table: 00000294A3FC36F0", -- [80]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	sockets	table: 00000294A3FC3790", -- [81]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	spec	table: 00000294A3FC3880", -- [82]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	bonus	table: 00000294A3FC3830", -- [83]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	guildNotes	table: 00000294A3FC36A0", -- [84]
+			"<11:02:46> <DEBUG>[EU]		Doing col 	covenant	table: 00000294A3FC3650", -- [85]
+			"<11:02:46> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [86]
+			"<11:02:46> <DEBUG>		GetML()", -- [87]
+			"<11:03:28> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [88]
+			"<11:03:30> <DEBUG>		GetML()", -- [89]
+			"<11:03:30> <Data.Player>		CreatePlayer	Player-162-0A2F1F9A", -- [90]
+			"<11:03:30> <ERROR>		Couldn't produce GUID for Unknown", -- [91]
+			"<11:03:30> <DEBUG>		MasterLooter	Samoanslayer-EmeraldDream", -- [92]
+			"<11:03:30> <DEBUG>		LootMethod	personalloot", -- [93]
+			"<11:03:30> <DEBUG>		HandleLoot	false", -- [94]
+			"<11:03:30> <DEBUG>		IsCouncil	false", -- [95]
+			"<11:03:30> <DEBUG>		CurrentInstanceName	Eastern Kingdoms", -- [96]
+			"<11:03:30> <ERROR>		IsInGuildGroup: No GUID for player	Unknown", -- [97]
+			"<11:03:30> <Data.Player>		CreatePlayer	Player-162-0B77355F", -- [98]
+			"<11:03:30> <Data.Player>		CreatePlayer	Player-162-0B9A1235", -- [99]
+			"<11:03:30> <DEBUG>		Resetting council as we have a new ML!", -- [100]
+			"<11:03:30> <INFO>		MasterLooter	Samoanslayer-EmeraldDream	LootMethod	personalloot", -- [101]
+			"<11:03:45> <DEBUG>		Timer MLdb_check passed", -- [102]
+			"<11:04:05> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [103]
+			"<11:04:05> <INFO>		UpdatePlayersData()", -- [104]
+			"<11:04:06> <DEBUG>		GetML()", -- [105]
+			"<11:04:06> <ERROR>		Couldn't produce GUID for Unknown", -- [106]
+			"<11:04:06> <ERROR>		IsInGuildGroup: No GUID for player	Unknown", -- [107]
+			"01/21/23", -- [108]
+			"<06:24:43> <INFO>		Logged In", -- [109]
+			"<06:24:43> <INFO>[ML]		Init", -- [110]
+			"<06:24:43> <INFO>		RCLootCouncil	TradeUI enabled", -- [111]
+			"<06:24:52> <Data.Player>		CreatePlayer	Player-162-0B9B8BD5", -- [112]
+			"<06:24:52> <INFO>		Unknown	3.6.7	nil", -- [113]
+			"<06:24:52> <DEBUG>		ActivateSkin	bfa", -- [114]
+			"<06:25:00> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [115]
+			"<06:25:00> <INFO>		UpdatePlayersData()", -- [116]
+			"<06:25:00> <INFO>		Player relog...", -- [117]
+			"<06:25:05> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [118]
+			"<06:25:05> <INFO>[EU]		Enabled	1.1.1", -- [119]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	pawn	table: 0000020724B75260", -- [120]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	legendaries	table: 000002072D511190", -- [121]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	sockets	table: 0000020721C07D20", -- [122]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	spec	table: 0000020721C265D0", -- [123]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	bonus	table: 000002072D541950", -- [124]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	guildNotes	table: 0000020721CA05B0", -- [125]
+			"<06:25:05> <DEBUG>[EU]		Doing col 	covenant	table: 0000020725C89990", -- [126]
+			"<06:25:05> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [127]
+			"<06:25:20> <DEBUG>		GetML()", -- [128]
+			"01/21/23", -- [129]
+			"<06:30:44> <INFO>		Logged In", -- [130]
+			"<06:30:44> <INFO>[ML]		Init", -- [131]
+			"<06:30:44> <INFO>		RCLootCouncil	TradeUI enabled", -- [132]
+			"<06:30:49> <Data.Player>		CreatePlayer	Player-162-0B9B8BD5", -- [133]
+			"<06:30:49> <INFO>		Sphinx-EmeraldDream	3.6.7	nil", -- [134]
+			"<06:30:49> <DEBUG>		ActivateSkin	bfa", -- [135]
+			"<06:30:56> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [136]
+			"<06:30:56> <INFO>		UpdatePlayersData()", -- [137]
+			"<06:30:56> <INFO>		Player relog...", -- [138]
+			"<06:31:02> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [139]
+			"<06:31:02> <INFO>[EU]		Enabled	1.1.1", -- [140]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	pawn	table: 0000020701154530", -- [141]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	legendaries	table: 00000207011544E0", -- [142]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	sockets	table: 0000020701154580", -- [143]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	spec	table: 00000207011545D0", -- [144]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	bonus	table: 0000020701154620", -- [145]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	guildNotes	table: 0000020701154490", -- [146]
+			"<06:31:02> <DEBUG>[EU]		Doing col 	covenant	table: 0000020701154440", -- [147]
+			"<06:31:02> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [148]
+			"<06:31:15> <DEBUG>		GetML()", -- [149]
+			"02/04/23", -- [150]
+			"<01:50:51> <INFO>		Logged In", -- [151]
+			"<01:50:51> <INFO>[ML]		Init", -- [152]
+			"<01:50:51> <INFO>		RCLootCouncil	TradeUI enabled", -- [153]
+			"<01:51:07> <Data.Player>		CreatePlayer	Player-162-0B98F2FC", -- [154]
+			"<01:51:07> <INFO>		Unknown	3.6.7	nil", -- [155]
+			"<01:51:07> <DEBUG>		ActivateSkin	bfa", -- [156]
+			"<01:51:15> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false", -- [157]
+			"<01:51:15> <INFO>		UpdatePlayersData()", -- [158]
+			"<01:51:15> <INFO>		Player relog...", -- [159]
+			"<01:51:23> <INFO>[EU]		Enabled	1.1.1", -- [160]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	pawn	table: 000002AAA612B670", -- [161]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	legendaries	table: 000002AAA612B5D0", -- [162]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	sockets	table: 000002AAA612B6C0", -- [163]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	spec	table: 000002AAA612B800", -- [164]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	bonus	table: 000002AAA612B850", -- [165]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	guildNotes	table: 000002AAA612B580", -- [166]
+			"<01:51:23> <DEBUG>[EU]		Doing col 	covenant	table: 000002AAA612B490", -- [167]
+			"<01:51:23> <DEBUG>[EU]		EU:UpdateGuildInfo", -- [168]
+			"<01:51:23> <INFO>[GG]		GroupGear	2.2.0	enabled", -- [169]
+			"<01:51:24> <DEBUG>		GetML()", -- [170]
+			"<01:52:21> <DEBUG>		Event:	PARTY_LEADER_CHANGED", -- [171]
+			"<01:52:22> <DEBUG>		GetML()", -- [172]
+			"<01:52:22> <Data.Player>		CreatePlayer	Player-162-0B4FDB3C", -- [173]
+			"<01:52:22> <ERROR>		Couldn't produce GUID for Unknown", -- [174]
+			"<01:52:22> <DEBUG>		MasterLooter	Threadcraft-EmeraldDream", -- [175]
+			"<01:52:22> <DEBUG>		LootMethod	personalloot", -- [176]
+			"<01:52:22> <DEBUG>		HandleLoot	false", -- [177]
+			"<01:52:22> <DEBUG>		IsCouncil	false", -- [178]
+			"<01:52:22> <DEBUG>		CurrentInstanceName	Eastern Kingdoms", -- [179]
+			"<01:52:22> <ERROR>		IsInGuildGroup: No GUID for player	Unknown", -- [180]
+			"<01:52:22> <Data.Player>		CreatePlayer	Player-162-0B98F2FC", -- [181]
+			"<01:52:22> <DEBUG>		Resetting council as we have a new ML!", -- [182]
+			"<01:52:22> <INFO>		MasterLooter	Threadcraft-EmeraldDream	LootMethod	personalloot", -- [183]
+			"<01:52:43> <DEBUG>		Timer MLdb_check passed", -- [184]
+			"<01:52:44> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	false	false", -- [185]
+			"<01:52:44> <INFO>		UpdatePlayersData()", -- [186]
+			"<01:52:46> <DEBUG>		GetML()", -- [187]
+			"<01:52:46> <ERROR>		Couldn't produce GUID for Unknown", -- [188]
+			"<01:52:46> <ERROR>		IsInGuildGroup: No GUID for player	Unknown", -- [189]
+		},
+		["errors"] = {
+			{
+				["time"] = 1675500774,
+				["msg"] = "Couldn't produce GUID for Unknown",
+				["count"] = 2,
+				["stack"] = {
+					"[string \"@Interface/AddOns/RCLootCouncil/core.lua\"]:1650: in function `IsInGuildGroup'\n...\n", -- [1]
+					"[string \"@Interface/AddOns/RCLootCouncil/core.lua\"]:1684: in function `NewMLCheck'\n...\n", -- [2]
+					"[string \"@Interface/AddOns/RCLootCouncil/core.lua\"]:1483: in function `func'\n[string \"@Interface/AddOns/ACU/Libs/AceTimer-3.0/AceTimer-3.0.lua\"]:57: in function <...erface/AddOns/ACU/Libs/AceTimer-3.0/AceTimer-3.0.lua:50>\n", -- [3]
+					"[string \"@Interface/AddOns/ACU/Libs/AceTimer-3.0/AceTimer-3.0.lua\"]:57: in function <...erface/AddOns/ACU/Libs/AceTimer-3.0/AceTimer-3.0.lua:50>\n", -- [4]
+				},
+			}, -- [1]
+		},
+		["oldVersion"] = "3.6.5",
+		["regionID"] = 1,
+		["locale"] = "enUS",
+		["version"] = "3.6.7",
+		["cache"] = {
+			["player"] = {
+				["Player-162-0B9A0ED9"] = {
+					["name"] = "Bnightholdkk-EmeraldDream",
+					["guid"] = "Player-162-0B9A0ED9",
+					["class"] = "MONK",
+					["cache_time"] = 1673255203,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0B9A1235"] = {
+					["name"] = "Bantoruskk-EmeraldDream",
+					["guid"] = "Player-162-0B9A1235",
+					["class"] = "PALADIN",
+					["cache_time"] = 1673287496,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0A2F1F9A"] = {
+					["name"] = "Samoanslayer-EmeraldDream",
+					["guid"] = "Player-162-0A2F1F9A",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1673287496,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0B98F2FC"] = {
+					["name"] = "Mmkk-EmeraldDream",
+					["guid"] = "Player-162-0B98F2FC",
+					["class"] = "WARLOCK",
+					["cache_time"] = 1675500774,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0B77355F"] = {
+					["name"] = "Antoruskk-EmeraldDream",
+					["guid"] = "Player-162-0B77355F",
+					["class"] = "WARRIOR",
+					["cache_time"] = 1673287496,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0B9B8BD5"] = {
+					["name"] = "Sphinx-EmeraldDream",
+					["guid"] = "Player-162-0B9B8BD5",
+					["class"] = "DRUID",
+					["cache_time"] = 1674307846,
+					["realm"] = "EmeraldDream",
+				},
+				["Player-162-0B4FDB3C"] = {
+					["name"] = "Threadcraft-EmeraldDream",
+					["guid"] = "Player-162-0B4FDB3C",
+					["class"] = "MAGE",
+					["cache_time"] = 1675500774,
+					["realm"] = "EmeraldDream",
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+			},
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+		["Mmkk - Emerald Dream"] = "Mmkk - Emerald Dream",
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+	},
+}

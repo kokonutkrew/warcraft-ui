@@ -1,0 +1,23 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["lastUpdate"] = 1678586268,
+				["Factions"] = {
+					3100, -- [1]
+					3100, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3100,
+					[77] = 0,
+					[75] = 3300,
+				},
+			},
+		},
+	},
+}

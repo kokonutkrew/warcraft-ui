@@ -1,0 +1,23 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cupkek"] = {
+				["lastUpdate"] = 1678581954,
+				["Factions"] = {
+					4000, -- [1]
+					3100, -- [2]
+					3100, -- [3]
+					3100, -- [4]
+					3100, -- [5]
+					[112] = 3100,
+					[77] = 0,
+					[75] = 3300,
+				},
+			},
+		},
+	},
+}

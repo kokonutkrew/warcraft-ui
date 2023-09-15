@@ -1,0 +1,20 @@
+
+ChatSoundCustomizerDB = {
+	["namespaces"] = {
+		["ZoneChannel"] = {
+		},
+		["PlayerList"] = {
+		},
+		["IgnoreList"] = {
+		},
+		["LDB"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

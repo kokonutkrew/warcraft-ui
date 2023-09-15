@@ -1,0 +1,15 @@
+
+LootAppraiserDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+LALootDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+}

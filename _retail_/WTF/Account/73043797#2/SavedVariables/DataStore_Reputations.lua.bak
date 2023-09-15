@@ -1,0 +1,28 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["lastUpdate"] = 1675387738,
+				["guildName"] = "KK",
+				["guildRep"] = 7898,
+				["Factions"] = {
+					5708, -- [1]
+					5708, -- [2]
+					5708, -- [3]
+					5708, -- [4]
+					42000, -- [5]
+					[57] = 0,
+					[75] = 5908,
+					[77] = 4258,
+					[12] = 38,
+					[11] = 55,
+					[112] = 5708,
+				},
+			},
+		},
+	},
+}

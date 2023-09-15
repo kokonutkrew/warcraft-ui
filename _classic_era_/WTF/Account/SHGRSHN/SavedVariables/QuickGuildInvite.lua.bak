@@ -1,0 +1,2 @@
+
+quickguildinvite_enabled = true

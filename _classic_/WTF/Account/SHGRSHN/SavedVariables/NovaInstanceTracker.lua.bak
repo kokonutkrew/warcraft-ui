@@ -1,0 +1,51 @@
+
+NITdatabase = {
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+	["global"] = {
+		["Grobbulus"] = {
+			["trades"] = {
+			},
+			["myChars"] = {
+				["Kk"] = {
+					["guild"] = "KokonutKrew",
+					["firstaidSkillMax"] = 0,
+					["currentXP"] = 55,
+					["cookingSkill"] = 0,
+					["raceEnglish"] = "Orc",
+					["profSkillMax1"] = 0,
+					["profSkill1"] = 0,
+					["firstaidSkill"] = 0,
+					["durabilityAverage"] = 100,
+					["race"] = "Orc",
+					["time"] = 1664343557,
+					["gold"] = 3802,
+					["cookingSkillMax"] = 0,
+					["level"] = 1,
+					["profSkill2"] = 0,
+					["realm"] = "Grobbulus",
+					["fishingSkill"] = 0,
+					["profSkillMax2"] = 0,
+					["raceLocalized"] = "Orc",
+					["fishingSkillMax"] = 0,
+					["maxXP"] = 400,
+					["classEnglish"] = "WARRIOR",
+					["prof2"] = "none",
+					["prof1"] = "none",
+					["guildRankName"] = "Lead",
+					["restedXP"] = 600,
+					["totalBagSlots"] = 70,
+					["freeBagSlots"] = 51,
+					["cooldowns"] = {
+					},
+					["gender"] = "Male",
+					["classLocalized"] = "Warrior",
+					["resting"] = true,
+				},
+			},
+			["instances"] = {
+			},
+		},
+	},
+}

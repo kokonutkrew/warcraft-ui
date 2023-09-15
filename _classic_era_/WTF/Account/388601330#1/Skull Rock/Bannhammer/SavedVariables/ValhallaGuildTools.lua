@@ -1,0 +1,4 @@
+
+VGT_DUNGEON_DB = {
+}
+VGT_DB_TIMESTAMP = nil

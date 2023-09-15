@@ -1,0 +1,1997 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/s /afk", -- [1]
+				"/s /details options", -- [2]
+				"/s /details", -- [3]
+				"/s /clsall", -- [4]
+				"/s /reload", -- [5]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 6,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1652763136,
+					["timestamp"] = 276572.392,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 276572.392,
+					["serverTime"] = 1652763457,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1652769101,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 276572.392,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 276572.392,
+				}, -- [4]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 276572.392,
+				}, -- [5]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 276525.022,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 126,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: Very well... witness what I have seen, and TREMBLE!",
+					["serverTime"] = 1652769499,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276971.995,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: Avatars of non-existence... knowing nothing but hunger.",
+					["serverTime"] = 1652769506,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276978.832,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: Do not think... the future will be so easy.",
+					["serverTime"] = 1652769511,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276983.487,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: These are the beings who will devour the future you so futilely fight to protect!",
+					["serverTime"] = 1652769512,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276985.062,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You receive loot: |cffa335ee|Hitem:138353::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Gauntlets of the Highlord]|h|r |cffffd200|Hshareitem:138353::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769514,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276986.543,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You receive loot: |cffa335ee|Hitem:138309::::::::60:254::3:5:3514:1808:1472:5855:3336:1:28:619:::::|h[Gloves of Everburning Knowledge]|h|r |cffffd200|Hshareitem:138309::::::::60:254::3:5:3514:1808:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769514,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276986.924,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You receive loot: |cffa335ee|Hitem:140864::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Mantle of the Torn Sky]|h|r |cffffd200|Hshareitem:140864::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769514,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276986.924,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You receive loot: |cffa335ee|Hitem:140891::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Sabatons of Unchanging Fate]|h|r |cffffd200|Hshareitem:140891::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769514,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276987.051,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You receive loot: |cffa335ee|Hitem:140803::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Etraeus' Celestial Map]|h|r |cffffd200|Hshareitem:140803::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769514,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276987.051,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h You loot 25 Gold, 63 Silver, 82 Copper",
+					["serverTime"] = 1652769514,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276987.051,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h First Arcanist Thalyssra yells: Etraeus thought himself superior to... well, everyone. I confess I enjoyed seeing him humbled.",
+					["serverTime"] = 1652769522,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276994.613,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[12:39]|h High Botanist Tel'arn yells: Suramar owes its beauty to my blooms! I alone have mastered the delicate intertwining of magic into nature's grand cycle.",
+					["serverTime"] = 1652769570,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277042.548,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[12:39]|h High Botanist Tel'arn yells: It seems I've a bit of pruning to do!",
+					["serverTime"] = 1652769575,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277047.426,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[12:39]|h |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:75:0|h[Auto Shot]|h|r from Samoanranger |cFFFFBB00Boss First Target|r: Samoanranger    ",
+					["timestamp"] = 277047.699,
+					["serverTime"] = 1652769575,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[12:39]|h High Botanist Tel'arn yells: The sun warms my beauties... but it shall scorch your bones!",
+					["serverTime"] = 1652769585,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277058.303,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[12:39]|h High Botanist Tel'arn yells: Now you face three aspects of life, even as your cycle is about to end!",
+					["serverTime"] = 1652769599,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277071.685,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h Naturalist Tel'arn yells: Nature nourishes those who truly appreciate it.",
+					["serverTime"] = 1652769612,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277085.126,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h |TINTERFACE\\ICONS\\Spell_Arcane_PrismaticCloak:20|t Arcanist Tel'arn begins to cast |cFFF00000|Hspell:218807|h[Call of Night]|h|r!",
+					["serverTime"] = 1652769624,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277096.547,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h Arcanist Tel'arn yells: Night falls upon you!",
+					["serverTime"] = 1652769624,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277096.547,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h Solarist Tel'arn yells: When the light dies... so do you!",
+					["serverTime"] = 1652769635,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277107.985,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h Arcanist Tel'arn yells: Someone... water... my plants...",
+					["serverTime"] = 1652769641,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277114.221,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You receive loot: |cffa335ee|Hitem:140839::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Parasitic Spore]|h|r",
+					["serverTime"] = 1652769644,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277116.968,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You receive loot: |cffa335ee|Hitem:140801::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Fury of the Burning Sky]|h|r |cffffd200|Hshareitem:140801::::::::60:254::3:4:3514:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769644,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277117.122,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You receive loot: |cffa335ee|Hitem:140896::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Ring of Braided Stems]|h|r |cffffd200|Hshareitem:140896::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769644,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277117.296,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You receive loot: |cffa335ee|Hitem:140839::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Parasitic Spore]|h|r",
+					["serverTime"] = 1652769645,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277117.455,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You loot 25 Gold, 41 Silver, 29 Copper",
+					["serverTime"] = 1652769645,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277117.708,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h You receive loot: |cffa335ee|Hitem:140883::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Shoulderguard of the Eclipse]|h|r |cffffd200|Hshareitem:140883::::::::60:254::3:4:3514:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769645,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277117.895,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h Archmage Khadgar yells: So the palace gardener turned himself into a plant?",
+					["serverTime"] = 1652769652,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277125.237,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[12:40]|h First Arcanist Thalyssra yells: What can I say? He took his job seriously.",
+					["serverTime"] = 1652769657,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277129.577,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[12:42]|h Tichondrius yells: Incompetent mortal filth! These Nightborne can't even defend their own palace from invasion! If it were up to me...",
+					["serverTime"] = 1652769759,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277232.09,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[12:42]|h Tichondrius yells: You think getting past a few power-addled elves means you can stand against a true son of the Legion?",
+					["serverTime"] = 1652769762,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277234.772,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[12:42]|h |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:75:0|h[Auto Shot]|h|r from Samoanranger |cFFFFBB00Boss First Target|r: Samoanranger    ",
+					["timestamp"] = 277235.077,
+					["serverTime"] = 1652769762,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[12:42]|h |TInterface\\Icons\\spell_deathknight_necroticplague.blp:20|t You are afflicted with |cFFF00000|Hspell:206480|h[Carrion Plague]|h|r!",
+					["serverTime"] = 1652769769,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277241.797,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h Tichondrius yells: Feed my hunger, wretch!",
+					["serverTime"] = 1652769782,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277254.802,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h Tichondrius yells: Fester and die!",
+					["serverTime"] = 1652769792,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277264.786,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h Tichondrius yells: Feed my hunger, wretch!",
+					["serverTime"] = 1652769807,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277279.678,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h Tichondrius yells: Impossible! You are... inferior...",
+					["serverTime"] = 1652769807,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277279.678,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You receive loot: |cffa335ee|Hitem:138321::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Mantle of Everburning Knowledge]|h|r |cffffd200|Hshareitem:138321::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769810,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277282.56,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You receive loot: |cffa335ee|Hitem:138363::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Shoulderplates of the Obsidian Aspect]|h|r |cffffd200|Hshareitem:138363::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769810,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277282.756,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You receive loot: |cffa335ee|Hitem:140798::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Icon of Rot]|h|r |cffffd200|Hshareitem:140798::::::::60:254::3:4:3514:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769810,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277282.916,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You receive loot: |cffa335ee|Hitem:140824::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Writ of Subjugation]|h|r",
+					["serverTime"] = 1652769810,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277283.108,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You receive loot: |cffa335ee|Hitem:140855::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Dreadlord's Tattered Wingcover]|h|r |cffffd200|Hshareitem:140855::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769810,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277283.25,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h You loot 27 Gold, 90 Silver, 69 Copper",
+					["serverTime"] = 1652769811,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277283.42,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[12:43]|h Archmage Khadgar yells: In the Third War, Tichondrius fell in battle against Illidan Stormrage. I think the demon hunter's spirit is pleased that the dreadlord has met another painful end.",
+					["serverTime"] = 1652769818,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277290.569,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[12:44]|h You receive loot: |cff9d9d9d|Hitem:132204::::::::60:254:::::::::|h[Sticky Volatile Substance]|h|r",
+					["serverTime"] = 1652769887,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277359.906,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[12:44]|h Felweaver Pharamere yells: You're too late! Krosus will be your end!",
+					["serverTime"] = 1652769899,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277372.262,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[12:45]|h Krosus yells: Come then! Meet your end!",
+					["serverTime"] = 1652769926,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277398.504,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[12:45]|h |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:257620:0|h[Multi-Shot]|h|r from Samoanranger    ",
+					["timestamp"] = 277398.796,
+					["serverTime"] = 1652769926,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[12:45]|h Krosus yells: I will shatter your world!",
+					["serverTime"] = 1652769956,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277428.515,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h Krosus yells: Azeroth... must... burn...",
+					["serverTime"] = 1652769967,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277439.478,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You receive currency: |cffa335ee|Hcurrency:1275:0|h[Curious Coin]|h|rx1",
+					["serverTime"] = 1652769968,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277440.521,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h Archmage Khadgar yells: That was for Tirion Fordring, monster! Krosus may not have struck the killing blow, but he played a part in our great champion's fall.",
+					["serverTime"] = 1652769978,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277450.388,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You receive loot: |cffa335ee|Hitem:138318::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Robe of Everburning Knowledge]|h|r |cffffd200|Hshareitem:138318::::::::60:254::3:4:3514:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769979,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277452.27,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You receive loot: |cffa335ee|Hitem:138326::::::::60:254::3:5:3514:1808:1472:5855:3336:1:28:619:::::|h[Doomblade Tunic]|h|r |cffffd200|Hshareitem:138326::::::::60:254::3:5:3514:1808:1472:5855:3336:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652769980,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277452.43,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You receive loot: |cffa335ee|Hitem:140835::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Unkindled Ember]|h|r",
+					["serverTime"] = 1652769980,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277452.591,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You receive loot: |cffa335ee|Hitem:140825::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Felfire Pitch]|h|r",
+					["serverTime"] = 1652769980,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277452.766,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[12:46]|h You loot 27 Gold, 4 Silver, 78 Copper",
+					["serverTime"] = 1652769980,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277453.073,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[12:47]|h You hear the measured chanting and pacing of a complex ritual within the spire.",
+					["serverTime"] = 1652770026,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277498.525,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[12:47]|h Your intrusion has not gone unnoticed; but the ritual continues.",
+					["serverTime"] = 1652770032,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277504.889,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[12:47]|h Midnight Siphoner says: Interlopers!",
+					["serverTime"] = 1652770035,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277507.663,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[12:47]|h Midnight Siphoner says: Fear not, I will draw the power of the Nightwell to wipe them out!",
+					["serverTime"] = 1652770037,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277510.254,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[12:47]|h Astral Farseer says: Courtesans! Defend us while we continue the ritual!",
+					["serverTime"] = 1652770046,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277518.554,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[12:48]|h The ritual is broken.  The figure suspended within the Nightwell awakens.",
+					["serverTime"] = 1652770128,
+					["r"] = 1,
+					["extraData"] = {
+						17, -- [1]
+						false, -- [2]
+						17, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277600.773,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[12:48]|h Elisande says: I foresaw your coming, of course. The threads of fate that led you to this place. Your desperate attempt to stop the Legion.",
+					["serverTime"] = 1652770133,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277605.802,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[12:49]|h Elisande says: My people faced a similar dilemma. I peered into all possible futures in search of an answer... and found only one.",
+					["serverTime"] = 1652770143,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277615.772,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[12:49]|h Elisande says: The Legion's victory is inevitable. Every time stream shows it to be so. Had we resisted, they would have taken the Nightwell by force and left us bereft of it.",
+					["serverTime"] = 1652770154,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277626.77,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[12:49]|h Elisande says: I could not allow my people to starve, to waste away without its energies sustaining us. So a bargain was struck.",
+					["serverTime"] = 1652770167,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277639.782,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[12:49]|h Elisande says: Now I see a future where the Legion is victorious and my people endure. This is the thread that must be preserved. I will do everything in my power to make it so!",
+					["serverTime"] = 1652770177,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277649.767,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[12:49]|h Elisande says: Your deaths ensure the future of the Nightborne. Come forward, then. Let us speed you toward your fate.",
+					["serverTime"] = 1652770191,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277663.775,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h Elisande yells: Your timelines end here!",
+					["serverTime"] = 1652770205,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277678.254,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h |cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?*    ",
+					["timestamp"] = 277678.541,
+					["serverTime"] = 1652770206,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h Elisande yells: You exist in but a single moment. I am far less limited!",
+					["serverTime"] = 1652770225,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277698.125,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h |TInterface\\Icons\\SPELL_ARCANE_ARCANE01.BLP:20|tYou will |cFFFF0000|Hspell:209973|h[Explode]|h|r in 6 seconds!",
+					["serverTime"] = 1652770239,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277711.481,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h Elisande yells: You'll find time can be quite volatile.",
+					["serverTime"] = 1652770252,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277724.666,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h |TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!",
+					["serverTime"] = 1652770252,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277725.167,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[12:50]|h Elisande yells: Time shifts again, and your doom draws near!",
+					["serverTime"] = 1652770256,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277728.528,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h Elisande yells: Time is... slipping away! How can it be so?",
+					["serverTime"] = 1652770276,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277749.165,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h Elisande yells: The time streams are mine to command! You cannot win!",
+					["serverTime"] = 1652770287,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277760.026,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h Elisande yells: It's... not possible! I... I was destined to win...",
+					["serverTime"] = 1652770288,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277761.033,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h You loot 26 Gold, 52 Silver, 44 Copper",
+					["serverTime"] = 1652770292,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277764.688,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h Echo of Elisande says: In all the possible futures I scryed, I did not foresee one in which you were victorious. I wonder...",
+					["serverTime"] = 1652770305,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277778.126,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h You receive loot: |cffa335ee|Hitem:140890::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Belt of Celestial Alignment]|h|r |cffffd200|Hshareitem:140890::::::::60:254::3:3:3514:1472:3528:1:28:619::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1652770310,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277782.878,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|Hpratcopy|h[12:51]|h Echo of Elisande says: Will you defeat the Legion? Will you fail? Time eddies about you in fits and starts. Nothing is certain!",
+					["serverTime"] = 1652770314,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277787.037,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [83]
+				{
+					["message"] = "|Hpratcopy|h[12:52]|h You receive loot: |cffa335ee|Hitem:140842::::::::60:254::3:4:3514:1472:5855:3336:1:28:619:::::|h[Collapsing Epoch]|h|r",
+					["serverTime"] = 1652770323,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277795.535,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [84]
+				{
+					["message"] = "|Hpratcopy|h[12:52]|h Echo of Elisande says: Perhaps you will win. And in saving your world, my people would be freed from the terrible bargain we were forced to make.",
+					["serverTime"] = 1652770325,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277797.914,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [85]
+				{
+					["message"] = "|Hpratcopy|h[12:52]|h Echo of Elisande says: Fates be damned! I cast my lot in with yours, champions. Go now, face Gul'dan. I will aid you as best I can, and perhaps together we can save us all.",
+					["serverTime"] = 1652770336,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277808.792,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [86]
+				{
+					["message"] = "|Hpratcopy|h[12:52]|h You receive loot: |cffa335ee|Hitem:140837::::::::60:254::3:3:3514:1472:3528:1:28:619:::::|h[Exothermic Core]|h|r",
+					["serverTime"] = 1652770341,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277813.822,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|Hpratcopy|h[12:52]|h Gul'dan yells: Ah yes, the heroes have arrived. So persistent. So confident. But your arrogance will be your undoing!",
+					["serverTime"] = 1652770365,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277837.677,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "|Hpratcopy|h[12:53]|h Gul'dan yells: Have you forgotten your humiliation on the Broken Shore? How your precious high king was bent and broken before me? Will you beg for your lives as he did, whimpering like some worthless dog?",
+					["serverTime"] = 1652770380,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277853.021,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [89]
+				{
+					["message"] = "|Hpratcopy|h[12:53]|h Gul'dan yells: Your pathetic Alliance will fall to dust. Your new boy-king will bow down and serve me... as will all of you!",
+					["serverTime"] = 1652770403,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277876.146,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [90]
+				{
+					["message"] = "|Hpratcopy|h[12:53]|h Gul'dan yells: The husk of Illidan will prove an ideal vessel for my master's glory. Sargeras will rise, and together we will watch your world burn!",
+					["serverTime"] = 1652770419,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277892.032,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [91]
+				{
+					["message"] = "|Hpratcopy|h[12:53]|h Gul'dan yells: Let the endgame begin!",
+					["serverTime"] = 1652770437,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277910.27,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [92]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: You will not stop the ritual!",
+					["serverTime"] = 1652770443,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277916.165,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [93]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h |cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:75:0|h[Auto Shot]|h|r from Samoanranger    ",
+					["timestamp"] = 277916.481,
+					["serverTime"] = 1652770444,
+				}, -- [94]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h |TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t Gul'dan begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.",
+					["serverTime"] = 1652770445,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277918.122,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: Strike for Sargeras!",
+					["serverTime"] = 1652770450,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277923.103,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [96]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: Burn from within!",
+					["serverTime"] = 1652770454,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277927.13,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [97]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h |TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t Gul'dan begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.",
+					["serverTime"] = 1652770460,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277933.122,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: I'll make ashes of you!",
+					["serverTime"] = 1652770460,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277933.122,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [99]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: Rid me of these pests!",
+					["serverTime"] = 1652770464,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277937.175,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [100]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: Kill them in my master's name!",
+					["serverTime"] = 1652770474,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277947.113,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [101]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: The vessel must be made ready!",
+					["serverTime"] = 1652770478,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277951.118,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [102]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h |TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t Gul'dan begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.",
+					["serverTime"] = 1652770484,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277957.312,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: I'll make ashes of you!",
+					["serverTime"] = 1652770484,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277957.312,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [104]
+				{
+					["message"] = "|Hpratcopy|h[12:54]|h Gul'dan yells: You failed, heroes! The ritual is upon us! But first, I'll indulge myself a bit... and finish you!",
+					["serverTime"] = 1652770485,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277958.107,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [105]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: A taste of the master's might!",
+					["serverTime"] = 1652770505,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277978.068,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [106]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h |TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t Gul'dan gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.",
+					["serverTime"] = 1652770506,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277979.242,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: You'll never escape my grasp!",
+					["serverTime"] = 1652770506,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277979.242,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [108]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h |TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!",
+					["serverTime"] = 1652770514,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277986.509,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h |TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t Gul'dan gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.",
+					["serverTime"] = 1652770519,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277991.443,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: Drink in the glory!",
+					["serverTime"] = 1652770519,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 277991.443,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [111]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h |TInterface\\Icons\\inv_misc_trinket6oih_orb1:20|t Gul'dan gains |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r.",
+					["serverTime"] = 1652770528,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278001.151,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: I will not fail you, master! More power... just need more power...",
+					["serverTime"] = 1652770528,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278001.151,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [113]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: Behold... power given form!",
+					["serverTime"] = 1652770536,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278009.322,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [114]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: No more distractions! I have work to do...",
+					["serverTime"] = 1652770539,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278012.114,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [115]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h |TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!",
+					["serverTime"] = 1652770541,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278014.331,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|Hpratcopy|h[12:55]|h Gul'dan yells: Surrender! I may yet show mercy!",
+					["serverTime"] = 1652770554,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278026.722,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [117]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h Archmage Khadgar yells: Time to return the demon hunter's soul to his body... and deny the Legion's master a host!",
+					["serverTime"] = 1652770561,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278033.984,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [118]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h Archmage Khadgar yells: We can stop him! I know it!",
+					["serverTime"] = 1652770564,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278036.431,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [119]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h Archmage Khadgar yells: Keep pressing, champions! Gul'dan wavers! He WILL fall!",
+					["serverTime"] = 1652770567,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278040.128,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [120]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h Gul'dan yells: Burn from within!",
+					["serverTime"] = 1652770568,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278041.008,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [121]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h You loot 25 Gold, 35 Silver, 91 Copper",
+					["serverTime"] = 1652770578,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278051.327,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h |cff71d5ff|Hdeath:1|h[You died.]|h",
+					["serverTime"] = 1652770611,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278084.195,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|Hpratcopy|h[12:56]|h Repaired for 25 Gold, 47 Silver, 35 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1652770618,
+					["timestamp"] = 278090.451,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|Hpratcopy|h[01:00]|h You gained: |cffffffff582|TInterface\\MoneyFrame\\UI-GoldIcon:0:0:2:0|t 89|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 61|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["serverTime"] = 1652770853,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 278325.894,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|Hpratcopy|h[01:03]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - The Nighthold]|h",
+					["serverTime"] = 1652770990,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						23, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 278462.568,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: As the stars wax, so your lives wane!",
+					["serverTime"] = 1652769487,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276959.516,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [127]
+				{
+					["message"] = "|Hpratcopy|h[12:38]|h Star Augur Etraeus yells: Is that not enough? Must I show you the true horror of our reality?",
+					["serverTime"] = 1652769492,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 276965.08,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

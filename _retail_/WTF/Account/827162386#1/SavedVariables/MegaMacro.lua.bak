@@ -1,0 +1,27 @@
+
+MegaMacroConfig = nil
+MegaMacroGlobalData = {
+	["Macros"] = {
+		{
+			["Scope"] = "gg",
+			["StaticTexture"] = 134400,
+			["Code"] = "/run GuildFrame_Toggle()\n/run GuildFrame_TabClicked ( GuildFrameTab2 )",
+			["Id"] = 1,
+			["ScopedIndex"] = 1,
+			["DisplayName"] = "GRM_Roster",
+		}, -- [1]
+	},
+	["Activated"] = true,
+	["Classes"] = {
+		["Monk"] = {
+			["Macros"] = {
+			},
+			["Specializations"] = {
+				[""] = {
+					["Macros"] = {
+					},
+				},
+			},
+		},
+	},
+}

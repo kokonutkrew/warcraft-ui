@@ -1,0 +1,40 @@
+VER 3 010000000000000E "Counterspell " "Spell_Frost_IceShock"
+#showtooltip Counterspell/stopcasting/ cast [@mouseover, harm, nodead][harm, nodead] Counterspell
+END
+VER 3 0100000000000008 "Focus Sheep" "Spell_Nature_Polymorph"
+/cast polymorph
+/run for i=1,GetNumRaidMembers()-1 do local u,t="raid"..i,"target"if UnitIsUnit(u..t,t)then SendChatMessage("Change targets! Trying to sheep...","WHISPER",nil,UnitName(u))end end
+/s Sheeping %t! You spank it, you tank it!
+END
+VER 3 010000000000000A "freeze" "Spell_Frost_FrostNova"
+#showtooltip [pet:water elemental] freeze
+/use [pet:water elemental] freeze
+END
+VER 3 0100000000000011 "Frostbolt:Pet" "SPELL_FROST_FROSTBOLT02"
+/use [pet:water elemental] Waterbolt
+/cast Frostbolt
+END
+VER 3 0100000000000001 "Killswitch" "Spell_Magic_LesserInvisibilty"
+#show Mirror Image
+/cast Mirror Image
+/cast Time Warp
+/use Bloodthirsty Gladiator's Emblem of Cruelty
+/cast Amplify Magic
+END
+VER 3 0100000000000009 "Mana Table" "Spell_Arcane_MassDispel"
+/aftercast /yp Click the portal brah and get %t some grinds
+/cast Ritual of Refreshment
+END
+VER 3 0100000000000002 "Shield Meh" "Spell_Ice_Lament"
+/castrandom mana shield, mage ward, ice barrier
+/stopcasting 
+END
+VER 3 010000000000000B "SplSteal/deCurse" "SPELL_ARCANE_ARCANE02"
+/cast [help] Remove Curse; [harm] spellsteal
+END
+VER 3 010000000000000F "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000010 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Shg[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

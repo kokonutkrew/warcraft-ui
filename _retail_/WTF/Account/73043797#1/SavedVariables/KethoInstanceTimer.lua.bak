@@ -1,0 +1,39 @@
+
+KethoInstanceTimerDB = {
+	["char"] = {
+		["Luvley - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Mygallexi - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Brisannie - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+	},
+	["global"] = {
+		["version"] = "v3.1.4",
+		["build"] = "Release",
+	},
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

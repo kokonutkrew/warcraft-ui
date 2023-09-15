@@ -1,0 +1,24 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["lastUpdate"] = 1675387738,
+				["Professions"] = {
+					["Mining"] = {
+						["CurrentLevelName"] = "Classic Mining",
+					},
+				},
+				["Prof1"] = "Mining",
+			},
+		},
+	},
+}
+DataStore_CraftsRefDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+}

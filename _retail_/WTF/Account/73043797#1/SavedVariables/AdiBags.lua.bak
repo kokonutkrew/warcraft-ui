@@ -1,0 +1,43 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["TSMPrice"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Equipment"] = {
+		},
+		["Soulbound"] = {
+		},
+		["ItemSets"] = {
+		},
+		["CurrencyFrame"] = {
+		},
+		["DataSource"] = {
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

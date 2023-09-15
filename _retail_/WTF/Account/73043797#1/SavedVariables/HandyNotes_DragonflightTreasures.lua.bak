@@ -1,0 +1,13 @@
+
+HandyNotes_DragonflightTreasuresDB = {
+	["profileKeys"] = {
+		["Mygallexi - Emerald Dream"] = "Mygallexi - Emerald Dream",
+		["Luvley - Emerald Dream"] = "Luvley - Emerald Dream",
+	},
+	["profiles"] = {
+		["Mygallexi - Emerald Dream"] = {
+		},
+		["Luvley - Emerald Dream"] = {
+		},
+	},
+}

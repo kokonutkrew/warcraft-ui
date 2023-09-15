@@ -1,0 +1,1259 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"ok ill go check", -- [1]
+				"im wondering about trading between different accounts", -- [2]
+				"thats sending to your own char", -- [3]
+				"how about gold", -- [4]
+				"whats the verdict", -- [5]
+				"shall we test trading cross faction", -- [6]
+				"/cw Xingsheng-MoonGuard Alright thanks mate", -- [7]
+				"/cw Xingsheng-MoonGuard Ill stay in the discord server", -- [8]
+				"/cw Xingsheng-MoonGuard Ya im down to raid with you guys tomorrow", -- [9]
+				"/raid np", -- [10]
+				"/cw Solgrip-MoonGuard I can do 15", -- [11]
+				"/cw Solgrip-MoonGuard Ima have to dip soon", -- [12]
+				"/raid I understand", -- [13]
+				"/raid i was on the edge", -- [14]
+				"/raid cosmic core 73000 physical", -- [15]
+				"/raid damn razer synapse flipping to the wrong profile", -- [16]
+				"/raid ok im good now", -- [17]
+				"/raid can you give me a min to fix keybind", -- [18]
+				"/cw Xingsheng-MoonGuard kk", -- [19]
+				"/cw Xingsheng-MoonGuard like in reference to the green marker they put down", -- [20]
+				"/cw Xingsheng-MoonGuard Ill try to work on the green side of the room", -- [21]
+				"/cw Xingsheng-MoonGuard Im familiar with the mechanic though", -- [22]
+				"/cw Xingsheng-MoonGuard ya dispelling to heal is a pain lol", -- [23]
+				"/cw Kezki-MoonGuard 123 sry I had to fix talents", -- [24]
+				"/p purple yell blue organ", -- [25]
+				"/p bue yello orange purp", -- [26]
+				"/p save it", -- [27]
+				"/p nice work", -- [28]
+				"/p tough affixes this week", -- [29]
+				"/g hey man got time for a mythic dungeon?", -- [30]
+				"/p 8% after", -- [31]
+				"/p release", -- [32]
+				"/p and kill trash", -- [33]
+				"/p go back to begining", -- [34]
+				"/p will need 8% more after we kill last boss", -- [35]
+				"/p after this pack", -- [36]
+				"/p skipping this section right?", -- [37]
+				"/p just release", -- [38]
+				"/p dc?", -- [39]
+				"/p im in discord with him", -- [40]
+				"/p nice we have a rouge for skips", -- [41]
+				"/g hey honust", -- [42]
+				"/p there we go", -- [43]
+				"/p https://discord.gg/8pzaeYs7", -- [44]
+				"/p wrong discord link lol", -- [45]
+				"/p https://discord.gg/fYd7jR45", -- [46]
+				"/p hopping in discord", -- [47]
+				"hello", -- [48]
+				"/p the ill que us", -- [49]
+				"/p I got a buddy logging on right now", -- [50]
+				"/p hello", -- [51]
+				"/s reset", -- [52]
+				"/s just wipe", -- [53]
+				"/s release if you can", -- [54]
+				"/s harder than a boss", -- [55]
+				"/p dont release if your dieing here", -- [56]
+				"/p i have soulstone", -- [57]
+				"/s /bartender", -- [58]
+				"/s /details options", -- [59]
+				"/p /details", -- [60]
+				"/p stack on green for orbs", -- [61]
+				"/p orbs at front on green", -- [62]
+				"/p fr with tank", -- [63]
+				"/p stright to boss", -- [64]
+				"/p just release", -- [65]
+				"/p sry", -- [66]
+				"/p that laxative finally kicked in", -- [67]
+				"/p phew", -- [68]
+				"/p thanks for the key", -- [69]
+				"/p ring anyone?", -- [70]
+				"/p cookie love", -- [71]
+				"/p stack", -- [72]
+				"/p just release", -- [73]
+				"/p grab that warlock", -- [74]
+				"/s anyone?", -- [75]
+				"/s dagger?", -- [76]
+				"/s banish big slimes?", -- [77]
+				"/s wo skipping", -- [78]
+				"/s wo", -- [79]
+				"/s /reload", -- [80]
+				"/p haste and urha", -- [81]
+				"/p relics before boss", -- [82]
+				"/p its all good", -- [83]
+				"/p np", -- [84]
+				"/p release", -- [85]
+				"/p everyone help grab orbs", -- [86]
+				"/p release", -- [87]
+				"/p focus add", -- [88]
+				"/p avoid dmg", -- [89]
+				"/p all right at the start", -- [90]
+				"/p 13 deaths", -- [91]
+				"/p focus that add", -- [92]
+				"/p ty", -- [93]
+				"/p k rdy", -- [94]
+				"/p I forgot to repair", -- [95]
+				"/p w8", -- [96]
+				"/p ya thats probably a good idea", -- [97]
+				"/p we should probably save hero for the second boss", -- [98]
+				"/g cool lets do it", -- [99]
+				"/g just got back from a campout", -- [100]
+				"/g doing good", -- [101]
+				"/g I was actually having fun running arenas the other day", -- [102]
+				"/g who you doing 2s with?", -- [103]
+				"/g oh nice", -- [104]
+				"/p 1 for summon me pls", -- [105]
+				"/p talking in discord", -- [106]
+				"/p ya we are adjusting now", -- [107]
+				"/g Discord?", -- [108]
+				"/g sure", -- [109]
+				"/g hmm well lemme see if I can get him on for a run", -- [110]
+				"/g how high you farming", -- [111]
+				"/g I want to start running mekis pally through mythic+", -- [112]
+				"/g thats awesome", -- [113]
+				"/g whoa srs;y?", -- [114]
+				"/g |cffa335ee|Hitem:188923::::::::60:264::35:7:7772:8116:6652:7579:7359:8151:1498::::::|h[Theurgic Starspeaker's Howl]|h|r", -- [115]
+				"/g hello!", -- [116]
+				"/s /ginvite kkdelete", -- [117]
+				"/p orbs on green", -- [118]
+				"/p fr with tank", -- [119]
+				"/p death penalty too", -- [120]
+				"/p come back", -- [121]
+				"/p all good", -- [122]
+				"/s ok", -- [123]
+				"/s ss", -- [124]
+				"/s release", -- [125]
+				"/s /dbm pull 10", -- [126]
+				"/s lets go urh", -- [127]
+				"/s ty for food and cookies", -- [128]
+				"/p cc big slimes pls", -- [129]
+				"/p banish slimes", -- [130]
+				"/p lock rocks pls", -- [131]
+				"/p no invis", -- [132]
+				"/p /dbm pull 10", -- [133]
+				"/p welcome", -- [134]
+				"/g hello", -- [135]
+				"/p hard swap rouge", -- [136]
+				"/p the shammy", -- [137]
+				"/p focus their heals", -- [138]
+				"/p /dbm pull 10", -- [139]
+				"/p we have cc for the pack after the tree guy here at the start", -- [140]
+				"/p nice easy run guys", -- [141]
+				"/p any nf here?", -- [142]
+				"/p hello", -- [143]
+				"/cw Tigerclaw-Ner'zhul boomy or feral", -- [144]
+				"/p 4pc much?", -- [145]
+				"/p lies", -- [146]
+				"/p hero", -- [147]
+				"/p /dbm pull 10", -- [148]
+				"/p we can do 17", -- [149]
+				"/p sure", -- [150]
+				"/p we tried", -- [151]
+				"/p sry all", -- [152]
+				"/p dang welp", -- [153]
+				"/p wipe it", -- [154]
+				"/p /dbm pull 10", -- [155]
+				"/p jus kill em all", -- [156]
+				"/p no invs pots", -- [157]
+				"/p nice clean run bois", -- [158]
+				"/p at stone wm off", -- [159]
+				"/p is the dk 4pc broken for dps too? blood spec is crazy", -- [160]
+				"/p welcome guys", -- [161]
+				"/p nice work all'", -- [162]
+				"/p nobody died!", -- [163]
+				"/p easy!", -- [164]
+				"/p range stack green for 2nd boss", -- [165]
+				"/p yell orange blue purple", -- [166]
+				"/p /dbm pull 10", -- [167]
+				"/p at least I think I have the addon lol", -- [168]
+				"/p ill call out symbols on 1st boss", -- [169]
+				"/p right, but gets really messy if peeps not used to it", -- [170]
+				"/p no pots", -- [171]
+				"/p nah", -- [172]
+				"/p nice smooth run guys", -- [173]
+				"/p summons inc", -- [174]
+				"/p welcome welcome", -- [175]
+				"/p hmm the dh for magic dmg?", -- [176]
+				"/p welcome guys", -- [177]
+				"/g hopping on discord", -- [178]
+				"/g hello", -- [179]
+				"/s /wave", -- [180]
+				"/s /cls", -- [181]
+				"/s /clsall", -- [182]
+				"/s /cls", -- [183]
+				"/s /prat", -- [184]
+				"/s /join general", -- [185]
+				"/s /details options", -- [186]
+				"/s /details", -- [187]
+				"/s /wa", -- [188]
+				"/s /mdt", -- [189]
+				"/s /prat", -- [190]
+				"/s /wa", -- [191]
+				"/s /rach", -- [192]
+				"/cw Kyzarusty-Frostmourne /reload", -- [193]
+				"/cw Kyzarusty-Frostmourne 4pc venthyr", -- [194]
+				"/p ty", -- [195]
+				"/p lol", -- [196]
+				"/p sry caps", -- [197]
+				"/p NOT SURE", -- [198]
+				"/p YEE", -- [199]
+				"/p understood", -- [200]
+				"/p omw", -- [201]
+				"/p soa right?", -- [202]
+				"/p k back", -- [203]
+				"/p hello", -- [204]
+				"/p gn all", -- [205]
+				"/p tyvm", -- [206]
+				"/p may I grab a port to oribos pls", -- [207]
+				"/p easy- nobody died!", -- [208]
+				"/p nice work guys", -- [209]
+				"/p more help with balls", -- [210]
+				"/s release", -- [211]
+				"/s sure", -- [212]
+				"/s repair", -- [213]
+				"/p and I did help dps", -- [214]
+				"/p yes we were both low going in", -- [215]
+				"/p stack orbs at front on green", -- [216]
+				"/p fl with tank", -- [217]
+				"/p sry for the rough start", -- [218]
+				"/p yee", -- [219]
+				"/p dot hurts", -- [220]
+				"/p bed for me after this I think...", -- [221]
+				"/p release", -- [222]
+				"/p fuck me", -- [223]
+				"/p aggro", -- [224]
+				"/p yee", -- [225]
+				"/p depends if tank goes left or right", -- [226]
+				"/p good I dont have to hero lol", -- [227]
+				"/p nice work", -- [228]
+				"/p stack", -- [229]
+				"/p pull all to boss", -- [230]
+				"/p /dbm pull 5", -- [231]
+				"/p need 1 more at summon stone wmoff", -- [232]
+				"/p welcome", -- [233]
+				"/p hello", -- [234]
+				"/p cya", -- [235]
+				"/p ty ty", -- [236]
+				"/p if I had time Id continue", -- [237]
+				"/p nicely done bois", -- [238]
+				"/p take the bat", -- [239]
+				"/p % on trash", -- [240]
+				"/p nuts", -- [241]
+				"/p /dbm pull 10", -- [242]
+				"/p omw wm off", -- [243]
+				"/p welcome", -- [244]
+				"/g rdy for mythics?", -- [245]
+				"/g hello", -- [246]
+				"/g Ill be back in like 30 mins", -- [247]
+				"/g I gotta help my cousin with somehting sry man", -- [248]
+				"/i they will try to bubble our pally", -- [249]
+				"/g ah, Ill run mythics after with ya", -- [250]
+				"/g yo whats up!", -- [251]
+				"/s /reload", -- [252]
+				"/s /wa", -- [253]
+				"/s /pvpsound", -- [254]
+				"/s /reload", -- [255]
+				"/s /script Details:OpenPlugin ('Encounter Breakdown')", -- [256]
+				"/s /spy config", -- [257]
+				"/s /spy", -- [258]
+				"/s /script Details:OpenPlugin ('Encounter Breakdown')", -- [259]
+				"/s /details spells", -- [260]
+				"/s /details", -- [261]
+				"/s /omnibar", -- [262]
+				"/s /reload", -- [263]
+				"/s /omnibar", -- [264]
+				"/s /sarena", -- [265]
+				"/s /reload", -- [266]
+				"/p /dance", -- [267]
+				"/p yee", -- [268]
+				"/p release", -- [269]
+				"/p I waited for BR if it looked like we would need it", -- [270]
+				"/p rez pls", -- [271]
+				"/p lust or save?", -- [272]
+				"/p ok", -- [273]
+				"/raid ^", -- [274]
+				"/raid can Ill need another summon", -- [275]
+				"/raid ah, sry need to chang cov", -- [276]
+				"/raid hello", -- [277]
+				"/s inv", -- [278]
+				"/p alright man well thatnks for the matches", -- [279]
+				"/p yee", -- [280]
+				"/p good point", -- [281]
+				"/p I over extended as well trying to finish the shammy", -- [282]
+				"/p Also you had me los'd there", -- [283]
+				"/p was your portal on cooldown?", -- [284]
+				"/p but aparently I was just los you", -- [285]
+				"/p i felt like I could kite his dmg", -- [286]
+				"/p i did see the fear", -- [287]
+				"/p k", -- [288]
+				"/p f DHs", -- [289]
+				"/p k", -- [290]
+				"/p ok", -- [291]
+				"/p got it", -- [292]
+				"/p k", -- [293]
+				"/p hex dh", -- [294]
+				"/p 20% increase in cc", -- [295]
+				"/p ya that trinket forsure", -- [296]
+				"/p break cc", -- [297]
+				"/p whats the best race for lock pvp", -- [298]
+				"/p i see", -- [299]
+				"/p aiight", -- [300]
+				"/p k", -- [301]
+				"/p aiight", -- [302]
+				"/p ok", -- [303]
+				"/p Kinda had me on panic heals with the burst though", -- [304]
+				"/p I was hexing the priest there", -- [305]
+				"/p k", -- [306]
+				"/p ty", -- [307]
+				"/p cookies", -- [308]
+				"/p matching is going to try and screw us", -- [309]
+				"/p i srsly dont know", -- [310]
+				"/p lol", -- [311]
+				"/p gotcha", -- [312]
+				"/p just didnt there", -- [313]
+				"/p I usually do use it", -- [314]
+				"/p No I didnt", -- [315]
+				"/p ya I got it", -- [316]
+				"/p boomy and fire lol", -- [317]
+				"/p this the same comp?", -- [318]
+				"/p my comp froze and I thought I dc'd llol", -- [319]
+				"/p gees", -- [320]
+				"/p eventually I ran outta mana first", -- [321]
+				"/p game of attrition", -- [322]
+				"/p dh so slippery", -- [323]
+				"/p ya tough comp", -- [324]
+				"/p bursty", -- [325]
+				"/p insane health regen", -- [326]
+				"/p probably necrolord", -- [327]
+				"/p the rouge?", -- [328]
+				"/p nice work", -- [329]
+				"/p expecting the stunlock", -- [330]
+				"/p in trouble once the coolies run out", -- [331]
+				"/p shammies great for burst healing", -- [332]
+				"/p try to get the war to over extend", -- [333]
+				"/p bait the charge", -- [334]
+				"/p yee", -- [335]
+				"/p lets go one more", -- [336]
+				"/p bad luck", -- [337]
+				"/p bubble time", -- [338]
+				"/p Ive been thinking about switching to my lock", -- [339]
+				"/p op in fact", -- [340]
+				"/p locks are tanky this patch", -- [341]
+				"/p 2k", -- [342]
+				"/p all goods thanks for the invite", -- [343]
+				"/p aiight", -- [344]
+				"/p was he party lead", -- [345]
+				"/p hello guys", -- [346]
+				"/p I typically summon my elemental then hide my stun totem with it", -- [347]
+				"/p what name plates you guys use?", -- [348]
+				"/p hopefully dinners not burnt", -- [349]
+				"/p r", -- [350]
+				"/p no prob", -- [351]
+				"/p he mentioned needing a sec", -- [352]
+				"/p food out of the oven?", -- [353]
+				"/p that stun though", -- [354]
+				"/p lol", -- [355]
+				"/p nice work", -- [356]
+				"/p druids are so slippery", -- [357]
+				"/p coolio", -- [358]
+				"/p primary target?", -- [359]
+				"/p ya waitin for a buddy to do some L16 torghast", -- [360]
+				"/p hey guys", -- [361]
+				"/s /ampvp", -- [362]
+				"/s /reload", -- [363]
+				"/s /ampvp", -- [364]
+				"/g aiight laters", -- [365]
+				"/g we can run you through a mythic+ if you like", -- [366]
+				"/g bout mid way through", -- [367]
+				"/g but she'll be back soon", -- [368]
+				"/g not really, we're both trying to finish up our MBAs", -- [369]
+				"/g sweet", -- [370]
+				"/g hows rocko and those guys", -- [371]
+				"/g you pulled good dps on your hunter", -- [372]
+				"/g ya I remember", -- [373]
+				"/g do you pvp?", -- [374]
+				"/g they took a nerf but are still decent", -- [375]
+				"/g warlocks were op for a bit", -- [376]
+				"/g awesome she can play with my wife lol", -- [377]
+				"/g monstrous heals", -- [378]
+				"/g yee", -- [379]
+				"/g soon", -- [380]
+				"/g ok well we can run you through a +10 probably", -- [381]
+				"/g we're running a +15 key after this if you want to join", -- [382]
+				"/g great man trying not to die in torghast right now", -- [383]
+				"/g yo whatup amond", -- [384]
+				"/g yee", -- [385]
+				"/g /dance", -- [386]
+				"/g /wave", -- [387]
+				"/g shall we continue?", -- [388]
+				"/g welcome back", -- [389]
+				"ok sounds good", -- [390]
+				"haha, lemme know if your down for 2s, a little rougher on the weekends it seems", -- [391]
+				"nice, windfury proces ftw", -- [392]
+				"what spec is your shammy?", -- [393]
+				"/g cya", -- [394]
+				"/g ok np", -- [395]
+				"/g bonus knowloed", -- [396]
+				"/g phew it didnt", -- [397]
+				"/g hope my xmog does spawn", -- [398]
+				"/g 100 anima short lol", -- [399]
+				"/g probably cause my death", -- [400]
+				"/g close lol", -- [401]
+				"/g ive got 549", -- [402]
+				"/g I dont know what that was", -- [403]
+				"/g big pull", -- [404]
+				"/g 500 each", -- [405]
+				"/g my ad", -- [406]
+				"/g I see him", -- [407]
+				"/g was there a guy to save?", -- [408]
+				"/g Ill just be super careful", -- [409]
+				"/g I thought I dc'd", -- [410]
+				"/g my whole screen froze for lik 15 secs", -- [411]
+				"/g should we restart?", -- [412]
+				"/g and died", -- [413]
+				"/g I lagged", -- [414]
+				"/g shoot", -- [415]
+				"/g just hate getting knocked off platforms lol", -- [416]
+				"/g coldhart is usually pretty short", -- [417]
+				"/g feels sad though lol", -- [418]
+				"/g once your over like 10ilvls", -- [419]
+				"/g ya probably", -- [420]
+				"/g sweet lets do it", -- [421]
+				"/g and only 2 wings open each week", -- [422]
+				"/g theres and anchievement to track it", -- [423]
+				"/g but after that we just need to +16 whatever wing that we havent before", -- [424]
+				"/g ya I know we have to unlock it first", -- [425]
+				"/g I think the achieve should be easy for you and me", -- [426]
+				"/g I say we go knock out our +16 Torghast", -- [427]
+				"/g I dont see any Halondrus groups going", -- [428]
+				"/g 1 week didnt feel worth it", -- [429]
+				"/g ya a patch is a decent time to have a dungeon up", -- [430]
+				"/g and takes the heat offf of developing new dungeon content lol", -- [431]
+				"/g Thats cool", -- [432]
+				"/g Ah I see", -- [433]
+				"/g How so?", -- [434]
+				"/g I still need H Halondrus", -- [435]
+				"/g just planning out how to spend my conquest", -- [436]
+				"/g Right on, Ive actually been PVPing and having alot of fun lol", -- [437]
+				"/g I finished up all my mythic+ for the week how about you?", -- [438]
+				"/g nice!", -- [439]
+				"/g hey honust hows it going", -- [440]
+				"/i LM gone", -- [441]
+				"/i we lost lumber mill", -- [442]
+				"/i ghosted", -- [443]
+				"/i dmg sucks in this group", -- [444]
+				"/i we should kill their healer", -- [445]
+				"/i so yaaaaa", -- [446]
+				"/s /reload", -- [447]
+				"/p cookies", -- [448]
+				"/p orbs on green", -- [449]
+				"/p rezzomg", -- [450]
+				"/p release", -- [451]
+				"/p I am rezzing", -- [452]
+				"/p why release", -- [453]
+				"/p I can rez", -- [454]
+				"/p dpmt re;ease", -- [455]
+				"/p k", -- [456]
+				"/p ok save lust then?", -- [457]
+				"thanks for the matches mate", -- [458]
+				"bit", -- [459]
+				"but Ill be back on in a ibt", -- [460]
+				"I gotta go for a run", -- [461]
+				"ouch lol", -- [462]
+				"k", -- [463]
+				"so we were both spectating", -- [464]
+				"mind controled me", -- [465]
+				"wrong choice", -- [466]
+				"priest forced a 1v1", -- [467]
+				"lol", -- [468]
+				"hard swaps", -- [469]
+				"ya", -- [470]
+				"los", -- [471]
+				"hmm", -- [472]
+				"fight on right", -- [473]
+				"nah", -- [474]
+				"late comer?", -- [475]
+				"jbaited him to the pillar", -- [476]
+				"something about warriors, they always gotta charge in lol", -- [477]
+				"nice lol", -- [478]
+				"yee", -- [479]
+				"los the hunter", -- [480]
+				"back", -- [481]
+				"that dk wont die", -- [482]
+				"yee", -- [483]
+				"haha I hear ya", -- [484]
+				"I should have tried to split", -- [485]
+				"alot of aoe their", -- [486]
+				"it be like this sometimes", -- [487]
+				"no worries", -- [488]
+				"ok ill focus too", -- [489]
+				"true", -- [490]
+				"fury heals more than arms", -- [491]
+				"getting tougher matchups now", -- [492]
+				"can you mount me in arena?", -- [493]
+				"yup", -- [494]
+				"ya Ill stay closer to you", -- [495]
+				"i was too far away my bad", -- [496]
+				"k", -- [497]
+				"i bet they didnt apreaciate that lol", -- [498]
+				"force bubble force bubble kil", -- [499]
+				"that seemed broken", -- [500]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664337911,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1664364611,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 106715.016,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 106715.016,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 106715.016,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106635.229,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T894222:14|tSky-Bo is now your active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487808,
+					["timestamp"] = 334467.511,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135794:14|tFel Flame is now enemy active pet.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487809,
+					["timestamp"] = 334468.265,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Round 1",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487814,
+					["timestamp"] = 334473.651,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:178:988:164:173|h[Immolate]|h|r dealt 165 damage to your |T894222:14|tSky-Bo (Strong).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487816,
+					["timestamp"] = 334474.909,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487816,
+					["timestamp"] = 334474.909,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r healed 30 damage from your |T894222:14|tSky-Bo.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487818,
+					["timestamp"] = 334477.443,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T618979:14|t|cff4e96f7|HbattlePetAbil:723:30:10:13|h[Failsafe]|h|r applied |T618979:14|t|cff4e96f7|HbattlePetAbil:244:30:10:13|h[Mechanical]|h|r to your |T894222:14|tSky-Bo.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487818,
+					["timestamp"] = 334477.695,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:178:988:164:173|h[Immolate]|h|r applied |T135817:14|t|cff4e96f7|HbattlePetAbil:177:988:164:173|h[Immolate]|h|r to your |T894222:14|tSky-Bo.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487820,
+					["timestamp"] = 334478.953,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: |T135817:14|t|cff4e96f7|HbattlePetAbil:177:988:164:173|h[Immolate]|h|r dealt 69 damage to your |T894222:14|tSky-Bo (Strong).",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487821,
+					["timestamp"] = 334479.999,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[09:30]|h |Hchannel:PET_BATTLE_COMBAT_LOG|h[Pet Battle]|h: Your |T894222:14|tSky-Bo died.",
+					["extraData"] = {
+						61, -- [1]
+						false, -- [2]
+						15, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 0.6705882549285889,
+					["serverTime"] = 1647487821,
+					["timestamp"] = 334479.999,
+					["g"] = 0.8705883026123047,
+					["r"] = 0.9058824181556702,
+				}, -- [10]
+			},
+			["headIndex"] = 10,
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 52,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[10:59]|h Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664337911,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[10:59]|h Unknown macro option: etc",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664337911,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[10:05]|h Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["serverTime"] = 1664364611,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 106715.016,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[10:05]|h Unknown macro option: etc",
+					["serverTime"] = 1664364611,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 106715.016,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[10:05]|h Loot Specialization set to: Restoration",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664337919,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[10:05]|h |cffd8d8d8[|r|Hplayer:Samoansage-EmeraldDream:2:GUILD|h|cffd8bc3f60|r:|cff006fdcSamoansage|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:2090:Player-162-0A01C9F2:1:9:27:22:4294967295:4294967295:4294967295:4294967295|h[Challenger]|h|r |cffffffff(|rCompleted 9/27/22|cffffffff)|r |cff2080a0|Hgratsl:Samoansage:GUILD::2090|h[say grats]|h|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664337925,
+					["extraData"] = {
+						48, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[10:06]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:117:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tMememachine)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338001,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Honustustere to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338020,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Hammerfizt to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338025,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Darksector to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338025,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Darksector to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338025,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Twéak to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338025,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Twéak to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338025,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Kershelaster to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338026,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Kershelaster to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338026,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Rowscaylle to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338026,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h You have invited Rowscaylle to join your guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338026,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h Honustustere-EmeraldDream has joined the guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338037,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[10:07]|h |cffd8d8d8[|r|Hplayer:Honustustere:18|h|cffa5a5a5Honustustere|r|h|cffd8d8d8]|r has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664338037,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [19]
+				{
+					["message"] = "0 |4day:days;, 7 |4hour:hours;, 22 |4minute:minutes;, 54 |4second:seconds;",
+					["timestamp"] = 106715.016,
+				}, -- [20]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 106715.016,
+				}, -- [21]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 106635.229,
+				}, -- [22]
+				{
+					["message"] = "BetterVendorPrice v1.16.05 by MooreaTv: type /bvp for command list/help.",
+					["timestamp"] = 106635.229,
+				}, -- [23]
+				{
+					["message"] = "|cff69CCF0 GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.14.1 |r(|cff9482C99.2 Shadowlands|r)",
+					["timestamp"] = 106635.229,
+				}, -- [24]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 106635.229,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[05:29]|h PvP tooltips brought to you by wowarenalogs.com!",
+					["timestamp"] = 106635.229,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106714.245,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h To |HBNplayer:|Kq2|k:138:1:BN_WHISPER:|Kq2|k|h[|Kq2|k]|h: Sole long time!",
+					["r"] = 0,
+					["extraData"] = {
+						53, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 106715.016,
+					["g"] = 1,
+					["b"] = 0.9647059440612793,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h Unknown macro option: etc",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106715.016,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 106715.016,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 106715.016,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 106715.016,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 106715.016,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.23)|r:  hooked into Rematch",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364611,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cff33ff99ArenaMarker|r by |cff69CCF0Mageiden|r. Type |cff33ff99/am|r for additional options.",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364614,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364614,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364614,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1664364617,
+					["timestamp"] = 106715.016,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffe8cd86WowUp Notification|r: You have 2 addons to be updated",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364617,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h Raider.IO Mythic Plus, Raiding, and Recruitment: |cff7f7f7f9.2.0 (v202206010600)|r |cffe8cd86-> 9.2.0 (v202206040600)|r ",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364617,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h SilverDragon: |cff7f7f7fv90205.0|r |cffe8cd86-> v90205.1|r ",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364617,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h Loot Specialization set to: Restoration",
+					["serverTime"] = 1664364617,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 106715.016,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364622,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 106715.016,
+					["serverTime"] = 1664364622,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffd839TSM|r: TSM is currently rebuilding its item cache which may cause FPS drops and result in TSM not being fully functional until this process is complete. This is normal and typically takes a few minutes.",
+					["timestamp"] = 106733.613,
+					["serverTime"] = 1664364629,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h [1. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1664364629,
+					["timestamp"] = 106734.264,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h [1. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1664364634,
+					["timestamp"] = 106738.792,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffd839TSM|r: Done rebuilding item cache.",
+					["timestamp"] = 106742.488,
+					["serverTime"] = 1664364637,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h [1. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1664364641,
+					["timestamp"] = 106746.31,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[05:30]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 106753.352,
+					["serverTime"] = 1664364648,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[05:31]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1664364700,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106805.065,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[05:31]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1664364700,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 106805.065,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

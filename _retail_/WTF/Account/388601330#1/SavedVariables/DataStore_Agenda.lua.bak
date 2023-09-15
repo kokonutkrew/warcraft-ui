@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2023-03-14",
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Cupkek"] = {
+				["lastUpdate"] = 1678581966,
+			},
+		},
+	},
+}

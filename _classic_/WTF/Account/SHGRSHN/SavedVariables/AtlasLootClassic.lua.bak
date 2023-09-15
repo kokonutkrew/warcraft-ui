@@ -1,0 +1,22 @@
+
+AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 1050006,
+	},
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Kk - Grobbulus",
+	},
+	["profiles"] = {
+		["Kk - Grobbulus"] = {
+			["GUI"] = {
+				["point"] = {
+					"BOTTOMRIGHT", -- [1]
+					nil, -- [2]
+					"BOTTOMRIGHT", -- [3]
+					-21.33328628540039, -- [4]
+					36.3456916809082, -- [5]
+				},
+			},
+		},
+	},
+}

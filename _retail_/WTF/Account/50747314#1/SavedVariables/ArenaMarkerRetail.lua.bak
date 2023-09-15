@@ -1,0 +1,11 @@
+
+ArenaMarkerDB = {
+	["petDropDownThreeMarkerID"] = -1,
+	["petDropDownTwoClickID"] = -1,
+	["allowPets"] = true,
+	["petDropDownThreeClickID"] = -1,
+	["markSummonedPets"] = true,
+	["petDropDownTwoMarkerID"] = -1,
+	["petDropDownMarkerID"] = -1,
+	["petDropDownClickID"] = -1,
+}

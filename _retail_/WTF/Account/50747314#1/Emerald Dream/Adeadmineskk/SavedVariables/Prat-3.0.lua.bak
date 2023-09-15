@@ -1,0 +1,1954 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1652050243,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 14791.315,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 14791.315,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 14791.315,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 14791.315,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 65,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r You are not in a guild.",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r You are not in a guild.",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r You are not in a guild.",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14872.287,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:45]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050275,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14882.771,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:45]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050275,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14882.771,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:11]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 14909.506,
+					["serverTime"] = 1652050301,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r |cff00fe97Munnki|r has left the raid group.",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14910.972,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.153,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.42,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:13]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050303,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14911.72,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:15]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14913.286,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:15]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14913.286,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:15]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050305,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14913.286,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:20]|h|r Raid converted to Party",
+					["serverTime"] = 1652050310,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14918.053,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:20]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1652050310,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14918.053,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:20]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050310,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14918.199,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:27]|h|r Party Sync activated.",
+					["serverTime"] = 1652050317,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 14925.347,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:07]|h|r Stronguard receives loot: |cffffffff|Hitem:2835::::::::10:1454:::::::::|h[Rough Stone]|h|rx4.",
+					["serverTime"] = 1652050361,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14964.917,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:07]|h|r Stronguard receives loot: |cffffffff|Hitem:2770::::::::10:1454:::::::::|h[Copper Ore]|h|rx4.",
+					["serverTime"] = 1652050361,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14965.04,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:24]|h|r Discovered The Deadmines: 175 experience gained",
+					["serverTime"] = 1652050378,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14982.313,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:40]|h|r Stronguard receives loot: |cffffffff|Hitem:2835::::::::10:1454:::::::::|h[Rough Stone]|h|rx3.",
+					["serverTime"] = 1652050394,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14998.59,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:40]|h|r Stronguard receives loot: |cffffffff|Hitem:2770::::::::10:1454:::::::::|h[Copper Ore]|h|rx4.",
+					["serverTime"] = 1652050394,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14998.74,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:56]|h|r Stronguard receives loot: |cffffffff|Hitem:2771::::::::10:1454:::::::::|h[Tin Ore]|h|rx3.",
+					["serverTime"] = 1652050410,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15014.356,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:56]|h|r Stronguard receives loot: |cffffffff|Hitem:2836::::::::10:1454:::::::::|h[Coarse Stone]|h|r.",
+					["serverTime"] = 1652050410,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15014.489,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:53:39]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1652050453,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15057.07,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:53:39]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - The Deadmines]|h",
+					["serverTime"] = 1652050453,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15057.07,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:53:39]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - The Deadmines]|h",
+					["serverTime"] = 1652050453,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15057.07,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:54:21]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1652050495,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15099.174,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:54:21]|h|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Westfall]|h",
+					["serverTime"] = 1652050495,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15099.174,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:54:21]|h|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Westfall]|h",
+					["serverTime"] = 1652050495,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15099.174,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:54:32]|h|r Party Sync ended.",
+					["serverTime"] = 1652050506,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 15110.561,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:58]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050172,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:59]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050173,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:59]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050173,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:48:59]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050173,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:00]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050174,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:00]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050174,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:00]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050174,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:05]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050179,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:05]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050179,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:05]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050179,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:06]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050180,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:06]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050180,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:06]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050180,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:09]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050183,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:09]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050183,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:09]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050183,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:10]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050184,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 59 |4second:seconds;",
+					["timestamp"] = 14791.315,
+				}, -- [91]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 14791.315,
+				}, -- [92]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 14791.315,
+				}, -- [93]
+				{
+					["message"] = "BetterVendorPrice v1.16.04 by MooreaTv: type /bvp for command list/help.",
+					["timestamp"] = 14791.315,
+				}, -- [94]
+				{
+					["message"] = "|cff69CCF0 GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.14.1 |r(|cff9482C99.2 Shadowlands|r)",
+					["timestamp"] = 14791.315,
+				}, -- [95]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 14791.315,
+				}, -- [96]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 14791.315,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:49:54]|h|r PvP tooltips brought to you by wowarenalogs.com!",
+					["timestamp"] = 14791.315,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:06]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 14791.315,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:09]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.23)|r:  hooked into Rematch",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050243,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:12]|h|r |cff33ff99ArenaMarker|r by |cff69CCF0Mageiden|r. Type |cff33ff99/am|r for additional options.",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050246,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:12]|h|r [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050246,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:12]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050246,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:12]|h|r |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050246,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:16]|h|r |cffe8cd86WowUp Notification|r: You have 1 addon to be updated",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050250,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:16]|h|r Raider.IO Mythic Plus, Raiding, and Recruitment: |cff7f7f7f9.2.0 (v202205070600)|r |cffe8cd86-> 9.2.0 (v202205080600)|r ",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050250,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:21]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.5|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050255,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:21]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 14791.315,
+					["serverTime"] = 1652050255,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r You are not in a guild.",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r You are not in a guild.",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:29]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050263,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14867.515,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:32]|h|r |cffb4b4ffALL THE THINGS|r Profile: Default",
+					["timestamp"] = 14867.515,
+					["serverTime"] = 1652050266,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:33]|h|r AAP: No global macro space. Please delete a macro to create space.",
+					["timestamp"] = 14867.515,
+					["serverTime"] = 1652050267,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r AAP Loaded",
+					["timestamp"] = 14867.515,
+					["serverTime"] = 1652050268,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:34]|h|r Free Trial accounts cannot send messages to raid channel.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r",
+					["serverTime"] = 1652050268,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 14871.827,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

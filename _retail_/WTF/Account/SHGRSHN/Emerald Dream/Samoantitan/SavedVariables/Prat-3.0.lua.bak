@@ -1,0 +1,1773 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 9,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:26:24]|h|r Highlord Darion Mograine says: Champion, the veil between our world and the Shadowlands has been sundered.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686786,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:26:31]|h|r Highlord Darion Mograine says: The Ebon Blade stands ready. I await you in Stormwind. Come, before the icy grasp of Death claims all of Azeroth.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686793,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 24 |4minute:minutes;, 26 |4second:seconds;",
+					["timestamp"] = 1199355.646,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1199355.646,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:03]|h|r Highlord Darion Mograine says: Champion, the veil between our world and the Shadowlands has been sundered.",
+					["serverTime"] = 1653691925,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199424.717,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:10]|h|r Highlord Darion Mograine says: The Ebon Blade stands ready. I await you in Stormwind. Come, before the icy grasp of Death claims all of Azeroth.",
+					["serverTime"] = 1653691932,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199431.506,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:22]|h|r Flynn Fairwind says: A giant jellyfish has made Freehold's waters its home.  No matter how many harpoons it gets stuck with, it just keeps coming back for more!",
+					["serverTime"] = 1653692244,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199743.796,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:42]|h|r Highlord Darion Mograine says: Champion, the veil between our world and the Shadowlands has been sundered.",
+					["serverTime"] = 1653692264,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199764.145,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:43]|h|r Highlord Darion Mograine says: The Ebon Blade stands ready. I await you in Stormwind. Come, before the icy grasp of Death claims all of Azeroth.",
+					["serverTime"] = 1653692265,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199764.743,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [9]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686410,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1653691859,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1199355.646,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1199355.646,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1199355.646,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199250.815,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 19,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:13:26]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aetryk-EmeraldDream:254:CHANNEL:2|h|cffa9d271Aetryk|r|h|cffd8d8d8]|r: shadowlands story isnt that bad",
+					["serverTime"] = 1653693207,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200707.455,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:13:53]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Laei-EmeraldDream:255:CHANNEL:2|h|cfffe7b09Laei|r|h|cffd8d8d8]|r: you're huffing something",
+					["serverTime"] = 1653693234,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200734.855,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:13:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taladalan-EmeraldDream:256:CHANNEL:2|h|cfffe7b09Taladalan|r|h|cffd8d8d8]|r: ???",
+					["serverTime"] = 1653693235,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200736.122,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taladalan-EmeraldDream:257:CHANNEL:2|h|cfffe7b09Taladalan|r|h|cffd8d8d8]|r: It had to have been the glue in Kindergarten",
+					["serverTime"] = 1653693266,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200767.355,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Laei-EmeraldDream:258:CHANNEL:2|h|cfffe7b09Laei|r|h|cffd8d8d8]|r: yerp",
+					["serverTime"] = 1653693286,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200787.155,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:23:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hundski-EmeraldDream:263:CHANNEL:2|h|cfff38bb9Hundski|r|h|cffd8d8d8]|r: wtb guild sigs pst",
+					["serverTime"] = 1653693802,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201301.505,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:23:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Telmythra-EmeraldDream:264:CHANNEL:2|h|cffa9d271Telmythra|r|h|cffd8d8d8]|r: how good is mm hunter rn?",
+					["serverTime"] = 1653693826,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201326.339,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:23:55]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Telmythra-EmeraldDream:265:CHANNEL:2|h|cffa9d271Telmythra|r|h|cffd8d8d8]|r: in pve",
+					["serverTime"] = 1653693836,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201337.139,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:23:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hundski-EmeraldDream:266:CHANNEL:2|h|cfff38bb9Hundski|r|h|cffd8d8d8]|r: its not bad, want to sign my guild charter?",
+					["serverTime"] = 1653693839,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201339.639,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:24:28]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Telmythra-EmeraldDream:267:CHANNEL:2|h|cffa9d271Telmythra|r|h|cffd8d8d8]|r: idk if im keeping this char",
+					["serverTime"] = 1653693869,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201370.263,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:25:38]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daladalarir-EmeraldDream:268:CHANNEL:2|h|cfffe7b09Daladalarir|r|h|cffd8d8d8]|r: survival is stronger right now",
+					["serverTime"] = 1653693940,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201439.805,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:26:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Telmythra-EmeraldDream:269:CHANNEL:2|h|cffa9d271Telmythra|r|h|cffd8d8d8]|r: hmmm",
+					["serverTime"] = 1653693994,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201493.605,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:29:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hundski-EmeraldDream:270:CHANNEL:2|h|cfff38bb9Hundski|r|h|cffd8d8d8]|r: WTB guild sigs pst",
+					["serverTime"] = 1653694142,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201642.338,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:21]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cavorka-EmeraldDream:273:CHANNEL:2|h|cfffe7b09Cavorka|r|h|cffd8d8d8]|r: What's the best covenant for resto druids?",
+					["serverTime"] = 1653694523,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202022.549,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:32]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nyandiri-EmeraldDream:274:CHANNEL:2|h|cfffe7b09Nyandiri|r|h|cffd8d8d8]|r: night fae or necro, depends on what you're doing",
+					["serverTime"] = 1653694534,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202034.306,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:43]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nyandiri-EmeraldDream:275:CHANNEL:2|h|cfffe7b09Nyandiri|r|h|cffd8d8d8]|r: nf for raids, necro for pvp or m+ usually",
+					["serverTime"] = 1653694545,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202045.066,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:45]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aetryk-EmeraldDream:276:CHANNEL:2|h|cffa9d271Aetryk|r|h|cffd8d8d8]|r: shadowlands story is pretty good actually",
+					["serverTime"] = 1653694547,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202046.537,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:58]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cavorka-EmeraldDream:280:CHANNEL:2|h|cfffe7b09Cavorka|r|h|cffd8d8d8]|r: Thanks :)",
+					["serverTime"] = 1653694560,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202059.808,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:37:03]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taladalan-EmeraldDream:282:CHANNEL:2|h|cfffe7b09Taladalan|r|h|cffd8d8d8]|r: SMH",
+					["serverTime"] = 1653694625,
+					["r"] = 0.9098039865493774,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						5, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202125.078,
+					["g"] = 0.6196078658103943,
+					["b"] = 0.4745098352432251,
+				}, -- [19]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 51,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:06]|h|r Unknown macro option: etc",
+					["serverTime"] = 1653691859,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1199355.646,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:37]|h|r You have invited Sparkkles to join your group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686679,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:37]|h|r Dungeon Difficulty set to Normal.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686679,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:38]|h|r Sparkkles joins the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686680,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:39]|h|r You have invited Waekk to join your group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686681,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:39]|h|r Waekk joins the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686681,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:54]|h|r You have invited |cff3ec6eaKkmystic|r to join your group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686696,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:24:54]|h|r |cff3ec6eaKkmystic|r joins the party.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686696,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:26:54]|h|r Kkmystic receives loot: |cff9d9d9d|Hitem:62328::::::::60:66:::::::::|h[Shed Fur]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686816,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:26:54]|h|r Kkmystic receives loot: |cff9d9d9d|Hitem:3300::::::::60:66:::::::::|h[Rabbit's Foot]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686816,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:27:14]|h|r Kkmystic receives loot: |cff9d9d9d|Hitem:3300::::::::60:66:::::::::|h[Rabbit's Foot]|h|r.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686836,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:27:14]|h|r Kkmystic receives loot: |cff9d9d9d|Hitem:62328::::::::60:66:::::::::|h[Shed Fur]|h|rx3.",
+					["b"] = 0,
+					["r"] = 0,
+					["g"] = 0.6666666865348816,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686836,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 23 |4minute:minutes;, 43 |4second:seconds;",
+					["timestamp"] = 1199355.646,
+				}, -- [13]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1199355.646,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:54]|h|r Unknown macro option: etc",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199355.646,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:54]|h|r |cffd8d8d8[|r|Hplayer:Sparkkles:204|h|cff8b8b8b10|r:|cff3ec6eaSparkkles|r|h|cffd8d8d8]|r has invited you to join a group.",
+					["serverTime"] = 1653691916,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199415.858,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:55]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653691917,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199416.144,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:54]|h|r You leave the group.",
+					["serverTime"] = 1653691975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199475.915,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:19]|h|r |cffd8d8d8[|r|Hplayer:Sparkkles:218|h|cff8b8b8b10|r:|cff3ec6eaSparkkles|r|h|cffd8d8d8]|r has invited you to join a group.",
+					["serverTime"] = 1653692121,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199620.89,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:19]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653692121,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199621.157,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:25]|h|r |cff3ec6eaWaekk|r joins the party.",
+					["serverTime"] = 1653692127,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199627.208,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:40]|h|r You are now the group leader.",
+					["serverTime"] = 1653692142,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199641.729,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:51]|h|r |cff3ec6eaSparkkles|r leaves the party.",
+					["serverTime"] = 1653692153,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199652.742,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:56:34]|h|r A role check has been initiated. Your group will be queued when all members have selected a role.",
+					["serverTime"] = 1653692196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199696.308,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:56:36]|h|r You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1653692198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199697.958,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:06]|h|r You are in both a party and an instance group. You may communicate with your party with \"/p\" and with your instance group with \"/i\".",
+					["serverTime"] = 1653692228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199727.909,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:06]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653692228,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199727.909,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:27]|h|r You leave the group.",
+					["serverTime"] = 1653692249,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199748.935,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:42]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653692264,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1199764.145,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:02:27]|h|r You are now Away: AFK",
+					["serverTime"] = 1653692548,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200049.023,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:05:57]|h|r You are no longer Away.",
+					["serverTime"] = 1653692758,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200258.576,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:07:33]|h|r You leave the group.",
+					["serverTime"] = 1653692854,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200354.892,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:08:45]|h|r |cffd8d8d8[|r|Hplayer:Plvl:246|h|cff8b8b8b10|r:|cff00fe97Plvl|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1653692926,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200426.609,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:33]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653692975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200474.836,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:33]|h|r You have invited |cff3ec6eaWaekk|r to join your group.",
+					["serverTime"] = 1653692975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200474.934,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:33]|h|r |cff3ec6eaWaekk|r joins the party.",
+					["serverTime"] = 1653692975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200475.179,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:37]|h|r You have invited |cff00fe97Plvl|r to join your group.",
+					["serverTime"] = 1653692979,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200479.002,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:37]|h|r |cff00fe97Plvl|r joins the party.",
+					["serverTime"] = 1653692979,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200479.252,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:47]|h|r |cff00fe97Plvl|r is now the group leader.",
+					["serverTime"] = 1653692989,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200488.469,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:49]|h|r You leave the group.",
+					["serverTime"] = 1653692991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200491.271,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:17:36]|h|r |cfffefefeGraysparrow|r seems a little tipsy from the |cffffffff|Hitem:37902::::::::60:66:::::::::|h[Springtime Stout]|h|r.",
+					["serverTime"] = 1653693458,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200957.722,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:17:59]|h|r |cff00fe97Plvl|r has gone offline.",
+					["serverTime"] = 1653693480,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1200980.781,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:19:24]|h|r You have requested to trade with |cff3ec6eaSparkkles|r.",
+					["serverTime"] = 1653693566,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201065.687,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:29:55]|h|r You are now Away: AFK",
+					["serverTime"] = 1653694197,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1201697.038,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:07]|h|r You are no longer Away.",
+					["serverTime"] = 1653694509,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202008.588,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:51]|h|r Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653694553,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202053.183,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:51]|h|r You have invited |cff00fe97Saifuu|r to join your group.",
+					["serverTime"] = 1653694553,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202053.24,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:52]|h|r |cff00fe97Saifuu|r joins the party.",
+					["serverTime"] = 1653694554,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202053.502,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:36:43]|h|r Your group has been disbanded.",
+					["serverTime"] = 1653694605,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202104.562,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:42:41]|h|r You are now Away: AFK",
+					["serverTime"] = 1653694963,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1202462.823,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:07:41]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1653696462,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1203962.835,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 44,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[11:55:32]|h|r Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686410,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:19:48]|h|r Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["serverTime"] = 1653691859,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1199355.646,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:20:23]|h|r Loot Specialization set to: Protection",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686425,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:23:23]|h|r Loot Specialization set to: Protection",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686604,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:23:45]|h|r [W To] |cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:181:WHISPER:HONUSTUSTERE-EMERALDDREAM|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r: you up for some leveling?",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686626,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:23:45]|h|r |cffd8d8d8[|r|Hplayer:Honustustere-EmeraldDream:182:WHISPER:HONUSTUSTERE-EMERALDDREAM|h|cffd8bc3f60|r:|cffc31d39Honustustere|r|h|cffd8d8d8]|r is Away:AFK",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686626,
+					["extraData"] = {
+						24, -- [1]
+						false, -- [2]
+						1, -- [3]
+						3, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[15:26:07]|h|r Party Sync activated.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653686769,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [7]
+				{
+					["message"] = "0 |4day:days;, 1 |4hour:hours;, 24 |4minute:minutes;, 50 |4second:seconds;",
+					["timestamp"] = 1199355.646,
+				}, -- [8]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1199355.646,
+				}, -- [9]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 1199250.815,
+				}, -- [10]
+				{
+					["message"] = "BetterVendorPrice v1.16.04 by MooreaTv: type /bvp for command list/help.",
+					["timestamp"] = 1199250.815,
+				}, -- [11]
+				{
+					["message"] = "|cff69CCF0 GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.14.1 |r(|cff9482C99.2 Shadowlands|r)",
+					["timestamp"] = 1199250.815,
+				}, -- [12]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 1199250.815,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:24]|h|r PvP tooltips brought to you by wowarenalogs.com!",
+					["timestamp"] = 1199250.815,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:53]|h|r Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199354.63,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:50:57]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.23)|r:  hooked into Rematch",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691859,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:02]|h|r |cff33ff99ArenaMarker|r by |cff69CCF0Mageiden|r. Type |cff33ff99/am|r for additional options.",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:02]|h|r [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:02]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691864,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:02]|h|r |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691864,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:07]|h|r |cffe8cd86WowUp Notification|r: All addons are up-to-date",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691869,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:07]|h|r Loot Specialization set to: Protection",
+					["serverTime"] = 1653691869,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199355.646,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:14]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.5|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691876,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:14]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691876,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:14]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 1199355.646,
+					["serverTime"] = 1653691876,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:55]|h|r |A:QuestSharing-QuestLog-Replay:0:0:0:0|aQuests have been re-synced.",
+					["serverTime"] = 1653691917,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199416.144,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:56]|h|r |CFFe5a472Details_Covenants|r covenant defined:  |Cff3ec6eaSparkkles|r",
+					["timestamp"] = 1199417.518,
+					["serverTime"] = 1653691918,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:51:56]|h|r |CFFe5a472Details_Covenants|r covenant defined:  |Cff3ec6eaKkmystic|r",
+					["timestamp"] = 1199417.518,
+					["serverTime"] = 1653691918,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:11]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 1199433.373,
+					["serverTime"] = 1653691933,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:54]|h|r You left the Party Sync.",
+					["serverTime"] = 1653691975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199475.722,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:52:54]|h|r Replay Quest Removed: Shadowlands: A Chilling Summons",
+					["serverTime"] = 1653691975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199476.338,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:55:26]|h|r |CFFe5a472Details_Covenants|r covenant defined:  |Cff3ec6eaWaekk|r",
+					["timestamp"] = 1199627.493,
+					["serverTime"] = 1653692128,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:56:01]|h|r Party Sync activated.",
+					["serverTime"] = 1653692163,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199662.934,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:56:34]|h|r Samoantitan has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:0:19:22:41|t Tank",
+					["serverTime"] = 1653692196,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199696.308,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:56:36]|h|r Waekk has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["serverTime"] = 1653692198,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199697.958,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:11]|h|r Loot Specialization set to: Protection",
+					["serverTime"] = 1653692233,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199731.967,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:11]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 1199731.967,
+					["serverTime"] = 1653692233,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:13]|h|r Lambulance is now the leader of your group!",
+					["serverTime"] = 1653692235,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199731.967,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:37]|h|r Loot Specialization set to: Protection",
+					["serverTime"] = 1653692259,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1199757.899,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:57:37]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 1199757.899,
+					["serverTime"] = 1653692259,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:07:32]|h|r Party Sync ended.",
+					["serverTime"] = 1653692853,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1200354.372,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:07:33]|h|r Replay Quest Removed: Shadowlands: A Chilling Summons",
+					["serverTime"] = 1653692854,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1200354.892,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:09:38]|h|r |CFFe5a472Details_Covenants|r covenant defined:  |Cff00fe97Plvl|r",
+					["timestamp"] = 1200479.726,
+					["serverTime"] = 1653692980,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:35:52]|h|r |CFFe5a472Details_Covenants|r covenant defined:  |Cff00fe97Saifuu|r",
+					["timestamp"] = 1202053.873,
+					["serverTime"] = 1653694554,
+				}, -- [44]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,16 @@
+
+DynamicCamDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["version"] = 3,
+			["firstRun"] = false,
+		},
+	},
+}
+minZoomValues = {
+}

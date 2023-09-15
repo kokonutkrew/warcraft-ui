@@ -1,0 +1,382 @@
+
+TDDB_DEVTOOLS = {
+	["errors"] = {
+		{
+			["count"] = 37,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [1]
+		{
+			["count"] = 37,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [2]
+		{
+			["count"] = 37,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [3]
+		{
+			["count"] = 37,
+			["err"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [4]
+		{
+			["count"] = 43,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [5]
+		{
+			["count"] = 43,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [6]
+		{
+			["count"] = 43,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+		}, -- [7]
+		{
+			["count"] = 43,
+			["err"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+		}, -- [8]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:336 Frame DressUpModel: Unknown method OnUpdate in element OnUpdate",
+		}, -- [9]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:335 Frame DressUpModel: Unknown method OnLeave in element OnLeave",
+		}, -- [10]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:334 Frame DressUpModel: Unknown method OnEnter in element OnEnter",
+		}, -- [11]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:333 Frame DressUpModel: Unknown method OnMouseDown in element OnMouseDown",
+		}, -- [12]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:332 Frame DressUpModel: Unknown method OnLoad in element OnLoad",
+		}, -- [13]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:780 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
+		}, -- [14]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:396 Frame Frame: Unknown method OnLoad in element OnLoad",
+		}, -- [15]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:764 Frame: Has bad mixin: TransmogWishListPagingMixin",
+		}, -- [16]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:750 Frame EditBox: Unknown method OnTextChanged in element OnTextChanged",
+		}, -- [17]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:749 Frame EditBox: Unknown method OnEnterPressed in element OnEnterPressed",
+		}, -- [18]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:748 Frame EditBox: Unknown method OnEscapePressed in element OnEscapePressed",
+		}, -- [19]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:747 Frame EditBox: Unknown method OnLoad in element OnLoad",
+		}, -- [20]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:725 EditBox: Has bad mixin: TWLAddBoxMixin",
+		}, -- [21]
+		{
+			["count"] = 48,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:443 Frame Button: Unknown method OnClick in element OnClick",
+		}, -- [22]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:484 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [23]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:479 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [24]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:474 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [25]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:469 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [26]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:464 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [27]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:459 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [28]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:454 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [29]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:667 Button: Has bad mixin: TWLModButtonMixin",
+		}, -- [30]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:337 Frame DressUpModel: Unknown method OnShow in element OnShow",
+		}, -- [31]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:656 DressUpModel: Has bad mixin: TransMogWishListModelMixin",
+		}, -- [32]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:734 TransmogWishListModPicker: Has bad mixin: TWLModPickerMixin",
+		}, -- [33]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:881 Frame TransmogWishListFrame: Unknown method OnMouseWheel in element OnMouseWheel",
+		}, -- [34]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:880 Frame TransmogWishListFrame: Unknown method OnEnter in element OnEnter",
+		}, -- [35]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:879 Frame TransmogWishListFrame: Unknown method OnHide in element OnHide",
+		}, -- [36]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:878 Frame TransmogWishListFrame: Unknown method OnShow in element OnShow",
+		}, -- [37]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:877 Frame TransmogWishListFrame: Unknown method OnLoad in element OnLoad",
+		}, -- [38]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:614 TransmogWishListFrame: Has bad mixin: TransmogWishListMixin",
+		}, -- [39]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.lua:1 (null)",
+		}, -- [40]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TransmogWishList/TransmogWishList.xml:766 Unrecognized XML attribute: down",
+		}, -- [41]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/Config.xml:3 Couldn't find frame parent: InterfaceOptionsFramePanelContainer",
+		}, -- [42]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: y",
+		}, -- [43]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML attribute: x",
+		}, -- [44]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:67 Unrecognized XML: Offset",
+		}, -- [45]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: y",
+		}, -- [46]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML attribute: x",
+		}, -- [47]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:60 Unrecognized XML: Offset",
+		}, -- [48]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: y",
+		}, -- [49]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML attribute: x",
+		}, -- [50]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/TomCats-Hivemind/libs/TomCatsLibs/Charms.xml:53 Unrecognized XML: Offset",
+		}, -- [51]
+		{
+			["count"] = 18,
+			["err"] = "Interface/AddOns/sArena/sArena.xml:113 Frame StatusBar: Unknown function CastingBarFrame_OnShow in element OnShow",
+		}, -- [52]
+		{
+			["count"] = 18,
+			["err"] = "Interface/AddOns/sArena/sArena.xml:112 Frame StatusBar: Unknown function CastingBarFrame_OnUpdate in element OnUpdate",
+		}, -- [53]
+		{
+			["count"] = 18,
+			["err"] = "Interface/AddOns/sArena/sArena.xml:111 Frame StatusBar: Unknown function CastingBarFrame_OnEvent in element OnEvent",
+		}, -- [54]
+		{
+			["count"] = 18,
+			["err"] = "Interface/AddOns/sArena/sArena.xml:110 Frame StatusBar: Unknown function CastingBarFrame_OnLoad in element OnLoad",
+		}, -- [55]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
+		}, -- [56]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
+		}, -- [57]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
+		}, -- [58]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ItemTooltipProfessionIcons/ItemTooltipProfessionIcons.lua:1 (null)",
+		}, -- [59]
+		{
+			["count"] = 12,
+			["err"] = "Interface/AddOns/Gnobesy/Gnobesy.xml:5 Couldn't find inherited node: InterfaceOptionsSmallCheckButtonTemplate",
+		}, -- [60]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: bottom",
+		}, -- [61]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: top",
+		}, -- [62]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: right",
+		}, -- [63]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML attribute: left",
+		}, -- [64]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:17 Unrecognized XML: AbsInset",
+		}, -- [65]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:16 Unrecognized XML: BackgroundInsets",
+		}, -- [66]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML attribute: val",
+		}, -- [67]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:14 Unrecognized XML: AbsValue",
+		}, -- [68]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:13 Unrecognized XML: TileSize",
+		}, -- [69]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML attribute: val",
+		}, -- [70]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:11 Unrecognized XML: AbsValue",
+		}, -- [71]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:10 Unrecognized XML: EdgeSize",
+		}, -- [72]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: tile",
+		}, -- [73]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: edgeFile",
+		}, -- [74]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML attribute: bgFile",
+		}, -- [75]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/ACU/panel.xml:9 Unrecognized XML: Backdrop",
+		}, -- [76]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/QuestHandler.lua:1 (null)",
+		}, -- [77]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/OptionsPanel.lua:1 (null)",
+		}, -- [78]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/Core.lua:1 (null)",
+		}, -- [79]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: category",
+		}, -- [80]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: header",
+		}, -- [81]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML attribute: name",
+		}, -- [82]
+		{
+			["count"] = 6,
+			["err"] = "Interface/AddOns/AAP-Core/Bindings.xml:2 Unrecognized XML: Binding",
+		}, -- [83]
+		{
+			["path"] = "|cff00ffff.../AddOns/Auctionator/Source/Shopping/ImportExport.lua|r|cffffffff:|r|cffff00ff116|r",
+			["count"] = 2,
+			["time"] = 1674542077,
+			["err"] = ".../AddOns/Auctionator/Source/Shopping/ImportExport.lua:116: Usage: Item:CreateFromItemID(itemID)",
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `error'\n[string \"@Interface/FrameXML/ObjectAPI/Item.lua\"]:42: in function `CreateFromItemID'\n[string \"@Interface/AddOns/Auctionator/Source/Shopping/ImportExport.lua\"]:116: in function `TSMImportFromString'\n[string \"@Interface/AddOns/Auctionator/Source/Tabs/Shopping/Mixins/ImportFrame.lua\"]:45: in function `OnImportClicked'\n[string \"*Import.xml:56_OnClick\"]:1: in function <[string \"*Import.xml:56_OnClick\"]:1>\n",
+			["full"] = ".../AddOns/Auctionator/Source/Shopping/ImportExport.lua:116: Usage: Item:CreateFromItemID(itemID)",
+			["formatted"] = "Usage: Item:CreateFromItemID(itemID)",
+		}, -- [84]
+		{
+			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
+			["count"] = 3,
+			["time"] = 1674540508,
+			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1409: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1461: in function <Interface/FrameXML/ContainerFrame.lua:1448>\n",
+			["err"] = "OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
+			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
+			["formatted"] = "OribosExchange forbidden from using UNKNOWN() (Only usable by Blizzard)",
+		}, -- [85]
+		{
+			["path"] = "|cff00ffff[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]|r|cffffffff:|r|cffff00ff102|r",
+			["count"] = 1,
+			["time"] = 1673338773,
+			["stack"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: in function <Interface/AddOns/!!!tdDevTools/UI/Error.lua:101>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1409: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1461: in function <Interface/FrameXML/ContainerFrame.lua:1448>\n",
+			["err"] = "TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
+			["full"] = "[string \"@Interface/AddOns/!!!tdDevTools/UI/Error.lua\"]:102: TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
+			["formatted"] = "TradeSkillMaster forbidden from using UNKNOWN() (Only usable by Blizzard)",
+		}, -- [86]
+		{
+			["path"] = "|cff00ffffInterface/FrameXML/ObjectAPI/Item.lua|r|cffffffff:|r|cffff00ff152|r",
+			["count"] = 5,
+			["time"] = 1673167667,
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `DoesItemExist'\n[string \"@Interface/FrameXML/ObjectAPI/Item.lua\"]:152: in function `IsItemInPlayersControl'\n[string \"@Interface/FrameXML/ObjectAPI/Item.lua\"]:143: in function `IsItemEmpty'\n[string \"@Interface/AddOns/ConsolePort/View/Popup/ItemMenu.lua\"]:33: in function `SetItem'\n[string \"@Interface/AddOns/ConsolePort/Controller/Hooks.lua\"]:45: in function <Interface/AddOns/ConsolePort/Controller/Hooks.lua:27>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/ConsolePort/View/Cursors/Interface.lua\"]:215: in function <...erface/AddOns/ConsolePort/View/Cursors/Interface.lua:213>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n",
+			["err"] = "Interface/FrameXML/ObjectAPI/Item.lua:152: bad argument #1 to 'DoesItemExist' (Usage: local itemExists = C_Item.DoesItemExist(emptiableItemLocation))",
+			["full"] = "Interface/FrameXML/ObjectAPI/Item.lua:152: bad argument #1 to 'DoesItemExist' (Usage: local itemExists = C_Item.DoesItemExist(emptiableItemLocation))",
+			["formatted"] = "bad argument #1 to 'DoesItemExist' (Usage: local itemExists = C_Item.DoesItemExist(emptiableItemLocation))",
+		}, -- [87]
+		{
+			["path"] = "|cff00ffffInterface/SharedXML/SharedUIPanelTemplates.lua|r|cffffffff:|r|cffff00ff1370|r",
+			["count"] = 1,
+			["time"] = 1673163332,
+			["err"] = "Interface/SharedXML/SharedUIPanelTemplates.lua:1370: bad argument #1 to 'SetScale' (must be a finite number - Usage: self:SetScale(scale))",
+			["stack"] = "[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetScale'\n[string \"@Interface/SharedXML/SharedUIPanelTemplates.lua\"]:1370: in function <Interface/SharedXML/SharedUIPanelTemplates.lua:1366>\n[string \"=[C]\"]: in function `GetTop'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:49: in function <Interface/AddOns/ConsolePort_Config/Helpers.lua:48>\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:61: in function `CalcContentBoundary'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:112: in function `ScaleToContent'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:87: in function `SetHeight'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:103: in function `ScaleParent'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:115: in function `ScaleToContent'\n[string \"@Interface/AddOns/ConsolePort_Config/Helpers.lua\"]:87: in function `SetHeight'\n...\n[string \"=[C]\"]: in function `Click'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:1617: in function `?'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:5204: in function `ChatEdit_ParseText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:4888: in function `ChatEdit_SendText'\n[string \"@Interface/FrameXML/ChatFrame.lua\"]:3132: in function <Interface/FrameXML/ChatFrame.lua:3125>\n[string \"=[C]\"]: in function `RunMacroText'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:468: in function `handler'\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:690: in function <Interface/FrameXML/SecureTemplates.lua:672>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:727: in function <Interface/FrameXML/SecureTemplates.lua:725>\n[string \"@Interface/FrameXML/SecureTemplates.lua\"]:749: in function <Interface/FrameXML/SecureTemplates.lua:730>\n",
+			["full"] = "Interface/SharedXML/SharedUIPanelTemplates.lua:1370: bad argument #1 to 'SetScale' (must be a finite number - Usage: self:SetScale(scale))",
+			["formatted"] = "bad argument #1 to 'SetScale' (must be a finite number - Usage: self:SetScale(scale))",
+		}, -- [88]
+	},
+}

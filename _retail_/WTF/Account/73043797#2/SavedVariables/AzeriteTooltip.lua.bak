@@ -1,0 +1,16 @@
+
+AzeriteTooltipDB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Marshmello - Tichondrius"] = "Default",
+		["Bunni - Emerald Dream"] = "Default",
+		["Grapejelley - Emerald Dream"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Tygrrlilly - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,14 @@
+
+BattleGroundEnemiesDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+		["Aerielle - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastReadVersion"] = "10.0.2.6",
+		},
+	},
+}

@@ -1,0 +1,407 @@
+
+wlTime = 1693863795
+wlVersion = 20502
+wlUploaded = 0
+wlStats = "8^1^0^0^0^0^enUS^51146"
+wlExportData = ""
+wlRealmList = {
+}
+wlAuction = {
+}
+wlEvent = {
+}
+wlItemSuffix = {
+}
+wlObject = {
+	["mail^173221^dummy"] = {
+		["0^Orgrimmar"] = {
+			[1454] = {
+				{
+					["y"] = 705,
+					["x"] = 507,
+					["dl"] = 1454,
+					["n"] = 1,
+				}, -- [1]
+				["n"] = 1,
+			},
+		},
+	},
+}
+wlProfile = {
+}
+wlProfileData = {
+	["Kkorgrimmar^Skull Rock"] = {
+		["talents"] = "",
+		["factions"] = {
+			[76] = 4000,
+			[68] = 500,
+			[81] = 3100,
+			[530] = 3100,
+		},
+		["guid"] = "Player-5099-019F3476",
+		["skills"] = {
+			["Defense"] = 1,
+			["Destruction"] = 5,
+			["Unarmed"] = 1,
+			["Demonology"] = 5,
+			["Daggers"] = 1,
+			["Language: Orcish"] = 300,
+			["Wands"] = 1,
+		},
+		["class"] = 9,
+		["timestamp"] = 1693694932,
+		["name"] = "Kkorgrimmar",
+		["locale"] = "enUS",
+		["race"] = 2,
+		["version"] = 1,
+		["sex"] = 3,
+		["equipment"] = {
+			[5] = "item:6129::::::::1:::::::::",
+			[16] = "item:2092::::::::1:::::::::",
+			[7] = "item:1396::::::::1:::::::::",
+			[8] = "item:59::::::::1:::::::::",
+		},
+		["level"] = 1,
+		["quests"] = {
+		},
+		["realm"] = "Skull Rock",
+	},
+	["Bannhammer^Skull Rock"] = {
+		["talents"] = "",
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 4025,
+			[530] = 3100,
+		},
+		["guid"] = "Player-5099-01A16ECD",
+		["level"] = 1,
+		["class"] = 1,
+		["skills"] = {
+			["Two-Handed Maces"] = 1,
+			["Defense"] = 1,
+			["Language: Taurahe"] = 300,
+			["Unarmed"] = 1,
+			["Arms"] = 5,
+			["Axes"] = 1,
+			["Language: Orcish"] = 300,
+			["Maces"] = 1,
+		},
+		["name"] = "Bannhammer",
+		["locale"] = "enUS",
+		["race"] = 6,
+		["version"] = 1,
+		["sex"] = 2,
+		["equipment"] = {
+			[16] = "item:2361::::::::1:::::::::",
+			[7] = "item:139::::::::1:::::::::",
+			[4] = "item:6125::::::::1:::::::::",
+		},
+		["timestamp"] = 1693865753,
+		["quests"] = {
+			[1656] = true,
+		},
+		["realm"] = "Skull Rock",
+	},
+	["Øø^Skull Rock"] = {
+		["talents"] = "",
+		["factions"] = {
+			[76] = 4000,
+			[68] = 500,
+			[81] = 3100,
+			[530] = 3100,
+		},
+		["guid"] = "Player-5099-019F41D7",
+		["timestamp"] = 1693698600,
+		["class"] = 9,
+		["level"] = 1,
+		["version"] = 1,
+		["equipment"] = {
+			[5] = "item:6129::::::::1:::::::::",
+			[16] = "item:2092::::::::1:::::::::",
+			[7] = "item:1396::::::::1:::::::::",
+			[8] = "item:59::::::::1:::::::::",
+		},
+		["race"] = 2,
+		["name"] = "Øø",
+		["sex"] = 3,
+		["locale"] = "enUS",
+		["skills"] = {
+			["Defense"] = 1,
+			["Destruction"] = 5,
+			["Unarmed"] = 1,
+			["Demonology"] = 5,
+			["Daggers"] = 1,
+			["Language: Orcish"] = 300,
+			["Wands"] = 1,
+		},
+		["quests"] = {
+		},
+		["realm"] = "Skull Rock",
+	},
+	["Kkbrill^Skull Rock"] = {
+		["talents"] = "",
+		["realm"] = "Skull Rock",
+		["guid"] = "Player-5099-019F368F",
+		["level"] = 1,
+		["class"] = 7,
+		["skills"] = {
+			["Maces"] = 1,
+			["Defense"] = 1,
+			["Language: Troll"] = 300,
+			["Unarmed"] = 1,
+			["Elemental Combat"] = 5,
+			["Language: Orcish"] = 300,
+			["Restoration"] = 5,
+			["Staves"] = 1,
+		},
+		["locale"] = "enUS",
+		["equipment"] = {
+			[16] = "item:36::::::::1:::::::::",
+			[7] = "item:6135::::::::1:::::::::",
+			[4] = "item:6134::::::::1:::::::::",
+		},
+		["race"] = 8,
+		["version"] = 1,
+		["sex"] = 3,
+		["name"] = "Kkbrill",
+		["timestamp"] = 1693695604,
+		["quests"] = {
+		},
+		["factions"] = {
+			[76] = 3100,
+			[68] = 500,
+			[81] = 3100,
+			[530] = 4000,
+		},
+	},
+	["Kkundercity^Skull Rock"] = {
+		["talents"] = "",
+		["realm"] = "Skull Rock",
+		["guid"] = "Player-5099-019F31C1",
+		["timestamp"] = 1693694176,
+		["class"] = 9,
+		["level"] = 1,
+		["equipment"] = {
+			[5] = "item:6129::::::::1:::::::::",
+			[16] = "item:2092::::::::1:::::::::",
+			[7] = "item:1396::::::::1:::::::::",
+			[8] = "item:59::::::::1:::::::::",
+		},
+		["locale"] = "enUS",
+		["race"] = 5,
+		["name"] = "Kkundercity",
+		["sex"] = 3,
+		["version"] = 1,
+		["skills"] = {
+			["Daggers"] = 1,
+			["Defense"] = 1,
+			["Destruction"] = 5,
+			["Unarmed"] = 1,
+			["Demonology"] = 5,
+			["Language: Orcish"] = 300,
+			["Wands"] = 1,
+			["Language: Gutterspeak"] = 300,
+		},
+		["quests"] = {
+		},
+		["factions"] = {
+			[76] = 500,
+			[68] = 4000,
+			[81] = 500,
+			[530] = 500,
+		},
+	},
+}
+wlUnit = {
+	["5888"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Rock Skin"] = 2,
+				},
+			},
+		},
+	},
+	["3101"] = {
+		["isPvp"] = false,
+		["reaction"] = {
+			["1^Horde^2"] = 1693698467661,
+		},
+		["sex"] = {
+			1, -- [1]
+		},
+		["class"] = {
+		},
+		["spec"] = {
+			[0] = {
+				[3] = {
+					["loc"] = {
+						["Durotar"] = {
+							[1411] = {
+								{
+									["y"] = 574,
+									["x"] = 456,
+									["dl"] = 1411,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 0,
+					["health"] = 69,
+					["powermax"] = 79,
+				},
+				["spell"] = {
+					["Fireball"] = 6,
+				},
+			},
+		},
+	},
+	["6775"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["1^Horde^5"] = 1693863889255,
+		},
+		["sex"] = {
+			[3] = 1,
+		},
+		["class"] = "WARRIOR",
+		["faction"] = "Thunder Bluff",
+		["spec"] = {
+			[0] = {
+				[3] = {
+					["loc"] = {
+						["Mulgore"] = {
+							[1412] = {
+								{
+									["y"] = 816,
+									["x"] = 385,
+									["dl"] = 1412,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 71,
+					["powermax"] = 0,
+				},
+			},
+		},
+	},
+	["6747"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["1^Horde^5"] = 1693864059910,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["class"] = "WARRIOR",
+		["faction"] = "Orgrimmar",
+		["spec"] = {
+			[0] = {
+				[30] = {
+					["loc"] = {
+						["Mulgore"] = {
+							[1412] = {
+								{
+									["y"] = 610,
+									["x"] = 467,
+									["dl"] = 1412,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 1003,
+					["powermax"] = 0,
+				},
+			},
+		},
+	},
+	["2982"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Mark of the Wild"] = 2,
+				},
+			},
+		},
+	},
+	["6928"] = {
+		["isPvp"] = true,
+		["reaction"] = {
+			["1^Horde^5"] = 1693698587547,
+		},
+		["sex"] = {
+			[2] = 1,
+		},
+		["faction"] = "Orgrimmar",
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[30] = {
+					["loc"] = {
+						["Durotar"] = {
+							[1411] = {
+								{
+									["y"] = 417,
+									["x"] = 516,
+									["dl"] = 1411,
+									["n"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+						},
+					},
+					["powertype"] = 1,
+					["health"] = 1003,
+					["powermax"] = 0,
+				},
+			},
+		},
+		["gossip"] = {
+			["binder"] = 1,
+		},
+	},
+	["5907"] = {
+		["spec"] = {
+			[0] = {
+				["spell"] = {
+					["Rock Skin"] = 1,
+				},
+			},
+		},
+	},
+	["2958"] = {
+		["isPvp"] = false,
+		["reaction"] = {
+			["1^Horde^2"] = 1693863959426,
+		},
+		["sex"] = {
+			1, -- [1]
+		},
+		["class"] = "WARRIOR",
+		["spec"] = {
+			[0] = {
+				[5] = {
+					["powertype"] = 1,
+					["health"] = 102,
+					["powermax"] = 0,
+				},
+			},
+		},
+	},
+}
+wlItemDurability = {
+}
+wlItemBonuses = {
+}
+wlTradeSkillDifficulty = {
+}

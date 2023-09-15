@@ -1,0 +1,299 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+		"/bartender", -- [2]
+		"/reload", -- [3]
+		"/clique", -- [4]
+		"Ill be switching to my shammy soon", -- [5]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10838:Player-162-0B40B5B9:1:3:25:21:4294967295:4294967295:4294967295:4294967295|h[Nightspire]|h|r!", -- [1]
+			"Biowolf-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biowolf-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1117, -- [11]
+			"Player-162-0B40B5B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Biowolf|r",
+			[51] = 1616723861,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [1]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10839:Player-162-0B40B5B9:1:3:25:21:4294967295:4294967295:4294967295:4294967295|h[Betrayer's Rise]|h|r!", -- [1]
+			"Biowolf-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biowolf-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1171, -- [11]
+			"Player-162-0B40B5B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Biowolf|r",
+			[51] = 1616724223,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [2]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10877:Player-162-0B40B5B9:1:3:25:21:4294967295:4294967295:4294967295:4294967295|h[Pillars of Creation]|h|r!", -- [1]
+			"Biowolf-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Biowolf-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1227, -- [11]
+			"Player-162-0B40B5B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Biowolf|r",
+			[51] = 1616724517,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [3]
+		{
+			"dude", -- [1]
+			"Kulla-Bonechewer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kulla-Bonechewer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1677, -- [11]
+			"Player-1136-0841B6B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcKulla-Bonechewer|r",
+			[51] = 1616726651,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [4]
+		{
+			"Volatile Acid on Kulla", -- [1]
+			"Kulla-Bonechewer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Kulla-Bonechewer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1731, -- [11]
+			"Player-1136-0841B6B3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcKulla-Bonechewer|r",
+			[51] = 1616726986,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [5]
+		{
+			"Volatile Acid on Samoanranger", -- [1]
+			"Samoanranger-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoanranger-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1733, -- [11]
+			"Player-162-0A01CDAD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Samoanranger|r",
+			[51] = 1616727000,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [6]
+		{
+			"Ill be switching to my shammy soon", -- [1]
+			"|Kq97|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1758, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Zwyx|r",
+			[51] = 1616727103,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Zwyx",
+		}, -- [7]
+		{
+			"sry", -- [1]
+			"Haisë-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Haisë-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1759, -- [11]
+			"Player-60-0E69D90C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Haisë-Stormrage|r",
+			[51] = 1616727105,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [8]
+		{
+			"Volatile Acid on Samoanranger", -- [1]
+			"Samoanranger-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoanranger-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1764, -- [11]
+			"Player-162-0A01CDAD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Samoanranger|r",
+			[51] = 1616727141,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [9]
+		{
+			"Volatile Acid on Mayrii", -- [1]
+			"Mayrii-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Mayrii-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1783, -- [11]
+			"Player-162-095DD3E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMayrii|r",
+			[51] = 1616727200,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [10]
+		{
+			"Volatile Acid on Samoanranger", -- [1]
+			"Samoanranger-EmeraldDream", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Samoanranger-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1785, -- [11]
+			"Player-162-0A01CDAD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Samoanranger|r",
+			[51] = 1616727201,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [11]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-162-0A01CDAD:1:3:25:21:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
+			"Samoanranger-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Samoanranger-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1807, -- [11]
+			"Player-162-0A01CDAD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Samoanranger|r",
+			[51] = 1616727311,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [12]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-162-095DD3E1:1:3:25:21:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
+			"Mayrii-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mayrii-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1808, -- [11]
+			"Player-162-095DD3E1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMayrii|r",
+			[51] = 1616727311,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [13]
+	},
+}

@@ -1,0 +1,15 @@
+Version: 1
+Frame: HekiliDisplayPrimary
+FrameLevel: 10
+Anchor: BOTTOM
+X: -55
+Y: 140
+W: 52
+H: 52
+Frame: GRM_RosterChangeLogFrame
+FrameLevel: 1
+Anchor: TOP
+X: 217
+Y: -114
+W: 600
+H: 535

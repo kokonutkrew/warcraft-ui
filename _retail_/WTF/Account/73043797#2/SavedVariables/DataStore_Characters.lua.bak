@@ -1,0 +1,37 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["XPMax"] = 9765,
+				["played"] = 138452,
+				["playedThisLevel"] = 8145,
+				["isResting"] = true,
+				["lastUpdate"] = 1675387755,
+				["class"] = "Rogue",
+				["race"] = "Human",
+				["subZone"] = "Stormwind Embassy",
+				["zone"] = "Stormwind City",
+				["level"] = 11,
+				["XP"] = 3138,
+				["guildRankIndex"] = 1,
+				["RestXP"] = 14648,
+				["guildRankName"] = "Officer",
+				["guildName"] = "KK",
+				["money"] = 3532047,
+				["gender"] = 3,
+				["classID"] = 4,
+				["bindLocation"] = "Lion's Pride Inn",
+				["englishClass"] = "ROGUE",
+				["name"] = "Cherriebomb",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["localizedFaction"] = "Alliance",
+				["lastLogoutTimestamp"] = 1675387755,
+			},
+		},
+	},
+}

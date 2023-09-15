@@ -1,0 +1,42 @@
+
+SilverDragon3DB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+		["Aerielle - Emerald Dream"] = "Default",
+	},
+	["namespaces"] = {
+		["Overlay"] = {
+		},
+		["VignetteStretch"] = {
+		},
+		["TomTom"] = {
+		},
+		["Macro"] = {
+		},
+		["Tooltip"] = {
+		},
+		["Scan_Chat"] = {
+		},
+		["ClickTarget"] = {
+		},
+		["LDB"] = {
+		},
+		["Scan_Vignettes"] = {
+		},
+		["Scan_Targets"] = {
+		},
+		["Sync"] = {
+		},
+		["Announce"] = {
+		},
+		["Marker"] = {
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+SilverDragon2DB = nil

@@ -1,0 +1,8 @@
+Version: 1
+Frame: RXPTargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -2
+Y: -6
+W: 87
+H: 68

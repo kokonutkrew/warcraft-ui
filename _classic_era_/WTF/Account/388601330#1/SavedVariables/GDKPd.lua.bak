@@ -1,0 +1,37 @@
+
+GDKPd_DB = {
+	["profileKeys"] = {
+		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profiles"] = {
+		["Kkbrill - Skull Rock"] = {
+		},
+		["Øø - Skull Rock"] = {
+			["point"] = {
+				["y"] = 3.160465955734253,
+				["x"] = -25.28367424011231,
+			},
+		},
+		["Kkorgrimmar - Skull Rock"] = {
+		},
+		["Kkundercity - Skull Rock"] = {
+		},
+	},
+}
+GDKPd_PotData = {
+	["playerBalance"] = {
+	},
+	["history"] = {
+	},
+	["potAmount"] = 0,
+	["curPotHistory"] = {
+	},
+}
+GDKPd_BalanceData = {
+}

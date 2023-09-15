@@ -1,0 +1,294 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"<Disorientated> 6/10M is recruiting ranged DPS for our main roster. Raid times are Tu-W 7-10pm server, Th 8:30-10pm server. If you think you have what it takes, come join us! ALL APPLICATIONS WILL BE CONSIDERED. PST for more info.", -- [1]
+			"Mythpalman-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mythpalman-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-60-0C92FC3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Mythpalman|r",
+			[51] = 1616198210,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"WTS 0-15 M+ Timed Keys - Loot Funnel Available - Full KSM or just what you need - Gold Only pst me ;)", -- [1]
+			"Fladalys-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fladalys-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-60-0CBE33A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Fladalys|r",
+			[51] = 1616198212,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"WTS M/H Castle Nathria || KSM || M+0 - 18s || Loot stack available || Torghast and Twisting Corridors || Arena and RBG Boosts || Legacy Content || TCG || And more! Gold Only! || <3 Ask about Weekend Deals! <3 PST for more Info", -- [1]
+			"Kirilheia-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kirilheia-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-60-0E6A7BBD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaKirilheia|r",
+			[51] = 1616198227,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"<Expac> [AOTC guild] looking to go into mythic. Looking for people to join our core raiding team. LF healers, RDPS, and enhancement shammy. Raid Days are Mon/Weds 9pm-12am Est. Please fill out https://cutt.ly/expacraid (all the info on a Google form)", -- [1]
+			"Latebandaid-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Latebandaid-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-60-0CCD87ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Latebandaid|r",
+			[51] = 1616198229,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"<Easy Two Chest> SCTeam (10/10H 3/10M) is looking for Disc Priest, Mage and Aff warlock. Also willing to consider other classes. Raid times are Tues/Fri 7-10PM Server time. PST for more info!", -- [1]
+			"Harkora-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Harkora-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-60-0BF30E2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Harkora|r",
+			[51] = 1616198248,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"AoTC |cffffd100|HclubFinder:ClubFinder-1-219687-60-76506545|h[Guild: Death and Disappointment]|h|r 3/10M LFM DPS for our MYTHIC RAID . Tue/Thr 9p-12a EST.             There will be punch & pie.", -- [1]
+			"Fâlk-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fâlk-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-60-0E593BE1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Fâlk|r",
+			[51] = 1616198250,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"who farted?", -- [1]
+			"Onionhead-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Onionhead-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-60-060C0FB9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Onionhead|r",
+			[51] = 1616198263,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"WTS! |cffa335ee|Hitem:49284::::::::10:256:::::::|h[Reins of the Swift Spectral Tiger]|h|r|cff0070dd|Hitem:49283::::::::10:256:::::::|h[Reins of the Spectral Tiger]|h|r PST!", -- [1]
+			"Seeary-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Seeary-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-60-0E6A4278", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeSeeary|r",
+			[51] = 1616198267,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"WTS! |cff0070dd|Hitem:33079::::::::10:256:::::::|h[Murloc Costume]|h|r|cff0070dd|Hitem:43599::::::::10:256:::::::|h[Big Blizzard Bear]|h|r |cffa335ee|Hitem:49290::::::::10:256:::::::|h[Magic Rooster Egg]|h|rPST!", -- [1]
+			"Seeary-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Seeary-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-60-0E6A4278", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeSeeary|r",
+			[51] = 1616198267,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
+		{
+			"<Easy Two Chest> SCTeam (10/10H 3/10M) is looking for Disc Priest, Mage and Aff warlock. Also willing to consider other classes. Raid times are Tues/Fri 7-10PM Server time. PST for more info!", -- [1]
+			"Harkora-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Harkora-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-60-0BF30E2B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Harkora|r",
+			[51] = 1616198276,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"WTS M+ 10-15 time guaranteed Get your specific dungeon loot, Heroic CN Full Clear, AOTC Only. Torghast Boost, Every Layer of Twisting Corridors. GOLD ONLY. WEEKEND DEALS!!", -- [1]
+			"Crombië-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Crombië-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-60-0E663387", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaCrombië|r",
+			[51] = 1616198279,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"WTS carry mythic 0-15.! torghast.!  come and get your gear and weekly vault and your valor points.! GOLD ONLY.! whisp me for more info", -- [1]
+			"Kalaash-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kalaash-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"Player-60-0E52C177", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Kalaash|r",
+			[51] = 1616198287,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"Oh Hi Mark is a meme prog guild.  10/10H looking for new raiders and friends to join in Mythic prog.  Running daily keys, Torghast, etc.  Raiding Tuesdays/Thursdays 7pm server.  We also have a movie/alt raid Wednesday nights!  Pst for more info :D", -- [1]
+			"Tehubergay-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tehubergay-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-60-0E5B10E8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTehubergay|r",
+			[51] = 1616198293,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
+	},
+}

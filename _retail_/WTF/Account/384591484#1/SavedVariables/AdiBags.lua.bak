@@ -1,0 +1,60 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["MoneyFrame"] = {
+		},
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+					["overrides"] = {
+						[69210] = "Miscellaneous#Miscellaneous",
+						[63352] = "Miscellaneous#Miscellaneous",
+					},
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["Junk"] = {
+		},
+		["NewItem"] = {
+		},
+		["Fishing Items"] = {
+		},
+		["Equipment"] = {
+		},
+		["CurrencyFrame"] = {
+		},
+		["Soulbound"] = {
+		},
+		["ItemSets"] = {
+		},
+		["DataSource"] = {
+		},
+		["Bound"] = {
+		},
+		["TSMPrice"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Stronguard - Emerald Dream"] = "Default",
+		["Clawes - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+		["Bubbels - Emerald Dream"] = "Default",
+		["Bladerest - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["filterPriorities"] = {
+				["Soulbound"] = 100,
+			},
+		},
+	},
+}

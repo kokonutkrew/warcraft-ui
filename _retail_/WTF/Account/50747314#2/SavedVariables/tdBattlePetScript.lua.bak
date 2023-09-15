@@ -1,0 +1,36 @@
+
+TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+	["profileKeys"] = {
+		["Aerielle - Emerald Dream"] = "Default",
+		["Mmkk - Emerald Dream"] = "Default",
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = "v1.5",
+		["scripts"] = {
+			["Rematch"] = {
+			},
+			["Base"] = {
+			},
+			["FirstEnemy"] = {
+			},
+			["AllInOne"] = {
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["pluginOrders"] = {
+				"Rematch", -- [1]
+				"Base", -- [2]
+				"FirstEnemy", -- [3]
+				"AllInOne", -- [4]
+			},
+			["minimap"] = {
+				["minimapPos"] = 2.136925433465726,
+			},
+		},
+	},
+}

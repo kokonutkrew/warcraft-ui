@@ -1,0 +1,1886 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/cw Pyroptosis-EmeraldDream Alright Im afk as well, cya!", -- [1]
+				"/cw Pyroptosis-EmeraldDream Everyone left is true blue though!", -- [2]
+				"/cw Pyroptosis-EmeraldDream lol", -- [3]
+				"/cw Pyroptosis-EmeraldDream Thanks to reddit", -- [4]
+				"/cw Pyroptosis-EmeraldDream We lost half our raid team to the horde", -- [5]
+				"/cw Pyroptosis-EmeraldDream Dang you guys too?", -- [6]
+				"/cw Pyroptosis-EmeraldDream Thanks for the fishing spot!", -- [7]
+				"/cw Pyroptosis-EmeraldDream We do a lot of stuff", -- [8]
+				"/cw Pyroptosis-EmeraldDream Lemme know if you change your mind", -- [9]
+				"/cw Pyroptosis-EmeraldDream Also, check our guild out at http://kokonutkrew.com", -- [10]
+				"/cw Pyroptosis-EmeraldDream Need something to do while I wait for my son to finish his homework lol", -- [11]
+				"/cw Pyroptosis-EmeraldDream Haha ok well youll probably see me out there soon", -- [12]
+				"/cw Pyroptosis-EmeraldDream Ah ok I gotcha", -- [13]
+				"/cw Pyroptosis-EmeraldDream Just want to see where your at", -- [14]
+				"/cw Pyroptosis-EmeraldDream Is it just close to your convenant santcum?", -- [15]
+				"/cw Pyroptosis-EmeraldDream Or just whereever?", -- [16]
+				"/cw Pyroptosis-EmeraldDream Any spot in particular", -- [17]
+				"/cw Pyroptosis-EmeraldDream I may have to start leveling mine up", -- [18]
+				"/cw Pyroptosis-EmeraldDream Still 16k gold isnt bad", -- [19]
+				"/cw Pyroptosis-EmeraldDream I know right?", -- [20]
+				"/cw Pyroptosis-EmeraldDream It will go back up again when they release new content", -- [21]
+				"/cw Pyroptosis-EmeraldDream I love the start of xpacs for that very reason", -- [22]
+				"/cw Pyroptosis-EmeraldDream Gees", -- [23]
+				"/cw Pyroptosis-EmeraldDream Consumables are super expensive at the start", -- [24]
+				"/cw Pyroptosis-EmeraldDream Thats was very generous of you", -- [25]
+				"/cw Pyroptosis-EmeraldDream Sweet sweet crit!", -- [26]
+				"/cw Pyroptosis-EmeraldDream I was wondering if it was worth it in shadowlands", -- [27]
+				"/cw Pyroptosis-EmeraldDream I fished alot last expansion", -- [28]
+				"/cw Pyroptosis-EmeraldDream Man thats very good", -- [29]
+				"/cw Pyroptosis-EmeraldDream the stink is unbearable", -- [30]
+				"/cw Pyroptosis-EmeraldDream lol forsure", -- [31]
+				"/cw Pyroptosis-EmeraldDream How long does that take you?", -- [32]
+				"/cw Pyroptosis-EmeraldDream 16k g", -- [33]
+				"/cw Pyroptosis-EmeraldDream at 55g a pop thats not bad", -- [34]
+				"/cw Pyroptosis-EmeraldDream Anything good yet?", -- [35]
+				"/cw Pyroptosis-EmeraldDream Shadowlands?", -- [36]
+				"/cw Pyroptosis-EmeraldDream Right on", -- [37]
+				"/cw Pyroptosis-EmeraldDream whats up", -- [38]
+				"/g Hey Bio hows it going?", -- [39]
+				"/p thanks mate", -- [40]
+				"/g We are on discord btw", -- [41]
+				"/g Hop in with us", -- [42]
+				"/g Your not useless mate", -- [43]
+				"/g Do you want to join?", -- [44]
+				"/g Great man, me and honust are getting rdy to do a mythic key with his dad", -- [45]
+				"/g Hey Ownre! How you doing?", -- [46]
+				"/g It'll be nice to have couldrons back on tap again", -- [47]
+				"/g good stuff man", -- [48]
+				"/g No worries, that one tab was getting a bit full", -- [49]
+				"/g Did you see that I split the guild reagents between two tabs now?", -- [50]
+				"/g Right on bruther", -- [51]
+				"/g Haha definitely not", -- [52]
+				"/g Are you farming right now?", -- [53]
+				"/g Lol ya I guess that makes sense", -- [54]
+				"/g With arden or avowed?", -- [55]
+				"/s With arden or avowed?", -- [56]
+				"/cw Honustustere-EmeraldDream /spy config", -- [57]
+				"/cw Honustustere-EmeraldDream /SPY CONIG", -- [58]
+				"/cw Honustustere-EmeraldDream /SPY CONFIG", -- [59]
+				"/cw Honustustere-EmeraldDream No worries", -- [60]
+				"/cw Honustustere My son and I are in discord", -- [61]
+				"/cw Honustustere hey man lets do some torgast", -- [62]
+				"/g How you doing honust?", -- [63]
+				"/g hey man nice key", -- [64]
+				"/g then you know whats up with renown and covenant gear", -- [65]
+				"/g decent way to gear", -- [66]
+				"/g big dps increase", -- [67]
+				"/g make sure you finish the storyline", -- [68]
+				"/g hey man congrats", -- [69]
+				"/p click pls", -- [70]
+				"/p I got WM on if anyone can help me summon", -- [71]
+				"/p so we can get the gear reward", -- [72]
+				"/p if we dont time the key- we should still finish the dungeon", -- [73]
+				"/g Wanna join us for another keystone Krimm?", -- [74]
+				"/g but eventually you realize they are just going to march along the same old path", -- [75]
+				"/g Classic was fun", -- [76]
+				"/g I been there done that lol", -- [77]
+				"/p leme rez you", -- [78]
+				"/p ouch", -- [79]
+				"/p ty for summon", -- [80]
+				"/p k im rdy now", -- [81]
+				"/p Didnt think we'd get in this fast lol", -- [82]
+				"/p Lemme by a flask real quick", -- [83]
+				"/p hey guys", -- [84]
+				"/cw Scrench /bartender", -- [85]
+				"/cw Scrench /ec", -- [86]
+				"/cw Scrench Post your keys on Tuesday and be sure to check out the guild info at http://kokonutkrew.com", -- [87]
+				"/cw Scrench Lemme know if you need anything", -- [88]
+				"/cw Scrench welcome aboard mate", -- [89]
+				"/cw Telundi-EmeraldDream ok np! Lemme know if you change your mind", -- [90]
+				"/g Is that your toon youve been grinding badges on?", -- [91]
+				"/cw Mannsquid-EmeraldDream No problem! Lemme know if you change your mind", -- [92]
+				"/g Im more just going for exp", -- [93]
+				"/g I wouldnt be trying to the mount right now", -- [94]
+				"/g Ya I know", -- [95]
+				"/g Well I think I have 2-3 toons in that range if you want to try again", -- [96]
+				"/g To grind badges", -- [97]
+				"/g Do you have to be 60 for that?", -- [98]
+				"/g pretty rough eh?", -- [99]
+				"/g and the Burning Crusade buff", -- [100]
+				"/g With darkmoon fair I was getting tons of exp", -- [101]
+				"/g Ive been leveling a bunch of toons late at night", -- [102]
+				"/g lol", -- [103]
+				"/g now", -- [104]
+				"/g well hes level 45 noe", -- [105]
+				"/g Its like he never registered offline on the bnet servers", -- [106]
+				"/g I fixed the monk though, did you notice he finally went offline", -- [107]
+				"/g and my toons that never log out", -- [108]
+				"/g Your random discord appearances", -- [109]
+				"/g Between you and me", -- [110]
+				"/g Lol", -- [111]
+				"/g Maybe your computer was logging in or something", -- [112]
+				"/g Ya just a few mins ago", -- [113]
+				"/s /details", -- [114]
+				"/cw Pfkiller-EmeraldDream /ec", -- [115]
+				"/cw Pfkiller-EmeraldDream Of course", -- [116]
+				"/cw Pfkiller-EmeraldDream Will do mate, be sure to get to 60!", -- [117]
+				"/cw Pfkiller-EmeraldDream cool man glad to have you on board", -- [118]
+				"/g Hey welcome to the both of you", -- [119]
+				"/cw Pfkiller-EmeraldDream Did you get that?", -- [120]
+				"/cw Pfkiller-EmeraldDream Ill go ahead and send you an invite", -- [121]
+				"/cw Pfkiller-EmeraldDream Sorry for the delay", -- [122]
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 112,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Tremens:500|h|cffd8bc3f60|r:|cff00fe97Tremens|r|h|cffd8d8d8]|r: Level 60 Human Monk |cffffffff<|r|cff00ff00Raptors|r|cffffffff>|r - Tiragarde Sound - Raider|cffffffff|r.IO M+ Score: 246.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Shipman:501|h|cffd8bc3f60|r:|cff00fe97Shipman|r|h|cffd8d8d8]|r: Level 60 Human Monk |cffffffff<|r|cff00ff00Add Violence|r|cffffffff>|r - Stormwind City - Raider|cffffffff|r.IO M+ Score: 1314.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [2]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h 2 |4player:players; total",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [3]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Ryvvka:503|h|cffd8bc3f60|r:|cff00fe97Ryvvka|r|h|cffd8d8d8]|r: Level 60 Human Monk |cffffffff<|r|cff00ff00MATHLETES|r|cffffffff>|r - Stormwind City - Raider|cffffffff|r.IO M+ Score: 400. (Main's M+ Score: 1061).",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [4]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Choppaxx:504|h|cffd8bc3f60|r:|cff00fe97Choppaxx|r|h|cffd8d8d8]|r: Level 60 Human Monk |cffffffff<|r|cff00ff00Dauntless|r|cffffffff>|r - Bastion",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [5]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h 2 |4player:players; total",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521027,
+				}, -- [6]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:510:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r big fish today!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521028,
+				}, -- [7]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:541:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Anything good yet?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521041,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Gryim:548|h|cffd8bc3f60|r:|cffc31d39Gryim|r|h|cffd8d8d8]|r: Level 60 Human Death Knight |cffffffff<|r|cff00ff00Onyx Brotherhood|r|cffffffff>|r - Seat of the Primus",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Deadjunkie:549|h|cffd8bc3f60|r:|cffc31d39Deadjunkie|r|h|cffd8d8d8]|r: Level 60 Human Death Knight |cffffffff<|r|cff00ff00The Order|r|cffffffff>|r - The Nighthold - Raider|cffffffff|r.IO M+ Score: 341.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h 2 |4player:players; total",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Dråyl:551|h|cffd8bc3f60|r:|cffc31d39Dråyl|r|h|cffd8d8d8]|r: Level 60 Human Death Knight |cffffffff<|r|cff00ff00Asgard|r|cffffffff>|r - Oribos",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Kerzlek:552|h|cffd8bc3f60|r:|cffc31d39Kerzlek|r|h|cffd8d8d8]|r: Level 60 Human Death Knight |cffffffff<|r|cff00ff00Concilium|r|cffffffff>|r - Dalaran (Northrend)",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |cffd8d8d8[|r|Hplayer:Delggo:553|h|cffd8bc3f60|r:|cffc31d39Delggo|r|h|cffd8d8d8]|r: Level 60 Human Death Knight |cffffffff<|r|cff00ff00Horizon|r|cffffffff>|r - Sinfall - Raider|cffffffff|r.IO M+ Score: 1228. (Main's M+ Score: 1357).",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h 3 |4player:players; total",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521043,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[03:10]|h |CFFABD473|cffa9d271Pfkiller|r |CFFFF0000(M)|r|r has gone offline.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521046,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:583:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r |cffffffff|Hitem:173036::::::::60:270:::::::|h[Spinefin Piranha]|h|rx300 phat FISH!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521065,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:<BNET REMOVED>:32:0:BN_INLINE_TOAST_ALERT:0|h[<BNET REMOVED>] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tucesupreme)|h has come online.",
+					["r"] = 0.5098039507865906,
+					["b"] = 1,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						17, -- [3]
+						98, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521078,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:585:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r at 55g a pop thats not bad",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521091,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[03:11]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:586:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r 16k g",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521116,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:587:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r TRUE. However, I need to get them to the market quick before they go bad!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521123,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:588:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r How long does that take you?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521124,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:589:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r lol forsure",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521131,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:590:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r the stink is unbearable",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521140,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:591:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r about 1hour 15min because my class just ended",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521140,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:592:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Man thats very good",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521153,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:593:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I fished alot last expansion",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521159,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:594:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I was wondering if it was worth it in shadowlands",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521172,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[03:12]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:595:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I made bank this expac from |cffffffff|Hitem:172041::::::::60:270::13:1:3524::::|h[Spinefin Souffle and Fries]|h|r mostly",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521175,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |cffa22fc8Samoanbatman|r has died.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521191,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:597:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r At the start of the expac i made an easy 1.5mil but I gave most of it to my old guild for raiding",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521195,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:598:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Sweet sweet crit!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521196,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:599:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Thats was very generous of you",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521214,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Sallyxox-EmeraldDream:600:CHANNEL:2|h|cff3ec6eaSallyxox|r|h|cffd8d8d8]|r: WTS|cff0070dd|Hitem:52489::::::::10:1449:::::::|h[Rhinestone Sunglasses]|h|r 0.01% Drop Recipe, and since 9.0.5 can now be Transmoged. On AH now cheap!",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						31, -- [3]
+						99, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521222,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:601:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Consumables are super expensive at the start",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521227,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[03:13]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:602:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I was pulling in well over 100k/hr for the first few days",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521228,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:603:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Gees",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521243,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Sinßad-EmeraldDream:604:CHANNEL:2|h|cff3ec6eaSinßad|r|h|cffd8d8d8]|r: WTS |cff1eff00|Hbattlepet:42:1:2:144:12:10:0000000000000000:5448|h[Black Tabby Cat]|h|r",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						31, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521249,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Aggregator-EmeraldDream:605:CHANNEL:2|h|cfffe7b09Aggregator|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:183008::::::::16:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Supple Supplicant's Gloves]|h|r|cff0070dd|Hitem:9424::::::::16:102:::1:6710:1:9:30:::|h[Ginn-Su Sword]|h|r|cffa335ee|Hitem:88149::::::::16:102:::::::|h[The Gloaming Blade]|h|r PST",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						31, -- [3]
+						103, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521253,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:606:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I love the start of xpacs for that very reason",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521256,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:607:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r same",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521261,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:608:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r It will go back up again when they release new content",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521264,
+				}, -- [42]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h You have requested to trade with |cffa22fc8Samoanbatman|r.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521269,
+				}, -- [43]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:610:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r yeah that'll be awhile though",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521275,
+				}, -- [44]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:611:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I know right?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521281,
+				}, -- [45]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:612:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Still 16k gold isnt bad",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521292,
+				}, -- [46]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:613:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r true",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521296,
+				}, -- [47]
+				{
+					["message"] = "|Hpratcopy|h[03:14]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:614:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r I may have to start leveling mine up",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521298,
+				}, -- [48]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:615:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Any spot in particular",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521309,
+				}, -- [49]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:616:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Or just whereever?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521313,
+				}, -- [50]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:617:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r well",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521319,
+				}, -- [51]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:618:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Revendreth is where i am at by the lift",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521333,
+				}, -- [52]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:619:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r really not much water here tbh",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521341,
+				}, -- [53]
+				{
+					["message"] = "|Hpratcopy|h[03:15]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:620:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Is it just close to your convenant santcum?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521358,
+				}, -- [54]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:621:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Kind of right by Old Gate is where I fish",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521363,
+				}, -- [55]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:622:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r No I am a Kyrian monk",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521378,
+				}, -- [56]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h |cffc31d39Honustustere|r leaves the party.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521381,
+				}, -- [57]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h You have invited |cff00fe97Pyroptosis|r to join your group.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521384,
+				}, -- [58]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h |cff00fe97Pyroptosis|r joins the party.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521387,
+				}, -- [59]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:626:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Just want to see where your at",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521389,
+				}, -- [60]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:627:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Ah ok I gotcha",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521400,
+				}, -- [61]
+				{
+					["message"] = "|Hpratcopy|h[03:16]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:628:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r No mobs here as well",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521403,
+				}, -- [62]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:629:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Haha ok well youll probably see me out there soon",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521427,
+				}, -- [63]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:630:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Okie dokie!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521436,
+				}, -- [64]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:631:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Need something to do while I wait for my son to finish his homework lol",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521449,
+				}, -- [65]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:632:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r ok I need to go afk for a lil. GL on the mythic+ stuff",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521461,
+				}, -- [66]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:633:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Also, check our guild out at |cffffffff|Hurl:http://kokonutkrew.com|h[http://kokonutkrew.com]|h|r",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521471,
+				}, -- [67]
+				{
+					["message"] = "|Hpratcopy|h[03:17]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:634:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Lemme know if you change your mind",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521479,
+				}, -- [68]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:636:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r We do a lot of stuff",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521486,
+				}, -- [69]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Sinßad-EmeraldDream:637:CHANNEL:2|h|cff3ec6eaSinßad|r|h|cffd8d8d8]|r: WTS |cff1eff00|Hbattlepet:195:1:2:147:9:12:0000000000000000:28215|h[White Tickbird Hatchling]|h|r|cff1eff00|Hbattlepet:46:1:2:150:9:11:0000000000000000:9990|h[White Kitten]|h|r|cff1eff00|Hbattlepet:194:1:2:148:10:12:0000000000000000:62217|h[Tickbird Hatchling]|h|r",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						31, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521487,
+				}, -- [70]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:638:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r ok sounds good",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521489,
+				}, -- [71]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h |Hchannel:channel:2|h[2. Trade] |h|cffd8d8d8[|r|Hplayer:Sinßad-EmeraldDream:639:CHANNEL:2|h|cff3ec6eaSinßad|r|h|cffd8d8d8]|r: |cff1eff00|Hbattlepet:238:1:2:144:11:11:0000000000000000:29808|h[Razormaw Hatchling]|h|r|cff1eff00|Hbattlepet:1532:1:2:145:12:10:0000000000000000:59602|h[Ikky]|h|r|cff1eff00|Hbattlepet:42:1:2:144:12:10:0000000000000000:5448|h[Black Tabby Cat]|h|r",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						31, -- [3]
+						101, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521498,
+				}, -- [72]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:640:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Thanks for the fishing spot!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521503,
+				}, -- [73]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h >>>[From] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:641:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r My last guild left the server and the alliance :(",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						87, -- [3]
+						97, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521504,
+				}, -- [74]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:642:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Dang you guys too?",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521512,
+				}, -- [75]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:643:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r We lost half our raid team to the horde",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521526,
+				}, -- [76]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:644:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Thanks to reddit",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521530,
+				}, -- [77]
+				{
+					["message"] = "|Hpratcopy|h[03:18]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:645:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r lol",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521534,
+				}, -- [78]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:646:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Everyone left is true blue though!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521554,
+				}, -- [79]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |cffd8d8d8[|r|Hplayer:Fydre:647|h|cffd8bc3f60|r:|cfffe7b09Fydre|r|h|cffd8d8d8]|r|r |CFFFFFF00 has come online.",
+					["r"] = 1,
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521573,
+				}, -- [80]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h [W] |cffd8d8d8[|r|Hplayer:Pyroptosis-EmeraldDream:648:WHISPER:PYROPTOSIS-EMERALDDREAM|h|cffd8bc3f60|r:|cff00fe97Pyroptosis|r|h|cffd8d8d8]|r Alright Im afk as well, cya!",
+					["r"] = 1,
+					["b"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						87, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521583,
+				}, -- [81]
+				{
+					["message"] = "|Hpratcopy|h[03:19]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["r"] = 1,
+					["b"] = 0.7529412508010864,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						19, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["serverTime"] = 1618521586,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:52:13]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[20:52]|r Gil says: Where we goin'?",
+					["extraData"] = {
+						13, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["b"] = 0.6235294342041016,
+					["serverTime"] = 1618537931,
+					["timestamp"] = 3390.512,
+					["g"] = 1,
+					["r"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:05]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537983,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:05]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537983,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:07]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537985,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:07]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537985,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:07]|h|r You are not in a guild.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537985,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:08]|h|r Donna says: I have your gorilla! Nyah nyah!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537986,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:53:08]|h|r William says: No fair!  Gimme back my gorilla!!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618537986,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:54:20]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538059,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:54:20]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538059,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:54:20]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538059,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 49 |4second:seconds;",
+					["timestamp"] = 3390.512,
+				}, -- [94]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 3390.512,
+				}, -- [95]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 3361.334,
+				}, -- [96]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 3361.334,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:54:58]|h|r |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 3361.334,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:08]|h|r Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 3390.512,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:08]|h|r Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 3390.512,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:08]|h|r |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538108,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:08]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538108,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:12]|h|r |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1618538112,
+					["timestamp"] = 3390.512,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:14]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538114,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:14]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 3390.512,
+					["serverTime"] = 1618538114,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:15]|h|r You are not in a guild.",
+					["serverTime"] = 1618538115,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 3402.46,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:15]|h|r You are not in a guild.",
+					["serverTime"] = 1618538115,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 3402.46,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:18]|h|r You are not in a guild.",
+					["serverTime"] = 1618538118,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 3405.953,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:18]|h|r You are not in a guild.",
+					["serverTime"] = 1618538118,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 3405.953,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:46]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 3434.123,
+					["serverTime"] = 1618538146,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:54]|h|r Sold junk for 24 Silver, 40 Copper.",
+					["r"] = 1,
+					["serverTime"] = 1618538154,
+					["timestamp"] = 3442.098,
+					["g"] = 0.85,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:55:56]|h|r You gained: |cffffffff24|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t 40|TInterface\\MoneyFrame\\UI-CopperIcon:0:0:2:0|t|r",
+					["serverTime"] = 1618538156,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 3443.804,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

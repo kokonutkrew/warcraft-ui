@@ -1,0 +1,8 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Bunni - Emerald Dream"] = "Bunni - Emerald Dream",
+		["Mygallexi - Emerald Dream"] = "Mygallexi - Emerald Dream",
+		["Luvf - Emerald Dream"] = "Luvf - Emerald Dream",
+	},
+}

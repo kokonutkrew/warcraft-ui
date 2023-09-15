@@ -1,0 +1,30 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Default",
+		["Gizelin - Emerald Dream"] = "Default",
+		["Buhbels - Emerald Dream"] = "Default",
+		["Cupkek - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["y"] = 82.00001525878906,
+					["point"] = "BOTTOMRIGHT",
+					["x"] = -248.9998779296875,
+				}, -- [1]
+			},
+			["versions"] = {
+				["1.6.3"] = true,
+				["1.8.0"] = true,
+				["1.6.4"] = true,
+				["1.6.7"] = true,
+			},
+		},
+	},
+}

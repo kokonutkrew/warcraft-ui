@@ -1,0 +1,36 @@
+
+TD_DB_BATTLEPETSCRIPT_GLOBAL = {
+	["global"] = {
+		["version"] = "v1.5",
+		["scripts"] = {
+			["AllInOne"] = {
+			},
+			["Base"] = {
+			},
+			["FirstEnemy"] = {
+			},
+			["Rematch"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Antoruskk - Emerald Dream"] = "Default",
+		["Seawings - Emerald Dream"] = "Default",
+		["Plvl - Emerald Dream"] = "Default",
+		["Anightholdkk - Emerald Dream"] = "Default",
+		["Kyliegurl - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["pluginOrders"] = {
+				"Base", -- [1]
+				"FirstEnemy", -- [2]
+				"AllInOne", -- [3]
+				"Rematch", -- [4]
+			},
+			["minimap"] = {
+				["minimapPos"] = 37.97155916740115,
+			},
+		},
+	},
+}

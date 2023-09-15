@@ -1,0 +1,88 @@
+
+TomCats_Account = {
+	["hallowsend"] = {
+	},
+	["lastExpirationWarning"] = 0,
+	["discoveriesResetCount"] = 0,
+	["lunarfestival"] = {
+	},
+	["loveisintheair"] = {
+	},
+	["discoveriesVersion"] = "2.4.35",
+	["lastVersionSeen"] = "2.4.35",
+	["preferences"] = {
+		["TomCats-HallowsEndMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["TomCats-LunarFestivalMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["TomCats-LoveIsInTheAirMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
+		},
+		["TomCats-MinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.888,
+		},
+		["betaEnabled"] = false,
+		["defaultVignetteIcon"] = "default",
+	},
+	["primalstorms"] = {
+		["preferences"] = {
+			["enabled"] = true,
+			["currency"] = {
+				["Clawes-Emerald Dream"] = 353,
+				["Bladerest-Emerald Dream"] = 445,
+			},
+			["dimmedItems"] = {
+				["Clawes-Emerald Dream"] = {
+					["FIRE"] = 1,
+					["EARTH"] = 1,
+					["AIR"] = 0,
+					["WATER"] = 0,
+				},
+				["Bladerest-Emerald Dream"] = {
+					["AIR"] = 0,
+					["EARTH"] = 0,
+					["WATER"] = 1,
+					["FIRE"] = 0,
+				},
+			},
+			["eligibleClasses"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+			},
+			["WindowLocation"] = {
+				"LEFT", -- [1]
+				nil, -- [2]
+				"LEFT", -- [3]
+				0, -- [4]
+				216.9998626708984, -- [5]
+			},
+		},
+	},
+	["discoveries"] = {
+		["vignetteAtlases"] = {
+		},
+		["vignettes"] = {
+		},
+	},
+}

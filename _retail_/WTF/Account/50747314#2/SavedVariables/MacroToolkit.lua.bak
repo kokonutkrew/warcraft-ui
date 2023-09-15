@@ -1,0 +1,13 @@
+
+MacroToolkitDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "profile",
+		["Bantoruskk - Emerald Dream"] = "profile",
+		["Sphinx - Emerald Dream"] = "profile",
+		["Aerielle - Emerald Dream"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

@@ -1,0 +1,23 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["Stats"] = {
+					["Ranged"] = "17-18|0|54|0|24.154378890991",
+					["HealthMax"] = 576,
+					["Melee"] = "18-21|1.6250001192093|54|0|24.154378890991|0",
+					["MaxPower"] = "3|120",
+					["Defense"] = "0|0|6.2930665016174|3|0|0",
+					["PVP"] = "2|0",
+					["Base"] = "30|54|72|27|0",
+					["Spell"] = "27|27|0|24.154378890991|28|0",
+				},
+				["lastUpdate"] = 1675387739,
+			},
+		},
+	},
+}

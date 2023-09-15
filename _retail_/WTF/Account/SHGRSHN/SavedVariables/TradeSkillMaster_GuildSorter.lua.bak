@@ -1,0 +1,6 @@
+
+TradeSkillMaster_GuildSorterDB = {
+	["profileKeys"] = {
+		["Mf - Emerald Dream"] = "Default",
+	},
+}

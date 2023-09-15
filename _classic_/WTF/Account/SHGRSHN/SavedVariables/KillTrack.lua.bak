@@ -1,0 +1,24 @@
+
+KILLTRACK = {
+	["TOOLTIP"] = true,
+	["COUNT_GROUP"] = false,
+	["SHOW_EXP"] = false,
+	["BROKER"] = {
+		["MINIMAP"] = {
+			["hide"] = true,
+		},
+		["SHORT_TEXT"] = false,
+	},
+	["PRINTNEW"] = false,
+	["MOBS"] = {
+	},
+	["DISABLE_RAIDS"] = false,
+	["ACHIEV_THRESHOLD"] = 1000,
+	["DISABLE_DUNGEONS"] = false,
+	["IMMEDIATE"] = {
+		["THRESHOLD"] = 0,
+		["POSITION"] = {
+		},
+	},
+	["PRINTKILLS"] = false,
+}

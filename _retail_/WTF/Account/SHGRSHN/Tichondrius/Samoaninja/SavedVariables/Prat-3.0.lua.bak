@@ -1,0 +1,1967 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 16,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bikinibandit-Tichondrius:116:CHANNEL:2|h|cff3ec6eaBikinibandit|r|h|cffd8d8d8]|r: nevah",
+					["serverTime"] = 1618551315,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16604.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:18]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:117:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: for jerking off or not jerking off?",
+					["serverTime"] = 1618551317,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16606.165,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Saaly-Tichondrius:118:CHANNEL:2|h|cfffefefeSaaly|r|h|cffd8d8d8]|r: DARK RANGER!",
+					["serverTime"] = 1618551319,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16608.137,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:24]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mcmcmcmcmc-Tichondrius:119:CHANNEL:4|h|cfffefefeMcmcmcmcmc|r|h|cffd8d8d8]|r: Mepo is mad because he isnt sure if he wants a big dick or a normal dick in his mouth",
+					["serverTime"] = 1618551323,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16611.997,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Warakh-Tichondrius:120:CHANNEL:2|h|cffa9d271Warakh|r|h|cffd8d8d8]|r: Huokan Community |cffffffff<|r|cff00ff00<WTS|r|cffffffff>|r> M+ : World Tour, Keys, KSM, lootfunnel |||| Raid: Heroic and Mythic CN |||| PVP: 2s, 3s and RBG |||| Leveling: 51-60 |||| Torghast |||| GOLD ONLY",
+					["serverTime"] = 1618551324,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16613.183,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:39]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:121:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: All the dicks.",
+					["serverTime"] = 1618551338,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16626.515,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:44]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:122:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS Mythic + Keys 10 to 15 || ONLY GOLD",
+					["serverTime"] = 1618551343,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16631.561,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:44]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:123:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: why not both mepo",
+					["serverTime"] = 1618551343,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16631.811,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:45]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Punkbuster-Tichondrius:124:CHANNEL:4|h|cffc59a6cPunkbuster|r|h|cffd8d8d8]|r: fellaz can i be honest with u  ? I'm on a prowl for hunnieez that happen to be PAWGS that are chasing after the big ones",
+					["serverTime"] = 1618551344,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						85, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16632.797,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:57]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Memind-Tichondrius:125:CHANNEL:2|h|cfffef367Memind|r|h|cffd8d8d8]|r: MY GOLD ON OSRS FOR YOUR GOLD ON HERE, PST!",
+					["serverTime"] = 1618551356,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16645.01,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:03]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:126:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: any hot anime loving owmen looking to love a fat 30 something virgin nerd in his mother's basement",
+					["serverTime"] = 1618551362,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16650.925,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:05]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Grezwaztok-Tichondrius:127:CHANNEL:2|h|cff006fdcGrezwaztok|r|h|cffd8d8d8]|r: Selling Mythic+15's carry|cffffff00|Hachievement:14532:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|ralso do Heroic CN 10/10(AOTC)raid|cffffff00|Hachievement:14355:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Glory of the Nathria Raider]|h|rand|cffffff00|Hachievement:14322:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Glory of the Shadowlands Hero]|h|rmsg me for details !",
+					["serverTime"] = 1618551364,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16653.243,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:09]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pyagre-Tichondrius:128:CHANNEL:2|h|cffc59a6cPyagre|r|h|cffd8d8d8]|r: WTS M+ 10-20!  We OFFER || SPECIFIC KEYS || ARMOR STACKS || LOTS OF DEALS || KSM || MULTIPLE RUNS BUNDLES ||  MYTHIC CN || LVL BOOSTS || You can also RENT A TEAM for COACHING and KEYS! GOLD ONLY HUOKAN COMMUNITY Only buy from Huokan GuildBanks",
+					["serverTime"] = 1618551368,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16657.226,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:11]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1618551370,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						89, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16658.479,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:11]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1618551370,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16658.479,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:36:11]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1618551370,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						94, -- [3]
+						95, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16658.479,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:27:25]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Avou-Tichondrius:18:2|h[|cffc59a6cAvou|r]|h: LF PvP Guild",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550844,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						15, -- [3]
+						["n"] = 3,
+					},
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:27:37]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Walacha-Tichondrius:19:2|h[|cff006fdcWalacha|r]|h: WTS M+ 10-12 Keys /w me for inf KSM players! |Helvmoji:%OkQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Media\\ChatEmojis\\Grin:16:16|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550856,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:09]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h Zelli Hotnozzle yells: The zeppelin to Thunder Bluff has arrived! All aboard for a smooth ride across the Barrens!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550887,
+					["extraData"] = {
+						15, -- [1]
+						16, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:09]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:4|h[4]|h |Hplayer:Mcmcmcmcmc-Tichondrius:21:4|h[|cfffefefeMcmcmcmcmc|r]|h: example: you get 20 stygia per soul you collect. can you disband the quest and keep doing it for the stygia or na",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550887,
+					["extraData"] = {
+						70, -- [1]
+						9, -- [2]
+						10, -- [3]
+						["n"] = 3,
+					},
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:15]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Ozrok-Tichondrius:22:2|h[|cffc59a6cOzrok|r]|h: WTS M+ keys (0-17) (Package Deals!!)||Heroic + Mythic CN || AOTC || PVP boosts || Torg || Rare Mounts ||PST for deets or  |cFFFFFFFF[|Hurl:hhttps://discord.gg/6E5JNz8F|hhhttps://discord.gg/6E5JNz8F|h]|r ",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550893,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						18, -- [3]
+						["n"] = 3,
+					},
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:22]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Twentysales-Tichondrius:23:2|h[|cfffef367Twentysales|r]|h: WTS Mythic+ 10-20 || 15 195k || 14 160k || 12 140k || 10 120k || BUY 2 FREE LOOT FUNNEL || BUY 4 OR MORE SPECIAL PRICE || WTS KSM || WTS CN Raid H/M || WTS Thorgast & TC || WTS Power Leveling 51-60 || Arena Carries [2s/3s/RGB] || Huokan || GOLD ONLY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550900,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:27]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Jibbey-Tichondrius:24:2|h[|cff006fdcJibbey|r]|h: |cFFFFFFFF[|Hurl:www.twitch.tv/jibbey|hwww.twitch.tv/jibbey|h]|r 2.9k enh multiglad doing viewer/follower 2s doing 4 games per person, come chill and get some honor/conq |Helvmoji:%Oik=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Media\\ChatEmojis\\Smile:16:16|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550905,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						19, -- [3]
+						["n"] = 3,
+					},
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:30]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Shaftmaster-Tichondrius:25:2|h[|cffa9d271Shaftmaster|r]|h: LF healers 1750+ cr rbgs",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550908,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						20, -- [3]
+						["n"] = 3,
+					},
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:42]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Boöb-Tichondrius:26:2|h[|cfffe7b09Boöb|r]|h: [WTS] >!KSM DEAL!< || WTS KEYS +15 195k ||+14 160K || +12 140K||+10 120K ||Gearing Bundles: 4 or 8 keys with special discounts ||WTS Leveling 51-60|| WTS RBG 0-1400 2M || WTS CASTLE NATHRIA 10/10 MITHYC OR HC || Only buy from Huokan GBank || Gold Only",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550920,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						21, -- [3]
+						["n"] = 3,
+					},
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:28:49]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Sellmythics-Tichondrius:27:2|h[|cffc59a6cSellmythics|r]|h: MyGold #1 Cheapest Keys 0-16 mythic plus (ilvl 184-226 gear) || Torgast layers 1-8 || 10/10 Heroic NC personal loot || Multiple Run Discounts || Groups Ready || GOLD ONLY! || PST!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550927,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						22, -- [3]
+						["n"] = 3,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:04]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |Hchannel:channel:2|h[2]|h |Hplayer:Dankular-Tichondrius:28:2|h[|cffa9d271Dankular|r]|h: LF heals 1700-1800 KFC 2.3k xp players",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550942,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						23, -- [3]
+						["n"] = 3,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:40]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Grezwaztok-Tichondrius:29:CHANNEL:2|h[|cff006fdcGrezwaztok|r]|h: WTS Mythic+10-15 key for 207-210ilvl tradable loots and 220-226ilvl Great Vault/Guarantee FULL 207ilvl Gear/Heroic Ny'alotha 12/12 PL Guarantee 5-7 loots Guarantee FULL 210ilvl and(AOTC).Pst!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550978,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						7, -- [3]
+						["n"] = 3,
+					},
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:40]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Walacha-Tichondrius:30:CHANNEL:2|h[|cff006fdcWalacha|r]|h: WTS M+ 10-12 Keys /w me for inf KSM players! |Helvmoji:%OkQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Media\\ChatEmojis\\Grin:16:16|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550978,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:40]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Twentysales-Tichondrius:31:CHANNEL:2|h[|cfffef367Twentysales|r]|h: WTS Mythic+ 10-20 || 15 195k || 14 160k || 12 140k || 10 120k || BUY 2 FREE LOOT FUNNEL || BUY 4 OR MORE SPECIAL PRICE || WTS KSM || WTS CN Raid H/M || WTS Thorgast & TC || WTS Power Leveling 51-60 || Arena Carries [2s/3s/RGB] || Huokan || GOLD ONLY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550978,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						4, -- [3]
+						["n"] = 3,
+					},
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:48]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:4|h[4. LookingForGroup]|h |Hplayer:Atulzakaj-Tichondrius:32:CHANNEL:4|h[|cfffef367Atulzakaj|r]|h: when doe s9.1 come out",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550986,
+					["extraData"] = {
+						70, -- [1]
+						9, -- [2]
+						24, -- [3]
+						["n"] = 3,
+					},
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:48]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Rolanf-Tichondrius:33:CHANNEL:2|h[|cffa9d271Rolanf|r]|h: WTS fast torghast layers 2-8 &Twisting Corridor1-8. Gold only",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550986,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						25, -- [3]
+						["n"] = 3,
+					},
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:48]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Pyagre-Tichondrius:34:CHANNEL:2|h[|cffc59a6cPyagre|r]|h: WTS M+ 10-20!  We OFFER || SPECIFIC KEYS || ARMOR STACKS || LOTS OF DEALS || KSM || MULTIPLE RUNS BUNDLES ||  MYTHIC CN || LVL BOOSTS || You can also RENT A TEAM for COACHING and KEYS! GOLD ONLY HUOKAN COMMUNITY Only buy from Huokan GuildBanks",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550979,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						11, -- [3]
+						["n"] = 3,
+					},
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:56]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r Greeb Ramrocket yells: The zeppelin to Warsong Hold has just arrived! All aboard for Borean Tundra!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550987,
+					["extraData"] = {
+						15, -- [1]
+						16, -- [2]
+						17, -- [3]
+						["n"] = 3,
+					},
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:29:56]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:29]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Warakh-Tichondrius:36:CHANNEL:2|h[|cffa9d271Warakh|r]|h: Huokan Community <<WTS>> M+ : World Tour, Keys, KSM, lootfunnel |||| Raid: Heroic and Mythic CN |||| PVP: 2s, 3s and RBG |||| Leveling: 51-60 |||| Torghast |||| GOLD ONLY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618550987,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						12, -- [3]
+						["n"] = 3,
+					},
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:16]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:30]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Lelios-Tichondrius:37:CHANNEL:2|h[|cffa22fc8Lelios|r]|h: DH's of /2, do you use felblade talent(s) or eye beam?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551007,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:16]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:30]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Lelios-Tichondrius:38:CHANNEL:2|h[|cffa22fc8Lelios|r]|h: for pvp",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551007,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						26, -- [3]
+						["n"] = 3,
+					},
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:17]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:30]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Walacha-Tichondrius:39:CHANNEL:2|h[|cff006fdcWalacha|r]|h: WTS M+ 10-12 Keys /w me for inf KSM players! |Helvmoji:%OkQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Media\\ChatEmojis\\Grin:16:16|t",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551008,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						5, -- [3]
+						["n"] = 3,
+					},
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:18]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:30]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Bungslapper-Tichondrius:40:CHANNEL:2|h[|cff00fe97Bungslapper|r]|h: felblade",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551009,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						27, -- [3]
+						["n"] = 3,
+					},
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:22]|h|r |Hcpl:1|h|TInterface\\AddOns\\ElvUI\\Media\\Textures\\ArrowRight:14|t|h |cffb2b2b2[22:30]|r |Hchannel:channel:2|h[2. Trade - City]|h |Hplayer:Ivette-Tichondrius:41:CHANNEL:2|h[|cfffef367Ivette|r]|h: felblade",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551013,
+					["extraData"] = {
+						68, -- [1]
+						1, -- [2]
+						28, -- [3]
+						["n"] = 3,
+					},
+				}, -- [40]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 45 |4second:seconds;",
+					["timestamp"] = 16312.863,
+				}, -- [41]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 16312.863,
+				}, -- [42]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 16312.863,
+				}, -- [43]
+				{
+					["message"] = "|cFF8040FFGuild Revenue Agent|r version 1.9. Type |cFF8040FF/gra help|r for help.",
+					["timestamp"] = 16312.863,
+				}, -- [44]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 16312.863,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:30:56]|h|r |cff9900ffWeakAuras:|r There are 1 updates to your auras ready to be installed!",
+					["timestamp"] = 16312.863,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:07]|h|r Welcome to |cFF1784d1ElvUI|r version |cFF1784d112.23|r, type |cFF1784d1/ec|r to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org or join our Discord: https://discord.gg/xFWcfgE",
+					["timestamp"] = 16312.863,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:07]|h|r Please use |cFF1784d1/ehelp|r for a list of available |cFF1784d1ElvUI|r commands.",
+					["timestamp"] = 16312.863,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:07]|h|r |cFF33FF99Rematch_TSMPetValues (1.1.20)|r: hooked into Rematch",
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551058,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:07]|h|r |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551058,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:10]|h|r |cffFFFFFFRaiderIO|r is using expired data. Please update now to see the most accurate data: |cffFFFFFFhttps://rio.gg/addon|r",
+					["r"] = 1,
+					["serverTime"] = 1618551061,
+					["timestamp"] = 16312.863,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:14]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.4.0|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551065,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:14]|h|r |cFF00FF00GSE|r |cFF00D1FFGnomeSequencer-Enhanced loaded.|r  Type |cFF00FF00/gs help|r to get started.",
+					["timestamp"] = 16312.863,
+					["serverTime"] = 1618551065,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mcmcmcmcmc-Tichondrius:44:CHANNEL:4|h|cfffefefeMcmcmcmcmc|r|h|cffd8d8d8]|r: any nerds out there answering nerd questions?????",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bungslapper-Tichondrius:45:CHANNEL:2|h|cff00fe97Bungslapper|r|h|cffd8d8d8]|r: depending on the comp sometimes",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ivette-Tichondrius:46:CHANNEL:2|h|cfffef367Ivette|r|h|cffd8d8d8]|r: I hate eye beam builds for pvp",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lelios-Tichondrius:47:CHANNEL:2|h|cffa22fc8Lelios|r|h|cffd8d8d8]|r: |cff71d5ff|Htalent:22416|h[Felblade]|h|r|cff71d5ff|Htalent:22799|h[Demon Blades]|h|r|cff71d5ff|Htalent:21900|h[Demonic]|h|r?",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lelios-Tichondrius:48:CHANNEL:2|h|cffa22fc8Lelios|r|h|cffd8d8d8]|r: or momentum",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bungslapper-Tichondrius:49:CHANNEL:2|h|cff00fe97Bungslapper|r|h|cffd8d8d8]|r: you can make either work, what cov?",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Grezwaztok-Tichondrius:50:CHANNEL:2|h|cff006fdcGrezwaztok|r|h|cffd8d8d8]|r: Selling Mythic+15's carry|cffffff00|Hachievement:14532:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Shadowlands Keystone Master: Season One]|h|ralso do Heroic CN 10/10(AOTC)raid|cffffff00|Hachievement:14355:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Glory of the Nathria Raider]|h|rand|cffffff00|Hachievement:14322:Player-11-0E04EA79:0:0:0:-1:0:0:0:0|h[Glory of the Shadowlands Hero]|h|rmsg me for details !",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Twentysales-Tichondrius:51:CHANNEL:2|h|cfffef367Twentysales|r|h|cffd8d8d8]|r: WTS Mythic+ 10-20 || 15 195k || 14 160k || 12 140k || 10 120k || BUY 2 FREE LOOT FUNNEL || BUY 4 OR MORE SPECIAL PRICE || WTS KSM || WTS CN Raid H/M || WTS Thorgast & TC || WTS Power Leveling 51-60 || Arena Carries [2s/3s/RGB] || Huokan || GOLD ONLY",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:17]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:52:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: i'm stuck on my calculus homework can anoyone help me",
+					["serverTime"] = 1618551068,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:18]|h|r Guild Message of the Day: \"Gold capped at all times! Press j -> Info tab -> Read Guild Information -> Get rdy for BFA!\"",
+					["serverTime"] = 1618551069,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 16364.88,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r AAP Loaded",
+					["timestamp"] = 16364.88,
+					["serverTime"] = 1618551071,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Krembank-Tichondrius:53:CHANNEL:2|h|cffc59a6cKrembank|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:23540::::::::40:72:::::::|h[Felsteel Longblade]|h|r|cffa335ee|Hitem:32854::::::::40:72:::::::|h[Hammer of Righteous Might]|h|r|cffa335ee|Hitem:23541::::::::40:72:::::::|h[Khorium Champion]|h|r pst!",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chemistx-Tichondrius:54:CHANNEL:2|h|cff3ec6eaChemistx|r|h|cffd8d8d8]|r: felblade no other option",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lfh-Tichondrius:55:CHANNEL:2|h|cfffe7b09Lfh|r|h|cffd8d8d8]|r: WTS|cff71d5ff|Hspell:215159:0|h[Long-Forgotten Hippogryph]|h|rGet your mount in 3 minutes",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Milkynubz-Tichondrius:56:CHANNEL:4|h|cfff38bb9Milkynubz|r|h|cffd8d8d8]|r: bout tree fiddy",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dadbar-Tichondrius:57:CHANNEL:2|h|cff006fdcDadbar|r|h|cffd8d8d8]|r: |cffffffff|Hurl:twitch.tv/dyllbarx|h[twitch.tv/dyllbarx]|h|r 8x r1 rsham streaming High rated 3v3s.",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dadbar-Tichondrius:58:CHANNEL:2|h|cff006fdcDadbar|r|h|cffd8d8d8]|r: |cffffffff|Hurl:twitch.tv/dyllbarx|h[twitch.tv/dyllbarx]|h|r 8x r1 rsham streaming High rated 3v3s.",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Inslol-Tichondrius:59:CHANNEL:2|h|cffc59a6cInslol|r|h|cffd8d8d8]|r: WTS LOWEST PRICES! M+ 2~20 (20% off RN!!)Buy 2 and get a FREE FUNNEL || KSM - 30% off (BEST DEAL AROUND)|| Castle Nathria FULL clears || FASTEST LEVELING 51-60 |cffffffff<|r|cff00ff00 Only buy from Huokan GuildBanks - GOLD ONLY |r|cffffffff>|r",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:20]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Icebløck-Tichondrius:60:CHANNEL:4|h|cff3ec6eaIcebløck|r|h|cffd8d8d8]|r: yes",
+					["serverTime"] = 1618551071,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16368.157,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:21]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Tharsham-Tichondrius:61:CHANNEL:4|h|cff006fdcTharsham|r|h|cffd8d8d8]|r: yeah my intel 7260 wont detect wifi networks and its pissing me off",
+					["serverTime"] = 1618551078,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16369.191,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:62:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: what's the derivative of THIS DICK?",
+					["serverTime"] = 1618551092,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16383.44,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:38]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Weedtrim-Tichondrius:63:CHANNEL:4|h|cfffefefeWeedtrim|r|h|cffd8d8d8]|r: how the fuck can i get over the fact that i spent 200 conquest pointlessly",
+					["serverTime"] = 1618551095,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16386.129,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:39]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vassek-Tichondrius:64:CHANNEL:2|h|cfff38bb9Vassek|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Behind The Curve|r|cffffffff>|r 1/10 M Late night guild seeking members to fill our core team! Currently need Heals and rdps to continue our push into Mythic. We raid Tu-Th 1-3am PST. Night owls looking for a late night home and M+ runners welcome!",
+					["serverTime"] = 1618551096,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16387.433,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Weedtrim-Tichondrius:65:CHANNEL:4|h|cfffefefeWeedtrim|r|h|cffd8d8d8]|r: this is unfucking real",
+					["serverTime"] = 1618551098,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16389.204,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:42]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pml-Tichondrius:66:CHANNEL:2|h|cffa22fc8Pml|r|h|cffd8d8d8]|r: anyone wanna deathrol?",
+					["serverTime"] = 1618551099,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16389.471,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:67:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS Mythic + Keys 10 to 15 || ONLY GOLD",
+					["serverTime"] = 1618551111,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16401.618,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:55]|h|r |cff33ff99CanIMogIt|r: Items updated: |cff15abff+0, |cffe69f00-0",
+					["timestamp"] = 16402.721,
+					["serverTime"] = 1618551112,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mortyzanchez-Tichondrius:68:CHANNEL:2|h|cffa9d271Mortyzanchez|r|h|cffd8d8d8]|r: run it",
+					["serverTime"] = 1618551113,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16404.014,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:04]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Twentysales-Tichondrius:69:CHANNEL:2|h|cfffef367Twentysales|r|h|cffd8d8d8]|r: WTS Mythic+ 10-20 || 15 195k || 14 160k || 12 140k || 10 120k || BUY 2 FREE LOOT FUNNEL || BUY 4 OR MORE SPECIAL PRICE || WTS KSM || WTS CN Raid H/M || WTS Thorgast & TC || WTS Power Leveling 51-60 || Arena Carries [2s/3s/RGB] || Huokan || GOLD ONLY",
+					["serverTime"] = 1618551121,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16411.6,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:09]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Milkynubz-Tichondrius:70:CHANNEL:4|h|cfff38bb9Milkynubz|r|h|cffd8d8d8]|r: by the fact that it takes like an hour to get 200 conq",
+					["serverTime"] = 1618551126,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16416.595,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:15]|h|r |Hchannel:channel:4|h[4] |h<Away>|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:71:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: The knowledge that, ultimately, everything in every game in pointless. It is but mere entertainment.",
+					["serverTime"] = 1618551132,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16422.509,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:25]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Babeyhdqw-Tichondrius:72:CHANNEL:2|h|cff006fdcBabeyhdqw|r|h|cffd8d8d8]|r: pvp等级（代上或陪练），大秘境14-20层（限时）（同甲)，团本H保底八件以上或者个人（后二或尾王击杀），M团本(1-9),爬塔，征服和荣誉点数，50-60等级，黑市幻化坐骑，金币3000万库存低价",
+					["serverTime"] = 1618551142,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16432.445,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:27]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:73:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: imagine caring about this game",
+					["serverTime"] = 1618551144,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16434.718,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:27]|h|r You receive item: |cff00ccff|Hitem:168416::::::::45:269:::::::|h[Anglers' Water Striders]|h|r.",
+					["serverTime"] = 1618551144,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						47, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16434.768,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:27]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pyagre-Tichondrius:75:CHANNEL:2|h|cffc59a6cPyagre|r|h|cffd8d8d8]|r: WTS M+ 10-20!  We OFFER || SPECIFIC KEYS || ARMOR STACKS || LOTS OF DEALS || KSM || MULTIPLE RUNS BUNDLES ||  MYTHIC CN || LVL BOOSTS || You can also RENT A TEAM for COACHING and KEYS! GOLD ONLY HUOKAN COMMUNITY Only buy from Huokan GuildBanks",
+					["serverTime"] = 1618551144,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16434.965,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rolanf-Tichondrius:76:CHANNEL:2|h|cffa9d271Rolanf|r|h|cffd8d8d8]|r: WTS fast torghast layers 2-8 &Twisting Corridor1-8. Gold only",
+					["serverTime"] = 1618551154,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16445.132,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Rågnár-Tichondrius:77:CHANNEL:4|h|cffc59a6cRågnár|r|h|cffd8d8d8]|r: imagine not saying imagine and coming up with ur own shit.",
+					["serverTime"] = 1618551158,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16448.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:50]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:78:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: imagine being a bitter nerd",
+					["serverTime"] = 1618551169,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16458.386,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:53]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Milkynubz-Tichondrius:79:CHANNEL:4|h|cfff38bb9Milkynubz|r|h|cffd8d8d8]|r: lol",
+					["serverTime"] = 1618551172,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16461.224,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:56]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Walacha-Tichondrius:80:CHANNEL:2|h|cff006fdcWalacha|r|h|cffd8d8d8]|r: WTS M+ Keys /w me for inf KSM players! :D",
+					["serverTime"] = 1618551175,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16463.695,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:59]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dadbar-Tichondrius:81:CHANNEL:2|h|cff006fdcDadbar|r|h|cffd8d8d8]|r: |cffffffff|Hurl:twitch.tv/dyllbarx|h[twitch.tv/dyllbarx]|h|r 8x r1 rsham streaming High rated 3v3s.",
+					["serverTime"] = 1618551178,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16466.682,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:08]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:82:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS Mythic + Keys 10 to 15 || ONLY GOLD",
+					["serverTime"] = 1618551187,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16476.061,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Banbot-Tichondrius:83:CHANNEL:2|h|cfff38bb9Banbot|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Fatal|r|cffffffff>|r Small, Friendly, PvP ( Arenas / RBGs ), Working towards guild RBGs in future. Anyone is allowed to join. PST for |cffffff00|Hinvplr:Banbot-Tichondrius|h[inv]|h|r.",
+					["serverTime"] = 1618551193,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16481.942,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Banbot-Tichondrius:84:CHANNEL:2|h|cfff38bb9Banbot|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Fatal|r|cffffffff>|r Small, Friendly, PvP ( Arenas / RBGs ), Working towards guild RBGs in future. Anyone is allowed to join. PST for |cffffff00|Hinvplr:Banbot-Tichondrius|h[inv]|h|r.",
+					["serverTime"] = 1618551193,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16481.942,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:15]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:85:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: What, the word \"imagine\" exists, so it's sooo unoriginal to use it?",
+					["serverTime"] = 1618551194,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16483.196,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:20]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mcmcmcmcmc-Tichondrius:86:CHANNEL:4|h|cfffefefeMcmcmcmcmc|r|h|cffd8d8d8]|r: say no to drugs and no sex before marriage",
+					["serverTime"] = 1618551199,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16487.506,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:27]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:87:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: Well, fuck, let's all just stop talking.",
+					["serverTime"] = 1618551206,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16495.358,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:36]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:88:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: Words are so overused and passe.",
+					["serverTime"] = 1618551215,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16504.012,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:37]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Boöb-Tichondrius:89:CHANNEL:2|h|cfffe7b09Boöb|r|h|cffd8d8d8]|r: [WTS] >!KSM DEAL!< || WTS KEYS +15 195k ||+14 160K || +12 140K||+10 120K ||Gearing Bundles: 4 or 8 keys with special discounts ||WTS Leveling 51-60|| WTS RBG 0-1400 2M || WTS CASTLE NATHRIA 10/10 MITHYC OR HC || Only buy from Huokan GBank || Gold Only",
+					["serverTime"] = 1618551216,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16504.447,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Rågnár-Tichondrius:90:CHANNEL:4|h|cffc59a6cRågnár|r|h|cffd8d8d8]|r: exactly.",
+					["serverTime"] = 1618551221,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16509.81,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:46]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thunderlumps-Tichondrius:91:CHANNEL:2|h|cff006fdcThunderlumps|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-98256-11-88052040|h[Guild: Bad Seed]|h|r 8/10M We are recruiting a DK, and a Disc Priest to join our Cutting Edge focused raid team, anyone with great logs can apply Times are Wed/Thurs/Mon 7:30-10:30pm PST",
+					["serverTime"] = 1618551225,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16513.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:57]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:92:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: Imagine if we didn't use words...",
+					["serverTime"] = 1618551236,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16525.148,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:59]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:93:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: imagine varing about words",
+					["serverTime"] = 1618551238,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16526.702,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:59]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Rågnár-Tichondrius:94:CHANNEL:4|h|cffc59a6cRågnár|r|h|cffd8d8d8]|r: why cant ppl just look at each other and know what each other mean.",
+					["serverTime"] = 1618551238,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16527.387,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:00]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:95:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS Mythic + Keys 10 to 15 || ONLY GOLD",
+					["serverTime"] = 1618551239,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16528.356,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:24]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Grezwaztok-Tichondrius:96:CHANNEL:2|h|cff006fdcGrezwaztok|r|h|cffd8d8d8]|r: WTS Mythic+10-15 key for 207-210ilvl tradable loots and 220-226ilvl Great Vault/Guarantee FULL 207ilvl Gear/Heroic Ny'alotha 12/12 PL Guarantee 5-7 loots Guarantee FULL 210ilvl and(AOTC).Pst!",
+					["serverTime"] = 1618551263,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16552.316,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:28]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Tharsham-Tichondrius:97:CHANNEL:4|h|cff006fdcTharsham|r|h|cffd8d8d8]|r: why cant people just jerk each other off and not be gay",
+					["serverTime"] = 1618551267,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16556.174,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:30]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Walacha-Tichondrius:98:CHANNEL:2|h|cff006fdcWalacha|r|h|cffd8d8d8]|r: WTS M+ Keys /w me for inf KSM players! :D",
+					["serverTime"] = 1618551269,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16557.895,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:32]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:99:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: We are not an honest enough species for that. We don't even know what we as individuals want, let alone what we want collectively.",
+					["serverTime"] = 1618551271,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16560.218,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:45]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Atulzakaj-Tichondrius:100:CHANNEL:4|h|cfffef367Atulzakaj|r|h|cffd8d8d8]|r: jesus, mepo go get laid",
+					["serverTime"] = 1618551284,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16573.133,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:47]|h|r Greeb Ramrocket yells: The zeppelin to Warsong Hold has just arrived! All aboard for Borean Tundra!",
+					["serverTime"] = 1618551286,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						63, -- [3]
+						64, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16575.373,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:51]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Abighealtich-Tichondrius:102:CHANNEL:2|h|cffa9d271Abighealtich|r|h|cffd8d8d8]|r: WTS Mythic + Keys 10 to 15 || ONLY GOLD",
+					["serverTime"] = 1618551290,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16578.822,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jibbey-Tichondrius:103:CHANNEL:2|h|cff006fdcJibbey|r|h|cffd8d8d8]|r: |cffffffff|Hurl:www.twitch.tv|h[www.twitch.tv]|h|r/jibbey 2.9k enh multiglad doing viewer/follower 2s doing 4 games per person, come chill and get some honor/conq :)",
+					["serverTime"] = 1618551293,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16581.655,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:54]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sellmythics-Tichondrius:104:CHANNEL:2|h|cffc59a6cSellmythics|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys 0-16 mythic plus (ilvl 184-226 gear) || Torgast layers 1-8 || 10/10 Heroic NC personal loot || Multiple Run Discounts || Groups Ready || GOLD ONLY! || PST!",
+					["serverTime"] = 1618551293,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16581.655,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:34:55]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Tharsham-Tichondrius:105:CHANNEL:4|h|cff006fdcTharsham|r|h|cffd8d8d8]|r: yeah want me to jerk you off",
+					["serverTime"] = 1618551294,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16582.624,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:02]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Icebløck-Tichondrius:106:CHANNEL:4|h|cff3ec6eaIcebløck|r|h|cffd8d8d8]|r: please",
+					["serverTime"] = 1618551301,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16590.042,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:06]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Avou-Tichondrius:107:CHANNEL:2|h|cffc59a6cAvou|r|h|cffd8d8d8]|r: LET ME HAVE A LOOK AT YOU!",
+					["serverTime"] = 1618551305,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16593.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:08]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Barrelmental-Tichondrius:108:CHANNEL:4|h|cff006fdcBarrelmental|r|h|cffd8d8d8]|r: reported",
+					["serverTime"] = 1618551307,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16596.208,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Astrohack-Tichondrius:109:CHANNEL:2|h|cff8687edAstrohack|r|h|cffd8d8d8]|r: ok",
+					["serverTime"] = 1618551310,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16598.697,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:11]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Babeyhdqw-Tichondrius:110:CHANNEL:2|h|cff006fdcBabeyhdqw|r|h|cffd8d8d8]|r: pvp等级（代上或陪练），大秘境14-20层（限时）（同甲)，团本H保底八件以上或者个人（后二或尾王击杀），M团本(1-9),爬塔，征服和荣誉点数，50-60等级，黑市幻化坐骑，金币3000万库存低价",
+					["serverTime"] = 1618551310,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16599.148,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:12]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Mepo-Tichondrius:111:CHANNEL:4|h|cfffefefeMepo|r|h|cffd8d8d8]|r: Because homosexuality is a lie created to oppress human sexuality and the natural diversity of sexual attraction.",
+					["serverTime"] = 1618551311,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						1, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16600.301,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:14]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bikinibandit-Tichondrius:112:CHANNEL:2|h|cff3ec6eaBikinibandit|r|h|cffd8d8d8]|r: no",
+					["serverTime"] = 1618551313,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16602.272,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Krembank-Tichondrius:113:CHANNEL:2|h|cffc59a6cKrembank|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:23540::::::::40:72:::::::|h[Felsteel Longblade]|h|r |cffa335ee|Hitem:32854::::::::40:72:::::::|h[Hammer of Righteous Might]|h|r|cffa335ee|Hitem:23536::::::::40:72:::::::|h[Oathkeeper's Helm]|h|r|cffa335ee|Hitem:18510::::::::40:72:::::::|h[Hide of the Wild]|h|r pst!",
+					["serverTime"] = 1618551314,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16603.108,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:15]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Whiskeydaddy-Tichondrius:114:CHANNEL:2|h|cffc59a6cWhiskeydaddy|r|h|cffd8d8d8]|r: Smellymytics?",
+					["serverTime"] = 1618551314,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16603.375,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:35:16]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Purkes-Tichondrius:115:CHANNEL:2|h|cfffefefePurkes|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Wild Turkey|r|cffffffff>|r 7/10M, 10/10H Raid Times are: Tues/Thurs 7-10pm PST. Alt run Sun 3pm server. Casuals + Key pushers welcome. PST for more info.",
+					["serverTime"] = 1618551315,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						4, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 16604.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

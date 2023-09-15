@@ -1,0 +1,462 @@
+
+glrHistory = {
+	["TransferData"] = {
+	},
+	["MultiGuildStatus"] = {
+		["Bunni-EmeraldDream"] = false,
+		["Luvley-EmeraldDream"] = false,
+		["Brisannie-EmeraldDream"] = false,
+		["Mygallexi-EmeraldDream"] = false,
+	},
+	["GuildStatus"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["CrossFaction"] = {
+		["Bunni-EmeraldDream"] = false,
+		["Luvley-EmeraldDream"] = false,
+		["Brisannie-EmeraldDream"] = false,
+		["Mygallexi-EmeraldDream"] = false,
+	},
+	["Names"] = {
+		"Brisannie-EmeraldDream", -- [1]
+		"Luvley-EmeraldDream", -- [2]
+		"Mygallexi-EmeraldDream", -- [3]
+		"Bunni-EmeraldDream", -- [4]
+	},
+	["Updated"] = 1678579511,
+	["BulkDebug"] = {
+		["Bunni-EmeraldDream"] = {
+		},
+		["Luvley-EmeraldDream"] = {
+		},
+		["Brisannie-EmeraldDream"] = {
+		},
+		["Mygallexi-EmeraldDream"] = {
+		},
+	},
+	["Settings"] = {
+		["Lottery"] = {
+			["Mail"] = {
+				"Lottery", -- [1]
+				"Guild Lottery", -- [2]
+			},
+			["Commands"] = {
+				"lottery", -- [1]
+			},
+		},
+		["LastDebugUpdate"] = {
+			["Bunni-EmeraldDream"] = "03/11/2023 - 17:07.12",
+			["Luvley-EmeraldDream"] = "12/21/2022 - 09:12.39",
+			["Brisannie-EmeraldDream"] = "12/02/2022 - 11:43.27",
+			["Mygallexi-EmeraldDream"] = "03/11/2023 - 14:11.17",
+		},
+		["Raffle"] = {
+			["Mail"] = {
+				"Raffle", -- [1]
+				"Guild Raffle", -- [2]
+			},
+			["Commands"] = {
+				"raffle", -- [1]
+			},
+		},
+	},
+	["PlayerFaction"] = {
+		["Bunni-EmeraldDream"] = "Alliance",
+		["Luvley-EmeraldDream"] = "Alliance",
+		["Brisannie-EmeraldDream"] = "Alliance",
+		["Mygallexi-EmeraldDream"] = "Alliance",
+	},
+	["GuildFaction"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["Debug"] = {
+		["Bunni-EmeraldDream"] = {
+			"03/11/2023 - 17:05.59 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"03/11/2023 - 17:05.59 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"03/11/2023 - 17:05.59 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"03/11/2023 - 17:06.18 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"03/11/2023 - 17:06.18 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"03/11/2023 - 17:06.18 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"03/11/2023 - 17:06.18 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"03/11/2023 - 17:06.18 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"03/11/2023 - 17:06.18 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"03/11/2023 - 17:06.18 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"03/11/2023 - 17:06.48 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"03/11/2023 - 17:06.49 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"03/11/2023 - 17:07.12 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"03/11/2023 - 17:07.12 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+		},
+		["Luvley-EmeraldDream"] = {
+			"12/21/2022 - 09:11.06 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"12/21/2022 - 09:11.06 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"12/21/2022 - 09:11.06 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"12/21/2022 - 09:11.38 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"12/21/2022 - 09:11.38 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"12/21/2022 - 09:11.38 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"12/21/2022 - 09:11.38 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"12/21/2022 - 09:11.38 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"12/21/2022 - 09:11.38 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"12/21/2022 - 09:11.38 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"12/21/2022 - 09:12.07 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"12/21/2022 - 09:12.11 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"12/21/2022 - 09:12.39 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"12/21/2022 - 09:12.39 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+		},
+		["Brisannie-EmeraldDream"] = {
+			"12/02/2022 - 11:40.23 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"12/02/2022 - 11:40.23 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"12/02/2022 - 11:40.23 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"12/02/2022 - 11:40.45 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"12/02/2022 - 11:40.45 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"12/02/2022 - 11:40.45 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"12/02/2022 - 11:40.45 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"12/02/2022 - 11:40.45 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"12/02/2022 - 11:40.45 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"12/02/2022 - 11:40.45 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"12/02/2022 - 11:41.19 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"12/02/2022 - 11:41.24 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"12/02/2022 - 11:43.27 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"12/02/2022 - 11:43.27 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+		},
+		["Mygallexi-EmeraldDream"] = {
+			"03/11/2023 - 14:08.53 - RETAIL - -------------------------------------------------------------------------------------", -- [1]
+			"03/11/2023 - 14:08.53 - RETAIL - OnInitialize() - Beginning Initialization of Version: 3.1.25", -- [2]
+			"03/11/2023 - 14:08.53 - RETAIL - UpdateMinimapIcon() - Initialized Minimap Coords To: (-75, -50)", -- [3]
+			"03/11/2023 - 14:09.49 - RETAIL - PLAYER_LOGIN() - Login Function Complete", -- [4]
+			"03/11/2023 - 14:09.49 - RETAIL - Initialize() - Preforming Initialize Function", -- [5]
+			"03/11/2023 - 14:09.49 - RETAIL - UpdateRosterTable() - Updated glrRoster Table", -- [6]
+			"03/11/2023 - 14:09.49 - RETAIL - UpdateInfo() - Preforming Initial Update of Display Info", -- [7]
+			"03/11/2023 - 14:09.49 - RETAIL - UpdateMultiGuildTable() - Updated glrHistory.GuildRoster Table", -- [8]
+			"03/11/2023 - 14:09.49 - RETAIL - UpdateMultiGuildTable() - Initialized PopulateMultiGuildTable Table", -- [9]
+			"03/11/2023 - 14:09.49 - RETAIL - UpdateInfo() - Initial Update of Display Info Completed", -- [10]
+			"03/11/2023 - 14:10.24 - RETAIL - CheckForNonexistingPlayersBuffer() - Beginning Check for Non-Existing Player Entries.", -- [11]
+			"03/11/2023 - 14:10.30 - RETAIL - Initialization() - Initialization Function Complete. Time To Completion: 11 Seconds.", -- [12]
+			"03/11/2023 - 14:11.17 - RETAIL - PLAYER_LOGOUT() - Preforming Logout Function", -- [13]
+			"03/11/2023 - 14:11.17 - RETAIL - PLAYER_LOGOUT() - Logout Function Complete", -- [14]
+		},
+	},
+	["GuildRoster"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["TransferAvailable"] = {
+		["Lottery"] = {
+			["Bunni-EmeraldDream"] = false,
+			["Luvley-EmeraldDream"] = false,
+			["Brisannie-EmeraldDream"] = false,
+			["Mygallexi-EmeraldDream"] = false,
+		},
+		["Raffle"] = {
+			["Bunni-EmeraldDream"] = false,
+			["Luvley-EmeraldDream"] = false,
+			["Brisannie-EmeraldDream"] = false,
+			["Mygallexi-EmeraldDream"] = false,
+		},
+	},
+	["ActiveEvents"] = {
+		["Bunni-EmeraldDream"] = false,
+		["Luvley-EmeraldDream"] = false,
+		["Brisannie-EmeraldDream"] = false,
+		["Mygallexi-EmeraldDream"] = false,
+	},
+	["LastUpdated"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["GuildRanks"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+		},
+	},
+	["Profile"] = {
+		["Lottery"] = {
+			["Bunni-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["TicketPrice"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["StartingGold"] = "0",
+			},
+			["Luvley-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["TicketPrice"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["StartingGold"] = "0",
+			},
+			["Brisannie-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Mygallexi-EmeraldDream"] = {
+				["GuildCut"] = "0",
+				["Guaranteed"] = false,
+				["StartingGold"] = "0",
+				["MaxTickets"] = "0",
+				["SecondPlace"] = "0",
+				["TicketPrice"] = "0",
+			},
+		},
+		["Messages"] = {
+			["Lottery"] = {
+				["Bunni-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Luvley-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Brisannie-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+				["Mygallexi-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery is scheduled for: %lottery_date", -- [2]
+					"Lottery Event Name: %lottery_name", -- [3]
+					"Tickets are %lottery_price each.", -- [4]
+					"A maximum of %lottery_max tickets can be bought per person.", -- [5]
+					"The Jackpot is currently: %lottery_winamount", -- [6]
+					"Whisper '!lottery' for more details.", -- [7]
+					false, -- [8]
+				},
+			},
+			["Both"] = {
+				["Bunni-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Luvley-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Brisannie-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+				["Mygallexi-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Lottery and Raffle are scheduled for:", -- [2]
+					"Lottery: %lottery_date, Raffle: %raffle_date", -- [3]
+					"Lottery Event Name: %lottery_name, Raffle Event Name: %raffle_name.", -- [4]
+					"Lottery: Tickets are %lottery_price each.", -- [5]
+					"Lottery: A maximum of %lottery_max tickets can be bought per person.", -- [6]
+					"Lottery: The Jackpot is currently %lottery_winamount", -- [7]
+					"Raffle: Tickets are %raffle_price each.", -- [8]
+					"Raffle: A maximum of %raffle_max tickets can be bought per person.", -- [9]
+					"Raffle: %raffle_tickets Raffle Tickets have been bought.", -- [10]
+					"Whisper '!lottery' for more Lottery details. Whisper '!raffle' for more Raffle details.", -- [11]
+					false, -- [12]
+				},
+			},
+			["Raffle"] = {
+				["Bunni-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Luvley-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Brisannie-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+				["Mygallexi-EmeraldDream"] = {
+					"Guild Lottery & Raffles v%version", -- [1]
+					"A Raffle is scheduled for: %raffle_date", -- [2]
+					"Raffle Event Name: %raffle_name", -- [3]
+					"Tickets are %raffle_price each.", -- [4]
+					"A maximum of %raffle_max tickets can be bought per person.", -- [5]
+					"%raffle_tickets Raffle Tickets have been bought.", -- [6]
+					"GLR: Raffle Prize(s): %raffle_prizes", -- [7]
+					"Whisper '!raffle' for more details.", -- [8]
+					false, -- [9]
+				},
+			},
+		},
+		["Raffle"] = {
+			["Bunni-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Luvley-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Brisannie-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+			["Mygallexi-EmeraldDream"] = {
+				["InvalidItems"] = false,
+				["MaxTickets"] = "0",
+				["TicketPrice"] = "0",
+			},
+		},
+	},
+	["CharacterGuilds"] = {
+	},
+	["Version"] = "3.1.25",
+	["Whispers"] = {
+		["Bunni-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Luvley-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Brisannie-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+		["Mygallexi-EmeraldDream"] = {
+			false, -- [1]
+			false, -- [2]
+			{
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [1]
+				"Default messages via Whisper are always sent. Any message typed here is sent after.\n\nSimply press ENTER to perform a line break, starting a new message. Multiple line breaks will not result in blank messages.", -- [2]
+			}, -- [3]
+		},
+	},
+	["PlayerClass"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+			["Bunni-EmeraldDream"] = "DRUID",
+			["Luvley-EmeraldDream"] = "EVOKER",
+			["Brisannie-EmeraldDream"] = "WARRIOR",
+			["Mygallexi-EmeraldDream"] = "HUNTER",
+		},
+	},
+	["DrawState"] = {
+		["Horde"] = {
+		},
+		["Alliance"] = {
+			["Bunni-EmeraldDream"] = false,
+			["Luvley-EmeraldDream"] = false,
+			["Brisannie-EmeraldDream"] = false,
+			["Mygallexi-EmeraldDream"] = false,
+		},
+	},
+	["lang"] = "enUS",
+	["TransferStatus"] = {
+		["Lottery"] = {
+			["Bunni-EmeraldDream"] = false,
+			["Luvley-EmeraldDream"] = false,
+			["Brisannie-EmeraldDream"] = false,
+			["Mygallexi-EmeraldDream"] = false,
+		},
+		["Raffle"] = {
+			["Bunni-EmeraldDream"] = false,
+			["Luvley-EmeraldDream"] = false,
+			["Brisannie-EmeraldDream"] = false,
+			["Mygallexi-EmeraldDream"] = false,
+		},
+	},
+}
+guildData = {
+}

@@ -1,0 +1,96 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Samoanslayer - Emerald Dream",
+		["Threadcraft - Emerald Dream"] = "Threadcraft - Emerald Dream",
+		["Samoanbeast - Emerald Dream"] = "Samoanbeast - Emerald Dream",
+		["Ikkl - Emerald Dream"] = "Ikkl - Emerald Dream",
+		["Samoanranger - Emerald Dream"] = "Samoanranger - Emerald Dream",
+		["Samoanlegend - Emerald Dream"] = "Samoanlegend - Emerald Dream",
+		["Forgecraft - Emerald Dream"] = "Forgecraft - Emerald Dream",
+		["Herbcraft - Emerald Dream"] = "Herbcraft - Emerald Dream",
+		["Samoanrelic - Emerald Dream"] = "Samoanrelic - Emerald Dream",
+		["Gearcraft - Emerald Dream"] = "Gearcraft - Emerald Dream",
+		["Samoansage - Emerald Dream"] = "Samoansage - Emerald Dream",
+		["Farmcraft - Emerald Dream"] = "Farmcraft - Emerald Dream",
+		["Mf - Emerald Dream"] = "Mf - Emerald Dream",
+		["Samoanmystic - Emerald Dream"] = "Samoanmystic - Emerald Dream",
+		["Dustcraft - Emerald Dream"] = "Dustcraft - Emerald Dream",
+		["Samoanruin - Emerald Dream"] = "Samoanruin - Emerald Dream",
+		["Xb - Emerald Dream"] = "Xb - Emerald Dream",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Spells"] = {
+				[375266] = 189138,
+				[375473] = 189655,
+				[229093] = 115138,
+				[229095] = 115140,
+				[393330] = 198316,
+				[229099] = 115144,
+				[388268] = 196409,
+				[229097] = 115142,
+				[374998] = 189108,
+				[388085] = 196304,
+				[229094] = 115139,
+				[389503] = 189159,
+				[229096] = 115141,
+				[229100] = 115145,
+				[389378] = 189130,
+			},
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Samoanslayer"] = {
+				["lastUpdate"] = 1674278185,
+			},
+			["Default.Emerald Dream.Dustcraft"] = {
+				["lastUpdate"] = 1673751152,
+			},
+			["Default.Emerald Dream.Samoanruin"] = {
+				["lastUpdate"] = 1674537645,
+			},
+			["Default.Emerald Dream.Ikkl"] = {
+				["lastUpdate"] = 1674288466,
+			},
+			["Default.Emerald Dream.Threadcraft"] = {
+				["lastUpdate"] = 1676370037,
+			},
+			["Default.Emerald Dream.Samoanbeast"] = {
+				["lastUpdate"] = 1673506538,
+			},
+			["Default.Emerald Dream.Samoanmystic"] = {
+				["lastUpdate"] = 1674286821,
+			},
+			["Default.Emerald Dream.Mf"] = {
+				["lastUpdate"] = 1672689252,
+			},
+			["Default.Emerald Dream.Samoansage"] = {
+				["lastUpdate"] = 1676505299,
+			},
+			["Default.Emerald Dream.Forgecraft"] = {
+				["lastUpdate"] = 1676506587,
+			},
+			["Default.Emerald Dream.Farmcraft"] = {
+				["lastUpdate"] = 1672689058,
+			},
+			["Default.Emerald Dream.Herbcraft"] = {
+				["lastUpdate"] = 1676372230,
+			},
+			["Default.Emerald Dream.Gearcraft"] = {
+				["lastUpdate"] = 1673260119,
+			},
+			["Default.Emerald Dream.Samoanrelic"] = {
+				["lastUpdate"] = 1673750692,
+			},
+			["Default.Emerald Dream.Xb"] = {
+				["lastUpdate"] = 1674270114,
+			},
+			["Default.Emerald Dream.Samoanranger"] = {
+				["lastUpdate"] = 1675397932,
+			},
+			["Default.Emerald Dream.Samoanlegend"] = {
+				["lastUpdate"] = 1673502362,
+			},
+		},
+	},
+}

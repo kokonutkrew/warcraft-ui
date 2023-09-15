@@ -1,0 +1,16 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

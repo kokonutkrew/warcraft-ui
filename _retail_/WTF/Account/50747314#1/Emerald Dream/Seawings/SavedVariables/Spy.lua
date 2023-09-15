@@ -1,0 +1,60 @@
+
+SpyPerCharDB = {
+	["KOSData"] = {
+		["shamzakel"] = 1618290221,
+		["shinscraper"] = 1618290259,
+		["xuper"] = 1618290234,
+		["boomsquanch"] = 1618293668,
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["boomsquanch"] = {
+			["name"] = "boomsquanch",
+			["zone"] = "Eastern Kingdoms",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618293668,
+			["isEnemy"] = true,
+		},
+		["shinscraper"] = {
+			["name"] = "shinscraper",
+			["zone"] = "Eastern Kingdoms",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290259,
+			["isEnemy"] = true,
+		},
+		["xuper"] = {
+			["name"] = "xuper",
+			["zone"] = "Eastern Kingdoms",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290234,
+			["isEnemy"] = true,
+		},
+		["Kestrelzsa"] = {
+			["mapID"] = 15,
+			["zone"] = "Badlands",
+			["mapY"] = 0.42,
+			["class"] = "EVOKER",
+			["isEnemy"] = true,
+			["race"] = "Dracthyr",
+			["name"] = "Kestrelzsa",
+			["subZone"] = "The Dustbowl",
+			["mapX"] = 0.31,
+			["level"] = 60,
+			["isGuess"] = false,
+			["time"] = 1668987111,
+		},
+		["shamzakel"] = {
+			["name"] = "shamzakel",
+			["zone"] = "Eastern Kingdoms",
+			["kos"] = 1,
+			["subZone"] = "",
+			["time"] = 1618290221,
+			["isEnemy"] = true,
+		},
+	},
+	["version"] = "1.1",
+}

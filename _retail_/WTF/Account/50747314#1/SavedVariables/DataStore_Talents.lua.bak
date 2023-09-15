@@ -1,0 +1,115 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Antoruskk - Emerald Dream"] = "Antoruskk - Emerald Dream",
+		["Seawings - Emerald Dream"] = "Seawings - Emerald Dream",
+		["Plvl - Emerald Dream"] = "Plvl - Emerald Dream",
+		["Anightholdkk - Emerald Dream"] = "Anightholdkk - Emerald Dream",
+		["Kyliegurl - Emerald Dream"] = "Kyliegurl - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Antoruskk"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673405009,
+				["Specializations"] = {
+					[5] = 0,
+				},
+				["activeSpecIndex"] = 5,
+				["activeSpecName"] = "",
+				["Class"] = "WARRIOR",
+			},
+			["Default.Emerald Dream.Anightholdkk"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1673256184,
+				["Specializations"] = {
+					[5] = 0,
+				},
+				["activeSpecIndex"] = 5,
+				["activeSpecName"] = "",
+				["Class"] = "WARLOCK",
+			},
+			["Default.Emerald Dream.Kyliegurl"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1674538834,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["activeSpecIndex"] = 3,
+				["activeSpecName"] = "Shadow",
+				["Class"] = "PRIEST",
+			},
+			["Default.Emerald Dream.Seawings"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1674641323,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Devastation",
+				["Class"] = "EVOKER",
+			},
+			["Default.Emerald Dream.Plvl"] = {
+				["activeSpecRole"] = "TANK",
+				["lastUpdate"] = 1674305328,
+				["Specializations"] = {
+					0, -- [1]
+					0, -- [2]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Brewmaster",
+				["Class"] = "MONK",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Antoruskk - Emerald Dream"] = "Antoruskk - Emerald Dream",
+		["Seawings - Emerald Dream"] = "Seawings - Emerald Dream",
+		["Plvl - Emerald Dream"] = "Plvl - Emerald Dream",
+		["Anightholdkk - Emerald Dream"] = "Anightholdkk - Emerald Dream",
+		["Kyliegurl - Emerald Dream"] = "Kyliegurl - Emerald Dream",
+	},
+	["global"] = {
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Version"] = 47213,
+		},
+		["WARLOCK"] = {
+			["Locale"] = "enUS",
+			["Version"] = 47213,
+		},
+		["MONK"] = {
+			["Locale"] = "enUS",
+			["Version"] = 47631,
+		},
+		["EVOKER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 1467,
+				}, -- [1]
+				{
+					["id"] = 1468,
+				}, -- [2]
+			},
+			["Version"] = 47799,
+		},
+		["PRIEST"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 256,
+				}, -- [1]
+				{
+					["id"] = 257,
+				}, -- [2]
+				{
+					["id"] = 258,
+				}, -- [3]
+			},
+			["Version"] = 47631,
+		},
+	},
+}

@@ -1,0 +1,81 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["numFreeBagSlots"] = 98,
+				["lastUpdate"] = 1678586281,
+				["numBagSlots"] = 112,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:188213::::::::60:1467:::::::::|h[]|h|r",
+						["icon"] = 133642,
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							188815, -- [2]
+							188816, -- [3]
+							188820, -- [4]
+							188822, -- [5]
+							192615, -- [6]
+							188812, -- [7]
+							188821, -- [8]
+							188824, -- [9]
+							188823, -- [10]
+							188817, -- [11]
+							188819, -- [12]
+							188814, -- [13]
+							188813, -- [14]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::60:1467::75:::::::|h[Hearthstone]|h|r", -- [1]
+							"|cff1eff00|Hitem:188815::::::::60:1467::75:::::::|h[Emerald Winglord's Cloak]|h|r", -- [2]
+							"|cff1eff00|Hitem:188816::::::::60:1467::75:::::::|h[Emerald Winglord's Insignia]|h|r", -- [3]
+							"|cff1eff00|Hitem:188820::::::::60:1467::75:::::::|h[Emerald Winglord's Coif]|h|r", -- [4]
+							"|cff1eff00|Hitem:188822::::::::60:1467::75:::::::|h[Emerald Winglord's Hauberk]|h|r", -- [5]
+							"|cffffffff|Hitem:192615::::::::60:1467:::::::::|h[Fluorescent Fluid]|h|r", -- [6]
+							"|cff1eff00|Hitem:188812::::::::60:1467::75:::::::|h[Emerald Winglord's Ring]|h|r", -- [7]
+							"|cff1eff00|Hitem:188821::::::::60:1467::75:::::::|h[Emerald Winglord's Grips]|h|r", -- [8]
+							"|cff1eff00|Hitem:188824::::::::60:1467::75:::::::|h[Emerald Winglord's Boots]|h|r", -- [9]
+							"|cff1eff00|Hitem:188823::::::::60:1467::75:::::::|h[Emerald Winglord's Bracers]|h|r", -- [10]
+							"|cff1eff00|Hitem:188817::::::::60:1467::75:::::::|h[Claw-Carved Figurine]|h|r", -- [11]
+							"|cff1eff00|Hitem:188819::::::::60:1467::75:::::::|h[Emerald Winglord's Greaves]|h|r", -- [12]
+							"|cff1eff00|Hitem:188814::::::::60:1467::75:::::::|h[Emerald Winglord's Amulet]|h|r", -- [13]
+							"|cff1eff00|Hitem:188813::::::::60:1467::75:::::::|h[Emerald Winglord's Loop]|h|r", -- [14]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[6] = 18,
+						},
+						["freeslots"] = 2,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:188213::::::::60:1467:::::::::|h[]|h|r",
+						["icon"] = 133642,
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:188213::::::::60:1467:::::::::|h[]|h|r",
+						["icon"] = 133642,
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:188213::::::::60:1467:::::::::|h[]|h|r",
+						["icon"] = 133642,
+						["size"] = 24,
+						["freeslots"] = 24,
+					},
+				},
+			},
+		},
+	},
+}

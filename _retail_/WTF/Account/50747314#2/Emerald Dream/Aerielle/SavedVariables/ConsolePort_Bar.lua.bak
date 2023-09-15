@@ -1,0 +1,121 @@
+
+ConsolePort_BarSetup = {
+	["scale"] = 0.9,
+	["layout"] = {
+		["PADDUP"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				240, -- [2]
+				100, -- [3]
+			},
+			["dir"] = "up",
+		},
+		["PAD1"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-240, -- [2]
+				16, -- [3]
+			},
+			["dir"] = "down",
+		},
+		["PAD4"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-240, -- [2]
+				100, -- [3]
+			},
+			["dir"] = "up",
+		},
+		["PADLTRIGGER"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				456, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "right",
+		},
+		["PADDDOWN"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				240, -- [2]
+				16, -- [3]
+			},
+			["dir"] = "down",
+		},
+		["PAD2"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-176, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "right",
+		},
+		["PADRSHOULDER"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-396, -- [2]
+				16, -- [3]
+			},
+			["dir"] = "down",
+		},
+		["PADLSHOULDER"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				396, -- [2]
+				16, -- [3]
+			},
+			["dir"] = "down",
+		},
+		["PADDRIGHT"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				306, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "right",
+		},
+		["PADDLEFT"] = {
+			["size"] = 64,
+			["point"] = {
+				"LEFT", -- [1]
+				176, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "left",
+		},
+		["PAD3"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-306, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "left",
+		},
+		["PADRTRIGGER"] = {
+			["size"] = 64,
+			["point"] = {
+				"RIGHT", -- [1]
+				-456, -- [2]
+				56, -- [3]
+			},
+			["dir"] = "left",
+		},
+	},
+	["watchbars"] = true,
+	["width"] = 1100,
+	["showline"] = true,
+	["lock"] = false,
+	["eye"] = true,
+	["showbuttons"] = true,
+	["flashart"] = true,
+}

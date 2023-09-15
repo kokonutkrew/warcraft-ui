@@ -1,0 +1,20 @@
+
+GuildBankSnapshotsDB = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["settings"] = {
+			["preferences"] = {
+				["dateFormat"] = "%x (%X)",
+			},
+			["scans"] = {
+				["autoScan"] = {
+					["enabled"] = false,
+				},
+			},
+		},
+		["version"] = 6,
+	},
+}

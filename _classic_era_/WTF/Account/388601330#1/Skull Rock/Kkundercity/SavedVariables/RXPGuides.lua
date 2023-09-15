@@ -1,0 +1,190 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[3] = {
+		},
+		[2] = {
+		},
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 3,
+	["questObjectivesCache"] = {
+		[380] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 6,
+				["text"] = "Young Night Web Spider slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Night Web Spider slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[381] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 12,
+				["text"] = "Scarlet Armband: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[3902] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenged Goods: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6395] = {
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Samuel's Remains Buried: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[3901] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Rattlecage Skeleton slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[376] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Scavenger Paw: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Duskbat Wing: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[1470] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Rattlecage Skull: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[0] = 9,
+		[364] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Mindless Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Wretched Zombie slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[382] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Scarlet Crusade Documents: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+	},
+	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[3901] = "Rattling the Rattlecages",
+		[381] = "The Scarlet Crusade",
+		[3902] = "Scavenging Deathknell",
+		[6395] = "Marla's Last Wish",
+		[380] = "Night Web's Hollow",
+		[376] = "The Damned",
+		[1470] = "Piercing the Veil",
+		[363] = "Rude Awakening",
+		[364] = "The Mindless Ones",
+		[382] = "The Red Messenger",
+	},
+	["currentGuideName"] = "01-06 Undead",
+	["stepSkip"] = {
+	},
+	["currentStepId"] = 2796295369,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkundercity - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 36,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 7,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Tirisfal Glades"] = {
+							[8] = 110,
+						},
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkundercity - Skull Rock"] = {
+			["players"] = {
+				["Kkleather"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 117157.91,
+					["xpPercentage"] = 36,
+					["level"] = 10,
+					["timePlayed"] = 0,
+					["class"] = "WARLOCK",
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

@@ -1,0 +1,69 @@
+
+OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.1",
+	},
+	["profileKeys"] = {
+		["Samoanlegend - Grobbulus"] = "Default",
+		["Samoanslayer - Grobbulus"] = "Default",
+		["Samoanbeast - Grobbulus"] = "Default",
+		["Ss - Grobbulus"] = "Default",
+		["Samoanranger - Whitemane"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+		["Samoanraja - Grobbulus"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
+		["Kk - Grobbulus"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
+		["Samoansage - Grobbulus"] = "Default",
+		["Cupcakeheals - Skull Rock"] = "Default",
+		["Samoanslayed - Whitemane"] = "Default",
+		["Samoanrelic - Grobbulus"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["rules"] = {
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 1,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [1]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

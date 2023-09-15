@@ -1,0 +1,18 @@
+
+NanoLootDB = {
+	["UseClassColour"] = true,
+	["UseCustomFont"] = false,
+	["PanelPoint"] = "TOPLEFT",
+	["TitleBarBackground"] = {
+		0.7764706611633301, -- [1]
+		0.6078431606292725, -- [2]
+		0.4274510145187378, -- [3]
+	},
+	["PanelPositionY"] = 0,
+	["PanelRelativePoint"] = "TOPLEFT",
+	["FontSize"] = 12,
+	["HideWhenEmpty"] = true,
+	["PanelPositionX"] = 336.9999084472656,
+	["LootList"] = {
+	},
+}

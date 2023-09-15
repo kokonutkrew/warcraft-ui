@@ -1,0 +1,6 @@
+
+VGT_DUNGEON_DB = {
+	["Wealth"] = {
+	},
+}
+VGT_DB_TIMESTAMP = 1603295115

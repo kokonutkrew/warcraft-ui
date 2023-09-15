@@ -1,0 +1,947 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[107] = {
+		},
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 107,
+	["questObjectivesCache"] = {
+		[0] = 24,
+		[818] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 4,
+				["text"] = "Intact Makrura Eye: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Crawler Mucus: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[834] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 5,
+				["text"] = "Sack of Supplies: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[804] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[789] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Scorpid Worker Tail: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[790] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Sarkoth's Mangled Claw: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[806] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Fizzle's Claw: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[791] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Canvas Scraps: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4402] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Cactus Apple: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[808] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Minshina's Skull: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[6394] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Thazz'ril's Pick: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[5441] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 5,
+				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[826] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Hexed Troll slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Voodoo Troll slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Zalazane's Head: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[827] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Searing Collar: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[837] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 4,
+				["text"] = "Razormane Quilboar slain: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 4,
+				["text"] = "Razormane Scout slain: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "monster",
+				["numRequired"] = 4,
+				["text"] = "Razormane Dustrunner slain: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+			{
+				["type"] = "monster",
+				["numRequired"] = 4,
+				["text"] = "Razormane Battleguard slain: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [4]
+		},
+		[817] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 4,
+				["text"] = "Durotar Tiger Fur: 0/4",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[825] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Gnomish Tools: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[784] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Kul Tiras Sailor slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Kul Tiras Marine slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "monster",
+				["numRequired"] = 1,
+				["text"] = "Lieutenant Benedict slain: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[815] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 3,
+				["text"] = "Taillasher Egg: 0/3",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[792] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Vile Familiar slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[794] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Burning Blade Medallion: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[4641] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["generated"] = true,
+				["text"] = "Objective Complete",
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[786] = {
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Attack Plan: Valley of Trials destroyed: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Attack Plan: Sen'jin Village destroyed: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+			{
+				["type"] = "object",
+				["numRequired"] = 1,
+				["text"] = "Attack Plan: Orgrimmar destroyed: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [3]
+		},
+		[835] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 12,
+				["text"] = "Dustwind Savage slain: 0/12",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "monster",
+				["numRequired"] = 8,
+				["text"] = "Dustwind Storm Witch slain: 0/8",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+	},
+	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[788] = "Cutting Teeth",
+		[790] = "Sarkoth",
+		[792] = "Vile Familiars",
+		[6394] = "Thazz'ril's Pick",
+		[4402] = "Galgar's Cactus Apple Surprise",
+		[789] = "Sting of the Scorpid",
+		[5441] = "Lazy Peons",
+		[794] = "Burning Blade Medallion",
+		[835] = "Securing the Lines",
+		[784] = "Vanquish the Betrayers",
+		[786] = "Thwarting Kolkar Aggression",
+		[818] = "A Solvent Spirit",
+	},
+	["currentGuideName"] = "06-13 Orc/Troll",
+	["stepSkip"] = {
+		[106] = true,
+		[31] = true,
+		[3] = true,
+		[76] = true,
+		[92] = true,
+		[7] = true,
+		[8] = true,
+		[47] = true,
+		[55] = true,
+		[94] = true,
+		[56] = true,
+		[64] = true,
+		[80] = true,
+		[49] = true,
+		[21] = true,
+		[25] = true,
+		[67] = true,
+		[42] = true,
+		[50] = true,
+		[69] = true,
+		[11] = true,
+		[51] = true,
+		[59] = true,
+		[15] = true,
+		[23] = true,
+		[88] = true,
+		[98] = true,
+		[34] = true,
+		[105] = true,
+		[35] = true,
+		[53] = true,
+		[61] = true,
+		[24] = true,
+		[90] = true,
+		[6] = true,
+	},
+	["currentStepId"] = 4201455260,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanslayer - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 408,
+							["count"] = 8,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 6,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["finished"] = 370,
+						["dateFinished"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 12,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4641] = 40,
+						},
+					},
+				}, -- [1]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 159,
+							["count"] = 3,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 12,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["finished"] = 563,
+						["dateFinished"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 16,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["started"] = 371,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[790] = 450,
+							[788] = 170,
+						},
+					},
+				}, -- [2]
+				{
+					["groupExperience"] = 1221,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 1341,
+							["count"] = 22,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 16,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["finished"] = 1466,
+						["dateFinished"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 31,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["started"] = 564,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[804] = 110,
+							[2383] = 40,
+						},
+					},
+				}, -- [3]
+				{
+					["groupExperience"] = 1738,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 403,
+							["count"] = 8,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["minute"] = 31,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 2,
+						},
+						["finished"] = 2685,
+						["dateFinished"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 22,
+							["minute"] = 8,
+						},
+						["started"] = 1467,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[4402] = 380,
+							[5441] = 450,
+							[789] = 250,
+							[792] = 450,
+						},
+					},
+				}, -- [4]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 1049,
+							["count"] = 12,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 28,
+							["day"] = 0,
+							["month"] = 8,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 22,
+							["minute"] = 8,
+						},
+						["finished"] = 4088,
+						["dateFinished"] = {
+							["monthDay"] = 30,
+							["day"] = 0,
+							["month"] = 8,
+							["weekday"] = 4,
+							["year"] = 2023,
+							["hour"] = 16,
+							["minute"] = 5,
+						},
+						["started"] = 2686,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[2161] = 110,
+							[805] = 230,
+							[823] = 320,
+							[6394] = 450,
+							[794] = 675,
+						},
+					},
+				}, -- [5]
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 3306,
+							["count"] = 46,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 30,
+							["day"] = 0,
+							["month"] = 8,
+							["weekday"] = 4,
+							["year"] = 2023,
+							["hour"] = 16,
+							["minute"] = 5,
+						},
+						["finished"] = 8254,
+						["dateFinished"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 16,
+							["year"] = 2023,
+							["hour"] = 0,
+							["weekday"] = 7,
+						},
+						["started"] = 4089,
+					},
+					["quests"] = {
+					},
+				}, -- [6]
+				{
+					["groupExperience"] = 470,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 4062,
+							["count"] = 54,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 16,
+							["year"] = 2023,
+							["hour"] = 0,
+							["weekday"] = 7,
+						},
+						["finished"] = 10396,
+						["dateFinished"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 7,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 18,
+						},
+						["started"] = 8255,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[791] = 625,
+						},
+					},
+				}, -- [7]
+				{
+					["groupExperience"] = 2507,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 4070,
+							["count"] = 98,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 7,
+							["year"] = 2023,
+							["hour"] = 19,
+							["minute"] = 18,
+						},
+						["finished"] = 14668,
+						["dateFinished"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 36,
+							["year"] = 2023,
+							["hour"] = 10,
+							["weekday"] = 1,
+						},
+						["started"] = 10397,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[784] = 625,
+							[830] = 625,
+						},
+					},
+				}, -- [8]
+				{
+					["groupExperience"] = 5917,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 2967,
+							["count"] = 84,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 36,
+							["year"] = 2023,
+							["hour"] = 10,
+							["weekday"] = 1,
+						},
+						["finished"] = 17784,
+						["dateFinished"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 28,
+							["year"] = 2023,
+							["hour"] = 11,
+							["weekday"] = 1,
+						},
+						["started"] = 14669,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[818] = 625,
+							[808] = 775,
+							[817] = 700,
+							[826] = 850,
+						},
+					},
+				}, -- [9]
+				{
+					["groupExperience"] = 7540,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 2451,
+							["count"] = 60,
+						},
+						["The Barrens"] = {
+							["xp"] = 144,
+							["count"] = 3,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 3,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 28,
+							["year"] = 2023,
+							["hour"] = 11,
+							["weekday"] = 1,
+						},
+						["finished"] = 23873,
+						["dateFinished"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 8,
+							["minute"] = 26,
+						},
+						["started"] = 17785,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[786] = 700,
+							[837] = 625,
+							[825] = 700,
+							[834] = 775,
+							[815] = 700,
+						},
+						["The Barrens"] = {
+							[842] = 900,
+							[1505] = 85,
+							[840] = 460,
+						},
+					},
+				}, -- [10]
+				{
+					["groupExperience"] = 7865,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 5390,
+							["count"] = 126,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["weekday"] = 2,
+							["year"] = 2023,
+							["hour"] = 8,
+							["minute"] = 26,
+						},
+						["finished"] = 32036,
+						["dateFinished"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 56,
+							["year"] = 2023,
+							["hour"] = 11,
+							["weekday"] = 2,
+						},
+						["started"] = 23874,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[816] = 875,
+							[812] = 975,
+						},
+						["Orgrimmar"] = {
+							[831] = 625,
+						},
+					},
+				}, -- [11]
+				{
+					["groupExperience"] = 3805,
+					["deaths"] = 0,
+					["mobs"] = {
+						["Durotar"] = {
+							["xp"] = 1039,
+							["count"] = 28,
+						},
+						["The Barrens"] = {
+							["xp"] = 156,
+							["count"] = 3,
+						},
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 4,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 56,
+							["year"] = 2023,
+							["hour"] = 11,
+							["weekday"] = 2,
+						},
+						["started"] = 32037,
+					},
+					["quests"] = {
+						["Durotar"] = {
+							[835] = 875,
+							[806] = 900,
+						},
+						["The Barrens"] = {
+							[1498] = 625,
+							[1502] = 210,
+						},
+					},
+				}, -- [12]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Samoanslayer - Skull Rock"] = "Samoanslayer - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanslayer - Skull Rock"] = {
+			["announcements"] = {
+				["06-13 Orc/Troll"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+				["01-06 Orc/Troll"] = {
+					["collect"] = {
+					},
+					["complete"] = {
+					},
+				},
+			},
+			["players"] = {
+				["Samoanbank"] = {
+					["timePlayed"] = 1106.442999999999,
+					["class"] = "WARRIOR",
+					["xp"] = 66,
+				},
+				["Failgasm"] = {
+					["timePlayed"] = 997.6300000000001,
+					["isRxp"] = true,
+					["lastSeen"] = 5993.921,
+					["xpPercentage"] = 21,
+					["class"] = "HUNTER",
+					["xp"] = 63,
+					["level"] = 11,
+				},
+				["Samoanranger"] = {
+					["timePlayed"] = 3306.047000000003,
+					["class"] = "HUNTER",
+					["xp"] = 88,
+				},
+				["Popkkorn"] = {
+					["level"] = 3,
+					["lastSeen"] = 139349.565,
+					["xpPercentage"] = 96,
+					["class"] = "HUNTER",
+					["timePlayed"] = 1347.777000000002,
+					["isRxp"] = true,
+				},
+				["Vnn"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 184429.224,
+					["xpPercentage"] = 71,
+					["level"] = 3,
+					["timePlayed"] = 2240.970000000001,
+					["class"] = "WARLOCK",
+				},
+				["Fangz"] = {
+					["level"] = 11,
+					["lastSeen"] = 19125.99,
+					["xpPercentage"] = 48,
+					["class"] = "HUNTER",
+					["timePlayed"] = 13734.18399999999,
+					["isRxp"] = true,
+				},
+				["Xdynamo"] = {
+					["timePlayed"] = 162.0080000000016,
+					["class"] = "SHAMAN",
+					["xp"] = 70,
+				},
+				["Wormeatan"] = {
+					["timePlayed"] = 175.0920000000042,
+					["isRxp"] = true,
+					["lastSeen"] = 139349.332,
+					["xpPercentage"] = 79,
+					["class"] = "ROGUE",
+					["xp"] = 23,
+					["level"] = 8,
+				},
+				["Kzetroll"] = {
+					["timePlayed"] = 212.0880000000179,
+					["class"] = "HUNTER",
+					["xp"] = 35,
+				},
+				["Cupcakess"] = {
+					["level"] = 8,
+					["lastSeen"] = 7626.655,
+					["xpPercentage"] = 30,
+					["class"] = "HUNTER",
+					["timePlayed"] = 7196.681999999979,
+					["isRxp"] = true,
+				},
+				["Qfweqgweqgew"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 19125.739,
+					["xpPercentage"] = 65,
+					["level"] = 5,
+					["timePlayed"] = 7515.439000000002,
+					["class"] = "WARRIOR",
+				},
+			},
+		},
+	},
+}
+RXPCSettings = nil

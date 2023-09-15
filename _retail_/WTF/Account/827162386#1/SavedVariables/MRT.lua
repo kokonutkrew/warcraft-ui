@@ -1,0 +1,407 @@
+
+VMRT = {
+	["BattleRes"] = {
+		["Strata"] = "HIGH",
+	},
+	["ProfileKeys"] = {
+		["Moostasche-EmeraldDream"] = "default",
+		["Saifuu-EmeraldDream"] = "default",
+		["Waekk-EmeraldDream"] = "default",
+	},
+	["Encounter"] = {
+		["names"] = {
+			[2095] = "Ring of Booty",
+			[2094] = "Council o' Captains",
+			[2093] = "Skycap'n Kragg",
+			[2096] = "Lord Harlan Sweete",
+		},
+		["list"] = {
+			["Moostasche"] = {
+			},
+			["Saifuu"] = {
+				"^2093^1^1653694052^33^1^5^11.41^", -- [1]
+				"^2096^1^1653694306^40^1^5^11.41^", -- [2]
+				"^2093^1^1653694868^81^1^5^13.01^", -- [3]
+				"^2094^1^1653695308^108^1^5^13.20^", -- [4]
+				"^2095^1^1653695743^59^1^5^13.38^", -- [5]
+				"^2096^1^1653695964^76^1^5^13.56^", -- [6]
+			},
+			["Waekk"] = {
+				"^2093^1^1653692499^43^1^5^11.22^", -- [1]
+				"^2094^1^1653692656^7^0^5^11.40^Waekk", -- [2]
+				"^2093^1^1653693404^37^1^5^15.74^", -- [3]
+			},
+		},
+	},
+	["Marks"] = {
+		["list"] = {
+		},
+	},
+	["ExCD2"] = {
+		["upd4525"] = true,
+		["gnGUIDs"] = {
+			["Lambulance-Ner'zhul"] = 105,
+			["Saifuu"] = 268,
+			["Samoantitan"] = 66,
+			["Hornidk-Saurfang"] = 250,
+			["Ixoram-Stormrage"] = 70,
+			["Myrtanie-Dalaran"] = 104,
+			["Survive-Icecrown"] = 255,
+			["Amynlais-WyrmrestAccord"] = 62,
+			["Lixo-Proudmoore"] = 105,
+			["Exuldor-Kel'Thuzad"] = 70,
+			["Osíris-Azshara"] = 264,
+			["Kkmystic"] = 62,
+			["Hismanë-ArgentDawn"] = 104,
+			["Rmo-Proudmoore"] = 252,
+			["Baumessillan-Proudmoore"] = 102,
+			["Hannahbakër-MoonGuard"] = 258,
+			["Hermanë-ArgentDawn"] = 104,
+			["Hickupbr-Azralon"] = 269,
+			["Zeäke-Kel'Thuzad"] = 270,
+			["Mirroria-Azshara"] = 102,
+			["Keelhauler-Zul'jin"] = 261,
+		},
+		["NoRaid"] = true,
+		["CDECol"] = {
+		},
+		["upd4380"] = true,
+		["Save"] = {
+		},
+		["Profiles"] = {
+			["Now"] = "default",
+			["List"] = {
+			},
+		},
+		["userDB"] = {
+		},
+		["colSet"] = {
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [1]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [2]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [3]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [4]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [5]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [6]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [7]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [8]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [9]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [10]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["textureGeneral"] = true,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["fontShadow"] = false,
+			}, -- [11]
+		},
+		["Priority"] = {
+		},
+		["CDE"] = {
+		},
+		["OptFav"] = {
+		},
+	},
+	["Attendance"] = {
+		["data"] = {
+		},
+		["alts"] = {
+		},
+	},
+	["Inspect"] = {
+		["Soulbinds"] = {
+		},
+	},
+	["InspectViewer"] = {
+		["ColorizeLowIlvl685"] = false,
+		["ColorizeNoEnch"] = true,
+		["ColorizeNoGems"] = true,
+		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
+		["ColorizeNoValorUpgrade"] = false,
+	},
+	["Note"] = {
+		["BlackNames"] = {
+		},
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+		},
+		["BlackLastUpdateName"] = {
+		},
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Strata"] = "HIGH",
+		["OnlyPromoted"] = true,
+		["BlackLastUpdateTime"] = {
+		},
+		["OptionsFormatting"] = true,
+	},
+	["Timers"] = {
+		["specTimes"] = {
+			[62] = 10,
+			[63] = 10,
+			[250] = 10,
+			[251] = 10,
+			[64] = 10,
+			[253] = 10,
+			[65] = 10,
+			[255] = 10,
+			[66] = 10,
+			[257] = 10,
+			[258] = 10,
+			[259] = 10,
+			[260] = 10,
+			[261] = 25,
+			[262] = 16,
+			[263] = 10,
+			[264] = 10,
+			[265] = 22,
+			[266] = 10,
+			[267] = 10,
+			[268] = 10,
+			[269] = 10,
+			[270] = 10,
+			[70] = 10,
+			[102] = 10,
+			[71] = 10,
+			[103] = 10,
+			[72] = 10,
+			[104] = 10,
+			[73] = 10,
+			[252] = 10,
+			[105] = 10,
+			[254] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
+		},
+		["Type"] = 2,
+		["timeToKillAnalyze"] = 15,
+		["Strata"] = "HIGH",
+	},
+	["WhoPulled"] = {
+	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["Version"] = 4630,
+		["PreVersion"] = 4630,
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["WeaponEnch"] = {
+		},
+		["ReadyCheckFrameOnlyRL"] = true,
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
+	["Profiles"] = {
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["KeepPosInGroup"] = true,
+		["upd4550"] = true,
+		["profiles"] = {
+		},
+	},
+	["LootHistory"] = {
+		["instanceNames"] = {
+			[1754] = "Freehold",
+		},
+		["bossNames"] = {
+			[2095] = "Ring of Booty",
+			[2094] = "Council o' Captains",
+			[2096] = "Lord Harlan Sweete",
+			[2093] = "Skycap'n Kragg",
+		},
+		["list"] = {
+		},
+	},
+	["Logging"] = {
+	},
+	["MarksBar"] = {
+		["pulltimer"] = 10,
+		["pulltimer_right"] = 10,
+		["Strata"] = "HIGH",
+		["Show"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+			true, -- [5]
+		},
+	},
+	["VisNote"] = {
+		["data"] = {
+		},
+		["sync_data"] = {
+		},
+	},
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
+		},
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
+	},
+}

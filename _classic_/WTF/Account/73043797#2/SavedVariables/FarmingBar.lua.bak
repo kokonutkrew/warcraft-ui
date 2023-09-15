@@ -1,0 +1,175 @@
+
+FarmingBarDB = {
+	["char"] = {
+		["Tigerlilly - Grobbulus"] = {
+			["bars"] = {
+				{
+					["enabled"] = true,
+					["objectives"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						{
+							["type"] = "item",
+							["itemID"] = 2287,
+							["includeBank"] = false,
+						}, -- [4]
+						{
+							["type"] = "item",
+							["itemID"] = 11584,
+							["includeBank"] = false,
+						}, -- [5]
+						{
+							["type"] = "item",
+							["itemID"] = 4537,
+							["includeBank"] = false,
+						}, -- [6]
+					},
+				}, -- [1]
+			},
+		},
+		["Jnx - Grobbulus"] = {
+			["bars"] = {
+				{
+					["enabled"] = true,
+				}, -- [1]
+			},
+		},
+		["Marshmellow - Grobbulus"] = {
+			["bars"] = {
+				{
+					["visibleButtons"] = 24,
+					["enabled"] = true,
+					["position"] = {
+						"BOTTOM", -- [1]
+						nil, -- [2]
+						"BOTTOM", -- [3]
+						207.013427734375, -- [4]
+						143.626617431641, -- [5]
+					},
+					["objectives"] = {
+						{
+							["type"] = "item",
+							["itemID"] = 3827,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [1]
+						{
+							["type"] = "item",
+							["itemID"] = 1710,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [2]
+						{
+							["type"] = "item",
+							["title"] = "",
+							["includeBank"] = false,
+							["itemID"] = 14530,
+						}, -- [3]
+						{
+							["type"] = "item",
+							["itemID"] = 14529,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [4]
+						{
+							["type"] = "item",
+							["itemID"] = 8545,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [5]
+						{
+							["type"] = "item",
+							["title"] = "",
+							["includeBank"] = false,
+							["itemID"] = 6451,
+						}, -- [6]
+						{
+							["type"] = "item",
+							["itemID"] = 5512,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [7]
+						nil, -- [8]
+						nil, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						nil, -- [12]
+						{
+							["type"] = "item",
+							["itemID"] = 18841,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [13]
+						{
+							["type"] = "item",
+							["itemID"] = 20750,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [14]
+						{
+							["type"] = "item",
+							["itemID"] = 9155,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [15]
+						{
+							["type"] = "item",
+							["itemID"] = 17708,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [16]
+						{
+							["type"] = "item",
+							["itemID"] = 8423,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [17]
+						{
+							["type"] = "item",
+							["title"] = "",
+							["includeBank"] = false,
+							["itemID"] = 20516,
+						}, -- [18]
+						nil, -- [19]
+						nil, -- [20]
+						nil, -- [21]
+						nil, -- [22]
+						nil, -- [23]
+						{
+							["type"] = "item",
+							["itemID"] = 3384,
+							["includeBank"] = false,
+							["title"] = "",
+						}, -- [24]
+					},
+				}, -- [1]
+			},
+		},
+		["Abenia - Grobbulus"] = {
+			["bars"] = {
+				{
+					["enabled"] = true,
+				}, -- [1]
+			},
+		},
+		["Dd - Grobbulus"] = {
+			["bars"] = {
+				{
+					["enabled"] = true,
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tigerlilly - Grobbulus"] = "Default",
+		["Jnx - Grobbulus"] = "Default",
+		["Marshmellow - Grobbulus"] = "Default",
+		["Abenia - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

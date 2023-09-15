@@ -1,0 +1,40 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Sprinkles - Emerald Dream"] = "Sprinkles - Emerald Dream",
+		["Gizelin - Emerald Dream"] = "Gizelin - Emerald Dream",
+		["Buhbels - Emerald Dream"] = "Buhbels - Emerald Dream",
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Emerald Dream.KokonutKrew"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Wealth"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Emerald Dream.Sprinkles"] = {
+				["guildName"] = "KokonutKrew",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Gizelin"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Buhbels"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Wealth",
+			},
+			["Default.Emerald Dream.Cupkek"] = {
+				["guildName"] = "KokonutKrew",
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

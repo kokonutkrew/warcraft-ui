@@ -1,0 +1,151 @@
+
+SpyDB = {
+	["kosData"] = {
+		["Emerald Dream"] = {
+			["Horde"] = {
+				["Bladerest"] = {
+				},
+			},
+			["Alliance"] = {
+				["Samoanlock"] = {
+				},
+				["Ashh"] = {
+				},
+				["Kkdelete"] = {
+				},
+				["Clawes"] = {
+				},
+				["Bubbels"] = {
+				},
+				["Samoanbatman"] = {
+				},
+				["Sonikk"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["Emerald Dream"] = {
+			["Horde"] = {
+			},
+			["Alliance"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bladerest - Emerald Dream"] = "Bladerest - Emerald Dream",
+		["Bubbels - Emerald Dream"] = "Bubbels - Emerald Dream",
+		["Kkdelete - Emerald Dream"] = "Kkdelete - Emerald Dream",
+		["Clawes - Emerald Dream"] = "Clawes - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bladerest - Emerald Dream"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Bubbels - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Kkdelete - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Clawes - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoanlock - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Sonikk - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Samoanbatman - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Alert"] = {
+					["Stealth Text"] = {
+						["a"] = 1,
+					},
+					["Name Text"] = {
+						["a"] = 1,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+		["Ashh - Emerald Dream"] = {
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

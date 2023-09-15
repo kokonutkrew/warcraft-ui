@@ -1,0 +1,86 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		{
+		}, -- [1]
+		["tip"] = {
+		},
+	},
+	["currentStep"] = 1,
+	["questObjectivesCache"] = {
+		[788] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 10,
+				["text"] = "Mottled Boar slain: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[1485] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 6,
+				["text"] = "Vile Familiar Head: 0/6",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[0] = 2,
+	},
+	["currentGuideGroup"] = "RestedXP Survival Guide (H)",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+		[1485] = "Vile Familiars",
+		[4402] = "Galgar's Cactus Apple Surprise",
+		[788] = "Cutting Teeth",
+		[790] = "Sarkoth",
+		[4641] = "Your Place In The World",
+	},
+	["currentGuideName"] = "01-06 Orc/Troll",
+	["stepSkip"] = {
+	},
+	["currentStepId"] = 3857651152,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+			["levels"] = {
+				{
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["dateStarted"] = {
+							["monthDay"] = 2,
+							["day"] = 0,
+							["month"] = 9,
+							["minute"] = 48,
+							["year"] = 2023,
+							["hour"] = 15,
+							["weekday"] = 7,
+						},
+						["started"] = 0,
+					},
+					["quests"] = {
+					},
+				}, -- [1]
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+	},
+	["profiles"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+		},
+	},
+}
+RXPCSettings = nil

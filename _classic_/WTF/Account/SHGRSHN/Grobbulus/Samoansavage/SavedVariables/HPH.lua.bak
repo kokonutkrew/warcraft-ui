@@ -1,0 +1,12 @@
+
+hph_killsdb = {
+}
+hph_today = {
+	1605974447, -- [1]
+	1606060847, -- [2]
+}
+hph_week = {
+}
+hph_options = {
+	["moveable"] = true,
+}

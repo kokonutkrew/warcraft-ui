@@ -1,0 +1,13 @@
+
+hph_killsdb = {
+}
+hph_today = {
+	1606838421, -- [1]
+	1606924821, -- [2]
+}
+hph_week = {
+}
+hph_options = {
+	["moveable"] = true,
+}
+hph_systemColor = "|cfffffb00"

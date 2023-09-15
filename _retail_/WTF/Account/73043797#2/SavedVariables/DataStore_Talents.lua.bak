@@ -1,0 +1,31 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1675387738,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Assassination",
+				["Class"] = "ROGUE",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["ROGUE"] = {
+			["Locale"] = "enUS",
+			["Version"] = 47936,
+		},
+	},
+}

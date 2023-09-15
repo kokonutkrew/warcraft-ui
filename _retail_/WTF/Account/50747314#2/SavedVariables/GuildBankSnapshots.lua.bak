@@ -1,0 +1,12 @@
+
+GuildBankSnapshotsDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+		["Aerielle - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = 6,
+	},
+}

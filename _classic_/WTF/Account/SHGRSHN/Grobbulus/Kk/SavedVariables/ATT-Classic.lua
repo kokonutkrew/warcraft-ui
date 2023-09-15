@@ -1,0 +1,2 @@
+
+ATTClassicSettingsPerCharacter = nil

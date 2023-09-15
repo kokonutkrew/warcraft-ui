@@ -1,0 +1,11 @@
+VER 3 0100000000000002 "FGI" "134400"
+/fgi nextSearch
+/fgi invite
+END
+VER 3 0100000000000001 "Pull/Skin" "236216"
+/targetenemy
+/fgi nextSearch
+/fgi invite
+/use [@mouseover,dead] Skinning
+/castsequence sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, sunfire, starfall
+END

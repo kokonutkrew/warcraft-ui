@@ -1,0 +1,25 @@
+
+AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Kkorgrimmar - Skull Rock"] = "Kkorgrimmar - Skull Rock",
+		["Kkbrill - Skull Rock"] = "Kkbrill - Skull Rock",
+		["Kkundercity - Skull Rock"] = "Kkundercity - Skull Rock",
+		["Øø - Skull Rock"] = "Øø - Skull Rock",
+		["Bannhammer - Skull Rock"] = "Bannhammer - Skull Rock",
+	},
+	["global"] = {
+		["__addonrevision"] = 3010003,
+	},
+	["profiles"] = {
+		["Kkorgrimmar - Skull Rock"] = {
+		},
+		["Kkbrill - Skull Rock"] = {
+		},
+		["Kkundercity - Skull Rock"] = {
+		},
+		["Øø - Skull Rock"] = {
+		},
+		["Bannhammer - Skull Rock"] = {
+		},
+	},
+}

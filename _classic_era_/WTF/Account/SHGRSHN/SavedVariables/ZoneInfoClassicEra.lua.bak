@@ -1,0 +1,18 @@
+
+GlobalSettings = {
+	["Template"] = {
+		["ShowRoadConnections"] = true,
+		["PanelSize"] = 0.8,
+		["ShowSkinning"] = true,
+		["BackgroundOpacity"] = 0.5,
+		["ShowFrame"] = true,
+		["ShowMiningNodes"] = true,
+		["ShowHerbs"] = true,
+		["ShowTravelAdvice"] = true,
+		["ShowFlightnodes"] = true,
+		["ShowFishing"] = true,
+		["ShowBackground"] = true,
+		["ShowInstances"] = true,
+		["ShowTransports"] = true,
+	},
+}

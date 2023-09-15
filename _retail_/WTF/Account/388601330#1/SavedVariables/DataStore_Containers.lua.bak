@@ -1,0 +1,56 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cupkek"] = {
+				["numFreeBagSlots"] = 101,
+				["lastUpdate"] = 1678581957,
+				["numBagSlots"] = 104,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:54443::::::::60:102:::::::::|h[]|h|r",
+						["icon"] = 348522,
+						["size"] = 22,
+						["freeslots"] = 22,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							187659, -- [2]
+							185940, -- [3]
+						},
+						["links"] = {
+							"|cffffffff|Hitem:6948::::::::60:102::86:::::::|h[Hearthstone]|h|r", -- [1]
+							"|cff1eff00|Hitem:187659::::::::60:102::86:::::::|h[Adventurer's Footlocker]|h|r", -- [2]
+							"|cffffffff|Hitem:185940::::::::60:102::86:::::::|h[Pristine Survival Kit]|h|r", -- [3]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["freeslots"] = 13,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:54443::::::::60:102:::::::::|h[]|h|r",
+						["icon"] = 348522,
+						["size"] = 22,
+						["freeslots"] = 22,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:54443::::::::60:102:::::::::|h[]|h|r",
+						["icon"] = 348522,
+						["size"] = 22,
+						["freeslots"] = 22,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:54443::::::::60:102:::::::::|h[]|h|r",
+						["icon"] = 348522,
+						["size"] = 22,
+						["freeslots"] = 22,
+					},
+				},
+			},
+		},
+	},
+}

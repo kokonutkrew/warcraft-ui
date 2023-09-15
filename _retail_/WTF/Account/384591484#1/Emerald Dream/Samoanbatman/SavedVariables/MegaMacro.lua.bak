@@ -1,0 +1,48 @@
+
+MegaMacroCharacterData = {
+	["Macros"] = {
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 121,
+			["Code"] = "#showtooltip\n/use [@cursor] infernal strike\n",
+			["Scope"] = "ch",
+			["Class"] = "Demon Hunter",
+			["ScopedIndex"] = 1,
+			["DisplayName"] = "Infernal Strike",
+		}, -- [1]
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 122,
+			["Code"] = "#showtooltip\n/use [@cursor] sigil of misery\n",
+			["Scope"] = "ch",
+			["Class"] = "Demon Hunter",
+			["ScopedIndex"] = 2,
+			["DisplayName"] = "Sigil of Misery",
+		}, -- [2]
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 123,
+			["Code"] = "P1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]\n",
+			["Scope"] = "ch",
+			["Class"] = "Demon Hunter",
+			["ScopedIndex"] = 3,
+			["DisplayName"] = "VuhDoDCShieldData",
+		}, -- [3]
+		{
+			["StaticTexture"] = 134400,
+			["Id"] = 124,
+			["Code"] = "NFar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sam[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]\n",
+			["Scope"] = "ch",
+			["Class"] = "Demon Hunter",
+			["ScopedIndex"] = 4,
+			["DisplayName"] = "VuhDoDCShieldNames",
+		}, -- [4]
+	},
+	["Specializations"] = {
+		["Havoc"] = {
+			["Macros"] = {
+			},
+		},
+	},
+	["Activated"] = true,
+}

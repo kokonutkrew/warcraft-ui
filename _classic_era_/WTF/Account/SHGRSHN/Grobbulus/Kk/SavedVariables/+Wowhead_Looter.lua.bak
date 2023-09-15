@@ -1,0 +1,11 @@
+
+wlScans = {
+	["titles"] = "",
+	["timePlayedTotal"] = 25754,
+	["guid"] = "Player-4647-00F00C38",
+}
+wlSetting = {
+	["minimapPos"] = 142.566825520545,
+}
+wlPetBlacklist = nil
+wlUIReloaded = nil

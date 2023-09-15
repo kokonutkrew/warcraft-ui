@@ -1,0 +1,11 @@
+
+QuestieConfig = {
+	["char"] = {
+		["Kk - Grobbulus"] = {
+			["migrationVersion"] = 1,
+		},
+	},
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+}

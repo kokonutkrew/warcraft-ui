@@ -1,0 +1,13 @@
+VER 3 0100000000000002 "Azure Strike" "134400"
+#showtooltip
+/startattack
+/cast Azure Strike(Blue)
+END
+VER 3 0100000000000001 "Cauterizing Flam" "134400"
+#showtooltip
+/cast [@mouseover] Cauterizing Flame(Red)
+END
+VER 3 0100000000000003 "Obsidian Scales" "134400"
+#showtooltip
+/castsequence reset=2 Obsidian Scales, 5
+END

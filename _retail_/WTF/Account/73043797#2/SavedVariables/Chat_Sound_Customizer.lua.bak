@@ -1,0 +1,17 @@
+
+ChatSoundCustomizerDB = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+	},
+	["namespaces"] = {
+		["ZoneChannel"] = {
+		},
+		["PlayerList"] = {
+		},
+		["IgnoreList"] = {
+		},
+		["LDB"] = {
+		},
+	},
+}

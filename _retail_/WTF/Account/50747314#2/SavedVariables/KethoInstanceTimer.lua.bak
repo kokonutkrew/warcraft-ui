@@ -1,0 +1,47 @@
+
+KethoInstanceTimerDB = {
+	["char"] = {
+		["Bnightholdkk - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Bantoruskk - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Sphinx - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Aerielle - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+	},
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+		["Aerielle - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = "v3.1.4",
+		["build"] = "Release",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,18 @@
+
+FGI_DB = {
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+	["global"] = {
+		["introShow"] = false,
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Kk - Grobbulus",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

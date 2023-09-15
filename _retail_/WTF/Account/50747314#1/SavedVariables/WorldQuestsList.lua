@@ -1,0 +1,336 @@
+
+VWQL = {
+	["Samoansage-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[58144] = true,
+			[58207] = true,
+			[57650] = true,
+			[60844] = true,
+			[61868] = true,
+			[59234] = true,
+			[60476] = true,
+			[61967] = true,
+			[59643] = true,
+			[61814] = true,
+			[61784] = true,
+			[59680] = true,
+			[59836] = true,
+			[61947] = true,
+			[60770] = true,
+			[60659] = true,
+			[61303] = true,
+			[60649] = true,
+			[61885] = true,
+			[61540] = true,
+			[61148] = true,
+			[61520] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Samoantitan-Stormrage"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[54267] = true,
+			[51635] = true,
+			[51388] = true,
+			[51021] = true,
+			[51415] = true,
+			[51097] = true,
+			[52869] = true,
+			[51654] = true,
+			[51841] = true,
+			[51284] = true,
+			[51626] = true,
+			[51379] = true,
+			[50977] = true,
+			[50513] = true,
+			[50483] = true,
+			[50975] = true,
+			[51109] = true,
+		},
+		["VERSION"] = 100,
+	},
+	["Urorincar-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Sermaxim-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["Kokonutkiing-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Plvl-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Sort"] = 5,
+	["VERSION"] = 105,
+	["Niniconys-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["Antoruskk-EmeraldDream"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Threadcraft-EmeraldDream"] = {
+		["FilterType"] = {
+		},
+		["Filter"] = 63,
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["AzeriteFormat"] = 20,
+	["SortPrio"] = {
+	},
+	["Forgecraft-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Samoanslayer-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["Azushina-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Herbcraft-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["Samoansavage-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[60659] = true,
+			[61814] = true,
+			[61141] = true,
+			[60601] = true,
+			[58084] = true,
+			[61967] = true,
+			[61540] = true,
+			[57650] = true,
+			[60476] = true,
+			[60844] = true,
+			[60837] = true,
+			[61520] = true,
+			[61303] = true,
+			[59836] = true,
+			[59804] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Kkmystic-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Orecraft-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Mp-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["DisableIconsGeneralMap947"] = true,
+	["Kokonutkween-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Adeadmineskk-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Farmcraft-EmeraldDream"] = {
+		["VERSION"] = 100,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Samoanrelic-Stormrage"] = {
+		["VERSION"] = 100,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Mf-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 100,
+	},
+	["Kyliegurl-EmeraldDream"] = {
+		["VERSION"] = 105,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Seawings-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 105,
+	},
+	["Tygrrlilly-EmeraldDream"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Ignore"] = {
+	},
+	["Samoansurge-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Anightholdkk-EmeraldDream"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Samoantitan-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Samoanranger-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["Quests"] = {
+			[60659] = true,
+			[61342] = true,
+			[60653] = true,
+			[59905] = true,
+			[59717] = true,
+			[61540] = true,
+			[60958] = true,
+			[61946] = true,
+			[61189] = true,
+			[60657] = true,
+			[61708] = true,
+			[61783] = true,
+			[61866] = true,
+			[60476] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Samoanbeast-EmeraldDream"] = {
+		["Filter"] = 63,
+		["VERSION"] = 100,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Scale"] = 0.8,
+	["Kkranger-EmeraldDream"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["HideLegion"] = true,
+}

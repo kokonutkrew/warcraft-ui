@@ -1,0 +1,138 @@
+
+SilverDragon3DB = {
+	["profileKeys"] = {
+		["Samoanlegend - Grobbulus"] = "Default",
+		["Samoanslayer - Grobbulus"] = "Default",
+		["Samoanbeast - Grobbulus"] = "Default",
+		["Ss - Grobbulus"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+		["Samoanraja - Grobbulus"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
+		["Kk - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
+		["Samoansage - Grobbulus"] = "Default",
+		["Cupcakeheals - Skull Rock"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Samoanrelic - Grobbulus"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+	},
+	["namespaces"] = {
+		["Overlay"] = {
+		},
+		["VignetteStretch"] = {
+		},
+		["TomTom"] = {
+		},
+		["Marker"] = {
+		},
+		["Tooltip"] = {
+		},
+		["Scan_Chat"] = {
+		},
+		["ClickTarget"] = {
+		},
+		["Sync"] = {
+		},
+		["Scan_Vignettes"] = {
+		},
+		["Scan_Targets"] = {
+		},
+		["LDB"] = {
+			["profiles"] = {
+				["Default"] = {
+					["minimap"] = {
+						["minimapPos"] = 186.317274454494,
+					},
+				},
+			},
+		},
+		["Announce"] = {
+		},
+		["Macro"] = {
+		},
+	},
+	["global"] = {
+		["mob_count"] = {
+			[14342] = 2,
+			[3398] = 2,
+			[2603] = 1,
+			[14472] = 1,
+			[3470] = 1,
+			[8301] = 1,
+			[5837] = 2,
+			[5932] = 1,
+			[5822] = 1,
+			[14478] = 1,
+			[1531] = 1,
+			[12432] = 1,
+			[10826] = 1,
+			[5808] = 2,
+			[5809] = 2,
+			[10357] = 1,
+			[5826] = 1,
+			[5827] = 1,
+			[3253] = 1,
+			[6584] = 1,
+			[14427] = 1,
+			[5829] = 1,
+			[5798] = 2,
+			[7137] = 1,
+			[3270] = 1,
+			[5799] = 3,
+			[1533] = 1,
+			[9046] = 10,
+			[5800] = 1,
+			[16380] = 1,
+			[2931] = 1,
+			[5797] = 2,
+			[14279] = 1,
+			[5933] = 1,
+		},
+		["mob_seen"] = {
+			[14342] = 1598905075,
+			[3398] = 1598843427,
+			[2603] = 1598447691,
+			[14472] = 1605940932,
+			[3470] = 1598445660,
+			[8301] = 1605205474,
+			[5837] = 1604810620,
+			[5932] = 1599979143,
+			[5822] = 1598431824,
+			[14478] = 1603127573,
+			[1531] = 1600242238,
+			[12432] = 1605304163,
+			[10826] = 1604392346,
+			[5808] = 1600248290,
+			[5809] = 1600248902,
+			[10357] = 1598463315,
+			[5826] = 1602021737,
+			[5827] = 1600197380,
+			[3253] = 1599970531,
+			[6584] = 1600648224,
+			[14427] = 1605336318,
+			[5829] = 1604807402,
+			[5798] = 1602466753,
+			[7137] = 1601583034,
+			[3270] = 1598444698,
+			[5799] = 1603330354,
+			[1533] = 1600243538,
+			[9046] = 1605233468,
+			[5800] = 1599966115,
+			[16380] = 1607111163,
+			[2931] = 1598691348,
+			[5797] = 1603330354,
+			[14279] = 1603983549,
+			[5933] = 1605335208,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+SilverDragon2DB = nil

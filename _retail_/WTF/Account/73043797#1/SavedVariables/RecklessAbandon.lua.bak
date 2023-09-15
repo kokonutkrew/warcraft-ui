@@ -1,0 +1,66 @@
+
+RecklessAbandonDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["commands"] = {
+				["generic"] = {
+					["generic"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RecklessAbandonPrivateDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Luvley - Emerald Dream",
+		["Mygallexi - Emerald Dream"] = "Mygallexi - Emerald Dream",
+		["Brisannie - Emerald Dream"] = "Brisannie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Luvley - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Mygallexi - Emerald Dream"] = {
+			["exclusions"] = {
+				["excludedQuests"] = {
+					[65436] = {
+						["title"] = "The Dragon Isles Await",
+						["source"] = 1,
+					},
+					[49929] = {
+						["title"] = "The Call for Allies",
+						["source"] = 1,
+					},
+				},
+			},
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Brisannie - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+	},
+}

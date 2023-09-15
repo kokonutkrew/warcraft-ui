@@ -1,0 +1,39 @@
+
+KethoInstanceTimerDB = {
+	["char"] = {
+		["Blushh - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Sprinkles - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+		["Pehtal - Emerald Dream"] = {
+			["startDate"] = "",
+			["TimeInstanceList"] = {
+			},
+			["startTime"] = "",
+			["timeInstance"] = 0,
+		},
+	},
+	["profileKeys"] = {
+		["Blushh - Emerald Dream"] = "Default",
+		["Sprinkles - Emerald Dream"] = "Default",
+		["Pehtal - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = "v3.1.4",
+		["build"] = "Release",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

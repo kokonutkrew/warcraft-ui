@@ -1,0 +1,33 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Bnightholdkk"] = {
+				["lastUpdate"] = 1673255164,
+			},
+			["Default.Emerald Dream.Aerielle"] = {
+				["lastUpdate"] = 1672603970,
+			},
+			["Default.Emerald Dream.Sphinx"] = {
+				["lastUpdate"] = 1674307860,
+			},
+			["Default.Emerald Dream.Bantoruskk"] = {
+				["lastUpdate"] = 1673287445,
+			},
+		},
+	},
+}
+DataStore_CraftsRefDB = {
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+	},
+}

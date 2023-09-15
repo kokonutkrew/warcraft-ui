@@ -1,0 +1,40 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Antoruskk - Emerald Dream"] = "Antoruskk - Emerald Dream",
+		["Seawings - Emerald Dream"] = "Seawings - Emerald Dream",
+		["Plvl - Emerald Dream"] = "Plvl - Emerald Dream",
+		["Anightholdkk - Emerald Dream"] = "Anightholdkk - Emerald Dream",
+		["Kyliegurl - Emerald Dream"] = "Kyliegurl - Emerald Dream",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Emerald Dream.KK"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Characters"] = {
+			["Default.Emerald Dream.Antoruskk"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Anightholdkk"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Kyliegurl"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Seawings"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+			["Default.Emerald Dream.Plvl"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

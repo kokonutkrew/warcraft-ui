@@ -1,0 +1,132 @@
+
+VoiceOverDB = {
+	["char"] = {
+		["Samoanranger - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5177-1-48-3309-0000773819"] = true,
+				["Creature-0-5175-1-71-10668-00007738D5"] = true,
+				["Creature-0-5176-1-45-11861-00000073C7"] = true,
+				["Creature-0-5177-1-75-11046-00007738D6"] = true,
+				["Creature-0-5177-1-46-7714-0000773819"] = true,
+				["Creature-0-5176-1-45-4312-00000073C7"] = true,
+				["Creature-0-5175-1-71-3389-00007738D5"] = true,
+				["Creature-0-5177-1-75-3296-00047738D6"] = true,
+				["Creature-0-5176-1-48-3442-00000073C8"] = true,
+				["Creature-0-5176-1-44-11901-0000773818"] = true,
+				["Creature-0-5176-1-44-12616-0000773819"] = true,
+				["Creature-0-5176-1-46-5769-0000773818"] = true,
+				["Creature-0-5175-1-71-3448-00007738D5"] = true,
+				["Creature-0-5177-1-46-3448-0000773818"] = true,
+				["Creature-0-5177-1-48-3310-0000773819"] = true,
+				["Creature-0-5177-1-36-7731-0000773818"] = true,
+				["Creature-0-5175-1-71-3442-00007738D5"] = true,
+				["Creature-0-5175-1-71-3615-00007738D7"] = true,
+				["Creature-0-5175-1-71-3429-00007738D5"] = true,
+				["Creature-0-5177-1-75-3347-00007738D6"] = true,
+				["Creature-0-5176-1-44-12863-0000773819"] = true,
+				["Creature-0-5177-1-36-11860-0000773818"] = true,
+				["Creature-0-5177-1-46-3615-000077381B"] = true,
+				["Creature-0-5176-1-502-3084-000377BE96"] = true,
+				["Creature-0-5177-1-46-3432-0000773819"] = true,
+				["Creature-0-5177-1-46-3389-0000773819"] = true,
+				["Creature-0-5177-1-75-3314-00007738D5"] = true,
+				["Creature-0-5177-1-46-3387-0000773819"] = true,
+				["Creature-0-5176-1-44-12696-0000773819"] = true,
+				["Creature-0-5177-1-75-3352-00007738D5"] = true,
+				["Creature-0-5176-1-502-2995-000077BE95"] = true,
+				["Creature-0-5175-1-71-3433-00007738D5"] = true,
+				["Creature-0-5177-1-75-6929-00007738D5"] = true,
+				["Creature-0-5177-1-75-3216-00007738D5"] = true,
+				["Creature-0-5176-1-46-3084-0001F73818"] = true,
+				["Creature-0-5177-1-36-11861-0000773818"] = true,
+				["Creature-0-5177-1-75-3399-00007738D6"] = true,
+				["Creature-0-5176-1-46-2995-0000773818"] = true,
+				["Creature-0-5176-1-46-3040-0000773818"] = true,
+				["Creature-0-5177-1-46-10378-0000773818"] = true,
+			},
+		},
+		["Kkblacksmith - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5178-0-47-11044-000077381B"] = true,
+				["Creature-0-5178-0-47-4609-000077381A"] = true,
+				["Creature-0-5177-0-82-4609-00007738D5"] = true,
+				["Creature-0-5177-0-82-10879-00007738D6"] = true,
+				["Creature-0-5177-0-82-4605-00007738D5"] = true,
+			},
+		},
+		["Kktailor - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5176-1-497-3324-000077BE95"] = true,
+				["Creature-0-5176-1-497-3309-000077BE95"] = true,
+				["Creature-0-5175-1-136-11901-000077BE95"] = true,
+				["Creature-0-5176-1-502-11833-000077BE95"] = true,
+				["Creature-0-5177-1-512-3934-000077BE97"] = true,
+				["Creature-0-5176-1-502-3030-000077BE95"] = true,
+				["Creature-0-5177-1-512-3615-000077BE98"] = true,
+				["Creature-0-5177-1-48-3399-0000773819"] = true,
+				["Creature-0-5176-1-497-3310-000077BE95"] = true,
+				["Creature-0-5177-1-512-3387-000077BE96"] = true,
+				["Creature-0-5175-1-68-12757-000077389A"] = true,
+				["Creature-0-5176-1-497-3325-000077BE95"] = true,
+				["Creature-0-5177-1-75-2855-00007738D6"] = true,
+				["Creature-0-5176-1-497-3326-000077BE95"] = true,
+				["Creature-0-5175-1-136-12863-000077BE95"] = true,
+				["Creature-0-5177-1-512-10378-000077BE95"] = true,
+				["Creature-0-5176-1-502-5769-000077BE95"] = true,
+				["Creature-0-5176-1-497-5815-000077BE95"] = true,
+				["Creature-0-5175-1-64-8359-000077389A"] = true,
+				["Creature-0-5176-1-497-3363-000077BE95"] = true,
+				["Creature-0-5177-1-512-3433-000077BE96"] = true,
+				["Creature-0-5175-1-64-2995-0000773899"] = true,
+				["Creature-0-5178-1-70-4312-000077389A"] = true,
+				["Creature-0-5176-1-502-2995-000077BE95"] = true,
+				["Creature-0-5178-1-70-11860-0000773899"] = true,
+				["Creature-0-5177-1-48-3309-0000773819"] = true,
+			},
+		},
+		["Samoanbank - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5177-1-75-3296-0000F738D6"] = true,
+				["Creature-0-5177-1-75-3216-00007738D5"] = true,
+				["Creature-0-5176-1-498-3169-000077BE96"] = true,
+				["Creature-0-5177-1-48-3309-0000773819"] = true,
+				["Creature-0-5177-1-75-6929-00007738D5"] = true,
+			},
+		},
+		["Kkleather - Skull Rock"] = {
+			["hasSeenGossipForNPC"] = {
+				["Creature-0-5177-0-82-11031-00007738D5"] = true,
+				["Creature-0-5177-0-82-4586-00007738D5"] = true,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Samoanranger - Skull Rock"] = "Samoanranger - Skull Rock",
+		["Kkblacksmith - Skull Rock"] = "Kkblacksmith - Skull Rock",
+		["Kktailor - Skull Rock"] = "Kktailor - Skull Rock",
+		["Samoanbank - Skull Rock"] = "Samoanbank - Skull Rock",
+		["Kkleather - Skull Rock"] = "Kkleather - Skull Rock",
+	},
+	["profiles"] = {
+		["Samoanranger - Skull Rock"] = {
+			["MinimapButton"] = {
+				["LibDBIcon"] = {
+					["minimapPos"] = 204.9874451863906,
+				},
+			},
+		},
+		["Kkblacksmith - Skull Rock"] = {
+		},
+		["Kktailor - Skull Rock"] = {
+		},
+		["Samoanbank - Skull Rock"] = {
+			["MinimapButton"] = {
+				["LibDBIcon"] = {
+					["minimapPos"] = 186.6473689853792,
+				},
+			},
+		},
+		["Kkleather - Skull Rock"] = {
+		},
+	},
+}

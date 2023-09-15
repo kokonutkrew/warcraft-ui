@@ -1,0 +1,29 @@
+
+ItemTooltipIconsConfig = {
+	["Emerald Dream"] = {
+		["Luvley"] = {
+			["showProfs"] = true,
+			["iconSize"] = 18,
+			["profFlags"] = 1023,
+			["includeVendor"] = true,
+		},
+		["Brisannie"] = {
+			["showProfs"] = true,
+			["iconSize"] = 18,
+			["profFlags"] = 1023,
+			["includeVendor"] = true,
+		},
+		["Mygallexi"] = {
+			["showProfs"] = true,
+			["iconSize"] = 18,
+			["profFlags"] = 1023,
+			["includeVendor"] = true,
+		},
+		["Bunni"] = {
+			["showProfs"] = true,
+			["iconSize"] = 18,
+			["profFlags"] = 1023,
+			["includeVendor"] = true,
+		},
+	},
+}

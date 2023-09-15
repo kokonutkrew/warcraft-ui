@@ -1,0 +1,41 @@
+
+GatherMate2DB = {
+	["global"] = {
+		["data_version"] = 6,
+	},
+	["profileKeys"] = {
+		["Stronguard - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+		["Bubbels - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Clawes - Emerald Dream"] = "Default",
+		["Wratheane - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Traap - Emerald Dream"] = "Default",
+		["Bladerest - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+GatherMate2HerbDB = {
+}
+GatherMate2MineDB = {
+	[1970] = {
+		[3363604100] = 273,
+		[3386470800] = 280,
+	},
+}
+GatherMate2FishDB = {
+}
+GatherMate2GasDB = {
+}
+GatherMate2TreasureDB = {
+}
+GatherMate2ArchaeologyDB = {
+}
+GatherMate2LoggingDB = {
+}

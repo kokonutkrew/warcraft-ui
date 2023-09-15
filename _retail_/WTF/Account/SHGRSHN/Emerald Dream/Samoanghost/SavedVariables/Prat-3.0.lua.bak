@@ -1,0 +1,571 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+				"/i ty", -- [1]
+				"/i sry I got distracted", -- [2]
+				"/i nice work guys", -- [3]
+				"/i another after this?", -- [4]
+				"/s ty too", -- [5]
+				"/s another?", -- [6]
+				"/s my b", -- [7]
+				"/s ty", -- [8]
+				"/s shall we grab them quick", -- [9]
+				"/s 2 more splinters", -- [10]
+				"/i release", -- [11]
+				"/i why can we rez during boss fight now?", -- [12]
+				"/i ok full rest", -- [13]
+				"/i release", -- [14]
+				"/i did you not read chat", -- [15]
+				"/i when you atk boss", -- [16]
+				"/i they auto pull", -- [17]
+				"/i ok def", -- [18]
+				"/i test it", -- [19]
+				"/i if we pull boss", -- [20]
+				"/i I think they all aggro right?", -- [21]
+				"/i this way steez", -- [22]
+				"/i dang perma stunned", -- [23]
+				"/i /sleep", -- [24]
+				"/i ok reset lol", -- [25]
+				"/i gotta los", -- [26]
+				"/i gotta run away", -- [27]
+				"/i those ghosts hurt", -- [28]
+				"/i that mc though", -- [29]
+				"/g hello", -- [30]
+				"/i you guys didnt even need me", -- [31]
+				"/i terrible time for a dc", -- [32]
+				"/i and have plenty roomt to work", -- [33]
+				"/i lets clear the whole room this time", -- [34]
+				"/i watch out for the fire", -- [35]
+				"/i RESET", -- [36]
+				"/i youll see us", -- [37]
+				"/i go to green marker", -- [38]
+				"/i down stairs", -- [39]
+				"/i ok np", -- [40]
+				"/i hunter coming?", -- [41]
+				"/i mana", -- [42]
+				"/i they are repairing real quick", -- [43]
+				"/i armor repairs", -- [44]
+				"/i full reset", -- [45]
+				"/i too many sleeps", -- [46]
+				"/1 shadowjedi", -- [47]
+				"/1 horde in stormwind", -- [48]
+				"/s /point", -- [49]
+				"/i this way", -- [50]
+				"/i hmm thought I could glide that", -- [51]
+				"/s so is it good to lvl a priest right now?", -- [52]
+				"/s /invite snukkle", -- [53]
+				"/p instead of stacking on skull", -- [54]
+				"/p and the dps say back on trash", -- [55]
+				"/p uh i marked skull", -- [56]
+				"/g Just leveling with Manaia", -- [57]
+				"/g ok no prob", -- [58]
+				"/g got time for another mythic?", -- [59]
+				"/g welcome back", -- [60]
+				"/p heal up", -- [61]
+				"/p sry though we could handle that", -- [62]
+				"/s sry", -- [63]
+				"/s stack", -- [64]
+				"/s stack on me", -- [65]
+				"/y stack", -- [66]
+				"/p stack", -- [67]
+				"/p pls", -- [68]
+				"/p rez", -- [69]
+				"/p r", -- [70]
+				"/p and bring the snakes back up to me", -- [71]
+				"/p hit em", -- [72]
+				"/p go fast", -- [73]
+				"/p I marked where the levers are down there", -- [74]
+				"/p not sure what killed teh healer", -- [75]
+				"/p gotta jump down and pull those levers on the side", -- [76]
+				"/cw Thunderr hop in discord", -- [77]
+				"/cw Honustustere teaching my daughter about pet battles", -- [78]
+				"/cw Honustustere Ill switch to my shammy in just a sec", -- [79]
+				"/cw Honustustere right on", -- [80]
+				"/cw Honustustere how was work?", -- [81]
+				"/cw Honustustere hello", -- [82]
+				"/s nice work", -- [83]
+				"/s /ginvite Prettybad ", -- [84]
+				"/s 1 dps lol", -- [85]
+				"/s stack", -- [86]
+				"/s /reload", -- [87]
+				"/s again after this?", -- [88]
+				"/s ok...", -- [89]
+				"/s pulling way back", -- [90]
+				"/s /cry", -- [91]
+				"/p everyone heal green triangle pls", -- [92]
+				"/p /cry", -- [93]
+				"/p /dance", -- [94]
+				"/s /silly", -- [95]
+				"/s /train", -- [96]
+				"/s /charge", -- [97]
+				"/s /silly", -- [98]
+				"/s /lol", -- [99]
+				"/p rdy?", -- [100]
+				"/s turn in quest first", -- [101]
+				"/s right", -- [102]
+				"/s again?", -- [103]
+				"/s one sec", -- [104]
+				"/s /reload", -- [105]
+				"/s again after this?", -- [106]
+				"/s /dance", -- [107]
+				"/s /att", -- [108]
+				"/s /dance", -- [109]
+				"/s again?", -- [110]
+				"/s another after this?", -- [111]
+				"/s /dance", -- [112]
+				"/s the npc will show up eventually", -- [113]
+				"/s wait", -- [114]
+				"/i I know you need to stand and wait for mobs", -- [115]
+				"/i i dont remember this one well", -- [116]
+				"/i and couldnt retreat", -- [117]
+				"/i man i got locked into my animation", -- [118]
+				"/i woow that looks cool", -- [119]
+				"/s que us pls", -- [120]
+				"/i /charge", -- [121]
+				"/i right here", -- [122]
+				"/i ill slow it down", -- [123]
+				"/i thats on me", -- [124]
+				"/i alright", -- [125]
+				"/g hello", -- [126]
+				"/g I just hopped in discord", -- [127]
+				"/s /kneel", -- [128]
+				"/s /ec", -- [129]
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1653885592,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1393090.183,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1393090.183,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1393090.183,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1393041.453,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 42,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hpratcopy|h[07:24]|h Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["serverTime"] = 1653885592,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1393090.183,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|Hpratcopy|h[07:24]|h Unknown macro option: etc",
+					["serverTime"] = 1653885592,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1393090.183,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1393090.183,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1393090.183,
+				}, -- [4]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 1393041.453,
+				}, -- [5]
+				{
+					["message"] = "BetterVendorPrice v1.16.04 by MooreaTv: type /bvp for command list/help.",
+					["timestamp"] = 1393041.453,
+				}, -- [6]
+				{
+					["message"] = "|cff69CCF0 GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.14.1 |r(|cff9482C99.2 Shadowlands|r)",
+					["timestamp"] = 1393041.453,
+				}, -- [7]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 1393041.453,
+				}, -- [8]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h PvP tooltips brought to you by wowarenalogs.com!",
+					["timestamp"] = 1393041.453,
+				}, -- [9]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h Guild Message of the Day: \"[KK] Welcome to all our new fam! Bring x1 flask to raid for couldrons. Deposit surplus mats in gbank pls. Inv your friends. More info at kokonutkrew.com\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1393089.424,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h Unknown macro option: etc",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1393090.183,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat Log: Enabled",
+					["timestamp"] = 1393090.183,
+				}, -- [12]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffffff78Prat |cff8080ff3.0|r:|r Chat log recorded to <WoW Installation>\\Logs\\WoWChatLog.txt only upon logout.",
+					["timestamp"] = 1393090.183,
+				}, -- [13]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat Log: Enabled",
+					["timestamp"] = 1393090.183,
+				}, -- [14]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffffff78Prat |cff8080ff3.0|r:|r Combat log recorded to <WoW Installation>\\Logs\\WoWCombatLog.txt only upon logout.",
+					["timestamp"] = 1393090.183,
+				}, -- [15]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.23)|r:  hooked into Rematch",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885592,
+				}, -- [16]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cff33ff99ArenaMarker|r by |cff69CCF0Mageiden|r. Type |cff33ff99/am|r for additional options.",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885595,
+				}, -- [17]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885595,
+				}, -- [18]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cff33ff99CanIMogIt|r: Updating appearances database.",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885595,
+				}, -- [19]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885595,
+				}, -- [20]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h |cffe8cd86WowUp Notification|r: You have 1 addon to be updated",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885598,
+				}, -- [21]
+				{
+					["message"] = "|Hpratcopy|h[10:39]|h AllTheThings: |cff7f7f7fSL-2.7.12|r |cffe8cd86-> SL-2.8.0|r ",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885598,
+				}, -- [22]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.5|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885602,
+				}, -- [23]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 1393090.183,
+					["serverTime"] = 1653885602,
+				}, -- [24]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |cffb4b4ffALL THE THINGS|r Profile: Default",
+					["timestamp"] = 1393115.378,
+					["serverTime"] = 1653885616,
+				}, -- [25]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h AAP Loaded",
+					["timestamp"] = 1393115.378,
+					["serverTime"] = 1653885617,
+				}, -- [26]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h [4. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1653885617,
+					["timestamp"] = 1393116.65,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [27]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h [4. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1653885622,
+					["timestamp"] = 1393121.552,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [28]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h [4. Craft] has been added to this chat window.",
+					["r"] = 1,
+					["serverTime"] = 1653885629,
+					["timestamp"] = 1393129.072,
+					["g"] = 0.753,
+					["b"] = 0.753,
+				}, -- [29]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |cffffff78Prat |cff8080ff3.0|r|r (|cff80ff80Memory|r) : Settings Loaded",
+					["timestamp"] = 1393136.106,
+					["serverTime"] = 1653885636,
+				}, -- [30]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 1393157.719,
+					["serverTime"] = 1653885659,
+				}, -- [31]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |Hchannel:channel:1|h[1. General] |hChanged Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1653885659,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393157.719,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|Hpratcopy|h[10:40]|h |Hchannel:channel:3|h[3. LocalDefense] |hChanged Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1653885659,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393157.719,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|Hpratcopy|h[10:41]|h |cff33ff99CanIMogIt|r: Items updated: |cff15abff+3, |cffe69f00-0",
+					["timestamp"] = 1393168.806,
+					["serverTime"] = 1653885669,
+				}, -- [34]
+				{
+					["message"] = "|Hpratcopy|h[10:41]|h Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1653885673,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393172.876,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "|Hpratcopy|h[10:41]|h You have invited Twinkuls to join your group.",
+					["serverTime"] = 1653885673,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393172.991,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|Hpratcopy|h[10:41]|h Twinkuls is already in a group.",
+					["serverTime"] = 1653885683,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393183.175,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|Hpratcopy|h[10:41]|h Twinkuls joins the party.",
+					["serverTime"] = 1653885716,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393215.765,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|Hpratcopy|h[10:43]|h You have requested to trade with |cfffefefeTwinkuls|r.",
+					["serverTime"] = 1653885789,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393288.655,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|Hpratcopy|h[10:44]|h |Hchannel:channel:1|h[1. General] |hLeft Channel: |Hchannel:CHANNEL:1|h[1. General - Stormwind City]|h",
+					["serverTime"] = 1653885866,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393366.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|Hpratcopy|h[10:44]|h |Hchannel:channel:2|h[2. Trade] |hLeft Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1653885866,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393366.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|Hpratcopy|h[10:44]|h |Hchannel:channel:3|h[3. LocalDefense] |hLeft Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Stormwind City]|h",
+					["serverTime"] = 1653885866,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1393366.127,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

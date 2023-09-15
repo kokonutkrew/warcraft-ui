@@ -1,0 +1,79 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Aerielle - Emerald Dream"] = "Aerielle - Emerald Dream",
+		["Mmkk - Emerald Dream"] = "Mmkk - Emerald Dream",
+		["Bnightholdkk - Emerald Dream"] = "Bnightholdkk - Emerald Dream",
+		["Bantoruskk - Emerald Dream"] = "Bantoruskk - Emerald Dream",
+		["Sphinx - Emerald Dream"] = "Sphinx - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Bnightholdkk"] = {
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|5",
+					["HealthMax"] = 126,
+					["Melee"] = "13-14|3.5640001296997|20|0|5|0",
+					["MaxPower"] = "3|100",
+					["Spell"] = "20|20|0|5|0|13",
+					["PVP"] = "0|0",
+					["Base"] = "6|20|18|20|0",
+					["Defense"] = "0|0|6.2468452453613|3|0|0",
+				},
+				["lastUpdate"] = 1673255166,
+			},
+			["Default.Emerald Dream.Bantoruskk"] = {
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|5",
+					["HealthMax"] = 126,
+					["Melee"] = "8-9|2.6000001430511|18|0|5|0",
+					["MaxPower"] = "0|52",
+					["Spell"] = "20|20|0|5|0|8",
+					["PVP"] = "0|0",
+					["Base"] = "18|6|18|20|0",
+					["Defense"] = "0|0|3|4.1221609115601|10|0",
+				},
+				["lastUpdate"] = 1673287445,
+			},
+			["Default.Emerald Dream.Aerielle"] = {
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|8.6293277740479",
+					["HealthMax"] = 440,
+					["Melee"] = "2-4|3.4410002231598|0|0|8.6293277740479|0",
+					["MaxPower"] = "0|400",
+					["Defense"] = "0|0|3|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "10|28|55|60|0",
+					["Spell"] = "60|60|0|8.6293277740479|12|20",
+				},
+				["lastUpdate"] = 1672603979,
+			},
+			["Default.Emerald Dream.Sphinx"] = {
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|5",
+					["HealthMax"] = 126,
+					["Melee"] = "12-14|3.6000001430511|19|0|5|0",
+					["MaxPower"] = "0|52",
+					["Defense"] = "0|0|4.1845030784607|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "10|19|18|17|0",
+					["Spell"] = "17|17|0|5|0|2",
+				},
+				["lastUpdate"] = 1674307873,
+			},
+			["Default.Emerald Dream.Mmkk"] = {
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|5",
+					["HealthMax"] = 154,
+					["Melee"] = "1-2|3.6000001430511|0|0|5|0",
+					["MaxPower"] = "0|260",
+					["Defense"] = "0|0|3|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "7|14|22|20|0",
+					["Spell"] = "20|20|0|5|0|13",
+				},
+				["lastUpdate"] = 1675500765,
+			},
+		},
+	},
+}

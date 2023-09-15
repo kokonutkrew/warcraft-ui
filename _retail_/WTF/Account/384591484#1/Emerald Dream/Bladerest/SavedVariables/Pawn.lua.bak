@@ -1,0 +1,90 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "Bladerest-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 175207,
+			["Level"] = 12,
+			["Link"] = "|cff1eff00|Hitem:175207::::::::10:1446::11:1:6500:2:9:9:28:741:::::|h[Expeditionary Plate Helm]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122668,
+			["Level"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122668::::::::10:1446:::::::::|h[Eternal Will of the Martyr]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122388,
+			["Level"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122388::::::::10:1446:::::::::|h[Burnished Pauldrons of Might]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 175209,
+			["Level"] = 14,
+			["Link"] = "|cff1eff00|Hitem:175209::::::::10:1446::11:1:6500:2:9:10:28:741:::::|h[Expeditionary Plate Chestpiece]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 175231,
+			["Level"] = 10,
+			["Link"] = "|cff1eff00|Hitem:175231::::::::10:1446::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Plate Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 175223,
+			["Level"] = 10,
+			["Link"] = "|cff1eff00|Hitem:175223::::::::10:1446::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Plate Legguards]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 174794,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174794::::::::10:1446:::1:6499:2:9:2:28:741:::::|h[Dented Plate Boots]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 175235,
+			["Level"] = 11,
+			["Link"] = "|cff1eff00|Hitem:175235::::::::10:1446::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Plate Armguards]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 175217,
+			["Level"] = 11,
+			["Link"] = "|cff1eff00|Hitem:175217::::::::10:1446::11:1:6500:2:9:8:28:741:::::|h[Expeditionary Plate Gauntlets]|h|r",
+		}, -- [10]
+		nil, -- [11]
+		nil, -- [12]
+		{
+			["ID"] = 178168,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff0070dd|Hitem:178168::::::::10:1446::1:1:6500:2:9:9:28:741:::::|h[Darkmaul Ritual Stone]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::10:1446:::1:582::::::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122260,
+			["Level"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122260::::::::10:1446:::::::::|h[Worn Stoneskin Gargoyle Cape]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 178165,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff0070dd|Hitem:178165::::::::10:1446::1:1:6500:2:9:9:28:741:::::|h[Tunk's Tooth]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122391,
+			["Level"] = 12,
+			["Link"] = "|cff00ccff|Hitem:122391::::::::10:1446:::1:582::::::|h[Flamescarred Draconian Deflector]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "WARRIOR",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

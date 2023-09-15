@@ -1,0 +1,13 @@
+
+DataStore_GarrisonsDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["lastUpdate"] = 1678586272,
+			},
+		},
+	},
+}

@@ -1,0 +1,67 @@
+
+RecklessAbandonDB = {
+	["profileKeys"] = {
+		["Bladerest - Emerald Dream"] = "Default",
+		["Bubbels - Emerald Dream"] = "Default",
+		["Kkdelete - Emerald Dream"] = "Default",
+		["Clawes - Emerald Dream"] = "Default",
+		["Samoanlock - Emerald Dream"] = "Default",
+		["Sonikk - Emerald Dream"] = "Default",
+		["Samoanbatman - Emerald Dream"] = "Default",
+		["Ashh - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["commands"] = {
+				["generic"] = {
+					["generic"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RecklessAbandonPrivateDB = {
+	["profileKeys"] = {
+		["Bladerest - Emerald Dream"] = "Bladerest - Emerald Dream",
+		["Bubbels - Emerald Dream"] = "Bubbels - Emerald Dream",
+		["Kkdelete - Emerald Dream"] = "Kkdelete - Emerald Dream",
+		["Clawes - Emerald Dream"] = "Clawes - Emerald Dream",
+		["Samoanlock - Emerald Dream"] = "Samoanlock - Emerald Dream",
+		["Sonikk - Emerald Dream"] = "Sonikk - Emerald Dream",
+		["Samoanbatman - Emerald Dream"] = "Samoanbatman - Emerald Dream",
+		["Ashh - Emerald Dream"] = "Ashh - Emerald Dream",
+	},
+	["profiles"] = {
+		["Bladerest - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Bubbels - Emerald Dream"] = {
+		},
+		["Kkdelete - Emerald Dream"] = {
+		},
+		["Clawes - Emerald Dream"] = {
+			["automationOptions"] = {
+				["autoAbandonQuests"] = {
+					["questType"] = {
+						["ids"] = "",
+					},
+				},
+			},
+		},
+		["Samoanlock - Emerald Dream"] = {
+		},
+		["Sonikk - Emerald Dream"] = {
+		},
+		["Samoanbatman - Emerald Dream"] = {
+		},
+		["Ashh - Emerald Dream"] = {
+		},
+	},
+}

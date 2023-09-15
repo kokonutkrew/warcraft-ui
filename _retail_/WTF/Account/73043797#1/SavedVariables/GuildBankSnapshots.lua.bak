@@ -1,0 +1,11 @@
+
+GuildBankSnapshotsDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["global"] = {
+		["version"] = 6,
+	},
+}

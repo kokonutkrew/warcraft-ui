@@ -1,0 +1,15 @@
+Version: 1
+Frame: PLH_LootedItemsFrame
+FrameLevel: 1
+Anchor: BOTTOMLEFT
+X: -239
+Y: 147
+W: 400
+H: 140
+Frame: AAPQOrderList
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 231
+H: 440

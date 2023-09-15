@@ -1,0 +1,34 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Cupkek - Emerald Dream"] = "Cupkek - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cupkek"] = {
+				["XPMax"] = 194815,
+				["played"] = 1,
+				["playedThisLevel"] = 1,
+				["isResting"] = true,
+				["lastUpdate"] = 1678582014,
+				["class"] = "Druid",
+				["race"] = "Night Elf",
+				["subZone"] = "",
+				["level"] = 60,
+				["XP"] = 0,
+				["zone"] = "Stormwind City",
+				["RestXP"] = 0,
+				["money"] = 100000,
+				["gender"] = 3,
+				["classID"] = 11,
+				["bindLocation"] = "Stormwind City",
+				["englishClass"] = "DRUID",
+				["name"] = "Cupkek",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["localizedFaction"] = "Alliance",
+				["lastLogoutTimestamp"] = 1678582014,
+			},
+		},
+	},
+}

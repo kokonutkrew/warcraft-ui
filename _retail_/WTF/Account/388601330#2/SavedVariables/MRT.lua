@@ -1,0 +1,466 @@
+
+VMRT = {
+	["BattleRes"] = {
+		["Strata"] = "HIGH",
+	},
+	["ProfileKeys"] = {
+		["Sprinkles-EmeraldDream"] = "default",
+		["Blushh-EmeraldDream"] = "default",
+		["Kkimport-EmeraldDream"] = "default",
+		["Cupkek-EmeraldDream"] = "default",
+		["Pehtal-EmeraldDream"] = "default",
+	},
+	["Encounter"] = {
+		["list"] = {
+			["Blushh"] = {
+			},
+			["Sprinkles"] = {
+				"^1849^14^1650429964^26^1^10^109.27^Sprinkles", -- [1]
+				"^1865^14^1650430133^29^1^10^109.27^Sprinkles", -- [2]
+				"^1867^14^1650430350^31^1^10^109.27^Sprinkles", -- [3]
+				"^1871^14^1650430635^38^1^10^101.29^", -- [4]
+				"^1886^14^1650430874^40^1^10^101.29^", -- [5]
+				"^1863^14^1650431051^44^1^10^101.29^", -- [6]
+				"^1842^14^1650431382^28^1^10^101.29^Sprinkles", -- [7]
+				"^1862^14^1650431779^26^1^10^101.29^", -- [8]
+				"^1872^14^1650432050^77^1^10^101.29^Sprinkles", -- [9]
+				"^1866^14^1650432268^122^1^10^101.29^Sprinkles", -- [10]
+			},
+			["Pehtal"] = {
+			},
+			["Kkimport"] = {
+			},
+			["Cupkek"] = {
+			},
+		},
+		["names"] = {
+			[1842] = "Krosus",
+			[1865] = "Chronomatic Anomaly",
+			[1862] = "Tichondrius",
+			[1866] = "Gul'dan",
+			[1863] = "Star Augur Etraeus",
+			[1867] = "Trilliax",
+			[1886] = "High Botanist Tel'arn",
+			[1849] = "Skorpyron",
+			[1872] = "Grand Magistrix Elisande",
+			[1871] = "Spellblade Aluriel",
+		},
+	},
+	["Marks"] = {
+		["list"] = {
+		},
+	},
+	["ExCD2"] = {
+		["upd4525"] = true,
+		["gnGUIDs"] = {
+			["Buhbels"] = 257,
+			["Samoanranger"] = 254,
+			["Cupkek"] = 103,
+			["Donnycursem-Stormrage"] = 266,
+			["Sprinkles"] = 259,
+			["Pehtal"] = 102,
+			["Ashh"] = 63,
+			["Snukkle"] = 268,
+			["Stronguard"] = 66,
+		},
+		["NoRaid"] = true,
+		["CDECol"] = {
+		},
+		["upd4380"] = true,
+		["Save"] = {
+		},
+		["Profiles"] = {
+			["Now"] = "default",
+			["List"] = {
+			},
+		},
+		["userDB"] = {
+		},
+		["colSet"] = {
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [1]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [2]
+			{
+				["enabled"] = true,
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [3]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [4]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [5]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [6]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [7]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [8]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [9]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [10]
+			{
+				["frameGeneral"] = true,
+				["iconGray"] = true,
+				["textGeneral"] = true,
+				["methodsGeneral"] = true,
+				["blacklistGeneral"] = true,
+				["fontShadow"] = false,
+				["iconGeneral"] = true,
+				["fontOutline"] = true,
+				["visibilityGeneral"] = true,
+				["fontGeneral"] = true,
+				["textureAnimation"] = true,
+				["textureGeneral"] = true,
+			}, -- [11]
+		},
+		["Priority"] = {
+		},
+		["CDE"] = {
+		},
+		["OptFav"] = {
+		},
+	},
+	["Attendance"] = {
+		["data"] = {
+		},
+		["alts"] = {
+		},
+	},
+	["Inspect"] = {
+		["Soulbinds"] = {
+			["Samoanranger-EmeraldDream"] = "1650432268:1:7:328266:137-1-1",
+		},
+	},
+	["InspectViewer"] = {
+		["ColorizeLowIlvl685"] = false,
+		["ColorizeNoEnch"] = true,
+		["ColorizeNoGems"] = true,
+		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeNoValorUpgrade"] = false,
+	},
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
+		},
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "",
+		["LootMethod"] = "group",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
+	},
+	["Timers"] = {
+		["specTimes"] = {
+			[62] = 10,
+			[63] = 10,
+			[250] = 10,
+			[251] = 10,
+			[64] = 10,
+			[253] = 10,
+			[65] = 10,
+			[255] = 10,
+			[66] = 10,
+			[257] = 10,
+			[258] = 10,
+			[259] = 10,
+			[260] = 10,
+			[261] = 25,
+			[262] = 16,
+			[263] = 10,
+			[264] = 10,
+			[265] = 22,
+			[266] = 10,
+			[267] = 10,
+			[268] = 10,
+			[269] = 10,
+			[270] = 10,
+			[70] = 10,
+			[102] = 10,
+			[71] = 10,
+			[103] = 10,
+			[72] = 10,
+			[104] = 10,
+			[73] = 10,
+			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
+		},
+		["Type"] = 2,
+		["Strata"] = "HIGH",
+		["timeToKillAnalyze"] = 15,
+	},
+	["WhoPulled"] = {
+	},
+	["Addon"] = {
+		["Timer"] = 0.1,
+		["PreVersion"] = 4630,
+		["Version"] = 4710,
+		["migrateMRT"] = true,
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["BuffsCheck"] = true,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["WeaponEnch"] = {
+		},
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+	},
+	["Profiles"] = {
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["KeepPosInGroup"] = true,
+		["upd4550"] = true,
+		["profiles"] = {
+		},
+	},
+	["LootHistory"] = {
+		["list"] = {
+			"1650430003#1849#1530#14#Samoanranger#3#1#item:140876::::::::46:259::3:4:3443:1472:5855:3336:1:28:619:::::", -- [1]
+			"1650430003#1849#1530#14#Samoanranger#3#1#item:140827::::::::46:259::3:3:3443:1472:3528:1:28:619:::::", -- [2]
+			"1650430013#1849#1530#14#Sprinkles#4#1#item:140840::::::::46:259::3:4:3443:1472:5855:3336:1:28:619:::::", -- [3]
+			"1650430018#1849#1530#14#Stronguard#2#1#item:140790::::::::46:259::3:4:3443:1472:5855:3336:1:28:619:::::", -- [4]
+			"1650430018#1849#1530#14#Stronguard#2#1#item:140902::::::::46:259::3:3:3443:1472:3528:1:28:619:::::", -- [5]
+			"1650430168#1865#1530#14#Samoanranger#3#1#item:140863::::::::46:259::3:4:3443:1472:5855:3336:1:28:619:::::", -- [6]
+			"1650430168#1865#1530#14#Samoanranger#3#1#item:140792::::::::46:259::3:5:3443:40:1472:5855:3336:1:28:619:::::", -- [7]
+			"1650430202#1865#1530#14#Stronguard#2#1#item:140882::::::::46:259::3:3:3443:1472:3528:1:28:619:::::", -- [8]
+			"1650430212#1865#1530#14#Sprinkles#4#1#item:140792::::::::46:259::3:3:3443:1472:3528:1:28:619:::::", -- [9]
+			"1650430213#1865#1530#14#Sprinkles#4#1#item:140903::::::::46:259::3:4:3443:1808:1472:3528:1:28:619:::::", -- [10]
+			"1650430385#1867#1530#14#Stronguard#2#1#item:140818::::::::46:259::3:3:3443:1472:3528:1:28:619:::::", -- [11]
+			"1650430393#1867#1530#14#Samoanranger#3#1#item:138373::::::::46:259::3:5:3514:42:1472:5855:3336:1:28:619:::::", -- [12]
+			"1650430393#1867#1530#14#Samoanranger#3#1#item:140869::::::::46:259::3:5:3443:1808:43:1472:3528:1:28:619:::::", -- [13]
+			"1650430412#1867#1530#14#Sprinkles#4#1#item:140818::::::::46:259::3:4:3443:1472:5855:3336:1:28:619:::::", -- [14]
+			"1650430412#1867#1530#14#Sprinkles#4#1#item:138369::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [15]
+			"1650430678#1871#1530#14#Samoanranger#3#1#item:140868::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [16]
+			"1650430678#1871#1530#14#Samoanranger#3#1#item:140850::::::::46:259::3:4:3514:42:1472:3528:1:28:619:::::", -- [17]
+			"1650430685#1871#1530#14#Stronguard#2#1#item:140832::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [18]
+			"1650430687#1871#1530#14#Sprinkles#4#1#item:140868::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [19]
+			"1650430688#1871#1530#14#Sprinkles#4#1#item:140877::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [20]
+			"1650430919#1886#1530#14#Samoanranger#3#1#item:140802::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [21]
+			"1650430919#1886#1530#14#Samoanranger#3#1#item:140802::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [22]
+			"1650430923#1886#1530#14#Sprinkles#4#1#item:140801::::::::46:259::3:5:3514:42:1472:5855:3336:1:28:619:::::", -- [23]
+			"1650430926#1886#1530#14#Stronguard#2#1#item:140874::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [24]
+			"1650430926#1886#1530#14#Stronguard#2#1#item:140874::::::::46:259::3:4:3514:1808:1472:3528:1:28:619:::::", -- [25]
+			"1650431101#1863#1530#14#Sprinkles#4#1#item:140841::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [26]
+			"1650431101#1863#1530#14#Sprinkles#4#1#item:138341::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [27]
+			"1650431110#1863#1530#14#Stronguard#2#1#item:138340::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [28]
+			"1650431110#1863#1530#14#Stronguard#2#1#item:140885::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [29]
+			"1650431118#1863#1530#14#Samoanranger#3#1#item:140833::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [30]
+			"1650431446#1842#1530#14#Stronguard#2#1#item:140887::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [31]
+			"1650431446#1842#1530#14#Stronguard#2#1#item:138326::::::::46:259::3:5:3514:1808:1472:5855:3336:1:28:619:::::", -- [32]
+			"1650431452#1842#1530#14#Sprinkles#4#1#item:140835::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [33]
+			"1650431455#1842#1530#14#Samoanranger#3#1#item:138326::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [34]
+			"1650431455#1842#1530#14#Samoanranger#3#1#item:140825::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [35]
+			"1650431806#1862#1530#14#Samoanranger#3#1#item:138362::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [36]
+			"1650431806#1862#1530#14#Samoanranger#3#1#item:140797::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [37]
+			"1650431812#1862#1530#14#Stronguard#2#1#item:140798::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [38]
+			"1650431864#1862#1530#14#Sprinkles#4#1#item:140824::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [39]
+			"1650431864#1862#1530#14#Sprinkles#4#1#item:138336::::::::46:259::3:4:3514:1808:1472:3528:1:28:619:::::", -- [40]
+			"1650432132#1872#1530#14#Samoanranger#3#1#item:140911::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [41]
+			"1650432132#1872#1530#14#Samoanranger#3#1#item:140889::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [42]
+			"1650432138#1872#1530#14#Stronguard#2#1#item:138357::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [43]
+			"1650432139#1872#1530#14#Stronguard#2#1#item:140890::::::::46:259::3:5:3514:41:1472:5855:3336:1:28:619:::::", -- [44]
+			"1650432160#1872#1530#14#Sprinkles#4#1#item:138313::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [45]
+			"1650432404#1866#1530#14#Samoanranger#3#1#item:138379::::::::46:259::3:3:3514:1472:3528:1:28:619:::::", -- [46]
+			"1650432404#1866#1530#14#Samoanranger#3#1#item:140823::::::::46:259::3:4:3515:1472:5855:3336:1:28:619:::::", -- [47]
+			"1650432413#1866#1530#14#Stronguard#2#1#item:140913::::::::46:259::3:4:3515:1472:5855:3336:1:28:619:::::", -- [48]
+			"1650432428#1866#1530#14#Sprinkles#4#1#item:138335::::::::46:259::3:4:3514:1472:5855:3336:1:28:619:::::", -- [49]
+			"1650432428#1866#1530#14#Sprinkles#4#1#item:140919::::::::46:259::3:3:3515:1472:3528:1:28:619:::::", -- [50]
+		},
+		["bossNames"] = {
+			[1842] = "Krosus",
+			[1865] = "Chronomatic Anomaly",
+			[1862] = "Tichondrius",
+			[1866] = "Gul'dan",
+			[1863] = "Star Augur Etraeus",
+			[1867] = "Trilliax",
+			[1886] = "High Botanist Tel'arn",
+			[1849] = "Skorpyron",
+			[1872] = "Grand Magistrix Elisande",
+			[1871] = "Spellblade Aluriel",
+		},
+		["instanceNames"] = {
+			[1530] = "The Nighthold",
+		},
+	},
+	["Logging"] = {
+	},
+	["MarksBar"] = {
+		["pulltimer"] = 10,
+		["pulltimer_right"] = 10,
+		["Show"] = {
+			true, -- [1]
+			true, -- [2]
+			true, -- [3]
+			true, -- [4]
+			true, -- [5]
+		},
+		["Strata"] = "HIGH",
+	},
+	["VisNote"] = {
+		["data"] = {
+		},
+		["sync_data"] = {
+		},
+	},
+	["Note"] = {
+		["BlackNames"] = {
+		},
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+		},
+		["BlackLastUpdateName"] = {
+		},
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Strata"] = "HIGH",
+		["BlackLastUpdateTime"] = {
+		},
+		["OnlyPromoted"] = true,
+		["OptionsFormatting"] = true,
+	},
+}

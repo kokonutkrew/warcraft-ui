@@ -1,0 +1,16 @@
+
+HandyNotes_ShadowlandsTreasuresDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Luvley - Emerald Dream",
+		["Mygallexi - Emerald Dream"] = "Mygallexi - Emerald Dream",
+		["Brisannie - Emerald Dream"] = "Brisannie - Emerald Dream",
+	},
+	["profiles"] = {
+		["Luvley - Emerald Dream"] = {
+		},
+		["Mygallexi - Emerald Dream"] = {
+		},
+		["Brisannie - Emerald Dream"] = {
+		},
+	},
+}

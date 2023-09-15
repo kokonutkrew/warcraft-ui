@@ -1,0 +1,20 @@
+
+FGI_DB = {
+	["global"] = {
+		["introShow"] = false,
+	},
+	["profileKeys"] = {
+		["Urorincar - Emerald Dream"] = "Default",
+		["Kokonutkween - Emerald Dream"] = "Default",
+	},
+}
+FGI_DEBUG = {
+	["profileKeys"] = {
+		["Urorincar - Emerald Dream"] = "Urorincar - Emerald Dream",
+		["Kokonutkween - Emerald Dream"] = "Kokonutkween - Emerald Dream",
+	},
+	["global"] = {
+		{
+		}, -- [1]
+	},
+}

@@ -1,0 +1,161 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["wealth"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Fading"] = {
+			["profiles"] = {
+				["Default"] = {
+					["duration"] = 10,
+				},
+			},
+		},
+		["Prat_Total RP 3"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_Mentions"] = {
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_ServerNames"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_AltNames"] = {
+		},
+		["Prat_PlayerNames"] = {
+		},
+		["Prat_Memory"] = {
+		},
+		["Prat_Frames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["initialized"] = true,
+					["framealpha"] = 0,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608.0000610351562,
+					["minchatwidthdefault"] = 296,
+				},
+			},
+		},
+		["Prat_Editbox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["background"] = "None",
+					["backgroundColor"] = {
+						["a"] = 0,
+					},
+				},
+			},
+		},
+		["Prat_History"] = {
+			["profiles"] = {
+				["Default"] = {
+					["chatlines"] = 5000,
+				},
+			},
+		},
+		["Prat_Font"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_DebugModules"] = {
+		},
+		["Prat_TellTarget"] = {
+		},
+		["Prat_Paragraph"] = {
+		},
+		["Prat_Achievements"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Highlight"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_LinkInfoIcons"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_Search"] = {
+		},
+		["Prat_Buttons"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showvoice"] = false,
+					["showchannel"] = false,
+					["showBnet"] = false,
+					["scrollReminder"] = false,
+					["showMenu"] = false,
+					["showminimize"] = false,
+				},
+			},
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_HoverTips"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Samoanlegend - Grobbulus"] = "Default",
+		["Samoanslayer - Grobbulus"] = "Default",
+		["Samoanbeast - Grobbulus"] = "Default",
+		["Ss - Grobbulus"] = "Default",
+		["Samoanranger - Grobbulus"] = "Default",
+		["Dd - Grobbulus"] = "Default",
+		["Samoanraja - Grobbulus"] = "Default",
+		["Samoanranger - Defias Pillager"] = "Default",
+		["Samoanmystic - Grobbulus"] = "Default",
+		["Samoanbank - Whitemane"] = "Default",
+		["Bannhammer - Skull Rock"] = "Default",
+		["Kk - Grobbulus"] = "Default",
+		["Goldenshots - Defias Pillager"] = "Default",
+		["Øø - Skull Rock"] = "Default",
+		["Samoansage - Grobbulus"] = "Default",
+		["Cupcakeheals - Skull Rock"] = "Default",
+		["Samoansavage - Grobbulus"] = "Default",
+		["Samoanrelic - Grobbulus"] = "Default",
+		["Samoanbeast - Skull Rock"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Alias"] = 2,
+				["Mentions"] = 2,
+				["PopupMessage"] = 2,
+				["AltNames"] = 2,
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
+				["KeyBindings"] = 2,
+				["LinkInfoIcons"] = 2,
+				["DebugModules"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+			},
+		},
+	},
+}

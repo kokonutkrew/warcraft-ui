@@ -1,0 +1,22 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Cherriebomb - Emerald Dream"] = "Cherriebomb - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Cherriebomb"] = {
+				["guildName"] = "KK",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.Emerald Dream.KK"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["EmeraldDream"] = "Emerald Dream",
+		},
+	},
+}

@@ -1,0 +1,590 @@
+
+HekiliDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["specs"] = {
+				[1467] = {
+					["settings"] = {
+						["use_deep_breath"] = true,
+						["use_clipping"] = false,
+						["use_early_chain"] = false,
+						["use_unravel"] = false,
+					},
+				},
+				[1468] = {
+					["settings"] = {
+						["use_deep_breath"] = true,
+						["use_unravel"] = false,
+					},
+				},
+			},
+			["runOnce"] = {
+				["forceReloadAllDefaultPriorities_20220228"] = true,
+				["forceEnableAllClassesOnceDueToBug_20220225"] = true,
+				["updateMaxRefreshToNewSpecOptions_20220222"] = true,
+				["forceReloadClassDefaultOptions_20220306_1468"] = true,
+				["forceEnableEnhancedRecheckBoomkin_20210712"] = true,
+				["resetAberrantPackageDates_20190728_1"] = true,
+				["forceReloadClassDefaultOptions_20220306_1467"] = true,
+				["forceSpellFlashBrightness_20221030"] = true,
+			},
+			["packs"] = {
+				["Devastation"] = {
+					["source"] = "https://github.com/simulationcraft/simc/blob/dragonflight/engine/class_modules/apl/apl_evoker.cpp",
+					["builtIn"] = true,
+					["date"] = 20230123,
+					["spec"] = 1467,
+					["desc"] = "",
+					["lists"] = {
+						["es"] = {
+							{
+								["enabled"] = true,
+								["action"] = "eternity_surge",
+								["empower_to"] = 1,
+								["description"] = "Eternity Surge, use rank most applicable to targets.",
+								["criteria"] = "spell_targets.pyre <= 1 + talent.eternitys_span.enabled || buff.dragonrage.remains < 1.75 * spell_haste & buff.dragonrage.remains >= 1 * spell_haste",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "spell_targets.pyre <= 2 + 2 * talent.eternitys_span.enabled || buff.dragonrage.remains < 2.5 * spell_haste & buff.dragonrage.remains >= 1.75 * spell_haste",
+								["action"] = "eternity_surge",
+								["empower_to"] = 2,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "spell_targets.pyre <= 3 + 3 * talent.eternitys_span.enabled || ! talent.font_of_magic.enabled || buff.dragonrage.remains <= 3.25 * spell_haste & buff.dragonrage.remains >= 2.5 * spell_haste",
+								["action"] = "eternity_surge",
+								["empower_to"] = 3,
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "eternity_surge",
+								["empower_to"] = 4,
+							}, -- [4]
+						},
+						["default"] = {
+							{
+								["action"] = "quell",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["action"] = "unravel",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up || boss & fight_remains < 35",
+								["action"] = "potion",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "cooldown.dragonrage.remains",
+								["var_name"] = "next_dragonrage",
+								["description"] = "Variable that evaluates when next dragonrage is by working out the maximum between the dragonrage cd and your empowers, ignoring CDR effect estimates.",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "max",
+								["action"] = "variable",
+								["value"] = "cooldown.eternity_surge.remains - 2 * gcd.max",
+								["var_name"] = "next_dragonrage",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "max",
+								["action"] = "variable",
+								["value"] = "cooldown.fire_breath.remains - gcd.max",
+								["var_name"] = "next_dragonrage",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "1.3 * spell_haste",
+								["var_name"] = "r1_cast_time",
+								["description"] = "Rank 1 empower spell cast time TODO: multiplier should be 1.0 but 1.3 results in more dps for EBF builds",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["list_name"] = "trinkets",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["strict"] = 1,
+								["criteria"] = "spell_targets.pyre >= 3",
+								["list_name"] = "aoe",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["strict"] = 1,
+								["criteria"] = "spell_targets.pyre < 3",
+								["list_name"] = "st",
+							}, -- [10]
+						},
+						["precombat"] = {
+							{
+								["action"] = "blessing_of_the_bronze",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t1.has_use_buff || trinket.t1.has_use_buff || trinket.t1.has_use_buff || trinket.t1.has_use_buff || trinket.t1.has_use_buff",
+								["var_name"] = "trinket_1_buffs",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t2.has_use_buff || trinket.t2.has_use_buff || trinket.t2.has_use_buff || trinket.t2.has_use_buff || trinket.t2.has_use_buff",
+								["var_name"] = "trinket_2_buffs",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "setif",
+								["description"] = "Decide which trinket to pair with Dragonrage, prefer 2 minute and 1 minute trinkets",
+								["value"] = "1",
+								["var_name"] = "trinket_1_sync",
+								["action"] = "variable",
+								["value_else"] = "0.5",
+								["criteria"] = "variable.trinket_1_buffs & ( trinket.t1.cooldown.duration % cooldown.dragonrage.duration = 0 || cooldown.dragonrage.duration % trinket.t1.cooldown.duration = 0 )",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["op"] = "setif",
+								["action"] = "variable",
+								["var_name"] = "trinket_2_sync",
+								["value"] = "1",
+								["value_else"] = "0.5",
+								["criteria"] = "variable.trinket_2_buffs & ( trinket.t2.cooldown.duration % cooldown.dragonrage.duration = 0 || cooldown.dragonrage.duration % trinket.t2.cooldown.duration = 0 )",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t1.is.spoils_of_neltharus",
+								["var_name"] = "trinket_1_manual",
+								["description"] = "Estimates a trinkets value by comparing the cooldown of the trinket, divided by the duration of the buff it provides. Has a intellect modifier (currently 1.5x) to give a higher priority to intellect trinkets. The intellect modifier should be changed as intellect priority increases or decreases. As well as a modifier for if a trinket will or will not sync with cooldowns.",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t2.is.spoils_of_neltharus",
+								["var_name"] = "trinket_2_manual",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t1.is.ruby_whelp_shell || trinket.t1.is.whispering_incarnate_icon",
+								["var_name"] = "trinket_1_exclude",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "trinket.t2.is.ruby_whelp_shell || trinket.t2.is.whispering_incarnate_icon",
+								["var_name"] = "trinket_2_exclude",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["op"] = "setif",
+								["action"] = "variable",
+								["var_name"] = "trinket_priority",
+								["value"] = "2",
+								["value_else"] = "1",
+								["criteria"] = "! variable.trinket_1_buffs & variable.trinket_2_buffs || variable.trinket_2_buffs & ( ( trinket.t2.cooldown.duration / trinket.t2.buff_duration ) * ( 1.5 + trinket.t2.has_use_buff ) * ( variable.trinket_2_sync ) ) > ( ( trinket.t1.cooldown.duration / trinket.t1.buff_duration ) * ( 1.5 + trinket.t1.has_use_buff ) * ( variable.trinket_1_sync ) )",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["name"] = "shadowed_orb_of_torment",
+								["action"] = "shadowed_orb_of_torment",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.firestorm.enabled",
+								["action"] = "firestorm",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "! talent.firestorm.enabled",
+								["action"] = "living_flame",
+							}, -- [13]
+						},
+						["aoe"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.fire_breath.remains <= gcd.max & cooldown.eternity_surge.remains < 3 * gcd.max",
+								["action"] = "dragonrage",
+								["description"] = "AOE action list, also a mess.",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & ( spell_targets.pyre <= 6 || ! cooldown.fire_breath.up )",
+								["action"] = "tip_the_scales",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["criteria"] = "buff.dragonrage.up || ! talent.dragonrage.enabled || cooldown.dragonrage.remains > 10 & talent.everburning_flame.enabled",
+								["list_name"] = "fb",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains > 10 & spell_targets.pyre >= 7",
+								["action"] = "fire_breath",
+								["empower_to"] = 1,
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains > 10 & spell_targets.pyre >= 6",
+								["action"] = "fire_breath",
+								["empower_to"] = 2,
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains > 10 & spell_targets.pyre >= 4",
+								["action"] = "fire_breath",
+								["empower_to"] = 3,
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains > 10 || empowering.fire_breath",
+								["action"] = "fire_breath",
+								["empower_to"] = 2,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["criteria"] = "buff.dragonrage.up || ! talent.dragonrage.enabled || cooldown.dragonrage.remains > 15 || empowering.eternity_surge",
+								["list_name"] = "es",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & buff.dragonrage.remains < ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max",
+								["action"] = "azure_strike",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.dragonrage.up",
+								["action"] = "deep_breath",
+							}, -- [10]
+							{
+								["action"] = "firestorm",
+								["enabled"] = true,
+							}, -- [11]
+							{
+								["action"] = "shattering_star",
+								["enabled"] = true,
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains < gcd.max * 6 & cooldown.fire_breath.remains < 6 * gcd.max & cooldown.eternity_surge.remains < 6 * gcd.max",
+								["action"] = "azure_strike",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.volatility.enabled",
+								["action"] = "pyre",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.burnout.up & buff.leaping_flames.up & ! buff.essence_burst.up",
+								["action"] = "living_flame",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains >= 10 & spell_targets.pyre >= 4",
+								["action"] = "pyre",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.dragonrage.remains >= 10 & spell_targets.pyre = 3 & buff.charged_blast.stack >= 10",
+								["action"] = "pyre",
+							}, -- [17]
+							{
+								["enabled"] = true,
+								["chain"] = "1",
+								["action"] = "disintegrate",
+								["criteria"] = "! talent.shattering_star.enabled || cooldown.shattering_star.remains > 5 || essence > essence.max - 1 || buff.essence_burst.stack = buff.essence_burst.max_stack",
+							}, -- [18]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.snapfire.enabled & buff.burnout.up",
+								["action"] = "living_flame",
+							}, -- [19]
+							{
+								["action"] = "azure_strike",
+								["enabled"] = true,
+							}, -- [20]
+						},
+						["trinkets"] = {
+							{
+								["enabled"] = true,
+								["name"] = "spoils_of_neltharus",
+								["action"] = "spoils_of_neltharus",
+								["criteria"] = "buff.dragonrage.up & ( buff.spoils_of_neltharus_mastery.up || buff.spoils_of_neltharus_haste.up || buff.dragonrage.remains + 6 * ( ( cooldown.eternity_surge.remains <= gcd.max * 2 ) + ( cooldown.fire_breath.remains <= gcd.max * 2 ) ) <= 18 ) || boss & fight_remains <= 20",
+								["description"] = "Try and get spoils to prvide haste or mastery stats, but if dragonrage gets too short just use it anyway.",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["action"] = "trinket1",
+								["slot"] = "trinket1",
+								["description"] = "The trinket with the highest estimated value, will be used first and paired with Dragonrage.",
+								["criteria"] = "buff.dragonrage.up & ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 || variable.trinket_2_exclude ) & ! variable.trinket_1_manual || trinket.t1.buff_duration >= fight_remains || trinket.t1.cooldown.duration <= 60 & ( variable.next_dragonrage > 20 || ! talent.dragonrage.enabled ) & ( ! buff.dragonrage.up || variable.trinket_priority = 1 )",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 || variable.trinket_1_exclude ) & ! variable.trinket_2_manual || trinket.t2.buff_duration >= fight_remains || trinket.t2.cooldown.duration <= 60 & ( variable.next_dragonrage > 20 || ! talent.dragonrage.enabled ) & ( ! buff.dragonrage.up || variable.trinket_priority = 2 )",
+								["action"] = "trinket2",
+								["slot"] = "trinket2",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "trinket1",
+								["slot"] = "trinket1",
+								["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
+								["criteria"] = "! variable.trinket_1_buffs & ( trinket.t2.cooldown.remains || ! variable.trinket_2_buffs ) & ( variable.next_dragonrage > 20 || ! talent.dragonrage.enabled ) & ! variable.trinket_1_manual",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "! variable.trinket_2_buffs & ( trinket.t1.cooldown.remains || ! variable.trinket_1_buffs ) & ( variable.next_dragonrage > 20 || ! talent.dragonrage.enabled ) & ! variable.trinket_2_manual",
+								["action"] = "trinket2",
+								["slot"] = "trinket2",
+							}, -- [5]
+						},
+						["st"] = {
+							{
+								["enabled"] = true,
+								["name"] = "kharnalex_the_first_light",
+								["action"] = "kharnalex_the_first_light",
+								["criteria"] = "! buff.dragonrage.up & debuff.shattering_star_debuff.down",
+								["description"] = "ST Action List, it's a mess",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.fire_breath.remains < gcd.max & cooldown.eternity_surge.remains < 2 * gcd.max || boss & fight_remains < 30",
+								["action"] = "dragonrage",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & ( buff.dragonrage.remains < variable.r1_cast_time & ( buff.dragonrage.remains > cooldown.fire_breath.remains || buff.dragonrage.remains > cooldown.eternity_surge.remains ) || talent.feed_the_flames.enabled & ! cooldown.fire_breath.up )",
+								["action"] = "tip_the_scales",
+								["description"] = "Use to extend DR when an empower cast won't fit inside the DR window anymore. When running FTF use on ES at the start of DR to maximize uses",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["criteria"] = "! talent.dragonrage.enabled || variable.next_dragonrage > 15 || ! talent.animosity.enabled || empowering.fire_breath",
+								["list_name"] = "fb",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["criteria"] = "! talent.dragonrage.enabled || variable.next_dragonrage > 15 || ! talent.animosity.enabled || empowering.eternity_surge",
+								["list_name"] = "es",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "wait",
+								["sec"] = "cooldown.fire_breath.remains",
+								["criteria"] = "talent.animosity.enabled & buff.dragonrage.up & buff.dragonrage.remains < gcd.max + variable.r1_cast_time * buff.tip_the_scales.down & buff.dragonrage.remains - cooldown.fire_breath.remains >= variable.r1_cast_time * buff.tip_the_scales.down",
+								["description"] = "Wait for FB/ES to be ready if spending another GCD would result in the cast no longer fitting inside of DR",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["sec"] = "cooldown.eternity_surge.remains",
+								["action"] = "wait",
+								["criteria"] = "talent.animosity.enabled & buff.dragonrage.up & buff.dragonrage.remains < gcd.max + variable.r1_cast_time & buff.dragonrage.remains - cooldown.eternity_surge.remains > variable.r1_cast_time * buff.tip_the_scales.down",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.dragonrage.up || buff.essence_burst.stack = buff.essence_burst.max_stack || talent.eye_of_infinity.enabled",
+								["action"] = "shattering_star",
+								["description"] = "Wait for 2 EBs to use SS while inside DR, otherwise use on CD",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & buff.dragonrage.remains < ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max & buff.burnout.up",
+								["action"] = "living_flame",
+								["description"] = "Spend the last 1 or 2 GCDs of DR on fillers to exit with 2 EBs",
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & buff.dragonrage.remains < ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max",
+								["action"] = "azure_strike",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.dragonrage.up & debuff.shattering_star_debuff.down || buff.snapfire.up",
+								["action"] = "firestorm",
+								["description"] = "Hard cast only outside of SS and DR windows, always spend snapfire procs",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.burnout.up & buff.essence_burst.stack < buff.essence_burst.max_stack & essence < essence.max - 1",
+								["action"] = "living_flame",
+								["description"] = "Spend burnout procs without overcapping resources",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.dragonrage.up & ( essence < 3 & ! buff.essence_burst.up || ( talent.shattering_star.enabled & cooldown.shattering_star.remains <= ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max ) )",
+								["action"] = "azure_strike",
+								["description"] = "Ensure we clip Disintegrate inside DR even with our fillers, Pool 1-2 GCDs before SS is up inside DR",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["chain"] = "1",
+								["action"] = "disintegrate",
+								["interrupt_if"] = "buff.dragonrage.up&ticks>=2&(evoker.use_clipping||cooldown.fire_breath.up||cooldown.eternity_surge.up)",
+								["early_chain_if"] = "evoker.use_early_chaining&buff.dragonrage.up&ticks>=2",
+								["criteria"] = "buff.dragonrage.up || ( ! talent.shattering_star.enabled || cooldown.shattering_star.remains > 6 || essence > essence.max - 1 || buff.essence_burst.stack = buff.essence_burst.max_stack )",
+								["description"] = "In DR chain/clip after the 3rd damage tick, Outside of DR pool 6 seconds before SS unless it would result in overcapping resources TODO: revisit pooling conditions",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "! buff.dragonrage.up & spell_targets.deep_breath > 1",
+								["action"] = "deep_breath",
+							}, -- [15]
+							{
+								["action"] = "living_flame",
+								["enabled"] = true,
+							}, -- [16]
+						},
+						["fb"] = {
+							{
+								["enabled"] = true,
+								["action"] = "fire_breath",
+								["empower_to"] = 1,
+								["description"] = "Use Firebreath with some really weird criteria. Override it for st because its not actually useful? Idk. TODO: Someone look at this it's a mess.",
+								["criteria"] = "( 20 + 2 * talent.blast_furnace.rank ) + dot.fire_breath_damage.remains < ( 20 + 2 * talent.blast_furnace.rank ) * 1.3 || buff.dragonrage.remains < 1.75 * spell_haste & buff.dragonrage.remains >= 1 * spell_haste || active_enemies <= 2",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "( 14 + 2 * talent.blast_furnace.rank ) + dot.fire_breath_damage.remains < ( 20 + 2 * talent.blast_furnace.rank ) * 1.3 || buff.dragonrage.remains < 2.5 * spell_haste & buff.dragonrage.remains >= 1.75 * spell_haste",
+								["action"] = "fire_breath",
+								["empower_to"] = 2,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "( 8 + 2 * talent.blast_furnace.rank ) + dot.fire_breath_damage.remains < ( 20 + 2 * talent.blast_furnace.rank ) * 1.3 || ! talent.font_of_magic.enabled || buff.dragonrage.remains <= 3.25 * spell_haste & buff.dragonrage.remains >= 2.5 * spell_haste",
+								["action"] = "fire_breath",
+								["empower_to"] = 3,
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "fire_breath",
+								["empower_to"] = 4,
+							}, -- [4]
+						},
+					},
+					["version"] = 20230123,
+					["warnings"] = "The import for 'es' required some automated changes.\nLine 1: Converted 'talent.eternitys_span' to 'talent.eternitys_span.enabled' (1x).\nLine 2: Converted 'talent.eternitys_span' to 'talent.eternitys_span.enabled' (1x).\nLine 3: Converted 'talent.eternitys_span' to 'talent.eternitys_span.enabled' (1x).\nLine 3: Converted 'talent.font_of_magic' to 'talent.font_of_magic.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 2: Converted 'trinket.1.has_buff.intellect' to 'trinket.t1.has_buff.intellect' (1x).\nLine 2: Converted 'trinket.1.has_buff.intellect' to 'trinket.t1.has_use_buff' (1x).\nLine 2: Converted 'trinket.1.has_buff.mastery' to 'trinket.t1.has_buff.mastery' (1x).\nLine 2: Converted 'trinket.1.has_buff.mastery' to 'trinket.t1.has_use_buff' (1x).\nLine 2: Converted 'trinket.1.has_buff.versatility' to 'trinket.t1.has_buff.versatility' (1x).\nLine 2: Converted 'trinket.1.has_buff.versatility' to 'trinket.t1.has_use_buff' (1x).\nLine 2: Converted 'trinket.1.has_buff.haste' to 'trinket.t1.has_buff.haste' (1x).\nLine 2: Converted 'trinket.1.has_buff.haste' to 'trinket.t1.has_use_buff' (1x).\nLine 2: Converted 'trinket.1.has_buff.crit' to 'trinket.t1.has_buff.crit' (1x).\nLine 2: Converted 'trinket.1.has_buff.crit' to 'trinket.t1.has_use_buff' (1x).\nLine 3: Converted 'trinket.2.has_buff.intellect' to 'trinket.t2.has_buff.intellect' (1x).\nLine 3: Converted 'trinket.2.has_buff.intellect' to 'trinket.t2.has_use_buff' (1x).\nLine 3: Converted 'trinket.2.has_buff.mastery' to 'trinket.t2.has_buff.mastery' (1x).\nLine 3: Converted 'trinket.2.has_buff.mastery' to 'trinket.t2.has_use_buff' (1x).\nLine 3: Converted 'trinket.2.has_buff.versatility' to 'trinket.t2.has_buff.versatility' (1x).\nLine 3: Converted 'trinket.2.has_buff.versatility' to 'trinket.t2.has_use_buff' (1x).\nLine 3: Converted 'trinket.2.has_buff.haste' to 'trinket.t2.has_buff.haste' (1x).\nLine 3: Converted 'trinket.2.has_buff.haste' to 'trinket.t2.has_use_buff' (1x).\nLine 3: Converted 'trinket.2.has_buff.crit' to 'trinket.t2.has_buff.crit' (1x).\nLine 3: Converted 'trinket.2.has_buff.crit' to 'trinket.t2.has_use_buff' (1x).\nLine 4: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 4: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 4: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 4: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 4: Converted operations in 'variable.trinket_1_buffs&(trinket.t1.cooldown.duration%%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%%trinket.t1.cooldown.duration=0)' to 'variable.trinket_1_buffs&(trinket.t1.cooldown.duration%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%trinket.t1.cooldown.duration=0)'.\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 5: Converted operations in 'variable.trinket_2_buffs&(trinket.t2.cooldown.duration%%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%%trinket.t2.cooldown.duration=0)' to 'variable.trinket_2_buffs&(trinket.t2.cooldown.duration%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%trinket.t2.cooldown.duration=0)'.\nLine 6: Converted 'trinket.1.is.spoils_of_neltharus' to 'trinket.t1.is.spoils_of_neltharus' (1x).\nLine 7: Converted 'trinket.2.is.spoils_of_neltharus' to 'trinket.t2.is.spoils_of_neltharus' (1x).\nLine 8: Converted 'trinket.1.is.ruby_whelp_shell' to 'trinket.t1.is.ruby_whelp_shell' (1x).\nLine 8: Converted 'trinket.1.is.whispering_incarnate_icon' to 'trinket.t1.is.whispering_incarnate_icon' (1x).\nLine 9: Converted 'trinket.2.is.ruby_whelp_shell' to 'trinket.t2.is.ruby_whelp_shell' (1x).\nLine 9: Converted 'trinket.2.is.whispering_incarnate_icon' to 'trinket.t2.is.whispering_incarnate_icon' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 10: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 10: Converted 'trinket.2.has_buff.intellect' to 'trinket.t2.has_buff.intellect' (1x).\nLine 10: Converted 'trinket.2.has_buff.intellect' to 'trinket.t2.has_use_buff' (1x).\nLine 10: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 10: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 10: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 10: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 10: Converted 'trinket.1.has_buff.intellect' to 'trinket.t1.has_buff.intellect' (1x).\nLine 10: Converted 'trinket.1.has_buff.intellect' to 'trinket.t1.has_use_buff' (1x).\nLine 10: Converted operations in '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration%trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration%trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))' to '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration/trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration/trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))'.\nLine 12: Converted 'talent.firestorm' to 'talent.firestorm.enabled' (1x).\nLine 13: Converted 'talent.firestorm' to 'talent.firestorm.enabled' (1x).\nThe following auras were used in the action list but were not found in the addon database:\n - crit\n\nThe import for 'aoe' required some automated changes.\nLine 3: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 3: Converted 'talent.everburning_flame' to 'talent.everburning_flame.enabled' (1x).\nLine 8: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 14: Converted 'talent.volatility' to 'talent.volatility.enabled' (1x).\nLine 18: Converted 'talent.shattering_star' to 'talent.shattering_star.enabled' (1x).\nLine 19: Converted 'talent.snapfire' to 'talent.snapfire.enabled' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 2: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 2: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 2: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 2: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 3: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 3: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 3: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 3: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 4: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 5: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\n\nThe import for 'st' required some automated changes.\nLine 3: Converted 'talent.feed_the_flames' to 'talent.feed_the_flames.enabled' (1x).\nLine 4: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 4: Converted 'talent.animosity' to 'talent.animosity.enabled' (1x).\nLine 5: Converted 'talent.dragonrage' to 'talent.dragonrage.enabled' (1x).\nLine 5: Converted 'talent.animosity' to 'talent.animosity.enabled' (1x).\nLine 6: Converted 'talent.animosity' to 'talent.animosity.enabled' (1x).\nLine 7: Converted 'talent.animosity' to 'talent.animosity.enabled' (1x).\nLine 8: Converted 'talent.eye_of_infinity' to 'talent.eye_of_infinity.enabled' (1x).\nLine 8: Converted operations in '!buff.dragonrage.up||buff.essence_burst.stack==buff.essence_burst.max_stack||talent.eye_of_infinity.enabled' to '!buff.dragonrage.up||buff.essence_burst.stack=buff.essence_burst.max_stack||talent.eye_of_infinity.enabled'.\nLine 13: Converted 'talent.shattering_star' to 'talent.shattering_star.enabled' (1x).\nLine 14: Converted 'talent.shattering_star' to 'talent.shattering_star.enabled' (1x).\nLine 14: Converted operations in 'buff.dragonrage.up||(!talent.shattering_star.enabled||cooldown.shattering_star.remains>6||essence>essence.max-1||buff.essence_burst.stack==buff.essence_burst.max_stack)' to 'buff.dragonrage.up||(!talent.shattering_star.enabled||cooldown.shattering_star.remains>6||essence>essence.max-1||buff.essence_burst.stack=buff.essence_burst.max_stack)'.\n\nThe import for 'fb' required some automated changes.\nLine 3: Converted 'talent.font_of_magic' to 'talent.font_of_magic.enabled' (1x).\n\nImported 7 action lists.\n",
+					["author"] = "SimC",
+					["profile"] = "actions.precombat+=/blessing_of_the_bronze\nactions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_buff.intellect||trinket.1.has_buff.mastery||trinket.1.has_buff.versatility||trinket.1.has_buff.haste||trinket.1.has_buff.crit\nactions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_buff.intellect||trinket.2.has_buff.mastery||trinket.2.has_buff.versatility||trinket.2.has_buff.haste||trinket.2.has_buff.crit\n# Decide which trinket to pair with Dragonrage, prefer 2 minute and 1 minute trinkets\nactions.precombat+=/variable,name=trinket_1_sync,op=setif,value=1,value_else=0.5,condition=variable.trinket_1_buffs&(trinket.1.cooldown.duration%%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%%trinket.1.cooldown.duration=0)\nactions.precombat+=/variable,name=trinket_2_sync,op=setif,value=1,value_else=0.5,condition=variable.trinket_2_buffs&(trinket.2.cooldown.duration%%cooldown.dragonrage.duration=0||cooldown.dragonrage.duration%%trinket.2.cooldown.duration=0)\n# Estimates a trinkets value by comparing the cooldown of the trinket, divided by the duration of the buff it provides. Has a intellect modifier (currently 1.5x) to give a higher priority to intellect trinkets. The intellect modifier should be changed as intellect priority increases or decreases. As well as a modifier for if a trinket will or will not sync with cooldowns.\nactions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.spoils_of_neltharus\nactions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.spoils_of_neltharus\nactions.precombat+=/variable,name=trinket_1_exclude,value=trinket.1.is.ruby_whelp_shell||trinket.1.is.whispering_incarnate_icon\nactions.precombat+=/variable,name=trinket_2_exclude,value=trinket.2.is.ruby_whelp_shell||trinket.2.is.whispering_incarnate_icon\nactions.precombat+=/variable,name=trinket_priority,op=setif,value=2,value_else=1,condition=!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.2.cooldown.duration%trinket.2.proc.any_dps.duration)*(1.5+trinket.2.has_buff.intellect)*(variable.trinket_2_sync))>((trinket.1.cooldown.duration%trinket.1.proc.any_dps.duration)*(1.5+trinket.1.has_buff.intellect)*(variable.trinket_1_sync))\nactions.precombat+=/use_item,name=shadowed_orb_of_torment\nactions.precombat+=/firestorm,if=talent.firestorm\nactions.precombat+=/living_flame,if=!talent.firestorm\n\nactions+=/quell\nactions+=/unravel\nactions+=/potion,if=buff.dragonrage.up||boss&fight_remains<35\n# Variable that evaluates when next dragonrage is by working out the maximum between the dragonrage cd and your empowers, ignoring CDR effect estimates.\nactions+=/variable,name=next_dragonrage,value=cooldown.dragonrage.remains\nactions+=/variable,name=next_dragonrage,op=max,value=cooldown.eternity_surge.remains-2*gcd.max\nactions+=/variable,name=next_dragonrage,op=max,value=cooldown.fire_breath.remains-gcd.max\n# Rank 1 empower spell cast time TODO: multiplier should be 1.0 but 1.3 results in more dps for EBF builds\nactions+=/variable,name=r1_cast_time,value=1.3*spell_haste\nactions+=/call_action_list,name=trinkets\nactions+=/run_action_list,name=aoe,strict=1,if=spell_targets.pyre>=3\nactions+=/run_action_list,name=st,strict=1,if=spell_targets.pyre<3\n\n# ST Action List, it's a mess\nactions.st+=/use_item,name=kharnalex_the_first_light,if=!buff.dragonrage.up&debuff.shattering_star_debuff.down\nactions.st+=/dragonrage,if=cooldown.fire_breath.remains<gcd.max&cooldown.eternity_surge.remains<2*gcd.max||boss&fight_remains<30\n# Use to extend DR when an empower cast won't fit inside the DR window anymore. When running FTF use on ES at the start of DR to maximize uses\nactions.st+=/tip_the_scales,if=buff.dragonrage.up&(buff.dragonrage.remains<variable.r1_cast_time&(buff.dragonrage.remains>cooldown.fire_breath.remains||buff.dragonrage.remains>cooldown.eternity_surge.remains)||talent.feed_the_flames&!cooldown.fire_breath.up)\nactions.st+=/call_action_list,name=fb,if=!talent.dragonrage||variable.next_dragonrage>15||!talent.animosity||empowering.fire_breath\nactions.st+=/call_action_list,name=es,if=!talent.dragonrage||variable.next_dragonrage>15||!talent.animosity||empowering.eternity_surge\n# Wait for FB/ES to be ready if spending another GCD would result in the cast no longer fitting inside of DR\nactions.st+=/wait,sec=cooldown.fire_breath.remains,if=talent.animosity&buff.dragonrage.up&buff.dragonrage.remains<gcd.max+variable.r1_cast_time*buff.tip_the_scales.down&buff.dragonrage.remains-cooldown.fire_breath.remains>=variable.r1_cast_time*buff.tip_the_scales.down\nactions.st+=/wait,sec=cooldown.eternity_surge.remains,if=talent.animosity&buff.dragonrage.up&buff.dragonrage.remains<gcd.max+variable.r1_cast_time&buff.dragonrage.remains-cooldown.eternity_surge.remains>variable.r1_cast_time*buff.tip_the_scales.down\n# Wait for 2 EBs to use SS while inside DR, otherwise use on CD\nactions.st+=/shattering_star,if=!buff.dragonrage.up||buff.essence_burst.stack==buff.essence_burst.max_stack||talent.eye_of_infinity\n# Spend the last 1 or 2 GCDs of DR on fillers to exit with 2 EBs\nactions.st+=/living_flame,if=buff.dragonrage.up&buff.dragonrage.remains<(buff.essence_burst.max_stack-buff.essence_burst.stack)*gcd.max&buff.burnout.up\nactions.st+=/azure_strike,if=buff.dragonrage.up&buff.dragonrage.remains<(buff.essence_burst.max_stack-buff.essence_burst.stack)*gcd.max\n# Hard cast only outside of SS and DR windows, always spend snapfire procs\nactions.st+=/firestorm,if=!buff.dragonrage.up&debuff.shattering_star_debuff.down||buff.snapfire.up\n# Spend burnout procs without overcapping resources\nactions.st+=/living_flame,if=buff.burnout.up&buff.essence_burst.stack<buff.essence_burst.max_stack&essence<essence.max-1\n# Ensure we clip Disintegrate inside DR even with our fillers, Pool 1-2 GCDs before SS is up inside DR\nactions.st+=/azure_strike,if=buff.dragonrage.up&(essence<3&!buff.essence_burst.up||(talent.shattering_star&cooldown.shattering_star.remains<=(buff.essence_burst.max_stack-buff.essence_burst.stack)*gcd.max))\n# In DR chain/clip after the 3rd damage tick, Outside of DR pool 6 seconds before SS unless it would result in overcapping resources TODO: revisit pooling conditions\nactions.st+=/disintegrate,chain=1,early_chain_if=evoker.use_early_chaining&buff.dragonrage.up&ticks>=2,interrupt_if=buff.dragonrage.up&ticks>=2&(evoker.use_clipping||cooldown.fire_breath.up||cooldown.eternity_surge.up),if=buff.dragonrage.up||(!talent.shattering_star||cooldown.shattering_star.remains>6||essence>essence.max-1||buff.essence_burst.stack==buff.essence_burst.max_stack)\nactions.st+=/deep_breath,if=!buff.dragonrage.up&spell_targets.deep_breath>1\nactions.st+=/living_flame\n\n# AOE action list, also a mess.\nactions.aoe+=/dragonrage,if=cooldown.fire_breath.remains<=gcd.max&cooldown.eternity_surge.remains<3*gcd.max\nactions.aoe+=/tip_the_scales,if=buff.dragonrage.up&(spell_targets.pyre<=6||!cooldown.fire_breath.up)\nactions.aoe+=/call_action_list,name=fb,if=buff.dragonrage.up||!talent.dragonrage||cooldown.dragonrage.remains>10&talent.everburning_flame\nactions.aoe+=/fire_breath,empower_to=1,if=cooldown.dragonrage.remains>10&spell_targets.pyre>=7\nactions.aoe+=/fire_breath,empower_to=2,if=cooldown.dragonrage.remains>10&spell_targets.pyre>=6\nactions.aoe+=/fire_breath,empower_to=3,if=cooldown.dragonrage.remains>10&spell_targets.pyre>=4\nactions.aoe+=/fire_breath,empower_to=2,if=cooldown.dragonrage.remains>10||empowering.fire_breath\nactions.aoe+=/call_action_list,name=es,if=buff.dragonrage.up||!talent.dragonrage||cooldown.dragonrage.remains>15||empowering.eternity_surge\nactions.aoe+=/azure_strike,if=buff.dragonrage.up&buff.dragonrage.remains<(buff.essence_burst.max_stack-buff.essence_burst.stack)*gcd.max\nactions.aoe+=/deep_breath,if=!buff.dragonrage.up\nactions.aoe+=/firestorm\nactions.aoe+=/shattering_star\nactions.aoe+=/azure_strike,if=cooldown.dragonrage.remains<gcd.max*6&cooldown.fire_breath.remains<6*gcd.max&cooldown.eternity_surge.remains<6*gcd.max\nactions.aoe+=/pyre,if=talent.volatility\nactions.aoe+=/living_flame,if=buff.burnout.up&buff.leaping_flames.up&!buff.essence_burst.up\nactions.aoe+=/pyre,if=cooldown.dragonrage.remains>=10&spell_targets.pyre>=4\nactions.aoe+=/pyre,if=cooldown.dragonrage.remains>=10&spell_targets.pyre=3&buff.charged_blast.stack>=10\nactions.aoe+=/disintegrate,chain=1,if=!talent.shattering_star||cooldown.shattering_star.remains>5||essence>essence.max-1||buff.essence_burst.stack=buff.essence_burst.max_stack\nactions.aoe+=/living_flame,if=talent.snapfire&buff.burnout.up\nactions.aoe+=/azure_strike\n\n# Use Firebreath with some really weird criteria. Override it for st because its not actually useful? Idk. TODO: Someone look at this it's a mess.\nactions.fb+=/fire_breath,empower_to=1,if=(20+2*talent.blast_furnace.rank)+dot.fire_breath_damage.remains<(20+2*talent.blast_furnace.rank)*1.3||buff.dragonrage.remains<1.75*spell_haste&buff.dragonrage.remains>=1*spell_haste||active_enemies<=2\nactions.fb+=/fire_breath,empower_to=2,if=(14+2*talent.blast_furnace.rank)+dot.fire_breath_damage.remains<(20+2*talent.blast_furnace.rank)*1.3||buff.dragonrage.remains<2.5*spell_haste&buff.dragonrage.remains>=1.75*spell_haste\nactions.fb+=/fire_breath,empower_to=3,if=(8+2*talent.blast_furnace.rank)+dot.fire_breath_damage.remains<(20+2*talent.blast_furnace.rank)*1.3||!talent.font_of_magic||buff.dragonrage.remains<=3.25*spell_haste&buff.dragonrage.remains>=2.5*spell_haste\nactions.fb+=/fire_breath,empower_to=4\n\n# Eternity Surge, use rank most applicable to targets.\nactions.es+=/eternity_surge,empower_to=1,if=spell_targets.pyre<=1+talent.eternitys_span||buff.dragonrage.remains<1.75*spell_haste&buff.dragonrage.remains>=1*spell_haste\nactions.es+=/eternity_surge,empower_to=2,if=spell_targets.pyre<=2+2*talent.eternitys_span||buff.dragonrage.remains<2.5*spell_haste&buff.dragonrage.remains>=1.75*spell_haste\nactions.es+=/eternity_surge,empower_to=3,if=spell_targets.pyre<=3+3*talent.eternitys_span||!talent.font_of_magic||buff.dragonrage.remains<=3.25*spell_haste&buff.dragonrage.remains>=2.5*spell_haste\nactions.es+=/eternity_surge,empower_to=4\n\n# Try and get spoils to prvide haste or mastery stats, but if dragonrage gets too short just use it anyway.\nactions.trinkets+=/use_item,name=spoils_of_neltharus,if=buff.dragonrage.up&(buff.spoils_of_neltharus_mastery.up||buff.spoils_of_neltharus_haste.up||buff.dragonrage.remains+6*((cooldown.eternity_surge.remains<=gcd.max*2)+(cooldown.fire_breath.remains<=gcd.max*2))<=18)||boss&fight_remains<=20\n# The trinket with the highest estimated value, will be used first and paired with Dragonrage.\nactions.trinkets+=/use_item,slot=trinket1,if=buff.dragonrage.up&(!trinket.2.has_cooldown||trinket.2.cooldown.remains||variable.trinket_priority=1||variable.trinket_2_exclude)&!variable.trinket_1_manual||trinket.1.proc.any_dps.duration>=fight_remains||trinket.1.cooldown.duration<=60&(variable.next_dragonrage>20||!talent.dragonrage)&(!buff.dragonrage.up||variable.trinket_priority=1)\nactions.trinkets+=/use_item,slot=trinket2,if=buff.dragonrage.up&(!trinket.1.has_cooldown||trinket.1.cooldown.remains||variable.trinket_priority=2||variable.trinket_1_exclude)&!variable.trinket_2_manual||trinket.2.proc.any_dps.duration>=fight_remains||trinket.2.cooldown.duration<=60&(variable.next_dragonrage>20||!talent.dragonrage)&(!buff.dragonrage.up||variable.trinket_priority=2)\n# If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.\nactions.trinkets+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&(trinket.2.cooldown.remains||!variable.trinket_2_buffs)&(variable.next_dragonrage>20||!talent.dragonrage)&!variable.trinket_1_manual\nactions.trinkets+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&(trinket.1.cooldown.remains||!variable.trinket_1_buffs)&(variable.next_dragonrage>20||!talent.dragonrage)&!variable.trinket_2_manual",
+				},
+				["Preservation"] = {
+					["builtIn"] = true,
+					["date"] = 20230205,
+					["author"] = "Hekili",
+					["profile"] = "actions.precombat+=/blessing_of_the_bronze\n\nactions+=/quell\nactions+=/cauterizing_flame\nactions+=/unravel\nactions+=/deep_breath\nactions+=/potion\nactions+=/use_items\nactions+=/fire_breath,empower_to=1,if=fight_remains>14+cast_time\nactions+=/fire_breath,empower_to=2,if=fight_remains>8+cast_time\nactions+=/fire_breath,empower_to=3,if=fight_remains>2+cast_time\nactions+=/fire_breath,empower_to=4,if=fight_remains>cast_time\nactions+=/hover,if=moving\nactions+=/disintegrate,if=buff.essence_burst.up&(!moving||buff.hover.remains>cast_time)\nactions+=/living_flame,if=!moving||buff.hover.remains>cast_time\nactions+=/azure_strike,if=moving&buff.hover.down",
+					["version"] = 20230205,
+					["warnings"] = "Imported 2 action lists.\n",
+					["lists"] = {
+						["default"] = {
+							{
+								["action"] = "quell",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["action"] = "cauterizing_flame",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["action"] = "unravel",
+								["enabled"] = true,
+							}, -- [3]
+							{
+								["action"] = "deep_breath",
+								["enabled"] = true,
+							}, -- [4]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [5]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "fight_remains > 14 + cast_time",
+								["action"] = "fire_breath",
+								["empower_to"] = 1,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "fight_remains > 8 + cast_time",
+								["action"] = "fire_breath",
+								["empower_to"] = 2,
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "fight_remains > 2 + cast_time",
+								["action"] = "fire_breath",
+								["empower_to"] = 3,
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "fight_remains > cast_time",
+								["action"] = "fire_breath",
+								["empower_to"] = 4,
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "moving",
+								["action"] = "hover",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.essence_burst.up & ( ! moving || buff.hover.remains > cast_time )",
+								["action"] = "disintegrate",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "! moving || buff.hover.remains > cast_time",
+								["action"] = "living_flame",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "moving & buff.hover.down",
+								["action"] = "azure_strike",
+							}, -- [14]
+						},
+						["precombat"] = {
+							{
+								["action"] = "blessing_of_the_bronze",
+								["enabled"] = true,
+							}, -- [1]
+						},
+					},
+					["spec"] = 1468,
+				},
+			},
+		},
+	},
+}

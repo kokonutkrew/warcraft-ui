@@ -1,0 +1,39 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Emerald Dream.Wratheane"] = {
+				["activeSpecRole"] = "DAMAGER",
+				["lastUpdate"] = 1678586268,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["activeSpecIndex"] = 1,
+				["activeSpecName"] = "Devastation",
+				["Class"] = "EVOKER",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Wratheane - Emerald Dream"] = "Wratheane - Emerald Dream",
+	},
+	["global"] = {
+		["EVOKER"] = {
+			["Locale"] = "enUS",
+			["Specializations"] = {
+				{
+					["id"] = 1467,
+				}, -- [1]
+				{
+					["id"] = 1468,
+				}, -- [2]
+			},
+			["Version"] = 48526,
+		},
+	},
+}

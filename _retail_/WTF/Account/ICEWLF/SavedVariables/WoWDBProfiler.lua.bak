@@ -1,0 +1,568 @@
+
+WoWDBProfilerData = {
+	["profileKeys"] = {
+		["Samoanslayer - Emerald Dream"] = "Default",
+		["Ärgo - Arygos"] = "Default",
+		["Samoanbeast - Ravenholdt"] = "Default",
+		["Samoanstrap - Tichondrius"] = "Default",
+		["Samoansage - Tichondrius"] = "Default",
+		["Samoansavage - Stormrage"] = "Default",
+		["Taichipanda - Arygos"] = "Default",
+		["Täichipanda - Bloodscalp"] = "Default",
+		["Samoantitan - Stormrage"] = "Default",
+	},
+	["region"] = "US",
+	["global"] = {
+		["items"] = {
+			[112668] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+			},
+			[70525] = {
+				["durability"] = 55,
+			},
+			[89555] = {
+				["durability"] = 50,
+			},
+			[156477] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[140696] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 91,
+				["suffix_id"] = 0,
+				["seen_bonuses"] = {
+					["3380"] = true,
+				},
+				["durability"] = 90,
+				["unique_id"] = 0,
+			},
+			[109869] = {
+				["instance_difficulty_id"] = 17,
+				["upgrade_value"] = 529,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
+			[39] = {
+				["durability"] = 40,
+			},
+			[63924] = {
+				["durability"] = 40,
+			},
+			[122355] = {
+				["instance_difficulty_id"] = 14,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[65915] = {
+				["durability"] = 85,
+			},
+			[70581] = {
+				["durability"] = 100,
+			},
+			[90377] = {
+				["durability"] = 85,
+			},
+			[87284] = {
+				["durability"] = 100,
+			},
+			[40] = {
+				["durability"] = 25,
+			},
+			[122383] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[80870] = {
+				["durability"] = 140,
+			},
+			[122391] = {
+				["instance_difficulty_id"] = 14,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[112441] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 140,
+				["unique_id"] = 0,
+			},
+			[72874] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 80,
+				["suffix_id"] = 0,
+			},
+			[2901] = {
+				["durability"] = 20,
+			},
+			[116485] = {
+				["instance_difficulty_id"] = 17,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+			},
+			[66936] = {
+				["durability"] = 85,
+			},
+			[115800] = {
+				["instance_difficulty_id"] = 13,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 529,
+			},
+			[63895] = {
+				["durability"] = 40,
+			},
+			[82040] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 40,
+				["suffix_id"] = 0,
+			},
+			[51992] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[58231] = {
+				["durability"] = 55,
+			},
+			[51996] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[122376] = {
+				["instance_difficulty_id"] = 0,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[65969] = {
+				["durability"] = 100,
+			},
+			[9416] = {
+				["durability"] = 100,
+			},
+			[112812] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 40,
+				["unique_id"] = 0,
+			},
+			[76150] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 55,
+				["suffix_id"] = 0,
+			},
+			[87305] = {
+				["durability"] = 50,
+			},
+			[109851] = {
+				["instance_difficulty_id"] = 17,
+				["upgrade_value"] = 529,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
+			[110560] = {
+				["instance_difficulty_id"] = 11,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 0,
+			},
+			[69551] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 100,
+				["suffix_id"] = 0,
+			},
+			[109776] = {
+				["instance_difficulty_id"] = 17,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 529,
+			},
+			[112433] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 100,
+				["unique_id"] = 0,
+			},
+			[80903] = {
+				["durability"] = 50,
+			},
+			[9752] = {
+				["durability"] = 25,
+			},
+			[72863] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["durability"] = 120,
+				["suffix_id"] = 0,
+			},
+			[117140] = {
+				["durability"] = 40,
+			},
+			[51965] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 50,
+				["unique_id"] = 0,
+			},
+			[1819] = {
+				["durability"] = 60,
+			},
+			[122381] = {
+				["instance_difficulty_id"] = 14,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[12225] = {
+				["durability"] = 25,
+			},
+			[112666] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+			},
+			[57255] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["seen_bonuses"] = {
+					["0"] = true,
+				},
+				["durability"] = 20,
+				["suffix_id"] = 0,
+			},
+			[117139] = {
+				["durability"] = 40,
+			},
+			[140694] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 91,
+				["suffix_id"] = 0,
+				["durability"] = 100,
+				["unique_id"] = 0,
+			},
+			[117134] = {
+				["durability"] = 55,
+			},
+			[49778] = {
+				["durability"] = 25,
+			},
+			[80896] = {
+				["durability"] = 140,
+			},
+			[80900] = {
+				["durability"] = 85,
+			},
+			[63344] = {
+				["durability"] = 60,
+			},
+			[106297] = {
+				["instance_difficulty_id"] = 17,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 70,
+				["unique_id"] = 0,
+			},
+			[110015] = {
+				["instance_difficulty_id"] = 17,
+				["suffix_id"] = 0,
+				["unique_id"] = 0,
+				["upgrade_value"] = 529,
+			},
+			[108909] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["suffix_id"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+			},
+		},
+		["objects"] = {
+			["201987"] = {
+				["NONE:0:false"] = {
+					["locations"] = {
+						["Stormwind City:84"] = {
+							["3:546:576"] = true,
+						},
+					},
+				},
+			},
+			["171699"] = {
+				["NONE:0:false"] = {
+					["locations"] = {
+						["City of Ironforge:87"] = {
+							["3:334:646"] = true,
+						},
+					},
+				},
+			},
+			["197135"] = {
+				["NONE:0:false"] = {
+					["locations"] = {
+						["Stormwind City:84"] = {
+							["3:624:750"] = true,
+							["3:624:748"] = true,
+						},
+					},
+				},
+			},
+		},
+		["npcs"] = {
+			["951"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[17843] = 60,
+							[93091] = 84,
+							[13864] = 18,
+							[93094] = 73,
+						},
+					},
+				},
+			},
+			["2461"] = {
+				["is_pvp"] = true,
+				["genders"] = {
+					["MALE"] = true,
+				},
+				["faction"] = "Ironforge",
+				["reaction"] = "91:Alliance:FRIENDLY",
+				["class"] = "WARRIOR",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_45"] = {
+								["locations"] = {
+									["City of Ironforge:87"] = {
+										["3:356:606"] = true,
+									},
+								},
+								["max_health"] = 4416,
+							},
+						},
+					},
+				},
+				["banker"] = true,
+			},
+			["52359"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[96847] = 2,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+			["49871"] = {
+				["reaction"] = "1:Alliance:NEUTRAL",
+				["class"] = "WARRIOR",
+				["genders"] = {
+					["MALE"] = true,
+				},
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_1"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:304:440"] = true,
+										["3:314:456"] = true,
+										["3:316:436"] = true,
+										["3:338:400"] = true,
+										["3:290:438"] = true,
+										["3:298:442"] = true,
+										["3:298:448"] = true,
+										["3:290:466"] = true,
+										["3:342:384"] = true,
+										["3:340:390"] = true,
+										["3:322:434"] = true,
+										["3:286:446"] = true,
+										["3:290:458"] = true,
+										["3:292:446"] = true,
+										["3:286:452"] = true,
+									},
+								},
+								["max_health"] = 31,
+							},
+						},
+					},
+				},
+			},
+			["49874"] = {
+				["genders"] = {
+					["MALE"] = true,
+					["FEMALE"] = true,
+				},
+				["class"] = "WARRIOR",
+				["reaction"] = "1:Alliance:NEUTRAL",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_1"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:288:464"] = true,
+									},
+								},
+								["max_health"] = 31,
+							},
+							["level_2"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:292:466"] = true,
+										["3:288:460"] = true,
+									},
+								},
+								["max_health"] = 38,
+							},
+						},
+						["spells"] = {
+							[92857] = 92,
+							[80676] = 50,
+						},
+					},
+				},
+			},
+			["197"] = {
+				["genders"] = {
+					["MALE"] = true,
+				},
+				["faction"] = "Stormwind",
+				["class"] = "WARRIOR",
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+							["level_20"] = {
+								["locations"] = {
+									["Northshire:425"] = {
+										["3:330:534"] = true,
+										["3:336:530"] = true,
+									},
+								},
+								["max_health"] = 393,
+							},
+						},
+					},
+				},
+				["reaction"] = "2:Alliance:FRIENDLY",
+			},
+			["61834"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[79849] = 1,
+						},
+					},
+				},
+			},
+			["61836"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["stats"] = {
+						},
+						["spells"] = {
+							[79849] = 1,
+						},
+					},
+				},
+			},
+			["823"] = {
+				["encounter_data"] = {
+					["NONE:0:false"] = {
+						["spells"] = {
+							[104945] = 3,
+						},
+						["stats"] = {
+						},
+					},
+				},
+			},
+		},
+		["quests"] = {
+			[28766] = {
+				["reward_text"] = "You've bought us a little time, <name>, but we've got even bigger problems to deal with now.",
+				["progress_text"] = "Have you beaten back the Blackrock worgs?",
+				["end"] = {
+					["NPC:197"] = true,
+				},
+			},
+			[33765] = {
+			},
+			[11196] = {
+			},
+			[29186] = {
+				["can_share"] = true,
+			},
+			[29356] = {
+			},
+			[29444] = {
+			},
+			[33070] = {
+				["can_share"] = true,
+			},
+			[29443] = {
+			},
+			[31742] = {
+				["can_share"] = true,
+			},
+			[30104] = {
+				["can_share"] = true,
+			},
+			[14482] = {
+			},
+			[33905] = {
+				["can_share"] = true,
+			},
+			[31743] = {
+				["can_share"] = true,
+			},
+			[34779] = {
+				["can_share"] = true,
+			},
+			[30099] = {
+				["can_share"] = true,
+			},
+		},
+	},
+	["build_num"] = 31478,
+	["version"] = 19,
+}

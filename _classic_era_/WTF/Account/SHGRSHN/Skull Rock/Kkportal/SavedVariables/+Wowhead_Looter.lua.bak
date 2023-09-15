@@ -1,0 +1,9 @@
+
+wlScans = {
+	["titles"] = "",
+	["timePlayedTotal"] = 339,
+}
+wlSetting = {
+}
+wlPetBlacklist = nil
+wlUIReloaded = nil

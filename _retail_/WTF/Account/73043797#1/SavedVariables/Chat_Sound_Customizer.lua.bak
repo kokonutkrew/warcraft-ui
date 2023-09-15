@@ -1,0 +1,18 @@
+
+ChatSoundCustomizerDB = {
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["namespaces"] = {
+		["ZoneChannel"] = {
+		},
+		["PlayerList"] = {
+		},
+		["IgnoreList"] = {
+		},
+		["LDB"] = {
+		},
+	},
+}

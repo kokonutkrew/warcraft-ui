@@ -1,0 +1,5 @@
+VER 3 0000000001000001 "Concussive" "134400"
+#showtooltip
+/petattack
+/use concussive shot
+END

@@ -1,0 +1,15 @@
+
+HandyNotesDraenorDB = {
+	["profileKeys"] = {
+		["Mygallexi - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Integration"] = {
+				["DBM"] = {
+					["Loaded"] = true,
+				},
+			},
+		},
+	},
+}

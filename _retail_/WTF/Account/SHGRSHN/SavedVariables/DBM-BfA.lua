@@ -1,0 +1,2 @@
+
+DBMAzerothBfA_AllSavedVars = nil

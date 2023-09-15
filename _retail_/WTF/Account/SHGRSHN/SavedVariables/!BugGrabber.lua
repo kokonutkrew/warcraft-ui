@@ -1,0 +1,178 @@
+
+BugGrabberDB = {
+	["lastSanitation"] = 3,
+	["session"] = 3045,
+	["errors"] = {
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'TradeSkillMaster' tried to call the protected function 'UNKNOWN()'.",
+			["time"] = "2023/01/24 22:37:08",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1402: in function <Interface/FrameXML/ContainerFrame.lua:1311>\n[string \"=[C]\"]: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1454: in function <Interface/FrameXML/ContainerFrame.lua:1441>",
+			["session"] = 2933,
+			["counter"] = 1,
+		}, -- [1]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'BuyEmAll' tried to call the protected function 'UNKNOWN()'.",
+			["time"] = "2023/01/25 02:37:46",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1402: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1454: in function <Interface/FrameXML/ContainerFrame.lua:1441>",
+			["session"] = 2939,
+			["counter"] = 1,
+		}, -- [2]
+		{
+			["message"] = "[string \"return function() -- Interactables - On Ini...\"]:426: attempt to call method 'GetUnit' (a nil value)",
+			["time"] = "2023/01/23 15:12:28",
+			["locals"] = "self = HandyNotes_DragonflightTreasuresComparisonTooltip {\n 0 = <userdata>\n SetQuestLogRewardSpell = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetQuestPartyProgress = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n ProcessLineData = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:303\n SetPvpTalent = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetExistingSocketGem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetHyperlink = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetUnit = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetAzeriteEssence = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetVoidDepositItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetVoidWithdrawalItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetInfoBackdropStyle = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:338\n SetSocketGem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetLootCurrency = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetSlottedKeystone = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetItemInteractionItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetLootItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetOwnedItemByID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetQuestLogSpecialItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetRecipeReagentItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetBuybackItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetWeeklyReward = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetMerchantItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetPvpBrawl = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n BottomOverlay = Texture {\n }\n SetSpellByID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetSocketedRelic = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n ProcessInfo = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:236\n ProcessLines = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:293\n NineSlice = Frame {\n }\n SetInventoryItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n info = <table> {\n }\n updateTooltipTimer = 0.200000\n SetLootRollItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n InternalProcessInfo = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:240\n SetPossession = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetUnitDebuffByAuraInstanceID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetBagItem = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n TextRight1 = HandyNotes_DragonflightTreasuresComparisonTooltipTextRight1 {\n }\n SetAction = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetLineDataAttribute = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:232\n SetAchievementByID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetInventoryItemByID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetQuestCurrency = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetCurrencyByID = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetQuestLogCurrency = <function> defined @Interface/SharedXML/Tooltip/TooltipDataHandler.lua:444\n SetBagItemChild = <function>",
+			["stack"] = "[string \"return function() -- Interactables - On Init\"]:426: in function <[string \"return function() -- Interactables - On Ini...\"]:425>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `securecallfunction'\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:60: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:55>\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:80: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:76>\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:116: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:106>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:141: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:134>\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:282: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:240>\n[string \"=[C]\"]: in function `securecallfunction'\n[string \"@Interface/SharedXML/Tooltip/TooltipDataHandler.lua\"]:237: in function <Interface/SharedXML/Tooltip/TooltipDataHandler.lua:236>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/HandyNotes_DragonflightTreasures/handler/handler.lua\"]:969: in function <...HandyNotes_DragonflightTreasures/handler/handler.lua:785>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/HandyNotes_DragonflightTreasures/handler/handler.lua\"]:1042: in function <...HandyNotes_DragonflightTreasures/handler/handler.lua:1018>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/HandyNotes/HandyNotes.lua\"]:56: in function <Interface/AddOns/HandyNotes/HandyNotes.lua:51>\n[string \"@Interface/AddOns/HandyNotes/HandyNotes.lua\"]:166: in function `OnEnter'\n[string \"@Interface/AddOns/HandyNotes/HandyNotes.lua\"]:399: in function <Interface/AddOns/HandyNotes/HandyNotes.lua:398>",
+			["session"] = 2944,
+			["counter"] = 2,
+		}, -- [3]
+		{
+			["message"] = "...AddOns/Hekili/Libs/SpellFlashCore/SpellFlashCore.lua:162: Usage: NonEmptyItem:ContinueOnItemLoad(callbackFunction) invalid itemID: <199830>",
+			["time"] = "2023/01/25 22:35:50",
+			["locals"] = "(*temporary) = \"Usage: NonEmptyItem:ContinueOnItemLoad(callbackFunction) invalid itemID: <199830>\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/FrameXML/ObjectAPI/Item.lua\"]:320: in function `ValidateForContinueOnItemLoad'\n[string \"@Interface/FrameXML/ObjectAPI/Item.lua\"]:329: in function `ContinueOnItemLoad'\n[string \"@Interface/AddOns/Hekili/Libs/SpellFlashCore/SpellFlashCore.lua\"]:162: in function `Function'\n[string \"@Interface/AddOns/Hekili/Libs/SpellFlashCore/libs/BigLibTimer/BigLibTimer.lua\"]:35: in function `OnUpdate'\n[string \"@Interface/AddOns/Hekili/Libs/SpellFlashCore/libs/BigLibTimer/BigLibTimer.lua\"]:19: in function <...Libs/SpellFlashCore/libs/BigLibTimer/BigLibTimer.lua:19>",
+			["session"] = 2950,
+			["counter"] = 2,
+		}, -- [4]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'OribosExchange' tried to call the protected function 'PetActionButton1:SetShown()'.",
+			["time"] = "2023/02/03 11:09:44",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/FrameXML/ActionBar.lua\"]:218: in function `UpdateShownButtons'\n[string \"@Interface/FrameXML/PetActionBar.lua\"]:77: in function <Interface/FrameXML/PetActionBar.lua:70>\n[string \"=[C]\"]: ?",
+			["session"] = 2971,
+			["counter"] = 1,
+		}, -- [5]
+		{
+			["message"] = "...rface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua:103: attempt to compare nil with number",
+			["time"] = "2023/02/03 11:12:08",
+			["locals"] = "(*temporary) = nil\n(*temporary) = 5\n(*temporary) = false\n(*temporary) = \"attempt to compare nil with number\"\nisAutoAccepting = true\ndisplayedRaidConvert = true\nInviteApplicants = <function> defined @Interface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua:13\n",
+			["stack"] = "[string \"@Interface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua\"]:103: in function <...rface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua:90>\n[string \"@Interface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua\"]:125: in function <...rface/AddOns/PremadeAutoAccept/PremadeAutoAccept.lua:115>",
+			["session"] = 2971,
+			["counter"] = 2,
+		}, -- [6]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Hekili' tried to call the protected function 'SpellButton10:Show()'.",
+			["time"] = "2023/02/03 11:26:11",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:335: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:1399: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:301: in function `SpellBookFrame_Update'\n[string \"@Interface/FrameXML/SpellBookFrame.lua\"]:144: in function <Interface/FrameXML/SpellBookFrame.lua:142>",
+			["session"] = 2971,
+			["counter"] = 1,
+		}, -- [7]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'TradeSkillMaster' tried to call the protected function 'GetLastTicketResponse()'.",
+			["time"] = "2023/02/03 23:42:44",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: in function `GetLastTicketResponse'\n[string \"@Interface/AddOns/Blizzard_Communities/CommunitiesHyperlink.lua\"]:10: in function <...AddOns/Blizzard_Communities/CommunitiesHyperlink.lua:7>",
+			["session"] = 2977,
+			["counter"] = 1,
+		}, -- [8]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'AddonFactory' tried to call the protected function 'FriendsFrame:Hide()'.",
+			["time"] = "2023/02/04 01:46:26",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3384: in function <Interface/FrameXML/UIParent.lua:3379>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3422: in function <Interface/FrameXML/UIParent.lua:3391>\n[string \"=[C]\"]: in function `CloseWindows'\n[string \"@Interface/FrameXML/UIParent.lua\"]:3439: in function <Interface/FrameXML/UIParent.lua:3437>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/FrameXML/UIParent.lua\"]:4088: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
+			["session"] = 2983,
+			["counter"] = 1,
+		}, -- [9]
+		{
+			["message"] = "Usage: local recipeIDs = C_TradeSkillUI.GetRecipesTracked(isRecraft)",
+			["time"] = "2023/02/02 22:35:48",
+			["locals"] = "(*temporary) = \"Usage: local recipeIDs = C_TradeSkillUI.GetRecipesTracked(isRecraft)\"\n",
+			["stack"] = "[string \"=[C]\"]: in function `GetRecipesTracked'\n[string \"@Interface/AddOns/Auctionator/Source_Mainline/CraftingInfo/Mixins/ObjectiveTracker.lua\"]:35: in function `IsAnythingTracked'\n[string \"@Interface/AddOns/Auctionator/Source_Mainline/CraftingInfo/Mixins/ObjectiveTracker.lua\"]:24: in function `ShowIfRelevant'\n[string \"@Interface/AddOns/Auctionator/Source_Mainline/CraftingInfo/Mixins/ObjectiveTracker.lua\"]:44: in function <...ce_Mainline/CraftingInfo/Mixins/ObjectiveTracker.lua:42>\n[string \"=[C]\"]: in function `SetRecipeTracked'\n[string \"@Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.lua\"]:139: in function <...emplates/Blizzard_ProfessionsRecipeSchematicForm.lua:134>",
+			["session"] = 2999,
+			["counter"] = 30,
+		}, -- [10]
+		{
+			["message"] = "Interface/FrameXML/StaticPopup.lua:1066: attempt to call global 'ComplainInboxItem' (a nil value)",
+			["time"] = "2023/02/14 02:30:06",
+			["locals"] = "self = StaticPopup1 {\n 0 = <userdata>\n hideOnEscape = 1\n SubText = FontString {\n }\n ItemFrame = StaticPopup1ItemFrame {\n }\n data = 1\n CoverFrame = Frame {\n }\n Border = Frame {\n }\n button3 = StaticPopup1Button3 {\n }\n itemFrame = StaticPopup1ItemFrame {\n }\n DarkOverlay = Frame {\n }\n AlertIcon = StaticPopup1AlertIcon {\n }\n extraFrame = StaticPopup1ExtraFrame {\n }\n numButtons = 2\n DropDownControl = Frame {\n }\n button4 = StaticPopup1Button4 {\n }\n maxWidthSoFar = 320\n SpinnerAnim = AnimationGroup {\n }\n onCloseCallback = <function> defined @Interface/FrameXML/StaticPopup.lua:5251\n moneyFrame = StaticPopup1MoneyFrame {\n }\n button1 = StaticPopup1Button1 {\n }\n icon = StaticPopup1AlertIcon {\n }\n text = StaticPopup1Text {\n }\n button2 = StaticPopup1Button2 {\n }\n editBox = StaticPopup1EditBox {\n }\n timeleft = 0\n CloseButton = StaticPopup1CloseButton {\n }\n extraButton = StaticPopup1ExtraButton {\n }\n Separator = Texture {\n }\n LoadingSpinner = Frame {\n }\n maxHeightSoFar = 85.000008\n moneyInputFrame = StaticPopup1MoneyInputFrame {\n }\n which = \"CONFIRM_REPORT_SPAM_MAIL\"\n}\nindex = 1\n(*temporary) = nil\n(*temporary) = 1\n(*temporary) = \"attempt to call global 'ComplainInboxItem' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/FrameXML/StaticPopup.lua\"]:1066: in function `OnAccept'\n[string \"@Interface/FrameXML/StaticPopup.lua\"]:5316: in function `StaticPopup_OnClick'\n[string \"*StaticPopup.xml:24_OnClick\"]:1: in function <[string \"*StaticPopup.xml:24_OnClick\"]:1>",
+			["session"] = 3021,
+			["counter"] = 3,
+		}, -- [11]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'OribosExchange' tried to call the protected function 'UNKNOWN()'.",
+			["time"] = "2023/01/24 19:16:59",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:480: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:480>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseContainerItem'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1402: in function <Interface/FrameXML/ContainerFrame.lua:1311>\n[string \"=[C]\"]: in function `ContainerFrameItemButton_OnClick'\n[string \"@Interface/FrameXML/ContainerFrame.lua\"]:1454: in function <Interface/FrameXML/ContainerFrame.lua:1441>",
+			["session"] = 3022,
+			["counter"] = 14,
+		}, -- [12]
+		{
+			["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+			["time"] = "2023/01/23 21:36:35",
+			["session"] = 3038,
+			["counter"] = 68,
+		}, -- [13]
+		{
+			["message"] = "Interface/AddOns/RecklessAbandon/Core/Core.lua:257: attempt to index field 'campaignQuests' (a nil value)",
+			["time"] = "2023/01/23 21:58:01",
+			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n frameType = \"Button\"\n ReleaseAll = <function> defined @Interface/SharedXML/Pools.lua:74\n activeObjects = <table> {\n }\n GetNextInactive = <function> defined @Interface/SharedXML/Pools.lua:92\n creationFunc = <function> defined @Interface/SharedXML/Pools.lua:116\n EnumerateActive = <function> defined @Interface/SharedXML/Pools.lua:84\n SetResetDisallowedIfNew = <function> defined @Interface/SharedXML/Pools.lua:80\n GetTemplate = <function> defined @Interface/SharedXML/Pools.lua:153\n OnLoad = <function> defined @Interface/SharedXML/Pools.lua:124\n frameTemplate = \"RECKLESS_GROUP_ABANDON_BUTTON\"\n IsActive = <function> defined @Interface/SharedXML/Pools.lua:96\n GetNumActive = <function> defined @Interface/SharedXML/Pools.lua:100\n resetterFunc = <function> defined @Interface/SharedXML/Pools.lua:161\n parent = QuestScrollFrame {\n }\n numActiveObjects = 0\n inactiveObjects = <table> {\n }\n Release = <function> defined @Interface/SharedXML/Pools.lua:59\n Acquire = <function> defined @Interface/SharedXML/Pools.lua:40\n GetNextActive = <function> defined @Interface/SharedXML/Pools.lua:88\n EnumerateInactive = <function> defined @Interface/SharedXML/Pools.lua:104\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <table> {\n}\n(*temporary) = Button {\n 0 = <userdata>\n tooltip = \"|cFFFFFAB8Dragonflight|r\n\n|cFFFFF569Left Click: Abandon all quests|r\"\n title = \"Dragonflight\"\n key = \"dragonflight\"\n}\n(*temporary) = nil\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = Button {\n 0 = <userdata>\n tooltip = \"|cFFFFFAB8Dragonflight|r\n\n|cFFFFF569Left Click: Abandon all quests|r\"\n title = \"Dragonflight\"\n key = \"dragonflight\"\n}\n(*temporary) = true\n(*temporary) = <table> {\n frameType = \"Button\"\n ReleaseAll = <function> defined @Interface/SharedXML/Pools.lua:74\n activeObjects = <table> {\n }\n GetNextInactive = <function> defined @Interface/SharedXML/Pools.lua:92\n creationFunc = <function> defined @Interface/SharedXML/Pools.lua:116\n EnumerateActive = <function> defined @Interface/SharedXML/Pools.lua:84\n SetResetDisallowedIfNew = <function> defined @Interface/SharedXML/Pools.lua:80\n GetTemplate = <function> defined @Interface/SharedXML/Pools.lua:153\n OnLoad = <function> defined @Interface/SharedXML/Pools.lua:124\n frameTemplate = \"RECKLESS_GROUP_ABANDON_BUTTON\"\n IsActive = <function> defined @Interface/SharedXML/Pools.lua:96\n GetNumActive = <function> defined @Interface/SharedXML/Pools.lua:100\n resetterFunc = <function> defined @Interface/SharedXML/Pools.lua:161\n parent = QuestScrollFrame {\n }\n numActiveObjects = 0\n inactiveObjects = <table> {\n }\n Release = <function> defined @Interface/SharedXML/Pools.lua:59\n Acquire = <function> defined @Interface/SharedXML/Pools.lua:40\n GetNextActive = <function> defined @Interface/SharedXML/Pools.lua:88\n EnumerateInactive = <function> defined @Interface/SharedXML/Pools.lua:104\n}\n(*temporary) = Button {\n 0 = <userdata>\n tooltip = \"|cFFFFFAB8Dragonflight|r\n\n|cFFFFF569Left Click: Abandon all quests|r\"\n title = \"Dragonflight\"\n key = \"dragonflight\"\n}\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"attempt to index field 'campaignQuests' (a nil value)\"\nquestButtonPool = <table> {\n frameType = \"Button\"\n ReleaseAll = <function> defined @Interface/SharedXML/Pools.lua:74\n activeObjects = <table> {\n }\n GetNextInactive = <function> defined @Interface/SharedXML/Pools.lua:92\n creationFunc = <function> defined @Interface/SharedXML/Pools.lua:116\n EnumerateActive = <function> defined @Interface/SharedXML/Pools.lua:84\n SetResetDisallowedIfNew = <function> defined @Interface/SharedXML/Pools.lua:80\n GetTemplate = <function> defined @Interface/SharedXML/Pools.lua:153\n OnLoad = <function> defined @Interface/SharedXML/Pools.lua:124\n frameTemplate = \"RECKLESS_ABANDON_BUTTON\"\n IsActive = <function> defined @Interface/SharedXML/Pools.lua:96\n GetNumActive = <function> defined @Interface/SharedXML/Pools.lua:100\n resetterFunc = <function> defined @Interface/SharedXML/Pools.lua:161\n parent = QuestScrollFrame {\n }\n numActiveObjects = 0\n inactiveObjects = <table> {\n }\n Release = <functio",
+			["stack"] = "[string \"@Interface/AddOns/RecklessAbandon/Core/Core.lua\"]:257: in function <Interface/AddOns/RecklessAbandon/Core/Core.lua:251>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetCVar'\n[string \"@Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua\"]:279: in function `SaveCacheOnCVar'\n[string \"@Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua\"]:379: in function `SaveData'\n[string \"@Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua\"]:947: in function `eventCallbackFunc'\n[string \"@Interface/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua\"]:956: in function <...face/AddOns/Details/Libs/LibOpenRaid/LibOpenRaid.lua:954>",
+			["session"] = 3040,
+			["counter"] = 164,
+		}, -- [14]
+		{
+			["message"] = "Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [15]
+		{
+			["message"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [16]
+		{
+			["message"] = "Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [17]
+		{
+			["message"] = "Interface/AddOns/!!!tdDevTools/Template/Event.xml:169 Unrecognized XML attribute: enableMouseWheel",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [18]
+		{
+			["message"] = "Interface/AddOns/MBB/MBB.xml:223 Unrecognized XML attribute: relativeFrom",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 56,
+		}, -- [19]
+		{
+			["message"] = "Interface/AddOns/MBB/MBB.xml:624 Unrecognized XML attribute: relativeFrom",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 56,
+		}, -- [20]
+		{
+			["message"] = "Interface/AddOns/MBB/MBB.xml:664 Unrecognized XML attribute: relativeFrom",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 56,
+		}, -- [21]
+		{
+			["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Frame.xml:13 Unrecognized XML attribute: userPlaced",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [22]
+		{
+			["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:3 Unrecognized XML attribute: enableMouseWheel",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [23]
+		{
+			["message"] = "Interface\\FrameXML\\Bindings.xml:1 Interface/AddOns/!!!tdDevTools/Template/Console.xml:86 Unrecognized XML attribute: enableMouseWheel",
+			["session"] = 3044,
+			["time"] = "2023/01/23 13:56:10",
+			["counter"] = 124,
+		}, -- [24]
+		{
+			["message"] = "Interface/AddOns/TomTom/TomTom_POIIntegration.lua:253: hooksecurefunc(): QuestPOIButton_OnClick is not a function",
+			["time"] = "2023/08/27 02:52:11",
+			["locals"] = "",
+			["stack"] = "[string \"=[C]\"]: in function `hooksecurefunc'\n[string \"@Interface/AddOns/TomTom/TomTom_POIIntegration.lua\"]:253: in main chunk",
+			["session"] = 3045,
+			["counter"] = 1,
+		}, -- [25]
+	},
+}

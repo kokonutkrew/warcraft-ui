@@ -1,0 +1,682 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1667863842,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 15442.434,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 15442.434,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 15442.434,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 15442.434,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 68,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hbuggrabber:Farmcraft:000001CBCD627270:|h|cffff0000[Error 000001CBCD627270]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 15442.434,
+				}, -- [1]
+				{
+					["message"] = "|Hbuggrabber:Farmcraft:000001CBCD6272C0:|h|cffff0000[Error 000001CBCD6272C0]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 15442.434,
+				}, -- [2]
+				{
+					["message"] = "|Hbuggrabber:Farmcraft:000001CBCD627310:|h|cffff0000[Error 000001CBCD627310]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 15442.434,
+				}, -- [3]
+				{
+					["message"] = "|Hbuggrabber:Farmcraft:000001CBCD626AF0:|h|cffff0000[Error 000001CBCD626AF0]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 15442.434,
+				}, -- [4]
+				{
+					["message"] = "|Hbuggrabber:Farmcraft:000001CBCD6273B0:|h|cffff0000[Error 000001CBCD6273B0]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 15442.434,
+				}, -- [5]
+				{
+					["message"] = "[ArenaMaster.IO]: |cff66ff33Current region: US|r",
+					["timestamp"] = 15442.434,
+				}, -- [6]
+				{
+					["message"] = "|cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15442.434,
+				}, -- [7]
+				{
+					["message"] = "BetterVendorPrice v1.17.05 by MooreaTv: type /bvp for command list/help.",
+					["timestamp"] = 15442.434,
+				}, -- [8]
+				{
+					["message"] = "|cff69CCF0 GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.14.1 |r(|cff9482C99.2 |r)",
+					["timestamp"] = 15442.434,
+				}, -- [9]
+				{
+					["message"] = "Gnobesy 0.2.1 is loaded. Use \"/GNOBESY\" to access settings.",
+					["timestamp"] = 15442.434,
+				}, -- [10]
+				{
+					["message"] = "|cfff7ff4dGuild Lottery & Raffle AddOn Version 3.1.25 Loaded Successfully.|r",
+					["timestamp"] = 15442.434,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:05]|h|r Premade Groups Filter: Migrated settings to version 3",
+					["timestamp"] = 15442.434,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:05]|h|r Premade Groups Filter: Migrated settings to version 4",
+					["timestamp"] = 15442.434,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:05]|h|r PvP tooltips brought to you by wowarenalogs.com!",
+					["timestamp"] = 15442.434,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:30]|h|r dev tools loaded",
+					["timestamp"] = 15442.434,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:30]|h|r slash-commands loaded",
+					["timestamp"] = 15442.434,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:30]|h|r Unknown macro option: etc",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 15442.434,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:31]|h|r |cff33ff99Rematch_TSMPetValues|r: |cFF33FF99(1.1.23)|r:  hooked into Rematch",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863842,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:35]|h|r |cff33ff99ArenaMarker|r by |cff69CCF0Mageiden|r. Type |cff33ff99/am|r for additional options.",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863846,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:35]|h|r [ArenaMaster.IO]: |cffffffff|cff0033ccTo customize the tooltip and data you're interested in, type |r|cff66ff33'/ampvp'|r|cff0033cc in the chat window to open the settings panel.|r|r",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863846,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:35]|h|r |cffF1D329Current Realm:|r |cff3DD341Emerald Dream|r",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863846,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:42]|h|r |cffe8cd86WowUp Notification|r: All addons are up-to-date",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863853,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:47]|h|r |cFF00FF00GSE|r |cFF00D1FFGSE: Advanced Macro Compiler loaded.|r  Type |cFF00FF00/gse help|r to get started.",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863858,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:47]|h|r |cFF80528CReckless Abandon|r: You are running |cFFB5FFEBv1.5.5|r. Type |cff888888/reckless config|r to configure settings.",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863858,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:47]|h|r |cff9900ffWeakAuras:|r  There are 5 updates to your auras ready to be installed!",
+					["timestamp"] = 15442.434,
+					["serverTime"] = 1667863858,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:51]|h|r 04:30 Jay Maguire yells: One minute till Blight Boar takes the stage! Join us in the Cauldron of Rock on the east side of the island.",
+					["serverTime"] = 1667863862,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15548.537,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:51]|h|r 04:30 Michael Schweitzer yells: The Tauren Chieftains concert will begin in thirty minutes!",
+					["serverTime"] = 1667863862,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15548.537,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:51]|h|r 04:30 Wallace says: This faire is great!",
+					["serverTime"] = 1667863862,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15548.537,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:52]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15548.537,
+					["serverTime"] = 1667863863,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:53]|h|r |cffffaeaeDetails!:|r you can always reset the addon running the command |cFFFFFF00'/details reinstall'|r if it does fail to load after being updated.    ",
+					["timestamp"] = 15548.537,
+					["serverTime"] = 1667863864,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:53]|h|r |cffff7d0a<|r|cffffd200DBM|r|cffff7d0a>|r Loaded 'Darkmoon Faire' mods. For more options such as custom alert sounds and personalized warning notes, type /dbm.",
+					["r"] = 0.41,
+					["serverTime"] = 1667863864,
+					["timestamp"] = 15548.537,
+					["g"] = 0.8,
+					["b"] = 0.94,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:54]|h|r |cffb4b4ffALL THE THINGS|r Profile: Default",
+					["timestamp"] = 15548.537,
+					["serverTime"] = 1667863865,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r |cffffaeaeDetails!:|r seems failed to load, please type /reload to try again.    ",
+					["timestamp"] = 15554.845,
+					["serverTime"] = 1667863863,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r |cffb4b4ffALL THE THINGS|r Refreshing collection...",
+					["timestamp"] = 15554.845,
+					["serverTime"] = 1667863863,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Title |Hgarrmission:ATT:search:titleID:149|h|cff149bfd[149]|r|h",
+					["timestamp"] = 15555.085,
+					["serverTime"] = 1667863863,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Mount |Hgarrmission:ATT:search:spellID:92155|h|cff149bfd[92155]|r|h",
+					["timestamp"] = 15555.115,
+					["serverTime"] = 1667863863,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Mount |Hgarrmission:ATT:search:spellID:306423|h|cff149bfd[306423]|r|h",
+					["timestamp"] = 15555.115,
+					["serverTime"] = 1667863863,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Mount |Hgarrmission:ATT:search:spellID:386452|h|cff149bfd[386452]|r|h",
+					["timestamp"] = 15555.115,
+					["serverTime"] = 1667863863,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r 04:30 Jay Maguire yells: My rockin' and rollin' beauties! You're in the right place to melt your face! Allow me to humbly introduce... Blight Booooar!",
+					["serverTime"] = 1667863863,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15555.333,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Toy |Hgarrmission:ATT:search:toyID:173727|h|cff149bfd[173727]|r|h",
+					["timestamp"] = 15555.356,
+					["serverTime"] = 1667863863,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Toy |Hgarrmission:ATT:search:toyID:89614|h|cff149bfd[89614]|r|h",
+					["timestamp"] = 15555.356,
+					["serverTime"] = 1667863863,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r Added Runeforge Power |Hgarrmission:ATT:search:runeforgePowerID:261|h|cff149bfd[261]|r|h",
+					["timestamp"] = 15555.378,
+					["serverTime"] = 1667863863,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:30:58]|h|r |cffb4b4ffALL THE THINGS|r Done refreshing collection.",
+					["timestamp"] = 15555.637,
+					["serverTime"] = 1667863863,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:01]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15558.614,
+					["serverTime"] = 1667863866,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:05]|h|r 04:31 Death Metal Knight yells: I will prove once and for all that only a knight from the grave can rule heavy metal.",
+					["serverTime"] = 1667863870,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15562.472,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:11]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15568.711,
+					["serverTime"] = 1667863876,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:22]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15578.81,
+					["serverTime"] = 1667863887,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:29]|h|r 04:31 Death Metal Knight yells: Fight though you might, your bodies will freeze and shatter!",
+					["serverTime"] = 1667863894,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15585.939,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:32]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15588.908,
+					["serverTime"] = 1667863897,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:42]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15599.007,
+					["serverTime"] = 1667863907,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:52]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15609.105,
+					["serverTime"] = 1667863917,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:31:59]|h|r 04:31 Poot says: I wonder if we could all get launched out together...",
+					["serverTime"] = 1667863924,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15616.067,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:02]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15619.215,
+					["serverTime"] = 1667863927,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:12]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15629.303,
+					["serverTime"] = 1667863937,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:21]|h|r |cff259054BugSack:|r All stored bugs have been exterminated painfully.",
+					["timestamp"] = 15638.24,
+					["serverTime"] = 1667863952,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:21]|h|r 04:32 Death Metal Knight yells: You have failed, Blight Boar.  Your fans now serve my armies of the dead!",
+					["serverTime"] = 1667863952,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 15638.369,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:22]|h|r |cffffff00There are too many errors in your UI. As a result, your game experience may be degraded. Disable or update the failing addons if you don't want to see this message again.|r",
+					["timestamp"] = 15639.398,
+					["serverTime"] = 1667863953,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r | ",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r  ",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33show hide toggle|r|cfffcffb0 <window number>|r: all windows if <window number> isn't passed.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33reset|r: clear all segments.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33options|r|cfffcffb0 <window number>|r: open the options panel.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33API|r: open the API panel for build plugins, custom displays, auras, etc.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33me|r: open the player breakdown for you.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeae/details|r |cffffff33spells|r: list of spells already saw.",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r  ",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeaeDetails!:|r |cFFFFFF00DETAILS! VERSION|r: |cFFFFAA00R9780",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[16:32:27]|h|r |cffffaeaeDetails!:|r |cFFFFFF00GAME VERSION|r: |cFFFFAA0010.0.0",
+					["timestamp"] = 15643.815,
+					["serverTime"] = 1667863958,
+				}, -- [68]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

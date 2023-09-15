@@ -1,0 +1,61 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0537,
+	["LastPlayerFullName"] = "Saifuu-Emerald Dream",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		[7] = {
+			["ID"] = 72020,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:72020::::::::1:1450::75:::::::|h[Trainee's Leggings]|h|r",
+		},
+		[15] = {
+			["ID"] = 11847,
+			["Level"] = 4,
+			["Link"] = "|cffffffff|Hitem:11847::::::::5:1450:::1:6713:2:28:957:9:4:::::|h[Battered Cloak]|h|r",
+		},
+		[8] = {
+			["ID"] = 174792,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174792::::::::4:1450:::1:6499:2:28:741:9:2:::::|h[Stitched Leather Boots]|h|r",
+		},
+		[16] = {
+			["ID"] = 175170,
+			["Level"] = 8,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:175170::::::::6:1450::11:1:6500:2:28:741:9:5:::::|h[Expeditionary Short Sword]|h|r",
+		},
+		[9] = {
+			["ID"] = 77526,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:77526::::::::1:1450::75:::::::|h[Trainee's Wristwraps]|h|r",
+		},
+		[5] = {
+			["ID"] = 72019,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:72019::::::::1:1450::75:::::::|h[Trainee's Vest]|h|r",
+		},
+		[10] = {
+			["ID"] = 174787,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174787::::::::5:1450::11:1:6499:2:28:741:9:5:::::|h[Thick Leather Gauntlets]|h|r",
+		},
+		[6] = {
+			["ID"] = 174808,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174808::::::::4:1450:::1:6499:2:28:741:9:4:::::|h[Stitched Leather Cinch]|h|r",
+		},
+		[17] = {
+			["ID"] = 175170,
+			["Level"] = 8,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:175170::::::::7:1450::11:1:6500:2:28:741:9:5:::::|h[Expeditionary Short Sword]|h|r",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MONK",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

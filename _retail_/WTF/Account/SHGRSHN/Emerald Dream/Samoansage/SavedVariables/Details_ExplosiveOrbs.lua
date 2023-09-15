@@ -1,0 +1,147 @@
+
+ExplosiveOrbsLog = {
+	[17416] = {
+		["Player-162-0A01C9F2"] = {
+			["target"] = 33,
+			["hit"] = 21,
+		},
+		["runID"] = 252,
+		["Player-5-0B413D96"] = {
+			["target"] = 24,
+			["hit"] = 6,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 79,
+			["hit"] = 60,
+		},
+		["Player-162-09CE598E"] = {
+			["target"] = 4,
+			["hit"] = 1,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 25,
+			["hit"] = 8,
+		},
+	},
+	[17417] = {
+		["Player-162-09CE598E"] = {
+			["target"] = 1,
+		},
+		["runID"] = 252,
+		["Player-5-0B413D96"] = {
+			["target"] = 4,
+			["hit"] = 2,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 12,
+			["hit"] = 8,
+		},
+		["Player-162-0A01C9F2"] = {
+			["target"] = 7,
+			["hit"] = 3,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 2,
+		},
+	},
+	[17422] = {
+		["Player-5-0B413D96"] = {
+			["target"] = 1,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 6,
+			["hit"] = 6,
+		},
+		["Player-162-0A01C9F2"] = {
+			["target"] = 2,
+			["hit"] = 1,
+		},
+		["runID"] = 252,
+	},
+	[17427] = {
+		["Player-162-0A01C9F2"] = {
+			["target"] = 11,
+			["hit"] = 7,
+		},
+		["runID"] = 252,
+		["Player-5-0B413D96"] = {
+			["target"] = 1,
+			["hit"] = 0,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 18,
+			["hit"] = 14,
+		},
+		["Player-162-09CE598E"] = {
+			["target"] = 1,
+			["hit"] = 0,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 3,
+			["hit"] = 1,
+		},
+	},
+	[17428] = {
+		["runID"] = 252,
+		["Player-5-0B413D96"] = {
+			["target"] = 5,
+			["hit"] = 1,
+		},
+		["Player-162-0A01C9F2"] = {
+			["target"] = 7,
+			["hit"] = 7,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 13,
+			["hit"] = 11,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 2,
+		},
+	},
+	[17429] = {
+		["Player-162-09CE598E"] = {
+			["target"] = 7,
+			["hit"] = 1,
+		},
+		["Player-5-0B413D96"] = {
+			["target"] = 43,
+			["hit"] = 10,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 152,
+			["hit"] = 122,
+		},
+		["Player-162-0A01C9F2"] = {
+			["target"] = 69,
+			["hit"] = 43,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 35,
+			["hit"] = 10,
+		},
+	},
+	[17421] = {
+		["runID"] = 252,
+		["Player-162-09CE598E"] = {
+			["target"] = 1,
+			["hit"] = 0,
+		},
+		["Player-5-0B413D96"] = {
+			["target"] = 8,
+			["hit"] = 1,
+		},
+		["Player-162-0A01C9F2"] = {
+			["target"] = 9,
+			["hit"] = 4,
+		},
+		["Player-5-0B3DC6CF"] = {
+			["target"] = 24,
+			["hit"] = 23,
+		},
+		["Player-75-0C91432B"] = {
+			["target"] = 3,
+			["hit"] = 1,
+		},
+	},
+}

@@ -1,0 +1,31 @@
+
+cosFixDB = {
+	["char"] = {
+		["Mygallexi - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+		},
+		["Brisannie - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+		},
+	},
+	["profileKeys"] = {
+		["Luvley - Emerald Dream"] = "Default",
+		["Mygallexi - Emerald Dream"] = "Default",
+		["Brisannie - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+customOffsetFactors = {
+	["mountId"] = {
+	},
+	["modelId"] = {
+	},
+	["vehicleId"] = {
+	},
+}
+customSpellsToModels = nil
+newFactorTriggers = {
+}

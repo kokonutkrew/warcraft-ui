@@ -1,0 +1,63 @@
+
+OmniBarDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Antoruskk - Emerald Dream"] = "Default",
+		["Seawings - Emerald Dream"] = "Default",
+		["Urorincar - Emerald Dream"] = "Default",
+		["Kkranger - Emerald Dream"] = "Default",
+		["Anightholdkk - Emerald Dream"] = "Default",
+		["Adeadmineskk - Emerald Dream"] = "Default",
+		["Azushina - Emerald Dream"] = "Default",
+		["Plvl - Emerald Dream"] = "Default",
+		["Kkmystic - Emerald Dream"] = "Default",
+		["Kyliegurl - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["scenario"] = true,
+					["tooltips"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["border"] = true,
+					["center"] = false,
+					["trackUnit"] = "ENEMY",
+					["locked"] = false,
+					["showUnused"] = false,
+					["world"] = true,
+					["size"] = 40,
+					["cooldownCount"] = true,
+					["highlightTarget"] = true,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.45,
+					["align"] = "CENTER",
+					["highlightFocus"] = false,
+					["padding"] = 2,
+					["adaptive"] = false,
+					["maxIcons"] = 32,
+					["ratedBattleground"] = true,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "CENTER",
+						["relativePoint"] = "CENTER",
+						["yOfs"] = 3.999996900558472,
+						["xOfs"] = -174.9997863769531,
+						["frameStrata"] = "MEDIUM",
+					},
+					["growUpward"] = true,
+					["arena"] = true,
+					["swipeAlpha"] = 0.65,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+BiSTrackerDB = {
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

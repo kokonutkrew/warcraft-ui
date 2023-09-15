@@ -1,0 +1,17 @@
+
+LootAppraiserDB = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+LALootDB = {
+	["profileKeys"] = {
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+	},
+}

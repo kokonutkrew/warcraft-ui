@@ -1,0 +1,8 @@
+Version: 1
+Frame: RXPTargetFrame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -167
+Y: -87
+W: 87
+H: 68

@@ -1,0 +1,17 @@
+
+BattleGroundEnemiesDB = {
+	["profileKeys"] = {
+		["Snukkle - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Grapejellie - Tichondrius"] = "Default",
+		["Summoness - Emerald Dream"] = "Default",
+		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Monksee - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastReadVersion"] = "10.0.2.6",
+		},
+	},
+}

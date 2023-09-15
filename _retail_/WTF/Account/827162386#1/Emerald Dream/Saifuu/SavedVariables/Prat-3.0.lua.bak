@@ -1,0 +1,2099 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1651965789,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 578177.696,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 578177.696,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 578177.696,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 578143.078,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 19,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:04]|h|r Received 14 Silver, 70 Copper.",
+					["serverTime"] = 1651968396,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580785.107,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:04]|h|r Quest accepted: Controlling their Stones",
+					["serverTime"] = 1651968396,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580785.642,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:05]|h|r Captain Garrick says: Gor'groth mentioned ward stones. Find them so we can free the captain.",
+					["serverTime"] = 1651968397,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580785.892,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:06]|h|r Quest accepted: Like Ogres to the Slaughter",
+					["serverTime"] = 1651968398,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580787.279,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:08]|h|r Quest accepted: Catapult Destruction",
+					["serverTime"] = 1651968400,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580789.301,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:25]|h|r |cffd8d8d8[|r|Hplayer:Cairela-EmeraldDream:412:ACHIEVEMENT|h|cffd8bc3f4|r:|cff3ec6eaCairela|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:6:Player-162-0B799721:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Level 10]|h|r!",
+					["serverTime"] = 1651968417,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580806.161,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:09:38]|h|r |cffd8d8d8[|r|Hplayer:Moboo-EmeraldDream:413:ACHIEVEMENT|h|cffd8bc3f5|r:|cffc59a6cMoboo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:6:Player-162-0B799128:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Level 10]|h|r!",
+					["serverTime"] = 1651968610,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580999.306,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:09:38]|h|r |cffd8d8d8[|r|Hplayer:Moboo-EmeraldDream:414:ACHIEVEMENT|h|cffd8bc3f5|r:|cffc59a6cMoboo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:503:Player-162-0B799128:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r!",
+					["serverTime"] = 1651968610,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580999.306,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:11:08]|h|r You are now Away: AFK",
+					["serverTime"] = 1651968700,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 581089.385,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:16:37]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Æthelred-Bloodhoof:416:CHANNEL:4|h|cff00fe97Æthelred|r-|cff03f265Blo|r|h|cffd8d8d8]|r: ./.",
+					["serverTime"] = 1651969029,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						5, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 581418.621,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:17:56]|h|r |cffd8d8d8[|r|Hplayer:Lunamora-ArgentDawn:417:ACHIEVEMENT|h|cffd8bc3f9|r:|cff3ec6eaLunamora|r-|cff5f8b4fArg|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:504:Player-75-0EB5388C:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!",
+					["serverTime"] = 1651969108,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 581497.203,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:19:07]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Pâlademon-Tichondrius:418:CHANNEL:4|h|cfff38bb9Pâlademon|r-|cff20beccTic|r|h|cffd8d8d8]|r: ok",
+					["serverTime"] = 1651969179,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						5, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 581567.897,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:25:57]|h|r Treasure seen: Precious Ogre Stash (41.8, 42.9)",
+					["r"] = 1,
+					["serverTime"] = 1651969589,
+					["timestamp"] = 581977.885,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:26:43]|h|r |cffd8d8d8[|r|Hplayer:Radrick-TheVentureCo:419:ACHIEVEMENT|h|cff3ec6eaRadrick|r-|cff6fd373The|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:6:Player-163-0B78627D:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Level 10]|h|r!",
+					["serverTime"] = 1651969635,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						30, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582024.203,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:27:24]|h|r |cffd8d8d8[|r|Hplayer:Luxiam-ArgentDawn:420:ACHIEVEMENT|h|cffd8bc3f9|r:|cfff38bb9Luxiam|r-|cff5f8b4fArg|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:6:Player-75-0EB53884:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Level 10]|h|r!",
+					["serverTime"] = 1651969676,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582064.872,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:27:27]|h|r |cffd8d8d8[|r|Hplayer:Lunamora-ArgentDawn:421:ACHIEVEMENT|h|cffd8bc3f9|r:|cff3ec6eaLunamora|r-|cff5f8b4fArg|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:6:Player-75-0EB5388C:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[Level 10]|h|r!",
+					["serverTime"] = 1651969679,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582068.282,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:31:39]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Elfenmage-Stormrage:422:CHANNEL:4|h|cff3ec6eaElfenmage|r-|cffc4955eSto|r|h|cffd8d8d8]|r: |cff1eff00|Hitem:158220::::::::42:63::11:1:4790:2:28:186:9:41:::::|h[Cooper's Horseshoe]|h|r",
+					["serverTime"] = 1651969931,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						5, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582320.025,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:35:46]|h|r |cffd8d8d8[|r|Hplayer:Kharazim-EarthenRing:423:ACHIEVEMENT|h|cff00fe97Kharazim|r-|cfffbabb4Ear|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:503:Player-100-0DD572A4:1:5:7:22:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r!",
+					["serverTime"] = 1651970178,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						22, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582567.438,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:36:08]|h|r You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["serverTime"] = 1651970200,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 582589.394,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:52]|h|r Henry Garrick says: That's Meredy, our mage. We have to rescue her!",
+					["serverTime"] = 1651967664,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580053.0750000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:55]|h|r The Harpy Problem completed.",
+					["serverTime"] = 1651967667,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580055.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:55]|h|r Experience gained: 440.",
+					["serverTime"] = 1651967667,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580055.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:55]|h|r Received 4 Silver.",
+					["serverTime"] = 1651967667,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580055.978,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:56]|h|r Quest accepted: Harpy Culling",
+					["serverTime"] = 1651967668,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580057.737,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:58]|h|r Quest accepted: The Rescue of Meredy Huntswell",
+					["serverTime"] = 1651967670,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580059.742,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:53:59]|h|r Quest accepted: Purge the Totems",
+					["serverTime"] = 1651967671,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580060.104,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:54:01]|h|r Henry Garrick says: Let's deal with those harpies. I just hope Meredy is okay...",
+					["serverTime"] = 1651967673,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580062.099,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:54:04]|h|r Kee-La says: She will be. Come on!",
+					["serverTime"] = 1651967676,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580064.906,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:55:10]|h|r Rare seen: Ogre Taskmaster (vignette @ 57.5, 40.9)",
+					["r"] = 1,
+					["serverTime"] = 1651967742,
+					["timestamp"] = 580131.192,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:55:21]|h|r Ogre Taskmaster says: Me gonna bring you to boss!",
+					["serverTime"] = 1651967753,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580142.219,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:55:43]|h|r Ogre Taskmaster says: Boss... counting... on me...",
+					["serverTime"] = 1651967775,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580163.805,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:55:47]|h|r You receive loot: |cffffffff|Hitem:175240::::::::6:1450:::::::::|h[Tattered Leather Bag]|h|r",
+					["serverTime"] = 1651967779,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580168.743,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:55:50]|h|r You loot 26 Copper",
+					["serverTime"] = 1651967782,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580170.784,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:56:23]|h|r Meredy Huntswell says: I'll cast a spell tae get meself outta here. Keep the harpies off of me!",
+					["serverTime"] = 1651967815,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580203.8960000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:56:26]|h|r Harpy Ambusher says: You look much tastier than a murloc!",
+					["serverTime"] = 1651967818,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580206.8690000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:57:04]|h|r Kee-La says: Hang in there! I'm here to help!",
+					["serverTime"] = 1651967856,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580244.792,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:57:09]|h|r Henry Garrick says: Keep fighting! I'll heal you!",
+					["serverTime"] = 1651967861,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580250.477,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:57:50]|h|r Kee-La says: Something huge is headed this way!",
+					["serverTime"] = 1651967902,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580290.922,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:57:51]|h|r Henry Garrick says: We can beat it if we fight together! For the Alliance!",
+					["serverTime"] = 1651967903,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580292.5920000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:58:32]|h|r Meredy Huntswell says: Hah! There! Come on, let's get outta here while we can!",
+					["serverTime"] = 1651967944,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580333.411,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:00]|h|r The Rescue of Meredy Huntswell completed.",
+					["serverTime"] = 1651967972,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580361.669,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:00]|h|r Experience gained: 875.",
+					["serverTime"] = 1651967972,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580361.669,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:00]|h|r Received 8 Silver.",
+					["serverTime"] = 1651967972,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580361.669,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:03]|h|r You have learned a new ability: |cff71d5ff|Hspell:101546:0|h[Spinning Crane Kick]|h|r.",
+					["serverTime"] = 1651967975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580363.762,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:03]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:7:LEVEL_UP_TYPE_CHARACTER|h[Level 7]|h|r!",
+					["serverTime"] = 1651967975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 580363.762,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:03]|h|r Harpy Culling completed.",
+					["serverTime"] = 1651967975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580363.834,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:03]|h|r Experience gained: 875.",
+					["serverTime"] = 1651967975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580363.834,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:03]|h|r Received 8 Silver.",
+					["serverTime"] = 1651967975,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580363.834,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:04]|h|r |cff1eff00|Hitem:175202::::::::6:1450:::::::::|h[Expeditionary Leather Belt]|h|r (175202) was added to your collection.",
+					["timestamp"] = 580365.52,
+					["serverTime"] = 1651967976,
+				}, -- [49]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:04]|h|r You receive item: |cff1eff00|Hitem:175202::::::::7:1450::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Belt]|h|r",
+					["serverTime"] = 1651967976,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580365.52,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:04]|h|r Purge the Totems completed.",
+					["serverTime"] = 1651967976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580365.652,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:04]|h|r Experience gained: 1000.",
+					["serverTime"] = 1651967976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580365.652,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [52]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:04]|h|r Received 10 Silver, 15 Copper.",
+					["serverTime"] = 1651967976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580365.652,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [53]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:05]|h|r Quest accepted: Message to Base",
+					["serverTime"] = 1651967977,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580366.401,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [54]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:06]|h|r |cff1eff00|Hitem:175233::::::::7:1450:::::::::|h[Expeditionary Leather Belt]|h|r (175233) was added to your collection.",
+					["timestamp"] = 580366.802,
+					["serverTime"] = 1651967978,
+				}, -- [55]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:07]|h|r Henry Garrick says: The captain will be thrilled! Let's get back to camp and deliver the good news.",
+					["serverTime"] = 1651967979,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580368.519,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [56]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:31]|h|r Quest accepted: Freeing the Light",
+					["serverTime"] = 1651968003,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580392.65,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:32]|h|r Lightspawn says: Dispel the foul magic that binds me here.",
+					["serverTime"] = 1651968004,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580392.951,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [58]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:51]|h|r Lightspawn says: I attempted to bring an end to these rituals...",
+					["serverTime"] = 1651968023,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580411.9670000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [59]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:59:59]|h|r Lightspawn says: But the ogres ensnared me... drained my power...",
+					["serverTime"] = 1651968031,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580420.0210000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [60]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:07]|h|r Lightspawn says: Free me, so I might recover... and pass some of my power to you.",
+					["serverTime"] = 1651968039,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580428.371,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [61]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:16]|h|r Lightspawn says: The spell is weakening... the Light returns to me!",
+					["serverTime"] = 1651968048,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580437.628,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [62]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:24]|h|r Lightspawn says: Ahh, freedom! You have my gratitude.",
+					["serverTime"] = 1651968056,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580444.8640000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [63]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:28]|h|r Freeing the Light completed.",
+					["serverTime"] = 1651968060,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580449.51,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [64]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:28]|h|r Experience gained: 130.",
+					["serverTime"] = 1651968060,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580449.51,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:28]|h|r Received 1 Silver.",
+					["serverTime"] = 1651968060,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580449.51,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:30]|h|r Lightspawn says: Accept my blessing, and end the necromancy that plagues this island.",
+					["serverTime"] = 1651968062,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580451.715,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [67]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:00:57]|h|r Henry Garrick says: We saved Meredy, all thanks to Saifuu!",
+					["serverTime"] = 1651968089,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580478.585,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [68]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:00]|h|r Captain Garrick says: Good work. Now get some rest. We'll find the others soon.",
+					["serverTime"] = 1651968092,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580481.326,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [69]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Who Lurks in the Pit completed.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.121,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Experience gained: 1250.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.121,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Received 20 Silver, 30 Copper.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.121,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r You receive item: |cff1eff00|Hitem:175206::::::::7:1450::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Bracers]|h|r",
+					["serverTime"] = 1651968093,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.204,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r |cff1eff00|Hitem:175206::::::::6:1450:::::::::|h[Expeditionary Leather Bracers]|h|r (175206) was added to your collection.",
+					["timestamp"] = 580482.334,
+					["serverTime"] = 1651968093,
+				}, -- [74]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Message to Base completed.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.519,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Experience gained: 500.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.519,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r Received 5 Silver, 10 Copper.",
+					["serverTime"] = 1651968093,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.519,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:01]|h|r You receive item: |cff1eff00|Hitem:175194::::::::7:1450::11:1:6500:2:9:7:28:741:::::|h[Expeditionary Leather Legguards]|h|r",
+					["serverTime"] = 1651968093,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580482.593,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:02]|h|r |cff1eff00|Hitem:175194::::::::6:1450:::::::::|h[Expeditionary Leather Legguards]|h|r (175194) was added to your collection.",
+					["timestamp"] = 580482.725,
+					["serverTime"] = 1651968094,
+				}, -- [79]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:02]|h|r |cff1eff00|Hitem:175237::::::::7:1450:::::::::|h[Expeditionary Leather Bracers]|h|r (175237) was added to your collection.",
+					["timestamp"] = 580482.725,
+					["serverTime"] = 1651968094,
+				}, -- [80]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:02]|h|r |cff1eff00|Hitem:175226::::::::7:1450:::::::::|h[Expeditionary Leather Legguards]|h|r (175226) was added to your collection.",
+					["timestamp"] = 580483.581,
+					["serverTime"] = 1651968094,
+				}, -- [81]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:06]|h|r Quest accepted: A Monk's Focus",
+					["serverTime"] = 1651968098,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580487.568,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [82]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:09]|h|r Kee-La says: Come. Let us meditate and unlock our inner potential.",
+					["serverTime"] = 1651968101,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580489.757,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [83]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:01:52]|h|r Kee-La says: Close your eyes. Find your center.",
+					["serverTime"] = 1651968144,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580533.522,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [84]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:00]|h|r Kee-La says: Let the world fade away...",
+					["serverTime"] = 1651968152,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580541.609,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [85]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:06]|h|r Visage of Master Hight says: Open your eyes, my student.",
+					["serverTime"] = 1651968158,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580547.708,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [86]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:10]|h|r Visage of Master Hight says: I am Master Hight. Though I am far away, your spirit has reached out to me for guidance.",
+					["serverTime"] = 1651968162,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580551.501,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [87]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:17]|h|r Visage of Master Hight says: I will teach you how to perform the Touch of Death. It may prove the key to saving your friends.",
+					["serverTime"] = 1651968169,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580558.719,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [88]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:28]|h|r Kee-La says: I believe we are finished. How do you feel?",
+					["serverTime"] = 1651968180,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580569.514,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [89]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:34]|h|r You have learned a new ability: |cff71d5ff|Hspell:322109:0|h[Touch of Death]|h|r.",
+					["serverTime"] = 1651968186,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580575.43,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:34]|h|r A Monk's Focus completed.",
+					["serverTime"] = 1651968186,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580575.466,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:34]|h|r Experience gained: 1250.",
+					["serverTime"] = 1651968186,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580575.466,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:34]|h|r Received 20 Silver, 30 Copper.",
+					["serverTime"] = 1651968186,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580575.466,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:37]|h|r Quest accepted: One Last Spar",
+					["serverTime"] = 1651968189,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580577.976,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:02:39]|h|r Kee-La says: Let me see what you've learned!",
+					["serverTime"] = 1651968191,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580580.181,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [95]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:03:14]|h|r Kee-La says: I won't stop fighting until you show me your new skill!",
+					["serverTime"] = 1651968226,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580614.854,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [96]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:03:20]|h|r Kee-La says: I won't stop fighting until you show me your new skill!",
+					["serverTime"] = 1651968232,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580620.887,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [97]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:03:28]|h|r Kee-La says: I won't stop fighting until you show me your new skill!",
+					["serverTime"] = 1651968240,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580629.225,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [98]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:03:39]|h|r Kee-La says: I won't stop fighting until you show me your new skill!",
+					["serverTime"] = 1651968251,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580640.023,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [99]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:03:39]|h|r Kee-La says: Impressive! Your skills have grown tremendously. Let's return to Captain Garrick.",
+					["serverTime"] = 1651968251,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580640.023,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [100]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r You have learned a new spell: |cff71d5ff|Hspell:322101:0|h[Expel Harm]|h|r.",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [101]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r Area Loot Unlocked",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [102]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r Congratulations, you have reached |cffFF4E00|Hlevelup:8:LEVEL_UP_TYPE_CHARACTER|h[Level 8]|h|r!",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r One Last Spar completed.",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r Experience gained: 1250.",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:01]|h|r Received 20 Silver, 30 Copper.",
+					["serverTime"] = 1651968273,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580662.607,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [106]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:14]|h|r Quest accepted: To Darkmaul Citadel",
+					["serverTime"] = 1651968286,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580675.402,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [107]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:15]|h|r Captain Garrick says: Recruit, you're with us. The rest of you stay here while we head for the citadel.",
+					["serverTime"] = 1651968287,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580676.334,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [108]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:39]|h|r To Darkmaul Citadel completed.",
+					["serverTime"] = 1651968311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580699.911,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [109]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:39]|h|r Experience gained: 575.",
+					["serverTime"] = 1651968311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580699.911,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:39]|h|r Received 7 Silver, 35 Copper.",
+					["serverTime"] = 1651968311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580699.911,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:40]|h|r Quest accepted: Right Beneath Their Eyes",
+					["serverTime"] = 1651968312,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580700.802,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:41]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Regne-Nemesis:391:CHANNEL:4|h|cff00fe97Regne|r-|cff7bb8deNem|r|h|cffd8d8d8]|r: oi",
+					["serverTime"] = 1651968313,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						5, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580702.139,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:42]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Regne-Nemesis:392:CHANNEL:4|h|cff00fe97Regne|r-|cff7bb8deNem|r|h|cffd8d8d8]|r: ops",
+					["serverTime"] = 1651968314,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						5, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580703.292,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:45]|h|r Meredy Huntswell says: If ye feel a strange tingle, that means the illusion is working!",
+					["serverTime"] = 1651968317,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580706.147,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [115]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:52]|h|r Captain Garrick says: All right, Saifuu. Just act like an ogre and get us inside the citadel.",
+					["serverTime"] = 1651968324,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580713.276,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [116]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:04:56]|h|r Henry Garrick says: Don't use big words. In fact, don't say anything at all. Just smile and wave.",
+					["serverTime"] = 1651968328,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580717.557,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [117]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:06]|h|r Ogre Shadowcaster says: More sacrifices! Go to cooking pit, wave at Gor'groth. Show what you got!",
+					["serverTime"] = 1651968338,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580726.968,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [118]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:15]|h|r Captain Garrick says: Keep moving... let's see what we can learn about the ritual.",
+					["serverTime"] = 1651968347,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580735.862,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [119]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:17]|h|r Gor'groth says: What do we have here... all the sacrifices we thought we lost!",
+					["serverTime"] = 1651968349,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580738.235,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [120]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:27]|h|r You wave at Meredy Huntswell.",
+					["serverTime"] = 1651968359,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580748.01,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [121]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:29]|h|r Gor'groth says: Take them to the back. We'll seal them with the ward stones like we did their leader.",
+					["serverTime"] = 1651968361,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580750.4,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [122]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:39]|h|r Gor'groth says: It is time to complete the ritual atop the citadel. Then all will bow before us!",
+					["serverTime"] = 1651968371,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580759.824,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [123]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:48]|h|r Henry Garrick says: Captain Kelra! No, no, no... how can we break these seals?",
+					["serverTime"] = 1651968380,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580769.434,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [124]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:53]|h|r Captain Garrick says: There is always a way, Henry.",
+					["serverTime"] = 1651968385,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580774.278,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [125]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:05:57]|h|r Treasure seen: Precious Ogre Stash (41.8, 42.9)",
+					["r"] = 1,
+					["serverTime"] = 1651968389,
+					["timestamp"] = 580778.306,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [126]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:04]|h|r Right Beneath Their Eyes completed.",
+					["serverTime"] = 1651968396,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580785.107,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[18:06:04]|h|r Experience gained: 1150.",
+					["serverTime"] = 1651968396,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 580785.107,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

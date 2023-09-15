@@ -1,0 +1,15 @@
+
+GladiatorlosSADB = {
+	["profileKeys"] = {
+		["Tygrrlilly - Emerald Dream"] = "Default",
+		["Cherriebomb - Emerald Dream"] = "Default",
+		["Grapejellie - Tichondrius"] = "Default",
+		["Snukkle - Emerald Dream"] = "Default",
+		["Grapejellie - Emerald Dream"] = "Default",
+		["Monksee - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

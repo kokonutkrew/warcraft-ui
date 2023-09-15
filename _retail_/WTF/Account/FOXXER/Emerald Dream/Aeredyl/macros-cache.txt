@@ -1,0 +1,31 @@
+VER 3 0100000000000004 "01. Ranged Pull" "132094"
+/follow party1
+/assist party1
+/use poisoned knife
+END
+VER 3 0100000000000001 "02. Damage" "132094"
+/follow party1
+/assist party1
+/use shadowstep
+/use garrote
+/use sinister strike
+END
+VER 3 0100000000000005 "03. Dots" "132094"
+/follow party1
+/assist party1
+/use rupture
+END
+VER 3 0100000000000003 "05. Battle Buffs" "132094"
+/follow party1
+/assist party1
+/cast crimson vial
+/use garrote
+END
+VER 3 0100000000000002 "10. Finisher" "132094"
+/follow party1
+/assist party1
+/use eviscerate
+END
+VER 3 0100000000000006 "11. Stealth" "132094"
+/castsequence [stance:0] reset=15 stealth, vanish; [stance:1] shadowstep, cheap shot; [stance:2] cheap shot; [stance:3] cheap shot
+END

@@ -1,0 +1,40 @@
+
+OmniBarDB = {
+	["profileKeys"] = {
+		["Kk - Grobbulus"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["scenario"] = true,
+					["border"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["highlightFocus"] = false,
+					["locked"] = false,
+					["center"] = false,
+					["growUpward"] = true,
+					["size"] = 40,
+					["cooldownCount"] = true,
+					["highlightTarget"] = true,
+					["columns"] = 8,
+					["unusedAlpha"] = 0.45,
+					["align"] = "CENTER",
+					["padding"] = 2,
+					["showUnused"] = false,
+					["adaptive"] = false,
+					["maxIcons"] = 500,
+					["swipeAlpha"] = 0.65,
+					["name"] = "OmniBar",
+					["world"] = true,
+					["ratedBattleground"] = true,
+					["arena"] = true,
+					["tooltips"] = true,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

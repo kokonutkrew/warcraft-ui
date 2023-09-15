@@ -1,0 +1,38 @@
+
+cosFixDB = {
+	["char"] = {
+		["Bnightholdkk - Emerald Dream"] = {
+			["lastModelId"] = 921844,
+		},
+		["Bantoruskk - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+		},
+		["Sphinx - Emerald Dream"] = {
+			["lastModelId"] = 1000764,
+		},
+		["Aerielle - Emerald Dream"] = {
+			["lastModelId"] = 1733758,
+		},
+	},
+	["profileKeys"] = {
+		["Bnightholdkk - Emerald Dream"] = "Default",
+		["Bantoruskk - Emerald Dream"] = "Default",
+		["Sphinx - Emerald Dream"] = "Default",
+		["Aerielle - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+customOffsetFactors = {
+	["mountId"] = {
+	},
+	["modelId"] = {
+	},
+	["vehicleId"] = {
+	},
+}
+customSpellsToModels = nil
+newFactorTriggers = {
+}

@@ -2,7 +2,7 @@
 FieldGuideOptions = {
 	["showTalents"] = true,
 	["showKnownSpells"] = true,
+	["showEnemySpells"] = false,
 	["minimapTable"] = {
 	},
-	["showEnemySpells"] = false,
 }

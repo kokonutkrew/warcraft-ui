@@ -59,7 +59,7 @@ Details_TinyThreat: disabled
 Details_Vanguard: disabled
 EMA-Classic: disabled
 FarmingBar: disabled
-FieldGuide: disabled
+FieldGuide: enabled
 GatherNotify: disabled
 Ginv: disabled
 GreenWall: disabled

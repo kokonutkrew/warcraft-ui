@@ -18,8 +18,7 @@ VER 3 0000000000000013 "/GuildInvite" "135946"
 END
 VER 3 0000000000000052 "/tar" "132212"
 #showtooltip
-/target ursa
-/target legacki
+/target blacksmith verringtan
 END
 VER 3 0000000000000009 "01.RangedPull" "132094"
 #showtooltip
@@ -306,10 +305,10 @@ VER 3 000000000000004F "rougeSap" "INV_MISC_QUESTIONMARK"
 /cast Sap
 /cast Pick Pocket
 END
-VER 3 000000000000006B "RXPTargeting" "132150"
+VER 3 0000000000000059 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
-VER 3 0000000000000059 "RXPTargeting" "Ability_eyeoftheowl"
+VER 3 000000000000006B "RXPTargeting" "132150"
 //RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000048 "warBloodrage" "INV_MISC_QUESTIONMARK"
